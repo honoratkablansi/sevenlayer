@@ -21,6 +21,7 @@ def test_every_bibliography_ref_present_exactly_once():
 
 def test_entry_shape():
     for e in load():
+        assert e["status"] in {"pending", "ok", "ok-stealth", "stub", "failed"}
         assert e["type"] in VALID_TYPES
         assert e["citation"].strip()
         assert e["chapters"] and all(1 <= c <= 14 for c in e["chapters"])
@@ -41,3 +42,8 @@ def test_slugs_are_kebab_case_and_unique():
     assert len(slugs) == len(set(slugs))
     for s in slugs:
         assert re.fullmatch(r"[a-z0-9]+(-[a-z0-9]+)*", s), s
+
+
+def test_urls_unique():
+    urls = [e["url"] for e in load() if "url" in e]
+    assert len(urls) == len(set(urls))
