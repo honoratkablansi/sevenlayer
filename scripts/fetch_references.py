@@ -19,9 +19,16 @@ def load_manifest() -> list[dict]:
     return json.loads(MANIFEST_PATH.read_text(encoding="utf-8"))
 
 
+def atomic_write(path: Path, data: bytes) -> None:
+    tmp = path.with_suffix(path.suffix + ".tmp")
+    tmp.write_bytes(data)
+    tmp.replace(path)
+
+
 def save_manifest(entries: list[dict]) -> None:
-    MANIFEST_PATH.write_text(
-        json.dumps(entries, indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
+    atomic_write(
+        MANIFEST_PATH,
+        (json.dumps(entries, indent=2, ensure_ascii=False) + "\n").encode("utf-8"),
     )
 
 
@@ -92,21 +99,33 @@ def fetch_web_text(url: str) -> tuple[str | None, str]:
     try:
         page = StealthyFetcher.fetch(url, headless=True, network_idle=True, timeout=120000)
         if page.status == 200:
-            return str(page.get_all_text(ignore_tags=("script", "style")).strip()), "stealthy"
+            text = page.get_all_text(ignore_tags=("script", "style")).strip()
+            if len(text) > 200:
+                return str(text), "stealthy"
     except Exception as exc:  # noqa: BLE001
         print(f"    stealthy: {exc}")
     return None, ""
 
 
-def process(entry: dict, force: bool, dry_run: bool) -> str:
+def process(entry: dict, entries: list[dict], force: bool, dry_run: bool) -> str:
     """Returns the new status for the entry."""
     if entry.get("duplicate_of") is not None:
-        target = next(e for e in load_manifest() if e["id"] == entry["duplicate_of"])
+        matches = [e for e in entries if e["id"] == entry["duplicate_of"]]
+        if not matches:
+            print(f"  warning: duplicate_of={entry['duplicate_of']} not found in entries")
+            return "failed"
+        target = matches[0]
         return "ok" if (REPO / target["file"]).exists() else "pending"
 
     out = REPO / entry["file"]
     if out.exists() and not force:
-        return entry["status"] if entry["status"] not in ("pending", "failed") else "ok"
+        # For paper entries, validate the stored file is a real PDF; re-download if not.
+        if entry["type"] == "paper" and not is_pdf(out.read_bytes()):
+            pass  # fall through to re-download
+        else:
+            if entry["type"] == "stub":
+                return "stub"
+            return entry["status"] if entry["status"] not in ("pending", "failed") else "ok"
     if dry_run:
         print(f"  would fetch [{entry['type']}] {entry.get('url', '(stub)')} -> {entry['file']}")
         return entry["status"]
@@ -115,19 +134,19 @@ def process(entry: dict, force: bool, dry_run: bool) -> str:
     today = datetime.date.today().isoformat()
 
     if entry["type"] == "stub":
-        out.write_text(stub_markdown(entry), encoding="utf-8")
+        atomic_write(out, stub_markdown(entry).encode("utf-8"))
         return "stub"
     if entry["type"] == "paper":
         data, how = fetch_paper(entry["url"])
         if data is None:
             return "failed"
-        out.write_bytes(data)
-        return "ok" if how == "fetcher-chrome" else "ok-stealth"
+        atomic_write(out, data)
+        return "ok"
     # web
     text, how = fetch_web_text(entry["url"])
     if text is None:
         return "failed"
-    out.write_text(web_markdown(entry, text, how, today), encoding="utf-8")
+    atomic_write(out, web_markdown(entry, text, how, today).encode("utf-8"))
     return "ok" if how == "fetcher" else "ok-stealth"
 
 
@@ -144,14 +163,22 @@ def main() -> int:
         if only and entry["id"] not in only:
             continue
         print(f"[{entry['id']:02d}] {entry['slug']} ({entry['type']})")
-        entry["status"] = process(entry, args.force, args.dry_run)
+        entry["status"] = process(entry, entries, args.force, args.dry_run)
         print(f"  -> {entry['status']}")
         if not args.dry_run:
             save_manifest(entries)
 
+    selected_bad = [
+        e["id"] for e in entries
+        if e["status"] in ("pending", "failed") and (only is None or e["id"] in only)
+    ]
     bad = [e["id"] for e in entries if e["status"] in ("pending", "failed")]
     print(f"\n{len(entries) - len(bad)}/{len(entries)} resolved; unresolved: {bad or 'none'}")
-    return 1 if (bad and not args.dry_run and not only) else 0
+    if args.dry_run:
+        return 0
+    if only is not None:
+        return 1 if selected_bad else 0
+    return 1 if bad else 0
 
 
 if __name__ == "__main__":
