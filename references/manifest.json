@@ -1,65 +1,775 @@
 [
-  {"id": 1, "slug": "clarke-profiles-of-the-future", "citation": "Clarke, Arthur C. Profiles of the Future. Harper & Row, 1962.", "chapters": [1], "type": "stub", "file": "references/ch01/ref-01-clarke-profiles-of-the-future.md", "status": "pending"},
-  {"id": 2, "slug": "gmr-knowledge-complexity", "citation": "Goldwasser, Micali, Rackoff. The Knowledge Complexity of Interactive Proof Systems. SIAM J. Computing 18(1), 1989.", "chapters": [1], "type": "paper", "url": "https://people.csail.mit.edu/silvio/Selected%20Scientific%20Papers/Proof%20Systems/The_Knowledge_Complexity_Of_Interactive_Proof_Systems.pdf", "file": "references/ch01/ref-02-gmr-knowledge-complexity.pdf", "status": "pending"},
-  {"id": 3, "slug": "sok-snark-vulnerabilities", "citation": "Chaliasos et al. SoK: What Don't We Know? Understanding Security Vulnerabilities in SNARKs. USENIX Security 2024.", "chapters": [1], "type": "paper", "url": "https://arxiv.org/pdf/2402.15293", "file": "references/ch01/ref-03-sok-snark-vulnerabilities.pdf", "status": "pending"},
-  {"id": 4, "slug": "kzg-commitments", "citation": "Kate, Zaverucha, Goldberg. Constant-Size Commitments to Polynomials and Their Applications. ASIACRYPT 2010.", "chapters": [2], "type": "paper", "url": "https://cacr.uwaterloo.ca/techreports/2010/cacr2010-10.pdf", "file": "references/ch02/ref-04-kzg-commitments.pdf", "status": "pending"},
-  {"id": 5, "slug": "mpc-random-beacon", "citation": "Bowe, Gabizon, Miers. Scalable Multi-party Computation for zk-SNARK Parameters in the Random Beacon Model. ePrint 2017/1050.", "chapters": [2], "type": "paper", "url": "https://eprint.iacr.org/2017/1050.pdf", "file": "references/ch02/ref-05-mpc-random-beacon.pdf", "status": "pending"},
-  {"id": 6, "slug": "groth16", "citation": "Groth, Jens. On the Size of Pairing-Based Non-interactive Arguments. EUROCRYPT 2016. ePrint 2016/260.", "chapters": [2], "type": "paper", "url": "https://eprint.iacr.org/2016/260.pdf", "file": "references/ch02/ref-06-groth16.pdf", "status": "pending"},
-  {"id": 7, "slug": "plonk", "citation": "Gabizon, Williamson, Ciobotaru. PLONK. ePrint 2019/953.", "chapters": [2], "type": "paper", "url": "https://eprint.iacr.org/2019/953.pdf", "file": "references/ch02/ref-07-plonk.pdf", "status": "pending"},
-  {"id": 8, "slug": "stark", "citation": "Ben-Sasson et al. Scalable, Transparent, and Post-Quantum Secure Computational Integrity. ePrint 2018/046.", "chapters": [2], "type": "paper", "url": "https://eprint.iacr.org/2018/046.pdf", "file": "references/ch02/ref-08-stark.pdf", "status": "pending"},
-  {"id": 9, "slug": "bulletproofs", "citation": "Bunz et al. Bulletproofs: Short Proofs for Confidential Transactions and More. IEEE S&P 2018. ePrint 2017/1066.", "chapters": [2], "type": "paper", "url": "https://eprint.iacr.org/2017/1066.pdf", "file": "references/ch02/ref-09-bulletproofs.pdf", "status": "pending"},
-  {"id": 10, "slug": "sok-powers-of-tau", "citation": "Wang, Cohney, Bonneau. SoK: Trusted Setups for Powers-of-Tau Strings. FC 2025. ePrint 2025/064.", "chapters": [2], "type": "paper", "url": "https://eprint.iacr.org/2025/064.pdf", "file": "references/ch02/ref-10-sok-powers-of-tau.pdf", "status": "pending"},
-  {"id": 11, "slug": "latticefold-plus", "citation": "Boneh, Chen. LatticeFold+. CRYPTO 2025. ePrint 2025/247.", "chapters": [2], "type": "paper", "url": "https://eprint.iacr.org/2025/247.pdf", "file": "references/ch02/ref-11-latticefold-plus.pdf", "status": "pending"},
-  {"id": 12, "slug": "underconstrained-circuits", "citation": "Pailoor et al. Automated Detection of Under-Constrained Circuits in Zero-Knowledge Proofs. PLDI 2023. ePrint 2023/512.", "chapters": [3, 4, 5], "type": "paper", "url": "https://eprint.iacr.org/2023/512.pdf", "file": "references/ch03/ref-12-underconstrained-circuits.pdf", "status": "pending"},
-  {"id": 13, "slug": "practical-security-zk-circuits", "citation": "Wen et al. Practical Security Analysis of Zero-Knowledge Proof Circuits. USENIX Security 2024. ePrint 2023/190.", "chapters": [3, 4, 5], "type": "paper", "url": "https://eprint.iacr.org/2023/190.pdf", "file": "references/ch03/ref-13-practical-security-zk-circuits.pdf", "status": "pending"},
-  {"id": 14, "slug": "ccs-customizable-constraints", "citation": "Setty, Thaler, Wahby. Customizable Constraint Systems for Succinct Arguments. ePrint 2023/552.", "chapters": [3, 4, 5], "type": "paper", "url": "https://eprint.iacr.org/2023/552.pdf", "file": "references/ch03/ref-14-ccs-customizable-constraints.pdf", "status": "pending"},
-  {"id": 15, "slug": "lasso", "citation": "Setty, Thaler, Wahby. Unlocking the Lookup Singularity with Lasso. ePrint 2023/1216.", "chapters": [3, 4, 5], "type": "paper", "url": "https://eprint.iacr.org/2023/1216.pdf", "file": "references/ch03/ref-15-lasso.pdf", "status": "pending"},
-  {"id": 16, "slug": "jolt", "citation": "Arun, Setty, Thaler. Jolt: SNARKs for Virtual Machines via Lookups. ePrint 2023/1217.", "chapters": [3, 4, 5], "type": "paper", "url": "https://eprint.iacr.org/2023/1217.pdf", "file": "references/ch03/ref-16-jolt.pdf", "status": "pending"},
-  {"id": 17, "slug": "nova", "citation": "Kothapalli, Setty, Tzialla. Nova: Recursive Zero-Knowledge Arguments from Folding Schemes. CRYPTO 2022. ePrint 2021/370.", "chapters": [6], "type": "paper", "url": "https://eprint.iacr.org/2021/370.pdf", "file": "references/ch06/ref-17-nova.pdf", "status": "pending"},
-  {"id": 18, "slug": "hypernova", "citation": "Kothapalli, Setty. HyperNova. CRYPTO 2024. ePrint 2023/573.", "chapters": [6], "type": "paper", "url": "https://eprint.iacr.org/2023/573.pdf", "file": "references/ch06/ref-18-hypernova.pdf", "status": "pending"},
-  {"id": 19, "slug": "protostar", "citation": "Bunz, Chen. ProtoStar. ASIACRYPT 2023. ePrint 2023/620.", "chapters": [6], "type": "paper", "url": "https://eprint.iacr.org/2023/620.pdf", "file": "references/ch06/ref-19-protostar.pdf", "status": "pending"},
-  {"id": 20, "slug": "latticefold", "citation": "Boneh, Chen. LatticeFold. ASIACRYPT 2025. ePrint 2024/257.", "chapters": [6], "type": "paper", "url": "https://eprint.iacr.org/2024/257.pdf", "file": "references/ch06/ref-20-latticefold.pdf", "status": "pending"},
-  {"id": 21, "slug": "neo", "citation": "Nguyen, Setty. Neo: Lattice-based Folding Scheme for CCS over Small Fields. ePrint 2025/294.", "chapters": [6], "type": "paper", "url": "https://eprint.iacr.org/2025/294.pdf", "file": "references/ch06/ref-21-neo.pdf", "status": "pending"},
-  {"id": 22, "slug": "frozen-heart", "citation": "Trail of Bits. Frozen Heart: Forgery of Zero Knowledge Proofs. Blog, April 2022.", "chapters": [6], "type": "web", "url": "https://blog.trailofbits.com/2022/04/13/part-1-coordinated-disclosure-of-vulnerabilities-affecting-girault-bulletproofs-and-plonk/", "file": "references/ch06/ref-22-frozen-heart.md", "status": "pending"},
-  {"id": 23, "slug": "circle-starks", "citation": "Haboeck, Levit, Papini. Circle STARKs. ePrint 2024/278.", "chapters": [6], "type": "paper", "url": "https://eprint.iacr.org/2024/278.pdf", "file": "references/ch06/ref-23-circle-starks.pdf", "status": "pending"},
-  {"id": 24, "slug": "shor", "citation": "Shor, Peter W. Algorithms for Quantum Computation. FOCS 1994. arXiv quant-ph/9508027.", "chapters": [7], "type": "paper", "url": "https://arxiv.org/pdf/quant-ph/9508027", "file": "references/ch07/ref-24-shor.pdf", "status": "pending"},
-  {"id": 25, "slug": "nist-fips-203-204-205", "citation": "NIST. FIPS 203, 204, 205. August 2024. (FIPS 203 PDF downloaded; 204 see ref 64; 205 at nvlpubs.nist.gov.)", "chapters": [7], "type": "paper", "url": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.203.pdf", "file": "references/ch07/ref-25-nist-fips-203-204-205.pdf", "status": "pending"},
-  {"id": 26, "slug": "nist-ir-8547", "citation": "NIST. Transition to Post-Quantum Cryptography Standards (IR 8547). November 2024.", "chapters": [7], "type": "paper", "url": "https://nvlpubs.nist.gov/nistpubs/ir/2024/NIST.IR.8547.ipd.pdf", "file": "references/ch07/ref-26-nist-ir-8547.pdf", "status": "pending"},
-  {"id": 27, "slug": "l2beat-stages", "citation": "L2Beat. Stages Framework for L2 Maturity. Accessed March 2026.", "chapters": [8], "type": "web", "url": "https://l2beat.com/stages", "file": "references/ch08/ref-27-l2beat-stages.md", "status": "pending"},
-  {"id": 28, "slug": "rollup-pricing-attacks", "citation": "Chaliasos et al. Unaligned Incentives: Pricing Attacks Against Blockchain Rollups. arXiv 2509.17126, 2025.", "chapters": [8], "type": "paper", "url": "https://arxiv.org/pdf/2509.17126", "file": "references/ch08/ref-28-rollup-pricing-attacks.pdf", "status": "pending"},
-  {"id": 29, "slug": "gentry-fhe", "citation": "Gentry, Craig. Fully Homomorphic Encryption Using Ideal Lattices. STOC 2009.", "chapters": [9], "type": "paper", "url": "https://www.cs.cmu.edu/~odonnell/hits09/gentry-homomorphic-encryption.pdf", "file": "references/ch09/ref-29-gentry-fhe.pdf", "status": "pending"},
-  {"id": 30, "slug": "kachina", "citation": "Kerber, Kiayias, Kohlweiss. Kachina -- Foundations of Private Smart Contracts. IEEE CSF 2021. ePrint 2020/543.", "chapters": [9], "type": "paper", "url": "https://eprint.iacr.org/2020/543.pdf", "file": "references/ch09/ref-30-kachina.pdf", "status": "pending"},
-  {"id": 31, "slug": "blockchain-privacy-compliance", "citation": "Buterin et al. Blockchain Privacy and Regulatory Compliance. Blockchain: Research and Applications, 2023. SSRN 4563364.", "chapters": [9], "type": "web", "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4563364", "file": "references/ch09/ref-31-blockchain-privacy-compliance.md", "status": "pending"},
-  {"id": 32, "slug": "zkvm-compiler-optimization", "citation": "Gassmann et al. Evaluating Compiler Optimization Impacts on zkVM Performance. arXiv 2508.17518, 2026.", "chapters": [10, 11], "type": "paper", "url": "https://arxiv.org/pdf/2508.17518", "file": "references/ch10/ref-32-zkvm-compiler-optimization.pdf", "status": "pending"},
-  {"id": 33, "slug": "circ", "citation": "Ozdemir, Brown, Wahby. CirC: Compiler Infrastructure for Proof Systems. IEEE S&P 2022. ePrint 2020/1586.", "chapters": [10, 11], "type": "paper", "url": "https://eprint.iacr.org/2020/1586.pdf", "file": "references/ch10/ref-33-circ.pdf", "status": "pending"},
-  {"id": 35, "slug": "coda", "citation": "Liu et al. Certifying Zero-Knowledge Circuits with Refinement Types (Coda). IEEE S&P 2024. ePrint 2023/547.", "chapters": [10, 11], "type": "paper", "url": "https://eprint.iacr.org/2023/547.pdf", "file": "references/ch10/ref-35-coda.pdf", "status": "pending"},
-  {"id": 36, "slug": "sonic", "citation": "Maller, Bowe, Kohlweiss, Meiklejohn. Sonic. CCS 2019. ePrint 2019/099.", "chapters": [10, 11], "type": "paper", "url": "https://eprint.iacr.org/2019/099.pdf", "file": "references/ch10/ref-36-sonic.pdf", "status": "pending"},
-  {"id": 37, "slug": "updatable-universal-crs", "citation": "Groth, Kohlweiss, Maller, Meiklejohn, Miers. Updatable and Universal Common Reference Strings. CRYPTO 2018. ePrint 2018/280.", "chapters": [10, 11], "type": "paper", "url": "https://eprint.iacr.org/2018/280.pdf", "file": "references/ch10/ref-37-updatable-universal-crs.pdf", "status": "pending"},
-  {"id": 38, "slug": "snarky-ceremonies", "citation": "Kohlweiss, Maller, Siim, Volkhov. Snarky Ceremonies. ASIACRYPT 2021. ePrint 2021/219.", "chapters": [10, 11], "type": "paper", "url": "https://eprint.iacr.org/2021/219.pdf", "file": "references/ch10/ref-38-snarky-ceremonies.pdf", "status": "pending"},
-  {"id": 39, "slug": "compact-language-reference", "citation": "Midnight Network. Compact Language Reference. 2025.", "chapters": [12], "type": "web", "url": "https://docs.midnight.network/compact/reference/compact-reference", "file": "references/ch12/ref-39-compact-language-reference.md", "status": "pending"},
-  {"id": 40, "slug": "zkir-reference", "citation": "Midnight Network. ZKIR Intermediate Representation Reference. 2025. (No public reference page as of June 2026; the cited URL was removed in a docs reorganization. ZKIR is partially documented in the Compact compiler docs, see ref 39.)", "chapters": [12], "type": "stub", "file": "references/ch12/ref-40-zkir-reference.md", "status": "pending"},
-  {"id": 41, "slug": "midnight-developer-guide", "citation": "Midnight Network. Developer Guide. 2025.", "chapters": [12], "type": "web", "url": "https://docs.midnight.network/", "file": "references/ch12/ref-41-midnight-developer-guide.md", "status": "pending"},
-  {"id": 42, "slug": "gvr-zkp-market-report", "citation": "Grand View Research. Zero-Knowledge Proof Market Size, Share & Trends Analysis Report. GVR-4-68040-808-5, 2025.", "chapters": [13], "type": "web", "url": "https://www.grandviewresearch.com/industry-analysis/zero-knowledge-proof-market-report", "file": "references/ch13/ref-42-gvr-zkp-market-report.md", "status": "pending"},
-  {"id": 43, "slug": "castlelabs-zk-privacy", "citation": "CastleLabs. ZK Proofs: Is Privacy Cheap Enough to Be Mainstream? 2025.", "chapters": [13], "type": "web", "url": "https://research.castlelabs.io", "file": "references/ch13/ref-43-castlelabs-zk-privacy.md", "status": "pending"},
-  {"id": 44, "slug": "ethproofs", "citation": "Ethproofs. ZK Proving Cost Tracker. Ethereum Foundation, 2025.", "chapters": [13], "type": "web", "url": "https://ethproofs.org", "file": "references/ch13/ref-44-ethproofs.md", "status": "pending"},
-  {"id": 45, "slug": "small-space-cpu-proofs", "citation": "Nair, Thaler, Zhu. Proving CPU Executions in Small Space. ePrint 2025/611.", "chapters": [14], "type": "paper", "url": "https://eprint.iacr.org/2025/611.pdf", "file": "references/ch14/ref-45-small-space-cpu-proofs.pdf", "status": "pending"},
-  {"id": 46, "slug": "zk-memory-algebraic-proofs", "citation": "Ozdemir, Laufer, Boneh. Volatile and Persistent Memory for zkSNARKs via Algebraic Interactive Proofs. IEEE S&P 2025. ePrint 2024/979.", "chapters": [14], "type": "paper", "url": "https://eprint.iacr.org/2024/979.pdf", "file": "references/ch14/ref-46-zk-memory-algebraic-proofs.pdf", "status": "pending"},
-  {"id": 47, "slug": "underconstrained-circuits-ch14", "citation": "Pailoor et al. Automated Detection of Under-Constrained Circuits. PLDI 2023. ePrint 2023/512. (Same paper as ref 12.)", "chapters": [14], "type": "paper", "duplicate_of": 12, "status": "pending"},
-  {"id": 48, "slug": "practical-security-zk-circuits-ch14", "citation": "Wen et al. Practical Security Analysis of Zero-Knowledge Proof Circuits. USENIX Security 2024. ePrint 2023/190. (Same paper as ref 13.)", "chapters": [14], "type": "paper", "duplicate_of": 13, "status": "pending"},
-  {"id": 49, "slug": "nightstream", "citation": "LFDT-Nightstream. Nightstream: Lattice-Based Folding Implementation. GitHub, 2025.", "chapters": [6], "type": "web", "url": "https://github.com/LFDT-Nightstream/Nightstream", "file": "references/ch06/ref-49-nightstream.md", "status": "pending"},
-  {"id": 50, "slug": "extended-tower-nfs", "citation": "Kim, Barbulescu. Extended Tower Number Field Sieve. CRYPTO 2016. ePrint 2015/1027.", "chapters": [10, 11], "type": "paper", "url": "https://eprint.iacr.org/2015/1027.pdf", "file": "references/ch10/ref-50-extended-tower-nfs.pdf", "status": "pending"},
-  {"id": 51, "slug": "pairing-efficiency-curves", "citation": "Guillevic, Aurore. Comparing the Pairing Efficiency over Composite-Order and Prime-Order Elliptic Curves. ACNS 2013. ePrint 2013/218.", "chapters": [10, 11], "type": "paper", "url": "https://eprint.iacr.org/2013/218.pdf", "file": "references/ch10/ref-51-pairing-efficiency-curves.pdf", "status": "pending"},
-  {"id": 52, "slug": "sp1-hypercube", "citation": "Succinct Labs. SP1 Hypercube: Proving Ethereum in Real-Time. Blog, May 2025.", "chapters": [10, 11], "type": "web", "url": "https://blog.succinct.xyz/sp1-hypercube/", "file": "references/ch10/ref-52-sp1-hypercube.md", "status": "pending"},
-  {"id": 53, "slug": "airbender", "citation": "ZKsync. Airbender: GPU-Accelerated RISC-V Proving. June 2025.", "chapters": [10, 11], "type": "web", "url": "https://www.zksync.io/airbender", "file": "references/ch10/ref-53-airbender.md", "status": "pending"},
-  {"id": 55, "slug": "zkevm-security-foundations", "citation": "Kadianakis, George. Shipping an L1 zkEVM #2: The Security Foundations. Ethereum Foundation Blog, December 2025.", "chapters": [10, 11], "type": "web", "url": "https://blog.ethereum.org/2025/12/18/zkevm-security-foundations", "file": "references/ch10/ref-55-zkevm-security-foundations.md", "status": "pending"},
-  {"id": 56, "slug": "symphony", "citation": "Chen, Binyi. Symphony: Scalable SNARKs in the Random Oracle Model from Lattice-Based High-Arity Folding. ePrint 2025/1905.", "chapters": [10, 11], "type": "paper", "url": "https://eprint.iacr.org/2025/1905.pdf", "file": "references/ch10/ref-56-symphony.pdf", "status": "pending"},
-  {"id": 57, "slug": "chorus-one-zk-economics", "citation": "Klich, Rafal (Chorus One). The Economics of ZK-Proving: Market Size and Future Projections. Research report, March 2025. (No public URL.)", "chapters": [13], "type": "stub", "file": "references/ch13/ref-57-chorus-one-zk-economics.md", "status": "pending"},
-  {"id": 58, "slug": "dtcc-canton-tokenization", "citation": "DTCC. DTCC and Digital Asset Tokenize US Treasuries on Canton Network. Press release, December 2025.", "chapters": [13], "type": "web", "url": "https://www.dtcc.com/digital-assets/tokenization", "file": "references/ch13/ref-58-dtcc-canton-tokenization.md", "status": "pending"},
-  {"id": 59, "slug": "world-whitepaper", "citation": "Tools for Humanity (World). World Whitepaper. 2024.", "chapters": [13], "type": "web", "url": "https://whitepaper.world.org/", "file": "references/ch13/ref-59-world-whitepaper.md", "status": "pending"},
-  {"id": 60, "slug": "eidas-2-regulation", "citation": "European Union. Regulation (EU) 2024/1183 -- European Digital Identity Framework (eIDAS 2.0). OJEU, 2024.", "chapters": [13], "type": "paper", "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202401183", "file": "references/ch13/ref-60-eidas-2-regulation.pdf", "status": "pending"},
-  {"id": 61, "slug": "arguzz", "citation": "Hochrainer, Wustholz, Christakis. Arguzz: Testing zkVMs for Soundness and Completeness Bugs. arXiv 2509.10819, 2025.", "chapters": [14], "type": "paper", "url": "https://arxiv.org/pdf/2509.10819", "file": "references/ch14/ref-61-arguzz.pdf", "status": "pending"},
-  {"id": 62, "slug": "lattice-functional-commitments", "citation": "Wee, Wu. Lattice-Based Functional Commitments. ASIACRYPT 2023. ePrint 2024/028.", "chapters": [14], "type": "paper", "url": "https://eprint.iacr.org/2024/028.pdf", "file": "references/ch14/ref-62-lattice-functional-commitments.pdf", "status": "pending"},
-  {"id": 63, "slug": "harvest-now-decrypt-later", "citation": "Mascelli, Rodden. Harvest Now Decrypt Later. FEDS 2025-093, Federal Reserve Board, 2025.", "chapters": [14], "type": "paper", "url": "https://www.federalreserve.gov/econres/feds/files/2025093pap.pdf", "file": "references/ch14/ref-63-harvest-now-decrypt-later.pdf", "status": "pending"},
-  {"id": 64, "slug": "fips-204", "citation": "NIST. Module-Lattice-Based Digital Signature Standard (FIPS 204). August 2024.", "chapters": [14], "type": "paper", "url": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.204.pdf", "file": "references/ch14/ref-64-fips-204.pdf", "status": "pending"},
-  {"id": 65, "slug": "greyhound", "citation": "Nguyen, Seiler. Greyhound: Fast Polynomial Commitments from Lattices. CRYPTO 2024. ePrint 2024/1293.", "chapters": [14], "type": "paper", "url": "https://eprint.iacr.org/2024/1293.pdf", "file": "references/ch14/ref-65-greyhound.pdf", "status": "pending"}
+  {
+    "id": 1,
+    "slug": "clarke-profiles-of-the-future",
+    "citation": "Clarke, Arthur C. Profiles of the Future. Harper & Row, 1962.",
+    "chapters": [
+      1
+    ],
+    "type": "stub",
+    "file": "references/ch01/ref-01-clarke-profiles-of-the-future.md",
+    "status": "stub"
+  },
+  {
+    "id": 2,
+    "slug": "gmr-knowledge-complexity",
+    "citation": "Goldwasser, Micali, Rackoff. The Knowledge Complexity of Interactive Proof Systems. SIAM J. Computing 18(1), 1989.",
+    "chapters": [
+      1
+    ],
+    "type": "paper",
+    "url": "https://people.csail.mit.edu/silvio/Selected%20Scientific%20Papers/Proof%20Systems/The_Knowledge_Complexity_Of_Interactive_Proof_Systems.pdf",
+    "file": "references/ch01/ref-02-gmr-knowledge-complexity.pdf",
+    "status": "ok"
+  },
+  {
+    "id": 3,
+    "slug": "sok-snark-vulnerabilities",
+    "citation": "Chaliasos et al. SoK: What Don't We Know? Understanding Security Vulnerabilities in SNARKs. USENIX Security 2024.",
+    "chapters": [
+      1
+    ],
+    "type": "paper",
+    "url": "https://arxiv.org/pdf/2402.15293",
+    "file": "references/ch01/ref-03-sok-snark-vulnerabilities.pdf",
+    "status": "ok"
+  },
+  {
+    "id": 4,
+    "slug": "kzg-commitments",
+    "citation": "Kate, Zaverucha, Goldberg. Constant-Size Commitments to Polynomials and Their Applications. ASIACRYPT 2010.",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "url": "https://cacr.uwaterloo.ca/techreports/2010/cacr2010-10.pdf",
+    "file": "references/ch02/ref-04-kzg-commitments.pdf",
+    "status": "ok"
+  },
+  {
+    "id": 5,
+    "slug": "mpc-random-beacon",
+    "citation": "Bowe, Gabizon, Miers. Scalable Multi-party Computation for zk-SNARK Parameters in the Random Beacon Model. ePrint 2017/1050.",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "url": "https://eprint.iacr.org/2017/1050.pdf",
+    "file": "references/ch02/ref-05-mpc-random-beacon.pdf",
+    "status": "ok"
+  },
+  {
+    "id": 6,
+    "slug": "groth16",
+    "citation": "Groth, Jens. On the Size of Pairing-Based Non-interactive Arguments. EUROCRYPT 2016. ePrint 2016/260.",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "url": "https://eprint.iacr.org/2016/260.pdf",
+    "file": "references/ch02/ref-06-groth16.pdf",
+    "status": "ok"
+  },
+  {
+    "id": 7,
+    "slug": "plonk",
+    "citation": "Gabizon, Williamson, Ciobotaru. PLONK. ePrint 2019/953.",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "url": "https://eprint.iacr.org/2019/953.pdf",
+    "file": "references/ch02/ref-07-plonk.pdf",
+    "status": "ok"
+  },
+  {
+    "id": 8,
+    "slug": "stark",
+    "citation": "Ben-Sasson et al. Scalable, Transparent, and Post-Quantum Secure Computational Integrity. ePrint 2018/046.",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "url": "https://eprint.iacr.org/2018/046.pdf",
+    "file": "references/ch02/ref-08-stark.pdf",
+    "status": "ok"
+  },
+  {
+    "id": 9,
+    "slug": "bulletproofs",
+    "citation": "Bunz et al. Bulletproofs: Short Proofs for Confidential Transactions and More. IEEE S&P 2018. ePrint 2017/1066.",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "url": "https://eprint.iacr.org/2017/1066.pdf",
+    "file": "references/ch02/ref-09-bulletproofs.pdf",
+    "status": "ok"
+  },
+  {
+    "id": 10,
+    "slug": "sok-powers-of-tau",
+    "citation": "Wang, Cohney, Bonneau. SoK: Trusted Setups for Powers-of-Tau Strings. FC 2025. ePrint 2025/064.",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "url": "https://eprint.iacr.org/2025/064.pdf",
+    "file": "references/ch02/ref-10-sok-powers-of-tau.pdf",
+    "status": "ok"
+  },
+  {
+    "id": 11,
+    "slug": "latticefold-plus",
+    "citation": "Boneh, Chen. LatticeFold+. CRYPTO 2025. ePrint 2025/247.",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "url": "https://eprint.iacr.org/2025/247.pdf",
+    "file": "references/ch02/ref-11-latticefold-plus.pdf",
+    "status": "ok"
+  },
+  {
+    "id": 12,
+    "slug": "underconstrained-circuits",
+    "citation": "Pailoor et al. Automated Detection of Under-Constrained Circuits in Zero-Knowledge Proofs. PLDI 2023. ePrint 2023/512.",
+    "chapters": [
+      3,
+      4,
+      5
+    ],
+    "type": "paper",
+    "url": "https://eprint.iacr.org/2023/512.pdf",
+    "file": "references/ch03/ref-12-underconstrained-circuits.pdf",
+    "status": "ok"
+  },
+  {
+    "id": 13,
+    "slug": "practical-security-zk-circuits",
+    "citation": "Wen et al. Practical Security Analysis of Zero-Knowledge Proof Circuits. USENIX Security 2024. ePrint 2023/190.",
+    "chapters": [
+      3,
+      4,
+      5
+    ],
+    "type": "paper",
+    "url": "https://eprint.iacr.org/2023/190.pdf",
+    "file": "references/ch03/ref-13-practical-security-zk-circuits.pdf",
+    "status": "ok"
+  },
+  {
+    "id": 14,
+    "slug": "ccs-customizable-constraints",
+    "citation": "Setty, Thaler, Wahby. Customizable Constraint Systems for Succinct Arguments. ePrint 2023/552.",
+    "chapters": [
+      3,
+      4,
+      5
+    ],
+    "type": "paper",
+    "url": "https://eprint.iacr.org/2023/552.pdf",
+    "file": "references/ch03/ref-14-ccs-customizable-constraints.pdf",
+    "status": "ok"
+  },
+  {
+    "id": 15,
+    "slug": "lasso",
+    "citation": "Setty, Thaler, Wahby. Unlocking the Lookup Singularity with Lasso. ePrint 2023/1216.",
+    "chapters": [
+      3,
+      4,
+      5
+    ],
+    "type": "paper",
+    "url": "https://eprint.iacr.org/2023/1216.pdf",
+    "file": "references/ch03/ref-15-lasso.pdf",
+    "status": "ok"
+  },
+  {
+    "id": 16,
+    "slug": "jolt",
+    "citation": "Arun, Setty, Thaler. Jolt: SNARKs for Virtual Machines via Lookups. ePrint 2023/1217.",
+    "chapters": [
+      3,
+      4,
+      5
+    ],
+    "type": "paper",
+    "url": "https://eprint.iacr.org/2023/1217.pdf",
+    "file": "references/ch03/ref-16-jolt.pdf",
+    "status": "ok"
+  },
+  {
+    "id": 17,
+    "slug": "nova",
+    "citation": "Kothapalli, Setty, Tzialla. Nova: Recursive Zero-Knowledge Arguments from Folding Schemes. CRYPTO 2022. ePrint 2021/370.",
+    "chapters": [
+      6
+    ],
+    "type": "paper",
+    "url": "https://eprint.iacr.org/2021/370.pdf",
+    "file": "references/ch06/ref-17-nova.pdf",
+    "status": "ok"
+  },
+  {
+    "id": 18,
+    "slug": "hypernova",
+    "citation": "Kothapalli, Setty. HyperNova. CRYPTO 2024. ePrint 2023/573.",
+    "chapters": [
+      6
+    ],
+    "type": "paper",
+    "url": "https://eprint.iacr.org/2023/573.pdf",
+    "file": "references/ch06/ref-18-hypernova.pdf",
+    "status": "ok"
+  },
+  {
+    "id": 19,
+    "slug": "protostar",
+    "citation": "Bunz, Chen. ProtoStar. ASIACRYPT 2023. ePrint 2023/620.",
+    "chapters": [
+      6
+    ],
+    "type": "paper",
+    "url": "https://eprint.iacr.org/2023/620.pdf",
+    "file": "references/ch06/ref-19-protostar.pdf",
+    "status": "ok"
+  },
+  {
+    "id": 20,
+    "slug": "latticefold",
+    "citation": "Boneh, Chen. LatticeFold. ASIACRYPT 2025. ePrint 2024/257.",
+    "chapters": [
+      6
+    ],
+    "type": "paper",
+    "url": "https://eprint.iacr.org/2024/257.pdf",
+    "file": "references/ch06/ref-20-latticefold.pdf",
+    "status": "ok"
+  },
+  {
+    "id": 21,
+    "slug": "neo",
+    "citation": "Nguyen, Setty. Neo: Lattice-based Folding Scheme for CCS over Small Fields. ePrint 2025/294.",
+    "chapters": [
+      6
+    ],
+    "type": "paper",
+    "url": "https://eprint.iacr.org/2025/294.pdf",
+    "file": "references/ch06/ref-21-neo.pdf",
+    "status": "ok"
+  },
+  {
+    "id": 22,
+    "slug": "frozen-heart",
+    "citation": "Trail of Bits. Frozen Heart: Forgery of Zero Knowledge Proofs. Blog, April 2022.",
+    "chapters": [
+      6
+    ],
+    "type": "web",
+    "url": "https://blog.trailofbits.com/2022/04/13/part-1-coordinated-disclosure-of-vulnerabilities-affecting-girault-bulletproofs-and-plonk/",
+    "file": "references/ch06/ref-22-frozen-heart.md",
+    "status": "ok"
+  },
+  {
+    "id": 23,
+    "slug": "circle-starks",
+    "citation": "Haboeck, Levit, Papini. Circle STARKs. ePrint 2024/278.",
+    "chapters": [
+      6
+    ],
+    "type": "paper",
+    "url": "https://eprint.iacr.org/2024/278.pdf",
+    "file": "references/ch06/ref-23-circle-starks.pdf",
+    "status": "ok"
+  },
+  {
+    "id": 24,
+    "slug": "shor",
+    "citation": "Shor, Peter W. Algorithms for Quantum Computation. FOCS 1994. arXiv quant-ph/9508027.",
+    "chapters": [
+      7
+    ],
+    "type": "paper",
+    "url": "https://arxiv.org/pdf/quant-ph/9508027",
+    "file": "references/ch07/ref-24-shor.pdf",
+    "status": "ok"
+  },
+  {
+    "id": 25,
+    "slug": "nist-fips-203-204-205",
+    "citation": "NIST. FIPS 203, 204, 205. August 2024. (FIPS 203 PDF downloaded; 204 see ref 64; 205 at nvlpubs.nist.gov.)",
+    "chapters": [
+      7
+    ],
+    "type": "paper",
+    "url": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.203.pdf",
+    "file": "references/ch07/ref-25-nist-fips-203-204-205.pdf",
+    "status": "ok"
+  },
+  {
+    "id": 26,
+    "slug": "nist-ir-8547",
+    "citation": "NIST. Transition to Post-Quantum Cryptography Standards (IR 8547). November 2024.",
+    "chapters": [
+      7
+    ],
+    "type": "paper",
+    "url": "https://nvlpubs.nist.gov/nistpubs/ir/2024/NIST.IR.8547.ipd.pdf",
+    "file": "references/ch07/ref-26-nist-ir-8547.pdf",
+    "status": "ok"
+  },
+  {
+    "id": 27,
+    "slug": "l2beat-stages",
+    "citation": "L2Beat. Stages Framework for L2 Maturity. Accessed March 2026.",
+    "chapters": [
+      8
+    ],
+    "type": "web",
+    "url": "https://l2beat.com/stages",
+    "file": "references/ch08/ref-27-l2beat-stages.md",
+    "status": "ok"
+  },
+  {
+    "id": 28,
+    "slug": "rollup-pricing-attacks",
+    "citation": "Chaliasos et al. Unaligned Incentives: Pricing Attacks Against Blockchain Rollups. arXiv 2509.17126, 2025.",
+    "chapters": [
+      8
+    ],
+    "type": "paper",
+    "url": "https://arxiv.org/pdf/2509.17126",
+    "file": "references/ch08/ref-28-rollup-pricing-attacks.pdf",
+    "status": "ok"
+  },
+  {
+    "id": 29,
+    "slug": "gentry-fhe",
+    "citation": "Gentry, Craig. Fully Homomorphic Encryption Using Ideal Lattices. STOC 2009.",
+    "chapters": [
+      9
+    ],
+    "type": "paper",
+    "url": "https://www.cs.cmu.edu/~odonnell/hits09/gentry-homomorphic-encryption.pdf",
+    "file": "references/ch09/ref-29-gentry-fhe.pdf",
+    "status": "ok"
+  },
+  {
+    "id": 30,
+    "slug": "kachina",
+    "citation": "Kerber, Kiayias, Kohlweiss. Kachina -- Foundations of Private Smart Contracts. IEEE CSF 2021. ePrint 2020/543.",
+    "chapters": [
+      9
+    ],
+    "type": "paper",
+    "url": "https://eprint.iacr.org/2020/543.pdf",
+    "file": "references/ch09/ref-30-kachina.pdf",
+    "status": "ok"
+  },
+  {
+    "id": 31,
+    "slug": "blockchain-privacy-compliance",
+    "citation": "Buterin et al. Blockchain Privacy and Regulatory Compliance. Blockchain: Research and Applications, 2023. SSRN 4563364. Original URL: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4563364",
+    "chapters": [
+      9
+    ],
+    "type": "paper",
+    "url": "https://www.newswise.com/pdf_docs/170903654855378_1-s2.0-S2096720923000519-main.pdf",
+    "file": "references/ch09/ref-31-blockchain-privacy-compliance.pdf",
+    "status": "ok"
+  },
+  {
+    "id": 32,
+    "slug": "zkvm-compiler-optimization",
+    "citation": "Gassmann et al. Evaluating Compiler Optimization Impacts on zkVM Performance. arXiv 2508.17518, 2026.",
+    "chapters": [
+      10,
+      11
+    ],
+    "type": "paper",
+    "url": "https://arxiv.org/pdf/2508.17518",
+    "file": "references/ch10/ref-32-zkvm-compiler-optimization.pdf",
+    "status": "ok"
+  },
+  {
+    "id": 33,
+    "slug": "circ",
+    "citation": "Ozdemir, Brown, Wahby. CirC: Compiler Infrastructure for Proof Systems. IEEE S&P 2022. ePrint 2020/1586.",
+    "chapters": [
+      10,
+      11
+    ],
+    "type": "paper",
+    "url": "https://eprint.iacr.org/2020/1586.pdf",
+    "file": "references/ch10/ref-33-circ.pdf",
+    "status": "ok"
+  },
+  {
+    "id": 35,
+    "slug": "coda",
+    "citation": "Liu et al. Certifying Zero-Knowledge Circuits with Refinement Types (Coda). IEEE S&P 2024. ePrint 2023/547.",
+    "chapters": [
+      10,
+      11
+    ],
+    "type": "paper",
+    "url": "https://eprint.iacr.org/2023/547.pdf",
+    "file": "references/ch10/ref-35-coda.pdf",
+    "status": "ok"
+  },
+  {
+    "id": 36,
+    "slug": "sonic",
+    "citation": "Maller, Bowe, Kohlweiss, Meiklejohn. Sonic. CCS 2019. ePrint 2019/099.",
+    "chapters": [
+      10,
+      11
+    ],
+    "type": "paper",
+    "url": "https://eprint.iacr.org/2019/099.pdf",
+    "file": "references/ch10/ref-36-sonic.pdf",
+    "status": "ok"
+  },
+  {
+    "id": 37,
+    "slug": "updatable-universal-crs",
+    "citation": "Groth, Kohlweiss, Maller, Meiklejohn, Miers. Updatable and Universal Common Reference Strings. CRYPTO 2018. ePrint 2018/280.",
+    "chapters": [
+      10,
+      11
+    ],
+    "type": "paper",
+    "url": "https://eprint.iacr.org/2018/280.pdf",
+    "file": "references/ch10/ref-37-updatable-universal-crs.pdf",
+    "status": "ok"
+  },
+  {
+    "id": 38,
+    "slug": "snarky-ceremonies",
+    "citation": "Kohlweiss, Maller, Siim, Volkhov. Snarky Ceremonies. ASIACRYPT 2021. ePrint 2021/219.",
+    "chapters": [
+      10,
+      11
+    ],
+    "type": "paper",
+    "url": "https://eprint.iacr.org/2021/219.pdf",
+    "file": "references/ch10/ref-38-snarky-ceremonies.pdf",
+    "status": "ok"
+  },
+  {
+    "id": 39,
+    "slug": "compact-language-reference",
+    "citation": "Midnight Network. Compact Language Reference. 2025.",
+    "chapters": [
+      12
+    ],
+    "type": "web",
+    "url": "https://docs.midnight.network/compact/reference/compact-reference",
+    "file": "references/ch12/ref-39-compact-language-reference.md",
+    "status": "ok"
+  },
+  {
+    "id": 40,
+    "slug": "zkir-reference",
+    "citation": "Midnight Network. ZKIR Intermediate Representation Reference. 2025. (No public reference page as of June 2026; the cited URL was removed in a docs reorganization. ZKIR is partially documented in the Compact compiler docs, see ref 39.)",
+    "chapters": [
+      12
+    ],
+    "type": "stub",
+    "file": "references/ch12/ref-40-zkir-reference.md",
+    "status": "stub"
+  },
+  {
+    "id": 41,
+    "slug": "midnight-developer-guide",
+    "citation": "Midnight Network. Developer Guide. 2025.",
+    "chapters": [
+      12
+    ],
+    "type": "web",
+    "url": "https://docs.midnight.network/",
+    "file": "references/ch12/ref-41-midnight-developer-guide.md",
+    "status": "ok"
+  },
+  {
+    "id": 42,
+    "slug": "gvr-zkp-market-report",
+    "citation": "Grand View Research. Zero-Knowledge Proof Market Size, Share & Trends Analysis Report. GVR-4-68040-808-5, 2025.",
+    "chapters": [
+      13
+    ],
+    "type": "web",
+    "url": "https://www.grandviewresearch.com/industry-analysis/zero-knowledge-proof-market-report",
+    "file": "references/ch13/ref-42-gvr-zkp-market-report.md",
+    "status": "ok"
+  },
+  {
+    "id": 43,
+    "slug": "castlelabs-zk-privacy",
+    "citation": "CastleLabs. ZK Proofs: Is Privacy Cheap Enough to Be Mainstream? 2025.",
+    "chapters": [
+      13
+    ],
+    "type": "web",
+    "url": "https://research.castlelabs.io/p/zk-proofs-making-privacy-cheap-enough",
+    "file": "references/ch13/ref-43-castlelabs-zk-privacy.md",
+    "status": "ok"
+  },
+  {
+    "id": 44,
+    "slug": "ethproofs",
+    "citation": "Ethproofs. ZK Proving Cost Tracker. Ethereum Foundation, 2025.",
+    "chapters": [
+      13
+    ],
+    "type": "web",
+    "url": "https://ethproofs.org",
+    "file": "references/ch13/ref-44-ethproofs.md",
+    "status": "ok"
+  },
+  {
+    "id": 45,
+    "slug": "small-space-cpu-proofs",
+    "citation": "Nair, Thaler, Zhu. Proving CPU Executions in Small Space. ePrint 2025/611.",
+    "chapters": [
+      14
+    ],
+    "type": "paper",
+    "url": "https://eprint.iacr.org/2025/611.pdf",
+    "file": "references/ch14/ref-45-small-space-cpu-proofs.pdf",
+    "status": "ok"
+  },
+  {
+    "id": 46,
+    "slug": "zk-memory-algebraic-proofs",
+    "citation": "Ozdemir, Laufer, Boneh. Volatile and Persistent Memory for zkSNARKs via Algebraic Interactive Proofs. IEEE S&P 2025. ePrint 2024/979.",
+    "chapters": [
+      14
+    ],
+    "type": "paper",
+    "url": "https://eprint.iacr.org/2024/979.pdf",
+    "file": "references/ch14/ref-46-zk-memory-algebraic-proofs.pdf",
+    "status": "ok"
+  },
+  {
+    "id": 47,
+    "slug": "underconstrained-circuits-ch14",
+    "citation": "Pailoor et al. Automated Detection of Under-Constrained Circuits. PLDI 2023. ePrint 2023/512. (Same paper as ref 12.)",
+    "chapters": [
+      14
+    ],
+    "type": "paper",
+    "duplicate_of": 12,
+    "status": "ok"
+  },
+  {
+    "id": 48,
+    "slug": "practical-security-zk-circuits-ch14",
+    "citation": "Wen et al. Practical Security Analysis of Zero-Knowledge Proof Circuits. USENIX Security 2024. ePrint 2023/190. (Same paper as ref 13.)",
+    "chapters": [
+      14
+    ],
+    "type": "paper",
+    "duplicate_of": 13,
+    "status": "ok"
+  },
+  {
+    "id": 49,
+    "slug": "nightstream",
+    "citation": "LFDT-Nightstream. Nightstream: Lattice-Based Folding Implementation. GitHub, 2025.",
+    "chapters": [
+      6
+    ],
+    "type": "web",
+    "url": "https://github.com/LFDT-Nightstream/Nightstream",
+    "file": "references/ch06/ref-49-nightstream.md",
+    "status": "ok"
+  },
+  {
+    "id": 50,
+    "slug": "extended-tower-nfs",
+    "citation": "Kim, Barbulescu. Extended Tower Number Field Sieve. CRYPTO 2016. ePrint 2015/1027.",
+    "chapters": [
+      10,
+      11
+    ],
+    "type": "paper",
+    "url": "https://eprint.iacr.org/2015/1027.pdf",
+    "file": "references/ch10/ref-50-extended-tower-nfs.pdf",
+    "status": "ok"
+  },
+  {
+    "id": 51,
+    "slug": "pairing-efficiency-curves",
+    "citation": "Guillevic, Aurore. Comparing the Pairing Efficiency over Composite-Order and Prime-Order Elliptic Curves. ACNS 2013. ePrint 2013/218.",
+    "chapters": [
+      10,
+      11
+    ],
+    "type": "paper",
+    "url": "https://eprint.iacr.org/2013/218.pdf",
+    "file": "references/ch10/ref-51-pairing-efficiency-curves.pdf",
+    "status": "ok"
+  },
+  {
+    "id": 52,
+    "slug": "sp1-hypercube",
+    "citation": "Succinct Labs. SP1 Hypercube: Proving Ethereum in Real-Time. Blog, May 2025.",
+    "chapters": [
+      10,
+      11
+    ],
+    "type": "web",
+    "url": "https://blog.succinct.xyz/sp1-hypercube/",
+    "file": "references/ch10/ref-52-sp1-hypercube.md",
+    "status": "ok"
+  },
+  {
+    "id": 53,
+    "slug": "airbender",
+    "citation": "ZKsync. Airbender: GPU-Accelerated RISC-V Proving. June 2025.",
+    "chapters": [
+      10,
+      11
+    ],
+    "type": "web",
+    "url": "https://www.zksync.io/airbender",
+    "file": "references/ch10/ref-53-airbender.md",
+    "status": "ok"
+  },
+  {
+    "id": 55,
+    "slug": "zkevm-security-foundations",
+    "citation": "Kadianakis, George. Shipping an L1 zkEVM #2: The Security Foundations. Ethereum Foundation Blog, December 2025.",
+    "chapters": [
+      10,
+      11
+    ],
+    "type": "web",
+    "url": "https://blog.ethereum.org/2025/12/18/zkevm-security-foundations",
+    "file": "references/ch10/ref-55-zkevm-security-foundations.md",
+    "status": "ok"
+  },
+  {
+    "id": 56,
+    "slug": "symphony",
+    "citation": "Chen, Binyi. Symphony: Scalable SNARKs in the Random Oracle Model from Lattice-Based High-Arity Folding. ePrint 2025/1905.",
+    "chapters": [
+      10,
+      11
+    ],
+    "type": "paper",
+    "url": "https://eprint.iacr.org/2025/1905.pdf",
+    "file": "references/ch10/ref-56-symphony.pdf",
+    "status": "ok"
+  },
+  {
+    "id": 57,
+    "slug": "chorus-one-zk-economics",
+    "citation": "Klich, Rafal (Chorus One). The Economics of ZK-Proving: Market Size and Future Projections. Research report, March 2025. (No public URL.)",
+    "chapters": [
+      13
+    ],
+    "type": "stub",
+    "file": "references/ch13/ref-57-chorus-one-zk-economics.md",
+    "status": "stub"
+  },
+  {
+    "id": 58,
+    "slug": "dtcc-canton-tokenization",
+    "citation": "DTCC. DTCC and Digital Asset Tokenize US Treasuries on Canton Network. Press release, December 2025.",
+    "chapters": [
+      13
+    ],
+    "type": "web",
+    "url": "https://www.dtcc.com/digital-assets/tokenization",
+    "file": "references/ch13/ref-58-dtcc-canton-tokenization.md",
+    "status": "ok"
+  },
+  {
+    "id": 59,
+    "slug": "world-whitepaper",
+    "citation": "Tools for Humanity (World). World Whitepaper. 2024.",
+    "chapters": [
+      13
+    ],
+    "type": "web",
+    "url": "https://whitepaper.world.org/",
+    "file": "references/ch13/ref-59-world-whitepaper.md",
+    "status": "ok"
+  },
+  {
+    "id": 60,
+    "slug": "eidas-2-regulation",
+    "citation": "European Union. Regulation (EU) 2024/1183 -- European Digital Identity Framework (eIDAS 2.0). OJEU, 2024.",
+    "chapters": [
+      13
+    ],
+    "type": "paper",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202401183",
+    "file": "references/ch13/ref-60-eidas-2-regulation.pdf",
+    "status": "ok"
+  },
+  {
+    "id": 61,
+    "slug": "arguzz",
+    "citation": "Hochrainer, Wustholz, Christakis. Arguzz: Testing zkVMs for Soundness and Completeness Bugs. arXiv 2509.10819, 2025.",
+    "chapters": [
+      14
+    ],
+    "type": "paper",
+    "url": "https://arxiv.org/pdf/2509.10819",
+    "file": "references/ch14/ref-61-arguzz.pdf",
+    "status": "ok"
+  },
+  {
+    "id": 62,
+    "slug": "lattice-functional-commitments",
+    "citation": "Wee, Wu. Lattice-Based Functional Commitments. ASIACRYPT 2023. ePrint 2024/028.",
+    "chapters": [
+      14
+    ],
+    "type": "paper",
+    "url": "https://eprint.iacr.org/2024/028.pdf",
+    "file": "references/ch14/ref-62-lattice-functional-commitments.pdf",
+    "status": "ok"
+  },
+  {
+    "id": 63,
+    "slug": "harvest-now-decrypt-later",
+    "citation": "Mascelli, Rodden. Harvest Now Decrypt Later. FEDS 2025-093, Federal Reserve Board, 2025.",
+    "chapters": [
+      14
+    ],
+    "type": "paper",
+    "url": "https://www.federalreserve.gov/econres/feds/files/2025093pap.pdf",
+    "file": "references/ch14/ref-63-harvest-now-decrypt-later.pdf",
+    "status": "ok"
+  },
+  {
+    "id": 64,
+    "slug": "fips-204",
+    "citation": "NIST. Module-Lattice-Based Digital Signature Standard (FIPS 204). August 2024.",
+    "chapters": [
+      14
+    ],
+    "type": "paper",
+    "url": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.204.pdf",
+    "file": "references/ch14/ref-64-fips-204.pdf",
+    "status": "ok"
+  },
+  {
+    "id": 65,
+    "slug": "greyhound",
+    "citation": "Nguyen, Seiler. Greyhound: Fast Polynomial Commitments from Lattices. CRYPTO 2024. ePrint 2024/1293.",
+    "chapters": [
+      14
+    ],
+    "type": "paper",
+    "url": "https://eprint.iacr.org/2024/1293.pdf",
+    "file": "references/ch14/ref-65-greyhound.pdf",
+    "status": "ok"
+  }
 ]
