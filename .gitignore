@@ -10,6 +10,7 @@
 zkbook_pdf_build.log
 
 # Python
+.venv/
 __pycache__/
 *.pyc
 *.egg-info/
