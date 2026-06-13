@@ -1,0 +1,18 @@
+---
+source_file: "proving-nothing.md"
+type: "document"
+community: "Verification & Rollup Economics"
+location: "Chapter 8"
+tags:
+  - graphify/document
+  - graphify/EXTRACTED
+  - community/Verification__Rollup_Economics
+---
+
+# Layer 7 -- The Verdict
+
+## Connections
+- [[On-Chain Verifier]] - `introduces` [EXTRACTED]
+- [[Trust Minimization (Not Trustless)]] - `explains` [EXTRACTED]
+
+#graphify/document #graphify/EXTRACTED #community/Verification__Rollup_Economics

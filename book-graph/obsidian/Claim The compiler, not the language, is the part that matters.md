@@ -1,0 +1,19 @@
+---
+source_file: "proving-nothing.md"
+type: "document"
+community: "Compilation & Witness Generation"
+location: "Chapter 3"
+tags:
+  - graphify/document
+  - graphify/EXTRACTED
+  - community/Compilation__Witness_Generation
+---
+
+# Claim: The compiler, not the language, is the part that matters
+
+## Connections
+- [[Gassmann et al., Evaluating Compiler Optimization Impacts on zkVM Performance, arXiv 2508.17518]] - `references` [EXTRACTED]
+- [[Ozdemir, Brown, Wahby, CirC Compiler Infrastructure for Proof Systems, IEEE S&P 2022]] - `cites` [EXTRACTED]
+- [[Six-Step Developer Lifecycle (Write-Compile-Test-Prove-Deploy-Monitor)]] - `explains` [EXTRACTED]
+
+#graphify/document #graphify/EXTRACTED #community/Compilation__Witness_Generation

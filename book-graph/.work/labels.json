@@ -1,0 +1,16 @@
+{
+  "0": "Commitments & Cryptographic Hardness",
+  "1": "Proof Systems & Trusted Setup",
+  "2": "Compilation & Witness Generation",
+  "3": "Verification & Rollup Economics",
+  "4": "Lookups & zkVM Arithmetic",
+  "5": "Circuit Security & Constraint Systems",
+  "6": "Privacy-Enhancing Technologies",
+  "7": "Arithmetization & ZK Languages",
+  "8": "Midnight & Private Contracts",
+  "9": "ZK Foundations & Framing",
+  "10": "Market: Coprocessors & ZKML",
+  "11": "Open Questions & Road Ahead",
+  "12": "Fiat-Shamir Security & Synthesis",
+  "13": "Trusted Execution Environments"
+}

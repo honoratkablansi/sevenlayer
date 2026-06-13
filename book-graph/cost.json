@@ -1,0 +1,12 @@
+{
+  "runs": [
+    {
+      "date": "2026-06-13T05:59:37.334199+00:00",
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "note": "book-graph build (measured subagent tokens recorded in session)"
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0
+}

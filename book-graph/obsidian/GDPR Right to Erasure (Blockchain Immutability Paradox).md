@@ -1,0 +1,18 @@
+---
+source_file: "proving-nothing.md"
+type: "document"
+community: "Privacy-Enhancing Technologies"
+location: "Chapter 9"
+tags:
+  - graphify/document
+  - graphify/EXTRACTED
+  - community/Privacy-Enhancing_Technologies
+---
+
+# GDPR Right to Erasure (Blockchain Immutability Paradox)
+
+## Connections
+- [[Zero-Knowledge Proofs (ZKPs)]] - `conceptually_related_to` [EXTRACTED]
+- [[zKYC (Zero-Knowledge Know Your Customer)]] - `conceptually_related_to` [EXTRACTED]
+
+#graphify/document #graphify/EXTRACTED #community/Privacy-Enhancing_Technologies
