@@ -45,3 +45,17 @@ def test_merge_graphs_tolerates_missing_keys():
     out = m.merge_graphs([("bare", bare), ("a", a)])
     assert {n["id"] for n in out["nodes"]} == {"n1"}
     assert out["links"] == []
+
+
+def test_normalize_label_depluralizes_and_strips_punctuation():
+    assert m.normalize_label("KZG Polynomial Commitments") == "kzg polynomial commitment"
+    assert m.normalize_label("Bulletproofs") == "bulletproof"
+    assert m.normalize_label("Knowledge Soundness") == "knowledge soundness"  # ss preserved
+    assert m.normalize_label("STARK") == "stark"
+    assert m.normalize_label("  Folding   Scheme!! ") == "folding scheme"
+
+
+def test_degree_map_counts_incidence():
+    g = _g([{"id": "a"}, {"id": "b"}, {"id": "c"}],
+           [{"source": "a", "target": "b"}, {"source": "a", "target": "c"}])
+    assert m.degree_map(g) == {"a": 2, "b": 1, "c": 1}

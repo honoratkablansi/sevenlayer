@@ -47,6 +47,32 @@ def _dump(path: Path, obj) -> None:
     Path(path).write_text(json.dumps(obj, indent=2, ensure_ascii=False), encoding="utf-8")
 
 
+def _depluralize(tok: str) -> str:
+    for suf in ("'s", "(s)"):
+        if tok.endswith(suf):
+            return tok[: -len(suf)]
+    if len(tok) > 3 and tok.endswith("s") and not tok.endswith("ss"):
+        return tok[:-1]
+    return tok
+
+
+def normalize_label(label: str | None) -> str:
+    """Lowercase, strip punctuation to single spaces, depluralize each token.
+    Used as the dedup key and the coverage/vocabulary key."""
+    s = re.sub(r"[^a-z0-9]+", " ", (label or "").lower()).strip()
+    return " ".join(_depluralize(t) for t in s.split())
+
+
+def degree_map(graph: dict) -> dict[str, int]:
+    deg = {n["id"]: 0 for n in graph["nodes"]}
+    for l in graph["links"]:
+        if l.get("source") in deg:
+            deg[l["source"]] += 1
+        if l.get("target") in deg:
+            deg[l["target"]] += 1
+    return deg
+
+
 def merge_graphs(named_inputs: list[tuple[str, dict]]) -> dict:
     """Union (name, node-link dict) inputs. Nodes union by id (first wins for
     attributes; origin_graphs accumulates contributor names in input order).
