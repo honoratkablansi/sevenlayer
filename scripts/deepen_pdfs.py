@@ -156,7 +156,9 @@ def rebuild(graph: dict, n_files: int) -> dict:
     report = generate(G, communities, cohesion, labels, gods, surprises,
                       detection, tokens, ".", suggested_questions=questions)
     (REPO / "graphify-out" / "GRAPH_REPORT.md").write_text(report, encoding="utf-8")
-    to_json(G, communities, str(GRAPH_PATH))
+    wrote = to_json(G, communities, str(GRAPH_PATH), force=True)
+    if wrote is False:
+        raise RuntimeError("graphify to_json refused to write graph.json")
     if G.number_of_nodes() <= 5000:
         to_html(G, communities, str(REPO / "graphify-out" / "graph.html"),
                 community_labels=labels)
