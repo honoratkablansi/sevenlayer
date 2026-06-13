@@ -1,0 +1,19 @@
+---
+source_file: "references/recursion/ch3/ref-90-zexe.pdf"
+type: "paper"
+community: "Zexe & Decentralized Private Computation"
+location: "§2.5 [BCTV17]"
+tags:
+  - graphify/paper
+  - graphify/EXTRACTED
+  - community/Zexe__Decentralized_Private_Computation
+---
+
+# Prior recursive SNARK composition over a 2-cycle of curves [BCTV17]
+
+## Connections
+- [[Cocks-Pinch bounded recursion BLS12 curve E_BLS + Cocks-Pinch curve E_CP (avoids full cycle)]] - `cites` [EXTRACTED]
+- [[Cycles of Elliptic Curves]] - `cites` [EXTRACTED]
+- [[Zexe a ledger-based system for decentralized private computation]] - `cites` [EXTRACTED]
+
+#graphify/paper #graphify/EXTRACTED #community/Zexe__Decentralized_Private_Computation

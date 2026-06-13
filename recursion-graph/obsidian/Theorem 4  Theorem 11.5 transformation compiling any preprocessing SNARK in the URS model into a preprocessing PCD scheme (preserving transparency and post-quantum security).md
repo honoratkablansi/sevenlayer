@@ -1,0 +1,21 @@
+---
+source_file: "references/recursion/ch1/ref-10-fractal.pdf"
+type: "paper"
+community: "Fractal & Holographic Recursion"
+location: "Theorem 4, §1.1(3); §11.3–§11.5"
+tags:
+  - graphify/paper
+  - graphify/EXTRACTED
+  - community/Fractal__Holographic_Recursion
+---
+
+# Theorem 4 / Theorem 11.5: transformation compiling any preprocessing SNARK in the URS model into a preprocessing PCD scheme (preserving transparency and post-quantum security)
+
+## Connections
+- [[Fractal Post-Quantum and Transparent Recursive Proofs from Holography (Chiesa, Ojha, Spooner, EUROCRYPT 2020)]] - `proves` [EXTRACTED]
+- [[Post-quantum security (against quantum adversaries; security in the QROM)]] - `proves` [EXTRACTED]
+- [[Proof-carrying data (PCD) primitive formally capturing recursive composition via a compliance predicate]] - `defines` [EXTRACTED]
+- [[Recursive composition  PCD from succinct-verifier SNARKs BCCT13]] - `cites` [EXTRACTED]
+- [[Transparent (public-coin, toxic-waste-free) setup in the uniform reference string (URS) model]] - `assumes` [EXTRACTED]
+
+#graphify/paper #graphify/EXTRACTED #community/Fractal__Holographic_Recursion

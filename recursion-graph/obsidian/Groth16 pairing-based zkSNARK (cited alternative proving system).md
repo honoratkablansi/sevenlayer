@@ -1,0 +1,18 @@
+---
+source_file: "references/recursion/ch3/ref-61-verisbom.pdf"
+type: "paper"
+community: "zkTLS Oracles (DECO)"
+location: "§3.2; §4.2; ref [38]"
+tags:
+  - graphify/paper
+  - graphify/EXTRACTED
+  - community/zkTLS_Oracles_DECO
+---
+
+# Groth16 pairing-based zkSNARK (cited alternative proving system)
+
+## Connections
+- [[VeriSBOM trustless, selectively-disclosed verifiable SBOM-sharing framework via ZKPs]] - `cites` [EXTRACTED]
+- [[Zero-knowledge proof system (completeness, soundness, zero-knowledge; zkSNARK)]] - `conceptually_related_to` [EXTRACTED]
+
+#graphify/paper #graphify/EXTRACTED #community/zkTLS_Oracles_DECO

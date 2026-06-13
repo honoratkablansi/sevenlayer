@@ -1,0 +1,13 @@
+{
+  "runs": [
+    {
+      "date": "2026-06-13T00:00:00+00:00",
+      "input_tokens": 3342156,
+      "output_tokens": 0,
+      "files": 93,
+      "note": "recursion-graph: measured subagent tokens (manifest+outline+papers+web extraction)"
+    }
+  ],
+  "total_input_tokens": 3342156,
+  "total_output_tokens": 0
+}

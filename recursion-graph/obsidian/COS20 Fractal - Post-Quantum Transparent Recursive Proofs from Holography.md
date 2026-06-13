@@ -1,0 +1,18 @@
+---
+source_file: "references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf"
+type: "paper"
+community: "Succinctness & Accumulation Schemes"
+location: "§1.2, ref [COS20]"
+tags:
+  - graphify/paper
+  - graphify/EXTRACTED
+  - community/Succinctness__Accumulation_Schemes
+---
+
+# COS20: Fractal - Post-Quantum Transparent Recursive Proofs from Holography
+
+## Connections
+- [[Recursive Proof Composition]] - `conceptually_related_to` [EXTRACTED]
+- [[Theorem 5.2 transformation T from SNARK + accumulation scheme to PCD for constant-depth predicates]] - `cites` [EXTRACTED]
+
+#graphify/paper #graphify/EXTRACTED #community/Succinctness__Accumulation_Schemes

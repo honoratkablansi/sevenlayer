@@ -1,0 +1,18 @@
+---
+source_file: "references/recursion/ch1/ref-32-nguyen-boneh-setty-nova-cycle.pdf"
+type: "paper"
+community: "Folding Schemes (LatticeFold)"
+location: "§3 (The Verification Key); §3.1"
+tags:
+  - graphify/paper
+  - graphify/EXTRACTED
+  - community/Folding_Schemes_LatticeFold
+---
+
+# Fiat-Shamir verification key vk = H(pp, R1CS) must enter every random-oracle call to preserve folding-verifier soundness
+
+## Connections
+- [[Dao, Miller, Wright, Grubbs — Weak Fiat-Shamir attacks on modern proof systems (2023) 3]] - `cites` [EXTRACTED]
+- [[Folding Schemes]] - `assumes` [EXTRACTED]
+
+#graphify/paper #graphify/EXTRACTED #community/Folding_Schemes_LatticeFold
