@@ -1,0 +1,19 @@
+---
+source_file: "references/ch14/ref-45-small-space-cpu-proofs.pdf"
+type: "paper"
+community: "Memory Checking & Sparse PCS"
+location: "§3.3 (Overview of Twist)"
+tags:
+  - graphify/paper
+  - graphify/EXTRACTED
+  - community/Memory_Checking__Sparse_PCS
+---
+
+# Twist: sum-check memory-checking argument for read/write memory
+
+## Connections
+- [[Offline Memory Checking]] - `conceptually_related_to` [EXTRACTED]
+- [[Prefix-suffix inner product sum-check protocol (streaming, linear-time)]] - `conceptually_related_to` [EXTRACTED]
+- [[Twist and Shout Memory-Checking Arguments]] - `conceptually_related_to` [EXTRACTED]
+
+#graphify/paper #graphify/EXTRACTED #community/Memory_Checking__Sparse_PCS

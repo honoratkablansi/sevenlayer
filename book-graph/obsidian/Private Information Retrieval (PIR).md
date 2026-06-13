@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Midnight & Private Contracts"
+community: "Private Contracts & Rollup Economics"
 location: "Chapter 9"
 tags:
   - graphify/document
   - graphify/INFERRED
-  - community/Midnight__Private_Contracts
+  - community/Private_Contracts__Rollup_Economics
 ---
 
 # Private Information Retrieval (PIR)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Private Smart Contracts]] - `conceptually_related_to` [INFERRED]
 
-#graphify/document #graphify/INFERRED #community/Midnight__Private_Contracts
+#graphify/document #graphify/INFERRED #community/Private_Contracts__Rollup_Economics

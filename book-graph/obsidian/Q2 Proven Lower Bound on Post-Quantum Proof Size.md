@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Commitments & Cryptographic Hardness"
+community: "Bitcoin Quantum Risk (HNDL)"
 location: "Chapter 14"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Commitments__Cryptographic_Hardness
+  - community/Bitcoin_Quantum_Risk_HNDL
 ---
 
 # Q2: Proven Lower Bound on Post-Quantum Proof Size
@@ -17,4 +17,4 @@ tags:
 - [[Post-Quantum Cryptography]] - `references` [EXTRACTED]
 - [[The Ideal PCS Problem]] - `introduces` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Commitments__Cryptographic_Hardness
+#graphify/document #graphify/EXTRACTED #community/Bitcoin_Quantum_Risk_HNDL

@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "ZK Foundations & Framing"
+community: "Circuit Security & Constraint Systems"
 location: "Chapter 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/ZK_Foundations__Framing
+  - community/Circuit_Security__Constraint_Systems
 ---
 
 # Soundness
@@ -16,4 +16,4 @@ tags:
 - [[Knowledge-Soundness]] - `conceptually_related_to` [EXTRACTED]
 - [[Zero-Knowledge Proof]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/ZK_Foundations__Framing
+#graphify/document #graphify/EXTRACTED #community/Circuit_Security__Constraint_Systems

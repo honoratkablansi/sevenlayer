@@ -1,43 +1,40 @@
 ---
 type: community
-cohesion: 0.09
-members: 28
+cohesion: 0.12
+members: 25
 ---
 
 # Community 8
 
-**Cohesion:** 0.09 - loosely connected
-**Members:** 28 nodes
+**Cohesion:** 0.12 - loosely connected
+**Members:** 25 nodes
 
 ## Members
-- [[Claim Privacy as Cross-Cutting Concern]] - document - proving-nothing.md
-- [[Compact (MidnightIOG DSL)]] - document - proving-nothing.md
-- [[Compact 26-Pass Nanopass Compilation Pipeline]] - document - proving-nothing.md
-- [[Disclosure Analysis (Compact)]] - document - proving-nothing.md
-- [[Four-Phase Transaction Pipeline]] - document - proving-nothing.md
-- [[Fourth Philosophy Application-Specific DSL]] - document - proving-nothing.md
-- [[Halo 2  UltraPlonk]] - document - proving-nothing.md
-- [[Kachina]] - document - proving-nothing.md
-- [[L2Beat Stages Framework_1]] - document - proving-nothing.md
-- [[Leo (Aleo)  o1js (Mina)]] - document - proving-nothing.md
-- [[Local Proof Server (localhost6300)]] - document - proving-nothing.md
-- [[Maturity Assessment (Stage 0-1)]] - document - proving-nothing.md
-- [[Midnight (Privacy Blockchain)]] - document - proving-nothing.md
-- [[Midnight Reference Documentation (473pp)]] - document - proving-nothing.md
-- [[Midnight Three-Token Architecture (Night, Shielded, DUST)]] - document - proving-nothing.md
-- [[Poseidon Hash_1]] - document - proving-nothing.md
-- [[Privacy Theater Analogy]] - document - proving-nothing.md
-- [[Private Information Retrieval (PIR)]] - document - proving-nothing.md
-- [[Private Smart Contracts]] - document - proving-nothing.md
-- [[Seven-Layer ZK Model]] - document - proving-nothing.md
-- [[ShieldedUnshielded UTXO Model]] - document - proving-nothing.md
-- [[Side-Channel Attacks]] - document - proving-nothing.md
-- [[Three-Token Model (NIGHTDUSTCustom)]] - document - proving-nothing.md
-- [[Verifier Key Lifecycle  Immutability]] - document - proving-nothing.md
-- [[ZKIR (Zero-Knowledge Intermediate Representation)]] - document - proving-nothing.md
-- [[Zerocash]] - document - proving-nothing.md
-- [[Zexe]] - document - proving-nothing.md
-- [[disclose() Operator]] - document - proving-nothing.md
+- [[ARGUZZ Testing zkVMs for Soundness and Completeness Bugs]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[ARGUZZ first automated fuzzer for zkVM soundness & completeness bugs (7-step workflow)]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[CIRCIL extended with inline-RISC-V-assembly custom functions (e.g. mulhsu) + circuit-to-Rust translation]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[CIRCUZZ 23 metamorphic fuzzer for ZK pipelines (CIRCOMGNARKNOIR) via CIRCIL]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Dory transparent polynomial commitment scheme (log-round, sqrt-space prover)]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Efficient metamorphic-testing variant known expected output, k-safety, single padded trace]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Evaluation across 6 RISC-V zkVMs; 11 bugs (3 soundness FI, 8 completeness MT) in 3 of them]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[FUZZTRUCTION  FUZZTRUCTION-NET 10,11 fault-injection-based fuzzing]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Fair fault-injection scheduler (uniform RISC-V instruction coverage via least-injected selection)]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Fault Injection]] - document - references/ch14/ref-61-arguzz.pdf
+- [[INSTR_WORD_MOD instruction-modification injection (universal; triggered all 3 soundness bugs)]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Injection-type taxonomy (PC mod, ALU resultoperand, memreg mod, DIVREM flips, ecall id, branch invert)]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[JOLT bug6 (soundness) unconstrained immediate operand in lui instruction]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[MTZK 43 metamorphic testing of zero-knowledge compilers]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Malicious-prover fault injection into VM execution logic (verifier-only-trusted threat model)]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Metamorphic Testing]] - document - references/ch14/ref-61-arguzz.pdf
+- [[NEXUS bug3 (soundness) unconstrained store-value lower bits in swshsb load-store]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Product programs  hyperproperty (k-safety) reasoning 12,13,20,41]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Product-program metamorphic oracle merge k equivalent Rust fns; SUCCESS (0xC0FFEE) vs OOPS (0x0)]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[RISC ZERO bug1 (soundness) missing constraint on 3-register insns (remudivu); $50,000 bounty]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[RISC-V CPU fuzzers 25,29,40,44 (DifuzzRTL, TheHuzz, Cascade, MorFuzz)]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Ripple-effect fault propagation (fault at one instruction cascades along data dependencies)]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Rust 1.80 miscompilation by-product bug (boolean expr; both soundness & completeness)]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Semantics-preserving rewrite rules (commassocdistribDe Morgan; field-arith rules disabled)]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Soundness-bug detection criterion output flips SUCCESS-OOPS yet verifier accepts proof]] - paper - references/ch14/ref-61-arguzz.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -47,18 +44,8 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 3 edges to [[_COMMUNITY_Community 1]]
-- 3 edges to [[_COMMUNITY_Community 7]]
-- 2 edges to [[_COMMUNITY_Community 9]]
-- 2 edges to [[_COMMUNITY_Community 11]]
-- 2 edges to [[_COMMUNITY_Community 3]]
-- 1 edge to [[_COMMUNITY_Community 0]]
-- 1 edge to [[_COMMUNITY_Community 2]]
-- 1 edge to [[_COMMUNITY_Community 5]]
+- 1 edge to [[_COMMUNITY_Community 56]]
+- 1 edge to [[_COMMUNITY_Community 33]]
 
 ## Top bridge nodes
-- [[Midnight (Privacy Blockchain)]] - degree 18, connects to 4 communities
-- [[Halo 2  UltraPlonk]] - degree 6, connects to 4 communities
-- [[Compact (MidnightIOG DSL)]] - degree 6, connects to 1 community
-- [[Disclosure Analysis (Compact)]] - degree 4, connects to 1 community
-- [[ZKIR (Zero-Knowledge Intermediate Representation)]] - degree 4, connects to 1 community
+- [[Dory transparent polynomial commitment scheme (log-round, sqrt-space prover)]] - degree 3, connects to 2 communities

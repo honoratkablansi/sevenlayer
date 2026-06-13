@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Proof Systems & Trusted Setup"
+community: "Sonic Argument System"
 location: "Chapter 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Proof_Systems__Trusted_Setup
+  - community/Sonic_Argument_System
 ---
 
 # Maller et al. — Sonic: Universal and Updatable SRS (CCS 2019)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Universal vs Circuit-Specific SRS]] - `cites` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Proof_Systems__Trusted_Setup
+#graphify/document #graphify/EXTRACTED #community/Sonic_Argument_System

@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Commitments & Cryptographic Hardness"
+community: "STARKs & Lattice SNARKs (Symphony)"
 location: "Chapter 7"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Commitments__Cryptographic_Hardness
+  - community/STARKs__Lattice_SNARKs_Symphony
 ---
 
 # NIST PQC Standards (FIPS 203/204/205, IR 8547)
@@ -15,4 +15,4 @@ tags:
 - [[Lattice-Based Cryptography]] - `references` [EXTRACTED]
 - [[Post-Quantum Cryptography]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Commitments__Cryptographic_Hardness
+#graphify/document #graphify/EXTRACTED #community/STARKs__Lattice_SNARKs_Symphony

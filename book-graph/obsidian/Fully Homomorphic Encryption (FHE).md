@@ -12,8 +12,12 @@ tags:
 # Fully Homomorphic Encryption (FHE)
 
 ## Connections
+- [[CirC Compiler Infrastructure for Proof Systems, Software Verification, and More]] - `conceptually_related_to` [EXTRACTED]
 - [[Computational Security]] - `conceptually_related_to` [EXTRACTED]
 - [[FHE Bootstrapping]] - `explains` [EXTRACTED]
+- [[Fully Homomorphic Encryption Using Ideal Lattices]] - `introduces` [EXTRACTED]
+- [[Homomorphic encryption (Evaluate over encrypted data without decrypting)]] - `conceptually_related_to` [EXTRACTED]
+- [[KDM-security  circular security (self-loop of encrypted secret keys yields true FHE)]] - `conceptually_related_to` [EXTRACTED]
 - [[Privacy-Enhancing Technologies (PETs)]] - `introduces` [EXTRACTED]
 - [[TFHE (Torus FHE)]] - `references` [EXTRACTED]
 - [[Verifiable FHE (zkFHE)]] - `conceptually_related_to` [EXTRACTED]

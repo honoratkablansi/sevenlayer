@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Midnight & Private Contracts"
+community: "Private Contracts & Rollup Economics"
 location: "Chapter 9"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Midnight__Private_Contracts
+  - community/Private_Contracts__Rollup_Economics
 ---
 
 # Kachina
@@ -16,4 +16,4 @@ tags:
 - [[Zerocash]] - `references` [EXTRACTED]
 - [[Zexe]] - `compares` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Midnight__Private_Contracts
+#graphify/document #graphify/EXTRACTED #community/Private_Contracts__Rollup_Economics

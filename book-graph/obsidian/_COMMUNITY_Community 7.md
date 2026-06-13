@@ -1,44 +1,40 @@
 ---
 type: community
-cohesion: 0.10
-members: 29
+cohesion: 0.11
+members: 25
 ---
 
 # Community 7
 
-**Cohesion:** 0.10 - loosely connected
-**Members:** 29 nodes
+**Cohesion:** 0.11 - loosely connected
+**Members:** 25 nodes
 
 ## Members
-- [[4x4 Sudoku Running Example]] - document - proving-nothing.md
-- [[ACIR (Abstract Circuit Intermediate Representation)]] - document - proving-nothing.md
-- [[AIR (Algebraic Intermediate Representation)]] - document - proving-nothing.md
-- [[Arithmetization]] - document - proving-nothing.md
-- [[Binius (Binary Tower Fields)]] - document - proving-nothing.md
-- [[Cairo (StarkWare ZK-native ISA)]] - document - proving-nothing.md
-- [[Claim The language determines what bugs the developer can make]] - document - proving-nothing.md
-- [[Constraint System]] - document - proving-nothing.md
-- [[Encoding the Performance (Layer 4 Arithmetization)]] - document - proving-nothing.md
-- [[Finite Field Arithmetic]] - document - proving-nothing.md
-- [[Jordi Baylina (Circom, iden3, Hermez, ZisK)]] - document - proving-nothing.md
-- [[Leo (Aleo record-based DSL)]] - document - proving-nothing.md
-- [[Midnight ZKIR (24-Opcode Instruction DAG)]] - document - proving-nothing.md
-- [[Noir (Aztec Labs, ACIR)]] - document - proving-nothing.md
-- [[Number-Theoretic Transform (NTT)]] - document - proving-nothing.md
-- [[PLONKish Arithmetization]] - document - proving-nothing.md
-- [[Pearce et al., NAVe Formal Verification for Noir Programs, 2025]] - document - proving-nothing.md
-- [[PolygonHermez zkEVM sunset and Baylina's pivot to ZisKRISC-V]] - document - proving-nothing.md
-- [[Polynomial Commitment Scheme]] - document - proving-nothing.md
-- [[Proof Core Layers 4-5-6 Inseparable]] - document - proving-nothing.md
-- [[RISC-V zkVMs]] - document - proving-nothing.md
-- [[Schwartz-Zippel Lemma]] - document - proving-nothing.md
-- [[Small-Field Arithmetic (BabyBear, Mersenne-31, Goldilocks)]] - document - proving-nothing.md
-- [[Small-Field STARKs (Goldilocks, BabyBear, M31)]] - document - proving-nothing.md
-- [[The Four Philosophies of Layer 2 Languages]] - document - proving-nothing.md
-- [[The Overhead Tax (10,000x to 50,000x)]] - document - proving-nothing.md
-- [[The Seven-Layer ZK Stack Model]] - document - proving-nothing.md
-- [[Three Multiplicative Sources of Proving Overhead]] - document - proving-nothing.md
-- [[zkEVM  EVM-Compatible Proving]] - document - proving-nothing.md
+- [[Cited Bellare-Fuchsbauer-Scafuro subversion impossibility (BFS16)]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Cited Groth 2010 pairing-based zk-SNARK (Gro10b)]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Cited MPC CRS ceremonies BCG+15, BGG17, BGM17]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Impossibility updating non-monomial CRS reveals constituent monomials]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Knowledge-of-Exponent Assumption]] - paper - references/ch02/ref-06-groth16.pdf
+- [[Lemma 6 single adversarial update implies full updatable knowledge soundness]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Lemmas 1-2 subversion-secure = updatable-secure = trusted-secure]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Lemmas 4-5 trapdoor extraction for subvertible & updatable CRSs]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[MonoExtract  FinalMonoExtract monomial-extraction algorithm]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Multi-Party Computation Setup Ceremony]] - document - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Quadratic monomial-only universal CRS (multivariate X,Y,Z, j=7)]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Specializable universal CRS via untrusted Derive algorithm]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Subversion-resistant NIZK  subversion zero-knowledge]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Theorem 3 perfect subversion zero-knowledge of the construction]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Theorem 4 update knowledge soundness under q-MK and q-MC]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Theorem 5  Lemma 8 Pinocchio cannot be made updatable]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Three setup-oracle types trusted (T), updatable (U), subvertible (S)]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Trusted CRS setup with secret trapdoor]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Updatable & specializable QAP-based zk-SNARK construction]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Updatable CRS model (one honest updater suffices)]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Updatable CRS syntax Setup, Update, VerifyCRS algorithms]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Updatable and Universal Common Reference Strings with Applications to zk-SNARKs]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[X-security games COMP, X-ZK, X-SND, X-KSND for X in {T,U,S}]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[q-Monomial Computational (q-MC) assumption]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[q-Monomial Knowledge (q-MK) assumption]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -48,17 +44,17 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 4 edges to [[_COMMUNITY_Community 1]]
-- 4 edges to [[_COMMUNITY_Community 5]]
-- 4 edges to [[_COMMUNITY_Community 4]]
-- 3 edges to [[_COMMUNITY_Community 8]]
-- 2 edges to [[_COMMUNITY_Community 0]]
-- 2 edges to [[_COMMUNITY_Community 2]]
-- 1 edge to [[_COMMUNITY_Community 9]]
+- 5 edges to [[_COMMUNITY_Community 21]]
+- 5 edges to [[_COMMUNITY_Community 27]]
+- 3 edges to [[_COMMUNITY_Community 20]]
+- 3 edges to [[_COMMUNITY_Community 5]]
+- 3 edges to [[_COMMUNITY_Community 18]]
+- 1 edge to [[_COMMUNITY_Community 55]]
+- 1 edge to [[_COMMUNITY_Community 104]]
 
 ## Top bridge nodes
-- [[AIR (Algebraic Intermediate Representation)]] - degree 7, connects to 3 communities
-- [[PLONKish Arithmetization]] - degree 6, connects to 3 communities
-- [[The Four Philosophies of Layer 2 Languages]] - degree 8, connects to 2 communities
-- [[The Seven-Layer ZK Stack Model]] - degree 5, connects to 2 communities
-- [[Arithmetization]] - degree 9, connects to 1 community
+- [[Updatable and Universal Common Reference Strings with Applications to zk-SNARKs]] - degree 14, connects to 4 communities
+- [[Multi-Party Computation Setup Ceremony]] - degree 11, connects to 3 communities
+- [[Updatable CRS model (one honest updater suffices)]] - degree 7, connects to 1 community
+- [[Updatable & specializable QAP-based zk-SNARK construction]] - degree 6, connects to 1 community
+- [[Subversion-resistant NIZK  subversion zero-knowledge]] - degree 4, connects to 1 community

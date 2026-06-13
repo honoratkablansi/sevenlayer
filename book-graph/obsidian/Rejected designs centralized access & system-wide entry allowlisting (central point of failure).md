@@ -1,0 +1,14 @@
+---
+source_file: "references/ch09/ref-31-blockchain-privacy-compliance.pdf"
+type: "paper"
+community: "ZK Identity & Enterprise"
+location: "§5.4"
+tags:
+  - graphify/paper
+  - graphify/EXTRACTED
+  - community/ZK_Identity__Enterprise
+---
+
+# Rejected designs: centralized access & system-wide entry allowlisting (central point of failure)
+
+#graphify/paper #graphify/EXTRACTED #community/ZK_Identity__Enterprise

@@ -1,18 +1,27 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Circuit Security & Constraint Systems"
+community: "Groth16 & Pairing SNARKs"
 location: "Chapter 5"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Circuit_Security__Constraint_Systems
+  - community/Groth16__Pairing_SNARKs
 ---
 
 # QAP (Quadratic Arithmetic Program)
 
 ## Connections
+- [[3-Element Pairing-based SNARK for Arithmetic Circuit SAT]] - `defines` [EXTRACTED]
 - [[Gennaro, Gentry, Parno, Raykova - QAPNIZK (2012)]] - `introduces` [EXTRACTED]
+- [[Gennaro-Gentry-Parno-Raykova QSPQAP and Succinct NIZKs (GGPR13)]] - `cites` [EXTRACTED]
+- [[Non-interactive Linear Proof (NILP) for Quadratic Arithmetic Programs]] - `defines` [EXTRACTED]
+- [[On the Size of Pairing-Based Non-interactive Arguments]] - `conceptually_related_to` [EXTRACTED]
+- [[Parno-Howell-Gentry-Raykova Pinocchio (PHGR13)]] - `conceptually_related_to` [EXTRACTED]
 - [[R1CS (Rank-1 Constraint Systems)]] - `conceptually_related_to` [EXTRACTED]
+- [[Theorem 5  Lemma 8 Pinocchio cannot be made updatable]] - `conceptually_related_to` [EXTRACTED]
+- [[Two-phase split SRS universal srs_u (phase 1) + specialized srs_s (phase 2), phi_max=2]] - `conceptually_related_to` [EXTRACTED]
+- [[Updatable & specializable QAP-based zk-SNARK construction]] - `assumes` [EXTRACTED]
+- [[Updatable and Universal Common Reference Strings with Applications to zk-SNARKs]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Circuit_Security__Constraint_Systems
+#graphify/document #graphify/EXTRACTED #community/Groth16__Pairing_SNARKs

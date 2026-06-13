@@ -1,0 +1,17 @@
+---
+source_file: "references/ch06/ref-18-hypernova.pdf"
+type: "paper"
+community: "Recursive Proofs & IVC"
+location: "§2 Definition 2 / Definition 5"
+tags:
+  - graphify/paper
+  - graphify/EXTRACTED
+  - community/Recursive_Proofs__IVC
+---
+
+# Linearized (committed) CCS relation
+
+## Connections
+- [[Multi-folding scheme for CCS (Construction 1)]] - `defines` [EXTRACTED]
+
+#graphify/paper #graphify/EXTRACTED #community/Recursive_Proofs__IVC

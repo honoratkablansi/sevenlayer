@@ -1,35 +1,25 @@
 ---
 type: community
-cohesion: 0.12
-members: 20
+cohesion: 0.22
+members: 10
 ---
 
 # ZK Foundations & Framing
 
-**Cohesion:** 0.12 - loosely connected
-**Members:** 20 nodes
+**Cohesion:** 0.22 - loosely connected
+**Members:** 10 nodes
 
 ## Members
-- [[Chaliasos et al. — SoK Security Vulnerabilities in SNARKs (USENIX 2024)]] - document - proving-nothing.md
-- [[Claim Under-constrained circuits are the dominant ZK failure mode (95 of 141 bugs)]] - document - proving-nothing.md
 - [[Completeness]] - document - proving-nothing.md
 - [[EU eIDAS 2.0 (digital identity wallets, 450M users)]] - document - proving-nothing.md
-- [[Goldwasser, Micali, Rackoff — Knowledge Complexity of Interactive Proof Systems (1985)]] - document - proving-nothing.md
 - [[Humanity Protocol (palm-vein biometric, $1.1B valuation)]] - document - proving-nothing.md
-- [[Interactive Proof System]] - document - proving-nothing.md
-- [[Knowledge-Soundness]] - document - proving-nothing.md
+- [[Midnight Developer Guide (Midnight Docs)]] - document - references/ch12/ref-41-midnight-developer-guide.md
 - [[Partisia  Danish Student Credentials (ZK + MPC)]] - document - proving-nothing.md
 - [[Privacy Pools (0xbow, prove-innocence-not-identity)]] - document - proving-nothing.md
-- [[Proof of Personhood]] - document - proving-nothing.md
-- [[Prover and Verifier]] - document - proving-nothing.md
 - [[Selective Disclosure]] - document - proving-nothing.md
-- [[Soundness]] - document - proving-nothing.md
-- [[Stage Magic Metaphor (MagicianAudience)]] - document - proving-nothing.md
 - [[The Bar ID  Proof at the Door Scenario]] - document - proving-nothing.md
-- [[Trust-Minimization Thesis (decompose, not eliminate trust)]] - document - proving-nothing.md
 - [[World (Worldcoin, iris-scanning orbs)]] - document - proving-nothing.md
 - [[ZK Identity]] - document - proving-nothing.md
-- [[Zero-Knowledge Proof]] - document - proving-nothing.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -39,17 +29,15 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 2 edges to [[_COMMUNITY_Midnight & Private Contracts]]
-- 1 edge to [[_COMMUNITY_Proof Systems & Trusted Setup]]
-- 1 edge to [[_COMMUNITY_Fiat-Shamir Security & Synthesis]]
+- 2 edges to [[_COMMUNITY_ZK Foundations & SNARK Security]]
+- 2 edges to [[_COMMUNITY_Digital Identity & Proof of Personhood]]
+- 2 edges to [[_COMMUNITY_Digital Identity & Proof of Personhood]]
+- 1 edge to [[_COMMUNITY_Midnight & Private Contracts]]
 - 1 edge to [[_COMMUNITY_Verification & Rollup Economics]]
-- 1 edge to [[_COMMUNITY_Arithmetization & ZK Languages]]
-- 1 edge to [[_COMMUNITY_Circuit Security & Constraint Systems]]
 - 1 edge to [[_COMMUNITY_Market Coprocessors & ZKML]]
 
 ## Top bridge nodes
-- [[Selective Disclosure]] - degree 7, connects to 2 communities
-- [[Zero-Knowledge Proof]] - degree 7, connects to 1 community
-- [[ZK Identity]] - degree 6, connects to 1 community
-- [[Knowledge-Soundness]] - degree 2, connects to 1 community
-- [[Interactive Proof System]] - degree 2, connects to 1 community
+- [[Selective Disclosure]] - degree 10, connects to 4 communities
+- [[ZK Identity]] - degree 6, connects to 2 communities
+- [[Completeness]] - degree 2, connects to 1 community
+- [[World (Worldcoin, iris-scanning orbs)]] - degree 2, connects to 1 community

@@ -2,26 +2,26 @@
 
 | Metric | Book graph | Graph 1 |
 |---|---|---|
-| Nodes | 412 | 1467 |
-| Edges | 625 | 4365 |
-| Communities | 14 | 66 |
-| Distinct concept labels | 389 | 1444 |
+| Nodes | 1513 | 1467 |
+| Edges | 2389 | 4365 |
+| Communities | 132 | 66 |
+| Distinct concept labels | 1469 | 1444 |
 
-**Concept-label Jaccard similarity:** 0.092
-(155 shared, 234 book-only, 1289 graph-1-only)
+**Concept-label Jaccard similarity:** 0.736
+(1235 shared, 234 book-only, 209 graph-1-only)
 
 ## God nodes — Book graph
 
-1. Groth16 — 25 edges
-2. Midnight (Privacy Blockchain) — 18 edges
-3. STARK — 16 edges
-4. Trusted Setup Ceremony — 15 edges
-5. KZG Polynomial Commitment — 13 edges
-6. ZK Rollup — 13 edges
-7. BLS12-381 Curve — 12 edges
-8. Folding Scheme — 12 edges
-9. FRI Commitment Scheme — 11 edges
-10. Fiat-Shamir Transform — 10 edges
+1. Folding Scheme — 36 edges
+2. Groth16 — 25 edges
+3. Zero-Knowledge Proof — 24 edges
+4. STARK — 24 edges
+5. Polynomial Commitment Scheme — 24 edges
+6. Post-Quantum Cryptography — 23 edges
+7. KZG Polynomial Commitment — 22 edges
+8. Neo: Lattice-based Folding Scheme for CCS over Small Fields and Pay-per-bit Commitments — 22 edges
+9. Scalable, Transparent, and Post-Quantum Secure Computational Integrity — 19 edges
+10. Midnight (Privacy Blockchain) — 18 edges
 
 ## God nodes — Graph 1
 
@@ -39,126 +39,126 @@
 ## What graph 1 knows that the book's text alone does not
 _(concepts present in graph 1 — from references + wiki + deep-mining — absent from the book-only graph)_
 
-- 2 cycle of elliptic curve
-- 2 field element nilp via squaring gate
-- 2016 ethereum shanghai eip 150 underpriced opcode dos precedent
-- 3 element pairing based snark for arithmetic circuit sat
-- 32 previously unknown vulnerabilitie
-- 58 program benchmark suite
-- 5x faster prover omega speedup over latticefold
-- 6 previously unknown vulnerabilitie discovered
-- a la carte cost profile for machine execution
-- accumulation scheme
-- accumulation scheme for nark verifier with slack mu and error commitment e
-- additive fft over binary field
-- additively homomorphic vector commitment
-- addres grouping suffice instead of full ordering
-- adopt ceremony desiderata available decentralized open persistent transparent
-- aggelo kiayia
-- aggregated range proof for m value
 - ajtai commitment
 - ajtai commitment scheme
-- algebraic extractor e agm
-- algebraic group model
-- algebraic interactive proof public coin ip with arithmetic circuit verifier
-- algebraic intermediate representation
-- algebraic linking interactive oracle proof
-- algebraic placement and routing reduction
-- algebraic reduction of knowledge
 - algebraic vs traditional hash function
-- algorand player replaceable byzantine agreement
-- algorithm for quantum computation discrete logarithm and factoring
-- all risc v instruction are decomposable
-- ampc infrastructure nvidia h100 gpu running cuda 50m pairwise comparison sec operated by fau erlangen uc berkeley rdi nethermind kaist utec uzurich
-- amplified finality delay attack
-- anonymity set
-- anonymized multi party computation quantum secure smpc uniquenes service on encrypted iri code fragment revealing only a single match no match bit never plaintext hamming distance
-- apposcopy inter component call graph abstraction
-- approval statu term acceptable deprecated disallowed legacy use
-- approximate range proof rok pi rg for ring vector via random projection monomial lookup
-- arc
-- argument that large shard enable faster twist shout proving
-- arguzz first automated fuzzer for zkvm soundnes completenes bug
-- arguzz testing zkvm for soundnes and completenes bug
 - ariel gabizon
-- arthur merlin game as restricted interactive proof
-- asp construction strategie
 - asset tokenization
-- association set
-- association set provider intermediary
-- assumption 4 3 matrixaclmt knowledge assumption
-- assumption a sufficiently powerful quantum computer will eventually be controllable by a bad actor
-- attack on extractable linear fc integer variant of acl 22 not extractable assuming inhomogeneou sis
-- augmented function f
-- auroralight
-- authentic source attribute verification art 45e
-- authentication path communication complexity minimization
-- automated detection of under constrained circuit in zero knowledge proof
-- automated find and prove bug pipeline
-- avoiding preprocessing for uniform ccs verifier evaluate wiring mle m j in log time
-- avx 512 multi modular ntt ring arithmetic library
 - aztec
-- aztec plonk verifier point at infinity bug
-- b bit word embedding of f m into low norm cyclotomic ring vector
-- b bounded ajtai commitment opening relation r b cm
-- b relaxed binding of ajtai commitment
 - babybear
-- backend layer vulnerabilitie
-- barreto naehrig curve
-- base b witnes decomposition step
-- basi struct assumption
-- batch circle fri soundnes error
-- batch opening
-- batched evaluation protocol for multiple point polynomial
-- batched kzg polynomial commitment scheme
-- batching of polynomial commitment grand product argument
 - batchzk
-- bayer groth permutation shuffle argument
-- bclms21 pcd without succinct argument
-- bctv14 extra parameter vulnerability
-- beacon free ceremony remove bgm17 random beacon biased srs tolerated
 - beanstalk
 - beanstalk flash loan governance attack
-- ben sasson chiesa green tromer virza mpc for public parameter
-- ben sasson et al first snark for von neumann architecture
-- benchmark composite order pairing 254x slower at 128 bit
-- bezout s identity for univariate polynomial
-- bgm17 bowe gabizon mier scalable mpc for zk snark param in random beacon model
-- bgn scheme cost comparison prime order 28x faster despite 12 pairing
-- biglessthan motivating example
-- bilateral direct proof
-- binary air and permuted air
-- bintuner opentuner based study of compiler opt impact on binary diff
-- bis project leap quantum proofing the financial system
-- bitansky chiesa ishai ostrovsky paneth snark via linear interactive proof
-- bitcoin
-- bitcoin addres crypto stack ecc sha 256 ripemd 160 hashing base58 bech32m encoding addres creation is a 5 step nested proces
-- bitcoin case study public permissionles dlt with 15 year ledger used to illustrate hndl threat is current active unmitigated for data privacy and asynchronou acros addres type
-- bivariate constraint system a b c plu q linear constraint embedded as constant term of t
-- bivariate polynomial folding f a t s b with y x m
-- block et al quasi linear small space snark for vms with streaming bulletproof pcs
-- blockchain privacy and regulatory compliance toward a practical equilibrium
-- bls12 381 new pairing friendly curve 384 bit base field 256 bit group order 128 bit security
-- blum evan gemmell kannan naor beg 91 original offline memory checking
-- blumberg et al small space quasi linear piop for circuit sat
-- bn254 embedding degree 12 bn pairing drop below 128 bit security
 - bn254 s eroding security margin
-- boneh goh nissim evaluating 2 dnf formula on ciphertext 11
-- bootle et al inner product argument
-- bootstrappable encryption scheme that can evaluate its own decryption circuit
-- bootstrapping
-- bootstrapping theorem any bootstrappable scheme yield leveled fhe family e
-- bounded polynomial extractability evaluation binding
-- bowe gabizon green mpc for the pinocchio zk snark parameter
-- bqp
-- brakedown gls 21 orion xzs22 field agnostic post quantum poly commitment instantiating superspartan
-- branched gate caching for non uniform error term
-- breakable block
 - bulletproof
-- bulletproof nizk argument system
-- bulletproof short proof for confidential transaction and more
-- buterin ethereum quantum emergency hard fork proposal
-- cairo turing complete stark friendly cpu architecture
+- cardano
+- case study midnight and the three token architecture
+- case study midnight s sealed certificate
+- ccs the rosetta stone
+- celestia
+- chaliaso et al rollup pricing attack study
+- chaliaso et al sok snark vulnerabilitie
+- choreographing the act
+- choru one the economic of zk proving
+- circle stark and stwo a generational leap
+- coda
+- compact language
+- compact s disclosure analysi
+- complete bibliography
+- composability when one pet is not enough
+- constant time proving
+- convergence
+- dan boneh
+- deutsche bank
+- dtcc
+- eip 4844 blob transaction
+- elliptic curve cryptography
+- enterprise pilot
+- ethereum foundation
+- fiat shamir vulnerabilitie
+- finite field extension f p n
+- five lesson for zk system design
+- flash loan
+- four familie of commitment scheme
+- fri
+- from circuit to virtual machine a brief evolution
+- from speed race to security race
+- frozen heart vulnerability clas
+- full seven layer mapping
+- gdpr
+- gkr protocol
+- glossary of key term
+- governance the achille heel
+- gpu accelerated proving
+- grand view research zero knowledge proof market size report
+- halo
+- halo 2
+- how to read thi guide
+- hyrax commitment scheme
+- improvement backlog
+- jagged polynomial commitment scheme
+- jen groth
+- jolt zkvm
+- knowledge soundnes witnes extractability for the extended crs groth snark
+- kzg polynomial commitment scheme
+- l2beat
+- lagrange
+- lattice based proving
+- lattice cryptography
+- layer 1 building the stage
+- layer 4 arithmetization
+- mangrove
+- maturity and readines
+- memory the binding constraint
+- mersenne 31 m31
+- midnight as test case
+- midnight at a glance
+- midnight compiler ir circuit
+- midnight s bls12 381 stage
+- midnight s zkir a concrete layer 4
+- midnight the privacy theater
+- midnightj sdk
+- module sis
+- msm
+- nebra universal proof aggregation
+- nightstream what a folding engine look like from the inside
+- nist
+- ntt
+- nullifier
+- nvidia
+- nvidia h100 gpu
+- offline memory checking algebraic ram reduction
+- on chain governance
+- on chain verification in 2026
+- open problem
+- openvm
+- option value analysi
+- partisia blockchain
+- path one the hybrid stark to snark pipeline
+- performance the cost collapse
+- pico prism
+- pico zkvm
+- picu
+- plonky3
+- polygon
+- power of tau setup
+- pricing attack
+- privacy architecture for smart contract kachina and zexe
+- proof aggregation the missing layer
+- proof recursion
+- proving as a service the prover market
+- proving nothing
+- real world deployment five case studie
+- recursion vs folding russian doll and snowball
+- risc v
+- risc v instruction set architecture
+- risc v won why taxonomy still matter
+- sealing the certificate
+- seven layer zk stack model
+- sevenlayer wiki index
+- side channel attack when the wall leak
+- snark recursion vs folding the full picture
+- sonic
 
 ## Concepts in the book graph but not in graph 1
 

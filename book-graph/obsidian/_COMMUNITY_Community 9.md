@@ -1,35 +1,40 @@
 ---
 type: community
-cohesion: 0.12
-members: 20
+cohesion: 0.11
+members: 25
 ---
 
 # Community 9
 
-**Cohesion:** 0.12 - loosely connected
-**Members:** 20 nodes
+**Cohesion:** 0.11 - loosely connected
+**Members:** 25 nodes
 
 ## Members
-- [[Chaliasos et al. — SoK Security Vulnerabilities in SNARKs (USENIX 2024)]] - document - proving-nothing.md
-- [[Claim Under-constrained circuits are the dominant ZK failure mode (95 of 141 bugs)]] - document - proving-nothing.md
-- [[Completeness]] - document - proving-nothing.md
-- [[EU eIDAS 2.0 (digital identity wallets, 450M users)]] - document - proving-nothing.md
-- [[Goldwasser, Micali, Rackoff — Knowledge Complexity of Interactive Proof Systems (1985)]] - document - proving-nothing.md
-- [[Humanity Protocol (palm-vein biometric, $1.1B valuation)]] - document - proving-nothing.md
-- [[Interactive Proof System]] - document - proving-nothing.md
-- [[Knowledge-Soundness]] - document - proving-nothing.md
-- [[Partisia  Danish Student Credentials (ZK + MPC)]] - document - proving-nothing.md
-- [[Privacy Pools (0xbow, prove-innocence-not-identity)]] - document - proving-nothing.md
-- [[Proof of Personhood]] - document - proving-nothing.md
-- [[Prover and Verifier]] - document - proving-nothing.md
-- [[Selective Disclosure]] - document - proving-nothing.md
-- [[Soundness]] - document - proving-nothing.md
-- [[Stage Magic Metaphor (MagicianAudience)]] - document - proving-nothing.md
-- [[The Bar ID  Proof at the Door Scenario]] - document - proving-nothing.md
-- [[Trust-Minimization Thesis (decompose, not eliminate trust)]] - document - proving-nothing.md
-- [[World (Worldcoin, iris-scanning orbs)]] - document - proving-nothing.md
-- [[ZK Identity]] - document - proving-nothing.md
-- [[Zero-Knowledge Proof]] - document - proving-nothing.md
+- [[58-program benchmark suite (PolyBench, NPB, SPEC CPU 2017, a16z, Succinct, RSP, crypto)]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
+- [[Ben-Sasson et al. first SNARK for von Neumann architecture (bounded machine)]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
+- [[BinTuner (Ren et al.) OpenTuner-based study of compiler-opt impact on binary diff]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
+- [[Cairo Turing-complete STARK-friendly CPU architecture (prior zkVM)]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
+- [[Cost-model mismatch zkVM uniform-cost constraints vs CPU hardware heuristics (cachebranch-predILP)]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
+- [[Evaluating Compiler Optimization Impacts on zkVM Performance]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
+- [[Finding -Ox gains (40%) on zkVMs far smaller than on traditional x86 CPUs]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
+- [[Finding inline is most beneficial pass (~22-30% gains, +28.4% RISC Zero exec)]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
+- [[Finding licm is most detrimental pass (+11.8% exec, +13.5% proving on RISC Zero; +444% paging on npb-lu)]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
+- [[First systematic study of compiler-optimization impact on zkVMs]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
+- [[Four optimization principles (P1 paging-aware, P2 selective inlining, P3 instr-reducing unroll, P4 conservative branch elim)]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
+- [[Genetic autotuning via OpenTuner (cycle-count fitness; up to 2.2x speedup over -O3)]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
+- [[Key cost components dynamic instruction count and paging cycles (~1130 cyclespage-op)]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
+- [[LLVM Compiler Infrastructure]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
+- [[Methodology 71 optimization profiles (64 LLVM passes, 6 -Ox levels, 1 baseline) x 2 zkVMs]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
+- [[Precompiles built-in circuits for hashingEC ops limiting autotuning crypto gains]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
+- [[Proving time (prover wall-clock cost metric)]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
+- [[RISC Zero zkVM (evaluated, v1.2.4)]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
+- [[SP1 zkVM (evaluated, v4.1.4)]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
+- [[Security-critical bug SP1 silently aborts mid-run yet proof verifies (false-correctness; reported and patched)]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
+- [[Superoptimization (e.g. Souper) for zkVM guest code]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
+- [[Surprising result strength reduction (div to shift-add) 3.5x faster on x86 but 40% slower proving on RISC Zero]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
+- [[Three zkVM metrics cycle count, executor time, proving time]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
+- [[zk-Bench (Ernstberger et al.) benchmarking framework for ZK DSLsSNARKs]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
+- [[zkVM-aware LLVM modifications (100 LOC cost model, heuristics, disabled passes); +45% RISC Zero, +4.6% avg]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -39,17 +44,7 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 2 edges to [[_COMMUNITY_Community 8]]
-- 1 edge to [[_COMMUNITY_Community 1]]
-- 1 edge to [[_COMMUNITY_Community 12]]
-- 1 edge to [[_COMMUNITY_Community 3]]
-- 1 edge to [[_COMMUNITY_Community 7]]
-- 1 edge to [[_COMMUNITY_Community 5]]
-- 1 edge to [[_COMMUNITY_Community 10]]
+- 1 edge to [[_COMMUNITY_Community 16]]
 
 ## Top bridge nodes
-- [[Selective Disclosure]] - degree 7, connects to 2 communities
-- [[Zero-Knowledge Proof]] - degree 7, connects to 1 community
-- [[ZK Identity]] - degree 6, connects to 1 community
-- [[Trust-Minimization Thesis (decompose, not eliminate trust)]] - degree 2, connects to 1 community
-- [[Claim Under-constrained circuits are the dominant ZK failure mode (95 of 141 bugs)]] - degree 2, connects to 1 community
+- [[LLVM Compiler Infrastructure]] - degree 6, connects to 1 community

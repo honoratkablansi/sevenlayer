@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Lookups & zkVM Arithmetic"
+community: "Fiat-Shamir Security & Synthesis"
 location: "Chapter 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Lookups__zkVM_Arithmetic
+  - community/Fiat-Shamir_Security__Synthesis
 ---
 
 # BN254 (alt_bn128) Curve
@@ -22,4 +22,4 @@ tags:
 - [[Tower NFS Erosion of BN254 Security]] - `explains` [EXTRACTED]
 - [[Zcash Sapling Ceremony (2018, BGM17 MMORPG)]] - `references` [INFERRED]
 
-#graphify/document #graphify/EXTRACTED #community/Lookups__zkVM_Arithmetic
+#graphify/document #graphify/EXTRACTED #community/Fiat-Shamir_Security__Synthesis

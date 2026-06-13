@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Proof Systems & Trusted Setup"
+community: "Commitments & Cryptographic Hardness"
 location: "Chapter 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Proof_Systems__Trusted_Setup
+  - community/Commitments__Cryptographic_Hardness
 ---
 
 # Midnight BLS12-381 Layer 1 Case Study (Compact/ZKIR, Pluto-Eris switch)
@@ -17,4 +17,4 @@ tags:
 - [[Powers of Tau]] - `references` [EXTRACTED]
 - [[Quantum Shelf Life & Option Value]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Proof_Systems__Trusted_Setup
+#graphify/document #graphify/EXTRACTED #community/Commitments__Cryptographic_Hardness

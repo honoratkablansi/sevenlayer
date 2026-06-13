@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Lookups & zkVM Arithmetic"
+community: "Commitments & Cryptographic Hardness"
 location: "Chapter 6"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Lookups__zkVM_Arithmetic
+  - community/Commitments__Cryptographic_Hardness
 ---
 
 # Small-Field Arithmetic (SIMD/GPU)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Circle STARKs]] - `explains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Lookups__zkVM_Arithmetic
+#graphify/document #graphify/EXTRACTED #community/Commitments__Cryptographic_Hardness

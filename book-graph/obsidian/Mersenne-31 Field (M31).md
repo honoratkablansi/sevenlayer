@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Lookups & zkVM Arithmetic"
+community: "Commitments & Cryptographic Hardness"
 location: "Chapter 6"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Lookups__zkVM_Arithmetic
+  - community/Commitments__Cryptographic_Hardness
 ---
 
 # Mersenne-31 Field (M31)
@@ -15,4 +15,4 @@ tags:
 - [[Circle STARKs]] - `references` [EXTRACTED]
 - [[FRI Commitment Scheme]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Lookups__zkVM_Arithmetic
+#graphify/document #graphify/EXTRACTED #community/Commitments__Cryptographic_Hardness

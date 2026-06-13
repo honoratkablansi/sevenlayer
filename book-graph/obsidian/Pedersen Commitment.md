@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Commitments & Cryptographic Hardness"
+community: "Folding & Lattice Crypto"
 location: "Chapter 7"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Commitments__Cryptographic_Hardness
+  - community/Folding__Lattice_Crypto
 ---
 
 # Pedersen Commitment
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Inner Product Argument (IPABulletproofs)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Commitments__Cryptographic_Hardness
+#graphify/document #graphify/EXTRACTED #community/Folding__Lattice_Crypto

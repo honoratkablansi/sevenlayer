@@ -1,0 +1,17 @@
+---
+source_file: "references/ch03/ref-15-lasso.pdf"
+type: "paper"
+community: "Jolt Lookup zkVM"
+location: "Def 1.2, §1"
+tags:
+  - graphify/paper
+  - graphify/EXTRACTED
+  - community/Jolt_Lookup_zkVM
+---
+
+# Indexed lookup argument (commit to value vector a and index vector b, prove a_i = t[b_i])
+
+## Connections
+- [[Lasso lookup argument for SOSsmall tables, prover commits to 3cm + c·N{1c} small field elements]] - `defines` [EXTRACTED]
+
+#graphify/paper #graphify/EXTRACTED #community/Jolt_Lookup_zkVM

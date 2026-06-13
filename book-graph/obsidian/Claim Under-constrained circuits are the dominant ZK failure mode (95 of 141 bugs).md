@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "ZK Foundations & Framing"
+community: "Circuit Security & Constraint Systems"
 location: "Chapter 3"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/ZK_Foundations__Framing
+  - community/Circuit_Security__Constraint_Systems
 ---
 
 # Claim: Under-constrained circuits are the dominant ZK failure mode (95 of 141 bugs)
@@ -15,4 +15,4 @@ tags:
 - [[Chaliasos et al. — SoK Security Vulnerabilities in SNARKs (USENIX 2024)]] - `cites` [EXTRACTED]
 - [[Under-Constrained Circuits]] - `explains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/ZK_Foundations__Framing
+#graphify/document #graphify/EXTRACTED #community/Circuit_Security__Constraint_Systems

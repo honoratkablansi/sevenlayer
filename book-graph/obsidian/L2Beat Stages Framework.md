@@ -1,19 +1,17 @@
 ---
-source_file: "proving-nothing.md"
+source_file: "references/ch08/ref-27-l2beat-stages.md"
 type: "document"
-community: "Verification & Rollup Economics"
-location: "Chapter 8"
+community: "Privacy Pools & Zerocash"
+location: "The Stages Framework"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Verification__Rollup_Economics
+  - community/Privacy_Pools__Zerocash
 ---
 
-# L2Beat Stages Framework
+# L2BEAT Stages Framework
 
 ## Connections
-- [[Governance Attack Surface]] - `conceptually_related_to` [EXTRACTED]
-- [[Verifier Ossification  Immutability]] - `conceptually_related_to` [EXTRACTED]
-- [[ZK Rollup]] - `defines` [EXTRACTED]
+- [[L2BEAT Stages Framework for L2 Maturity]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Verification__Rollup_Economics
+#graphify/document #graphify/EXTRACTED #community/Privacy_Pools__Zerocash

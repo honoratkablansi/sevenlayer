@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Proof Systems & Trusted Setup"
+community: "Commitments & Cryptographic Hardness"
 location: "Chapter 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Proof_Systems__Trusted_Setup
+  - community/Commitments__Cryptographic_Hardness
 ---
 
 # BLS12-381 Curve
@@ -25,4 +25,4 @@ tags:
 - [[Tower NFS Erosion of BN254 Security]] - `compares` [EXTRACTED]
 - [[Trusted Setup Ceremony]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Proof_Systems__Trusted_Setup
+#graphify/document #graphify/EXTRACTED #community/Commitments__Cryptographic_Hardness

@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Circuit Security & Constraint Systems"
+community: "Arithmetization & ZK Languages"
 location: "Chapter 5"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Circuit_Security__Constraint_Systems
+  - community/Arithmetization__ZK_Languages
 ---
 
 # CCS (Customizable Constraint Systems)
@@ -22,4 +22,4 @@ tags:
 - [[Setty, Thaler, Wahby - CCS Paper (2023)]] - `introduces` [EXTRACTED]
 - [[Sumcheck Protocol]] - `explains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Circuit_Security__Constraint_Systems
+#graphify/document #graphify/EXTRACTED #community/Arithmetization__ZK_Languages

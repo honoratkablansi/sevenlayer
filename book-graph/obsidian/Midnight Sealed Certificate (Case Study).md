@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Circuit Security & Constraint Systems"
+community: "Midnight & Private Contracts"
 location: "Chapter 6"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Circuit_Security__Constraint_Systems
+  - community/Midnight__Private_Contracts
 ---
 
 # Midnight Sealed Certificate (Case Study)
@@ -15,4 +15,4 @@ tags:
 - [[Halo 2  UltraPlonk]] - `references` [EXTRACTED]
 - [[Recursive Proof Composition]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Circuit_Security__Constraint_Systems
+#graphify/document #graphify/EXTRACTED #community/Midnight__Private_Contracts

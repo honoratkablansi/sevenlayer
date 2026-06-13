@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Circuit Security & Constraint Systems"
+community: "Groth16 & Pairing SNARKs"
 location: "Chapter 5"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Circuit_Security__Constraint_Systems
+  - community/Groth16__Pairing_SNARKs
 ---
 
 # Gennaro, Gentry, Parno, Raykova - QAP/NIZK (2012)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[QAP (Quadratic Arithmetic Program)]] - `introduces` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Circuit_Security__Constraint_Systems
+#graphify/document #graphify/EXTRACTED #community/Groth16__Pairing_SNARKs

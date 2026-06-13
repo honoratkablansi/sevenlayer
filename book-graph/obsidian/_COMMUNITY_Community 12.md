@@ -1,32 +1,37 @@
 ---
 type: community
-cohesion: 0.15
-members: 17
+cohesion: 0.14
+members: 22
 ---
 
 # Community 12
 
-**Cohesion:** 0.15 - loosely connected
-**Members:** 17 nodes
+**Cohesion:** 0.14 - loosely connected
+**Members:** 22 nodes
 
 ## Members
-- [[Failure Cascade Structure (Internal DAG)]] - document - proving-nothing.md
-- [[Fiat & Shamir, Crypto '86 (LNCS 263)]] - document - proving-nothing.md
-- [[Fiat-Shamir Transform]] - document - proving-nothing.md
-- [[Frozen Heart  Fiat-Shamir Vulnerability Class]] - document - proving-nothing.md
-- [[Frozen Heart Vulnerability]] - document - proving-nothing.md
-- [[Frozen Heart Vulnerability (2022)]] - document - proving-nothing.md
-- [[Last Challenge Attack (2024)]] - document - proving-nothing.md
-- [[Path One Hybrid STARK-to-SNARK Pipeline]] - document - proving-nothing.md
-- [[Seven-Layer Causal Web (DAG, 14 edges)]] - document - proving-nothing.md
-- [[Small Fields (BabyBear, Mersenne-31)]] - document - proving-nothing.md
-- [[Solana ZK ElGamal Bug (2025)]] - document - proving-nothing.md
-- [[StarkWare Stwo (Circle STARK)]] - document - proving-nothing.md
-- [[Succinct SP1 Hypercube]] - document - proving-nothing.md
-- [[Three Paths, Not Two (Synthesis)]] - document - proving-nothing.md
-- [[Trust Decomposition Seven Weaker Assumptions]] - document - proving-nothing.md
-- [[Trustless vs Trust-Minimized]] - document - proving-nothing.md
-- [[Under-Constrained Circuit Bug]] - document - proving-nothing.md
+- [[Batch Opening (CreateWitnessBatchVerifyEvalBatch)]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Constant-Size Commitment & O(1) Opening Overhead]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Constant-Size Commitments to Polynomials and Their Applications]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Content Extraction Signature & Credential Construction]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Cryptographic Accumulator]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Feldman Verifiable Secret Sharing]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Merkle Hash Tree]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Nearly Zero-Knowledge Set  ZK-EDB]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[PolyCommitDL Scheme]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[PolyCommitPed Scheme]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Polynomial Divisibility Property ((x-i) divides phi(x)-phi(i))]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Theorem 3.2 PolyCommitDL Security]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Theorem 3.3 PolyCommitPed Security]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Theorem 3.4 Batch Opening Binding]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Theorem 3.5 Strong Correctness]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Verifiable Secret Sharing]] - document - references/ch02/ref-04-kzg-commitments.pdf
+- [[Zero-Knowledge Set (Micali et al.)]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[eVSS Efficient Feldman VSS]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[t-Bilinear Strong Diffie-Hellman (t-BSDH) Assumption]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[t-Diffie-Hellman Inversion (t-DHI) Assumption]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[t-Polynomial Diffie-Hellman (t-polyDH) Assumption]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[t-Strong Diffie-Hellman (t-SDH) Assumption]] - paper - references/ch02/ref-04-kzg-commitments.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -36,16 +41,14 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 5 edges to [[_COMMUNITY_Community 1]]
-- 4 edges to [[_COMMUNITY_Community 4]]
-- 2 edges to [[_COMMUNITY_Community 5]]
-- 1 edge to [[_COMMUNITY_Community 9]]
-- 1 edge to [[_COMMUNITY_Community 3]]
-- 1 edge to [[_COMMUNITY_Community 0]]
+- 5 edges to [[_COMMUNITY_Community 56]]
+- 2 edges to [[_COMMUNITY_Community 20]]
+- 2 edges to [[_COMMUNITY_Community 76]]
+- 1 edge to [[_COMMUNITY_Community 1]]
 
 ## Top bridge nodes
-- [[Fiat-Shamir Transform]] - degree 10, connects to 3 communities
-- [[Path One Hybrid STARK-to-SNARK Pipeline]] - degree 7, connects to 3 communities
-- [[Three Paths, Not Two (Synthesis)]] - degree 7, connects to 3 communities
-- [[Trust Decomposition Seven Weaker Assumptions]] - degree 7, connects to 1 community
-- [[Seven-Layer Causal Web (DAG, 14 edges)]] - degree 3, connects to 1 community
+- [[PolyCommitDL Scheme]] - degree 12, connects to 4 communities
+- [[Constant-Size Commitments to Polynomials and Their Applications]] - degree 10, connects to 2 communities
+- [[PolyCommitPed Scheme]] - degree 7, connects to 2 communities
+- [[Cryptographic Accumulator]] - degree 2, connects to 1 community
+- [[Constant-Size Commitment & O(1) Opening Overhead]] - degree 2, connects to 1 community

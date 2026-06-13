@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Lookups & zkVM Arithmetic"
+community: "Arithmetization & CCS"
 location: "Chapter 5"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Lookups__zkVM_Arithmetic
+  - community/Arithmetization__CCS
 ---
 
 # Plookup
@@ -15,4 +15,4 @@ tags:
 - [[LogUp]] - `compares` [EXTRACTED]
 - [[Lookup Argument]] - `introduces` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Lookups__zkVM_Arithmetic
+#graphify/document #graphify/EXTRACTED #community/Arithmetization__CCS

@@ -1,48 +1,41 @@
 ---
 type: community
-cohesion: 0.08
-members: 33
+cohesion: 0.13
+members: 26
 ---
 
 # Community 5
 
-**Cohesion:** 0.08 - loosely connected
-**Members:** 33 nodes
+**Cohesion:** 0.13 - loosely connected
+**Members:** 26 nodes
 
 ## Members
-- [[CCS (Customizable Constraint Systems)]] - document - proving-nothing.md
-- [[Circom]] - document - proving-nothing.md
-- [[Claim R1CS, AIR, PLONKish Are Dialects of CCS]] - document - proving-nothing.md
-- [[CycleFold]] - document - proving-nothing.md
-- [[Folding Scheme]] - document - proving-nothing.md
-- [[Gennaro, Gentry, Parno, Raykova - QAPNIZK (2012)]] - document - proving-nothing.md
-- [[Greyhound and LaBRADOR (Lattice Proofs)]] - document - proving-nothing.md
-- [[HyperNova]] - document - proving-nothing.md
-- [[Incrementally Verifiable Computation (IVC)]] - document - proving-nothing.md
-- [[LatticeFold  LatticeFold+ (Boneh, Chen)]] - document - proving-nothing.md
-- [[Layer 6 Commitment Trilemma]] - document - proving-nothing.md
-- [[Lund, Fortnow, Karloff, Nisan - Sumcheck (1992)]] - document - proving-nothing.md
-- [[Midnight Sealed Certificate (Case Study)]] - document - proving-nothing.md
-- [[Neo and SuperNeo (Nguyen, Setty, ePrint 2025294)]] - document - proving-nothing.md
-- [[Nova]] - document - proving-nothing.md
-- [[Pailoor et al., PicusQED2 Automated Detection of Under-Constrained Circuits, PLDI 2023]] - document - proving-nothing.md
-- [[Path Three Post-Quantum Folding]] - document - proving-nothing.md
-- [[Post-Quantum Security]] - document - proving-nothing.md
-- [[ProtoGalaxy (Multi-Instance Folding)]] - document - proving-nothing.md
-- [[ProtoStar]] - document - proving-nothing.md
-- [[QAP (Quadratic Arithmetic Program)]] - document - proving-nothing.md
-- [[R1CS (Rank-1 Constraint Systems)]] - document - proving-nothing.md
-- [[Recursive Proof Composition]] - document - proving-nothing.md
-- [[Relaxed R1CS]] - document - proving-nothing.md
-- [[Setty, Thaler, Wahby - CCS Paper (2023)]] - document - proving-nothing.md
-- [[Spartan]] - document - proving-nothing.md
-- [[Sumcheck Protocol]] - document - proving-nothing.md
-- [[SuperNova (Non-Uniform IVC)]] - document - proving-nothing.md
-- [[Takahashi et al., zkFuzz Fuzzing of Zero-Knowledge Circuits, IEEE S&P 2026]] - document - proving-nothing.md
-- [[Tornado Cash Under-Constraint Bug]] - document - proving-nothing.md
-- [[Under-Constrained Circuits]] - document - proving-nothing.md
-- [[Wen et al., ZKAP Practical Security Analysis of ZK Proof Circuits, USENIX Security 2024]] - document - proving-nothing.md
-- [[Xue et al., ZK-Coder LLMs for ZK Proof Code Generation, arXiv 2509.11708]] - document - proving-nothing.md
+- [[(q1,q2)-extended discrete logarithm (edlog) assumption (Def 2)]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
+- [[Algebraic Group Model (AGM)]] - document - references/ch10/ref-38-snarky-ceremonies.pdf
+- [[Algebraic extractor E_agm (white-box, requires view_A, yields linear representation coefficients)]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
+- [[BGM17 - Bowe, Gabizon, Miers scalable MPC for zk-SNARK params in random beacon model]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
+- [[Beacon-free ceremony removes BGM17 random beacon, biased SRS tolerated]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
+- [[Critical query i_crit and white-box AGM extractor E_A returning QAP witness coefficients]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
+- [[FKL18 - Fuchsbauer, Kiltz, Loss the Algebraic Group Model and Groth16 KS under q-dlog]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
+- [[GKM+18 - Groth, Kohlweiss, Maller, Meiklejohn, Miers Updatable and universal CRS]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
+- [[Lemma 2.2 Real-to-Ideal Pairing Check Reduction under Q-DLOG]] - paper - references/ch02/ref-07-plonk.pdf
+- [[Pi_dl discrete logarithm proof of knowledge (update PoK; pi=Grw, RO(phi))]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
+- [[Polynomial oracle O_poly (Laurent polynomial evaluation G{f(z)}, models SRS elements)]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
+- [[Q-DLOG Assumption]] - paper - references/ch02/ref-07-plonk.pdf
+- [[SRS update oracle O_srs (updatefinalize, honest-update-required-per-phase)]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
+- [[Snarky Ceremonies]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
+- [[Straight-line simulation-extractability in (RO,d-Poly) model (Def 7, O_se + O_poly oracles)]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
+- [[Subversion Zero-Knowledge (adversary generates the SRS)]] - paper - references/ch10/ref-36-sonic.pdf
+- [[Subversion zero-knowledge for ceremonies (Def 4, subverter Z + extractor E_Z)]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
+- [[Theorem 1 (q1+1,q2+1)-dlog implies (q1,q2)-edlog]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
+- [[Theorem 2 Pi_dl is complete, perfect ZK, straight-line SE under (1,0)-dlog in AGM+RO]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
+- [[Theorem 4 Groth16 ceremony is subversion zero-knowledge (trapdoor extracted via Pi_dl)]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
+- [[Theorem 5 Groth16 ceremony has update knowledge soundness under (2n-1,2n-2)-edlog for algebraic adversaries in ROM]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
+- [[Theorem 6.1 Sonic satisfies subversion zero-knowledge]] - paper - references/ch10/ref-36-sonic.pdf
+- [[Theorem 6.3 PCS evaluation-binding & bounded-extractable under 2d-DLOG in AGM]] - paper - references/ch10/ref-36-sonic.pdf
+- [[UKS proof game hops Game0-Game1 (fresh-SRS simulated critical updates) - Game2 (bad event), reduction to edlog]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
+- [[Updatable and Universal Structured Reference String]] - document - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Update knowledge soundness (Def 5, game GameA,EA_uks over phi_max phases)]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -52,18 +45,18 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 5 edges to [[_COMMUNITY_Community 1]]
-- 4 edges to [[_COMMUNITY_Community 7]]
-- 4 edges to [[_COMMUNITY_Community 0]]
-- 2 edges to [[_COMMUNITY_Community 12]]
-- 1 edge to [[_COMMUNITY_Community 9]]
-- 1 edge to [[_COMMUNITY_Community 4]]
-- 1 edge to [[_COMMUNITY_Community 2]]
-- 1 edge to [[_COMMUNITY_Community 8]]
+- 7 edges to [[_COMMUNITY_Community 27]]
+- 3 edges to [[_COMMUNITY_Community 21]]
+- 3 edges to [[_COMMUNITY_Community 7]]
+- 2 edges to [[_COMMUNITY_Community 25]]
+- 2 edges to [[_COMMUNITY_Community 1]]
+- 2 edges to [[_COMMUNITY_Community 104]]
+- 1 edge to [[_COMMUNITY_Community 18]]
+- 1 edge to [[_COMMUNITY_Community 92]]
 
 ## Top bridge nodes
-- [[Folding Scheme]] - degree 12, connects to 2 communities
-- [[CCS (Customizable Constraint Systems)]] - degree 9, connects to 2 communities
-- [[Path Three Post-Quantum Folding]] - degree 8, connects to 2 communities
-- [[R1CS (Rank-1 Constraint Systems)]] - degree 7, connects to 2 communities
-- [[Sumcheck Protocol]] - degree 6, connects to 2 communities
+- [[Snarky Ceremonies]] - degree 18, connects to 5 communities
+- [[Updatable and Universal Structured Reference String]] - degree 9, connects to 3 communities
+- [[Algebraic Group Model (AGM)]] - degree 10, connects to 2 communities
+- [[Q-DLOG Assumption]] - degree 5, connects to 1 community
+- [[(q1,q2)-extended discrete logarithm (edlog) assumption (Def 2)]] - degree 5, connects to 1 community

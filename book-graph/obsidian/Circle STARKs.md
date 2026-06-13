@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Lookups & zkVM Arithmetic"
+community: "Commitments & Cryptographic Hardness"
 location: "Chapter 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Lookups__zkVM_Arithmetic
+  - community/Commitments__Cryptographic_Hardness
 ---
 
 # Circle STARKs
@@ -20,4 +20,4 @@ tags:
 - [[Stwo (StarkWare Circle STARK Prover)]] - `references` [EXTRACTED]
 - [[Stwo  Cairo (StarkWare)]] - `introduces` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Lookups__zkVM_Arithmetic
+#graphify/document #graphify/EXTRACTED #community/Commitments__Cryptographic_Hardness

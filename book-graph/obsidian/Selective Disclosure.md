@@ -12,7 +12,10 @@ tags:
 # Selective Disclosure
 
 ## Connections
+- [[Data minimization]] - `conceptually_related_to` [EXTRACTED]
 - [[EU eIDAS 2.0 (digital identity wallets, 450M users)]] - `references` [EXTRACTED]
+- [[EUDI Wallet (Art. 5a) user-controlled cross-border eID means]] - `introduces` [EXTRACTED]
+- [[Midnight Developer Guide (Midnight Docs)]] - `references` [EXTRACTED]
 - [[Privacy Pools (0xbow, prove-innocence-not-identity)]] - `conceptually_related_to` [EXTRACTED]
 - [[The Bar ID  Proof at the Door Scenario]] - `explains` [EXTRACTED]
 - [[ZK Identity]] - `defines` [EXTRACTED]
