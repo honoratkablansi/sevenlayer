@@ -51,3 +51,44 @@ def test_split_excludes_glossary_parts_bibliography():
     assert "glossary body" not in bodies
     assert "bib body" not in bodies
     assert "Part I" not in bodies and "Part II" not in bodies
+
+
+import pytest
+from build_book_graph import merge_extraction, reference_subgraph
+
+
+def test_merge_extraction_unions_and_dedups():
+    frags = [
+        {"nodes": [{"id": "concept_iop", "label": "IOP"}],
+         "edges": [{"source": "ch01_x", "target": "concept_iop", "relation": "defines"}]},
+        {"nodes": [{"id": "concept_iop", "label": "IOP dup"},
+                   {"id": "ch01_x", "label": "X"}],
+         "edges": [{"source": "ch01_x", "target": "concept_iop", "relation": "defines"},  # dup
+                   {"source": "ch01_x", "target": "ghost", "relation": "cites"}]},          # dangling
+    ]
+    out = merge_extraction(frags)
+    assert sorted(n["id"] for n in out["nodes"]) == ["ch01_x", "concept_iop"]
+    assert out["nodes"][0]["label"] == "IOP"        # first wins
+    assert len(out["edges"]) == 1                   # dup + dangling dropped
+    assert out["input_tokens"] == 0 and out["output_tokens"] == 0
+
+
+def test_reference_subgraph_selects_only_reference_nodes():
+    g1 = {
+        "nodes": [
+            {"id": "ref-06_groth16", "label": "Groth16", "source_file": "references/ch02/ref-06-groth16.pdf"},
+            {"id": "concept_pairing", "label": "Pairing", "source_file": "references/ch02/ref-06-groth16.pdf"},
+            {"id": "wiki_x", "label": "X", "source_file": "wiki/chapters/02.md"},
+            {"id": "manu_y", "label": "Y", "source_file": "proving-nothing.md"},
+        ],
+        "links": [
+            {"source": "ref-06_groth16", "target": "concept_pairing", "relation": "uses"},
+            {"source": "wiki_x", "target": "concept_pairing", "relation": "references"},  # one end outside refs
+            {"source": "wiki_x", "target": "manu_y", "relation": "x"},                     # both outside
+        ],
+    }
+    sub = reference_subgraph(g1)
+    assert sorted(n["id"] for n in sub["nodes"]) == ["concept_pairing", "ref-06_groth16"]
+    assert sub["edges"] == [
+        {"source": "ref-06_groth16", "target": "concept_pairing", "relation": "uses"}
+    ]
