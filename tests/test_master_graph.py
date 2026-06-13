@@ -167,3 +167,17 @@ def test_coverage_diff_well_covered_and_wiki_chapter():
     out = m.coverage_diff(g, scored, under_threshold=4)
     # source_file under wiki/chapters/ -> covered; support 1 < threshold 4 -> well-covered
     assert out[0]["verdict"] == "well-covered"
+
+
+def test_render_concepts_md_has_table_and_rollup():
+    rows = [
+        {"label": "A", "community": 1, "degree": 9, "support": 5, "is_hub": True,
+         "score": 19, "verdict": "under-covered", "chapter": "Chapter 3"},
+        {"label": "B", "community": 2, "degree": 3, "support": 1, "is_hub": False,
+         "score": 5, "verdict": "absent", "chapter": "Unassigned"},
+    ]
+    md = m.render_concepts_md(rows)
+    assert "| Concept |" in md                 # ranked table header
+    assert "under-covered" in md and "absent" in md
+    assert "## Per-chapter gaps" in md          # rollup section
+    assert "Chapter 3" in md

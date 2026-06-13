@@ -307,6 +307,44 @@ def coverage_diff(graph: dict, scored: list[dict], under_threshold: int = 4) -> 
     return out
 
 
+def render_concepts_md(rows: list[dict], top: int = 200) -> str:
+    lines = ["# Concepts for the Book", "",
+             "Ranked by `degree + 2*reference_support` over the master graph. "
+             "Verdict vs the manuscript: **well-covered** / **under-covered** "
+             "(in the book but heavily cited in the literature) / **absent** "
+             "(in the references, not in the book).", "",
+             "| Concept | Community | Degree | Ref support | Hub | Verdict |",
+             "|---|---|---|---|---|---|"]
+    for r in rows[:top]:
+        lines.append(f"| {r['label']} | {r['community']} | {r['degree']} | "
+                     f"{r['support']} | {'yes' if r['is_hub'] else ''} | {r['verdict']} |")
+    lines += ["", "## Per-chapter gaps", "",
+              "Concepts the literature emphasizes that each chapter under-covers or omits.", ""]
+    gaps = [r for r in rows if r["verdict"] in ("under-covered", "absent")]
+    by_ch: dict[str, list] = {}
+    for r in gaps:
+        by_ch.setdefault(r["chapter"], []).append(r)
+    for ch in sorted(by_ch, key=lambda c: (c == "Unassigned", c)):
+        lines.append(f"### {ch}")
+        for r in sorted(by_ch[ch], key=lambda r: -r["score"])[:30]:
+            lines.append(f"- **{r['label']}** — {r['verdict']} "
+                         f"(support {r['support']}, degree {r['degree']})")
+        lines.append("")
+    return "\n".join(lines)
+
+
+def cmd_concepts() -> int:
+    graph = _load(MASTER_GRAPH)
+    scored = score_concepts(graph)
+    rows = coverage_diff(graph, scored)
+    (MASTER_DIR / "CONCEPTS_FOR_BOOK.md").write_text(render_concepts_md(rows), encoding="utf-8")
+    n_absent = sum(1 for r in rows if r["verdict"] == "absent")
+    n_under = sum(1 for r in rows if r["verdict"] == "under-covered")
+    print(f"wrote {MASTER_DIR / 'CONCEPTS_FOR_BOOK.md'}: {len(rows)} concepts, "
+          f"{n_under} under-covered, {n_absent} absent")
+    return 0
+
+
 def top_hub_nodes(graph: dict, n: int = 100) -> list[dict]:
     """The n highest-degree concept nodes, for the LLM synonym pass."""
     deg = degree_map(graph)
