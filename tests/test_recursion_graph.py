@@ -66,3 +66,23 @@ def test_manifest_path_is_overridable(tmp_path, monkeypatch):
     m.write_text('[{"id": 1, "slug": "x"}]', encoding="utf-8")
     monkeypatch.setattr(fr, "MANIFEST_PATH", m)
     assert fr.load_manifest()[0]["slug"] == "x"
+
+
+from build_recursion_graph import collect_fragments
+
+
+def test_collect_fragments_unions_outline_and_refs(tmp_path):
+    work = tmp_path / ".work"
+    work.mkdir()
+    (work / "frag-rc01.json").write_text(
+        '{"nodes":[{"id":"concept_ivc","label":"IVC"}],'
+        '"edges":[{"source":"rc01_x","target":"concept_ivc","relation":"defines"}]}',
+        encoding="utf-8")
+    (work / "frag-ref-01.json").write_text(
+        '{"nodes":[{"id":"concept_ivc","label":"IVC dup"},{"id":"rc01_x","label":"X"}],'
+        '"edges":[{"source":"rc01_x","target":"ghost","relation":"cites"}]}',
+        encoding="utf-8")
+    merged = collect_fragments(work)
+    assert sorted(n["id"] for n in merged["nodes"]) == ["concept_ivc", "rc01_x"]
+    assert merged["nodes"][0]["label"] == "IVC"     # first wins
+    assert len(merged["edges"]) == 1                # dangling 'ghost' dropped
