@@ -104,3 +104,30 @@ def test_validate_alias_map_rejects_alias_that_is_canonical():
 def test_build_alias_map_skips_unlabeled_nodes():
     g = _g([{"id": "concept_kzg-commitment"}, {"id": "concept_kzg_commitment"}], [])
     assert m.build_alias_map(g) == {}  # no label/norm_label -> not aliased
+
+
+def test_reference_support_counts_distinct_reference_neighbors():
+    g = _g(
+        [{"id": "concept_a", "label": "A", "source_file": "proving-nothing.md"},
+         {"id": "r1", "label": "p1", "source_file": "references/ch1/ref-01.pdf"},
+         {"id": "r2", "label": "p2", "source_file": "references/ch1/ref-02.pdf"},
+         {"id": "r3", "label": "p3", "source_file": "references/ch1/ref-01.pdf"}],
+        [{"source": "concept_a", "target": "r1"},
+         {"source": "concept_a", "target": "r2"},
+         {"source": "concept_a", "target": "r3"}],
+    )
+    # r1 and r3 share a source_file -> 2 distinct reference files
+    assert m.reference_support(g)["concept_a"] == 2
+
+
+def test_score_concepts_ranks_by_degree_plus_support():
+    g = _g(
+        [{"id": "concept_hi", "label": "Hi", "source_file": "proving-nothing.md"},
+         {"id": "concept_lo", "label": "Lo", "source_file": "proving-nothing.md"},
+         {"id": "r1", "label": "p", "source_file": "references/x.pdf"}],
+        [{"source": "concept_hi", "target": "r1"},
+         {"source": "concept_hi", "target": "concept_lo"}],
+    )
+    rows = m.score_concepts(g)
+    assert [r["id"] for r in rows] == ["concept_hi", "concept_lo"]
+    assert rows[0]["support"] == 1 and rows[0]["degree"] == 2

@@ -229,6 +229,53 @@ def merge_graphs(named_inputs: list[tuple[str, dict]]) -> dict:
     return out
 
 
+def _is_reference(source_file: str | None) -> bool:
+    return "references/" in (source_file or "").replace("\\", "/")
+
+
+def is_concept(node: dict) -> bool:
+    return str(node.get("id", "")).startswith("concept_")
+
+
+def reference_support(graph: dict) -> dict[str, int]:
+    """Per node: number of DISTINCT reference source_files among the node and its
+    link neighbors."""
+    nbrs: dict[str, set] = {n["id"]: set() for n in graph["nodes"]}
+    sf = {n["id"]: n.get("source_file") for n in graph["nodes"]}
+    for l in graph["links"]:
+        s, t = l.get("source"), l.get("target")
+        if s in nbrs and t in nbrs:
+            nbrs[s].add(t)
+            nbrs[t].add(s)
+    support = {}
+    for nid, ns in nbrs.items():
+        files = set()
+        for cand in (nid, *ns):
+            f = sf.get(cand)
+            if _is_reference(f):
+                files.add(f.replace("\\", "/"))
+        support[nid] = len(files)
+    return support
+
+
+def score_concepts(graph: dict, hub_top: int = 50) -> list[dict]:
+    """Rank concept_* nodes by degree + 2*reference_support. Mark top hub_top by
+    degree as hubs (graphify god-nodes are high-degree; degree is the pure proxy)."""
+    deg = degree_map(graph)
+    support = reference_support(graph)
+    concepts = [n for n in graph["nodes"] if is_concept(n)]
+    hub_ids = {n["id"] for n in sorted(
+        concepts, key=lambda n: (-deg[n["id"]], n["id"]))[:hub_top]}
+    rows = [{
+        "id": n["id"], "label": n.get("label"), "community": n.get("community"),
+        "degree": deg[n["id"]], "support": support.get(n["id"], 0),
+        "is_hub": n["id"] in hub_ids,
+        "score": deg[n["id"]] + 2 * support.get(n["id"], 0),
+    } for n in concepts]
+    rows.sort(key=lambda r: (-r["score"], r["id"]))
+    return rows
+
+
 def top_hub_nodes(graph: dict, n: int = 100) -> list[dict]:
     """The n highest-degree concept nodes, for the LLM synonym pass."""
     deg = degree_map(graph)
