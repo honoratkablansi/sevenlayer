@@ -1,0 +1,24 @@
+---
+source_file: "wiki/sections/ch09-the-regulatory-intersection.md"
+type: "document"
+community: "Community 16"
+tags:
+  - graphify/document
+  - graphify/EXTRACTED
+  - community/Community_16
+---
+
+# The Regulatory Intersection
+
+## Connections
+- [[GDPR]] - `defines` [EXTRACTED]
+- [[Privacy-Enhancing Technologies]] - `part_of` [EXTRACTED]
+- [[Real-World Deployments Five Case Studies]] - `references` [EXTRACTED]
+- [[The Decision Matrix]] - `references` [EXTRACTED]
+- [[The Four Pillars]] - `references` [EXTRACTED]
+- [[The Incomplete Stack]] - `references` [EXTRACTED]
+- [[Zero-Knowledge Proof]] - `conceptually_related_to` [EXTRACTED]
+- [[eIDAS 2.0_1]] - `defines` [EXTRACTED]
+- [[zKYC (Zero-Knowledge Know Your Customer)]] - `defines` [EXTRACTED]
+
+#graphify/document #graphify/EXTRACTED #community/Community_16

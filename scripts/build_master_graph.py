@@ -112,6 +112,63 @@ def validate_alias_map(alias_map: dict[str, str], graph: dict) -> None:
             raise ValueError(f"canonical {c} is itself an alias (chain)")
 
 
+def _export(G, communities, labels, n_files: int) -> dict:
+    """Cluster-aware export of a graphify graph G into master-graph/.
+    Lazy graphify import (system python)."""
+    from graphify.cluster import cluster, score_all
+    from graphify.analyze import god_nodes, surprising_connections, suggest_questions
+    from graphify.report import generate
+    from graphify.export import to_json, to_html, to_obsidian
+
+    if communities is None:
+        communities = cluster(G)
+    cohesion = score_all(G, communities)
+    if labels is None:
+        labels = {cid: f"Community {cid}" for cid in communities}
+    gods = god_nodes(G)
+    surprises = surprising_connections(G, communities)
+    questions = suggest_questions(G, communities, labels)
+    detection = {"total_files": n_files, "total_words": 99999, "needs_graph": True,
+                 "warning": None, "files": {"code": [], "document": [], "paper": []}}
+    report = generate(G, communities, cohesion, labels, gods, surprises,
+                      detection, {"input": 0, "output": 0}, ".", suggested_questions=questions)
+    MASTER_DIR.mkdir(parents=True, exist_ok=True)
+    (MASTER_DIR / "GRAPH_REPORT.md").write_text(report, encoding="utf-8")
+    if to_json(G, communities, str(MASTER_GRAPH), force=True) is False:
+        raise RuntimeError("to_json refused to write master-graph/graph.json")
+    if G.number_of_nodes() <= 5000:
+        to_html(G, communities, str(MASTER_DIR / "graph.html"), community_labels=labels)
+    to_obsidian(G, communities, str(MASTER_DIR / "obsidian"), community_labels=labels, cohesion=cohesion)
+    return {"nodes": G.number_of_nodes(), "edges": G.number_of_edges(), "communities": len(communities)}
+
+
+def _dump_communities() -> None:
+    g = _load(MASTER_GRAPH)
+    comms: dict[str, list] = {}
+    for n in g["nodes"]:
+        comms.setdefault(str(n.get("community")), []).append(n.get("label", n["id"]))
+    _dump(WORK / "communities.json", comms)
+
+
+def cmd_merge() -> int:
+    from networkx.readwrite import json_graph
+    missing = [str(p) for p in INPUTS.values() if not p.exists()]
+    if missing:
+        print("Missing input graphs:\n  " + "\n  ".join(missing))
+        return 1
+    merged = merge_graphs([(name, _load(p)) for name, p in INPUTS.items()])
+    alias = build_alias_map(merged)
+    validate_alias_map(alias, merged)
+    _dump(WORK / "aliases.json", alias)  # deterministic aliases; hub LLM pass appends later
+    G = json_graph.node_link_graph(merged, edges="links")
+    stats = _export(G, None, None, len(INPUTS))
+    _dump_communities()
+    print(f"merged {len(INPUTS)} graphs: {stats['nodes']} nodes, {stats['edges']} edges, "
+          f"{stats['communities']} communities")
+    print(f"wrote {WORK / 'aliases.json'} ({len(alias)} deterministic aliases) and communities.json")
+    return 0
+
+
 def merge_graphs(named_inputs: list[tuple[str, dict]]) -> dict:
     """Union (name, node-link dict) inputs. Nodes union by id (first wins for
     attributes; origin_graphs accumulates contributor names in input order).

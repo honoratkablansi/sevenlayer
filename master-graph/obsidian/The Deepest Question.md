@@ -1,0 +1,32 @@
+---
+source_file: "wiki/sections/ch01-the-deepest-question.md"
+type: "document"
+community: "Community 5"
+tags:
+  - graphify/document
+  - graphify/EXTRACTED
+  - community/Community_5
+---
+
+# The Deepest Question
+
+## Connections
+- [[BN254 (alt_bn128) Curve]] - `conceptually_related_to` [EXTRACTED]
+- [[Beanstalk]] - `conceptually_related_to` [EXTRACTED]
+- [[Fiat-Shamir Transform]] - `conceptually_related_to` [EXTRACTED]
+- [[Groth16]] - `conceptually_related_to` [EXTRACTED]
+- [[How to Read This Guide]] - `references` [EXTRACTED]
+- [[KZG Polynomial Commitments from pairings (with trusted setup); Dory transparent pairing-based scheme]] - `conceptually_related_to` [EXTRACTED]
+- [[L2Beat]] - `conceptually_related_to` [EXTRACTED]
+- [[Lattice Cryptography]] - `conceptually_related_to` [EXTRACTED]
+- [[Midnight (Privacy Blockchain)]] - `conceptually_related_to` [EXTRACTED]
+- [[NIST]] - `conceptually_related_to` [EXTRACTED]
+- [[The First Decision]] - `references` [EXTRACTED]
+- [[The Phenomenon]] - `references` [EXTRACTED]
+- [[The Promise of Provable and Programmable Secrets]] - `part_of` [EXTRACTED]
+- [[The Seven Layers at a Glance]] - `references` [EXTRACTED]
+- [[Tornado Cash]] - `conceptually_related_to` [EXTRACTED]
+- [[Trusted Setup Ceremony_2]] - `conceptually_related_to` [EXTRACTED]
+- [[Zcash]] - `conceptually_related_to` [EXTRACTED]
+
+#graphify/document #graphify/EXTRACTED #community/Community_5

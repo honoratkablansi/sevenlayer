@@ -1,0 +1,18 @@
+---
+source_file: "proving-nothing.md"
+type: "document"
+community: "Community 24"
+location: "Chapter 12"
+tags:
+  - graphify/document
+  - graphify/EXTRACTED
+  - community/Community_24
+---
+
+# Maturity Assessment (Stage 0-1)
+
+## Connections
+- [[L2Beat Stages Framework_1]] - `cites` [EXTRACTED]
+- [[Midnight (Privacy Blockchain)]] - `explains` [EXTRACTED]
+
+#graphify/document #graphify/EXTRACTED #community/Community_24

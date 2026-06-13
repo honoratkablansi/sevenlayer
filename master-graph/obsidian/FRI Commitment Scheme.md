@@ -1,0 +1,88 @@
+---
+source_file: "proving-nothing.md"
+type: "document"
+community: "Community 25"
+location: "Chapter 5"
+tags:
+  - graphify/document
+  - graphify/EXTRACTED
+  - community/Community_25
+---
+
+# FRI Commitment Scheme
+
+## Connections
+- [[AIR (Algebraic Intermediate Representation)]] - `conceptually_related_to` [EXTRACTED]
+- [[Algebraic Linking Interactive Oracle Proof (ALI)]] - `assumes` [EXTRACTED]
+- [[Authentication Path  Communication Complexity minimization (coset & row subtrees)]] - `conceptually_related_to` [EXTRACTED]
+- [[BabyBear Field]] - `conceptually_related_to` [EXTRACTED]
+- [[Ben-Sasson et al., FRI (ICALP 2018)]] - `cites` [EXTRACTED]
+- [[Brevis Pico Prism]] - `references` [EXTRACTED]
+- [[Choreographing the Act]] - `references` [EXTRACTED]
+- [[Circle FRI low-degree test  IOP of proximity (Protocol 1 & 2)]] - `conceptually_related_to` [EXTRACTED]
+- [[Circle STARKs]] - `implements` [EXTRACTED]
+- [[Circle STARKs_1]] - `conceptually_related_to` [EXTRACTED]
+- [[Circle STARKs and Stwo A Generational Leap]] - `references` [EXTRACTED]
+- [[Collision-Resistant Hash Functions]] - `references` [EXTRACTED]
+- [[Cryptographic Primitives Trilemma]] - `compares` [EXTRACTED]
+- [[DEEP-ALI and FRI]] - `references` [EXTRACTED]
+- [[Encoding the Performance]] - `references` [EXTRACTED]
+- [[FRACTAL verifier expressed as a constraint system; threshold for recursion (2M constraints checkable in 1.1M), using Poseidon hash and FRI constraint systems]] - `assumes` [EXTRACTED]
+- [[Four Families of Commitment Schemes]] - `defines` [EXTRACTED]
+- [[Glossary of Key Terms]] - `defines` [EXTRACTED]
+- [[Goldilocks Field]] - `conceptually_related_to` [EXTRACTED]
+- [[Greyhound Fast Polynomial Commitments from Lattices]] - `references` [EXTRACTED]
+- [[Groth16 wrap-circuit splitting tradeoff per-FRI-query sub-circuits trade prover speed vs on-chain cost]] - `assumes` [EXTRACTED]
+- [[Interactive Oracle Proofs]] - `conceptually_related_to` [EXTRACTED]
+- [[Layer 1 -- Building the Stage]] - `references` [EXTRACTED]
+- [[Layer 5 -- The Sealed Certificate]] - `references` [EXTRACTED]
+- [[Layer 6 -- The Deep Craft]] - `references` [EXTRACTED]
+- [[Lookup Arguments_1]] - `references` [EXTRACTED]
+- [[Maturity and Readiness]] - `references` [EXTRACTED]
+- [[Mersenne-31 Field (M31)]] - `conceptually_related_to` [EXTRACTED]
+- [[Midnight -- The Privacy Theater]] - `references` [EXTRACTED]
+- [[Midnight's BLS12-381 Stage]] - `conceptually_related_to` [EXTRACTED]
+- [[Open Questions and the Road Ahead]] - `references` [EXTRACTED]
+- [[Option-Value Analysis]] - `conceptually_related_to` [EXTRACTED]
+- [[Path Two Pure Transparent]] - `explains` [EXTRACTED]
+- [[Path Two Pure Transparent_1]] - `conceptually_related_to` [EXTRACTED]
+- [[Plonky2]] - `references` [EXTRACTED]
+- [[Polynomial Commitment Scheme_1]] - `introduces` [EXTRACTED]
+- [[Polynomial Commitment Scheme]] - `references` [EXTRACTED]
+- [[Proofs, Arguments, and Zero-Knowledge (Justin Thaler, survey textbook)]] - `explains` [EXTRACTED]
+- [[RISC-V Convergence]] - `conceptually_related_to` [EXTRACTED]
+- [[Reed-Solomon Proximity Testing (RPT  low-degree testing) problem]] - `defines` [EXTRACTED]
+- [[Reed–Solomon-encoded IOP (RS-encoded holographic IOP) with rational constraints over prover messages]] - `conceptually_related_to` [EXTRACTED]
+- [[STARK]] - `part_of` [EXTRACTED]
+- [[Scalable, Transparent, and Post-Quantum Secure Computational Integrity]] - `introduces` [EXTRACTED]
+- [[Sealing the Certificate]] - `references` [EXTRACTED]
+- [[Side-Channel Attacks When the Walls Leak]] - `references` [EXTRACTED]
+- [[Small Fields]] - `references` [EXTRACTED]
+- [[The Proof Core Triad]] - `conceptually_related_to` [EXTRACTED]
+- [[The Cascade Effect]] - `references` [EXTRACTED]
+- [[The Constraint System Evolution R1CS, AIR, PLONKish]] - `references` [EXTRACTED]
+- [[The Hybrid Pipeline]] - `references` [EXTRACTED]
+- [[The Landscape Table (March 2026)]] - `conceptually_related_to` [EXTRACTED]
+- [[The Market Landscape]] - `references` [EXTRACTED]
+- [[The One-Way Door]] - `references` [EXTRACTED]
+- [[The Overhead Tax 10,000x to 50,000x]] - `references` [EXTRACTED]
+- [[The Post-Quantum Horizon]] - `references` [EXTRACTED]
+- [[The Promise of Provable and Programmable Secrets]] - `references` [EXTRACTED]
+- [[The Proof Core Why Layers 4, 5, and 6 Are Inseparable]] - `references` [EXTRACTED]
+- [[The Quantum Shelf Life]] - `conceptually_related_to` [EXTRACTED]
+- [[The Secret Performance]] - `references` [EXTRACTED]
+- [[The Seven Questions That Remain Open]] - `references` [EXTRACTED]
+- [[The Stage Is Set]] - `conceptually_related_to` [EXTRACTED]
+- [[The Synthesis -- Three Paths, Not Two]] - `references` [EXTRACTED]
+- [[The Three Families]] - `references` [EXTRACTED]
+- [[The Three-Path Table]] - `conceptually_related_to` [EXTRACTED]
+- [[The Trilemma -- And Its Dissolution]] - `references` [EXTRACTED]
+- [[Three Hardness Assumptions, Three Worlds]] - `references` [EXTRACTED]
+- [[Three zkVMs Through Seven Layers]] - `conceptually_related_to` [EXTRACTED]
+- [[Trust Decomposition Seven Weaker Assumptions_1]] - `conceptually_related_to` [EXTRACTED]
+- [[Two Ways to Build a Stage]] - `conceptually_related_to` [EXTRACTED]
+- [[Where the Layers Collapse]] - `references` [EXTRACTED]
+- [[ZKML Provable Machine Learning (Research)]] - `references` [EXTRACTED]
+- [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
+
+#graphify/document #graphify/EXTRACTED #community/Community_25

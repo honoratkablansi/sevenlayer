@@ -1,0 +1,80 @@
+---
+source_file: "wiki/chapters/07-the-deep-craft.md"
+type: "document"
+community: "Community 8"
+tags:
+  - graphify/document
+  - graphify/EXTRACTED
+  - community/Community_8
+---
+
+# Layer 6 -- The Deep Craft
+
+## Connections
+- [[Harvest Now Decrypt Later Examining Post-Quantum Cryptography and the Data Privacy Risks for Distributed Ledger Networks]] - `cites` [EXTRACTED]
+- [[Ajtai Lattice Commitment]] - `defines` [EXTRACTED]
+- [[Ajtai commitments]] - `references` [EXTRACTED]
+- [[Algebraic vs Traditional Hash Functions]] - `part_of` [EXTRACTED]
+- [[Algorithms for Quantum Computation Discrete Logarithms and Factoring]] - `cites` [EXTRACTED]
+- [[BLS12-381 Curve]] - `references` [EXTRACTED]
+- [[BN254 (alt_bn128) Curve]] - `references` [EXTRACTED]
+- [[BabyBear]] - `references` [EXTRACTED]
+- [[Bulletproofs Short Proofs for Confidential Transactions and More]] - `cites` [EXTRACTED]
+- [[Case Study Midnight (Layer 6)]] - `part_of` [EXTRACTED]
+- [[Circle STARKs_1]] - `cites` [EXTRACTED]
+- [[Circle STARKs]] - `references` [EXTRACTED]
+- [[Constant-Size Commitments to Polynomials and Their Applications]] - `cites` [EXTRACTED]
+- [[Cryptographic Primitives Trilemma_1]] - `defines` [EXTRACTED]
+- [[Discrete Logarithm Assumption]] - `defines` [EXTRACTED]
+- [[Extended Tower Number Field Sieve A New Complexity for the Medium Prime Case]] - `cites` [EXTRACTED]
+- [[FIPS 203 Module-Lattice-Based Key-Encapsulation Mechanism Standard (with FIPS 204205)]] - `cites` [EXTRACTED]
+- [[FRI Commitment Scheme]] - `references` [EXTRACTED]
+- [[Fiat-Shamir Transform]] - `references` [EXTRACTED]
+- [[Folding Scheme]] - `references` [EXTRACTED]
+- [[Four Families of Commitment Schemes]] - `part_of` [EXTRACTED]
+- [[Goldilocks Field_1]] - `references` [EXTRACTED]
+- [[Greyhound Fast Polynomial Commitments from Lattices]] - `cites` [EXTRACTED]
+- [[Groth16]] - `references` [EXTRACTED]
+- [[Halo  Nested Amortization Recursion]] - `references` [EXTRACTED]
+- [[Halo 2  UltraPlonk]] - `references` [EXTRACTED]
+- [[Harvest Now Decrypt Later (HNDL)]] - `defines` [EXTRACTED]
+- [[Inner Product Argument (IPABulletproofs)]] - `references` [EXTRACTED]
+- [[Jubjub Curve]] - `references` [EXTRACTED]
+- [[KZG Polynomial Commitments from pairings (with trusted setup); Dory transparent pairing-based scheme]] - `references` [EXTRACTED]
+- [[Lattice Cryptography]] - `references` [EXTRACTED]
+- [[Lattice-Based Proving]] - `part_of` [EXTRACTED]
+- [[LatticeFold  LatticeFold+]] - `references` [EXTRACTED]
+- [[LatticeFold+ Faster, Simpler, Shorter Lattice-Based Folding for Succinct Proof Systems]] - `cites` [EXTRACTED]
+- [[LatticeFold A Lattice-based Folding Scheme and its Applications to Succinct Proof Systems]] - `cites` [EXTRACTED]
+- [[Maturity and Readiness]] - `part_of` [EXTRACTED]
+- [[Mersenne-31  M31]] - `references` [EXTRACTED]
+- [[Mersenne-31 Field]] - `references` [EXTRACTED]
+- [[Midnight (Privacy Blockchain)]] - `references` [EXTRACTED]
+- [[Module-SIS  Module-LWE]] - `defines` [EXTRACTED]
+- [[Neo (Lattice Folding over Small Fields)]] - `references` [EXTRACTED]
+- [[Neo Lattice-based Folding Scheme for CCS over Small Fields and Pay-per-bit Commitments]] - `cites` [EXTRACTED]
+- [[Nova]] - `references` [EXTRACTED]
+- [[PLONK]] - `references` [EXTRACTED]
+- [[Polynomial Commitment Scheme]] - `defines` [EXTRACTED]
+- [[Poseidon Hash_1]] - `references` [EXTRACTED]
+- [[Post-Quantum Cryptography]] - `references` [EXTRACTED]
+- [[Proving Nothing]] - `part_of` [EXTRACTED]
+- [[Reinforced Concrete Hash]] - `references` [EXTRACTED]
+- [[STARK]] - `references` [EXTRACTED]
+- [[Sevenlayer Wiki Index]] - `references` [EXTRACTED]
+- [[Shor's Algorithm]] - `references` [EXTRACTED]
+- [[Small Fields]] - `part_of` [EXTRACTED]
+- [[Small prime fields (machine-register-sized Goldilocks, M61)]] - `references` [EXTRACTED]
+- [[Symphony Scalable SNARKs in the Random Oracle Model from Lattice-Based High-Arity Folding]] - `cites` [EXTRACTED]
+- [[The Cascade Effect]] - `part_of` [EXTRACTED]
+- [[The Laws That Break]] - `part_of` [EXTRACTED]
+- [[The One-Way Door]] - `part_of` [EXTRACTED]
+- [[The Quantum Threat Horizon]] - `part_of` [EXTRACTED]
+- [[The Structural Advantage of Lattices]] - `part_of` [EXTRACTED]
+- [[The Trilemma -- And Its Dissolution]] - `part_of` [EXTRACTED]
+- [[Three Hardness Assumptions, Three Worlds]] - `part_of` [EXTRACTED]
+- [[Transition to Post-Quantum Cryptography Standards (NIST IR 8547)]] - `cites` [EXTRACTED]
+- [[Trusted Setup Ceremony]] - `references` [EXTRACTED]
+- [[Zcash]] - `references` [EXTRACTED]
+
+#graphify/document #graphify/EXTRACTED #community/Community_8

@@ -1,0 +1,17 @@
+---
+source_file: "proving-nothing.md"
+type: "document"
+community: "Community 99"
+location: "Chapter 13"
+tags:
+  - graphify/document
+  - graphify/EXTRACTED
+  - community/Community_99
+---
+
+# Brevis (Coprocessor + Pico Prism zkVM, ProverNet)
+
+## Connections
+- [[ZK Coprocessor]] - `references` [EXTRACTED]
+
+#graphify/document #graphify/EXTRACTED #community/Community_99

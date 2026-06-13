@@ -1,0 +1,25 @@
+---
+source_file: "proving-nothing.md"
+type: "document"
+community: "Community 16"
+location: "Chapter 9"
+tags:
+  - graphify/document
+  - graphify/EXTRACTED
+  - community/Community_16
+---
+
+# Zexe
+
+## Connections
+- [[Aztec]] - `conceptually_related_to` [EXTRACTED]
+- [[Kachina]] - `compares` [EXTRACTED]
+- [[Kachina -- Foundations of Private Smart Contracts]] - `cites` [EXTRACTED]
+- [[Layer 5 -- The Sealed Certificate]] - `references` [EXTRACTED]
+- [[Privacy Architectures for Smart Contracts Kachina and Zexe]] - `defines` [EXTRACTED]
+- [[Privacy-Enhancing Technologies]] - `references` [EXTRACTED]
+- [[Private Smart Contracts]] - `introduces` [EXTRACTED]
+- [[Recursion vs. Folding Russian Dolls and Snowballs]] - `references` [EXTRACTED]
+- [[The Structural Advantage of Lattices]] - `references` [EXTRACTED]
+
+#graphify/document #graphify/EXTRACTED #community/Community_16

@@ -1,0 +1,81 @@
+---
+source_file: "proving-nothing.md"
+type: "document"
+community: "Community 38"
+location: "Chapter 2"
+tags:
+  - graphify/document
+  - graphify/EXTRACTED
+  - community/Community_38
+---
+
+# PLONK
+
+## Connections
+- [[2-adicity of a curve (nu_2(r-1) large)]] - `conceptually_related_to` [EXTRACTED]
+- [[Case Study Midnight's Sealed Certificate]] - `references` [EXTRACTED]
+- [[Choreographing the Act]] - `references` [EXTRACTED]
+- [[Coda]] - `references` [EXTRACTED]
+- [[Compact's Disclosure Analysis]] - `conceptually_related_to` [EXTRACTED]
+- [[Customizable Constraint Systems for Succinct Arguments]] - `conceptually_related_to` [EXTRACTED]
+- [[Encoding the Performance]] - `references` [EXTRACTED]
+- [[Extended PLONK permutation argument (tau') tying circuit trace T(X) to witness polynomial W(X)]] - `conceptually_related_to` [EXTRACTED]
+- [[FFLONK]] - `conceptually_related_to` [INFERRED]
+- [[Fiat-Shamir Vulnerabilities]] - `references` [EXTRACTED]
+- [[Frozen Heart Forgery of Zero Knowledge Proofs (Trail of Bits, 2022)]] - `references` [EXTRACTED]
+- [[Full Seven-Layer Mapping]] - `references` [EXTRACTED]
+- [[Gabizon, Williamson, Ciobotaru — PLONK (ePrint 2019953)]] - `cites` [EXTRACTED]
+- [[Glossary of Key Terms]] - `defines` [EXTRACTED]
+- [[Groth16]] - `conceptually_related_to` [INFERRED]
+- [[Halo 2  UltraPlonk]] - `implements` [EXTRACTED]
+- [[Layer 1 -- Building the Stage]] - `references` [EXTRACTED]
+- [[Layer 4 -- Arithmetization]] - `references` [EXTRACTED]
+- [[Layer 5 -- The Sealed Certificate]] - `references` [EXTRACTED]
+- [[Layer 5 The Sealed Certificate (Proof System)]] - `introduces` [EXTRACTED]
+- [[Layer 6 -- The Deep Craft]] - `references` [EXTRACTED]
+- [[Layer 7 -- The Verdict_1]] - `references` [EXTRACTED]
+- [[Lookup Arguments_1]] - `references` [EXTRACTED]
+- [[Midnight -- The Privacy Theater]] - `references` [EXTRACTED]
+- [[Midnight BLS12-381 Layer 1 Case Study (CompactZKIR, Pluto-Eris switch)]] - `references` [EXTRACTED]
+- [[Midnight's BLS12-381 Stage]] - `conceptually_related_to` [EXTRACTED]
+- [[Midnight Compiler, IR, Circuit]] - `references` [EXTRACTED]
+- [[Nightstream What a Folding Engine Looks Like from the Inside]] - `references` [EXTRACTED]
+- [[Open Questions and the Road Ahead]] - `references` [EXTRACTED]
+- [[PLONK Permutations over Lagrange-bases for Oecumenical Noninteractive arguments of Knowledge]] - `defines` [EXTRACTED]
+- [[Photo-edit circuits in Plonky2 crop, grayscale, bilinear resize, box blur (fixed-point, AP-acceptable edits)]] - `assumes` [EXTRACTED]
+- [[Plonky2]] - `references` [EXTRACTED]
+- [[Proof Aggregation The Missing Layer]] - `references` [EXTRACTED]
+- [[Protostar Generic Efficient AccumulationFolding for Special-sound Protocols]] - `conceptually_related_to` [EXTRACTED]
+- [[RISC-V Convergence]] - `conceptually_related_to` [EXTRACTED]
+- [[Recursive Proof Composition_1]] - `conceptually_related_to` [INFERRED]
+- [[SNARK Recursion vs. Folding The Full Picture]] - `references` [EXTRACTED]
+- [[STARK]] - `compares` [EXTRACTED]
+- [[Snarky Ceremonies]] - `references` [EXTRACTED]
+- [[The Constraint System Evolution R1CS, AIR, PLONKish]] - `references` [EXTRACTED]
+- [[The Deepest Symmetry]] - `references` [EXTRACTED]
+- [[The Disclose Boundary Midnight's Witness Architecture]] - `references` [EXTRACTED]
+- [[The Four Philosophies]] - `references` [EXTRACTED]
+- [[The Market Landscape]] - `references` [EXTRACTED]
+- [[The Post-Quantum Horizon]] - `references` [EXTRACTED]
+- [[The Promise of Provable and Programmable Secrets]] - `references` [EXTRACTED]
+- [[The Proof Core Why Layers 4, 5, and 6 Are Inseparable]] - `references` [EXTRACTED]
+- [[The Quantum Shelf Life]] - `conceptually_related_to` [EXTRACTED]
+- [[The Sealed Certificate (Chapter Closing)]] - `references` [EXTRACTED]
+- [[The Secret Performance]] - `references` [EXTRACTED]
+- [[The Spreadsheet Metaphor (And Where It Works)]] - `references` [EXTRACTED]
+- [[The Synthesis -- Three Paths, Not Two]] - `references` [EXTRACTED]
+- [[The Three Families]] - `defines` [EXTRACTED]
+- [[Three Converging Forces]] - `conceptually_related_to` [EXTRACTED]
+- [[Three Hardness Assumptions, Three Worlds]] - `references` [EXTRACTED]
+- [[Trusted Setup Ceremony]] - `references` [EXTRACTED]
+- [[Two Ways to Build a Stage]] - `conceptually_related_to` [EXTRACTED]
+- [[Universal versus Circuit-Specific Setups]] - `conceptually_related_to` [EXTRACTED]
+- [[Universal vs Circuit-Specific SRS]] - `introduces` [EXTRACTED]
+- [[VerITAS Verifying Image Transformations at Scale (Datta, Chen, Boneh, ePrint 20241066)]] - `assumes` [EXTRACTED]
+- [[When the Transcript Lies Fiat-Shamir Vulnerabilities]] - `references` [EXTRACTED]
+- [[Where Midnight Validates the Model]] - `references` [EXTRACTED]
+- [[ZK Rollups The Proving Grounds (Production)]] - `references` [EXTRACTED]
+- [[zk-SNARK]] - `conceptually_related_to` [EXTRACTED]
+- [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
+
+#graphify/document #graphify/EXTRACTED #community/Community_38

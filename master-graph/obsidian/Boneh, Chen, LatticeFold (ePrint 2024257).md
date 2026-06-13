@@ -1,0 +1,17 @@
+---
+source_file: "recursion/recursion-outline.md"
+type: "document"
+community: "Community 8"
+location: "Recursion Chapter 2"
+tags:
+  - graphify/document
+  - graphify/EXTRACTED
+  - community/Community_8
+---
+
+# Boneh, Chen, "LatticeFold" (ePrint 2024/257)
+
+## Connections
+- [[LatticeFold  LatticeFold+]] - `defines` [EXTRACTED]
+
+#graphify/document #graphify/EXTRACTED #community/Community_8
