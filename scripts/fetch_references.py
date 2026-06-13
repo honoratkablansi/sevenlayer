@@ -59,8 +59,8 @@ _CF_SESSIONS: dict[str, dict] = {}  # origin -> {"cookies": {...}, "ua": "..."}
 
 
 def _stealth_clear(origin: str) -> dict | None:
-    """Launch Camoufox on the origin landing page, pass the Cloudflare managed
-    challenge by stealth, and harvest the cf_clearance cookie + matching UA.
+    """Use Scrapling's Cloudflare solver on the origin landing page to pass the
+    Cloudflare managed challenge, and harvest the cf_clearance cookie + matching UA.
     Returns {"cookies": {name: value, ...}, "ua": str} or None if not cleared."""
     from scrapling.fetchers import StealthyFetcher
 
@@ -79,13 +79,14 @@ def _stealth_clear(origin: str) -> dict | None:
             network_idle=True,
             timeout=120000,
             page_action=grab,
+            solve_cloudflare=True,
         )
     except Exception as exc:  # noqa: BLE001 - browser launch/challenge failure
         print(f"    stealth-clear: {exc}")
         return None
 
     cookies = captured.get("cookies")
-    if not cookies:  # page_action didn't run; fall back to the response cookies
+    if not cookies:  # page_action didn't populate cookies (e.g. it raised and Scrapling swallowed it); fall back to the response cookies
         raw = page.cookies if page is not None else None
         cookies = {c["name"]: c["value"] for c in (raw or ())} if raw else {}
     if "cf_clearance" not in cookies:
@@ -253,7 +254,7 @@ def process(entry: dict, entries: list[dict], force: bool, dry_run: bool) -> str
         atomic_write(out, stub_markdown(entry).encode("utf-8"))
         return "stub"
     if entry["type"] == "paper":
-        data, how = fetch_paper(entry["url"])
+        data, _ = fetch_paper(entry["url"])
         if data is None:
             return "failed"
         atomic_write(out, data)

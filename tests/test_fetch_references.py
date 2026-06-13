@@ -187,3 +187,66 @@ def test_fetch_paper_stale_clearance_reclears_once_then_gives_up(monkeypatch):
     assert data is None
     assert how == ""
     assert len(clear_calls) == 2  # initial clear + one re-clear after stale
+
+
+def test_stealth_clear_harvests_cookies_and_ua_via_page_action(monkeypatch):
+    fr._CF_SESSIONS.clear()
+
+    class FakeCtx:
+        @staticmethod
+        def cookies():
+            return [{"name": "cf_clearance", "value": "tok"},
+                    {"name": "other", "value": "y"}]
+
+    class FakePage:
+        context = FakeCtx()
+
+        def evaluate(self, script):
+            return "BrowserUA/2.0"
+
+    class FakeResp:
+        cookies = ()
+
+    def fake_fetch(url, **kwargs):
+        kwargs["page_action"](FakePage())  # simulate Scrapling invoking the callback
+        return FakeResp()
+
+    monkeypatch.setattr("scrapling.fetchers.StealthyFetcher.fetch", fake_fetch)
+    session = fr._stealth_clear("https://eprint.iacr.org")
+    assert session == {"cookies": {"cf_clearance": "tok", "other": "y"},
+                       "ua": "BrowserUA/2.0"}
+
+
+def test_stealth_clear_falls_back_to_response_cookies(monkeypatch):
+    fr._CF_SESSIONS.clear()
+
+    class FakeResp:
+        cookies = ({"name": "cf_clearance", "value": "fromresp"},)
+
+    def fake_fetch(url, **kwargs):
+        return FakeResp()  # page_action effectively no-op (swallowed) -> empty capture
+
+    monkeypatch.setattr("scrapling.fetchers.StealthyFetcher.fetch", fake_fetch)
+    session = fr._stealth_clear("https://eprint.iacr.org")
+    assert session == {"cookies": {"cf_clearance": "fromresp"}, "ua": None}
+
+
+def test_stealth_clear_returns_none_without_cf_clearance(monkeypatch):
+    fr._CF_SESSIONS.clear()
+
+    class FakeResp:
+        cookies = ({"name": "session", "value": "z"},)
+
+    monkeypatch.setattr("scrapling.fetchers.StealthyFetcher.fetch",
+                        lambda url, **k: FakeResp())
+    assert fr._stealth_clear("https://eprint.iacr.org") is None
+
+
+def test_stealth_clear_returns_none_on_browser_exception(monkeypatch):
+    fr._CF_SESSIONS.clear()
+
+    def fake_fetch(url, **kwargs):
+        raise RuntimeError("browser launch failed")
+
+    monkeypatch.setattr("scrapling.fetchers.StealthyFetcher.fetch", fake_fetch)
+    assert fr._stealth_clear("https://eprint.iacr.org") is None
