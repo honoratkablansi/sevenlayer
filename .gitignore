@@ -27,3 +27,6 @@ Thumbs.db
 *~
 .vscode/
 .idea/
+
+# Graph deepening scratch (fragments, jobs)
+graphify-out/.deepen/
