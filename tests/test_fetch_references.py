@@ -103,3 +103,87 @@ def test_clear_cloudflare_returns_none_when_unsolved(monkeypatch):
     monkeypatch.setattr(fr, "_stealth_clear", lambda origin: None)
     assert fr._clear_cloudflare("https://eprint.iacr.org") is None
     assert "https://eprint.iacr.org" not in fr._CF_SESSIONS  # failures are not cached
+
+
+class FakeResp:
+    def __init__(self, status, body):
+        self.status = status
+        self.body = body
+
+
+def test_fetch_paper_curl_success_never_escalates(monkeypatch):
+    fr._CF_SESSIONS.clear()
+
+    def fake_curl(url, impersonate, cookies=None, headers=None):
+        return FakeResp(200, b"%PDF-1.7 real pdf")
+
+    def boom(origin):
+        raise AssertionError("must not escalate on curl success")
+
+    monkeypatch.setattr(fr, "_curl_get", fake_curl)
+    monkeypatch.setattr(fr, "_clear_cloudflare", boom)
+
+    data, how = fr.fetch_paper("https://eprint.iacr.org/2016/260.pdf")
+    assert data == b"%PDF-1.7 real pdf"
+    assert how == "fetcher-chrome"
+
+
+def test_fetch_paper_escalates_on_cloudflare_then_reuses_session(monkeypatch):
+    fr._CF_SESSIONS.clear()
+    clear_calls = []
+
+    def fake_curl(url, impersonate, cookies=None, headers=None):
+        if cookies is None:
+            return FakeResp(403, b"Just a moment")  # both curl_cffi attempts blocked
+        return FakeResp(200, b"%PDF-1.7 cleared")  # cleared-session download wins
+
+    def fake_clear(origin):
+        clear_calls.append(origin)
+        return {"cookies": {"cf_clearance": "x"}, "ua": "UA/1"}
+
+    monkeypatch.setattr(fr, "_curl_get", fake_curl)
+    monkeypatch.setattr(fr, "_clear_cloudflare", fake_clear)
+
+    data, how = fr.fetch_paper("https://eprint.iacr.org/2016/260.pdf")
+    assert data == b"%PDF-1.7 cleared"
+    assert how == "fetcher-stealth"
+    assert clear_calls == ["https://eprint.iacr.org"]  # cleared exactly once
+
+
+def test_fetch_paper_non_cloudflare_failure_does_not_escalate(monkeypatch):
+    fr._CF_SESSIONS.clear()
+
+    def fake_curl(url, impersonate, cookies=None, headers=None):
+        return FakeResp(404, b"<html>Not Found</html>")
+
+    def boom(origin):
+        raise AssertionError("404 must not trigger a browser launch")
+
+    monkeypatch.setattr(fr, "_curl_get", fake_curl)
+    monkeypatch.setattr(fr, "_clear_cloudflare", boom)
+
+    data, how = fr.fetch_paper("https://eprint.iacr.org/9999/999.pdf")
+    assert data is None
+    assert how == ""
+
+
+def test_fetch_paper_stale_clearance_reclears_once_then_gives_up(monkeypatch):
+    fr._CF_SESSIONS.clear()
+    clear_calls = []
+
+    def fake_curl(url, impersonate, cookies=None, headers=None):
+        if cookies is None:
+            return FakeResp(403, b"cf-mitigated")
+        return FakeResp(403, b"cf-mitigated")  # cleared session also rejected (stale)
+
+    def fake_clear(origin):
+        clear_calls.append(origin)
+        return {"cookies": {"cf_clearance": "x"}, "ua": "UA/1"}
+
+    monkeypatch.setattr(fr, "_curl_get", fake_curl)
+    monkeypatch.setattr(fr, "_clear_cloudflare", fake_clear)
+
+    data, how = fr.fetch_paper("https://eprint.iacr.org/2016/260.pdf")
+    assert data is None
+    assert how == ""
+    assert len(clear_calls) == 2  # initial clear + one re-clear after stale

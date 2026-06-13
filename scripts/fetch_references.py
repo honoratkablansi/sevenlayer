@@ -138,20 +138,66 @@ def web_markdown(entry: dict, text: str, fetched_with: str, date: str) -> str:
     )
 
 
-def fetch_paper(url: str) -> tuple[bytes | None, str]:
-    """Two attempts with curl_cffi impersonation. Returns (pdf_bytes, fetcher_name)."""
+def _curl_get(url: str, impersonate: str, cookies: dict | None = None,
+              headers: dict | None = None):
+    """Single curl_cffi GET. Isolated so tests can monkeypatch the network."""
     from scrapling.fetchers import Fetcher
 
+    kwargs: dict = {"impersonate": impersonate, "timeout": 90}
+    if cookies:
+        kwargs["cookies"] = cookies
+    if headers:
+        kwargs["headers"] = headers
+    return Fetcher.get(url, **kwargs)
+
+
+def _fetch_paper_stealth(url: str) -> bytes | None:
+    """Clear the origin's Cloudflare wall with Camoufox, then download the PDF
+    via curl_cffi reusing the cleared cookie + UA. One re-clear on stale state."""
+    origin = _origin(url)
+    for attempt in (1, 2):
+        session = _clear_cloudflare(origin)
+        if session is None:
+            return None
+        ua = session.get("ua")
+        try:
+            page = _curl_get(
+                url,
+                "chrome",
+                cookies=session["cookies"],
+                headers={"User-Agent": ua} if ua else None,
+            )
+        except Exception as exc:  # noqa: BLE001
+            print(f"    stealth-reuse: {exc}")
+            return None
+        if page.status == 200 and is_pdf(page.body):
+            return page.body
+        print(f"    stealth-reuse attempt {attempt}: status={page.status}")
+        _CF_SESSIONS.pop(origin, None)  # invalidate; loop re-clears once
+    return None
+
+
+def fetch_paper(url: str) -> tuple[bytes | None, str]:
+    """curl_cffi (chrome, firefox); on a Cloudflare block, escalate to a
+    Camoufox-cleared session reused via curl_cffi. Returns (pdf_bytes, how)."""
+    last_status, last_body = 0, b""
     for impersonate in ("chrome", "firefox"):
         try:
-            page = Fetcher.get(url, impersonate=impersonate, timeout=90)
+            page = _curl_get(url, impersonate)
         except Exception as exc:  # noqa: BLE001 - report and try next tier
             print(f"    {impersonate}: {exc}")
             continue
         if page.status == 200 and is_pdf(page.body):
             return page.body, f"fetcher-{impersonate}"
+        last_status, last_body = page.status, page.body
         print(f"    {impersonate}: status={page.status}, pdf={is_pdf(page.body)}")
-    return None, ""
+
+    if not _looks_like_cloudflare(last_status, last_body):
+        return None, ""
+
+    print("    cloudflare detected -> escalating to Camoufox stealth tier")
+    data = _fetch_paper_stealth(url)
+    return (data, "fetcher-stealth") if data is not None else (None, "")
 
 
 def fetch_web_text(url: str) -> tuple[str | None, str]:
