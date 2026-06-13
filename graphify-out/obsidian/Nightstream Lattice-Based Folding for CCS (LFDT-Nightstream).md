@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch06/ref-49-nightstream.md"
 type: "document"
-community: "Community 0"
+community: "Community 9"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Community_9
 ---
 
 # Nightstream: Lattice-Based Folding for CCS (LFDT-Nightstream)
@@ -21,4 +21,4 @@ tags:
 - [[Sumcheck Protocol]] - `references` [EXTRACTED]
 - [[Zero-Knowledge Virtual Machine (zkVM)]] - `implements` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/document #graphify/EXTRACTED #community/Community_9

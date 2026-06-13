@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch02/ref-06-groth16.pdf"
 type: "paper"
-community: "Community 3"
+community: "Community 6"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_3
+  - community/Community_6
 ---
 
 # On the Size of Pairing-Based Non-interactive Arguments
@@ -36,4 +36,4 @@ tags:
 - [[Theorem 4 Pairing-based Arguments Need Elements in Both G1 and G2]] - `proves` [EXTRACTED]
 - [[Zero-Knowledge Proofs_1]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_3
+#graphify/paper #graphify/EXTRACTED #community/Community_6

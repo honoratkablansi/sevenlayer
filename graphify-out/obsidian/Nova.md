@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/GLOSSARY.md"
 type: "document"
-community: "Community 0"
+community: "Community 9"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Community_9
 ---
 
 # Nova
@@ -19,6 +19,7 @@ tags:
 - [[Folding Schemes]] - `part_of` [EXTRACTED]
 - [[Glossary of Key Terms]] - `defines` [EXTRACTED]
 - [[HyperNova]] - `conceptually_related_to` [EXTRACTED]
+- [[HyperNova KS24b (linearization, CCS folding)]] - `conceptually_related_to` [EXTRACTED]
 - [[HyperNova Recursive Arguments for Customizable Constraint Systems]] - `cites` [EXTRACTED]
 - [[Lattice-Based Proving]] - `references` [EXTRACTED]
 - [[LatticeFold+ Faster, Simpler, Shorter Lattice-Based Folding for Succinct Proof Systems]] - `conceptually_related_to` [EXTRACTED]
@@ -49,4 +50,4 @@ tags:
 - [[Two Ways to Build a Stage]] - `conceptually_related_to` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/document #graphify/EXTRACTED #community/Community_9

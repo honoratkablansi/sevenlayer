@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-18-hypernova.pdf"
 type: "paper"
-community: "Community 8"
+community: "Community 1"
 location: "§1.2(1) / ref [52]"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_8
+  - community/Community_1
 ---
 
 # Sangria (folding scheme for Plonkish)
@@ -15,4 +15,4 @@ tags:
 - [[HyperNova Recursive Arguments for Customizable Constraint Systems]] - `cites` [EXTRACTED]
 - [[No commitments to cross-terms efficiency claim]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_8
+#graphify/paper #graphify/EXTRACTED #community/Community_1

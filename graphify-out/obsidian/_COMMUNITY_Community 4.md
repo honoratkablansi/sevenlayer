@@ -1,63 +1,67 @@
 ---
 type: community
-cohesion: 0.10
-members: 48
+cohesion: 0.06
+members: 52
 ---
 
 # Community 4
 
-**Cohesion:** 0.10 - loosely connected
-**Members:** 48 nodes
+**Cohesion:** 0.06 - loosely connected
+**Members:** 52 nodes
 
 ## Members
-- [[Trustless versus Trust-Minimized]] - document - wiki/sections/ch10-trustless-versus-trust-minimized.md
-- [[Aligned Layer]] - document - wiki/sections/ch08-proof-aggregation-the-missing-layer.md
-- [[Beanstalk Flash Loan Attack (April 2022)]] - document - wiki/sections/ch08-governance-the-achilles-heel.md
-- [[Beanstalk Flash Loan Governance Attack (April 2022)]] - document - proving-nothing.md
-- [[Bulletproofs]] - document - wiki/chapters/02-building-the-stage.md
-- [[Celestia]] - document - wiki/sections/ch08-the-price-of-a-verdict.md
-- [[Chaliasos et al. Rollup Pricing Attacks Study (2025)]] - document - wiki/sections/ch08-pricing-attacks.md
-- [[DA-Saturation Attacks]] - document - proving-nothing.md
-- [[Data Availability]] - document - wiki/chapters/08-the-verdict.md
-- [[EIP-4844 Blob Transactions]] - document - wiki/sections/ch08-the-price-of-a-verdict.md
-- [[Fiat-Shamir Transform]] - document - wiki/chapters/01-the-promise-of-provable-and-programmable-secrets.md
-- [[Fiat-Shamir Vulnerabilities]] - document - wiki/sections/ch06-fiat-shamir-vulnerabilities.md
-- [[Flash Loans]] - document - proving-nothing.md
-- [[From Speed Race to Security Race]] - document - wiki/sections/ch06-from-speed-race-to-security-race.md
-- [[Frozen Heart Vulnerability]] - document - wiki/chapters/10-the-synthesis-three-paths-not-two.md
-- [[Frozen Heart Vulnerability Class (Trail of Bits, 2022)]] - document - wiki/sections/ch08-when-the-transcript-lies-fiat-shamir-vulnerabilities.md
-- [[Frozen Heart Forgery of Zero Knowledge Proofs (Trail of Bits, 2022)]] - document - references/ch06/ref-22-frozen-heart.md
-- [[Governance The Achilles Heel]] - document - wiki/sections/ch08-governance-the-achilles-heel.md
-- [[Groth16]] - document - wiki/chapters/01-the-promise-of-provable-and-programmable-secrets.md
-- [[L2Beat Stages Framework]] - document - wiki/sections/ch08-governance-the-achilles-heel.md
-- [[Layer 7 -- The Verdict]] - document - wiki/chapters/08-the-verdict.md
-- [[Mary Maller]] - document - references/ch10/ref-36-sonic.pdf
-- [[Multi-Party Computation Setup Ceremony]] - document - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[NEBRA Universal Proof Aggregation]] - document - wiki/sections/ch08-proof-aggregation-the-missing-layer.md
-- [[On-Chain Governance]] - document - proving-nothing.md
-- [[On-Chain Verification in 2026]] - document - wiki/sections/ch08-on-chain-verification-in-2026.md
-- [[Pricing Attacks]] - document - wiki/sections/ch08-pricing-attacks.md
-- [[Proof Aggregation]] - document - wiki/chapters/08-the-verdict.md
-- [[Proof Aggregation The Missing Layer]] - document - wiki/sections/ch08-proof-aggregation-the-missing-layer.md
-- [[Prover-Killer Attacks]] - document - proving-nothing.md
-- [[SHARP (StarkWare Shared Prover)]] - document - wiki/sections/ch08-proof-aggregation-the-missing-layer.md
-- [[Schnorr Proof System]] - document - references/ch06/ref-22-frozen-heart.md
-- [[Sevenlayer Wiki Index]] - document - wiki/INDEX.md
-- [[Snarky Ceremonies]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
-- [[Sonic Zero-Knowledge SNARKs from Linear-Size Universal and Updatable Structured Reference Strings]] - paper - references/ch10/ref-36-sonic.pdf
-- [[The Deepest Symmetry]] - document - wiki/sections/ch08-the-deepest-symmetry.md
-- [[The Price of a Verdict]] - document - wiki/sections/ch08-the-price-of-a-verdict.md
-- [[The Sealed Certificate (Chapter Closing)]] - document - wiki/sections/ch06-the-sealed-certificate.md
-- [[The Social Layer]] - document - wiki/sections/ch08-the-social-layer.md
-- [[Tornado Cash Governance Attack (May 2023)]] - document - wiki/sections/ch08-governance-the-achilles-heel.md
-- [[Tornado Cash Governance Attack (May 2023)_1]] - document - proving-nothing.md
-- [[Trust Decomposition Seven Weaker Assumptions]] - document - wiki/sections/ch10-trust-decomposition-seven-weaker-assumptions.md
-- [[Trusted Setup]] - document - wiki/chapters/02-building-the-stage.md
-- [[Updatable and Universal Common Reference Strings with Applications to zk-SNARKs]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[Updatable and Universal Structured Reference String]] - document - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[Upgradeable Proxy Pattern]] - document - proving-nothing.md
-- [[When the Transcript Lies Fiat-Shamir Vulnerabilities]] - document - wiki/sections/ch08-when-the-transcript-lies-fiat-shamir-vulnerabilities.md
-- [[Who Verifies the Verifier]] - document - wiki/sections/ch08-who-verifies-the-verifier.md
+- [[(d,m,B,C)-relaxed binding; binding implies relaxed binding (Lemma 3)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Accumulation  Split-Accumulation Schemes]] - paper - references/ch06/ref-17-nova.pdf
+- [[Additively-Homomorphic Vector Commitment]] - paper - references/ch06/ref-17-nova.pdf
+- [[Algebraic reductions of knowledge]] - paper - references/ch06/ref-21-neo.pdf
+- [[Approximate range proof RoK Pi_rg for ring vectors (Thm 3.1) via random projection + monomial lookup]] - paper - references/ch10/ref-56-symphony.pdf
+- [[Commit-and-Open Fiat-Shamir transform FSHPi_cm,Pi_rok (Thm 5.1) over compressed transcript]] - paper - references/ch10/ref-56-symphony.pdf
+- [[Commit-and-prove compiler from RoK to SNARK without FS in circuit (Construction 6.1, Thm 6.1)]] - paper - references/ch10/ref-56-symphony.pdf
+- [[Committed Relaxed R1CS]] - paper - references/ch06/ref-17-nova.pdf
+- [[Decomposition Pi_decomp (R_lin,B2 - R_lin,B(2))]] - paper - references/ch02/ref-11-latticefold-plus.pdf
+- [[Efficiency 200KB proof (PQ), prover dominated by witness commitment, O(loglog n) data passes, O(n) memory]] - paper - references/ch10/ref-56-symphony.pdf
+- [[Folding Scheme]] - paper - references/ch06/ref-17-nova.pdf
+- [[Folding Scheme for Committed Relaxed R1CS (Construction 1)]] - paper - references/ch06/ref-17-nova.pdf
+- [[Forking Lemma for Folding Schemes (Lemma 1)]] - paper - references/ch06/ref-17-nova.pdf
+- [[Halo BGH19 (origin of accumulationfolding, cited prior work)]] - paper - references/ch10/ref-56-symphony.pdf
+- [[High-arity folding (fold many NP statements per step, no deep folding trees)]] - paper - references/ch10/ref-56-symphony.pdf
+- [[HyperNova (CRYPTO'24)]] - paper - references/ch06/ref-21-neo.pdf
+- [[LaBRADOR BS23 (lattice argument, random projection, challenge set, cited prior work)]] - paper - references/ch10/ref-56-symphony.pdf
+- [[Lattice-based cryptography]] - paper - references/ch10/ref-56-symphony.pdf
+- [[Lattice-based high-arity folding scheme Pi_fold (Thm 4.1) compressing l_np R1CS statements in one shot]] - paper - references/ch10/ref-56-symphony.pdf
+- [[LatticeFold BC24 (lattice folding & decomposition RoK, cited prior work)]] - paper - references/ch10/ref-56-symphony.pdf
+- [[LatticeFold BC24 (predecessor)]] - paper - references/ch02/ref-11-latticefold-plus.pdf
+- [[LatticeFold+ Folding Scheme (R_comp x R_acc - R_acc)]] - paper - references/ch02/ref-11-latticefold-plus.pdf
+- [[LatticeFold+ BC25 (monomial embedding & exact range proof, cited prior work)]] - paper - references/ch10/ref-56-symphony.pdf
+- [[Module-Ajtai binding commitment (Construction 2.1) with strictrelaxed openings]] - paper - references/ch10/ref-56-symphony.pdf
+- [[Monomial-embedding RoK Pi_mon (Lemma 3.1) reducing monomial check to linear statement]] - paper - references/ch10/ref-56-symphony.pdf
+- [[Multi-Input Folding Pi_mlin (R_lin,B(L) - R_lin,B2)]] - paper - references/ch02/ref-11-latticefold-plus.pdf
+- [[Neo NS25 (lattice SNARK; Hadamard sumcheck and single-instance encoding, cited prior work)]] - paper - references/ch10/ref-56-symphony.pdf
+- [[Neo folding scheme for CCS (lattice-based)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Pi_CCS reduction (CCS to linearizedmatrix-eval claims via sum-check)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Pi_DEC decomposition reduction (norm-B claim into k norm-b claims)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Pi_RLC random linear combination reduction (folds k+1 norm-b claims into one norm-B)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Plausibly post-quantum security from lattice MSIS hardness]] - paper - references/ch10/ref-56-symphony.pdf
+- [[Proof Size O_lambda(kappad + log n) (vs LatticeFold kappadlogB)]] - paper - references/ch02/ref-11-latticefold-plus.pdf
+- [[Protostar BC23 (commit-and-open  accumulation, cited prior work)]] - paper - references/ch10/ref-56-symphony.pdf
+- [[Random oracle model (non-interactive STARK  NIROP)]] - paper - references/ch02/ref-08-stark.pdf
+- [[Random projection for norm preservation (J in {0,+-1}, ell2-norm preserved mod q)]] - paper - references/ch10/ref-56-symphony.pdf
+- [[Reduction of Knowledge]] - paper - references/ch06/ref-20-latticefold.pdf
+- [[Reductions of knowledge framework]] - paper - references/ch06/ref-21-neo.pdf
+- [[RoK Pi_had reducing batched HadamardR1CS relation to linear relation (Prop 3.1)]] - paper - references/ch10/ref-56-symphony.pdf
+- [[Short invertible elements in partially splitting cyclotomic rings]] - paper - references/ch06/ref-21-neo.pdf
+- [[Straightline extractability of commitment (enables tighter ROM reduction)]] - paper - references/ch10/ref-56-symphony.pdf
+- [[Strong sampling set with small-norm invertible challenges (expansion factor T)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Symphony Scalable SNARKs in the Random Oracle Model from Lattice-Based High-Arity Folding]] - paper - references/ch10/ref-56-symphony.pdf
+- [[Symphony scalable SNARK in the ROM from high-arity folding]] - paper - references/ch10/ref-56-symphony.pdf
+- [[Tensor-of-rings E = K (x) Rq enabling interleaved sumcheck and folding]] - paper - references/ch10/ref-56-symphony.pdf
+- [[Theorem 3 Folding Scheme Completeness, Knowledge Soundness, ZK]] - paper - references/ch06/ref-17-nova.pdf
+- [[Theorem 5.1 Main folding RoK from R_comp x R_acc to R_acc]] - paper - references/ch02/ref-11-latticefold-plus.pdf
+- [[Theorem 5.3 Efficiency estimate (proververifierproof size)]] - paper - references/ch02/ref-11-latticefold-plus.pdf
+- [[Theorem 5 composition theorem (restricted + relaxed knowledge soundness compose to RoK)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Transparent random oracle RO_0RO_1 (programmable weakening; simulator learns r)]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
+- [[Two-layer folding via splitting linear-statement RoK (§8), under stronger structured-MSIS]] - paper - references/ch10/ref-56-symphony.pdf
+- [[~5x Faster Prover, Omega(log B) speedup over LatticeFold]] - paper - references/ch02/ref-11-latticefold-plus.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -67,28 +71,25 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 59 edges to [[_COMMUNITY_Community 0]]
-- 58 edges to [[_COMMUNITY_Community 1]]
-- 38 edges to [[_COMMUNITY_Community 2]]
-- 30 edges to [[_COMMUNITY_Community 6]]
-- 8 edges to [[_COMMUNITY_Community 3]]
-- 7 edges to [[_COMMUNITY_Community 5]]
-- 5 edges to [[_COMMUNITY_Community 18]]
-- 5 edges to [[_COMMUNITY_Community 9]]
-- 3 edges to [[_COMMUNITY_Community 20]]
-- 3 edges to [[_COMMUNITY_Community 7]]
-- 3 edges to [[_COMMUNITY_Community 12]]
-- 2 edges to [[_COMMUNITY_Community 19]]
-- 2 edges to [[_COMMUNITY_Community 16]]
-- 2 edges to [[_COMMUNITY_Community 15]]
-- 1 edge to [[_COMMUNITY_Community 8]]
-- 1 edge to [[_COMMUNITY_Community 11]]
-- 1 edge to [[_COMMUNITY_Community 10]]
+- 14 edges to [[_COMMUNITY_Community 11]]
+- 11 edges to [[_COMMUNITY_Community 1]]
+- 7 edges to [[_COMMUNITY_Community 9]]
+- 4 edges to [[_COMMUNITY_Community 29]]
+- 3 edges to [[_COMMUNITY_Community 8]]
+- 2 edges to [[_COMMUNITY_Community 10]]
+- 1 edge to [[_COMMUNITY_Community 2]]
+- 1 edge to [[_COMMUNITY_Community 0]]
+- 1 edge to [[_COMMUNITY_Community 7]]
+- 1 edge to [[_COMMUNITY_Community 20]]
+- 1 edge to [[_COMMUNITY_Community 13]]
+- 1 edge to [[_COMMUNITY_Community 21]]
+- 1 edge to [[_COMMUNITY_Community 17]]
+- 1 edge to [[_COMMUNITY_Community 28]]
 - 1 edge to [[_COMMUNITY_Community 14]]
 
 ## Top bridge nodes
-- [[Groth16]] - degree 68, connects to 9 communities
-- [[Trusted Setup]] - degree 35, connects to 9 communities
-- [[Fiat-Shamir Transform]] - degree 36, connects to 8 communities
-- [[Layer 7 -- The Verdict]] - degree 42, connects to 7 communities
-- [[Sevenlayer Wiki Index]] - degree 14, connects to 7 communities
+- [[Symphony Scalable SNARKs in the Random Oracle Model from Lattice-Based High-Arity Folding]] - degree 22, connects to 5 communities
+- [[Folding Scheme]] - degree 17, connects to 5 communities
+- [[Lattice-based cryptography]] - degree 6, connects to 3 communities
+- [[Neo folding scheme for CCS (lattice-based)]] - degree 9, connects to 2 communities
+- [[Reduction of Knowledge]] - degree 6, connects to 2 communities

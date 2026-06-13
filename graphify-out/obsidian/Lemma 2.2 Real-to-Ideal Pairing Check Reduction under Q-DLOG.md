@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-07-plonk.pdf"
 type: "paper"
-community: "Community 7"
+community: "Community 31"
 location: "Lemma 2.2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_7
+  - community/Community_31
 ---
 
 # Lemma 2.2: Real-to-Ideal Pairing Check Reduction under Q-DLOG
@@ -15,4 +15,4 @@ tags:
 - [[Algebraic Group Model (AGM)]] - `conceptually_related_to` [EXTRACTED]
 - [[Q-DLOG Assumption]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_7
+#graphify/paper #graphify/EXTRACTED #community/Community_31

@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 4"
+community: "Community 0"
 location: "The Beanstalk Flash Loan Attack ($182M, April 2022)"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_4
+  - community/Community_0
 ---
 
 # Flash Loans
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Layer 7 -- The Verdict]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_4
+#graphify/document #graphify/EXTRACTED #community/Community_0

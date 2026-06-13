@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/13-the-market-landscape.md"
 type: "document"
-community: "Community 15"
+community: "Community 34"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_15
+  - community/Community_34
 ---
 
 # ZKML (Provable Machine Learning)
@@ -16,4 +16,4 @@ tags:
 - [[The Market Landscape]] - `references` [EXTRACTED]
 - [[ZKML Provable Machine Learning (Research)]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_15
+#graphify/document #graphify/EXTRACTED #community/Community_34

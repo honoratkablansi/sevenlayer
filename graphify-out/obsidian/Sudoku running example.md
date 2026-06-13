@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/concepts/sudoku.md"
 type: "document"
-community: "Community 6"
+community: "Community 0"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_6
+  - community/Community_0
 ---
 
 # Sudoku running example
@@ -26,4 +26,4 @@ tags:
 - [[The Spreadsheet Metaphor (And Where It Works)]] - `references` [EXTRACTED]
 - [[Universal versus Circuit-Specific Setups]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_6
+#graphify/document #graphify/EXTRACTED #community/Community_0

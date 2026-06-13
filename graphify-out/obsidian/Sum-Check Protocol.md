@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-17-nova.pdf"
 type: "paper"
-community: "Community 7"
+community: "Community 21"
 location: "§6.1 Lemma 5, ref [38]"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_7
+  - community/Community_21
 ---
 
 # Sum-Check Protocol
@@ -16,4 +16,4 @@ tags:
 - [[Polynomial IOP for Idealized Relaxed R1CS (Construction 5)]] - `assumes` [EXTRACTED]
 - [[Spartan zkSNARK]] - `assumes` [INFERRED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_7
+#graphify/paper #graphify/EXTRACTED #community/Community_21

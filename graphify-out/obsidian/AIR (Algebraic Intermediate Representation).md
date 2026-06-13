@@ -17,6 +17,7 @@ tags:
 - [[Customizable Constraint Systems for Succinct Arguments]] - `conceptually_related_to` [EXTRACTED]
 - [[Encoding the Performance]] - `references` [EXTRACTED]
 - [[Glossary of Key Terms]] - `defines` [EXTRACTED]
+- [[Lemma 3 AIR-to-CCS reduction; constraint g applied to adjacent trace rows]] - `proves` [EXTRACTED]
 - [[RISC-V Convergence]] - `conceptually_related_to` [EXTRACTED]
 - [[Scalable, Transparent, and Post-Quantum Secure Computational Integrity]] - `defines` [EXTRACTED]
 - [[The Proof Core Triad]] - `conceptually_related_to` [EXTRACTED]

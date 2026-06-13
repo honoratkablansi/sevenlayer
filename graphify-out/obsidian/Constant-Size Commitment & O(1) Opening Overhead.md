@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-04-kzg-commitments.pdf"
 type: "paper"
-community: "Community 5"
+community: "Community 14"
 location: "Abstract, §1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_5
+  - community/Community_14
 ---
 
 # Constant-Size Commitment & O(1) Opening Overhead
@@ -15,4 +15,4 @@ tags:
 - [[PolyCommitDL Scheme]] - `defines` [EXTRACTED]
 - [[Polynomial Commitment Scheme]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_5
+#graphify/paper #graphify/EXTRACTED #community/Community_14

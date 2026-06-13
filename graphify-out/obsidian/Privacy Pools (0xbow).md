@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch13-zk-identity-growth-regulatory-mandate.md"
 type: "document"
-community: "Community 19"
+community: "Community 38"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_19
+  - community/Community_38
 ---
 
 # Privacy Pools (0xbow)
@@ -17,4 +17,4 @@ tags:
 - [[The Market Landscape]] - `references` [EXTRACTED]
 - [[ZK Identity (Growth  Regulatory Mandate)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_19
+#graphify/document #graphify/EXTRACTED #community/Community_38

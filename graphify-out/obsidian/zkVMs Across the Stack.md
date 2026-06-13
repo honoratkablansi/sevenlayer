@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch11-zkvms-across-the-stack.md"
 type: "document"
-community: "Community 1"
+community: "Community 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_1
+  - community/Community_2
 ---
 
 # zkVMs Across the Stack
@@ -22,4 +22,4 @@ tags:
 - [[Zero-Knowledge Virtual Machine (zkVM)]] - `defines` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `part_of` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_1
+#graphify/document #graphify/EXTRACTED #community/Community_2

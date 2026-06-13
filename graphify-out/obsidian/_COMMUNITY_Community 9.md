@@ -1,48 +1,47 @@
 ---
 type: community
-cohesion: 0.17
-members: 33
+cohesion: 0.18
+members: 32
 ---
 
 # Community 9
 
-**Cohesion:** 0.17 - loosely connected
-**Members:** 33 nodes
+**Cohesion:** 0.18 - loosely connected
+**Members:** 32 nodes
 
 ## Members
-- [[Aztec]] - document - wiki/sections/ch09-open-problems.md
-- [[Bootstrapping (FHE)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
-- [[CirC Compiler Infrastructure for Proof Systems, Software Verification, and More]] - paper - references/ch10/ref-33-circ.pdf
-- [[CollaborativeThreshold Proving]] - document - proving-nothing.md
-- [[Composability When One PET Is Not Enough]] - document - wiki/sections/ch09-composability-when-one-pet-is-not-enough.md
-- [[Craig Gentry]] - paper - references/ch09/ref-29-gentry-fhe.pdf
-- [[Differential Privacy]] - document - wiki/sections/ch09-composability-when-one-pet-is-not-enough.md
-- [[Fully Homomorphic Encryption (FHE)]] - document - wiki/chapters/09-privacy-enhancing-technologies.md
-- [[Fully Homomorphic Encryption Using Ideal Lattices]] - paper - references/ch09/ref-29-gentry-fhe.pdf
-- [[GDPR]] - document - wiki/sections/ch09-the-regulatory-intersection.md
-- [[Garbled Circuits]] - document - proving-nothing.md
-- [[Kachina]] - document - wiki/chapters/09-privacy-enhancing-technologies.md
-- [[Oblivious Transfer]] - document - proving-nothing.md
-- [[Open Problems]] - document - wiki/sections/ch09-open-problems.md
-- [[Privacy Architectures for Smart Contracts Kachina and Zexe]] - document - wiki/sections/ch09-privacy-architectures-for-smart-contracts-kachina-and-zexe.md
-- [[Privacy Pools]] - document - wiki/sections/ch09-real-world-deployments-five-case-studies.md
-- [[Privacy-Enhancing Technologies]] - document - wiki/chapters/09-privacy-enhancing-technologies.md
-- [[Private Information Retrieval (PIR)]] - document - wiki/sections/ch09-open-problems.md
-- [[Private Set Intersection (PSI)]] - document - proving-nothing.md
-- [[Real-World Deployments Five Case Studies]] - document - wiki/sections/ch09-real-world-deployments-five-case-studies.md
-- [[Satisfiability Modulo Theories (SMT)]] - paper - references/ch10/ref-33-circ.pdf
-- [[Secure Multi-Party Computation (MPC)]] - document - wiki/chapters/09-privacy-enhancing-technologies.md
-- [[The Decision Matrix]] - document - wiki/sections/ch09-the-decision-matrix.md
-- [[The Four Pillars]] - document - wiki/sections/ch09-the-four-pillars.md
-- [[The Incomplete Stack]] - document - wiki/sections/ch09-the-incomplete-stack.md
-- [[The Regulatory Intersection]] - document - wiki/sections/ch09-the-regulatory-intersection.md
-- [[Three Kinds of Security]] - document - wiki/sections/ch09-three-kinds-of-security.md
-- [[Trusted Execution Environment (TEE)]] - document - wiki/chapters/09-privacy-enhancing-technologies.md
-- [[Verifiable FHE (zkFHE)]] - document - proving-nothing.md
-- [[Zero-Knowledge Proofs]] - document - wiki/sections/ch09-the-four-pillars.md
-- [[Zexe]] - document - wiki/chapters/06-the-sealed-certificate.md
-- [[eIDAS 2.0]] - document - wiki/sections/ch09-the-regulatory-intersection.md
-- [[zKYC (Zero-Knowledge Know Your Customer)]] - document - wiki/sections/ch09-the-regulatory-intersection.md
+- [[2-cycle of elliptic curves (BN254Grumpkin)]] - paper - references/ch06/ref-18-hypernova.pdf
+- [[Complete Bibliography]] - document - wiki/BIBLIOGRAPHY.md
+- [[CycleFold]] - document - wiki/sections/ch06-the-folding-genealogy.md
+- [[CycleFold cycle-of-curves delegation technique]] - paper - references/ch06/ref-18-hypernova.pdf
+- [[Cycles of Elliptic Curves]] - document - references/ch06/ref-17-nova.pdf
+- [[Fiat-Shamir Vulnerabilities]] - document - wiki/sections/ch06-fiat-shamir-vulnerabilities.md
+- [[Folding Schemes]] - document - wiki/chapters/06-the-sealed-certificate.md
+- [[From Speed Race to Security Race]] - document - wiki/sections/ch06-from-speed-race-to-security-race.md
+- [[Halo Recursive Proof Composition]] - paper - references/ch06/ref-17-nova.pdf
+- [[HyperNova]] - document - wiki/GLOSSARY.md
+- [[HyperNova Recursive Arguments for Customizable Constraint Systems]] - paper - references/ch06/ref-18-hypernova.pdf
+- [[Incrementally Verifiable Computation (IVC)]] - document - wiki/sections/ch06-recursion-vs-folding-russian-dolls-and-snowballs.md
+- [[Layer 5 -- The Sealed Certificate]] - document - wiki/chapters/06-the-sealed-certificate.md
+- [[Lemma 5 (Nova folding is blinding)]] - paper - references/ch06/ref-18-hypernova.pdf
+- [[Mangrove]] - document - wiki/sections/ch06-snark-recursion-vs-folding-the-full-picture.md
+- [[Nightstream]] - document - wiki/chapters/06-the-sealed-certificate.md
+- [[Nightstream Lattice-Based Folding for CCS (LFDT-Nightstream)]] - document - references/ch06/ref-49-nightstream.md
+- [[Nightstream What a Folding Engine Looks Like from the Inside]] - document - wiki/sections/ch04-memory-the-binding-constraint.md
+- [[Nova]] - document - wiki/GLOSSARY.md
+- [[Nova Recursive Zero-Knowledge Arguments from Folding Schemes]] - paper - references/ch06/ref-17-nova.pdf
+- [[NovaBlindFold folding-based zero-knowledge]] - paper - references/ch06/ref-18-hypernova.pdf
+- [[Pasta Cycle of Elliptic Curves]] - paper - references/ch06/ref-17-nova.pdf
+- [[Proof Recursion]] - document - wiki/chapters/06-the-sealed-certificate.md
+- [[ProtoGalaxy]] - document - wiki/sections/ch06-the-folding-genealogy.md
+- [[ProtoStar]] - document - wiki/sections/ch06-the-folding-genealogy.md
+- [[Recursion vs. Folding Russian Dolls and Snowballs]] - document - wiki/sections/ch06-recursion-vs-folding-russian-dolls-and-snowballs.md
+- [[Recursive Proof Composition]] - paper - references/ch06/ref-17-nova.pdf
+- [[Relaxed R1CS]] - paper - references/ch06/ref-17-nova.pdf
+- [[SNARK Recursion vs. Folding The Full Picture]] - document - wiki/sections/ch06-snark-recursion-vs-folding-the-full-picture.md
+- [[SuperNova]] - document - wiki/sections/ch06-the-folding-genealogy.md
+- [[The Folding Genealogy]] - document - wiki/sections/ch06-the-folding-genealogy.md
+- [[The Sealed Certificate (Chapter Closing)]] - document - wiki/sections/ch06-the-sealed-certificate.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -52,21 +51,31 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 11 edges to [[_COMMUNITY_Community 0]]
-- 6 edges to [[_COMMUNITY_Community 2]]
-- 5 edges to [[_COMMUNITY_Community 4]]
-- 5 edges to [[_COMMUNITY_Community 14]]
-- 3 edges to [[_COMMUNITY_Community 18]]
-- 3 edges to [[_COMMUNITY_Community 3]]
-- 2 edges to [[_COMMUNITY_Community 19]]
-- 2 edges to [[_COMMUNITY_Community 1]]
-- 1 edge to [[_COMMUNITY_Community 6]]
-- 1 edge to [[_COMMUNITY_Community 5]]
-- 1 edge to [[_COMMUNITY_Community 12]]
+- 57 edges to [[_COMMUNITY_Community 1]]
+- 47 edges to [[_COMMUNITY_Community 0]]
+- 44 edges to [[_COMMUNITY_Community 2]]
+- 43 edges to [[_COMMUNITY_Community 8]]
+- 23 edges to [[_COMMUNITY_Community 5]]
+- 8 edges to [[_COMMUNITY_Community 17]]
+- 7 edges to [[_COMMUNITY_Community 11]]
+- 7 edges to [[_COMMUNITY_Community 4]]
+- 6 edges to [[_COMMUNITY_Community 10]]
+- 5 edges to [[_COMMUNITY_Community 29]]
+- 4 edges to [[_COMMUNITY_Community 3]]
+- 3 edges to [[_COMMUNITY_Community 6]]
+- 3 edges to [[_COMMUNITY_Community 42]]
+- 3 edges to [[_COMMUNITY_Community 21]]
+- 2 edges to [[_COMMUNITY_Community 13]]
+- 2 edges to [[_COMMUNITY_Community 7]]
+- 1 edge to [[_COMMUNITY_Community 18]]
+- 1 edge to [[_COMMUNITY_Community 19]]
+- 1 edge to [[_COMMUNITY_Community 38]]
+- 1 edge to [[_COMMUNITY_Community 22]]
+- 1 edge to [[_COMMUNITY_Community 34]]
 
 ## Top bridge nodes
-- [[Privacy-Enhancing Technologies]] - degree 35, connects to 7 communities
-- [[Secure Multi-Party Computation (MPC)]] - degree 15, connects to 4 communities
-- [[Privacy Architectures for Smart Contracts Kachina and Zexe]] - degree 12, connects to 3 communities
-- [[eIDAS 2.0]] - degree 8, connects to 3 communities
-- [[CirC Compiler Infrastructure for Proof Systems, Software Verification, and More]] - degree 7, connects to 3 communities
+- [[Layer 5 -- The Sealed Certificate]] - degree 71, connects to 14 communities
+- [[Folding Schemes]] - degree 53, connects to 10 communities
+- [[Complete Bibliography]] - degree 16, connects to 10 communities
+- [[Nova Recursive Zero-Knowledge Arguments from Folding Schemes]] - degree 20, connects to 7 communities
+- [[Nova]] - degree 38, connects to 6 communities

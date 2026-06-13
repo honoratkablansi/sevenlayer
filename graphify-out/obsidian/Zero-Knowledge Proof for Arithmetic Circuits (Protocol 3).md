@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-09-bulletproofs.pdf"
 type: "paper"
-community: "Community 12"
+community: "Community 7"
 location: "§5, Eq (73)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_12
+  - community/Community_7
 ---
 
 # Zero-Knowledge Proof for Arithmetic Circuits (Protocol 3)
@@ -17,4 +17,4 @@ tags:
 - [[Pinocchio Arithmetic Circuit Format]] - `cites` [EXTRACTED]
 - [[Theorem 5 Arithmetic Circuit Protocol Soundness]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_12
+#graphify/paper #graphify/EXTRACTED #community/Community_7

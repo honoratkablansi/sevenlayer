@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch10-path-two-pure-transparent.md"
 type: "document"
-community: "Community 1"
+community: "Community 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_1
+  - community/Community_2
 ---
 
 # Path Two: Pure Transparent
@@ -22,4 +22,4 @@ tags:
 - [[The Three-Path Table]] - `references` [EXTRACTED]
 - [[Trusted Setup]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_1
+#graphify/document #graphify/EXTRACTED #community/Community_2

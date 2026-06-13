@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-20-latticefold.pdf"
 type: "document"
-community: "Community 0"
+community: "Community 11"
 location: "abstract"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Community_11
 ---
 
 # Ajtai Commitment Scheme
@@ -18,6 +18,7 @@ tags:
 - [[LatticeFold A Lattice-based Folding Scheme and its Applications to Succinct Proof Systems]] - `conceptually_related_to` [EXTRACTED]
 - [[Layer 6 -- The Deep Craft]] - `defines` [EXTRACTED]
 - [[Module-SIS]] - `assumes` [EXTRACTED]
+- [[Neo folding-friendly matrix commitment scheme (Ajtai with new embedding)]] - `conceptually_related_to` [EXTRACTED]
 - [[Neo Lattice-based Folding Scheme for CCS over Small Fields and Pay-per-bit Commitments]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/document #graphify/EXTRACTED #community/Community_11

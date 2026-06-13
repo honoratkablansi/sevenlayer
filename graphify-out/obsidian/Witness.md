@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch04-execution-traces.md"
 type: "document"
-community: "Community 2"
+community: "Community 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_2
+  - community/Community_1
 ---
 
 # Witness
@@ -17,4 +17,4 @@ tags:
 - [[The Secret Performance]] - `defines` [EXTRACTED]
 - [[Witness-Constraint Divergence]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_2
+#graphify/document #graphify/EXTRACTED #community/Community_1

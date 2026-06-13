@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch06/ref-18-hypernova.pdf"
 type: "paper"
-community: "Community 0"
+community: "Community 9"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Community_9
 ---
 
 # HyperNova: Recursive Arguments for Customizable Constraint Systems
@@ -37,4 +37,4 @@ tags:
 - [[Sumcheck Protocol]] - `conceptually_related_to` [EXTRACTED]
 - [[nlookup lookup argument (Construction 8)]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_0
+#graphify/paper #graphify/EXTRACTED #community/Community_9

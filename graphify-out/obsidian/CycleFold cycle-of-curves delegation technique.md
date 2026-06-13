@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-18-hypernova.pdf"
 type: "paper"
-community: "Community 0"
+community: "Community 9"
 location: "§9 / Appendix E Construction 7"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Community_9
 ---
 
 # CycleFold: cycle-of-curves delegation technique
@@ -17,4 +17,4 @@ tags:
 - [[Nova]] - `assumes` [EXTRACTED]
 - [[Relaxed R1CS]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_0
+#graphify/paper #graphify/EXTRACTED #community/Community_9

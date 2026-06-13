@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch09-the-four-pillars.md"
 type: "document"
-community: "Community 9"
+community: "Community 3"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_9
+  - community/Community_3
 ---
 
 # Zero-Knowledge Proofs
@@ -18,4 +18,4 @@ tags:
 - [[Three Kinds of Security]] - `conceptually_related_to` [EXTRACTED]
 - [[zKYC (Zero-Knowledge Know Your Customer)]] - `implements` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_9
+#graphify/document #graphify/EXTRACTED #community/Community_3

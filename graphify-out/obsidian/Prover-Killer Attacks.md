@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 4"
+community: "Community 0"
 location: "Prover-Killer Attacks"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_4
+  - community/Community_0
 ---
 
 # Prover-Killer Attacks
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Layer 7 -- The Verdict]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_4
+#graphify/document #graphify/EXTRACTED #community/Community_0

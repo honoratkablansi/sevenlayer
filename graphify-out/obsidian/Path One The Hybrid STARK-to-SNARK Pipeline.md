@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch10-path-one-the-hybrid-stark-to-snark-pipeline.md"
 type: "document"
-community: "Community 1"
+community: "Community 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_1
+  - community/Community_2
 ---
 
 # Path One: The Hybrid STARK-to-SNARK Pipeline
@@ -30,4 +30,4 @@ tags:
 - [[Trusted Setup]] - `conceptually_related_to` [EXTRACTED]
 - [[ZisK]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_1
+#graphify/document #graphify/EXTRACTED #community/Community_2

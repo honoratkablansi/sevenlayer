@@ -1,23 +1,33 @@
 ---
 type: community
-cohesion: 0.25
-members: 8
+cohesion: 0.18
+members: 18
 ---
 
 # Community 18
 
-**Cohesion:** 0.25 - loosely connected
-**Members:** 8 nodes
+**Cohesion:** 0.18 - loosely connected
+**Members:** 18 nodes
 
 ## Members
-- [[Asset Tokenization]] - document - references/ch13/ref-58-dtcc-canton-tokenization.md
-- [[Canton Network_1]] - document - references/ch13/ref-58-dtcc-canton-tokenization.md
-- [[DTCC and Digital Asset Partner to Tokenize DTC-Custodied U.S. Treasury Securities on the Canton Network]] - document - references/ch13/ref-58-dtcc-canton-tokenization.md
-- [[Proving Nothing]] - document - proving-nothing.md
-- [[Selective Disclosure]] - document - references/ch12/ref-41-midnight-developer-guide.md
-- [[The Economics of ZK-Proving Market Size and Future Projections (Chorus One)]] - document - references/ch13/ref-57-chorus-one-zk-economics.md
-- [[The Market Landscape]] - document - wiki/chapters/13-the-market-landscape.md
-- [[eIDAS 2.0_1]] - document - proving-nothing.md
+- [[Bilinear Pairing (type-1 symmetric)]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Constant-Size Commitments to Polynomials and Their Applications]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Cryptographic Accumulator]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Feldman Verifiable Secret Sharing]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Merkle Hash Tree]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Nearly Zero-Knowledge Set  ZK-EDB]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[PolyCommitDL Scheme]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[PolyCommitPed Scheme]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Polynomial Divisibility Property ((x-i) divides phi(x)-phi(i))]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Theorem 3.2 PolyCommitDL Security]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Theorem 3.3 PolyCommitPed Security]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Theorem 3.5 Strong Correctness]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Verifiable Secret Sharing]] - document - references/ch02/ref-04-kzg-commitments.pdf
+- [[Zero-Knowledge Set (Micali et al.)]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[eVSS Efficient Feldman VSS]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[t-Diffie-Hellman Inversion (t-DHI) Assumption]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[t-Polynomial Diffie-Hellman (t-polyDH) Assumption]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[t-Strong Diffie-Hellman (t-SDH) Assumption]] - paper - references/ch02/ref-04-kzg-commitments.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -27,22 +37,19 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 9 edges to [[_COMMUNITY_Community 1]]
-- 7 edges to [[_COMMUNITY_Community 2]]
-- 6 edges to [[_COMMUNITY_Community 14]]
-- 5 edges to [[_COMMUNITY_Community 6]]
-- 5 edges to [[_COMMUNITY_Community 4]]
-- 4 edges to [[_COMMUNITY_Community 15]]
-- 4 edges to [[_COMMUNITY_Community 16]]
-- 3 edges to [[_COMMUNITY_Community 9]]
-- 3 edges to [[_COMMUNITY_Community 19]]
+- 5 edges to [[_COMMUNITY_Community 14]]
 - 2 edges to [[_COMMUNITY_Community 0]]
-- 2 edges to [[_COMMUNITY_Community 5]]
-- 2 edges to [[_COMMUNITY_Community 17]]
-- 1 edge to [[_COMMUNITY_Community 20]]
+- 2 edges to [[_COMMUNITY_Community 7]]
+- 2 edges to [[_COMMUNITY_Community 48]]
+- 2 edges to [[_COMMUNITY_Community 10]]
+- 1 edge to [[_COMMUNITY_Community 8]]
+- 1 edge to [[_COMMUNITY_Community 9]]
+- 1 edge to [[_COMMUNITY_Community 6]]
+- 1 edge to [[_COMMUNITY_Community 31]]
 
 ## Top bridge nodes
-- [[The Market Landscape]] - degree 41, connects to 11 communities
-- [[Proving Nothing]] - degree 14, connects to 7 communities
-- [[Selective Disclosure]] - degree 4, connects to 3 communities
-- [[eIDAS 2.0_1]] - degree 2, connects to 1 community
+- [[Constant-Size Commitments to Polynomials and Their Applications]] - degree 15, connects to 6 communities
+- [[PolyCommitDL Scheme]] - degree 12, connects to 4 communities
+- [[PolyCommitPed Scheme]] - degree 8, connects to 3 communities
+- [[t-Strong Diffie-Hellman (t-SDH) Assumption]] - degree 6, connects to 1 community
+- [[Cryptographic Accumulator]] - degree 2, connects to 1 community

@@ -1,26 +1,39 @@
 ---
 type: community
-cohesion: 0.24
-members: 11
+cohesion: 0.13
+members: 24
 ---
 
 # Community 15
 
-**Cohesion:** 0.24 - loosely connected
-**Members:** 11 nodes
+**Cohesion:** 0.13 - loosely connected
+**Members:** 24 nodes
 
 ## Members
-- [[Axiom]] - document - wiki/sections/ch13-zk-coprocessors-off-chain-computation-on-chain-verification-growth.md
-- [[Brevis]] - document - wiki/sections/ch13-zk-coprocessors-off-chain-computation-on-chain-verification-growth.md
-- [[EZKL]] - document - wiki/sections/ch13-zkml-provable-machine-learning-research.md
-- [[Lagrange]] - document - wiki/sections/ch13-zk-coprocessors-off-chain-computation-on-chain-verification-growth.md
-- [[Lagrange DeepProve]] - document - wiki/sections/ch13-zkml-provable-machine-learning-research.md
-- [[Pico Prism_1]] - document - wiki/sections/ch13-zk-coprocessors-off-chain-computation-on-chain-verification-growth.md
-- [[Pico zkVM]] - document - wiki/sections/ch13-zk-coprocessors-off-chain-computation-on-chain-verification-growth.md
-- [[ZK Coprocessors]] - document - wiki/chapters/13-the-market-landscape.md
-- [[ZK Coprocessors Off-Chain Computation, On-Chain Verification (Growth)]] - document - wiki/sections/ch13-zk-coprocessors-off-chain-computation-on-chain-verification-growth.md
-- [[ZKML (Provable Machine Learning)]] - document - wiki/chapters/13-the-market-landscape.md
-- [[ZKML Provable Machine Learning (Research)]] - document - wiki/sections/ch13-zkml-provable-machine-learning-research.md
+- [[Algebraic Interactive Proof (AIP) public-coin IP with arithmetic-circuit verifier]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[Bezout's identity for univariate polynomials (uniquenessdisjointness tool)]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[CP-Mirage+ commit-and-prove zkSNARK for AIPs with Pedersen-committed witnesses]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[CirC-compiler implementation, bellmanGroth16 base, Z rollup application]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[Commit-and-Prove SNARK]] - document - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[Conditional uniqueness AIP Pi_c-uniq, V-cost 6A+O(1)]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[Cost claim first volatile RAM proof with V-cost independent of N (up to 32.9% time cut)]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[Cost claim persistent RAM proving time reduced up to 51.3x vs RSAMerkle prior art]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[Cost claim sparse persistent RAM estimated up to 143x constraint reduction]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[I-R1CS interactive rank-1 constraint system arithmetization for AIPs]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[MIRAGE (Kosba et al.) succinct arguments for randomized algorithms MA1]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[Mirage+ zkSNARK compiler from AIP (I-R1CS) to zkSNARK, generalizes Groth16Mirage]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[Ozdemir et al. RSAMerkle set-accumulator RAM (prior state of the art)]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[Persistent RAM AIP (committed initialfinal states)]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[Pi_active active-cell selection via H_r permutation proofs, V-cost 3N+2A+O(1)]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[Punctured disjointness AIP Pi_PuncDisj, V-cost 2C+2A+O(log C)]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[Punctured uniqueness AIP Pi_PuncUniq (gcd has form Xc), V-cost 4C+O(log C)]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[Read-over-write (RoW) validity condition for transcripts]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[Sparse persistent RAM AIP (capacity C, N approx 2256)]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[UniqBez divide-and-conquer Bezout coefficient computation (4.5 A log2 A)]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[Uniqueness AIP Pi_uniq (gcd(z,z')=1 via Bezout), V-cost 4A+O(1)]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[Volatile RAM AIP (zeroed init, uncommitted final)]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[Volatile and Persistent Memory for zkSNARKs via Algebraic Interactive Proofs]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[zkSNARK]] - document - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -30,15 +43,15 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 5 edges to [[_COMMUNITY_Community 1]]
-- 4 edges to [[_COMMUNITY_Community 18]]
-- 2 edges to [[_COMMUNITY_Community 2]]
-- 2 edges to [[_COMMUNITY_Community 14]]
-- 2 edges to [[_COMMUNITY_Community 4]]
+- 3 edges to [[_COMMUNITY_Community 1]]
+- 3 edges to [[_COMMUNITY_Community 26]]
+- 2 edges to [[_COMMUNITY_Community 0]]
+- 2 edges to [[_COMMUNITY_Community 22]]
+- 1 edge to [[_COMMUNITY_Community 20]]
+- 1 edge to [[_COMMUNITY_Community 5]]
 
 ## Top bridge nodes
-- [[ZK Coprocessors Off-Chain Computation, On-Chain Verification (Growth)]] - degree 12, connects to 3 communities
-- [[ZKML Provable Machine Learning (Research)]] - degree 10, connects to 3 communities
-- [[ZKML (Provable Machine Learning)]] - degree 4, connects to 2 communities
-- [[ZK Coprocessors]] - degree 3, connects to 2 communities
-- [[EZKL]] - degree 2, connects to 1 community
+- [[Volatile and Persistent Memory for zkSNARKs via Algebraic Interactive Proofs]] - degree 16, connects to 3 communities
+- [[Volatile RAM AIP (zeroed init, uncommitted final)]] - degree 8, connects to 2 communities
+- [[zkSNARK]] - degree 5, connects to 2 communities
+- [[Pi_active active-cell selection via H_r permutation proofs, V-cost 3N+2A+O(1)]] - degree 2, connects to 1 community

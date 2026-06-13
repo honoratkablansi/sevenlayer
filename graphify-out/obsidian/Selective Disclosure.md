@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch12/ref-41-midnight-developer-guide.md"
 type: "document"
-community: "Community 18"
+community: "Community 30"
 location: "Welcome to Midnight Network"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_18
+  - community/Community_30
 ---
 
 # Selective Disclosure
@@ -17,4 +17,4 @@ tags:
 - [[The Market Landscape]] - `references` [EXTRACTED]
 - [[The Promise of Provable and Programmable Secrets]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_18
+#graphify/document #graphify/EXTRACTED #community/Community_30

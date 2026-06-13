@@ -12,9 +12,10 @@ tags:
 # ARGUZZ: Testing zkVMs for Soundness and Completeness Bugs
 
 ## Connections
-- [[Fault Injection]] - `references` [EXTRACTED]
+- [[ARGUZZ first automated fuzzer for zkVM soundness & completeness bugs (7-step workflow)]] - `introduces` [EXTRACTED]
+- [[Fault Injection]] - `conceptually_related_to` [EXTRACTED]
 - [[Jolt zkVM]] - `references` [EXTRACTED]
-- [[Metamorphic Testing]] - `references` [EXTRACTED]
+- [[Metamorphic Testing]] - `conceptually_related_to` [EXTRACTED]
 - [[Open Questions and the Road Ahead]] - `cites` [EXTRACTED]
 - [[RISC Zero]] - `references` [EXTRACTED]
 - [[SP1  SP1 Hypercube]] - `references` [EXTRACTED]

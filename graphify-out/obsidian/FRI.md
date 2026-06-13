@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/07-the-deep-craft.md"
 type: "document"
-community: "Community 1"
+community: "Community 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_1
+  - community/Community_2
 ---
 
 # FRI
@@ -14,6 +14,7 @@ tags:
 - [[Algebraic Linking Interactive Oracle Proof (ALI)]] - `assumes` [EXTRACTED]
 - [[Authentication Path  Communication Complexity minimization (coset & row subtrees)]] - `conceptually_related_to` [EXTRACTED]
 - [[Choreographing the Act]] - `references` [EXTRACTED]
+- [[Circle FRI low-degree test  IOP of proximity (Protocol 1 & 2)]] - `conceptually_related_to` [EXTRACTED]
 - [[Circle STARKs]] - `implements` [EXTRACTED]
 - [[Circle STARKs_1]] - `conceptually_related_to` [EXTRACTED]
 - [[Circle STARKs and Stwo A Generational Leap]] - `references` [EXTRACTED]
@@ -66,4 +67,4 @@ tags:
 - [[ZKML Provable Machine Learning (Research)]] - `references` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_1
+#graphify/document #graphify/EXTRACTED #community/Community_2

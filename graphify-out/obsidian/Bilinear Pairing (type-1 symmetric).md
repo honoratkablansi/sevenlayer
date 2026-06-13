@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-04-kzg-commitments.pdf"
 type: "paper"
-community: "Community 5"
+community: "Community 18"
 location: "§2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_5
+  - community/Community_18
 ---
 
 # Bilinear Pairing (type-1 symmetric)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[PolyCommitDL Scheme]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_5
+#graphify/paper #graphify/EXTRACTED #community/Community_18

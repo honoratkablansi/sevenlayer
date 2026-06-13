@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-17-nova.pdf"
 type: "paper"
-community: "Community 7"
+community: "Community 21"
 location: "§6, Thm 6, Cor 1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_7
+  - community/Community_21
 ---
 
 # zkSNARK for Committed Relaxed R1CS (adapted Spartan)
@@ -17,4 +17,4 @@ tags:
 - [[Spartan zkSNARK]] - `cites` [EXTRACTED]
 - [[zkSNARK of a Valid IVC Proof (Construction 4)]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_7
+#graphify/paper #graphify/EXTRACTED #community/Community_21

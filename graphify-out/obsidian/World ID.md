@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch13/ref-59-world-whitepaper.pdf"
 type: "document"
-community: "Community 17"
+community: "Community 40"
 location: "page 5"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_17
+  - community/Community_40
 ---
 
 # World ID
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[World Whitepapers (World Network Proof of Human)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_17
+#graphify/document #graphify/EXTRACTED #community/Community_40

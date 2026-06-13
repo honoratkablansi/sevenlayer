@@ -21,6 +21,7 @@ tags:
 - [[Nightstream What a Folding Engine Looks Like from the Inside]] - `references` [EXTRACTED]
 - [[NovaBlindFold folding-based zero-knowledge]] - `conceptually_related_to` [EXTRACTED]
 - [[SNARK Recursion vs. Folding The Full Picture]] - `references` [EXTRACTED]
+- [[Spartan over Jolt's uniform block-diagonal R1CS, streamed via Az,Bz,Cz]] - `conceptually_related_to` [EXTRACTED]
 - [[Sumcheck Protocol]] - `conceptually_related_to` [INFERRED]
 - [[The Constraint System Evolution R1CS, AIR, PLONKish]] - `references` [EXTRACTED]
 - [[The Landscape Table (March 2026)]] - `conceptually_related_to` [EXTRACTED]

@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 6"
+community: "Community 0"
 location: "Chapter 2: Layer 1 -- Building the Stage"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_6
+  - community/Community_0
 ---
 
 # Structured Reference String (SRS)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Layer 1 -- Building the Stage]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_6
+#graphify/document #graphify/EXTRACTED #community/Community_0

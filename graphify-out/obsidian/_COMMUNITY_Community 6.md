@@ -1,56 +1,51 @@
 ---
 type: community
-cohesion: 0.14
-members: 41
+cohesion: 0.08
+members: 36
 ---
 
 # Community 6
 
-**Cohesion:** 0.14 - loosely connected
-**Members:** 41 nodes
+**Cohesion:** 0.08 - loosely connected
+**Members:** 36 nodes
 
 ## Members
-- [[Ariel Gabizon]] - document - wiki/sections/ch02-the-bug-that-was-not-a-ceremony-failure.md
-- [[BN254's Eroding Security Margin]] - document - wiki/sections/ch02-bn254-s-eroding-security-margin.md
-- [[Beanstalk]] - document - wiki/concepts/beanstalk.md
-- [[Completeness]] - document - proving-nothing.md
-- [[Elliptic Curve Cryptography]] - document - proving-nothing.md
-- [[Halo]] - document - wiki/chapters/07-the-deep-craft.md
-- [[How to Read This Guide]] - document - wiki/sections/ch01-how-to-read-this-guide.md
-- [[Interactive Proof Systems_1]] - document - proving-nothing.md
-- [[KZG Polynomial Commitments]] - document - wiki/chapters/02-building-the-stage.md
-- [[Layer 1 -- Building the Stage]] - document - wiki/chapters/02-building-the-stage.md
-- [[Midnight's BLS12-381 Stage]] - document - wiki/sections/ch02-midnight-s-bls12-381-stage.md
-- [[NIST]] - document - wiki/sections/ch01-the-deepest-question.md
-- [[Option-Value Analysis]] - document - wiki/sections/ch02-option-value-analysis.md
-- [[Profiles of the Future (Arthur C. Clarke, 1962)]] - document - references/ch01/ref-01-clarke-profiles-of-the-future.md
-- [[SNARKs_1]] - document - proving-nothing.md
-- [[Seven-Layer ZK Stack Model]] - document - proving-nothing.md
-- [[Sonic]] - document - proving-nothing.md
-- [[Soundness]] - document - proving-nothing.md
-- [[Structured Reference String (SRS)]] - document - proving-nothing.md
-- [[Sudoku running example]] - document - wiki/concepts/sudoku.md
-- [[The 141,416-Person Question]] - document - wiki/sections/ch02-the-141-416-person-question.md
-- [[The ADOPT Framework]] - document - wiki/sections/ch02-the-adopt-framework.md
-- [[The Bug That Was Not a Ceremony Failure]] - document - wiki/sections/ch02-the-bug-that-was-not-a-ceremony-failure.md
-- [[The CapexOpex Framework]] - document - wiki/sections/ch02-the-capex-opex-framework.md
-- [[The Deepest Question]] - document - wiki/sections/ch01-the-deepest-question.md
-- [[The Fair Shuffle Problem]] - document - wiki/sections/ch02-the-fair-shuffle-problem.md
-- [[The First Decision]] - document - wiki/sections/ch01-the-first-decision.md
-- [[The Phenomenon]] - document - wiki/sections/ch01-the-phenomenon.md
-- [[The Promise of Provable and Programmable Secrets]] - document - wiki/chapters/01-the-promise-of-provable-and-programmable-secrets.md
-- [[The Proof at the Door]] - document - wiki/sections/ch01-the-proof-at-the-door.md
-- [[The Quantum Shelf Life]] - document - wiki/sections/ch02-the-quantum-shelf-life.md
-- [[The Setup Tradeoff]] - document - wiki/sections/ch02-the-setup-tradeoff.md
-- [[The Seven Layers at a Glance]] - document - wiki/sections/ch01-the-seven-layers-at-a-glance.md
-- [[The Structured Reference String]] - document - wiki/sections/ch02-the-structured-reference-string.md
-- [[The Trick]] - document - wiki/sections/ch01-the-trick.md
-- [[Three Converging Forces]] - document - wiki/sections/ch01-three-converging-forces.md
-- [[Tornado Cash]] - document - wiki/chapters/03-choreographing-the-act.md
-- [[Toxic Waste (Setup Trapdoor)]] - document - proving-nothing.md
-- [[Trusted Setup Ceremony]] - document - wiki/sections/ch02-two-ways-to-build-a-stage.md
-- [[Two Ways to Build a Stage]] - document - wiki/sections/ch02-two-ways-to-build-a-stage.md
-- [[Universal versus Circuit-Specific Setups]] - document - wiki/sections/ch02-universal-versus-circuit-specific-setups.md
+- [[2-Field-Element NILP via Squaring Gates]] - paper - references/ch02/ref-06-groth16.pdf
+- [[3-Element Pairing-based SNARK for Arithmetic Circuit SAT]] - paper - references/ch02/ref-06-groth16.pdf
+- [[Algorithms for Quantum Computation Discrete Logarithms and Factoring]] - paper - references/ch07/ref-24-shor.pdf
+- [[Barreto-Naehrig Curves]] - document - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[Bilinear Pairings]] - document - references/ch02/ref-06-groth16.pdf
+- [[Bitansky-Chiesa-Ishai-Ostrovsky-Paneth SNARKs via Linear Interactive Proofs (BCI+13)]] - paper - references/ch02/ref-06-groth16.pdf
+- [[Comparing the Pairing Efficiency over Composite-Order and Prime-Order Elliptic Curves]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[Composite-Order Bilinear Groups]] - document - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[Danezis-Fournet-Groth-Kohlweiss Square Span Programs (DFGK14)]] - paper - references/ch02/ref-06-groth16.pdf
+- [[Disclosure-free Common Reference String]] - paper - references/ch02/ref-06-groth16.pdf
+- [[Discrete Logarithm Problem]] - paper - references/ch07/ref-24-shor.pdf
+- [[Extended Tower Number Field Sieve A New Complexity for the Medium Prime Case]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[Generic (Bilinear) Group Model]] - paper - references/ch02/ref-06-groth16.pdf
+- [[Gennaro-Gentry-Parno-Raykova QSPQAP and Succinct NIZKs (GGPR13)]] - paper - references/ch02/ref-06-groth16.pdf
+- [[Gentry-Wichs SNARGs Need Non-falsifiable Assumptions (GW11)]] - paper - references/ch02/ref-06-groth16.pdf
+- [[Lemma 2.1 a(X2)=a(X)2 iff a is a monomial]] - paper - references/ch02/ref-11-latticefold-plus.pdf
+- [[Linear Interactive Proof (LIP)]] - paper - references/ch02/ref-06-groth16.pdf
+- [[Monomial Set Check Pi_mon]] - paper - references/ch02/ref-11-latticefold-plus.pdf
+- [[Non-interactive Linear Proof (NILP) for Quadratic Arithmetic Programs]] - paper - references/ch02/ref-06-groth16.pdf
+- [[Number Field Sieve]] - document - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[On the Size of Pairing-Based Non-interactive Arguments]] - paper - references/ch02/ref-06-groth16.pdf
+- [[Parno-Howell-Gentry-Raykova Pinocchio (PHGR13)]] - paper - references/ch02/ref-06-groth16.pdf
+- [[Peter W. Shor]] - paper - references/ch07/ref-24-shor.pdf
+- [[Quadratic Arithmetic Programs]] - document - references/ch02/ref-06-groth16.pdf
+- [[Quantum Computing]] - paper - references/ch07/ref-24-shor.pdf
+- [[RSA Cryptosystem]] - paper - references/ch07/ref-24-shor.pdf
+- [[Relation Generator with Hard Decisional Problems]] - paper - references/ch02/ref-06-groth16.pdf
+- [[Schwartz-Zippel Lemma_1]] - paper - references/ch02/ref-06-groth16.pdf
+- [[Shor's Algorithm]] - paper - references/ch07/ref-24-shor.pdf
+- [[Shoup Lower Bounds for Discrete Logarithms (Generic Group Model) (Sho97)]] - paper - references/ch02/ref-06-groth16.pdf
+- [[Single Pairing-Product Verification Equation (3 pairings)]] - paper - references/ch02/ref-06-groth16.pdf
+- [[Split-NILP to Pairing-based NIZK Compiler]] - paper - references/ch02/ref-06-groth16.pdf
+- [[Theorem 2 Perfect ZK NIZK with Generic-Group Knowledge Soundness]] - paper - references/ch02/ref-06-groth16.pdf
+- [[Theorem 3 No NILP Has a Degree-1 (Linear) Verifier]] - paper - references/ch02/ref-06-groth16.pdf
+- [[Theorem 4 Pairing-based Arguments Need Elements in Both G1 and G2]] - paper - references/ch02/ref-06-groth16.pdf
+- [[Type III Asymmetric Bilinear Group]] - paper - references/ch02/ref-06-groth16.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -60,26 +55,19 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 67 edges to [[_COMMUNITY_Community 0]]
-- 59 edges to [[_COMMUNITY_Community 1]]
-- 39 edges to [[_COMMUNITY_Community 2]]
-- 30 edges to [[_COMMUNITY_Community 4]]
-- 12 edges to [[_COMMUNITY_Community 3]]
-- 7 edges to [[_COMMUNITY_Community 5]]
-- 5 edges to [[_COMMUNITY_Community 18]]
-- 2 edges to [[_COMMUNITY_Community 16]]
-- 2 edges to [[_COMMUNITY_Community 19]]
-- 2 edges to [[_COMMUNITY_Community 14]]
-- 1 edge to [[_COMMUNITY_Community 20]]
-- 1 edge to [[_COMMUNITY_Community 17]]
-- 1 edge to [[_COMMUNITY_Community 7]]
-- 1 edge to [[_COMMUNITY_Community 11]]
-- 1 edge to [[_COMMUNITY_Community 12]]
-- 1 edge to [[_COMMUNITY_Community 9]]
+- 11 edges to [[_COMMUNITY_Community 0]]
+- 3 edges to [[_COMMUNITY_Community 9]]
+- 3 edges to [[_COMMUNITY_Community 8]]
+- 3 edges to [[_COMMUNITY_Community 1]]
+- 2 edges to [[_COMMUNITY_Community 37]]
+- 2 edges to [[_COMMUNITY_Community 47]]
+- 1 edge to [[_COMMUNITY_Community 2]]
+- 1 edge to [[_COMMUNITY_Community 18]]
+- 1 edge to [[_COMMUNITY_Community 29]]
 
 ## Top bridge nodes
-- [[Layer 1 -- Building the Stage]] - degree 56, connects to 11 communities
-- [[The Promise of Provable and Programmable Secrets]] - degree 49, connects to 9 communities
-- [[Tornado Cash]] - degree 20, connects to 9 communities
-- [[KZG Polynomial Commitments]] - degree 57, connects to 6 communities
-- [[Beanstalk]] - degree 9, connects to 5 communities
+- [[On the Size of Pairing-Based Non-interactive Arguments]] - degree 24, connects to 4 communities
+- [[Quadratic Arithmetic Programs]] - degree 8, connects to 3 communities
+- [[Extended Tower Number Field Sieve A New Complexity for the Medium Prime Case]] - degree 6, connects to 3 communities
+- [[3-Element Pairing-based SNARK for Arithmetic Circuit SAT]] - degree 10, connects to 2 communities
+- [[Algorithms for Quantum Computation Discrete Logarithms and Factoring]] - degree 7, connects to 2 communities

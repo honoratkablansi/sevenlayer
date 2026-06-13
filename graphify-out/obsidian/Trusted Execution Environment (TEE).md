@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/09-privacy-enhancing-technologies.md"
 type: "document"
-community: "Community 9"
+community: "Community 3"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_9
+  - community/Community_3
 ---
 
 # Trusted Execution Environment (TEE)
@@ -16,4 +16,4 @@ tags:
 - [[The Secret Performance]] - `references` [EXTRACTED]
 - [[Three Kinds of Security]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_9
+#graphify/document #graphify/EXTRACTED #community/Community_3

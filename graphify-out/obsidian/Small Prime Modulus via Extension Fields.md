@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-20-latticefold.pdf"
 type: "paper"
-community: "Community 8"
+community: "Community 17"
 location: "§3.3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_8
+  - community/Community_17
 ---
 
 # Small Prime Modulus via Extension Fields
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Expansion-Decomposition-Folding Pipeline (Pi_mfold)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_8
+#graphify/paper #graphify/EXTRACTED #community/Community_17

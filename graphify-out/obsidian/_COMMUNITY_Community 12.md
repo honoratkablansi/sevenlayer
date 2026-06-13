@@ -1,42 +1,41 @@
 ---
 type: community
-cohesion: 0.11
-members: 27
+cohesion: 0.12
+members: 26
 ---
 
 # Community 12
 
-**Cohesion:** 0.11 - loosely connected
-**Members:** 27 nodes
+**Cohesion:** 0.12 - loosely connected
+**Members:** 26 nodes
 
 ## Members
-- [[Aggregated Range Proof for m Values]] - paper - references/ch02/ref-09-bulletproofs.pdf
-- [[Bootle et al. (BCC+16) Inner-Product Argument]] - paper - references/ch02/ref-09-bulletproofs.pdf
-- [[Bulletproofs NIZK Argument System]] - paper - references/ch02/ref-09-bulletproofs.pdf
-- [[Bulletproofs Short Proofs for Confidential Transactions and More]] - paper - references/ch02/ref-09-bulletproofs.pdf
-- [[Confidential Transactions (CT)]] - paper - references/ch02/ref-09-bulletproofs.pdf
-- [[Discrete Log Relation Assumption]] - paper - references/ch02/ref-09-bulletproofs.pdf
-- [[Discrete Logarithm Assumption]] - document - references/ch02/ref-09-bulletproofs.pdf
-- [[Fiat-Shamir Heuristic]] - paper - references/ch02/ref-09-bulletproofs.pdf
-- [[Improved Inner-Product Argument (2 log2 n)]] - paper - references/ch02/ref-09-bulletproofs.pdf
-- [[Inner-Product Argument]] - document - references/ch02/ref-09-bulletproofs.pdf
-- [[Logarithmic Proof Size Claim (2 log2(nm)+4 elements)]] - paper - references/ch02/ref-09-bulletproofs.pdf
-- [[Logarithmic-Size Range Proof]] - paper - references/ch02/ref-09-bulletproofs.pdf
-- [[MPC Protocol for Distributed Bulletproof Generation]] - paper - references/ch02/ref-09-bulletproofs.pdf
-- [[Mimblewimble]] - paper - references/ch02/ref-09-bulletproofs.pdf
-- [[Pedersen Vector Commitment]] - paper - references/ch02/ref-09-bulletproofs.pdf
-- [[Pinocchio Arithmetic Circuit Format]] - paper - references/ch02/ref-09-bulletproofs.pdf
-- [[Provisions Proof of Solvency]] - paper - references/ch02/ref-09-bulletproofs.pdf
-- [[Range Proof]] - document - references/ch02/ref-09-bulletproofs.pdf
-- [[SNARKs with Trusted Setup]] - paper - references/ch02/ref-09-bulletproofs.pdf
-- [[Single Multi-Exponentiation Verifier & Batch Verification]] - paper - references/ch02/ref-09-bulletproofs.pdf
-- [[Switch to Quantum-Secure Range Proofs (ElGamal)]] - paper - references/ch02/ref-09-bulletproofs.pdf
-- [[Theorem 1 Inner-Product Argument Security]] - paper - references/ch02/ref-09-bulletproofs.pdf
-- [[Theorem 3 Aggregate Range Proof Security]] - paper - references/ch02/ref-09-bulletproofs.pdf
-- [[Theorem 5 Arithmetic Circuit Protocol Soundness]] - paper - references/ch02/ref-09-bulletproofs.pdf
-- [[Witness-Extended Emulation (Knowledge Soundness)]] - paper - references/ch02/ref-09-bulletproofs.pdf
-- [[Zero-Knowledge Argument of Knowledge]] - paper - references/ch02/ref-09-bulletproofs.pdf
-- [[Zero-Knowledge Proof for Arithmetic Circuits (Protocol 3)]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[ARGUZZ first automated fuzzer for zkVM soundness & completeness bugs (7-step workflow)]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[CIRCIL extended with inline-RISC-V-assembly custom functions (e.g. mulhsu) + circuit-to-Rust translation]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[CIRCUZZ 23 metamorphic fuzzer for ZK pipelines (CIRCOMGNARKNOIR) via CIRCIL]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Completeness]] - document - proving-nothing.md
+- [[Dory transparent polynomial commitment scheme (log-round, sqrt-space prover)]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Efficient metamorphic-testing variant known expected output, k-safety, single padded trace]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Evaluation across 6 RISC-V zkVMs; 11 bugs (3 soundness FI, 8 completeness MT) in 3 of them]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[FUZZTRUCTION  FUZZTRUCTION-NET 10,11 fault-injection-based fuzzing]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Fair fault-injection scheduler (uniform RISC-V instruction coverage via least-injected selection)]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Fault Injection]] - document - references/ch14/ref-61-arguzz.pdf
+- [[INSTR_WORD_MOD instruction-modification injection (universal; triggered all 3 soundness bugs)]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Injection-type taxonomy (PC mod, ALU resultoperand, memreg mod, DIVREM flips, ecall id, branch invert)]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[JOLT bug6 (soundness) unconstrained immediate operand in lui instruction]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[MTZK 43 metamorphic testing of zero-knowledge compilers]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Malicious-prover fault injection into VM execution logic (verifier-only-trusted threat model)]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Metamorphic Testing]] - document - references/ch14/ref-61-arguzz.pdf
+- [[NEXUS bug3 (soundness) unconstrained store-value lower bits in swshsb load-store]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Product programs  hyperproperty (k-safety) reasoning 12,13,20,41]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Product-program metamorphic oracle merge k equivalent Rust fns; SUCCESS (0xC0FFEE) vs OOPS (0x0)]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[RISC ZERO bug1 (soundness) missing constraint on 3-register insns (remudivu); $50,000 bounty]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[RISC-V CPU fuzzers 25,29,40,44 (DifuzzRTL, TheHuzz, Cascade, MorFuzz)]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Ripple-effect fault propagation (fault at one instruction cascades along data dependencies)]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Rust 1.80 miscompilation by-product bug (boolean expr; both soundness & completeness)]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Semantics-preserving rewrite rules (commassocdistribDe Morgan; field-arith rules disabled)]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Soundness]] - document - proving-nothing.md
+- [[Soundness-bug detection criterion output flips SUCCESS-OOPS yet verifier accepts proof]] - paper - references/ch14/ref-61-arguzz.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -46,16 +45,13 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 7 edges to [[_COMMUNITY_Community 0]]
-- 3 edges to [[_COMMUNITY_Community 4]]
-- 1 edge to [[_COMMUNITY_Community 6]]
-- 1 edge to [[_COMMUNITY_Community 3]]
-- 1 edge to [[_COMMUNITY_Community 9]]
-- 1 edge to [[_COMMUNITY_Community 11]]
+- 7 edges to [[_COMMUNITY_Community 1]]
+- 2 edges to [[_COMMUNITY_Community 0]]
+- 1 edge to [[_COMMUNITY_Community 33]]
 
 ## Top bridge nodes
-- [[Bulletproofs Short Proofs for Confidential Transactions and More]] - degree 12, connects to 6 communities
-- [[Discrete Logarithm Assumption]] - degree 7, connects to 1 community
-- [[Range Proof]] - degree 7, connects to 1 community
-- [[Logarithmic-Size Range Proof]] - degree 5, connects to 1 community
-- [[Pedersen Vector Commitment]] - degree 2, connects to 1 community
+- [[Soundness]] - degree 6, connects to 2 communities
+- [[Completeness]] - degree 4, connects to 2 communities
+- [[Dory transparent polynomial commitment scheme (log-round, sqrt-space prover)]] - degree 3, connects to 2 communities
+- [[ARGUZZ first automated fuzzer for zkVM soundness & completeness bugs (7-step workflow)]] - degree 13, connects to 1 community
+- [[Fault Injection]] - degree 4, connects to 1 community

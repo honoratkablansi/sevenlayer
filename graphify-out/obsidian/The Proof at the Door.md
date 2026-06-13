@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch01-the-proof-at-the-door.md"
 type: "document"
-community: "Community 6"
+community: "Community 0"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_6
+  - community/Community_0
 ---
 
 # The Proof at the Door
@@ -16,4 +16,4 @@ tags:
 - [[The Trick]] - `references` [EXTRACTED]
 - [[Three Converging Forces]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_6
+#graphify/document #graphify/EXTRACTED #community/Community_0

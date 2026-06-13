@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-06-groth16.pdf"
 type: "document"
-community: "Community 3"
+community: "Community 6"
 location: "Abstract"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_3
+  - community/Community_6
 ---
 
 # Bilinear Pairings
@@ -20,4 +20,4 @@ tags:
 - [[Single Pairing-Product Verification Equation (3 pairings)]] - `assumes` [EXTRACTED]
 - [[Split-NILP to Pairing-based NIZK Compiler]] - `assumes` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_3
+#graphify/document #graphify/EXTRACTED #community/Community_6

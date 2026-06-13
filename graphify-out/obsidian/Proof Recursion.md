@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/06-the-sealed-certificate.md"
 type: "document"
-community: "Community 0"
+community: "Community 9"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Community_9
 ---
 
 # Proof Recursion
@@ -25,4 +25,4 @@ tags:
 - [[The Structural Advantage of Lattices]] - `references` [EXTRACTED]
 - [[The Synthesis -- Three Paths, Not Two]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/document #graphify/EXTRACTED #community/Community_9

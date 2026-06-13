@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch03/ref-16-jolt.pdf"
 type: "paper"
-community: "Community 13"
+community: "Community 19"
 location: "§7, Appendix B.3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_13
+  - community/Community_19
 ---
 
 # Spice-based memory-checking optimized with Lasso (max via lookup)
@@ -16,4 +16,4 @@ tags:
 - [[Lemma 2 RS and WS are permutations iff every read returns last-written (value,count)]] - `assumes` [EXTRACTED]
 - [[Offline memory checking]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_13
+#graphify/paper #graphify/EXTRACTED #community/Community_19

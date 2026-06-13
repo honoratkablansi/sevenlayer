@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/09-privacy-enhancing-technologies.md"
 type: "document"
-community: "Community 9"
+community: "Community 3"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_9
+  - community/Community_3
 ---
 
 # Secure Multi-Party Computation (MPC)
@@ -13,6 +13,7 @@ tags:
 ## Connections
 - [[Bulletproofs Short Proofs for Confidential Transactions and More]] - `conceptually_related_to` [EXTRACTED]
 - [[CirC Compiler Infrastructure for Proof Systems, Software Verification, and More]] - `conceptually_related_to` [EXTRACTED]
+- [[CirC shared compiler infrastructure for EQCs]] - `cites` [EXTRACTED]
 - [[Composability When One PET Is Not Enough]] - `references` [EXTRACTED]
 - [[On-Chain Verification in 2026]] - `references` [EXTRACTED]
 - [[Open Problems]] - `references` [EXTRACTED]
@@ -27,4 +28,4 @@ tags:
 - [[The Incomplete Stack]] - `conceptually_related_to` [EXTRACTED]
 - [[Three Kinds of Security]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_9
+#graphify/document #graphify/EXTRACTED #community/Community_3

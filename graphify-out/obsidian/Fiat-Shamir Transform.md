@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/01-the-promise-of-provable-and-programmable-secrets.md"
 type: "document"
-community: "Community 4"
+community: "Community 0"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_4
+  - community/Community_0
 ---
 
 # Fiat-Shamir Transform
@@ -15,12 +15,14 @@ tags:
 - [[Algebraic vs Traditional Hash Functions]] - `references` [EXTRACTED]
 - [[Bulletproofs Short Proofs for Confidential Transactions and More]] - `conceptually_related_to` [EXTRACTED]
 - [[Encoding the Performance]] - `references` [EXTRACTED]
+- [[FS-GKR Fiat-Shamir attacks (KRS25) motivating recursion avoidance]] - `conceptually_related_to` [EXTRACTED]
 - [[Fiat-Shamir Vulnerabilities]] - `defines` [EXTRACTED]
 - [[From Speed Race to Security Race]] - `references` [EXTRACTED]
 - [[Frozen Heart Vulnerability]] - `conceptually_related_to` [EXTRACTED]
 - [[Frozen Heart Forgery of Zero Knowledge Proofs (Trail of Bits, 2022)]] - `references` [EXTRACTED]
 - [[Glossary of Key Terms]] - `defines` [EXTRACTED]
 - [[Governance The Achilles Heel]] - `references` [EXTRACTED]
+- [[Greyhound polynomial commitment scheme]] - `assumes` [EXTRACTED]
 - [[Greyhound Fast Polynomial Commitments from Lattices]] - `references` [EXTRACTED]
 - [[Layer 5 -- The Sealed Certificate]] - `references` [EXTRACTED]
 - [[Layer 6 -- The Deep Craft]] - `references` [EXTRACTED]
@@ -30,7 +32,9 @@ tags:
 - [[On-Chain Verification in 2026]] - `references` [EXTRACTED]
 - [[Open Questions and the Road Ahead]] - `references` [EXTRACTED]
 - [[Protostar Generic Efficient AccumulationFolding for Special-sound Protocols]] - `conceptually_related_to` [EXTRACTED]
+- [[RO-NARK FScmPi_sps from Special-Sound Protocol]] - `assumes` [EXTRACTED]
 - [[Sealing the Certificate]] - `references` [EXTRACTED]
+- [[Sonic zk-SNARK (universal & updatable linear-size SRS)]] - `assumes` [EXTRACTED]
 - [[Symphony Scalable SNARKs in the Random Oracle Model from Lattice-Based High-Arity Folding]] - `references` [EXTRACTED]
 - [[The Deepest Question]] - `conceptually_related_to` [EXTRACTED]
 - [[The Market Landscape]] - `references` [EXTRACTED]
@@ -43,9 +47,10 @@ tags:
 - [[The Sumcheck Protocol The Hidden Foundation]] - `references` [EXTRACTED]
 - [[The Synthesis -- Three Paths, Not Two]] - `references` [EXTRACTED]
 - [[The Three Frontiers]] - `references` [EXTRACTED]
+- [[Theorem 3 family of preprocessing SNARKs for CCS via PIOP + sparse poly commitment + Fiat-Shamir]] - `assumes` [EXTRACTED]
 - [[Three Hardness Assumptions, Three Worlds]] - `references` [EXTRACTED]
 - [[Trust Decomposition Seven Weaker Assumptions]] - `conceptually_related_to` [EXTRACTED]
 - [[When the Transcript Lies Fiat-Shamir Vulnerabilities]] - `references` [EXTRACTED]
 - [[ZK Rollups The Proving Grounds (Production)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_4
+#graphify/document #graphify/EXTRACTED #community/Community_0

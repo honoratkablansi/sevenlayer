@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-09-bulletproofs.pdf"
 type: "paper"
-community: "Community 12"
+community: "Community 7"
 location: "§4.5"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_12
+  - community/Community_7
 ---
 
 # MPC Protocol for Distributed Bulletproof Generation
@@ -15,4 +15,4 @@ tags:
 - [[Aggregated Range Proof for m Values]] - `shares_data_with` [EXTRACTED]
 - [[Pedersen Commitments]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_12
+#graphify/paper #graphify/EXTRACTED #community/Community_7

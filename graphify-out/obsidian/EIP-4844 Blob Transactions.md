@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch08-the-price-of-a-verdict.md"
 type: "document"
-community: "Community 4"
+community: "Community 0"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_4
+  - community/Community_0
 ---
 
 # EIP-4844 Blob Transactions
@@ -14,4 +14,4 @@ tags:
 - [[Layer 7 -- The Verdict]] - `references` [EXTRACTED]
 - [[The Price of a Verdict]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_4
+#graphify/document #graphify/EXTRACTED #community/Community_0

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-17-nova.pdf"
 type: "document"
-community: "Community 0"
+community: "Community 9"
 location: "abstract"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Community_9
 ---
 
 # Cycles of Elliptic Curves
@@ -18,4 +18,4 @@ tags:
 - [[Pasta Cycle of Elliptic Curves]] - `conceptually_related_to` [EXTRACTED]
 - [[Recursive Proof Composition]] - `assumes` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/document #graphify/EXTRACTED #community/Community_9

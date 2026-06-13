@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch10/ref-55-zkevm-security-foundations.md"
 type: "document"
-community: "Community 16"
+community: "Community 42"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_16
+  - community/Community_42
 ---
 
 # Shipping an L1 zkEVM #2: The Security Foundations (Ethereum Foundation)
@@ -23,4 +23,4 @@ tags:
 - [[zkEVM]] - `references` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_16
+#graphify/document #graphify/EXTRACTED #community/Community_42

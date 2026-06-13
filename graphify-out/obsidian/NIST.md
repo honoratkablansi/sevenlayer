@@ -1,12 +1,12 @@
 ---
 source_file: "wiki/sections/ch01-the-deepest-question.md"
 type: "document"
-community: "Community 6"
+community: "Community 0"
 location: "Entities"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_6
+  - community/Community_0
 ---
 
 # NIST
@@ -19,4 +19,4 @@ tags:
 - [[The Deepest Question]] - `conceptually_related_to` [EXTRACTED]
 - [[The Quantum Shelf Life]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_6
+#graphify/document #graphify/EXTRACTED #community/Community_0

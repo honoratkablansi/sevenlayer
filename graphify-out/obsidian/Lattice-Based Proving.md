@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch07-lattice-based-proving.md"
 type: "document"
-community: "Community 0"
+community: "Community 8"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Community_8
 ---
 
 # Lattice-Based Proving
@@ -35,4 +35,4 @@ tags:
 - [[The Trilemma -- And Its Dissolution]] - `references` [EXTRACTED]
 - [[Three Hardness Assumptions, Three Worlds]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/document #graphify/EXTRACTED #community/Community_8

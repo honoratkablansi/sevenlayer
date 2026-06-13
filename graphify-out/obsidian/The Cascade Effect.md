@@ -1,12 +1,12 @@
 ---
 source_file: "wiki/sections/ch07-the-cascade-effect.md"
 type: "document"
-community: "Community 0"
+community: "Community 8"
 location: "The Cascade Effect"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Community_8
 ---
 
 # The Cascade Effect
@@ -31,4 +31,4 @@ tags:
 - [[The One-Way Door]] - `references` [EXTRACTED]
 - [[Zcash]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/document #graphify/EXTRACTED #community/Community_8

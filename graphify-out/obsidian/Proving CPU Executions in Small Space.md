@@ -14,10 +14,12 @@ tags:
 ## Connections
 - [[Folding Schemes]] - `references` [EXTRACTED]
 - [[Jolt zkVM]] - `references` [EXTRACTED]
-- [[Justin Thaler]] - `conceptually_related_to` [EXTRACTED]
+- [[Justin Thaler]] - `cites` [EXTRACTED]
 - [[Lasso]] - `references` [EXTRACTED]
 - [[Open Questions and the Road Ahead]] - `cites` [EXTRACTED]
+- [[Prefix-suffix inner product sum-check protocol (streaming, linear-time)]] - `introduces` [EXTRACTED]
 - [[Proof Recursion]] - `references` [EXTRACTED]
+- [[Small-space Jolt prover (sublinear-space zkVM proving without recursion)]] - `introduces` [EXTRACTED]
 - [[Sumcheck Protocol]] - `references` [EXTRACTED]
 - [[The Secret Performance]] - `cites` [EXTRACTED]
 - [[Twist and Shout Memory-Checking Arguments]] - `references` [EXTRACTED]

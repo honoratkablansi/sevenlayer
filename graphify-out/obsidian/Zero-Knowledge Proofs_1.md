@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch01/ref-02-gmr-knowledge-complexity.pdf"
 type: "document"
-community: "Community 3"
+community: "Community 0"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_3
+  - community/Community_0
 ---
 
 # Zero-Knowledge Proofs
@@ -17,4 +17,4 @@ tags:
 - [[The Knowledge Complexity of Interactive Proof Systems]] - `defines` [INFERRED]
 - [[The Promise of Provable and Programmable Secrets]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_3
+#graphify/document #graphify/EXTRACTED #community/Community_0

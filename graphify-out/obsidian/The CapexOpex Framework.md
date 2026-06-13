@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch02-the-capex-opex-framework.md"
 type: "document"
-community: "Community 6"
+community: "Community 0"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_6
+  - community/Community_0
 ---
 
 # The Capex/Opex Framework
@@ -25,4 +25,4 @@ tags:
 - [[Where Midnight Validates the Model]] - `references` [EXTRACTED]
 - [[ZisK]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_6
+#graphify/document #graphify/EXTRACTED #community/Community_0

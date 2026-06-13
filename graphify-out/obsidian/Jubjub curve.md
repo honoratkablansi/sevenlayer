@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/concepts/jubjub.md"
 type: "document"
-community: "Community 0"
+community: "Community 5"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Community_5
 ---
 
 # Jubjub curve
@@ -18,4 +18,4 @@ tags:
 - [[Layer 6 -- The Deep Craft]] - `references` [EXTRACTED]
 - [[Midnight -- The Privacy Theater]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/document #graphify/EXTRACTED #community/Community_5

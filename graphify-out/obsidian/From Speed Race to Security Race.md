@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch06-from-speed-race-to-security-race.md"
 type: "document"
-community: "Community 4"
+community: "Community 9"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_4
+  - community/Community_9
 ---
 
 # From Speed Race to Security Race
@@ -20,4 +20,4 @@ tags:
 - [[The Post-Quantum Horizon]] - `references` [EXTRACTED]
 - [[The Sealed Certificate (Chapter Closing)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_4
+#graphify/document #graphify/EXTRACTED #community/Community_9

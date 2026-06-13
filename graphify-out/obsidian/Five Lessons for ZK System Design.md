@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch12-five-lessons-for-zk-system-design.md"
 type: "document"
-community: "Community 2"
+community: "Community 5"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_2
+  - community/Community_5
 ---
 
 # Five Lessons for ZK System Design
@@ -19,4 +19,4 @@ tags:
 - [[Midnight -- The Privacy Theater]] - `part_of` [EXTRACTED]
 - [[ZKIR (Midnight Intermediate Representation)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_2
+#graphify/document #graphify/EXTRACTED #community/Community_5

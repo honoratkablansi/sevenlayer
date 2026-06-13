@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch10-path-three-post-quantum-folding.md"
 type: "document"
-community: "Community 0"
+community: "Community 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Community_2
 ---
 
 # Path Three: Post-Quantum Folding
@@ -22,4 +22,4 @@ tags:
 - [[The Synthesis -- Three Paths, Not Two]] - `part_of` [EXTRACTED]
 - [[The Three-Path Table]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/document #graphify/EXTRACTED #community/Community_2

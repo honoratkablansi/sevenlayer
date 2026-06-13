@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/08-the-verdict.md"
 type: "document"
-community: "Community 4"
+community: "Community 0"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_4
+  - community/Community_0
 ---
 
 # Proof Aggregation
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[Layer 7 -- The Verdict]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_4
+#graphify/document #graphify/EXTRACTED #community/Community_0

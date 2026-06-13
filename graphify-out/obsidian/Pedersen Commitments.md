@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch07-case-study-midnight.md"
 type: "document"
-community: "Community 0"
+community: "Community 7"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Community_7
 ---
 
 # Pedersen Commitments
@@ -25,4 +25,4 @@ tags:
 - [[Single-MSM prover cost (size = variables)]] - `assumes` [EXTRACTED]
 - [[SoK Trusted Setups for Powers-of-Tau Strings]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/document #graphify/EXTRACTED #community/Community_7

@@ -1,12 +1,12 @@
 ---
 source_file: "wiki/sections/ch08-the-social-layer.md"
 type: "document"
-community: "Community 4"
+community: "Community 0"
 location: "The Social Layer"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_4
+  - community/Community_0
 ---
 
 # The Social Layer
@@ -23,4 +23,4 @@ tags:
 - [[The Price of a Verdict]] - `references` [EXTRACTED]
 - [[When the Transcript Lies Fiat-Shamir Vulnerabilities]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_4
+#graphify/document #graphify/EXTRACTED #community/Community_0

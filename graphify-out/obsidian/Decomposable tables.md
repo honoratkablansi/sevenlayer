@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch03/ref-16-jolt.pdf"
 type: "paper"
-community: "Community 13"
+community: "Community 19"
 location: "§1.2, Def 2.6"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_13
+  - community/Community_19
 ---
 
 # Decomposable tables
@@ -18,4 +18,4 @@ tags:
 - [[MLE-structured tables]] - `conceptually_related_to` [EXTRACTED]
 - [[Single giant 2128 RISC-V lookup table T_risc-vopcodexy]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_13
+#graphify/paper #graphify/EXTRACTED #community/Community_19

@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch13-zk-rollups-the-proving-grounds-production.md"
 type: "document"
-community: "Community 20"
+community: "Community 38"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_20
+  - community/Community_38
 ---
 
 # ZK Rollups
@@ -21,4 +21,4 @@ tags:
 - [[ZK Proofs Is Privacy Cheap Enough to Be Mainstream (Castle Labs)]] - `references` [EXTRACTED]
 - [[ZK Rollups The Proving Grounds (Production)]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_20
+#graphify/document #graphify/EXTRACTED #community/Community_38

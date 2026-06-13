@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch09/ref-30-kachina.pdf"
 type: "paper"
-community: "Community 3"
+community: "Community 38"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_3
+  - community/Community_38
 ---
 
 # Kachina -- Foundations of Private Smart Contracts
@@ -20,4 +20,4 @@ tags:
 - [[Universal Composability (UC)]] - `conceptually_related_to` [EXTRACTED]
 - [[Zerocash]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_3
+#graphify/paper #graphify/EXTRACTED #community/Community_38

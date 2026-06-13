@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/03-choreographing-the-act.md"
 type: "document"
-community: "Community 2"
+community: "Community 0"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_2
+  - community/Community_0
 ---
 
 # Under-Constrained Circuits
@@ -14,4 +14,4 @@ tags:
 - [[Choreographing the Act]] - `references` [EXTRACTED]
 - [[The Promise of Provable and Programmable Secrets]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_2
+#graphify/document #graphify/EXTRACTED #community/Community_0

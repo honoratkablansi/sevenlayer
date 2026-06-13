@@ -1,20 +1,32 @@
 ---
 type: community
-cohesion: 0.40
-members: 5
+cohesion: 0.19
+members: 17
 ---
 
 # Community 20
 
-**Cohesion:** 0.40 - moderately connected
-**Members:** 5 nodes
+**Cohesion:** 0.19 - loosely connected
+**Members:** 17 nodes
 
 ## Members
-- [[Ethereum]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Optimistic Rollups]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Transaction Fee Mechanisms (TFM)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Unaligned Incentives Pricing Attacks Against Blockchain Rollups]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[ZK Rollups_1]] - document - wiki/sections/ch13-zk-rollups-the-proving-grounds-production.md
+- [[BASIS_struct Assumption (structured lattice assumption of WW23; implies l-succinct SIS)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[CRS Efficiency Claim l{d+1} CRS for degree-d polynomials (reduces ACL+22 exponent from 2d to d+1; l3 for quadratics vs l4l5)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Construction 3.19 Dual Functional Commitment for Bounded-Depth Boolean Circuits]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Construction 3.2 Functional Commitment for Constant-Degree Polynomials]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Construction 3.9 Multi-Output Functional Commitment for Constant-Degree Polynomials]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Dual Functional Commitment (commit to function f, open at input x)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Evasive LWE Assumption (implies l-succinct SIS plus LWE)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Fast Verification in the Preprocessing Model (sublinear verifier after functioninput preprocessing)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Functional Commitment]] - document - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[GSW  BGG+14 Lattice Homomorphic Evaluation Machinery]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Inhomogeneous SIS Assumption]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[KLVW23 RAM-Delegation-Based FC for All Circuits (LWE, transparent, non-black-box)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Lattice-Based Functional Commitments Fast Verification and Cryptanalysis]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Short Integer Solutions (SIS) Assumption]] - document - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Theorem 3.22 Selective-Input Binding of Dual FC under l-succinct SIS]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Theorem 3.6 Computational Binding of Construction 3.2 under l-succinct SIS]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[l-Succinct SIS Assumption (falsifiable q-type generalization of SIS, trapdoor for I_l ⊗ A  W)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -24,15 +36,17 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 3 edges to [[_COMMUNITY_Community 4]]
-- 2 edges to [[_COMMUNITY_Community 1]]
-- 1 edge to [[_COMMUNITY_Community 6]]
-- 1 edge to [[_COMMUNITY_Community 18]]
-- 1 edge to [[_COMMUNITY_Community 3]]
-- 1 edge to [[_COMMUNITY_Community 14]]
-- 1 edge to [[_COMMUNITY_Community 19]]
-- 1 edge to [[_COMMUNITY_Community 16]]
+- 5 edges to [[_COMMUNITY_Community 14]]
+- 5 edges to [[_COMMUNITY_Community 45]]
+- 2 edges to [[_COMMUNITY_Community 0]]
+- 2 edges to [[_COMMUNITY_Community 11]]
+- 1 edge to [[_COMMUNITY_Community 8]]
+- 1 edge to [[_COMMUNITY_Community 15]]
+- 1 edge to [[_COMMUNITY_Community 4]]
 
 ## Top bridge nodes
-- [[ZK Rollups_1]] - degree 9, connects to 7 communities
-- [[Unaligned Incentives Pricing Attacks Against Blockchain Rollups]] - degree 7, connects to 2 communities
+- [[Lattice-Based Functional Commitments Fast Verification and Cryptanalysis]] - degree 14, connects to 5 communities
+- [[Construction 3.2 Functional Commitment for Constant-Degree Polynomials]] - degree 10, connects to 3 communities
+- [[Functional Commitment]] - degree 7, connects to 2 communities
+- [[Short Integer Solutions (SIS) Assumption]] - degree 5, connects to 2 communities
+- [[l-Succinct SIS Assumption (falsifiable q-type generalization of SIS, trapdoor for I_l ⊗ A  W)]] - degree 8, connects to 1 community

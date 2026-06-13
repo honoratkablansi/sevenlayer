@@ -12,6 +12,6 @@ tags:
 # Justin Thaler
 
 ## Connections
-- [[Proving CPU Executions in Small Space]] - `conceptually_related_to` [EXTRACTED]
+- [[Proving CPU Executions in Small Space]] - `cites` [EXTRACTED]
 
 #graphify/document #graphify/EXTRACTED #community/Community_1

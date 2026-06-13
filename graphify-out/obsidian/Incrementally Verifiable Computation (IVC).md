@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch06-recursion-vs-folding-russian-dolls-and-snowballs.md"
 type: "document"
-community: "Community 0"
+community: "Community 9"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Community_9
 ---
 
 # Incrementally Verifiable Computation (IVC)
@@ -19,8 +19,10 @@ tags:
 - [[Nova IVC Scheme (Construction 3)]] - `defines` [EXTRACTED]
 - [[Nova Recursive Zero-Knowledge Arguments from Folding Schemes]] - `defines` [EXTRACTED]
 - [[Protostar Generic Efficient AccumulationFolding for Special-sound Protocols]] - `implements` [EXTRACTED]
+- [[Protostar Non-Uniform IVC Scheme for Multi-Circuit Plonkup R_mplkup]] - `defines` [EXTRACTED]
 - [[Recursion vs. Folding Russian Dolls and Snowballs]] - `defines` [EXTRACTED]
 - [[Recursive Proof Composition]] - `conceptually_related_to` [EXTRACTED]
 - [[The Folding Genealogy]] - `references` [EXTRACTED]
+- [[Theorem 3 IVC for High-Degree Special-Sound Protocols (recursive circuit k+d-1 or k+2 scalar mults)]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/document #graphify/EXTRACTED #community/Community_9

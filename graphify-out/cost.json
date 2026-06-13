@@ -12,8 +12,15 @@
       "output_tokens": 0,
       "files": 10,
       "note": "deepen_pdfs batch 1 - measured subagent tokens (combined in+out across 10 extraction agents)"
+    },
+    {
+      "date": "2026-06-13T04:56:55.626880+00:00",
+      "input_tokens": 1759273,
+      "output_tokens": 0,
+      "files": 18,
+      "note": "deepen_pdfs batch 2 (dense-crypto subset) - measured subagent tokens (combined in+out across 18 extraction agents)"
     }
   ],
-  "total_input_tokens": 1907594,
+  "total_input_tokens": 3666867,
   "total_output_tokens": 239400
 }

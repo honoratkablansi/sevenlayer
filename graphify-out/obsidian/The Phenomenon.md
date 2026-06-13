@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch01-the-phenomenon.md"
 type: "document"
-community: "Community 6"
+community: "Community 0"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_6
+  - community/Community_0
 ---
 
 # The Phenomenon
@@ -22,4 +22,4 @@ tags:
 - [[Three Converging Forces]] - `references` [EXTRACTED]
 - [[ZK Rollups The Proving Grounds (Production)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_6
+#graphify/document #graphify/EXTRACTED #community/Community_0

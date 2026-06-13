@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch09-composability-when-one-pet-is-not-enough.md"
 type: "document"
-community: "Community 9"
+community: "Community 3"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_9
+  - community/Community_3
 ---
 
 # Differential Privacy
@@ -18,4 +18,4 @@ tags:
 - [[The Four Pillars]] - `defines` [EXTRACTED]
 - [[The Incomplete Stack]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_9
+#graphify/document #graphify/EXTRACTED #community/Community_3

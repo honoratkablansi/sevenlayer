@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch03/ref-12-underconstrained-circuits.pdf"
 type: "paper"
-community: "Community 10"
+community: "Community 23"
 location: "§6"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_10
+  - community/Community_23
 ---
 
 # Compositional Counterexample Construction
@@ -15,4 +15,4 @@ tags:
 - [[Finite-Field SMT Solver (cvc5 fork)]] - `assumes` [EXTRACTED]
 - [[QED2 (verification tool)]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_10
+#graphify/paper #graphify/EXTRACTED #community/Community_23

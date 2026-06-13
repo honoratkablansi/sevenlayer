@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-09-bulletproofs.pdf"
 type: "document"
-community: "Community 12"
+community: "Community 7"
 location: "Section 1.1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_12
+  - community/Community_7
 ---
 
 # Inner-Product Argument
@@ -17,4 +17,4 @@ tags:
 - [[Bulletproofs Short Proofs for Confidential Transactions and More]] - `defines` [EXTRACTED]
 - [[Improved Inner-Product Argument (2 log2 n)]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_12
+#graphify/document #graphify/EXTRACTED #community/Community_7

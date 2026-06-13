@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch09-the-incomplete-stack.md"
 type: "document"
-community: "Community 9"
+community: "Community 3"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_9
+  - community/Community_3
 ---
 
 # The Incomplete Stack
@@ -22,4 +22,4 @@ tags:
 - [[Zero-Knowledge Proofs]] - `conceptually_related_to` [EXTRACTED]
 - [[eIDAS 2.0]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_9
+#graphify/document #graphify/EXTRACTED #community/Community_3

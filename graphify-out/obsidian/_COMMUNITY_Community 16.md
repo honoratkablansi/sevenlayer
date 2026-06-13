@@ -1,25 +1,39 @@
 ---
 type: community
-cohesion: 0.29
-members: 10
+cohesion: 0.13
+members: 24
 ---
 
 # Community 16
 
-**Cohesion:** 0.29 - loosely connected
-**Members:** 10 nodes
+**Cohesion:** 0.13 - loosely connected
+**Members:** 24 nodes
 
 ## Members
-- [[Ethproofs ZK Proving Cost Tracker (Ethereum Foundation)]] - document - references/ch13/ref-44-ethproofs.md
-- [[Jagged Polynomial Commitment Scheme (Jagged PCS)]] - document - references/ch10/ref-52-sp1-hypercube.md
-- [[Real-Time Proving]] - document - references/ch10/ref-52-sp1-hypercube.md
-- [[Shipping an L1 zkEVM 2 The Security Foundations (Ethereum Foundation)]] - document - references/ch10/ref-55-zkevm-security-foundations.md
-- [[WHIR Polynomial Commitment Scheme]] - document - references/ch10/ref-55-zkevm-security-foundations.md
-- [[ZK Proofs Is Privacy Cheap Enough to Be Mainstream (Castle Labs)]] - document - references/ch13/ref-43-castlelabs-zk-privacy.md
-- [[Zero-Knowledge Proof Market Size, Share & Trends Analysis Report (Grand View Research)]] - document - references/ch13/ref-42-gvr-zkp-market-report.md
-- [[soundcalc (zkVM security estimation tool)]] - document - references/ch10/ref-55-zkevm-security-foundations.md
-- [[zk-SNARK]] - document - references/ch13/ref-42-gvr-zkp-market-report.md
-- [[zkEVM]] - document - wiki/sections/ch03-the-four-philosophies.md
+- [[Batch circle FRI soundness error (Theorem 6, eps_PROX)]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[CFFT-friendly prime (p+1 divisible by 2(n+1))]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[Circle FFT and inverse (non-harmonic, Nn adds, Nn2 mults)]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[Circle FFT butterfly algorithm (radix-2 style, complex-extension twiddles)]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[Circle FRI low-degree test  IOP of proximity (Protocol 1 & 2)]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[Circle STARK AIR soundness & knowledge-soundness error (Theorem 78)]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[Circle STARK interactive oracle proof for AIR]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[Circle code (MDS algebraic-geometry  generalized Reed-Solomon code)]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[Correlated agreement theorem for Reed-Solomon codes]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[DEEP single-point quotients (realimaginary parts over F(i))]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[Decomposition Lemma overall quotient split with dimension-gap scalar lambda]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[Elliptic Curve FFT (ECFFT)]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[FFT-basis B_n and FFT-space L'_N (dimension gap of co-dimension one)]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[Galois-FFT (G-FFT) over rational function field automorphisms]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[Group squaring map pi and inversion J (the two endomorphisms)]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[Limit-at-infinity calculus for resolving the dimension gap]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[Mersenne Prime M31 (231 - 1)]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[Mersenne-31 vs Babybear FFT benchmark (1.4x speed-up)]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[Optimized non-zk circle STARK (eval domain superset of trace, group position)]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[Reed-Solomon proximity gaps  list-decoding]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[STARK (Scalable Transparent ARgument of Knowledge)]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[Space L_N of bivariate polynomials (Riemann-Roch space, dim N+1)]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[Twin-coset and standard position coset FFT domains]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[Vanishing polynomials v_n and domain quotients]] - paper - references/ch06/ref-23-circle-starks.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -29,19 +43,11 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 11 edges to [[_COMMUNITY_Community 1]]
-- 5 edges to [[_COMMUNITY_Community 0]]
-- 4 edges to [[_COMMUNITY_Community 18]]
-- 2 edges to [[_COMMUNITY_Community 6]]
-- 2 edges to [[_COMMUNITY_Community 2]]
-- 2 edges to [[_COMMUNITY_Community 4]]
-- 1 edge to [[_COMMUNITY_Community 20]]
-- 1 edge to [[_COMMUNITY_Community 5]]
-- 1 edge to [[_COMMUNITY_Community 10]]
+- 6 edges to [[_COMMUNITY_Community 2]]
 
 ## Top bridge nodes
-- [[ZK Proofs Is Privacy Cheap Enough to Be Mainstream (Castle Labs)]] - degree 10, connects to 6 communities
-- [[Ethproofs ZK Proving Cost Tracker (Ethereum Foundation)]] - degree 10, connects to 4 communities
-- [[Shipping an L1 zkEVM 2 The Security Foundations (Ethereum Foundation)]] - degree 11, connects to 3 communities
-- [[zkEVM]] - degree 8, connects to 3 communities
-- [[zk-SNARK]] - degree 4, connects to 3 communities
+- [[Circle FRI low-degree test  IOP of proximity (Protocol 1 & 2)]] - degree 5, connects to 1 community
+- [[Space L_N of bivariate polynomials (Riemann-Roch space, dim N+1)]] - degree 4, connects to 1 community
+- [[Elliptic Curve FFT (ECFFT)]] - degree 3, connects to 1 community
+- [[Mersenne Prime M31 (231 - 1)]] - degree 3, connects to 1 community
+- [[Twin-coset and standard position coset FFT domains]] - degree 3, connects to 1 community

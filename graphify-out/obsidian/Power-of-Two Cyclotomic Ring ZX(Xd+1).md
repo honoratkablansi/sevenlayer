@@ -1,18 +1,23 @@
 ---
 source_file: "references/ch06/ref-20-latticefold.pdf"
 type: "paper"
-community: "Community 8"
+community: "Community 11"
 location: "§2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_8
+  - community/Community_11
 ---
 
 # Power-of-Two Cyclotomic Ring Z[X]/(X^d+1)
 
 ## Connections
+- [[LatticeFold (ePrint 2024257)]] - `conceptually_related_to` [EXTRACTED]
 - [[Module-SIS]] - `defines` [EXTRACTED]
+- [[Module-based Ajtai Commitment (com = A x)]] - `conceptually_related_to` [EXTRACTED]
 - [[NTT  Coefficient Embedding over R_q]] - `defines` [EXTRACTED]
+- [[Theorem 7 cyclotomic ring R_q isomorphic to ring of rotation matrices S]] - `proves` [EXTRACTED]
+- [[b-bit-word embedding of Fm into low-norm cyclotomic ring vector]] - `conceptually_related_to` [EXTRACTED]
+- [[splitpow Maps & Gadget Decomposition]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_8
+#graphify/paper #graphify/EXTRACTED #community/Community_11

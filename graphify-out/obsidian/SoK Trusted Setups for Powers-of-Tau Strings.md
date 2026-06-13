@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch02/ref-10-sok-powers-of-tau.pdf"
 type: "paper"
-community: "Community 3"
+community: "Community 0"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_3
+  - community/Community_0
 ---
 
 # SoK: Trusted Setups for Powers-of-Tau Strings
@@ -19,4 +19,4 @@ tags:
 - [[Secure Multi-Party Computation (MPC)]] - `conceptually_related_to` [EXTRACTED]
 - [[Trusted Setup]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_3
+#graphify/paper #graphify/EXTRACTED #community/Community_0

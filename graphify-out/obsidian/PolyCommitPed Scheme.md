@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-04-kzg-commitments.pdf"
 type: "paper"
-community: "Community 5"
+community: "Community 18"
 location: "§3.3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_5
+  - community/Community_18
 ---
 
 # PolyCommitPed Scheme
@@ -21,4 +21,4 @@ tags:
 - [[Theorem 3.3 PolyCommitPed Security]] - `proves` [EXTRACTED]
 - [[t-Strong Diffie-Hellman (t-SDH) Assumption]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_5
+#graphify/paper #graphify/EXTRACTED #community/Community_18

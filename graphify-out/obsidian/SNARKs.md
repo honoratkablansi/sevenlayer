@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch10-the-binary-that-broke.md"
 type: "document"
-community: "Community 3"
+community: "Community 0"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_3
+  - community/Community_0
 ---
 
 # SNARKs
@@ -13,6 +13,7 @@ tags:
 ## Connections
 - [[3-Element Pairing-based SNARK for Arithmetic Circuit SAT]] - `conceptually_related_to` [EXTRACTED]
 - [[Blockchain Privacy and Regulatory Compliance Towards a Practical Equilibrium]] - `conceptually_related_to` [EXTRACTED]
+- [[Greyhound polynomial commitment scheme]] - `conceptually_related_to` [EXTRACTED]
 - [[Knowledge-of-Exponent Assumption]] - `conceptually_related_to` [EXTRACTED]
 - [[On the Size of Pairing-Based Non-interactive Arguments]] - `conceptually_related_to` [EXTRACTED]
 - [[PLONK Permutations over Lagrange-bases for Oecumenical Noninteractive arguments of Knowledge]] - `conceptually_related_to` [EXTRACTED]
@@ -22,4 +23,4 @@ tags:
 - [[The Binary That Broke]] - `conceptually_related_to` [EXTRACTED]
 - [[Unaligned Incentives Pricing Attacks Against Blockchain Rollups]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_3
+#graphify/document #graphify/EXTRACTED #community/Community_0

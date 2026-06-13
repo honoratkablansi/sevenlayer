@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch02/ref-09-bulletproofs.pdf"
 type: "paper"
-community: "Community 12"
+community: "Community 7"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_12
+  - community/Community_7
 ---
 
 # Bulletproofs: Short Proofs for Confidential Transactions and More
@@ -24,4 +24,4 @@ tags:
 - [[Secure Multi-Party Computation (MPC)]] - `conceptually_related_to` [EXTRACTED]
 - [[Trusted Setup]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_12
+#graphify/paper #graphify/EXTRACTED #community/Community_7

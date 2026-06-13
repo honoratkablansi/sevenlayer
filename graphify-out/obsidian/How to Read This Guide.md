@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch01-how-to-read-this-guide.md"
 type: "document"
-community: "Community 6"
+community: "Community 0"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_6
+  - community/Community_0
 ---
 
 # How to Read This Guide
@@ -17,4 +17,4 @@ tags:
 - [[The Promise of Provable and Programmable Secrets]] - `part_of` [EXTRACTED]
 - [[Three Converging Forces]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_6
+#graphify/document #graphify/EXTRACTED #community/Community_0

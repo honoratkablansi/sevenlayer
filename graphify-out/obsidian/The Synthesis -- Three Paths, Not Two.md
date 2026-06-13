@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/10-the-synthesis-three-paths-not-two.md"
 type: "document"
-community: "Community 1"
+community: "Community 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_1
+  - community/Community_2
 ---
 
 # The Synthesis -- Three Paths, Not Two
@@ -64,4 +64,4 @@ tags:
 - [[Zcash]] - `references` [EXTRACTED]
 - [[zkEVM]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_1
+#graphify/document #graphify/EXTRACTED #community/Community_2

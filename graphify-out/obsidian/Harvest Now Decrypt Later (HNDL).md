@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-63-harvest-now-decrypt-later.pdf"
 type: "document"
-community: "Community 0"
+community: "Community 8"
 location: "Abstract"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Community_8
 ---
 
 # Harvest Now Decrypt Later (HNDL)
@@ -16,4 +16,4 @@ tags:
 - [[Layer 6 -- The Deep Craft]] - `defines` [EXTRACTED]
 - [[Post-Quantum Cryptography]] - `conceptually_related_to` [INFERRED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/document #graphify/EXTRACTED #community/Community_8

@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch04-the-hidden-bottleneck.md"
 type: "paper"
-community: "Community 2"
+community: "Community 1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_2
+  - community/Community_1
 ---
 
 # ZKPoG (end-to-end GPU proving)
@@ -16,4 +16,4 @@ tags:
 - [[The Witness as a Multi-Dimensional Problem]] - `cites` [EXTRACTED]
 - [[Witness Generation Costs]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_2
+#graphify/paper #graphify/EXTRACTED #community/Community_1

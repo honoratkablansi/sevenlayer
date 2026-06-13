@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch03/ref-13-practical-security-zk-circuits.pdf"
 type: "paper"
-community: "Community 10"
+community: "Community 35"
 location: "p.1 (title/abstract)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_10
+  - community/Community_35
 ---
 
 # Practical Security Analysis of Zero-Knowledge Proof Circuits
@@ -14,10 +14,13 @@ tags:
 ## Connections
 - [[Arithmetic Circuit]] - `conceptually_related_to` [EXTRACTED]
 - [[Choreographing the Act]] - `cites` [EXTRACTED]
-- [[Circom]] - `conceptually_related_to` [EXTRACTED]
+- [[CirC Compiler Infrastructure]] - `cites` [EXTRACTED]
+- [[Circom]] - `assumes` [EXTRACTED]
 - [[Circuit Dependence Graph (CDG)]] - `defines` [EXTRACTED]
 - [[Open Questions and the Road Ahead]] - `cites` [EXTRACTED]
 - [[Static Analysis]] - `implements` [EXTRACTED]
+- [[Taxonomy of Circom vulnerabilities (3 root-cause classes)]] - `introduces` [EXTRACTED]
 - [[Underconstrained Circuits]] - `conceptually_related_to` [INFERRED]
+- [[ZKAP (static analyzer for ZKP circuits)]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_10
+#graphify/paper #graphify/EXTRACTED #community/Community_35

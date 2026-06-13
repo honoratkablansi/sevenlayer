@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-04-kzg-commitments.pdf"
 type: "paper"
-community: "Community 5"
+community: "Community 18"
 location: "§2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_5
+  - community/Community_18
 ---
 
 # t-Diffie-Hellman Inversion (t-DHI) Assumption
@@ -15,4 +15,4 @@ tags:
 - [[t-Polynomial Diffie-Hellman (t-polyDH) Assumption]] - `conceptually_related_to` [EXTRACTED]
 - [[t-Strong Diffie-Hellman (t-SDH) Assumption]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_5
+#graphify/paper #graphify/EXTRACTED #community/Community_18

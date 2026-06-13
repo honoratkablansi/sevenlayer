@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch07/ref-26-nist-ir-8547.pdf"
 type: "paper"
-community: "Community 0"
+community: "Community 8"
 location: "p.1 (title page)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Community_8
 ---
 
 # Transition to Post-Quantum Cryptography Standards (NIST IR 8547)
@@ -18,4 +18,4 @@ tags:
 - [[Post-Quantum Cryptography]] - `conceptually_related_to` [EXTRACTED]
 - [[Quantum Computing]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_0
+#graphify/paper #graphify/EXTRACTED #community/Community_8

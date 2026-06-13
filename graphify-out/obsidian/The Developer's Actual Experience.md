@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch03-the-developer-s-actual-experience.md"
 type: "document"
-community: "Community 2"
+community: "Community 5"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_2
+  - community/Community_5
 ---
 
 # The Developer's Actual Experience
@@ -23,4 +23,4 @@ tags:
 - [[SP1  SP1 Hypercube]] - `references` [EXTRACTED]
 - [[The Four Philosophies]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_2
+#graphify/document #graphify/EXTRACTED #community/Community_5

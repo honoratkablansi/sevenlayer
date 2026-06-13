@@ -1,12 +1,12 @@
 ---
 source_file: "wiki/sections/ch08-pricing-attacks.md"
 type: "document"
-community: "Community 4"
+community: "Community 0"
 location: "Pricing Attacks"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_4
+  - community/Community_0
 ---
 
 # Pricing Attacks
@@ -20,4 +20,4 @@ tags:
 - [[The Price of a Verdict]] - `references` [EXTRACTED]
 - [[The Social Layer]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_4
+#graphify/document #graphify/EXTRACTED #community/Community_0
