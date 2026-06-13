@@ -75,3 +75,31 @@ def test_looks_like_cloudflare_false_for_pdf_and_404():
 def test_origin_strips_path():
     assert _origin("https://eprint.iacr.org/2016/260.pdf") == "https://eprint.iacr.org"
     assert _origin("https://arxiv.org/pdf/2402.15293") == "https://arxiv.org"
+
+
+import fetch_references as fr
+
+
+def test_clear_cloudflare_caches_per_origin(monkeypatch):
+    fr._CF_SESSIONS.clear()
+    calls = []
+
+    def fake_stealth_clear(origin):
+        calls.append(origin)
+        return {"cookies": {"cf_clearance": "abc"}, "ua": "TestUA/1.0"}
+
+    monkeypatch.setattr(fr, "_stealth_clear", fake_stealth_clear)
+
+    s1 = fr._clear_cloudflare("https://eprint.iacr.org")
+    s2 = fr._clear_cloudflare("https://eprint.iacr.org")
+
+    assert s1 == {"cookies": {"cf_clearance": "abc"}, "ua": "TestUA/1.0"}
+    assert s2 is s1  # same cached object
+    assert calls == ["https://eprint.iacr.org"]  # _stealth_clear ran exactly once
+
+
+def test_clear_cloudflare_returns_none_when_unsolved(monkeypatch):
+    fr._CF_SESSIONS.clear()
+    monkeypatch.setattr(fr, "_stealth_clear", lambda origin: None)
+    assert fr._clear_cloudflare("https://eprint.iacr.org") is None
+    assert "https://eprint.iacr.org" not in fr._CF_SESSIONS  # failures are not cached

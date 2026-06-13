@@ -55,6 +55,57 @@ def _origin(url: str) -> str:
     return f"{parts.scheme}://{parts.netloc}"
 
 
+_CF_SESSIONS: dict[str, dict] = {}  # origin -> {"cookies": {...}, "ua": "..."}
+
+
+def _stealth_clear(origin: str) -> dict | None:
+    """Launch Camoufox on the origin landing page, pass the Cloudflare managed
+    challenge by stealth, and harvest the cf_clearance cookie + matching UA.
+    Returns {"cookies": {name: value, ...}, "ua": str} or None if not cleared."""
+    from scrapling.fetchers import StealthyFetcher
+
+    captured: dict = {}
+
+    def grab(page):
+        # cf_clearance is bound to this exact UA; capture both together.
+        captured["ua"] = page.evaluate("navigator.userAgent")
+        captured["cookies"] = {c["name"]: c["value"] for c in page.context.cookies()}
+        return page
+
+    try:
+        page = StealthyFetcher.fetch(
+            origin + "/",
+            headless=True,
+            network_idle=True,
+            timeout=120000,
+            page_action=grab,
+        )
+    except Exception as exc:  # noqa: BLE001 - browser launch/challenge failure
+        print(f"    stealth-clear: {exc}")
+        return None
+
+    cookies = captured.get("cookies")
+    if not cookies:  # page_action didn't run; fall back to the response cookies
+        raw = page.cookies if page is not None else None
+        cookies = {c["name"]: c["value"] for c in (raw or ())} if raw else {}
+    if "cf_clearance" not in cookies:
+        print(f"    stealth-clear: challenge not cleared for {origin}")
+        return None
+    return {"cookies": cookies, "ua": captured.get("ua")}
+
+
+def _clear_cloudflare(origin: str) -> dict | None:
+    """Cached wrapper: clear an origin at most once per process. Failures are
+    not cached, so a later entry can retry."""
+    cached = _CF_SESSIONS.get(origin)
+    if cached is not None:
+        return cached
+    session = _stealth_clear(origin)
+    if session is not None:
+        _CF_SESSIONS[origin] = session
+    return session
+
+
 def stub_markdown(entry: dict) -> str:
     chapters = ", ".join(str(c) for c in entry["chapters"])
     return (
