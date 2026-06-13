@@ -45,3 +45,57 @@ def test_graph_stats_counts_nodes_edges_and_per_pdf():
     assert s["nodes_per_pdf"]["ref-06-groth16.pdf"] == 2
     assert s["nodes_by_source_top"]["references"] == 2
     assert s["nodes_by_source_top"]["wiki"] == 1
+
+
+import json as _json
+import pytest
+from deepen_pdfs import load_fragment, merge_fragment
+
+
+def test_load_fragment_rejects_bad_shape(tmp_path):
+    good = tmp_path / "good.json"
+    good.write_text(_json.dumps({"nodes": [{"id": "a", "label": "A"}], "edges": []}))
+    assert load_fragment(good)["nodes"][0]["id"] == "a"
+
+    bad = tmp_path / "bad.json"
+    bad.write_text(_json.dumps({"nodes": [{"label": "no id"}], "edges": []}))
+    with pytest.raises(ValueError):
+        load_fragment(bad)
+
+    missing = tmp_path / "missing.json"
+    missing.write_text(_json.dumps({"nodes": []}))  # no "edges" key
+    with pytest.raises(ValueError):
+        load_fragment(missing)
+
+
+def test_merge_fragment_is_additive_and_dedups():
+    graph = {
+        "nodes": [{"id": "ref-06_groth16", "label": "Groth16",
+                   "source_file": "references/ch02/ref-06-groth16.pdf"}],
+        "links": [],
+    }
+    fragment = {
+        "nodes": [
+            {"id": "ref-06_groth16", "label": "DUP — should not overwrite"},  # existing
+            {"id": "concept_pairing", "label": "Pairing",
+             "source_file": "references/ch02/ref-06-groth16.pdf"},            # new
+        ],
+        "edges": [
+            {"source": "ref-06_groth16", "target": "concept_pairing", "relation": "uses"},
+            {"source": "ref-06_groth16", "target": "concept_pairing", "relation": "uses"},  # dup
+            {"source": "ref-06_groth16", "target": "ghost_node", "relation": "cites"},      # dangling
+        ],
+    }
+    out = merge_fragment(graph, fragment)
+    ids = [n["id"] for n in out["nodes"]]
+    assert ids == ["ref-06_groth16", "concept_pairing"]          # additive, deduped
+    assert out["nodes"][0]["label"] == "Groth16"                 # existing not overwritten
+    assert len(out["links"]) == 1                                # dup + dangling dropped
+    assert out["links"][0]["relation"] == "uses"
+
+
+def test_merge_fragment_enforces_additive_invariant():
+    graph = {"nodes": [{"id": "a", "label": "A"}, {"id": "b", "label": "B"}], "links": []}
+    # Simulate a "before" count higher than reality (99 > 2) so the guard fires.
+    with pytest.raises(AssertionError):
+        merge_fragment(graph, {"nodes": [], "edges": []}, _force_node_count=99)
