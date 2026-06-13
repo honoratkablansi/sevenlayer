@@ -1,0 +1,19 @@
+---
+source_file: "wiki/sections/ch01-the-trick.md"
+type: "document"
+community: "Trusted Setup & SNARK Foundations"
+tags:
+  - graphify/document
+  - graphify/EXTRACTED
+  - community/Trusted_Setup__SNARK_Foundations
+---
+
+# The Trick
+
+## Connections
+- [[The Phenomenon]] - `references` [EXTRACTED]
+- [[The Promise of Provable and Programmable Secrets]] - `part_of` [EXTRACTED]
+- [[The Proof at the Door]] - `references` [EXTRACTED]
+- [[The Seven Layers at a Glance]] - `references` [EXTRACTED]
+
+#graphify/document #graphify/EXTRACTED #community/Trusted_Setup__SNARK_Foundations

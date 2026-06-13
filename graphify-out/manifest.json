@@ -1,0 +1,1192 @@
+{
+  "C:\\sevenlayer\\proving-nothing.md": {
+    "mtime": 1781300231.2967281,
+    "ast_hash": "da005032b42ddb31e81f3aa2995c32b4",
+    "semantic_hash": "da005032b42ddb31e81f3aa2995c32b4"
+  },
+  "C:\\sevenlayer\\references\\ch01\\ref-01-clarke-profiles-of-the-future.md": {
+    "mtime": 1781305698.5402746,
+    "ast_hash": "b80379ad695c38fbd79af0815ac1d986",
+    "semantic_hash": "b80379ad695c38fbd79af0815ac1d986"
+  },
+  "C:\\sevenlayer\\references\\ch06\\ref-22-frozen-heart.md": {
+    "mtime": 1781305704.8298244,
+    "ast_hash": "3078b4d760434cbd879ea986d29f9e23",
+    "semantic_hash": "3078b4d760434cbd879ea986d29f9e23"
+  },
+  "C:\\sevenlayer\\references\\ch06\\ref-49-nightstream.md": {
+    "mtime": 1781305612.8130186,
+    "ast_hash": "e923929844164bf36d0bd3cb62b4c5f7",
+    "semantic_hash": "e923929844164bf36d0bd3cb62b4c5f7"
+  },
+  "C:\\sevenlayer\\references\\ch08\\ref-27-l2beat-stages.md": {
+    "mtime": 1781305707.7701664,
+    "ast_hash": "88313e8673222c0ab139127bd68ee446",
+    "semantic_hash": "88313e8673222c0ab139127bd68ee446"
+  },
+  "C:\\sevenlayer\\references\\ch10\\ref-52-sp1-hypercube.md": {
+    "mtime": 1781305723.0131137,
+    "ast_hash": "ce9fe9d9d152c5baf75174ce2baaf739",
+    "semantic_hash": "ce9fe9d9d152c5baf75174ce2baaf739"
+  },
+  "C:\\sevenlayer\\references\\ch10\\ref-53-airbender.md": {
+    "mtime": 1781305723.6248455,
+    "ast_hash": "0f92fd89218c2bc84415b1d5e50b6aeb",
+    "semantic_hash": "0f92fd89218c2bc84415b1d5e50b6aeb"
+  },
+  "C:\\sevenlayer\\references\\ch10\\ref-55-zkevm-security-foundations.md": {
+    "mtime": 1781305723.8618004,
+    "ast_hash": "8b03797d73717e0e7fff2196f3f9d8b6",
+    "semantic_hash": "8b03797d73717e0e7fff2196f3f9d8b6"
+  },
+  "C:\\sevenlayer\\references\\ch12\\ref-39-compact-language-reference.md": {
+    "mtime": 1781305720.7079942,
+    "ast_hash": "b977710ac0cda5633fc346e3c0dc6b9b",
+    "semantic_hash": "b977710ac0cda5633fc346e3c0dc6b9b"
+  },
+  "C:\\sevenlayer\\references\\ch12\\ref-40-zkir-reference.md": {
+    "mtime": 1781305720.7099946,
+    "ast_hash": "c14fdb928fbd119e8d60681d48fa8bed",
+    "semantic_hash": "c14fdb928fbd119e8d60681d48fa8bed"
+  },
+  "C:\\sevenlayer\\references\\ch12\\ref-41-midnight-developer-guide.md": {
+    "mtime": 1781305720.8281424,
+    "ast_hash": "381c0e8122fd78d1907e63a04a4eac31",
+    "semantic_hash": "381c0e8122fd78d1907e63a04a4eac31"
+  },
+  "C:\\sevenlayer\\references\\ch13\\ref-42-gvr-zkp-market-report.md": {
+    "mtime": 1781305721.0981753,
+    "ast_hash": "990247eaeeabcd183cf27c77d5e83e2d",
+    "semantic_hash": "990247eaeeabcd183cf27c77d5e83e2d"
+  },
+  "C:\\sevenlayer\\references\\ch13\\ref-43-castlelabs-zk-privacy.md": {
+    "mtime": 1781306124.2065518,
+    "ast_hash": "750436d46e86c91d02ed2a8c55fe5956",
+    "semantic_hash": "750436d46e86c91d02ed2a8c55fe5956"
+  },
+  "C:\\sevenlayer\\references\\ch13\\ref-44-ethproofs.md": {
+    "mtime": 1781305722.5400136,
+    "ast_hash": "b96f2923594e0ce8c99ea3d656218b18",
+    "semantic_hash": "b96f2923594e0ce8c99ea3d656218b18"
+  },
+  "C:\\sevenlayer\\references\\ch13\\ref-57-chorus-one-zk-economics.md": {
+    "mtime": 1781305723.913022,
+    "ast_hash": "b6f524fda604ee21b6573dc929de951f",
+    "semantic_hash": "b6f524fda604ee21b6573dc929de951f"
+  },
+  "C:\\sevenlayer\\references\\ch13\\ref-58-dtcc-canton-tokenization.md": {
+    "mtime": 1781306688.7090826,
+    "ast_hash": "6fdbe02b736df0548050332a8de479de",
+    "semantic_hash": "6fdbe02b736df0548050332a8de479de"
+  },
+  "C:\\sevenlayer\\wiki\\BIBLIOGRAPHY.md": {
+    "mtime": 1781300231.3132436,
+    "ast_hash": "ae18039cee2f408db5e56da1ca58ea66",
+    "semantic_hash": "ae18039cee2f408db5e56da1ca58ea66"
+  },
+  "C:\\sevenlayer\\wiki\\GLOSSARY.md": {
+    "mtime": 1781300231.3132436,
+    "ast_hash": "f4889f46a68487483ad9bd718eb5f8da",
+    "semantic_hash": "f4889f46a68487483ad9bd718eb5f8da"
+  },
+  "C:\\sevenlayer\\wiki\\IMPROVEMENT_BACKLOG.md": {
+    "mtime": 1781300231.3132436,
+    "ast_hash": "aaccd6c2b29de7063cbdd0718b207096",
+    "semantic_hash": "aaccd6c2b29de7063cbdd0718b207096"
+  },
+  "C:\\sevenlayer\\wiki\\INDEX.md": {
+    "mtime": 1781300231.3132436,
+    "ast_hash": "b4a3953fd2ec57ed48d092a3cb828d26",
+    "semantic_hash": "b4a3953fd2ec57ed48d092a3cb828d26"
+  },
+  "C:\\sevenlayer\\wiki\\chapters\\01-the-promise-of-provable-and-programmable-secrets.md": {
+    "mtime": 1781300231.320244,
+    "ast_hash": "17b804b942d572eba3236e3e85a0a58d",
+    "semantic_hash": "17b804b942d572eba3236e3e85a0a58d"
+  },
+  "C:\\sevenlayer\\wiki\\chapters\\02-building-the-stage.md": {
+    "mtime": 1781300231.3214695,
+    "ast_hash": "a307454589428b2e5df5969a20c4cb21",
+    "semantic_hash": "a307454589428b2e5df5969a20c4cb21"
+  },
+  "C:\\sevenlayer\\wiki\\chapters\\03-choreographing-the-act.md": {
+    "mtime": 1781300231.3214695,
+    "ast_hash": "879414889e4277f742e235c46fff7bed",
+    "semantic_hash": "879414889e4277f742e235c46fff7bed"
+  },
+  "C:\\sevenlayer\\wiki\\chapters\\04-the-secret-performance.md": {
+    "mtime": 1781300231.3214695,
+    "ast_hash": "e5136a3e9a60082067ab5b9be53ecc31",
+    "semantic_hash": "e5136a3e9a60082067ab5b9be53ecc31"
+  },
+  "C:\\sevenlayer\\wiki\\chapters\\05-encoding-the-performance.md": {
+    "mtime": 1781300231.3214695,
+    "ast_hash": "944f6ff44d37e3d4d9146bedba85a4dd",
+    "semantic_hash": "944f6ff44d37e3d4d9146bedba85a4dd"
+  },
+  "C:\\sevenlayer\\wiki\\chapters\\06-the-sealed-certificate.md": {
+    "mtime": 1781300231.3214695,
+    "ast_hash": "9ce4fe3f5d571fd4c2245eb08a50094c",
+    "semantic_hash": "9ce4fe3f5d571fd4c2245eb08a50094c"
+  },
+  "C:\\sevenlayer\\wiki\\chapters\\07-the-deep-craft.md": {
+    "mtime": 1781300231.3224692,
+    "ast_hash": "08f7cca5bf9ea2e8cea8d75ae66b40dd",
+    "semantic_hash": "08f7cca5bf9ea2e8cea8d75ae66b40dd"
+  },
+  "C:\\sevenlayer\\wiki\\chapters\\08-the-verdict.md": {
+    "mtime": 1781300231.3224692,
+    "ast_hash": "5c41e8ea0515c32c8c6e66a667c76776",
+    "semantic_hash": "5c41e8ea0515c32c8c6e66a667c76776"
+  },
+  "C:\\sevenlayer\\wiki\\chapters\\09-privacy-enhancing-technologies.md": {
+    "mtime": 1781300231.3224692,
+    "ast_hash": "8e18665331fe8d807633fe55929d052d",
+    "semantic_hash": "8e18665331fe8d807633fe55929d052d"
+  },
+  "C:\\sevenlayer\\wiki\\chapters\\10-the-synthesis-three-paths-not-two.md": {
+    "mtime": 1781300231.3224692,
+    "ast_hash": "5729509d8e0fe7a3ae40754c3bfa0e21",
+    "semantic_hash": "5729509d8e0fe7a3ae40754c3bfa0e21"
+  },
+  "C:\\sevenlayer\\wiki\\chapters\\11-zkvms-the-universal-stage.md": {
+    "mtime": 1781300231.3224692,
+    "ast_hash": "2966bb27048d2f88be8814f15361492a",
+    "semantic_hash": "2966bb27048d2f88be8814f15361492a"
+  },
+  "C:\\sevenlayer\\wiki\\chapters\\12-midnight-the-privacy-theater.md": {
+    "mtime": 1781300231.3224692,
+    "ast_hash": "9ccc6dd327fe44b58180dcf847c88aa2",
+    "semantic_hash": "9ccc6dd327fe44b58180dcf847c88aa2"
+  },
+  "C:\\sevenlayer\\wiki\\chapters\\13-the-market-landscape.md": {
+    "mtime": 1781300231.3234687,
+    "ast_hash": "838a0ed0ffc0954e0213cd7a2834dd5a",
+    "semantic_hash": "838a0ed0ffc0954e0213cd7a2834dd5a"
+  },
+  "C:\\sevenlayer\\wiki\\chapters\\14-open-questions-and-the-road-ahead.md": {
+    "mtime": 1781300231.3234687,
+    "ast_hash": "f9c035267195badc818a1f30acf1cdd5",
+    "semantic_hash": "f9c035267195badc818a1f30acf1cdd5"
+  },
+  "C:\\sevenlayer\\wiki\\concepts\\ajtai.md": {
+    "mtime": 1781300231.3234687,
+    "ast_hash": "f46e91b3c888d0487fa24973240066bd",
+    "semantic_hash": "f46e91b3c888d0487fa24973240066bd"
+  },
+  "C:\\sevenlayer\\wiki\\concepts\\babybear.md": {
+    "mtime": 1781300231.3234687,
+    "ast_hash": "93e50313fd2eb5fbf55e0e18bfe1b191",
+    "semantic_hash": "93e50313fd2eb5fbf55e0e18bfe1b191"
+  },
+  "C:\\sevenlayer\\wiki\\concepts\\beanstalk.md": {
+    "mtime": 1781300231.3234687,
+    "ast_hash": "e40e4bc72d460c5534dfa4442279b1a7",
+    "semantic_hash": "e40e4bc72d460c5534dfa4442279b1a7"
+  },
+  "C:\\sevenlayer\\wiki\\concepts\\bls12-381.md": {
+    "mtime": 1781300231.3244689,
+    "ast_hash": "32d49ce562547eb6a05f77727f9abebc",
+    "semantic_hash": "32d49ce562547eb6a05f77727f9abebc"
+  },
+  "C:\\sevenlayer\\wiki\\concepts\\bn254.md": {
+    "mtime": 1781300231.3244689,
+    "ast_hash": "23dbf6f82b084bd81ca43d2dcd8e526e",
+    "semantic_hash": "23dbf6f82b084bd81ca43d2dcd8e526e"
+  },
+  "C:\\sevenlayer\\wiki\\concepts\\ceremony.md": {
+    "mtime": 1781300231.3244689,
+    "ast_hash": "7136c06a0993b7dc42b860ddd5a6d163",
+    "semantic_hash": "7136c06a0993b7dc42b860ddd5a6d163"
+  },
+  "C:\\sevenlayer\\wiki\\concepts\\circle-stark.md": {
+    "mtime": 1781300231.3244689,
+    "ast_hash": "c58ddab089d4b6208562132d2b906705",
+    "semantic_hash": "c58ddab089d4b6208562132d2b906705"
+  },
+  "C:\\sevenlayer\\wiki\\concepts\\fiat-shamir.md": {
+    "mtime": 1781300231.3244689,
+    "ast_hash": "ac67ab2250da982afa61e802d682fd9e",
+    "semantic_hash": "ac67ab2250da982afa61e802d682fd9e"
+  },
+  "C:\\sevenlayer\\wiki\\concepts\\folding.md": {
+    "mtime": 1781300231.3244689,
+    "ast_hash": "aae5394ddb459d5c149ad9f9ec88ce0b",
+    "semantic_hash": "aae5394ddb459d5c149ad9f9ec88ce0b"
+  },
+  "C:\\sevenlayer\\wiki\\concepts\\fri.md": {
+    "mtime": 1781300231.325469,
+    "ast_hash": "6113b14e4123c170a9c0ce8eb00ae130",
+    "semantic_hash": "6113b14e4123c170a9c0ce8eb00ae130"
+  },
+  "C:\\sevenlayer\\wiki\\concepts\\goldilocks.md": {
+    "mtime": 1781300231.325469,
+    "ast_hash": "e756ff58e1ced6c43990408571ea5647",
+    "semantic_hash": "e756ff58e1ced6c43990408571ea5647"
+  },
+  "C:\\sevenlayer\\wiki\\concepts\\groth16.md": {
+    "mtime": 1781300231.325469,
+    "ast_hash": "3440d8a8e042378b8f6a5c7993453f5a",
+    "semantic_hash": "3440d8a8e042378b8f6a5c7993453f5a"
+  },
+  "C:\\sevenlayer\\wiki\\concepts\\halo2.md": {
+    "mtime": 1781300231.325469,
+    "ast_hash": "86293d3119a5ca2a16626d2ec8b62a1e",
+    "semantic_hash": "86293d3119a5ca2a16626d2ec8b62a1e"
+  },
+  "C:\\sevenlayer\\wiki\\concepts\\hypernova.md": {
+    "mtime": 1781300231.325469,
+    "ast_hash": "94948cefc4fc98e19de656b6a648546d",
+    "semantic_hash": "94948cefc4fc98e19de656b6a648546d"
+  },
+  "C:\\sevenlayer\\wiki\\concepts\\jolt.md": {
+    "mtime": 1781300231.325469,
+    "ast_hash": "3130fced7c496b8855d5b3ca6b0ef7ef",
+    "semantic_hash": "3130fced7c496b8855d5b3ca6b0ef7ef"
+  },
+  "C:\\sevenlayer\\wiki\\concepts\\jubjub.md": {
+    "mtime": 1781300231.325469,
+    "ast_hash": "e53eae2fd7dff5e990b9a0906a182caa",
+    "semantic_hash": "e53eae2fd7dff5e990b9a0906a182caa"
+  },
+  "C:\\sevenlayer\\wiki\\concepts\\kzg.md": {
+    "mtime": 1781300231.326469,
+    "ast_hash": "c295bda8209736cb80bbcfe23a2d8567",
+    "semantic_hash": "c295bda8209736cb80bbcfe23a2d8567"
+  },
+  "C:\\sevenlayer\\wiki\\concepts\\lasso.md": {
+    "mtime": 1781300231.326469,
+    "ast_hash": "ac5d26d93c71ccc0adae505851ccdada",
+    "semantic_hash": "ac5d26d93c71ccc0adae505851ccdada"
+  },
+  "C:\\sevenlayer\\wiki\\concepts\\lattice.md": {
+    "mtime": 1781300231.326469,
+    "ast_hash": "c077de5edbc4f3f109177a3777068a25",
+    "semantic_hash": "c077de5edbc4f3f109177a3777068a25"
+  },
+  "C:\\sevenlayer\\wiki\\concepts\\logup.md": {
+    "mtime": 1781300231.326469,
+    "ast_hash": "8bc1f4db3df47b63d0e6524fbbba48d0",
+    "semantic_hash": "8bc1f4db3df47b63d0e6524fbbba48d0"
+  },
+  "C:\\sevenlayer\\wiki\\concepts\\mersenne.md": {
+    "mtime": 1781300231.326469,
+    "ast_hash": "dd22e6a24d1471713f358249731f1569",
+    "semantic_hash": "dd22e6a24d1471713f358249731f1569"
+  },
+  "C:\\sevenlayer\\wiki\\concepts\\midnight.md": {
+    "mtime": 1781300231.326469,
+    "ast_hash": "77e186b1c3dca004eda6677556127602",
+    "semantic_hash": "77e186b1c3dca004eda6677556127602"
+  },
+  "C:\\sevenlayer\\wiki\\concepts\\nova.md": {
+    "mtime": 1781300231.3274693,
+    "ast_hash": "1f21063ef6d5063fefe45e496df38ba7",
+    "semantic_hash": "1f21063ef6d5063fefe45e496df38ba7"
+  },
+  "C:\\sevenlayer\\wiki\\concepts\\plonk.md": {
+    "mtime": 1781300231.3274693,
+    "ast_hash": "0ca259de159125f20dfed90a02b65123",
+    "semantic_hash": "0ca259de159125f20dfed90a02b65123"
+  },
+  "C:\\sevenlayer\\wiki\\concepts\\poseidon.md": {
+    "mtime": 1781300231.3274693,
+    "ast_hash": "20753d4cf752ee8f80ce739bba1bcb05",
+    "semantic_hash": "20753d4cf752ee8f80ce739bba1bcb05"
+  },
+  "C:\\sevenlayer\\wiki\\concepts\\small-field.md": {
+    "mtime": 1781300231.3274693,
+    "ast_hash": "ff819dadedf03aaa5d5aef9c90e5488f",
+    "semantic_hash": "ff819dadedf03aaa5d5aef9c90e5488f"
+  },
+  "C:\\sevenlayer\\wiki\\concepts\\spartan.md": {
+    "mtime": 1781300231.3274693,
+    "ast_hash": "e127643c1f07a6664182e9a29ba1df64",
+    "semantic_hash": "e127643c1f07a6664182e9a29ba1df64"
+  },
+  "C:\\sevenlayer\\wiki\\concepts\\starks.md": {
+    "mtime": 1781300231.3274693,
+    "ast_hash": "61dd1df5c5d56b2b7ddb6486206606dc",
+    "semantic_hash": "61dd1df5c5d56b2b7ddb6486206606dc"
+  },
+  "C:\\sevenlayer\\wiki\\concepts\\sudoku.md": {
+    "mtime": 1781300231.3274693,
+    "ast_hash": "e9ae34b4adb054f2ee21b0f0855702fd",
+    "semantic_hash": "e9ae34b4adb054f2ee21b0f0855702fd"
+  },
+  "C:\\sevenlayer\\wiki\\concepts\\tornado-cash.md": {
+    "mtime": 1781300231.328469,
+    "ast_hash": "770c36466c58891a064fe6d8f7c076f5",
+    "semantic_hash": "770c36466c58891a064fe6d8f7c076f5"
+  },
+  "C:\\sevenlayer\\wiki\\concepts\\zcash.md": {
+    "mtime": 1781300231.328469,
+    "ast_hash": "f317db1a76fa1d554ee3cd13091650f5",
+    "semantic_hash": "f317db1a76fa1d554ee3cd13091650f5"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch01-how-to-read-this-guide.md": {
+    "mtime": 1781300231.3441055,
+    "ast_hash": "250b7580155bb6783e3cfd78c73b6c44",
+    "semantic_hash": "250b7580155bb6783e3cfd78c73b6c44"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch01-the-deepest-question.md": {
+    "mtime": 1781300231.3451054,
+    "ast_hash": "a28ac34c449be8d68e5e50b34a531b62",
+    "semantic_hash": "a28ac34c449be8d68e5e50b34a531b62"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch01-the-first-decision.md": {
+    "mtime": 1781300231.3451054,
+    "ast_hash": "a63688b55929ee79dc6abcf4275aee0a",
+    "semantic_hash": "a63688b55929ee79dc6abcf4275aee0a"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch01-the-phenomenon.md": {
+    "mtime": 1781300231.3451054,
+    "ast_hash": "4a1ace219052227dc08322e7daa8bd00",
+    "semantic_hash": "4a1ace219052227dc08322e7daa8bd00"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch01-the-proof-at-the-door.md": {
+    "mtime": 1781300231.3461056,
+    "ast_hash": "28541083a12f3fe5c163aaefe12a2a4b",
+    "semantic_hash": "28541083a12f3fe5c163aaefe12a2a4b"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch01-the-seven-layers-at-a-glance.md": {
+    "mtime": 1781300231.3461056,
+    "ast_hash": "8e204923480091e9c6c945ffe0f46d2d",
+    "semantic_hash": "8e204923480091e9c6c945ffe0f46d2d"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch01-the-trick.md": {
+    "mtime": 1781300231.3461056,
+    "ast_hash": "66de66dafd6f138b5a702bed4a18f5c4",
+    "semantic_hash": "66de66dafd6f138b5a702bed4a18f5c4"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch01-three-converging-forces.md": {
+    "mtime": 1781300231.3461056,
+    "ast_hash": "1c35accf9df927a4ede032aaa55bfb45",
+    "semantic_hash": "1c35accf9df927a4ede032aaa55bfb45"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch02-bn254-s-eroding-security-margin.md": {
+    "mtime": 1781300231.3461056,
+    "ast_hash": "a4a4821de10d06b99f3d29fae903173d",
+    "semantic_hash": "a4a4821de10d06b99f3d29fae903173d"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch02-midnight-s-bls12-381-stage.md": {
+    "mtime": 1781300231.347108,
+    "ast_hash": "a1153419e2372d54146055d7eb153817",
+    "semantic_hash": "a1153419e2372d54146055d7eb153817"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch02-option-value-analysis.md": {
+    "mtime": 1781300231.347108,
+    "ast_hash": "9483fefec0201a315ae55696785410e2",
+    "semantic_hash": "9483fefec0201a315ae55696785410e2"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch02-the-141-416-person-question.md": {
+    "mtime": 1781300231.347108,
+    "ast_hash": "85daf93c25a3a33ddabe9e14220e38fc",
+    "semantic_hash": "85daf93c25a3a33ddabe9e14220e38fc"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch02-the-adopt-framework.md": {
+    "mtime": 1781300231.347108,
+    "ast_hash": "959c628a0ac79d4a2ca4d2ac2a441a9d",
+    "semantic_hash": "959c628a0ac79d4a2ca4d2ac2a441a9d"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch02-the-bug-that-was-not-a-ceremony-failure.md": {
+    "mtime": 1781300231.347108,
+    "ast_hash": "64ae016959a4b59f96ffafb32aff706e",
+    "semantic_hash": "64ae016959a4b59f96ffafb32aff706e"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch02-the-capex-opex-framework.md": {
+    "mtime": 1781300231.3481057,
+    "ast_hash": "62fc4580e06ec1148be91e12fcd04b25",
+    "semantic_hash": "62fc4580e06ec1148be91e12fcd04b25"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch02-the-fair-shuffle-problem.md": {
+    "mtime": 1781300231.3481057,
+    "ast_hash": "a0fa057cd901693d332fa338583a561f",
+    "semantic_hash": "a0fa057cd901693d332fa338583a561f"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch02-the-quantum-shelf-life.md": {
+    "mtime": 1781300231.3481057,
+    "ast_hash": "fa9d49908b3db55ce7f51f0dbc7ea6fd",
+    "semantic_hash": "fa9d49908b3db55ce7f51f0dbc7ea6fd"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch02-the-setup-tradeoff.md": {
+    "mtime": 1781300231.3481057,
+    "ast_hash": "5e9deb8328d9cbfc215a52ea95bb27d3",
+    "semantic_hash": "5e9deb8328d9cbfc215a52ea95bb27d3"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch02-the-structured-reference-string.md": {
+    "mtime": 1781300231.3491054,
+    "ast_hash": "1b81506b3d16a31b82d4f73b7fde006f",
+    "semantic_hash": "1b81506b3d16a31b82d4f73b7fde006f"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch02-two-ways-to-build-a-stage.md": {
+    "mtime": 1781300231.3491054,
+    "ast_hash": "647573688fd36a087e4b6cea55aed730",
+    "semantic_hash": "647573688fd36a087e4b6cea55aed730"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch02-universal-versus-circuit-specific-setups.md": {
+    "mtime": 1781300231.3491054,
+    "ast_hash": "8bd8a49e259cc25183e48e6639c7fffa",
+    "semantic_hash": "8bd8a49e259cc25183e48e6639c7fffa"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch03-compact-s-disclosure-analysis.md": {
+    "mtime": 1781300231.3491054,
+    "ast_hash": "64cf89c939dc6251f86e292d389fa0a4",
+    "semantic_hash": "64cf89c939dc6251f86e292d389fa0a4"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch03-from-circuits-to-virtual-machines-a-brief-evolution.md": {
+    "mtime": 1781300231.3491054,
+    "ast_hash": "6df3f998e73f826226aa5ef2789e78e9",
+    "semantic_hash": "6df3f998e73f826226aa5ef2789e78e9"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch03-midnight-compiler-ir-circuit.md": {
+    "mtime": 1781300231.3491054,
+    "ast_hash": "ff2a68f9c065249f6137d0005fc5ecd7",
+    "semantic_hash": "ff2a68f9c065249f6137d0005fc5ecd7"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch03-risc-v-won-why-taxonomy-still-matters.md": {
+    "mtime": 1781300231.3491054,
+    "ast_hash": "15f599cb4a0c3e0583387d9a0e2a28d0",
+    "semantic_hash": "15f599cb4a0c3e0583387d9a0e2a28d0"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch03-the-developer-s-actual-experience.md": {
+    "mtime": 1781300231.3506083,
+    "ast_hash": "3a0fb37d57156672a16add4e67ff0e6f",
+    "semantic_hash": "3a0fb37d57156672a16add4e67ff0e6f"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch03-the-four-philosophies.md": {
+    "mtime": 1781300231.3506083,
+    "ast_hash": "5b213e7bc441f8ab87b676ac14d379f4",
+    "semantic_hash": "5b213e7bc441f8ab87b676ac14d379f4"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch03-under-constrained-circuits-the-dominant-failure-mode.md": {
+    "mtime": 1781300231.3506083,
+    "ast_hash": "361cffca0a4b9e4ee04ea4beedbc2597",
+    "semantic_hash": "361cffca0a4b9e4ee04ea4beedbc2597"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch04-execution-traces.md": {
+    "mtime": 1781300231.3506083,
+    "ast_hash": "820d74bc31b08fa4075a412101d8bd01",
+    "semantic_hash": "820d74bc31b08fa4075a412101d8bd01"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch04-memory-the-binding-constraint.md": {
+    "mtime": 1781300231.3516119,
+    "ast_hash": "9b8cc032b96d4ae439f14337f2c6b23f",
+    "semantic_hash": "9b8cc032b96d4ae439f14337f2c6b23f"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch04-side-channel-attacks-when-the-walls-leak.md": {
+    "mtime": 1781300231.3516119,
+    "ast_hash": "4a26744a665790fc150ab61a6dedbbe0",
+    "semantic_hash": "4a26744a665790fc150ab61a6dedbbe0"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch04-the-disclose-boundary-midnight-s-witness-architecture.md": {
+    "mtime": 1781300231.3516119,
+    "ast_hash": "43f63661a35384d7ba3cb270c376109c",
+    "semantic_hash": "43f63661a35384d7ba3cb270c376109c"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch04-the-hidden-bottleneck.md": {
+    "mtime": 1781300231.3516119,
+    "ast_hash": "c26733a93e5fd47affbc77c7917a5b0c",
+    "semantic_hash": "c26733a93e5fd47affbc77c7917a5b0c"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch04-the-witness-as-a-multi-dimensional-problem.md": {
+    "mtime": 1781300231.3516119,
+    "ast_hash": "6615d810791e3ba2d1be7069592add87",
+    "semantic_hash": "6615d810791e3ba2d1be7069592add87"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch04-witness-constraint-divergence.md": {
+    "mtime": 1781300231.3526125,
+    "ast_hash": "260c10382e24de941d298e43a1fea8f1",
+    "semantic_hash": "260c10382e24de941d298e43a1fea8f1"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch04-witness-generation-costs.md": {
+    "mtime": 1781300231.3526125,
+    "ast_hash": "10bfa8484ab35c010d5880f9e39b11e7",
+    "semantic_hash": "10bfa8484ab35c010d5880f9e39b11e7"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch05-ccs-the-rosetta-stone.md": {
+    "mtime": 1781300231.3526125,
+    "ast_hash": "d729959716f22285bee87196fb03fb4f",
+    "semantic_hash": "d729959716f22285bee87196fb03fb4f"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch05-layer-4-arithmetization.md": {
+    "mtime": 1781300231.3526125,
+    "ast_hash": "3f6a83a157483663b1b96d263836bf40",
+    "semantic_hash": "3f6a83a157483663b1b96d263836bf40"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch05-lookup-arguments.md": {
+    "mtime": 1781300231.353612,
+    "ast_hash": "ccc885fcc43871d766574acf903b75c9",
+    "semantic_hash": "ccc885fcc43871d766574acf903b75c9"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch05-midnight-s-zkir-a-concrete-layer-4.md": {
+    "mtime": 1781300231.353612,
+    "ast_hash": "47381cd8cca71b4f3fbdbb7a07366932",
+    "semantic_hash": "47381cd8cca71b4f3fbdbb7a07366932"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch05-the-constraint-system-evolution-r1cs-air-plonkish.md": {
+    "mtime": 1781300231.353612,
+    "ast_hash": "08002e01036a4160f2eaf0e78a17b02c",
+    "semantic_hash": "08002e01036a4160f2eaf0e78a17b02c"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch05-the-overhead-tax-10-000x-to-50-000x.md": {
+    "mtime": 1781300231.353612,
+    "ast_hash": "245568724add79615a629aad8d1b6fa1",
+    "semantic_hash": "245568724add79615a629aad8d1b6fa1"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch05-the-spreadsheet-metaphor-and-where-it-works.md": {
+    "mtime": 1781300231.3546119,
+    "ast_hash": "f57781a4c193b6c8151cfc0f8dcf3c42",
+    "semantic_hash": "f57781a4c193b6c8151cfc0f8dcf3c42"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch05-the-sumcheck-protocol-the-hidden-foundation.md": {
+    "mtime": 1781300231.3546119,
+    "ast_hash": "afc2eb5c439655fb1c3b85b469359022",
+    "semantic_hash": "afc2eb5c439655fb1c3b85b469359022"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch05-where-the-analogies-break.md": {
+    "mtime": 1781300231.3546119,
+    "ast_hash": "9fc289731ded72f12df36f649e382fca",
+    "semantic_hash": "9fc289731ded72f12df36f649e382fca"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch05-where-the-layers-collapse.md": {
+    "mtime": 1781300231.3546119,
+    "ast_hash": "ff506283409e1bddae7a95fec857a62e",
+    "semantic_hash": "ff506283409e1bddae7a95fec857a62e"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch06-case-study-midnight-s-sealed-certificate.md": {
+    "mtime": 1781300231.3556116,
+    "ast_hash": "f6fd7e2f17e88a467a557c588c5b8497",
+    "semantic_hash": "f6fd7e2f17e88a467a557c588c5b8497"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch06-circle-starks-and-stwo-a-generational-leap.md": {
+    "mtime": 1781300231.3556116,
+    "ast_hash": "82ed3627a403c8089e13e1dd0e89ec5d",
+    "semantic_hash": "82ed3627a403c8089e13e1dd0e89ec5d"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch06-fiat-shamir-vulnerabilities.md": {
+    "mtime": 1781300231.3556116,
+    "ast_hash": "0f8c655c2b8b2157a4b54f6456e8856e",
+    "semantic_hash": "0f8c655c2b8b2157a4b54f6456e8856e"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch06-from-speed-race-to-security-race.md": {
+    "mtime": 1781300231.3556116,
+    "ast_hash": "d4e5c49c8849410a6565e875c1841d6c",
+    "semantic_hash": "d4e5c49c8849410a6565e875c1841d6c"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch06-nightstream-what-a-folding-engine-looks-like-from-the-inside.md": {
+    "mtime": 1781300231.3566117,
+    "ast_hash": "689d092e974b8e2a609f0d5fd713bc24",
+    "semantic_hash": "689d092e974b8e2a609f0d5fd713bc24"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch06-real-time-ethereum-proving.md": {
+    "mtime": 1781300231.3566117,
+    "ast_hash": "b258384ddd5c68757a702d1fe9946605",
+    "semantic_hash": "b258384ddd5c68757a702d1fe9946605"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch06-recursion-vs-folding-russian-dolls-and-snowballs.md": {
+    "mtime": 1781300231.3566117,
+    "ast_hash": "358a755720f61601521a3d8b3c63d7e3",
+    "semantic_hash": "358a755720f61601521a3d8b3c63d7e3"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch06-sealing-the-certificate.md": {
+    "mtime": 1781300231.3566117,
+    "ast_hash": "86eced8c421cbf676e48c2aaa44fc866",
+    "semantic_hash": "86eced8c421cbf676e48c2aaa44fc866"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch06-snark-recursion-vs-folding-the-full-picture.md": {
+    "mtime": 1781300231.3566117,
+    "ast_hash": "d4f2aa3d00ab6eb24ae079e82f267c57",
+    "semantic_hash": "d4f2aa3d00ab6eb24ae079e82f267c57"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch06-the-folding-genealogy.md": {
+    "mtime": 1781300231.357612,
+    "ast_hash": "652c8e0bad88773d418db59e14deec03",
+    "semantic_hash": "652c8e0bad88773d418db59e14deec03"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch06-the-hybrid-pipeline.md": {
+    "mtime": 1781300231.357612,
+    "ast_hash": "2d71273908d79870b8b378ccde027b07",
+    "semantic_hash": "2d71273908d79870b8b378ccde027b07"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch06-the-post-quantum-horizon.md": {
+    "mtime": 1781300231.357612,
+    "ast_hash": "d08f7c7d4ad3b411b9449f50815af616",
+    "semantic_hash": "d08f7c7d4ad3b411b9449f50815af616"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch06-the-proof-core-why-layers-4-5-and-6-are-inseparable.md": {
+    "mtime": 1781300231.357612,
+    "ast_hash": "9a0a6898bb1edcdac380aa0bc8000a6c",
+    "semantic_hash": "9a0a6898bb1edcdac380aa0bc8000a6c"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch06-the-sealed-certificate.md": {
+    "mtime": 1781300231.357612,
+    "ast_hash": "8c25eff41faae4b5e6de75cb08f5fa6f",
+    "semantic_hash": "8c25eff41faae4b5e6de75cb08f5fa6f"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch06-the-three-families.md": {
+    "mtime": 1781300231.3586118,
+    "ast_hash": "07d48a5af97c2f02451869062682dd98",
+    "semantic_hash": "07d48a5af97c2f02451869062682dd98"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch07-algebraic-vs-traditional-hash-functions.md": {
+    "mtime": 1781300231.3586118,
+    "ast_hash": "b7bb67a6a51d28519d23f1eebc6b3aa1",
+    "semantic_hash": "b7bb67a6a51d28519d23f1eebc6b3aa1"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch07-case-study-midnight.md": {
+    "mtime": 1781300231.3586118,
+    "ast_hash": "835e6efa17cbed2875bc448a5e0df846",
+    "semantic_hash": "835e6efa17cbed2875bc448a5e0df846"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch07-four-families-of-commitment-schemes.md": {
+    "mtime": 1781300231.3586118,
+    "ast_hash": "e82aa674d2f153736818e92bb8e4f2d8",
+    "semantic_hash": "e82aa674d2f153736818e92bb8e4f2d8"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch07-lattice-based-proving.md": {
+    "mtime": 1781300231.3596117,
+    "ast_hash": "9031bc9a53f355cb6064c2085fcc7892",
+    "semantic_hash": "9031bc9a53f355cb6064c2085fcc7892"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch07-maturity-and-readiness.md": {
+    "mtime": 1781300231.3596117,
+    "ast_hash": "0046389d735846c2b0f0ba3e84297442",
+    "semantic_hash": "0046389d735846c2b0f0ba3e84297442"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch07-small-fields.md": {
+    "mtime": 1781300231.3596117,
+    "ast_hash": "4f29560a7a94f2f67b03d3af783cd746",
+    "semantic_hash": "4f29560a7a94f2f67b03d3af783cd746"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch07-the-cascade-effect.md": {
+    "mtime": 1781300231.3596117,
+    "ast_hash": "5ab981b812c334399fdddae552b7f588",
+    "semantic_hash": "5ab981b812c334399fdddae552b7f588"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch07-the-laws-that-break.md": {
+    "mtime": 1781300231.3596117,
+    "ast_hash": "820d59b9317646c366c64227979cb969",
+    "semantic_hash": "820d59b9317646c366c64227979cb969"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch07-the-one-way-door.md": {
+    "mtime": 1781300231.3606112,
+    "ast_hash": "fe7968d67ae96a81ee66f165bb4416d9",
+    "semantic_hash": "fe7968d67ae96a81ee66f165bb4416d9"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch07-the-quantum-threat-horizon.md": {
+    "mtime": 1781300231.3606112,
+    "ast_hash": "5773fc3e6d854169f9ed9f960d13e100",
+    "semantic_hash": "5773fc3e6d854169f9ed9f960d13e100"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch07-the-structural-advantage-of-lattices.md": {
+    "mtime": 1781300231.3606112,
+    "ast_hash": "9348913e9d3b8acbdb4b1f203fba4e2a",
+    "semantic_hash": "9348913e9d3b8acbdb4b1f203fba4e2a"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch07-the-trilemma-and-its-dissolution.md": {
+    "mtime": 1781300231.3611157,
+    "ast_hash": "754468adb71357c5cac359f8ff7641b7",
+    "semantic_hash": "754468adb71357c5cac359f8ff7641b7"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch07-three-hardness-assumptions-three-worlds.md": {
+    "mtime": 1781300231.3611157,
+    "ast_hash": "617f0bc895b7dd0a07f025d0c8062111",
+    "semantic_hash": "617f0bc895b7dd0a07f025d0c8062111"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch08-case-study-midnight-and-the-three-token-architecture.md": {
+    "mtime": 1781300231.3611157,
+    "ast_hash": "23bd9f4ddbbe26461eca675d4aaee303",
+    "semantic_hash": "23bd9f4ddbbe26461eca675d4aaee303"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch08-governance-the-achilles-heel.md": {
+    "mtime": 1781300231.3611157,
+    "ast_hash": "1a80e0275c4ce6689b65bdfc928cb821",
+    "semantic_hash": "1a80e0275c4ce6689b65bdfc928cb821"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch08-on-chain-verification-in-2026.md": {
+    "mtime": 1781300231.3621175,
+    "ast_hash": "37b10becf4b3b65f60b2e6e94ed71459",
+    "semantic_hash": "37b10becf4b3b65f60b2e6e94ed71459"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch08-pricing-attacks.md": {
+    "mtime": 1781300231.3621175,
+    "ast_hash": "babb2145bb2b9c0acc98077eb83e655d",
+    "semantic_hash": "babb2145bb2b9c0acc98077eb83e655d"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch08-proof-aggregation-the-missing-layer.md": {
+    "mtime": 1781300231.3621175,
+    "ast_hash": "c2b2975a41280838de55172037cbae4e",
+    "semantic_hash": "c2b2975a41280838de55172037cbae4e"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch08-the-deepest-symmetry.md": {
+    "mtime": 1781300231.3621175,
+    "ast_hash": "04d4227eeba97bc3b78b1a3c3420469c",
+    "semantic_hash": "04d4227eeba97bc3b78b1a3c3420469c"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch08-the-price-of-a-verdict.md": {
+    "mtime": 1781300231.3631191,
+    "ast_hash": "2ddf210349f3bc5efa91c8309d2a0cdb",
+    "semantic_hash": "2ddf210349f3bc5efa91c8309d2a0cdb"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch08-the-social-layer.md": {
+    "mtime": 1781300231.3631191,
+    "ast_hash": "ab4787340d17fae026c66c38f9583cd6",
+    "semantic_hash": "ab4787340d17fae026c66c38f9583cd6"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch08-when-the-transcript-lies-fiat-shamir-vulnerabilities.md": {
+    "mtime": 1781300231.3631191,
+    "ast_hash": "7b62e55b7e4942821d963c1e22cfa898",
+    "semantic_hash": "7b62e55b7e4942821d963c1e22cfa898"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch08-who-verifies-the-verifier.md": {
+    "mtime": 1781300231.3631191,
+    "ast_hash": "85df9ec88e8945cf7bdcd0f65d70fb57",
+    "semantic_hash": "85df9ec88e8945cf7bdcd0f65d70fb57"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch09-composability-when-one-pet-is-not-enough.md": {
+    "mtime": 1781300231.3641198,
+    "ast_hash": "92edf82405ecc4c3026301e2f94d4749",
+    "semantic_hash": "92edf82405ecc4c3026301e2f94d4749"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch09-open-problems.md": {
+    "mtime": 1781300231.3641198,
+    "ast_hash": "5eb2f1e4bde099eed98ae8ae7ddfdd60",
+    "semantic_hash": "5eb2f1e4bde099eed98ae8ae7ddfdd60"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch09-privacy-architectures-for-smart-contracts-kachina-and-zexe.md": {
+    "mtime": 1781300231.3641198,
+    "ast_hash": "68a26f53ccb0e6b7effd3c97f845a25d",
+    "semantic_hash": "68a26f53ccb0e6b7effd3c97f845a25d"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch09-real-world-deployments-five-case-studies.md": {
+    "mtime": 1781300231.3641198,
+    "ast_hash": "a544d6b04fcbd3cf020a8e3e14fb5413",
+    "semantic_hash": "a544d6b04fcbd3cf020a8e3e14fb5413"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch09-the-decision-matrix.md": {
+    "mtime": 1781300231.3641198,
+    "ast_hash": "c0794a76f59da644b713756444bb981a",
+    "semantic_hash": "c0794a76f59da644b713756444bb981a"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch09-the-four-pillars.md": {
+    "mtime": 1781300231.3651185,
+    "ast_hash": "e75342d7f5b04efb808e6cfa5844f468",
+    "semantic_hash": "e75342d7f5b04efb808e6cfa5844f468"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch09-the-incomplete-stack.md": {
+    "mtime": 1781300231.3651185,
+    "ast_hash": "580772d42c5aecedcc94bbe855f44b95",
+    "semantic_hash": "580772d42c5aecedcc94bbe855f44b95"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch09-the-regulatory-intersection.md": {
+    "mtime": 1781300231.3651185,
+    "ast_hash": "daeca305a41a35a13ed98b505a5b3e5e",
+    "semantic_hash": "daeca305a41a35a13ed98b505a5b3e5e"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch09-three-kinds-of-security.md": {
+    "mtime": 1781300231.3651185,
+    "ast_hash": "ff64215d8fdd46e69b949121b511144f",
+    "semantic_hash": "ff64215d8fdd46e69b949121b511144f"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch10-path-one-the-hybrid-stark-to-snark-pipeline.md": {
+    "mtime": 1781300231.36612,
+    "ast_hash": "da72c41fdc727e073735942fdb2e0f05",
+    "semantic_hash": "da72c41fdc727e073735942fdb2e0f05"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch10-path-three-post-quantum-folding.md": {
+    "mtime": 1781300231.36612,
+    "ast_hash": "a08fc04786823d163515532d8c117ec7",
+    "semantic_hash": "a08fc04786823d163515532d8c117ec7"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch10-path-two-pure-transparent.md": {
+    "mtime": 1781300231.36612,
+    "ast_hash": "eabac0d9428d19afb63e1469019033ed",
+    "semantic_hash": "eabac0d9428d19afb63e1469019033ed"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch10-the-binary-that-broke.md": {
+    "mtime": 1781300231.36612,
+    "ast_hash": "d66b9b463ee698c6e7064f1204c0eddb",
+    "semantic_hash": "d66b9b463ee698c6e7064f1204c0eddb"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch10-the-causal-web-why-it-is-a-dag-not-a-stack.md": {
+    "mtime": 1781300231.36612,
+    "ast_hash": "6bc6c9418048f707a64cc6290e6529c1",
+    "semantic_hash": "6bc6c9418048f707a64cc6290e6529c1"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch10-the-map-redrawn.md": {
+    "mtime": 1781300231.3671172,
+    "ast_hash": "17e83b3a9ce5af5fdc362b1142e18462",
+    "semantic_hash": "17e83b3a9ce5af5fdc362b1142e18462"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch10-the-three-path-table.md": {
+    "mtime": 1781300231.3671172,
+    "ast_hash": "0176f89731f45e29d2eef39a31ca906f",
+    "semantic_hash": "0176f89731f45e29d2eef39a31ca906f"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch10-trust-decomposition-seven-weaker-assumptions.md": {
+    "mtime": 1781300231.3671172,
+    "ast_hash": "994e5f51fe09ec603e4a23eafead5da8",
+    "semantic_hash": "994e5f51fe09ec603e4a23eafead5da8"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch10-trustless-versus-trust-minimized.md": {
+    "mtime": 1781300231.3671172,
+    "ast_hash": "0d540c39f67b4aa08887847abc03a773",
+    "semantic_hash": "0d540c39f67b4aa08887847abc03a773"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch11-performance-the-cost-collapse.md": {
+    "mtime": 1781300231.3671172,
+    "ast_hash": "f7a68eb24cf6dfc57bacca70d41e5ad5",
+    "semantic_hash": "f7a68eb24cf6dfc57bacca70d41e5ad5"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch11-risc-v-convergence.md": {
+    "mtime": 1781300231.368117,
+    "ast_hash": "c1ce90642dd68d9988bc6a7a087ccb54",
+    "semantic_hash": "c1ce90642dd68d9988bc6a7a087ccb54"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch11-the-landscape-table-march-2026.md": {
+    "mtime": 1781300231.368117,
+    "ast_hash": "17168073ec7df47a38b295d130f8d00e",
+    "semantic_hash": "17168073ec7df47a38b295d130f8d00e"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch11-the-proof-core-triad.md": {
+    "mtime": 1781300231.368117,
+    "ast_hash": "b17103dc579c7717fb93adaeaf4c24e8",
+    "semantic_hash": "b17103dc579c7717fb93adaeaf4c24e8"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch11-the-stage-is-set.md": {
+    "mtime": 1781300231.368117,
+    "ast_hash": "a50125e4804b320fcbba6a2f9e3a5251",
+    "semantic_hash": "a50125e4804b320fcbba6a2f9e3a5251"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch11-three-zkvms-through-seven-layers.md": {
+    "mtime": 1781300231.368117,
+    "ast_hash": "4ace157cec0d7b73e97c836f36bee492",
+    "semantic_hash": "4ace157cec0d7b73e97c836f36bee492"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch11-zkvms-across-the-stack.md": {
+    "mtime": 1781300231.3691173,
+    "ast_hash": "facd65f8851f887da80990a1118f149b",
+    "semantic_hash": "facd65f8851f887da80990a1118f149b"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch12-five-lessons-for-zk-system-design.md": {
+    "mtime": 1781300231.3691173,
+    "ast_hash": "711f50c5c3e7b4336063f443143828e3",
+    "semantic_hash": "711f50c5c3e7b4336063f443143828e3"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch12-full-seven-layer-mapping.md": {
+    "mtime": 1781300231.3691173,
+    "ast_hash": "e2d2ce988eecbb1c6a96ea3fb71b8bb2",
+    "semantic_hash": "e2d2ce988eecbb1c6a96ea3fb71b8bb2"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch12-midnight-as-test-case.md": {
+    "mtime": 1781300231.3691173,
+    "ast_hash": "4466d35a0492de111ea33cd1ceedbe77",
+    "semantic_hash": "4466d35a0492de111ea33cd1ceedbe77"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch12-midnight-at-a-glance.md": {
+    "mtime": 1781300231.3691173,
+    "ast_hash": "0225b12cba538f1cf2bf28a216c0cb62",
+    "semantic_hash": "0225b12cba538f1cf2bf28a216c0cb62"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch12-the-privacy-theater-analogy.md": {
+    "mtime": 1781300231.3691173,
+    "ast_hash": "efe9662fa3053c1124a9489d9eba91d5",
+    "semantic_hash": "efe9662fa3053c1124a9489d9eba91d5"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch12-where-midnight-challenges-the-model.md": {
+    "mtime": 1781300231.3691173,
+    "ast_hash": "503b436cc072779d5dbd2d8623a3e96c",
+    "semantic_hash": "503b436cc072779d5dbd2d8623a3e96c"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch12-where-midnight-validates-the-model.md": {
+    "mtime": 1781300231.3706203,
+    "ast_hash": "3d7b457f3f5bceeb58c1ba6107e32ca9",
+    "semantic_hash": "3d7b457f3f5bceeb58c1ba6107e32ca9"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch13-enterprise-pilots-pilot.md": {
+    "mtime": 1781300231.3706203,
+    "ast_hash": "61577ebefa541992f101fce4a3ac7c52",
+    "semantic_hash": "61577ebefa541992f101fce4a3ac7c52"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch13-market-sizing.md": {
+    "mtime": 1781300231.3706203,
+    "ast_hash": "b374541425cb9fe2b38757e8f688238a",
+    "semantic_hash": "b374541425cb9fe2b38757e8f688238a"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch13-proving-as-a-service-the-prover-market-production.md": {
+    "mtime": 1781300231.3706203,
+    "ast_hash": "547afa03bcf8aa5d40ad86d6d6eee2a7",
+    "semantic_hash": "547afa03bcf8aa5d40ad86d6d6eee2a7"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch13-zk-coprocessors-off-chain-computation-on-chain-verification-growth.md": {
+    "mtime": 1781300231.3706203,
+    "ast_hash": "2b228631adb2c085ebb3ff4e791e49ef",
+    "semantic_hash": "2b228631adb2c085ebb3ff4e791e49ef"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch13-zk-identity-growth-regulatory-mandate.md": {
+    "mtime": 1781300231.3716247,
+    "ast_hash": "250a66cb3eb553c1447f49e1f9db22f7",
+    "semantic_hash": "250a66cb3eb553c1447f49e1f9db22f7"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch13-zk-rollups-the-proving-grounds-production.md": {
+    "mtime": 1781300231.3716247,
+    "ast_hash": "7abad0d68bc048d29953f0ecb1ddefcc",
+    "semantic_hash": "7abad0d68bc048d29953f0ecb1ddefcc"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch13-zkml-provable-machine-learning-research.md": {
+    "mtime": 1781300231.3716247,
+    "ast_hash": "030879ff544325b1d9d28143f859c168",
+    "semantic_hash": "030879ff544325b1d9d28143f859c168"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch14-coda.md": {
+    "mtime": 1781300231.3722444,
+    "ast_hash": "a1f2fe26105374f15fc3d0ea89307d43",
+    "semantic_hash": "a1f2fe26105374f15fc3d0ea89307d43"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch14-convergence.md": {
+    "mtime": 1781300231.3722444,
+    "ast_hash": "a0b80a623c21da8ec887023988b2891c",
+    "semantic_hash": "a0b80a623c21da8ec887023988b2891c"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch14-the-seven-questions-that-remain-open.md": {
+    "mtime": 1781300231.3722444,
+    "ast_hash": "c8e77e5e36b497217e1c23846e3dff40",
+    "semantic_hash": "c8e77e5e36b497217e1c23846e3dff40"
+  },
+  "C:\\sevenlayer\\wiki\\sections\\ch14-the-three-frontiers.md": {
+    "mtime": 1781300231.3722444,
+    "ast_hash": "d0bcfa0f1d5c643bfe6278f6bba3d57b",
+    "semantic_hash": "d0bcfa0f1d5c643bfe6278f6bba3d57b"
+  },
+  "C:\\sevenlayer\\references\\ch01\\ref-02-gmr-knowledge-complexity.pdf": {
+    "mtime": 1781305702.68866,
+    "ast_hash": "800378d4034b51a7f46a4bd5c7942ac5",
+    "semantic_hash": "800378d4034b51a7f46a4bd5c7942ac5"
+  },
+  "C:\\sevenlayer\\references\\ch01\\ref-03-sok-snark-vulnerabilities.pdf": {
+    "mtime": 1781305702.7749598,
+    "ast_hash": "9f0b965a614d2cba75f6ab6dbf7bc953",
+    "semantic_hash": "9f0b965a614d2cba75f6ab6dbf7bc953"
+  },
+  "C:\\sevenlayer\\references\\ch02\\ref-04-kzg-commitments.pdf": {
+    "mtime": 1781305703.4432335,
+    "ast_hash": "8fe2159fd052ba5cb2f5421f4a2f0130",
+    "semantic_hash": "8fe2159fd052ba5cb2f5421f4a2f0130"
+  },
+  "C:\\sevenlayer\\references\\ch02\\ref-05-mpc-random-beacon.pdf": {
+    "mtime": 1781305953.8847258,
+    "ast_hash": "e882004f60e2d26f6ec63c7c9036bc7c",
+    "semantic_hash": "e882004f60e2d26f6ec63c7c9036bc7c"
+  },
+  "C:\\sevenlayer\\references\\ch02\\ref-06-groth16.pdf": {
+    "mtime": 1781305956.6562362,
+    "ast_hash": "61d8bc63ef034ae08aec16e96d0ed54a",
+    "semantic_hash": "61d8bc63ef034ae08aec16e96d0ed54a"
+  },
+  "C:\\sevenlayer\\references\\ch02\\ref-07-plonk.pdf": {
+    "mtime": 1781305959.3691509,
+    "ast_hash": "32aab72504ba4fadcaacec229c32d35f",
+    "semantic_hash": "32aab72504ba4fadcaacec229c32d35f"
+  },
+  "C:\\sevenlayer\\references\\ch02\\ref-08-stark.pdf": {
+    "mtime": 1781305962.10118,
+    "ast_hash": "1b45a0ee6a45ef151e80f31262a8d15c",
+    "semantic_hash": "1b45a0ee6a45ef151e80f31262a8d15c"
+  },
+  "C:\\sevenlayer\\references\\ch02\\ref-09-bulletproofs.pdf": {
+    "mtime": 1781305964.9531748,
+    "ast_hash": "b13f35c1e4b41439c1ffd33401b0e541",
+    "semantic_hash": "b13f35c1e4b41439c1ffd33401b0e541"
+  },
+  "C:\\sevenlayer\\references\\ch02\\ref-10-sok-powers-of-tau.pdf": {
+    "mtime": 1781305967.7126272,
+    "ast_hash": "fa128c077b319fd59bddab5cf2876d78",
+    "semantic_hash": "fa128c077b319fd59bddab5cf2876d78"
+  },
+  "C:\\sevenlayer\\references\\ch02\\ref-11-latticefold-plus.pdf": {
+    "mtime": 1781305970.4081874,
+    "ast_hash": "78c8bb9c9453ff7fbf10fa9c91113482",
+    "semantic_hash": "78c8bb9c9453ff7fbf10fa9c91113482"
+  },
+  "C:\\sevenlayer\\references\\ch03\\ref-12-underconstrained-circuits.pdf": {
+    "mtime": 1781305973.1823716,
+    "ast_hash": "defb5284a98b690ebe669ee155393da8",
+    "semantic_hash": "defb5284a98b690ebe669ee155393da8"
+  },
+  "C:\\sevenlayer\\references\\ch03\\ref-13-practical-security-zk-circuits.pdf": {
+    "mtime": 1781305975.8427217,
+    "ast_hash": "6f3c5bd3a590b9ec8908e7f66e99dc97",
+    "semantic_hash": "6f3c5bd3a590b9ec8908e7f66e99dc97"
+  },
+  "C:\\sevenlayer\\references\\ch03\\ref-14-ccs-customizable-constraints.pdf": {
+    "mtime": 1781305978.5354233,
+    "ast_hash": "b727746a7d873737ee79eb95e171e002",
+    "semantic_hash": "b727746a7d873737ee79eb95e171e002"
+  },
+  "C:\\sevenlayer\\references\\ch03\\ref-15-lasso.pdf": {
+    "mtime": 1781305981.3498123,
+    "ast_hash": "b4c9065be1aba5032a3681d3b838c939",
+    "semantic_hash": "b4c9065be1aba5032a3681d3b838c939"
+  },
+  "C:\\sevenlayer\\references\\ch03\\ref-16-jolt.pdf": {
+    "mtime": 1781305984.1618946,
+    "ast_hash": "db6e744a98d2e3fb115ababa9f1fc311",
+    "semantic_hash": "db6e744a98d2e3fb115ababa9f1fc311"
+  },
+  "C:\\sevenlayer\\references\\ch06\\ref-17-nova.pdf": {
+    "mtime": 1781305986.9835637,
+    "ast_hash": "046797d0520382c59136b61e398d5407",
+    "semantic_hash": "046797d0520382c59136b61e398d5407"
+  },
+  "C:\\sevenlayer\\references\\ch06\\ref-18-hypernova.pdf": {
+    "mtime": 1781305989.7287803,
+    "ast_hash": "f5e6bfa927d2797a0268fa8bd61eb4fc",
+    "semantic_hash": "f5e6bfa927d2797a0268fa8bd61eb4fc"
+  },
+  "C:\\sevenlayer\\references\\ch06\\ref-19-protostar.pdf": {
+    "mtime": 1781305992.5573974,
+    "ast_hash": "6aa1f1d2bfe3709935b27a6695f11d85",
+    "semantic_hash": "6aa1f1d2bfe3709935b27a6695f11d85"
+  },
+  "C:\\sevenlayer\\references\\ch06\\ref-20-latticefold.pdf": {
+    "mtime": 1781305995.3445954,
+    "ast_hash": "43bb80e47861c077aa1f03a6a6ef6bd7",
+    "semantic_hash": "43bb80e47861c077aa1f03a6a6ef6bd7"
+  },
+  "C:\\sevenlayer\\references\\ch06\\ref-21-neo.pdf": {
+    "mtime": 1781305998.056463,
+    "ast_hash": "c8b74c1c44a52caf3d6fbbfd183538a7",
+    "semantic_hash": "c8b74c1c44a52caf3d6fbbfd183538a7"
+  },
+  "C:\\sevenlayer\\references\\ch06\\ref-23-circle-starks.pdf": {
+    "mtime": 1781306000.78041,
+    "ast_hash": "7d0193b801def811367c529ea6552ede",
+    "semantic_hash": "7d0193b801def811367c529ea6552ede"
+  },
+  "C:\\sevenlayer\\references\\ch07\\ref-24-shor.pdf": {
+    "mtime": 1781305704.939946,
+    "ast_hash": "1fd111e8fb3c8b92f2473443ad4343e0",
+    "semantic_hash": "1fd111e8fb3c8b92f2473443ad4343e0"
+  },
+  "C:\\sevenlayer\\references\\ch07\\ref-25-nist-fips-203-204-205.pdf": {
+    "mtime": 1781305705.8559046,
+    "ast_hash": "c530bf4e6337e1a09b7e2a450c556c36",
+    "semantic_hash": "c530bf4e6337e1a09b7e2a450c556c36"
+  },
+  "C:\\sevenlayer\\references\\ch07\\ref-26-nist-ir-8547.pdf": {
+    "mtime": 1781305706.9510636,
+    "ast_hash": "0868511563e00941aa0085015e881079",
+    "semantic_hash": "0868511563e00941aa0085015e881079"
+  },
+  "C:\\sevenlayer\\references\\ch08\\ref-28-rollup-pricing-attacks.pdf": {
+    "mtime": 1781305707.8912275,
+    "ast_hash": "ae8062856dfe8274653c9073eb41f47f",
+    "semantic_hash": "ae8062856dfe8274653c9073eb41f47f"
+  },
+  "C:\\sevenlayer\\references\\ch09\\ref-29-gentry-fhe.pdf": {
+    "mtime": 1781305709.0126002,
+    "ast_hash": "b5e280a51b8957a643109757b158d000",
+    "semantic_hash": "b5e280a51b8957a643109757b158d000"
+  },
+  "C:\\sevenlayer\\references\\ch09\\ref-30-kachina.pdf": {
+    "mtime": 1781306003.596317,
+    "ast_hash": "b63b087a25a39b9a5ec1535589c9eaaa",
+    "semantic_hash": "b63b087a25a39b9a5ec1535589c9eaaa"
+  },
+  "C:\\sevenlayer\\references\\ch09\\ref-31-blockchain-privacy-compliance.pdf": {
+    "mtime": 1781306041.6505632,
+    "ast_hash": "84113d038ceb5baadffd01db62882b36",
+    "semantic_hash": "84113d038ceb5baadffd01db62882b36"
+  },
+  "C:\\sevenlayer\\references\\ch10\\ref-32-zkvm-compiler-optimization.pdf": {
+    "mtime": 1781305720.2495153,
+    "ast_hash": "9a2a35dea264874fa035f5ebc7f171b9",
+    "semantic_hash": "9a2a35dea264874fa035f5ebc7f171b9"
+  },
+  "C:\\sevenlayer\\references\\ch10\\ref-33-circ.pdf": {
+    "mtime": 1781306006.3785841,
+    "ast_hash": "e8948e566287ec50d09a3b12417aba06",
+    "semantic_hash": "e8948e566287ec50d09a3b12417aba06"
+  },
+  "C:\\sevenlayer\\references\\ch10\\ref-35-coda.pdf": {
+    "mtime": 1781306009.1527326,
+    "ast_hash": "08b54e74076d668362c6778fae9d7dd1",
+    "semantic_hash": "08b54e74076d668362c6778fae9d7dd1"
+  },
+  "C:\\sevenlayer\\references\\ch10\\ref-36-sonic.pdf": {
+    "mtime": 1781306011.9193575,
+    "ast_hash": "563bf87e92603d79a5e5b55fd9ddb104",
+    "semantic_hash": "563bf87e92603d79a5e5b55fd9ddb104"
+  },
+  "C:\\sevenlayer\\references\\ch10\\ref-37-updatable-universal-crs.pdf": {
+    "mtime": 1781306014.6135478,
+    "ast_hash": "fafdcce68fc6ca063f0b37a74a9a1377",
+    "semantic_hash": "fafdcce68fc6ca063f0b37a74a9a1377"
+  },
+  "C:\\sevenlayer\\references\\ch10\\ref-38-snarky-ceremonies.pdf": {
+    "mtime": 1781306017.3929737,
+    "ast_hash": "7250c946c915bd32a7499981ccfa6b10",
+    "semantic_hash": "7250c946c915bd32a7499981ccfa6b10"
+  },
+  "C:\\sevenlayer\\references\\ch10\\ref-50-extended-tower-nfs.pdf": {
+    "mtime": 1781306025.5776832,
+    "ast_hash": "22429fe95bac88d69c987a05ce74d471",
+    "semantic_hash": "22429fe95bac88d69c987a05ce74d471"
+  },
+  "C:\\sevenlayer\\references\\ch10\\ref-51-pairing-efficiency-curves.pdf": {
+    "mtime": 1781306028.2783277,
+    "ast_hash": "cfa09fcf3775137df6b35c7b227dc99d",
+    "semantic_hash": "cfa09fcf3775137df6b35c7b227dc99d"
+  },
+  "C:\\sevenlayer\\references\\ch10\\ref-56-symphony.pdf": {
+    "mtime": 1781306031.0423145,
+    "ast_hash": "2a2a3978a385bcd3668586a0b663fb60",
+    "semantic_hash": "2a2a3978a385bcd3668586a0b663fb60"
+  },
+  "C:\\sevenlayer\\references\\ch13\\ref-59-world-whitepaper.pdf": {
+    "mtime": 1781306833.140956,
+    "ast_hash": "2c9e82483688e449db121e957ae431f0",
+    "semantic_hash": "2c9e82483688e449db121e957ae431f0"
+  },
+  "C:\\sevenlayer\\references\\ch13\\ref-60-eidas-2-regulation.pdf": {
+    "mtime": 1781305725.374561,
+    "ast_hash": "622934be57cd6796b4320f89ba5c1edf",
+    "semantic_hash": "622934be57cd6796b4320f89ba5c1edf"
+  },
+  "C:\\sevenlayer\\references\\ch14\\ref-45-small-space-cpu-proofs.pdf": {
+    "mtime": 1781306020.109465,
+    "ast_hash": "f703a9b30dd3a6516e2f3cee9ddb7e1b",
+    "semantic_hash": "f703a9b30dd3a6516e2f3cee9ddb7e1b"
+  },
+  "C:\\sevenlayer\\references\\ch14\\ref-46-zk-memory-algebraic-proofs.pdf": {
+    "mtime": 1781306022.8752885,
+    "ast_hash": "dd0b446a8c6fd7260bbbfd8a2413fb69",
+    "semantic_hash": "dd0b446a8c6fd7260bbbfd8a2413fb69"
+  },
+  "C:\\sevenlayer\\references\\ch14\\ref-61-arguzz.pdf": {
+    "mtime": 1781305725.4956846,
+    "ast_hash": "5d5019afbf6721f0a0f629f8cb84f634",
+    "semantic_hash": "5d5019afbf6721f0a0f629f8cb84f634"
+  },
+  "C:\\sevenlayer\\references\\ch14\\ref-62-lattice-functional-commitments.pdf": {
+    "mtime": 1781306033.7371762,
+    "ast_hash": "1866114c4cd71c80a698c36388fb9dd0",
+    "semantic_hash": "1866114c4cd71c80a698c36388fb9dd0"
+  },
+  "C:\\sevenlayer\\references\\ch14\\ref-63-harvest-now-decrypt-later.pdf": {
+    "mtime": 1781305725.7463737,
+    "ast_hash": "ff6f10800587b962dfa984bbbb45bf02",
+    "semantic_hash": "ff6f10800587b962dfa984bbbb45bf02"
+  },
+  "C:\\sevenlayer\\references\\ch14\\ref-64-fips-204.pdf": {
+    "mtime": 1781305726.9936092,
+    "ast_hash": "4c53612c494078b541538c2c92a95348",
+    "semantic_hash": "4c53612c494078b541538c2c92a95348"
+  },
+  "C:\\sevenlayer\\references\\ch14\\ref-65-greyhound.pdf": {
+    "mtime": 1781306036.5176508,
+    "ast_hash": "a8b92a503edf0879e04b7ec38909cb1d",
+    "semantic_hash": "a8b92a503edf0879e04b7ec38909cb1d"
+  }
+}
