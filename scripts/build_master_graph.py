@@ -251,9 +251,9 @@ def reference_support(graph: dict) -> dict[str, int]:
     for nid, ns in nbrs.items():
         files = set()
         for cand in (nid, *ns):
-            f = sf.get(cand)
-            if _is_reference(f):
-                files.add(f.replace("\\", "/"))
+            fn = (sf.get(cand) or "").replace("\\", "/")
+            if _is_reference(fn):
+                files.add(fn)
         support[nid] = len(files)
     return support
 
@@ -310,7 +310,7 @@ def coverage_diff(graph: dict, scored: list[dict], under_threshold: int = 4) -> 
 def top_hub_nodes(graph: dict, n: int = 100) -> list[dict]:
     """The n highest-degree concept nodes, for the LLM synonym pass."""
     deg = degree_map(graph)
-    concepts = [x for x in graph["nodes"] if str(x.get("id", "")).startswith("concept_")]
+    concepts = [x for x in graph["nodes"] if is_concept(x)]
     return sorted(concepts, key=lambda x: (-deg.get(x["id"], 0), x["id"]))[:n]
 
 

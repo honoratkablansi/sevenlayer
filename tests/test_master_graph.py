@@ -154,3 +154,16 @@ def test_chapter_of_reads_source_location():
     assert m.chapter_of({"source_location": "Chapter 7"}) == "Chapter 7"
     assert m.chapter_of({"source_location": "Recursion Chapter 2"}) == "Chapter 2"
     assert m.chapter_of({"source_location": None}) == "Unassigned"
+
+
+def test_coverage_diff_well_covered_and_wiki_chapter():
+    g = _g(
+        [{"id": "concept_w", "label": "W", "source_file": "wiki/chapters/ch03.md",
+          "source_location": "Chapter 3"}],
+        [],
+    )
+    scored = [{"id": "concept_w", "label": "W", "degree": 4, "support": 1,
+               "community": 1, "is_hub": False, "score": 6}]
+    out = m.coverage_diff(g, scored, under_threshold=4)
+    # source_file under wiki/chapters/ -> covered; support 1 < threshold 4 -> well-covered
+    assert out[0]["verdict"] == "well-covered"
