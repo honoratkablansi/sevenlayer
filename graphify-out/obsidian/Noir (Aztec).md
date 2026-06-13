@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch03-the-four-philosophies.md"
 type: "document"
-community: "zkVM Design Philosophy"
+community: "Programmable Privacy & Midnight"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/zkVM_Design_Philosophy
+  - community/Programmable_Privacy__Midnight
 ---
 
 # Noir (Aztec)
@@ -18,4 +18,4 @@ tags:
 - [[Under-Constrained Circuits The Dominant Failure Mode]] - `references` [EXTRACTED]
 - [[Witness-Constraint Divergence]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/zkVM_Design_Philosophy
+#graphify/document #graphify/EXTRACTED #community/Programmable_Privacy__Midnight

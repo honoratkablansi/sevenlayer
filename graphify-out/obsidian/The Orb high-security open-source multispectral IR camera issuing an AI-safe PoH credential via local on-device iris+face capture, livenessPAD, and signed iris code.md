@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch13/ref-59-world-whitepaper.pdf"
 type: "paper"
-community: "World & Proof of Personhood"
+community: "Digital Identity & Proof of Personhood"
 location: "§1.2.5.2, §2.4"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/World__Proof_of_Personhood
+  - community/Digital_Identity__Proof_of_Personhood
 ---
 
 # The Orb: high-security open-source multispectral IR camera issuing an AI-safe PoH credential via local on-device iris+face capture, liveness/PAD, and signed iris code
@@ -19,4 +19,4 @@ tags:
 - [[Proof of Human (PoH) private primitive establishing a party is a real, unique human (or agent acting on a human's behalf)]] - `proves` [EXTRACTED]
 - [[Unique iris code frequency-based features extracted from iris texture via multi-scale Gabor wavelet filters with quantized phase response; matched by Hamming distance with masks]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/World__Proof_of_Personhood
+#graphify/paper #graphify/EXTRACTED #community/Digital_Identity__Proof_of_Personhood

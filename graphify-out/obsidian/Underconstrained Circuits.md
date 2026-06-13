@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch03/ref-12-underconstrained-circuits.pdf"
 type: "document"
-community: "Under-Constrained Detection (QED2)"
+community: "Under-Constrained Circuits (Picus)"
 location: "abstract"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Under-Constrained_Detection_QED2
+  - community/Under-Constrained_Circuits_Picus
 ---
 
 # Underconstrained Circuits
@@ -25,4 +25,4 @@ tags:
 - [[Uniqueness Constraint Propagation (UCP)]] - `conceptually_related_to` [EXTRACTED]
 - [[Unsafe component usage vulnerability class]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Under-Constrained_Detection_QED2
+#graphify/document #graphify/EXTRACTED #community/Under-Constrained_Circuits_Picus

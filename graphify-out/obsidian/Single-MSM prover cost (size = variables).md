@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-18-hypernova.pdf"
 type: "paper"
-community: "Bulletproofs & Range Proofs"
+community: "Recursive Proofs & IVC"
 location: "Abstract / Theorem 3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Bulletproofs__Range_Proofs
+  - community/Recursive_Proofs__IVC
 ---
 
 # Single-MSM prover cost (size = #variables)
@@ -15,4 +15,4 @@ tags:
 - [[Pedersen Commitments]] - `assumes` [EXTRACTED]
 - [[Theorem 3 (HyperNova NIVC scheme)]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Bulletproofs__Range_Proofs
+#graphify/paper #graphify/EXTRACTED #community/Recursive_Proofs__IVC

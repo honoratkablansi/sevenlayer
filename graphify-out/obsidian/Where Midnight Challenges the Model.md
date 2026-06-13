@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch12-where-midnight-challenges-the-model.md"
 type: "document"
-community: "Core Concepts & Book Spine"
+community: "Programmable Privacy & Midnight"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Core_Concepts__Book_Spine
+  - community/Programmable_Privacy__Midnight
 ---
 
 # Where Midnight Challenges the Model
@@ -26,4 +26,4 @@ tags:
 - [[UTXO Model]] - `references` [EXTRACTED]
 - [[ZKIR (Midnight Intermediate Representation)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Core_Concepts__Book_Spine
+#graphify/document #graphify/EXTRACTED #community/Programmable_Privacy__Midnight

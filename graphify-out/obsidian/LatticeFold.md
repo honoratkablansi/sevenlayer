@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/06-the-sealed-certificate.md"
 type: "document"
-community: "Folding Genealogy & Post-Quantum"
+community: "Folding & Lattice Crypto"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Folding_Genealogy__Post-Quantum
+  - community/Folding__Lattice_Crypto
 ---
 
 # LatticeFold
@@ -30,4 +30,4 @@ tags:
 - [[The Synthesis -- Three Paths, Not Two]] - `references` [EXTRACTED]
 - [[The Trilemma -- And Its Dissolution]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Folding_Genealogy__Post-Quantum
+#graphify/document #graphify/EXTRACTED #community/Folding__Lattice_Crypto

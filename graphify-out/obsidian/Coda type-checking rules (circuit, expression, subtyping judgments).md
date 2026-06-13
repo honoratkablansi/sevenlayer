@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-35-coda.pdf"
 type: "paper"
-community: "Circuit Verification (Coda)"
+community: "Coda Type System & Coq"
 location: "§3.3.1, Fig.6"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Circuit_Verification_Coda
+  - community/Coda_Type_System__Coq
 ---
 
 # Coda type-checking rules (circuit, expression, subtyping judgments)
@@ -17,4 +17,4 @@ tags:
 - [[Theorem 1 Expression Type Preservation (soundness)]] - `proves` [EXTRACTED]
 - [[iter combinator with annotated loop invariant]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Circuit_Verification_Coda
+#graphify/paper #graphify/EXTRACTED #community/Coda_Type_System__Coq

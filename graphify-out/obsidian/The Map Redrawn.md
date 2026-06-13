@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch10-the-map-redrawn.md"
 type: "document"
-community: "zkVM & STARK Stacks"
+community: "Core Concepts & Book Spine"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/zkVM__STARK_Stacks
+  - community/Core_Concepts__Book_Spine
 ---
 
 # The Map Redrawn
@@ -18,4 +18,4 @@ tags:
 - [[The Causal Web Why It Is a DAG, Not a Stack]] - `references` [EXTRACTED]
 - [[The Synthesis -- Three Paths, Not Two]] - `part_of` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/zkVM__STARK_Stacks
+#graphify/document #graphify/EXTRACTED #community/Core_Concepts__Book_Spine

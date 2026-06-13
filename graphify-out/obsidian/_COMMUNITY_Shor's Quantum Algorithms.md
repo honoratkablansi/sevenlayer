@@ -1,22 +1,20 @@
 ---
 type: community
-cohesion: 0.13
-members: 20
+cohesion: 0.18
+members: 13
 ---
 
 # Shor's Quantum Algorithms
 
-**Cohesion:** 0.13 - loosely connected
-**Members:** 20 nodes
+**Cohesion:** 0.18 - loosely connected
+**Members:** 13 nodes
 
 ## Members
 - [[Algorithms for Quantum Computation Discrete Logarithms and Factoring]] - paper - references/ch07/ref-24-shor.pdf
 - [[BQP (bounded-error quantum polynomial time)]] - paper - references/ch07/ref-24-shor.pdf
 - [[Coppersmith approximate Fourier transform]] - paper - references/ch07/ref-24-shor.pdf
 - [[Decoherence and gate imprecision obstacles]] - paper - references/ch07/ref-24-shor.pdf
-- [[Discrete Logarithm Problem]] - paper - references/ch07/ref-24-shor.pdf
 - [[Discrete-log-based public-key cryptosystems (Diffie-HellmanDSA)]] - paper - references/ch07/ref-24-shor.pdf
-- [[ECDSA (Elliptic Curve Digital Signature Algorithm)]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
 - [[Peter W. Shor]] - paper - references/ch07/ref-24-shor.pdf
 - [[Quantitative (Strong) Church's thesis]] - paper - references/ch07/ref-24-shor.pdf
 - [[Quantum Computing]] - paper - references/ch07/ref-24-shor.pdf
@@ -24,11 +22,6 @@ members: 20
 - [[Quantum discrete logarithm algorithm]] - paper - references/ch07/ref-24-shor.pdf
 - [[Quantum gate array (acyclic circuit) model]] - paper - references/ch07/ref-24-shor.pdf
 - [[Quantum interference  superposition]] - paper - references/ch07/ref-24-shor.pdf
-- [[Quantum-vulnerable digital signatures (ECDSA, EdDSA, RSA per FIPS 186)]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
-- [[Quantum-vulnerable key establishment (Finite FieldEC DH & MQV per SP 800-56A, RSA per SP 800-56B)]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
-- [[RSA Cryptosystem]] - paper - references/ch07/ref-24-shor.pdf
-- [[RSA public-key cryptosystem (Rivest-Shamir-Adleman 1978)]] - paper - references/ch07/ref-24-shor.pdf
-- [[Shor's Algorithm]] - paper - references/ch07/ref-24-shor.pdf
 - [[Simon's oracle algorithm (inspiration for this work)]] - paper - references/ch07/ref-24-shor.pdf
 
 ## Live Query (requires Dataview plugin)
@@ -39,18 +32,15 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 4 edges to [[_COMMUNITY_Shor Factoring Internals]]
-- 3 edges to [[_COMMUNITY_PQC Transition (NIST IR 8547)]]
-- 3 edges to [[_COMMUNITY_Extended Tower NFS]]
-- 2 edges to [[_COMMUNITY_Folding Genealogy & Post-Quantum]]
-- 1 edge to [[_COMMUNITY_Core Concepts & Book Spine]]
+- 2 edges to [[_COMMUNITY_Pairing & Discrete-Log Security]]
+- 2 edges to [[_COMMUNITY_Quantum-Vulnerable Crypto & PQC Schedule]]
+- 2 edges to [[_COMMUNITY_Shor Factoring Internals]]
+- 1 edge to [[_COMMUNITY_Folding & Lattice Crypto]]
 - 1 edge to [[_COMMUNITY_Recursive Proofs & IVC]]
-- 1 edge to [[_COMMUNITY_Harvest-Now-Decrypt-Later]]
-- 1 edge to [[_COMMUNITY_Bitcoin Quantum Risk (HNDL)]]
+- 1 edge to [[_COMMUNITY_PQC Transition (NIST IR 8547)]]
 
 ## Top bridge nodes
-- [[Shor's Algorithm]] - degree 7, connects to 4 communities
-- [[Algorithms for Quantum Computation Discrete Logarithms and Factoring]] - degree 13, connects to 3 communities
-- [[Discrete Logarithm Problem]] - degree 7, connects to 2 communities
+- [[Algorithms for Quantum Computation Discrete Logarithms and Factoring]] - degree 13, connects to 5 communities
 - [[Quantum Fourier transform]] - degree 5, connects to 1 community
-- [[Quantum-vulnerable digital signatures (ECDSA, EdDSA, RSA per FIPS 186)]] - degree 4, connects to 1 community
+- [[Quantum discrete logarithm algorithm]] - degree 4, connects to 1 community
+- [[Quantum Computing]] - degree 3, connects to 1 community

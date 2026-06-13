@@ -1,38 +1,36 @@
 ---
 type: community
-cohesion: 0.12
-members: 23
+cohesion: 0.25
+members: 21
 ---
 
 # Community 25
 
-**Cohesion:** 0.12 - loosely connected
-**Members:** 23 nodes
+**Cohesion:** 0.25 - loosely connected
+**Members:** 21 nodes
 
 ## Members
-- [[(Super)Spartan zkSNARK]] - paper - references/ch06/ref-21-neo.pdf
-- [[Commitment Transformation Protocol Pi_cm]] - paper - references/ch02/ref-11-latticefold-plus.pdf
-- [[Decomposition Pi_decomp (R_lin,B2 - R_lin,B(2))]] - paper - references/ch02/ref-11-latticefold-plus.pdf
-- [[Double Commitment (commitment of commitments, dcom)]] - paper - references/ch02/ref-11-latticefold-plus.pdf
-- [[Greyhound NS24 (LaBRADOR-based PCS, sqrt verifier)]] - paper - references/ch02/ref-11-latticefold-plus.pdf
-- [[HyperNova KS24b (linearization, CCS folding)]] - paper - references/ch02/ref-11-latticefold-plus.pdf
-- [[IVC  Proof-Carrying Data]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[LaBRADOR BS23 (commitments-to-commitments, short proofs)]] - paper - references/ch02/ref-11-latticefold-plus.pdf
-- [[Lattice IVCPCD with Spartan+FRI proof compression, no curve cycles]] - paper - references/ch06/ref-21-neo.pdf
-- [[LatticeFold BC24 (predecessor)]] - paper - references/ch02/ref-11-latticefold-plus.pdf
-- [[LatticeFold+ Folding Scheme (R_comp x R_acc - R_acc)]] - paper - references/ch02/ref-11-latticefold-plus.pdf
-- [[LatticeFold+ Faster, Simpler, Shorter Lattice-Based Folding for Succinct Proof Systems]] - paper - references/ch02/ref-11-latticefold-plus.pdf
-- [[Lemma 2.2 ct(bpsi)=a characterizes range membership via EXP]] - paper - references/ch02/ref-11-latticefold-plus.pdf
-- [[Lova FKNP24 (l2-norm integer Ajtai folding)]] - paper - references/ch02/ref-11-latticefold-plus.pdf
-- [[Multi-Input Folding Pi_mlin (R_lin,B(L) - R_lin,B2)]] - paper - references/ch02/ref-11-latticefold-plus.pdf
-- [[Neo NS25 (small-field embedding into cyclotomic ring)]] - paper - references/ch02/ref-11-latticefold-plus.pdf
-- [[Proof Size O_lambda(kappad + log n) (vs LatticeFold kappadlogB)]] - paper - references/ch02/ref-11-latticefold-plus.pdf
-- [[Purely Algebraic Range Proof (no bit-decomposition)]] - paper - references/ch02/ref-11-latticefold-plus.pdf
-- [[Range Check Protocol Pi_rgchk (double-commitment range proof)]] - paper - references/ch02/ref-11-latticefold-plus.pdf
-- [[Small Prime Moduli Support (tensor-of-rings, Neo-style)]] - paper - references/ch02/ref-11-latticefold-plus.pdf
-- [[Theorem 5.1 Main folding RoK from R_comp x R_acc to R_acc]] - paper - references/ch02/ref-11-latticefold-plus.pdf
-- [[Theorem 5.3 Efficiency estimate (proververifierproof size)]] - paper - references/ch02/ref-11-latticefold-plus.pdf
-- [[~5x Faster Prover, Omega(log B) speedup over LatticeFold]] - paper - references/ch02/ref-11-latticefold-plus.pdf
+- [[BatchZK (pipelined GPU prover)]] - paper - wiki/sections/ch04-witness-generation-costs.md
+- [[Constant-Time Implementation]] - document - proving-nothing.md
+- [[Execution Trace]] - document - wiki/sections/ch04-execution-traces.md
+- [[Execution Traces]] - document - wiki/sections/ch04-execution-traces.md
+- [[GPU-Accelerated Proving]] - document - wiki/sections/ch04-witness-generation-costs.md
+- [[MSM (Multi-Scalar Multiplication)]] - document - wiki/sections/ch04-side-channel-attacks-when-the-walls-leak.md
+- [[Memory The Binding Constraint]] - document - wiki/sections/ch04-memory-the-binding-constraint.md
+- [[NTT (Number Theoretic Transform)]] - document - wiki/sections/ch04-witness-generation-costs.md
+- [[Plonky3]] - document - wiki/chapters/03-choreographing-the-act.md
+- [[Poseidon Hash]] - document - wiki/chapters/04-the-secret-performance.md
+- [[Reinforced Concrete Hash]] - document - wiki/chapters/04-the-secret-performance.md
+- [[Side-Channel Attacks]] - document - wiki/sections/ch04-side-channel-attacks-when-the-walls-leak.md
+- [[Side-Channel Attacks When the Walls Leak]] - document - wiki/sections/ch04-side-channel-attacks-when-the-walls-leak.md
+- [[Streaming Witness Generation (Nair, Thaler, Zhu)]] - paper - wiki/sections/ch04-witness-generation-costs.md
+- [[The Hidden Bottleneck]] - document - wiki/sections/ch04-the-hidden-bottleneck.md
+- [[The Secret Performance]] - document - wiki/chapters/04-the-secret-performance.md
+- [[The Witness as a Multi-Dimensional Problem]] - document - wiki/sections/ch04-the-witness-as-a-multi-dimensional-problem.md
+- [[Witness]] - document - wiki/sections/ch04-execution-traces.md
+- [[Witness Generation]] - document - wiki/chapters/04-the-secret-performance.md
+- [[Witness Generation Costs]] - document - wiki/sections/ch04-witness-generation-costs.md
+- [[ZKPoG (end-to-end GPU proving)]] - paper - wiki/sections/ch04-the-hidden-bottleneck.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -42,21 +40,22 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 7 edges to [[_COMMUNITY_Community 5]]
-- 6 edges to [[_COMMUNITY_Community 11]]
-- 3 edges to [[_COMMUNITY_Community 12]]
-- 3 edges to [[_COMMUNITY_Community 39]]
-- 2 edges to [[_COMMUNITY_Community 0]]
-- 2 edges to [[_COMMUNITY_Community 7]]
-- 1 edge to [[_COMMUNITY_Community 3]]
+- 32 edges to [[_COMMUNITY_Community 1]]
+- 23 edges to [[_COMMUNITY_Community 0]]
+- 19 edges to [[_COMMUNITY_Community 7]]
+- 15 edges to [[_COMMUNITY_Community 38]]
+- 14 edges to [[_COMMUNITY_Community 2]]
+- 5 edges to [[_COMMUNITY_Community 8]]
+- 2 edges to [[_COMMUNITY_Community 30]]
+- 2 edges to [[_COMMUNITY_Community 22]]
+- 1 edge to [[_COMMUNITY_Community 31]]
+- 1 edge to [[_COMMUNITY_Community 5]]
+- 1 edge to [[_COMMUNITY_Community 11]]
 - 1 edge to [[_COMMUNITY_Community 24]]
-- 1 edge to [[_COMMUNITY_Community 15]]
-- 1 edge to [[_COMMUNITY_Community 36]]
-- 1 edge to [[_COMMUNITY_Community 67]]
 
 ## Top bridge nodes
-- [[LatticeFold+ Faster, Simpler, Shorter Lattice-Based Folding for Succinct Proof Systems]] - degree 25, connects to 8 communities
-- [[LatticeFold BC24 (predecessor)]] - degree 6, connects to 2 communities
-- [[Commitment Transformation Protocol Pi_cm]] - degree 6, connects to 2 communities
-- [[Double Commitment (commitment of commitments, dcom)]] - degree 6, connects to 1 community
-- [[LatticeFold+ Folding Scheme (R_comp x R_acc - R_acc)]] - degree 6, connects to 1 community
+- [[The Secret Performance]] - degree 44, connects to 10 communities
+- [[NTT (Number Theoretic Transform)]] - degree 15, connects to 6 communities
+- [[Poseidon Hash]] - degree 25, connects to 5 communities
+- [[Witness Generation Costs]] - degree 22, connects to 5 communities
+- [[Side-Channel Attacks When the Walls Leak]] - degree 21, connects to 5 communities

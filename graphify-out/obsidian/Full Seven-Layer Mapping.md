@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch12-full-seven-layer-mapping.md"
 type: "document"
-community: "Core Concepts & Book Spine"
+community: "Programmable Privacy & Midnight"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Core_Concepts__Book_Spine
+  - community/Programmable_Privacy__Midnight
 ---
 
 # Full Seven-Layer Mapping
@@ -39,4 +39,4 @@ tags:
 - [[ZKIR (Midnight Intermediate Representation)]] - `references` [EXTRACTED]
 - [[Zcash]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Core_Concepts__Book_Spine
+#graphify/document #graphify/EXTRACTED #community/Programmable_Privacy__Midnight

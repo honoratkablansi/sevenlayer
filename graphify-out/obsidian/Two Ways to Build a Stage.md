@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch02-two-ways-to-build-a-stage.md"
 type: "document"
-community: "Core Concepts & Book Spine"
+community: "Programmable Privacy & Midnight"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Core_Concepts__Book_Spine
+  - community/Programmable_Privacy__Midnight
 ---
 
 # Two Ways to Build a Stage
@@ -33,4 +33,4 @@ tags:
 - [[Trusted Setup Ceremony]] - `conceptually_related_to` [EXTRACTED]
 - [[Zcash]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Core_Concepts__Book_Spine
+#graphify/document #graphify/EXTRACTED #community/Programmable_Privacy__Midnight

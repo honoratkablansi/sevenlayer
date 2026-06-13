@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-37-updatable-universal-crs.pdf"
 type: "paper"
-community: "Subversion-Resistant CRS"
+community: "Updatable CRS & KoE Assumptions"
 location: "Theorem 3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Subversion-Resistant_CRS
+  - community/Updatable_CRS__KoE_Assumptions
 ---
 
 # Theorem 3: perfect subversion zero-knowledge of the construction
@@ -15,4 +15,4 @@ tags:
 - [[Subversion-resistant NIZK  subversion zero-knowledge]] - `proves` [EXTRACTED]
 - [[Updatable & specializable QAP-based zk-SNARK construction]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Subversion-Resistant_CRS
+#graphify/paper #graphify/EXTRACTED #community/Updatable_CRS__KoE_Assumptions

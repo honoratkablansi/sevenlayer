@@ -24,8 +24,9 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 3 edges to [[_COMMUNITY_Universal SRS & Sonic]]
 - 2 edges to [[_COMMUNITY_Groth16 & Pairing SNARKs]]
+- 2 edges to [[_COMMUNITY_Universal SRS & Ceremonies]]
+- 1 edge to [[_COMMUNITY_PLONK & Permutation Arguments]]
 - 1 edge to [[_COMMUNITY_Trusted Setup Ceremonies]]
 
 ## Top bridge nodes

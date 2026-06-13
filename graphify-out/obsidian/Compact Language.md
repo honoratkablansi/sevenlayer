@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/03-choreographing-the-act.md"
 type: "document"
-community: "Core Concepts & Book Spine"
+community: "Programmable Privacy & Midnight"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Core_Concepts__Book_Spine
+  - community/Programmable_Privacy__Midnight
 ---
 
 # Compact Language
@@ -32,4 +32,4 @@ tags:
 - [[Where Midnight Challenges the Model]] - `references` [EXTRACTED]
 - [[Where Midnight Validates the Model]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Core_Concepts__Book_Spine
+#graphify/document #graphify/EXTRACTED #community/Programmable_Privacy__Midnight

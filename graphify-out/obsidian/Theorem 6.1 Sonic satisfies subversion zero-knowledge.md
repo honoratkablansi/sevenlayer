@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-36-sonic.pdf"
 type: "paper"
-community: "Universal SRS & Sonic"
+community: "Sonic Argument System"
 location: "Thm 6.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Universal_SRS__Sonic
+  - community/Sonic_Argument_System
 ---
 
 # Theorem 6.1: Sonic satisfies subversion zero-knowledge
@@ -15,4 +15,4 @@ tags:
 - [[Sonic zk-SNARK (universal & updatable linear-size SRS)]] - `proves` [EXTRACTED]
 - [[Subversion Zero-Knowledge (adversary generates the SRS)]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Universal_SRS__Sonic
+#graphify/paper #graphify/EXTRACTED #community/Sonic_Argument_System

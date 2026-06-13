@@ -1,12 +1,12 @@
 ---
 type: community
-cohesion: 0.23
+cohesion: 0.22
 members: 27
 ---
 
 # Privacy-Enhancing Technologies
 
-**Cohesion:** 0.23 - loosely connected
+**Cohesion:** 0.22 - loosely connected
 **Members:** 27 nodes
 
 ## Members
@@ -34,8 +34,8 @@ members: 27
 - [[Three Kinds of Security]] - document - wiki/sections/ch09-three-kinds-of-security.md
 - [[Trusted Execution Environment (TEE)]] - document - wiki/chapters/09-privacy-enhancing-technologies.md
 - [[Verifiable FHE (zkFHE)]] - document - proving-nothing.md
-- [[Zero-Knowledge Proof]] - document - references/ch13/ref-60-eidas-2-regulation.pdf
 - [[Zexe]] - document - wiki/chapters/06-the-sealed-certificate.md
+- [[eIDAS 2.0]] - document - wiki/sections/ch09-the-regulatory-intersection.md
 - [[zKYC (Zero-Knowledge Know Your Customer)]] - document - wiki/sections/ch09-the-regulatory-intersection.md
 
 ## Live Query (requires Dataview plugin)
@@ -46,27 +46,23 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 16 edges to [[_COMMUNITY_Core Concepts & Book Spine]]
-- 6 edges to [[_COMMUNITY_ZK Identity & Market]]
-- 5 edges to [[_COMMUNITY_eIDAS & Digital Identity]]
-- 4 edges to [[_COMMUNITY_Privacy Pools & Zerocash]]
-- 4 edges to [[_COMMUNITY_FHE & Lattice Folding (Symphony)]]
-- 4 edges to [[_COMMUNITY_Folding Genealogy & Post-Quantum]]
+- 11 edges to [[_COMMUNITY_Core Concepts & Book Spine]]
+- 7 edges to [[_COMMUNITY_ZK Foundations & SNARK Security]]
+- 6 edges to [[_COMMUNITY_Programmable Privacy & Midnight]]
+- 6 edges to [[_COMMUNITY_Folding & Lattice Crypto]]
+- 4 edges to [[_COMMUNITY_ZK Identity & Enterprise]]
+- 4 edges to [[_COMMUNITY_Fully Homomorphic Encryption]]
 - 3 edges to [[_COMMUNITY_CirC Compiler Infrastructure]]
 - 2 edges to [[_COMMUNITY_Private Contracts & Rollup Economics]]
 - 2 edges to [[_COMMUNITY_Trusted Setup Ceremonies]]
-- 2 edges to [[_COMMUNITY_SNARK Vulnerabilities & Foundations]]
-- 2 edges to [[_COMMUNITY_World & Proof of Personhood]]
+- 2 edges to [[_COMMUNITY_Open Questions & Convergence]]
 - 1 edge to [[_COMMUNITY_Witness Generation & Hashing]]
+- 1 edge to [[_COMMUNITY_Privacy Pools & Zerocash]]
 - 1 edge to [[_COMMUNITY_Arithmetization & CCS]]
-- 1 edge to [[_COMMUNITY_Bulletproofs & Range Proofs]]
-- 1 edge to [[_COMMUNITY_Groth16 & Pairing SNARKs]]
-- 1 edge to [[_COMMUNITY_STARK Foundations]]
-- 1 edge to [[_COMMUNITY_zkVM & STARK Stacks]]
 
 ## Top bridge nodes
-- [[Privacy-Enhancing Technologies]] - degree 35, connects to 8 communities
-- [[Zero-Knowledge Proof]] - degree 20, connects to 7 communities
-- [[Secure Multi-Party Computation (MPC)]] - degree 16, connects to 5 communities
+- [[Privacy-Enhancing Technologies]] - degree 35, connects to 9 communities
+- [[Secure Multi-Party Computation (MPC)]] - degree 16, connects to 4 communities
+- [[eIDAS 2.0]] - degree 10, connects to 4 communities
+- [[Privacy Architectures for Smart Contracts Kachina and Zexe]] - degree 12, connects to 3 communities
 - [[Fully homomorphic encryption (homomorphic for all circuits)]] - degree 12, connects to 3 communities
-- [[Zexe]] - degree 7, connects to 3 communities

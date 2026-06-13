@@ -41,18 +41,16 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 5 edges to [[_COMMUNITY_Core Concepts & Book Spine]]
-- 5 edges to [[_COMMUNITY_Lattice Folding (Neo)]]
+- 9 edges to [[_COMMUNITY_Folding & Lattice Crypto]]
+- 4 edges to [[_COMMUNITY_Core Concepts & Book Spine]]
 - 4 edges to [[_COMMUNITY_Succinct Arguments & Streaming PIOPs]]
-- 3 edges to [[_COMMUNITY_Folding Genealogy & Post-Quantum]]
 - 3 edges to [[_COMMUNITY_Lattice Functional Commitments]]
+- 2 edges to [[_COMMUNITY_STARKs & Lattice SNARKs (Symphony)]]
 - 1 edge to [[_COMMUNITY_Trusted Setup Ceremonies]]
 - 1 edge to [[_COMMUNITY_ML-KEM (FIPS 203)]]
-- 1 edge to [[_COMMUNITY_STARK Foundations]]
-- 1 edge to [[_COMMUNITY_FHE & Lattice Folding (Symphony)]]
 
 ## Top bridge nodes
-- [[Greyhound polynomial commitment scheme]] - degree 14, connects to 6 communities
+- [[Greyhound polynomial commitment scheme]] - degree 14, connects to 5 communities
 - [[Greyhound Fast Polynomial Commitments from Lattices]] - degree 17, connects to 4 communities
 - [[Inner and outer commitment construction]] - degree 4, connects to 1 community
 - [[Coordinate-wise special soundness analysis (CWSS)]] - degree 3, connects to 1 community

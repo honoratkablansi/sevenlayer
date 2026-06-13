@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch12-midnight-at-a-glance.md"
 type: "document"
-community: "Core Concepts & Book Spine"
+community: "Programmable Privacy & Midnight"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Core_Concepts__Book_Spine
+  - community/Programmable_Privacy__Midnight
 ---
 
 # Midnight at a Glance
@@ -23,4 +23,4 @@ tags:
 - [[ZK Rollups The Proving Grounds (Production)]] - `references` [EXTRACTED]
 - [[ZKIR (Midnight Intermediate Representation)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Core_Concepts__Book_Spine
+#graphify/document #graphify/EXTRACTED #community/Programmable_Privacy__Midnight

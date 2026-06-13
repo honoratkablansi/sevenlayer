@@ -1,20 +1,19 @@
 ---
 type: community
-cohesion: 0.40
-members: 5
+cohesion: 0.50
+members: 4
 ---
 
 # Community 64
 
-**Cohesion:** 0.40 - moderately connected
-**Members:** 5 nodes
+**Cohesion:** 0.50 - moderately connected
+**Members:** 4 nodes
 
 ## Members
-- [[Ceremonial SNARK (NIZK with multi-round SRS ceremony)]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
-- [[Ceremony syntax Pgen, Update, VerifySRS, Prove, Verify, Sim with split SRS srs=(srs_1..srs_phimax)]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
-- [[MBKM19 - Sonic updatable NIZK framework extended by this paper]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
-- [[Non-interactive Zero-Knowledge Argument of Knowledge]] - paper - references/ch02/ref-06-groth16.pdf
-- [[Two-phase split SRS universal srs_u (phase 1) + specialized srs_s (phase 2), phi_max=2]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
+- [[Avoiding preprocessing for uniform CCS (AIR) verifier evaluates wiring MLEs M_j in log time]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
+- [[Free addition gates for uniform CCS prover crypto work independent of additions]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
+- [[SIMD CCS  data-parallel CCS with log-time IO consistency via next() MLE]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
+- [[Theorem 2 MLE of 'add-1-in-binary' next() function evaluable in logarithmic time]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -24,12 +23,8 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 3 edges to [[_COMMUNITY_Community 8]]
-- 2 edges to [[_COMMUNITY_Community 19]]
-- 1 edge to [[_COMMUNITY_Community 6]]
+- 2 edges to [[_COMMUNITY_Community 7]]
 
 ## Top bridge nodes
-- [[Ceremonial SNARK (NIZK with multi-round SRS ceremony)]] - degree 4, connects to 2 communities
-- [[Two-phase split SRS universal srs_u (phase 1) + specialized srs_s (phase 2), phi_max=2]] - degree 3, connects to 2 communities
-- [[Non-interactive Zero-Knowledge Argument of Knowledge]] - degree 2, connects to 1 community
-- [[MBKM19 - Sonic updatable NIZK framework extended by this paper]] - degree 2, connects to 1 community
+- [[Avoiding preprocessing for uniform CCS (AIR) verifier evaluates wiring MLEs M_j in log time]] - degree 3, connects to 1 community
+- [[SIMD CCS  data-parallel CCS with log-time IO consistency via next() MLE]] - degree 2, connects to 1 community

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-51-pairing-efficiency-curves.pdf"
 type: "paper"
-community: "Pairing Curve Efficiency"
+community: "Pairing & Discrete-Log Security"
 location: "§2 Tab.2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Pairing_Curve_Efficiency
+  - community/Pairing__Discrete-Log_Security
 ---
 
 # Multi-prime RSA modulus sizing (2-8 primes, extends Lenstra)
@@ -17,4 +17,4 @@ tags:
 - [[Lenstra modulussecurity recommendations (cited prior work)]] - `cites` [EXTRACTED]
 - [[NFSECM crossover ECM beats NFS at 5+ prime factors]] - `proves` [INFERRED]
 
-#graphify/paper #graphify/EXTRACTED #community/Pairing_Curve_Efficiency
+#graphify/paper #graphify/EXTRACTED #community/Pairing__Discrete-Log_Security

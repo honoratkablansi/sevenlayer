@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-09-bulletproofs.pdf"
 type: "paper"
-community: "Bulletproofs & Range Proofs"
+community: "Folding & Lattice Crypto"
 location: "§5, Eq (73)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Bulletproofs__Range_Proofs
+  - community/Folding__Lattice_Crypto
 ---
 
 # Zero-Knowledge Proof for Arithmetic Circuits (Protocol 3)
@@ -17,4 +17,4 @@ tags:
 - [[Pinocchio Arithmetic Circuit Format]] - `cites` [EXTRACTED]
 - [[Theorem 5 Arithmetic Circuit Protocol Soundness]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Bulletproofs__Range_Proofs
+#graphify/paper #graphify/EXTRACTED #community/Folding__Lattice_Crypto

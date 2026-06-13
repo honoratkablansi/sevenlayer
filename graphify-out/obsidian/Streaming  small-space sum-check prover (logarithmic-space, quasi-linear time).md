@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-45-small-space-cpu-proofs.pdf"
 type: "paper"
-community: "Sumcheck SNARKs (SuperSpartan)"
+community: "Sumcheck & Small-Space zkVMs"
 location: "§3.1.2, Thm 3.3 (Algorithm 1)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Sumcheck_SNARKs_SuperSpartan
+  - community/Sumcheck__Small-Space_zkVMs
 ---
 
 # Streaming / small-space sum-check prover (logarithmic-space, quasi-linear time)
@@ -17,4 +17,4 @@ tags:
 - [[Small-value sum-check optimization (Bagad-Domb-Thaler Algorithm 3)]] - `conceptually_related_to` [EXTRACTED]
 - [[Sumcheck Protocol]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Sumcheck_SNARKs_SuperSpartan
+#graphify/paper #graphify/EXTRACTED #community/Sumcheck__Small-Space_zkVMs

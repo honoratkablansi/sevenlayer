@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-50-extended-tower-nfs.pdf"
 type: "paper"
-community: "Extended Tower NFS"
+community: "Pairing & Discrete-Log Security"
 location: "§3, Lemma 1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Extended_Tower_NFS
+  - community/Pairing__Discrete-Log_Security
 ---
 
 # Lemma 1 (norm size bound via iterated resultants)
@@ -15,4 +15,4 @@ tags:
 - [[Relation collection over R=Zth(t), B-smooth norms]] - `conceptually_related_to` [EXTRACTED]
 - [[Theorem 1 (exTNFS complexity table)]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Extended_Tower_NFS
+#graphify/paper #graphify/EXTRACTED #community/Pairing__Discrete-Log_Security

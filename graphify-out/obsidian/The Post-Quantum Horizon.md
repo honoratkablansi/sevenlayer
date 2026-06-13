@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch06-the-post-quantum-horizon.md"
 type: "document"
-community: "Folding Genealogy & Post-Quantum"
+community: "Folding & Lattice Crypto"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Folding_Genealogy__Post-Quantum
+  - community/Folding__Lattice_Crypto
 ---
 
 # The Post-Quantum Horizon
@@ -31,4 +31,4 @@ tags:
 - [[The Folding Genealogy]] - `references` [EXTRACTED]
 - [[The Laws That Break]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Folding_Genealogy__Post-Quantum
+#graphify/document #graphify/EXTRACTED #community/Folding__Lattice_Crypto

@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch07-maturity-and-readiness.md"
 type: "document"
-community: "Folding Genealogy & Post-Quantum"
+community: "Folding & Lattice Crypto"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Folding_Genealogy__Post-Quantum
+  - community/Folding__Lattice_Crypto
 ---
 
 # Maturity and Readiness
@@ -29,4 +29,4 @@ tags:
 - [[Symphony]] - `references` [EXTRACTED]
 - [[The One-Way Door]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Folding_Genealogy__Post-Quantum
+#graphify/document #graphify/EXTRACTED #community/Folding__Lattice_Crypto

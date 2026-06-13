@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-37-updatable-universal-crs.pdf"
 type: "paper"
-community: "Universal SRS & Sonic"
+community: "Universal SRS & Ceremonies"
 location: "§3, §3.3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Universal_SRS__Sonic
+  - community/Universal_SRS__Ceremonies
 ---
 
 # Updatable CRS model (one honest updater suffices)
@@ -20,4 +20,4 @@ tags:
 - [[Updatable and Universal Common Reference Strings with Applications to zk-SNARKs]] - `introduces` [EXTRACTED]
 - [[Updatable and Universal Structured Reference String]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Universal_SRS__Sonic
+#graphify/paper #graphify/EXTRACTED #community/Universal_SRS__Ceremonies

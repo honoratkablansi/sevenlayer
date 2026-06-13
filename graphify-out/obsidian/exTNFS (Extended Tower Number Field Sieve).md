@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-50-extended-tower-nfs.pdf"
 type: "paper"
-community: "Extended Tower NFS"
+community: "Pairing & Discrete-Log Security"
 location: "§2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Extended_Tower_NFS
+  - community/Pairing__Discrete-Log_Security
 ---
 
 # exTNFS (Extended Tower Number Field Sieve)
@@ -28,4 +28,4 @@ tags:
 - [[Theorem 1 (exTNFS complexity table)]] - `proves` [EXTRACTED]
 - [[Tower Number Field Sieve (TNFS) Barbulescu-Gaudry-Kleinjung]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Extended_Tower_NFS
+#graphify/paper #graphify/EXTRACTED #community/Pairing__Discrete-Log_Security

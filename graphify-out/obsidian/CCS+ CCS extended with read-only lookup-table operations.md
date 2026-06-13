@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch03/ref-14-ccs-customizable-constraints.pdf"
 type: "paper"
-community: "zkVM & STARK Stacks"
+community: "Lasso Lookup Arguments"
 location: "Appendix B, Def B.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/zkVM__STARK_Stacks
+  - community/Lasso_Lookup_Arguments
 ---
 
 # CCS+: CCS extended with read-only lookup-table operations
@@ -15,4 +15,4 @@ tags:
 - [[CCS (Customizable Constraint Systems)]] - `conceptually_related_to` [EXTRACTED]
 - [[Lookup Arguments]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/zkVM__STARK_Stacks
+#graphify/paper #graphify/EXTRACTED #community/Lasso_Lookup_Arguments

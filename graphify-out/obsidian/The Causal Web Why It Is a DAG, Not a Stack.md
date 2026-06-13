@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch10-the-causal-web-why-it-is-a-dag-not-a-stack.md"
 type: "document"
-community: "zkVM & STARK Stacks"
+community: "Core Concepts & Book Spine"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/zkVM__STARK_Stacks
+  - community/Core_Concepts__Book_Spine
 ---
 
 # The Causal Web: Why It Is a DAG, Not a Stack
@@ -26,4 +26,4 @@ tags:
 - [[The Synthesis -- Three Paths, Not Two]] - `part_of` [EXTRACTED]
 - [[zkVMs Across the Stack]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/zkVM__STARK_Stacks
+#graphify/document #graphify/EXTRACTED #community/Core_Concepts__Book_Spine

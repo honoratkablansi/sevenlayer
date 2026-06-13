@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/concepts/babybear.md"
 type: "document"
-community: "zkVM & STARK Stacks"
+community: "Core Concepts & Book Spine"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/zkVM__STARK_Stacks
+  - community/Core_Concepts__Book_Spine
 ---
 
 # BabyBear
@@ -34,4 +34,4 @@ tags:
 - [[Where the Layers Collapse]] - `references` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/zkVM__STARK_Stacks
+#graphify/document #graphify/EXTRACTED #community/Core_Concepts__Book_Spine

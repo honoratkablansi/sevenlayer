@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-18-hypernova.pdf"
 type: "paper"
-community: "Bulletproofs & Range Proofs"
+community: "Recursive Proofs & IVC"
 location: "§1.2(2) / Theorem 3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Bulletproofs__Range_Proofs
+  - community/Recursive_Proofs__IVC
 ---
 
 # A-la-carte cost profile for machine execution
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Theorem 3 (HyperNova NIVC scheme)]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Bulletproofs__Range_Proofs
+#graphify/paper #graphify/EXTRACTED #community/Recursive_Proofs__IVC

@@ -1,12 +1,12 @@
 ---
 source_file: "wiki/sections/ch07-the-one-way-door.md"
 type: "document"
-community: "Folding Genealogy & Post-Quantum"
+community: "Folding & Lattice Crypto"
 location: "The One-Way Door"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Folding_Genealogy__Post-Quantum
+  - community/Folding__Lattice_Crypto
 ---
 
 # The One-Way Door
@@ -29,4 +29,4 @@ tags:
 - [[The Cascade Effect]] - `references` [EXTRACTED]
 - [[The Quantum Threat Horizon]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Folding_Genealogy__Post-Quantum
+#graphify/document #graphify/EXTRACTED #community/Folding__Lattice_Crypto

@@ -42,13 +42,12 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
+- 4 edges to [[_COMMUNITY_Folding & Lattice Crypto]]
 - 3 edges to [[_COMMUNITY_Lattice PCS (Greyhound)]]
-- 2 edges to [[_COMMUNITY_Core Concepts & Book Spine]]
-- 2 edges to [[_COMMUNITY_Lattice Folding (Neo)]]
 - 2 edges to [[_COMMUNITY_Succinct Arguments & Streaming PIOPs]]
-- 1 edge to [[_COMMUNITY_Folding Genealogy & Post-Quantum]]
+- 1 edge to [[_COMMUNITY_Open Questions & Convergence]]
 - 1 edge to [[_COMMUNITY_Algebraic RAM Proofs]]
-- 1 edge to [[_COMMUNITY_FHE & Lattice Folding (Symphony)]]
+- 1 edge to [[_COMMUNITY_STARKs & Lattice SNARKs (Symphony)]]
 
 ## Top bridge nodes
 - [[Lattice-Based Functional Commitments Fast Verification and Cryptanalysis]] - degree 14, connects to 4 communities

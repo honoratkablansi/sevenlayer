@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch09/ref-29-gentry-fhe.pdf"
 type: "paper"
-community: "FHE & Lattice Folding (Symphony)"
+community: "Fully Homomorphic Encryption"
 location: "§5.4, Def.13-14"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/FHE__Lattice_Folding_Symphony
+  - community/Fully_Homomorphic_Encryption
 ---
 
 # Sparse Subset Sum Problem (SSSP) / SplitKey Distinguishing Problem: second hardness assumption from tau in public key
@@ -16,4 +16,4 @@ tags:
 - [[Scheme E3 squashed E2 with hidden sparse subset; bootstrappable and semantically secure (Thm 2, Thm 11)]] - `proves` [EXTRACTED]
 - [[Squashing the decryption circuit SplitKeyExpandCT shift work to encrypter so Decrypt sums only sub-linear vectors (E3)]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/FHE__Lattice_Folding_Symphony
+#graphify/paper #graphify/EXTRACTED #community/Fully_Homomorphic_Encryption

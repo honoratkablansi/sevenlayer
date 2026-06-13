@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch11-performance-the-cost-collapse.md"
 type: "document"
-community: "zkVM & STARK Stacks"
+community: "Core Concepts & Book Spine"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/zkVM__STARK_Stacks
+  - community/Core_Concepts__Book_Spine
 ---
 
 # OpenVM
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[Performance The Cost Collapse]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/zkVM__STARK_Stacks
+#graphify/document #graphify/EXTRACTED #community/Core_Concepts__Book_Spine

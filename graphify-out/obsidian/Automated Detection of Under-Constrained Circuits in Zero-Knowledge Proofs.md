@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch03/ref-12-underconstrained-circuits.pdf"
 type: "paper"
-community: "Under-Constrained Detection (QED2)"
+community: "Under-Constrained Circuits (Picus)"
 location: "pp.1-2 (title/abstract)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Under-Constrained_Detection_QED2
+  - community/Under-Constrained_Circuits_Picus
 ---
 
 # Automated Detection of Under-Constrained Circuits in Zero-Knowledge Proofs
@@ -23,4 +23,4 @@ tags:
 - [[TornadoCash Underconstrained Circuit Hack]] - `cites` [EXTRACTED]
 - [[Underconstrained Circuits]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Under-Constrained_Detection_QED2
+#graphify/paper #graphify/EXTRACTED #community/Under-Constrained_Circuits_Picus

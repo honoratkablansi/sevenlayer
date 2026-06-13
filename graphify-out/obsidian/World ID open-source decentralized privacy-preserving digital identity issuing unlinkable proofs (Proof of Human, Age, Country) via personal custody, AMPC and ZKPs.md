@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch13/ref-59-world-whitepaper.pdf"
 type: "paper"
-community: "World & Proof of Personhood"
+community: "Digital Identity & Proof of Personhood"
 location: "§1.2.5.1, §3.2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/World__Proof_of_Personhood
+  - community/Digital_Identity__Proof_of_Personhood
 ---
 
 # World ID: open-source decentralized privacy-preserving digital identity issuing unlinkable proofs (Proof of Human, Age, Country) via personal custody, AMPC and ZKPs
@@ -21,4 +21,4 @@ tags:
 - [[World ID]] - `defines` [EXTRACTED]
 - [[World Network real human network with five core technologies (World ID, Orb, World App, World Chain, WLD) for Proof of Human plus a financial layer]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/World__Proof_of_Personhood
+#graphify/paper #graphify/EXTRACTED #community/Digital_Identity__Proof_of_Personhood

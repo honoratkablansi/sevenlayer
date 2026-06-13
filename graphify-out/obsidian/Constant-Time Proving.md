@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Core Concepts & Book Spine"
+community: "Open Questions & Convergence"
 location: "Chapter 14: Open Questions and the Road Ahead"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Core_Concepts__Book_Spine
+  - community/Open_Questions__Convergence
 ---
 
 # Constant-Time Proving
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Open Questions and the Road Ahead]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Core_Concepts__Book_Spine
+#graphify/document #graphify/EXTRACTED #community/Open_Questions__Convergence

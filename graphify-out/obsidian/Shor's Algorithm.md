@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch07/ref-24-shor.pdf"
 type: "paper"
-community: "Shor's Quantum Algorithms"
+community: "Quantum-Vulnerable Crypto & PQC Schedule"
 location: "p.1 (abstract)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Shors_Quantum_Algorithms
+  - community/Quantum-Vulnerable_Crypto__PQC_Schedule
 ---
 
 # Shor's Algorithm
@@ -20,4 +20,4 @@ tags:
 - [[RSA Cryptosystem]] - `conceptually_related_to` [INFERRED]
 - [[RSA-2048 and ECC-256 (discrete log) are asymmetric schemes broken by Shor's algorithm; symmetric crypto is more resilient via larger keys]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Shors_Quantum_Algorithms
+#graphify/paper #graphify/EXTRACTED #community/Quantum-Vulnerable_Crypto__PQC_Schedule

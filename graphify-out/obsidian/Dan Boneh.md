@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch05-ccs-the-rosetta-stone.md"
 type: "document"
-community: "Folding Genealogy & Post-Quantum"
+community: "Open Questions & Convergence"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Folding_Genealogy__Post-Quantum
+  - community/Open_Questions__Convergence
 ---
 
 # Dan Boneh
@@ -20,4 +20,4 @@ tags:
 - [[The Trilemma -- And Its Dissolution]] - `references` [EXTRACTED]
 - [[Witness Generation Costs]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Folding_Genealogy__Post-Quantum
+#graphify/document #graphify/EXTRACTED #community/Open_Questions__Convergence

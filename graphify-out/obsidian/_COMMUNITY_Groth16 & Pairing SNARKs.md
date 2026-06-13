@@ -43,25 +43,24 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 7 edges to [[_COMMUNITY_Core Concepts & Book Spine]]
-- 4 edges to [[_COMMUNITY_Universal SRS & Sonic]]
+- 6 edges to [[_COMMUNITY_Core Concepts & Book Spine]]
+- 4 edges to [[_COMMUNITY_Pairing & Discrete-Log Security]]
 - 3 edges to [[_COMMUNITY_Trusted Setup Ceremonies]]
+- 2 edges to [[_COMMUNITY_ZK Foundations & SNARK Security]]
 - 2 edges to [[_COMMUNITY_KZG Polynomial Commitments]]
-- 2 edges to [[_COMMUNITY_Extended Tower NFS]]
+- 2 edges to [[_COMMUNITY_Universal SRS & Ceremonies]]
 - 2 edges to [[_COMMUNITY_Ceremonial SNARK Model]]
+- 2 edges to [[_COMMUNITY_Updatable CRS & KoE Assumptions]]
+- 1 edge to [[_COMMUNITY_Programmable Privacy & Midnight]]
 - 1 edge to [[_COMMUNITY_Recursive Proofs & IVC]]
-- 1 edge to [[_COMMUNITY_SNARK Vulnerabilities & Foundations]]
-- 1 edge to [[_COMMUNITY_Privacy-Enhancing Technologies]]
 - 1 edge to [[_COMMUNITY_PLONK & Permutation Arguments]]
-- 1 edge to [[_COMMUNITY_Small-Space Proving (TwistShout)]]
+- 1 edge to [[_COMMUNITY_Sumcheck & Small-Space zkVMs]]
 - 1 edge to [[_COMMUNITY_Arithmetization & CCS]]
-- 1 edge to [[_COMMUNITY_Pairing Curve Efficiency]]
-- 1 edge to [[_COMMUNITY_BN Curve Pairing Security]]
 - 1 edge to [[_COMMUNITY_MPC Powers-of-Tau Ceremony]]
 
 ## Top bridge nodes
 - [[On the Size of Pairing-Based Non-interactive Arguments]] - degree 24, connects to 7 communities
-- [[Bilinear Pairings]] - degree 10, connects to 4 communities
-- [[Quadratic Arithmetic Programs]] - degree 11, connects to 3 communities
+- [[Quadratic Arithmetic Programs]] - degree 11, connects to 4 communities
+- [[Bilinear Pairings]] - degree 10, connects to 2 communities
 - [[3-Element Pairing-based SNARK for Arithmetic Circuit SAT]] - degree 10, connects to 2 communities
 - [[Jens Groth]] - degree 3, connects to 2 communities

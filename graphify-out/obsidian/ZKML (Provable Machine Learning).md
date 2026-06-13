@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/13-the-market-landscape.md"
 type: "document"
-community: "ZKML & Coprocessors"
+community: "Core Concepts & Book Spine"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/ZKML__Coprocessors
+  - community/Core_Concepts__Book_Spine
 ---
 
 # ZKML (Provable Machine Learning)
@@ -16,4 +16,4 @@ tags:
 - [[The Market Landscape]] - `references` [EXTRACTED]
 - [[ZKML Provable Machine Learning (Research)]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/ZKML__Coprocessors
+#graphify/document #graphify/EXTRACTED #community/Core_Concepts__Book_Spine

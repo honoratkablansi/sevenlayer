@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-51-pairing-efficiency-curves.pdf"
 type: "paper"
-community: "Composite-Order Pairings"
+community: "Pairing & Discrete-Log Security"
 location: "§5"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Composite-Order_Pairings
+  - community/Pairing__Discrete-Log_Security
 ---
 
 # LibCryptoLCH C/x86-64 asm implementation (Thales)
@@ -16,4 +16,4 @@ tags:
 - [[Optimal ate pairing operation count on BN curve (Alg.1)]] - `assumes` [EXTRACTED]
 - [[Tate pairing on composite-order supersingular curve (Alg.2)]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Composite-Order_Pairings
+#graphify/paper #graphify/EXTRACTED #community/Pairing__Discrete-Log_Security

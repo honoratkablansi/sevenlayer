@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-11-latticefold-plus.pdf"
 type: "paper"
-community: "Sumcheck SNARKs (SuperSpartan)"
+community: "Sumcheck & Small-Space zkVMs"
 location: "§4.2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Sumcheck_SNARKs_SuperSpartan
+  - community/Sumcheck__Small-Space_zkVMs
 ---
 
 # Monomial Set Check Pi_mon
@@ -16,4 +16,4 @@ tags:
 - [[Range Check Protocol Pi_rgchk (double-commitment range proof)]] - `conceptually_related_to` [EXTRACTED]
 - [[Sumcheck Protocol]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Sumcheck_SNARKs_SuperSpartan
+#graphify/paper #graphify/EXTRACTED #community/Sumcheck__Small-Space_zkVMs

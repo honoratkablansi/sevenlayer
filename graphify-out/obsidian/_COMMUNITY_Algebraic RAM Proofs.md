@@ -1,15 +1,16 @@
 ---
 type: community
-cohesion: 0.13
+cohesion: 0.10
 members: 24
 ---
 
 # Algebraic RAM Proofs
 
-**Cohesion:** 0.13 - loosely connected
+**Cohesion:** 0.10 - loosely connected
 **Members:** 24 nodes
 
 ## Members
+- [[Address-grouping suffices (a-group + t-order) instead of full (a,t)-ordering]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
 - [[Algebraic Interactive Proof (AIP) public-coin IP with arithmetic-circuit verifier]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
 - [[Bezout's identity for univariate polynomials (uniquenessdisjointness tool)]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
 - [[CP-Mirage+ commit-and-prove zkSNARK for AIPs with Pedersen-committed witnesses]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
@@ -32,7 +33,6 @@ members: 24
 - [[UniqBez divide-and-conquer Bezout coefficient computation (4.5 A log2 A)]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
 - [[Uniqueness AIP Pi_uniq (gcd(z,z')=1 via Bezout), V-cost 4A+O(1)]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
 - [[Volatile RAM AIP (zeroed init, uncommitted final)]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
-- [[Volatile and Persistent Memory for zkSNARKs via Algebraic Interactive Proofs]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
 - [[zkSNARK]] - document - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
 
 ## Live Query (requires Dataview plugin)
@@ -43,17 +43,16 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 2 edges to [[_COMMUNITY_Core Concepts & Book Spine]]
-- 2 edges to [[_COMMUNITY_Arithmetization & CCS]]
-- 2 edges to [[_COMMUNITY_zkVM & STARK Stacks]]
+- 10 edges to [[_COMMUNITY_Open Questions & Convergence]]
 - 2 edges to [[_COMMUNITY_Memory Checking & Sparse PCS]]
-- 1 edge to [[_COMMUNITY_Witness Generation & Hashing]]
+- 1 edge to [[_COMMUNITY_Lasso Lookup Arguments]]
 - 1 edge to [[_COMMUNITY_Lattice Functional Commitments]]
-- 1 edge to [[_COMMUNITY_Circuit Verification (Coda)]]
+- 1 edge to [[_COMMUNITY_Programmable Privacy & Midnight]]
 - 1 edge to [[_COMMUNITY_PLONK & Permutation Arguments]]
 
 ## Top bridge nodes
-- [[Volatile and Persistent Memory for zkSNARKs via Algebraic Interactive Proofs]] - degree 16, connects to 4 communities
-- [[Volatile RAM AIP (zeroed init, uncommitted final)]] - degree 8, connects to 2 communities
-- [[zkSNARK]] - degree 5, connects to 2 communities
-- [[Pi_active active-cell selection via H_r permutation proofs, V-cost 3N+2A+O(1)]] - degree 2, connects to 1 community
+- [[Volatile RAM AIP (zeroed init, uncommitted final)]] - degree 8, connects to 3 communities
+- [[zkSNARK]] - degree 5, connects to 3 communities
+- [[Persistent RAM AIP (committed initialfinal states)]] - degree 5, connects to 1 community
+- [[Uniqueness AIP Pi_uniq (gcd(z,z')=1 via Bezout), V-cost 4A+O(1)]] - degree 5, connects to 1 community
+- [[Sparse persistent RAM AIP (capacity C, N approx 2256)]] - degree 4, connects to 1 community

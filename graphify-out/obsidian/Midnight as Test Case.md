@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch12-midnight-as-test-case.md"
 type: "document"
-community: "Core Concepts & Book Spine"
+community: "Programmable Privacy & Midnight"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Core_Concepts__Book_Spine
+  - community/Programmable_Privacy__Midnight
 ---
 
 # Midnight as Test Case
@@ -20,4 +20,4 @@ tags:
 - [[Midnight's BLS12-381 Stage]] - `references` [EXTRACTED]
 - [[MidnightJS SDK]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Core_Concepts__Book_Spine
+#graphify/document #graphify/EXTRACTED #community/Programmable_Privacy__Midnight

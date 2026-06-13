@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch09/ref-29-gentry-fhe.pdf"
 type: "paper"
-community: "FHE & Lattice Folding (Symphony)"
+community: "Fully Homomorphic Encryption"
 location: "§4.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/FHE__Lattice_Folding_Symphony
+  - community/Fully_Homomorphic_Encryption
 ---
 
 # Scheme E2: tweaks (narrow C_E to B(rDec/2); replace matrix-vector by ring mult v_J^sk x psi) lowering decryption depth
@@ -16,4 +16,4 @@ tags:
 - [[Somewhat-homomorphic scheme E1 over ideal lattices (ciphertext v+x; ring addmult mod B_Jpk)]] - `conceptually_related_to` [EXTRACTED]
 - [[Squashing the decryption circuit SplitKeyExpandCT shift work to encrypter so Decrypt sums only sub-linear vectors (E3)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/FHE__Lattice_Folding_Symphony
+#graphify/paper #graphify/EXTRACTED #community/Fully_Homomorphic_Encryption

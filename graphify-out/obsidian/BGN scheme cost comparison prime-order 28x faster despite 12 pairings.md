@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-51-pairing-efficiency-curves.pdf"
 type: "paper"
-community: "Pairing Curve Efficiency"
+community: "Pairing & Discrete-Log Security"
 location: "§5.1 Tab.7"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Pairing_Curve_Efficiency
+  - community/Pairing__Discrete-Log_Security
 ---
 
 # BGN scheme cost comparison: prime-order 28x faster despite 12 pairings
@@ -16,4 +16,4 @@ tags:
 - [[Freeman composite-to-prime-order conversion (cited prior work)]] - `cites` [EXTRACTED]
 - [[Recommendation avoid composite-order groups whenever possible]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Pairing_Curve_Efficiency
+#graphify/paper #graphify/EXTRACTED #community/Pairing__Discrete-Log_Security

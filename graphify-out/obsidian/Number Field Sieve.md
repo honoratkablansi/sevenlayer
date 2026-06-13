@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-50-extended-tower-nfs.pdf"
 type: "document"
-community: "Extended Tower NFS"
+community: "Pairing & Discrete-Log Security"
 location: "page 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Extended_Tower_NFS
+  - community/Pairing__Discrete-Log_Security
 ---
 
 # Number Field Sieve
@@ -18,4 +18,4 @@ tags:
 - [[Tower Number Field Sieve (TNFS) Barbulescu-Gaudry-Kleinjung]] - `conceptually_related_to` [EXTRACTED]
 - [[exTNFS (Extended Tower Number Field Sieve)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Extended_Tower_NFS
+#graphify/document #graphify/EXTRACTED #community/Pairing__Discrete-Log_Security

@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/concepts/lasso.md"
 type: "document"
-community: "zkVM & STARK Stacks"
+community: "Jolt Lookup zkVM"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/zkVM__STARK_Stacks
+  - community/Jolt_Lookup_zkVM
 ---
 
 # Lasso
@@ -37,4 +37,4 @@ tags:
 - [[Where the Analogies Break]] - `references` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/zkVM__STARK_Stacks
+#graphify/document #graphify/EXTRACTED #community/Jolt_Lookup_zkVM

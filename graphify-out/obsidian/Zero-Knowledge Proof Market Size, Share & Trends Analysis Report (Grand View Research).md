@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch13/ref-42-gvr-zkp-market-report.md"
 type: "document"
-community: "zkEVM & Real-Time Proving"
+community: "Core Concepts & Book Spine"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/zkEVM__Real-Time_Proving
+  - community/Core_Concepts__Book_Spine
 ---
 
 # Zero-Knowledge Proof Market Size, Share & Trends Analysis Report (Grand View Research)
@@ -16,4 +16,4 @@ tags:
 - [[zk-SNARK]] - `references` [EXTRACTED]
 - [[zkEVM]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/zkEVM__Real-Time_Proving
+#graphify/document #graphify/EXTRACTED #community/Core_Concepts__Book_Spine

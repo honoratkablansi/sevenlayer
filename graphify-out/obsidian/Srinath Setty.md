@@ -1,12 +1,12 @@
 ---
 source_file: "wiki/sections/ch02-the-quantum-shelf-life.md"
 type: "document"
-community: "Arithmetization & CCS"
+community: "Open Questions & Convergence"
 location: "Entities"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Arithmetization__CCS
+  - community/Open_Questions__Convergence
 ---
 
 # Srinath Setty
@@ -20,4 +20,4 @@ tags:
 - [[The Seven Questions That Remain Open]] - `references` [EXTRACTED]
 - [[The Sumcheck Protocol The Hidden Foundation]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Arithmetization__CCS
+#graphify/document #graphify/EXTRACTED #community/Open_Questions__Convergence

@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch06-the-proof-core-why-layers-4-5-and-6-are-inseparable.md"
 type: "document"
-community: "Core Concepts & Book Spine"
+community: "Folding & Lattice Crypto"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Core_Concepts__Book_Spine
+  - community/Folding__Lattice_Crypto
 ---
 
 # The Proof Core: Why Layers 4, 5, and 6 Are Inseparable
@@ -30,4 +30,4 @@ tags:
 - [[Sumcheck Protocol]] - `references` [EXTRACTED]
 - [[The Three Families]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Core_Concepts__Book_Spine
+#graphify/document #graphify/EXTRACTED #community/Folding__Lattice_Crypto

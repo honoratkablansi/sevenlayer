@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-09-bulletproofs.pdf"
 type: "paper"
-community: "Bulletproofs & Range Proofs"
+community: "Folding & Lattice Crypto"
 location: "§2.3, Definition 10"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Bulletproofs__Range_Proofs
+  - community/Folding__Lattice_Crypto
 ---
 
 # Witness-Extended Emulation (Knowledge Soundness)
@@ -17,4 +17,4 @@ tags:
 - [[Theorem 6.2 Sonic has witness-extended emulation]] - `proves` [EXTRACTED]
 - [[Zero-Knowledge Argument of Knowledge]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Bulletproofs__Range_Proofs
+#graphify/paper #graphify/EXTRACTED #community/Folding__Lattice_Crypto

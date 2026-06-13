@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch13/ref-58-dtcc-canton-tokenization.md"
 type: "document"
-community: "Asset Tokenization (DTCC)"
+community: "Core Concepts & Book Spine"
 location: "About the Canton Network"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Asset_Tokenization_DTCC
+  - community/Core_Concepts__Book_Spine
 ---
 
 # Canton Network
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[DTCC and Digital Asset Partner to Tokenize DTC-Custodied U.S. Treasury Securities on the Canton Network]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Asset_Tokenization_DTCC
+#graphify/document #graphify/EXTRACTED #community/Core_Concepts__Book_Spine

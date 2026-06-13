@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch13-zk-identity-growth-regulatory-mandate.md"
 type: "document"
-community: "ZK Identity & Market"
+community: "ZK Identity & Enterprise"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/ZK_Identity__Market
+  - community/ZK_Identity__Enterprise
 ---
 
 # World (formerly Worldcoin)
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[ZK Identity (Growth  Regulatory Mandate)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/ZK_Identity__Market
+#graphify/document #graphify/EXTRACTED #community/ZK_Identity__Enterprise

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-09-bulletproofs.pdf"
 type: "paper"
-community: "Bulletproofs & Range Proofs"
+community: "Folding & Lattice Crypto"
 location: "§1.1, §6.3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Bulletproofs__Range_Proofs
+  - community/Folding__Lattice_Crypto
 ---
 
 # Pinocchio Arithmetic Circuit Format
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Zero-Knowledge Proof for Arithmetic Circuits (Protocol 3)]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Bulletproofs__Range_Proofs
+#graphify/paper #graphify/EXTRACTED #community/Folding__Lattice_Crypto

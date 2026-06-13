@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch03-from-circuits-to-virtual-machines-a-brief-evolution.md"
 type: "document"
-community: "Circuit Verification (Coda)"
+community: "Programmable Privacy & Midnight"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Circuit_Verification_Coda
+  - community/Programmable_Privacy__Midnight
 ---
 
 # Circom
@@ -35,4 +35,4 @@ tags:
 - [[ZkBench Benchmark Suite (163 Circom circuits)]] - `conceptually_related_to` [EXTRACTED]
 - [[zkSNARK]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Circuit_Verification_Coda
+#graphify/document #graphify/EXTRACTED #community/Programmable_Privacy__Midnight

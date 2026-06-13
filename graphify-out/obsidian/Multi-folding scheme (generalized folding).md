@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-18-hypernova.pdf"
 type: "paper"
-community: "Recursive Proofs & IVC"
+community: "HyperNova Multifolding"
 location: "§3 Definition 7"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Recursive_Proofs__IVC
+  - community/HyperNova_Multifolding
 ---
 
 # Multi-folding scheme (generalized folding)
@@ -16,4 +16,4 @@ tags:
 - [[Multi-folding scheme for CCS (Construction 1)]] - `defines` [EXTRACTED]
 - [[nlookup lookup argument (Construction 8)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Recursive_Proofs__IVC
+#graphify/paper #graphify/EXTRACTED #community/HyperNova_Multifolding

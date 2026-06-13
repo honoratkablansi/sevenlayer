@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch01/ref-03-sok-snark-vulnerabilities.pdf"
 type: "paper"
-community: "Trusted Setup Ceremonies"
+community: "Proof-System Soundness Bugs"
 location: "§9, App A"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Trusted_Setup_Ceremonies
+  - community/Proof-System_Soundness_Bugs
 ---
 
 # Proof-system (theoretical) vulnerabilities affecting all implementations
@@ -17,4 +17,4 @@ tags:
 - [[Nova IVC soundnessmalleability bug on cycle of curves (missing consistency check)]] - `cites` [EXTRACTED]
 - [[PinocchioBCTV setup counterfeiting bug exploited in Zcash (bypass parameters forge proofs)]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Trusted_Setup_Ceremonies
+#graphify/paper #graphify/EXTRACTED #community/Proof-System_Soundness_Bugs

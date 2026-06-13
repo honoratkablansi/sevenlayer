@@ -41,12 +41,11 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 4 edges to [[_COMMUNITY_Folding Genealogy & Post-Quantum]]
+- 5 edges to [[_COMMUNITY_Folding & Lattice Crypto]]
 - 3 edges to [[_COMMUNITY_PQC Transition (NIST IR 8547)]]
 - 3 edges to [[_COMMUNITY_ML-DSA (FIPS 204)]]
 - 2 edges to [[_COMMUNITY_Witness Generation & Hashing]]
 - 1 edge to [[_COMMUNITY_Core Concepts & Book Spine]]
-- 1 edge to [[_COMMUNITY_Lattice Folding (Neo)]]
 - 1 edge to [[_COMMUNITY_Lattice PCS (Greyhound)]]
 
 ## Top bridge nodes

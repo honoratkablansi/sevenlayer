@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-08-stark.pdf"
 type: "paper"
-community: "STARK Foundations"
+community: "STARKs & Lattice SNARKs (Symphony)"
 location: "§2.5"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/STARK_Foundations
+  - community/STARKs__Lattice_SNARKs_Symphony
 ---
 
 # Merkle-tree commit-reveal (Kilian cut-and-choose)
@@ -16,4 +16,4 @@ tags:
 - [[Davies-Meyer hash over RijndaelAES (binary-field-friendly hash)]] - `conceptually_related_to` [EXTRACTED]
 - [[Scalable, Transparent, and Post-Quantum Secure Computational Integrity]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/STARK_Foundations
+#graphify/paper #graphify/EXTRACTED #community/STARKs__Lattice_SNARKs_Symphony

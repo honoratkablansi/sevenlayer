@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-51-pairing-efficiency-curves.pdf"
 type: "document"
-community: "Pairing Curve Efficiency"
+community: "Pairing & Discrete-Log Security"
 location: "page 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Pairing_Curve_Efficiency
+  - community/Pairing__Discrete-Log_Security
 ---
 
 # Composite-Order Bilinear Groups
@@ -18,4 +18,4 @@ tags:
 - [[Subgroup decision assumption]] - `assumes` [EXTRACTED]
 - [[Supersingular k=2 curve construction p=hN-1, E y2=x3-x]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Pairing_Curve_Efficiency
+#graphify/document #graphify/EXTRACTED #community/Pairing__Discrete-Log_Security

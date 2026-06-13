@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/10-the-synthesis-three-paths-not-two.md"
 type: "document"
-community: "Lattice Folding (Neo)"
+community: "Folding & Lattice Crypto"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Lattice_Folding_Neo
+  - community/Folding__Lattice_Crypto
 ---
 
 # Module-SIS
@@ -49,4 +49,4 @@ tags:
 - [[Weak binding of innerouter commitment under Module-SIS (Lemma 2.11)]] - `assumes` [EXTRACTED]
 - [[l-Succinct SIS Assumption (falsifiable q-type generalization of SIS, trapdoor for I_l ⊗ A  W)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Lattice_Folding_Neo
+#graphify/document #graphify/EXTRACTED #community/Folding__Lattice_Crypto

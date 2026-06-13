@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch13/ref-60-eidas-2-regulation.pdf"
 type: "paper"
-community: "eIDAS & Digital Identity"
+community: "Digital Identity & Proof of Personhood"
 location: "Art. 5a(16)(a)-(b)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/eIDAS__Digital_Identity
+  - community/Digital_Identity__Proof_of_Personhood
 ---
 
 # Privacy-preserving / no-tracking technical framework (Art. 5a(16))
@@ -16,4 +16,4 @@ tags:
 - [[Unlinkability]] - `introduces` [EXTRACTED]
 - [[Zero-Knowledge Proof]] - `assumes` [INFERRED]
 
-#graphify/paper #graphify/EXTRACTED #community/eIDAS__Digital_Identity
+#graphify/paper #graphify/EXTRACTED #community/Digital_Identity__Proof_of_Personhood

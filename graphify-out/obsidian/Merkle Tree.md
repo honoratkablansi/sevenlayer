@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch09/ref-31-blockchain-privacy-compliance.pdf"
 type: "paper"
-community: "Privacy Pools & Zerocash"
+community: "ZK Foundations & SNARK Security"
 location: "p.2 (section 2.3)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Privacy_Pools__Zerocash
+  - community/ZK_Foundations__SNARK_Security
 ---
 
 # Merkle Tree
@@ -17,4 +17,4 @@ tags:
 - [[Layer 1 -- Building the Stage]] - `references` [EXTRACTED]
 - [[The Secret Performance]] - `references` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Privacy_Pools__Zerocash
+#graphify/paper #graphify/EXTRACTED #community/ZK_Foundations__SNARK_Security

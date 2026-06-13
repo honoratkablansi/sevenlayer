@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch02/ref-08-stark.pdf"
 type: "paper"
-community: "STARK Foundations"
+community: "STARKs & Lattice SNARKs (Symphony)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/STARK_Foundations
+  - community/STARKs__Lattice_SNARKs_Symphony
 ---
 
 # Scalable, Transparent, and Post-Quantum Secure Computational Integrity
@@ -38,4 +38,4 @@ tags:
 - [[Zero-Knowledge Proof]] - `conceptually_related_to` [EXTRACTED]
 - [[Zero-Knowledge Scalable Transparent ARgument of Knowledge (ZK-STARK)]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/STARK_Foundations
+#graphify/paper #graphify/EXTRACTED #community/STARKs__Lattice_SNARKs_Symphony

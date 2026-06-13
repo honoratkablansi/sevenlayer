@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch09/ref-29-gentry-fhe.pdf"
 type: "paper"
-community: "FHE & Lattice Folding (Symphony)"
+community: "Fully Homomorphic Encryption"
 location: "p.1 (abstract)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/FHE__Lattice_Folding_Symphony
+  - community/Fully_Homomorphic_Encryption
 ---
 
 # Bootstrapping (FHE)
@@ -19,4 +19,4 @@ tags:
 - [[Recrypt homomorphically evaluate decryption circuit on encrypted secret-key bits to refresh ciphertext error]] - `defines` [EXTRACTED]
 - [[Squashing the decryption circuit SplitKeyExpandCT shift work to encrypter so Decrypt sums only sub-linear vectors (E3)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/FHE__Lattice_Folding_Symphony
+#graphify/paper #graphify/EXTRACTED #community/Fully_Homomorphic_Encryption

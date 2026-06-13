@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "World & Proof of Personhood"
+community: "Digital Identity & Proof of Personhood"
 location: "Chapter 4: The Secret Performance"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/World__Proof_of_Personhood
+  - community/Digital_Identity__Proof_of_Personhood
 ---
 
 # Nullifier
@@ -17,4 +17,4 @@ tags:
 - [[Semaphore generic open-source zk-SNARK group-membership and signaling protocol for Ethereum (Groth16-verifiable)]] - `conceptually_related_to` [EXTRACTED]
 - [[The Secret Performance]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/World__Proof_of_Personhood
+#graphify/document #graphify/EXTRACTED #community/Digital_Identity__Proof_of_Personhood

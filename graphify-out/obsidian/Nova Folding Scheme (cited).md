@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-20-latticefold.pdf"
 type: "paper"
-community: "Lattice Folding (LatticeFold)"
+community: "Recursive Proofs & IVC"
 location: "§1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Lattice_Folding_LatticeFold
+  - community/Recursive_Proofs__IVC
 ---
 
 # Nova Folding Scheme (cited)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[LatticeFold A Lattice-based Folding Scheme and its Applications to Succinct Proof Systems]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Lattice_Folding_LatticeFold
+#graphify/paper #graphify/EXTRACTED #community/Recursive_Proofs__IVC

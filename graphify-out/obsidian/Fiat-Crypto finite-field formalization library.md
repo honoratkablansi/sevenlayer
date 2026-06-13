@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-35-coda.pdf"
 type: "paper"
-community: "Circuit Verification (Coda)"
+community: "Coda Type System & Coq"
 location: "§3.4, §5 [17]"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Circuit_Verification_Coda
+  - community/Coda_Type_System__Coq
 ---
 
 # Fiat-Crypto finite-field formalization library
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Coq lemma generation for proof obligations]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Circuit_Verification_Coda
+#graphify/paper #graphify/EXTRACTED #community/Coda_Type_System__Coq

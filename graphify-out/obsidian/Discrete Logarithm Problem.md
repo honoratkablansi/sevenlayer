@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch07/ref-24-shor.pdf"
 type: "paper"
-community: "Shor's Quantum Algorithms"
+community: "Pairing & Discrete-Log Security"
 location: "p.1 (abstract)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Shors_Quantum_Algorithms
+  - community/Pairing__Discrete-Log_Security
 ---
 
 # Discrete Logarithm Problem
@@ -20,4 +20,4 @@ tags:
 - [[Quantum-vulnerable key establishment (Finite FieldEC DH & MQV per SP 800-56A, RSA per SP 800-56B)]] - `assumes` [EXTRACTED]
 - [[exTNFS (Extended Tower Number Field Sieve)]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Shors_Quantum_Algorithms
+#graphify/paper #graphify/EXTRACTED #community/Pairing__Discrete-Log_Security

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-38-snarky-ceremonies.pdf"
 type: "paper"
-community: "Universal SRS & Sonic"
+community: "Universal SRS & Ceremonies"
 location: "page 1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Universal_SRS__Sonic
+  - community/Universal_SRS__Ceremonies
 ---
 
 # Snarky Ceremonies
@@ -34,4 +34,4 @@ tags:
 - [[Updatable and Universal Structured Reference String]] - `references` [EXTRACTED]
 - [[Update knowledge soundness (Def 5, game GameA,EA_uks over phi_max phases)]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Universal_SRS__Sonic
+#graphify/paper #graphify/EXTRACTED #community/Universal_SRS__Ceremonies

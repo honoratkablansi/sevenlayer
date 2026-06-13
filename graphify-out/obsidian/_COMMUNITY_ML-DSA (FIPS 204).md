@@ -1,13 +1,13 @@
 ---
 type: community
 cohesion: 0.13
-members: 21
+members: 22
 ---
 
 # ML-DSA (FIPS 204)
 
 **Cohesion:** 0.13 - loosely connected
-**Members:** 21 nodes
+**Members:** 22 nodes
 
 ## Members
 - [[ExpandA  ExpandS  ExpandMask SHAKE-based pseudorandom sampling of matrix A from ρ, secrets s1s2, and mask y]] - paper - references/ch14/ref-64-fips-204.pdf
@@ -26,6 +26,7 @@ members: 21
 - [[ML-DSA.Sign (Alg 26.2) commit w=Ay, challenge c~ from H(w1μ), response z = y + c·s1, with rejection-sampling abort loop]] - paper - references/ch14/ref-64-fips-204.pdf
 - [[ML-DSA.Verify (Alg 36.3) recompute w1' via UseHint from z, t1, c; accept iff z is short and c~ matches H(w1'μ)]] - paper - references/ch14/ref-64-fips-204.pdf
 - [[Message representative μ = H(H(pk)  M); signing μ not M provides BUFF  beyond-unforgeability properties]] - paper - references/ch14/ref-64-fips-204.pdf
+- [[NTT over R_q (q=8380417, ζ=1753 a 512th root of unity) fast module-polynomial multiplication NTT(ab)=NTT(a)∘NTT(b)]] - paper - references/ch14/ref-64-fips-204.pdf
 - [[Power2Round  Decompose  HighBits  LowBits drop d=13 low-order bits of t and round w to multiples of α=2γ2]] - paper - references/ch14/ref-64-fips-204.pdf
 - [[Rejection sampling abort and restart with new mask y if z (or r0) coefficients fall outside bound, removing bias toward secret s1s2]] - paper - references/ch14/ref-64-fips-204.pdf
 - [[SampleInBall (Alg 29) challenge polynomial c with exactly τ nonzero ±1 coefficients, derived from c~]] - paper - references/ch14/ref-64-fips-204.pdf
@@ -40,7 +41,7 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 3 edges to [[_COMMUNITY_Folding Genealogy & Post-Quantum]]
+- 3 edges to [[_COMMUNITY_Folding & Lattice Crypto]]
 - 3 edges to [[_COMMUNITY_ML-KEM (FIPS 203)]]
 - 3 edges to [[_COMMUNITY_PQC Transition (NIST IR 8547)]]
 - 2 edges to [[_COMMUNITY_Core Concepts & Book Spine]]
@@ -49,6 +50,6 @@ SORT file.name ASC
 ## Top bridge nodes
 - [[ML-DSA (Module-Lattice Digital Signature Algorithm)]] - degree 18, connects to 3 communities
 - [[FIPS 204 Module-Lattice-Based Digital Signature Standard]] - degree 5, connects to 2 communities
-- [[ML-DSA.Sign (Alg 26.2) commit w=Ay, challenge c~ from H(w1μ), response z = y + c·s1, with rejection-sampling abort loop]] - degree 8, connects to 1 community
 - [[Fiat-Shamir With Aborts construction (Schnorr-like signature with rejection sampling on the response)]] - degree 4, connects to 1 community
 - [[ML-DSA.KeyGen (Alg 16.1) expand seed ξ - seed ρ for A, seeds for s1,s2,K; t = A·s1 + s2, publish compressed t1]] - degree 4, connects to 1 community
+- [[ML-DSA derived from CRYSTALS-DILITHIUM v3.1 (Round-3 PQC selection); differences in Appendix D]] - degree 2, connects to 1 community

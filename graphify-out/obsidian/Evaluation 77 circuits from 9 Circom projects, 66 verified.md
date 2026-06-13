@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-35-coda.pdf"
 type: "paper"
-community: "Circuit Verification (Coda)"
+community: "Under-Constrained Circuits (Picus)"
 location: "§6, Table 2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Circuit_Verification_Coda
+  - community/Under-Constrained_Circuits_Picus
 ---
 
 # Evaluation: 77 circuits from 9 Circom projects, 66 verified
@@ -17,4 +17,4 @@ tags:
 - [[Coda statically-typed functional DSL for ZK circuits]] - `shares_data_with` [EXTRACTED]
 - [[Verification-effort case study 60% shorter proofs vs shallow embedding]] - `shares_data_with` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Circuit_Verification_Coda
+#graphify/paper #graphify/EXTRACTED #community/Under-Constrained_Circuits_Picus

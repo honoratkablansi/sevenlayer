@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/03-choreographing-the-act.md"
 type: "document"
-community: "zkVM Design Philosophy"
+community: "Witness Generation & Hashing"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/zkVM_Design_Philosophy
+  - community/Witness_Generation__Hashing
 ---
 
 # Plonky3
@@ -18,4 +18,4 @@ tags:
 - [[The Witness as a Multi-Dimensional Problem]] - `references` [EXTRACTED]
 - [[Under-Constrained Circuits The Dominant Failure Mode]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/zkVM_Design_Philosophy
+#graphify/document #graphify/EXTRACTED #community/Witness_Generation__Hashing

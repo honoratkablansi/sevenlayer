@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch11-the-stage-is-set.md"
 type: "document"
-community: "zkVM & STARK Stacks"
+community: "Core Concepts & Book Spine"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/zkVM__STARK_Stacks
+  - community/Core_Concepts__Book_Spine
 ---
 
 # The Stage Is Set
@@ -28,4 +28,4 @@ tags:
 - [[zkVMs -- The Universal Stage]] - `part_of` [EXTRACTED]
 - [[zkWASM]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/zkVM__STARK_Stacks
+#graphify/document #graphify/EXTRACTED #community/Core_Concepts__Book_Spine

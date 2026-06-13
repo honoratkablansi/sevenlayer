@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch07-case-study-midnight.md"
 type: "document"
-community: "Bulletproofs & Range Proofs"
+community: "Folding & Lattice Crypto"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Bulletproofs__Range_Proofs
+  - community/Folding__Lattice_Crypto
 ---
 
 # Pedersen Commitments
@@ -28,4 +28,4 @@ tags:
 - [[The Quantum Threat Horizon]] - `references` [EXTRACTED]
 - [[Three Hardness Assumptions, Three Worlds]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Bulletproofs__Range_Proofs
+#graphify/document #graphify/EXTRACTED #community/Folding__Lattice_Crypto

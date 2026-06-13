@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch09/ref-29-gentry-fhe.pdf"
 type: "paper"
-community: "FHE & Lattice Folding (Symphony)"
+community: "Fully Homomorphic Encryption"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/FHE__Lattice_Folding_Symphony
+  - community/Fully_Homomorphic_Encryption
 ---
 
 # Fully Homomorphic Encryption Using Ideal Lattices
@@ -24,4 +24,4 @@ tags:
 - [[Scheme E3 squashed E2 with hidden sparse subset; bootstrappable and semantically secure (Thm 2, Thm 11)]] - `introduces` [EXTRACTED]
 - [[Three-step FHE blueprint SWHE - squash decryption - bootstrap to fully homomorphic]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/FHE__Lattice_Folding_Symphony
+#graphify/paper #graphify/EXTRACTED #community/Fully_Homomorphic_Encryption

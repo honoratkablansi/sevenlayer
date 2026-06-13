@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-32-zkvm-compiler-optimization.pdf"
 type: "paper"
-community: "zkVM Design Philosophy"
+community: "zkVM Compiler Optimization"
 location: "p.1 (title/abstract)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/zkVM_Design_Philosophy
+  - community/zkVM_Compiler_Optimization
 ---
 
 # Evaluating Compiler Optimization Impacts on zkVM Performance
@@ -26,4 +26,4 @@ tags:
 - [[zk-Bench (Ernstberger et al.) benchmarking framework for ZK DSLsSNARKs]] - `cites` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/zkVM_Design_Philosophy
+#graphify/paper #graphify/EXTRACTED #community/zkVM_Compiler_Optimization

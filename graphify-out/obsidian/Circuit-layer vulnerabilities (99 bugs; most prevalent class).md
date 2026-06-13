@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch01/ref-03-sok-snark-vulnerabilities.pdf"
 type: "paper"
-community: "SNARK Vulnerabilities & Foundations"
+community: "SNARK Vulnerability Layers"
 location: "§5"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/SNARK_Vulnerabilities__Foundations
+  - community/SNARK_Vulnerability_Layers
 ---
 
 # Circuit-layer vulnerabilities (99 bugs; most prevalent class)
@@ -19,4 +19,4 @@ tags:
 - [[Root cause arithmetic field error (nativetransformed over- and underflows)]] - `conceptually_related_to` [EXTRACTED]
 - [[Under-Constrained Circuits]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/SNARK_Vulnerabilities__Foundations
+#graphify/paper #graphify/EXTRACTED #community/SNARK_Vulnerability_Layers

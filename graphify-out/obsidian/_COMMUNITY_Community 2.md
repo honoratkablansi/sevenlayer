@@ -1,65 +1,85 @@
 ---
 type: community
-cohesion: 0.06
-members: 50
+cohesion: 0.10
+members: 70
 ---
 
 # Community 2
 
-**Cohesion:** 0.06 - loosely connected
-**Members:** 50 nodes
+**Cohesion:** 0.10 - loosely connected
+**Members:** 70 nodes
 
 ## Members
-- [[2016 Ethereum Shanghai  EIP-150 underpriced-opcode DoS precedent]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Aggelos Kiayias]] - paper - references/ch09/ref-30-kachina.pdf
-- [[Amplified finality-delay attack (1.45x-2.73x over direct L1 blob-stuffing)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Commit query  transaction checkpoints]] - paper - references/ch09/ref-30-kachina.pdf
-- [[Contract class C_Kachina]] - paper - references/ch09/ref-30-kachina.pdf
-- [[Contract transition function Delta]] - paper - references/ch09/ref-30-kachina.pdf
-- [[Core transition function Gamma]] - paper - references/ch09/ref-30-kachina.pdf
-- [[Cycles-per-gas mispricing (MODEXP 2961, JUMPDEST 1039; EVM gas != proving cost)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[DA-saturation DoS sustained L2 liveness halt at 0.8-2.7 ETHhour]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[DA-saturation attack (data-heavy compute-light tx flooding L1 blob capacity)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Dependency function dep and invariant J]] - paper - references/ch09/ref-30-kachina.pdf
-- [[Diamandis et al. multidimensional blockchain fee markets 19]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Direct economic damage attack (drains rollup vault via Ctx amortization, $11,172h on Scroll)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[EIP-1559 base-fee mechanism]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Empirical evaluation on Scroll, Linea, zkSync Era, Arbitrum, Optimism, Base]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Ethereum]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[G_simpleLedger functionality]] - paper - references/ch09/ref-30-kachina.pdf
-- [[Generic rollup cost model Txfee = L2fee + L1fee (rho_blob, Scalar_blob, Ctx, Stx)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Global ledger functionality G_ledger (GUC)]] - paper - references/ch09/ref-30-kachina.pdf
-- [[Hawk private smart contracts]] - paper - references/ch09/ref-30-kachina.pdf
-- [[Ideal smart contract functionality F_sc{Delta,Lambda}]] - paper - references/ch09/ref-30-kachina.pdf
-- [[Kachina -- Foundations of Private Smart Contracts]] - paper - references/ch09/ref-30-kachina.pdf
-- [[Kachina core protocol]] - paper - references/ch09/ref-30-kachina.pdf
-- [[L2 EIP-1559-style DA pricing with L1-fee floor (DA-saturation mitigation)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Leakage function Lambda]] - paper - references/ch09/ref-30-kachina.pdf
-- [[MODEXP killer block 94x finality latency, $42.26 prover loss per 35M-gas block]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Multi-dimensional TFM (matrix Ax over gasDAprovingfixed; adaptive per-resource pricing)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[NIZK functionality F_nizkL]] - paper - references/ch09/ref-30-kachina.pdf
-- [[Nakamoto consensus]] - paper - references/ch09/ref-30-kachina.pdf
-- [[Non-Interactive Zero-Knowledge (NIZK)]] - paper - references/ch09/ref-30-kachina.pdf
-- [[Optimistic Rollups]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Perez & Livshits 'Broken Metre' (EVM resource-metering mispricing detection)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Private Smart Contracts]] - paper - references/ch09/ref-30-kachina.pdf
-- [[Prover-aware metering per-opcode proof-gas profiling, dedicated L2ProvingFee]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Prover-killer attack (high cycles-per-gas tx stalls ZK proof generation)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Public state sigma  private state rho split]] - paper - references/ch09/ref-30-kachina.pdf
-- [[Reactive mitigations tx size limits, dynamic fee scalars, aggressive tx filtering]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Responsible disclosure all rollups vulnerable, 4 bug bounties, mitigations adopted]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Rollup multi-dimensional TFM (L2 gas + L1 DA + settlementverification)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Roughgarden TFM design  EIP-1559 incentive-compatibility 47,48]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Shared-DA multi-tenant risk attack on one rollup cascades across DA-layer tenants]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Smart contract systems via multiplexing  gas]] - paper - references/ch09/ref-30-kachina.pdf
-- [[State oracle]] - paper - references/ch09/ref-30-kachina.pdf
-- [[State oracle transcript]] - paper - references/ch09/ref-30-kachina.pdf
-- [[Theorem 1 Kachina UC-emulates F_sc]] - paper - references/ch09/ref-30-kachina.pdf
-- [[Threat model budget-bounded L2 user; liveness, finality, economic-safety objectives]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Transaction Fee Mechanisms (TFM)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Unaligned Incentives Pricing Attacks Against Blockchain Rollups]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Unaligned-incentives thesis cross-dimension mispricing yields novel attacks]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Universal Composability (UC)]] - paper - references/ch09/ref-30-kachina.pdf
+- [[Aggregated Range Proof for m Values]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Ajtai commitments]] - document - wiki/concepts/ajtai.md
+- [[Algebraic vs Traditional Hash Functions]] - document - wiki/sections/ch04-side-channel-attacks-when-the-walls-leak.md
+- [[Bootle et al. (BCC+16) Inner-Product Argument]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Bulletproofs NIZK Argument System]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Bulletproofs Short Proofs for Confidential Transactions and More]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Case Study Midnight (Layer 6)]] - document - wiki/sections/ch07-case-study-midnight.md
+- [[Case Study Midnight's Sealed Certificate]] - document - wiki/sections/ch03-the-developer-s-actual-experience.md
+- [[Confidential Transactions (CT)]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Cryptographic Primitives Trilemma]] - document - wiki/sections/ch07-the-trilemma-and-its-dissolution.md
+- [[CycleFold]] - document - wiki/sections/ch06-the-folding-genealogy.md
+- [[Discrete Log Relation Assumption]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Discrete Logarithm Assumption]] - document - references/ch02/ref-09-bulletproofs.pdf
+- [[Four Families of Commitment Schemes]] - document - wiki/sections/ch07-four-families-of-commitment-schemes.md
+- [[Goldilocks Field]] - document - wiki/chapters/03-choreographing-the-act.md
+- [[Greyhound]] - document - wiki/sections/ch07-lattice-based-proving.md
+- [[Halo 2]] - document - wiki/chapters/12-midnight-the-privacy-theater.md
+- [[Improved Inner-Product Argument (2 log2 n)]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Inner-Product Argument]] - document - references/ch02/ref-09-bulletproofs.pdf
+- [[KZG Polynomial Commitments]] - document - wiki/chapters/02-building-the-stage.md
+- [[Lattice Cryptography]] - document - wiki/chapters/07-the-deep-craft.md
+- [[Lattice-Based Proving]] - document - wiki/sections/ch07-lattice-based-proving.md
+- [[LatticeFold]] - document - wiki/chapters/06-the-sealed-certificate.md
+- [[Layer 6 -- The Deep Craft]] - document - wiki/chapters/07-the-deep-craft.md
+- [[Logarithmic Proof Size Claim (2 log2(nm)+4 elements)]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Logarithmic-Size Range Proof]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[MPC Protocol for Distributed Bulletproof Generation]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Mangrove]] - document - wiki/sections/ch06-snark-recursion-vs-folding-the-full-picture.md
+- [[Maturity and Readiness]] - document - wiki/sections/ch07-maturity-and-readiness.md
+- [[Mersenne-31 Field]] - document - wiki/sections/ch06-circle-starks-and-stwo-a-generational-leap.md
+- [[Mimblewimble]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Module-SIS]] - document - wiki/chapters/10-the-synthesis-three-paths-not-two.md
+- [[Neo (Lattice Folding over Small Fields)]] - document - wiki/sections/ch06-the-folding-genealogy.md
+- [[Nightstream]] - document - wiki/chapters/06-the-sealed-certificate.md
+- [[Nightstream What a Folding Engine Looks Like from the Inside]] - document - wiki/sections/ch04-memory-the-binding-constraint.md
+- [[Path Three Post-Quantum Folding]] - document - wiki/sections/ch10-path-three-post-quantum-folding.md
+- [[Pedersen Commitments]] - document - wiki/sections/ch07-case-study-midnight.md
+- [[Pedersen Vector Commitment]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Pinocchio Arithmetic Circuit Format]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Post-Quantum Cryptography (NIST PQC standardization)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
+- [[Proof Recursion]] - document - wiki/chapters/06-the-sealed-certificate.md
+- [[ProtoGalaxy]] - document - wiki/sections/ch06-the-folding-genealogy.md
+- [[Provisions Proof of Solvency]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Range Proof]] - document - references/ch02/ref-09-bulletproofs.pdf
+- [[Recursion vs. Folding Russian Dolls and Snowballs]] - document - wiki/sections/ch06-recursion-vs-folding-russian-dolls-and-snowballs.md
+- [[SNARK Recursion vs. Folding The Full Picture]] - document - wiki/sections/ch06-snark-recursion-vs-folding-the-full-picture.md
+- [[SNARKs with Trusted Setup]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Scroll]] - document - wiki/sections/ch13-zk-rollups-the-proving-grounds-production.md
+- [[Single Multi-Exponentiation Verifier & Batch Verification]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Small Fields]] - document - wiki/sections/ch07-small-fields.md
+- [[SuperNova]] - document - wiki/sections/ch06-the-folding-genealogy.md
+- [[Switch to Quantum-Secure Range Proofs (ElGamal)]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Symphony]] - document - wiki/sections/ch06-the-folding-genealogy.md
+- [[The Cascade Effect]] - document - wiki/sections/ch07-the-cascade-effect.md
+- [[The Folding Genealogy]] - document - wiki/sections/ch06-the-folding-genealogy.md
+- [[The Laws That Break]] - document - wiki/sections/ch07-the-laws-that-break.md
+- [[The One-Way Door]] - document - wiki/sections/ch07-the-one-way-door.md
+- [[The Post-Quantum Horizon]] - document - wiki/sections/ch06-the-post-quantum-horizon.md
+- [[The Proof Core Why Layers 4, 5, and 6 Are Inseparable]] - document - wiki/sections/ch06-the-proof-core-why-layers-4-5-and-6-are-inseparable.md
+- [[The Quantum Threat Horizon]] - document - wiki/sections/ch07-the-quantum-threat-horizon.md
+- [[The Structural Advantage of Lattices]] - document - wiki/sections/ch07-the-structural-advantage-of-lattices.md
+- [[The Trilemma -- And Its Dissolution]] - document - wiki/sections/ch07-the-trilemma-and-its-dissolution.md
+- [[Theorem 1 Inner-Product Argument Security]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Theorem 3 Aggregate Range Proof Security]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Theorem 5 Arithmetic Circuit Protocol Soundness]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Theorem 6.2 Sonic has witness-extended emulation]] - paper - references/ch10/ref-36-sonic.pdf
+- [[Three Hardness Assumptions, Three Worlds]] - document - wiki/sections/ch07-three-hardness-assumptions-three-worlds.md
+- [[Witness-Extended Emulation (Knowledge Soundness)]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Zero-Knowledge Argument of Knowledge]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Zero-Knowledge Proof for Arithmetic Circuits (Protocol 3)]] - paper - references/ch02/ref-09-bulletproofs.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -69,17 +89,40 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 6 edges to [[_COMMUNITY_Community 0]]
-- 3 edges to [[_COMMUNITY_Community 38]]
-- 2 edges to [[_COMMUNITY_Community 13]]
-- 2 edges to [[_COMMUNITY_Community 4]]
-- 2 edges to [[_COMMUNITY_Community 3]]
-- 1 edge to [[_COMMUNITY_Community 24]]
+- 152 edges to [[_COMMUNITY_Community 0]]
+- 82 edges to [[_COMMUNITY_Community 1]]
+- 57 edges to [[_COMMUNITY_Community 7]]
+- 21 edges to [[_COMMUNITY_Community 38]]
+- 14 edges to [[_COMMUNITY_Community 25]]
+- 12 edges to [[_COMMUNITY_Community 27]]
+- 11 edges to [[_COMMUNITY_Community 10]]
+- 11 edges to [[_COMMUNITY_Community 3]]
+- 9 edges to [[_COMMUNITY_Community 23]]
+- 8 edges to [[_COMMUNITY_Community 18]]
+- 6 edges to [[_COMMUNITY_Community 11]]
+- 5 edges to [[_COMMUNITY_Community 28]]
+- 5 edges to [[_COMMUNITY_Community 22]]
+- 4 edges to [[_COMMUNITY_Community 32]]
+- 4 edges to [[_COMMUNITY_Community 21]]
+- 4 edges to [[_COMMUNITY_Community 8]]
+- 3 edges to [[_COMMUNITY_Community 29]]
+- 3 edges to [[_COMMUNITY_Community 24]]
+- 2 edges to [[_COMMUNITY_Community 50]]
+- 2 edges to [[_COMMUNITY_Community 51]]
+- 2 edges to [[_COMMUNITY_Community 37]]
+- 2 edges to [[_COMMUNITY_Community 55]]
+- 1 edge to [[_COMMUNITY_Community 58]]
+- 1 edge to [[_COMMUNITY_Community 41]]
 - 1 edge to [[_COMMUNITY_Community 6]]
+- 1 edge to [[_COMMUNITY_Community 33]]
+- 1 edge to [[_COMMUNITY_Community 16]]
+- 1 edge to [[_COMMUNITY_Community 13]]
+- 1 edge to [[_COMMUNITY_Community 57]]
+- 1 edge to [[_COMMUNITY_Community 44]]
 
 ## Top bridge nodes
-- [[Kachina -- Foundations of Private Smart Contracts]] - degree 13, connects to 4 communities
-- [[Unaligned Incentives Pricing Attacks Against Blockchain Rollups]] - degree 12, connects to 3 communities
-- [[Prover-killer attack (high cycles-per-gas tx stalls ZK proof generation)]] - degree 7, connects to 2 communities
-- [[DA-saturation attack (data-heavy compute-light tx flooding L1 blob capacity)]] - degree 10, connects to 1 community
-- [[Universal Composability (UC)]] - degree 4, connects to 1 community
+- [[Layer 6 -- The Deep Craft]] - degree 65, connects to 18 communities
+- [[Post-Quantum Cryptography (NIST PQC standardization)]] - degree 40, connects to 15 communities
+- [[Lattice Cryptography]] - degree 54, connects to 14 communities
+- [[KZG Polynomial Commitments]] - degree 57, connects to 8 communities
+- [[Module-SIS]] - degree 37, connects to 8 communities

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch07/ref-24-shor.pdf"
 type: "paper"
-community: "Shor's Quantum Algorithms"
+community: "Quantum-Vulnerable Crypto & PQC Schedule"
 location: "p.4 (introduction)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Shors_Quantum_Algorithms
+  - community/Quantum-Vulnerable_Crypto__PQC_Schedule
 ---
 
 # RSA Cryptosystem
@@ -18,4 +18,4 @@ tags:
 - [[RSA public-key cryptosystem (Rivest-Shamir-Adleman 1978)]] - `conceptually_related_to` [EXTRACTED]
 - [[Shor's Algorithm]] - `conceptually_related_to` [INFERRED]
 
-#graphify/paper #graphify/EXTRACTED #community/Shors_Quantum_Algorithms
+#graphify/paper #graphify/EXTRACTED #community/Quantum-Vulnerable_Crypto__PQC_Schedule

@@ -1,30 +1,27 @@
 ---
 type: community
-cohesion: 0.14
-members: 15
+cohesion: 0.20
+members: 12
 ---
 
 # Community 42
 
-**Cohesion:** 0.14 - loosely connected
-**Members:** 15 nodes
+**Cohesion:** 0.20 - loosely connected
+**Members:** 12 nodes
 
 ## Members
-- [[BIS Project Leap (2023) Quantum-proofing the financial system]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
-- [[Bitcoin]] - document - references/ch14/ref-63-harvest-now-decrypt-later.pdf
-- [[Bitcoin address crypto stack ECC (publicprivate key) - SHA-256 & RIPEMD-160 hashing - base58bech32m encoding; address creation is a 5-step nested process]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
-- [[Bitcoin case study public, permissionless DLT with ~15-year ledger used to illustrate HNDL; threat is current, active, unmitigated for data privacy, and asynchronous across address types]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
-- [[Buterin (2023) Ethereum quantum-emergency hard-fork proposal]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
-- [[Crypto agility building continuous migration between quantum-resistant algorithms into governance rather than targeting a single Q-Day]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
-- [[Economic-impact assessment no conclusive peer-reviewed total-value-at-risk figure exists; authors deem quantifying vulnerable bitcoin operationally a 'red herring' vs. identifying unmitigable_ce42a868]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
-- [[Exposed-keyaddress analysis vulnerability concentrated in legacy, reused, and Taproot (SchnorrECC) addresses and early-mined coins, possibly incl. Satoshi's dormant ECDSA addresses]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
-- [[HNDL poses two primary present threats to Bitcoin revealing confidential encrypted data (data privacy) and stealing funds (theft)]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
-- [[Limitation all proposed mitigations require security-through-force, antithetical to Bitcoin's decentralized, choice-over-force governance ethos]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
-- [[Litinski (2023) computing a 256-bit ECC private key with ~50M Toffoli gates]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
-- [[Mitigations PQC-only hard fork (Buterin-style) or soft fork, mandatory PQC address types, crypto agility, security hygiene (no address reuse) — all address theftintegrity, not retroactive privacy]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
-- [[NIST PQC standardization 3 finalized encryption standards + 5 quantum-resistant algorithms; deprecating RSAECC over 5-10 years; US federal migration mandated by 2035]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
-- [[RSA-2048 and ECC-256 (discrete log) are asymmetric schemes broken by Shor's algorithm; symmetric crypto is more resilient via larger keys]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
-- [[Thesis PQC can protect DLT integritysecurity but cannot retroactively protect data privacy of past transactions against HNDL]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
+- [[Canton Network]] - document - wiki/sections/ch13-enterprise-pilots-pilot.md
+- [[DTCC (Depository Trust & Clearing Corporation)]] - document - wiki/sections/ch13-enterprise-pilots-pilot.md
+- [[Deutsche Bank (Project Guardian)]] - document - wiki/sections/ch13-enterprise-pilots-pilot.md
+- [[Enterprise Pilots (Pilot)]] - document - wiki/sections/ch13-enterprise-pilots-pilot.md
+- [[Humanity Protocol]] - document - wiki/sections/ch13-zk-identity-growth-regulatory-mandate.md
+- [[Partisia Blockchain]] - document - wiki/sections/ch13-enterprise-pilots-pilot.md
+- [[Privacy Pools (0xbow)]] - document - wiki/sections/ch13-zk-identity-growth-regulatory-mandate.md
+- [[Rejected designs centralized access & system-wide entry allowlisting (central point of failure)]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
+- [[Sequential proofs  inclusion-delay handling via forwarded Merkle branches & secrets]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
+- [[World (formerly Worldcoin)]] - document - wiki/sections/ch13-zk-identity-growth-regulatory-mandate.md
+- [[ZK Identity]] - document - wiki/chapters/13-the-market-landscape.md
+- [[ZK Identity (Growth  Regulatory Mandate)]] - document - wiki/sections/ch13-zk-identity-growth-regulatory-mandate.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -34,13 +31,15 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 4 edges to [[_COMMUNITY_Community 48]]
-- 3 edges to [[_COMMUNITY_Community 12]]
-- 1 edge to [[_COMMUNITY_Community 33]]
+- 9 edges to [[_COMMUNITY_Community 0]]
+- 5 edges to [[_COMMUNITY_Community 1]]
+- 4 edges to [[_COMMUNITY_Community 11]]
+- 2 edges to [[_COMMUNITY_Community 48]]
+- 1 edge to [[_COMMUNITY_Community 31]]
+- 1 edge to [[_COMMUNITY_Community 54]]
 
 ## Top bridge nodes
-- [[RSA-2048 and ECC-256 (discrete log) are asymmetric schemes broken by Shor's algorithm; symmetric crypto is more resilient via larger keys]] - degree 4, connects to 2 communities
-- [[Mitigations PQC-only hard fork (Buterin-style) or soft fork, mandatory PQC address types, crypto agility, security hygiene (no address reuse) — all address theftintegrity, not retroactive privacy]] - degree 6, connects to 1 community
-- [[Thesis PQC can protect DLT integritysecurity but cannot retroactively protect data privacy of past transactions against HNDL]] - degree 4, connects to 1 community
-- [[Bitcoin]] - degree 3, connects to 1 community
-- [[Bitcoin case study public, permissionless DLT with ~15-year ledger used to illustrate HNDL; threat is current, active, unmitigated for data privacy, and asynchronous across address types]] - degree 3, connects to 1 community
+- [[Privacy Pools (0xbow)]] - degree 11, connects to 6 communities
+- [[Enterprise Pilots (Pilot)]] - degree 14, connects to 3 communities
+- [[ZK Identity (Growth  Regulatory Mandate)]] - degree 10, connects to 3 communities
+- [[ZK Identity]] - degree 3, connects to 1 community

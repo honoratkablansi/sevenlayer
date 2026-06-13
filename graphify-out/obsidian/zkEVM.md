@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch03-the-four-philosophies.md"
 type: "document"
-community: "zkEVM & Real-Time Proving"
+community: "Core Concepts & Book Spine"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/zkEVM__Real-Time_Proving
+  - community/Core_Concepts__Book_Spine
 ---
 
 # zkEVM
@@ -20,4 +20,4 @@ tags:
 - [[ZK Proofs Is Privacy Cheap Enough to Be Mainstream (Castle Labs)]] - `references` [EXTRACTED]
 - [[Zero-Knowledge Proof Market Size, Share & Trends Analysis Report (Grand View Research)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/zkEVM__Real-Time_Proving
+#graphify/document #graphify/EXTRACTED #community/Core_Concepts__Book_Spine

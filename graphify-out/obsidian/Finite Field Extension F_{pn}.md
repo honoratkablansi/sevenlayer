@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-50-extended-tower-nfs.pdf"
 type: "paper"
-community: "Extended Tower NFS"
+community: "Pairing & Discrete-Log Security"
 location: "§1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Extended_Tower_NFS
+  - community/Pairing__Discrete-Log_Security
 ---
 
 # Finite Field Extension F_{p^n}
@@ -16,4 +16,4 @@ tags:
 - [[Discrete Logarithm Problem]] - `conceptually_related_to` [EXTRACTED]
 - [[exTNFS (Extended Tower Number Field Sieve)]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Extended_Tower_NFS
+#graphify/paper #graphify/EXTRACTED #community/Pairing__Discrete-Log_Security

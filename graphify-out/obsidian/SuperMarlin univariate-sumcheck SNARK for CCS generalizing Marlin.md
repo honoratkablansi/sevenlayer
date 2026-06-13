@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch03/ref-14-ccs-customizable-constraints.pdf"
 type: "paper"
-community: "Sumcheck SNARKs (SuperSpartan)"
+community: "Sumcheck & Small-Space zkVMs"
 location: "Appendix A"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Sumcheck_SNARKs_SuperSpartan
+  - community/Sumcheck__Small-Space_zkVMs
 ---
 
 # SuperMarlin: univariate-sumcheck SNARK for CCS generalizing Marlin
@@ -16,4 +16,4 @@ tags:
 - [[Marlin CHM+20 - preprocessing zkSNARK that SuperMarlin generalizes]] - `cites` [EXTRACTED]
 - [[Sumcheck Protocol]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Sumcheck_SNARKs_SuperSpartan
+#graphify/paper #graphify/EXTRACTED #community/Sumcheck__Small-Space_zkVMs

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-37-updatable-universal-crs.pdf"
 type: "paper"
-community: "Universal SRS & Sonic"
+community: "Universal SRS & Ceremonies"
 location: "page 1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Universal_SRS__Sonic
+  - community/Universal_SRS__Ceremonies
 ---
 
 # Updatable and Universal Common Reference Strings with Applications to zk-SNARKs
@@ -29,4 +29,4 @@ tags:
 - [[q-Monomial Knowledge (q-MK) assumption]] - `introduces` [EXTRACTED]
 - [[zk-SNARK]] - `references` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Universal_SRS__Sonic
+#graphify/paper #graphify/EXTRACTED #community/Universal_SRS__Ceremonies

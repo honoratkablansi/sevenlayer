@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch06-the-folding-genealogy.md"
 type: "document"
-community: "Recursive Proofs & IVC"
+community: "Folding & Lattice Crypto"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Recursive_Proofs__IVC
+  - community/Folding__Lattice_Crypto
 ---
 
 # CycleFold
@@ -17,4 +17,4 @@ tags:
 - [[SNARK Recursion vs. Folding The Full Picture]] - `references` [EXTRACTED]
 - [[The Folding Genealogy]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Recursive_Proofs__IVC
+#graphify/document #graphify/EXTRACTED #community/Folding__Lattice_Crypto

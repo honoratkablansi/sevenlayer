@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-08-stark.pdf"
 type: "paper"
-community: "FHE & Lattice Folding (Symphony)"
+community: "STARKs & Lattice SNARKs (Symphony)"
 location: "§3.3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/FHE__Lattice_Folding_Symphony
+  - community/STARKs__Lattice_SNARKs_Symphony
 ---
 
 # Random oracle model (non-interactive STARK / NIROP)
@@ -17,4 +17,4 @@ tags:
 - [[Transparent random oracle RO_0RO_1 (programmable weakening; simulator learns r)]] - `conceptually_related_to` [EXTRACTED]
 - [[Zero-Knowledge Scalable Transparent ARgument of Knowledge (ZK-STARK)]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/FHE__Lattice_Folding_Symphony
+#graphify/paper #graphify/EXTRACTED #community/STARKs__Lattice_SNARKs_Symphony

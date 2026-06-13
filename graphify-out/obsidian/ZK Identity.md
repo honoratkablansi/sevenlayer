@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/13-the-market-landscape.md"
 type: "document"
-community: "ZK Identity & Market"
+community: "ZK Identity & Enterprise"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/ZK_Identity__Market
+  - community/ZK_Identity__Enterprise
 ---
 
 # ZK Identity
@@ -15,4 +15,4 @@ tags:
 - [[The Market Landscape]] - `references` [EXTRACTED]
 - [[ZK Identity (Growth  Regulatory Mandate)]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/ZK_Identity__Market
+#graphify/document #graphify/EXTRACTED #community/ZK_Identity__Enterprise

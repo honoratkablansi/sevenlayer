@@ -1,7 +1,7 @@
 ---
 source_file: "references/ch06/ref-20-latticefold.pdf"
 type: "paper"
-community: "Lattice Folding (LatticeFold+)"
+community: "Lattice Folding (LatticeFold)"
 location: "§1"
 tags:
   - graphify/paper

@@ -43,9 +43,9 @@ SORT file.name ASC
 - 4 edges to [[_COMMUNITY_Arithmetization & CCS]]
 - 3 edges to [[_COMMUNITY_Privacy-Enhancing Technologies]]
 - 2 edges to [[_COMMUNITY_Circuit Verification (Coda)]]
-- 1 edge to [[_COMMUNITY_zkVM Design Philosophy]]
-- 1 edge to [[_COMMUNITY_Core Concepts & Book Spine]]
-- 1 edge to [[_COMMUNITY_FHE & Lattice Folding (Symphony)]]
+- 1 edge to [[_COMMUNITY_Programmable Privacy & Midnight]]
+- 1 edge to [[_COMMUNITY_Open Questions & Convergence]]
+- 1 edge to [[_COMMUNITY_Fully Homomorphic Encryption]]
 - 1 edge to [[_COMMUNITY_zkVM Compiler Optimization]]
 
 ## Top bridge nodes

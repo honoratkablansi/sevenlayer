@@ -1,22 +1,21 @@
 ---
 type: community
 cohesion: 0.33
-members: 7
+members: 6
 ---
 
 # Community 61
 
 **Cohesion:** 0.33 - loosely connected
-**Members:** 7 nodes
+**Members:** 6 nodes
 
 ## Members
-- [[Distortion map phi(x,y)-(-x,Zy) giving symmetric pairing]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
-- [[Embedding degree k]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
-- [[LibCryptoLCH Cx86-64 asm implementation (Thales)]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
-- [[Supersingular elliptic curve]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
-- [[Supersingular k=2 curve construction p=hN-1, E y2=x3-x]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
-- [[Tate pairing]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
-- [[Tate pairing on composite-order supersingular curve (Alg.2)]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[Lemma 610 (folding CCS is randomizing)]] - paper - references/ch06/ref-18-hypernova.pdf
+- [[Linearized (committed) CCS relation]] - paper - references/ch06/ref-18-hypernova.pdf
+- [[Multi-folding scheme (generalized folding)]] - paper - references/ch06/ref-18-hypernova.pdf
+- [[Multi-folding scheme for CCS (Construction 1)]] - paper - references/ch06/ref-18-hypernova.pdf
+- [[Theorem 8 (nlookup multi-folding scheme)]] - paper - references/ch06/ref-18-hypernova.pdf
+- [[nlookup lookup argument (Construction 8)]] - paper - references/ch06/ref-18-hypernova.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -26,9 +25,13 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 2 edges to [[_COMMUNITY_Community 47]]
-- 1 edge to [[_COMMUNITY_Community 59]]
+- 4 edges to [[_COMMUNITY_Community 7]]
+- 4 edges to [[_COMMUNITY_Community 27]]
+- 2 edges to [[_COMMUNITY_Community 8]]
+- 1 edge to [[_COMMUNITY_Community 0]]
 
 ## Top bridge nodes
-- [[LibCryptoLCH Cx86-64 asm implementation (Thales)]] - degree 3, connects to 2 communities
-- [[Supersingular k=2 curve construction p=hN-1, E y2=x3-x]] - degree 5, connects to 1 community
+- [[Multi-folding scheme for CCS (Construction 1)]] - degree 10, connects to 4 communities
+- [[nlookup lookup argument (Construction 8)]] - degree 4, connects to 2 communities
+- [[Multi-folding scheme (generalized folding)]] - degree 3, connects to 1 community
+- [[Linearized (committed) CCS relation]] - degree 2, connects to 1 community

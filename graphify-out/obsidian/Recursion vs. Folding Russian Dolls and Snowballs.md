@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch06-recursion-vs-folding-russian-dolls-and-snowballs.md"
 type: "document"
-community: "Core Concepts & Book Spine"
+community: "Folding & Lattice Crypto"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Core_Concepts__Book_Spine
+  - community/Folding__Lattice_Crypto
 ---
 
 # Recursion vs. Folding: Russian Dolls and Snowballs
@@ -24,4 +24,4 @@ tags:
 - [[The Hybrid Pipeline]] - `references` [EXTRACTED]
 - [[Zexe]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Core_Concepts__Book_Spine
+#graphify/document #graphify/EXTRACTED #community/Folding__Lattice_Crypto

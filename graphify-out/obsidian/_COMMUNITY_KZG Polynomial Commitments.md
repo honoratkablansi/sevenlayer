@@ -40,16 +40,15 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
+- 5 edges to [[_COMMUNITY_Folding & Lattice Crypto]]
 - 5 edges to [[_COMMUNITY_Succinct Arguments & Streaming PIOPs]]
-- 3 edges to [[_COMMUNITY_Bulletproofs & Range Proofs]]
-- 2 edges to [[_COMMUNITY_Core Concepts & Book Spine]]
 - 2 edges to [[_COMMUNITY_Groth16 & Pairing SNARKs]]
 - 2 edges to [[_COMMUNITY_ProtoStar Accumulation]]
-- 1 edge to [[_COMMUNITY_Folding Genealogy & Post-Quantum]]
+- 1 edge to [[_COMMUNITY_Programmable Privacy & Midnight]]
 - 1 edge to [[_COMMUNITY_Recursive Proofs & IVC]]
 
 ## Top bridge nodes
-- [[Constant-Size Commitments to Polynomials and Their Applications]] - degree 15, connects to 6 communities
+- [[Constant-Size Commitments to Polynomials and Their Applications]] - degree 15, connects to 5 communities
 - [[PolyCommitDL Scheme]] - degree 12, connects to 4 communities
 - [[PolyCommitPed Scheme]] - degree 8, connects to 3 communities
 - [[Constant-Size Commitment & O(1) Opening Overhead]] - degree 2, connects to 1 community

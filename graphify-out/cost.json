@@ -25,9 +25,16 @@
       "input_tokens": 1644885,
       "output_tokens": 0,
       "files": 18,
-      "note": "deepen_pdfs batch 3 (deferred papers) - measured subagent tokens; 17 of 18 readable (GMR ref-02 is an image-only scan, left shallow)"
+      "note": "deepen_pdfs batch 3 (deferred papers) - measured subagent tokens; 17 of 18 readable"
+    },
+    {
+      "date": "2026-06-13T05:30:07.612645+00:00",
+      "input_tokens": 39069,
+      "output_tokens": 0,
+      "files": 1,
+      "note": "deepen_pdfs GMR (ref-02) - OCR via PyMuPDF page-render + vision read; measured subagent tokens"
     }
   ],
-  "total_input_tokens": 5311752,
+  "total_input_tokens": 5350821,
   "total_output_tokens": 239400
 }

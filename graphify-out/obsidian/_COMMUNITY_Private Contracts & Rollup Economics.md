@@ -1,13 +1,13 @@
 ---
 type: community
 cohesion: 0.06
-members: 50
+members: 51
 ---
 
 # Private Contracts & Rollup Economics
 
 **Cohesion:** 0.06 - loosely connected
-**Members:** 50 nodes
+**Members:** 51 nodes
 
 ## Members
 - [[2016 Ethereum Shanghai  EIP-150 underpriced-opcode DoS precedent]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
@@ -33,6 +33,7 @@ members: 50
 - [[Ideal smart contract functionality F_sc{Delta,Lambda}]] - paper - references/ch09/ref-30-kachina.pdf
 - [[Kachina -- Foundations of Private Smart Contracts]] - paper - references/ch09/ref-30-kachina.pdf
 - [[Kachina core protocol]] - paper - references/ch09/ref-30-kachina.pdf
+- [[Kachina method via UC-emulation transitivity]] - paper - references/ch09/ref-30-kachina.pdf
 - [[L2 EIP-1559-style DA pricing with L1-fee floor (DA-saturation mitigation)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
 - [[Leakage function Lambda]] - paper - references/ch09/ref-30-kachina.pdf
 - [[MODEXP killer block 94x finality latency, $42.26 prover loss per 35M-gas block]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
@@ -69,17 +70,17 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 6 edges to [[_COMMUNITY_Core Concepts & Book Spine]]
+- 7 edges to [[_COMMUNITY_Core Concepts & Book Spine]]
 - 3 edges to [[_COMMUNITY_Privacy Pools & Zerocash]]
 - 2 edges to [[_COMMUNITY_Privacy-Enhancing Technologies]]
-- 2 edges to [[_COMMUNITY_zkVM Design Philosophy]]
-- 2 edges to [[_COMMUNITY_zkVM & STARK Stacks]]
+- 2 edges to [[_COMMUNITY_Sumcheck & Small-Space zkVMs]]
 - 1 edge to [[_COMMUNITY_Recursive Proofs & IVC]]
+- 1 edge to [[_COMMUNITY_Programmable Privacy & Midnight]]
 - 1 edge to [[_COMMUNITY_Trusted Setup Ceremonies]]
 
 ## Top bridge nodes
 - [[Kachina -- Foundations of Private Smart Contracts]] - degree 13, connects to 4 communities
-- [[Unaligned Incentives Pricing Attacks Against Blockchain Rollups]] - degree 12, connects to 3 communities
+- [[Unaligned Incentives Pricing Attacks Against Blockchain Rollups]] - degree 12, connects to 2 communities
 - [[Prover-killer attack (high cycles-per-gas tx stalls ZK proof generation)]] - degree 7, connects to 2 communities
 - [[DA-saturation attack (data-heavy compute-light tx flooding L1 blob capacity)]] - degree 10, connects to 1 community
-- [[Universal Composability (UC)]] - degree 4, connects to 1 community
+- [[Generic rollup cost model Txfee = L2fee + L1fee (rho_blob, Scalar_blob, Ctx, Stx)]] - degree 4, connects to 1 community

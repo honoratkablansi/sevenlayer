@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch07/ref-26-nist-ir-8547.pdf"
 type: "paper"
-community: "Shor's Quantum Algorithms"
+community: "Quantum-Vulnerable Crypto & PQC Schedule"
 location: "§4.1.1 Table 2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Shors_Quantum_Algorithms
+  - community/Quantum-Vulnerable_Crypto__PQC_Schedule
 ---
 
 # Quantum-vulnerable digital signatures (ECDSA, EdDSA, RSA per FIPS 186)
@@ -17,4 +17,4 @@ tags:
 - [[RSA Cryptosystem]] - `conceptually_related_to` [EXTRACTED]
 - [[Shor's Algorithm]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Shors_Quantum_Algorithms
+#graphify/paper #graphify/EXTRACTED #community/Quantum-Vulnerable_Crypto__PQC_Schedule

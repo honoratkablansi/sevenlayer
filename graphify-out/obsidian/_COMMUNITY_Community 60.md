@@ -1,22 +1,22 @@
 ---
 type: community
-cohesion: 0.29
+cohesion: 0.33
 members: 7
 ---
 
 # Community 60
 
-**Cohesion:** 0.29 - loosely connected
+**Cohesion:** 0.33 - loosely connected
 **Members:** 7 nodes
 
 ## Members
-- [[Cited Bellare-Fuchsbauer-Scafuro subversion impossibility (BFS16)]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[Lemmas 1-2 subversion-secure = updatable-secure = trusted-secure]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[Subversion-resistant NIZK  subversion zero-knowledge]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[Theorem 3 perfect subversion zero-knowledge of the construction]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[Three setup-oracle types trusted (T), updatable (U), subvertible (S)]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[Trusted CRS setup with secret trapdoor]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[X-security games COMP, X-ZK, X-SND, X-KSND for X in {T,U,S}]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Arthur-Merlin games (Babai) as restricted interactive proofs]] - paper - references/ch01/ref-02-gmr-knowledge-complexity.pdf
+- [[IP language recognized by probabilistic PSPACE machine A]] - paper - references/ch01/ref-02-gmr-knowledge-complexity.pdf
+- [[IP Interactive Polynomial-time language class]] - paper - references/ch01/ref-02-gmr-knowledge-complexity.pdf
+- [[Interactive Proof Systems]] - document - proving-nothing.md
+- [[Interactive Turing Machine (ITM)]] - paper - references/ch01/ref-02-gmr-knowledge-complexity.pdf
+- [[Interactive proof for QNR (Example 1, coin-flipping challenge)]] - paper - references/ch01/ref-02-gmr-knowledge-complexity.pdf
+- [[Prover and Verifier (interactive protocol A,B)]] - paper - references/ch01/ref-02-gmr-knowledge-complexity.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -26,12 +26,11 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 3 edges to [[_COMMUNITY_Community 8]]
+- 3 edges to [[_COMMUNITY_Community 31]]
+- 2 edges to [[_COMMUNITY_Community 12]]
 - 1 edge to [[_COMMUNITY_Community 0]]
-- 1 edge to [[_COMMUNITY_Community 6]]
 
 ## Top bridge nodes
-- [[Subversion-resistant NIZK  subversion zero-knowledge]] - degree 5, connects to 2 communities
-- [[Three setup-oracle types trusted (T), updatable (U), subvertible (S)]] - degree 4, connects to 1 community
-- [[Cited Bellare-Fuchsbauer-Scafuro subversion impossibility (BFS16)]] - degree 2, connects to 1 community
-- [[Theorem 3 perfect subversion zero-knowledge of the construction]] - degree 2, connects to 1 community
+- [[Interactive Proof Systems]] - degree 9, connects to 3 communities
+- [[Arthur-Merlin games (Babai) as restricted interactive proofs]] - degree 2, connects to 1 community
+- [[Interactive proof for QNR (Example 1, coin-flipping challenge)]] - degree 2, connects to 1 community

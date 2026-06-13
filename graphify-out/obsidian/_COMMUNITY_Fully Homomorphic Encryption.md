@@ -1,20 +1,40 @@
 ---
 type: community
-cohesion: 0.50
-members: 5
+cohesion: 0.13
+members: 25
 ---
 
 # Fully Homomorphic Encryption
 
-**Cohesion:** 0.50 - moderately connected
-**Members:** 5 nodes
+**Cohesion:** 0.13 - loosely connected
+**Members:** 25 nodes
 
 ## Members
+- [[Boneh-Goh-Nissim evaluating 2-DNF formulas on ciphertexts 11]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Bootstrappable encryption scheme that can evaluate its own (augmented) decryption circuit]] - paper - references/ch09/ref-29-gentry-fhe.pdf
 - [[Bootstrapping (FHE)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
-- [[CirC Compiler Infrastructure for Proof Systems, Software Verification, and More]] - paper - references/ch10/ref-33-circ.pdf
+- [[Bootstrapping theorem any bootstrappable scheme yields leveled FHE family {E(d)} (Thm 1,3)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Circuit privacy via RandomizeCT (add encryption of 0 with super-polynomially larger error)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Closest vector problem  lattice reduction (LLL)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
 - [[Craig Gentry]] - paper - references/ch09/ref-29-gentry-fhe.pdf
-- [[Fully Homomorphic Encryption (FHE)]] - document - wiki/chapters/09-privacy-enhancing-technologies.md
+- [[Decisional CVP for ideal lattices in a fixed ring (bounded-distance decoding hardness underlying E1)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Error-vector growth bounds evaluation depth ~ (c1-c2) log n (Thm 6, Thm 8; expansion factor gamma_Mult)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
 - [[Fully Homomorphic Encryption Using Ideal Lattices]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Goldwasser-Micali first semantically secure (additively) homomorphic scheme 23]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Homomorphic encryption (Evaluate over encrypted data without decrypting)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Ideal Coset Problem (ICP) decide if t is near-lattice (Samp1) or uniform mod J; security of E1 (Def.10, Thm 7)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Ideal lattices (ideals of Zxf(x) as lattices; rotation basis)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[KDM-security  circular security (self-loop of encrypted secret keys yields true FHE)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[NTRU ring-based public-key cryptosystem (ideal-lattice cryptography precedent) 25]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Performance counterbalanced assumptions; gamma_subset=sqrt(n), n~=lambda2, breaking time ~2sqrt(n)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Recrypt homomorphically evaluate decryption circuit on encrypted secret-key bits to refresh ciphertext error]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Rivest-Adleman-Dertouzos 1978 privacy homomorphisms (original FHE open problem) 54]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Scheme E2 tweaks (narrow C_E to B(rDec2); replace matrix-vector by ring mult v_Jsk x psi) lowering decryption depth]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Scheme E3 squashed E2 with hidden sparse subset; bootstrappable and semantically secure (Thm 2, Thm 11)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Somewhat-homomorphic scheme E1 over ideal lattices (ciphertext v+x; ring addmult mod B_Jpk)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Sparse Subset Sum Problem (SSSP)  SplitKey Distinguishing Problem second hardness assumption from tau in public key]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Squashing the decryption circuit SplitKeyExpandCT shift work to encrypter so Decrypt sums only sub-linear vectors (E3)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Three-step FHE blueprint SWHE - squash decryption - bootstrap to fully homomorphic]] - paper - references/ch09/ref-29-gentry-fhe.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -24,15 +44,13 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 5 edges to [[_COMMUNITY_Privacy-Enhancing Technologies]]
-- 4 edges to [[_COMMUNITY_Compliance & Deployment]]
-- 2 edges to [[_COMMUNITY_ZK Crypto Foundations]]
-- 2 edges to [[_COMMUNITY_CirC Compiler Infrastructure]]
-- 1 edge to [[_COMMUNITY_zkVMs & STARK Stacks]]
-- 1 edge to [[_COMMUNITY_Arithmetization & CCS]]
-- 1 edge to [[_COMMUNITY_Programmable Privacy & Midnight]]
+- 4 edges to [[_COMMUNITY_Privacy-Enhancing Technologies]]
+- 1 edge to [[_COMMUNITY_Folding & Lattice Crypto]]
+- 1 edge to [[_COMMUNITY_CirC Compiler Infrastructure]]
+- 1 edge to [[_COMMUNITY_STARKs & Lattice SNARKs (Symphony)]]
 
 ## Top bridge nodes
-- [[CirC Compiler Infrastructure for Proof Systems, Software Verification, and More]] - degree 8, connects to 5 communities
-- [[Fully Homomorphic Encryption (FHE)]] - degree 10, connects to 3 communities
-- [[Fully Homomorphic Encryption Using Ideal Lattices]] - degree 6, connects to 2 communities
+- [[Fully Homomorphic Encryption Using Ideal Lattices]] - degree 12, connects to 3 communities
+- [[Homomorphic encryption (Evaluate over encrypted data without decrypting)]] - degree 4, connects to 1 community
+- [[Ideal lattices (ideals of Zxf(x) as lattices; rotation basis)]] - degree 4, connects to 1 community
+- [[KDM-security  circular security (self-loop of encrypted secret keys yields true FHE)]] - degree 2, connects to 1 community

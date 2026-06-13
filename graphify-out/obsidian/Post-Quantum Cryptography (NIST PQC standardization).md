@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch07/ref-25-nist-fips-203-204-205.pdf"
 type: "paper"
-community: "Folding Genealogy & Post-Quantum"
+community: "Folding & Lattice Crypto"
 location: "§1.2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Folding_Genealogy__Post-Quantum
+  - community/Folding__Lattice_Crypto
 ---
 
 # Post-Quantum Cryptography (NIST PQC standardization)
@@ -53,4 +53,4 @@ tags:
 - [[Where Midnight Challenges the Model]] - `references` [EXTRACTED]
 - [[ZKsync Airbender GPU-Accelerated RISC-V Proving]] - `references` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Folding_Genealogy__Post-Quantum
+#graphify/paper #graphify/EXTRACTED #community/Folding__Lattice_Crypto

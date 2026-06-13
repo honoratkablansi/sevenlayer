@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch01/ref-03-sok-snark-vulnerabilities.pdf"
 type: "paper"
-community: "SNARK Vulnerabilities & Foundations"
+community: "ZK Foundations & SNARK Security"
 location: "§4"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/SNARK_Vulnerabilities__Foundations
+  - community/ZK_Foundations__SNARK_Security
 ---
 
 # Methodology: classify each bug by layer, type, root cause, and impact
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Dataset of 141 SNARK vulnerabilities (107 audits, 16 disclosures, 18 bug-tracker; 2018-2024)]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/SNARK_Vulnerabilities__Foundations
+#graphify/paper #graphify/EXTRACTED #community/ZK_Foundations__SNARK_Security

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch13/ref-60-eidas-2-regulation.pdf"
 type: "paper"
-community: "eIDAS & Digital Identity"
+community: "Digital Identity & Proof of Personhood"
 location: "Art. 3(16),(19); Art. 24a"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/eIDAS__Digital_Identity
+  - community/Digital_Identity__Proof_of_Personhood
 ---
 
 # Qualified Trust Service Provider / qualified trust services
@@ -16,4 +16,4 @@ tags:
 - [[QTSP non-combination of personal data  wallet-issuer blindness (Art. 45h; Art. 5a(5)(b))]] - `conceptually_related_to` [EXTRACTED]
 - [[Qualified Electronic Attestation of Attributes (QEAA) (Art. 3(45); Art. 45d, Annex V)]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/eIDAS__Digital_Identity
+#graphify/paper #graphify/EXTRACTED #community/Digital_Identity__Proof_of_Personhood

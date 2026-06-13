@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/11-zkvms-the-universal-stage.md"
 type: "document"
-community: "zkVM Design Philosophy"
+community: "Programmable Privacy & Midnight"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/zkVM_Design_Philosophy
+  - community/Programmable_Privacy__Midnight
 ---
 
 # RISC Zero
@@ -27,4 +27,4 @@ tags:
 - [[Zero-Knowledge Virtual Machine (zkVM)]] - `implements` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/zkVM_Design_Philosophy
+#graphify/document #graphify/EXTRACTED #community/Programmable_Privacy__Midnight

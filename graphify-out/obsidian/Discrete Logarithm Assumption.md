@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-09-bulletproofs.pdf"
 type: "document"
-community: "Bulletproofs & Range Proofs"
+community: "Folding & Lattice Crypto"
 location: "Section 1.1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Bulletproofs__Range_Proofs
+  - community/Folding__Lattice_Crypto
 ---
 
 # Discrete Logarithm Assumption
@@ -22,4 +22,4 @@ tags:
 - [[Theorem 1 Inner-Product Argument Security]] - `assumes` [EXTRACTED]
 - [[Theorem 5 Arithmetic Circuit Protocol Soundness]] - `assumes` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Bulletproofs__Range_Proofs
+#graphify/document #graphify/EXTRACTED #community/Folding__Lattice_Crypto

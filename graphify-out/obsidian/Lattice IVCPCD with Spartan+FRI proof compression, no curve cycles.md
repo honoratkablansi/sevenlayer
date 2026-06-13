@@ -1,7 +1,7 @@
 ---
 source_file: "references/ch06/ref-21-neo.pdf"
 type: "paper"
-community: "Lattice Folding (LatticeFold+)"
+community: "Lattice Folding (LatticeFold)"
 location: "§1.5"
 tags:
   - graphify/paper

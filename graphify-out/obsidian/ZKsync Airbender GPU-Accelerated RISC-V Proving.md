@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch10/ref-53-airbender.md"
 type: "document"
-community: "zkVM Design Philosophy"
+community: "Core Concepts & Book Spine"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/zkVM_Design_Philosophy
+  - community/Core_Concepts__Book_Spine
 ---
 
 # ZKsync Airbender: GPU-Accelerated RISC-V Proving
@@ -20,4 +20,4 @@ tags:
 - [[Zero-Knowledge Virtual Machine (zkVM)]] - `implements` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/zkVM_Design_Philosophy
+#graphify/document #graphify/EXTRACTED #community/Core_Concepts__Book_Spine

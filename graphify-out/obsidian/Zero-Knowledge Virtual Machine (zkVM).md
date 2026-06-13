@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/03-choreographing-the-act.md"
 type: "document"
-community: "zkVM Design Philosophy"
+community: "Sumcheck & Small-Space zkVMs"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/zkVM_Design_Philosophy
+  - community/Sumcheck__Small-Space_zkVMs
 ---
 
 # Zero-Knowledge Virtual Machine (zkVM)
@@ -52,4 +52,4 @@ tags:
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 - [[zkVMs Across the Stack]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/zkVM_Design_Philosophy
+#graphify/document #graphify/EXTRACTED #community/Sumcheck__Small-Space_zkVMs

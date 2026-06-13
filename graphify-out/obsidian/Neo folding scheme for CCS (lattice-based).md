@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-21-neo.pdf"
 type: "paper"
-community: "Sumcheck SNARKs (SuperSpartan)"
+community: "Lattice Folding (Neo)"
 location: "§4"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Sumcheck_SNARKs_SuperSpartan
+  - community/Lattice_Folding_Neo
 ---
 
 # Neo folding scheme for CCS (lattice-based)
@@ -22,4 +22,4 @@ tags:
 - [[Pi_RLC random linear combination reduction (folds k+1 norm-b claims into one norm-B)]] - `defines` [EXTRACTED]
 - [[Reductions of knowledge framework]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Sumcheck_SNARKs_SuperSpartan
+#graphify/paper #graphify/EXTRACTED #community/Lattice_Folding_Neo

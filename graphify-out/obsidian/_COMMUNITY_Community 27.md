@@ -1,37 +1,36 @@
 ---
 type: community
-cohesion: 0.13
-members: 22
+cohesion: 0.14
+members: 21
 ---
 
 # Community 27
 
-**Cohesion:** 0.13 - loosely connected
-**Members:** 22 nodes
+**Cohesion:** 0.14 - loosely connected
+**Members:** 21 nodes
 
 ## Members
-- [[AVX-512 multi-modular NTT ring arithmetic library]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[Batched evaluation protocol for multiple pointspolynomials]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[Bivariate polynomial folding f(X,Y)=aT S b with Y=Xm]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[Committing to w via v=Dw-hat (proof-size reduction)]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[Coordinate-wise special soundness analysis (CWSS)]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[Efficiency O(sqrt N) verifier, polylog proof, 53KB at N=230]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[FMN23 lattice polynomial commitments  Power-BASIS (CWSS origin)]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[Fast Johnson-Lindenstrauss projection via Four Russians algorithm]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[Greyhound polynomial commitment scheme]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[Greyhound Fast Polynomial Commitments from Lattices]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[HVZK  hiding variant via Module-LWE masking]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[Inner and outer commitment construction]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[KZG10 constant-size polynomial commitments]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[LaBRADOR Proof System]] - document - references/ch14/ref-65-greyhound.pdf
-- [[Ligero (AHIV17) and Brakedown (GLS+21) hash-based PCs (baselines)]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[Reduction of verification to a single short-norm linear relation over Rq]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[SLAP succinct lattice polynomial commitments (AFLN24, EUROCRYPT 2024)]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[Split-and-fold  folding paradigm]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[Theorem 4.1 completeness, weak binding, knowledge soundness of PCS]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[Three-round proof of polynomial evaluation (quadratic relation)]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[Weak binding of innerouter commitment under Module-SIS (Lemma 2.11)]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[Zq-to-Rq evaluation transform via Galois automorphism (AFLN24)]] - paper - references/ch14/ref-65-greyhound.pdf
+- [[A-la-carte cost profile for machine execution]] - paper - references/ch06/ref-18-hypernova.pdf
+- [[Complete Bibliography]] - document - wiki/BIBLIOGRAPHY.md
+- [[Cycles of Elliptic Curves]] - document - references/ch06/ref-17-nova.pdf
+- [[Halo Recursive Proof Composition]] - paper - references/ch06/ref-17-nova.pdf
+- [[HyperNova NIVC-from-multifolding compiler (Construction 2)]] - paper - references/ch06/ref-18-hypernova.pdf
+- [[HyperNova Recursive Arguments for Customizable Constraint Systems]] - paper - references/ch06/ref-18-hypernova.pdf
+- [[Incrementally Verifiable Computation (IVC)]] - document - wiki/sections/ch06-recursion-vs-folding-russian-dolls-and-snowballs.md
+- [[LatticeFold A Lattice-based Folding Scheme and its Applications to Succinct Proof Systems]] - paper - references/ch06/ref-20-latticefold.pdf
+- [[No commitments to cross-terms efficiency claim]] - paper - references/ch06/ref-18-hypernova.pdf
+- [[Non-uniform IVC (NIVC)]] - paper - references/ch06/ref-18-hypernova.pdf
+- [[Nova Folding Scheme (cited)]] - paper - references/ch06/ref-20-latticefold.pdf
+- [[Nova Recursive Zero-Knowledge Arguments from Folding Schemes]] - paper - references/ch06/ref-17-nova.pdf
+- [[Pasta Cycle of Elliptic Curves]] - paper - references/ch06/ref-17-nova.pdf
+- [[Proof-Carrying Data (PCD)]] - document - references/ch06/ref-18-hypernova.pdf
+- [[ProtoStar]] - document - wiki/sections/ch06-the-folding-genealogy.md
+- [[Protostar Folding Scheme (cited)]] - paper - references/ch06/ref-20-latticefold.pdf
+- [[Recursive Proof Composition]] - paper - references/ch06/ref-17-nova.pdf
+- [[Sangria (folding scheme for Plonkish)]] - paper - references/ch06/ref-18-hypernova.pdf
+- [[Single-MSM prover cost (size = variables)]] - paper - references/ch06/ref-18-hypernova.pdf
+- [[Theorem 1 (multi-folding scheme for CCS)]] - paper - references/ch06/ref-18-hypernova.pdf
+- [[Theorem 3 (HyperNova NIVC scheme)]] - paper - references/ch06/ref-18-hypernova.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -41,19 +40,31 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 5 edges to [[_COMMUNITY_Community 0]]
-- 5 edges to [[_COMMUNITY_Community 11]]
-- 4 edges to [[_COMMUNITY_Community 58]]
-- 3 edges to [[_COMMUNITY_Community 12]]
-- 3 edges to [[_COMMUNITY_Community 23]]
-- 1 edge to [[_COMMUNITY_Community 6]]
-- 1 edge to [[_COMMUNITY_Community 26]]
+- 13 edges to [[_COMMUNITY_Community 7]]
+- 12 edges to [[_COMMUNITY_Community 2]]
+- 8 edges to [[_COMMUNITY_Community 0]]
+- 6 edges to [[_COMMUNITY_Community 9]]
+- 4 edges to [[_COMMUNITY_Community 61]]
+- 4 edges to [[_COMMUNITY_Community 29]]
+- 3 edges to [[_COMMUNITY_Community 8]]
+- 3 edges to [[_COMMUNITY_Community 53]]
+- 3 edges to [[_COMMUNITY_Community 18]]
+- 2 edges to [[_COMMUNITY_Community 31]]
+- 2 edges to [[_COMMUNITY_Community 57]]
+- 1 edge to [[_COMMUNITY_Community 38]]
+- 1 edge to [[_COMMUNITY_Community 28]]
+- 1 edge to [[_COMMUNITY_Community 19]]
 - 1 edge to [[_COMMUNITY_Community 15]]
-- 1 edge to [[_COMMUNITY_Community 1]]
+- 1 edge to [[_COMMUNITY_Community 3]]
+- 1 edge to [[_COMMUNITY_Community 30]]
+- 1 edge to [[_COMMUNITY_Community 41]]
+- 1 edge to [[_COMMUNITY_Community 4]]
+- 1 edge to [[_COMMUNITY_Community 34]]
+- 1 edge to [[_COMMUNITY_Community 10]]
 
 ## Top bridge nodes
-- [[Greyhound polynomial commitment scheme]] - degree 14, connects to 6 communities
-- [[Greyhound Fast Polynomial Commitments from Lattices]] - degree 17, connects to 4 communities
-- [[Inner and outer commitment construction]] - degree 4, connects to 1 community
-- [[Coordinate-wise special soundness analysis (CWSS)]] - degree 3, connects to 1 community
-- [[Theorem 4.1 completeness, weak binding, knowledge soundness of PCS]] - degree 3, connects to 1 community
+- [[Complete Bibliography]] - degree 16, connects to 12 communities
+- [[HyperNova Recursive Arguments for Customizable Constraint Systems]] - degree 25, connects to 8 communities
+- [[LatticeFold A Lattice-based Folding Scheme and its Applications to Succinct Proof Systems]] - degree 21, connects to 7 communities
+- [[Nova Recursive Zero-Knowledge Arguments from Folding Schemes]] - degree 19, connects to 7 communities
+- [[Incrementally Verifiable Computation (IVC)]] - degree 13, connects to 6 communities

@@ -28,7 +28,8 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 2 edges to [[_COMMUNITY_Privacy Pools & Zerocash]]
+- 1 edge to [[_COMMUNITY_ZK Identity & Enterprise]]
+- 1 edge to [[_COMMUNITY_ZK Foundations & SNARK Security]]
 
 ## Top bridge nodes
 - [[Association set (custom set of possible fund origins)]] - degree 5, connects to 1 community

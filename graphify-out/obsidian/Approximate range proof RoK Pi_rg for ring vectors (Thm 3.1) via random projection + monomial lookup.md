@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-56-symphony.pdf"
 type: "paper"
-community: "FHE & Lattice Folding (Symphony)"
+community: "STARKs & Lattice SNARKs (Symphony)"
 location: "§3.4, Fig. 2, Thm 3.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/FHE__Lattice_Folding_Symphony
+  - community/STARKs__Lattice_SNARKs_Symphony
 ---
 
 # Approximate range proof RoK Pi_rg for ring vectors (Thm 3.1) via random projection + monomial lookup
@@ -18,4 +18,4 @@ tags:
 - [[Random projection for norm preservation (J in {0,+-1}, ell2-norm preserved mod q)]] - `assumes` [EXTRACTED]
 - [[Reduction of Knowledge]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/FHE__Lattice_Folding_Symphony
+#graphify/paper #graphify/EXTRACTED #community/STARKs__Lattice_SNARKs_Symphony

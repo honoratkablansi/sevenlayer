@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/05-encoding-the-performance.md"
 type: "document"
-community: "Sumcheck SNARKs (SuperSpartan)"
+community: "Sumcheck & Small-Space zkVMs"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Sumcheck_SNARKs_SuperSpartan
+  - community/Sumcheck__Small-Space_zkVMs
 ---
 
 # Sumcheck Protocol
@@ -69,4 +69,4 @@ tags:
 - [[nlookup lookup argument (Construction 8)]] - `assumes` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Sumcheck_SNARKs_SuperSpartan
+#graphify/document #graphify/EXTRACTED #community/Sumcheck__Small-Space_zkVMs

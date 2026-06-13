@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-21-neo.pdf"
 type: "paper"
-community: "Jolt Instruction Tables"
+community: "Jolt Lookup zkVM"
 location: "§1, §3.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Jolt_Instruction_Tables
+  - community/Jolt_Lookup_zkVM
 ---
 
 # Linearly homomorphic commitment
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Lemma 2 linear combinations of commitments respect right-multiplication of openings]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Jolt_Instruction_Tables
+#graphify/paper #graphify/EXTRACTED #community/Jolt_Lookup_zkVM

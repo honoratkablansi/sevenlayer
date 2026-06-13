@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-45-small-space-cpu-proofs.pdf"
 type: "paper"
-community: "Memory Checking & Sparse PCS"
+community: "Sumcheck & Small-Space zkVMs"
 location: "§3.3 (Overview of Twist)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Memory_Checking__Sparse_PCS
+  - community/Sumcheck__Small-Space_zkVMs
 ---
 
 # Twist: sum-check memory-checking argument for read/write memory
@@ -17,4 +17,4 @@ tags:
 - [[Sumcheck Protocol]] - `assumes` [EXTRACTED]
 - [[Twist and Shout Memory-Checking Arguments]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Memory_Checking__Sparse_PCS
+#graphify/paper #graphify/EXTRACTED #community/Sumcheck__Small-Space_zkVMs

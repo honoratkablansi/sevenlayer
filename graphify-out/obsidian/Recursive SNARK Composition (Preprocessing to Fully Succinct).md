@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-06-groth16.pdf"
 type: "paper"
-community: "Small-Space Proving (Twist/Shout)"
+community: "Sumcheck & Small-Space zkVMs"
 location: "§1.1 (Size matters), §2.2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Small-Space_Proving_Twist/Shout
+  - community/Sumcheck__Small-Space_zkVMs
 ---
 
 # Recursive SNARK Composition (Preprocessing to Fully Succinct)
@@ -15,4 +15,4 @@ tags:
 - [[Continuations  recursive composition for zkVM prover memory control]] - `conceptually_related_to` [EXTRACTED]
 - [[On the Size of Pairing-Based Non-interactive Arguments]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Small-Space_Proving_Twist/Shout
+#graphify/paper #graphify/EXTRACTED #community/Sumcheck__Small-Space_zkVMs

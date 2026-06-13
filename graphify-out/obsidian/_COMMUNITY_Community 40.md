@@ -1,32 +1,29 @@
 ---
 type: community
 cohesion: 0.15
-members: 17
+members: 14
 ---
 
 # Community 40
 
 **Cohesion:** 0.15 - loosely connected
-**Members:** 17 nodes
+**Members:** 14 nodes
 
 ## Members
-- [[Algorand player-replaceable byzantine agreement (cited analogy for player exchangeability)]] - paper - references/ch02/ref-05-mpc-random-beacon.pdf
-- [[BLS12-381 new pairing-friendly curve, 384-bit base field, 256-bit group order, 128-bit security]] - paper - references/ch02/ref-05-mpc-random-beacon.pdf
-- [[Ben-Sasson-Chiesa-Green-Tromer-Virza MPC for public parameters (prior CRS protocol)]] - paper - references/ch02/ref-05-mpc-random-beacon.pdf
-- [[Bowe-Gabizon-Green MPC for the Pinocchio zk-SNARK parameters (prior protocol, Zcash setup)]] - paper - references/ch02/ref-05-mpc-random-beacon.pdf
-- [[Delayed-hash random beacon (e.g. 240 SHA256 iterations) per Bunz-Goldfeder-Bonneau]] - paper - references/ch02/ref-05-mpc-random-beacon.pdf
-- [[Extended Groth CRS depth-two-circuit-computable CRS enabling two-phase px-MPC]] - paper - references/ch02/ref-05-mpc-random-beacon.pdf
-- [[Knowledge of Exponent Assumption (KEA) basis for the discrete-log proof of knowledge scheme]] - paper - references/ch02/ref-05-mpc-random-beacon.pdf
-- [[Layered multiplydivide + linear-combination circuit structure for parameter generation]] - paper - references/ch02/ref-05-mpc-random-beacon.pdf
-- [[MMORPG massively multi-party open reusable parameter generation system]] - paper - references/ch02/ref-05-mpc-random-beacon.pdf
-- [[POKCheckPOK random-oracle discrete-log proof of knowledge of exponent (Algorithms 3,4)]] - paper - references/ch02/ref-05-mpc-random-beacon.pdf
-- [[Player-exchangeable MPC (px-MPC) message sequence with no restriction on sender identity, no private state between messages]] - paper - references/ch02/ref-05-mpc-random-beacon.pdf
-- [[Precommitment phase round in prior MPC forcing pre-selection of participants and secret custody, removed by this work]] - paper - references/ch02/ref-05-mpc-random-beacon.pdf
-- [[Random beacon model public verifiable randomness at fixed time slots, unavailable before the slot]] - paper - references/ch02/ref-05-mpc-random-beacon.pdf
-- [[SameRatio  consistent pairing-based ratio-equality checks (Algorithms 1,2)]] - paper - references/ch02/ref-05-mpc-random-beacon.pdf
-- [[Theorem 5.1 security under u-co-resistant beacon, advantage bound 2{-ud}·adv - negl]] - paper - references/ch02/ref-05-mpc-random-beacon.pdf
-- [[Untrusted coordinator deterministic, publicly verifiable interphase computation party]] - paper - references/ch02/ref-05-mpc-random-beacon.pdf
-- [[u-co-resistance beacon output retains min-entropy at least k·logF_p - u under adversarial influence]] - paper - references/ch02/ref-05-mpc-random-beacon.pdf
+- [[Cited Groth 2010 pairing-based zk-SNARK (Gro10b)]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Impossibility updating non-monomial CRS reveals constituent monomials]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Knowledge-of-Exponent Assumption]] - paper - references/ch02/ref-06-groth16.pdf
+- [[Lemma 6 single adversarial update implies full updatable knowledge soundness]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Lemmas 4-5 trapdoor extraction for subvertible & updatable CRSs]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[MonoExtract  FinalMonoExtract monomial-extraction algorithm]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Quadratic monomial-only universal CRS (multivariate X,Y,Z, j=7)]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Specializable universal CRS via untrusted Derive algorithm]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Theorem 3 perfect subversion zero-knowledge of the construction]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Theorem 4 update knowledge soundness under q-MK and q-MC]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Theorem 5  Lemma 8 Pinocchio cannot be made updatable]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Updatable & specializable QAP-based zk-SNARK construction]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[q-Monomial Computational (q-MC) assumption]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[q-Monomial Knowledge (q-MK) assumption]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -36,13 +33,15 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 5 edges to [[_COMMUNITY_Community 6]]
-- 3 edges to [[_COMMUNITY_Community 0]]
-- 1 edge to [[_COMMUNITY_Community 19]]
+- 5 edges to [[_COMMUNITY_Community 33]]
+- 2 edges to [[_COMMUNITY_Community 19]]
+- 2 edges to [[_COMMUNITY_Community 15]]
+- 1 edge to [[_COMMUNITY_Community 13]]
+- 1 edge to [[_COMMUNITY_Community 59]]
 
 ## Top bridge nodes
-- [[MMORPG massively multi-party open reusable parameter generation system]] - degree 8, connects to 3 communities
-- [[Extended Groth CRS depth-two-circuit-computable CRS enabling two-phase px-MPC]] - degree 3, connects to 2 communities
-- [[Player-exchangeable MPC (px-MPC) message sequence with no restriction on sender identity, no private state between messages]] - degree 9, connects to 1 community
-- [[Random beacon model public verifiable randomness at fixed time slots, unavailable before the slot]] - degree 5, connects to 1 community
-- [[BLS12-381 new pairing-friendly curve, 384-bit base field, 256-bit group order, 128-bit security]] - degree 2, connects to 1 community
+- [[Updatable & specializable QAP-based zk-SNARK construction]] - degree 6, connects to 2 communities
+- [[Quadratic monomial-only universal CRS (multivariate X,Y,Z, j=7)]] - degree 4, connects to 1 community
+- [[Knowledge-of-Exponent Assumption]] - degree 3, connects to 1 community
+- [[Impossibility updating non-monomial CRS reveals constituent monomials]] - degree 3, connects to 1 community
+- [[q-Monomial Computational (q-MC) assumption]] - degree 3, connects to 1 community

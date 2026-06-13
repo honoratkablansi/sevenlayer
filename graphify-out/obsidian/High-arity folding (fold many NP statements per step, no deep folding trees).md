@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-56-symphony.pdf"
 type: "paper"
-community: "FHE & Lattice Folding (Symphony)"
+community: "STARKs & Lattice SNARKs (Symphony)"
 location: "§1.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/FHE__Lattice_Folding_Symphony
+  - community/STARKs__Lattice_SNARKs_Symphony
 ---
 
 # High-arity folding (fold many NP statements per step, no deep folding trees)
@@ -15,4 +15,4 @@ tags:
 - [[Folding Scheme]] - `conceptually_related_to` [EXTRACTED]
 - [[Lattice-based high-arity folding scheme Pi_fold (Thm 4.1) compressing l_np R1CS statements in one shot]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/FHE__Lattice_Folding_Symphony
+#graphify/paper #graphify/EXTRACTED #community/STARKs__Lattice_SNARKs_Symphony

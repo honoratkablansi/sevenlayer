@@ -1,13 +1,13 @@
 ---
 type: community
 cohesion: 0.12
-members: 26
+members: 27
 ---
 
 # zkVM Fuzzing (Arguzz)
 
 **Cohesion:** 0.12 - loosely connected
-**Members:** 26 nodes
+**Members:** 27 nodes
 
 ## Members
 - [[ARGUZZ first automated fuzzer for zkVM soundness & completeness bugs (7-step workflow)]] - paper - references/ch14/ref-61-arguzz.pdf
@@ -16,6 +16,7 @@ members: 26
 - [[Completeness]] - document - proving-nothing.md
 - [[Dory transparent polynomial commitment scheme (log-round, sqrt-space prover)]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
 - [[Efficient metamorphic-testing variant known expected output, k-safety, single padded trace]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Error reduction by sequential repetition (Remark 1)]] - paper - references/ch01/ref-02-gmr-knowledge-complexity.pdf
 - [[Evaluation across 6 RISC-V zkVMs; 11 bugs (3 soundness FI, 8 completeness MT) in 3 of them]] - paper - references/ch14/ref-61-arguzz.pdf
 - [[FUZZTRUCTION  FUZZTRUCTION-NET 10,11 fault-injection-based fuzzing]] - paper - references/ch14/ref-61-arguzz.pdf
 - [[Fair fault-injection scheduler (uniform RISC-V instruction coverage via least-injected selection)]] - paper - references/ch14/ref-61-arguzz.pdf
@@ -45,14 +46,15 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 6 edges to [[_COMMUNITY_zkVM Design Philosophy]]
+- 4 edges to [[_COMMUNITY_Sumcheck & Small-Space zkVMs]]
+- 3 edges to [[_COMMUNITY_Open Questions & Convergence]]
 - 2 edges to [[_COMMUNITY_Core Concepts & Book Spine]]
+- 2 edges to [[_COMMUNITY_Interactive Proofs (GMR)]]
 - 1 edge to [[_COMMUNITY_Succinct Arguments & Streaming PIOPs]]
-- 1 edge to [[_COMMUNITY_Small-Space Proving (TwistShout)]]
 
 ## Top bridge nodes
-- [[Soundness]] - degree 6, connects to 2 communities
-- [[Completeness]] - degree 4, connects to 2 communities
+- [[Soundness]] - degree 8, connects to 3 communities
+- [[Completeness]] - degree 5, connects to 3 communities
+- [[ARGUZZ first automated fuzzer for zkVM soundness & completeness bugs (7-step workflow)]] - degree 13, connects to 2 communities
 - [[Dory transparent polynomial commitment scheme (log-round, sqrt-space prover)]] - degree 3, connects to 2 communities
-- [[ARGUZZ first automated fuzzer for zkVM soundness & completeness bugs (7-step workflow)]] - degree 13, connects to 1 community
 - [[Metamorphic Testing]] - degree 4, connects to 1 community

@@ -1,41 +1,40 @@
 ---
 type: community
-cohesion: 0.12
-members: 26
+cohesion: 0.11
+members: 25
 ---
 
 # Community 17
 
-**Cohesion:** 0.12 - loosely connected
-**Members:** 26 nodes
+**Cohesion:** 0.11 - loosely connected
+**Members:** 25 nodes
 
 ## Members
-- [[ARGUZZ first automated fuzzer for zkVM soundness & completeness bugs (7-step workflow)]] - paper - references/ch14/ref-61-arguzz.pdf
-- [[CIRCIL extended with inline-RISC-V-assembly custom functions (e.g. mulhsu) + circuit-to-Rust translation]] - paper - references/ch14/ref-61-arguzz.pdf
-- [[CIRCUZZ 23 metamorphic fuzzer for ZK pipelines (CIRCOMGNARKNOIR) via CIRCIL]] - paper - references/ch14/ref-61-arguzz.pdf
-- [[Completeness]] - document - proving-nothing.md
-- [[Dory transparent polynomial commitment scheme (log-round, sqrt-space prover)]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[Efficient metamorphic-testing variant known expected output, k-safety, single padded trace]] - paper - references/ch14/ref-61-arguzz.pdf
-- [[Evaluation across 6 RISC-V zkVMs; 11 bugs (3 soundness FI, 8 completeness MT) in 3 of them]] - paper - references/ch14/ref-61-arguzz.pdf
-- [[FUZZTRUCTION  FUZZTRUCTION-NET 10,11 fault-injection-based fuzzing]] - paper - references/ch14/ref-61-arguzz.pdf
-- [[Fair fault-injection scheduler (uniform RISC-V instruction coverage via least-injected selection)]] - paper - references/ch14/ref-61-arguzz.pdf
-- [[Fault Injection]] - document - references/ch14/ref-61-arguzz.pdf
-- [[INSTR_WORD_MOD instruction-modification injection (universal; triggered all 3 soundness bugs)]] - paper - references/ch14/ref-61-arguzz.pdf
-- [[Injection-type taxonomy (PC mod, ALU resultoperand, memreg mod, DIVREM flips, ecall id, branch invert)]] - paper - references/ch14/ref-61-arguzz.pdf
-- [[JOLT bug6 (soundness) unconstrained immediate operand in lui instruction]] - paper - references/ch14/ref-61-arguzz.pdf
-- [[MTZK 43 metamorphic testing of zero-knowledge compilers]] - paper - references/ch14/ref-61-arguzz.pdf
-- [[Malicious-prover fault injection into VM execution logic (verifier-only-trusted threat model)]] - paper - references/ch14/ref-61-arguzz.pdf
-- [[Metamorphic Testing]] - document - references/ch14/ref-61-arguzz.pdf
-- [[NEXUS bug3 (soundness) unconstrained store-value lower bits in swshsb load-store]] - paper - references/ch14/ref-61-arguzz.pdf
-- [[Product programs  hyperproperty (k-safety) reasoning 12,13,20,41]] - paper - references/ch14/ref-61-arguzz.pdf
-- [[Product-program metamorphic oracle merge k equivalent Rust fns; SUCCESS (0xC0FFEE) vs OOPS (0x0)]] - paper - references/ch14/ref-61-arguzz.pdf
-- [[RISC ZERO bug1 (soundness) missing constraint on 3-register insns (remudivu); $50,000 bounty]] - paper - references/ch14/ref-61-arguzz.pdf
-- [[RISC-V CPU fuzzers 25,29,40,44 (DifuzzRTL, TheHuzz, Cascade, MorFuzz)]] - paper - references/ch14/ref-61-arguzz.pdf
-- [[Ripple-effect fault propagation (fault at one instruction cascades along data dependencies)]] - paper - references/ch14/ref-61-arguzz.pdf
-- [[Rust 1.80 miscompilation by-product bug (boolean expr; both soundness & completeness)]] - paper - references/ch14/ref-61-arguzz.pdf
-- [[Semantics-preserving rewrite rules (commassocdistribDe Morgan; field-arith rules disabled)]] - paper - references/ch14/ref-61-arguzz.pdf
-- [[Soundness]] - document - proving-nothing.md
-- [[Soundness-bug detection criterion output flips SUCCESS-OOPS yet verifier accepts proof]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[58-program benchmark suite (PolyBench, NPB, SPEC CPU 2017, a16z, Succinct, RSP, crypto)]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
+- [[Ben-Sasson et al. first SNARK for von Neumann architecture (bounded machine)]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
+- [[BinTuner (Ren et al.) OpenTuner-based study of compiler-opt impact on binary diff]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
+- [[Cairo Turing-complete STARK-friendly CPU architecture (prior zkVM)]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
+- [[Cost-model mismatch zkVM uniform-cost constraints vs CPU hardware heuristics (cachebranch-predILP)]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
+- [[Evaluating Compiler Optimization Impacts on zkVM Performance]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
+- [[Finding -Ox gains (40%) on zkVMs far smaller than on traditional x86 CPUs]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
+- [[Finding inline is most beneficial pass (~22-30% gains, +28.4% RISC Zero exec)]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
+- [[Finding licm is most detrimental pass (+11.8% exec, +13.5% proving on RISC Zero; +444% paging on npb-lu)]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
+- [[First systematic study of compiler-optimization impact on zkVMs]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
+- [[Four optimization principles (P1 paging-aware, P2 selective inlining, P3 instr-reducing unroll, P4 conservative branch elim)]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
+- [[Genetic autotuning via OpenTuner (cycle-count fitness; up to 2.2x speedup over -O3)]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
+- [[Key cost components dynamic instruction count and paging cycles (~1130 cyclespage-op)]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
+- [[LLVM Compiler Infrastructure]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
+- [[Methodology 71 optimization profiles (64 LLVM passes, 6 -Ox levels, 1 baseline) x 2 zkVMs]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
+- [[Precompiles built-in circuits for hashingEC ops limiting autotuning crypto gains]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
+- [[Proving time (prover wall-clock cost metric)]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
+- [[RISC Zero zkVM (evaluated, v1.2.4)]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
+- [[SP1 zkVM (evaluated, v4.1.4)]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
+- [[Security-critical bug SP1 silently aborts mid-run yet proof verifies (false-correctness; reported and patched)]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
+- [[Superoptimization (e.g. Souper) for zkVM guest code]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
+- [[Surprising result strength reduction (div to shift-add) 3.5x faster on x86 but 40% slower proving on RISC Zero]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
+- [[Three zkVM metrics cycle count, executor time, proving time]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
+- [[zk-Bench (Ernstberger et al.) benchmarking framework for ZK DSLsSNARKs]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
+- [[zkVM-aware LLVM modifications (100 LOC cost model, heuristics, disabled passes); +45% RISC Zero, +4.6% avg]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -45,14 +44,14 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 6 edges to [[_COMMUNITY_Community 4]]
-- 2 edges to [[_COMMUNITY_Community 0]]
-- 1 edge to [[_COMMUNITY_Community 58]]
-- 1 edge to [[_COMMUNITY_Community 44]]
+- 7 edges to [[_COMMUNITY_Community 8]]
+- 4 edges to [[_COMMUNITY_Community 0]]
+- 2 edges to [[_COMMUNITY_Community 1]]
+- 1 edge to [[_COMMUNITY_Community 26]]
 
 ## Top bridge nodes
-- [[Soundness]] - degree 6, connects to 2 communities
-- [[Completeness]] - degree 4, connects to 2 communities
-- [[Dory transparent polynomial commitment scheme (log-round, sqrt-space prover)]] - degree 3, connects to 2 communities
-- [[ARGUZZ first automated fuzzer for zkVM soundness & completeness bugs (7-step workflow)]] - degree 13, connects to 1 community
-- [[Fault Injection]] - degree 4, connects to 1 community
+- [[Evaluating Compiler Optimization Impacts on zkVM Performance]] - degree 13, connects to 3 communities
+- [[LLVM Compiler Infrastructure]] - degree 6, connects to 1 community
+- [[Cost-model mismatch zkVM uniform-cost constraints vs CPU hardware heuristics (cachebranch-predILP)]] - degree 3, connects to 1 community
+- [[RISC Zero zkVM (evaluated, v1.2.4)]] - degree 3, connects to 1 community
+- [[SP1 zkVM (evaluated, v4.1.4)]] - degree 3, connects to 1 community

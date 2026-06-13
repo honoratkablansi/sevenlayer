@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch12/ref-41-midnight-developer-guide.md"
 type: "document"
-community: "eIDAS & Digital Identity"
+community: "ZK Foundations & SNARK Security"
 location: "Welcome to Midnight Network"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/eIDAS__Digital_Identity
+  - community/ZK_Foundations__SNARK_Security
 ---
 
 # Selective Disclosure
@@ -20,4 +20,4 @@ tags:
 - [[The Promise of Provable and Programmable Secrets]] - `defines` [EXTRACTED]
 - [[Zero-Knowledge Proof]] - `conceptually_related_to` [INFERRED]
 
-#graphify/document #graphify/EXTRACTED #community/eIDAS__Digital_Identity
+#graphify/document #graphify/EXTRACTED #community/ZK_Foundations__SNARK_Security

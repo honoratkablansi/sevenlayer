@@ -30,14 +30,14 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 6 edges to [[_COMMUNITY_Universal SRS & Sonic]]
+- 5 edges to [[_COMMUNITY_Universal SRS & Ceremonies]]
 - 2 edges to [[_COMMUNITY_PLONK & Permutation Arguments]]
+- 2 edges to [[_COMMUNITY_Sonic Argument System]]
 - 1 edge to [[_COMMUNITY_Core Concepts & Book Spine]]
-- 1 edge to [[_COMMUNITY_Bulletproofs & Range Proofs]]
-- 1 edge to [[_COMMUNITY_Sonic Argument System]]
+- 1 edge to [[_COMMUNITY_Folding & Lattice Crypto]]
 
 ## Top bridge nodes
-- [[Algebraic Group Model (AGM)]] - degree 10, connects to 2 communities
+- [[Algebraic Group Model (AGM)]] - degree 10, connects to 3 communities
 - [[(q1,q2)-extended discrete logarithm (edlog) assumption (Def 2)]] - degree 5, connects to 2 communities
 - [[Theorem 5 Groth16 ceremony has update knowledge soundness under (2n-1,2n-2)-edlog for algebraic adversaries in ROM]] - degree 5, connects to 2 communities
 - [[Q-DLOG Assumption]] - degree 5, connects to 1 community

@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch09-the-regulatory-intersection.md"
 type: "document"
-community: "ZK Identity & Market"
+community: "Privacy-Enhancing Technologies"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/ZK_Identity__Market
+  - community/Privacy-Enhancing_Technologies
 ---
 
 # eIDAS 2.0
@@ -22,4 +22,4 @@ tags:
 - [[The Three Frontiers]] - `references` [EXTRACTED]
 - [[ZK Identity (Growth  Regulatory Mandate)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/ZK_Identity__Market
+#graphify/document #graphify/EXTRACTED #community/Privacy-Enhancing_Technologies

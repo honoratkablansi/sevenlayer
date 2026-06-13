@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-09-bulletproofs.pdf"
 type: "paper"
-community: "Bulletproofs & Range Proofs"
+community: "Folding & Lattice Crypto"
 location: "§4.1-4.2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Bulletproofs__Range_Proofs
+  - community/Folding__Lattice_Crypto
 ---
 
 # Logarithmic-Size Range Proof
@@ -18,4 +18,4 @@ tags:
 - [[Range Proof]] - `defines` [EXTRACTED]
 - [[Switch to Quantum-Secure Range Proofs (ElGamal)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Bulletproofs__Range_Proofs
+#graphify/paper #graphify/EXTRACTED #community/Folding__Lattice_Crypto

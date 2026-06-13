@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/concepts/logup.md"
 type: "document"
-community: "zkVM & STARK Stacks"
+community: "Arithmetization & CCS"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/zkVM__STARK_Stacks
+  - community/Arithmetization__CCS
 ---
 
 # LogUp
@@ -23,4 +23,4 @@ tags:
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 - [[zkVMs Across the Stack]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/zkVM__STARK_Stacks
+#graphify/document #graphify/EXTRACTED #community/Arithmetization__CCS

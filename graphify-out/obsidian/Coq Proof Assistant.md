@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-35-coda.pdf"
 type: "document"
-community: "Circuit Verification (Coda)"
+community: "Coda Type System & Coq"
 location: "page 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Circuit_Verification_Coda
+  - community/Coda_Type_System__Coq
 ---
 
 # Coq Proof Assistant
@@ -17,4 +17,4 @@ tags:
 - [[Coda statically-typed functional DSL for ZK circuits]] - `assumes` [EXTRACTED]
 - [[Coq lemma generation for proof obligations]] - `assumes` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Circuit_Verification_Coda
+#graphify/document #graphify/EXTRACTED #community/Coda_Type_System__Coq

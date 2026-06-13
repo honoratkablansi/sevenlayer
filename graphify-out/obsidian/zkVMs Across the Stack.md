@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch11-zkvms-across-the-stack.md"
 type: "document"
-community: "zkVM & STARK Stacks"
+community: "Arithmetization & CCS"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/zkVM__STARK_Stacks
+  - community/Arithmetization__CCS
 ---
 
 # zkVMs Across the Stack
@@ -22,4 +22,4 @@ tags:
 - [[Zero-Knowledge Virtual Machine (zkVM)]] - `defines` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `part_of` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/zkVM__STARK_Stacks
+#graphify/document #graphify/EXTRACTED #community/Arithmetization__CCS

@@ -1,47 +1,65 @@
 ---
 type: community
-cohesion: 0.23
-members: 32
+cohesion: 0.06
+members: 50
 ---
 
 # Community 5
 
-**Cohesion:** 0.23 - loosely connected
-**Members:** 32 nodes
+**Cohesion:** 0.06 - loosely connected
+**Members:** 50 nodes
 
 ## Members
-- [[AIR (Algebraic Intermediate Representation)]] - document - wiki/chapters/05-encoding-the-performance.md
-- [[Arithmetization]] - document - wiki/chapters/05-encoding-the-performance.md
-- [[Binius]] - document - wiki/sections/ch05-the-overhead-tax-10-000x-to-50-000x.md
-- [[CCS (Customizable Constraint Systems)]] - document - wiki/chapters/05-encoding-the-performance.md
-- [[CCS formal definition matrices M_j, multisets S_i, constants c_i, sum c_i · Hadamard_{j in S_i} (M_j z) = 0]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
-- [[CCS The Rosetta Stone]] - document - wiki/sections/ch05-ccs-the-rosetta-stone.md
-- [[Encoding the Performance]] - document - wiki/chapters/05-encoding-the-performance.md
-- [[Folding Scheme]] - paper - references/ch06/ref-17-nova.pdf
-- [[GKR Protocol]] - document - wiki/sections/ch05-lookup-arguments.md
-- [[Generalized Committed Linear Relation R_lin,B]] - paper - references/ch02/ref-11-latticefold-plus.pdf
-- [[Glossary of Key Terms]] - document - wiki/GLOSSARY.md
-- [[HyperNova]] - document - wiki/GLOSSARY.md
-- [[Layer 4 -- Arithmetization]] - document - wiki/sections/ch05-layer-4-arithmetization.md
-- [[Lemma 1 constant-time R1CS-to-CCS reduction (t=3, q=2, d=2)]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
-- [[Lemma 2 Plonkish-to-CCS reduction; multisets encode monomials of g]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
-- [[Lookup Arguments_1]] - document - wiki/sections/ch05-lookup-arguments.md
-- [[Nightstream Lattice-Based Folding for CCS (LFDT-Nightstream)]] - document - references/ch06/ref-49-nightstream.md
-- [[Nova]] - document - wiki/GLOSSARY.md
-- [[Offline Memory Checking  Algebraic RAM Reduction]] - document - wiki/sections/ch04-witness-generation-costs.md
-- [[PLONK GWC19 - proof system Plonkish was believed tied to]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
-- [[PLONKish Arithmetization]] - document - wiki/chapters/05-encoding-the-performance.md
-- [[Plookup]] - document - wiki/sections/ch05-lookup-arguments.md
-- [[R1CS]] - document - wiki/chapters/05-encoding-the-performance.md
-- [[Schwartz-Zippel Lemma]] - document - wiki/sections/ch05-the-spreadsheet-metaphor-and-where-it-works.md
-- [[Spartan]] - document - wiki/concepts/spartan.md
-- [[Srinath Setty]] - document - wiki/sections/ch02-the-quantum-shelf-life.md
-- [[The Constraint System Evolution R1CS, AIR, PLONKish]] - document - wiki/sections/ch05-the-constraint-system-evolution-r1cs-air-plonkish.md
-- [[The Overhead Tax 10,000x to 50,000x]] - document - wiki/sections/ch05-the-overhead-tax-10-000x-to-50-000x.md
-- [[The Spreadsheet Metaphor (And Where It Works)]] - document - wiki/sections/ch05-the-spreadsheet-metaphor-and-where-it-works.md
-- [[The Sumcheck Protocol The Hidden Foundation]] - document - wiki/sections/ch05-the-sumcheck-protocol-the-hidden-foundation.md
-- [[Where the Analogies Break]] - document - wiki/sections/ch05-where-the-analogies-break.md
-- [[Where the Layers Collapse]] - document - wiki/sections/ch05-ccs-the-rosetta-stone.md
+- [['Large-Scale MPC Scaling Private Iris Code Uniqueness Checks to Millions of Users' — cited technical paper underpinning AMPC]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[AMPC infrastructure NVIDIA H100 GPUs (AWS p5.48xlarge, RDMA) running CUDA, ~50M pairwise comparisonssec; operated by FAU Erlangen, UC Berkeley RDI, Nethermind, KAIST, UTEC, UZurich]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[Anonymized Multi-Party Computation (AMPC) quantum-secure SMPC uniqueness service on encrypted iris-code fragments, revealing only a single matchno-match bit, never plaintext Hamming distances]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[Authentic sources & attribute verification (Art. 3(47); Art. 45e)]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[Certification of EUDI Wallets (Art. 5c)]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[Common dashboard transaction log, GDPR Art.17 erasure, DPA reporting (Art. 5a(4)(d))]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[Data minimization]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[Definition 'European Digital Identity Wallet' (Art. 3(42))]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[Digital Identity]] - document - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[EUDI Wallet (Art. 5a) user-controlled cross-border eID means]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[EUDI Wallet relying parties registration, intended-use declaration (Art. 5b)]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[Electronic Attestation of Attributes (EAA) (Art. 3(44); Art. 45b)]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[European Digital Identity Framework (amending Reg 9102014)]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[European Digital Identity Wallet]] - document - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[GDPR  Reg 2016679 compliance & purpose limitation (Art. 5a(17); Recital 12)]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[Iris Biometrics]] - document - references/ch13/ref-59-world-whitepaper.pdf
+- [[Iris biometrics 1N uniqueness modality with FMR beyond 2.5e-14, randomly formed in gestation, stable, uncorrelated even between twinsown eyes]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[Issuance with complete certainty of identityattributes (Recital 74)]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[John Daugman iris recognition (1993, Gabor-wavelet IrisCode), foundational prior work for the Orb's iris algorithm]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[Levels of assurance wallet at assurance level 'high' (Art. 8; Art. 5a(11))]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[NFC ID credential self-custodial credential derived locally from ICAO-compliant NFC passportsnational IDs to prove attributes (age, nationality) without uploading ID data]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[Nullifier]] - document - proving-nothing.md
+- [[Orb hardware root of trust dual burned keys (NVIDIA Jetson SoC fuses + secure element), NIST-SP-800-108 KDF provisioning, dm-verity signed-firmware boot, on-chain Orb Registry]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[Personal Custody Package (PCP) irisface embeddings, raw images and AMPC fragments encrypted on the Orb with a user key, sent to the phone, then images deleted from the Orb]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[PoH authentication unlinkable pseudonymity via self-custody + ZKP against a public registry, plus a person-bound second factor (Face Auth) with periodic reauthentication]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[Presentation Attack Detection & liveness local challenge-response, passive liveness, thermal heat-signature check, contact-lens detection across multispectral sensors]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[Privacy-preserving  no-tracking technical framework (Art. 5a(16))]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[Proof of Human (PoH) private primitive establishing a party is a real, unique human (or agent acting on a human's behalf)]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[Proof of Personhood (Proof of Human)]] - document - references/ch13/ref-59-world-whitepaper.pdf
+- [[QTSP non-combination of personal data  wallet-issuer blindness (Art. 45h; Art. 5a(5)(b))]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[Qualified Electronic Attestation of Attributes (QEAA) (Art. 3(45); Art. 45d, Annex V)]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[Qualified Trust Service Provider  qualified trust services]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[Regulation (EU) 2016679 (GDPR)]] - document - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[Regulation (EU) 20241183 establishing the European Digital Identity Framework (eIDAS 2)]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[Secure multi-party computation (SMPC) multiple independent nodes jointly check uniqueness over secret-shared, end-to-end encrypted fragments without any party seeing the data]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[Semaphore set registration zk-SNARK privacy layer; smart contract on Ethereum holding a Merkle set of Poseidon (BN254) hashes of World ID secrets, bridged to other chains]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[Semaphore generic open-source zk-SNARK group-membership and signaling protocol for Ethereum (Groth16-verifiable)]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[Sole user control & logical data separation (Art. 5a(14))]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[The Orb high-security open-source multispectral IR camera issuing an AI-safe PoH credential via local on-device iris+face capture, livenessPAD, and signed iris code]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[Unique iris code frequency-based features extracted from iris texture via multi-scale Gabor wavelet filters with quantized phase response; matched by Hamming distance with masks]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[Uniqueness targetsclaims per-iris FMR 1e-6, billion-scale FMR ~1e-12, FNMR  5e-3; achieved FMR 2.25e-14 at ~1e-3 FNMR in pre-launch tests]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[Unlinkability]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[User-chosen pseudonyms (Art. 5a(4)(b); Recital 22)]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[Voluntary use, open-source, free-of-charge wallet (Art. 5a(3),(13),(15))]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[World Chain human-centered financial layer implemented as an OP Stack  Superchain layer-2 on Ethereum with human-based transaction prioritization]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[World ID]] - document - references/ch13/ref-59-world-whitepaper.pdf
+- [[World ID open-source decentralized privacy-preserving digital identity issuing unlinkable proofs (Proof of Human, Age, Country) via personal custody, AMPC and ZKPs]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[World Network real human network with five core technologies (World ID, Orb, World App, World Chain, WLD) for Proof of Human plus a financial layer]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[World Whitepapers (World Network Proof of Human)]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[Worldcoin (WLD) ERC-20 native token, 10B initial cap, =60% target to verified humans as user tokens, governanceone-person-one-vote, =1.5% inflation only after 15 years]] - paper - references/ch13/ref-59-world-whitepaper.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -51,38 +69,14 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 130 edges to [[_COMMUNITY_Community 0]]
-- 50 edges to [[_COMMUNITY_Community 3]]
-- 32 edges to [[_COMMUNITY_Community 12]]
-- 20 edges to [[_COMMUNITY_Community 39]]
-- 18 edges to [[_COMMUNITY_Community 24]]
-- 15 edges to [[_COMMUNITY_Community 37]]
-- 14 edges to [[_COMMUNITY_Community 4]]
-- 7 edges to [[_COMMUNITY_Community 25]]
-- 6 edges to [[_COMMUNITY_Community 9]]
-- 6 edges to [[_COMMUNITY_Community 36]]
-- 6 edges to [[_COMMUNITY_Community 1]]
-- 6 edges to [[_COMMUNITY_Community 54]]
-- 4 edges to [[_COMMUNITY_Community 28]]
-- 3 edges to [[_COMMUNITY_Community 43]]
-- 3 edges to [[_COMMUNITY_Community 65]]
-- 2 edges to [[_COMMUNITY_Community 15]]
-- 2 edges to [[_COMMUNITY_Community 45]]
-- 2 edges to [[_COMMUNITY_Community 10]]
-- 2 edges to [[_COMMUNITY_Community 20]]
-- 2 edges to [[_COMMUNITY_Community 11]]
-- 2 edges to [[_COMMUNITY_Community 53]]
-- 1 edge to [[_COMMUNITY_Community 22]]
-- 1 edge to [[_COMMUNITY_Community 13]]
-- 1 edge to [[_COMMUNITY_Community 49]]
-- 1 edge to [[_COMMUNITY_Community 52]]
-- 1 edge to [[_COMMUNITY_Community 19]]
-- 1 edge to [[_COMMUNITY_Community 66]]
-- 1 edge to [[_COMMUNITY_Community 63]]
+- 7 edges to [[_COMMUNITY_Community 31]]
+- 3 edges to [[_COMMUNITY_Community 0]]
+- 1 edge to [[_COMMUNITY_Community 25]]
+- 1 edge to [[_COMMUNITY_Community 1]]
 
 ## Top bridge nodes
-- [[R1CS]] - degree 32, connects to 15 communities
-- [[Folding Scheme]] - degree 68, connects to 14 communities
-- [[Encoding the Performance]] - degree 63, connects to 11 communities
-- [[CCS (Customizable Constraint Systems)]] - degree 37, connects to 9 communities
-- [[Nova]] - degree 38, connects to 8 communities
+- [[Regulation (EU) 20241183 establishing the European Digital Identity Framework (eIDAS 2)]] - degree 7, connects to 2 communities
+- [[Nullifier]] - degree 4, connects to 2 communities
+- [[EUDI Wallet (Art. 5a) user-controlled cross-border eID means]] - degree 15, connects to 1 community
+- [[World Whitepapers (World Network Proof of Human)]] - degree 6, connects to 1 community
+- [[Data minimization]] - degree 4, connects to 1 community

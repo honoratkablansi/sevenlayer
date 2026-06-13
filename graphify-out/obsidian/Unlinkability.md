@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch13/ref-60-eidas-2-regulation.pdf"
 type: "paper"
-community: "eIDAS & Digital Identity"
+community: "Digital Identity & Proof of Personhood"
 location: "Art. 5a(16)"
 tags:
   - graphify/paper
   - graphify/INFERRED
-  - community/eIDAS__Digital_Identity
+  - community/Digital_Identity__Proof_of_Personhood
 ---
 
 # Unlinkability
@@ -17,4 +17,4 @@ tags:
 - [[User-chosen pseudonyms (Art. 5a(4)(b); Recital 22)]] - `conceptually_related_to` [INFERRED]
 - [[Zero-Knowledge Proof]] - `conceptually_related_to` [INFERRED]
 
-#graphify/paper #graphify/INFERRED #community/eIDAS__Digital_Identity
+#graphify/paper #graphify/INFERRED #community/Digital_Identity__Proof_of_Personhood

@@ -29,8 +29,9 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 4 edges to [[_COMMUNITY_Shor's Quantum Algorithms]]
+- 2 edges to [[_COMMUNITY_Shor's Quantum Algorithms]]
+- 2 edges to [[_COMMUNITY_Quantum-Vulnerable Crypto & PQC Schedule]]
 
 ## Top bridge nodes
-- [[Quantum prime factorization algorithm]] - degree 6, connects to 1 community
+- [[Quantum prime factorization algorithm]] - degree 6, connects to 2 communities
 - [[Quantum order-finding (period-finding) subroutine]] - degree 5, connects to 1 community

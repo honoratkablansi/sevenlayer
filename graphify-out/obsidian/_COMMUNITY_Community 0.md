@@ -1,166 +1,151 @@
 ---
 type: community
-cohesion: 0.07
-members: 151
+cohesion: 0.06
+members: 136
 ---
 
 # Community 0
 
-**Cohesion:** 0.07 - loosely connected
-**Members:** 151 nodes
+**Cohesion:** 0.06 - loosely connected
+**Members:** 136 nodes
 
 ## Members
 - [[Trustless versus Trust-Minimized]] - document - wiki/sections/ch10-trustless-versus-trust-minimized.md
-- [[Algebraic vs Traditional Hash Functions]] - document - wiki/sections/ch04-side-channel-attacks-when-the-walls-leak.md
+- [[Airbender]] - document - wiki/chapters/05-encoding-the-performance.md
 - [[Aligned Layer]] - document - wiki/sections/ch08-proof-aggregation-the-missing-layer.md
-- [[Ariel Gabizon]] - document - wiki/sections/ch02-the-bug-that-was-not-a-ceremony-failure.md
-- [[BLS12-381 Curve]] - document - wiki/chapters/02-building-the-stage.md
+- [[Aligned Layer_1]] - document - wiki/sections/ch13-proving-as-a-service-the-prover-market-production.md
+- [[Asset Tokenization]] - document - references/ch13/ref-58-dtcc-canton-tokenization.md
+- [[Axiom]] - document - wiki/sections/ch13-zk-coprocessors-off-chain-computation-on-chain-verification-growth.md
 - [[BN254 Curve]] - document - wiki/chapters/02-building-the-stage.md
-- [[BN254's Eroding Security Margin]] - document - wiki/sections/ch02-bn254-s-eroding-security-margin.md
-- [[Beanstalk]] - document - wiki/concepts/beanstalk.md
+- [[BabyBear]] - document - wiki/concepts/babybear.md
 - [[Beanstalk Flash Loan Attack (April 2022)]] - document - wiki/sections/ch08-governance-the-achilles-heel.md
 - [[Beanstalk Flash Loan Governance Attack (April 2022)]] - document - proving-nothing.md
-- [[Bulletproofs]] - document - wiki/chapters/02-building-the-stage.md
-- [[Cardano]] - document - wiki/sections/ch12-midnight-at-a-glance.md
-- [[Case Study Midnight (Layer 6)]] - document - wiki/sections/ch07-case-study-midnight.md
-- [[Case Study Midnight and the Three-Token Architecture]] - document - wiki/sections/ch04-memory-the-binding-constraint.md
-- [[Case Study Midnight's Sealed Certificate]] - document - wiki/sections/ch03-the-developer-s-actual-experience.md
+- [[Brevis]] - document - wiki/sections/ch13-zk-coprocessors-off-chain-computation-on-chain-verification-growth.md
+- [[Cairo]] - document - wiki/chapters/03-choreographing-the-act.md
+- [[Canton Network_1]] - document - references/ch13/ref-58-dtcc-canton-tokenization.md
 - [[Celestia]] - document - wiki/sections/ch08-the-price-of-a-verdict.md
 - [[Chaliasos et al. Rollup Pricing Attacks Study (2025)]] - document - wiki/sections/ch08-pricing-attacks.md
+- [[Chorus One The Economics of ZK-Proving (2025)]] - document - wiki/sections/ch13-market-sizing.md
+- [[Circle STARKs]] - document - wiki/chapters/06-the-sealed-certificate.md
 - [[Circle STARKs_1]] - paper - references/ch06/ref-23-circle-starks.pdf
 - [[Circle STARKs and Stwo A Generational Leap]] - document - wiki/sections/ch06-circle-starks-and-stwo-a-generational-leap.md
-- [[Coda]] - document - wiki/sections/ch14-coda.md
-- [[Compact Language]] - document - wiki/chapters/03-choreographing-the-act.md
-- [[Compact Language Reference (Midnight Network)]] - document - references/ch12/ref-39-compact-language-reference.md
-- [[Compact's Disclosure Analysis]] - document - wiki/sections/ch03-compact-s-disclosure-analysis.md
-- [[Constant-Time Proving]] - document - proving-nothing.md
-- [[Convergence]] - document - wiki/sections/ch14-convergence.md
 - [[DA-Saturation Attacks]] - document - proving-nothing.md
+- [[DTCC and Digital Asset Partner to Tokenize DTC-Custodied U.S. Treasury Securities on the Canton Network]] - document - references/ch13/ref-58-dtcc-canton-tokenization.md
 - [[Data Availability]] - document - wiki/chapters/08-the-verdict.md
-- [[Disclosure Analysis (Compact compiler pass)]] - document - wiki/sections/ch03-the-four-philosophies.md
 - [[EIP-4844 Blob Transactions]] - document - wiki/sections/ch08-the-price-of-a-verdict.md
-- [[Elliptic Curve Cryptography]] - document - proving-nothing.md
+- [[EZKL]] - document - wiki/sections/ch13-zkml-provable-machine-learning-research.md
+- [[Ethereum Foundation]] - document - wiki/sections/ch10-path-two-pure-transparent.md
+- [[Ethproofs ZK Proving Cost Tracker (Ethereum Foundation)]] - document - references/ch13/ref-44-ethproofs.md
 - [[FRI]] - document - wiki/chapters/07-the-deep-craft.md
 - [[Fiat-Shamir Transform]] - document - wiki/chapters/01-the-promise-of-provable-and-programmable-secrets.md
 - [[Fiat-Shamir Vulnerabilities]] - document - wiki/sections/ch06-fiat-shamir-vulnerabilities.md
-- [[Five Lessons for ZK System Design]] - document - wiki/sections/ch12-five-lessons-for-zk-system-design.md
 - [[Flash Loans]] - document - proving-nothing.md
 - [[Fraud Proof System]] - document - references/ch08/ref-27-l2beat-stages.md
 - [[From Speed Race to Security Race]] - document - wiki/sections/ch06-from-speed-race-to-security-race.md
 - [[Frozen Heart Vulnerability]] - document - wiki/chapters/10-the-synthesis-three-paths-not-two.md
 - [[Frozen Heart Vulnerability Class (Trail of Bits, 2022)]] - document - wiki/sections/ch08-when-the-transcript-lies-fiat-shamir-vulnerabilities.md
 - [[Frozen Heart Forgery of Zero Knowledge Proofs (Trail of Bits, 2022)]] - document - references/ch06/ref-22-frozen-heart.md
-- [[Full Seven-Layer Mapping]] - document - wiki/sections/ch12-full-seven-layer-mapping.md
 - [[Governance The Achilles Heel]] - document - wiki/sections/ch08-governance-the-achilles-heel.md
+- [[Grand View Research Zero-Knowledge Proof Market Size Report (2025)]] - document - wiki/sections/ch13-market-sizing.md
 - [[Groth16]] - document - wiki/chapters/01-the-promise-of-provable-and-programmable-secrets.md
-- [[Halo 2]] - document - wiki/chapters/12-midnight-the-privacy-theater.md
 - [[How to Read This Guide]] - document - wiki/sections/ch01-how-to-read-this-guide.md
-- [[Jubjub curve]] - document - wiki/concepts/jubjub.md
-- [[KZG Polynomial Commitments]] - document - wiki/chapters/02-building-the-stage.md
+- [[Hyrax Commitment Scheme]] - document - wiki/sections/ch11-three-zkvms-through-seven-layers.md
+- [[Jagged Polynomial Commitment Scheme (Jagged PCS)]] - document - references/ch10/ref-52-sp1-hypercube.md
 - [[L2BEAT Stages Framework]] - document - references/ch08/ref-27-l2beat-stages.md
 - [[L2BEAT Stages Framework for L2 Maturity]] - document - references/ch08/ref-27-l2beat-stages.md
-- [[L2Beat]] - document - wiki/sections/ch01-the-deepest-question.md
 - [[L2Beat Stages Framework]] - document - wiki/sections/ch08-governance-the-achilles-heel.md
-- [[Layer 1 -- Building the Stage]] - document - wiki/chapters/02-building-the-stage.md
+- [[Lagrange]] - document - wiki/sections/ch13-zk-coprocessors-off-chain-computation-on-chain-verification-growth.md
+- [[Lagrange DeepProve]] - document - wiki/sections/ch13-zkml-provable-machine-learning-research.md
 - [[Layer 5 -- The Sealed Certificate]] - document - wiki/chapters/06-the-sealed-certificate.md
 - [[Layer 7 -- The Verdict]] - document - wiki/chapters/08-the-verdict.md
-- [[Mangrove]] - document - wiki/sections/ch06-snark-recursion-vs-folding-the-full-picture.md
-- [[Mersenne-31 Field]] - document - wiki/sections/ch06-circle-starks-and-stwo-a-generational-leap.md
-- [[Midnight]] - document - wiki/chapters/02-building-the-stage.md
-- [[Midnight -- The Privacy Theater]] - document - wiki/chapters/12-midnight-the-privacy-theater.md
-- [[Midnight Developer Guide (Midnight Docs)]] - document - references/ch12/ref-41-midnight-developer-guide.md
-- [[Midnight as Test Case]] - document - wiki/sections/ch12-midnight-as-test-case.md
-- [[Midnight at a Glance]] - document - wiki/sections/ch12-midnight-at-a-glance.md
-- [[Midnight's BLS12-381 Stage]] - document - wiki/sections/ch02-midnight-s-bls12-381-stage.md
-- [[Midnight's ZKIR A Concrete Layer 4]] - document - wiki/sections/ch05-midnight-s-zkir-a-concrete-layer-4.md
-- [[Midnight Compiler, IR, Circuit]] - document - wiki/sections/ch03-midnight-compiler-ir-circuit.md
-- [[MidnightJS SDK]] - document - wiki/sections/ch12-full-seven-layer-mapping.md
+- [[Linea]] - document - wiki/sections/ch13-zk-rollups-the-proving-grounds-production.md
+- [[Market Sizing]] - document - wiki/sections/ch13-market-sizing.md
+- [[Mersenne-31  M31]] - document - wiki/concepts/mersenne.md
+- [[Multilinear Polynomials]] - document - references/ch10/ref-52-sp1-hypercube.md
 - [[NEBRA Universal Proof Aggregation]] - document - wiki/sections/ch08-proof-aggregation-the-missing-layer.md
-- [[NIST]] - document - wiki/sections/ch01-the-deepest-question.md
-- [[NVIDIA]] - document - wiki/sections/ch14-the-seven-questions-that-remain-open.md
+- [[NVIDIA H100 GPU]] - document - wiki/sections/ch13-proving-as-a-service-the-prover-market-production.md
 - [[On-Chain Governance]] - document - proving-nothing.md
 - [[On-Chain Verification in 2026]] - document - wiki/sections/ch08-on-chain-verification-in-2026.md
-- [[Open Questions and the Road Ahead]] - document - wiki/chapters/14-open-questions-and-the-road-ahead.md
-- [[Option-Value Analysis]] - document - wiki/sections/ch02-option-value-analysis.md
+- [[OpenVM]] - document - wiki/sections/ch11-performance-the-cost-collapse.md
 - [[PLONK]] - document - wiki/GLOSSARY.md
-- [[Path Three Post-Quantum Folding]] - document - wiki/sections/ch10-path-three-post-quantum-folding.md
+- [[Path One The Hybrid STARK-to-SNARK Pipeline]] - document - wiki/sections/ch10-path-one-the-hybrid-stark-to-snark-pipeline.md
 - [[Path Two Pure Transparent]] - document - wiki/sections/ch10-path-two-pure-transparent.md
-- [[Poseidon Hash]] - document - wiki/chapters/04-the-secret-performance.md
+- [[Performance The Cost Collapse]] - document - wiki/sections/ch11-performance-the-cost-collapse.md
+- [[Pico Prism]] - document - wiki/sections/ch10-path-one-the-hybrid-stark-to-snark-pipeline.md
+- [[Pico zkVM]] - document - wiki/sections/ch13-zk-coprocessors-off-chain-computation-on-chain-verification-growth.md
 - [[Pricing Attacks]] - document - wiki/sections/ch08-pricing-attacks.md
 - [[Profiles of the Future (Arthur C. Clarke, 1962)]] - document - references/ch01/ref-01-clarke-profiles-of-the-future.md
 - [[Proof Aggregation]] - document - wiki/chapters/08-the-verdict.md
 - [[Proof Aggregation The Missing Layer]] - document - wiki/sections/ch08-proof-aggregation-the-missing-layer.md
-- [[Proof Recursion]] - document - wiki/chapters/06-the-sealed-certificate.md
 - [[Prover-Killer Attacks]] - document - proving-nothing.md
 - [[Proving Nothing]] - document - proving-nothing.md
+- [[Proving-as-a-Service]] - document - wiki/sections/ch13-proving-as-a-service-the-prover-market-production.md
+- [[Proving-as-a-Service The Prover Market (Production)]] - document - wiki/sections/ch13-proving-as-a-service-the-prover-market-production.md
+- [[RISC Zero Boundless]] - document - wiki/sections/ch13-proving-as-a-service-the-prover-market-production.md
+- [[RISC-V]] - document - wiki/chapters/03-choreographing-the-act.md
+- [[RISC-V Convergence]] - document - wiki/sections/ch11-risc-v-convergence.md
 - [[Real-Time Ethereum Proving]] - document - wiki/sections/ch06-real-time-ethereum-proving.md
-- [[Recursion vs. Folding Russian Dolls and Snowballs]] - document - wiki/sections/ch06-recursion-vs-folding-russian-dolls-and-snowballs.md
+- [[Real-Time Proving]] - document - references/ch10/ref-52-sp1-hypercube.md
 - [[SHARP (StarkWare Shared Prover)]] - document - wiki/sections/ch08-proof-aggregation-the-missing-layer.md
-- [[SNARK Recursion vs. Folding The Full Picture]] - document - wiki/sections/ch06-snark-recursion-vs-folding-the-full-picture.md
+- [[SP1  SP1 Hypercube]] - document - wiki/chapters/01-the-promise-of-provable-and-programmable-secrets.md
+- [[SP1 Hypercube Proving Ethereum in Real-Time (Succinct Labs)]] - document - references/ch10/ref-52-sp1-hypercube.md
 - [[STARK (Scalable Transparent ARgument of Knowledge)]] - paper - references/ch06/ref-23-circle-starks.pdf
 - [[Schnorr Proof System]] - document - references/ch06/ref-22-frozen-heart.md
 - [[Sealing the Certificate]] - document - wiki/sections/ch06-sealing-the-certificate.md
 - [[Seven-Layer ZK Stack Model]] - document - proving-nothing.md
 - [[Sevenlayer Wiki Index]] - document - wiki/INDEX.md
-- [[Side-Channel Attacks]] - document - wiki/sections/ch04-side-channel-attacks-when-the-walls-leak.md
-- [[Side-Channel Attacks When the Walls Leak]] - document - wiki/sections/ch04-side-channel-attacks-when-the-walls-leak.md
-- [[Small Fields]] - document - wiki/sections/ch07-small-fields.md
-- [[Stage 2 Rollup Governance]] - document - proving-nothing.md
-- [[Structured Reference String (SRS)]] - document - proving-nothing.md
-- [[Sudoku running example]] - document - wiki/concepts/sudoku.md
-- [[The 141,416-Person Question]] - document - wiki/sections/ch02-the-141-416-person-question.md
-- [[The ADOPT Framework]] - document - wiki/sections/ch02-the-adopt-framework.md
+- [[Shipping an L1 zkEVM 2 The Security Foundations (Ethereum Foundation)]] - document - references/ch10/ref-55-zkevm-security-foundations.md
+- [[Small prime fields (machine-register-sized Goldilocks, M61)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Starknet]] - document - wiki/sections/ch01-three-converging-forces.md
+- [[Stwo]] - document - wiki/chapters/01-the-promise-of-provable-and-programmable-secrets.md
+- [[Succinct Network]] - document - wiki/sections/ch13-proving-as-a-service-the-prover-market-production.md
+- [[The Proof Core Triad]] - document - wiki/sections/ch11-the-proof-core-triad.md
 - [[The Binary That Broke]] - document - wiki/sections/ch10-the-binary-that-broke.md
-- [[The Bug That Was Not a Ceremony Failure]] - document - wiki/sections/ch02-the-bug-that-was-not-a-ceremony-failure.md
-- [[The CapexOpex Framework]] - document - wiki/sections/ch02-the-capex-opex-framework.md
-- [[The Cascade Effect]] - document - wiki/sections/ch07-the-cascade-effect.md
-- [[The Deepest Question]] - document - wiki/sections/ch01-the-deepest-question.md
+- [[The Causal Web Why It Is a DAG, Not a Stack]] - document - wiki/sections/ch10-the-causal-web-why-it-is-a-dag-not-a-stack.md
 - [[The Deepest Symmetry]] - document - wiki/sections/ch08-the-deepest-symmetry.md
-- [[The Disclose Boundary Midnight's Witness Architecture]] - document - wiki/sections/ch04-the-disclose-boundary-midnight-s-witness-architecture.md
 - [[The Economics of ZK-Proving Market Size and Future Projections (Chorus One)]] - document - references/ch13/ref-57-chorus-one-zk-economics.md
-- [[The Fair Shuffle Problem]] - document - wiki/sections/ch02-the-fair-shuffle-problem.md
-- [[The First Decision]] - document - wiki/sections/ch01-the-first-decision.md
 - [[The Hybrid Pipeline]] - document - wiki/sections/ch06-the-hybrid-pipeline.md
+- [[The Landscape Table (March 2026)]] - document - wiki/sections/ch11-the-landscape-table-march-2026.md
+- [[The Map Redrawn]] - document - wiki/sections/ch10-the-map-redrawn.md
 - [[The Market Landscape]] - document - wiki/chapters/13-the-market-landscape.md
 - [[The Phenomenon]] - document - wiki/sections/ch01-the-phenomenon.md
 - [[The Price of a Verdict]] - document - wiki/sections/ch08-the-price-of-a-verdict.md
-- [[The Privacy Theater Analogy]] - document - wiki/sections/ch12-the-privacy-theater-analogy.md
 - [[The Promise of Provable and Programmable Secrets]] - document - wiki/chapters/01-the-promise-of-provable-and-programmable-secrets.md
-- [[The Proof Core Why Layers 4, 5, and 6 Are Inseparable]] - document - wiki/sections/ch06-the-proof-core-why-layers-4-5-and-6-are-inseparable.md
 - [[The Proof at the Door]] - document - wiki/sections/ch01-the-proof-at-the-door.md
-- [[The Quantum Shelf Life]] - document - wiki/sections/ch02-the-quantum-shelf-life.md
 - [[The Sealed Certificate (Chapter Closing)]] - document - wiki/sections/ch06-the-sealed-certificate.md
-- [[The Setup Tradeoff]] - document - wiki/sections/ch02-the-setup-tradeoff.md
-- [[The Seven Layers at a Glance]] - document - wiki/sections/ch01-the-seven-layers-at-a-glance.md
-- [[The Seven Questions That Remain Open]] - document - wiki/sections/ch14-the-seven-questions-that-remain-open.md
 - [[The Social Layer]] - document - wiki/sections/ch08-the-social-layer.md
-- [[The Structured Reference String]] - document - wiki/sections/ch02-the-structured-reference-string.md
+- [[The Stage Is Set]] - document - wiki/sections/ch11-the-stage-is-set.md
 - [[The Synthesis -- Three Paths, Not Two]] - document - wiki/chapters/10-the-synthesis-three-paths-not-two.md
 - [[The Three Families]] - document - wiki/sections/ch06-the-three-families.md
-- [[The Three Frontiers]] - document - wiki/sections/ch14-the-three-frontiers.md
 - [[The Three-Path Table]] - document - wiki/sections/ch10-the-three-path-table.md
 - [[The Trick]] - document - wiki/sections/ch01-the-trick.md
 - [[Three Converging Forces]] - document - wiki/sections/ch01-three-converging-forces.md
-- [[Tornado Cash]] - document - wiki/chapters/03-choreographing-the-act.md
+- [[Three zkVMs Through Seven Layers]] - document - wiki/sections/ch11-three-zkvms-through-seven-layers.md
 - [[Tornado Cash Governance Attack (May 2023)]] - document - wiki/sections/ch08-governance-the-achilles-heel.md
 - [[Tornado Cash Governance Attack (May 2023)_1]] - document - proving-nothing.md
-- [[Toxic Waste (Setup Trapdoor)]] - document - proving-nothing.md
 - [[Trust Decomposition]] - document - proving-nothing.md
 - [[Trust Decomposition Seven Weaker Assumptions]] - document - wiki/sections/ch10-trust-decomposition-seven-weaker-assumptions.md
 - [[Trusted Setup]] - document - wiki/chapters/02-building-the-stage.md
-- [[Trusted Setup Ceremony]] - document - wiki/sections/ch02-two-ways-to-build-a-stage.md
-- [[Two Ways to Build a Stage]] - document - wiki/sections/ch02-two-ways-to-build-a-stage.md
-- [[UTXO Model]] - document - wiki/sections/ch12-full-seven-layer-mapping.md
-- [[Universal versus Circuit-Specific Setups]] - document - wiki/sections/ch02-universal-versus-circuit-specific-setups.md
 - [[Upgradeable Proxy Pattern]] - document - proving-nothing.md
 - [[Vitalik Buterin]] - document - references/ch08/ref-27-l2beat-stages.md
+- [[WHIR Polynomial Commitment Scheme]] - document - references/ch10/ref-55-zkevm-security-foundations.md
 - [[When the Transcript Lies Fiat-Shamir Vulnerabilities]] - document - wiki/sections/ch08-when-the-transcript-lies-fiat-shamir-vulnerabilities.md
-- [[Where Midnight Challenges the Model]] - document - wiki/sections/ch12-where-midnight-challenges-the-model.md
-- [[Where Midnight Validates the Model]] - document - wiki/sections/ch12-where-midnight-validates-the-model.md
 - [[Who Verifies the Verifier]] - document - wiki/sections/ch08-who-verifies-the-verifier.md
-- [[ZKIR (Midnight Intermediate Representation)]] - document - wiki/chapters/03-choreographing-the-act.md
-- [[ZKIR Intermediate Representation Reference (Midnight Network, stub)]] - document - references/ch12/ref-40-zkir-reference.md
-- [[Zcash]] - document - wiki/chapters/01-the-promise-of-provable-and-programmable-secrets.md
+- [[ZK Coprocessors]] - document - wiki/chapters/13-the-market-landscape.md
+- [[ZK Coprocessors Off-Chain Computation, On-Chain Verification (Growth)]] - document - wiki/sections/ch13-zk-coprocessors-off-chain-computation-on-chain-verification-growth.md
+- [[ZK Proofs Is Privacy Cheap Enough to Be Mainstream (Castle Labs)]] - document - references/ch13/ref-43-castlelabs-zk-privacy.md
+- [[ZK Rollups]] - document - wiki/sections/ch13-zk-rollups-the-proving-grounds-production.md
+- [[ZK Rollups The Proving Grounds (Production)]] - document - wiki/sections/ch13-zk-rollups-the-proving-grounds-production.md
+- [[ZKML (Provable Machine Learning)]] - document - wiki/chapters/13-the-market-landscape.md
+- [[ZKML Provable Machine Learning (Research)]] - document - wiki/sections/ch13-zkml-provable-machine-learning-research.md
+- [[ZKsync Airbender GPU-Accelerated RISC-V Proving]] - document - references/ch10/ref-53-airbender.md
+- [[Zero-Knowledge Proof Market Size, Share & Trends Analysis Report (Grand View Research)]] - document - references/ch13/ref-42-gvr-zkp-market-report.md
+- [[ZisK]] - document - wiki/sections/ch02-the-capex-opex-framework.md
+- [[ZkCloud (formerly Gevulot)]] - document - wiki/sections/ch13-proving-as-a-service-the-prover-market-production.md
+- [[soundcalc (zkVM security estimation tool)]] - document - references/ch10/ref-55-zkevm-security-foundations.md
+- [[zkEVM]] - document - wiki/sections/ch03-the-four-philosophies.md
+- [[zkVMs -- The Universal Stage]] - document - wiki/chapters/11-zkvms-the-universal-stage.md
+- [[zkWASM]] - document - wiki/sections/ch11-risc-v-convergence.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -170,61 +155,50 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 158 edges to [[_COMMUNITY_Community 12]]
-- 130 edges to [[_COMMUNITY_Community 5]]
-- 127 edges to [[_COMMUNITY_Community 3]]
-- 61 edges to [[_COMMUNITY_Community 4]]
-- 34 edges to [[_COMMUNITY_Community 37]]
-- 19 edges to [[_COMMUNITY_Community 49]]
-- 19 edges to [[_COMMUNITY_Community 32]]
-- 16 edges to [[_COMMUNITY_Community 13]]
-- 13 edges to [[_COMMUNITY_Community 24]]
-- 12 edges to [[_COMMUNITY_Community 6]]
-- 12 edges to [[_COMMUNITY_Community 7]]
-- 11 edges to [[_COMMUNITY_Community 8]]
-- 9 edges to [[_COMMUNITY_Community 15]]
-- 9 edges to [[_COMMUNITY_Community 53]]
-- 7 edges to [[_COMMUNITY_Community 19]]
-- 7 edges to [[_COMMUNITY_Community 16]]
-- 6 edges to [[_COMMUNITY_Community 22]]
-- 6 edges to [[_COMMUNITY_Community 11]]
-- 6 edges to [[_COMMUNITY_Community 2]]
-- 5 edges to [[_COMMUNITY_Community 34]]
-- 5 edges to [[_COMMUNITY_Community 21]]
-- 5 edges to [[_COMMUNITY_Community 38]]
-- 5 edges to [[_COMMUNITY_Community 27]]
+- 152 edges to [[_COMMUNITY_Community 1]]
+- 152 edges to [[_COMMUNITY_Community 2]]
+- 97 edges to [[_COMMUNITY_Community 7]]
+- 43 edges to [[_COMMUNITY_Community 38]]
+- 23 edges to [[_COMMUNITY_Community 25]]
+- 17 edges to [[_COMMUNITY_Community 8]]
+- 11 edges to [[_COMMUNITY_Community 11]]
+- 11 edges to [[_COMMUNITY_Community 3]]
+- 9 edges to [[_COMMUNITY_Community 42]]
+- 8 edges to [[_COMMUNITY_Community 27]]
+- 7 edges to [[_COMMUNITY_Community 13]]
+- 7 edges to [[_COMMUNITY_Community 4]]
+- 7 edges to [[_COMMUNITY_Community 33]]
+- 7 edges to [[_COMMUNITY_Community 14]]
+- 6 edges to [[_COMMUNITY_Community 19]]
+- 5 edges to [[_COMMUNITY_Community 31]]
+- 5 edges to [[_COMMUNITY_Community 30]]
+- 4 edges to [[_COMMUNITY_Community 15]]
 - 4 edges to [[_COMMUNITY_Community 9]]
-- 4 edges to [[_COMMUNITY_Community 1]]
-- 4 edges to [[_COMMUNITY_Community 10]]
-- 3 edges to [[_COMMUNITY_Community 39]]
-- 3 edges to [[_COMMUNITY_Community 40]]
-- 2 edges to [[_COMMUNITY_Community 17]]
-- 2 edges to [[_COMMUNITY_Community 30]]
-- 2 edges to [[_COMMUNITY_Community 41]]
-- 2 edges to [[_COMMUNITY_Community 25]]
-- 2 edges to [[_COMMUNITY_Community 36]]
-- 2 edges to [[_COMMUNITY_Community 31]]
-- 2 edges to [[_COMMUNITY_Community 14]]
-- 2 edges to [[_COMMUNITY_Community 58]]
-- 2 edges to [[_COMMUNITY_Community 66]]
-- 2 edges to [[_COMMUNITY_Community 20]]
-- 2 edges to [[_COMMUNITY_Community 23]]
-- 2 edges to [[_COMMUNITY_Community 56]]
-- 1 edge to [[_COMMUNITY_Community 33]]
-- 1 edge to [[_COMMUNITY_Community 46]]
-- 1 edge to [[_COMMUNITY_Community 48]]
-- 1 edge to [[_COMMUNITY_Community 26]]
-- 1 edge to [[_COMMUNITY_Community 68]]
-- 1 edge to [[_COMMUNITY_Community 29]]
-- 1 edge to [[_COMMUNITY_Community 18]]
-- 1 edge to [[_COMMUNITY_Community 28]]
-- 1 edge to [[_COMMUNITY_Community 50]]
-- 1 edge to [[_COMMUNITY_Community 44]]
+- 4 edges to [[_COMMUNITY_Community 18]]
+- 4 edges to [[_COMMUNITY_Community 23]]
+- 4 edges to [[_COMMUNITY_Community 17]]
+- 3 edges to [[_COMMUNITY_Community 5]]
+- 3 edges to [[_COMMUNITY_Community 35]]
+- 2 edges to [[_COMMUNITY_Community 12]]
+- 2 edges to [[_COMMUNITY_Community 10]]
+- 2 edges to [[_COMMUNITY_Community 24]]
+- 2 edges to [[_COMMUNITY_Community 34]]
+- 2 edges to [[_COMMUNITY_Community 53]]
+- 2 edges to [[_COMMUNITY_Community 63]]
+- 2 edges to [[_COMMUNITY_Community 48]]
+- 2 edges to [[_COMMUNITY_Community 43]]
 - 1 edge to [[_COMMUNITY_Community 60]]
+- 1 edge to [[_COMMUNITY_Community 22]]
+- 1 edge to [[_COMMUNITY_Community 6]]
+- 1 edge to [[_COMMUNITY_Community 44]]
+- 1 edge to [[_COMMUNITY_Community 61]]
+- 1 edge to [[_COMMUNITY_Community 58]]
+- 1 edge to [[_COMMUNITY_Community 37]]
+- 1 edge to [[_COMMUNITY_Community 59]]
 
 ## Top bridge nodes
-- [[Layer 1 -- Building the Stage]] - degree 56, connects to 17 communities
-- [[Layer 5 -- The Sealed Certificate]] - degree 71, connects to 16 communities
-- [[Open Questions and the Road Ahead]] - degree 49, connects to 15 communities
 - [[Fiat-Shamir Transform]] - degree 47, connects to 15 communities
-- [[Groth16]] - degree 72, connects to 13 communities
+- [[Layer 5 -- The Sealed Certificate]] - degree 71, connects to 13 communities
+- [[The Synthesis -- Three Paths, Not Two]] - degree 52, connects to 13 communities
+- [[Groth16]] - degree 72, connects to 11 communities
+- [[The Promise of Provable and Programmable Secrets]] - degree 49, connects to 10 communities

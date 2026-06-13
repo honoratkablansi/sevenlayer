@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-45-small-space-cpu-proofs.pdf"
 type: "paper"
-community: "Small-Space Proving (Twist/Shout)"
+community: "Sumcheck & Small-Space zkVMs"
 location: "§1.2; §3.2 (AST24)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Small-Space_Proving_Twist/Shout
+  - community/Sumcheck__Small-Space_zkVMs
 ---
 
 # Jolt: sum-check-based zkVM for RISC-V
@@ -22,4 +22,4 @@ tags:
 - [[Twist and Shout Memory-Checking Arguments]] - `assumes` [EXTRACTED]
 - [[Zero-Knowledge Virtual Machine (zkVM)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Small-Space_Proving_Twist/Shout
+#graphify/paper #graphify/EXTRACTED #community/Sumcheck__Small-Space_zkVMs

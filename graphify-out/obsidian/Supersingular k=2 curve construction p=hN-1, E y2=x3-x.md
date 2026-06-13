@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-51-pairing-efficiency-curves.pdf"
 type: "paper"
-community: "Composite-Order Pairings"
+community: "Pairing & Discrete-Log Security"
 location: "§3.2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Composite-Order_Pairings
+  - community/Pairing__Discrete-Log_Security
 ---
 
 # Supersingular k=2 curve construction: p=hN-1, E: y^2=x^3-x
@@ -18,4 +18,4 @@ tags:
 - [[Supersingular elliptic curve]] - `defines` [EXTRACTED]
 - [[Tate pairing on composite-order supersingular curve (Alg.2)]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Composite-Order_Pairings
+#graphify/paper #graphify/EXTRACTED #community/Pairing__Discrete-Log_Security

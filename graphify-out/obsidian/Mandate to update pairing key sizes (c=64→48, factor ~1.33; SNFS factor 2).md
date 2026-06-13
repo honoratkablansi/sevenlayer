@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-50-extended-tower-nfs.pdf"
 type: "paper"
-community: "BN Curve Pairing Security"
+community: "Pairing & Discrete-Log Security"
 location: "§6, §7"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/BN_Curve_Pairing_Security
+  - community/Pairing__Discrete-Log_Security
 ---
 
 # Mandate to update pairing key sizes (c=64→48, factor ~1.33; SNFS factor 2)
@@ -16,4 +16,4 @@ tags:
 - [[Bilinear Pairings]] - `conceptually_related_to` [EXTRACTED]
 - [[exTNFS-Conj medium-prime complexity L_Q(13,(489){13})]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/BN_Curve_Pairing_Security
+#graphify/paper #graphify/EXTRACTED #community/Pairing__Discrete-Log_Security

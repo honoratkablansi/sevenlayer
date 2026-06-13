@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch03-under-constrained-circuits-the-dominant-failure-mode.md"
 type: "paper"
-community: "zkVM Design Philosophy"
+community: "Programmable Privacy & Midnight"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/zkVM_Design_Philosophy
+  - community/Programmable_Privacy__Midnight
 ---
 
 # zkFuzz
@@ -14,4 +14,4 @@ tags:
 - [[Under-Constrained Circuits The Dominant Failure Mode]] - `cites` [EXTRACTED]
 - [[Witness-Constraint Divergence]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/zkVM_Design_Philosophy
+#graphify/paper #graphify/EXTRACTED #community/Programmable_Privacy__Midnight

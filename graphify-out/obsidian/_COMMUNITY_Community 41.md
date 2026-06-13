@@ -1,31 +1,28 @@
 ---
 type: community
-cohesion: 0.17
-members: 16
+cohesion: 0.18
+members: 13
 ---
 
 # Community 41
 
-**Cohesion:** 0.17 - loosely connected
-**Members:** 16 nodes
+**Cohesion:** 0.18 - loosely connected
+**Members:** 13 nodes
 
 ## Members
-- [[Composite-extension factorization F_{pn}=F_{(pη)κ}, gcd(η,κ)=1]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[ConjugationGJL polynomial selection Barbulescu-Gaudry-Guillevic-Morain]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[Doubly-extended tower number field K_f = Q(ι,α_f)]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[Extended Tower Number Field Sieve A New Complexity for the Medium Prime Case]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[Finite Field Extension F_{pn}]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[Individual logarithm smoothing + special-q descent]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[Lemma 1 (norm size bound via iterated resultants)]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[MexTNFS multiple-number-field variant (c≈1.71)]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[NFS medium-prime case (JLSV) Joux-Lercier-Smart-Vercauteren]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[Number Field Sieve]] - document - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[Polynomial selection step (h,f,g) — JLSV2 and Conjugation methods]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[Relation collection over R=Zth(t), B-smooth norms]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[Theorem 1 (exTNFS complexity table)]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[Tower Number Field Sieve (TNFS) Barbulescu-Gaudry-Kleinjung]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[exTNFS (Extended Tower Number Field Sieve)]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[exTNFS-Conj medium-prime complexity L_Q(13,(489){13})]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[Algorithms for Quantum Computation Discrete Logarithms and Factoring]] - paper - references/ch07/ref-24-shor.pdf
+- [[BQP (bounded-error quantum polynomial time)]] - paper - references/ch07/ref-24-shor.pdf
+- [[Coppersmith approximate Fourier transform]] - paper - references/ch07/ref-24-shor.pdf
+- [[Decoherence and gate imprecision obstacles]] - paper - references/ch07/ref-24-shor.pdf
+- [[Discrete-log-based public-key cryptosystems (Diffie-HellmanDSA)]] - paper - references/ch07/ref-24-shor.pdf
+- [[Peter W. Shor]] - paper - references/ch07/ref-24-shor.pdf
+- [[Quantitative (Strong) Church's thesis]] - paper - references/ch07/ref-24-shor.pdf
+- [[Quantum Computing]] - paper - references/ch07/ref-24-shor.pdf
+- [[Quantum Fourier transform]] - paper - references/ch07/ref-24-shor.pdf
+- [[Quantum discrete logarithm algorithm]] - paper - references/ch07/ref-24-shor.pdf
+- [[Quantum gate array (acyclic circuit) model]] - paper - references/ch07/ref-24-shor.pdf
+- [[Quantum interference  superposition]] - paper - references/ch07/ref-24-shor.pdf
+- [[Simon's oracle algorithm (inspiration for this work)]] - paper - references/ch07/ref-24-shor.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -35,16 +32,15 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 3 edges to [[_COMMUNITY_Community 33]]
-- 2 edges to [[_COMMUNITY_Community 0]]
-- 2 edges to [[_COMMUNITY_Community 19]]
-- 2 edges to [[_COMMUNITY_Community 47]]
-- 2 edges to [[_COMMUNITY_Community 59]]
-- 1 edge to [[_COMMUNITY_Community 12]]
+- 2 edges to [[_COMMUNITY_Community 6]]
+- 2 edges to [[_COMMUNITY_Community 50]]
+- 2 edges to [[_COMMUNITY_Community 52]]
+- 1 edge to [[_COMMUNITY_Community 2]]
+- 1 edge to [[_COMMUNITY_Community 27]]
+- 1 edge to [[_COMMUNITY_Community 51]]
 
 ## Top bridge nodes
-- [[Extended Tower Number Field Sieve A New Complexity for the Medium Prime Case]] - degree 7, connects to 4 communities
-- [[exTNFS (Extended Tower Number Field Sieve)]] - degree 15, connects to 3 communities
-- [[Number Field Sieve]] - degree 5, connects to 1 community
-- [[Finite Field Extension F_{pn}]] - degree 3, connects to 1 community
-- [[exTNFS-Conj medium-prime complexity L_Q(13,(489){13})]] - degree 3, connects to 1 community
+- [[Algorithms for Quantum Computation Discrete Logarithms and Factoring]] - degree 13, connects to 5 communities
+- [[Quantum Fourier transform]] - degree 5, connects to 1 community
+- [[Quantum discrete logarithm algorithm]] - degree 4, connects to 1 community
+- [[Quantum Computing]] - degree 3, connects to 1 community

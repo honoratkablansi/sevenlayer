@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch13/ref-59-world-whitepaper.pdf"
 type: "paper"
-community: "World & Proof of Personhood"
+community: "Digital Identity & Proof of Personhood"
 location: "§2.8, §3.7.7.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/World__Proof_of_Personhood
+  - community/Digital_Identity__Proof_of_Personhood
 ---
 
 # Anonymized Multi-Party Computation (AMPC): quantum-secure SMPC uniqueness service on encrypted iris-code fragments, revealing only a single match/no-match bit, never plaintext Hamming distances
@@ -20,4 +20,4 @@ tags:
 - [[Uniqueness targetsclaims per-iris FMR 1e-6, billion-scale FMR ~1e-12, FNMR  5e-3; achieved FMR 2.25e-14 at ~1e-3 FNMR in pre-launch tests]] - `proves` [INFERRED]
 - [[World ID open-source decentralized privacy-preserving digital identity issuing unlinkable proofs (Proof of Human, Age, Country) via personal custody, AMPC and ZKPs]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/World__Proof_of_Personhood
+#graphify/paper #graphify/EXTRACTED #community/Digital_Identity__Proof_of_Personhood

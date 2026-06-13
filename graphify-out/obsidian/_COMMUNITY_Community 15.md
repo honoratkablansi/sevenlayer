@@ -1,41 +1,40 @@
 ---
 type: community
-cohesion: 0.12
-members: 26
+cohesion: 0.11
+members: 25
 ---
 
 # Community 15
 
-**Cohesion:** 0.12 - loosely connected
-**Members:** 26 nodes
+**Cohesion:** 0.11 - loosely connected
+**Members:** 25 nodes
 
 ## Members
-- [[Additive FFT over binary fields (Lin et al.)]] - paper - references/ch02/ref-08-stark.pdf
-- [[Algebraic Intermediate Representation (AIR)]] - paper - references/ch02/ref-08-stark.pdf
-- [[Algebraic Linking Interactive Oracle Proof (ALI)]] - paper - references/ch02/ref-08-stark.pdf
-- [[Algebraic Placement and Routing (APR) reduction]] - paper - references/ch02/ref-08-stark.pdf
-- [[Authentication Path  Communication Complexity minimization (coset & row subtrees)]] - paper - references/ch02/ref-08-stark.pdf
-- [[Binary AIR (BAIR) and Permuted AIR (PAIR)]] - paper - references/ch02/ref-08-stark.pdf
-- [[Collision-resistant hash function assumption (interactive STARK)]] - paper - references/ch02/ref-08-stark.pdf
-- [[DNA Profile Match (DPM) proof-of-concept benchmark]] - paper - references/ch02/ref-08-stark.pdf
-- [[Davies-Meyer hash over RijndaelAES (binary-field-friendly hash)]] - paper - references/ch02/ref-08-stark.pdf
-- [[Interactive Oracle Proof (IOP) model]] - paper - references/ch02/ref-08-stark.pdf
-- [[Interactive Oracle Proofs]] - document - references/ch02/ref-08-stark.pdf
-- [[Low Degree Extension (LDE)]] - paper - references/ch02/ref-08-stark.pdf
-- [[Maximal interpolation degree d_max reduction (n·c·d vs prior n·c·w·d + n·c·s)]] - paper - references/ch02/ref-08-stark.pdf
-- [[Merkle-tree commit-reveal (Kilian cut-and-choose)]] - paper - references/ch02/ref-08-stark.pdf
-- [[Post-quantum security (no quantum-susceptible assumptions)]] - paper - references/ch02/ref-08-stark.pdf
-- [[Prior ZK-STIK for NPNEXP (Ben-Sasson et al. refs 17,15)]] - paper - references/ch02/ref-08-stark.pdf
-- [[Reed-Solomon Proximity Testing (RPT  low-degree testing) problem]] - paper - references/ch02/ref-08-stark.pdf
-- [[Register-based encoding (one RS codeword per register)]] - paper - references/ch02/ref-08-stark.pdf
-- [[SCI  quasi-linear PCP STARK (Ben-Sasson et al. 2016, ref 13)]] - paper - references/ch02/ref-08-stark.pdf
-- [[Scalable Transparent IOP of Knowledge (STIK)]] - paper - references/ch02/ref-08-stark.pdf
-- [[Scalable, Transparent, and Post-Quantum Secure Computational Integrity]] - paper - references/ch02/ref-08-stark.pdf
-- [[Theorem 3.4 — ZK-STIK for space-bounded computations]] - paper - references/ch02/ref-08-stark.pdf
-- [[Theorem 3.5 — wi-STIK for NEXP]] - paper - references/ch02/ref-08-stark.pdf
-- [[Transparency  public randomness (no trusted setup, Arthur-Merlin)]] - paper - references/ch02/ref-08-stark.pdf
-- [[ZK-SNARK  Zerocash (Zcash, non-transparent QSP-based, ref 1853)]] - paper - references/ch02/ref-08-stark.pdf
-- [[Zero-Knowledge Scalable Transparent ARgument of Knowledge (ZK-STARK)]] - paper - references/ch02/ref-08-stark.pdf
+- [[AuroraLight (Sonic-like, improved proverSRS)]] - paper - references/ch02/ref-07-plonk.pdf
+- [[Batched KZG Polynomial Commitment Scheme (multi-poly, multi-point)]] - paper - references/ch02/ref-07-plonk.pdf
+- [[Bayer-Groth PermutationShuffle Argument]] - paper - references/ch02/ref-07-plonk.pdf
+- [[Compiler Polynomial Protocol to AGM-Knowledge-Sound Protocol (Lemma 4.7)]] - paper - references/ch02/ref-07-plonk.pdf
+- [[Copy Constraints via Permutation (wiring check)]] - paper - references/ch02/ref-07-plonk.pdf
+- [[Corollary 7.2 11n+1 G1-exp prover, 7 G1 + 67 F proof, 2 pairings]] - paper - references/ch02/ref-07-plonk.pdf
+- [[Extended Permutation Check Across Multiple Polynomials]] - paper - references/ch02/ref-07-plonk.pdf
+- [[Grand Product Argument (accumulator polynomial Z)]] - paper - references/ch02/ref-07-plonk.pdf
+- [[Idealized Low-Degree (Polynomial) Protocol]] - paper - references/ch02/ref-07-plonk.pdf
+- [[Lagrange Basis over Multiplicative Subgroup]] - paper - references/ch02/ref-07-plonk.pdf
+- [[Linearisation Polynomial (Maller optimization)]] - paper - references/ch02/ref-07-plonk.pdf
+- [[Marlin (universal preprocessing SNARK)]] - paper - references/ch02/ref-07-plonk.pdf
+- [[PLONK Constraint System & Arithmetization (selectorgate equation)]] - paper - references/ch02/ref-07-plonk.pdf
+- [[PLONK Main Protocol for Relation R_C (Theorem 7.1)]] - paper - references/ch02/ref-07-plonk.pdf
+- [[PLONK Permutations over Lagrange-bases for Oecumenical Noninteractive arguments of Knowledge]] - paper - references/ch02/ref-07-plonk.pdf
+- [[Permutation Argument]] - document - references/ch02/ref-07-plonk.pdf
+- [[Ranged Polynomial Protocol (identities over a subset S)]] - paper - references/ch02/ref-07-plonk.pdf
+- [[Scribe (BMM24) readwrite-streaming-pass SNARK adapting HyperPlonk PIOP]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Selector Polynomials (qL,qR,qO,qM,qC)]] - paper - references/ch02/ref-07-plonk.pdf
+- [[Sonic]] - document - proving-nothing.md
+- [[Streaming grand products via depth-first traversal of multiplication-gate tree]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Universal Updatable SRS Setup (Bowe-Gabizon-Miers)]] - paper - references/ch02/ref-07-plonk.pdf
+- [[Universal and Updatable Structured Reference String]] - document - references/ch02/ref-07-plonk.pdf
+- [[Universal keyed hashes coefficient hash H_c and root hash H_r]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[Zero-Knowledge via ZH Blinding Scalars]] - paper - references/ch02/ref-07-plonk.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -45,21 +44,27 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 9 edges to [[_COMMUNITY_Community 0]]
-- 2 edges to [[_COMMUNITY_Community 5]]
-- 1 edge to [[_COMMUNITY_Community 24]]
-- 1 edge to [[_COMMUNITY_Community 11]]
-- 1 edge to [[_COMMUNITY_Community 12]]
-- 1 edge to [[_COMMUNITY_Community 13]]
+- 4 edges to [[_COMMUNITY_Community 0]]
+- 3 edges to [[_COMMUNITY_Community 13]]
+- 3 edges to [[_COMMUNITY_Community 33]]
+- 3 edges to [[_COMMUNITY_Community 56]]
+- 2 edges to [[_COMMUNITY_Community 1]]
+- 2 edges to [[_COMMUNITY_Community 8]]
+- 2 edges to [[_COMMUNITY_Community 44]]
+- 2 edges to [[_COMMUNITY_Community 37]]
+- 2 edges to [[_COMMUNITY_Community 40]]
 - 1 edge to [[_COMMUNITY_Community 7]]
-- 1 edge to [[_COMMUNITY_Community 25]]
-- 1 edge to [[_COMMUNITY_Community 1]]
-- 1 edge to [[_COMMUNITY_Community 36]]
 - 1 edge to [[_COMMUNITY_Community 27]]
+- 1 edge to [[_COMMUNITY_Community 19]]
+- 1 edge to [[_COMMUNITY_Community 58]]
+- 1 edge to [[_COMMUNITY_Community 30]]
+- 1 edge to [[_COMMUNITY_Community 62]]
+- 1 edge to [[_COMMUNITY_Community 34]]
+- 1 edge to [[_COMMUNITY_Community 20]]
 
 ## Top bridge nodes
-- [[Scalable, Transparent, and Post-Quantum Secure Computational Integrity]] - degree 26, connects to 6 communities
-- [[Post-quantum security (no quantum-susceptible assumptions)]] - degree 6, connects to 4 communities
-- [[Zero-Knowledge Scalable Transparent ARgument of Knowledge (ZK-STARK)]] - degree 7, connects to 1 community
-- [[Interactive Oracle Proofs]] - degree 4, connects to 1 community
-- [[Algebraic Linking Interactive Oracle Proof (ALI)]] - degree 3, connects to 1 community
+- [[PLONK Permutations over Lagrange-bases for Oecumenical Noninteractive arguments of Knowledge]] - degree 24, connects to 8 communities
+- [[Grand Product Argument (accumulator polynomial Z)]] - degree 11, connects to 5 communities
+- [[Universal and Updatable Structured Reference String]] - degree 9, connects to 4 communities
+- [[Permutation Argument]] - degree 7, connects to 2 communities
+- [[PLONK Main Protocol for Relation R_C (Theorem 7.1)]] - degree 9, connects to 1 community

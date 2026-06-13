@@ -13,6 +13,7 @@ tags:
 
 ## Connections
 - [[ARGUZZ first automated fuzzer for zkVM soundness & completeness bugs (7-step workflow)]] - `conceptually_related_to` [EXTRACTED]
+- [[Interactive Proof Systems]] - `defines` [EXTRACTED]
 - [[Product-program metamorphic oracle merge k equivalent Rust fns; SUCCESS (0xC0FFEE) vs OOPS (0x0)]] - `conceptually_related_to` [EXTRACTED]
 - [[The Promise of Provable and Programmable Secrets]] - `defines` [EXTRACTED]
 - [[Zero-Knowledge Virtual Machine (zkVM)]] - `conceptually_related_to` [EXTRACTED]

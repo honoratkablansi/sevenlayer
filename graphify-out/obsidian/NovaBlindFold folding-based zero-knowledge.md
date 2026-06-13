@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-18-hypernova.pdf"
 type: "paper"
-community: "Nova Folding Scheme"
+community: "Arithmetization & CCS"
 location: "§7"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Nova_Folding_Scheme
+  - community/Arithmetization__CCS
 ---
 
 # NovaBlindFold: folding-based zero-knowledge
@@ -17,4 +17,4 @@ tags:
 - [[Relaxed R1CS]] - `assumes` [EXTRACTED]
 - [[Spartan]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Nova_Folding_Scheme
+#graphify/paper #graphify/EXTRACTED #community/Arithmetization__CCS

@@ -1,50 +1,66 @@
 ---
 type: community
-cohesion: 0.13
-members: 35
+cohesion: 0.06
+members: 51
 ---
 
 # Community 4
 
-**Cohesion:** 0.13 - loosely connected
-**Members:** 35 nodes
+**Cohesion:** 0.06 - loosely connected
+**Members:** 51 nodes
 
 ## Members
-- [[ACIR (Abstract Circuit Intermediate Representation)]] - document - proving-nothing.md
-- [[ARGUZZ Testing zkVMs for Soundness and Completeness Bugs]] - paper - references/ch14/ref-61-arguzz.pdf
-- [[Ben-Sasson et al. first SNARK for von Neumann architecture (bounded machine)]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
-- [[Cairo Turing-complete STARK-friendly CPU architecture (prior zkVM)]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
-- [[Chaliasos et al. SoK SNARK Vulnerabilities (USENIX Security 2024)]] - paper - wiki/sections/ch03-risc-v-won-why-taxonomy-still-matters.md
-- [[Choreographing the Act]] - document - wiki/chapters/03-choreographing-the-act.md
-- [[Evaluating Compiler Optimization Impacts on zkVM Performance]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
-- [[First systematic study of compiler-optimization impact on zkVMs]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
-- [[From Circuits to Virtual Machines A Brief Evolution]] - document - wiki/sections/ch03-from-circuits-to-virtual-machines-a-brief-evolution.md
-- [[Jordi Baylina]] - document - wiki/sections/ch03-from-circuits-to-virtual-machines-a-brief-evolution.md
-- [[Leo (Aleo)]] - document - wiki/sections/ch03-the-four-philosophies.md
-- [[Noir (Aztec)]] - document - wiki/sections/ch03-the-four-philosophies.md
-- [[Picus (QED2)]] - paper - wiki/sections/ch03-under-constrained-circuits-the-dominant-failure-mode.md
-- [[Plonky3]] - document - wiki/chapters/03-choreographing-the-act.md
-- [[RISC Zero]] - document - wiki/chapters/11-zkvms-the-universal-stage.md
-- [[RISC-V]] - document - wiki/chapters/03-choreographing-the-act.md
-- [[RISC-V Won. Why Taxonomy Still Matters.]] - document - wiki/sections/ch03-risc-v-won-why-taxonomy-still-matters.md
-- [[Root cause missing input constraints in reusable circuits]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
-- [[Root cause out-of-circuit computation not constrained (incl. boomerang issue)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
-- [[Root cause unsafe reuse of circuit (implicit sub-circuit constraints, insecure instantiation)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
-- [[Root cause wrong translation of logic into constraints (largest circuit root cause, 34)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
-- [[SP1  SP1 Hypercube]] - document - wiki/chapters/01-the-promise-of-provable-and-programmable-secrets.md
-- [[Scroll zkEVM LtChip missing range-check bug (Halo2 missing input constraint)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
-- [[The Developer's Actual Experience]] - document - wiki/sections/ch03-the-developer-s-actual-experience.md
-- [[The Four Philosophies]] - document - wiki/sections/ch03-the-four-philosophies.md
-- [[Under-Constrained Circuits]] - document - wiki/sections/ch03-under-constrained-circuits-the-dominant-failure-mode.md
-- [[Under-Constrained Circuits The Dominant Failure Mode]] - document - wiki/sections/ch03-under-constrained-circuits-the-dominant-failure-mode.md
-- [[Witness-Constraint Divergence]] - document - wiki/sections/ch04-witness-constraint-divergence.md
-- [[ZKAP (Circuit Dependence Graph static analysis)]] - paper - wiki/sections/ch03-under-constrained-circuits-the-dominant-failure-mode.md
-- [[ZKsync Airbender GPU-Accelerated RISC-V Proving]] - document - references/ch10/ref-53-airbender.md
-- [[Zero-Knowledge Virtual Machine (zkVM)]] - document - wiki/chapters/03-choreographing-the-act.md
-- [[circom-pairing CoreVerifyPubkeyG1 unconstrained-output bug (unsafe sub-circuit reuse)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
-- [[zk-Bench (Ernstberger et al.) benchmarking framework for ZK DSLsSNARKs]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
-- [[zkFuzz]] - paper - wiki/sections/ch03-under-constrained-circuits-the-dominant-failure-mode.md
-- [[zkSync Era]] - document - wiki/sections/ch04-witness-constraint-divergence.md
+- [[2016 Ethereum Shanghai  EIP-150 underpriced-opcode DoS precedent]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[Aggelos Kiayias]] - paper - references/ch09/ref-30-kachina.pdf
+- [[Amplified finality-delay attack (1.45x-2.73x over direct L1 blob-stuffing)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[Commit query  transaction checkpoints]] - paper - references/ch09/ref-30-kachina.pdf
+- [[Contract class C_Kachina]] - paper - references/ch09/ref-30-kachina.pdf
+- [[Contract transition function Delta]] - paper - references/ch09/ref-30-kachina.pdf
+- [[Core transition function Gamma]] - paper - references/ch09/ref-30-kachina.pdf
+- [[Cycles-per-gas mispricing (MODEXP 2961, JUMPDEST 1039; EVM gas != proving cost)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[DA-saturation DoS sustained L2 liveness halt at 0.8-2.7 ETHhour]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[DA-saturation attack (data-heavy compute-light tx flooding L1 blob capacity)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[Dependency function dep and invariant J]] - paper - references/ch09/ref-30-kachina.pdf
+- [[Diamandis et al. multidimensional blockchain fee markets 19]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[Direct economic damage attack (drains rollup vault via Ctx amortization, $11,172h on Scroll)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[EIP-1559 base-fee mechanism]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[Empirical evaluation on Scroll, Linea, zkSync Era, Arbitrum, Optimism, Base]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[Ethereum]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[G_simpleLedger functionality]] - paper - references/ch09/ref-30-kachina.pdf
+- [[Generic rollup cost model Txfee = L2fee + L1fee (rho_blob, Scalar_blob, Ctx, Stx)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[Global ledger functionality G_ledger (GUC)]] - paper - references/ch09/ref-30-kachina.pdf
+- [[Hawk private smart contracts]] - paper - references/ch09/ref-30-kachina.pdf
+- [[Ideal smart contract functionality F_sc{Delta,Lambda}]] - paper - references/ch09/ref-30-kachina.pdf
+- [[Kachina -- Foundations of Private Smart Contracts]] - paper - references/ch09/ref-30-kachina.pdf
+- [[Kachina core protocol]] - paper - references/ch09/ref-30-kachina.pdf
+- [[Kachina method via UC-emulation transitivity]] - paper - references/ch09/ref-30-kachina.pdf
+- [[L2 EIP-1559-style DA pricing with L1-fee floor (DA-saturation mitigation)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[Leakage function Lambda]] - paper - references/ch09/ref-30-kachina.pdf
+- [[MODEXP killer block 94x finality latency, $42.26 prover loss per 35M-gas block]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[Multi-dimensional TFM (matrix Ax over gasDAprovingfixed; adaptive per-resource pricing)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[NIZK functionality F_nizkL]] - paper - references/ch09/ref-30-kachina.pdf
+- [[Nakamoto consensus]] - paper - references/ch09/ref-30-kachina.pdf
+- [[Non-Interactive Zero-Knowledge (NIZK)]] - paper - references/ch09/ref-30-kachina.pdf
+- [[Optimistic Rollups]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[Perez & Livshits 'Broken Metre' (EVM resource-metering mispricing detection)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[Private Smart Contracts]] - paper - references/ch09/ref-30-kachina.pdf
+- [[Prover-aware metering per-opcode proof-gas profiling, dedicated L2ProvingFee]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[Prover-killer attack (high cycles-per-gas tx stalls ZK proof generation)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[Public state sigma  private state rho split]] - paper - references/ch09/ref-30-kachina.pdf
+- [[Reactive mitigations tx size limits, dynamic fee scalars, aggressive tx filtering]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[Responsible disclosure all rollups vulnerable, 4 bug bounties, mitigations adopted]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[Rollup multi-dimensional TFM (L2 gas + L1 DA + settlementverification)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[Roughgarden TFM design  EIP-1559 incentive-compatibility 47,48]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[Shared-DA multi-tenant risk attack on one rollup cascades across DA-layer tenants]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[Smart contract systems via multiplexing  gas]] - paper - references/ch09/ref-30-kachina.pdf
+- [[State oracle]] - paper - references/ch09/ref-30-kachina.pdf
+- [[State oracle transcript]] - paper - references/ch09/ref-30-kachina.pdf
+- [[Theorem 1 Kachina UC-emulates F_sc]] - paper - references/ch09/ref-30-kachina.pdf
+- [[Threat model budget-bounded L2 user; liveness, finality, economic-safety objectives]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[Transaction Fee Mechanisms (TFM)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[Unaligned Incentives Pricing Attacks Against Blockchain Rollups]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[Unaligned-incentives thesis cross-dimension mispricing yields novel attacks]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[Universal Composability (UC)]] - paper - references/ch09/ref-30-kachina.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -54,31 +70,17 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 61 edges to [[_COMMUNITY_Community 0]]
-- 36 edges to [[_COMMUNITY_Community 3]]
-- 14 edges to [[_COMMUNITY_Community 5]]
-- 11 edges to [[_COMMUNITY_Community 37]]
-- 8 edges to [[_COMMUNITY_Community 49]]
-- 7 edges to [[_COMMUNITY_Community 35]]
-- 6 edges to [[_COMMUNITY_Community 10]]
-- 6 edges to [[_COMMUNITY_Community 17]]
-- 4 edges to [[_COMMUNITY_Community 12]]
-- 3 edges to [[_COMMUNITY_Community 34]]
-- 3 edges to [[_COMMUNITY_Community 43]]
-- 2 edges to [[_COMMUNITY_Community 32]]
-- 2 edges to [[_COMMUNITY_Community 44]]
-- 2 edges to [[_COMMUNITY_Community 2]]
-- 1 edge to [[_COMMUNITY_Community 29]]
-- 1 edge to [[_COMMUNITY_Community 18]]
-- 1 edge to [[_COMMUNITY_Community 28]]
-- 1 edge to [[_COMMUNITY_Community 24]]
-- 1 edge to [[_COMMUNITY_Community 66]]
+- 7 edges to [[_COMMUNITY_Community 0]]
+- 3 edges to [[_COMMUNITY_Community 48]]
+- 2 edges to [[_COMMUNITY_Community 11]]
+- 2 edges to [[_COMMUNITY_Community 8]]
+- 1 edge to [[_COMMUNITY_Community 27]]
 - 1 edge to [[_COMMUNITY_Community 1]]
-- 1 edge to [[_COMMUNITY_Community 53]]
+- 1 edge to [[_COMMUNITY_Community 13]]
 
 ## Top bridge nodes
-- [[Zero-Knowledge Virtual Machine (zkVM)]] - degree 40, connects to 13 communities
-- [[Choreographing the Act]] - degree 44, connects to 10 communities
-- [[The Four Philosophies]] - degree 26, connects to 6 communities
-- [[RISC-V]] - degree 17, connects to 6 communities
-- [[SP1  SP1 Hypercube]] - degree 32, connects to 5 communities
+- [[Kachina -- Foundations of Private Smart Contracts]] - degree 13, connects to 4 communities
+- [[Unaligned Incentives Pricing Attacks Against Blockchain Rollups]] - degree 12, connects to 2 communities
+- [[Prover-killer attack (high cycles-per-gas tx stalls ZK proof generation)]] - degree 7, connects to 2 communities
+- [[DA-saturation attack (data-heavy compute-light tx flooding L1 blob capacity)]] - degree 10, connects to 1 community
+- [[Generic rollup cost model Txfee = L2fee + L1fee (rho_blob, Scalar_blob, Ctx, Stx)]] - degree 4, connects to 1 community

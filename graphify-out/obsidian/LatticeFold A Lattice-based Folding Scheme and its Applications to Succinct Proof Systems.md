@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch06/ref-20-latticefold.pdf"
 type: "paper"
-community: "Lattice Folding (LatticeFold)"
+community: "Recursive Proofs & IVC"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Lattice_Folding_LatticeFold
+  - community/Recursive_Proofs__IVC
 ---
 
 # LatticeFold: A Lattice-based Folding Scheme and its Applications to Succinct Proof Systems
@@ -33,4 +33,4 @@ tags:
 - [[Sumcheck Protocol]] - `conceptually_related_to` [EXTRACTED]
 - [[The Synthesis -- Three Paths, Not Two]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Lattice_Folding_LatticeFold
+#graphify/paper #graphify/EXTRACTED #community/Recursive_Proofs__IVC

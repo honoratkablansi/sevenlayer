@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-08-stark.pdf"
 type: "paper"
-community: "STARK Foundations"
+community: "STARKs & Lattice SNARKs (Symphony)"
 location: "§1.2, §1.3.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/STARK_Foundations
+  - community/STARKs__Lattice_SNARKs_Symphony
 ---
 
 # ZK-SNARK / Zerocash (Zcash, non-transparent QSP-based, ref [18][53])
@@ -15,4 +15,4 @@ tags:
 - [[Scalable, Transparent, and Post-Quantum Secure Computational Integrity]] - `cites` [EXTRACTED]
 - [[Zero-Knowledge Scalable Transparent ARgument of Knowledge (ZK-STARK)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/STARK_Foundations
+#graphify/paper #graphify/EXTRACTED #community/STARKs__Lattice_SNARKs_Symphony

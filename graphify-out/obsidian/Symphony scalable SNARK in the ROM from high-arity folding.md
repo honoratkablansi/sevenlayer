@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-56-symphony.pdf"
 type: "paper"
-community: "FHE & Lattice Folding (Symphony)"
+community: "STARKs & Lattice SNARKs (Symphony)"
 location: "Abstract, §6"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/FHE__Lattice_Folding_Symphony
+  - community/STARKs__Lattice_SNARKs_Symphony
 ---
 
 # Symphony: scalable SNARK in the ROM from high-arity folding
@@ -16,4 +16,4 @@ tags:
 - [[Random oracle model (non-interactive STARK  NIROP)]] - `assumes` [EXTRACTED]
 - [[Symphony Scalable SNARKs in the Random Oracle Model from Lattice-Based High-Arity Folding]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/FHE__Lattice_Folding_Symphony
+#graphify/paper #graphify/EXTRACTED #community/STARKs__Lattice_SNARKs_Symphony

@@ -50,14 +50,13 @@ SORT file.name ASC
 
 ## Connections to other communities
 - 6 edges to [[_COMMUNITY_Arithmetization & CCS]]
-- 5 edges to [[_COMMUNITY_Recursive Proofs & IVC]]
+- 6 edges to [[_COMMUNITY_Recursive Proofs & IVC]]
 - 4 edges to [[_COMMUNITY_Core Concepts & Book Spine]]
 - 2 edges to [[_COMMUNITY_KZG Polynomial Commitments]]
-- 1 edge to [[_COMMUNITY_zkVM & STARK Stacks]]
-- 1 edge to [[_COMMUNITY_Lattice Folding (LatticeFold)]]
+- 1 edge to [[_COMMUNITY_Lasso Lookup Arguments]]
 
 ## Top bridge nodes
-- [[Protostar Generic Efficient AccumulationFolding for Special-sound Protocols]] - degree 18, connects to 5 communities
+- [[Protostar Generic Efficient AccumulationFolding for Special-sound Protocols]] - degree 18, connects to 4 communities
 - [[Accumulation Schemes]] - degree 5, connects to 2 communities
 - [[Protostar Non-Uniform IVC Scheme for Multi-Circuit Plonkup R_mplkup]] - degree 11, connects to 1 community
 - [[Accumulation Scheme (P_acc, V_acc, D) for NARK Verifier with Slack mu and Error Commitment E]] - degree 7, connects to 1 community

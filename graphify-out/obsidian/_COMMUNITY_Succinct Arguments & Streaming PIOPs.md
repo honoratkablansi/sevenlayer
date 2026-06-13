@@ -29,17 +29,17 @@ SORT file.name ASC
 ## Connections to other communities
 - 5 edges to [[_COMMUNITY_KZG Polynomial Commitments]]
 - 4 edges to [[_COMMUNITY_Lattice PCS (Greyhound)]]
-- 3 edges to [[_COMMUNITY_Sumcheck SNARKs (SuperSpartan)]]
-- 2 edges to [[_COMMUNITY_Core Concepts & Book Spine]]
+- 4 edges to [[_COMMUNITY_Sumcheck & Small-Space zkVMs]]
 - 2 edges to [[_COMMUNITY_Jolt Lookup zkVM]]
 - 2 edges to [[_COMMUNITY_Lattice Functional Commitments]]
-- 1 edge to [[_COMMUNITY_Folding Genealogy & Post-Quantum]]
+- 1 edge to [[_COMMUNITY_Folding & Lattice Crypto]]
+- 1 edge to [[_COMMUNITY_Open Questions & Convergence]]
+- 1 edge to [[_COMMUNITY_Core Concepts & Book Spine]]
 - 1 edge to [[_COMMUNITY_PLONK & Permutation Arguments]]
 - 1 edge to [[_COMMUNITY_Lasso Lookup Arguments]]
 - 1 edge to [[_COMMUNITY_zkVM Fuzzing (Arguzz)]]
 - 1 edge to [[_COMMUNITY_Trusted Setup Ceremonies]]
 - 1 edge to [[_COMMUNITY_Memory Checking & Sparse PCS]]
-- 1 edge to [[_COMMUNITY_Small-Space Proving (TwistShout)]]
 
 ## Top bridge nodes
 - [[Polynomial Commitment Scheme]] - degree 21, connects to 9 communities

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-51-pairing-efficiency-curves.pdf"
 type: "paper"
-community: "BN Curve Pairing Security"
+community: "Pairing & Discrete-Log Security"
 location: "§4.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/BN_Curve_Pairing_Security
+  - community/Pairing__Discrete-Log_Security
 ---
 
 # Optimal ate pairing
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Optimal ate pairing operation count on BN curve (Alg.1)]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/BN_Curve_Pairing_Security
+#graphify/paper #graphify/EXTRACTED #community/Pairing__Discrete-Log_Security

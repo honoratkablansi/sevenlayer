@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-45-small-space-cpu-proofs.pdf"
 type: "paper"
-community: "Small-Space CPU Proofs"
+community: "Sumcheck & Small-Space zkVMs"
 location: "§1.2; §A, Def A.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Small-Space_CPU_Proofs
+  - community/Sumcheck__Small-Space_zkVMs
 ---
 
 # Prefix-suffix inner product sum-check protocol (streaming, linear-time)
@@ -16,4 +16,4 @@ tags:
 - [[Sparse-dense sum-check proving algorithm (streaming, sparsity-linear time)]] - `conceptually_related_to` [EXTRACTED]
 - [[Twist sum-check memory-checking argument for readwrite memory]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Small-Space_CPU_Proofs
+#graphify/paper #graphify/EXTRACTED #community/Sumcheck__Small-Space_zkVMs

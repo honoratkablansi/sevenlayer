@@ -1,27 +1,25 @@
 ---
 type: community
-cohesion: 0.26
-members: 12
+cohesion: 0.24
+members: 10
 ---
 
 # Community 49
 
-**Cohesion:** 0.26 - loosely connected
-**Members:** 12 nodes
+**Cohesion:** 0.24 - loosely connected
+**Members:** 10 nodes
 
 ## Members
-- [[Ethproofs ZK Proving Cost Tracker (Ethereum Foundation)]] - document - references/ch13/ref-44-ethproofs.md
-- [[Jagged Polynomial Commitment Scheme (Jagged PCS)]] - document - references/ch10/ref-52-sp1-hypercube.md
-- [[Multilinear Polynomials]] - document - references/ch10/ref-52-sp1-hypercube.md
-- [[Real-Time Proving]] - document - references/ch10/ref-52-sp1-hypercube.md
-- [[SP1 Hypercube Proving Ethereum in Real-Time (Succinct Labs)]] - document - references/ch10/ref-52-sp1-hypercube.md
-- [[Shipping an L1 zkEVM 2 The Security Foundations (Ethereum Foundation)]] - document - references/ch10/ref-55-zkevm-security-foundations.md
-- [[WHIR Polynomial Commitment Scheme]] - document - references/ch10/ref-55-zkevm-security-foundations.md
-- [[ZK Proofs Is Privacy Cheap Enough to Be Mainstream (Castle Labs)]] - document - references/ch13/ref-43-castlelabs-zk-privacy.md
-- [[Zero-Knowledge Proof Market Size, Share & Trends Analysis Report (Grand View Research)]] - document - references/ch13/ref-42-gvr-zkp-market-report.md
-- [[soundcalc (zkVM security estimation tool)]] - document - references/ch10/ref-55-zkevm-security-foundations.md
-- [[zk-SNARK]] - document - references/ch13/ref-42-gvr-zkp-market-report.md
-- [[zkEVM]] - document - wiki/sections/ch03-the-four-philosophies.md
+- [[6 previously-unknown vulnerabilities discovered (BigMod, IsPositive, ed25519-circom etc.)]] - paper - references/ch10/ref-35-coda.pdf
+- [[Automated Detection of Under-Constrained Circuits in Zero-Knowledge Proofs]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[Circomlib Decoder Underconstrained Bug (motivating example)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[Constrained Circuit (Definition 4.6)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[Constrained Variable (Definition 4.4)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[EdwardsToMontgomery Underconstrained Bug]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[Evaluation 77 circuits from 9 Circom projects, 66 verified]] - paper - references/ch10/ref-35-coda.pdf
+- [[TornadoCash Underconstrained Circuit Hack]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[Underconstrained Circuits]] - document - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[Verification-effort case study 60% shorter proofs vs shallow embedding]] - paper - references/ch10/ref-35-coda.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -31,17 +29,17 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 19 edges to [[_COMMUNITY_Community 0]]
-- 8 edges to [[_COMMUNITY_Community 4]]
-- 3 edges to [[_COMMUNITY_Community 3]]
+- 4 edges to [[_COMMUNITY_Community 1]]
+- 4 edges to [[_COMMUNITY_Community 36]]
+- 3 edges to [[_COMMUNITY_Community 45]]
+- 2 edges to [[_COMMUNITY_Community 43]]
 - 2 edges to [[_COMMUNITY_Community 39]]
-- 2 edges to [[_COMMUNITY_Community 10]]
-- 1 edge to [[_COMMUNITY_Community 5]]
-- 1 edge to [[_COMMUNITY_Community 8]]
+- 1 edge to [[_COMMUNITY_Community 38]]
+- 1 edge to [[_COMMUNITY_Community 46]]
 
 ## Top bridge nodes
-- [[SP1 Hypercube Proving Ethereum in Real-Time (Succinct Labs)]] - degree 14, connects to 4 communities
-- [[Shipping an L1 zkEVM 2 The Security Foundations (Ethereum Foundation)]] - degree 11, connects to 3 communities
-- [[ZK Proofs Is Privacy Cheap Enough to Be Mainstream (Castle Labs)]] - degree 10, connects to 3 communities
-- [[zk-SNARK]] - degree 4, connects to 3 communities
-- [[Ethproofs ZK Proving Cost Tracker (Ethereum Foundation)]] - degree 10, connects to 2 communities
+- [[Automated Detection of Under-Constrained Circuits in Zero-Knowledge Proofs]] - degree 10, connects to 5 communities
+- [[Underconstrained Circuits]] - degree 12, connects to 4 communities
+- [[Evaluation 77 circuits from 9 Circom projects, 66 verified]] - degree 4, connects to 2 communities
+- [[Circomlib Decoder Underconstrained Bug (motivating example)]] - degree 2, connects to 1 community
+- [[EdwardsToMontgomery Underconstrained Bug]] - degree 2, connects to 1 community

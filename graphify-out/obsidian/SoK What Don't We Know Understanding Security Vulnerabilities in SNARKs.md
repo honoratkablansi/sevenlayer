@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch01/ref-03-sok-snark-vulnerabilities.pdf"
 type: "paper"
-community: "SNARK Vulnerabilities & Foundations"
+community: "ZK Foundations & SNARK Security"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/SNARK_Vulnerabilities__Foundations
+  - community/ZK_Foundations__SNARK_Security
 ---
 
 # SoK: What Don't We Know? Understanding Security Vulnerabilities in SNARKs
@@ -24,4 +24,4 @@ tags:
 - [[The Promise of Provable and Programmable Secrets]] - `cites` [EXTRACTED]
 - [[Zero-Knowledge Proof]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/SNARK_Vulnerabilities__Foundations
+#graphify/paper #graphify/EXTRACTED #community/ZK_Foundations__SNARK_Security
