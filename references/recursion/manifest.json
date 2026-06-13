@@ -8,7 +8,7 @@
     ],
     "type": "stub",
     "file": "references/recursion/ch1/ref-01-valiant-ivc.md",
-    "status": "pending"
+    "status": "stub"
   },
   {
     "id": 2,
@@ -20,7 +20,7 @@
     "type": "paper",
     "url": "https://eprint.iacr.org/2014/595.pdf",
     "file": "references/recursion/ch1/ref-02-bctv-cycles.pdf",
-    "status": "pending"
+    "status": "ok"
   },
   {
     "id": 3,
@@ -32,7 +32,7 @@
     "type": "paper",
     "url": "https://eprint.iacr.org/2012/095.pdf",
     "file": "references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf",
-    "status": "pending"
+    "status": "ok"
   },
   {
     "id": 4,
@@ -43,7 +43,7 @@
     ],
     "type": "stub",
     "file": "references/recursion/ch1/ref-04-chiesa-tromer-pcd-hearsay.md",
-    "status": "pending"
+    "status": "stub"
   },
   {
     "id": 5,
@@ -55,7 +55,7 @@
     "type": "paper",
     "url": "https://eprint.iacr.org/2019/1021.pdf",
     "file": "references/recursion/ch1/ref-05-halo.pdf",
-    "status": "pending"
+    "status": "ok"
   },
   {
     "id": 6,
@@ -67,7 +67,7 @@
     "type": "paper",
     "file": "references/ch06/ref-17-nova.pdf",
     "reuse": "references/ch06/ref-17-nova.pdf",
-    "status": "pending"
+    "status": "ok"
   },
   {
     "id": 7,
@@ -79,7 +79,7 @@
     "type": "web",
     "url": "https://github.com/0xPolygonZero/plonky2/blob/main/plonky2/plonky2.pdf",
     "file": "references/recursion/ch1/ref-07-plonky2.md",
-    "status": "pending"
+    "status": "ok"
   },
   {
     "id": 8,
@@ -91,7 +91,7 @@
     "type": "web",
     "url": "https://blog.succinct.xyz/sp1-hypercube/",
     "file": "references/recursion/ch1/ref-08-sp1-hypercube.md",
-    "status": "pending"
+    "status": "ok"
   },
   {
     "id": 9,
@@ -103,7 +103,7 @@
     "type": "paper",
     "url": "https://eprint.iacr.org/2020/499.pdf",
     "file": "references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf",
-    "status": "pending"
+    "status": "ok"
   },
   {
     "id": 10,
@@ -115,7 +115,7 @@
     "type": "paper",
     "url": "https://eprint.iacr.org/2019/1076.pdf",
     "file": "references/recursion/ch1/ref-10-fractal.pdf",
-    "status": "pending"
+    "status": "ok"
   },
   {
     "id": 11,
@@ -127,7 +127,7 @@
     "type": "paper",
     "url": "https://eprint.iacr.org/2025/118.pdf",
     "file": "references/recursion/ch1/ref-11-khovratovich-fiat-shamir-attacks.pdf",
-    "status": "pending"
+    "status": "ok"
   },
   {
     "id": 12,
@@ -139,7 +139,7 @@
     "type": "web",
     "url": "https://electriccoin.co/blog/the-pasta-curves-for-halo-2-and-beyond/",
     "file": "references/recursion/ch1/ref-12-pasta-curves.md",
-    "status": "pending"
+    "status": "ok"
   },
   {
     "id": 13,
@@ -151,7 +151,7 @@
     "type": "paper",
     "url": "https://arxiv.org/pdf/1803.02067",
     "file": "references/recursion/ch1/ref-13-chiesa-chua-weidner-cycles.pdf",
-    "status": "pending"
+    "status": "ok"
   },
   {
     "id": 14,
@@ -163,7 +163,7 @@
     "type": "paper",
     "url": "https://eprint.iacr.org/2020/1618.pdf",
     "file": "references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf",
-    "status": "pending"
+    "status": "ok"
   },
   {
     "id": 15,
@@ -175,7 +175,7 @@
     "type": "paper",
     "file": "references/ch06/ref-23-circle-starks.pdf",
     "reuse": "references/ch06/ref-23-circle-starks.pdf",
-    "status": "pending"
+    "status": "ok"
   },
   {
     "id": 16,
@@ -187,7 +187,7 @@
     "type": "paper",
     "file": "references/ch02/ref-08-stark.pdf",
     "reuse": "references/ch02/ref-08-stark.pdf",
-    "status": "pending"
+    "status": "ok"
   },
   {
     "id": 17,
@@ -199,7 +199,7 @@
     "type": "web",
     "url": "https://docs.polygon.technology/zkEVM/",
     "file": "references/recursion/ch1/ref-17-polygon-zkevm-docs.md",
-    "status": "pending"
+    "status": "ok"
   },
   {
     "id": 18,
@@ -211,7 +211,7 @@
     "type": "web",
     "url": "https://dev.risczero.com/proof-system/proof-system-sequence-diagram",
     "file": "references/recursion/ch1/ref-18-risc-zero-proof-system-overview.md",
-    "status": "pending"
+    "status": "ok"
   },
   {
     "id": 19,
@@ -223,7 +223,7 @@
     "type": "web",
     "url": "https://blog.ethereum.org/2025/07/10/realtime-proving",
     "file": "references/recursion/ch1/ref-19-ef-l1-zkevm-realtime-proving.md",
-    "status": "pending"
+    "status": "ok"
   },
   {
     "id": 20,
@@ -232,10 +232,10 @@
     "chapters": [
       1
     ],
-    "type": "web",
+    "type": "paper",
     "url": "https://people.cs.georgetown.edu/jthaler/ProofsArgsAndZK.pdf",
-    "file": "references/recursion/ch1/ref-20-thaler-proofs-arguments-zk.md",
-    "status": "pending"
+    "file": "references/recursion/ch1/ref-20-thaler-proofs-arguments-zk.pdf",
+    "status": "ok"
   },
   {
     "id": 21,
@@ -247,7 +247,7 @@
     "type": "paper",
     "url": "https://eprint.iacr.org/2023/208.pdf",
     "file": "references/recursion/ch1/ref-21-zktree.pdf",
-    "status": "pending"
+    "status": "ok"
   },
   {
     "id": 22,
@@ -259,7 +259,7 @@
     "type": "web",
     "url": "https://docs.nebra.one/",
     "file": "references/recursion/ch1/ref-22-nebra-upa.md",
-    "status": "pending"
+    "status": "ok"
   },
   {
     "id": 23,
@@ -268,10 +268,9 @@
     "chapters": [
       1
     ],
-    "type": "web",
-    "url": "https://risczero.com/blog/continuations",
+    "type": "stub",
     "file": "references/recursion/ch1/ref-23-risc-zero-continuations.md",
-    "status": "pending"
+    "status": "stub"
   },
   {
     "id": 24,
@@ -282,7 +281,7 @@
     ],
     "type": "stub",
     "file": "references/recursion/ch1/ref-24-beats-batch-ecdsa.md",
-    "status": "pending"
+    "status": "stub"
   },
   {
     "id": 25,
@@ -291,10 +290,9 @@
     "chapters": [
       1
     ],
-    "type": "web",
-    "url": "https://github.com/o1-labs/zkapps-rollup",
+    "type": "stub",
     "file": "references/recursion/ch1/ref-25-mina-hazook.md",
-    "status": "pending"
+    "status": "stub"
   },
   {
     "id": 26,
@@ -306,7 +304,7 @@
     "type": "paper",
     "file": "references/ch03/ref-16-jolt.pdf",
     "reuse": "references/ch03/ref-16-jolt.pdf",
-    "status": "pending"
+    "status": "ok"
   },
   {
     "id": 27,
@@ -318,7 +316,7 @@
     "type": "web",
     "url": "https://docs.succinct.xyz/docs/sp1/introduction",
     "file": "references/recursion/ch1/ref-27-succinct-sp1-docs.md",
-    "status": "pending"
+    "status": "ok"
   },
   {
     "id": 28,
@@ -330,7 +328,7 @@
     "type": "web",
     "url": "https://dev.risczero.com/api/",
     "file": "references/recursion/ch1/ref-28-risc-zero-technical-docs.md",
-    "status": "pending"
+    "status": "ok"
   },
   {
     "id": 29,
@@ -341,7 +339,7 @@
     ],
     "type": "stub",
     "file": "references/recursion/ch1/ref-29-zkdev-recursive-circuits.md",
-    "status": "pending"
+    "status": "stub"
   },
   {
     "id": 30,
@@ -353,7 +351,7 @@
     "type": "paper",
     "url": "https://eprint.iacr.org/2023/1192.pdf",
     "file": "references/recursion/ch1/ref-30-cyclefold.pdf",
-    "status": "pending"
+    "status": "ok"
   },
   {
     "id": 31,
@@ -365,7 +363,7 @@
     "type": "paper",
     "url": "https://eprint.iacr.org/2019/458.pdf",
     "file": "references/recursion/ch1/ref-31-poseidon.pdf",
-    "status": "pending"
+    "status": "ok"
   },
   {
     "id": 32,
@@ -377,7 +375,7 @@
     "type": "paper",
     "url": "https://eprint.iacr.org/2023/969.pdf",
     "file": "references/recursion/ch1/ref-32-nguyen-boneh-setty-nova-cycle.pdf",
-    "status": "pending"
+    "status": "ok"
   },
   {
     "id": 33,
@@ -389,7 +387,7 @@
     "type": "paper",
     "url": "https://eprint.iacr.org/2021/529.pdf",
     "file": "references/recursion/ch1/ref-33-snarkpack.pdf",
-    "status": "pending"
+    "status": "ok"
   },
   {
     "id": 34,
@@ -398,10 +396,9 @@
     "chapters": [
       1
     ],
-    "type": "web",
-    "url": "https://blog.succinct.xyz/realtime-proving-16-gpus/",
+    "type": "stub",
     "file": "references/recursion/ch1/ref-34-succinct-16-gpus.md",
-    "status": "pending"
+    "status": "stub"
   },
   {
     "id": 35,
@@ -410,10 +407,9 @@
     "chapters": [
       1
     ],
-    "type": "web",
-    "url": "https://blog.alignedlayer.com/the-year-of-zkvm-real-time-proving/",
+    "type": "stub",
     "file": "references/recursion/ch1/ref-35-aligned-year-of-zkvm-realtime.md",
-    "status": "pending"
+    "status": "stub"
   },
   {
     "id": 36,
@@ -425,7 +421,7 @@
     "type": "paper",
     "file": "references/ch06/ref-20-latticefold.pdf",
     "reuse": "references/ch06/ref-20-latticefold.pdf",
-    "status": "pending"
+    "status": "ok"
   },
   {
     "id": 37,
@@ -437,7 +433,7 @@
     "type": "web",
     "url": "https://blog.ethereum.org/2025/07/31/lean-ethereum",
     "file": "references/recursion/ch1/ref-37-ethereum-lean-hash-based-sig-aggregation.md",
-    "status": "pending"
+    "status": "ok"
   },
   {
     "id": 38,
@@ -449,7 +445,7 @@
     "type": "paper",
     "file": "references/ch06/ref-18-hypernova.pdf",
     "reuse": "references/ch06/ref-18-hypernova.pdf",
-    "status": "pending"
+    "status": "ok"
   },
   {
     "id": 39,
@@ -460,7 +456,7 @@
     ],
     "type": "stub",
     "file": "references/recursion/ch2/ref-39-pedersen-commitments.md",
-    "status": "pending"
+    "status": "stub"
   },
   {
     "id": 40,
@@ -471,7 +467,7 @@
     ],
     "type": "stub",
     "file": "references/recursion/ch2/ref-40-fiat-shamir.md",
-    "status": "pending"
+    "status": "stub"
   },
   {
     "id": 41,
@@ -483,7 +479,7 @@
     "type": "paper",
     "url": "https://eprint.iacr.org/2019/550.pdf",
     "file": "references/recursion/ch2/ref-41-spartan.pdf",
-    "status": "pending"
+    "status": "ok"
   },
   {
     "id": 42,
@@ -492,10 +488,9 @@
     "chapters": [
       2
     ],
-    "type": "web",
-    "url": "https://khovratovich.github.io/MinRoot/minroot.pdf",
+    "type": "stub",
     "file": "references/recursion/ch2/ref-42-minroot-vdf.md",
-    "status": "pending"
+    "status": "stub"
   },
   {
     "id": 43,
@@ -507,7 +502,7 @@
     "type": "web",
     "url": "https://github.com/microsoft/Nova",
     "file": "references/recursion/ch2/ref-43-nova-implementation.md",
-    "status": "pending"
+    "status": "ok"
   },
   {
     "id": 44,
@@ -519,7 +514,7 @@
     "type": "paper",
     "url": "https://eprint.iacr.org/2022/1758.pdf",
     "file": "references/recursion/ch2/ref-44-supernova.pdf",
-    "status": "pending"
+    "status": "ok"
   },
   {
     "id": 45,
@@ -531,7 +526,7 @@
     "type": "paper",
     "file": "references/ch03/ref-14-ccs-customizable-constraints.pdf",
     "reuse": "references/ch03/ref-14-ccs-customizable-constraints.pdf",
-    "status": "pending"
+    "status": "ok"
   },
   {
     "id": 46,
@@ -543,7 +538,7 @@
     "type": "paper",
     "file": "references/ch06/ref-19-protostar.pdf",
     "reuse": "references/ch06/ref-19-protostar.pdf",
-    "status": "pending"
+    "status": "ok"
   },
   {
     "id": 47,
@@ -555,7 +550,7 @@
     "type": "paper",
     "url": "https://eprint.iacr.org/2023/1106.pdf",
     "file": "references/recursion/ch2/ref-47-protogalaxy.pdf",
-    "status": "pending"
+    "status": "ok"
   },
   {
     "id": 48,
@@ -564,10 +559,9 @@
     "chapters": [
       2
     ],
-    "type": "web",
-    "url": "https://privacy-scaling-explorations.github.io/sonobe-docs/",
+    "type": "stub",
     "file": "references/recursion/ch2/ref-48-sonobe.md",
-    "status": "pending"
+    "status": "stub"
   },
   {
     "id": 49,
@@ -576,10 +570,9 @@
     "chapters": [
       2
     ],
-    "type": "web",
-    "url": "https://o1-labs.github.io/proof-systems/pickles/overview.html",
+    "type": "stub",
     "file": "references/recursion/ch2/ref-49-mina-pickles-docs.md",
-    "status": "pending"
+    "status": "stub"
   },
   {
     "id": 50,
@@ -591,7 +584,7 @@
     "type": "web",
     "url": "https://medium.com/veridise/breaking-down-the-nova-recursive-snark-d2e4e6c10f48",
     "file": "references/recursion/ch2/ref-50-veridise-nova-series.md",
-    "status": "pending"
+    "status": "ok"
   },
   {
     "id": 51,
@@ -603,7 +596,7 @@
     "type": "paper",
     "url": "https://eprint.iacr.org/1998/011.pdf",
     "file": "references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf",
-    "status": "pending"
+    "status": "ok"
   },
   {
     "id": 52,
@@ -615,7 +608,7 @@
     "type": "paper",
     "file": "references/ch02/ref-11-latticefold-plus.pdf",
     "reuse": "references/ch02/ref-11-latticefold-plus.pdf",
-    "status": "pending"
+    "status": "ok"
   },
   {
     "id": 53,
@@ -627,7 +620,7 @@
     "type": "web",
     "url": "https://www.starknet.io/blog/recursive-starks/",
     "file": "references/recursion/ch3/ref-53-starkware-recursive-starks.md",
-    "status": "pending"
+    "status": "ok"
   },
   {
     "id": 54,
@@ -639,7 +632,7 @@
     "type": "web",
     "url": "https://ethereum-magicians.org/t/a-rollup-centric-ethereum-roadmap/4698",
     "file": "references/recursion/ch3/ref-54-ethereum-rollup-centric-roadmap.md",
-    "status": "pending"
+    "status": "ok"
   },
   {
     "id": 55,
@@ -651,7 +644,7 @@
     "type": "web",
     "url": "https://docs.polygon.technology/agglayer/",
     "file": "references/recursion/ch3/ref-55-polygon-agglayer-docs.md",
-    "status": "pending"
+    "status": "ok"
   },
   {
     "id": 56,
@@ -663,7 +656,7 @@
     "type": "web",
     "url": "https://ethereum.org/en/roadmap/",
     "file": "references/recursion/ch3/ref-56-ethereum-org-zkevm-roadmap.md",
-    "status": "pending"
+    "status": "ok"
   },
   {
     "id": 57,
@@ -675,7 +668,7 @@
     "type": "web",
     "url": "https://ethproofs.org/",
     "file": "references/recursion/ch3/ref-57-ethproofs-reporting.md",
-    "status": "pending"
+    "status": "ok"
   },
   {
     "id": 58,
@@ -687,7 +680,7 @@
     "type": "paper",
     "url": "https://eprint.iacr.org/2020/352.pdf",
     "file": "references/recursion/ch3/ref-58-coda-mina.pdf",
-    "status": "pending"
+    "status": "ok"
   },
   {
     "id": 59,
@@ -699,7 +692,7 @@
     "type": "paper",
     "url": "https://arxiv.org/pdf/2210.00264",
     "file": "references/recursion/ch3/ref-59-zkbridge.pdf",
-    "status": "pending"
+    "status": "ok"
   },
   {
     "id": 60,
@@ -710,7 +703,7 @@
     ],
     "type": "stub",
     "file": "references/recursion/ch3/ref-60-verifiable-voting-zk-tallies.md",
-    "status": "pending"
+    "status": "stub"
   },
   {
     "id": 61,
@@ -722,7 +715,7 @@
     "type": "paper",
     "url": "https://arxiv.org/pdf/2602.13682",
     "file": "references/recursion/ch3/ref-61-verisbom.pdf",
-    "status": "pending"
+    "status": "ok"
   },
   {
     "id": 62,
@@ -734,7 +727,7 @@
     "type": "web",
     "url": "https://www.ntia.gov/report/2021/minimum-elements-software-bill-materials-sbom",
     "file": "references/recursion/ch3/ref-62-ntia-cisa-sbom-minimum-elements.md",
-    "status": "pending"
+    "status": "ok-stealth"
   },
   {
     "id": 63,
@@ -746,7 +739,7 @@
     "type": "web",
     "url": "https://slsa.dev/spec/v1.0/",
     "file": "references/recursion/ch3/ref-63-slsa-intoto-frameworks.md",
-    "status": "pending"
+    "status": "ok"
   },
   {
     "id": 64,
@@ -757,7 +750,7 @@
     ],
     "type": "stub",
     "file": "references/recursion/ch3/ref-64-reproducible-builds-literature.md",
-    "status": "pending"
+    "status": "stub"
   },
   {
     "id": 65,
@@ -769,7 +762,7 @@
     "type": "web",
     "url": "https://www.rfc-editor.org/rfc/rfc6962",
     "file": "references/recursion/ch3/ref-65-rfc-6962-certificate-transparency.md",
-    "status": "pending"
+    "status": "ok"
   },
   {
     "id": 66,
@@ -780,7 +773,7 @@
     ],
     "type": "stub",
     "file": "references/recursion/ch3/ref-66-snark-backed-transparency-logs.md",
-    "status": "pending"
+    "status": "stub"
   },
   {
     "id": 67,
@@ -791,7 +784,7 @@
     ],
     "type": "stub",
     "file": "references/recursion/ch3/ref-67-ivc-flight-control-benchmark.md",
-    "status": "pending"
+    "status": "stub"
   },
   {
     "id": 68,
@@ -803,7 +796,7 @@
     "type": "web",
     "url": "https://www.rtca.org/do-178c/",
     "file": "references/recursion/ch3/ref-68-do-178c-avionics-certification.md",
-    "status": "pending"
+    "status": "ok"
   },
   {
     "id": 69,
@@ -815,7 +808,7 @@
     "type": "paper",
     "url": "https://arxiv.org/pdf/2210.08674",
     "file": "references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf",
-    "status": "pending"
+    "status": "ok"
   },
   {
     "id": 70,
@@ -827,7 +820,7 @@
     "type": "paper",
     "url": "https://eprint.iacr.org/2021/673.pdf",
     "file": "references/recursion/ch3/ref-70-zkcnn.pdf",
-    "status": "pending"
+    "status": "ok"
   },
   {
     "id": 71,
@@ -838,7 +831,7 @@
     ],
     "type": "stub",
     "file": "references/recursion/ch3/ref-71-nova-zkml-folding.md",
-    "status": "pending"
+    "status": "stub"
   },
   {
     "id": 72,
@@ -850,7 +843,7 @@
     "type": "web",
     "url": "https://docs.ezkl.xyz/",
     "file": "references/recursion/ch3/ref-72-ezkl-modulus-docs.md",
-    "status": "pending"
+    "status": "ok"
   },
   {
     "id": 73,
@@ -862,7 +855,7 @@
     "type": "paper",
     "url": "https://eprint.iacr.org/2017/1145.pdf",
     "file": "references/recursion/ch3/ref-73-vsql.pdf",
-    "status": "pending"
+    "status": "ok"
   },
   {
     "id": 74,
@@ -873,7 +866,7 @@
     ],
     "type": "stub",
     "file": "references/recursion/ch3/ref-74-verifiable-database-zk-analytics.md",
-    "status": "pending"
+    "status": "stub"
   },
   {
     "id": 75,
@@ -885,7 +878,7 @@
     "type": "paper",
     "url": "https://eccc.weizmann.ac.il/report/2017/108/download/",
     "file": "references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf",
-    "status": "pending"
+    "status": "ok"
   },
   {
     "id": 76,
@@ -896,7 +889,7 @@
     ],
     "type": "stub",
     "file": "references/recursion/ch3/ref-76-ivc-streaming-literature.md",
-    "status": "pending"
+    "status": "stub"
   },
   {
     "id": 77,
@@ -908,7 +901,7 @@
     "type": "paper",
     "url": "https://cs-people.bu.edu/tromer/photoproof/photoproof-oakland16.pdf",
     "file": "references/recursion/ch3/ref-77-photoproof.pdf",
-    "status": "pending"
+    "status": "ok"
   },
   {
     "id": 78,
@@ -920,7 +913,7 @@
     "type": "paper",
     "url": "https://eprint.iacr.org/2024/1066.pdf",
     "file": "references/recursion/ch3/ref-78-veritas.pdf",
-    "status": "pending"
+    "status": "ok"
   },
   {
     "id": 79,
@@ -932,7 +925,7 @@
     "type": "web",
     "url": "https://c2pa.org/specifications/specifications/2.1/specs/C2PA_Specification.html",
     "file": "references/recursion/ch3/ref-79-c2pa-specification.md",
-    "status": "pending"
+    "status": "ok"
   },
   {
     "id": 80,
@@ -944,7 +937,7 @@
     "type": "paper",
     "url": "https://eprint.iacr.org/2018/601.pdf",
     "file": "references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf",
-    "status": "pending"
+    "status": "ok"
   },
   {
     "id": 81,
@@ -956,7 +949,7 @@
     "type": "paper",
     "url": "https://eprint.iacr.org/2018/623.pdf",
     "file": "references/recursion/ch3/ref-81-wesolowski-vdf.pdf",
-    "status": "pending"
+    "status": "ok"
   },
   {
     "id": 82,
@@ -967,7 +960,7 @@
     ],
     "type": "stub",
     "file": "references/recursion/ch3/ref-82-chase-lysyanskaya-delegatable-credentials.md",
-    "status": "pending"
+    "status": "stub"
   },
   {
     "id": 83,
@@ -979,7 +972,7 @@
     "type": "web",
     "url": "https://docs.zkpassport.id/",
     "file": "references/recursion/ch3/ref-83-zkpassport-anon-aadhaar.md",
-    "status": "pending"
+    "status": "ok-stealth"
   },
   {
     "id": 84,
@@ -991,7 +984,7 @@
     "type": "web",
     "url": "https://www.w3.org/TR/vc-data-model-2.0/",
     "file": "references/recursion/ch3/ref-84-w3c-verifiable-credentials.md",
-    "status": "pending"
+    "status": "ok"
   },
   {
     "id": 85,
@@ -1003,7 +996,7 @@
     "type": "web",
     "url": "https://docs.zk.email/",
     "file": "references/recursion/ch3/ref-85-zkemail-docs.md",
-    "status": "pending"
+    "status": "ok-stealth"
   },
   {
     "id": 86,
@@ -1015,7 +1008,7 @@
     "type": "web",
     "url": "https://docs.tlsnotary.org/",
     "file": "references/recursion/ch3/ref-86-tlsnotary-docs.md",
-    "status": "pending"
+    "status": "ok"
   },
   {
     "id": 87,
@@ -1027,7 +1020,7 @@
     "type": "paper",
     "url": "https://arxiv.org/pdf/1909.00938",
     "file": "references/recursion/ch3/ref-87-deco.pdf",
-    "status": "pending"
+    "status": "ok"
   },
   {
     "id": 88,
@@ -1039,7 +1032,7 @@
     "type": "paper",
     "url": "https://eprint.iacr.org/2015/1008.pdf",
     "file": "references/recursion/ch3/ref-88-provisions.pdf",
-    "status": "pending"
+    "status": "ok"
   },
   {
     "id": 89,
@@ -1051,7 +1044,7 @@
     "type": "web",
     "url": "https://github.com/summa-dev/summa-solvency",
     "file": "references/recursion/ch3/ref-89-summa-proof-of-solvency.md",
-    "status": "pending"
+    "status": "ok"
   },
   {
     "id": 90,
@@ -1063,7 +1056,7 @@
     "type": "paper",
     "url": "https://eprint.iacr.org/2018/962.pdf",
     "file": "references/recursion/ch3/ref-90-zexe.pdf",
-    "status": "pending"
+    "status": "ok"
   },
   {
     "id": 91,
@@ -1074,7 +1067,7 @@
     ],
     "type": "stub",
     "file": "references/recursion/ch3/ref-91-dark-forest-zk-gaming.md",
-    "status": "pending"
+    "status": "stub"
   },
   {
     "id": 92,
@@ -1085,7 +1078,7 @@
     ],
     "type": "stub",
     "file": "references/recursion/ch3/ref-92-state-channel-literature.md",
-    "status": "pending"
+    "status": "stub"
   },
   {
     "id": 93,
@@ -1094,9 +1087,8 @@
     "chapters": [
       3
     ],
-    "type": "web",
-    "url": "https://docs.ezkl.xyz/benchmarks/",
+    "type": "stub",
     "file": "references/recursion/ch3/ref-93-ezkl-monolithic-benchmarks.md",
-    "status": "pending"
+    "status": "stub"
   }
 ]
