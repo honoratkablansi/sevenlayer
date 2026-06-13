@@ -70,3 +70,25 @@ Return contract is unchanged: `fetch_paper` returns `(pdf_bytes | None, how)`. T
 ## Git
 
 Single feature branch, milestone commits (Cloudflare-detection helper + tests, stealth tier wired into `fetch_paper`, manual integration verification notes). Repo-local author `Charles Hoskinson <Charles.Hoskinson@gmail.com>`.
+
+## Verification results
+
+**Date:** 2026-06-12. Live-network manual verification against `eprint.iacr.org`'s Cloudflare wall, using the real Scrapling `StealthyFetcher` headless Chromium browser with `solve_cloudflare=True`.
+
+**Outcome: the stealth tier did NOT clear the wall.** Ref **id 6** (`https://eprint.iacr.org/2016/260.pdf` → `references/ch02/ref-06-groth16.pdf`) was force-re-downloaded with `python scripts/fetch_references.py --force --only 6`. Console flow observed:
+
+- curl_cffi attempt 1 (`chrome` impersonation): `status=403, pdf=False`.
+- curl_cffi attempt 2 (`firefox` impersonation): `status=403, pdf=False`.
+- `cloudflare detected -> escalating to Camoufox stealth tier` (the 403 from the PDF path correctly triggered escalation).
+- The headless browser then loaded the origin landing page: `INFO: Fetched (200) <GET https://eprint.iacr.org/>` — **status 200, no challenge**. Immediately before it, Scrapling logged `ERROR: No Cloudflare challenge found.`
+- Result: `stealth-clear: challenge not cleared for https://eprint.iacr.org` → entry status `failed` → process exit code **1**.
+
+**Root cause of the negative result.** This is not the UA↔`cf_clearance` binding risk the design flagged at the reuse step — the reuse step was never reached. The failure is upstream, in the *clearing* step: the design clears the wall by visiting the HTML landing page `https://eprint.iacr.org/` (chosen to avoid the browser's download-vs-render problem on a `.pdf` URL). But that landing page is **not** Cloudflare-walled — it serves 200 with no Turnstile/interstitial challenge, so `solve_cloudflare=True` finds nothing to solve (`No Cloudflare challenge found`) and never mints a `cf_clearance` cookie. Only the `*.pdf` paths return 403. Clearing `/` therefore cannot produce the clearance cookie the PDF path requires, and `_stealth_clear` correctly reports `cf_clearance` absent and returns `None`. The two-attempt re-clear loop in `_fetch_paper_stealth` cannot help because the clear itself yields no challenge to solve.
+
+**Implication for the design.** The "clear a lightweight HTML page of the same origin, reuse the cookie via curl_cffi" approach (approach A) does not hold for eprint.iacr.org as currently configured: the origin's challenge is applied per-path (on the PDF assets), not on the landing page, so there is no same-origin HTML page that mints the needed `cf_clearance`. Options to pursue in a follow-up: (a) run `solve_cloudflare` directly against the `.pdf` URL and capture bytes from the browser's own response/request context rather than reusing the cookie via curl_cffi; (b) point the clearing fetch at an HTML path that *is* itself challenged; or (c) accept that the committed corpus must be refreshed by a human-attended browser session. Cloudflare may also have moved eprint to a stricter/differently-scoped mode since the original manual harvest that produced the committed PDFs.
+
+**Outputs / integrity.**
+- No valid PDF was produced by the stealth tier for ref 6 (the only ref tested end-to-end). Because `fetch_paper` returned `None`, `process()` never wrote the file, so the committed PDF was never overwritten: `references/ch02/ref-06-groth16.pdf` retained valid magic `b'%PDF-'` and its original size **404221 bytes** throughout (matching the pre-test backup byte-for-byte by size).
+- The only working-tree change from the run was `references/manifest.json` (entry 6 status flipped to `failed`); it was restored via `git checkout -- references/manifest.json`.
+- **Cache amortization across refs 17/45 was NOT tested** — Step 5 is gated on Step 2 succeeding, and Step 2 failed to clear the wall, so there was no cached session to amortize. (All three refs share the `https://eprint.iacr.org` origin, so the amortization path is exercisable once clearing works.)
+- **Corpus restored unchanged:** after `git checkout -- references/ch02/ref-06-groth16.pdf references/manifest.json`, `git status --porcelain` reported the `references/` tree clean (only this spec doc differs).
