@@ -235,6 +235,9 @@ def fetch_web_text(url: str) -> tuple[str | None, str]:
 
 def process(entry: dict, entries: list[dict], force: bool, dry_run: bool) -> str:
     """Returns the new status for the entry."""
+    if entry.get("reuse") is not None:
+        # Overlap with another corpus: the file already exists elsewhere; never fetch.
+        return "ok" if (REPO / entry["reuse"]).exists() else "pending"
     if entry.get("duplicate_of") is not None:
         matches = [e for e in entries if e["id"] == entry["duplicate_of"]]
         if not matches:
@@ -281,7 +284,12 @@ def main() -> int:
     ap.add_argument("--force", action="store_true", help="re-download existing files")
     ap.add_argument("--only", help="comma-separated ref ids")
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--manifest", help="path to a manifest other than the default")
     args = ap.parse_args()
+
+    if args.manifest:
+        global MANIFEST_PATH
+        MANIFEST_PATH = Path(args.manifest)
 
     entries = load_manifest()
     only = {int(x) for x in args.only.split(",")} if args.only else None
