@@ -7,10 +7,10 @@
 ## Context
 
 - `fetch_paper()` currently makes two curl_cffi attempts (`Fetcher.get` with chrome then firefox impersonation). eprint.iacr.org sits behind a Cloudflare managed challenge that returns HTTP 403 to all curl_cffi impersonation profiles, so all 31 ePrint PDFs fail this path.
-- Task 4 worked around it manually: Camoufox (`StealthyFetcher`) loaded an eprint page, passed the challenge through real browser execution, and the harvested `cf_clearance` cookie + browser user-agent were fed to curl_cffi to pull the actual PDF bytes. The 31 PDFs are committed; this design makes that workaround a permanent code path.
-- **Installed Scrapling 0.4.9 has no `solve_cloudflare` feature.** The PyPI description references it, but the installed package contains zero Cloudflare/Turnstile code (verified by grep). We rely on Camoufox's stealth being sufficient to pass the *managed* challenge on its own — which Task 4 demonstrated — not on an explicit solver.
-- Verified 0.4.9 API surface:
-  - `StealthyFetcher.fetch(url, **kwargs)` accepts `cookies`, `page_action` (a `Callable` receiving the live page, validated as callable), `network_idle`, `wait_selector`, `user_data_dir`, `additional_args`, `timeout` (milliseconds).
+- Task 4 worked around it manually: `StealthyFetcher` (Scrapling's Chromium-based stealth browser) loaded an eprint page with `solve_cloudflare=True`, passed the challenge through real browser execution, and the harvested `cf_clearance` cookie + browser user-agent were fed to curl_cffi to pull the actual PDF bytes. The 31 PDFs are committed; this design makes that workaround a permanent code path.
+- **`StealthyFetcher` is Chromium-based, not Camoufox** (an earlier draft of this spec wrongly said Camoufox; `camoufox` is not even importable in this venv). **Scrapling 0.4.9 DOES expose `solve_cloudflare: bool`** — a validated param that "solves all types of Cloudflare's Turnstile/Interstitial challenges before returning the response" (it requires `timeout >= 60000ms`). The clearing step uses `solve_cloudflare=True`, which is what the manual Task 4 workaround actually used. (A prior claim here that the package had "no Cloudflare code" came from a grep that silently skipped the gitignored `.venv/`; reading the source directly confirms the solver exists.)
+- Verified 0.4.9 API surface (read directly from the installed source, not via a gitignore-respecting grep):
+  - `StealthyFetcher.fetch(url, **kwargs)` accepts `cookies`, `page_action` (a `Callable` receiving the live page, validated as callable), `network_idle`, `solve_cloudflare` (bool), `useragent`, `wait_selector`, `timeout` (milliseconds).
   - Its `Response` exposes `.status`, `.body` (bytes), and `.cookies` (tuple of cookie dicts / dict).
   - `Fetcher.get(url, **kwargs)` accepts `impersonate`, `timeout` (seconds), and `cookies`.
 
@@ -20,9 +20,9 @@
 
 `fetch_paper(url)` keeps its current two curl_cffi attempts. New behavior: if both attempts fail **and the failure looks like a Cloudflare block** (HTTP 403, or a non-PDF body whose content sniffs as a Cloudflare interstitial — e.g. contains `cf-mitigated`, `Just a moment`, or `challenge-platform`), escalate to a stealth tier:
 
-1. **Clear the wall once per run (module-level cached session).** On first escalation, call `StealthyFetcher.fetch` on a lightweight page of the same origin (`https://eprint.iacr.org/` — HTML, not a PDF, to avoid the browser's download-vs-render problem) with `network_idle=True` and a `page_action` that, after the challenge passes, harvests from the live page:
+1. **Clear the wall once per run (module-level cached session).** On first escalation, call `StealthyFetcher.fetch` on a lightweight page of the same origin (`https://eprint.iacr.org/` — HTML, not a PDF, to avoid the browser's download-vs-render problem) with `solve_cloudflare=True`, `network_idle=True`, and a `page_action` that, after the challenge is solved, harvests from the live page:
    - the `cf_clearance` cookie (and any other cookies the origin set), via the page's context cookies;
-   - the exact `navigator.userAgent` string Camoufox presented (cf_clearance is bound to this UA).
+   - the exact `navigator.userAgent` string the stealth browser presented (cf_clearance is bound to this UA). **Known live-test risk:** curl_cffi's `impersonate` may override the User-Agent it sends, which could break the UA↔cf_clearance binding on the reuse call. Task 4's live verification is the gate that confirms the harvested UA actually reaches Cloudflare; if it does not, the fallback is to fetch the PDF bytes through the browser's own request context instead of curl_cffi.
 
    Store `(cookies, user_agent)` in a module-level cache keyed by origin, so the browser launches at most once per origin per process. If `page_action` harvesting proves awkward, fall back to reading `Response.cookies` plus a UA captured via a one-line `page.evaluate("navigator.userAgent")` inside `page_action`.
 
