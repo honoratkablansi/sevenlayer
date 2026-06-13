@@ -58,9 +58,11 @@ def _origin(url: str) -> str:
 _CF_SESSIONS: dict[str, dict] = {}  # origin -> {"cookies": {...}, "ua": "..."}
 
 
-def _stealth_clear(origin: str) -> dict | None:
-    """Use Scrapling's Cloudflare solver on the origin landing page to pass the
-    Cloudflare managed challenge, and harvest the cf_clearance cookie + matching UA.
+def _stealth_clear(challenge_url: str) -> dict | None:
+    """Use Scrapling's Cloudflare solver on the challenged URL (the failing PDF URL)
+    to pass the Cloudflare managed challenge, and harvest the cf_clearance cookie +
+    matching UA. Visiting the challenged URL directly is required because eprint's
+    Cloudflare challenge is scoped to asset paths, not the landing page.
     Returns {"cookies": {name: value, ...}, "ua": str} or None if not cleared."""
     from scrapling.fetchers import StealthyFetcher
 
@@ -68,13 +70,19 @@ def _stealth_clear(origin: str) -> dict | None:
 
     def grab(page):
         # cf_clearance is bound to this exact UA; capture both together.
-        captured["ua"] = page.evaluate("navigator.userAgent")
-        captured["cookies"] = {c["name"]: c["value"] for c in page.context.cookies()}
+        try:
+            captured["ua"] = page.evaluate("navigator.userAgent")
+        except Exception:  # noqa: BLE001 - UA is best-effort
+            pass
+        try:
+            captured["cookies"] = {c["name"]: c["value"] for c in page.context.cookies()}
+        except Exception:  # noqa: BLE001 - fall back to Response.cookies below
+            pass
         return page
 
     try:
         page = StealthyFetcher.fetch(
-            origin + "/",
+            challenge_url,
             headless=True,
             network_idle=True,
             timeout=120000,
@@ -90,18 +98,19 @@ def _stealth_clear(origin: str) -> dict | None:
         raw = page.cookies if page is not None else None
         cookies = {c["name"]: c["value"] for c in (raw or ())} if raw else {}
     if "cf_clearance" not in cookies:
-        print(f"    stealth-clear: challenge not cleared for {origin}")
+        print(f"    stealth-clear: challenge not cleared for {challenge_url}")
         return None
     return {"cookies": cookies, "ua": captured.get("ua")}
 
 
-def _clear_cloudflare(origin: str) -> dict | None:
+def _clear_cloudflare(origin: str, challenge_url: str) -> dict | None:
     """Cached wrapper: clear an origin at most once per process. Failures are
-    not cached, so a later entry can retry."""
+    not cached, so a later entry can retry. cf_clearance is origin-scoped, so
+    one clear on the challenged URL serves all PDFs on the same origin."""
     cached = _CF_SESSIONS.get(origin)
     if cached is not None:
         return cached
-    session = _stealth_clear(origin)
+    session = _stealth_clear(challenge_url)
     if session is not None:
         _CF_SESSIONS[origin] = session
     return session
@@ -157,7 +166,7 @@ def _fetch_paper_stealth(url: str) -> bytes | None:
     via curl_cffi reusing the cleared cookie + UA. One re-clear on stale state."""
     origin = _origin(url)
     for attempt in (1, 2):
-        session = _clear_cloudflare(origin)
+        session = _clear_cloudflare(origin, url)
         if session is None:
             return None
         ua = session.get("ua")

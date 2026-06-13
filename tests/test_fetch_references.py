@@ -84,24 +84,24 @@ def test_clear_cloudflare_caches_per_origin(monkeypatch):
     fr._CF_SESSIONS.clear()
     calls = []
 
-    def fake_stealth_clear(origin):
-        calls.append(origin)
+    def fake_stealth_clear(challenge_url):
+        calls.append(challenge_url)
         return {"cookies": {"cf_clearance": "abc"}, "ua": "TestUA/1.0"}
 
     monkeypatch.setattr(fr, "_stealth_clear", fake_stealth_clear)
 
-    s1 = fr._clear_cloudflare("https://eprint.iacr.org")
-    s2 = fr._clear_cloudflare("https://eprint.iacr.org")
+    s1 = fr._clear_cloudflare("https://eprint.iacr.org", "https://eprint.iacr.org/2016/260.pdf")
+    s2 = fr._clear_cloudflare("https://eprint.iacr.org", "https://eprint.iacr.org/2017/1050.pdf")
 
     assert s1 == {"cookies": {"cf_clearance": "abc"}, "ua": "TestUA/1.0"}
-    assert s2 is s1  # same cached object
-    assert calls == ["https://eprint.iacr.org"]  # _stealth_clear ran exactly once
+    assert s2 is s1  # same cached object; second call never re-clears
+    assert len(calls) == 1  # _stealth_clear ran exactly once
 
 
 def test_clear_cloudflare_returns_none_when_unsolved(monkeypatch):
     fr._CF_SESSIONS.clear()
-    monkeypatch.setattr(fr, "_stealth_clear", lambda origin: None)
-    assert fr._clear_cloudflare("https://eprint.iacr.org") is None
+    monkeypatch.setattr(fr, "_stealth_clear", lambda challenge_url: None)
+    assert fr._clear_cloudflare("https://eprint.iacr.org", "https://eprint.iacr.org/2016/260.pdf") is None
     assert "https://eprint.iacr.org" not in fr._CF_SESSIONS  # failures are not cached
 
 
@@ -117,7 +117,7 @@ def test_fetch_paper_curl_success_never_escalates(monkeypatch):
     def fake_curl(url, impersonate, cookies=None, headers=None):
         return FakeResp(200, b"%PDF-1.7 real pdf")
 
-    def boom(origin):
+    def boom(origin, challenge_url):
         raise AssertionError("must not escalate on curl success")
 
     monkeypatch.setattr(fr, "_curl_get", fake_curl)
@@ -137,7 +137,7 @@ def test_fetch_paper_escalates_on_cloudflare_then_reuses_session(monkeypatch):
             return FakeResp(403, b"Just a moment")  # both curl_cffi attempts blocked
         return FakeResp(200, b"%PDF-1.7 cleared")  # cleared-session download wins
 
-    def fake_clear(origin):
+    def fake_clear(origin, challenge_url):
         clear_calls.append(origin)
         return {"cookies": {"cf_clearance": "x"}, "ua": "UA/1"}
 
@@ -156,7 +156,7 @@ def test_fetch_paper_non_cloudflare_failure_does_not_escalate(monkeypatch):
     def fake_curl(url, impersonate, cookies=None, headers=None):
         return FakeResp(404, b"<html>Not Found</html>")
 
-    def boom(origin):
+    def boom(origin, challenge_url):
         raise AssertionError("404 must not trigger a browser launch")
 
     monkeypatch.setattr(fr, "_curl_get", fake_curl)
@@ -176,7 +176,7 @@ def test_fetch_paper_stale_clearance_reclears_once_then_gives_up(monkeypatch):
             return FakeResp(403, b"cf-mitigated")
         return FakeResp(403, b"cf-mitigated")  # cleared session also rejected (stale)
 
-    def fake_clear(origin):
+    def fake_clear(origin, challenge_url):
         clear_calls.append(origin)
         return {"cookies": {"cf_clearance": "x"}, "ua": "UA/1"}
 
@@ -212,7 +212,7 @@ def test_stealth_clear_harvests_cookies_and_ua_via_page_action(monkeypatch):
         return FakeResp()
 
     monkeypatch.setattr("scrapling.fetchers.StealthyFetcher.fetch", fake_fetch)
-    session = fr._stealth_clear("https://eprint.iacr.org")
+    session = fr._stealth_clear("https://eprint.iacr.org/2016/260.pdf")
     assert session == {"cookies": {"cf_clearance": "tok", "other": "y"},
                        "ua": "BrowserUA/2.0"}
 
@@ -227,7 +227,7 @@ def test_stealth_clear_falls_back_to_response_cookies(monkeypatch):
         return FakeResp()  # page_action effectively no-op (swallowed) -> empty capture
 
     monkeypatch.setattr("scrapling.fetchers.StealthyFetcher.fetch", fake_fetch)
-    session = fr._stealth_clear("https://eprint.iacr.org")
+    session = fr._stealth_clear("https://eprint.iacr.org/2016/260.pdf")
     assert session == {"cookies": {"cf_clearance": "fromresp"}, "ua": None}
 
 
@@ -239,7 +239,7 @@ def test_stealth_clear_returns_none_without_cf_clearance(monkeypatch):
 
     monkeypatch.setattr("scrapling.fetchers.StealthyFetcher.fetch",
                         lambda url, **k: FakeResp())
-    assert fr._stealth_clear("https://eprint.iacr.org") is None
+    assert fr._stealth_clear("https://eprint.iacr.org/2016/260.pdf") is None
 
 
 def test_stealth_clear_returns_none_on_browser_exception(monkeypatch):
@@ -249,4 +249,4 @@ def test_stealth_clear_returns_none_on_browser_exception(monkeypatch):
         raise RuntimeError("browser launch failed")
 
     monkeypatch.setattr("scrapling.fetchers.StealthyFetcher.fetch", fake_fetch)
-    assert fr._stealth_clear("https://eprint.iacr.org") is None
+    assert fr._stealth_clear("https://eprint.iacr.org/2016/260.pdf") is None
