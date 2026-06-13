@@ -30,3 +30,6 @@ Thumbs.db
 
 # Graph deepening scratch (fragments, jobs)
 graphify-out/.deepen/
+
+# Book-graph scratch (chapter splits, fragments, jobs)
+book-graph/.work/
