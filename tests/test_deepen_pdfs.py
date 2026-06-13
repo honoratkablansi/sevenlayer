@@ -99,3 +99,35 @@ def test_merge_fragment_enforces_additive_invariant():
     # Simulate a "before" count higher than reality (99 > 2) so the guard fires.
     with pytest.raises(AssertionError):
         merge_fragment(graph, {"nodes": [], "edges": []}, _force_node_count=99)
+
+
+from deepen_pdfs import consolidate_nodes
+
+
+def test_consolidate_nodes_redirects_and_drops_dups():
+    graph = {
+        "nodes": [
+            {"id": "concept_snark", "label": "SNARKs"},
+            {"id": "concept_snarks", "label": "SNARKs"},   # dup -> concept_snark
+            {"id": "ref-06_groth16", "label": "Groth16"},
+        ],
+        "links": [
+            {"source": "ref-06_groth16", "target": "concept_snarks", "relation": "introduces"},
+            {"source": "ref-06_groth16", "target": "concept_snark", "relation": "introduces"},  # dup after redirect
+            {"source": "concept_snarks", "target": "concept_snark", "relation": "x"},           # self-loop after redirect
+        ],
+    }
+    out = consolidate_nodes(graph, {"concept_snarks": "concept_snark"})
+    assert [n["id"] for n in out["nodes"]] == ["concept_snark", "ref-06_groth16"]
+    assert out["links"] == [
+        {"source": "ref-06_groth16", "target": "concept_snark", "relation": "introduces"}
+    ]
+
+
+def test_consolidate_nodes_drops_edges_to_missing_canonical():
+    graph = {
+        "nodes": [{"id": "concept_snark", "label": "SNARKs"}],
+        "links": [{"source": "ghost", "target": "concept_snarks", "relation": "r"}],
+    }
+    out = consolidate_nodes(graph, {"concept_snarks": "concept_snark"})
+    assert out["links"] == []  # source 'ghost' not a node -> dangling, dropped

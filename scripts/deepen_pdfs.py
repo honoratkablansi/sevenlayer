@@ -108,6 +108,32 @@ def merge_fragment(graph: dict, fragment: dict, _force_node_count: int | None = 
     return graph
 
 
+def consolidate_nodes(graph: dict, alias_map: dict[str, str]) -> dict:
+    """Merge duplicate nodes: drop alias ids, redirect their edges to the canonical
+    id, dedup edges by (source,target,relation), and drop self-loops + dangling
+    edges. Unlike merge_fragment this intentionally REDUCES the node count."""
+    graph["nodes"] = [n for n in graph["nodes"] if n["id"] not in alias_map]
+    node_ids = {n["id"] for n in graph["nodes"]}
+    seen: set = set()
+    new_links = []
+    for l in graph["links"]:
+        s = alias_map.get(l["source"], l["source"])
+        t = alias_map.get(l["target"], l["target"])
+        if s == t:
+            continue  # self-loop after redirect
+        if s not in node_ids or t not in node_ids:
+            continue  # dangling (e.g. canonical missing or endpoint not a node)
+        key = (s, t, l.get("relation"))
+        if key in seen:
+            continue
+        seen.add(key)
+        nl = dict(l)
+        nl["source"], nl["target"] = s, t
+        new_links.append(nl)
+    graph["links"] = new_links
+    return graph
+
+
 def _load_json(path: Path):
     return json.loads(Path(path).read_text(encoding="utf-8"))
 
@@ -225,6 +251,81 @@ def cmd_merge(ids: list[int]) -> int:
     return 0
 
 
+def _communities_from_graph(graph: dict) -> dict:
+    """Reconstruct {community_id: [node_ids]} from the per-node 'community' field
+    that to_json writes — so relabel reuses the exact clustering without re-running it."""
+    comms: dict[int, list] = {}
+    for n in graph["nodes"]:
+        c = n.get("community")
+        if c is None:
+            continue
+        comms.setdefault(int(c), []).append(n["id"])
+    return comms
+
+
+def _regenerate_reports(graph: dict, communities: dict, labels: dict, n_files: int) -> None:
+    from networkx.readwrite import json_graph
+    from graphify.cluster import score_all
+    from graphify.analyze import god_nodes, surprising_connections, suggest_questions
+    from graphify.report import generate
+    from graphify.export import to_html, to_obsidian
+
+    G = json_graph.node_link_graph(graph, edges="links")
+    cohesion = score_all(G, communities)
+    gods = god_nodes(G)
+    surprises = surprising_connections(G, communities)
+    questions = suggest_questions(G, communities, labels)
+    detection = {"total_files": n_files, "total_words": 99999, "needs_graph": True,
+                 "warning": None, "files": {"code": [], "document": [], "paper": []}}
+    report = generate(G, communities, cohesion, labels, gods, surprises,
+                      detection, {"input": 0, "output": 0}, ".", suggested_questions=questions)
+    (REPO / "graphify-out" / "GRAPH_REPORT.md").write_text(report, encoding="utf-8")
+    if G.number_of_nodes() <= 5000:
+        to_html(G, communities, str(REPO / "graphify-out" / "graph.html"), community_labels=labels)
+    to_obsidian(G, communities, str(REPO / "graphify-out" / "obsidian"),
+                community_labels=labels, cohesion=cohesion)
+
+
+def cmd_finalize() -> int:
+    """Consolidate duplicate concept nodes (graphify-out/.deepen/aliases.json),
+    re-cluster, regenerate outputs, and dump communities for labeling."""
+    aliases_path = DEEPEN_DIR / "aliases.json"
+    alias_map = _load_json(aliases_path) if aliases_path.exists() else {}
+    graph = _load_json(GRAPH_PATH)
+    before = graph_stats(graph)
+    consolidate_nodes(graph, alias_map)
+    stats = rebuild(graph, len(_load_json(MANIFEST_PATH)))
+    after = graph_stats(_load_json(GRAPH_PATH))
+
+    g2 = _load_json(GRAPH_PATH)
+    comms: dict[str, list] = {}
+    for n in g2["nodes"]:
+        comms.setdefault(str(n.get("community")), []).append(n.get("label", n["id"]))
+    (DEEPEN_DIR / "communities.json").write_text(
+        json.dumps(comms, indent=2, ensure_ascii=False), encoding="utf-8")
+
+    print(f"consolidated {len(alias_map)} aliases: "
+          f"nodes {before['nodes']} -> {after['nodes']}, "
+          f"edges {before['edges']} -> {after['edges']}, communities {stats['communities']}")
+    print(f"wrote {DEEPEN_DIR / 'communities.json'} for labeling")
+    return 0
+
+
+def cmd_relabel() -> int:
+    """Regenerate report/html/obsidian using graphify-out/.deepen/labels.json
+    (community_id -> name), reusing the existing clustering (no re-cluster)."""
+    labels_path = DEEPEN_DIR / "labels.json"
+    if not labels_path.exists():
+        print(f"no {labels_path}; nothing to do")
+        return 1
+    labels = {int(k): v for k, v in _load_json(labels_path).items()}
+    graph = _load_json(GRAPH_PATH)
+    communities = _communities_from_graph(graph)
+    _regenerate_reports(graph, communities, labels, len(_load_json(MANIFEST_PATH)))
+    print(f"relabeled {len(labels)} communities; report + html + obsidian regenerated")
+    return 0
+
+
 def main() -> int:
     import argparse
     ap = argparse.ArgumentParser(description=__doc__)
@@ -232,7 +333,13 @@ def main() -> int:
     for name in ("jobs", "merge"):
         p = sub.add_parser(name)
         p.add_argument("--only", help="comma-separated ref ids", default="")
+    sub.add_parser("finalize")
+    sub.add_parser("relabel")
     args = ap.parse_args()
+    if args.cmd == "finalize":
+        return cmd_finalize()
+    if args.cmd == "relabel":
+        return cmd_relabel()
     ids = [int(x) for x in args.only.split(",") if x.strip()]
     if args.cmd == "jobs":
         cmd_jobs(ids)
