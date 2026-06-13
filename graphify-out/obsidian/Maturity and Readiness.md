@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch07-maturity-and-readiness.md"
 type: "document"
-community: "ZK Crypto Foundations"
+community: "Folding Genealogy & Post-Quantum"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/ZK_Crypto_Foundations
+  - community/Folding_Genealogy__Post-Quantum
 ---
 
 # Maturity and Readiness
@@ -24,9 +24,9 @@ tags:
 - [[Mersenne-31 Field]] - `references` [EXTRACTED]
 - [[Neo (Lattice Folding over Small Fields)]] - `references` [EXTRACTED]
 - [[Nightstream]] - `references` [EXTRACTED]
-- [[Post-Quantum Cryptography]] - `references` [EXTRACTED]
+- [[Post-Quantum Cryptography (NIST PQC standardization)]] - `references` [EXTRACTED]
 - [[Stwo]] - `references` [EXTRACTED]
 - [[Symphony]] - `references` [EXTRACTED]
 - [[The One-Way Door]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/ZK_Crypto_Foundations
+#graphify/document #graphify/EXTRACTED #community/Folding_Genealogy__Post-Quantum

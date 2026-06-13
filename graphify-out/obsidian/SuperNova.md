@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch06-the-folding-genealogy.md"
 type: "document"
-community: "Arithmetization & CCS"
+community: "Folding Genealogy & Post-Quantum"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Arithmetization__CCS
+  - community/Folding_Genealogy__Post-Quantum
 ---
 
 # SuperNova
@@ -14,4 +14,4 @@ tags:
 - [[Nova]] - `conceptually_related_to` [EXTRACTED]
 - [[The Folding Genealogy]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Arithmetization__CCS
+#graphify/document #graphify/EXTRACTED #community/Folding_Genealogy__Post-Quantum

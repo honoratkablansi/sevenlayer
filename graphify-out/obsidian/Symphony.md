@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch06-the-folding-genealogy.md"
 type: "document"
-community: "ZK Crypto Foundations"
+community: "Folding Genealogy & Post-Quantum"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/ZK_Crypto_Foundations
+  - community/Folding_Genealogy__Post-Quantum
 ---
 
 # Symphony
@@ -20,4 +20,4 @@ tags:
 - [[The Folding Genealogy]] - `defines` [EXTRACTED]
 - [[The Post-Quantum Horizon]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/ZK_Crypto_Foundations
+#graphify/document #graphify/EXTRACTED #community/Folding_Genealogy__Post-Quantum

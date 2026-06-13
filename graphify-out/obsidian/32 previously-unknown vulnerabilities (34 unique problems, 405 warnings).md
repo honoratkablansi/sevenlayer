@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch03/ref-13-practical-security-zk-circuits.pdf"
 type: "paper"
-community: "Circom Vulnerability Taxonomy"
+community: "Circuit Static Analysis (ZKAP)"
 location: "§5.3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Circom_Vulnerability_Taxonomy
+  - community/Circuit_Static_Analysis_ZKAP
 ---
 
 # 32 previously-unknown vulnerabilities (34 unique problems, 405 warnings)
@@ -16,4 +16,4 @@ tags:
 - [[ed25519-circom PointCompress unconstrained-output bug]] - `introduces` [EXTRACTED]
 - [[iden3 verifyExpirationTime missing-range-check type mismatch]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Circom_Vulnerability_Taxonomy
+#graphify/paper #graphify/EXTRACTED #community/Circuit_Static_Analysis_ZKAP

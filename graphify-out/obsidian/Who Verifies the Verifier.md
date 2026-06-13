@@ -1,12 +1,12 @@
 ---
 source_file: "wiki/sections/ch08-who-verifies-the-verifier.md"
 type: "document"
-community: "Programmable Privacy & Midnight"
+community: "Core Concepts & Book Spine"
 location: "Who Verifies the Verifier?"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Programmable_Privacy__Midnight
+  - community/Core_Concepts__Book_Spine
 ---
 
 # Who Verifies the Verifier?
@@ -24,4 +24,4 @@ tags:
 - [[Tornado Cash Governance Attack (May 2023)]] - `references` [EXTRACTED]
 - [[When the Transcript Lies Fiat-Shamir Vulnerabilities]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Programmable_Privacy__Midnight
+#graphify/document #graphify/EXTRACTED #community/Core_Concepts__Book_Spine

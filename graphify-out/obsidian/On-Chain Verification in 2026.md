@@ -1,12 +1,12 @@
 ---
 source_file: "wiki/sections/ch08-on-chain-verification-in-2026.md"
 type: "document"
-community: "Programmable Privacy & Midnight"
+community: "Core Concepts & Book Spine"
 location: "On-Chain Verification in 2026"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Programmable_Privacy__Midnight
+  - community/Core_Concepts__Book_Spine
 ---
 
 # On-Chain Verification in 2026
@@ -16,7 +16,7 @@ tags:
 - [[BN254 Curve]] - `references` [EXTRACTED]
 - [[Data Availability]] - `references` [EXTRACTED]
 - [[Fiat-Shamir Transform]] - `references` [EXTRACTED]
-- [[Fully Homomorphic Encryption (FHE)]] - `references` [EXTRACTED]
+- [[Fully homomorphic encryption (homomorphic for all circuits)]] - `references` [EXTRACTED]
 - [[Governance The Achilles Heel]] - `references` [EXTRACTED]
 - [[Groth16]] - `references` [EXTRACTED]
 - [[L2Beat Stages Framework]] - `references` [EXTRACTED]
@@ -30,4 +30,4 @@ tags:
 - [[When the Transcript Lies Fiat-Shamir Vulnerabilities]] - `references` [EXTRACTED]
 - [[ZK Coprocessors Off-Chain Computation, On-Chain Verification (Growth)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Programmable_Privacy__Midnight
+#graphify/document #graphify/EXTRACTED #community/Core_Concepts__Book_Spine

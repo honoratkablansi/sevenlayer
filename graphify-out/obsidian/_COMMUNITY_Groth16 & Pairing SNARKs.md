@@ -1,13 +1,13 @@
 ---
 type: community
-cohesion: 0.16
-members: 22
+cohesion: 0.14
+members: 24
 ---
 
 # Groth16 & Pairing SNARKs
 
-**Cohesion:** 0.16 - loosely connected
-**Members:** 22 nodes
+**Cohesion:** 0.14 - loosely connected
+**Members:** 24 nodes
 
 ## Members
 - [[2-Field-Element NILP via Squaring Gates]] - paper - references/ch02/ref-06-groth16.pdf
@@ -19,6 +19,8 @@ members: 22
 - [[Generic (Bilinear) Group Model]] - paper - references/ch02/ref-06-groth16.pdf
 - [[Gennaro-Gentry-Parno-Raykova QSPQAP and Succinct NIZKs (GGPR13)]] - paper - references/ch02/ref-06-groth16.pdf
 - [[Gentry-Wichs SNARGs Need Non-falsifiable Assumptions (GW11)]] - paper - references/ch02/ref-06-groth16.pdf
+- [[Jens Groth]] - document - wiki/sections/ch06-the-three-families.md
+- [[Knowledge soundness witness extractability for the extended-CRS Groth SNARK]] - paper - references/ch02/ref-05-mpc-random-beacon.pdf
 - [[Linear Interactive Proof (LIP)]] - paper - references/ch02/ref-06-groth16.pdf
 - [[Non-interactive Linear Proof (NILP) for Quadratic Arithmetic Programs]] - paper - references/ch02/ref-06-groth16.pdf
 - [[On the Size of Pairing-Based Non-interactive Arguments]] - paper - references/ch02/ref-06-groth16.pdf
@@ -41,21 +43,25 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 5 edges to [[_COMMUNITY_Foundations & SoK Surveys]]
-- 4 edges to [[_COMMUNITY_Programmable Privacy & Midnight]]
-- 4 edges to [[_COMMUNITY_Universal SRS & Ceremonies]]
-- 2 edges to [[_COMMUNITY_ZK Crypto Foundations]]
+- 7 edges to [[_COMMUNITY_Core Concepts & Book Spine]]
+- 4 edges to [[_COMMUNITY_Universal SRS & Sonic]]
+- 3 edges to [[_COMMUNITY_Trusted Setup Ceremonies]]
 - 2 edges to [[_COMMUNITY_KZG Polynomial Commitments]]
-- 2 edges to [[_COMMUNITY_Updatable CRS Theory]]
-- 1 edge to [[_COMMUNITY_Compliance & Deployment]]
+- 2 edges to [[_COMMUNITY_Extended Tower NFS]]
+- 2 edges to [[_COMMUNITY_Ceremonial SNARK Model]]
+- 1 edge to [[_COMMUNITY_Recursive Proofs & IVC]]
+- 1 edge to [[_COMMUNITY_SNARK Vulnerabilities & Foundations]]
+- 1 edge to [[_COMMUNITY_Privacy-Enhancing Technologies]]
 - 1 edge to [[_COMMUNITY_PLONK & Permutation Arguments]]
 - 1 edge to [[_COMMUNITY_Small-Space Proving (TwistShout)]]
 - 1 edge to [[_COMMUNITY_Arithmetization & CCS]]
-- 1 edge to [[_COMMUNITY_Pairing Curve Security]]
+- 1 edge to [[_COMMUNITY_Pairing Curve Efficiency]]
+- 1 edge to [[_COMMUNITY_BN Curve Pairing Security]]
+- 1 edge to [[_COMMUNITY_MPC Powers-of-Tau Ceremony]]
 
 ## Top bridge nodes
 - [[On the Size of Pairing-Based Non-interactive Arguments]] - degree 24, connects to 7 communities
-- [[Quadratic Arithmetic Programs]] - degree 10, connects to 3 communities
-- [[Bilinear Pairings]] - degree 8, connects to 3 communities
+- [[Bilinear Pairings]] - degree 10, connects to 4 communities
+- [[Quadratic Arithmetic Programs]] - degree 11, connects to 3 communities
 - [[3-Element Pairing-based SNARK for Arithmetic Circuit SAT]] - degree 10, connects to 2 communities
-- [[Theorem 2 Perfect ZK NIZK with Generic-Group Knowledge Soundness]] - degree 3, connects to 1 community
+- [[Jens Groth]] - degree 3, connects to 2 communities

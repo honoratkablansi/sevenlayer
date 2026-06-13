@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch09-real-world-deployments-five-case-studies.md"
 type: "document"
-community: "Compliance & Deployment"
+community: "Privacy-Enhancing Technologies"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Compliance__Deployment
+  - community/Privacy-Enhancing_Technologies
 ---
 
 # Privacy Pools
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[Real-World Deployments Five Case Studies]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Compliance__Deployment
+#graphify/document #graphify/EXTRACTED #community/Privacy-Enhancing_Technologies

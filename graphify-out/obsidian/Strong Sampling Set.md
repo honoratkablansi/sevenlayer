@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-20-latticefold.pdf"
 type: "paper"
-community: "Sumcheck SNARKs (CCS/Lattice)"
+community: "Lattice Folding Soundness"
 location: "§2.1 Def 2.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Sumcheck_SNARKs_CCS/Lattice
+  - community/Lattice_Folding_Soundness
 ---
 
 # Strong Sampling Set
@@ -16,4 +16,4 @@ tags:
 - [[Sumcheck Protocol]] - `assumes` [EXTRACTED]
 - [[Theorem 4.3 Pi_cm is a RoK from R_rg,B to R_com]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Sumcheck_SNARKs_CCS/Lattice
+#graphify/paper #graphify/EXTRACTED #community/Lattice_Folding_Soundness

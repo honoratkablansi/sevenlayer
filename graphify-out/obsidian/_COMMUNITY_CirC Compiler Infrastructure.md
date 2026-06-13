@@ -17,6 +17,7 @@ members: 21
 - [[CirC SMT back-end (Z3 Haskell bindings)]] - paper - references/ch10/ref-33-circ.pdf
 - [[CirC ZoKratesZ front-end]] - paper - references/ch10/ref-33-circ.pdf
 - [[CirC-IR (SMT-LIB-based circuit IR)]] - paper - references/ch10/ref-33-circ.pdf
+- [[CirC Compiler Infrastructure for Proof Systems, Software Verification, and More]] - paper - references/ch10/ref-33-circ.pdf
 - [[CirC shared compiler infrastructure for EQCs]] - paper - references/ch10/ref-33-circ.pdf
 - [[Circify language-independent state-management library]] - paper - references/ch10/ref-33-circ.pdf
 - [[Compiler intermediate representation]] - paper - references/ch10/ref-33-circ.pdf
@@ -24,7 +25,6 @@ members: 21
 - [[Existentially Quantified Circuit (EQC)]] - paper - references/ch10/ref-33-circ.pdf
 - [[Fine-grained array modeling]] - paper - references/ch10/ref-33-circ.pdf
 - [[Guarded SSA versioning via ITE terms]] - paper - references/ch10/ref-33-circ.pdf
-- [[LLVM Compiler Infrastructure]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
 - [[Linearity reduction (R1CS-specific optimization)]] - paper - references/ch10/ref-33-circ.pdf
 - [[Oblivious array elimination pass]] - paper - references/ch10/ref-33-circ.pdf
 - [[SMT-guided loop-unroll bound inference]] - paper - references/ch10/ref-33-circ.pdf
@@ -40,15 +40,17 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 3 edges to [[_COMMUNITY_Arithmetization & CCS]]
-- 2 edges to [[_COMMUNITY_Fully Homomorphic Encryption]]
+- 4 edges to [[_COMMUNITY_Arithmetization & CCS]]
+- 3 edges to [[_COMMUNITY_Privacy-Enhancing Technologies]]
 - 2 edges to [[_COMMUNITY_Circuit Verification (Coda)]]
-- 1 edge to [[_COMMUNITY_Privacy-Enhancing Technologies]]
-- 1 edge to [[_COMMUNITY_zkVMs & STARK Stacks]]
+- 1 edge to [[_COMMUNITY_zkVM Design Philosophy]]
+- 1 edge to [[_COMMUNITY_Core Concepts & Book Spine]]
+- 1 edge to [[_COMMUNITY_FHE & Lattice Folding (Symphony)]]
+- 1 edge to [[_COMMUNITY_zkVM Compiler Optimization]]
 
 ## Top bridge nodes
+- [[CirC Compiler Infrastructure for Proof Systems, Software Verification, and More]] - degree 8, connects to 5 communities
 - [[CirC shared compiler infrastructure for EQCs]] - degree 6, connects to 3 communities
 - [[Existentially Quantified Circuit (EQC)]] - degree 5, connects to 2 communities
-- [[Satisfiability Modulo Theories (SMT)]] - degree 5, connects to 1 community
 - [[CirC R1CS back-end (lowering pass)]] - degree 5, connects to 1 community
-- [[LLVM Compiler Infrastructure]] - degree 2, connects to 1 community
+- [[Zero-knowledge proof system]] - degree 2, connects to 1 community

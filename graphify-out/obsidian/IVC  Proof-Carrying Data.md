@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-20-latticefold.pdf"
 type: "paper"
-community: "ZK Crypto Foundations"
+community: "Lattice Folding (LatticeFold+)"
 location: "§1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/ZK_Crypto_Foundations
+  - community/Lattice_Folding_LatticeFold
 ---
 
 # IVC / Proof-Carrying Data
@@ -16,4 +16,4 @@ tags:
 - [[LatticeFold Lattice-Based Folding Scheme]] - `conceptually_related_to` [EXTRACTED]
 - [[LatticeFold+ Faster, Simpler, Shorter Lattice-Based Folding for Succinct Proof Systems]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/ZK_Crypto_Foundations
+#graphify/paper #graphify/EXTRACTED #community/Lattice_Folding_LatticeFold

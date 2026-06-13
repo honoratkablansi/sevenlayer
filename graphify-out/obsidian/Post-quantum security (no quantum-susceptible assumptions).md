@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-08-stark.pdf"
 type: "paper"
-community: "ZK Crypto Foundations"
+community: "STARK Foundations"
 location: "§1, §1.3.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/ZK_Crypto_Foundations
+  - community/STARK_Foundations
 ---
 
 # Post-quantum security (no quantum-susceptible assumptions)
@@ -19,4 +19,4 @@ tags:
 - [[Module-SIS]] - `assumes` [INFERRED]
 - [[Zero-Knowledge Scalable Transparent ARgument of Knowledge (ZK-STARK)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/ZK_Crypto_Foundations
+#graphify/paper #graphify/EXTRACTED #community/STARK_Foundations

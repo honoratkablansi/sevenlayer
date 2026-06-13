@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/10-the-synthesis-three-paths-not-two.md"
 type: "document"
-community: "ZK Crypto Foundations"
+community: "Lattice Folding (Neo)"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/ZK_Crypto_Foundations
+  - community/Lattice_Folding_Neo
 ---
 
 # Module-SIS
@@ -34,6 +34,7 @@ tags:
 - [[Power-of-Two Cyclotomic Ring ZX(Xd+1)]] - `defines` [EXTRACTED]
 - [[Relaxed Binding Commitment reduced to Module-SIS]] - `assumes` [EXTRACTED]
 - [[Sealing the Certificate]] - `references` [EXTRACTED]
+- [[Security based on Module-LWE over R_q plus SelfTargetMSIS, a nonstandard variant of Module-SIS]] - `assumes` [EXTRACTED]
 - [[The Folding Genealogy]] - `references` [EXTRACTED]
 - [[The Laws That Break]] - `references` [EXTRACTED]
 - [[The Post-Quantum Horizon]] - `references` [EXTRACTED]
@@ -48,4 +49,4 @@ tags:
 - [[Weak binding of innerouter commitment under Module-SIS (Lemma 2.11)]] - `assumes` [EXTRACTED]
 - [[l-Succinct SIS Assumption (falsifiable q-type generalization of SIS, trapdoor for I_l ⊗ A  W)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/ZK_Crypto_Foundations
+#graphify/document #graphify/EXTRACTED #community/Lattice_Folding_Neo

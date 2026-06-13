@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch13-zk-coprocessors-off-chain-computation-on-chain-verification-growth.md"
 type: "document"
-community: "zkVMs & STARK Stacks"
+community: "ZKML & Coprocessors"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/zkVMs__STARK_Stacks
+  - community/ZKML__Coprocessors
 ---
 
 # ZK Coprocessors: Off-Chain Computation, On-Chain Verification (Growth)
@@ -24,4 +24,4 @@ tags:
 - [[ZKML Provable Machine Learning (Research)]] - `references` [EXTRACTED]
 - [[Zero-Knowledge Virtual Machine (zkVM)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/zkVMs__STARK_Stacks
+#graphify/document #graphify/EXTRACTED #community/ZKML__Coprocessors

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-56-symphony.pdf"
 type: "paper"
-community: "Lattice Folding (Symphony)"
+community: "FHE & Lattice Folding (Symphony)"
 location: "page 1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Lattice_Folding_Symphony
+  - community/FHE__Lattice_Folding_Symphony
 ---
 
 # Symphony: Scalable SNARKs in the Random Oracle Model from Lattice-Based High-Arity Folding
@@ -26,7 +26,7 @@ tags:
 - [[Layer 6 -- The Deep Craft]] - `cites` [EXTRACTED]
 - [[Neo NS25 (lattice SNARK; Hadamard sumcheck and single-instance encoding, cited prior work)]] - `cites` [EXTRACTED]
 - [[Plausibly post-quantum security from lattice MSIS hardness]] - `proves` [INFERRED]
-- [[Post-Quantum Cryptography]] - `references` [EXTRACTED]
+- [[Post-Quantum Cryptography (NIST PQC standardization)]] - `references` [EXTRACTED]
 - [[Proof Recursion]] - `references` [EXTRACTED]
 - [[R1CS]] - `references` [EXTRACTED]
 - [[Sumcheck Protocol]] - `references` [EXTRACTED]
@@ -35,4 +35,4 @@ tags:
 - [[Two-layer folding via splitting linear-statement RoK (§8), under stronger structured-MSIS]] - `introduces` [EXTRACTED]
 - [[Zero-Knowledge Virtual Machine (zkVM)]] - `references` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Lattice_Folding_Symphony
+#graphify/paper #graphify/EXTRACTED #community/FHE__Lattice_Folding_Symphony

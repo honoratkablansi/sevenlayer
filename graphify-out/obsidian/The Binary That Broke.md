@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch10-the-binary-that-broke.md"
 type: "document"
-community: "ZK Crypto Foundations"
+community: "Core Concepts & Book Spine"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/ZK_Crypto_Foundations
+  - community/Core_Concepts__Book_Spine
 ---
 
 # The Binary That Broke
@@ -17,4 +17,4 @@ tags:
 - [[STARK (Scalable Transparent ARgument of Knowledge)]] - `conceptually_related_to` [EXTRACTED]
 - [[The Synthesis -- Three Paths, Not Two]] - `part_of` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/ZK_Crypto_Foundations
+#graphify/document #graphify/EXTRACTED #community/Core_Concepts__Book_Spine

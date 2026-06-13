@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch02-midnight-s-bls12-381-stage.md"
 type: "document"
-community: "Programmable Privacy & Midnight"
+community: "Core Concepts & Book Spine"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Programmable_Privacy__Midnight
+  - community/Core_Concepts__Book_Spine
 ---
 
 # Midnight's BLS12-381 Stage
@@ -25,4 +25,4 @@ tags:
 - [[Trusted Setup Ceremony]] - `conceptually_related_to` [EXTRACTED]
 - [[Universal versus Circuit-Specific Setups]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Programmable_Privacy__Midnight
+#graphify/document #graphify/EXTRACTED #community/Core_Concepts__Book_Spine

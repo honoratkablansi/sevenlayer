@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch03/ref-14-ccs-customizable-constraints.pdf"
 type: "paper"
-community: "Arithmetization & CCS"
+community: "Recursive Proofs & IVC"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Arithmetization__CCS
+  - community/Recursive_Proofs__IVC
 ---
 
 # Customizable Constraint Systems for Succinct Arguments
@@ -27,4 +27,4 @@ tags:
 - [[SuperMarlin univariate-sumcheck SNARK for CCS generalizing Marlin]] - `introduces` [EXTRACTED]
 - [[SuperSpartan SNARK family for CCS generalizing Spartan's polynomial IOP]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Arithmetization__CCS
+#graphify/paper #graphify/EXTRACTED #community/Recursive_Proofs__IVC

@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/06-the-sealed-certificate.md"
 type: "document"
-community: "ZK Crypto Foundations"
+community: "Folding Genealogy & Post-Quantum"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/ZK_Crypto_Foundations
+  - community/Folding_Genealogy__Post-Quantum
 ---
 
 # Nightstream
@@ -17,4 +17,4 @@ tags:
 - [[Neo (Lattice Folding over Small Fields)]] - `implements` [EXTRACTED]
 - [[Nightstream What a Folding Engine Looks Like from the Inside]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/ZK_Crypto_Foundations
+#graphify/document #graphify/EXTRACTED #community/Folding_Genealogy__Post-Quantum

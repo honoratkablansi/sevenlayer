@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/concepts/mersenne.md"
 type: "document"
-community: "zkVMs & STARK Stacks"
+community: "zkVM & STARK Stacks"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/zkVMs__STARK_Stacks
+  - community/zkVM__STARK_Stacks
 ---
 
 # Mersenne-31 / M31
@@ -28,4 +28,4 @@ tags:
 - [[Three zkVMs Through Seven Layers]] - `conceptually_related_to` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/zkVMs__STARK_Stacks
+#graphify/document #graphify/EXTRACTED #community/zkVM__STARK_Stacks

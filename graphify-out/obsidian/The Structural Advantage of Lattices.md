@@ -1,12 +1,12 @@
 ---
 source_file: "wiki/sections/ch07-the-structural-advantage-of-lattices.md"
 type: "document"
-community: "ZK Crypto Foundations"
+community: "Folding Genealogy & Post-Quantum"
 location: "The Structural Advantage of Lattices"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/ZK_Crypto_Foundations
+  - community/Folding_Genealogy__Post-Quantum
 ---
 
 # The Structural Advantage of Lattices
@@ -25,4 +25,4 @@ tags:
 - [[Trusted Setup]] - `references` [EXTRACTED]
 - [[Zexe]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/ZK_Crypto_Foundations
+#graphify/document #graphify/EXTRACTED #community/Folding_Genealogy__Post-Quantum

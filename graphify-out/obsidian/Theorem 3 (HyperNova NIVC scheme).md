@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-18-hypernova.pdf"
 type: "paper"
-community: "HyperNova Multifolding"
+community: "Bulletproofs & Range Proofs"
 location: "§6.3 Theorem 3 / Appendix H.3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/HyperNova_Multifolding
+  - community/Bulletproofs__Range_Proofs
 ---
 
 # Theorem 3 (HyperNova NIVC scheme)
@@ -16,4 +16,4 @@ tags:
 - [[HyperNova NIVC-from-multifolding compiler (Construction 2)]] - `proves` [EXTRACTED]
 - [[Single-MSM prover cost (size = variables)]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/HyperNova_Multifolding
+#graphify/paper #graphify/EXTRACTED #community/Bulletproofs__Range_Proofs

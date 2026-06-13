@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch03/ref-12-underconstrained-circuits.pdf"
 type: "paper"
-community: "QED2 Detection Algorithm"
+community: "Under-Constrained Detection (QED2)"
 location: "§5.1 Algorithm 3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/QED2_Detection_Algorithm
+  - community/Under-Constrained_Detection_QED2
 ---
 
 # InferValues Value Inference (Algorithm 3)
@@ -16,4 +16,4 @@ tags:
 - [[Uniqueness Constraint Propagation (UCP)]] - `assumes` [EXTRACTED]
 - [[Value Inference Soundness (Lemmas A.4, A.5)]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/QED2_Detection_Algorithm
+#graphify/paper #graphify/EXTRACTED #community/Under-Constrained_Detection_QED2

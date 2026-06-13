@@ -1,12 +1,12 @@
 ---
 source_file: "wiki/sections/ch08-pricing-attacks.md"
 type: "document"
-community: "Programmable Privacy & Midnight"
+community: "Core Concepts & Book Spine"
 location: "Pricing Attacks"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Programmable_Privacy__Midnight
+  - community/Core_Concepts__Book_Spine
 ---
 
 # Pricing Attacks
@@ -20,4 +20,4 @@ tags:
 - [[The Price of a Verdict]] - `references` [EXTRACTED]
 - [[The Social Layer]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Programmable_Privacy__Midnight
+#graphify/document #graphify/EXTRACTED #community/Core_Concepts__Book_Spine

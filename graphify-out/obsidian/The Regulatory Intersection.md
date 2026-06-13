@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch09-the-regulatory-intersection.md"
 type: "document"
-community: "Compliance & Deployment"
+community: "Privacy-Enhancing Technologies"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Compliance__Deployment
+  - community/Privacy-Enhancing_Technologies
 ---
 
 # The Regulatory Intersection
@@ -21,4 +21,4 @@ tags:
 - [[eIDAS 2.0]] - `defines` [EXTRACTED]
 - [[zKYC (Zero-Knowledge Know Your Customer)]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Compliance__Deployment
+#graphify/document #graphify/EXTRACTED #community/Privacy-Enhancing_Technologies

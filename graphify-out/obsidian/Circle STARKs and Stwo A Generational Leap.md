@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch06-circle-starks-and-stwo-a-generational-leap.md"
 type: "document"
-community: "zkVMs & STARK Stacks"
+community: "Core Concepts & Book Spine"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/zkVMs__STARK_Stacks
+  - community/Core_Concepts__Book_Spine
 ---
 
 # Circle STARKs and Stwo: A Generational Leap
@@ -29,4 +29,4 @@ tags:
 - [[The Three Families]] - `references` [EXTRACTED]
 - [[ZK Rollups The Proving Grounds (Production)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/zkVMs__STARK_Stacks
+#graphify/document #graphify/EXTRACTED #community/Core_Concepts__Book_Spine

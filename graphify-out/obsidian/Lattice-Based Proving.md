@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch07-lattice-based-proving.md"
 type: "document"
-community: "ZK Crypto Foundations"
+community: "Folding Genealogy & Post-Quantum"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/ZK_Crypto_Foundations
+  - community/Folding_Genealogy__Post-Quantum
 ---
 
 # Lattice-Based Proving
@@ -25,7 +25,7 @@ tags:
 - [[Neo (Lattice Folding over Small Fields)]] - `references` [EXTRACTED]
 - [[Nightstream What a Folding Engine Looks Like from the Inside]] - `references` [EXTRACTED]
 - [[Nova]] - `references` [EXTRACTED]
-- [[Post-Quantum Cryptography]] - `references` [EXTRACTED]
+- [[Post-Quantum Cryptography (NIST PQC standardization)]] - `references` [EXTRACTED]
 - [[Sumcheck Protocol]] - `references` [EXTRACTED]
 - [[Symphony]] - `references` [EXTRACTED]
 - [[The Cascade Effect]] - `references` [EXTRACTED]
@@ -35,4 +35,4 @@ tags:
 - [[The Trilemma -- And Its Dissolution]] - `references` [EXTRACTED]
 - [[Three Hardness Assumptions, Three Worlds]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/ZK_Crypto_Foundations
+#graphify/document #graphify/EXTRACTED #community/Folding_Genealogy__Post-Quantum

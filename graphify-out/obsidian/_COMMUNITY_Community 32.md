@@ -1,29 +1,35 @@
 ---
 type: community
-cohesion: 0.18
-members: 14
+cohesion: 0.14
+members: 20
 ---
 
 # Community 32
 
-**Cohesion:** 0.18 - loosely connected
-**Members:** 14 nodes
+**Cohesion:** 0.14 - loosely connected
+**Members:** 20 nodes
 
 ## Members
-- [[Complete Bibliography]] - document - wiki/BIBLIOGRAPHY.md
-- [[Ethereum]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Interactive Proof Systems]] - document - proving-nothing.md
-- [[Knowledge Complexity]] - document - references/ch01/ref-02-gmr-knowledge-complexity.pdf
-- [[Optimistic Rollups]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Powers-of-Tau Setup]] - document - references/ch02/ref-10-sok-powers-of-tau.pdf
-- [[Random Beacon Model]] - document - references/ch02/ref-05-mpc-random-beacon.pdf
-- [[SNARKs]] - document - wiki/sections/ch10-the-binary-that-broke.md
-- [[Scalable Multi-party Computation for zk-SNARK Parameters in the Random Beacon Model]] - paper - references/ch02/ref-05-mpc-random-beacon.pdf
-- [[SoK Trusted Setups for Powers-of-Tau Strings]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
-- [[SoK What Don't We Know Understanding Security Vulnerabilities in SNARKs]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
-- [[The Knowledge Complexity of Interactive Proof Systems]] - paper - references/ch01/ref-02-gmr-knowledge-complexity.pdf
-- [[Transaction Fee Mechanisms (TFM)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Unaligned Incentives Pricing Attacks Against Blockchain Rollups]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[Aligned Layer_1]] - document - wiki/sections/ch13-proving-as-a-service-the-prover-market-production.md
+- [[Canton Network]] - document - wiki/sections/ch13-enterprise-pilots-pilot.md
+- [[Chorus One The Economics of ZK-Proving (2025)]] - document - wiki/sections/ch13-market-sizing.md
+- [[DTCC (Depository Trust & Clearing Corporation)]] - document - wiki/sections/ch13-enterprise-pilots-pilot.md
+- [[Deutsche Bank (Project Guardian)]] - document - wiki/sections/ch13-enterprise-pilots-pilot.md
+- [[Enterprise Pilots (Pilot)]] - document - wiki/sections/ch13-enterprise-pilots-pilot.md
+- [[Grand View Research Zero-Knowledge Proof Market Size Report (2025)]] - document - wiki/sections/ch13-market-sizing.md
+- [[Humanity Protocol]] - document - wiki/sections/ch13-zk-identity-growth-regulatory-mandate.md
+- [[Market Sizing]] - document - wiki/sections/ch13-market-sizing.md
+- [[NVIDIA H100 GPU]] - document - wiki/sections/ch13-proving-as-a-service-the-prover-market-production.md
+- [[Partisia Blockchain]] - document - wiki/sections/ch13-enterprise-pilots-pilot.md
+- [[Proving-as-a-Service]] - document - wiki/sections/ch13-proving-as-a-service-the-prover-market-production.md
+- [[Proving-as-a-Service The Prover Market (Production)]] - document - wiki/sections/ch13-proving-as-a-service-the-prover-market-production.md
+- [[RISC Zero Boundless]] - document - wiki/sections/ch13-proving-as-a-service-the-prover-market-production.md
+- [[Succinct Network]] - document - wiki/sections/ch13-proving-as-a-service-the-prover-market-production.md
+- [[World (formerly Worldcoin)]] - document - wiki/sections/ch13-zk-identity-growth-regulatory-mandate.md
+- [[ZK Identity]] - document - wiki/chapters/13-the-market-landscape.md
+- [[ZK Identity (Growth  Regulatory Mandate)]] - document - wiki/sections/ch13-zk-identity-growth-regulatory-mandate.md
+- [[ZkCloud (formerly Gevulot)]] - document - wiki/sections/ch13-proving-as-a-service-the-prover-market-production.md
+- [[eIDAS 2.0]] - document - wiki/sections/ch09-the-regulatory-intersection.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -33,29 +39,16 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 11 edges to [[_COMMUNITY_Community 1]]
-- 8 edges to [[_COMMUNITY_Community 0]]
-- 5 edges to [[_COMMUNITY_Community 18]]
-- 2 edges to [[_COMMUNITY_Community 2]]
-- 2 edges to [[_COMMUNITY_Community 12]]
-- 2 edges to [[_COMMUNITY_Community 23]]
-- 2 edges to [[_COMMUNITY_Community 29]]
-- 2 edges to [[_COMMUNITY_Community 33]]
-- 2 edges to [[_COMMUNITY_Community 6]]
-- 1 edge to [[_COMMUNITY_Community 19]]
-- 1 edge to [[_COMMUNITY_Community 13]]
-- 1 edge to [[_COMMUNITY_Community 8]]
-- 1 edge to [[_COMMUNITY_Community 10]]
-- 1 edge to [[_COMMUNITY_Community 24]]
-- 1 edge to [[_COMMUNITY_Community 3]]
-- 1 edge to [[_COMMUNITY_Community 14]]
-- 1 edge to [[_COMMUNITY_Community 7]]
-- 1 edge to [[_COMMUNITY_Community 43]]
-- 1 edge to [[_COMMUNITY_Community 17]]
+- 19 edges to [[_COMMUNITY_Community 0]]
+- 6 edges to [[_COMMUNITY_Community 13]]
+- 4 edges to [[_COMMUNITY_Community 3]]
+- 2 edges to [[_COMMUNITY_Community 4]]
+- 2 edges to [[_COMMUNITY_Community 53]]
+- 2 edges to [[_COMMUNITY_Community 38]]
 
 ## Top bridge nodes
-- [[Complete Bibliography]] - degree 16, connects to 12 communities
-- [[SNARKs]] - degree 12, connects to 7 communities
-- [[Scalable Multi-party Computation for zk-SNARK Parameters in the Random Beacon Model]] - degree 9, connects to 4 communities
-- [[SoK What Don't We Know Understanding Security Vulnerabilities in SNARKs]] - degree 8, connects to 4 communities
-- [[The Knowledge Complexity of Interactive Proof Systems]] - degree 7, connects to 3 communities
+- [[Proving-as-a-Service The Prover Market (Production)]] - degree 14, connects to 4 communities
+- [[Market Sizing]] - degree 15, connects to 3 communities
+- [[ZK Identity (Growth  Regulatory Mandate)]] - degree 10, connects to 3 communities
+- [[Enterprise Pilots (Pilot)]] - degree 14, connects to 2 communities
+- [[eIDAS 2.0]] - degree 10, connects to 2 communities

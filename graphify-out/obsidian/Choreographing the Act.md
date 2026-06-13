@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/03-choreographing-the-act.md"
 type: "document"
-community: "zkVMs & STARK Stacks"
+community: "zkVM Design Philosophy"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/zkVMs__STARK_Stacks
+  - community/zkVM_Design_Philosophy
 ---
 
 # Choreographing the Act
@@ -56,4 +56,4 @@ tags:
 - [[Zero-Knowledge Virtual Machine (zkVM)]] - `references` [EXTRACTED]
 - [[zkEVM]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/zkVMs__STARK_Stacks
+#graphify/document #graphify/EXTRACTED #community/zkVM_Design_Philosophy

@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch01-the-trick.md"
 type: "document"
-community: "Programmable Privacy & Midnight"
+community: "Core Concepts & Book Spine"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Programmable_Privacy__Midnight
+  - community/Core_Concepts__Book_Spine
 ---
 
 # The Trick
@@ -16,4 +16,4 @@ tags:
 - [[The Proof at the Door]] - `references` [EXTRACTED]
 - [[The Seven Layers at a Glance]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Programmable_Privacy__Midnight
+#graphify/document #graphify/EXTRACTED #community/Core_Concepts__Book_Spine

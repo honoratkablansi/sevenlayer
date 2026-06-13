@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-20-latticefold.pdf"
 type: "document"
-community: "ZK Crypto Foundations"
+community: "Lattice Folding (LatticeFold)"
 location: "abstract"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/ZK_Crypto_Foundations
+  - community/Lattice_Folding_LatticeFold
 ---
 
 # Ajtai Commitment Scheme
@@ -21,4 +21,4 @@ tags:
 - [[Neo folding-friendly matrix commitment scheme (Ajtai with new embedding)]] - `conceptually_related_to` [EXTRACTED]
 - [[Neo Lattice-based Folding Scheme for CCS over Small Fields and Pay-per-bit Commitments]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/ZK_Crypto_Foundations
+#graphify/document #graphify/EXTRACTED #community/Lattice_Folding_LatticeFold

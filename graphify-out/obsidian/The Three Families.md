@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch06-the-three-families.md"
 type: "document"
-community: "ZK Crypto Foundations"
+community: "Core Concepts & Book Spine"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/ZK_Crypto_Foundations
+  - community/Core_Concepts__Book_Spine
 ---
 
 # The Three Families
@@ -27,7 +27,7 @@ tags:
 - [[Layer 5 -- The Sealed Certificate]] - `part_of` [EXTRACTED]
 - [[PLONK]] - `defines` [EXTRACTED]
 - [[PLONKish Arithmetization]] - `references` [EXTRACTED]
-- [[Post-Quantum Cryptography]] - `references` [EXTRACTED]
+- [[Post-Quantum Cryptography (NIST PQC standardization)]] - `references` [EXTRACTED]
 - [[Proving-as-a-Service The Prover Market (Production)]] - `references` [EXTRACTED]
 - [[STARK (Scalable Transparent ARgument of Knowledge)]] - `defines` [EXTRACTED]
 - [[Sealing the Certificate]] - `references` [EXTRACTED]
@@ -39,4 +39,4 @@ tags:
 - [[ZK Rollups The Proving Grounds (Production)]] - `references` [EXTRACTED]
 - [[Zcash]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/ZK_Crypto_Foundations
+#graphify/document #graphify/EXTRACTED #community/Core_Concepts__Book_Spine

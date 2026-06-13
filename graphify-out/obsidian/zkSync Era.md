@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch04-witness-constraint-divergence.md"
 type: "document"
-community: "ZK Bug Tooling"
+community: "zkVM Design Philosophy"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/ZK_Bug_Tooling
+  - community/zkVM_Design_Philosophy
 ---
 
 # zkSync Era
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[Witness-Constraint Divergence]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/ZK_Bug_Tooling
+#graphify/document #graphify/EXTRACTED #community/zkVM_Design_Philosophy

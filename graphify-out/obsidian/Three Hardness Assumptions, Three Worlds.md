@@ -1,12 +1,12 @@
 ---
 source_file: "wiki/sections/ch07-three-hardness-assumptions-three-worlds.md"
 type: "document"
-community: "ZK Crypto Foundations"
+community: "Folding Genealogy & Post-Quantum"
 location: "Three Hardness Assumptions, Three Worlds"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/ZK_Crypto_Foundations
+  - community/Folding_Genealogy__Post-Quantum
 ---
 
 # Three Hardness Assumptions, Three Worlds
@@ -25,10 +25,10 @@ tags:
 - [[PLONK]] - `references` [EXTRACTED]
 - [[Pedersen Commitments]] - `references` [EXTRACTED]
 - [[Poseidon Hash]] - `references` [EXTRACTED]
-- [[Post-Quantum Cryptography]] - `references` [EXTRACTED]
+- [[Post-Quantum Cryptography (NIST PQC standardization)]] - `references` [EXTRACTED]
 - [[The Laws That Break]] - `references` [EXTRACTED]
 - [[The Quantum Shelf Life]] - `references` [EXTRACTED]
 - [[The Quantum Threat Horizon]] - `references` [EXTRACTED]
 - [[The Trilemma -- And Its Dissolution]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/ZK_Crypto_Foundations
+#graphify/document #graphify/EXTRACTED #community/Folding_Genealogy__Post-Quantum

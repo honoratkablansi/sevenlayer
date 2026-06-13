@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch09-the-regulatory-intersection.md"
 type: "document"
-community: "Compliance & Deployment"
+community: "ZK Identity & Market"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Compliance__Deployment
+  - community/ZK_Identity__Market
 ---
 
 # eIDAS 2.0
@@ -22,4 +22,4 @@ tags:
 - [[The Three Frontiers]] - `references` [EXTRACTED]
 - [[ZK Identity (Growth  Regulatory Mandate)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Compliance__Deployment
+#graphify/document #graphify/EXTRACTED #community/ZK_Identity__Market

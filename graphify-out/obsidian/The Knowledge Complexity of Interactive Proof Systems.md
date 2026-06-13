@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch01/ref-02-gmr-knowledge-complexity.pdf"
 type: "paper"
-community: "Foundations & SoK Surveys"
+community: "SNARK Vulnerabilities & Foundations"
 tags:
   - graphify/paper
   - graphify/INFERRED
-  - community/Foundations__SoK_Surveys
+  - community/SNARK_Vulnerabilities__Foundations
 ---
 
 # The Knowledge Complexity of Interactive Proof Systems
@@ -19,4 +19,4 @@ tags:
 - [[The Promise of Provable and Programmable Secrets]] - `cites` [EXTRACTED]
 - [[Zero-Knowledge Proof]] - `defines` [INFERRED]
 
-#graphify/paper #graphify/INFERRED #community/Foundations__SoK_Surveys
+#graphify/paper #graphify/INFERRED #community/SNARK_Vulnerabilities__Foundations

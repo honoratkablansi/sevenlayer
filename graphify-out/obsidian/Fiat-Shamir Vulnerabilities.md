@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch06-fiat-shamir-vulnerabilities.md"
 type: "document"
-community: "ZK Crypto Foundations"
+community: "Core Concepts & Book Spine"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/ZK_Crypto_Foundations
+  - community/Core_Concepts__Book_Spine
 ---
 
 # Fiat-Shamir Vulnerabilities
@@ -24,4 +24,4 @@ tags:
 - [[The Three Families]] - `references` [EXTRACTED]
 - [[When the Transcript Lies Fiat-Shamir Vulnerabilities]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/ZK_Crypto_Foundations
+#graphify/document #graphify/EXTRACTED #community/Core_Concepts__Book_Spine

@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch07-case-study-midnight.md"
 type: "document"
-community: "ZK Crypto Foundations"
+community: "Bulletproofs & Range Proofs"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/ZK_Crypto_Foundations
+  - community/Bulletproofs__Range_Proofs
 ---
 
 # Pedersen Commitments
@@ -28,4 +28,4 @@ tags:
 - [[The Quantum Threat Horizon]] - `references` [EXTRACTED]
 - [[Three Hardness Assumptions, Three Worlds]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/ZK_Crypto_Foundations
+#graphify/document #graphify/EXTRACTED #community/Bulletproofs__Range_Proofs

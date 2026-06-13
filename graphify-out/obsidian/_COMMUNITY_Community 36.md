@@ -1,26 +1,34 @@
 ---
 type: community
-cohesion: 0.25
-members: 11
+cohesion: 0.15
+members: 19
 ---
 
 # Community 36
 
-**Cohesion:** 0.25 - loosely connected
-**Members:** 11 nodes
+**Cohesion:** 0.15 - loosely connected
+**Members:** 19 nodes
 
 ## Members
-- [[Apposcopy inter-component call graph (ICCG) abstraction]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[CirC Compiler Infrastructure]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
-- [[Circomspect Static Analyzer]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
-- [[Circuit Dependence Graph (CDG)]] - document - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[Circuit Dependence Graph (CDG) abstraction G=(V,Ed,Ec)]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[Constrained Horn Clause  Datalog query]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[Datalog-style CDG construction inference rules]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[Practical Security Analysis of Zero-Knowledge Proof Circuits]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[Static Analysis]] - document - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[ZKAP (static analyzer for ZKP circuits)]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[ZKAP evaluation on 258 Circom circuits (17 projects)]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
+- [[Ajtai Commitment Scheme]] - document - references/ch06/ref-20-latticefold.pdf
+- [[B-Bounded Ajtai Commitment Opening Relation RB_cm]] - paper - references/ch06/ref-20-latticefold.pdf
+- [[Base-b Witness Decomposition Step]] - paper - references/ch06/ref-20-latticefold.pdf
+- [[Expanded Evaluation Relation RB_eval]] - paper - references/ch06/ref-20-latticefold.pdf
+- [[Expansion-Decomposition-Folding Pipeline (Pi_mfold)]] - paper - references/ch06/ref-20-latticefold.pdf
+- [[Hypernova Folding Scheme (cited)]] - paper - references/ch06/ref-20-latticefold.pdf
+- [[LaBRADOR Lattice Proof System (cited)]] - paper - references/ch06/ref-20-latticefold.pdf
+- [[Lattice-Based CCS Folding Scheme]] - paper - references/ch06/ref-20-latticefold.pdf
+- [[Lattice-Based Committed CCS Relation RB_cmccs]] - paper - references/ch06/ref-20-latticefold.pdf
+- [[LatticeFold Lattice-Based Folding Scheme]] - paper - references/ch06/ref-20-latticefold.pdf
+- [[LatticeFold A Lattice-based Folding Scheme and its Applications to Succinct Proof Systems]] - paper - references/ch06/ref-20-latticefold.pdf
+- [[NTT  Coefficient Embedding over R_q]] - paper - references/ch06/ref-20-latticefold.pdf
+- [[Nova Folding Scheme (cited)]] - paper - references/ch06/ref-20-latticefold.pdf
+- [[Optimized Single-Sumcheck Batch Folding (Pi_batch)]] - paper - references/ch06/ref-20-latticefold.pdf
+- [[Performance Comparable to Hypernova on 64-bit Field]] - paper - references/ch06/ref-20-latticefold.pdf
+- [[Protostar Folding Scheme (cited)]] - paper - references/ch06/ref-20-latticefold.pdf
+- [[Small Prime Modulus via Extension Fields]] - paper - references/ch06/ref-20-latticefold.pdf
+- [[Sumcheck-Based Norm-Bound Range Check]] - paper - references/ch06/ref-20-latticefold.pdf
+- [[Theorem 3.1 LatticeFold Folding Reduction]] - paper - references/ch06/ref-20-latticefold.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -30,15 +38,22 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 5 edges to [[_COMMUNITY_Community 38]]
-- 4 edges to [[_COMMUNITY_Community 31]]
-- 1 edge to [[_COMMUNITY_Community 2]]
-- 1 edge to [[_COMMUNITY_Community 0]]
+- 7 edges to [[_COMMUNITY_Community 11]]
+- 6 edges to [[_COMMUNITY_Community 5]]
+- 4 edges to [[_COMMUNITY_Community 12]]
+- 4 edges to [[_COMMUNITY_Community 24]]
+- 3 edges to [[_COMMUNITY_Community 39]]
+- 2 edges to [[_COMMUNITY_Community 0]]
+- 2 edges to [[_COMMUNITY_Community 67]]
+- 1 edge to [[_COMMUNITY_Community 9]]
 - 1 edge to [[_COMMUNITY_Community 15]]
+- 1 edge to [[_COMMUNITY_Community 63]]
+- 1 edge to [[_COMMUNITY_Community 1]]
+- 1 edge to [[_COMMUNITY_Community 25]]
 
 ## Top bridge nodes
-- [[Practical Security Analysis of Zero-Knowledge Proof Circuits]] - degree 10, connects to 5 communities
-- [[Circuit Dependence Graph (CDG) abstraction G=(V,Ed,Ec)]] - degree 6, connects to 1 community
-- [[Circomspect Static Analyzer]] - degree 4, connects to 1 community
-- [[ZKAP evaluation on 258 Circom circuits (17 projects)]] - degree 3, connects to 1 community
-- [[CirC Compiler Infrastructure]] - degree 2, connects to 1 community
+- [[LatticeFold A Lattice-based Folding Scheme and its Applications to Succinct Proof Systems]] - degree 21, connects to 7 communities
+- [[LatticeFold Lattice-Based Folding Scheme]] - degree 9, connects to 4 communities
+- [[Ajtai Commitment Scheme]] - degree 8, connects to 3 communities
+- [[Expansion-Decomposition-Folding Pipeline (Pi_mfold)]] - degree 7, connects to 1 community
+- [[Lattice-Based CCS Folding Scheme]] - degree 5, connects to 1 community

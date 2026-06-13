@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/07-the-deep-craft.md"
 type: "document"
-community: "zkVMs & STARK Stacks"
+community: "Core Concepts & Book Spine"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/zkVMs__STARK_Stacks
+  - community/Core_Concepts__Book_Spine
 ---
 
 # FRI
@@ -67,4 +67,4 @@ tags:
 - [[ZKML Provable Machine Learning (Research)]] - `references` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/zkVMs__STARK_Stacks
+#graphify/document #graphify/EXTRACTED #community/Core_Concepts__Book_Spine

@@ -1,111 +1,66 @@
 ---
 type: community
-cohesion: 0.07
-members: 96
+cohesion: 0.06
+members: 51
 ---
 
 # Community 1
 
-**Cohesion:** 0.07 - loosely connected
-**Members:** 96 nodes
+**Cohesion:** 0.06 - loosely connected
+**Members:** 51 nodes
 
 ## Members
-- [[Aligned Layer]] - document - wiki/sections/ch08-proof-aggregation-the-missing-layer.md
-- [[Ariel Gabizon]] - document - wiki/sections/ch02-the-bug-that-was-not-a-ceremony-failure.md
-- [[BLS12-381 Curve]] - document - wiki/chapters/02-building-the-stage.md
-- [[BN254's Eroding Security Margin]] - document - wiki/sections/ch02-bn254-s-eroding-security-margin.md
-- [[Beanstalk Flash Loan Attack (April 2022)]] - document - wiki/sections/ch08-governance-the-achilles-heel.md
-- [[Beanstalk Flash Loan Governance Attack (April 2022)]] - document - proving-nothing.md
-- [[Cardano]] - document - wiki/sections/ch12-midnight-at-a-glance.md
-- [[Case Study Midnight and the Three-Token Architecture]] - document - wiki/sections/ch04-memory-the-binding-constraint.md
-- [[Celestia]] - document - wiki/sections/ch08-the-price-of-a-verdict.md
-- [[Chaliasos et al. Rollup Pricing Attacks Study (2025)]] - document - wiki/sections/ch08-pricing-attacks.md
-- [[Compact Language]] - document - wiki/chapters/03-choreographing-the-act.md
-- [[Compact Language Reference (Midnight Network)]] - document - references/ch12/ref-39-compact-language-reference.md
-- [[Compact's Disclosure Analysis]] - document - wiki/sections/ch03-compact-s-disclosure-analysis.md
-- [[DA-Saturation Attacks]] - document - proving-nothing.md
-- [[Data Availability]] - document - wiki/chapters/08-the-verdict.md
-- [[Disclosure Analysis (Compact compiler pass)]] - document - wiki/sections/ch03-the-four-philosophies.md
-- [[EIP-4844 Blob Transactions]] - document - wiki/sections/ch08-the-price-of-a-verdict.md
-- [[Elliptic Curve Cryptography]] - document - proving-nothing.md
-- [[Five Lessons for ZK System Design]] - document - wiki/sections/ch12-five-lessons-for-zk-system-design.md
-- [[Flash Loans]] - document - proving-nothing.md
-- [[Fraud Proof System]] - document - references/ch08/ref-27-l2beat-stages.md
-- [[Full Seven-Layer Mapping]] - document - wiki/sections/ch12-full-seven-layer-mapping.md
-- [[Governance The Achilles Heel]] - document - wiki/sections/ch08-governance-the-achilles-heel.md
-- [[Groth16]] - document - wiki/chapters/01-the-promise-of-provable-and-programmable-secrets.md
-- [[Halo]] - document - wiki/chapters/07-the-deep-craft.md
-- [[Halo 2]] - document - wiki/chapters/12-midnight-the-privacy-theater.md
-- [[How to Read This Guide]] - document - wiki/sections/ch01-how-to-read-this-guide.md
-- [[Jubjub curve]] - document - wiki/concepts/jubjub.md
-- [[L2BEAT Stages Framework]] - document - references/ch08/ref-27-l2beat-stages.md
-- [[L2BEAT Stages Framework for L2 Maturity]] - document - references/ch08/ref-27-l2beat-stages.md
-- [[L2Beat Stages Framework]] - document - wiki/sections/ch08-governance-the-achilles-heel.md
-- [[Layer 1 -- Building the Stage]] - document - wiki/chapters/02-building-the-stage.md
-- [[Layer 7 -- The Verdict]] - document - wiki/chapters/08-the-verdict.md
-- [[Midnight]] - document - wiki/chapters/02-building-the-stage.md
-- [[Midnight -- The Privacy Theater]] - document - wiki/chapters/12-midnight-the-privacy-theater.md
-- [[Midnight Developer Guide (Midnight Docs)]] - document - references/ch12/ref-41-midnight-developer-guide.md
-- [[Midnight as Test Case]] - document - wiki/sections/ch12-midnight-as-test-case.md
-- [[Midnight at a Glance]] - document - wiki/sections/ch12-midnight-at-a-glance.md
-- [[Midnight's BLS12-381 Stage]] - document - wiki/sections/ch02-midnight-s-bls12-381-stage.md
-- [[Midnight's ZKIR A Concrete Layer 4]] - document - wiki/sections/ch05-midnight-s-zkir-a-concrete-layer-4.md
-- [[Midnight Compiler, IR, Circuit]] - document - wiki/sections/ch03-midnight-compiler-ir-circuit.md
-- [[MidnightJS SDK]] - document - wiki/sections/ch12-full-seven-layer-mapping.md
-- [[NEBRA Universal Proof Aggregation]] - document - wiki/sections/ch08-proof-aggregation-the-missing-layer.md
-- [[NIST]] - document - wiki/sections/ch01-the-deepest-question.md
-- [[On-Chain Governance]] - document - proving-nothing.md
-- [[On-Chain Verification in 2026]] - document - wiki/sections/ch08-on-chain-verification-in-2026.md
-- [[Option-Value Analysis]] - document - wiki/sections/ch02-option-value-analysis.md
-- [[PLONK]] - document - wiki/GLOSSARY.md
-- [[Pricing Attacks]] - document - wiki/sections/ch08-pricing-attacks.md
-- [[Profiles of the Future (Arthur C. Clarke, 1962)]] - document - references/ch01/ref-01-clarke-profiles-of-the-future.md
-- [[Proof Aggregation]] - document - wiki/chapters/08-the-verdict.md
-- [[Proof Aggregation The Missing Layer]] - document - wiki/sections/ch08-proof-aggregation-the-missing-layer.md
-- [[Prover-Killer Attacks]] - document - proving-nothing.md
-- [[Proving Nothing]] - document - proving-nothing.md
-- [[SHARP (StarkWare Shared Prover)]] - document - wiki/sections/ch08-proof-aggregation-the-missing-layer.md
-- [[Scroll]] - document - wiki/sections/ch13-zk-rollups-the-proving-grounds-production.md
-- [[Seven-Layer ZK Stack Model]] - document - proving-nothing.md
-- [[Sevenlayer Wiki Index]] - document - wiki/INDEX.md
-- [[Structured Reference String (SRS)]] - document - proving-nothing.md
-- [[Sudoku running example]] - document - wiki/concepts/sudoku.md
-- [[The 141,416-Person Question]] - document - wiki/sections/ch02-the-141-416-person-question.md
-- [[The ADOPT Framework]] - document - wiki/sections/ch02-the-adopt-framework.md
-- [[The Bug That Was Not a Ceremony Failure]] - document - wiki/sections/ch02-the-bug-that-was-not-a-ceremony-failure.md
-- [[The CapexOpex Framework]] - document - wiki/sections/ch02-the-capex-opex-framework.md
-- [[The Deepest Question]] - document - wiki/sections/ch01-the-deepest-question.md
-- [[The Deepest Symmetry]] - document - wiki/sections/ch08-the-deepest-symmetry.md
-- [[The Disclose Boundary Midnight's Witness Architecture]] - document - wiki/sections/ch04-the-disclose-boundary-midnight-s-witness-architecture.md
-- [[The Fair Shuffle Problem]] - document - wiki/sections/ch02-the-fair-shuffle-problem.md
-- [[The First Decision]] - document - wiki/sections/ch01-the-first-decision.md
-- [[The Phenomenon]] - document - wiki/sections/ch01-the-phenomenon.md
-- [[The Price of a Verdict]] - document - wiki/sections/ch08-the-price-of-a-verdict.md
-- [[The Privacy Theater Analogy]] - document - wiki/sections/ch12-the-privacy-theater-analogy.md
-- [[The Promise of Provable and Programmable Secrets]] - document - wiki/chapters/01-the-promise-of-provable-and-programmable-secrets.md
-- [[The Proof at the Door]] - document - wiki/sections/ch01-the-proof-at-the-door.md
-- [[The Quantum Shelf Life]] - document - wiki/sections/ch02-the-quantum-shelf-life.md
-- [[The Setup Tradeoff]] - document - wiki/sections/ch02-the-setup-tradeoff.md
-- [[The Seven Layers at a Glance]] - document - wiki/sections/ch01-the-seven-layers-at-a-glance.md
-- [[The Social Layer]] - document - wiki/sections/ch08-the-social-layer.md
-- [[The Structured Reference String]] - document - wiki/sections/ch02-the-structured-reference-string.md
-- [[The Trick]] - document - wiki/sections/ch01-the-trick.md
-- [[Three Converging Forces]] - document - wiki/sections/ch01-three-converging-forces.md
-- [[Tornado Cash]] - document - wiki/chapters/03-choreographing-the-act.md
-- [[Tornado Cash Governance Attack (May 2023)]] - document - wiki/sections/ch08-governance-the-achilles-heel.md
-- [[Tornado Cash Governance Attack (May 2023)_1]] - document - proving-nothing.md
-- [[Toxic Waste (Setup Trapdoor)]] - document - proving-nothing.md
-- [[Trusted Setup Ceremony]] - document - wiki/sections/ch02-two-ways-to-build-a-stage.md
-- [[Two Ways to Build a Stage]] - document - wiki/sections/ch02-two-ways-to-build-a-stage.md
-- [[UTXO Model]] - document - wiki/sections/ch12-full-seven-layer-mapping.md
-- [[Universal versus Circuit-Specific Setups]] - document - wiki/sections/ch02-universal-versus-circuit-specific-setups.md
-- [[Upgradeable Proxy Pattern]] - document - proving-nothing.md
-- [[Vitalik Buterin]] - document - references/ch08/ref-27-l2beat-stages.md
-- [[Where Midnight Challenges the Model]] - document - wiki/sections/ch12-where-midnight-challenges-the-model.md
-- [[Where Midnight Validates the Model]] - document - wiki/sections/ch12-where-midnight-validates-the-model.md
-- [[Who Verifies the Verifier]] - document - wiki/sections/ch08-who-verifies-the-verifier.md
-- [[ZKIR (Midnight Intermediate Representation)]] - document - wiki/chapters/03-choreographing-the-act.md
-- [[ZKIR Intermediate Representation Reference (Midnight Network, stub)]] - document - references/ch12/ref-40-zkir-reference.md
+- [[Approximate range proof RoK Pi_rg for ring vectors (Thm 3.1) via random projection + monomial lookup]] - paper - references/ch10/ref-56-symphony.pdf
+- [[Boneh-Goh-Nissim evaluating 2-DNF formulas on ciphertexts 11]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Bootstrappable encryption scheme that can evaluate its own (augmented) decryption circuit]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Bootstrapping (FHE)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Bootstrapping theorem any bootstrappable scheme yields leveled FHE family {E(d)} (Thm 1,3)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Circuit privacy via RandomizeCT (add encryption of 0 with super-polynomially larger error)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Closest vector problem  lattice reduction (LLL)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Commit-and-Open Fiat-Shamir transform FSHPi_cm,Pi_rok (Thm 5.1) over compressed transcript]] - paper - references/ch10/ref-56-symphony.pdf
+- [[Commit-and-prove compiler from RoK to SNARK without FS in circuit (Construction 6.1, Thm 6.1)]] - paper - references/ch10/ref-56-symphony.pdf
+- [[Craig Gentry]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Decisional CVP for ideal lattices in a fixed ring (bounded-distance decoding hardness underlying E1)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Efficiency 200KB proof (PQ), prover dominated by witness commitment, O(loglog n) data passes, O(n) memory]] - paper - references/ch10/ref-56-symphony.pdf
+- [[Error-vector growth bounds evaluation depth ~ (c1-c2) log n (Thm 6, Thm 8; expansion factor gamma_Mult)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Fully Homomorphic Encryption Using Ideal Lattices]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Goldwasser-Micali first semantically secure (additively) homomorphic scheme 23]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Halo BGH19 (origin of accumulationfolding, cited prior work)]] - paper - references/ch10/ref-56-symphony.pdf
+- [[High-arity folding (fold many NP statements per step, no deep folding trees)]] - paper - references/ch10/ref-56-symphony.pdf
+- [[Homomorphic encryption (Evaluate over encrypted data without decrypting)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Ideal Coset Problem (ICP) decide if t is near-lattice (Samp1) or uniform mod J; security of E1 (Def.10, Thm 7)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Ideal lattices (ideals of Zxf(x) as lattices; rotation basis)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[KDM-security  circular security (self-loop of encrypted secret keys yields true FHE)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[LaBRADOR BS23 (lattice argument, random projection, challenge set, cited prior work)]] - paper - references/ch10/ref-56-symphony.pdf
+- [[Lattice-based cryptography]] - paper - references/ch10/ref-56-symphony.pdf
+- [[Lattice-based high-arity folding scheme Pi_fold (Thm 4.1) compressing l_np R1CS statements in one shot]] - paper - references/ch10/ref-56-symphony.pdf
+- [[LatticeFold BC24 (lattice folding & decomposition RoK, cited prior work)]] - paper - references/ch10/ref-56-symphony.pdf
+- [[LatticeFold+ BC25 (monomial embedding & exact range proof, cited prior work)]] - paper - references/ch10/ref-56-symphony.pdf
+- [[Module-Ajtai binding commitment (Construction 2.1) with strictrelaxed openings]] - paper - references/ch10/ref-56-symphony.pdf
+- [[Monomial-embedding RoK Pi_mon (Lemma 3.1) reducing monomial check to linear statement]] - paper - references/ch10/ref-56-symphony.pdf
+- [[NTRU ring-based public-key cryptosystem (ideal-lattice cryptography precedent) 25]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Neo NS25 (lattice SNARK; Hadamard sumcheck and single-instance encoding, cited prior work)]] - paper - references/ch10/ref-56-symphony.pdf
+- [[Performance counterbalanced assumptions; gamma_subset=sqrt(n), n~=lambda2, breaking time ~2sqrt(n)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Plausibly post-quantum security from lattice MSIS hardness]] - paper - references/ch10/ref-56-symphony.pdf
+- [[Protostar BC23 (commit-and-open  accumulation, cited prior work)]] - paper - references/ch10/ref-56-symphony.pdf
+- [[Random oracle model (non-interactive STARK  NIROP)]] - paper - references/ch02/ref-08-stark.pdf
+- [[Random projection for norm preservation (J in {0,+-1}, ell2-norm preserved mod q)]] - paper - references/ch10/ref-56-symphony.pdf
+- [[Recrypt homomorphically evaluate decryption circuit on encrypted secret-key bits to refresh ciphertext error]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Reduction of Knowledge]] - paper - references/ch06/ref-20-latticefold.pdf
+- [[Rivest-Adleman-Dertouzos 1978 privacy homomorphisms (original FHE open problem) 54]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[RoK Pi_had reducing batched HadamardR1CS relation to linear relation (Prop 3.1)]] - paper - references/ch10/ref-56-symphony.pdf
+- [[Scheme E2 tweaks (narrow C_E to B(rDec2); replace matrix-vector by ring mult v_Jsk x psi) lowering decryption depth]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Scheme E3 squashed E2 with hidden sparse subset; bootstrappable and semantically secure (Thm 2, Thm 11)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Somewhat-homomorphic scheme E1 over ideal lattices (ciphertext v+x; ring addmult mod B_Jpk)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Sparse Subset Sum Problem (SSSP)  SplitKey Distinguishing Problem second hardness assumption from tau in public key]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Squashing the decryption circuit SplitKeyExpandCT shift work to encrypter so Decrypt sums only sub-linear vectors (E3)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Straightline extractability of commitment (enables tighter ROM reduction)]] - paper - references/ch10/ref-56-symphony.pdf
+- [[Symphony Scalable SNARKs in the Random Oracle Model from Lattice-Based High-Arity Folding]] - paper - references/ch10/ref-56-symphony.pdf
+- [[Symphony scalable SNARK in the ROM from high-arity folding]] - paper - references/ch10/ref-56-symphony.pdf
+- [[Tensor-of-rings E = K (x) Rq enabling interleaved sumcheck and folding]] - paper - references/ch10/ref-56-symphony.pdf
+- [[Three-step FHE blueprint SWHE - squash decryption - bootstrap to fully homomorphic]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Transparent random oracle RO_0RO_1 (programmable weakening; simulator learns r)]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
+- [[Two-layer folding via splitting linear-statement RoK (§8), under stronger structured-MSIS]] - paper - references/ch10/ref-56-symphony.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -115,34 +70,23 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 199 edges to [[_COMMUNITY_Community 0]]
-- 124 edges to [[_COMMUNITY_Community 2]]
-- 41 edges to [[_COMMUNITY_Community 10]]
-- 24 edges to [[_COMMUNITY_Community 22]]
-- 11 edges to [[_COMMUNITY_Community 32]]
-- 11 edges to [[_COMMUNITY_Community 30]]
-- 9 edges to [[_COMMUNITY_Community 23]]
-- 8 edges to [[_COMMUNITY_Community 29]]
-- 4 edges to [[_COMMUNITY_Community 18]]
+- 6 edges to [[_COMMUNITY_Community 5]]
+- 4 edges to [[_COMMUNITY_Community 0]]
 - 4 edges to [[_COMMUNITY_Community 12]]
-- 4 edges to [[_COMMUNITY_Community 6]]
-- 3 edges to [[_COMMUNITY_Community 33]]
-- 3 edges to [[_COMMUNITY_Community 40]]
-- 2 edges to [[_COMMUNITY_Community 9]]
-- 2 edges to [[_COMMUNITY_Community 38]]
-- 1 edge to [[_COMMUNITY_Community 39]]
-- 1 edge to [[_COMMUNITY_Community 19]]
-- 1 edge to [[_COMMUNITY_Community 13]]
+- 4 edges to [[_COMMUNITY_Community 13]]
+- 4 edges to [[_COMMUNITY_Community 39]]
+- 4 edges to [[_COMMUNITY_Community 11]]
+- 1 edge to [[_COMMUNITY_Community 4]]
+- 1 edge to [[_COMMUNITY_Community 28]]
+- 1 edge to [[_COMMUNITY_Community 23]]
+- 1 edge to [[_COMMUNITY_Community 15]]
+- 1 edge to [[_COMMUNITY_Community 36]]
 - 1 edge to [[_COMMUNITY_Community 8]]
-- 1 edge to [[_COMMUNITY_Community 5]]
-- 1 edge to [[_COMMUNITY_Community 11]]
-- 1 edge to [[_COMMUNITY_Community 35]]
-- 1 edge to [[_COMMUNITY_Community 41]]
-- 1 edge to [[_COMMUNITY_Community 3]]
+- 1 edge to [[_COMMUNITY_Community 27]]
 
 ## Top bridge nodes
-- [[Layer 1 -- Building the Stage]] - degree 56, connects to 12 communities
-- [[Groth16]] - degree 69, connects to 11 communities
-- [[PLONK]] - degree 51, connects to 8 communities
-- [[The Promise of Provable and Programmable Secrets]] - degree 49, connects to 8 communities
-- [[Midnight]] - degree 63, connects to 7 communities
+- [[Symphony Scalable SNARKs in the Random Oracle Model from Lattice-Based High-Arity Folding]] - degree 22, connects to 5 communities
+- [[Fully Homomorphic Encryption Using Ideal Lattices]] - degree 12, connects to 3 communities
+- [[Lattice-based cryptography]] - degree 7, connects to 3 communities
+- [[Reduction of Knowledge]] - degree 6, connects to 2 communities
+- [[Lattice-based high-arity folding scheme Pi_fold (Thm 4.1) compressing l_np R1CS statements in one shot]] - degree 9, connects to 1 community

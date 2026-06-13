@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch06-real-time-ethereum-proving.md"
 type: "document"
-community: "zkVMs & STARK Stacks"
+community: "Core Concepts & Book Spine"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/zkVMs__STARK_Stacks
+  - community/Core_Concepts__Book_Spine
 ---
 
 # Real-Time Ethereum Proving
@@ -22,4 +22,4 @@ tags:
 - [[The Hybrid Pipeline]] - `references` [EXTRACTED]
 - [[The Three Frontiers]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/zkVMs__STARK_Stacks
+#graphify/document #graphify/EXTRACTED #community/Core_Concepts__Book_Spine

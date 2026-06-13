@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-21-neo.pdf"
 type: "paper"
-community: "Lattice Folding (Neo)"
+community: "Lattice Folding (LatticeFold+)"
 location: "§1.5"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Lattice_Folding_Neo
+  - community/Lattice_Folding_LatticeFold
 ---
 
 # Lattice IVC/PCD with Spartan+FRI proof compression, no curve cycles
@@ -16,4 +16,4 @@ tags:
 - [[IVC  Proof-Carrying Data]] - `conceptually_related_to` [EXTRACTED]
 - [[Neo Lattice-based Folding Scheme for CCS over Small Fields and Pay-per-bit Commitments]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Lattice_Folding_Neo
+#graphify/paper #graphify/EXTRACTED #community/Lattice_Folding_LatticeFold

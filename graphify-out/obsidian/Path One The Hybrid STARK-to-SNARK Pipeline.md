@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch10-path-one-the-hybrid-stark-to-snark-pipeline.md"
 type: "document"
-community: "zkVMs & STARK Stacks"
+community: "zkVM & STARK Stacks"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/zkVMs__STARK_Stacks
+  - community/zkVM__STARK_Stacks
 ---
 
 # Path One: The Hybrid STARK-to-SNARK Pipeline
@@ -19,7 +19,7 @@ tags:
 - [[Mersenne-31  M31]] - `conceptually_related_to` [EXTRACTED]
 - [[Performance The Cost Collapse]] - `references` [EXTRACTED]
 - [[Pico Prism]] - `references` [EXTRACTED]
-- [[Post-Quantum Cryptography]] - `conceptually_related_to` [EXTRACTED]
+- [[Post-Quantum Cryptography (NIST PQC standardization)]] - `conceptually_related_to` [EXTRACTED]
 - [[RISC Zero]] - `references` [EXTRACTED]
 - [[SP1  SP1 Hypercube]] - `references` [EXTRACTED]
 - [[STARK (Scalable Transparent ARgument of Knowledge)]] - `conceptually_related_to` [EXTRACTED]
@@ -30,4 +30,4 @@ tags:
 - [[Trusted Setup]] - `conceptually_related_to` [EXTRACTED]
 - [[ZisK]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/zkVMs__STARK_Stacks
+#graphify/document #graphify/EXTRACTED #community/zkVM__STARK_Stacks

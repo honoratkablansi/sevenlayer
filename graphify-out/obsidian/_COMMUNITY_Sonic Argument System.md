@@ -30,9 +30,9 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 4 edges to [[_COMMUNITY_Universal SRS & Ceremonies]]
+- 4 edges to [[_COMMUNITY_Universal SRS & Sonic]]
 - 1 edge to [[_COMMUNITY_Arithmetization & CCS]]
-- 1 edge to [[_COMMUNITY_PLONK & Permutation Arguments]]
+- 1 edge to [[_COMMUNITY_Trusted Setup Ceremonies]]
 - 1 edge to [[_COMMUNITY_AGM Ceremony Soundness]]
 
 ## Top bridge nodes

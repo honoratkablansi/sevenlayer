@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch13/ref-42-gvr-zkp-market-report.md"
 type: "document"
-community: "zkVMs & STARK Stacks"
+community: "zkEVM & Real-Time Proving"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/zkVMs__STARK_Stacks
+  - community/zkEVM__Real-Time_Proving
 ---
 
 # Zero-Knowledge Proof Market Size, Share & Trends Analysis Report (Grand View Research)
@@ -16,4 +16,4 @@ tags:
 - [[zk-SNARK]] - `references` [EXTRACTED]
 - [[zkEVM]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/zkVMs__STARK_Stacks
+#graphify/document #graphify/EXTRACTED #community/zkEVM__Real-Time_Proving

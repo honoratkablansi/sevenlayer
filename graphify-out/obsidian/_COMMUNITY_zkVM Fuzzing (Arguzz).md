@@ -45,9 +45,9 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 6 edges to [[_COMMUNITY_zkVMs & STARK Stacks]]
-- 2 edges to [[_COMMUNITY_Programmable Privacy & Midnight]]
-- 1 edge to [[_COMMUNITY_KZG Polynomial Commitments]]
+- 6 edges to [[_COMMUNITY_zkVM Design Philosophy]]
+- 2 edges to [[_COMMUNITY_Core Concepts & Book Spine]]
+- 1 edge to [[_COMMUNITY_Succinct Arguments & Streaming PIOPs]]
 - 1 edge to [[_COMMUNITY_Small-Space Proving (TwistShout)]]
 
 ## Top bridge nodes

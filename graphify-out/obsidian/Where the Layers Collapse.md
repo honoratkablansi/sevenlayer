@@ -1,12 +1,12 @@
 ---
 source_file: "wiki/sections/ch05-ccs-the-rosetta-stone.md"
 type: "document"
-community: "Sumcheck & Proving Overhead"
+community: "Arithmetization & CCS"
 location: "Dependencies"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Sumcheck__Proving_Overhead
+  - community/Arithmetization__CCS
 ---
 
 # Where the Layers Collapse
@@ -33,4 +33,4 @@ tags:
 - [[The Sumcheck Protocol The Hidden Foundation]] - `references` [EXTRACTED]
 - [[Where the Analogies Break]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Sumcheck__Proving_Overhead
+#graphify/document #graphify/EXTRACTED #community/Arithmetization__CCS

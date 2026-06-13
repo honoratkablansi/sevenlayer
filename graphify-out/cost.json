@@ -19,8 +19,15 @@
       "output_tokens": 0,
       "files": 18,
       "note": "deepen_pdfs batch 2 (dense-crypto subset) - measured subagent tokens (combined in+out across 18 extraction agents)"
+    },
+    {
+      "date": "2026-06-13T05:20:34.447604+00:00",
+      "input_tokens": 1644885,
+      "output_tokens": 0,
+      "files": 18,
+      "note": "deepen_pdfs batch 3 (deferred papers) - measured subagent tokens; 17 of 18 readable (GMR ref-02 is an image-only scan, left shallow)"
     }
   ],
-  "total_input_tokens": 3666867,
+  "total_input_tokens": 5311752,
   "total_output_tokens": 239400
 }

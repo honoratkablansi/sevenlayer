@@ -1,84 +1,154 @@
 {
   "colorGroups": [
     {
-      "query": "tag:#community/ZK_Crypto_Foundations",
+      "query": "tag:#community/Core_Concepts_&_Book_Spine",
       "color": {
         "a": 1,
         "rgb": 5142951
       }
     },
     {
-      "query": "tag:#community/Programmable_Privacy_&_Midnight",
+      "query": "tag:#community/FHE_&_Lattice_Folding_(Symphony)",
       "color": {
         "a": 1,
         "rgb": 15896107
       }
     },
     {
-      "query": "tag:#community/zkVMs_&_STARK_Stacks",
+      "query": "tag:#community/Private_Contracts_&_Rollup_Economics",
       "color": {
         "a": 1,
         "rgb": 14767961
       }
     },
     {
-      "query": "tag:#community/Nova_Folding_&_IVC",
+      "query": "tag:#community/zkVM_&_STARK_Stacks",
       "color": {
         "a": 1,
         "rgb": 7780274
       }
     },
     {
-      "query": "tag:#community/Lattice_Folding_(Symphony)",
+      "query": "tag:#community/zkVM_Design_Philosophy",
       "color": {
         "a": 1,
         "rgb": 5873999
       }
     },
     {
-      "query": "tag:#community/Lattice_Folding_(Neo)",
+      "query": "tag:#community/Arithmetization_&_CCS",
       "color": {
         "a": 1,
         "rgb": 15583560
       }
     },
     {
-      "query": "tag:#community/Universal_SRS_&_Ceremonies",
+      "query": "tag:#community/Trusted_Setup_Ceremonies",
       "color": {
         "a": 1,
         "rgb": 11565729
       }
     },
     {
-      "query": "tag:#community/Circle_STARKs",
+      "query": "tag:#community/Bulletproofs_&_Range_Proofs",
       "color": {
         "a": 1,
         "rgb": 16752039
       }
     },
     {
-      "query": "tag:#community/Bulletproofs_&_Range_Proofs",
+      "query": "tag:#community/Universal_SRS_&_Sonic",
       "color": {
         "a": 1,
         "rgb": 10253663
       }
     },
     {
-      "query": "tag:#community/zkVM_Fuzzing_(Arguzz)",
+      "query": "tag:#community/ProtoStar_Accumulation",
       "color": {
         "a": 1,
         "rgb": 12234924
       }
     },
     {
-      "query": "tag:#community/Arithmetization_&_CCS",
+      "query": "tag:#community/Circuit_Verification_(Coda)",
       "color": {
         "a": 1,
         "rgb": 5142951
       }
     },
     {
+      "query": "tag:#community/Lattice_Folding_(Neo)",
+      "color": {
+        "a": 1,
+        "rgb": 15896107
+      }
+    },
+    {
+      "query": "tag:#community/Folding_Genealogy_&_Post-Quantum",
+      "color": {
+        "a": 1,
+        "rgb": 14767961
+      }
+    },
+    {
+      "query": "tag:#community/Privacy-Enhancing_Technologies",
+      "color": {
+        "a": 1,
+        "rgb": 7780274
+      }
+    },
+    {
+      "query": "tag:#community/World_&_Proof_of_Personhood",
+      "color": {
+        "a": 1,
+        "rgb": 5873999
+      }
+    },
+    {
+      "query": "tag:#community/STARK_Foundations",
+      "color": {
+        "a": 1,
+        "rgb": 15583560
+      }
+    },
+    {
+      "query": "tag:#community/Circle_STARKs",
+      "color": {
+        "a": 1,
+        "rgb": 11565729
+      }
+    },
+    {
+      "query": "tag:#community/zkVM_Fuzzing_(Arguzz)",
+      "color": {
+        "a": 1,
+        "rgb": 16752039
+      }
+    },
+    {
+      "query": "tag:#community/Circuit_Static_Analysis_(ZKAP)",
+      "color": {
+        "a": 1,
+        "rgb": 10253663
+      }
+    },
+    {
+      "query": "tag:#community/Groth16_&_Pairing_SNARKs",
+      "color": {
+        "a": 1,
+        "rgb": 12234924
+      }
+    },
+    {
       "query": "tag:#community/Algebraic_RAM_Proofs",
+      "color": {
+        "a": 1,
+        "rgb": 5142951
+      }
+    },
+    {
+      "query": "tag:#community/eIDAS_&_Digital_Identity",
       "color": {
         "a": 1,
         "rgb": 15896107
@@ -92,28 +162,28 @@
       }
     },
     {
-      "query": "tag:#community/STARK_Foundations",
+      "query": "tag:#community/Lattice_Functional_Commitments",
       "color": {
         "a": 1,
         "rgb": 7780274
       }
     },
     {
-      "query": "tag:#community/HyperNova_Multifolding",
+      "query": "tag:#community/Recursive_Proofs_&_IVC",
       "color": {
         "a": 1,
         "rgb": 5873999
       }
     },
     {
-      "query": "tag:#community/Circuit_Verification_(Coda)",
+      "query": "tag:#community/Lattice_Folding_(LatticeFold+)",
       "color": {
         "a": 1,
         "rgb": 15583560
       }
     },
     {
-      "query": "tag:#community/Lattice_Functional_Commitments",
+      "query": "tag:#community/ML-KEM_(FIPS_203)",
       "color": {
         "a": 1,
         "rgb": 11565729
@@ -127,49 +197,119 @@
       }
     },
     {
-      "query": "tag:#community/Groth16_&_Pairing_SNARKs",
+      "query": "tag:#community/CirC_Compiler_Infrastructure",
       "color": {
         "a": 1,
         "rgb": 10253663
       }
     },
     {
-      "query": "tag:#community/KZG_Polynomial_Commitments",
+      "query": "tag:#community/Under-Constrained_Detection_(QED2)",
       "color": {
         "a": 1,
         "rgb": 12234924
       }
     },
     {
-      "query": "tag:#community/Small-Space_Proving_(Twist/Shout)",
+      "query": "tag:#community/KZG_Polynomial_Commitments",
       "color": {
         "a": 1,
         "rgb": 5142951
       }
     },
     {
-      "query": "tag:#community/CirC_Compiler_Infrastructure",
+      "query": "tag:#community/ML-DSA_(FIPS_204)",
       "color": {
         "a": 1,
         "rgb": 15896107
       }
     },
     {
-      "query": "tag:#community/Witness_Generation_&_Hardware",
+      "query": "tag:#community/ZK_Identity_&_Market",
       "color": {
         "a": 1,
         "rgb": 14767961
       }
     },
     {
-      "query": "tag:#community/ZK_Identity_&_Enterprise",
+      "query": "tag:#community/Shor's_Quantum_Algorithms",
       "color": {
         "a": 1,
         "rgb": 7780274
       }
     },
     {
+      "query": "tag:#community/SNARK_Vulnerabilities_&_Foundations",
+      "color": {
+        "a": 1,
+        "rgb": 5873999
+      }
+    },
+    {
+      "query": "tag:#community/zkVM_Compiler_Optimization",
+      "color": {
+        "a": 1,
+        "rgb": 15583560
+      }
+    },
+    {
+      "query": "tag:#community/Lattice_Folding_(LatticeFold)",
+      "color": {
+        "a": 1,
+        "rgb": 11565729
+      }
+    },
+    {
+      "query": "tag:#community/Witness_Generation_&_Hashing",
+      "color": {
+        "a": 1,
+        "rgb": 16752039
+      }
+    },
+    {
+      "query": "tag:#community/Privacy_Pools_&_Zerocash",
+      "color": {
+        "a": 1,
+        "rgb": 10253663
+      }
+    },
+    {
+      "query": "tag:#community/Sumcheck_SNARKs_(SuperSpartan)",
+      "color": {
+        "a": 1,
+        "rgb": 12234924
+      }
+    },
+    {
+      "query": "tag:#community/MPC_Powers-of-Tau_Ceremony",
+      "color": {
+        "a": 1,
+        "rgb": 5142951
+      }
+    },
+    {
+      "query": "tag:#community/Extended_Tower_NFS",
+      "color": {
+        "a": 1,
+        "rgb": 15896107
+      }
+    },
+    {
+      "query": "tag:#community/Bitcoin_Quantum_Risk_(HNDL)",
+      "color": {
+        "a": 1,
+        "rgb": 14767961
+      }
+    },
+    {
       "query": "tag:#community/Jolt_Lookup_zkVM",
+      "color": {
+        "a": 1,
+        "rgb": 7780274
+      }
+    },
+    {
+      "query": "tag:#community/Small-Space_Proving_(Twist/Shout)",
       "color": {
         "a": 1,
         "rgb": 5873999
@@ -183,133 +323,133 @@
       }
     },
     {
-      "query": "tag:#community/Sumcheck_SNARKs_(CCS/Lattice)",
+      "query": "tag:#community/PQC_Transition_(NIST_IR_8547)",
       "color": {
         "a": 1,
         "rgb": 11565729
       }
     },
     {
-      "query": "tag:#community/Updatable_CRS_Theory",
+      "query": "tag:#community/Pairing_Curve_Efficiency",
       "color": {
         "a": 1,
         "rgb": 16752039
       }
     },
     {
-      "query": "tag:#community/QED2_Detection_Algorithm",
+      "query": "tag:#community/Harvest-Now-Decrypt-Later",
       "color": {
         "a": 1,
         "rgb": 10253663
       }
     },
     {
-      "query": "tag:#community/Privacy-Enhancing_Technologies",
+      "query": "tag:#community/zkEVM_&_Real-Time_Proving",
       "color": {
         "a": 1,
         "rgb": 12234924
-      }
-    },
-    {
-      "query": "tag:#community/Sumcheck_&_Proving_Overhead",
-      "color": {
-        "a": 1,
-        "rgb": 5142951
-      }
-    },
-    {
-      "query": "tag:#community/Circom_Vulnerability_Taxonomy",
-      "color": {
-        "a": 1,
-        "rgb": 15896107
-      }
-    },
-    {
-      "query": "tag:#community/Foundations_&_SoK_Surveys",
-      "color": {
-        "a": 1,
-        "rgb": 14767961
-      }
-    },
-    {
-      "query": "tag:#community/Compliance_&_Deployment",
-      "color": {
-        "a": 1,
-        "rgb": 7780274
-      }
-    },
-    {
-      "query": "tag:#community/Memory_Checking_&_Sparse_PCS",
-      "color": {
-        "a": 1,
-        "rgb": 5873999
       }
     },
     {
       "query": "tag:#community/AGM_Ceremony_Soundness",
       "color": {
         "a": 1,
-        "rgb": 15583560
-      }
-    },
-    {
-      "query": "tag:#community/Circuit_Static_Analysis_(ZKAP)",
-      "color": {
-        "a": 1,
-        "rgb": 11565729
-      }
-    },
-    {
-      "query": "tag:#community/Sonic_Argument_System",
-      "color": {
-        "a": 1,
-        "rgb": 16752039
-      }
-    },
-    {
-      "query": "tag:#community/Under-Constrained_Circuits_(Picus)",
-      "color": {
-        "a": 1,
-        "rgb": 10253663
-      }
-    },
-    {
-      "query": "tag:#community/Proof_of_Personhood_&_eIDAS",
-      "color": {
-        "a": 1,
-        "rgb": 12234924
-      }
-    },
-    {
-      "query": "tag:#community/ZK_Bug_Tooling",
-      "color": {
-        "a": 1,
         "rgb": 5142951
       }
     },
     {
-      "query": "tag:#community/Fully_Homomorphic_Encryption",
+      "query": "tag:#community/Memory_Checking_&_Sparse_PCS",
       "color": {
         "a": 1,
         "rgb": 15896107
       }
     },
     {
-      "query": "tag:#community/Pairing_Curve_Security",
+      "query": "tag:#community/Sonic_Argument_System",
       "color": {
         "a": 1,
         "rgb": 14767961
       }
     },
     {
-      "query": "tag:#community/Knowledge-of-Exponent_Assumptions",
+      "query": "tag:#community/ZKML_&_Coprocessors",
       "color": {
         "a": 1,
         "rgb": 7780274
       }
     },
     {
-      "query": "tag:#community/KZG_Batch_Opening",
+      "query": "tag:#community/Nova_Folding_Scheme",
+      "color": {
+        "a": 1,
+        "rgb": 5873999
+      }
+    },
+    {
+      "query": "tag:#community/Shor_Factoring_Internals",
+      "color": {
+        "a": 1,
+        "rgb": 15583560
+      }
+    },
+    {
+      "query": "tag:#community/Nova_IVC_Construction",
+      "color": {
+        "a": 1,
+        "rgb": 11565729
+      }
+    },
+    {
+      "query": "tag:#community/Privacy_Pools_Compliance",
+      "color": {
+        "a": 1,
+        "rgb": 16752039
+      }
+    },
+    {
+      "query": "tag:#community/Succinct_Arguments_&_Streaming_PIOPs",
+      "color": {
+        "a": 1,
+        "rgb": 10253663
+      }
+    },
+    {
+      "query": "tag:#community/BN_Curve_Pairing_Security",
+      "color": {
+        "a": 1,
+        "rgb": 12234924
+      }
+    },
+    {
+      "query": "tag:#community/Subversion-Resistant_CRS",
+      "color": {
+        "a": 1,
+        "rgb": 5142951
+      }
+    },
+    {
+      "query": "tag:#community/Composite-Order_Pairings",
+      "color": {
+        "a": 1,
+        "rgb": 15896107
+      }
+    },
+    {
+      "query": "tag:#community/Knowledge-of-Exponent_Assumptions",
+      "color": {
+        "a": 1,
+        "rgb": 14767961
+      }
+    },
+    {
+      "query": "tag:#community/Jolt_Instruction_Tables",
+      "color": {
+        "a": 1,
+        "rgb": 7780274
+      }
+    },
+    {
+      "query": "tag:#community/Ceremonial_SNARK_Model",
       "color": {
         "a": 1,
         "rgb": 5873999
@@ -323,10 +463,31 @@
       }
     },
     {
-      "query": "tag:#community/Improvement_Backlog",
+      "query": "tag:#community/Small-Space_CPU_Proofs",
       "color": {
         "a": 1,
         "rgb": 11565729
+      }
+    },
+    {
+      "query": "tag:#community/Lattice_Folding_Soundness",
+      "color": {
+        "a": 1,
+        "rgb": 16752039
+      }
+    },
+    {
+      "query": "tag:#community/Asset_Tokenization_(DTCC)",
+      "color": {
+        "a": 1,
+        "rgb": 10253663
+      }
+    },
+    {
+      "query": "tag:#community/Improvement_Backlog",
+      "color": {
+        "a": 1,
+        "rgb": 12234924
       }
     }
   ]

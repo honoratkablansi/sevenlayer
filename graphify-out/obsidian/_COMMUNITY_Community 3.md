@@ -1,64 +1,51 @@
 ---
 type: community
-cohesion: 0.07
-members: 49
+cohesion: 0.19
+members: 36
 ---
 
 # Community 3
 
-**Cohesion:** 0.07 - loosely connected
-**Members:** 49 nodes
+**Cohesion:** 0.19 - loosely connected
+**Members:** 36 nodes
 
 ## Members
-- [[(2k-1)-Move Special-Sound Protocol with Algebraic Verifier]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Accumulation Scheme (P_acc, V_acc, D) for NARK Verifier with Slack mu and Error Commitment E]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Accumulation Schemes]] - document - references/ch06/ref-19-protostar.pdf
-- [[Augmented Function F' (verifier circuit folding step)]] - paper - references/ch06/ref-17-nova.pdf
-- [[BCLMS21 'PCD Without Succinct Arguments' (cited, accumulation-IVC compiler  Theorem 1)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Branched-Gate Caching for Non-Uniform Error Terms (cost ~ C_pc not sum C_i)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[CVPi_sps High-Degree Verifier Compression (l checks - 1 degree-(d+2) check + 2 sqrt(l) degree-2 checks)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Circuit Selection Sub-Protocol Pi_select (program-counter one-hot, degree 2)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Commit-and-Open Transform cmPi_sps (Lemma 2)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Constant Recursion Overhead (~10,000 R1CS constraints, two scalar mults)]] - paper - references/ch06/ref-17-nova.pdf
-- [[Corollary 1 Protostar Prover Cost (recursive circuit = 3 group scalar mults + hash of d field elements)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Cross Error-Correcting Terms e_j_{j=1}{d-1} as Accumulation Proof]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Cycles of Elliptic Curves]] - document - references/ch06/ref-17-nova.pdf
-- [[Folding Scheme for Committed Relaxed R1CS (Construction 1)]] - paper - references/ch06/ref-17-nova.pdf
-- [[Forking Lemma for Folding Schemes (Lemma 1)]] - paper - references/ch06/ref-17-nova.pdf
-- [[Generic AccumulationFolding Compiler for Special-Sound Protocols (4-step workflow)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Halo Recursive Proof Composition]] - paper - references/ch06/ref-17-nova.pdf
-- [[High-Degree Custom Gate Relation Sub-Protocol Pi_GATE (degree d)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Homomorphic  Trapdoor Commitment Property]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[Homomorphic Sparse Error-Commitment Update for Lookups (O(l) indep. of T)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[HyperNova Folding Scheme KS23 (cited, concurrent CCS multi-folding)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Incrementally Verifiable Computation (IVC)]] - document - wiki/sections/ch06-recursion-vs-folding-russian-dolls-and-snowballs.md
-- [[Log-Derivative Lookup Argument (Habock)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Lookup Relation Sub-Protocol Pi_LK (3-move, degree 2, prover indep. of table size T)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Non-Interactive Folding Scheme via Fiat-Shamir (Construction 2)]] - paper - references/ch06/ref-17-nova.pdf
-- [[Nova Folding Scheme KST22 (cited, R1CS k=1 d=2 case)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Nova IVC Knowledge Soundness (Lemma 3  Lemma 10)]] - paper - references/ch06/ref-17-nova.pdf
-- [[Nova IVC Scheme (Construction 3)]] - paper - references/ch06/ref-17-nova.pdf
-- [[Nova Recursive Zero-Knowledge Arguments from Folding Schemes]] - paper - references/ch06/ref-17-nova.pdf
-- [[Pasta Cycle of Elliptic Curves]] - paper - references/ch06/ref-17-nova.pdf
-- [[Permutation Relation Sub-Protocol Pi_sigma (degree 1)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Plonkup  Plonkish Circuit-Satisfiability Relation]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Polynomial IOP for Idealized Relaxed R1CS (Construction 5)]] - paper - references/ch06/ref-17-nova.pdf
-- [[Protostar Generic Efficient AccumulationFolding for Special-sound Protocols]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Protostar Non-Uniform IVC Scheme for Multi-Circuit Plonkup R_mplkup]] - paper - references/ch06/ref-19-protostar.pdf
-- [[RO-NARK FScmPi_sps from Special-Sound Protocol]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Recursive Proof Composition]] - paper - references/ch06/ref-17-nova.pdf
-- [[Relaxed Algebraic Verifier Predicate sum mu(d-j) f_j = e]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Sangria Moh23 (cited, Plonk degree-2 folding)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Spartan zkSNARK]] - paper - references/ch06/ref-17-nova.pdf
-- [[Sum-Check Protocol]] - paper - references/ch06/ref-17-nova.pdf
-- [[Sumcheck-Style Error-Term Computation Algorithm O(d2 log d)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[SuperNova KS22 (cited, non-uniform IVC predecessor)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Theorem 2 Accumulation Knowledge Soundness (d+1)-special-sound, error (Q+1)(d+1)F]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Theorem 3 Folding Scheme Completeness, Knowledge Soundness, ZK]] - paper - references/ch06/ref-17-nova.pdf
-- [[Theorem 3 IVC for High-Degree Special-Sound Protocols (recursive circuit k+d-1 or k+2 scalar mults)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Vector-Valued Lookup Sub-Protocol Pi_VLK (5-move, degree 3)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[zkSNARK for Committed Relaxed R1CS (adapted Spartan)]] - paper - references/ch06/ref-17-nova.pdf
-- [[zkSNARK of a Valid IVC Proof (Construction 4)]] - paper - references/ch06/ref-17-nova.pdf
+- [[Airbender]] - document - wiki/chapters/05-encoding-the-performance.md
+- [[BabyBear]] - document - wiki/concepts/babybear.md
+- [[CCS+ CCS extended with read-only lookup-table operations]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
+- [[Cairo]] - document - wiki/chapters/03-choreographing-the-act.md
+- [[Circle STARKs]] - document - wiki/chapters/06-the-sealed-certificate.md
+- [[Ethereum Foundation]] - document - wiki/sections/ch10-path-two-pure-transparent.md
+- [[Hyrax Commitment Scheme]] - document - wiki/sections/ch11-three-zkvms-through-seven-layers.md
+- [[Jolt zkVM]] - document - wiki/chapters/04-the-secret-performance.md
+- [[Lasso]] - document - wiki/concepts/lasso.md
+- [[Linea]] - document - wiki/sections/ch13-zk-rollups-the-proving-grounds-production.md
+- [[LogUp]] - document - wiki/concepts/logup.md
+- [[Lookup Arguments]] - document - wiki/chapters/05-encoding-the-performance.md
+- [[Mersenne-31  M31]] - document - wiki/concepts/mersenne.md
+- [[OpenVM]] - document - wiki/sections/ch11-performance-the-cost-collapse.md
+- [[Path One The Hybrid STARK-to-SNARK Pipeline]] - document - wiki/sections/ch10-path-one-the-hybrid-stark-to-snark-pipeline.md
+- [[Performance The Cost Collapse]] - document - wiki/sections/ch11-performance-the-cost-collapse.md
+- [[Pico Prism]] - document - wiki/sections/ch10-path-one-the-hybrid-stark-to-snark-pipeline.md
+- [[Polygon]] - document - wiki/sections/ch03-the-four-philosophies.md
+- [[RISC-V Convergence]] - document - wiki/sections/ch11-risc-v-convergence.md
+- [[Scroll]] - document - wiki/sections/ch13-zk-rollups-the-proving-grounds-production.md
+- [[Small prime fields (machine-register-sized Goldilocks, M61)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Starknet]] - document - wiki/sections/ch01-three-converging-forces.md
+- [[Stwo]] - document - wiki/chapters/01-the-promise-of-provable-and-programmable-secrets.md
+- [[The Proof Core Triad]] - document - wiki/sections/ch11-the-proof-core-triad.md
+- [[The Causal Web Why It Is a DAG, Not a Stack]] - document - wiki/sections/ch10-the-causal-web-why-it-is-a-dag-not-a-stack.md
+- [[The Landscape Table (March 2026)]] - document - wiki/sections/ch11-the-landscape-table-march-2026.md
+- [[The Map Redrawn]] - document - wiki/sections/ch10-the-map-redrawn.md
+- [[The Stage Is Set]] - document - wiki/sections/ch11-the-stage-is-set.md
+- [[Three zkVMs Through Seven Layers]] - document - wiki/sections/ch11-three-zkvms-through-seven-layers.md
+- [[Witness Gap]] - document - proving-nothing.md
+- [[ZK Rollups]] - document - wiki/sections/ch13-zk-rollups-the-proving-grounds-production.md
+- [[ZK Rollups The Proving Grounds (Production)]] - document - wiki/sections/ch13-zk-rollups-the-proving-grounds-production.md
+- [[ZisK]] - document - wiki/sections/ch02-the-capex-opex-framework.md
+- [[zkVMs -- The Universal Stage]] - document - wiki/chapters/11-zkvms-the-universal-stage.md
+- [[zkVMs Across the Stack]] - document - wiki/sections/ch11-zkvms-across-the-stack.md
+- [[zkWASM]] - document - wiki/sections/ch11-risc-v-convergence.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -68,19 +55,33 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 23 edges to [[_COMMUNITY_Community 0]]
-- 6 edges to [[_COMMUNITY_Community 14]]
-- 3 edges to [[_COMMUNITY_Community 10]]
-- 2 edges to [[_COMMUNITY_Community 19]]
-- 1 edge to [[_COMMUNITY_Community 32]]
-- 1 edge to [[_COMMUNITY_Community 26]]
+- 127 edges to [[_COMMUNITY_Community 0]]
+- 50 edges to [[_COMMUNITY_Community 5]]
+- 36 edges to [[_COMMUNITY_Community 4]]
+- 16 edges to [[_COMMUNITY_Community 12]]
+- 6 edges to [[_COMMUNITY_Community 37]]
+- 6 edges to [[_COMMUNITY_Community 43]]
+- 4 edges to [[_COMMUNITY_Community 39]]
+- 4 edges to [[_COMMUNITY_Community 45]]
+- 4 edges to [[_COMMUNITY_Community 32]]
+- 3 edges to [[_COMMUNITY_Community 49]]
+- 3 edges to [[_COMMUNITY_Community 66]]
+- 2 edges to [[_COMMUNITY_Community 11]]
+- 2 edges to [[_COMMUNITY_Community 24]]
+- 2 edges to [[_COMMUNITY_Community 20]]
+- 2 edges to [[_COMMUNITY_Community 44]]
+- 2 edges to [[_COMMUNITY_Community 53]]
+- 2 edges to [[_COMMUNITY_Community 2]]
+- 1 edge to [[_COMMUNITY_Community 9]]
+- 1 edge to [[_COMMUNITY_Community 51]]
 - 1 edge to [[_COMMUNITY_Community 25]]
-- 1 edge to [[_COMMUNITY_Community 1]]
-- 1 edge to [[_COMMUNITY_Community 5]]
+- 1 edge to [[_COMMUNITY_Community 22]]
+- 1 edge to [[_COMMUNITY_Community 13]]
+- 1 edge to [[_COMMUNITY_Community 38]]
 
 ## Top bridge nodes
-- [[Nova Recursive Zero-Knowledge Arguments from Folding Schemes]] - degree 19, connects to 5 communities
-- [[Protostar Generic Efficient AccumulationFolding for Special-sound Protocols]] - degree 18, connects to 4 communities
-- [[Incrementally Verifiable Computation (IVC)]] - degree 13, connects to 3 communities
-- [[Cycles of Elliptic Curves]] - degree 5, connects to 2 communities
-- [[Folding Scheme for Committed Relaxed R1CS (Construction 1)]] - degree 4, connects to 2 communities
+- [[Lookup Arguments]] - degree 23, connects to 9 communities
+- [[Lasso]] - degree 25, connects to 8 communities
+- [[zkVMs -- The Universal Stage]] - degree 49, connects to 7 communities
+- [[ZK Rollups]] - degree 11, connects to 6 communities
+- [[Jolt zkVM]] - degree 32, connects to 5 communities

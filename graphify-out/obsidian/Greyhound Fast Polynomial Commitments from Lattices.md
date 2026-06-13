@@ -25,7 +25,7 @@ tags:
 - [[Lattice-Based Functional Commitments Fast Verification and Cryptanalysis]] - `cites` [EXTRACTED]
 - [[Layer 6 -- The Deep Craft]] - `cites` [EXTRACTED]
 - [[Polynomial Commitment Scheme]] - `implements` [EXTRACTED]
-- [[Post-Quantum Cryptography]] - `references` [EXTRACTED]
+- [[Post-Quantum Cryptography (NIST PQC standardization)]] - `references` [EXTRACTED]
 - [[SLAP succinct lattice polynomial commitments (AFLN24, EUROCRYPT 2024)]] - `cites` [EXTRACTED]
 - [[Short Integer Solutions (SIS) Assumption]] - `references` [EXTRACTED]
 - [[The Synthesis -- Three Paths, Not Two]] - `cites` [EXTRACTED]

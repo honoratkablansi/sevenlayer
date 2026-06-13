@@ -1,25 +1,32 @@
 ---
 type: community
-cohesion: 0.29
-members: 10
+cohesion: 0.15
+members: 17
 ---
 
 # Community 38
 
-**Cohesion:** 0.29 - loosely connected
-**Members:** 10 nodes
+**Cohesion:** 0.15 - loosely connected
+**Members:** 17 nodes
 
 ## Members
-- [[6 previously-unknown vulnerabilities discovered (BigMod, IsPositive, ed25519-circom etc.)]] - paper - references/ch10/ref-35-coda.pdf
-- [[Automated Detection of Under-Constrained Circuits in Zero-Knowledge Proofs]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
-- [[Circom]] - document - wiki/sections/ch03-from-circuits-to-virtual-machines-a-brief-evolution.md
-- [[Circomlib Decoder Underconstrained Bug (motivating example)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
-- [[Constrained Circuit (Definition 4.6)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
-- [[Constrained Variable (Definition 4.4)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
-- [[Evaluation 77 circuits from 9 Circom projects, 66 verified]] - paper - references/ch10/ref-35-coda.pdf
-- [[TornadoCash Underconstrained Circuit Hack]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
-- [[Underconstrained Circuits]] - document - references/ch03/ref-12-underconstrained-circuits.pdf
-- [[Verification-effort case study 60% shorter proofs vs shallow embedding]] - paper - references/ch10/ref-35-coda.pdf
+- [[Anonymity set]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
+- [[Blockchain Privacy and Regulatory Compliance Towards a Practical Equilibrium]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
+- [[Coin-IDnullifier secret scheme (L=hash(s+1), U=hash(s+2))]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
+- [[CoinJoin (Bitcoin mixing)]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
+- [[Derecho Privacy Pools with proof-carrying disclosures (Beal & Fisch)]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
+- [[Dual Merkle-branch ZK proof (into total coin-ID root R and association-set root R_A)]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
+- [[Ideal private payments contract (Delta_pp, Lambda_pp)]] - paper - references/ch09/ref-30-kachina.pdf
+- [[Kachina method via UC-emulation transitivity]] - paper - references/ch09/ref-30-kachina.pdf
+- [[Linkable ring signature (Monero mixing)]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
+- [[Merkle Tree]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
+- [[Nadler & Schaer, Tornado Cash and blockchain privacy primer]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
+- [[Privacy Pools (0xbow)]] - document - wiki/sections/ch13-zk-identity-growth-regulatory-mandate.md
+- [[Rejected designs centralized access & system-wide entry allowlisting (central point of failure)]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
+- [[Sequential proofs  inclusion-delay handling via forwarded Merkle branches & secrets]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
+- [[Theorem 2  Corollary 1 private payments emulation]] - paper - references/ch09/ref-30-kachina.pdf
+- [[Zerocash]] - paper - references/ch09/ref-30-kachina.pdf
+- [[Zerocash Kachina contract Gamma_zc]] - paper - references/ch09/ref-30-kachina.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -29,19 +36,18 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 7 edges to [[_COMMUNITY_Community 15]]
-- 5 edges to [[_COMMUNITY_Community 36]]
-- 5 edges to [[_COMMUNITY_Community 28]]
-- 4 edges to [[_COMMUNITY_Community 2]]
-- 2 edges to [[_COMMUNITY_Community 0]]
-- 2 edges to [[_COMMUNITY_Community 40]]
-- 2 edges to [[_COMMUNITY_Community 1]]
-- 2 edges to [[_COMMUNITY_Community 31]]
-- 1 edge to [[_COMMUNITY_Community 10]]
-- 1 edge to [[_COMMUNITY_Community 11]]
+- 5 edges to [[_COMMUNITY_Community 0]]
+- 4 edges to [[_COMMUNITY_Community 13]]
+- 3 edges to [[_COMMUNITY_Community 2]]
+- 2 edges to [[_COMMUNITY_Community 32]]
+- 2 edges to [[_COMMUNITY_Community 57]]
+- 1 edge to [[_COMMUNITY_Community 37]]
+- 1 edge to [[_COMMUNITY_Community 6]]
+- 1 edge to [[_COMMUNITY_Community 3]]
 
 ## Top bridge nodes
-- [[Circom]] - degree 20, connects to 9 communities
-- [[Automated Detection of Under-Constrained Circuits in Zero-Knowledge Proofs]] - degree 10, connects to 5 communities
-- [[Underconstrained Circuits]] - degree 12, connects to 4 communities
-- [[Evaluation 77 circuits from 9 Circom projects, 66 verified]] - degree 4, connects to 1 community
+- [[Blockchain Privacy and Regulatory Compliance Towards a Practical Equilibrium]] - degree 12, connects to 4 communities
+- [[Privacy Pools (0xbow)]] - degree 11, connects to 4 communities
+- [[Dual Merkle-branch ZK proof (into total coin-ID root R and association-set root R_A)]] - degree 5, connects to 2 communities
+- [[Merkle Tree]] - degree 4, connects to 2 communities
+- [[Zerocash]] - degree 5, connects to 1 community

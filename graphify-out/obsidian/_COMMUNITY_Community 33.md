@@ -1,28 +1,35 @@
 ---
 type: community
-cohesion: 0.40
-members: 13
+cohesion: 0.13
+members: 20
 ---
 
 # Community 33
 
-**Cohesion:** 0.40 - loosely connected
-**Members:** 13 nodes
+**Cohesion:** 0.13 - loosely connected
+**Members:** 20 nodes
 
 ## Members
-- [[Differential Privacy]] - document - wiki/sections/ch09-composability-when-one-pet-is-not-enough.md
-- [[GDPR]] - document - wiki/sections/ch09-the-regulatory-intersection.md
-- [[Privacy Pools]] - document - wiki/sections/ch09-real-world-deployments-five-case-studies.md
-- [[Real-World Deployments Five Case Studies]] - document - wiki/sections/ch09-real-world-deployments-five-case-studies.md
-- [[The Decision Matrix]] - document - wiki/sections/ch09-the-decision-matrix.md
-- [[The Four Pillars]] - document - wiki/sections/ch09-the-four-pillars.md
-- [[The Incomplete Stack]] - document - wiki/sections/ch09-the-incomplete-stack.md
-- [[The Regulatory Intersection]] - document - wiki/sections/ch09-the-regulatory-intersection.md
-- [[Three Kinds of Security]] - document - wiki/sections/ch09-three-kinds-of-security.md
-- [[Trusted Execution Environment (TEE)]] - document - wiki/chapters/09-privacy-enhancing-technologies.md
-- [[Zero-Knowledge Proof]] - document - references/ch13/ref-60-eidas-2-regulation.pdf
-- [[eIDAS 2.0]] - document - wiki/sections/ch09-the-regulatory-intersection.md
-- [[zKYC (Zero-Knowledge Know Your Customer)]] - document - wiki/sections/ch09-the-regulatory-intersection.md
+- [[Algorithms for Quantum Computation Discrete Logarithms and Factoring]] - paper - references/ch07/ref-24-shor.pdf
+- [[BQP (bounded-error quantum polynomial time)]] - paper - references/ch07/ref-24-shor.pdf
+- [[Coppersmith approximate Fourier transform]] - paper - references/ch07/ref-24-shor.pdf
+- [[Decoherence and gate imprecision obstacles]] - paper - references/ch07/ref-24-shor.pdf
+- [[Discrete Logarithm Problem]] - paper - references/ch07/ref-24-shor.pdf
+- [[Discrete-log-based public-key cryptosystems (Diffie-HellmanDSA)]] - paper - references/ch07/ref-24-shor.pdf
+- [[ECDSA (Elliptic Curve Digital Signature Algorithm)]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
+- [[Peter W. Shor]] - paper - references/ch07/ref-24-shor.pdf
+- [[Quantitative (Strong) Church's thesis]] - paper - references/ch07/ref-24-shor.pdf
+- [[Quantum Computing]] - paper - references/ch07/ref-24-shor.pdf
+- [[Quantum Fourier transform]] - paper - references/ch07/ref-24-shor.pdf
+- [[Quantum discrete logarithm algorithm]] - paper - references/ch07/ref-24-shor.pdf
+- [[Quantum gate array (acyclic circuit) model]] - paper - references/ch07/ref-24-shor.pdf
+- [[Quantum interference  superposition]] - paper - references/ch07/ref-24-shor.pdf
+- [[Quantum-vulnerable digital signatures (ECDSA, EdDSA, RSA per FIPS 186)]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
+- [[Quantum-vulnerable key establishment (Finite FieldEC DH & MQV per SP 800-56A, RSA per SP 800-56B)]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
+- [[RSA Cryptosystem]] - paper - references/ch07/ref-24-shor.pdf
+- [[RSA public-key cryptosystem (Rivest-Shamir-Adleman 1978)]] - paper - references/ch07/ref-24-shor.pdf
+- [[Shor's Algorithm]] - paper - references/ch07/ref-24-shor.pdf
+- [[Simon's oracle algorithm (inspiration for this work)]] - paper - references/ch07/ref-24-shor.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -32,21 +39,18 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 21 edges to [[_COMMUNITY_Community 29]]
-- 4 edges to [[_COMMUNITY_Community 41]]
-- 3 edges to [[_COMMUNITY_Community 1]]
-- 3 edges to [[_COMMUNITY_Community 2]]
-- 3 edges to [[_COMMUNITY_Community 0]]
-- 2 edges to [[_COMMUNITY_Community 32]]
-- 2 edges to [[_COMMUNITY_Community 23]]
-- 1 edge to [[_COMMUNITY_Community 22]]
-- 1 edge to [[_COMMUNITY_Community 18]]
-- 1 edge to [[_COMMUNITY_Community 13]]
-- 1 edge to [[_COMMUNITY_Community 39]]
+- 4 edges to [[_COMMUNITY_Community 55]]
+- 3 edges to [[_COMMUNITY_Community 46]]
+- 3 edges to [[_COMMUNITY_Community 41]]
+- 2 edges to [[_COMMUNITY_Community 12]]
+- 1 edge to [[_COMMUNITY_Community 0]]
+- 1 edge to [[_COMMUNITY_Community 24]]
+- 1 edge to [[_COMMUNITY_Community 48]]
+- 1 edge to [[_COMMUNITY_Community 42]]
 
 ## Top bridge nodes
-- [[Zero-Knowledge Proof]] - degree 12, connects to 5 communities
-- [[eIDAS 2.0]] - degree 10, connects to 4 communities
-- [[The Four Pillars]] - degree 14, connects to 3 communities
-- [[The Incomplete Stack]] - degree 10, connects to 3 communities
-- [[The Decision Matrix]] - degree 14, connects to 2 communities
+- [[Shor's Algorithm]] - degree 7, connects to 4 communities
+- [[Algorithms for Quantum Computation Discrete Logarithms and Factoring]] - degree 13, connects to 3 communities
+- [[Discrete Logarithm Problem]] - degree 7, connects to 2 communities
+- [[Quantum Fourier transform]] - degree 5, connects to 1 community
+- [[Quantum-vulnerable digital signatures (ECDSA, EdDSA, RSA per FIPS 186)]] - degree 4, connects to 1 community

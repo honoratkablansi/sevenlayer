@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/10-the-synthesis-three-paths-not-two.md"
 type: "document"
-community: "ZK Crypto Foundations"
+community: "Core Concepts & Book Spine"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/ZK_Crypto_Foundations
+  - community/Core_Concepts__Book_Spine
 ---
 
 # The Synthesis -- Three Paths, Not Two
@@ -43,7 +43,7 @@ tags:
 - [[Path Three Post-Quantum Folding]] - `part_of` [EXTRACTED]
 - [[Path Two Pure Transparent]] - `part_of` [EXTRACTED]
 - [[Poseidon Hash]] - `references` [EXTRACTED]
-- [[Post-Quantum Cryptography]] - `references` [EXTRACTED]
+- [[Post-Quantum Cryptography (NIST PQC standardization)]] - `references` [EXTRACTED]
 - [[Proof Recursion]] - `references` [EXTRACTED]
 - [[Proving Nothing]] - `part_of` [EXTRACTED]
 - [[SP1 Hypercube Proving Ethereum in Real-Time (Succinct Labs)]] - `references` [EXTRACTED]
@@ -64,4 +64,4 @@ tags:
 - [[Zcash]] - `references` [EXTRACTED]
 - [[zkEVM]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/ZK_Crypto_Foundations
+#graphify/document #graphify/EXTRACTED #community/Core_Concepts__Book_Spine

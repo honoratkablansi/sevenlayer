@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch08-proof-aggregation-the-missing-layer.md"
 type: "document"
-community: "Programmable Privacy & Midnight"
+community: "Core Concepts & Book Spine"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Programmable_Privacy__Midnight
+  - community/Core_Concepts__Book_Spine
 ---
 
 # Aligned Layer
@@ -14,4 +14,4 @@ tags:
 - [[On-Chain Verification in 2026]] - `references` [EXTRACTED]
 - [[Proof Aggregation The Missing Layer]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Programmable_Privacy__Midnight
+#graphify/document #graphify/EXTRACTED #community/Core_Concepts__Book_Spine

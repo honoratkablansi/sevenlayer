@@ -1,18 +1,21 @@
 ---
 source_file: "references/ch13/ref-60-eidas-2-regulation.pdf"
 type: "document"
-community: "Proof of Personhood & eIDAS"
+community: "World & Proof of Personhood"
 location: "page 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Proof_of_Personhood__eIDAS
+  - community/World__Proof_of_Personhood
 ---
 
 # Digital Identity
 
 ## Connections
+- [[EUDI Wallet (Art. 5a) user-controlled cross-border eID means]] - `conceptually_related_to` [EXTRACTED]
+- [[NFC ID credential self-custodial credential derived locally from ICAO-compliant NFC passportsnational IDs to prove attributes (age, nationality) without uploading ID data]] - `conceptually_related_to` [INFERRED]
 - [[Regulation (EU) 20241183 establishing the European Digital Identity Framework (eIDAS 2)]] - `references` [EXTRACTED]
+- [[World ID open-source decentralized privacy-preserving digital identity issuing unlinkable proofs (Proof of Human, Age, Country) via personal custody, AMPC and ZKPs]] - `conceptually_related_to` [EXTRACTED]
 - [[World Whitepapers (World Network Proof of Human)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Proof_of_Personhood__eIDAS
+#graphify/document #graphify/EXTRACTED #community/World__Proof_of_Personhood

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch03/ref-12-underconstrained-circuits.pdf"
 type: "paper"
-community: "QED2 Detection Algorithm"
+community: "Under-Constrained Detection (QED2)"
 location: "§6"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/QED2_Detection_Algorithm
+  - community/Under-Constrained_Detection_QED2
 ---
 
 # QED2 (verification tool)
@@ -19,4 +19,4 @@ tags:
 - [[Verify Algorithm (Algorithm 1)]] - `introduces` [EXTRACTED]
 - [[ZkBench Benchmark Suite (163 Circom circuits)]] - `shares_data_with` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/QED2_Detection_Algorithm
+#graphify/paper #graphify/EXTRACTED #community/Under-Constrained_Detection_QED2

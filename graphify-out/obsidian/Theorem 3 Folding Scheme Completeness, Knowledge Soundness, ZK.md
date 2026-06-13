@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-17-nova.pdf"
 type: "paper"
-community: "Nova Folding & IVC"
+community: "Nova Folding Scheme"
 location: "§4.1 Thm 3, Appendix B Lemmas 6-8"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Nova_Folding__IVC
+  - community/Nova_Folding_Scheme
 ---
 
 # Theorem 3: Folding Scheme Completeness, Knowledge Soundness, ZK
@@ -15,4 +15,4 @@ tags:
 - [[Folding Scheme for Committed Relaxed R1CS (Construction 1)]] - `proves` [EXTRACTED]
 - [[Forking Lemma for Folding Schemes (Lemma 1)]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Nova_Folding__IVC
+#graphify/paper #graphify/EXTRACTED #community/Nova_Folding_Scheme

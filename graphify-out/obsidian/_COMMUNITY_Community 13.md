@@ -1,39 +1,42 @@
 ---
 type: community
-cohesion: 0.13
-members: 24
+cohesion: 0.23
+members: 27
 ---
 
 # Community 13
 
-**Cohesion:** 0.13 - loosely connected
-**Members:** 24 nodes
+**Cohesion:** 0.23 - loosely connected
+**Members:** 27 nodes
 
 ## Members
-- [[Additive FFT over binary fields (Lin et al.)]] - paper - references/ch02/ref-08-stark.pdf
-- [[Algebraic Intermediate Representation (AIR)]] - paper - references/ch02/ref-08-stark.pdf
-- [[Algebraic Linking Interactive Oracle Proof (ALI)]] - paper - references/ch02/ref-08-stark.pdf
-- [[Algebraic Placement and Routing (APR) reduction]] - paper - references/ch02/ref-08-stark.pdf
-- [[Authentication Path  Communication Complexity minimization (coset & row subtrees)]] - paper - references/ch02/ref-08-stark.pdf
-- [[Binary AIR (BAIR) and Permuted AIR (PAIR)]] - paper - references/ch02/ref-08-stark.pdf
-- [[Collision-resistant hash function assumption (interactive STARK)]] - paper - references/ch02/ref-08-stark.pdf
-- [[DNA Profile Match (DPM) proof-of-concept benchmark]] - paper - references/ch02/ref-08-stark.pdf
-- [[Davies-Meyer hash over RijndaelAES (binary-field-friendly hash)]] - paper - references/ch02/ref-08-stark.pdf
-- [[Interactive Oracle Proof (IOP) model]] - paper - references/ch02/ref-08-stark.pdf
-- [[Interactive Oracle Proofs]] - document - references/ch02/ref-08-stark.pdf
-- [[Low Degree Extension (LDE)]] - paper - references/ch02/ref-08-stark.pdf
-- [[Maximal interpolation degree d_max reduction (n·c·d vs prior n·c·w·d + n·c·s)]] - paper - references/ch02/ref-08-stark.pdf
-- [[Merkle-tree commit-reveal (Kilian cut-and-choose)]] - paper - references/ch02/ref-08-stark.pdf
-- [[Prior ZK-STIK for NPNEXP (Ben-Sasson et al. refs 17,15)]] - paper - references/ch02/ref-08-stark.pdf
-- [[Register-based encoding (one RS codeword per register)]] - paper - references/ch02/ref-08-stark.pdf
-- [[SCI  quasi-linear PCP STARK (Ben-Sasson et al. 2016, ref 13)]] - paper - references/ch02/ref-08-stark.pdf
-- [[Scalable Transparent IOP of Knowledge (STIK)]] - paper - references/ch02/ref-08-stark.pdf
-- [[Scalable, Transparent, and Post-Quantum Secure Computational Integrity]] - paper - references/ch02/ref-08-stark.pdf
-- [[Theorem 3.4 — ZK-STIK for space-bounded computations]] - paper - references/ch02/ref-08-stark.pdf
-- [[Theorem 3.5 — wi-STIK for NEXP]] - paper - references/ch02/ref-08-stark.pdf
-- [[Transparency  public randomness (no trusted setup, Arthur-Merlin)]] - paper - references/ch02/ref-08-stark.pdf
-- [[ZK-SNARK  Zerocash (Zcash, non-transparent QSP-based, ref 1853)]] - paper - references/ch02/ref-08-stark.pdf
-- [[Zero-Knowledge Scalable Transparent ARgument of Knowledge (ZK-STARK)]] - paper - references/ch02/ref-08-stark.pdf
+- [[Aztec]] - document - wiki/sections/ch09-open-problems.md
+- [[CollaborativeThreshold Proving]] - document - proving-nothing.md
+- [[Composability When One PET Is Not Enough]] - document - wiki/sections/ch09-composability-when-one-pet-is-not-enough.md
+- [[Differential Privacy]] - document - wiki/sections/ch09-composability-when-one-pet-is-not-enough.md
+- [[Fully homomorphic encryption (homomorphic for all circuits)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[GDPR]] - document - wiki/sections/ch09-the-regulatory-intersection.md
+- [[Garbled Circuits]] - document - proving-nothing.md
+- [[Kachina]] - document - wiki/chapters/09-privacy-enhancing-technologies.md
+- [[Oblivious Transfer]] - document - proving-nothing.md
+- [[Open Problems]] - document - wiki/sections/ch09-open-problems.md
+- [[Privacy Architectures for Smart Contracts Kachina and Zexe]] - document - wiki/sections/ch09-privacy-architectures-for-smart-contracts-kachina-and-zexe.md
+- [[Privacy Pools]] - document - wiki/sections/ch09-real-world-deployments-five-case-studies.md
+- [[Privacy-Enhancing Technologies]] - document - wiki/chapters/09-privacy-enhancing-technologies.md
+- [[Private Information Retrieval (PIR)]] - document - wiki/sections/ch09-open-problems.md
+- [[Private Set Intersection (PSI)]] - document - proving-nothing.md
+- [[Real-World Deployments Five Case Studies]] - document - wiki/sections/ch09-real-world-deployments-five-case-studies.md
+- [[Secure Multi-Party Computation (MPC)]] - document - wiki/chapters/09-privacy-enhancing-technologies.md
+- [[The Decision Matrix]] - document - wiki/sections/ch09-the-decision-matrix.md
+- [[The Four Pillars]] - document - wiki/sections/ch09-the-four-pillars.md
+- [[The Incomplete Stack]] - document - wiki/sections/ch09-the-incomplete-stack.md
+- [[The Regulatory Intersection]] - document - wiki/sections/ch09-the-regulatory-intersection.md
+- [[Three Kinds of Security]] - document - wiki/sections/ch09-three-kinds-of-security.md
+- [[Trusted Execution Environment (TEE)]] - document - wiki/chapters/09-privacy-enhancing-technologies.md
+- [[Verifiable FHE (zkFHE)]] - document - proving-nothing.md
+- [[Zero-Knowledge Proof]] - document - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[Zexe]] - document - wiki/chapters/06-the-sealed-certificate.md
+- [[zKYC (Zero-Knowledge Know Your Customer)]] - document - wiki/sections/ch09-the-regulatory-intersection.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -43,18 +46,27 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 6 edges to [[_COMMUNITY_Community 2]]
-- 5 edges to [[_COMMUNITY_Community 0]]
-- 2 edges to [[_COMMUNITY_Community 10]]
-- 1 edge to [[_COMMUNITY_Community 1]]
-- 1 edge to [[_COMMUNITY_Community 32]]
-- 1 edge to [[_COMMUNITY_Community 33]]
-- 1 edge to [[_COMMUNITY_Community 8]]
-- 1 edge to [[_COMMUNITY_Community 4]]
+- 16 edges to [[_COMMUNITY_Community 0]]
+- 6 edges to [[_COMMUNITY_Community 32]]
+- 5 edges to [[_COMMUNITY_Community 21]]
+- 4 edges to [[_COMMUNITY_Community 38]]
+- 4 edges to [[_COMMUNITY_Community 1]]
+- 4 edges to [[_COMMUNITY_Community 12]]
+- 3 edges to [[_COMMUNITY_Community 28]]
+- 2 edges to [[_COMMUNITY_Community 2]]
+- 2 edges to [[_COMMUNITY_Community 6]]
+- 2 edges to [[_COMMUNITY_Community 34]]
+- 2 edges to [[_COMMUNITY_Community 14]]
+- 1 edge to [[_COMMUNITY_Community 37]]
+- 1 edge to [[_COMMUNITY_Community 5]]
+- 1 edge to [[_COMMUNITY_Community 7]]
+- 1 edge to [[_COMMUNITY_Community 19]]
+- 1 edge to [[_COMMUNITY_Community 15]]
+- 1 edge to [[_COMMUNITY_Community 3]]
 
 ## Top bridge nodes
-- [[Scalable, Transparent, and Post-Quantum Secure Computational Integrity]] - degree 26, connects to 7 communities
-- [[Zero-Knowledge Scalable Transparent ARgument of Knowledge (ZK-STARK)]] - degree 7, connects to 2 communities
-- [[Interactive Oracle Proofs]] - degree 4, connects to 1 community
-- [[Algebraic Linking Interactive Oracle Proof (ALI)]] - degree 3, connects to 1 community
-- [[Collision-resistant hash function assumption (interactive STARK)]] - degree 2, connects to 1 community
+- [[Privacy-Enhancing Technologies]] - degree 35, connects to 8 communities
+- [[Zero-Knowledge Proof]] - degree 20, connects to 7 communities
+- [[Secure Multi-Party Computation (MPC)]] - degree 16, connects to 5 communities
+- [[Fully homomorphic encryption (homomorphic for all circuits)]] - degree 12, connects to 3 communities
+- [[Zexe]] - degree 7, connects to 3 communities

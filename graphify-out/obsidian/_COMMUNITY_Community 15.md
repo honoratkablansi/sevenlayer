@@ -1,39 +1,41 @@
 ---
 type: community
-cohesion: 0.10
-members: 24
+cohesion: 0.12
+members: 26
 ---
 
 # Community 15
 
-**Cohesion:** 0.10 - loosely connected
-**Members:** 24 nodes
+**Cohesion:** 0.12 - loosely connected
+**Members:** 26 nodes
 
 ## Members
-- [[Arithmetic Circuit]] - document - references/ch03/ref-12-underconstrained-circuits.pdf
-- [[BigLessThan motivating example (Circom bug at line 32)]] - paper - references/ch10/ref-35-coda.pdf
-- [[Certifying Zero-Knowledge Circuits with Refinement Types]] - paper - references/ch10/ref-35-coda.pdf
-- [[Coda compiler partial evaluation to R1CS constraints]] - paper - references/ch10/ref-35-coda.pdf
-- [[Coda domain-specific Coq tactic library (F_to_Z, overflow, split_sum, switch_sum, reduce_sum, ind)]] - paper - references/ch10/ref-35-coda.pdf
-- [[Coda refinement type system {nuT  phi}]] - paper - references/ch10/ref-35-coda.pdf
-- [[Coda type-checking rules (circuit, expression, subtyping judgments)]] - paper - references/ch10/ref-35-coda.pdf
-- [[Coda verified higher-order library (branching, zip, array aggregates)]] - paper - references/ch10/ref-35-coda.pdf
-- [[Coda statically-typed functional DSL for ZK circuits]] - paper - references/ch10/ref-35-coda.pdf
-- [[Coq Proof Assistant]] - document - references/ch10/ref-35-coda.pdf
-- [[Coq lemma generation for proof obligations]] - paper - references/ch10/ref-35-coda.pdf
-- [[Fiat-Crypto finite-field formalization library]] - paper - references/ch10/ref-35-coda.pdf
-- [[Formal Verification]] - document - references/ch10/ref-55-zkevm-security-foundations.md
-- [[Liquid  logically-qualified data types (SMT-discharged)]] - paper - references/ch10/ref-35-coda.pdf
-- [[Logical Encoding of Arithmetic Circuit (Definition 4.3)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
-- [[Non-determinism (star) and assertion semantics encoding relations]] - paper - references/ch10/ref-35-coda.pdf
-- [[Refinement Types]] - document - references/ch10/ref-35-coda.pdf
-- [[SMT solving over finite fields  large prime fields]] - paper - references/ch10/ref-35-coda.pdf
-- [[TSub-Refine subtyping rule (reduces type checking to logical validity)]] - paper - references/ch10/ref-35-coda.pdf
-- [[Theorem 1 Expression Type Preservation (soundness)]] - paper - references/ch10/ref-35-coda.pdf
-- [[Theorem 2 Circuit Evaluation Type Preservation]] - paper - references/ch10/ref-35-coda.pdf
-- [[Trustless threat model (attacker controls source, R1CS, prover, verifier; can swap proof)]] - paper - references/ch10/ref-35-coda.pdf
-- [[iter combinator with annotated loop invariant]] - paper - references/ch10/ref-35-coda.pdf
-- [[zk-SNARK]] - document - references/ch13/ref-42-gvr-zkp-market-report.md
+- [[Additive FFT over binary fields (Lin et al.)]] - paper - references/ch02/ref-08-stark.pdf
+- [[Algebraic Intermediate Representation (AIR)]] - paper - references/ch02/ref-08-stark.pdf
+- [[Algebraic Linking Interactive Oracle Proof (ALI)]] - paper - references/ch02/ref-08-stark.pdf
+- [[Algebraic Placement and Routing (APR) reduction]] - paper - references/ch02/ref-08-stark.pdf
+- [[Authentication Path  Communication Complexity minimization (coset & row subtrees)]] - paper - references/ch02/ref-08-stark.pdf
+- [[Binary AIR (BAIR) and Permuted AIR (PAIR)]] - paper - references/ch02/ref-08-stark.pdf
+- [[Collision-resistant hash function assumption (interactive STARK)]] - paper - references/ch02/ref-08-stark.pdf
+- [[DNA Profile Match (DPM) proof-of-concept benchmark]] - paper - references/ch02/ref-08-stark.pdf
+- [[Davies-Meyer hash over RijndaelAES (binary-field-friendly hash)]] - paper - references/ch02/ref-08-stark.pdf
+- [[Interactive Oracle Proof (IOP) model]] - paper - references/ch02/ref-08-stark.pdf
+- [[Interactive Oracle Proofs]] - document - references/ch02/ref-08-stark.pdf
+- [[Low Degree Extension (LDE)]] - paper - references/ch02/ref-08-stark.pdf
+- [[Maximal interpolation degree d_max reduction (n·c·d vs prior n·c·w·d + n·c·s)]] - paper - references/ch02/ref-08-stark.pdf
+- [[Merkle-tree commit-reveal (Kilian cut-and-choose)]] - paper - references/ch02/ref-08-stark.pdf
+- [[Post-quantum security (no quantum-susceptible assumptions)]] - paper - references/ch02/ref-08-stark.pdf
+- [[Prior ZK-STIK for NPNEXP (Ben-Sasson et al. refs 17,15)]] - paper - references/ch02/ref-08-stark.pdf
+- [[Reed-Solomon Proximity Testing (RPT  low-degree testing) problem]] - paper - references/ch02/ref-08-stark.pdf
+- [[Register-based encoding (one RS codeword per register)]] - paper - references/ch02/ref-08-stark.pdf
+- [[SCI  quasi-linear PCP STARK (Ben-Sasson et al. 2016, ref 13)]] - paper - references/ch02/ref-08-stark.pdf
+- [[Scalable Transparent IOP of Knowledge (STIK)]] - paper - references/ch02/ref-08-stark.pdf
+- [[Scalable, Transparent, and Post-Quantum Secure Computational Integrity]] - paper - references/ch02/ref-08-stark.pdf
+- [[Theorem 3.4 — ZK-STIK for space-bounded computations]] - paper - references/ch02/ref-08-stark.pdf
+- [[Theorem 3.5 — wi-STIK for NEXP]] - paper - references/ch02/ref-08-stark.pdf
+- [[Transparency  public randomness (no trusted setup, Arthur-Merlin)]] - paper - references/ch02/ref-08-stark.pdf
+- [[ZK-SNARK  Zerocash (Zcash, non-transparent QSP-based, ref 1853)]] - paper - references/ch02/ref-08-stark.pdf
+- [[Zero-Knowledge Scalable Transparent ARgument of Knowledge (ZK-STARK)]] - paper - references/ch02/ref-08-stark.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -43,18 +45,21 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 7 edges to [[_COMMUNITY_Community 38]]
-- 2 edges to [[_COMMUNITY_Community 10]]
-- 2 edges to [[_COMMUNITY_Community 2]]
-- 2 edges to [[_COMMUNITY_Community 21]]
-- 1 edge to [[_COMMUNITY_Community 0]]
-- 1 edge to [[_COMMUNITY_Community 6]]
+- 9 edges to [[_COMMUNITY_Community 0]]
+- 2 edges to [[_COMMUNITY_Community 5]]
+- 1 edge to [[_COMMUNITY_Community 24]]
+- 1 edge to [[_COMMUNITY_Community 11]]
+- 1 edge to [[_COMMUNITY_Community 12]]
+- 1 edge to [[_COMMUNITY_Community 13]]
+- 1 edge to [[_COMMUNITY_Community 7]]
+- 1 edge to [[_COMMUNITY_Community 25]]
+- 1 edge to [[_COMMUNITY_Community 1]]
 - 1 edge to [[_COMMUNITY_Community 36]]
-- 1 edge to [[_COMMUNITY_Community 28]]
+- 1 edge to [[_COMMUNITY_Community 27]]
 
 ## Top bridge nodes
-- [[Arithmetic Circuit]] - degree 9, connects to 3 communities
-- [[zk-SNARK]] - degree 4, connects to 3 communities
-- [[Certifying Zero-Knowledge Circuits with Refinement Types]] - degree 6, connects to 2 communities
-- [[Formal Verification]] - degree 3, connects to 2 communities
-- [[Coda statically-typed functional DSL for ZK circuits]] - degree 9, connects to 1 community
+- [[Scalable, Transparent, and Post-Quantum Secure Computational Integrity]] - degree 26, connects to 6 communities
+- [[Post-quantum security (no quantum-susceptible assumptions)]] - degree 6, connects to 4 communities
+- [[Zero-Knowledge Scalable Transparent ARgument of Knowledge (ZK-STARK)]] - degree 7, connects to 1 community
+- [[Interactive Oracle Proofs]] - degree 4, connects to 1 community
+- [[Algebraic Linking Interactive Oracle Proof (ALI)]] - degree 3, connects to 1 community

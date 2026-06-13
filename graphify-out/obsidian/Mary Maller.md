@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-36-sonic.pdf"
 type: "document"
-community: "Universal SRS & Ceremonies"
+community: "Universal SRS & Sonic"
 location: "page 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Universal_SRS__Ceremonies
+  - community/Universal_SRS__Sonic
 ---
 
 # Mary Maller
@@ -17,4 +17,4 @@ tags:
 - [[Sonic Zero-Knowledge SNARKs from Linear-Size Universal and Updatable Structured Reference Strings]] - `conceptually_related_to` [EXTRACTED]
 - [[Updatable and Universal Common Reference Strings with Applications to zk-SNARKs]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Universal_SRS__Ceremonies
+#graphify/document #graphify/EXTRACTED #community/Universal_SRS__Sonic

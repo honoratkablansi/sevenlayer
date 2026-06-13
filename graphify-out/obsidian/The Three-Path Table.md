@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch10-the-three-path-table.md"
 type: "document"
-community: "zkVMs & STARK Stacks"
+community: "Core Concepts & Book Spine"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/zkVMs__STARK_Stacks
+  - community/Core_Concepts__Book_Spine
 ---
 
 # The Three-Path Table
@@ -23,4 +23,4 @@ tags:
 - [[The Landscape Table (March 2026)]] - `references` [EXTRACTED]
 - [[The Synthesis -- Three Paths, Not Two]] - `part_of` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/zkVMs__STARK_Stacks
+#graphify/document #graphify/EXTRACTED #community/Core_Concepts__Book_Spine

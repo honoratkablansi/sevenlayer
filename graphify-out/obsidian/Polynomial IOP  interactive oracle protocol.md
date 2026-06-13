@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch03/ref-14-ccs-customizable-constraints.pdf"
 type: "paper"
-community: "KZG Polynomial Commitments"
+community: "Succinct Arguments & Streaming PIOPs"
 location: "§3.2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/KZG_Polynomial_Commitments
+  - community/Succinct_Arguments__Streaming_PIOPs
 ---
 
 # Polynomial IOP / interactive oracle protocol
@@ -16,4 +16,4 @@ tags:
 - [[Polynomial Commitment Scheme]] - `conceptually_related_to` [EXTRACTED]
 - [[Theorem 1 polynomial IOP for CCS, soundness O((t+d)log m)F, prover O(N+tm+qmd log2 d) F-ops]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/KZG_Polynomial_Commitments
+#graphify/paper #graphify/EXTRACTED #community/Succinct_Arguments__Streaming_PIOPs

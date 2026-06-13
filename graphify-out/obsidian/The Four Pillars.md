@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch09-the-four-pillars.md"
 type: "document"
-community: "Compliance & Deployment"
+community: "Privacy-Enhancing Technologies"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Compliance__Deployment
+  - community/Privacy-Enhancing_Technologies
 ---
 
 # The Four Pillars
@@ -13,7 +13,7 @@ tags:
 ## Connections
 - [[Composability When One PET Is Not Enough]] - `references` [EXTRACTED]
 - [[Differential Privacy]] - `defines` [EXTRACTED]
-- [[Fully Homomorphic Encryption (FHE)]] - `defines` [EXTRACTED]
+- [[Fully homomorphic encryption (homomorphic for all circuits)]] - `defines` [EXTRACTED]
 - [[Lattice Cryptography]] - `conceptually_related_to` [EXTRACTED]
 - [[Open Problems]] - `references` [EXTRACTED]
 - [[Privacy Architectures for Smart Contracts Kachina and Zexe]] - `references` [EXTRACTED]
@@ -26,4 +26,4 @@ tags:
 - [[Three Kinds of Security]] - `references` [EXTRACTED]
 - [[Zero-Knowledge Proof]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Compliance__Deployment
+#graphify/document #graphify/EXTRACTED #community/Privacy-Enhancing_Technologies

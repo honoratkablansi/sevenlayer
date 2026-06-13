@@ -1,12 +1,12 @@
 ---
 source_file: "wiki/sections/ch09-real-world-deployments-five-case-studies.md"
 type: "document"
-community: "Compliance & Deployment"
+community: "Privacy-Enhancing Technologies"
 location: "Real-World Deployments: Five Case Studies"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Compliance__Deployment
+  - community/Privacy-Enhancing_Technologies
 ---
 
 # Real-World Deployments: Five Case Studies
@@ -22,4 +22,4 @@ tags:
 - [[The Regulatory Intersection]] - `references` [EXTRACTED]
 - [[Tornado Cash Governance Attack (May 2023)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Compliance__Deployment
+#graphify/document #graphify/EXTRACTED #community/Privacy-Enhancing_Technologies

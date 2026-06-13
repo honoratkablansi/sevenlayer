@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch06/ref-18-hypernova.pdf"
 type: "paper"
-community: "HyperNova Multifolding"
+community: "Recursive Proofs & IVC"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/HyperNova_Multifolding
+  - community/Recursive_Proofs__IVC
 ---
 
 # HyperNova: Recursive Arguments for Customizable Constraint Systems
@@ -37,4 +37,4 @@ tags:
 - [[Sumcheck Protocol]] - `conceptually_related_to` [EXTRACTED]
 - [[nlookup lookup argument (Construction 8)]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/HyperNova_Multifolding
+#graphify/paper #graphify/EXTRACTED #community/Recursive_Proofs__IVC

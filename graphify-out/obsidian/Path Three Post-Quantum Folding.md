@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch10-path-three-post-quantum-folding.md"
 type: "document"
-community: "ZK Crypto Foundations"
+community: "Core Concepts & Book Spine"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/ZK_Crypto_Foundations
+  - community/Core_Concepts__Book_Spine
 ---
 
 # Path Three: Post-Quantum Folding
@@ -17,9 +17,9 @@ tags:
 - [[Lattice Cryptography]] - `conceptually_related_to` [EXTRACTED]
 - [[LatticeFold]] - `references` [EXTRACTED]
 - [[NIST]] - `references` [EXTRACTED]
-- [[Post-Quantum Cryptography]] - `conceptually_related_to` [EXTRACTED]
+- [[Post-Quantum Cryptography (NIST PQC standardization)]] - `conceptually_related_to` [EXTRACTED]
 - [[STARK (Scalable Transparent ARgument of Knowledge)]] - `conceptually_related_to` [EXTRACTED]
 - [[The Synthesis -- Three Paths, Not Two]] - `part_of` [EXTRACTED]
 - [[The Three-Path Table]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/ZK_Crypto_Foundations
+#graphify/document #graphify/EXTRACTED #community/Core_Concepts__Book_Spine

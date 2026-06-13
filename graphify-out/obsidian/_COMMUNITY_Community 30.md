@@ -1,29 +1,36 @@
 ---
 type: community
-cohesion: 0.30
-members: 14
+cohesion: 0.15
+members: 21
 ---
 
 # Community 30
 
-**Cohesion:** 0.30 - loosely connected
-**Members:** 14 nodes
+**Cohesion:** 0.15 - loosely connected
+**Members:** 21 nodes
 
 ## Members
-- [[Binius]] - document - wiki/sections/ch05-the-overhead-tax-10-000x-to-50-000x.md
-- [[GKR Protocol]] - document - wiki/sections/ch05-lookup-arguments.md
-- [[Jolt zkVM]] - document - wiki/chapters/04-the-secret-performance.md
-- [[Justin Thaler]] - document - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[LogUp]] - document - wiki/concepts/logup.md
-- [[Lookup Arguments_1]] - document - wiki/sections/ch05-lookup-arguments.md
-- [[Offline Memory Checking  Algebraic RAM Reduction]] - document - wiki/sections/ch04-witness-generation-costs.md
-- [[Plookup]] - document - wiki/sections/ch05-lookup-arguments.md
-- [[Proving CPU Executions in Small Space]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[Spartan]] - document - wiki/concepts/spartan.md
-- [[Srinath Setty]] - document - wiki/sections/ch02-the-quantum-shelf-life.md
-- [[The Overhead Tax 10,000x to 50,000x]] - document - wiki/sections/ch05-the-overhead-tax-10-000x-to-50-000x.md
-- [[The Sumcheck Protocol The Hidden Foundation]] - document - wiki/sections/ch05-the-sumcheck-protocol-the-hidden-foundation.md
-- [[Where the Layers Collapse]] - document - wiki/sections/ch05-ccs-the-rosetta-stone.md
+- [[Batch Opening (CreateWitnessBatchVerifyEvalBatch)]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Constant-Size Commitment & O(1) Opening Overhead]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Constant-Size Commitments to Polynomials and Their Applications]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Content Extraction Signature & Credential Construction]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Feldman Verifiable Secret Sharing]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Merkle Hash Tree]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Nearly Zero-Knowledge Set  ZK-EDB]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[PolyCommitDL Scheme]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[PolyCommitPed Scheme]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Polynomial Divisibility Property ((x-i) divides phi(x)-phi(i))]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Theorem 3.2 PolyCommitDL Security]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Theorem 3.3 PolyCommitPed Security]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Theorem 3.4 Batch Opening Binding]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Theorem 3.5 Strong Correctness]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Verifiable Secret Sharing]] - document - references/ch02/ref-04-kzg-commitments.pdf
+- [[Zero-Knowledge Set (Micali et al.)]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[eVSS Efficient Feldman VSS]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[t-Bilinear Strong Diffie-Hellman (t-BSDH) Assumption]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[t-Diffie-Hellman Inversion (t-DHI) Assumption]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[t-Polynomial Diffie-Hellman (t-polyDH) Assumption]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[t-Strong Diffie-Hellman (t-SDH) Assumption]] - paper - references/ch02/ref-04-kzg-commitments.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -33,23 +40,16 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 36 edges to [[_COMMUNITY_Community 2]]
-- 29 edges to [[_COMMUNITY_Community 10]]
-- 27 edges to [[_COMMUNITY_Community 0]]
-- 12 edges to [[_COMMUNITY_Community 22]]
-- 11 edges to [[_COMMUNITY_Community 1]]
-- 6 edges to [[_COMMUNITY_Community 26]]
-- 4 edges to [[_COMMUNITY_Community 24]]
-- 4 edges to [[_COMMUNITY_Community 25]]
-- 3 edges to [[_COMMUNITY_Community 14]]
-- 3 edges to [[_COMMUNITY_Community 20]]
-- 2 edges to [[_COMMUNITY_Community 40]]
-- 1 edge to [[_COMMUNITY_Community 11]]
-- 1 edge to [[_COMMUNITY_Community 34]]
+- 5 edges to [[_COMMUNITY_Community 58]]
+- 3 edges to [[_COMMUNITY_Community 7]]
+- 2 edges to [[_COMMUNITY_Community 0]]
+- 2 edges to [[_COMMUNITY_Community 19]]
+- 2 edges to [[_COMMUNITY_Community 9]]
+- 1 edge to [[_COMMUNITY_Community 12]]
+- 1 edge to [[_COMMUNITY_Community 24]]
 
 ## Top bridge nodes
-- [[Jolt zkVM]] - degree 32, connects to 8 communities
-- [[Lookup Arguments_1]] - degree 26, connects to 8 communities
-- [[The Sumcheck Protocol The Hidden Foundation]] - degree 23, connects to 7 communities
-- [[Spartan]] - degree 19, connects to 7 communities
-- [[Proving CPU Executions in Small Space]] - degree 12, connects to 7 communities
+- [[Constant-Size Commitments to Polynomials and Their Applications]] - degree 15, connects to 6 communities
+- [[PolyCommitDL Scheme]] - degree 12, connects to 4 communities
+- [[PolyCommitPed Scheme]] - degree 8, connects to 3 communities
+- [[Constant-Size Commitment & O(1) Opening Overhead]] - degree 2, connects to 1 community

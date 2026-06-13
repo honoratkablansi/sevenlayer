@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-17-nova.pdf"
 type: "paper"
-community: "HyperNova Multifolding"
+community: "Nova Folding Scheme"
 location: "§4.1 Def 11"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/HyperNova_Multifolding
+  - community/Nova_Folding_Scheme
 ---
 
 # Relaxed R1CS
@@ -18,4 +18,4 @@ tags:
 - [[NovaBlindFold folding-based zero-knowledge]] - `assumes` [EXTRACTED]
 - [[R1CS]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/HyperNova_Multifolding
+#graphify/paper #graphify/EXTRACTED #community/Nova_Folding_Scheme

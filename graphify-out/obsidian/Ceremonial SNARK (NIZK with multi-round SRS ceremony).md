@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-38-snarky-ceremonies.pdf"
 type: "paper"
-community: "Universal SRS & Ceremonies"
+community: "Ceremonial SNARK Model"
 location: "§3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Universal_SRS__Ceremonies
+  - community/Ceremonial_SNARK_Model
 ---
 
 # Ceremonial SNARK (NIZK with multi-round SRS ceremony)
@@ -17,4 +17,4 @@ tags:
 - [[Non-interactive Zero-Knowledge Argument of Knowledge]] - `conceptually_related_to` [EXTRACTED]
 - [[Snarky Ceremonies]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Universal_SRS__Ceremonies
+#graphify/paper #graphify/EXTRACTED #community/Ceremonial_SNARK_Model

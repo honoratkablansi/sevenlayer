@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch06/ref-23-circle-starks.pdf"
 type: "paper"
-community: "Circle STARKs"
+community: "Core Concepts & Book Spine"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Circle_STARKs
+  - community/Core_Concepts__Book_Spine
 ---
 
 # Circle STARKs
@@ -25,4 +25,4 @@ tags:
 - [[STARK (Scalable Transparent ARgument of Knowledge)]] - `conceptually_related_to` [EXTRACTED]
 - [[The Synthesis -- Three Paths, Not Two]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Circle_STARKs
+#graphify/paper #graphify/EXTRACTED #community/Core_Concepts__Book_Spine

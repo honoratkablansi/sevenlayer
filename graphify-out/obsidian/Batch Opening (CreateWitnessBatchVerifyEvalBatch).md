@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-04-kzg-commitments.pdf"
 type: "paper"
-community: "KZG Batch Opening"
+community: "KZG Polynomial Commitments"
 location: "§3.4"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/KZG_Batch_Opening
+  - community/KZG_Polynomial_Commitments
 ---
 
 # Batch Opening (CreateWitnessBatch/VerifyEvalBatch)
@@ -16,4 +16,4 @@ tags:
 - [[PolyCommitDL Scheme]] - `conceptually_related_to` [EXTRACTED]
 - [[Theorem 3.4 Batch Opening Binding]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/KZG_Batch_Opening
+#graphify/paper #graphify/EXTRACTED #community/KZG_Polynomial_Commitments

@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch06/ref-17-nova.pdf"
 type: "paper"
-community: "Nova Folding & IVC"
+community: "Recursive Proofs & IVC"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Nova_Folding__IVC
+  - community/Recursive_Proofs__IVC
 ---
 
 # Nova: Recursive Zero-Knowledge Arguments from Folding Schemes
@@ -31,4 +31,4 @@ tags:
 - [[Sumcheck Protocol]] - `conceptually_related_to` [EXTRACTED]
 - [[Trusted Setup]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Nova_Folding__IVC
+#graphify/paper #graphify/EXTRACTED #community/Recursive_Proofs__IVC

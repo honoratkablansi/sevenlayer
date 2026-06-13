@@ -30,9 +30,9 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 6 edges to [[_COMMUNITY_Universal SRS & Ceremonies]]
+- 6 edges to [[_COMMUNITY_Universal SRS & Sonic]]
 - 2 edges to [[_COMMUNITY_PLONK & Permutation Arguments]]
-- 1 edge to [[_COMMUNITY_Programmable Privacy & Midnight]]
+- 1 edge to [[_COMMUNITY_Core Concepts & Book Spine]]
 - 1 edge to [[_COMMUNITY_Bulletproofs & Range Proofs]]
 - 1 edge to [[_COMMUNITY_Sonic Argument System]]
 

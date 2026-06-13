@@ -1,17 +1,17 @@
 ---
 source_file: "references/ch07/ref-24-shor.pdf"
 type: "paper"
-community: "ZK Crypto Foundations"
+community: "Shor's Quantum Algorithms"
 location: "p.1 (title page)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/ZK_Crypto_Foundations
+  - community/Shors_Quantum_Algorithms
 ---
 
 # Peter W. Shor
 
 ## Connections
-- [[Algorithms for Quantum Computation Discrete Logarithms and Factoring]] - `conceptually_related_to` [EXTRACTED]
+- [[Algorithms for Quantum Computation Discrete Logarithms and Factoring]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/ZK_Crypto_Foundations
+#graphify/paper #graphify/EXTRACTED #community/Shors_Quantum_Algorithms

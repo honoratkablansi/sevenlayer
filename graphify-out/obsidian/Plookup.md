@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch05-lookup-arguments.md"
 type: "document"
-community: "Sumcheck & Proving Overhead"
+community: "Arithmetization & CCS"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Sumcheck__Proving_Overhead
+  - community/Arithmetization__CCS
 ---
 
 # Plookup
@@ -14,4 +14,4 @@ tags:
 - [[Encoding the Performance]] - `references` [EXTRACTED]
 - [[Lookup Arguments_1]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Sumcheck__Proving_Overhead
+#graphify/document #graphify/EXTRACTED #community/Arithmetization__CCS

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-04-kzg-commitments.pdf"
 type: "document"
-community: "KZG Polynomial Commitments"
+community: "Succinct Arguments & Streaming PIOPs"
 location: "Abstract"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/KZG_Polynomial_Commitments
+  - community/Succinct_Arguments__Streaming_PIOPs
 ---
 
 # Polynomial Commitment Scheme
@@ -34,4 +34,4 @@ tags:
 - [[Theorem 3 family of preprocessing SNARKs for CCS via PIOP + sparse poly commitment + Fiat-Shamir]] - `assumes` [EXTRACTED]
 - [[Unlocking the Lookup Singularity with Lasso]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/KZG_Polynomial_Commitments
+#graphify/document #graphify/EXTRACTED #community/Succinct_Arguments__Streaming_PIOPs

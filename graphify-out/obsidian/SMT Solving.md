@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch03/ref-12-underconstrained-circuits.pdf"
 type: "document"
-community: "QED2 Detection Algorithm"
+community: "Under-Constrained Detection (QED2)"
 location: "abstract"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/QED2_Detection_Algorithm
+  - community/Under-Constrained_Detection_QED2
 ---
 
 # SMT Solving
@@ -16,4 +16,4 @@ tags:
 - [[Finite-Field SMT Solver (cvc5 fork)]] - `conceptually_related_to` [EXTRACTED]
 - [[SMT Query Procedure (Algorithm 4)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/QED2_Detection_Algorithm
+#graphify/document #graphify/EXTRACTED #community/Under-Constrained_Detection_QED2

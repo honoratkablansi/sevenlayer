@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-56-symphony.pdf"
 type: "paper"
-community: "Lattice Folding (Symphony)"
+community: "FHE & Lattice Folding (Symphony)"
 location: "§2.2, Construction 2.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Lattice_Folding_Symphony
+  - community/FHE__Lattice_Folding_Symphony
 ---
 
 # Module-Ajtai binding commitment (Construction 2.1) with strict/relaxed openings
@@ -16,4 +16,4 @@ tags:
 - [[Lattice-based high-arity folding scheme Pi_fold (Thm 4.1) compressing l_np R1CS statements in one shot]] - `assumes` [EXTRACTED]
 - [[Module-SIS]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Lattice_Folding_Symphony
+#graphify/paper #graphify/EXTRACTED #community/FHE__Lattice_Folding_Symphony

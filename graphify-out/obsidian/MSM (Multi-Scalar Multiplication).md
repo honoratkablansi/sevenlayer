@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch04-side-channel-attacks-when-the-walls-leak.md"
 type: "document"
-community: "Witness Generation & Hardware"
+community: "Witness Generation & Hashing"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Witness_Generation__Hardware
+  - community/Witness_Generation__Hashing
 ---
 
 # MSM (Multi-Scalar Multiplication)
@@ -18,4 +18,4 @@ tags:
 - [[The Witness as a Multi-Dimensional Problem]] - `references` [EXTRACTED]
 - [[Witness Generation Costs]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Witness_Generation__Hardware
+#graphify/document #graphify/EXTRACTED #community/Witness_Generation__Hashing

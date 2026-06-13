@@ -15,7 +15,7 @@ tags:
 - [[Aztec]] - `references` [EXTRACTED]
 - [[Composability When One PET Is Not Enough]] - `references` [EXTRACTED]
 - [[Dan Boneh]] - `references` [EXTRACTED]
-- [[Fully Homomorphic Encryption (FHE)]] - `references` [EXTRACTED]
+- [[Fully homomorphic encryption (homomorphic for all circuits)]] - `references` [EXTRACTED]
 - [[Privacy Architectures for Smart Contracts Kachina and Zexe]] - `references` [EXTRACTED]
 - [[Privacy-Enhancing Technologies]] - `part_of` [EXTRACTED]
 - [[Private Information Retrieval (PIR)]] - `references` [EXTRACTED]

@@ -42,14 +42,16 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 5 edges to [[_COMMUNITY_ZK Crypto Foundations]]
 - 3 edges to [[_COMMUNITY_Lattice PCS (Greyhound)]]
-- 2 edges to [[_COMMUNITY_KZG Polynomial Commitments]]
+- 2 edges to [[_COMMUNITY_Core Concepts & Book Spine]]
+- 2 edges to [[_COMMUNITY_Lattice Folding (Neo)]]
+- 2 edges to [[_COMMUNITY_Succinct Arguments & Streaming PIOPs]]
+- 1 edge to [[_COMMUNITY_Folding Genealogy & Post-Quantum]]
 - 1 edge to [[_COMMUNITY_Algebraic RAM Proofs]]
-- 1 edge to [[_COMMUNITY_Lattice Folding (Symphony)]]
+- 1 edge to [[_COMMUNITY_FHE & Lattice Folding (Symphony)]]
 
 ## Top bridge nodes
-- [[Lattice-Based Functional Commitments Fast Verification and Cryptanalysis]] - degree 14, connects to 3 communities
+- [[Lattice-Based Functional Commitments Fast Verification and Cryptanalysis]] - degree 14, connects to 4 communities
 - [[Construction 3.2 Functional Commitment for Constant-Degree Polynomials]] - degree 10, connects to 2 communities
 - [[Functional Commitment]] - degree 7, connects to 2 communities
 - [[Short Integer Solutions (SIS) Assumption]] - degree 5, connects to 2 communities

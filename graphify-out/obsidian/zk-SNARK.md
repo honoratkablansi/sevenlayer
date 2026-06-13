@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch13/ref-42-gvr-zkp-market-report.md"
 type: "document"
-community: "Circuit Verification (Coda)"
+community: "zkEVM & Real-Time Proving"
 location: "Type Insights"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Circuit_Verification_Coda
+  - community/zkEVM__Real-Time_Proving
 ---
 
 # zk-SNARK
@@ -17,4 +17,4 @@ tags:
 - [[Updatable and Universal Common Reference Strings with Applications to zk-SNARKs]] - `references` [EXTRACTED]
 - [[Zero-Knowledge Proof Market Size, Share & Trends Analysis Report (Grand View Research)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Circuit_Verification_Coda
+#graphify/document #graphify/EXTRACTED #community/zkEVM__Real-Time_Proving

@@ -14,6 +14,7 @@ tags:
 ## Connections
 - [[3-Element Pairing-based SNARK for Arithmetic Circuit SAT]] - `defines` [EXTRACTED]
 - [[Gennaro-Gentry-Parno-Raykova QSPQAP and Succinct NIZKs (GGPR13)]] - `cites` [EXTRACTED]
+- [[Groth16]] - `conceptually_related_to` [EXTRACTED]
 - [[Non-interactive Linear Proof (NILP) for Quadratic Arithmetic Programs]] - `defines` [EXTRACTED]
 - [[On the Size of Pairing-Based Non-interactive Arguments]] - `conceptually_related_to` [EXTRACTED]
 - [[Parno-Howell-Gentry-Raykova Pinocchio (PHGR13)]] - `conceptually_related_to` [EXTRACTED]

@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/BIBLIOGRAPHY.md"
 type: "document"
-community: "Foundations & SoK Surveys"
+community: "Recursive Proofs & IVC"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Foundations__SoK_Surveys
+  - community/Recursive_Proofs__IVC
 ---
 
 # Complete Bibliography
@@ -28,4 +28,4 @@ tags:
 - [[SoK What Don't We Know Understanding Security Vulnerabilities in SNARKs]] - `cites` [EXTRACTED]
 - [[The Knowledge Complexity of Interactive Proof Systems]] - `cites` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Foundations__SoK_Surveys
+#graphify/document #graphify/EXTRACTED #community/Recursive_Proofs__IVC

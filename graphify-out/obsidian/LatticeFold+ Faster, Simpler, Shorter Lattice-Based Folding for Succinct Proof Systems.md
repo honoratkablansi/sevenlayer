@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-11-latticefold-plus.pdf"
 type: "paper"
-community: "ZK Crypto Foundations"
+community: "Lattice Folding (LatticeFold+)"
 location: "p.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/ZK_Crypto_Foundations
+  - community/Lattice_Folding_LatticeFold
 ---
 
 # LatticeFold+: Faster, Simpler, Shorter Lattice-Based Folding for Succinct Proof Systems
@@ -30,7 +30,7 @@ tags:
 - [[Module-based Ajtai Commitment (com = A x)]] - `defines` [EXTRACTED]
 - [[Nova]] - `conceptually_related_to` [EXTRACTED]
 - [[Pedersen Commitments]] - `conceptually_related_to` [EXTRACTED]
-- [[Post-Quantum Cryptography]] - `conceptually_related_to` [EXTRACTED]
+- [[Post-Quantum Cryptography (NIST PQC standardization)]] - `conceptually_related_to` [EXTRACTED]
 - [[Post-quantum security (no quantum-susceptible assumptions)]] - `assumes` [EXTRACTED]
 - [[Purely Algebraic Range Proof (no bit-decomposition)]] - `introduces` [EXTRACTED]
 - [[Range Proof]] - `conceptually_related_to` [EXTRACTED]
@@ -38,4 +38,4 @@ tags:
 - [[Sumcheck Protocol]] - `conceptually_related_to` [EXTRACTED]
 - [[The Synthesis -- Three Paths, Not Two]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/ZK_Crypto_Foundations
+#graphify/paper #graphify/EXTRACTED #community/Lattice_Folding_LatticeFold

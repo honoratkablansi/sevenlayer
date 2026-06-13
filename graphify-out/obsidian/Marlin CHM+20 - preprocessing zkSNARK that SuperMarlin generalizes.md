@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch03/ref-14-ccs-customizable-constraints.pdf"
 type: "paper"
-community: "Sumcheck SNARKs (CCS/Lattice)"
+community: "Sumcheck SNARKs (SuperSpartan)"
 location: "refs [CHM+20]"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Sumcheck_SNARKs_CCS/Lattice
+  - community/Sumcheck_SNARKs_SuperSpartan
 ---
 
 # Marlin [CHM+20] - preprocessing zkSNARK that SuperMarlin generalizes
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[SuperMarlin univariate-sumcheck SNARK for CCS generalizing Marlin]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Sumcheck_SNARKs_CCS/Lattice
+#graphify/paper #graphify/EXTRACTED #community/Sumcheck_SNARKs_SuperSpartan

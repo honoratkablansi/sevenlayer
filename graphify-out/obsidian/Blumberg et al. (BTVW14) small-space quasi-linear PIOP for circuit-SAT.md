@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-45-small-space-cpu-proofs.pdf"
 type: "paper"
-community: "Small-Space Proving (Twist/Shout)"
+community: "Succinct Arguments & Streaming PIOPs"
 location: "§1.4 (BTVW14)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Small-Space_Proving_Twist/Shout
+  - community/Succinct_Arguments__Streaming_PIOPs
 ---
 
 # Blumberg et al. (BTVW14): small-space quasi-linear PIOP for circuit-SAT
@@ -16,4 +16,4 @@ tags:
 - [[Cormode-Thaler-Yi (CTY11) linear-time and sparse streaming sum-check provers]] - `cites` [EXTRACTED]
 - [[Polynomial IOP  interactive oracle protocol]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Small-Space_Proving_Twist/Shout
+#graphify/paper #graphify/EXTRACTED #community/Succinct_Arguments__Streaming_PIOPs

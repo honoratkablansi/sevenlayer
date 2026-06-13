@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/05-encoding-the-performance.md"
 type: "document"
-community: "Sumcheck SNARKs (CCS/Lattice)"
+community: "Sumcheck SNARKs (SuperSpartan)"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Sumcheck_SNARKs_CCS/Lattice
+  - community/Sumcheck_SNARKs_SuperSpartan
 ---
 
 # Sumcheck Protocol
@@ -69,4 +69,4 @@ tags:
 - [[nlookup lookup argument (Construction 8)]] - `assumes` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Sumcheck_SNARKs_CCS/Lattice
+#graphify/document #graphify/EXTRACTED #community/Sumcheck_SNARKs_SuperSpartan

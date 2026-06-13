@@ -1,37 +1,39 @@
 ---
 type: community
-cohesion: 0.16
-members: 22
+cohesion: 0.14
+members: 24
 ---
 
 # Community 19
 
-**Cohesion:** 0.16 - loosely connected
-**Members:** 22 nodes
+**Cohesion:** 0.14 - loosely connected
+**Members:** 24 nodes
 
 ## Members
-- [[Brakedown GLS+21 & Orion XZS22 field-agnosticpost-quantum poly commitments instantiating SuperSpartan]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
-- [[Constant-Size Commitment & O(1) Opening Overhead]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[Constant-Size Commitments to Polynomials and Their Applications]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[Cryptographic Accumulator]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[Feldman Verifiable Secret Sharing]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[Merkle Hash Tree]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[Nearly Zero-Knowledge Set  ZK-EDB]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[PolyCommitDL Scheme]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[PolyCommitPed Scheme]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[Polynomial Commitment Scheme]] - document - references/ch02/ref-04-kzg-commitments.pdf
-- [[Polynomial Divisibility Property ((x-i) divides phi(x)-phi(i))]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[Polynomial IOP  interactive oracle protocol]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
-- [[Theorem 3.2 PolyCommitDL Security]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[Theorem 3.3 PolyCommitPed Security]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[Theorem 3.5 Strong Correctness]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[Theorem 3 family of preprocessing SNARKs for CCS via PIOP + sparse poly commitment + Fiat-Shamir]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
-- [[Verifiable Secret Sharing]] - document - references/ch02/ref-04-kzg-commitments.pdf
-- [[Zero-Knowledge Set (Micali et al.)]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[eVSS Efficient Feldman VSS]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[t-Diffie-Hellman Inversion (t-DHI) Assumption]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[t-Polynomial Diffie-Hellman (t-polyDH) Assumption]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[t-Strong Diffie-Hellman (t-SDH) Assumption]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[2-Field-Element NILP via Squaring Gates]] - paper - references/ch02/ref-06-groth16.pdf
+- [[3-Element Pairing-based SNARK for Arithmetic Circuit SAT]] - paper - references/ch02/ref-06-groth16.pdf
+- [[Bilinear Pairings]] - document - references/ch02/ref-06-groth16.pdf
+- [[Bitansky-Chiesa-Ishai-Ostrovsky-Paneth SNARKs via Linear Interactive Proofs (BCI+13)]] - paper - references/ch02/ref-06-groth16.pdf
+- [[Danezis-Fournet-Groth-Kohlweiss Square Span Programs (DFGK14)]] - paper - references/ch02/ref-06-groth16.pdf
+- [[Disclosure-free Common Reference String]] - paper - references/ch02/ref-06-groth16.pdf
+- [[Generic (Bilinear) Group Model]] - paper - references/ch02/ref-06-groth16.pdf
+- [[Gennaro-Gentry-Parno-Raykova QSPQAP and Succinct NIZKs (GGPR13)]] - paper - references/ch02/ref-06-groth16.pdf
+- [[Gentry-Wichs SNARGs Need Non-falsifiable Assumptions (GW11)]] - paper - references/ch02/ref-06-groth16.pdf
+- [[Jens Groth]] - document - wiki/sections/ch06-the-three-families.md
+- [[Knowledge soundness witness extractability for the extended-CRS Groth SNARK]] - paper - references/ch02/ref-05-mpc-random-beacon.pdf
+- [[Linear Interactive Proof (LIP)]] - paper - references/ch02/ref-06-groth16.pdf
+- [[Non-interactive Linear Proof (NILP) for Quadratic Arithmetic Programs]] - paper - references/ch02/ref-06-groth16.pdf
+- [[On the Size of Pairing-Based Non-interactive Arguments]] - paper - references/ch02/ref-06-groth16.pdf
+- [[Parno-Howell-Gentry-Raykova Pinocchio (PHGR13)]] - paper - references/ch02/ref-06-groth16.pdf
+- [[Quadratic Arithmetic Programs]] - document - references/ch02/ref-06-groth16.pdf
+- [[Relation Generator with Hard Decisional Problems]] - paper - references/ch02/ref-06-groth16.pdf
+- [[Shoup Lower Bounds for Discrete Logarithms (Generic Group Model) (Sho97)]] - paper - references/ch02/ref-06-groth16.pdf
+- [[Single Pairing-Product Verification Equation (3 pairings)]] - paper - references/ch02/ref-06-groth16.pdf
+- [[Split-NILP to Pairing-based NIZK Compiler]] - paper - references/ch02/ref-06-groth16.pdf
+- [[Theorem 2 Perfect ZK NIZK with Generic-Group Knowledge Soundness]] - paper - references/ch02/ref-06-groth16.pdf
+- [[Theorem 3 No NILP Has a Degree-1 (Linear) Verifier]] - paper - references/ch02/ref-06-groth16.pdf
+- [[Theorem 4 Pairing-based Arguments Need Elements in Both G1 and G2]] - paper - references/ch02/ref-06-groth16.pdf
+- [[Type III Asymmetric Bilinear Group]] - paper - references/ch02/ref-06-groth16.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -42,25 +44,24 @@ SORT file.name ASC
 
 ## Connections to other communities
 - 7 edges to [[_COMMUNITY_Community 0]]
-- 4 edges to [[_COMMUNITY_Community 17]]
-- 2 edges to [[_COMMUNITY_Community 18]]
-- 2 edges to [[_COMMUNITY_Community 24]]
-- 2 edges to [[_COMMUNITY_Community 16]]
-- 2 edges to [[_COMMUNITY_Community 44]]
-- 2 edges to [[_COMMUNITY_Community 3]]
-- 2 edges to [[_COMMUNITY_Community 26]]
-- 1 edge to [[_COMMUNITY_Community 1]]
-- 1 edge to [[_COMMUNITY_Community 32]]
-- 1 edge to [[_COMMUNITY_Community 12]]
-- 1 edge to [[_COMMUNITY_Community 25]]
-- 1 edge to [[_COMMUNITY_Community 9]]
-- 1 edge to [[_COMMUNITY_Community 8]]
+- 4 edges to [[_COMMUNITY_Community 8]]
+- 3 edges to [[_COMMUNITY_Community 6]]
+- 2 edges to [[_COMMUNITY_Community 30]]
+- 2 edges to [[_COMMUNITY_Community 41]]
+- 2 edges to [[_COMMUNITY_Community 64]]
+- 1 edge to [[_COMMUNITY_Community 24]]
 - 1 edge to [[_COMMUNITY_Community 34]]
-- 1 edge to [[_COMMUNITY_Community 20]]
+- 1 edge to [[_COMMUNITY_Community 13]]
+- 1 edge to [[_COMMUNITY_Community 22]]
+- 1 edge to [[_COMMUNITY_Community 44]]
+- 1 edge to [[_COMMUNITY_Community 5]]
+- 1 edge to [[_COMMUNITY_Community 47]]
+- 1 edge to [[_COMMUNITY_Community 59]]
+- 1 edge to [[_COMMUNITY_Community 40]]
 
 ## Top bridge nodes
-- [[Polynomial Commitment Scheme]] - degree 21, connects to 7 communities
-- [[Constant-Size Commitments to Polynomials and Their Applications]] - degree 15, connects to 4 communities
-- [[PolyCommitDL Scheme]] - degree 12, connects to 4 communities
-- [[Theorem 3 family of preprocessing SNARKs for CCS via PIOP + sparse poly commitment + Fiat-Shamir]] - degree 5, connects to 3 communities
-- [[PolyCommitPed Scheme]] - degree 8, connects to 2 communities
+- [[On the Size of Pairing-Based Non-interactive Arguments]] - degree 24, connects to 7 communities
+- [[Bilinear Pairings]] - degree 10, connects to 4 communities
+- [[Quadratic Arithmetic Programs]] - degree 11, connects to 3 communities
+- [[3-Element Pairing-based SNARK for Arithmetic Circuit SAT]] - degree 10, connects to 2 communities
+- [[Jens Groth]] - degree 3, connects to 2 communities

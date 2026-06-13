@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-61-arguzz.pdf"
 type: "paper"
-community: "zkVMs & STARK Stacks"
+community: "zkVM Design Philosophy"
 location: "p.1 (title/abstract)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/zkVMs__STARK_Stacks
+  - community/zkVM_Design_Philosophy
 ---
 
 # ARGUZZ: Testing zkVMs for Soundness and Completeness Bugs
@@ -21,4 +21,4 @@ tags:
 - [[SP1  SP1 Hypercube]] - `references` [EXTRACTED]
 - [[Zero-Knowledge Virtual Machine (zkVM)]] - `references` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/zkVMs__STARK_Stacks
+#graphify/paper #graphify/EXTRACTED #community/zkVM_Design_Philosophy

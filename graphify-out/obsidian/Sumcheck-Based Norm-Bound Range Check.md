@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-20-latticefold.pdf"
 type: "paper"
-community: "Lattice Folding (Symphony)"
+community: "Lattice Folding (LatticeFold)"
 location: "§1, §3.2.3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Lattice_Folding_Symphony
+  - community/Lattice_Folding_LatticeFold
 ---
 
 # Sumcheck-Based Norm-Bound Range Check
@@ -17,4 +17,4 @@ tags:
 - [[LatticeFold Lattice-Based Folding Scheme]] - `introduces` [EXTRACTED]
 - [[Sumcheck Protocol]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Lattice_Folding_Symphony
+#graphify/paper #graphify/EXTRACTED #community/Lattice_Folding_LatticeFold

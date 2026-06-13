@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch06-the-folding-genealogy.md"
 type: "document"
-community: "ZK Crypto Foundations"
+community: "Recursive Proofs & IVC"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/ZK_Crypto_Foundations
+  - community/Recursive_Proofs__IVC
 ---
 
 # CycleFold
@@ -17,4 +17,4 @@ tags:
 - [[SNARK Recursion vs. Folding The Full Picture]] - `references` [EXTRACTED]
 - [[The Folding Genealogy]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/ZK_Crypto_Foundations
+#graphify/document #graphify/EXTRACTED #community/Recursive_Proofs__IVC

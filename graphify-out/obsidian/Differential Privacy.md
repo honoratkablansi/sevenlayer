@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch09-composability-when-one-pet-is-not-enough.md"
 type: "document"
-community: "Compliance & Deployment"
+community: "Privacy-Enhancing Technologies"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Compliance__Deployment
+  - community/Privacy-Enhancing_Technologies
 ---
 
 # Differential Privacy
@@ -18,4 +18,4 @@ tags:
 - [[The Four Pillars]] - `defines` [EXTRACTED]
 - [[The Incomplete Stack]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Compliance__Deployment
+#graphify/document #graphify/EXTRACTED #community/Privacy-Enhancing_Technologies

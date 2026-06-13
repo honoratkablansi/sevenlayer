@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-38-snarky-ceremonies.pdf"
 type: "paper"
-community: "Universal SRS & Ceremonies"
+community: "Universal SRS & Sonic"
 location: "§4.1 Def 7, Fig 3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Universal_SRS__Ceremonies
+  - community/Universal_SRS__Sonic
 ---
 
 # Straight-line simulation-extractability in (RO,d-Poly) model (Def 7, O_se + O_poly oracles)
@@ -18,4 +18,4 @@ tags:
 - [[Theorem 2 Pi_dl is complete, perfect ZK, straight-line SE under (1,0)-dlog in AGM+RO]] - `proves` [EXTRACTED]
 - [[Transparent random oracle RO_0RO_1 (programmable weakening; simulator learns r)]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Universal_SRS__Ceremonies
+#graphify/paper #graphify/EXTRACTED #community/Universal_SRS__Sonic

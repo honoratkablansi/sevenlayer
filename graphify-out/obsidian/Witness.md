@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch04-execution-traces.md"
 type: "document"
-community: "Witness Generation & Hardware"
+community: "Witness Generation & Hashing"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Witness_Generation__Hardware
+  - community/Witness_Generation__Hashing
 ---
 
 # Witness
@@ -17,4 +17,4 @@ tags:
 - [[The Secret Performance]] - `defines` [EXTRACTED]
 - [[Witness-Constraint Divergence]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Witness_Generation__Hardware
+#graphify/document #graphify/EXTRACTED #community/Witness_Generation__Hashing

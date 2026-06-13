@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-21-neo.pdf"
 type: "paper"
-community: "zkVMs & STARK Stacks"
+community: "zkVM & STARK Stacks"
 location: "§1.1, §6"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/zkVMs__STARK_Stacks
+  - community/zkVM__STARK_Stacks
 ---
 
 # Small prime fields (machine-register-sized: Goldilocks, M61)
@@ -29,4 +29,4 @@ tags:
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 - [[zkVMs Across the Stack]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/zkVMs__STARK_Stacks
+#graphify/paper #graphify/EXTRACTED #community/zkVM__STARK_Stacks

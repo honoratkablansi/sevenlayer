@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/14-open-questions-and-the-road-ahead.md"
 type: "document"
-community: "ZK Crypto Foundations"
+community: "Core Concepts & Book Spine"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/ZK_Crypto_Foundations
+  - community/Core_Concepts__Book_Spine
 ---
 
 # Open Questions and the Road Ahead
@@ -39,7 +39,7 @@ tags:
 - [[PLONK]] - `references` [EXTRACTED]
 - [[Polynomial Commitment Scheme]] - `references` [EXTRACTED]
 - [[Poseidon Hash]] - `references` [EXTRACTED]
-- [[Post-Quantum Cryptography]] - `references` [EXTRACTED]
+- [[Post-Quantum Cryptography (NIST PQC standardization)]] - `references` [EXTRACTED]
 - [[Practical Security Analysis of Zero-Knowledge Proof Circuits]] - `cites` [EXTRACTED]
 - [[Proving CPU Executions in Small Space]] - `cites` [EXTRACTED]
 - [[Proving Nothing]] - `part_of` [EXTRACTED]
@@ -61,4 +61,4 @@ tags:
 - [[Zcash]] - `references` [EXTRACTED]
 - [[Zero-Knowledge Virtual Machine (zkVM)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/ZK_Crypto_Foundations
+#graphify/document #graphify/EXTRACTED #community/Core_Concepts__Book_Spine

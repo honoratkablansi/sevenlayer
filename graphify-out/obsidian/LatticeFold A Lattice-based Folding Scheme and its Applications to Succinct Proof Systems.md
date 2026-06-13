@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch06/ref-20-latticefold.pdf"
 type: "paper"
-community: "ZK Crypto Foundations"
+community: "Lattice Folding (LatticeFold)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/ZK_Crypto_Foundations
+  - community/Lattice_Folding_LatticeFold
 ---
 
 # LatticeFold: A Lattice-based Folding Scheme and its Applications to Succinct Proof Systems
@@ -25,7 +25,7 @@ tags:
 - [[Neo Lattice-based Folding Scheme for CCS over Small Fields and Pay-per-bit Commitments]] - `cites` [EXTRACTED]
 - [[Nova Folding Scheme (cited)]] - `cites` [EXTRACTED]
 - [[Nova Recursive Zero-Knowledge Arguments from Folding Schemes]] - `cites` [EXTRACTED]
-- [[Post-Quantum Cryptography]] - `conceptually_related_to` [EXTRACTED]
+- [[Post-Quantum Cryptography (NIST PQC standardization)]] - `conceptually_related_to` [EXTRACTED]
 - [[Proof-Carrying Data (PCD)]] - `conceptually_related_to` [EXTRACTED]
 - [[Protostar Folding Scheme (cited)]] - `cites` [EXTRACTED]
 - [[Protostar Generic Efficient AccumulationFolding for Special-sound Protocols]] - `cites` [EXTRACTED]
@@ -33,4 +33,4 @@ tags:
 - [[Sumcheck Protocol]] - `conceptually_related_to` [EXTRACTED]
 - [[The Synthesis -- Three Paths, Not Two]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/ZK_Crypto_Foundations
+#graphify/paper #graphify/EXTRACTED #community/Lattice_Folding_LatticeFold

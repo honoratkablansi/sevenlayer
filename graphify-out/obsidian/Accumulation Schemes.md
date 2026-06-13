@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-19-protostar.pdf"
 type: "document"
-community: "Nova Folding & IVC"
+community: "ProtoStar Accumulation"
 location: "abstract"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Nova_Folding__IVC
+  - community/ProtoStar_Accumulation
 ---
 
 # Accumulation Schemes
@@ -18,4 +18,4 @@ tags:
 - [[Nova Recursive Zero-Knowledge Arguments from Folding Schemes]] - `cites` [EXTRACTED]
 - [[Protostar Generic Efficient AccumulationFolding for Special-sound Protocols]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Nova_Folding__IVC
+#graphify/document #graphify/EXTRACTED #community/ProtoStar_Accumulation

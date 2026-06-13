@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-18-hypernova.pdf"
 type: "paper"
-community: "HyperNova Multifolding"
+community: "Recursive Proofs & IVC"
 location: "§1.3 / Theorem 1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/HyperNova_Multifolding
+  - community/Recursive_Proofs__IVC
 ---
 
 # No commitments to cross-terms efficiency claim
@@ -15,4 +15,4 @@ tags:
 - [[Sangria (folding scheme for Plonkish)]] - `conceptually_related_to` [EXTRACTED]
 - [[Theorem 1 (multi-folding scheme for CCS)]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/HyperNova_Multifolding
+#graphify/paper #graphify/EXTRACTED #community/Recursive_Proofs__IVC

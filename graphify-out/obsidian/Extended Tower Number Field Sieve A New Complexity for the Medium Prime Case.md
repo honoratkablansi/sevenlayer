@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-50-extended-tower-nfs.pdf"
 type: "paper"
-community: "ZK Crypto Foundations"
+community: "Extended Tower NFS"
 location: "page 1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/ZK_Crypto_Foundations
+  - community/Extended_Tower_NFS
 ---
 
 # Extended Tower Number Field Sieve: A New Complexity for the Medium Prime Case
@@ -18,5 +18,6 @@ tags:
 - [[Layer 6 -- The Deep Craft]] - `cites` [EXTRACTED]
 - [[Number Field Sieve]] - `references` [EXTRACTED]
 - [[The Synthesis -- Three Paths, Not Two]] - `cites` [EXTRACTED]
+- [[exTNFS (Extended Tower Number Field Sieve)]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/ZK_Crypto_Foundations
+#graphify/paper #graphify/EXTRACTED #community/Extended_Tower_NFS

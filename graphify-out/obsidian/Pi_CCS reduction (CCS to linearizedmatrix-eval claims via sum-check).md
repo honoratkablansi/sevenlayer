@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-21-neo.pdf"
 type: "paper"
-community: "Lattice Folding (Neo)"
+community: "Sumcheck SNARKs (SuperSpartan)"
 location: "§4.4"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Lattice_Folding_Neo
+  - community/Sumcheck_SNARKs_SuperSpartan
 ---
 
 # Pi_CCS reduction (CCS to linearized/matrix-eval claims via sum-check)
@@ -16,4 +16,4 @@ tags:
 - [[Sumcheck Protocol]] - `assumes` [EXTRACTED]
 - [[Theorem 5 composition theorem (restricted + relaxed knowledge soundness compose to RoK)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Lattice_Folding_Neo
+#graphify/paper #graphify/EXTRACTED #community/Sumcheck_SNARKs_SuperSpartan

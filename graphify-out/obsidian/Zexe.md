@@ -12,6 +12,7 @@ tags:
 
 ## Connections
 - [[Aztec]] - `conceptually_related_to` [EXTRACTED]
+- [[Kachina -- Foundations of Private Smart Contracts]] - `cites` [EXTRACTED]
 - [[Layer 5 -- The Sealed Certificate]] - `references` [EXTRACTED]
 - [[Privacy Architectures for Smart Contracts Kachina and Zexe]] - `defines` [EXTRACTED]
 - [[Privacy-Enhancing Technologies]] - `references` [EXTRACTED]

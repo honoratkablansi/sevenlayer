@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch04-witness-generation-costs.md"
 type: "document"
-community: "Witness Generation & Hardware"
+community: "Witness Generation & Hashing"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Witness_Generation__Hardware
+  - community/Witness_Generation__Hashing
 ---
 
 # Witness Generation Costs
@@ -34,4 +34,4 @@ tags:
 - [[Witness Generation]] - `references` [EXTRACTED]
 - [[ZKPoG (end-to-end GPU proving)]] - `cites` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Witness_Generation__Hardware
+#graphify/document #graphify/EXTRACTED #community/Witness_Generation__Hashing

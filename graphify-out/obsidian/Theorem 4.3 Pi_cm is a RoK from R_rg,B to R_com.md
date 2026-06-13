@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-11-latticefold-plus.pdf"
 type: "paper"
-community: "Sumcheck SNARKs (CCS/Lattice)"
+community: "Lattice Folding Soundness"
 location: "§4.4"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Sumcheck_SNARKs_CCS/Lattice
+  - community/Lattice_Folding_Soundness
 ---
 
 # Theorem 4.3: Pi_cm is a RoK from R_rg,B to R_com
@@ -16,4 +16,4 @@ tags:
 - [[Module-SIS]] - `assumes` [EXTRACTED]
 - [[Strong Sampling Set]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Sumcheck_SNARKs_CCS/Lattice
+#graphify/paper #graphify/EXTRACTED #community/Lattice_Folding_Soundness

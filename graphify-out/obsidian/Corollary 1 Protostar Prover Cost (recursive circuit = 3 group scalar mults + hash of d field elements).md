@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-19-protostar.pdf"
 type: "paper"
-community: "Nova Folding & IVC"
+community: "ProtoStar Accumulation"
 location: "§6 Corollary 1, Table 1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Nova_Folding__IVC
+  - community/ProtoStar_Accumulation
 ---
 
 # Corollary 1: Protostar Prover Cost (recursive circuit = 3 group scalar mults + hash of d* field elements)
@@ -16,4 +16,4 @@ tags:
 - [[Protostar Non-Uniform IVC Scheme for Multi-Circuit Plonkup R_mplkup]] - `proves` [EXTRACTED]
 - [[Theorem 3 IVC for High-Degree Special-Sound Protocols (recursive circuit k+d-1 or k+2 scalar mults)]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Nova_Folding__IVC
+#graphify/paper #graphify/EXTRACTED #community/ProtoStar_Accumulation

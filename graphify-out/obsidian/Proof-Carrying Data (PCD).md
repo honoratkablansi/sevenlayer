@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-18-hypernova.pdf"
 type: "document"
-community: "HyperNova Multifolding"
+community: "Recursive Proofs & IVC"
 location: "abstract"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/HyperNova_Multifolding
+  - community/Recursive_Proofs__IVC
 ---
 
 # Proof-Carrying Data (PCD)
@@ -16,4 +16,4 @@ tags:
 - [[LatticeFold A Lattice-based Folding Scheme and its Applications to Succinct Proof Systems]] - `conceptually_related_to` [EXTRACTED]
 - [[Non-uniform IVC (NIVC)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/HyperNova_Multifolding
+#graphify/document #graphify/EXTRACTED #community/Recursive_Proofs__IVC

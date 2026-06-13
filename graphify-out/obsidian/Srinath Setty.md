@@ -1,12 +1,12 @@
 ---
 source_file: "wiki/sections/ch02-the-quantum-shelf-life.md"
 type: "document"
-community: "Sumcheck & Proving Overhead"
+community: "Arithmetization & CCS"
 location: "Entities"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Sumcheck__Proving_Overhead
+  - community/Arithmetization__CCS
 ---
 
 # Srinath Setty
@@ -20,4 +20,4 @@ tags:
 - [[The Seven Questions That Remain Open]] - `references` [EXTRACTED]
 - [[The Sumcheck Protocol The Hidden Foundation]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Sumcheck__Proving_Overhead
+#graphify/document #graphify/EXTRACTED #community/Arithmetization__CCS

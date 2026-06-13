@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch04-memory-the-binding-constraint.md"
 type: "document"
-community: "Witness Generation & Hardware"
+community: "Witness Generation & Hashing"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Witness_Generation__Hardware
+  - community/Witness_Generation__Hashing
 ---
 
 # Memory: The Binding Constraint
@@ -26,4 +26,4 @@ tags:
 - [[Witness Generation Costs]] - `references` [EXTRACTED]
 - [[ZKPoG (end-to-end GPU proving)]] - `cites` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Witness_Generation__Hardware
+#graphify/document #graphify/EXTRACTED #community/Witness_Generation__Hashing

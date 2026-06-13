@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch03-the-developer-s-actual-experience.md"
 type: "document"
-community: "zkVMs & STARK Stacks"
+community: "zkVM Design Philosophy"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/zkVMs__STARK_Stacks
+  - community/zkVM_Design_Philosophy
 ---
 
 # The Developer's Actual Experience
@@ -23,4 +23,4 @@ tags:
 - [[SP1  SP1 Hypercube]] - `references` [EXTRACTED]
 - [[The Four Philosophies]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/zkVMs__STARK_Stacks
+#graphify/document #graphify/EXTRACTED #community/zkVM_Design_Philosophy

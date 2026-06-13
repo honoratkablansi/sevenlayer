@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch13-enterprise-pilots-pilot.md"
 type: "document"
-community: "ZK Identity & Enterprise"
+community: "ZK Identity & Market"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/ZK_Identity__Enterprise
+  - community/ZK_Identity__Market
 ---
 
 # DTCC (Depository Trust & Clearing Corporation)
@@ -14,4 +14,4 @@ tags:
 - [[Canton Network]] - `shares_data_with` [EXTRACTED]
 - [[Enterprise Pilots (Pilot)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/ZK_Identity__Enterprise
+#graphify/document #graphify/EXTRACTED #community/ZK_Identity__Market

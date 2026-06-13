@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch06/ref-22-frozen-heart.md"
 type: "document"
-community: "ZK Crypto Foundations"
+community: "Core Concepts & Book Spine"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/ZK_Crypto_Foundations
+  - community/Core_Concepts__Book_Spine
 ---
 
 # Frozen Heart: Forgery of Zero Knowledge Proofs (Trail of Bits, 2022)
@@ -21,4 +21,4 @@ tags:
 - [[Schnorr Proof System]] - `references` [EXTRACTED]
 - [[The Synthesis -- Three Paths, Not Two]] - `cites` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/ZK_Crypto_Foundations
+#graphify/document #graphify/EXTRACTED #community/Core_Concepts__Book_Spine

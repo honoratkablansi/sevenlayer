@@ -1,29 +1,36 @@
 ---
 type: community
-cohesion: 0.26
-members: 14
+cohesion: 0.14
+members: 21
 ---
 
 # Community 29
 
-**Cohesion:** 0.26 - loosely connected
-**Members:** 14 nodes
+**Cohesion:** 0.14 - loosely connected
+**Members:** 21 nodes
 
 ## Members
-- [[Aztec]] - document - wiki/sections/ch09-open-problems.md
-- [[CollaborativeThreshold Proving]] - document - proving-nothing.md
-- [[Composability When One PET Is Not Enough]] - document - wiki/sections/ch09-composability-when-one-pet-is-not-enough.md
-- [[Garbled Circuits]] - document - proving-nothing.md
-- [[Kachina]] - document - wiki/chapters/09-privacy-enhancing-technologies.md
-- [[Oblivious Transfer]] - document - proving-nothing.md
-- [[Open Problems]] - document - wiki/sections/ch09-open-problems.md
-- [[Privacy Architectures for Smart Contracts Kachina and Zexe]] - document - wiki/sections/ch09-privacy-architectures-for-smart-contracts-kachina-and-zexe.md
-- [[Privacy-Enhancing Technologies]] - document - wiki/chapters/09-privacy-enhancing-technologies.md
-- [[Private Information Retrieval (PIR)]] - document - wiki/sections/ch09-open-problems.md
-- [[Private Set Intersection (PSI)]] - document - proving-nothing.md
-- [[Secure Multi-Party Computation (MPC)]] - document - wiki/chapters/09-privacy-enhancing-technologies.md
-- [[Verifiable FHE (zkFHE)]] - document - proving-nothing.md
-- [[Zexe]] - document - wiki/chapters/06-the-sealed-certificate.md
+- [[Automated Detection of Under-Constrained Circuits in Zero-Knowledge Proofs]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[Circomlib Decoder Underconstrained Bug (motivating example)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[Compositional Counterexample Construction]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[Constrained Circuit (Definition 4.6)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[Constrained Variable (Definition 4.4)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[EdwardsToMontgomery Underconstrained Bug]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[Finite-Field SMT Solver (cvc5 fork)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[Groebner Basis Computation]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[InferValues Value Inference (Algorithm 3)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[QED2 (verification tool)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[QED2 Evaluation Results (70% solved, 8 vulnerabilities)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[SMT Query Procedure (Algorithm 4)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[SMT Solving]] - document - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[TornadoCash Underconstrained Circuit Hack]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[UCP Inference Rules (Assign, Base-Conv, BigInt-Mul, All-But-One-0)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[UCP Rule Soundness Proofs]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[Underconstrained Circuits]] - document - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[Uniqueness Constraint Propagation (UCP)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[Value Inference Soundness (Lemmas A.4, A.5)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[Verify Algorithm (Algorithm 1)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[ZkBench Benchmark Suite (163 Circom circuits)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -33,20 +40,14 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 21 edges to [[_COMMUNITY_Community 33]]
-- 8 edges to [[_COMMUNITY_Community 1]]
-- 6 edges to [[_COMMUNITY_Community 0]]
-- 5 edges to [[_COMMUNITY_Community 41]]
-- 4 edges to [[_COMMUNITY_Community 23]]
-- 2 edges to [[_COMMUNITY_Community 2]]
-- 2 edges to [[_COMMUNITY_Community 32]]
-- 1 edge to [[_COMMUNITY_Community 10]]
-- 1 edge to [[_COMMUNITY_Community 8]]
-- 1 edge to [[_COMMUNITY_Community 21]]
+- 7 edges to [[_COMMUNITY_Community 10]]
+- 5 edges to [[_COMMUNITY_Community 18]]
+- 1 edge to [[_COMMUNITY_Community 4]]
+- 1 edge to [[_COMMUNITY_Community 0]]
 
 ## Top bridge nodes
-- [[Privacy-Enhancing Technologies]] - degree 35, connects to 7 communities
-- [[Secure Multi-Party Computation (MPC)]] - degree 16, connects to 7 communities
-- [[Privacy Architectures for Smart Contracts Kachina and Zexe]] - degree 12, connects to 4 communities
-- [[Open Problems]] - degree 9, connects to 3 communities
-- [[Composability When One PET Is Not Enough]] - degree 8, connects to 2 communities
+- [[Automated Detection of Under-Constrained Circuits in Zero-Knowledge Proofs]] - degree 10, connects to 4 communities
+- [[Underconstrained Circuits]] - degree 12, connects to 2 communities
+- [[SMT Query Procedure (Algorithm 4)]] - degree 4, connects to 1 community
+- [[ZkBench Benchmark Suite (163 Circom circuits)]] - degree 3, connects to 1 community
+- [[Circomlib Decoder Underconstrained Bug (motivating example)]] - degree 2, connects to 1 community

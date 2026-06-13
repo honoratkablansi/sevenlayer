@@ -1,17 +1,18 @@
 ---
-source_file: "proving-nothing.md"
-type: "document"
-community: "Community 8"
-location: "What Shor's Algorithm Does"
+source_file: "references/ch07/ref-26-nist-ir-8547.pdf"
+type: "paper"
+community: "Community 61"
+location: "§2.1.1"
 tags:
-  - graphify/document
+  - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_8
+  - community/Community_61
 ---
 
 # Shor's Algorithm
 
 ## Connections
-- [[Layer 6 -- The Deep Craft]] - `references` [EXTRACTED]
+- [[Quantum-vulnerable digital signatures (ECDSA, EdDSA, RSA per FIPS 186)]] - `conceptually_related_to` [EXTRACTED]
+- [[RSA Cryptosystem]] - `conceptually_related_to` [INFERRED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_8
+#graphify/paper #graphify/EXTRACTED #community/Community_61

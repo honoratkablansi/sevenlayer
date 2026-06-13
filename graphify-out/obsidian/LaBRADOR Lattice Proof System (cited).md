@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-20-latticefold.pdf"
 type: "paper"
-community: "Lattice Folding (Symphony)"
+community: "Lattice Folding (LatticeFold)"
 location: "§1.1, §6"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Lattice_Folding_Symphony
+  - community/Lattice_Folding_LatticeFold
 ---
 
 # LaBRADOR Lattice Proof System (cited)
@@ -15,4 +15,4 @@ tags:
 - [[LatticeFold A Lattice-based Folding Scheme and its Applications to Succinct Proof Systems]] - `cites` [EXTRACTED]
 - [[Sumcheck-Based Norm-Bound Range Check]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Lattice_Folding_Symphony
+#graphify/paper #graphify/EXTRACTED #community/Lattice_Folding_LatticeFold

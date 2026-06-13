@@ -38,7 +38,7 @@ tags:
 - [[NeutronNova]] - `cites` [EXTRACTED]
 - [[Nova (CRYPTO'22)]] - `cites` [EXTRACTED]
 - [[Plausible post-quantum security from lattice (no DLOG reliance)]] - `proves` [EXTRACTED]
-- [[Post-Quantum Cryptography]] - `conceptually_related_to` [EXTRACTED]
+- [[Post-Quantum Cryptography (NIST PQC standardization)]] - `conceptually_related_to` [EXTRACTED]
 - [[Sumcheck Protocol]] - `conceptually_related_to` [EXTRACTED]
 - [[The Synthesis -- Three Paths, Not Two]] - `cites` [EXTRACTED]
 - [[Theorem 2 Ajtai scheme is S-homomorphic and (d,m,B)-binding under MSIS]] - `proves` [EXTRACTED]

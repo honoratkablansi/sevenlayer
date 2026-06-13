@@ -26,7 +26,7 @@ tags:
 - [[Low Degree Extension (LDE)]] - `assumes` [EXTRACTED]
 - [[Maximal interpolation degree d_max reduction (n·c·d vs prior n·c·w·d + n·c·s)]] - `conceptually_related_to` [EXTRACTED]
 - [[Merkle-tree commit-reveal (Kilian cut-and-choose)]] - `assumes` [EXTRACTED]
-- [[Post-Quantum Cryptography]] - `conceptually_related_to` [EXTRACTED]
+- [[Post-Quantum Cryptography (NIST PQC standardization)]] - `conceptually_related_to` [EXTRACTED]
 - [[Prior ZK-STIK for NPNEXP (Ben-Sasson et al. refs 17,15)]] - `cites` [EXTRACTED]
 - [[SCI  quasi-linear PCP STARK (Ben-Sasson et al. 2016, ref 13)]] - `cites` [EXTRACTED]
 - [[STARK (Scalable Transparent ARgument of Knowledge)]] - `defines` [EXTRACTED]

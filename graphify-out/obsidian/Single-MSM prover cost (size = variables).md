@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-18-hypernova.pdf"
 type: "paper"
-community: "HyperNova Multifolding"
+community: "Bulletproofs & Range Proofs"
 location: "Abstract / Theorem 3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/HyperNova_Multifolding
+  - community/Bulletproofs__Range_Proofs
 ---
 
 # Single-MSM prover cost (size = #variables)
@@ -15,4 +15,4 @@ tags:
 - [[Pedersen Commitments]] - `assumes` [EXTRACTED]
 - [[Theorem 3 (HyperNova NIVC scheme)]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/HyperNova_Multifolding
+#graphify/paper #graphify/EXTRACTED #community/Bulletproofs__Range_Proofs

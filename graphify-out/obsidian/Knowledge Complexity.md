@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch01/ref-02-gmr-knowledge-complexity.pdf"
 type: "document"
-community: "Foundations & SoK Surveys"
+community: "SNARK Vulnerabilities & Foundations"
 tags:
   - graphify/document
   - graphify/INFERRED
-  - community/Foundations__SoK_Surveys
+  - community/SNARK_Vulnerabilities__Foundations
 ---
 
 # Knowledge Complexity
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[The Knowledge Complexity of Interactive Proof Systems]] - `defines` [INFERRED]
 
-#graphify/document #graphify/INFERRED #community/Foundations__SoK_Surveys
+#graphify/document #graphify/INFERRED #community/SNARK_Vulnerabilities__Foundations

@@ -1,13 +1,13 @@
 ---
 type: community
-cohesion: 0.12
-members: 23
+cohesion: 0.13
+members: 22
 ---
 
 # Lattice PCS (Greyhound)
 
-**Cohesion:** 0.12 - loosely connected
-**Members:** 23 nodes
+**Cohesion:** 0.13 - loosely connected
+**Members:** 22 nodes
 
 ## Members
 - [[AVX-512 multi-modular NTT ring arithmetic library]] - paper - references/ch14/ref-65-greyhound.pdf
@@ -25,7 +25,6 @@ members: 23
 - [[KZG10 constant-size polynomial commitments]] - paper - references/ch14/ref-65-greyhound.pdf
 - [[LaBRADOR Proof System]] - document - references/ch14/ref-65-greyhound.pdf
 - [[Ligero (AHIV17) and Brakedown (GLS+21) hash-based PCs (baselines)]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[Module Learning With Errors (MLWE)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
 - [[Reduction of verification to a single short-norm linear relation over Rq]] - paper - references/ch14/ref-65-greyhound.pdf
 - [[SLAP succinct lattice polynomial commitments (AFLN24, EUROCRYPT 2024)]] - paper - references/ch14/ref-65-greyhound.pdf
 - [[Split-and-fold  folding paradigm]] - paper - references/ch14/ref-65-greyhound.pdf
@@ -42,16 +41,19 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 14 edges to [[_COMMUNITY_ZK Crypto Foundations]]
-- 4 edges to [[_COMMUNITY_KZG Polynomial Commitments]]
+- 5 edges to [[_COMMUNITY_Core Concepts & Book Spine]]
+- 5 edges to [[_COMMUNITY_Lattice Folding (Neo)]]
+- 4 edges to [[_COMMUNITY_Succinct Arguments & Streaming PIOPs]]
+- 3 edges to [[_COMMUNITY_Folding Genealogy & Post-Quantum]]
 - 3 edges to [[_COMMUNITY_Lattice Functional Commitments]]
-- 1 edge to [[_COMMUNITY_zkVMs & STARK Stacks]]
-- 1 edge to [[_COMMUNITY_Foundations & SoK Surveys]]
-- 1 edge to [[_COMMUNITY_Lattice Folding (Symphony)]]
+- 1 edge to [[_COMMUNITY_Trusted Setup Ceremonies]]
+- 1 edge to [[_COMMUNITY_ML-KEM (FIPS 203)]]
+- 1 edge to [[_COMMUNITY_STARK Foundations]]
+- 1 edge to [[_COMMUNITY_FHE & Lattice Folding (Symphony)]]
 
 ## Top bridge nodes
+- [[Greyhound polynomial commitment scheme]] - degree 14, connects to 6 communities
 - [[Greyhound Fast Polynomial Commitments from Lattices]] - degree 17, connects to 4 communities
-- [[Greyhound polynomial commitment scheme]] - degree 14, connects to 4 communities
 - [[Inner and outer commitment construction]] - degree 4, connects to 1 community
 - [[Coordinate-wise special soundness analysis (CWSS)]] - degree 3, connects to 1 community
 - [[Theorem 4.1 completeness, weak binding, knowledge soundness of PCS]] - degree 3, connects to 1 community

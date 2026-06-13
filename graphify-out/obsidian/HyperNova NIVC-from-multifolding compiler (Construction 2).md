@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-18-hypernova.pdf"
 type: "paper"
-community: "HyperNova Multifolding"
+community: "Recursive Proofs & IVC"
 location: "§6.3 Construction 2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/HyperNova_Multifolding
+  - community/Recursive_Proofs__IVC
 ---
 
 # HyperNova: NIVC-from-multifolding compiler (Construction 2)
@@ -17,4 +17,4 @@ tags:
 - [[Non-uniform IVC (NIVC)]] - `defines` [EXTRACTED]
 - [[Theorem 3 (HyperNova NIVC scheme)]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/HyperNova_Multifolding
+#graphify/paper #graphify/EXTRACTED #community/Recursive_Proofs__IVC

@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch03-under-constrained-circuits-the-dominant-failure-mode.md"
 type: "paper"
-community: "ZK Bug Tooling"
+community: "zkVM Design Philosophy"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/ZK_Bug_Tooling
+  - community/zkVM_Design_Philosophy
 ---
 
 # Picus (QED^2)
@@ -14,4 +14,4 @@ tags:
 - [[Under-Constrained Circuits The Dominant Failure Mode]] - `references` [EXTRACTED]
 - [[Witness-Constraint Divergence]] - `references` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/ZK_Bug_Tooling
+#graphify/paper #graphify/EXTRACTED #community/zkVM_Design_Philosophy

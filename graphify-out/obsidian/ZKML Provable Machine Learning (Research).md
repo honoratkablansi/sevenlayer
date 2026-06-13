@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch13-zkml-provable-machine-learning-research.md"
 type: "document"
-community: "zkVMs & STARK Stacks"
+community: "ZKML & Coprocessors"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/zkVMs__STARK_Stacks
+  - community/ZKML__Coprocessors
 ---
 
 # ZKML: Provable Machine Learning (Research)
@@ -22,4 +22,4 @@ tags:
 - [[ZK Coprocessors Off-Chain Computation, On-Chain Verification (Growth)]] - `references` [EXTRACTED]
 - [[ZKML (Provable Machine Learning)]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/zkVMs__STARK_Stacks
+#graphify/document #graphify/EXTRACTED #community/ZKML__Coprocessors

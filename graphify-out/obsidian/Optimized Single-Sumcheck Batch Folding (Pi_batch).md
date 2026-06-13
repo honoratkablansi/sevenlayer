@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-20-latticefold.pdf"
 type: "paper"
-community: "Lattice Folding (Symphony)"
+community: "Lattice Folding (LatticeFold)"
 location: "§4.3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Lattice_Folding_Symphony
+  - community/Lattice_Folding_LatticeFold
 ---
 
 # Optimized Single-Sumcheck Batch Folding (Pi_batch)
@@ -15,4 +15,4 @@ tags:
 - [[Lattice-Based CCS Folding Scheme]] - `introduces` [EXTRACTED]
 - [[Sumcheck Protocol]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Lattice_Folding_Symphony
+#graphify/paper #graphify/EXTRACTED #community/Lattice_Folding_LatticeFold

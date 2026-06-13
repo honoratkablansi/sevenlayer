@@ -1,16 +1,17 @@
 ---
 source_file: "wiki/chapters/01-the-promise-of-provable-and-programmable-secrets.md"
 type: "document"
-community: "Programmable Privacy & Midnight"
+community: "Core Concepts & Book Spine"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Programmable_Privacy__Midnight
+  - community/Core_Concepts__Book_Spine
 ---
 
 # Groth16
 
 ## Connections
+- [[BLS12-381 new pairing-friendly curve, 384-bit base field, 256-bit group order, 128-bit security]] - `conceptually_related_to` [EXTRACTED]
 - [[BN254 Curve]] - `conceptually_related_to` [EXTRACTED]
 - [[BN254's Eroding Security Margin]] - `conceptually_related_to` [EXTRACTED]
 - [[CCS The Rosetta Stone]] - `references` [EXTRACTED]
@@ -18,6 +19,7 @@ tags:
 - [[Choreographing the Act]] - `references` [EXTRACTED]
 - [[Coda]] - `references` [EXTRACTED]
 - [[Encoding the Performance]] - `references` [EXTRACTED]
+- [[Extended Groth CRS depth-two-circuit-computable CRS enabling two-phase px-MPC]] - `conceptually_related_to` [EXTRACTED]
 - [[Glossary of Key Terms]] - `defines` [EXTRACTED]
 - [[Layer 1 -- Building the Stage]] - `references` [EXTRACTED]
 - [[Layer 5 -- The Sealed Certificate]] - `references` [EXTRACTED]
@@ -35,10 +37,11 @@ tags:
 - [[Path Two Pure Transparent]] - `conceptually_related_to` [EXTRACTED]
 - [[Pricing Attacks]] - `references` [EXTRACTED]
 - [[Proof Aggregation The Missing Layer]] - `references` [EXTRACTED]
+- [[Quadratic Arithmetic Programs]] - `conceptually_related_to` [EXTRACTED]
 - [[Real-Time Ethereum Proving]] - `references` [EXTRACTED]
 - [[Recursion vs. Folding Russian Dolls and Snowballs]] - `references` [EXTRACTED]
 - [[SNARK Recursion vs. Folding The Full Picture]] - `references` [EXTRACTED]
-- [[Scalable Multi-party Computation for zk-SNARK Parameters in the Random Beacon Model]] - `conceptually_related_to` [EXTRACTED]
+- [[Scalable Multi-party Computation for zk-SNARK Parameters in the Random Beacon Model]] - `cites` [EXTRACTED]
 - [[Sealing the Certificate]] - `references` [EXTRACTED]
 - [[Side-Channel Attacks When the Walls Leak]] - `references` [EXTRACTED]
 - [[Snarky Ceremonies]] - `references` [EXTRACTED]
@@ -81,4 +84,4 @@ tags:
 - [[ZK Rollups The Proving Grounds (Production)]] - `references` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Programmable_Privacy__Midnight
+#graphify/document #graphify/EXTRACTED #community/Core_Concepts__Book_Spine

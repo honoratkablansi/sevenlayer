@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch03-under-constrained-circuits-the-dominant-failure-mode.md"
 type: "document"
-community: "ZK Bug Tooling"
+community: "zkVM Design Philosophy"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/ZK_Bug_Tooling
+  - community/zkVM_Design_Philosophy
 ---
 
 # Under-Constrained Circuits: The Dominant Failure Mode
@@ -28,4 +28,4 @@ tags:
 - [[ZKAP (Circuit Dependence Graph static analysis)]] - `cites` [EXTRACTED]
 - [[zkFuzz]] - `cites` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/ZK_Bug_Tooling
+#graphify/document #graphify/EXTRACTED #community/zkVM_Design_Philosophy

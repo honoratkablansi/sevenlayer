@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-56-symphony.pdf"
 type: "paper"
-community: "Lattice Folding (Symphony)"
+community: "FHE & Lattice Folding (Symphony)"
 location: "§8"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Lattice_Folding_Symphony
+  - community/FHE__Lattice_Folding_Symphony
 ---
 
 # Two-layer folding via splitting linear-statement RoK (§8), under stronger structured-MSIS
@@ -16,4 +16,4 @@ tags:
 - [[Module-SIS]] - `assumes` [EXTRACTED]
 - [[Symphony Scalable SNARKs in the Random Oracle Model from Lattice-Based High-Arity Folding]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Lattice_Folding_Symphony
+#graphify/paper #graphify/EXTRACTED #community/FHE__Lattice_Folding_Symphony

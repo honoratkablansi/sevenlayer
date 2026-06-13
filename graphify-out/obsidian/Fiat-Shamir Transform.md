@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/01-the-promise-of-provable-and-programmable-secrets.md"
 type: "document"
-community: "ZK Crypto Foundations"
+community: "Core Concepts & Book Spine"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/ZK_Crypto_Foundations
+  - community/Core_Concepts__Book_Spine
 ---
 
 # Fiat-Shamir Transform
@@ -18,6 +18,7 @@ tags:
 - [[Encoding the Performance]] - `references` [EXTRACTED]
 - [[FS-GKR Fiat-Shamir attacks (KRS25) motivating recursion avoidance]] - `conceptually_related_to` [EXTRACTED]
 - [[Fiat-Shamir Vulnerabilities]] - `defines` [EXTRACTED]
+- [[Fiat-Shamir With Aborts construction (Schnorr-like signature with rejection sampling on the response)]] - `conceptually_related_to` [EXTRACTED]
 - [[From Speed Race to Security Race]] - `references` [EXTRACTED]
 - [[Frozen Heart Vulnerability]] - `conceptually_related_to` [EXTRACTED]
 - [[Frozen Heart Forgery of Zero Knowledge Proofs (Trail of Bits, 2022)]] - `references` [EXTRACTED]
@@ -25,6 +26,7 @@ tags:
 - [[Governance The Achilles Heel]] - `references` [EXTRACTED]
 - [[Greyhound polynomial commitment scheme]] - `assumes` [EXTRACTED]
 - [[Greyhound Fast Polynomial Commitments from Lattices]] - `references` [EXTRACTED]
+- [[Last Challenge Attack (FS flaw in KZG-based SNARK final batching challenge)]] - `conceptually_related_to` [EXTRACTED]
 - [[Layer 5 -- The Sealed Certificate]] - `references` [EXTRACTED]
 - [[Layer 6 -- The Deep Craft]] - `references` [EXTRACTED]
 - [[Layer 7 -- The Verdict]] - `references` [EXTRACTED]
@@ -57,4 +59,4 @@ tags:
 - [[ZK Rollups The Proving Grounds (Production)]] - `references` [EXTRACTED]
 - [[zkSNARK for Committed Relaxed R1CS (adapted Spartan)]] - `assumes` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/ZK_Crypto_Foundations
+#graphify/document #graphify/EXTRACTED #community/Core_Concepts__Book_Spine

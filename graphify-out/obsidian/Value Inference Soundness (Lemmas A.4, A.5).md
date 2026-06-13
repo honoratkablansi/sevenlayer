@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch03/ref-12-underconstrained-circuits.pdf"
 type: "paper"
-community: "QED2 Detection Algorithm"
+community: "Under-Constrained Detection (QED2)"
 location: "Appendix A.2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/QED2_Detection_Algorithm
+  - community/Under-Constrained_Detection_QED2
 ---
 
 # Value Inference Soundness (Lemmas A.4, A.5)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[InferValues Value Inference (Algorithm 3)]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/QED2_Detection_Algorithm
+#graphify/paper #graphify/EXTRACTED #community/Under-Constrained_Detection_QED2

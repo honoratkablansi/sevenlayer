@@ -1,16 +1,15 @@
 ---
 type: community
-cohesion: 0.12
-members: 25
+cohesion: 0.13
+members: 24
 ---
 
 # Algebraic RAM Proofs
 
-**Cohesion:** 0.12 - loosely connected
-**Members:** 25 nodes
+**Cohesion:** 0.13 - loosely connected
+**Members:** 24 nodes
 
 ## Members
-- [[Address-grouping suffices (a-group + t-order) instead of full (a,t)-ordering]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
 - [[Algebraic Interactive Proof (AIP) public-coin IP with arithmetic-circuit verifier]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
 - [[Bezout's identity for univariate polynomials (uniquenessdisjointness tool)]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
 - [[CP-Mirage+ commit-and-prove zkSNARK for AIPs with Pedersen-committed witnesses]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
@@ -44,20 +43,17 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 2 edges to [[_COMMUNITY_Lasso Lookup Arguments]]
+- 2 edges to [[_COMMUNITY_Core Concepts & Book Spine]]
+- 2 edges to [[_COMMUNITY_Arithmetization & CCS]]
+- 2 edges to [[_COMMUNITY_zkVM & STARK Stacks]]
 - 2 edges to [[_COMMUNITY_Memory Checking & Sparse PCS]]
-- 1 edge to [[_COMMUNITY_Witness Generation & Hardware]]
-- 1 edge to [[_COMMUNITY_ZK Crypto Foundations]]
-- 1 edge to [[_COMMUNITY_Programmable Privacy & Midnight]]
-- 1 edge to [[_COMMUNITY_Arithmetization & CCS]]
+- 1 edge to [[_COMMUNITY_Witness Generation & Hashing]]
 - 1 edge to [[_COMMUNITY_Lattice Functional Commitments]]
-- 1 edge to [[_COMMUNITY_Under-Constrained Circuits (Picus)]]
-- 1 edge to [[_COMMUNITY_Sumcheck & Proving Overhead]]
+- 1 edge to [[_COMMUNITY_Circuit Verification (Coda)]]
 - 1 edge to [[_COMMUNITY_PLONK & Permutation Arguments]]
 
 ## Top bridge nodes
-- [[Volatile and Persistent Memory for zkSNARKs via Algebraic Interactive Proofs]] - degree 16, connects to 6 communities
+- [[Volatile and Persistent Memory for zkSNARKs via Algebraic Interactive Proofs]] - degree 16, connects to 4 communities
 - [[Volatile RAM AIP (zeroed init, uncommitted final)]] - degree 8, connects to 2 communities
 - [[zkSNARK]] - degree 5, connects to 2 communities
-- [[Address-grouping suffices (a-group + t-order) instead of full (a,t)-ordering]] - degree 2, connects to 1 community
 - [[Pi_active active-cell selection via H_r permutation proofs, V-cost 3N+2A+O(1)]] - degree 2, connects to 1 community

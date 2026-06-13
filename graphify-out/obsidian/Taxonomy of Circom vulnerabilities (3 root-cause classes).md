@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch03/ref-13-practical-security-zk-circuits.pdf"
 type: "paper"
-community: "Circom Vulnerability Taxonomy"
+community: "Circuit Static Analysis (ZKAP)"
 location: "§3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Circom_Vulnerability_Taxonomy
+  - community/Circuit_Static_Analysis_ZKAP
 ---
 
 # Taxonomy of Circom vulnerabilities (3 root-cause classes)
@@ -17,4 +17,4 @@ tags:
 - [[Practical Security Analysis of Zero-Knowledge Proof Circuits]] - `introduces` [EXTRACTED]
 - [[Unsafe component usage vulnerability class]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Circom_Vulnerability_Taxonomy
+#graphify/paper #graphify/EXTRACTED #community/Circuit_Static_Analysis_ZKAP

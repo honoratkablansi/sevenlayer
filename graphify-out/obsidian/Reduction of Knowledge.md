@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-20-latticefold.pdf"
 type: "paper"
-community: "Lattice Folding (Symphony)"
+community: "FHE & Lattice Folding (Symphony)"
 location: "§2.5"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Lattice_Folding_Symphony
+  - community/FHE__Lattice_Folding_Symphony
 ---
 
 # Reduction of Knowledge
@@ -19,4 +19,4 @@ tags:
 - [[RoK Pi_had reducing batched HadamardR1CS relation to linear relation (Prop 3.1)]] - `conceptually_related_to` [EXTRACTED]
 - [[Theorem 3.1 LatticeFold Folding Reduction]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Lattice_Folding_Symphony
+#graphify/paper #graphify/EXTRACTED #community/FHE__Lattice_Folding_Symphony

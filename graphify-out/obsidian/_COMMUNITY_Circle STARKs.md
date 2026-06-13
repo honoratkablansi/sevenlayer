@@ -1,13 +1,13 @@
 ---
 type: community
 cohesion: 0.12
-members: 27
+members: 26
 ---
 
 # Circle STARKs
 
 **Cohesion:** 0.12 - loosely connected
-**Members:** 27 nodes
+**Members:** 26 nodes
 
 ## Members
 - [[Batch circle FRI soundness error (Theorem 6, eps_PROX)]] - paper - references/ch06/ref-23-circle-starks.pdf
@@ -17,7 +17,6 @@ members: 27
 - [[Circle FRI low-degree test  IOP of proximity (Protocol 1 & 2)]] - paper - references/ch06/ref-23-circle-starks.pdf
 - [[Circle STARK AIR soundness & knowledge-soundness error (Theorem 78)]] - paper - references/ch06/ref-23-circle-starks.pdf
 - [[Circle STARK interactive oracle proof for AIR]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[Circle STARKs_1]] - paper - references/ch06/ref-23-circle-starks.pdf
 - [[Circle code (MDS algebraic-geometry  generalized Reed-Solomon code)]] - paper - references/ch06/ref-23-circle-starks.pdf
 - [[Circle group  circle curve x2+y2=1]] - paper - references/ch06/ref-23-circle-starks.pdf
 - [[Correlated agreement theorem for Reed-Solomon codes]] - paper - references/ch06/ref-23-circle-starks.pdf
@@ -46,12 +45,11 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 5 edges to [[_COMMUNITY_zkVMs & STARK Stacks]]
-- 3 edges to [[_COMMUNITY_ZK Crypto Foundations]]
-- 1 edge to [[_COMMUNITY_Foundations & SoK Surveys]]
-- 1 edge to [[_COMMUNITY_Arithmetization & CCS]]
+- 7 edges to [[_COMMUNITY_Core Concepts & Book Spine]]
 
 ## Top bridge nodes
-- [[Circle STARKs_1]] - degree 13, connects to 4 communities
 - [[Circle STARK interactive oracle proof for AIR]] - degree 8, connects to 1 community
+- [[Circle group  circle curve x2+y2=1]] - degree 5, connects to 1 community
 - [[Circle FRI low-degree test  IOP of proximity (Protocol 1 & 2)]] - degree 5, connects to 1 community
+- [[Elliptic Curve FFT (ECFFT)]] - degree 3, connects to 1 community
+- [[Mersenne Prime M31 (231 - 1)]] - degree 3, connects to 1 community

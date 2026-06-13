@@ -1,36 +1,39 @@
 ---
 type: community
-cohesion: 0.13
-members: 21
+cohesion: 0.12
+members: 24
 ---
 
 # Community 21
 
-**Cohesion:** 0.13 - loosely connected
-**Members:** 21 nodes
+**Cohesion:** 0.12 - loosely connected
+**Members:** 24 nodes
 
 ## Members
-- [[Automated find-and-prove-bug pipeline (SMT + ZKP)]] - paper - references/ch10/ref-33-circ.pdf
-- [[Breakable block (exceptional control flow construct)]] - paper - references/ch10/ref-33-circ.pdf
-- [[CirC ILP back-end (CBC solver)]] - paper - references/ch10/ref-33-circ.pdf
-- [[CirC R1CS back-end (lowering pass)]] - paper - references/ch10/ref-33-circ.pdf
-- [[CirC SMT back-end (Z3 Haskell bindings)]] - paper - references/ch10/ref-33-circ.pdf
-- [[CirC ZoKratesZ front-end]] - paper - references/ch10/ref-33-circ.pdf
-- [[CirC-IR (SMT-LIB-based circuit IR)]] - paper - references/ch10/ref-33-circ.pdf
-- [[CirC shared compiler infrastructure for EQCs]] - paper - references/ch10/ref-33-circ.pdf
-- [[Circify language-independent state-management library]] - paper - references/ch10/ref-33-circ.pdf
-- [[Compiler intermediate representation]] - paper - references/ch10/ref-33-circ.pdf
-- [[Constant folding  SMT term rewriting pass]] - paper - references/ch10/ref-33-circ.pdf
-- [[Existentially Quantified Circuit (EQC)]] - paper - references/ch10/ref-33-circ.pdf
-- [[Fine-grained array modeling]] - paper - references/ch10/ref-33-circ.pdf
-- [[Guarded SSA versioning via ITE terms]] - paper - references/ch10/ref-33-circ.pdf
-- [[LLVM Compiler Infrastructure]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
-- [[Linearity reduction (R1CS-specific optimization)]] - paper - references/ch10/ref-33-circ.pdf
-- [[Oblivious array elimination pass]] - paper - references/ch10/ref-33-circ.pdf
-- [[SMT-guided loop-unroll bound inference]] - paper - references/ch10/ref-33-circ.pdf
-- [[Satisfiability Modulo Theories (SMT)]] - paper - references/ch10/ref-33-circ.pdf
-- [[ZKlog Datalog dialect front-end]] - paper - references/ch10/ref-33-circ.pdf
-- [[Zero-knowledge proof system]] - paper - references/ch10/ref-33-circ.pdf
+- [[Authentic sources & attribute verification (Art. 3(47); Art. 45e)]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[Certification of EUDI Wallets (Art. 5c)]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[Common dashboard transaction log, GDPR Art.17 erasure, DPA reporting (Art. 5a(4)(d))]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[Data minimization]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[Definition 'European Digital Identity Wallet' (Art. 3(42))]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[EUDI Wallet (Art. 5a) user-controlled cross-border eID means]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[EUDI Wallet relying parties registration, intended-use declaration (Art. 5b)]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[Electronic Attestation of Attributes (EAA) (Art. 3(44); Art. 45b)]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[European Digital Identity Framework (amending Reg 9102014)]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[European Digital Identity Wallet]] - document - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[GDPR  Reg 2016679 compliance & purpose limitation (Art. 5a(17); Recital 12)]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[Issuance with complete certainty of identityattributes (Recital 74)]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[Levels of assurance wallet at assurance level 'high' (Art. 8; Art. 5a(11))]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[Privacy-preserving  no-tracking technical framework (Art. 5a(16))]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[QTSP non-combination of personal data  wallet-issuer blindness (Art. 45h; Art. 5a(5)(b))]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[Qualified Electronic Attestation of Attributes (QEAA) (Art. 3(45); Art. 45d, Annex V)]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[Qualified Trust Service Provider  qualified trust services]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[Regulation (EU) 2016679 (GDPR)]] - document - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[Regulation (EU) 20241183 establishing the European Digital Identity Framework (eIDAS 2)]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[Selective Disclosure]] - document - references/ch12/ref-41-midnight-developer-guide.md
+- [[Sole user control & logical data separation (Art. 5a(14))]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[Unlinkability]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[User-chosen pseudonyms (Art. 5a(4)(b); Recital 22)]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[Voluntary use, open-source, free-of-charge wallet (Art. 5a(3),(13),(15))]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -40,15 +43,13 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 3 edges to [[_COMMUNITY_Community 10]]
-- 2 edges to [[_COMMUNITY_Community 41]]
-- 2 edges to [[_COMMUNITY_Community 15]]
-- 1 edge to [[_COMMUNITY_Community 29]]
-- 1 edge to [[_COMMUNITY_Community 2]]
+- 5 edges to [[_COMMUNITY_Community 0]]
+- 5 edges to [[_COMMUNITY_Community 13]]
+- 2 edges to [[_COMMUNITY_Community 14]]
 
 ## Top bridge nodes
-- [[CirC shared compiler infrastructure for EQCs]] - degree 6, connects to 3 communities
-- [[Existentially Quantified Circuit (EQC)]] - degree 5, connects to 2 communities
-- [[Satisfiability Modulo Theories (SMT)]] - degree 5, connects to 1 community
-- [[CirC R1CS back-end (lowering pass)]] - degree 5, connects to 1 community
-- [[LLVM Compiler Infrastructure]] - degree 2, connects to 1 community
+- [[Regulation (EU) 20241183 establishing the European Digital Identity Framework (eIDAS 2)]] - degree 7, connects to 3 communities
+- [[Selective Disclosure]] - degree 7, connects to 2 communities
+- [[EUDI Wallet (Art. 5a) user-controlled cross-border eID means]] - degree 15, connects to 1 community
+- [[Unlinkability]] - degree 4, connects to 1 community
+- [[Privacy-preserving  no-tracking technical framework (Art. 5a(16))]] - degree 3, connects to 1 community

@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch07-four-families-of-commitment-schemes.md"
 type: "document"
-community: "ZK Crypto Foundations"
+community: "Folding Genealogy & Post-Quantum"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/ZK_Crypto_Foundations
+  - community/Folding_Genealogy__Post-Quantum
 ---
 
 # Four Families of Commitment Schemes
@@ -25,7 +25,7 @@ tags:
 - [[Layer 6 -- The Deep Craft]] - `part_of` [EXTRACTED]
 - [[Module-SIS]] - `references` [EXTRACTED]
 - [[Pedersen Commitments]] - `references` [EXTRACTED]
-- [[Post-Quantum Cryptography]] - `references` [EXTRACTED]
+- [[Post-Quantum Cryptography (NIST PQC standardization)]] - `references` [EXTRACTED]
 - [[SNARK Recursion vs. Folding The Full Picture]] - `references` [EXTRACTED]
 - [[STARK (Scalable Transparent ARgument of Knowledge)]] - `references` [EXTRACTED]
 - [[Small Fields]] - `references` [EXTRACTED]
@@ -38,4 +38,4 @@ tags:
 - [[Trusted Setup]] - `references` [EXTRACTED]
 - [[Zcash]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/ZK_Crypto_Foundations
+#graphify/document #graphify/EXTRACTED #community/Folding_Genealogy__Post-Quantum

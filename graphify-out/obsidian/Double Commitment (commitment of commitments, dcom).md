@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-11-latticefold-plus.pdf"
 type: "paper"
-community: "Lattice Folding (Neo)"
+community: "Lattice Folding (LatticeFold+)"
 location: "§4.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Lattice_Folding_Neo
+  - community/Lattice_Folding_LatticeFold
 ---
 
 # Double Commitment (commitment of commitments, dcom)
@@ -19,4 +19,4 @@ tags:
 - [[Range Check Protocol Pi_rgchk (double-commitment range proof)]] - `conceptually_related_to` [EXTRACTED]
 - [[splitpow Maps & Gadget Decomposition]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Lattice_Folding_Neo
+#graphify/paper #graphify/EXTRACTED #community/Lattice_Folding_LatticeFold

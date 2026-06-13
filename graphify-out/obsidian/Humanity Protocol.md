@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch13-zk-identity-growth-regulatory-mandate.md"
 type: "document"
-community: "ZK Identity & Enterprise"
+community: "ZK Identity & Market"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/ZK_Identity__Enterprise
+  - community/ZK_Identity__Market
 ---
 
 # Humanity Protocol
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[ZK Identity (Growth  Regulatory Mandate)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/ZK_Identity__Enterprise
+#graphify/document #graphify/EXTRACTED #community/ZK_Identity__Market

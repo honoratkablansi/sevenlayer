@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-11-latticefold-plus.pdf"
 type: "paper"
-community: "Sumcheck SNARKs (CCS/Lattice)"
+community: "Sumcheck SNARKs (SuperSpartan)"
 location: "§2.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Sumcheck_SNARKs_CCS/Lattice
+  - community/Sumcheck_SNARKs_SuperSpartan
 ---
 
 # Lemma 2.1: a(X^2)=a(X)^2 iff a is a monomial
@@ -15,4 +15,4 @@ tags:
 - [[Monomial Set Check Pi_mon]] - `assumes` [EXTRACTED]
 - [[Schwartz-Zippel Lemma]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Sumcheck_SNARKs_CCS/Lattice
+#graphify/paper #graphify/EXTRACTED #community/Sumcheck_SNARKs_SuperSpartan

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch03/ref-14-ccs-customizable-constraints.pdf"
 type: "paper"
-community: "KZG Polynomial Commitments"
+community: "Succinct Arguments & Streaming PIOPs"
 location: "§6 Thm 3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/KZG_Polynomial_Commitments
+  - community/Succinct_Arguments__Streaming_PIOPs
 ---
 
 # Theorem 3: family of preprocessing SNARKs for CCS via PIOP + sparse poly commitment + Fiat-Shamir
@@ -18,4 +18,4 @@ tags:
 - [[Sparse multilinear polynomial commitment (Spartan compiler)]] - `assumes` [EXTRACTED]
 - [[SuperSpartan SNARK family for CCS generalizing Spartan's polynomial IOP]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/KZG_Polynomial_Commitments
+#graphify/paper #graphify/EXTRACTED #community/Succinct_Arguments__Streaming_PIOPs

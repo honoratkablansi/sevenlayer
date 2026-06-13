@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-20-latticefold.pdf"
 type: "paper"
-community: "Lattice Folding (Symphony)"
+community: "Lattice Folding (LatticeFold)"
 location: "§3.2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Lattice_Folding_Symphony
+  - community/Lattice_Folding_LatticeFold
 ---
 
 # Expansion-Decomposition-Folding Pipeline (Pi_mfold)
@@ -20,4 +20,4 @@ tags:
 - [[Theorem 3.1 LatticeFold Folding Reduction]] - `proves` [EXTRACTED]
 - [[Theorem 3.3 Folding Knowledge Soundness]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Lattice_Folding_Symphony
+#graphify/paper #graphify/EXTRACTED #community/Lattice_Folding_LatticeFold

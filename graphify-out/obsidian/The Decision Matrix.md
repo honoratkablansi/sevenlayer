@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch09-the-decision-matrix.md"
 type: "document"
-community: "Compliance & Deployment"
+community: "Privacy-Enhancing Technologies"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Compliance__Deployment
+  - community/Privacy-Enhancing_Technologies
 ---
 
 # The Decision Matrix
@@ -13,7 +13,7 @@ tags:
 ## Connections
 - [[Composability When One PET Is Not Enough]] - `references` [EXTRACTED]
 - [[Differential Privacy]] - `conceptually_related_to` [EXTRACTED]
-- [[Fully Homomorphic Encryption (FHE)]] - `conceptually_related_to` [EXTRACTED]
+- [[Fully homomorphic encryption (homomorphic for all circuits)]] - `conceptually_related_to` [EXTRACTED]
 - [[GDPR]] - `conceptually_related_to` [EXTRACTED]
 - [[Privacy-Enhancing Technologies]] - `part_of` [EXTRACTED]
 - [[Real-World Deployments Five Case Studies]] - `references` [EXTRACTED]
@@ -26,4 +26,4 @@ tags:
 - [[eIDAS 2.0]] - `conceptually_related_to` [EXTRACTED]
 - [[zKYC (Zero-Knowledge Know Your Customer)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Compliance__Deployment
+#graphify/document #graphify/EXTRACTED #community/Privacy-Enhancing_Technologies

@@ -22,5 +22,7 @@
   "concept_zero-knowledge": "concept_zero-knowledge-proof",
   "concept_rollup": "concept_zk-rollup",
   "concept_accumulation-scheme": "concept_accumulation",
-  "concept_small-field": "concept_small-fields"
+  "concept_small-field": "concept_small-fields",
+  "concept_fhe": "concept_fully-homomorphic-encryption",
+  "concept_post-quantum": "concept_post-quantum-cryptography"
 }

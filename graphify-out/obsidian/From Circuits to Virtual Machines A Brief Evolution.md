@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch03-from-circuits-to-virtual-machines-a-brief-evolution.md"
 type: "document"
-community: "zkVMs & STARK Stacks"
+community: "zkVM Design Philosophy"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/zkVMs__STARK_Stacks
+  - community/zkVM_Design_Philosophy
 ---
 
 # From Circuits to Virtual Machines: A Brief Evolution
@@ -29,4 +29,4 @@ tags:
 - [[Under-Constrained Circuits The Dominant Failure Mode]] - `references` [EXTRACTED]
 - [[ZisK]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/zkVMs__STARK_Stacks
+#graphify/document #graphify/EXTRACTED #community/zkVM_Design_Philosophy

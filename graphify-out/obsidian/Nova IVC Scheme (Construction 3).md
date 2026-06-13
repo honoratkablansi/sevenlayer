@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-17-nova.pdf"
 type: "paper"
-community: "Nova Folding & IVC"
+community: "Nova IVC Construction"
 location: "§5.1 Construction 3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Nova_Folding__IVC
+  - community/Nova_IVC_Construction
 ---
 
 # Nova IVC Scheme (Construction 3)
@@ -20,4 +20,4 @@ tags:
 - [[Nova Recursive Zero-Knowledge Arguments from Folding Schemes]] - `introduces` [EXTRACTED]
 - [[zkSNARK of a Valid IVC Proof (Construction 4)]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Nova_Folding__IVC
+#graphify/paper #graphify/EXTRACTED #community/Nova_IVC_Construction

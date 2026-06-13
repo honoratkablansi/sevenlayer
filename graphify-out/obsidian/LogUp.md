@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/concepts/logup.md"
 type: "document"
-community: "Sumcheck & Proving Overhead"
+community: "zkVM & STARK Stacks"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Sumcheck__Proving_Overhead
+  - community/zkVM__STARK_Stacks
 ---
 
 # LogUp
@@ -23,4 +23,4 @@ tags:
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 - [[zkVMs Across the Stack]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Sumcheck__Proving_Overhead
+#graphify/document #graphify/EXTRACTED #community/zkVM__STARK_Stacks

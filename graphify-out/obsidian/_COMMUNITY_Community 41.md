@@ -1,20 +1,31 @@
 ---
 type: community
-cohesion: 0.50
-members: 5
+cohesion: 0.17
+members: 16
 ---
 
 # Community 41
 
-**Cohesion:** 0.50 - moderately connected
-**Members:** 5 nodes
+**Cohesion:** 0.17 - loosely connected
+**Members:** 16 nodes
 
 ## Members
-- [[Bootstrapping (FHE)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
-- [[CirC Compiler Infrastructure for Proof Systems, Software Verification, and More]] - paper - references/ch10/ref-33-circ.pdf
-- [[Craig Gentry]] - paper - references/ch09/ref-29-gentry-fhe.pdf
-- [[Fully Homomorphic Encryption (FHE)]] - document - wiki/chapters/09-privacy-enhancing-technologies.md
-- [[Fully Homomorphic Encryption Using Ideal Lattices]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Composite-extension factorization F_{pn}=F_{(pη)κ}, gcd(η,κ)=1]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[ConjugationGJL polynomial selection Barbulescu-Gaudry-Guillevic-Morain]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[Doubly-extended tower number field K_f = Q(ι,α_f)]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[Extended Tower Number Field Sieve A New Complexity for the Medium Prime Case]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[Finite Field Extension F_{pn}]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[Individual logarithm smoothing + special-q descent]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[Lemma 1 (norm size bound via iterated resultants)]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[MexTNFS multiple-number-field variant (c≈1.71)]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[NFS medium-prime case (JLSV) Joux-Lercier-Smart-Vercauteren]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[Number Field Sieve]] - document - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[Polynomial selection step (h,f,g) — JLSV2 and Conjugation methods]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[Relation collection over R=Zth(t), B-smooth norms]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[Theorem 1 (exTNFS complexity table)]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[Tower Number Field Sieve (TNFS) Barbulescu-Gaudry-Kleinjung]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[exTNFS (Extended Tower Number Field Sieve)]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[exTNFS-Conj medium-prime complexity L_Q(13,(489){13})]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -24,15 +35,16 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 5 edges to [[_COMMUNITY_Community 29]]
-- 4 edges to [[_COMMUNITY_Community 33]]
+- 3 edges to [[_COMMUNITY_Community 33]]
 - 2 edges to [[_COMMUNITY_Community 0]]
-- 2 edges to [[_COMMUNITY_Community 21]]
-- 1 edge to [[_COMMUNITY_Community 2]]
-- 1 edge to [[_COMMUNITY_Community 10]]
-- 1 edge to [[_COMMUNITY_Community 1]]
+- 2 edges to [[_COMMUNITY_Community 19]]
+- 2 edges to [[_COMMUNITY_Community 47]]
+- 2 edges to [[_COMMUNITY_Community 59]]
+- 1 edge to [[_COMMUNITY_Community 12]]
 
 ## Top bridge nodes
-- [[CirC Compiler Infrastructure for Proof Systems, Software Verification, and More]] - degree 8, connects to 5 communities
-- [[Fully Homomorphic Encryption (FHE)]] - degree 10, connects to 3 communities
-- [[Fully Homomorphic Encryption Using Ideal Lattices]] - degree 6, connects to 2 communities
+- [[Extended Tower Number Field Sieve A New Complexity for the Medium Prime Case]] - degree 7, connects to 4 communities
+- [[exTNFS (Extended Tower Number Field Sieve)]] - degree 15, connects to 3 communities
+- [[Number Field Sieve]] - degree 5, connects to 1 community
+- [[Finite Field Extension F_{pn}]] - degree 3, connects to 1 community
+- [[exTNFS-Conj medium-prime complexity L_Q(13,(489){13})]] - degree 3, connects to 1 community

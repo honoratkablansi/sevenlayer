@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-23-circle-starks.pdf"
 type: "paper"
-community: "zkVMs & STARK Stacks"
+community: "Core Concepts & Book Spine"
 location: "§1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/zkVMs__STARK_Stacks
+  - community/Core_Concepts__Book_Spine
 ---
 
 # STARK (Scalable Transparent ARgument of Knowledge)
@@ -69,4 +69,4 @@ tags:
 - [[ZKsync Airbender GPU-Accelerated RISC-V Proving]] - `references` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/zkVMs__STARK_Stacks
+#graphify/paper #graphify/EXTRACTED #community/Core_Concepts__Book_Spine
