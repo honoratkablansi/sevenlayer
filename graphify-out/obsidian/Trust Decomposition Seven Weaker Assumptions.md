@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch10-trust-decomposition-seven-weaker-assumptions.md"
 type: "document"
-community: "Community 0"
+community: "ZK Crypto Foundations"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/ZK_Crypto_Foundations
 ---
 
 # Trust Decomposition: Seven Weaker Assumptions
@@ -17,7 +17,7 @@ tags:
 - [[Circom]] - `references` [EXTRACTED]
 - [[FRI]] - `conceptually_related_to` [EXTRACTED]
 - [[Fiat-Shamir Transform]] - `conceptually_related_to` [EXTRACTED]
-- [[Folding Schemes]] - `conceptually_related_to` [EXTRACTED]
+- [[Folding Scheme]] - `conceptually_related_to` [EXTRACTED]
 - [[Groth16]] - `conceptually_related_to` [EXTRACTED]
 - [[L2Beat]] - `references` [EXTRACTED]
 - [[Lattice Cryptography]] - `conceptually_related_to` [EXTRACTED]
@@ -30,4 +30,4 @@ tags:
 - [[Where Midnight Challenges the Model]] - `references` [EXTRACTED]
 - [[Zcash]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/document #graphify/EXTRACTED #community/ZK_Crypto_Foundations

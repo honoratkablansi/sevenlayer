@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-21-neo.pdf"
 type: "paper"
-community: "Community 11"
+community: "Lattice Folding (Neo)"
 location: "Thm 7, App B"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_11
+  - community/Lattice_Folding_Neo
 ---
 
 # Theorem 7: cyclotomic ring R_q isomorphic to ring of rotation matrices S
@@ -15,4 +15,4 @@ tags:
 - [[Power-of-Two Cyclotomic Ring ZX(Xd+1)]] - `proves` [EXTRACTED]
 - [[S-module homomorphism via ring of rotation matrices S]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_11
+#graphify/paper #graphify/EXTRACTED #community/Lattice_Folding_Neo

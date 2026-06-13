@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-09-bulletproofs.pdf"
 type: "paper"
-community: "Community 7"
+community: "Bulletproofs & Range Proofs"
 location: "§4.3, Eq (69)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_7
+  - community/Bulletproofs__Range_Proofs
 ---
 
 # Aggregated Range Proof for m Values
@@ -19,4 +19,4 @@ tags:
 - [[Range Proof]] - `introduces` [EXTRACTED]
 - [[Theorem 3 Aggregate Range Proof Security]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_7
+#graphify/paper #graphify/EXTRACTED #community/Bulletproofs__Range_Proofs

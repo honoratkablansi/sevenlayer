@@ -1,12 +1,12 @@
 ---
 source_file: "wiki/sections/ch08-proof-aggregation-the-missing-layer.md"
 type: "document"
-community: "Community 0"
+community: "Programmable Privacy & Midnight"
 location: "Proof Aggregation: The Missing Layer"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Programmable_Privacy__Midnight
 ---
 
 # Proof Aggregation: The Missing Layer
@@ -20,8 +20,8 @@ tags:
 - [[On-Chain Verification in 2026]] - `references` [EXTRACTED]
 - [[PLONK]] - `references` [EXTRACTED]
 - [[SHARP (StarkWare Shared Prover)]] - `defines` [EXTRACTED]
-- [[STARKs]] - `references` [EXTRACTED]
+- [[STARK (Scalable Transparent ARgument of Knowledge)]] - `references` [EXTRACTED]
 - [[The Price of a Verdict]] - `references` [EXTRACTED]
 - [[The Social Layer]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/document #graphify/EXTRACTED #community/Programmable_Privacy__Midnight

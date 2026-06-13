@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-09-bulletproofs.pdf"
 type: "document"
-community: "Community 7"
+community: "Bulletproofs & Range Proofs"
 location: "Abstract"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_7
+  - community/Bulletproofs__Range_Proofs
 ---
 
 # Range Proof
@@ -20,4 +20,4 @@ tags:
 - [[Logarithmic-Size Range Proof]] - `defines` [EXTRACTED]
 - [[Provisions Proof of Solvency]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_7
+#graphify/document #graphify/EXTRACTED #community/Bulletproofs__Range_Proofs

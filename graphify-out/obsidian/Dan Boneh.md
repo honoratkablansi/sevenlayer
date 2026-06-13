@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch05-ccs-the-rosetta-stone.md"
 type: "document"
-community: "Community 0"
+community: "ZK Crypto Foundations"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/ZK_Crypto_Foundations
 ---
 
 # Dan Boneh
@@ -20,4 +20,4 @@ tags:
 - [[The Trilemma -- And Its Dissolution]] - `references` [EXTRACTED]
 - [[Witness Generation Costs]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/document #graphify/EXTRACTED #community/ZK_Crypto_Foundations

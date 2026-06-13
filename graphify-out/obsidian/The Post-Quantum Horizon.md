@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch06-the-post-quantum-horizon.md"
 type: "document"
-community: "Community 8"
+community: "ZK Crypto Foundations"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_8
+  - community/ZK_Crypto_Foundations
 ---
 
 # The Post-Quantum Horizon
@@ -31,4 +31,4 @@ tags:
 - [[The Folding Genealogy]] - `references` [EXTRACTED]
 - [[The Laws That Break]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_8
+#graphify/document #graphify/EXTRACTED #community/ZK_Crypto_Foundations

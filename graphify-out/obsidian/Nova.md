@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/GLOSSARY.md"
 type: "document"
-community: "Community 9"
+community: "Arithmetization & CCS"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_9
+  - community/Arithmetization__CCS
 ---
 
 # Nova
@@ -16,7 +16,7 @@ tags:
 - [[CycleFold]] - `conceptually_related_to` [EXTRACTED]
 - [[CycleFold cycle-of-curves delegation technique]] - `assumes` [EXTRACTED]
 - [[Encoding the Performance]] - `references` [EXTRACTED]
-- [[Folding Schemes]] - `part_of` [EXTRACTED]
+- [[Folding Scheme]] - `part_of` [EXTRACTED]
 - [[Glossary of Key Terms]] - `defines` [EXTRACTED]
 - [[HyperNova]] - `conceptually_related_to` [EXTRACTED]
 - [[HyperNova KS24b (linearization, CCS folding)]] - `conceptually_related_to` [EXTRACTED]
@@ -50,4 +50,4 @@ tags:
 - [[Two Ways to Build a Stage]] - `conceptually_related_to` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_9
+#graphify/document #graphify/EXTRACTED #community/Arithmetization__CCS

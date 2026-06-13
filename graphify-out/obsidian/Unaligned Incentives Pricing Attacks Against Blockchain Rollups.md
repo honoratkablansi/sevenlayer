@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch08/ref-28-rollup-pricing-attacks.pdf"
 type: "paper"
-community: "Community 0"
+community: "Foundations & SoK Surveys"
 location: "p.1 (title/abstract)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Foundations__SoK_Surveys
 ---
 
 # Unaligned Incentives: Pricing Attacks Against Blockchain Rollups
@@ -18,6 +18,6 @@ tags:
 - [[Optimistic Rollups]] - `conceptually_related_to` [EXTRACTED]
 - [[SNARKs]] - `conceptually_related_to` [EXTRACTED]
 - [[Transaction Fee Mechanisms (TFM)]] - `conceptually_related_to` [EXTRACTED]
-- [[ZK Rollups_1]] - `conceptually_related_to` [EXTRACTED]
+- [[ZK Rollups]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_0
+#graphify/paper #graphify/EXTRACTED #community/Foundations__SoK_Surveys

@@ -1,118 +1,111 @@
 ---
 type: community
-cohesion: 0.05
-members: 103
+cohesion: 0.07
+members: 96
 ---
 
 # Community 1
 
-**Cohesion:** 0.05 - loosely connected
-**Members:** 103 nodes
+**Cohesion:** 0.07 - loosely connected
+**Members:** 96 nodes
 
 ## Members
-- [[AIR (Algebraic Intermediate Representation)]] - document - wiki/chapters/05-encoding-the-performance.md
-- [[ARGUZZ Testing zkVMs for Soundness and Completeness Bugs]] - paper - references/ch14/ref-61-arguzz.pdf
-- [[Argument that large shards enable faster TwistShout proving (K-linear cost amortized)]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[Arithmetization]] - document - wiki/chapters/05-encoding-the-performance.md
-- [[AuroraLight (Sonic-like, improved proverSRS)]] - paper - references/ch02/ref-07-plonk.pdf
-- [[Avoiding preprocessing for uniform CCS (AIR) verifier evaluates wiring MLEs M_j in log time]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
-- [[BatchZK (pipelined GPU prover)]] - paper - wiki/sections/ch04-witness-generation-costs.md
-- [[Binius]] - document - wiki/sections/ch05-the-overhead-tax-10-000x-to-50-000x.md
-- [[CCS (Customizable Constraint Systems)]] - document - wiki/chapters/05-encoding-the-performance.md
-- [[CCS formal definition matrices M_j, multisets S_i, constants c_i, sum c_i · Hadamard_{j in S_i} (M_j z) = 0]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
-- [[CCS The Rosetta Stone]] - document - wiki/sections/ch05-ccs-the-rosetta-stone.md
-- [[Concrete cost estimate ~900T linear-space vs ~900T+12T log T small-space field mults]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[Constant-Time Implementation]] - document - proving-nothing.md
-- [[Continuations  recursive composition for zkVM prover memory control]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[Cormode-Thaler-Yi (CTY11) linear-time and sparse streaming sum-check provers]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[Customizable Constraint Systems for Succinct Arguments]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
-- [[Dimension parameter d factoring one-hot address poly into d smaller polys]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[Encoding the Performance]] - document - wiki/chapters/05-encoding-the-performance.md
-- [[Execution Trace]] - document - wiki/sections/ch04-execution-traces.md
-- [[Execution Traces]] - document - wiki/sections/ch04-execution-traces.md
-- [[Free addition gates for uniform CCS prover crypto work independent of additions]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
-- [[GKR Protocol]] - document - wiki/sections/ch05-lookup-arguments.md
-- [[GPU-Accelerated Proving]] - document - wiki/sections/ch04-witness-generation-costs.md
-- [[Generalized Committed Linear Relation R_lin,B]] - paper - references/ch02/ref-11-latticefold-plus.pdf
-- [[Glossary of Key Terms]] - document - wiki/GLOSSARY.md
-- [[HyperPlonk CBBZ23 - multilinear Plonk with linear prover, contrasted cost route]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
-- [[Jolt zkVM]] - document - wiki/chapters/04-the-secret-performance.md
-- [[Jolt sum-check-based zkVM for RISC-V]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[Justin Thaler]] - document - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[LFKN LFKN90 original sum-check protocol]] - paper - references/ch03/ref-15-lasso.pdf
-- [[Lasso]] - document - wiki/concepts/lasso.md
-- [[Layer 4 -- Arithmetization]] - document - wiki/sections/ch05-layer-4-arithmetization.md
-- [[Lemma 1 constant-time R1CS-to-CCS reduction (t=3, q=2, d=2)]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
-- [[Lemma 2 Plonkish-to-CCS reduction; multisets encode monomials of g]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
-- [[Lemma 3 AIR-to-CCS reduction; constraint g applied to adjacent trace rows]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
-- [[Lemma 610 (folding CCS is randomizing)]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[Linearized (committed) CCS relation]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[LogUp GKR]] - document - references/ch10/ref-52-sp1-hypercube.md
-- [[Lookup Arguments_1]] - document - wiki/sections/ch05-lookup-arguments.md
-- [[MSM (Multi-Scalar Multiplication)]] - document - wiki/sections/ch04-side-channel-attacks-when-the-walls-leak.md
-- [[Marlin (universal preprocessing SNARK)]] - paper - references/ch02/ref-07-plonk.pdf
-- [[Marlin CHM+20 - preprocessing zkSNARK that SuperMarlin generalizes]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
-- [[Memory The Binding Constraint]] - document - wiki/sections/ch04-memory-the-binding-constraint.md
-- [[Multi-folding scheme (generalized folding)]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[Multi-folding scheme for CCS (Construction 1)]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[NTT (Number Theoretic Transform)]] - document - wiki/sections/ch04-witness-generation-costs.md
-- [[No commitments to cross-terms efficiency claim]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[Nullifier]] - document - proving-nothing.md
-- [[Offline Memory Checking  Algebraic RAM Reduction]] - document - wiki/sections/ch04-witness-generation-costs.md
-- [[One-hot (unit-vector) address encoding for memory ops in TwistShout]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[PLONK GWC19 - proof system Plonkish was believed tied to]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
-- [[PLONK Permutations over Lagrange-bases for Oecumenical Noninteractive arguments of Knowledge]] - paper - references/ch02/ref-07-plonk.pdf
-- [[PLONKish Arithmetization]] - document - wiki/chapters/05-encoding-the-performance.md
-- [[Plonky3]] - document - wiki/chapters/03-choreographing-the-act.md
-- [[Plookup]] - document - wiki/sections/ch05-lookup-arguments.md
-- [[Prefix-suffix inner product sum-check protocol (streaming, linear-time)]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[Proving CPU Executions in Small Space]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[R1CS]] - document - wiki/chapters/05-encoding-the-performance.md
-- [[RISC Zero]] - document - wiki/chapters/11-zkvms-the-universal-stage.md
-- [[Recursive SNARK Composition (Preprocessing to Fully Succinct)]] - paper - references/ch02/ref-06-groth16.pdf
-- [[Reinforced Concrete Hash]] - document - wiki/chapters/04-the-secret-performance.md
-- [[Repeated witness generation with checkpoints and multithreaded parallel regeneration]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[SIMD CCS  data-parallel CCS with log-time IO consistency via next() MLE]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
-- [[Sangria (folding scheme for Plonkish)]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[Schwartz-Zippel Lemma]] - document - wiki/sections/ch05-the-spreadsheet-metaphor-and-where-it-works.md
-- [[Shout sum-check memory-checking  lookup argument for read-only memory]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[Side-Channel Attacks]] - document - wiki/sections/ch04-side-channel-attacks-when-the-walls-leak.md
-- [[Side-Channel Attacks When the Walls Leak]] - document - wiki/sections/ch04-side-channel-attacks-when-the-walls-leak.md
-- [[Small-space Jolt prover (sublinear-space zkVM proving without recursion)]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[Small-value sum-check optimization (Bagad-Domb-Thaler Algorithm 3)]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[Sonic (Maller et al. universal SNARK)]] - paper - references/ch02/ref-07-plonk.pdf
-- [[Sparrow (PP24) sqrt-space SNARK for data-parallel circuits]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[Sparse-dense sum-check proving algorithm (streaming, sparsity-linear time)]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[Spartan]] - document - wiki/concepts/spartan.md
-- [[Spartan Set20 - linear-time R1CS polynomial IOP that SuperSpartan generalizes]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
-- [[Spartan over Jolt's uniform block-diagonal R1CS, streamed via Az,Bz,Cz]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[Square-root space target O(sqrt(KT))  O(K+T{12}) suffices in practice over O(K+log T)]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[Streaming  small-space sum-check prover (logarithmic-space, quasi-linear time)]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[Streaming Witness Generation (Nair, Thaler, Zhu)]] - paper - wiki/sections/ch04-witness-generation-costs.md
-- [[Sumcheck Protocol]] - document - wiki/chapters/05-encoding-the-performance.md
-- [[SuperMarlin univariate-sumcheck SNARK for CCS generalizing Marlin]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
-- [[SuperSpartan SNARK family for CCS generalizing Spartan's polynomial IOP]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
-- [[The Constraint System Evolution R1CS, AIR, PLONKish]] - document - wiki/sections/ch05-the-constraint-system-evolution-r1cs-air-plonkish.md
-- [[The Hidden Bottleneck]] - document - wiki/sections/ch04-the-hidden-bottleneck.md
-- [[The Overhead Tax 10,000x to 50,000x]] - document - wiki/sections/ch05-the-overhead-tax-10-000x-to-50-000x.md
-- [[The Secret Performance]] - document - wiki/chapters/04-the-secret-performance.md
-- [[The Spreadsheet Metaphor (And Where It Works)]] - document - wiki/sections/ch05-the-spreadsheet-metaphor-and-where-it-works.md
-- [[The Sumcheck Protocol The Hidden Foundation]] - document - wiki/sections/ch05-the-sumcheck-protocol-the-hidden-foundation.md
-- [[The Witness as a Multi-Dimensional Problem]] - document - wiki/sections/ch04-the-witness-as-a-multi-dimensional-problem.md
-- [[Theorem 1 (multi-folding scheme for CCS)]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[Theorem 1 polynomial IOP for CCS, soundness O((t+d)log m)F, prover O(N+tm+qmd log2 d) F-ops]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
-- [[Theorem 2 MLE of 'add-1-in-binary' next() function evaluable in logarithmic time]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
-- [[Theorem 7.1 Jolt prover in S=O(K+log T) space and O(T log T) time]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[Theorem 8 (nlookup multi-folding scheme)]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[Twist and Shout Memory-Checking Arguments]] - document - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[Where the Analogies Break]] - document - wiki/sections/ch05-where-the-analogies-break.md
-- [[Where the Layers Collapse]] - document - wiki/sections/ch05-ccs-the-rosetta-stone.md
-- [[Witness]] - document - wiki/sections/ch04-execution-traces.md
-- [[Witness Generation]] - document - wiki/chapters/04-the-secret-performance.md
-- [[Witness Generation Costs]] - document - wiki/sections/ch04-witness-generation-costs.md
-- [[ZKPoG (end-to-end GPU proving)]] - paper - wiki/sections/ch04-the-hidden-bottleneck.md
-- [[Zero-Knowledge Virtual Machine (zkVM)]] - document - wiki/chapters/03-choreographing-the-act.md
-- [[nlookup lookup argument (Construction 8)]] - paper - references/ch06/ref-18-hypernova.pdf
+- [[Aligned Layer]] - document - wiki/sections/ch08-proof-aggregation-the-missing-layer.md
+- [[Ariel Gabizon]] - document - wiki/sections/ch02-the-bug-that-was-not-a-ceremony-failure.md
+- [[BLS12-381 Curve]] - document - wiki/chapters/02-building-the-stage.md
+- [[BN254's Eroding Security Margin]] - document - wiki/sections/ch02-bn254-s-eroding-security-margin.md
+- [[Beanstalk Flash Loan Attack (April 2022)]] - document - wiki/sections/ch08-governance-the-achilles-heel.md
+- [[Beanstalk Flash Loan Governance Attack (April 2022)]] - document - proving-nothing.md
+- [[Cardano]] - document - wiki/sections/ch12-midnight-at-a-glance.md
+- [[Case Study Midnight and the Three-Token Architecture]] - document - wiki/sections/ch04-memory-the-binding-constraint.md
+- [[Celestia]] - document - wiki/sections/ch08-the-price-of-a-verdict.md
+- [[Chaliasos et al. Rollup Pricing Attacks Study (2025)]] - document - wiki/sections/ch08-pricing-attacks.md
+- [[Compact Language]] - document - wiki/chapters/03-choreographing-the-act.md
+- [[Compact Language Reference (Midnight Network)]] - document - references/ch12/ref-39-compact-language-reference.md
+- [[Compact's Disclosure Analysis]] - document - wiki/sections/ch03-compact-s-disclosure-analysis.md
+- [[DA-Saturation Attacks]] - document - proving-nothing.md
+- [[Data Availability]] - document - wiki/chapters/08-the-verdict.md
+- [[Disclosure Analysis (Compact compiler pass)]] - document - wiki/sections/ch03-the-four-philosophies.md
+- [[EIP-4844 Blob Transactions]] - document - wiki/sections/ch08-the-price-of-a-verdict.md
+- [[Elliptic Curve Cryptography]] - document - proving-nothing.md
+- [[Five Lessons for ZK System Design]] - document - wiki/sections/ch12-five-lessons-for-zk-system-design.md
+- [[Flash Loans]] - document - proving-nothing.md
+- [[Fraud Proof System]] - document - references/ch08/ref-27-l2beat-stages.md
+- [[Full Seven-Layer Mapping]] - document - wiki/sections/ch12-full-seven-layer-mapping.md
+- [[Governance The Achilles Heel]] - document - wiki/sections/ch08-governance-the-achilles-heel.md
+- [[Groth16]] - document - wiki/chapters/01-the-promise-of-provable-and-programmable-secrets.md
+- [[Halo]] - document - wiki/chapters/07-the-deep-craft.md
+- [[Halo 2]] - document - wiki/chapters/12-midnight-the-privacy-theater.md
+- [[How to Read This Guide]] - document - wiki/sections/ch01-how-to-read-this-guide.md
+- [[Jubjub curve]] - document - wiki/concepts/jubjub.md
+- [[L2BEAT Stages Framework]] - document - references/ch08/ref-27-l2beat-stages.md
+- [[L2BEAT Stages Framework for L2 Maturity]] - document - references/ch08/ref-27-l2beat-stages.md
+- [[L2Beat Stages Framework]] - document - wiki/sections/ch08-governance-the-achilles-heel.md
+- [[Layer 1 -- Building the Stage]] - document - wiki/chapters/02-building-the-stage.md
+- [[Layer 7 -- The Verdict]] - document - wiki/chapters/08-the-verdict.md
+- [[Midnight]] - document - wiki/chapters/02-building-the-stage.md
+- [[Midnight -- The Privacy Theater]] - document - wiki/chapters/12-midnight-the-privacy-theater.md
+- [[Midnight Developer Guide (Midnight Docs)]] - document - references/ch12/ref-41-midnight-developer-guide.md
+- [[Midnight as Test Case]] - document - wiki/sections/ch12-midnight-as-test-case.md
+- [[Midnight at a Glance]] - document - wiki/sections/ch12-midnight-at-a-glance.md
+- [[Midnight's BLS12-381 Stage]] - document - wiki/sections/ch02-midnight-s-bls12-381-stage.md
+- [[Midnight's ZKIR A Concrete Layer 4]] - document - wiki/sections/ch05-midnight-s-zkir-a-concrete-layer-4.md
+- [[Midnight Compiler, IR, Circuit]] - document - wiki/sections/ch03-midnight-compiler-ir-circuit.md
+- [[MidnightJS SDK]] - document - wiki/sections/ch12-full-seven-layer-mapping.md
+- [[NEBRA Universal Proof Aggregation]] - document - wiki/sections/ch08-proof-aggregation-the-missing-layer.md
+- [[NIST]] - document - wiki/sections/ch01-the-deepest-question.md
+- [[On-Chain Governance]] - document - proving-nothing.md
+- [[On-Chain Verification in 2026]] - document - wiki/sections/ch08-on-chain-verification-in-2026.md
+- [[Option-Value Analysis]] - document - wiki/sections/ch02-option-value-analysis.md
+- [[PLONK]] - document - wiki/GLOSSARY.md
+- [[Pricing Attacks]] - document - wiki/sections/ch08-pricing-attacks.md
+- [[Profiles of the Future (Arthur C. Clarke, 1962)]] - document - references/ch01/ref-01-clarke-profiles-of-the-future.md
+- [[Proof Aggregation]] - document - wiki/chapters/08-the-verdict.md
+- [[Proof Aggregation The Missing Layer]] - document - wiki/sections/ch08-proof-aggregation-the-missing-layer.md
+- [[Prover-Killer Attacks]] - document - proving-nothing.md
+- [[Proving Nothing]] - document - proving-nothing.md
+- [[SHARP (StarkWare Shared Prover)]] - document - wiki/sections/ch08-proof-aggregation-the-missing-layer.md
+- [[Scroll]] - document - wiki/sections/ch13-zk-rollups-the-proving-grounds-production.md
+- [[Seven-Layer ZK Stack Model]] - document - proving-nothing.md
+- [[Sevenlayer Wiki Index]] - document - wiki/INDEX.md
+- [[Structured Reference String (SRS)]] - document - proving-nothing.md
+- [[Sudoku running example]] - document - wiki/concepts/sudoku.md
+- [[The 141,416-Person Question]] - document - wiki/sections/ch02-the-141-416-person-question.md
+- [[The ADOPT Framework]] - document - wiki/sections/ch02-the-adopt-framework.md
+- [[The Bug That Was Not a Ceremony Failure]] - document - wiki/sections/ch02-the-bug-that-was-not-a-ceremony-failure.md
+- [[The CapexOpex Framework]] - document - wiki/sections/ch02-the-capex-opex-framework.md
+- [[The Deepest Question]] - document - wiki/sections/ch01-the-deepest-question.md
+- [[The Deepest Symmetry]] - document - wiki/sections/ch08-the-deepest-symmetry.md
+- [[The Disclose Boundary Midnight's Witness Architecture]] - document - wiki/sections/ch04-the-disclose-boundary-midnight-s-witness-architecture.md
+- [[The Fair Shuffle Problem]] - document - wiki/sections/ch02-the-fair-shuffle-problem.md
+- [[The First Decision]] - document - wiki/sections/ch01-the-first-decision.md
+- [[The Phenomenon]] - document - wiki/sections/ch01-the-phenomenon.md
+- [[The Price of a Verdict]] - document - wiki/sections/ch08-the-price-of-a-verdict.md
+- [[The Privacy Theater Analogy]] - document - wiki/sections/ch12-the-privacy-theater-analogy.md
+- [[The Promise of Provable and Programmable Secrets]] - document - wiki/chapters/01-the-promise-of-provable-and-programmable-secrets.md
+- [[The Proof at the Door]] - document - wiki/sections/ch01-the-proof-at-the-door.md
+- [[The Quantum Shelf Life]] - document - wiki/sections/ch02-the-quantum-shelf-life.md
+- [[The Setup Tradeoff]] - document - wiki/sections/ch02-the-setup-tradeoff.md
+- [[The Seven Layers at a Glance]] - document - wiki/sections/ch01-the-seven-layers-at-a-glance.md
+- [[The Social Layer]] - document - wiki/sections/ch08-the-social-layer.md
+- [[The Structured Reference String]] - document - wiki/sections/ch02-the-structured-reference-string.md
+- [[The Trick]] - document - wiki/sections/ch01-the-trick.md
+- [[Three Converging Forces]] - document - wiki/sections/ch01-three-converging-forces.md
+- [[Tornado Cash]] - document - wiki/chapters/03-choreographing-the-act.md
+- [[Tornado Cash Governance Attack (May 2023)]] - document - wiki/sections/ch08-governance-the-achilles-heel.md
+- [[Tornado Cash Governance Attack (May 2023)_1]] - document - proving-nothing.md
+- [[Toxic Waste (Setup Trapdoor)]] - document - proving-nothing.md
+- [[Trusted Setup Ceremony]] - document - wiki/sections/ch02-two-ways-to-build-a-stage.md
+- [[Two Ways to Build a Stage]] - document - wiki/sections/ch02-two-ways-to-build-a-stage.md
+- [[UTXO Model]] - document - wiki/sections/ch12-full-seven-layer-mapping.md
+- [[Universal versus Circuit-Specific Setups]] - document - wiki/sections/ch02-universal-versus-circuit-specific-setups.md
+- [[Upgradeable Proxy Pattern]] - document - proving-nothing.md
+- [[Vitalik Buterin]] - document - references/ch08/ref-27-l2beat-stages.md
+- [[Where Midnight Challenges the Model]] - document - wiki/sections/ch12-where-midnight-challenges-the-model.md
+- [[Where Midnight Validates the Model]] - document - wiki/sections/ch12-where-midnight-validates-the-model.md
+- [[Who Verifies the Verifier]] - document - wiki/sections/ch08-who-verifies-the-verifier.md
+- [[ZKIR (Midnight Intermediate Representation)]] - document - wiki/chapters/03-choreographing-the-act.md
+- [[ZKIR Intermediate Representation Reference (Midnight Network, stub)]] - document - references/ch12/ref-40-zkir-reference.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -122,39 +115,34 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 99 edges to [[_COMMUNITY_Community 2]]
-- 74 edges to [[_COMMUNITY_Community 5]]
-- 71 edges to [[_COMMUNITY_Community 0]]
-- 57 edges to [[_COMMUNITY_Community 9]]
-- 13 edges to [[_COMMUNITY_Community 8]]
-- 12 edges to [[_COMMUNITY_Community 22]]
-- 11 edges to [[_COMMUNITY_Community 19]]
-- 11 edges to [[_COMMUNITY_Community 4]]
-- 10 edges to [[_COMMUNITY_Community 26]]
-- 8 edges to [[_COMMUNITY_Community 17]]
-- 7 edges to [[_COMMUNITY_Community 12]]
-- 5 edges to [[_COMMUNITY_Community 3]]
-- 5 edges to [[_COMMUNITY_Community 43]]
-- 4 edges to [[_COMMUNITY_Community 33]]
-- 3 edges to [[_COMMUNITY_Community 15]]
-- 3 edges to [[_COMMUNITY_Community 42]]
-- 3 edges to [[_COMMUNITY_Community 34]]
-- 3 edges to [[_COMMUNITY_Community 24]]
-- 3 edges to [[_COMMUNITY_Community 11]]
-- 3 edges to [[_COMMUNITY_Community 29]]
-- 3 edges to [[_COMMUNITY_Community 6]]
-- 2 edges to [[_COMMUNITY_Community 13]]
-- 2 edges to [[_COMMUNITY_Community 10]]
-- 2 edges to [[_COMMUNITY_Community 32]]
-- 2 edges to [[_COMMUNITY_Community 21]]
-- 2 edges to [[_COMMUNITY_Community 31]]
-- 1 edge to [[_COMMUNITY_Community 38]]
-- 1 edge to [[_COMMUNITY_Community 30]]
-- 1 edge to [[_COMMUNITY_Community 14]]
+- 199 edges to [[_COMMUNITY_Community 0]]
+- 124 edges to [[_COMMUNITY_Community 2]]
+- 41 edges to [[_COMMUNITY_Community 10]]
+- 24 edges to [[_COMMUNITY_Community 22]]
+- 11 edges to [[_COMMUNITY_Community 32]]
+- 11 edges to [[_COMMUNITY_Community 30]]
+- 9 edges to [[_COMMUNITY_Community 23]]
+- 8 edges to [[_COMMUNITY_Community 29]]
+- 4 edges to [[_COMMUNITY_Community 18]]
+- 4 edges to [[_COMMUNITY_Community 12]]
+- 4 edges to [[_COMMUNITY_Community 6]]
+- 3 edges to [[_COMMUNITY_Community 33]]
+- 3 edges to [[_COMMUNITY_Community 40]]
+- 2 edges to [[_COMMUNITY_Community 9]]
+- 2 edges to [[_COMMUNITY_Community 38]]
+- 1 edge to [[_COMMUNITY_Community 39]]
+- 1 edge to [[_COMMUNITY_Community 19]]
+- 1 edge to [[_COMMUNITY_Community 13]]
+- 1 edge to [[_COMMUNITY_Community 8]]
+- 1 edge to [[_COMMUNITY_Community 5]]
+- 1 edge to [[_COMMUNITY_Community 11]]
+- 1 edge to [[_COMMUNITY_Community 35]]
+- 1 edge to [[_COMMUNITY_Community 41]]
+- 1 edge to [[_COMMUNITY_Community 3]]
 
 ## Top bridge nodes
-- [[Sumcheck Protocol]] - degree 57, connects to 11 communities
-- [[R1CS]] - degree 32, connects to 10 communities
-- [[PLONK Permutations over Lagrange-bases for Oecumenical Noninteractive arguments of Knowledge]] - degree 24, connects to 10 communities
-- [[CCS (Customizable Constraint Systems)]] - degree 37, connects to 9 communities
-- [[Zero-Knowledge Virtual Machine (zkVM)]] - degree 31, connects to 9 communities
+- [[Layer 1 -- Building the Stage]] - degree 56, connects to 12 communities
+- [[Groth16]] - degree 69, connects to 11 communities
+- [[PLONK]] - degree 51, connects to 8 communities
+- [[The Promise of Provable and Programmable Secrets]] - degree 49, connects to 8 communities
+- [[Midnight]] - degree 63, connects to 7 communities

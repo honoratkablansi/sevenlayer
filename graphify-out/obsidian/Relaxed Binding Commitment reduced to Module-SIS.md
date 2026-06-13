@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-11-latticefold-plus.pdf"
 type: "paper"
-community: "Community 29"
+community: "Lattice Folding (Neo)"
 location: "§2.3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_29
+  - community/Lattice_Folding_Neo
 ---
 
 # Relaxed Binding Commitment reduced to Module-SIS
@@ -15,4 +15,4 @@ tags:
 - [[Module-SIS]] - `assumes` [EXTRACTED]
 - [[Module-based Ajtai Commitment (com = A x)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_29
+#graphify/paper #graphify/EXTRACTED #community/Lattice_Folding_Neo

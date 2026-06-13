@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/03-choreographing-the-act.md"
 type: "document"
-community: "Community 5"
+community: "Programmable Privacy & Midnight"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_5
+  - community/Programmable_Privacy__Midnight
 ---
 
 # ZKIR (Midnight Intermediate Representation)
@@ -30,4 +30,4 @@ tags:
 - [[Where the Analogies Break]] - `references` [EXTRACTED]
 - [[ZKIR Intermediate Representation Reference (Midnight Network, stub)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_5
+#graphify/document #graphify/EXTRACTED #community/Programmable_Privacy__Midnight

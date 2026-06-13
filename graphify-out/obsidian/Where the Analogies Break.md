@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch05-where-the-analogies-break.md"
 type: "document"
-community: "Community 1"
+community: "Arithmetization & CCS"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_1
+  - community/Arithmetization__CCS
 ---
 
 # Where the Analogies Break
@@ -25,9 +25,9 @@ tags:
 - [[Midnight]] - `references` [EXTRACTED]
 - [[PLONKish Arithmetization]] - `references` [EXTRACTED]
 - [[R1CS]] - `references` [EXTRACTED]
-- [[STARKs]] - `references` [EXTRACTED]
+- [[STARK (Scalable Transparent ARgument of Knowledge)]] - `references` [EXTRACTED]
 - [[Sumcheck Protocol]] - `references` [EXTRACTED]
 - [[Where the Layers Collapse]] - `references` [EXTRACTED]
 - [[ZKIR (Midnight Intermediate Representation)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_1
+#graphify/document #graphify/EXTRACTED #community/Arithmetization__CCS

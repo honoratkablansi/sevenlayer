@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-10-sok-powers-of-tau.pdf"
 type: "document"
-community: "Community 0"
+community: "Foundations & SoK Surveys"
 location: "Abstract"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Foundations__SoK_Surveys
 ---
 
 # Powers-of-Tau Setup
@@ -17,4 +17,4 @@ tags:
 - [[Snarky Ceremonies]] - `references` [EXTRACTED]
 - [[SoK Trusted Setups for Powers-of-Tau Strings]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/document #graphify/EXTRACTED #community/Foundations__SoK_Surveys

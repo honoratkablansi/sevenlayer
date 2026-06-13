@@ -1,47 +1,41 @@
 ---
 type: community
-cohesion: 0.18
-members: 32
+cohesion: 0.12
+members: 26
 ---
 
 # Community 9
 
-**Cohesion:** 0.18 - loosely connected
-**Members:** 32 nodes
+**Cohesion:** 0.12 - loosely connected
+**Members:** 26 nodes
 
 ## Members
-- [[2-cycle of elliptic curves (BN254Grumpkin)]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[Complete Bibliography]] - document - wiki/BIBLIOGRAPHY.md
-- [[CycleFold]] - document - wiki/sections/ch06-the-folding-genealogy.md
-- [[CycleFold cycle-of-curves delegation technique]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[Cycles of Elliptic Curves]] - document - references/ch06/ref-17-nova.pdf
-- [[Fiat-Shamir Vulnerabilities]] - document - wiki/sections/ch06-fiat-shamir-vulnerabilities.md
-- [[Folding Schemes]] - document - wiki/chapters/06-the-sealed-certificate.md
-- [[From Speed Race to Security Race]] - document - wiki/sections/ch06-from-speed-race-to-security-race.md
-- [[Halo Recursive Proof Composition]] - paper - references/ch06/ref-17-nova.pdf
-- [[HyperNova]] - document - wiki/GLOSSARY.md
-- [[HyperNova Recursive Arguments for Customizable Constraint Systems]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[Incrementally Verifiable Computation (IVC)]] - document - wiki/sections/ch06-recursion-vs-folding-russian-dolls-and-snowballs.md
-- [[Layer 5 -- The Sealed Certificate]] - document - wiki/chapters/06-the-sealed-certificate.md
-- [[Lemma 5 (Nova folding is blinding)]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[Mangrove]] - document - wiki/sections/ch06-snark-recursion-vs-folding-the-full-picture.md
-- [[Nightstream]] - document - wiki/chapters/06-the-sealed-certificate.md
-- [[Nightstream Lattice-Based Folding for CCS (LFDT-Nightstream)]] - document - references/ch06/ref-49-nightstream.md
-- [[Nightstream What a Folding Engine Looks Like from the Inside]] - document - wiki/sections/ch04-memory-the-binding-constraint.md
-- [[Nova]] - document - wiki/GLOSSARY.md
-- [[Nova Recursive Zero-Knowledge Arguments from Folding Schemes]] - paper - references/ch06/ref-17-nova.pdf
-- [[NovaBlindFold folding-based zero-knowledge]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[Pasta Cycle of Elliptic Curves]] - paper - references/ch06/ref-17-nova.pdf
-- [[Proof Recursion]] - document - wiki/chapters/06-the-sealed-certificate.md
-- [[ProtoGalaxy]] - document - wiki/sections/ch06-the-folding-genealogy.md
-- [[ProtoStar]] - document - wiki/sections/ch06-the-folding-genealogy.md
-- [[Recursion vs. Folding Russian Dolls and Snowballs]] - document - wiki/sections/ch06-recursion-vs-folding-russian-dolls-and-snowballs.md
-- [[Recursive Proof Composition]] - paper - references/ch06/ref-17-nova.pdf
-- [[Relaxed R1CS]] - paper - references/ch06/ref-17-nova.pdf
-- [[SNARK Recursion vs. Folding The Full Picture]] - document - wiki/sections/ch06-snark-recursion-vs-folding-the-full-picture.md
-- [[SuperNova]] - document - wiki/sections/ch06-the-folding-genealogy.md
-- [[The Folding Genealogy]] - document - wiki/sections/ch06-the-folding-genealogy.md
-- [[The Sealed Certificate (Chapter Closing)]] - document - wiki/sections/ch06-the-sealed-certificate.md
+- [[ARGUZZ first automated fuzzer for zkVM soundness & completeness bugs (7-step workflow)]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[CIRCIL extended with inline-RISC-V-assembly custom functions (e.g. mulhsu) + circuit-to-Rust translation]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[CIRCUZZ 23 metamorphic fuzzer for ZK pipelines (CIRCOMGNARKNOIR) via CIRCIL]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Completeness]] - document - proving-nothing.md
+- [[Dory transparent polynomial commitment scheme (log-round, sqrt-space prover)]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Efficient metamorphic-testing variant known expected output, k-safety, single padded trace]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Evaluation across 6 RISC-V zkVMs; 11 bugs (3 soundness FI, 8 completeness MT) in 3 of them]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[FUZZTRUCTION  FUZZTRUCTION-NET 10,11 fault-injection-based fuzzing]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Fair fault-injection scheduler (uniform RISC-V instruction coverage via least-injected selection)]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Fault Injection]] - document - references/ch14/ref-61-arguzz.pdf
+- [[INSTR_WORD_MOD instruction-modification injection (universal; triggered all 3 soundness bugs)]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Injection-type taxonomy (PC mod, ALU resultoperand, memreg mod, DIVREM flips, ecall id, branch invert)]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[JOLT bug6 (soundness) unconstrained immediate operand in lui instruction]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[MTZK 43 metamorphic testing of zero-knowledge compilers]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Malicious-prover fault injection into VM execution logic (verifier-only-trusted threat model)]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Metamorphic Testing]] - document - references/ch14/ref-61-arguzz.pdf
+- [[NEXUS bug3 (soundness) unconstrained store-value lower bits in swshsb load-store]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Product programs  hyperproperty (k-safety) reasoning 12,13,20,41]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Product-program metamorphic oracle merge k equivalent Rust fns; SUCCESS (0xC0FFEE) vs OOPS (0x0)]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[RISC ZERO bug1 (soundness) missing constraint on 3-register insns (remudivu); $50,000 bounty]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[RISC-V CPU fuzzers 25,29,40,44 (DifuzzRTL, TheHuzz, Cascade, MorFuzz)]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Ripple-effect fault propagation (fault at one instruction cascades along data dependencies)]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Rust 1.80 miscompilation by-product bug (boolean expr; both soundness & completeness)]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Semantics-preserving rewrite rules (commassocdistribDe Morgan; field-arith rules disabled)]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Soundness]] - document - proving-nothing.md
+- [[Soundness-bug detection criterion output flips SUCCESS-OOPS yet verifier accepts proof]] - paper - references/ch14/ref-61-arguzz.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -51,31 +45,14 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 57 edges to [[_COMMUNITY_Community 1]]
-- 47 edges to [[_COMMUNITY_Community 0]]
-- 44 edges to [[_COMMUNITY_Community 2]]
-- 43 edges to [[_COMMUNITY_Community 8]]
-- 23 edges to [[_COMMUNITY_Community 5]]
-- 8 edges to [[_COMMUNITY_Community 17]]
-- 7 edges to [[_COMMUNITY_Community 11]]
-- 7 edges to [[_COMMUNITY_Community 4]]
-- 6 edges to [[_COMMUNITY_Community 10]]
-- 5 edges to [[_COMMUNITY_Community 29]]
-- 4 edges to [[_COMMUNITY_Community 3]]
-- 3 edges to [[_COMMUNITY_Community 6]]
-- 3 edges to [[_COMMUNITY_Community 42]]
-- 3 edges to [[_COMMUNITY_Community 21]]
-- 2 edges to [[_COMMUNITY_Community 13]]
-- 2 edges to [[_COMMUNITY_Community 7]]
-- 1 edge to [[_COMMUNITY_Community 18]]
+- 6 edges to [[_COMMUNITY_Community 2]]
+- 2 edges to [[_COMMUNITY_Community 1]]
 - 1 edge to [[_COMMUNITY_Community 19]]
-- 1 edge to [[_COMMUNITY_Community 38]]
-- 1 edge to [[_COMMUNITY_Community 22]]
-- 1 edge to [[_COMMUNITY_Community 34]]
+- 1 edge to [[_COMMUNITY_Community 20]]
 
 ## Top bridge nodes
-- [[Layer 5 -- The Sealed Certificate]] - degree 71, connects to 14 communities
-- [[Folding Schemes]] - degree 53, connects to 10 communities
-- [[Complete Bibliography]] - degree 16, connects to 10 communities
-- [[Nova Recursive Zero-Knowledge Arguments from Folding Schemes]] - degree 20, connects to 7 communities
-- [[Nova]] - degree 38, connects to 6 communities
+- [[Soundness]] - degree 6, connects to 2 communities
+- [[Completeness]] - degree 4, connects to 2 communities
+- [[Dory transparent polynomial commitment scheme (log-round, sqrt-space prover)]] - degree 3, connects to 2 communities
+- [[ARGUZZ first automated fuzzer for zkVM soundness & completeness bugs (7-step workflow)]] - degree 13, connects to 1 community
+- [[Fault Injection]] - degree 4, connects to 1 community

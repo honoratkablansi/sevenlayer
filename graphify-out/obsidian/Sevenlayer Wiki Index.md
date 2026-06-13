@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/INDEX.md"
 type: "document"
-community: "Community 0"
+community: "Programmable Privacy & Midnight"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Programmable_Privacy__Midnight
 ---
 
 # Sevenlayer Wiki Index
@@ -26,4 +26,4 @@ tags:
 - [[The Synthesis -- Three Paths, Not Two]] - `references` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/document #graphify/EXTRACTED #community/Programmable_Privacy__Midnight

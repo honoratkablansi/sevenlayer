@@ -1,12 +1,12 @@
 ---
 source_file: "wiki/sections/ch09-composability-when-one-pet-is-not-enough.md"
 type: "document"
-community: "Community 3"
+community: "Privacy-Enhancing Technologies"
 location: "Composability: When One PET Is Not Enough"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_3
+  - community/Privacy-Enhancing_Technologies
 ---
 
 # Composability: When One PET Is Not Enough
@@ -21,4 +21,4 @@ tags:
 - [[The Decision Matrix]] - `references` [EXTRACTED]
 - [[The Four Pillars]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_3
+#graphify/document #graphify/EXTRACTED #community/Privacy-Enhancing_Technologies

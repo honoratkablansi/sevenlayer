@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/05-encoding-the-performance.md"
 type: "document"
-community: "Community 1"
+community: "Arithmetization & CCS"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_1
+  - community/Arithmetization__CCS
 ---
 
 # R1CS
@@ -44,4 +44,4 @@ tags:
 - [[Zero-knowledge proof system]] - `conceptually_related_to` [EXTRACTED]
 - [[zk-SNARK]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_1
+#graphify/document #graphify/EXTRACTED #community/Arithmetization__CCS

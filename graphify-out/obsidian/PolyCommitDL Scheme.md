@@ -1,22 +1,22 @@
 ---
 source_file: "references/ch02/ref-04-kzg-commitments.pdf"
 type: "paper"
-community: "Community 18"
+community: "KZG Polynomial Commitments"
 location: "§3.2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_18
+  - community/KZG_Polynomial_Commitments
 ---
 
 # PolyCommitDL Scheme
 
 ## Connections
 - [[Batch Opening (CreateWitnessBatchVerifyEvalBatch)]] - `conceptually_related_to` [EXTRACTED]
-- [[Bilinear Pairing (type-1 symmetric)]] - `assumes` [EXTRACTED]
+- [[Bilinear Pairings]] - `assumes` [EXTRACTED]
 - [[Constant-Size Commitment & O(1) Opening Overhead]] - `defines` [EXTRACTED]
 - [[Constant-Size Commitments to Polynomials and Their Applications]] - `introduces` [EXTRACTED]
-- [[Discrete Logarithm (DL) Assumption]] - `assumes` [EXTRACTED]
+- [[Discrete Logarithm Assumption]] - `assumes` [EXTRACTED]
 - [[Homomorphic  Trapdoor Commitment Property]] - `defines` [EXTRACTED]
 - [[Polynomial Commitment Scheme]] - `defines` [EXTRACTED]
 - [[Polynomial Divisibility Property ((x-i) divides phi(x)-phi(i))]] - `assumes` [EXTRACTED]
@@ -25,4 +25,4 @@ tags:
 - [[eVSS Efficient Feldman VSS]] - `conceptually_related_to` [EXTRACTED]
 - [[t-Strong Diffie-Hellman (t-SDH) Assumption]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_18
+#graphify/paper #graphify/EXTRACTED #community/KZG_Polynomial_Commitments

@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/05-encoding-the-performance.md"
 type: "document"
-community: "Community 1"
+community: "Arithmetization & CCS"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_1
+  - community/Arithmetization__CCS
 ---
 
 # Encoding the Performance
@@ -23,7 +23,7 @@ tags:
 - [[Customizable Constraint Systems for Succinct Arguments]] - `cites` [EXTRACTED]
 - [[FRI]] - `references` [EXTRACTED]
 - [[Fiat-Shamir Transform]] - `references` [EXTRACTED]
-- [[Folding Schemes]] - `references` [EXTRACTED]
+- [[Folding Scheme]] - `references` [EXTRACTED]
 - [[Goldilocks Field]] - `references` [EXTRACTED]
 - [[Groth16]] - `references` [EXTRACTED]
 - [[Halo 2]] - `references` [EXTRACTED]
@@ -53,11 +53,11 @@ tags:
 - [[Proving Nothing]] - `part_of` [EXTRACTED]
 - [[R1CS]] - `references` [EXTRACTED]
 - [[SP1  SP1 Hypercube]] - `references` [EXTRACTED]
-- [[STARKs]] - `references` [EXTRACTED]
+- [[STARK (Scalable Transparent ARgument of Knowledge)]] - `references` [EXTRACTED]
 - [[Scalable, Transparent, and Post-Quantum Secure Computational Integrity]] - `cites` [EXTRACTED]
 - [[Schwartz-Zippel Lemma]] - `references` [EXTRACTED]
 - [[Sevenlayer Wiki Index]] - `references` [EXTRACTED]
-- [[Small-Field Proving]] - `references` [EXTRACTED]
+- [[Small prime fields (machine-register-sized Goldilocks, M61)]] - `references` [EXTRACTED]
 - [[Spartan]] - `references` [EXTRACTED]
 - [[Stwo]] - `references` [EXTRACTED]
 - [[Sudoku running example]] - `references` [EXTRACTED]
@@ -75,4 +75,4 @@ tags:
 - [[Zcash]] - `references` [EXTRACTED]
 - [[Zero-Knowledge Virtual Machine (zkVM)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_1
+#graphify/document #graphify/EXTRACTED #community/Arithmetization__CCS

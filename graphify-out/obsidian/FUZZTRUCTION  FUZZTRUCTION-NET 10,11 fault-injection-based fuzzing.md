@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-61-arguzz.pdf"
 type: "paper"
-community: "Community 12"
+community: "zkVM Fuzzing (Arguzz)"
 location: "§5 [10,11]"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_12
+  - community/zkVM_Fuzzing_Arguzz
 ---
 
 # FUZZTRUCTION / FUZZTRUCTION-NET [10,11]: fault-injection-based fuzzing
@@ -15,4 +15,4 @@ tags:
 - [[ARGUZZ first automated fuzzer for zkVM soundness & completeness bugs (7-step workflow)]] - `cites` [EXTRACTED]
 - [[Fault Injection]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_12
+#graphify/paper #graphify/EXTRACTED #community/zkVM_Fuzzing_Arguzz

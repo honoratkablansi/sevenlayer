@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch10-the-binary-that-broke.md"
 type: "document"
-community: "Community 0"
+community: "Foundations & SoK Surveys"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Foundations__SoK_Surveys
 ---
 
 # SNARKs
@@ -21,6 +21,7 @@ tags:
 - [[SoK Trusted Setups for Powers-of-Tau Strings]] - `conceptually_related_to` [EXTRACTED]
 - [[SoK What Don't We Know Understanding Security Vulnerabilities in SNARKs]] - `conceptually_related_to` [EXTRACTED]
 - [[The Binary That Broke]] - `conceptually_related_to` [EXTRACTED]
+- [[The Promise of Provable and Programmable Secrets]] - `references` [EXTRACTED]
 - [[Unaligned Incentives Pricing Attacks Against Blockchain Rollups]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/document #graphify/EXTRACTED #community/Foundations__SoK_Surveys

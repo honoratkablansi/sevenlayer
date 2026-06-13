@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch06-the-sealed-certificate.md"
 type: "document"
-community: "Community 9"
+community: "ZK Crypto Foundations"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_9
+  - community/ZK_Crypto_Foundations
 ---
 
 # The Sealed Certificate (Chapter Closing)
@@ -15,7 +15,7 @@ tags:
 - [[Circle STARKs and Stwo A Generational Leap]] - `references` [EXTRACTED]
 - [[Fiat-Shamir Transform]] - `references` [EXTRACTED]
 - [[Fiat-Shamir Vulnerabilities]] - `references` [EXTRACTED]
-- [[Folding Schemes]] - `references` [EXTRACTED]
+- [[Folding Scheme]] - `references` [EXTRACTED]
 - [[From Speed Race to Security Race]] - `references` [EXTRACTED]
 - [[Frozen Heart Vulnerability]] - `references` [EXTRACTED]
 - [[Groth16]] - `references` [EXTRACTED]
@@ -26,10 +26,10 @@ tags:
 - [[Module-SIS]] - `references` [EXTRACTED]
 - [[Nova]] - `references` [EXTRACTED]
 - [[PLONK]] - `references` [EXTRACTED]
-- [[STARKs]] - `references` [EXTRACTED]
+- [[STARK (Scalable Transparent ARgument of Knowledge)]] - `references` [EXTRACTED]
 - [[Stwo]] - `references` [EXTRACTED]
 - [[The Folding Genealogy]] - `references` [EXTRACTED]
 - [[The Three Families]] - `references` [EXTRACTED]
 - [[ZK Coprocessors Off-Chain Computation, On-Chain Verification (Growth)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_9
+#graphify/document #graphify/EXTRACTED #community/ZK_Crypto_Foundations

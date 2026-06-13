@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch09-the-incomplete-stack.md"
 type: "document"
-community: "Community 3"
+community: "Compliance & Deployment"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_3
+  - community/Compliance__Deployment
 ---
 
 # The Incomplete Stack
@@ -19,7 +19,7 @@ tags:
 - [[The Causal Web Why It Is a DAG, Not a Stack]] - `references` [EXTRACTED]
 - [[The Four Pillars]] - `references` [EXTRACTED]
 - [[The Regulatory Intersection]] - `references` [EXTRACTED]
-- [[Zero-Knowledge Proofs]] - `conceptually_related_to` [EXTRACTED]
+- [[Zero-Knowledge Proof]] - `conceptually_related_to` [EXTRACTED]
 - [[eIDAS 2.0]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_3
+#graphify/document #graphify/EXTRACTED #community/Compliance__Deployment

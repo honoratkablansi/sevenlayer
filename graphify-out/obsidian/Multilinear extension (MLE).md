@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch03/ref-16-jolt.pdf"
 type: "paper"
-community: "Community 19"
+community: "Jolt Lookup zkVM"
 location: "§2.1, Lemma 1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_19
+  - community/Jolt_Lookup_zkVM
 ---
 
 # Multilinear extension (MLE)
@@ -20,4 +20,4 @@ tags:
 - [[Per-instruction MLE-structured evaluation tables (EQ, LTU, SLL, ANDORXOR, ADDSUB, MUL)]] - `assumes` [EXTRACTED]
 - [[SuperSpartan SNARK family for CCS generalizing Spartan's polynomial IOP]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_19
+#graphify/paper #graphify/EXTRACTED #community/Jolt_Lookup_zkVM

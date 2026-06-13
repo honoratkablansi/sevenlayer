@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-45-small-space-cpu-proofs.pdf"
 type: "paper"
-community: "Community 1"
+community: "Small-Space Proving (Twist/Shout)"
 location: "§7, Thm 7.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_1
+  - community/Small-Space_Proving_Twist/Shout
 ---
 
 # Theorem 7.1: Jolt prover in S=O(K+log T) space and O(T log T) time
@@ -18,4 +18,4 @@ tags:
 - [[Small-space Jolt prover (sublinear-space zkVM proving without recursion)]] - `proves` [EXTRACTED]
 - [[Square-root space target O(sqrt(KT))  O(K+T{12}) suffices in practice over O(K+log T)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_1
+#graphify/paper #graphify/EXTRACTED #community/Small-Space_Proving_Twist/Shout

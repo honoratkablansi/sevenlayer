@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-19-protostar.pdf"
 type: "paper"
-community: "Community 10"
+community: "Nova Folding & IVC"
 location: "§2.5 Thm 1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_10
+  - community/Nova_Folding__IVC
 ---
 
 # BCLMS21 'PCD Without Succinct Arguments' (cited, accumulation->IVC compiler / Theorem 1)
@@ -15,4 +15,4 @@ tags:
 - [[Protostar Generic Efficient AccumulationFolding for Special-sound Protocols]] - `cites` [EXTRACTED]
 - [[Theorem 3 IVC for High-Degree Special-Sound Protocols (recursive circuit k+d-1 or k+2 scalar mults)]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_10
+#graphify/paper #graphify/EXTRACTED #community/Nova_Folding__IVC

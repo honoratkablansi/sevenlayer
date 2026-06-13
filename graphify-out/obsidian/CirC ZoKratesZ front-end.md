@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-33-circ.pdf"
 type: "paper"
-community: "Community 3"
+community: "CirC Compiler Infrastructure"
 location: "§4.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_3
+  - community/CirC_Compiler_Infrastructure
 ---
 
 # CirC ZoKrates/Z# front-end
@@ -15,4 +15,4 @@ tags:
 - [[CirC-IR (SMT-LIB-based circuit IR)]] - `shares_data_with` [EXTRACTED]
 - [[Circify language-independent state-management library]] - `shares_data_with` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_3
+#graphify/paper #graphify/EXTRACTED #community/CirC_Compiler_Infrastructure

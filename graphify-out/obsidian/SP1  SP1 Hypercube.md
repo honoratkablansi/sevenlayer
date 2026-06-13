@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/01-the-promise-of-provable-and-programmable-secrets.md"
 type: "document"
-community: "Community 2"
+community: "zkVMs & STARK Stacks"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_2
+  - community/zkVMs__STARK_Stacks
 ---
 
 # SP1 / SP1 Hypercube
@@ -44,4 +44,4 @@ tags:
 - [[Zero-Knowledge Virtual Machine (zkVM)]] - `implements` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_2
+#graphify/document #graphify/EXTRACTED #community/zkVMs__STARK_Stacks

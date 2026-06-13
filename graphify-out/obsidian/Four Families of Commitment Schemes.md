@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch07-four-families-of-commitment-schemes.md"
 type: "document"
-community: "Community 8"
+community: "ZK Crypto Foundations"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_8
+  - community/ZK_Crypto_Foundations
 ---
 
 # Four Families of Commitment Schemes
@@ -18,7 +18,7 @@ tags:
 - [[FRI]] - `defines` [EXTRACTED]
 - [[Greyhound]] - `references` [EXTRACTED]
 - [[Halo 2]] - `references` [EXTRACTED]
-- [[Inner Product Arguments (IPA)]] - `defines` [EXTRACTED]
+- [[Inner-Product Argument]] - `defines` [EXTRACTED]
 - [[KZG Polynomial Commitments]] - `defines` [EXTRACTED]
 - [[Lattice Cryptography]] - `references` [EXTRACTED]
 - [[LatticeFold]] - `references` [EXTRACTED]
@@ -27,7 +27,7 @@ tags:
 - [[Pedersen Commitments]] - `references` [EXTRACTED]
 - [[Post-Quantum Cryptography]] - `references` [EXTRACTED]
 - [[SNARK Recursion vs. Folding The Full Picture]] - `references` [EXTRACTED]
-- [[STARKs]] - `references` [EXTRACTED]
+- [[STARK (Scalable Transparent ARgument of Knowledge)]] - `references` [EXTRACTED]
 - [[Small Fields]] - `references` [EXTRACTED]
 - [[The Laws That Break]] - `references` [EXTRACTED]
 - [[The Proof Core Why Layers 4, 5, and 6 Are Inseparable]] - `references` [EXTRACTED]
@@ -38,4 +38,4 @@ tags:
 - [[Trusted Setup]] - `references` [EXTRACTED]
 - [[Zcash]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_8
+#graphify/document #graphify/EXTRACTED #community/ZK_Crypto_Foundations

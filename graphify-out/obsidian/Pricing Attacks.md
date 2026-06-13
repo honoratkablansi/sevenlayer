@@ -1,12 +1,12 @@
 ---
 source_file: "wiki/sections/ch08-pricing-attacks.md"
 type: "document"
-community: "Community 0"
+community: "Programmable Privacy & Midnight"
 location: "Pricing Attacks"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Programmable_Privacy__Midnight
 ---
 
 # Pricing Attacks
@@ -20,4 +20,4 @@ tags:
 - [[The Price of a Verdict]] - `references` [EXTRACTED]
 - [[The Social Layer]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/document #graphify/EXTRACTED #community/Programmable_Privacy__Midnight

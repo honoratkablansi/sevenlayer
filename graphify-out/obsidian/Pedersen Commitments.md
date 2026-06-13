@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch07-case-study-midnight.md"
 type: "document"
-community: "Community 7"
+community: "ZK Crypto Foundations"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_7
+  - community/ZK_Crypto_Foundations
 ---
 
 # Pedersen Commitments
@@ -13,6 +13,7 @@ tags:
 ## Connections
 - [[Additively-Homomorphic Vector Commitment]] - `conceptually_related_to` [EXTRACTED]
 - [[Case Study Midnight (Layer 6)]] - `references` [EXTRACTED]
+- [[Case Study Midnight and the Three-Token Architecture]] - `references` [EXTRACTED]
 - [[Constant-Size Commitments to Polynomials and Their Applications]] - `cites` [EXTRACTED]
 - [[Discrete Logarithm Assumption]] - `assumes` [EXTRACTED]
 - [[Four Families of Commitment Schemes]] - `references` [EXTRACTED]
@@ -24,5 +25,7 @@ tags:
 - [[PolyCommitPed Scheme]] - `conceptually_related_to` [EXTRACTED]
 - [[Single-MSM prover cost (size = variables)]] - `assumes` [EXTRACTED]
 - [[SoK Trusted Setups for Powers-of-Tau Strings]] - `conceptually_related_to` [EXTRACTED]
+- [[The Quantum Threat Horizon]] - `references` [EXTRACTED]
+- [[Three Hardness Assumptions, Three Worlds]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_7
+#graphify/document #graphify/EXTRACTED #community/ZK_Crypto_Foundations

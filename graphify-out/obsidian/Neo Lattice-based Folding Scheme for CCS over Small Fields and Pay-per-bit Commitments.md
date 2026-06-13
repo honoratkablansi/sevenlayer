@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-21-neo.pdf"
 type: "paper"
-community: "Community 11"
+community: "Lattice Folding (Neo)"
 location: "p.1 (title/abstract)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_11
+  - community/Lattice_Folding_Neo
 ---
 
 # Neo: Lattice-based Folding Scheme for CCS over Small Fields and Pay-per-bit Commitments
@@ -18,7 +18,7 @@ tags:
 - [[Arc (hash-based accumulation for Reed-Solomon codes)]] - `cites` [EXTRACTED]
 - [[CCS (Customizable Constraint Systems)]] - `conceptually_related_to` [EXTRACTED]
 - [[Concrete parameters AGL, Goldilocks, Mersenne-61 over degree-2 extension]] - `defines` [EXTRACTED]
-- [[Folding Schemes]] - `conceptually_related_to` [EXTRACTED]
+- [[Folding Scheme]] - `conceptually_related_to` [EXTRACTED]
 - [[Goldilocks Field]] - `conceptually_related_to` [EXTRACTED]
 - [[HyperNova (CRYPTO'24)]] - `shares_data_with` [INFERRED]
 - [[HyperNova Recursive Arguments for Customizable Constraint Systems]] - `cites` [EXTRACTED]
@@ -45,4 +45,4 @@ tags:
 - [[Theorem 5 composition theorem (restricted + relaxed knowledge soundness compose to RoK)]] - `proves` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_11
+#graphify/paper #graphify/EXTRACTED #community/Lattice_Folding_Neo

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-46-zk-memory-algebraic-proofs.pdf"
 type: "paper"
-community: "Community 15"
+community: "Algebraic RAM Proofs"
 location: "§8, §9.4"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_15
+  - community/Algebraic_RAM_Proofs
 ---
 
 # CirC-compiler implementation, bellman/Groth16 base, Z# rollup application
@@ -15,4 +15,4 @@ tags:
 - [[CP-Mirage+ commit-and-prove zkSNARK for AIPs with Pedersen-committed witnesses]] - `shares_data_with` [EXTRACTED]
 - [[Volatile and Persistent Memory for zkSNARKs via Algebraic Interactive Proofs]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_15
+#graphify/paper #graphify/EXTRACTED #community/Algebraic_RAM_Proofs

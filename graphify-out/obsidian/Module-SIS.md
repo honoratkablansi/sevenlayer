@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/10-the-synthesis-three-paths-not-two.md"
 type: "document"
-community: "Community 11"
+community: "ZK Crypto Foundations"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_11
+  - community/ZK_Crypto_Foundations
 ---
 
 # Module-SIS
@@ -48,4 +48,4 @@ tags:
 - [[Weak binding of innerouter commitment under Module-SIS (Lemma 2.11)]] - `assumes` [EXTRACTED]
 - [[l-Succinct SIS Assumption (falsifiable q-type generalization of SIS, trapdoor for I_l ⊗ A  W)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_11
+#graphify/document #graphify/EXTRACTED #community/ZK_Crypto_Foundations

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-35-coda.pdf"
 type: "paper"
-community: "Community 32"
+community: "Circuit Verification (Coda)"
 location: "page 1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_32
+  - community/Circuit_Verification_Coda
 ---
 
 # Certifying Zero-Knowledge Circuits with Refinement Types
@@ -19,4 +19,4 @@ tags:
 - [[R1CS]] - `references` [EXTRACTED]
 - [[Refinement Types]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_32
+#graphify/paper #graphify/EXTRACTED #community/Circuit_Verification_Coda

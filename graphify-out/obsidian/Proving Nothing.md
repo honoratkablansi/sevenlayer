@@ -1,11 +1,11 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 0"
+community: "Programmable Privacy & Midnight"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Programmable_Privacy__Midnight
 ---
 
 # Proving Nothing
@@ -26,4 +26,4 @@ tags:
 - [[The Synthesis -- Three Paths, Not Two]] - `part_of` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `part_of` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/document #graphify/EXTRACTED #community/Programmable_Privacy__Midnight

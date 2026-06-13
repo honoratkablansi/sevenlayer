@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/11-zkvms-the-universal-stage.md"
 type: "document"
-community: "Community 1"
+community: "zkVMs & STARK Stacks"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_1
+  - community/zkVMs__STARK_Stacks
 ---
 
 # RISC Zero
@@ -27,4 +27,4 @@ tags:
 - [[Zero-Knowledge Virtual Machine (zkVM)]] - `implements` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_1
+#graphify/document #graphify/EXTRACTED #community/zkVMs__STARK_Stacks

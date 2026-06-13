@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-63-harvest-now-decrypt-later.pdf"
 type: "document"
-community: "Community 8"
+community: "ZK Crypto Foundations"
 location: "Section 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_8
+  - community/ZK_Crypto_Foundations
 ---
 
 # Bitcoin
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Harvest Now Decrypt Later Examining Post-Quantum Cryptography and the Data Privacy Risks for Distributed Ledger Networks]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_8
+#graphify/document #graphify/EXTRACTED #community/ZK_Crypto_Foundations

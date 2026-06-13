@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-36-sonic.pdf"
 type: "paper"
-community: "Community 24"
+community: "Sonic Argument System"
 location: "§7, Figure 5"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_24
+  - community/Sonic_Argument_System
 ---
 
 # Unhelped (standalone) signature of correct computation — succinct verifier, higher overhead
@@ -15,4 +15,4 @@ tags:
 - [[Polynomial Permutation Argument (DerivepermPpermV)]] - `assumes` [EXTRACTED]
 - [[Signature of Correct Computation (scPscV) for s(z,y) of public s(X,Y)]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_24
+#graphify/paper #graphify/EXTRACTED #community/Sonic_Argument_System

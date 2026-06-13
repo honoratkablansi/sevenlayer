@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch02-universal-versus-circuit-specific-setups.md"
 type: "document"
-community: "Community 0"
+community: "Programmable Privacy & Midnight"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Programmable_Privacy__Midnight
 ---
 
 # Universal versus Circuit-Specific Setups
@@ -24,4 +24,4 @@ tags:
 - [[The CapexOpex Framework]] - `references` [EXTRACTED]
 - [[Trusted Setup Ceremony]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/document #graphify/EXTRACTED #community/Programmable_Privacy__Midnight

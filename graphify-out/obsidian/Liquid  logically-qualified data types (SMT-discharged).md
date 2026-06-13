@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-35-coda.pdf"
 type: "paper"
-community: "Community 32"
+community: "Circuit Verification (Coda)"
 location: "§1, §7 [35][36][43][44][39]"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_32
+  - community/Circuit_Verification_Coda
 ---
 
 # Liquid / logically-qualified data types (SMT-discharged)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Coda refinement type system {nuT  phi}]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_32
+#graphify/paper #graphify/EXTRACTED #community/Circuit_Verification_Coda

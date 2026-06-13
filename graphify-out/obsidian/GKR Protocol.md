@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch05-lookup-arguments.md"
 type: "document"
-community: "Community 1"
+community: "Sumcheck & Proving Overhead"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_1
+  - community/Sumcheck__Proving_Overhead
 ---
 
 # GKR Protocol
@@ -14,4 +14,4 @@ tags:
 - [[Lookup Arguments_1]] - `references` [EXTRACTED]
 - [[The Sumcheck Protocol The Hidden Foundation]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_1
+#graphify/document #graphify/EXTRACTED #community/Sumcheck__Proving_Overhead

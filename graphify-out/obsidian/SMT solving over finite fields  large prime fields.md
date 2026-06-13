@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-35-coda.pdf"
 type: "paper"
-community: "Community 36"
+community: "Circuit Verification (Coda)"
 location: "§1, §7 [32][45]"
 tags:
   - graphify/paper
-  - graphify/EXTRACTED
-  - community/Community_36
+  - graphify/INFERRED
+  - community/Circuit_Verification_Coda
 ---
 
 # SMT solving over finite fields / large prime fields
@@ -15,4 +15,4 @@ tags:
 - [[Coq lemma generation for proof obligations]] - `cites` [EXTRACTED]
 - [[Underconstrained Circuits]] - `conceptually_related_to` [INFERRED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_36
+#graphify/paper #graphify/INFERRED #community/Circuit_Verification_Coda

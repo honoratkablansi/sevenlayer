@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-19-protostar.pdf"
 type: "paper"
-community: "Community 10"
+community: "Nova Folding & IVC"
 location: "§3.2 Lemma 2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_10
+  - community/Nova_Folding__IVC
 ---
 
 # Commit-and-Open Transform cm[Pi_sps] (Lemma 2)
@@ -16,4 +16,4 @@ tags:
 - [[Homomorphic  Trapdoor Commitment Property]] - `assumes` [EXTRACTED]
 - [[RO-NARK FScmPi_sps from Special-Sound Protocol]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_10
+#graphify/paper #graphify/EXTRACTED #community/Nova_Folding__IVC

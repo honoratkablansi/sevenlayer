@@ -1,29 +1,31 @@
 ---
 type: community
-cohesion: 0.19
-members: 14
+cohesion: 0.13
+members: 16
 ---
 
 # Community 27
 
-**Cohesion:** 0.19 - loosely connected
-**Members:** 14 nodes
+**Cohesion:** 0.13 - loosely connected
+**Members:** 16 nodes
 
 ## Members
-- [[32 previously-unknown vulnerabilities (34 unique problems, 405 warnings)]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[Constraint-computation discrepancy vulnerability class]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[Dataflow-Constraint Discrepancy (DCD) detector]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[Division-by-Zero (DBZ) detector]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[Nondeterministic signals vulnerability class]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[Taxonomy of Circom vulnerabilities (3 root-cause classes)]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[Type Mismatch (TM) detector]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[US, USCO, AM, NDD detectors (remaining ZKAP checkers)]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[Unconstrained Circuit Output (UCO) detector]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[Unconstrained Sub-circuit Input (USCI) detector]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[Unsafe component usage vulnerability class]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[Vulnerability Description Language (VDL)]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[ed25519-circom PointCompress unconstrained-output bug]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[iden3 verifyExpirationTime missing-range-check type mismatch]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
+- [[Cited Bellare-Fuchsbauer-Scafuro subversion impossibility (BFS16)]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Impossibility updating non-monomial CRS reveals constituent monomials]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Lemma 6 single adversarial update implies full updatable knowledge soundness]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Lemmas 1-2 subversion-secure = updatable-secure = trusted-secure]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[MonoExtract  FinalMonoExtract monomial-extraction algorithm]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Specializable universal CRS via untrusted Derive algorithm]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Subversion-resistant NIZK  subversion zero-knowledge]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Theorem 3 perfect subversion zero-knowledge of the construction]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Theorem 4 update knowledge soundness under q-MK and q-MC]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Theorem 5  Lemma 8 Pinocchio cannot be made updatable]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Three setup-oracle types trusted (T), updatable (U), subvertible (S)]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Trusted CRS setup with secret trapdoor]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Updatable & specializable QAP-based zk-SNARK construction]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Updatable CRS model (one honest updater suffices)]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Updatable CRS syntax Setup, Update, VerifyCRS algorithms]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[X-security games COMP, X-ZK, X-SND, X-KSND for X in {T,U,S}]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -33,12 +35,13 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 4 edges to [[_COMMUNITY_Community 35]]
-- 2 edges to [[_COMMUNITY_Community 41]]
+- 7 edges to [[_COMMUNITY_Community 6]]
+- 2 edges to [[_COMMUNITY_Community 18]]
+- 1 edge to [[_COMMUNITY_Community 43]]
 
 ## Top bridge nodes
-- [[Vulnerability Description Language (VDL)]] - degree 8, connects to 1 community
-- [[Nondeterministic signals vulnerability class]] - degree 4, connects to 1 community
-- [[Taxonomy of Circom vulnerabilities (3 root-cause classes)]] - degree 4, connects to 1 community
-- [[Unsafe component usage vulnerability class]] - degree 3, connects to 1 community
-- [[32 previously-unknown vulnerabilities (34 unique problems, 405 warnings)]] - degree 3, connects to 1 community
+- [[Updatable & specializable QAP-based zk-SNARK construction]] - degree 6, connects to 2 communities
+- [[Updatable CRS model (one honest updater suffices)]] - degree 7, connects to 1 community
+- [[Impossibility updating non-monomial CRS reveals constituent monomials]] - degree 3, connects to 1 community
+- [[Cited Bellare-Fuchsbauer-Scafuro subversion impossibility (BFS16)]] - degree 2, connects to 1 community
+- [[Theorem 5  Lemma 8 Pinocchio cannot be made updatable]] - degree 2, connects to 1 community

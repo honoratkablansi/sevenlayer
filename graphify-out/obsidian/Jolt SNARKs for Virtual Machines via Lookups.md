@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch03/ref-16-jolt.pdf"
 type: "paper"
-community: "Community 19"
+community: "Jolt Lookup zkVM"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_19
+  - community/Jolt_Lookup_zkVM
 ---
 
 # Jolt: SNARKs for Virtual Machines via Lookups
@@ -25,7 +25,7 @@ tags:
 - [[MLE-structured tables]] - `defines` [EXTRACTED]
 - [[Multilinear extension (MLE)]] - `assumes` [EXTRACTED]
 - [[Per-instruction MLE-structured evaluation tables (EQ, LTU, SLL, ANDORXOR, ADDSUB, MUL)]] - `defines` [EXTRACTED]
-- [[Polynomial commitment scheme]] - `assumes` [EXTRACTED]
+- [[Polynomial Commitment Scheme]] - `assumes` [EXTRACTED]
 - [[Prover commits to ~6 256-bit field elements per RISC-V CPU step]] - `proves` [EXTRACTED]
 - [[R1CS]] - `assumes` [EXTRACTED]
 - [[RISC-V]] - `conceptually_related_to` [EXTRACTED]
@@ -37,4 +37,4 @@ tags:
 - [[Virtual instructions and virtual registers (MULH, DIVREM, MOVSIGN, ADVICE, ASSERT)]] - `introduces` [EXTRACTED]
 - [[Zero-Knowledge Virtual Machine (zkVM)]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_19
+#graphify/paper #graphify/EXTRACTED #community/Jolt_Lookup_zkVM

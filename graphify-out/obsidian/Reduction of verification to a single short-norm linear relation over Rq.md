@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-65-greyhound.pdf"
 type: "paper"
-community: "Community 14"
+community: "Lattice PCS (Greyhound)"
 location: "§1.2 Eq.(3), §3.1 Eq.(5)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_14
+  - community/Lattice_PCS_Greyhound
 ---
 
 # Reduction of verification to a single short-norm linear relation over Rq
@@ -15,4 +15,4 @@ tags:
 - [[Committing to w via v=Dw-hat (proof-size reduction)]] - `defines` [EXTRACTED]
 - [[LaBRADOR Proof System]] - `shares_data_with` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_14
+#graphify/paper #graphify/EXTRACTED #community/Lattice_PCS_Greyhound

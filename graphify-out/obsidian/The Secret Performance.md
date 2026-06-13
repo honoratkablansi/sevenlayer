@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/04-the-secret-performance.md"
 type: "document"
-community: "Community 1"
+community: "Witness Generation & Hardware"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_1
+  - community/Witness_Generation__Hardware
 ---
 
 # The Secret Performance
@@ -18,7 +18,7 @@ tags:
 - [[Execution Trace]] - `defines` [EXTRACTED]
 - [[Execution Traces]] - `part_of` [EXTRACTED]
 - [[FRI]] - `references` [EXTRACTED]
-- [[Folding Schemes]] - `references` [EXTRACTED]
+- [[Folding Scheme]] - `references` [EXTRACTED]
 - [[Goldilocks Field]] - `references` [EXTRACTED]
 - [[Groth16]] - `references` [EXTRACTED]
 - [[Halo 2]] - `references` [EXTRACTED]
@@ -37,7 +37,7 @@ tags:
 - [[Proving CPU Executions in Small Space]] - `cites` [EXTRACTED]
 - [[Proving Nothing]] - `part_of` [EXTRACTED]
 - [[Reinforced Concrete Hash]] - `references` [EXTRACTED]
-- [[STARKs]] - `references` [EXTRACTED]
+- [[STARK (Scalable Transparent ARgument of Knowledge)]] - `references` [EXTRACTED]
 - [[Sevenlayer Wiki Index]] - `references` [EXTRACTED]
 - [[Side-Channel Attacks]] - `defines` [EXTRACTED]
 - [[Side-Channel Attacks When the Walls Leak]] - `part_of` [EXTRACTED]
@@ -56,4 +56,4 @@ tags:
 - [[Zcash]] - `references` [EXTRACTED]
 - [[Zero-Knowledge Virtual Machine (zkVM)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_1
+#graphify/document #graphify/EXTRACTED #community/Witness_Generation__Hardware

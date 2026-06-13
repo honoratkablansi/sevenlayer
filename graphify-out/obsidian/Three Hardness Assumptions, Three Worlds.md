@@ -1,12 +1,12 @@
 ---
 source_file: "wiki/sections/ch07-three-hardness-assumptions-three-worlds.md"
 type: "document"
-community: "Community 8"
+community: "ZK Crypto Foundations"
 location: "Three Hardness Assumptions, Three Worlds"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_8
+  - community/ZK_Crypto_Foundations
 ---
 
 # Three Hardness Assumptions, Three Worlds
@@ -23,7 +23,7 @@ tags:
 - [[Layer 6 -- The Deep Craft]] - `part_of` [EXTRACTED]
 - [[Module-SIS]] - `defines` [EXTRACTED]
 - [[PLONK]] - `references` [EXTRACTED]
-- [[Pedersen Commitment]] - `references` [EXTRACTED]
+- [[Pedersen Commitments]] - `references` [EXTRACTED]
 - [[Poseidon Hash]] - `references` [EXTRACTED]
 - [[Post-Quantum Cryptography]] - `references` [EXTRACTED]
 - [[The Laws That Break]] - `references` [EXTRACTED]
@@ -31,4 +31,4 @@ tags:
 - [[The Quantum Threat Horizon]] - `references` [EXTRACTED]
 - [[The Trilemma -- And Its Dissolution]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_8
+#graphify/document #graphify/EXTRACTED #community/ZK_Crypto_Foundations

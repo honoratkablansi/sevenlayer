@@ -1,32 +1,36 @@
 ---
 type: community
-cohesion: 0.19
-members: 17
+cohesion: 0.12
+members: 21
 ---
 
 # Community 20
 
-**Cohesion:** 0.19 - loosely connected
-**Members:** 17 nodes
+**Cohesion:** 0.12 - loosely connected
+**Members:** 21 nodes
 
 ## Members
-- [[BASIS_struct Assumption (structured lattice assumption of WW23; implies l-succinct SIS)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
-- [[CRS Efficiency Claim l{d+1} CRS for degree-d polynomials (reduces ACL+22 exponent from 2d to d+1; l3 for quadratics vs l4l5)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
-- [[Construction 3.19 Dual Functional Commitment for Bounded-Depth Boolean Circuits]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
-- [[Construction 3.2 Functional Commitment for Constant-Degree Polynomials]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
-- [[Construction 3.9 Multi-Output Functional Commitment for Constant-Degree Polynomials]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
-- [[Dual Functional Commitment (commit to function f, open at input x)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
-- [[Evasive LWE Assumption (implies l-succinct SIS plus LWE)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
-- [[Fast Verification in the Preprocessing Model (sublinear verifier after functioninput preprocessing)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
-- [[Functional Commitment]] - document - references/ch14/ref-62-lattice-functional-commitments.pdf
-- [[GSW  BGG+14 Lattice Homomorphic Evaluation Machinery]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
-- [[Inhomogeneous SIS Assumption]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
-- [[KLVW23 RAM-Delegation-Based FC for All Circuits (LWE, transparent, non-black-box)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
-- [[Lattice-Based Functional Commitments Fast Verification and Cryptanalysis]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
-- [[Short Integer Solutions (SIS) Assumption]] - document - references/ch14/ref-62-lattice-functional-commitments.pdf
-- [[Theorem 3.22 Selective-Input Binding of Dual FC under l-succinct SIS]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
-- [[Theorem 3.6 Computational Binding of Construction 3.2 under l-succinct SIS]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
-- [[l-Succinct SIS Assumption (falsifiable q-type generalization of SIS, trapdoor for I_l ⊗ A  W)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Argument that large shards enable faster TwistShout proving (K-linear cost amortized)]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Block et al. (BHR20) quasi-linear small-space SNARK for VMs with streaming Bulletproofs PCS]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Blumberg et al. (BTVW14) small-space quasi-linear PIOP for circuit-SAT]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Concrete cost estimate ~900T linear-space vs ~900T+12T log T small-space field mults]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Continuations  recursive composition for zkVM prover memory control]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Cormode-Thaler-Yi (CTY11) linear-time and sparse streaming sum-check provers]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Dimension parameter d factoring one-hot address poly into d smaller polys]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Gemini (BCHO22) small-space VM SNARK with streamed multilinear-KZG PCS]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Jolt sum-check-based zkVM for RISC-V]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[One-hot (unit-vector) address encoding for memory ops in TwistShout]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[RISC-V instruction set architecture]] - paper - references/ch03/ref-16-jolt.pdf
+- [[Recursive SNARK Composition (Preprocessing to Fully Succinct)]] - paper - references/ch02/ref-06-groth16.pdf
+- [[Repeated witness generation with checkpoints and multithreaded parallel regeneration]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Shout sum-check memory-checking  lookup argument for read-only memory]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Small-space Jolt prover (sublinear-space zkVM proving without recursion)]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Small-value sum-check optimization (Bagad-Domb-Thaler Algorithm 3)]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Spartan over Jolt's uniform block-diagonal R1CS, streamed via Az,Bz,Cz]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Square-root space target O(sqrt(KT))  O(K+T{12}) suffices in practice over O(K+log T)]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Streaming  small-space sum-check prover (logarithmic-space, quasi-linear time)]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Theorem 7.1 Jolt prover in S=O(K+log T) space and O(T log T) time]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Twist and Shout Memory-Checking Arguments]] - document - references/ch14/ref-45-small-space-cpu-proofs.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -36,17 +40,22 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 5 edges to [[_COMMUNITY_Community 14]]
-- 5 edges to [[_COMMUNITY_Community 45]]
-- 2 edges to [[_COMMUNITY_Community 0]]
-- 2 edges to [[_COMMUNITY_Community 11]]
-- 1 edge to [[_COMMUNITY_Community 8]]
-- 1 edge to [[_COMMUNITY_Community 15]]
-- 1 edge to [[_COMMUNITY_Community 4]]
+- 5 edges to [[_COMMUNITY_Community 26]]
+- 3 edges to [[_COMMUNITY_Community 30]]
+- 2 edges to [[_COMMUNITY_Community 2]]
+- 2 edges to [[_COMMUNITY_Community 24]]
+- 2 edges to [[_COMMUNITY_Community 34]]
+- 2 edges to [[_COMMUNITY_Community 12]]
+- 1 edge to [[_COMMUNITY_Community 10]]
+- 1 edge to [[_COMMUNITY_Community 25]]
+- 1 edge to [[_COMMUNITY_Community 18]]
+- 1 edge to [[_COMMUNITY_Community 19]]
+- 1 edge to [[_COMMUNITY_Community 0]]
+- 1 edge to [[_COMMUNITY_Community 9]]
 
 ## Top bridge nodes
-- [[Lattice-Based Functional Commitments Fast Verification and Cryptanalysis]] - degree 14, connects to 5 communities
-- [[Construction 3.2 Functional Commitment for Constant-Degree Polynomials]] - degree 10, connects to 3 communities
-- [[Functional Commitment]] - degree 7, connects to 2 communities
-- [[Short Integer Solutions (SIS) Assumption]] - degree 5, connects to 2 communities
-- [[l-Succinct SIS Assumption (falsifiable q-type generalization of SIS, trapdoor for I_l ⊗ A  W)]] - degree 8, connects to 1 community
+- [[Jolt sum-check-based zkVM for RISC-V]] - degree 9, connects to 4 communities
+- [[Small-space Jolt prover (sublinear-space zkVM proving without recursion)]] - degree 9, connects to 4 communities
+- [[Twist and Shout Memory-Checking Arguments]] - degree 8, connects to 2 communities
+- [[Spartan over Jolt's uniform block-diagonal R1CS, streamed via Az,Bz,Cz]] - degree 4, connects to 2 communities
+- [[Shout sum-check memory-checking  lookup argument for read-only memory]] - degree 3, connects to 2 communities

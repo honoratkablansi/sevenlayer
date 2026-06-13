@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-37-updatable-universal-crs.pdf"
 type: "paper"
-community: "Community 39"
+community: "Updatable CRS Theory"
 location: "§6.2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_39
+  - community/Updatable_CRS_Theory
 ---
 
 # MonoExtract / FinalMonoExtract monomial-extraction algorithm
@@ -15,4 +15,4 @@ tags:
 - [[Impossibility updating non-monomial CRS reveals constituent monomials]] - `defines` [EXTRACTED]
 - [[Theorem 5  Lemma 8 Pinocchio cannot be made updatable]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_39
+#graphify/paper #graphify/EXTRACTED #community/Updatable_CRS_Theory

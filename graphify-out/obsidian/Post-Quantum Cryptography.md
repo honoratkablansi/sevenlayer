@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/02-building-the-stage.md"
 type: "document"
-community: "Community 8"
+community: "ZK Crypto Foundations"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_8
+  - community/ZK_Crypto_Foundations
 ---
 
 # Post-Quantum Cryptography
@@ -48,4 +48,4 @@ tags:
 - [[Where Midnight Challenges the Model]] - `references` [EXTRACTED]
 - [[ZKsync Airbender GPU-Accelerated RISC-V Proving]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_8
+#graphify/document #graphify/EXTRACTED #community/ZK_Crypto_Foundations

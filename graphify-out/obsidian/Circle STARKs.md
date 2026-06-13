@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/06-the-sealed-certificate.md"
 type: "document"
-community: "Community 2"
+community: "zkVMs & STARK Stacks"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_2
+  - community/zkVMs__STARK_Stacks
 ---
 
 # Circle STARKs
@@ -22,7 +22,7 @@ tags:
 - [[Mersenne-31 Field]] - `conceptually_related_to` [EXTRACTED]
 - [[Open Questions and the Road Ahead]] - `references` [EXTRACTED]
 - [[Path One The Hybrid STARK-to-SNARK Pipeline]] - `conceptually_related_to` [EXTRACTED]
-- [[STARKs]] - `conceptually_related_to` [EXTRACTED]
+- [[STARK (Scalable Transparent ARgument of Knowledge)]] - `conceptually_related_to` [EXTRACTED]
 - [[Side-Channel Attacks When the Walls Leak]] - `references` [EXTRACTED]
 - [[Stwo]] - `implements` [EXTRACTED]
 - [[The Proof Core Triad]] - `conceptually_related_to` [EXTRACTED]
@@ -42,4 +42,4 @@ tags:
 - [[ZK Rollups The Proving Grounds (Production)]] - `references` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_2
+#graphify/document #graphify/EXTRACTED #community/zkVMs__STARK_Stacks

@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch12-midnight-at-a-glance.md"
 type: "document"
-community: "Community 5"
+community: "Programmable Privacy & Midnight"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_5
+  - community/Programmable_Privacy__Midnight
 ---
 
 # Cardano
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[Midnight at a Glance]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_5
+#graphify/document #graphify/EXTRACTED #community/Programmable_Privacy__Midnight

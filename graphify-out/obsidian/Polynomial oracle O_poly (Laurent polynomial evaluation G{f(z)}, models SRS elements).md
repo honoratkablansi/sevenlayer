@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-38-snarky-ceremonies.pdf"
 type: "paper"
-community: "Community 28"
+community: "Universal SRS & Ceremonies"
 location: "§4.1, Fig 3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_28
+  - community/Universal_SRS__Ceremonies
 ---
 
 # Polynomial oracle O_poly (Laurent polynomial evaluation G^{f(z)}, models SRS elements)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Straight-line simulation-extractability in (RO,d-Poly) model (Def 7, O_se + O_poly oracles)]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_28
+#graphify/paper #graphify/EXTRACTED #community/Universal_SRS__Ceremonies

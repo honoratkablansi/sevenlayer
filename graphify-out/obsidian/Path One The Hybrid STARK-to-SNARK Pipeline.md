@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch10-path-one-the-hybrid-stark-to-snark-pipeline.md"
 type: "document"
-community: "Community 2"
+community: "zkVMs & STARK Stacks"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_2
+  - community/zkVMs__STARK_Stacks
 ---
 
 # Path One: The Hybrid STARK-to-SNARK Pipeline
@@ -22,7 +22,7 @@ tags:
 - [[Post-Quantum Cryptography]] - `conceptually_related_to` [EXTRACTED]
 - [[RISC Zero]] - `references` [EXTRACTED]
 - [[SP1  SP1 Hypercube]] - `references` [EXTRACTED]
-- [[STARKs]] - `conceptually_related_to` [EXTRACTED]
+- [[STARK (Scalable Transparent ARgument of Knowledge)]] - `conceptually_related_to` [EXTRACTED]
 - [[Stwo]] - `references` [EXTRACTED]
 - [[The Synthesis -- Three Paths, Not Two]] - `part_of` [EXTRACTED]
 - [[The Three-Path Table]] - `references` [EXTRACTED]
@@ -30,4 +30,4 @@ tags:
 - [[Trusted Setup]] - `conceptually_related_to` [EXTRACTED]
 - [[ZisK]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_2
+#graphify/document #graphify/EXTRACTED #community/zkVMs__STARK_Stacks

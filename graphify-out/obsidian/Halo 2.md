@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/12-midnight-the-privacy-theater.md"
 type: "document"
-community: "Community 5"
+community: "Programmable Privacy & Midnight"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_5
+  - community/Programmable_Privacy__Midnight
 ---
 
 # Halo 2
@@ -44,4 +44,4 @@ tags:
 - [[ZK Rollups The Proving Grounds (Production)]] - `references` [EXTRACTED]
 - [[ZKML Provable Machine Learning (Research)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_5
+#graphify/document #graphify/EXTRACTED #community/Programmable_Privacy__Midnight

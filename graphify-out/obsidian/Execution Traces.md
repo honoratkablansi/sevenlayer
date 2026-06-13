@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch04-execution-traces.md"
 type: "document"
-community: "Community 1"
+community: "Witness Generation & Hardware"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_1
+  - community/Witness_Generation__Hardware
 ---
 
 # Execution Traces
@@ -24,4 +24,4 @@ tags:
 - [[Witness Generation Costs]] - `references` [EXTRACTED]
 - [[Zero-Knowledge Virtual Machine (zkVM)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_1
+#graphify/document #graphify/EXTRACTED #community/Witness_Generation__Hardware

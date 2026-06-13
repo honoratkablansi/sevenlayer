@@ -1,353 +1,332 @@
 {
   "colorGroups": [
     {
-      "query": "tag:#community/Community_0",
+      "query": "tag:#community/ZK_Crypto_Foundations",
       "color": {
         "a": 1,
         "rgb": 5142951
       }
     },
     {
-      "query": "tag:#community/Community_1",
+      "query": "tag:#community/Programmable_Privacy_&_Midnight",
       "color": {
         "a": 1,
         "rgb": 15896107
       }
     },
     {
-      "query": "tag:#community/Community_2",
+      "query": "tag:#community/zkVMs_&_STARK_Stacks",
       "color": {
         "a": 1,
         "rgb": 14767961
       }
     },
     {
-      "query": "tag:#community/Community_3",
+      "query": "tag:#community/Nova_Folding_&_IVC",
       "color": {
         "a": 1,
         "rgb": 7780274
       }
     },
     {
-      "query": "tag:#community/Community_4",
+      "query": "tag:#community/Lattice_Folding_(Symphony)",
       "color": {
         "a": 1,
         "rgb": 5873999
       }
     },
     {
-      "query": "tag:#community/Community_5",
+      "query": "tag:#community/Lattice_Folding_(Neo)",
       "color": {
         "a": 1,
         "rgb": 15583560
       }
     },
     {
-      "query": "tag:#community/Community_6",
+      "query": "tag:#community/Universal_SRS_&_Ceremonies",
       "color": {
         "a": 1,
         "rgb": 11565729
       }
     },
     {
-      "query": "tag:#community/Community_7",
+      "query": "tag:#community/Circle_STARKs",
       "color": {
         "a": 1,
         "rgb": 16752039
       }
     },
     {
-      "query": "tag:#community/Community_8",
+      "query": "tag:#community/Bulletproofs_&_Range_Proofs",
       "color": {
         "a": 1,
         "rgb": 10253663
       }
     },
     {
-      "query": "tag:#community/Community_9",
+      "query": "tag:#community/zkVM_Fuzzing_(Arguzz)",
       "color": {
         "a": 1,
         "rgb": 12234924
       }
     },
     {
-      "query": "tag:#community/Community_10",
+      "query": "tag:#community/Arithmetization_&_CCS",
       "color": {
         "a": 1,
         "rgb": 5142951
       }
     },
     {
-      "query": "tag:#community/Community_11",
+      "query": "tag:#community/Algebraic_RAM_Proofs",
       "color": {
         "a": 1,
         "rgb": 15896107
       }
     },
     {
-      "query": "tag:#community/Community_12",
+      "query": "tag:#community/PLONK_&_Permutation_Arguments",
       "color": {
         "a": 1,
         "rgb": 14767961
       }
     },
     {
-      "query": "tag:#community/Community_13",
+      "query": "tag:#community/STARK_Foundations",
       "color": {
         "a": 1,
         "rgb": 7780274
       }
     },
     {
-      "query": "tag:#community/Community_14",
+      "query": "tag:#community/HyperNova_Multifolding",
       "color": {
         "a": 1,
         "rgb": 5873999
       }
     },
     {
-      "query": "tag:#community/Community_15",
+      "query": "tag:#community/Circuit_Verification_(Coda)",
       "color": {
         "a": 1,
         "rgb": 15583560
       }
     },
     {
-      "query": "tag:#community/Community_16",
+      "query": "tag:#community/Lattice_Functional_Commitments",
       "color": {
         "a": 1,
         "rgb": 11565729
       }
     },
     {
-      "query": "tag:#community/Community_17",
+      "query": "tag:#community/Lattice_PCS_(Greyhound)",
       "color": {
         "a": 1,
         "rgb": 16752039
       }
     },
     {
-      "query": "tag:#community/Community_18",
+      "query": "tag:#community/Groth16_&_Pairing_SNARKs",
       "color": {
         "a": 1,
         "rgb": 10253663
       }
     },
     {
-      "query": "tag:#community/Community_19",
+      "query": "tag:#community/KZG_Polynomial_Commitments",
       "color": {
         "a": 1,
         "rgb": 12234924
       }
     },
     {
-      "query": "tag:#community/Community_20",
+      "query": "tag:#community/Small-Space_Proving_(Twist/Shout)",
       "color": {
         "a": 1,
         "rgb": 5142951
       }
     },
     {
-      "query": "tag:#community/Community_21",
+      "query": "tag:#community/CirC_Compiler_Infrastructure",
       "color": {
         "a": 1,
         "rgb": 15896107
       }
     },
     {
-      "query": "tag:#community/Community_22",
+      "query": "tag:#community/Witness_Generation_&_Hardware",
       "color": {
         "a": 1,
         "rgb": 14767961
       }
     },
     {
-      "query": "tag:#community/Community_23",
+      "query": "tag:#community/ZK_Identity_&_Enterprise",
       "color": {
         "a": 1,
         "rgb": 7780274
       }
     },
     {
-      "query": "tag:#community/Community_24",
+      "query": "tag:#community/Jolt_Lookup_zkVM",
       "color": {
         "a": 1,
         "rgb": 5873999
       }
     },
     {
-      "query": "tag:#community/Community_25",
+      "query": "tag:#community/Lasso_Lookup_Arguments",
       "color": {
         "a": 1,
         "rgb": 15583560
       }
     },
     {
-      "query": "tag:#community/Community_26",
+      "query": "tag:#community/Sumcheck_SNARKs_(CCS/Lattice)",
       "color": {
         "a": 1,
         "rgb": 11565729
       }
     },
     {
-      "query": "tag:#community/Community_27",
+      "query": "tag:#community/Updatable_CRS_Theory",
       "color": {
         "a": 1,
         "rgb": 16752039
       }
     },
     {
-      "query": "tag:#community/Community_28",
+      "query": "tag:#community/QED2_Detection_Algorithm",
       "color": {
         "a": 1,
         "rgb": 10253663
       }
     },
     {
-      "query": "tag:#community/Community_29",
+      "query": "tag:#community/Privacy-Enhancing_Technologies",
       "color": {
         "a": 1,
         "rgb": 12234924
       }
     },
     {
-      "query": "tag:#community/Community_30",
+      "query": "tag:#community/Sumcheck_&_Proving_Overhead",
       "color": {
         "a": 1,
         "rgb": 5142951
       }
     },
     {
-      "query": "tag:#community/Community_31",
+      "query": "tag:#community/Circom_Vulnerability_Taxonomy",
       "color": {
         "a": 1,
         "rgb": 15896107
       }
     },
     {
-      "query": "tag:#community/Community_32",
+      "query": "tag:#community/Foundations_&_SoK_Surveys",
       "color": {
         "a": 1,
         "rgb": 14767961
       }
     },
     {
-      "query": "tag:#community/Community_33",
+      "query": "tag:#community/Compliance_&_Deployment",
       "color": {
         "a": 1,
         "rgb": 7780274
       }
     },
     {
-      "query": "tag:#community/Community_34",
+      "query": "tag:#community/Memory_Checking_&_Sparse_PCS",
       "color": {
         "a": 1,
         "rgb": 5873999
       }
     },
     {
-      "query": "tag:#community/Community_35",
+      "query": "tag:#community/AGM_Ceremony_Soundness",
       "color": {
         "a": 1,
         "rgb": 15583560
       }
     },
     {
-      "query": "tag:#community/Community_36",
+      "query": "tag:#community/Circuit_Static_Analysis_(ZKAP)",
       "color": {
         "a": 1,
         "rgb": 11565729
       }
     },
     {
-      "query": "tag:#community/Community_37",
+      "query": "tag:#community/Sonic_Argument_System",
       "color": {
         "a": 1,
         "rgb": 16752039
       }
     },
     {
-      "query": "tag:#community/Community_38",
+      "query": "tag:#community/Under-Constrained_Circuits_(Picus)",
       "color": {
         "a": 1,
         "rgb": 10253663
       }
     },
     {
-      "query": "tag:#community/Community_39",
+      "query": "tag:#community/Proof_of_Personhood_&_eIDAS",
       "color": {
         "a": 1,
         "rgb": 12234924
       }
     },
     {
-      "query": "tag:#community/Community_40",
+      "query": "tag:#community/ZK_Bug_Tooling",
       "color": {
         "a": 1,
         "rgb": 5142951
       }
     },
     {
-      "query": "tag:#community/Community_41",
+      "query": "tag:#community/Fully_Homomorphic_Encryption",
       "color": {
         "a": 1,
         "rgb": 15896107
       }
     },
     {
-      "query": "tag:#community/Community_42",
+      "query": "tag:#community/Pairing_Curve_Security",
       "color": {
         "a": 1,
         "rgb": 14767961
       }
     },
     {
-      "query": "tag:#community/Community_43",
+      "query": "tag:#community/Knowledge-of-Exponent_Assumptions",
       "color": {
         "a": 1,
         "rgb": 7780274
       }
     },
     {
-      "query": "tag:#community/Community_44",
+      "query": "tag:#community/KZG_Batch_Opening",
       "color": {
         "a": 1,
         "rgb": 5873999
       }
     },
     {
-      "query": "tag:#community/Community_45",
+      "query": "tag:#community/Uniform_CCS_Proving",
       "color": {
         "a": 1,
         "rgb": 15583560
       }
     },
     {
-      "query": "tag:#community/Community_46",
+      "query": "tag:#community/Improvement_Backlog",
       "color": {
         "a": 1,
         "rgb": 11565729
-      }
-    },
-    {
-      "query": "tag:#community/Community_47",
-      "color": {
-        "a": 1,
-        "rgb": 16752039
-      }
-    },
-    {
-      "query": "tag:#community/Community_48",
-      "color": {
-        "a": 1,
-        "rgb": 10253663
-      }
-    },
-    {
-      "query": "tag:#community/Community_49",
-      "color": {
-        "a": 1,
-        "rgb": 12234924
       }
     }
   ]

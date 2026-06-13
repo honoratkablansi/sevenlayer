@@ -1,12 +1,12 @@
 ---
 source_file: "wiki/sections/ch07-the-laws-that-break.md"
 type: "document"
-community: "Community 8"
+community: "ZK Crypto Foundations"
 location: "The Laws That Break"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_8
+  - community/ZK_Crypto_Foundations
 ---
 
 # The Laws That Break
@@ -21,4 +21,4 @@ tags:
 - [[The Post-Quantum Horizon]] - `references` [EXTRACTED]
 - [[Three Hardness Assumptions, Three Worlds]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_8
+#graphify/document #graphify/EXTRACTED #community/ZK_Crypto_Foundations

@@ -1,19 +1,19 @@
 ---
 source_file: "wiki/sections/ch07-the-structural-advantage-of-lattices.md"
 type: "document"
-community: "Community 8"
+community: "ZK Crypto Foundations"
 location: "The Structural Advantage of Lattices"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_8
+  - community/ZK_Crypto_Foundations
 ---
 
 # The Structural Advantage of Lattices
 
 ## Connections
 - [[Ajtai commitments]] - `references` [EXTRACTED]
-- [[Folding Schemes]] - `references` [EXTRACTED]
+- [[Folding Scheme]] - `references` [EXTRACTED]
 - [[Four Families of Commitment Schemes]] - `references` [EXTRACTED]
 - [[Halo 2]] - `references` [EXTRACTED]
 - [[Lattice Cryptography]] - `references` [EXTRACTED]
@@ -25,4 +25,4 @@ tags:
 - [[Trusted Setup]] - `references` [EXTRACTED]
 - [[Zexe]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_8
+#graphify/document #graphify/EXTRACTED #community/ZK_Crypto_Foundations

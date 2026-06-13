@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/GLOSSARY.md"
 type: "document"
-community: "Community 9"
+community: "Arithmetization & CCS"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_9
+  - community/Arithmetization__CCS
 ---
 
 # HyperNova
@@ -15,7 +15,7 @@ tags:
 - [[CCS The Rosetta Stone]] - `references` [EXTRACTED]
 - [[Coda]] - `references` [EXTRACTED]
 - [[Encoding the Performance]] - `references` [EXTRACTED]
-- [[Folding Schemes]] - `part_of` [EXTRACTED]
+- [[Folding Scheme]] - `part_of` [EXTRACTED]
 - [[Glossary of Key Terms]] - `defines` [EXTRACTED]
 - [[Layer 5 -- The Sealed Certificate]] - `references` [EXTRACTED]
 - [[Nightstream Lattice-Based Folding for CCS (LFDT-Nightstream)]] - `references` [EXTRACTED]
@@ -30,4 +30,4 @@ tags:
 - [[The Seven Questions That Remain Open]] - `references` [EXTRACTED]
 - [[The Sumcheck Protocol The Hidden Foundation]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_9
+#graphify/document #graphify/EXTRACTED #community/Arithmetization__CCS

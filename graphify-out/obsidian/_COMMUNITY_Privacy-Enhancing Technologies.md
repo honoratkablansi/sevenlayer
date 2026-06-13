@@ -1,44 +1,29 @@
 ---
 type: community
-cohesion: 0.19
-members: 29
+cohesion: 0.26
+members: 14
 ---
 
 # Privacy-Enhancing Technologies
 
-**Cohesion:** 0.19 - loosely connected
-**Members:** 29 nodes
+**Cohesion:** 0.26 - loosely connected
+**Members:** 14 nodes
 
 ## Members
 - [[Aztec]] - document - wiki/sections/ch09-open-problems.md
 - [[CollaborativeThreshold Proving]] - document - proving-nothing.md
 - [[Composability When One PET Is Not Enough]] - document - wiki/sections/ch09-composability-when-one-pet-is-not-enough.md
-- [[Differential Privacy]] - document - wiki/sections/ch09-composability-when-one-pet-is-not-enough.md
-- [[Fully Homomorphic Encryption (FHE)]] - document - wiki/chapters/09-privacy-enhancing-technologies.md
-- [[GDPR]] - document - wiki/sections/ch09-the-regulatory-intersection.md
 - [[Garbled Circuits]] - document - proving-nothing.md
 - [[Kachina]] - document - wiki/chapters/09-privacy-enhancing-technologies.md
 - [[Oblivious Transfer]] - document - proving-nothing.md
 - [[Open Problems]] - document - wiki/sections/ch09-open-problems.md
 - [[Privacy Architectures for Smart Contracts Kachina and Zexe]] - document - wiki/sections/ch09-privacy-architectures-for-smart-contracts-kachina-and-zexe.md
-- [[Privacy Pools]] - document - wiki/sections/ch09-real-world-deployments-five-case-studies.md
 - [[Privacy-Enhancing Technologies]] - document - wiki/chapters/09-privacy-enhancing-technologies.md
 - [[Private Information Retrieval (PIR)]] - document - wiki/sections/ch09-open-problems.md
 - [[Private Set Intersection (PSI)]] - document - proving-nothing.md
-- [[Real-World Deployments Five Case Studies]] - document - wiki/sections/ch09-real-world-deployments-five-case-studies.md
 - [[Secure Multi-Party Computation (MPC)]] - document - wiki/chapters/09-privacy-enhancing-technologies.md
-- [[Selective Disclosure]] - document - references/ch12/ref-41-midnight-developer-guide.md
-- [[The Decision Matrix]] - document - wiki/sections/ch09-the-decision-matrix.md
-- [[The Four Pillars]] - document - wiki/sections/ch09-the-four-pillars.md
-- [[The Incomplete Stack]] - document - wiki/sections/ch09-the-incomplete-stack.md
-- [[The Regulatory Intersection]] - document - wiki/sections/ch09-the-regulatory-intersection.md
-- [[Three Kinds of Security]] - document - wiki/sections/ch09-three-kinds-of-security.md
-- [[Trusted Execution Environment (TEE)]] - document - wiki/chapters/09-privacy-enhancing-technologies.md
 - [[Verifiable FHE (zkFHE)]] - document - proving-nothing.md
-- [[Zero-Knowledge Proofs]] - document - wiki/sections/ch09-the-four-pillars.md
 - [[Zexe]] - document - wiki/chapters/06-the-sealed-certificate.md
-- [[eIDAS 2.0_1]] - document - proving-nothing.md
-- [[zKYC (Zero-Knowledge Know Your Customer)]] - document - wiki/sections/ch09-the-regulatory-intersection.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -48,20 +33,20 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 7 edges to [[_COMMUNITY_Rollup Security, Attacks & Aggregation]]
-- 6 edges to [[_COMMUNITY_Commitments & Post-Quantum Craft]]
-- 6 edges to [[_COMMUNITY_Midnight Privacy Stack]]
-- 5 edges to [[_COMMUNITY_ZK Market & Identity]]
-- 4 edges to [[_COMMUNITY_FHE & Compiler Infrastructure]]
-- 3 edges to [[_COMMUNITY_Trusted Setup & SNARK Foundations]]
-- 3 edges to [[_COMMUNITY_Arithmetization & Proving Frontiers]]
-- 3 edges to [[_COMMUNITY_Rollups & Private Smart Contracts]]
-- 2 edges to [[_COMMUNITY_Coprocessors & ZKML]]
-- 1 edge to [[_COMMUNITY_STARKs & zkVM Landscape]]
+- 21 edges to [[_COMMUNITY_Compliance & Deployment]]
+- 8 edges to [[_COMMUNITY_Programmable Privacy & Midnight]]
+- 6 edges to [[_COMMUNITY_ZK Crypto Foundations]]
+- 5 edges to [[_COMMUNITY_Fully Homomorphic Encryption]]
+- 4 edges to [[_COMMUNITY_ZK Identity & Enterprise]]
+- 2 edges to [[_COMMUNITY_zkVMs & STARK Stacks]]
+- 2 edges to [[_COMMUNITY_Foundations & SoK Surveys]]
+- 1 edge to [[_COMMUNITY_Arithmetization & CCS]]
+- 1 edge to [[_COMMUNITY_Bulletproofs & Range Proofs]]
+- 1 edge to [[_COMMUNITY_CirC Compiler Infrastructure]]
 
 ## Top bridge nodes
-- [[Privacy-Enhancing Technologies]] - degree 35, connects to 6 communities
-- [[Secure Multi-Party Computation (MPC)]] - degree 15, connects to 4 communities
-- [[Privacy Architectures for Smart Contracts Kachina and Zexe]] - degree 13, connects to 3 communities
-- [[Selective Disclosure]] - degree 4, connects to 3 communities
-- [[Fully Homomorphic Encryption (FHE)]] - degree 10, connects to 2 communities
+- [[Privacy-Enhancing Technologies]] - degree 35, connects to 7 communities
+- [[Secure Multi-Party Computation (MPC)]] - degree 16, connects to 7 communities
+- [[Privacy Architectures for Smart Contracts Kachina and Zexe]] - degree 12, connects to 4 communities
+- [[Open Problems]] - degree 9, connects to 3 communities
+- [[Composability When One PET Is Not Enough]] - degree 8, connects to 2 communities

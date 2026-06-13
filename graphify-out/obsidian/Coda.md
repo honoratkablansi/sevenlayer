@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch14-coda.md"
 type: "document"
-community: "Community 0"
+community: "ZK Crypto Foundations"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/ZK_Crypto_Foundations
 ---
 
 # Coda
@@ -17,7 +17,7 @@ tags:
 - [[Circle STARKs]] - `references` [EXTRACTED]
 - [[Convergence]] - `references` [EXTRACTED]
 - [[Dan Boneh]] - `references` [EXTRACTED]
-- [[Folding Schemes]] - `references` [EXTRACTED]
+- [[Folding Scheme]] - `references` [EXTRACTED]
 - [[Groth16]] - `references` [EXTRACTED]
 - [[HyperNova]] - `references` [EXTRACTED]
 - [[Jolt zkVM]] - `references` [EXTRACTED]
@@ -30,11 +30,11 @@ tags:
 - [[Nova]] - `references` [EXTRACTED]
 - [[Open Questions and the Road Ahead]] - `part_of` [EXTRACTED]
 - [[PLONK]] - `references` [EXTRACTED]
-- [[STARKs]] - `references` [EXTRACTED]
+- [[STARK (Scalable Transparent ARgument of Knowledge)]] - `references` [EXTRACTED]
 - [[Srinath Setty]] - `references` [EXTRACTED]
 - [[Symphony]] - `references` [EXTRACTED]
 - [[The Seven Questions That Remain Open]] - `references` [EXTRACTED]
 - [[Three Converging Forces]] - `references` [EXTRACTED]
 - [[eIDAS 2.0]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/document #graphify/EXTRACTED #community/ZK_Crypto_Foundations

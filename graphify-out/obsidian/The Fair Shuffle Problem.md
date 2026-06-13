@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch02-the-fair-shuffle-problem.md"
 type: "document"
-community: "Community 0"
+community: "Programmable Privacy & Midnight"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Programmable_Privacy__Midnight
 ---
 
 # The Fair Shuffle Problem
@@ -16,4 +16,4 @@ tags:
 - [[The Structured Reference String]] - `references` [EXTRACTED]
 - [[Two Ways to Build a Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/document #graphify/EXTRACTED #community/Programmable_Privacy__Midnight

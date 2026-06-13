@@ -1,29 +1,32 @@
 ---
 type: community
-cohesion: 0.18
-members: 14
+cohesion: 0.14
+members: 17
 ---
 
 # Community 26
 
-**Cohesion:** 0.18 - loosely connected
-**Members:** 14 nodes
+**Cohesion:** 0.14 - loosely connected
+**Members:** 17 nodes
 
 ## Members
-- [[Address-grouping suffices (a-group + t-order) instead of full (a,t)-ordering]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
-- [[Bayer-Groth PermutationShuffle Argument]] - paper - references/ch02/ref-07-plonk.pdf
-- [[Claim 4 public-coin multiset hash H_{tau,gamma} via Reed-Solomon fingerprinting; multiset equality with soundness error O((A+B)F)]] - paper - references/ch03/ref-15-lasso.pdf
-- [[Copy Constraints via Permutation (wiring check)]] - paper - references/ch02/ref-07-plonk.pdf
-- [[Extended Permutation Check Across Multiple Polynomials]] - paper - references/ch02/ref-07-plonk.pdf
-- [[Grand Product Argument (accumulator polynomial Z)]] - paper - references/ch02/ref-07-plonk.pdf
-- [[Lagrange Basis over Multiplicative Subgroup]] - paper - references/ch02/ref-07-plonk.pdf
-- [[Offline memory checking]] - paper - references/ch03/ref-16-jolt.pdf
-- [[Permutation Argument]] - document - references/ch02/ref-07-plonk.pdf
-- [[Scribe (BMM24) readwrite-streaming-pass SNARK adapting HyperPlonk PIOP]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[Spice readwrite memory-checking argument (offline, grand-product based)]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[Streaming grand products via depth-first traversal of multiplication-gate tree]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[Twist sum-check memory-checking argument for readwrite memory]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[Universal keyed hashes coefficient hash H_c and root hash H_r]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[B-Relaxed Binding of Ajtai Commitment]] - paper - references/ch06/ref-20-latticefold.pdf
+- [[Commitment Transformation Protocol Pi_cm]] - paper - references/ch02/ref-11-latticefold-plus.pdf
+- [[LFKN LFKN90 original sum-check protocol]] - paper - references/ch03/ref-15-lasso.pdf
+- [[Lemma 2.1 a(X2)=a(X)2 iff a is a monomial]] - paper - references/ch02/ref-11-latticefold-plus.pdf
+- [[Lemma 2.2 ct(bpsi)=a characterizes range membership via EXP]] - paper - references/ch02/ref-11-latticefold-plus.pdf
+- [[Marlin CHM+20 - preprocessing zkSNARK that SuperMarlin generalizes]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
+- [[Monomial Set Check Pi_mon]] - paper - references/ch02/ref-11-latticefold-plus.pdf
+- [[Purely Algebraic Range Proof (no bit-decomposition)]] - paper - references/ch02/ref-11-latticefold-plus.pdf
+- [[Range Check Protocol Pi_rgchk (double-commitment range proof)]] - paper - references/ch02/ref-11-latticefold-plus.pdf
+- [[Sparrow (PP24) sqrt-space SNARK for data-parallel circuits]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Spartan Set20 - linear-time R1CS polynomial IOP that SuperSpartan generalizes]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
+- [[Strong Sampling Set]] - paper - references/ch06/ref-20-latticefold.pdf
+- [[Sumcheck Protocol]] - document - wiki/chapters/05-encoding-the-performance.md
+- [[SuperMarlin univariate-sumcheck SNARK for CCS generalizing Marlin]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
+- [[SuperSpartan SNARK family for CCS generalizing Spartan's polynomial IOP]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
+- [[Theorem 1 polynomial IOP for CCS, soundness O((t+d)log m)F, prover O(N+tm+qmd log2 d) F-ops]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
+- [[Theorem 4.3 Pi_cm is a RoK from R_rg,B to R_com]] - paper - references/ch02/ref-11-latticefold-plus.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -33,17 +36,25 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 10 edges to [[_COMMUNITY_Community 1]]
-- 3 edges to [[_COMMUNITY_Community 15]]
+- 12 edges to [[_COMMUNITY_Community 0]]
+- 11 edges to [[_COMMUNITY_Community 10]]
+- 7 edges to [[_COMMUNITY_Community 4]]
+- 6 edges to [[_COMMUNITY_Community 2]]
+- 6 edges to [[_COMMUNITY_Community 30]]
+- 5 edges to [[_COMMUNITY_Community 20]]
+- 4 edges to [[_COMMUNITY_Community 5]]
+- 3 edges to [[_COMMUNITY_Community 14]]
 - 2 edges to [[_COMMUNITY_Community 22]]
-- 2 edges to [[_COMMUNITY_Community 21]]
-- 2 edges to [[_COMMUNITY_Community 33]]
-- 1 edge to [[_COMMUNITY_Community 0]]
-- 1 edge to [[_COMMUNITY_Community 19]]
+- 2 edges to [[_COMMUNITY_Community 24]]
+- 2 edges to [[_COMMUNITY_Community 34]]
+- 2 edges to [[_COMMUNITY_Community 25]]
+- 2 edges to [[_COMMUNITY_Community 19]]
+- 1 edge to [[_COMMUNITY_Community 3]]
+- 1 edge to [[_COMMUNITY_Community 12]]
 
 ## Top bridge nodes
-- [[Offline memory checking]] - degree 11, connects to 4 communities
-- [[Grand Product Argument (accumulator polynomial Z)]] - degree 11, connects to 3 communities
-- [[Permutation Argument]] - degree 7, connects to 3 communities
-- [[Twist sum-check memory-checking argument for readwrite memory]] - degree 4, connects to 1 community
-- [[Copy Constraints via Permutation (wiring check)]] - degree 3, connects to 1 community
+- [[Sumcheck Protocol]] - degree 57, connects to 14 communities
+- [[SuperSpartan SNARK family for CCS generalizing Spartan's polynomial IOP]] - degree 7, connects to 3 communities
+- [[Commitment Transformation Protocol Pi_cm]] - degree 6, connects to 2 communities
+- [[Purely Algebraic Range Proof (no bit-decomposition)]] - degree 3, connects to 2 communities
+- [[B-Relaxed Binding of Ajtai Commitment]] - degree 3, connects to 2 communities

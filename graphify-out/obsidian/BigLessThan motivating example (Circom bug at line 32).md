@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-35-coda.pdf"
 type: "paper"
-community: "Community 36"
+community: "Circuit Verification (Coda)"
 location: "§2.1-2.2, Fig.1-2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_36
+  - community/Circuit_Verification_Coda
 ---
 
 # BigLessThan motivating example (Circom bug at line 32)
@@ -15,4 +15,4 @@ tags:
 - [[Circom]] - `cites` [EXTRACTED]
 - [[iter combinator with annotated loop invariant]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_36
+#graphify/paper #graphify/EXTRACTED #community/Circuit_Verification_Coda

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-61-arguzz.pdf"
 type: "document"
-community: "Community 12"
+community: "zkVM Fuzzing (Arguzz)"
 location: "Section 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_12
+  - community/zkVM_Fuzzing_Arguzz
 ---
 
 # Fault Injection
@@ -17,4 +17,4 @@ tags:
 - [[INSTR_WORD_MOD instruction-modification injection (universal; triggered all 3 soundness bugs)]] - `conceptually_related_to` [EXTRACTED]
 - [[Malicious-prover fault injection into VM execution logic (verifier-only-trusted threat model)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_12
+#graphify/document #graphify/EXTRACTED #community/zkVM_Fuzzing_Arguzz

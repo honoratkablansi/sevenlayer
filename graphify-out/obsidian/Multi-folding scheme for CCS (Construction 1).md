@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-18-hypernova.pdf"
 type: "paper"
-community: "Community 1"
+community: "HyperNova Multifolding"
 location: "§4 Construction 1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_1
+  - community/HyperNova_Multifolding
 ---
 
 # Multi-folding scheme for CCS (Construction 1)
@@ -23,4 +23,4 @@ tags:
 - [[Sumcheck Protocol]] - `assumes` [EXTRACTED]
 - [[Theorem 1 (multi-folding scheme for CCS)]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_1
+#graphify/paper #graphify/EXTRACTED #community/HyperNova_Multifolding

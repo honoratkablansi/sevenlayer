@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch08-the-price-of-a-verdict.md"
 type: "document"
-community: "Community 2"
+community: "Programmable Privacy & Midnight"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_2
+  - community/Programmable_Privacy__Midnight
 ---
 
 # Celestia
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[The Price of a Verdict]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_2
+#graphify/document #graphify/EXTRACTED #community/Programmable_Privacy__Midnight

@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch02-midnight-s-bls12-381-stage.md"
 type: "document"
-community: "Community 0"
+community: "Programmable Privacy & Midnight"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Programmable_Privacy__Midnight
 ---
 
 # Midnight's BLS12-381 Stage
@@ -14,7 +14,7 @@ tags:
 - [[BLS12-381 Curve]] - `conceptually_related_to` [EXTRACTED]
 - [[FRI]] - `conceptually_related_to` [EXTRACTED]
 - [[Full Seven-Layer Mapping]] - `references` [EXTRACTED]
-- [[Inner Product Arguments (IPA)]] - `conceptually_related_to` [EXTRACTED]
+- [[Inner-Product Argument]] - `conceptually_related_to` [EXTRACTED]
 - [[KZG Polynomial Commitments]] - `conceptually_related_to` [EXTRACTED]
 - [[Layer 1 -- Building the Stage]] - `part_of` [EXTRACTED]
 - [[Midnight]] - `conceptually_related_to` [EXTRACTED]
@@ -25,4 +25,4 @@ tags:
 - [[Trusted Setup Ceremony]] - `conceptually_related_to` [EXTRACTED]
 - [[Universal versus Circuit-Specific Setups]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/document #graphify/EXTRACTED #community/Programmable_Privacy__Midnight

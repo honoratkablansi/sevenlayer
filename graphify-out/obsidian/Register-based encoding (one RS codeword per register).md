@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-08-stark.pdf"
 type: "paper"
-community: "Community 13"
+community: "STARK Foundations"
 location: "§2.3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_13
+  - community/STARK_Foundations
 ---
 
 # Register-based encoding (one RS codeword per register)
@@ -15,4 +15,4 @@ tags:
 - [[Algebraic Intermediate Representation (AIR)]] - `conceptually_related_to` [EXTRACTED]
 - [[Maximal interpolation degree d_max reduction (n·c·d vs prior n·c·w·d + n·c·s)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_13
+#graphify/paper #graphify/EXTRACTED #community/STARK_Foundations

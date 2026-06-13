@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/05-encoding-the-performance.md"
 type: "document"
-community: "Community 22"
+community: "Lasso Lookup Arguments"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_22
+  - community/Lasso_Lookup_Arguments
 ---
 
 # Lookup Arguments
@@ -35,4 +35,4 @@ tags:
 - [[Where the Analogies Break]] - `references` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_22
+#graphify/document #graphify/EXTRACTED #community/Lasso_Lookup_Arguments

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-61-arguzz.pdf"
 type: "paper"
-community: "Community 12"
+community: "zkVM Fuzzing (Arguzz)"
 location: "§1, §3.1, §5 [23]"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_12
+  - community/zkVM_Fuzzing_Arguzz
 ---
 
 # CIRCUZZ [23]: metamorphic fuzzer for ZK pipelines (CIRCOM/GNARK/NOIR) via CIRCIL
@@ -17,4 +17,4 @@ tags:
 - [[Metamorphic Testing]] - `conceptually_related_to` [EXTRACTED]
 - [[Semantics-preserving rewrite rules (commassocdistribDe Morgan; field-arith rules disabled)]] - `shares_data_with` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_12
+#graphify/paper #graphify/EXTRACTED #community/zkVM_Fuzzing_Arguzz

@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/09-privacy-enhancing-technologies.md"
 type: "document"
-community: "Community 3"
+community: "Fully Homomorphic Encryption"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_3
+  - community/Fully_Homomorphic_Encryption
 ---
 
 # Fully Homomorphic Encryption (FHE)
@@ -22,4 +22,4 @@ tags:
 - [[The Incomplete Stack]] - `conceptually_related_to` [EXTRACTED]
 - [[Three Kinds of Security]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_3
+#graphify/document #graphify/EXTRACTED #community/Fully_Homomorphic_Encryption

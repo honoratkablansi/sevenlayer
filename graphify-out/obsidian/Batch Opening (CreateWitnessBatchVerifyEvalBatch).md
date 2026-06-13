@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-04-kzg-commitments.pdf"
 type: "paper"
-community: "Community 48"
+community: "KZG Batch Opening"
 location: "§3.4"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_48
+  - community/KZG_Batch_Opening
 ---
 
 # Batch Opening (CreateWitnessBatch/VerifyEvalBatch)
@@ -16,4 +16,4 @@ tags:
 - [[PolyCommitDL Scheme]] - `conceptually_related_to` [EXTRACTED]
 - [[Theorem 3.4 Batch Opening Binding]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_48
+#graphify/paper #graphify/EXTRACTED #community/KZG_Batch_Opening

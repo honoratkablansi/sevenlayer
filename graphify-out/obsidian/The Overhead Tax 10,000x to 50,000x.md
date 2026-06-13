@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch05-the-overhead-tax-10-000x-to-50-000x.md"
 type: "document"
-community: "Community 1"
+community: "Sumcheck & Proving Overhead"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_1
+  - community/Sumcheck__Proving_Overhead
 ---
 
 # The Overhead Tax: 10,000x to 50,000x
@@ -19,7 +19,7 @@ tags:
 - [[Encoding the Performance]] - `part_of` [EXTRACTED]
 - [[FRI]] - `references` [EXTRACTED]
 - [[Fiat-Shamir Transform]] - `references` [EXTRACTED]
-- [[Folding Schemes]] - `references` [EXTRACTED]
+- [[Folding Scheme]] - `references` [EXTRACTED]
 - [[GPU-Accelerated Proving]] - `references` [EXTRACTED]
 - [[Goldilocks Field]] - `references` [EXTRACTED]
 - [[Groth16]] - `references` [EXTRACTED]
@@ -36,7 +36,7 @@ tags:
 - [[Offline Memory Checking  Algebraic RAM Reduction]] - `references` [EXTRACTED]
 - [[RISC Zero]] - `references` [EXTRACTED]
 - [[SP1  SP1 Hypercube]] - `references` [EXTRACTED]
-- [[Small-Field Proving]] - `references` [EXTRACTED]
+- [[Small prime fields (machine-register-sized Goldilocks, M61)]] - `references` [EXTRACTED]
 - [[Spartan]] - `references` [EXTRACTED]
 - [[Sumcheck Protocol]] - `references` [EXTRACTED]
 - [[The Sumcheck Protocol The Hidden Foundation]] - `references` [EXTRACTED]
@@ -44,4 +44,4 @@ tags:
 - [[Witness Generation Costs]] - `references` [EXTRACTED]
 - [[ZKML Provable Machine Learning (Research)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_1
+#graphify/document #graphify/EXTRACTED #community/Sumcheck__Proving_Overhead

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-32-zkvm-compiler-optimization.pdf"
 type: "paper"
-community: "Community 3"
+community: "CirC Compiler Infrastructure"
 location: "p.1 (abstract)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_3
+  - community/CirC_Compiler_Infrastructure
 ---
 
 # LLVM Compiler Infrastructure
@@ -15,4 +15,4 @@ tags:
 - [[CirC shared compiler infrastructure for EQCs]] - `cites` [EXTRACTED]
 - [[Evaluating Compiler Optimization Impacts on zkVM Performance]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_3
+#graphify/paper #graphify/EXTRACTED #community/CirC_Compiler_Infrastructure

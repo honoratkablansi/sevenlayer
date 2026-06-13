@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-07-plonk.pdf"
 type: "paper"
-community: "Community 26"
+community: "PLONK & Permutation Arguments"
 location: "§5.2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_26
+  - community/PLONK__Permutation_Arguments
 ---
 
 # Copy Constraints via Permutation (wiring check)
@@ -16,4 +16,4 @@ tags:
 - [[PLONK Main Protocol for Relation R_C (Theorem 7.1)]] - `assumes` [EXTRACTED]
 - [[Permutation Argument]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_26
+#graphify/paper #graphify/EXTRACTED #community/PLONK__Permutation_Arguments

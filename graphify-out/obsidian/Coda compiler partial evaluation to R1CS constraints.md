@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-35-coda.pdf"
 type: "paper"
-community: "Community 32"
+community: "Circuit Verification (Coda)"
 location: "§4, Fig.8"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_32
+  - community/Circuit_Verification_Coda
 ---
 
 # Coda compiler: partial evaluation to R1CS constraints
@@ -15,4 +15,4 @@ tags:
 - [[Arithmetic Circuit]] - `defines` [EXTRACTED]
 - [[Coda statically-typed functional DSL for ZK circuits]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_32
+#graphify/paper #graphify/EXTRACTED #community/Circuit_Verification_Coda

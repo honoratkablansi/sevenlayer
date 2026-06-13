@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch13-market-sizing.md"
 type: "document"
-community: "Community 25"
+community: "zkVMs & STARK Stacks"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_25
+  - community/zkVMs__STARK_Stacks
 ---
 
 # Market Sizing
@@ -22,9 +22,9 @@ tags:
 - [[ZK Coprocessors]] - `references` [EXTRACTED]
 - [[ZK Identity]] - `references` [EXTRACTED]
 - [[ZK Identity (Growth  Regulatory Mandate)]] - `references` [EXTRACTED]
-- [[ZK Rollups_1]] - `references` [EXTRACTED]
+- [[ZK Rollups]] - `references` [EXTRACTED]
 - [[ZK Rollups The Proving Grounds (Production)]] - `references` [EXTRACTED]
 - [[ZKML (Provable Machine Learning)]] - `references` [EXTRACTED]
 - [[eIDAS 2.0]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_25
+#graphify/document #graphify/EXTRACTED #community/zkVMs__STARK_Stacks

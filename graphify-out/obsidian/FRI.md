@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/07-the-deep-craft.md"
 type: "document"
-community: "Community 2"
+community: "zkVMs & STARK Stacks"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_2
+  - community/zkVMs__STARK_Stacks
 ---
 
 # FRI
@@ -35,7 +35,7 @@ tags:
 - [[Path Two Pure Transparent]] - `conceptually_related_to` [EXTRACTED]
 - [[RISC-V Convergence]] - `conceptually_related_to` [EXTRACTED]
 - [[Reed-Solomon Proximity Testing (RPT  low-degree testing) problem]] - `defines` [EXTRACTED]
-- [[STARKs]] - `part_of` [EXTRACTED]
+- [[STARK (Scalable Transparent ARgument of Knowledge)]] - `part_of` [EXTRACTED]
 - [[Scalable, Transparent, and Post-Quantum Secure Computational Integrity]] - `introduces` [EXTRACTED]
 - [[Sealing the Certificate]] - `references` [EXTRACTED]
 - [[Side-Channel Attacks When the Walls Leak]] - `references` [EXTRACTED]
@@ -67,4 +67,4 @@ tags:
 - [[ZKML Provable Machine Learning (Research)]] - `references` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_2
+#graphify/document #graphify/EXTRACTED #community/zkVMs__STARK_Stacks

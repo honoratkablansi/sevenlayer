@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch14-the-three-frontiers.md"
 type: "document"
-community: "Community 0"
+community: "ZK Crypto Foundations"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/ZK_Crypto_Foundations
 ---
 
 # The Three Frontiers
@@ -23,10 +23,10 @@ tags:
 - [[Open Questions and the Road Ahead]] - `part_of` [EXTRACTED]
 - [[Real-Time Ethereum Proving]] - `references` [EXTRACTED]
 - [[SP1  SP1 Hypercube]] - `references` [EXTRACTED]
-- [[STARKs]] - `references` [EXTRACTED]
+- [[STARK (Scalable Transparent ARgument of Knowledge)]] - `references` [EXTRACTED]
 - [[Side-Channel Attacks When the Walls Leak]] - `references` [EXTRACTED]
 - [[The Seven Questions That Remain Open]] - `references` [EXTRACTED]
 - [[Zcash]] - `references` [EXTRACTED]
 - [[eIDAS 2.0]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/document #graphify/EXTRACTED #community/ZK_Crypto_Foundations

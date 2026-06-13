@@ -1,26 +1,26 @@
 ---
 type: community
-cohesion: 0.20
+cohesion: 0.25
 members: 11
 ---
 
 # Community 36
 
-**Cohesion:** 0.20 - loosely connected
+**Cohesion:** 0.25 - loosely connected
 **Members:** 11 nodes
 
 ## Members
-- [[BigLessThan motivating example (Circom bug at line 32)]] - paper - references/ch10/ref-35-coda.pdf
-- [[Coda domain-specific Coq tactic library (F_to_Z, overflow, split_sum, switch_sum, reduce_sum, ind)]] - paper - references/ch10/ref-35-coda.pdf
-- [[Coda type-checking rules (circuit, expression, subtyping judgments)]] - paper - references/ch10/ref-35-coda.pdf
-- [[Coq Proof Assistant]] - document - references/ch10/ref-35-coda.pdf
-- [[Coq lemma generation for proof obligations]] - paper - references/ch10/ref-35-coda.pdf
-- [[Fiat-Crypto finite-field formalization library]] - paper - references/ch10/ref-35-coda.pdf
-- [[SMT solving over finite fields  large prime fields]] - paper - references/ch10/ref-35-coda.pdf
-- [[TSub-Refine subtyping rule (reduces type checking to logical validity)]] - paper - references/ch10/ref-35-coda.pdf
-- [[Theorem 1 Expression Type Preservation (soundness)]] - paper - references/ch10/ref-35-coda.pdf
-- [[Theorem 2 Circuit Evaluation Type Preservation]] - paper - references/ch10/ref-35-coda.pdf
-- [[iter combinator with annotated loop invariant]] - paper - references/ch10/ref-35-coda.pdf
+- [[Apposcopy inter-component call graph (ICCG) abstraction]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
+- [[CirC Compiler Infrastructure]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[Circomspect Static Analyzer]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[Circuit Dependence Graph (CDG)]] - document - references/ch03/ref-13-practical-security-zk-circuits.pdf
+- [[Circuit Dependence Graph (CDG) abstraction G=(V,Ed,Ec)]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
+- [[Constrained Horn Clause  Datalog query]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
+- [[Datalog-style CDG construction inference rules]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
+- [[Practical Security Analysis of Zero-Knowledge Proof Circuits]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
+- [[Static Analysis]] - document - references/ch03/ref-13-practical-security-zk-circuits.pdf
+- [[ZKAP (static analyzer for ZKP circuits)]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
+- [[ZKAP evaluation on 258 Circom circuits (17 projects)]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -30,12 +30,15 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 3 edges to [[_COMMUNITY_Community 32]]
-- 1 edge to [[_COMMUNITY_Community 5]]
-- 1 edge to [[_COMMUNITY_Community 41]]
+- 5 edges to [[_COMMUNITY_Community 38]]
+- 4 edges to [[_COMMUNITY_Community 31]]
+- 1 edge to [[_COMMUNITY_Community 2]]
+- 1 edge to [[_COMMUNITY_Community 0]]
+- 1 edge to [[_COMMUNITY_Community 15]]
 
 ## Top bridge nodes
-- [[Coq Proof Assistant]] - degree 4, connects to 1 community
-- [[Coda type-checking rules (circuit, expression, subtyping judgments)]] - degree 4, connects to 1 community
-- [[SMT solving over finite fields  large prime fields]] - degree 2, connects to 1 community
-- [[BigLessThan motivating example (Circom bug at line 32)]] - degree 2, connects to 1 community
+- [[Practical Security Analysis of Zero-Knowledge Proof Circuits]] - degree 10, connects to 5 communities
+- [[Circuit Dependence Graph (CDG) abstraction G=(V,Ed,Ec)]] - degree 6, connects to 1 community
+- [[Circomspect Static Analyzer]] - degree 4, connects to 1 community
+- [[ZKAP evaluation on 258 Circom circuits (17 projects)]] - degree 3, connects to 1 community
+- [[CirC Compiler Infrastructure]] - degree 2, connects to 1 community

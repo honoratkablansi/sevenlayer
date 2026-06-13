@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch03-the-four-philosophies.md"
 type: "document"
-community: "Community 2"
+community: "zkVMs & STARK Stacks"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_2
+  - community/zkVMs__STARK_Stacks
 ---
 
 # Polygon
@@ -17,4 +17,4 @@ tags:
 - [[ZK Rollups The Proving Grounds (Production)]] - `references` [EXTRACTED]
 - [[zkVMs Across the Stack]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_2
+#graphify/document #graphify/EXTRACTED #community/zkVMs__STARK_Stacks

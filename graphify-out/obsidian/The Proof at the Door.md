@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch01-the-proof-at-the-door.md"
 type: "document"
-community: "Community 0"
+community: "Programmable Privacy & Midnight"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Programmable_Privacy__Midnight
 ---
 
 # The Proof at the Door
@@ -16,4 +16,4 @@ tags:
 - [[The Trick]] - `references` [EXTRACTED]
 - [[Three Converging Forces]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/document #graphify/EXTRACTED #community/Programmable_Privacy__Midnight

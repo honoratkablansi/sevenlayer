@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch13-zk-rollups-the-proving-grounds-production.md"
 type: "document"
-community: "Community 2"
+community: "zkVMs & STARK Stacks"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_2
+  - community/zkVMs__STARK_Stacks
 ---
 
 # ZK Rollups: The Proving Grounds (Production)
@@ -34,7 +34,7 @@ tags:
 - [[The Phenomenon]] - `references` [EXTRACTED]
 - [[The Three Families]] - `references` [EXTRACTED]
 - [[ZK Coprocessors Off-Chain Computation, On-Chain Verification (Growth)]] - `references` [EXTRACTED]
-- [[ZK Rollups_1]] - `defines` [EXTRACTED]
+- [[ZK Rollups]] - `defines` [EXTRACTED]
 - [[ZisK]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_2
+#graphify/document #graphify/EXTRACTED #community/zkVMs__STARK_Stacks

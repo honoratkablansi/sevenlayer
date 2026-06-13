@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch02-the-structured-reference-string.md"
 type: "document"
-community: "Community 0"
+community: "Programmable Privacy & Midnight"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Programmable_Privacy__Midnight
 ---
 
 # The Structured Reference String
@@ -22,4 +22,4 @@ tags:
 - [[The Quantum Shelf Life]] - `references` [EXTRACTED]
 - [[Two Ways to Build a Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/document #graphify/EXTRACTED #community/Programmable_Privacy__Midnight

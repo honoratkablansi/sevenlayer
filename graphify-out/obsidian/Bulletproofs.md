@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/02-building-the-stage.md"
 type: "document"
-community: "Community 0"
+community: "ZK Crypto Foundations"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/ZK_Crypto_Foundations
 ---
 
 # Bulletproofs
@@ -26,4 +26,4 @@ tags:
 - [[Two Ways to Build a Stage]] - `conceptually_related_to` [EXTRACTED]
 - [[When the Transcript Lies Fiat-Shamir Vulnerabilities]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/document #graphify/EXTRACTED #community/ZK_Crypto_Foundations

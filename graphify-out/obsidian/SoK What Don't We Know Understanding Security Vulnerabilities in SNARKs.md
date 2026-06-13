@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch01/ref-03-sok-snark-vulnerabilities.pdf"
 type: "paper"
-community: "Community 0"
+community: "Foundations & SoK Surveys"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Foundations__SoK_Surveys
 ---
 
 # SoK: What Don't We Know? Understanding Security Vulnerabilities in SNARKs
@@ -18,6 +18,6 @@ tags:
 - [[SNARKs]] - `conceptually_related_to` [EXTRACTED]
 - [[The Knowledge Complexity of Interactive Proof Systems]] - `cites` [INFERRED]
 - [[The Promise of Provable and Programmable Secrets]] - `cites` [EXTRACTED]
-- [[Zero-Knowledge Proofs_1]] - `conceptually_related_to` [EXTRACTED]
+- [[Zero-Knowledge Proof]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_0
+#graphify/paper #graphify/EXTRACTED #community/Foundations__SoK_Surveys

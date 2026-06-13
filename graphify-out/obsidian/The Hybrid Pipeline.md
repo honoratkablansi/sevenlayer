@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch06-the-hybrid-pipeline.md"
 type: "document"
-community: "Community 2"
+community: "zkVMs & STARK Stacks"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_2
+  - community/zkVMs__STARK_Stacks
 ---
 
 # The Hybrid Pipeline
@@ -21,7 +21,7 @@ tags:
 - [[Proof Recursion]] - `references` [EXTRACTED]
 - [[Real-Time Ethereum Proving]] - `references` [EXTRACTED]
 - [[Recursion vs. Folding Russian Dolls and Snowballs]] - `references` [EXTRACTED]
-- [[STARKs]] - `references` [EXTRACTED]
+- [[STARK (Scalable Transparent ARgument of Knowledge)]] - `references` [EXTRACTED]
 - [[The Three Families]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_2
+#graphify/document #graphify/EXTRACTED #community/zkVMs__STARK_Stacks

@@ -1,13 +1,13 @@
 ---
 type: community
-cohesion: 0.12
-members: 25
+cohesion: 0.13
+members: 24
 ---
 
 # Community 13
 
-**Cohesion:** 0.12 - loosely connected
-**Members:** 25 nodes
+**Cohesion:** 0.13 - loosely connected
+**Members:** 24 nodes
 
 ## Members
 - [[Additive FFT over binary fields (Lin et al.)]] - paper - references/ch02/ref-08-stark.pdf
@@ -24,7 +24,6 @@ members: 25
 - [[Low Degree Extension (LDE)]] - paper - references/ch02/ref-08-stark.pdf
 - [[Maximal interpolation degree d_max reduction (n·c·d vs prior n·c·w·d + n·c·s)]] - paper - references/ch02/ref-08-stark.pdf
 - [[Merkle-tree commit-reveal (Kilian cut-and-choose)]] - paper - references/ch02/ref-08-stark.pdf
-- [[Post-quantum security (no quantum-susceptible assumptions)]] - paper - references/ch02/ref-08-stark.pdf
 - [[Prior ZK-STIK for NPNEXP (Ben-Sasson et al. refs 17,15)]] - paper - references/ch02/ref-08-stark.pdf
 - [[Register-based encoding (one RS codeword per register)]] - paper - references/ch02/ref-08-stark.pdf
 - [[SCI  quasi-linear PCP STARK (Ben-Sasson et al. 2016, ref 13)]] - paper - references/ch02/ref-08-stark.pdf
@@ -45,19 +44,17 @@ SORT file.name ASC
 
 ## Connections to other communities
 - 6 edges to [[_COMMUNITY_Community 2]]
-- 3 edges to [[_COMMUNITY_Community 0]]
-- 2 edges to [[_COMMUNITY_Community 1]]
-- 2 edges to [[_COMMUNITY_Community 9]]
-- 2 edges to [[_COMMUNITY_Community 11]]
+- 5 edges to [[_COMMUNITY_Community 0]]
+- 2 edges to [[_COMMUNITY_Community 10]]
+- 1 edge to [[_COMMUNITY_Community 1]]
+- 1 edge to [[_COMMUNITY_Community 32]]
+- 1 edge to [[_COMMUNITY_Community 33]]
 - 1 edge to [[_COMMUNITY_Community 8]]
-- 1 edge to [[_COMMUNITY_Community 7]]
-- 1 edge to [[_COMMUNITY_Community 29]]
 - 1 edge to [[_COMMUNITY_Community 4]]
-- 1 edge to [[_COMMUNITY_Community 14]]
 
 ## Top bridge nodes
-- [[Scalable, Transparent, and Post-Quantum Secure Computational Integrity]] - degree 26, connects to 6 communities
-- [[Post-quantum security (no quantum-susceptible assumptions)]] - degree 6, connects to 3 communities
-- [[Zero-Knowledge Scalable Transparent ARgument of Knowledge (ZK-STARK)]] - degree 7, connects to 1 community
+- [[Scalable, Transparent, and Post-Quantum Secure Computational Integrity]] - degree 26, connects to 7 communities
+- [[Zero-Knowledge Scalable Transparent ARgument of Knowledge (ZK-STARK)]] - degree 7, connects to 2 communities
 - [[Interactive Oracle Proofs]] - degree 4, connects to 1 community
 - [[Algebraic Linking Interactive Oracle Proof (ALI)]] - degree 3, connects to 1 community
+- [[Collision-resistant hash function assumption (interactive STARK)]] - degree 2, connects to 1 community

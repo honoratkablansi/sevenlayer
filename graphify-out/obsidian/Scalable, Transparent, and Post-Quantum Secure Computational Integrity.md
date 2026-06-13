@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch02/ref-08-stark.pdf"
 type: "paper"
-community: "Community 13"
+community: "STARK Foundations"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_13
+  - community/STARK_Foundations
 ---
 
 # Scalable, Transparent, and Post-Quantum Secure Computational Integrity
@@ -29,13 +29,13 @@ tags:
 - [[Post-Quantum Cryptography]] - `conceptually_related_to` [EXTRACTED]
 - [[Prior ZK-STIK for NPNEXP (Ben-Sasson et al. refs 17,15)]] - `cites` [EXTRACTED]
 - [[SCI  quasi-linear PCP STARK (Ben-Sasson et al. 2016, ref 13)]] - `cites` [EXTRACTED]
-- [[STARKs]] - `defines` [EXTRACTED]
+- [[STARK (Scalable Transparent ARgument of Knowledge)]] - `defines` [EXTRACTED]
 - [[Scalable Transparent IOP of Knowledge (STIK)]] - `defines` [EXTRACTED]
 - [[Theorem 3.4 — ZK-STIK for space-bounded computations]] - `proves` [EXTRACTED]
 - [[Theorem 3.5 — wi-STIK for NEXP]] - `proves` [EXTRACTED]
 - [[Trusted Setup]] - `conceptually_related_to` [EXTRACTED]
 - [[ZK-SNARK  Zerocash (Zcash, non-transparent QSP-based, ref 1853)]] - `cites` [EXTRACTED]
-- [[Zero-Knowledge Proofs_1]] - `conceptually_related_to` [EXTRACTED]
+- [[Zero-Knowledge Proof]] - `conceptually_related_to` [EXTRACTED]
 - [[Zero-Knowledge Scalable Transparent ARgument of Knowledge (ZK-STARK)]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_13
+#graphify/paper #graphify/EXTRACTED #community/STARK_Foundations

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-19-protostar.pdf"
 type: "paper"
-community: "Community 10"
+community: "Nova Folding & IVC"
 location: "§4.1 Def 10"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_10
+  - community/Nova_Folding__IVC
 ---
 
 # Permutation Relation Sub-Protocol Pi_sigma (degree 1)
@@ -15,4 +15,4 @@ tags:
 - [[(2k-1)-Move Special-Sound Protocol with Algebraic Verifier]] - `defines` [EXTRACTED]
 - [[Protostar Non-Uniform IVC Scheme for Multi-Circuit Plonkup R_mplkup]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_10
+#graphify/paper #graphify/EXTRACTED #community/Nova_Folding__IVC

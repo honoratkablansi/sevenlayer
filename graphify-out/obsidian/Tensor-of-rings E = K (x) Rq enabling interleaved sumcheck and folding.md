@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-56-symphony.pdf"
 type: "paper"
-community: "Community 4"
+community: "Lattice Folding (Symphony)"
 location: "§2.3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_4
+  - community/Lattice_Folding_Symphony
 ---
 
 # Tensor-of-rings E = K (x) Rq enabling interleaved sumcheck and folding
@@ -15,4 +15,4 @@ tags:
 - [[Lattice-based high-arity folding scheme Pi_fold (Thm 4.1) compressing l_np R1CS statements in one shot]] - `assumes` [EXTRACTED]
 - [[Sumcheck Protocol]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_4
+#graphify/paper #graphify/EXTRACTED #community/Lattice_Folding_Symphony

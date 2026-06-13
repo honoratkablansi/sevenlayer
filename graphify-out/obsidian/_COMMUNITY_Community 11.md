@@ -1,44 +1,40 @@
 ---
 type: community
-cohesion: 0.10
-members: 29
+cohesion: 0.12
+members: 25
 ---
 
 # Community 11
 
-**Cohesion:** 0.10 - loosely connected
-**Members:** 29 nodes
+**Cohesion:** 0.12 - loosely connected
+**Members:** 25 nodes
 
 ## Members
-- [[(Super)Spartan zkSNARK]] - paper - references/ch06/ref-21-neo.pdf
-- [[Ajtai Commitment Scheme]] - document - references/ch06/ref-20-latticefold.pdf
-- [[Arc (hash-based accumulation for Reed-Solomon codes)]] - paper - references/ch06/ref-21-neo.pdf
-- [[B-Relaxed Binding of Ajtai Commitment]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[Concrete parameters AGL, Goldilocks, Mersenne-61 over degree-2 extension]] - paper - references/ch06/ref-21-neo.pdf
-- [[IVC  Proof-Carrying Data]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[Lattice IVCPCD with Spartan+FRI proof compression, no curve cycles]] - paper - references/ch06/ref-21-neo.pdf
-- [[Lattice folding for lookups and read-write memory via ShoutTwist]] - paper - references/ch06/ref-21-neo.pdf
-- [[LatticeFold (ePrint 2024257)]] - paper - references/ch06/ref-21-neo.pdf
-- [[LatticeFold Lattice-Based Folding Scheme]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[Lova (unstructured-lattice folding for subset sum)]] - paper - references/ch06/ref-21-neo.pdf
-- [[Module-SIS]] - document - wiki/chapters/10-the-synthesis-three-paths-not-two.md
-- [[Neo folding-friendly matrix commitment scheme (Ajtai with new embedding)]] - paper - references/ch06/ref-21-neo.pdf
-- [[Neo Lattice-based Folding Scheme for CCS over Small Fields and Pay-per-bit Commitments]] - paper - references/ch06/ref-21-neo.pdf
-- [[NeutronNova]] - paper - references/ch06/ref-21-neo.pdf
-- [[Nova (CRYPTO'22)]] - paper - references/ch06/ref-21-neo.pdf
-- [[Pay-per-bit commitment cost (cost scales with bit-width of committed scalars)]] - paper - references/ch06/ref-21-neo.pdf
-- [[Plausible post-quantum security from lattice (no DLOG reliance)]] - paper - references/ch06/ref-21-neo.pdf
-- [[Power-of-Two Cyclotomic Ring ZX(Xd+1)]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[S-module homomorphism via ring of rotation matrices S]] - paper - references/ch06/ref-21-neo.pdf
-- [[Small prime fields (machine-register-sized Goldilocks, M61)]] - paper - references/ch06/ref-21-neo.pdf
-- [[Strong Sampling Set]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[Theorem 2 Ajtai scheme is S-homomorphic and (d,m,B)-binding under MSIS]] - paper - references/ch06/ref-21-neo.pdf
-- [[Theorem 3.3 Folding Knowledge Soundness]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[Theorem 4.3 Pi_cm is a RoK from R_rg,B to R_com]] - paper - references/ch02/ref-11-latticefold-plus.pdf
-- [[Theorem 7 cyclotomic ring R_q isomorphic to ring of rotation matrices S]] - paper - references/ch06/ref-21-neo.pdf
-- [[Twist and Shout (sum-check lookup  memory arguments)]] - paper - references/ch06/ref-21-neo.pdf
-- [[b-bit-word embedding of Fm into low-norm cyclotomic ring vector]] - paper - references/ch06/ref-21-neo.pdf
-- [[splitpow Maps & Gadget Decomposition]] - paper - references/ch02/ref-11-latticefold-plus.pdf
+- [[Address-grouping suffices (a-group + t-order) instead of full (a,t)-ordering]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[Algebraic Interactive Proof (AIP) public-coin IP with arithmetic-circuit verifier]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[Bezout's identity for univariate polynomials (uniquenessdisjointness tool)]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[CP-Mirage+ commit-and-prove zkSNARK for AIPs with Pedersen-committed witnesses]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[CirC-compiler implementation, bellmanGroth16 base, Z rollup application]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[Commit-and-Prove SNARK]] - document - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[Conditional uniqueness AIP Pi_c-uniq, V-cost 6A+O(1)]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[Cost claim first volatile RAM proof with V-cost independent of N (up to 32.9% time cut)]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[Cost claim persistent RAM proving time reduced up to 51.3x vs RSAMerkle prior art]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[Cost claim sparse persistent RAM estimated up to 143x constraint reduction]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[I-R1CS interactive rank-1 constraint system arithmetization for AIPs]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[MIRAGE (Kosba et al.) succinct arguments for randomized algorithms MA1]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[Mirage+ zkSNARK compiler from AIP (I-R1CS) to zkSNARK, generalizes Groth16Mirage]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[Ozdemir et al. RSAMerkle set-accumulator RAM (prior state of the art)]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[Persistent RAM AIP (committed initialfinal states)]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[Pi_active active-cell selection via H_r permutation proofs, V-cost 3N+2A+O(1)]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[Punctured disjointness AIP Pi_PuncDisj, V-cost 2C+2A+O(log C)]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[Punctured uniqueness AIP Pi_PuncUniq (gcd has form Xc), V-cost 4C+O(log C)]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[Read-over-write (RoW) validity condition for transcripts]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[Sparse persistent RAM AIP (capacity C, N approx 2256)]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[UniqBez divide-and-conquer Bezout coefficient computation (4.5 A log2 A)]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[Uniqueness AIP Pi_uniq (gcd(z,z')=1 via Bezout), V-cost 4A+O(1)]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[Volatile RAM AIP (zeroed init, uncommitted final)]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[Volatile and Persistent Memory for zkSNARKs via Algebraic Interactive Proofs]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[zkSNARK]] - document - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -48,22 +44,20 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 14 edges to [[_COMMUNITY_Community 4]]
-- 12 edges to [[_COMMUNITY_Community 8]]
-- 9 edges to [[_COMMUNITY_Community 17]]
-- 7 edges to [[_COMMUNITY_Community 9]]
-- 6 edges to [[_COMMUNITY_Community 29]]
-- 5 edges to [[_COMMUNITY_Community 14]]
-- 4 edges to [[_COMMUNITY_Community 2]]
-- 3 edges to [[_COMMUNITY_Community 1]]
-- 2 edges to [[_COMMUNITY_Community 13]]
-- 2 edges to [[_COMMUNITY_Community 20]]
+- 2 edges to [[_COMMUNITY_Community 25]]
+- 2 edges to [[_COMMUNITY_Community 34]]
+- 1 edge to [[_COMMUNITY_Community 22]]
 - 1 edge to [[_COMMUNITY_Community 0]]
-- 1 edge to [[_COMMUNITY_Community 19]]
+- 1 edge to [[_COMMUNITY_Community 1]]
+- 1 edge to [[_COMMUNITY_Community 10]]
+- 1 edge to [[_COMMUNITY_Community 16]]
+- 1 edge to [[_COMMUNITY_Community 38]]
+- 1 edge to [[_COMMUNITY_Community 30]]
+- 1 edge to [[_COMMUNITY_Community 12]]
 
 ## Top bridge nodes
-- [[Module-SIS]] - degree 36, connects to 8 communities
-- [[Neo Lattice-based Folding Scheme for CCS over Small Fields and Pay-per-bit Commitments]] - degree 32, connects to 8 communities
-- [[LatticeFold Lattice-Based Folding Scheme]] - degree 9, connects to 3 communities
-- [[Ajtai Commitment Scheme]] - degree 8, connects to 2 communities
-- [[Power-of-Two Cyclotomic Ring ZX(Xd+1)]] - degree 7, connects to 2 communities
+- [[Volatile and Persistent Memory for zkSNARKs via Algebraic Interactive Proofs]] - degree 16, connects to 6 communities
+- [[Volatile RAM AIP (zeroed init, uncommitted final)]] - degree 8, connects to 2 communities
+- [[zkSNARK]] - degree 5, connects to 2 communities
+- [[Address-grouping suffices (a-group + t-order) instead of full (a,t)-ordering]] - degree 2, connects to 1 community
+- [[Pi_active active-cell selection via H_r permutation proofs, V-cost 3N+2A+O(1)]] - degree 2, connects to 1 community

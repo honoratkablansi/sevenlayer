@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch09-three-kinds-of-security.md"
 type: "document"
-community: "Community 3"
+community: "Compliance & Deployment"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_3
+  - community/Compliance__Deployment
 ---
 
 # Three Kinds of Security
@@ -17,6 +17,6 @@ tags:
 - [[The Decision Matrix]] - `references` [EXTRACTED]
 - [[The Four Pillars]] - `references` [EXTRACTED]
 - [[Trusted Execution Environment (TEE)]] - `defines` [EXTRACTED]
-- [[Zero-Knowledge Proofs]] - `conceptually_related_to` [EXTRACTED]
+- [[Zero-Knowledge Proof]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_3
+#graphify/document #graphify/EXTRACTED #community/Compliance__Deployment

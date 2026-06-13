@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch13/ref-44-ethproofs.md"
 type: "document"
-community: "Community 42"
+community: "zkVMs & STARK Stacks"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_42
+  - community/zkVMs__STARK_Stacks
 ---
 
 # Ethproofs: ZK Proving Cost Tracker (Ethereum Foundation)
@@ -22,4 +22,4 @@ tags:
 - [[Zero-Knowledge Virtual Machine (zkVM)]] - `references` [EXTRACTED]
 - [[zkEVM]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_42
+#graphify/document #graphify/EXTRACTED #community/zkVMs__STARK_Stacks

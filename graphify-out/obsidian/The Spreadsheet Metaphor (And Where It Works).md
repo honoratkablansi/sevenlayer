@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch05-the-spreadsheet-metaphor-and-where-it-works.md"
 type: "document"
-community: "Community 1"
+community: "Arithmetization & CCS"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_1
+  - community/Arithmetization__CCS
 ---
 
 # The Spreadsheet Metaphor (And Where It Works)
@@ -24,4 +24,4 @@ tags:
 - [[Sudoku running example]] - `references` [EXTRACTED]
 - [[The Constraint System Evolution R1CS, AIR, PLONKish]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_1
+#graphify/document #graphify/EXTRACTED #community/Arithmetization__CCS

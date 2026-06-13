@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-65-greyhound.pdf"
 type: "paper"
-community: "Community 14"
+community: "Lattice PCS (Greyhound)"
 location: "p.1 (title/abstract)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_14
+  - community/Lattice_PCS_Greyhound
 ---
 
 # Greyhound: Fast Polynomial Commitments from Lattices
@@ -30,4 +30,4 @@ tags:
 - [[Short Integer Solutions (SIS) Assumption]] - `references` [EXTRACTED]
 - [[The Synthesis -- Three Paths, Not Two]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_14
+#graphify/paper #graphify/EXTRACTED #community/Lattice_PCS_Greyhound

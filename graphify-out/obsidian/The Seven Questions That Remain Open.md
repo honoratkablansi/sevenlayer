@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch14-the-seven-questions-that-remain-open.md"
 type: "document"
-community: "Community 0"
+community: "ZK Crypto Foundations"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/ZK_Crypto_Foundations
 ---
 
 # The Seven Questions That Remain Open
@@ -19,7 +19,7 @@ tags:
 - [[Dan Boneh]] - `references` [EXTRACTED]
 - [[FRI]] - `references` [EXTRACTED]
 - [[Fiat-Shamir Transform]] - `references` [EXTRACTED]
-- [[Folding Schemes]] - `references` [EXTRACTED]
+- [[Folding Scheme]] - `references` [EXTRACTED]
 - [[Governance The Achilles Heel]] - `references` [EXTRACTED]
 - [[Groth16]] - `references` [EXTRACTED]
 - [[HyperNova]] - `references` [EXTRACTED]
@@ -36,7 +36,7 @@ tags:
 - [[Open Questions and the Road Ahead]] - `part_of` [EXTRACTED]
 - [[Poseidon Hash]] - `references` [EXTRACTED]
 - [[Post-Quantum Cryptography]] - `references` [EXTRACTED]
-- [[STARKs]] - `references` [EXTRACTED]
+- [[STARK (Scalable Transparent ARgument of Knowledge)]] - `references` [EXTRACTED]
 - [[Side-Channel Attacks When the Walls Leak]] - `references` [EXTRACTED]
 - [[Srinath Setty]] - `references` [EXTRACTED]
 - [[The Folding Genealogy]] - `references` [EXTRACTED]
@@ -48,4 +48,4 @@ tags:
 - [[Zcash]] - `references` [EXTRACTED]
 - [[Zero-Knowledge Virtual Machine (zkVM)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/document #graphify/EXTRACTED #community/ZK_Crypto_Foundations

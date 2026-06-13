@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch06-recursion-vs-folding-russian-dolls-and-snowballs.md"
 type: "document"
-community: "Community 9"
+community: "Nova Folding & IVC"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_9
+  - community/Nova_Folding__IVC
 ---
 
 # Incrementally Verifiable Computation (IVC)
@@ -25,4 +25,4 @@ tags:
 - [[The Folding Genealogy]] - `references` [EXTRACTED]
 - [[Theorem 3 IVC for High-Degree Special-Sound Protocols (recursive circuit k+d-1 or k+2 scalar mults)]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_9
+#graphify/document #graphify/EXTRACTED #community/Nova_Folding__IVC

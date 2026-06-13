@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch06-real-time-ethereum-proving.md"
 type: "document"
-community: "Community 2"
+community: "zkVMs & STARK Stacks"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_2
+  - community/zkVMs__STARK_Stacks
 ---
 
 # Real-Time Ethereum Proving
@@ -17,9 +17,9 @@ tags:
 - [[Groth16]] - `references` [EXTRACTED]
 - [[Layer 5 -- The Sealed Certificate]] - `part_of` [EXTRACTED]
 - [[SP1  SP1 Hypercube]] - `references` [EXTRACTED]
-- [[STARKs]] - `references` [EXTRACTED]
+- [[STARK (Scalable Transparent ARgument of Knowledge)]] - `references` [EXTRACTED]
 - [[Sumcheck Protocol]] - `references` [EXTRACTED]
 - [[The Hybrid Pipeline]] - `references` [EXTRACTED]
 - [[The Three Frontiers]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_2
+#graphify/document #graphify/EXTRACTED #community/zkVMs__STARK_Stacks

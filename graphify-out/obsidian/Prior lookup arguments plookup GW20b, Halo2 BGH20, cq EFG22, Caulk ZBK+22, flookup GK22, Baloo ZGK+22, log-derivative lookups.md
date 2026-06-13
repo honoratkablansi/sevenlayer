@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch03/ref-15-lasso.pdf"
 type: "paper"
-community: "Community 22"
+community: "Lasso Lookup Arguments"
 location: "§1, App B Fig"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_22
+  - community/Lasso_Lookup_Arguments
 ---
 
 # Prior lookup arguments: plookup [GW20b], Halo2 [BGH20], cq [EFG22], Caulk [ZBK+22], flookup [GK22], Baloo [ZGK+22], log-derivative lookups
@@ -15,4 +15,4 @@ tags:
 - [[Lookup Arguments]] - `conceptually_related_to` [EXTRACTED]
 - [[Unlocking the Lookup Singularity with Lasso]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_22
+#graphify/paper #graphify/EXTRACTED #community/Lasso_Lookup_Arguments

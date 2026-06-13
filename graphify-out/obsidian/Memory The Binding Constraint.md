@@ -1,18 +1,18 @@
 ---
 source_file: "wiki/sections/ch04-memory-the-binding-constraint.md"
 type: "document"
-community: "Community 1"
+community: "Witness Generation & Hardware"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_1
+  - community/Witness_Generation__Hardware
 ---
 
 # Memory: The Binding Constraint
 
 ## Connections
 - [[Case Study Midnight and the Three-Token Architecture]] - `references` [EXTRACTED]
-- [[Folding Schemes]] - `references` [EXTRACTED]
+- [[Folding Scheme]] - `references` [EXTRACTED]
 - [[GPU-Accelerated Proving]] - `references` [EXTRACTED]
 - [[Groth16]] - `references` [EXTRACTED]
 - [[Jolt zkVM]] - `references` [EXTRACTED]
@@ -26,4 +26,4 @@ tags:
 - [[Witness Generation Costs]] - `references` [EXTRACTED]
 - [[ZKPoG (end-to-end GPU proving)]] - `cites` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_1
+#graphify/document #graphify/EXTRACTED #community/Witness_Generation__Hardware

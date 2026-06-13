@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-17-nova.pdf"
 type: "paper"
-community: "Community 4"
+community: "HyperNova Multifolding"
 location: "§4.1 Def 12"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_4
+  - community/HyperNova_Multifolding
 ---
 
 # Committed Relaxed R1CS
@@ -16,4 +16,4 @@ tags:
 - [[Folding Scheme for Committed Relaxed R1CS (Construction 1)]] - `defines` [EXTRACTED]
 - [[Relaxed R1CS]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_4
+#graphify/paper #graphify/EXTRACTED #community/HyperNova_Multifolding

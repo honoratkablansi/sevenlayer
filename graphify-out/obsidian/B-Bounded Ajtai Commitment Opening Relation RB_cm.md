@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-20-latticefold.pdf"
 type: "paper"
-community: "Community 17"
+community: "Lattice Folding (Symphony)"
 location: "§3.1 Eq.(8)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_17
+  - community/Lattice_Folding_Symphony
 ---
 
 # B-Bounded Ajtai Commitment Opening Relation R^B_cm
@@ -19,4 +19,4 @@ tags:
 - [[NTT  Coefficient Embedding over R_q]] - `conceptually_related_to` [EXTRACTED]
 - [[Sumcheck-Based Norm-Bound Range Check]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_17
+#graphify/paper #graphify/EXTRACTED #community/Lattice_Folding_Symphony

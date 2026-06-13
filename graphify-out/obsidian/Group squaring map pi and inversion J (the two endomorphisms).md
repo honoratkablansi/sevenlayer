@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-23-circle-starks.pdf"
 type: "paper"
-community: "Community 16"
+community: "Circle STARKs"
 location: "§3.1 Eq (1)-(2)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_16
+  - community/Circle_STARKs
 ---
 
 # Group squaring map pi and inversion J (the two endomorphisms)
@@ -15,4 +15,4 @@ tags:
 - [[Circle FFT and inverse (non-harmonic, Nn adds, Nn2 mults)]] - `assumes` [EXTRACTED]
 - [[Vanishing polynomials v_n and domain quotients]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_16
+#graphify/paper #graphify/EXTRACTED #community/Circle_STARKs

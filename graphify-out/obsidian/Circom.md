@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch03-from-circuits-to-virtual-machines-a-brief-evolution.md"
 type: "document"
-community: "Community 5"
+community: "Under-Constrained Circuits (Picus)"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_5
+  - community/Under-Constrained_Circuits_Picus
 ---
 
 # Circom
@@ -32,4 +32,4 @@ tags:
 - [[ZkBench Benchmark Suite (163 Circom circuits)]] - `conceptually_related_to` [EXTRACTED]
 - [[zkSNARK]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_5
+#graphify/document #graphify/EXTRACTED #community/Under-Constrained_Circuits_Picus

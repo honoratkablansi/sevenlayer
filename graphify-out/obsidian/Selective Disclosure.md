@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch12/ref-41-midnight-developer-guide.md"
 type: "document"
-community: "Community 30"
+community: "zkVMs & STARK Stacks"
 location: "Welcome to Midnight Network"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_30
+  - community/zkVMs__STARK_Stacks
 ---
 
 # Selective Disclosure
@@ -17,4 +17,4 @@ tags:
 - [[The Market Landscape]] - `references` [EXTRACTED]
 - [[The Promise of Provable and Programmable Secrets]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_30
+#graphify/document #graphify/EXTRACTED #community/zkVMs__STARK_Stacks

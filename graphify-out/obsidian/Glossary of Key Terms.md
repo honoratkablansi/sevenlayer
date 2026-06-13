@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/GLOSSARY.md"
 type: "document"
-community: "Community 1"
+community: "Arithmetization & CCS"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_1
+  - community/Arithmetization__CCS
 ---
 
 # Glossary of Key Terms
@@ -15,7 +15,7 @@ tags:
 - [[CCS (Customizable Constraint Systems)]] - `defines` [EXTRACTED]
 - [[FRI]] - `defines` [EXTRACTED]
 - [[Fiat-Shamir Transform]] - `defines` [EXTRACTED]
-- [[Folding Schemes]] - `defines` [EXTRACTED]
+- [[Folding Scheme]] - `defines` [EXTRACTED]
 - [[Groth16]] - `defines` [EXTRACTED]
 - [[HyperNova]] - `defines` [EXTRACTED]
 - [[KZG Polynomial Commitments]] - `defines` [EXTRACTED]
@@ -24,7 +24,7 @@ tags:
 - [[PLONK]] - `defines` [EXTRACTED]
 - [[PLONKish Arithmetization]] - `defines` [EXTRACTED]
 - [[R1CS]] - `defines` [EXTRACTED]
-- [[STARKs]] - `defines` [EXTRACTED]
+- [[STARK (Scalable Transparent ARgument of Knowledge)]] - `defines` [EXTRACTED]
 - [[Sumcheck Protocol]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_1
+#graphify/document #graphify/EXTRACTED #community/Arithmetization__CCS

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-51-pairing-efficiency-curves.pdf"
 type: "paper"
-community: "Community 6"
+community: "Pairing Curve Security"
 location: "page 1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_6
+  - community/Pairing_Curve_Security
 ---
 
 # Comparing the Pairing Efficiency over Composite-Order and Prime-Order Elliptic Curves
@@ -17,4 +17,4 @@ tags:
 - [[Composite-Order Bilinear Groups]] - `references` [EXTRACTED]
 - [[Number Field Sieve]] - `references` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_6
+#graphify/paper #graphify/EXTRACTED #community/Pairing_Curve_Security

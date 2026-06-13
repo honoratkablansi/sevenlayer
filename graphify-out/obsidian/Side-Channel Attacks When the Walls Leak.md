@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch04-side-channel-attacks-when-the-walls-leak.md"
 type: "document"
-community: "Community 1"
+community: "Witness Generation & Hardware"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_1
+  - community/Witness_Generation__Hardware
 ---
 
 # Side-Channel Attacks: When the Walls Leak
@@ -23,7 +23,7 @@ tags:
 - [[MSM (Multi-Scalar Multiplication)]] - `references` [EXTRACTED]
 - [[Plonky3]] - `references` [EXTRACTED]
 - [[Poseidon Hash]] - `references` [EXTRACTED]
-- [[STARKs]] - `references` [EXTRACTED]
+- [[STARK (Scalable Transparent ARgument of Knowledge)]] - `references` [EXTRACTED]
 - [[Side-Channel Attacks]] - `defines` [EXTRACTED]
 - [[The Disclose Boundary Midnight's Witness Architecture]] - `references` [EXTRACTED]
 - [[The Hidden Bottleneck]] - `references` [EXTRACTED]
@@ -33,4 +33,4 @@ tags:
 - [[The Witness as a Multi-Dimensional Problem]] - `references` [EXTRACTED]
 - [[Zcash]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_1
+#graphify/document #graphify/EXTRACTED #community/Witness_Generation__Hardware

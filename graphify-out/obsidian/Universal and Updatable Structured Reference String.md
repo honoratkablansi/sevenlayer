@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-07-plonk.pdf"
 type: "document"
-community: "Community 24"
+community: "Universal SRS & Ceremonies"
 location: "Section 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_24
+  - community/Universal_SRS__Ceremonies
 ---
 
 # Universal and Updatable Structured Reference String
@@ -22,4 +22,4 @@ tags:
 - [[Universal Updatable SRS Setup (Bowe-Gabizon-Miers)]] - `defines` [EXTRACTED]
 - [[Updatable and Universal Common Reference Strings with Applications to zk-SNARKs]] - `introduces` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_24
+#graphify/document #graphify/EXTRACTED #community/Universal_SRS__Ceremonies

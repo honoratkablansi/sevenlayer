@@ -1,21 +1,20 @@
 ---
 source_file: "references/ch06/ref-17-nova.pdf"
 type: "paper"
-community: "Community 9"
+community: "Nova Folding & IVC"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_9
+  - community/Nova_Folding__IVC
 ---
 
 # Nova: Recursive Zero-Knowledge Arguments from Folding Schemes
 
 ## Connections
-- [[Accumulation  Split-Accumulation Schemes]] - `cites` [EXTRACTED]
+- [[Accumulation Schemes]] - `cites` [EXTRACTED]
 - [[Complete Bibliography]] - `cites` [EXTRACTED]
 - [[Cycles of Elliptic Curves]] - `assumes` [EXTRACTED]
 - [[Folding Scheme]] - `introduces` [EXTRACTED]
-- [[Folding Schemes]] - `defines` [EXTRACTED]
 - [[Halo Recursive Proof Composition]] - `cites` [EXTRACTED]
 - [[HyperNova Recursive Arguments for Customizable Constraint Systems]] - `cites` [EXTRACTED]
 - [[Incrementally Verifiable Computation (IVC)]] - `defines` [EXTRACTED]
@@ -32,4 +31,4 @@ tags:
 - [[Sumcheck Protocol]] - `conceptually_related_to` [EXTRACTED]
 - [[Trusted Setup]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_9
+#graphify/paper #graphify/EXTRACTED #community/Nova_Folding__IVC

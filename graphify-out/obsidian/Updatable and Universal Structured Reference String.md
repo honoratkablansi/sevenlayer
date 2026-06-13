@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-37-updatable-universal-crs.pdf"
 type: "document"
-community: "Community 28"
+community: "Universal SRS & Ceremonies"
 location: "page 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_28
+  - community/Universal_SRS__Ceremonies
 ---
 
 # Updatable and Universal Structured Reference String
@@ -20,4 +20,4 @@ tags:
 - [[Updatable and Universal Common Reference Strings with Applications to zk-SNARKs]] - `defines` [EXTRACTED]
 - [[Update knowledge soundness (Def 5, game GameA,EA_uks over phi_max phases)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_28
+#graphify/document #graphify/EXTRACTED #community/Universal_SRS__Ceremonies

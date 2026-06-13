@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/concepts/babybear.md"
 type: "document"
-community: "Community 2"
+community: "zkVMs & STARK Stacks"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_2
+  - community/zkVMs__STARK_Stacks
 ---
 
 # BabyBear
@@ -20,7 +20,7 @@ tags:
 - [[Midnight -- The Privacy Theater]] - `references` [EXTRACTED]
 - [[Path One The Hybrid STARK-to-SNARK Pipeline]] - `conceptually_related_to` [EXTRACTED]
 - [[Small Fields]] - `references` [EXTRACTED]
-- [[Small-Field Proving]] - `conceptually_related_to` [INFERRED]
+- [[Small prime fields (machine-register-sized Goldilocks, M61)]] - `conceptually_related_to` [INFERRED]
 - [[The Proof Core Triad]] - `conceptually_related_to` [EXTRACTED]
 - [[The CapexOpex Framework]] - `conceptually_related_to` [EXTRACTED]
 - [[The Cascade Effect]] - `references` [EXTRACTED]
@@ -34,4 +34,4 @@ tags:
 - [[Where the Layers Collapse]] - `references` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_2
+#graphify/document #graphify/EXTRACTED #community/zkVMs__STARK_Stacks

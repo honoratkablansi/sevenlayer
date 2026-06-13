@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/12-midnight-the-privacy-theater.md"
 type: "document"
-community: "Community 5"
+community: "Programmable Privacy & Midnight"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_5
+  - community/Programmable_Privacy__Midnight
 ---
 
 # Midnight -- The Privacy Theater
@@ -19,7 +19,7 @@ tags:
 - [[Disclosure Analysis (Compact compiler pass)]] - `defines` [EXTRACTED]
 - [[FRI]] - `references` [EXTRACTED]
 - [[Five Lessons for ZK System Design]] - `part_of` [EXTRACTED]
-- [[Folding Schemes]] - `references` [EXTRACTED]
+- [[Folding Scheme]] - `references` [EXTRACTED]
 - [[Full Seven-Layer Mapping]] - `part_of` [EXTRACTED]
 - [[Goldilocks Field]] - `references` [EXTRACTED]
 - [[Halo 2]] - `references` [EXTRACTED]
@@ -37,7 +37,7 @@ tags:
 - [[Poseidon Hash]] - `references` [EXTRACTED]
 - [[Proving Nothing]] - `part_of` [EXTRACTED]
 - [[Sevenlayer Wiki Index]] - `references` [EXTRACTED]
-- [[Side-Channel Attacks_1]] - `references` [EXTRACTED]
+- [[Side-Channel Attacks]] - `references` [EXTRACTED]
 - [[Sudoku running example]] - `references` [EXTRACTED]
 - [[The Privacy Theater Analogy]] - `part_of` [EXTRACTED]
 - [[Tornado Cash]] - `references` [EXTRACTED]
@@ -48,4 +48,4 @@ tags:
 - [[ZKIR Intermediate Representation Reference (Midnight Network, stub)]] - `references` [EXTRACTED]
 - [[Zcash]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_5
+#graphify/document #graphify/EXTRACTED #community/Programmable_Privacy__Midnight

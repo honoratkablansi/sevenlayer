@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-19-protostar.pdf"
 type: "paper"
-community: "Community 10"
+community: "Nova Folding & IVC"
 location: "p.1 (title/abstract)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_10
+  - community/Nova_Folding__IVC
 ---
 
 # Protostar: Generic Efficient Accumulation/Folding for Special-sound Protocols
@@ -16,7 +16,7 @@ tags:
 - [[Accumulation Schemes]] - `conceptually_related_to` [EXTRACTED]
 - [[BCLMS21 'PCD Without Succinct Arguments' (cited, accumulation-IVC compiler  Theorem 1)]] - `cites` [EXTRACTED]
 - [[Fiat-Shamir Transform]] - `conceptually_related_to` [EXTRACTED]
-- [[Folding Schemes]] - `conceptually_related_to` [EXTRACTED]
+- [[Folding Scheme]] - `conceptually_related_to` [EXTRACTED]
 - [[Generic AccumulationFolding Compiler for Special-Sound Protocols (4-step workflow)]] - `introduces` [EXTRACTED]
 - [[HyperNova Folding Scheme KS23 (cited, concurrent CCS multi-folding)]] - `cites` [EXTRACTED]
 - [[Incrementally Verifiable Computation (IVC)]] - `implements` [EXTRACTED]
@@ -31,4 +31,4 @@ tags:
 - [[Sangria Moh23 (cited, Plonk degree-2 folding)]] - `cites` [EXTRACTED]
 - [[SuperNova KS22 (cited, non-uniform IVC predecessor)]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_10
+#graphify/paper #graphify/EXTRACTED #community/Nova_Folding__IVC

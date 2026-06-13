@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 30"
+community: "zkVMs & STARK Stacks"
 location: "Chapter 10: The Synthesis -- Three Paths, Not Two"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_30
+  - community/zkVMs__STARK_Stacks
 ---
 
 # Trust Decomposition
@@ -16,4 +16,4 @@ tags:
 - [[The Market Landscape]] - `references` [EXTRACTED]
 - [[The Synthesis -- Three Paths, Not Two]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_30
+#graphify/document #graphify/EXTRACTED #community/zkVMs__STARK_Stacks

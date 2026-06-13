@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 0"
+community: "ZK Crypto Foundations"
 location: "Chapter 14: Open Questions and the Road Ahead"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/ZK_Crypto_Foundations
 ---
 
 # Constant-Time Proving
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Open Questions and the Road Ahead]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/document #graphify/EXTRACTED #community/ZK_Crypto_Foundations

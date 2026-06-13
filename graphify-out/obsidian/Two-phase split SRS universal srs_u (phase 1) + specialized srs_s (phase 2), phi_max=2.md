@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-38-snarky-ceremonies.pdf"
 type: "paper"
-community: "Community 47"
+community: "Universal SRS & Ceremonies"
 location: "§1.2, §5.2 Fig 5-6"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_47
+  - community/Universal_SRS__Ceremonies
 ---
 
 # Two-phase split SRS: universal srs_u (phase 1) + specialized srs_s (phase 2), phi_max=2
@@ -16,4 +16,4 @@ tags:
 - [[Quadratic Arithmetic Programs]] - `conceptually_related_to` [EXTRACTED]
 - [[Universal and Updatable Structured Reference String]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_47
+#graphify/paper #graphify/EXTRACTED #community/Universal_SRS__Ceremonies

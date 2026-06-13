@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch06-the-folding-genealogy.md"
 type: "document"
-community: "Community 8"
+community: "ZK Crypto Foundations"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_8
+  - community/ZK_Crypto_Foundations
 ---
 
 # Neo (Lattice Folding over Small Fields)
@@ -13,7 +13,7 @@ tags:
 ## Connections
 - [[Case Study Midnight (Layer 6)]] - `references` [EXTRACTED]
 - [[Case Study Midnight's Sealed Certificate]] - `references` [EXTRACTED]
-- [[Folding Schemes]] - `implements` [EXTRACTED]
+- [[Folding Scheme]] - `implements` [EXTRACTED]
 - [[Lattice-Based Proving]] - `references` [EXTRACTED]
 - [[LatticeFold]] - `conceptually_related_to` [EXTRACTED]
 - [[Layer 5 -- The Sealed Certificate]] - `references` [EXTRACTED]
@@ -26,4 +26,4 @@ tags:
 - [[The Post-Quantum Horizon]] - `references` [EXTRACTED]
 - [[The Structural Advantage of Lattices]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_8
+#graphify/document #graphify/EXTRACTED #community/ZK_Crypto_Foundations

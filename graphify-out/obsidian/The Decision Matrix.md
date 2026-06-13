@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch09-the-decision-matrix.md"
 type: "document"
-community: "Community 3"
+community: "Compliance & Deployment"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_3
+  - community/Compliance__Deployment
 ---
 
 # The Decision Matrix
@@ -22,8 +22,8 @@ tags:
 - [[The Regulatory Intersection]] - `references` [EXTRACTED]
 - [[Three Kinds of Security]] - `references` [EXTRACTED]
 - [[Trusted Execution Environment (TEE)]] - `conceptually_related_to` [EXTRACTED]
-- [[Zero-Knowledge Proofs]] - `conceptually_related_to` [EXTRACTED]
+- [[Zero-Knowledge Proof]] - `conceptually_related_to` [EXTRACTED]
 - [[eIDAS 2.0]] - `conceptually_related_to` [EXTRACTED]
 - [[zKYC (Zero-Knowledge Know Your Customer)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_3
+#graphify/document #graphify/EXTRACTED #community/Compliance__Deployment

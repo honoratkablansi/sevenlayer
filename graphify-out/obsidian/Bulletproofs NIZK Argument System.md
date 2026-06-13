@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-09-bulletproofs.pdf"
 type: "paper"
-community: "Community 7"
+community: "Bulletproofs & Range Proofs"
 location: "Abstract, §1.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_7
+  - community/Bulletproofs__Range_Proofs
 ---
 
 # Bulletproofs NIZK Argument System
@@ -15,7 +15,7 @@ tags:
 - [[Bulletproofs Short Proofs for Confidential Transactions and More]] - `defines` [EXTRACTED]
 - [[Discrete Log Relation Assumption]] - `assumes` [EXTRACTED]
 - [[Discrete Logarithm Assumption]] - `assumes` [EXTRACTED]
-- [[Fiat-Shamir Heuristic]] - `assumes` [EXTRACTED]
+- [[Fiat-Shamir Transform]] - `assumes` [EXTRACTED]
 - [[Inner-Product Argument]] - `conceptually_related_to` [EXTRACTED]
 - [[Mimblewimble]] - `cites` [EXTRACTED]
 - [[Provisions Proof of Solvency]] - `cites` [EXTRACTED]
@@ -23,4 +23,4 @@ tags:
 - [[SNARKs with Trusted Setup]] - `cites` [EXTRACTED]
 - [[Zero-Knowledge Argument of Knowledge]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_7
+#graphify/paper #graphify/EXTRACTED #community/Bulletproofs__Range_Proofs

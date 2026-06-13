@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch13/ref-43-castlelabs-zk-privacy.md"
 type: "document"
-community: "Community 42"
+community: "zkVMs & STARK Stacks"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_42
+  - community/zkVMs__STARK_Stacks
 ---
 
 # ZK Proofs: Is Privacy Cheap Enough to Be Mainstream? (Castle Labs)
@@ -17,9 +17,9 @@ tags:
 - [[Real-Time Proving]] - `references` [EXTRACTED]
 - [[The Market Landscape]] - `references` [EXTRACTED]
 - [[The Promise of Provable and Programmable Secrets]] - `cites` [EXTRACTED]
-- [[ZK Rollups_1]] - `references` [EXTRACTED]
+- [[ZK Rollups]] - `references` [EXTRACTED]
 - [[Zcash]] - `references` [EXTRACTED]
 - [[Zero-Knowledge Virtual Machine (zkVM)]] - `references` [EXTRACTED]
 - [[zkEVM]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_42
+#graphify/document #graphify/EXTRACTED #community/zkVMs__STARK_Stacks

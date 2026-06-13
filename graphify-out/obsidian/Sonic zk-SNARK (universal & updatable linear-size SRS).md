@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-36-sonic.pdf"
 type: "paper"
-community: "Community 24"
+community: "Universal SRS & Ceremonies"
 location: "Abstract, §1.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_24
+  - community/Universal_SRS__Ceremonies
 ---
 
 # Sonic zk-SNARK (universal & updatable linear-size SRS)
@@ -27,4 +27,4 @@ tags:
 - [[Universal and Updatable Structured Reference String]] - `assumes` [EXTRACTED]
 - [[Updatable and Universal Structured Reference String]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_24
+#graphify/paper #graphify/EXTRACTED #community/Universal_SRS__Ceremonies

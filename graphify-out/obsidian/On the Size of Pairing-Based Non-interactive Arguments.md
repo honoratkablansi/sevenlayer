@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch02/ref-06-groth16.pdf"
 type: "paper"
-community: "Community 6"
+community: "Groth16 & Pairing SNARKs"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_6
+  - community/Groth16__Pairing_SNARKs
 ---
 
 # On the Size of Pairing-Based Non-interactive Arguments
@@ -34,6 +34,6 @@ tags:
 - [[The Promise of Provable and Programmable Secrets]] - `cites` [EXTRACTED]
 - [[Theorem 3 No NILP Has a Degree-1 (Linear) Verifier]] - `proves` [EXTRACTED]
 - [[Theorem 4 Pairing-based Arguments Need Elements in Both G1 and G2]] - `proves` [EXTRACTED]
-- [[Zero-Knowledge Proofs_1]] - `conceptually_related_to` [EXTRACTED]
+- [[Zero-Knowledge Proof]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_6
+#graphify/paper #graphify/EXTRACTED #community/Groth16__Pairing_SNARKs

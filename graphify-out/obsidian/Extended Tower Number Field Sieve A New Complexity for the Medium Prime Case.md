@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-50-extended-tower-nfs.pdf"
 type: "paper"
-community: "Community 6"
+community: "ZK Crypto Foundations"
 location: "page 1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_6
+  - community/ZK_Crypto_Foundations
 ---
 
 # Extended Tower Number Field Sieve: A New Complexity for the Medium Prime Case
@@ -19,4 +19,4 @@ tags:
 - [[Number Field Sieve]] - `references` [EXTRACTED]
 - [[The Synthesis -- Three Paths, Not Two]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_6
+#graphify/paper #graphify/EXTRACTED #community/ZK_Crypto_Foundations

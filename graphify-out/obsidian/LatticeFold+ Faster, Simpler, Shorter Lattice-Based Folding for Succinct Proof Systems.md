@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-11-latticefold-plus.pdf"
 type: "paper"
-community: "Community 29"
+community: "ZK Crypto Foundations"
 location: "p.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_29
+  - community/ZK_Crypto_Foundations
 ---
 
 # LatticeFold+: Faster, Simpler, Shorter Lattice-Based Folding for Succinct Proof Systems
@@ -15,7 +15,6 @@ tags:
 - [[Commitment Transformation Protocol Pi_cm]] - `introduces` [EXTRACTED]
 - [[Double Commitment (commitment of commitments, dcom)]] - `introduces` [EXTRACTED]
 - [[Folding Scheme]] - `conceptually_related_to` [EXTRACTED]
-- [[Folding Schemes]] - `conceptually_related_to` [EXTRACTED]
 - [[Generalized Committed Linear Relation R_lin,B]] - `defines` [EXTRACTED]
 - [[Greyhound NS24 (LaBRADOR-based PCS, sqrt verifier)]] - `cites` [EXTRACTED]
 - [[HyperNova KS24b (linearization, CCS folding)]] - `cites` [EXTRACTED]
@@ -39,4 +38,4 @@ tags:
 - [[Sumcheck Protocol]] - `conceptually_related_to` [EXTRACTED]
 - [[The Synthesis -- Three Paths, Not Two]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_29
+#graphify/paper #graphify/EXTRACTED #community/ZK_Crypto_Foundations

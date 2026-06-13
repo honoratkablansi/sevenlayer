@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 12"
+community: "zkVM Fuzzing (Arguzz)"
 location: "Chapter 1: The Promise of Provable and Programmable Secrets"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_12
+  - community/zkVM_Fuzzing_Arguzz
 ---
 
 # Completeness
@@ -17,4 +17,4 @@ tags:
 - [[The Promise of Provable and Programmable Secrets]] - `defines` [EXTRACTED]
 - [[Zero-Knowledge Virtual Machine (zkVM)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_12
+#graphify/document #graphify/EXTRACTED #community/zkVM_Fuzzing_Arguzz

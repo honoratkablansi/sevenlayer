@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-23-circle-starks.pdf"
 type: "paper"
-community: "Community 16"
+community: "Circle STARKs"
 location: "p.1 (abstract)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_16
+  - community/Circle_STARKs
 ---
 
 # Elliptic Curve FFT (ECFFT)
@@ -16,4 +16,4 @@ tags:
 - [[Circle STARKs_1]] - `cites` [EXTRACTED]
 - [[Reed-Solomon proximity gaps  list-decoding]] - `conceptually_related_to` [INFERRED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_16
+#graphify/paper #graphify/EXTRACTED #community/Circle_STARKs

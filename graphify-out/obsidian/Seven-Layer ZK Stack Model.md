@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 0"
+community: "Programmable Privacy & Midnight"
 location: "Chapter 1: The Promise of Provable and Programmable Secrets"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Programmable_Privacy__Midnight
 ---
 
 # Seven-Layer ZK Stack Model
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[The Promise of Provable and Programmable Secrets]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/document #graphify/EXTRACTED #community/Programmable_Privacy__Midnight

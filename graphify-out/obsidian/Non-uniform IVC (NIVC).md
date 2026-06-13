@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-18-hypernova.pdf"
 type: "paper"
-community: "Community 17"
+community: "HyperNova Multifolding"
 location: "§5 Definition 11"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_17
+  - community/HyperNova_Multifolding
 ---
 
 # Non-uniform IVC (NIVC)
@@ -16,4 +16,4 @@ tags:
 - [[Incrementally Verifiable Computation (IVC)]] - `conceptually_related_to` [EXTRACTED]
 - [[Proof-Carrying Data (PCD)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_17
+#graphify/paper #graphify/EXTRACTED #community/HyperNova_Multifolding

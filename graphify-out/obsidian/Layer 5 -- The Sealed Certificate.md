@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/06-the-sealed-certificate.md"
 type: "document"
-community: "Community 9"
+community: "ZK Crypto Foundations"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_9
+  - community/ZK_Crypto_Foundations
 ---
 
 # Layer 5 -- The Sealed Certificate
@@ -24,7 +24,7 @@ tags:
 - [[FRI]] - `references` [EXTRACTED]
 - [[Fiat-Shamir Transform]] - `references` [EXTRACTED]
 - [[Fiat-Shamir Vulnerabilities]] - `part_of` [EXTRACTED]
-- [[Folding Schemes]] - `references` [EXTRACTED]
+- [[Folding Scheme]] - `references` [EXTRACTED]
 - [[From Speed Race to Security Race]] - `part_of` [EXTRACTED]
 - [[Frozen Heart Forgery of Zero Knowledge Proofs (Trail of Bits, 2022)]] - `references` [EXTRACTED]
 - [[Goldilocks Field]] - `references` [EXTRACTED]
@@ -61,11 +61,11 @@ tags:
 - [[SNARK Recursion vs. Folding The Full Picture]] - `part_of` [EXTRACTED]
 - [[SP1  SP1 Hypercube]] - `references` [EXTRACTED]
 - [[SP1 Hypercube Proving Ethereum in Real-Time (Succinct Labs)]] - `cites` [EXTRACTED]
-- [[STARKs]] - `references` [EXTRACTED]
+- [[STARK (Scalable Transparent ARgument of Knowledge)]] - `references` [EXTRACTED]
 - [[Scalable, Transparent, and Post-Quantum Secure Computational Integrity]] - `cites` [EXTRACTED]
 - [[Sealing the Certificate]] - `part_of` [EXTRACTED]
 - [[Sevenlayer Wiki Index]] - `references` [EXTRACTED]
-- [[Small-Field Proving]] - `references` [EXTRACTED]
+- [[Small prime fields (machine-register-sized Goldilocks, M61)]] - `references` [EXTRACTED]
 - [[Spartan]] - `references` [EXTRACTED]
 - [[Stwo]] - `references` [EXTRACTED]
 - [[Sudoku running example]] - `references` [EXTRACTED]
@@ -83,4 +83,4 @@ tags:
 - [[Zcash]] - `references` [EXTRACTED]
 - [[Zexe]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_9
+#graphify/document #graphify/EXTRACTED #community/ZK_Crypto_Foundations

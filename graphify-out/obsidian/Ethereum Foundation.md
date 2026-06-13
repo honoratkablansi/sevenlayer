@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch10-path-two-pure-transparent.md"
 type: "document"
-community: "Community 2"
+community: "zkVMs & STARK Stacks"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_2
+  - community/zkVMs__STARK_Stacks
 ---
 
 # Ethereum Foundation
@@ -14,4 +14,4 @@ tags:
 - [[Path Two Pure Transparent]] - `references` [EXTRACTED]
 - [[Performance The Cost Collapse]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_2
+#graphify/document #graphify/EXTRACTED #community/zkVMs__STARK_Stacks

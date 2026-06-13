@@ -1,12 +1,12 @@
 ---
 source_file: "wiki/sections/ch02-the-capex-opex-framework.md"
 type: "document"
-community: "Community 2"
+community: "zkVMs & STARK Stacks"
 location: "Entities"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_2
+  - community/zkVMs__STARK_Stacks
 ---
 
 # ZisK
@@ -20,4 +20,4 @@ tags:
 - [[The Landscape Table (March 2026)]] - `references` [EXTRACTED]
 - [[ZK Rollups The Proving Grounds (Production)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_2
+#graphify/document #graphify/EXTRACTED #community/zkVMs__STARK_Stacks

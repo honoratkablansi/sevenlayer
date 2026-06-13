@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/03-choreographing-the-act.md"
 type: "document"
-community: "Community 5"
+community: "zkVMs & STARK Stacks"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_5
+  - community/zkVMs__STARK_Stacks
 ---
 
 # Choreographing the Act
@@ -23,7 +23,7 @@ tags:
 - [[Disclosure Analysis (Compact compiler pass)]] - `defines` [EXTRACTED]
 - [[Evaluating Compiler Optimization Impacts on zkVM Performance]] - `cites` [EXTRACTED]
 - [[FRI]] - `references` [EXTRACTED]
-- [[Folding Schemes]] - `references` [EXTRACTED]
+- [[Folding Scheme]] - `references` [EXTRACTED]
 - [[From Circuits to Virtual Machines A Brief Evolution]] - `part_of` [EXTRACTED]
 - [[Goldilocks Field]] - `references` [EXTRACTED]
 - [[Groth16]] - `references` [EXTRACTED]
@@ -56,4 +56,4 @@ tags:
 - [[Zero-Knowledge Virtual Machine (zkVM)]] - `references` [EXTRACTED]
 - [[zkEVM]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_5
+#graphify/document #graphify/EXTRACTED #community/zkVMs__STARK_Stacks

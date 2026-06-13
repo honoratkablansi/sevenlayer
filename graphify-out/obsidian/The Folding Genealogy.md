@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch06-the-folding-genealogy.md"
 type: "document"
-community: "Community 9"
+community: "ZK Crypto Foundations"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_9
+  - community/ZK_Crypto_Foundations
 ---
 
 # The Folding Genealogy
@@ -15,7 +15,7 @@ tags:
 - [[CCS (Customizable Constraint Systems)]] - `references` [EXTRACTED]
 - [[CycleFold]] - `defines` [EXTRACTED]
 - [[Dan Boneh]] - `references` [EXTRACTED]
-- [[Folding Schemes]] - `references` [EXTRACTED]
+- [[Folding Scheme]] - `references` [EXTRACTED]
 - [[Goldilocks Field]] - `references` [EXTRACTED]
 - [[HyperNova]] - `defines` [EXTRACTED]
 - [[Incrementally Verifiable Computation (IVC)]] - `references` [EXTRACTED]
@@ -42,4 +42,4 @@ tags:
 - [[The Seven Questions That Remain Open]] - `references` [EXTRACTED]
 - [[The Structural Advantage of Lattices]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_9
+#graphify/document #graphify/EXTRACTED #community/ZK_Crypto_Foundations

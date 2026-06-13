@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch06-circle-starks-and-stwo-a-generational-leap.md"
 type: "document"
-community: "Community 2"
+community: "ZK Crypto Foundations"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_2
+  - community/ZK_Crypto_Foundations
 ---
 
 # Mersenne-31 Field
@@ -27,4 +27,4 @@ tags:
 - [[Where the Layers Collapse]] - `references` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_2
+#graphify/document #graphify/EXTRACTED #community/ZK_Crypto_Foundations

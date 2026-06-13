@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch07-lattice-based-proving.md"
 type: "document"
-community: "Community 8"
+community: "ZK Crypto Foundations"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_8
+  - community/ZK_Crypto_Foundations
 ---
 
 # Lattice-Based Proving
@@ -14,7 +14,7 @@ tags:
 - [[Ajtai commitments]] - `references` [EXTRACTED]
 - [[CCS (Customizable Constraint Systems)]] - `references` [EXTRACTED]
 - [[Dan Boneh]] - `references` [EXTRACTED]
-- [[Folding Schemes]] - `references` [EXTRACTED]
+- [[Folding Scheme]] - `references` [EXTRACTED]
 - [[Goldilocks Field]] - `references` [EXTRACTED]
 - [[Greyhound]] - `defines` [EXTRACTED]
 - [[Lattice Cryptography]] - `references` [EXTRACTED]
@@ -35,4 +35,4 @@ tags:
 - [[The Trilemma -- And Its Dissolution]] - `references` [EXTRACTED]
 - [[Three Hardness Assumptions, Three Worlds]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_8
+#graphify/document #graphify/EXTRACTED #community/ZK_Crypto_Foundations

@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/14-open-questions-and-the-road-ahead.md"
 type: "document"
-community: "Community 0"
+community: "ZK Crypto Foundations"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/ZK_Crypto_Foundations
 ---
 
 # Open Questions and the Road Ahead
@@ -22,7 +22,7 @@ tags:
 - [[Convergence]] - `part_of` [EXTRACTED]
 - [[FRI]] - `references` [EXTRACTED]
 - [[Fiat-Shamir Transform]] - `references` [EXTRACTED]
-- [[Folding Schemes]] - `references` [EXTRACTED]
+- [[Folding Scheme]] - `references` [EXTRACTED]
 - [[Formal Verification]] - `references` [EXTRACTED]
 - [[Frozen Heart Forgery of Zero Knowledge Proofs (Trail of Bits, 2022)]] - `cites` [EXTRACTED]
 - [[Groth16]] - `references` [EXTRACTED]
@@ -45,9 +45,9 @@ tags:
 - [[Proving Nothing]] - `part_of` [EXTRACTED]
 - [[RISC-V]] - `references` [EXTRACTED]
 - [[SP1  SP1 Hypercube]] - `references` [EXTRACTED]
-- [[STARKs]] - `references` [EXTRACTED]
+- [[STARK (Scalable Transparent ARgument of Knowledge)]] - `references` [EXTRACTED]
 - [[Sevenlayer Wiki Index]] - `references` [EXTRACTED]
-- [[Side-Channel Attacks_1]] - `references` [EXTRACTED]
+- [[Side-Channel Attacks]] - `references` [EXTRACTED]
 - [[SoK What Don't We Know Understanding Security Vulnerabilities in SNARKs]] - `cites` [EXTRACTED]
 - [[Stage 2 Rollup Governance]] - `references` [EXTRACTED]
 - [[Streaming Witness Generation (Nair, Thaler, Zhu)]] - `references` [EXTRACTED]
@@ -61,4 +61,4 @@ tags:
 - [[Zcash]] - `references` [EXTRACTED]
 - [[Zero-Knowledge Virtual Machine (zkVM)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/document #graphify/EXTRACTED #community/ZK_Crypto_Foundations

@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch11-the-proof-core-triad.md"
 type: "document"
-community: "Community 2"
+community: "zkVMs & STARK Stacks"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_2
+  - community/zkVMs__STARK_Stacks
 ---
 
 # The "Proof Core" Triad
@@ -22,7 +22,7 @@ tags:
 - [[LogUp]] - `conceptually_related_to` [EXTRACTED]
 - [[Mersenne-31  M31]] - `conceptually_related_to` [EXTRACTED]
 - [[SP1  SP1 Hypercube]] - `references` [EXTRACTED]
-- [[Small-Field Proving]] - `conceptually_related_to` [EXTRACTED]
+- [[Small prime fields (machine-register-sized Goldilocks, M61)]] - `conceptually_related_to` [EXTRACTED]
 - [[Stwo]] - `references` [EXTRACTED]
 - [[Sumcheck Protocol]] - `conceptually_related_to` [EXTRACTED]
 - [[The Causal Web Why It Is a DAG, Not a Stack]] - `references` [EXTRACTED]
@@ -31,4 +31,4 @@ tags:
 - [[Three zkVMs Through Seven Layers]] - `references` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `part_of` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_2
+#graphify/document #graphify/EXTRACTED #community/zkVMs__STARK_Stacks

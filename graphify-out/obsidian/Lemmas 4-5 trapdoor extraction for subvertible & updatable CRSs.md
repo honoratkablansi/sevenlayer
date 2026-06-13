@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-37-updatable-universal-crs.pdf"
 type: "paper"
-community: "Community 37"
+community: "Knowledge-of-Exponent Assumptions"
 location: "Lemma 4, Lemma 5"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_37
+  - community/Knowledge-of-Exponent_Assumptions
 ---
 
 # Lemmas 4-5: trapdoor extraction for subvertible & updatable CRSs
@@ -16,4 +16,4 @@ tags:
 - [[q-Monomial Computational (q-MC) assumption]] - `assumes` [EXTRACTED]
 - [[q-Monomial Knowledge (q-MK) assumption]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_37
+#graphify/paper #graphify/EXTRACTED #community/Knowledge-of-Exponent_Assumptions

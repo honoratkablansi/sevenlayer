@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch06/ref-18-hypernova.pdf"
 type: "paper"
-community: "Community 9"
+community: "HyperNova Multifolding"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_9
+  - community/HyperNova_Multifolding
 ---
 
 # HyperNova: Recursive Arguments for Customizable Constraint Systems
@@ -17,7 +17,7 @@ tags:
 - [[CycleFold]] - `defines` [EXTRACTED]
 - [[CycleFold cycle-of-curves delegation technique]] - `introduces` [EXTRACTED]
 - [[Cycles of Elliptic Curves]] - `conceptually_related_to` [EXTRACTED]
-- [[Folding Schemes]] - `conceptually_related_to` [EXTRACTED]
+- [[Folding Scheme]] - `conceptually_related_to` [EXTRACTED]
 - [[HyperNova NIVC-from-multifolding compiler (Construction 2)]] - `introduces` [EXTRACTED]
 - [[Incrementally Verifiable Computation (IVC)]] - `implements` [EXTRACTED]
 - [[LatticeFold A Lattice-based Folding Scheme and its Applications to Succinct Proof Systems]] - `cites` [EXTRACTED]
@@ -37,4 +37,4 @@ tags:
 - [[Sumcheck Protocol]] - `conceptually_related_to` [EXTRACTED]
 - [[nlookup lookup argument (Construction 8)]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_9
+#graphify/paper #graphify/EXTRACTED #community/HyperNova_Multifolding

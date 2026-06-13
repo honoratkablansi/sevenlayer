@@ -1,48 +1,41 @@
 ---
 type: community
-cohesion: 0.20
-members: 33
+cohesion: 0.11
+members: 26
 ---
 
 # Community 8
 
-**Cohesion:** 0.20 - loosely connected
-**Members:** 33 nodes
+**Cohesion:** 0.11 - loosely connected
+**Members:** 26 nodes
 
 ## Members
-- [[Harvest Now Decrypt Later Examining Post-Quantum Cryptography and the Data Privacy Risks for Distributed Ledger Networks]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
-- [[Ajtai commitments]] - document - wiki/concepts/ajtai.md
-- [[Bitcoin]] - document - references/ch14/ref-63-harvest-now-decrypt-later.pdf
-- [[Cryptographic Primitives Trilemma]] - document - wiki/sections/ch07-the-trilemma-and-its-dissolution.md
-- [[Distributed Ledger Network]] - document - references/ch14/ref-63-harvest-now-decrypt-later.pdf
-- [[FIPS 203 Module-Lattice-Based Key-Encapsulation Mechanism Standard (with FIPS 204205)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[FIPS 204 Module-Lattice-Based Digital Signature Standard]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[Four Families of Commitment Schemes]] - document - wiki/sections/ch07-four-families-of-commitment-schemes.md
-- [[Goldilocks Field]] - document - wiki/chapters/03-choreographing-the-act.md
-- [[Greyhound]] - document - wiki/sections/ch07-lattice-based-proving.md
-- [[Harvest Now Decrypt Later (HNDL)]] - document - references/ch14/ref-63-harvest-now-decrypt-later.pdf
-- [[Inner Product Arguments (IPA)]] - document - wiki/chapters/07-the-deep-craft.md
-- [[Lattice Cryptography]] - document - wiki/chapters/07-the-deep-craft.md
-- [[Lattice-Based Proving]] - document - wiki/sections/ch07-lattice-based-proving.md
-- [[LatticeFold]] - document - wiki/chapters/06-the-sealed-certificate.md
-- [[Layer 6 -- The Deep Craft]] - document - wiki/chapters/07-the-deep-craft.md
-- [[ML-DSA (Module-Lattice Digital Signature Algorithm)]] - document - references/ch14/ref-64-fips-204.pdf
-- [[ML-KEM Key-Encapsulation Mechanism]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[Maturity and Readiness]] - document - wiki/sections/ch07-maturity-and-readiness.md
-- [[Neo (Lattice Folding over Small Fields)]] - document - wiki/sections/ch06-the-folding-genealogy.md
-- [[Pedersen Commitment]] - document - wiki/sections/ch07-the-quantum-threat-horizon.md
-- [[Post-Quantum Cryptography]] - document - wiki/chapters/02-building-the-stage.md
-- [[Shor's Algorithm_1]] - document - proving-nothing.md
-- [[Symphony]] - document - wiki/sections/ch06-the-folding-genealogy.md
-- [[The Cascade Effect]] - document - wiki/sections/ch07-the-cascade-effect.md
-- [[The Laws That Break]] - document - wiki/sections/ch07-the-laws-that-break.md
-- [[The One-Way Door]] - document - wiki/sections/ch07-the-one-way-door.md
-- [[The Post-Quantum Horizon]] - document - wiki/sections/ch06-the-post-quantum-horizon.md
-- [[The Quantum Threat Horizon]] - document - wiki/sections/ch07-the-quantum-threat-horizon.md
-- [[The Structural Advantage of Lattices]] - document - wiki/sections/ch07-the-structural-advantage-of-lattices.md
-- [[The Trilemma -- And Its Dissolution]] - document - wiki/sections/ch07-the-trilemma-and-its-dissolution.md
-- [[Three Hardness Assumptions, Three Worlds]] - document - wiki/sections/ch07-three-hardness-assumptions-three-worlds.md
-- [[Transition to Post-Quantum Cryptography Standards (NIST IR 8547)]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
+- [[Aggregated Range Proof for m Values]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Bootle et al. (BCC+16) Inner-Product Argument]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Bulletproofs NIZK Argument System]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Bulletproofs Short Proofs for Confidential Transactions and More]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Confidential Transactions (CT)]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Discrete Log Relation Assumption]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Discrete Logarithm Assumption]] - document - references/ch02/ref-09-bulletproofs.pdf
+- [[Improved Inner-Product Argument (2 log2 n)]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Logarithmic Proof Size Claim (2 log2(nm)+4 elements)]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Logarithmic-Size Range Proof]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[MPC Protocol for Distributed Bulletproof Generation]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Mimblewimble]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Pedersen Vector Commitment]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Pinocchio Arithmetic Circuit Format]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Provisions Proof of Solvency]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Range Proof]] - document - references/ch02/ref-09-bulletproofs.pdf
+- [[SNARKs with Trusted Setup]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Single Multi-Exponentiation Verifier & Batch Verification]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Switch to Quantum-Secure Range Proofs (ElGamal)]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Theorem 1 Inner-Product Argument Security]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Theorem 3 Aggregate Range Proof Security]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Theorem 5 Arithmetic Circuit Protocol Soundness]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Theorem 6.2 Sonic has witness-extended emulation]] - paper - references/ch10/ref-36-sonic.pdf
+- [[Witness-Extended Emulation (Knowledge Soundness)]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Zero-Knowledge Argument of Knowledge]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Zero-Knowledge Proof for Arithmetic Circuits (Protocol 3)]] - paper - references/ch02/ref-09-bulletproofs.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -52,26 +45,18 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 61 edges to [[_COMMUNITY_Community 2]]
-- 59 edges to [[_COMMUNITY_Community 0]]
-- 43 edges to [[_COMMUNITY_Community 9]]
-- 42 edges to [[_COMMUNITY_Community 5]]
-- 13 edges to [[_COMMUNITY_Community 1]]
-- 12 edges to [[_COMMUNITY_Community 11]]
-- 5 edges to [[_COMMUNITY_Community 14]]
-- 4 edges to [[_COMMUNITY_Community 3]]
-- 3 edges to [[_COMMUNITY_Community 7]]
-- 3 edges to [[_COMMUNITY_Community 29]]
-- 3 edges to [[_COMMUNITY_Community 17]]
-- 3 edges to [[_COMMUNITY_Community 6]]
-- 3 edges to [[_COMMUNITY_Community 4]]
-- 1 edge to [[_COMMUNITY_Community 18]]
+- 15 edges to [[_COMMUNITY_Community 0]]
+- 2 edges to [[_COMMUNITY_Community 6]]
+- 1 edge to [[_COMMUNITY_Community 1]]
+- 1 edge to [[_COMMUNITY_Community 32]]
+- 1 edge to [[_COMMUNITY_Community 29]]
 - 1 edge to [[_COMMUNITY_Community 13]]
-- 1 edge to [[_COMMUNITY_Community 20]]
+- 1 edge to [[_COMMUNITY_Community 19]]
+- 1 edge to [[_COMMUNITY_Community 35]]
 
 ## Top bridge nodes
-- [[Layer 6 -- The Deep Craft]] - degree 65, connects to 13 communities
-- [[Lattice Cryptography]] - degree 54, connects to 12 communities
-- [[Post-Quantum Cryptography]] - degree 36, connects to 10 communities
-- [[Goldilocks Field]] - degree 32, connects to 6 communities
-- [[Four Families of Commitment Schemes]] - degree 26, connects to 6 communities
+- [[Bulletproofs Short Proofs for Confidential Transactions and More]] - degree 12, connects to 5 communities
+- [[Discrete Logarithm Assumption]] - degree 9, connects to 3 communities
+- [[Bulletproofs NIZK Argument System]] - degree 10, connects to 1 community
+- [[Range Proof]] - degree 7, connects to 1 community
+- [[Improved Inner-Product Argument (2 log2 n)]] - degree 7, connects to 1 community

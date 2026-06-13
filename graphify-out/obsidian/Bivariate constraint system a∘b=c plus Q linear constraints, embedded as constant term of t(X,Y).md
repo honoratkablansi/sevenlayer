@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-36-sonic.pdf"
 type: "paper"
-community: "Community 24"
+community: "Sonic Argument System"
 location: "§5"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_24
+  - community/Sonic_Argument_System
 ---
 
 # Bivariate constraint system: a∘b=c plus Q linear constraints, embedded as constant term of t(X,Y)
@@ -16,4 +16,4 @@ tags:
 - [[R1CS]] - `conceptually_related_to` [EXTRACTED]
 - [[Sonic zk-SNARK (universal & updatable linear-size SRS)]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_24
+#graphify/paper #graphify/EXTRACTED #community/Sonic_Argument_System

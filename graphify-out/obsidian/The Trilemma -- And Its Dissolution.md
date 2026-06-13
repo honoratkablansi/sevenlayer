@@ -1,12 +1,12 @@
 ---
 source_file: "wiki/sections/ch07-the-trilemma-and-its-dissolution.md"
 type: "document"
-community: "Community 8"
+community: "ZK Crypto Foundations"
 location: "The Trilemma -- And Its Dissolution"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_8
+  - community/ZK_Crypto_Foundations
 ---
 
 # The Trilemma -- And Its Dissolution
@@ -16,7 +16,7 @@ tags:
 - [[Dan Boneh]] - `references` [EXTRACTED]
 - [[FRI]] - `references` [EXTRACTED]
 - [[Four Families of Commitment Schemes]] - `references` [EXTRACTED]
-- [[Inner Product Arguments (IPA)]] - `references` [EXTRACTED]
+- [[Inner-Product Argument]] - `references` [EXTRACTED]
 - [[KZG Polynomial Commitments]] - `references` [EXTRACTED]
 - [[Lattice Cryptography]] - `references` [EXTRACTED]
 - [[Lattice-Based Proving]] - `references` [EXTRACTED]
@@ -27,4 +27,4 @@ tags:
 - [[Three Hardness Assumptions, Three Worlds]] - `references` [EXTRACTED]
 - [[Trusted Setup]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_8
+#graphify/document #graphify/EXTRACTED #community/ZK_Crypto_Foundations

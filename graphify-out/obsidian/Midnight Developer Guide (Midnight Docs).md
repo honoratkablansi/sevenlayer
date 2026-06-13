@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch12/ref-41-midnight-developer-guide.md"
 type: "document"
-community: "Community 5"
+community: "Programmable Privacy & Midnight"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_5
+  - community/Programmable_Privacy__Midnight
 ---
 
 # Midnight Developer Guide (Midnight Docs)
@@ -17,4 +17,4 @@ tags:
 - [[Selective Disclosure]] - `references` [EXTRACTED]
 - [[The Secret Performance]] - `cites` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_5
+#graphify/document #graphify/EXTRACTED #community/Programmable_Privacy__Midnight

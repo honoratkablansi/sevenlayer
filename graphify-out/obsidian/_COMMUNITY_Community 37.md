@@ -1,25 +1,26 @@
 ---
 type: community
-cohesion: 0.29
-members: 10
+cohesion: 0.22
+members: 11
 ---
 
 # Community 37
 
-**Cohesion:** 0.29 - loosely connected
-**Members:** 10 nodes
+**Cohesion:** 0.22 - loosely connected
+**Members:** 11 nodes
 
 ## Members
-- [[Cited MPC CRS ceremonies BCG+15, BGG17, BGM17]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[Jens Groth]] - document - wiki/sections/ch06-the-three-families.md
-- [[Knowledge-of-Exponent Assumption]] - paper - references/ch02/ref-06-groth16.pdf
-- [[Lemmas 4-5 trapdoor extraction for subvertible & updatable CRSs]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[Multi-Party Computation Setup Ceremony]] - document - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[Updatable CRS model (one honest updater suffices)]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[Updatable CRS syntax Setup, Update, VerifyCRS algorithms]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[Updatable and Universal Common Reference Strings with Applications to zk-SNARKs]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[q-Monomial Computational (q-MC) assumption]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[q-Monomial Knowledge (q-MK) assumption]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Batching of polynomial commitments & grand-product arguments (random linear combinations)]] - paper - references/ch10/ref-36-sonic.pdf
+- [[Bivariate constraint system a∘b=c plus Q linear constraints, embedded as constant term of t(X,Y)]] - paper - references/ch10/ref-36-sonic.pdf
+- [[Bounded Polynomial Extractability & Evaluation Binding (PCS properties)]] - paper - references/ch10/ref-36-sonic.pdf
+- [[Constant 256-byte proofs, ~0.7ms helped verification, BLS12-381 Rust implementation]] - paper - references/ch10/ref-36-sonic.pdf
+- [[Grand-Product Argument (gprodPgprodV, prod a_i = prod b_i)]] - paper - references/ch10/ref-36-sonic.pdf
+- [[Helped mode untrusted helper aggregates a batch of proofs (best practical efficiency)]] - paper - references/ch10/ref-36-sonic.pdf
+- [[Modified KZG polynomial commitment for Laurent polynomials (bounded-degree, single-point hidden)]] - paper - references/ch10/ref-36-sonic.pdf
+- [[Polynomial Permutation Argument (DerivepermPpermV)]] - paper - references/ch10/ref-36-sonic.pdf
+- [[Signature of Correct Computation (scPscV) for s(z,y) of public s(X,Y)]] - paper - references/ch10/ref-36-sonic.pdf
+- [[Unhelped (standalone) signature of correct computation — succinct verifier, higher overhead]] - paper - references/ch10/ref-36-sonic.pdf
+- [[Well-Formedness Argument (commitment to sum a_i Xi, no constant term)]] - paper - references/ch10/ref-36-sonic.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -29,19 +30,13 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 4 edges to [[_COMMUNITY_Community 39]]
-- 3 edges to [[_COMMUNITY_Community 0]]
-- 3 edges to [[_COMMUNITY_Community 28]]
-- 2 edges to [[_COMMUNITY_Community 6]]
-- 2 edges to [[_COMMUNITY_Community 24]]
-- 2 edges to [[_COMMUNITY_Community 44]]
-- 1 edge to [[_COMMUNITY_Community 2]]
-- 1 edge to [[_COMMUNITY_Community 32]]
-- 1 edge to [[_COMMUNITY_Community 47]]
+- 4 edges to [[_COMMUNITY_Community 6]]
+- 1 edge to [[_COMMUNITY_Community 10]]
+- 1 edge to [[_COMMUNITY_Community 12]]
+- 1 edge to [[_COMMUNITY_Community 35]]
 
 ## Top bridge nodes
-- [[Updatable and Universal Common Reference Strings with Applications to zk-SNARKs]] - degree 16, connects to 7 communities
-- [[Updatable CRS model (one honest updater suffices)]] - degree 7, connects to 3 communities
-- [[Jens Groth]] - degree 3, connects to 2 communities
-- [[Multi-Party Computation Setup Ceremony]] - degree 4, connects to 1 community
-- [[Knowledge-of-Exponent Assumption]] - degree 3, connects to 1 community
+- [[Modified KZG polynomial commitment for Laurent polynomials (bounded-degree, single-point hidden)]] - degree 7, connects to 3 communities
+- [[Bivariate constraint system a∘b=c plus Q linear constraints, embedded as constant term of t(X,Y)]] - degree 3, connects to 2 communities
+- [[Signature of Correct Computation (scPscV) for s(z,y) of public s(X,Y)]] - degree 3, connects to 1 community
+- [[Constant 256-byte proofs, ~0.7ms helped verification, BLS12-381 Rust implementation]] - degree 2, connects to 1 community

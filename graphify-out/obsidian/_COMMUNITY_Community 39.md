@@ -1,25 +1,23 @@
 ---
 type: community
-cohesion: 0.22
-members: 10
+cohesion: 0.25
+members: 8
 ---
 
 # Community 39
 
-**Cohesion:** 0.22 - loosely connected
-**Members:** 10 nodes
+**Cohesion:** 0.25 - loosely connected
+**Members:** 8 nodes
 
 ## Members
-- [[Cited Groth 2010 pairing-based zk-SNARK (Gro10b)]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[Impossibility updating non-monomial CRS reveals constituent monomials]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[Lemma 6 single adversarial update implies full updatable knowledge soundness]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[MonoExtract  FinalMonoExtract monomial-extraction algorithm]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[Quadratic Arithmetic Program (QAP)]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[Quadratic monomial-only universal CRS (multivariate X,Y,Z, j=7)]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[Specializable universal CRS via untrusted Derive algorithm]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[Theorem 4 update knowledge soundness under q-MK and q-MC]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[Theorem 5  Lemma 8 Pinocchio cannot be made updatable]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[Updatable & specializable QAP-based zk-SNARK construction]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Digital Identity]] - document - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[European Digital Identity Wallet]] - document - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[Iris Biometrics]] - document - references/ch13/ref-59-world-whitepaper.pdf
+- [[Proof of Personhood (Proof of Human)]] - document - references/ch13/ref-59-world-whitepaper.pdf
+- [[Regulation (EU) 2016679 (GDPR)]] - document - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[Regulation (EU) 20241183 establishing the European Digital Identity Framework (eIDAS 2)]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[World ID]] - document - references/ch13/ref-59-world-whitepaper.pdf
+- [[World Whitepapers (World Network Proof of Human)]] - paper - references/ch13/ref-59-world-whitepaper.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -29,13 +27,10 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 4 edges to [[_COMMUNITY_Community 37]]
-- 2 edges to [[_COMMUNITY_Community 24]]
-- 1 edge to [[_COMMUNITY_Community 44]]
+- 2 edges to [[_COMMUNITY_Community 2]]
+- 1 edge to [[_COMMUNITY_Community 1]]
+- 1 edge to [[_COMMUNITY_Community 33]]
 
 ## Top bridge nodes
-- [[Updatable & specializable QAP-based zk-SNARK construction]] - degree 6, connects to 2 communities
-- [[Quadratic monomial-only universal CRS (multivariate X,Y,Z, j=7)]] - degree 4, connects to 1 community
-- [[Impossibility updating non-monomial CRS reveals constituent monomials]] - degree 3, connects to 1 community
-- [[Cited Groth 2010 pairing-based zk-SNARK (Gro10b)]] - degree 2, connects to 1 community
-- [[Lemma 6 single adversarial update implies full updatable knowledge soundness]] - degree 2, connects to 1 community
+- [[Regulation (EU) 20241183 establishing the European Digital Identity Framework (eIDAS 2)]] - degree 6, connects to 3 communities
+- [[World Whitepapers (World Network Proof of Human)]] - degree 5, connects to 1 community

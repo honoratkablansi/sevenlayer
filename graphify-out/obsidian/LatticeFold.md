@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/06-the-sealed-certificate.md"
 type: "document"
-community: "Community 8"
+community: "ZK Crypto Foundations"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_8
+  - community/ZK_Crypto_Foundations
 ---
 
 # LatticeFold
@@ -13,7 +13,7 @@ tags:
 ## Connections
 - [[CCS The Rosetta Stone]] - `references` [EXTRACTED]
 - [[Coda]] - `references` [EXTRACTED]
-- [[Folding Schemes]] - `implements` [EXTRACTED]
+- [[Folding Scheme]] - `implements` [EXTRACTED]
 - [[Four Families of Commitment Schemes]] - `references` [EXTRACTED]
 - [[Lattice Cryptography]] - `conceptually_related_to` [EXTRACTED]
 - [[Lattice-Based Proving]] - `references` [EXTRACTED]
@@ -30,4 +30,4 @@ tags:
 - [[The Synthesis -- Three Paths, Not Two]] - `references` [EXTRACTED]
 - [[The Trilemma -- And Its Dissolution]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_8
+#graphify/document #graphify/EXTRACTED #community/ZK_Crypto_Foundations

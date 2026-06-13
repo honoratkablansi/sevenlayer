@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch03-under-constrained-circuits-the-dominant-failure-mode.md"
 type: "document"
-community: "Community 5"
+community: "ZK Bug Tooling"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_5
+  - community/ZK_Bug_Tooling
 ---
 
 # Under-Constrained Circuits: The Dominant Failure Mode
@@ -23,9 +23,9 @@ tags:
 - [[Plonky3]] - `references` [EXTRACTED]
 - [[RISC-V Won. Why Taxonomy Still Matters.]] - `references` [EXTRACTED]
 - [[Tornado Cash]] - `references` [EXTRACTED]
-- [[Under-Constrained Circuits_1]] - `defines` [EXTRACTED]
+- [[Under-Constrained Circuits]] - `defines` [EXTRACTED]
 - [[Witness-Constraint Divergence]] - `references` [EXTRACTED]
 - [[ZKAP (Circuit Dependence Graph static analysis)]] - `cites` [EXTRACTED]
 - [[zkFuzz]] - `cites` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_5
+#graphify/document #graphify/EXTRACTED #community/ZK_Bug_Tooling

@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch02-the-quantum-shelf-life.md"
 type: "document"
-community: "Community 0"
+community: "Programmable Privacy & Midnight"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Programmable_Privacy__Midnight
 ---
 
 # The Quantum Shelf Life
@@ -22,7 +22,7 @@ tags:
 - [[NIST]] - `conceptually_related_to` [EXTRACTED]
 - [[Option-Value Analysis]] - `references` [EXTRACTED]
 - [[PLONK]] - `conceptually_related_to` [EXTRACTED]
-- [[STARKs]] - `conceptually_related_to` [EXTRACTED]
+- [[STARK (Scalable Transparent ARgument of Knowledge)]] - `conceptually_related_to` [EXTRACTED]
 - [[Srinath Setty]] - `conceptually_related_to` [EXTRACTED]
 - [[The Quantum Threat Horizon]] - `references` [EXTRACTED]
 - [[The Setup Tradeoff]] - `references` [EXTRACTED]
@@ -31,4 +31,4 @@ tags:
 - [[Trusted Setup Ceremony]] - `conceptually_related_to` [EXTRACTED]
 - [[Two Ways to Build a Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/document #graphify/EXTRACTED #community/Programmable_Privacy__Midnight

@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/03-choreographing-the-act.md"
 type: "document"
-community: "Community 8"
+community: "ZK Crypto Foundations"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_8
+  - community/ZK_Crypto_Foundations
 ---
 
 # Goldilocks Field
@@ -26,7 +26,7 @@ tags:
 - [[Nightstream What a Folding Engine Looks Like from the Inside]] - `references` [EXTRACTED]
 - [[Side-Channel Attacks When the Walls Leak]] - `references` [EXTRACTED]
 - [[Small Fields]] - `references` [EXTRACTED]
-- [[Small-Field Proving]] - `conceptually_related_to` [INFERRED]
+- [[Small prime fields (machine-register-sized Goldilocks, M61)]] - `conceptually_related_to` [INFERRED]
 - [[The Cascade Effect]] - `references` [EXTRACTED]
 - [[The Folding Genealogy]] - `references` [EXTRACTED]
 - [[The Four Philosophies]] - `references` [EXTRACTED]
@@ -44,4 +44,4 @@ tags:
 - [[Witness Generation Costs]] - `references` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_8
+#graphify/document #graphify/EXTRACTED #community/ZK_Crypto_Foundations

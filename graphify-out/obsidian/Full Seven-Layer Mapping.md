@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch12-full-seven-layer-mapping.md"
 type: "document"
-community: "Community 5"
+community: "Programmable Privacy & Midnight"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_5
+  - community/Programmable_Privacy__Midnight
 ---
 
 # Full Seven-Layer Mapping
@@ -17,7 +17,7 @@ tags:
 - [[Case Study Midnight and the Three-Token Architecture]] - `references` [EXTRACTED]
 - [[Compact Language]] - `references` [EXTRACTED]
 - [[Compact's Disclosure Analysis]] - `references` [EXTRACTED]
-- [[Folding Schemes]] - `references` [EXTRACTED]
+- [[Folding Scheme]] - `references` [EXTRACTED]
 - [[Goldilocks Field]] - `references` [EXTRACTED]
 - [[Halo 2]] - `references` [EXTRACTED]
 - [[Jubjub curve]] - `references` [EXTRACTED]
@@ -39,4 +39,4 @@ tags:
 - [[ZKIR (Midnight Intermediate Representation)]] - `references` [EXTRACTED]
 - [[Zcash]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_5
+#graphify/document #graphify/EXTRACTED #community/Programmable_Privacy__Midnight

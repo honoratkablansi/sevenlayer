@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch03-risc-v-won-why-taxonomy-still-matters.md"
 type: "document"
-community: "Community 5"
+community: "zkVMs & STARK Stacks"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_5
+  - community/zkVMs__STARK_Stacks
 ---
 
 # RISC-V Won. Why Taxonomy Still Matters.
@@ -17,9 +17,9 @@ tags:
 - [[RISC-V]] - `references` [EXTRACTED]
 - [[Sudoku running example]] - `references` [EXTRACTED]
 - [[The Four Philosophies]] - `references` [EXTRACTED]
-- [[Under-Constrained Circuits_1]] - `references` [EXTRACTED]
+- [[Under-Constrained Circuits]] - `references` [EXTRACTED]
 - [[Under-Constrained Circuits The Dominant Failure Mode]] - `references` [EXTRACTED]
 - [[Universal versus Circuit-Specific Setups]] - `references` [EXTRACTED]
 - [[Zero-Knowledge Virtual Machine (zkVM)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_5
+#graphify/document #graphify/EXTRACTED #community/zkVMs__STARK_Stacks

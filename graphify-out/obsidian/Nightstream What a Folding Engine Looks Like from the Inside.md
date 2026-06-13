@@ -1,12 +1,12 @@
 ---
 source_file: "wiki/sections/ch04-memory-the-binding-constraint.md"
 type: "document"
-community: "Community 9"
+community: "ZK Crypto Foundations"
 location: "Dependencies"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_9
+  - community/ZK_Crypto_Foundations
 ---
 
 # Nightstream: What a Folding Engine Looks Like from the Inside
@@ -16,7 +16,7 @@ tags:
 - [[CCS (Customizable Constraint Systems)]] - `references` [EXTRACTED]
 - [[Fiat-Shamir Transform]] - `references` [EXTRACTED]
 - [[Fiat-Shamir Vulnerabilities]] - `references` [EXTRACTED]
-- [[Folding Schemes]] - `references` [EXTRACTED]
+- [[Folding Scheme]] - `references` [EXTRACTED]
 - [[Goldilocks Field]] - `references` [EXTRACTED]
 - [[HyperNova]] - `references` [EXTRACTED]
 - [[KZG Polynomial Commitments]] - `references` [EXTRACTED]
@@ -35,4 +35,4 @@ tags:
 - [[The Folding Genealogy]] - `references` [EXTRACTED]
 - [[The Proof Core Why Layers 4, 5, and 6 Are Inseparable]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_9
+#graphify/document #graphify/EXTRACTED #community/ZK_Crypto_Foundations

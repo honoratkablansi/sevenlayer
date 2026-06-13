@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch03-midnight-compiler-ir-circuit.md"
 type: "document"
-community: "Community 5"
+community: "Programmable Privacy & Midnight"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_5
+  - community/Programmable_Privacy__Midnight
 ---
 
 # Midnight: Compiler, IR, Circuit
@@ -27,4 +27,4 @@ tags:
 - [[The Four Philosophies]] - `references` [EXTRACTED]
 - [[ZKIR (Midnight Intermediate Representation)]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_5
+#graphify/document #graphify/EXTRACTED #community/Programmable_Privacy__Midnight

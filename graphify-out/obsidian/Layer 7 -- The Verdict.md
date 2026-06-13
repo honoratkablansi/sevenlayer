@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/08-the-verdict.md"
 type: "document"
-community: "Community 0"
+community: "Programmable Privacy & Midnight"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Programmable_Privacy__Midnight
 ---
 
 # Layer 7 -- The Verdict
@@ -21,7 +21,7 @@ tags:
 - [[EIP-4844 Blob Transactions]] - `references` [EXTRACTED]
 - [[Fiat-Shamir Transform]] - `references` [EXTRACTED]
 - [[Flash Loans]] - `references` [EXTRACTED]
-- [[Folding Schemes]] - `references` [EXTRACTED]
+- [[Folding Scheme]] - `references` [EXTRACTED]
 - [[Frozen Heart Vulnerability]] - `defines` [EXTRACTED]
 - [[Frozen Heart Forgery of Zero Knowledge Proofs (Trail of Bits, 2022)]] - `cites` [EXTRACTED]
 - [[Governance The Achilles Heel]] - `part_of` [EXTRACTED]
@@ -40,7 +40,7 @@ tags:
 - [[Proof Aggregation The Missing Layer]] - `part_of` [EXTRACTED]
 - [[Prover-Killer Attacks]] - `defines` [EXTRACTED]
 - [[Proving Nothing]] - `part_of` [EXTRACTED]
-- [[STARKs]] - `references` [EXTRACTED]
+- [[STARK (Scalable Transparent ARgument of Knowledge)]] - `references` [EXTRACTED]
 - [[Sevenlayer Wiki Index]] - `references` [EXTRACTED]
 - [[The Deepest Symmetry]] - `part_of` [EXTRACTED]
 - [[The Price of a Verdict]] - `part_of` [EXTRACTED]
@@ -52,6 +52,6 @@ tags:
 - [[Upgradeable Proxy Pattern]] - `references` [EXTRACTED]
 - [[When the Transcript Lies Fiat-Shamir Vulnerabilities]] - `part_of` [EXTRACTED]
 - [[Who Verifies the Verifier]] - `part_of` [EXTRACTED]
-- [[ZK Rollups_1]] - `references` [EXTRACTED]
+- [[ZK Rollups]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/document #graphify/EXTRACTED #community/Programmable_Privacy__Midnight

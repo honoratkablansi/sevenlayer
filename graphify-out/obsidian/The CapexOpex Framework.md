@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch02-the-capex-opex-framework.md"
 type: "document"
-community: "Community 0"
+community: "Programmable Privacy & Midnight"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Programmable_Privacy__Midnight
 ---
 
 # The Capex/Opex Framework
@@ -17,7 +17,7 @@ tags:
 - [[Layer 1 -- Building the Stage]] - `part_of` [EXTRACTED]
 - [[Mersenne-31  M31]] - `conceptually_related_to` [EXTRACTED]
 - [[Option-Value Analysis]] - `references` [EXTRACTED]
-- [[STARKs]] - `conceptually_related_to` [EXTRACTED]
+- [[STARK (Scalable Transparent ARgument of Knowledge)]] - `conceptually_related_to` [EXTRACTED]
 - [[The Structured Reference String]] - `references` [EXTRACTED]
 - [[Trusted Setup Ceremony]] - `conceptually_related_to` [EXTRACTED]
 - [[Two Ways to Build a Stage]] - `references` [EXTRACTED]
@@ -25,4 +25,4 @@ tags:
 - [[Where Midnight Validates the Model]] - `references` [EXTRACTED]
 - [[ZisK]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/document #graphify/EXTRACTED #community/Programmable_Privacy__Midnight

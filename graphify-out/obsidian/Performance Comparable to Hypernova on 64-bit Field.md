@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-20-latticefold.pdf"
 type: "paper"
-community: "Community 17"
+community: "Lattice Folding (Symphony)"
 location: "Abstract, §5"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_17
+  - community/Lattice_Folding_Symphony
 ---
 
 # Performance Comparable to Hypernova on 64-bit Field
@@ -15,4 +15,4 @@ tags:
 - [[Hypernova Folding Scheme (cited)]] - `conceptually_related_to` [EXTRACTED]
 - [[LatticeFold Lattice-Based Folding Scheme]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_17
+#graphify/paper #graphify/EXTRACTED #community/Lattice_Folding_Symphony

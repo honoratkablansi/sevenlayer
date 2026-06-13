@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/concepts/spartan.md"
 type: "document"
-community: "Community 1"
+community: "Sumcheck & Proving Overhead"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_1
+  - community/Sumcheck__Proving_Overhead
 ---
 
 # Spartan
@@ -31,4 +31,4 @@ tags:
 - [[Unlocking the Lookup Singularity with Lasso]] - `conceptually_related_to` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_1
+#graphify/document #graphify/EXTRACTED #community/Sumcheck__Proving_Overhead

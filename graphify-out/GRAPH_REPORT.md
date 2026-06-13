@@ -5,293 +5,278 @@
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1125 nodes · 3749 edges · 50 communities (49 shown, 1 thin omitted)
+- 1101 nodes · 3746 edges · 47 communities (46 shown, 1 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 47 edges (avg confidence: 0.5)
 - Token cost: 0 input · 0 output
 
 ## Community Hubs (Navigation)
-- [[_COMMUNITY_Community 0|Community 0]]
-- [[_COMMUNITY_Community 1|Community 1]]
-- [[_COMMUNITY_Community 2|Community 2]]
-- [[_COMMUNITY_Community 3|Community 3]]
-- [[_COMMUNITY_Community 4|Community 4]]
-- [[_COMMUNITY_Community 5|Community 5]]
-- [[_COMMUNITY_Community 6|Community 6]]
-- [[_COMMUNITY_Community 7|Community 7]]
-- [[_COMMUNITY_Community 8|Community 8]]
-- [[_COMMUNITY_Community 9|Community 9]]
-- [[_COMMUNITY_Community 10|Community 10]]
-- [[_COMMUNITY_Community 11|Community 11]]
-- [[_COMMUNITY_Community 12|Community 12]]
-- [[_COMMUNITY_Community 13|Community 13]]
-- [[_COMMUNITY_Community 14|Community 14]]
-- [[_COMMUNITY_Community 15|Community 15]]
-- [[_COMMUNITY_Community 16|Community 16]]
-- [[_COMMUNITY_Community 17|Community 17]]
-- [[_COMMUNITY_Community 18|Community 18]]
-- [[_COMMUNITY_Community 19|Community 19]]
-- [[_COMMUNITY_Community 20|Community 20]]
-- [[_COMMUNITY_Community 21|Community 21]]
-- [[_COMMUNITY_Community 22|Community 22]]
-- [[_COMMUNITY_Community 23|Community 23]]
-- [[_COMMUNITY_Community 24|Community 24]]
-- [[_COMMUNITY_Community 25|Community 25]]
-- [[_COMMUNITY_Community 26|Community 26]]
-- [[_COMMUNITY_Community 27|Community 27]]
-- [[_COMMUNITY_Community 28|Community 28]]
-- [[_COMMUNITY_Community 29|Community 29]]
-- [[_COMMUNITY_Community 30|Community 30]]
-- [[_COMMUNITY_Community 31|Community 31]]
-- [[_COMMUNITY_Community 32|Community 32]]
-- [[_COMMUNITY_Community 33|Community 33]]
-- [[_COMMUNITY_Community 34|Community 34]]
-- [[_COMMUNITY_Community 35|Community 35]]
-- [[_COMMUNITY_Community 36|Community 36]]
-- [[_COMMUNITY_Community 37|Community 37]]
-- [[_COMMUNITY_Community 38|Community 38]]
-- [[_COMMUNITY_Community 39|Community 39]]
-- [[_COMMUNITY_Community 40|Community 40]]
-- [[_COMMUNITY_Community 41|Community 41]]
-- [[_COMMUNITY_Community 42|Community 42]]
-- [[_COMMUNITY_Community 43|Community 43]]
-- [[_COMMUNITY_Community 44|Community 44]]
-- [[_COMMUNITY_Community 45|Community 45]]
-- [[_COMMUNITY_Community 46|Community 46]]
-- [[_COMMUNITY_Community 47|Community 47]]
-- [[_COMMUNITY_Community 48|Community 48]]
-- [[_COMMUNITY_Community 49|Community 49]]
+- [[_COMMUNITY_Programmable Privacy & Midnight|Programmable Privacy & Midnight]]
+- [[_COMMUNITY_zkVMs & STARK Stacks|zkVMs & STARK Stacks]]
+- [[_COMMUNITY_Witness Generation & Hardware|Witness Generation & Hardware]]
+- [[_COMMUNITY_Arithmetization & CCS|Arithmetization & CCS]]
+- [[_COMMUNITY_ZK Crypto Foundations|ZK Crypto Foundations]]
+- [[_COMMUNITY_Privacy-Enhancing Technologies|Privacy-Enhancing Technologies]]
+- [[_COMMUNITY_Foundations & SoK Surveys|Foundations & SoK Surveys]]
+- [[_COMMUNITY_Improvement Backlog|Improvement Backlog]]
+- [[_COMMUNITY_ZK Bug Tooling|ZK Bug Tooling]]
+- [[_COMMUNITY_Sumcheck & Proving Overhead|Sumcheck & Proving Overhead]]
+- [[_COMMUNITY_Sumcheck SNARKs (CCSLattice)|Sumcheck SNARKs (CCS/Lattice)]]
+- [[_COMMUNITY_Lasso Lookup Arguments|Lasso Lookup Arguments]]
+- [[_COMMUNITY_Fully Homomorphic Encryption|Fully Homomorphic Encryption]]
+- [[_COMMUNITY_Compliance & Deployment|Compliance & Deployment]]
+- [[_COMMUNITY_ZK Identity & Enterprise|ZK Identity & Enterprise]]
+- [[_COMMUNITY_KZG Polynomial Commitments|KZG Polynomial Commitments]]
+- [[_COMMUNITY_Groth16 & Pairing SNARKs|Groth16 & Pairing SNARKs]]
+- [[_COMMUNITY_PLONK & Permutation Arguments|PLONK & Permutation Arguments]]
+- [[_COMMUNITY_STARK Foundations|STARK Foundations]]
+- [[_COMMUNITY_Bulletproofs & Range Proofs|Bulletproofs & Range Proofs]]
+- [[_COMMUNITY_Jolt Lookup zkVM|Jolt Lookup zkVM]]
+- [[_COMMUNITY_Nova Folding & IVC|Nova Folding & IVC]]
+- [[_COMMUNITY_HyperNova Multifolding|HyperNova Multifolding]]
+- [[_COMMUNITY_Circle STARKs|Circle STARKs]]
+- [[_COMMUNITY_Lattice Functional Commitments|Lattice Functional Commitments]]
+- [[_COMMUNITY_Under-Constrained Circuits (Picus)|Under-Constrained Circuits (Picus)]]
+- [[_COMMUNITY_Universal SRS & Ceremonies|Universal SRS & Ceremonies]]
+- [[_COMMUNITY_Circuit Verification (Coda)|Circuit Verification (Coda)]]
+- [[_COMMUNITY_Circuit Static Analysis (ZKAP)|Circuit Static Analysis (ZKAP)]]
+- [[_COMMUNITY_Lattice Folding (Neo)|Lattice Folding (Neo)]]
+- [[_COMMUNITY_QED2 Detection Algorithm|QED2 Detection Algorithm]]
+- [[_COMMUNITY_Lattice PCS (Greyhound)|Lattice PCS (Greyhound)]]
+- [[_COMMUNITY_CirC Compiler Infrastructure|CirC Compiler Infrastructure]]
+- [[_COMMUNITY_Pairing Curve Security|Pairing Curve Security]]
+- [[_COMMUNITY_Lattice Folding (Symphony)|Lattice Folding (Symphony)]]
+- [[_COMMUNITY_Proof of Personhood & eIDAS|Proof of Personhood & eIDAS]]
+- [[_COMMUNITY_AGM Ceremony Soundness|AGM Ceremony Soundness]]
+- [[_COMMUNITY_Small-Space Proving (TwistShout)|Small-Space Proving (Twist/Shout)]]
+- [[_COMMUNITY_Algebraic RAM Proofs|Algebraic RAM Proofs]]
+- [[_COMMUNITY_zkVM Fuzzing (Arguzz)|zkVM Fuzzing (Arguzz)]]
+- [[_COMMUNITY_KZG Batch Opening|KZG Batch Opening]]
+- [[_COMMUNITY_Knowledge-of-Exponent Assumptions|Knowledge-of-Exponent Assumptions]]
+- [[_COMMUNITY_Memory Checking & Sparse PCS|Memory Checking & Sparse PCS]]
+- [[_COMMUNITY_Circom Vulnerability Taxonomy|Circom Vulnerability Taxonomy]]
+- [[_COMMUNITY_Uniform CCS Proving|Uniform CCS Proving]]
+- [[_COMMUNITY_Sonic Argument System|Sonic Argument System]]
+- [[_COMMUNITY_Updatable CRS Theory|Updatable CRS Theory]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `Layer 5 -- The Sealed Certificate` - 71 edges
 2. `Groth16` - 69 edges
-3. `Layer 6 -- The Deep Craft` - 65 edges
-4. `Encoding the Performance` - 63 edges
-5. `Midnight` - 63 edges
-6. `KZG Polynomial Commitments` - 57 edges
-7. `Sumcheck Protocol` - 57 edges
-8. `Layer 1 -- Building the Stage` - 56 edges
-9. `FRI` - 55 edges
-10. `STARKs` - 55 edges
+3. `Folding Scheme` - 68 edges
+4. `Layer 6 -- The Deep Craft` - 65 edges
+5. `Encoding the Performance` - 63 edges
+6. `Midnight` - 63 edges
+7. `KZG Polynomial Commitments` - 57 edges
+8. `Sumcheck Protocol` - 57 edges
+9. `Layer 1 -- Building the Stage` - 56 edges
+10. `STARK (Scalable Transparent ARgument of Knowledge)` - 56 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `Midnight` --conceptually_related_to--> `Kachina -- Foundations of Private Smart Contracts`  [INFERRED]
   wiki/chapters/02-building-the-stage.md → references/ch09/ref-30-kachina.pdf
+- `Goldilocks Field` --conceptually_related_to--> `Small prime fields (machine-register-sized: Goldilocks, M61)`  [INFERRED]
+  wiki/chapters/03-choreographing-the-act.md → references/ch06/ref-21-neo.pdf
 - `R1CS` --assumes--> `Spartan applied to uniform R1CS (no commitment to A,B,C matrices)`  [EXTRACTED]
   wiki/chapters/05-encoding-the-performance.md → references/ch03/ref-16-jolt.pdf
 - `R1CS` --conceptually_related_to--> `Zero-knowledge proof system`  [EXTRACTED]
   wiki/chapters/05-encoding-the-performance.md → references/ch10/ref-33-circ.pdf
-- `CCS (Customizable Constraint Systems)` --conceptually_related_to--> `CCS+: CCS extended with read-only lookup-table operations`  [EXTRACTED]
-  wiki/chapters/05-encoding-the-performance.md → references/ch03/ref-14-ccs-customizable-constraints.pdf
-- `Sumcheck Protocol` --conceptually_related_to--> `Optimized Single-Sumcheck Batch Folding (Pi_batch)`  [EXTRACTED]
-  wiki/chapters/05-encoding-the-performance.md → references/ch06/ref-20-latticefold.pdf
+- `CCS (Customizable Constraint Systems)` --conceptually_related_to--> `Linearized (committed) CCS relation`  [EXTRACTED]
+  wiki/chapters/05-encoding-the-performance.md → references/ch06/ref-18-hypernova.pdf
 
 ## Import Cycles
 - None detected.
 
-## Communities (50 total, 1 thin omitted)
+## Communities (47 total, 1 thin omitted)
 
-### Community 0 - "Community 0"
-Cohesion: 0.06
-Nodes (107): Proving Nothing, Beanstalk Flash Loan Attack (April 2022), L2Beat Stages Framework, Tornado Cash Governance Attack (May 2023), Chaliasos et al. Rollup Pricing Attacks Study (2025), Aligned Layer, NEBRA Universal Proof Aggregation, SHARP (StarkWare Shared Prover) (+99 more)
+### Community 1 - "Programmable Privacy & Midnight"
+Cohesion: 0.07
+Nodes (96): The Promise of Provable and Programmable Secrets, Layer 1 -- Building the Stage, Layer 7 -- The Verdict, Midnight -- The Privacy Theater, Sevenlayer Wiki Index, Groth16, BLS12-381 Curve, Midnight (+88 more)
 
-### Community 1 - "Community 1"
-Cohesion: 0.05
-Nodes (103): The Secret Performance, Encoding the Performance, AIR (Algebraic Intermediate Representation), Arithmetization, AuroraLight (Sonic-like, improved prover/SRS), BatchZK (pipelined GPU prover), Binius, CCS (Customizable Constraint Systems) (+95 more)
+### Community 2 - "zkVMs & STARK Stacks"
+Cohesion: 0.07
+Nodes (95): Choreographing the Act, zkVMs -- The Universal Stage, The Market Landscape, SP1 / SP1 Hypercube, Stwo, BN254 Curve, RISC-V, Zero-Knowledge Virtual Machine (zkVM) (+87 more)
 
-### Community 2 - "Community 2"
+### Community 22 - "Witness Generation & Hardware"
+Cohesion: 0.26
+Nodes (20): The Secret Performance, Witness Generation, Reinforced Concrete Hash, Execution Traces, Memory: The Binding Constraint, Side-Channel Attacks: When the Walls Leak, The Hidden Bottleneck, The Witness as a Multi-Dimensional Problem (+12 more)
+
+### Community 10 - "Arithmetization & CCS"
+Cohesion: 0.24
+Nodes (25): Encoding the Performance, Glossary of Key Terms, Arithmetization, R1CS, AIR (Algebraic Intermediate Representation), PLONKish Arithmetization, CCS (Customizable Constraint Systems), Nova (+17 more)
+
+### Community 0 - "ZK Crypto Foundations"
+Cohesion: 0.07
+Nodes (112): Layer 5 -- The Sealed Certificate, Layer 6 -- The Deep Craft, The Synthesis -- Three Paths, Not Two, Open Questions and the Road Ahead, Fiat-Shamir Transform, Zcash, Trusted Setup, KZG Polynomial Commitments (+104 more)
+
+### Community 29 - "Privacy-Enhancing Technologies"
+Cohesion: 0.26
+Nodes (14): Privacy-Enhancing Technologies, Zexe, Secure Multi-Party Computation (MPC), Kachina, Composability: When One PET Is Not Enough, Open Problems, Privacy Architectures for Smart Contracts: Kachina and Zexe, Private Information Retrieval (PIR) (+6 more)
+
+### Community 32 - "Foundations & SoK Surveys"
+Cohesion: 0.18
+Nodes (14): Complete Bibliography, The Knowledge Complexity of Interactive Proof Systems, SoK: What Don't We Know? Understanding Security Vulnerabilities in SNARKs, SoK: Trusted Setups for Powers-of-Tau Strings, SNARKs, Scalable Multi-party Computation for zk-SNARK Parameters in the Random Beacon Model, Knowledge Complexity, Random Beacon Model (+6 more)
+
+### Community 40 - "ZK Bug Tooling"
+Cohesion: 0.43
+Nodes (7): Plonky3, Under-Constrained Circuits: The Dominant Failure Mode, Witness-Constraint Divergence, zkSync Era, ZKAP (Circuit Dependence Graph static analysis), zkFuzz, Picus (QED^2)
+
+### Community 30 - "Sumcheck & Proving Overhead"
+Cohesion: 0.30
+Nodes (14): Jolt zkVM, LogUp, Spartan, Srinath Setty, Lookup Arguments, The Overhead Tax: 10,000x to 50,000x, The Sumcheck Protocol: The Hidden Foundation, Where the Layers Collapse (+6 more)
+
+### Community 26 - "Sumcheck SNARKs (CCS/Lattice)"
 Cohesion: 0.14
-Nodes (59): Celestia, Linea, Scroll, The Synthesis -- Three Paths, Not Two, zkVMs -- The Universal Stage, Airbender, BabyBear, BN254 Curve (+51 more)
+Nodes (17): Sumcheck Protocol, Strong Sampling Set, B-Relaxed Binding of Ajtai Commitment, Purely Algebraic Range Proof (no bit-decomposition), Commitment Transformation Protocol Pi_cm, Monomial Set Check Pi_mon, Range Check Protocol Pi_rgchk (double-commitment range proof), Lemma 2.1: a(X^2)=a(X)^2 iff a is a monomial (+9 more)
 
-### Community 3 - "Community 3"
-Cohesion: 0.09
-Nodes (53): Privacy Pools, Privacy-Enhancing Technologies, Aztec, Bootstrapping (FHE), Collaborative/Threshold Proving, Compiler intermediate representation, Differential Privacy, eIDAS 2.0 (+45 more)
-
-### Community 4 - "Community 4"
-Cohesion: 0.06
-Nodes (52): Accumulation / Split-Accumulation Schemes, Additively-Homomorphic Vector Commitment, Folding Scheme, High-arity folding (fold many NP statements per step, no deep folding trees), Lattice-based cryptography, Random oracle model (non-interactive STARK / NIROP), Random projection for norm preservation (J in {0,+-1}, ell2-norm preserved mod q), Reduction of Knowledge (+44 more)
-
-### Community 5 - "Community 5"
-Cohesion: 0.17
-Nodes (49): Choreographing the Act, Midnight -- The Privacy Theater, ACIR (Abstract Circuit Intermediate Representation), BLS12-381 Curve, Cardano, Chaliasos et al. SoK: SNARK Vulnerabilities (USENIX Security 2024), Circom, Compact Language (+41 more)
-
-### Community 6 - "Community 6"
-Cohesion: 0.08
-Nodes (36): Bitansky-Chiesa-Ishai-Ostrovsky-Paneth: SNARKs via Linear Interactive Proofs (BCI+13), Danezis-Fournet-Groth-Kohlweiss: Square Span Programs (DFGK14), Gennaro-Gentry-Parno-Raykova: QSP/QAP and Succinct NIZKs (GGPR13), Gentry-Wichs: SNARGs Need Non-falsifiable Assumptions (GW11), Parno-Howell-Gentry-Raykova: Pinocchio (PHGR13), Shoup: Lower Bounds for Discrete Logarithms (Generic Group Model) (Sho97), Barreto-Naehrig Curves, Composite-Order Bilinear Groups (+28 more)
-
-### Community 7 - "Community 7"
-Cohesion: 0.09
-Nodes (34): Bootle et al. (BCC+16) Inner-Product Argument, Confidential Transactions (CT), Discrete Logarithm Assumption, Discrete Log Relation Assumption, Fiat-Shamir Heuristic, Inner-Product Argument, Mimblewimble, Pedersen Commitments (+26 more)
-
-### Community 8 - "Community 8"
-Cohesion: 0.20
-Nodes (33): Layer 6 -- The Deep Craft, Ajtai commitments, Bitcoin, Distributed Ledger Network, Goldilocks Field, Greyhound, Harvest Now Decrypt Later (HNDL), Inner Product Arguments (IPA) (+25 more)
-
-### Community 9 - "Community 9"
+### Community 25 - "Lasso Lookup Arguments"
 Cohesion: 0.18
-Nodes (32): Layer 5 -- The Sealed Certificate, Cycles of Elliptic Curves, 2-cycle of elliptic curves (BN254/Grumpkin), CycleFold, Folding Schemes, Halo Recursive Proof Composition, HyperNova, Incrementally Verifiable Computation (IVC) (+24 more)
+Nodes (17): Lookup Arguments, Unlocking the Lookup Singularity with Lasso, Lookup Singularity, CCS+: CCS extended with read-only lookup-table operations, Indexed lookup argument (commit to value vector a and index vector b, prove a_i = t[b_i]), Multilinear polynomial commitment scheme (MSM-based or hash-based), Lasso: lookup argument for SOS/small tables, prover commits to 3cm + c·N^{1/c} small field elements, Surge: generalization of Spark proving inner product of an m-sparse committed vector with any decomposable (SOS) dense table (+9 more)
 
-### Community 10 - "Community 10"
-Cohesion: 0.11
-Nodes (30): Accumulation Schemes, Homomorphic / Trapdoor Commitment Property, Log-Derivative Lookup Argument (Habock), Plonkup / Plonkish Circuit-Satisfiability Relation, (2k-1)-Move Special-Sound Protocol with Algebraic Verifier, Accumulation Scheme (P_acc, V_acc, D) for NARK Verifier with Slack mu and Error Commitment E, BCLMS21 'PCD Without Succinct Arguments' (cited, accumulation->IVC compiler / Theorem 1), Branched-Gate Caching for Non-Uniform Error Terms (cost ~ |C_pc| not sum |C_i|) (+22 more)
-
-### Community 11 - "Community 11"
-Cohesion: 0.10
-Nodes (29): Ajtai Commitment Scheme, Power-of-Two Cyclotomic Ring Z[X]/(X^d+1), IVC / Proof-Carrying Data, Module-SIS, Small prime fields (machine-register-sized: Goldilocks, M61), Strong Sampling Set, split/pow Maps & Gadget Decomposition, Theorem 4.3: Pi_cm is a RoK from R_rg,B to R_com (+21 more)
-
-### Community 12 - "Community 12"
-Cohesion: 0.12
-Nodes (26): Completeness, Dory transparent polynomial commitment scheme (log-round, sqrt-space prover), Fault Injection, FUZZTRUCTION / FUZZTRUCTION-NET [10,11]: fault-injection-based fuzzing, Metamorphic Testing, Product programs / hyperproperty (k-safety) reasoning [12,13,20,41], RISC-V CPU fuzzers [25,29,40,44] (DifuzzRTL, TheHuzz, Cascade, MorFuzz), Soundness (+18 more)
-
-### Community 13 - "Community 13"
-Cohesion: 0.12
-Nodes (25): Additive FFT over binary fields (Lin et al.), Algebraic Intermediate Representation (AIR), Collision-resistant hash function assumption (interactive STARK), Interactive Oracle Proof (IOP) model, Interactive Oracle Proofs, Low Degree Extension (LDE), Merkle-tree commit-reveal (Kilian cut-and-choose), Post-quantum security (no quantum-susceptible assumptions) (+17 more)
-
-### Community 14 - "Community 14"
-Cohesion: 0.12
-Nodes (25): LaBRADOR Proof System, Module Learning With Errors (MLWE), Polynomial Commitment Scheme, Split-and-fold / folding paradigm, Constant-Size Commitment & O(1) Opening Overhead, AVX-512 multi-modular NTT ring arithmetic library, Batched evaluation protocol for multiple points/polynomials, Bivariate polynomial folding f(X,Y)=a^T S b with Y:=X^m (+17 more)
-
-### Community 15 - "Community 15"
-Cohesion: 0.13
-Nodes (24): Algebraic Interactive Proof (AIP): public-coin IP with arithmetic-circuit verifier, Commit-and-Prove SNARK, zkSNARK, Ozdemir et al. RSA/Merkle set-accumulator RAM (prior state of the art), Bezout's identity for univariate polynomials (uniqueness/disjointness tool), CirC-compiler implementation, bellman/Groth16 base, Z# rollup application, Conditional uniqueness AIP Pi_c-uniq, V-cost 6A+O(1), Cost claim: persistent RAM proving time reduced up to 51.3x vs RSA/Merkle prior art (+16 more)
-
-### Community 16 - "Community 16"
-Cohesion: 0.13
-Nodes (24): CFFT-friendly prime (p+1 divisible by 2^(n+1)), Circle code (MDS algebraic-geometry / generalized Reed-Solomon code), Correlated agreement theorem for Reed-Solomon codes, Elliptic Curve FFT (ECFFT), Galois-FFT (G-FFT) over rational function field automorphisms, Mersenne Prime M31 (2^31 - 1), Reed-Solomon proximity gaps / list-decoding, STARK (Scalable Transparent ARgument of Knowledge) (+16 more)
-
-### Community 17 - "Community 17"
-Cohesion: 0.12
-Nodes (20): Non-uniform IVC (NIVC), NTT / Coefficient Embedding over R_q, Proof-Carrying Data (PCD), HyperNova: NIVC-from-multifolding compiler (Construction 2), B-Bounded Ajtai Commitment Opening Relation R^B_cm, Optimized Single-Sumcheck Batch Folding (Pi_batch), Lattice-Based CCS Folding Scheme, Lattice-Based Committed CCS Relation R^B_cmccs (+12 more)
-
-### Community 18 - "Community 18"
-Cohesion: 0.18
-Nodes (18): Bilinear Pairing (type-1 symmetric), Cryptographic Accumulator, Feldman Verifiable Secret Sharing, Merkle Hash Tree, t-Diffie-Hellman Inversion (t-DHI) Assumption, t-Polynomial Diffie-Hellman (t-polyDH) Assumption, t-Strong Diffie-Hellman (t-SDH) Assumption, Verifiable Secret Sharing (+10 more)
-
-### Community 19 - "Community 19"
-Cohesion: 0.16
-Nodes (18): Decomposable tables, Linearly homomorphic commitment, MLE-structured tables, Multilinear extension (MLE), RISC-V instruction set architecture, Single collation polynomial g for concatenated instruction tables, All RISC-V instructions are decomposable (main technical contribution), Generalized-Lasso vs Lasso auditability/performance tradeoff (2x-3x cost) (+10 more)
-
-### Community 20 - "Community 20"
-Cohesion: 0.19
-Nodes (17): BASIS_struct Assumption (structured lattice assumption of WW23; implies l-succinct SIS), Dual Functional Commitment (commit to function f, open at input x), Evasive LWE Assumption (implies l-succinct SIS plus LWE), Functional Commitment, GSW / BGG+14 Lattice Homomorphic Evaluation Machinery, Inhomogeneous SIS Assumption, l-Succinct SIS Assumption (falsifiable q-type generalization of SIS, trapdoor for [I_l ⊗ A | W]), Short Integer Solutions (SIS) Assumption (+9 more)
-
-### Community 21 - "Community 21"
-Cohesion: 0.15
-Nodes (17): Fiat-Shamir Transform (non-interactive via random oracle), Linearisation Polynomial (Maller optimization), Selector Polynomials (qL,qR,qO,qM,qC), Spartan zkSNARK, Sum-Check Protocol, Corollary 7.2: 11n+1 G1-exp prover, 7 G1 + 6/7 F proof, 2 pairings, PLONK Main Protocol for Relation R_C (Theorem 7.1), PLONK Constraint System & Arithmetization (selector/gate equation) (+9 more)
-
-### Community 22 - "Community 22"
-Cohesion: 0.18
-Nodes (17): Indexed lookup argument (commit to value vector a and index vector b, prove a_i = t[b_i]), Lookup Arguments, Lookup Singularity, Multilinear polynomial commitment scheme (MSM-based or hash-based), CCS+: CCS extended with read-only lookup-table operations, Prior lookup arguments: plookup [GW20b], Halo2 [BGH20], cq [EFG22], Caulk [ZBK+22], flookup [GK22], Baloo [ZGK+22], log-derivative lookups, GeneralizedLasso: lookup argument for any MLE/low-degree-structured table via the sparse-dense sum-check protocol, Unlocking the Lookup Singularity with Lasso (+9 more)
-
-### Community 23 - "Community 23"
-Cohesion: 0.17
-Nodes (16): Finite-Field SMT Solver (cvc5 fork), Groebner Basis Computation, Logical Encoding of Arithmetic Circuit (Definition 4.3), SMT Solving, Uniqueness Constraint Propagation (UCP), Compositional Counterexample Construction, EdwardsToMontgomery Underconstrained Bug, QED2 Evaluation Results (70% solved, 8 vulnerabilities) (+8 more)
-
-### Community 24 - "Community 24"
-Cohesion: 0.17
-Nodes (16): Universal and Updatable Structured Reference String, Universal Updatable SRS Setup (Bowe-Gabizon-Miers), Mary Maller, Batching of polynomial commitments & grand-product arguments (random linear combinations), Bivariate constraint system: a∘b=c plus Q linear constraints, embedded as constant term of t(X,Y), Bounded Polynomial Extractability & Evaluation Binding (PCS properties), Constant 256-byte proofs, ~0.7ms helped verification, BLS12-381 Rust implementation, Grand-Product Argument (gprodP/gprodV, prod a_i = prod b_i) (+8 more)
-
-### Community 25 - "Community 25"
-Cohesion: 0.16
-Nodes (14): Chorus One: The Economics of ZK-Proving (2025), Grand View Research: Zero-Knowledge Proof Market Size Report (2025), Aligned Layer, RISC Zero Boundless, Succinct Network, ZkCloud (formerly Gevulot), Humanity Protocol, World (formerly Worldcoin) (+6 more)
-
-### Community 26 - "Community 26"
-Cohesion: 0.18
-Nodes (14): Bayer-Groth Permutation/Shuffle Argument, Copy Constraints via Permutation (wiring check), Grand Product Argument (accumulator polynomial Z), Streaming grand products via depth-first traversal of multiplication-gate tree, Universal keyed hashes: coefficient hash H_c and root hash H_r, Lagrange Basis over Multiplicative Subgroup, Offline memory checking, Permutation Argument (+6 more)
-
-### Community 27 - "Community 27"
-Cohesion: 0.19
-Nodes (14): Constraint-computation discrepancy vulnerability class, Nondeterministic signals vulnerability class, Unsafe component usage vulnerability class, 32 previously-unknown vulnerabilities (34 unique problems, 405 warnings), Taxonomy of Circom vulnerabilities (3 root-cause classes), Division-by-Zero (DBZ) detector, Dataflow-Constraint Discrepancy (DCD) detector, Type Mismatch (TM) detector (+6 more)
-
-### Community 28 - "Community 28"
-Cohesion: 0.23
-Nodes (14): Random Beacon Model, Updatable and Universal Structured Reference String, BGM17 - Bowe, Gabizon, Miers: scalable MPC for zk-SNARK params in random beacon model, GKM+18 - Groth, Kohlweiss, Maller, Meiklejohn, Miers: Updatable and universal CRS, Beacon-free ceremony: removes BGM17 random beacon, biased SRS tolerated, Polynomial oracle O_poly (Laurent polynomial evaluation G^{f(z)}, models SRS elements), SRS update oracle O_srs (update/finalize, honest-update-required-per-phase), Pi_dl discrete logarithm proof of knowledge (update PoK; pi=Gr^w, RO(phi)) (+6 more)
-
-### Community 29 - "Community 29"
-Cohesion: 0.20
-Nodes (14): Greyhound [NS24] (LaBRADOR-based PCS, sqrt verifier), HyperNova [KS24b] (linearization, CCS folding), LaBRADOR [BS23] (commitments-to-commitments, short proofs), Lova [FKNP24] (l2-norm integer Ajtai folding), Neo [NS25] (small-field embedding into cyclotomic ring), Commitment Transformation Protocol Pi_cm, Double Commitment (commitment of commitments, dcom), LatticeFold+: Faster, Simpler, Shorter Lattice-Based Folding for Succinct Proof Systems (+6 more)
-
-### Community 30 - "Community 30"
-Cohesion: 0.17
-Nodes (13): The Market Landscape, Canton Network, eIDAS 2.0, Fraud Proof System, ZK Rollups, Selective Disclosure, L2BEAT Stages Framework, Asset Tokenization (+5 more)
-
-### Community 31 - "Community 31"
-Cohesion: 0.24
-Nodes (12): Algebraic Group Model (AGM), Discrete Logarithm (DL) Assumption, Q-DLOG Assumption, Lemma 2.2: Real-to-Ideal Pairing Check Reduction under Q-DLOG, Theorem 6.3: PCS evaluation-binding & bounded-extractable under 2d-DLOG in AGM, Algebraic extractor E_agm (white-box, requires view_A, yields linear representation coefficients), FKL18 - Fuchsbauer, Kiltz, Loss: the Algebraic Group Model and Groth16 KS under q-dlog, Critical query i_crit and white-box AGM extractor E_A returning QAP witness coefficients (+4 more)
-
-### Community 32 - "Community 32"
-Cohesion: 0.20
-Nodes (12): Arithmetic Circuit, Formal Verification, Liquid / logically-qualified data types (SMT-discharged), Refinement Types, zk-SNARK, Certifying Zero-Knowledge Circuits with Refinement Types, Coda: statically-typed functional DSL for ZK circuits, Non-determinism (star) and assertion semantics encoding relations (+4 more)
-
-### Community 33 - "Community 33"
-Cohesion: 0.20
-Nodes (12): MSM commitment via Pippenger's algorithm, Polynomial commitment scheme, Polynomial IOP / interactive oracle protocol, Sparse multilinear polynomial commitment (Spartan compiler), Brakedown [GLS+21] & Orion [XZS22] field-agnostic/post-quantum poly commitments instantiating SuperSpartan, Theorem 3: family of preprocessing SNARKs for CCS via PIOP + sparse poly commitment + Fiat-Shamir, Blum-Evans-Gemmell-Kannan-Naor [BEG+91]: original offline memory checking (FOCS 1991), Spartan [Set20]: source of the Spark sparse PCS that Lasso builds on (+4 more)
-
-### Community 34 - "Community 34"
-Cohesion: 0.24
-Nodes (11): Axiom, Brevis, Lagrange, Lagrange DeepProve, EZKL, Pico zkVM, Pico Prism, ZK Coprocessors (+3 more)
-
-### Community 35 - "Community 35"
-Cohesion: 0.25
-Nodes (11): Apposcopy inter-component call graph (ICCG) abstraction, CirC Compiler Infrastructure, Circomspect Static Analyzer, Circuit Dependence Graph (CDG), Constrained Horn Clause / Datalog query, Static Analysis, Datalog-style CDG construction inference rules, Circuit Dependence Graph (CDG) abstraction G=(V,Ed,Ec) (+3 more)
-
-### Community 36 - "Community 36"
-Cohesion: 0.20
-Nodes (11): Coq Proof Assistant, Fiat-Crypto finite-field formalization library, SMT solving over finite fields / large prime fields, BigLessThan motivating example (Circom bug at line 32), Theorem 2: Circuit Evaluation Type Preservation, Coq lemma generation for proof obligations, Coda domain-specific Coq tactic library (F_to_Z, overflow, split_sum, switch_sum, reduce_sum, ind), iter combinator with annotated loop invariant (+3 more)
-
-### Community 37 - "Community 37"
-Cohesion: 0.29
-Nodes (10): Knowledge-of-Exponent Assumption, Multi-Party Computation Setup Ceremony, Updatable CRS model (one honest updater suffices), Jens Groth, Cited: MPC CRS ceremonies BCG+15, BGG17, BGM17, q-Monomial Computational (q-MC) assumption, q-Monomial Knowledge (q-MK) assumption, Lemmas 4-5: trapdoor extraction for subvertible & updatable CRSs (+2 more)
-
-### Community 38 - "Community 38"
-Cohesion: 0.20
-Nodes (10): Merkle Tree, Non-Interactive Zero-Knowledge (NIZK), Privacy Pools (0xbow), Private Smart Contracts, Universal Composability (UC), Zerocash, ZK Rollups, Aggelos Kiayias (+2 more)
-
-### Community 39 - "Community 39"
-Cohesion: 0.22
-Nodes (10): Quadratic Arithmetic Program (QAP), Cited: Groth 2010 pairing-based zk-SNARK (Gro10b), MonoExtract / FinalMonoExtract monomial-extraction algorithm, Impossibility: updating non-monomial CRS reveals constituent monomials, Quadratic monomial-only universal CRS (multivariate X,Y,Z, j=7), Theorem 5 / Lemma 8: Pinocchio cannot be made updatable, Lemma 6: single adversarial update implies full updatable knowledge soundness, Specializable universal CRS via untrusted Derive algorithm (+2 more)
-
-### Community 40 - "Community 40"
-Cohesion: 0.22
-Nodes (9): Iris Biometrics, Digital Identity, European Digital Identity Wallet, Proof of Personhood (Proof of Human), World ID, Zero-Knowledge Proof, World Whitepapers (World Network: Proof of Human), Regulation (EU) 2016/679 (GDPR) (+1 more)
-
-### Community 41 - "Community 41"
-Cohesion: 0.28
-Nodes (9): Constrained Variable (Definition 4.4), TornadoCash Underconstrained Circuit Hack, Underconstrained Circuits, Constrained Circuit (Definition 4.6), Circomlib Decoder Underconstrained Bug (motivating example), Automated Detection of Under-Constrained Circuits in Zero-Knowledge Proofs, Evaluation: 77 circuits from 9 Circom projects, 66 verified, Verification-effort case study: 60% shorter proofs vs shallow embedding (+1 more)
-
-### Community 42 - "Community 42"
-Cohesion: 0.33
-Nodes (9): Jagged Polynomial Commitment Scheme (Jagged PCS), Real-Time Proving, WHIR Polynomial Commitment Scheme, zkEVM, Zero-Knowledge Proof Market Size, Share & Trends Analysis Report (Grand View Research), ZK Proofs: Is Privacy Cheap Enough to Be Mainstream? (Castle Labs), Ethproofs: ZK Proving Cost Tracker (Ethereum Foundation), soundcalc (zkVM security estimation tool) (+1 more)
-
-### Community 43 - "Community 43"
-Cohesion: 0.25
-Nodes (8): Block et al. (BHR20): quasi-linear small-space SNARK for VMs with streaming Bulletproofs PCS, Blumberg et al. (BTVW14): small-space quasi-linear PIOP for circuit-SAT, Gemini (BCHO22): small-space VM SNARK with streamed multilinear-KZG PCS, KZG Polynomial Commitment Scheme, Batched KZG Polynomial Commitment Scheme (multi-poly, multi-point), Compiler: Polynomial Protocol to AGM-Knowledge-Sound Protocol (Lemma 4.7), Idealized Low-Degree (Polynomial) Protocol, Ranged Polynomial Protocol (identities over a subset S)
-
-### Community 44 - "Community 44"
-Cohesion: 0.29
-Nodes (7): Trusted CRS setup with secret trapdoor, Subversion-resistant NIZK / subversion zero-knowledge, Cited: Bellare-Fuchsbauer-Scafuro subversion impossibility (BFS16), Lemmas 1-2: subversion-secure => updatable-secure => trusted-secure, Three setup-oracle types: trusted (T), updatable (U), subvertible (S), Theorem 3: perfect subversion zero-knowledge of the construction, X-security games: COMP, X-ZK, X-SND, X-KSND for X in {T,U,S}
-
-### Community 45 - "Community 45"
-Cohesion: 0.47
-Nodes (6): Extractable Functional Commitment (equivalent to SNARG for NP via quadratic relations), Knowledge k-R-ISIS Assumption (Albrecht et al. CRYPTO 2022), Succinct Non-interactive Argument (SNARG), Attack on Extractable Linear FC: integer variant of ACL+22 not extractable assuming inhomogeneous SIS, Oblivious Sampling Cryptanalysis (Babai-rounding attack breaking extractability / knowledge k-R-ISIS plausibility), Assumption 4.3: MatrixACLMT Knowledge Assumption (matrix variant of knowledge k-ISIS)
-
-### Community 46 - "Community 46"
+### Community 41 - "Fully Homomorphic Encryption"
 Cohesion: 0.50
-Nodes (5): Canton Network, Deutsche Bank (Project Guardian), DTCC (Depository Trust & Clearing Corporation), Partisia Blockchain, Enterprise Pilots (Pilot)
+Nodes (5): Fully Homomorphic Encryption (FHE), Fully Homomorphic Encryption Using Ideal Lattices, CirC: Compiler Infrastructure for Proof Systems, Software Verification, and More, Bootstrapping (FHE), Craig Gentry
 
-### Community 47 - "Community 47"
+### Community 33 - "Compliance & Deployment"
 Cohesion: 0.40
-Nodes (5): Non-interactive Zero-Knowledge Argument of Knowledge, Ceremonial SNARK (NIZK with multi-round SRS ceremony), Ceremony syntax: Pgen, Update, VerifySRS, Prove, Verify, Sim with split SRS srs=(srs_1..srs_phimax), MBKM19 - Sonic: updatable NIZK framework extended by this paper, Two-phase split SRS: universal srs_u (phase 1) + specialized srs_s (phase 2), phi_max=2
+Nodes (13): Trusted Execution Environment (TEE), Real-World Deployments: Five Case Studies, The Four Pillars, The Decision Matrix, The Regulatory Intersection, Privacy Pools, Differential Privacy, The Incomplete Stack (+5 more)
 
-### Community 48 - "Community 48"
+### Community 23 - "ZK Identity & Enterprise"
+Cohesion: 0.12
+Nodes (18): ZK Identity, Kachina -- Foundations of Private Smart Contracts, Enterprise Pilots (Pilot), ZK Identity (Growth / Regulatory Mandate), Privacy Pools (0xbow), Deutsche Bank (Project Guardian), DTCC (Depository Trust & Clearing Corporation), Canton Network (+10 more)
+
+### Community 19 - "KZG Polynomial Commitments"
+Cohesion: 0.16
+Nodes (22): Constant-Size Commitments to Polynomials and Their Applications, Polynomial Commitment Scheme, Verifiable Secret Sharing, PolyCommitDL Scheme, PolyCommitPed Scheme, eVSS: Efficient Feldman VSS, Nearly Zero-Knowledge Set / ZK-EDB, Polynomial Divisibility Property ((x-i) divides phi(x)-phi(i)) (+14 more)
+
+### Community 18 - "Groth16 & Pairing SNARKs"
+Cohesion: 0.16
+Nodes (22): On the Size of Pairing-Based Non-interactive Arguments, Bilinear Pairings, Quadratic Arithmetic Programs, 3-Element Pairing-based SNARK for Arithmetic Circuit SAT, Non-interactive Linear Proof (NILP) for Quadratic Arithmetic Programs, Split-NILP to Pairing-based NIZK Compiler, Disclosure-free Common Reference String, Single Pairing-Product Verification Equation (3 pairings) (+14 more)
+
+### Community 12 - "PLONK & Permutation Arguments"
+Cohesion: 0.11
+Nodes (25): PLONK: Permutations over Lagrange-bases for Oecumenical Noninteractive arguments of Knowledge, Permutation Argument, Sonic, KZG Polynomial Commitment Scheme, Batched KZG Polynomial Commitment Scheme (multi-poly, multi-point), Idealized Low-Degree (Polynomial) Protocol, Ranged Polynomial Protocol (identities over a subset S), Compiler: Polynomial Protocol to AGM-Knowledge-Sound Protocol (Lemma 4.7) (+17 more)
+
+### Community 13 - "STARK Foundations"
+Cohesion: 0.13
+Nodes (24): Scalable, Transparent, and Post-Quantum Secure Computational Integrity, Interactive Oracle Proofs, Zero-Knowledge Scalable Transparent ARgument of Knowledge (ZK-STARK), Scalable Transparent IOP of Knowledge (STIK), Theorem 3.4 — ZK-STIK for space-bounded computations, Theorem 3.5 — wi-STIK for NEXP, Algebraic Intermediate Representation (AIR), Binary AIR (BAIR) and Permuted AIR (PAIR) (+16 more)
+
+### Community 8 - "Bulletproofs & Range Proofs"
+Cohesion: 0.11
+Nodes (26): Bulletproofs: Short Proofs for Confidential Transactions and More, Range Proof, Discrete Logarithm Assumption, Bulletproofs NIZK Argument System, Improved Inner-Product Argument (2 log2 n), Logarithmic-Size Range Proof, Aggregated Range Proof for m Values, Zero-Knowledge Proof for Arithmetic Circuits (Protocol 3) (+18 more)
+
+### Community 24 - "Jolt Lookup zkVM"
+Cohesion: 0.18
+Nodes (18): Jolt: SNARKs for Virtual Machines via Lookups, Lasso, Decomposable tables, MLE-structured tables, Multilinear extension (MLE), MSM commitment via Pippenger's algorithm, All RISC-V instructions are decomposable (main technical contribution), Single giant 2^128 RISC-V lookup table T_risc-v[opcode||x||y] (+10 more)
+
+### Community 3 - "Nova Folding & IVC"
+Cohesion: 0.07
+Nodes (49): Nova: Recursive Zero-Knowledge Arguments from Folding Schemes, Incrementally Verifiable Computation (IVC), Protostar: Generic Efficient Accumulation/Folding for Special-sound Protocols, Cycles of Elliptic Curves, Accumulation Schemes, Homomorphic / Trapdoor Commitment Property, Folding Scheme for Committed Relaxed R1CS (Construction 1), Non-Interactive Folding Scheme via Fiat-Shamir (Construction 2) (+41 more)
+
+### Community 14 - "HyperNova Multifolding"
+Cohesion: 0.10
+Nodes (24): HyperNova: Recursive Arguments for Customizable Constraint Systems, ProtoStar, Proof-Carrying Data (PCD), Relaxed R1CS, Committed Relaxed R1CS, Additively-Homomorphic Vector Commitment, Multi-folding scheme for CCS (Construction 1), HyperNova: NIVC-from-multifolding compiler (Construction 2) (+16 more)
+
+### Community 7 - "Circle STARKs"
+Cohesion: 0.12
+Nodes (27): Circle STARKs, Elliptic Curve FFT (ECFFT), Mersenne Prime M31 (2^31 - 1), Circle group / circle curve x^2+y^2=1, Isomorphism of circle curve to projective line P^1 (genus zero, |F|+1 points), CFFT-friendly prime (p+1 divisible by 2^(n+1)), Twin-coset and standard position coset FFT domains, Circle code (MDS algebraic-geometry / generalized Reed-Solomon code) (+19 more)
+
+### Community 16 - "Lattice Functional Commitments"
+Cohesion: 0.15
+Nodes (23): Lattice-Based Functional Commitments: Fast Verification and Cryptanalysis, Functional Commitment, Short Integer Solutions (SIS) Assumption, Succinct Non-interactive Argument (SNARG), Construction 3.2: Functional Commitment for Constant-Degree Polynomials, Construction 3.9: Multi-Output Functional Commitment for Constant-Degree Polynomials, Construction 3.19: Dual Functional Commitment for Bounded-Depth Boolean Circuits, Fast Verification in the Preprocessing Model (sublinear verifier after function/input preprocessing) (+15 more)
+
+### Community 38 - "Under-Constrained Circuits (Picus)"
+Cohesion: 0.29
+Nodes (10): Circom, Automated Detection of Under-Constrained Circuits in Zero-Knowledge Proofs, Underconstrained Circuits, Constrained Variable (Definition 4.4), Constrained Circuit (Definition 4.6), Circomlib Decoder Underconstrained Bug (motivating example), TornadoCash Underconstrained Circuit Hack, Evaluation: 77 circuits from 9 Circom projects, 66 verified (+2 more)
+
+### Community 6 - "Universal SRS & Ceremonies"
+Cohesion: 0.12
+Nodes (31): Jens Groth, Universal and Updatable Structured Reference String, Sonic: Zero-Knowledge SNARKs from Linear-Size Universal and Updatable Structured Reference Strings, Updatable and Universal Common Reference Strings with Applications to zk-SNARKs, Snarky Ceremonies, Updatable and Universal Structured Reference String, Multi-Party Computation Setup Ceremony, Mary Maller (+23 more)
+
+### Community 15 - "Circuit Verification (Coda)"
+Cohesion: 0.10
+Nodes (24): Formal Verification, zk-SNARK, Arithmetic Circuit, Certifying Zero-Knowledge Circuits with Refinement Types, Refinement Types, Coq Proof Assistant, Logical Encoding of Arithmetic Circuit (Definition 4.3), Coda: statically-typed functional DSL for ZK circuits (+16 more)
+
+### Community 36 - "Circuit Static Analysis (ZKAP)"
+Cohesion: 0.25
+Nodes (11): Practical Security Analysis of Zero-Knowledge Proof Circuits, Circuit Dependence Graph (CDG), Static Analysis, Circomspect Static Analyzer, CirC Compiler Infrastructure, ZKAP (static analyzer for ZKP circuits), Circuit Dependence Graph (CDG) abstraction G=(V,Ed,Ec), Datalog-style CDG construction inference rules (+3 more)
+
+### Community 5 - "Lattice Folding (Neo)"
+Cohesion: 0.07
+Nodes (38): Neo: Lattice-based Folding Scheme for CCS over Small Fields and Pay-per-bit Commitments, Power-of-Two Cyclotomic Ring Z[X]/(X^d+1), NTT / Coefficient Embedding over R_q, Double Commitment (commitment of commitments, dcom), Relaxed Binding Commitment reduced to Module-SIS, Module-based Ajtai Commitment (com = A x), split/pow Maps & Gadget Decomposition, LaBRADOR [BS23] (commitments-to-commitments, short proofs) (+30 more)
+
+### Community 28 - "QED2 Detection Algorithm"
+Cohesion: 0.18
+Nodes (15): SMT Solving, QED2 (verification tool), Verify Algorithm (Algorithm 1), Uniqueness Constraint Propagation (UCP), InferValues Value Inference (Algorithm 3), SMT Query Procedure (Algorithm 4), UCP Inference Rules (Assign, Base-Conv, BigInt-Mul, All-But-One-0), UCP Rule Soundness Proofs (+7 more)
+
+### Community 17 - "Lattice PCS (Greyhound)"
+Cohesion: 0.12
+Nodes (23): Module Learning With Errors (MLWE), Greyhound: Fast Polynomial Commitments from Lattices, LaBRADOR Proof System, Greyhound polynomial commitment scheme, Three-round proof of polynomial evaluation (quadratic relation), Inner and outer commitment construction, Committing to w via v=Dw-hat (proof-size reduction), Reduction of verification to a single short-norm linear relation over Rq (+15 more)
+
+### Community 21 - "CirC Compiler Infrastructure"
+Cohesion: 0.13
+Nodes (21): LLVM Compiler Infrastructure, Satisfiability Modulo Theories (SMT), CirC: shared compiler infrastructure for EQCs, Existentially Quantified Circuit (EQC), CirC-IR (SMT-LIB-based circuit IR), Circify: language-independent state-management library, Breakable block (exceptional control flow construct), Guarded SSA versioning via ITE terms (+13 more)
+
+### Community 42 - "Pairing Curve Security"
 Cohesion: 0.50
-Nodes (4): t-Bilinear Strong Diffie-Hellman (t-BSDH) Assumption, Batch Opening (CreateWitnessBatch/VerifyEvalBatch), Content Extraction Signature & Credential Construction, Theorem 3.4: Batch Opening Binding
+Nodes (4): Comparing the Pairing Efficiency over Composite-Order and Prime-Order Elliptic Curves, Number Field Sieve, Barreto-Naehrig Curves, Composite-Order Bilinear Groups
+
+### Community 4 - "Lattice Folding (Symphony)"
+Cohesion: 0.07
+Nodes (40): Symphony: Scalable SNARKs in the Random Oracle Model from Lattice-Based High-Arity Folding, Random oracle model (non-interactive STARK / NIROP), Reduction of Knowledge, B-Bounded Ajtai Commitment Opening Relation R^B_cm, Expanded Evaluation Relation R^B_eval, Sumcheck-Based Norm-Bound Range Check, Base-b Witness Decomposition Step, Expansion-Decomposition-Folding Pipeline (Pi_mfold) (+32 more)
+
+### Community 39 - "Proof of Personhood & eIDAS"
+Cohesion: 0.25
+Nodes (8): World Whitepapers (World Network: Proof of Human), Regulation (EU) 2024/1183 establishing the European Digital Identity Framework (eIDAS 2), Proof of Personhood (Proof of Human), World ID, Iris Biometrics, Digital Identity, European Digital Identity Wallet, Regulation (EU) 2016/679 (GDPR)
+
+### Community 35 - "AGM Ceremony Soundness"
+Cohesion: 0.27
+Nodes (11): Algebraic Group Model (AGM), Q-DLOG Assumption, Lemma 2.2: Real-to-Ideal Pairing Check Reduction under Q-DLOG, Theorem 6.3: PCS evaluation-binding & bounded-extractable under 2d-DLOG in AGM, (q1,q2)-extended discrete logarithm (edlog) assumption (Def 2), Theorem 1: (q1+1,q2+1)-dlog implies (q1,q2)-edlog, Theorem 5: Groth16 ceremony has update knowledge soundness under (2n-1,2n-2)-edlog for algebraic adversaries in ROM, UKS proof: game hops Game0->Game1 (fresh-SRS simulated critical updates) -> Game2 (bad event), reduction to edlog (+3 more)
+
+### Community 20 - "Small-Space Proving (Twist/Shout)"
+Cohesion: 0.12
+Nodes (21): Twist and Shout Memory-Checking Arguments, Recursive SNARK Composition (Preprocessing to Fully Succinct), RISC-V instruction set architecture, Small-space Jolt prover (sublinear-space zkVM proving without recursion), Theorem 7.1: Jolt prover in S=O(K+log T) space and O(T log T) time, Concrete cost estimate: ~900T linear-space vs ~900T+12T log T small-space field mults, Repeated witness generation with checkpoints and multithreaded parallel regeneration, Square-root space target: O(sqrt(KT)) / O(K+T^{1/2}) suffices in practice over O(K+log T) (+13 more)
+
+### Community 11 - "Algebraic RAM Proofs"
+Cohesion: 0.12
+Nodes (25): Volatile and Persistent Memory for zkSNARKs via Algebraic Interactive Proofs, zkSNARK, Commit-and-Prove SNARK, Volatile RAM AIP (zeroed init, uncommitted final), Persistent RAM AIP (committed initial/final states), Sparse persistent RAM AIP (capacity C, N approx 2^256), Read-over-write (RoW) validity condition for transcripts, Address-grouping suffices (a-group + t-order) instead of full (a,t)-ordering (+17 more)
+
+### Community 9 - "zkVM Fuzzing (Arguzz)"
+Cohesion: 0.12
+Nodes (26): Metamorphic Testing, Fault Injection, Soundness, Completeness, Dory transparent polynomial commitment scheme (log-round, sqrt-space prover), ARGUZZ: first automated fuzzer for zkVM soundness & completeness bugs (7-step workflow), Product-program metamorphic oracle: merge k equivalent Rust fns; SUCCESS (0xC0FFEE) vs OOPS (0x0), Efficient metamorphic-testing variant: known expected output, k-safety, single padded trace (+18 more)
+
+### Community 44 - "KZG Batch Opening"
+Cohesion: 0.50
+Nodes (4): Batch Opening (CreateWitnessBatch/VerifyEvalBatch), Content Extraction Signature & Credential Construction, Theorem 3.4: Batch Opening Binding, t-Bilinear Strong Diffie-Hellman (t-BSDH) Assumption
+
+### Community 43 - "Knowledge-of-Exponent Assumptions"
+Cohesion: 0.67
+Nodes (4): Knowledge-of-Exponent Assumption, q-Monomial Knowledge (q-MK) assumption, q-Monomial Computational (q-MC) assumption, Lemmas 4-5: trapdoor extraction for subvertible & updatable CRSs
+
+### Community 34 - "Memory Checking & Sparse PCS"
+Cohesion: 0.20
+Nodes (12): Offline memory checking, Sparse multilinear polynomial commitment (Spartan compiler), Spark: optimal sparse multilinear PCS from Spartan; evaluates m-sparse poly in O(c·m) time via c memories of size N^{1/c}, Stronger Spark security: secure even when sparse-polynomial metadata is committed by a malicious prover (first 'standard' sparse PCS), Theorem 2: c-memory Spark transform — sparse PCS over c·log M variables; prover commits to (3c+1) dense (log m)-variate + c (log N^{1/c})-variate polynomials, Claim 4: public-coin multiset hash H_{tau,gamma} via Reed-Solomon fingerprinting; multiset equality with soundness error O((|A|+|B|)/|F|), Spartan [Set20]: source of the Spark sparse PCS that Lasso builds on, Blum-Evans-Gemmell-Kannan-Naor [BEG+91]: original offline memory checking (FOCS 1991) (+4 more)
+
+### Community 31 - "Circom Vulnerability Taxonomy"
+Cohesion: 0.19
+Nodes (14): Taxonomy of Circom vulnerabilities (3 root-cause classes), Nondeterministic signals vulnerability class, Unsafe component usage vulnerability class, Constraint-computation discrepancy vulnerability class, Vulnerability Description Language (VDL), Unconstrained Circuit Output (UCO) detector, Unconstrained Sub-circuit Input (USCI) detector, Dataflow-Constraint Discrepancy (DCD) detector (+6 more)
+
+### Community 45 - "Uniform CCS Proving"
+Cohesion: 0.50
+Nodes (4): Theorem 2: MLE of 'add-1-in-binary' next() function evaluable in logarithmic time, Avoiding preprocessing for uniform CCS (AIR): verifier evaluates wiring MLEs M_j in log time, Free addition gates for uniform CCS: prover crypto work independent of additions, SIMD CCS / data-parallel CCS with log-time I/O consistency via next() MLE
+
+### Community 37 - "Sonic Argument System"
+Cohesion: 0.22
+Nodes (11): Signature of Correct Computation (scP/scV) for s(z,y) of public s(X,Y), Unhelped (standalone) signature of correct computation — succinct verifier, higher overhead, Helped mode: untrusted helper aggregates a batch of proofs (best practical efficiency), Polynomial Permutation Argument (Derive/permP/permV), Grand-Product Argument (gprodP/gprodV, prod a_i = prod b_i), Well-Formedness Argument (commitment to sum a_i X^i, no constant term), Bivariate constraint system: a∘b=c plus Q linear constraints, embedded as constant term of t(X,Y), Modified KZG polynomial commitment for Laurent polynomials (bounded-degree, single-point hidden) (+3 more)
+
+### Community 27 - "Updatable CRS Theory"
+Cohesion: 0.13
+Nodes (16): Updatable CRS model (one honest updater suffices), Subversion-resistant NIZK / subversion zero-knowledge, Trusted CRS setup with secret trapdoor, Updatable CRS syntax: Setup, Update, VerifyCRS algorithms, Three setup-oracle types: trusted (T), updatable (U), subvertible (S), X-security games: COMP, X-ZK, X-SND, X-KSND for X in {T,U,S}, Lemmas 1-2: subversion-secure => updatable-secure => trusted-secure, Specializable universal CRS via untrusted Derive algorithm (+8 more)
 
 ## Ambiguous Edges - Review These
 - `Fully Homomorphic Encryption Using Ideal Lattices` → `CirC: Compiler Infrastructure for Proof Systems, Software Verification, and More`  [AMBIGUOUS]
   references/ch10/ref-33-circ.pdf · relation: cites
 
 ## Knowledge Gaps
-- **191 isolated node(s):** `Improvement Backlog`, `Proof Aggregation`, `zkSync Era`, `BatchZK (pipelined GPU prover)`, `Jordi Baylina` (+186 more)
+- **178 isolated node(s):** `Improvement Backlog`, `Proof Aggregation`, `zkSync Era`, `BatchZK (pipelined GPU prover)`, `Jordi Baylina` (+173 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **1 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -300,15 +285,15 @@ _Questions this graph is uniquely positioned to answer:_
 
 - **What is the exact relationship between `Fully Homomorphic Encryption Using Ideal Lattices` and `CirC: Compiler Infrastructure for Proof Systems, Software Verification, and More`?**
   _Edge tagged AMBIGUOUS (relation: cites) - confidence is low._
-- **Why does `Open Questions and the Road Ahead` connect `Community 0` to `Community 32`, `Community 1`, `Community 2`, `Community 35`, `Community 3`, `Community 5`, `Community 8`, `Community 9`, `Community 41`, `Community 14`, `Community 15`, `Community 20`, `Community 30`?**
-  _High betweenness centrality (0.090) - this node is a cross-community bridge._
-- **Why does `Fiat-Shamir Transform` connect `Community 0` to `Community 1`, `Community 2`, `Community 33`, `Community 4`, `Community 5`, `Community 7`, `Community 8`, `Community 9`, `Community 10`, `Community 14`, `Community 24`, `Community 30`?**
-  _High betweenness centrality (0.083) - this node is a cross-community bridge._
-- **Why does `PLONK: Permutations over Lagrange-bases for Oecumenical Noninteractive arguments of Knowledge` connect `Community 1` to `Community 0`, `Community 5`, `Community 6`, `Community 9`, `Community 43`, `Community 14`, `Community 21`, `Community 24`, `Community 26`, `Community 31`?**
-  _High betweenness centrality (0.075) - this node is a cross-community bridge._
+- **Why does `Open Questions and the Road Ahead` connect `ZK Crypto Foundations` to `Foundations & SoK Surveys`, `Programmable Privacy & Midnight`, `zkVMs & STARK Stacks`, `Circuit Static Analysis (ZKAP)`, `Under-Constrained Circuits (Picus)`, `Fully Homomorphic Encryption`, `Arithmetization & CCS`, `Algebraic RAM Proofs`, `Circuit Verification (Coda)`, `Lattice Functional Commitments`, `KZG Polynomial Commitments`, `Witness Generation & Hardware`, `Jolt Lookup zkVM`, `Sumcheck & Proving Overhead`?**
+  _High betweenness centrality (0.091) - this node is a cross-community bridge._
+- **Why does `Fiat-Shamir Transform` connect `ZK Crypto Foundations` to `Programmable Privacy & Midnight`, `zkVMs & STARK Stacks`, `Nova Folding & IVC`, `Lattice Folding (Symphony)`, `Universal SRS & Ceremonies`, `Bulletproofs & Range Proofs`, `Arithmetization & CCS`, `PLONK & Permutation Arguments`, `HyperNova Multifolding`, `Lattice PCS (Greyhound)`, `KZG Polynomial Commitments`, `Sumcheck & Proving Overhead`?**
+  _High betweenness centrality (0.081) - this node is a cross-community bridge._
+- **Why does `Layer 5 -- The Sealed Certificate` connect `ZK Crypto Foundations` to `Programmable Privacy & Midnight`, `zkVMs & STARK Stacks`, `Nova Folding & IVC`, `Lattice Folding (Symphony)`, `Lattice Folding (Neo)`, `Circle STARKs`, `Arithmetization & CCS`, `PLONK & Permutation Arguments`, `STARK Foundations`, `HyperNova Multifolding`, `Groth16 & Pairing SNARKs`, `Sumcheck SNARKs (CCS/Lattice)`, `Privacy-Enhancing Technologies`, `Sumcheck & Proving Overhead`?**
+  _High betweenness centrality (0.065) - this node is a cross-community bridge._
+- **Are the 2 inferred relationships involving `Folding Scheme` (e.g. with `Proof Recursion` and `Cycles of Elliptic Curves`) actually correct?**
+  _`Folding Scheme` has 2 INFERRED edges - model-reasoned connections that need verification._
 - **What connects `Improvement Backlog`, `Proof Aggregation`, `zkSync Era` to the rest of the system?**
-  _191 weakly-connected nodes found - possible documentation gaps or missing edges._
-- **Should `Community 0` be split into smaller, more focused modules?**
-  _Cohesion score 0.056074766355140186 - nodes in this community are weakly interconnected._
-- **Should `Community 1` be split into smaller, more focused modules?**
-  _Cohesion score 0.05273177232057872 - nodes in this community are weakly interconnected._
+  _178 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Should `Programmable Privacy & Midnight` be split into smaller, more focused modules?**
+  _Cohesion score 0.07412280701754385 - nodes in this community are weakly interconnected._

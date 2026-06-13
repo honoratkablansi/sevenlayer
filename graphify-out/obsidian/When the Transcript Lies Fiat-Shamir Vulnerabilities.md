@@ -1,12 +1,12 @@
 ---
 source_file: "wiki/sections/ch08-when-the-transcript-lies-fiat-shamir-vulnerabilities.md"
 type: "document"
-community: "Community 0"
+community: "ZK Crypto Foundations"
 location: "When the Transcript Lies: Fiat-Shamir Vulnerabilities"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/ZK_Crypto_Foundations
 ---
 
 # When the Transcript Lies: Fiat-Shamir Vulnerabilities
@@ -24,4 +24,4 @@ tags:
 - [[The Social Layer]] - `references` [EXTRACTED]
 - [[Who Verifies the Verifier]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/document #graphify/EXTRACTED #community/ZK_Crypto_Foundations

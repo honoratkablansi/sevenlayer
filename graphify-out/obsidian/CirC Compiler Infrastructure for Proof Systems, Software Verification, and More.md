@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch10/ref-33-circ.pdf"
 type: "paper"
-community: "Community 3"
+community: "Fully Homomorphic Encryption"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_3
+  - community/Fully_Homomorphic_Encryption
 ---
 
 # CirC: Compiler Infrastructure for Proof Systems, Software Verification, and More
@@ -20,4 +20,4 @@ tags:
 - [[Satisfiability Modulo Theories (SMT)]] - `conceptually_related_to` [EXTRACTED]
 - [[Secure Multi-Party Computation (MPC)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_3
+#graphify/paper #graphify/EXTRACTED #community/Fully_Homomorphic_Encryption

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-56-symphony.pdf"
 type: "paper"
-community: "Community 4"
+community: "Lattice Folding (Symphony)"
 location: "page 1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_4
+  - community/Lattice_Folding_Symphony
 ---
 
 # Symphony: Scalable SNARKs in the Random Oracle Model from Lattice-Based High-Arity Folding
@@ -15,7 +15,7 @@ tags:
 - [[Commit-and-prove compiler from RoK to SNARK without FS in circuit (Construction 6.1, Thm 6.1)]] - `introduces` [EXTRACTED]
 - [[Efficiency 200KB proof (PQ), prover dominated by witness commitment, O(loglog n) data passes, O(n) memory]] - `proves` [EXTRACTED]
 - [[Fiat-Shamir Transform]] - `references` [EXTRACTED]
-- [[Folding Schemes]] - `references` [EXTRACTED]
+- [[Folding Scheme]] - `references` [EXTRACTED]
 - [[Halo BGH19 (origin of accumulationfolding, cited prior work)]] - `cites` [EXTRACTED]
 - [[LaBRADOR BS23 (lattice argument, random projection, challenge set, cited prior work)]] - `cites` [EXTRACTED]
 - [[Lattice Cryptography]] - `references` [EXTRACTED]
@@ -35,4 +35,4 @@ tags:
 - [[Two-layer folding via splitting linear-statement RoK (§8), under stronger structured-MSIS]] - `introduces` [EXTRACTED]
 - [[Zero-Knowledge Virtual Machine (zkVM)]] - `references` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_4
+#graphify/paper #graphify/EXTRACTED #community/Lattice_Folding_Symphony

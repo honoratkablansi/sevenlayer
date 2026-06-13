@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/09-privacy-enhancing-technologies.md"
 type: "document"
-community: "Community 3"
+community: "Privacy-Enhancing Technologies"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_3
+  - community/Privacy-Enhancing_Technologies
 ---
 
 # Secure Multi-Party Computation (MPC)
@@ -28,4 +28,4 @@ tags:
 - [[The Incomplete Stack]] - `conceptually_related_to` [EXTRACTED]
 - [[Three Kinds of Security]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_3
+#graphify/document #graphify/EXTRACTED #community/Privacy-Enhancing_Technologies

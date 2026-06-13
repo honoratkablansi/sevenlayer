@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-21-neo.pdf"
 type: "paper"
-community: "Community 11"
+community: "Lattice Folding (Neo)"
 location: "§3.2, Def 13"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_11
+  - community/Lattice_Folding_Neo
 ---
 
 # Neo folding-friendly matrix commitment scheme (Ajtai with new embedding)
@@ -21,4 +21,4 @@ tags:
 - [[Theorem 2 Ajtai scheme is S-homomorphic and (d,m,B)-binding under MSIS]] - `proves` [EXTRACTED]
 - [[b-bit-word embedding of Fm into low-norm cyclotomic ring vector]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_11
+#graphify/paper #graphify/EXTRACTED #community/Lattice_Folding_Neo

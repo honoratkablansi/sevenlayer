@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-04-kzg-commitments.pdf"
 type: "paper"
-community: "Community 18"
+community: "KZG Polynomial Commitments"
 location: "§4.2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_18
+  - community/KZG_Polynomial_Commitments
 ---
 
 # Zero-Knowledge Set (Micali et al.)
@@ -15,4 +15,4 @@ tags:
 - [[Constant-Size Commitments to Polynomials and Their Applications]] - `cites` [EXTRACTED]
 - [[Nearly Zero-Knowledge Set  ZK-EDB]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_18
+#graphify/paper #graphify/EXTRACTED #community/KZG_Polynomial_Commitments

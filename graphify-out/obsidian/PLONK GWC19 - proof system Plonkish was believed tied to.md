@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch03/ref-14-ccs-customizable-constraints.pdf"
 type: "paper"
-community: "Community 1"
+community: "Arithmetization & CCS"
 location: "refs [GWC19]"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_1
+  - community/Arithmetization__CCS
 ---
 
 # PLONK [GWC19] - proof system Plonkish was believed tied to
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[PLONKish Arithmetization]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_1
+#graphify/paper #graphify/EXTRACTED #community/Arithmetization__CCS

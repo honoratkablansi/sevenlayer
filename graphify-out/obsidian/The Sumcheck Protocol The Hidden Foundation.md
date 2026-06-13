@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch05-the-sumcheck-protocol-the-hidden-foundation.md"
 type: "document"
-community: "Community 1"
+community: "Sumcheck & Proving Overhead"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_1
+  - community/Sumcheck__Proving_Overhead
 ---
 
 # The Sumcheck Protocol: The Hidden Foundation
@@ -16,7 +16,7 @@ tags:
 - [[CCS The Rosetta Stone]] - `references` [EXTRACTED]
 - [[Encoding the Performance]] - `part_of` [EXTRACTED]
 - [[Fiat-Shamir Transform]] - `references` [EXTRACTED]
-- [[Folding Schemes]] - `references` [EXTRACTED]
+- [[Folding Scheme]] - `references` [EXTRACTED]
 - [[GKR Protocol]] - `references` [EXTRACTED]
 - [[Groth16]] - `references` [EXTRACTED]
 - [[HyperNova]] - `references` [EXTRACTED]
@@ -35,4 +35,4 @@ tags:
 - [[Where the Layers Collapse]] - `references` [EXTRACTED]
 - [[Witness Generation Costs]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_1
+#graphify/document #graphify/EXTRACTED #community/Sumcheck__Proving_Overhead

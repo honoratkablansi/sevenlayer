@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch03-compact-s-disclosure-analysis.md"
 type: "document"
-community: "Community 5"
+community: "Programmable Privacy & Midnight"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_5
+  - community/Programmable_Privacy__Midnight
 ---
 
 # Compact's Disclosure Analysis
@@ -28,4 +28,4 @@ tags:
 - [[Where Midnight Challenges the Model]] - `references` [EXTRACTED]
 - [[Where Midnight Validates the Model]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_5
+#graphify/document #graphify/EXTRACTED #community/Programmable_Privacy__Midnight

@@ -1,12 +1,12 @@
 ---
 source_file: "wiki/sections/ch04-side-channel-attacks-when-the-walls-leak.md"
 type: "document"
-community: "Community 5"
+community: "ZK Crypto Foundations"
 location: "Dependencies"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_5
+  - community/ZK_Crypto_Foundations
 ---
 
 # Algebraic vs Traditional Hash Functions
@@ -17,7 +17,7 @@ tags:
 - [[Layer 6 -- The Deep Craft]] - `part_of` [EXTRACTED]
 - [[Midnight]] - `references` [EXTRACTED]
 - [[Poseidon Hash]] - `references` [EXTRACTED]
-- [[STARKs]] - `references` [EXTRACTED]
+- [[STARK (Scalable Transparent ARgument of Knowledge)]] - `references` [EXTRACTED]
 - [[Side-Channel Attacks When the Walls Leak]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_5
+#graphify/document #graphify/EXTRACTED #community/ZK_Crypto_Foundations

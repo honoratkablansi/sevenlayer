@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-19-protostar.pdf"
 type: "paper"
-community: "Community 10"
+community: "Nova Folding & IVC"
 location: "§2.1 Def 3, §3.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_10
+  - community/Nova_Folding__IVC
 ---
 
 # (2k-1)-Move Special-Sound Protocol with Algebraic Verifier
@@ -21,4 +21,4 @@ tags:
 - [[Permutation Relation Sub-Protocol Pi_sigma (degree 1)]] - `defines` [EXTRACTED]
 - [[Protostar Generic Efficient AccumulationFolding for Special-sound Protocols]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_10
+#graphify/paper #graphify/EXTRACTED #community/Nova_Folding__IVC

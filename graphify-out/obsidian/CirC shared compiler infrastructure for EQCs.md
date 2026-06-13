@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-33-circ.pdf"
 type: "paper"
-community: "Community 3"
+community: "CirC Compiler Infrastructure"
 location: "§1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_3
+  - community/CirC_Compiler_Infrastructure
 ---
 
 # CirC: shared compiler infrastructure for EQCs
@@ -19,4 +19,4 @@ tags:
 - [[LLVM Compiler Infrastructure]] - `cites` [EXTRACTED]
 - [[Secure Multi-Party Computation (MPC)]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_3
+#graphify/paper #graphify/EXTRACTED #community/CirC_Compiler_Infrastructure

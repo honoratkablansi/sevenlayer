@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch05-lookup-arguments.md"
 type: "document"
-community: "Community 1"
+community: "Sumcheck & Proving Overhead"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_1
+  - community/Sumcheck__Proving_Overhead
 ---
 
 # Lookup Arguments
@@ -38,4 +38,4 @@ tags:
 - [[The Sumcheck Protocol The Hidden Foundation]] - `references` [EXTRACTED]
 - [[Where the Layers Collapse]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_1
+#graphify/document #graphify/EXTRACTED #community/Sumcheck__Proving_Overhead

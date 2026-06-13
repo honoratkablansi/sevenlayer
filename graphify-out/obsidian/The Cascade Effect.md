@@ -1,12 +1,12 @@
 ---
 source_file: "wiki/sections/ch07-the-cascade-effect.md"
 type: "document"
-community: "Community 8"
+community: "ZK Crypto Foundations"
 location: "The Cascade Effect"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_8
+  - community/ZK_Crypto_Foundations
 ---
 
 # The Cascade Effect
@@ -19,7 +19,7 @@ tags:
 - [[Case Study Midnight (Layer 6)]] - `references` [EXTRACTED]
 - [[Circle STARKs]] - `references` [EXTRACTED]
 - [[FRI]] - `references` [EXTRACTED]
-- [[Folding Schemes]] - `references` [EXTRACTED]
+- [[Folding Scheme]] - `references` [EXTRACTED]
 - [[Goldilocks Field]] - `references` [EXTRACTED]
 - [[KZG Polynomial Commitments]] - `references` [EXTRACTED]
 - [[Lattice-Based Proving]] - `references` [EXTRACTED]
@@ -31,4 +31,4 @@ tags:
 - [[The One-Way Door]] - `references` [EXTRACTED]
 - [[Zcash]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_8
+#graphify/document #graphify/EXTRACTED #community/ZK_Crypto_Foundations

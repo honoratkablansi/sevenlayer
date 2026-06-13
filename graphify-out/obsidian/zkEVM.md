@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch03-the-four-philosophies.md"
 type: "document"
-community: "Community 42"
+community: "zkVMs & STARK Stacks"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_42
+  - community/zkVMs__STARK_Stacks
 ---
 
 # zkEVM
@@ -20,4 +20,4 @@ tags:
 - [[ZK Proofs Is Privacy Cheap Enough to Be Mainstream (Castle Labs)]] - `references` [EXTRACTED]
 - [[Zero-Knowledge Proof Market Size, Share & Trends Analysis Report (Grand View Research)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_42
+#graphify/document #graphify/EXTRACTED #community/zkVMs__STARK_Stacks

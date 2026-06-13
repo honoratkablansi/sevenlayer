@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-61-arguzz.pdf"
 type: "paper"
-community: "Community 12"
+community: "zkVM Fuzzing (Arguzz)"
 location: "§4.2 RQ2, Tab.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_12
+  - community/zkVM_Fuzzing_Arguzz
 ---
 
 # JOLT bug#6 (soundness): unconstrained immediate operand in lui instruction
@@ -15,4 +15,4 @@ tags:
 - [[Evaluation across 6 RISC-V zkVMs; 11 bugs (3 soundness FI, 8 completeness MT) in 3 of them]] - `conceptually_related_to` [EXTRACTED]
 - [[INSTR_WORD_MOD instruction-modification injection (universal; triggered all 3 soundness bugs)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_12
+#graphify/paper #graphify/EXTRACTED #community/zkVM_Fuzzing_Arguzz

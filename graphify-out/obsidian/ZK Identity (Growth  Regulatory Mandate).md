@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch13-zk-identity-growth-regulatory-mandate.md"
 type: "document"
-community: "Community 25"
+community: "ZK Identity & Enterprise"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_25
+  - community/ZK_Identity__Enterprise
 ---
 
 # ZK Identity (Growth / Regulatory Mandate)
@@ -22,4 +22,4 @@ tags:
 - [[ZK Identity]] - `defines` [EXTRACTED]
 - [[eIDAS 2.0]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_25
+#graphify/document #graphify/EXTRACTED #community/ZK_Identity__Enterprise

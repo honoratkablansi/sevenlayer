@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/10-the-synthesis-three-paths-not-two.md"
 type: "document"
-community: "Community 2"
+community: "ZK Crypto Foundations"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_2
+  - community/ZK_Crypto_Foundations
 ---
 
 # The Synthesis -- Three Paths, Not Two
@@ -23,7 +23,7 @@ tags:
 - [[FIPS 204 Module-Lattice-Based Digital Signature Standard]] - `cites` [EXTRACTED]
 - [[FRI]] - `references` [EXTRACTED]
 - [[Fiat-Shamir Transform]] - `references` [EXTRACTED]
-- [[Folding Schemes]] - `references` [EXTRACTED]
+- [[Folding Scheme]] - `references` [EXTRACTED]
 - [[Frozen Heart Vulnerability]] - `references` [EXTRACTED]
 - [[Frozen Heart Forgery of Zero Knowledge Proofs (Trail of Bits, 2022)]] - `cites` [EXTRACTED]
 - [[Greyhound Fast Polynomial Commitments from Lattices]] - `cites` [EXTRACTED]
@@ -47,10 +47,10 @@ tags:
 - [[Proof Recursion]] - `references` [EXTRACTED]
 - [[Proving Nothing]] - `part_of` [EXTRACTED]
 - [[SP1 Hypercube Proving Ethereum in Real-Time (Succinct Labs)]] - `references` [EXTRACTED]
-- [[STARKs]] - `references` [EXTRACTED]
+- [[STARK (Scalable Transparent ARgument of Knowledge)]] - `references` [EXTRACTED]
 - [[Sevenlayer Wiki Index]] - `references` [EXTRACTED]
 - [[Shipping an L1 zkEVM 2 The Security Foundations (Ethereum Foundation)]] - `references` [EXTRACTED]
-- [[Small-Field Proving]] - `references` [EXTRACTED]
+- [[Small prime fields (machine-register-sized Goldilocks, M61)]] - `references` [EXTRACTED]
 - [[Symphony Scalable SNARKs in the Random Oracle Model from Lattice-Based High-Arity Folding]] - `cites` [EXTRACTED]
 - [[The Binary That Broke]] - `part_of` [EXTRACTED]
 - [[The Causal Web Why It Is a DAG, Not a Stack]] - `part_of` [EXTRACTED]
@@ -64,4 +64,4 @@ tags:
 - [[Zcash]] - `references` [EXTRACTED]
 - [[zkEVM]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_2
+#graphify/document #graphify/EXTRACTED #community/ZK_Crypto_Foundations

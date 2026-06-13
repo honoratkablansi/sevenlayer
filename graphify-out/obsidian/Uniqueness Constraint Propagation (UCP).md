@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch03/ref-12-underconstrained-circuits.pdf"
 type: "paper"
-community: "Community 23"
+community: "QED2 Detection Algorithm"
 location: "§5.1 Algorithm 2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_23
+  - community/QED2_Detection_Algorithm
 ---
 
 # Uniqueness Constraint Propagation (UCP)
@@ -18,4 +18,4 @@ tags:
 - [[Underconstrained Circuits]] - `conceptually_related_to` [EXTRACTED]
 - [[Verify Algorithm (Algorithm 1)]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_23
+#graphify/paper #graphify/EXTRACTED #community/QED2_Detection_Algorithm

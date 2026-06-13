@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch13/ref-59-world-whitepaper.pdf"
 type: "paper"
-community: "Community 40"
+community: "Proof of Personhood & eIDAS"
 location: "page 1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_40
+  - community/Proof_of_Personhood__eIDAS
 ---
 
 # World Whitepapers (World Network: Proof of Human)
@@ -18,4 +18,4 @@ tags:
 - [[The Market Landscape]] - `cites` [EXTRACTED]
 - [[World ID]] - `references` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_40
+#graphify/paper #graphify/EXTRACTED #community/Proof_of_Personhood__eIDAS

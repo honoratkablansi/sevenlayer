@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-11-latticefold-plus.pdf"
 type: "paper"
-community: "Community 29"
+community: "Sumcheck SNARKs (CCS/Lattice)"
 location: "§4.4"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_29
+  - community/Sumcheck_SNARKs_CCS/Lattice
 ---
 
 # Commitment Transformation Protocol Pi_cm
@@ -19,4 +19,4 @@ tags:
 - [[Sumcheck Protocol]] - `conceptually_related_to` [EXTRACTED]
 - [[Theorem 4.3 Pi_cm is a RoK from R_rg,B to R_com]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_29
+#graphify/paper #graphify/EXTRACTED #community/Sumcheck_SNARKs_CCS/Lattice

@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/03-choreographing-the-act.md"
 type: "document"
-community: "Community 1"
+community: "zkVMs & STARK Stacks"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_1
+  - community/zkVMs__STARK_Stacks
 ---
 
 # Zero-Knowledge Virtual Machine (zkVM)
@@ -43,4 +43,4 @@ tags:
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 - [[zkVMs Across the Stack]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_1
+#graphify/document #graphify/EXTRACTED #community/zkVMs__STARK_Stacks

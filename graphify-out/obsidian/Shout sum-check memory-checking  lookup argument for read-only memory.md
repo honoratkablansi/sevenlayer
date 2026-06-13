@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-45-small-space-cpu-proofs.pdf"
 type: "paper"
-community: "Community 1"
+community: "Small-Space Proving (Twist/Shout)"
 location: "§3.3 (Overview of Shout)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_1
+  - community/Small-Space_Proving_Twist/Shout
 ---
 
 # Shout: sum-check memory-checking / lookup argument for read-only memory
@@ -16,4 +16,4 @@ tags:
 - [[Sumcheck Protocol]] - `assumes` [EXTRACTED]
 - [[Twist and Shout Memory-Checking Arguments]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_1
+#graphify/paper #graphify/EXTRACTED #community/Small-Space_Proving_Twist/Shout

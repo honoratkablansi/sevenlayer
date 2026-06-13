@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/07-the-deep-craft.md"
 type: "document"
-community: "Community 8"
+community: "ZK Crypto Foundations"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_8
+  - community/ZK_Crypto_Foundations
 ---
 
 # Layer 6 -- The Deep Craft
@@ -30,7 +30,7 @@ tags:
 - [[FIPS 203 Module-Lattice-Based Key-Encapsulation Mechanism Standard (with FIPS 204205)]] - `cites` [EXTRACTED]
 - [[FRI]] - `references` [EXTRACTED]
 - [[Fiat-Shamir Transform]] - `references` [EXTRACTED]
-- [[Folding Schemes]] - `references` [EXTRACTED]
+- [[Folding Scheme]] - `references` [EXTRACTED]
 - [[Four Families of Commitment Schemes]] - `part_of` [EXTRACTED]
 - [[Goldilocks Field]] - `references` [EXTRACTED]
 - [[Greyhound Fast Polynomial Commitments from Lattices]] - `cites` [EXTRACTED]
@@ -38,7 +38,7 @@ tags:
 - [[Halo]] - `references` [EXTRACTED]
 - [[Halo 2]] - `references` [EXTRACTED]
 - [[Harvest Now Decrypt Later (HNDL)]] - `defines` [EXTRACTED]
-- [[Inner Product Arguments (IPA)]] - `references` [EXTRACTED]
+- [[Inner-Product Argument]] - `references` [EXTRACTED]
 - [[Jubjub curve]] - `references` [EXTRACTED]
 - [[KZG Polynomial Commitments]] - `references` [EXTRACTED]
 - [[Lattice Cryptography]] - `references` [EXTRACTED]
@@ -60,11 +60,11 @@ tags:
 - [[Post-Quantum Cryptography]] - `references` [EXTRACTED]
 - [[Proving Nothing]] - `part_of` [EXTRACTED]
 - [[Reinforced Concrete Hash]] - `references` [EXTRACTED]
-- [[STARKs]] - `references` [EXTRACTED]
+- [[STARK (Scalable Transparent ARgument of Knowledge)]] - `references` [EXTRACTED]
 - [[Sevenlayer Wiki Index]] - `references` [EXTRACTED]
-- [[Shor's Algorithm_1]] - `references` [EXTRACTED]
+- [[Shor's Algorithm]] - `references` [EXTRACTED]
 - [[Small Fields]] - `part_of` [EXTRACTED]
-- [[Small-Field Proving]] - `references` [EXTRACTED]
+- [[Small prime fields (machine-register-sized Goldilocks, M61)]] - `references` [EXTRACTED]
 - [[Symphony Scalable SNARKs in the Random Oracle Model from Lattice-Based High-Arity Folding]] - `cites` [EXTRACTED]
 - [[The Cascade Effect]] - `part_of` [EXTRACTED]
 - [[The Laws That Break]] - `part_of` [EXTRACTED]
@@ -77,4 +77,4 @@ tags:
 - [[Trusted Setup]] - `references` [EXTRACTED]
 - [[Zcash]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_8
+#graphify/document #graphify/EXTRACTED #community/ZK_Crypto_Foundations

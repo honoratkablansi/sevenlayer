@@ -1,12 +1,12 @@
 ---
 source_file: "wiki/sections/ch08-the-social-layer.md"
 type: "document"
-community: "Community 0"
+community: "Programmable Privacy & Midnight"
 location: "The Social Layer"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Programmable_Privacy__Midnight
 ---
 
 # The Social Layer
@@ -23,4 +23,4 @@ tags:
 - [[The Price of a Verdict]] - `references` [EXTRACTED]
 - [[When the Transcript Lies Fiat-Shamir Vulnerabilities]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/document #graphify/EXTRACTED #community/Programmable_Privacy__Midnight

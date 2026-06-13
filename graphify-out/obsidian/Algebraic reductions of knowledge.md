@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-21-neo.pdf"
 type: "paper"
-community: "Community 4"
+community: "Lattice Folding (Neo)"
 location: "[38,39]"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_4
+  - community/Lattice_Folding_Neo
 ---
 
 # Algebraic reductions of knowledge
@@ -15,4 +15,4 @@ tags:
 - [[Neo Lattice-based Folding Scheme for CCS over Small Fields and Pay-per-bit Commitments]] - `cites` [EXTRACTED]
 - [[Reductions of knowledge framework]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_4
+#graphify/paper #graphify/EXTRACTED #community/Lattice_Folding_Neo

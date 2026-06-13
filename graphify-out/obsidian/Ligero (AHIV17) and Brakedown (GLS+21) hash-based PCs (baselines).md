@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-65-greyhound.pdf"
 type: "paper"
-community: "Community 14"
+community: "Lattice PCS (Greyhound)"
 location: "§1.1, Tables 1-2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_14
+  - community/Lattice_PCS_Greyhound
 ---
 
 # Ligero (AHIV17) and Brakedown (GLS+21) hash-based PCs (baselines)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Efficiency O(sqrt N) verifier, polylog proof, 53KB at N=230]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_14
+#graphify/paper #graphify/EXTRACTED #community/Lattice_PCS_Greyhound

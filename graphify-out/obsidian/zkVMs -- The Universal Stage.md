@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/11-zkvms-the-universal-stage.md"
 type: "document"
-community: "Community 2"
+community: "zkVMs & STARK Stacks"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_2
+  - community/zkVMs__STARK_Stacks
 ---
 
 # zkVMs -- The Universal Stage
@@ -20,7 +20,7 @@ tags:
 - [[Circle STARKs]] - `references` [EXTRACTED]
 - [[Evaluating Compiler Optimization Impacts on zkVM Performance]] - `cites` [EXTRACTED]
 - [[FRI]] - `references` [EXTRACTED]
-- [[Folding Schemes]] - `references` [EXTRACTED]
+- [[Folding Scheme]] - `references` [EXTRACTED]
 - [[Goldilocks Field]] - `references` [EXTRACTED]
 - [[Groth16]] - `references` [EXTRACTED]
 - [[Hyrax Commitment Scheme]] - `references` [EXTRACTED]
@@ -44,10 +44,10 @@ tags:
 - [[RISC-V Convergence]] - `part_of` [EXTRACTED]
 - [[SP1  SP1 Hypercube]] - `references` [EXTRACTED]
 - [[SP1 Hypercube Proving Ethereum in Real-Time (Succinct Labs)]] - `references` [EXTRACTED]
-- [[STARKs]] - `references` [EXTRACTED]
+- [[STARK (Scalable Transparent ARgument of Knowledge)]] - `references` [EXTRACTED]
 - [[Sevenlayer Wiki Index]] - `references` [EXTRACTED]
 - [[Shipping an L1 zkEVM 2 The Security Foundations (Ethereum Foundation)]] - `references` [EXTRACTED]
-- [[Small-Field Proving]] - `references` [EXTRACTED]
+- [[Small prime fields (machine-register-sized Goldilocks, M61)]] - `references` [EXTRACTED]
 - [[Spartan]] - `references` [EXTRACTED]
 - [[Stwo]] - `references` [EXTRACTED]
 - [[Sumcheck Protocol]] - `references` [EXTRACTED]
@@ -61,4 +61,4 @@ tags:
 - [[Zero-Knowledge Virtual Machine (zkVM)]] - `references` [EXTRACTED]
 - [[zkVMs Across the Stack]] - `part_of` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_2
+#graphify/document #graphify/EXTRACTED #community/zkVMs__STARK_Stacks

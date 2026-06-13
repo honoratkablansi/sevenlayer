@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-62-lattice-functional-commitments.pdf"
 type: "paper"
-community: "Community 20"
+community: "Lattice Functional Commitments"
 location: "§3, Theorem 3.6"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_20
+  - community/Lattice_Functional_Commitments
 ---
 
 # Theorem 3.6: Computational Binding of Construction 3.2 under l-succinct SIS
@@ -15,4 +15,4 @@ tags:
 - [[Construction 3.2 Functional Commitment for Constant-Degree Polynomials]] - `proves` [EXTRACTED]
 - [[l-Succinct SIS Assumption (falsifiable q-type generalization of SIS, trapdoor for I_l ⊗ A  W)]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_20
+#graphify/paper #graphify/EXTRACTED #community/Lattice_Functional_Commitments

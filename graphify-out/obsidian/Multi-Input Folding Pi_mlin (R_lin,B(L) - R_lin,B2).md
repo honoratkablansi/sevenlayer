@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-11-latticefold-plus.pdf"
 type: "paper"
-community: "Community 4"
+community: "ZK Crypto Foundations"
 location: "§5.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_4
+  - community/ZK_Crypto_Foundations
 ---
 
 # Multi-Input Folding Pi_mlin (R_lin,B^(L) -> R_lin,B^2)
@@ -16,4 +16,4 @@ tags:
 - [[Generalized Committed Linear Relation R_lin,B]] - `conceptually_related_to` [EXTRACTED]
 - [[LatticeFold+ Folding Scheme (R_comp x R_acc - R_acc)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_4
+#graphify/paper #graphify/EXTRACTED #community/ZK_Crypto_Foundations

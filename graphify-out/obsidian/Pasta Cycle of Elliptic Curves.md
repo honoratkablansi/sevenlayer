@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-17-nova.pdf"
 type: "paper"
-community: "Community 9"
+community: "Nova Folding & IVC"
 location: "§1.3, ref [4]"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_9
+  - community/Nova_Folding__IVC
 ---
 
 # Pasta Cycle of Elliptic Curves
@@ -15,4 +15,4 @@ tags:
 - [[Cycles of Elliptic Curves]] - `conceptually_related_to` [EXTRACTED]
 - [[Nova Recursive Zero-Knowledge Arguments from Folding Schemes]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_9
+#graphify/paper #graphify/EXTRACTED #community/Nova_Folding__IVC

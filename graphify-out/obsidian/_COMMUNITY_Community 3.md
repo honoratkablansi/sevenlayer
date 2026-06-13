@@ -1,68 +1,64 @@
 ---
 type: community
-cohesion: 0.09
-members: 53
+cohesion: 0.07
+members: 49
 ---
 
 # Community 3
 
-**Cohesion:** 0.09 - loosely connected
-**Members:** 53 nodes
+**Cohesion:** 0.07 - loosely connected
+**Members:** 49 nodes
 
 ## Members
-- [[Automated find-and-prove-bug pipeline (SMT + ZKP)]] - paper - references/ch10/ref-33-circ.pdf
-- [[Aztec]] - document - wiki/sections/ch09-open-problems.md
-- [[Bootstrapping (FHE)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
-- [[Breakable block (exceptional control flow construct)]] - paper - references/ch10/ref-33-circ.pdf
-- [[CirC ILP back-end (CBC solver)]] - paper - references/ch10/ref-33-circ.pdf
-- [[CirC R1CS back-end (lowering pass)]] - paper - references/ch10/ref-33-circ.pdf
-- [[CirC SMT back-end (Z3 Haskell bindings)]] - paper - references/ch10/ref-33-circ.pdf
-- [[CirC ZoKratesZ front-end]] - paper - references/ch10/ref-33-circ.pdf
-- [[CirC-IR (SMT-LIB-based circuit IR)]] - paper - references/ch10/ref-33-circ.pdf
-- [[CirC Compiler Infrastructure for Proof Systems, Software Verification, and More]] - paper - references/ch10/ref-33-circ.pdf
-- [[CirC shared compiler infrastructure for EQCs]] - paper - references/ch10/ref-33-circ.pdf
-- [[Circify language-independent state-management library]] - paper - references/ch10/ref-33-circ.pdf
-- [[CollaborativeThreshold Proving]] - document - proving-nothing.md
-- [[Compiler intermediate representation]] - paper - references/ch10/ref-33-circ.pdf
-- [[Composability When One PET Is Not Enough]] - document - wiki/sections/ch09-composability-when-one-pet-is-not-enough.md
-- [[Constant folding  SMT term rewriting pass]] - paper - references/ch10/ref-33-circ.pdf
-- [[Craig Gentry]] - paper - references/ch09/ref-29-gentry-fhe.pdf
-- [[Differential Privacy]] - document - wiki/sections/ch09-composability-when-one-pet-is-not-enough.md
-- [[Existentially Quantified Circuit (EQC)]] - paper - references/ch10/ref-33-circ.pdf
-- [[Fine-grained array modeling]] - paper - references/ch10/ref-33-circ.pdf
-- [[Fully Homomorphic Encryption (FHE)]] - document - wiki/chapters/09-privacy-enhancing-technologies.md
-- [[Fully Homomorphic Encryption Using Ideal Lattices]] - paper - references/ch09/ref-29-gentry-fhe.pdf
-- [[GDPR]] - document - wiki/sections/ch09-the-regulatory-intersection.md
-- [[Garbled Circuits]] - document - proving-nothing.md
-- [[Guarded SSA versioning via ITE terms]] - paper - references/ch10/ref-33-circ.pdf
-- [[Kachina]] - document - wiki/chapters/09-privacy-enhancing-technologies.md
-- [[LLVM Compiler Infrastructure]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
-- [[Linearity reduction (R1CS-specific optimization)]] - paper - references/ch10/ref-33-circ.pdf
-- [[Oblivious Transfer]] - document - proving-nothing.md
-- [[Oblivious array elimination pass]] - paper - references/ch10/ref-33-circ.pdf
-- [[Open Problems]] - document - wiki/sections/ch09-open-problems.md
-- [[Privacy Architectures for Smart Contracts Kachina and Zexe]] - document - wiki/sections/ch09-privacy-architectures-for-smart-contracts-kachina-and-zexe.md
-- [[Privacy Pools]] - document - wiki/sections/ch09-real-world-deployments-five-case-studies.md
-- [[Privacy-Enhancing Technologies]] - document - wiki/chapters/09-privacy-enhancing-technologies.md
-- [[Private Information Retrieval (PIR)]] - document - wiki/sections/ch09-open-problems.md
-- [[Private Set Intersection (PSI)]] - document - proving-nothing.md
-- [[Real-World Deployments Five Case Studies]] - document - wiki/sections/ch09-real-world-deployments-five-case-studies.md
-- [[SMT-guided loop-unroll bound inference]] - paper - references/ch10/ref-33-circ.pdf
-- [[Satisfiability Modulo Theories (SMT)]] - paper - references/ch10/ref-33-circ.pdf
-- [[Secure Multi-Party Computation (MPC)]] - document - wiki/chapters/09-privacy-enhancing-technologies.md
-- [[The Decision Matrix]] - document - wiki/sections/ch09-the-decision-matrix.md
-- [[The Four Pillars]] - document - wiki/sections/ch09-the-four-pillars.md
-- [[The Incomplete Stack]] - document - wiki/sections/ch09-the-incomplete-stack.md
-- [[The Regulatory Intersection]] - document - wiki/sections/ch09-the-regulatory-intersection.md
-- [[Three Kinds of Security]] - document - wiki/sections/ch09-three-kinds-of-security.md
-- [[Trusted Execution Environment (TEE)]] - document - wiki/chapters/09-privacy-enhancing-technologies.md
-- [[Verifiable FHE (zkFHE)]] - document - proving-nothing.md
-- [[ZKlog Datalog dialect front-end]] - paper - references/ch10/ref-33-circ.pdf
-- [[Zero-Knowledge Proofs]] - document - wiki/sections/ch09-the-four-pillars.md
-- [[Zero-knowledge proof system]] - paper - references/ch10/ref-33-circ.pdf
-- [[Zexe]] - document - wiki/chapters/06-the-sealed-certificate.md
-- [[eIDAS 2.0]] - document - wiki/sections/ch09-the-regulatory-intersection.md
-- [[zKYC (Zero-Knowledge Know Your Customer)]] - document - wiki/sections/ch09-the-regulatory-intersection.md
+- [[(2k-1)-Move Special-Sound Protocol with Algebraic Verifier]] - paper - references/ch06/ref-19-protostar.pdf
+- [[Accumulation Scheme (P_acc, V_acc, D) for NARK Verifier with Slack mu and Error Commitment E]] - paper - references/ch06/ref-19-protostar.pdf
+- [[Accumulation Schemes]] - document - references/ch06/ref-19-protostar.pdf
+- [[Augmented Function F' (verifier circuit folding step)]] - paper - references/ch06/ref-17-nova.pdf
+- [[BCLMS21 'PCD Without Succinct Arguments' (cited, accumulation-IVC compiler  Theorem 1)]] - paper - references/ch06/ref-19-protostar.pdf
+- [[Branched-Gate Caching for Non-Uniform Error Terms (cost ~ C_pc not sum C_i)]] - paper - references/ch06/ref-19-protostar.pdf
+- [[CVPi_sps High-Degree Verifier Compression (l checks - 1 degree-(d+2) check + 2 sqrt(l) degree-2 checks)]] - paper - references/ch06/ref-19-protostar.pdf
+- [[Circuit Selection Sub-Protocol Pi_select (program-counter one-hot, degree 2)]] - paper - references/ch06/ref-19-protostar.pdf
+- [[Commit-and-Open Transform cmPi_sps (Lemma 2)]] - paper - references/ch06/ref-19-protostar.pdf
+- [[Constant Recursion Overhead (~10,000 R1CS constraints, two scalar mults)]] - paper - references/ch06/ref-17-nova.pdf
+- [[Corollary 1 Protostar Prover Cost (recursive circuit = 3 group scalar mults + hash of d field elements)]] - paper - references/ch06/ref-19-protostar.pdf
+- [[Cross Error-Correcting Terms e_j_{j=1}{d-1} as Accumulation Proof]] - paper - references/ch06/ref-19-protostar.pdf
+- [[Cycles of Elliptic Curves]] - document - references/ch06/ref-17-nova.pdf
+- [[Folding Scheme for Committed Relaxed R1CS (Construction 1)]] - paper - references/ch06/ref-17-nova.pdf
+- [[Forking Lemma for Folding Schemes (Lemma 1)]] - paper - references/ch06/ref-17-nova.pdf
+- [[Generic AccumulationFolding Compiler for Special-Sound Protocols (4-step workflow)]] - paper - references/ch06/ref-19-protostar.pdf
+- [[Halo Recursive Proof Composition]] - paper - references/ch06/ref-17-nova.pdf
+- [[High-Degree Custom Gate Relation Sub-Protocol Pi_GATE (degree d)]] - paper - references/ch06/ref-19-protostar.pdf
+- [[Homomorphic  Trapdoor Commitment Property]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Homomorphic Sparse Error-Commitment Update for Lookups (O(l) indep. of T)]] - paper - references/ch06/ref-19-protostar.pdf
+- [[HyperNova Folding Scheme KS23 (cited, concurrent CCS multi-folding)]] - paper - references/ch06/ref-19-protostar.pdf
+- [[Incrementally Verifiable Computation (IVC)]] - document - wiki/sections/ch06-recursion-vs-folding-russian-dolls-and-snowballs.md
+- [[Log-Derivative Lookup Argument (Habock)]] - paper - references/ch06/ref-19-protostar.pdf
+- [[Lookup Relation Sub-Protocol Pi_LK (3-move, degree 2, prover indep. of table size T)]] - paper - references/ch06/ref-19-protostar.pdf
+- [[Non-Interactive Folding Scheme via Fiat-Shamir (Construction 2)]] - paper - references/ch06/ref-17-nova.pdf
+- [[Nova Folding Scheme KST22 (cited, R1CS k=1 d=2 case)]] - paper - references/ch06/ref-19-protostar.pdf
+- [[Nova IVC Knowledge Soundness (Lemma 3  Lemma 10)]] - paper - references/ch06/ref-17-nova.pdf
+- [[Nova IVC Scheme (Construction 3)]] - paper - references/ch06/ref-17-nova.pdf
+- [[Nova Recursive Zero-Knowledge Arguments from Folding Schemes]] - paper - references/ch06/ref-17-nova.pdf
+- [[Pasta Cycle of Elliptic Curves]] - paper - references/ch06/ref-17-nova.pdf
+- [[Permutation Relation Sub-Protocol Pi_sigma (degree 1)]] - paper - references/ch06/ref-19-protostar.pdf
+- [[Plonkup  Plonkish Circuit-Satisfiability Relation]] - paper - references/ch06/ref-19-protostar.pdf
+- [[Polynomial IOP for Idealized Relaxed R1CS (Construction 5)]] - paper - references/ch06/ref-17-nova.pdf
+- [[Protostar Generic Efficient AccumulationFolding for Special-sound Protocols]] - paper - references/ch06/ref-19-protostar.pdf
+- [[Protostar Non-Uniform IVC Scheme for Multi-Circuit Plonkup R_mplkup]] - paper - references/ch06/ref-19-protostar.pdf
+- [[RO-NARK FScmPi_sps from Special-Sound Protocol]] - paper - references/ch06/ref-19-protostar.pdf
+- [[Recursive Proof Composition]] - paper - references/ch06/ref-17-nova.pdf
+- [[Relaxed Algebraic Verifier Predicate sum mu(d-j) f_j = e]] - paper - references/ch06/ref-19-protostar.pdf
+- [[Sangria Moh23 (cited, Plonk degree-2 folding)]] - paper - references/ch06/ref-19-protostar.pdf
+- [[Spartan zkSNARK]] - paper - references/ch06/ref-17-nova.pdf
+- [[Sum-Check Protocol]] - paper - references/ch06/ref-17-nova.pdf
+- [[Sumcheck-Style Error-Term Computation Algorithm O(d2 log d)]] - paper - references/ch06/ref-19-protostar.pdf
+- [[SuperNova KS22 (cited, non-uniform IVC predecessor)]] - paper - references/ch06/ref-19-protostar.pdf
+- [[Theorem 2 Accumulation Knowledge Soundness (d+1)-special-sound, error (Q+1)(d+1)F]] - paper - references/ch06/ref-19-protostar.pdf
+- [[Theorem 3 Folding Scheme Completeness, Knowledge Soundness, ZK]] - paper - references/ch06/ref-17-nova.pdf
+- [[Theorem 3 IVC for High-Degree Special-Sound Protocols (recursive circuit k+d-1 or k+2 scalar mults)]] - paper - references/ch06/ref-19-protostar.pdf
+- [[Vector-Valued Lookup Sub-Protocol Pi_VLK (5-move, degree 3)]] - paper - references/ch06/ref-19-protostar.pdf
+- [[zkSNARK for Committed Relaxed R1CS (adapted Spartan)]] - paper - references/ch06/ref-17-nova.pdf
+- [[zkSNARK of a Valid IVC Proof (Construction 4)]] - paper - references/ch06/ref-17-nova.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -72,22 +68,19 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 13 edges to [[_COMMUNITY_Community 0]]
-- 5 edges to [[_COMMUNITY_Community 5]]
-- 5 edges to [[_COMMUNITY_Community 1]]
-- 4 edges to [[_COMMUNITY_Community 9]]
-- 4 edges to [[_COMMUNITY_Community 8]]
-- 4 edges to [[_COMMUNITY_Community 25]]
-- 3 edges to [[_COMMUNITY_Community 38]]
-- 2 edges to [[_COMMUNITY_Community 30]]
-- 2 edges to [[_COMMUNITY_Community 2]]
-- 2 edges to [[_COMMUNITY_Community 32]]
-- 1 edge to [[_COMMUNITY_Community 7]]
-- 1 edge to [[_COMMUNITY_Community 46]]
+- 23 edges to [[_COMMUNITY_Community 0]]
+- 6 edges to [[_COMMUNITY_Community 14]]
+- 3 edges to [[_COMMUNITY_Community 10]]
+- 2 edges to [[_COMMUNITY_Community 19]]
+- 1 edge to [[_COMMUNITY_Community 32]]
+- 1 edge to [[_COMMUNITY_Community 26]]
+- 1 edge to [[_COMMUNITY_Community 25]]
+- 1 edge to [[_COMMUNITY_Community 1]]
+- 1 edge to [[_COMMUNITY_Community 5]]
 
 ## Top bridge nodes
-- [[Privacy-Enhancing Technologies]] - degree 35, connects to 6 communities
-- [[Secure Multi-Party Computation (MPC)]] - degree 16, connects to 3 communities
-- [[Privacy Architectures for Smart Contracts Kachina and Zexe]] - degree 12, connects to 3 communities
-- [[eIDAS 2.0]] - degree 8, connects to 3 communities
-- [[CirC Compiler Infrastructure for Proof Systems, Software Verification, and More]] - degree 8, connects to 3 communities
+- [[Nova Recursive Zero-Knowledge Arguments from Folding Schemes]] - degree 19, connects to 5 communities
+- [[Protostar Generic Efficient AccumulationFolding for Special-sound Protocols]] - degree 18, connects to 4 communities
+- [[Incrementally Verifiable Computation (IVC)]] - degree 13, connects to 3 communities
+- [[Cycles of Elliptic Curves]] - degree 5, connects to 2 communities
+- [[Folding Scheme for Committed Relaxed R1CS (Construction 1)]] - degree 4, connects to 2 communities

@@ -1,12 +1,12 @@
 ---
 source_file: "wiki/sections/ch07-small-fields.md"
 type: "document"
-community: "Community 2"
+community: "ZK Crypto Foundations"
 location: "Small Fields"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_2
+  - community/ZK_Crypto_Foundations
 ---
 
 # Small Fields
@@ -27,4 +27,4 @@ tags:
 - [[The Cascade Effect]] - `references` [EXTRACTED]
 - [[Zcash]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_2
+#graphify/document #graphify/EXTRACTED #community/ZK_Crypto_Foundations

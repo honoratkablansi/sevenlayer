@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-65-greyhound.pdf"
 type: "paper"
-community: "Community 14"
+community: "Lattice PCS (Greyhound)"
 location: "§1"
 tags:
   - graphify/paper
   - graphify/INFERRED
-  - community/Community_14
+  - community/Lattice_PCS_Greyhound
 ---
 
 # Split-and-fold / folding paradigm
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Greyhound polynomial commitment scheme]] - `conceptually_related_to` [INFERRED]
 
-#graphify/paper #graphify/INFERRED #community/Community_14
+#graphify/paper #graphify/INFERRED #community/Lattice_PCS_Greyhound

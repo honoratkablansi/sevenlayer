@@ -1,17 +1,17 @@
 ---
 source_file: "wiki/chapters/06-the-sealed-certificate.md"
 type: "document"
-community: "Community 9"
+community: "ZK Crypto Foundations"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_9
+  - community/ZK_Crypto_Foundations
 ---
 
 # Proof Recursion
 
 ## Connections
-- [[Folding Schemes]] - `conceptually_related_to` [INFERRED]
+- [[Folding Scheme]] - `conceptually_related_to` [INFERRED]
 - [[Layer 5 -- The Sealed Certificate]] - `references` [EXTRACTED]
 - [[Nightstream Lattice-Based Folding for CCS (LFDT-Nightstream)]] - `references` [EXTRACTED]
 - [[Nova Recursive Zero-Knowledge Arguments from Folding Schemes]] - `conceptually_related_to` [EXTRACTED]
@@ -25,4 +25,4 @@ tags:
 - [[The Structural Advantage of Lattices]] - `references` [EXTRACTED]
 - [[The Synthesis -- Three Paths, Not Two]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_9
+#graphify/document #graphify/EXTRACTED #community/ZK_Crypto_Foundations

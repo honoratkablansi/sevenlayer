@@ -1,39 +1,39 @@
 ---
 type: community
-cohesion: 0.13
+cohesion: 0.10
 members: 24
 ---
 
 # Community 15
 
-**Cohesion:** 0.13 - loosely connected
+**Cohesion:** 0.10 - loosely connected
 **Members:** 24 nodes
 
 ## Members
-- [[Algebraic Interactive Proof (AIP) public-coin IP with arithmetic-circuit verifier]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
-- [[Bezout's identity for univariate polynomials (uniquenessdisjointness tool)]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
-- [[CP-Mirage+ commit-and-prove zkSNARK for AIPs with Pedersen-committed witnesses]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
-- [[CirC-compiler implementation, bellmanGroth16 base, Z rollup application]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
-- [[Commit-and-Prove SNARK]] - document - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
-- [[Conditional uniqueness AIP Pi_c-uniq, V-cost 6A+O(1)]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
-- [[Cost claim first volatile RAM proof with V-cost independent of N (up to 32.9% time cut)]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
-- [[Cost claim persistent RAM proving time reduced up to 51.3x vs RSAMerkle prior art]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
-- [[Cost claim sparse persistent RAM estimated up to 143x constraint reduction]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
-- [[I-R1CS interactive rank-1 constraint system arithmetization for AIPs]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
-- [[MIRAGE (Kosba et al.) succinct arguments for randomized algorithms MA1]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
-- [[Mirage+ zkSNARK compiler from AIP (I-R1CS) to zkSNARK, generalizes Groth16Mirage]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
-- [[Ozdemir et al. RSAMerkle set-accumulator RAM (prior state of the art)]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
-- [[Persistent RAM AIP (committed initialfinal states)]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
-- [[Pi_active active-cell selection via H_r permutation proofs, V-cost 3N+2A+O(1)]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
-- [[Punctured disjointness AIP Pi_PuncDisj, V-cost 2C+2A+O(log C)]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
-- [[Punctured uniqueness AIP Pi_PuncUniq (gcd has form Xc), V-cost 4C+O(log C)]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
-- [[Read-over-write (RoW) validity condition for transcripts]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
-- [[Sparse persistent RAM AIP (capacity C, N approx 2256)]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
-- [[UniqBez divide-and-conquer Bezout coefficient computation (4.5 A log2 A)]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
-- [[Uniqueness AIP Pi_uniq (gcd(z,z')=1 via Bezout), V-cost 4A+O(1)]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
-- [[Volatile RAM AIP (zeroed init, uncommitted final)]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
-- [[Volatile and Persistent Memory for zkSNARKs via Algebraic Interactive Proofs]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
-- [[zkSNARK]] - document - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[Arithmetic Circuit]] - document - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[BigLessThan motivating example (Circom bug at line 32)]] - paper - references/ch10/ref-35-coda.pdf
+- [[Certifying Zero-Knowledge Circuits with Refinement Types]] - paper - references/ch10/ref-35-coda.pdf
+- [[Coda compiler partial evaluation to R1CS constraints]] - paper - references/ch10/ref-35-coda.pdf
+- [[Coda domain-specific Coq tactic library (F_to_Z, overflow, split_sum, switch_sum, reduce_sum, ind)]] - paper - references/ch10/ref-35-coda.pdf
+- [[Coda refinement type system {nuT  phi}]] - paper - references/ch10/ref-35-coda.pdf
+- [[Coda type-checking rules (circuit, expression, subtyping judgments)]] - paper - references/ch10/ref-35-coda.pdf
+- [[Coda verified higher-order library (branching, zip, array aggregates)]] - paper - references/ch10/ref-35-coda.pdf
+- [[Coda statically-typed functional DSL for ZK circuits]] - paper - references/ch10/ref-35-coda.pdf
+- [[Coq Proof Assistant]] - document - references/ch10/ref-35-coda.pdf
+- [[Coq lemma generation for proof obligations]] - paper - references/ch10/ref-35-coda.pdf
+- [[Fiat-Crypto finite-field formalization library]] - paper - references/ch10/ref-35-coda.pdf
+- [[Formal Verification]] - document - references/ch10/ref-55-zkevm-security-foundations.md
+- [[Liquid  logically-qualified data types (SMT-discharged)]] - paper - references/ch10/ref-35-coda.pdf
+- [[Logical Encoding of Arithmetic Circuit (Definition 4.3)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[Non-determinism (star) and assertion semantics encoding relations]] - paper - references/ch10/ref-35-coda.pdf
+- [[Refinement Types]] - document - references/ch10/ref-35-coda.pdf
+- [[SMT solving over finite fields  large prime fields]] - paper - references/ch10/ref-35-coda.pdf
+- [[TSub-Refine subtyping rule (reduces type checking to logical validity)]] - paper - references/ch10/ref-35-coda.pdf
+- [[Theorem 1 Expression Type Preservation (soundness)]] - paper - references/ch10/ref-35-coda.pdf
+- [[Theorem 2 Circuit Evaluation Type Preservation]] - paper - references/ch10/ref-35-coda.pdf
+- [[Trustless threat model (attacker controls source, R1CS, prover, verifier; can swap proof)]] - paper - references/ch10/ref-35-coda.pdf
+- [[iter combinator with annotated loop invariant]] - paper - references/ch10/ref-35-coda.pdf
+- [[zk-SNARK]] - document - references/ch13/ref-42-gvr-zkp-market-report.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -43,15 +43,18 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 3 edges to [[_COMMUNITY_Community 1]]
-- 3 edges to [[_COMMUNITY_Community 26]]
-- 2 edges to [[_COMMUNITY_Community 0]]
-- 2 edges to [[_COMMUNITY_Community 22]]
-- 1 edge to [[_COMMUNITY_Community 20]]
-- 1 edge to [[_COMMUNITY_Community 5]]
+- 7 edges to [[_COMMUNITY_Community 38]]
+- 2 edges to [[_COMMUNITY_Community 10]]
+- 2 edges to [[_COMMUNITY_Community 2]]
+- 2 edges to [[_COMMUNITY_Community 21]]
+- 1 edge to [[_COMMUNITY_Community 0]]
+- 1 edge to [[_COMMUNITY_Community 6]]
+- 1 edge to [[_COMMUNITY_Community 36]]
+- 1 edge to [[_COMMUNITY_Community 28]]
 
 ## Top bridge nodes
-- [[Volatile and Persistent Memory for zkSNARKs via Algebraic Interactive Proofs]] - degree 16, connects to 3 communities
-- [[Volatile RAM AIP (zeroed init, uncommitted final)]] - degree 8, connects to 2 communities
-- [[zkSNARK]] - degree 5, connects to 2 communities
-- [[Pi_active active-cell selection via H_r permutation proofs, V-cost 3N+2A+O(1)]] - degree 2, connects to 1 community
+- [[Arithmetic Circuit]] - degree 9, connects to 3 communities
+- [[zk-SNARK]] - degree 4, connects to 3 communities
+- [[Certifying Zero-Knowledge Circuits with Refinement Types]] - degree 6, connects to 2 communities
+- [[Formal Verification]] - degree 3, connects to 2 communities
+- [[Coda statically-typed functional DSL for ZK circuits]] - degree 9, connects to 1 community

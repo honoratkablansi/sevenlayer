@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch06-circle-starks-and-stwo-a-generational-leap.md"
 type: "document"
-community: "Community 2"
+community: "zkVMs & STARK Stacks"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_2
+  - community/zkVMs__STARK_Stacks
 ---
 
 # Circle STARKs and Stwo: A Generational Leap
@@ -20,7 +20,7 @@ tags:
 - [[Poseidon Hash]] - `references` [EXTRACTED]
 - [[Real-Time Ethereum Proving]] - `references` [EXTRACTED]
 - [[SP1  SP1 Hypercube]] - `references` [EXTRACTED]
-- [[STARKs]] - `references` [EXTRACTED]
+- [[STARK (Scalable Transparent ARgument of Knowledge)]] - `references` [EXTRACTED]
 - [[Small Fields]] - `references` [EXTRACTED]
 - [[Starknet]] - `references` [EXTRACTED]
 - [[Stwo]] - `defines` [EXTRACTED]
@@ -29,4 +29,4 @@ tags:
 - [[The Three Families]] - `references` [EXTRACTED]
 - [[ZK Rollups The Proving Grounds (Production)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_2
+#graphify/document #graphify/EXTRACTED #community/zkVMs__STARK_Stacks

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-45-small-space-cpu-proofs.pdf"
 type: "paper"
-community: "Community 1"
+community: "Small-Space Proving (Twist/Shout)"
 location: "Abstract; §1.2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_1
+  - community/Small-Space_Proving_Twist/Shout
 ---
 
 # Small-space Jolt prover (sublinear-space zkVM proving without recursion)
@@ -22,4 +22,4 @@ tags:
 - [[Theorem 7.1 Jolt prover in S=O(K+log T) space and O(T log T) time]] - `proves` [EXTRACTED]
 - [[Zero-Knowledge Virtual Machine (zkVM)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_1
+#graphify/paper #graphify/EXTRACTED #community/Small-Space_Proving_Twist/Shout

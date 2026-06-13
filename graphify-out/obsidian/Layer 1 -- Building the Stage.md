@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/02-building-the-stage.md"
 type: "document"
-community: "Community 0"
+community: "Programmable Privacy & Midnight"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Programmable_Privacy__Midnight
 ---
 
 # Layer 1 -- Building the Stage
@@ -23,10 +23,10 @@ tags:
 - [[Elliptic Curve Cryptography]] - `defines` [EXTRACTED]
 - [[Extended Tower Number Field Sieve A New Complexity for the Medium Prime Case]] - `cites` [EXTRACTED]
 - [[FRI]] - `references` [EXTRACTED]
-- [[Folding Schemes]] - `references` [EXTRACTED]
+- [[Folding Scheme]] - `references` [EXTRACTED]
 - [[Groth16]] - `references` [EXTRACTED]
 - [[Halo 2]] - `references` [EXTRACTED]
-- [[Inner Product Arguments (IPA)]] - `references` [EXTRACTED]
+- [[Inner-Product Argument]] - `references` [EXTRACTED]
 - [[KZG Polynomial Commitments]] - `references` [EXTRACTED]
 - [[Lattice Cryptography]] - `references` [EXTRACTED]
 - [[Merkle Tree]] - `references` [EXTRACTED]
@@ -42,7 +42,7 @@ tags:
 - [[Post-Quantum Cryptography]] - `references` [EXTRACTED]
 - [[Powers-of-Tau Setup]] - `defines` [EXTRACTED]
 - [[Proving Nothing]] - `part_of` [EXTRACTED]
-- [[STARKs]] - `references` [EXTRACTED]
+- [[STARK (Scalable Transparent ARgument of Knowledge)]] - `references` [EXTRACTED]
 - [[Scalable Multi-party Computation for zk-SNARK Parameters in the Random Beacon Model]] - `cites` [EXTRACTED]
 - [[Scalable, Transparent, and Post-Quantum Secure Computational Integrity]] - `cites` [EXTRACTED]
 - [[Sevenlayer Wiki Index]] - `references` [EXTRACTED]
@@ -68,4 +68,4 @@ tags:
 - [[Universal versus Circuit-Specific Setups]] - `part_of` [EXTRACTED]
 - [[Zcash]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/document #graphify/EXTRACTED #community/Programmable_Privacy__Midnight

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-38-snarky-ceremonies.pdf"
 type: "paper"
-community: "Community 31"
+community: "AGM Ceremony Soundness"
 location: "§6.1 Fig 8"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_31
+  - community/AGM_Ceremony_Soundness
 ---
 
 # Critical query i_crit and white-box AGM extractor E_A returning QAP witness coefficients
@@ -15,4 +15,4 @@ tags:
 - [[Algebraic extractor E_agm (white-box, requires view_A, yields linear representation coefficients)]] - `assumes` [EXTRACTED]
 - [[UKS proof game hops Game0-Game1 (fresh-SRS simulated critical updates) - Game2 (bad event), reduction to edlog]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_31
+#graphify/paper #graphify/EXTRACTED #community/AGM_Ceremony_Soundness

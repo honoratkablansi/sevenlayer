@@ -1,12 +1,12 @@
 ---
 source_file: "wiki/sections/ch03-the-developer-s-actual-experience.md"
 type: "document"
-community: "Community 5"
+community: "ZK Crypto Foundations"
 location: "Dependencies"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_5
+  - community/ZK_Crypto_Foundations
 ---
 
 # Case Study: Midnight's Sealed Certificate
@@ -16,7 +16,7 @@ tags:
 - [[BN254 Curve]] - `references` [EXTRACTED]
 - [[Case Study Midnight (Layer 6)]] - `references` [EXTRACTED]
 - [[Compact Language]] - `references` [EXTRACTED]
-- [[Folding Schemes]] - `references` [EXTRACTED]
+- [[Folding Scheme]] - `references` [EXTRACTED]
 - [[Groth16]] - `references` [EXTRACTED]
 - [[Halo 2]] - `references` [EXTRACTED]
 - [[KZG Polynomial Commitments]] - `references` [EXTRACTED]
@@ -33,4 +33,4 @@ tags:
 - [[Trusted Setup]] - `references` [EXTRACTED]
 - [[ZKIR (Midnight Intermediate Representation)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_5
+#graphify/document #graphify/EXTRACTED #community/ZK_Crypto_Foundations

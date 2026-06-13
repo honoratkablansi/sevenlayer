@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch03/ref-14-ccs-customizable-constraints.pdf"
 type: "paper"
-community: "Community 1"
+community: "Arithmetization & CCS"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_1
+  - community/Arithmetization__CCS
 ---
 
 # Customizable Constraint Systems for Succinct Arguments
@@ -21,10 +21,10 @@ tags:
 - [[PLONK]] - `conceptually_related_to` [EXTRACTED]
 - [[PLONKish Arithmetization]] - `conceptually_related_to` [EXTRACTED]
 - [[R1CS]] - `conceptually_related_to` [EXTRACTED]
-- [[STARKs]] - `conceptually_related_to` [EXTRACTED]
+- [[STARK (Scalable Transparent ARgument of Knowledge)]] - `conceptually_related_to` [EXTRACTED]
 - [[Spartan]] - `conceptually_related_to` [EXTRACTED]
 - [[Sumcheck Protocol]] - `conceptually_related_to` [EXTRACTED]
 - [[SuperMarlin univariate-sumcheck SNARK for CCS generalizing Marlin]] - `introduces` [EXTRACTED]
 - [[SuperSpartan SNARK family for CCS generalizing Spartan's polynomial IOP]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_1
+#graphify/paper #graphify/EXTRACTED #community/Arithmetization__CCS

@@ -1,12 +1,12 @@
 ---
 source_file: "wiki/sections/ch08-the-price-of-a-verdict.md"
 type: "document"
-community: "Community 2"
+community: "Programmable Privacy & Midnight"
 location: "The Price of a Verdict"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_2
+  - community/Programmable_Privacy__Midnight
 ---
 
 # The Price of a Verdict
@@ -21,8 +21,8 @@ tags:
 - [[On-Chain Verification in 2026]] - `references` [EXTRACTED]
 - [[Pricing Attacks]] - `references` [EXTRACTED]
 - [[Proof Aggregation The Missing Layer]] - `references` [EXTRACTED]
-- [[STARKs]] - `references` [EXTRACTED]
+- [[STARK (Scalable Transparent ARgument of Knowledge)]] - `references` [EXTRACTED]
 - [[The Social Layer]] - `references` [EXTRACTED]
 - [[The Three Families]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_2
+#graphify/document #graphify/EXTRACTED #community/Programmable_Privacy__Midnight

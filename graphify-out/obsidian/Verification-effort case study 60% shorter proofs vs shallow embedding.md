@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-35-coda.pdf"
 type: "paper"
-community: "Community 41"
+community: "Under-Constrained Circuits (Picus)"
 location: "§6.3, Fig.9"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_41
+  - community/Under-Constrained_Circuits_Picus
 ---
 
 # Verification-effort case study: 60% shorter proofs vs shallow embedding
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Evaluation 77 circuits from 9 Circom projects, 66 verified]] - `shares_data_with` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_41
+#graphify/paper #graphify/EXTRACTED #community/Under-Constrained_Circuits_Picus

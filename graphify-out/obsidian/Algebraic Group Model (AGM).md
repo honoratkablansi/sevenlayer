@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-38-snarky-ceremonies.pdf"
 type: "document"
-community: "Community 31"
+community: "AGM Ceremony Soundness"
 location: "page 4"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_31
+  - community/AGM_Ceremony_Soundness
 ---
 
 # Algebraic Group Model (AGM)
@@ -23,4 +23,4 @@ tags:
 - [[Theorem 5 Groth16 ceremony has update knowledge soundness under (2n-1,2n-2)-edlog for algebraic adversaries in ROM]] - `assumes` [EXTRACTED]
 - [[Theorem 6.3 PCS evaluation-binding & bounded-extractable under 2d-DLOG in AGM]] - `assumes` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_31
+#graphify/document #graphify/EXTRACTED #community/AGM_Ceremony_Soundness

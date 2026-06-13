@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 5"
+community: "zkVMs & STARK Stacks"
 location: "Chapter 3: Choreographing the Act"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_5
+  - community/zkVMs__STARK_Stacks
 ---
 
 # ACIR (Abstract Circuit Intermediate Representation)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Choreographing the Act]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_5
+#graphify/document #graphify/EXTRACTED #community/zkVMs__STARK_Stacks

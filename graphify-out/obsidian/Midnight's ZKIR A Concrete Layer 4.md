@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch05-midnight-s-zkir-a-concrete-layer-4.md"
 type: "document"
-community: "Community 5"
+community: "Programmable Privacy & Midnight"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_5
+  - community/Programmable_Privacy__Midnight
 ---
 
 # Midnight's ZKIR: A Concrete Layer 4
@@ -26,14 +26,14 @@ tags:
 - [[Midnight at a Glance]] - `references` [EXTRACTED]
 - [[Midnight Compiler, IR, Circuit]] - `references` [EXTRACTED]
 - [[PLONKish Arithmetization]] - `references` [EXTRACTED]
-- [[STARKs]] - `references` [EXTRACTED]
-- [[Small-Field Proving]] - `references` [EXTRACTED]
+- [[STARK (Scalable Transparent ARgument of Knowledge)]] - `references` [EXTRACTED]
+- [[Small prime fields (machine-register-sized Goldilocks, M61)]] - `references` [EXTRACTED]
 - [[The Constraint System Evolution R1CS, AIR, PLONKish]] - `references` [EXTRACTED]
 - [[The Disclose Boundary Midnight's Witness Architecture]] - `references` [EXTRACTED]
 - [[The Overhead Tax 10,000x to 50,000x]] - `references` [EXTRACTED]
-- [[Under-Constrained Circuits_1]] - `references` [EXTRACTED]
+- [[Under-Constrained Circuits]] - `references` [EXTRACTED]
 - [[Where Midnight Validates the Model]] - `references` [EXTRACTED]
 - [[ZKIR (Midnight Intermediate Representation)]] - `defines` [EXTRACTED]
 - [[Zcash]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_5
+#graphify/document #graphify/EXTRACTED #community/Programmable_Privacy__Midnight

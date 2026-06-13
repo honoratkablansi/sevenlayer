@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/concepts/ajtai.md"
 type: "document"
-community: "Community 8"
+community: "ZK Crypto Foundations"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_8
+  - community/ZK_Crypto_Foundations
 ---
 
 # Ajtai commitments
@@ -26,4 +26,4 @@ tags:
 - [[The Structural Advantage of Lattices]] - `references` [EXTRACTED]
 - [[Three Hardness Assumptions, Three Worlds]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_8
+#graphify/document #graphify/EXTRACTED #community/ZK_Crypto_Foundations

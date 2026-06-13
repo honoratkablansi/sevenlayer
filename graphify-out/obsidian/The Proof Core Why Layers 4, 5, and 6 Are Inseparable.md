@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch06-the-proof-core-why-layers-4-5-and-6-are-inseparable.md"
 type: "document"
-community: "Community 2"
+community: "ZK Crypto Foundations"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_2
+  - community/ZK_Crypto_Foundations
 ---
 
 # The Proof Core: Why Layers 4, 5, and 6 Are Inseparable
@@ -26,8 +26,8 @@ tags:
 - [[Mersenne-31 Field]] - `references` [EXTRACTED]
 - [[Nightstream What a Folding Engine Looks Like from the Inside]] - `references` [EXTRACTED]
 - [[PLONK]] - `references` [EXTRACTED]
-- [[STARKs]] - `references` [EXTRACTED]
+- [[STARK (Scalable Transparent ARgument of Knowledge)]] - `references` [EXTRACTED]
 - [[Sumcheck Protocol]] - `references` [EXTRACTED]
 - [[The Three Families]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_2
+#graphify/document #graphify/EXTRACTED #community/ZK_Crypto_Foundations

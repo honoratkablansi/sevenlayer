@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch06-the-three-families.md"
 type: "document"
-community: "Community 2"
+community: "ZK Crypto Foundations"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_2
+  - community/ZK_Crypto_Foundations
 ---
 
 # The Three Families
@@ -21,7 +21,7 @@ tags:
 - [[Four Families of Commitment Schemes]] - `references` [EXTRACTED]
 - [[Groth16]] - `defines` [EXTRACTED]
 - [[Halo 2]] - `references` [EXTRACTED]
-- [[Inner Product Arguments (IPA)]] - `references` [EXTRACTED]
+- [[Inner-Product Argument]] - `references` [EXTRACTED]
 - [[Jens Groth]] - `references` [EXTRACTED]
 - [[KZG Polynomial Commitments]] - `references` [EXTRACTED]
 - [[Layer 5 -- The Sealed Certificate]] - `part_of` [EXTRACTED]
@@ -29,7 +29,7 @@ tags:
 - [[PLONKish Arithmetization]] - `references` [EXTRACTED]
 - [[Post-Quantum Cryptography]] - `references` [EXTRACTED]
 - [[Proving-as-a-Service The Prover Market (Production)]] - `references` [EXTRACTED]
-- [[STARKs]] - `defines` [EXTRACTED]
+- [[STARK (Scalable Transparent ARgument of Knowledge)]] - `defines` [EXTRACTED]
 - [[Sealing the Certificate]] - `references` [EXTRACTED]
 - [[The Hybrid Pipeline]] - `references` [EXTRACTED]
 - [[The Price of a Verdict]] - `references` [EXTRACTED]
@@ -39,4 +39,4 @@ tags:
 - [[ZK Rollups The Proving Grounds (Production)]] - `references` [EXTRACTED]
 - [[Zcash]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_2
+#graphify/document #graphify/EXTRACTED #community/ZK_Crypto_Foundations

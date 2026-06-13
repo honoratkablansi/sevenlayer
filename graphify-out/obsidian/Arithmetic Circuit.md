@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch03/ref-12-underconstrained-circuits.pdf"
 type: "document"
-community: "Community 32"
+community: "Circuit Verification (Coda)"
 location: "abstract"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_32
+  - community/Circuit_Verification_Coda
 ---
 
 # Arithmetic Circuit
@@ -22,4 +22,4 @@ tags:
 - [[Practical Security Analysis of Zero-Knowledge Proof Circuits]] - `conceptually_related_to` [EXTRACTED]
 - [[zk-SNARK]] - `assumes` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_32
+#graphify/document #graphify/EXTRACTED #community/Circuit_Verification_Coda

@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/BIBLIOGRAPHY.md"
 type: "document"
-community: "Community 9"
+community: "Foundations & SoK Surveys"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_9
+  - community/Foundations__SoK_Surveys
 ---
 
 # Complete Bibliography
@@ -28,4 +28,4 @@ tags:
 - [[SoK What Don't We Know Understanding Security Vulnerabilities in SNARKs]] - `cites` [EXTRACTED]
 - [[The Knowledge Complexity of Interactive Proof Systems]] - `cites` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_9
+#graphify/document #graphify/EXTRACTED #community/Foundations__SoK_Surveys

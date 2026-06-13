@@ -1,12 +1,12 @@
 ---
 source_file: "wiki/sections/ch01-the-deepest-question.md"
 type: "document"
-community: "Community 0"
+community: "Programmable Privacy & Midnight"
 location: "Entities"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Programmable_Privacy__Midnight
 ---
 
 # NIST
@@ -19,4 +19,4 @@ tags:
 - [[The Deepest Question]] - `conceptually_related_to` [EXTRACTED]
 - [[The Quantum Shelf Life]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/document #graphify/EXTRACTED #community/Programmable_Privacy__Midnight

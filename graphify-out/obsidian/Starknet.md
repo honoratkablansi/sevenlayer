@@ -1,12 +1,12 @@
 ---
 source_file: "wiki/sections/ch01-three-converging-forces.md"
 type: "document"
-community: "Community 2"
+community: "zkVMs & STARK Stacks"
 location: "Entities"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_2
+  - community/zkVMs__STARK_Stacks
 ---
 
 # Starknet
@@ -21,4 +21,4 @@ tags:
 - [[Three zkVMs Through Seven Layers]] - `references` [EXTRACTED]
 - [[ZK Rollups The Proving Grounds (Production)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_2
+#graphify/document #graphify/EXTRACTED #community/zkVMs__STARK_Stacks

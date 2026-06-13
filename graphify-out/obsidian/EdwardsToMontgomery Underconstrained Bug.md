@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch03/ref-12-underconstrained-circuits.pdf"
 type: "paper"
-community: "Community 23"
+community: "QED2 Detection Algorithm"
 location: "§7.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_23
+  - community/QED2_Detection_Algorithm
 ---
 
 # EdwardsToMontgomery Underconstrained Bug
@@ -15,4 +15,4 @@ tags:
 - [[QED2 Evaluation Results (70% solved, 8 vulnerabilities)]] - `conceptually_related_to` [EXTRACTED]
 - [[Underconstrained Circuits]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_23
+#graphify/paper #graphify/EXTRACTED #community/QED2_Detection_Algorithm

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch03/ref-16-jolt.pdf"
 type: "paper"
-community: "Community 26"
+community: "Memory Checking & Sparse PCS"
 location: "§2.4"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_26
+  - community/Memory_Checking__Sparse_PCS
 ---
 
 # Offline memory checking
@@ -24,4 +24,4 @@ tags:
 - [[Twist sum-check memory-checking argument for readwrite memory]] - `conceptually_related_to` [EXTRACTED]
 - [[Volatile RAM AIP (zeroed init, uncommitted final)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_26
+#graphify/paper #graphify/EXTRACTED #community/Memory_Checking__Sparse_PCS

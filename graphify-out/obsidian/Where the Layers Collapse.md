@@ -1,12 +1,12 @@
 ---
 source_file: "wiki/sections/ch05-ccs-the-rosetta-stone.md"
 type: "document"
-community: "Community 1"
+community: "Sumcheck & Proving Overhead"
 location: "Dependencies"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_1
+  - community/Sumcheck__Proving_Overhead
 ---
 
 # Where the Layers Collapse
@@ -20,7 +20,7 @@ tags:
 - [[Cairo]] - `references` [EXTRACTED]
 - [[Encoding the Performance]] - `part_of` [EXTRACTED]
 - [[FRI]] - `references` [EXTRACTED]
-- [[Folding Schemes]] - `references` [EXTRACTED]
+- [[Folding Scheme]] - `references` [EXTRACTED]
 - [[Goldilocks Field]] - `references` [EXTRACTED]
 - [[Jolt zkVM]] - `references` [EXTRACTED]
 - [[KZG Polynomial Commitments]] - `references` [EXTRACTED]
@@ -33,4 +33,4 @@ tags:
 - [[The Sumcheck Protocol The Hidden Foundation]] - `references` [EXTRACTED]
 - [[Where the Analogies Break]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_1
+#graphify/document #graphify/EXTRACTED #community/Sumcheck__Proving_Overhead

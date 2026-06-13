@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/13-the-market-landscape.md"
 type: "document"
-community: "Community 30"
+community: "zkVMs & STARK Stacks"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_30
+  - community/zkVMs__STARK_Stacks
 ---
 
 # The Market Landscape
@@ -45,12 +45,11 @@ tags:
 - [[ZK Identity (Growth  Regulatory Mandate)]] - `part_of` [EXTRACTED]
 - [[ZK Proofs Is Privacy Cheap Enough to Be Mainstream (Castle Labs)]] - `references` [EXTRACTED]
 - [[ZK Rollups]] - `references` [EXTRACTED]
-- [[ZK Rollups_1]] - `references` [EXTRACTED]
 - [[ZK Rollups The Proving Grounds (Production)]] - `part_of` [EXTRACTED]
 - [[ZKML (Provable Machine Learning)]] - `references` [EXTRACTED]
 - [[ZKML Provable Machine Learning (Research)]] - `part_of` [EXTRACTED]
 - [[Zero-Knowledge Proof Market Size, Share & Trends Analysis Report (Grand View Research)]] - `references` [EXTRACTED]
-- [[eIDAS 2.0_1]] - `references` [EXTRACTED]
+- [[eIDAS 2.0]] - `references` [EXTRACTED]
 - [[zkEVM]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_30
+#graphify/document #graphify/EXTRACTED #community/zkVMs__STARK_Stacks

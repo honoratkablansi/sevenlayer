@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-17-nova.pdf"
 type: "paper"
-community: "Community 21"
+community: "Nova Folding & IVC"
 location: "§6.2 Construction 5, Thm 5"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_21
+  - community/Nova_Folding__IVC
 ---
 
 # Polynomial IOP for Idealized Relaxed R1CS (Construction 5)
@@ -15,4 +15,4 @@ tags:
 - [[Sum-Check Protocol]] - `assumes` [EXTRACTED]
 - [[zkSNARK for Committed Relaxed R1CS (adapted Spartan)]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_21
+#graphify/paper #graphify/EXTRACTED #community/Nova_Folding__IVC

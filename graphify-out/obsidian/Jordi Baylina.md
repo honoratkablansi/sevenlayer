@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch03-from-circuits-to-virtual-machines-a-brief-evolution.md"
 type: "document"
-community: "Community 5"
+community: "zkVMs & STARK Stacks"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_5
+  - community/zkVMs__STARK_Stacks
 ---
 
 # Jordi Baylina
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[From Circuits to Virtual Machines A Brief Evolution]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_5
+#graphify/document #graphify/EXTRACTED #community/zkVMs__STARK_Stacks

@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch05-ccs-the-rosetta-stone.md"
 type: "document"
-community: "Community 1"
+community: "Arithmetization & CCS"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_1
+  - community/Arithmetization__CCS
 ---
 
 # CCS: The Rosetta Stone
@@ -15,7 +15,7 @@ tags:
 - [[CCS (Customizable Constraint Systems)]] - `defines` [EXTRACTED]
 - [[Dan Boneh]] - `references` [EXTRACTED]
 - [[Encoding the Performance]] - `part_of` [EXTRACTED]
-- [[Folding Schemes]] - `references` [EXTRACTED]
+- [[Folding Scheme]] - `references` [EXTRACTED]
 - [[Groth16]] - `references` [EXTRACTED]
 - [[Halo 2]] - `references` [EXTRACTED]
 - [[HyperNova]] - `references` [EXTRACTED]
@@ -26,8 +26,8 @@ tags:
 - [[Nova]] - `references` [EXTRACTED]
 - [[PLONKish Arithmetization]] - `references` [EXTRACTED]
 - [[R1CS]] - `references` [EXTRACTED]
-- [[STARKs]] - `references` [EXTRACTED]
-- [[Small-Field Proving]] - `references` [EXTRACTED]
+- [[STARK (Scalable Transparent ARgument of Knowledge)]] - `references` [EXTRACTED]
+- [[Small prime fields (machine-register-sized Goldilocks, M61)]] - `references` [EXTRACTED]
 - [[Spartan]] - `references` [EXTRACTED]
 - [[Srinath Setty]] - `references` [EXTRACTED]
 - [[Sumcheck Protocol]] - `references` [EXTRACTED]
@@ -36,4 +36,4 @@ tags:
 - [[The Sumcheck Protocol The Hidden Foundation]] - `references` [EXTRACTED]
 - [[Where the Layers Collapse]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_1
+#graphify/document #graphify/EXTRACTED #community/Arithmetization__CCS

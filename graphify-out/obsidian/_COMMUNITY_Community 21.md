@@ -1,32 +1,36 @@
 ---
 type: community
-cohesion: 0.15
-members: 17
+cohesion: 0.13
+members: 21
 ---
 
 # Community 21
 
-**Cohesion:** 0.15 - loosely connected
-**Members:** 17 nodes
+**Cohesion:** 0.13 - loosely connected
+**Members:** 21 nodes
 
 ## Members
-- [[Augmented Function F' (verifier circuit folding step)]] - paper - references/ch06/ref-17-nova.pdf
-- [[Constant Recursion Overhead (~10,000 R1CS constraints, two scalar mults)]] - paper - references/ch06/ref-17-nova.pdf
-- [[Corollary 7.2 11n+1 G1-exp prover, 7 G1 + 67 F proof, 2 pairings]] - paper - references/ch02/ref-07-plonk.pdf
-- [[Fiat-Shamir Transform (non-interactive via random oracle)]] - paper - references/ch02/ref-07-plonk.pdf
-- [[Linearisation Polynomial (Maller optimization)]] - paper - references/ch02/ref-07-plonk.pdf
-- [[Non-Interactive Folding Scheme via Fiat-Shamir (Construction 2)]] - paper - references/ch06/ref-17-nova.pdf
-- [[Nova IVC Knowledge Soundness (Lemma 3  Lemma 10)]] - paper - references/ch06/ref-17-nova.pdf
-- [[Nova IVC Scheme (Construction 3)]] - paper - references/ch06/ref-17-nova.pdf
-- [[PLONK Constraint System & Arithmetization (selectorgate equation)]] - paper - references/ch02/ref-07-plonk.pdf
-- [[PLONK Main Protocol for Relation R_C (Theorem 7.1)]] - paper - references/ch02/ref-07-plonk.pdf
-- [[Polynomial IOP for Idealized Relaxed R1CS (Construction 5)]] - paper - references/ch06/ref-17-nova.pdf
-- [[Selector Polynomials (qL,qR,qO,qM,qC)]] - paper - references/ch02/ref-07-plonk.pdf
-- [[Spartan zkSNARK]] - paper - references/ch06/ref-17-nova.pdf
-- [[Sum-Check Protocol]] - paper - references/ch06/ref-17-nova.pdf
-- [[Zero-Knowledge via ZH Blinding Scalars]] - paper - references/ch02/ref-07-plonk.pdf
-- [[zkSNARK for Committed Relaxed R1CS (adapted Spartan)]] - paper - references/ch06/ref-17-nova.pdf
-- [[zkSNARK of a Valid IVC Proof (Construction 4)]] - paper - references/ch06/ref-17-nova.pdf
+- [[Automated find-and-prove-bug pipeline (SMT + ZKP)]] - paper - references/ch10/ref-33-circ.pdf
+- [[Breakable block (exceptional control flow construct)]] - paper - references/ch10/ref-33-circ.pdf
+- [[CirC ILP back-end (CBC solver)]] - paper - references/ch10/ref-33-circ.pdf
+- [[CirC R1CS back-end (lowering pass)]] - paper - references/ch10/ref-33-circ.pdf
+- [[CirC SMT back-end (Z3 Haskell bindings)]] - paper - references/ch10/ref-33-circ.pdf
+- [[CirC ZoKratesZ front-end]] - paper - references/ch10/ref-33-circ.pdf
+- [[CirC-IR (SMT-LIB-based circuit IR)]] - paper - references/ch10/ref-33-circ.pdf
+- [[CirC shared compiler infrastructure for EQCs]] - paper - references/ch10/ref-33-circ.pdf
+- [[Circify language-independent state-management library]] - paper - references/ch10/ref-33-circ.pdf
+- [[Compiler intermediate representation]] - paper - references/ch10/ref-33-circ.pdf
+- [[Constant folding  SMT term rewriting pass]] - paper - references/ch10/ref-33-circ.pdf
+- [[Existentially Quantified Circuit (EQC)]] - paper - references/ch10/ref-33-circ.pdf
+- [[Fine-grained array modeling]] - paper - references/ch10/ref-33-circ.pdf
+- [[Guarded SSA versioning via ITE terms]] - paper - references/ch10/ref-33-circ.pdf
+- [[LLVM Compiler Infrastructure]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
+- [[Linearity reduction (R1CS-specific optimization)]] - paper - references/ch10/ref-33-circ.pdf
+- [[Oblivious array elimination pass]] - paper - references/ch10/ref-33-circ.pdf
+- [[SMT-guided loop-unroll bound inference]] - paper - references/ch10/ref-33-circ.pdf
+- [[Satisfiability Modulo Theories (SMT)]] - paper - references/ch10/ref-33-circ.pdf
+- [[ZKlog Datalog dialect front-end]] - paper - references/ch10/ref-33-circ.pdf
+- [[Zero-knowledge proof system]] - paper - references/ch10/ref-33-circ.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -36,15 +40,15 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 3 edges to [[_COMMUNITY_Community 9]]
-- 2 edges to [[_COMMUNITY_Community 1]]
-- 2 edges to [[_COMMUNITY_Community 26]]
-- 1 edge to [[_COMMUNITY_Community 43]]
-- 1 edge to [[_COMMUNITY_Community 4]]
+- 3 edges to [[_COMMUNITY_Community 10]]
+- 2 edges to [[_COMMUNITY_Community 41]]
+- 2 edges to [[_COMMUNITY_Community 15]]
+- 1 edge to [[_COMMUNITY_Community 29]]
+- 1 edge to [[_COMMUNITY_Community 2]]
 
 ## Top bridge nodes
-- [[PLONK Main Protocol for Relation R_C (Theorem 7.1)]] - degree 9, connects to 3 communities
-- [[Nova IVC Scheme (Construction 3)]] - degree 7, connects to 1 community
-- [[Non-Interactive Folding Scheme via Fiat-Shamir (Construction 2)]] - degree 4, connects to 1 community
-- [[Sum-Check Protocol]] - degree 3, connects to 1 community
-- [[PLONK Constraint System & Arithmetization (selectorgate equation)]] - degree 3, connects to 1 community
+- [[CirC shared compiler infrastructure for EQCs]] - degree 6, connects to 3 communities
+- [[Existentially Quantified Circuit (EQC)]] - degree 5, connects to 2 communities
+- [[Satisfiability Modulo Theories (SMT)]] - degree 5, connects to 1 community
+- [[CirC R1CS back-end (lowering pass)]] - degree 5, connects to 1 community
+- [[LLVM Compiler Infrastructure]] - degree 2, connects to 1 community

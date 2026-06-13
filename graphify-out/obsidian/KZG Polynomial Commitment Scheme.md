@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-07-plonk.pdf"
 type: "paper"
-community: "Community 43"
+community: "PLONK & Permutation Arguments"
 location: "§3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_43
+  - community/PLONK__Permutation_Arguments
 ---
 
 # KZG Polynomial Commitment Scheme
@@ -18,4 +18,4 @@ tags:
 - [[PLONK Permutations over Lagrange-bases for Oecumenical Noninteractive arguments of Knowledge]] - `cites` [EXTRACTED]
 - [[Sonic zk-SNARK (universal & updatable linear-size SRS)]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_43
+#graphify/paper #graphify/EXTRACTED #community/PLONK__Permutation_Arguments

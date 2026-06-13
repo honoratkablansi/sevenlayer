@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch09-open-problems.md"
 type: "document"
-community: "Community 3"
+community: "Privacy-Enhancing Technologies"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_3
+  - community/Privacy-Enhancing_Technologies
 ---
 
 # Private Information Retrieval (PIR)
@@ -14,4 +14,4 @@ tags:
 - [[Open Problems]] - `references` [EXTRACTED]
 - [[Privacy-Enhancing Technologies]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_3
+#graphify/document #graphify/EXTRACTED #community/Privacy-Enhancing_Technologies

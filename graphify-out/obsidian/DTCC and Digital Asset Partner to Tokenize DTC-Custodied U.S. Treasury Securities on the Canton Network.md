@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch13/ref-58-dtcc-canton-tokenization.md"
 type: "document"
-community: "Community 30"
+community: "zkVMs & STARK Stacks"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_30
+  - community/zkVMs__STARK_Stacks
 ---
 
 # DTCC and Digital Asset Partner to Tokenize DTC-Custodied U.S. Treasury Securities on the Canton Network
@@ -15,4 +15,4 @@ tags:
 - [[Canton Network_1]] - `references` [EXTRACTED]
 - [[The Market Landscape]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_30
+#graphify/document #graphify/EXTRACTED #community/zkVMs__STARK_Stacks

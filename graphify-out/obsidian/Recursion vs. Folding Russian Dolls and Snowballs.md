@@ -1,18 +1,18 @@
 ---
 source_file: "wiki/sections/ch06-recursion-vs-folding-russian-dolls-and-snowballs.md"
 type: "document"
-community: "Community 9"
+community: "ZK Crypto Foundations"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_9
+  - community/ZK_Crypto_Foundations
 ---
 
 # Recursion vs. Folding: Russian Dolls and Snowballs
 
 ## Connections
 - [[CycleFold]] - `references` [EXTRACTED]
-- [[Folding Schemes]] - `defines` [EXTRACTED]
+- [[Folding Scheme]] - `defines` [EXTRACTED]
 - [[Groth16]] - `references` [EXTRACTED]
 - [[Incrementally Verifiable Computation (IVC)]] - `defines` [EXTRACTED]
 - [[Layer 5 -- The Sealed Certificate]] - `part_of` [EXTRACTED]
@@ -24,4 +24,4 @@ tags:
 - [[The Hybrid Pipeline]] - `references` [EXTRACTED]
 - [[Zexe]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_9
+#graphify/document #graphify/EXTRACTED #community/ZK_Crypto_Foundations

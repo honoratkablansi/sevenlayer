@@ -1,12 +1,12 @@
 ---
 source_file: "wiki/sections/ch02-two-ways-to-build-a-stage.md"
 type: "document"
-community: "Community 0"
+community: "Programmable Privacy & Midnight"
 location: "Entities"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Programmable_Privacy__Midnight
 ---
 
 # Trusted Setup Ceremony
@@ -31,4 +31,4 @@ tags:
 - [[Universal versus Circuit-Specific Setups]] - `conceptually_related_to` [EXTRACTED]
 - [[Where Midnight Validates the Model]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/document #graphify/EXTRACTED #community/Programmable_Privacy__Midnight

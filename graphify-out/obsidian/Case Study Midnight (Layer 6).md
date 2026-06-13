@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch07-case-study-midnight.md"
 type: "document"
-community: "Community 5"
+community: "ZK Crypto Foundations"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_5
+  - community/ZK_Crypto_Foundations
 ---
 
 # Case Study: Midnight (Layer 6)
@@ -35,4 +35,4 @@ tags:
 - [[ZKIR (Midnight Intermediate Representation)]] - `references` [EXTRACTED]
 - [[Zcash]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_5
+#graphify/document #graphify/EXTRACTED #community/ZK_Crypto_Foundations

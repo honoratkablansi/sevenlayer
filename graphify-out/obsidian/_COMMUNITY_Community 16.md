@@ -1,39 +1,38 @@
 ---
 type: community
-cohesion: 0.13
-members: 24
+cohesion: 0.15
+members: 23
 ---
 
 # Community 16
 
-**Cohesion:** 0.13 - loosely connected
-**Members:** 24 nodes
+**Cohesion:** 0.15 - loosely connected
+**Members:** 23 nodes
 
 ## Members
-- [[Batch circle FRI soundness error (Theorem 6, eps_PROX)]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[CFFT-friendly prime (p+1 divisible by 2(n+1))]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[Circle FFT and inverse (non-harmonic, Nn adds, Nn2 mults)]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[Circle FFT butterfly algorithm (radix-2 style, complex-extension twiddles)]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[Circle FRI low-degree test  IOP of proximity (Protocol 1 & 2)]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[Circle STARK AIR soundness & knowledge-soundness error (Theorem 78)]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[Circle STARK interactive oracle proof for AIR]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[Circle code (MDS algebraic-geometry  generalized Reed-Solomon code)]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[Correlated agreement theorem for Reed-Solomon codes]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[DEEP single-point quotients (realimaginary parts over F(i))]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[Decomposition Lemma overall quotient split with dimension-gap scalar lambda]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[Elliptic Curve FFT (ECFFT)]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[FFT-basis B_n and FFT-space L'_N (dimension gap of co-dimension one)]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[Galois-FFT (G-FFT) over rational function field automorphisms]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[Group squaring map pi and inversion J (the two endomorphisms)]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[Limit-at-infinity calculus for resolving the dimension gap]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[Mersenne Prime M31 (231 - 1)]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[Mersenne-31 vs Babybear FFT benchmark (1.4x speed-up)]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[Optimized non-zk circle STARK (eval domain superset of trace, group position)]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[Reed-Solomon proximity gaps  list-decoding]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[STARK (Scalable Transparent ARgument of Knowledge)]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[Space L_N of bivariate polynomials (Riemann-Roch space, dim N+1)]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[Twin-coset and standard position coset FFT domains]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[Vanishing polynomials v_n and domain quotients]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[Assumption 4.3 MatrixACLMT Knowledge Assumption (matrix variant of knowledge k-ISIS)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Attack on Extractable Linear FC integer variant of ACL+22 not extractable assuming inhomogeneous SIS]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[BASIS_struct Assumption (structured lattice assumption of WW23; implies l-succinct SIS)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[CRS Efficiency Claim l{d+1} CRS for degree-d polynomials (reduces ACL+22 exponent from 2d to d+1; l3 for quadratics vs l4l5)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Construction 3.19 Dual Functional Commitment for Bounded-Depth Boolean Circuits]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Construction 3.2 Functional Commitment for Constant-Degree Polynomials]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Construction 3.9 Multi-Output Functional Commitment for Constant-Degree Polynomials]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Dual Functional Commitment (commit to function f, open at input x)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Evasive LWE Assumption (implies l-succinct SIS plus LWE)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Extractable Functional Commitment (equivalent to SNARG for NP via quadratic relations)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Fast Verification in the Preprocessing Model (sublinear verifier after functioninput preprocessing)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Functional Commitment]] - document - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[GSW  BGG+14 Lattice Homomorphic Evaluation Machinery]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Inhomogeneous SIS Assumption]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[KLVW23 RAM-Delegation-Based FC for All Circuits (LWE, transparent, non-black-box)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Knowledge k-R-ISIS Assumption (Albrecht et al. CRYPTO 2022)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Lattice-Based Functional Commitments Fast Verification and Cryptanalysis]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Oblivious Sampling Cryptanalysis (Babai-rounding attack breaking extractability  knowledge k-R-ISIS plausibility)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Short Integer Solutions (SIS) Assumption]] - document - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Succinct Non-interactive Argument (SNARG)]] - paper - references/ch02/ref-06-groth16.pdf
+- [[Theorem 3.22 Selective-Input Binding of Dual FC under l-succinct SIS]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Theorem 3.6 Computational Binding of Construction 3.2 under l-succinct SIS]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[l-Succinct SIS Assumption (falsifiable q-type generalization of SIS, trapdoor for I_l ⊗ A  W)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -43,11 +42,15 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 6 edges to [[_COMMUNITY_Community 2]]
+- 5 edges to [[_COMMUNITY_Community 0]]
+- 3 edges to [[_COMMUNITY_Community 17]]
+- 2 edges to [[_COMMUNITY_Community 19]]
+- 1 edge to [[_COMMUNITY_Community 11]]
+- 1 edge to [[_COMMUNITY_Community 4]]
 
 ## Top bridge nodes
-- [[Circle FRI low-degree test  IOP of proximity (Protocol 1 & 2)]] - degree 5, connects to 1 community
-- [[Space L_N of bivariate polynomials (Riemann-Roch space, dim N+1)]] - degree 4, connects to 1 community
-- [[Elliptic Curve FFT (ECFFT)]] - degree 3, connects to 1 community
-- [[Mersenne Prime M31 (231 - 1)]] - degree 3, connects to 1 community
-- [[Twin-coset and standard position coset FFT domains]] - degree 3, connects to 1 community
+- [[Lattice-Based Functional Commitments Fast Verification and Cryptanalysis]] - degree 14, connects to 3 communities
+- [[Construction 3.2 Functional Commitment for Constant-Degree Polynomials]] - degree 10, connects to 2 communities
+- [[Functional Commitment]] - degree 7, connects to 2 communities
+- [[Short Integer Solutions (SIS) Assumption]] - degree 5, connects to 2 communities
+- [[l-Succinct SIS Assumption (falsifiable q-type generalization of SIS, trapdoor for I_l ⊗ A  W)]] - degree 8, connects to 1 community

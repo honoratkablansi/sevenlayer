@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch08-governance-the-achilles-heel.md"
 type: "document"
-community: "Community 0"
+community: "Programmable Privacy & Midnight"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Programmable_Privacy__Midnight
 ---
 
 # Tornado Cash Governance Attack (May 2023)
@@ -15,4 +15,4 @@ tags:
 - [[Real-World Deployments Five Case Studies]] - `references` [EXTRACTED]
 - [[Who Verifies the Verifier]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/document #graphify/EXTRACTED #community/Programmable_Privacy__Midnight

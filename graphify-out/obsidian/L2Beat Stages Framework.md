@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch08/ref-27-l2beat-stages.md"
 type: "document"
-community: "Community 30"
+community: "Programmable Privacy & Midnight"
 location: "The Stages Framework"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_30
+  - community/Programmable_Privacy__Midnight
 ---
 
 # L2BEAT Stages Framework
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[L2BEAT Stages Framework for L2 Maturity]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_30
+#graphify/document #graphify/EXTRACTED #community/Programmable_Privacy__Midnight

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-20-latticefold.pdf"
 type: "paper"
-community: "Community 11"
+community: "ZK Crypto Foundations"
 location: "§1, §3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_11
+  - community/ZK_Crypto_Foundations
 ---
 
 # LatticeFold Lattice-Based Folding Scheme
@@ -22,4 +22,4 @@ tags:
 - [[Post-quantum security (no quantum-susceptible assumptions)]] - `conceptually_related_to` [EXTRACTED]
 - [[Sumcheck-Based Norm-Bound Range Check]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_11
+#graphify/paper #graphify/EXTRACTED #community/ZK_Crypto_Foundations

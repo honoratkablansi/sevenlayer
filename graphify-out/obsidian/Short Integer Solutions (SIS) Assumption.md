@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-62-lattice-functional-commitments.pdf"
 type: "document"
-community: "Community 20"
+community: "Lattice Functional Commitments"
 location: "Abstract"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_20
+  - community/Lattice_Functional_Commitments
 ---
 
 # Short Integer Solutions (SIS) Assumption
@@ -18,4 +18,4 @@ tags:
 - [[Lattice-based cryptography]] - `conceptually_related_to` [EXTRACTED]
 - [[l-Succinct SIS Assumption (falsifiable q-type generalization of SIS, trapdoor for I_l ⊗ A  W)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_20
+#graphify/document #graphify/EXTRACTED #community/Lattice_Functional_Commitments

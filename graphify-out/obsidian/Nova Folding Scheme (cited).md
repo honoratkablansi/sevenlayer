@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-20-latticefold.pdf"
 type: "paper"
-community: "Community 17"
+community: "ZK Crypto Foundations"
 location: "§1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_17
+  - community/ZK_Crypto_Foundations
 ---
 
 # Nova Folding Scheme (cited)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[LatticeFold A Lattice-based Folding Scheme and its Applications to Succinct Proof Systems]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_17
+#graphify/paper #graphify/EXTRACTED #community/ZK_Crypto_Foundations

@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch02/ref-07-plonk.pdf"
 type: "paper"
-community: "Community 1"
+community: "PLONK & Permutation Arguments"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_1
+  - community/PLONK__Permutation_Arguments
 ---
 
 # PLONK: Permutations over Lagrange-bases for Oecumenical Noninteractive arguments of Knowledge
@@ -32,8 +32,8 @@ tags:
 - [[Polynomial Commitment Scheme]] - `conceptually_related_to` [EXTRACTED]
 - [[Q-DLOG Assumption]] - `assumes` [EXTRACTED]
 - [[SNARKs]] - `conceptually_related_to` [EXTRACTED]
-- [[Sonic (Maller et al. universal SNARK)]] - `cites` [EXTRACTED]
+- [[Sonic]] - `cites` [EXTRACTED]
 - [[Universal Updatable SRS Setup (Bowe-Gabizon-Miers)]] - `cites` [EXTRACTED]
 - [[Universal and Updatable Structured Reference String]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_1
+#graphify/paper #graphify/EXTRACTED #community/PLONK__Permutation_Arguments

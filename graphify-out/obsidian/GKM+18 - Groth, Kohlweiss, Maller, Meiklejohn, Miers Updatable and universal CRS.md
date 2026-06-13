@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-38-snarky-ceremonies.pdf"
 type: "paper"
-community: "Community 28"
+community: "Universal SRS & Ceremonies"
 location: "refs [GKM+18]"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_28
+  - community/Universal_SRS__Ceremonies
 ---
 
 # GKM+18 - Groth, Kohlweiss, Maller, Meiklejohn, Miers: Updatable and universal CRS
@@ -16,4 +16,4 @@ tags:
 - [[Updatable and Universal Structured Reference String]] - `conceptually_related_to` [EXTRACTED]
 - [[Update knowledge soundness (Def 5, game GameA,EA_uks over phi_max phases)]] - `conceptually_related_to` [INFERRED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_28
+#graphify/paper #graphify/EXTRACTED #community/Universal_SRS__Ceremonies

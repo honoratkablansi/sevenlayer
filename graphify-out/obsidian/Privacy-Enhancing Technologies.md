@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/09-privacy-enhancing-technologies.md"
 type: "document"
-community: "Community 3"
+community: "Privacy-Enhancing Technologies"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_3
+  - community/Privacy-Enhancing_Technologies
 ---
 
 # Privacy-Enhancing Technologies
@@ -44,7 +44,7 @@ tags:
 - [[Trusted Execution Environment (TEE)]] - `references` [EXTRACTED]
 - [[Verifiable FHE (zkFHE)]] - `defines` [EXTRACTED]
 - [[Zexe]] - `references` [EXTRACTED]
-- [[eIDAS 2.0_1]] - `references` [EXTRACTED]
+- [[eIDAS 2.0]] - `references` [EXTRACTED]
 - [[zKYC (Zero-Knowledge Know Your Customer)]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_3
+#graphify/document #graphify/EXTRACTED #community/Privacy-Enhancing_Technologies

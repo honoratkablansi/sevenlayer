@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-17-nova.pdf"
 type: "paper"
-community: "Community 9"
+community: "Nova Folding & IVC"
 location: "§1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_9
+  - community/Nova_Folding__IVC
 ---
 
 # Recursive Proof Composition
@@ -15,4 +15,4 @@ tags:
 - [[Cycles of Elliptic Curves]] - `assumes` [EXTRACTED]
 - [[Incrementally Verifiable Computation (IVC)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_9
+#graphify/paper #graphify/EXTRACTED #community/Nova_Folding__IVC

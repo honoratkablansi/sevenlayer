@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-37-updatable-universal-crs.pdf"
 type: "document"
-community: "Community 37"
+community: "Universal SRS & Ceremonies"
 location: "page 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_37
+  - community/Universal_SRS__Ceremonies
 ---
 
 # Multi-Party Computation Setup Ceremony
@@ -17,4 +17,4 @@ tags:
 - [[Updatable CRS model (one honest updater suffices)]] - `conceptually_related_to` [EXTRACTED]
 - [[Updatable and Universal Common Reference Strings with Applications to zk-SNARKs]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_37
+#graphify/document #graphify/EXTRACTED #community/Universal_SRS__Ceremonies

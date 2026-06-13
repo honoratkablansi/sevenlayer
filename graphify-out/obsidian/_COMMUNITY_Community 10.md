@@ -1,45 +1,40 @@
 ---
 type: community
-cohesion: 0.11
-members: 30
+cohesion: 0.24
+members: 25
 ---
 
 # Community 10
 
-**Cohesion:** 0.11 - loosely connected
-**Members:** 30 nodes
+**Cohesion:** 0.24 - loosely connected
+**Members:** 25 nodes
 
 ## Members
-- [[(2k-1)-Move Special-Sound Protocol with Algebraic Verifier]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Accumulation Scheme (P_acc, V_acc, D) for NARK Verifier with Slack mu and Error Commitment E]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Accumulation Schemes]] - document - references/ch06/ref-19-protostar.pdf
-- [[BCLMS21 'PCD Without Succinct Arguments' (cited, accumulation-IVC compiler  Theorem 1)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Branched-Gate Caching for Non-Uniform Error Terms (cost ~ C_pc not sum C_i)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[CVPi_sps High-Degree Verifier Compression (l checks - 1 degree-(d+2) check + 2 sqrt(l) degree-2 checks)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Circuit Selection Sub-Protocol Pi_select (program-counter one-hot, degree 2)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Commit-and-Open Transform cmPi_sps (Lemma 2)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Corollary 1 Protostar Prover Cost (recursive circuit = 3 group scalar mults + hash of d field elements)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Cross Error-Correcting Terms e_j_{j=1}{d-1} as Accumulation Proof]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Generic AccumulationFolding Compiler for Special-Sound Protocols (4-step workflow)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[High-Degree Custom Gate Relation Sub-Protocol Pi_GATE (degree d)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Homomorphic  Trapdoor Commitment Property]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[Homomorphic Sparse Error-Commitment Update for Lookups (O(l) indep. of T)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[HyperNova Folding Scheme KS23 (cited, concurrent CCS multi-folding)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Log-Derivative Lookup Argument (Habock)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Lookup Relation Sub-Protocol Pi_LK (3-move, degree 2, prover indep. of table size T)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Nova Folding Scheme KST22 (cited, R1CS k=1 d=2 case)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Permutation Relation Sub-Protocol Pi_sigma (degree 1)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Plonkup  Plonkish Circuit-Satisfiability Relation]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Protostar Generic Efficient AccumulationFolding for Special-sound Protocols]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Protostar Non-Uniform IVC Scheme for Multi-Circuit Plonkup R_mplkup]] - paper - references/ch06/ref-19-protostar.pdf
-- [[RO-NARK FScmPi_sps from Special-Sound Protocol]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Relaxed Algebraic Verifier Predicate sum mu(d-j) f_j = e]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Sangria Moh23 (cited, Plonk degree-2 folding)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Sumcheck-Style Error-Term Computation Algorithm O(d2 log d)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[SuperNova KS22 (cited, non-uniform IVC predecessor)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Theorem 2 Accumulation Knowledge Soundness (d+1)-special-sound, error (Q+1)(d+1)F]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Theorem 3 IVC for High-Degree Special-Sound Protocols (recursive circuit k+d-1 or k+2 scalar mults)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Vector-Valued Lookup Sub-Protocol Pi_VLK (5-move, degree 3)]] - paper - references/ch06/ref-19-protostar.pdf
+- [[AIR (Algebraic Intermediate Representation)]] - document - wiki/chapters/05-encoding-the-performance.md
+- [[Arithmetization]] - document - wiki/chapters/05-encoding-the-performance.md
+- [[CCS (Customizable Constraint Systems)]] - document - wiki/chapters/05-encoding-the-performance.md
+- [[CCS formal definition matrices M_j, multisets S_i, constants c_i, sum c_i · Hadamard_{j in S_i} (M_j z) = 0]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
+- [[CCS The Rosetta Stone]] - document - wiki/sections/ch05-ccs-the-rosetta-stone.md
+- [[Customizable Constraint Systems for Succinct Arguments]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
+- [[Encoding the Performance]] - document - wiki/chapters/05-encoding-the-performance.md
+- [[Generalized Committed Linear Relation R_lin,B]] - paper - references/ch02/ref-11-latticefold-plus.pdf
+- [[Glossary of Key Terms]] - document - wiki/GLOSSARY.md
+- [[HyperNova]] - document - wiki/GLOSSARY.md
+- [[HyperNova KS24b (linearization, CCS folding)]] - paper - references/ch02/ref-11-latticefold-plus.pdf
+- [[HyperPlonk CBBZ23 - multilinear Plonk with linear prover, contrasted cost route]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
+- [[Layer 4 -- Arithmetization]] - document - wiki/sections/ch05-layer-4-arithmetization.md
+- [[Lemma 1 constant-time R1CS-to-CCS reduction (t=3, q=2, d=2)]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
+- [[Lemma 2 Plonkish-to-CCS reduction; multisets encode monomials of g]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
+- [[Lemma 3 AIR-to-CCS reduction; constraint g applied to adjacent trace rows]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
+- [[Nova]] - document - wiki/GLOSSARY.md
+- [[PLONK GWC19 - proof system Plonkish was believed tied to]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
+- [[PLONKish Arithmetization]] - document - wiki/chapters/05-encoding-the-performance.md
+- [[R1CS]] - document - wiki/chapters/05-encoding-the-performance.md
+- [[Schwartz-Zippel Lemma]] - document - wiki/sections/ch05-the-spreadsheet-metaphor-and-where-it-works.md
+- [[SuperNova]] - document - wiki/sections/ch06-the-folding-genealogy.md
+- [[The Constraint System Evolution R1CS, AIR, PLONKish]] - document - wiki/sections/ch05-the-constraint-system-evolution-r1cs-air-plonkish.md
+- [[The Spreadsheet Metaphor (And Where It Works)]] - document - wiki/sections/ch05-the-spreadsheet-metaphor-and-where-it-works.md
+- [[Where the Analogies Break]] - document - wiki/sections/ch05-where-the-analogies-break.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -49,18 +44,36 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 6 edges to [[_COMMUNITY_Community 9]]
-- 2 edges to [[_COMMUNITY_Community 0]]
-- 2 edges to [[_COMMUNITY_Community 1]]
-- 2 edges to [[_COMMUNITY_Community 18]]
-- 2 edges to [[_COMMUNITY_Community 4]]
-- 1 edge to [[_COMMUNITY_Community 22]]
-- 1 edge to [[_COMMUNITY_Community 5]]
-- 1 edge to [[_COMMUNITY_Community 17]]
+- 64 edges to [[_COMMUNITY_Community 0]]
+- 41 edges to [[_COMMUNITY_Community 1]]
+- 35 edges to [[_COMMUNITY_Community 2]]
+- 29 edges to [[_COMMUNITY_Community 30]]
+- 11 edges to [[_COMMUNITY_Community 26]]
+- 8 edges to [[_COMMUNITY_Community 14]]
+- 6 edges to [[_COMMUNITY_Community 22]]
+- 6 edges to [[_COMMUNITY_Community 24]]
+- 6 edges to [[_COMMUNITY_Community 25]]
+- 4 edges to [[_COMMUNITY_Community 4]]
+- 3 edges to [[_COMMUNITY_Community 3]]
+- 3 edges to [[_COMMUNITY_Community 21]]
+- 2 edges to [[_COMMUNITY_Community 13]]
+- 2 edges to [[_COMMUNITY_Community 15]]
+- 2 edges to [[_COMMUNITY_Community 5]]
+- 2 edges to [[_COMMUNITY_Community 45]]
+- 1 edge to [[_COMMUNITY_Community 12]]
+- 1 edge to [[_COMMUNITY_Community 29]]
+- 1 edge to [[_COMMUNITY_Community 32]]
+- 1 edge to [[_COMMUNITY_Community 41]]
+- 1 edge to [[_COMMUNITY_Community 11]]
+- 1 edge to [[_COMMUNITY_Community 38]]
+- 1 edge to [[_COMMUNITY_Community 37]]
+- 1 edge to [[_COMMUNITY_Community 20]]
+- 1 edge to [[_COMMUNITY_Community 7]]
+- 1 edge to [[_COMMUNITY_Community 18]]
 
 ## Top bridge nodes
-- [[Protostar Generic Efficient AccumulationFolding for Special-sound Protocols]] - degree 18, connects to 6 communities
-- [[Protostar Non-Uniform IVC Scheme for Multi-Circuit Plonkup R_mplkup]] - degree 11, connects to 1 community
-- [[Accumulation Scheme (P_acc, V_acc, D) for NARK Verifier with Slack mu and Error Commitment E]] - degree 7, connects to 1 community
-- [[Generic AccumulationFolding Compiler for Special-Sound Protocols (4-step workflow)]] - degree 6, connects to 1 community
-- [[Homomorphic  Trapdoor Commitment Property]] - degree 5, connects to 1 community
+- [[R1CS]] - degree 32, connects to 13 communities
+- [[CCS (Customizable Constraint Systems)]] - degree 37, connects to 11 communities
+- [[Encoding the Performance]] - degree 63, connects to 10 communities
+- [[Nova]] - degree 38, connects to 7 communities
+- [[Where the Analogies Break]] - degree 18, connects to 7 communities

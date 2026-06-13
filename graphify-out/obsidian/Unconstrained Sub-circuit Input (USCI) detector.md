@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch03/ref-13-practical-security-zk-circuits.pdf"
 type: "paper"
-community: "Community 27"
+community: "Circom Vulnerability Taxonomy"
 location: "§4.4"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_27
+  - community/Circom_Vulnerability_Taxonomy
 ---
 
 # Unconstrained Sub-circuit Input (USCI) detector
@@ -15,4 +15,4 @@ tags:
 - [[Unsafe component usage vulnerability class]] - `conceptually_related_to` [EXTRACTED]
 - [[Vulnerability Description Language (VDL)]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_27
+#graphify/paper #graphify/EXTRACTED #community/Circom_Vulnerability_Taxonomy

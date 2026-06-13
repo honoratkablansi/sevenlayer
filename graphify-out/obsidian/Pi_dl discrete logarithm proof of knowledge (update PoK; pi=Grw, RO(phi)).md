@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-38-snarky-ceremonies.pdf"
 type: "paper"
-community: "Community 28"
+community: "Universal SRS & Ceremonies"
 location: "§4, Fig 4"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_28
+  - community/Universal_SRS__Ceremonies
 ---
 
 # Pi_dl discrete logarithm proof of knowledge (update PoK; pi=Gr^w, RO(phi))
@@ -18,4 +18,4 @@ tags:
 - [[Theorem 2 Pi_dl is complete, perfect ZK, straight-line SE under (1,0)-dlog in AGM+RO]] - `proves` [EXTRACTED]
 - [[Theorem 4 Groth16 ceremony is subversion zero-knowledge (trapdoor extracted via Pi_dl)]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_28
+#graphify/paper #graphify/EXTRACTED #community/Universal_SRS__Ceremonies

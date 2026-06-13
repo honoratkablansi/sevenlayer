@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-35-coda.pdf"
 type: "paper"
-community: "Community 36"
+community: "Circuit Verification (Coda)"
 location: "§3.4, §5"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_36
+  - community/Circuit_Verification_Coda
 ---
 
 # Coq lemma generation for proof obligations
@@ -18,4 +18,4 @@ tags:
 - [[SMT solving over finite fields  large prime fields]] - `cites` [EXTRACTED]
 - [[TSub-Refine subtyping rule (reduces type checking to logical validity)]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_36
+#graphify/paper #graphify/EXTRACTED #community/Circuit_Verification_Coda

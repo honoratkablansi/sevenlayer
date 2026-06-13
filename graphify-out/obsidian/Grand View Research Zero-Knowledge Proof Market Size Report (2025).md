@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch13-market-sizing.md"
 type: "document"
-community: "Community 25"
+community: "zkVMs & STARK Stacks"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_25
+  - community/zkVMs__STARK_Stacks
 ---
 
 # Grand View Research: Zero-Knowledge Proof Market Size Report (2025)
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[Market Sizing]] - `cites` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_25
+#graphify/document #graphify/EXTRACTED #community/zkVMs__STARK_Stacks

@@ -1,12 +1,12 @@
 ---
 source_file: "wiki/sections/ch04-memory-the-binding-constraint.md"
 type: "document"
-community: "Community 5"
+community: "Programmable Privacy & Midnight"
 location: "Dependencies"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_5
+  - community/Programmable_Privacy__Midnight
 ---
 
 # Case Study: Midnight and the Three-Token Architecture
@@ -22,11 +22,11 @@ tags:
 - [[Midnight]] - `references` [EXTRACTED]
 - [[Midnight as Test Case]] - `references` [EXTRACTED]
 - [[Midnight at a Glance]] - `references` [EXTRACTED]
-- [[Pedersen Commitment]] - `references` [EXTRACTED]
+- [[Pedersen Commitments]] - `references` [EXTRACTED]
 - [[The Disclose Boundary Midnight's Witness Architecture]] - `references` [EXTRACTED]
 - [[The Privacy Theater Analogy]] - `references` [EXTRACTED]
 - [[Where Midnight Challenges the Model]] - `references` [EXTRACTED]
 - [[Where Midnight Validates the Model]] - `references` [EXTRACTED]
 - [[Who Verifies the Verifier]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_5
+#graphify/document #graphify/EXTRACTED #community/Programmable_Privacy__Midnight

@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch05-the-constraint-system-evolution-r1cs-air-plonkish.md"
 type: "document"
-community: "Community 1"
+community: "Arithmetization & CCS"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_1
+  - community/Arithmetization__CCS
 ---
 
 # The Constraint System Evolution: R1CS, AIR, PLONKish
@@ -17,7 +17,7 @@ tags:
 - [[CCS The Rosetta Stone]] - `references` [EXTRACTED]
 - [[Encoding the Performance]] - `part_of` [EXTRACTED]
 - [[FRI]] - `references` [EXTRACTED]
-- [[Folding Schemes]] - `references` [EXTRACTED]
+- [[Folding Scheme]] - `references` [EXTRACTED]
 - [[Groth16]] - `references` [EXTRACTED]
 - [[Halo 2]] - `references` [EXTRACTED]
 - [[KZG Polynomial Commitments]] - `references` [EXTRACTED]
@@ -31,11 +31,11 @@ tags:
 - [[Polygon]] - `references` [EXTRACTED]
 - [[Poseidon Hash]] - `references` [EXTRACTED]
 - [[R1CS]] - `defines` [EXTRACTED]
-- [[STARKs]] - `references` [EXTRACTED]
+- [[STARK (Scalable Transparent ARgument of Knowledge)]] - `references` [EXTRACTED]
 - [[Schwartz-Zippel Lemma]] - `references` [EXTRACTED]
 - [[Spartan]] - `references` [EXTRACTED]
 - [[The Spreadsheet Metaphor (And Where It Works)]] - `references` [EXTRACTED]
 - [[Tornado Cash]] - `references` [EXTRACTED]
 - [[Zcash]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_1
+#graphify/document #graphify/EXTRACTED #community/Arithmetization__CCS

@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch04-the-witness-as-a-multi-dimensional-problem.md"
 type: "document"
-community: "Community 1"
+community: "Witness Generation & Hardware"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_1
+  - community/Witness_Generation__Hardware
 ---
 
 # The Witness as a Multi-Dimensional Problem
@@ -27,4 +27,4 @@ tags:
 - [[ZKPoG (end-to-end GPU proving)]] - `cites` [EXTRACTED]
 - [[Zcash]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_1
+#graphify/document #graphify/EXTRACTED #community/Witness_Generation__Hardware

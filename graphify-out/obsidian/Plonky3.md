@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/03-choreographing-the-act.md"
 type: "document"
-community: "Community 1"
+community: "ZK Bug Tooling"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_1
+  - community/ZK_Bug_Tooling
 ---
 
 # Plonky3
@@ -18,4 +18,4 @@ tags:
 - [[The Witness as a Multi-Dimensional Problem]] - `references` [EXTRACTED]
 - [[Under-Constrained Circuits The Dominant Failure Mode]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_1
+#graphify/document #graphify/EXTRACTED #community/ZK_Bug_Tooling

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-36-sonic.pdf"
 type: "paper"
-community: "Community 0"
+community: "Universal SRS & Ceremonies"
 location: "page 1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Universal_SRS__Ceremonies
 ---
 
 # Sonic: Zero-Knowledge SNARKs from Linear-Size Universal and Updatable Structured Reference Strings
@@ -18,7 +18,7 @@ tags:
 - [[Layer 1 -- Building the Stage]] - `cites` [EXTRACTED]
 - [[Mary Maller]] - `conceptually_related_to` [EXTRACTED]
 - [[Permutation Argument]] - `defines` [EXTRACTED]
-- [[STARKs]] - `references` [EXTRACTED]
+- [[STARK (Scalable Transparent ARgument of Knowledge)]] - `references` [EXTRACTED]
 - [[Snarky Ceremonies]] - `cites` [EXTRACTED]
 - [[Sonic zk-SNARK (universal & updatable linear-size SRS)]] - `defines` [EXTRACTED]
 - [[Trusted Setup]] - `references` [EXTRACTED]
@@ -26,4 +26,4 @@ tags:
 - [[Updatable and Universal Common Reference Strings with Applications to zk-SNARKs]] - `cites` [EXTRACTED]
 - [[Updatable and Universal Structured Reference String]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_0
+#graphify/paper #graphify/EXTRACTED #community/Universal_SRS__Ceremonies

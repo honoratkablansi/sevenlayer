@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-56-symphony.pdf"
 type: "paper"
-community: "Community 4"
+community: "Lattice Folding (Symphony)"
 location: "§3.2, Fig. 1, Prop 3.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_4
+  - community/Lattice_Folding_Symphony
 ---
 
 # RoK Pi_had reducing batched Hadamard/R1CS relation to linear relation (Prop 3.1)
@@ -17,4 +17,4 @@ tags:
 - [[Reduction of Knowledge]] - `conceptually_related_to` [EXTRACTED]
 - [[Sumcheck Protocol]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_4
+#graphify/paper #graphify/EXTRACTED #community/Lattice_Folding_Symphony

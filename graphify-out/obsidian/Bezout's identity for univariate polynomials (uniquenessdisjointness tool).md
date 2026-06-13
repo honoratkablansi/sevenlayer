@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-46-zk-memory-algebraic-proofs.pdf"
 type: "paper"
-community: "Community 15"
+community: "Algebraic RAM Proofs"
 location: "§2, §4.3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_15
+  - community/Algebraic_RAM_Proofs
 ---
 
 # Bezout's identity for univariate polynomials (uniqueness/disjointness tool)
@@ -16,4 +16,4 @@ tags:
 - [[Punctured uniqueness AIP Pi_PuncUniq (gcd has form Xc), V-cost 4C+O(log C)]] - `assumes` [EXTRACTED]
 - [[Uniqueness AIP Pi_uniq (gcd(z,z')=1 via Bezout), V-cost 4A+O(1)]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_15
+#graphify/paper #graphify/EXTRACTED #community/Algebraic_RAM_Proofs

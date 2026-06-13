@@ -1,22 +1,19 @@
 ---
 type: community
-cohesion: 0.29
-members: 7
+cohesion: 0.50
+members: 4
 ---
 
 # Community 44
 
-**Cohesion:** 0.29 - loosely connected
-**Members:** 7 nodes
+**Cohesion:** 0.50 - moderately connected
+**Members:** 4 nodes
 
 ## Members
-- [[Cited Bellare-Fuchsbauer-Scafuro subversion impossibility (BFS16)]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[Lemmas 1-2 subversion-secure = updatable-secure = trusted-secure]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[Subversion-resistant NIZK  subversion zero-knowledge]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[Theorem 3 perfect subversion zero-knowledge of the construction]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[Three setup-oracle types trusted (T), updatable (U), subvertible (S)]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[Trusted CRS setup with secret trapdoor]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[X-security games COMP, X-ZK, X-SND, X-KSND for X in {T,U,S}]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Batch Opening (CreateWitnessBatchVerifyEvalBatch)]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Content Extraction Signature & Credential Construction]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Theorem 3.4 Batch Opening Binding]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[t-Bilinear Strong Diffie-Hellman (t-BSDH) Assumption]] - paper - references/ch02/ref-04-kzg-commitments.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -26,10 +23,8 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 2 edges to [[_COMMUNITY_Community 37]]
-- 1 edge to [[_COMMUNITY_Community 39]]
+- 2 edges to [[_COMMUNITY_Community 19]]
 
 ## Top bridge nodes
-- [[Three setup-oracle types trusted (T), updatable (U), subvertible (S)]] - degree 4, connects to 1 community
-- [[Cited Bellare-Fuchsbauer-Scafuro subversion impossibility (BFS16)]] - degree 2, connects to 1 community
-- [[Theorem 3 perfect subversion zero-knowledge of the construction]] - degree 2, connects to 1 community
+- [[Batch Opening (CreateWitnessBatchVerifyEvalBatch)]] - degree 3, connects to 1 community
+- [[t-Bilinear Strong Diffie-Hellman (t-BSDH) Assumption]] - degree 2, connects to 1 community

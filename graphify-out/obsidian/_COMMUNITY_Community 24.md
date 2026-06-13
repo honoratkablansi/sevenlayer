@@ -1,31 +1,33 @@
 ---
 type: community
-cohesion: 0.17
-members: 16
+cohesion: 0.18
+members: 18
 ---
 
 # Community 24
 
-**Cohesion:** 0.17 - loosely connected
-**Members:** 16 nodes
+**Cohesion:** 0.18 - loosely connected
+**Members:** 18 nodes
 
 ## Members
-- [[Batching of polynomial commitments & grand-product arguments (random linear combinations)]] - paper - references/ch10/ref-36-sonic.pdf
-- [[Bivariate constraint system a∘b=c plus Q linear constraints, embedded as constant term of t(X,Y)]] - paper - references/ch10/ref-36-sonic.pdf
-- [[Bounded Polynomial Extractability & Evaluation Binding (PCS properties)]] - paper - references/ch10/ref-36-sonic.pdf
-- [[Constant 256-byte proofs, ~0.7ms helped verification, BLS12-381 Rust implementation]] - paper - references/ch10/ref-36-sonic.pdf
-- [[Grand-Product Argument (gprodPgprodV, prod a_i = prod b_i)]] - paper - references/ch10/ref-36-sonic.pdf
-- [[Helped mode untrusted helper aggregates a batch of proofs (best practical efficiency)]] - paper - references/ch10/ref-36-sonic.pdf
-- [[Linear-size monomial SRS {g{xi}, g{alpha xi}, h{xi}, h{alpha xi}, e(g,halpha)}, galpha omitted]] - paper - references/ch10/ref-36-sonic.pdf
-- [[Mary Maller]] - document - references/ch10/ref-36-sonic.pdf
-- [[Modified KZG polynomial commitment for Laurent polynomials (bounded-degree, single-point hidden)]] - paper - references/ch10/ref-36-sonic.pdf
-- [[Polynomial Permutation Argument (DerivepermPpermV)]] - paper - references/ch10/ref-36-sonic.pdf
-- [[Signature of Correct Computation (scPscV) for s(z,y) of public s(X,Y)]] - paper - references/ch10/ref-36-sonic.pdf
-- [[Sonic zk-SNARK (universal & updatable linear-size SRS)]] - paper - references/ch10/ref-36-sonic.pdf
-- [[Unhelped (standalone) signature of correct computation — succinct verifier, higher overhead]] - paper - references/ch10/ref-36-sonic.pdf
-- [[Universal Updatable SRS Setup (Bowe-Gabizon-Miers)]] - paper - references/ch02/ref-07-plonk.pdf
-- [[Universal and Updatable Structured Reference String]] - document - references/ch02/ref-07-plonk.pdf
-- [[Well-Formedness Argument (commitment to sum a_i Xi, no constant term)]] - paper - references/ch10/ref-36-sonic.pdf
+- [[All RISC-V instructions are decomposable (main technical contribution)]] - paper - references/ch03/ref-16-jolt.pdf
+- [[Comparison vs RISC Zero (~34), Cairo-VM (~13), Plonk per CPU step]] - paper - references/ch03/ref-16-jolt.pdf
+- [[Decomposable tables]] - paper - references/ch03/ref-16-jolt.pdf
+- [[Generalized-Lasso vs Lasso auditabilityperformance tradeoff (2x-3x cost)]] - paper - references/ch03/ref-16-jolt.pdf
+- [[Jolt SNARKs for Virtual Machines via Lookups]] - paper - references/ch03/ref-16-jolt.pdf
+- [[Lasso]] - document - wiki/concepts/lasso.md
+- [[Lasso companion paper STW23 (Setty, Thaler, Wahby 2023)]] - paper - references/ch03/ref-16-jolt.pdf
+- [[Lemma 2 RS and WS are permutations iff every read returns last-written (value,count)]] - paper - references/ch03/ref-16-jolt.pdf
+- [[MLE-structured tables]] - paper - references/ch03/ref-16-jolt.pdf
+- [[MSM commitment via Pippenger's algorithm]] - paper - references/ch03/ref-16-jolt.pdf
+- [[Multilinear extension (MLE)]] - paper - references/ch03/ref-16-jolt.pdf
+- [[Per-instruction MLE-structured evaluation tables (EQ, LTU, SLL, ANDORXOR, ADDSUB, MUL)]] - paper - references/ch03/ref-16-jolt.pdf
+- [[Prover commits to ~6 256-bit field elements per RISC-V CPU step]] - paper - references/ch03/ref-16-jolt.pdf
+- [[Single collation polynomial g for concatenated instruction tables]] - paper - references/ch03/ref-16-jolt.pdf
+- [[Single giant 2128 RISC-V lookup table T_risc-vopcodexy]] - paper - references/ch03/ref-16-jolt.pdf
+- [[Spartan applied to uniform R1CS (no commitment to A,B,C matrices)]] - paper - references/ch03/ref-16-jolt.pdf
+- [[Spice-based memory-checking optimized with Lasso (max via lookup)]] - paper - references/ch03/ref-16-jolt.pdf
+- [[Virtual instructions and virtual registers (MULH, DIVREM, MOVSIGN, ADVICE, ASSERT)]] - paper - references/ch03/ref-16-jolt.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -35,19 +37,24 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 4 edges to [[_COMMUNITY_Community 0]]
-- 3 edges to [[_COMMUNITY_Community 1]]
-- 2 edges to [[_COMMUNITY_Community 37]]
-- 2 edges to [[_COMMUNITY_Community 39]]
-- 2 edges to [[_COMMUNITY_Community 28]]
-- 2 edges to [[_COMMUNITY_Community 31]]
-- 2 edges to [[_COMMUNITY_Community 43]]
-- 2 edges to [[_COMMUNITY_Community 7]]
-- 1 edge to [[_COMMUNITY_Community 47]]
+- 6 edges to [[_COMMUNITY_Community 10]]
+- 6 edges to [[_COMMUNITY_Community 2]]
+- 5 edges to [[_COMMUNITY_Community 25]]
+- 4 edges to [[_COMMUNITY_Community 30]]
+- 3 edges to [[_COMMUNITY_Community 0]]
+- 2 edges to [[_COMMUNITY_Community 22]]
+- 2 edges to [[_COMMUNITY_Community 26]]
+- 2 edges to [[_COMMUNITY_Community 19]]
+- 2 edges to [[_COMMUNITY_Community 34]]
+- 2 edges to [[_COMMUNITY_Community 20]]
+- 1 edge to [[_COMMUNITY_Community 32]]
+- 1 edge to [[_COMMUNITY_Community 12]]
+- 1 edge to [[_COMMUNITY_Community 4]]
+- 1 edge to [[_COMMUNITY_Community 5]]
 
 ## Top bridge nodes
-- [[Sonic zk-SNARK (universal & updatable linear-size SRS)]] - degree 14, connects to 5 communities
-- [[Universal and Updatable Structured Reference String]] - degree 9, connects to 5 communities
-- [[Mary Maller]] - degree 4, connects to 3 communities
-- [[Modified KZG polynomial commitment for Laurent polynomials (bounded-degree, single-point hidden)]] - degree 7, connects to 2 communities
-- [[Bivariate constraint system a∘b=c plus Q linear constraints, embedded as constant term of t(X,Y)]] - degree 3, connects to 1 community
+- [[Lasso]] - degree 25, connects to 10 communities
+- [[Jolt SNARKs for Virtual Machines via Lookups]] - degree 25, connects to 5 communities
+- [[Multilinear extension (MLE)]] - degree 7, connects to 5 communities
+- [[All RISC-V instructions are decomposable (main technical contribution)]] - degree 3, connects to 1 community
+- [[Spice-based memory-checking optimized with Lasso (max via lookup)]] - degree 3, connects to 1 community

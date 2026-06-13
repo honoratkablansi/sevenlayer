@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-37-updatable-universal-crs.pdf"
 type: "paper"
-community: "Community 44"
+community: "Updatable CRS Theory"
 location: "§3.4, Fig. 1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_44
+  - community/Updatable_CRS_Theory
 ---
 
 # Three setup-oracle types: trusted (T), updatable (U), subvertible (S)
@@ -17,4 +17,4 @@ tags:
 - [[Updatable CRS model (one honest updater suffices)]] - `defines` [EXTRACTED]
 - [[X-security games COMP, X-ZK, X-SND, X-KSND for X in {T,U,S}]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_44
+#graphify/paper #graphify/EXTRACTED #community/Updatable_CRS_Theory

@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch06/ref-23-circle-starks.pdf"
 type: "paper"
-community: "Community 2"
+community: "Circle STARKs"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_2
+  - community/Circle_STARKs
 ---
 
 # Circle STARKs
@@ -22,7 +22,7 @@ tags:
 - [[Layer 6 -- The Deep Craft]] - `cites` [EXTRACTED]
 - [[Mersenne FFT  Reed-Solomon codes over the circle group HLN23]] - `cites` [EXTRACTED]
 - [[Mersenne Prime M31 (231 - 1)]] - `assumes` [EXTRACTED]
-- [[STARKs]] - `conceptually_related_to` [EXTRACTED]
+- [[STARK (Scalable Transparent ARgument of Knowledge)]] - `conceptually_related_to` [EXTRACTED]
 - [[The Synthesis -- Three Paths, Not Two]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_2
+#graphify/paper #graphify/EXTRACTED #community/Circle_STARKs

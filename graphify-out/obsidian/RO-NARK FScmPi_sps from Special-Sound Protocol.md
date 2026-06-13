@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-19-protostar.pdf"
 type: "paper"
-community: "Community 10"
+community: "Nova Folding & IVC"
 location: "§3.3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_10
+  - community/Nova_Folding__IVC
 ---
 
 # RO-NARK FS[cm[Pi_sps]] from Special-Sound Protocol
@@ -16,4 +16,4 @@ tags:
 - [[Commit-and-Open Transform cmPi_sps (Lemma 2)]] - `introduces` [EXTRACTED]
 - [[Fiat-Shamir Transform]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_10
+#graphify/paper #graphify/EXTRACTED #community/Nova_Folding__IVC

@@ -1,33 +1,37 @@
 ---
 type: community
 cohesion: 0.16
-members: 18
+members: 22
 ---
 
 # Community 19
 
 **Cohesion:** 0.16 - loosely connected
-**Members:** 18 nodes
+**Members:** 22 nodes
 
 ## Members
-- [[All RISC-V instructions are decomposable (main technical contribution)]] - paper - references/ch03/ref-16-jolt.pdf
-- [[Comparison vs RISC Zero (~34), Cairo-VM (~13), Plonk per CPU step]] - paper - references/ch03/ref-16-jolt.pdf
-- [[Decomposable tables]] - paper - references/ch03/ref-16-jolt.pdf
-- [[Generalized-Lasso vs Lasso auditabilityperformance tradeoff (2x-3x cost)]] - paper - references/ch03/ref-16-jolt.pdf
-- [[Jolt SNARKs for Virtual Machines via Lookups]] - paper - references/ch03/ref-16-jolt.pdf
-- [[Lasso companion paper STW23 (Setty, Thaler, Wahby 2023)]] - paper - references/ch03/ref-16-jolt.pdf
-- [[Lemma 2 RS and WS are permutations iff every read returns last-written (value,count)]] - paper - references/ch03/ref-16-jolt.pdf
-- [[Lemma 2 linear combinations of commitments respect right-multiplication of openings]] - paper - references/ch06/ref-21-neo.pdf
-- [[Linearly homomorphic commitment]] - paper - references/ch06/ref-21-neo.pdf
-- [[MLE-structured tables]] - paper - references/ch03/ref-16-jolt.pdf
-- [[Multilinear extension (MLE)]] - paper - references/ch03/ref-16-jolt.pdf
-- [[Per-instruction MLE-structured evaluation tables (EQ, LTU, SLL, ANDORXOR, ADDSUB, MUL)]] - paper - references/ch03/ref-16-jolt.pdf
-- [[RISC-V instruction set architecture]] - paper - references/ch03/ref-16-jolt.pdf
-- [[Single collation polynomial g for concatenated instruction tables]] - paper - references/ch03/ref-16-jolt.pdf
-- [[Single giant 2128 RISC-V lookup table T_risc-vopcodexy]] - paper - references/ch03/ref-16-jolt.pdf
-- [[Spartan applied to uniform R1CS (no commitment to A,B,C matrices)]] - paper - references/ch03/ref-16-jolt.pdf
-- [[Spice-based memory-checking optimized with Lasso (max via lookup)]] - paper - references/ch03/ref-16-jolt.pdf
-- [[Virtual instructions and virtual registers (MULH, DIVREM, MOVSIGN, ADVICE, ASSERT)]] - paper - references/ch03/ref-16-jolt.pdf
+- [[Brakedown GLS+21 & Orion XZS22 field-agnosticpost-quantum poly commitments instantiating SuperSpartan]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
+- [[Constant-Size Commitment & O(1) Opening Overhead]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Constant-Size Commitments to Polynomials and Their Applications]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Cryptographic Accumulator]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Feldman Verifiable Secret Sharing]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Merkle Hash Tree]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Nearly Zero-Knowledge Set  ZK-EDB]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[PolyCommitDL Scheme]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[PolyCommitPed Scheme]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Polynomial Commitment Scheme]] - document - references/ch02/ref-04-kzg-commitments.pdf
+- [[Polynomial Divisibility Property ((x-i) divides phi(x)-phi(i))]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Polynomial IOP  interactive oracle protocol]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
+- [[Theorem 3.2 PolyCommitDL Security]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Theorem 3.3 PolyCommitPed Security]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Theorem 3.5 Strong Correctness]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Theorem 3 family of preprocessing SNARKs for CCS via PIOP + sparse poly commitment + Fiat-Shamir]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
+- [[Verifiable Secret Sharing]] - document - references/ch02/ref-04-kzg-commitments.pdf
+- [[Zero-Knowledge Set (Micali et al.)]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[eVSS Efficient Feldman VSS]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[t-Diffie-Hellman Inversion (t-DHI) Assumption]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[t-Polynomial Diffie-Hellman (t-polyDH) Assumption]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[t-Strong Diffie-Hellman (t-SDH) Assumption]] - paper - references/ch02/ref-04-kzg-commitments.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -37,18 +41,26 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 11 edges to [[_COMMUNITY_Community 1]]
-- 4 edges to [[_COMMUNITY_Community 22]]
-- 2 edges to [[_COMMUNITY_Community 33]]
+- 7 edges to [[_COMMUNITY_Community 0]]
+- 4 edges to [[_COMMUNITY_Community 17]]
+- 2 edges to [[_COMMUNITY_Community 18]]
+- 2 edges to [[_COMMUNITY_Community 24]]
+- 2 edges to [[_COMMUNITY_Community 16]]
+- 2 edges to [[_COMMUNITY_Community 44]]
+- 2 edges to [[_COMMUNITY_Community 3]]
+- 2 edges to [[_COMMUNITY_Community 26]]
+- 1 edge to [[_COMMUNITY_Community 1]]
+- 1 edge to [[_COMMUNITY_Community 32]]
+- 1 edge to [[_COMMUNITY_Community 12]]
+- 1 edge to [[_COMMUNITY_Community 25]]
 - 1 edge to [[_COMMUNITY_Community 9]]
-- 1 edge to [[_COMMUNITY_Community 2]]
-- 1 edge to [[_COMMUNITY_Community 11]]
-- 1 edge to [[_COMMUNITY_Community 17]]
-- 1 edge to [[_COMMUNITY_Community 26]]
+- 1 edge to [[_COMMUNITY_Community 8]]
+- 1 edge to [[_COMMUNITY_Community 34]]
+- 1 edge to [[_COMMUNITY_Community 20]]
 
 ## Top bridge nodes
-- [[Jolt SNARKs for Virtual Machines via Lookups]] - degree 25, connects to 5 communities
-- [[Multilinear extension (MLE)]] - degree 7, connects to 3 communities
-- [[Decomposable tables]] - degree 5, connects to 1 community
-- [[Spice-based memory-checking optimized with Lasso (max via lookup)]] - degree 3, connects to 1 community
-- [[Lemma 2 linear combinations of commitments respect right-multiplication of openings]] - degree 3, connects to 1 community
+- [[Polynomial Commitment Scheme]] - degree 21, connects to 7 communities
+- [[Constant-Size Commitments to Polynomials and Their Applications]] - degree 15, connects to 4 communities
+- [[PolyCommitDL Scheme]] - degree 12, connects to 4 communities
+- [[Theorem 3 family of preprocessing SNARKs for CCS via PIOP + sparse poly commitment + Fiat-Shamir]] - degree 5, connects to 3 communities
+- [[PolyCommitPed Scheme]] - degree 8, connects to 2 communities
