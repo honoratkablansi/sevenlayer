@@ -142,6 +142,29 @@ def _export(G, communities, labels, n_files: int) -> dict:
     return {"nodes": G.number_of_nodes(), "edges": G.number_of_edges(), "communities": len(communities)}
 
 
+def _export_reports_only(G, communities, labels, n_files: int) -> None:
+    """Regenerate report/html/obsidian for an EXISTING partition without
+    re-clustering or rewriting graph.json (mirrors build_book_graph
+    ._export_with_communities). Lazy graphify import."""
+    from graphify.cluster import score_all
+    from graphify.analyze import god_nodes, surprising_connections, suggest_questions
+    from graphify.report import generate
+    from graphify.export import to_html, to_obsidian
+
+    cohesion = score_all(G, communities)
+    gods = god_nodes(G)
+    surprises = surprising_connections(G, communities)
+    questions = suggest_questions(G, communities, labels)
+    detection = {"total_files": n_files, "total_words": 99999, "needs_graph": True,
+                 "warning": None, "files": {"code": [], "document": [], "paper": []}}
+    report = generate(G, communities, cohesion, labels, gods, surprises,
+                      detection, {"input": 0, "output": 0}, ".", suggested_questions=questions)
+    (MASTER_DIR / "GRAPH_REPORT.md").write_text(report, encoding="utf-8")
+    if G.number_of_nodes() <= 5000:
+        to_html(G, communities, str(MASTER_DIR / "graph.html"), community_labels=labels)
+    to_obsidian(G, communities, str(MASTER_DIR / "obsidian"), community_labels=labels, cohesion=cohesion)
+
+
 def _dump_communities() -> None:
     g = _load(MASTER_GRAPH)
     comms: dict[str, list] = {}
@@ -216,8 +239,8 @@ def top_hub_nodes(graph: dict, n: int = 100) -> list[dict]:
 def cmd_consolidate() -> int:
     """Apply .work/aliases.json (deterministic + any appended hub-LLM aliases),
     re-cluster, and rebuild master-graph/."""
-    import sys as _sys
-    _sys.path.insert(0, str(REPO / "scripts"))
+    import sys
+    sys.path.insert(0, str(REPO / "scripts"))
     from deepen_pdfs import consolidate_nodes
     from networkx.readwrite import json_graph
 
@@ -236,7 +259,10 @@ def cmd_consolidate() -> int:
 
 def cmd_relabel() -> int:
     """Regenerate report/html/obsidian from .work/labels.json, reusing the existing
-    per-node community field (no re-cluster)."""
+    per-node community partition (no re-cluster, graph.json untouched)."""
+    import sys
+    sys.path.insert(0, str(REPO / "scripts"))
+    from deepen_pdfs import _communities_from_graph
     from networkx.readwrite import json_graph
     labels_path = WORK / "labels.json"
     if not labels_path.exists():
@@ -244,13 +270,11 @@ def cmd_relabel() -> int:
         return 1
     labels = {int(k): v for k, v in _load(labels_path).items()}
     graph = _load(MASTER_GRAPH)
-    communities: dict[int, list] = {}
-    for n in graph["nodes"]:
-        c = n.get("community")
-        if c is not None:
-            communities.setdefault(int(c), []).append(n["id"])
+    communities = _communities_from_graph(graph)
+    if not communities:
+        print("no community assignments in graph.json; run merge/consolidate first")
+        return 1
     G = json_graph.node_link_graph(graph, edges="links")
-    _export(G, communities, labels, len(INPUTS))
-    _dump_communities()
-    print(f"relabeled {len(communities)} communities")
+    _export_reports_only(G, communities, labels, len(INPUTS))
+    print(f"relabeled {len(labels)} of {len(communities)} communities")
     return 0
