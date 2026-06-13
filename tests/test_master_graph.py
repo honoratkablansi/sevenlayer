@@ -131,3 +131,26 @@ def test_score_concepts_ranks_by_degree_plus_support():
     rows = m.score_concepts(g)
     assert [r["id"] for r in rows] == ["concept_hi", "concept_lo"]
     assert rows[0]["support"] == 1 and rows[0]["degree"] == 2
+
+
+def test_coverage_diff_tags_absent_under_and_well_covered():
+    g = _g(
+        [{"id": "concept_a", "label": "A", "source_file": "proving-nothing.md",
+          "source_location": "Chapter 3"},
+         {"id": "concept_b", "label": "B", "source_file": "references/x.pdf",
+          "source_location": "Recursion Chapter 1"}],
+        [],
+    )
+    scored = [
+        {"id": "concept_a", "label": "A", "degree": 9, "support": 5, "community": 1, "is_hub": True, "score": 19},
+        {"id": "concept_b", "label": "B", "degree": 3, "support": 1, "community": 2, "is_hub": False, "score": 5},
+    ]
+    out = {r["id"]: r for r in m.coverage_diff(g, scored, under_threshold=4)}
+    assert out["concept_a"]["verdict"] == "under-covered"   # in manuscript, heavy support
+    assert out["concept_b"]["verdict"] == "absent"          # refs-only
+
+
+def test_chapter_of_reads_source_location():
+    assert m.chapter_of({"source_location": "Chapter 7"}) == "Chapter 7"
+    assert m.chapter_of({"source_location": "Recursion Chapter 2"}) == "Chapter 2"
+    assert m.chapter_of({"source_location": None}) == "Unassigned"

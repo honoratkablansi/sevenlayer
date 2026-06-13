@@ -276,6 +276,37 @@ def score_concepts(graph: dict, hub_top: int = 50) -> list[dict]:
     return rows
 
 
+def _in_manuscript(node: dict) -> bool:
+    sf = (node.get("source_file") or "").replace("\\", "/")
+    return sf == MANUSCRIPT or sf.startswith("wiki/chapters/")
+
+
+def chapter_of(node: dict) -> str:
+    match = re.search(r"[Cc]hapter\s+(\d+)", node.get("source_location") or "")
+    return f"Chapter {match.group(1)}" if match else "Unassigned"
+
+
+def coverage_diff(graph: dict, scored: list[dict], under_threshold: int = 4) -> list[dict]:
+    """Tag each scored concept: absent (no manuscript node with its normalized
+    label), under-covered (in manuscript but reference_support >= under_threshold),
+    or well-covered."""
+    covered = {normalize_label(n.get("label") or "")
+               for n in graph["nodes"] if _in_manuscript(n)}
+    by_id = {n["id"]: n for n in graph["nodes"]}
+    out = []
+    for r in scored:
+        in_text = normalize_label(r["label"] or "") in covered
+        if not in_text:
+            verdict = "absent"
+        elif r["support"] >= under_threshold:
+            verdict = "under-covered"
+        else:
+            verdict = "well-covered"
+        out.append({**r, "verdict": verdict,
+                    "chapter": chapter_of(by_id.get(r["id"], {}))})
+    return out
+
+
 def top_hub_nodes(graph: dict, n: int = 100) -> list[dict]:
     """The n highest-degree concept nodes, for the LLM synonym pass."""
     deg = degree_map(graph)
