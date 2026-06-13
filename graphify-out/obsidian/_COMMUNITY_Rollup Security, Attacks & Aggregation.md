@@ -4,7 +4,7 @@ cohesion: 0.08
 members: 47
 ---
 
-# Verification & Fiat-Shamir
+# Rollup Security, Attacks & Aggregation
 
 **Cohesion:** 0.08 - loosely connected
 **Members:** 47 nodes

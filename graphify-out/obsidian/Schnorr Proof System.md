@@ -1,7 +1,7 @@
 ---
 source_file: "references/ch06/ref-22-frozen-heart.md"
 type: "document"
-community: "Verification & Fiat-Shamir"
+community: "Rollup Security, Attacks & Aggregation"
 location: "Preventing Frozen Heart Vulnerabilities"
 tags:
   - graphify/document

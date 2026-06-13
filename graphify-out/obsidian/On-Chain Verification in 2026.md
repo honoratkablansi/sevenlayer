@@ -1,7 +1,7 @@
 ---
 source_file: "wiki/sections/ch08-on-chain-verification-in-2026.md"
 type: "document"
-community: "Verification & Fiat-Shamir"
+community: "Rollup Security, Attacks & Aggregation"
 location: "On-Chain Verification in 2026"
 tags:
   - graphify/document

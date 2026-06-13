@@ -5,7 +5,7 @@
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 503 nodes · 2574 edges · 14 communities (13 shown, 1 thin omitted)
+- 502 nodes · 2573 edges · 14 communities (13 shown, 1 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 20 edges (avg confidence: 0.5)
 - Token cost: 693,000 input · 239,400 output
 
@@ -15,7 +15,7 @@
 - [[_COMMUNITY_STARKs & zkVM Landscape|STARKs & zkVM Landscape]]
 - [[_COMMUNITY_Trusted Setup & SNARK Foundations|Trusted Setup & SNARK Foundations]]
 - [[_COMMUNITY_Midnight Privacy Stack|Midnight Privacy Stack]]
-- [[_COMMUNITY_Verification & Fiat-Shamir|Verification & Fiat-Shamir]]
+- [[_COMMUNITY_Rollup Security, Attacks & Aggregation|Rollup Security, Attacks & Aggregation]]
 - [[_COMMUNITY_Privacy-Enhancing Technologies|Privacy-Enhancing Technologies]]
 - [[_COMMUNITY_ZK Market & Identity|ZK Market & Identity]]
 - [[_COMMUNITY_Coprocessors & ZKML|Coprocessors & ZKML]]
@@ -74,13 +74,13 @@ Nodes (67): The Promise of Provable and Programmable Secrets, Layer 1 -- Buildin
 Cohesion: 0.13
 Nodes (56): Choreographing the Act, Midnight -- The Privacy Theater, ACIR (Abstract Circuit Intermediate Representation), Arithmetic Circuit, Beanstalk, BLS12-381 Curve, Cardano, Chaliasos et al. SoK: SNARK Vulnerabilities (USENIX Security 2024) (+48 more)
 
-### Community 5 - "Verification & Fiat-Shamir"
+### Community 5 - "Rollup Security, Attacks & Aggregation"
 Cohesion: 0.08
 Nodes (47): Proving Nothing, Beanstalk Flash Loan Attack (April 2022), L2Beat Stages Framework, Tornado Cash Governance Attack (May 2023), Chaliasos et al. Rollup Pricing Attacks Study (2025), Aligned Layer, NEBRA Universal Proof Aggregation, SHARP (StarkWare Shared Prover) (+39 more)
 
 ### Community 6 - "Privacy-Enhancing Technologies"
 Cohesion: 0.19
-Nodes (30): Privacy Pools, Privacy-Enhancing Technologies, Aztec, Collaborative/Threshold Proving, Differential Privacy, eIDAS 2.0, Fully Homomorphic Encryption (FHE), Garbled Circuits (+22 more)
+Nodes (29): Privacy Pools, Privacy-Enhancing Technologies, Aztec, Collaborative/Threshold Proving, Differential Privacy, eIDAS 2.0, Fully Homomorphic Encryption (FHE), Garbled Circuits (+22 more)
 
 ### Community 7 - "ZK Market & Identity"
 Cohesion: 0.14
@@ -107,11 +107,11 @@ Cohesion: 0.40
 Nodes (5): Bootstrapping (FHE), Satisfiability Modulo Theories (SMT), Craig Gentry, Fully Homomorphic Encryption Using Ideal Lattices, CirC: Compiler Infrastructure for Proof Systems, Software Verification, and More
 
 ## Ambiguous Edges - Review These
-- `Fully Homomorphic Encryption Using Ideal Lattices` → `CirC: Compiler Infrastructure for Proof Systems, Software Verification, and More`  [AMBIGUOUS]
+- `CirC: Compiler Infrastructure for Proof Systems, Software Verification, and More` → `Fully Homomorphic Encryption Using Ideal Lattices`  [AMBIGUOUS]
   references/ch10/ref-33-circ.pdf · relation: cites
 
 ## Knowledge Gaps
-- **110 isolated node(s):** `Improvement Backlog`, `Proof Aggregation`, `zkSync Era`, `BatchZK (pipelined GPU prover)`, `Jordi Baylina` (+105 more)
+- **109 isolated node(s):** `Improvement Backlog`, `Proof Aggregation`, `zkSync Era`, `BatchZK (pipelined GPU prover)`, `Jordi Baylina` (+104 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **1 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -120,15 +120,20 @@ _Questions this graph is uniquely positioned to answer:_
 
 - **What is the exact relationship between `Fully Homomorphic Encryption Using Ideal Lattices` and `CirC: Compiler Infrastructure for Proof Systems, Software Verification, and More`?**
   _Edge tagged AMBIGUOUS (relation: cites) - confidence is low._
-- **Why does `The Market Landscape` connect `Coprocessors & ZKML` to `Commitments & Post-Quantum Craft`, `STARKs & zkVM Landscape`, `Trusted Setup & SNARK Foundations`, `Midnight Privacy Stack`, `Verification & Fiat-Shamir`, `Privacy-Enhancing Technologies`, `ZK Market & Identity`, `Rollups & Private Smart Contracts`, `Digital Identity & Personhood`?**
+- **Why does `The Market Landscape` connect `Coprocessors & ZKML` to `Commitments & Post-Quantum Craft`, `STARKs & zkVM Landscape`, `Trusted Setup & SNARK Foundations`, `Midnight Privacy Stack`, `Rollup Security, Attacks & Aggregation`, `Privacy-Enhancing Technologies`, `ZK Market & Identity`, `Rollups & Private Smart Contracts`, `Digital Identity & Personhood`?**
   _High betweenness centrality (0.089) - this node is a cross-community bridge._
-- **Why does `Midnight` connect `Midnight Privacy Stack` to `Commitments & Post-Quantum Craft`, `Arithmetization & Proving Frontiers`, `STARKs & zkVM Landscape`, `Trusted Setup & SNARK Foundations`, `Verification & Fiat-Shamir`, `Privacy-Enhancing Technologies`, `Coprocessors & ZKML`, `Rollups & Private Smart Contracts`?**
+- **Why does `Midnight` connect `Midnight Privacy Stack` to `Commitments & Post-Quantum Craft`, `Arithmetization & Proving Frontiers`, `STARKs & zkVM Landscape`, `Trusted Setup & SNARK Foundations`, `Rollup Security, Attacks & Aggregation`, `Privacy-Enhancing Technologies`, `Coprocessors & ZKML`, `Rollups & Private Smart Contracts`?**
   _High betweenness centrality (0.084) - this node is a cross-community bridge._
-- **Why does `Groth16` connect `Trusted Setup & SNARK Foundations` to `Commitments & Post-Quantum Craft`, `Arithmetization & Proving Frontiers`, `STARKs & zkVM Landscape`, `Midnight Privacy Stack`, `Verification & Fiat-Shamir`, `Coprocessors & ZKML`?**
+- **Why does `Groth16` connect `Trusted Setup & SNARK Foundations` to `Commitments & Post-Quantum Craft`, `Arithmetization & Proving Frontiers`, `STARKs & zkVM Landscape`, `Midnight Privacy Stack`, `Rollup Security, Attacks & Aggregation`, `Coprocessors & ZKML`?**
   _High betweenness centrality (0.070) - this node is a cross-community bridge._
 - **What connects `Improvement Backlog`, `Proof Aggregation`, `zkSync Era` to the rest of the system?**
-  _110 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _109 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Commitments & Post-Quantum Craft` be split into smaller, more focused modules?**
   _Cohesion score 0.10448660042155977 - nodes in this community are weakly interconnected._
 - **Should `Arithmetization & Proving Frontiers` be split into smaller, more focused modules?**
   _Cohesion score 0.10255460940392447 - nodes in this community are weakly interconnected._
+
+## Rebuild notes
+- **Corpus:** `proving-nothing.md` + `references/` (minus `manifest.json`) + `wiki/` (minus `tools/`, `_meta/`, `drafts/` — drafts are superseded chapter versions).
+- **Sensitive-file filter caveat:** graphify's sensitive-file filter silently drops `wiki/chapters/01-the-promise-of-provable-and-programmable-secrets.md` (filename contains "secrets"). It must be manually re-added to the detect output on every rebuild.
+- **Mode:** standard mode, 238 files.

@@ -90,7 +90,7 @@ SORT file.name ASC
 - 64 edges to [[_COMMUNITY_STARKs & zkVM Landscape]]
 - 56 edges to [[_COMMUNITY_Arithmetization & Proving Frontiers]]
 - 48 edges to [[_COMMUNITY_Midnight Privacy Stack]]
-- 30 edges to [[_COMMUNITY_Verification & Fiat-Shamir]]
+- 30 edges to [[_COMMUNITY_Rollup Security, Attacks & Aggregation]]
 - 4 edges to [[_COMMUNITY_Pairings & Quantum Threat]]
 - 3 edges to [[_COMMUNITY_Privacy-Enhancing Technologies]]
 - 3 edges to [[_COMMUNITY_Rollups & Private Smart Contracts]]

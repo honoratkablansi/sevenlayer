@@ -21,7 +21,6 @@ tags:
 - [[Proof Recursion]] - `references` [EXTRACTED]
 - [[Secure Multi-Party Computation (MPC)]] - `references` [EXTRACTED]
 - [[The Disclose Boundary Midnight's Witness Architecture]] - `references` [EXTRACTED]
-- [[The Disclose Boundary Midnight's Witness Architecture (Chapter 3)]] - `references` [EXTRACTED]
 - [[The Four Pillars]] - `references` [EXTRACTED]
 - [[ZK Identity (Growth  Regulatory Mandate)]] - `references` [EXTRACTED]
 - [[Zexe]] - `defines` [EXTRACTED]

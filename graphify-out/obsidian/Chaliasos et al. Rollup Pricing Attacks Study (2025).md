@@ -1,7 +1,7 @@
 ---
 source_file: "wiki/sections/ch08-pricing-attacks.md"
 type: "document"
-community: "Verification & Fiat-Shamir"
+community: "Rollup Security, Attacks & Aggregation"
 tags:
   - graphify/document
   - graphify/EXTRACTED

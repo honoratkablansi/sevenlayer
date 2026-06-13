@@ -38,7 +38,7 @@ SORT file.name ASC
 - 3 edges to [[_COMMUNITY_Midnight Privacy Stack]]
 - 3 edges to [[_COMMUNITY_Coprocessors & ZKML]]
 - 2 edges to [[_COMMUNITY_Arithmetization & Proving Frontiers]]
-- 2 edges to [[_COMMUNITY_Verification & Fiat-Shamir]]
+- 2 edges to [[_COMMUNITY_Rollup Security, Attacks & Aggregation]]
 - 2 edges to [[_COMMUNITY_ZK Market & Identity]]
 - 1 edge to [[_COMMUNITY_STARKs & zkVM Landscape]]
 

@@ -38,7 +38,7 @@ SORT file.name ASC
 ## Connections to other communities
 - 14 edges to [[_COMMUNITY_STARKs & zkVM Landscape]]
 - 8 edges to [[_COMMUNITY_ZK Market & Identity]]
-- 5 edges to [[_COMMUNITY_Verification & Fiat-Shamir]]
+- 5 edges to [[_COMMUNITY_Rollup Security, Attacks & Aggregation]]
 - 5 edges to [[_COMMUNITY_Commitments & Post-Quantum Craft]]
 - 3 edges to [[_COMMUNITY_Rollups & Private Smart Contracts]]
 - 3 edges to [[_COMMUNITY_Midnight Privacy Stack]]

@@ -1,7 +1,7 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Verification & Fiat-Shamir"
+community: "Rollup Security, Attacks & Aggregation"
 location: "The Beanstalk Flash Loan Attack ($182M, April 2022)"
 tags:
   - graphify/document

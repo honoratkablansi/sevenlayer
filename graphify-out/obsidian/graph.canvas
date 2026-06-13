@@ -3194,7 +3194,7 @@
     {
       "id": "g5",
       "type": "group",
-      "label": "Verification & Fiat-Shamir",
+      "label": "Rollup Security, Attacks & Aggregation",
       "x": 2280,
       "y": 3000,
       "width": 1540,
@@ -3801,15 +3801,6 @@
       "type": "file",
       "file": "The Decision Matrix.md",
       "x": 4360,
-      "y": 3560,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_section_ch03-the-disclose-boundary-midnight-s-witness-architecture",
-      "type": "file",
-      "file": "The Disclose Boundary Midnight's Witness Architecture (Chapter 3).md",
-      "x": 4560,
       "y": 3560,
       "width": 180,
       "height": 60

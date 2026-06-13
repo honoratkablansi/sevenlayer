@@ -3163,19 +3163,6 @@
       "norm_label": "real-world deployments: five case studies"
     },
     {
-      "label": "The Disclose Boundary: Midnight's Witness Architecture (Chapter 3)",
-      "file_type": "document",
-      "source_file": "wiki/sections/ch03-the-disclose-boundary-midnight-s-witness-architecture.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "section_ch03-the-disclose-boundary-midnight-s-witness-architecture",
-      "community": 6,
-      "norm_label": "the disclose boundary: midnight's witness architecture (chapter 3)"
-    },
-    {
       "label": "The Four Pillars",
       "file_type": "document",
       "source_file": "wiki/sections/ch09-the-four-pillars.md",
@@ -29822,16 +29809,6 @@
       "weight": 1.0,
       "source": "section_ch09-privacy-architectures-for-smart-contracts-kachina-and-zexe",
       "target": "concept_aztec",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "wiki/sections/ch09-privacy-architectures-for-smart-contracts-kachina-and-zexe.md",
-      "source_location": "Dependencies",
-      "weight": 1.0,
-      "source": "section_ch09-privacy-architectures-for-smart-contracts-kachina-and-zexe",
-      "target": "section_ch03-the-disclose-boundary-midnight-s-witness-architecture",
       "confidence_score": 1.0
     },
     {

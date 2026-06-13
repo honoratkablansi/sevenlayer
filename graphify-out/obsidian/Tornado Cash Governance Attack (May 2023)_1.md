@@ -1,7 +1,7 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Verification & Fiat-Shamir"
+community: "Rollup Security, Attacks & Aggregation"
 location: "The Tornado Cash Governance Attack (May 2023)"
 tags:
   - graphify/document

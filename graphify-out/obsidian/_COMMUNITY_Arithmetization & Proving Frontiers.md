@@ -97,7 +97,7 @@ SORT file.name ASC
 - 113 edges to [[_COMMUNITY_STARKs & zkVM Landscape]]
 - 74 edges to [[_COMMUNITY_Midnight Privacy Stack]]
 - 56 edges to [[_COMMUNITY_Trusted Setup & SNARK Foundations]]
-- 22 edges to [[_COMMUNITY_Verification & Fiat-Shamir]]
+- 22 edges to [[_COMMUNITY_Rollup Security, Attacks & Aggregation]]
 - 5 edges to [[_COMMUNITY_ZK Market & Identity]]
 - 3 edges to [[_COMMUNITY_Privacy-Enhancing Technologies]]
 - 3 edges to [[_COMMUNITY_Coprocessors & ZKML]]

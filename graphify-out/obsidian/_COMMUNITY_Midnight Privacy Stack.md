@@ -79,7 +79,7 @@ SORT file.name ASC
 - 63 edges to [[_COMMUNITY_Commitments & Post-Quantum Craft]]
 - 59 edges to [[_COMMUNITY_STARKs & zkVM Landscape]]
 - 48 edges to [[_COMMUNITY_Trusted Setup & SNARK Foundations]]
-- 20 edges to [[_COMMUNITY_Verification & Fiat-Shamir]]
+- 20 edges to [[_COMMUNITY_Rollup Security, Attacks & Aggregation]]
 - 6 edges to [[_COMMUNITY_Privacy-Enhancing Technologies]]
 - 4 edges to [[_COMMUNITY_ZK Market & Identity]]
 - 3 edges to [[_COMMUNITY_Rollups & Private Smart Contracts]]

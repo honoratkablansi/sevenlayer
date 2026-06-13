@@ -1,7 +1,7 @@
 ---
 source_file: "wiki/chapters/02-building-the-stage.md"
 type: "document"
-community: "Verification & Fiat-Shamir"
+community: "Rollup Security, Attacks & Aggregation"
 tags:
   - graphify/document
   - graphify/EXTRACTED

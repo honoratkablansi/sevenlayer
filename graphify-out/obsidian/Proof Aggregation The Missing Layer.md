@@ -1,7 +1,7 @@
 ---
 source_file: "wiki/sections/ch08-proof-aggregation-the-missing-layer.md"
 type: "document"
-community: "Verification & Fiat-Shamir"
+community: "Rollup Security, Attacks & Aggregation"
 location: "Proof Aggregation: The Missing Layer"
 tags:
   - graphify/document

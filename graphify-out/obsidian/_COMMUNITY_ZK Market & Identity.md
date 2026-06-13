@@ -47,7 +47,7 @@ SORT file.name ASC
 - 2 edges to [[_COMMUNITY_Rollups & Private Smart Contracts]]
 - 1 edge to [[_COMMUNITY_Trusted Setup & SNARK Foundations]]
 - 1 edge to [[_COMMUNITY_Commitments & Post-Quantum Craft]]
-- 1 edge to [[_COMMUNITY_Verification & Fiat-Shamir]]
+- 1 edge to [[_COMMUNITY_Rollup Security, Attacks & Aggregation]]
 
 ## Top bridge nodes
 - [[Enterprise Pilots (Pilot)]] - degree 14, connects to 5 communities

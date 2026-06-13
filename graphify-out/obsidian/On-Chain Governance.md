@@ -1,7 +1,7 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Verification & Fiat-Shamir"
+community: "Rollup Security, Attacks & Aggregation"
 location: "Governance: The Achilles Heel"
 tags:
   - graphify/document

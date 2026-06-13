@@ -1,7 +1,7 @@
 ---
 source_file: "wiki/sections/ch08-when-the-transcript-lies-fiat-shamir-vulnerabilities.md"
 type: "document"
-community: "Verification & Fiat-Shamir"
+community: "Rollup Security, Attacks & Aggregation"
 location: "When the Transcript Lies: Fiat-Shamir Vulnerabilities"
 tags:
   - graphify/document

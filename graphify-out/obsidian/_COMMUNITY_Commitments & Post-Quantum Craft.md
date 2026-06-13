@@ -105,7 +105,7 @@ SORT file.name ASC
 - 118 edges to [[_COMMUNITY_Arithmetization & Proving Frontiers]]
 - 92 edges to [[_COMMUNITY_Trusted Setup & SNARK Foundations]]
 - 63 edges to [[_COMMUNITY_Midnight Privacy Stack]]
-- 40 edges to [[_COMMUNITY_Verification & Fiat-Shamir]]
+- 40 edges to [[_COMMUNITY_Rollup Security, Attacks & Aggregation]]
 - 6 edges to [[_COMMUNITY_Privacy-Enhancing Technologies]]
 - 5 edges to [[_COMMUNITY_Coprocessors & ZKML]]
 - 4 edges to [[_COMMUNITY_Pairings & Quantum Threat]]

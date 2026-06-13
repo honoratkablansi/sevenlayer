@@ -1,7 +1,7 @@
 ---
 source_file: "wiki/sections/ch08-who-verifies-the-verifier.md"
 type: "document"
-community: "Verification & Fiat-Shamir"
+community: "Rollup Security, Attacks & Aggregation"
 location: "Who Verifies the Verifier?"
 tags:
   - graphify/document

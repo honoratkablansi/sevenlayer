@@ -1,13 +1,13 @@
 ---
 type: community
 cohesion: 0.19
-members: 30
+members: 29
 ---
 
 # Privacy-Enhancing Technologies
 
 **Cohesion:** 0.19 - loosely connected
-**Members:** 30 nodes
+**Members:** 29 nodes
 
 ## Members
 - [[Aztec]] - document - wiki/sections/ch09-open-problems.md
@@ -29,7 +29,6 @@ members: 30
 - [[Secure Multi-Party Computation (MPC)]] - document - wiki/chapters/09-privacy-enhancing-technologies.md
 - [[Selective Disclosure]] - document - references/ch12/ref-41-midnight-developer-guide.md
 - [[The Decision Matrix]] - document - wiki/sections/ch09-the-decision-matrix.md
-- [[The Disclose Boundary Midnight's Witness Architecture (Chapter 3)]] - document - wiki/sections/ch03-the-disclose-boundary-midnight-s-witness-architecture.md
 - [[The Four Pillars]] - document - wiki/sections/ch09-the-four-pillars.md
 - [[The Incomplete Stack]] - document - wiki/sections/ch09-the-incomplete-stack.md
 - [[The Regulatory Intersection]] - document - wiki/sections/ch09-the-regulatory-intersection.md
@@ -49,7 +48,7 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 7 edges to [[_COMMUNITY_Verification & Fiat-Shamir]]
+- 7 edges to [[_COMMUNITY_Rollup Security, Attacks & Aggregation]]
 - 6 edges to [[_COMMUNITY_Commitments & Post-Quantum Craft]]
 - 6 edges to [[_COMMUNITY_Midnight Privacy Stack]]
 - 5 edges to [[_COMMUNITY_ZK Market & Identity]]
