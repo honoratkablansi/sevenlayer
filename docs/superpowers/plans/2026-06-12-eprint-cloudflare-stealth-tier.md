@@ -10,6 +10,8 @@
 
 **Spec:** `docs/superpowers/specs/2026-06-12-eprint-cloudflare-stealth-tier-design.md`
 
+> **Superseded during execution (see spec for the authoritative final design):** two premises in this plan turned out wrong and were corrected in-flight. (1) Scrapling 0.4.9 `StealthyFetcher` is **Chromium-based, not Camoufox**, and it **does** expose a `solve_cloudflare` param — `_stealth_clear` uses `solve_cloudflare=True` (the original "no solver, stealth alone" claim came from a grep that skipped the gitignored `.venv/`). (2) The clear step must target **the challenged PDF URL**, not the origin landing page — eprint's challenge is path-scoped, so the landing page is never challenged. Live verification (refs 6/17/45) passed with these corrections.
+
 **Deferred decision (now settled):** stealth-fetched papers keep manifest status `"ok"` (not a new `ok-stealth`). Papers map to `"ok"` in `process()` today; the stealth path only changes the in-memory `how` label used for console logging. This avoids reintroducing the status mislabeling a prior review removed. No manifest schema change.
 
 **Conventions for all tasks:**
