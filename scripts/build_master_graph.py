@@ -204,3 +204,53 @@ def merge_graphs(named_inputs: list[tuple[str, dict]]) -> dict:
     out["nodes"] = [nodes[i] for i in order]
     out["links"] = links
     return out
+
+
+def top_hub_nodes(graph: dict, n: int = 100) -> list[dict]:
+    """The n highest-degree concept nodes, for the LLM synonym pass."""
+    deg = degree_map(graph)
+    concepts = [x for x in graph["nodes"] if str(x.get("id", "")).startswith("concept_")]
+    return sorted(concepts, key=lambda x: (-deg.get(x["id"], 0), x["id"]))[:n]
+
+
+def cmd_consolidate() -> int:
+    """Apply .work/aliases.json (deterministic + any appended hub-LLM aliases),
+    re-cluster, and rebuild master-graph/."""
+    import sys as _sys
+    _sys.path.insert(0, str(REPO / "scripts"))
+    from deepen_pdfs import consolidate_nodes
+    from networkx.readwrite import json_graph
+
+    graph = _load(MASTER_GRAPH)
+    alias = _load(WORK / "aliases.json") if (WORK / "aliases.json").exists() else {}
+    validate_alias_map(alias, graph)
+    before = (len(graph["nodes"]), len(graph["links"]))
+    consolidate_nodes(graph, alias)
+    G = json_graph.node_link_graph(graph, edges="links")
+    stats = _export(G, None, None, len(INPUTS))
+    _dump_communities()
+    print(f"consolidated {len(alias)} aliases: nodes {before[0]}->{stats['nodes']}, "
+          f"edges {before[1]}->{stats['edges']}, communities {stats['communities']}")
+    return 0
+
+
+def cmd_relabel() -> int:
+    """Regenerate report/html/obsidian from .work/labels.json, reusing the existing
+    per-node community field (no re-cluster)."""
+    from networkx.readwrite import json_graph
+    labels_path = WORK / "labels.json"
+    if not labels_path.exists():
+        print(f"no {labels_path}")
+        return 1
+    labels = {int(k): v for k, v in _load(labels_path).items()}
+    graph = _load(MASTER_GRAPH)
+    communities: dict[int, list] = {}
+    for n in graph["nodes"]:
+        c = n.get("community")
+        if c is not None:
+            communities.setdefault(int(c), []).append(n["id"])
+    G = json_graph.node_link_graph(graph, edges="links")
+    _export(G, communities, labels, len(INPUTS))
+    _dump_communities()
+    print(f"relabeled {len(communities)} communities")
+    return 0
