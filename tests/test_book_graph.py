@@ -92,3 +92,23 @@ def test_reference_subgraph_selects_only_reference_nodes():
     assert sub["edges"] == [
         {"source": "ref-06_groth16", "target": "concept_pairing", "relation": "uses"}
     ]
+
+
+from compare_graphs import normalize_label, label_set, compare
+
+
+def test_normalize_label_canonicalizes():
+    assert normalize_label("Folding Schemes") == normalize_label("Folding Scheme")
+    assert normalize_label("STARK (Scalable...)") == "stark"
+    assert normalize_label("Zero-Knowledge Proofs") == normalize_label("zero knowledge proof")
+
+
+def test_label_set_and_compare():
+    g_book = {"nodes": [{"label": "Folding Schemes"}, {"label": "PLONK"}], "links": []}
+    g1 = {"nodes": [{"label": "Folding Scheme"}, {"label": "KZG Commitments"}], "links": []}
+    assert label_set(g_book) == {"folding scheme", "plonk"}
+    cmp = compare(g_book, g1)
+    assert "plonk" in cmp["book_only"]
+    assert "kzg commitment" in cmp["graph1_only"]
+    assert "folding scheme" in cmp["shared"]
+    assert 0.0 < cmp["jaccard"] < 1.0
