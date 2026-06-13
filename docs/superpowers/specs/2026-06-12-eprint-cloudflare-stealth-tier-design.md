@@ -92,3 +92,27 @@ Single feature branch, milestone commits (Cloudflare-detection helper + tests, s
 - The only working-tree change from the run was `references/manifest.json` (entry 6 status flipped to `failed`); it was restored via `git checkout -- references/manifest.json`.
 - **Cache amortization across refs 17/45 was NOT tested** — Step 5 is gated on Step 2 succeeding, and Step 2 failed to clear the wall, so there was no cached session to amortize. (All three refs share the `https://eprint.iacr.org` origin, so the amortization path is exercisable once clearing works.)
 - **Corpus restored unchanged:** after `git checkout -- references/ch02/ref-06-groth16.pdf references/manifest.json`, `git status --porcelain` reported the `references/` tree clean (only this spec doc differs).
+
+### 2026-06-12 (after clear-URL fix, commit 02bb441)
+
+Re-ran the same live-network verification on branch `eprint-cloudflare-stealth-tier` with HEAD at commit `02bb441` ("Clear Cloudflare on the challenged PDF URL, not the landing page"). The fix corrects the root cause identified above: the stealth tier now runs `solve_cloudflare` directly against the challenged `*.pdf` URL instead of the unchallenged landing page `/`.
+
+**Outcome: the stealth tier CLEARED the wall and produced a valid byte-matching PDF.** Ref **id 6** (`https://eprint.iacr.org/2016/260.pdf` → `references/ch02/ref-06-groth16.pdf`) was force-re-downloaded with `python scripts/fetch_references.py --force --only 6`. Console flow observed:
+
+- curl_cffi `chrome` attempt: `status=403, pdf=False`; curl_cffi `firefox` attempt: `status=403, pdf=False`.
+- `cloudflare detected -> escalating to Camoufox stealth tier`.
+- The headless browser now loaded the **PDF URL itself** and was challenged: `INFO: The turnstile version discovered is "managed"`, then (after a re-solve pass) `INFO: Cloudflare captcha is solved`.
+- `INFO: Fetched (307) <GET https://eprint.iacr.org/2016/260.pdf>` → `Fetched (200) <GET https://eprint.iacr.org/2016/260.pdf>` (×2).
+- Entry status: `-> ok`. Summary line: `63/63 resolved; unresolved: none`.
+
+This is neither failure sub-case from the prior run: the challenge **did** present on the PDF URL to the headless browser, the solve succeeded, and the curl_cffi reuse was **not** rejected — the UA↔`cf_clearance` binding risk flagged in the design did not materialize on this run.
+
+**Valid PDF produced.** Post-download integrity check (`open(...,'rb').read()`): magic `b'%PDF-'`, size **404221 bytes** — an exact byte-size match to the committed baseline (404221) and to the pre-test backup. The stealth tier fetched a genuine, correct PDF.
+
+**Cache amortization (refs 17/45) tested and confirmed.** With ref 6 succeeding, Step 5 ran `python scripts/fetch_references.py --force --only 17,45`. Both share the `https://eprint.iacr.org` origin. Observed:
+
+- Ref **17** (`2021/370.pdf`): two curl 403s → `cloudflare detected -> escalating` → full browser Turnstile solve (`turnstile version "managed"` … `Cloudflare captcha is solved`) → 307 → 200 → 200 → `-> ok`.
+- Ref **45** (`2025/611.pdf`): two curl 403s → **no browser solve at all** (no `turnstile`/`solving`/`captcha` log lines) → immediate `Fetched (200)` → `-> ok`. The second ref reused the cached origin session minted by ref 17.
+- The browser solve happened **exactly once** across both refs, confirming the cache amortizes the expensive Turnstile solve across same-origin fetches.
+
+**Corpus restored clean.** After each test phase, `git checkout -- references/` was run; `git status --porcelain` reported the `references/` tree clean both times (only this spec doc differs). The temp backup was removed. No committed corpus file was permanently modified.
