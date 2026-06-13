@@ -54,6 +54,9 @@ def test_normalize_label_depluralizes_and_strips_punctuation():
     assert m.normalize_label("Knowledge Soundness") == "knowledge soundness"  # ss preserved
     assert m.normalize_label("STARK") == "stark"
     assert m.normalize_label("  Folding   Scheme!! ") == "folding scheme"
+    assert m.normalize_label("Consensus") == "consensus"   # Latin -us kept
+    assert m.normalize_label("Basis") == "basis"           # Latin -is kept
+    assert m.normalize_label(None) == ""                    # None tolerated
 
 
 def test_degree_map_counts_incidence():
@@ -85,3 +88,19 @@ def test_validate_alias_map_rejects_unknown_id():
     g = _g([{"id": "a"}], [])
     with pytest.raises(ValueError):
         m.validate_alias_map({"a": "missing"}, g)
+
+
+def test_degree_map_counts_self_loop_twice():
+    g = _g([{"id": "a"}], [{"source": "a", "target": "a"}])
+    assert m.degree_map(g) == {"a": 2}
+
+
+def test_validate_alias_map_rejects_alias_that_is_canonical():
+    g = _g([{"id": "a"}, {"id": "b"}, {"id": "c"}], [])
+    with pytest.raises(ValueError):
+        m.validate_alias_map({"a": "b", "c": "a"}, g)  # 'a' is alias key AND canonical
+
+
+def test_build_alias_map_skips_unlabeled_nodes():
+    g = _g([{"id": "concept_kzg-commitment"}, {"id": "concept_kzg_commitment"}], [])
+    assert m.build_alias_map(g) == {}  # no label/norm_label -> not aliased

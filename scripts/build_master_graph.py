@@ -51,7 +51,9 @@ def _depluralize(tok: str) -> str:
     for suf in ("'s", "(s)"):
         if tok.endswith(suf):
             return tok[: -len(suf)]
-    if len(tok) > 3 and tok.endswith("s") and not tok.endswith("ss"):
+    # Drop a plural 's', but keep double-s words (soundness) and common Latin
+    # singular endings (consensus, status, basis, axis, analysis, ...).
+    if len(tok) > 3 and tok.endswith("s") and not tok.endswith(("ss", "us", "is")):
         return tok[:-1]
     return tok
 
@@ -75,18 +77,22 @@ def degree_map(graph: dict) -> dict[str, int]:
 
 def build_alias_map(graph: dict) -> dict[str, str]:
     """Group nodes by normalized label; within each group of 2+, the highest-degree
-    node (tie: lexically smallest id) is canonical and the rest map to it."""
+    node (tie: lexically smallest id) is canonical and the rest map to it. Nodes
+    with no usable label (neither norm_label nor label) are left ungrouped."""
     deg = degree_map(graph)
     groups: dict[str, list[str]] = {}
     for n in graph["nodes"]:
-        key = normalize_label(n.get("norm_label") or n.get("label") or n["id"])
+        raw = n.get("norm_label") or n.get("label")
+        if not raw:
+            continue  # don't alias nodes we can't name (no id fallback)
+        key = normalize_label(raw)
         if key:
             groups.setdefault(key, []).append(n["id"])
     alias: dict[str, str] = {}
     for ids in groups.values():
         if len(ids) < 2:
             continue
-        canonical = sorted(ids, key=lambda i: (-deg.get(i, 0), i))[0]
+        canonical = min(ids, key=lambda i: (-deg.get(i, 0), i))
         for i in ids:
             if i != canonical:
                 alias[i] = canonical
