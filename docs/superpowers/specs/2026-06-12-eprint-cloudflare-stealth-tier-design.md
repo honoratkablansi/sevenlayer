@@ -1,0 +1,72 @@
+# ePrint Cloudflare Stealth Tier — Design
+
+**Date:** 2026-06-12
+**Status:** Approved (approach A — Camoufox clears the wall, curl_cffi reuses the session)
+**Goal:** Give `scripts/fetch_references.py` a durable, unattended way to download eprint.iacr.org (and similarly Cloudflare-walled) paper PDFs, so `--force` reruns, future-edition references, and fresh clones on other machines all succeed without a manual cookie-harvest.
+
+## Context
+
+- `fetch_paper()` currently makes two curl_cffi attempts (`Fetcher.get` with chrome then firefox impersonation). eprint.iacr.org sits behind a Cloudflare managed challenge that returns HTTP 403 to all curl_cffi impersonation profiles, so all 31 ePrint PDFs fail this path.
+- Task 4 worked around it manually: Camoufox (`StealthyFetcher`) loaded an eprint page, passed the challenge through real browser execution, and the harvested `cf_clearance` cookie + browser user-agent were fed to curl_cffi to pull the actual PDF bytes. The 31 PDFs are committed; this design makes that workaround a permanent code path.
+- **Installed Scrapling 0.4.9 has no `solve_cloudflare` feature.** The PyPI description references it, but the installed package contains zero Cloudflare/Turnstile code (verified by grep). We rely on Camoufox's stealth being sufficient to pass the *managed* challenge on its own — which Task 4 demonstrated — not on an explicit solver.
+- Verified 0.4.9 API surface:
+  - `StealthyFetcher.fetch(url, **kwargs)` accepts `cookies`, `page_action` (a `Callable` receiving the live page, validated as callable), `network_idle`, `wait_selector`, `user_data_dir`, `additional_args`, `timeout` (milliseconds).
+  - Its `Response` exposes `.status`, `.body` (bytes), and `.cookies` (tuple of cookie dicts / dict).
+  - `Fetcher.get(url, **kwargs)` accepts `impersonate`, `timeout` (seconds), and `cookies`.
+
+## Design
+
+### Component: a stealth tier inside `fetch_paper()` (`scripts/fetch_references.py`)
+
+`fetch_paper(url)` keeps its current two curl_cffi attempts. New behavior: if both attempts fail **and the failure looks like a Cloudflare block** (HTTP 403, or a non-PDF body whose content sniffs as a Cloudflare interstitial — e.g. contains `cf-mitigated`, `Just a moment`, or `challenge-platform`), escalate to a stealth tier:
+
+1. **Clear the wall once per run (module-level cached session).** On first escalation, call `StealthyFetcher.fetch` on a lightweight page of the same origin (`https://eprint.iacr.org/` — HTML, not a PDF, to avoid the browser's download-vs-render problem) with `network_idle=True` and a `page_action` that, after the challenge passes, harvests from the live page:
+   - the `cf_clearance` cookie (and any other cookies the origin set), via the page's context cookies;
+   - the exact `navigator.userAgent` string Camoufox presented (cf_clearance is bound to this UA).
+
+   Store `(cookies, user_agent)` in a module-level cache keyed by origin, so the browser launches at most once per origin per process. If `page_action` harvesting proves awkward, fall back to reading `Response.cookies` plus a UA captured via a one-line `page.evaluate("navigator.userAgent")` inside `page_action`.
+
+2. **Download the PDF with the cleared session via curl_cffi.** Call `Fetcher.get(url, impersonate="chrome", cookies=<harvested cookies>, headers/UA=<harvested UA>, timeout=90)`. curl_cffi with a valid `cf_clearance` + matching UA passes the wall. Validate `is_pdf(body)` as today.
+
+3. **One retry on stale clearance.** If the cleared-session download still 403s (clearance expired mid-run), invalidate the cached session for that origin, re-clear once, retry once. If it still fails, return failure for that entry.
+
+Return contract is unchanged: `fetch_paper` returns `(pdf_bytes | None, how)`. The `how` label gains a value for the stealth path (e.g. `"fetcher-stealth"`). `process()` maps any successful paper fetch to status `"ok"` today; this design keeps papers as `"ok"` but the design spec's `ok-stealth` status MAY be applied to stealth-fetched papers if we want the manifest to record which papers needed the wall — decided in the plan. (Default: keep `"ok"` for papers to avoid reintroducing the mislabeling the Task 3 review removed; the `how` string is for logging only.)
+
+### Boundaries
+
+- The stealth tier is internal to `fetch_paper`. `fetch_web_text`, `process`, `main`, the manifest schema, and the CLI flags are unchanged. No new top-level functions are exposed beyond small private helpers (`_looks_like_cloudflare(status, body)`, `_clear_cloudflare(origin)`).
+- The pure helpers (`is_pdf`, `stub_markdown`, `web_markdown`) and their tests are untouched.
+- No new files, no new dependencies — Camoufox is already installed.
+
+## Error handling
+
+- **Camoufox unavailable / launch failure** (browser binaries missing, headless crash): catch, log, return failure for the entry — never abort the whole run. A `--force` rerun of one ref must isolate its own failure exactly as the current per-entry isolation does.
+- **Challenge not passed** (Camoufox itself gets a challenge page, e.g. network change to a stricter Cloudflare mode): the harvested cookies won't contain `cf_clearance`; detect that and return failure with a clear log line ("Cloudflare challenge not cleared for <origin>") rather than handing curl_cffi a useless session.
+- **Non-Cloudflare 403** (genuinely forbidden, dead link): `_looks_like_cloudflare` must be specific enough that a plain 403/404 does NOT trigger a pointless browser launch. When in doubt, the stealth tier still runs but fails fast and cheap on the cleared-session download.
+- **Idempotency preserved:** the stealth tier only runs during an actual download attempt; existing-file skip logic and atomic writes are unchanged, so reruns over a complete corpus remain no-ops.
+
+## Testing
+
+- **Unit (offline, no network) — the only tests that gate the plan:**
+  - `_looks_like_cloudflare`: true for (403, b""), true for a body containing `Just a moment` / `cf-mitigated` / `challenge-platform`, false for a real PDF body, false for a plain 404 HTML page.
+  - Session cache: a `_clear_cloudflare` stubbed (monkeypatched) to a fake harvester is called at most once per origin across multiple `fetch_paper` calls in one process; the cached `(cookies, ua)` is reused.
+  - `fetch_paper` escalation logic with `Fetcher`/`StealthyFetcher` monkeypatched: curl_cffi-success path never launches the browser; curl_cffi-403 path triggers exactly one clear + one cleared-session download; stale-clearance path triggers exactly one re-clear then gives up.
+  - All existing 7 tests still pass.
+- **Integration (network, manual, not in the gated suite):** `--force --only <one eprint id>` actually downloads a valid PDF via the stealth tier; then a byte-for-byte (or `%PDF` + size) check that the stealth-fetched file matches the committed copy. Run for a small sample (e.g. refs 5, 17, 45), not all 31, to respect Cloudflare and time. Document that this step requires the Camoufox binaries and live network.
+
+## Verification
+
+- Full unit suite green.
+- Manual: temporarily move one committed eprint PDF aside, run `--force --only <id>`, confirm the stealth tier repopulates a valid PDF, confirm a second run is a no-op. Restore from git if the redownload differs only in PDF metadata (eprint serves byte-stable PDFs, so an exact match is expected).
+- `--dry-run` still does no network and creates no files.
+
+## Out of scope
+
+- Re-downloading all 31 ePrint PDFs in bulk (they are committed and byte-stable; the manual integration sample is enough to prove the tier).
+- A persistent on-disk `user_data_dir` cookie cache across runs (approach C) — the per-process cache is sufficient for `--force` and edition refreshes.
+- Proxy rotation, CAPTCHA-solving services, or handling Cloudflare modes stricter than the current managed challenge.
+- Applying the stealth tier to `fetch_web_text` (web pages already have a working StealthyFetcher fallback).
+
+## Git
+
+Single feature branch, milestone commits (Cloudflare-detection helper + tests, stealth tier wired into `fetch_paper`, manual integration verification notes). Repo-local author `Charles Hoskinson <Charles.Hoskinson@gmail.com>`.
