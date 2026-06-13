@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch13/ref-60-eidas-2-regulation.pdf"
 type: "document"
-community: "Community 28"
+community: "Community 3"
 location: "page 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_28
+  - community/Community_3
 ---
 
 # Digital Identity
@@ -18,4 +18,4 @@ tags:
 - [[World ID open-source decentralized privacy-preserving digital identity issuing unlinkable proofs (Proof of Human, Age, Country) via personal custody, AMPC and ZKPs]] - `conceptually_related_to` [EXTRACTED]
 - [[World Whitepapers (World Network Proof of Human)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_28
+#graphify/document #graphify/EXTRACTED #community/Community_3

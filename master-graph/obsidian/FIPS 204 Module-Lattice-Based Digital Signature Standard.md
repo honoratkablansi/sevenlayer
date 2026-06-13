@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-64-fips-204.pdf"
 type: "paper"
-community: "Community 8"
+community: "Community 81"
 location: "p.1 (title/abstract)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_8
+  - community/Community_81
 ---
 
 # FIPS 204: Module-Lattice-Based Digital Signature Standard
@@ -18,4 +18,4 @@ tags:
 - [[Post-Quantum Cryptography]] - `references` [EXTRACTED]
 - [[The Synthesis -- Three Paths, Not Two]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_8
+#graphify/paper #graphify/EXTRACTED #community/Community_81

@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-05-halo.pdf"
 type: "paper"
-community: "Community 30"
+community: "Community 110"
 location: "Abstract, §1.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_30
+  - community/Community_110
 ---
 
 # Halo: first practical recursive proof composition without a trusted setup
@@ -23,8 +23,8 @@ tags:
 - [[Non-interactive instantiation via Fiat-Shamir with Rescue duplex-sponge in random oracle model]] - `introduces` [EXTRACTED]
 - [[Polynomial Commitment Scheme]] - `assumes` [INFERRED]
 - [[Recursion threshold below 217 gates; fully-recursive proofs 3.5 KiB at 128-bit security]] - `proves` [EXTRACTED]
-- [[Recursive Proof Composition_1]] - `introduces` [EXTRACTED]
+- [[Recursive Proof Composition]] - `introduces` [EXTRACTED]
 - [[TweedledumTweedledee 255-bit prime-order normal (non-pairing) 2-cycle, y2=x3+5]] - `introduces` [EXTRACTED]
 - [[Valiant Incrementally verifiable computation 36]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_30
+#graphify/paper #graphify/EXTRACTED #community/Community_110

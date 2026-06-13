@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch03/ref-12-underconstrained-circuits.pdf"
 type: "document"
-community: "Community 52"
+community: "Community 83"
 location: "abstract"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_52
+  - community/Community_83
 ---
 
 # SMT Solving
@@ -16,4 +16,4 @@ tags:
 - [[Finite-Field SMT Solver (cvc5 fork)]] - `conceptually_related_to` [EXTRACTED]
 - [[SMT Query Procedure (Algorithm 4)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_52
+#graphify/document #graphify/EXTRACTED #community/Community_83

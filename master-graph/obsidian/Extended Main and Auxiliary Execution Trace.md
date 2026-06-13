@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch1/ref-18-risc-zero-proof-system-overview.md"
 type: "document"
-community: "Community 9"
+community: "Community 63"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_9
+  - community/Community_63
 ---
 
 # Extended Main and Auxiliary Execution Trace
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[DEEP-ALI and FRI]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_9
+#graphify/document #graphify/EXTRACTED #community/Community_63

@@ -1,32 +1,31 @@
 ---
 type: community
-cohesion: 0.15
-members: 17
+cohesion: 0.17
+members: 16
 ---
 
 # Community 78
 
-**Cohesion:** 0.15 - loosely connected
-**Members:** 17 nodes
+**Cohesion:** 0.17 - loosely connected
+**Members:** 16 nodes
 
 ## Members
-- [[AVX-512 multi-modular NTT ring arithmetic library]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[Batched evaluation protocol for multiple pointspolynomials]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[Bivariate polynomial folding f(X,Y)=aT S b with Y=Xm]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[Committing to w via v=Dw-hat (proof-size reduction)]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[Efficiency O(sqrt N) verifier, polylog proof, 53KB at N=230]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[Fast Johnson-Lindenstrauss projection via Four Russians algorithm]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[Greyhound polynomial commitment scheme]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[Inner and outer commitment construction]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[LaBRADOR Proof System]] - document - references/ch14/ref-65-greyhound.pdf
-- [[Ligero (AHIV17) and Brakedown (GLS+21) hash-based PCs (baselines)]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[Reduction of verification to a single short-norm linear relation over Rq]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[SLAP succinct lattice polynomial commitments (AFLN24, EUROCRYPT 2024)]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[Split-and-fold  folding paradigm]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[Theorem 4.1 completeness, weak binding, knowledge soundness of PCS]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[Three-round proof of polynomial evaluation (quadratic relation)]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[Weak binding of innerouter commitment under Module-SIS (Lemma 2.11)]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[Zq-to-Rq evaluation transform via Galois automorphism (AFLN24)]] - paper - references/ch14/ref-65-greyhound.pdf
+- [[Aggregation tree (recursive verification tree)]] - paper - references/recursion/ch1/ref-21-zktree.pdf
+- [[Circuit-hash and input-hash Merkle roots at zkTree root]] - paper - references/recursion/ch1/ref-21-zktree.pdf
+- [[Comparison vs deVirgo zkTree avoids central machine  circuit-splitting rigidity]] - paper - references/recursion/ch1/ref-21-zktree.pdf
+- [[Distributed proof generation with independent same-level proofs (no inter-worker comms)]] - paper - references/recursion/ch1/ref-21-zktree.pdf
+- [[Ed25519Tendermint evaluation 32 sigs verified on ETH, 77s end-to-end, 230k gas]] - paper - references/recursion/ch1/ref-21-zktree.pdf
+- [[Heterogeneous zk proofs in a single tree (claim of novelty over prior trees)]] - paper - references/recursion/ch1/ref-21-zktree.pdf
+- [[Hierarchical SNARK aggregation tree (origin of shared-verification-cost trees)]] - paper - references/recursion/ch1/ref-21-zktree.pdf
+- [[Intermediate bn128-Poseidon Plonky2 proof to eliminate non-native range checks]] - paper - references/recursion/ch1/ref-21-zktree.pdf
+- [[Leaf builder L_i(pi_i,{x_i},VD_i) - upsilon_i,h_i,c_i]] - paper - references/recursion/ch1/ref-21-zktree.pdf
+- [[Merkle ZKP membership proof]] - paper - references/recursion/ch1/ref-21-zktree.pdf
+- [[Node builder combining leafnode pairs into omega_k,h_k,c_k]] - paper - references/recursion/ch1/ref-21-zktree.pdf
+- [[On-chain verifier Plonky2 root recursively wrapped into Groth16 (230k gas)]] - paper - references/recursion/ch1/ref-21-zktree.pdf
+- [[Three zkTree proof types user proof, leaf proof, node proof]] - paper - references/recursion/ch1/ref-21-zktree.pdf
+- [[zkBridge  deVirgo distributed proving via circuit splitting (Xie et al.)]] - paper - references/recursion/ch1/ref-21-zktree.pdf
+- [[zkTree costtime model gen time ~ log(n) node-proof times; comm cost n x proof size (~130KB)]] - paper - references/recursion/ch1/ref-21-zktree.pdf
+- [[zkTree zero-knowledge recursion tree with ZKP membership proofs]] - paper - references/recursion/ch1/ref-21-zktree.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -36,17 +35,15 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 9 edges to [[_COMMUNITY_Community 8]]
-- 2 edges to [[_COMMUNITY_Community 90]]
-- 1 edge to [[_COMMUNITY_Community 5]]
-- 1 edge to [[_COMMUNITY_Community 67]]
-- 1 edge to [[_COMMUNITY_Community 54]]
-- 1 edge to [[_COMMUNITY_Community 2]]
-- 1 edge to [[_COMMUNITY_Community 51]]
+- 2 edges to [[_COMMUNITY_Community 12]]
+- 2 edges to [[_COMMUNITY_Community 105]]
+- 2 edges to [[_COMMUNITY_Community 1]]
+- 2 edges to [[_COMMUNITY_Community 14]]
+- 1 edge to [[_COMMUNITY_Community 8]]
 
 ## Top bridge nodes
-- [[Greyhound polynomial commitment scheme]] - degree 14, connects to 7 communities
-- [[LaBRADOR Proof System]] - degree 6, connects to 1 community
-- [[Three-round proof of polynomial evaluation (quadratic relation)]] - degree 6, connects to 1 community
-- [[Inner and outer commitment construction]] - degree 4, connects to 1 community
-- [[SLAP succinct lattice polynomial commitments (AFLN24, EUROCRYPT 2024)]] - degree 3, connects to 1 community
+- [[zkTree zero-knowledge recursion tree with ZKP membership proofs]] - degree 14, connects to 5 communities
+- [[Aggregation tree (recursive verification tree)]] - degree 5, connects to 1 community
+- [[On-chain verifier Plonky2 root recursively wrapped into Groth16 (230k gas)]] - degree 4, connects to 1 community
+- [[Distributed proof generation with independent same-level proofs (no inter-worker comms)]] - degree 3, connects to 1 community
+- [[Intermediate bn128-Poseidon Plonky2 proof to eliminate non-native range checks]] - degree 2, connects to 1 community

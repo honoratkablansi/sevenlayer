@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch1/ref-17-polygon-zkevm-docs.md"
 type: "document"
-community: "Community 30"
+community: "Community 14"
 tags:
   - graphify/document
   - graphify/INFERRED
-  - community/Community_30
+  - community/Community_14
 ---
 
 # STARK-to-SNARK Recursion
@@ -15,6 +15,6 @@ tags:
 - [[Groth16 Circuit (on-chain verification wrapper)]] - `conceptually_related_to` [INFERRED]
 - [[No-trusted-setup (transparent) argument under discrete log over normal curve cycles]] - `conceptually_related_to` [INFERRED]
 - [[Polygon zkEVM Documentation (STARK to FFLONK pipeline)]] - `explains` [INFERRED]
-- [[Recursive Proof Composition_1]] - `conceptually_related_to` [EXTRACTED]
+- [[Recursive Proof Composition]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/INFERRED #community/Community_30
+#graphify/document #graphify/INFERRED #community/Community_14

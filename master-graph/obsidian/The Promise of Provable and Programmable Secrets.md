@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/01-the-promise-of-provable-and-programmable-secrets.md"
 type: "document"
-community: "Community 5"
+community: "Community 69"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_5
+  - community/Community_69
 ---
 
 # The Promise of Provable and Programmable Secrets
@@ -20,7 +20,7 @@ tags:
 - [[FRI Commitment Scheme]] - `references` [EXTRACTED]
 - [[Fiat-Shamir Transform]] - `references` [EXTRACTED]
 - [[Folding Scheme]] - `references` [EXTRACTED]
-- [[Goldilocks Field_1]] - `references` [EXTRACTED]
+- [[Goldilocks Field]] - `references` [EXTRACTED]
 - [[Groth16]] - `references` [EXTRACTED]
 - [[How to Read This Guide]] - `part_of` [EXTRACTED]
 - [[Interactive Proof (IP) prover-verifier protocol with statistical soundness]] - `references` [EXTRACTED]
@@ -61,4 +61,4 @@ tags:
 - [[Zcash]] - `references` [EXTRACTED]
 - [[Zero-Knowledge Proof]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_5
+#graphify/document #graphify/EXTRACTED #community/Community_69

@@ -1,25 +1,25 @@
 ---
 source_file: "references/ch06/ref-21-neo.pdf"
 type: "paper"
-community: "Community 17"
+community: "Community 48"
 location: "p.1 (title/abstract)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_17
+  - community/Community_48
 ---
 
 # Neo: Lattice-based Folding Scheme for CCS over Small Fields and Pay-per-bit Commitments
 
 ## Connections
 - [[(d,m,B,C)-relaxed binding; binding implies relaxed binding (Lemma 3)]] - `defines` [EXTRACTED]
-- [[Ajtai Lattice Commitment]] - `conceptually_related_to` [EXTRACTED]
+- [[Ajtai commitments]] - `conceptually_related_to` [EXTRACTED]
 - [[Algebraic reductions of knowledge]] - `cites` [EXTRACTED]
 - [[Arc (hash-based accumulation for Reed-Solomon codes)]] - `cites` [EXTRACTED]
 - [[CCS (Customizable Constraint Systems)]] - `conceptually_related_to` [EXTRACTED]
 - [[Concrete parameters AGL, Goldilocks, Mersenne-61 over degree-2 extension]] - `defines` [EXTRACTED]
 - [[Folding Scheme]] - `conceptually_related_to` [EXTRACTED]
-- [[Goldilocks Field_1]] - `conceptually_related_to` [EXTRACTED]
+- [[Goldilocks Field]] - `conceptually_related_to` [EXTRACTED]
 - [[HyperNova (CRYPTO'24)]] - `shares_data_with` [INFERRED]
 - [[HyperNova Recursive Arguments for Customizable Constraint Systems]] - `cites` [EXTRACTED]
 - [[Incrementally Verifiable Computation (IVC)]] - `conceptually_related_to` [EXTRACTED]
@@ -39,10 +39,10 @@ tags:
 - [[Nova (CRYPTO'22)]] - `cites` [EXTRACTED]
 - [[Plausible post-quantum security from lattice (no DLOG reliance)]] - `proves` [EXTRACTED]
 - [[Post-Quantum Cryptography]] - `conceptually_related_to` [EXTRACTED]
-- [[Sum-Check Protocol_1]] - `conceptually_related_to` [EXTRACTED]
+- [[Sum-Check Protocol]] - `conceptually_related_to` [EXTRACTED]
 - [[The Synthesis -- Three Paths, Not Two]] - `cites` [EXTRACTED]
 - [[Theorem 2 Ajtai scheme is S-homomorphic and (d,m,B)-binding under MSIS]] - `proves` [EXTRACTED]
 - [[Theorem 5 composition theorem (restricted + relaxed knowledge soundness compose to RoK)]] - `proves` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_17
+#graphify/paper #graphify/EXTRACTED #community/Community_48

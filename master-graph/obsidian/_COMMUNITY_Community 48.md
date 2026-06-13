@@ -1,38 +1,37 @@
 ---
 type: community
 cohesion: 0.12
-members: 23
+members: 22
 ---
 
 # Community 48
 
 **Cohesion:** 0.12 - loosely connected
-**Members:** 23 nodes
+**Members:** 22 nodes
 
 ## Members
-- [[Commitment Transformation Protocol Pi_cm]] - paper - references/ch02/ref-11-latticefold-plus.pdf
-- [[Decomposition Pi_decomp (R_lin,B2 - R_lin,B(2))]] - paper - references/ch02/ref-11-latticefold-plus.pdf
-- [[Double Commitment (commitment of commitments, dcom)]] - paper - references/ch02/ref-11-latticefold-plus.pdf
-- [[Greyhound NS24 (LaBRADOR-based PCS, sqrt verifier)]] - paper - references/ch02/ref-11-latticefold-plus.pdf
-- [[HyperNova KS24b (linearization, CCS folding)]] - paper - references/ch02/ref-11-latticefold-plus.pdf
-- [[LaBRADOR BS23 (commitments-to-commitments, short proofs)]] - paper - references/ch02/ref-11-latticefold-plus.pdf
-- [[LatticeFold BC24 (predecessor)]] - paper - references/ch02/ref-11-latticefold-plus.pdf
-- [[LatticeFold+ Folding Scheme (R_comp x R_acc - R_acc)]] - paper - references/ch02/ref-11-latticefold-plus.pdf
-- [[LatticeFold+ Faster, Simpler, Shorter Lattice-Based Folding for Succinct Proof Systems]] - paper - references/ch02/ref-11-latticefold-plus.pdf
-- [[Lemma 2.1 a(X2)=a(X)2 iff a is a monomial]] - paper - references/ch02/ref-11-latticefold-plus.pdf
-- [[Lemma 2.2 ct(bpsi)=a characterizes range membership via EXP]] - paper - references/ch02/ref-11-latticefold-plus.pdf
-- [[Lova FKNP24 (l2-norm integer Ajtai folding)]] - paper - references/ch02/ref-11-latticefold-plus.pdf
-- [[Monomial Set Check Pi_mon]] - paper - references/ch02/ref-11-latticefold-plus.pdf
-- [[Multi-Input Folding Pi_mlin (R_lin,B(L) - R_lin,B2)]] - paper - references/ch02/ref-11-latticefold-plus.pdf
-- [[Neo NS25 (small-field embedding into cyclotomic ring)]] - paper - references/ch02/ref-11-latticefold-plus.pdf
-- [[Proof Size O_lambda(kappad + log n) (vs LatticeFold kappadlogB)]] - paper - references/ch02/ref-11-latticefold-plus.pdf
-- [[Purely Algebraic Range Proof (no bit-decomposition)]] - paper - references/ch02/ref-11-latticefold-plus.pdf
-- [[Range Check Protocol Pi_rgchk (double-commitment range proof)]] - paper - references/ch02/ref-11-latticefold-plus.pdf
-- [[Small Prime Moduli Support (tensor-of-rings, Neo-style)]] - paper - references/ch02/ref-11-latticefold-plus.pdf
-- [[Theorem 5.1 Main folding RoK from R_comp x R_acc to R_acc]] - paper - references/ch02/ref-11-latticefold-plus.pdf
-- [[Theorem 5.3 Efficiency estimate (proververifierproof size)]] - paper - references/ch02/ref-11-latticefold-plus.pdf
-- [[splitpow Maps & Gadget Decomposition]] - paper - references/ch02/ref-11-latticefold-plus.pdf
-- [[~5x Faster Prover, Omega(log B) speedup over LatticeFold]] - paper - references/ch02/ref-11-latticefold-plus.pdf
+- [[(Super)Spartan zkSNARK]] - paper - references/ch06/ref-21-neo.pdf
+- [[(d,m,B,C)-relaxed binding; binding implies relaxed binding (Lemma 3)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Algebraic reductions of knowledge]] - paper - references/ch06/ref-21-neo.pdf
+- [[Arc (hash-based accumulation for Reed-Solomon codes)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Concrete parameters AGL, Goldilocks, Mersenne-61 over degree-2 extension]] - paper - references/ch06/ref-21-neo.pdf
+- [[HyperNova (CRYPTO'24)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Lattice IVCPCD with Spartan+FRI proof compression, no curve cycles]] - paper - references/ch06/ref-21-neo.pdf
+- [[Lattice folding for lookups and read-write memory via ShoutTwist]] - paper - references/ch06/ref-21-neo.pdf
+- [[Lova (unstructured-lattice folding for subset sum)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Neo folding scheme for CCS (lattice-based)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Neo Lattice-based Folding Scheme for CCS over Small Fields and Pay-per-bit Commitments]] - paper - references/ch06/ref-21-neo.pdf
+- [[NeutronNova]] - paper - references/ch06/ref-21-neo.pdf
+- [[Nova (CRYPTO'22)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Pi_CCS reduction (CCS to linearizedmatrix-eval claims via sum-check)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Pi_DEC decomposition reduction (norm-B claim into k norm-b claims)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Pi_RLC random linear combination reduction (folds k+1 norm-b claims into one norm-B)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Plausible post-quantum security from lattice (no DLOG reliance)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Reductions of knowledge framework]] - paper - references/ch06/ref-21-neo.pdf
+- [[Short invertible elements in partially splitting cyclotomic rings]] - paper - references/ch06/ref-21-neo.pdf
+- [[Strong sampling set with small-norm invertible challenges (expansion factor T)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Theorem 5 composition theorem (restricted + relaxed knowledge soundness compose to RoK)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Twist and Shout (sum-check lookup  memory arguments)]] - paper - references/ch06/ref-21-neo.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -42,22 +41,21 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 6 edges to [[_COMMUNITY_Community 0]]
-- 5 edges to [[_COMMUNITY_Community 8]]
-- 5 edges to [[_COMMUNITY_Community 3]]
-- 3 edges to [[_COMMUNITY_Community 17]]
-- 2 edges to [[_COMMUNITY_Community 41]]
-- 1 edge to [[_COMMUNITY_Community 6]]
-- 1 edge to [[_COMMUNITY_Community 23]]
-- 1 edge to [[_COMMUNITY_Community 75]]
-- 1 edge to [[_COMMUNITY_Community 2]]
-- 1 edge to [[_COMMUNITY_Community 94]]
-- 1 edge to [[_COMMUNITY_Community 25]]
+- 8 edges to [[_COMMUNITY_Community 0]]
+- 5 edges to [[_COMMUNITY_Community 88]]
+- 4 edges to [[_COMMUNITY_Community 32]]
+- 3 edges to [[_COMMUNITY_Community 8]]
+- 2 edges to [[_COMMUNITY_Community 11]]
+- 2 edges to [[_COMMUNITY_Community 18]]
+- 1 edge to [[_COMMUNITY_Community 61]]
+- 1 edge to [[_COMMUNITY_Community 16]]
+- 1 edge to [[_COMMUNITY_Community 54]]
+- 1 edge to [[_COMMUNITY_Community 12]]
 - 1 edge to [[_COMMUNITY_Community 15]]
 
 ## Top bridge nodes
-- [[LatticeFold+ Faster, Simpler, Shorter Lattice-Based Folding for Succinct Proof Systems]] - degree 25, connects to 10 communities
-- [[LatticeFold BC24 (predecessor)]] - degree 6, connects to 2 communities
-- [[Commitment Transformation Protocol Pi_cm]] - degree 6, connects to 2 communities
-- [[Double Commitment (commitment of commitments, dcom)]] - degree 6, connects to 1 community
-- [[LatticeFold+ Folding Scheme (R_comp x R_acc - R_acc)]] - degree 6, connects to 1 community
+- [[Neo Lattice-based Folding Scheme for CCS over Small Fields and Pay-per-bit Commitments]] - degree 32, connects to 11 communities
+- [[Neo folding scheme for CCS (lattice-based)]] - degree 9, connects to 3 communities
+- [[Concrete parameters AGL, Goldilocks, Mersenne-61 over degree-2 extension]] - degree 3, connects to 2 communities
+- [[Strong sampling set with small-norm invertible challenges (expansion factor T)]] - degree 4, connects to 1 community
+- [[Lattice IVCPCD with Spartan+FRI proof compression, no curve cycles]] - degree 3, connects to 1 community

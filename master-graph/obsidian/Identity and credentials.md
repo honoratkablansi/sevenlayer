@@ -1,12 +1,12 @@
 ---
 source_file: "recursion/recursion-outline.md"
 type: "document"
-community: "Community 65"
+community: "Community 67"
 location: "Recursion Chapter 3"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_65
+  - community/Community_67
 ---
 
 # Identity and credentials
@@ -18,4 +18,4 @@ tags:
 - [[ZKPassport  Anon-Aadhaar document-proof systems]] - `defines` [EXTRACTED]
 - [[zkTLS  zkEmail web and email provenance]] - `conceptually_related_to` [INFERRED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_65
+#graphify/document #graphify/EXTRACTED #community/Community_67

@@ -1,12 +1,12 @@
 ---
 source_file: "wiki/sections/ch04-side-channel-attacks-when-the-walls-leak.md"
 type: "document"
-community: "Community 5"
+community: "Community 0"
 location: "Dependencies"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_5
+  - community/Community_0
 ---
 
 # Algebraic vs Traditional Hash Functions
@@ -16,8 +16,8 @@ tags:
 - [[Fiat-Shamir Transform]] - `references` [EXTRACTED]
 - [[Layer 6 -- The Deep Craft]] - `part_of` [EXTRACTED]
 - [[Midnight (Privacy Blockchain)]] - `references` [EXTRACTED]
-- [[Poseidon Hash_1]] - `references` [EXTRACTED]
+- [[Poseidon Hash]] - `references` [EXTRACTED]
 - [[STARK]] - `references` [EXTRACTED]
 - [[Side-Channel Attacks When the Walls Leak]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_5
+#graphify/document #graphify/EXTRACTED #community/Community_0

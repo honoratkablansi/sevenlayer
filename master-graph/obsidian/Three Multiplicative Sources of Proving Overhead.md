@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 4"
+community: "Community 10"
 location: "Chapter 5"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_4
+  - community/Community_10
 ---
 
 # Three Multiplicative Sources of Proving Overhead
@@ -15,6 +15,6 @@ tags:
 - [[Finite Field Arithmetic]] - `references` [EXTRACTED]
 - [[Number-Theoretic Transform (NTT)]] - `references` [EXTRACTED]
 - [[Polynomial Commitment Scheme]] - `references` [EXTRACTED]
-- [[The Overhead Tax (10,000x to 50,000x)]] - `explains` [EXTRACTED]
+- [[The Overhead Tax 10,000x to 50,000x]] - `explains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_4
+#graphify/document #graphify/EXTRACTED #community/Community_10

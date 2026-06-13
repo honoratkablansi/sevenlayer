@@ -1,12 +1,12 @@
 ---
 source_file: "wiki/sections/ch04-memory-the-binding-constraint.md"
 type: "document"
-community: "Community 8"
+community: "Community 0"
 location: "Dependencies"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_8
+  - community/Community_0
 ---
 
 # Nightstream: What a Folding Engine Looks Like from the Inside
@@ -17,7 +17,7 @@ tags:
 - [[Fiat-Shamir Transform]] - `references` [EXTRACTED]
 - [[Fiat-Shamir Vulnerabilities]] - `references` [EXTRACTED]
 - [[Folding Scheme]] - `references` [EXTRACTED]
-- [[Goldilocks Field_1]] - `references` [EXTRACTED]
+- [[Goldilocks Field]] - `references` [EXTRACTED]
 - [[HyperNova]] - `references` [EXTRACTED]
 - [[KZG Polynomial Commitments from pairings (with trusted setup); Dory transparent pairing-based scheme]] - `references` [EXTRACTED]
 - [[Lattice Cryptography]] - `references` [EXTRACTED]
@@ -30,9 +30,9 @@ tags:
 - [[Nightstream]] - `defines` [EXTRACTED]
 - [[Nova]] - `references` [EXTRACTED]
 - [[PLONK]] - `references` [EXTRACTED]
-- [[Poseidon Hash_1]] - `references` [EXTRACTED]
+- [[Poseidon Hash]] - `references` [EXTRACTED]
 - [[Spartan]] - `references` [EXTRACTED]
 - [[The Folding Genealogy]] - `references` [EXTRACTED]
 - [[The Proof Core Why Layers 4, 5, and 6 Are Inseparable]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_8
+#graphify/document #graphify/EXTRACTED #community/Community_0

@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch10-the-causal-web-why-it-is-a-dag-not-a-stack.md"
 type: "document"
-community: "Community 6"
+community: "Community 8"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_6
+  - community/Community_8
 ---
 
 # The Causal Web: Why It Is a DAG, Not a Stack
@@ -26,4 +26,4 @@ tags:
 - [[The Synthesis -- Three Paths, Not Two]] - `part_of` [EXTRACTED]
 - [[zkVMs Across the Stack]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_6
+#graphify/document #graphify/EXTRACTED #community/Community_8

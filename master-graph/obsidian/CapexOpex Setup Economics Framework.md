@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 112"
+community: "Community 95"
 location: "Chapter 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_112
+  - community/Community_95
 ---
 
 # Capex/Opex Setup Economics Framework
@@ -16,4 +16,4 @@ tags:
 - [[Ethereum KZG Summoning Ceremony (2023, 141,416 contributors)]] - `explains` [EXTRACTED]
 - [[Hybrid Transparent-Inner  Compact-Outer Architecture]] - `explains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_112
+#graphify/document #graphify/EXTRACTED #community/Community_95

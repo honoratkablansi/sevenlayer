@@ -1,28 +1,28 @@
 ---
 type: community
-cohesion: 0.21
+cohesion: 0.18
 members: 13
 ---
 
 # Community 94
 
-**Cohesion:** 0.21 - loosely connected
+**Cohesion:** 0.18 - loosely connected
 **Members:** 13 nodes
 
 ## Members
-- [[Aggregated Range Proof for m Values]] - paper - references/ch02/ref-09-bulletproofs.pdf
-- [[Bulletproofs NIZK Argument System]] - paper - references/ch02/ref-09-bulletproofs.pdf
-- [[Confidential Transactions (CT)]] - paper - references/ch02/ref-09-bulletproofs.pdf
-- [[Discrete Log Relation Assumption]] - paper - references/ch02/ref-09-bulletproofs.pdf
-- [[Logarithmic Proof Size Claim (2 log2(nm)+4 elements)]] - paper - references/ch02/ref-09-bulletproofs.pdf
-- [[Logarithmic-Size Range Proof]] - paper - references/ch02/ref-09-bulletproofs.pdf
-- [[MPC Protocol for Distributed Bulletproof Generation]] - paper - references/ch02/ref-09-bulletproofs.pdf
-- [[Mimblewimble]] - paper - references/ch02/ref-09-bulletproofs.pdf
-- [[Provisions Proof of Solvency]] - paper - references/ch02/ref-09-bulletproofs.pdf
-- [[Range Proof]] - document - references/ch02/ref-09-bulletproofs.pdf
-- [[SNARKs with Trusted Setup]] - paper - references/ch02/ref-09-bulletproofs.pdf
-- [[Switch to Quantum-Secure Range Proofs (ElGamal)]] - paper - references/ch02/ref-09-bulletproofs.pdf
-- [[Theorem 3 Aggregate Range Proof Security]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[B-Bounded Ajtai Commitment Opening Relation RB_cm]] - paper - references/ch06/ref-20-latticefold.pdf
+- [[Base-b Witness Decomposition Step]] - paper - references/ch06/ref-20-latticefold.pdf
+- [[Expanded Evaluation Relation RB_eval]] - paper - references/ch06/ref-20-latticefold.pdf
+- [[Expansion-Decomposition-Folding Pipeline (Pi_mfold)]] - paper - references/ch06/ref-20-latticefold.pdf
+- [[Hypernova Folding Scheme (cited)]] - paper - references/ch06/ref-20-latticefold.pdf
+- [[LaBRADOR Lattice Proof System (cited)]] - paper - references/ch06/ref-20-latticefold.pdf
+- [[Lattice-Based CCS Folding Scheme]] - paper - references/ch06/ref-20-latticefold.pdf
+- [[Lattice-Based Committed CCS Relation RB_cmccs]] - paper - references/ch06/ref-20-latticefold.pdf
+- [[Optimized Single-Sumcheck Batch Folding (Pi_batch)]] - paper - references/ch06/ref-20-latticefold.pdf
+- [[Performance Comparable to Hypernova on 64-bit Field]] - paper - references/ch06/ref-20-latticefold.pdf
+- [[Small Prime Modulus via Extension Fields]] - paper - references/ch06/ref-20-latticefold.pdf
+- [[Sumcheck-Based Norm-Bound Range Check]] - paper - references/ch06/ref-20-latticefold.pdf
+- [[Theorem 3.1 LatticeFold Folding Reduction]] - paper - references/ch06/ref-20-latticefold.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -32,16 +32,17 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 4 edges to [[_COMMUNITY_Community 75]]
-- 3 edges to [[_COMMUNITY_Community 22]]
-- 1 edge to [[_COMMUNITY_Community 5]]
-- 1 edge to [[_COMMUNITY_Community 48]]
-- 1 edge to [[_COMMUNITY_Community 43]]
-- 1 edge to [[_COMMUNITY_Community 117]]
+- 6 edges to [[_COMMUNITY_Community 0]]
+- 2 edges to [[_COMMUNITY_Community 11]]
+- 2 edges to [[_COMMUNITY_Community 18]]
+- 1 edge to [[_COMMUNITY_Community 54]]
+- 1 edge to [[_COMMUNITY_Community 28]]
+- 1 edge to [[_COMMUNITY_Community 88]]
+- 1 edge to [[_COMMUNITY_Community 103]]
 
 ## Top bridge nodes
-- [[Bulletproofs NIZK Argument System]] - degree 10, connects to 4 communities
-- [[Range Proof]] - degree 7, connects to 2 communities
-- [[Logarithmic-Size Range Proof]] - degree 5, connects to 2 communities
-- [[Discrete Log Relation Assumption]] - degree 2, connects to 1 community
-- [[MPC Protocol for Distributed Bulletproof Generation]] - degree 2, connects to 1 community
+- [[Expansion-Decomposition-Folding Pipeline (Pi_mfold)]] - degree 7, connects to 2 communities
+- [[B-Bounded Ajtai Commitment Opening Relation RB_cm]] - degree 6, connects to 2 communities
+- [[Sumcheck-Based Norm-Bound Range Check]] - degree 4, connects to 2 communities
+- [[Lattice-Based CCS Folding Scheme]] - degree 5, connects to 1 community
+- [[Lattice-Based Committed CCS Relation RB_cmccs]] - degree 3, connects to 1 community

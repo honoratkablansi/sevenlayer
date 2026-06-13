@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch03/ref-12-underconstrained-circuits.pdf"
 type: "paper"
-community: "Community 35"
+community: "Community 2"
 location: "§9"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_35
+  - community/Community_2
 ---
 
 # CirC Compiler Infrastructure
@@ -15,4 +15,4 @@ tags:
 - [[Automated Detection of Under-Constrained Circuits in Zero-Knowledge Proofs]] - `cites` [EXTRACTED]
 - [[Practical Security Analysis of Zero-Knowledge Proof Circuits]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_35
+#graphify/paper #graphify/EXTRACTED #community/Community_2

@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch02-bn254-s-eroding-security-margin.md"
 type: "document"
-community: "Community 38"
+community: "Community 12"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_38
+  - community/Community_12
 ---
 
 # BN254's Eroding Security Margin
@@ -19,6 +19,6 @@ tags:
 - [[Small Fields]] - `references` [EXTRACTED]
 - [[The Quantum Shelf Life]] - `references` [EXTRACTED]
 - [[The Structured Reference String]] - `references` [EXTRACTED]
-- [[Trusted Setup Ceremony_2]] - `conceptually_related_to` [EXTRACTED]
+- [[Trusted Setup Ceremony]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_38
+#graphify/document #graphify/EXTRACTED #community/Community_12

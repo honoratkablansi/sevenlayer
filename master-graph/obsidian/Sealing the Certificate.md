@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch06-sealing-the-certificate.md"
 type: "document"
-community: "Community 5"
+community: "Community 15"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_5
+  - community/Community_15
 ---
 
 # Sealing the Certificate
@@ -19,7 +19,7 @@ tags:
 - [[Layer 5 -- The Sealed Certificate]] - `part_of` [EXTRACTED]
 - [[Module-SIS  Module-LWE]] - `references` [EXTRACTED]
 - [[STARK]] - `references` [EXTRACTED]
-- [[Schwartz-Zippel Lemma_1]] - `references` [EXTRACTED]
+- [[Schwartz-Zippel Lemma]] - `references` [EXTRACTED]
 - [[The Three Families]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_5
+#graphify/document #graphify/EXTRACTED #community/Community_15

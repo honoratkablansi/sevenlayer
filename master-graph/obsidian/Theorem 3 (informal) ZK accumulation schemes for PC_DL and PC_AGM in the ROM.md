@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf"
 type: "paper"
-community: "Community 90"
+community: "Community 68"
 location: "§1.1 Theorem 3, §7, §8"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_90
+  - community/Community_68
 ---
 
 # Theorem 3 (informal): ZK accumulation schemes for PC_DL and PC_AGM in the ROM
@@ -17,4 +17,4 @@ tags:
 - [[Polynomial Commitment Scheme]] - `proves` [EXTRACTED]
 - [[Zero-Finding Games Lemma 3.3 (security of PC accumulation in ROM)]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_90
+#graphify/paper #graphify/EXTRACTED #community/Community_68

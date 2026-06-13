@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 38"
+community: "Community 95"
 location: "Chapter 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_38
+  - community/Community_95
 ---
 
 # Midnight BLS12-381 Layer 1 Case Study (Compact/ZKIR, Pluto-Eris switch)
@@ -17,4 +17,4 @@ tags:
 - [[Powers of Tau]] - `references` [EXTRACTED]
 - [[Quantum Shelf Life & Option Value]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_38
+#graphify/document #graphify/EXTRACTED #community/Community_95

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-05-mpc-random-beacon.pdf"
 type: "document"
-community: "Community 18"
+community: "Community 27"
 location: "Abstract"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_18
+  - community/Community_27
 ---
 
 # Random Beacon Model
@@ -19,4 +19,4 @@ tags:
 - [[Scalable Multi-party Computation for zk-SNARK Parameters in the Random Beacon Model]] - `conceptually_related_to` [EXTRACTED]
 - [[Snarky Ceremonies]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_18
+#graphify/document #graphify/EXTRACTED #community/Community_27

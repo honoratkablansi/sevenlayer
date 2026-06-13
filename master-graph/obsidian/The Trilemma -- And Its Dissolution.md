@@ -1,18 +1,18 @@
 ---
 source_file: "wiki/sections/ch07-the-trilemma-and-its-dissolution.md"
 type: "document"
-community: "Community 8"
+community: "Community 0"
 location: "The Trilemma -- And Its Dissolution"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_8
+  - community/Community_0
 ---
 
 # The Trilemma -- And Its Dissolution
 
 ## Connections
-- [[Cryptographic Primitives Trilemma_1]] - `defines` [EXTRACTED]
+- [[Cryptographic Primitives Trilemma]] - `defines` [EXTRACTED]
 - [[Dan Boneh]] - `references` [EXTRACTED]
 - [[FRI Commitment Scheme]] - `references` [EXTRACTED]
 - [[Four Families of Commitment Schemes]] - `references` [EXTRACTED]
@@ -27,4 +27,4 @@ tags:
 - [[Three Hardness Assumptions, Three Worlds]] - `references` [EXTRACTED]
 - [[Trusted Setup Ceremony]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_8
+#graphify/document #graphify/EXTRACTED #community/Community_0

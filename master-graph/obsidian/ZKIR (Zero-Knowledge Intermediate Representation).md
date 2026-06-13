@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 24"
+community: "Community 6"
 location: "Chapter 3"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_24
+  - community/Community_6
 ---
 
 # ZKIR (Zero-Knowledge Intermediate Representation)
@@ -27,7 +27,7 @@ tags:
 - [[Midnight's ZKIR A Concrete Layer 4]] - `defines` [EXTRACTED]
 - [[Midnight Compiler, IR, Circuit]] - `defines` [EXTRACTED]
 - [[PLONKish Arithmetization]] - `conceptually_related_to` [EXTRACTED]
-- [[Poseidon Hash_1]] - `references` [EXTRACTED]
+- [[Poseidon Hash]] - `references` [EXTRACTED]
 - [[The Disclose Boundary Midnight's Witness Architecture]] - `references` [EXTRACTED]
 - [[The Secret Performance]] - `references` [EXTRACTED]
 - [[Where Midnight Challenges the Model]] - `references` [EXTRACTED]
@@ -35,4 +35,4 @@ tags:
 - [[Where the Analogies Break]] - `references` [EXTRACTED]
 - [[ZKIR Intermediate Representation Reference (Midnight Network, stub)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_24
+#graphify/document #graphify/EXTRACTED #community/Community_6

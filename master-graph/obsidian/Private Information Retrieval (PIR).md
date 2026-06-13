@@ -1,17 +1,18 @@
 ---
-source_file: "proving-nothing.md"
+source_file: "wiki/sections/ch09-open-problems.md"
 type: "document"
-community: "Community 26"
-location: "Chapter 9"
+community: "Community 5"
 tags:
   - graphify/document
-  - graphify/INFERRED
-  - community/Community_26
+  - graphify/EXTRACTED
+  - community/Community_5
 ---
 
 # Private Information Retrieval (PIR)
 
 ## Connections
+- [[Open Problems]] - `references` [EXTRACTED]
+- [[Privacy-Enhancing Technologies]] - `references` [EXTRACTED]
 - [[Private Smart Contracts]] - `conceptually_related_to` [INFERRED]
 
-#graphify/document #graphify/INFERRED #community/Community_26
+#graphify/document #graphify/EXTRACTED #community/Community_5

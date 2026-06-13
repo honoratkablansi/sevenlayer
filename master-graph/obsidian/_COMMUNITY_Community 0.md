@@ -1,88 +1,77 @@
 ---
 type: community
-cohesion: 0.05
-members: 73
+cohesion: 0.11
+members: 62
 ---
 
 # Community 0
 
-**Cohesion:** 0.05 - loosely connected
-**Members:** 73 nodes
+**Cohesion:** 0.11 - loosely connected
+**Members:** 62 nodes
 
 ## Members
-- [[2-cycle of elliptic curves (BN254Grumpkin)]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[Accessible exposition of Novafolding]] - document - references/recursion/ch2/ref-50-veridise-nova-series.md
-- [[Accumulation  Split-Accumulation Schemes]] - paper - references/ch06/ref-17-nova.pdf
-- [[Assumption 1 non-interactive multi-folding scheme via Fiat-Shamir in plain model]] - paper - references/recursion/ch1/ref-30-cyclefold.pdf
-- [[BCLMS21 'PCD Without Succinct Arguments' (cited, accumulation-IVC compiler  Theorem 1)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[BCTV14 cycle-of-curves recursion blueprint]] - paper - references/recursion/ch1/ref-30-cyclefold.pdf
-- [[Binary-tree IVC  parallel proving compatibility]] - paper - references/recursion/ch1/ref-30-cyclefold.pdf
-- [[Binding Verification Keys and Statements Safely]] - document - recursion/recursion-outline.md
-- [[Bunz, Chen — ProtoStar generic efficient accumulationfolding for special-sound protocols (2023) 1]] - paper - references/recursion/ch1/ref-32-nguyen-boneh-setty-nova-cycle.pdf
-- [[Bunz, Chen, ProtoStar (ePrint 2023620)]] - document - recursion/recursion-outline.md
-- [[Cited Valiant, Incrementally Verifiable Computation (TCC 2008)]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
-- [[Committed relaxed R1CS]] - paper - references/recursion/ch1/ref-30-cyclefold.pdf
-- [[Comparison with Goblin Plonk (table-based, not IVC)]] - paper - references/recursion/ch1/ref-30-cyclefold.pdf
-- [[Construction 1 multi-folding scheme for CCS over a cycle of curves]] - paper - references/recursion/ch1/ref-30-cyclefold.pdf
-- [[Corollary 1 Protostar Prover Cost (recursive circuit = 3 group scalar mults + hash of d field elements)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[CycleFold]] - document - proving-nothing.md
-- [[CycleFold (ePrint 20231192)]] - paper - references/recursion/ch1/ref-30-cyclefold.pdf
-- [[CycleFold cycle-of-curves delegation technique]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[Dao, Miller, Wright, Grubbs — Weak Fiat-Shamir attacks on modern proof systems (2023) 3]] - paper - references/recursion/ch1/ref-32-nguyen-boneh-setty-nova-cycle.pdf
-- [[Eagen, Gabizon, ProtoGalaxy (ePrint 20231106)]] - document - recursion/recursion-outline.md
-- [[Fiat-Shamir verification key vk = H(pp, R1CS) must enter every random-oracle call to preserve folding-verifier soundness]] - paper - references/recursion/ch1/ref-32-nguyen-boneh-setty-nova-cycle.pdf
-- [[Fold second-curve correctness instance u_EC on the first curve via Nova]] - paper - references/recursion/ch1/ref-30-cyclefold.pdf
-- [[Folding Family Tradeoff Table]] - document - recursion/recursion-outline.md
-- [[Folding Scheme]] - document - proving-nothing.md
-- [[Generic AccumulationFolding Compiler for Special-Sound Protocols (4-step workflow)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Halo Recursive Proof Composition]] - paper - references/ch06/ref-17-nova.pdf
-- [[Historical Arc of Recursion (2008-2026)]] - document - recursion/recursion-outline.md
+- [[Ajtai commitments]] - document - wiki/concepts/ajtai.md
+- [[Algebraic vs Traditional Hash Functions]] - document - wiki/sections/ch04-side-channel-attacks-when-the-walls-leak.md
+- [[Boneh & Chen, LatticeFold (ASIACRYPT 2025; ePrint 2024257)]] - document - proving-nothing.md
+- [[Boneh, Chen, LatticeFold (ePrint 2024257)]] - document - recursion/recursion-outline.md
+- [[Bootle, Cerulli, Chaidos, Groth, Petit Efficient ZK arguments in the discrete log setting (inner product argument) 12]] - paper - references/recursion/ch1/ref-05-halo.pdf
+- [[Bowe, Grigg, Hopwood, Halo (ePrint 20191021)]] - document - recursion/recursion-outline.md
+- [[Bunz et al., Bulletproofs (IEEE S&P 2018)]] - document - proving-nothing.md
+- [[Case Study Midnight (Layer 6)]] - document - wiki/sections/ch07-case-study-midnight.md
+- [[Claim Lattice Schemes Are Architecturally Simpler]] - document - proving-nothing.md
+- [[Coda]] - document - wiki/sections/ch14-coda.md
+- [[Convergence]] - document - wiki/sections/ch14-convergence.md
+- [[Cryptographic Primitives Trilemma]] - document - proving-nothing.md
+- [[Dan Boneh]] - document - wiki/sections/ch05-ccs-the-rosetta-stone.md
+- [[FIPS 203 Module-Lattice-Based Key-Encapsulation Mechanism Standard (with FIPS 204205)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
+- [[Four Families of Commitment Schemes]] - document - wiki/sections/ch07-four-families-of-commitment-schemes.md
+- [[Goldilocks Field]] - document - wiki/chapters/03-choreographing-the-act.md
+- [[Greyhound]] - document - wiki/sections/ch07-lattice-based-proving.md
+- [[Greyhound (Lattice SNARK)]] - document - proving-nothing.md
+- [[Halo  Nested Amortization Recursion]] - document - proving-nothing.md
 - [[HyperNova]] - document - proving-nothing.md
-- [[HyperNova Folding Scheme KS23 (cited, concurrent CCS multi-folding)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[HyperNova NIVC-from-multifolding compiler (Construction 2)]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[HyperNova Recursive Arguments for Customizable Constraint Systems]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[Incrementally Verifiable Computation (IVC)]] - document - proving-nothing.md
-- [[Justin Thaler]] - document - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[Kothapalli, Setty — HyperNova recursive arguments for customizable constraint systems (2023) 10]] - paper - references/recursion/ch1/ref-32-nguyen-boneh-setty-nova-cycle.pdf
-- [[Kothapalli, Setty, CycleFold (ePrint 20231192)]] - document - recursion/recursion-outline.md
-- [[Kothapalli, Setty, Tzialla — Nova Recursive zero-knowledge arguments from folding schemes (CRYPTO 2022) 11]] - paper - references/recursion/ch1/ref-32-nguyen-boneh-setty-nova-cycle.pdf
-- [[Lemma 1 perfect completeness of Construction 1]] - paper - references/recursion/ch1/ref-30-cyclefold.pdf
-- [[Lemma 2 knowledge soundness of Construction 1 (forking-based extractor)]] - paper - references/recursion/ch1/ref-30-cyclefold.pdf
-- [[Lemma 5 (Nova folding is blinding)]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[MicroNova (on-chain efficient Nova)]] - document - references/recursion/ch2/ref-43-nova-implementation.md
-- [[MinRoot VDF]] - document - recursion/recursion-outline.md
-- [[MinRoot Worked Example]] - document - recursion/recursion-outline.md
-- [[Multi-folding scheme]] - paper - references/recursion/ch1/ref-30-cyclefold.pdf
-- [[Multifolding]] - document - recursion/recursion-outline.md
-- [[NBS23 revisiting Nova on a cycle of curves (cited prior work)]] - paper - references/recursion/ch1/ref-30-cyclefold.pdf
-- [[Nightstream Lattice-Based Folding for CCS (LFDT-Nightstream)]] - document - references/ch06/ref-49-nightstream.md
-- [[Non-uniform IVC (NIVC)]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[Nova]] - document - proving-nothing.md
-- [[Nova Augmented Circuit]] - document - recursion/recursion-outline.md
-- [[Nova Folding Scheme KST22 (cited, R1CS k=1 d=2 case)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Nova reference implementation (microsoftNova)]] - document - references/recursion/ch2/ref-43-nova-implementation.md
-- [[Nova Recursive Zero-Knowledge Arguments from Folding Schemes]] - paper - references/ch06/ref-17-nova.pdf
-- [[NovaBlindFold folding-based zero-knowledge]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[Prefix-suffix inner product sum-check protocol (streaming, linear-time)]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[ProtoGalaxy (Multi-Instance Folding)]] - document - proving-nothing.md
-- [[ProtoStar]] - document - proving-nothing.md
-- [[Protostar Generic Efficient AccumulationFolding for Special-sound Protocols]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Proving CPU Executions in Small Space]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[Recursion (proof recursion in zkVMs)]] - document - references/recursion/ch1/ref-27-succinct-sp1-docs.md
-- [[Recursion vs. Folding Russian Dolls and Snowballs]] - document - wiki/sections/ch06-recursion-vs-folding-russian-dolls-and-snowballs.md
-- [[Recursive Proof Composition]] - document - proving-nothing.md
-- [[Recursive SNARK]] - document - references/recursion/ch1/ref-22-nebra-upa.md
-- [[Relaxed R1CS]] - document - proving-nothing.md
+- [[Inner Product Argument (IPABulletproofs)]] - document - proving-nothing.md
+- [[Jubjub Curve]] - document - proving-nothing.md
+- [[L2Beat]] - document - wiki/sections/ch01-the-deepest-question.md
+- [[Lattice Cryptography]] - document - wiki/chapters/07-the-deep-craft.md
+- [[Lattice-Based Proving]] - document - wiki/sections/ch07-lattice-based-proving.md
+- [[LatticeFold  LatticeFold+]] - document - proving-nothing.md
+- [[LatticeFold Lattice-Based Folding Scheme]] - paper - references/ch06/ref-20-latticefold.pdf
+- [[LatticeFold+]] - document - proving-nothing.md
+- [[LatticeFold A Lattice-based Folding Scheme and its Applications to Succinct Proof Systems]] - paper - references/ch06/ref-20-latticefold.pdf
+- [[Layer 6 -- The Deep Craft]] - document - wiki/chapters/07-the-deep-craft.md
+- [[Maturity and Readiness]] - document - wiki/sections/ch07-maturity-and-readiness.md
+- [[Module Homomorphism (Lattice Folding Property)]] - document - proving-nothing.md
+- [[Module-SIS  Module-LWE]] - document - proving-nothing.md
+- [[NIST FIPS 204 (ML-DSA)]] - document - proving-nothing.md
+- [[NVIDIA]] - document - wiki/sections/ch14-the-seven-questions-that-remain-open.md
+- [[Neo (Lattice Folding Scheme)]] - document - proving-nothing.md
+- [[Neo (Lattice Folding over Small Fields)]] - document - wiki/sections/ch06-the-folding-genealogy.md
+- [[Neo (Small-Field Lattice Folding)]] - document - proving-nothing.md
+- [[Nightstream]] - document - wiki/chapters/06-the-sealed-certificate.md
+- [[Nightstream (Lattice-Folding Implementation)]] - document - proving-nothing.md
+- [[Nightstream What a Folding Engine Looks Like from the Inside]] - document - wiki/sections/ch04-memory-the-binding-constraint.md
+- [[Nova Folding Scheme (cited)]] - paper - references/ch06/ref-20-latticefold.pdf
+- [[Pedersen Commitment]] - document - proving-nothing.md
+- [[Post-Quantum Cryptography]] - document - proving-nothing.md
+- [[Protostar Folding Scheme (cited)]] - paper - references/ch06/ref-20-latticefold.pdf
 - [[Setty, Thaler, Wahby, Customizable Constraint Systems (ePrint 2023552)]] - document - recursion/recursion-outline.md
-- [[Sparse-dense sum-check proving algorithm (streaming, sparsity-linear time)]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[Spartan zkSNARK]] - paper - references/ch06/ref-17-nova.pdf
-- [[SuperNova KS22 (cited, non-uniform IVC predecessor)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Theorem 1 public-coin multi-folding scheme for CCS (completeness + knowledge soundness)]] - paper - references/recursion/ch1/ref-30-cyclefold.pdf
-- [[Theorem 3 IVC for High-Degree Special-Sound Protocols (recursive circuit k+d-1 or k+2 scalar mults)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Tiny co-processor circuit C_EC on second curve (~1000-1500 gates)]] - paper - references/recursion/ch1/ref-30-cyclefold.pdf
-- [[Valiant 33 original IVC notion via recursive proof composition, the classic approach SuperNova generalizes]] - paper - references/recursion/ch2/ref-44-supernova.pdf
-- [[Veridise Nova explainer series (Breaking Down the Nova Recursive SNARK)]] - document - references/recursion/ch2/ref-50-veridise-nova-series.md
-- [[Verifiable delegation of scalar multiplication + point addition]] - paper - references/recursion/ch1/ref-30-cyclefold.pdf
+- [[Small Fields]] - document - wiki/sections/ch07-small-fields.md
+- [[Srinath Setty]] - document - wiki/sections/ch02-the-quantum-shelf-life.md
+- [[Symphony]] - document - wiki/sections/ch06-the-folding-genealogy.md
+- [[Symphony (High-Arity Lattice Folding)]] - document - proving-nothing.md
+- [[Symphony (Production Lattice Folding)]] - document - proving-nothing.md
+- [[The Cascade Effect]] - document - wiki/sections/ch07-the-cascade-effect.md
+- [[The Folding Genealogy]] - document - wiki/sections/ch06-the-folding-genealogy.md
+- [[The Laws That Break]] - document - wiki/sections/ch07-the-laws-that-break.md
+- [[The One-Way Door]] - document - wiki/sections/ch07-the-one-way-door.md
+- [[The Post-Quantum Horizon]] - document - wiki/sections/ch06-the-post-quantum-horizon.md
+- [[The Proof Core Why Layers 4, 5, and 6 Are Inseparable]] - document - wiki/sections/ch06-the-proof-core-why-layers-4-5-and-6-are-inseparable.md
+- [[The Quantum Threat Horizon]] - document - wiki/sections/ch07-the-quantum-threat-horizon.md
+- [[The Seven Questions That Remain Open]] - document - wiki/sections/ch14-the-seven-questions-that-remain-open.md
+- [[The Structural Advantage of Lattices]] - document - wiki/sections/ch07-the-structural-advantage-of-lattices.md
+- [[The Trilemma -- And Its Dissolution]] - document - wiki/sections/ch07-the-trilemma-and-its-dissolution.md
+- [[Three Hardness Assumptions, Three Worlds]] - document - wiki/sections/ch07-three-hardness-assumptions-three-worlds.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -92,62 +81,67 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 31 edges to [[_COMMUNITY_Community 8]]
-- 22 edges to [[_COMMUNITY_Community 6]]
-- 19 edges to [[_COMMUNITY_Community 3]]
-- 16 edges to [[_COMMUNITY_Community 23]]
-- 16 edges to [[_COMMUNITY_Community 10]]
-- 15 edges to [[_COMMUNITY_Community 5]]
-- 15 edges to [[_COMMUNITY_Community 25]]
-- 11 edges to [[_COMMUNITY_Community 30]]
-- 10 edges to [[_COMMUNITY_Community 13]]
-- 9 edges to [[_COMMUNITY_Community 15]]
-- 9 edges to [[_COMMUNITY_Community 11]]
-- 9 edges to [[_COMMUNITY_Community 53]]
-- 6 edges to [[_COMMUNITY_Community 75]]
-- 6 edges to [[_COMMUNITY_Community 14]]
-- 6 edges to [[_COMMUNITY_Community 48]]
-- 6 edges to [[_COMMUNITY_Community 12]]
-- 5 edges to [[_COMMUNITY_Community 38]]
-- 5 edges to [[_COMMUNITY_Community 41]]
-- 5 edges to [[_COMMUNITY_Community 17]]
-- 5 edges to [[_COMMUNITY_Community 54]]
-- 5 edges to [[_COMMUNITY_Community 111]]
-- 5 edges to [[_COMMUNITY_Community 42]]
-- 5 edges to [[_COMMUNITY_Community 1]]
-- 4 edges to [[_COMMUNITY_Community 81]]
-- 4 edges to [[_COMMUNITY_Community 69]]
-- 3 edges to [[_COMMUNITY_Community 55]]
-- 3 edges to [[_COMMUNITY_Community 68]]
-- 3 edges to [[_COMMUNITY_Community 16]]
-- 3 edges to [[_COMMUNITY_Community 88]]
-- 2 edges to [[_COMMUNITY_Community 61]]
+- 59 edges to [[_COMMUNITY_Community 12]]
+- 59 edges to [[_COMMUNITY_Community 8]]
+- 51 edges to [[_COMMUNITY_Community 15]]
+- 38 edges to [[_COMMUNITY_Community 6]]
+- 30 edges to [[_COMMUNITY_Community 11]]
+- 26 edges to [[_COMMUNITY_Community 32]]
+- 21 edges to [[_COMMUNITY_Community 16]]
+- 17 edges to [[_COMMUNITY_Community 69]]
+- 14 edges to [[_COMMUNITY_Community 7]]
+- 14 edges to [[_COMMUNITY_Community 1]]
+- 9 edges to [[_COMMUNITY_Community 28]]
+- 8 edges to [[_COMMUNITY_Community 48]]
+- 6 edges to [[_COMMUNITY_Community 18]]
+- 6 edges to [[_COMMUNITY_Community 88]]
+- 6 edges to [[_COMMUNITY_Community 62]]
+- 6 edges to [[_COMMUNITY_Community 94]]
+- 5 edges to [[_COMMUNITY_Community 96]]
+- 5 edges to [[_COMMUNITY_Community 68]]
+- 5 edges to [[_COMMUNITY_Community 58]]
+- 5 edges to [[_COMMUNITY_Community 92]]
+- 5 edges to [[_COMMUNITY_Community 25]]
+- 5 edges to [[_COMMUNITY_Community 23]]
+- 5 edges to [[_COMMUNITY_Community 5]]
+- 4 edges to [[_COMMUNITY_Community 120]]
+- 4 edges to [[_COMMUNITY_Community 72]]
+- 3 edges to [[_COMMUNITY_Community 81]]
+- 3 edges to [[_COMMUNITY_Community 116]]
+- 3 edges to [[_COMMUNITY_Community 60]]
+- 3 edges to [[_COMMUNITY_Community 51]]
+- 3 edges to [[_COMMUNITY_Community 97]]
+- 2 edges to [[_COMMUNITY_Community 54]]
+- 2 edges to [[_COMMUNITY_Community 103]]
 - 2 edges to [[_COMMUNITY_Community 50]]
-- 2 edges to [[_COMMUNITY_Community 33]]
-- 2 edges to [[_COMMUNITY_Community 24]]
-- 2 edges to [[_COMMUNITY_Community 22]]
-- 2 edges to [[_COMMUNITY_Community 100]]
-- 2 edges to [[_COMMUNITY_Community 71]]
-- 2 edges to [[_COMMUNITY_Community 115]]
+- 2 edges to [[_COMMUNITY_Community 87]]
+- 2 edges to [[_COMMUNITY_Community 113]]
+- 2 edges to [[_COMMUNITY_Community 14]]
 - 2 edges to [[_COMMUNITY_Community 70]]
-- 2 edges to [[_COMMUNITY_Community 20]]
+- 2 edges to [[_COMMUNITY_Community 76]]
+- 2 edges to [[_COMMUNITY_Community 63]]
 - 2 edges to [[_COMMUNITY_Community 21]]
-- 1 edge to [[_COMMUNITY_Community 119]]
-- 1 edge to [[_COMMUNITY_Community 9]]
-- 1 edge to [[_COMMUNITY_Community 125]]
-- 1 edge to [[_COMMUNITY_Community 67]]
-- 1 edge to [[_COMMUNITY_Community 116]]
-- 1 edge to [[_COMMUNITY_Community 29]]
-- 1 edge to [[_COMMUNITY_Community 106]]
-- 1 edge to [[_COMMUNITY_Community 102]]
-- 1 edge to [[_COMMUNITY_Community 76]]
-- 1 edge to [[_COMMUNITY_Community 118]]
-- 1 edge to [[_COMMUNITY_Community 113]]
-- 1 edge to [[_COMMUNITY_Community 131]]
+- 1 edge to [[_COMMUNITY_Community 108]]
+- 1 edge to [[_COMMUNITY_Community 46]]
+- 1 edge to [[_COMMUNITY_Community 123]]
+- 1 edge to [[_COMMUNITY_Community 61]]
+- 1 edge to [[_COMMUNITY_Community 47]]
+- 1 edge to [[_COMMUNITY_Community 52]]
+- 1 edge to [[_COMMUNITY_Community 53]]
+- 1 edge to [[_COMMUNITY_Community 115]]
+- 1 edge to [[_COMMUNITY_Community 109]]
+- 1 edge to [[_COMMUNITY_Community 90]]
+- 1 edge to [[_COMMUNITY_Community 27]]
+- 1 edge to [[_COMMUNITY_Community 20]]
+- 1 edge to [[_COMMUNITY_Community 26]]
+- 1 edge to [[_COMMUNITY_Community 34]]
+- 1 edge to [[_COMMUNITY_Community 71]]
+- 1 edge to [[_COMMUNITY_Community 10]]
+- 1 edge to [[_COMMUNITY_Community 17]]
 
 ## Top bridge nodes
-- [[Folding Scheme]] - degree 100, connects to 28 communities
-- [[Incrementally Verifiable Computation (IVC)]] - degree 49, connects to 21 communities
-- [[Nova]] - degree 64, connects to 17 communities
-- [[HyperNova Recursive Arguments for Customizable Constraint Systems]] - degree 25, connects to 10 communities
-- [[Nova Recursive Zero-Knowledge Arguments from Folding Schemes]] - degree 19, connects to 10 communities
+- [[Layer 6 -- The Deep Craft]] - degree 62, connects to 21 communities
+- [[Post-Quantum Cryptography]] - degree 46, connects to 16 communities
+- [[The Seven Questions That Remain Open]] - degree 36, connects to 16 communities
+- [[Lattice Cryptography]] - degree 54, connects to 14 communities
+- [[Module-SIS  Module-LWE]] - degree 43, connects to 11 communities

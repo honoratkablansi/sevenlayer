@@ -1,53 +1,55 @@
 ---
 type: community
-cohesion: 0.07
-members: 38
+cohesion: 0.14
+members: 40
 ---
 
 # Community 11
 
-**Cohesion:** 0.07 - loosely connected
-**Members:** 38 nodes
+**Cohesion:** 0.14 - loosely connected
+**Members:** 40 nodes
 
 ## Members
-- [[Additively-Homomorphic Vector Commitment]] - paper - references/ch06/ref-17-nova.pdf
-- [[Arguzz (zkVM Fuzzer)]] - document - proving-nothing.md
-- [[Augmented Function F' (verifier circuit folding step)]] - paper - references/ch06/ref-17-nova.pdf
-- [[BatchZK Pipelining (2025)]] - document - proving-nothing.md
-- [[Committed Relaxed R1CS]] - paper - references/ch06/ref-17-nova.pdf
-- [[Constant Recursion Overhead (~10,000 R1CS constraints, two scalar mults)]] - paper - references/ch06/ref-17-nova.pdf
-- [[Constant-Time Implementation]] - document - proving-nothing.md
-- [[Ethereum Foundation 2026 Security Targets]] - document - proving-nothing.md
-- [[Fiat-Shamir Transform_1]] - document - proving-nothing.md
-- [[Folding Scheme for Committed Relaxed R1CS (Construction 1)]] - paper - references/ch06/ref-17-nova.pdf
-- [[Forking Lemma for Folding Schemes (Lemma 1)]] - paper - references/ch06/ref-17-nova.pdf
-- [[Formal Verification]] - document - proving-nothing.md
-- [[Four-Macro-Layer Model Alternative]] - document - proving-nothing.md
-- [[GPU Proving Acceleration (NTTMSM)]] - document - proving-nothing.md
-- [[L2Beat Stages Framework_2]] - document - proving-nothing.md
-- [[Lattice-Based Functional Commitment]] - document - proving-nothing.md
-- [[Non-Interactive Folding Scheme via Fiat-Shamir (Construction 2)]] - paper - references/ch06/ref-17-nova.pdf
-- [[Nova IVC Knowledge Soundness (Lemma 3  Lemma 10)]] - paper - references/ch06/ref-17-nova.pdf
-- [[Nova IVC Scheme (Construction 3)]] - paper - references/ch06/ref-17-nova.pdf
-- [[Open Questions and the Road Ahead (Ch14)]] - document - proving-nothing.md
-- [[Ozdemir, Laufer, Boneh Algebraic RAM (S&P 2025, ePrint 2024979)]] - document - proving-nothing.md
-- [[Polynomial IOP for Idealized Relaxed R1CS (Construction 5)]] - paper - references/ch06/ref-17-nova.pdf
-- [[Q2 Proven Lower Bound on Post-Quantum Proof Size]] - document - proving-nothing.md
-- [[Q3 When Will Stage 2 Bind]] - document - proving-nothing.md
-- [[Q4 When Will Trustless Become Real]] - document - proving-nothing.md
-- [[Q6 Practical Constant-Time ZK Proving]] - document - proving-nothing.md
-- [[Q7 Is Seven the Right Number of Layers]] - document - proving-nothing.md
-- [[RAM Consistency  Memory Checking]] - document - proving-nothing.md
-- [[SIMT Thread Divergence]] - document - proving-nothing.md
-- [[Seven-Layer Trust Model]] - document - proving-nothing.md
-- [[Side-Channel Attack_1]] - document - proving-nothing.md
-- [[Sum-Check Protocol]] - document - proving-nothing.md
-- [[The Ideal PCS Problem]] - document - proving-nothing.md
-- [[The Three Frontiers (Performance, Security, Privacy)]] - document - proving-nothing.md
-- [[Theorem 3 Folding Scheme Completeness, Knowledge Soundness, ZK]] - paper - references/ch06/ref-17-nova.pdf
-- [[Zeno's Paradox of Trust (Conjunction Effect)]] - document - proving-nothing.md
-- [[zkSNARK for Committed Relaxed R1CS (adapted Spartan)]] - paper - references/ch06/ref-17-nova.pdf
-- [[zkSNARK of a Valid IVC Proof (Construction 4)]] - paper - references/ch06/ref-17-nova.pdf
+- [[AIR (Algebraic Intermediate Representation)]] - document - proving-nothing.md
+- [[Arithmetization]] - document - proving-nothing.md
+- [[Avoiding preprocessing for uniform CCS (AIR) verifier evaluates wiring MLEs M_j in log time]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
+- [[CCS (Customizable Constraint Systems)]] - document - proving-nothing.md
+- [[CCS formal definition matrices M_j, multisets S_i, constants c_i, sum c_i · Hadamard_{j in S_i} (M_j z) = 0]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
+- [[CCS+ CCS extended with read-only lookup-table operations]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
+- [[CCS The Rosetta Stone]] - document - wiki/sections/ch05-ccs-the-rosetta-stone.md
+- [[Claim R1CS, AIR, PLONKish Are Dialects of CCS]] - document - proving-nothing.md
+- [[Constraint System]] - document - proving-nothing.md
+- [[Customizable Constraint Systems for Succinct Arguments]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
+- [[Encoding the Performance]] - document - wiki/chapters/05-encoding-the-performance.md
+- [[Encoding the Performance (Layer 4 Arithmetization)]] - document - proving-nothing.md
+- [[Free addition gates for uniform CCS prover crypto work independent of additions]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
+- [[Generalized Committed Linear Relation R_lin,B]] - paper - references/ch02/ref-11-latticefold-plus.pdf
+- [[Glossary of Key Terms]] - document - wiki/GLOSSARY.md
+- [[HyperPlonk CBBZ23 - multilinear Plonk with linear prover, contrasted cost route]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
+- [[Layer 4 -- Arithmetization]] - document - wiki/sections/ch05-layer-4-arithmetization.md
+- [[Lemma 1 constant-time R1CS-to-CCS reduction (t=3, q=2, d=2)]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
+- [[Lemma 2 Plonkish-to-CCS reduction; multisets encode monomials of g]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
+- [[Lemma 3 AIR-to-CCS reduction; constraint g applied to adjacent trace rows]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
+- [[Lookup Argument]] - document - proving-nothing.md
+- [[Midnight ZKIR (24-Opcode Instruction DAG)]] - document - proving-nothing.md
+- [[PLONK GWC19 - proof system Plonkish was believed tied to]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
+- [[PLONKish Arithmetization]] - document - proving-nothing.md
+- [[Plookup]] - document - proving-nothing.md
+- [[Polygon]] - document - wiki/sections/ch03-the-four-philosophies.md
+- [[Proof Core Layers 4-5-6 Inseparable]] - document - proving-nothing.md
+- [[R1CS (Rank-1 Constraint Systems)]] - document - proving-nothing.md
+- [[SIMD CCS  data-parallel CCS with log-time IO consistency via next() MLE]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
+- [[Schwartz-Zippel Lemma]] - document - proving-nothing.md
+- [[Setty, Thaler, Wahby - CCS Paper (2023)]] - document - proving-nothing.md
+- [[Spartan Set20 - linear-time R1CS polynomial IOP that SuperSpartan generalizes]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
+- [[Sudoku running example]] - document - wiki/concepts/sudoku.md
+- [[SuperSpartan SNARK family for CCS generalizing Spartan's polynomial IOP]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
+- [[The Constraint System Evolution R1CS, AIR, PLONKish]] - document - wiki/sections/ch05-the-constraint-system-evolution-r1cs-air-plonkish.md
+- [[The Spreadsheet Metaphor (And Where It Works)]] - document - wiki/sections/ch05-the-spreadsheet-metaphor-and-where-it-works.md
+- [[The Sumcheck Protocol The Hidden Foundation]] - document - wiki/sections/ch05-the-sumcheck-protocol-the-hidden-foundation.md
+- [[Theorem 2 MLE of 'add-1-in-binary' next() function evaluable in logarithmic time]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
+- [[Where the Analogies Break]] - document - wiki/sections/ch05-where-the-analogies-break.md
+- [[Where the Layers Collapse]] - document - wiki/sections/ch05-ccs-the-rosetta-stone.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -57,22 +59,54 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 9 edges to [[_COMMUNITY_Community 0]]
-- 6 edges to [[_COMMUNITY_Community 14]]
-- 3 edges to [[_COMMUNITY_Community 5]]
-- 2 edges to [[_COMMUNITY_Community 24]]
-- 2 edges to [[_COMMUNITY_Community 8]]
-- 1 edge to [[_COMMUNITY_Community 61]]
-- 1 edge to [[_COMMUNITY_Community 113]]
-- 1 edge to [[_COMMUNITY_Community 6]]
-- 1 edge to [[_COMMUNITY_Community 102]]
-- 1 edge to [[_COMMUNITY_Community 75]]
-- 1 edge to [[_COMMUNITY_Community 21]]
-- 1 edge to [[_COMMUNITY_Community 7]]
+- 48 edges to [[_COMMUNITY_Community 8]]
+- 32 edges to [[_COMMUNITY_Community 6]]
+- 30 edges to [[_COMMUNITY_Community 0]]
+- 18 edges to [[_COMMUNITY_Community 12]]
+- 16 edges to [[_COMMUNITY_Community 16]]
+- 15 edges to [[_COMMUNITY_Community 15]]
+- 15 edges to [[_COMMUNITY_Community 18]]
+- 12 edges to [[_COMMUNITY_Community 1]]
+- 11 edges to [[_COMMUNITY_Community 54]]
+- 9 edges to [[_COMMUNITY_Community 32]]
+- 8 edges to [[_COMMUNITY_Community 46]]
+- 7 edges to [[_COMMUNITY_Community 7]]
+- 6 edges to [[_COMMUNITY_Community 69]]
+- 5 edges to [[_COMMUNITY_Community 68]]
+- 5 edges to [[_COMMUNITY_Community 82]]
+- 5 edges to [[_COMMUNITY_Community 84]]
+- 5 edges to [[_COMMUNITY_Community 63]]
+- 4 edges to [[_COMMUNITY_Community 2]]
+- 4 edges to [[_COMMUNITY_Community 38]]
+- 3 edges to [[_COMMUNITY_Community 96]]
+- 3 edges to [[_COMMUNITY_Community 76]]
+- 3 edges to [[_COMMUNITY_Community 26]]
+- 3 edges to [[_COMMUNITY_Community 103]]
+- 3 edges to [[_COMMUNITY_Community 80]]
+- 2 edges to [[_COMMUNITY_Community 10]]
+- 2 edges to [[_COMMUNITY_Community 22]]
+- 2 edges to [[_COMMUNITY_Community 47]]
+- 2 edges to [[_COMMUNITY_Community 23]]
+- 2 edges to [[_COMMUNITY_Community 28]]
+- 2 edges to [[_COMMUNITY_Community 64]]
+- 2 edges to [[_COMMUNITY_Community 53]]
+- 2 edges to [[_COMMUNITY_Community 90]]
+- 2 edges to [[_COMMUNITY_Community 94]]
+- 2 edges to [[_COMMUNITY_Community 48]]
+- 2 edges to [[_COMMUNITY_Community 35]]
+- 1 edge to [[_COMMUNITY_Community 33]]
+- 1 edge to [[_COMMUNITY_Community 5]]
+- 1 edge to [[_COMMUNITY_Community 65]]
+- 1 edge to [[_COMMUNITY_Community 40]]
+- 1 edge to [[_COMMUNITY_Community 108]]
+- 1 edge to [[_COMMUNITY_Community 86]]
+- 1 edge to [[_COMMUNITY_Community 14]]
+- 1 edge to [[_COMMUNITY_Community 39]]
+- 1 edge to [[_COMMUNITY_Community 77]]
 
 ## Top bridge nodes
-- [[Formal Verification]] - degree 5, connects to 3 communities
-- [[Sum-Check Protocol]] - degree 6, connects to 2 communities
-- [[zkSNARK for Committed Relaxed R1CS (adapted Spartan)]] - degree 5, connects to 2 communities
-- [[Open Questions and the Road Ahead (Ch14)]] - degree 8, connects to 1 community
-- [[Nova IVC Scheme (Construction 3)]] - degree 7, connects to 1 community
+- [[R1CS (Rank-1 Constraint Systems)]] - degree 50, connects to 22 communities
+- [[Lookup Argument]] - degree 49, connects to 20 communities
+- [[Encoding the Performance]] - degree 61, connects to 19 communities
+- [[The Sumcheck Protocol The Hidden Foundation]] - degree 23, connects to 13 communities
+- [[CCS (Customizable Constraint Systems)]] - degree 46, connects to 11 communities

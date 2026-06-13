@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-20-thaler-proofs-arguments-zk.pdf"
 type: "paper"
-community: "Community 3"
+community: "Community 82"
 location: "title/Introduction (ch 1)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_3
+  - community/Community_82
 ---
 
 # Proofs, Arguments, and Zero-Knowledge (Justin Thaler, survey textbook)
@@ -27,9 +27,9 @@ tags:
 - [[Polynomial Commitment Scheme]] - `explains` [EXTRACTED]
 - [[Probabilistically Checkable Proofs (PCPs) compiling a PCP into a succinct argument via Merkle commitment]] - `explains` [EXTRACTED]
 - [[R1CS (Rank-1 Constraint Systems)]] - `explains` [EXTRACTED]
-- [[Recursive Proof Composition_1]] - `explains` [EXTRACTED]
+- [[Recursive Proof Composition]] - `explains` [EXTRACTED]
 - [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `explains` [EXTRACTED]
-- [[Schwartz-Zippel Lemma_1]] - `explains` [EXTRACTED]
-- [[Sum-Check Protocol_1]] - `explains` [EXTRACTED]
+- [[Schwartz-Zippel Lemma]] - `explains` [EXTRACTED]
+- [[Sum-Check Protocol]] - `explains` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_3
+#graphify/paper #graphify/EXTRACTED #community/Community_82

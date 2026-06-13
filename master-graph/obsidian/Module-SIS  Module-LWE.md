@@ -1,18 +1,17 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 8"
+community: "Community 0"
 location: "Chapter 6"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_8
+  - community/Community_0
 ---
 
 # Module-SIS / Module-LWE
 
 ## Connections
-- [[Ajtai Lattice Commitment]] - `assumes` [EXTRACTED]
 - [[Ajtai commitments]] - `conceptually_related_to` [EXTRACTED]
 - [[Concrete parameters AGL, Goldilocks, Mersenne-61 over degree-2 extension]] - `assumes` [EXTRACTED]
 - [[Construction 3.2 Functional Commitment for Constant-Degree Polynomials]] - `conceptually_related_to` [EXTRACTED]
@@ -57,4 +56,4 @@ tags:
 - [[Weak binding of innerouter commitment under Module-SIS (Lemma 2.11)]] - `assumes` [EXTRACTED]
 - [[l-Succinct SIS Assumption (falsifiable q-type generalization of SIS, trapdoor for I_l ⊗ A  W)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_8
+#graphify/document #graphify/EXTRACTED #community/Community_0

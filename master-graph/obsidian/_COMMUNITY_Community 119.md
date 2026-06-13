@@ -1,21 +1,21 @@
 ---
 type: community
-cohesion: 0.33
+cohesion: 0.40
 members: 6
 ---
 
 # Community 119
 
-**Cohesion:** 0.33 - loosely connected
+**Cohesion:** 0.40 - moderately connected
 **Members:** 6 nodes
 
 ## Members
-- [[Lund, Fortnow, Karloff, Nisan - Sumcheck (1992)]] - document - proving-nothing.md
-- [[Real-Time Ethereum Proving]] - document - proving-nothing.md
-- [[SP1 Hypercube (Succinct Labs)]] - document - proving-nothing.md
-- [[Sumcheck  Algebraic Methods for Interactive Proof Systems (Lund-Fortnow-Karloff-Nisan, J.ACM 1992) 58]] - paper - references/recursion/ch3/ref-59-zkbridge.pdf
-- [[Sumcheck Protocol]] - document - proving-nothing.md
-- [[ZKsync Airbender]] - document - proving-nothing.md
+- [[Knowledge-of-Exponent Assumption]] - paper - references/ch02/ref-06-groth16.pdf
+- [[Lemma 6 single adversarial update implies full updatable knowledge soundness]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Lemmas 4-5 trapdoor extraction for subvertible & updatable CRSs]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Theorem 4 update knowledge soundness under q-MK and q-MC]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[q-Monomial Computational (q-MC) assumption]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[q-Monomial Knowledge (q-MK) assumption]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -25,14 +25,13 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 1 edge to [[_COMMUNITY_Community 23]]
-- 1 edge to [[_COMMUNITY_Community 0]]
-- 1 edge to [[_COMMUNITY_Community 6]]
-- 1 edge to [[_COMMUNITY_Community 3]]
-- 1 edge to [[_COMMUNITY_Community 56]]
-- 1 edge to [[_COMMUNITY_Community 120]]
-- 1 edge to [[_COMMUNITY_Community 15]]
+- 2 edges to [[_COMMUNITY_Community 74]]
+- 1 edge to [[_COMMUNITY_Community 82]]
+- 1 edge to [[_COMMUNITY_Community 91]]
+- 1 edge to [[_COMMUNITY_Community 79]]
 
 ## Top bridge nodes
-- [[Sumcheck Protocol]] - degree 9, connects to 6 communities
-- [[SP1 Hypercube (Succinct Labs)]] - degree 3, connects to 1 community
+- [[Knowledge-of-Exponent Assumption]] - degree 4, connects to 2 communities
+- [[q-Monomial Computational (q-MC) assumption]] - degree 3, connects to 1 community
+- [[q-Monomial Knowledge (q-MK) assumption]] - degree 3, connects to 1 community
+- [[Theorem 4 update knowledge soundness under q-MK and q-MC]] - degree 2, connects to 1 community

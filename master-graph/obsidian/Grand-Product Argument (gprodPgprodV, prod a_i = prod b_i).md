@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-36-sonic.pdf"
 type: "paper"
-community: "Community 43"
+community: "Community 40"
 location: "§7.2, Appendix B, Figure 10"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_43
+  - community/Community_40
 ---
 
 # Grand-Product Argument (gprodP/gprodV, prod a_i = prod b_i)
@@ -18,4 +18,4 @@ tags:
 - [[Polynomial Permutation Argument (DerivepermPpermV)]] - `assumes` [EXTRACTED]
 - [[Well-Formedness Argument (commitment to sum a_i Xi, no constant term)]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_43
+#graphify/paper #graphify/EXTRACTED #community/Community_40

@@ -1,12 +1,12 @@
 ---
 source_file: "wiki/sections/ch08-the-social-layer.md"
 type: "document"
-community: "Community 33"
+community: "Community 17"
 location: "The Social Layer"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_33
+  - community/Community_17
 ---
 
 # The Social Layer
@@ -15,7 +15,7 @@ tags:
 - [[Enterprise Pilots (Pilot)]] - `references` [EXTRACTED]
 - [[Fiat-Shamir Transform]] - `references` [EXTRACTED]
 - [[Governance The Achilles Heel]] - `references` [EXTRACTED]
-- [[Layer 7 -- The Verdict_1]] - `part_of` [EXTRACTED]
+- [[Layer 7 -- The Verdict]] - `part_of` [EXTRACTED]
 - [[Midnight (Privacy Blockchain)]] - `references` [EXTRACTED]
 - [[Pricing Attacks]] - `references` [EXTRACTED]
 - [[Proof Aggregation The Missing Layer]] - `references` [EXTRACTED]
@@ -23,4 +23,4 @@ tags:
 - [[The Price of a Verdict]] - `references` [EXTRACTED]
 - [[When the Transcript Lies Fiat-Shamir Vulnerabilities]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_33
+#graphify/document #graphify/EXTRACTED #community/Community_17

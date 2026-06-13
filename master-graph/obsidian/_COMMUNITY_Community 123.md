@@ -1,20 +1,20 @@
 ---
 type: community
-cohesion: 0.40
+cohesion: 0.60
 members: 5
 ---
 
 # Community 123
 
-**Cohesion:** 0.40 - moderately connected
+**Cohesion:** 0.60 - moderately connected
 **Members:** 5 nodes
 
 ## Members
-- [[Canton Network]] - document - references/ch13/ref-58-dtcc-canton-tokenization.md
-- [[DTCC  Canton Network (tokenized Treasuries, privacy settlement)]] - document - proving-nothing.md
-- [[DTCC and Digital Asset Partner to Tokenize DTC-Custodied U.S. Treasury Securities on the Canton Network]] - document - references/ch13/ref-58-dtcc-canton-tokenization.md
-- [[Deutsche Bank  Project Guardian (ZK-verified KYC settlement)]] - document - proving-nothing.md
-- [[Tokenization of Assets]] - document - proving-nothing.md
+- [[Assumption 1 non-interactive multi-folding scheme via Fiat-Shamir in plain model]] - paper - references/recursion/ch1/ref-30-cyclefold.pdf
+- [[Construction 1 multi-folding scheme for CCS over a cycle of curves]] - paper - references/recursion/ch1/ref-30-cyclefold.pdf
+- [[Lemma 1 perfect completeness of Construction 1]] - paper - references/recursion/ch1/ref-30-cyclefold.pdf
+- [[Lemma 2 knowledge soundness of Construction 1 (forking-based extractor)]] - paper - references/recursion/ch1/ref-30-cyclefold.pdf
+- [[Theorem 1 public-coin multi-folding scheme for CCS (completeness + knowledge soundness)]] - paper - references/recursion/ch1/ref-30-cyclefold.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -24,9 +24,11 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 1 edge to [[_COMMUNITY_Community 27]]
-- 1 edge to [[_COMMUNITY_Community 21]]
+- 3 edges to [[_COMMUNITY_Community 16]]
+- 1 edge to [[_COMMUNITY_Community 0]]
+- 1 edge to [[_COMMUNITY_Community 18]]
+- 1 edge to [[_COMMUNITY_Community 32]]
 
 ## Top bridge nodes
-- [[DTCC and Digital Asset Partner to Tokenize DTC-Custodied U.S. Treasury Securities on the Canton Network]] - degree 3, connects to 1 community
-- [[Deutsche Bank  Project Guardian (ZK-verified KYC settlement)]] - degree 2, connects to 1 community
+- [[Construction 1 multi-folding scheme for CCS over a cycle of curves]] - degree 9, connects to 3 communities
+- [[Assumption 1 non-interactive multi-folding scheme via Fiat-Shamir in plain model]] - degree 2, connects to 1 community

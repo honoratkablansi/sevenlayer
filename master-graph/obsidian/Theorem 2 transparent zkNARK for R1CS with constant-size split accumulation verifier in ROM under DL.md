@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf"
 type: "paper"
-community: "Community 75"
+community: "Community 23"
 location: "Thm 2 (§1.1(3)) / §8"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_75
+  - community/Community_23
 ---
 
 # Theorem 2: transparent zkNARK for R1CS with constant-size split accumulation verifier in ROM under DL
@@ -21,4 +21,4 @@ tags:
 - [[Split Accumulation]] - `assumes` [EXTRACTED]
 - [[Theorem 3  7.2 zero-knowledge split accumulation for the Hadamard-product predicate under Pedersen commitments (5 G opsclaim)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_75
+#graphify/paper #graphify/EXTRACTED #community/Community_23

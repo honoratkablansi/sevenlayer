@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-65-greyhound.pdf"
 type: "paper"
-community: "Community 78"
+community: "Community 58"
 location: "§4.2 Theorem 4.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_78
+  - community/Community_58
 ---
 
 # Theorem 4.1: completeness, weak binding, knowledge soundness of PCS
@@ -16,4 +16,4 @@ tags:
 - [[LaBRADOR Proof System]] - `cites` [EXTRACTED]
 - [[Module-SIS  Module-LWE]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_78
+#graphify/paper #graphify/EXTRACTED #community/Community_58

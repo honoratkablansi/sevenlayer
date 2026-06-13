@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 67"
+community: "Community 82"
 location: "Chapter 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_67
+  - community/Community_82
 ---
 
 # Quadratic Arithmetic Programs (QAP)
@@ -16,4 +16,4 @@ tags:
 - [[Groth16]] - `references` [EXTRACTED]
 - [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_67
+#graphify/document #graphify/EXTRACTED #community/Community_82

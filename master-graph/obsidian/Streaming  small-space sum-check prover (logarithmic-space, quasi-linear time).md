@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-45-small-space-cpu-proofs.pdf"
 type: "paper"
-community: "Community 3"
+community: "Community 18"
 location: "§3.1.2, Thm 3.3 (Algorithm 1)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_3
+  - community/Community_18
 ---
 
 # Streaming / small-space sum-check prover (logarithmic-space, quasi-linear time)
@@ -15,6 +15,6 @@ tags:
 - [[Cormode-Thaler-Yi (CTY11) linear-time and sparse streaming sum-check provers]] - `cites` [EXTRACTED]
 - [[Small-space Jolt prover (sublinear-space zkVM proving without recursion)]] - `assumes` [EXTRACTED]
 - [[Small-value sum-check optimization (Bagad-Domb-Thaler Algorithm 3)]] - `conceptually_related_to` [EXTRACTED]
-- [[Sum-Check Protocol_1]] - `conceptually_related_to` [EXTRACTED]
+- [[Sum-Check Protocol]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_3
+#graphify/paper #graphify/EXTRACTED #community/Community_18

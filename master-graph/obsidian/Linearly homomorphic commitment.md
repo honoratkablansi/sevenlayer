@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-21-neo.pdf"
 type: "paper"
-community: "Community 17"
+community: "Community 54"
 location: "§1, §3.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_17
+  - community/Community_54
 ---
 
 # Linearly homomorphic commitment
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Lemma 2 linear combinations of commitments respect right-multiplication of openings]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_17
+#graphify/paper #graphify/EXTRACTED #community/Community_54

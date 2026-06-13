@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-90-zexe.pdf"
 type: "paper"
-community: "Community 26"
+community: "Community 44"
 location: "Abstract; §1.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_26
+  - community/Community_44
 ---
 
 # Zexe: a ledger-based system for decentralized private computation
@@ -23,8 +23,8 @@ tags:
 - [[Prior recursive SNARK composition over a 2-cycle of curves BCTV17]] - `cites` [EXTRACTED]
 - [[Proof-Carrying Data (PCD)]] - `cites` [EXTRACTED]
 - [[Records nano-kernel (RNK) minimalist shared execution environment over records]] - `introduces` [EXTRACTED]
-- [[Recursive Proof Composition_1]] - `assumes` [EXTRACTED]
+- [[Recursive Proof Composition]] - `assumes` [EXTRACTED]
 - [[Succinctness transactions validated in time independent of offline computation (968 bytes)]] - `proves` [EXTRACTED]
 - [[Zerocash]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_26
+#graphify/paper #graphify/EXTRACTED #community/Community_44

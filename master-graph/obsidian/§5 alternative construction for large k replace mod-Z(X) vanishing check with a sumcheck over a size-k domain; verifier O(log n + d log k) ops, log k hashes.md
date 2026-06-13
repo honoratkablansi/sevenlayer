@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch2/ref-47-protogalaxy.pdf"
 type: "paper"
-community: "Community 10"
+community: "Community 52"
 location: "§5, Claim 5.1, Table 1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_10
+  - community/Community_52
 ---
 
 # §5 alternative construction for large k: replace mod-Z(X) vanishing check with a sumcheck over a size-k domain; verifier O(log n + d log k) ops, log k hashes
@@ -17,4 +17,4 @@ tags:
 - [[Multi-instance (k-)folding folding k instances in one folding operation]] - `conceptually_related_to` [EXTRACTED]
 - [[ProtoGalaxy Efficient ProtoStar-style folding of multiple instances (Eagen & Gabizon, ePrint 20231106)]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_10
+#graphify/paper #graphify/EXTRACTED #community/Community_52

@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch2/ref-47-protogalaxy.pdf"
 type: "paper"
-community: "Community 10"
+community: "Community 52"
 location: "§1, §1.1, References [BCMS20],[BCL+21]"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_10
+  - community/Community_52
 ---
 
 # Accumulation schemes [BCMS20, BCL+21]: recursive proof composition / PCD without succinct arguments; introduced accumulation term and k-folding
@@ -16,4 +16,4 @@ tags:
 - [[Multi-instance (k-)folding folding k instances in one folding operation]] - `conceptually_related_to` [EXTRACTED]
 - [[ProtoGalaxy Efficient ProtoStar-style folding of multiple instances (Eagen & Gabizon, ePrint 20231106)]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_10
+#graphify/paper #graphify/EXTRACTED #community/Community_52

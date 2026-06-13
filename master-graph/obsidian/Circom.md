@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 9"
+community: "Community 2"
 location: "Chapter 3"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_9
+  - community/Community_2
 ---
 
 # Circom
@@ -32,7 +32,7 @@ tags:
 - [[The Developer's Actual Experience]] - `references` [EXTRACTED]
 - [[Tornado Cash Under-Constraint Bug]] - `references` [EXTRACTED]
 - [[Tornado Cash circomlib MiMC under-constrained bug (assigned-but-unconstrained output)]] - `conceptually_related_to` [EXTRACTED]
-- [[Trust Decomposition Seven Weaker Assumptions_1]] - `references` [EXTRACTED]
+- [[Trust Decomposition Seven Weaker Assumptions]] - `references` [EXTRACTED]
 - [[Under-Constrained Circuits]] - `conceptually_related_to` [EXTRACTED]
 - [[Under-Constrained Circuits The Dominant Failure Mode]] - `references` [EXTRACTED]
 - [[Witness-Constraint Divergence]] - `references` [EXTRACTED]
@@ -40,4 +40,4 @@ tags:
 - [[ZkBench Benchmark Suite (163 Circom circuits)]] - `conceptually_related_to` [EXTRACTED]
 - [[zkSNARK]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_9
+#graphify/document #graphify/EXTRACTED #community/Community_2

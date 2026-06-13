@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-18-hypernova.pdf"
 type: "paper"
-community: "Community 0"
+community: "Community 90"
 location: "§5 Definition 11"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Community_90
 ---
 
 # Non-uniform IVC (NIVC)
@@ -16,4 +16,4 @@ tags:
 - [[Incrementally Verifiable Computation (IVC)]] - `conceptually_related_to` [EXTRACTED]
 - [[Proof-Carrying Data (PCD)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_0
+#graphify/paper #graphify/EXTRACTED #community/Community_90

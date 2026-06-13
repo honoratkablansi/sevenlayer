@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-65-greyhound.pdf"
 type: "paper"
-community: "Community 51"
+community: "Community 120"
 location: "§4.5 Eq.(13),(14)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_51
+  - community/Community_120
 ---
 
 # HVZK / hiding variant via Module-LWE masking
@@ -15,4 +15,4 @@ tags:
 - [[Greyhound polynomial commitment scheme]] - `introduces` [EXTRACTED]
 - [[Module Learning With Errors (MLWE)]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_51
+#graphify/paper #graphify/EXTRACTED #community/Community_120

@@ -1,21 +1,97 @@
 ---
-source_file: "proving-nothing.md"
-type: "document"
-community: "Community 0"
-location: "Chapter 6"
+source_file: "references/ch06/ref-17-nova.pdf"
+type: "paper"
+community: "Community 14"
+location: "§1"
 tags:
-  - graphify/document
+  - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Community_14
 ---
 
 # Recursive Proof Composition
 
 ## Connections
-- [[Folding Scheme]] - `compares` [EXTRACTED]
-- [[Incrementally Verifiable Computation (IVC)]] - `explains` [EXTRACTED]
+- [[2-layer recursive proof system deVirgo (layer 1, fast prover) recursively wrapped by Groth16 (layer 2, constant proof for cheap on-chain verification)]] - `conceptually_related_to` [EXTRACTED]
+- [[Aggregation tree (recursive verification tree)]] - `conceptually_related_to` [EXTRACTED]
+- [[BCCT13 Recursive Composition and Bootstrapping for SNARKs and PCD]] - `conceptually_related_to` [EXTRACTED]
+- [[Ben-Sasson, Chiesa, Tromer, Virza BCTV14 - introduced pairing-friendly cycles for recursive SNARK composition]] - `introduces` [EXTRACTED]
+- [[Ben-Sasson, Chiesa, Tromer, Virza Scalable Zero Knowledge via cycles of elliptic curves 4]] - `introduces` [EXTRACTED]
+- [[Bespoke depth-2 (one-layer) recursion inner predicate proofs verified by outer proof]] - `conceptually_related_to` [EXTRACTED]
+- [[Binary tree of proofs (basewrapmerge recursion over block transitions)]] - `conceptually_related_to` [EXTRACTED]
+- [[Bitansky et al., IVC from SNARKs under extractor complexity assumptions 14]] - `cites` [EXTRACTED]
+- [[Bitansky, Canetti, Chiesa, Tromer, Recursive composition and bootstrapping for SNARKs and proof-carrying data (STOC 2013) 9]] - `cites` [EXTRACTED]
+- [[Bitansky-Canetti-Chiesa-Tromer Recursive Composition and Bootstrapping for SNARKs and PCD (STOC 2013)]] - `introduces` [EXTRACTED]
+- [[Boneh-Segev-Waters 2012 targeted malleability BSW12]] - `conceptually_related_to` [EXTRACTED]
+- [[Bootstrapping (FHE)]] - `assumes` [EXTRACTED]
+- [[Bunz, Chiesa, Lin, Mishra, Spooner — Proof-carrying data without succinct arguments (CRYPTO 2021) 2]] - `cites` [EXTRACTED]
+- [[COS20 Fractal - Post-Quantum Transparent Recursive Proofs from Holography]] - `conceptually_related_to` [EXTRACTED]
+- [[Chiesa, Chua & Weidner, On Cycles of Pairing-Friendly Elliptic Curves (2019)]] - `cites` [EXTRACTED]
+- [[Chiesa, Tromer Proof-Carrying Data 19]] - `cites` [EXTRACTED]
+- [[Cited Bitansky-Canetti-Chiesa-Tromer, Recursive composition  PCD (STOC 2013)]] - `cites` [EXTRACTED]
+- [[Coda MS18 arbitrary-depth recursive SNARK composition for succinct blockchains]] - `conceptually_related_to` [EXTRACTED]
+- [[Comparison with Goblin Plonk (table-based, not IVC)]] - `conceptually_related_to` [EXTRACTED]
+- [[Cycles of Elliptic Curves]] - `conceptually_related_to` [EXTRACTED]
+- [[Editor applies one permissible transformation and runs PCD prover to fold a new authenticity proof onto the prior signatureproof (Algorithm 3)]] - `conceptually_related_to` [EXTRACTED]
+- [[Extractor Blowup with Recursion Depth]] - `conceptually_related_to` [EXTRACTED]
+- [[FRACTAL verifier expressed as a constraint system; threshold for recursion (2M constraints checkable in 1.1M), using Poseidon hash and FRI constraint systems]] - `conceptually_related_to` [EXTRACTED]
+- [[Field mismatch (q != r forced by embedding degree)]] - `conceptually_related_to` [INFERRED]
+- [[Folding Scheme]] - `conceptually_related_to` [EXTRACTED]
+- [[Folding-based aggregation ValidDep as atomic step folded over N dependencies into one succinct proof pi]] - `conceptually_related_to` [EXTRACTED]
+- [[Fractal Post-quantum and Transparent Recursive Proofs from Holography (Chiesa-Ojha-Spooner, EUROCRYPT 2020) 45]] - `conceptually_related_to` [INFERRED]
+- [[Groth16 outer wrapper proving the deVirgo verification circuit 131-byte proof, ~227K gas, 3 pairings on EVM-native BN254]] - `conceptually_related_to` [EXTRACTED]
+- [[Halo  Nested Amortization Recursion]] - `cites` [EXTRACTED]
+- [[Halo2-based zk prover (zk_prover)]] - `conceptually_related_to` [INFERRED]
+- [[Halo first practical recursive proof composition without a trusted setup]] - `introduces` [EXTRACTED]
+- [[Historical Arc of Recursion (2008-2026)]] - `explains` [EXTRACTED]
+- [[In-circuit hash the FS hash function (and PCS) computed inside the GKR arithmetic circuit being proved; depth d = d_comm+d_h enables the attack]] - `conceptually_related_to` [EXTRACTED]
+- [[Incrementally Verifiable Computation (IVC)]] - `conceptually_related_to` [EXTRACTED]
+- [[Incrementally-computable SNARK for a state transition system]] - `assumes` [EXTRACTED]
+- [[Khovratovich-Rothblum-Soukhanov How to Prove False Statements - Practical Attacks on Fiat-Shamir (ePrint 2025118)]] - `conceptually_related_to` [INFERRED]
+- [[Knowledge-Soundness]] - `assumes` [EXTRACTED]
+- [[Methodology for post-quantum, transparent recursive composition of SNARKs (no special algebraic objects)]] - `conceptually_related_to` [EXTRACTED]
 - [[Midnight Sealed Certificate (Case Study)]] - `references` [EXTRACTED]
+- [[Mina (Coda)]] - `references` [EXTRACTED]
+- [[Nested amortization deferringcollapsing linear-time verification through recursive public inputs]] - `conceptually_related_to` [EXTRACTED]
+- [[Nova]] - `cites` [EXTRACTED]
+- [[Nova recursive folding scheme (IVC; first to fold two NP statements into one)]] - `conceptually_related_to` [EXTRACTED]
+- [[PLONK]] - `conceptually_related_to` [INFERRED]
 - [[Path One Hybrid STARK-to-SNARK Pipeline]] - `explains` [EXTRACTED]
+- [[Pickles  universal-setup recursion roadmap (Halo, Marlin)]] - `conceptually_related_to` [INFERRED]
+- [[Plonky2]] - `cites` [EXTRACTED]
+- [[Poseidon Hash]] - `conceptually_related_to` [INFERRED]
+- [[Prior efficient recursion approach using pairing-based SNARKs on cycles of pairing-friendly elliptic curves BCTV14]] - `cites` [EXTRACTED]
+- [[Proof of solvency  financial compliance]] - `conceptually_related_to` [INFERRED]
+- [[Proof-Carrying Data (PCD)]] - `conceptually_related_to` [EXTRACTED]
+- [[Proof-Carrying Data from Accumulation Schemes (BCMS20)]] - `conceptually_related_to` [EXTRACTED]
+- [[Proof-carrying data (PCD) primitive formally capturing recursive composition via a compliance predicate]] - `conceptually_related_to` [EXTRACTED]
+- [[Proofs, Arguments, and Zero-Knowledge (Justin Thaler, survey textbook)]] - `explains` [EXTRACTED]
+- [[RISC Zero Recursion Circuit]] - `conceptually_related_to` [EXTRACTED]
+- [[Recursion (proof recursion in zkVMs)]] - `conceptually_related_to` [INFERRED]
+- [[Recursion Shifts Cost, It Doesn't Eliminate It]] - `explains` [EXTRACTED]
+- [[Recursion circuit via split accumulation (IVCPCD prover recurses only on instance parts of proofaccumulator)]] - `conceptually_related_to` [EXTRACTED]
+- [[Recursion threshold below 217 gates; fully-recursive proofs 3.5 KiB at 128-bit security]] - `conceptually_related_to` [EXTRACTED]
+- [[Recursion via cycles of elliptic curves (Ben-Sasson et al.)]] - `cites` [EXTRACTED]
+- [[Recursive SNARK]] - `conceptually_related_to` [INFERRED]
+- [[Recursive composition prior work Valiant Val08 IVC, Bitansky-Canetti-Chiesa-Tromer BCCT13 PCD, Ben-Sasson-Chiesa-Tromer-Virza BCTV14 cycles of elliptic curves]] - `defines` [EXTRACTED]
+- [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `conceptually_related_to` [EXTRACTED]
+- [[SNARK  SNARG verifiable-computation primitive (Def. 8) used to make Verify succinct]] - `assumes` [INFERRED]
 - [[STARK-Inside-SNARK-Outside Hybrid Pipeline]] - `references` [EXTRACTED]
+- [[STARK-to-SNARK Recursion]] - `conceptually_related_to` [EXTRACTED]
+- [[The Verifier's Dilemma (unbounded sequences)]] - `introduces` [EXTRACTED]
+- [[Theorem 1 SNARK Recursive Composition (SNARK - PCD for O(1)-depth predicates)]] - `proves` [EXTRACTED]
+- [[Three Core Capabilities compression, incrementality, composability]] - `explains` [EXTRACTED]
+- [[Valiant 2008 Incrementally-Verifiable Computation Val08]] - `introduces` [EXTRACTED]
+- [[Valiant — Incrementally verifiable computation (TCC 2008) 18]] - `defines` [EXTRACTED]
+- [[VerITAS Verifying Image Transformations at Scale (Datta, Chen, Boneh, ePrint 20241066)]] - `assumes` [INFERRED]
+- [[VeriSBOM trustless, selectively-disclosed verifiable SBOM-sharing framework via ZKPs]] - `assumes` [EXTRACTED]
+- [[Veridise Nova explainer series (Breaking Down the Nova Recursive SNARK)]] - `explains` [EXTRACTED]
+- [[Verifiable credentials]] - `conceptually_related_to` [INFERRED]
+- [[When Not to Recurse (crossover heuristics)]] - `conceptually_related_to` [EXTRACTED]
+- [[Worked Intuition the Proof of a Proof]] - `explains` [EXTRACTED]
+- [[Zexe a ledger-based system for decentralized private computation]] - `assumes` [EXTRACTED]
+- [[BCCT13 Bitansky, Canetti, Chiesa, Tromer, Recursive Composition and Bootstrapping for SNARKs and PCD (STOC 2013)]] - `introduces` [EXTRACTED]
+- [[zkBridge trustless cross-chain bridge via succinct proofs of consensus  light-client state transitions]] - `introduces` [EXTRACTED]
+- [[zkEmail]] - `conceptually_related_to` [INFERRED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/paper #graphify/EXTRACTED #community/Community_14

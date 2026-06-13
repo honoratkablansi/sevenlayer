@@ -1,26 +1,26 @@
 ---
 type: community
-cohesion: 0.20
+cohesion: 0.22
 members: 11
 ---
 
 # Community 102
 
-**Cohesion:** 0.20 - loosely connected
+**Cohesion:** 0.22 - loosely connected
 **Members:** 11 nodes
 
 ## Members
-- [[Block et al. (BHR20) quasi-linear small-space SNARK for VMs with streaming Bulletproofs PCS]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[Blumberg et al. (BTVW14) small-space quasi-linear PIOP for circuit-SAT]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[Brakedown GLS+21 & Orion XZS22 field-agnosticpost-quantum poly commitments instantiating SuperSpartan]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
-- [[Gemini (BCHO22) small-space VM SNARK with streamed multilinear-KZG PCS]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[HyperKZG  Mercury polynomial commitment]] - document - references/recursion/ch2/ref-43-nova-implementation.md
-- [[MSM commitment via Pippenger's algorithm]] - paper - references/ch03/ref-16-jolt.pdf
-- [[Polynomial Commitment Scheme_1]] - document - proving-nothing.md
-- [[Polynomial IOP  interactive oracle protocol]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
-- [[Prover commits to ~6 256-bit field elements per RISC-V CPU step]] - paper - references/ch03/ref-16-jolt.pdf
-- [[Theorem 3 family of preprocessing SNARKs for CCS via PIOP + sparse poly commitment + Fiat-Shamir]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
-- [[Universal setup  Powers of Tau (SRS)]] - document - references/recursion/ch2/ref-43-nova-implementation.md
+- [[Continued-fraction expansion to recover order from observed cq]] - paper - references/ch07/ref-24-shor.pdf
+- [[Factoring complexity O((log n)2 log log n log log log n) quantum steps]] - paper - references/ch07/ref-24-shor.pdf
+- [[Number field sieve (best classical factoring, exp time)]] - paper - references/ch07/ref-24-shor.pdf
+- [[Quantum order-finding (period-finding) subroutine]] - paper - references/ch07/ref-24-shor.pdf
+- [[Quantum prime factorization algorithm]] - paper - references/ch07/ref-24-shor.pdf
+- [[RSA public-key cryptosystem (Rivest-Shamir-Adleman 1978)]] - paper - references/ch07/ref-24-shor.pdf
+- [[Reduction of factoring to order-finding (Miller 1976)]] - paper - references/ch07/ref-24-shor.pdf
+- [[Reversible computation]] - paper - references/ch07/ref-24-shor.pdf
+- [[Reversible modular exponentiation subroutine]] - paper - references/ch07/ref-24-shor.pdf
+- [[Schonhage-Strassen fast multiplication via FFT]] - paper - references/ch07/ref-24-shor.pdf
+- [[Universal reversible gates (Toffoli, Fredkin)]] - paper - references/ch07/ref-24-shor.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -30,23 +30,9 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 4 edges to [[_COMMUNITY_Community 90]]
-- 3 edges to [[_COMMUNITY_Community 22]]
-- 3 edges to [[_COMMUNITY_Community 3]]
-- 2 edges to [[_COMMUNITY_Community 18]]
-- 1 edge to [[_COMMUNITY_Community 5]]
-- 1 edge to [[_COMMUNITY_Community 6]]
-- 1 edge to [[_COMMUNITY_Community 25]]
-- 1 edge to [[_COMMUNITY_Community 0]]
-- 1 edge to [[_COMMUNITY_Community 11]]
-- 1 edge to [[_COMMUNITY_Community 21]]
-- 1 edge to [[_COMMUNITY_Community 31]]
-- 1 edge to [[_COMMUNITY_Community 73]]
-- 1 edge to [[_COMMUNITY_Community 88]]
+- 4 edges to [[_COMMUNITY_Community 70]]
 
 ## Top bridge nodes
-- [[Polynomial Commitment Scheme_1]] - degree 12, connects to 5 communities
-- [[Theorem 3 family of preprocessing SNARKs for CCS via PIOP + sparse poly commitment + Fiat-Shamir]] - degree 6, connects to 4 communities
-- [[Polynomial IOP  interactive oracle protocol]] - degree 4, connects to 2 communities
-- [[Prover commits to ~6 256-bit field elements per RISC-V CPU step]] - degree 3, connects to 2 communities
-- [[Block et al. (BHR20) quasi-linear small-space SNARK for VMs with streaming Bulletproofs PCS]] - degree 3, connects to 1 community
+- [[Quantum prime factorization algorithm]] - degree 6, connects to 1 community
+- [[Quantum order-finding (period-finding) subroutine]] - degree 5, connects to 1 community
+- [[RSA public-key cryptosystem (Rivest-Shamir-Adleman 1978)]] - degree 2, connects to 1 community

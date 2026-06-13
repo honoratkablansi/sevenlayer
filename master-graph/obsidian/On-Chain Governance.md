@@ -1,17 +1,17 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 33"
+community: "Community 17"
 location: "Governance: The Achilles Heel"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_33
+  - community/Community_17
 ---
 
 # On-Chain Governance
 
 ## Connections
-- [[Layer 7 -- The Verdict_1]] - `defines` [EXTRACTED]
+- [[Layer 7 -- The Verdict]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_33
+#graphify/document #graphify/EXTRACTED #community/Community_17

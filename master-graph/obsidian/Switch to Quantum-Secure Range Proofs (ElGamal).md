@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-09-bulletproofs.pdf"
 type: "paper"
-community: "Community 94"
+community: "Community 92"
 location: "§4.6"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_94
+  - community/Community_92
 ---
 
 # Switch to Quantum-Secure Range Proofs (ElGamal)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Logarithmic-Size Range Proof]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_94
+#graphify/paper #graphify/EXTRACTED #community/Community_92

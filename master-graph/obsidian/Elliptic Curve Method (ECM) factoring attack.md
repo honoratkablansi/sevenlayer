@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-51-pairing-efficiency-curves.pdf"
 type: "paper"
-community: "Community 4"
+community: "Community 10"
 location: "§2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_4
+  - community/Community_10
 ---
 
 # Elliptic Curve Method (ECM) factoring attack
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[NFSECM crossover ECM beats NFS at 5+ prime factors]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_4
+#graphify/paper #graphify/EXTRACTED #community/Community_10

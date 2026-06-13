@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch05-midnight-s-zkir-a-concrete-layer-4.md"
 type: "document"
-community: "Community 24"
+community: "Community 6"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_24
+  - community/Community_6
 ---
 
 # Midnight's ZKIR: A Concrete Layer 4
@@ -17,7 +17,7 @@ tags:
 - [[Compact Language]] - `references` [EXTRACTED]
 - [[Encoding the Performance]] - `part_of` [EXTRACTED]
 - [[Full Seven-Layer Mapping]] - `references` [EXTRACTED]
-- [[Goldilocks Field_1]] - `references` [EXTRACTED]
+- [[Goldilocks Field]] - `references` [EXTRACTED]
 - [[Groth16]] - `references` [EXTRACTED]
 - [[Halo 2  UltraPlonk]] - `references` [EXTRACTED]
 - [[KZG Polynomial Commitments from pairings (with trusted setup); Dory transparent pairing-based scheme]] - `references` [EXTRACTED]
@@ -36,4 +36,4 @@ tags:
 - [[ZKIR (Zero-Knowledge Intermediate Representation)]] - `defines` [EXTRACTED]
 - [[Zcash]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_24
+#graphify/document #graphify/EXTRACTED #community/Community_6

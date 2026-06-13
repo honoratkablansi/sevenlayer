@@ -14,6 +14,6 @@ tags:
 ## Connections
 - [[Cycles of Elliptic Curves]] - `conceptually_related_to` [EXTRACTED]
 - [[Embedding degree k]] - `conceptually_related_to` [EXTRACTED]
-- [[Recursive Proof Composition_1]] - `conceptually_related_to` [INFERRED]
+- [[Recursive Proof Composition]] - `conceptually_related_to` [INFERRED]
 
 #graphify/paper #graphify/EXTRACTED #community/Community_13

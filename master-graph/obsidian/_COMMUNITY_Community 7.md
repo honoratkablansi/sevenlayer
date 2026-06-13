@@ -1,59 +1,62 @@
 ---
 type: community
 cohesion: 0.06
-members: 44
+members: 47
 ---
 
 # Community 7
 
 **Cohesion:** 0.06 - loosely connected
-**Members:** 44 nodes
+**Members:** 47 nodes
 
 ## Members
-- [[6 previously-unknown vulnerabilities discovered (BigMod, IsPositive, ed25519-circom etc.)]] - paper - references/ch10/ref-35-coda.pdf
-- [[Arithmetic Circuit]] - document - proving-nothing.md
-- [[Automated find-and-prove-bug pipeline (SMT + ZKP)]] - paper - references/ch10/ref-33-circ.pdf
-- [[BigLessThan motivating example (Circom bug at line 32)]] - paper - references/ch10/ref-35-coda.pdf
-- [[Breakable block (exceptional control flow construct)]] - paper - references/ch10/ref-33-circ.pdf
-- [[Certifying Zero-Knowledge Circuits with Refinement Types]] - paper - references/ch10/ref-35-coda.pdf
-- [[CirC ILP back-end (CBC solver)]] - paper - references/ch10/ref-33-circ.pdf
-- [[CirC R1CS back-end (lowering pass)]] - paper - references/ch10/ref-33-circ.pdf
-- [[CirC SMT back-end (Z3 Haskell bindings)]] - paper - references/ch10/ref-33-circ.pdf
-- [[CirC ZoKratesZ front-end]] - paper - references/ch10/ref-33-circ.pdf
-- [[CirC-IR (SMT-LIB-based circuit IR)]] - paper - references/ch10/ref-33-circ.pdf
-- [[CirC shared compiler infrastructure for EQCs]] - paper - references/ch10/ref-33-circ.pdf
-- [[Circify language-independent state-management library]] - paper - references/ch10/ref-33-circ.pdf
-- [[Coda compiler partial evaluation to R1CS constraints]] - paper - references/ch10/ref-35-coda.pdf
-- [[Coda domain-specific Coq tactic library (F_to_Z, overflow, split_sum, switch_sum, reduce_sum, ind)]] - paper - references/ch10/ref-35-coda.pdf
-- [[Coda refinement type system {nuT  phi}]] - paper - references/ch10/ref-35-coda.pdf
-- [[Coda type-checking rules (circuit, expression, subtyping judgments)]] - paper - references/ch10/ref-35-coda.pdf
-- [[Coda verified higher-order library (branching, zip, array aggregates)]] - paper - references/ch10/ref-35-coda.pdf
-- [[Coda statically-typed functional DSL for ZK circuits]] - paper - references/ch10/ref-35-coda.pdf
-- [[Compiler intermediate representation]] - paper - references/ch10/ref-33-circ.pdf
-- [[Constant folding  SMT term rewriting pass]] - paper - references/ch10/ref-33-circ.pdf
-- [[Coq Proof Assistant]] - document - references/ch10/ref-35-coda.pdf
-- [[Coq lemma generation for proof obligations]] - paper - references/ch10/ref-35-coda.pdf
-- [[Evaluation 77 circuits from 9 Circom projects, 66 verified]] - paper - references/ch10/ref-35-coda.pdf
-- [[Existentially Quantified Circuit (EQC)]] - paper - references/ch10/ref-33-circ.pdf
-- [[Fiat-Crypto finite-field formalization library]] - paper - references/ch10/ref-35-coda.pdf
-- [[Fine-grained array modeling]] - paper - references/ch10/ref-33-circ.pdf
-- [[Guarded SSA versioning via ITE terms]] - paper - references/ch10/ref-33-circ.pdf
-- [[Linearity reduction (R1CS-specific optimization)]] - paper - references/ch10/ref-33-circ.pdf
-- [[Liquid  logically-qualified data types (SMT-discharged)]] - paper - references/ch10/ref-35-coda.pdf
-- [[Non-determinism (star) and assertion semantics encoding relations]] - paper - references/ch10/ref-35-coda.pdf
-- [[Oblivious array elimination pass]] - paper - references/ch10/ref-33-circ.pdf
-- [[Refinement Types]] - document - references/ch10/ref-35-coda.pdf
-- [[SMT solving over finite fields  large prime fields]] - paper - references/ch10/ref-35-coda.pdf
-- [[SMT-guided loop-unroll bound inference]] - paper - references/ch10/ref-33-circ.pdf
-- [[Satisfiability Modulo Theories (SMT)]] - paper - references/ch10/ref-33-circ.pdf
-- [[TSub-Refine subtyping rule (reduces type checking to logical validity)]] - paper - references/ch10/ref-35-coda.pdf
-- [[Theorem 1 Expression Type Preservation (soundness)]] - paper - references/ch10/ref-35-coda.pdf
-- [[Theorem 2 Circuit Evaluation Type Preservation]] - paper - references/ch10/ref-35-coda.pdf
-- [[Trustless threat model (attacker controls source, R1CS, prover, verifier; can swap proof)]] - paper - references/ch10/ref-35-coda.pdf
-- [[Verification-effort case study 60% shorter proofs vs shallow embedding]] - paper - references/ch10/ref-35-coda.pdf
-- [[ZKlog Datalog dialect front-end]] - paper - references/ch10/ref-33-circ.pdf
-- [[Zero-knowledge proof system]] - paper - references/ch10/ref-33-circ.pdf
-- [[iter combinator with annotated loop invariant]] - paper - references/ch10/ref-35-coda.pdf
+- [[ARGUZZ Testing zkVMs for Soundness and Completeness Bugs]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Airbender (Matter Labs)]] - document - proving-nothing.md
+- [[BabyBear Field]] - document - proving-nothing.md
+- [[Ben-Sasson et al. first SNARK for von Neumann architecture (bounded machine)]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
+- [[Cairo Turing-complete STARK-friendly CPU architecture (prior zkVM)]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
+- [[Constant-Time Proving]] - document - proving-nothing.md
+- [[Continuations]] - document - recursion/recursion-outline.md
+- [[EF Security Pivot to 128-bit (Dec 2025)]] - document - proving-nothing.md
+- [[EthProofs Dashboard]] - document - references/recursion/ch1/ref-08-sp1-hypercube.md
+- [[Evaluating Compiler Optimization Impacts on zkVM Performance]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
+- [[First systematic study of compiler-optimization impact on zkVMs]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
+- [[Gassmann et al., Optimizing RISC-V zkVM Compilation (2025)]] - document - proving-nothing.md
+- [[Greyhound Fast Polynomial Commitments from Lattices]] - paper - references/ch14/ref-65-greyhound.pdf
+- [[Jagged PCS]] - document - proving-nothing.md
+- [[Kakarot (EVM-on-Stwo hedge)]] - document - proving-nothing.md
+- [[Lattice-Based Functional Commitments Fast Verification and Cryptanalysis]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[LogUp-GKR]] - document - proving-nothing.md
+- [[Mersenne-31 (M31) field]] - document - proving-nothing.md
+- [[Multilinear Polynomials]] - document - references/recursion/ch1/ref-08-sp1-hypercube.md
+- [[Open Questions and the Road Ahead]] - document - wiki/chapters/14-open-questions-and-the-road-ahead.md
+- [[Precompile (zkVM)]] - document - proving-nothing.md
+- [[RISC Zero zkVM]] - document - references/recursion/ch1/ref-28-risc-zero-technical-docs.md
+- [[RISC-V Convergence (8 of 10 zkVMs)]] - document - proving-nothing.md
+- [[RISC-V ISA]] - document - proving-nothing.md
+- [[Real-time Ethereum proving solved (12s)]] - document - proving-nothing.md
+- [[Receipt (self-certifying proof of execution)]] - document - references/recursion/ch1/ref-28-risc-zero-technical-docs.md
+- [[SHARP (Shared Prover) aggregation]] - document - proving-nothing.md
+- [[SP1 Hypercube]] - document - references/recursion/ch1/ref-08-sp1-hypercube.md
+- [[SP1 Hypercube (Succinct)]] - document - proving-nothing.md
+- [[SP1 Hypercube Proving Ethereum in Real-Time (Succinct Labs)]] - document - references/ch10/ref-52-sp1-hypercube.md
+- [[SP1 Hypercube Proving Ethereum in Real-Time (Succinct, 2025)]] - document - references/recursion/ch1/ref-08-sp1-hypercube.md
+- [[STARK-to-SNARK Groth16 wrap]] - document - proving-nothing.md
+- [[Shard proofs (SP1 proof system)]] - document - references/recursion/ch1/ref-27-succinct-sp1-docs.md
+- [[Short Integer Solutions (SIS) Assumption]] - document - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Stage 2 Rollup Governance]] - document - proving-nothing.md
+- [[Stwo  Cairo (StarkWare)]] - document - proving-nothing.md
+- [[Succinct SP1 technical documentation]] - document - references/recursion/ch1/ref-27-succinct-sp1-docs.md
+- [[Succinct verification without re-execution]] - document - references/recursion/ch1/ref-28-risc-zero-technical-docs.md
+- [[The Proof Core Triad (Layers 4-5-6)]] - document - proving-nothing.md
+- [[The Universal Stage (zkVM metaphor)]] - document - proving-nothing.md
+- [[Trust Decomposition]] - document - proving-nothing.md
+- [[ZKsync Airbender GPU-Accelerated RISC-V Proving]] - document - references/ch10/ref-53-airbender.md
+- [[ZisK (SilentSig  ex-Hermez)]] - document - proving-nothing.md
+- [[zk-Bench (Ernstberger et al.) benchmarking framework for ZK DSLsSNARKs]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
+- [[zkVM]] - document - proving-nothing.md
+- [[zkVM Cost Collapse (~10xyear)]] - document - proving-nothing.md
+- [[zkVM Landscape Table (March 2026)]] - document - proving-nothing.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -63,19 +66,47 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 5 edges to [[_COMMUNITY_Community 9]]
-- 4 edges to [[_COMMUNITY_Community 52]]
-- 4 edges to [[_COMMUNITY_Community 3]]
-- 3 edges to [[_COMMUNITY_Community 16]]
-- 1 edge to [[_COMMUNITY_Community 18]]
-- 1 edge to [[_COMMUNITY_Community 56]]
-- 1 edge to [[_COMMUNITY_Community 35]]
-- 1 edge to [[_COMMUNITY_Community 11]]
-- 1 edge to [[_COMMUNITY_Community 110]]
+- 35 edges to [[_COMMUNITY_Community 8]]
+- 17 edges to [[_COMMUNITY_Community 15]]
+- 14 edges to [[_COMMUNITY_Community 0]]
+- 11 edges to [[_COMMUNITY_Community 50]]
+- 10 edges to [[_COMMUNITY_Community 69]]
+- 9 edges to [[_COMMUNITY_Community 1]]
+- 9 edges to [[_COMMUNITY_Community 63]]
+- 8 edges to [[_COMMUNITY_Community 6]]
+- 7 edges to [[_COMMUNITY_Community 11]]
+- 7 edges to [[_COMMUNITY_Community 18]]
+- 7 edges to [[_COMMUNITY_Community 55]]
+- 6 edges to [[_COMMUNITY_Community 19]]
+- 6 edges to [[_COMMUNITY_Community 12]]
+- 5 edges to [[_COMMUNITY_Community 76]]
+- 5 edges to [[_COMMUNITY_Community 58]]
+- 4 edges to [[_COMMUNITY_Community 68]]
+- 3 edges to [[_COMMUNITY_Community 54]]
+- 2 edges to [[_COMMUNITY_Community 96]]
+- 2 edges to [[_COMMUNITY_Community 28]]
+- 2 edges to [[_COMMUNITY_Community 87]]
+- 2 edges to [[_COMMUNITY_Community 97]]
+- 2 edges to [[_COMMUNITY_Community 47]]
+- 2 edges to [[_COMMUNITY_Community 73]]
+- 2 edges to [[_COMMUNITY_Community 16]]
+- 2 edges to [[_COMMUNITY_Community 21]]
+- 2 edges to [[_COMMUNITY_Community 2]]
+- 1 edge to [[_COMMUNITY_Community 67]]
+- 1 edge to [[_COMMUNITY_Community 115]]
+- 1 edge to [[_COMMUNITY_Community 77]]
+- 1 edge to [[_COMMUNITY_Community 32]]
+- 1 edge to [[_COMMUNITY_Community 75]]
+- 1 edge to [[_COMMUNITY_Community 5]]
+- 1 edge to [[_COMMUNITY_Community 44]]
+- 1 edge to [[_COMMUNITY_Community 17]]
+- 1 edge to [[_COMMUNITY_Community 38]]
+- 1 edge to [[_COMMUNITY_Community 101]]
+- 1 edge to [[_COMMUNITY_Community 125]]
 
 ## Top bridge nodes
-- [[Arithmetic Circuit]] - degree 10, connects to 5 communities
-- [[Certifying Zero-Knowledge Circuits with Refinement Types]] - degree 6, connects to 3 communities
-- [[CirC shared compiler infrastructure for EQCs]] - degree 6, connects to 2 communities
-- [[Coda statically-typed functional DSL for ZK circuits]] - degree 9, connects to 1 community
-- [[Existentially Quantified Circuit (EQC)]] - degree 5, connects to 1 community
+- [[Open Questions and the Road Ahead]] - degree 49, connects to 21 communities
+- [[zkVM]] - degree 53, connects to 20 communities
+- [[SP1 Hypercube (Succinct)]] - degree 47, connects to 11 communities
+- [[Greyhound Fast Polynomial Commitments from Lattices]] - degree 17, connects to 7 communities
+- [[Evaluating Compiler Optimization Impacts on zkVM Performance]] - degree 13, connects to 5 communities

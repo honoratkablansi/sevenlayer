@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 24"
+community: "Community 6"
 location: "Chapter 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_24
+  - community/Community_6
 ---
 
 # Midnight (Privacy Blockchain)
@@ -36,7 +36,7 @@ tags:
 - [[Layer 1 -- Building the Stage]] - `references` [EXTRACTED]
 - [[Layer 5 -- The Sealed Certificate]] - `references` [EXTRACTED]
 - [[Layer 6 -- The Deep Craft]] - `references` [EXTRACTED]
-- [[Layer 7 -- The Verdict_1]] - `references` [EXTRACTED]
+- [[Layer 7 -- The Verdict]] - `references` [EXTRACTED]
 - [[Maturity Assessment (Stage 0-1)]] - `explains` [EXTRACTED]
 - [[Memory The Binding Constraint]] - `references` [EXTRACTED]
 - [[Midnight -- The Privacy Theater]] - `references` [EXTRACTED]
@@ -56,7 +56,7 @@ tags:
 - [[Private Smart Contracts]] - `defines` [EXTRACTED]
 - [[SNARK Recursion vs. Folding The Full Picture]] - `references` [EXTRACTED]
 - [[Seven-Layer ZK Model]] - `references` [EXTRACTED]
-- [[Side-Channel Attack_1]] - `conceptually_related_to` [EXTRACTED]
+- [[Side-Channel Attack]] - `conceptually_related_to` [EXTRACTED]
 - [[Small Fields]] - `references` [EXTRACTED]
 - [[The Cascade Effect]] - `references` [EXTRACTED]
 - [[The Deepest Question]] - `conceptually_related_to` [EXTRACTED]
@@ -92,4 +92,4 @@ tags:
 - [[Zero-Knowledge Proof]] - `references` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_24
+#graphify/document #graphify/EXTRACTED #community/Community_6

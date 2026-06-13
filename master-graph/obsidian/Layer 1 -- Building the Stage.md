@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/02-building-the-stage.md"
 type: "document"
-community: "Community 38"
+community: "Community 12"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_38
+  - community/Community_12
 ---
 
 # Layer 1 -- Building the Stage
@@ -50,7 +50,7 @@ tags:
 - [[SoK What Don't We Know Understanding Security Vulnerabilities in SNARKs]] - `cites` [EXTRACTED]
 - [[Sonic]] - `references` [EXTRACTED]
 - [[Sonic Zero-Knowledge SNARKs from Linear-Size Universal and Updatable Structured Reference Strings]] - `cites` [EXTRACTED]
-- [[Structured Reference String (SRS)_1]] - `defines` [EXTRACTED]
+- [[Structured Reference String (SRS)]] - `defines` [EXTRACTED]
 - [[Sudoku running example]] - `references` [EXTRACTED]
 - [[The 141,416-Person Question]] - `part_of` [EXTRACTED]
 - [[The ADOPT Framework]] - `part_of` [EXTRACTED]
@@ -68,4 +68,4 @@ tags:
 - [[Universal versus Circuit-Specific Setups]] - `part_of` [EXTRACTED]
 - [[Zcash]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_38
+#graphify/document #graphify/EXTRACTED #community/Community_12

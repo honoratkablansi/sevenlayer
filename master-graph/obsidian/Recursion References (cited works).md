@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/manifest.json"
 type: "document"
-community: "Community 37"
+community: "Community 36"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_37
+  - community/Community_36
 ---
 
 # Recursion References (cited works)
@@ -36,4 +36,4 @@ tags:
 - [[Succinct, Real-Time Proving with 16 GPUs (2026)]] - `cites` [EXTRACTED]
 - [[Valiant, Incrementally Verifiable Computation, or Proofs of Knowledge Imply TimeSpace Efficiency (TCC 2008)]] - `cites` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_37
+#graphify/document #graphify/EXTRACTED #community/Community_36

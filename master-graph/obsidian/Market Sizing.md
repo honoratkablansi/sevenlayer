@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch13-market-sizing.md"
 type: "document"
-community: "Community 27"
+community: "Community 21"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_27
+  - community/Community_21
 ---
 
 # Market Sizing
@@ -25,6 +25,6 @@ tags:
 - [[ZK Rollup]] - `references` [EXTRACTED]
 - [[ZK Rollups The Proving Grounds (Production)]] - `references` [EXTRACTED]
 - [[ZKML (Zero-Knowledge Machine Learning)]] - `references` [EXTRACTED]
-- [[eIDAS 2.0_1]] - `references` [EXTRACTED]
+- [[eIDAS 2.0]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_27
+#graphify/document #graphify/EXTRACTED #community/Community_21

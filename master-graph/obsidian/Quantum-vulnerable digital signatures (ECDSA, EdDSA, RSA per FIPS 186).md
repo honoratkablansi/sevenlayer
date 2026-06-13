@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch07/ref-26-nist-ir-8547.pdf"
 type: "paper"
-community: "Community 95"
+community: "Community 70"
 location: "§4.1.1 Table 2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_95
+  - community/Community_70
 ---
 
 # Quantum-vulnerable digital signatures (ECDSA, EdDSA, RSA per FIPS 186)
@@ -17,4 +17,4 @@ tags:
 - [[RSA Cryptosystem]] - `conceptually_related_to` [EXTRACTED]
 - [[Shor's Algorithm]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_95
+#graphify/paper #graphify/EXTRACTED #community/Community_70

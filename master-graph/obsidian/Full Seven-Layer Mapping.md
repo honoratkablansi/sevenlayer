@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch12-full-seven-layer-mapping.md"
 type: "document"
-community: "Community 24"
+community: "Community 6"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_24
+  - community/Community_6
 ---
 
 # Full Seven-Layer Mapping
@@ -18,7 +18,7 @@ tags:
 - [[Compact Language]] - `references` [EXTRACTED]
 - [[Compact's Disclosure Analysis]] - `references` [EXTRACTED]
 - [[Folding Scheme]] - `references` [EXTRACTED]
-- [[Goldilocks Field_1]] - `references` [EXTRACTED]
+- [[Goldilocks Field]] - `references` [EXTRACTED]
 - [[Halo 2  UltraPlonk]] - `references` [EXTRACTED]
 - [[Jubjub Curve]] - `references` [EXTRACTED]
 - [[KZG Polynomial Commitments from pairings (with trusted setup); Dory transparent pairing-based scheme]] - `references` [EXTRACTED]
@@ -30,13 +30,13 @@ tags:
 - [[MidnightJS SDK]] - `references` [EXTRACTED]
 - [[Number-Theoretic Transform (NTT)]] - `references` [EXTRACTED]
 - [[PLONK]] - `references` [EXTRACTED]
-- [[Poseidon Hash_1]] - `references` [EXTRACTED]
+- [[Poseidon Hash]] - `references` [EXTRACTED]
 - [[Post-Quantum Cryptography]] - `references` [EXTRACTED]
 - [[The Disclose Boundary Midnight's Witness Architecture]] - `references` [EXTRACTED]
 - [[Tornado Cash]] - `references` [EXTRACTED]
-- [[Trusted Setup Ceremony_2]] - `references` [EXTRACTED]
+- [[Trusted Setup Ceremony]] - `references` [EXTRACTED]
 - [[UTXO Model]] - `references` [EXTRACTED]
 - [[ZKIR (Zero-Knowledge Intermediate Representation)]] - `references` [EXTRACTED]
 - [[Zcash]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_24
+#graphify/document #graphify/EXTRACTED #community/Community_6

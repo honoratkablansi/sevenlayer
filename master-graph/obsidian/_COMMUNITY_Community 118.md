@@ -1,22 +1,21 @@
 ---
 type: community
-cohesion: 0.29
-members: 7
+cohesion: 0.40
+members: 6
 ---
 
 # Community 118
 
-**Cohesion:** 0.29 - loosely connected
-**Members:** 7 nodes
+**Cohesion:** 0.40 - moderately connected
+**Members:** 6 nodes
 
 ## Members
-- [[Continuations]] - document - recursion/recursion-outline.md
-- [[Proof of correct program execution]] - document - references/recursion/ch1/ref-28-risc-zero-technical-docs.md
-- [[RISC Zero technical documentation (dev.risczero.com)]] - document - references/recursion/ch1/ref-28-risc-zero-technical-docs.md
-- [[RISC Zero zkVM]] - document - references/recursion/ch1/ref-28-risc-zero-technical-docs.md
-- [[Receipt (self-certifying proof of execution)]] - document - references/recursion/ch1/ref-28-risc-zero-technical-docs.md
-- [[Succinct verification without re-execution]] - document - references/recursion/ch1/ref-28-risc-zero-technical-docs.md
-- [[Verifiable computation]] - document - references/recursion/ch1/ref-28-risc-zero-technical-docs.md
+- [[Daza, Rafols, Zacharakis DRZ20 updateable IPP with log verifier]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
+- [[Inner pairing product argument (IPP)]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
+- [[MIPP Multi-exponentiation Inner Product argument]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
+- [[MT-IPP merged MIPP+TIPP argument]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
+- [[TIPP Target Inner Pairing Product argument]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
+- [[Theorem 3 MT-IPP completeness and knowledge soundness]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -26,9 +25,12 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 2 edges to [[_COMMUNITY_Community 61]]
-- 1 edge to [[_COMMUNITY_Community 0]]
+- 3 edges to [[_COMMUNITY_Community 89]]
+- 2 edges to [[_COMMUNITY_Community 12]]
+- 1 edge to [[_COMMUNITY_Community 22]]
 
 ## Top bridge nodes
-- [[Continuations]] - degree 3, connects to 2 communities
-- [[RISC Zero zkVM]] - degree 4, connects to 1 community
+- [[MT-IPP merged MIPP+TIPP argument]] - degree 6, connects to 2 communities
+- [[Inner pairing product argument (IPP)]] - degree 4, connects to 1 community
+- [[Daza, Rafols, Zacharakis DRZ20 updateable IPP with log verifier]] - degree 2, connects to 1 community
+- [[Theorem 3 MT-IPP completeness and knowledge soundness]] - degree 2, connects to 1 community

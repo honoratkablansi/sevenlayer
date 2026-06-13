@@ -1,30 +1,29 @@
 ---
 type: community
-cohesion: 0.17
-members: 15
+cohesion: 0.16
+members: 14
 ---
 
 # Community 86
 
-**Cohesion:** 0.17 - loosely connected
-**Members:** 15 nodes
+**Cohesion:** 0.16 - loosely connected
+**Members:** 14 nodes
 
 ## Members
-- [[Cycles-per-gas mispricing (MODEXP 2961, JUMPDEST 1039; EVM gas != proving cost)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Diamandis et al. multidimensional blockchain fee markets 19]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[EIP-1559 base-fee mechanism]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[L2 EIP-1559-style DA pricing with L1-fee floor (DA-saturation mitigation)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[MODEXP killer block 94x finality latency, $42.26 prover loss per 35M-gas block]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Multi-dimensional TFM (matrix Ax over gasDAprovingfixed; adaptive per-resource pricing)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Perez & Livshits 'Broken Metre' (EVM resource-metering mispricing detection)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Prover-aware metering per-opcode proof-gas profiling, dedicated L2ProvingFee]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Prover-killer attack (high cycles-per-gas tx stalls ZK proof generation)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Responsible disclosure all rollups vulnerable, 4 bug bounties, mitigations adopted]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Rollup multi-dimensional TFM (L2 gas + L1 DA + settlementverification)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Roughgarden TFM design  EIP-1559 incentive-compatibility 47,48]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Transaction Fee Mechanisms (TFM)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Unaligned Incentives Pricing Attacks Against Blockchain Rollups]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Unaligned-incentives thesis cross-dimension mispricing yields novel attacks]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[Address-grouping suffices (a-group + t-order) instead of full (a,t)-ordering]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[Blum, Evans, Gemmell, Kannan, Naor - Checking Correctness of Memories (1991)]] - document - proving-nothing.md
+- [[Blum-Evans-Gemmell-Kannan-Naor BEG+91 original offline memory checking (FOCS 1991)]] - paper - references/ch03/ref-15-lasso.pdf
+- [[Claim 4 public-coin multiset hash H_{tau,gamma} via Reed-Solomon fingerprinting; multiset equality with soundness error O((A+B)F)]] - paper - references/ch03/ref-15-lasso.pdf
+- [[Offline Memory Checking]] - document - proving-nothing.md
+- [[Prefix-suffix inner product sum-check protocol (streaming, linear-time)]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Spark optimal sparse multilinear PCS from Spartan; evaluates m-sparse poly in O(c·m) time via c memories of size N{1c}]] - paper - references/ch03/ref-15-lasso.pdf
+- [[Sparse multilinear polynomial commitment (Spartan compiler)]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
+- [[Sparse-dense sum-check proving algorithm (streaming, sparsity-linear time)]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Spartan Set20 source of the Spark sparse PCS that Lasso builds on]] - paper - references/ch03/ref-15-lasso.pdf
+- [[Spice readwrite memory-checking argument (offline, grand-product based)]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Stronger Spark security secure even when sparse-polynomial metadata is committed by a malicious prover (first 'standard' sparse PCS)]] - paper - references/ch03/ref-15-lasso.pdf
+- [[Theorem 2 c-memory Spark transform — sparse PCS over c·log M variables; prover commits to (3c+1) dense (log m)-variate + c (log N{1c})-variate polynomials]] - paper - references/ch03/ref-15-lasso.pdf
+- [[Twist sum-check memory-checking argument for readwrite memory]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -34,16 +33,19 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 6 edges to [[_COMMUNITY_Community 80]]
-- 3 edges to [[_COMMUNITY_Community 65]]
-- 2 edges to [[_COMMUNITY_Community 61]]
-- 2 edges to [[_COMMUNITY_Community 87]]
-- 1 edge to [[_COMMUNITY_Community 67]]
-- 1 edge to [[_COMMUNITY_Community 33]]
+- 5 edges to [[_COMMUNITY_Community 18]]
+- 3 edges to [[_COMMUNITY_Community 39]]
+- 3 edges to [[_COMMUNITY_Community 46]]
+- 2 edges to [[_COMMUNITY_Community 8]]
+- 2 edges to [[_COMMUNITY_Community 54]]
+- 2 edges to [[_COMMUNITY_Community 38]]
+- 1 edge to [[_COMMUNITY_Community 11]]
+- 1 edge to [[_COMMUNITY_Community 68]]
+- 1 edge to [[_COMMUNITY_Community 84]]
 
 ## Top bridge nodes
-- [[Unaligned Incentives Pricing Attacks Against Blockchain Rollups]] - degree 12, connects to 5 communities
-- [[Prover-killer attack (high cycles-per-gas tx stalls ZK proof generation)]] - degree 7, connects to 2 communities
-- [[Rollup multi-dimensional TFM (L2 gas + L1 DA + settlementverification)]] - degree 3, connects to 2 communities
-- [[Unaligned-incentives thesis cross-dimension mispricing yields novel attacks]] - degree 5, connects to 1 community
-- [[EIP-1559 base-fee mechanism]] - degree 4, connects to 1 community
+- [[Offline Memory Checking]] - degree 14, connects to 5 communities
+- [[Spark optimal sparse multilinear PCS from Spartan; evaluates m-sparse poly in O(c·m) time via c memories of size N{1c}]] - degree 7, connects to 2 communities
+- [[Sparse multilinear polynomial commitment (Spartan compiler)]] - degree 6, connects to 2 communities
+- [[Spice readwrite memory-checking argument (offline, grand-product based)]] - degree 3, connects to 2 communities
+- [[Twist sum-check memory-checking argument for readwrite memory]] - degree 4, connects to 1 community

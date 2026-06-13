@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch14-the-seven-questions-that-remain-open.md"
 type: "document"
-community: "Community 5"
+community: "Community 0"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_5
+  - community/Community_0
 ---
 
 # The Seven Questions That Remain Open
@@ -34,7 +34,7 @@ tags:
 - [[Nova]] - `references` [EXTRACTED]
 - [[Number-Theoretic Transform (NTT)]] - `references` [EXTRACTED]
 - [[Open Questions and the Road Ahead]] - `part_of` [EXTRACTED]
-- [[Poseidon Hash_1]] - `references` [EXTRACTED]
+- [[Poseidon Hash]] - `references` [EXTRACTED]
 - [[Post-Quantum Cryptography]] - `references` [EXTRACTED]
 - [[STARK]] - `references` [EXTRACTED]
 - [[Side-Channel Attacks When the Walls Leak]] - `references` [EXTRACTED]
@@ -43,9 +43,9 @@ tags:
 - [[The Three Frontiers]] - `references` [EXTRACTED]
 - [[The Trilemma -- And Its Dissolution]] - `references` [EXTRACTED]
 - [[Tornado Cash]] - `references` [EXTRACTED]
-- [[Trust Decomposition Seven Weaker Assumptions_1]] - `references` [EXTRACTED]
+- [[Trust Decomposition Seven Weaker Assumptions]] - `references` [EXTRACTED]
 - [[Witness Generation Costs]] - `references` [EXTRACTED]
 - [[Zcash]] - `references` [EXTRACTED]
 - [[zkVM]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_5
+#graphify/document #graphify/EXTRACTED #community/Community_0

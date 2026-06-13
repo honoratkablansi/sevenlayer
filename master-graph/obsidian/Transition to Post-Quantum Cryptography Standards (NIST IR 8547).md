@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch07/ref-26-nist-ir-8547.pdf"
 type: "paper"
-community: "Community 104"
+community: "Community 72"
 location: "p.1 (title page)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_104
+  - community/Community_72
 ---
 
 # Transition to Post-Quantum Cryptography Standards (NIST IR 8547)
@@ -26,4 +26,4 @@ tags:
 - [[Quantum Computing]] - `conceptually_related_to` [EXTRACTED]
 - [[Symmetric crypto (AES, SHA-23) less quantum-vulnerable; 112-bit symmetric disallowed 2030]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_104
+#graphify/paper #graphify/EXTRACTED #community/Community_72

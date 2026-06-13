@@ -1,18 +1,18 @@
 ---
 source_file: "references/ch06/ref-21-neo.pdf"
 type: "paper"
-community: "Community 17"
+community: "Community 88"
 location: "§3.2, Def 13"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_17
+  - community/Community_88
 ---
 
 # Neo folding-friendly matrix commitment scheme (Ajtai with new embedding)
 
 ## Connections
-- [[Ajtai Lattice Commitment]] - `conceptually_related_to` [EXTRACTED]
+- [[Ajtai commitments]] - `conceptually_related_to` [EXTRACTED]
 - [[Module-SIS  Module-LWE]] - `assumes` [EXTRACTED]
 - [[Neo Lattice-based Folding Scheme for CCS over Small Fields and Pay-per-bit Commitments]] - `introduces` [EXTRACTED]
 - [[Pay-per-bit commitment cost (cost scales with bit-width of committed scalars)]] - `defines` [EXTRACTED]
@@ -21,4 +21,4 @@ tags:
 - [[Theorem 2 Ajtai scheme is S-homomorphic and (d,m,B)-binding under MSIS]] - `proves` [EXTRACTED]
 - [[b-bit-word embedding of Fm into low-norm cyclotomic ring vector]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_17
+#graphify/paper #graphify/EXTRACTED #community/Community_88

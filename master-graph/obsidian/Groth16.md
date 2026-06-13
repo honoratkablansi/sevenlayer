@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 15"
+community: "Community 12"
 location: "Chapter 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_15
+  - community/Community_12
 ---
 
 # Groth16
@@ -38,7 +38,7 @@ tags:
 - [[Layer 5 -- The Sealed Certificate]] - `references` [EXTRACTED]
 - [[Layer 5 The Sealed Certificate (Proof System)]] - `introduces` [EXTRACTED]
 - [[Layer 6 -- The Deep Craft]] - `references` [EXTRACTED]
-- [[Layer 7 -- The Verdict_1]] - `references` [EXTRACTED]
+- [[Layer 7 -- The Verdict]] - `references` [EXTRACTED]
 - [[Maturity and Readiness]] - `references` [EXTRACTED]
 - [[Memory The Binding Constraint]] - `references` [EXTRACTED]
 - [[Midnight's ZKIR A Concrete Layer 4]] - `references` [EXTRACTED]
@@ -50,8 +50,8 @@ tags:
 - [[PLONK Permutations over Lagrange-bases for Oecumenical Noninteractive arguments of Knowledge]] - `cites` [EXTRACTED]
 - [[Path One Hybrid STARK-to-SNARK Pipeline]] - `explains` [EXTRACTED]
 - [[Path One The Hybrid STARK-to-SNARK Pipeline]] - `conceptually_related_to` [EXTRACTED]
-- [[Path Three Post-Quantum Folding_1]] - `conceptually_related_to` [EXTRACTED]
-- [[Path Two Pure Transparent_1]] - `conceptually_related_to` [EXTRACTED]
+- [[Path Three Post-Quantum Folding]] - `conceptually_related_to` [EXTRACTED]
+- [[Path Two Pure Transparent]] - `conceptually_related_to` [EXTRACTED]
 - [[Post-Quantum Security]] - `compares` [INFERRED]
 - [[Powers of Tau]] - `assumes` [EXTRACTED]
 - [[Pricing Attacks]] - `references` [EXTRACTED]
@@ -59,7 +59,7 @@ tags:
 - [[QAP (Quadratic Arithmetic Program)]] - `conceptually_related_to` [EXTRACTED]
 - [[Quadratic Arithmetic Programs (QAP)]] - `references` [EXTRACTED]
 - [[R1CS (Rank-1 Constraint Systems)]] - `conceptually_related_to` [EXTRACTED]
-- [[Real-Time Ethereum Proving_1]] - `references` [EXTRACTED]
+- [[Real-Time Ethereum Proving]] - `references` [EXTRACTED]
 - [[Recursion vs. Folding Russian Dolls and Snowballs]] - `references` [EXTRACTED]
 - [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `conceptually_related_to` [EXTRACTED]
 - [[SNARK Recursion vs. Folding The Full Picture]] - `references` [EXTRACTED]
@@ -100,9 +100,8 @@ tags:
 - [[Three Hardness Assumptions, Three Worlds]] - `references` [EXTRACTED]
 - [[Three zkVMs Through Seven Layers]] - `conceptually_related_to` [EXTRACTED]
 - [[Tramer, Boneh, Paterson Remote Side-Channel Attacks (USENIX 2020)]] - `references` [EXTRACTED]
-- [[Trust Decomposition Seven Weaker Assumptions_1]] - `conceptually_related_to` [EXTRACTED]
-- [[Trusted Setup Ceremony]] - `references` [EXTRACTED]
-- [[Trusted Setup Ceremony_1]] - `conceptually_related_to` [EXTRACTED]
+- [[Trust Decomposition Seven Weaker Assumptions]] - `conceptually_related_to` [EXTRACTED]
+- [[Trusted Setup Ceremony]] - `conceptually_related_to` [EXTRACTED]
 - [[Two Ways to Build a Stage]] - `conceptually_related_to` [EXTRACTED]
 - [[Universal versus Circuit-Specific Setups]] - `conceptually_related_to` [EXTRACTED]
 - [[Universal vs Circuit-Specific SRS]] - `compares` [EXTRACTED]
@@ -116,4 +115,4 @@ tags:
 - [[zkTree zero-knowledge recursion tree with ZKP membership proofs]] - `cites` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_15
+#graphify/document #graphify/EXTRACTED #community/Community_12

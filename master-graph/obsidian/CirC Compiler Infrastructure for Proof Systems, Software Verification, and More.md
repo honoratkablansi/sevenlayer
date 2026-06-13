@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch10/ref-33-circ.pdf"
 type: "paper"
-community: "Community 16"
+community: "Community 5"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_16
+  - community/Community_5
 ---
 
 # CirC: Compiler Infrastructure for Proof Systems, Software Verification, and More
@@ -18,6 +18,6 @@ tags:
 - [[Open Questions and the Road Ahead]] - `cites` [EXTRACTED]
 - [[R1CS (Rank-1 Constraint Systems)]] - `conceptually_related_to` [EXTRACTED]
 - [[Satisfiability Modulo Theories (SMT)]] - `conceptually_related_to` [EXTRACTED]
-- [[Secure Multi-Party Computation (MPC)_1]] - `conceptually_related_to` [EXTRACTED]
+- [[Secure Multi-Party Computation (MPC)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_16
+#graphify/paper #graphify/EXTRACTED #community/Community_5

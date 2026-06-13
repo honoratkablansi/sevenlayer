@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch03-risc-v-won-why-taxonomy-still-matters.md"
 type: "document"
-community: "Community 9"
+community: "Community 63"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_9
+  - community/Community_63
 ---
 
 # RISC-V Won. Why Taxonomy Still Matters.
@@ -22,4 +22,4 @@ tags:
 - [[Universal versus Circuit-Specific Setups]] - `references` [EXTRACTED]
 - [[zkVM]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_9
+#graphify/document #graphify/EXTRACTED #community/Community_63

@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-59-zkbridge.pdf"
 type: "paper"
-community: "Community 120"
+community: "Community 108"
 location: "[50], §4.4"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_120
+  - community/Community_108
 ---
 
 # Fiore-Nitulescu: On the (in)security of SNARKs in the presence of oracles (TCC 2016) [50] — O-SNARK notion
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[O-SNARK SNARK over authenticated data  oracle families (Fiore-Nitulescu); deVirgo is an O-SNARK in the random oracle model]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_120
+#graphify/paper #graphify/EXTRACTED #community/Community_108

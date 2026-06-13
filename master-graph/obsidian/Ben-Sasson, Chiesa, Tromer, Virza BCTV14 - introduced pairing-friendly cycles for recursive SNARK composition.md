@@ -14,6 +14,6 @@ tags:
 ## Connections
 - [[Chiesa, Chua & Weidner, On Cycles of Pairing-Friendly Elliptic Curves (2019)]] - `cites` [EXTRACTED]
 - [[Definition pairing-friendly (k1,...,km)-cycle of ordinary curves with small embedding degrees]] - `introduces` [EXTRACTED]
-- [[Recursive Proof Composition_1]] - `introduces` [EXTRACTED]
+- [[Recursive Proof Composition]] - `introduces` [EXTRACTED]
 
 #graphify/paper #graphify/EXTRACTED #community/Community_13

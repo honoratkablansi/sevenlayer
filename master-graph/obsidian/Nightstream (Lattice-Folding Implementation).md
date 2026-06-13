@@ -1,19 +1,19 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 22"
+community: "Community 0"
 location: "Chapter 6"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_22
+  - community/Community_0
 ---
 
 # Nightstream (Lattice-Folding Implementation)
 
 ## Connections
-- [[Ajtai Lattice Commitment]] - `references` [EXTRACTED]
+- [[Ajtai commitments]] - `references` [EXTRACTED]
 - [[CCS (Customizable Constraint Systems)]] - `references` [EXTRACTED]
 - [[Neo (Small-Field Lattice Folding)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_22
+#graphify/document #graphify/EXTRACTED #community/Community_0

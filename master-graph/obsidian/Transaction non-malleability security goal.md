@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-90-zexe.pdf"
 type: "paper"
-community: "Community 26"
+community: "Community 44"
 location: "§3.3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_26
+  - community/Community_44
 ---
 
 # Transaction non-malleability security goal
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Decentralized Private Computation (DPC) scheme]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_26
+#graphify/paper #graphify/EXTRACTED #community/Community_44

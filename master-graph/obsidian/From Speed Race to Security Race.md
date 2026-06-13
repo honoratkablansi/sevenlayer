@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch06-from-speed-race-to-security-race.md"
 type: "document"
-community: "Community 25"
+community: "Community 15"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_25
+  - community/Community_15
 ---
 
 # From Speed Race to Security Race
@@ -14,10 +14,10 @@ tags:
 - [[Fiat-Shamir Transform]] - `references` [EXTRACTED]
 - [[Fiat-Shamir Vulnerabilities]] - `references` [EXTRACTED]
 - [[Layer 5 -- The Sealed Certificate]] - `part_of` [EXTRACTED]
-- [[Poseidon Hash_1]] - `references` [EXTRACTED]
-- [[Real-Time Ethereum Proving_1]] - `references` [EXTRACTED]
+- [[Poseidon Hash]] - `references` [EXTRACTED]
+- [[Real-Time Ethereum Proving]] - `references` [EXTRACTED]
 - [[SP1 Hypercube (Succinct)]] - `references` [EXTRACTED]
 - [[The Post-Quantum Horizon]] - `references` [EXTRACTED]
 - [[The Sealed Certificate (Chapter Closing)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_25
+#graphify/document #graphify/EXTRACTED #community/Community_15

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch07/ref-24-shor.pdf"
 type: "paper"
-community: "Community 93"
+community: "Community 72"
 location: "p.1 (abstract)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_93
+  - community/Community_72
 ---
 
 # Quantum Computing
@@ -16,4 +16,4 @@ tags:
 - [[Quantitative (Strong) Church's thesis]] - `conceptually_related_to` [EXTRACTED]
 - [[Transition to Post-Quantum Cryptography Standards (NIST IR 8547)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_93
+#graphify/paper #graphify/EXTRACTED #community/Community_72

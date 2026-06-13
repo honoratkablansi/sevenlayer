@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 22"
+community: "Community 0"
 location: "Chapter 7"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_22
+  - community/Community_0
 ---
 
 # Inner Product Argument (IPA/Bulletproofs)
@@ -29,10 +29,10 @@ tags:
 - [[Midnight's BLS12-381 Stage]] - `conceptually_related_to` [EXTRACTED]
 - [[Pedersen Commitment]] - `references` [EXTRACTED]
 - [[Pedersen-based univariate polynomial commitment with amortized succinctness]] - `assumes` [EXTRACTED]
-- [[Polynomial Commitment Scheme_1]] - `introduces` [EXTRACTED]
+- [[Polynomial Commitment Scheme]] - `introduces` [EXTRACTED]
 - [[SNARK Recursion vs. Folding The Full Picture]] - `references` [EXTRACTED]
 - [[The Three Families]] - `references` [EXTRACTED]
 - [[The Trilemma -- And Its Dissolution]] - `references` [EXTRACTED]
 - [[Two Ways to Build a Stage]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_22
+#graphify/document #graphify/EXTRACTED #community/Community_0

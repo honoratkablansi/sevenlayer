@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch07/ref-25-nist-fips-203-204-205.pdf"
 type: "paper"
-community: "Community 104"
+community: "Community 72"
 location: "p.3 (abstract)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_104
+  - community/Community_72
 ---
 
 # ML-KEM Key-Encapsulation Mechanism
@@ -19,4 +19,4 @@ tags:
 - [[ML-KEM (Module-Lattice-Based Key-Encapsulation Mechanism, FIPS 203)]] - `conceptually_related_to` [EXTRACTED]
 - [[PQC-Classical Hybrid Protocols (composite KEM via SP 800-56C, dual signatures)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_104
+#graphify/paper #graphify/EXTRACTED #community/Community_72

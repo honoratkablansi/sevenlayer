@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch03/ref-13-practical-security-zk-circuits.pdf"
 type: "paper"
-community: "Community 35"
+community: "Community 43"
 location: "§3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_35
+  - community/Community_43
 ---
 
 # Taxonomy of Circom vulnerabilities (3 root-cause classes)
@@ -17,4 +17,4 @@ tags:
 - [[Practical Security Analysis of Zero-Knowledge Proof Circuits]] - `introduces` [EXTRACTED]
 - [[Unsafe component usage vulnerability class]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_35
+#graphify/paper #graphify/EXTRACTED #community/Community_43

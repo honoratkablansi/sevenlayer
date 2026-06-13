@@ -1,42 +1,41 @@
 ---
 type: community
-cohesion: 0.09
-members: 27
+cohesion: 0.11
+members: 26
 ---
 
 # Community 29
 
-**Cohesion:** 0.09 - loosely connected
-**Members:** 27 nodes
+**Cohesion:** 0.11 - loosely connected
+**Members:** 26 nodes
 
 ## Members
-- [[Build integrity and artifact verification]] - document - references/recursion/ch3/ref-63-slsa-intoto-frameworks.md
-- [[C2PA Manifest]] - document - references/recursion/ch3/ref-79-c2pa-specification.md
-- [[C2PA assertions and claims]] - document - references/recursion/ch3/ref-79-c2pa-specification.md
-- [[Certificate Transparency]] - document - references/recursion/ch3/ref-65-rfc-6962-certificate-transparency.md
-- [[Component inventory and dependency relationships]] - document - references/recursion/ch3/ref-62-ntia-cisa-sbom-minimum-elements.md
-- [[Content Credentials trust model (X.509 signers)]] - document - references/recursion/ch3/ref-79-c2pa-specification.md
-- [[Executive Order 14028 on Improving the Nation's Cybersecurity]] - document - references/recursion/ch3/ref-62-ntia-cisa-sbom-minimum-elements.md
-- [[Hard and soft binding to content]] - document - references/recursion/ch3/ref-79-c2pa-specification.md
-- [[Merkle Hash Tree]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[Merkle audit and consistency proofs]] - document - references/recursion/ch3/ref-65-rfc-6962-certificate-transparency.md
-- [[Misissued-certificate detection by monitors and auditors]] - document - references/recursion/ch3/ref-65-rfc-6962-certificate-transparency.md
-- [[NTIA Minimum Elements for a Software Bill of Materials (SBOM)]] - document - references/recursion/ch3/ref-62-ntia-cisa-sbom-minimum-elements.md
-- [[Provenance attestation]] - document - references/recursion/ch3/ref-63-slsa-intoto-frameworks.md
-- [[RFC 6962 Certificate Transparency]] - document - references/recursion/ch3/ref-65-rfc-6962-certificate-transparency.md
-- [[SBOM verification as PCD instance]] - document - recursion/recursion-outline.md
-- [[SLSA (Supply-chain Levels for Software Artifacts)]] - document - references/recursion/ch3/ref-63-slsa-intoto-frameworks.md
-- [[SLSA Specification v1.0]] - document - references/recursion/ch3/ref-63-slsa-intoto-frameworks.md
-- [[SLSA security levels]] - document - references/recursion/ch3/ref-63-slsa-intoto-frameworks.md
-- [[Signed Certificate Timestamp (SCT)]] - document - references/recursion/ch3/ref-65-rfc-6962-certificate-transparency.md
-- [[Software Bill of Materials (SBOM)]] - document - recursion/recursion-outline.md
-- [[Software supply chain]] - document - recursion/recursion-outline.md
-- [[Software supply-chain transparency]] - document - references/recursion/ch3/ref-62-ntia-cisa-sbom-minimum-elements.md
-- [[VeriSBOM (arXiv 2026)]] - document - recursion/recursion-outline.md
-- [[Verifiable build pipelines  attestation chains]] - document - recursion/recursion-outline.md
-- [[Verifiable transparency logs]] - document - recursion/recursion-outline.md
-- [[in-toto supply-chain framework]] - document - references/recursion/ch3/ref-63-slsa-intoto-frameworks.md
-- [[in-toto supply-chain integrity via signed step metadata (cited prior work)]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
+- [[2PC query execution over TLS prover and verifier run custom 2PC (2PC-HMAC, 2PC-GCM) to construct TLS records under secret-shared keys]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[2PC-HMAC optimization compute inner-hash IV s0=f_H(IV, k+ipad) once, local inner hash regardless of query length]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Authenticated data feed (ADF) for smart contracts]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Blockchainsmart-contract oracle protocol (provenance of online data)]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Cited Camenisch-Stadler ZK-PoK notation for proofs of knowledge]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Cited Canetti, Universally Composable Security framework]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Cited Cinderella (verifiable computation over X.509 certificates)]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Cited TLS-N (server-side TLS 1.3 extension signing session, chunk-level redaction)]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Cited TLSNotary (deprecated-TLS auditor oracle, no privacy from oracle)]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Cited Town Crier (TEESGX-based oracle, ADF term origin)]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Cited Yao garbled circuits (basis of 2PC for bitwise ops)]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Cited secret-sharing MtA (multiplicative-to-additive) protocol used in ECtF]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Context-integrity property and context-integrity attacks (quoting out of context  reflection attack) universal to privacy-preserving oracles]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[DECO decentralized oracle for TLS (Zhang, Maram, Malvai, Goldfeder, Juels, CCS 2020)]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[ECtF protocol convert additive shares of an EC point in GF(p) to additive shares of its x-coordinate in F_p (8-ciphertext comm.)]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Ideal functionality F_Oracle (formal security definition of decentralized oracle) between S, P, V]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Key idea withhold MAC key share from prover until after commitment, making session-data commitment unforgeable]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Key-value grammar optimization (globally unique keys) for JSONHTML two-stage parsing]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Secure multi-party computation (MPC)  two-party computation (2PC)]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Security properties prover-integrity, verifier-integrity, privacy under static malicious adversary]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Theorem 4.1 Prot_DECO UC-securely realizes F_Oracle in (F_2PC, F_ZK)-hybrid world, assuming hard discrete log and SHA-256 compression as random oracle]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Three-party handshake (3P-HS) prover+verifier jointly act as TLS client, secret-share session keys with server, transparent to server]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Transport Layer Security (TLS) handshake + record protocol]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Trust model no trusted hardware, no server-side modification; oracle trusted for integrity not privacy; privacy holds even if all oracles compromised]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Universally Composable (UC) security via ideal functionality]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Zero-knowledge two-stage parsing scheme local pre-process (Trans) then prove context integrity on shorter transformed string]] - paper - references/recursion/ch3/ref-87-deco.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -46,16 +45,11 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 3 edges to [[_COMMUNITY_Community 42]]
-- 3 edges to [[_COMMUNITY_Community 63]]
-- 2 edges to [[_COMMUNITY_Community 50]]
-- 1 edge to [[_COMMUNITY_Community 0]]
-- 1 edge to [[_COMMUNITY_Community 59]]
-- 1 edge to [[_COMMUNITY_Community 56]]
+- 5 edges to [[_COMMUNITY_Community 37]]
+- 2 edges to [[_COMMUNITY_Community 93]]
+- 1 edge to [[_COMMUNITY_Community 49]]
 
 ## Top bridge nodes
-- [[Software Bill of Materials (SBOM)]] - degree 8, connects to 2 communities
-- [[Software supply chain]] - degree 7, connects to 2 communities
-- [[Content Credentials trust model (X.509 signers)]] - degree 3, connects to 2 communities
-- [[Verifiable transparency logs]] - degree 4, connects to 1 community
-- [[C2PA Manifest]] - degree 3, connects to 1 community
+- [[DECO decentralized oracle for TLS (Zhang, Maram, Malvai, Goldfeder, Juels, CCS 2020)]] - degree 22, connects to 3 communities
+- [[Context-integrity property and context-integrity attacks (quoting out of context  reflection attack) universal to privacy-preserving oracles]] - degree 4, connects to 1 community
+- [[Zero-knowledge two-stage parsing scheme local pre-process (Trans) then prove context integrity on shorter transformed string]] - degree 4, connects to 1 community

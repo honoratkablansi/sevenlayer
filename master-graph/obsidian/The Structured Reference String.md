@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch02-the-structured-reference-string.md"
 type: "document"
-community: "Community 38"
+community: "Community 12"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_38
+  - community/Community_12
 ---
 
 # The Structured Reference String
@@ -22,4 +22,4 @@ tags:
 - [[The Quantum Shelf Life]] - `references` [EXTRACTED]
 - [[Two Ways to Build a Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_38
+#graphify/document #graphify/EXTRACTED #community/Community_12

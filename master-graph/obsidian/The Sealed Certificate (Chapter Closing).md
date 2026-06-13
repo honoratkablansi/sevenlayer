@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch06-the-sealed-certificate.md"
 type: "document"
-community: "Community 25"
+community: "Community 15"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_25
+  - community/Community_15
 ---
 
 # The Sealed Certificate (Chapter Closing)
@@ -32,4 +32,4 @@ tags:
 - [[The Three Families]] - `references` [EXTRACTED]
 - [[ZK Coprocessors Off-Chain Computation, On-Chain Verification (Growth)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_25
+#graphify/document #graphify/EXTRACTED #community/Community_15

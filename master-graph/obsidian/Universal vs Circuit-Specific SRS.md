@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 43"
+community: "Community 40"
 location: "Chapter 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_43
+  - community/Community_40
 ---
 
 # Universal vs Circuit-Specific SRS
@@ -25,4 +25,4 @@ tags:
 - [[Universal Updatable SRS Setup (Bowe-Gabizon-Miers)]] - `defines` [EXTRACTED]
 - [[Updatable and Universal Common Reference Strings with Applications to zk-SNARKs]] - `introduces` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_43
+#graphify/document #graphify/EXTRACTED #community/Community_40

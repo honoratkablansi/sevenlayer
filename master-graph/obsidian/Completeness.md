@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 89"
+community: "Community 19"
 location: "Chapter 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_89
+  - community/Community_19
 ---
 
 # Completeness
@@ -20,4 +20,4 @@ tags:
 - [[Zero-Knowledge Proof]] - `defines` [EXTRACTED]
 - [[zkVM]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_89
+#graphify/document #graphify/EXTRACTED #community/Community_19

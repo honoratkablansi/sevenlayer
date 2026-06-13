@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch14-coda.md"
 type: "document"
-community: "Community 5"
+community: "Community 0"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_5
+  - community/Community_0
 ---
 
 # Coda
@@ -35,6 +35,6 @@ tags:
 - [[Symphony]] - `references` [EXTRACTED]
 - [[The Seven Questions That Remain Open]] - `references` [EXTRACTED]
 - [[Three Converging Forces]] - `references` [EXTRACTED]
-- [[eIDAS 2.0_1]] - `references` [EXTRACTED]
+- [[eIDAS 2.0]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_5
+#graphify/document #graphify/EXTRACTED #community/Community_0

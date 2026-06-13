@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch04-the-disclose-boundary-midnight-s-witness-architecture.md"
 type: "document"
-community: "Community 24"
+community: "Community 6"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_24
+  - community/Community_6
 ---
 
 # The Disclose Boundary: Midnight's Witness Architecture
@@ -21,7 +21,7 @@ tags:
 - [[Midnight's ZKIR A Concrete Layer 4]] - `references` [EXTRACTED]
 - [[Midnight Compiler, IR, Circuit]] - `references` [EXTRACTED]
 - [[PLONK]] - `references` [EXTRACTED]
-- [[Poseidon Hash_1]] - `references` [EXTRACTED]
+- [[Poseidon Hash]] - `references` [EXTRACTED]
 - [[Privacy Architectures for Smart Contracts Kachina and Zexe]] - `references` [EXTRACTED]
 - [[Proving-as-a-Service The Prover Market (Production)]] - `references` [EXTRACTED]
 - [[Side-Channel Attack]] - `references` [EXTRACTED]
@@ -33,4 +33,4 @@ tags:
 - [[ZK Identity (Growth  Regulatory Mandate)]] - `references` [EXTRACTED]
 - [[ZKIR (Zero-Knowledge Intermediate Representation)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_24
+#graphify/document #graphify/EXTRACTED #community/Community_6

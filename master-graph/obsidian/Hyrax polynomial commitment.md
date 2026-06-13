@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 6"
+community: "Community 8"
 location: "Chapter 11"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_6
+  - community/Community_8
 ---
 
 # Hyrax polynomial commitment
@@ -15,4 +15,4 @@ tags:
 - [[BN254 (alt_bn128) Curve]] - `conceptually_related_to` [EXTRACTED]
 - [[Jolt (zkVM via Lookups)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_6
+#graphify/document #graphify/EXTRACTED #community/Community_8

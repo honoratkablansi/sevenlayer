@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/04-the-secret-performance.md"
 type: "document"
-community: "Community 14"
+community: "Community 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_14
+  - community/Community_1
 ---
 
 # The Secret Performance
@@ -14,12 +14,11 @@ tags:
 - [[Bulletproofs  Inner Product Argument]] - `references` [EXTRACTED]
 - [[Circle STARKs]] - `references` [EXTRACTED]
 - [[Compact Language]] - `references` [EXTRACTED]
-- [[Constant-Time Implementation_1]] - `defines` [EXTRACTED]
-- [[Execution Trace]] - `defines` [EXTRACTED]
+- [[Constant-Time Implementation]] - `defines` [EXTRACTED]
 - [[Execution Traces]] - `part_of` [EXTRACTED]
 - [[FRI Commitment Scheme]] - `references` [EXTRACTED]
 - [[Folding Scheme]] - `references` [EXTRACTED]
-- [[Goldilocks Field_1]] - `references` [EXTRACTED]
+- [[Goldilocks Field]] - `references` [EXTRACTED]
 - [[Groth16]] - `references` [EXTRACTED]
 - [[Halo 2  UltraPlonk]] - `references` [EXTRACTED]
 - [[Jolt (zkVM via Lookups)]] - `references` [EXTRACTED]
@@ -33,7 +32,7 @@ tags:
 - [[Nullifier]] - `references` [EXTRACTED]
 - [[Number-Theoretic Transform (NTT)]] - `references` [EXTRACTED]
 - [[PLONK]] - `references` [EXTRACTED]
-- [[Poseidon Hash_1]] - `references` [EXTRACTED]
+- [[Poseidon Hash]] - `references` [EXTRACTED]
 - [[Proving CPU Executions in Small Space]] - `cites` [EXTRACTED]
 - [[Proving Nothing]] - `part_of` [EXTRACTED]
 - [[Reinforced Concrete Hash]] - `references` [EXTRACTED]
@@ -42,11 +41,11 @@ tags:
 - [[Side-Channel Attack]] - `defines` [EXTRACTED]
 - [[Side-Channel Attacks When the Walls Leak]] - `part_of` [EXTRACTED]
 - [[Sudoku running example]] - `references` [EXTRACTED]
-- [[Sum-Check Protocol_1]] - `references` [EXTRACTED]
+- [[Sum-Check Protocol]] - `references` [EXTRACTED]
 - [[The Disclose Boundary Midnight's Witness Architecture]] - `part_of` [EXTRACTED]
 - [[The Hidden Bottleneck]] - `part_of` [EXTRACTED]
 - [[The Witness as a Multi-Dimensional Problem]] - `part_of` [EXTRACTED]
-- [[Trusted Execution Environment (TEE)_1]] - `references` [EXTRACTED]
+- [[Trusted Execution Environment (TEE)]] - `references` [EXTRACTED]
 - [[Volatile and Persistent Memory for zkSNARKs via Algebraic Interactive Proofs]] - `cites` [EXTRACTED]
 - [[Witness (private execution traceinputs)]] - `defines` [EXTRACTED]
 - [[Witness Generation]] - `references` [EXTRACTED]
@@ -56,4 +55,4 @@ tags:
 - [[Zcash]] - `references` [EXTRACTED]
 - [[zkVM]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_14
+#graphify/document #graphify/EXTRACTED #community/Community_1

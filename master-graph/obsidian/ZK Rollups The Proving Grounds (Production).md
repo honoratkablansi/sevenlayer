@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch13-zk-rollups-the-proving-grounds-production.md"
 type: "document"
-community: "Community 106"
+community: "Community 6"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_106
+  - community/Community_6
 ---
 
 # ZK Rollups: The Proving Grounds (Production)
@@ -37,4 +37,4 @@ tags:
 - [[ZK Rollup]] - `defines` [EXTRACTED]
 - [[ZisK]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_106
+#graphify/document #graphify/EXTRACTED #community/Community_6

@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 124"
+community: "Community 2"
 location: "Chapter 3"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_124
+  - community/Community_2
 ---
 
 # Under-Constrained Circuits
@@ -19,4 +19,4 @@ tags:
 - [[Tornado Cash Under-Constraint Bug]] - `explains` [EXTRACTED]
 - [[Wen et al., ZKAP Practical Security Analysis of ZK Proof Circuits, USENIX Security 2024]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_124
+#graphify/document #graphify/EXTRACTED #community/Community_2

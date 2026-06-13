@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 90"
+community: "Community 68"
 location: "Chapter 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_90
+  - community/Community_68
 ---
 
 # The Seven-Layer ZK Stack Model
@@ -18,4 +18,4 @@ tags:
 - [[Trust-Minimization Thesis (decompose, not eliminate trust)]] - `conceptually_related_to` [EXTRACTED]
 - [[Trusted Setup Ceremony]] - `explains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_90
+#graphify/document #graphify/EXTRACTED #community/Community_68

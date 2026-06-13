@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch07/ref-24-shor.pdf"
 type: "paper"
-community: "Community 93"
+community: "Community 70"
 location: "§6"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_93
+  - community/Community_70
 ---
 
 # Quantum discrete logarithm algorithm
@@ -17,4 +17,4 @@ tags:
 - [[Discrete-log-based public-key cryptosystems (Diffie-HellmanDSA)]] - `conceptually_related_to` [INFERRED]
 - [[Quantum Fourier transform]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_93
+#graphify/paper #graphify/EXTRACTED #community/Community_70

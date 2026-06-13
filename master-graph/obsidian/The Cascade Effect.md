@@ -1,12 +1,12 @@
 ---
 source_file: "wiki/sections/ch07-the-cascade-effect.md"
 type: "document"
-community: "Community 8"
+community: "Community 0"
 location: "The Cascade Effect"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_8
+  - community/Community_0
 ---
 
 # The Cascade Effect
@@ -20,15 +20,15 @@ tags:
 - [[Circle STARKs]] - `references` [EXTRACTED]
 - [[FRI Commitment Scheme]] - `references` [EXTRACTED]
 - [[Folding Scheme]] - `references` [EXTRACTED]
-- [[Goldilocks Field_1]] - `references` [EXTRACTED]
+- [[Goldilocks Field]] - `references` [EXTRACTED]
 - [[KZG Polynomial Commitments from pairings (with trusted setup); Dory transparent pairing-based scheme]] - `references` [EXTRACTED]
 - [[Lattice-Based Proving]] - `references` [EXTRACTED]
 - [[Layer 6 -- The Deep Craft]] - `part_of` [EXTRACTED]
-- [[Mersenne-31 Field]] - `references` [EXTRACTED]
+- [[Mersenne-31  M31]] - `references` [EXTRACTED]
 - [[Midnight (Privacy Blockchain)]] - `references` [EXTRACTED]
 - [[Neo (Lattice Folding over Small Fields)]] - `references` [EXTRACTED]
 - [[Small Fields]] - `references` [EXTRACTED]
 - [[The One-Way Door]] - `references` [EXTRACTED]
 - [[Zcash]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_8
+#graphify/document #graphify/EXTRACTED #community/Community_0

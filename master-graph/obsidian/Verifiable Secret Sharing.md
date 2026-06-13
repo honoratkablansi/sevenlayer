@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-04-kzg-commitments.pdf"
 type: "document"
-community: "Community 59"
+community: "Community 51"
 location: "Section 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_59
+  - community/Community_51
 ---
 
 # Verifiable Secret Sharing
@@ -16,4 +16,4 @@ tags:
 - [[Feldman Verifiable Secret Sharing]] - `conceptually_related_to` [EXTRACTED]
 - [[eVSS Efficient Feldman VSS]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_59
+#graphify/document #graphify/EXTRACTED #community/Community_51

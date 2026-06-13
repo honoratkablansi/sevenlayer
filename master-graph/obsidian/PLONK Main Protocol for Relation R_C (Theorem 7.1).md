@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-07-plonk.pdf"
 type: "paper"
-community: "Community 62"
+community: "Community 39"
 location: "§7, Theorem 7.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_62
+  - community/Community_39
 ---
 
 # PLONK Main Protocol for Relation R_C (Theorem 7.1)
@@ -22,4 +22,4 @@ tags:
 - [[Permutation Argument]] - `assumes` [EXTRACTED]
 - [[Zero-Knowledge via ZH Blinding Scalars]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_62
+#graphify/paper #graphify/EXTRACTED #community/Community_39

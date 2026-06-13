@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-11-latticefold-plus.pdf"
 type: "paper"
-community: "Community 48"
+community: "Community 32"
 location: "§1.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_48
+  - community/Community_32
 ---
 
 # Neo [NS25] (small-field embedding into cyclotomic ring)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Small Prime Moduli Support (tensor-of-rings, Neo-style)]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_48
+#graphify/paper #graphify/EXTRACTED #community/Community_32

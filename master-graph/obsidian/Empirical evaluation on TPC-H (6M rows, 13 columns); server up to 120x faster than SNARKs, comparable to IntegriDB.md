@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-73-vsql.pdf"
 type: "paper"
-community: "Community 67"
+community: "Community 56"
 location: "§VII; Fig. 3-7"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_67
+  - community/Community_56
 ---
 
 # Empirical evaluation on TPC-H (6M rows, 13 columns); server up to 120x faster than SNARKs, comparable to IntegriDB
@@ -16,4 +16,4 @@ tags:
 - [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `conceptually_related_to` [EXTRACTED]
 - [[vSQL verifiable database system for arbitrary SQL queries over dynamic outsourced databases]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_67
+#graphify/paper #graphify/EXTRACTED #community/Community_56

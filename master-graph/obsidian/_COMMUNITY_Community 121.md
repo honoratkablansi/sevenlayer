@@ -1,21 +1,20 @@
 ---
 type: community
-cohesion: 0.40
-members: 6
+cohesion: 0.50
+members: 5
 ---
 
 # Community 121
 
-**Cohesion:** 0.40 - moderately connected
-**Members:** 6 nodes
+**Cohesion:** 0.50 - moderately connected
+**Members:** 5 nodes
 
 ## Members
-- [[Daza, Rafols, Zacharakis DRZ20 updateable IPP with log verifier]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
-- [[Inner pairing product argument (IPP)]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
-- [[MIPP Multi-exponentiation Inner Product argument]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
-- [[MT-IPP merged MIPP+TIPP argument]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
-- [[TIPP Target Inner Pairing Product argument]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
-- [[Theorem 3 MT-IPP completeness and knowledge soundness]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
+- [[Nebra UPA whitepaper (Universal Proof Aggregation)]] - document - references/recursion/ch1/ref-22-nebra-upa.md
+- [[Off-chain recursion, single aggregated onchain proof]] - document - references/recursion/ch1/ref-22-nebra-upa.md
+- [[Onchain ZKP settlement  verification cost]] - document - references/recursion/ch1/ref-22-nebra-upa.md
+- [[Recursive SNARK]] - document - references/recursion/ch1/ref-22-nebra-upa.md
+- [[Universal Proof Aggregation (UPA)]] - document - references/recursion/ch1/ref-22-nebra-upa.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -25,12 +24,12 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 3 edges to [[_COMMUNITY_Community 85]]
-- 2 edges to [[_COMMUNITY_Community 18]]
-- 1 edge to [[_COMMUNITY_Community 39]]
+- 1 edge to [[_COMMUNITY_Community 32]]
+- 1 edge to [[_COMMUNITY_Community 61]]
+- 1 edge to [[_COMMUNITY_Community 105]]
+- 1 edge to [[_COMMUNITY_Community 20]]
+- 1 edge to [[_COMMUNITY_Community 14]]
 
 ## Top bridge nodes
-- [[MT-IPP merged MIPP+TIPP argument]] - degree 6, connects to 2 communities
-- [[Inner pairing product argument (IPP)]] - degree 4, connects to 1 community
-- [[Daza, Rafols, Zacharakis DRZ20 updateable IPP with log verifier]] - degree 2, connects to 1 community
-- [[Theorem 3 MT-IPP completeness and knowledge soundness]] - degree 2, connects to 1 community
+- [[Recursive SNARK]] - degree 5, connects to 4 communities
+- [[Universal Proof Aggregation (UPA)]] - degree 4, connects to 1 community

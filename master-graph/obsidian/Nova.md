@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 0"
+community: "Community 16"
 location: "Chapter 6"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Community_16
 ---
 
 # Nova
@@ -16,7 +16,7 @@ tags:
 - [[Binding Verification Keys and Statements Safely]] - `references` [EXTRACTED]
 - [[CCS The Rosetta Stone]] - `references` [EXTRACTED]
 - [[Coda]] - `references` [EXTRACTED]
-- [[Committed relaxed R1CS]] - `conceptually_related_to` [EXTRACTED]
+- [[Committed Relaxed R1CS]] - `conceptually_related_to` [EXTRACTED]
 - [[CycleFold]] - `conceptually_related_to` [EXTRACTED]
 - [[CycleFold (ePrint 20231192)]] - `cites` [EXTRACTED]
 - [[CycleFold cycle-of-curves delegation technique]] - `assumes` [EXTRACTED]
@@ -40,10 +40,10 @@ tags:
 - [[Layer 1 -- Building the Stage]] - `references` [EXTRACTED]
 - [[Layer 5 -- The Sealed Certificate]] - `references` [EXTRACTED]
 - [[Layer 6 -- The Deep Craft]] - `references` [EXTRACTED]
-- [[Layer 7 -- The Verdict_1]] - `references` [EXTRACTED]
+- [[Layer 7 -- The Verdict]] - `references` [EXTRACTED]
 - [[Lemma 1  Assumption 1 non-interactive folding scheme for committed relaxed R1CS (Nova 21); prover O(n), verifier and communication O(1), via Fiat-Shamir in plain model]] - `cites` [EXTRACTED]
 - [[Lemma 5 (Nova folding is blinding)]] - `proves` [EXTRACTED]
-- [[Lookup Arguments_1]] - `references` [EXTRACTED]
+- [[Lookup Argument]] - `references` [EXTRACTED]
 - [[Memory The Binding Constraint]] - `references` [EXTRACTED]
 - [[MinRoot Worked Example]] - `explains` [EXTRACTED]
 - [[Modified 2-cycle Nova IVC scheme shorter proofs (eliminates one R1CS instance-witness pair), proven sound; adopted upstream (PR 167)]] - `conceptually_related_to` [EXTRACTED]
@@ -59,7 +59,7 @@ tags:
 - [[Privacy-Enhancing Technologies]] - `references` [EXTRACTED]
 - [[R1CS (Rank-1 Constraint Systems)]] - `references` [EXTRACTED]
 - [[Recursion vs. Folding Russian Dolls and Snowballs]] - `references` [EXTRACTED]
-- [[Recursive Proof Composition_1]] - `cites` [EXTRACTED]
+- [[Recursive Proof Composition]] - `cites` [EXTRACTED]
 - [[Relaxed R1CS]] - `references` [EXTRACTED]
 - [[SNARK Recursion vs. Folding The Full Picture]] - `references` [EXTRACTED]
 - [[Spartan]] - `references` [EXTRACTED]
@@ -77,4 +77,4 @@ tags:
 - [[Veridise Nova explainer series (Breaking Down the Nova Recursive SNARK)]] - `explains` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/document #graphify/EXTRACTED #community/Community_16

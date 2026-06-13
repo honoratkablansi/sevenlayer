@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-05-halo.pdf"
 type: "paper"
-community: "Community 22"
+community: "Community 0"
 location: "References [12]"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_22
+  - community/Community_0
 ---
 
 # Bootle, Cerulli, Chaidos, Groth, Petit: Efficient ZK arguments in the discrete log setting (inner product argument) [12]
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Inner Product Argument (IPABulletproofs)]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_22
+#graphify/paper #graphify/EXTRACTED #community/Community_0

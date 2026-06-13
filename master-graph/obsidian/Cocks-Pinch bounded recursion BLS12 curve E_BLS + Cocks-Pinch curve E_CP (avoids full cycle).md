@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-90-zexe.pdf"
 type: "paper"
-community: "Community 26"
+community: "Community 44"
 location: "§2.5 [FST10, BLS02]; §8 (Fig. 16)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_26
+  - community/Community_44
 ---
 
 # Cocks-Pinch bounded recursion: BLS12 curve E_BLS + Cocks-Pinch curve E_CP (avoids full cycle)
@@ -17,4 +17,4 @@ tags:
 - [[Pedersen commitmentshashes over twisted Edwards curves E_EdBLS, E_EdCP for efficient circuits]] - `conceptually_related_to` [EXTRACTED]
 - [[Prior recursive SNARK composition over a 2-cycle of curves BCTV17]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_26
+#graphify/paper #graphify/EXTRACTED #community/Community_44

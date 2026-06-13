@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-06-groth16.pdf"
 type: "paper"
-community: "Community 39"
+community: "Community 22"
 location: "§1.1, §2.1, refs"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_39
+  - community/Community_22
 ---
 
 # Shoup: Lower Bounds for Discrete Logarithms (Generic Group Model) (Sho97)
@@ -15,4 +15,4 @@ tags:
 - [[Generic (Bilinear) Group Model]] - `cites` [EXTRACTED]
 - [[On the Size of Pairing-Based Non-interactive Arguments]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_39
+#graphify/paper #graphify/EXTRACTED #community/Community_22

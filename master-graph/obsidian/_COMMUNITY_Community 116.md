@@ -10,13 +10,13 @@ members: 7
 **Members:** 7 nodes
 
 ## Members
-- [[BLS signatures]] - document - references/recursion/ch1/ref-37-ethereum-lean-hash-based-sig-aggregation.md
-- [[Hash-based cryptography (lean foundation)]] - document - references/recursion/ch1/ref-37-ethereum-lean-hash-based-sig-aggregation.md
-- [[Hash-based signatures]] - document - references/recursion/ch1/ref-37-ethereum-lean-hash-based-sig-aggregation.md
-- [[Real-time zkVMs (lean execution)]] - document - references/recursion/ch1/ref-37-ethereum-lean-hash-based-sig-aggregation.md
-- [[Rise of SNARKs]] - document - references/recursion/ch1/ref-37-ethereum-lean-hash-based-sig-aggregation.md
-- [[SNARK-aggregated signatures]] - document - recursion/recursion-outline.md
-- [[lean Ethereum (Justin Drake, EF blog)]] - document - references/recursion/ch1/ref-37-ethereum-lean-hash-based-sig-aggregation.md
+- [[Bootle et al. (BCC+16) Inner-Product Argument]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Improved Inner-Product Argument (2 log2 n)]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Pedersen Vector Commitment]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Pinocchio Arithmetic Circuit Format]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Single Multi-Exponentiation Verifier & Batch Verification]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Theorem 5 Arithmetic Circuit Protocol Soundness]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Zero-Knowledge Proof for Arithmetic Circuits (Protocol 3)]] - paper - references/ch02/ref-09-bulletproofs.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -26,12 +26,13 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 1 edge to [[_COMMUNITY_Community 61]]
-- 1 edge to [[_COMMUNITY_Community 0]]
-- 1 edge to [[_COMMUNITY_Community 8]]
-- 1 edge to [[_COMMUNITY_Community 91]]
+- 3 edges to [[_COMMUNITY_Community 0]]
+- 1 edge to [[_COMMUNITY_Community 23]]
+- 1 edge to [[_COMMUNITY_Community 92]]
+- 1 edge to [[_COMMUNITY_Community 40]]
 
 ## Top bridge nodes
-- [[SNARK-aggregated signatures]] - degree 4, connects to 2 communities
-- [[Hash-based signatures]] - degree 4, connects to 1 community
-- [[Real-time zkVMs (lean execution)]] - degree 2, connects to 1 community
+- [[Improved Inner-Product Argument (2 log2 n)]] - degree 7, connects to 3 communities
+- [[Bootle et al. (BCC+16) Inner-Product Argument]] - degree 3, connects to 1 community
+- [[Pedersen Vector Commitment]] - degree 2, connects to 1 community
+- [[Theorem 5 Arithmetic Circuit Protocol Soundness]] - degree 2, connects to 1 community

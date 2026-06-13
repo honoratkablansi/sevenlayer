@@ -1,48 +1,46 @@
 ---
 type: community
-cohesion: 0.09
-members: 33
+cohesion: 0.12
+members: 31
 ---
 
 # Community 17
 
-**Cohesion:** 0.09 - loosely connected
-**Members:** 33 nodes
+**Cohesion:** 0.12 - loosely connected
+**Members:** 31 nodes
 
 ## Members
-- [[(d,m,B,C)-relaxed binding; binding implies relaxed binding (Lemma 3)]] - paper - references/ch06/ref-21-neo.pdf
-- [[Algebraic reductions of knowledge]] - paper - references/ch06/ref-21-neo.pdf
-- [[Arc (hash-based accumulation for Reed-Solomon codes)]] - paper - references/ch06/ref-21-neo.pdf
-- [[Concrete parameters AGL, Goldilocks, Mersenne-61 over degree-2 extension]] - paper - references/ch06/ref-21-neo.pdf
-- [[HyperNova (CRYPTO'24)]] - paper - references/ch06/ref-21-neo.pdf
-- [[Lattice folding for lookups and read-write memory via ShoutTwist]] - paper - references/ch06/ref-21-neo.pdf
-- [[LatticeFold (ePrint 2024257)]] - paper - references/ch06/ref-21-neo.pdf
-- [[Lemma 2 linear combinations of commitments respect right-multiplication of openings]] - paper - references/ch06/ref-21-neo.pdf
-- [[Linearly homomorphic commitment]] - paper - references/ch06/ref-21-neo.pdf
-- [[Lova (unstructured-lattice folding for subset sum)]] - paper - references/ch06/ref-21-neo.pdf
-- [[Module-based Ajtai Commitment (com = A x)]] - paper - references/ch02/ref-11-latticefold-plus.pdf
-- [[NTT  Coefficient Embedding over R_q]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[Neo folding scheme for CCS (lattice-based)]] - paper - references/ch06/ref-21-neo.pdf
-- [[Neo folding-friendly matrix commitment scheme (Ajtai with new embedding)]] - paper - references/ch06/ref-21-neo.pdf
-- [[Neo Lattice-based Folding Scheme for CCS over Small Fields and Pay-per-bit Commitments]] - paper - references/ch06/ref-21-neo.pdf
-- [[NeutronNova]] - paper - references/ch06/ref-21-neo.pdf
-- [[Nova (CRYPTO'22)]] - paper - references/ch06/ref-21-neo.pdf
-- [[Pay-per-bit commitment cost (cost scales with bit-width of committed scalars)]] - paper - references/ch06/ref-21-neo.pdf
-- [[Pi_CCS reduction (CCS to linearizedmatrix-eval claims via sum-check)]] - paper - references/ch06/ref-21-neo.pdf
-- [[Pi_DEC decomposition reduction (norm-B claim into k norm-b claims)]] - paper - references/ch06/ref-21-neo.pdf
-- [[Pi_RLC random linear combination reduction (folds k+1 norm-b claims into one norm-B)]] - paper - references/ch06/ref-21-neo.pdf
-- [[Plausible post-quantum security from lattice (no DLOG reliance)]] - paper - references/ch06/ref-21-neo.pdf
-- [[Power-of-Two Cyclotomic Ring ZX(Xd+1)]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[Reductions of knowledge framework]] - paper - references/ch06/ref-21-neo.pdf
-- [[Relaxed Binding Commitment reduced to Module-SIS]] - paper - references/ch02/ref-11-latticefold-plus.pdf
-- [[S-module homomorphism via ring of rotation matrices S]] - paper - references/ch06/ref-21-neo.pdf
-- [[Short invertible elements in partially splitting cyclotomic rings]] - paper - references/ch06/ref-21-neo.pdf
-- [[Strong sampling set with small-norm invertible challenges (expansion factor T)]] - paper - references/ch06/ref-21-neo.pdf
-- [[Theorem 2 Ajtai scheme is S-homomorphic and (d,m,B)-binding under MSIS]] - paper - references/ch06/ref-21-neo.pdf
-- [[Theorem 5 composition theorem (restricted + relaxed knowledge soundness compose to RoK)]] - paper - references/ch06/ref-21-neo.pdf
-- [[Theorem 7 cyclotomic ring R_q isomorphic to ring of rotation matrices S]] - paper - references/ch06/ref-21-neo.pdf
-- [[Twist and Shout (sum-check lookup  memory arguments)]] - paper - references/ch06/ref-21-neo.pdf
-- [[b-bit-word embedding of Fm into low-norm cyclotomic ring vector]] - paper - references/ch06/ref-21-neo.pdf
+- [[Aligned Layer]] - document - wiki/sections/ch08-proof-aggregation-the-missing-layer.md
+- [[Beanstalk Flash Loan Attack ($182M, 2022)]] - document - proving-nothing.md
+- [[Beanstalk Flash Loan Attack (April 2022)]] - document - wiki/sections/ch08-governance-the-achilles-heel.md
+- [[Beanstalk Flash Loan Governance Attack (April 2022)]] - document - proving-nothing.md
+- [[Celestia]] - document - wiki/sections/ch08-the-price-of-a-verdict.md
+- [[Chaliasos et al. Rollup Pricing Attacks Study (2025)]] - document - wiki/sections/ch08-pricing-attacks.md
+- [[Flash Loans]] - document - proving-nothing.md
+- [[Fraud Proof System]] - document - references/ch08/ref-27-l2beat-stages.md
+- [[Frozen Heart Vulnerability Class (Trail of Bits, 2022)]] - document - wiki/sections/ch08-when-the-transcript-lies-fiat-shamir-vulnerabilities.md
+- [[Governance Attack Surface]] - document - proving-nothing.md
+- [[Governance The Achilles Heel]] - document - wiki/sections/ch08-governance-the-achilles-heel.md
+- [[L2BEAT Stages Framework for L2 Maturity]] - document - references/ch08/ref-27-l2beat-stages.md
+- [[L2Beat Stages Framework]] - document - wiki/sections/ch08-governance-the-achilles-heel.md
+- [[Layer 7 -- The Verdict]] - document - wiki/chapters/08-the-verdict.md
+- [[Maturity Assessment (Stage 0-1)]] - document - proving-nothing.md
+- [[Meisami & Bodell Upgradeable Contract Survey (2023)]] - document - proving-nothing.md
+- [[NEBRA Universal Proof Aggregation]] - document - wiki/sections/ch08-proof-aggregation-the-missing-layer.md
+- [[On-Chain Governance]] - document - proving-nothing.md
+- [[On-Chain Verification in 2026]] - document - wiki/sections/ch08-on-chain-verification-in-2026.md
+- [[Pricing Attacks]] - document - wiki/sections/ch08-pricing-attacks.md
+- [[Proof Aggregation The Missing Layer]] - document - wiki/sections/ch08-proof-aggregation-the-missing-layer.md
+- [[SHARP (StarkWare Shared Prover)]] - document - wiki/sections/ch08-proof-aggregation-the-missing-layer.md
+- [[The Price of a Verdict]] - document - wiki/sections/ch08-the-price-of-a-verdict.md
+- [[The Social Layer]] - document - wiki/sections/ch08-the-social-layer.md
+- [[Tornado Cash Governance Attack (2023)]] - document - proving-nothing.md
+- [[Tornado Cash Governance Attack (May 2023)]] - document - wiki/sections/ch08-governance-the-achilles-heel.md
+- [[Trust Minimization (Not Trustless)]] - document - proving-nothing.md
+- [[Upgradeable Proxy Pattern]] - document - proving-nothing.md
+- [[Verifier Ossification  Immutability]] - document - proving-nothing.md
+- [[When the Transcript Lies Fiat-Shamir Vulnerabilities]] - document - wiki/sections/ch08-when-the-transcript-lies-fiat-shamir-vulnerabilities.md
+- [[Who Verifies the Verifier]] - document - wiki/sections/ch08-who-verifies-the-verifier.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -52,21 +50,31 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 11 edges to [[_COMMUNITY_Community 8]]
-- 5 edges to [[_COMMUNITY_Community 0]]
-- 3 edges to [[_COMMUNITY_Community 41]]
-- 3 edges to [[_COMMUNITY_Community 48]]
-- 3 edges to [[_COMMUNITY_Community 3]]
-- 2 edges to [[_COMMUNITY_Community 23]]
-- 2 edges to [[_COMMUNITY_Community 22]]
-- 2 edges to [[_COMMUNITY_Community 6]]
-- 1 edge to [[_COMMUNITY_Community 38]]
-- 1 edge to [[_COMMUNITY_Community 25]]
-- 1 edge to [[_COMMUNITY_Community 15]]
+- 19 edges to [[_COMMUNITY_Community 6]]
+- 14 edges to [[_COMMUNITY_Community 12]]
+- 8 edges to [[_COMMUNITY_Community 15]]
+- 7 edges to [[_COMMUNITY_Community 111]]
+- 5 edges to [[_COMMUNITY_Community 96]]
+- 4 edges to [[_COMMUNITY_Community 117]]
+- 4 edges to [[_COMMUNITY_Community 5]]
+- 3 edges to [[_COMMUNITY_Community 67]]
+- 3 edges to [[_COMMUNITY_Community 8]]
+- 3 edges to [[_COMMUNITY_Community 76]]
+- 2 edges to [[_COMMUNITY_Community 105]]
+- 2 edges to [[_COMMUNITY_Community 21]]
+- 1 edge to [[_COMMUNITY_Community 32]]
+- 1 edge to [[_COMMUNITY_Community 16]]
+- 1 edge to [[_COMMUNITY_Community 87]]
+- 1 edge to [[_COMMUNITY_Community 42]]
+- 1 edge to [[_COMMUNITY_Community 7]]
+- 1 edge to [[_COMMUNITY_Community 73]]
+- 1 edge to [[_COMMUNITY_Community 63]]
+- 1 edge to [[_COMMUNITY_Community 0]]
+- 1 edge to [[_COMMUNITY_Community 77]]
 
 ## Top bridge nodes
-- [[Neo Lattice-based Folding Scheme for CCS over Small Fields and Pay-per-bit Commitments]] - degree 32, connects to 10 communities
-- [[Neo folding scheme for CCS (lattice-based)]] - degree 9, connects to 2 communities
-- [[Neo folding-friendly matrix commitment scheme (Ajtai with new embedding)]] - degree 8, connects to 2 communities
-- [[Power-of-Two Cyclotomic Ring ZX(Xd+1)]] - degree 7, connects to 2 communities
-- [[Module-based Ajtai Commitment (com = A x)]] - degree 6, connects to 2 communities
+- [[Layer 7 -- The Verdict]] - degree 44, connects to 14 communities
+- [[On-Chain Verification in 2026]] - degree 17, connects to 6 communities
+- [[L2BEAT Stages Framework for L2 Maturity]] - degree 9, connects to 6 communities
+- [[Governance The Achilles Heel]] - degree 13, connects to 5 communities
+- [[The Price of a Verdict]] - degree 12, connects to 5 communities

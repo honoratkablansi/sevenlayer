@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch03/ref-14-ccs-customizable-constraints.pdf"
 type: "paper"
-community: "Community 23"
+community: "Community 11"
 location: "refs [CBBZ23], Remark 1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_23
+  - community/Community_11
 ---
 
 # HyperPlonk [CBBZ23] - multilinear Plonk with linear prover, contrasted cost route
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Customizable Constraint Systems for Succinct Arguments]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_23
+#graphify/paper #graphify/EXTRACTED #community/Community_11

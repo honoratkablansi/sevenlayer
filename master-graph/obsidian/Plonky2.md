@@ -1,12 +1,12 @@
 ---
 source_file: "recursion/recursion-outline.md"
 type: "document"
-community: "Community 113"
+community: "Community 14"
 location: "Recursion Chapter 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_113
+  - community/Community_14
 ---
 
 # Plonky2
@@ -18,7 +18,7 @@ tags:
 - [[Plonky2 Fast Recursive Arguments with PLONK and FRI (2022)]] - `introduces` [EXTRACTED]
 - [[Polygon Zero]] - `introduces` [EXTRACTED]
 - [[Poseidon Hash]] - `assumes` [EXTRACTED]
-- [[Recursive Proof Composition_1]] - `cites` [EXTRACTED]
+- [[Recursive Proof Composition]] - `cites` [EXTRACTED]
 - [[zkTree zero-knowledge recursion tree with ZKP membership proofs]] - `assumes` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_113
+#graphify/document #graphify/EXTRACTED #community/Community_14

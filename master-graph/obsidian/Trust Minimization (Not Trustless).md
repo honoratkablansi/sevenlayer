@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 79"
+community: "Community 17"
 location: "Chapter 8"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_79
+  - community/Community_17
 ---
 
 # Trust Minimization (Not Trustless)
@@ -14,6 +14,6 @@ tags:
 ## Connections
 - [[Governance Attack Surface]] - `references` [EXTRACTED]
 - [[Layer 7 -- The Verdict]] - `explains` [EXTRACTED]
-- [[Trusted Setup Ceremony_1]] - `references` [EXTRACTED]
+- [[Trusted Setup Ceremony]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_79
+#graphify/document #graphify/EXTRACTED #community/Community_17

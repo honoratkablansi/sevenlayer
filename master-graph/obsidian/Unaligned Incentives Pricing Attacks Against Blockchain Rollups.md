@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch08/ref-28-rollup-pricing-attacks.pdf"
 type: "paper"
-community: "Community 86"
+community: "Community 73"
 location: "p.1 (title/abstract)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_86
+  - community/Community_73
 ---
 
 # Unaligned Incentives: Pricing Attacks Against Blockchain Rollups
@@ -14,7 +14,7 @@ tags:
 ## Connections
 - [[Data Availability]] - `conceptually_related_to` [EXTRACTED]
 - [[Ethereum]] - `conceptually_related_to` [EXTRACTED]
-- [[Layer 7 -- The Verdict_1]] - `cites` [EXTRACTED]
+- [[Layer 7 -- The Verdict]] - `cites` [EXTRACTED]
 - [[Optimistic Rollups]] - `conceptually_related_to` [EXTRACTED]
 - [[Perez & Livshits 'Broken Metre' (EVM resource-metering mispricing detection)]] - `cites` [EXTRACTED]
 - [[Responsible disclosure all rollups vulnerable, 4 bug bounties, mitigations adopted]] - `conceptually_related_to` [EXTRACTED]
@@ -25,4 +25,4 @@ tags:
 - [[Unaligned-incentives thesis cross-dimension mispricing yields novel attacks]] - `introduces` [EXTRACTED]
 - [[ZK Rollup]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_86
+#graphify/paper #graphify/EXTRACTED #community/Community_73

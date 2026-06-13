@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 6"
+community: "Community 8"
 location: "Chapter 5"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_6
+  - community/Community_8
 ---
 
 # Jolt (zkVM via Lookups)
@@ -21,8 +21,7 @@ tags:
 - [[Hyrax polynomial commitment]] - `references` [EXTRACTED]
 - [[Lasso]] - `implements` [EXTRACTED]
 - [[Layer 4 -- Arithmetization]] - `references` [EXTRACTED]
-- [[Lookup Argument]] - `implements` [EXTRACTED]
-- [[Lookup Arguments_1]] - `references` [EXTRACTED]
+- [[Lookup Argument]] - `references` [EXTRACTED]
 - [[Lookup Singularity]] - `introduces` [EXTRACTED]
 - [[Memory The Binding Constraint]] - `references` [EXTRACTED]
 - [[Offline Memory Checking]] - `references` [EXTRACTED]
@@ -52,4 +51,4 @@ tags:
 - [[zkVM]] - `implements` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_6
+#graphify/document #graphify/EXTRACTED #community/Community_8

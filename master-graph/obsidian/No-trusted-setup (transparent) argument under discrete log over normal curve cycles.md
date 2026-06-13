@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-05-halo.pdf"
 type: "paper"
-community: "Community 30"
+community: "Community 46"
 location: "Abstract, §1.1, §6"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_30
+  - community/Community_46
 ---
 
 # No-trusted-setup (transparent) argument under discrete log over normal curve cycles
@@ -21,4 +21,4 @@ tags:
 - [[STARK-to-SNARK Recursion]] - `conceptually_related_to` [INFERRED]
 - [[Spartan]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_30
+#graphify/paper #graphify/EXTRACTED #community/Community_46

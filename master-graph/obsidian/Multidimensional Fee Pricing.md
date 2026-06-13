@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 130"
+community: "Community 111"
 location: "Chapter 8"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_130
+  - community/Community_111
 ---
 
 # Multidimensional Fee Pricing
@@ -15,4 +15,4 @@ tags:
 - [[DA-Saturation Attack]] - `references` [EXTRACTED]
 - [[Prover-Killer Attack]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_130
+#graphify/document #graphify/EXTRACTED #community/Community_111

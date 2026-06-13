@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-10-sok-powers-of-tau.pdf"
 type: "paper"
-community: "Community 18"
+community: "Community 27"
 location: "§5.2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_18
+  - community/Community_27
 ---
 
 # Six ceremony best-practice lessons (multi impl + audit, diverse participation, air-gapped machines, geographic isolation, diverse randomness, public verifiable log)
@@ -16,4 +16,4 @@ tags:
 - [[Ethereum KZG ceremony (141416 contributors, 10 implementations, model transparency example)]] - `conceptually_related_to` [EXTRACTED]
 - [[SoK Trusted Setups for Powers-of-Tau Strings]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_18
+#graphify/paper #graphify/EXTRACTED #community/Community_27

@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf"
 type: "paper"
-community: "Community 58"
+community: "Community 57"
 location: "§1 Introduction"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_58
+  - community/Community_57
 ---
 
 # Verifiable / trustless DNN inference: model consumer verifies that the model provider served correct predictions in an untrusted (MLaaS) setting
@@ -21,4 +21,4 @@ tags:
 - [[zkCNN commit-and-prove scheme (KeyGen, Commit, Prove, Verify) for CNN prediction]] - `conceptually_related_to` [EXTRACTED]
 - [[zkCNN Zero Knowledge Proofs for CNN Predictions and Accuracy (CCS 2021)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_58
+#graphify/paper #graphify/EXTRACTED #community/Community_57

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch07/ref-24-shor.pdf"
 type: "paper"
-community: "Community 105"
+community: "Community 102"
 location: "§5"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_105
+  - community/Community_102
 ---
 
 # Quantum order-finding (period-finding) subroutine
@@ -18,4 +18,4 @@ tags:
 - [[Reduction of factoring to order-finding (Miller 1976)]] - `conceptually_related_to` [EXTRACTED]
 - [[Reversible modular exponentiation subroutine]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_105
+#graphify/paper #graphify/EXTRACTED #community/Community_102

@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-87-deco.pdf"
 type: "paper"
-community: "Community 19"
+community: "Community 29"
 location: "§2.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_19
+  - community/Community_29
 ---
 
 # Transport Layer Security (TLS) handshake + record protocol
@@ -16,4 +16,4 @@ tags:
 - [[DECO decentralized oracle for TLS (Zhang, Maram, Malvai, Goldfeder, Juels, CCS 2020)]] - `assumes` [EXTRACTED]
 - [[Three-party handshake (3P-HS) prover+verifier jointly act as TLS client, secret-share session keys with server, transparent to server]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_19
+#graphify/paper #graphify/EXTRACTED #community/Community_29

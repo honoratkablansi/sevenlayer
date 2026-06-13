@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 3"
+community: "Community 46"
 location: "Chapter 5"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_3
+  - community/Community_46
 ---
 
 # Spartan
@@ -22,7 +22,7 @@ tags:
 - [[Hyrax (Wahby et al.) transparent zkSNARK + Hyrax-PC multilinear polynomial commitment (cited  instantiated)]] - `cites` [EXTRACTED]
 - [[Layer 5 -- The Sealed Certificate]] - `references` [EXTRACTED]
 - [[Libra (Xie et al.) linear-time-prover zkSNARK for uniform circuits (cited; SpartanKE alternative)]] - `cites` [EXTRACTED]
-- [[Lookup Arguments_1]] - `references` [EXTRACTED]
+- [[Lookup Argument]] - `references` [EXTRACTED]
 - [[Multi-folding scheme for CCS (Construction 1)]] - `conceptually_related_to` [EXTRACTED]
 - [[Nightstream What a Folding Engine Looks Like from the Inside]] - `references` [EXTRACTED]
 - [[No-FFT prover (sum-check avoids FFT-based polynomial machinery of QAPIOP SNARKs)]] - `conceptually_related_to` [INFERRED]
@@ -37,7 +37,7 @@ tags:
 - [[Spartan Rust library (~8,000 LoC), DLOG-based transparent zkSNARK; github.comMicrosoftSpartan]] - `conceptually_related_to` [EXTRACTED]
 - [[Spartan over Jolt's uniform block-diagonal R1CS, streamed via Az,Bz,Cz]] - `conceptually_related_to` [EXTRACTED]
 - [[Spartan variants SpartanDL, SpartanRO, SpartanCL (transparent), SpartanKE (universal setup)]] - `defines` [EXTRACTED]
-- [[Sum-Check Protocol_1]] - `conceptually_related_to` [INFERRED]
+- [[Sum-Check Protocol]] - `conceptually_related_to` [INFERRED]
 - [[Sumcheck Protocol]] - `references` [EXTRACTED]
 - [[The Constraint System Evolution R1CS, AIR, PLONKish]] - `references` [EXTRACTED]
 - [[The Landscape Table (March 2026)]] - `conceptually_related_to` [EXTRACTED]
@@ -49,4 +49,4 @@ tags:
 - [[Unlocking the Lookup Singularity with Lasso]] - `conceptually_related_to` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_3
+#graphify/document #graphify/EXTRACTED #community/Community_46

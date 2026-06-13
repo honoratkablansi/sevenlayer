@@ -1,38 +1,37 @@
 ---
 type: community
-cohesion: 0.14
-members: 23
+cohesion: 0.12
+members: 22
 ---
 
 # Community 46
 
-**Cohesion:** 0.14 - loosely connected
-**Members:** 23 nodes
+**Cohesion:** 0.12 - loosely connected
+**Members:** 22 nodes
 
 ## Members
-- [[Barak et al. 3 impossibility of code obfuscation; obfuscating a PRF ensemble fails to securely instantiate the random oracle]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Bellare & Rogaway 5 original formulation of the random oracle methodology]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[CGH separation technique feed the implementation's own codeseed back into the scheme via evasive relations; diagonalization over the enumeration of all poly-time ensembles to reverse quantifier order]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Correlation intractability the property whose circular dependency the attack circumvents by feeding the circuit its own digest as witness]] - paper - references/recursion/ch1/ref-11-khovratovich-fiat-shamir-attacks.pdf
-- [[Definition 3.2 correlation-intractable ensemble (and weak variant over poly-time recognizable relations)]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Dwork et al. 13 'magic functions' that make Fiat-Shamir work, related to correlation intractability and 3-round zero-knowledge]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Evasive binary relation (Def 3.1) infeasible to find x with (x,O(x)) in R under a random oracle]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Fiat & Shamir 14 identification-to-signature transformation (sound in ROM)]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Function ensemble implementation of a random oracle (Def 2.1) seed s selected once, public; f_s replaces oracle calls]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Goldreich, Goldwasser, Micali 19 pseudorandom function ensembles (shown not necessarily correlation-intractable)]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Informal Theorem 1.2 signature and encryption schemes secure in ROM but with no secure implementation by any function ensemble (with explicit generic adversary)]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Kilian 26 succinct interactive arguments, basis for Micali's CS-proof construction]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Micali 27 non-interactive CS-proofs in the Random Oracle Model (Theorem 2.7)]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Proposition 5.2 non-existence of restricted (length-bounded) correlation-intractable ensembles when seed length = input+output length]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Provable security  reductionist methodology]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Random Oracle Methodology (Bellare-Rogaway design heuristic)]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Random Oracle instantiation failure schemes secure in ROM but insecure under any concrete implementation]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[The Random Oracle Methodology, Revisited (Canetti, Goldreich, Halevi, JACM 2004  STOC 1998)]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Theorem 3.4 no correlation-intractable function ensembles exist (not even in the weak sense), via diagonal relation R_F = {(s, f_s(s))}]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Theorem 4.4 a poly-time signature scheme, existentially unforgeable in ROM, but existentially forgeable (key-only) and totally breakable (chosen-message) under any function-ensemble implementation]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Theorem 4.6 public-key encryption schemes secure (semantic  CCA) in ROM but insecure under any function-ensemble implementation; CCA attack reveals the decryption key]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Universal ensemble U and universal relation R_U = {(x, u_x(x))}, enumerating all efficiently computable ensembles]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Use of non-interactive CS-proofs (Micali) to collapse super-polynomial diagonalization checks into a polynomial-time signingverification, yielding a standard (poly-time) scheme]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
+- [[Computation commitments succinct commitment to R1CS structure via public preprocessing (Encode), no trapdoor]] - paper - references/recursion/ch2/ref-41-spartan.pdf
+- [[Encoding of R1CS as a degree-3 log m-variate polynomial G_{io,τ} summing to 0 (Theorem 4.1)]] - paper - references/recursion/ch2/ref-41-spartan.pdf
+- [[Extractable polynomial commitment scheme for multilinear polynomials (Setup, Commit, Open, Eval)]] - paper - references/recursion/ch2/ref-41-spartan.pdf
+- [[Fiat-Shamir transform in the random oracle model to obtain NIZKzkSNARK from public-coin argument]] - paper - references/recursion/ch2/ref-41-spartan.pdf
+- [[GGPR quadratic arithmetic programs (QAPs)  Pinocchio trusted-setup SNARKs (cited prior work)]] - paper - references/recursion/ch2/ref-41-spartan.pdf
+- [[Goldwasser-Kalai-Rothblum (GKR) doubly-efficient interactive proofs (cited prior work)]] - paper - references/recursion/ch2/ref-41-spartan.pdf
+- [[Hyrax (Wahby et al.) transparent zkSNARK + Hyrax-PC multilinear polynomial commitment (cited  instantiated)]] - paper - references/recursion/ch2/ref-41-spartan.pdf
+- [[Libra (Xie et al.) linear-time-prover zkSNARK for uniform circuits (cited; SpartanKE alternative)]] - paper - references/recursion/ch2/ref-41-spartan.pdf
+- [[No-FFT prover (sum-check avoids FFT-based polynomial machinery of QAPIOP SNARKs)]] - paper - references/recursion/ch2/ref-41-spartan.pdf
+- [[No-trusted-setup (transparent) argument under discrete log over normal curve cycles]] - paper - references/recursion/ch1/ref-05-halo.pdf
+- [[Offline memory checking via public-coin randomized check (memory in the head) for O(n)-sized eval circuit]] - paper - references/recursion/ch2/ref-41-spartan.pdf
+- [[SPARK compiler transforms a dense multilinear PC into one for sparse multilinear polynomials]] - paper - references/recursion/ch2/ref-41-spartan.pdf
+- [[Setty, Spartan (CRYPTO 2020)]] - document - recursion/recursion-outline.md
+- [[Setty, Spartan Efficient and General-Purpose zkSNARKs without Trusted Setup (CRYPTO 2020  ePrint 2019550)]] - paper - references/recursion/ch2/ref-41-spartan.pdf
+- [[Spartan]] - document - proving-nothing.md
+- [[Spartan Rust library (~8,000 LoC), DLOG-based transparent zkSNARK; github.comMicrosoftSpartan]] - paper - references/recursion/ch2/ref-41-spartan.pdf
+- [[Spartan variants SpartanDL, SpartanRO, SpartanCL (transparent), SpartanKE (universal setup)]] - paper - references/recursion/ch2/ref-41-spartan.pdf
+- [[Theorem 1.1  Corollary 1.1 family of zkSNARKs, prover O(n)–O(n log n), verifierproof O(log² n)–O(√n)]] - paper - references/recursion/ch2/ref-41-spartan.pdf
+- [[Theorem 4.1 ∃ degree-3 log m-variate G with ∑ G(x)=0 iff R1CS satisfiable]] - paper - references/recursion/ch2/ref-41-spartan.pdf
+- [[Theorem 5.1 succinct interactive AoK from any extractable multilinear polynomial commitment]] - paper - references/recursion/ch2/ref-41-spartan.pdf
+- [[Time-optimal (linear-time O(n)) prover from multilinear decomposition + SPARK]] - paper - references/recursion/ch2/ref-41-spartan.pdf
+- [[Two-round sum-check public-coin succinct interactive argument of knowledge for R1CS (Theorem 5.1)]] - paper - references/recursion/ch2/ref-41-spartan.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -42,13 +41,26 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 3 edges to [[_COMMUNITY_Community 5]]
-- 2 edges to [[_COMMUNITY_Community 84]]
-- 1 edge to [[_COMMUNITY_Community 12]]
+- 8 edges to [[_COMMUNITY_Community 11]]
+- 5 edges to [[_COMMUNITY_Community 18]]
+- 4 edges to [[_COMMUNITY_Community 8]]
+- 3 edges to [[_COMMUNITY_Community 16]]
+- 3 edges to [[_COMMUNITY_Community 86]]
+- 2 edges to [[_COMMUNITY_Community 15]]
+- 2 edges to [[_COMMUNITY_Community 54]]
+- 1 edge to [[_COMMUNITY_Community 108]]
+- 1 edge to [[_COMMUNITY_Community 90]]
+- 1 edge to [[_COMMUNITY_Community 84]]
+- 1 edge to [[_COMMUNITY_Community 0]]
+- 1 edge to [[_COMMUNITY_Community 13]]
+- 1 edge to [[_COMMUNITY_Community 110]]
+- 1 edge to [[_COMMUNITY_Community 14]]
+- 1 edge to [[_COMMUNITY_Community 101]]
+- 1 edge to [[_COMMUNITY_Community 109]]
 
 ## Top bridge nodes
-- [[Correlation intractability the property whose circular dependency the attack circumvents by feeding the circuit its own digest as witness]] - degree 7, connects to 2 communities
-- [[Random Oracle Methodology (Bellare-Rogaway design heuristic)]] - degree 4, connects to 1 community
-- [[Fiat & Shamir 14 identification-to-signature transformation (sound in ROM)]] - degree 3, connects to 1 community
-- [[Dwork et al. 13 'magic functions' that make Fiat-Shamir work, related to correlation intractability and 3-round zero-knowledge]] - degree 2, connects to 1 community
-- [[Function ensemble implementation of a random oracle (Def 2.1) seed s selected once, public; f_s replaces oracle calls]] - degree 2, connects to 1 community
+- [[Spartan]] - degree 36, connects to 9 communities
+- [[No-trusted-setup (transparent) argument under discrete log over normal curve cycles]] - degree 8, connects to 5 communities
+- [[Encoding of R1CS as a degree-3 log m-variate polynomial G_{io,τ} summing to 0 (Theorem 4.1)]] - degree 4, connects to 3 communities
+- [[Two-round sum-check public-coin succinct interactive argument of knowledge for R1CS (Theorem 5.1)]] - degree 6, connects to 1 community
+- [[Setty, Spartan Efficient and General-Purpose zkSNARKs without Trusted Setup (CRYPTO 2020  ePrint 2019550)]] - degree 5, connects to 1 community

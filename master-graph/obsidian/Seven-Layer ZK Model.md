@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 26"
+community: "Community 128"
 location: "Chapter 12"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_26
+  - community/Community_128
 ---
 
 # Seven-Layer ZK Model
@@ -16,4 +16,4 @@ tags:
 - [[Midnight (Privacy Blockchain)]] - `references` [EXTRACTED]
 - [[The Promise of Provable and Programmable Secrets]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_26
+#graphify/document #graphify/EXTRACTED #community/Community_128

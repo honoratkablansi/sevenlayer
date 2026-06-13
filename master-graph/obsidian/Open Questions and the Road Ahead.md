@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/14-open-questions-and-the-road-ahead.md"
 type: "document"
-community: "Community 5"
+community: "Community 7"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_5
+  - community/Community_7
 ---
 
 # Open Questions and the Road Ahead
@@ -38,7 +38,7 @@ tags:
 - [[Nova]] - `references` [EXTRACTED]
 - [[PLONK]] - `references` [EXTRACTED]
 - [[Polynomial Commitment Scheme]] - `references` [EXTRACTED]
-- [[Poseidon Hash_1]] - `references` [EXTRACTED]
+- [[Poseidon Hash]] - `references` [EXTRACTED]
 - [[Post-Quantum Cryptography]] - `references` [EXTRACTED]
 - [[Practical Security Analysis of Zero-Knowledge Proof Circuits]] - `cites` [EXTRACTED]
 - [[Proving CPU Executions in Small Space]] - `cites` [EXTRACTED]
@@ -53,7 +53,7 @@ tags:
 - [[Streaming Witness Generation (Nair, Thaler, Zhu)]] - `references` [EXTRACTED]
 - [[The Seven Questions That Remain Open]] - `part_of` [EXTRACTED]
 - [[The Three Frontiers]] - `part_of` [EXTRACTED]
-- [[The Witness Gap_1]] - `references` [EXTRACTED]
+- [[The Witness Gap]] - `references` [EXTRACTED]
 - [[Tornado Cash]] - `references` [EXTRACTED]
 - [[Trust Decomposition]] - `references` [EXTRACTED]
 - [[Trusted Setup Ceremony]] - `references` [EXTRACTED]
@@ -61,4 +61,4 @@ tags:
 - [[Zcash]] - `references` [EXTRACTED]
 - [[zkVM]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_5
+#graphify/document #graphify/EXTRACTED #community/Community_7

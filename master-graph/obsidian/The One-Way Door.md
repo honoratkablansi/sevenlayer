@@ -1,12 +1,12 @@
 ---
 source_file: "wiki/sections/ch07-the-one-way-door.md"
 type: "document"
-community: "Community 8"
+community: "Community 0"
 location: "The One-Way Door"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_8
+  - community/Community_0
 ---
 
 # The One-Way Door
@@ -19,14 +19,14 @@ tags:
 - [[Circle STARKs]] - `references` [EXTRACTED]
 - [[FRI Commitment Scheme]] - `references` [EXTRACTED]
 - [[Folding Scheme]] - `references` [EXTRACTED]
-- [[Goldilocks Field_1]] - `references` [EXTRACTED]
+- [[Goldilocks Field]] - `references` [EXTRACTED]
 - [[KZG Polynomial Commitments from pairings (with trusted setup); Dory transparent pairing-based scheme]] - `references` [EXTRACTED]
 - [[Lattice Cryptography]] - `references` [EXTRACTED]
 - [[Layer 6 -- The Deep Craft]] - `part_of` [EXTRACTED]
 - [[Maturity and Readiness]] - `references` [EXTRACTED]
-- [[Mersenne-31 Field]] - `references` [EXTRACTED]
+- [[Mersenne-31  M31]] - `references` [EXTRACTED]
 - [[Post-Quantum Cryptography]] - `references` [EXTRACTED]
 - [[The Cascade Effect]] - `references` [EXTRACTED]
 - [[The Quantum Threat Horizon]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_8
+#graphify/document #graphify/EXTRACTED #community/Community_0

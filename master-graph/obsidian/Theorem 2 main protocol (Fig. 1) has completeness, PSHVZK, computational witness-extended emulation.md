@@ -1,18 +1,18 @@
 ---
 source_file: "references/recursion/ch1/ref-05-halo.pdf"
 type: "paper"
-community: "Community 108"
+community: "Community 109"
 location: "§5.2 (Theorem 2), Appendix B"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_108
+  - community/Community_109
 ---
 
 # Theorem 2: main protocol (Fig. 1) has completeness, PSHVZK, computational witness-extended emulation
 
 ## Connections
-- [[Discrete Log Relation Assumption_1]] - `assumes` [EXTRACTED]
+- [[Discrete Log Relation Assumption]] - `assumes` [EXTRACTED]
 - [[Main argument Sonic-variant PSHVZK argument of knowledge for arithmetic circuit satisfiability]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_108
+#graphify/paper #graphify/EXTRACTED #community/Community_109

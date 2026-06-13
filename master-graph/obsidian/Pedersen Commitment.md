@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 75"
+community: "Community 0"
 location: "Chapter 7"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_75
+  - community/Community_0
 ---
 
 # Pedersen Commitment
@@ -42,4 +42,4 @@ tags:
 - [[Theorem 4  A.2 split accumulation for a Pedersen-based polynomial commitment predicate (ROM, DL)]] - `assumes` [EXTRACTED]
 - [[Three Hardness Assumptions, Three Worlds]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_75
+#graphify/document #graphify/EXTRACTED #community/Community_0

@@ -1,43 +1,43 @@
 ---
 type: community
-cohesion: 0.14
+cohesion: 0.12
 members: 28
 ---
 
 # Community 23
 
-**Cohesion:** 0.14 - loosely connected
+**Cohesion:** 0.12 - loosely connected
 **Members:** 28 nodes
 
 ## Members
-- [[AIR (Algebraic Intermediate Representation)]] - document - proving-nothing.md
-- [[Arithmetization]] - document - proving-nothing.md
-- [[Avoiding preprocessing for uniform CCS (AIR) verifier evaluates wiring MLEs M_j in log time]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
-- [[CCS (Customizable Constraint Systems)]] - document - proving-nothing.md
-- [[CCS formal definition matrices M_j, multisets S_i, constants c_i, sum c_i · Hadamard_{j in S_i} (M_j z) = 0]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
-- [[CCS+ CCS extended with read-only lookup-table operations]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
-- [[CCS The Rosetta Stone]] - document - wiki/sections/ch05-ccs-the-rosetta-stone.md
-- [[Claim R1CS, AIR, PLONKish Are Dialects of CCS]] - document - proving-nothing.md
-- [[Constraint System]] - document - proving-nothing.md
-- [[Customizable Constraint Systems for Succinct Arguments]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
-- [[Encoding the Performance (Layer 4 Arithmetization)]] - document - proving-nothing.md
-- [[Free addition gates for uniform CCS prover crypto work independent of additions]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
-- [[Glossary of Key Terms]] - document - wiki/GLOSSARY.md
-- [[HyperPlonk CBBZ23 - multilinear Plonk with linear prover, contrasted cost route]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
-- [[Layer 4 -- Arithmetization]] - document - wiki/sections/ch05-layer-4-arithmetization.md
-- [[Lemma 2 Plonkish-to-CCS reduction; multisets encode monomials of g]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
-- [[Lemma 3 AIR-to-CCS reduction; constraint g applied to adjacent trace rows]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
-- [[Midnight ZKIR (24-Opcode Instruction DAG)]] - document - proving-nothing.md
-- [[PLONK GWC19 - proof system Plonkish was believed tied to]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
-- [[PLONKish Arithmetization]] - document - proving-nothing.md
-- [[Proof Core Layers 4-5-6 Inseparable]] - document - proving-nothing.md
-- [[SIMD CCS  data-parallel CCS with log-time IO consistency via next() MLE]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
-- [[Schwartz-Zippel Lemma_1]] - document - proving-nothing.md
-- [[Setty, Thaler, Wahby - CCS Paper (2023)]] - document - proving-nothing.md
-- [[The Constraint System Evolution R1CS, AIR, PLONKish]] - document - wiki/sections/ch05-the-constraint-system-evolution-r1cs-air-plonkish.md
-- [[The Proof Core Triad (Layers 4-5-6)]] - document - proving-nothing.md
-- [[The Spreadsheet Metaphor (And Where It Works)]] - document - wiki/sections/ch05-the-spreadsheet-metaphor-and-where-it-works.md
-- [[Theorem 2 MLE of 'add-1-in-binary' next() function evaluable in logarithmic time]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
+- [[Atomic Accumulation]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
+- [[Bivariate polynomial identity batching n Hadamard products to 1 via two-round public-coin reduction]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
+- [[Constant-size accumulation verifier (O(1) groupfield ops, improving log-size verifier of BCMS20)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
+- [[Corollary any NARK with split accumulation bootstraps into a SNARK for machine computations (via PCD + BCCT13)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
+- [[Discrete Logarithm Assumption]] - document - references/ch02/ref-09-bulletproofs.pdf
+- [[First construction of PCD without succinct arguments (linear-size NARKs suffice)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
+- [[Lemma 6.1 expected-time forking lemma in the ROM (polynomially many transcripts, expected-time adversaries)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
+- [[NARK for R1CS from Fiat-Shamir over a Pedersen-commitment sigma protocol (linear argument size)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
+- [[Non-interactive argument of knowledge (NARK)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
+- [[Proof-Carrying Data without Succinct Arguments (Bunz, Chiesa, Lin, Mishra, Spooner, CRYPTO 2021  ePrint 20201618)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
+- [[Recursion circuit via split accumulation (IVCPCD prover recurses only on instance parts of proofaccumulator)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
+- [[Rust implementation + evaluation recursion threshold ~52,000 constraints, =8.5x cheaper than atomic-accumulation IVC on Pasta cycle]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
+- [[Split Accumulation]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
+- [[Theorem 1  5.3 compile any NARK with a split accumulation scheme into a PCD scheme (no oracles, CRS model)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
+- [[Theorem 2 transparent zkNARK for R1CS with constant-size split accumulation verifier in ROM under DL]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
+- [[Theorem 3  7.2 zero-knowledge split accumulation for the Hadamard-product predicate under Pedersen commitments (5 G opsclaim)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
+- [[Theorem 4  A.2 split accumulation for a Pedersen-based polynomial commitment predicate (ROM, DL)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
+- [[Zero-finding game lemma (expected-time variant of BCMS20 Lemma A.3) for polynomial-identity testing via RO commitments]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
+- [[BBBPWM18 Bunz, Bootle, Boneh, Poelstra, Wuille, Maxwell, Bulletproofs Short Proofs for Confidential Transactions and More (S&P 2018)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
+- [[BCCGP16 Bootle, Cerulli, Chaidos, Groth, Petit, Efficient Zero-Knowledge Arguments in the Discrete Log Setting (EUROCRYPT 2016)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
+- [[BCCT13 Bitansky, Canetti, Chiesa, Tromer, Recursive Composition and Bootstrapping for SNARKs and PCD (STOC 2013)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
+- [[BCMS20 Bunz, Chiesa, Mishra, Spooner, Proof-Carrying Data from Accumulation Schemes (TCC 2020)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
+- [[BCTV14 Ben-Sasson, Chiesa, Tromer, Virza, Scalable Zero Knowledge via Cycles of Elliptic Curves (CRYPTO 2014)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
+- [[BDFG20 Boneh, Drake, Fisch, Gabizon, Halo Infinite Recursive zk-SNARKs from any Additive Polynomial Commitment Scheme (ePrint 20201536, concurrent work)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
+- [[BGH19 Bowe, Grigg, Hopwood, Halo Recursive Proof Composition without a Trusted Setup (ePrint 20191021)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
+- [[BN06 Bellare, Neven, Multi-signatures in the plain public-key model and a general forking lemma (CCS 2006)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
+- [[COS20 Chiesa, Ojha, Spooner, Fractal Post-Quantum and Transparent Recursive Proofs from Holography (EUROCRYPT 2020)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
+- [[Val08 Valiant, Incrementally Verifiable Computation or Proofs of Knowledge Imply TimeSpace Efficiency (TCC 2008)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -47,37 +47,28 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 38 edges to [[_COMMUNITY_Community 6]]
-- 21 edges to [[_COMMUNITY_Community 3]]
-- 16 edges to [[_COMMUNITY_Community 0]]
-- 10 edges to [[_COMMUNITY_Community 5]]
-- 10 edges to [[_COMMUNITY_Community 25]]
-- 9 edges to [[_COMMUNITY_Community 38]]
-- 8 edges to [[_COMMUNITY_Community 15]]
-- 7 edges to [[_COMMUNITY_Community 24]]
-- 6 edges to [[_COMMUNITY_Community 8]]
-- 4 edges to [[_COMMUNITY_Community 90]]
-- 4 edges to [[_COMMUNITY_Community 14]]
-- 3 edges to [[_COMMUNITY_Community 4]]
-- 3 edges to [[_COMMUNITY_Community 106]]
-- 3 edges to [[_COMMUNITY_Community 41]]
-- 2 edges to [[_COMMUNITY_Community 22]]
-- 2 edges to [[_COMMUNITY_Community 9]]
-- 2 edges to [[_COMMUNITY_Community 111]]
-- 2 edges to [[_COMMUNITY_Community 17]]
-- 1 edge to [[_COMMUNITY_Community 66]]
-- 1 edge to [[_COMMUNITY_Community 61]]
-- 1 edge to [[_COMMUNITY_Community 2]]
-- 1 edge to [[_COMMUNITY_Community 119]]
-- 1 edge to [[_COMMUNITY_Community 39]]
-- 1 edge to [[_COMMUNITY_Community 48]]
-- 1 edge to [[_COMMUNITY_Community 97]]
-- 1 edge to [[_COMMUNITY_Community 20]]
-- 1 edge to [[_COMMUNITY_Community 99]]
+- 5 edges to [[_COMMUNITY_Community 0]]
+- 4 edges to [[_COMMUNITY_Community 82]]
+- 3 edges to [[_COMMUNITY_Community 20]]
+- 3 edges to [[_COMMUNITY_Community 60]]
+- 2 edges to [[_COMMUNITY_Community 11]]
+- 2 edges to [[_COMMUNITY_Community 61]]
+- 2 edges to [[_COMMUNITY_Community 92]]
+- 2 edges to [[_COMMUNITY_Community 13]]
+- 2 edges to [[_COMMUNITY_Community 33]]
+- 2 edges to [[_COMMUNITY_Community 14]]
+- 1 edge to [[_COMMUNITY_Community 45]]
+- 1 edge to [[_COMMUNITY_Community 96]]
+- 1 edge to [[_COMMUNITY_Community 40]]
+- 1 edge to [[_COMMUNITY_Community 116]]
+- 1 edge to [[_COMMUNITY_Community 109]]
+- 1 edge to [[_COMMUNITY_Community 51]]
+- 1 edge to [[_COMMUNITY_Community 100]]
+- 1 edge to [[_COMMUNITY_Community 25]]
 
 ## Top bridge nodes
-- [[CCS (Customizable Constraint Systems)]] - degree 46, connects to 11 communities
-- [[The Constraint System Evolution R1CS, AIR, PLONKish]] - degree 26, connects to 10 communities
-- [[Arithmetization]] - degree 19, connects to 9 communities
-- [[CCS The Rosetta Stone]] - degree 24, connects to 8 communities
-- [[Layer 4 -- Arithmetization]] - degree 16, connects to 7 communities
+- [[Discrete Logarithm Assumption]] - degree 13, connects to 7 communities
+- [[NARK for R1CS from Fiat-Shamir over a Pedersen-commitment sigma protocol (linear argument size)]] - degree 6, connects to 4 communities
+- [[Theorem 2 transparent zkNARK for R1CS with constant-size split accumulation verifier in ROM under DL]] - degree 8, connects to 2 communities
+- [[Lemma 6.1 expected-time forking lemma in the ROM (polynomially many transcripts, expected-time adversaries)]] - degree 6, connects to 2 communities
+- [[Rust implementation + evaluation recursion threshold ~52,000 constraints, =8.5x cheaper than atomic-accumulation IVC on Pasta cycle]] - degree 4, connects to 2 communities

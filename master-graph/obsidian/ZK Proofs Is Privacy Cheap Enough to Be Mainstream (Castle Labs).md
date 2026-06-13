@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch13/ref-43-castlelabs-zk-privacy.md"
 type: "document"
-community: "Community 21"
+community: "Community 69"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_21
+  - community/Community_69
 ---
 
 # ZK Proofs: Is Privacy Cheap Enough to Be Mainstream? (Castle Labs)
@@ -22,4 +22,4 @@ tags:
 - [[zkEVM  EVM-Compatible Proving]] - `references` [EXTRACTED]
 - [[zkVM]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_21
+#graphify/document #graphify/EXTRACTED #community/Community_69

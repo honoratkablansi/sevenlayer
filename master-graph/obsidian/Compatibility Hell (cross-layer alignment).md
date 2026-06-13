@@ -14,6 +14,6 @@ tags:
 ## Connections
 - [[Cycles of Elliptic Curves]] - `references` [EXTRACTED]
 - [[Field-Mismatch Problem (base vs scalar field)]] - `explains` [EXTRACTED]
-- [[Poseidon Hash_1]] - `references` [EXTRACTED]
+- [[Poseidon Hash]] - `references` [EXTRACTED]
 
 #graphify/document #graphify/EXTRACTED #community/Community_13

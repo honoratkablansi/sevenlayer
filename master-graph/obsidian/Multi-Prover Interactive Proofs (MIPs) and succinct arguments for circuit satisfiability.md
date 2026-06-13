@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-20-thaler-proofs-arguments-zk.pdf"
 type: "paper"
-community: "Community 3"
+community: "Community 82"
 location: "ch 8 (MIPs and Succinct Arguments)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_3
+  - community/Community_82
 ---
 
 # Multi-Prover Interactive Proofs (MIPs) and succinct arguments for circuit satisfiability
@@ -16,4 +16,4 @@ tags:
 - [[Proofs, Arguments, and Zero-Knowledge (Justin Thaler, survey textbook)]] - `explains` [EXTRACTED]
 - [[R1CS (Rank-1 Constraint Systems)]] - `references` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_3
+#graphify/paper #graphify/EXTRACTED #community/Community_82

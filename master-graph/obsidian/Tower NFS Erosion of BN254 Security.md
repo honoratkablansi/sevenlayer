@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 25"
+community: "Community 8"
 location: "Chapter 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_25
+  - community/Community_8
 ---
 
 # Tower NFS Erosion of BN254 Security
@@ -15,4 +15,4 @@ tags:
 - [[BLS12-381 Curve]] - `compares` [EXTRACTED]
 - [[BN254 (alt_bn128) Curve]] - `explains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_25
+#graphify/document #graphify/EXTRACTED #community/Community_8

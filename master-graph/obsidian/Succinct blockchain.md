@@ -1,12 +1,12 @@
 ---
 source_file: "recursion/recursion-outline.md"
 type: "document"
-community: "Community 115"
+community: "Community 61"
 location: "Recursion Chapter 3"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_115
+  - community/Community_61
 ---
 
 # Succinct blockchain
@@ -19,4 +19,4 @@ tags:
 - [[Mina  Coda and Pickles recursion layer]] - `explains` [EXTRACTED]
 - [[Succinct Blockchain Protocol definition (5 PPT algorithms + succinctness)]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_115
+#graphify/document #graphify/EXTRACTED #community/Community_61

@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 16"
+community: "Community 126"
 location: "Chapter 9"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_16
+  - community/Community_126
 ---
 
 # FHE Bootstrapping
@@ -15,4 +15,4 @@ tags:
 - [[Fully Homomorphic Encryption (FHE)]] - `explains` [EXTRACTED]
 - [[Gentry, 'Fully Homomorphic Encryption Using Ideal Lattices' (STOC 2009)]] - `cites` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_16
+#graphify/document #graphify/EXTRACTED #community/Community_126

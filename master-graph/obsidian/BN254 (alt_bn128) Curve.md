@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 25"
+community: "Community 8"
 location: "Chapter 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_25
+  - community/Community_8
 ---
 
 # BN254 (alt_bn128) Curve
@@ -21,11 +21,11 @@ tags:
 - [[Groth16]] - `conceptually_related_to` [EXTRACTED]
 - [[Hyrax polynomial commitment]] - `conceptually_related_to` [EXTRACTED]
 - [[Jolt (zkVM via Lookups)]] - `references` [EXTRACTED]
-- [[KZG Polynomial Commitment]] - `references` [EXTRACTED]
+- [[KZG Polynomial Commitments from pairings (with trusted setup); Dory transparent pairing-based scheme]] - `references` [EXTRACTED]
 - [[Layer 1 -- Building the Stage]] - `references` [EXTRACTED]
 - [[Layer 5 -- The Sealed Certificate]] - `references` [EXTRACTED]
 - [[Layer 6 -- The Deep Craft]] - `references` [EXTRACTED]
-- [[Layer 7 -- The Verdict_1]] - `references` [EXTRACTED]
+- [[Layer 7 -- The Verdict]] - `references` [EXTRACTED]
 - [[On-Chain Verification in 2026]] - `references` [EXTRACTED]
 - [[Option-Value Analysis]] - `conceptually_related_to` [EXTRACTED]
 - [[Path One Hybrid STARK-to-SNARK Pipeline]] - `references` [EXTRACTED]
@@ -52,11 +52,11 @@ tags:
 - [[The Three-Path Table]] - `conceptually_related_to` [EXTRACTED]
 - [[Three zkVMs Through Seven Layers]] - `conceptually_related_to` [EXTRACTED]
 - [[Tower NFS Erosion of BN254 Security]] - `explains` [EXTRACTED]
-- [[Trust Decomposition Seven Weaker Assumptions_1]] - `conceptually_related_to` [EXTRACTED]
+- [[Trust Decomposition Seven Weaker Assumptions]] - `conceptually_related_to` [EXTRACTED]
 - [[Two Ways to Build a Stage]] - `conceptually_related_to` [EXTRACTED]
 - [[Where the Layers Collapse]] - `references` [EXTRACTED]
 - [[Witness Generation Costs]] - `references` [EXTRACTED]
 - [[Zcash Sapling Ceremony (2018, BGM17 MMORPG)]] - `references` [INFERRED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_25
+#graphify/document #graphify/EXTRACTED #community/Community_8

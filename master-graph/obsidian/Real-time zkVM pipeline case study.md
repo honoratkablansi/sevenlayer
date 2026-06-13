@@ -1,12 +1,12 @@
 ---
 source_file: "recursion/recursion-outline.md"
 type: "document"
-community: "Community 91"
+community: "Community 105"
 location: "Recursion Chapter 3"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_91
+  - community/Community_105
 ---
 
 # Real-time zkVM pipeline case study
@@ -15,4 +15,4 @@ tags:
 - [[Proof Aggregation]] - `references` [EXTRACTED]
 - [[Real-Time Proving]] - `explains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_91
+#graphify/document #graphify/EXTRACTED #community/Community_105

@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/05-encoding-the-performance.md"
 type: "document"
-community: "Community 6"
+community: "Community 11"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_6
+  - community/Community_11
 ---
 
 # Encoding the Performance
@@ -24,7 +24,7 @@ tags:
 - [[FRI Commitment Scheme]] - `references` [EXTRACTED]
 - [[Fiat-Shamir Transform]] - `references` [EXTRACTED]
 - [[Folding Scheme]] - `references` [EXTRACTED]
-- [[Goldilocks Field_1]] - `references` [EXTRACTED]
+- [[Goldilocks Field]] - `references` [EXTRACTED]
 - [[Groth16]] - `references` [EXTRACTED]
 - [[Halo 2  UltraPlonk]] - `references` [EXTRACTED]
 - [[HyperNova]] - `references` [EXTRACTED]
@@ -37,10 +37,8 @@ tags:
 - [[Layer 4 -- Arithmetization]] - `part_of` [EXTRACTED]
 - [[LogUp]] - `references` [EXTRACTED]
 - [[LogUp-GKR]] - `references` [EXTRACTED]
-- [[Lookup Argument]] - `references` [EXTRACTED]
-- [[Lookup Arguments_1]] - `part_of` [EXTRACTED]
+- [[Lookup Argument]] - `part_of` [EXTRACTED]
 - [[Mersenne-31  M31]] - `references` [EXTRACTED]
-- [[Mersenne-31 Field]] - `references` [EXTRACTED]
 - [[Midnight (Privacy Blockchain)]] - `references` [EXTRACTED]
 - [[Midnight's ZKIR A Concrete Layer 4]] - `part_of` [EXTRACTED]
 - [[Nova]] - `references` [EXTRACTED]
@@ -49,19 +47,19 @@ tags:
 - [[PLONK Permutations over Lagrange-bases for Oecumenical Noninteractive arguments of Knowledge]] - `cites` [EXTRACTED]
 - [[PLONKish Arithmetization]] - `references` [EXTRACTED]
 - [[Plookup]] - `references` [EXTRACTED]
-- [[Poseidon Hash_1]] - `references` [EXTRACTED]
+- [[Poseidon Hash]] - `references` [EXTRACTED]
 - [[Proving Nothing]] - `part_of` [EXTRACTED]
 - [[R1CS (Rank-1 Constraint Systems)]] - `references` [EXTRACTED]
 - [[SP1 Hypercube (Succinct)]] - `references` [EXTRACTED]
 - [[STARK]] - `references` [EXTRACTED]
 - [[Scalable, Transparent, and Post-Quantum Secure Computational Integrity]] - `cites` [EXTRACTED]
-- [[Schwartz-Zippel Lemma_1]] - `references` [EXTRACTED]
+- [[Schwartz-Zippel Lemma]] - `references` [EXTRACTED]
 - [[Sevenlayer Wiki Index]] - `references` [EXTRACTED]
 - [[Small prime fields (machine-register-sized Goldilocks, M61)]] - `references` [EXTRACTED]
 - [[Spartan]] - `references` [EXTRACTED]
 - [[Stwo]] - `references` [EXTRACTED]
 - [[Sudoku running example]] - `references` [EXTRACTED]
-- [[Sum-Check Protocol_1]] - `references` [EXTRACTED]
+- [[Sum-Check Protocol]] - `references` [EXTRACTED]
 - [[The Constraint System Evolution R1CS, AIR, PLONKish]] - `part_of` [EXTRACTED]
 - [[The Overhead Tax 10,000x to 50,000x]] - `part_of` [EXTRACTED]
 - [[The Spreadsheet Metaphor (And Where It Works)]] - `part_of` [EXTRACTED]
@@ -75,4 +73,4 @@ tags:
 - [[Zcash]] - `references` [EXTRACTED]
 - [[zkVM]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_6
+#graphify/document #graphify/EXTRACTED #community/Community_11

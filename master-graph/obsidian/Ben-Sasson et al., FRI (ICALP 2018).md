@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 25"
+community: "Community 8"
 location: "Chapter 7"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_25
+  - community/Community_8
 ---
 
 # Ben-Sasson et al., FRI (ICALP 2018)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[FRI Commitment Scheme]] - `cites` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_25
+#graphify/document #graphify/EXTRACTED #community/Community_8

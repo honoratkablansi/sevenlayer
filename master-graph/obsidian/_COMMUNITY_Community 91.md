@@ -1,29 +1,28 @@
 ---
 type: community
-cohesion: 0.16
-members: 14
+cohesion: 0.15
+members: 13
 ---
 
 # Community 91
 
-**Cohesion:** 0.16 - loosely connected
-**Members:** 14 nodes
+**Cohesion:** 0.15 - loosely connected
+**Members:** 13 nodes
 
 ## Members
-- [[Aggregation Trees (zkTree cost model)]] - document - recursion/recursion-outline.md
-- [[Aligned Layer]] - document - proving-nothing.md
-- [[Applicative recursion (application-aware proof + input compression)]] - document - references/recursion/ch3/ref-53-starkware-recursive-starks.md
-- [[L3 deployments on top of L2 via recursive verifier]] - document - references/recursion/ch3/ref-53-starkware-recursive-starks.md
-- [[Logarithmic verification compression of STARK proofs]] - document - references/recursion/ch3/ref-53-starkware-recursive-starks.md
-- [[NEBRA]] - document - proving-nothing.md
-- [[Proof Aggregation]] - document - proving-nothing.md
-- [[Real-time zkVM pipeline case study]] - document - recursion/recursion-outline.md
-- [[Recursive STARK proving]] - document - references/recursion/ch3/ref-53-starkware-recursive-starks.md
-- [[SHARP (SHARed Prover)]] - document - references/recursion/ch3/ref-53-starkware-recursive-starks.md
-- [[SHARP (Shared Prover)]] - document - proving-nothing.md
-- [[StarkWare, Recursive STARKs (2022)]] - document - references/recursion/ch3/ref-53-starkware-recursive-starks.md
-- [[Three Core Capabilities compression, incrementality, composability]] - document - recursion/recursion-outline.md
-- [[When Not to Recurse (crossover heuristics)]] - document - recursion/recursion-outline.md
+- [[Algebraic Hash Functions (Poseidon)]] - document - proving-nothing.md
+- [[Alternating PCD construction over 2-cycle (Cpcd,alpha  Cpcd,beta)]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
+- [[BCTV Succinct NIZK for a von Neumann architecture (USENIX Security 2014)]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
+- [[Collision-Resistant Hash Functions]] - document - proving-nothing.md
+- [[Grover's Algorithm]] - document - proving-nothing.md
+- [[Merkle-tree memory checking for delegated RAM]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
+- [[Nondeterministic pairing verification with affine coordinates]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
+- [[Preprocessing zk-SNARK for arithmetic circuits]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
+- [[RAM compliance predicate Pi_{M,H} (per-step verification)]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
+- [[Scalable Zero Knowledge via Cycles of Elliptic Curves (BCTV14, CRYPTO 2014)]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
+- [[Scalable zk-SNARK (fully succinct + incrementally computable)]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
+- [[Subset-sum hash verifiable in =300 gates over native field]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
+- [[vnTinyRAM evaluation ~26.2sstep, VIPS clock rate]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -33,26 +32,21 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 3 edges to [[_COMMUNITY_Community 85]]
-- 2 edges to [[_COMMUNITY_Community 6]]
-- 2 edges to [[_COMMUNITY_Community 56]]
-- 2 edges to [[_COMMUNITY_Community 83]]
-- 2 edges to [[_COMMUNITY_Community 21]]
-- 2 edges to [[_COMMUNITY_Community 30]]
-- 1 edge to [[_COMMUNITY_Community 15]]
-- 1 edge to [[_COMMUNITY_Community 65]]
-- 1 edge to [[_COMMUNITY_Community 90]]
-- 1 edge to [[_COMMUNITY_Community 79]]
-- 1 edge to [[_COMMUNITY_Community 40]]
-- 1 edge to [[_COMMUNITY_Community 116]]
-- 1 edge to [[_COMMUNITY_Community 131]]
-- 1 edge to [[_COMMUNITY_Community 96]]
-- 1 edge to [[_COMMUNITY_Community 33]]
-- 1 edge to [[_COMMUNITY_Community 42]]
+- 3 edges to [[_COMMUNITY_Community 20]]
+- 2 edges to [[_COMMUNITY_Community 22]]
+- 2 edges to [[_COMMUNITY_Community 12]]
+- 2 edges to [[_COMMUNITY_Community 34]]
+- 2 edges to [[_COMMUNITY_Community 13]]
+- 1 edge to [[_COMMUNITY_Community 8]]
+- 1 edge to [[_COMMUNITY_Community 59]]
+- 1 edge to [[_COMMUNITY_Community 1]]
+- 1 edge to [[_COMMUNITY_Community 119]]
+- 1 edge to [[_COMMUNITY_Community 45]]
+- 1 edge to [[_COMMUNITY_Community 112]]
 
 ## Top bridge nodes
-- [[Proof Aggregation]] - degree 25, connects to 11 communities
-- [[Recursive STARK proving]] - degree 7, connects to 2 communities
-- [[SHARP (SHARed Prover)]] - degree 3, connects to 1 community
-- [[SHARP (Shared Prover)]] - degree 2, connects to 1 community
-- [[Aggregation Trees (zkTree cost model)]] - degree 2, connects to 1 community
+- [[Collision-Resistant Hash Functions]] - degree 8, connects to 3 communities
+- [[Algebraic Hash Functions (Poseidon)]] - degree 4, connects to 3 communities
+- [[Preprocessing zk-SNARK for arithmetic circuits]] - degree 4, connects to 3 communities
+- [[Scalable Zero Knowledge via Cycles of Elliptic Curves (BCTV14, CRYPTO 2014)]] - degree 4, connects to 3 communities
+- [[Alternating PCD construction over 2-cycle (Cpcd,alpha  Cpcd,beta)]] - degree 4, connects to 2 communities

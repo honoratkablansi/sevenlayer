@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch11-the-landscape-table-march-2026.md"
 type: "document"
-community: "Community 6"
+community: "Community 8"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_6
+  - community/Community_8
 ---
 
 # The Landscape Table (March 2026)
@@ -18,7 +18,7 @@ tags:
 - [[Cairo (StarkWare ZK-native ISA)]] - `references` [EXTRACTED]
 - [[Circle STARKs]] - `conceptually_related_to` [EXTRACTED]
 - [[FRI Commitment Scheme]] - `conceptually_related_to` [EXTRACTED]
-- [[Goldilocks Field_1]] - `conceptually_related_to` [EXTRACTED]
+- [[Goldilocks Field]] - `conceptually_related_to` [EXTRACTED]
 - [[Groth16]] - `conceptually_related_to` [EXTRACTED]
 - [[Jolt (zkVM via Lookups)]] - `references` [EXTRACTED]
 - [[KZG Polynomial Commitments from pairings (with trusted setup); Dory transparent pairing-based scheme]] - `conceptually_related_to` [EXTRACTED]
@@ -47,4 +47,4 @@ tags:
 - [[zkVMs Across the Stack]] - `references` [EXTRACTED]
 - [[zkWASM]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_6
+#graphify/document #graphify/EXTRACTED #community/Community_8

@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch05-the-sumcheck-protocol-the-hidden-foundation.md"
 type: "document"
-community: "Community 6"
+community: "Community 11"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_6
+  - community/Community_11
 ---
 
 # The Sumcheck Protocol: The Hidden Foundation
@@ -23,16 +23,16 @@ tags:
 - [[Jolt (zkVM via Lookups)]] - `references` [EXTRACTED]
 - [[Lasso]] - `references` [EXTRACTED]
 - [[LogUp]] - `references` [EXTRACTED]
-- [[Lookup Arguments_1]] - `references` [EXTRACTED]
+- [[Lookup Argument]] - `references` [EXTRACTED]
 - [[Midnight (Privacy Blockchain)]] - `references` [EXTRACTED]
 - [[Nova]] - `references` [EXTRACTED]
 - [[Number-Theoretic Transform (NTT)]] - `references` [EXTRACTED]
 - [[SP1 Hypercube (Succinct)]] - `references` [EXTRACTED]
 - [[Spartan]] - `references` [EXTRACTED]
 - [[Srinath Setty]] - `references` [EXTRACTED]
-- [[Sum-Check Protocol_1]] - `defines` [EXTRACTED]
+- [[Sum-Check Protocol]] - `defines` [EXTRACTED]
 - [[The Overhead Tax 10,000x to 50,000x]] - `references` [EXTRACTED]
 - [[Where the Layers Collapse]] - `references` [EXTRACTED]
 - [[Witness Generation Costs]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_6
+#graphify/document #graphify/EXTRACTED #community/Community_11

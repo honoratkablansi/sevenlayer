@@ -1,12 +1,12 @@
 ---
 source_file: "recursion/recursion-outline.md"
 type: "document"
-community: "Community 50"
+community: "Community 14"
 location: "Recursion Chapter 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_50
+  - community/Community_14
 ---
 
 # The Recursion Gap (prove-vs-run overhead)
@@ -14,7 +14,7 @@ tags:
 ## Connections
 - [[Circle STARKs]] - `references` [EXTRACTED]
 - [[Folding Scheme]] - `references` [EXTRACTED]
-- [[Lookup Arguments]] - `references` [EXTRACTED]
+- [[Lookup Argument]] - `references` [EXTRACTED]
 - [[Recursion Shifts Cost, It Doesn't Eliminate It]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_50
+#graphify/document #graphify/EXTRACTED #community/Community_14

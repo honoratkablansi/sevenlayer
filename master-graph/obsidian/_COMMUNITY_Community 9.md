@@ -1,55 +1,61 @@
 ---
 type: community
-cohesion: 0.10
-members: 40
+cohesion: 0.07
+members: 46
 ---
 
 # Community 9
 
-**Cohesion:** 0.10 - loosely connected
-**Members:** 40 nodes
+**Cohesion:** 0.07 - loosely connected
+**Members:** 46 nodes
 
 ## Members
-- [[Chaliasos et al. SoK SNARK Vulnerabilities (USENIX Security 2024)]] - paper - wiki/sections/ch03-risc-v-won-why-taxonomy-still-matters.md
-- [[Choreographing the Act]] - document - wiki/chapters/03-choreographing-the-act.md
-- [[Circom]] - document - proving-nothing.md
-- [[DEEP-ALI and FRI]] - document - references/recursion/ch1/ref-18-risc-zero-proof-system-overview.md
-- [[Extended Main and Auxiliary Execution Trace]] - document - references/recursion/ch1/ref-18-risc-zero-proof-system-overview.md
-- [[From Circuits to Virtual Machines A Brief Evolution]] - document - wiki/sections/ch03-from-circuits-to-virtual-machines-a-brief-evolution.md
-- [[Groth16 Circuit (on-chain verification wrapper)]] - document - references/recursion/ch1/ref-18-risc-zero-proof-system-overview.md
-- [[Image ID]] - document - references/recursion/ch1/ref-18-risc-zero-proof-system-overview.md
-- [[Jordi Baylina (Circom, iden3, Hermez, ZisK)]] - document - proving-nothing.md
-- [[Leo (Aleo)]] - document - wiki/sections/ch03-the-four-philosophies.md
-- [[Midnight Compiler, IR, Circuit]] - document - wiki/sections/ch03-midnight-compiler-ir-circuit.md
-- [[Noir (Aztec)]] - document - wiki/sections/ch03-the-four-philosophies.md
-- [[Picus (QED2)]] - paper - wiki/sections/ch03-under-constrained-circuits-the-dominant-failure-mode.md
-- [[Plonky3]] - document - references/recursion/ch1/ref-08-sp1-hypercube.md
-- [[RISC Zero]] - document - proving-nothing.md
-- [[RISC Zero CVE-2025-52484 (rs1rs2 confusion)]] - document - proving-nothing.md
-- [[RISC Zero Recursion Circuit]] - document - references/recursion/ch1/ref-18-risc-zero-proof-system-overview.md
-- [[RISC-V Won. Why Taxonomy Still Matters.]] - document - wiki/sections/ch03-risc-v-won-why-taxonomy-still-matters.md
-- [[Root cause assigned but not constrained (signal given a value with no constraint)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
-- [[Root cause missing input constraints in reusable circuits]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
-- [[Root cause out-of-circuit computation not constrained (incl. boomerang issue)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
-- [[Root cause unsafe reuse of circuit (implicit sub-circuit constraints, insecure instantiation)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
-- [[Root cause wrong translation of logic into constraints (largest circuit root cause, 34)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
-- [[Scroll zkEVM LtChip missing range-check bug (Halo2 missing input constraint)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
-- [[Soundness and Completeness Bugs]] - document - proving-nothing.md
-- [[Starknet]] - document - wiki/sections/ch01-three-converging-forces.md
-- [[The Developer's Actual Experience]] - document - wiki/sections/ch03-the-developer-s-actual-experience.md
-- [[The Four Philosophies]] - document - wiki/sections/ch03-the-four-philosophies.md
-- [[The RISC Zero STARK Protocol  Proof System Overview]] - document - references/recursion/ch1/ref-18-risc-zero-proof-system-overview.md
-- [[Tornado Cash circomlib MiMC under-constrained bug (assigned-but-unconstrained output)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
-- [[Under-Constrained Circuit  Missing Constraint]] - document - proving-nothing.md
-- [[Under-Constrained Circuits The Dominant Failure Mode]] - document - wiki/sections/ch03-under-constrained-circuits-the-dominant-failure-mode.md
-- [[Witness-Constraint Divergence]] - document - wiki/sections/ch04-witness-constraint-divergence.md
-- [[Xue et al., ZK-Coder LLMs for ZK Proof Code Generation, arXiv 2509.11708]] - document - proving-nothing.md
-- [[ZKAP (Circuit Dependence Graph static analysis)]] - paper - wiki/sections/ch03-under-constrained-circuits-the-dominant-failure-mode.md
-- [[circom-pairing CoreVerifyPubkeyG1 unconstrained-output bug (unsafe sub-circuit reuse)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
-- [[zkFuzz]] - paper - wiki/sections/ch03-under-constrained-circuits-the-dominant-failure-mode.md
-- [[zkFuzz (Takahashi, Kim et al., S&P 2026)]] - document - proving-nothing.md
-- [[zkSync Era]] - document - wiki/sections/ch04-witness-constraint-divergence.md
-- [[zkSync Era MemoryWriteQuery Bug]] - document - proving-nothing.md
+- [[Build integrity and artifact verification]] - document - references/recursion/ch3/ref-63-slsa-intoto-frameworks.md
+- [[C2PA Manifest]] - document - references/recursion/ch3/ref-79-c2pa-specification.md
+- [[C2PA assertions and claims]] - document - references/recursion/ch3/ref-79-c2pa-specification.md
+- [[Certificate Transparency]] - document - references/recursion/ch3/ref-65-rfc-6962-certificate-transparency.md
+- [[Compliance predicate  local property of distributed computation]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
+- [[Component inventory and dependency relationships]] - document - references/recursion/ch3/ref-62-ntia-cisa-sbom-minimum-elements.md
+- [[Dual-Tree Architecture Package Tree (authenticity) + isomorphic Shadow Tree (compliance)]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
+- [[Executive Order 14028 on Improving the Nation's Cybersecurity]] - document - references/recursion/ch3/ref-62-ntia-cisa-sbom-minimum-elements.md
+- [[Folding-based aggregation ValidDep as atomic step folded over N dependencies into one succinct proof pi]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
+- [[Forest of Shadow Trees + DatalogHorn-clause policy composition and client-on-demand aggregation]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
+- [[Groth16 pairing-based zkSNARK (cited alternative proving system)]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
+- [[Hard and soft binding to content]] - document - references/recursion/ch3/ref-79-c2pa-specification.md
+- [[Implementation CircomPoseidon Attest circuit, Nova folding over Pasta curves, Spartan-wrapped succinct proof, Python+pyDataLog+SQLite auditor engine]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
+- [[Merkle Hash Tree]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Merkle audit and consistency proofs]] - document - references/recursion/ch3/ref-65-rfc-6962-certificate-transparency.md
+- [[Misissued-certificate detection by monitors and auditors]] - document - references/recursion/ch3/ref-65-rfc-6962-certificate-transparency.md
+- [[NTIA Minimum Elements for a Software Bill of Materials (SBOM)]] - document - references/recursion/ch3/ref-62-ntia-cisa-sbom-minimum-elements.md
+- [[Nova recursive folding scheme (IVC; first to fold two NP statements into one)]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
+- [[Package Tree (PT) VC maintained by package manager committing dependency inclusionauthenticity]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
+- [[Petra confidential SBOM exchange via CP-ABE (Ishgair et al.), main baseline contrasted with VeriSBOM]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
+- [[Policy Propagation Engine (PPE) recursive compliance C(p)=L(p)prod C(d) propagated up dependency DAG]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
+- [[Provenance attestation]] - document - references/recursion/ch3/ref-63-slsa-intoto-frameworks.md
+- [[RFC 6962 Certificate Transparency]] - document - references/recursion/ch3/ref-65-rfc-6962-certificate-transparency.md
+- [[Re-proving on CVEupdate via root freshness revocation (S3) and remediation (S4) lifecycle, replay resistance]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
+- [[Root-binding accountability verification bound to trusted public roots defeats parallel forged trees]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
+- [[SBOM verification as PCD instance]] - document - recursion/recursion-outline.md
+- [[SLSA (Supply-chain Levels for Software Artifacts)]] - document - references/recursion/ch3/ref-63-slsa-intoto-frameworks.md
+- [[SLSA Specification v1.0]] - document - references/recursion/ch3/ref-63-slsa-intoto-frameworks.md
+- [[SLSA security levels]] - document - references/recursion/ch3/ref-63-slsa-intoto-frameworks.md
+- [[Shadow Tree (ST) isomorphic compliance VC by auditor; leaf flag 10 (compliantnon-compliant)]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
+- [[Signed Certificate Timestamp (SCT)]] - document - references/recursion/ch3/ref-65-rfc-6962-certificate-transparency.md
+- [[Software Bill of Materials (SBOM)]] - document - recursion/recursion-outline.md
+- [[Software supply chain]] - document - recursion/recursion-outline.md
+- [[Software supply-chain transparency]] - document - references/recursion/ch3/ref-62-ntia-cisa-sbom-minimum-elements.md
+- [[Spartan transparent zkSNARK without trusted setup (final proof compression wrapper)]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
+- [[Theorem 1 Package Tree position-binding (cannot open index to a different value)]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
+- [[Theorem 2 Soundness of Dual-Tree verification (no valid proof for non-existentnon-compliant package)]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
+- [[Theorem 3 Root-binding accountability (cannot accept proof from divergent PTST)]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
+- [[ValidDep dual-membership predicate package valid iff member of both PT and ST roots]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
+- [[Vector commitment scheme (position-binding; Merkle-tree instantiation, O(log n) openings)]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
+- [[VeriSBOM (arXiv 2026)]] - document - recursion/recursion-outline.md
+- [[VeriSBOM trustless, selectively-disclosed verifiable SBOM-sharing framework via ZKPs]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
+- [[Verifiable build pipelines  attestation chains]] - document - recursion/recursion-outline.md
+- [[Verifiable transparency logs]] - document - recursion/recursion-outline.md
+- [[in-toto supply-chain framework]] - document - references/recursion/ch3/ref-63-slsa-intoto-frameworks.md
+- [[in-toto supply-chain integrity via signed step metadata (cited prior work)]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -59,36 +65,18 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 26 edges to [[_COMMUNITY_Community 6]]
-- 18 edges to [[_COMMUNITY_Community 24]]
-- 11 edges to [[_COMMUNITY_Community 5]]
-- 9 edges to [[_COMMUNITY_Community 14]]
-- 7 edges to [[_COMMUNITY_Community 25]]
-- 6 edges to [[_COMMUNITY_Community 15]]
-- 6 edges to [[_COMMUNITY_Community 38]]
-- 5 edges to [[_COMMUNITY_Community 7]]
-- 5 edges to [[_COMMUNITY_Community 21]]
-- 5 edges to [[_COMMUNITY_Community 61]]
-- 5 edges to [[_COMMUNITY_Community 106]]
-- 4 edges to [[_COMMUNITY_Community 52]]
-- 4 edges to [[_COMMUNITY_Community 8]]
-- 3 edges to [[_COMMUNITY_Community 35]]
-- 3 edges to [[_COMMUNITY_Community 66]]
-- 2 edges to [[_COMMUNITY_Community 23]]
-- 2 edges to [[_COMMUNITY_Community 124]]
-- 2 edges to [[_COMMUNITY_Community 3]]
-- 2 edges to [[_COMMUNITY_Community 128]]
-- 2 edges to [[_COMMUNITY_Community 20]]
-- 2 edges to [[_COMMUNITY_Community 30]]
-- 1 edge to [[_COMMUNITY_Community 34]]
-- 1 edge to [[_COMMUNITY_Community 0]]
-- 1 edge to [[_COMMUNITY_Community 97]]
-- 1 edge to [[_COMMUNITY_Community 89]]
-- 1 edge to [[_COMMUNITY_Community 16]]
+- 6 edges to [[_COMMUNITY_Community 20]]
+- 3 edges to [[_COMMUNITY_Community 37]]
+- 3 edges to [[_COMMUNITY_Community 14]]
+- 2 edges to [[_COMMUNITY_Community 49]]
+- 2 edges to [[_COMMUNITY_Community 45]]
+- 1 edge to [[_COMMUNITY_Community 61]]
+- 1 edge to [[_COMMUNITY_Community 51]]
+- 1 edge to [[_COMMUNITY_Community 99]]
 
 ## Top bridge nodes
-- [[Choreographing the Act]] - degree 44, connects to 17 communities
-- [[The Four Philosophies]] - degree 26, connects to 10 communities
-- [[Circom]] - degree 27, connects to 9 communities
-- [[RISC Zero]] - degree 22, connects to 8 communities
-- [[Under-Constrained Circuit  Missing Constraint]] - degree 19, connects to 5 communities
+- [[VeriSBOM trustless, selectively-disclosed verifiable SBOM-sharing framework via ZKPs]] - degree 22, connects to 3 communities
+- [[Compliance predicate  local property of distributed computation]] - degree 8, connects to 2 communities
+- [[Software Bill of Materials (SBOM)]] - degree 8, connects to 1 community
+- [[Software supply chain]] - degree 7, connects to 1 community
+- [[Certificate Transparency]] - degree 5, connects to 1 community

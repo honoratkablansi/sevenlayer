@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch08-the-price-of-a-verdict.md"
 type: "document"
-community: "Community 33"
+community: "Community 17"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_33
+  - community/Community_17
 ---
 
 # Celestia
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[The Price of a Verdict]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_33
+#graphify/document #graphify/EXTRACTED #community/Community_17

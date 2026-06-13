@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch04-side-channel-attacks-when-the-walls-leak.md"
 type: "document"
-community: "Community 5"
+community: "Community 15"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_5
+  - community/Community_15
 ---
 
 # Side-Channel Attacks: When the Walls Leak
@@ -15,14 +15,14 @@ tags:
 - [[Bulletproofs  Inner Product Argument]] - `references` [EXTRACTED]
 - [[Circle STARKs]] - `references` [EXTRACTED]
 - [[FRI Commitment Scheme]] - `references` [EXTRACTED]
-- [[Goldilocks Field_1]] - `references` [EXTRACTED]
+- [[Goldilocks Field]] - `references` [EXTRACTED]
 - [[Groth16]] - `references` [EXTRACTED]
 - [[Halo 2  UltraPlonk]] - `references` [EXTRACTED]
 - [[Jolt (zkVM via Lookups)]] - `references` [EXTRACTED]
 - [[Lasso]] - `references` [EXTRACTED]
 - [[Multi-Scalar Multiplication (MSM)]] - `references` [EXTRACTED]
 - [[Plonky3]] - `references` [EXTRACTED]
-- [[Poseidon Hash_1]] - `references` [EXTRACTED]
+- [[Poseidon Hash]] - `references` [EXTRACTED]
 - [[STARK]] - `references` [EXTRACTED]
 - [[Side-Channel Attack]] - `defines` [EXTRACTED]
 - [[The Disclose Boundary Midnight's Witness Architecture]] - `references` [EXTRACTED]
@@ -33,4 +33,4 @@ tags:
 - [[The Witness as a Multi-Dimensional Problem]] - `references` [EXTRACTED]
 - [[Zcash]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_5
+#graphify/document #graphify/EXTRACTED #community/Community_15

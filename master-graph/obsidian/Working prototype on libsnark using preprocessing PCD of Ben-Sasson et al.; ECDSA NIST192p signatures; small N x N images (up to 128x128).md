@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-77-photoproof.pdf"
 type: "paper"
-community: "Community 42"
+community: "Community 20"
 location: "§V-A; §V-B; Table II"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_42
+  - community/Community_20
 ---
 
 # Working prototype on libsnark using preprocessing PCD of Ben-Sasson et al.; ECDSA NIST192p signatures; small N x N images (up to 128x128)
@@ -17,4 +17,4 @@ tags:
 - [[Gennaro, Gentry, Parno, Raykova, Quadratic span programs and succinct NIZKs without PCPs (EUROCRYPT 2013) 22 SNARK scheme used by libsnark]] - `assumes` [EXTRACTED]
 - [[PhotoProof cryptographic image authentication scheme for any permissible transformation set]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_42
+#graphify/paper #graphify/EXTRACTED #community/Community_20

@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-58-coda-mina.pdf"
 type: "paper"
-community: "Community 71"
+community: "Community 66"
 location: "§6.1, Fig 6"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_71
+  - community/Community_66
 ---
 
 # Parallel scan state (decouple block production from SNARK proving)
@@ -19,4 +19,4 @@ tags:
 - [[Prover incentives snarkers and lowest-price SNARK-work auction]] - `conceptually_related_to` [EXTRACTED]
 - [[Scan-state claim latency O(log R), storage 2R-1+O(1) vs naive O(R)]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_71
+#graphify/paper #graphify/EXTRACTED #community/Community_66

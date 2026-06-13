@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-51-pairing-efficiency-curves.pdf"
 type: "paper"
-community: "Community 4"
+community: "Community 10"
 location: "§3.2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_4
+  - community/Community_10
 ---
 
 # Supersingular elliptic curve
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Supersingular k=2 curve construction p=hN-1, E y2=x3-x]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_4
+#graphify/paper #graphify/EXTRACTED #community/Community_10

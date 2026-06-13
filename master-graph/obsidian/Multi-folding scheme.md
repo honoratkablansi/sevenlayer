@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-30-cyclefold.pdf"
 type: "paper"
-community: "Community 0"
+community: "Community 32"
 location: "§2.2 (Def 2)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Community_32
 ---
 
 # Multi-folding scheme
@@ -16,4 +16,4 @@ tags:
 - [[Folding Scheme]] - `conceptually_related_to` [EXTRACTED]
 - [[HyperNova]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_0
+#graphify/paper #graphify/EXTRACTED #community/Community_32

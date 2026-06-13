@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch12-where-midnight-challenges-the-model.md"
 type: "document"
-community: "Community 24"
+community: "Community 6"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_24
+  - community/Community_6
 ---
 
 # Where Midnight Challenges the Model
@@ -22,8 +22,8 @@ tags:
 - [[Post-Quantum Cryptography]] - `references` [EXTRACTED]
 - [[The Disclose Boundary Midnight's Witness Architecture]] - `references` [EXTRACTED]
 - [[The Privacy Theater Analogy]] - `references` [EXTRACTED]
-- [[Trust Decomposition Seven Weaker Assumptions_1]] - `references` [EXTRACTED]
+- [[Trust Decomposition Seven Weaker Assumptions]] - `references` [EXTRACTED]
 - [[UTXO Model]] - `references` [EXTRACTED]
 - [[ZKIR (Zero-Knowledge Intermediate Representation)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_24
+#graphify/document #graphify/EXTRACTED #community/Community_6

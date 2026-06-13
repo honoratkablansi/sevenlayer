@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch1/ref-23-risc-zero-continuations.md"
 type: "document"
-community: "Community 37"
+community: "Community 36"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_37
+  - community/Community_36
 ---
 
 # RISC Zero, "Continuations" / "Using Continuations to Prove Any EVM Transaction" (2023)
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[Recursion References (cited works)]] - `cites` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_37
+#graphify/document #graphify/EXTRACTED #community/Community_36

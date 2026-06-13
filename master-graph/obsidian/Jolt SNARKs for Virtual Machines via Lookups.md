@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch03/ref-16-jolt.pdf"
 type: "paper"
-community: "Community 31"
+community: "Community 54"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_31
+  - community/Community_54
 ---
 
 # Jolt: SNARKs for Virtual Machines via Lookups
@@ -37,4 +37,4 @@ tags:
 - [[Virtual instructions and virtual registers (MULH, DIVREM, MOVSIGN, ADVICE, ASSERT)]] - `introduces` [EXTRACTED]
 - [[zkVM]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_31
+#graphify/paper #graphify/EXTRACTED #community/Community_54

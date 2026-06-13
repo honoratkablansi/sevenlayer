@@ -1,33 +1,32 @@
 ---
 type: community
-cohesion: 0.16
-members: 18
+cohesion: 0.18
+members: 17
 ---
 
 # Community 71
 
-**Cohesion:** 0.16 - loosely connected
-**Members:** 18 nodes
+**Cohesion:** 0.18 - loosely connected
+**Members:** 17 nodes
 
 ## Members
-- [[Binary tree of proofs (basewrapmerge recursion over block transitions)]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
-- [[Cited Bowe-Gabizon, simulation-extractable Groth zk-SNARK (ePrint 2018187)]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
-- [[Cited Halo (Bowe-Grigg-Hopwood) and Marlin (Chiesa et al.) — universal-setup recursion]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
-- [[Cited Ouroboros Genesis (Badertscher et al., ePrint 2018378) — Samasika base protocol]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
-- [[Implementation OCaml + Snarky DSL + libsnark backend, libp2p; 200ms verify, k=10, R=240s, f=0.5]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
-- [[Mina (Coda)]] - document - recursion/recursion-outline.md
-- [[Ouroboros Samasika first provably-secure succinct PoS consensus]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
-- [[Parallel scan state (decouple block production from SNARK proving)]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
-- [[Pickles  universal-setup recursion roadmap (Halo, Marlin)]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
-- [[Prover incentives snarkers and lowest-price SNARK-work auction]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
-- [[SNARK S recursive state-update circuit (Update verifies txns, consensus, signature, prior proof)]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
-- [[Scan-state claim latency O(log R), storage 2R-1+O(1) vs naive O(R)]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
-- [[Signatures of Knowledge (SoK) for non-malleable fee requests, via Bowe-Gabizon SNARK]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
-- [[Testnet evaluation 85 participants, 49 block producers, 24826 txns, 53120 SNARK proofs]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
-- [[Theorem 2 Samasika satisfies CP, CG, CQ, existential-CQ (security proof)]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
-- [[TickTock SNARK pair (base, merge, wrap proofs over the curve cycle)]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
-- [[Window min-density (nu-shifting omega-window) for succinct long-range fork resolution]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
-- [[maxvalid-sc chain-selection rule (succinct adaptation of maxvalid-bg)]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
+- [[Centered Binomial Distribution (CBD) noise sampling]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
+- [[Cryptographic functions HJGPRFXOF from SHA-3 and SHAKE (FIPS 202)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
+- [[Decapsulation failure probability (2-138.8 to 2-174.8)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
+- [[Fujisaki-Okamoto (FO) transform]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
+- [[IND-CCA2 security]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
+- [[Implicit rejection mechanism (re-encryption ciphertext comparison)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
+- [[K-PKE component public-key encryption scheme (KeyGenEncryptDecrypt)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
+- [[Key-Encapsulation Mechanism (KEM)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
+- [[ML-KEM (Module-Lattice-Based Key-Encapsulation Mechanism, FIPS 203)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
+- [[ML-KEM internal derandomized algorithms (KeyGenEncapsDecaps_internal)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
+- [[ML-KEM-1024 (k=4, security category 5, 256-bit RBG)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
+- [[ML-KEM-512 (k=2, security category 1, 128-bit RBG)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
+- [[ML-KEM-768 (k=3, security category 3, 192-bit RBG, NIST default)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
+- [[ML-KEM.Decaps (deterministic decapsulation, Algorithm 21)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
+- [[ML-KEM.Encaps (probabilistic encapsulation, Algorithm 20)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
+- [[ML-KEM.KeyGen (probabilistic key generation, Algorithm 19)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
+- [[NIST PQC security strength categories (1-5)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -37,14 +36,11 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 4 edges to [[_COMMUNITY_Community 30]]
-- 2 edges to [[_COMMUNITY_Community 0]]
-- 1 edge to [[_COMMUNITY_Community 13]]
-- 1 edge to [[_COMMUNITY_Community 115]]
+- 3 edges to [[_COMMUNITY_Community 120]]
+- 2 edges to [[_COMMUNITY_Community 1]]
+- 1 edge to [[_COMMUNITY_Community 0]]
+- 1 edge to [[_COMMUNITY_Community 72]]
 
 ## Top bridge nodes
-- [[Mina (Coda)]] - degree 9, connects to 3 communities
-- [[Parallel scan state (decouple block production from SNARK proving)]] - degree 6, connects to 1 community
-- [[SNARK S recursive state-update circuit (Update verifies txns, consensus, signature, prior proof)]] - degree 4, connects to 1 community
-- [[Pickles  universal-setup recursion roadmap (Halo, Marlin)]] - degree 3, connects to 1 community
-- [[Binary tree of proofs (basewrapmerge recursion over block transitions)]] - degree 3, connects to 1 community
+- [[ML-KEM (Module-Lattice-Based Key-Encapsulation Mechanism, FIPS 203)]] - degree 17, connects to 4 communities
+- [[K-PKE component public-key encryption scheme (KeyGenEncryptDecrypt)]] - degree 6, connects to 2 communities

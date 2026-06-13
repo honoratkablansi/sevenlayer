@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-19-protostar.pdf"
 type: "paper"
-community: "Community 0"
+community: "Community 26"
 location: "§1, §1.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Community_26
 ---
 
 # Nova Folding Scheme [KST22] (cited, R1CS k=1 d=2 case)
@@ -15,4 +15,4 @@ tags:
 - [[Folding Scheme]] - `conceptually_related_to` [EXTRACTED]
 - [[Protostar Generic Efficient AccumulationFolding for Special-sound Protocols]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_0
+#graphify/paper #graphify/EXTRACTED #community/Community_26

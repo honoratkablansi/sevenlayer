@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch1/ref-19-ef-l1-zkevm-realtime-proving.md"
 type: "document"
-community: "Community 21"
+community: "Community 101"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_21
+  - community/Community_101
 ---
 
 # Realtime Proving Standardized Definition
@@ -17,4 +17,4 @@ tags:
 - [[SP1 Hypercube]] - `conceptually_related_to` [INFERRED]
 - [[Shipping an L1 zkEVM 1 Realtime Proving (Ethereum Foundation, 2025)]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_21
+#graphify/document #graphify/EXTRACTED #community/Community_101

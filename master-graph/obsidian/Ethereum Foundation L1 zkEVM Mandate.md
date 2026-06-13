@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 15"
+community: "Community 8"
 location: "Chapter 10"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_15
+  - community/Community_8
 ---
 
 # Ethereum Foundation L1 zkEVM Mandate
@@ -15,4 +15,4 @@ tags:
 - [[Path Two Pure Transparent]] - `references` [EXTRACTED]
 - [[Trusted Setup Ceremony]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_15
+#graphify/document #graphify/EXTRACTED #community/Community_8

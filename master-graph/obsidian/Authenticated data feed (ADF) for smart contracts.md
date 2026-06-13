@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-87-deco.pdf"
 type: "paper"
-community: "Community 19"
+community: "Community 29"
 location: "§3.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_19
+  - community/Community_29
 ---
 
 # Authenticated data feed (ADF) for smart contracts
@@ -15,4 +15,4 @@ tags:
 - [[Cited Town Crier (TEESGX-based oracle, ADF term origin)]] - `introduces` [EXTRACTED]
 - [[DECO decentralized oracle for TLS (Zhang, Maram, Malvai, Goldfeder, Juels, CCS 2020)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_19
+#graphify/paper #graphify/EXTRACTED #community/Community_29

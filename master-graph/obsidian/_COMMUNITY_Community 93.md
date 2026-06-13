@@ -1,28 +1,28 @@
 ---
 type: community
-cohesion: 0.18
+cohesion: 0.19
 members: 13
 ---
 
 # Community 93
 
-**Cohesion:** 0.18 - loosely connected
+**Cohesion:** 0.19 - loosely connected
 **Members:** 13 nodes
 
 ## Members
-- [[Algorithms for Quantum Computation Discrete Logarithms and Factoring]] - paper - references/ch07/ref-24-shor.pdf
-- [[BQP (bounded-error quantum polynomial time)]] - paper - references/ch07/ref-24-shor.pdf
-- [[Coppersmith approximate Fourier transform]] - paper - references/ch07/ref-24-shor.pdf
-- [[Decoherence and gate imprecision obstacles]] - paper - references/ch07/ref-24-shor.pdf
-- [[Discrete-log-based public-key cryptosystems (Diffie-HellmanDSA)]] - paper - references/ch07/ref-24-shor.pdf
-- [[Peter W. Shor]] - paper - references/ch07/ref-24-shor.pdf
-- [[Quantitative (Strong) Church's thesis]] - paper - references/ch07/ref-24-shor.pdf
-- [[Quantum Computing]] - paper - references/ch07/ref-24-shor.pdf
-- [[Quantum Fourier transform]] - paper - references/ch07/ref-24-shor.pdf
-- [[Quantum discrete logarithm algorithm]] - paper - references/ch07/ref-24-shor.pdf
-- [[Quantum gate array (acyclic circuit) model]] - paper - references/ch07/ref-24-shor.pdf
-- [[Quantum interference  superposition]] - paper - references/ch07/ref-24-shor.pdf
-- [[Simon's oracle algorithm (inspiration for this work)]] - paper - references/ch07/ref-24-shor.pdf
+- [[DKIM signature verification proofs]] - document - references/recursion/ch3/ref-85-zkemail-docs.md
+- [[Email Wallet and account recovery]] - document - references/recursion/ch3/ref-85-zkemail-docs.md
+- [[MPC-TLS prover-verifier protocol]] - document - references/recursion/ch3/ref-86-tlsnotary-docs.md
+- [[Notary attestation of TLS session data]] - document - references/recursion/ch3/ref-86-tlsnotary-docs.md
+- [[Selective redaction of TLS transcript]] - document - references/recursion/ch3/ref-86-tlsnotary-docs.md
+- [[TLSNotary]] - document - references/recursion/ch3/ref-86-tlsnotary-docs.md
+- [[TLSNotary project documentation]] - document - references/recursion/ch3/ref-86-tlsnotary-docs.md
+- [[Web data provenance  authenticity of TLS-accessed data]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[ZK Email Blueprint SDK and Verifier]] - document - references/recursion/ch3/ref-85-zkemail-docs.md
+- [[ZK Email documentation]] - document - references/recursion/ch3/ref-85-zkemail-docs.md
+- [[ZK-Regex circuit primitive]] - document - references/recursion/ch3/ref-85-zkemail-docs.md
+- [[zkEmail]] - document - references/recursion/ch3/ref-85-zkemail-docs.md
+- [[zkTLS  zkEmail web and email provenance]] - document - recursion/recursion-outline.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -32,15 +32,15 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 2 edges to [[_COMMUNITY_Community 4]]
-- 2 edges to [[_COMMUNITY_Community 95]]
-- 2 edges to [[_COMMUNITY_Community 105]]
-- 1 edge to [[_COMMUNITY_Community 8]]
-- 1 edge to [[_COMMUNITY_Community 20]]
-- 1 edge to [[_COMMUNITY_Community 104]]
+- 2 edges to [[_COMMUNITY_Community 49]]
+- 2 edges to [[_COMMUNITY_Community 29]]
+- 1 edge to [[_COMMUNITY_Community 105]]
+- 1 edge to [[_COMMUNITY_Community 14]]
+- 1 edge to [[_COMMUNITY_Community 67]]
 
 ## Top bridge nodes
-- [[Algorithms for Quantum Computation Discrete Logarithms and Factoring]] - degree 13, connects to 5 communities
-- [[Quantum Fourier transform]] - degree 5, connects to 1 community
-- [[Quantum discrete logarithm algorithm]] - degree 4, connects to 1 community
-- [[Quantum Computing]] - degree 3, connects to 1 community
+- [[zkTLS  zkEmail web and email provenance]] - degree 7, connects to 3 communities
+- [[Web data provenance  authenticity of TLS-accessed data]] - degree 4, connects to 1 community
+- [[zkEmail]] - degree 4, connects to 1 community
+- [[DKIM signature verification proofs]] - degree 2, connects to 1 community
+- [[Selective redaction of TLS transcript]] - degree 2, connects to 1 community

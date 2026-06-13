@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 3"
+community: "Community 11"
 location: "Chapter 3"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_3
+  - community/Community_11
 ---
 
 # R1CS (Rank-1 Constraint Systems)
@@ -63,4 +63,4 @@ tags:
 - [[Zero-knowledge proof system]] - `conceptually_related_to` [EXTRACTED]
 - [[zk-SNARK]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_3
+#graphify/document #graphify/EXTRACTED #community/Community_11

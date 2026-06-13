@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch1/ref-27-succinct-sp1-docs.md"
 type: "document"
-community: "Community 6"
+community: "Community 8"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_6
+  - community/Community_8
 ---
 
 # RISC-V architecture
@@ -16,7 +16,7 @@ tags:
 - [[From Circuits to Virtual Machines A Brief Evolution]] - `references` [EXTRACTED]
 - [[HyperNova Recursive Arguments for Customizable Constraint Systems]] - `conceptually_related_to` [EXTRACTED]
 - [[Jolt SNARKs for Virtual Machines via Lookups]] - `conceptually_related_to` [EXTRACTED]
-- [[Lookup Arguments_1]] - `references` [EXTRACTED]
+- [[Lookup Argument]] - `references` [EXTRACTED]
 - [[Open Questions and the Road Ahead]] - `references` [EXTRACTED]
 - [[RISC-V Convergence]] - `conceptually_related_to` [EXTRACTED]
 - [[RISC-V Won. Why Taxonomy Still Matters.]] - `references` [EXTRACTED]
@@ -30,4 +30,4 @@ tags:
 - [[ZKsync Airbender GPU-Accelerated RISC-V Proving]] - `references` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_6
+#graphify/document #graphify/EXTRACTED #community/Community_8

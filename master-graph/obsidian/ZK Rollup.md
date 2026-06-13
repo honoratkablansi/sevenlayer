@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 65"
+community: "Community 67"
 location: "Chapter 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_65
+  - community/Community_67
 ---
 
 # ZK Rollup
@@ -18,7 +18,7 @@ tags:
 - [[Evaluating Compiler Optimization Impacts on zkVM Performance]] - `conceptually_related_to` [EXTRACTED]
 - [[L2BEAT Stages Framework for L2 Maturity]] - `references` [EXTRACTED]
 - [[L2Beat Stages Framework]] - `defines` [EXTRACTED]
-- [[Layer 7 -- The Verdict_1]] - `references` [EXTRACTED]
+- [[Layer 7 -- The Verdict]] - `references` [EXTRACTED]
 - [[Linea (ConsenSys zkEVM, $2B TVL, gnark)]] - `references` [EXTRACTED]
 - [[Market Sizing]] - `references` [EXTRACTED]
 - [[Maturity gradient for application clusters]] - `introduces` [EXTRACTED]
@@ -47,4 +47,4 @@ tags:
 - [[ZKsync Era (Matter Labs, Airbender prover)]] - `references` [EXTRACTED]
 - [[zkEVM  EVM-Compatible Proving]] - `conceptually_related_to` [INFERRED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_65
+#graphify/document #graphify/EXTRACTED #community/Community_67

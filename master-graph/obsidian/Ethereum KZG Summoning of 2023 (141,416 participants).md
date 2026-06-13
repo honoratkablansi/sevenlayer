@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 15"
+community: "Community 12"
 location: "Chapter 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_15
+  - community/Community_12
 ---
 
 # Ethereum KZG Summoning of 2023 (141,416 participants)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Trusted Setup Ceremony]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_15
+#graphify/document #graphify/EXTRACTED #community/Community_12

@@ -1,36 +1,34 @@
 ---
 type: community
-cohesion: 0.17
-members: 21
+cohesion: 0.18
+members: 19
 ---
 
 # Community 57
 
-**Cohesion:** 0.17 - loosely connected
-**Members:** 21 nodes
+**Cohesion:** 0.18 - loosely connected
+**Members:** 19 nodes
 
 ## Members
-- [[BGM17 - Bowe, Gabizon, Miers scalable MPC for zk-SNARK params in random beacon model]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
-- [[Beacon-free ceremony removes BGM17 random beacon, biased SRS tolerated]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
-- [[GKM+18 - Groth, Kohlweiss, Maller, Meiklejohn, Miers Updatable and universal CRS]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
-- [[Knowledge-of-Exponent Assumption]] - paper - references/ch02/ref-06-groth16.pdf
-- [[Lemmas 4-5 trapdoor extraction for subvertible & updatable CRSs]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[Mary Maller]] - document - references/ch10/ref-36-sonic.pdf
-- [[Pi_dl discrete logarithm proof of knowledge (update PoK; pi=Grw, RO(phi))]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
-- [[Polynomial oracle O_poly (Laurent polynomial evaluation G{f(z)}, models SRS elements)]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
-- [[SRS update oracle O_srs (updatefinalize, honest-update-required-per-phase)]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
-- [[Snarky Ceremonies]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
-- [[Sonic Zero-Knowledge SNARKs from Linear-Size Universal and Updatable Structured Reference Strings]] - paper - references/ch10/ref-36-sonic.pdf
-- [[Straight-line simulation-extractability in (RO,d-Poly) model (Def 7, O_se + O_poly oracles)]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
-- [[Theorem 2 Pi_dl is complete, perfect ZK, straight-line SE under (1,0)-dlog in AGM+RO]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
-- [[Transparent random oracle RO_0RO_1 (programmable weakening; simulator learns r)]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
-- [[Updatable CRS model (one honest updater suffices)]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[Updatable CRS syntax Setup, Update, VerifyCRS algorithms]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[Updatable and Universal Common Reference Strings with Applications to zk-SNARKs]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[Updatable and Universal Structured Reference String]] - document - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[Update knowledge soundness (Def 5, game GameA,EA_uks over phi_max phases)]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
-- [[q-Monomial Computational (q-MC) assumption]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[q-Monomial Knowledge (q-MK) assumption]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Automated translation layer compiling TensorFlow Lite models into halo2 circuits (columngate minimization, lookup-table sharing)]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[Evaluation claim ImageNet-scale MobileNet v2 SNARKs up to 79.2% top-5 accuracy; 10x-1000x lower proving time than prior work (Zen, vCNN, pvCNN, zkCNN)]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[Groth16  R1CS arithmetization (Groth 2016; Gennaro et al. 2013) older pairing-based SNARK + R1CS used by prior DNN-SNARK work (e.g. Zen)]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[MobileNet v2 (Sandler et al. 2018) inverted-residual CNN architecture used as the proved model]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[Neural-network arithmetization translating CNN layers (convolution, batchnorm, ReLU, residual, fully-connected) into ZK-SNARK arithmetic-circuit constraints]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[Optimization 1 lookup arguments for non-linearities (fused ClipAndScale division + ReLU) sharing one lookup table across layers]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[Optimization 2 sub-circuit reuse across layers via two shared custom gates (addition and dot-product with zero point) and shared lookup tables]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[Plonkup  Plonkish Circuit-Satisfiability Relation]] - paper - references/ch06/ref-19-protostar.pdf
+- [[Proof of model provenance committing to hidden weights via a SNARK-friendly hash so a provider can prove it ran a specific committed model]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[Proof-of-inference first ImageNet-scale ZK-SNARK proof of valid DNN inference (MobileNet v2), 79% top-5 accuracy, verifiable in ~10s]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[Protocol for verifying MLaaS model accuracy with hidden weights, using ZK-SNARKs plus stakingescrow economic incentives]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[Protocol for verifying MLaaS predictions in rounds, with random-contest sampling so a ZK-SNARK is not needed for every prediction]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[Sangria Moh23 (cited, Plonk degree-2 folding)]] - paper - references/ch06/ref-19-protostar.pdf
+- [[Scaling up Trustless DNN Inference with Zero-Knowledge Proofs (Kang, Hashimoto, Stoica, Sun, 2022)]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[Secure ML via MPC  homomorphic encryption  interactive proofs (Ghodsi SafetyNets 2017, Mohassel SecureML 2017, Knott CrypTen 2021, GAZELLE, Delphi) impractical against malicious adversaries o_cb9fbadd]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[Sumcheck-based DNN proof systems (zkCNNLiu 2021, vCNNLee 2020, pvCNNWeng 2022, Thaler 2013) custom IPSNARK protocols tailored to convolutions, limited to MNISTCIFAR-10]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[Use of the SNARK-friendly Poseidon hash to commit to hidden inputs andor weights inside the circuit]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[Verifiable  trustless DNN inference model consumer verifies that the model provider served correct predictions in an untrusted (MLaaS) setting]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[int8uint8 quantization with fixed-point (ab) scale approximation to avoid floating-point emulation in the prime field]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -40,24 +38,15 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 7 edges to [[_COMMUNITY_Community 18]]
-- 7 edges to [[_COMMUNITY_Community 43]]
-- 6 edges to [[_COMMUNITY_Community 15]]
-- 6 edges to [[_COMMUNITY_Community 82]]
-- 5 edges to [[_COMMUNITY_Community 101]]
-- 3 edges to [[_COMMUNITY_Community 38]]
-- 2 edges to [[_COMMUNITY_Community 39]]
-- 2 edges to [[_COMMUNITY_Community 126]]
-- 1 edge to [[_COMMUNITY_Community 67]]
-- 1 edge to [[_COMMUNITY_Community 5]]
-- 1 edge to [[_COMMUNITY_Community 56]]
-- 1 edge to [[_COMMUNITY_Community 62]]
-- 1 edge to [[_COMMUNITY_Community 68]]
-- 1 edge to [[_COMMUNITY_Community 84]]
+- 4 edges to [[_COMMUNITY_Community 65]]
+- 3 edges to [[_COMMUNITY_Community 77]]
+- 3 edges to [[_COMMUNITY_Community 35]]
+- 2 edges to [[_COMMUNITY_Community 6]]
+- 2 edges to [[_COMMUNITY_Community 26]]
 
 ## Top bridge nodes
-- [[Snarky Ceremonies]] - degree 21, connects to 6 communities
-- [[Updatable and Universal Common Reference Strings with Applications to zk-SNARKs]] - degree 16, connects to 6 communities
-- [[Sonic Zero-Knowledge SNARKs from Linear-Size Universal and Updatable Structured Reference Strings]] - degree 13, connects to 5 communities
-- [[Updatable and Universal Structured Reference String]] - degree 9, connects to 2 communities
-- [[Updatable CRS model (one honest updater suffices)]] - degree 7, connects to 2 communities
+- [[Scaling up Trustless DNN Inference with Zero-Knowledge Proofs (Kang, Hashimoto, Stoica, Sun, 2022)]] - degree 16, connects to 3 communities
+- [[Verifiable  trustless DNN inference model consumer verifies that the model provider served correct predictions in an untrusted (MLaaS) setting]] - degree 8, connects to 2 communities
+- [[Plonkup  Plonkish Circuit-Satisfiability Relation]] - degree 6, connects to 2 communities
+- [[Proof-of-inference first ImageNet-scale ZK-SNARK proof of valid DNN inference (MobileNet v2), 79% top-5 accuracy, verifiable in ~10s]] - degree 6, connects to 1 community
+- [[Sumcheck-based DNN proof systems (zkCNNLiu 2021, vCNNLee 2020, pvCNNWeng 2022, Thaler 2013) custom IPSNARK protocols tailored to convolutions, limited to MNISTCIFAR-10]] - degree 3, connects to 1 community

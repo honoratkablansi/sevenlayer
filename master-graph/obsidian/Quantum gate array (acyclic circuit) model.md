@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch07/ref-24-shor.pdf"
 type: "paper"
-community: "Community 93"
+community: "Community 70"
 location: "§2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_93
+  - community/Community_70
 ---
 
 # Quantum gate array (acyclic circuit) model
@@ -17,4 +17,4 @@ tags:
 - [[Quantum Fourier transform]] - `assumes` [EXTRACTED]
 - [[Quantum interference  superposition]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_93
+#graphify/paper #graphify/EXTRACTED #community/Community_70

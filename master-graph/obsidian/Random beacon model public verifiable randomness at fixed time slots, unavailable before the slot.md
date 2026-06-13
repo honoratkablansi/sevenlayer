@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-05-mpc-random-beacon.pdf"
 type: "paper"
-community: "Community 77"
+community: "Community 85"
 location: "§1; §3.2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_77
+  - community/Community_85
 ---
 
 # Random beacon model: public verifiable randomness at fixed time slots, unavailable before the slot
@@ -18,4 +18,4 @@ tags:
 - [[Random Beacon Model]] - `defines` [EXTRACTED]
 - [[u-co-resistance beacon output retains min-entropy at least k·logF_p - u under adversarial influence]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_77
+#graphify/paper #graphify/EXTRACTED #community/Community_85

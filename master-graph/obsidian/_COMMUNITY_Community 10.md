@@ -1,54 +1,58 @@
 ---
 type: community
-cohesion: 0.08
-members: 39
+cohesion: 0.07
+members: 43
 ---
 
 # Community 10
 
-**Cohesion:** 0.08 - loosely connected
-**Members:** 39 nodes
+**Cohesion:** 0.07 - loosely connected
+**Members:** 43 nodes
 
 ## Members
-- [[(2k-1)-Move Special-Sound Protocol with Algebraic Verifier]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Accumulation Scheme (P_acc, V_acc, D) for NARK Verifier with Slack mu and Error Commitment E]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Accumulation schemes BCMS20, BCL+21 recursive proof composition  PCD without succinct arguments; introduced accumulation term and k-folding]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
-- [[Branched-Gate Caching for Non-Uniform Error Terms (cost ~ C_pc not sum C_i)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[CVPi_sps High-Degree Verifier Compression (l checks - 1 degree-(d+2) check + 2 sqrt(l) degree-2 checks)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Circuit Selection Sub-Protocol Pi_select (program-counter one-hot, degree 2)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Claim 4.4 F(X) (degree log n, sum of length n) computable in O(n) field ops via binary-tree edge-labeling recursion]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
-- [[Claim 4.5 G(X) (degree dk) computable in O(dk log(dk)M + dknC) F-multiplications via FFTIFFT]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
-- [[Commit-and-Open Transform cmPi_sps (Lemma 2)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Cross Error-Correcting Terms e_j_{j=1}{d-1} as Accumulation Proof]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Folding many accumulators (§5) transpose sumcheck technique to fold k accumulators by linearly combining beta_j; prover O(kdM+nkdC)]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
-- [[Folding template additively homomorphic vector commitments; verifier randomly combines witness commitments, prover combines witnesses]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
-- [[High-Degree Custom Gate Relation Sub-Protocol Pi_GATE (degree d)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Homomorphic  Trapdoor Commitment Property]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[Homomorphic Sparse Error-Commitment Update for Lookups (O(l) indep. of T)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[HyperNova KS23 folding via randomized sumcheck; verifier d log n field ops, log n RO hashes]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
-- [[IVC Val08 and PCD CT10 original motivation for folding schemes]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
-- [[Lemma 3.2 special-soundness for R' (collision-augmented relation) implies knowledge-soundness with negl error for R]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
-- [[Lemma 4.2 f(sum a_i L_i(X)) = sum f(a_i) L_i(X) + Z(X) Q(X) (polynomials commute mod Z with Lagrange multiplication)]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
-- [[Log-Derivative Lookup Argument (Habock)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Lookup Relation Sub-Protocol Pi_LK (3-move, degree 2, prover indep. of table size T)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Multi-instance (k-)folding folding k instances in one folding operation]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
-- [[Nova KST21 recursive ZK arguments from folding; R_acc = relaxed committed R1CS]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
-- [[Permutation Relation Sub-Protocol Pi_sigma (degree 1)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[ProtoGalaxy Efficient ProtoStar-style folding of multiple instances (Eagen & Gabizon, ePrint 20231106)]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
-- [[Protostar Non-Uniform IVC Scheme for Multi-Circuit Plonkup R_mplkup]] - paper - references/ch06/ref-19-protostar.pdf
-- [[RO-NARK FScmPi_sps from Special-Sound Protocol]] - paper - references/ch06/ref-19-protostar.pdf
-- [[R_rand relation randomized relaxed relation with ((phi,beta,e),omega) s.t. sum_i pow_i(beta) f_i(omega)=e]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
-- [[Relaxed Algebraic Verifier Predicate sum mu(d-j) f_j = e]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Sublinear recursive verifier marginal work log n field ops + O(1) hashes; constant per-instance ops for constant-degree gates]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
-- [[Sumcheck-Style Error-Term Computation Algorithm O(d2 log d)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Theorem 2 Accumulation Knowledge Soundness (d+1)-special-sound, error (Q+1)(d+1)F]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Theorem 4.3 ProtoGalaxy is an (Rk - R_rand) accumulationfolding scheme (complete and knowledge-sound)]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
-- [[Transition from monomial to Lagrange base associate each folded instance with a distinct Lagrange coefficient L_i(X)]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
-- [[Vanishing polynomial Z(X) of subgroup H; decomposition G(X)=F(alpha)L_0(X)+Z(X)K(X) avoids exponentially growing degree]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
-- [[Vector-Valued Lookup Sub-Protocol Pi_VLK (5-move, degree 3)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[AFK22 Attema, Fehr, Klooss Fiat-Shamir transformation of multi-round interactive proofs (special-soundness - NIROM knowledge-soundness)]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
-- [[pow_i polynomial and powers-of-beta vector; ProtoGalaxy avoids committing to the power vector (unlike ProtoStar)]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
-- [[§5 alternative construction for large k replace mod-Z(X) vanishing check with a sumcheck over a size-k domain; verifier O(log n + d log k) ops, log k hashes]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
+- [[BGN scheme cost comparison prime-order 28x faster despite 12 pairings]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[BN254  embedding-degree-12 BN pairings drop below 128-bit security]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[Barreto-Naehrig Curves]] - document - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[Benchmark composite-order pairing 254x slower (1.27s vs 5.05ms) at 128-bit]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[Comparing the Pairing Efficiency over Composite-Order and Prime-Order Elliptic Curves]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[Composite-Order Bilinear Groups]] - document - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[Composite-extension factorization F_{pn}=F_{(pη)κ}, gcd(η,κ)=1]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[ConjugationGJL polynomial selection Barbulescu-Gaudry-Guillevic-Morain]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[Distortion map phi(x,y)-(-x,Zy) giving symmetric pairing]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[Doubly-extended tower number field K_f = Q(ι,α_f)]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[Elliptic Curve Method (ECM) factoring attack]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[Extended Tower Number Field Sieve A New Complexity for the Medium Prime Case]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[Finite Field Arithmetic]] - document - proving-nothing.md
+- [[Freeman composite-to-prime-order conversion (cited prior work)]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[Individual logarithm smoothing + special-q descent]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[Lemma 1 (norm size bound via iterated resultants)]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[Lenstra modulussecurity recommendations (cited prior work)]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[Lewko generic conversion, Eurocrypt 2012 (cited prior work)]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[Lewko-Waters HIBE cost prime-order 10x-192x faster]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[LibCryptoLCH Cx86-64 asm implementation (Thales)]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[Mandate to update pairing key sizes (c=64→48, factor ~1.33; SNFS factor 2)]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[MexTNFS multiple-number-field variant (c≈1.71)]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[Multi-prime RSA modulus sizing (2-8 primes, extends Lenstra)]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[NFS medium-prime case (JLSV) Joux-Lercier-Smart-Vercauteren]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[NFSECM crossover ECM beats NFS at 5+ prime factors]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[Number Field Sieve]] - document - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[Optimal ate pairing]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[Optimal ate pairing operation count on BN curve (Alg.1)]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[Polynomial selection step (h,f,g) — JLSV2 and Conjugation methods]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[Recommendation avoid composite-order groups whenever possible]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[Relation collection over R=Zth(t), B-smooth norms]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[SexTNFS for special-form (d-SNFS) characteristic, L_Q(13,(329){13})]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[Special NFS in F_{pn} Joux-Pierrot]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[Subgroup decision assumption]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[Supersingular elliptic curve]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[Supersingular k=2 curve construction p=hN-1, E y2=x3-x]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[Tate pairing]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[Tate pairing on composite-order supersingular curve (Alg.2)]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[Theorem 1 (exTNFS complexity table)]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[Three Multiplicative Sources of Proving Overhead]] - document - proving-nothing.md
+- [[Tower Number Field Sieve (TNFS) Barbulescu-Gaudry-Kleinjung]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[exTNFS (Extended Tower Number Field Sieve)]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[exTNFS-Conj medium-prime complexity L_Q(13,(489){13})]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -58,15 +62,20 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 16 edges to [[_COMMUNITY_Community 0]]
-- 3 edges to [[_COMMUNITY_Community 69]]
-- 2 edges to [[_COMMUNITY_Community 59]]
-- 1 edge to [[_COMMUNITY_Community 5]]
-- 1 edge to [[_COMMUNITY_Community 76]]
+- 4 edges to [[_COMMUNITY_Community 22]]
+- 3 edges to [[_COMMUNITY_Community 70]]
+- 2 edges to [[_COMMUNITY_Community 11]]
+- 2 edges to [[_COMMUNITY_Community 8]]
+- 1 edge to [[_COMMUNITY_Community 68]]
+- 1 edge to [[_COMMUNITY_Community 95]]
+- 1 edge to [[_COMMUNITY_Community 1]]
+- 1 edge to [[_COMMUNITY_Community 12]]
+- 1 edge to [[_COMMUNITY_Community 0]]
+- 1 edge to [[_COMMUNITY_Community 13]]
 
 ## Top bridge nodes
-- [[Protostar Non-Uniform IVC Scheme for Multi-Circuit Plonkup R_mplkup]] - degree 11, connects to 2 communities
-- [[Accumulation Scheme (P_acc, V_acc, D) for NARK Verifier with Slack mu and Error Commitment E]] - degree 7, connects to 2 communities
-- [[ProtoGalaxy Efficient ProtoStar-style folding of multiple instances (Eagen & Gabizon, ePrint 20231106)]] - degree 20, connects to 1 community
-- [[(2k-1)-Move Special-Sound Protocol with Algebraic Verifier]] - degree 11, connects to 1 community
-- [[Homomorphic  Trapdoor Commitment Property]] - degree 5, connects to 1 community
+- [[Extended Tower Number Field Sieve A New Complexity for the Medium Prime Case]] - degree 7, connects to 5 communities
+- [[Finite Field Arithmetic]] - degree 7, connects to 3 communities
+- [[Three Multiplicative Sources of Proving Overhead]] - degree 4, connects to 3 communities
+- [[exTNFS (Extended Tower Number Field Sieve)]] - degree 15, connects to 2 communities
+- [[Comparing the Pairing Efficiency over Composite-Order and Prime-Order Elliptic Curves]] - degree 6, connects to 1 community

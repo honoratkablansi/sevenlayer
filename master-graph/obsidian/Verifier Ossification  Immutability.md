@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 79"
+community: "Community 17"
 location: "Chapter 8"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_79
+  - community/Community_17
 ---
 
 # Verifier Ossification / Immutability
@@ -16,4 +16,4 @@ tags:
 - [[L2Beat Stages Framework]] - `conceptually_related_to` [EXTRACTED]
 - [[Midnight (Privacy Blockchain)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_79
+#graphify/document #graphify/EXTRACTED #community/Community_17

@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch01-the-deepest-question.md"
 type: "document"
-community: "Community 5"
+community: "Community 69"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_5
+  - community/Community_69
 ---
 
 # The Deepest Question
@@ -26,7 +26,7 @@ tags:
 - [[The Promise of Provable and Programmable Secrets]] - `part_of` [EXTRACTED]
 - [[The Seven Layers at a Glance]] - `references` [EXTRACTED]
 - [[Tornado Cash]] - `conceptually_related_to` [EXTRACTED]
-- [[Trusted Setup Ceremony_2]] - `conceptually_related_to` [EXTRACTED]
+- [[Trusted Setup Ceremony]] - `conceptually_related_to` [EXTRACTED]
 - [[Zcash]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_5
+#graphify/document #graphify/EXTRACTED #community/Community_69

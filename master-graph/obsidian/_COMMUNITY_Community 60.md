@@ -1,35 +1,33 @@
 ---
 type: community
-cohesion: 0.14
-members: 20
+cohesion: 0.17
+members: 18
 ---
 
 # Community 60
 
-**Cohesion:** 0.14 - loosely connected
-**Members:** 20 nodes
+**Cohesion:** 0.17 - loosely connected
+**Members:** 18 nodes
 
 ## Members
-- [[ExpandA  ExpandS  ExpandMask SHAKE-based pseudorandom sampling of matrix A from ρ, secrets s1s2, and mask y]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[FIPS 204 Module-Lattice-Based Digital Signature Standard (ML-DSA), published 2024-08-13]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[Fiat-Shamir With Aborts construction (Schnorr-like signature with rejection sampling on the response)]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[HashML-DSA domain-separated pre-hash variant signing PH(M) for largestreamed messages]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[Hedged (default, fresh + precomputed randomness) vs deterministic signing variant; same Verify works for both]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[Hint vector h ∈ R2k (MakeHintUseHint) lets verifier reconstruct high bits w1 despite t1 compression]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[ML-DSA (Module-Lattice Digital Signature Algorithm)]] - document - references/ch14/ref-64-fips-204.pdf
-- [[ML-DSA derived from CRYSTALS-DILITHIUM v3.1 (Round-3 PQC selection); differences in Appendix D]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[ML-DSA-44 parameter set (k,ℓ)=(4,4), η=2, τ=39, λ=128, Category 2; pk 1312 B, sk 2560 B, sig 2420 B]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[ML-DSA-65 parameter set (k,ℓ)=(6,5), η=4, τ=49, λ=192, Category 3; pk 1952 B, sk 4032 B, sig 3309 B]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[ML-DSA-87 parameter set (k,ℓ)=(8,7), η=2, τ=60, λ=256, Category 5; pk 2592 B, sk 4896 B, sig 4627 B]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[ML-DSA.KeyGen (Alg 16.1) expand seed ξ - seed ρ for A, seeds for s1,s2,K; t = A·s1 + s2, publish compressed t1]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[ML-DSA.Sign (Alg 26.2) commit w=Ay, challenge c~ from H(w1μ), response z = y + c·s1, with rejection-sampling abort loop]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[ML-DSA.Verify (Alg 36.3) recompute w1' via UseHint from z, t1, c; accept iff z is short and c~ matches H(w1'μ)]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[Message representative μ = H(H(pk)  M); signing μ not M provides BUFF  beyond-unforgeability properties]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[Power2Round  Decompose  HighBits  LowBits drop d=13 low-order bits of t and round w to multiples of α=2γ2]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[Rejection sampling abort and restart with new mask y if z (or r0) coefficients fall outside bound, removing bias toward secret s1s2]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[SampleInBall (Alg 29) challenge polynomial c with exactly τ nonzero ±1 coefficients, derived from c~]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[Strong existential unforgeability under chosen-message attack (SUF-CMA) plus BUFF properties]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[Uses SHAKE128 and SHAKE256 (FIPS 202) as XOFs for all expansion, hashing, and challenge derivation]] - paper - references/ch14/ref-64-fips-204.pdf
+- [[Accumulation Scheme Completeness and Soundness Properties]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
+- [[Accumulation Scheme for a Non-Interactive Argument (Def 4.1)]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
+- [[Accumulation Scheme for a Polynomial Commitment (Def 4.2)]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
+- [[Accumulation Schemes]] - document - references/ch06/ref-19-protostar.pdf
+- [[Amortization strategy helper collapses m linear-time commitment-opening checks into one]] - paper - references/recursion/ch1/ref-05-halo.pdf
+- [[BCCT13 Recursive Composition and Bootstrapping for SNARKs and PCD]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
+- [[COS20 Fractal - Post-Quantum Transparent Recursive Proofs from Holography]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
+- [[Deferred inner-product-argument check G = s,G = Commit(sigma, g(X,u_1..u_k)) opened in next argument]] - paper - references/recursion/ch1/ref-05-halo.pdf
+- [[Formal Accumulation Scheme Definition AS=(G,I,P,V,D) for (Phi,H)]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
+- [[Nested amortization deferringcollapsing linear-time verification through recursive public inputs]] - paper - references/recursion/ch1/ref-05-halo.pdf
+- [[Pickles  Mina]] - document - recursion/recursion-outline.md
+- [[Predicate-Efficient SNARK]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
+- [[Proof-Carrying Data from Accumulation Schemes (BCMS20)]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
+- [[Relaxed Succinctness deferred verification via sublinear accumulation verifier]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
+- [[Theorem 1 (informal) SNARK with accumulation scheme compiles to PCD]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
+- [[Theorem 2 (informal) accumulation for predicate + predicate-efficient SNARK yields accumulation for the SNARK]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
+- [[Theorem 5.2 transformation T from SNARK + accumulation scheme to PCD for constant-depth predicates]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
+- [[Zero Knowledge for Accumulation Schemes (simulator, verification proof piV)]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -39,15 +37,25 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 3 edges to [[_COMMUNITY_Community 8]]
-- 3 edges to [[_COMMUNITY_Community 51]]
-- 3 edges to [[_COMMUNITY_Community 104]]
-- 1 edge to [[_COMMUNITY_Community 5]]
-- 1 edge to [[_COMMUNITY_Community 14]]
+- 4 edges to [[_COMMUNITY_Community 20]]
+- 4 edges to [[_COMMUNITY_Community 14]]
+- 3 edges to [[_COMMUNITY_Community 82]]
+- 3 edges to [[_COMMUNITY_Community 0]]
+- 3 edges to [[_COMMUNITY_Community 26]]
+- 3 edges to [[_COMMUNITY_Community 23]]
+- 2 edges to [[_COMMUNITY_Community 68]]
+- 2 edges to [[_COMMUNITY_Community 52]]
+- 2 edges to [[_COMMUNITY_Community 109]]
+- 1 edge to [[_COMMUNITY_Community 32]]
+- 1 edge to [[_COMMUNITY_Community 16]]
+- 1 edge to [[_COMMUNITY_Community 112]]
+- 1 edge to [[_COMMUNITY_Community 45]]
+- 1 edge to [[_COMMUNITY_Community 15]]
+- 1 edge to [[_COMMUNITY_Community 110]]
 
 ## Top bridge nodes
-- [[ML-DSA (Module-Lattice Digital Signature Algorithm)]] - degree 18, connects to 3 communities
-- [[ML-DSA.Sign (Alg 26.2) commit w=Ay, challenge c~ from H(w1μ), response z = y + c·s1, with rejection-sampling abort loop]] - degree 8, connects to 1 community
-- [[Fiat-Shamir With Aborts construction (Schnorr-like signature with rejection sampling on the response)]] - degree 4, connects to 1 community
-- [[ML-DSA.KeyGen (Alg 16.1) expand seed ξ - seed ρ for A, seeds for s1,s2,K; t = A·s1 + s2, publish compressed t1]] - degree 4, connects to 1 community
-- [[ML-DSA derived from CRYSTALS-DILITHIUM v3.1 (Round-3 PQC selection); differences in Appendix D]] - degree 2, connects to 1 community
+- [[Accumulation Schemes]] - degree 24, connects to 9 communities
+- [[Proof-Carrying Data from Accumulation Schemes (BCMS20)]] - degree 10, connects to 4 communities
+- [[Nested amortization deferringcollapsing linear-time verification through recursive public inputs]] - degree 5, connects to 3 communities
+- [[Predicate-Efficient SNARK]] - degree 4, connects to 2 communities
+- [[BCCT13 Recursive Composition and Bootstrapping for SNARKs and PCD]] - degree 3, connects to 2 communities

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch09/ref-30-kachina.pdf"
 type: "paper"
-community: "Community 87"
+community: "Community 31"
 location: "§3.2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_87
+  - community/Community_31
 ---
 
 # Ideal smart contract functionality F_sc^{Delta,Lambda}
@@ -18,4 +18,4 @@ tags:
 - [[Theorem 1 Kachina UC-emulates F_sc]] - `proves` [EXTRACTED]
 - [[Universal Composability (UC)]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_87
+#graphify/paper #graphify/EXTRACTED #community/Community_31

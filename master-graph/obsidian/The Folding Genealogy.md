@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch06-the-folding-genealogy.md"
 type: "document"
-community: "Community 8"
+community: "Community 0"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_8
+  - community/Community_0
 ---
 
 # The Folding Genealogy
@@ -16,7 +16,7 @@ tags:
 - [[CycleFold]] - `defines` [EXTRACTED]
 - [[Dan Boneh]] - `references` [EXTRACTED]
 - [[Folding Scheme]] - `references` [EXTRACTED]
-- [[Goldilocks Field_1]] - `references` [EXTRACTED]
+- [[Goldilocks Field]] - `references` [EXTRACTED]
 - [[HyperNova]] - `defines` [EXTRACTED]
 - [[Incrementally Verifiable Computation (IVC)]] - `references` [EXTRACTED]
 - [[Lattice Cryptography]] - `references` [EXTRACTED]
@@ -34,7 +34,7 @@ tags:
 - [[Recursion vs. Folding Russian Dolls and Snowballs]] - `references` [EXTRACTED]
 - [[SNARK Recursion vs. Folding The Full Picture]] - `references` [EXTRACTED]
 - [[Srinath Setty]] - `references` [EXTRACTED]
-- [[Sum-Check Protocol_1]] - `references` [EXTRACTED]
+- [[Sum-Check Protocol]] - `references` [EXTRACTED]
 - [[SuperNova (Non-Uniform IVC)]] - `defines` [EXTRACTED]
 - [[Symphony]] - `defines` [EXTRACTED]
 - [[The Post-Quantum Horizon]] - `references` [EXTRACTED]
@@ -42,4 +42,4 @@ tags:
 - [[The Seven Questions That Remain Open]] - `references` [EXTRACTED]
 - [[The Structural Advantage of Lattices]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_8
+#graphify/document #graphify/EXTRACTED #community/Community_0

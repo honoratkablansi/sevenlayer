@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 6"
+community: "Community 7"
 location: "Chapter 5"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_6
+  - community/Community_7
 ---
 
 # LogUp-GKR
@@ -17,6 +17,6 @@ tags:
 - [[SP1 Hypercube]] - `references` [EXTRACTED]
 - [[SP1 Hypercube (Succinct)]] - `references` [EXTRACTED]
 - [[SP1 Hypercube Proving Ethereum in Real-Time (Succinct Labs)]] - `references` [EXTRACTED]
-- [[Sum-Check Protocol_1]] - `conceptually_related_to` [EXTRACTED]
+- [[Sum-Check Protocol]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_6
+#graphify/document #graphify/EXTRACTED #community/Community_7

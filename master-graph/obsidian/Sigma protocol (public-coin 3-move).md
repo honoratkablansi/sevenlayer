@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf"
 type: "paper"
-community: "Community 40"
+community: "Community 25"
 location: "§2.3.2 / Fig 3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_40
+  - community/Community_25
 ---
 
 # Sigma protocol (public-coin 3-move)
@@ -18,4 +18,4 @@ tags:
 - [[Schnorr proof of knowledge of discrete logarithm]] - `conceptually_related_to` [EXTRACTED]
 - [[Zero-Knowledge Proof]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_40
+#graphify/paper #graphify/EXTRACTED #community/Community_25

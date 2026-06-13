@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch01/ref-03-sok-snark-vulnerabilities.pdf"
 type: "paper"
-community: "Community 20"
+community: "Community 75"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_20
+  - community/Community_75
 ---
 
 # SoK: What Don't We Know? Understanding Security Vulnerabilities in SNARKs
@@ -24,4 +24,4 @@ tags:
 - [[The Promise of Provable and Programmable Secrets]] - `cites` [EXTRACTED]
 - [[Zero-Knowledge Proof]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_20
+#graphify/paper #graphify/EXTRACTED #community/Community_75

@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch06/ref-49-nightstream.md"
 type: "document"
-community: "Community 0"
+community: "Community 15"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Community_15
 ---
 
 # Nightstream: Lattice-Based Folding for CCS (LFDT-Nightstream)
@@ -18,7 +18,7 @@ tags:
 - [[Layer 5 -- The Sealed Certificate]] - `references` [EXTRACTED]
 - [[Post-Quantum Cryptography]] - `references` [EXTRACTED]
 - [[Recursion (proof recursion in zkVMs)]] - `references` [EXTRACTED]
-- [[Sum-Check Protocol_1]] - `references` [EXTRACTED]
+- [[Sum-Check Protocol]] - `references` [EXTRACTED]
 - [[zkVM]] - `implements` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/document #graphify/EXTRACTED #community/Community_15

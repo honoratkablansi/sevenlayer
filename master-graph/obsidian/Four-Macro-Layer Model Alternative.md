@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 11"
+community: "Community 87"
 location: "Chapter 14"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_11
+  - community/Community_87
 ---
 
 # Four-Macro-Layer Model Alternative
@@ -15,4 +15,4 @@ tags:
 - [[Q7 Is Seven the Right Number of Layers]] - `introduces` [EXTRACTED]
 - [[Seven-Layer Trust Model]] - `compares` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_11
+#graphify/document #graphify/EXTRACTED #community/Community_87

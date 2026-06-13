@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch2/ref-44-supernova.pdf"
 type: "paper"
-community: "Community 53"
+community: "Community 47"
 location: "§1.2 (computational model)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_53
+  - community/Community_47
 ---
 
 # Per-instruction step functions {F_1,...,F_l} plus control function phi; each F_j verifies one instruction type, cost independent of l
@@ -17,4 +17,4 @@ tags:
 - [[Non-uniform IVC (NIVC) generalization of IVC where each step proves a relation chosen from a set, selected by a control function]] - `defines` [EXTRACTED]
 - [[R1CS (Rank-1 Constraint Systems)]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_53
+#graphify/paper #graphify/EXTRACTED #community/Community_47

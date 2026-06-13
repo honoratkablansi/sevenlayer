@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 25"
+community: "Community 8"
 location: "Chapter 5"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_25
+  - community/Community_8
 ---
 
 # FRI Commitment Scheme
@@ -20,8 +20,7 @@ tags:
 - [[Brevis Pico Prism]] - `references` [EXTRACTED]
 - [[Choreographing the Act]] - `references` [EXTRACTED]
 - [[Circle FRI low-degree test  IOP of proximity (Protocol 1 & 2)]] - `conceptually_related_to` [EXTRACTED]
-- [[Circle STARKs]] - `implements` [EXTRACTED]
-- [[Circle STARKs_1]] - `conceptually_related_to` [EXTRACTED]
+- [[Circle STARKs]] - `conceptually_related_to` [EXTRACTED]
 - [[Circle STARKs and Stwo A Generational Leap]] - `references` [EXTRACTED]
 - [[Collision-Resistant Hash Functions]] - `references` [EXTRACTED]
 - [[Cryptographic Primitives Trilemma]] - `compares` [EXTRACTED]
@@ -37,18 +36,16 @@ tags:
 - [[Layer 1 -- Building the Stage]] - `references` [EXTRACTED]
 - [[Layer 5 -- The Sealed Certificate]] - `references` [EXTRACTED]
 - [[Layer 6 -- The Deep Craft]] - `references` [EXTRACTED]
-- [[Lookup Arguments_1]] - `references` [EXTRACTED]
+- [[Lookup Argument]] - `references` [EXTRACTED]
 - [[Maturity and Readiness]] - `references` [EXTRACTED]
 - [[Mersenne-31 Field (M31)]] - `conceptually_related_to` [EXTRACTED]
 - [[Midnight -- The Privacy Theater]] - `references` [EXTRACTED]
 - [[Midnight's BLS12-381 Stage]] - `conceptually_related_to` [EXTRACTED]
 - [[Open Questions and the Road Ahead]] - `references` [EXTRACTED]
 - [[Option-Value Analysis]] - `conceptually_related_to` [EXTRACTED]
-- [[Path Two Pure Transparent]] - `explains` [EXTRACTED]
-- [[Path Two Pure Transparent_1]] - `conceptually_related_to` [EXTRACTED]
+- [[Path Two Pure Transparent]] - `conceptually_related_to` [EXTRACTED]
 - [[Plonky2]] - `references` [EXTRACTED]
-- [[Polynomial Commitment Scheme_1]] - `introduces` [EXTRACTED]
-- [[Polynomial Commitment Scheme]] - `references` [EXTRACTED]
+- [[Polynomial Commitment Scheme]] - `introduces` [EXTRACTED]
 - [[Proofs, Arguments, and Zero-Knowledge (Justin Thaler, survey textbook)]] - `explains` [EXTRACTED]
 - [[RISC-V Convergence]] - `conceptually_related_to` [EXTRACTED]
 - [[Reed-Solomon Proximity Testing (RPT  low-degree testing) problem]] - `defines` [EXTRACTED]
@@ -79,10 +76,10 @@ tags:
 - [[The Trilemma -- And Its Dissolution]] - `references` [EXTRACTED]
 - [[Three Hardness Assumptions, Three Worlds]] - `references` [EXTRACTED]
 - [[Three zkVMs Through Seven Layers]] - `conceptually_related_to` [EXTRACTED]
-- [[Trust Decomposition Seven Weaker Assumptions_1]] - `conceptually_related_to` [EXTRACTED]
+- [[Trust Decomposition Seven Weaker Assumptions]] - `conceptually_related_to` [EXTRACTED]
 - [[Two Ways to Build a Stage]] - `conceptually_related_to` [EXTRACTED]
 - [[Where the Layers Collapse]] - `references` [EXTRACTED]
 - [[ZKML Provable Machine Learning (Research)]] - `references` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_25
+#graphify/document #graphify/EXTRACTED #community/Community_8

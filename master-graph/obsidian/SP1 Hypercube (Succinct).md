@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 6"
+community: "Community 7"
 location: "Chapter 11"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_6
+  - community/Community_7
 ---
 
 # SP1 Hypercube (Succinct)
@@ -27,17 +27,17 @@ tags:
 - [[Jagged PCS]] - `introduces` [EXTRACTED]
 - [[Layer 5 -- The Sealed Certificate]] - `references` [EXTRACTED]
 - [[LogUp-GKR]] - `references` [EXTRACTED]
-- [[Lookup Arguments_1]] - `references` [EXTRACTED]
+- [[Lookup Argument]] - `references` [EXTRACTED]
 - [[Open Questions and the Road Ahead]] - `references` [EXTRACTED]
 - [[Path One The Hybrid STARK-to-SNARK Pipeline]] - `references` [EXTRACTED]
-- [[Path Two Pure Transparent_1]] - `references` [EXTRACTED]
+- [[Path Two Pure Transparent]] - `references` [EXTRACTED]
 - [[Performance The Cost Collapse]] - `references` [EXTRACTED]
 - [[Plonky3]] - `references` [EXTRACTED]
 - [[Precompile (zkVM)]] - `references` [EXTRACTED]
 - [[Proving-as-a-Service The Prover Market (Production)]] - `references` [EXTRACTED]
 - [[RISC-V ISA]] - `references` [EXTRACTED]
 - [[RISC-V architecture]] - `references` [EXTRACTED]
-- [[Real-Time Ethereum Proving_1]] - `references` [EXTRACTED]
+- [[Real-Time Ethereum Proving]] - `references` [EXTRACTED]
 - [[Real-time Ethereum proving solved (12s)]] - `references` [EXTRACTED]
 - [[SP1 Hypercube]] - `conceptually_related_to` [EXTRACTED]
 - [[STARK-to-SNARK Groth16 wrap]] - `references` [EXTRACTED]
@@ -53,11 +53,11 @@ tags:
 - [[The Promise of Provable and Programmable Secrets]] - `references` [EXTRACTED]
 - [[The Sumcheck Protocol The Hidden Foundation]] - `references` [EXTRACTED]
 - [[The Three Frontiers]] - `references` [EXTRACTED]
-- [[The Witness Gap_1]] - `explains` [EXTRACTED]
+- [[The Witness Gap]] - `explains` [EXTRACTED]
 - [[Three zkVMs Through Seven Layers]] - `references` [EXTRACTED]
-- [[Trust Decomposition Seven Weaker Assumptions_1]] - `references` [EXTRACTED]
+- [[Trust Decomposition Seven Weaker Assumptions]] - `references` [EXTRACTED]
 - [[zkVM]] - `implements` [EXTRACTED]
 - [[zkVM Landscape Table (March 2026)]] - `references` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_6
+#graphify/document #graphify/EXTRACTED #community/Community_7

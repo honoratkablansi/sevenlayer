@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-81-wesolowski-vdf.pdf"
 type: "paper"
-community: "Community 1"
+community: "Community 4"
 location: "§4 (3-step interaction, Algorithms 1-3)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_1
+  - community/Community_4
 ---
 
 # Wesolowski public-coin protocol: verifier samples prime l, checks pi^l g^r = y
@@ -15,4 +15,4 @@ tags:
 - [[Fiat-Shamir Transform]] - `assumes` [EXTRACTED]
 - [[Proof of exponentiation (short proof pi = g{floor(2tl)})]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_1
+#graphify/paper #graphify/EXTRACTED #community/Community_4

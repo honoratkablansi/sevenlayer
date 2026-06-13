@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-46-zk-memory-algebraic-proofs.pdf"
 type: "paper"
-community: "Community 34"
+community: "Community 38"
 location: "§5.1, Protocol 2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_34
+  - community/Community_38
 ---
 
 # Pi_active: active-cell selection via H_r permutation proofs, V-cost 3N+2A+O(1)
@@ -15,4 +15,4 @@ tags:
 - [[Grand Product Argument (accumulator polynomial Z)]] - `assumes` [EXTRACTED]
 - [[Persistent RAM AIP (committed initialfinal states)]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_34
+#graphify/paper #graphify/EXTRACTED #community/Community_38

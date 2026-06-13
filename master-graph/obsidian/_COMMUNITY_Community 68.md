@@ -1,33 +1,32 @@
 ---
 type: community
-cohesion: 0.12
-members: 18
+cohesion: 0.16
+members: 17
 ---
 
 # Community 68
 
-**Cohesion:** 0.12 - loosely connected
-**Members:** 18 nodes
+**Cohesion:** 0.16 - loosely connected
+**Members:** 17 nodes
 
 ## Members
-- [[2-adicity of a curve (nu_2(r-1) large)]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
-- [[BCTV Succinct NIZK for a von Neumann architecture (USENIX Security 2014)]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
-- [[Bitansky-Canetti-Chiesa-Tromer Recursive composition and bootstrapping for SNARKs and PCD (STOC 2013)]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
-- [[Cycle of Elliptic Curves]] - document - references/recursion/ch1/ref-12-pasta-curves.md
-- [[Halo 2]] - document - references/recursion/ch1/ref-12-pasta-curves.md
-- [[Karabina-Teske 1-to-1 MNT4MNT6 correspondence (Theorem 3.3)]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
-- [[MNT4MNT6 2-cycle (E4, E6) at 80-bit security]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
-- [[Merkle-tree memory checking for delegated RAM]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
-- [[Pasta Cycle of Elliptic Curves]] - paper - references/ch06/ref-17-nova.pdf
-- [[Preprocessing zk-SNARK for arithmetic circuits]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
-- [[RAM compliance predicate Pi_{M,H} (per-step verification)]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
-- [[Scalable Zero Knowledge via Cycles of Elliptic Curves (BCTV14, CRYPTO 2014)]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
-- [[Scalable zk-SNARK (fully succinct + incrementally computable)]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
-- [[Sonobe Library]] - document - recursion/recursion-outline.md
-- [[The Pasta Curves for Halo 2 and Beyond (Hopwood, ECC 2020)]] - document - references/recursion/ch1/ref-12-pasta-curves.md
-- [[Tweedle Curves]] - document - references/recursion/ch1/ref-12-pasta-curves.md
-- [[Valiant Incrementally Verifiable Computation (TCC 2008)]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
-- [[vnTinyRAM evaluation ~26.2sstep, VIPS clock rate]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
+- [[4x4 Sudoku Running Example]] - document - proving-nothing.md
+- [[Brakedown GLS+21 & Orion XZS22 field-agnosticpost-quantum poly commitments instantiating SuperSpartan]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
+- [[Claim Field Choice Is a One-Way Door (Cascade Effect)]] - document - proving-nothing.md
+- [[HyperKZG  Mercury polynomial commitment]] - document - references/recursion/ch2/ref-43-nova-implementation.md
+- [[KZG10 constant-size polynomial commitments]] - paper - references/ch14/ref-65-greyhound.pdf
+- [[KZG10 Constant-Size Commitments to Polynomials]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
+- [[Kate, Zaverucha, Goldberg Constant-size commitments to polynomials 30]] - paper - references/recursion/ch1/ref-05-halo.pdf
+- [[Layer 6 The Deep Craft (Cryptographic Primitives)]] - document - proving-nothing.md
+- [[PC_AGM bilinear-group (KZG) polynomial commitment with pairing-batching accumulation]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
+- [[PC_DL discrete-log polynomial commitment with accumulation (IPA-based)]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
+- [[Polynomial Commitment Scheme]] - document - proving-nothing.md
+- [[The Seven-Layer ZK Stack Model]] - document - proving-nothing.md
+- [[Theorem 3 (informal) ZK accumulation schemes for PC_DL and PC_AGM in the ROM]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
+- [[Theorem 3 family of preprocessing SNARKs for CCS via PIOP + sparse poly commitment + Fiat-Shamir]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
+- [[Trust-Minimization Thesis (decompose, not eliminate trust)]] - document - proving-nothing.md
+- [[Universal setup  Powers of Tau (SRS)]] - document - references/recursion/ch2/ref-43-nova-implementation.md
+- [[Zero-Finding Games Lemma 3.3 (security of PC accumulation in ROM)]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -37,21 +36,40 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 4 edges to [[_COMMUNITY_Community 13]]
-- 3 edges to [[_COMMUNITY_Community 0]]
-- 2 edges to [[_COMMUNITY_Community 42]]
-- 2 edges to [[_COMMUNITY_Community 36]]
+- 5 edges to [[_COMMUNITY_Community 11]]
+- 5 edges to [[_COMMUNITY_Community 51]]
+- 5 edges to [[_COMMUNITY_Community 0]]
+- 4 edges to [[_COMMUNITY_Community 12]]
+- 4 edges to [[_COMMUNITY_Community 7]]
+- 3 edges to [[_COMMUNITY_Community 82]]
+- 3 edges to [[_COMMUNITY_Community 56]]
+- 3 edges to [[_COMMUNITY_Community 80]]
+- 2 edges to [[_COMMUNITY_Community 54]]
+- 2 edges to [[_COMMUNITY_Community 50]]
+- 2 edges to [[_COMMUNITY_Community 58]]
+- 2 edges to [[_COMMUNITY_Community 60]]
+- 2 edges to [[_COMMUNITY_Community 35]]
+- 1 edge to [[_COMMUNITY_Community 37]]
+- 1 edge to [[_COMMUNITY_Community 96]]
+- 1 edge to [[_COMMUNITY_Community 10]]
 - 1 edge to [[_COMMUNITY_Community 39]]
-- 1 edge to [[_COMMUNITY_Community 38]]
-- 1 edge to [[_COMMUNITY_Community 113]]
-- 1 edge to [[_COMMUNITY_Community 22]]
-- 1 edge to [[_COMMUNITY_Community 69]]
-- 1 edge to [[_COMMUNITY_Community 57]]
-- 1 edge to [[_COMMUNITY_Community 30]]
+- 1 edge to [[_COMMUNITY_Community 84]]
+- 1 edge to [[_COMMUNITY_Community 18]]
+- 1 edge to [[_COMMUNITY_Community 19]]
+- 1 edge to [[_COMMUNITY_Community 105]]
+- 1 edge to [[_COMMUNITY_Community 8]]
+- 1 edge to [[_COMMUNITY_Community 110]]
+- 1 edge to [[_COMMUNITY_Community 15]]
+- 1 edge to [[_COMMUNITY_Community 65]]
+- 1 edge to [[_COMMUNITY_Community 109]]
+- 1 edge to [[_COMMUNITY_Community 108]]
+- 1 edge to [[_COMMUNITY_Community 87]]
+- 1 edge to [[_COMMUNITY_Community 16]]
+- 1 edge to [[_COMMUNITY_Community 86]]
 
 ## Top bridge nodes
-- [[Pasta Cycle of Elliptic Curves]] - degree 10, connects to 4 communities
-- [[Preprocessing zk-SNARK for arithmetic circuits]] - degree 4, connects to 2 communities
-- [[Scalable Zero Knowledge via Cycles of Elliptic Curves (BCTV14, CRYPTO 2014)]] - degree 4, connects to 2 communities
-- [[2-adicity of a curve (nu_2(r-1) large)]] - degree 5, connects to 1 community
-- [[Scalable zk-SNARK (fully succinct + incrementally computable)]] - degree 4, connects to 1 community
+- [[Polynomial Commitment Scheme]] - degree 58, connects to 26 communities
+- [[Theorem 3 family of preprocessing SNARKs for CCS via PIOP + sparse poly commitment + Fiat-Shamir]] - degree 5, connects to 3 communities
+- [[The Seven-Layer ZK Stack Model]] - degree 5, connects to 2 communities
+- [[PC_DL discrete-log polynomial commitment with accumulation (IPA-based)]] - degree 4, connects to 1 community
+- [[Layer 6 The Deep Craft (Cryptographic Primitives)]] - degree 3, connects to 1 community

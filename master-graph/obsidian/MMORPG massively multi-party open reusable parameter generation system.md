@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-05-mpc-random-beacon.pdf"
 type: "paper"
-community: "Community 77"
+community: "Community 27"
 location: "Abstract; §1.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_77
+  - community/Community_27
 ---
 
 # MMORPG: massively multi-party open reusable parameter generation system
@@ -21,4 +21,4 @@ tags:
 - [[Scalable Multi-party Computation for zk-SNARK Parameters in the Random Beacon Model]] - `introduces` [EXTRACTED]
 - [[Trusted Setup Ceremony]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_77
+#graphify/paper #graphify/EXTRACTED #community/Community_27

@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/06-the-sealed-certificate.md"
 type: "document"
-community: "Community 25"
+community: "Community 15"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_25
+  - community/Community_15
 ---
 
 # Layer 5 -- The Sealed Certificate
@@ -17,8 +17,7 @@ tags:
 - [[BabyBear]] - `references` [EXTRACTED]
 - [[CCS (Customizable Constraint Systems)]] - `references` [EXTRACTED]
 - [[Case Study Midnight's Sealed Certificate]] - `part_of` [EXTRACTED]
-- [[Circle STARKs]] - `references` [EXTRACTED]
-- [[Circle STARKs_1]] - `cites` [EXTRACTED]
+- [[Circle STARKs]] - `cites` [EXTRACTED]
 - [[Circle STARKs and Stwo A Generational Leap]] - `part_of` [EXTRACTED]
 - [[Ethproofs ZK Proving Cost Tracker (Ethereum Foundation)]] - `cites` [EXTRACTED]
 - [[FRI Commitment Scheme]] - `references` [EXTRACTED]
@@ -27,7 +26,7 @@ tags:
 - [[Folding Scheme]] - `references` [EXTRACTED]
 - [[From Speed Race to Security Race]] - `part_of` [EXTRACTED]
 - [[Frozen Heart Forgery of Zero Knowledge Proofs (Trail of Bits, 2022)]] - `references` [EXTRACTED]
-- [[Goldilocks Field_1]] - `references` [EXTRACTED]
+- [[Goldilocks Field]] - `references` [EXTRACTED]
 - [[Groth16]] - `references` [EXTRACTED]
 - [[Halo 2  UltraPlonk]] - `references` [EXTRACTED]
 - [[HyperNova]] - `references` [EXTRACTED]
@@ -39,7 +38,6 @@ tags:
 - [[LatticeFold+ Faster, Simpler, Shorter Lattice-Based Folding for Succinct Proof Systems]] - `cites` [EXTRACTED]
 - [[LatticeFold A Lattice-based Folding Scheme and its Applications to Succinct Proof Systems]] - `cites` [EXTRACTED]
 - [[Mersenne-31  M31]] - `references` [EXTRACTED]
-- [[Mersenne-31 Field]] - `references` [EXTRACTED]
 - [[Midnight (Privacy Blockchain)]] - `references` [EXTRACTED]
 - [[Neo (Lattice Folding over Small Fields)]] - `references` [EXTRACTED]
 - [[Neo Lattice-based Folding Scheme for CCS over Small Fields and Pay-per-bit Commitments]] - `cites` [EXTRACTED]
@@ -51,11 +49,11 @@ tags:
 - [[On the Size of Pairing-Based Non-interactive Arguments]] - `cites` [EXTRACTED]
 - [[PLONK]] - `references` [EXTRACTED]
 - [[PLONK Permutations over Lagrange-bases for Oecumenical Noninteractive arguments of Knowledge]] - `cites` [EXTRACTED]
-- [[Poseidon Hash_1]] - `references` [EXTRACTED]
+- [[Poseidon Hash]] - `references` [EXTRACTED]
 - [[Post-Quantum Cryptography]] - `references` [EXTRACTED]
 - [[Protostar Generic Efficient AccumulationFolding for Special-sound Protocols]] - `cites` [EXTRACTED]
 - [[Proving Nothing]] - `part_of` [EXTRACTED]
-- [[Real-Time Ethereum Proving_1]] - `part_of` [EXTRACTED]
+- [[Real-Time Ethereum Proving]] - `part_of` [EXTRACTED]
 - [[Recursion (proof recursion in zkVMs)]] - `references` [EXTRACTED]
 - [[Recursion vs. Folding Russian Dolls and Snowballs]] - `part_of` [EXTRACTED]
 - [[SNARK Recursion vs. Folding The Full Picture]] - `part_of` [EXTRACTED]
@@ -69,7 +67,7 @@ tags:
 - [[Spartan]] - `references` [EXTRACTED]
 - [[Stwo]] - `references` [EXTRACTED]
 - [[Sudoku running example]] - `references` [EXTRACTED]
-- [[Sum-Check Protocol_1]] - `references` [EXTRACTED]
+- [[Sum-Check Protocol]] - `references` [EXTRACTED]
 - [[Symphony Scalable SNARKs in the Random Oracle Model from Lattice-Based High-Arity Folding]] - `cites` [EXTRACTED]
 - [[The Folding Genealogy]] - `part_of` [EXTRACTED]
 - [[The Hybrid Pipeline]] - `part_of` [EXTRACTED]
@@ -83,4 +81,4 @@ tags:
 - [[Zcash]] - `references` [EXTRACTED]
 - [[Zexe]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_25
+#graphify/document #graphify/EXTRACTED #community/Community_15

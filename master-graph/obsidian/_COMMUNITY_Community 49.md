@@ -1,37 +1,36 @@
 ---
 type: community
 cohesion: 0.11
-members: 22
+members: 21
 ---
 
 # Community 49
 
 **Cohesion:** 0.11 - loosely connected
-**Members:** 22 nodes
+**Members:** 21 nodes
 
 ## Members
-- [[ASP construction strategies (add-with-delayexclude-bad, $Nmonthperson, trusted-community, real-time AI scoring)]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
-- [[Anonymity set]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
-- [[Association Set Provider (ASP) intermediary]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
-- [[Association set (custom set of possible fund origins)]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
-- [[Bilateral direct proof (size-one association set; timestamping-service variant)]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
-- [[Blockchain Privacy and Regulatory Compliance Towards a Practical Equilibrium]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
-- [[Coin-IDnullifier secret scheme (L=hash(s+1), U=hash(s+2))]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
-- [[CoinJoin (Bitcoin mixing)]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
-- [[Derecho Privacy Pools with proof-carrying disclosures (Beal & Fisch)]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
-- [[Dissociation game (AliceBobCarlDavid vs Eve elimination example)]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
-- [[Dual Merkle-branch ZK proof (into total coin-ID root R and association-set root R_A)]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
-- [[Exclusion proof ('my withdrawal does not come from one of these deposits')]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
-- [[Linkable ring signature (Monero mixing)]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
-- [[Membership proof ('my withdrawal comes from one of these deposits')]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
-- [[Merkle Tree]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
-- [[Nadler & Schaer, Tornado Cash and blockchain privacy primer]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
-- [[Neutral, censorship-resistant infrastructure  jurisdiction-flexible compliance argument]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
-- [[Privacy Pools]] - document - proving-nothing.md
-- [[Rejected designs centralized access & system-wide entry allowlisting (central point of failure)]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
-- [[Separating equilibrium between compliant and non-compliant withdrawals]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
-- [[Sequential proofs  inclusion-delay handling via forwarded Merkle branches & secrets]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
-- [[Vitalik Buterin]] - document - references/ch08/ref-27-l2beat-stages.md
+- [[Age and nationality verification]] - document - references/recursion/ch3/ref-83-zkpassport-anon-aadhaar.md
+- [[Cited Mixicle (privacy-preserving oracle construction for binary options)]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Credential subject]] - document - references/recursion/ch3/ref-84-w3c-verifiable-credentials.md
+- [[EU eIDAS 2.0 (digital identity wallets, 450M users)]] - document - proving-nothing.md
+- [[Humanity Protocol (palm-vein biometric, $1.1B valuation)]] - document - proving-nothing.md
+- [[Issuer  Holder  Verifier roles]] - document - references/recursion/ch3/ref-84-w3c-verifiable-credentials.md
+- [[JSON-LD core data model and contexts]] - document - references/recursion/ch3/ref-84-w3c-verifiable-credentials.md
+- [[On-device proof generation (mobile passport NFC)]] - document - references/recursion/ch3/ref-83-zkpassport-anon-aadhaar.md
+- [[Partisia  Danish Student Credentials (ZK + MPC)]] - document - proving-nothing.md
+- [[Privacy Pools (0xbow, prove-innocence-not-identity)]] - document - proving-nothing.md
+- [[Selective Disclosure]] - document - proving-nothing.md
+- [[Three demo applications confidential binary option, legacy-to-anonymous age credential, price-discrimination claim]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Verifiable credentials]] - document - references/recursion/ch3/ref-84-w3c-verifiable-credentials.md
+- [[Verifiable presentation]] - document - references/recursion/ch3/ref-84-w3c-verifiable-credentials.md
+- [[W3C Verifiable Credentials Data Model v2.0]] - document - references/recursion/ch3/ref-84-w3c-verifiable-credentials.md
+- [[World (Worldcoin, iris-scanning orbs)]] - document - proving-nothing.md
+- [[ZK Identity]] - document - proving-nothing.md
+- [[ZKPassport  Anon-Aadhaar document-proof systems]] - document - references/recursion/ch3/ref-83-zkpassport-anon-aadhaar.md
+- [[ZKPassport SDK and QR verification card]] - document - references/recursion/ch3/ref-83-zkpassport-anon-aadhaar.md
+- [[Zero-knowledge proofs in verifiable credentials]] - document - references/recursion/ch3/ref-84-w3c-verifiable-credentials.md
+- [[disclose() Operator]] - document - proving-nothing.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -41,22 +40,24 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 2 edges to [[_COMMUNITY_Community 20]]
-- 2 edges to [[_COMMUNITY_Community 26]]
-- 2 edges to [[_COMMUNITY_Community 16]]
+- 6 edges to [[_COMMUNITY_Community 3]]
+- 3 edges to [[_COMMUNITY_Community 37]]
+- 3 edges to [[_COMMUNITY_Community 21]]
 - 2 edges to [[_COMMUNITY_Community 5]]
-- 2 edges to [[_COMMUNITY_Community 27]]
-- 1 edge to [[_COMMUNITY_Community 67]]
-- 1 edge to [[_COMMUNITY_Community 65]]
-- 1 edge to [[_COMMUNITY_Community 74]]
-- 1 edge to [[_COMMUNITY_Community 21]]
-- 1 edge to [[_COMMUNITY_Community 80]]
-- 1 edge to [[_COMMUNITY_Community 38]]
+- 2 edges to [[_COMMUNITY_Community 6]]
+- 2 edges to [[_COMMUNITY_Community 9]]
+- 2 edges to [[_COMMUNITY_Community 93]]
+- 2 edges to [[_COMMUNITY_Community 76]]
+- 2 edges to [[_COMMUNITY_Community 67]]
+- 1 edge to [[_COMMUNITY_Community 19]]
+- 1 edge to [[_COMMUNITY_Community 69]]
+- 1 edge to [[_COMMUNITY_Community 1]]
 - 1 edge to [[_COMMUNITY_Community 14]]
+- 1 edge to [[_COMMUNITY_Community 29]]
 
 ## Top bridge nodes
-- [[Privacy Pools]] - degree 12, connects to 5 communities
-- [[Blockchain Privacy and Regulatory Compliance Towards a Practical Equilibrium]] - degree 12, connects to 5 communities
-- [[Merkle Tree]] - degree 4, connects to 2 communities
-- [[Dual Merkle-branch ZK proof (into total coin-ID root R and association-set root R_A)]] - degree 5, connects to 1 community
-- [[Anonymity set]] - degree 3, connects to 1 community
+- [[Selective Disclosure]] - degree 22, connects to 9 communities
+- [[ZK Identity]] - degree 9, connects to 3 communities
+- [[Verifiable credentials]] - degree 5, connects to 3 communities
+- [[ZKPassport  Anon-Aadhaar document-proof systems]] - degree 7, connects to 2 communities
+- [[Three demo applications confidential binary option, legacy-to-anonymous age credential, price-discrimination claim]] - degree 4, connects to 2 communities

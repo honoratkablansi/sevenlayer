@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 22"
+community: "Community 12"
 location: "Chapter 7"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_22
+  - community/Community_12
 ---
 
 # Discrete Logarithm Problem (DLP)
@@ -14,7 +14,7 @@ tags:
 ## Connections
 - [[Hardness Assumption]] - `introduces` [EXTRACTED]
 - [[Inner Product Argument (IPABulletproofs)]] - `references` [EXTRACTED]
-- [[KZG Polynomial Commitment]] - `references` [EXTRACTED]
+- [[KZG Polynomial Commitments from pairings (with trusted setup); Dory transparent pairing-based scheme]] - `references` [EXTRACTED]
 - [[Shor's Algorithm  Quantum Threat]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_22
+#graphify/document #graphify/EXTRACTED #community/Community_12

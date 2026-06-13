@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 0"
+community: "Community 16"
 location: "Chapter 6"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Community_16
 ---
 
 # ProtoStar
@@ -19,10 +19,10 @@ tags:
 - [[Folding Scheme]] - `conceptually_related_to` [EXTRACTED]
 - [[HyperNova Recursive Arguments for Customizable Constraint Systems]] - `cites` [EXTRACTED]
 - [[Knowledge-Soundness]] - `references` [EXTRACTED]
-- [[Lookup Arguments]] - `references` [EXTRACTED]
+- [[Lookup Argument]] - `references` [EXTRACTED]
 - [[ProtoGalaxy (Multi-Instance Folding)]] - `conceptually_related_to` [EXTRACTED]
 - [[ProtoGalaxy Efficient ProtoStar-style folding of multiple instances (Eagen & Gabizon, ePrint 20231106)]] - `cites` [EXTRACTED]
 - [[The Folding Genealogy]] - `defines` [EXTRACTED]
 - [[pow_i polynomial and powers-of-beta vector; ProtoGalaxy avoids committing to the power vector (unlike ProtoStar)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/document #graphify/EXTRACTED #community/Community_16

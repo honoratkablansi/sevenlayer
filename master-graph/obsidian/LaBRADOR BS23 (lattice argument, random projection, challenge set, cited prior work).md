@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-56-symphony.pdf"
 type: "paper"
-community: "Community 54"
+community: "Community 28"
 location: "§1.2, §1.3, §2.1, §3.4"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_54
+  - community/Community_28
 ---
 
 # LaBRADOR [BS23] (lattice argument, random projection, challenge set, cited prior work)
@@ -15,4 +15,4 @@ tags:
 - [[Random projection for norm preservation (J in {0,+-1}, ell2-norm preserved mod q)]] - `introduces` [EXTRACTED]
 - [[Symphony Scalable SNARKs in the Random Oracle Model from Lattice-Based High-Arity Folding]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_54
+#graphify/paper #graphify/EXTRACTED #community/Community_28

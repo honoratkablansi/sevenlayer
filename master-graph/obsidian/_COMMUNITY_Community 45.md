@@ -1,38 +1,37 @@
 ---
 type: community
-cohesion: 0.15
-members: 23
+cohesion: 0.13
+members: 22
 ---
 
 # Community 45
 
-**Cohesion:** 0.15 - loosely connected
-**Members:** 23 nodes
+**Cohesion:** 0.13 - loosely connected
+**Members:** 22 nodes
 
 ## Members
-- [[Assumption 4.3 MatrixACLMT Knowledge Assumption (matrix variant of knowledge k-ISIS)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
-- [[Attack on Extractable Linear FC integer variant of ACL+22 not extractable assuming inhomogeneous SIS]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
-- [[BASIS_struct Assumption (structured lattice assumption of WW23; implies l-succinct SIS)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
-- [[CRS Efficiency Claim l{d+1} CRS for degree-d polynomials (reduces ACL+22 exponent from 2d to d+1; l3 for quadratics vs l4l5)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
-- [[Construction 3.19 Dual Functional Commitment for Bounded-Depth Boolean Circuits]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
-- [[Construction 3.2 Functional Commitment for Constant-Degree Polynomials]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
-- [[Construction 3.9 Multi-Output Functional Commitment for Constant-Degree Polynomials]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
-- [[Dual Functional Commitment (commit to function f, open at input x)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
-- [[Evasive LWE Assumption (implies l-succinct SIS plus LWE)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
-- [[Extractable Functional Commitment (equivalent to SNARG for NP via quadratic relations)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
-- [[Fast Verification in the Preprocessing Model (sublinear verifier after functioninput preprocessing)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
-- [[Functional Commitment]] - document - references/ch14/ref-62-lattice-functional-commitments.pdf
-- [[GSW  BGG+14 Lattice Homomorphic Evaluation Machinery]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
-- [[Inhomogeneous SIS Assumption]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
-- [[KLVW23 RAM-Delegation-Based FC for All Circuits (LWE, transparent, non-black-box)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
-- [[Knowledge k-R-ISIS Assumption (Albrecht et al. CRYPTO 2022)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
-- [[Lattice-Based Functional Commitments Fast Verification and Cryptanalysis]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
-- [[Oblivious Sampling Cryptanalysis (Babai-rounding attack breaking extractability  knowledge k-R-ISIS plausibility)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
-- [[Short Integer Solutions (SIS) Assumption]] - document - references/ch14/ref-62-lattice-functional-commitments.pdf
-- [[Succinct Non-interactive Argument (SNARG)]] - paper - references/ch02/ref-06-groth16.pdf
-- [[Theorem 3.22 Selective-Input Binding of Dual FC under l-succinct SIS]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
-- [[Theorem 3.6 Computational Binding of Construction 3.2 under l-succinct SIS]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
-- [[l-Succinct SIS Assumption (falsifiable q-type generalization of SIS, trapdoor for I_l ⊗ A  W)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Ben-Sasson et al. 2013 RAM-to-small-space reduction via Merkle hashing BSCGT13]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
+- [[Bitansky-Canetti-Chiesa-Tromer 2012 ECRH to SNARK and back BCCT12]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
+- [[Bitansky-Canetti-Chiesa-Tromer Recursive Composition and Bootstrapping for SNARKs and PCD (STOC 2013)]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
+- [[Boneh-Segev-Waters 2012 targeted malleability BSW12]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
+- [[Chiesa-Tromer 2010 Proof-Carrying Data  enforcing local properties CT10]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
+- [[Collision-resistant hash functions (CRH) assumption]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
+- [[Complexity-preserving SNARK (prover time tpoly(k), space spoly(k); no preprocessing)]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
+- [[Extractor (polynomial) size blowup under recursive extraction (forces O(1) depth)]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
+- [[Fully-homomorphic encryption (FHE) assumption]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
+- [[Gentry 2009 FHE bootstrapping paradigm Gen09]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
+- [[Gentry-Wichs 2011 no SNARG via black-box reduction to falsifiable assumption GW11]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
+- [[Knowledge-Soundness]] - document - proving-nothing.md
+- [[SNARK bootstrapping (to complexity-preserving SNARK)]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
+- [[Succinctness]] - document - recursion/recursion-outline.md
+- [[The Succinctness Threshold]] - document - recursion/recursion-outline.md
+- [[The Verifier's Dilemma (unbounded sequences)]] - document - recursion/recursion-outline.md
+- [[Theorem 1 SNARK Recursive Composition (SNARK - PCD for O(1)-depth predicates)]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
+- [[Theorem 2 PCD Depth-Reduction (O(1)-depth PCD - poly-depth path PCD via wide Merkle proof trees)]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
+- [[Theorem 3 Locally-Efficient RAM Compliance (NP statement - poly-depth compliance predicate)]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
+- [[Theorem 4  9.1 Main bootstrapping theorem (any SNARK - complexity-preserving SNARK and PCD)]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
+- [[Valiant 2008 Incrementally-Verifiable Computation Val08]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
+- [[Valiant Incrementally Verifiable Computation (TCC 2008)]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -42,16 +41,25 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 6 edges to [[_COMMUNITY_Community 8]]
-- 2 edges to [[_COMMUNITY_Community 90]]
-- 1 edge to [[_COMMUNITY_Community 54]]
+- 6 edges to [[_COMMUNITY_Community 14]]
+- 5 edges to [[_COMMUNITY_Community 20]]
+- 3 edges to [[_COMMUNITY_Community 82]]
+- 2 edges to [[_COMMUNITY_Community 32]]
+- 2 edges to [[_COMMUNITY_Community 61]]
+- 2 edges to [[_COMMUNITY_Community 9]]
+- 1 edge to [[_COMMUNITY_Community 19]]
+- 1 edge to [[_COMMUNITY_Community 22]]
+- 1 edge to [[_COMMUNITY_Community 27]]
+- 1 edge to [[_COMMUNITY_Community 96]]
+- 1 edge to [[_COMMUNITY_Community 16]]
+- 1 edge to [[_COMMUNITY_Community 23]]
+- 1 edge to [[_COMMUNITY_Community 60]]
 - 1 edge to [[_COMMUNITY_Community 34]]
-- 1 edge to [[_COMMUNITY_Community 5]]
-- 1 edge to [[_COMMUNITY_Community 38]]
+- 1 edge to [[_COMMUNITY_Community 91]]
 
 ## Top bridge nodes
-- [[Lattice-Based Functional Commitments Fast Verification and Cryptanalysis]] - degree 14, connects to 4 communities
-- [[Construction 3.2 Functional Commitment for Constant-Degree Polynomials]] - degree 10, connects to 2 communities
-- [[Functional Commitment]] - degree 7, connects to 2 communities
-- [[Short Integer Solutions (SIS) Assumption]] - degree 5, connects to 2 communities
-- [[l-Succinct SIS Assumption (falsifiable q-type generalization of SIS, trapdoor for I_l ⊗ A  W)]] - degree 8, connects to 1 community
+- [[Knowledge-Soundness]] - degree 12, connects to 10 communities
+- [[Bitansky-Canetti-Chiesa-Tromer Recursive Composition and Bootstrapping for SNARKs and PCD (STOC 2013)]] - degree 15, connects to 5 communities
+- [[Succinctness]] - degree 5, connects to 2 communities
+- [[Theorem 1 SNARK Recursive Composition (SNARK - PCD for O(1)-depth predicates)]] - degree 5, connects to 2 communities
+- [[The Succinctness Threshold]] - degree 3, connects to 2 communities

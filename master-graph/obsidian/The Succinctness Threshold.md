@@ -1,12 +1,12 @@
 ---
 source_file: "recursion/recursion-outline.md"
 type: "document"
-community: "Community 55"
+community: "Community 45"
 location: "Recursion Chapter 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_55
+  - community/Community_45
 ---
 
 # The Succinctness Threshold
@@ -16,4 +16,4 @@ tags:
 - [[Folding Scheme]] - `conceptually_related_to` [EXTRACTED]
 - [[Succinctness]] - `explains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_55
+#graphify/document #graphify/EXTRACTED #community/Community_45

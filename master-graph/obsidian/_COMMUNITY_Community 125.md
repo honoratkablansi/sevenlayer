@@ -1,20 +1,18 @@
 ---
 type: community
-cohesion: 0.60
-members: 5
+cohesion: 0.67
+members: 3
 ---
 
 # Community 125
 
-**Cohesion:** 0.60 - moderately connected
-**Members:** 5 nodes
+**Cohesion:** 0.67 - moderately connected
+**Members:** 3 nodes
 
 ## Members
-- [[Avionics software certification process]] - document - references/recursion/ch3/ref-68-do-178c-avionics-certification.md
-- [[DO-178C (RTCA) avionics software certification guidance]] - document - references/recursion/ch3/ref-68-do-178c-avionics-certification.md
-- [[DO-178C Software Considerations in Airborne Systems]] - document - references/recursion/ch3/ref-68-do-178c-avionics-certification.md
-- [[Design assurance levels  certification rigor]] - document - references/recursion/ch3/ref-68-do-178c-avionics-certification.md
-- [[High-integrity and embedded systems]] - document - recursion/recursion-outline.md
+- [[Proof of correct program execution]] - document - references/recursion/ch1/ref-28-risc-zero-technical-docs.md
+- [[RISC Zero technical documentation (dev.risczero.com)]] - document - references/recursion/ch1/ref-28-risc-zero-technical-docs.md
+- [[Verifiable computation]] - document - references/recursion/ch1/ref-28-risc-zero-technical-docs.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -24,7 +22,7 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 1 edge to [[_COMMUNITY_Community 0]]
+- 1 edge to [[_COMMUNITY_Community 7]]
 
 ## Top bridge nodes
-- [[High-integrity and embedded systems]] - degree 3, connects to 1 community
+- [[RISC Zero technical documentation (dev.risczero.com)]] - degree 2, connects to 1 community

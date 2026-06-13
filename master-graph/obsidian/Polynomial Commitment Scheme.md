@@ -1,18 +1,19 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 90"
+community: "Community 68"
 location: "Chapter 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_90
+  - community/Community_68
 ---
 
 # Polynomial Commitment Scheme
 
 ## Connections
 - [[Accumulation Scheme for a Polynomial Commitment (Def 4.2)]] - `conceptually_related_to` [EXTRACTED]
+- [[Ajtai commitments]] - `introduces` [EXTRACTED]
 - [[BLS12-381 Curve]] - `conceptually_related_to` [INFERRED]
 - [[Bivariate polynomial folding f(X,Y)=aT S b with Y=Xm]] - `conceptually_related_to` [EXTRACTED]
 - [[Brakedown GLS+21 & Orion XZS22 field-agnosticpost-quantum poly commitments instantiating SuperSpartan]] - `conceptually_related_to` [EXTRACTED]
@@ -23,20 +24,23 @@ tags:
 - [[Cryptographic Accumulator]] - `conceptually_related_to` [EXTRACTED]
 - [[Dory transparent polynomial commitment scheme (log-round, sqrt-space prover)]] - `conceptually_related_to` [EXTRACTED]
 - [[Extractable verifiable polynomial-delegation protocol with knowledge soundness (vSQL Construction 2)]] - `defines` [EXTRACTED]
-- [[FRI Commitment Scheme]] - `references` [EXTRACTED]
+- [[FRI Commitment Scheme]] - `introduces` [EXTRACTED]
 - [[Functional Commitment]] - `conceptually_related_to` [EXTRACTED]
 - [[Greyhound polynomial commitment scheme]] - `defines` [EXTRACTED]
 - [[Greyhound Fast Polynomial Commitments from Lattices]] - `implements` [EXTRACTED]
 - [[Halo first practical recursive proof composition without a trusted setup]] - `assumes` [INFERRED]
+- [[HyperKZG  Mercury polynomial commitment]] - `conceptually_related_to` [INFERRED]
+- [[Inner Product Argument (IPABulletproofs)]] - `introduces` [EXTRACTED]
 - [[Interactive Oracle Proofs]] - `references` [EXTRACTED]
 - [[Jolt SNARKs for Virtual Machines via Lookups]] - `assumes` [EXTRACTED]
-- [[KZG Polynomial Commitments from pairings (with trusted setup); Dory transparent pairing-based scheme]] - `conceptually_related_to` [EXTRACTED]
+- [[KZG Polynomial Commitments from pairings (with trusted setup); Dory transparent pairing-based scheme]] - `introduces` [EXTRACTED]
 - [[KZG10 constant-size polynomial commitments]] - `defines` [EXTRACTED]
 - [[KZG10 Constant-Size Commitments to Polynomials]] - `cites` [EXTRACTED]
 - [[Kate, Zaverucha, Goldberg Constant-size commitments to polynomials 30]] - `cites` [EXTRACTED]
 - [[Kate-Zaverucha-Goldberg  Papamanthou-Shi-Tamassia polynomial commitments extended by vSQL]] - `conceptually_related_to` [EXTRACTED]
 - [[Lattice+Poseidon hash H(v)=Poseidon(A·v mod q) SNARK-friendly hash for 30 MP images (Mode 1)]] - `assumes` [EXTRACTED]
 - [[Layer 6 -- The Deep Craft]] - `defines` [EXTRACTED]
+- [[Layer 6 The Deep Craft (Cryptographic Primitives)]] - `explains` [EXTRACTED]
 - [[MSM commitment via Pippenger's algorithm]] - `conceptually_related_to` [EXTRACTED]
 - [[Open Questions and the Road Ahead]] - `references` [EXTRACTED]
 - [[Outsourced and streaming computation]] - `conceptually_related_to` [INFERRED]
@@ -53,7 +57,9 @@ tags:
 - [[Proof Core Layers 4-5-6 Inseparable]] - `explains` [EXTRACTED]
 - [[Proofs, Arguments, and Zero-Knowledge (Justin Thaler, survey textbook)]] - `explains` [EXTRACTED]
 - [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `references` [EXTRACTED]
+- [[SP1 Hypercube]] - `references` [EXTRACTED]
 - [[Schwartz-Zippel Lemma]] - `conceptually_related_to` [EXTRACTED]
+- [[The Ideal PCS Problem]] - `references` [EXTRACTED]
 - [[The Seven-Layer ZK Stack Model]] - `explains` [EXTRACTED]
 - [[Theorem 3 (informal) ZK accumulation schemes for PC_DL and PC_AGM in the ROM]] - `proves` [EXTRACTED]
 - [[Theorem 3 family of preprocessing SNARKs for CCS via PIOP + sparse poly commitment + Fiat-Shamir]] - `assumes` [EXTRACTED]
@@ -65,4 +71,4 @@ tags:
 - [[deVirgo distributed zero-knowledge proof system parallelizing Virgo over M machines with perfect linear scalability and no proof-size overhead]] - `assumes` [EXTRACTED]
 - [[zkCNN commit-and-prove scheme (KeyGen, Commit, Prove, Verify) for CNN prediction]] - `assumes` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_90
+#graphify/document #graphify/EXTRACTED #community/Community_68

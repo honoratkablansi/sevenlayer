@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 18"
+community: "Community 95"
 location: "Chapter 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_18
+  - community/Community_95
 ---
 
 # Structured Reference String (SRS)
@@ -17,7 +17,8 @@ tags:
 - [[Elliptic Curve  Discrete Logarithm Problem]] - `conceptually_related_to` [EXTRACTED]
 - [[Groth16]] - `references` [EXTRACTED]
 - [[Harvest Now, Decrypt Later Threat]] - `references` [EXTRACTED]
-- [[KZG Polynomial Commitment]] - `references` [EXTRACTED]
+- [[KZG Polynomial Commitments from pairings (with trusted setup); Dory transparent pairing-based scheme]] - `references` [EXTRACTED]
+- [[Layer 1 -- Building the Stage]] - `defines` [EXTRACTED]
 - [[Powers of Tau]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_18
+#graphify/document #graphify/EXTRACTED #community/Community_95

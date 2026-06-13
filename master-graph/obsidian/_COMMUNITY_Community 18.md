@@ -1,46 +1,46 @@
 ---
 type: community
-cohesion: 0.10
+cohesion: 0.09
 members: 31
 ---
 
 # Community 18
 
-**Cohesion:** 0.10 - loosely connected
+**Cohesion:** 0.09 - loosely connected
 **Members:** 31 nodes
 
 ## Members
-- [[ADOPT ceremony desiderata Available, Decentralized, Open, Persistent, Transparent]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
-- [[BCTV14 extra-parameter vulnerability (forge arbitrary proofs; Zcash counterfeiting flaw, Gabizon 2018)]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
-- [[Bilinear Pairing_1]] - document - proving-nothing.md
-- [[Ceremony attackfailure modes malicious abort, biased coordinator randomness, lost transcripts, software bugs, weak BN254 base point]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
-- [[Cited MPC CRS ceremonies BCG+15, BGG17, BGM17]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[Ethereum KZG ceremony (141416 contributors, 10 implementations, model transparency example)]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
-- [[Formal trusted setup protocol definition (processchannel tuple, corruption threshold t, trapdoor s)]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
-- [[Harvest Now, Decrypt Later Threat]] - document - proving-nothing.md
-- [[KZG Polynomial Commitment]] - document - proving-nothing.md
-- [[Kate, Zaverucha & Goldberg, KZG (ASIACRYPT 2010)]] - document - proving-nothing.md
-- [[Kate, Zaverucha, Goldberg — Constant-Size Commitments to Polynomials (ASIACRYPT 2010)]] - document - proving-nothing.md
-- [[MMORPG framework (Massively Multiparty Open Reusable Parameter Generation; two-phase Groth16 setup)]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
-- [[Multi-Party Computation Setup Ceremony]] - document - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[Perpetual Powers-of-Tau (PPOT) ceremony (Semaphore, BN254, 228, fluid continuous participation)]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
-- [[Powers of Tau]] - document - proving-nothing.md
-- [[Powers-of-tau beyond SNARKs (asynchronous DKG, weighted-threshold signatures)]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
-- [[Pre-commitment layer defending against adaptive bias of contribution tau_j]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
-- [[Protocol security properties correctness, gamma-epsilon trapdoor-confidentiality, consistency, (m,epsilon)-robustness]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
-- [[Protocol vs. ceremony distinction (mathematical protocol vs real-world instantiation)]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
-- [[Random Beacon Model]] - document - references/ch02/ref-05-mpc-random-beacon.pdf
-- [[Round-robin non-parallelizable model, secure under n-1 dishonest (dishonest-majority) participants]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
-- [[Setup taxonomy public-cointransparent vs private-coin; circuit-specific vs universal vs updatable]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
-- [[Six ceremony best-practice lessons (multi impl + audit, diverse participation, air-gapped machines, geographic isolation, diverse randomness, public verifiable log)]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
-- [[Snarky Ceremonies (relaxed-security MMORPG variant; no random beacon needed)]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
-- [[SoK Trusted Setups for Powers-of-Tau Strings]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
-- [[Structured Reference String (SRS)]] - document - proving-nothing.md
-- [[Survey of 40+ real-world ceremonies (Aleo, Aztec, Filecoin, Hermez, Ethereum KZG, Manta, ZKSync, etc.)]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
-- [[Surveyed setup protocols (BCDTV15, BGG17, BGM17, KMSV21, KKK21, CDKS22, NRBB22)]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
-- [[Zcash Sapling ceremony (2018, two-phase MMORPG, Groth16, BLS12-381)]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
-- [[Zcash Sprout ceremony (2016, six participants, BCTV14, first major PoT ceremony)]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
-- [[q-strong Diffie-Hellman (q-sDH) hardness assumption]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
+- [[Argument that large shards enable faster TwistShout proving (K-linear cost amortized)]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Block et al. (BHR20) quasi-linear small-space SNARK for VMs with streaming Bulletproofs PCS]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Blumberg et al. (BTVW14) small-space quasi-linear PIOP for circuit-SAT]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Concrete cost estimate ~900T linear-space vs ~900T+12T log T small-space field mults]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Continuations  recursive composition for zkVM prover memory control]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Cormode-Thaler-Yi (CTY11) linear-time and sparse streaming sum-check provers]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Dimension parameter d factoring one-hot address poly into d smaller polys]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Gemini (BCHO22) small-space VM SNARK with streamed multilinear-KZG PCS]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Jolt sum-check-based zkVM for RISC-V]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Justin Thaler]] - document - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[LFKN LFKN90 original sum-check protocol]] - paper - references/ch03/ref-15-lasso.pdf
+- [[Lund-Fortnow-Karloff-Nisan 35 original sum-check protocol]] - paper - references/recursion/ch3/ref-70-zkcnn.pdf
+- [[Marlin CHM+20 - preprocessing zkSNARK that SuperMarlin generalizes]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
+- [[Multifolding]] - document - recursion/recursion-outline.md
+- [[One-hot (unit-vector) address encoding for memory ops in TwistShout]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Polynomial IOP  interactive oracle protocol]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
+- [[Proving CPU Executions in Small Space]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Recursive SNARK Composition (Preprocessing to Fully Succinct)]] - paper - references/ch02/ref-06-groth16.pdf
+- [[Repeated witness generation with checkpoints and multithreaded parallel regeneration]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Shout sum-check memory-checking  lookup argument for read-only memory]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Small-space Jolt prover (sublinear-space zkVM proving without recursion)]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Small-value sum-check optimization (Bagad-Domb-Thaler Algorithm 3)]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Sparrow (PP24) sqrt-space SNARK for data-parallel circuits]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Spartan over Jolt's uniform block-diagonal R1CS, streamed via Az,Bz,Cz]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Square-root space target O(sqrt(KT))  O(K+T{12}) suffices in practice over O(K+log T)]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Streaming  small-space sum-check prover (logarithmic-space, quasi-linear time)]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Sum-Check Protocol]] - document - recursion/recursion-outline.md
+- [[SuperMarlin univariate-sumcheck SNARK for CCS generalizing Marlin]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
+- [[Theorem 1 polynomial IOP for CCS, soundness O((t+d)log m)F, prover O(N+tm+qmd log2 d) F-ops]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
+- [[Theorem 7.1 Jolt prover in S=O(K+log T) space and O(T log T) time]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Twist and Shout Memory-Checking Arguments]] - document - references/ch14/ref-45-small-space-cpu-proofs.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -50,30 +50,39 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 10 edges to [[_COMMUNITY_Community 15]]
-- 7 edges to [[_COMMUNITY_Community 57]]
-- 5 edges to [[_COMMUNITY_Community 22]]
-- 4 edges to [[_COMMUNITY_Community 38]]
-- 4 edges to [[_COMMUNITY_Community 77]]
-- 2 edges to [[_COMMUNITY_Community 112]]
-- 2 edges to [[_COMMUNITY_Community 102]]
-- 2 edges to [[_COMMUNITY_Community 62]]
-- 2 edges to [[_COMMUNITY_Community 43]]
-- 2 edges to [[_COMMUNITY_Community 121]]
-- 1 edge to [[_COMMUNITY_Community 67]]
-- 1 edge to [[_COMMUNITY_Community 7]]
-- 1 edge to [[_COMMUNITY_Community 85]]
-- 1 edge to [[_COMMUNITY_Community 106]]
-- 1 edge to [[_COMMUNITY_Community 25]]
-- 1 edge to [[_COMMUNITY_Community 39]]
-- 1 edge to [[_COMMUNITY_Community 75]]
-- 1 edge to [[_COMMUNITY_Community 16]]
-- 1 edge to [[_COMMUNITY_Community 126]]
+- 15 edges to [[_COMMUNITY_Community 11]]
+- 7 edges to [[_COMMUNITY_Community 7]]
+- 6 edges to [[_COMMUNITY_Community 0]]
+- 5 edges to [[_COMMUNITY_Community 1]]
+- 5 edges to [[_COMMUNITY_Community 8]]
+- 5 edges to [[_COMMUNITY_Community 46]]
+- 5 edges to [[_COMMUNITY_Community 86]]
+- 4 edges to [[_COMMUNITY_Community 54]]
+- 4 edges to [[_COMMUNITY_Community 15]]
+- 4 edges to [[_COMMUNITY_Community 28]]
+- 4 edges to [[_COMMUNITY_Community 35]]
+- 3 edges to [[_COMMUNITY_Community 16]]
+- 3 edges to [[_COMMUNITY_Community 103]]
+- 3 edges to [[_COMMUNITY_Community 41]]
+- 2 edges to [[_COMMUNITY_Community 32]]
+- 2 edges to [[_COMMUNITY_Community 48]]
+- 2 edges to [[_COMMUNITY_Community 39]]
+- 2 edges to [[_COMMUNITY_Community 90]]
+- 2 edges to [[_COMMUNITY_Community 94]]
+- 2 edges to [[_COMMUNITY_Community 56]]
+- 1 edge to [[_COMMUNITY_Community 68]]
+- 1 edge to [[_COMMUNITY_Community 22]]
+- 1 edge to [[_COMMUNITY_Community 104]]
+- 1 edge to [[_COMMUNITY_Community 84]]
+- 1 edge to [[_COMMUNITY_Community 96]]
+- 1 edge to [[_COMMUNITY_Community 19]]
+- 1 edge to [[_COMMUNITY_Community 12]]
+- 1 edge to [[_COMMUNITY_Community 123]]
 - 1 edge to [[_COMMUNITY_Community 82]]
 
 ## Top bridge nodes
-- [[KZG Polynomial Commitment]] - degree 24, connects to 10 communities
-- [[Powers of Tau]] - degree 20, connects to 6 communities
-- [[SoK Trusted Setups for Powers-of-Tau Strings]] - degree 13, connects to 5 communities
-- [[Structured Reference String (SRS)]] - degree 7, connects to 4 communities
-- [[Multi-Party Computation Setup Ceremony]] - degree 11, connects to 3 communities
+- [[Sum-Check Protocol]] - degree 79, connects to 24 communities
+- [[Proving CPU Executions in Small Space]] - degree 12, connects to 7 communities
+- [[Jolt sum-check-based zkVM for RISC-V]] - degree 9, connects to 3 communities
+- [[Small-space Jolt prover (sublinear-space zkVM proving without recursion)]] - degree 9, connects to 3 communities
+- [[Spartan over Jolt's uniform block-diagonal R1CS, streamed via Az,Bz,Cz]] - degree 4, connects to 2 communities

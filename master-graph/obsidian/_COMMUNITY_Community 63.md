@@ -1,34 +1,33 @@
 ---
 type: community
-cohesion: 0.20
-members: 19
+cohesion: 0.16
+members: 18
 ---
 
 # Community 63
 
-**Cohesion:** 0.20 - loosely connected
-**Members:** 19 nodes
+**Cohesion:** 0.16 - loosely connected
+**Members:** 18 nodes
 
 ## Members
-- [[Compliance predicate  local property of distributed computation]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
-- [[Dual-Tree Architecture Package Tree (authenticity) + isomorphic Shadow Tree (compliance)]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
-- [[Folding-based aggregation ValidDep as atomic step folded over N dependencies into one succinct proof pi]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
-- [[Forest of Shadow Trees + DatalogHorn-clause policy composition and client-on-demand aggregation]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
-- [[Groth16 pairing-based zkSNARK (cited alternative proving system)]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
-- [[Implementation CircomPoseidon Attest circuit, Nova folding over Pasta curves, Spartan-wrapped succinct proof, Python+pyDataLog+SQLite auditor engine]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
-- [[Nova recursive folding scheme (IVC; first to fold two NP statements into one)]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
-- [[Package Tree (PT) VC maintained by package manager committing dependency inclusionauthenticity]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
-- [[Policy Propagation Engine (PPE) recursive compliance C(p)=L(p)prod C(d) propagated up dependency DAG]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
-- [[Re-proving on CVEupdate via root freshness revocation (S3) and remediation (S4) lifecycle, replay resistance]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
-- [[Root-binding accountability verification bound to trusted public roots defeats parallel forged trees]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
-- [[Shadow Tree (ST) isomorphic compliance VC by auditor; leaf flag 10 (compliantnon-compliant)]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
-- [[Spartan transparent zkSNARK without trusted setup (final proof compression wrapper)]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
-- [[Theorem 1 Package Tree position-binding (cannot open index to a different value)]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
-- [[Theorem 2 Soundness of Dual-Tree verification (no valid proof for non-existentnon-compliant package)]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
-- [[Theorem 3 Root-binding accountability (cannot accept proof from divergent PTST)]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
-- [[ValidDep dual-membership predicate package valid iff member of both PT and ST roots]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
-- [[Vector commitment scheme (position-binding; Merkle-tree instantiation, O(log n) openings)]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
-- [[VeriSBOM trustless, selectively-disclosed verifiable SBOM-sharing framework via ZKPs]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
+- [[Chaliasos et al. SoK SNARK Vulnerabilities (USENIX Security 2024)]] - paper - wiki/sections/ch03-risc-v-won-why-taxonomy-still-matters.md
+- [[DEEP-ALI and FRI]] - document - references/recursion/ch1/ref-18-risc-zero-proof-system-overview.md
+- [[Extended Main and Auxiliary Execution Trace]] - document - references/recursion/ch1/ref-18-risc-zero-proof-system-overview.md
+- [[From Circuits to Virtual Machines A Brief Evolution]] - document - wiki/sections/ch03-from-circuits-to-virtual-machines-a-brief-evolution.md
+- [[Groth16 Circuit (on-chain verification wrapper)]] - document - references/recursion/ch1/ref-18-risc-zero-proof-system-overview.md
+- [[Image ID]] - document - references/recursion/ch1/ref-18-risc-zero-proof-system-overview.md
+- [[Picus (QED2)]] - paper - wiki/sections/ch03-under-constrained-circuits-the-dominant-failure-mode.md
+- [[Plonky3]] - document - references/recursion/ch1/ref-08-sp1-hypercube.md
+- [[RISC Zero]] - document - proving-nothing.md
+- [[RISC-V Won. Why Taxonomy Still Matters.]] - document - wiki/sections/ch03-risc-v-won-why-taxonomy-still-matters.md
+- [[The RISC Zero STARK Protocol  Proof System Overview]] - document - references/recursion/ch1/ref-18-risc-zero-proof-system-overview.md
+- [[Tornado Cash]] - document - wiki/chapters/03-choreographing-the-act.md
+- [[Under-Constrained Circuits The Dominant Failure Mode]] - document - wiki/sections/ch03-under-constrained-circuits-the-dominant-failure-mode.md
+- [[Witness-Constraint Divergence]] - document - wiki/sections/ch04-witness-constraint-divergence.md
+- [[ZKAP (Circuit Dependence Graph static analysis)]] - paper - wiki/sections/ch03-under-constrained-circuits-the-dominant-failure-mode.md
+- [[ZisK]] - document - wiki/sections/ch02-the-capex-opex-framework.md
+- [[zkFuzz]] - paper - wiki/sections/ch03-under-constrained-circuits-the-dominant-failure-mode.md
+- [[zkSync Era]] - document - wiki/sections/ch04-witness-constraint-divergence.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -38,16 +37,28 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 3 edges to [[_COMMUNITY_Community 20]]
-- 3 edges to [[_COMMUNITY_Community 30]]
-- 3 edges to [[_COMMUNITY_Community 29]]
-- 2 edges to [[_COMMUNITY_Community 44]]
+- 18 edges to [[_COMMUNITY_Community 6]]
+- 16 edges to [[_COMMUNITY_Community 8]]
+- 9 edges to [[_COMMUNITY_Community 7]]
+- 7 edges to [[_COMMUNITY_Community 2]]
+- 7 edges to [[_COMMUNITY_Community 1]]
+- 5 edges to [[_COMMUNITY_Community 11]]
+- 3 edges to [[_COMMUNITY_Community 76]]
+- 3 edges to [[_COMMUNITY_Community 69]]
+- 3 edges to [[_COMMUNITY_Community 12]]
+- 2 edges to [[_COMMUNITY_Community 15]]
 - 2 edges to [[_COMMUNITY_Community 42]]
-- 2 edges to [[_COMMUNITY_Community 55]]
+- 2 edges to [[_COMMUNITY_Community 14]]
+- 2 edges to [[_COMMUNITY_Community 0]]
+- 1 edge to [[_COMMUNITY_Community 37]]
+- 1 edge to [[_COMMUNITY_Community 17]]
+- 1 edge to [[_COMMUNITY_Community 5]]
+- 1 edge to [[_COMMUNITY_Community 97]]
+- 1 edge to [[_COMMUNITY_Community 21]]
 
 ## Top bridge nodes
-- [[VeriSBOM trustless, selectively-disclosed verifiable SBOM-sharing framework via ZKPs]] - degree 22, connects to 4 communities
-- [[Compliance predicate  local property of distributed computation]] - degree 8, connects to 2 communities
-- [[Folding-based aggregation ValidDep as atomic step folded over N dependencies into one succinct proof pi]] - degree 3, connects to 1 community
-- [[Nova recursive folding scheme (IVC; first to fold two NP statements into one)]] - degree 3, connects to 1 community
-- [[Spartan transparent zkSNARK without trusted setup (final proof compression wrapper)]] - degree 3, connects to 1 community
+- [[Tornado Cash]] - degree 22, connects to 14 communities
+- [[RISC Zero]] - degree 22, connects to 8 communities
+- [[From Circuits to Virtual Machines A Brief Evolution]] - degree 17, connects to 6 communities
+- [[RISC-V Won. Why Taxonomy Still Matters.]] - degree 10, connects to 6 communities
+- [[Plonky3]] - degree 8, connects to 6 communities

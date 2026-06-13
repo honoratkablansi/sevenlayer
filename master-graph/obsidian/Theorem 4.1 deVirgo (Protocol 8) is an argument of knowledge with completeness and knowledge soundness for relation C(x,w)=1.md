@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-59-zkbridge.pdf"
 type: "paper"
-community: "Community 56"
+community: "Community 65"
 location: "Theorem 4.1, §4.4"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_56
+  - community/Community_65
 ---
 
 # Theorem 4.1: deVirgo (Protocol 8) is an argument of knowledge with completeness and knowledge soundness for relation C(x,w)=1
@@ -16,4 +16,4 @@ tags:
 - [[deVirgo distributed zero-knowledge proof system parallelizing Virgo over M machines with perfect linear scalability and no proof-size overhead]] - `proves` [EXTRACTED]
 - [[zk-SNARK]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_56
+#graphify/paper #graphify/EXTRACTED #community/Community_65

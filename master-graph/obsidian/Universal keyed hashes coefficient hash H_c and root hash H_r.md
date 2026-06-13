@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-46-zk-memory-algebraic-proofs.pdf"
 type: "paper"
-community: "Community 73"
+community: "Community 39"
 location: "§2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_73
+  - community/Community_39
 ---
 
 # Universal keyed hashes: coefficient hash H_c and root hash H_r
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Grand Product Argument (accumulator polynomial Z)]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_73
+#graphify/paper #graphify/EXTRACTED #community/Community_39

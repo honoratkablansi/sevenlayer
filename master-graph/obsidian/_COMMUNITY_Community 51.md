@@ -1,37 +1,36 @@
 ---
 type: community
-cohesion: 0.13
-members: 22
+cohesion: 0.15
+members: 21
 ---
 
 # Community 51
 
-**Cohesion:** 0.13 - loosely connected
-**Members:** 22 nodes
+**Cohesion:** 0.15 - loosely connected
+**Members:** 21 nodes
 
 ## Members
-- [[CRYSTALS-Kyber KEM (round-three NIST PQC submission)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[Centered Binomial Distribution (CBD) noise sampling]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[Cryptographic functions HJGPRFXOF from SHA-3 and SHAKE (FIPS 202)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[Decapsulation failure probability (2-138.8 to 2-174.8)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[Fujisaki-Okamoto (FO) transform]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[HVZK  hiding variant via Module-LWE masking]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[IND-CCA2 security]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[Implicit rejection mechanism (re-encryption ciphertext comparison)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[K-PKE component public-key encryption scheme (KeyGenEncryptDecrypt)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[Key-Encapsulation Mechanism (KEM)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[Learning With Errors (LWE) problem (Regev 2005)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[ML-KEM (Module-Lattice-Based Key-Encapsulation Mechanism, FIPS 203)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[ML-KEM internal derandomized algorithms (KeyGenEncapsDecaps_internal)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[ML-KEM-1024 (k=4, security category 5, 256-bit RBG)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[ML-KEM-512 (k=2, security category 1, 128-bit RBG)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[ML-KEM-768 (k=3, security category 3, 192-bit RBG, NIST default)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[ML-KEM.Decaps (deterministic decapsulation, Algorithm 21)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[ML-KEM.Encaps (probabilistic encapsulation, Algorithm 20)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[ML-KEM.KeyGen (probabilistic key generation, Algorithm 19)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[Module Learning With Errors (MLWE)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[NIST PQC security strength categories (1-5)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[Security based on Module-LWE over R_q plus SelfTargetMSIS, a nonstandard variant of Module-SIS]] - paper - references/ch14/ref-64-fips-204.pdf
+- [[Batch Opening (CreateWitnessBatchVerifyEvalBatch)]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Constant-Size Commitment & O(1) Opening Overhead]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Constant-Size Commitments to Polynomials and Their Applications]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Content Extraction Signature & Credential Construction]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Cryptographic Accumulator]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Feldman Verifiable Secret Sharing]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Nearly Zero-Knowledge Set  ZK-EDB]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[PolyCommitDL Scheme]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[PolyCommitPed Scheme]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Polynomial Divisibility Property ((x-i) divides phi(x)-phi(i))]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Theorem 3.2 PolyCommitDL Security]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Theorem 3.3 PolyCommitPed Security]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Theorem 3.4 Batch Opening Binding]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Theorem 3.5 Strong Correctness]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Verifiable Secret Sharing]] - document - references/ch02/ref-04-kzg-commitments.pdf
+- [[Zero-Knowledge Set (Micali et al.)]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[eVSS Efficient Feldman VSS]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[t-Bilinear Strong Diffie-Hellman (t-BSDH) Assumption]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[t-Diffie-Hellman Inversion (t-DHI) Assumption]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[t-Polynomial Diffie-Hellman (t-polyDH) Assumption]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[t-Strong Diffie-Hellman (t-SDH) Assumption]] - paper - references/ch02/ref-04-kzg-commitments.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -41,15 +40,18 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 5 edges to [[_COMMUNITY_Community 8]]
-- 3 edges to [[_COMMUNITY_Community 60]]
-- 2 edges to [[_COMMUNITY_Community 14]]
-- 1 edge to [[_COMMUNITY_Community 104]]
-- 1 edge to [[_COMMUNITY_Community 78]]
+- 5 edges to [[_COMMUNITY_Community 68]]
+- 3 edges to [[_COMMUNITY_Community 0]]
+- 2 edges to [[_COMMUNITY_Community 22]]
+- 2 edges to [[_COMMUNITY_Community 12]]
+- 2 edges to [[_COMMUNITY_Community 26]]
+- 1 edge to [[_COMMUNITY_Community 9]]
+- 1 edge to [[_COMMUNITY_Community 16]]
+- 1 edge to [[_COMMUNITY_Community 23]]
 
 ## Top bridge nodes
-- [[ML-KEM (Module-Lattice-Based Key-Encapsulation Mechanism, FIPS 203)]] - degree 17, connects to 3 communities
-- [[Module Learning With Errors (MLWE)]] - degree 8, connects to 2 communities
-- [[CRYSTALS-Kyber KEM (round-three NIST PQC submission)]] - degree 4, connects to 2 communities
-- [[Security based on Module-LWE over R_q plus SelfTargetMSIS, a nonstandard variant of Module-SIS]] - degree 3, connects to 2 communities
-- [[K-PKE component public-key encryption scheme (KeyGenEncryptDecrypt)]] - degree 6, connects to 1 community
+- [[Constant-Size Commitments to Polynomials and Their Applications]] - degree 15, connects to 6 communities
+- [[PolyCommitDL Scheme]] - degree 12, connects to 4 communities
+- [[PolyCommitPed Scheme]] - degree 8, connects to 3 communities
+- [[Cryptographic Accumulator]] - degree 2, connects to 1 community
+- [[Constant-Size Commitment & O(1) Opening Overhead]] - degree 2, connects to 1 community

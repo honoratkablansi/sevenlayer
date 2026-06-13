@@ -1,12 +1,12 @@
 ---
 source_file: "recursion/recursion-outline.md"
 type: "document"
-community: "Community 56"
+community: "Community 99"
 location: "Recursion Chapter 3"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_56
+  - community/Community_99
 ---
 
 # Cross-chain proof aggregation and interop
@@ -19,4 +19,4 @@ tags:
 - [[Prover markets  recursion as infrastructure]] - `conceptually_related_to` [EXTRACTED]
 - [[zkBridge trustless cross-chain bridge via succinct proofs of consensus  light-client state transitions]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_56
+#graphify/document #graphify/EXTRACTED #community/Community_99

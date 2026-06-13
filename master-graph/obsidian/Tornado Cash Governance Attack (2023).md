@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 79"
+community: "Community 17"
 location: "Chapter 8"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_79
+  - community/Community_17
 ---
 
 # Tornado Cash Governance Attack (2023)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Governance Attack Surface]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_79
+#graphify/document #graphify/EXTRACTED #community/Community_17

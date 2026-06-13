@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch09/ref-30-kachina.pdf"
 type: "paper"
-community: "Community 98"
+community: "Community 31"
 location: "§4.1 Def 2-4"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_98
+  - community/Community_31
 ---
 
 # State oracle transcript
@@ -16,4 +16,4 @@ tags:
 - [[Non-Interactive Zero-Knowledge (NIZK)]] - `shares_data_with` [EXTRACTED]
 - [[State oracle]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_98
+#graphify/paper #graphify/EXTRACTED #community/Community_31

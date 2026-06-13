@@ -1,18 +1,18 @@
 ---
 source_file: "wiki/chapters/09-privacy-enhancing-technologies.md"
 type: "document"
-community: "Community 16"
+community: "Community 5"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_16
+  - community/Community_5
 ---
 
 # Privacy-Enhancing Technologies
 
 ## Connections
 - [[Blockchain Privacy and Regulatory Compliance Towards a Practical Equilibrium]] - `cites` [EXTRACTED]
-- [[CollaborativeThreshold Proving]] - `references` [EXTRACTED]
+- [[Collaborative  Threshold Proving]] - `references` [EXTRACTED]
 - [[Composability When One PET Is Not Enough]] - `part_of` [EXTRACTED]
 - [[Differential Privacy (DP)]] - `references` [EXTRACTED]
 - [[Fully Homomorphic Encryption (FHE)]] - `references` [EXTRACTED]
@@ -28,11 +28,11 @@ tags:
 - [[Open Problems]] - `part_of` [EXTRACTED]
 - [[Privacy Architectures for Smart Contracts Kachina and Zexe]] - `part_of` [EXTRACTED]
 - [[Privacy Pools]] - `references` [EXTRACTED]
-- [[Private Information Retrieval (PIR)_1]] - `references` [EXTRACTED]
+- [[Private Information Retrieval (PIR)]] - `references` [EXTRACTED]
 - [[Private Set Intersection (PSI)]] - `references` [EXTRACTED]
 - [[Proving Nothing]] - `part_of` [EXTRACTED]
 - [[Real-World Deployments Five Case Studies]] - `part_of` [EXTRACTED]
-- [[Secure Multi-Party Computation (MPC)_1]] - `references` [EXTRACTED]
+- [[Secure Multi-Party Computation (MPC)]] - `references` [EXTRACTED]
 - [[Selective Disclosure]] - `references` [EXTRACTED]
 - [[Sevenlayer Wiki Index]] - `references` [EXTRACTED]
 - [[The Decision Matrix]] - `part_of` [EXTRACTED]
@@ -41,10 +41,10 @@ tags:
 - [[The Regulatory Intersection]] - `part_of` [EXTRACTED]
 - [[Three Kinds of Security]] - `part_of` [EXTRACTED]
 - [[Tornado Cash]] - `references` [EXTRACTED]
-- [[Trusted Execution Environment (TEE)_1]] - `references` [EXTRACTED]
+- [[Trusted Execution Environment (TEE)]] - `references` [EXTRACTED]
 - [[Verifiable FHE (zkFHE)]] - `defines` [EXTRACTED]
 - [[Zexe]] - `references` [EXTRACTED]
-- [[eIDAS 2.0_1]] - `references` [EXTRACTED]
+- [[eIDAS 2.0]] - `references` [EXTRACTED]
 - [[zKYC (Zero-Knowledge Know Your Customer)]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_16
+#graphify/document #graphify/EXTRACTED #community/Community_5

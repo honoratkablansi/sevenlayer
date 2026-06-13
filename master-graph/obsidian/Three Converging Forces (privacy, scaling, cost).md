@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 65"
+community: "Community 67"
 location: "Chapter 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_65
+  - community/Community_67
 ---
 
 # Three Converging Forces (privacy, scaling, cost)
@@ -16,4 +16,4 @@ tags:
 - [[ZK Rollup]] - `references` [EXTRACTED]
 - [[eIDAS 2.0]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_65
+#graphify/document #graphify/EXTRACTED #community/Community_67

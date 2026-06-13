@@ -1,22 +1,21 @@
 ---
 type: community
 cohesion: 0.33
-members: 7
+members: 6
 ---
 
 # Community 117
 
 **Cohesion:** 0.33 - loosely connected
-**Members:** 7 nodes
+**Members:** 6 nodes
 
 ## Members
-- [[Bootle et al. (BCC+16) Inner-Product Argument]] - paper - references/ch02/ref-09-bulletproofs.pdf
-- [[Improved Inner-Product Argument (2 log2 n)]] - paper - references/ch02/ref-09-bulletproofs.pdf
-- [[Pedersen Vector Commitment]] - paper - references/ch02/ref-09-bulletproofs.pdf
-- [[Pinocchio Arithmetic Circuit Format]] - paper - references/ch02/ref-09-bulletproofs.pdf
-- [[Single Multi-Exponentiation Verifier & Batch Verification]] - paper - references/ch02/ref-09-bulletproofs.pdf
-- [[Theorem 5 Arithmetic Circuit Protocol Soundness]] - paper - references/ch02/ref-09-bulletproofs.pdf
-- [[Zero-Knowledge Proof for Arithmetic Circuits (Protocol 3)]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[EIP-4844 (Blob Transactions)]] - document - proving-nothing.md
+- [[FOOM Club Verifier Misconfiguration (2022)]] - document - proving-nothing.md
+- [[On-Chain Verifier]] - document - proving-nothing.md
+- [[Proof Verification]] - document - proving-nothing.md
+- [[Verification Gas Cost]] - document - proving-nothing.md
+- [[XZ Utils Supply-Chain Attack (CVE-2024-3094)]] - document - proving-nothing.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -26,13 +25,15 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 2 edges to [[_COMMUNITY_Community 22]]
-- 2 edges to [[_COMMUNITY_Community 75]]
-- 1 edge to [[_COMMUNITY_Community 94]]
-- 1 edge to [[_COMMUNITY_Community 43]]
+- 4 edges to [[_COMMUNITY_Community 17]]
+- 2 edges to [[_COMMUNITY_Community 12]]
+- 1 edge to [[_COMMUNITY_Community 96]]
+- 1 edge to [[_COMMUNITY_Community 67]]
+- 1 edge to [[_COMMUNITY_Community 105]]
+- 1 edge to [[_COMMUNITY_Community 111]]
 
 ## Top bridge nodes
-- [[Improved Inner-Product Argument (2 log2 n)]] - degree 7, connects to 3 communities
-- [[Bootle et al. (BCC+16) Inner-Product Argument]] - degree 3, connects to 1 community
-- [[Pedersen Vector Commitment]] - degree 2, connects to 1 community
-- [[Theorem 5 Arithmetic Circuit Protocol Soundness]] - degree 2, connects to 1 community
+- [[On-Chain Verifier]] - degree 7, connects to 3 communities
+- [[EIP-4844 (Blob Transactions)]] - degree 4, connects to 2 communities
+- [[Verification Gas Cost]] - degree 4, connects to 2 communities
+- [[FOOM Club Verifier Misconfiguration (2022)]] - degree 2, connects to 1 community

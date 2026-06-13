@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch03/ref-16-jolt.pdf"
 type: "paper"
-community: "Community 3"
+community: "Community 54"
 location: "§2.1, Lemma 1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_3
+  - community/Community_54
 ---
 
 # Multilinear extension (MLE)
@@ -26,8 +26,8 @@ tags:
 - [[Per-instruction MLE-structured evaluation tables (EQ, LTU, SLL, ANDORXOR, ADDSUB, MUL)]] - `assumes` [EXTRACTED]
 - [[Proofs, Arguments, and Zero-Knowledge (Justin Thaler, survey textbook)]] - `explains` [EXTRACTED]
 - [[R1CS (Rank-1 Constraint Systems)]] - `conceptually_related_to` [EXTRACTED]
-- [[Sum-Check Protocol_1]] - `references` [EXTRACTED]
+- [[Sum-Check Protocol]] - `references` [EXTRACTED]
 - [[SuperSpartan SNARK family for CCS generalizing Spartan's polynomial IOP]] - `assumes` [EXTRACTED]
 - [[Time-optimal (linear-time O(n)) prover from multilinear decomposition + SPARK]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_3
+#graphify/paper #graphify/EXTRACTED #community/Community_54

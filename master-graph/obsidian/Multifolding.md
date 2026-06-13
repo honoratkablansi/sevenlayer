@@ -1,18 +1,18 @@
 ---
 source_file: "recursion/recursion-outline.md"
 type: "document"
-community: "Community 0"
+community: "Community 18"
 location: "Recursion Chapter 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Community_18
 ---
 
 # Multifolding
 
 ## Connections
 - [[HyperNova]] - `introduces` [EXTRACTED]
-- [[Sum-Check Protocol_1]] - `references` [EXTRACTED]
+- [[Sum-Check Protocol]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/document #graphify/EXTRACTED #community/Community_18

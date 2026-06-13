@@ -1,40 +1,40 @@
 ---
 type: community
-cohesion: 0.13
+cohesion: 0.08
 members: 25
 ---
 
 # Community 36
 
-**Cohesion:** 0.13 - loosely connected
+**Cohesion:** 0.08 - loosely connected
 **Members:** 25 nodes
 
 ## Members
-- [[Boneh-Goh-Nissim evaluating 2-DNF formulas on ciphertexts 11]] - paper - references/ch09/ref-29-gentry-fhe.pdf
-- [[Bootstrappable encryption scheme that can evaluate its own (augmented) decryption circuit]] - paper - references/ch09/ref-29-gentry-fhe.pdf
-- [[Bootstrapping (FHE)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
-- [[Bootstrapping theorem any bootstrappable scheme yields leveled FHE family {E(d)} (Thm 1,3)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
-- [[Circuit privacy via RandomizeCT (add encryption of 0 with super-polynomially larger error)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
-- [[Closest vector problem  lattice reduction (LLL)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
-- [[Craig Gentry]] - paper - references/ch09/ref-29-gentry-fhe.pdf
-- [[Decisional CVP for ideal lattices in a fixed ring (bounded-distance decoding hardness underlying E1)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
-- [[Error-vector growth bounds evaluation depth ~ (c1-c2) log n (Thm 6, Thm 8; expansion factor gamma_Mult)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
-- [[Fully Homomorphic Encryption Using Ideal Lattices]] - paper - references/ch09/ref-29-gentry-fhe.pdf
-- [[Goldwasser-Micali first semantically secure (additively) homomorphic scheme 23]] - paper - references/ch09/ref-29-gentry-fhe.pdf
-- [[Homomorphic encryption (Evaluate over encrypted data without decrypting)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
-- [[Ideal Coset Problem (ICP) decide if t is near-lattice (Samp1) or uniform mod J; security of E1 (Def.10, Thm 7)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
-- [[Ideal lattices (ideals of Zxf(x) as lattices; rotation basis)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
-- [[KDM-security  circular security (self-loop of encrypted secret keys yields true FHE)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
-- [[NTRU ring-based public-key cryptosystem (ideal-lattice cryptography precedent) 25]] - paper - references/ch09/ref-29-gentry-fhe.pdf
-- [[Performance counterbalanced assumptions; gamma_subset=sqrt(n), n~=lambda2, breaking time ~2sqrt(n)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
-- [[Recrypt homomorphically evaluate decryption circuit on encrypted secret-key bits to refresh ciphertext error]] - paper - references/ch09/ref-29-gentry-fhe.pdf
-- [[Rivest-Adleman-Dertouzos 1978 privacy homomorphisms (original FHE open problem) 54]] - paper - references/ch09/ref-29-gentry-fhe.pdf
-- [[Scheme E2 tweaks (narrow C_E to B(rDec2); replace matrix-vector by ring mult v_Jsk x psi) lowering decryption depth]] - paper - references/ch09/ref-29-gentry-fhe.pdf
-- [[Scheme E3 squashed E2 with hidden sparse subset; bootstrappable and semantically secure (Thm 2, Thm 11)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
-- [[Somewhat-homomorphic scheme E1 over ideal lattices (ciphertext v+x; ring addmult mod B_Jpk)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
-- [[Sparse Subset Sum Problem (SSSP)  SplitKey Distinguishing Problem second hardness assumption from tau in public key]] - paper - references/ch09/ref-29-gentry-fhe.pdf
-- [[Squashing the decryption circuit SplitKeyExpandCT shift work to encrypter so Decrypt sums only sub-linear vectors (E3)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
-- [[Three-step FHE blueprint SWHE - squash decryption - bootstrap to fully homomorphic]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[BEATS Batch ECDSA Transaction verification Scheme  Scalable batch verification of ECDSA for blockchain using IVC (Fr]] - document - references/recursion/ch1/ref-24-beats-batch-ecdsa.md
+- [[Academic literature on end-to-end verifiable voting with zero-knowledge tallies]] - document - references/recursion/ch3/ref-60-verifiable-voting-zk-tallies.md
+- [[Aligned Layer, The Year of zkVM Real-Time Proving (2025)  prover-market analyses]] - document - references/recursion/ch1/ref-35-aligned-year-of-zkvm-realtime.md
+- [[Chase, Lysyanskaya, Delegatable Anonymous Credentials lineage (CRYPTO 2009 onward)]] - document - references/recursion/ch3/ref-82-chase-lysyanskaya-delegatable-credentials.md
+- [[Chiesa, Tromer, Proof-Carrying Data and Hearsay Arguments from Signature Cards (ICS 2010)]] - document - references/recursion/ch1/ref-04-chiesa-tromer-pcd-hearsay.md
+- [[Dark Forest and zk-gaming ecosystem writeups]] - document - references/recursion/ch3/ref-91-dark-forest-zk-gaming.md
+- [[EZKL benchmarks (monolithic zkML inference baseline)]] - document - references/recursion/ch3/ref-93-ezkl-monolithic-benchmarks.md
+- [[Fiat, Shamir, How to Prove Yourself Practical Solutions to Identification and Signature Problems (CRYPTO 1986)]] - document - references/recursion/ch2/ref-40-fiat-shamir.md
+- [[IVC streaming computation literature]] - document - references/recursion/ch3/ref-76-ivc-streaming-literature.md
+- [[Khovratovich, Maller, Tiwari et al., MinRoot VDF candidate (2022)]] - document - references/recursion/ch2/ref-42-minroot-vdf.md
+- [[Mina Pickles technical documentation]] - document - references/recursion/ch2/ref-49-mina-pickles-docs.md
+- [[Mina, Hazook recursive zkRollup design (2024)]] - document - references/recursion/ch1/ref-25-mina-hazook.md
+- [[Nova-based zkML folding literature]] - document - references/recursion/ch3/ref-71-nova-zkml-folding.md
+- [[Pedersen, Non-Interactive and Information-Theoretic Secure Verifiable Secret Sharing (CRYPTO 1991)]] - document - references/recursion/ch2/ref-39-pedersen-commitments.md
+- [[Practitioner literature on recursive ZK circuit design (e.g., zkDev, Designing Efficient Recursive ZK Circuits, 2026)]] - document - references/recursion/ch1/ref-29-zkdev-recursive-circuits.md
+- [[Published IVC flight-control benchmark work (real-time high-integrity flight control via recursive SNARKs)]] - document - references/recursion/ch3/ref-67-ivc-flight-control-benchmark.md
+- [[RISC Zero, Continuations  Using Continuations to Prove Any EVM Transaction (2023)]] - document - references/recursion/ch1/ref-23-risc-zero-continuations.md
+- [[Recursion References (cited works)]] - document - references/recursion/manifest.json
+- [[Reproducible-builds literature]] - document - references/recursion/ch3/ref-64-reproducible-builds-literature.md
+- [[Research literature on SNARK-backed transparency logs and verifiable log-structured storage]] - document - references/recursion/ch3/ref-66-snark-backed-transparency-logs.md
+- [[Sonobe library documentation (PSE0xPARC)]] - document - references/recursion/ch2/ref-48-sonobe.md
+- [[State-channel literature]] - document - references/recursion/ch3/ref-92-state-channel-literature.md
+- [[Subsequent verifiable-database and zk-analytics literature]] - document - references/recursion/ch3/ref-74-verifiable-database-zk-analytics.md
+- [[Succinct, Real-Time Proving with 16 GPUs (2026)]] - document - references/recursion/ch1/ref-34-succinct-16-gpus.md
+- [[Valiant, Incrementally Verifiable Computation, or Proofs of Knowledge Imply TimeSpace Efficiency (TCC 2008)]] - document - references/recursion/ch1/ref-01-valiant-ivc.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -42,18 +42,3 @@ members: 25
 TABLE source_file, type FROM #community/Community_36
 SORT file.name ASC
 ```
-
-## Connections to other communities
-- 5 edges to [[_COMMUNITY_Community 16]]
-- 2 edges to [[_COMMUNITY_Community 68]]
-- 1 edge to [[_COMMUNITY_Community 54]]
-- 1 edge to [[_COMMUNITY_Community 22]]
-- 1 edge to [[_COMMUNITY_Community 8]]
-- 1 edge to [[_COMMUNITY_Community 30]]
-
-## Top bridge nodes
-- [[Bootstrapping (FHE)]] - degree 10, connects to 3 communities
-- [[Fully Homomorphic Encryption Using Ideal Lattices]] - degree 12, connects to 2 communities
-- [[Homomorphic encryption (Evaluate over encrypted data without decrypting)]] - degree 4, connects to 1 community
-- [[Ideal lattices (ideals of Zxf(x) as lattices; rotation basis)]] - degree 4, connects to 1 community
-- [[KDM-security  circular security (self-loop of encrypted secret keys yields true FHE)]] - degree 2, connects to 1 community

@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 28"
+community: "Community 3"
 location: "Chapter 13"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_28
+  - community/Community_3
 ---
 
 # Proof of Personhood
@@ -21,4 +21,4 @@ tags:
 - [[ZK Identity]] - `conceptually_related_to` [EXTRACTED]
 - [[ZKPassport  Anon-Aadhaar document-proof systems]] - `introduces` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_28
+#graphify/document #graphify/EXTRACTED #community/Community_3

@@ -1,62 +1,65 @@
 ---
 type: community
-cohesion: 0.07
-members: 47
+cohesion: 0.06
+members: 50
 ---
 
 # Community 3
 
-**Cohesion:** 0.07 - loosely connected
-**Members:** 47 nodes
+**Cohesion:** 0.06 - loosely connected
+**Members:** 50 nodes
 
 ## Members
-- [[Circuit Satisfiability front ends compiling computer programs into arithmetic circuits  circuit-SAT instances]] - paper - references/recursion/ch1/ref-20-thaler-proofs-arguments-zk.pdf
-- [[Closed-form MLE of Fourier matrix F~(u,x) = prod((1-u_i)+u_iomegaX_{2{i+1}}), bookkeeping table in O(M+N)]] - paper - references/recursion/ch3/ref-70-zkcnn.pdf
-- [[Cormode-Thaler-Yi (CTY11) linear-time and sparse streaming sum-check provers]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[Cross-Term Derivation]] - document - recursion/recursion-outline.md
-- [[Delegating F~ evaluation via sequence of sum-checks verifier time O(log2 N), proof size O(log2 N)]] - paper - references/recursion/ch3/ref-70-zkcnn.pdf
-- [[Encoding of R1CS as a degree-3 log m-variate polynomial G_{io,τ} summing to 0 (Theorem 4.1)]] - paper - references/recursion/ch2/ref-41-spartan.pdf
-- [[Extractable polynomial commitment scheme for multilinear polynomials (Setup, Commit, Open, Eval)]] - paper - references/recursion/ch2/ref-41-spartan.pdf
-- [[GGPR quadratic arithmetic programs (QAPs)  Pinocchio trusted-setup SNARKs (cited prior work)]] - paper - references/recursion/ch2/ref-41-spartan.pdf
-- [[GKR protocol doubly-efficient interactive proof for bounded-depth computation via layer-by-layer sumcheck reduction; prover need not commit to full trace]] - paper - references/recursion/ch1/ref-11-khovratovich-fiat-shamir-attacks.pdf
-- [[Generalized Committed Linear Relation R_lin,B]] - paper - references/ch02/ref-11-latticefold-plus.pdf
-- [[Goldwasser-Kalai-Rothblum (GKR) doubly-efficient interactive proofs (cited prior work)]] - paper - references/recursion/ch2/ref-41-spartan.pdf
-- [[Goldwasser-Kalai-Rothblum 26 Delegating Computation  Interactive Proofs for Muggles]] - paper - references/recursion/ch3/ref-70-zkcnn.pdf
-- [[Hyrax (Wahby et al.) transparent zkSNARK + Hyrax-PC multilinear polynomial commitment (cited  instantiated)]] - paper - references/recursion/ch2/ref-41-spartan.pdf
-- [[LFKN LFKN90 original sum-check protocol]] - paper - references/ch03/ref-15-lasso.pdf
-- [[Lemma 1 constant-time R1CS-to-CCS reduction (t=3, q=2, d=2)]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
-- [[Libra (Xie et al. 48) O(C) prover GKR, bookkeeping tables]] - paper - references/recursion/ch3/ref-70-zkcnn.pdf
-- [[Libra (Xie et al.) linear-time-prover zkSNARK for uniform circuits (cited; SpartanKE alternative)]] - paper - references/recursion/ch2/ref-41-spartan.pdf
-- [[Lund-Fortnow-Karloff-Nisan 35 original sum-check protocol]] - paper - references/recursion/ch3/ref-70-zkcnn.pdf
-- [[Marlin CHM+20 - preprocessing zkSNARK that SuperMarlin generalizes]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
-- [[Multi-Prover Interactive Proofs (MIPs) and succinct arguments for circuit satisfiability]] - paper - references/recursion/ch1/ref-20-thaler-proofs-arguments-zk.pdf
-- [[Multilinear extension (MLE)]] - paper - references/ch03/ref-16-jolt.pdf
-- [[New sum-check protocol for FFT with O(N) linear prover time (faster than computing the FFT)]] - paper - references/recursion/ch3/ref-70-zkcnn.pdf
-- [[No-FFT prover (sum-check avoids FFT-based polynomial machinery of QAPIOP SNARKs)]] - paper - references/recursion/ch2/ref-41-spartan.pdf
-- [[Offline memory checking via public-coin randomized check (memory in the head) for O(n)-sized eval circuit]] - paper - references/recursion/ch2/ref-41-spartan.pdf
-- [[Probabilistically Checkable Proofs (PCPs) compiling a PCP into a succinct argument via Merkle commitment]] - paper - references/recursion/ch1/ref-20-thaler-proofs-arguments-zk.pdf
-- [[Proofs, Arguments, and Zero-Knowledge (Justin Thaler, survey textbook)]] - paper - references/recursion/ch1/ref-20-thaler-proofs-arguments-zk.pdf
-- [[R1CS (Rank-1 Constraint Systems)]] - document - proving-nothing.md
-- [[SPARK compiler transforms a dense multilinear PC into one for sparse multilinear polynomials]] - paper - references/recursion/ch2/ref-41-spartan.pdf
-- [[Setty, Spartan (CRYPTO 2020)]] - document - recursion/recursion-outline.md
-- [[Setty, Spartan Efficient and General-Purpose zkSNARKs without Trusted Setup (CRYPTO 2020  ePrint 2019550)]] - paper - references/recursion/ch2/ref-41-spartan.pdf
-- [[Shout sum-check memory-checking  lookup argument for read-only memory]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[Small-value sum-check optimization (Bagad-Domb-Thaler Algorithm 3)]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[Spartan]] - document - proving-nothing.md
-- [[Spartan Rust library (~8,000 LoC), DLOG-based transparent zkSNARK; github.comMicrosoftSpartan]] - paper - references/recursion/ch2/ref-41-spartan.pdf
-- [[Spartan Set20 - linear-time R1CS polynomial IOP that SuperSpartan generalizes]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
-- [[Spartan over Jolt's uniform block-diagonal R1CS, streamed via Az,Bz,Cz]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[Spartan variants SpartanDL, SpartanRO, SpartanCL (transparent), SpartanKE (universal setup)]] - paper - references/recursion/ch2/ref-41-spartan.pdf
-- [[Streaming  small-space sum-check prover (logarithmic-space, quasi-linear time)]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[Sum-Check Protocol_1]] - document - recursion/recursion-outline.md
-- [[SuperMarlin univariate-sumcheck SNARK for CCS generalizing Marlin]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
-- [[SuperSpartan SNARK family for CCS generalizing Spartan's polynomial IOP]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
-- [[Theorem 1.1  Corollary 1.1 family of zkSNARKs, prover O(n)–O(n log n), verifierproof O(log² n)–O(√n)]] - paper - references/recursion/ch2/ref-41-spartan.pdf
-- [[Theorem 1 polynomial IOP for CCS, soundness O((t+d)log m)F, prover O(N+tm+qmd log2 d) F-ops]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
-- [[Theorem 4.1 ∃ degree-3 log m-variate G with ∑ G(x)=0 iff R1CS satisfiable]] - paper - references/recursion/ch2/ref-41-spartan.pdf
-- [[Theorem 5.1 succinct interactive AoK from any extractable multilinear polynomial commitment]] - paper - references/recursion/ch2/ref-41-spartan.pdf
-- [[Time-optimal (linear-time O(n)) prover from multilinear decomposition + SPARK]] - paper - references/recursion/ch2/ref-41-spartan.pdf
-- [[Two-round sum-check public-coin succinct interactive argument of knowledge for R1CS (Theorem 5.1)]] - paper - references/recursion/ch2/ref-41-spartan.pdf
+- [['Large-Scale MPC Scaling Private Iris Code Uniqueness Checks to Millions of Users' — cited technical paper underpinning AMPC]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[AMPC infrastructure NVIDIA H100 GPUs (AWS p5.48xlarge, RDMA) running CUDA, ~50M pairwise comparisonssec; operated by FAU Erlangen, UC Berkeley RDI, Nethermind, KAIST, UTEC, UZurich]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[Anonymized Multi-Party Computation (AMPC) quantum-secure SMPC uniqueness service on encrypted iris-code fragments, revealing only a single matchno-match bit, never plaintext Hamming distances]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[Authentic sources & attribute verification (Art. 3(47); Art. 45e)]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[Certification of EUDI Wallets (Art. 5c)]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[Common dashboard transaction log, GDPR Art.17 erasure, DPA reporting (Art. 5a(4)(d))]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[Data minimization]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[Definition 'European Digital Identity Wallet' (Art. 3(42))]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[Digital Identity]] - document - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[EUDI Wallet (Art. 5a) user-controlled cross-border eID means]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[EUDI Wallet relying parties registration, intended-use declaration (Art. 5b)]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[Electronic Attestation of Attributes (EAA) (Art. 3(44); Art. 45b)]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[European Digital Identity Framework (amending Reg 9102014)]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[European Digital Identity Wallet]] - document - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[GDPR  Reg 2016679 compliance & purpose limitation (Art. 5a(17); Recital 12)]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[Iris Biometrics]] - document - references/ch13/ref-59-world-whitepaper.pdf
+- [[Iris biometrics 1N uniqueness modality with FMR beyond 2.5e-14, randomly formed in gestation, stable, uncorrelated even between twinsown eyes]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[Issuance with complete certainty of identityattributes (Recital 74)]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[John Daugman iris recognition (1993, Gabor-wavelet IrisCode), foundational prior work for the Orb's iris algorithm]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[Levels of assurance wallet at assurance level 'high' (Art. 8; Art. 5a(11))]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[NFC ID credential self-custodial credential derived locally from ICAO-compliant NFC passportsnational IDs to prove attributes (age, nationality) without uploading ID data]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[Nullifier]] - document - proving-nothing.md
+- [[Orb hardware root of trust dual burned keys (NVIDIA Jetson SoC fuses + secure element), NIST-SP-800-108 KDF provisioning, dm-verity signed-firmware boot, on-chain Orb Registry]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[Personal Custody Package (PCP) irisface embeddings, raw images and AMPC fragments encrypted on the Orb with a user key, sent to the phone, then images deleted from the Orb]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[PoH authentication unlinkable pseudonymity via self-custody + ZKP against a public registry, plus a person-bound second factor (Face Auth) with periodic reauthentication]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[Presentation Attack Detection & liveness local challenge-response, passive liveness, thermal heat-signature check, contact-lens detection across multispectral sensors]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[Privacy-preserving  no-tracking technical framework (Art. 5a(16))]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[Proof of Human (PoH) private primitive establishing a party is a real, unique human (or agent acting on a human's behalf)]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[Proof of Personhood]] - document - proving-nothing.md
+- [[QTSP non-combination of personal data  wallet-issuer blindness (Art. 45h; Art. 5a(5)(b))]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[Qualified Electronic Attestation of Attributes (QEAA) (Art. 3(45); Art. 45d, Annex V)]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[Qualified Trust Service Provider  qualified trust services]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[Regulation (EU) 2016679 (GDPR)]] - document - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[Regulation (EU) 20241183 establishing the European Digital Identity Framework (eIDAS 2)]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[Secure multi-party computation (SMPC) multiple independent nodes jointly check uniqueness over secret-shared, end-to-end encrypted fragments without any party seeing the data]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[Semaphore set registration zk-SNARK privacy layer; smart contract on Ethereum holding a Merkle set of Poseidon (BN254) hashes of World ID secrets, bridged to other chains]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[Semaphore generic open-source zk-SNARK group-membership and signaling protocol for Ethereum (Groth16-verifiable)]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[Sole user control & logical data separation (Art. 5a(14))]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[The Orb high-security open-source multispectral IR camera issuing an AI-safe PoH credential via local on-device iris+face capture, livenessPAD, and signed iris code]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[Unique iris code frequency-based features extracted from iris texture via multi-scale Gabor wavelet filters with quantized phase response; matched by Hamming distance with masks]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[Uniqueness targetsclaims per-iris FMR 1e-6, billion-scale FMR ~1e-12, FNMR  5e-3; achieved FMR 2.25e-14 at ~1e-3 FNMR in pre-launch tests]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[Unlinkability]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[User-chosen pseudonyms (Art. 5a(4)(b); Recital 22)]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[Voluntary use, open-source, free-of-charge wallet (Art. 5a(3),(13),(15))]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[World Chain human-centered financial layer implemented as an OP Stack  Superchain layer-2 on Ethereum with human-based transaction prioritization]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[World ID]] - document - references/ch13/ref-59-world-whitepaper.pdf
+- [[World ID open-source decentralized privacy-preserving digital identity issuing unlinkable proofs (Proof of Human, Age, Country) via personal custody, AMPC and ZKPs]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[World Network real human network with five core technologies (World ID, Orb, World App, World Chain, WLD) for Proof of Human plus a financial layer]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[World Whitepapers (World Network Proof of Human)]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[Worldcoin (WLD) ERC-20 native token, 10B initial cap, =60% target to verified humans as user tokens, governanceone-person-one-vote, =1.5% inflation only after 15 years]] - paper - references/ch13/ref-59-world-whitepaper.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -66,47 +69,16 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 24 edges to [[_COMMUNITY_Community 6]]
-- 21 edges to [[_COMMUNITY_Community 23]]
-- 19 edges to [[_COMMUNITY_Community 0]]
-- 9 edges to [[_COMMUNITY_Community 2]]
-- 8 edges to [[_COMMUNITY_Community 67]]
-- 8 edges to [[_COMMUNITY_Community 58]]
-- 7 edges to [[_COMMUNITY_Community 31]]
-- 6 edges to [[_COMMUNITY_Community 41]]
-- 6 edges to [[_COMMUNITY_Community 54]]
-- 6 edges to [[_COMMUNITY_Community 88]]
-- 5 edges to [[_COMMUNITY_Community 8]]
-- 5 edges to [[_COMMUNITY_Community 25]]
-- 5 edges to [[_COMMUNITY_Community 48]]
-- 4 edges to [[_COMMUNITY_Community 7]]
-- 4 edges to [[_COMMUNITY_Community 30]]
-- 4 edges to [[_COMMUNITY_Community 73]]
-- 3 edges to [[_COMMUNITY_Community 111]]
-- 3 edges to [[_COMMUNITY_Community 17]]
-- 3 edges to [[_COMMUNITY_Community 102]]
-- 3 edges to [[_COMMUNITY_Community 12]]
-- 2 edges to [[_COMMUNITY_Community 5]]
-- 2 edges to [[_COMMUNITY_Community 9]]
-- 2 edges to [[_COMMUNITY_Community 53]]
-- 2 edges to [[_COMMUNITY_Community 75]]
-- 2 edges to [[_COMMUNITY_Community 14]]
-- 2 edges to [[_COMMUNITY_Community 20]]
-- 1 edge to [[_COMMUNITY_Community 15]]
-- 1 edge to [[_COMMUNITY_Community 90]]
-- 1 edge to [[_COMMUNITY_Community 124]]
-- 1 edge to [[_COMMUNITY_Community 39]]
-- 1 edge to [[_COMMUNITY_Community 109]]
-- 1 edge to [[_COMMUNITY_Community 16]]
-- 1 edge to [[_COMMUNITY_Community 34]]
-- 1 edge to [[_COMMUNITY_Community 56]]
-- 1 edge to [[_COMMUNITY_Community 43]]
-- 1 edge to [[_COMMUNITY_Community 119]]
-- 1 edge to [[_COMMUNITY_Community 38]]
+- 6 edges to [[_COMMUNITY_Community 49]]
+- 5 edges to [[_COMMUNITY_Community 37]]
+- 2 edges to [[_COMMUNITY_Community 76]]
+- 1 edge to [[_COMMUNITY_Community 69]]
+- 1 edge to [[_COMMUNITY_Community 1]]
+- 1 edge to [[_COMMUNITY_Community 6]]
 
 ## Top bridge nodes
-- [[R1CS (Rank-1 Constraint Systems)]] - degree 50, connects to 20 communities
-- [[Sum-Check Protocol_1]] - degree 74, connects to 17 communities
-- [[Proofs, Arguments, and Zero-Knowledge (Justin Thaler, survey textbook)]] - degree 19, connects to 10 communities
-- [[Spartan]] - degree 36, connects to 9 communities
-- [[GKR protocol doubly-efficient interactive proof for bounded-depth computation via layer-by-layer sumcheck reduction; prover need not commit to full trace]] - degree 21, connects to 6 communities
+- [[Regulation (EU) 20241183 establishing the European Digital Identity Framework (eIDAS 2)]] - degree 7, connects to 3 communities
+- [[Nullifier]] - degree 4, connects to 2 communities
+- [[EUDI Wallet (Art. 5a) user-controlled cross-border eID means]] - degree 15, connects to 1 community
+- [[Proof of Personhood]] - degree 8, connects to 1 community
+- [[World Whitepapers (World Network Proof of Human)]] - degree 6, connects to 1 community

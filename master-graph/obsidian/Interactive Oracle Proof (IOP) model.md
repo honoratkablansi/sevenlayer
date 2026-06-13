@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-08-stark.pdf"
 type: "paper"
-community: "Community 2"
+community: "Community 82"
 location: "§1, Def. 3.2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_2
+  - community/Community_82
 ---
 
 # Interactive Oracle Proof (IOP) model
@@ -15,4 +15,4 @@ tags:
 - [[Interactive Oracle Proofs]] - `conceptually_related_to` [EXTRACTED]
 - [[Scalable Transparent IOP of Knowledge (STIK)]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_2
+#graphify/paper #graphify/EXTRACTED #community/Community_82

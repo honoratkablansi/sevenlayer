@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch2/ref-49-mina-pickles-docs.md"
 type: "document"
-community: "Community 37"
+community: "Community 36"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_37
+  - community/Community_36
 ---
 
 # Mina "Pickles" technical documentation
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[Recursion References (cited works)]] - `cites` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_37
+#graphify/document #graphify/EXTRACTED #community/Community_36

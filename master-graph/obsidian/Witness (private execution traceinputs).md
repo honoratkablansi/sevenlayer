@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 14"
+community: "Community 1"
 location: "Chapter 3"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_14
+  - community/Community_1
 ---
 
 # Witness (private execution trace/inputs)
@@ -14,7 +14,6 @@ tags:
 ## Connections
 - [[4x4 Sudoku Proof (Running Example)]] - `explains` [EXTRACTED]
 - [[Disclosure Analysis (Compact)]] - `conceptually_related_to` [EXTRACTED]
-- [[Execution Trace]] - `conceptually_related_to` [EXTRACTED]
 - [[Execution Traces]] - `defines` [EXTRACTED]
 - [[Midnight disclose() Boundary and Two-Transcript Model]] - `explains` [EXTRACTED]
 - [[Non-Deterministic Hint]] - `conceptually_related_to` [EXTRACTED]
@@ -24,4 +23,4 @@ tags:
 - [[The Secret Performance]] - `defines` [EXTRACTED]
 - [[Witness-Constraint Divergence]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_14
+#graphify/document #graphify/EXTRACTED #community/Community_1

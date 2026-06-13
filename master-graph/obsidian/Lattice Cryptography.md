@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/07-the-deep-craft.md"
 type: "document"
-community: "Community 8"
+community: "Community 0"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_8
+  - community/Community_0
 ---
 
 # Lattice Cryptography
@@ -37,7 +37,7 @@ tags:
 - [[Nightstream Lattice-Based Folding for CCS (LFDT-Nightstream)]] - `references` [EXTRACTED]
 - [[Nightstream What a Folding Engine Looks Like from the Inside]] - `references` [EXTRACTED]
 - [[Open Questions and the Road Ahead]] - `references` [EXTRACTED]
-- [[Path Three Post-Quantum Folding_1]] - `conceptually_related_to` [EXTRACTED]
+- [[Path Three Post-Quantum Folding]] - `conceptually_related_to` [EXTRACTED]
 - [[Performance The Cost Collapse]] - `conceptually_related_to` [EXTRACTED]
 - [[Privacy-Enhancing Technologies]] - `references` [EXTRACTED]
 - [[Symphony Scalable SNARKs in the Random Oracle Model from Lattice-Based High-Arity Folding]] - `references` [EXTRACTED]
@@ -61,9 +61,9 @@ tags:
 - [[The Three-Path Table]] - `conceptually_related_to` [EXTRACTED]
 - [[The Trilemma -- And Its Dissolution]] - `references` [EXTRACTED]
 - [[Three Hardness Assumptions, Three Worlds]] - `references` [EXTRACTED]
-- [[Trust Decomposition Seven Weaker Assumptions_1]] - `conceptually_related_to` [EXTRACTED]
+- [[Trust Decomposition Seven Weaker Assumptions]] - `conceptually_related_to` [EXTRACTED]
 - [[Where Midnight Challenges the Model]] - `references` [EXTRACTED]
 - [[Where the Layers Collapse]] - `references` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_8
+#graphify/document #graphify/EXTRACTED #community/Community_0

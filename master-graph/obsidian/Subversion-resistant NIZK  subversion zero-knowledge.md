@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-37-updatable-universal-crs.pdf"
 type: "paper"
-community: "Community 82"
+community: "Community 79"
 location: "§3.4"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_82
+  - community/Community_79
 ---
 
 # Subversion-resistant NIZK / subversion zero-knowledge
@@ -18,4 +18,4 @@ tags:
 - [[Three setup-oracle types trusted (T), updatable (U), subvertible (S)]] - `conceptually_related_to` [EXTRACTED]
 - [[Trusted Setup Ceremony]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_82
+#graphify/paper #graphify/EXTRACTED #community/Community_79

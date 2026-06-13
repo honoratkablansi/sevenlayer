@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 7"
+community: "Community 2"
 location: "Chapter 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_7
+  - community/Community_2
 ---
 
 # Arithmetic Circuit
@@ -23,4 +23,4 @@ tags:
 - [[Structured Reference String (SRS)]] - `conceptually_related_to` [EXTRACTED]
 - [[zk-SNARK]] - `assumes` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_7
+#graphify/document #graphify/EXTRACTED #community/Community_2

@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf"
 type: "paper"
-community: "Community 1"
+community: "Community 4"
 location: "§2 (classic slow functions), §4, §8"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_1
+  - community/Community_4
 ---
 
 # Repeated/sequential squaring in a group of unknown order
@@ -23,4 +23,4 @@ tags:
 - [[Wesolowski, Efficient Verifiable Delay Functions (EUROCRYPT 2019)]] - `assumes` [EXTRACTED]
 - [[Wesolowski, efficient VDF from groups of unknown order 73]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_1
+#graphify/paper #graphify/EXTRACTED #community/Community_4

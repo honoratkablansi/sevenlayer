@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch09-the-regulatory-intersection.md"
 type: "document"
-community: "Community 16"
+community: "Community 5"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_16
+  - community/Community_5
 ---
 
 # The Regulatory Intersection
@@ -18,7 +18,7 @@ tags:
 - [[The Four Pillars]] - `references` [EXTRACTED]
 - [[The Incomplete Stack]] - `references` [EXTRACTED]
 - [[Zero-Knowledge Proof]] - `conceptually_related_to` [EXTRACTED]
-- [[eIDAS 2.0_1]] - `defines` [EXTRACTED]
+- [[eIDAS 2.0]] - `defines` [EXTRACTED]
 - [[zKYC (Zero-Knowledge Know Your Customer)]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_16
+#graphify/document #graphify/EXTRACTED #community/Community_5

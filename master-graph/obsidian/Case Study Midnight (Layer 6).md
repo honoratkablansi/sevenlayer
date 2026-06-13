@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch07-case-study-midnight.md"
 type: "document"
-community: "Community 8"
+community: "Community 0"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_8
+  - community/Community_0
 ---
 
 # Case Study: Midnight (Layer 6)
@@ -18,7 +18,7 @@ tags:
 - [[Compact Language]] - `references` [EXTRACTED]
 - [[Four Families of Commitment Schemes]] - `references` [EXTRACTED]
 - [[Full Seven-Layer Mapping]] - `references` [EXTRACTED]
-- [[Goldilocks Field_1]] - `references` [EXTRACTED]
+- [[Goldilocks Field]] - `references` [EXTRACTED]
 - [[Jubjub Curve]] - `references` [EXTRACTED]
 - [[KZG Polynomial Commitments from pairings (with trusted setup); Dory transparent pairing-based scheme]] - `references` [EXTRACTED]
 - [[Layer 6 -- The Deep Craft]] - `part_of` [EXTRACTED]
@@ -27,7 +27,7 @@ tags:
 - [[Neo (Lattice Folding over Small Fields)]] - `references` [EXTRACTED]
 - [[Nightstream]] - `references` [EXTRACTED]
 - [[Pedersen Commitment]] - `references` [EXTRACTED]
-- [[Poseidon Hash_1]] - `references` [EXTRACTED]
+- [[Poseidon Hash]] - `references` [EXTRACTED]
 - [[Post-Quantum Cryptography]] - `references` [EXTRACTED]
 - [[The Cascade Effect]] - `references` [EXTRACTED]
 - [[The One-Way Door]] - `references` [EXTRACTED]
@@ -35,4 +35,4 @@ tags:
 - [[ZKIR (Zero-Knowledge Intermediate Representation)]] - `references` [EXTRACTED]
 - [[Zcash]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_8
+#graphify/document #graphify/EXTRACTED #community/Community_0

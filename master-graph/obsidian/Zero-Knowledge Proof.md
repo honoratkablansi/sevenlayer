@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 20"
+community: "Community 37"
 location: "Chapter 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_20
+  - community/Community_37
 ---
 
 # Zero-Knowledge Proof
@@ -58,4 +58,4 @@ tags:
 - [[Zero-knowledge two-stage parsing scheme local pre-process (Trans) then prove context integrity on shorter transformed string]] - `conceptually_related_to` [EXTRACTED]
 - [[zKYC (Zero-Knowledge Know Your Customer)]] - `implements` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_20
+#graphify/document #graphify/EXTRACTED #community/Community_37

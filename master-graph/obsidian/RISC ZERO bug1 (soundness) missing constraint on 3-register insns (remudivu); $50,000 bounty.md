@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-61-arguzz.pdf"
 type: "paper"
-community: "Community 72"
+community: "Community 19"
 location: "§2, §4.2 RQ2, Tab.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_72
+  - community/Community_19
 ---
 
 # RISC ZERO bug#1 (soundness): missing constraint on 3-register insns (remu/divu); $50,000 bounty
@@ -16,4 +16,4 @@ tags:
 - [[INSTR_WORD_MOD instruction-modification injection (universal; triggered all 3 soundness bugs)]] - `conceptually_related_to` [EXTRACTED]
 - [[Soundness]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_72
+#graphify/paper #graphify/EXTRACTED #community/Community_19

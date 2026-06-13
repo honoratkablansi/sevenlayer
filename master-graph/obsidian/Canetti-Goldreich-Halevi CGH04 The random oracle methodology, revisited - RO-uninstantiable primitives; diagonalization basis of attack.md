@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-11-khovratovich-fiat-shamir-attacks.pdf"
 type: "paper"
-community: "Community 12"
+community: "Community 14"
 location: "refs [CGH04]"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_12
+  - community/Community_14
 ---
 
 # Canetti-Goldreich-Halevi [CGH04] The random oracle methodology, revisited - RO-uninstantiable primitives; diagonalization basis of attack
@@ -16,4 +16,4 @@ tags:
 - [[Khovratovich-Rothblum-Soukhanov How to Prove False Statements - Practical Attacks on Fiat-Shamir (ePrint 2025118)]] - `cites` [EXTRACTED]
 - [[Random oracle model (non-interactive STARK  NIROP)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_12
+#graphify/paper #graphify/EXTRACTED #community/Community_14

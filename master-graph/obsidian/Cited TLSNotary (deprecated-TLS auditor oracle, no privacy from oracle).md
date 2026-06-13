@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-87-deco.pdf"
 type: "paper"
-community: "Community 19"
+community: "Community 29"
 location: "Ref [7], §1, §9"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_19
+  - community/Community_29
 ---
 
 # Cited: TLSNotary (deprecated-TLS auditor oracle, no privacy from oracle)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[DECO decentralized oracle for TLS (Zhang, Maram, Malvai, Goldfeder, Juels, CCS 2020)]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_19
+#graphify/paper #graphify/EXTRACTED #community/Community_29

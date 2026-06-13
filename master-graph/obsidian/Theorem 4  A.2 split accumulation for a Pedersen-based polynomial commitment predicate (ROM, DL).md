@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf"
 type: "paper"
-community: "Community 75"
+community: "Community 23"
 location: "Thm 4 (§2.6) / Thm A.2 (App A)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_75
+  - community/Community_23
 ---
 
 # Theorem 4 / A.2: split accumulation for a Pedersen-based polynomial commitment predicate (ROM, DL)
@@ -17,4 +17,4 @@ tags:
 - [[Proof-Carrying Data without Succinct Arguments (Bunz, Chiesa, Lin, Mishra, Spooner, CRYPTO 2021  ePrint 20201618)]] - `proves` [EXTRACTED]
 - [[Split Accumulation]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_75
+#graphify/paper #graphify/EXTRACTED #community/Community_23

@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 0"
+community: "Community 52"
 location: "Chapter 6"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Community_52
 ---
 
 # ProtoGalaxy (Multi-Instance Folding)
@@ -23,4 +23,4 @@ tags:
 - [[The Folding Genealogy]] - `defines` [EXTRACTED]
 - [[Theorem 4.3 ProtoGalaxy is an (Rk - R_rand) accumulationfolding scheme (complete and knowledge-sound)]] - `proves` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/document #graphify/EXTRACTED #community/Community_52

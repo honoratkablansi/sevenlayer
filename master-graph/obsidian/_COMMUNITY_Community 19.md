@@ -10,36 +10,36 @@ members: 30
 **Members:** 30 nodes
 
 ## Members
-- [[2PC query execution over TLS prover and verifier run custom 2PC (2PC-HMAC, 2PC-GCM) to construct TLS records under secret-shared keys]] - paper - references/recursion/ch3/ref-87-deco.pdf
-- [[2PC-HMAC optimization compute inner-hash IV s0=f_H(IV, k+ipad) once, local inner hash regardless of query length]] - paper - references/recursion/ch3/ref-87-deco.pdf
-- [[3-AES-invocation record revelation vs 1027 naive AES-in-ZKP, via CBC MAC-then-encrypt structure]] - paper - references/recursion/ch3/ref-87-deco.pdf
-- [[Authenticated data feed (ADF) for smart contracts]] - paper - references/recursion/ch3/ref-87-deco.pdf
-- [[Blockchainsmart-contract oracle protocol (provenance of online data)]] - paper - references/recursion/ch3/ref-87-deco.pdf
-- [[Cited Bulletproofs (transparent-setup ZK alternative to libsnark)]] - paper - references/recursion/ch3/ref-87-deco.pdf
-- [[Cited Camenisch-Stadler ZK-PoK notation for proofs of knowledge]] - paper - references/recursion/ch3/ref-87-deco.pdf
-- [[Cited Canetti, Universally Composable Security framework]] - paper - references/recursion/ch3/ref-87-deco.pdf
-- [[Cited Cinderella (verifiable computation over X.509 certificates)]] - paper - references/recursion/ch3/ref-87-deco.pdf
-- [[Cited TLS-N (server-side TLS 1.3 extension signing session, chunk-level redaction)]] - paper - references/recursion/ch3/ref-87-deco.pdf
-- [[Cited TLSNotary (deprecated-TLS auditor oracle, no privacy from oracle)]] - paper - references/recursion/ch3/ref-87-deco.pdf
-- [[Cited Town Crier (TEESGX-based oracle, ADF term origin)]] - paper - references/recursion/ch3/ref-87-deco.pdf
-- [[Cited Yao garbled circuits (basis of 2PC for bitwise ops)]] - paper - references/recursion/ch3/ref-87-deco.pdf
-- [[Cited libsnark zk-SNARK library (Ben-Sasson et al. proof system 18)]] - paper - references/recursion/ch3/ref-87-deco.pdf
-- [[Cited secret-sharing MtA (multiplicative-to-additive) protocol used in ECtF]] - paper - references/recursion/ch3/ref-87-deco.pdf
-- [[Context-integrity property and context-integrity attacks (quoting out of context  reflection attack) universal to privacy-preserving oracles]] - paper - references/recursion/ch3/ref-87-deco.pdf
-- [[DECO decentralized oracle for TLS (Zhang, Maram, Malvai, Goldfeder, Juels, CCS 2020)]] - paper - references/recursion/ch3/ref-87-deco.pdf
-- [[ECtF protocol convert additive shares of an EC point in GF(p) to additive shares of its x-coordinate in F_p (8-ciphertext comm.)]] - paper - references/recursion/ch3/ref-87-deco.pdf
-- [[Efficient selective opening of TLS records (RevealRedact modes) exploiting MAC-then-encrypt and Merkle-Damgard structure]] - paper - references/recursion/ch3/ref-87-deco.pdf
-- [[Ideal functionality F_Oracle (formal security definition of decentralized oracle) between S, P, V]] - paper - references/recursion/ch3/ref-87-deco.pdf
-- [[Key idea withhold MAC key share from prover until after commitment, making session-data commitment unforgeable]] - paper - references/recursion/ch3/ref-87-deco.pdf
-- [[Key-value grammar optimization (globally unique keys) for JSONHTML two-stage parsing]] - paper - references/recursion/ch3/ref-87-deco.pdf
-- [[Secure multi-party computation (MPC)  two-party computation (2PC)]] - paper - references/recursion/ch3/ref-87-deco.pdf
-- [[Security properties prover-integrity, verifier-integrity, privacy under static malicious adversary]] - paper - references/recursion/ch3/ref-87-deco.pdf
-- [[Theorem 4.1 Prot_DECO UC-securely realizes F_Oracle in (F_2PC, F_ZK)-hybrid world, assuming hard discrete log and SHA-256 compression as random oracle]] - paper - references/recursion/ch3/ref-87-deco.pdf
-- [[Three-party handshake (3P-HS) prover+verifier jointly act as TLS client, secret-share session keys with server, transparent to server]] - paper - references/recursion/ch3/ref-87-deco.pdf
-- [[Transport Layer Security (TLS) handshake + record protocol]] - paper - references/recursion/ch3/ref-87-deco.pdf
-- [[Trust model no trusted hardware, no server-side modification; oracle trusted for integrity not privacy; privacy holds even if all oracles compromised]] - paper - references/recursion/ch3/ref-87-deco.pdf
-- [[Universally Composable (UC) security via ideal functionality]] - paper - references/recursion/ch3/ref-87-deco.pdf
-- [[Zero-knowledge two-stage parsing scheme local pre-process (Trans) then prove context integrity on shorter transformed string]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[ARGUZZ first automated fuzzer for zkVM soundness & completeness bugs (7-step workflow)]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[CIRCIL extended with inline-RISC-V-assembly custom functions (e.g. mulhsu) + circuit-to-Rust translation]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[CIRCUZZ 23 metamorphic fuzzer for ZK pipelines (CIRCOMGNARKNOIR) via CIRCIL]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Chaliasos et al. — SoK Security Vulnerabilities in SNARKs (USENIX 2024)]] - document - proving-nothing.md
+- [[Claim Under-constrained circuits are the dominant ZK failure mode (95 of 141 bugs)]] - document - proving-nothing.md
+- [[Completeness]] - document - proving-nothing.md
+- [[Dory transparent polynomial commitment scheme (log-round, sqrt-space prover)]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Efficient metamorphic-testing variant known expected output, k-safety, single padded trace]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Error reduction by sequential repetition (Remark 1)]] - paper - references/ch01/ref-02-gmr-knowledge-complexity.pdf
+- [[Evaluation across 6 RISC-V zkVMs; 11 bugs (3 soundness FI, 8 completeness MT) in 3 of them]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[FUZZTRUCTION  FUZZTRUCTION-NET 10,11 fault-injection-based fuzzing]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Fair fault-injection scheduler (uniform RISC-V instruction coverage via least-injected selection)]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Fault Injection]] - document - references/ch14/ref-61-arguzz.pdf
+- [[INSTR_WORD_MOD instruction-modification injection (universal; triggered all 3 soundness bugs)]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Injection-type taxonomy (PC mod, ALU resultoperand, memreg mod, DIVREM flips, ecall id, branch invert)]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[JOLT bug6 (soundness) unconstrained immediate operand in lui instruction]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[MTZK 43 metamorphic testing of zero-knowledge compilers]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Malicious-prover fault injection into VM execution logic (verifier-only-trusted threat model)]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Metamorphic Testing]] - document - references/ch14/ref-61-arguzz.pdf
+- [[NEXUS bug3 (soundness) unconstrained store-value lower bits in swshsb load-store]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Product programs  hyperproperty (k-safety) reasoning 12,13,20,41]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Product-program metamorphic oracle merge k equivalent Rust fns; SUCCESS (0xC0FFEE) vs OOPS (0x0)]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[RISC ZERO bug1 (soundness) missing constraint on 3-register insns (remudivu); $50,000 bounty]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[RISC-V CPU fuzzers 25,29,40,44 (DifuzzRTL, TheHuzz, Cascade, MorFuzz)]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Ripple-effect fault propagation (fault at one instruction cascades along data dependencies)]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Rust 1.80 miscompilation by-product bug (boolean expr; both soundness & completeness)]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Semantics-preserving rewrite rules (commassocdistribDe Morgan; field-arith rules disabled)]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Soundness]] - document - proving-nothing.md
+- [[Soundness-bug detection criterion output flips SUCCESS-OOPS yet verifier accepts proof]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[The Bar ID  Proof at the Door Scenario]] - document - proving-nothing.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -49,13 +49,18 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 5 edges to [[_COMMUNITY_Community 20]]
-- 2 edges to [[_COMMUNITY_Community 44]]
-- 2 edges to [[_COMMUNITY_Community 96]]
+- 6 edges to [[_COMMUNITY_Community 7]]
+- 4 edges to [[_COMMUNITY_Community 37]]
+- 2 edges to [[_COMMUNITY_Community 69]]
+- 1 edge to [[_COMMUNITY_Community 45]]
+- 1 edge to [[_COMMUNITY_Community 49]]
+- 1 edge to [[_COMMUNITY_Community 68]]
+- 1 edge to [[_COMMUNITY_Community 2]]
+- 1 edge to [[_COMMUNITY_Community 18]]
 
 ## Top bridge nodes
-- [[DECO decentralized oracle for TLS (Zhang, Maram, Malvai, Goldfeder, Juels, CCS 2020)]] - degree 22, connects to 2 communities
-- [[Efficient selective opening of TLS records (RevealRedact modes) exploiting MAC-then-encrypt and Merkle-Damgard structure]] - degree 5, connects to 2 communities
-- [[Zero-knowledge two-stage parsing scheme local pre-process (Trans) then prove context integrity on shorter transformed string]] - degree 4, connects to 1 community
-- [[Cited Bulletproofs (transparent-setup ZK alternative to libsnark)]] - degree 2, connects to 1 community
-- [[Cited libsnark zk-SNARK library (Ben-Sasson et al. proof system 18)]] - degree 2, connects to 1 community
+- [[Soundness]] - degree 11, connects to 4 communities
+- [[Completeness]] - degree 7, connects to 3 communities
+- [[Dory transparent polynomial commitment scheme (log-round, sqrt-space prover)]] - degree 3, connects to 2 communities
+- [[ARGUZZ first automated fuzzer for zkVM soundness & completeness bugs (7-step workflow)]] - degree 13, connects to 1 community
+- [[Fault Injection]] - degree 4, connects to 1 community

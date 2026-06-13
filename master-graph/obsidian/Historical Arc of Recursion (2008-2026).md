@@ -1,12 +1,12 @@
 ---
 source_file: "recursion/recursion-outline.md"
 type: "document"
-community: "Community 0"
+community: "Community 14"
 location: "Recursion Chapter 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Community_14
 ---
 
 # Historical Arc of Recursion (2008-2026)
@@ -17,6 +17,6 @@ tags:
 - [[Mina (Coda)]] - `references` [EXTRACTED]
 - [[Nova]] - `references` [EXTRACTED]
 - [[Plonky2]] - `references` [EXTRACTED]
-- [[Recursive Proof Composition_1]] - `explains` [EXTRACTED]
+- [[Recursive Proof Composition]] - `explains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/document #graphify/EXTRACTED #community/Community_14

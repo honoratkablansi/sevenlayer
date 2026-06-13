@@ -1,12 +1,12 @@
 ---
 source_file: "recursion/recursion-outline.md"
 type: "document"
-community: "Community 0"
+community: "Community 16"
 location: "Recursion Chapter 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Community_16
 ---
 
 # Binding Verification Keys and Statements Safely
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Nova]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/document #graphify/EXTRACTED #community/Community_16

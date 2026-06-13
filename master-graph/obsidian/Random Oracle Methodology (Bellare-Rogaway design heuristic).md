@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf"
 type: "paper"
-community: "Community 46"
+community: "Community 98"
 location: "§1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_46
+  - community/Community_98
 ---
 
 # Random Oracle Methodology (Bellare-Rogaway design heuristic)
@@ -17,4 +17,4 @@ tags:
 - [[Provable security  reductionist methodology]] - `conceptually_related_to` [EXTRACTED]
 - [[Random oracle model (non-interactive STARK  NIROP)]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_46
+#graphify/paper #graphify/EXTRACTED #community/Community_98

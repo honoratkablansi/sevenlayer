@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf"
 type: "paper"
-community: "Community 55"
+community: "Community 45"
 location: "§4 Def 4.2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_55
+  - community/Community_45
 ---
 
 # Complexity-preserving SNARK (prover time t*poly(k), space s*poly(k); no preprocessing)
@@ -16,4 +16,4 @@ tags:
 - [[Succinctness]] - `conceptually_related_to` [EXTRACTED]
 - [[Theorem 4  9.1 Main bootstrapping theorem (any SNARK - complexity-preserving SNARK and PCD)]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_55
+#graphify/paper #graphify/EXTRACTED #community/Community_45

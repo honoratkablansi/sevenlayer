@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-62-lattice-functional-commitments.pdf"
 type: "document"
-community: "Community 45"
+community: "Community 50"
 location: "Section 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_45
+  - community/Community_50
 ---
 
 # Functional Commitment
@@ -20,4 +20,4 @@ tags:
 - [[Lattice-Based Functional Commitments Fast Verification and Cryptanalysis]] - `references` [EXTRACTED]
 - [[Polynomial Commitment Scheme]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_45
+#graphify/document #graphify/EXTRACTED #community/Community_50

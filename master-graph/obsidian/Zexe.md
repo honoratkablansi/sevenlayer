@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 16"
+community: "Community 5"
 location: "Chapter 9"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_16
+  - community/Community_5
 ---
 
 # Zexe
@@ -22,4 +22,4 @@ tags:
 - [[Recursion vs. Folding Russian Dolls and Snowballs]] - `references` [EXTRACTED]
 - [[The Structural Advantage of Lattices]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_16
+#graphify/document #graphify/EXTRACTED #community/Community_5

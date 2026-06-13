@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch12-midnight-at-a-glance.md"
 type: "document"
-community: "Community 24"
+community: "Community 6"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_24
+  - community/Community_6
 ---
 
 # Cardano
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[Midnight at a Glance]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_24
+#graphify/document #graphify/EXTRACTED #community/Community_6

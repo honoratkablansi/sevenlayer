@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch03/ref-14-ccs-customizable-constraints.pdf"
 type: "paper"
-community: "Community 23"
+community: "Community 11"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_23
+  - community/Community_11
 ---
 
 # Customizable Constraint Systems for Succinct Arguments
@@ -23,8 +23,8 @@ tags:
 - [[R1CS (Rank-1 Constraint Systems)]] - `conceptually_related_to` [EXTRACTED]
 - [[STARK]] - `conceptually_related_to` [EXTRACTED]
 - [[Spartan]] - `conceptually_related_to` [EXTRACTED]
-- [[Sum-Check Protocol_1]] - `conceptually_related_to` [EXTRACTED]
+- [[Sum-Check Protocol]] - `conceptually_related_to` [EXTRACTED]
 - [[SuperMarlin univariate-sumcheck SNARK for CCS generalizing Marlin]] - `introduces` [EXTRACTED]
 - [[SuperSpartan SNARK family for CCS generalizing Spartan's polynomial IOP]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_23
+#graphify/paper #graphify/EXTRACTED #community/Community_11

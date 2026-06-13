@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-87-deco.pdf"
 type: "paper"
-community: "Community 96"
+community: "Community 93"
 location: "§1"
 tags:
   - graphify/paper
   - graphify/INFERRED
-  - community/Community_96
+  - community/Community_93
 ---
 
 # Web data provenance / authenticity of TLS-accessed data
@@ -17,4 +17,4 @@ tags:
 - [[zkEmail]] - `conceptually_related_to` [INFERRED]
 - [[zkTLS  zkEmail web and email provenance]] - `conceptually_related_to` [INFERRED]
 
-#graphify/paper #graphify/INFERRED #community/Community_96
+#graphify/paper #graphify/INFERRED #community/Community_93

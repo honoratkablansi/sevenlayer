@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch08/ref-28-rollup-pricing-attacks.pdf"
 type: "paper"
-community: "Community 86"
+community: "Community 73"
 location: "§5.3, Fig.6"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_86
+  - community/Community_73
 ---
 
 # Cycles-per-gas mispricing (MODEXP 2961, JUMPDEST 1039; EVM gas != proving cost)
@@ -16,4 +16,4 @@ tags:
 - [[Prover-killer attack (high cycles-per-gas tx stalls ZK proof generation)]] - `proves` [EXTRACTED]
 - [[zkVM]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_86
+#graphify/paper #graphify/EXTRACTED #community/Community_73

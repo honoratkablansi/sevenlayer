@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf"
 type: "paper"
-community: "Community 2"
+community: "Community 41"
 location: "Theorem 1.3, §1.2, §6"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_2
+  - community/Community_41
 ---
 
 # Theorem 1.3: 1-round computationally-sound argument for L-uniform NC via Kalai-Raz PIR transformation; certificate poly(kappa,log n)
@@ -17,4 +17,4 @@ tags:
 - [[Private Information Retrieval (poly-log PIR) used to compile public-coin IP into one-round argument]] - `assumes` [EXTRACTED]
 - [[Theorem 1.1 public-coin IP for O(log S)-space-uniform circuits; verifier npoly(d,log S) time, O(log S) space; prover poly(S); communication dpolylog(S)]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_2
+#graphify/paper #graphify/EXTRACTED #community/Community_41

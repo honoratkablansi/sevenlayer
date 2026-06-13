@@ -1,33 +1,32 @@
 ---
 type: community
-cohesion: 0.20
-members: 18
+cohesion: 0.15
+members: 17
 ---
 
 # Community 67
 
-**Cohesion:** 0.20 - loosely connected
-**Members:** 18 nodes
+**Cohesion:** 0.15 - loosely connected
+**Members:** 17 nodes
 
 ## Members
-- [[Avoiding relay gates inputsoutputs at arbitrary circuit layers via multilinear-extension combination (Eq. 2)]] - paper - references/recursion/ch3/ref-73-vsql.pdf
-- [[CMT extension supporting server-provided auxiliary input (non-deterministic computation) via committed multilinear extension]] - paper - references/recursion/ch3/ref-73-vsql.pdf
-- [[CMT protocol (Cormode-Mitzenmacher-Thaler interactive proof for layered arithmetic circuits)]] - paper - references/recursion/ch3/ref-73-vsql.pdf
-- [[Delegated-input technique client outsources database multilinear extension and verifies final CMT point via polynomial commitment]] - paper - references/recursion/ch3/ref-73-vsql.pdf
-- [[Empirical evaluation on TPC-H (6M rows, 13 columns); server up to 120x faster than SNARKs, comparable to IntegriDB]] - paper - references/recursion/ch3/ref-73-vsql.pdf
-- [[Expressive update support server commits to new database digest, verified by running CMT on update circuit]] - paper - references/recursion/ch3/ref-73-vsql.pdf
-- [[Extractable verifiable polynomial-delegation protocol with knowledge soundness (vSQL Construction 2)]] - paper - references/recursion/ch3/ref-73-vsql.pdf
-- [[Gennaro, Gentry, Parno, Raykova — QAP (Eurocrypt 2013)]] - document - proving-nothing.md
-- [[IntegriDB (Zhang-Katz-Papamanthou), prior verifiable-SQL scheme compared against]] - paper - references/recursion/ch3/ref-73-vsql.pdf
-- [[Non-deterministic optimized zeroequality testing (x'=xy, z=x(1-xy)) replacing Fermat-based test; 80x speedup]] - paper - references/recursion/ch3/ref-73-vsql.pdf
-- [[O(zN) interactive set-intersection verification for joins via sorted-permutation product check]] - paper - references/recursion/ch3/ref-73-vsql.pdf
-- [[Outsourced and streaming computation]] - document - recursion/recursion-outline.md
-- [[Publicly-verifiable vs designated-verifier SNARK]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
-- [[Quadratic Arithmetic Programs (QAP)]] - document - proving-nothing.md
-- [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - document - proving-nothing.md
-- [[Theorem 4 vSQL (Construction 3) is a verifiable database system for SQL queries given extractable polynomial delegation]] - paper - references/recursion/ch3/ref-73-vsql.pdf
-- [[Verifiable databases and analytics]] - document - recursion/recursion-outline.md
-- [[vSQL verifiable database system for arbitrary SQL queries over dynamic outsourced databases]] - paper - references/recursion/ch3/ref-73-vsql.pdf
+- [[Claim Proving Cost Collapse $80 to $0.04 (2023-2025)]] - document - proving-nothing.md
+- [[Identity and credentials]] - document - recursion/recursion-outline.md
+- [[Linea (ConsenSys zkEVM, $2B TVL, gnark)]] - document - proving-nothing.md
+- [[Maturity gradient for application clusters]] - document - recursion/recursion-outline.md
+- [[Optimistic Rollups]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[Polygon zkEVM STARK to FFLONK pipeline]] - document - recursion/recursion-outline.md
+- [[Polygon zkEVM Shutdown (~$250M, ZisK spinoff)]] - document - proving-nothing.md
+- [[Proof compression (STARK-to-SNARK)]] - document - recursion/recursion-outline.md
+- [[Rollup Stage 012 Decentralization]] - document - proving-nothing.md
+- [[Scroll (zkEVM, $748M TVL, halo2KZG)]] - document - proving-nothing.md
+- [[Section 3.7 recursion strategy decision framework]] - document - recursion/recursion-outline.md
+- [[Starknet (Stwo Circle STARK prover, Cairo ISA)]] - document - proving-nothing.md
+- [[Succinct SP1 Hypercube Prover]] - document - proving-nothing.md
+- [[Three Converging Forces (privacy, scaling, cost)]] - document - proving-nothing.md
+- [[ZK Rollup]] - document - proving-nothing.md
+- [[ZK rollup advantages over optimistic rollups (finality, cost, security)]] - document - references/recursion/ch3/ref-54-ethereum-rollup-centric-roadmap.md
+- [[ZKsync Era (Matter Labs, Airbender prover)]] - document - proving-nothing.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -37,34 +36,28 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 8 edges to [[_COMMUNITY_Community 3]]
-- 5 edges to [[_COMMUNITY_Community 15]]
-- 4 edges to [[_COMMUNITY_Community 5]]
-- 4 edges to [[_COMMUNITY_Community 70]]
-- 4 edges to [[_COMMUNITY_Community 90]]
+- 3 edges to [[_COMMUNITY_Community 17]]
 - 3 edges to [[_COMMUNITY_Community 69]]
-- 2 edges to [[_COMMUNITY_Community 55]]
-- 2 edges to [[_COMMUNITY_Community 2]]
-- 2 edges to [[_COMMUNITY_Community 39]]
-- 1 edge to [[_COMMUNITY_Community 75]]
-- 1 edge to [[_COMMUNITY_Community 81]]
-- 1 edge to [[_COMMUNITY_Community 30]]
+- 3 edges to [[_COMMUNITY_Community 73]]
+- 2 edges to [[_COMMUNITY_Community 111]]
+- 2 edges to [[_COMMUNITY_Community 21]]
+- 2 edges to [[_COMMUNITY_Community 107]]
+- 2 edges to [[_COMMUNITY_Community 76]]
+- 2 edges to [[_COMMUNITY_Community 49]]
+- 1 edge to [[_COMMUNITY_Community 117]]
+- 1 edge to [[_COMMUNITY_Community 105]]
+- 1 edge to [[_COMMUNITY_Community 6]]
+- 1 edge to [[_COMMUNITY_Community 42]]
+- 1 edge to [[_COMMUNITY_Community 7]]
+- 1 edge to [[_COMMUNITY_Community 5]]
+- 1 edge to [[_COMMUNITY_Community 32]]
 - 1 edge to [[_COMMUNITY_Community 20]]
-- 1 edge to [[_COMMUNITY_Community 62]]
-- 1 edge to [[_COMMUNITY_Community 18]]
-- 1 edge to [[_COMMUNITY_Community 86]]
-- 1 edge to [[_COMMUNITY_Community 49]]
-- 1 edge to [[_COMMUNITY_Community 57]]
-- 1 edge to [[_COMMUNITY_Community 78]]
-- 1 edge to [[_COMMUNITY_Community 132]]
-- 1 edge to [[_COMMUNITY_Community 0]]
-- 1 edge to [[_COMMUNITY_Community 115]]
-- 1 edge to [[_COMMUNITY_Community 40]]
-- 1 edge to [[_COMMUNITY_Community 134]]
+- 1 edge to [[_COMMUNITY_Community 114]]
+- 1 edge to [[_COMMUNITY_Community 93]]
 
 ## Top bridge nodes
-- [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - degree 36, connects to 20 communities
-- [[Outsourced and streaming computation]] - degree 6, connects to 4 communities
-- [[Extractable verifiable polynomial-delegation protocol with knowledge soundness (vSQL Construction 2)]] - degree 10, connects to 3 communities
-- [[vSQL verifiable database system for arbitrary SQL queries over dynamic outsourced databases]] - degree 17, connects to 2 communities
-- [[CMT protocol (Cormode-Mitzenmacher-Thaler interactive proof for layered arithmetic circuits)]] - degree 8, connects to 2 communities
+- [[ZK Rollup]] - degree 34, connects to 12 communities
+- [[Identity and credentials]] - degree 5, connects to 3 communities
+- [[Optimistic Rollups]] - degree 5, connects to 3 communities
+- [[Three Converging Forces (privacy, scaling, cost)]] - degree 3, connects to 1 community
+- [[Section 3.7 recursion strategy decision framework]] - degree 3, connects to 1 community

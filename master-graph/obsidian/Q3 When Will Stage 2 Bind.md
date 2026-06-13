@@ -1,19 +1,19 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 11"
+community: "Community 87"
 location: "Chapter 14"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_11
+  - community/Community_87
 ---
 
 # Q3: When Will Stage 2 Bind
 
 ## Connections
 - [[Formal Verification]] - `references` [EXTRACTED]
-- [[L2Beat Stages Framework_2]] - `explains` [EXTRACTED]
+- [[L2Beat Stages Framework]] - `explains` [EXTRACTED]
 - [[Open Questions and the Road Ahead (Ch14)]] - `introduces` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_11
+#graphify/document #graphify/EXTRACTED #community/Community_87

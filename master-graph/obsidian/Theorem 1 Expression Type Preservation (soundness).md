@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-35-coda.pdf"
 type: "paper"
-community: "Community 7"
+community: "Community 2"
 location: "§3.5, App.B"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_7
+  - community/Community_2
 ---
 
 # Theorem 1: Expression Type Preservation (soundness)
@@ -15,4 +15,4 @@ tags:
 - [[Coda type-checking rules (circuit, expression, subtyping judgments)]] - `proves` [EXTRACTED]
 - [[Theorem 2 Circuit Evaluation Type Preservation]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_7
+#graphify/paper #graphify/EXTRACTED #community/Community_2

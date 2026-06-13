@@ -1,18 +1,18 @@
 ---
 source_file: "references/ch06/ref-20-latticefold.pdf"
 type: "paper"
-community: "Community 41"
+community: "Community 0"
 location: "§1, §3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_41
+  - community/Community_0
 ---
 
 # LatticeFold Lattice-Based Folding Scheme
 
 ## Connections
-- [[Ajtai Lattice Commitment]] - `assumes` [EXTRACTED]
+- [[Ajtai commitments]] - `assumes` [EXTRACTED]
 - [[Expansion-Decomposition-Folding Pipeline (Pi_mfold)]] - `defines` [EXTRACTED]
 - [[Folding Scheme]] - `conceptually_related_to` [EXTRACTED]
 - [[IVC  Proof-Carrying Data]] - `conceptually_related_to` [EXTRACTED]
@@ -22,4 +22,4 @@ tags:
 - [[Post-Quantum Security]] - `conceptually_related_to` [EXTRACTED]
 - [[Sumcheck-Based Norm-Bound Range Check]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_41
+#graphify/paper #graphify/EXTRACTED #community/Community_0

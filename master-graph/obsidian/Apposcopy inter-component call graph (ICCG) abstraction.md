@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch03/ref-13-practical-security-zk-circuits.pdf"
 type: "paper"
-community: "Community 35"
+community: "Community 43"
 location: "§6, [24]"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_35
+  - community/Community_43
 ---
 
 # Apposcopy inter-component call graph (ICCG) abstraction
@@ -15,4 +15,4 @@ tags:
 - [[Circuit Dependence Graph (CDG) abstraction G=(V,Ed,Ec)]] - `cites` [EXTRACTED]
 - [[Constrained Horn Clause  Datalog query]] - `conceptually_related_to` [INFERRED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_35
+#graphify/paper #graphify/EXTRACTED #community/Community_43

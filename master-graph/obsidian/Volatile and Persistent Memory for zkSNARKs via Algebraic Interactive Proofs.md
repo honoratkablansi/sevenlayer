@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-46-zk-memory-algebraic-proofs.pdf"
 type: "paper"
-community: "Community 34"
+community: "Community 38"
 location: "p.1 (title/abstract)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_34
+  - community/Community_38
 ---
 
 # Volatile and Persistent Memory for zkSNARKs via Algebraic Interactive Proofs
@@ -29,4 +29,4 @@ tags:
 - [[Volatile RAM AIP (zeroed init, uncommitted final)]] - `introduces` [EXTRACTED]
 - [[zkSNARK]] - `references` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_34
+#graphify/paper #graphify/EXTRACTED #community/Community_38

@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 18"
+community: "Community 27"
 location: "Chapter 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_18
+  - community/Community_27
 ---
 
 # Powers of Tau
@@ -14,7 +14,7 @@ tags:
 ## Connections
 - [[Ethereum KZG Summoning Ceremony (2023, 141,416 contributors)]] - `references` [EXTRACTED]
 - [[Groth16]] - `assumes` [EXTRACTED]
-- [[KZG Polynomial Commitment]] - `assumes` [EXTRACTED]
+- [[KZG Polynomial Commitments from pairings (with trusted setup); Dory transparent pairing-based scheme]] - `assumes` [EXTRACTED]
 - [[Layer 1 -- Building the Stage]] - `defines` [EXTRACTED]
 - [[MMORPG framework (Massively Multiparty Open Reusable Parameter Generation; two-phase Groth16 setup)]] - `introduces` [EXTRACTED]
 - [[Midnight BLS12-381 Layer 1 Case Study (CompactZKIR, Pluto-Eris switch)]] - `references` [EXTRACTED]
@@ -33,4 +33,4 @@ tags:
 - [[Trusted Setup Ceremony]] - `conceptually_related_to` [EXTRACTED]
 - [[q-strong Diffie-Hellman (q-sDH) hardness assumption]] - `assumes` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_18
+#graphify/document #graphify/EXTRACTED #community/Community_27

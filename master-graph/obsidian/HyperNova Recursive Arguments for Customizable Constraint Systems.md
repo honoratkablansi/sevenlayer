@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch06/ref-18-hypernova.pdf"
 type: "paper"
-community: "Community 0"
+community: "Community 16"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Community_16
 ---
 
 # HyperNova: Recursive Arguments for Customizable Constraint Systems
@@ -34,7 +34,7 @@ tags:
 - [[RISC-V architecture]] - `conceptually_related_to` [EXTRACTED]
 - [[Sangria (folding scheme for Plonkish)]] - `cites` [EXTRACTED]
 - [[Spartan]] - `cites` [EXTRACTED]
-- [[Sum-Check Protocol_1]] - `conceptually_related_to` [EXTRACTED]
+- [[Sum-Check Protocol]] - `conceptually_related_to` [EXTRACTED]
 - [[nlookup lookup argument (Construction 8)]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_0
+#graphify/paper #graphify/EXTRACTED #community/Community_16

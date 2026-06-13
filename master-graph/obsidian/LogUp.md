@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 6"
+community: "Community 8"
 location: "Chapter 5"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_6
+  - community/Community_8
 ---
 
 # LogUp
@@ -14,8 +14,7 @@ tags:
 ## Connections
 - [[Encoding the Performance]] - `references` [EXTRACTED]
 - [[LogUp-GKR]] - `references` [EXTRACTED]
-- [[Lookup Argument]] - `conceptually_related_to` [INFERRED]
-- [[Lookup Arguments_1]] - `defines` [EXTRACTED]
+- [[Lookup Argument]] - `defines` [EXTRACTED]
 - [[Plookup]] - `compares` [EXTRACTED]
 - [[Sumcheck Protocol]] - `conceptually_related_to` [EXTRACTED]
 - [[The Proof Core Triad]] - `conceptually_related_to` [EXTRACTED]
@@ -27,4 +26,4 @@ tags:
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 - [[zkVMs Across the Stack]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_6
+#graphify/document #graphify/EXTRACTED #community/Community_8

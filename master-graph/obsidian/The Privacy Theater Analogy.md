@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch12-the-privacy-theater-analogy.md"
 type: "document"
-community: "Community 24"
+community: "Community 6"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_24
+  - community/Community_6
 ---
 
 # The Privacy Theater Analogy
@@ -21,4 +21,4 @@ tags:
 - [[UTXO Model]] - `references` [EXTRACTED]
 - [[Where Midnight Challenges the Model]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_24
+#graphify/document #graphify/EXTRACTED #community/Community_6

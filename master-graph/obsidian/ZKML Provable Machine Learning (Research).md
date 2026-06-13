@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch13-zkml-provable-machine-learning-research.md"
 type: "document"
-community: "Community 99"
+community: "Community 77"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_99
+  - community/Community_77
 ---
 
 # ZKML: Provable Machine Learning (Research)
@@ -22,4 +22,4 @@ tags:
 - [[ZK Coprocessors Off-Chain Computation, On-Chain Verification (Growth)]] - `references` [EXTRACTED]
 - [[ZKML (Zero-Knowledge Machine Learning)]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_99
+#graphify/document #graphify/EXTRACTED #community/Community_77

@@ -1,24 +1,24 @@
 ---
 type: community
-cohesion: 0.31
+cohesion: 0.22
 members: 9
 ---
 
 # Community 108
 
-**Cohesion:** 0.31 - loosely connected
+**Cohesion:** 0.22 - loosely connected
 **Members:** 9 nodes
 
 ## Members
-- [[Bulletproofs (Bunz et al.) 13]] - paper - references/recursion/ch1/ref-05-halo.pdf
-- [[Discrete Log Relation Assumption_1]] - paper - references/recursion/ch1/ref-05-halo.pdf
-- [[Main argument Sonic-variant PSHVZK argument of knowledge for arithmetic circuit satisfiability]] - paper - references/recursion/ch1/ref-05-halo.pdf
-- [[Non-interactive instantiation via Fiat-Shamir with Rescue duplex-sponge in random oracle model]] - paper - references/recursion/ch1/ref-05-halo.pdf
-- [[Pedersen-based univariate polynomial commitment with amortized succinctness]] - paper - references/recursion/ch1/ref-05-halo.pdf
-- [[Sonic (Maller, Bowe, Kohlweiss, Meiklejohn) 32]] - paper - references/recursion/ch1/ref-05-halo.pdf
-- [[Theorem 1 polynomial commitment protocol has completeness, witness-extended emulation, PSHVZK]] - paper - references/recursion/ch1/ref-05-halo.pdf
-- [[Theorem 2 main protocol (Fig. 1) has completeness, PSHVZK, computational witness-extended emulation]] - paper - references/recursion/ch1/ref-05-halo.pdf
-- [[Wahby, Tzialla, shelat, Thaler, Walfish Doubly-efficient zkSNARKs without trusted setup 37]] - paper - references/recursion/ch1/ref-05-halo.pdf
+- [[Fiore-Nitulescu On the (in)security of SNARKs in the presence of oracles (TCC 2016) 50 — O-SNARK notion]] - paper - references/recursion/ch3/ref-59-zkbridge.pdf
+- [[GKR  Delegating Computation Interactive Proofs for Muggles (Goldwasser-Kalai-Rothblum, J.ACM 2015) 53]] - paper - references/recursion/ch3/ref-59-zkbridge.pdf
+- [[GKR protocol interactive proofs for layered arithmetic circuits via d sumcheck instances]] - paper - references/recursion/ch3/ref-59-zkbridge.pdf
+- [[Lund, Fortnow, Karloff, Nisan - Sumcheck (1992)]] - document - proving-nothing.md
+- [[Micali Computationally Sound Proofs (SIAM J. Comput. 2000) 60 — non-interactive ROM construction underlying Virgo]] - paper - references/recursion/ch3/ref-59-zkbridge.pdf
+- [[O-SNARK SNARK over authenticated data  oracle families (Fiore-Nitulescu); deVirgo is an O-SNARK in the random oracle model]] - paper - references/recursion/ch3/ref-59-zkbridge.pdf
+- [[Sumcheck  Algebraic Methods for Interactive Proof Systems (Lund-Fortnow-Karloff-Nisan, J.ACM 1992) 58]] - paper - references/recursion/ch3/ref-59-zkbridge.pdf
+- [[Sumcheck Protocol]] - document - proving-nothing.md
+- [[Virgo Transparent Polynomial Delegation and ZK Proofs (Zhang-Xie-Zhang-Song, S&P 2020) 76 — base ZKP that deVirgo distributes]] - paper - references/recursion/ch3/ref-59-zkbridge.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -28,12 +28,15 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 3 edges to [[_COMMUNITY_Community 30]]
-- 2 edges to [[_COMMUNITY_Community 69]]
-- 1 edge to [[_COMMUNITY_Community 90]]
-- 1 edge to [[_COMMUNITY_Community 22]]
+- 3 edges to [[_COMMUNITY_Community 65]]
+- 1 edge to [[_COMMUNITY_Community 68]]
+- 1 edge to [[_COMMUNITY_Community 11]]
+- 1 edge to [[_COMMUNITY_Community 15]]
+- 1 edge to [[_COMMUNITY_Community 0]]
+- 1 edge to [[_COMMUNITY_Community 8]]
+- 1 edge to [[_COMMUNITY_Community 46]]
 
 ## Top bridge nodes
-- [[Pedersen-based univariate polynomial commitment with amortized succinctness]] - degree 8, connects to 3 communities
-- [[Main argument Sonic-variant PSHVZK argument of knowledge for arithmetic circuit satisfiability]] - degree 7, connects to 2 communities
-- [[Non-interactive instantiation via Fiat-Shamir with Rescue duplex-sponge in random oracle model]] - degree 3, connects to 1 community
+- [[Sumcheck Protocol]] - degree 9, connects to 6 communities
+- [[Virgo Transparent Polynomial Delegation and ZK Proofs (Zhang-Xie-Zhang-Song, S&P 2020) 76 — base ZKP that deVirgo distributes]] - degree 4, connects to 2 communities
+- [[O-SNARK SNARK over authenticated data  oracle families (Fiore-Nitulescu); deVirgo is an O-SNARK in the random oracle model]] - degree 3, connects to 1 community

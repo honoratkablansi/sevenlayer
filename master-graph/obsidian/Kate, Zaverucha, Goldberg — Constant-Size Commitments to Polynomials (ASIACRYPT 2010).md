@@ -1,17 +1,17 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 18"
+community: "Community 12"
 location: "Chapter 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_18
+  - community/Community_12
 ---
 
 # Kate, Zaverucha, Goldberg — Constant-Size Commitments to Polynomials (ASIACRYPT 2010)
 
 ## Connections
-- [[KZG Polynomial Commitment]] - `cites` [EXTRACTED]
+- [[KZG Polynomial Commitments from pairings (with trusted setup); Dory transparent pairing-based scheme]] - `cites` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_18
+#graphify/document #graphify/EXTRACTED #community/Community_12

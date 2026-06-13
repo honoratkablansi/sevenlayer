@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 6"
+community: "Community 7"
 location: "Chapter 11"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_6
+  - community/Community_7
 ---
 
 # STARK-to-SNARK Groth16 wrap
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[SP1 Hypercube (Succinct)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_6
+#graphify/document #graphify/EXTRACTED #community/Community_7

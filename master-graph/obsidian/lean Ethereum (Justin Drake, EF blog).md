@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch1/ref-37-ethereum-lean-hash-based-sig-aggregation.md"
 type: "document"
-community: "Community 116"
+community: "Community 115"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_116
+  - community/Community_115
 ---
 
 # lean Ethereum (Justin Drake, EF blog)
@@ -16,4 +16,4 @@ tags:
 - [[Rise of SNARKs]] - `explains` [EXTRACTED]
 - [[SNARK-aggregated signatures]] - `explains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_116
+#graphify/document #graphify/EXTRACTED #community/Community_115

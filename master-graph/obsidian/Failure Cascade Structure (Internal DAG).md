@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 81"
+community: "Community 97"
 location: "Chapter 10"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_81
+  - community/Community_97
 ---
 
 # Failure Cascade Structure (Internal DAG)
@@ -15,4 +15,4 @@ tags:
 - [[BN254 (alt_bn128) Curve]] - `references` [EXTRACTED]
 - [[Trust Decomposition Seven Weaker Assumptions]] - `explains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_81
+#graphify/document #graphify/EXTRACTED #community/Community_97

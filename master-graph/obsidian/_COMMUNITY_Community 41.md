@@ -1,39 +1,38 @@
 ---
 type: community
-cohesion: 0.11
-members: 24
+cohesion: 0.15
+members: 23
 ---
 
 # Community 41
 
-**Cohesion:** 0.11 - loosely connected
-**Members:** 24 nodes
+**Cohesion:** 0.15 - loosely connected
+**Members:** 23 nodes
 
 ## Members
-- [[(Super)Spartan zkSNARK]] - paper - references/ch06/ref-21-neo.pdf
-- [[B-Bounded Ajtai Commitment Opening Relation RB_cm]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[B-Relaxed Binding of Ajtai Commitment]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[Base-b Witness Decomposition Step]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[Expanded Evaluation Relation RB_eval]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[Expansion-Decomposition-Folding Pipeline (Pi_mfold)]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[Hypernova Folding Scheme (cited)]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[IVC  Proof-Carrying Data]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[LaBRADOR Lattice Proof System (cited)]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[Lattice IVCPCD with Spartan+FRI proof compression, no curve cycles]] - paper - references/ch06/ref-21-neo.pdf
-- [[Lattice-Based CCS Folding Scheme]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[Lattice-Based Committed CCS Relation RB_cmccs]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[LatticeFold Lattice-Based Folding Scheme]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[LatticeFold A Lattice-based Folding Scheme and its Applications to Succinct Proof Systems]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[Nova Folding Scheme (cited)]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[Optimized Single-Sumcheck Batch Folding (Pi_batch)]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[Performance Comparable to Hypernova on 64-bit Field]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[Protostar Folding Scheme (cited)]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[Small Prime Modulus via Extension Fields]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[Strong Sampling Set]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[Sumcheck-Based Norm-Bound Range Check]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[Theorem 3.1 LatticeFold Folding Reduction]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[Theorem 3.3 Folding Knowledge Soundness]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[Theorem 4.3 Pi_cm is a RoK from R_rg,B to R_com]] - paper - references/ch02/ref-11-latticefold-plus.pdf
+- [[Additive FFT over binary fields (Lin et al.)]] - paper - references/ch02/ref-08-stark.pdf
+- [[Babai, Fortnow, Levin, Szegedy BFLS91 - holographic proofs  checking computations (prior model)]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
+- [[Bare-bones protocol (Theorem 3.1) IP given oracle access to low-degree extensions of wiring predicates add_imult_i specifying circuit]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
+- [[Corollary 1.2 for L-uniform NC, prover poly(n), verifier npolylog(n) time and O(log n) space, communication polylog(n)]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
+- [[Corollary 1.4 public-coin O(log n)-space poly-time verifier IP for all of P (resolves open question on power of log-space public-coin verifiers)]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
+- [[Delegating Computation Interactive Proofs for Muggles (GKR, STOC 2008  full version)]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
+- [[Delegation of computation (delegator verifies untrusted delegatee)]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
+- [[Doubly-efficient interactive proof (efficient prover, super-efficient verifier)]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
+- [[Improved Interactive PCP (IPCP) and efficient-prover Probabilistically Checkable Argument (PCA) for NC relations]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
+- [[Kalai, Raz KR08,KR09 - public-coin IP to 1-round argument transformation via PIR; IPCP and PCA notions]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
+- [[Kilian Kil92,Kil95 - PCP+Merkle-hash argument for NP with polylog communication (argument setting under computational assumptions)]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
+- [[Layer-to-layer reduction reduce verifying one point of LDE of layer i to one point of layer i+1 via sum-check over fz(p,w1,w2) using ~add_i,~mult_i,~beta,~V_i]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
+- [[Low Degree Extension (LDE)]] - paper - references/ch02/ref-08-stark.pdf
+- [[Lund, Fortnow, Karloff, Nisson LFKN92 - algebraic methods  sum-check for P (prior IP work)]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
+- [[Micali Mic94 - CS proofs in the random oracle model (non-interactive delegation precursor)]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
+- [[Private Information Retrieval (poly-log PIR) used to compile public-coin IP into one-round argument]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
+- [[Shamir Sha92 - IP = PSPACE (prior IP work)]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
+- [[Theorem 1.1 public-coin IP for O(log S)-space-uniform circuits; verifier npoly(d,log S) time, O(log S) space; prover poly(S); communication dpolylog(S)]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
+- [[Theorem 1.3 1-round computationally-sound argument for L-uniform NC via Kalai-Raz PIR transformation; certificate poly(kappa,log n)]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
+- [[Theorem 1.61.7 communication-efficient (quasi-linear in witness) zero-knowledge IP for NP relations verifiable in NC, assuming one-way functions]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
+- [[Theorem 4.4 IP implementing bare-bones protocol for NL  space-s(n) time-t(n) nondeterministic TMs; verifier computes ~add_i,~mult_i in polylog time]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
+- [[Utilizing uniformity verifier computes LDE of wiring predicate from short implicit circuit representation; prover proves predicate via NL sub-protocol]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
+- [[Wiring predicates add_i, mult_i and their low-degree extensions ~add_i, ~mult_i (specify which gate triplets are connected)]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -43,23 +42,14 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 6 edges to [[_COMMUNITY_Community 3]]
-- 5 edges to [[_COMMUNITY_Community 0]]
-- 5 edges to [[_COMMUNITY_Community 8]]
-- 4 edges to [[_COMMUNITY_Community 22]]
-- 3 edges to [[_COMMUNITY_Community 23]]
-- 3 edges to [[_COMMUNITY_Community 17]]
-- 2 edges to [[_COMMUNITY_Community 48]]
-- 1 edge to [[_COMMUNITY_Community 2]]
-- 1 edge to [[_COMMUNITY_Community 42]]
-- 1 edge to [[_COMMUNITY_Community 25]]
-- 1 edge to [[_COMMUNITY_Community 15]]
-- 1 edge to [[_COMMUNITY_Community 20]]
-- 1 edge to [[_COMMUNITY_Community 54]]
+- 3 edges to [[_COMMUNITY_Community 18]]
+- 3 edges to [[_COMMUNITY_Community 35]]
+- 2 edges to [[_COMMUNITY_Community 53]]
+- 1 edge to [[_COMMUNITY_Community 56]]
 
 ## Top bridge nodes
-- [[LatticeFold A Lattice-based Folding Scheme and its Applications to Succinct Proof Systems]] - degree 21, connects to 10 communities
-- [[LatticeFold Lattice-Based Folding Scheme]] - degree 9, connects to 4 communities
-- [[B-Bounded Ajtai Commitment Opening Relation RB_cm]] - degree 6, connects to 2 communities
-- [[Theorem 4.3 Pi_cm is a RoK from R_rg,B to R_com]] - degree 3, connects to 2 communities
-- [[Lattice-Based CCS Folding Scheme]] - degree 5, connects to 1 community
+- [[Delegating Computation Interactive Proofs for Muggles (GKR, STOC 2008  full version)]] - degree 20, connects to 2 communities
+- [[Theorem 1.1 public-coin IP for O(log S)-space-uniform circuits; verifier npoly(d,log S) time, O(log S) space; prover poly(S); communication dpolylog(S)]] - degree 9, connects to 1 community
+- [[Delegation of computation (delegator verifies untrusted delegatee)]] - degree 5, connects to 1 community
+- [[Bare-bones protocol (Theorem 3.1) IP given oracle access to low-degree extensions of wiring predicates add_imult_i specifying circuit]] - degree 5, connects to 1 community
+- [[Low Degree Extension (LDE)]] - degree 4, connects to 1 community

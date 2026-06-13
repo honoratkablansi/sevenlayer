@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 5"
+community: "Community 96"
 location: "Chapter 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_5
+  - community/Community_96
 ---
 
 # Fiat-Shamir Transform
@@ -14,6 +14,7 @@ tags:
 ## Connections
 - [[Trustless versus Trust-Minimized]] - `conceptually_related_to` [EXTRACTED]
 - [[Algebraic vs Traditional Hash Functions]] - `references` [EXTRACTED]
+- [[Arguzz (zkVM Fuzzer)]] - `references` [INFERRED]
 - [[Bulletproofs NIZK Argument System]] - `assumes` [EXTRACTED]
 - [[Bulletproofs Short Proofs for Confidential Transactions and More]] - `conceptually_related_to` [EXTRACTED]
 - [[CMT protocol (Cormode-Mitzenmacher-Thaler interactive proof for layered arithmetic circuits)]] - `conceptually_related_to` [EXTRACTED]
@@ -46,7 +47,7 @@ tags:
 - [[Layer 5 -- The Sealed Certificate]] - `references` [EXTRACTED]
 - [[Layer 5 The Sealed Certificate (Proof System)]] - `references` [EXTRACTED]
 - [[Layer 6 -- The Deep Craft]] - `references` [EXTRACTED]
-- [[Layer 7 -- The Verdict_1]] - `references` [EXTRACTED]
+- [[Layer 7 -- The Verdict]] - `references` [EXTRACTED]
 - [[Multi-folding scheme for CCS (Construction 1)]] - `assumes` [EXTRACTED]
 - [[NARK for R1CS from Fiat-Shamir over a Pedersen-commitment sigma protocol (linear argument size)]] - `assumes` [EXTRACTED]
 - [[Nightstream What a Folding Engine Looks Like from the Inside]] - `references` [EXTRACTED]
@@ -56,10 +57,11 @@ tags:
 - [[On-Chain Verifier]] - `conceptually_related_to` [EXTRACTED]
 - [[Open Questions and the Road Ahead]] - `references` [EXTRACTED]
 - [[PLONK Main Protocol for Relation R_C (Theorem 7.1)]] - `assumes` [EXTRACTED]
-- [[Poseidon Hash_1]] - `conceptually_related_to` [INFERRED]
+- [[Poseidon Hash]] - `conceptually_related_to` [INFERRED]
 - [[Proofs, Arguments, and Zero-Knowledge (Justin Thaler, survey textbook)]] - `explains` [EXTRACTED]
 - [[Protocol Pi_{comm,d} GKR + MLPCS succinct argument for non-deterministic depth-d circuit C(x,w)=y; FS-compiled as FS_h(Pi_{comm,d}); challenge r=h(C,x,y,alpha)]] - `assumes` [EXTRACTED]
 - [[Protostar Generic Efficient AccumulationFolding for Special-sound Protocols]] - `conceptually_related_to` [EXTRACTED]
+- [[Q4 When Will Trustless Become Real]] - `references` [EXTRACTED]
 - [[RO-NARK FScmPi_sps from Special-Sound Protocol]] - `assumes` [EXTRACTED]
 - [[Random oracle model (non-interactive STARK  NIROP)]] - `references` [EXTRACTED]
 - [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `references` [EXTRACTED]
@@ -81,8 +83,7 @@ tags:
 - [[The Three Frontiers]] - `references` [EXTRACTED]
 - [[Theorem 3 family of preprocessing SNARKs for CCS via PIOP + sparse poly commitment + Fiat-Shamir]] - `assumes` [EXTRACTED]
 - [[Three Hardness Assumptions, Three Worlds]] - `references` [EXTRACTED]
-- [[Trust Decomposition Seven Weaker Assumptions]] - `references` [EXTRACTED]
-- [[Trust Decomposition Seven Weaker Assumptions_1]] - `conceptually_related_to` [EXTRACTED]
+- [[Trust Decomposition Seven Weaker Assumptions]] - `conceptually_related_to` [EXTRACTED]
 - [[Wesolowski public-coin protocol verifier samples prime l, checks pil gr = y]] - `assumes` [EXTRACTED]
 - [[Wesolowski, Efficient Verifiable Delay Functions (EUROCRYPT 2019)]] - `cites` [EXTRACTED]
 - [[When the Transcript Lies Fiat-Shamir Vulnerabilities]] - `references` [EXTRACTED]
@@ -91,4 +92,4 @@ tags:
 - [[vSQL verifiable database system for arbitrary SQL queries over dynamic outsourced databases]] - `cites` [EXTRACTED]
 - [[zkSNARK for Committed Relaxed R1CS (adapted Spartan)]] - `assumes` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_5
+#graphify/document #graphify/EXTRACTED #community/Community_96

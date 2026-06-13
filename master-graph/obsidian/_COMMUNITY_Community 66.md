@@ -1,33 +1,33 @@
 ---
 type: community
-cohesion: 0.12
+cohesion: 0.16
 members: 18
 ---
 
 # Community 66
 
-**Cohesion:** 0.12 - loosely connected
+**Cohesion:** 0.16 - loosely connected
 **Members:** 18 nodes
 
 ## Members
-- [[4x4 Sudoku Proof (Running Example)]] - document - proving-nothing.md
-- [[ACIR (Abstract Circuit Intermediate Representation)]] - document - proving-nothing.md
-- [[Chapter 3 Choreographing the Act (Layer 2 - Language)]] - document - proving-nothing.md
-- [[Claim The compiler, not the language, is the part that matters]] - document - proving-nothing.md
-- [[Claim The language determines what bugs the developer can make]] - document - proving-nothing.md
-- [[Compact (MidnightIOG DSL)]] - document - proving-nothing.md
-- [[Compact 26-Pass Nanopass Compilation Pipeline]] - document - proving-nothing.md
-- [[Disclosure Analysis (Compact)]] - document - proving-nothing.md
-- [[Fourth Philosophy Application-Specific DSL]] - document - proving-nothing.md
-- [[Gassmann et al., Evaluating Compiler Optimization Impacts on zkVM Performance, arXiv 2508.17518]] - document - proving-nothing.md
-- [[Leo (Aleo record-based DSL)]] - document - proving-nothing.md
-- [[Leo (Aleo)  o1js (Mina)]] - document - proving-nothing.md
-- [[Noir (Aztec Labs, ACIR)]] - document - proving-nothing.md
-- [[Ozdemir, Brown, Wahby, CirC Compiler Infrastructure for Proof Systems, IEEE S&P 2022]] - document - proving-nothing.md
-- [[Pearce et al., NAVe Formal Verification for Noir Programs, 2025]] - document - proving-nothing.md
-- [[RISC-V zkVMs]] - document - proving-nothing.md
-- [[Six-Step Developer Lifecycle (Write-Compile-Test-Prove-Deploy-Monitor)]] - document - proving-nothing.md
-- [[The Four Philosophies of Layer 2 Languages]] - document - proving-nothing.md
+- [[Binary tree of proofs (basewrapmerge recursion over block transitions)]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
+- [[Cited Bowe-Gabizon, simulation-extractable Groth zk-SNARK (ePrint 2018187)]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
+- [[Cited Halo (Bowe-Grigg-Hopwood) and Marlin (Chiesa et al.) — universal-setup recursion]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
+- [[Cited Ouroboros Genesis (Badertscher et al., ePrint 2018378) — Samasika base protocol]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
+- [[Implementation OCaml + Snarky DSL + libsnark backend, libp2p; 200ms verify, k=10, R=240s, f=0.5]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
+- [[Mina (Coda)]] - document - recursion/recursion-outline.md
+- [[Ouroboros Samasika first provably-secure succinct PoS consensus]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
+- [[Parallel scan state (decouple block production from SNARK proving)]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
+- [[Pickles  universal-setup recursion roadmap (Halo, Marlin)]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
+- [[Prover incentives snarkers and lowest-price SNARK-work auction]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
+- [[SNARK S recursive state-update circuit (Update verifies txns, consensus, signature, prior proof)]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
+- [[Scan-state claim latency O(log R), storage 2R-1+O(1) vs naive O(R)]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
+- [[Signatures of Knowledge (SoK) for non-malleable fee requests, via Bowe-Gabizon SNARK]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
+- [[Testnet evaluation 85 participants, 49 block producers, 24826 txns, 53120 SNARK proofs]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
+- [[Theorem 2 Samasika satisfies CP, CG, CQ, existential-CQ (security proof)]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
+- [[TickTock SNARK pair (base, merge, wrap proofs over the curve cycle)]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
+- [[Window min-density (nu-shifting omega-window) for succinct long-range fork resolution]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
+- [[maxvalid-sc chain-selection rule (succinct adaptation of maxvalid-bg)]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -37,17 +37,13 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 4 edges to [[_COMMUNITY_Community 24]]
-- 3 edges to [[_COMMUNITY_Community 14]]
-- 3 edges to [[_COMMUNITY_Community 9]]
-- 1 edge to [[_COMMUNITY_Community 23]]
-- 1 edge to [[_COMMUNITY_Community 6]]
-- 1 edge to [[_COMMUNITY_Community 21]]
-- 1 edge to [[_COMMUNITY_Community 44]]
+- 5 edges to [[_COMMUNITY_Community 14]]
+- 2 edges to [[_COMMUNITY_Community 61]]
+- 1 edge to [[_COMMUNITY_Community 13]]
 
 ## Top bridge nodes
-- [[Disclosure Analysis (Compact)]] - degree 8, connects to 4 communities
-- [[The Four Philosophies of Layer 2 Languages]] - degree 8, connects to 2 communities
-- [[Compact (MidnightIOG DSL)]] - degree 6, connects to 1 community
-- [[Six-Step Developer Lifecycle (Write-Compile-Test-Prove-Deploy-Monitor)]] - degree 3, connects to 1 community
-- [[ACIR (Abstract Circuit Intermediate Representation)]] - degree 3, connects to 1 community
+- [[Mina (Coda)]] - degree 9, connects to 2 communities
+- [[Parallel scan state (decouple block production from SNARK proving)]] - degree 6, connects to 1 community
+- [[SNARK S recursive state-update circuit (Update verifies txns, consensus, signature, prior proof)]] - degree 4, connects to 1 community
+- [[Pickles  universal-setup recursion roadmap (Halo, Marlin)]] - degree 3, connects to 1 community
+- [[Binary tree of proofs (basewrapmerge recursion over block transitions)]] - degree 3, connects to 1 community

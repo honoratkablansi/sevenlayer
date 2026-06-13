@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-02-bctv-cycles.pdf"
 type: "paper"
-community: "Community 68"
+community: "Community 112"
 location: "§3.2, §3.3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_68
+  - community/Community_112
 ---
 
 # MNT4/MNT6 2-cycle (E4, E6) at 80-bit security
@@ -16,4 +16,4 @@ tags:
 - [[Karabina-Teske 1-to-1 MNT4MNT6 correspondence (Theorem 3.3)]] - `assumes` [EXTRACTED]
 - [[MNT curves (embedding degrees 4 and 6)]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_68
+#graphify/paper #graphify/EXTRACTED #community/Community_112

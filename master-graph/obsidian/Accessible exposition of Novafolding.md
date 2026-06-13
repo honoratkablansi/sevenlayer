@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch2/ref-50-veridise-nova-series.md"
 type: "document"
-community: "Community 0"
+community: "Community 14"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Community_14
 ---
 
 # Accessible exposition of Nova/folding
@@ -14,4 +14,4 @@ tags:
 - [[Folding Scheme]] - `explains` [EXTRACTED]
 - [[Veridise Nova explainer series (Breaking Down the Nova Recursive SNARK)]] - `introduces` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/document #graphify/EXTRACTED #community/Community_14

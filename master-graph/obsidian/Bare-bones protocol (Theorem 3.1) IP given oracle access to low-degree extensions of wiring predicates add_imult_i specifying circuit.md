@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf"
 type: "paper"
-community: "Community 2"
+community: "Community 41"
 location: "§3, Theorem 3.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_2
+  - community/Community_41
 ---
 
 # Bare-bones protocol (Theorem 3.1): IP given oracle access to low-degree extensions of wiring predicates add_i/mult_i specifying circuit
@@ -18,4 +18,4 @@ tags:
 - [[Theorem 4.4 IP implementing bare-bones protocol for NL  space-s(n) time-t(n) nondeterministic TMs; verifier computes ~add_i,~mult_i in polylog time]] - `assumes` [EXTRACTED]
 - [[Wiring predicates add_i, mult_i and their low-degree extensions ~add_i, ~mult_i (specify which gate triplets are connected)]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_2
+#graphify/paper #graphify/EXTRACTED #community/Community_41

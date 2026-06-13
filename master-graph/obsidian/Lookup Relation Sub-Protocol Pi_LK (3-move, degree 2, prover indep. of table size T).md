@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-19-protostar.pdf"
 type: "paper"
-community: "Community 10"
+community: "Community 26"
 location: "§4.3 Lemma 5"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_10
+  - community/Community_26
 ---
 
 # Lookup Relation Sub-Protocol Pi_LK (3-move, degree 2, prover indep. of table size T)
@@ -18,4 +18,4 @@ tags:
 - [[Protostar Non-Uniform IVC Scheme for Multi-Circuit Plonkup R_mplkup]] - `assumes` [EXTRACTED]
 - [[Vector-Valued Lookup Sub-Protocol Pi_VLK (5-move, degree 3)]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_10
+#graphify/paper #graphify/EXTRACTED #community/Community_26

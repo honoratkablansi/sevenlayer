@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch08/ref-28-rollup-pricing-attacks.pdf"
 type: "paper"
-community: "Community 86"
+community: "Community 73"
 location: "§6.4, §8 [19]"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_86
+  - community/Community_73
 ---
 
 # Diamandis et al. multidimensional blockchain fee markets [19]
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Multi-dimensional TFM (matrix Ax over gasDAprovingfixed; adaptive per-resource pricing)]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_86
+#graphify/paper #graphify/EXTRACTED #community/Community_73

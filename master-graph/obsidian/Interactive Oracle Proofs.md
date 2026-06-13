@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-08-stark.pdf"
 type: "document"
-community: "Community 2"
+community: "Community 82"
 location: "Abstract"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_2
+  - community/Community_82
 ---
 
 # Interactive Oracle Proofs
@@ -22,4 +22,4 @@ tags:
 - [[Scalable Transparent IOP of Knowledge (STIK)]] - `conceptually_related_to` [EXTRACTED]
 - [[Scalable, Transparent, and Post-Quantum Secure Computational Integrity]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_2
+#graphify/document #graphify/EXTRACTED #community/Community_82

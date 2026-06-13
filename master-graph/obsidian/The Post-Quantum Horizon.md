@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch06-the-post-quantum-horizon.md"
 type: "document"
-community: "Community 8"
+community: "Community 0"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_8
+  - community/Community_0
 ---
 
 # The Post-Quantum Horizon
@@ -14,7 +14,7 @@ tags:
 - [[BN254 (alt_bn128) Curve]] - `references` [EXTRACTED]
 - [[FRI Commitment Scheme]] - `references` [EXTRACTED]
 - [[From Speed Race to Security Race]] - `references` [EXTRACTED]
-- [[Goldilocks Field_1]] - `references` [EXTRACTED]
+- [[Goldilocks Field]] - `references` [EXTRACTED]
 - [[Groth16]] - `references` [EXTRACTED]
 - [[Halo 2  UltraPlonk]] - `references` [EXTRACTED]
 - [[KZG Polynomial Commitments from pairings (with trusted setup); Dory transparent pairing-based scheme]] - `references` [EXTRACTED]
@@ -31,4 +31,4 @@ tags:
 - [[The Folding Genealogy]] - `references` [EXTRACTED]
 - [[The Laws That Break]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_8
+#graphify/document #graphify/EXTRACTED #community/Community_0

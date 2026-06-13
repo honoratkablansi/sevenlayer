@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/05-encoding-the-performance.md"
 type: "document"
-community: "Community 6"
+community: "Community 8"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_6
+  - community/Community_8
 ---
 
 # Airbender
@@ -16,7 +16,7 @@ tags:
 - [[From Circuits to Virtual Machines A Brief Evolution]] - `references` [EXTRACTED]
 - [[Path One The Hybrid STARK-to-SNARK Pipeline]] - `references` [EXTRACTED]
 - [[Performance The Cost Collapse]] - `references` [EXTRACTED]
-- [[Real-Time Ethereum Proving_1]] - `references` [EXTRACTED]
+- [[Real-Time Ethereum Proving]] - `references` [EXTRACTED]
 - [[The CapexOpex Framework]] - `conceptually_related_to` [EXTRACTED]
 - [[The Four Philosophies]] - `references` [EXTRACTED]
 - [[The Landscape Table (March 2026)]] - `references` [EXTRACTED]
@@ -25,4 +25,4 @@ tags:
 - [[ZK Rollups The Proving Grounds (Production)]] - `references` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_6
+#graphify/document #graphify/EXTRACTED #community/Community_8

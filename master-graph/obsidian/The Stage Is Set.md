@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch11-the-stage-is-set.md"
 type: "document"
-community: "Community 6"
+community: "Community 8"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_6
+  - community/Community_8
 ---
 
 # The Stage Is Set
@@ -16,7 +16,7 @@ tags:
 - [[Cairo (StarkWare ZK-native ISA)]] - `references` [EXTRACTED]
 - [[Circle STARKs]] - `conceptually_related_to` [EXTRACTED]
 - [[FRI Commitment Scheme]] - `conceptually_related_to` [EXTRACTED]
-- [[Goldilocks Field_1]] - `conceptually_related_to` [EXTRACTED]
+- [[Goldilocks Field]] - `conceptually_related_to` [EXTRACTED]
 - [[KZG Polynomial Commitments from pairings (with trusted setup); Dory transparent pairing-based scheme]] - `conceptually_related_to` [EXTRACTED]
 - [[Midnight (Privacy Blockchain)]] - `references` [EXTRACTED]
 - [[Performance The Cost Collapse]] - `references` [EXTRACTED]
@@ -28,4 +28,4 @@ tags:
 - [[zkVMs -- The Universal Stage]] - `part_of` [EXTRACTED]
 - [[zkWASM]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_6
+#graphify/document #graphify/EXTRACTED #community/Community_8

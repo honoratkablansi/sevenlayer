@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-32-zkvm-compiler-optimization.pdf"
 type: "paper"
-community: "Community 61"
+community: "Community 55"
 location: "§3.3, §4.2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_61
+  - community/Community_55
 ---
 
 # Genetic autotuning via OpenTuner (cycle-count fitness; up to 2.2x speedup over -O3)
@@ -18,4 +18,4 @@ tags:
 - [[Proving time (prover wall-clock cost metric)]] - `conceptually_related_to` [EXTRACTED]
 - [[Security-critical bug SP1 silently aborts mid-run yet proof verifies (false-correctness; reported and patched)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_61
+#graphify/paper #graphify/EXTRACTED #community/Community_55

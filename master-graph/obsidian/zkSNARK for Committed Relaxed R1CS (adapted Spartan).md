@@ -1,21 +1,20 @@
 ---
 source_file: "references/ch06/ref-17-nova.pdf"
 type: "paper"
-community: "Community 11"
+community: "Community 104"
 location: "§6, Thm 6, Cor 1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_11
+  - community/Community_104
 ---
 
 # zkSNARK for Committed Relaxed R1CS (adapted Spartan)
 
 ## Connections
-- [[Fiat-Shamir Transform_1]] - `assumes` [EXTRACTED]
 - [[Fiat-Shamir Transform]] - `assumes` [EXTRACTED]
 - [[Polynomial IOP for Idealized Relaxed R1CS (Construction 5)]] - `assumes` [EXTRACTED]
 - [[Spartan zkSNARK]] - `cites` [EXTRACTED]
 - [[zkSNARK of a Valid IVC Proof (Construction 4)]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_11
+#graphify/paper #graphify/EXTRACTED #community/Community_104

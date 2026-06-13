@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch1/ref-18-risc-zero-proof-system-overview.md"
 type: "document"
-community: "Community 9"
+community: "Community 63"
 tags:
   - graphify/document
-  - graphify/INFERRED
-  - community/Community_9
+  - graphify/EXTRACTED
+  - community/Community_63
 ---
 
 # Groth16 Circuit (on-chain verification wrapper)
@@ -14,4 +14,4 @@ tags:
 - [[RISC Zero]] - `references` [EXTRACTED]
 - [[STARK-to-SNARK Recursion]] - `conceptually_related_to` [INFERRED]
 
-#graphify/document #graphify/INFERRED #community/Community_9
+#graphify/document #graphify/EXTRACTED #community/Community_63

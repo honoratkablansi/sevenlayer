@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch05-the-constraint-system-evolution-r1cs-air-plonkish.md"
 type: "document"
-community: "Community 23"
+community: "Community 11"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_23
+  - community/Community_11
 ---
 
 # The Constraint System Evolution: R1CS, AIR, PLONKish
@@ -22,20 +22,20 @@ tags:
 - [[Halo 2  UltraPlonk]] - `references` [EXTRACTED]
 - [[KZG Polynomial Commitments from pairings (with trusted setup); Dory transparent pairing-based scheme]] - `references` [EXTRACTED]
 - [[Layer 4 -- Arithmetization]] - `references` [EXTRACTED]
-- [[Lookup Arguments_1]] - `references` [EXTRACTED]
+- [[Lookup Argument]] - `references` [EXTRACTED]
 - [[Midnight's ZKIR A Concrete Layer 4]] - `references` [EXTRACTED]
 - [[Nova]] - `references` [EXTRACTED]
 - [[Number-Theoretic Transform (NTT)]] - `references` [EXTRACTED]
 - [[PLONK]] - `references` [EXTRACTED]
 - [[PLONKish Arithmetization]] - `defines` [EXTRACTED]
 - [[Polygon]] - `references` [EXTRACTED]
-- [[Poseidon Hash_1]] - `references` [EXTRACTED]
+- [[Poseidon Hash]] - `references` [EXTRACTED]
 - [[R1CS (Rank-1 Constraint Systems)]] - `defines` [EXTRACTED]
 - [[STARK]] - `references` [EXTRACTED]
-- [[Schwartz-Zippel Lemma_1]] - `references` [EXTRACTED]
+- [[Schwartz-Zippel Lemma]] - `references` [EXTRACTED]
 - [[Spartan]] - `references` [EXTRACTED]
 - [[The Spreadsheet Metaphor (And Where It Works)]] - `references` [EXTRACTED]
 - [[Tornado Cash]] - `references` [EXTRACTED]
 - [[Zcash]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_23
+#graphify/document #graphify/EXTRACTED #community/Community_11

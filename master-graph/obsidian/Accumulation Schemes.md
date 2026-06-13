@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-19-protostar.pdf"
 type: "document"
-community: "Community 69"
+community: "Community 60"
 location: "abstract"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_69
+  - community/Community_60
 ---
 
 # Accumulation Schemes
@@ -37,4 +37,4 @@ tags:
 - [[Theorem 1 (informal) SNARK with accumulation scheme compiles to PCD]] - `assumes` [EXTRACTED]
 - [[Theorem 2 (informal) accumulation for predicate + predicate-efficient SNARK yields accumulation for the SNARK]] - `proves` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_69
+#graphify/document #graphify/EXTRACTED #community/Community_60

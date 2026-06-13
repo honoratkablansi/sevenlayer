@@ -1,24 +1,24 @@
 ---
 type: community
-cohesion: 0.31
+cohesion: 0.28
 members: 9
 ---
 
 # Community 110
 
-**Cohesion:** 0.31 - loosely connected
+**Cohesion:** 0.28 - loosely connected
 **Members:** 9 nodes
 
 ## Members
-- [[Finding inline is most beneficial pass (~22-30% gains, +28.4% RISC Zero exec)]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
-- [[Finding licm is most detrimental pass (+11.8% exec, +13.5% proving on RISC Zero; +444% paging on npb-lu)]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
-- [[Four optimization principles (P1 paging-aware, P2 selective inlining, P3 instr-reducing unroll, P4 conservative branch elim)]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
-- [[Key cost components dynamic instruction count and paging cycles (~1130 cyclespage-op)]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
-- [[LLVM Compiler Infrastructure]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
-- [[Proving time (prover wall-clock cost metric)]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
-- [[Superoptimization (e.g. Souper) for zkVM guest code]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
-- [[Three zkVM metrics cycle count, executor time, proving time]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
-- [[zkVM-aware LLVM modifications (100 LOC cost model, heuristics, disabled passes); +45% RISC Zero, +4.6% avg]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
+- [[Chiesa, Chua On cycles of pairing-friendly elliptic curves 16]] - paper - references/recursion/ch1/ref-05-halo.pdf
+- [[Chiesa, Tromer Proof-Carrying Data 19]] - paper - references/recursion/ch1/ref-05-halo.pdf
+- [[Endomorphism-based circuit optimization (Algorithm 1, 3.5 constraintsbit)]] - paper - references/recursion/ch1/ref-05-halo.pdf
+- [[Fractal (Chiesa, Ojha, Spooner) post-quantum transparent recursive proofs 18]] - paper - references/recursion/ch1/ref-05-halo.pdf
+- [[Halo first practical recursive proof composition without a trusted setup]] - paper - references/recursion/ch1/ref-05-halo.pdf
+- [[Recursion threshold below 217 gates; fully-recursive proofs 3.5 KiB at 128-bit security]] - paper - references/recursion/ch1/ref-05-halo.pdf
+- [[Theorem 3 (Distinct-x theorem) safe incomplete addition in scalar-mult circuits]] - paper - references/recursion/ch1/ref-05-halo.pdf
+- [[TweedledumTweedledee 255-bit prime-order normal (non-pairing) 2-cycle, y2=x3+5]] - paper - references/recursion/ch1/ref-05-halo.pdf
+- [[Valiant Incrementally verifiable computation 36]] - paper - references/recursion/ch1/ref-05-halo.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -28,10 +28,17 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 4 edges to [[_COMMUNITY_Community 61]]
-- 1 edge to [[_COMMUNITY_Community 7]]
+- 3 edges to [[_COMMUNITY_Community 13]]
+- 3 edges to [[_COMMUNITY_Community 14]]
+- 2 edges to [[_COMMUNITY_Community 109]]
+- 1 edge to [[_COMMUNITY_Community 68]]
+- 1 edge to [[_COMMUNITY_Community 61]]
+- 1 edge to [[_COMMUNITY_Community 46]]
+- 1 edge to [[_COMMUNITY_Community 60]]
 
 ## Top bridge nodes
-- [[LLVM Compiler Infrastructure]] - degree 6, connects to 2 communities
-- [[Proving time (prover wall-clock cost metric)]] - degree 4, connects to 1 community
-- [[Three zkVM metrics cycle count, executor time, proving time]] - degree 3, connects to 1 community
+- [[Halo first practical recursive proof composition without a trusted setup]] - degree 14, connects to 6 communities
+- [[Recursion threshold below 217 gates; fully-recursive proofs 3.5 KiB at 128-bit security]] - degree 3, connects to 1 community
+- [[TweedledumTweedledee 255-bit prime-order normal (non-pairing) 2-cycle, y2=x3+5]] - degree 3, connects to 1 community
+- [[Chiesa, Chua On cycles of pairing-friendly elliptic curves 16]] - degree 2, connects to 1 community
+- [[Chiesa, Tromer Proof-Carrying Data 19]] - degree 2, connects to 1 community

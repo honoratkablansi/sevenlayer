@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch04-witness-generation-costs.md"
 type: "document"
-community: "Community 14"
+community: "Community 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_14
+  - community/Community_1
 ---
 
 # Witness Generation Costs
@@ -16,15 +16,15 @@ tags:
 - [[Dan Boneh]] - `references` [EXTRACTED]
 - [[Execution Traces]] - `references` [EXTRACTED]
 - [[GPU-Accelerated Proving]] - `references` [EXTRACTED]
-- [[Goldilocks Field_1]] - `references` [EXTRACTED]
+- [[Goldilocks Field]] - `references` [EXTRACTED]
 - [[Jolt (zkVM via Lookups)]] - `references` [EXTRACTED]
 - [[Memory The Binding Constraint]] - `references` [EXTRACTED]
 - [[Multi-Scalar Multiplication (MSM)]] - `references` [EXTRACTED]
 - [[Number-Theoretic Transform (NTT)]] - `references` [EXTRACTED]
 - [[Offline Memory Checking  Algebraic RAM Reduction]] - `references` [EXTRACTED]
-- [[Poseidon Hash_1]] - `references` [EXTRACTED]
+- [[Poseidon Hash]] - `references` [EXTRACTED]
 - [[Streaming Witness Generation (Nair, Thaler, Zhu)]] - `cites` [EXTRACTED]
-- [[Sum-Check Protocol_1]] - `references` [EXTRACTED]
+- [[Sum-Check Protocol]] - `references` [EXTRACTED]
 - [[The Hidden Bottleneck]] - `references` [EXTRACTED]
 - [[The Overhead Tax 10,000x to 50,000x]] - `references` [EXTRACTED]
 - [[The Secret Performance]] - `part_of` [EXTRACTED]
@@ -34,4 +34,4 @@ tags:
 - [[Witness Generation]] - `references` [EXTRACTED]
 - [[ZKPOG (GPU Witness Acceleration)]] - `cites` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_14
+#graphify/document #graphify/EXTRACTED #community/Community_1

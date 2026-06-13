@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 124"
+community: "Community 2"
 location: "Chapter 3"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_124
+  - community/Community_2
 ---
 
 # Takahashi et al., zkFuzz: Fuzzing of Zero-Knowledge Circuits, IEEE S&P 2026
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Under-Constrained Circuits]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_124
+#graphify/document #graphify/EXTRACTED #community/Community_2

@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch2/ref-43-nova-implementation.md"
 type: "document"
-community: "Community 0"
+community: "Community 16"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Community_16
 ---
 
 # MicroNova (on-chain efficient Nova)
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[Nova reference implementation (microsoftNova)]] - `cites` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/document #graphify/EXTRACTED #community/Community_16

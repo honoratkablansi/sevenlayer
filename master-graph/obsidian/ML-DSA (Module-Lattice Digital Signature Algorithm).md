@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-64-fips-204.pdf"
 type: "document"
-community: "Community 60"
+community: "Community 81"
 location: "Abstract"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_60
+  - community/Community_81
 ---
 
 # ML-DSA (Module-Lattice Digital Signature Algorithm)
@@ -31,4 +31,4 @@ tags:
 - [[Security based on Module-LWE over R_q plus SelfTargetMSIS, a nonstandard variant of Module-SIS]] - `assumes` [EXTRACTED]
 - [[Strong existential unforgeability under chosen-message attack (SUF-CMA) plus BUFF properties]] - `proves` [INFERRED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_60
+#graphify/document #graphify/EXTRACTED #community/Community_81

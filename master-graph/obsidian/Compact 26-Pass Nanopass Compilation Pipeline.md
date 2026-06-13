@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 66"
+community: "Community 6"
 location: "Chapter 3"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_66
+  - community/Community_6
 ---
 
 # Compact 26-Pass Nanopass Compilation Pipeline
@@ -15,4 +15,4 @@ tags:
 - [[Compact (MidnightIOG DSL)]] - `defines` [EXTRACTED]
 - [[Disclosure Analysis (Compact)]] - `explains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_66
+#graphify/document #graphify/EXTRACTED #community/Community_6

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch09/ref-29-gentry-fhe.pdf"
 type: "paper"
-community: "Community 36"
+community: "Community 34"
 location: "p.1 (title page)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_36
+  - community/Community_34
 ---
 
 # Craig Gentry
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Fully Homomorphic Encryption Using Ideal Lattices]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_36
+#graphify/paper #graphify/EXTRACTED #community/Community_34

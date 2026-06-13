@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch04-the-witness-as-a-multi-dimensional-problem.md"
 type: "document"
-community: "Community 14"
+community: "Community 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_14
+  - community/Community_1
 ---
 
 # The Witness as a Multi-Dimensional Problem
@@ -27,4 +27,4 @@ tags:
 - [[ZKPOG (GPU Witness Acceleration)]] - `cites` [EXTRACTED]
 - [[Zcash]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_14
+#graphify/document #graphify/EXTRACTED #community/Community_1

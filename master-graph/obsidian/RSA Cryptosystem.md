@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch07/ref-24-shor.pdf"
 type: "paper"
-community: "Community 95"
+community: "Community 70"
 location: "p.4 (introduction)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_95
+  - community/Community_70
 ---
 
 # RSA Cryptosystem
@@ -18,4 +18,4 @@ tags:
 - [[RSA public-key cryptosystem (Rivest-Shamir-Adleman 1978)]] - `conceptually_related_to` [EXTRACTED]
 - [[Shor's Algorithm]] - `conceptually_related_to` [INFERRED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_95
+#graphify/paper #graphify/EXTRACTED #community/Community_70

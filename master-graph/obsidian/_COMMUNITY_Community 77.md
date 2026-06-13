@@ -1,32 +1,31 @@
 ---
 type: community
-cohesion: 0.15
-members: 17
+cohesion: 0.17
+members: 16
 ---
 
 # Community 77
 
-**Cohesion:** 0.15 - loosely connected
-**Members:** 17 nodes
+**Cohesion:** 0.17 - loosely connected
+**Members:** 16 nodes
 
 ## Members
-- [[Algorand player-replaceable byzantine agreement (cited analogy for player exchangeability)]] - paper - references/ch02/ref-05-mpc-random-beacon.pdf
-- [[BLS12-381 new pairing-friendly curve, 384-bit base field, 256-bit group order, 128-bit security]] - paper - references/ch02/ref-05-mpc-random-beacon.pdf
-- [[Ben-Sasson-Chiesa-Green-Tromer-Virza MPC for public parameters (prior CRS protocol)]] - paper - references/ch02/ref-05-mpc-random-beacon.pdf
-- [[Bowe-Gabizon-Green MPC for the Pinocchio zk-SNARK parameters (prior protocol, Zcash setup)]] - paper - references/ch02/ref-05-mpc-random-beacon.pdf
-- [[Delayed-hash random beacon (e.g. 240 SHA256 iterations) per Bunz-Goldfeder-Bonneau]] - paper - references/ch02/ref-05-mpc-random-beacon.pdf
-- [[Extended Groth CRS depth-two-circuit-computable CRS enabling two-phase px-MPC]] - paper - references/ch02/ref-05-mpc-random-beacon.pdf
-- [[Knowledge of Exponent Assumption (KEA) basis for the discrete-log proof of knowledge scheme]] - paper - references/ch02/ref-05-mpc-random-beacon.pdf
-- [[Layered multiplydivide + linear-combination circuit structure for parameter generation]] - paper - references/ch02/ref-05-mpc-random-beacon.pdf
-- [[MMORPG massively multi-party open reusable parameter generation system]] - paper - references/ch02/ref-05-mpc-random-beacon.pdf
-- [[POKCheckPOK random-oracle discrete-log proof of knowledge of exponent (Algorithms 3,4)]] - paper - references/ch02/ref-05-mpc-random-beacon.pdf
-- [[Player-exchangeable MPC (px-MPC) message sequence with no restriction on sender identity, no private state between messages]] - paper - references/ch02/ref-05-mpc-random-beacon.pdf
-- [[Precommitment phase round in prior MPC forcing pre-selection of participants and secret custody, removed by this work]] - paper - references/ch02/ref-05-mpc-random-beacon.pdf
-- [[Random beacon model public verifiable randomness at fixed time slots, unavailable before the slot]] - paper - references/ch02/ref-05-mpc-random-beacon.pdf
-- [[SameRatio  consistent pairing-based ratio-equality checks (Algorithms 1,2)]] - paper - references/ch02/ref-05-mpc-random-beacon.pdf
-- [[Theorem 5.1 security under u-co-resistant beacon, advantage bound 2{-ud}·adv - negl]] - paper - references/ch02/ref-05-mpc-random-beacon.pdf
-- [[Untrusted coordinator deterministic, publicly verifiable interphase computation party]] - paper - references/ch02/ref-05-mpc-random-beacon.pdf
-- [[u-co-resistance beacon output retains min-entropy at least k·logF_p - u under adversarial influence]] - paper - references/ch02/ref-05-mpc-random-beacon.pdf
+- [[Axiom]] - document - wiki/sections/ch13-zk-coprocessors-off-chain-computation-on-chain-verification-growth.md
+- [[Axiom (ZK Coprocessor, $20M Series A)]] - document - proving-nothing.md
+- [[Brevis]] - document - wiki/sections/ch13-zk-coprocessors-off-chain-computation-on-chain-verification-growth.md
+- [[Brevis (Coprocessor + Pico Prism zkVM, ProverNet)]] - document - proving-nothing.md
+- [[EZKL]] - document - wiki/sections/ch13-zkml-provable-machine-learning-research.md
+- [[EZKL (open-source ZKML toolkit, halo2ONNX)]] - document - proving-nothing.md
+- [[Halo2 proving system]] - document - references/recursion/ch3/ref-72-ezkl-modulus-docs.md
+- [[Lagrange]] - document - wiki/sections/ch13-zk-coprocessors-off-chain-computation-on-chain-verification-growth.md
+- [[Lagrange  DeepProve (ZK coprocessing, 700x ZKML claim)]] - document - proving-nothing.md
+- [[Lagrange DeepProve]] - document - wiki/sections/ch13-zkml-provable-machine-learning-research.md
+- [[Pico zkVM]] - document - wiki/sections/ch13-zk-coprocessors-off-chain-computation-on-chain-verification-growth.md
+- [[ZK Coprocessor]] - document - proving-nothing.md
+- [[ZK Coprocessors Off-Chain Computation, On-Chain Verification (Growth)]] - document - wiki/sections/ch13-zk-coprocessors-off-chain-computation-on-chain-verification-growth.md
+- [[ZKML (Zero-Knowledge Machine Learning)]] - document - proving-nothing.md
+- [[ZKML Provable Machine Learning (Research)]] - document - wiki/sections/ch13-zkml-provable-machine-learning-research.md
+- [[zkML inference proof with folding case study]] - document - recursion/recursion-outline.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -36,13 +35,26 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 4 edges to [[_COMMUNITY_Community 15]]
-- 4 edges to [[_COMMUNITY_Community 18]]
-- 1 edge to [[_COMMUNITY_Community 75]]
+- 4 edges to [[_COMMUNITY_Community 76]]
+- 3 edges to [[_COMMUNITY_Community 8]]
+- 3 edges to [[_COMMUNITY_Community 6]]
+- 3 edges to [[_COMMUNITY_Community 21]]
+- 3 edges to [[_COMMUNITY_Community 57]]
+- 3 edges to [[_COMMUNITY_Community 35]]
+- 2 edges to [[_COMMUNITY_Community 32]]
+- 1 edge to [[_COMMUNITY_Community 37]]
+- 1 edge to [[_COMMUNITY_Community 7]]
+- 1 edge to [[_COMMUNITY_Community 61]]
+- 1 edge to [[_COMMUNITY_Community 20]]
+- 1 edge to [[_COMMUNITY_Community 65]]
+- 1 edge to [[_COMMUNITY_Community 124]]
+- 1 edge to [[_COMMUNITY_Community 11]]
+- 1 edge to [[_COMMUNITY_Community 15]]
+- 1 edge to [[_COMMUNITY_Community 17]]
 
 ## Top bridge nodes
-- [[MMORPG massively multi-party open reusable parameter generation system]] - degree 8, connects to 3 communities
-- [[Extended Groth CRS depth-two-circuit-computable CRS enabling two-phase px-MPC]] - degree 3, connects to 2 communities
-- [[Player-exchangeable MPC (px-MPC) message sequence with no restriction on sender identity, no private state between messages]] - degree 9, connects to 1 community
-- [[Random beacon model public verifiable randomness at fixed time slots, unavailable before the slot]] - degree 5, connects to 1 community
-- [[BLS12-381 new pairing-friendly curve, 384-bit base field, 256-bit group order, 128-bit security]] - degree 2, connects to 1 community
+- [[ZKML (Zero-Knowledge Machine Learning)]] - degree 21, connects to 10 communities
+- [[ZK Coprocessors Off-Chain Computation, On-Chain Verification (Growth)]] - degree 12, connects to 6 communities
+- [[ZKML Provable Machine Learning (Research)]] - degree 10, connects to 4 communities
+- [[ZK Coprocessor]] - degree 6, connects to 2 communities
+- [[EZKL]] - degree 2, connects to 1 community

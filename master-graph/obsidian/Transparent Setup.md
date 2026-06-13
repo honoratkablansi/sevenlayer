@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 15"
+community: "Community 33"
 location: "Chapter 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_15
+  - community/Community_33
 ---
 
 # Transparent Setup
@@ -19,4 +19,4 @@ tags:
 - [[Theorem 4  Theorem 11.5 transformation compiling any preprocessing SNARK in the URS model into a preprocessing PCD scheme (preserving transparency and post-quantum security)]] - `assumes` [EXTRACTED]
 - [[Trusted Setup Ceremony]] - `compares` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_15
+#graphify/document #graphify/EXTRACTED #community/Community_33

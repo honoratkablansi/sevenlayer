@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch1/ref-08-sp1-hypercube.md"
 type: "document"
-community: "Community 21"
+community: "Community 7"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_21
+  - community/Community_7
 ---
 
 # SP1 Hypercube
@@ -13,9 +13,9 @@ tags:
 ## Connections
 - [[Jagged PCS]] - `introduces` [EXTRACTED]
 - [[LogUp-GKR]] - `references` [EXTRACTED]
-- [[Multilinear Polynomials_1]] - `defines` [EXTRACTED]
+- [[Multilinear Polynomials]] - `defines` [EXTRACTED]
 - [[Plonky3]] - `compares` [EXTRACTED]
-- [[Polynomial Commitment Scheme_1]] - `references` [EXTRACTED]
+- [[Polynomial Commitment Scheme]] - `references` [EXTRACTED]
 - [[Real-Time Proving]] - `explains` [EXTRACTED]
 - [[Realtime Proving Standardized Definition]] - `conceptually_related_to` [INFERRED]
 - [[Recursion (proof recursion in zkVMs)]] - `references` [EXTRACTED]
@@ -23,4 +23,4 @@ tags:
 - [[SP1 Hypercube Proving Ethereum in Real-Time (Succinct, 2025)]] - `introduces` [EXTRACTED]
 - [[Succinct SP1 technical documentation]] - `introduces` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_21
+#graphify/document #graphify/EXTRACTED #community/Community_7

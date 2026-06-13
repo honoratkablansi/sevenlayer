@@ -1,28 +1,33 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 25"
+community: "Community 8"
 location: "Chapter 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_25
+  - community/Community_8
 ---
 
 # Circle STARKs
 
 ## Connections
-- [[Circle STARKs_1]] - `defines` [EXTRACTED]
+- [[AIR (Algebraic Intermediate Representation)]] - `conceptually_related_to` [EXTRACTED]
 - [[Circle STARKs and Stwo A Generational Leap]] - `defines` [EXTRACTED]
+- [[Circle group  circle curve x2+y2=1]] - `introduces` [EXTRACTED]
 - [[Coda]] - `references` [EXTRACTED]
+- [[Complete Bibliography]] - `cites` [EXTRACTED]
+- [[Elliptic Curve FFT (ECFFT)]] - `cites` [EXTRACTED]
 - [[Encoding the Performance]] - `references` [EXTRACTED]
-- [[FRI Commitment Scheme]] - `implements` [EXTRACTED]
+- [[FRI Commitment Scheme]] - `conceptually_related_to` [EXTRACTED]
+- [[Galois-FFT (G-FFT) over rational function field automorphisms]] - `cites` [EXTRACTED]
 - [[Goldilocks Field]] - `conceptually_related_to` [INFERRED]
-- [[Layer 5 -- The Sealed Certificate]] - `references` [EXTRACTED]
-- [[Layer 6 -- The Deep Craft]] - `references` [EXTRACTED]
+- [[Layer 5 -- The Sealed Certificate]] - `cites` [EXTRACTED]
+- [[Layer 6 -- The Deep Craft]] - `cites` [EXTRACTED]
+- [[Mersenne FFT  Reed-Solomon codes over the circle group HLN23]] - `cites` [EXTRACTED]
+- [[Mersenne Prime M31 (231 - 1)]] - `assumes` [EXTRACTED]
 - [[Mersenne-31 (M31) field]] - `conceptually_related_to` [EXTRACTED]
-- [[Mersenne-31  M31]] - `references` [EXTRACTED]
-- [[Mersenne-31 Field]] - `conceptually_related_to` [EXTRACTED]
+- [[Mersenne-31  M31]] - `conceptually_related_to` [EXTRACTED]
 - [[Mersenne-31 Field (M31)]] - `references` [EXTRACTED]
 - [[Open Questions and the Road Ahead]] - `references` [EXTRACTED]
 - [[Path One The Hybrid STARK-to-SNARK Pipeline]] - `conceptually_related_to` [EXTRACTED]
@@ -44,10 +49,10 @@ tags:
 - [[The Sealed Certificate (Chapter Closing)]] - `references` [EXTRACTED]
 - [[The Secret Performance]] - `references` [EXTRACTED]
 - [[The Stage Is Set]] - `conceptually_related_to` [EXTRACTED]
-- [[The Synthesis -- Three Paths, Not Two]] - `references` [EXTRACTED]
+- [[The Synthesis -- Three Paths, Not Two]] - `cites` [EXTRACTED]
 - [[Three Converging Forces]] - `conceptually_related_to` [EXTRACTED]
 - [[Three zkVMs Through Seven Layers]] - `conceptually_related_to` [EXTRACTED]
 - [[ZK Rollups The Proving Grounds (Production)]] - `references` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_25
+#graphify/document #graphify/EXTRACTED #community/Community_8

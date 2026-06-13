@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-18-hypernova.pdf"
 type: "paper"
-community: "Community 0"
+community: "Community 16"
 location: "§9 / Appendix E / ref [4]"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Community_16
 ---
 
 # 2-cycle of elliptic curves (BN254/Grumpkin)
@@ -15,4 +15,4 @@ tags:
 - [[CycleFold cycle-of-curves delegation technique]] - `assumes` [EXTRACTED]
 - [[Nova]] - `references` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_0
+#graphify/paper #graphify/EXTRACTED #community/Community_16

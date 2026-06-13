@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-09-bulletproofs.pdf"
 type: "document"
-community: "Community 75"
+community: "Community 23"
 location: "Section 1.1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_75
+  - community/Community_23
 ---
 
 # Discrete Logarithm Assumption
@@ -26,4 +26,4 @@ tags:
 - [[Theorem 5 Arithmetic Circuit Protocol Soundness]] - `assumes` [EXTRACTED]
 - [[BBBPWM18 Bunz, Bootle, Boneh, Poelstra, Wuille, Maxwell, Bulletproofs Short Proofs for Confidential Transactions and More (S&P 2018)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_75
+#graphify/document #graphify/EXTRACTED #community/Community_23

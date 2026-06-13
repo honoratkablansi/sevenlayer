@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-18-hypernova.pdf"
 type: "paper"
-community: "Community 111"
+community: "Community 90"
 location: "§1.3 Theorem 1 / Appendix H.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_111
+  - community/Community_90
 ---
 
 # Theorem 1 (multi-folding scheme for CCS)
@@ -15,4 +15,4 @@ tags:
 - [[Multi-folding scheme for CCS (Construction 1)]] - `proves` [EXTRACTED]
 - [[No commitments to cross-terms efficiency claim]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_111
+#graphify/paper #graphify/EXTRACTED #community/Community_90

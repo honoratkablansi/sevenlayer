@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch11-the-proof-core-triad.md"
 type: "document"
-community: "Community 6"
+community: "Community 8"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_6
+  - community/Community_8
 ---
 
 # The "Proof Core" Triad
@@ -24,11 +24,11 @@ tags:
 - [[SP1 Hypercube (Succinct)]] - `references` [EXTRACTED]
 - [[Small prime fields (machine-register-sized Goldilocks, M61)]] - `conceptually_related_to` [EXTRACTED]
 - [[Stwo]] - `references` [EXTRACTED]
-- [[Sum-Check Protocol_1]] - `conceptually_related_to` [EXTRACTED]
+- [[Sum-Check Protocol]] - `conceptually_related_to` [EXTRACTED]
 - [[The Causal Web Why It Is a DAG, Not a Stack]] - `references` [EXTRACTED]
 - [[The Landscape Table (March 2026)]] - `references` [EXTRACTED]
 - [[The Stage Is Set]] - `references` [EXTRACTED]
 - [[Three zkVMs Through Seven Layers]] - `references` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `part_of` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_6
+#graphify/document #graphify/EXTRACTED #community/Community_8

@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 133"
+community: "Community 5"
 location: "Chapter 9"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_133
+  - community/Community_5
 ---
 
 # Intel SGX
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Trusted Execution Environment (TEE)]] - `explains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_133
+#graphify/document #graphify/EXTRACTED #community/Community_5

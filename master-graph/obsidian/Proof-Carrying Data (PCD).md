@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-18-hypernova.pdf"
 type: "document"
-community: "Community 42"
+community: "Community 20"
 location: "abstract"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_42
+  - community/Community_20
 ---
 
 # Proof-Carrying Data (PCD)
@@ -34,7 +34,7 @@ tags:
 - [[Private multi-party applications  autonomous worlds]] - `conceptually_related_to` [EXTRACTED]
 - [[Proof-Carrying Data from Accumulation Schemes (BCMS20)]] - `proves` [EXTRACTED]
 - [[RAM compliance predicate Pi_{M,H} (per-step verification)]] - `conceptually_related_to` [EXTRACTED]
-- [[Recursive Proof Composition_1]] - `conceptually_related_to` [EXTRACTED]
+- [[Recursive Proof Composition]] - `conceptually_related_to` [EXTRACTED]
 - [[Recursive SNARK]] - `conceptually_related_to` [EXTRACTED]
 - [[SBOM verification as PCD instance]] - `references` [EXTRACTED]
 - [[Scalable Zero Knowledge via Cycles of Elliptic Curves (BCTV14, CRYPTO 2014)]] - `introduces` [EXTRACTED]
@@ -51,4 +51,4 @@ tags:
 - [[BCMS20 Bunz, Chiesa, Mishra, Spooner, Proof-Carrying Data from Accumulation Schemes (TCC 2020)]] - `conceptually_related_to` [EXTRACTED]
 - [[CT10 Chiesa, Tromer, Proof-Carrying Data and Hearsay Arguments from Signature Cards (ICS 2010)]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_42
+#graphify/document #graphify/EXTRACTED #community/Community_20

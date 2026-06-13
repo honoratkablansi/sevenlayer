@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 22"
+community: "Community 12"
 location: "Chapter 7"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_22
+  - community/Community_12
 ---
 
 # Quantum Threat Horizon (CRQC / HNDL)
@@ -15,4 +15,4 @@ tags:
 - [[Post-Quantum Cryptography]] - `conceptually_related_to` [EXTRACTED]
 - [[Shor's Algorithm  Quantum Threat]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_22
+#graphify/document #graphify/EXTRACTED #community/Community_12

@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 6"
+community: "Community 54"
 location: "Chapter 5"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_6
+  - community/Community_54
 ---
 
 # Lasso
@@ -21,15 +21,14 @@ tags:
 - [[Jolt SNARKs for Virtual Machines via Lookups]] - `assumes` [EXTRACTED]
 - [[Jolt sum-check-based zkVM for RISC-V]] - `conceptually_related_to` [EXTRACTED]
 - [[Lasso companion paper STW23 (Setty, Thaler, Wahby 2023)]] - `defines` [EXTRACTED]
-- [[Lookup Argument]] - `conceptually_related_to` [INFERRED]
-- [[Lookup Arguments_1]] - `defines` [EXTRACTED]
+- [[Lookup Argument]] - `defines` [EXTRACTED]
 - [[Lookup Singularity]] - `conceptually_related_to` [EXTRACTED]
 - [[Open Questions and the Road Ahead]] - `references` [EXTRACTED]
 - [[Prover commits to ~6 256-bit field elements per RISC-V CPU step]] - `assumes` [EXTRACTED]
 - [[Proving CPU Executions in Small Space]] - `references` [EXTRACTED]
 - [[Side-Channel Attacks When the Walls Leak]] - `references` [EXTRACTED]
 - [[Sparse-dense sum-check proving algorithm (streaming, sparsity-linear time)]] - `cites` [EXTRACTED]
-- [[Sum-Check Protocol_1]] - `conceptually_related_to` [INFERRED]
+- [[Sum-Check Protocol]] - `conceptually_related_to` [INFERRED]
 - [[The Proof Core Triad]] - `conceptually_related_to` [EXTRACTED]
 - [[The Landscape Table (March 2026)]] - `conceptually_related_to` [EXTRACTED]
 - [[The Secret Performance]] - `references` [EXTRACTED]
@@ -39,4 +38,4 @@ tags:
 - [[Where the Analogies Break]] - `references` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_6
+#graphify/document #graphify/EXTRACTED #community/Community_54

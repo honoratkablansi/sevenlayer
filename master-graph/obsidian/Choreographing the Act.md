@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/03-choreographing-the-act.md"
 type: "document"
-community: "Community 9"
+community: "Community 6"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_9
+  - community/Community_6
 ---
 
 # Choreographing the Act
@@ -25,7 +25,7 @@ tags:
 - [[FRI Commitment Scheme]] - `references` [EXTRACTED]
 - [[Folding Scheme]] - `references` [EXTRACTED]
 - [[From Circuits to Virtual Machines A Brief Evolution]] - `part_of` [EXTRACTED]
-- [[Goldilocks Field_1]] - `references` [EXTRACTED]
+- [[Goldilocks Field]] - `references` [EXTRACTED]
 - [[Groth16]] - `references` [EXTRACTED]
 - [[Halo 2  UltraPlonk]] - `references` [EXTRACTED]
 - [[Jolt (zkVM via Lookups)]] - `references` [EXTRACTED]
@@ -35,7 +35,7 @@ tags:
 - [[Noir (Aztec)]] - `defines` [EXTRACTED]
 - [[PLONK]] - `references` [EXTRACTED]
 - [[Plonky3]] - `references` [EXTRACTED]
-- [[Poseidon Hash_1]] - `references` [EXTRACTED]
+- [[Poseidon Hash]] - `references` [EXTRACTED]
 - [[Practical Security Analysis of Zero-Knowledge Proof Circuits]] - `cites` [EXTRACTED]
 - [[Proving Nothing]] - `part_of` [EXTRACTED]
 - [[R1CS (Rank-1 Constraint Systems)]] - `references` [EXTRACTED]
@@ -56,4 +56,4 @@ tags:
 - [[zkEVM  EVM-Compatible Proving]] - `references` [EXTRACTED]
 - [[zkVM]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_9
+#graphify/document #graphify/EXTRACTED #community/Community_6

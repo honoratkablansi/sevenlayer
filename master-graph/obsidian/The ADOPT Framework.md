@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch02-the-adopt-framework.md"
 type: "document"
-community: "Community 38"
+community: "Community 12"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_38
+  - community/Community_12
 ---
 
 # The ADOPT Framework
@@ -17,7 +17,7 @@ tags:
 - [[STARK]] - `conceptually_related_to` [EXTRACTED]
 - [[The 141,416-Person Question]] - `references` [EXTRACTED]
 - [[The Setup Tradeoff]] - `references` [EXTRACTED]
-- [[Trusted Setup Ceremony_2]] - `conceptually_related_to` [EXTRACTED]
+- [[Trusted Setup Ceremony]] - `conceptually_related_to` [EXTRACTED]
 - [[Two Ways to Build a Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_38
+#graphify/document #graphify/EXTRACTED #community/Community_12

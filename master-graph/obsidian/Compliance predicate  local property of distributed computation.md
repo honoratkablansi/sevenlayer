@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf"
 type: "paper"
-community: "Community 63"
+community: "Community 9"
 location: "§5.1, §1.3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_63
+  - community/Community_9
 ---
 
 # Compliance predicate / local property of distributed computation
@@ -21,4 +21,4 @@ tags:
 - [[Theorem 3 Locally-Efficient RAM Compliance (NP statement - poly-depth compliance predicate)]] - `proves` [EXTRACTED]
 - [[VeriSBOM trustless, selectively-disclosed verifiable SBOM-sharing framework via ZKPs]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_63
+#graphify/paper #graphify/EXTRACTED #community/Community_9

@@ -1,33 +1,32 @@
 ---
 type: community
-cohesion: 0.14
-members: 18
+cohesion: 0.16
+members: 17
 ---
 
 # Community 70
 
-**Cohesion:** 0.14 - loosely connected
-**Members:** 18 nodes
+**Cohesion:** 0.16 - loosely connected
+**Members:** 17 nodes
 
 ## Members
-- [[Atomic Accumulation]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
-- [[Corollary any NARK with split accumulation bootstraps into a SNARK for machine computations (via PCD + BCCT13)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[First construction of PCD without succinct arguments (linear-size NARKs suffice)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[Non-interactive argument of knowledge (NARK)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[Proof-Carrying Data without Succinct Arguments (Bunz, Chiesa, Lin, Mishra, Spooner, CRYPTO 2021  ePrint 20201618)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[Recursion circuit via split accumulation (IVCPCD prover recurses only on instance parts of proofaccumulator)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[Rust implementation + evaluation recursion threshold ~52,000 constraints, =8.5x cheaper than atomic-accumulation IVC on Pasta cycle]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[Theorem 1  5.3 compile any NARK with a split accumulation scheme into a PCD scheme (no oracles, CRS model)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[Zero-finding game lemma (expected-time variant of BCMS20 Lemma A.3) for polynomial-identity testing via RO commitments]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[BCCT13 Bitansky, Canetti, Chiesa, Tromer, Recursive Composition and Bootstrapping for SNARKs and PCD (STOC 2013)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[BCMS20 Bunz, Chiesa, Mishra, Spooner, Proof-Carrying Data from Accumulation Schemes (TCC 2020)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[BCTV14 Ben-Sasson, Chiesa, Tromer, Virza, Scalable Zero Knowledge via Cycles of Elliptic Curves (CRYPTO 2014)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[BDFG20 Boneh, Drake, Fisch, Gabizon, Halo Infinite Recursive zk-SNARKs from any Additive Polynomial Commitment Scheme (ePrint 20201536, concurrent work)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[BGH19 Bowe, Grigg, Hopwood, Halo Recursive Proof Composition without a Trusted Setup (ePrint 20191021)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[COS20 Chiesa, Ojha, Spooner, Fractal Post-Quantum and Transparent Recursive Proofs from Holography (EUROCRYPT 2020)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[CT10 Chiesa, Tromer, Proof-Carrying Data and Hearsay Arguments from Signature Cards (ICS 2010)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[Gro16 Groth, On the Size of Pairing-Based Non-interactive Arguments (EUROCRYPT 2016)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[Val08 Valiant, Incrementally Verifiable Computation or Proofs of Knowledge Imply TimeSpace Efficiency (TCC 2008)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
+- [[Algorithms for Quantum Computation Discrete Logarithms and Factoring]] - paper - references/ch07/ref-24-shor.pdf
+- [[BQP (bounded-error quantum polynomial time)]] - paper - references/ch07/ref-24-shor.pdf
+- [[Coppersmith approximate Fourier transform]] - paper - references/ch07/ref-24-shor.pdf
+- [[Decoherence and gate imprecision obstacles]] - paper - references/ch07/ref-24-shor.pdf
+- [[Discrete Logarithm Problem]] - paper - references/ch07/ref-24-shor.pdf
+- [[Discrete-log-based public-key cryptosystems (Diffie-HellmanDSA)]] - paper - references/ch07/ref-24-shor.pdf
+- [[ECDSA (Elliptic Curve Digital Signature Algorithm)]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
+- [[Peter W. Shor]] - paper - references/ch07/ref-24-shor.pdf
+- [[Quantum Fourier transform]] - paper - references/ch07/ref-24-shor.pdf
+- [[Quantum discrete logarithm algorithm]] - paper - references/ch07/ref-24-shor.pdf
+- [[Quantum gate array (acyclic circuit) model]] - paper - references/ch07/ref-24-shor.pdf
+- [[Quantum interference  superposition]] - paper - references/ch07/ref-24-shor.pdf
+- [[Quantum-vulnerable digital signatures (ECDSA, EdDSA, RSA per FIPS 186)]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
+- [[Quantum-vulnerable key establishment (Finite FieldEC DH & MQV per SP 800-56A, RSA per SP 800-56B)]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
+- [[RSA Cryptosystem]] - paper - references/ch07/ref-24-shor.pdf
+- [[Shor's Algorithm]] - paper - references/ch07/ref-24-shor.pdf
+- [[Simon's oracle algorithm (inspiration for this work)]] - paper - references/ch07/ref-24-shor.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -37,17 +36,17 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 10 edges to [[_COMMUNITY_Community 75]]
-- 4 edges to [[_COMMUNITY_Community 67]]
-- 3 edges to [[_COMMUNITY_Community 42]]
+- 4 edges to [[_COMMUNITY_Community 102]]
+- 3 edges to [[_COMMUNITY_Community 10]]
+- 3 edges to [[_COMMUNITY_Community 72]]
 - 2 edges to [[_COMMUNITY_Community 0]]
-- 2 edges to [[_COMMUNITY_Community 13]]
-- 2 edges to [[_COMMUNITY_Community 69]]
-- 2 edges to [[_COMMUNITY_Community 30]]
+- 2 edges to [[_COMMUNITY_Community 62]]
+- 1 edge to [[_COMMUNITY_Community 16]]
+- 1 edge to [[_COMMUNITY_Community 12]]
 
 ## Top bridge nodes
-- [[BCMS20 Bunz, Chiesa, Mishra, Spooner, Proof-Carrying Data from Accumulation Schemes (TCC 2020)]] - degree 6, connects to 2 communities
-- [[Theorem 1  5.3 compile any NARK with a split accumulation scheme into a PCD scheme (no oracles, CRS model)]] - degree 6, connects to 2 communities
-- [[Atomic Accumulation]] - degree 5, connects to 2 communities
-- [[Non-interactive argument of knowledge (NARK)]] - degree 3, connects to 2 communities
-- [[Recursion circuit via split accumulation (IVCPCD prover recurses only on instance parts of proofaccumulator)]] - degree 3, connects to 2 communities
+- [[Algorithms for Quantum Computation Discrete Logarithms and Factoring]] - degree 13, connects to 4 communities
+- [[Shor's Algorithm]] - degree 7, connects to 3 communities
+- [[Discrete Logarithm Problem]] - degree 7, connects to 2 communities
+- [[Quantum Fourier transform]] - degree 5, connects to 1 community
+- [[RSA Cryptosystem]] - degree 5, connects to 1 community

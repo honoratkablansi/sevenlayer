@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 0"
+community: "Community 32"
 location: "Chapter 5"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Community_32
 ---
 
 # Folding Scheme
@@ -38,7 +38,7 @@ tags:
 - [[HyperNova (CRYPTO'24)]] - `conceptually_related_to` [EXTRACTED]
 - [[HyperNova Recursive Arguments for Customizable Constraint Systems]] - `conceptually_related_to` [EXTRACTED]
 - [[IVC Val08 and PCD CT10 original motivation for folding schemes]] - `conceptually_related_to` [EXTRACTED]
-- [[Incrementally Verifiable Computation (IVC)]] - `references` [EXTRACTED]
+- [[Incrementally Verifiable Computation (IVC)]] - `conceptually_related_to` [EXTRACTED]
 - [[Knowledge-Soundness]] - `conceptually_related_to` [EXTRACTED]
 - [[Kothapalli, Setty — HyperNova recursive arguments for customizable constraint systems (2023) 10]] - `cites` [EXTRACTED]
 - [[Kothapalli, Setty, Tzialla — Nova Recursive zero-knowledge arguments from folding schemes (CRYPTO 2022) 11]] - `introduces` [EXTRACTED]
@@ -54,7 +54,7 @@ tags:
 - [[Layer 1 -- Building the Stage]] - `references` [EXTRACTED]
 - [[Layer 5 -- The Sealed Certificate]] - `references` [EXTRACTED]
 - [[Layer 6 -- The Deep Craft]] - `references` [EXTRACTED]
-- [[Layer 7 -- The Verdict_1]] - `references` [EXTRACTED]
+- [[Layer 7 -- The Verdict]] - `references` [EXTRACTED]
 - [[Lemma 1  Assumption 1 non-interactive folding scheme for committed relaxed R1CS (Nova 21); prover O(n), verifier and communication O(1), via Fiat-Shamir in plain model]] - `proves` [EXTRACTED]
 - [[Memory The Binding Constraint]] - `references` [EXTRACTED]
 - [[Midnight -- The Privacy Theater]] - `references` [EXTRACTED]
@@ -71,8 +71,7 @@ tags:
 - [[Nova Folding Scheme KST22 (cited, R1CS k=1 d=2 case)]] - `conceptually_related_to` [EXTRACTED]
 - [[Nova Recursive Zero-Knowledge Arguments from Folding Schemes]] - `introduces` [EXTRACTED]
 - [[Open Questions and the Road Ahead]] - `references` [EXTRACTED]
-- [[Path Three Post-Quantum Folding]] - `explains` [EXTRACTED]
-- [[Path Three Post-Quantum Folding_1]] - `conceptually_related_to` [EXTRACTED]
+- [[Path Three Post-Quantum Folding]] - `conceptually_related_to` [EXTRACTED]
 - [[Proofs, Arguments, and Zero-Knowledge (Justin Thaler, survey textbook)]] - `explains` [EXTRACTED]
 - [[ProtoGalaxy (Multi-Instance Folding)]] - `conceptually_related_to` [EXTRACTED]
 - [[ProtoStar]] - `conceptually_related_to` [EXTRACTED]
@@ -82,12 +81,12 @@ tags:
 - [[R1CS (Rank-1 Constraint Systems)]] - `references` [EXTRACTED]
 - [[Recursion (proof recursion in zkVMs)]] - `conceptually_related_to` [INFERRED]
 - [[Recursion vs. Folding Russian Dolls and Snowballs]] - `defines` [EXTRACTED]
-- [[Recursive Proof Composition]] - `compares` [EXTRACTED]
-- [[Recursive Proof Composition_1]] - `conceptually_related_to` [EXTRACTED]
+- [[Recursive Proof Composition]] - `conceptually_related_to` [EXTRACTED]
 - [[Recursive SNARK]] - `conceptually_related_to` [INFERRED]
 - [[Reduction of Knowledge]] - `conceptually_related_to` [EXTRACTED]
 - [[SNARK Recursion vs. Folding The Full Picture]] - `references` [EXTRACTED]
 - [[Section 1.3 Construction-Strategy Taxonomy Table]] - `compares` [EXTRACTED]
+- [[Section 3.7 recursion strategy decision framework]] - `references` [EXTRACTED]
 - [[SuperNova (Non-Uniform IVC)]] - `assumes` [EXTRACTED]
 - [[Symphony Scalable SNARKs in the Random Oracle Model from Lattice-Based High-Arity Folding]] - `references` [EXTRACTED]
 - [[The Binary That Broke]] - `conceptually_related_to` [EXTRACTED]
@@ -107,10 +106,12 @@ tags:
 - [[The Synthesis -- Three Paths, Not Two]] - `references` [EXTRACTED]
 - [[The Three-Path Table]] - `conceptually_related_to` [EXTRACTED]
 - [[Theorem 1 if the folding scheme is knowledge-sound and the hash is collision-resistant, the modified 2-cycle Nova IVC is knowledge-sound]] - `assumes` [EXTRACTED]
-- [[Trust Decomposition Seven Weaker Assumptions_1]] - `conceptually_related_to` [EXTRACTED]
+- [[Trust Decomposition Seven Weaker Assumptions]] - `conceptually_related_to` [EXTRACTED]
 - [[Two Ways to Build a Stage]] - `conceptually_related_to` [EXTRACTED]
 - [[Where the Layers Collapse]] - `references` [EXTRACTED]
+- [[ZKML (Zero-Knowledge Machine Learning)]] - `conceptually_related_to` [EXTRACTED]
+- [[zkML inference proof with folding case study]] - `references` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 - [[zkVMs Across the Stack]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/document #graphify/EXTRACTED #community/Community_32

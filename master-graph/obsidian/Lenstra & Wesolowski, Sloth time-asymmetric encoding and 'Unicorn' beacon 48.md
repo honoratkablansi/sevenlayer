@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf"
 type: "paper"
-community: "Community 1"
+community: "Community 4"
 location: "§2, §9.1 ([48])"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_1
+  - community/Community_4
 ---
 
 # Lenstra & Wesolowski, Sloth time-asymmetric encoding and 'Unicorn' beacon [48]
@@ -16,4 +16,4 @@ tags:
 - [[VDF randomness-beacon application post pp on chain, beacon r where (r,π)=Eval(ek,b); also 'Unicorn' commit-free n-party beacon]] - `cites` [EXTRACTED]
 - [[Verifiable delay function (VDF)]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_1
+#graphify/paper #graphify/EXTRACTED #community/Community_4

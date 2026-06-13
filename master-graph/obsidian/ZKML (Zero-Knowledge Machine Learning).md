@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 100"
+community: "Community 77"
 location: "Chapter 13"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_100
+  - community/Community_77
 ---
 
 # ZKML (Zero-Knowledge Machine Learning)
@@ -14,7 +14,7 @@ tags:
 ## Connections
 - [[EZKL (open-source ZKML toolkit, halo2ONNX)]] - `references` [EXTRACTED]
 - [[EZKL  Modulus Labs zkML systems documentation]] - `explains` [EXTRACTED]
-- [[Folding schemes]] - `conceptually_related_to` [EXTRACTED]
+- [[Folding Scheme]] - `conceptually_related_to` [EXTRACTED]
 - [[Halo2 proving system]] - `references` [EXTRACTED]
 - [[Incrementally Verifiable Computation (IVC)]] - `conceptually_related_to` [EXTRACTED]
 - [[Lagrange  DeepProve (ZK coprocessing, 700x ZKML claim)]] - `references` [EXTRACTED]
@@ -34,4 +34,4 @@ tags:
 - [[zkCNN Zero Knowledge Proofs for CNN Predictions and Accuracy (CCS 2021)]] - `conceptually_related_to` [EXTRACTED]
 - [[zkML inference proof with folding case study]] - `explains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_100
+#graphify/document #graphify/EXTRACTED #community/Community_77

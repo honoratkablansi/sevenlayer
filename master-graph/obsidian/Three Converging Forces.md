@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch01-three-converging-forces.md"
 type: "document"
-community: "Community 5"
+community: "Community 69"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_5
+  - community/Community_69
 ---
 
 # Three Converging Forces
@@ -22,6 +22,6 @@ tags:
 - [[The Phenomenon]] - `references` [EXTRACTED]
 - [[The Promise of Provable and Programmable Secrets]] - `part_of` [EXTRACTED]
 - [[The Proof at the Door]] - `references` [EXTRACTED]
-- [[Trusted Setup Ceremony_2]] - `conceptually_related_to` [EXTRACTED]
+- [[Trusted Setup Ceremony]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_5
+#graphify/document #graphify/EXTRACTED #community/Community_69

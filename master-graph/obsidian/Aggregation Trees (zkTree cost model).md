@@ -1,12 +1,12 @@
 ---
 source_file: "recursion/recursion-outline.md"
 type: "document"
-community: "Community 91"
+community: "Community 20"
 location: "Recursion Chapter 1"
 tags:
   - graphify/document
-  - graphify/INFERRED
-  - community/Community_91
+  - graphify/EXTRACTED
+  - community/Community_20
 ---
 
 # Aggregation Trees (zkTree cost model)
@@ -15,4 +15,4 @@ tags:
 - [[Proof Aggregation]] - `explains` [EXTRACTED]
 - [[Proof-Carrying Data (PCD)]] - `conceptually_related_to` [INFERRED]
 
-#graphify/document #graphify/INFERRED #community/Community_91
+#graphify/document #graphify/EXTRACTED #community/Community_20

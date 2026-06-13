@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-59-zkbridge.pdf"
 type: "paper"
-community: "Community 56"
+community: "Community 65"
 location: "§1, §3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_56
+  - community/Community_65
 ---
 
 # Cross-chain bridge: prove to apps on chain C2 that an event took place on chain C1
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[zkBridge trustless cross-chain bridge via succinct proofs of consensus  light-client state transitions]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_56
+#graphify/paper #graphify/EXTRACTED #community/Community_65

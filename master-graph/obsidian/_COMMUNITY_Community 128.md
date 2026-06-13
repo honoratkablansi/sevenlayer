@@ -1,20 +1,17 @@
 ---
 type: community
-cohesion: 0.40
-members: 5
+cohesion: 1.00
+members: 2
 ---
 
 # Community 128
 
-**Cohesion:** 0.40 - moderately connected
-**Members:** 5 nodes
+**Cohesion:** 1.00 - tightly connected
+**Members:** 2 nodes
 
 ## Members
-- [[Circuit-layer vulnerabilities (99 bugs; most prevalent class)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
-- [[ComputationalHints error (wrong witness computation; completenesssoundness)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
-- [[Key finding low-level DSLs (Circom, Gnark) are easy-to-misuse, driving most circuit bugs]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
-- [[Over-constrained circuit (rejects valid witnesses, causes DoS)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
-- [[Root cause arithmetic field error (nativetransformed over- and underflows)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[Claim Privacy as Cross-Cutting Concern]] - document - proving-nothing.md
+- [[Seven-Layer ZK Model]] - document - proving-nothing.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -24,9 +21,10 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 2 edges to [[_COMMUNITY_Community 9]]
-- 1 edge to [[_COMMUNITY_Community 122]]
+- 1 edge to [[_COMMUNITY_Community 6]]
+- 1 edge to [[_COMMUNITY_Community 5]]
+- 1 edge to [[_COMMUNITY_Community 69]]
 
 ## Top bridge nodes
-- [[Circuit-layer vulnerabilities (99 bugs; most prevalent class)]] - degree 6, connects to 2 communities
-- [[Key finding low-level DSLs (Circom, Gnark) are easy-to-misuse, driving most circuit bugs]] - degree 2, connects to 1 community
+- [[Seven-Layer ZK Model]] - degree 3, connects to 2 communities
+- [[Claim Privacy as Cross-Cutting Concern]] - degree 2, connects to 1 community

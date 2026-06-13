@@ -1,11 +1,11 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 15"
+community: "Community 76"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_15
+  - community/Community_76
 ---
 
 # Proving Nothing
@@ -16,7 +16,7 @@ tags:
 - [[Layer 1 -- Building the Stage]] - `part_of` [EXTRACTED]
 - [[Layer 5 -- The Sealed Certificate]] - `part_of` [EXTRACTED]
 - [[Layer 6 -- The Deep Craft]] - `part_of` [EXTRACTED]
-- [[Layer 7 -- The Verdict_1]] - `part_of` [EXTRACTED]
+- [[Layer 7 -- The Verdict]] - `part_of` [EXTRACTED]
 - [[Midnight -- The Privacy Theater]] - `part_of` [EXTRACTED]
 - [[Open Questions and the Road Ahead]] - `part_of` [EXTRACTED]
 - [[Privacy-Enhancing Technologies]] - `part_of` [EXTRACTED]
@@ -26,4 +26,4 @@ tags:
 - [[The Synthesis -- Three Paths, Not Two]] - `part_of` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `part_of` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_15
+#graphify/document #graphify/EXTRACTED #community/Community_76

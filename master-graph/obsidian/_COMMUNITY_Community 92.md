@@ -1,29 +1,28 @@
 ---
 type: community
-cohesion: 0.21
-members: 14
+cohesion: 0.22
+members: 13
 ---
 
 # Community 92
 
-**Cohesion:** 0.21 - loosely connected
-**Members:** 14 nodes
+**Cohesion:** 0.22 - loosely connected
+**Members:** 13 nodes
 
 ## Members
-- [[Harvest Now Decrypt Later Examining Post-Quantum Cryptography and the Data Privacy Risks for Distributed Ledger Networks]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
-- [[Assumption a sufficiently powerful quantum computer (definition relative to underlying crypto strength) will eventually be controllable by a bad actor (nation state, consortium, corporation)]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
-- [[Cryptographically Relevant Quantum Computer (CRQC)]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
-- [[Distributed Ledger Network]] - document - references/ch14/ref-63-harvest-now-decrypt-later.pdf
-- [[Gidney (2025) factoring RSA-2048 with 1M noisy qubits in under a week]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
-- [[Harvest Now Decrypt Later (HNDL)]] - document - references/ch14/ref-63-harvest-now-decrypt-later.pdf
-- [[Mosca & Piani (2024), Quantum Threat Timeline Report, Global Risk Institute]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
-- [[Mosca's Theorem (X+Y vs Z migration urgency)]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
-- [[Mosca's Theorem if X (data shelf life) + Y (PQC migration time)  Z (time to build CRQC), keysdata are at risk; framed as dominant data-privacy protection for DLT]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
-- [[National Security Memorandum 10 (NSM-10) mitigate quantum risk by 2035]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
-- [[PQC Standards Transition Timeline (target 2035, NSM-10)]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
-- [[Q-Day the moving-target momentperiod when a fault-tolerant quantum computer can break asymmetric encryption]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
-- [[Quantum-risk timeline ~100 logical qubits within 10 years; 1-in-3 experts forecast Q-Day before 2032; RSA-2048 factorable in 1 week with 1M noisy qubits]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
-- [[Threat model bad actor joins as node operator, harvests a non-PQC replica of the ledger, later cracks it with a quantum computer to reveal plaintext]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
+- [[Aggregated Range Proof for m Values]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Bulletproofs NIZK Argument System]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Bulletproofs Short Proofs for Confidential Transactions and More]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Confidential Transactions (CT)]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Logarithmic Proof Size Claim (2 log2(nm)+4 elements)]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Logarithmic-Size Range Proof]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[MPC Protocol for Distributed Bulletproof Generation]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Mimblewimble]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Provisions Proof of Solvency]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Range Proof]] - document - references/ch02/ref-09-bulletproofs.pdf
+- [[SNARKs with Trusted Setup]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Switch to Quantum-Secure Range Proofs (ElGamal)]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Theorem 3 Aggregate Range Proof Security]] - paper - references/ch02/ref-09-bulletproofs.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -33,15 +32,22 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 4 edges to [[_COMMUNITY_Community 8]]
-- 3 edges to [[_COMMUNITY_Community 104]]
-- 3 edges to [[_COMMUNITY_Community 95]]
-- 2 edges to [[_COMMUNITY_Community 107]]
+- 5 edges to [[_COMMUNITY_Community 0]]
+- 2 edges to [[_COMMUNITY_Community 96]]
+- 2 edges to [[_COMMUNITY_Community 12]]
+- 2 edges to [[_COMMUNITY_Community 23]]
+- 1 edge to [[_COMMUNITY_Community 15]]
+- 1 edge to [[_COMMUNITY_Community 53]]
+- 1 edge to [[_COMMUNITY_Community 16]]
+- 1 edge to [[_COMMUNITY_Community 5]]
+- 1 edge to [[_COMMUNITY_Community 32]]
+- 1 edge to [[_COMMUNITY_Community 109]]
 - 1 edge to [[_COMMUNITY_Community 40]]
-- 1 edge to [[_COMMUNITY_Community 38]]
+- 1 edge to [[_COMMUNITY_Community 116]]
 
 ## Top bridge nodes
-- [[Harvest Now Decrypt Later (HNDL)]] - degree 11, connects to 4 communities
-- [[Harvest Now Decrypt Later Examining Post-Quantum Cryptography and the Data Privacy Risks for Distributed Ledger Networks]] - degree 7, connects to 4 communities
-- [[PQC Standards Transition Timeline (target 2035, NSM-10)]] - degree 5, connects to 2 communities
-- [[Cryptographically Relevant Quantum Computer (CRQC)]] - degree 5, connects to 1 community
+- [[Bulletproofs Short Proofs for Confidential Transactions and More]] - degree 12, connects to 8 communities
+- [[Bulletproofs NIZK Argument System]] - degree 10, connects to 5 communities
+- [[Logarithmic-Size Range Proof]] - degree 5, connects to 2 communities
+- [[Range Proof]] - degree 7, connects to 1 community
+- [[MPC Protocol for Distributed Bulletproof Generation]] - degree 2, connects to 1 community

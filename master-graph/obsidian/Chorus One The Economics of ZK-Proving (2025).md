@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch13-market-sizing.md"
 type: "document"
-community: "Community 27"
+community: "Community 21"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_27
+  - community/Community_21
 ---
 
 # Chorus One: The Economics of ZK-Proving (2025)
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[Market Sizing]] - `cites` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_27
+#graphify/document #graphify/EXTRACTED #community/Community_21

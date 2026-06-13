@@ -1,26 +1,26 @@
 ---
 type: community
-cohesion: 0.24
+cohesion: 0.27
 members: 11
 ---
 
 # Community 100
 
-**Cohesion:** 0.24 - loosely connected
+**Cohesion:** 0.27 - loosely connected
 **Members:** 11 nodes
 
 ## Members
-- [[EZKL (open-source ZKML toolkit, halo2ONNX)]] - document - proving-nothing.md
-- [[EZKL  Modulus Labs zkML systems documentation]] - document - references/recursion/ch3/ref-72-ezkl-modulus-docs.md
-- [[Folding schemes]] - document - recursion/recursion-outline.md
-- [[Halo2 proving system]] - document - references/recursion/ch3/ref-72-ezkl-modulus-docs.md
-- [[Lagrange  DeepProve (ZK coprocessing, 700x ZKML claim)]] - document - proving-nothing.md
-- [[Lilith distributed proof-generation cluster]] - document - references/recursion/ch3/ref-72-ezkl-modulus-docs.md
-- [[ONNX-to-ZK-circuit compilation]] - document - references/recursion/ch3/ref-72-ezkl-modulus-docs.md
-- [[Proof of correct model execution]] - document - references/recursion/ch3/ref-72-ezkl-modulus-docs.md
-- [[Sumcheck-based DNN proof systems (zkCNNLiu 2021, vCNNLee 2020, pvCNNWeng 2022, Thaler 2013) custom IPSNARK protocols tailored to convolutions, limited to MNISTCIFAR-10]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
-- [[ZKML (Zero-Knowledge Machine Learning)]] - document - proving-nothing.md
-- [[zkML inference proof with folding case study]] - document - recursion/recursion-outline.md
+- [[(q1,q2)-extended discrete logarithm (edlog) assumption (Def 2)]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
+- [[Algebraic Group Model (AGM)]] - document - references/ch10/ref-38-snarky-ceremonies.pdf
+- [[Algebraic extractor E_agm (white-box, requires view_A, yields linear representation coefficients)]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
+- [[Critical query i_crit and white-box AGM extractor E_A returning QAP witness coefficients]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
+- [[FKL18 - Fuchsbauer, Kiltz, Loss the Algebraic Group Model and Groth16 KS under q-dlog]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
+- [[Lemma 2.2 Real-to-Ideal Pairing Check Reduction under Q-DLOG]] - paper - references/ch02/ref-07-plonk.pdf
+- [[Q-DLOG Assumption]] - paper - references/ch02/ref-07-plonk.pdf
+- [[Theorem 1 (q1+1,q2+1)-dlog implies (q1,q2)-edlog]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
+- [[Theorem 5 Groth16 ceremony has update knowledge soundness under (2n-1,2n-2)-edlog for algebraic adversaries in ROM]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
+- [[Theorem 6.3 PCS evaluation-binding & bounded-extractable under 2d-DLOG in AGM]] - paper - references/ch10/ref-36-sonic.pdf
+- [[UKS proof game hops Game0-Game1 (fresh-SRS simulated critical updates) - Game2 (bad event), reduction to edlog]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -30,20 +30,15 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 4 edges to [[_COMMUNITY_Community 58]]
-- 3 edges to [[_COMMUNITY_Community 99]]
-- 3 edges to [[_COMMUNITY_Community 76]]
-- 2 edges to [[_COMMUNITY_Community 20]]
-- 2 edges to [[_COMMUNITY_Community 0]]
-- 2 edges to [[_COMMUNITY_Community 27]]
-- 1 edge to [[_COMMUNITY_Community 42]]
-- 1 edge to [[_COMMUNITY_Community 56]]
-- 1 edge to [[_COMMUNITY_Community 21]]
-- 1 edge to [[_COMMUNITY_Community 65]]
+- 5 edges to [[_COMMUNITY_Community 74]]
+- 2 edges to [[_COMMUNITY_Community 39]]
+- 2 edges to [[_COMMUNITY_Community 40]]
+- 1 edge to [[_COMMUNITY_Community 12]]
+- 1 edge to [[_COMMUNITY_Community 23]]
 
 ## Top bridge nodes
-- [[ZKML (Zero-Knowledge Machine Learning)]] - degree 21, connects to 9 communities
-- [[Folding schemes]] - degree 4, connects to 2 communities
-- [[Lagrange  DeepProve (ZK coprocessing, 700x ZKML claim)]] - degree 3, connects to 1 community
-- [[Proof of correct model execution]] - degree 3, connects to 1 community
-- [[Sumcheck-based DNN proof systems (zkCNNLiu 2021, vCNNLee 2020, pvCNNWeng 2022, Thaler 2013) custom IPSNARK protocols tailored to convolutions, limited to MNISTCIFAR-10]] - degree 3, connects to 1 community
+- [[Algebraic Group Model (AGM)]] - degree 10, connects to 3 communities
+- [[(q1,q2)-extended discrete logarithm (edlog) assumption (Def 2)]] - degree 5, connects to 2 communities
+- [[Theorem 5 Groth16 ceremony has update knowledge soundness under (2n-1,2n-2)-edlog for algebraic adversaries in ROM]] - degree 5, connects to 2 communities
+- [[Q-DLOG Assumption]] - degree 5, connects to 1 community
+- [[Theorem 6.3 PCS evaluation-binding & bounded-extractable under 2d-DLOG in AGM]] - degree 3, connects to 1 community

@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/BIBLIOGRAPHY.md"
 type: "document"
-community: "Community 20"
+community: "Community 16"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_20
+  - community/Community_16
 ---
 
 # Complete Bibliography
@@ -13,7 +13,7 @@ tags:
 ## Connections
 - [[Algorithms for Quantum Computation Discrete Logarithms and Factoring]] - `cites` [EXTRACTED]
 - [[Bulletproofs Short Proofs for Confidential Transactions and More]] - `cites` [EXTRACTED]
-- [[Circle STARKs_1]] - `cites` [EXTRACTED]
+- [[Circle STARKs]] - `cites` [EXTRACTED]
 - [[Constant-Size Commitments to Polynomials and Their Applications]] - `cites` [EXTRACTED]
 - [[Customizable Constraint Systems for Succinct Arguments]] - `cites` [EXTRACTED]
 - [[HyperNova Recursive Arguments for Customizable Constraint Systems]] - `cites` [EXTRACTED]
@@ -28,4 +28,4 @@ tags:
 - [[SoK What Don't We Know Understanding Security Vulnerabilities in SNARKs]] - `cites` [EXTRACTED]
 - [[The Knowledge Complexity of Interactive Proof Systems]] - `cites` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_20
+#graphify/document #graphify/EXTRACTED #community/Community_16

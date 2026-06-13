@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-64-fips-204.pdf"
 type: "paper"
-community: "Community 60"
+community: "Community 81"
 location: "§3.3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_60
+  - community/Community_81
 ---
 
 # Rejection sampling: abort and restart with new mask y if z (or r0) coefficients fall outside bound, removing bias toward secret s1/s2
@@ -15,4 +15,4 @@ tags:
 - [[Fiat-Shamir With Aborts construction (Schnorr-like signature with rejection sampling on the response)]] - `introduces` [EXTRACTED]
 - [[ML-DSA.Sign (Alg 26.2) commit w=Ay, challenge c~ from H(w1μ), response z = y + c·s1, with rejection-sampling abort loop]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_60
+#graphify/paper #graphify/EXTRACTED #community/Community_81

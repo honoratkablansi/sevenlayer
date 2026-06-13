@@ -13,6 +13,6 @@ tags:
 
 ## Connections
 - [[Field-Mismatch Problem (base vs scalar field)]] - `introduces` [EXTRACTED]
-- [[Recursive Proof Composition_1]] - `explains` [EXTRACTED]
+- [[Recursive Proof Composition]] - `explains` [EXTRACTED]
 
 #graphify/document #graphify/EXTRACTED #community/Community_13

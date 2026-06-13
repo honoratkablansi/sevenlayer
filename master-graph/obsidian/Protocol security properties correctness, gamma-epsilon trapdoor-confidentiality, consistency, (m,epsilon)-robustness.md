@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-10-sok-powers-of-tau.pdf"
 type: "paper"
-community: "Community 18"
+community: "Community 27"
 location: "§3.1 Eqs. 6-9"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_18
+  - community/Community_27
 ---
 
 # Protocol security properties: correctness, gamma-epsilon trapdoor-confidentiality, consistency, (m,epsilon)-robustness
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Formal trusted setup protocol definition (processchannel tuple, corruption threshold t, trapdoor s)]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_18
+#graphify/paper #graphify/EXTRACTED #community/Community_27

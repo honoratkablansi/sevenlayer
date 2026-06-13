@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch08/ref-28-rollup-pricing-attacks.pdf"
 type: "paper"
-community: "Community 86"
+community: "Community 73"
 location: "§3.2, §6.4"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_86
+  - community/Community_73
 ---
 
 # EIP-1559 base-fee mechanism
@@ -17,4 +17,4 @@ tags:
 - [[Multi-dimensional TFM (matrix Ax over gasDAprovingfixed; adaptive per-resource pricing)]] - `conceptually_related_to` [EXTRACTED]
 - [[Roughgarden TFM design  EIP-1559 incentive-compatibility 47,48]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_86
+#graphify/paper #graphify/EXTRACTED #community/Community_73

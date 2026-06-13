@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-81-wesolowski-vdf.pdf"
 type: "paper"
-community: "Community 1"
+community: "Community 4"
 location: "§4.1, Algorithm 5"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_1
+  - community/Community_4
 ---
 
 # Proof computable in O(t/log t) group operations (Algorithm 5, base-2^kappa)
@@ -16,4 +16,4 @@ tags:
 - [[Proof of exponentiation (short proof pi = g{floor(2tl)})]] - `conceptually_related_to` [EXTRACTED]
 - [[Wesolowski, Efficient Verifiable Delay Functions (EUROCRYPT 2019)]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_1
+#graphify/paper #graphify/EXTRACTED #community/Community_4

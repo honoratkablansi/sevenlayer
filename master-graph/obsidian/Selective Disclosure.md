@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 44"
+community: "Community 49"
 location: "Chapter 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_44
+  - community/Community_49
 ---
 
 # Selective Disclosure
@@ -35,4 +35,4 @@ tags:
 - [[disclose() Operator]] - `conceptually_related_to` [EXTRACTED]
 - [[eIDAS 2.0]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_44
+#graphify/document #graphify/EXTRACTED #community/Community_49

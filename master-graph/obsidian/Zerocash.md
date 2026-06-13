@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 26"
+community: "Community 42"
 location: "Chapter 9"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_26
+  - community/Community_42
 ---
 
 # Zerocash
@@ -24,4 +24,4 @@ tags:
 - [[Zexe a ledger-based system for decentralized private computation]] - `cites` [EXTRACTED]
 - [[zk-SNARK]] - `assumes` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_26
+#graphify/document #graphify/EXTRACTED #community/Community_42

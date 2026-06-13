@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch13/ref-58-dtcc-canton-tokenization.md"
 type: "document"
-community: "Community 123"
+community: "Community 21"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_123
+  - community/Community_21
 ---
 
 # DTCC and Digital Asset Partner to Tokenize DTC-Custodied U.S. Treasury Securities on the Canton Network
@@ -15,4 +15,4 @@ tags:
 - [[The Market Landscape]] - `references` [EXTRACTED]
 - [[Tokenization of Assets]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_123
+#graphify/document #graphify/EXTRACTED #community/Community_21

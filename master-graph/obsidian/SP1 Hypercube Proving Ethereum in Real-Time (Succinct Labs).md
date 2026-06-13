@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch10/ref-52-sp1-hypercube.md"
 type: "document"
-community: "Community 6"
+community: "Community 7"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_6
+  - community/Community_7
 ---
 
 # SP1 Hypercube: Proving Ethereum in Real-Time (Succinct Labs)
@@ -19,11 +19,11 @@ tags:
 - [[RISC-V architecture]] - `references` [EXTRACTED]
 - [[Real-Time Proving]] - `references` [EXTRACTED]
 - [[STARK]] - `references` [EXTRACTED]
-- [[Sum-Check Protocol_1]] - `references` [EXTRACTED]
+- [[Sum-Check Protocol]] - `references` [EXTRACTED]
 - [[The Promise of Provable and Programmable Secrets]] - `cites` [EXTRACTED]
 - [[The Synthesis -- Three Paths, Not Two]] - `references` [EXTRACTED]
 - [[ZKsync Airbender GPU-Accelerated RISC-V Proving]] - `conceptually_related_to` [INFERRED]
 - [[zkVM]] - `implements` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_6
+#graphify/document #graphify/EXTRACTED #community/Community_7

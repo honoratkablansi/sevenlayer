@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-05-halo.pdf"
 type: "paper"
-community: "Community 69"
+community: "Community 60"
 location: "§3.2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_69
+  - community/Community_60
 ---
 
 # Amortization strategy: helper collapses m linear-time commitment-opening checks into one
@@ -17,4 +17,4 @@ tags:
 - [[Nested amortization deferringcollapsing linear-time verification through recursive public inputs]] - `conceptually_related_to` [EXTRACTED]
 - [[Pedersen-based univariate polynomial commitment with amortized succinctness]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_69
+#graphify/paper #graphify/EXTRACTED #community/Community_60

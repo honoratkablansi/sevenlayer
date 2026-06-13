@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-81-wesolowski-vdf.pdf"
 type: "paper"
-community: "Community 1"
+community: "Community 4"
 location: "§5.2 Proposition 1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_1
+  - community/Community_4
 ---
 
 # Proposition 1: (tδ)-sequentiality in the random oracle model
@@ -15,4 +15,4 @@ tags:
 - [[Generalised time-lock assumption for families of unknown-order groups (Assumption 2)]] - `assumes` [EXTRACTED]
 - [[Trapdoor VDF (evaluable fast with secret order, sound)]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_1
+#graphify/paper #graphify/EXTRACTED #community/Community_4

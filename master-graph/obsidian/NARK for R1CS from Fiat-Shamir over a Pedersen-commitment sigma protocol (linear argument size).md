@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf"
 type: "paper"
-community: "Community 75"
+community: "Community 23"
 location: "§2.3.1 / §2.3.2 / §8.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_75
+  - community/Community_23
 ---
 
 # NARK for R1CS from Fiat-Shamir over a Pedersen-commitment sigma protocol (linear argument size)
@@ -19,4 +19,4 @@ tags:
 - [[Sigma protocol (public-coin 3-move)]] - `assumes` [EXTRACTED]
 - [[Theorem 2 transparent zkNARK for R1CS with constant-size split accumulation verifier in ROM under DL]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_75
+#graphify/paper #graphify/EXTRACTED #community/Community_23

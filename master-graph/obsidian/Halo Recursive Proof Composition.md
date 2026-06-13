@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-17-nova.pdf"
 type: "paper"
-community: "Community 0"
+community: "Community 16"
 location: "§1.4, ref [13]"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Community_16
 ---
 
 # Halo Recursive Proof Composition
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Nova Recursive Zero-Knowledge Arguments from Folding Schemes]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_0
+#graphify/paper #graphify/EXTRACTED #community/Community_16

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch03/ref-13-practical-security-zk-circuits.pdf"
 type: "paper"
-community: "Community 35"
+community: "Community 2"
 location: "p.1 (title/abstract)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_35
+  - community/Community_2
 ---
 
 # Practical Security Analysis of Zero-Knowledge Proof Circuits
@@ -20,7 +20,7 @@ tags:
 - [[Open Questions and the Road Ahead]] - `cites` [EXTRACTED]
 - [[Static Analysis]] - `implements` [EXTRACTED]
 - [[Taxonomy of Circom vulnerabilities (3 root-cause classes)]] - `introduces` [EXTRACTED]
-- [[Underconstrained Circuits]] - `conceptually_related_to` [INFERRED]
+- [[Under-Constrained Circuit  Missing Constraint]] - `conceptually_related_to` [INFERRED]
 - [[ZKAP (static analyzer for ZKP circuits)]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_35
+#graphify/paper #graphify/EXTRACTED #community/Community_2

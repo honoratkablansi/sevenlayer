@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-20-thaler-proofs-arguments-zk.pdf"
 type: "paper"
-community: "Community 20"
+community: "Community 37"
 location: "ch 3 (Definitions), ch 4 (Interactive Proofs)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_20
+  - community/Community_37
 ---
 
 # Interactive Proof (IP): prover-verifier protocol with statistical soundness
@@ -26,4 +26,4 @@ tags:
 - [[The Knowledge Complexity of Interactive Proof Systems]] - `introduces` [EXTRACTED]
 - [[The Promise of Provable and Programmable Secrets]] - `references` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_20
+#graphify/paper #graphify/EXTRACTED #community/Community_37

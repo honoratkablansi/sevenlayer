@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 14"
+community: "Community 1"
 location: "Chapter 4"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_14
+  - community/Community_1
 ---
 
 # Number-Theoretic Transform (NTT)
@@ -31,4 +31,4 @@ tags:
 - [[Three Multiplicative Sources of Proving Overhead]] - `references` [EXTRACTED]
 - [[Witness Generation Costs]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_14
+#graphify/document #graphify/EXTRACTED #community/Community_1

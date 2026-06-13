@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf"
 type: "paper"
-community: "Community 1"
+community: "Community 4"
 location: "§3.1 Def. 4; §4 Def. 6–7"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_1
+  - community/Community_4
 ---
 
 # Inherently sequential computation / sequentiality
@@ -17,4 +17,4 @@ tags:
 - [[Verifiable delay function (VDF)]] - `assumes` [EXTRACTED]
 - [[σ-sequentiality security property (parallel PRAM adversary cannot win in time σ(t)t after polynomial precomputation)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_1
+#graphify/paper #graphify/EXTRACTED #community/Community_4

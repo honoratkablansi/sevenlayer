@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch3/ref-60-verifiable-voting-zk-tallies.md"
 type: "document"
-community: "Community 37"
+community: "Community 36"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_37
+  - community/Community_36
 ---
 
 # Academic literature on end-to-end verifiable voting with zero-knowledge tallies
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[Recursion References (cited works)]] - `cites` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_37
+#graphify/document #graphify/EXTRACTED #community/Community_36

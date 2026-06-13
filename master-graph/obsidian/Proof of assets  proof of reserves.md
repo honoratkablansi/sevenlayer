@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-88-provisions.pdf"
 type: "paper"
-community: "Community 40"
+community: "Community 25"
 location: "§4 Protocol 1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_40
+  - community/Community_25
 ---
 
 # Proof of assets / proof of reserves
@@ -17,4 +17,4 @@ tags:
 - [[Proof-of-assets Sigma-protocol (HVZK argument of knowledge)]] - `conceptually_related_to` [EXTRACTED]
 - [[Provisions privacy-preserving proof of solvency for Bitcoin exchanges]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_40
+#graphify/paper #graphify/EXTRACTED #community/Community_25

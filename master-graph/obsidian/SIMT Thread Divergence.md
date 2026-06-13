@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 11"
+community: "Community 1"
 location: "Chapter 14"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_11
+  - community/Community_1
 ---
 
 # SIMT Thread Divergence
@@ -15,4 +15,4 @@ tags:
 - [[GPU Proving Acceleration (NTTMSM)]] - `conceptually_related_to` [EXTRACTED]
 - [[Q6 Practical Constant-Time ZK Proving]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_11
+#graphify/document #graphify/EXTRACTED #community/Community_1

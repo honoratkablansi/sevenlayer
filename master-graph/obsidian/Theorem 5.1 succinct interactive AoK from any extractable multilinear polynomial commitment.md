@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch2/ref-41-spartan.pdf"
 type: "paper"
-community: "Community 3"
+community: "Community 46"
 location: "§5.1, Theorem 5.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_3
+  - community/Community_46
 ---
 
 # Theorem 5.1: succinct interactive AoK from any extractable multilinear polynomial commitment
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Two-round sum-check public-coin succinct interactive argument of knowledge for R1CS (Theorem 5.1)]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_3
+#graphify/paper #graphify/EXTRACTED #community/Community_46

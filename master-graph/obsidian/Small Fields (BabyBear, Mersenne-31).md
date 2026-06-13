@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 81"
+community: "Community 97"
 location: "Chapter 10"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_81
+  - community/Community_97
 ---
 
 # Small Fields (BabyBear, Mersenne-31)
@@ -16,4 +16,4 @@ tags:
 - [[StarkWare Stwo (Circle STARK)]] - `references` [EXTRACTED]
 - [[Succinct SP1 Hypercube]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_81
+#graphify/document #graphify/EXTRACTED #community/Community_97

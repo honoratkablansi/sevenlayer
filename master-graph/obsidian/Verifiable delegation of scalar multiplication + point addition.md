@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-30-cyclefold.pdf"
 type: "paper"
-community: "Community 0"
+community: "Community 16"
 location: "§1.2, §3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Community_16
 ---
 
 # Verifiable delegation of scalar multiplication + point addition
@@ -15,4 +15,4 @@ tags:
 - [[CycleFold]] - `introduces` [EXTRACTED]
 - [[Tiny co-processor circuit C_EC on second curve (~1000-1500 gates)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_0
+#graphify/paper #graphify/EXTRACTED #community/Community_16

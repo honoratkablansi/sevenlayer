@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-51-pairing-efficiency-curves.pdf"
 type: "paper"
-community: "Community 4"
+community: "Community 10"
 location: "§2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_4
+  - community/Community_10
 ---
 
 # NFS/ECM crossover: ECM beats NFS at 5+ prime factors
@@ -16,4 +16,4 @@ tags:
 - [[Multi-prime RSA modulus sizing (2-8 primes, extends Lenstra)]] - `proves` [INFERRED]
 - [[Number Field Sieve]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_4
+#graphify/paper #graphify/EXTRACTED #community/Community_10

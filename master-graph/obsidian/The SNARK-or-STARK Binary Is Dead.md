@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 81"
+community: "Community 97"
 location: "Chapter 10"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_81
+  - community/Community_97
 ---
 
 # The SNARK-or-STARK Binary Is Dead
@@ -16,4 +16,4 @@ tags:
 - [[STARK]] - `references` [EXTRACTED]
 - [[Three Paths, Not Two (Synthesis)]] - `introduces` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_81
+#graphify/document #graphify/EXTRACTED #community/Community_97

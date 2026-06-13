@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-51-pairing-efficiency-curves.pdf"
 type: "paper"
-community: "Community 4"
+community: "Community 10"
 location: "§5"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_4
+  - community/Community_10
 ---
 
 # LibCryptoLCH C/x86-64 asm implementation (Thales)
@@ -16,4 +16,4 @@ tags:
 - [[Optimal ate pairing operation count on BN curve (Alg.1)]] - `assumes` [EXTRACTED]
 - [[Tate pairing on composite-order supersingular curve (Alg.2)]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_4
+#graphify/paper #graphify/EXTRACTED #community/Community_10

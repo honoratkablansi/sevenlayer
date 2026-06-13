@@ -1,30 +1,30 @@
 ---
 type: community
-cohesion: 0.19
+cohesion: 0.18
 members: 15
 ---
 
 # Community 83
 
-**Cohesion:** 0.19 - loosely connected
+**Cohesion:** 0.18 - loosely connected
 **Members:** 15 nodes
 
 ## Members
-- [[Aggregation tree (recursive verification tree)]] - paper - references/recursion/ch1/ref-21-zktree.pdf
-- [[Circuit-hash and input-hash Merkle roots at zkTree root]] - paper - references/recursion/ch1/ref-21-zktree.pdf
-- [[Comparison vs deVirgo zkTree avoids central machine  circuit-splitting rigidity]] - paper - references/recursion/ch1/ref-21-zktree.pdf
-- [[Distributed proof generation with independent same-level proofs (no inter-worker comms)]] - paper - references/recursion/ch1/ref-21-zktree.pdf
-- [[Ed25519Tendermint evaluation 32 sigs verified on ETH, 77s end-to-end, 230k gas]] - paper - references/recursion/ch1/ref-21-zktree.pdf
-- [[Heterogeneous zk proofs in a single tree (claim of novelty over prior trees)]] - paper - references/recursion/ch1/ref-21-zktree.pdf
-- [[Hierarchical SNARK aggregation tree (origin of shared-verification-cost trees)]] - paper - references/recursion/ch1/ref-21-zktree.pdf
-- [[Leaf builder L_i(pi_i,{x_i},VD_i) - upsilon_i,h_i,c_i]] - paper - references/recursion/ch1/ref-21-zktree.pdf
-- [[Merkle ZKP membership proof]] - paper - references/recursion/ch1/ref-21-zktree.pdf
-- [[Node builder combining leafnode pairs into omega_k,h_k,c_k]] - paper - references/recursion/ch1/ref-21-zktree.pdf
-- [[On-chain verifier Plonky2 root recursively wrapped into Groth16 (230k gas)]] - paper - references/recursion/ch1/ref-21-zktree.pdf
-- [[Three zkTree proof types user proof, leaf proof, node proof]] - paper - references/recursion/ch1/ref-21-zktree.pdf
-- [[zkBridge  deVirgo distributed proving via circuit splitting (Xie et al.)]] - paper - references/recursion/ch1/ref-21-zktree.pdf
-- [[zkTree costtime model gen time ~ log(n) node-proof times; comm cost n x proof size (~130KB)]] - paper - references/recursion/ch1/ref-21-zktree.pdf
-- [[zkTree zero-knowledge recursion tree with ZKP membership proofs]] - paper - references/recursion/ch1/ref-21-zktree.pdf
+- [[Compositional Counterexample Construction]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[Finite-Field SMT Solver (cvc5 fork)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[Groebner Basis Computation]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[InferValues Value Inference (Algorithm 3)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[Logical Encoding of Arithmetic Circuit (Definition 4.3)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[QED2 (verification tool)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[QED2 Evaluation Results (70% solved, 8 vulnerabilities)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[SMT Query Procedure (Algorithm 4)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[SMT Solving]] - document - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[UCP Inference Rules (Assign, Base-Conv, BigInt-Mul, All-But-One-0)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[UCP Rule Soundness Proofs]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[Uniqueness Constraint Propagation (UCP)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[Value Inference Soundness (Lemmas A.4, A.5)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[Verify Algorithm (Algorithm 1)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[ZkBench Benchmark Suite (163 Circom circuits)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -34,14 +34,11 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 3 edges to [[_COMMUNITY_Community 113]]
-- 2 edges to [[_COMMUNITY_Community 15]]
-- 2 edges to [[_COMMUNITY_Community 91]]
-- 1 edge to [[_COMMUNITY_Community 30]]
-- 1 edge to [[_COMMUNITY_Community 25]]
+- 6 edges to [[_COMMUNITY_Community 2]]
 
 ## Top bridge nodes
-- [[zkTree zero-knowledge recursion tree with ZKP membership proofs]] - degree 14, connects to 4 communities
-- [[On-chain verifier Plonky2 root recursively wrapped into Groth16 (230k gas)]] - degree 4, connects to 2 communities
-- [[Aggregation tree (recursive verification tree)]] - degree 5, connects to 1 community
-- [[Distributed proof generation with independent same-level proofs (no inter-worker comms)]] - degree 3, connects to 1 community
+- [[QED2 (verification tool)]] - degree 6, connects to 1 community
+- [[Uniqueness Constraint Propagation (UCP)]] - degree 5, connects to 1 community
+- [[SMT Solving]] - degree 3, connects to 1 community
+- [[QED2 Evaluation Results (70% solved, 8 vulnerabilities)]] - degree 3, connects to 1 community
+- [[ZkBench Benchmark Suite (163 Circom circuits)]] - degree 3, connects to 1 community

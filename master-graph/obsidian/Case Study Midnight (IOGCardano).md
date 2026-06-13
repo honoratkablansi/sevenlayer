@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 22"
+community: "Community 12"
 location: "Chapter 7"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_22
+  - community/Community_12
 ---
 
 # Case Study: Midnight (IOG/Cardano)
@@ -14,7 +14,7 @@ tags:
 ## Connections
 - [[Algebraic Hash Functions (Poseidon)]] - `references` [EXTRACTED]
 - [[BLS12-381 Curve]] - `references` [EXTRACTED]
-- [[KZG Polynomial Commitment]] - `references` [EXTRACTED]
+- [[KZG Polynomial Commitments from pairings (with trusted setup); Dory transparent pairing-based scheme]] - `references` [EXTRACTED]
 - [[Neo (Lattice Folding Scheme)]] - `compares` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_22
+#graphify/document #graphify/EXTRACTED #community/Community_12

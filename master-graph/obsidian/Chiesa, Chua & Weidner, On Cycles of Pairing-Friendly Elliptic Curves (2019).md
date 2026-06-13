@@ -30,7 +30,7 @@ tags:
 - [[Prop. 5 m-cycle of curves with fixed discriminant D3 has m=2 (D=3 gives m=6)]] - `proves` [EXTRACTED]
 - [[Prop. 7 no m-cycles (m1) with nontrivial cofactors for large q (composite-order cycles cannot exist)]] - `proves` [EXTRACTED]
 - [[Props. 8-9 no cycles consisting only of Freeman (k=10) or only of Barreto-Naehrig (k=12) curves]] - `proves` [EXTRACTED]
-- [[Recursive Proof Composition_1]] - `cites` [EXTRACTED]
+- [[Recursive Proof Composition]] - `cites` [EXTRACTED]
 - [[Silverman & Stange SS11 - aliquot cycles of elliptic curves, existence Prop. 1]] - `cites` [EXTRACTED]
 
 #graphify/paper #graphify/EXTRACTED #community/Community_13

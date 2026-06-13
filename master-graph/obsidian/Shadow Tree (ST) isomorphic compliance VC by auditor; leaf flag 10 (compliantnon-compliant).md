@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-61-verisbom.pdf"
 type: "paper"
-community: "Community 63"
+community: "Community 9"
 location: "§5.1; Eq.3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_63
+  - community/Community_9
 ---
 
 # Shadow Tree (ST): isomorphic compliance VC by auditor; leaf flag 1/0 (compliant/non-compliant)
@@ -18,4 +18,4 @@ tags:
 - [[ValidDep dual-membership predicate package valid iff member of both PT and ST roots]] - `assumes` [EXTRACTED]
 - [[Vector commitment scheme (position-binding; Merkle-tree instantiation, O(log n) openings)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_63
+#graphify/paper #graphify/EXTRACTED #community/Community_9

@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 106"
+community: "Community 6"
 location: "Chapter 6"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_106
+  - community/Community_6
 ---
 
 # Halo 2 / UltraPlonk
@@ -20,12 +20,11 @@ tags:
 - [[Four Families of Commitment Schemes]] - `references` [EXTRACTED]
 - [[Four-Phase Transaction Pipeline]] - `references` [EXTRACTED]
 - [[Full Seven-Layer Mapping]] - `references` [EXTRACTED]
-- [[KZG Polynomial Commitment]] - `references` [EXTRACTED]
 - [[KZG Polynomial Commitments from pairings (with trusted setup); Dory transparent pairing-based scheme]] - `references` [EXTRACTED]
 - [[Layer 1 -- Building the Stage]] - `references` [EXTRACTED]
 - [[Layer 5 -- The Sealed Certificate]] - `references` [EXTRACTED]
 - [[Layer 6 -- The Deep Craft]] - `references` [EXTRACTED]
-- [[Layer 7 -- The Verdict_1]] - `references` [EXTRACTED]
+- [[Layer 7 -- The Verdict]] - `references` [EXTRACTED]
 - [[Midnight (Privacy Blockchain)]] - `implements` [EXTRACTED]
 - [[Midnight -- The Privacy Theater]] - `references` [EXTRACTED]
 - [[Midnight Sealed Certificate (Case Study)]] - `references` [EXTRACTED]
@@ -52,4 +51,4 @@ tags:
 - [[ZKML Provable Machine Learning (Research)]] - `references` [EXTRACTED]
 - [[zk-SNARK]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_106
+#graphify/document #graphify/EXTRACTED #community/Community_6

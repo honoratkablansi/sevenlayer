@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 75"
+community: "Community 45"
 location: "Chapter 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_75
+  - community/Community_45
 ---
 
 # Knowledge-Soundness
@@ -21,8 +21,8 @@ tags:
 - [[MMORPG massively multi-party open reusable parameter generation system]] - `proves` [EXTRACTED]
 - [[Proof-Carrying Data (PCD)]] - `assumes` [EXTRACTED]
 - [[ProtoStar]] - `references` [EXTRACTED]
-- [[Recursive Proof Composition_1]] - `assumes` [EXTRACTED]
+- [[Recursive Proof Composition]] - `assumes` [EXTRACTED]
 - [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `defines` [EXTRACTED]
 - [[Soundness]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_75
+#graphify/document #graphify/EXTRACTED #community/Community_45

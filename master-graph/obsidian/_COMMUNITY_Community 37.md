@@ -1,40 +1,39 @@
 ---
 type: community
-cohesion: 0.08
-members: 25
+cohesion: 0.12
+members: 24
 ---
 
 # Community 37
 
-**Cohesion:** 0.08 - loosely connected
-**Members:** 25 nodes
+**Cohesion:** 0.12 - loosely connected
+**Members:** 24 nodes
 
 ## Members
-- [[BEATS Batch ECDSA Transaction verification Scheme  Scalable batch verification of ECDSA for blockchain using IVC (Fr]] - document - references/recursion/ch1/ref-24-beats-batch-ecdsa.md
-- [[Academic literature on end-to-end verifiable voting with zero-knowledge tallies]] - document - references/recursion/ch3/ref-60-verifiable-voting-zk-tallies.md
-- [[Aligned Layer, The Year of zkVM Real-Time Proving (2025)  prover-market analyses]] - document - references/recursion/ch1/ref-35-aligned-year-of-zkvm-realtime.md
-- [[Chase, Lysyanskaya, Delegatable Anonymous Credentials lineage (CRYPTO 2009 onward)]] - document - references/recursion/ch3/ref-82-chase-lysyanskaya-delegatable-credentials.md
-- [[Chiesa, Tromer, Proof-Carrying Data and Hearsay Arguments from Signature Cards (ICS 2010)]] - document - references/recursion/ch1/ref-04-chiesa-tromer-pcd-hearsay.md
-- [[Dark Forest and zk-gaming ecosystem writeups]] - document - references/recursion/ch3/ref-91-dark-forest-zk-gaming.md
-- [[EZKL benchmarks (monolithic zkML inference baseline)]] - document - references/recursion/ch3/ref-93-ezkl-monolithic-benchmarks.md
-- [[Fiat, Shamir, How to Prove Yourself Practical Solutions to Identification and Signature Problems (CRYPTO 1986)]] - document - references/recursion/ch2/ref-40-fiat-shamir.md
-- [[IVC streaming computation literature]] - document - references/recursion/ch3/ref-76-ivc-streaming-literature.md
-- [[Khovratovich, Maller, Tiwari et al., MinRoot VDF candidate (2022)]] - document - references/recursion/ch2/ref-42-minroot-vdf.md
-- [[Mina Pickles technical documentation]] - document - references/recursion/ch2/ref-49-mina-pickles-docs.md
-- [[Mina, Hazook recursive zkRollup design (2024)]] - document - references/recursion/ch1/ref-25-mina-hazook.md
-- [[Nova-based zkML folding literature]] - document - references/recursion/ch3/ref-71-nova-zkml-folding.md
-- [[Pedersen, Non-Interactive and Information-Theoretic Secure Verifiable Secret Sharing (CRYPTO 1991)]] - document - references/recursion/ch2/ref-39-pedersen-commitments.md
-- [[Practitioner literature on recursive ZK circuit design (e.g., zkDev, Designing Efficient Recursive ZK Circuits, 2026)]] - document - references/recursion/ch1/ref-29-zkdev-recursive-circuits.md
-- [[Published IVC flight-control benchmark work (real-time high-integrity flight control via recursive SNARKs)]] - document - references/recursion/ch3/ref-67-ivc-flight-control-benchmark.md
-- [[RISC Zero, Continuations  Using Continuations to Prove Any EVM Transaction (2023)]] - document - references/recursion/ch1/ref-23-risc-zero-continuations.md
-- [[Recursion References (cited works)]] - document - references/recursion/manifest.json
-- [[Reproducible-builds literature]] - document - references/recursion/ch3/ref-64-reproducible-builds-literature.md
-- [[Research literature on SNARK-backed transparency logs and verifiable log-structured storage]] - document - references/recursion/ch3/ref-66-snark-backed-transparency-logs.md
-- [[Sonobe library documentation (PSE0xPARC)]] - document - references/recursion/ch2/ref-48-sonobe.md
-- [[State-channel literature]] - document - references/recursion/ch3/ref-92-state-channel-literature.md
-- [[Subsequent verifiable-database and zk-analytics literature]] - document - references/recursion/ch3/ref-74-verifiable-database-zk-analytics.md
-- [[Succinct, Real-Time Proving with 16 GPUs (2026)]] - document - references/recursion/ch1/ref-34-succinct-16-gpus.md
-- [[Valiant, Incrementally Verifiable Computation, or Proofs of Knowledge Imply TimeSpace Efficiency (TCC 2008)]] - document - references/recursion/ch1/ref-01-valiant-ivc.md
+- [[3-AES-invocation record revelation vs 1027 naive AES-in-ZKP, via CBC MAC-then-encrypt structure]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Argument System interactive proof sound only against computationally bounded provers]] - paper - references/recursion/ch1/ref-20-thaler-proofs-arguments-zk.pdf
+- [[Arthur-Merlin games (Babai) as restricted interactive proofs]] - paper - references/ch01/ref-02-gmr-knowledge-complexity.pdf
+- [[Cited Bulletproofs (transparent-setup ZK alternative to libsnark)]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Cited libsnark zk-SNARK library (Ben-Sasson et al. proof system 18)]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Efficient selective opening of TLS records (RevealRedact modes) exploiting MAC-then-encrypt and Merkle-Damgard structure]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Fortnow result NP-complete ZK proof implies poly hierarchy collapse]] - paper - references/ch01/ref-02-gmr-knowledge-complexity.pdf
+- [[IP language recognized by probabilistic PSPACE machine A]] - paper - references/ch01/ref-02-gmr-knowledge-complexity.pdf
+- [[IP Interactive Polynomial-time language class]] - paper - references/ch01/ref-02-gmr-knowledge-complexity.pdf
+- [[Interactive Proof (IP) prover-verifier protocol with statistical soundness]] - paper - references/recursion/ch1/ref-20-thaler-proofs-arguments-zk.pdf
+- [[Interactive Turing Machine (ITM)]] - paper - references/ch01/ref-02-gmr-knowledge-complexity.pdf
+- [[Interactive proof for QNR (Example 1, coin-flipping challenge)]] - paper - references/ch01/ref-02-gmr-knowledge-complexity.pdf
+- [[Knowledge Complexity]] - document - references/ch01/ref-02-gmr-knowledge-complexity.pdf
+- [[Perfect  Statistical  Computational Zero-Knowledge]] - paper - references/ch01/ref-02-gmr-knowledge-complexity.pdf
+- [[Perfect zero-knowledge proof for QR (Theorem 1)]] - paper - references/ch01/ref-02-gmr-knowledge-complexity.pdf
+- [[Prover and Verifier]] - document - proving-nothing.md
+- [[Prover and Verifier (interactive protocol A,B)]] - paper - references/ch01/ref-02-gmr-knowledge-complexity.pdf
+- [[Quadratic Residuosity (QR) and Non-Residuosity (QNR) mod x]] - paper - references/ch01/ref-02-gmr-knowledge-complexity.pdf
+- [[Simulator  Simulation paradigm (expected poly-time M, View_{A,B})]] - paper - references/ch01/ref-02-gmr-knowledge-complexity.pdf
+- [[Stage Magic Metaphor (MagicianAudience)]] - document - proving-nothing.md
+- [[Statistical  Computational Indistinguishability (judge, poly-size circuit families)]] - paper - references/ch01/ref-02-gmr-knowledge-complexity.pdf
+- [[Statistical zero-knowledge proof for QNR]] - paper - references/ch01/ref-02-gmr-knowledge-complexity.pdf
+- [[The Knowledge Complexity of Interactive Proof Systems]] - paper - references/ch01/ref-02-gmr-knowledge-complexity.pdf
+- [[Zero-Knowledge Proof]] - document - proving-nothing.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -42,3 +41,33 @@ members: 25
 TABLE source_file, type FROM #community/Community_37
 SORT file.name ASC
 ```
+
+## Connections to other communities
+- 6 edges to [[_COMMUNITY_Community 5]]
+- 5 edges to [[_COMMUNITY_Community 3]]
+- 5 edges to [[_COMMUNITY_Community 29]]
+- 4 edges to [[_COMMUNITY_Community 19]]
+- 3 edges to [[_COMMUNITY_Community 49]]
+- 3 edges to [[_COMMUNITY_Community 9]]
+- 3 edges to [[_COMMUNITY_Community 69]]
+- 2 edges to [[_COMMUNITY_Community 96]]
+- 2 edges to [[_COMMUNITY_Community 75]]
+- 2 edges to [[_COMMUNITY_Community 22]]
+- 2 edges to [[_COMMUNITY_Community 42]]
+- 2 edges to [[_COMMUNITY_Community 25]]
+- 1 edge to [[_COMMUNITY_Community 68]]
+- 1 edge to [[_COMMUNITY_Community 6]]
+- 1 edge to [[_COMMUNITY_Community 53]]
+- 1 edge to [[_COMMUNITY_Community 77]]
+- 1 edge to [[_COMMUNITY_Community 124]]
+- 1 edge to [[_COMMUNITY_Community 63]]
+- 1 edge to [[_COMMUNITY_Community 16]]
+- 1 edge to [[_COMMUNITY_Community 35]]
+- 1 edge to [[_COMMUNITY_Community 82]]
+
+## Top bridge nodes
+- [[Zero-Knowledge Proof]] - degree 45, connects to 18 communities
+- [[Interactive Proof (IP) prover-verifier protocol with statistical soundness]] - degree 13, connects to 5 communities
+- [[The Knowledge Complexity of Interactive Proof Systems]] - degree 9, connects to 4 communities
+- [[Efficient selective opening of TLS records (RevealRedact modes) exploiting MAC-then-encrypt and Merkle-Damgard structure]] - degree 5, connects to 2 communities
+- [[Cited Bulletproofs (transparent-setup ZK alternative to libsnark)]] - degree 2, connects to 1 community

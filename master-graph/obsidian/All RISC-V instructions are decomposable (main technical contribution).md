@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch03/ref-16-jolt.pdf"
 type: "paper"
-community: "Community 31"
+community: "Community 54"
 location: "§1.2, §1.5, §4-6"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_31
+  - community/Community_54
 ---
 
 # All RISC-V instructions are decomposable (main technical contribution)
@@ -16,4 +16,4 @@ tags:
 - [[Jolt SNARKs for Virtual Machines via Lookups]] - `proves` [EXTRACTED]
 - [[RISC-V ISA]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_31
+#graphify/paper #graphify/EXTRACTED #community/Community_54

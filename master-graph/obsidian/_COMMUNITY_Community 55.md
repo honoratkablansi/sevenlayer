@@ -1,36 +1,35 @@
 ---
 type: community
-cohesion: 0.12
-members: 21
+cohesion: 0.13
+members: 20
 ---
 
 # Community 55
 
-**Cohesion:** 0.12 - loosely connected
-**Members:** 21 nodes
+**Cohesion:** 0.13 - loosely connected
+**Members:** 20 nodes
 
 ## Members
-- [[Ben-Sasson et al. 2013 RAM-to-small-space reduction via Merkle hashing BSCGT13]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
-- [[Bitansky-Canetti-Chiesa-Tromer 2012 ECRH to SNARK and back BCCT12]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
-- [[Bitansky-Canetti-Chiesa-Tromer Recursive Composition and Bootstrapping for SNARKs and PCD (STOC 2013)]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
-- [[Boneh-Segev-Waters 2012 targeted malleability BSW12]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
-- [[Chiesa-Tromer 2010 Proof-Carrying Data  enforcing local properties CT10]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
-- [[Collision-resistant hash functions (CRH) assumption]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
-- [[Complexity-preserving SNARK (prover time tpoly(k), space spoly(k); no preprocessing)]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
-- [[Extractor (polynomial) size blowup under recursive extraction (forces O(1) depth)]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
-- [[Fully-homomorphic encryption (FHE) assumption]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
-- [[Gentry 2009 FHE bootstrapping paradigm Gen09]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
-- [[Gentry-Wichs 2011 no SNARG via black-box reduction to falsifiable assumption GW11]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
-- [[SNARK bootstrapping (to complexity-preserving SNARK)]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
-- [[Succinctness]] - document - recursion/recursion-outline.md
-- [[The Succinctness Threshold]] - document - recursion/recursion-outline.md
-- [[The Verifier's Dilemma (unbounded sequences)]] - document - recursion/recursion-outline.md
-- [[Theorem 1 SNARK Recursive Composition (SNARK - PCD for O(1)-depth predicates)]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
-- [[Theorem 2 PCD Depth-Reduction (O(1)-depth PCD - poly-depth path PCD via wide Merkle proof trees)]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
-- [[Theorem 3 Locally-Efficient RAM Compliance (NP statement - poly-depth compliance predicate)]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
-- [[Theorem 4  9.1 Main bootstrapping theorem (any SNARK - complexity-preserving SNARK and PCD)]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
-- [[Valiant 2008 Incrementally-Verifiable Computation Val08]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
-- [[Valiant, Incrementally Verifiable Computation (TCC 2008)]] - document - recursion/recursion-outline.md
+- [[58-program benchmark suite (PolyBench, NPB, SPEC CPU 2017, a16z, Succinct, RSP, crypto)]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
+- [[BinTuner (Ren et al.) OpenTuner-based study of compiler-opt impact on binary diff]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
+- [[Cost-model mismatch zkVM uniform-cost constraints vs CPU hardware heuristics (cachebranch-predILP)]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
+- [[Finding -Ox gains (40%) on zkVMs far smaller than on traditional x86 CPUs]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
+- [[Finding inline is most beneficial pass (~22-30% gains, +28.4% RISC Zero exec)]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
+- [[Finding licm is most detrimental pass (+11.8% exec, +13.5% proving on RISC Zero; +444% paging on npb-lu)]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
+- [[Four optimization principles (P1 paging-aware, P2 selective inlining, P3 instr-reducing unroll, P4 conservative branch elim)]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
+- [[Genetic autotuning via OpenTuner (cycle-count fitness; up to 2.2x speedup over -O3)]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
+- [[Key cost components dynamic instruction count and paging cycles (~1130 cyclespage-op)]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
+- [[LLVM Compiler Infrastructure]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
+- [[Methodology 71 optimization profiles (64 LLVM passes, 6 -Ox levels, 1 baseline) x 2 zkVMs]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
+- [[Precompiles built-in circuits for hashingEC ops limiting autotuning crypto gains]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
+- [[Proving time (prover wall-clock cost metric)]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
+- [[RISC Zero zkVM (evaluated, v1.2.4)]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
+- [[SP1 zkVM (evaluated, v4.1.4)]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
+- [[Security-critical bug SP1 silently aborts mid-run yet proof verifies (false-correctness; reported and patched)]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
+- [[Superoptimization (e.g. Souper) for zkVM guest code]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
+- [[Surprising result strength reduction (div to shift-add) 3.5x faster on x86 but 40% slower proving on RISC Zero]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
+- [[Three zkVM metrics cycle count, executor time, proving time]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
+- [[zkVM-aware LLVM modifications (100 LOC cost model, heuristics, disabled passes); +45% RISC Zero, +4.6% avg]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -40,17 +39,12 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 5 edges to [[_COMMUNITY_Community 30]]
-- 4 edges to [[_COMMUNITY_Community 42]]
-- 3 edges to [[_COMMUNITY_Community 0]]
-- 2 edges to [[_COMMUNITY_Community 75]]
-- 2 edges to [[_COMMUNITY_Community 67]]
-- 2 edges to [[_COMMUNITY_Community 63]]
-- 1 edge to [[_COMMUNITY_Community 69]]
+- 7 edges to [[_COMMUNITY_Community 7]]
+- 1 edge to [[_COMMUNITY_Community 5]]
 
 ## Top bridge nodes
-- [[Bitansky-Canetti-Chiesa-Tromer Recursive Composition and Bootstrapping for SNARKs and PCD (STOC 2013)]] - degree 12, connects to 3 communities
-- [[Succinctness]] - degree 5, connects to 2 communities
-- [[Theorem 1 SNARK Recursive Composition (SNARK - PCD for O(1)-depth predicates)]] - degree 5, connects to 2 communities
-- [[The Succinctness Threshold]] - degree 3, connects to 2 communities
-- [[Valiant 2008 Incrementally-Verifiable Computation Val08]] - degree 3, connects to 2 communities
+- [[LLVM Compiler Infrastructure]] - degree 6, connects to 2 communities
+- [[Methodology 71 optimization profiles (64 LLVM passes, 6 -Ox levels, 1 baseline) x 2 zkVMs]] - degree 6, connects to 1 community
+- [[Cost-model mismatch zkVM uniform-cost constraints vs CPU hardware heuristics (cachebranch-predILP)]] - degree 3, connects to 1 community
+- [[RISC Zero zkVM (evaluated, v1.2.4)]] - degree 3, connects to 1 community
+- [[SP1 zkVM (evaluated, v4.1.4)]] - degree 3, connects to 1 community

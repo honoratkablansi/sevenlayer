@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-59-zkbridge.pdf"
 type: "paper"
-community: "Community 56"
+community: "Community 65"
 location: "[72], §1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_56
+  - community/Community_65
 ---
 
 # DIZK: A Distributed Zero-Knowledge Proof System (Wu-Zheng-Chiesa-Popa-Stoica, 2018) [72]
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[deVirgo distributed zero-knowledge proof system parallelizing Virgo over M machines with perfect linear scalability and no proof-size overhead]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_56
+#graphify/paper #graphify/EXTRACTED #community/Community_65

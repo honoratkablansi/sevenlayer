@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf"
 type: "paper"
-community: "Community 55"
+community: "Community 45"
 location: "§7 [BSCGT13]"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_55
+  - community/Community_45
 ---
 
 # Ben-Sasson et al. 2013: RAM-to-small-space reduction via Merkle hashing [BSCGT13]
@@ -15,4 +15,4 @@ tags:
 - [[Collision-resistant hash functions (CRH) assumption]] - `assumes` [EXTRACTED]
 - [[Theorem 3 Locally-Efficient RAM Compliance (NP statement - poly-depth compliance predicate)]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_55
+#graphify/paper #graphify/EXTRACTED #community/Community_45

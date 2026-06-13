@@ -10,15 +10,15 @@ members: 9
 **Members:** 9 nodes
 
 ## Members
-- [[Aurora transparent IOP for R1CS (univariate sumcheck, lincheck) BCRSVW19]] - paper - references/recursion/ch1/ref-10-fractal.pdf
-- [[FRACTAL verifier expressed as a constraint system; threshold for recursion (2M constraints checkable in 1.1M), using Poseidon hash and FRI constraint systems]] - paper - references/recursion/ch1/ref-10-fractal.pdf
-- [[Holographic interactive oracle proof (verifier queries an encoding of the index rather than reading it)]] - paper - references/recursion/ch1/ref-10-fractal.pdf
-- [[Holographic lincheck and sparse matrix arithmetization protocol (rational extension of summand; one fewer round than Marlin)]] - paper - references/recursion/ch1/ref-10-fractal.pdf
-- [[Indexed relations triples (index, instance, witness) where the index is encoded offline by the indexer]] - paper - references/recursion/ch1/ref-10-fractal.pdf
-- [[Poseidon algebraic hash function GKRRS19, chosen for the recursion-friendly constraint system]] - paper - references/recursion/ch1/ref-10-fractal.pdf
-- [[Reed–Solomon-encoded IOP (RS-encoded holographic IOP) with rational constraints over prover messages]] - paper - references/recursion/ch1/ref-10-fractal.pdf
-- [[Sumcheck for rational functions (univariate rational sumcheck over a domain K)]] - paper - references/recursion/ch1/ref-10-fractal.pdf
-- [[Theorem 2 efficient public-coin zero-knowledge holographic IOP for indexed relation R_R1CS (O(m log m) indexerprover, O(x+log m) verifier, O(log m) queries)]] - paper - references/recursion/ch1/ref-10-fractal.pdf
+- [[Bulletproofs (Bunz et al.) 13]] - paper - references/recursion/ch1/ref-05-halo.pdf
+- [[Discrete Log Relation Assumption]] - paper - references/recursion/ch1/ref-05-halo.pdf
+- [[Main argument Sonic-variant PSHVZK argument of knowledge for arithmetic circuit satisfiability]] - paper - references/recursion/ch1/ref-05-halo.pdf
+- [[Non-interactive instantiation via Fiat-Shamir with Rescue duplex-sponge in random oracle model]] - paper - references/recursion/ch1/ref-05-halo.pdf
+- [[Pedersen-based univariate polynomial commitment with amortized succinctness]] - paper - references/recursion/ch1/ref-05-halo.pdf
+- [[Sonic (Maller, Bowe, Kohlweiss, Meiklejohn) 32]] - paper - references/recursion/ch1/ref-05-halo.pdf
+- [[Theorem 1 polynomial commitment protocol has completeness, witness-extended emulation, PSHVZK]] - paper - references/recursion/ch1/ref-05-halo.pdf
+- [[Theorem 2 main protocol (Fig. 1) has completeness, PSHVZK, computational witness-extended emulation]] - paper - references/recursion/ch1/ref-05-halo.pdf
+- [[Wahby, Tzialla, shelat, Thaler, Walfish Doubly-efficient zkSNARKs without trusted setup 37]] - paper - references/recursion/ch1/ref-05-halo.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -28,14 +28,16 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 7 edges to [[_COMMUNITY_Community 84]]
-- 2 edges to [[_COMMUNITY_Community 25]]
-- 1 edge to [[_COMMUNITY_Community 3]]
-- 1 edge to [[_COMMUNITY_Community 30]]
+- 2 edges to [[_COMMUNITY_Community 110]]
+- 2 edges to [[_COMMUNITY_Community 60]]
+- 1 edge to [[_COMMUNITY_Community 68]]
+- 1 edge to [[_COMMUNITY_Community 0]]
+- 1 edge to [[_COMMUNITY_Community 23]]
+- 1 edge to [[_COMMUNITY_Community 92]]
+- 1 edge to [[_COMMUNITY_Community 46]]
 
 ## Top bridge nodes
-- [[FRACTAL verifier expressed as a constraint system; threshold for recursion (2M constraints checkable in 1.1M), using Poseidon hash and FRI constraint systems]] - degree 5, connects to 3 communities
-- [[Theorem 2 efficient public-coin zero-knowledge holographic IOP for indexed relation R_R1CS (O(m log m) indexerprover, O(x+log m) verifier, O(log m) queries)]] - degree 9, connects to 2 communities
-- [[Holographic interactive oracle proof (verifier queries an encoding of the index rather than reading it)]] - degree 4, connects to 1 community
-- [[Reed–Solomon-encoded IOP (RS-encoded holographic IOP) with rational constraints over prover messages]] - degree 4, connects to 1 community
-- [[Holographic lincheck and sparse matrix arithmetization protocol (rational extension of summand; one fewer round than Marlin)]] - degree 3, connects to 1 community
+- [[Pedersen-based univariate polynomial commitment with amortized succinctness]] - degree 8, connects to 3 communities
+- [[Main argument Sonic-variant PSHVZK argument of knowledge for arithmetic circuit satisfiability]] - degree 7, connects to 2 communities
+- [[Discrete Log Relation Assumption]] - degree 5, connects to 2 communities
+- [[Non-interactive instantiation via Fiat-Shamir with Rescue duplex-sponge in random oracle model]] - degree 3, connects to 2 communities

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-11-latticefold-plus.pdf"
 type: "paper"
-community: "Community 48"
+community: "Community 32"
 location: "§5.3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_48
+  - community/Community_32
 ---
 
 # Theorem 5.3: Efficiency estimate (prover/verifier/proof size)
@@ -16,4 +16,4 @@ tags:
 - [[Proof Size O_lambda(kappad + log n) (vs LatticeFold kappadlogB)]] - `proves` [EXTRACTED]
 - [[~5x Faster Prover, Omega(log B) speedup over LatticeFold]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_48
+#graphify/paper #graphify/EXTRACTED #community/Community_32

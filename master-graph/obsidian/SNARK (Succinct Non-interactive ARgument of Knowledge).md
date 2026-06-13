@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 67"
+community: "Community 82"
 location: "Chapter 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_67
+  - community/Community_82
 ---
 
 # SNARK (Succinct Non-interactive ARgument of Knowledge)
@@ -35,7 +35,7 @@ tags:
 - [[Proofs, Arguments, and Zero-Knowledge (Justin Thaler, survey textbook)]] - `explains` [EXTRACTED]
 - [[Publicly-verifiable vs designated-verifier SNARK]] - `conceptually_related_to` [EXTRACTED]
 - [[Quadratic Arithmetic Programs (QAP)]] - `conceptually_related_to` [EXTRACTED]
-- [[Recursive Proof Composition_1]] - `conceptually_related_to` [EXTRACTED]
+- [[Recursive Proof Composition]] - `conceptually_related_to` [EXTRACTED]
 - [[Relaxed Succinctness deferred verification via sublinear accumulation verifier]] - `conceptually_related_to` [EXTRACTED]
 - [[STARK]] - `compares` [EXTRACTED]
 - [[Scalable Multi-party Computation for zk-SNARK Parameters in the Random Beacon Model]] - `conceptually_related_to` [EXTRACTED]
@@ -49,4 +49,4 @@ tags:
 - [[Gro16 Groth, On the Size of Pairing-Based Non-interactive Arguments (EUROCRYPT 2016)]] - `conceptually_related_to` [EXTRACTED]
 - [[vSQL verifiable database system for arbitrary SQL queries over dynamic outsourced databases]] - `cites` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_67
+#graphify/document #graphify/EXTRACTED #community/Community_82

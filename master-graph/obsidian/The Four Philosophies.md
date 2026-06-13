@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch03-the-four-philosophies.md"
 type: "document"
-community: "Community 9"
+community: "Community 6"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_9
+  - community/Community_6
 ---
 
 # The Four Philosophies
@@ -19,7 +19,7 @@ tags:
 - [[Compact's Disclosure Analysis]] - `references` [EXTRACTED]
 - [[Disclosure Analysis (Compact)]] - `defines` [EXTRACTED]
 - [[From Circuits to Virtual Machines A Brief Evolution]] - `references` [EXTRACTED]
-- [[Goldilocks Field_1]] - `references` [EXTRACTED]
+- [[Goldilocks Field]] - `references` [EXTRACTED]
 - [[Layer 4 -- Arithmetization]] - `references` [EXTRACTED]
 - [[Leo (Aleo)]] - `references` [EXTRACTED]
 - [[Midnight (Privacy Blockchain)]] - `references` [EXTRACTED]
@@ -27,7 +27,7 @@ tags:
 - [[Noir (Aztec)]] - `references` [EXTRACTED]
 - [[PLONK]] - `references` [EXTRACTED]
 - [[Polygon]] - `references` [EXTRACTED]
-- [[Poseidon Hash_1]] - `references` [EXTRACTED]
+- [[Poseidon Hash]] - `references` [EXTRACTED]
 - [[RISC Zero]] - `references` [EXTRACTED]
 - [[RISC-V Won. Why Taxonomy Still Matters.]] - `references` [EXTRACTED]
 - [[RISC-V architecture]] - `references` [EXTRACTED]
@@ -38,4 +38,4 @@ tags:
 - [[ZisK]] - `references` [EXTRACTED]
 - [[zkEVM  EVM-Compatible Proving]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_9
+#graphify/document #graphify/EXTRACTED #community/Community_6

@@ -1,31 +1,30 @@
 ---
 type: community
-cohesion: 0.12
-members: 16
+cohesion: 0.16
+members: 15
 ---
 
 # Community 82
 
-**Cohesion:** 0.12 - loosely connected
-**Members:** 16 nodes
+**Cohesion:** 0.16 - loosely connected
+**Members:** 15 nodes
 
 ## Members
-- [[Cited Bellare-Fuchsbauer-Scafuro subversion impossibility (BFS16)]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[Cited Groth 2010 pairing-based zk-SNARK (Gro10b)]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[Impossibility updating non-monomial CRS reveals constituent monomials]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[Lemma 6 single adversarial update implies full updatable knowledge soundness]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[Lemmas 1-2 subversion-secure = updatable-secure = trusted-secure]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[MonoExtract  FinalMonoExtract monomial-extraction algorithm]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[Quadratic monomial-only universal CRS (multivariate X,Y,Z, j=7)]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[Specializable universal CRS via untrusted Derive algorithm]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[Subversion-resistant NIZK  subversion zero-knowledge]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[Theorem 3 perfect subversion zero-knowledge of the construction]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[Theorem 4 update knowledge soundness under q-MK and q-MC]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[Theorem 5  Lemma 8 Pinocchio cannot be made updatable]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[Three setup-oracle types trusted (T), updatable (U), subvertible (S)]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[Trusted CRS setup with secret trapdoor]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[Updatable & specializable QAP-based zk-SNARK construction]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[X-security games COMP, X-ZK, X-SND, X-KSND for X in {T,U,S}]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Circuit Satisfiability front ends compiling computer programs into arithmetic circuits  circuit-SAT instances]] - paper - references/recursion/ch1/ref-20-thaler-proofs-arguments-zk.pdf
+- [[Gennaro, Gentry, Parno, Raykova — QAP (Eurocrypt 2013)]] - document - proving-nothing.md
+- [[Interactive Oracle Proof (IOP) model]] - paper - references/ch02/ref-08-stark.pdf
+- [[Interactive Oracle Proofs]] - document - references/ch02/ref-08-stark.pdf
+- [[Last Challenge Attack (FS flaw in KZG-based SNARK final batching challenge)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[Multi-Prover Interactive Proofs (MIPs) and succinct arguments for circuit satisfiability]] - paper - references/recursion/ch1/ref-20-thaler-proofs-arguments-zk.pdf
+- [[Nova IVC soundnessmalleability bug on cycle of curves (missing consistency check)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[PinocchioBCTV setup counterfeiting bug exploited in Zcash (bypass parameters forge proofs)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[Probabilistically Checkable Proofs (PCPs) compiling a PCP into a succinct argument via Merkle commitment]] - paper - references/recursion/ch1/ref-20-thaler-proofs-arguments-zk.pdf
+- [[Proof-system (theoretical) vulnerabilities affecting all implementations]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[Proofs, Arguments, and Zero-Knowledge (Justin Thaler, survey textbook)]] - paper - references/recursion/ch1/ref-20-thaler-proofs-arguments-zk.pdf
+- [[Publicly-verifiable vs designated-verifier SNARK]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
+- [[Quadratic Arithmetic Programs (QAP)]] - document - proving-nothing.md
+- [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - document - proving-nothing.md
+- [[Gro16 Groth, On the Size of Pairing-Based Non-interactive Arguments (EUROCRYPT 2016)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -35,15 +34,38 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 6 edges to [[_COMMUNITY_Community 57]]
-- 2 edges to [[_COMMUNITY_Community 43]]
-- 2 edges to [[_COMMUNITY_Community 39]]
-- 1 edge to [[_COMMUNITY_Community 15]]
+- 5 edges to [[_COMMUNITY_Community 11]]
+- 4 edges to [[_COMMUNITY_Community 15]]
+- 4 edges to [[_COMMUNITY_Community 23]]
+- 3 edges to [[_COMMUNITY_Community 45]]
+- 3 edges to [[_COMMUNITY_Community 96]]
+- 3 edges to [[_COMMUNITY_Community 12]]
+- 3 edges to [[_COMMUNITY_Community 60]]
+- 3 edges to [[_COMMUNITY_Community 68]]
+- 3 edges to [[_COMMUNITY_Community 56]]
+- 3 edges to [[_COMMUNITY_Community 53]]
+- 2 edges to [[_COMMUNITY_Community 14]]
+- 2 edges to [[_COMMUNITY_Community 22]]
+- 2 edges to [[_COMMUNITY_Community 27]]
+- 2 edges to [[_COMMUNITY_Community 8]]
+- 1 edge to [[_COMMUNITY_Community 97]]
+- 1 edge to [[_COMMUNITY_Community 69]]
+- 1 edge to [[_COMMUNITY_Community 75]]
+- 1 edge to [[_COMMUNITY_Community 39]]
+- 1 edge to [[_COMMUNITY_Community 73]]
+- 1 edge to [[_COMMUNITY_Community 42]]
+- 1 edge to [[_COMMUNITY_Community 119]]
+- 1 edge to [[_COMMUNITY_Community 58]]
+- 1 edge to [[_COMMUNITY_Community 32]]
+- 1 edge to [[_COMMUNITY_Community 61]]
+- 1 edge to [[_COMMUNITY_Community 54]]
 - 1 edge to [[_COMMUNITY_Community 18]]
+- 1 edge to [[_COMMUNITY_Community 35]]
+- 1 edge to [[_COMMUNITY_Community 37]]
 
 ## Top bridge nodes
-- [[Updatable & specializable QAP-based zk-SNARK construction]] - degree 6, connects to 2 communities
-- [[Subversion-resistant NIZK  subversion zero-knowledge]] - degree 5, connects to 2 communities
-- [[Quadratic monomial-only universal CRS (multivariate X,Y,Z, j=7)]] - degree 4, connects to 1 community
-- [[Three setup-oracle types trusted (T), updatable (U), subvertible (S)]] - degree 4, connects to 1 community
-- [[Impossibility updating non-monomial CRS reveals constituent monomials]] - degree 3, connects to 1 community
+- [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - degree 36, connects to 19 communities
+- [[Proofs, Arguments, and Zero-Knowledge (Justin Thaler, survey textbook)]] - degree 19, connects to 13 communities
+- [[Interactive Oracle Proofs]] - degree 9, connects to 4 communities
+- [[Proof-system (theoretical) vulnerabilities affecting all implementations]] - degree 4, connects to 1 community
+- [[Multi-Prover Interactive Proofs (MIPs) and succinct arguments for circuit satisfiability]] - degree 3, connects to 1 community

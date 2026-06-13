@@ -1,12 +1,12 @@
 ---
 source_file: "wiki/sections/ch02-the-capex-opex-framework.md"
 type: "document"
-community: "Community 106"
+community: "Community 63"
 location: "Entities"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_106
+  - community/Community_63
 ---
 
 # ZisK
@@ -20,4 +20,4 @@ tags:
 - [[The Landscape Table (March 2026)]] - `references` [EXTRACTED]
 - [[ZK Rollups The Proving Grounds (Production)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_106
+#graphify/document #graphify/EXTRACTED #community/Community_63

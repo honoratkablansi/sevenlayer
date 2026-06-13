@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch09-the-four-pillars.md"
 type: "document"
-community: "Community 16"
+community: "Community 5"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_16
+  - community/Community_5
 ---
 
 # The Four Pillars
@@ -19,11 +19,11 @@ tags:
 - [[Privacy Architectures for Smart Contracts Kachina and Zexe]] - `references` [EXTRACTED]
 - [[Privacy-Enhancing Technologies]] - `part_of` [EXTRACTED]
 - [[Real-World Deployments Five Case Studies]] - `references` [EXTRACTED]
-- [[Secure Multi-Party Computation (MPC)_1]] - `defines` [EXTRACTED]
+- [[Secure Multi-Party Computation (MPC)]] - `defines` [EXTRACTED]
 - [[The Decision Matrix]] - `references` [EXTRACTED]
 - [[The Incomplete Stack]] - `references` [EXTRACTED]
 - [[The Regulatory Intersection]] - `references` [EXTRACTED]
 - [[Three Kinds of Security]] - `references` [EXTRACTED]
 - [[Zero-Knowledge Proof]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_16
+#graphify/document #graphify/EXTRACTED #community/Community_5

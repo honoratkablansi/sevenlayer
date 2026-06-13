@@ -1,33 +1,32 @@
 ---
 type: community
-cohesion: 0.17
-members: 18
+cohesion: 0.26
+members: 17
 ---
 
 # Community 69
 
-**Cohesion:** 0.17 - loosely connected
-**Members:** 18 nodes
+**Cohesion:** 0.26 - loosely connected
+**Members:** 17 nodes
 
 ## Members
-- [[Accumulation Scheme Completeness and Soundness Properties]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
-- [[Accumulation Scheme for a Non-Interactive Argument (Def 4.1)]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
-- [[Accumulation Scheme for a Polynomial Commitment (Def 4.2)]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
-- [[Accumulation Schemes]] - document - references/ch06/ref-19-protostar.pdf
-- [[Amortization strategy helper collapses m linear-time commitment-opening checks into one]] - paper - references/recursion/ch1/ref-05-halo.pdf
-- [[BCCT13 Recursive Composition and Bootstrapping for SNARKs and PCD]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
-- [[COS20 Fractal - Post-Quantum Transparent Recursive Proofs from Holography]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
-- [[Deferred inner-product-argument check G = s,G = Commit(sigma, g(X,u_1..u_k)) opened in next argument]] - paper - references/recursion/ch1/ref-05-halo.pdf
-- [[Formal Accumulation Scheme Definition AS=(G,I,P,V,D) for (Phi,H)]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
-- [[Nested amortization deferringcollapsing linear-time verification through recursive public inputs]] - paper - references/recursion/ch1/ref-05-halo.pdf
-- [[Pickles  Mina]] - document - recursion/recursion-outline.md
-- [[Predicate-Efficient SNARK]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
-- [[Proof-Carrying Data from Accumulation Schemes (BCMS20)]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
-- [[Relaxed Succinctness deferred verification via sublinear accumulation verifier]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
-- [[Theorem 1 (informal) SNARK with accumulation scheme compiles to PCD]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
-- [[Theorem 2 (informal) accumulation for predicate + predicate-efficient SNARK yields accumulation for the SNARK]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
-- [[Theorem 5.2 transformation T from SNARK + accumulation scheme to PCD for constant-depth predicates]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
-- [[Zero Knowledge for Accumulation Schemes (simulator, verification proof piV)]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
+- [[Ethproofs ZK Proving Cost Tracker (Ethereum Foundation)]] - document - references/ch13/ref-44-ethproofs.md
+- [[How to Read This Guide]] - document - wiki/sections/ch01-how-to-read-this-guide.md
+- [[Profiles of the Future (Arthur C. Clarke, 1962)]] - document - references/ch01/ref-01-clarke-profiles-of-the-future.md
+- [[Real-Time Proving]] - document - references/ch10/ref-52-sp1-hypercube.md
+- [[Shipping an L1 zkEVM 2 The Security Foundations (Ethereum Foundation)]] - document - references/ch10/ref-55-zkevm-security-foundations.md
+- [[The Deepest Question]] - document - wiki/sections/ch01-the-deepest-question.md
+- [[The First Decision]] - document - wiki/sections/ch01-the-first-decision.md
+- [[The Phenomenon]] - document - wiki/sections/ch01-the-phenomenon.md
+- [[The Promise of Provable and Programmable Secrets]] - document - wiki/chapters/01-the-promise-of-provable-and-programmable-secrets.md
+- [[The Proof at the Door]] - document - wiki/sections/ch01-the-proof-at-the-door.md
+- [[The Seven Layers at a Glance]] - document - wiki/sections/ch01-the-seven-layers-at-a-glance.md
+- [[The Trick]] - document - wiki/sections/ch01-the-trick.md
+- [[Three Converging Forces]] - document - wiki/sections/ch01-three-converging-forces.md
+- [[WHIR Polynomial Commitment Scheme]] - document - references/ch10/ref-55-zkevm-security-foundations.md
+- [[ZK Proofs Is Privacy Cheap Enough to Be Mainstream (Castle Labs)]] - document - references/ch13/ref-43-castlelabs-zk-privacy.md
+- [[Zcash]] - document - wiki/chapters/01-the-promise-of-provable-and-programmable-secrets.md
+- [[soundcalc (zkVM security estimation tool)]] - document - references/ch10/ref-55-zkevm-security-foundations.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -37,23 +36,36 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 5 edges to [[_COMMUNITY_Community 30]]
-- 4 edges to [[_COMMUNITY_Community 0]]
-- 4 edges to [[_COMMUNITY_Community 42]]
+- 18 edges to [[_COMMUNITY_Community 12]]
+- 17 edges to [[_COMMUNITY_Community 0]]
+- 13 edges to [[_COMMUNITY_Community 8]]
+- 12 edges to [[_COMMUNITY_Community 15]]
+- 11 edges to [[_COMMUNITY_Community 6]]
+- 10 edges to [[_COMMUNITY_Community 7]]
+- 7 edges to [[_COMMUNITY_Community 76]]
+- 6 edges to [[_COMMUNITY_Community 11]]
+- 4 edges to [[_COMMUNITY_Community 101]]
+- 3 edges to [[_COMMUNITY_Community 37]]
+- 3 edges to [[_COMMUNITY_Community 96]]
 - 3 edges to [[_COMMUNITY_Community 67]]
-- 3 edges to [[_COMMUNITY_Community 22]]
-- 3 edges to [[_COMMUNITY_Community 10]]
-- 2 edges to [[_COMMUNITY_Community 90]]
-- 2 edges to [[_COMMUNITY_Community 70]]
-- 2 edges to [[_COMMUNITY_Community 108]]
-- 1 edge to [[_COMMUNITY_Community 68]]
+- 3 edges to [[_COMMUNITY_Community 63]]
+- 2 edges to [[_COMMUNITY_Community 19]]
+- 2 edges to [[_COMMUNITY_Community 22]]
+- 2 edges to [[_COMMUNITY_Community 32]]
+- 2 edges to [[_COMMUNITY_Community 105]]
+- 2 edges to [[_COMMUNITY_Community 1]]
+- 1 edge to [[_COMMUNITY_Community 82]]
+- 1 edge to [[_COMMUNITY_Community 49]]
+- 1 edge to [[_COMMUNITY_Community 2]]
+- 1 edge to [[_COMMUNITY_Community 128]]
+- 1 edge to [[_COMMUNITY_Community 87]]
 - 1 edge to [[_COMMUNITY_Community 75]]
-- 1 edge to [[_COMMUNITY_Community 55]]
-- 1 edge to [[_COMMUNITY_Community 15]]
+- 1 edge to [[_COMMUNITY_Community 3]]
+- 1 edge to [[_COMMUNITY_Community 97]]
 
 ## Top bridge nodes
-- [[Accumulation Schemes]] - degree 24, connects to 8 communities
-- [[Proof-Carrying Data from Accumulation Schemes (BCMS20)]] - degree 10, connects to 4 communities
-- [[Nested amortization deferringcollapsing linear-time verification through recursive public inputs]] - degree 5, connects to 2 communities
-- [[Predicate-Efficient SNARK]] - degree 4, connects to 2 communities
-- [[BCCT13 Recursive Composition and Bootstrapping for SNARKs and PCD]] - degree 3, connects to 2 communities
+- [[The Promise of Provable and Programmable Secrets]] - degree 49, connects to 21 communities
+- [[Zcash]] - degree 31, connects to 9 communities
+- [[The Deepest Question]] - degree 17, connects to 6 communities
+- [[The Seven Layers at a Glance]] - degree 14, connects to 6 communities
+- [[Three Converging Forces]] - degree 12, connects to 5 communities

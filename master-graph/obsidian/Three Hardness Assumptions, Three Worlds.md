@@ -1,12 +1,12 @@
 ---
 source_file: "wiki/sections/ch07-three-hardness-assumptions-three-worlds.md"
 type: "document"
-community: "Community 8"
+community: "Community 0"
 location: "Three Hardness Assumptions, Three Worlds"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_8
+  - community/Community_0
 ---
 
 # Three Hardness Assumptions, Three Worlds
@@ -24,11 +24,11 @@ tags:
 - [[Module-SIS  Module-LWE]] - `defines` [EXTRACTED]
 - [[PLONK]] - `references` [EXTRACTED]
 - [[Pedersen Commitment]] - `references` [EXTRACTED]
-- [[Poseidon Hash_1]] - `references` [EXTRACTED]
+- [[Poseidon Hash]] - `references` [EXTRACTED]
 - [[Post-Quantum Cryptography]] - `references` [EXTRACTED]
 - [[The Laws That Break]] - `references` [EXTRACTED]
 - [[The Quantum Shelf Life]] - `references` [EXTRACTED]
 - [[The Quantum Threat Horizon]] - `references` [EXTRACTED]
 - [[The Trilemma -- And Its Dissolution]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_8
+#graphify/document #graphify/EXTRACTED #community/Community_0

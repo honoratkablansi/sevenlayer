@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch02/ref-09-bulletproofs.pdf"
 type: "paper"
-community: "Community 22"
+community: "Community 92"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_22
+  - community/Community_92
 ---
 
 # Bulletproofs: Short Proofs for Confidential Transactions and More
@@ -21,7 +21,7 @@ tags:
 - [[Layer 6 -- The Deep Craft]] - `cites` [EXTRACTED]
 - [[Range Proof]] - `conceptually_related_to` [EXTRACTED]
 - [[Scalable, Transparent, and Post-Quantum Secure Computational Integrity]] - `cites` [EXTRACTED]
-- [[Secure Multi-Party Computation (MPC)_1]] - `conceptually_related_to` [EXTRACTED]
+- [[Secure Multi-Party Computation (MPC)]] - `conceptually_related_to` [EXTRACTED]
 - [[Trusted Setup Ceremony]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_22
+#graphify/paper #graphify/EXTRACTED #community/Community_92

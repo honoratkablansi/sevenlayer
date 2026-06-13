@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch1/ref-27-succinct-sp1-docs.md"
 type: "document"
-community: "Community 0"
+community: "Community 15"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Community_15
 ---
 
 # Recursion (proof recursion in zkVMs)
@@ -19,7 +19,7 @@ tags:
 - [[Privacy Architectures for Smart Contracts Kachina and Zexe]] - `references` [EXTRACTED]
 - [[Proving CPU Executions in Small Space]] - `references` [EXTRACTED]
 - [[Recursion vs. Folding Russian Dolls and Snowballs]] - `defines` [EXTRACTED]
-- [[Recursive Proof Composition_1]] - `conceptually_related_to` [INFERRED]
+- [[Recursive Proof Composition]] - `conceptually_related_to` [INFERRED]
 - [[SNARK Recursion vs. Folding The Full Picture]] - `references` [EXTRACTED]
 - [[SP1 Hypercube]] - `references` [EXTRACTED]
 - [[Shipping an L1 zkEVM 2 The Security Foundations (Ethereum Foundation)]] - `references` [EXTRACTED]
@@ -28,4 +28,4 @@ tags:
 - [[The Structural Advantage of Lattices]] - `references` [EXTRACTED]
 - [[The Synthesis -- Three Paths, Not Two]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/document #graphify/EXTRACTED #community/Community_15

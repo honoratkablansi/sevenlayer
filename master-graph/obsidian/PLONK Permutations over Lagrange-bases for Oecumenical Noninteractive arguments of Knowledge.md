@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch02/ref-07-plonk.pdf"
 type: "paper"
-community: "Community 62"
+community: "Community 39"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_62
+  - community/Community_39
 ---
 
 # PLONK: Permutations over Lagrange-bases for Oecumenical Noninteractive arguments of Knowledge
@@ -20,7 +20,7 @@ tags:
 - [[Grand Product Argument (accumulator polynomial Z)]] - `defines` [EXTRACTED]
 - [[Groth16]] - `cites` [EXTRACTED]
 - [[Idealized Low-Degree (Polynomial) Protocol]] - `defines` [EXTRACTED]
-- [[KZG Polynomial Commitment]] - `cites` [EXTRACTED]
+- [[KZG Polynomial Commitments from pairings (with trusted setup); Dory transparent pairing-based scheme]] - `cites` [EXTRACTED]
 - [[Layer 1 -- Building the Stage]] - `cites` [EXTRACTED]
 - [[Layer 5 -- The Sealed Certificate]] - `cites` [EXTRACTED]
 - [[Marlin (universal preprocessing SNARK)]] - `cites` [EXTRACTED]
@@ -36,4 +36,4 @@ tags:
 - [[Universal Updatable SRS Setup (Bowe-Gabizon-Miers)]] - `cites` [EXTRACTED]
 - [[Universal vs Circuit-Specific SRS]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_62
+#graphify/paper #graphify/EXTRACTED #community/Community_39

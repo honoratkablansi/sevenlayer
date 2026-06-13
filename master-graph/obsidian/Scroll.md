@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch13-zk-rollups-the-proving-grounds-production.md"
 type: "document"
-community: "Community 106"
+community: "Community 6"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_106
+  - community/Community_6
 ---
 
 # Scroll
@@ -14,4 +14,4 @@ tags:
 - [[Halo 2  UltraPlonk]] - `implements` [EXTRACTED]
 - [[ZK Rollups The Proving Grounds (Production)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_106
+#graphify/document #graphify/EXTRACTED #community/Community_6

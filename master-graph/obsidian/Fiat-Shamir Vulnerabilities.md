@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch06-fiat-shamir-vulnerabilities.md"
 type: "document"
-community: "Community 25"
+community: "Community 15"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_25
+  - community/Community_15
 ---
 
 # Fiat-Shamir Vulnerabilities
@@ -24,4 +24,4 @@ tags:
 - [[The Three Families]] - `references` [EXTRACTED]
 - [[When the Transcript Lies Fiat-Shamir Vulnerabilities]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_25
+#graphify/document #graphify/EXTRACTED #community/Community_15

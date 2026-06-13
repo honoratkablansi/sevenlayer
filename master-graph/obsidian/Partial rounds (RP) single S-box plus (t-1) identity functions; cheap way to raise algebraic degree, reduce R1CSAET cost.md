@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-31-poseidon.pdf"
 type: "paper"
-community: "Community 64"
+community: "Community 59"
 location: "§2.2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_64
+  - community/Community_59
 ---
 
 # Partial rounds (RP): single S-box plus (t-1) identity functions; cheap way to raise algebraic degree, reduce R1CS/AET cost
@@ -18,4 +18,4 @@ tags:
 - [[R1CS constraint count 2tRF+2RP for x3, 3tRF+3RP for x5; up to 8x fewer constraintsbit than Pedersen hash]] - `conceptually_related_to` [EXTRACTED]
 - [[Round-number selection choose minimal RF (=6) for statistical attacks, minimize tRF+RP subject to algebraic-attack bounds, plus margin (+2 RF, +7.5% RP)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_64
+#graphify/paper #graphify/EXTRACTED #community/Community_59

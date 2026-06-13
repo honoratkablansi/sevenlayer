@@ -16,7 +16,7 @@ tags:
 - [[Groth16]] - `introduces` [EXTRACTED]
 - [[PLONK]] - `introduces` [EXTRACTED]
 - [[STARK]] - `introduces` [EXTRACTED]
-- [[Schwartz-Zippel Lemma_1]] - `explains` [EXTRACTED]
+- [[Schwartz-Zippel Lemma]] - `explains` [EXTRACTED]
 - [[The Proof Core Triad (Field, Commitment, Arithmetization)]] - `explains` [EXTRACTED]
 
 #graphify/document #graphify/EXTRACTED #community/Community_15

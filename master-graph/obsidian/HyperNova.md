@@ -33,7 +33,7 @@ tags:
 - [[Open Questions and the Road Ahead]] - `references` [EXTRACTED]
 - [[R1CS (Rank-1 Constraint Systems)]] - `references` [EXTRACTED]
 - [[Setty, Thaler, Wahby, Customizable Constraint Systems (ePrint 2023552)]] - `cites` [EXTRACTED]
-- [[Sum-Check Protocol_1]] - `references` [EXTRACTED]
+- [[Sum-Check Protocol]] - `references` [EXTRACTED]
 - [[Sumcheck Protocol]] - `references` [EXTRACTED]
 - [[The Folding Genealogy]] - `defines` [EXTRACTED]
 - [[The Overhead Tax 10,000x to 50,000x]] - `references` [EXTRACTED]

@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/01-the-promise-of-provable-and-programmable-secrets.md"
 type: "document"
-community: "Community 5"
+community: "Community 69"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_5
+  - community/Community_69
 ---
 
 # Zcash
@@ -39,8 +39,8 @@ tags:
 - [[The Three Families]] - `references` [EXTRACTED]
 - [[The Three Frontiers]] - `references` [EXTRACTED]
 - [[The Witness as a Multi-Dimensional Problem]] - `references` [EXTRACTED]
-- [[Trust Decomposition Seven Weaker Assumptions_1]] - `references` [EXTRACTED]
+- [[Trust Decomposition Seven Weaker Assumptions]] - `references` [EXTRACTED]
 - [[Two Ways to Build a Stage]] - `conceptually_related_to` [EXTRACTED]
 - [[ZK Proofs Is Privacy Cheap Enough to Be Mainstream (Castle Labs)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_5
+#graphify/document #graphify/EXTRACTED #community/Community_69

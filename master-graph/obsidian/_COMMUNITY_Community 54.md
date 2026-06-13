@@ -1,36 +1,35 @@
 ---
 type: community
-cohesion: 0.14
-members: 21
+cohesion: 0.16
+members: 20
 ---
 
 # Community 54
 
-**Cohesion:** 0.14 - loosely connected
-**Members:** 21 nodes
+**Cohesion:** 0.16 - loosely connected
+**Members:** 20 nodes
 
 ## Members
-- [[Approximate range proof RoK Pi_rg for ring vectors (Thm 3.1) via random projection + monomial lookup]] - paper - references/ch10/ref-56-symphony.pdf
-- [[Efficiency 200KB proof (PQ), prover dominated by witness commitment, O(loglog n) data passes, O(n) memory]] - paper - references/ch10/ref-56-symphony.pdf
-- [[Halo BGH19 (origin of accumulationfolding, cited prior work)]] - paper - references/ch10/ref-56-symphony.pdf
-- [[High-arity folding (fold many NP statements per step, no deep folding trees)]] - paper - references/ch10/ref-56-symphony.pdf
-- [[LaBRADOR (Lattice Argument System)]] - document - proving-nothing.md
-- [[LaBRADOR BS23 (lattice argument, random projection, challenge set, cited prior work)]] - paper - references/ch10/ref-56-symphony.pdf
-- [[Lattice-Based Cryptography]] - document - proving-nothing.md
-- [[Lattice-based high-arity folding scheme Pi_fold (Thm 4.1) compressing l_np R1CS statements in one shot]] - paper - references/ch10/ref-56-symphony.pdf
-- [[LatticeFold BC24 (lattice folding & decomposition RoK, cited prior work)]] - paper - references/ch10/ref-56-symphony.pdf
-- [[LatticeFold+ BC25 (monomial embedding & exact range proof, cited prior work)]] - paper - references/ch10/ref-56-symphony.pdf
-- [[Module-Ajtai binding commitment (Construction 2.1) with strictrelaxed openings]] - paper - references/ch10/ref-56-symphony.pdf
-- [[Monomial-embedding RoK Pi_mon (Lemma 3.1) reducing monomial check to linear statement]] - paper - references/ch10/ref-56-symphony.pdf
-- [[NIST PQC Standards (FIPS 203204205, IR 8547)]] - document - proving-nothing.md
-- [[Neo NS25 (lattice SNARK; Hadamard sumcheck and single-instance encoding, cited prior work)]] - paper - references/ch10/ref-56-symphony.pdf
-- [[Plausibly post-quantum security from lattice MSIS hardness]] - paper - references/ch10/ref-56-symphony.pdf
-- [[Random projection for norm preservation (J in {0,+-1}, ell2-norm preserved mod q)]] - paper - references/ch10/ref-56-symphony.pdf
-- [[Reduction of Knowledge]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[RoK Pi_had reducing batched HadamardR1CS relation to linear relation (Prop 3.1)]] - paper - references/ch10/ref-56-symphony.pdf
-- [[Symphony Scalable SNARKs in the Random Oracle Model from Lattice-Based High-Arity Folding]] - paper - references/ch10/ref-56-symphony.pdf
-- [[Tensor-of-rings E = K (x) Rq enabling interleaved sumcheck and folding]] - paper - references/ch10/ref-56-symphony.pdf
-- [[Two-layer folding via splitting linear-statement RoK (§8), under stronger structured-MSIS]] - paper - references/ch10/ref-56-symphony.pdf
+- [[All RISC-V instructions are decomposable (main technical contribution)]] - paper - references/ch03/ref-16-jolt.pdf
+- [[Comparison vs RISC Zero (~34), Cairo-VM (~13), Plonk per CPU step]] - paper - references/ch03/ref-16-jolt.pdf
+- [[Decomposable tables]] - paper - references/ch03/ref-16-jolt.pdf
+- [[Generalized-Lasso vs Lasso auditabilityperformance tradeoff (2x-3x cost)]] - paper - references/ch03/ref-16-jolt.pdf
+- [[Jolt SNARKs for Virtual Machines via Lookups]] - paper - references/ch03/ref-16-jolt.pdf
+- [[Lasso]] - document - proving-nothing.md
+- [[Lasso companion paper STW23 (Setty, Thaler, Wahby 2023)]] - paper - references/ch03/ref-16-jolt.pdf
+- [[Lemma 2 RS and WS are permutations iff every read returns last-written (value,count)]] - paper - references/ch03/ref-16-jolt.pdf
+- [[Lemma 2 linear combinations of commitments respect right-multiplication of openings]] - paper - references/ch06/ref-21-neo.pdf
+- [[Linearly homomorphic commitment]] - paper - references/ch06/ref-21-neo.pdf
+- [[MLE-structured tables]] - paper - references/ch03/ref-16-jolt.pdf
+- [[MSM commitment via Pippenger's algorithm]] - paper - references/ch03/ref-16-jolt.pdf
+- [[Multilinear extension (MLE)]] - paper - references/ch03/ref-16-jolt.pdf
+- [[Per-instruction MLE-structured evaluation tables (EQ, LTU, SLL, ANDORXOR, ADDSUB, MUL)]] - paper - references/ch03/ref-16-jolt.pdf
+- [[Prover commits to ~6 256-bit field elements per RISC-V CPU step]] - paper - references/ch03/ref-16-jolt.pdf
+- [[Single collation polynomial g for concatenated instruction tables]] - paper - references/ch03/ref-16-jolt.pdf
+- [[Single giant 2128 RISC-V lookup table T_risc-vopcodexy]] - paper - references/ch03/ref-16-jolt.pdf
+- [[Spartan applied to uniform R1CS (no commitment to A,B,C matrices)]] - paper - references/ch03/ref-16-jolt.pdf
+- [[Spice-based memory-checking optimized with Lasso (max via lookup)]] - paper - references/ch03/ref-16-jolt.pdf
+- [[Virtual instructions and virtual registers (MULH, DIVREM, MOVSIGN, ADVICE, ASSERT)]] - paper - references/ch03/ref-16-jolt.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -40,23 +39,28 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 9 edges to [[_COMMUNITY_Community 8]]
-- 6 edges to [[_COMMUNITY_Community 3]]
-- 5 edges to [[_COMMUNITY_Community 0]]
-- 3 edges to [[_COMMUNITY_Community 127]]
-- 1 edge to [[_COMMUNITY_Community 5]]
-- 1 edge to [[_COMMUNITY_Community 22]]
-- 1 edge to [[_COMMUNITY_Community 45]]
-- 1 edge to [[_COMMUNITY_Community 78]]
-- 1 edge to [[_COMMUNITY_Community 36]]
-- 1 edge to [[_COMMUNITY_Community 61]]
-- 1 edge to [[_COMMUNITY_Community 25]]
+- 11 edges to [[_COMMUNITY_Community 11]]
+- 6 edges to [[_COMMUNITY_Community 8]]
+- 4 edges to [[_COMMUNITY_Community 84]]
+- 4 edges to [[_COMMUNITY_Community 18]]
+- 3 edges to [[_COMMUNITY_Community 7]]
+- 3 edges to [[_COMMUNITY_Community 56]]
+- 2 edges to [[_COMMUNITY_Community 68]]
+- 2 edges to [[_COMMUNITY_Community 0]]
+- 2 edges to [[_COMMUNITY_Community 86]]
+- 2 edges to [[_COMMUNITY_Community 35]]
+- 2 edges to [[_COMMUNITY_Community 46]]
+- 1 edge to [[_COMMUNITY_Community 39]]
+- 1 edge to [[_COMMUNITY_Community 1]]
 - 1 edge to [[_COMMUNITY_Community 15]]
-- 1 edge to [[_COMMUNITY_Community 41]]
+- 1 edge to [[_COMMUNITY_Community 16]]
+- 1 edge to [[_COMMUNITY_Community 48]]
+- 1 edge to [[_COMMUNITY_Community 94]]
+- 1 edge to [[_COMMUNITY_Community 82]]
 
 ## Top bridge nodes
-- [[Symphony Scalable SNARKs in the Random Oracle Model from Lattice-Based High-Arity Folding]] - degree 22, connects to 8 communities
-- [[Lattice-Based Cryptography]] - degree 11, connects to 5 communities
-- [[Reduction of Knowledge]] - degree 6, connects to 3 communities
-- [[Lattice-based high-arity folding scheme Pi_fold (Thm 4.1) compressing l_np R1CS statements in one shot]] - degree 9, connects to 2 communities
-- [[RoK Pi_had reducing batched HadamardR1CS relation to linear relation (Prop 3.1)]] - degree 4, connects to 1 community
+- [[Lasso]] - degree 25, connects to 10 communities
+- [[Multilinear extension (MLE)]] - degree 17, connects to 8 communities
+- [[Jolt SNARKs for Virtual Machines via Lookups]] - degree 25, connects to 6 communities
+- [[All RISC-V instructions are decomposable (main technical contribution)]] - degree 3, connects to 1 community
+- [[Spice-based memory-checking optimized with Lasso (max via lookup)]] - degree 3, connects to 1 community

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch09/ref-31-blockchain-privacy-compliance.pdf"
 type: "paper"
-community: "Community 49"
+community: "Community 42"
 location: "§2.1; Refs [10],[11]"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_49
+  - community/Community_42
 ---
 
 # Linkable ring signature (Monero mixing)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Blockchain Privacy and Regulatory Compliance Towards a Practical Equilibrium]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_49
+#graphify/paper #graphify/EXTRACTED #community/Community_42

@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/10-the-synthesis-three-paths-not-two.md"
 type: "document"
-community: "Community 15"
+community: "Community 8"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_15
+  - community/Community_8
 ---
 
 # The Synthesis -- Three Paths, Not Two
@@ -15,8 +15,7 @@ tags:
 - [[BN254 (alt_bn128) Curve]] - `references` [EXTRACTED]
 - [[BabyBear]] - `references` [EXTRACTED]
 - [[Beanstalk]] - `references` [EXTRACTED]
-- [[Circle STARKs]] - `references` [EXTRACTED]
-- [[Circle STARKs_1]] - `cites` [EXTRACTED]
+- [[Circle STARKs]] - `cites` [EXTRACTED]
 - [[Ethproofs ZK Proving Cost Tracker (Ethereum Foundation)]] - `cites` [EXTRACTED]
 - [[Extended Tower Number Field Sieve A New Complexity for the Medium Prime Case]] - `cites` [EXTRACTED]
 - [[FIPS 203 Module-Lattice-Based Key-Encapsulation Mechanism Standard (with FIPS 204205)]] - `cites` [EXTRACTED]
@@ -35,14 +34,13 @@ tags:
 - [[LatticeFold+ Faster, Simpler, Shorter Lattice-Based Folding for Succinct Proof Systems]] - `cites` [EXTRACTED]
 - [[LatticeFold A Lattice-based Folding Scheme and its Applications to Succinct Proof Systems]] - `cites` [EXTRACTED]
 - [[Mersenne-31  M31]] - `references` [EXTRACTED]
-- [[Mersenne-31 Field]] - `references` [EXTRACTED]
 - [[Module-SIS  Module-LWE]] - `references` [EXTRACTED]
 - [[Neo Lattice-based Folding Scheme for CCS over Small Fields and Pay-per-bit Commitments]] - `cites` [EXTRACTED]
 - [[PLONK]] - `references` [EXTRACTED]
 - [[Path One The Hybrid STARK-to-SNARK Pipeline]] - `part_of` [EXTRACTED]
-- [[Path Three Post-Quantum Folding_1]] - `part_of` [EXTRACTED]
-- [[Path Two Pure Transparent_1]] - `part_of` [EXTRACTED]
-- [[Poseidon Hash_1]] - `references` [EXTRACTED]
+- [[Path Three Post-Quantum Folding]] - `part_of` [EXTRACTED]
+- [[Path Two Pure Transparent]] - `part_of` [EXTRACTED]
+- [[Poseidon Hash]] - `references` [EXTRACTED]
 - [[Post-Quantum Cryptography]] - `references` [EXTRACTED]
 - [[Proving Nothing]] - `part_of` [EXTRACTED]
 - [[Recursion (proof recursion in zkVMs)]] - `references` [EXTRACTED]
@@ -58,10 +56,10 @@ tags:
 - [[The Three-Path Table]] - `part_of` [EXTRACTED]
 - [[Tornado Cash]] - `references` [EXTRACTED]
 - [[Trust Decomposition]] - `defines` [EXTRACTED]
-- [[Trust Decomposition Seven Weaker Assumptions_1]] - `part_of` [EXTRACTED]
+- [[Trust Decomposition Seven Weaker Assumptions]] - `part_of` [EXTRACTED]
 - [[Trusted Setup Ceremony]] - `references` [EXTRACTED]
 - [[ZKsync Airbender GPU-Accelerated RISC-V Proving]] - `references` [EXTRACTED]
 - [[Zcash]] - `references` [EXTRACTED]
 - [[zkEVM  EVM-Compatible Proving]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_15
+#graphify/document #graphify/EXTRACTED #community/Community_8

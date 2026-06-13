@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-32-nguyen-boneh-setty-nova-cycle.pdf"
 type: "paper"
-community: "Community 12"
+community: "Community 24"
 location: "Title/Abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_12
+  - community/Community_24
 ---
 
 # Revisiting the Nova Proof System on a Cycle of Curves (Nguyen, Boneh, Setty, ePrint 2023/969)
@@ -22,4 +22,4 @@ tags:
 - [[Three malleability mitigations zkSNARK compression (simulation-extractable), context in vk, and incremental context (range-keyed vk swap)]] - `introduces` [EXTRACTED]
 - [[Two-stage forged-proof construction run honest prover with adversarial u(1)_{i-1}U(2)_perp inputs to produce convincing proof for false statement]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_12
+#graphify/paper #graphify/EXTRACTED #community/Community_24

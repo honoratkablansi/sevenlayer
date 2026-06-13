@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch1/ref-37-ethereum-lean-hash-based-sig-aggregation.md"
 type: "document"
-community: "Community 116"
+community: "Community 115"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_116
+  - community/Community_115
 ---
 
 # Hash-based signatures
@@ -16,4 +16,4 @@ tags:
 - [[Post-Quantum Cryptography]] - `conceptually_related_to` [EXTRACTED]
 - [[SNARK-aggregated signatures]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_116
+#graphify/document #graphify/EXTRACTED #community/Community_115

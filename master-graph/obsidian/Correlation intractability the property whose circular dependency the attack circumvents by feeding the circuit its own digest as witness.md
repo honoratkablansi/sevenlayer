@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-11-khovratovich-fiat-shamir-attacks.pdf"
 type: "paper"
-community: "Community 46"
+community: "Community 106"
 location: "§3.1 (p.9)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_46
+  - community/Community_106
 ---
 
 # Correlation intractability: the property whose circular dependency the attack circumvents by feeding the circuit its own digest as witness
@@ -20,4 +20,4 @@ tags:
 - [[The Random Oracle Methodology, Revisited (Canetti, Goldreich, Halevi, JACM 2004  STOC 1998)]] - `introduces` [EXTRACTED]
 - [[Theorem 3.4 no correlation-intractable function ensembles exist (not even in the weak sense), via diagonal relation R_F = {(s, f_s(s))}]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_46
+#graphify/paper #graphify/EXTRACTED #community/Community_106

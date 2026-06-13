@@ -1,18 +1,17 @@
 ---
 source_file: "wiki/chapters/07-the-deep-craft.md"
 type: "document"
-community: "Community 8"
+community: "Community 0"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_8
+  - community/Community_0
 ---
 
 # Layer 6 -- The Deep Craft
 
 ## Connections
 - [[Harvest Now Decrypt Later Examining Post-Quantum Cryptography and the Data Privacy Risks for Distributed Ledger Networks]] - `cites` [EXTRACTED]
-- [[Ajtai Lattice Commitment]] - `defines` [EXTRACTED]
 - [[Ajtai commitments]] - `references` [EXTRACTED]
 - [[Algebraic vs Traditional Hash Functions]] - `part_of` [EXTRACTED]
 - [[Algorithms for Quantum Computation Discrete Logarithms and Factoring]] - `cites` [EXTRACTED]
@@ -21,10 +20,9 @@ tags:
 - [[BabyBear]] - `references` [EXTRACTED]
 - [[Bulletproofs Short Proofs for Confidential Transactions and More]] - `cites` [EXTRACTED]
 - [[Case Study Midnight (Layer 6)]] - `part_of` [EXTRACTED]
-- [[Circle STARKs_1]] - `cites` [EXTRACTED]
-- [[Circle STARKs]] - `references` [EXTRACTED]
+- [[Circle STARKs]] - `cites` [EXTRACTED]
 - [[Constant-Size Commitments to Polynomials and Their Applications]] - `cites` [EXTRACTED]
-- [[Cryptographic Primitives Trilemma_1]] - `defines` [EXTRACTED]
+- [[Cryptographic Primitives Trilemma]] - `defines` [EXTRACTED]
 - [[Discrete Logarithm Assumption]] - `defines` [EXTRACTED]
 - [[Extended Tower Number Field Sieve A New Complexity for the Medium Prime Case]] - `cites` [EXTRACTED]
 - [[FIPS 203 Module-Lattice-Based Key-Encapsulation Mechanism Standard (with FIPS 204205)]] - `cites` [EXTRACTED]
@@ -32,7 +30,7 @@ tags:
 - [[Fiat-Shamir Transform]] - `references` [EXTRACTED]
 - [[Folding Scheme]] - `references` [EXTRACTED]
 - [[Four Families of Commitment Schemes]] - `part_of` [EXTRACTED]
-- [[Goldilocks Field_1]] - `references` [EXTRACTED]
+- [[Goldilocks Field]] - `references` [EXTRACTED]
 - [[Greyhound Fast Polynomial Commitments from Lattices]] - `cites` [EXTRACTED]
 - [[Groth16]] - `references` [EXTRACTED]
 - [[Halo  Nested Amortization Recursion]] - `references` [EXTRACTED]
@@ -48,7 +46,6 @@ tags:
 - [[LatticeFold A Lattice-based Folding Scheme and its Applications to Succinct Proof Systems]] - `cites` [EXTRACTED]
 - [[Maturity and Readiness]] - `part_of` [EXTRACTED]
 - [[Mersenne-31  M31]] - `references` [EXTRACTED]
-- [[Mersenne-31 Field]] - `references` [EXTRACTED]
 - [[Midnight (Privacy Blockchain)]] - `references` [EXTRACTED]
 - [[Module-SIS  Module-LWE]] - `defines` [EXTRACTED]
 - [[Neo (Lattice Folding over Small Fields)]] - `references` [EXTRACTED]
@@ -56,7 +53,7 @@ tags:
 - [[Nova]] - `references` [EXTRACTED]
 - [[PLONK]] - `references` [EXTRACTED]
 - [[Polynomial Commitment Scheme]] - `defines` [EXTRACTED]
-- [[Poseidon Hash_1]] - `references` [EXTRACTED]
+- [[Poseidon Hash]] - `references` [EXTRACTED]
 - [[Post-Quantum Cryptography]] - `references` [EXTRACTED]
 - [[Proving Nothing]] - `part_of` [EXTRACTED]
 - [[Reinforced Concrete Hash]] - `references` [EXTRACTED]
@@ -77,4 +74,4 @@ tags:
 - [[Trusted Setup Ceremony]] - `references` [EXTRACTED]
 - [[Zcash]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_8
+#graphify/document #graphify/EXTRACTED #community/Community_0

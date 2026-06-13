@@ -1,32 +1,32 @@
 ---
 type: community
-cohesion: 0.18
+cohesion: 0.12
 members: 17
 ---
 
 # Community 75
 
-**Cohesion:** 0.18 - loosely connected
+**Cohesion:** 0.12 - loosely connected
 **Members:** 17 nodes
 
 ## Members
-- [[A-la-carte cost profile for machine execution]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[Bivariate polynomial identity batching n Hadamard products to 1 via two-round public-coin reduction]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[Constant-size accumulation verifier (O(1) groupfield ops, improving log-size verifier of BCMS20)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[Discrete Logarithm Assumption]] - document - references/ch02/ref-09-bulletproofs.pdf
-- [[Knowledge-Soundness]] - document - proving-nothing.md
-- [[Lemma 6.1 expected-time forking lemma in the ROM (polynomially many transcripts, expected-time adversaries)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[NARK for R1CS from Fiat-Shamir over a Pedersen-commitment sigma protocol (linear argument size)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[Pedersen Commitment]] - document - proving-nothing.md
-- [[Single-MSM prover cost (size = variables)]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[Split Accumulation]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
-- [[Theorem 2 transparent zkNARK for R1CS with constant-size split accumulation verifier in ROM under DL]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[Theorem 3 (HyperNova NIVC scheme)]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[Theorem 3  7.2 zero-knowledge split accumulation for the Hadamard-product predicate under Pedersen commitments (5 G opsclaim)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[Theorem 4  A.2 split accumulation for a Pedersen-based polynomial commitment predicate (ROM, DL)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[BBBPWM18 Bunz, Bootle, Boneh, Poelstra, Wuille, Maxwell, Bulletproofs Short Proofs for Confidential Transactions and More (S&P 2018)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[BCCGP16 Bootle, Cerulli, Chaidos, Groth, Petit, Efficient Zero-Knowledge Arguments in the Discrete Log Setting (EUROCRYPT 2016)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[BN06 Bellare, Neven, Multi-signatures in the plain public-key model and a general forking lemma (CCS 2006)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
+- [[Aztec Plonk verifier point-at-infinity bug (zeros forge proofs; backend soundness)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[Backend-layer vulnerabilities (23 bugs setup error, prover error, unsafe verifier)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[Circuit-layer vulnerabilities (99 bugs; most prevalent class)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[ComputationalHints error (wrong witness computation; completenesssoundness)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[Dataset of 141 SNARK vulnerabilities (107 audits, 16 disclosures, 18 bug-tracker; 2018-2024)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[Four-layer SNARK system model (Circuit, Frontend, Backend, Integration)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[Frontend-layer vulnerabilities (6 bugs incorrect constraint compilation, witness-gen error)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[Integration-layer vulnerabilities (13 bugs unchecked data, delegation, composition, complementary-logic)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[Key finding low-level DSLs (Circom, Gnark) are easy-to-misuse, driving most circuit bugs]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[Methodology classify each bug by layer, type, root cause, and impact]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[Multi-prover design as defense (redundant proof systems  TEE, trades liveness for safety)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[Over-constrained circuit (rejects valid witnesses, causes DoS)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[Root cause arithmetic field error (nativetransformed over- and underflows)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[SNARK threat model adversarial roles (NetworkUserProver) and impacts (soundnesscompletenessZK)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[Semaphore verifier uint256 over snark field bug (integration, breaks completeness)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[SoK What Don't We Know Understanding Security Vulnerabilities in SNARKs]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[Survey of SNARK defense tools (Circomspect, ZKAP, Korrekt, Picus, Ecne, CIVER, SnarkProbe, Coda)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -36,35 +36,17 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 10 edges to [[_COMMUNITY_Community 70]]
-- 7 edges to [[_COMMUNITY_Community 40]]
-- 6 edges to [[_COMMUNITY_Community 0]]
-- 6 edges to [[_COMMUNITY_Community 8]]
-- 4 edges to [[_COMMUNITY_Community 94]]
-- 3 edges to [[_COMMUNITY_Community 59]]
-- 2 edges to [[_COMMUNITY_Community 5]]
-- 2 edges to [[_COMMUNITY_Community 55]]
-- 2 edges to [[_COMMUNITY_Community 3]]
-- 2 edges to [[_COMMUNITY_Community 22]]
-- 2 edges to [[_COMMUNITY_Community 117]]
-- 2 edges to [[_COMMUNITY_Community 84]]
-- 1 edge to [[_COMMUNITY_Community 72]]
-- 1 edge to [[_COMMUNITY_Community 67]]
-- 1 edge to [[_COMMUNITY_Community 39]]
-- 1 edge to [[_COMMUNITY_Community 77]]
-- 1 edge to [[_COMMUNITY_Community 30]]
-- 1 edge to [[_COMMUNITY_Community 42]]
-- 1 edge to [[_COMMUNITY_Community 11]]
-- 1 edge to [[_COMMUNITY_Community 18]]
-- 1 edge to [[_COMMUNITY_Community 24]]
-- 1 edge to [[_COMMUNITY_Community 48]]
-- 1 edge to [[_COMMUNITY_Community 43]]
-- 1 edge to [[_COMMUNITY_Community 101]]
+- 3 edges to [[_COMMUNITY_Community 2]]
+- 2 edges to [[_COMMUNITY_Community 37]]
+- 1 edge to [[_COMMUNITY_Community 82]]
 - 1 edge to [[_COMMUNITY_Community 69]]
+- 1 edge to [[_COMMUNITY_Community 12]]
+- 1 edge to [[_COMMUNITY_Community 6]]
+- 1 edge to [[_COMMUNITY_Community 7]]
+- 1 edge to [[_COMMUNITY_Community 16]]
 
 ## Top bridge nodes
-- [[Pedersen Commitment]] - degree 29, connects to 11 communities
-- [[Knowledge-Soundness]] - degree 12, connects to 9 communities
-- [[Discrete Logarithm Assumption]] - degree 13, connects to 7 communities
-- [[NARK for R1CS from Fiat-Shamir over a Pedersen-commitment sigma protocol (linear argument size)]] - degree 6, connects to 4 communities
-- [[Theorem 2 transparent zkNARK for R1CS with constant-size split accumulation verifier in ROM under DL]] - degree 8, connects to 3 communities
+- [[SoK What Don't We Know Understanding Security Vulnerabilities in SNARKs]] - degree 12, connects to 7 communities
+- [[Circuit-layer vulnerabilities (99 bugs; most prevalent class)]] - degree 6, connects to 1 community
+- [[Survey of SNARK defense tools (Circomspect, ZKAP, Korrekt, Picus, Ecne, CIVER, SnarkProbe, Coda)]] - degree 3, connects to 1 community
+- [[Key finding low-level DSLs (Circom, Gnark) are easy-to-misuse, driving most circuit bugs]] - degree 2, connects to 1 community

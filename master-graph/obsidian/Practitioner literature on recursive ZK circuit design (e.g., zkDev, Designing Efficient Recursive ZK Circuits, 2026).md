@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch1/ref-29-zkdev-recursive-circuits.md"
 type: "document"
-community: "Community 37"
+community: "Community 36"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_37
+  - community/Community_36
 ---
 
 # Practitioner literature on recursive ZK circuit design (e.g., zkDev, "Designing Efficient Recursive ZK Circuits," 2026)
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[Recursion References (cited works)]] - `cites` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_37
+#graphify/document #graphify/EXTRACTED #community/Community_36

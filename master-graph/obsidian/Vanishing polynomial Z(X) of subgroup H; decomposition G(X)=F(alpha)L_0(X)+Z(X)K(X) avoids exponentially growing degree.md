@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch2/ref-47-protogalaxy.pdf"
 type: "paper"
-community: "Community 10"
+community: "Community 52"
 location: "§4 steps 9-13, §1.2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_10
+  - community/Community_52
 ---
 
 # Vanishing polynomial Z(X) of subgroup H; decomposition G(X)=F(alpha)L_0(X)+Z(X)K(X) avoids exponentially growing degree
@@ -16,4 +16,4 @@ tags:
 - [[ProtoGalaxy Efficient ProtoStar-style folding of multiple instances (Eagen & Gabizon, ePrint 20231106)]] - `introduces` [EXTRACTED]
 - [[Transition from monomial to Lagrange base associate each folded instance with a distinct Lagrange coefficient L_i(X)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_10
+#graphify/paper #graphify/EXTRACTED #community/Community_52

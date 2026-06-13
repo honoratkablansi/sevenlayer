@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-33-circ.pdf"
 type: "paper"
-community: "Community 7"
+community: "Community 64"
 location: "p.1 (abstract)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_7
+  - community/Community_64
 ---
 
 # Satisfiability Modulo Theories (SMT)
@@ -18,4 +18,4 @@ tags:
 - [[Existentially Quantified Circuit (EQC)]] - `conceptually_related_to` [EXTRACTED]
 - [[Guarded SSA versioning via ITE terms]] - `cites` [INFERRED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_7
+#graphify/paper #graphify/EXTRACTED #community/Community_64

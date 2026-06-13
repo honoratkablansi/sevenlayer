@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf"
 type: "paper"
-community: "Community 67"
+community: "Community 82"
 location: "§1.1, §4"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_67
+  - community/Community_82
 ---
 
 # Publicly-verifiable vs designated-verifier SNARK
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_67
+#graphify/paper #graphify/EXTRACTED #community/Community_82

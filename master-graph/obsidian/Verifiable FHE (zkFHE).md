@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 16"
+community: "Community 5"
 location: "Chapter 9"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_16
+  - community/Community_5
 ---
 
 # Verifiable FHE (zkFHE)
@@ -16,4 +16,4 @@ tags:
 - [[Privacy-Enhancing Technologies]] - `defines` [EXTRACTED]
 - [[Zero-Knowledge Proofs (ZKPs)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_16
+#graphify/document #graphify/EXTRACTED #community/Community_5

@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 22"
+community: "Community 12"
 location: "Chapter 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_22
+  - community/Community_12
 ---
 
 # Shor's Algorithm / Quantum Threat
@@ -19,4 +19,4 @@ tags:
 - [[Quantum Shelf Life & Option Value]] - `explains` [EXTRACTED]
 - [[Quantum Threat Horizon (CRQC  HNDL)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_22
+#graphify/document #graphify/EXTRACTED #community/Community_12

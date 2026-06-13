@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-30-cyclefold.pdf"
 type: "paper"
-community: "Community 0"
+community: "Community 16"
 location: "§1, §1.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Community_16
 ---
 
 # BCTV14 cycle-of-curves recursion blueprint
@@ -16,4 +16,4 @@ tags:
 - [[CycleFold (ePrint 20231192)]] - `cites` [EXTRACTED]
 - [[Cycles of Elliptic Curves]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_0
+#graphify/paper #graphify/EXTRACTED #community/Community_16

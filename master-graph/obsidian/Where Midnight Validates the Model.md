@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch12-where-midnight-validates-the-model.md"
 type: "document"
-community: "Community 24"
+community: "Community 6"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_24
+  - community/Community_6
 ---
 
 # Where Midnight Validates the Model
@@ -19,7 +19,7 @@ tags:
 - [[Midnight's ZKIR A Concrete Layer 4]] - `references` [EXTRACTED]
 - [[PLONK]] - `references` [EXTRACTED]
 - [[The CapexOpex Framework]] - `references` [EXTRACTED]
-- [[Trusted Setup Ceremony_2]] - `references` [EXTRACTED]
+- [[Trusted Setup Ceremony]] - `references` [EXTRACTED]
 - [[ZKIR (Zero-Knowledge Intermediate Representation)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_24
+#graphify/document #graphify/EXTRACTED #community/Community_6

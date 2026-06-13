@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 123"
+community: "Community 21"
 location: "Chapter 13"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_123
+  - community/Community_21
 ---
 
 # DTCC / Canton Network (tokenized Treasuries, privacy settlement)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Tokenization of Assets]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_123
+#graphify/document #graphify/EXTRACTED #community/Community_21

@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch06/ref-17-nova.pdf"
 type: "paper"
-community: "Community 0"
+community: "Community 16"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Community_16
 ---
 
 # Nova: Recursive Zero-Knowledge Arguments from Folding Schemes
@@ -27,8 +27,7 @@ tags:
 - [[R1CS (Rank-1 Constraint Systems)]] - `conceptually_related_to` [EXTRACTED]
 - [[Recursion (proof recursion in zkVMs)]] - `conceptually_related_to` [EXTRACTED]
 - [[Relaxed R1CS]] - `introduces` [EXTRACTED]
-- [[Sum-Check Protocol]] - `cites` [EXTRACTED]
-- [[Sum-Check Protocol_1]] - `conceptually_related_to` [EXTRACTED]
+- [[Sum-Check Protocol]] - `conceptually_related_to` [EXTRACTED]
 - [[Trusted Setup Ceremony]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_0
+#graphify/paper #graphify/EXTRACTED #community/Community_16

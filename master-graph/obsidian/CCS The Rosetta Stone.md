@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch05-ccs-the-rosetta-stone.md"
 type: "document"
-community: "Community 23"
+community: "Community 11"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_23
+  - community/Community_11
 ---
 
 # CCS: The Rosetta Stone
@@ -21,7 +21,7 @@ tags:
 - [[HyperNova]] - `references` [EXTRACTED]
 - [[Lattice Cryptography]] - `references` [EXTRACTED]
 - [[LatticeFold  LatticeFold+]] - `references` [EXTRACTED]
-- [[Lookup Arguments_1]] - `references` [EXTRACTED]
+- [[Lookup Argument]] - `references` [EXTRACTED]
 - [[Midnight's ZKIR A Concrete Layer 4]] - `references` [EXTRACTED]
 - [[Nova]] - `references` [EXTRACTED]
 - [[PLONKish Arithmetization]] - `references` [EXTRACTED]
@@ -30,10 +30,10 @@ tags:
 - [[Small prime fields (machine-register-sized Goldilocks, M61)]] - `references` [EXTRACTED]
 - [[Spartan]] - `references` [EXTRACTED]
 - [[Srinath Setty]] - `references` [EXTRACTED]
-- [[Sum-Check Protocol_1]] - `references` [EXTRACTED]
+- [[Sum-Check Protocol]] - `references` [EXTRACTED]
 - [[The Constraint System Evolution R1CS, AIR, PLONKish]] - `references` [EXTRACTED]
 - [[The Spreadsheet Metaphor (And Where It Works)]] - `references` [EXTRACTED]
 - [[The Sumcheck Protocol The Hidden Foundation]] - `references` [EXTRACTED]
 - [[Where the Layers Collapse]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_23
+#graphify/document #graphify/EXTRACTED #community/Community_11

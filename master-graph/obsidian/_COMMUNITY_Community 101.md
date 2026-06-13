@@ -1,26 +1,26 @@
 ---
 type: community
-cohesion: 0.27
+cohesion: 0.20
 members: 11
 ---
 
 # Community 101
 
-**Cohesion:** 0.27 - loosely connected
+**Cohesion:** 0.20 - loosely connected
 **Members:** 11 nodes
 
 ## Members
-- [[(q1,q2)-extended discrete logarithm (edlog) assumption (Def 2)]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
-- [[Algebraic Group Model (AGM)]] - document - references/ch10/ref-38-snarky-ceremonies.pdf
-- [[Algebraic extractor E_agm (white-box, requires view_A, yields linear representation coefficients)]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
-- [[Critical query i_crit and white-box AGM extractor E_A returning QAP witness coefficients]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
-- [[FKL18 - Fuchsbauer, Kiltz, Loss the Algebraic Group Model and Groth16 KS under q-dlog]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
-- [[Lemma 2.2 Real-to-Ideal Pairing Check Reduction under Q-DLOG]] - paper - references/ch02/ref-07-plonk.pdf
-- [[Q-DLOG Assumption]] - paper - references/ch02/ref-07-plonk.pdf
-- [[Theorem 1 (q1+1,q2+1)-dlog implies (q1,q2)-edlog]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
-- [[Theorem 5 Groth16 ceremony has update knowledge soundness under (2n-1,2n-2)-edlog for algebraic adversaries in ROM]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
-- [[Theorem 6.3 PCS evaluation-binding & bounded-extractable under 2d-DLOG in AGM]] - paper - references/ch10/ref-36-sonic.pdf
-- [[UKS proof game hops Game0-Game1 (fresh-SRS simulated critical updates) - Game2 (bad event), reduction to edlog]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
+- [[EXECUTE Precompile for Native zk-Rollups]] - document - references/recursion/ch1/ref-19-ef-l1-zkevm-realtime-proving.md
+- [[Enshrined proofs (phase 3 of proving roadmap)]] - document - references/recursion/ch3/ref-57-ethproofs-reporting.md
+- [[Home Proving]] - document - references/recursion/ch1/ref-19-ef-l1-zkevm-realtime-proving.md
+- [[L1 zkEVM]] - document - references/recursion/ch1/ref-19-ef-l1-zkevm-realtime-proving.md
+- [[RTP eligibility thresholds (sub-10s proofs, liveness, cost)]] - document - references/recursion/ch3/ref-57-ethproofs-reporting.md
+- [[Realtime Proving Standardized Definition]] - document - references/recursion/ch1/ref-19-ef-l1-zkevm-realtime-proving.md
+- [[Security sprint milestone M2 (100-bit provable  600 KiB)]] - document - references/recursion/ch3/ref-57-ethproofs-reporting.md
+- [[Shipping an L1 zkEVM 1 Realtime Proving (Ethereum Foundation, 2025)]] - document - references/recursion/ch1/ref-19-ef-l1-zkevm-realtime-proving.md
+- [[Stateless Proof Verification]] - document - references/recursion/ch1/ref-19-ef-l1-zkevm-realtime-proving.md
+- [[ethproofs.org real-time proving reporting (Pico Prism, ethrex)]] - document - references/recursion/ch3/ref-57-ethproofs-reporting.md
+- [[zkVM prover benchmarks (zkDTVM, OpenVM, ZisK, Pico on GPU clusters)]] - document - references/recursion/ch3/ref-57-ethproofs-reporting.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -30,15 +30,13 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 5 edges to [[_COMMUNITY_Community 57]]
-- 2 edges to [[_COMMUNITY_Community 62]]
-- 2 edges to [[_COMMUNITY_Community 43]]
-- 1 edge to [[_COMMUNITY_Community 15]]
-- 1 edge to [[_COMMUNITY_Community 75]]
+- 4 edges to [[_COMMUNITY_Community 69]]
+- 1 edge to [[_COMMUNITY_Community 76]]
+- 1 edge to [[_COMMUNITY_Community 46]]
+- 1 edge to [[_COMMUNITY_Community 7]]
 
 ## Top bridge nodes
-- [[Algebraic Group Model (AGM)]] - degree 10, connects to 3 communities
-- [[(q1,q2)-extended discrete logarithm (edlog) assumption (Def 2)]] - degree 5, connects to 2 communities
-- [[Theorem 5 Groth16 ceremony has update knowledge soundness under (2n-1,2n-2)-edlog for algebraic adversaries in ROM]] - degree 5, connects to 2 communities
-- [[Q-DLOG Assumption]] - degree 5, connects to 1 community
-- [[Theorem 6.3 PCS evaluation-binding & bounded-extractable under 2d-DLOG in AGM]] - degree 3, connects to 1 community
+- [[Realtime Proving Standardized Definition]] - degree 5, connects to 3 communities
+- [[L1 zkEVM]] - degree 6, connects to 2 communities
+- [[ethproofs.org real-time proving reporting (Pico Prism, ethrex)]] - degree 6, connects to 1 community
+- [[RTP eligibility thresholds (sub-10s proofs, liveness, cost)]] - degree 3, connects to 1 community

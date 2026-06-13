@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 27"
+community: "Community 21"
 location: "Chapter 13"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_27
+  - community/Community_21
 ---
 
 # Proving-as-a-Service
@@ -21,4 +21,4 @@ tags:
 - [[The Market Landscape]] - `references` [EXTRACTED]
 - [[Trust Relocation vs Trust Minimization]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_27
+#graphify/document #graphify/EXTRACTED #community/Community_21

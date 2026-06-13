@@ -1,19 +1,19 @@
 ---
 source_file: "recursion/recursion-outline.md"
 type: "document"
-community: "Community 55"
+community: "Community 45"
 location: "Recursion Chapter 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_55
+  - community/Community_45
 ---
 
 # The Verifier's Dilemma (unbounded sequences)
 
 ## Connections
-- [[Recursive Proof Composition_1]] - `introduces` [EXTRACTED]
+- [[Recursive Proof Composition]] - `introduces` [EXTRACTED]
 - [[Succinctness]] - `explains` [EXTRACTED]
-- [[Valiant, Incrementally Verifiable Computation (TCC 2008)]] - `references` [EXTRACTED]
+- [[Valiant Incrementally Verifiable Computation (TCC 2008)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_55
+#graphify/document #graphify/EXTRACTED #community/Community_45

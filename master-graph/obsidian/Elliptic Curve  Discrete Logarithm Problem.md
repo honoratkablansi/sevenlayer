@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 22"
+community: "Community 12"
 location: "Chapter 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_22
+  - community/Community_12
 ---
 
 # Elliptic Curve / Discrete Logarithm Problem
@@ -17,4 +17,4 @@ tags:
 - [[Shor's Algorithm  Quantum Threat]] - `conceptually_related_to` [EXTRACTED]
 - [[Structured Reference String (SRS)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_22
+#graphify/document #graphify/EXTRACTED #community/Community_12

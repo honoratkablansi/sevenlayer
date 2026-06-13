@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 66"
+community: "Community 1"
 location: "Chapter 3"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_66
+  - community/Community_1
 ---
 
 # Six-Step Developer Lifecycle (Write-Compile-Test-Prove-Deploy-Monitor)
@@ -16,4 +16,4 @@ tags:
 - [[Claim The compiler, not the language, is the part that matters]] - `explains` [EXTRACTED]
 - [[Witness (private execution traceinputs)]] - `explains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_66
+#graphify/document #graphify/EXTRACTED #community/Community_1

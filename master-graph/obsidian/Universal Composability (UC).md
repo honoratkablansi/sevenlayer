@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch09/ref-30-kachina.pdf"
 type: "paper"
-community: "Community 87"
+community: "Community 31"
 location: "p.1 (abstract)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_87
+  - community/Community_31
 ---
 
 # Universal Composability (UC)
@@ -17,4 +17,4 @@ tags:
 - [[Kachina method via UC-emulation transitivity]] - `assumes` [EXTRACTED]
 - [[Theorem 1 Kachina UC-emulates F_sc]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_87
+#graphify/paper #graphify/EXTRACTED #community/Community_31

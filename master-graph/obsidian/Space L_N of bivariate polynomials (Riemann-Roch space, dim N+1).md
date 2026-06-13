@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-23-circle-starks.pdf"
 type: "paper"
-community: "Community 32"
+community: "Community 30"
 location: "§3.2 Proposition 2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_32
+  - community/Community_30
 ---
 
 # Space L_N of bivariate polynomials (Riemann-Roch space, dim N+1)
@@ -17,4 +17,4 @@ tags:
 - [[FFT-basis B_n and FFT-space L'_N (dimension gap of co-dimension one)]] - `conceptually_related_to` [EXTRACTED]
 - [[Vanishing polynomials v_n and domain quotients]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_32
+#graphify/paper #graphify/EXTRACTED #community/Community_30

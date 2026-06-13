@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 74"
+community: "Community 5"
 location: "Chapter 9"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_74
+  - community/Community_5
 ---
 
 # Private Set Intersection (PSI)
@@ -15,4 +15,4 @@ tags:
 - [[Privacy-Enhancing Technologies]] - `references` [EXTRACTED]
 - [[Secure Multi-Party Computation (MPC)]] - `explains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_74
+#graphify/document #graphify/EXTRACTED #community/Community_5

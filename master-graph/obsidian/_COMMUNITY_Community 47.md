@@ -1,38 +1,37 @@
 ---
 type: community
 cohesion: 0.13
-members: 23
+members: 22
 ---
 
 # Community 47
 
 **Cohesion:** 0.13 - loosely connected
-**Members:** 23 nodes
+**Members:** 22 nodes
 
 ## Members
-- [[Authentic sources & attribute verification (Art. 3(47); Art. 45e)]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
-- [[Certification of EUDI Wallets (Art. 5c)]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
-- [[Common dashboard transaction log, GDPR Art.17 erasure, DPA reporting (Art. 5a(4)(d))]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
-- [[Data minimization]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
-- [[Definition 'European Digital Identity Wallet' (Art. 3(42))]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
-- [[EUDI Wallet (Art. 5a) user-controlled cross-border eID means]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
-- [[EUDI Wallet relying parties registration, intended-use declaration (Art. 5b)]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
-- [[Electronic Attestation of Attributes (EAA) (Art. 3(44); Art. 45b)]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
-- [[European Digital Identity Framework (amending Reg 9102014)]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
-- [[European Digital Identity Wallet]] - document - references/ch13/ref-60-eidas-2-regulation.pdf
-- [[GDPR  Reg 2016679 compliance & purpose limitation (Art. 5a(17); Recital 12)]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
-- [[Issuance with complete certainty of identityattributes (Recital 74)]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
-- [[Levels of assurance wallet at assurance level 'high' (Art. 8; Art. 5a(11))]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
-- [[Privacy-preserving  no-tracking technical framework (Art. 5a(16))]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
-- [[QTSP non-combination of personal data  wallet-issuer blindness (Art. 45h; Art. 5a(5)(b))]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
-- [[Qualified Electronic Attestation of Attributes (QEAA) (Art. 3(45); Art. 45d, Annex V)]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
-- [[Qualified Trust Service Provider  qualified trust services]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
-- [[Regulation (EU) 2016679 (GDPR)]] - document - references/ch13/ref-60-eidas-2-regulation.pdf
-- [[Regulation (EU) 20241183 establishing the European Digital Identity Framework (eIDAS 2)]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
-- [[Sole user control & logical data separation (Art. 5a(14))]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
-- [[Unlinkability]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
-- [[User-chosen pseudonyms (Art. 5a(4)(b); Recital 22)]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
-- [[Voluntary use, open-source, free-of-charge wallet (Art. 5a(3),(13),(15))]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[A la carte cost profile per-step proving cost proportional only to the circuit size of the invoked instruction, independent of k (number of instruction types)]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[Augmented function F'_j runs F_j then a verifier circuit folding u_i into U_ipc, checks public IO hash, and computes pc_{i+1} via phi]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[Avoiding universal switch circuits SuperNova never builds a circuit summing all instruction circuits; per-step cost depends only on the executed instruction]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[Buffet 34 a-la-carte cost via line-by-line compilation to non-uniform circuits, but not incremental and needs static execution bounds]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[Compression to succinct zero-knowledge apply a general-purpose zkSNARK (e.g., Spartan) over a valid NIVC proof, as in Nova]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[Construction 1 SuperNova NIVC scheme (G,K,P,V) built from non-interactive folding scheme NIFS for committed relaxed R1CS plus a hash]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[Control function phi takes (z_i, omega_i) and outputs program counter pc in {1,...,l} selecting which F_j to apply at each step]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[Instantiations VDF machine (l=1, MinRoot) and RAM machine (RISC-V-like, program counter register, Merkle-committed memory)]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[Kothapalli, Setty, Tzialla, Nova (CRYPTO 2022)]] - document - recursion/recursion-outline.md
+- [[Lemma 1  Assumption 1 non-interactive folding scheme for committed relaxed R1CS (Nova 21); prover O(n), verifier and communication O(1), via Fiat-Shamir in plain model]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[Lemma 2 (Completeness) Construction 1 is an NIVC scheme satisfying perfect completeness]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[Lemma 3 (Knowledge soundness) Construction 1 satisfies knowledge soundness via inductive extractor reduction to folding-scheme soundness]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[Lemma 4 (Efficiency) F'_j = phi + F_j + o(2G + 2H + R); prover cost dominated by two multiexponentiations sized to the executed instruction]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[MIRAGE 20 adapts vRAM techniques to Groth's SNARK; still relies on whole-trace invariants, incompatible with incremental proving]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[Multiple running instances, one per instruction type; incoming step instance folded into the running instance selected by pc (U_ipc)]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[Non-uniform IVC (NIVC) generalization of IVC where each step proves a relation chosen from a set, selected by a control function]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[Optimization offlineMerkle memory-checking reduces F'_j circuit dependence on l from O(l) to O(log l) then to O(1) constraints]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[Per-instruction step functions {F_1,...,F_l} plus control function phi; each F_j verifies one instruction type, cost independent of l]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[Program counter (pc) index selecting which instructionfunction is run at a step; computed by control function phi and threaded between augmented circuits]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[SuperNova (Non-Uniform IVC)]] - document - proving-nothing.md
+- [[Universal circuit single circuit executing any supported instruction (fetch-decode-execute); per-step cost scales with sum of all instruction circuit sizes]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[vRAM 37 trimmed universal circuit for vnTinyRAM via fingerprinting over the trace; not incremental, not zero-knowledge]] - paper - references/recursion/ch2/ref-44-supernova.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -42,15 +41,16 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 3 edges to [[_COMMUNITY_Community 20]]
-- 2 edges to [[_COMMUNITY_Community 44]]
-- 2 edges to [[_COMMUNITY_Community 28]]
-- 1 edge to [[_COMMUNITY_Community 5]]
-- 1 edge to [[_COMMUNITY_Community 21]]
+- 4 edges to [[_COMMUNITY_Community 16]]
+- 3 edges to [[_COMMUNITY_Community 32]]
+- 2 edges to [[_COMMUNITY_Community 11]]
+- 2 edges to [[_COMMUNITY_Community 7]]
+- 2 edges to [[_COMMUNITY_Community 61]]
+- 1 edge to [[_COMMUNITY_Community 0]]
 
 ## Top bridge nodes
-- [[Regulation (EU) 20241183 establishing the European Digital Identity Framework (eIDAS 2)]] - degree 7, connects to 4 communities
-- [[EUDI Wallet (Art. 5a) user-controlled cross-border eID means]] - degree 15, connects to 2 communities
-- [[Data minimization]] - degree 4, connects to 1 community
-- [[Unlinkability]] - degree 4, connects to 1 community
-- [[Privacy-preserving  no-tracking technical framework (Art. 5a(16))]] - degree 3, connects to 1 community
+- [[SuperNova (Non-Uniform IVC)]] - degree 12, connects to 3 communities
+- [[Universal circuit single circuit executing any supported instruction (fetch-decode-execute); per-step cost scales with sum of all instruction circuit sizes]] - degree 4, connects to 2 communities
+- [[Lemma 1  Assumption 1 non-interactive folding scheme for committed relaxed R1CS (Nova 21); prover O(n), verifier and communication O(1), via Fiat-Shamir in plain model]] - degree 4, connects to 2 communities
+- [[Construction 1 SuperNova NIVC scheme (G,K,P,V) built from non-interactive folding scheme NIFS for committed relaxed R1CS plus a hash]] - degree 8, connects to 1 community
+- [[Non-uniform IVC (NIVC) generalization of IVC where each step proves a relation chosen from a set, selected by a control function]] - degree 5, connects to 1 community

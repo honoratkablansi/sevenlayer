@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch11-three-zkvms-through-seven-layers.md"
 type: "document"
-community: "Community 6"
+community: "Community 8"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_6
+  - community/Community_8
 ---
 
 # Three zkVMs Through Seven Layers
@@ -25,18 +25,18 @@ tags:
 - [[Lookup Argument]] - `conceptually_related_to` [EXTRACTED]
 - [[Mersenne-31  M31]] - `conceptually_related_to` [EXTRACTED]
 - [[Path One The Hybrid STARK-to-SNARK Pipeline]] - `references` [EXTRACTED]
-- [[Poseidon Hash_1]] - `conceptually_related_to` [EXTRACTED]
+- [[Poseidon Hash]] - `conceptually_related_to` [EXTRACTED]
 - [[RISC-V Convergence]] - `references` [EXTRACTED]
 - [[RISC-V architecture]] - `conceptually_related_to` [EXTRACTED]
 - [[SP1 Hypercube (Succinct)]] - `references` [EXTRACTED]
 - [[Spartan]] - `conceptually_related_to` [EXTRACTED]
 - [[Starknet]] - `references` [EXTRACTED]
 - [[Stwo]] - `references` [EXTRACTED]
-- [[Sum-Check Protocol_1]] - `conceptually_related_to` [EXTRACTED]
+- [[Sum-Check Protocol]] - `conceptually_related_to` [EXTRACTED]
 - [[The Proof Core Triad]] - `references` [EXTRACTED]
 - [[The Landscape Table (March 2026)]] - `references` [EXTRACTED]
 - [[Trusted Setup Ceremony]] - `conceptually_related_to` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `part_of` [EXTRACTED]
 - [[zkVMs Across the Stack]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_6
+#graphify/document #graphify/EXTRACTED #community/Community_8

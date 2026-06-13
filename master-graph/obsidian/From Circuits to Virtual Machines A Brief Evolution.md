@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch03-from-circuits-to-virtual-machines-a-brief-evolution.md"
 type: "document"
-community: "Community 9"
+community: "Community 63"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_9
+  - community/Community_63
 ---
 
 # From Circuits to Virtual Machines: A Brief Evolution
@@ -16,7 +16,7 @@ tags:
 - [[Chaliasos et al. SoK SNARK Vulnerabilities (USENIX Security 2024)]] - `cites` [EXTRACTED]
 - [[Choreographing the Act]] - `part_of` [EXTRACTED]
 - [[Circom]] - `references` [EXTRACTED]
-- [[Goldilocks Field_1]] - `references` [EXTRACTED]
+- [[Goldilocks Field]] - `references` [EXTRACTED]
 - [[Jordi Baylina (Circom, iden3, Hermez, ZisK)]] - `references` [EXTRACTED]
 - [[RISC Zero]] - `references` [EXTRACTED]
 - [[RISC-V Won. Why Taxonomy Still Matters.]] - `references` [EXTRACTED]
@@ -29,4 +29,4 @@ tags:
 - [[Under-Constrained Circuits The Dominant Failure Mode]] - `references` [EXTRACTED]
 - [[ZisK]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_9
+#graphify/document #graphify/EXTRACTED #community/Community_63

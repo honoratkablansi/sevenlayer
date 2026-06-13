@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-56-symphony.pdf"
 type: "paper"
-community: "Community 54"
+community: "Community 28"
 location: "page 1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_54
+  - community/Community_28
 ---
 
 # Symphony: Scalable SNARKs in the Random Oracle Model from Lattice-Based High-Arity Folding
@@ -29,10 +29,10 @@ tags:
 - [[Post-Quantum Cryptography]] - `references` [EXTRACTED]
 - [[R1CS (Rank-1 Constraint Systems)]] - `references` [EXTRACTED]
 - [[Recursion (proof recursion in zkVMs)]] - `references` [EXTRACTED]
-- [[Sum-Check Protocol_1]] - `references` [EXTRACTED]
+- [[Sum-Check Protocol]] - `references` [EXTRACTED]
 - [[Symphony scalable SNARK in the ROM from high-arity folding]] - `defines` [EXTRACTED]
 - [[The Synthesis -- Three Paths, Not Two]] - `cites` [EXTRACTED]
 - [[Two-layer folding via splitting linear-statement RoK (§8), under stronger structured-MSIS]] - `introduces` [EXTRACTED]
 - [[zkVM]] - `references` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_54
+#graphify/paper #graphify/EXTRACTED #community/Community_28

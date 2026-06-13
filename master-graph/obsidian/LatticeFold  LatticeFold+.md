@@ -1,18 +1,18 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 8"
+community: "Community 0"
 location: "Chapter 6"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_8
+  - community/Community_0
 ---
 
 # LatticeFold / LatticeFold+
 
 ## Connections
-- [[Ajtai Lattice Commitment]] - `references` [EXTRACTED]
+- [[Ajtai commitments]] - `references` [EXTRACTED]
 - [[Boneh & Chen, LatticeFold (ASIACRYPT 2025; ePrint 2024257)]] - `cites` [EXTRACTED]
 - [[Boneh, Chen, LatticeFold (ePrint 2024257)]] - `defines` [EXTRACTED]
 - [[CCS The Rosetta Stone]] - `references` [EXTRACTED]
@@ -30,7 +30,7 @@ tags:
 - [[Neo (Lattice Folding Scheme)]] - `references` [EXTRACTED]
 - [[Neo (Lattice Folding over Small Fields)]] - `conceptually_related_to` [EXTRACTED]
 - [[Open Questions and the Road Ahead]] - `references` [EXTRACTED]
-- [[Path Three Post-Quantum Folding_1]] - `references` [EXTRACTED]
+- [[Path Three Post-Quantum Folding]] - `references` [EXTRACTED]
 - [[Pedersen Commitment]] - `compares` [EXTRACTED]
 - [[Symphony]] - `conceptually_related_to` [EXTRACTED]
 - [[The Folding Genealogy]] - `defines` [EXTRACTED]
@@ -39,4 +39,4 @@ tags:
 - [[The Synthesis -- Three Paths, Not Two]] - `references` [EXTRACTED]
 - [[The Trilemma -- And Its Dissolution]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_8
+#graphify/document #graphify/EXTRACTED #community/Community_0

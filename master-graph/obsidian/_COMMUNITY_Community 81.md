@@ -1,31 +1,31 @@
 ---
 type: community
-cohesion: 0.15
+cohesion: 0.17
 members: 16
 ---
 
 # Community 81
 
-**Cohesion:** 0.15 - loosely connected
+**Cohesion:** 0.17 - loosely connected
 **Members:** 16 nodes
 
 ## Members
-- [[Failure Cascade Structure (Internal DAG)]] - document - proving-nothing.md
-- [[Greyhound and LaBRADOR (Lattice Proofs)]] - document - proving-nothing.md
-- [[LatticeFold  LatticeFold+ (Boneh, Chen)]] - document - proving-nothing.md
-- [[Layer 6 Commitment Trilemma]] - document - proving-nothing.md
-- [[Neo and SuperNeo (Nguyen, Setty, ePrint 2025294)]] - document - proving-nothing.md
-- [[Path One Hybrid STARK-to-SNARK Pipeline]] - document - proving-nothing.md
-- [[Path Three Post-Quantum Folding]] - document - proving-nothing.md
-- [[Seven-Layer Causal Web (DAG, 14 edges)]] - document - proving-nothing.md
-- [[Small Fields (BabyBear, Mersenne-31)]] - document - proving-nothing.md
-- [[StarkWare Stwo (Circle STARK)]] - document - proving-nothing.md
-- [[Succinct SP1 Hypercube]] - document - proving-nothing.md
-- [[The SNARK-or-STARK Binary Is Dead]] - document - proving-nothing.md
-- [[Three Paths, Not Two (Synthesis)]] - document - proving-nothing.md
-- [[Trust Decomposition Seven Weaker Assumptions]] - document - proving-nothing.md
-- [[Trustless vs Trust-Minimized]] - document - proving-nothing.md
-- [[Under-Constrained Circuit Bug]] - document - proving-nothing.md
+- [[FIPS 204 Module-Lattice-Based Digital Signature Standard]] - paper - references/ch14/ref-64-fips-204.pdf
+- [[FIPS 204 Module-Lattice-Based Digital Signature Standard (ML-DSA), published 2024-08-13]] - paper - references/ch14/ref-64-fips-204.pdf
+- [[Fiat-Shamir With Aborts construction (Schnorr-like signature with rejection sampling on the response)]] - paper - references/ch14/ref-64-fips-204.pdf
+- [[HashML-DSA domain-separated pre-hash variant signing PH(M) for largestreamed messages]] - paper - references/ch14/ref-64-fips-204.pdf
+- [[Hedged (default, fresh + precomputed randomness) vs deterministic signing variant; same Verify works for both]] - paper - references/ch14/ref-64-fips-204.pdf
+- [[Hint vector h ∈ R2k (MakeHintUseHint) lets verifier reconstruct high bits w1 despite t1 compression]] - paper - references/ch14/ref-64-fips-204.pdf
+- [[ML-DSA (Module-Lattice Digital Signature Algorithm)]] - document - references/ch14/ref-64-fips-204.pdf
+- [[ML-DSA derived from CRYSTALS-DILITHIUM v3.1 (Round-3 PQC selection); differences in Appendix D]] - paper - references/ch14/ref-64-fips-204.pdf
+- [[ML-DSA-44 parameter set (k,ℓ)=(4,4), η=2, τ=39, λ=128, Category 2; pk 1312 B, sk 2560 B, sig 2420 B]] - paper - references/ch14/ref-64-fips-204.pdf
+- [[ML-DSA-65 parameter set (k,ℓ)=(6,5), η=4, τ=49, λ=192, Category 3; pk 1952 B, sk 4032 B, sig 3309 B]] - paper - references/ch14/ref-64-fips-204.pdf
+- [[ML-DSA-87 parameter set (k,ℓ)=(8,7), η=2, τ=60, λ=256, Category 5; pk 2592 B, sk 4896 B, sig 4627 B]] - paper - references/ch14/ref-64-fips-204.pdf
+- [[ML-DSA.Sign (Alg 26.2) commit w=Ay, challenge c~ from H(w1μ), response z = y + c·s1, with rejection-sampling abort loop]] - paper - references/ch14/ref-64-fips-204.pdf
+- [[ML-DSA.Verify (Alg 36.3) recompute w1' via UseHint from z, t1, c; accept iff z is short and c~ matches H(w1'μ)]] - paper - references/ch14/ref-64-fips-204.pdf
+- [[Message representative μ = H(H(pk)  M); signing μ not M provides BUFF  beyond-unforgeability properties]] - paper - references/ch14/ref-64-fips-204.pdf
+- [[Rejection sampling abort and restart with new mask y if z (or r0) coefficients fall outside bound, removing bias toward secret s1s2]] - paper - references/ch14/ref-64-fips-204.pdf
+- [[Strong existential unforgeability under chosen-message attack (SUF-CMA) plus BUFF properties]] - paper - references/ch14/ref-64-fips-204.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -35,18 +35,17 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 5 edges to [[_COMMUNITY_Community 25]]
-- 4 edges to [[_COMMUNITY_Community 15]]
-- 4 edges to [[_COMMUNITY_Community 0]]
-- 1 edge to [[_COMMUNITY_Community 5]]
-- 1 edge to [[_COMMUNITY_Community 67]]
-- 1 edge to [[_COMMUNITY_Community 61]]
+- 3 edges to [[_COMMUNITY_Community 0]]
+- 3 edges to [[_COMMUNITY_Community 72]]
+- 3 edges to [[_COMMUNITY_Community 122]]
+- 2 edges to [[_COMMUNITY_Community 120]]
+- 1 edge to [[_COMMUNITY_Community 96]]
 - 1 edge to [[_COMMUNITY_Community 8]]
-- 1 edge to [[_COMMUNITY_Community 2]]
+- 1 edge to [[_COMMUNITY_Community 1]]
 
 ## Top bridge nodes
-- [[Path Three Post-Quantum Folding]] - degree 8, connects to 3 communities
-- [[Path One Hybrid STARK-to-SNARK Pipeline]] - degree 7, connects to 3 communities
-- [[Trust Decomposition Seven Weaker Assumptions]] - degree 7, connects to 3 communities
-- [[The SNARK-or-STARK Binary Is Dead]] - degree 3, connects to 2 communities
-- [[Three Paths, Not Two (Synthesis)]] - degree 7, connects to 1 community
+- [[ML-DSA (Module-Lattice Digital Signature Algorithm)]] - degree 18, connects to 4 communities
+- [[ML-DSA.Sign (Alg 26.2) commit w=Ay, challenge c~ from H(w1μ), response z = y + c·s1, with rejection-sampling abort loop]] - degree 8, connects to 2 communities
+- [[FIPS 204 Module-Lattice-Based Digital Signature Standard]] - degree 5, connects to 2 communities
+- [[Fiat-Shamir With Aborts construction (Schnorr-like signature with rejection sampling on the response)]] - degree 4, connects to 1 community
+- [[Hint vector h ∈ R2k (MakeHintUseHint) lets verifier reconstruct high bits w1 despite t1 compression]] - degree 3, connects to 1 community

@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 38"
+community: "Community 6"
 location: "Chapter 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_38
+  - community/Community_6
 ---
 
 # PLONK
@@ -33,8 +33,8 @@ tags:
 - [[Layer 5 -- The Sealed Certificate]] - `references` [EXTRACTED]
 - [[Layer 5 The Sealed Certificate (Proof System)]] - `introduces` [EXTRACTED]
 - [[Layer 6 -- The Deep Craft]] - `references` [EXTRACTED]
-- [[Layer 7 -- The Verdict_1]] - `references` [EXTRACTED]
-- [[Lookup Arguments_1]] - `references` [EXTRACTED]
+- [[Layer 7 -- The Verdict]] - `references` [EXTRACTED]
+- [[Lookup Argument]] - `references` [EXTRACTED]
 - [[Midnight -- The Privacy Theater]] - `references` [EXTRACTED]
 - [[Midnight BLS12-381 Layer 1 Case Study (CompactZKIR, Pluto-Eris switch)]] - `references` [EXTRACTED]
 - [[Midnight's BLS12-381 Stage]] - `conceptually_related_to` [EXTRACTED]
@@ -47,7 +47,7 @@ tags:
 - [[Proof Aggregation The Missing Layer]] - `references` [EXTRACTED]
 - [[Protostar Generic Efficient AccumulationFolding for Special-sound Protocols]] - `conceptually_related_to` [EXTRACTED]
 - [[RISC-V Convergence]] - `conceptually_related_to` [EXTRACTED]
-- [[Recursive Proof Composition_1]] - `conceptually_related_to` [INFERRED]
+- [[Recursive Proof Composition]] - `conceptually_related_to` [INFERRED]
 - [[SNARK Recursion vs. Folding The Full Picture]] - `references` [EXTRACTED]
 - [[STARK]] - `compares` [EXTRACTED]
 - [[Snarky Ceremonies]] - `references` [EXTRACTED]
@@ -78,4 +78,4 @@ tags:
 - [[zk-SNARK]] - `conceptually_related_to` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_38
+#graphify/document #graphify/EXTRACTED #community/Community_6

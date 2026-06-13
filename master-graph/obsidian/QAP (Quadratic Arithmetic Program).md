@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 39"
+community: "Community 22"
 location: "Chapter 5"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_39
+  - community/Community_22
 ---
 
 # QAP (Quadratic Arithmetic Program)
@@ -26,4 +26,4 @@ tags:
 - [[Updatable & specializable QAP-based zk-SNARK construction]] - `assumes` [EXTRACTED]
 - [[Updatable and Universal Common Reference Strings with Applications to zk-SNARKs]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_39
+#graphify/document #graphify/EXTRACTED #community/Community_22

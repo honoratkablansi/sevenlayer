@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-20-latticefold.pdf"
 type: "paper"
-community: "Community 17"
+community: "Community 88"
 location: "§2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_17
+  - community/Community_88
 ---
 
 # Power-of-Two Cyclotomic Ring Z[X]/(X^d+1)
@@ -20,4 +20,4 @@ tags:
 - [[b-bit-word embedding of Fm into low-norm cyclotomic ring vector]] - `conceptually_related_to` [EXTRACTED]
 - [[splitpow Maps & Gadget Decomposition]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_17
+#graphify/paper #graphify/EXTRACTED #community/Community_88

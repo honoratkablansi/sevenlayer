@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch06-circle-starks-and-stwo-a-generational-leap.md"
 type: "document"
-community: "Community 25"
+community: "Community 15"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_25
+  - community/Community_15
 ---
 
 # Circle STARKs and Stwo: A Generational Leap
@@ -16,9 +16,9 @@ tags:
 - [[Circle STARKs]] - `defines` [EXTRACTED]
 - [[FRI Commitment Scheme]] - `references` [EXTRACTED]
 - [[Layer 5 -- The Sealed Certificate]] - `part_of` [EXTRACTED]
-- [[Mersenne-31 Field]] - `references` [EXTRACTED]
-- [[Poseidon Hash_1]] - `references` [EXTRACTED]
-- [[Real-Time Ethereum Proving_1]] - `references` [EXTRACTED]
+- [[Mersenne-31  M31]] - `references` [EXTRACTED]
+- [[Poseidon Hash]] - `references` [EXTRACTED]
+- [[Real-Time Ethereum Proving]] - `references` [EXTRACTED]
 - [[SP1 Hypercube (Succinct)]] - `references` [EXTRACTED]
 - [[STARK]] - `references` [EXTRACTED]
 - [[Small Fields]] - `references` [EXTRACTED]
@@ -29,4 +29,4 @@ tags:
 - [[The Three Families]] - `references` [EXTRACTED]
 - [[ZK Rollups The Proving Grounds (Production)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_25
+#graphify/document #graphify/EXTRACTED #community/Community_15

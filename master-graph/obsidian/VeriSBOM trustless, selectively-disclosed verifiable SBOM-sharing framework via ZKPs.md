@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-61-verisbom.pdf"
 type: "paper"
-community: "Community 63"
+community: "Community 9"
 location: "Abstract; §4-5"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_63
+  - community/Community_9
 ---
 
 # VeriSBOM: trustless, selectively-disclosed verifiable SBOM-sharing framework via ZKPs
@@ -21,7 +21,7 @@ tags:
 - [[Petra confidential SBOM exchange via CP-ABE (Ishgair et al.), main baseline contrasted with VeriSBOM]] - `cites` [EXTRACTED]
 - [[Policy Propagation Engine (PPE) recursive compliance C(p)=L(p)prod C(d) propagated up dependency DAG]] - `introduces` [EXTRACTED]
 - [[Re-proving on CVEupdate via root freshness revocation (S3) and remediation (S4) lifecycle, replay resistance]] - `introduces` [EXTRACTED]
-- [[Recursive Proof Composition_1]] - `assumes` [EXTRACTED]
+- [[Recursive Proof Composition]] - `assumes` [EXTRACTED]
 - [[Root-binding accountability verification bound to trusted public roots defeats parallel forged trees]] - `introduces` [EXTRACTED]
 - [[Selective Disclosure]] - `introduces` [EXTRACTED]
 - [[Software Bill of Materials (SBOM)]] - `conceptually_related_to` [EXTRACTED]
@@ -35,4 +35,4 @@ tags:
 - [[Zero-Knowledge Proof]] - `assumes` [EXTRACTED]
 - [[in-toto supply-chain integrity via signed step metadata (cited prior work)]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_63
+#graphify/paper #graphify/EXTRACTED #community/Community_9

@@ -1,20 +1,20 @@
 ---
 source_file: "references/ch12/ref-41-midnight-developer-guide.md"
 type: "document"
-community: "Community 24"
+community: "Community 6"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_24
+  - community/Community_6
 ---
 
 # Midnight Developer Guide (Midnight Docs)
 
 ## Connections
-- [[Layer 7 -- The Verdict_1]] - `cites` [EXTRACTED]
+- [[Layer 7 -- The Verdict]] - `cites` [EXTRACTED]
 - [[Midnight (Privacy Blockchain)]] - `references` [EXTRACTED]
 - [[Midnight -- The Privacy Theater]] - `references` [EXTRACTED]
 - [[Selective Disclosure]] - `references` [EXTRACTED]
 - [[The Secret Performance]] - `cites` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_24
+#graphify/document #graphify/EXTRACTED #community/Community_6

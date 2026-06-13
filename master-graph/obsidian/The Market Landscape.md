@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/13-the-market-landscape.md"
 type: "document"
-community: "Community 21"
+community: "Community 76"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_21
+  - community/Community_76
 ---
 
 # The Market Landscape
@@ -49,7 +49,7 @@ tags:
 - [[ZKML (Zero-Knowledge Machine Learning)]] - `references` [EXTRACTED]
 - [[ZKML Provable Machine Learning (Research)]] - `part_of` [EXTRACTED]
 - [[Zero-Knowledge Proof Market Size, Share & Trends Analysis Report (Grand View Research)]] - `references` [EXTRACTED]
-- [[eIDAS 2.0_1]] - `references` [EXTRACTED]
+- [[eIDAS 2.0]] - `references` [EXTRACTED]
 - [[zkEVM  EVM-Compatible Proving]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_21
+#graphify/document #graphify/EXTRACTED #community/Community_76

@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf"
 type: "paper"
-community: "Community 75"
+community: "Community 23"
 location: "§1.1 (contrast, later generalization)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_75
+  - community/Community_23
 ---
 
 # Split Accumulation
@@ -22,4 +22,4 @@ tags:
 - [[Theorem 4  A.2 split accumulation for a Pedersen-based polynomial commitment predicate (ROM, DL)]] - `conceptually_related_to` [EXTRACTED]
 - [[BDFG20 Boneh, Drake, Fisch, Gabizon, Halo Infinite Recursive zk-SNARKs from any Additive Polynomial Commitment Scheme (ePrint 20201536, concurrent work)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_75
+#graphify/paper #graphify/EXTRACTED #community/Community_23

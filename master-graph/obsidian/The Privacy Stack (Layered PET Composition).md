@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 74"
+community: "Community 5"
 location: "Chapter 9"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_74
+  - community/Community_5
 ---
 
 # The Privacy Stack (Layered PET Composition)
@@ -15,4 +15,4 @@ tags:
 - [[Claim ZKPs Are Necessary But Not Sufficient for Privacy]] - `conceptually_related_to` [INFERRED]
 - [[Privacy-Enhancing Technologies (PETs)]] - `explains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_74
+#graphify/document #graphify/EXTRACTED #community/Community_5

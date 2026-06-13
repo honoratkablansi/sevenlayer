@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 8"
+community: "Community 0"
 location: "Chapter 7"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_8
+  - community/Community_0
 ---
 
 # Post-Quantum Cryptography
@@ -39,7 +39,7 @@ tags:
 - [[Nightstream Lattice-Based Folding for CCS (LFDT-Nightstream)]] - `references` [EXTRACTED]
 - [[Open Questions and the Road Ahead]] - `references` [EXTRACTED]
 - [[Path One The Hybrid STARK-to-SNARK Pipeline]] - `conceptually_related_to` [EXTRACTED]
-- [[Path Three Post-Quantum Folding_1]] - `conceptually_related_to` [EXTRACTED]
+- [[Path Three Post-Quantum Folding]] - `conceptually_related_to` [EXTRACTED]
 - [[Q2 Proven Lower Bound on Post-Quantum Proof Size]] - `references` [EXTRACTED]
 - [[Quantum Threat Horizon (CRQC  HNDL)]] - `conceptually_related_to` [EXTRACTED]
 - [[RSA-2048 and ECC-256 (discrete log) are asymmetric schemes broken by Shor's algorithm; symmetric crypto is more resilient via larger keys]] - `conceptually_related_to` [EXTRACTED]
@@ -59,4 +59,4 @@ tags:
 - [[Where Midnight Challenges the Model]] - `references` [EXTRACTED]
 - [[ZKsync Airbender GPU-Accelerated RISC-V Proving]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_8
+#graphify/document #graphify/EXTRACTED #community/Community_0

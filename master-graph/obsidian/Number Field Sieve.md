@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-50-extended-tower-nfs.pdf"
 type: "document"
-community: "Community 4"
+community: "Community 10"
 location: "page 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_4
+  - community/Community_10
 ---
 
 # Number Field Sieve
@@ -18,4 +18,4 @@ tags:
 - [[Tower Number Field Sieve (TNFS) Barbulescu-Gaudry-Kleinjung]] - `conceptually_related_to` [EXTRACTED]
 - [[exTNFS (Extended Tower Number Field Sieve)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_4
+#graphify/document #graphify/EXTRACTED #community/Community_10

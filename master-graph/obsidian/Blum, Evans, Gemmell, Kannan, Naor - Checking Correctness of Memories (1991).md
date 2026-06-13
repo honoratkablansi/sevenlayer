@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 73"
+community: "Community 86"
 location: "Chapter 5"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_73
+  - community/Community_86
 ---
 
 # Blum, Evans, Gemmell, Kannan, Naor - Checking Correctness of Memories (1991)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Offline Memory Checking]] - `introduces` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_73
+#graphify/document #graphify/EXTRACTED #community/Community_86

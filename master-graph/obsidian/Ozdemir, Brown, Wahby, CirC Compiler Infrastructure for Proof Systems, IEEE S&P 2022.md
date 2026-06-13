@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 66"
+community: "Community 1"
 location: "Chapter 3"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_66
+  - community/Community_1
 ---
 
 # Ozdemir, Brown, Wahby, CirC: Compiler Infrastructure for Proof Systems, IEEE S&P 2022
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Claim The compiler, not the language, is the part that matters]] - `cites` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_66
+#graphify/document #graphify/EXTRACTED #community/Community_1

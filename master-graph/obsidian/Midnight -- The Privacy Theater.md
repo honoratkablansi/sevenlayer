@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/12-midnight-the-privacy-theater.md"
 type: "document"
-community: "Community 24"
+community: "Community 6"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_24
+  - community/Community_6
 ---
 
 # Midnight -- The Privacy Theater
@@ -21,7 +21,7 @@ tags:
 - [[Five Lessons for ZK System Design]] - `part_of` [EXTRACTED]
 - [[Folding Scheme]] - `references` [EXTRACTED]
 - [[Full Seven-Layer Mapping]] - `part_of` [EXTRACTED]
-- [[Goldilocks Field_1]] - `references` [EXTRACTED]
+- [[Goldilocks Field]] - `references` [EXTRACTED]
 - [[Halo 2  UltraPlonk]] - `references` [EXTRACTED]
 - [[Jubjub Curve]] - `references` [EXTRACTED]
 - [[KZG Polynomial Commitments from pairings (with trusted setup); Dory transparent pairing-based scheme]] - `references` [EXTRACTED]
@@ -34,7 +34,7 @@ tags:
 - [[Midnight at a Glance]] - `part_of` [EXTRACTED]
 - [[Nullifier]] - `references` [EXTRACTED]
 - [[PLONK]] - `references` [EXTRACTED]
-- [[Poseidon Hash_1]] - `references` [EXTRACTED]
+- [[Poseidon Hash]] - `references` [EXTRACTED]
 - [[Proving Nothing]] - `part_of` [EXTRACTED]
 - [[Sevenlayer Wiki Index]] - `references` [EXTRACTED]
 - [[Side-Channel Attack]] - `references` [EXTRACTED]
@@ -48,4 +48,4 @@ tags:
 - [[ZKIR Intermediate Representation Reference (Midnight Network, stub)]] - `references` [EXTRACTED]
 - [[Zcash]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_24
+#graphify/document #graphify/EXTRACTED #community/Community_6

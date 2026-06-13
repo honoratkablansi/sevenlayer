@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 74"
+community: "Community 5"
 location: "Chapter 9"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_74
+  - community/Community_5
 ---
 
 # zKYC (Zero-Knowledge Know Your Customer)
@@ -19,4 +19,4 @@ tags:
 - [[Zero-Knowledge Proof]] - `implements` [EXTRACTED]
 - [[Zero-Knowledge Proofs (ZKPs)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_74
+#graphify/document #graphify/EXTRACTED #community/Community_5

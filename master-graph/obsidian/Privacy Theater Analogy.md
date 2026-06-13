@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 106"
+community: "Community 6"
 location: "Chapter 12"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_106
+  - community/Community_6
 ---
 
 # Privacy Theater Analogy
@@ -15,4 +15,4 @@ tags:
 - [[Local Proof Server (localhost6300)]] - `references` [EXTRACTED]
 - [[Midnight (Privacy Blockchain)]] - `explains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_106
+#graphify/document #graphify/EXTRACTED #community/Community_6

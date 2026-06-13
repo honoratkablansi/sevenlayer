@@ -1,12 +1,12 @@
 ---
 source_file: "recursion/recursion-outline.md"
 type: "document"
-community: "Community 42"
+community: "Community 20"
 location: "Recursion Chapter 3"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_42
+  - community/Community_20
 ---
 
 # Media provenance
@@ -23,4 +23,4 @@ tags:
 - [[Walsh, CertiPics over Nexus OS with TPM secure co-processor 57 prior policy-based image authentication lacking succinctness and zero-knowledge]] - `conceptually_related_to` [INFERRED]
 - [[ZKML (Zero-Knowledge Machine Learning)]] - `conceptually_related_to` [INFERRED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_42
+#graphify/document #graphify/EXTRACTED #community/Community_20

@@ -1,17 +1,17 @@
 ---
 source_file: "references/ch06/ref-20-latticefold.pdf"
 type: "paper"
-community: "Community 41"
+community: "Community 0"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_41
+  - community/Community_0
 ---
 
 # LatticeFold: A Lattice-based Folding Scheme and its Applications to Succinct Proof Systems
 
 ## Connections
-- [[Ajtai Lattice Commitment]] - `conceptually_related_to` [EXTRACTED]
+- [[Ajtai commitments]] - `conceptually_related_to` [EXTRACTED]
 - [[CCS (Customizable Constraint Systems)]] - `conceptually_related_to` [EXTRACTED]
 - [[Complete Bibliography]] - `cites` [EXTRACTED]
 - [[Folding Scheme]] - `conceptually_related_to` [EXTRACTED]
@@ -30,7 +30,7 @@ tags:
 - [[Protostar Folding Scheme (cited)]] - `cites` [EXTRACTED]
 - [[Protostar Generic Efficient AccumulationFolding for Special-sound Protocols]] - `cites` [EXTRACTED]
 - [[R1CS (Rank-1 Constraint Systems)]] - `conceptually_related_to` [EXTRACTED]
-- [[Sum-Check Protocol_1]] - `conceptually_related_to` [EXTRACTED]
+- [[Sum-Check Protocol]] - `conceptually_related_to` [EXTRACTED]
 - [[The Synthesis -- Three Paths, Not Two]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_41
+#graphify/paper #graphify/EXTRACTED #community/Community_0

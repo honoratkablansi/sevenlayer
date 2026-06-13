@@ -1,12 +1,12 @@
 ---
 source_file: "wiki/sections/ch04-memory-the-binding-constraint.md"
 type: "document"
-community: "Community 24"
+community: "Community 6"
 location: "Dependencies"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_24
+  - community/Community_6
 ---
 
 # Case Study: Midnight and the Three-Token Architecture
@@ -17,7 +17,7 @@ tags:
 - [[Compact's Disclosure Analysis]] - `references` [EXTRACTED]
 - [[Full Seven-Layer Mapping]] - `references` [EXTRACTED]
 - [[Governance The Achilles Heel]] - `references` [EXTRACTED]
-- [[Layer 7 -- The Verdict_1]] - `part_of` [EXTRACTED]
+- [[Layer 7 -- The Verdict]] - `part_of` [EXTRACTED]
 - [[Memory The Binding Constraint]] - `references` [EXTRACTED]
 - [[Midnight (Privacy Blockchain)]] - `references` [EXTRACTED]
 - [[Midnight as Test Case]] - `references` [EXTRACTED]
@@ -29,4 +29,4 @@ tags:
 - [[Where Midnight Validates the Model]] - `references` [EXTRACTED]
 - [[Who Verifies the Verifier]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_24
+#graphify/document #graphify/EXTRACTED #community/Community_6

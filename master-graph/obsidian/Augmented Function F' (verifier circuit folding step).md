@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-17-nova.pdf"
 type: "paper"
-community: "Community 11"
+community: "Community 104"
 location: "§5.1 Fig 3, Construction 3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_11
+  - community/Community_104
 ---
 
 # Augmented Function F' (verifier circuit folding step)
@@ -16,4 +16,4 @@ tags:
 - [[Non-Interactive Folding Scheme via Fiat-Shamir (Construction 2)]] - `assumes` [EXTRACTED]
 - [[Nova IVC Scheme (Construction 3)]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_11
+#graphify/paper #graphify/EXTRACTED #community/Community_104

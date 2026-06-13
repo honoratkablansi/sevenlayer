@@ -1,18 +1,18 @@
 ---
 source_file: "references/recursion/ch1/ref-31-poseidon.pdf"
 type: "paper"
-community: "Community 5"
+community: "Community 1"
 location: "§1 Related Work; refs [HBHW19]"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_5
+  - community/Community_1
 ---
 
 # Cited competitor: Pedersen hash [HBHW19] - Zcash 256-bit hash, ~1.7 constraints/bit baseline Poseidon improves on
 
 ## Connections
-- [[Poseidon Hash_1]] - `conceptually_related_to` [EXTRACTED]
+- [[Poseidon Hash]] - `conceptually_related_to` [EXTRACTED]
 - [[R1CS constraint count 2tRF+2RP for x3, 3tRF+3RP for x5; up to 8x fewer constraintsbit than Pedersen hash]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_5
+#graphify/paper #graphify/EXTRACTED #community/Community_1

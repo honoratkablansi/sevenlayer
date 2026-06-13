@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch03/ref-12-underconstrained-circuits.pdf"
 type: "paper"
-community: "Community 52"
+community: "Community 2"
 location: "pp.1-2 (title/abstract)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_52
+  - community/Community_2
 ---
 
 # Automated Detection of Under-Constrained Circuits in Zero-Knowledge Proofs
@@ -21,6 +21,6 @@ tags:
 - [[QED2 (verification tool)]] - `introduces` [EXTRACTED]
 - [[SMT Solving]] - `conceptually_related_to` [EXTRACTED]
 - [[TornadoCash Underconstrained Circuit Hack]] - `cites` [EXTRACTED]
-- [[Underconstrained Circuits]] - `conceptually_related_to` [EXTRACTED]
+- [[Under-Constrained Circuit  Missing Constraint]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_52
+#graphify/paper #graphify/EXTRACTED #community/Community_2

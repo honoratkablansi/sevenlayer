@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch08/ref-27-l2beat-stages.md"
 type: "document"
-community: "Community 80"
+community: "Community 17"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_80
+  - community/Community_17
 ---
 
 # Fraud Proof System
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[L2BEAT Stages Framework for L2 Maturity]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_80
+#graphify/document #graphify/EXTRACTED #community/Community_17

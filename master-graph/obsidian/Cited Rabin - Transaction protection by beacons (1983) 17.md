@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-81-wesolowski-vdf.pdf"
 type: "paper"
-community: "Community 1"
+community: "Community 4"
 location: "Refs [17], §1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_1
+  - community/Community_4
 ---
 
 # Cited: Rabin - Transaction protection by beacons (1983) [17]
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Randomness beacon]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_1
+#graphify/paper #graphify/EXTRACTED #community/Community_4

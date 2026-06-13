@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-61-arguzz.pdf"
 type: "paper"
-community: "Community 72"
+community: "Community 19"
 location: "§3.3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_72
+  - community/Community_19
 ---
 
 # Ripple-effect fault propagation (fault at one instruction cascades along data dependencies)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Malicious-prover fault injection into VM execution logic (verifier-only-trusted threat model)]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_72
+#graphify/paper #graphify/EXTRACTED #community/Community_19

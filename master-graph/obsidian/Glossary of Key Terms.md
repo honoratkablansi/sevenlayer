@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/GLOSSARY.md"
 type: "document"
-community: "Community 23"
+community: "Community 11"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_23
+  - community/Community_11
 ---
 
 # Glossary of Key Terms
@@ -25,6 +25,6 @@ tags:
 - [[PLONKish Arithmetization]] - `defines` [EXTRACTED]
 - [[R1CS (Rank-1 Constraint Systems)]] - `defines` [EXTRACTED]
 - [[STARK]] - `defines` [EXTRACTED]
-- [[Sum-Check Protocol_1]] - `defines` [EXTRACTED]
+- [[Sum-Check Protocol]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_23
+#graphify/document #graphify/EXTRACTED #community/Community_11

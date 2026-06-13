@@ -1,23 +1,22 @@
 ---
 type: community
-cohesion: 0.32
-members: 8
+cohesion: 0.33
+members: 7
 ---
 
 # Community 115
 
-**Cohesion:** 0.32 - loosely connected
-**Members:** 8 nodes
+**Cohesion:** 0.33 - loosely connected
+**Members:** 7 nodes
 
 ## Members
-- [[Blockchain summary (constant-size validity certificate of the chain)]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
-- [[Chain extractability (recursive extractor recovers underlying blockchain from summary)]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
-- [[Coda Decentralized Cryptocurrency at Scale (ePrint 2020352)]] - document - recursion/recursion-outline.md
-- [[Mina  Coda and Pickles recursion layer]] - document - recursion/recursion-outline.md
-- [[Mina end-to-end case study]] - document - recursion/recursion-outline.md
-- [[Succinct Blockchain Protocol definition (5 PPT algorithms + succinctness)]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
-- [[Succinct blockchain]] - document - recursion/recursion-outline.md
-- [[Zero-knowledge voting  governance]] - document - recursion/recursion-outline.md
+- [[BLS signatures]] - document - references/recursion/ch1/ref-37-ethereum-lean-hash-based-sig-aggregation.md
+- [[Hash-based cryptography (lean foundation)]] - document - references/recursion/ch1/ref-37-ethereum-lean-hash-based-sig-aggregation.md
+- [[Hash-based signatures]] - document - references/recursion/ch1/ref-37-ethereum-lean-hash-based-sig-aggregation.md
+- [[Real-time zkVMs (lean execution)]] - document - references/recursion/ch1/ref-37-ethereum-lean-hash-based-sig-aggregation.md
+- [[Rise of SNARKs]] - document - references/recursion/ch1/ref-37-ethereum-lean-hash-based-sig-aggregation.md
+- [[SNARK-aggregated signatures]] - document - recursion/recursion-outline.md
+- [[lean Ethereum (Justin Drake, EF blog)]] - document - references/recursion/ch1/ref-37-ethereum-lean-hash-based-sig-aggregation.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -27,12 +26,12 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 2 edges to [[_COMMUNITY_Community 0]]
-- 1 edge to [[_COMMUNITY_Community 71]]
-- 1 edge to [[_COMMUNITY_Community 56]]
-- 1 edge to [[_COMMUNITY_Community 67]]
+- 1 edge to [[_COMMUNITY_Community 7]]
+- 1 edge to [[_COMMUNITY_Community 61]]
+- 1 edge to [[_COMMUNITY_Community 0]]
+- 1 edge to [[_COMMUNITY_Community 105]]
 
 ## Top bridge nodes
-- [[Succinct blockchain]] - degree 6, connects to 3 communities
-- [[Mina  Coda and Pickles recursion layer]] - degree 5, connects to 1 community
-- [[Zero-knowledge voting  governance]] - degree 2, connects to 1 community
+- [[SNARK-aggregated signatures]] - degree 4, connects to 2 communities
+- [[Hash-based signatures]] - degree 4, connects to 1 community
+- [[Real-time zkVMs (lean execution)]] - degree 2, connects to 1 community

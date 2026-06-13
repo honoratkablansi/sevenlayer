@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/03-choreographing-the-act.md"
 type: "document"
-community: "Community 5"
+community: "Community 63"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_5
+  - community/Community_63
 ---
 
 # Tornado Cash
@@ -18,7 +18,7 @@ tags:
 - [[From Circuits to Virtual Machines A Brief Evolution]] - `references` [EXTRACTED]
 - [[Full Seven-Layer Mapping]] - `references` [EXTRACTED]
 - [[Layer 1 -- Building the Stage]] - `references` [EXTRACTED]
-- [[Layer 7 -- The Verdict_1]] - `references` [EXTRACTED]
+- [[Layer 7 -- The Verdict]] - `references` [EXTRACTED]
 - [[Midnight -- The Privacy Theater]] - `references` [EXTRACTED]
 - [[Open Questions and the Road Ahead]] - `references` [EXTRACTED]
 - [[Privacy Pools]] - `conceptually_related_to` [EXTRACTED]
@@ -30,8 +30,8 @@ tags:
 - [[The Seven Layers at a Glance]] - `conceptually_related_to` [EXTRACTED]
 - [[The Seven Questions That Remain Open]] - `references` [EXTRACTED]
 - [[The Synthesis -- Three Paths, Not Two]] - `references` [EXTRACTED]
-- [[Trust Decomposition Seven Weaker Assumptions_1]] - `references` [EXTRACTED]
+- [[Trust Decomposition Seven Weaker Assumptions]] - `references` [EXTRACTED]
 - [[Under-Constrained Circuits The Dominant Failure Mode]] - `references` [EXTRACTED]
 - [[Zero-Knowledge Proof]] - `assumes` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_5
+#graphify/document #graphify/EXTRACTED #community/Community_63

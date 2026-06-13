@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch07/ref-25-nist-fips-203-204-205.pdf"
 type: "paper"
-community: "Community 51"
+community: "Community 120"
 location: "p.4 (announcement)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_51
+  - community/Community_120
 ---
 
 # Module Learning With Errors (MLWE)
@@ -21,4 +21,4 @@ tags:
 - [[ML-KEM (Module-Lattice-Based Key-Encapsulation Mechanism, FIPS 203)]] - `assumes` [EXTRACTED]
 - [[Security based on Module-LWE over R_q plus SelfTargetMSIS, a nonstandard variant of Module-SIS]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_51
+#graphify/paper #graphify/EXTRACTED #community/Community_120

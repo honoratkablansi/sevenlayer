@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-65-greyhound.pdf"
 type: "document"
-community: "Community 78"
+community: "Community 58"
 location: "Abstract"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_78
+  - community/Community_58
 ---
 
 # LaBRADOR Proof System
@@ -19,4 +19,4 @@ tags:
 - [[Reduction of verification to a single short-norm linear relation over Rq]] - `shares_data_with` [EXTRACTED]
 - [[Theorem 4.1 completeness, weak binding, knowledge soundness of PCS]] - `cites` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_78
+#graphify/document #graphify/EXTRACTED #community/Community_58
