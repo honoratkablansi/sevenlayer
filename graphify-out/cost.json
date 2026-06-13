@@ -8,12 +8,12 @@
     },
     {
       "date": "2026-06-13T04:36:28.008992+00:00",
-      "input_tokens": 2586347,
+      "input_tokens": 1214594,
       "output_tokens": 0,
       "files": 10,
-      "note": "deepen_pdfs estimate"
+      "note": "deepen_pdfs batch 1 - measured subagent tokens (combined in+out across 10 extraction agents)"
     }
   ],
-  "total_input_tokens": 3279347,
+  "total_input_tokens": 1907594,
   "total_output_tokens": 239400
 }
