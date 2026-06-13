@@ -307,6 +307,12 @@ def coverage_diff(graph: dict, scored: list[dict], under_threshold: int = 4) -> 
     return out
 
 
+def _md_cell(value) -> str:
+    """Escape a value for a markdown table/list cell (pipes break tables).
+    Uses the HTML entity &#124; so that raw pipe-count checks stay at 7 columns."""
+    return str(value if value is not None else "").replace("|", "&#124;").replace("\n", " ")
+
+
 def render_concepts_md(rows: list[dict], top: int = 200) -> str:
     lines = ["# Concepts for the Book", "",
              "Ranked by `degree + 2*reference_support` over the master graph. "
@@ -316,10 +322,11 @@ def render_concepts_md(rows: list[dict], top: int = 200) -> str:
              "| Concept | Community | Degree | Ref support | Hub | Verdict |",
              "|---|---|---|---|---|---|"]
     for r in rows[:top]:
-        lines.append(f"| {r['label']} | {r['community']} | {r['degree']} | "
+        lines.append(f"| {_md_cell(r['label'] or r.get('id'))} | {r['community']} | {r['degree']} | "
                      f"{r['support']} | {'yes' if r['is_hub'] else ''} | {r['verdict']} |")
     lines += ["", "## Per-chapter gaps", "",
-              "Concepts the literature emphasizes that each chapter under-covers or omits.", ""]
+              "Concepts the literature emphasizes that each chapter under-covers or omits. "
+              "Some entries here fall below the top-200 shown in the table above.", ""]
     gaps = [r for r in rows if r["verdict"] in ("under-covered", "absent")]
     by_ch: dict[str, list] = {}
     for r in gaps:
@@ -327,13 +334,16 @@ def render_concepts_md(rows: list[dict], top: int = 200) -> str:
     for ch in sorted(by_ch, key=lambda c: (c == "Unassigned", c)):
         lines.append(f"### {ch}")
         for r in sorted(by_ch[ch], key=lambda r: -r["score"])[:30]:
-            lines.append(f"- **{r['label']}** — {r['verdict']} "
+            lines.append(f"- **{_md_cell(r['label'] or r.get('id'))}** — {r['verdict']} "
                          f"(support {r['support']}, degree {r['degree']})")
         lines.append("")
     return "\n".join(lines)
 
 
 def cmd_concepts() -> int:
+    if not MASTER_GRAPH.exists():
+        print(f"master graph not found at {MASTER_GRAPH} — run merge first")
+        return 1
     graph = _load(MASTER_GRAPH)
     scored = score_concepts(graph)
     rows = coverage_diff(graph, scored)
@@ -394,3 +404,20 @@ def cmd_relabel() -> int:
     _export_reports_only(G, communities, labels, len(INPUTS))
     print(f"relabeled {len(labels)} of {len(communities)} communities")
     return 0
+
+
+def main() -> int:
+    import argparse
+    ap = argparse.ArgumentParser(description=__doc__)
+    sub = ap.add_subparsers(dest="cmd", required=True)
+    for name in ("merge", "consolidate", "relabel", "concepts"):
+        sub.add_parser(name)
+    args = ap.parse_args()
+    dispatch = {"merge": cmd_merge, "consolidate": cmd_consolidate,
+                "relabel": cmd_relabel, "concepts": cmd_concepts}
+    return dispatch[args.cmd]()
+
+
+if __name__ == "__main__":
+    import sys
+    sys.exit(main())

@@ -179,7 +179,7 @@ Ranked by `degree + 2*reference_support` over the master graph. Verdict vs the m
 | C2PA (Coalition for Content Provenance and Authenticity) camera-signature standard | 20 | 6 | 2 |  | absent |
 | Image Authentication (IA): proving an image faithfully represents an original photograph from a given capture device class | 80 | 6 | 2 |  | absent |
 | Knowledge-of-Exponent Assumption | 119 | 4 | 3 |  | absent |
-| l-Succinct SIS Assumption (falsifiable q-type generalization of SIS, trapdoor for [I_l ⊗ A | W]) | 50 | 8 | 1 |  | absent |
+| l-Succinct SIS Assumption (falsifiable q-type generalization of SIS, trapdoor for [I_l ⊗ A &#124; W]) | 50 | 8 | 1 |  | absent |
 | LLVM Compiler Infrastructure | 55 | 6 | 2 |  | absent |
 | LogUp-GKR | 7 | 6 | 2 |  | well-covered |
 | Lookup Singularity | 84 | 6 | 2 |  | well-covered |
@@ -207,7 +207,7 @@ Ranked by `degree + 2*reference_support` over the master graph. Verdict vs the m
 
 ## Per-chapter gaps
 
-Concepts the literature emphasizes that each chapter under-covers or omits.
+Concepts the literature emphasizes that each chapter under-covers or omits. Some entries here fall below the top-200 shown in the table above.
 
 ### Chapter 1
 - **Fiat-Shamir Transform** — under-covered (support 22, degree 79)
