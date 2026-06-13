@@ -1,5 +1,6 @@
 import sys
 from pathlib import Path
+import pytest
 
 REPO = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(REPO / "scripts"))
@@ -59,3 +60,28 @@ def test_degree_map_counts_incidence():
     g = _g([{"id": "a"}, {"id": "b"}, {"id": "c"}],
            [{"source": "a", "target": "b"}, {"source": "a", "target": "c"}])
     assert m.degree_map(g) == {"a": 2, "b": 1, "c": 1}
+
+
+def test_build_alias_map_collapses_variants_to_highest_degree():
+    g = _g(
+        [{"id": "concept_kzg-commitment", "label": "KZG Commitment"},
+         {"id": "concept_kzg-commitments", "label": "KZG Commitments"},
+         {"id": "concept_stark", "label": "STARK"}],
+        [{"source": "concept_kzg-commitment", "target": "concept_stark"},
+         {"source": "concept_kzg-commitment", "target": "concept_kzg-commitments"}],
+    )
+    # concept_kzg-commitment has degree 2, concept_kzg-commitments degree 1
+    alias = m.build_alias_map(g)
+    assert alias == {"concept_kzg-commitments": "concept_kzg-commitment"}
+
+
+def test_validate_alias_map_rejects_chain():
+    g = _g([{"id": "a"}, {"id": "b"}, {"id": "c"}], [])
+    with pytest.raises(ValueError):
+        m.validate_alias_map({"a": "b", "b": "c"}, g)
+
+
+def test_validate_alias_map_rejects_unknown_id():
+    g = _g([{"id": "a"}], [])
+    with pytest.raises(ValueError):
+        m.validate_alias_map({"a": "missing"}, g)

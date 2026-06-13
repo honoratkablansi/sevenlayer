@@ -73,6 +73,39 @@ def degree_map(graph: dict) -> dict[str, int]:
     return deg
 
 
+def build_alias_map(graph: dict) -> dict[str, str]:
+    """Group nodes by normalized label; within each group of 2+, the highest-degree
+    node (tie: lexically smallest id) is canonical and the rest map to it."""
+    deg = degree_map(graph)
+    groups: dict[str, list[str]] = {}
+    for n in graph["nodes"]:
+        key = normalize_label(n.get("norm_label") or n.get("label") or n["id"])
+        if key:
+            groups.setdefault(key, []).append(n["id"])
+    alias: dict[str, str] = {}
+    for ids in groups.values():
+        if len(ids) < 2:
+            continue
+        canonical = sorted(ids, key=lambda i: (-deg.get(i, 0), i))[0]
+        for i in ids:
+            if i != canonical:
+                alias[i] = canonical
+    return alias
+
+
+def validate_alias_map(alias_map: dict[str, str], graph: dict) -> None:
+    """Raise ValueError on unknown ids, alias-that-is-also-canonical, or chains."""
+    ids = {n["id"] for n in graph["nodes"]}
+    canon = set(alias_map.values())
+    for a, c in alias_map.items():
+        if a not in ids or c not in ids:
+            raise ValueError(f"alias map references unknown id: {a}->{c}")
+        if a in canon:
+            raise ValueError(f"id {a} is both an alias and a canonical")
+        if c in alias_map:
+            raise ValueError(f"canonical {c} is itself an alias (chain)")
+
+
 def merge_graphs(named_inputs: list[tuple[str, dict]]) -> dict:
     """Union (name, node-link dict) inputs. Nodes union by id (first wins for
     attributes; origin_graphs accumulates contributor names in input order).
