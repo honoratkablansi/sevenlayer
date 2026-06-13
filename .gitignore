@@ -33,3 +33,6 @@ graphify-out/.deepen/
 
 # Book-graph scratch (chapter splits, fragments, jobs)
 book-graph/.work/
+
+# Recursion-graph scratch (chapter splits, fragments, jobs)
+recursion-graph/.work/
