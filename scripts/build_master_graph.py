@@ -45,3 +45,40 @@ def _load(path: Path):
 def _dump(path: Path, obj) -> None:
     Path(path).parent.mkdir(parents=True, exist_ok=True)
     Path(path).write_text(json.dumps(obj, indent=2, ensure_ascii=False), encoding="utf-8")
+
+
+def merge_graphs(named_inputs: list[tuple[str, dict]]) -> dict:
+    """Union (name, node-link dict) inputs. Nodes union by id (first wins for
+    attributes; origin_graphs accumulates contributor names in input order).
+    Links union by (source, target, relation); dangling edges dropped. Returns a
+    node-link dict shaped like the first input."""
+    base, nodes, order = None, {}, []
+    for name, g in named_inputs:
+        if base is None:
+            base = {k: v for k, v in g.items() if k not in ("nodes", "links")}
+        for n in g.get("nodes", []):
+            nid = n["id"]
+            if nid not in nodes:
+                merged = dict(n)
+                merged["origin_graphs"] = [name]
+                nodes[nid] = merged
+                order.append(nid)
+            else:
+                og = nodes[nid].setdefault("origin_graphs", [])
+                if name not in og:
+                    og.append(name)
+    node_ids = set(nodes)
+    links, seen = [], set()
+    for _name, g in named_inputs:
+        for l in g.get("links", []):
+            key = (l.get("source"), l.get("target"), l.get("relation"))
+            if key in seen:
+                continue
+            if l.get("source") not in node_ids or l.get("target") not in node_ids:
+                continue
+            seen.add(key)
+            links.append(dict(l))
+    out = dict(base or {})
+    out["nodes"] = [nodes[i] for i in order]
+    out["links"] = links
+    return out
