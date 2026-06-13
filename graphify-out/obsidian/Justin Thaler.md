@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-45-small-space-cpu-proofs.pdf"
 type: "document"
-community: "Arithmetization & Proving Frontiers"
+community: "Community 1"
 location: "page 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Arithmetization__Proving_Frontiers
+  - community/Community_1
 ---
 
 # Justin Thaler
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Proving CPU Executions in Small Space]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Arithmetization__Proving_Frontiers
+#graphify/document #graphify/EXTRACTED #community/Community_1

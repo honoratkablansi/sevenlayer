@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/GLOSSARY.md"
 type: "document"
-community: "Arithmetization & Proving Frontiers"
+community: "Community 0"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Arithmetization__Proving_Frontiers
+  - community/Community_0
 ---
 
 # HyperNova
@@ -30,4 +30,4 @@ tags:
 - [[The Seven Questions That Remain Open]] - `references` [EXTRACTED]
 - [[The Sumcheck Protocol The Hidden Foundation]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Arithmetization__Proving_Frontiers
+#graphify/document #graphify/EXTRACTED #community/Community_0

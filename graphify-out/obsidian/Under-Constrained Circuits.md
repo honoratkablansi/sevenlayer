@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/03-choreographing-the-act.md"
 type: "document"
-community: "Trusted Setup & SNARK Foundations"
+community: "Community 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Trusted_Setup__SNARK_Foundations
+  - community/Community_2
 ---
 
 # Under-Constrained Circuits
@@ -14,4 +14,4 @@ tags:
 - [[Choreographing the Act]] - `references` [EXTRACTED]
 - [[The Promise of Provable and Programmable Secrets]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Trusted_Setup__SNARK_Foundations
+#graphify/document #graphify/EXTRACTED #community/Community_2

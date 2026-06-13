@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-61-arguzz.pdf"
 type: "document"
-community: "STARKs & zkVM Landscape"
+community: "Community 1"
 location: "Section 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/STARKs__zkVM_Landscape
+  - community/Community_1
 ---
 
 # Metamorphic Testing
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[ARGUZZ Testing zkVMs for Soundness and Completeness Bugs]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/STARKs__zkVM_Landscape
+#graphify/document #graphify/EXTRACTED #community/Community_1

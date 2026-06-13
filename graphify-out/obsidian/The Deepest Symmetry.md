@@ -1,12 +1,12 @@
 ---
 source_file: "wiki/sections/ch08-the-deepest-symmetry.md"
 type: "document"
-community: "Trusted Setup & SNARK Foundations"
+community: "Community 4"
 location: "The Deepest Symmetry"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Trusted_Setup__SNARK_Foundations
+  - community/Community_4
 ---
 
 # The Deepest Symmetry
@@ -21,4 +21,4 @@ tags:
 - [[The Structured Reference String]] - `references` [EXTRACTED]
 - [[Trusted Setup]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Trusted_Setup__SNARK_Foundations
+#graphify/document #graphify/EXTRACTED #community/Community_4

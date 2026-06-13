@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/13-the-market-landscape.md"
 type: "document"
-community: "Rollups & Private Smart Contracts"
+community: "Community 19"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Rollups__Private_Smart_Contracts
+  - community/Community_19
 ---
 
 # ZK Rollups
@@ -14,4 +14,4 @@ tags:
 - [[L2BEAT Stages Framework for L2 Maturity]] - `references` [EXTRACTED]
 - [[The Market Landscape]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Rollups__Private_Smart_Contracts
+#graphify/document #graphify/EXTRACTED #community/Community_19

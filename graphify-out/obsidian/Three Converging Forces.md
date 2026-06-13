@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch01-three-converging-forces.md"
 type: "document"
-community: "Trusted Setup & SNARK Foundations"
+community: "Community 6"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Trusted_Setup__SNARK_Foundations
+  - community/Community_6
 ---
 
 # Three Converging Forces
@@ -24,4 +24,4 @@ tags:
 - [[The Proof at the Door]] - `references` [EXTRACTED]
 - [[Trusted Setup Ceremony]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Trusted_Setup__SNARK_Foundations
+#graphify/document #graphify/EXTRACTED #community/Community_6

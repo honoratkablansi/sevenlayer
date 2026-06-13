@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch10/ref-33-circ.pdf"
 type: "paper"
-community: "FHE & Compiler Infrastructure"
+community: "Community 9"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/FHE__Compiler_Infrastructure
+  - community/Community_9
 ---
 
 # CirC: Compiler Infrastructure for Proof Systems, Software Verification, and More
@@ -19,4 +19,4 @@ tags:
 - [[Satisfiability Modulo Theories (SMT)]] - `conceptually_related_to` [EXTRACTED]
 - [[Secure Multi-Party Computation (MPC)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/FHE__Compiler_Infrastructure
+#graphify/paper #graphify/EXTRACTED #community/Community_9

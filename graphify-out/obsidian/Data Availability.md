@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/08-the-verdict.md"
 type: "document"
-community: "Rollup Security, Attacks & Aggregation"
+community: "Community 4"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Verification__Fiat-Shamir
+  - community/Community_4
 ---
 
 # Data Availability
@@ -18,4 +18,4 @@ tags:
 - [[The Price of a Verdict]] - `defines` [EXTRACTED]
 - [[Unaligned Incentives Pricing Attacks Against Blockchain Rollups]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Verification__Fiat-Shamir
+#graphify/document #graphify/EXTRACTED #community/Community_4

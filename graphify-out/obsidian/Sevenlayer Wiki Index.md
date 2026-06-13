@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/INDEX.md"
 type: "document"
-community: "Rollup Security, Attacks & Aggregation"
+community: "Community 4"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Verification__Fiat-Shamir
+  - community/Community_4
 ---
 
 # Sevenlayer Wiki Index
@@ -26,4 +26,4 @@ tags:
 - [[The Synthesis -- Three Paths, Not Two]] - `references` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Verification__Fiat-Shamir
+#graphify/document #graphify/EXTRACTED #community/Community_4

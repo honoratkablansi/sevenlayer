@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/BIBLIOGRAPHY.md"
 type: "document"
-community: "Trusted Setup & SNARK Foundations"
+community: "Community 3"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Trusted_Setup__SNARK_Foundations
+  - community/Community_3
 ---
 
 # Complete Bibliography
@@ -28,4 +28,4 @@ tags:
 - [[SoK What Don't We Know Understanding Security Vulnerabilities in SNARKs]] - `cites` [EXTRACTED]
 - [[The Knowledge Complexity of Interactive Proof Systems]] - `cites` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Trusted_Setup__SNARK_Foundations
+#graphify/document #graphify/EXTRACTED #community/Community_3

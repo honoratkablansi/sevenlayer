@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/06-the-sealed-certificate.md"
 type: "document"
-community: "Commitments & Post-Quantum Craft"
+community: "Community 0"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Commitments__Post-Quantum_Craft
+  - community/Community_0
 ---
 
 # LatticeFold
@@ -30,4 +30,4 @@ tags:
 - [[The Synthesis -- Three Paths, Not Two]] - `references` [EXTRACTED]
 - [[The Trilemma -- And Its Dissolution]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Commitments__Post-Quantum_Craft
+#graphify/document #graphify/EXTRACTED #community/Community_0

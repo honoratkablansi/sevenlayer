@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch07/ref-24-shor.pdf"
 type: "paper"
-community: "Pairings & Quantum Threat"
+community: "Community 3"
 location: "p.1 (abstract)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Pairings__Quantum_Threat
+  - community/Community_3
 ---
 
 # Discrete Logarithm Problem
@@ -16,4 +16,4 @@ tags:
 - [[Extended Tower Number Field Sieve A New Complexity for the Medium Prime Case]] - `references` [EXTRACTED]
 - [[Layer 1 -- Building the Stage]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Pairings__Quantum_Threat
+#graphify/paper #graphify/EXTRACTED #community/Community_3

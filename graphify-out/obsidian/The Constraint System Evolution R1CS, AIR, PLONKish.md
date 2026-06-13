@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch05-the-constraint-system-evolution-r1cs-air-plonkish.md"
 type: "document"
-community: "Arithmetization & Proving Frontiers"
+community: "Community 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Arithmetization__Proving_Frontiers
+  - community/Community_1
 ---
 
 # The Constraint System Evolution: R1CS, AIR, PLONKish
@@ -38,4 +38,4 @@ tags:
 - [[Tornado Cash]] - `references` [EXTRACTED]
 - [[Zcash]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Arithmetization__Proving_Frontiers
+#graphify/document #graphify/EXTRACTED #community/Community_1

@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch06-the-post-quantum-horizon.md"
 type: "document"
-community: "Commitments & Post-Quantum Craft"
+community: "Community 0"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Commitments__Post-Quantum_Craft
+  - community/Community_0
 ---
 
 # The Post-Quantum Horizon
@@ -31,4 +31,4 @@ tags:
 - [[The Folding Genealogy]] - `references` [EXTRACTED]
 - [[The Laws That Break]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Commitments__Post-Quantum_Craft
+#graphify/document #graphify/EXTRACTED #community/Community_0

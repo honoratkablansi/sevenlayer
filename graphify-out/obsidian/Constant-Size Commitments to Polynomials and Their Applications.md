@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch02/ref-04-kzg-commitments.pdf"
 type: "paper"
-community: "Commitments & Post-Quantum Craft"
+community: "Community 5"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Commitments__Post-Quantum_Craft
+  - community/Community_5
 ---
 
 # Constant-Size Commitments to Polynomials and Their Applications
@@ -13,11 +13,18 @@ tags:
 ## Connections
 - [[Bilinear Pairings]] - `conceptually_related_to` [EXTRACTED]
 - [[Complete Bibliography]] - `cites` [EXTRACTED]
+- [[Cryptographic Accumulator]] - `cites` [EXTRACTED]
+- [[Feldman Verifiable Secret Sharing]] - `cites` [EXTRACTED]
 - [[KZG Polynomial Commitments]] - `defines` [EXTRACTED]
 - [[Layer 1 -- Building the Stage]] - `cites` [EXTRACTED]
 - [[Layer 6 -- The Deep Craft]] - `cites` [EXTRACTED]
-- [[Pedersen Commitments]] - `conceptually_related_to` [EXTRACTED]
+- [[Merkle Hash Tree]] - `cites` [EXTRACTED]
+- [[Pedersen Commitments]] - `cites` [EXTRACTED]
+- [[PolyCommitDL Scheme]] - `introduces` [EXTRACTED]
+- [[PolyCommitPed Scheme]] - `introduces` [EXTRACTED]
 - [[Polynomial Commitment Scheme]] - `defines` [EXTRACTED]
 - [[Verifiable Secret Sharing]] - `conceptually_related_to` [EXTRACTED]
+- [[Zero-Knowledge Set (Micali et al.)]] - `cites` [EXTRACTED]
+- [[t-Polynomial Diffie-Hellman (t-polyDH) Assumption]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Commitments__Post-Quantum_Craft
+#graphify/paper #graphify/EXTRACTED #community/Community_5

@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/GLOSSARY.md"
 type: "document"
-community: "Trusted Setup & SNARK Foundations"
+community: "Community 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Trusted_Setup__SNARK_Foundations
+  - community/Community_2
 ---
 
 # PLONK
@@ -63,4 +63,4 @@ tags:
 - [[ZK Rollups The Proving Grounds (Production)]] - `references` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Trusted_Setup__SNARK_Foundations
+#graphify/document #graphify/EXTRACTED #community/Community_2

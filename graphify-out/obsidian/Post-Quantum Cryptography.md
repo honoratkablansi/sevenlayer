@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/02-building-the-stage.md"
 type: "document"
-community: "Commitments & Post-Quantum Craft"
+community: "Community 0"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Commitments__Post-Quantum_Craft
+  - community/Community_0
 ---
 
 # Post-Quantum Cryptography
@@ -48,4 +48,4 @@ tags:
 - [[Where Midnight Challenges the Model]] - `references` [EXTRACTED]
 - [[ZKsync Airbender GPU-Accelerated RISC-V Proving]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Commitments__Post-Quantum_Craft
+#graphify/document #graphify/EXTRACTED #community/Community_0

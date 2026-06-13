@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch04-witness-constraint-divergence.md"
 type: "document"
-community: "Midnight Privacy Stack"
+community: "Community 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Midnight_Privacy_Stack
+  - community/Community_2
 ---
 
 # Witness-Constraint Divergence
@@ -25,4 +25,4 @@ tags:
 - [[zkFuzz]] - `cites` [EXTRACTED]
 - [[zkSync Era]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Midnight_Privacy_Stack
+#graphify/document #graphify/EXTRACTED #community/Community_2

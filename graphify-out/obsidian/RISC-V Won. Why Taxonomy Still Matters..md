@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch03-risc-v-won-why-taxonomy-still-matters.md"
 type: "document"
-community: "Midnight Privacy Stack"
+community: "Community 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Midnight_Privacy_Stack
+  - community/Community_2
 ---
 
 # RISC-V Won. Why Taxonomy Still Matters.
@@ -22,4 +22,4 @@ tags:
 - [[Universal versus Circuit-Specific Setups]] - `references` [EXTRACTED]
 - [[Zero-Knowledge Virtual Machine (zkVM)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Midnight_Privacy_Stack
+#graphify/document #graphify/EXTRACTED #community/Community_2

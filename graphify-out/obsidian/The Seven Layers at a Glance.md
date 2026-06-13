@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch01-the-seven-layers-at-a-glance.md"
 type: "document"
-community: "Trusted Setup & SNARK Foundations"
+community: "Community 6"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Trusted_Setup__SNARK_Foundations
+  - community/Community_6
 ---
 
 # The Seven Layers at a Glance
@@ -26,4 +26,4 @@ tags:
 - [[Trusted Setup Ceremony]] - `conceptually_related_to` [EXTRACTED]
 - [[Zcash]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Trusted_Setup__SNARK_Foundations
+#graphify/document #graphify/EXTRACTED #community/Community_6

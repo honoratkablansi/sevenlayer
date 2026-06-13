@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/03-choreographing-the-act.md"
 type: "document"
-community: "Arithmetization & Proving Frontiers"
+community: "Community 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Arithmetization__Proving_Frontiers
+  - community/Community_2
 ---
 
 # Plonky3
@@ -18,4 +18,4 @@ tags:
 - [[The Witness as a Multi-Dimensional Problem]] - `references` [EXTRACTED]
 - [[Under-Constrained Circuits The Dominant Failure Mode]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Arithmetization__Proving_Frontiers
+#graphify/document #graphify/EXTRACTED #community/Community_2

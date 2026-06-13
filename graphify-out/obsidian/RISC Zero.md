@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/11-zkvms-the-universal-stage.md"
 type: "document"
-community: "Midnight Privacy Stack"
+community: "Community 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Midnight_Privacy_Stack
+  - community/Community_1
 ---
 
 # RISC Zero
@@ -27,4 +27,4 @@ tags:
 - [[Zero-Knowledge Virtual Machine (zkVM)]] - `implements` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Midnight_Privacy_Stack
+#graphify/document #graphify/EXTRACTED #community/Community_1

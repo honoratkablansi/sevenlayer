@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/02-building-the-stage.md"
 type: "document"
-community: "Midnight Privacy Stack"
+community: "Community 0"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Midnight_Privacy_Stack
+  - community/Community_0
 ---
 
 # BLS12-381 Curve
@@ -44,4 +44,4 @@ tags:
 - [[Zcash]] - `conceptually_related_to` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Midnight_Privacy_Stack
+#graphify/document #graphify/EXTRACTED #community/Community_0

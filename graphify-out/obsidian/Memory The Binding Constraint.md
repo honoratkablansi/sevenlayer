@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch04-memory-the-binding-constraint.md"
 type: "document"
-community: "Arithmetization & Proving Frontiers"
+community: "Community 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Arithmetization__Proving_Frontiers
+  - community/Community_2
 ---
 
 # Memory: The Binding Constraint
@@ -26,4 +26,4 @@ tags:
 - [[Witness Generation Costs]] - `references` [EXTRACTED]
 - [[ZKPoG (end-to-end GPU proving)]] - `cites` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Arithmetization__Proving_Frontiers
+#graphify/document #graphify/EXTRACTED #community/Community_2

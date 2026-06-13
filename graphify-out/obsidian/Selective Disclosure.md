@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch12/ref-41-midnight-developer-guide.md"
 type: "document"
-community: "Privacy-Enhancing Technologies"
+community: "Community 18"
 location: "Welcome to Midnight Network"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Privacy-Enhancing_Technologies
+  - community/Community_18
 ---
 
 # Selective Disclosure
@@ -17,4 +17,4 @@ tags:
 - [[The Market Landscape]] - `references` [EXTRACTED]
 - [[The Promise of Provable and Programmable Secrets]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Privacy-Enhancing_Technologies
+#graphify/document #graphify/EXTRACTED #community/Community_18

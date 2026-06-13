@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch06-circle-starks-and-stwo-a-generational-leap.md"
 type: "document"
-community: "Commitments & Post-Quantum Craft"
+community: "Community 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Commitments__Post-Quantum_Craft
+  - community/Community_1
 ---
 
 # Mersenne-31 Field
@@ -27,4 +27,4 @@ tags:
 - [[Where the Layers Collapse]] - `references` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Commitments__Post-Quantum_Craft
+#graphify/document #graphify/EXTRACTED #community/Community_1

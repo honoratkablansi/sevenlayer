@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/10-the-synthesis-three-paths-not-two.md"
 type: "document"
-community: "STARKs & zkVM Landscape"
+community: "Community 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/STARKs__zkVM_Landscape
+  - community/Community_1
 ---
 
 # The Synthesis -- Three Paths, Not Two
@@ -64,4 +64,4 @@ tags:
 - [[Zcash]] - `references` [EXTRACTED]
 - [[zkEVM]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/STARKs__zkVM_Landscape
+#graphify/document #graphify/EXTRACTED #community/Community_1

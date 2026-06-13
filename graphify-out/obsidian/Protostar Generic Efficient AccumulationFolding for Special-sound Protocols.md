@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-19-protostar.pdf"
 type: "paper"
-community: "Commitments & Post-Quantum Craft"
+community: "Community 0"
 location: "p.1 (title/abstract)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Commitments__Post-Quantum_Craft
+  - community/Community_0
 ---
 
 # Protostar: Generic Efficient Accumulation/Folding for Special-sound Protocols
@@ -23,4 +23,4 @@ tags:
 - [[PLONK]] - `conceptually_related_to` [EXTRACTED]
 - [[R1CS]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Commitments__Post-Quantum_Craft
+#graphify/paper #graphify/EXTRACTED #community/Community_0

@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch10/ref-53-airbender.md"
 type: "document"
-community: "STARKs & zkVM Landscape"
+community: "Community 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/STARKs__zkVM_Landscape
+  - community/Community_1
 ---
 
 # ZKsync Airbender: GPU-Accelerated RISC-V Proving
@@ -20,4 +20,4 @@ tags:
 - [[Zero-Knowledge Virtual Machine (zkVM)]] - `implements` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/STARKs__zkVM_Landscape
+#graphify/document #graphify/EXTRACTED #community/Community_1

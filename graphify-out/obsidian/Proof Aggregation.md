@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/08-the-verdict.md"
 type: "document"
-community: "Rollup Security, Attacks & Aggregation"
+community: "Community 4"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Verification__Fiat-Shamir
+  - community/Community_4
 ---
 
 # Proof Aggregation
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[Layer 7 -- The Verdict]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Verification__Fiat-Shamir
+#graphify/document #graphify/EXTRACTED #community/Community_4

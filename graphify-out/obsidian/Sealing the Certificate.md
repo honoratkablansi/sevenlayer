@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch06-sealing-the-certificate.md"
 type: "document"
-community: "Commitments & Post-Quantum Craft"
+community: "Community 0"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Commitments__Post-Quantum_Craft
+  - community/Community_0
 ---
 
 # Sealing the Certificate
@@ -22,4 +22,4 @@ tags:
 - [[Schwartz-Zippel Lemma]] - `references` [EXTRACTED]
 - [[The Three Families]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Commitments__Post-Quantum_Craft
+#graphify/document #graphify/EXTRACTED #community/Community_0

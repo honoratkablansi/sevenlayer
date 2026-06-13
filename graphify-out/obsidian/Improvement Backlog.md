@@ -1,13 +1,13 @@
 ---
 source_file: "wiki/IMPROVEMENT_BACKLOG.md"
 type: "document"
-community: "Improvement Backlog"
+community: "Community 22"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Improvement_Backlog
+  - community/Community_22
 ---
 
 # Improvement Backlog
 
-#graphify/document #graphify/EXTRACTED #community/Improvement_Backlog
+#graphify/document #graphify/EXTRACTED #community/Community_22

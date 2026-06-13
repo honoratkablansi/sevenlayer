@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Trusted Setup & SNARK Foundations"
+community: "Community 6"
 location: "Chapter 1: The Promise of Provable and Programmable Secrets"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Trusted_Setup__SNARK_Foundations
+  - community/Community_6
 ---
 
 # Seven-Layer ZK Stack Model
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[The Promise of Provable and Programmable Secrets]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Trusted_Setup__SNARK_Foundations
+#graphify/document #graphify/EXTRACTED #community/Community_6

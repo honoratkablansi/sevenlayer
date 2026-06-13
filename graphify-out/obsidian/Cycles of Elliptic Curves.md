@@ -1,18 +1,21 @@
 ---
 source_file: "references/ch06/ref-17-nova.pdf"
 type: "document"
-community: "Commitments & Post-Quantum Craft"
+community: "Community 0"
 location: "abstract"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Commitments__Post-Quantum_Craft
+  - community/Community_0
 ---
 
 # Cycles of Elliptic Curves
 
 ## Connections
+- [[Folding Scheme]] - `conceptually_related_to` [INFERRED]
 - [[HyperNova Recursive Arguments for Customizable Constraint Systems]] - `conceptually_related_to` [EXTRACTED]
-- [[Nova Recursive Zero-Knowledge Arguments from Folding Schemes]] - `conceptually_related_to` [EXTRACTED]
+- [[Nova Recursive Zero-Knowledge Arguments from Folding Schemes]] - `assumes` [EXTRACTED]
+- [[Pasta Cycle of Elliptic Curves]] - `conceptually_related_to` [EXTRACTED]
+- [[Recursive Proof Composition]] - `assumes` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Commitments__Post-Quantum_Craft
+#graphify/document #graphify/EXTRACTED #community/Community_0

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch13/ref-59-world-whitepaper.pdf"
 type: "document"
-community: "Digital Identity & Personhood"
+community: "Community 17"
 location: "page 5"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Digital_Identity__Personhood
+  - community/Community_17
 ---
 
 # World ID
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[World Whitepapers (World Network Proof of Human)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Digital_Identity__Personhood
+#graphify/document #graphify/EXTRACTED #community/Community_17

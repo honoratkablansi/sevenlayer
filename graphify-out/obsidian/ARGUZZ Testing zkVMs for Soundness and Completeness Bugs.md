@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-61-arguzz.pdf"
 type: "paper"
-community: "STARKs & zkVM Landscape"
+community: "Community 1"
 location: "p.1 (title/abstract)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/STARKs__zkVM_Landscape
+  - community/Community_1
 ---
 
 # ARGUZZ: Testing zkVMs for Soundness and Completeness Bugs
@@ -20,4 +20,4 @@ tags:
 - [[SP1  SP1 Hypercube]] - `references` [EXTRACTED]
 - [[Zero-Knowledge Virtual Machine (zkVM)]] - `references` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/STARKs__zkVM_Landscape
+#graphify/paper #graphify/EXTRACTED #community/Community_1

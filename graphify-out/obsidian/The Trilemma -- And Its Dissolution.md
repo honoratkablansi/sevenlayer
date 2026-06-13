@@ -1,12 +1,12 @@
 ---
 source_file: "wiki/sections/ch07-the-trilemma-and-its-dissolution.md"
 type: "document"
-community: "Commitments & Post-Quantum Craft"
+community: "Community 0"
 location: "The Trilemma -- And Its Dissolution"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Commitments__Post-Quantum_Craft
+  - community/Community_0
 ---
 
 # The Trilemma -- And Its Dissolution
@@ -27,4 +27,4 @@ tags:
 - [[Three Hardness Assumptions, Three Worlds]] - `references` [EXTRACTED]
 - [[Trusted Setup]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Commitments__Post-Quantum_Craft
+#graphify/document #graphify/EXTRACTED #community/Community_0

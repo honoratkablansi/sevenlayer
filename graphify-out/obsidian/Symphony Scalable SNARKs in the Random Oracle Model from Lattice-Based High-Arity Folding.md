@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-56-symphony.pdf"
 type: "paper"
-community: "Commitments & Post-Quantum Craft"
+community: "Community 0"
 location: "page 1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Commitments__Post-Quantum_Craft
+  - community/Community_0
 ---
 
 # Symphony: Scalable SNARKs in the Random Oracle Model from Lattice-Based High-Arity Folding
@@ -24,4 +24,4 @@ tags:
 - [[The Synthesis -- Three Paths, Not Two]] - `cites` [EXTRACTED]
 - [[Zero-Knowledge Virtual Machine (zkVM)]] - `references` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Commitments__Post-Quantum_Craft
+#graphify/paper #graphify/EXTRACTED #community/Community_0

@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch05-midnight-s-zkir-a-concrete-layer-4.md"
 type: "document"
-community: "Midnight Privacy Stack"
+community: "Community 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Midnight_Privacy_Stack
+  - community/Community_2
 ---
 
 # Midnight's ZKIR: A Concrete Layer 4
@@ -36,4 +36,4 @@ tags:
 - [[ZKIR (Midnight Intermediate Representation)]] - `defines` [EXTRACTED]
 - [[Zcash]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Midnight_Privacy_Stack
+#graphify/document #graphify/EXTRACTED #community/Community_2

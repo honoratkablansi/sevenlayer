@@ -1,12 +1,12 @@
 ---
 source_file: "wiki/sections/ch08-governance-the-achilles-heel.md"
 type: "document"
-community: "Rollup Security, Attacks & Aggregation"
+community: "Community 4"
 location: "Governance: The Achilles Heel"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Verification__Fiat-Shamir
+  - community/Community_4
 ---
 
 # Governance: The Achilles Heel
@@ -26,4 +26,4 @@ tags:
 - [[Tornado Cash Governance Attack (May 2023)]] - `defines` [EXTRACTED]
 - [[Who Verifies the Verifier]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Verification__Fiat-Shamir
+#graphify/document #graphify/EXTRACTED #community/Community_4

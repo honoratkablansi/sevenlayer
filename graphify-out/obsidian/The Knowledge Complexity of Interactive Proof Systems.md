@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch01/ref-02-gmr-knowledge-complexity.pdf"
 type: "paper"
-community: "Trusted Setup & SNARK Foundations"
+community: "Community 3"
 tags:
   - graphify/paper
   - graphify/INFERRED
-  - community/Trusted_Setup__SNARK_Foundations
+  - community/Community_3
 ---
 
 # The Knowledge Complexity of Interactive Proof Systems
@@ -19,4 +19,4 @@ tags:
 - [[The Promise of Provable and Programmable Secrets]] - `cites` [EXTRACTED]
 - [[Zero-Knowledge Proofs_1]] - `defines` [INFERRED]
 
-#graphify/paper #graphify/INFERRED #community/Trusted_Setup__SNARK_Foundations
+#graphify/paper #graphify/INFERRED #community/Community_3

@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/09-privacy-enhancing-technologies.md"
 type: "document"
-community: "Privacy-Enhancing Technologies"
+community: "Community 9"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Privacy-Enhancing_Technologies
+  - community/Community_9
 ---
 
 # Privacy-Enhancing Technologies
@@ -47,4 +47,4 @@ tags:
 - [[eIDAS 2.0_1]] - `references` [EXTRACTED]
 - [[zKYC (Zero-Knowledge Know Your Customer)]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Privacy-Enhancing_Technologies
+#graphify/document #graphify/EXTRACTED #community/Community_9

@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Privacy-Enhancing Technologies"
+community: "Community 9"
 location: "Chapter 9: Privacy-Enhancing Technologies"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Privacy-Enhancing_Technologies
+  - community/Community_9
 ---
 
 # Collaborative/Threshold Proving
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Privacy-Enhancing Technologies]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Privacy-Enhancing_Technologies
+#graphify/document #graphify/EXTRACTED #community/Community_9

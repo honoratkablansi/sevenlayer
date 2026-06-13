@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch05-where-the-analogies-break.md"
 type: "document"
-community: "Arithmetization & Proving Frontiers"
+community: "Community 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Arithmetization__Proving_Frontiers
+  - community/Community_1
 ---
 
 # Where the Analogies Break
@@ -30,4 +30,4 @@ tags:
 - [[Where the Layers Collapse]] - `references` [EXTRACTED]
 - [[ZKIR (Midnight Intermediate Representation)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Arithmetization__Proving_Frontiers
+#graphify/document #graphify/EXTRACTED #community/Community_1

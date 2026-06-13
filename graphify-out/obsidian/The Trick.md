@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch01-the-trick.md"
 type: "document"
-community: "Trusted Setup & SNARK Foundations"
+community: "Community 6"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Trusted_Setup__SNARK_Foundations
+  - community/Community_6
 ---
 
 # The Trick
@@ -16,4 +16,4 @@ tags:
 - [[The Proof at the Door]] - `references` [EXTRACTED]
 - [[The Seven Layers at a Glance]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Trusted_Setup__SNARK_Foundations
+#graphify/document #graphify/EXTRACTED #community/Community_6

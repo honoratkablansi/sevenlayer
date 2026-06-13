@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch12/ref-39-compact-language-reference.md"
 type: "document"
-community: "Midnight Privacy Stack"
+community: "Community 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Midnight_Privacy_Stack
+  - community/Community_2
 ---
 
 # Compact Language Reference (Midnight Network)
@@ -18,4 +18,4 @@ tags:
 - [[ZKIR (Midnight Intermediate Representation)]] - `references` [EXTRACTED]
 - [[ZKIR Intermediate Representation Reference (Midnight Network, stub)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Midnight_Privacy_Stack
+#graphify/document #graphify/EXTRACTED #community/Community_2

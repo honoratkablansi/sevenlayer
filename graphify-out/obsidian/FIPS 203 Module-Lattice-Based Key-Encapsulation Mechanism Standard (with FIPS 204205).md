@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch07/ref-25-nist-fips-203-204-205.pdf"
 type: "paper"
-community: "Commitments & Post-Quantum Craft"
+community: "Community 0"
 location: "p.1 (title page)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Commitments__Post-Quantum_Craft
+  - community/Community_0
 ---
 
 # FIPS 203: Module-Lattice-Based Key-Encapsulation Mechanism Standard (with FIPS 204/205)
@@ -20,4 +20,4 @@ tags:
 - [[The Synthesis -- Three Paths, Not Two]] - `cites` [EXTRACTED]
 - [[Transition to Post-Quantum Cryptography Standards (NIST IR 8547)]] - `cites` [INFERRED]
 
-#graphify/paper #graphify/EXTRACTED #community/Commitments__Post-Quantum_Craft
+#graphify/paper #graphify/EXTRACTED #community/Community_0

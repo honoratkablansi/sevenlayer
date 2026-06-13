@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/09-privacy-enhancing-technologies.md"
 type: "document"
-community: "Privacy-Enhancing Technologies"
+community: "Community 9"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Privacy-Enhancing_Technologies
+  - community/Community_9
 ---
 
 # Kachina
@@ -15,4 +15,4 @@ tags:
 - [[Privacy Architectures for Smart Contracts Kachina and Zexe]] - `defines` [EXTRACTED]
 - [[Privacy-Enhancing Technologies]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Privacy-Enhancing_Technologies
+#graphify/document #graphify/EXTRACTED #community/Community_9

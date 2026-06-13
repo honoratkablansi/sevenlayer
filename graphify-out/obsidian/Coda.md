@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch14-coda.md"
 type: "document"
-community: "Arithmetization & Proving Frontiers"
+community: "Community 0"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Arithmetization__Proving_Frontiers
+  - community/Community_0
 ---
 
 # Coda
@@ -37,4 +37,4 @@ tags:
 - [[Three Converging Forces]] - `references` [EXTRACTED]
 - [[eIDAS 2.0]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Arithmetization__Proving_Frontiers
+#graphify/document #graphify/EXTRACTED #community/Community_0

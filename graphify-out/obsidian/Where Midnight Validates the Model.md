@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch12-where-midnight-validates-the-model.md"
 type: "document"
-community: "Midnight Privacy Stack"
+community: "Community 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Midnight_Privacy_Stack
+  - community/Community_2
 ---
 
 # Where Midnight Validates the Model
@@ -22,4 +22,4 @@ tags:
 - [[Trusted Setup Ceremony]] - `references` [EXTRACTED]
 - [[ZKIR (Midnight Intermediate Representation)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Midnight_Privacy_Stack
+#graphify/document #graphify/EXTRACTED #community/Community_2

@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch04-witness-generation-costs.md"
 type: "document"
-community: "Arithmetization & Proving Frontiers"
+community: "Community 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Arithmetization__Proving_Frontiers
+  - community/Community_1
 ---
 
 # Offline Memory Checking / Algebraic RAM Reduction
@@ -16,4 +16,4 @@ tags:
 - [[Volatile and Persistent Memory for zkSNARKs via Algebraic Interactive Proofs]] - `references` [EXTRACTED]
 - [[Witness Generation Costs]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Arithmetization__Proving_Frontiers
+#graphify/document #graphify/EXTRACTED #community/Community_1

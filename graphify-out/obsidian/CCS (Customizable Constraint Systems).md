@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/05-encoding-the-performance.md"
 type: "document"
-community: "Arithmetization & Proving Frontiers"
+community: "Community 0"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Arithmetization__Proving_Frontiers
+  - community/Community_0
 ---
 
 # CCS (Customizable Constraint Systems)
@@ -17,11 +17,15 @@ tags:
 - [[Glossary of Key Terms]] - `defines` [EXTRACTED]
 - [[HyperNova]] - `references` [EXTRACTED]
 - [[HyperNova Recursive Arguments for Customizable Constraint Systems]] - `conceptually_related_to` [EXTRACTED]
+- [[Lattice-Based CCS Folding Scheme]] - `defines` [EXTRACTED]
+- [[Lattice-Based Committed CCS Relation RB_cmccs]] - `conceptually_related_to` [EXTRACTED]
 - [[Lattice-Based Proving]] - `references` [EXTRACTED]
 - [[LatticeFold A Lattice-based Folding Scheme and its Applications to Succinct Proof Systems]] - `conceptually_related_to` [EXTRACTED]
 - [[Layer 4 -- Arithmetization]] - `references` [EXTRACTED]
 - [[Layer 5 -- The Sealed Certificate]] - `references` [EXTRACTED]
+- [[Linearized (committed) CCS relation]] - `conceptually_related_to` [EXTRACTED]
 - [[Midnight's ZKIR A Concrete Layer 4]] - `references` [EXTRACTED]
+- [[Multi-folding scheme for CCS (Construction 1)]] - `assumes` [EXTRACTED]
 - [[Neo Lattice-based Folding Scheme for CCS over Small Fields and Pay-per-bit Commitments]] - `conceptually_related_to` [EXTRACTED]
 - [[Nightstream Lattice-Based Folding for CCS (LFDT-Nightstream)]] - `implements` [EXTRACTED]
 - [[Nightstream What a Folding Engine Looks Like from the Inside]] - `references` [EXTRACTED]
@@ -34,4 +38,4 @@ tags:
 - [[Where the Layers Collapse]] - `references` [EXTRACTED]
 - [[zkVMs Across the Stack]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Arithmetization__Proving_Frontiers
+#graphify/document #graphify/EXTRACTED #community/Community_0

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch13/ref-59-world-whitepaper.pdf"
 type: "paper"
-community: "Digital Identity & Personhood"
+community: "Community 17"
 location: "page 1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Digital_Identity__Personhood
+  - community/Community_17
 ---
 
 # World Whitepapers (World Network: Proof of Human)
@@ -18,4 +18,4 @@ tags:
 - [[The Market Landscape]] - `cites` [EXTRACTED]
 - [[World ID]] - `references` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Digital_Identity__Personhood
+#graphify/paper #graphify/EXTRACTED #community/Community_17

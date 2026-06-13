@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch10-trustless-versus-trust-minimized.md"
 type: "document"
-community: "Rollup Security, Attacks & Aggregation"
+community: "Community 4"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Verification__Fiat-Shamir
+  - community/Community_4
 ---
 
 # "Trustless" versus "Trust-Minimized"
@@ -16,4 +16,4 @@ tags:
 - [[Trust Decomposition Seven Weaker Assumptions]] - `references` [EXTRACTED]
 - [[Trusted Setup]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Verification__Fiat-Shamir
+#graphify/document #graphify/EXTRACTED #community/Community_4

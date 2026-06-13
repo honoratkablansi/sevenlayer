@@ -1,101 +1,164 @@
 {
   "colorGroups": [
     {
-      "query": "tag:#community/Commitments_&_Post-Quantum_Craft",
+      "query": "tag:#community/Community_0",
       "color": {
         "a": 1,
         "rgb": 5142951
       }
     },
     {
-      "query": "tag:#community/Arithmetization_&_Proving_Frontiers",
+      "query": "tag:#community/Community_1",
       "color": {
         "a": 1,
         "rgb": 15896107
       }
     },
     {
-      "query": "tag:#community/STARKs_&_zkVM_Landscape",
+      "query": "tag:#community/Community_2",
       "color": {
         "a": 1,
         "rgb": 14767961
       }
     },
     {
-      "query": "tag:#community/Trusted_Setup_&_SNARK_Foundations",
+      "query": "tag:#community/Community_3",
       "color": {
         "a": 1,
         "rgb": 7780274
       }
     },
     {
-      "query": "tag:#community/Midnight_Privacy_Stack",
+      "query": "tag:#community/Community_4",
       "color": {
         "a": 1,
         "rgb": 5873999
       }
     },
     {
-      "query": "tag:#community/Verification_&_Fiat-Shamir",
+      "query": "tag:#community/Community_5",
       "color": {
         "a": 1,
         "rgb": 15583560
       }
     },
     {
-      "query": "tag:#community/Privacy-Enhancing_Technologies",
+      "query": "tag:#community/Community_6",
       "color": {
         "a": 1,
         "rgb": 11565729
       }
     },
     {
-      "query": "tag:#community/ZK_Market_&_Identity",
+      "query": "tag:#community/Community_7",
       "color": {
         "a": 1,
         "rgb": 16752039
       }
     },
     {
-      "query": "tag:#community/Coprocessors_&_ZKML",
+      "query": "tag:#community/Community_8",
       "color": {
         "a": 1,
         "rgb": 10253663
       }
     },
     {
-      "query": "tag:#community/Rollups_&_Private_Smart_Contracts",
+      "query": "tag:#community/Community_9",
       "color": {
         "a": 1,
         "rgb": 12234924
       }
     },
     {
-      "query": "tag:#community/Pairings_&_Quantum_Threat",
+      "query": "tag:#community/Community_10",
       "color": {
         "a": 1,
         "rgb": 5142951
       }
     },
     {
-      "query": "tag:#community/Digital_Identity_&_Personhood",
+      "query": "tag:#community/Community_11",
       "color": {
         "a": 1,
         "rgb": 15896107
       }
     },
     {
-      "query": "tag:#community/FHE_&_Compiler_Infrastructure",
+      "query": "tag:#community/Community_12",
       "color": {
         "a": 1,
         "rgb": 14767961
       }
     },
     {
-      "query": "tag:#community/Improvement_Backlog",
+      "query": "tag:#community/Community_13",
       "color": {
         "a": 1,
         "rgb": 7780274
+      }
+    },
+    {
+      "query": "tag:#community/Community_14",
+      "color": {
+        "a": 1,
+        "rgb": 5873999
+      }
+    },
+    {
+      "query": "tag:#community/Community_15",
+      "color": {
+        "a": 1,
+        "rgb": 15583560
+      }
+    },
+    {
+      "query": "tag:#community/Community_16",
+      "color": {
+        "a": 1,
+        "rgb": 11565729
+      }
+    },
+    {
+      "query": "tag:#community/Community_17",
+      "color": {
+        "a": 1,
+        "rgb": 16752039
+      }
+    },
+    {
+      "query": "tag:#community/Community_18",
+      "color": {
+        "a": 1,
+        "rgb": 10253663
+      }
+    },
+    {
+      "query": "tag:#community/Community_19",
+      "color": {
+        "a": 1,
+        "rgb": 12234924
+      }
+    },
+    {
+      "query": "tag:#community/Community_20",
+      "color": {
+        "a": 1,
+        "rgb": 5142951
+      }
+    },
+    {
+      "query": "tag:#community/Community_21",
+      "color": {
+        "a": 1,
+        "rgb": 15896107
+      }
+    },
+    {
+      "query": "tag:#community/Community_22",
+      "color": {
+        "a": 1,
+        "rgb": 14767961
       }
     }
   ]

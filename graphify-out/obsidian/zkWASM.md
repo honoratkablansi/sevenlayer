@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch11-risc-v-convergence.md"
 type: "document"
-community: "STARKs & zkVM Landscape"
+community: "Community 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/STARKs__zkVM_Landscape
+  - community/Community_1
 ---
 
 # zkWASM
@@ -15,4 +15,4 @@ tags:
 - [[The Landscape Table (March 2026)]] - `references` [EXTRACTED]
 - [[The Stage Is Set]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/STARKs__zkVM_Landscape
+#graphify/document #graphify/EXTRACTED #community/Community_1

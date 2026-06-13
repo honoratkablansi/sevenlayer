@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/GLOSSARY.md"
 type: "document"
-community: "Arithmetization & Proving Frontiers"
+community: "Community 0"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Arithmetization__Proving_Frontiers
+  - community/Community_0
 ---
 
 # Nova
@@ -14,16 +14,19 @@ tags:
 - [[CCS The Rosetta Stone]] - `references` [EXTRACTED]
 - [[Coda]] - `references` [EXTRACTED]
 - [[CycleFold]] - `conceptually_related_to` [EXTRACTED]
+- [[CycleFold cycle-of-curves delegation technique]] - `assumes` [EXTRACTED]
 - [[Encoding the Performance]] - `references` [EXTRACTED]
 - [[Folding Schemes]] - `part_of` [EXTRACTED]
 - [[Glossary of Key Terms]] - `defines` [EXTRACTED]
 - [[HyperNova]] - `conceptually_related_to` [EXTRACTED]
+- [[HyperNova Recursive Arguments for Customizable Constraint Systems]] - `cites` [EXTRACTED]
 - [[Lattice-Based Proving]] - `references` [EXTRACTED]
 - [[LatticeFold+ Faster, Simpler, Shorter Lattice-Based Folding for Succinct Proof Systems]] - `conceptually_related_to` [EXTRACTED]
 - [[Layer 1 -- Building the Stage]] - `references` [EXTRACTED]
 - [[Layer 5 -- The Sealed Certificate]] - `references` [EXTRACTED]
 - [[Layer 6 -- The Deep Craft]] - `references` [EXTRACTED]
 - [[Layer 7 -- The Verdict]] - `references` [EXTRACTED]
+- [[Lemma 5 (Nova folding is blinding)]] - `proves` [EXTRACTED]
 - [[Lookup Arguments_1]] - `references` [EXTRACTED]
 - [[Memory The Binding Constraint]] - `references` [EXTRACTED]
 - [[Nightstream What a Folding Engine Looks Like from the Inside]] - `references` [EXTRACTED]
@@ -46,4 +49,4 @@ tags:
 - [[Two Ways to Build a Stage]] - `conceptually_related_to` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Arithmetization__Proving_Frontiers
+#graphify/document #graphify/EXTRACTED #community/Community_0

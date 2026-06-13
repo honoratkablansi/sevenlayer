@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch09/ref-29-gentry-fhe.pdf"
 type: "paper"
-community: "FHE & Compiler Infrastructure"
+community: "Community 9"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/FHE__Compiler_Infrastructure
+  - community/Community_9
 ---
 
 # Fully Homomorphic Encryption Using Ideal Lattices
@@ -18,4 +18,4 @@ tags:
 - [[Lattice Cryptography]] - `conceptually_related_to` [EXTRACTED]
 - [[Privacy-Enhancing Technologies]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/FHE__Compiler_Infrastructure
+#graphify/paper #graphify/EXTRACTED #community/Community_9

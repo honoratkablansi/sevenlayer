@@ -1,12 +1,12 @@
 ---
 source_file: "wiki/sections/ch04-memory-the-binding-constraint.md"
 type: "document"
-community: "Commitments & Post-Quantum Craft"
+community: "Community 0"
 location: "Dependencies"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Commitments__Post-Quantum_Craft
+  - community/Community_0
 ---
 
 # Nightstream: What a Folding Engine Looks Like from the Inside
@@ -35,4 +35,4 @@ tags:
 - [[The Folding Genealogy]] - `references` [EXTRACTED]
 - [[The Proof Core Why Layers 4, 5, and 6 Are Inseparable]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Commitments__Post-Quantum_Craft
+#graphify/document #graphify/EXTRACTED #community/Community_0

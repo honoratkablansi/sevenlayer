@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch06-the-sealed-certificate.md"
 type: "document"
-community: "Rollup Security, Attacks & Aggregation"
+community: "Community 4"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Verification__Fiat-Shamir
+  - community/Community_4
 ---
 
 # The Sealed Certificate (Chapter Closing)
@@ -32,4 +32,4 @@ tags:
 - [[The Three Families]] - `references` [EXTRACTED]
 - [[ZK Coprocessors Off-Chain Computation, On-Chain Verification (Growth)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Verification__Fiat-Shamir
+#graphify/document #graphify/EXTRACTED #community/Community_4

@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch11-zkvms-across-the-stack.md"
 type: "document"
-community: "STARKs & zkVM Landscape"
+community: "Community 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/STARKs__zkVM_Landscape
+  - community/Community_1
 ---
 
 # zkVMs Across the Stack
@@ -22,4 +22,4 @@ tags:
 - [[Zero-Knowledge Virtual Machine (zkVM)]] - `defines` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `part_of` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/STARKs__zkVM_Landscape
+#graphify/document #graphify/EXTRACTED #community/Community_1

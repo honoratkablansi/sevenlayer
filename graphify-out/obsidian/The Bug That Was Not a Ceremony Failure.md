@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch02-the-bug-that-was-not-a-ceremony-failure.md"
 type: "document"
-community: "Trusted Setup & SNARK Foundations"
+community: "Community 6"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Trusted_Setup__SNARK_Foundations
+  - community/Community_6
 ---
 
 # The Bug That Was Not a Ceremony Failure
@@ -21,4 +21,4 @@ tags:
 - [[Universal versus Circuit-Specific Setups]] - `references` [EXTRACTED]
 - [[Zcash]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Trusted_Setup__SNARK_Foundations
+#graphify/document #graphify/EXTRACTED #community/Community_6

@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch05-the-spreadsheet-metaphor-and-where-it-works.md"
 type: "document"
-community: "Arithmetization & Proving Frontiers"
+community: "Community 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Arithmetization__Proving_Frontiers
+  - community/Community_1
 ---
 
 # Schwartz-Zippel Lemma
@@ -17,4 +17,4 @@ tags:
 - [[The Constraint System Evolution R1CS, AIR, PLONKish]] - `references` [EXTRACTED]
 - [[The Spreadsheet Metaphor (And Where It Works)]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Arithmetization__Proving_Frontiers
+#graphify/document #graphify/EXTRACTED #community/Community_1

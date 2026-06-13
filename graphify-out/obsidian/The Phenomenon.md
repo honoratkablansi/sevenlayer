@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch01-the-phenomenon.md"
 type: "document"
-community: "Trusted Setup & SNARK Foundations"
+community: "Community 6"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Trusted_Setup__SNARK_Foundations
+  - community/Community_6
 ---
 
 # The Phenomenon
@@ -22,4 +22,4 @@ tags:
 - [[Three Converging Forces]] - `references` [EXTRACTED]
 - [[ZK Rollups The Proving Grounds (Production)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Trusted_Setup__SNARK_Foundations
+#graphify/document #graphify/EXTRACTED #community/Community_6

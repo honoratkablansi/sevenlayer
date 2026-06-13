@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch01-how-to-read-this-guide.md"
 type: "document"
-community: "Trusted Setup & SNARK Foundations"
+community: "Community 6"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Trusted_Setup__SNARK_Foundations
+  - community/Community_6
 ---
 
 # How to Read This Guide
@@ -17,4 +17,4 @@ tags:
 - [[The Promise of Provable and Programmable Secrets]] - `part_of` [EXTRACTED]
 - [[Three Converging Forces]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Trusted_Setup__SNARK_Foundations
+#graphify/document #graphify/EXTRACTED #community/Community_6

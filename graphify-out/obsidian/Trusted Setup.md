@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/02-building-the-stage.md"
 type: "document"
-community: "Commitments & Post-Quantum Craft"
+community: "Community 4"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Commitments__Post-Quantum_Craft
+  - community/Community_4
 ---
 
 # Trusted Setup
@@ -47,4 +47,4 @@ tags:
 - [[Updatable and Universal Common Reference Strings with Applications to zk-SNARKs]] - `references` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Commitments__Post-Quantum_Craft
+#graphify/document #graphify/EXTRACTED #community/Community_4

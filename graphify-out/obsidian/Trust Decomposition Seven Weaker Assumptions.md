@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch10-trust-decomposition-seven-weaker-assumptions.md"
 type: "document"
-community: "Midnight Privacy Stack"
+community: "Community 4"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Midnight_Privacy_Stack
+  - community/Community_4
 ---
 
 # Trust Decomposition: Seven Weaker Assumptions
@@ -30,4 +30,4 @@ tags:
 - [[Where Midnight Challenges the Model]] - `references` [EXTRACTED]
 - [[Zcash]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Midnight_Privacy_Stack
+#graphify/document #graphify/EXTRACTED #community/Community_4

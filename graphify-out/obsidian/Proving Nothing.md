@@ -1,11 +1,11 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Rollup Security, Attacks & Aggregation"
+community: "Community 18"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Verification__Fiat-Shamir
+  - community/Community_18
 ---
 
 # Proving Nothing
@@ -26,4 +26,4 @@ tags:
 - [[The Synthesis -- Three Paths, Not Two]] - `part_of` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `part_of` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Verification__Fiat-Shamir
+#graphify/document #graphify/EXTRACTED #community/Community_18

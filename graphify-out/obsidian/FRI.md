@@ -1,16 +1,18 @@
 ---
 source_file: "wiki/chapters/07-the-deep-craft.md"
 type: "document"
-community: "STARKs & zkVM Landscape"
+community: "Community 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/STARKs__zkVM_Landscape
+  - community/Community_1
 ---
 
 # FRI
 
 ## Connections
+- [[Algebraic Linking Interactive Oracle Proof (ALI)]] - `assumes` [EXTRACTED]
+- [[Authentication Path  Communication Complexity minimization (coset & row subtrees)]] - `conceptually_related_to` [EXTRACTED]
 - [[Choreographing the Act]] - `references` [EXTRACTED]
 - [[Circle STARKs]] - `implements` [EXTRACTED]
 - [[Circle STARKs_1]] - `conceptually_related_to` [EXTRACTED]
@@ -19,6 +21,7 @@ tags:
 - [[Four Families of Commitment Schemes]] - `defines` [EXTRACTED]
 - [[Glossary of Key Terms]] - `defines` [EXTRACTED]
 - [[Greyhound Fast Polynomial Commitments from Lattices]] - `references` [EXTRACTED]
+- [[Interactive Oracle Proofs]] - `conceptually_related_to` [EXTRACTED]
 - [[Layer 1 -- Building the Stage]] - `references` [EXTRACTED]
 - [[Layer 5 -- The Sealed Certificate]] - `references` [EXTRACTED]
 - [[Layer 6 -- The Deep Craft]] - `references` [EXTRACTED]
@@ -30,8 +33,9 @@ tags:
 - [[Option-Value Analysis]] - `conceptually_related_to` [EXTRACTED]
 - [[Path Two Pure Transparent]] - `conceptually_related_to` [EXTRACTED]
 - [[RISC-V Convergence]] - `conceptually_related_to` [EXTRACTED]
+- [[Reed-Solomon Proximity Testing (RPT  low-degree testing) problem]] - `defines` [EXTRACTED]
 - [[STARKs]] - `part_of` [EXTRACTED]
-- [[Scalable, Transparent, and Post-Quantum Secure Computational Integrity]] - `conceptually_related_to` [EXTRACTED]
+- [[Scalable, Transparent, and Post-Quantum Secure Computational Integrity]] - `introduces` [EXTRACTED]
 - [[Sealing the Certificate]] - `references` [EXTRACTED]
 - [[Side-Channel Attacks When the Walls Leak]] - `references` [EXTRACTED]
 - [[Small Fields]] - `references` [EXTRACTED]
@@ -62,4 +66,4 @@ tags:
 - [[ZKML Provable Machine Learning (Research)]] - `references` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/STARKs__zkVM_Landscape
+#graphify/document #graphify/EXTRACTED #community/Community_1

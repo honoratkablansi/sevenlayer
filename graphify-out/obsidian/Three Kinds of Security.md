@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch09-three-kinds-of-security.md"
 type: "document"
-community: "Privacy-Enhancing Technologies"
+community: "Community 9"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Privacy-Enhancing_Technologies
+  - community/Community_9
 ---
 
 # Three Kinds of Security
@@ -19,4 +19,4 @@ tags:
 - [[Trusted Execution Environment (TEE)]] - `defines` [EXTRACTED]
 - [[Zero-Knowledge Proofs]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Privacy-Enhancing_Technologies
+#graphify/document #graphify/EXTRACTED #community/Community_9

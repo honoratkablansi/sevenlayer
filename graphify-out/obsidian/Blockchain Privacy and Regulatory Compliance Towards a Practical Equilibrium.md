@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch09/ref-31-blockchain-privacy-compliance.pdf"
 type: "paper"
-community: "Rollups & Private Smart Contracts"
+community: "Community 19"
 location: "p.1 (title/abstract)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Rollups__Private_Smart_Contracts
+  - community/Community_19
 ---
 
 # Blockchain Privacy and Regulatory Compliance: Towards a Practical Equilibrium
@@ -21,4 +21,4 @@ tags:
 - [[ZK Rollups_1]] - `conceptually_related_to` [EXTRACTED]
 - [[Zerocash]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Rollups__Private_Smart_Contracts
+#graphify/paper #graphify/EXTRACTED #community/Community_19

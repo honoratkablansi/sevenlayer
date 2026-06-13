@@ -1,12 +1,12 @@
 ---
 source_file: "wiki/sections/ch02-two-ways-to-build-a-stage.md"
 type: "document"
-community: "Trusted Setup & SNARK Foundations"
+community: "Community 6"
 location: "Entities"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Trusted_Setup__SNARK_Foundations
+  - community/Community_6
 ---
 
 # Trusted Setup Ceremony
@@ -31,4 +31,4 @@ tags:
 - [[Universal versus Circuit-Specific Setups]] - `conceptually_related_to` [EXTRACTED]
 - [[Where Midnight Validates the Model]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Trusted_Setup__SNARK_Foundations
+#graphify/document #graphify/EXTRACTED #community/Community_6

@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch04-execution-traces.md"
 type: "document"
-community: "Arithmetization & Proving Frontiers"
+community: "Community 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Arithmetization__Proving_Frontiers
+  - community/Community_2
 ---
 
 # Execution Trace
@@ -14,4 +14,4 @@ tags:
 - [[Execution Traces]] - `defines` [EXTRACTED]
 - [[The Secret Performance]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Arithmetization__Proving_Frontiers
+#graphify/document #graphify/EXTRACTED #community/Community_2

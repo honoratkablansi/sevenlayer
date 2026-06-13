@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-35-coda.pdf"
 type: "document"
-community: "STARKs & zkVM Landscape"
+community: "Community 5"
 location: "page 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/STARKs__zkVM_Landscape
+  - community/Community_5
 ---
 
 # Coq Proof Assistant
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Certifying Zero-Knowledge Circuits with Refinement Types]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/STARKs__zkVM_Landscape
+#graphify/document #graphify/EXTRACTED #community/Community_5

@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch06-the-three-families.md"
 type: "document"
-community: "Commitments & Post-Quantum Craft"
+community: "Community 0"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Commitments__Post-Quantum_Craft
+  - community/Community_0
 ---
 
 # The Three Families
@@ -39,4 +39,4 @@ tags:
 - [[ZK Rollups The Proving Grounds (Production)]] - `references` [EXTRACTED]
 - [[Zcash]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Commitments__Post-Quantum_Craft
+#graphify/document #graphify/EXTRACTED #community/Community_0

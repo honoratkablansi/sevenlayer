@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch04-witness-generation-costs.md"
 type: "document"
-community: "Arithmetization & Proving Frontiers"
+community: "Community 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Arithmetization__Proving_Frontiers
+  - community/Community_2
 ---
 
 # GPU-Accelerated Proving
@@ -16,4 +16,4 @@ tags:
 - [[The Overhead Tax 10,000x to 50,000x]] - `references` [EXTRACTED]
 - [[Witness Generation Costs]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Arithmetization__Proving_Frontiers
+#graphify/document #graphify/EXTRACTED #community/Community_2

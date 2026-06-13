@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch13-zk-coprocessors-off-chain-computation-on-chain-verification-growth.md"
 type: "document"
-community: "Coprocessors & ZKML"
+community: "Community 15"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Coprocessors__ZKML
+  - community/Community_15
 ---
 
 # Lagrange
@@ -14,4 +14,4 @@ tags:
 - [[ZK Coprocessors Off-Chain Computation, On-Chain Verification (Growth)]] - `references` [EXTRACTED]
 - [[ZKML Provable Machine Learning (Research)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Coprocessors__ZKML
+#graphify/document #graphify/EXTRACTED #community/Community_15

@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/01-the-promise-of-provable-and-programmable-secrets.md"
 type: "document"
-community: "Trusted Setup & SNARK Foundations"
+community: "Community 0"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Trusted_Setup__SNARK_Foundations
+  - community/Community_0
 ---
 
 # Zcash
@@ -43,4 +43,4 @@ tags:
 - [[Two Ways to Build a Stage]] - `conceptually_related_to` [EXTRACTED]
 - [[ZK Proofs Is Privacy Cheap Enough to Be Mainstream (Castle Labs)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Trusted_Setup__SNARK_Foundations
+#graphify/document #graphify/EXTRACTED #community/Community_0

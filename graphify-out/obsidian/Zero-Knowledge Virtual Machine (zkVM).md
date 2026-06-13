@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/03-choreographing-the-act.md"
 type: "document"
-community: "STARKs & zkVM Landscape"
+community: "Community 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/STARKs__zkVM_Landscape
+  - community/Community_1
 ---
 
 # Zero-Knowledge Virtual Machine (zkVM)
@@ -19,7 +19,7 @@ tags:
 - [[Evaluating Compiler Optimization Impacts on zkVM Performance]] - `conceptually_related_to` [EXTRACTED]
 - [[Execution Traces]] - `references` [EXTRACTED]
 - [[Jolt zkVM]] - `implements` [EXTRACTED]
-- [[Jolt SNARKs for Virtual Machines via Lookups]] - `conceptually_related_to` [EXTRACTED]
+- [[Jolt SNARKs for Virtual Machines via Lookups]] - `introduces` [EXTRACTED]
 - [[Nightstream Lattice-Based Folding for CCS (LFDT-Nightstream)]] - `implements` [EXTRACTED]
 - [[Open Questions and the Road Ahead]] - `references` [EXTRACTED]
 - [[Performance The Cost Collapse]] - `conceptually_related_to` [EXTRACTED]
@@ -38,4 +38,4 @@ tags:
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 - [[zkVMs Across the Stack]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/STARKs__zkVM_Landscape
+#graphify/document #graphify/EXTRACTED #community/Community_1

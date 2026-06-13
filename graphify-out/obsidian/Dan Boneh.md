@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch05-ccs-the-rosetta-stone.md"
 type: "document"
-community: "Arithmetization & Proving Frontiers"
+community: "Community 0"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Arithmetization__Proving_Frontiers
+  - community/Community_0
 ---
 
 # Dan Boneh
@@ -20,4 +20,4 @@ tags:
 - [[The Trilemma -- And Its Dissolution]] - `references` [EXTRACTED]
 - [[Witness Generation Costs]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Arithmetization__Proving_Frontiers
+#graphify/document #graphify/EXTRACTED #community/Community_0

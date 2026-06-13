@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/GLOSSARY.md"
 type: "document"
-community: "Arithmetization & Proving Frontiers"
+community: "Community 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Arithmetization__Proving_Frontiers
+  - community/Community_1
 ---
 
 # Glossary of Key Terms
@@ -27,4 +27,4 @@ tags:
 - [[STARKs]] - `defines` [EXTRACTED]
 - [[Sumcheck Protocol]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Arithmetization__Proving_Frontiers
+#graphify/document #graphify/EXTRACTED #community/Community_1

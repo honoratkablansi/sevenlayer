@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch06-the-hybrid-pipeline.md"
 type: "document"
-community: "STARKs & zkVM Landscape"
+community: "Community 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/STARKs__zkVM_Landscape
+  - community/Community_1
 ---
 
 # The Hybrid Pipeline
@@ -24,4 +24,4 @@ tags:
 - [[STARKs]] - `references` [EXTRACTED]
 - [[The Three Families]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/STARKs__zkVM_Landscape
+#graphify/document #graphify/EXTRACTED #community/Community_1

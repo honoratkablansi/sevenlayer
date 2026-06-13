@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/13-the-market-landscape.md"
 type: "document"
-community: "Coprocessors & ZKML"
+community: "Community 18"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Coprocessors__ZKML
+  - community/Community_18
 ---
 
 # The Market Landscape
@@ -53,4 +53,4 @@ tags:
 - [[eIDAS 2.0_1]] - `references` [EXTRACTED]
 - [[zkEVM]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Coprocessors__ZKML
+#graphify/document #graphify/EXTRACTED #community/Community_18

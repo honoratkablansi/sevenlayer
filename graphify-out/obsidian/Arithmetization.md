@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/05-encoding-the-performance.md"
 type: "document"
-community: "Arithmetization & Proving Frontiers"
+community: "Community 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Arithmetization__Proving_Frontiers
+  - community/Community_1
 ---
 
 # Arithmetization
@@ -22,4 +22,4 @@ tags:
 - [[The Spreadsheet Metaphor (And Where It Works)]] - `references` [EXTRACTED]
 - [[Where the Analogies Break]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Arithmetization__Proving_Frontiers
+#graphify/document #graphify/EXTRACTED #community/Community_1

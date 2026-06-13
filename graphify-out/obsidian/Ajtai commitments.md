@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/concepts/ajtai.md"
 type: "document"
-community: "Commitments & Post-Quantum Craft"
+community: "Community 0"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Commitments__Post-Quantum_Craft
+  - community/Community_0
 ---
 
 # Ajtai commitments
@@ -26,4 +26,4 @@ tags:
 - [[The Structural Advantage of Lattices]] - `references` [EXTRACTED]
 - [[Three Hardness Assumptions, Three Worlds]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Commitments__Post-Quantum_Craft
+#graphify/document #graphify/EXTRACTED #community/Community_0

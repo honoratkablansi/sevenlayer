@@ -1,12 +1,12 @@
 ---
 source_file: "wiki/sections/ch04-side-channel-attacks-when-the-walls-leak.md"
 type: "document"
-community: "Midnight Privacy Stack"
+community: "Community 2"
 location: "Dependencies"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Midnight_Privacy_Stack
+  - community/Community_2
 ---
 
 # Algebraic vs Traditional Hash Functions
@@ -20,4 +20,4 @@ tags:
 - [[STARKs]] - `references` [EXTRACTED]
 - [[Side-Channel Attacks When the Walls Leak]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Midnight_Privacy_Stack
+#graphify/document #graphify/EXTRACTED #community/Community_2

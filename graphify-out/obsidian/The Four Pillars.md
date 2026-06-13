@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch09-the-four-pillars.md"
 type: "document"
-community: "Privacy-Enhancing Technologies"
+community: "Community 9"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Privacy-Enhancing_Technologies
+  - community/Community_9
 ---
 
 # The Four Pillars
@@ -26,4 +26,4 @@ tags:
 - [[Three Kinds of Security]] - `references` [EXTRACTED]
 - [[Zero-Knowledge Proofs]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Privacy-Enhancing_Technologies
+#graphify/document #graphify/EXTRACTED #community/Community_9

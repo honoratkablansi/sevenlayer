@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/01-the-promise-of-provable-and-programmable-secrets.md"
 type: "document"
-community: "Trusted Setup & SNARK Foundations"
+community: "Community 6"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Trusted_Setup__SNARK_Foundations
+  - community/Community_6
 ---
 
 # The Promise of Provable and Programmable Secrets
@@ -61,4 +61,4 @@ tags:
 - [[Zcash]] - `references` [EXTRACTED]
 - [[Zero-Knowledge Proofs_1]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Trusted_Setup__SNARK_Foundations
+#graphify/document #graphify/EXTRACTED #community/Community_6

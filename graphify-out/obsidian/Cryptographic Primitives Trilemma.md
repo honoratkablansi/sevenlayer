@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch07-the-trilemma-and-its-dissolution.md"
 type: "document"
-community: "Commitments & Post-Quantum Craft"
+community: "Community 0"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Commitments__Post-Quantum_Craft
+  - community/Community_0
 ---
 
 # Cryptographic Primitives Trilemma
@@ -14,4 +14,4 @@ tags:
 - [[Layer 6 -- The Deep Craft]] - `defines` [EXTRACTED]
 - [[The Trilemma -- And Its Dissolution]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Commitments__Post-Quantum_Craft
+#graphify/document #graphify/EXTRACTED #community/Community_0

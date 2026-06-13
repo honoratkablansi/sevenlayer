@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-63-harvest-now-decrypt-later.pdf"
 type: "paper"
-community: "Commitments & Post-Quantum Craft"
+community: "Community 0"
 location: "p.1 (title/abstract)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Commitments__Post-Quantum_Craft
+  - community/Community_0
 ---
 
 # "Harvest Now Decrypt Later": Examining Post-Quantum Cryptography and the Data Privacy Risks for Distributed Ledger Networks
@@ -19,4 +19,4 @@ tags:
 - [[Layer 6 -- The Deep Craft]] - `cites` [EXTRACTED]
 - [[Post-Quantum Cryptography]] - `references` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Commitments__Post-Quantum_Craft
+#graphify/paper #graphify/EXTRACTED #community/Community_0

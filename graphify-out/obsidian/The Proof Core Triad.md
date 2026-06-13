@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch11-the-proof-core-triad.md"
 type: "document"
-community: "STARKs & zkVM Landscape"
+community: "Community 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/STARKs__zkVM_Landscape
+  - community/Community_1
 ---
 
 # The "Proof Core" Triad
@@ -31,4 +31,4 @@ tags:
 - [[Three zkVMs Through Seven Layers]] - `references` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `part_of` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/STARKs__zkVM_Landscape
+#graphify/document #graphify/EXTRACTED #community/Community_1

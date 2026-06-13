@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/03-choreographing-the-act.md"
 type: "document"
-community: "Midnight Privacy Stack"
+community: "Community 6"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Midnight_Privacy_Stack
+  - community/Community_6
 ---
 
 # Tornado Cash
@@ -32,4 +32,4 @@ tags:
 - [[Trust Decomposition Seven Weaker Assumptions]] - `references` [EXTRACTED]
 - [[Under-Constrained Circuits The Dominant Failure Mode]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Midnight_Privacy_Stack
+#graphify/document #graphify/EXTRACTED #community/Community_6

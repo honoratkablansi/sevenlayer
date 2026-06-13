@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch09/ref-29-gentry-fhe.pdf"
 type: "paper"
-community: "FHE & Compiler Infrastructure"
+community: "Community 9"
 location: "p.1 (abstract)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/FHE__Compiler_Infrastructure
+  - community/Community_9
 ---
 
 # Bootstrapping (FHE)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Fully Homomorphic Encryption Using Ideal Lattices]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/FHE__Compiler_Infrastructure
+#graphify/paper #graphify/EXTRACTED #community/Community_9

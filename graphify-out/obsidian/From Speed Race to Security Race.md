@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch06-from-speed-race-to-security-race.md"
 type: "document"
-community: "Rollup Security, Attacks & Aggregation"
+community: "Community 4"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Verification__Fiat-Shamir
+  - community/Community_4
 ---
 
 # From Speed Race to Security Race
@@ -20,4 +20,4 @@ tags:
 - [[The Post-Quantum Horizon]] - `references` [EXTRACTED]
 - [[The Sealed Certificate (Chapter Closing)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Verification__Fiat-Shamir
+#graphify/document #graphify/EXTRACTED #community/Community_4

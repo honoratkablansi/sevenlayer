@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/06-the-sealed-certificate.md"
 type: "document"
-community: "Privacy-Enhancing Technologies"
+community: "Community 9"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Privacy-Enhancing_Technologies
+  - community/Community_9
 ---
 
 # Zexe
@@ -18,4 +18,4 @@ tags:
 - [[Recursion vs. Folding Russian Dolls and Snowballs]] - `references` [EXTRACTED]
 - [[The Structural Advantage of Lattices]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Privacy-Enhancing_Technologies
+#graphify/document #graphify/EXTRACTED #community/Community_9

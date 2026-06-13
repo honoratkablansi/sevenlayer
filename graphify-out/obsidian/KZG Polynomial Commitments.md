@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/02-building-the-stage.md"
 type: "document"
-community: "Commitments & Post-Quantum Craft"
+community: "Community 6"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Commitments__Post-Quantum_Craft
+  - community/Community_6
 ---
 
 # KZG Polynomial Commitments
@@ -69,4 +69,4 @@ tags:
 - [[ZK Rollups The Proving Grounds (Production)]] - `references` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Commitments__Post-Quantum_Craft
+#graphify/document #graphify/EXTRACTED #community/Community_6

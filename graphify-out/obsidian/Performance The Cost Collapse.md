@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch11-performance-the-cost-collapse.md"
 type: "document"
-community: "STARKs & zkVM Landscape"
+community: "Community 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/STARKs__zkVM_Landscape
+  - community/Community_1
 ---
 
 # Performance: The Cost Collapse
@@ -26,4 +26,4 @@ tags:
 - [[ZisK]] - `references` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `part_of` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/STARKs__zkVM_Landscape
+#graphify/document #graphify/EXTRACTED #community/Community_1

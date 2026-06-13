@@ -1,12 +1,12 @@
 ---
 source_file: "wiki/sections/ch07-the-structural-advantage-of-lattices.md"
 type: "document"
-community: "Commitments & Post-Quantum Craft"
+community: "Community 0"
 location: "The Structural Advantage of Lattices"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Commitments__Post-Quantum_Craft
+  - community/Community_0
 ---
 
 # The Structural Advantage of Lattices
@@ -25,4 +25,4 @@ tags:
 - [[Trusted Setup]] - `references` [EXTRACTED]
 - [[Zexe]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Commitments__Post-Quantum_Craft
+#graphify/document #graphify/EXTRACTED #community/Community_0

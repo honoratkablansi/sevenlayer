@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch03/ref-13-practical-security-zk-circuits.pdf"
 type: "paper"
-community: "Midnight Privacy Stack"
+community: "Community 10"
 location: "p.1 (title/abstract)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Midnight_Privacy_Stack
+  - community/Community_10
 ---
 
 # Practical Security Analysis of Zero-Knowledge Proof Circuits
@@ -20,4 +20,4 @@ tags:
 - [[Static Analysis]] - `implements` [EXTRACTED]
 - [[Underconstrained Circuits]] - `conceptually_related_to` [INFERRED]
 
-#graphify/paper #graphify/EXTRACTED #community/Midnight_Privacy_Stack
+#graphify/paper #graphify/EXTRACTED #community/Community_10

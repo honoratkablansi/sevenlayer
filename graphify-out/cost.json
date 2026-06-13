@@ -5,8 +5,15 @@
       "input_tokens": 693000,
       "output_tokens": 239400,
       "files": 238
+    },
+    {
+      "date": "2026-06-13T04:36:28.008992+00:00",
+      "input_tokens": 2586347,
+      "output_tokens": 0,
+      "files": 10,
+      "note": "deepen_pdfs estimate"
     }
   ],
-  "total_input_tokens": 693000,
+  "total_input_tokens": 3279347,
   "total_output_tokens": 239400
 }

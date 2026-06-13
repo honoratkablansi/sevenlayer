@@ -1,12 +1,12 @@
 ---
 source_file: "wiki/sections/ch09-open-problems.md"
 type: "document"
-community: "Privacy-Enhancing Technologies"
+community: "Community 9"
 location: "Open Problems"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Privacy-Enhancing_Technologies
+  - community/Community_9
 ---
 
 # Open Problems
@@ -22,4 +22,4 @@ tags:
 - [[Secure Multi-Party Computation (MPC)]] - `references` [EXTRACTED]
 - [[The Four Pillars]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Privacy-Enhancing_Technologies
+#graphify/document #graphify/EXTRACTED #community/Community_9

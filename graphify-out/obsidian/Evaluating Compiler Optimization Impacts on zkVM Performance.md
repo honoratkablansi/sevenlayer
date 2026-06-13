@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-32-zkvm-compiler-optimization.pdf"
 type: "paper"
-community: "STARKs & zkVM Landscape"
+community: "Community 1"
 location: "p.1 (title/abstract)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/STARKs__zkVM_Landscape
+  - community/Community_1
 ---
 
 # Evaluating Compiler Optimization Impacts on zkVM Performance
@@ -21,4 +21,4 @@ tags:
 - [[Zero-Knowledge Virtual Machine (zkVM)]] - `conceptually_related_to` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/STARKs__zkVM_Landscape
+#graphify/paper #graphify/EXTRACTED #community/Community_1

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch07/ref-25-nist-fips-203-204-205.pdf"
 type: "paper"
-community: "Commitments & Post-Quantum Craft"
+community: "Community 0"
 location: "p.3 (abstract)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Commitments__Post-Quantum_Craft
+  - community/Community_0
 ---
 
 # ML-KEM Key-Encapsulation Mechanism
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[FIPS 203 Module-Lattice-Based Key-Encapsulation Mechanism Standard (with FIPS 204205)]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Commitments__Post-Quantum_Craft
+#graphify/paper #graphify/EXTRACTED #community/Community_0

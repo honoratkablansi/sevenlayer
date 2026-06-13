@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch03/ref-14-ccs-customizable-constraints.pdf"
 type: "paper"
-community: "Arithmetization & Proving Frontiers"
+community: "Community 1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Arithmetization__Proving_Frontiers
+  - community/Community_1
 ---
 
 # Customizable Constraint Systems for Succinct Arguments
@@ -24,4 +24,4 @@ tags:
 - [[Spartan]] - `conceptually_related_to` [EXTRACTED]
 - [[Sumcheck Protocol]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Arithmetization__Proving_Frontiers
+#graphify/paper #graphify/EXTRACTED #community/Community_1

@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/14-open-questions-and-the-road-ahead.md"
 type: "document"
-community: "Arithmetization & Proving Frontiers"
+community: "Community 5"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Arithmetization__Proving_Frontiers
+  - community/Community_5
 ---
 
 # Open Questions and the Road Ahead
@@ -61,4 +61,4 @@ tags:
 - [[Zcash]] - `references` [EXTRACTED]
 - [[Zero-Knowledge Virtual Machine (zkVM)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Arithmetization__Proving_Frontiers
+#graphify/document #graphify/EXTRACTED #community/Community_5

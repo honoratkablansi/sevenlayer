@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Coprocessors & ZKML"
+community: "Community 5"
 location: "Chapter 10: The Synthesis -- Three Paths, Not Two"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Coprocessors__ZKML
+  - community/Community_5
 ---
 
 # Trust Decomposition
@@ -16,4 +16,4 @@ tags:
 - [[The Market Landscape]] - `references` [EXTRACTED]
 - [[The Synthesis -- Three Paths, Not Two]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Coprocessors__ZKML
+#graphify/document #graphify/EXTRACTED #community/Community_5

@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch13-market-sizing.md"
 type: "document"
-community: "ZK Market & Identity"
+community: "Community 14"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/ZK_Market__Identity
+  - community/Community_14
 ---
 
 # Grand View Research: Zero-Knowledge Proof Market Size Report (2025)
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[Market Sizing]] - `cites` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/ZK_Market__Identity
+#graphify/document #graphify/EXTRACTED #community/Community_14

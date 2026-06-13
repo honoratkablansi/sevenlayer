@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch03-the-four-philosophies.md"
 type: "document"
-community: "Midnight Privacy Stack"
+community: "Community 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Midnight_Privacy_Stack
+  - community/Community_2
 ---
 
 # Noir (Aztec)
@@ -18,4 +18,4 @@ tags:
 - [[Under-Constrained Circuits The Dominant Failure Mode]] - `references` [EXTRACTED]
 - [[Witness-Constraint Divergence]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Midnight_Privacy_Stack
+#graphify/document #graphify/EXTRACTED #community/Community_2

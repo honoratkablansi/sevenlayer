@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch04-side-channel-attacks-when-the-walls-leak.md"
 type: "document"
-community: "Arithmetization & Proving Frontiers"
+community: "Community 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Arithmetization__Proving_Frontiers
+  - community/Community_2
 ---
 
 # MSM (Multi-Scalar Multiplication)
@@ -18,4 +18,4 @@ tags:
 - [[The Witness as a Multi-Dimensional Problem]] - `references` [EXTRACTED]
 - [[Witness Generation Costs]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Arithmetization__Proving_Frontiers
+#graphify/document #graphify/EXTRACTED #community/Community_2

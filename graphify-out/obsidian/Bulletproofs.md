@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/02-building-the-stage.md"
 type: "document"
-community: "Rollup Security, Attacks & Aggregation"
+community: "Community 4"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Verification__Fiat-Shamir
+  - community/Community_4
 ---
 
 # Bulletproofs
@@ -26,4 +26,4 @@ tags:
 - [[Two Ways to Build a Stage]] - `conceptually_related_to` [EXTRACTED]
 - [[When the Transcript Lies Fiat-Shamir Vulnerabilities]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Verification__Fiat-Shamir
+#graphify/document #graphify/EXTRACTED #community/Community_4

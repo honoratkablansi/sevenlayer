@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/concepts/logup.md"
 type: "document"
-community: "Arithmetization & Proving Frontiers"
+community: "Community 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Arithmetization__Proving_Frontiers
+  - community/Community_1
 ---
 
 # LogUp
@@ -23,4 +23,4 @@ tags:
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 - [[zkVMs Across the Stack]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Arithmetization__Proving_Frontiers
+#graphify/document #graphify/EXTRACTED #community/Community_1

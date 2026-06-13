@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-05-mpc-random-beacon.pdf"
 type: "paper"
-community: "Trusted Setup & SNARK Foundations"
+community: "Community 3"
 location: "p.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Trusted_Setup__SNARK_Foundations
+  - community/Community_3
 ---
 
 # Scalable Multi-party Computation for zk-SNARK Parameters in the Random Beacon Model
@@ -22,4 +22,4 @@ tags:
 - [[SoK Trusted Setups for Powers-of-Tau Strings]] - `cites` [INFERRED]
 - [[Trusted Setup]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Trusted_Setup__SNARK_Foundations
+#graphify/paper #graphify/EXTRACTED #community/Community_3

@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch03-under-constrained-circuits-the-dominant-failure-mode.md"
 type: "paper"
-community: "Midnight Privacy Stack"
+community: "Community 2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Midnight_Privacy_Stack
+  - community/Community_2
 ---
 
 # ZKAP (Circuit Dependence Graph static analysis)
@@ -15,4 +15,4 @@ tags:
 - [[Under-Constrained Circuits The Dominant Failure Mode]] - `cites` [EXTRACTED]
 - [[Witness-Constraint Divergence]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Midnight_Privacy_Stack
+#graphify/paper #graphify/EXTRACTED #community/Community_2

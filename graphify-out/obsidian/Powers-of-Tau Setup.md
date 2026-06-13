@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-10-sok-powers-of-tau.pdf"
 type: "document"
-community: "Trusted Setup & SNARK Foundations"
+community: "Community 3"
 location: "Abstract"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Trusted_Setup__SNARK_Foundations
+  - community/Community_3
 ---
 
 # Powers-of-Tau Setup
@@ -17,4 +17,4 @@ tags:
 - [[Snarky Ceremonies]] - `references` [EXTRACTED]
 - [[SoK Trusted Setups for Powers-of-Tau Strings]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Trusted_Setup__SNARK_Foundations
+#graphify/document #graphify/EXTRACTED #community/Community_3

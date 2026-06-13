@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch08-pricing-attacks.md"
 type: "document"
-community: "Rollup Security, Attacks & Aggregation"
+community: "Community 4"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Verification__Fiat-Shamir
+  - community/Community_4
 ---
 
 # Chaliasos et al. Rollup Pricing Attacks Study (2025)
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[Pricing Attacks]] - `cites` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Verification__Fiat-Shamir
+#graphify/document #graphify/EXTRACTED #community/Community_4

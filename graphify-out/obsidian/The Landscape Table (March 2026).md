@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch11-the-landscape-table-march-2026.md"
 type: "document"
-community: "STARKs & zkVM Landscape"
+community: "Community 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/STARKs__zkVM_Landscape
+  - community/Community_1
 ---
 
 # The Landscape Table (March 2026)
@@ -47,4 +47,4 @@ tags:
 - [[zkVMs Across the Stack]] - `references` [EXTRACTED]
 - [[zkWASM]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/STARKs__zkVM_Landscape
+#graphify/document #graphify/EXTRACTED #community/Community_1

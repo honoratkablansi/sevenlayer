@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Midnight Privacy Stack"
+community: "Community 2"
 location: "Chapter 3: Choreographing the Act"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Midnight_Privacy_Stack
+  - community/Community_2
 ---
 
 # ACIR (Abstract Circuit Intermediate Representation)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Choreographing the Act]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Midnight_Privacy_Stack
+#graphify/document #graphify/EXTRACTED #community/Community_2

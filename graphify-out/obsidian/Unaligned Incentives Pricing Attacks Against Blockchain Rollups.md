@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch08/ref-28-rollup-pricing-attacks.pdf"
 type: "paper"
-community: "Rollup Security, Attacks & Aggregation"
+community: "Community 20"
 location: "p.1 (title/abstract)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Verification__Fiat-Shamir
+  - community/Community_20
 ---
 
 # Unaligned Incentives: Pricing Attacks Against Blockchain Rollups
@@ -20,4 +20,4 @@ tags:
 - [[Transaction Fee Mechanisms (TFM)]] - `conceptually_related_to` [EXTRACTED]
 - [[ZK Rollups_1]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Verification__Fiat-Shamir
+#graphify/paper #graphify/EXTRACTED #community/Community_20

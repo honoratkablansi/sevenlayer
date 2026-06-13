@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-21-neo.pdf"
 type: "paper"
-community: "Commitments & Post-Quantum Craft"
+community: "Community 0"
 location: "p.1 (title/abstract)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Commitments__Post-Quantum_Craft
+  - community/Community_0
 ---
 
 # Neo: Lattice-based Folding Scheme for CCS over Small Fields and Pay-per-bit Commitments
@@ -28,4 +28,4 @@ tags:
 - [[The Synthesis -- Three Paths, Not Two]] - `cites` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Commitments__Post-Quantum_Craft
+#graphify/paper #graphify/EXTRACTED #community/Community_0

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-50-extended-tower-nfs.pdf"
 type: "paper"
-community: "Pairings & Quantum Threat"
+community: "Community 3"
 location: "page 1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Pairings__Quantum_Threat
+  - community/Community_3
 ---
 
 # Extended Tower Number Field Sieve: A New Complexity for the Medium Prime Case
@@ -19,4 +19,4 @@ tags:
 - [[Number Field Sieve]] - `references` [EXTRACTED]
 - [[The Synthesis -- Three Paths, Not Two]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Pairings__Quantum_Threat
+#graphify/paper #graphify/EXTRACTED #community/Community_3

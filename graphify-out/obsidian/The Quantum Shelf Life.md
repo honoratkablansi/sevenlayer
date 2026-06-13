@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch02-the-quantum-shelf-life.md"
 type: "document"
-community: "Trusted Setup & SNARK Foundations"
+community: "Community 6"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Trusted_Setup__SNARK_Foundations
+  - community/Community_6
 ---
 
 # The Quantum Shelf Life
@@ -31,4 +31,4 @@ tags:
 - [[Trusted Setup Ceremony]] - `conceptually_related_to` [EXTRACTED]
 - [[Two Ways to Build a Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Trusted_Setup__SNARK_Foundations
+#graphify/document #graphify/EXTRACTED #community/Community_6

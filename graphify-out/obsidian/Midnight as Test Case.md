@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch12-midnight-as-test-case.md"
 type: "document"
-community: "Midnight Privacy Stack"
+community: "Community 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Midnight_Privacy_Stack
+  - community/Community_2
 ---
 
 # Midnight as Test Case
@@ -20,4 +20,4 @@ tags:
 - [[Midnight's BLS12-381 Stage]] - `references` [EXTRACTED]
 - [[MidnightJS SDK]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Midnight_Privacy_Stack
+#graphify/document #graphify/EXTRACTED #community/Community_2

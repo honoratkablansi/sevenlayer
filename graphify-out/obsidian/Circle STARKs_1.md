@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch06/ref-23-circle-starks.pdf"
 type: "paper"
-community: "STARKs & zkVM Landscape"
+community: "Community 1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/STARKs__zkVM_Landscape
+  - community/Community_1
 ---
 
 # Circle STARKs
@@ -22,4 +22,4 @@ tags:
 - [[STARKs]] - `conceptually_related_to` [EXTRACTED]
 - [[The Synthesis -- Three Paths, Not Two]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/STARKs__zkVM_Landscape
+#graphify/paper #graphify/EXTRACTED #community/Community_1

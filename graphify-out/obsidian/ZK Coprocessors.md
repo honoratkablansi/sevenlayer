@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/13-the-market-landscape.md"
 type: "document"
-community: "Coprocessors & ZKML"
+community: "Community 15"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Coprocessors__ZKML
+  - community/Community_15
 ---
 
 # ZK Coprocessors
@@ -15,4 +15,4 @@ tags:
 - [[The Market Landscape]] - `references` [EXTRACTED]
 - [[ZK Coprocessors Off-Chain Computation, On-Chain Verification (Growth)]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Coprocessors__ZKML
+#graphify/document #graphify/EXTRACTED #community/Community_15

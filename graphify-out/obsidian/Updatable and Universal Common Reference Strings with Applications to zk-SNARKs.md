@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-37-updatable-universal-crs.pdf"
 type: "paper"
-community: "Trusted Setup & SNARK Foundations"
+community: "Community 4"
 location: "page 1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Trusted_Setup__SNARK_Foundations
+  - community/Community_4
 ---
 
 # Updatable and Universal Common Reference Strings with Applications to zk-SNARKs
@@ -22,4 +22,4 @@ tags:
 - [[Updatable and Universal Structured Reference String]] - `defines` [EXTRACTED]
 - [[zk-SNARK]] - `references` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Trusted_Setup__SNARK_Foundations
+#graphify/paper #graphify/EXTRACTED #community/Community_4

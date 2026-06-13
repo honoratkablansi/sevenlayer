@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch03/ref-13-practical-security-zk-circuits.pdf"
 type: "document"
-community: "Midnight Privacy Stack"
+community: "Community 10"
 location: "abstract"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Midnight_Privacy_Stack
+  - community/Community_10
 ---
 
 # Circuit Dependence Graph (CDG)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Practical Security Analysis of Zero-Knowledge Proof Circuits]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Midnight_Privacy_Stack
+#graphify/document #graphify/EXTRACTED #community/Community_10

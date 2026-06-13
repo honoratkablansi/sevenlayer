@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/04-the-secret-performance.md"
 type: "document"
-community: "Arithmetization & Proving Frontiers"
+community: "Community 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Arithmetization__Proving_Frontiers
+  - community/Community_1
 ---
 
 # Jolt zkVM
@@ -44,4 +44,4 @@ tags:
 - [[Zero-Knowledge Virtual Machine (zkVM)]] - `implements` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Arithmetization__Proving_Frontiers
+#graphify/document #graphify/EXTRACTED #community/Community_1

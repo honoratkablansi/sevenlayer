@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/01-the-promise-of-provable-and-programmable-secrets.md"
 type: "document"
-community: "Rollup Security, Attacks & Aggregation"
+community: "Community 4"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Verification__Fiat-Shamir
+  - community/Community_4
 ---
 
 # Fiat-Shamir Transform
@@ -25,6 +25,7 @@ tags:
 - [[Layer 5 -- The Sealed Certificate]] - `references` [EXTRACTED]
 - [[Layer 6 -- The Deep Craft]] - `references` [EXTRACTED]
 - [[Layer 7 -- The Verdict]] - `references` [EXTRACTED]
+- [[Multi-folding scheme for CCS (Construction 1)]] - `assumes` [EXTRACTED]
 - [[Nightstream What a Folding Engine Looks Like from the Inside]] - `references` [EXTRACTED]
 - [[On-Chain Verification in 2026]] - `references` [EXTRACTED]
 - [[Open Questions and the Road Ahead]] - `references` [EXTRACTED]
@@ -47,4 +48,4 @@ tags:
 - [[When the Transcript Lies Fiat-Shamir Vulnerabilities]] - `references` [EXTRACTED]
 - [[ZK Rollups The Proving Grounds (Production)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Verification__Fiat-Shamir
+#graphify/document #graphify/EXTRACTED #community/Community_4

@@ -1,12 +1,12 @@
 ---
 source_file: "wiki/sections/ch08-the-price-of-a-verdict.md"
 type: "document"
-community: "Rollup Security, Attacks & Aggregation"
+community: "Community 4"
 location: "The Price of a Verdict"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Verification__Fiat-Shamir
+  - community/Community_4
 ---
 
 # The Price of a Verdict
@@ -25,4 +25,4 @@ tags:
 - [[The Social Layer]] - `references` [EXTRACTED]
 - [[The Three Families]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Verification__Fiat-Shamir
+#graphify/document #graphify/EXTRACTED #community/Community_4

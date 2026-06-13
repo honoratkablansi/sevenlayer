@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-36-sonic.pdf"
 type: "paper"
-community: "Trusted Setup & SNARK Foundations"
+community: "Community 4"
 location: "page 1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Trusted_Setup__SNARK_Foundations
+  - community/Community_4
 ---
 
 # Sonic: Zero-Knowledge SNARKs from Linear-Size Universal and Updatable Structured Reference Strings
@@ -24,4 +24,4 @@ tags:
 - [[Updatable and Universal Common Reference Strings with Applications to zk-SNARKs]] - `cites` [EXTRACTED]
 - [[Updatable and Universal Structured Reference String]] - `references` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Trusted_Setup__SNARK_Foundations
+#graphify/paper #graphify/EXTRACTED #community/Community_4

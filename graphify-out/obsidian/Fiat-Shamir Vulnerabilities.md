@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch06-fiat-shamir-vulnerabilities.md"
 type: "document"
-community: "Rollup Security, Attacks & Aggregation"
+community: "Community 4"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Verification__Fiat-Shamir
+  - community/Community_4
 ---
 
 # Fiat-Shamir Vulnerabilities
@@ -24,4 +24,4 @@ tags:
 - [[The Three Families]] - `references` [EXTRACTED]
 - [[When the Transcript Lies Fiat-Shamir Vulnerabilities]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Verification__Fiat-Shamir
+#graphify/document #graphify/EXTRACTED #community/Community_4

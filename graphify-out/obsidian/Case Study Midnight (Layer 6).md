@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch07-case-study-midnight.md"
 type: "document"
-community: "Commitments & Post-Quantum Craft"
+community: "Community 0"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Commitments__Post-Quantum_Craft
+  - community/Community_0
 ---
 
 # Case Study: Midnight (Layer 6)
@@ -35,4 +35,4 @@ tags:
 - [[ZKIR (Midnight Intermediate Representation)]] - `references` [EXTRACTED]
 - [[Zcash]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Commitments__Post-Quantum_Craft
+#graphify/document #graphify/EXTRACTED #community/Community_0

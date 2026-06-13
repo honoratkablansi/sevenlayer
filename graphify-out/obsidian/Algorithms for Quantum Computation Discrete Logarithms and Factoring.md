@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch07/ref-24-shor.pdf"
 type: "paper"
-community: "Pairings & Quantum Threat"
+community: "Community 3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Pairings__Quantum_Threat
+  - community/Community_3
 ---
 
 # Algorithms for Quantum Computation: Discrete Logarithms and Factoring
@@ -19,4 +19,4 @@ tags:
 - [[RSA Cryptosystem]] - `conceptually_related_to` [EXTRACTED]
 - [[Shor's Algorithm]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Pairings__Quantum_Threat
+#graphify/paper #graphify/EXTRACTED #community/Community_3

@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch02-bn254-s-eroding-security-margin.md"
 type: "document"
-community: "Trusted Setup & SNARK Foundations"
+community: "Community 6"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Trusted_Setup__SNARK_Foundations
+  - community/Community_6
 ---
 
 # BN254's Eroding Security Margin
@@ -21,4 +21,4 @@ tags:
 - [[The Structured Reference String]] - `references` [EXTRACTED]
 - [[Trusted Setup Ceremony]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Trusted_Setup__SNARK_Foundations
+#graphify/document #graphify/EXTRACTED #community/Community_6

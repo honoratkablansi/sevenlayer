@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-65-greyhound.pdf"
 type: "paper"
-community: "Commitments & Post-Quantum Craft"
+community: "Community 5"
 location: "p.1 (title/abstract)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Commitments__Post-Quantum_Craft
+  - community/Community_5
 ---
 
 # Greyhound: Fast Polynomial Commitments from Lattices
@@ -25,4 +25,4 @@ tags:
 - [[Short Integer Solutions (SIS) Assumption]] - `references` [EXTRACTED]
 - [[The Synthesis -- Three Paths, Not Two]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Commitments__Post-Quantum_Craft
+#graphify/paper #graphify/EXTRACTED #community/Community_5

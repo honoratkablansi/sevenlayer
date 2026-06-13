@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/07-the-deep-craft.md"
 type: "document"
-community: "STARKs & zkVM Landscape"
+community: "Community 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/STARKs__zkVM_Landscape
+  - community/Community_1
 ---
 
 # Small-Field Proving
@@ -27,4 +27,4 @@ tags:
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 - [[zkVMs Across the Stack]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/STARKs__zkVM_Landscape
+#graphify/document #graphify/EXTRACTED #community/Community_1

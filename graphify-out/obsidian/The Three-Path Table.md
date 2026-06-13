@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch10-the-three-path-table.md"
 type: "document"
-community: "STARKs & zkVM Landscape"
+community: "Community 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/STARKs__zkVM_Landscape
+  - community/Community_1
 ---
 
 # The Three-Path Table
@@ -23,4 +23,4 @@ tags:
 - [[The Landscape Table (March 2026)]] - `references` [EXTRACTED]
 - [[The Synthesis -- Three Paths, Not Two]] - `part_of` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/STARKs__zkVM_Landscape
+#graphify/document #graphify/EXTRACTED #community/Community_1

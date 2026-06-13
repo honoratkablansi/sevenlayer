@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch14/ref-62-lattice-functional-commitments.pdf"
 type: "paper"
-community: "Commitments & Post-Quantum Craft"
+community: "Community 5"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Commitments__Post-Quantum_Craft
+  - community/Community_5
 ---
 
 # Lattice-Based Functional Commitments: Fast Verification and Cryptanalysis
@@ -19,4 +19,4 @@ tags:
 - [[Short Integer Solutions (SIS) Assumption]] - `references` [EXTRACTED]
 - [[zkSNARK]] - `references` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Commitments__Post-Quantum_Craft
+#graphify/paper #graphify/EXTRACTED #community/Community_5

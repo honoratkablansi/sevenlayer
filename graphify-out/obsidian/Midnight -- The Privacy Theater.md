@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/12-midnight-the-privacy-theater.md"
 type: "document"
-community: "Midnight Privacy Stack"
+community: "Community 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Midnight_Privacy_Stack
+  - community/Community_2
 ---
 
 # Midnight -- The Privacy Theater
@@ -48,4 +48,4 @@ tags:
 - [[ZKIR Intermediate Representation Reference (Midnight Network, stub)]] - `references` [EXTRACTED]
 - [[Zcash]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Midnight_Privacy_Stack
+#graphify/document #graphify/EXTRACTED #community/Community_2

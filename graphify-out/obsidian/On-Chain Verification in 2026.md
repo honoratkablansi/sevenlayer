@@ -1,12 +1,12 @@
 ---
 source_file: "wiki/sections/ch08-on-chain-verification-in-2026.md"
 type: "document"
-community: "Rollup Security, Attacks & Aggregation"
+community: "Community 4"
 location: "On-Chain Verification in 2026"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Verification__Fiat-Shamir
+  - community/Community_4
 ---
 
 # On-Chain Verification in 2026
@@ -30,4 +30,4 @@ tags:
 - [[When the Transcript Lies Fiat-Shamir Vulnerabilities]] - `references` [EXTRACTED]
 - [[ZK Coprocessors Off-Chain Computation, On-Chain Verification (Growth)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Verification__Fiat-Shamir
+#graphify/document #graphify/EXTRACTED #community/Community_4

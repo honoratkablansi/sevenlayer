@@ -1,17 +1,18 @@
 ---
 source_file: "references/ch02/ref-09-bulletproofs.pdf"
 type: "paper"
-community: "Rollup Security, Attacks & Aggregation"
+community: "Community 12"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Verification__Fiat-Shamir
+  - community/Community_12
 ---
 
 # Bulletproofs: Short Proofs for Confidential Transactions and More
 
 ## Connections
 - [[Bulletproofs]] - `defines` [EXTRACTED]
+- [[Bulletproofs NIZK Argument System]] - `defines` [EXTRACTED]
 - [[Complete Bibliography]] - `cites` [EXTRACTED]
 - [[Discrete Logarithm Assumption]] - `conceptually_related_to` [EXTRACTED]
 - [[Fiat-Shamir Transform]] - `conceptually_related_to` [EXTRACTED]
@@ -23,4 +24,4 @@ tags:
 - [[Secure Multi-Party Computation (MPC)]] - `conceptually_related_to` [EXTRACTED]
 - [[Trusted Setup]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Verification__Fiat-Shamir
+#graphify/paper #graphify/EXTRACTED #community/Community_12

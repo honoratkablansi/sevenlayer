@@ -1,12 +1,12 @@
 ---
 source_file: "wiki/sections/ch05-ccs-the-rosetta-stone.md"
 type: "document"
-community: "Arithmetization & Proving Frontiers"
+community: "Community 1"
 location: "Dependencies"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Arithmetization__Proving_Frontiers
+  - community/Community_1
 ---
 
 # Where the Layers Collapse
@@ -33,4 +33,4 @@ tags:
 - [[The Sumcheck Protocol The Hidden Foundation]] - `references` [EXTRACTED]
 - [[Where the Analogies Break]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Arithmetization__Proving_Frontiers
+#graphify/document #graphify/EXTRACTED #community/Community_1

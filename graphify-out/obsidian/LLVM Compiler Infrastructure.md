@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-32-zkvm-compiler-optimization.pdf"
 type: "paper"
-community: "STARKs & zkVM Landscape"
+community: "Community 1"
 location: "p.1 (abstract)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/STARKs__zkVM_Landscape
+  - community/Community_1
 ---
 
 # LLVM Compiler Infrastructure
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Evaluating Compiler Optimization Impacts on zkVM Performance]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/STARKs__zkVM_Landscape
+#graphify/paper #graphify/EXTRACTED #community/Community_1

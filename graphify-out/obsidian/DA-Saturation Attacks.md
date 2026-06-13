@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Rollup Security, Attacks & Aggregation"
+community: "Community 4"
 location: "DA-Saturation Attacks"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Verification__Fiat-Shamir
+  - community/Community_4
 ---
 
 # DA-Saturation Attacks
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Layer 7 -- The Verdict]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Verification__Fiat-Shamir
+#graphify/document #graphify/EXTRACTED #community/Community_4

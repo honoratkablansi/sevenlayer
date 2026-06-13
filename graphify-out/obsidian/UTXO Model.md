@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch12-full-seven-layer-mapping.md"
 type: "document"
-community: "Midnight Privacy Stack"
+community: "Community 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Midnight_Privacy_Stack
+  - community/Community_2
 ---
 
 # UTXO Model
@@ -16,4 +16,4 @@ tags:
 - [[The Privacy Theater Analogy]] - `references` [EXTRACTED]
 - [[Where Midnight Challenges the Model]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Midnight_Privacy_Stack
+#graphify/document #graphify/EXTRACTED #community/Community_2

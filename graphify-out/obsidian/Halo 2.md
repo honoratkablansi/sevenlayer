@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/12-midnight-the-privacy-theater.md"
 type: "document"
-community: "Commitments & Post-Quantum Craft"
+community: "Community 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Commitments__Post-Quantum_Craft
+  - community/Community_2
 ---
 
 # Halo 2
@@ -44,4 +44,4 @@ tags:
 - [[ZK Rollups The Proving Grounds (Production)]] - `references` [EXTRACTED]
 - [[ZKML Provable Machine Learning (Research)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Commitments__Post-Quantum_Craft
+#graphify/document #graphify/EXTRACTED #community/Community_2

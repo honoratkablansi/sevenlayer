@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/concepts/beanstalk.md"
 type: "document"
-community: "Midnight Privacy Stack"
+community: "Community 6"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Midnight_Privacy_Stack
+  - community/Community_6
 ---
 
 # Beanstalk
@@ -21,4 +21,4 @@ tags:
 - [[The Synthesis -- Three Paths, Not Two]] - `references` [EXTRACTED]
 - [[Trust Decomposition Seven Weaker Assumptions]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Midnight_Privacy_Stack
+#graphify/document #graphify/EXTRACTED #community/Community_6

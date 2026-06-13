@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/01-the-promise-of-provable-and-programmable-secrets.md"
 type: "document"
-community: "Trusted Setup & SNARK Foundations"
+community: "Community 4"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Trusted_Setup__SNARK_Foundations
+  - community/Community_4
 ---
 
 # Groth16
@@ -29,6 +29,7 @@ tags:
 - [[On the Size of Pairing-Based Non-interactive Arguments]] - `defines` [EXTRACTED]
 - [[On-Chain Verification in 2026]] - `references` [EXTRACTED]
 - [[Open Questions and the Road Ahead]] - `references` [EXTRACTED]
+- [[PLONK Permutations over Lagrange-bases for Oecumenical Noninteractive arguments of Knowledge]] - `cites` [EXTRACTED]
 - [[Path One The Hybrid STARK-to-SNARK Pipeline]] - `conceptually_related_to` [EXTRACTED]
 - [[Path Three Post-Quantum Folding]] - `conceptually_related_to` [EXTRACTED]
 - [[Path Two Pure Transparent]] - `conceptually_related_to` [EXTRACTED]
@@ -79,4 +80,4 @@ tags:
 - [[ZK Rollups The Proving Grounds (Production)]] - `references` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Trusted_Setup__SNARK_Foundations
+#graphify/document #graphify/EXTRACTED #community/Community_4

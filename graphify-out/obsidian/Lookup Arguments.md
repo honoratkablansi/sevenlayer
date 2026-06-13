@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/05-encoding-the-performance.md"
 type: "document"
-community: "Arithmetization & Proving Frontiers"
+community: "Community 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Arithmetization__Proving_Frontiers
+  - community/Community_1
 ---
 
 # Lookup Arguments
@@ -20,6 +20,7 @@ tags:
 - [[Layer 4 -- Arithmetization]] - `references` [EXTRACTED]
 - [[LogUp]] - `conceptually_related_to` [INFERRED]
 - [[Lookup Arguments_1]] - `defines` [EXTRACTED]
+- [[Offline memory checking]] - `conceptually_related_to` [EXTRACTED]
 - [[Protostar Generic Efficient AccumulationFolding for Special-sound Protocols]] - `conceptually_related_to` [EXTRACTED]
 - [[Three zkVMs Through Seven Layers]] - `conceptually_related_to` [EXTRACTED]
 - [[Unlocking the Lookup Singularity with Lasso]] - `defines` [EXTRACTED]
@@ -27,4 +28,4 @@ tags:
 - [[Where the Analogies Break]] - `references` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Arithmetization__Proving_Frontiers
+#graphify/document #graphify/EXTRACTED #community/Community_1

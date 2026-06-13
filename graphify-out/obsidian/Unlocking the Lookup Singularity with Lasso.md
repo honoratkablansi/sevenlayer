@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch03/ref-15-lasso.pdf"
 type: "paper"
-community: "Arithmetization & Proving Frontiers"
+community: "Community 13"
 location: "p.1 (title/abstract)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Arithmetization__Proving_Frontiers
+  - community/Community_13
 ---
 
 # Unlocking the Lookup Singularity with Lasso
@@ -19,4 +19,4 @@ tags:
 - [[Polynomial Commitment Scheme]] - `conceptually_related_to` [EXTRACTED]
 - [[Spartan]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Arithmetization__Proving_Frontiers
+#graphify/paper #graphify/EXTRACTED #community/Community_13
