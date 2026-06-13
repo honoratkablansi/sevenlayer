@@ -1,0 +1,1102 @@
+[
+  {
+    "id": 1,
+    "slug": "valiant-ivc",
+    "citation": "Valiant, \"Incrementally Verifiable Computation, or Proofs of Knowledge Imply Time/Space Efficiency\" (TCC 2008)",
+    "chapters": [
+      1
+    ],
+    "type": "stub",
+    "file": "references/recursion/ch1/ref-01-valiant-ivc.md",
+    "status": "pending"
+  },
+  {
+    "id": 2,
+    "slug": "bctv-cycles",
+    "citation": "Ben-Sasson, Chiesa, Tromer, Virza, \"Scalable Zero Knowledge via Cycles of Elliptic Curves\" (CRYPTO 2014)",
+    "chapters": [
+      1
+    ],
+    "type": "paper",
+    "url": "https://eprint.iacr.org/2014/595.pdf",
+    "file": "references/recursion/ch1/ref-02-bctv-cycles.pdf",
+    "status": "pending"
+  },
+  {
+    "id": 3,
+    "slug": "bitansky-recursive-snark-pcd",
+    "citation": "Bitansky, Canetti, Chiesa, Tromer, \"Recursive Composition and Bootstrapping for SNARKs and Proof-Carrying Data\" (STOC 2013)",
+    "chapters": [
+      1
+    ],
+    "type": "paper",
+    "url": "https://eprint.iacr.org/2012/095.pdf",
+    "file": "references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf",
+    "status": "pending"
+  },
+  {
+    "id": 4,
+    "slug": "chiesa-tromer-pcd-hearsay",
+    "citation": "Chiesa, Tromer, \"Proof-Carrying Data and Hearsay Arguments from Signature Cards\" (ICS 2010)",
+    "chapters": [
+      1
+    ],
+    "type": "stub",
+    "file": "references/recursion/ch1/ref-04-chiesa-tromer-pcd-hearsay.md",
+    "status": "pending"
+  },
+  {
+    "id": 5,
+    "slug": "halo",
+    "citation": "Bowe, Grigg, Hopwood, \"Halo: Recursive Proof Composition without a Trusted Setup\" (ePrint 2019/1021)",
+    "chapters": [
+      1
+    ],
+    "type": "paper",
+    "url": "https://eprint.iacr.org/2019/1021.pdf",
+    "file": "references/recursion/ch1/ref-05-halo.pdf",
+    "status": "pending"
+  },
+  {
+    "id": 6,
+    "slug": "nova",
+    "citation": "Kothapalli, Setty, Tzialla, \"Nova: Recursive Zero-Knowledge Arguments from Folding Schemes\" (CRYPTO 2022)",
+    "chapters": [
+      1
+    ],
+    "type": "paper",
+    "file": "references/ch06/ref-17-nova.pdf",
+    "reuse": "references/ch06/ref-17-nova.pdf",
+    "status": "pending"
+  },
+  {
+    "id": 7,
+    "slug": "plonky2",
+    "citation": "Polygon Zero, \"Plonky2: Fast Recursive Arguments with PLONK and FRI\" (2022)",
+    "chapters": [
+      1
+    ],
+    "type": "web",
+    "url": "https://github.com/0xPolygonZero/plonky2/blob/main/plonky2/plonky2.pdf",
+    "file": "references/recursion/ch1/ref-07-plonky2.md",
+    "status": "pending"
+  },
+  {
+    "id": 8,
+    "slug": "sp1-hypercube",
+    "citation": "Succinct, \"SP1 Hypercube\" (2025)",
+    "chapters": [
+      1
+    ],
+    "type": "web",
+    "url": "https://blog.succinct.xyz/sp1-hypercube/",
+    "file": "references/recursion/ch1/ref-08-sp1-hypercube.md",
+    "status": "pending"
+  },
+  {
+    "id": 9,
+    "slug": "bcms-pcd-accumulation",
+    "citation": "Bünz, Chiesa, Mishra, Spooner, \"Proof-Carrying Data from Accumulation Schemes\" (TCC 2020)",
+    "chapters": [
+      1
+    ],
+    "type": "paper",
+    "url": "https://eprint.iacr.org/2020/499.pdf",
+    "file": "references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf",
+    "status": "pending"
+  },
+  {
+    "id": 10,
+    "slug": "fractal",
+    "citation": "Chiesa, Ojha, Spooner, \"Fractal: Post-Quantum and Transparent Recursive Proofs from Holography\" (EUROCRYPT 2020)",
+    "chapters": [
+      1
+    ],
+    "type": "paper",
+    "url": "https://eprint.iacr.org/2019/1076.pdf",
+    "file": "references/recursion/ch1/ref-10-fractal.pdf",
+    "status": "pending"
+  },
+  {
+    "id": 11,
+    "slug": "khovratovich-fiat-shamir-attacks",
+    "citation": "Khovratovich, Rothblum, Soukhanov, \"How to Prove False Statements: Practical Attacks on Fiat-Shamir\" (ePrint 2025/118)",
+    "chapters": [
+      1
+    ],
+    "type": "paper",
+    "url": "https://eprint.iacr.org/2025/118.pdf",
+    "file": "references/recursion/ch1/ref-11-khovratovich-fiat-shamir-attacks.pdf",
+    "status": "pending"
+  },
+  {
+    "id": 12,
+    "slug": "pasta-curves",
+    "citation": "Hopwood, \"The Pasta Curves\" (Zcash, 2020)",
+    "chapters": [
+      1
+    ],
+    "type": "web",
+    "url": "https://electriccoin.co/blog/the-pasta-curves-for-halo-2-and-beyond/",
+    "file": "references/recursion/ch1/ref-12-pasta-curves.md",
+    "status": "pending"
+  },
+  {
+    "id": 13,
+    "slug": "chiesa-chua-weidner-cycles",
+    "citation": "Chiesa, Chua, Weidner, \"On Cycles of Pairing-Friendly Elliptic Curves\" (2019)",
+    "chapters": [
+      1
+    ],
+    "type": "paper",
+    "url": "https://arxiv.org/pdf/1803.02067",
+    "file": "references/recursion/ch1/ref-13-chiesa-chua-weidner-cycles.pdf",
+    "status": "pending"
+  },
+  {
+    "id": 14,
+    "slug": "bclms-pcd-without-succinct",
+    "citation": "Bünz, Chiesa, Lin, Mishra, Spooner, \"Proof-Carrying Data without Succinct Arguments\" (CRYPTO 2021)",
+    "chapters": [
+      1
+    ],
+    "type": "paper",
+    "url": "https://eprint.iacr.org/2020/1618.pdf",
+    "file": "references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf",
+    "status": "pending"
+  },
+  {
+    "id": 15,
+    "slug": "circle-starks",
+    "citation": "Haböck, Levit, Papini, \"Circle STARKs\" (ePrint 2024/278)",
+    "chapters": [
+      1
+    ],
+    "type": "paper",
+    "file": "references/ch06/ref-23-circle-starks.pdf",
+    "reuse": "references/ch06/ref-23-circle-starks.pdf",
+    "status": "pending"
+  },
+  {
+    "id": 16,
+    "slug": "stark",
+    "citation": "Ben-Sasson, Bentov, Horesh, Riabzev, \"Scalable, Transparent, and Post-Quantum Secure Computational Integrity\" (ePrint 2018/046)",
+    "chapters": [
+      1
+    ],
+    "type": "paper",
+    "file": "references/ch02/ref-08-stark.pdf",
+    "reuse": "references/ch02/ref-08-stark.pdf",
+    "status": "pending"
+  },
+  {
+    "id": 17,
+    "slug": "polygon-zkevm-docs",
+    "citation": "Polygon zkEVM documentation (STARK→FFLONK pipeline)",
+    "chapters": [
+      1
+    ],
+    "type": "web",
+    "url": "https://docs.polygon.technology/zkEVM/",
+    "file": "references/recursion/ch1/ref-17-polygon-zkevm-docs.md",
+    "status": "pending"
+  },
+  {
+    "id": 18,
+    "slug": "risc-zero-proof-system-overview",
+    "citation": "RISC Zero, \"Proof System Overview\"",
+    "chapters": [
+      1
+    ],
+    "type": "web",
+    "url": "https://dev.risczero.com/proof-system/proof-system-sequence-diagram",
+    "file": "references/recursion/ch1/ref-18-risc-zero-proof-system-overview.md",
+    "status": "pending"
+  },
+  {
+    "id": 19,
+    "slug": "ef-l1-zkevm-realtime-proving",
+    "citation": "Ethereum Foundation, \"Shipping an L1 zkEVM #1: Realtime Proving\" (2025)",
+    "chapters": [
+      1
+    ],
+    "type": "web",
+    "url": "https://blog.ethereum.org/2025/07/10/realtime-proving",
+    "file": "references/recursion/ch1/ref-19-ef-l1-zkevm-realtime-proving.md",
+    "status": "pending"
+  },
+  {
+    "id": 20,
+    "slug": "thaler-proofs-arguments-zk",
+    "citation": "Thaler, \"Proofs, Arguments, and Zero-Knowledge\" (survey text)",
+    "chapters": [
+      1
+    ],
+    "type": "web",
+    "url": "https://people.cs.georgetown.edu/jthaler/ProofsArgsAndZK.pdf",
+    "file": "references/recursion/ch1/ref-20-thaler-proofs-arguments-zk.md",
+    "status": "pending"
+  },
+  {
+    "id": 21,
+    "slug": "zktree",
+    "citation": "Deng, Du, \"zkTree: A Zero-Knowledge Recursion Tree with ZKP Membership Proofs\" (ePrint 2023/208)",
+    "chapters": [
+      1
+    ],
+    "type": "paper",
+    "url": "https://eprint.iacr.org/2023/208.pdf",
+    "file": "references/recursion/ch1/ref-21-zktree.pdf",
+    "status": "pending"
+  },
+  {
+    "id": 22,
+    "slug": "nebra-upa",
+    "citation": "Nebra, \"Universal Proof Aggregation\" (UPA whitepaper, 2023)",
+    "chapters": [
+      1
+    ],
+    "type": "web",
+    "url": "https://docs.nebra.one/",
+    "file": "references/recursion/ch1/ref-22-nebra-upa.md",
+    "status": "pending"
+  },
+  {
+    "id": 23,
+    "slug": "risc-zero-continuations",
+    "citation": "RISC Zero, \"Continuations\" / \"Using Continuations to Prove Any EVM Transaction\" (2023)",
+    "chapters": [
+      1
+    ],
+    "type": "web",
+    "url": "https://risczero.com/blog/continuations",
+    "file": "references/recursion/ch1/ref-23-risc-zero-continuations.md",
+    "status": "pending"
+  },
+  {
+    "id": 24,
+    "slug": "beats-batch-ecdsa",
+    "citation": "\"BEATS: Batch ECDSA Transaction verification Scheme\" / Scalable batch verification of ECDSA for blockchain using IVC (Frontiers of Computer Science, 2025)",
+    "chapters": [
+      1
+    ],
+    "type": "stub",
+    "file": "references/recursion/ch1/ref-24-beats-batch-ecdsa.md",
+    "status": "pending"
+  },
+  {
+    "id": 25,
+    "slug": "mina-hazook",
+    "citation": "Mina, \"Hazook\" recursive zkRollup design (2024)",
+    "chapters": [
+      1
+    ],
+    "type": "web",
+    "url": "https://github.com/o1-labs/zkapps-rollup",
+    "file": "references/recursion/ch1/ref-25-mina-hazook.md",
+    "status": "pending"
+  },
+  {
+    "id": 26,
+    "slug": "jolt",
+    "citation": "Arun, Setty, Thaler, \"Jolt: SNARKs for Virtual Machines via Lookups\" (ePrint 2023/1217)",
+    "chapters": [
+      1
+    ],
+    "type": "paper",
+    "file": "references/ch03/ref-16-jolt.pdf",
+    "reuse": "references/ch03/ref-16-jolt.pdf",
+    "status": "pending"
+  },
+  {
+    "id": 27,
+    "slug": "succinct-sp1-docs",
+    "citation": "Succinct, SP1 technical documentation",
+    "chapters": [
+      1
+    ],
+    "type": "web",
+    "url": "https://docs.succinct.xyz/docs/sp1/introduction",
+    "file": "references/recursion/ch1/ref-27-succinct-sp1-docs.md",
+    "status": "pending"
+  },
+  {
+    "id": 28,
+    "slug": "risc-zero-technical-docs",
+    "citation": "RISC Zero technical documentation (dev.risczero.com)",
+    "chapters": [
+      1
+    ],
+    "type": "web",
+    "url": "https://dev.risczero.com/api/",
+    "file": "references/recursion/ch1/ref-28-risc-zero-technical-docs.md",
+    "status": "pending"
+  },
+  {
+    "id": 29,
+    "slug": "zkdev-recursive-circuits",
+    "citation": "Practitioner literature on recursive ZK circuit design (e.g., zkDev, \"Designing Efficient Recursive ZK Circuits,\" 2026)",
+    "chapters": [
+      1
+    ],
+    "type": "stub",
+    "file": "references/recursion/ch1/ref-29-zkdev-recursive-circuits.md",
+    "status": "pending"
+  },
+  {
+    "id": 30,
+    "slug": "cyclefold",
+    "citation": "Kothapalli, Setty, \"CycleFold: Folding-Scheme-Based Recursive Arguments over a Cycle of Elliptic Curves\" (ePrint 2023/1192)",
+    "chapters": [
+      1
+    ],
+    "type": "paper",
+    "url": "https://eprint.iacr.org/2023/1192.pdf",
+    "file": "references/recursion/ch1/ref-30-cyclefold.pdf",
+    "status": "pending"
+  },
+  {
+    "id": 31,
+    "slug": "poseidon",
+    "citation": "Grassi, Khovratovich, Rechberger, Roy, Schofnegger, \"Poseidon: A New Hash Function for Zero-Knowledge Proof Systems\" (USENIX Security 2021)",
+    "chapters": [
+      1
+    ],
+    "type": "paper",
+    "url": "https://eprint.iacr.org/2019/458.pdf",
+    "file": "references/recursion/ch1/ref-31-poseidon.pdf",
+    "status": "pending"
+  },
+  {
+    "id": 32,
+    "slug": "nguyen-boneh-setty-nova-cycle",
+    "citation": "Nguyen, Boneh, Setty, \"Revisiting the Nova Proof System on a Cycle of Curves\" (ePrint 2023/969)",
+    "chapters": [
+      1
+    ],
+    "type": "paper",
+    "url": "https://eprint.iacr.org/2023/969.pdf",
+    "file": "references/recursion/ch1/ref-32-nguyen-boneh-setty-nova-cycle.pdf",
+    "status": "pending"
+  },
+  {
+    "id": 33,
+    "slug": "snarkpack",
+    "citation": "Gailly, Maller, Nitulescu, \"SnarkPack: Practical SNARK Aggregation\" (FC 2022)",
+    "chapters": [
+      1
+    ],
+    "type": "paper",
+    "url": "https://eprint.iacr.org/2021/529.pdf",
+    "file": "references/recursion/ch1/ref-33-snarkpack.pdf",
+    "status": "pending"
+  },
+  {
+    "id": 34,
+    "slug": "succinct-16-gpus",
+    "citation": "Succinct, \"Real-Time Proving with 16 GPUs\" (2026)",
+    "chapters": [
+      1
+    ],
+    "type": "web",
+    "url": "https://blog.succinct.xyz/realtime-proving-16-gpus/",
+    "file": "references/recursion/ch1/ref-34-succinct-16-gpus.md",
+    "status": "pending"
+  },
+  {
+    "id": 35,
+    "slug": "aligned-year-of-zkvm-realtime",
+    "citation": "Aligned Layer, \"The Year of zkVM Real-Time Proving\" (2025) / prover-market analyses",
+    "chapters": [
+      1
+    ],
+    "type": "web",
+    "url": "https://blog.alignedlayer.com/the-year-of-zkvm-real-time-proving/",
+    "file": "references/recursion/ch1/ref-35-aligned-year-of-zkvm-realtime.md",
+    "status": "pending"
+  },
+  {
+    "id": 36,
+    "slug": "latticefold",
+    "citation": "Boneh, Chen, \"LatticeFold: A Lattice-Based Folding Scheme and its Applications to Succinct Proof Systems\" (ePrint 2024/257)",
+    "chapters": [
+      1
+    ],
+    "type": "paper",
+    "file": "references/ch06/ref-20-latticefold.pdf",
+    "reuse": "references/ch06/ref-20-latticefold.pdf",
+    "status": "pending"
+  },
+  {
+    "id": 37,
+    "slug": "ethereum-lean-hash-based-sig-aggregation",
+    "citation": "Ethereum \"Lean\" roadmap materials on hash-based signature aggregation",
+    "chapters": [
+      1
+    ],
+    "type": "web",
+    "url": "https://blog.ethereum.org/2025/07/31/lean-ethereum",
+    "file": "references/recursion/ch1/ref-37-ethereum-lean-hash-based-sig-aggregation.md",
+    "status": "pending"
+  },
+  {
+    "id": 38,
+    "slug": "hypernova",
+    "citation": "Kothapalli, Setty, \"HyperNova: Recursive Arguments for Customizable Constraint Systems\" (ePrint 2023/573)",
+    "chapters": [
+      1
+    ],
+    "type": "paper",
+    "file": "references/ch06/ref-18-hypernova.pdf",
+    "reuse": "references/ch06/ref-18-hypernova.pdf",
+    "status": "pending"
+  },
+  {
+    "id": 39,
+    "slug": "pedersen-commitments",
+    "citation": "Pedersen, \"Non-Interactive and Information-Theoretic Secure Verifiable Secret Sharing\" (CRYPTO 1991)",
+    "chapters": [
+      2
+    ],
+    "type": "stub",
+    "file": "references/recursion/ch2/ref-39-pedersen-commitments.md",
+    "status": "pending"
+  },
+  {
+    "id": 40,
+    "slug": "fiat-shamir",
+    "citation": "Fiat, Shamir, \"How to Prove Yourself: Practical Solutions to Identification and Signature Problems\" (CRYPTO 1986)",
+    "chapters": [
+      2
+    ],
+    "type": "stub",
+    "file": "references/recursion/ch2/ref-40-fiat-shamir.md",
+    "status": "pending"
+  },
+  {
+    "id": 41,
+    "slug": "spartan",
+    "citation": "Setty, \"Spartan: Efficient and General-Purpose zkSNARKs without Trusted Setup\" (CRYPTO 2020)",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "url": "https://eprint.iacr.org/2019/550.pdf",
+    "file": "references/recursion/ch2/ref-41-spartan.pdf",
+    "status": "pending"
+  },
+  {
+    "id": 42,
+    "slug": "minroot-vdf",
+    "citation": "Khovratovich, Maller, Tiwari et al., \"MinRoot\" VDF candidate (2022)",
+    "chapters": [
+      2
+    ],
+    "type": "web",
+    "url": "https://khovratovich.github.io/MinRoot/minroot.pdf",
+    "file": "references/recursion/ch2/ref-42-minroot-vdf.md",
+    "status": "pending"
+  },
+  {
+    "id": 43,
+    "slug": "nova-implementation",
+    "citation": "Nova reference implementation (github.com/microsoft/Nova)",
+    "chapters": [
+      2
+    ],
+    "type": "web",
+    "url": "https://github.com/microsoft/Nova",
+    "file": "references/recursion/ch2/ref-43-nova-implementation.md",
+    "status": "pending"
+  },
+  {
+    "id": 44,
+    "slug": "supernova",
+    "citation": "Kothapalli, Setty, \"SuperNova: Proving Universal Machine Executions without Universal Circuits\" (ePrint 2022/1758)",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "url": "https://eprint.iacr.org/2022/1758.pdf",
+    "file": "references/recursion/ch2/ref-44-supernova.pdf",
+    "status": "pending"
+  },
+  {
+    "id": 45,
+    "slug": "ccs",
+    "citation": "Setty, Thaler, Wahby, \"Customizable Constraint Systems for Succinct Arguments\" (ePrint 2023/552)",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "file": "references/ch03/ref-14-ccs-customizable-constraints.pdf",
+    "reuse": "references/ch03/ref-14-ccs-customizable-constraints.pdf",
+    "status": "pending"
+  },
+  {
+    "id": 46,
+    "slug": "protostar",
+    "citation": "Bünz, Chen, \"ProtoStar: Generic Efficient Accumulation/Folding for Special-Sound Protocols\" (ePrint 2023/620)",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "file": "references/ch06/ref-19-protostar.pdf",
+    "reuse": "references/ch06/ref-19-protostar.pdf",
+    "status": "pending"
+  },
+  {
+    "id": 47,
+    "slug": "protogalaxy",
+    "citation": "Eagen, Gabizon, \"ProtoGalaxy: Efficient ProtoStar-style Folding of Multiple Instances\" (ePrint 2023/1106)",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "url": "https://eprint.iacr.org/2023/1106.pdf",
+    "file": "references/recursion/ch2/ref-47-protogalaxy.pdf",
+    "status": "pending"
+  },
+  {
+    "id": 48,
+    "slug": "sonobe",
+    "citation": "Sonobe library documentation (PSE/0xPARC)",
+    "chapters": [
+      2
+    ],
+    "type": "web",
+    "url": "https://privacy-scaling-explorations.github.io/sonobe-docs/",
+    "file": "references/recursion/ch2/ref-48-sonobe.md",
+    "status": "pending"
+  },
+  {
+    "id": 49,
+    "slug": "mina-pickles-docs",
+    "citation": "Mina \"Pickles\" technical documentation",
+    "chapters": [
+      2
+    ],
+    "type": "web",
+    "url": "https://o1-labs.github.io/proof-systems/pickles/overview.html",
+    "file": "references/recursion/ch2/ref-49-mina-pickles-docs.md",
+    "status": "pending"
+  },
+  {
+    "id": 50,
+    "slug": "veridise-nova-series",
+    "citation": "Veridise Nova article series (accessible exposition of Nova/folding)",
+    "chapters": [
+      2
+    ],
+    "type": "web",
+    "url": "https://medium.com/veridise/breaking-down-the-nova-recursive-snark-d2e4e6c10f48",
+    "file": "references/recursion/ch2/ref-50-veridise-nova-series.md",
+    "status": "pending"
+  },
+  {
+    "id": 51,
+    "slug": "canetti-goldreich-halevi-rom",
+    "citation": "Canetti, Goldreich, Halevi, \"The Random Oracle Methodology, Revisited\" (JACM 2004)",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "url": "https://eprint.iacr.org/1998/011.pdf",
+    "file": "references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf",
+    "status": "pending"
+  },
+  {
+    "id": 52,
+    "slug": "latticefold-plus",
+    "citation": "Boneh, Chen, \"LatticeFold+: Faster, Simpler, Shorter Lattice-Based Folding for Succinct Proof Systems\" (ePrint 2025/247)",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "file": "references/ch02/ref-11-latticefold-plus.pdf",
+    "reuse": "references/ch02/ref-11-latticefold-plus.pdf",
+    "status": "pending"
+  },
+  {
+    "id": 53,
+    "slug": "starkware-recursive-starks",
+    "citation": "StarkWare, \"Recursive STARKs\" (2022)",
+    "chapters": [
+      3
+    ],
+    "type": "web",
+    "url": "https://www.starknet.io/blog/recursive-starks/",
+    "file": "references/recursion/ch3/ref-53-starkware-recursive-starks.md",
+    "status": "pending"
+  },
+  {
+    "id": 54,
+    "slug": "ethereum-rollup-centric-roadmap",
+    "citation": "Ethereum rollup-centric roadmap materials (Buterin, \"A rollup-centric ethereum roadmap\")",
+    "chapters": [
+      3
+    ],
+    "type": "web",
+    "url": "https://ethereum-magicians.org/t/a-rollup-centric-ethereum-roadmap/4698",
+    "file": "references/recursion/ch3/ref-54-ethereum-rollup-centric-roadmap.md",
+    "status": "pending"
+  },
+  {
+    "id": 55,
+    "slug": "polygon-agglayer-docs",
+    "citation": "Polygon AggLayer documentation",
+    "chapters": [
+      3
+    ],
+    "type": "web",
+    "url": "https://docs.polygon.technology/agglayer/",
+    "file": "references/recursion/ch3/ref-55-polygon-agglayer-docs.md",
+    "status": "pending"
+  },
+  {
+    "id": 56,
+    "slug": "ethereum-org-zkevm-roadmap",
+    "citation": "ethereum.org zkEVM roadmap page",
+    "chapters": [
+      3
+    ],
+    "type": "web",
+    "url": "https://ethereum.org/en/roadmap/",
+    "file": "references/recursion/ch3/ref-56-ethereum-org-zkevm-roadmap.md",
+    "status": "pending"
+  },
+  {
+    "id": 57,
+    "slug": "ethproofs-reporting",
+    "citation": "LambdaClass/ethproofs.org reporting and benchmark data (Pico Prism, ethrex)",
+    "chapters": [
+      3
+    ],
+    "type": "web",
+    "url": "https://ethproofs.org/",
+    "file": "references/recursion/ch3/ref-57-ethproofs-reporting.md",
+    "status": "pending"
+  },
+  {
+    "id": 58,
+    "slug": "coda-mina",
+    "citation": "Bonneau, Meckler, Rao, Shapiro, \"Coda: Decentralized Cryptocurrency at Scale\" (ePrint 2020/352)",
+    "chapters": [
+      3
+    ],
+    "type": "paper",
+    "url": "https://eprint.iacr.org/2020/352.pdf",
+    "file": "references/recursion/ch3/ref-58-coda-mina.pdf",
+    "status": "pending"
+  },
+  {
+    "id": 59,
+    "slug": "zkbridge",
+    "citation": "Xie, Zhang, Cheng, Zhang, Zhang, Jia, Boneh, Song, \"zkBridge: Trustless Cross-chain Bridges Made Practical\" (CCS 2022)",
+    "chapters": [
+      3
+    ],
+    "type": "paper",
+    "url": "https://arxiv.org/pdf/2210.00264",
+    "file": "references/recursion/ch3/ref-59-zkbridge.pdf",
+    "status": "pending"
+  },
+  {
+    "id": 60,
+    "slug": "verifiable-voting-zk-tallies",
+    "citation": "Academic literature on end-to-end verifiable voting with zero-knowledge tallies",
+    "chapters": [
+      3
+    ],
+    "type": "stub",
+    "file": "references/recursion/ch3/ref-60-verifiable-voting-zk-tallies.md",
+    "status": "pending"
+  },
+  {
+    "id": 61,
+    "slug": "verisbom",
+    "citation": "\"VeriSBOM: Secure and Verifiable SBOM Sharing via Zero-Knowledge Proofs\" (arXiv, 2026)",
+    "chapters": [
+      3
+    ],
+    "type": "paper",
+    "url": "https://arxiv.org/pdf/2602.13682",
+    "file": "references/recursion/ch3/ref-61-verisbom.pdf",
+    "status": "pending"
+  },
+  {
+    "id": 62,
+    "slug": "ntia-cisa-sbom-minimum-elements",
+    "citation": "NTIA/CISA SBOM minimum-elements documents",
+    "chapters": [
+      3
+    ],
+    "type": "web",
+    "url": "https://www.ntia.gov/report/2021/minimum-elements-software-bill-materials-sbom",
+    "file": "references/recursion/ch3/ref-62-ntia-cisa-sbom-minimum-elements.md",
+    "status": "pending"
+  },
+  {
+    "id": 63,
+    "slug": "slsa-intoto-frameworks",
+    "citation": "in-toto and SLSA supply-chain framework documentation",
+    "chapters": [
+      3
+    ],
+    "type": "web",
+    "url": "https://slsa.dev/spec/v1.0/",
+    "file": "references/recursion/ch3/ref-63-slsa-intoto-frameworks.md",
+    "status": "pending"
+  },
+  {
+    "id": 64,
+    "slug": "reproducible-builds-literature",
+    "citation": "Reproducible-builds literature",
+    "chapters": [
+      3
+    ],
+    "type": "stub",
+    "file": "references/recursion/ch3/ref-64-reproducible-builds-literature.md",
+    "status": "pending"
+  },
+  {
+    "id": 65,
+    "slug": "rfc-6962-certificate-transparency",
+    "citation": "Laurie, Langley, Kasper, RFC 6962 (Certificate Transparency)",
+    "chapters": [
+      3
+    ],
+    "type": "web",
+    "url": "https://www.rfc-editor.org/rfc/rfc6962",
+    "file": "references/recursion/ch3/ref-65-rfc-6962-certificate-transparency.md",
+    "status": "pending"
+  },
+  {
+    "id": 66,
+    "slug": "snark-backed-transparency-logs",
+    "citation": "Research literature on SNARK-backed transparency logs and verifiable log-structured storage",
+    "chapters": [
+      3
+    ],
+    "type": "stub",
+    "file": "references/recursion/ch3/ref-66-snark-backed-transparency-logs.md",
+    "status": "pending"
+  },
+  {
+    "id": 67,
+    "slug": "ivc-flight-control-benchmark",
+    "citation": "Published IVC flight-control benchmark work (real-time high-integrity flight control via recursive SNARKs)",
+    "chapters": [
+      3
+    ],
+    "type": "stub",
+    "file": "references/recursion/ch3/ref-67-ivc-flight-control-benchmark.md",
+    "status": "pending"
+  },
+  {
+    "id": 68,
+    "slug": "do-178c-avionics-certification",
+    "citation": "Avionics certification literature (DO-178C)",
+    "chapters": [
+      3
+    ],
+    "type": "web",
+    "url": "https://www.rtca.org/do-178c/",
+    "file": "references/recursion/ch3/ref-68-do-178c-avionics-certification.md",
+    "status": "pending"
+  },
+  {
+    "id": 69,
+    "slug": "kang-trustless-dnn-inference",
+    "citation": "Kang, Hashimoto, Stoica, Sun, \"Scaling up Trustless DNN Inference with Zero-Knowledge Proofs\" (2022)",
+    "chapters": [
+      3
+    ],
+    "type": "paper",
+    "url": "https://arxiv.org/pdf/2210.08674",
+    "file": "references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf",
+    "status": "pending"
+  },
+  {
+    "id": 70,
+    "slug": "zkcnn",
+    "citation": "Liu, Xie, Zhang, \"zkCNN: Zero Knowledge Proofs for Convolutional Neural Network Predictions and Accuracy\" (CCS 2021)",
+    "chapters": [
+      3
+    ],
+    "type": "paper",
+    "url": "https://eprint.iacr.org/2021/673.pdf",
+    "file": "references/recursion/ch3/ref-70-zkcnn.pdf",
+    "status": "pending"
+  },
+  {
+    "id": 71,
+    "slug": "nova-zkml-folding",
+    "citation": "Nova-based zkML folding literature",
+    "chapters": [
+      3
+    ],
+    "type": "stub",
+    "file": "references/recursion/ch3/ref-71-nova-zkml-folding.md",
+    "status": "pending"
+  },
+  {
+    "id": 72,
+    "slug": "ezkl-modulus-docs",
+    "citation": "EZKL and Modulus Labs systems documentation",
+    "chapters": [
+      3
+    ],
+    "type": "web",
+    "url": "https://docs.ezkl.xyz/",
+    "file": "references/recursion/ch3/ref-72-ezkl-modulus-docs.md",
+    "status": "pending"
+  },
+  {
+    "id": 73,
+    "slug": "vsql",
+    "citation": "Zhang, Genkin, Katz, Papadopoulos, Papamanthou, \"vSQL: Verifying Arbitrary SQL Queries over Dynamic Outsourced Databases\" (S&P 2017)",
+    "chapters": [
+      3
+    ],
+    "type": "paper",
+    "url": "https://eprint.iacr.org/2017/1145.pdf",
+    "file": "references/recursion/ch3/ref-73-vsql.pdf",
+    "status": "pending"
+  },
+  {
+    "id": 74,
+    "slug": "verifiable-database-zk-analytics",
+    "citation": "Subsequent verifiable-database and zk-analytics literature",
+    "chapters": [
+      3
+    ],
+    "type": "stub",
+    "file": "references/recursion/ch3/ref-74-verifiable-database-zk-analytics.md",
+    "status": "pending"
+  },
+  {
+    "id": 75,
+    "slug": "goldwasser-kalai-rothblum-muggles",
+    "citation": "Goldwasser, Kalai, Rothblum, \"Delegating Computation: Interactive Proofs for Muggles\" (STOC 2008)",
+    "chapters": [
+      3
+    ],
+    "type": "paper",
+    "url": "https://eccc.weizmann.ac.il/report/2017/108/download/",
+    "file": "references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf",
+    "status": "pending"
+  },
+  {
+    "id": 76,
+    "slug": "ivc-streaming-literature",
+    "citation": "IVC streaming computation literature",
+    "chapters": [
+      3
+    ],
+    "type": "stub",
+    "file": "references/recursion/ch3/ref-76-ivc-streaming-literature.md",
+    "status": "pending"
+  },
+  {
+    "id": 77,
+    "slug": "photoproof",
+    "citation": "Naveh, Tromer, \"PhotoProof: Cryptographic Image Authentication for Any Set of Permissible Transformations\" (S&P 2016)",
+    "chapters": [
+      3
+    ],
+    "type": "paper",
+    "url": "https://cs-people.bu.edu/tromer/photoproof/photoproof-oakland16.pdf",
+    "file": "references/recursion/ch3/ref-77-photoproof.pdf",
+    "status": "pending"
+  },
+  {
+    "id": 78,
+    "slug": "veritas",
+    "citation": "Datta, Chen, Boneh, \"VerITAS: Verifying Image Transformations at Scale\" (2024)",
+    "chapters": [
+      3
+    ],
+    "type": "paper",
+    "url": "https://eprint.iacr.org/2024/1066.pdf",
+    "file": "references/recursion/ch3/ref-78-veritas.pdf",
+    "status": "pending"
+  },
+  {
+    "id": 79,
+    "slug": "c2pa-specification",
+    "citation": "C2PA (Coalition for Content Provenance and Authenticity) specification",
+    "chapters": [
+      3
+    ],
+    "type": "web",
+    "url": "https://c2pa.org/specifications/specifications/2.1/specs/C2PA_Specification.html",
+    "file": "references/recursion/ch3/ref-79-c2pa-specification.md",
+    "status": "pending"
+  },
+  {
+    "id": 80,
+    "slug": "boneh-bonneau-bunz-fisch-vdf",
+    "citation": "Boneh, Bonneau, Bünz, Fisch, \"Verifiable Delay Functions\" (CRYPTO 2018)",
+    "chapters": [
+      3
+    ],
+    "type": "paper",
+    "url": "https://eprint.iacr.org/2018/601.pdf",
+    "file": "references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf",
+    "status": "pending"
+  },
+  {
+    "id": 81,
+    "slug": "wesolowski-vdf",
+    "citation": "Wesolowski, \"Efficient Verifiable Delay Functions\" (EUROCRYPT 2019)",
+    "chapters": [
+      3
+    ],
+    "type": "paper",
+    "url": "https://eprint.iacr.org/2018/623.pdf",
+    "file": "references/recursion/ch3/ref-81-wesolowski-vdf.pdf",
+    "status": "pending"
+  },
+  {
+    "id": 82,
+    "slug": "chase-lysyanskaya-delegatable-credentials",
+    "citation": "Chase, Lysyanskaya, \"Delegatable Anonymous Credentials\" lineage (CRYPTO 2009 onward)",
+    "chapters": [
+      3
+    ],
+    "type": "stub",
+    "file": "references/recursion/ch3/ref-82-chase-lysyanskaya-delegatable-credentials.md",
+    "status": "pending"
+  },
+  {
+    "id": 83,
+    "slug": "zkpassport-anon-aadhaar",
+    "citation": "zkPassport and Anon-Aadhaar style document-proof systems documentation",
+    "chapters": [
+      3
+    ],
+    "type": "web",
+    "url": "https://docs.zkpassport.id/",
+    "file": "references/recursion/ch3/ref-83-zkpassport-anon-aadhaar.md",
+    "status": "pending"
+  },
+  {
+    "id": 84,
+    "slug": "w3c-verifiable-credentials",
+    "citation": "W3C Verifiable Credentials Data Model",
+    "chapters": [
+      3
+    ],
+    "type": "web",
+    "url": "https://www.w3.org/TR/vc-data-model-2.0/",
+    "file": "references/recursion/ch3/ref-84-w3c-verifiable-credentials.md",
+    "status": "pending"
+  },
+  {
+    "id": 85,
+    "slug": "zkemail-docs",
+    "citation": "zkEmail technical documentation",
+    "chapters": [
+      3
+    ],
+    "type": "web",
+    "url": "https://docs.zk.email/",
+    "file": "references/recursion/ch3/ref-85-zkemail-docs.md",
+    "status": "pending"
+  },
+  {
+    "id": 86,
+    "slug": "tlsnotary-docs",
+    "citation": "TLSNotary project documentation",
+    "chapters": [
+      3
+    ],
+    "type": "web",
+    "url": "https://docs.tlsnotary.org/",
+    "file": "references/recursion/ch3/ref-86-tlsnotary-docs.md",
+    "status": "pending"
+  },
+  {
+    "id": 87,
+    "slug": "deco",
+    "citation": "Zhang, Maram, Malvai, Goldfeder, Juels, \"DECO: Liberating Web Data Using Decentralized Oracles for TLS\" (CCS 2020)",
+    "chapters": [
+      3
+    ],
+    "type": "paper",
+    "url": "https://arxiv.org/pdf/1909.00938",
+    "file": "references/recursion/ch3/ref-87-deco.pdf",
+    "status": "pending"
+  },
+  {
+    "id": 88,
+    "slug": "provisions",
+    "citation": "Dagher, Bünz, Bonneau, Clark, Boneh, \"Provisions: Privacy-preserving Proofs of Solvency for Bitcoin Exchanges\" (CCS 2015)",
+    "chapters": [
+      3
+    ],
+    "type": "paper",
+    "url": "https://eprint.iacr.org/2015/1008.pdf",
+    "file": "references/recursion/ch3/ref-88-provisions.pdf",
+    "status": "pending"
+  },
+  {
+    "id": 89,
+    "slug": "summa-proof-of-solvency",
+    "citation": "Summa proof-of-solvency documentation",
+    "chapters": [
+      3
+    ],
+    "type": "web",
+    "url": "https://github.com/summa-dev/summa-solvency",
+    "file": "references/recursion/ch3/ref-89-summa-proof-of-solvency.md",
+    "status": "pending"
+  },
+  {
+    "id": 90,
+    "slug": "zexe",
+    "citation": "Bowe, Chiesa, Green, Miers, Mishra, Wu, \"Zexe: Enabling Decentralized Private Computation\" (S&P 2020)",
+    "chapters": [
+      3
+    ],
+    "type": "paper",
+    "url": "https://eprint.iacr.org/2018/962.pdf",
+    "file": "references/recursion/ch3/ref-90-zexe.pdf",
+    "status": "pending"
+  },
+  {
+    "id": 91,
+    "slug": "dark-forest-zk-gaming",
+    "citation": "Dark Forest and zk-gaming ecosystem writeups",
+    "chapters": [
+      3
+    ],
+    "type": "stub",
+    "file": "references/recursion/ch3/ref-91-dark-forest-zk-gaming.md",
+    "status": "pending"
+  },
+  {
+    "id": 92,
+    "slug": "state-channel-literature",
+    "citation": "State-channel literature",
+    "chapters": [
+      3
+    ],
+    "type": "stub",
+    "file": "references/recursion/ch3/ref-92-state-channel-literature.md",
+    "status": "pending"
+  },
+  {
+    "id": 93,
+    "slug": "ezkl-monolithic-benchmarks",
+    "citation": "EZKL benchmarks (monolithic zkML inference baseline)",
+    "chapters": [
+      3
+    ],
+    "type": "web",
+    "url": "https://docs.ezkl.xyz/benchmarks/",
+    "file": "references/recursion/ch3/ref-93-ezkl-monolithic-benchmarks.md",
+    "status": "pending"
+  }
+]
