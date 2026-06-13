@@ -50,3 +50,28 @@ def test_web_markdown_frontmatter():
     assert "fetched: 2026-06-12" in head
     assert "fetched_with: fetcher" in head
     assert "Extracted page text." in body
+
+
+from fetch_references import _looks_like_cloudflare, _origin
+
+
+def test_looks_like_cloudflare_403_status():
+    assert _looks_like_cloudflare(403, b"")
+    assert _looks_like_cloudflare(403, b"<html>anything</html>")
+
+
+def test_looks_like_cloudflare_interstitial_markers():
+    assert _looks_like_cloudflare(200, b"<title>Just a moment...</title>")
+    assert _looks_like_cloudflare(200, b"...cf-mitigated...")
+    assert _looks_like_cloudflare(503, b'<div id="challenge-platform"></div>')
+
+
+def test_looks_like_cloudflare_false_for_pdf_and_404():
+    assert not _looks_like_cloudflare(200, b"%PDF-1.7 ...")
+    assert not _looks_like_cloudflare(404, b"<html><body>Not Found</body></html>")
+    assert not _looks_like_cloudflare(0, b"")
+
+
+def test_origin_strips_path():
+    assert _origin("https://eprint.iacr.org/2016/260.pdf") == "https://eprint.iacr.org"
+    assert _origin("https://arxiv.org/pdf/2402.15293") == "https://arxiv.org"

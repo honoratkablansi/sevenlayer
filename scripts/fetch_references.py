@@ -36,6 +36,25 @@ def is_pdf(data: bytes) -> bool:
     return data[:5] == b"%PDF-"
 
 
+_CF_MARKERS = (b"just a moment", b"cf-mitigated", b"challenge-platform", b"cf-chl-")
+
+
+def _looks_like_cloudflare(status: int, body: bytes) -> bool:
+    """True when a failed fetch looks like a Cloudflare challenge rather than a
+    plain 404/forbidden, so we only spend a browser launch when it can help."""
+    if status == 403:
+        return True
+    head = bytes(body[:4096]).lower()
+    return any(marker in head for marker in _CF_MARKERS)
+
+
+def _origin(url: str) -> str:
+    from urllib.parse import urlsplit
+
+    parts = urlsplit(url)
+    return f"{parts.scheme}://{parts.netloc}"
+
+
 def stub_markdown(entry: dict) -> str:
     chapters = ", ".join(str(c) for c in entry["chapters"])
     return (
