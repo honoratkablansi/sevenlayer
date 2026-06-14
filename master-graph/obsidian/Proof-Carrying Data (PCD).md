@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-18-hypernova.pdf"
 type: "document"
-community: "Community 9"
+community: "Community 31"
 location: "abstract"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_9
+  - community/Community_31
 ---
 
 # Proof-Carrying Data (PCD)
@@ -60,4 +60,4 @@ tags:
 - [[BCMS20 Bunz, Chiesa, Mishra, Spooner, Proof-Carrying Data from Accumulation Schemes (TCC 2020)]] - `conceptually_related_to` [EXTRACTED]
 - [[CT10 Chiesa, Tromer, Proof-Carrying Data and Hearsay Arguments from Signature Cards (ICS 2010)]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_9
+#graphify/document #graphify/EXTRACTED #community/Community_31

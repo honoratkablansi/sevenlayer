@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-07-plonk.pdf"
 type: "paper"
-community: "Community 59"
+community: "Community 43"
 location: "§4"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_59
+  - community/Community_43
 ---
 
 # Idealized Low-Degree (Polynomial) Protocol
@@ -16,4 +16,4 @@ tags:
 - [[PLONK Permutations over Lagrange-bases for Oecumenical Noninteractive arguments of Knowledge]] - `defines` [EXTRACTED]
 - [[Ranged Polynomial Protocol (identities over a subset S)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_59
+#graphify/paper #graphify/EXTRACTED #community/Community_43

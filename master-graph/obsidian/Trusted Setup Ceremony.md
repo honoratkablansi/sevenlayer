@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 5"
+community: "Community 11"
 location: "Chapter 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_5
+  - community/Community_11
 ---
 
 # Trusted Setup Ceremony
@@ -30,16 +30,18 @@ tags:
 - [[Groth Short Pairing-Based NIZK]] - `uses` [EXTRACTED]
 - [[Groth16]] - `uses` [EXTRACTED]
 - [[Hyrax Commitment Scheme]] - `improves` [EXTRACTED]
-- [[KZG Polynomial Commitments from pairings (with trusted setup); Dory transparent pairing-based scheme]] - `references` [EXTRACTED]
+- [[KZG Polynomial Commitments from pairings (with trusted setup); Dory transparent pairing-based scheme]] - `uses` [EXTRACTED]
 - [[Layer 1 -- Building the Stage]] - `references` [EXTRACTED]
 - [[Layer 5 -- The Sealed Certificate]] - `references` [EXTRACTED]
 - [[Layer 6 -- The Deep Craft]] - `references` [EXTRACTED]
 - [[Layer 7 -- The Verdict]] - `references` [EXTRACTED]
 - [[Libra]] - `uses` [EXTRACTED]
+- [[Linear Interactive Proof (LIP)]] - `uses` [EXTRACTED]
 - [[MMORPG massively multi-party open reusable parameter generation system]] - `conceptually_related_to` [EXTRACTED]
 - [[Midnight (Privacy Blockchain)]] - `references` [EXTRACTED]
 - [[Midnight -- The Privacy Theater]] - `references` [EXTRACTED]
 - [[Midnight's BLS12-381 Stage]] - `conceptually_related_to` [EXTRACTED]
+- [[Multilinear KZG Polynomial Commitment]] - `uses` [EXTRACTED]
 - [[Nova Recursive Zero-Knowledge Arguments from Folding Schemes]] - `conceptually_related_to` [EXTRACTED]
 - [[Open Questions and the Road Ahead]] - `references` [EXTRACTED]
 - [[Option-Value Analysis]] - `conceptually_related_to` [EXTRACTED]
@@ -51,6 +53,7 @@ tags:
 - [[Progression-Free Sets NIZK]] - `uses` [EXTRACTED]
 - [[Protocol vs. ceremony distinction (mathematical protocol vs real-world instantiation)]] - `defines` [EXTRACTED]
 - [[Quarks  Xiphos  Kopis]] - `improves` [EXTRACTED]
+- [[R1CS (Rank-1 Constraint Systems)]] - `relates_to` [EXTRACTED]
 - [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `improves` [EXTRACTED]
 - [[STARK]] - `relates_to` [EXTRACTED]
 - [[Scalable Multi-party Computation for zk-SNARK Parameters in the Random Beacon Model]] - `conceptually_related_to` [EXTRACTED]
@@ -60,6 +63,7 @@ tags:
 - [[Snarky Ceremonies]] - `references` [EXTRACTED]
 - [[SoK Trusted Setups for Powers-of-Tau Strings]] - `conceptually_related_to` [EXTRACTED]
 - [[Sonic Zero-Knowledge SNARKs from Linear-Size Universal and Updatable Structured Reference Strings]] - `references` [EXTRACTED]
+- [[Structured Reference String (SRS)]] - `defines` [EXTRACTED]
 - [[Subversion-resistant NIZK  subversion zero-knowledge]] - `conceptually_related_to` [EXTRACTED]
 - [[Supersonic  DARK SNARK]] - `relates_to` [EXTRACTED]
 - [[The 141,416-Person Question]] - `conceptually_related_to` [EXTRACTED]
@@ -98,4 +102,4 @@ tags:
 - [[Zcash Sprout Ceremony (2016, BCTV14)]] - `references` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_5
+#graphify/document #graphify/EXTRACTED #community/Community_11

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-51-pairing-efficiency-curves.pdf"
 type: "paper"
-community: "Community 65"
+community: "Community 8"
 location: "§3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_65
+  - community/Community_8
 ---
 
 # Embedding degree k
@@ -25,4 +25,4 @@ tags:
 - [[Prop. 3 no (5,10)-, (8,8)-, or (12,12)-cycles exist (deg Phi_k = 4 case)]] - `conceptually_related_to` [EXTRACTED]
 - [[Supersingular k=2 curve construction p=hN-1, E y2=x3-x]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_65
+#graphify/paper #graphify/EXTRACTED #community/Community_8

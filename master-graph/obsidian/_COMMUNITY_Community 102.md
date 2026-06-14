@@ -1,26 +1,27 @@
 ---
 type: community
 cohesion: 0.20
-members: 11
+members: 12
 ---
 
 # Community 102
 
 **Cohesion:** 0.20 - loosely connected
-**Members:** 11 nodes
+**Members:** 12 nodes
 
 ## Members
-- [[Bootle et al. (BCC+16) Inner-Product Argument]] - paper - references/ch02/ref-09-bulletproofs.pdf
-- [[Improved Inner-Product Argument (2 log2 n)]] - paper - references/ch02/ref-09-bulletproofs.pdf
-- [[Pedersen Vector Commitment]] - paper - references/ch02/ref-09-bulletproofs.pdf
-- [[Pinocchio Arithmetic Circuit Format]] - paper - references/ch02/ref-09-bulletproofs.pdf
-- [[Single Multi-Exponentiation Verifier & Batch Verification]] - paper - references/ch02/ref-09-bulletproofs.pdf
-- [[Theorem 1 Inner-Product Argument Security]] - paper - references/ch02/ref-09-bulletproofs.pdf
-- [[Theorem 5 Arithmetic Circuit Protocol Soundness]] - paper - references/ch02/ref-09-bulletproofs.pdf
-- [[Theorem 6.2 Sonic has witness-extended emulation]] - paper - references/ch10/ref-36-sonic.pdf
-- [[Witness-Extended Emulation (Knowledge Soundness)]] - paper - references/ch02/ref-09-bulletproofs.pdf
-- [[Zero-Knowledge Argument of Knowledge]] - paper - references/ch02/ref-09-bulletproofs.pdf
-- [[Zero-Knowledge Proof for Arithmetic Circuits (Protocol 3)]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Aggregation Trees (zkTree cost model)]] - document - recursion/recursion-outline.md
+- [[Applicative recursion (application-aware proof + input compression)]] - document - references/recursion/ch3/ref-53-starkware-recursive-starks.md
+- [[L3 deployments on top of L2 via recursive verifier]] - document - references/recursion/ch3/ref-53-starkware-recursive-starks.md
+- [[Logarithmic verification compression of STARK proofs]] - document - references/recursion/ch3/ref-53-starkware-recursive-starks.md
+- [[NEBRA]] - document - proving-nothing.md
+- [[Proof Aggregation]] - document - proving-nothing.md
+- [[Real-time zkVM pipeline case study]] - document - recursion/recursion-outline.md
+- [[Recursive STARK proving]] - document - references/recursion/ch3/ref-53-starkware-recursive-starks.md
+- [[SHARP (SHARed Prover)]] - document - references/recursion/ch3/ref-53-starkware-recursive-starks.md
+- [[StarkWare, Recursive STARKs (2022)]] - document - references/recursion/ch3/ref-53-starkware-recursive-starks.md
+- [[Three Core Capabilities compression, incrementality, composability]] - document - recursion/recursion-outline.md
+- [[When Not to Recurse (crossover heuristics)]] - document - recursion/recursion-outline.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -30,13 +31,30 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 5 edges to [[_COMMUNITY_Community 73]]
-- 2 edges to [[_COMMUNITY_Community 5]]
-- 2 edges to [[_COMMUNITY_Community 57]]
+- 3 edges to [[_COMMUNITY_Community 0]]
+- 3 edges to [[_COMMUNITY_Community 62]]
+- 2 edges to [[_COMMUNITY_Community 61]]
+- 2 edges to [[_COMMUNITY_Community 87]]
+- 2 edges to [[_COMMUNITY_Community 93]]
+- 2 edges to [[_COMMUNITY_Community 13]]
+- 1 edge to [[_COMMUNITY_Community 41]]
+- 1 edge to [[_COMMUNITY_Community 17]]
+- 1 edge to [[_COMMUNITY_Community 78]]
+- 1 edge to [[_COMMUNITY_Community 12]]
+- 1 edge to [[_COMMUNITY_Community 11]]
+- 1 edge to [[_COMMUNITY_Community 101]]
+- 1 edge to [[_COMMUNITY_Community 104]]
+- 1 edge to [[_COMMUNITY_Community 81]]
+- 1 edge to [[_COMMUNITY_Community 73]]
+- 1 edge to [[_COMMUNITY_Community 127]]
+- 1 edge to [[_COMMUNITY_Community 134]]
+- 1 edge to [[_COMMUNITY_Community 100]]
+- 1 edge to [[_COMMUNITY_Community 22]]
+- 1 edge to [[_COMMUNITY_Community 31]]
 
 ## Top bridge nodes
-- [[Improved Inner-Product Argument (2 log2 n)]] - degree 7, connects to 2 communities
-- [[Witness-Extended Emulation (Knowledge Soundness)]] - degree 4, connects to 1 community
-- [[Bootle et al. (BCC+16) Inner-Product Argument]] - degree 3, connects to 1 community
-- [[Theorem 1 Inner-Product Argument Security]] - degree 3, connects to 1 community
-- [[Pedersen Vector Commitment]] - degree 2, connects to 1 community
+- [[Proof Aggregation]] - degree 28, connects to 16 communities
+- [[Recursive STARK proving]] - degree 7, connects to 2 communities
+- [[SHARP (SHARed Prover)]] - degree 4, connects to 1 community
+- [[Aggregation Trees (zkTree cost model)]] - degree 2, connects to 1 community
+- [[Three Core Capabilities compression, incrementality, composability]] - degree 2, connects to 1 community

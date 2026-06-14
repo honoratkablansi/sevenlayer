@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-05-halo.pdf"
 type: "paper"
-community: "Community 51"
+community: "Community 47"
 location: "References [36]"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_51
+  - community/Community_47
 ---
 
 # Valiant: Incrementally verifiable computation [36]
@@ -15,4 +15,4 @@ tags:
 - [[Halo first practical recursive proof composition without a trusted setup]] - `cites` [EXTRACTED]
 - [[Incrementally Verifiable Computation (IVC)]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_51
+#graphify/paper #graphify/EXTRACTED #community/Community_47

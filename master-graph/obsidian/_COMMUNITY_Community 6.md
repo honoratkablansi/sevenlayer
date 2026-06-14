@@ -1,64 +1,60 @@
 ---
 type: community
 cohesion: 0.07
-members: 49
+members: 45
 ---
 
 # Community 6
 
 **Cohesion:** 0.07 - loosely connected
-**Members:** 49 nodes
+**Members:** 45 nodes
 
 ## Members
-- [[Aurora transparent IOP for R1CS (univariate sumcheck, lincheck) BCRSVW19]] - paper - references/recursion/ch1/ref-10-fractal.pdf
-- [[BCS transformation (IOP - SNARG via Merkle trees  Fiat-Shamir), BCS16]] - paper - references/recursion/ch1/ref-10-fractal.pdf
-- [[Barak et al. 3 impossibility of code obfuscation; obfuscating a PRF ensemble fails to securely instantiate the random oracle]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Bellare & Rogaway 5 original formulation of the random oracle methodology]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[CGH separation technique feed the implementation's own codeseed back into the scheme via evasive relations; diagonalization over the enumeration of all poly-time ensembles to reverse quantifier order]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Connection between holography and preprocessing in the random oracle model]] - paper - references/recursion/ch1/ref-10-fractal.pdf
-- [[Correlation intractability the property whose circular dependency the attack circumvents by feeding the circuit its own digest as witness]] - paper - references/recursion/ch1/ref-11-khovratovich-fiat-shamir-attacks.pdf
-- [[Cryptographic Hash Function]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Definition 3.2 correlation-intractable ensemble (and weak variant over poly-time recognizable relations)]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Dwork et al. 13 'magic functions' that make Fiat-Shamir work, related to correlation intractability and 3-round zero-knowledge]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Evasive binary relation (Def 3.1) infeasible to find x with (x,O(x)) in R under a random oracle]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[FRACTAL system implementation extending libiop, supporting generic compilation of holographic proofs into preprocessing SNARGs]] - paper - references/recursion/ch1/ref-10-fractal.pdf
-- [[FRACTAL verifier expressed as a constraint system; threshold for recursion (2M constraints checkable in 1.1M), using Poseidon hash and FRI constraint systems]] - paper - references/recursion/ch1/ref-10-fractal.pdf
-- [[Fiat & Shamir 14 identification-to-signature transformation (sound in ROM)]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Fractal Post-Quantum and Transparent Recursive Proofs from Holography (Chiesa, Ojha, Spooner, EUROCRYPT 2020)]] - paper - references/recursion/ch1/ref-10-fractal.pdf
-- [[Function ensemble implementation of a random oracle (Def 2.1) seed s selected once, public; f_s replaces oracle calls]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Goldreich, Goldwasser, Micali 19 pseudorandom function ensembles (shown not necessarily correlation-intractable)]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Holographic interactive oracle proof (verifier queries an encoding of the index rather than reading it)]] - paper - references/recursion/ch1/ref-10-fractal.pdf
-- [[Holographic lincheck and sparse matrix arithmetization protocol (rational extension of summand; one fewer round than Marlin)]] - paper - references/recursion/ch1/ref-10-fractal.pdf
-- [[Indexed relations triples (index, instance, witness) where the index is encoded offline by the indexer]] - paper - references/recursion/ch1/ref-10-fractal.pdf
-- [[Informal Theorem 1.2 signature and encryption schemes secure in ROM but with no secure implementation by any function ensemble (with explicit generic adversary)]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Kilian 26 succinct interactive arguments, basis for Micali's CS-proof construction]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Marlin  algebraic holographic proof (AHP) + polynomial commitments CHMMVW20 — starting-point ideas for the holographic IOP]] - paper - references/recursion/ch1/ref-10-fractal.pdf
-- [[Methodology for post-quantum, transparent recursive composition of SNARKs (no special algebraic objects)]] - paper - references/recursion/ch1/ref-10-fractal.pdf
-- [[Micali 27 non-interactive CS-proofs in the Random Oracle Model (Theorem 2.7)]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Poseidon algebraic hash function GKRRS19, chosen for the recursion-friendly constraint system]] - paper - references/recursion/ch1/ref-10-fractal.pdf
-- [[Post-quantum security (against quantum adversaries; security in the QROM)]] - paper - references/recursion/ch1/ref-10-fractal.pdf
-- [[Preprocessing SNARK  SNARG (offline indexing produces a succinct verification key; verifier polylogarithmic in circuit size)]] - paper - references/recursion/ch1/ref-10-fractal.pdf
-- [[Prior efficient recursion approach using pairing-based SNARKs on cycles of pairing-friendly elliptic curves BCTV14]] - paper - references/recursion/ch1/ref-10-fractal.pdf
-- [[Proof-carrying data (PCD) primitive formally capturing recursive composition via a compliance predicate]] - paper - references/recursion/ch1/ref-10-fractal.pdf
-- [[Proposition 5.2 non-existence of restricted (length-bounded) correlation-intractable ensembles when seed length = input+output length]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Provable security  reductionist methodology]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Random Oracle Methodology (Bellare-Rogaway design heuristic)]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Random Oracle instantiation failure schemes secure in ROM but insecure under any concrete implementation]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Random oracle model (non-interactive STARK  NIROP)]] - paper - references/ch02/ref-08-stark.pdf
-- [[Recursive composition  PCD from succinct-verifier SNARKs BCCT13]] - paper - references/recursion/ch1/ref-10-fractal.pdf
-- [[Reed–Solomon-encoded IOP (RS-encoded holographic IOP) with rational constraints over prover messages]] - paper - references/recursion/ch1/ref-10-fractal.pdf
-- [[Sumcheck for rational functions (univariate rational sumcheck over a domain K)]] - paper - references/recursion/ch1/ref-10-fractal.pdf
-- [[The Random Oracle Methodology, Revisited (Canetti, Goldreich, Halevi, JACM 2004  STOC 1998)]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Theorem 1 compiler from any holographic IOP to a preprocessing SNARG, unconditionally secure in the (Q)ROM (zkPoK preserved)]] - paper - references/recursion/ch1/ref-10-fractal.pdf
-- [[Theorem 2 efficient public-coin zero-knowledge holographic IOP for indexed relation R_R1CS (O(m log m) indexerprover, O(x+log m) verifier, O(log m) queries)]] - paper - references/recursion/ch1/ref-10-fractal.pdf
-- [[Theorem 3.4 no correlation-intractable function ensembles exist (not even in the weak sense), via diagonal relation R_F = {(s, f_s(s))}]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Theorem 3 preprocessing zkSNARK for R1CS in the (Q)ROM (FRACTAL) — first efficient post-quantum transparent preprocessing zkSNARK]] - paper - references/recursion/ch1/ref-10-fractal.pdf
-- [[Theorem 4  Theorem 11.5 transformation compiling any preprocessing SNARK in the URS model into a preprocessing PCD scheme (preserving transparency and post-quantum security)]] - paper - references/recursion/ch1/ref-10-fractal.pdf
-- [[Theorem 4.4 a poly-time signature scheme, existentially unforgeable in ROM, but existentially forgeable (key-only) and totally breakable (chosen-message) under any function-ensemble implementation]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Theorem 4.6 public-key encryption schemes secure (semantic  CCA) in ROM but insecure under any function-ensemble implementation; CCA attack reveals the decryption key]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Transparent Setup]] - document - proving-nothing.md
-- [[Universal ensemble U and universal relation R_U = {(x, u_x(x))}, enumerating all efficiently computable ensembles]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Use of non-interactive CS-proofs (Micali) to collapse super-polynomial diagonalization checks into a polynomial-time signingverification, yielding a standard (poly-time) scheme]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
+- [[Algebraic Interactive Proof (AIP) public-coin IP with arithmetic-circuit verifier]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[Applications user-defined assets, private DEXs, regulation-friendly stablecoins]] - paper - references/recursion/ch3/ref-90-zexe.pdf
+- [[Bespoke depth-2 (one-layer) recursion inner predicate proofs verified by outer proof]] - paper - references/recursion/ch3/ref-90-zexe.pdf
+- [[Bezout's identity for univariate polynomials (uniquenessdisjointness tool)]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[Birth and death predicates governing record creation and consumption]] - paper - references/recursion/ch3/ref-90-zexe.pdf
+- [[CP-Mirage+ commit-and-prove zkSNARK for AIPs with Pedersen-committed witnesses]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[CirC-compiler implementation, bellmanGroth16 base, Z rollup application]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[Cocks-Pinch bounded recursion BLS12 curve E_BLS + Cocks-Pinch curve E_CP (avoids full cycle)]] - paper - references/recursion/ch3/ref-90-zexe.pdf
+- [[Coda MS18 arbitrary-depth recursive SNARK composition for succinct blockchains]] - paper - references/recursion/ch3/ref-90-zexe.pdf
+- [[Conditional uniqueness AIP Pi_c-uniq, V-cost 6A+O(1)]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[Consumability each record consumable at least and at most once (anti faerie-gold)]] - paper - references/recursion/ch3/ref-90-zexe.pdf
+- [[Cost claim first volatile RAM proof with V-cost independent of N (up to 32.9% time cut)]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[Cost claim persistent RAM proving time reduced up to 51.3x vs RSAMerkle prior art]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[Cost claim sparse persistent RAM estimated up to 143x constraint reduction]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[DPC security construction realizes F_DPC under simulation-extractable NIZK (proof in App. A)]] - paper - references/recursion/ch3/ref-90-zexe.pdf
+- [[Data privacy transaction hides payloadsinputsoutputs of records]] - paper - references/recursion/ch3/ref-90-zexe.pdf
+- [[Decentralized Private Computation (DPC) scheme]] - paper - references/recursion/ch3/ref-90-zexe.pdf
+- [[Delegable DPC delegate proof generation to untrusted worker via randomizable signatures]] - paper - references/recursion/ch3/ref-90-zexe.pdf
+- [[Function privacy transaction hides WHICH predicatefunction was executed]] - paper - references/recursion/ch3/ref-90-zexe.pdf
+- [[Groth-Maller simulation-extractable zkSNARK GM17 used in implementation]] - paper - references/recursion/ch3/ref-90-zexe.pdf
+- [[Hawk KMS+16 offline computation with data privacy but no function privacy]] - paper - references/recursion/ch3/ref-90-zexe.pdf
+- [[I-R1CS interactive rank-1 constraint system arithmetization for AIPs]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[Ideal functionality F_DPC capturing DPC security (UC-style, single execution)]] - paper - references/recursion/ch3/ref-90-zexe.pdf
+- [[MIRAGE (Kosba et al.) succinct arguments for randomized algorithms MA1]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[Mirage+ zkSNARK compiler from AIP (I-R1CS) to zkSNARK, generalizes Groth16Mirage]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[Ozdemir et al. RSAMerkle set-accumulator RAM (prior state of the art)]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[Pedersen commitmentshashes over twisted Edwards curves E_EdBLS, E_EdCP for efficient circuits]] - paper - references/recursion/ch3/ref-90-zexe.pdf
+- [[Persistent RAM AIP (committed initialfinal states)]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[Pi_active active-cell selection via H_r permutation proofs, V-cost 3N+2A+O(1)]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[Prior recursive SNARK composition over a 2-cycle of curves BCTV17]] - paper - references/recursion/ch3/ref-90-zexe.pdf
+- [[Punctured disjointness AIP Pi_PuncDisj, V-cost 2C+2A+O(log C)]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[Punctured uniqueness AIP Pi_PuncUniq (gcd has form Xc), V-cost 4C+O(log C)]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[Read-over-write (RoW) validity condition for transcripts]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[Record (commitment, address pk, payload, birthdeath predicate, serial number)]] - paper - references/recursion/ch3/ref-90-zexe.pdf
+- [[Records nano-kernel (RNK) minimalist shared execution environment over records]] - paper - references/recursion/ch3/ref-90-zexe.pdf
+- [[Sparse persistent RAM AIP (capacity C, N approx 2256)]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[Succinctness transactions validated in time independent of offline computation (968 bytes)]] - paper - references/recursion/ch3/ref-90-zexe.pdf
+- [[The 'execute' NP statement R_e proved in zero knowledge per transaction]] - paper - references/recursion/ch3/ref-90-zexe.pdf
+- [[Transaction non-malleability security goal]] - paper - references/recursion/ch3/ref-90-zexe.pdf
+- [[UniqBez divide-and-conquer Bezout coefficient computation (4.5 A log2 A)]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[Uniqueness AIP Pi_uniq (gcd(z,z')=1 via Bezout), V-cost 4A+O(1)]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[Volatile RAM AIP (zeroed init, uncommitted final)]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[Volatile and Persistent Memory for zkSNARKs via Algebraic Interactive Proofs]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[Zexe a ledger-based system for decentralized private computation]] - paper - references/recursion/ch3/ref-90-zexe.pdf
+- [[zkSNARK]] - document - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -68,27 +64,25 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 5 edges to [[_COMMUNITY_Community 23]]
-- 4 edges to [[_COMMUNITY_Community 37]]
-- 3 edges to [[_COMMUNITY_Community 14]]
-- 2 edges to [[_COMMUNITY_Community 2]]
-- 2 edges to [[_COMMUNITY_Community 34]]
+- 3 edges to [[_COMMUNITY_Community 4]]
+- 3 edges to [[_COMMUNITY_Community 84]]
+- 3 edges to [[_COMMUNITY_Community 13]]
+- 2 edges to [[_COMMUNITY_Community 9]]
+- 2 edges to [[_COMMUNITY_Community 125]]
+- 2 edges to [[_COMMUNITY_Community 8]]
+- 2 edges to [[_COMMUNITY_Community 71]]
+- 1 edge to [[_COMMUNITY_Community 17]]
+- 1 edge to [[_COMMUNITY_Community 95]]
 - 1 edge to [[_COMMUNITY_Community 15]]
-- 1 edge to [[_COMMUNITY_Community 32]]
-- 1 edge to [[_COMMUNITY_Community 5]]
-- 1 edge to [[_COMMUNITY_Community 28]]
-- 1 edge to [[_COMMUNITY_Community 27]]
-- 1 edge to [[_COMMUNITY_Community 42]]
-- 1 edge to [[_COMMUNITY_Community 61]]
-- 1 edge to [[_COMMUNITY_Community 134]]
-- 1 edge to [[_COMMUNITY_Community 38]]
-- 1 edge to [[_COMMUNITY_Community 48]]
-- 1 edge to [[_COMMUNITY_Community 0]]
-- 1 edge to [[_COMMUNITY_Community 101]]
+- 1 edge to [[_COMMUNITY_Community 7]]
+- 1 edge to [[_COMMUNITY_Community 31]]
+- 1 edge to [[_COMMUNITY_Community 86]]
+- 1 edge to [[_COMMUNITY_Community 24]]
+- 1 edge to [[_COMMUNITY_Community 43]]
 
 ## Top bridge nodes
-- [[Random oracle model (non-interactive STARK  NIROP)]] - degree 14, connects to 7 communities
-- [[Post-quantum security (against quantum adversaries; security in the QROM)]] - degree 9, connects to 6 communities
-- [[Correlation intractability the property whose circular dependency the attack circumvents by feeding the circuit its own digest as witness]] - degree 8, connects to 2 communities
-- [[Transparent Setup]] - degree 6, connects to 2 communities
-- [[FRACTAL verifier expressed as a constraint system; threshold for recursion (2M constraints checkable in 1.1M), using Poseidon hash and FRI constraint systems]] - degree 5, connects to 2 communities
+- [[Volatile and Persistent Memory for zkSNARKs via Algebraic Interactive Proofs]] - degree 16, connects to 6 communities
+- [[Zexe a ledger-based system for decentralized private computation]] - degree 14, connects to 3 communities
+- [[zkSNARK]] - degree 8, connects to 2 communities
+- [[Volatile RAM AIP (zeroed init, uncommitted final)]] - degree 8, connects to 2 communities
+- [[Decentralized Private Computation (DPC) scheme]] - degree 10, connects to 1 community

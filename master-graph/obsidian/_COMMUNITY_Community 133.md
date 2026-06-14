@@ -1,20 +1,20 @@
 ---
 type: community
-cohesion: 0.50
+cohesion: 0.40
 members: 5
 ---
 
 # Community 133
 
-**Cohesion:** 0.50 - moderately connected
+**Cohesion:** 0.40 - moderately connected
 **Members:** 5 nodes
 
 ## Members
-- [[Gidney (2025) factoring RSA-2048 with 1M noisy qubits in under a week]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
-- [[Mosca & Piani (2024), Quantum Threat Timeline Report, Global Risk Institute]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
-- [[Mosca's Theorem if X (data shelf life) + Y (PQC migration time)  Z (time to build CRQC), keysdata are at risk; framed as dominant data-privacy protection for DLT]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
-- [[Q-Day the moving-target momentperiod when a fault-tolerant quantum computer can break asymmetric encryption]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
-- [[Quantum-risk timeline ~100 logical qubits within 10 years; 1-in-3 experts forecast Q-Day before 2032; RSA-2048 factorable in 1 week with 1M noisy qubits]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
+- [[Continuations]] - document - recursion/recursion-outline.md
+- [[RISC Zero technical documentation (dev.risczero.com)]] - document - references/recursion/ch1/ref-28-risc-zero-technical-docs.md
+- [[RISC Zero zkVM]] - document - references/recursion/ch1/ref-28-risc-zero-technical-docs.md
+- [[Receipt (self-certifying proof of execution)]] - document - references/recursion/ch1/ref-28-risc-zero-technical-docs.md
+- [[Succinct verification without re-execution]] - document - references/recursion/ch1/ref-28-risc-zero-technical-docs.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -24,9 +24,11 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 1 edge to [[_COMMUNITY_Community 48]]
-- 1 edge to [[_COMMUNITY_Community 81]]
+- 2 edges to [[_COMMUNITY_Community 10]]
+- 1 edge to [[_COMMUNITY_Community 22]]
+- 1 edge to [[_COMMUNITY_Community 63]]
 
 ## Top bridge nodes
-- [[Mosca's Theorem if X (data shelf life) + Y (PQC migration time)  Z (time to build CRQC), keysdata are at risk; framed as dominant data-privacy protection for DLT]] - degree 3, connects to 1 community
-- [[Q-Day the moving-target momentperiod when a fault-tolerant quantum computer can break asymmetric encryption]] - degree 3, connects to 1 community
+- [[Continuations]] - degree 3, connects to 2 communities
+- [[RISC Zero zkVM]] - degree 4, connects to 1 community
+- [[RISC Zero technical documentation (dev.risczero.com)]] - degree 2, connects to 1 community

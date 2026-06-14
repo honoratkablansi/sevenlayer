@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 22"
+community: "Community 39"
 location: "Chapter 5"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_22
+  - community/Community_39
 ---
 
 # QAP (Quadratic Arithmetic Program)
@@ -14,6 +14,7 @@ tags:
 ## Connections
 - [[3-Element Pairing-based SNARK for Arithmetic Circuit SAT]] - `defines` [EXTRACTED]
 - [[Bilinear Pairing]] - `uses` [EXTRACTED]
+- [[GGPR Linear PCP (Gennaro-Gentry-Parno-Raykova)]] - `compiles_to` [EXTRACTED]
 - [[Gennaro, Gentry, Parno, Raykova - QAPNIZK (2012)]] - `introduces` [EXTRACTED]
 - [[Gennaro, Gentry, Parno, Raykova — QAP (Eurocrypt 2013)]] - `introduces` [EXTRACTED]
 - [[Gennaro-Gentry-Parno-Raykova QSPQAP and Succinct NIZKs (GGPR13)]] - `cites` [EXTRACTED]
@@ -23,7 +24,7 @@ tags:
 - [[On the Size of Pairing-Based Non-interactive Arguments]] - `conceptually_related_to` [EXTRACTED]
 - [[Parno-Howell-Gentry-Raykova Pinocchio (PHGR13)]] - `conceptually_related_to` [EXTRACTED]
 - [[Pinocchio]] - `uses` [EXTRACTED]
-- [[R1CS (Rank-1 Constraint Systems)]] - `conceptually_related_to` [EXTRACTED]
+- [[R1CS (Rank-1 Constraint Systems)]] - `relates_to` [EXTRACTED]
 - [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `uses` [EXTRACTED]
 - [[The Promise of Provable and Programmable Secrets]] - `references` [EXTRACTED]
 - [[Theorem 5  Lemma 8 Pinocchio cannot be made updatable]] - `conceptually_related_to` [EXTRACTED]
@@ -32,4 +33,4 @@ tags:
 - [[Updatable and Universal Common Reference Strings with Applications to zk-SNARKs]] - `references` [EXTRACTED]
 - [[Verifiable computation]] - `uses` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_22
+#graphify/document #graphify/EXTRACTED #community/Community_39

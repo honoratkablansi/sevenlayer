@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch07/ref-25-nist-fips-203-204-205.pdf"
 type: "paper"
-community: "Community 27"
+community: "Community 33"
 location: "§6"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_27
+  - community/Community_33
 ---
 
 # ML-KEM internal derandomized algorithms (KeyGen/Encaps/Decaps_internal)
@@ -18,4 +18,4 @@ tags:
 - [[ML-KEM.Encaps (probabilistic encapsulation, Algorithm 20)]] - `shares_data_with` [EXTRACTED]
 - [[ML-KEM.KeyGen (probabilistic key generation, Algorithm 19)]] - `shares_data_with` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_27
+#graphify/paper #graphify/EXTRACTED #community/Community_33

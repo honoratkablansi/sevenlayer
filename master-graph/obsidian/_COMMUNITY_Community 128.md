@@ -1,20 +1,22 @@
 ---
 type: community
-cohesion: 0.50
-members: 5
+cohesion: 0.29
+members: 7
 ---
 
 # Community 128
 
-**Cohesion:** 0.50 - moderately connected
-**Members:** 5 nodes
+**Cohesion:** 0.29 - loosely connected
+**Members:** 7 nodes
 
 ## Members
-- [[Algebraic Interactive Proof (AIP) public-coin IP with arithmetic-circuit verifier]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
-- [[I-R1CS interactive rank-1 constraint system arithmetization for AIPs]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
-- [[MIRAGE (Kosba et al.) succinct arguments for randomized algorithms MA1]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
-- [[Mirage+ zkSNARK compiler from AIP (I-R1CS) to zkSNARK, generalizes Groth16Mirage]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
-- [[zkSNARK]] - document - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[Circuit Privacy]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Extractor (polynomial) size blowup under recursive extraction (forces O(1) depth)]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
+- [[Fully-homomorphic encryption (FHE) assumption]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
+- [[Ideal Lattice]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Learning With Errors (LWE) problem (Regev 2005)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
+- [[Somewhat Homomorphic Encryption (SHE)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Theorem 1 SNARK Recursive Composition (SNARK - PCD for O(1)-depth predicates)]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -24,12 +26,17 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 3 edges to [[_COMMUNITY_Community 54]]
-- 3 edges to [[_COMMUNITY_Community 43]]
-- 1 edge to [[_COMMUNITY_Community 95]]
-- 1 edge to [[_COMMUNITY_Community 26]]
+- 2 edges to [[_COMMUNITY_Community 1]]
+- 1 edge to [[_COMMUNITY_Community 72]]
+- 1 edge to [[_COMMUNITY_Community 31]]
+- 1 edge to [[_COMMUNITY_Community 33]]
+- 1 edge to [[_COMMUNITY_Community 42]]
+- 1 edge to [[_COMMUNITY_Community 13]]
+- 1 edge to [[_COMMUNITY_Community 74]]
 
 ## Top bridge nodes
-- [[zkSNARK]] - degree 8, connects to 4 communities
-- [[Mirage+ zkSNARK compiler from AIP (I-R1CS) to zkSNARK, generalizes Groth16Mirage]] - degree 4, connects to 1 community
-- [[Algebraic Interactive Proof (AIP) public-coin IP with arithmetic-circuit verifier]] - degree 3, connects to 1 community
+- [[Theorem 1 SNARK Recursive Composition (SNARK - PCD for O(1)-depth predicates)]] - degree 5, connects to 3 communities
+- [[Learning With Errors (LWE) problem (Regev 2005)]] - degree 3, connects to 2 communities
+- [[Fully-homomorphic encryption (FHE) assumption]] - degree 6, connects to 1 community
+- [[Extractor (polynomial) size blowup under recursive extraction (forces O(1) depth)]] - degree 2, connects to 1 community
+- [[Ideal Lattice]] - degree 2, connects to 1 community

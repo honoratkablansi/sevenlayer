@@ -1,32 +1,33 @@
 ---
 type: community
-cohesion: 0.15
-members: 17
+cohesion: 0.19
+members: 18
 ---
 
 # Community 76
 
-**Cohesion:** 0.15 - loosely connected
-**Members:** 17 nodes
+**Cohesion:** 0.19 - loosely connected
+**Members:** 18 nodes
 
 ## Members
-- [[Compositional Counterexample Construction]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
-- [[EdwardsToMontgomery Underconstrained Bug]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
-- [[Finite-Field SMT Solver (cvc5 fork)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
-- [[Groebner Basis Computation]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
-- [[InferValues Value Inference (Algorithm 3)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
-- [[Logical Encoding of Arithmetic Circuit (Definition 4.3)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
-- [[QED2 (verification tool)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
-- [[QED2 Evaluation Results (70% solved, 8 vulnerabilities)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
-- [[SMT Query Procedure (Algorithm 4)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
-- [[SMT Solving]] - document - references/ch03/ref-12-underconstrained-circuits.pdf
-- [[UCP Inference Rules (Assign, Base-Conv, BigInt-Mul, All-But-One-0)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
-- [[UCP Rule Soundness Proofs]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
-- [[Under-Constrained Circuit Bug]] - document - proving-nothing.md
-- [[Uniqueness Constraint Propagation (UCP)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
-- [[Value Inference Soundness (Lemmas A.4, A.5)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
-- [[Verify Algorithm (Algorithm 1)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
-- [[ZkBench Benchmark Suite (163 Circom circuits)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[(2k-1)-Move Special-Sound Protocol with Algebraic Verifier]] - paper - references/ch06/ref-19-protostar.pdf
+- [[BCLMS21 'PCD Without Succinct Arguments' (cited, accumulation-IVC compiler  Theorem 1)]] - paper - references/ch06/ref-19-protostar.pdf
+- [[CVPi_sps High-Degree Verifier Compression (l checks - 1 degree-(d+2) check + 2 sqrt(l) degree-2 checks)]] - paper - references/ch06/ref-19-protostar.pdf
+- [[Circuit Selection Sub-Protocol Pi_select (program-counter one-hot, degree 2)]] - paper - references/ch06/ref-19-protostar.pdf
+- [[Corollary 1 Protostar Prover Cost (recursive circuit = 3 group scalar mults + hash of d field elements)]] - paper - references/ch06/ref-19-protostar.pdf
+- [[Generic AccumulationFolding Compiler for Special-Sound Protocols (4-step workflow)]] - paper - references/ch06/ref-19-protostar.pdf
+- [[High-Degree Custom Gate Relation Sub-Protocol Pi_GATE (degree d)]] - paper - references/ch06/ref-19-protostar.pdf
+- [[HyperNova Folding Scheme KS23 (cited, concurrent CCS multi-folding)]] - paper - references/ch06/ref-19-protostar.pdf
+- [[Log-Derivative Lookup Argument (Habock)]] - paper - references/ch06/ref-19-protostar.pdf
+- [[Lookup Relation Sub-Protocol Pi_LK (3-move, degree 2, prover indep. of table size T)]] - paper - references/ch06/ref-19-protostar.pdf
+- [[Nova Folding Scheme KST22 (cited, R1CS k=1 d=2 case)]] - paper - references/ch06/ref-19-protostar.pdf
+- [[Permutation Relation Sub-Protocol Pi_sigma (degree 1)]] - paper - references/ch06/ref-19-protostar.pdf
+- [[Protostar Generic Efficient AccumulationFolding for Special-sound Protocols]] - paper - references/ch06/ref-19-protostar.pdf
+- [[Protostar Non-Uniform IVC Scheme for Multi-Circuit Plonkup R_mplkup]] - paper - references/ch06/ref-19-protostar.pdf
+- [[SuperNova KS22 (cited, non-uniform IVC predecessor)]] - paper - references/ch06/ref-19-protostar.pdf
+- [[Theorem 3 IVC for High-Degree Special-Sound Protocols (recursive circuit k+d-1 or k+2 scalar mults)]] - paper - references/ch06/ref-19-protostar.pdf
+- [[Vector-Valued Lookup Sub-Protocol Pi_VLK (5-move, degree 3)]] - paper - references/ch06/ref-19-protostar.pdf
+- [[AFK22 Attema, Fehr, Klooss Fiat-Shamir transformation of multi-round interactive proofs (special-soundness - NIROM knowledge-soundness)]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -36,15 +37,22 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 4 edges to [[_COMMUNITY_Community 70]]
-- 2 edges to [[_COMMUNITY_Community 96]]
-- 1 edge to [[_COMMUNITY_Community 32]]
-- 1 edge to [[_COMMUNITY_Community 95]]
-- 1 edge to [[_COMMUNITY_Community 37]]
+- 6 edges to [[_COMMUNITY_Community 22]]
+- 4 edges to [[_COMMUNITY_Community 114]]
+- 3 edges to [[_COMMUNITY_Community 49]]
+- 3 edges to [[_COMMUNITY_Community 77]]
+- 2 edges to [[_COMMUNITY_Community 70]]
+- 2 edges to [[_COMMUNITY_Community 4]]
+- 2 edges to [[_COMMUNITY_Community 75]]
+- 1 edge to [[_COMMUNITY_Community 5]]
+- 1 edge to [[_COMMUNITY_Community 15]]
+- 1 edge to [[_COMMUNITY_Community 29]]
+- 1 edge to [[_COMMUNITY_Community 1]]
+- 1 edge to [[_COMMUNITY_Community 17]]
 
 ## Top bridge nodes
-- [[Under-Constrained Circuit Bug]] - degree 4, connects to 3 communities
-- [[QED2 (verification tool)]] - degree 6, connects to 1 community
-- [[Uniqueness Constraint Propagation (UCP)]] - degree 5, connects to 1 community
-- [[SMT Solving]] - degree 4, connects to 1 community
-- [[ZkBench Benchmark Suite (163 Circom circuits)]] - degree 3, connects to 1 community
+- [[Protostar Generic Efficient AccumulationFolding for Special-sound Protocols]] - degree 18, connects to 10 communities
+- [[(2k-1)-Move Special-Sound Protocol with Algebraic Verifier]] - degree 14, connects to 5 communities
+- [[Protostar Non-Uniform IVC Scheme for Multi-Circuit Plonkup R_mplkup]] - degree 11, connects to 3 communities
+- [[Generic AccumulationFolding Compiler for Special-Sound Protocols (4-step workflow)]] - degree 6, connects to 2 communities
+- [[Lookup Relation Sub-Protocol Pi_LK (3-move, degree 2, prover indep. of table size T)]] - degree 5, connects to 1 community

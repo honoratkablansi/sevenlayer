@@ -1,12 +1,12 @@
 ---
 source_file: "wiki/sections/ch07-the-one-way-door.md"
 type: "document"
-community: "Community 0"
+community: "Community 1"
 location: "The One-Way Door"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Community_1
 ---
 
 # The One-Way Door
@@ -29,4 +29,4 @@ tags:
 - [[The Cascade Effect]] - `references` [EXTRACTED]
 - [[The Quantum Threat Horizon]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/document #graphify/EXTRACTED #community/Community_1

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-10-sok-powers-of-tau.pdf"
 type: "paper"
-community: "Community 5"
+community: "Community 68"
 location: "§3 Types of setups"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_5
+  - community/Community_68
 ---
 
 # Setup taxonomy: public-coin/transparent vs private-coin; circuit-specific vs universal vs updatable
@@ -17,4 +17,4 @@ tags:
 - [[SoK Trusted Setups for Powers-of-Tau Strings]] - `introduces` [EXTRACTED]
 - [[Updatable and Universal Structured Reference String]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_5
+#graphify/paper #graphify/EXTRACTED #community/Community_68

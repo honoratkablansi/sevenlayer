@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch09/ref-29-gentry-fhe.pdf"
 type: "paper"
-community: "Community 18"
+community: "Community 85"
 location: "§1.3 [23]"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_18
+  - community/Community_85
 ---
 
 # Goldwasser-Micali: first semantically secure (additively) homomorphic scheme [23]
@@ -15,4 +15,4 @@ tags:
 - [[Fully Homomorphic Encryption Using Ideal Lattices]] - `cites` [EXTRACTED]
 - [[Homomorphic encryption (Evaluate over encrypted data without decrypting)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_18
+#graphify/paper #graphify/EXTRACTED #community/Community_85

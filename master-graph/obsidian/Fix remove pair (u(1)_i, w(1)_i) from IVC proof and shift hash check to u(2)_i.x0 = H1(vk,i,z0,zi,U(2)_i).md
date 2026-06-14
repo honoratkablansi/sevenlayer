@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-32-nguyen-boneh-setty-nova-cycle.pdf"
 type: "paper"
-community: "Community 124"
+community: "Community 126"
 location: "§5.2 (To remediate this issue); §5 (red modifications)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_124
+  - community/Community_126
 ---
 
 # Fix: remove pair (u(1)_i, w(1)_i) from IVC proof and shift hash check to u(2)_i.x0 = H1(vk,i,z0,zi,U(2)_i)
@@ -16,4 +16,4 @@ tags:
 - [[Soundness attack producing an accepting proof for a false statement in a FS-compiled argument (adaptive and non-adaptive variants)]] - `conceptually_related_to` [EXTRACTED]
 - [[Underconstrained additional R1CS instance-witness pair (u(1)_i, w(1)_i) carried in the old IVC proof]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_124
+#graphify/paper #graphify/EXTRACTED #community/Community_126

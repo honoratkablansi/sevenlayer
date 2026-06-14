@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch3/ref-54-ethereum-rollup-centric-roadmap.md"
 type: "document"
-community: "Community 47"
+community: "Community 78"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_47
+  - community/Community_78
 ---
 
 # ZK rollup advantages over optimistic rollups (finality, cost, security)
@@ -14,4 +14,4 @@ tags:
 - [[Optimistic Rollups]] - `compares` [EXTRACTED]
 - [[ZK Rollup]] - `explains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_47
+#graphify/document #graphify/EXTRACTED #community/Community_78

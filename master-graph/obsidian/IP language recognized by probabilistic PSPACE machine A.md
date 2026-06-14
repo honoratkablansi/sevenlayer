@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch01/ref-02-gmr-knowledge-complexity.pdf"
 type: "paper"
-community: "Community 15"
+community: "Community 72"
 location: "p. 190"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_15
+  - community/Community_72
 ---
 
 # IP language recognized by probabilistic PSPACE machine A
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[IP Interactive Polynomial-time language class]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_15
+#graphify/paper #graphify/EXTRACTED #community/Community_72

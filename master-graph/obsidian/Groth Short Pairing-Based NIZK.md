@@ -1,12 +1,12 @@
 ---
 source_file: "references/snowball/book/ref-090-short-pairing-based-non-interactive-zero-knowled.pdf"
 type: "paper"
-community: "Community 97"
+community: "Community 8"
 location: "abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_97
+  - community/Community_8
 ---
 
 # Groth Short Pairing-Based NIZK
@@ -18,4 +18,4 @@ tags:
 - [[Trusted Setup Ceremony]] - `uses` [EXTRACTED]
 - [[Zero-Knowledge Proof]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_97
+#graphify/paper #graphify/EXTRACTED #community/Community_8

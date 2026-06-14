@@ -1,12 +1,12 @@
 ---
 source_file: "references/snowball/recursion/ref-110-algebraic-reductions-of-knowledge.pdf"
 type: "paper"
-community: "Community 34"
+community: "Community 18"
 location: "abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_34
+  - community/Community_18
 ---
 
 # Argument of Knowledge
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Reduction of Knowledge]] - `improves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_34
+#graphify/paper #graphify/EXTRACTED #community/Community_18

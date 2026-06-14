@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 116"
+community: "Community 12"
 location: "Chapter 7"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_116
+  - community/Community_12
 ---
 
 # Layer 6: The Deep Craft (Cryptographic Primitives)
@@ -16,4 +16,4 @@ tags:
 - [[Hardness Assumption]] - `explains` [EXTRACTED]
 - [[Polynomial Commitment Scheme]] - `explains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_116
+#graphify/document #graphify/EXTRACTED #community/Community_12

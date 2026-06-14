@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-06-groth16.pdf"
 type: "paper"
-community: "Community 26"
+community: "Community 7"
 location: "§1, §2.2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_26
+  - community/Community_7
 ---
 
 # Succinct Non-interactive Argument (SNARG)
@@ -18,4 +18,4 @@ tags:
 - [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `relates_to` [EXTRACTED]
 - [[Zero-Knowledge Proof]] - `relates_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_26
+#graphify/paper #graphify/EXTRACTED #community/Community_7

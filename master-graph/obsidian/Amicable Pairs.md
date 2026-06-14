@@ -1,12 +1,12 @@
 ---
 source_file: "references/snowball/recursion/ref-153-amicable-pairs-and-aliquot-cycles-for-elliptic-c.pdf"
 type: "paper"
-community: "Community 97"
+community: "Community 8"
 location: "abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_97
+  - community/Community_8
 ---
 
 # Amicable Pairs
@@ -16,4 +16,4 @@ tags:
 - [[Complex Multiplication (CM)]] - `uses` [EXTRACTED]
 - [[Cycles of Elliptic Curves]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_97
+#graphify/paper #graphify/EXTRACTED #community/Community_8

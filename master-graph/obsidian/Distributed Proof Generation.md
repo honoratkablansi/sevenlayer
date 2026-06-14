@@ -1,12 +1,12 @@
 ---
 source_file: "references/snowball/book/ref-104-cluster-computing-in-zero-knowledge.pdf"
 type: "paper"
-community: "Community 9"
+community: "Community 31"
 location: "abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_9
+  - community/Community_31
 ---
 
 # Distributed Proof Generation
@@ -17,4 +17,4 @@ tags:
 - [[Proof-Carrying Data (PCD)]] - `uses` [EXTRACTED]
 - [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `improves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_9
+#graphify/paper #graphify/EXTRACTED #community/Community_31

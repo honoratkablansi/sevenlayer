@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch2/ref-44-supernova.pdf"
 type: "paper"
-community: "Community 46"
+community: "Community 55"
 location: "§1.2; §3; Def. 10"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_46
+  - community/Community_55
 ---
 
 # Non-uniform IVC (NIVC): generalization of IVC where each step proves a relation chosen from a set, selected by a control function
@@ -18,4 +18,4 @@ tags:
 - [[Per-instruction step functions {F_1,...,F_l} plus control function phi; each F_j verifies one instruction type, cost independent of l]] - `defines` [EXTRACTED]
 - [[SuperNova (Non-Uniform IVC)]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_46
+#graphify/paper #graphify/EXTRACTED #community/Community_55

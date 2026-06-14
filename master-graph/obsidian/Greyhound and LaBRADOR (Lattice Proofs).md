@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 0"
+community: "Community 1"
 location: "Chapter 10"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Community_1
 ---
 
 # Greyhound and LaBRADOR (Lattice Proofs)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Path Three Post-Quantum Folding]] - `cites` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/document #graphify/EXTRACTED #community/Community_1

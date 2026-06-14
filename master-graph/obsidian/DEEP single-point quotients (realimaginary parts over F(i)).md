@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-23-circle-starks.pdf"
 type: "paper"
-community: "Community 24"
+community: "Community 28"
 location: "§3.3 Proposition 4"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_24
+  - community/Community_28
 ---
 
 # DEEP single-point quotients (real/imaginary parts over F(i))
@@ -15,4 +15,4 @@ tags:
 - [[Circle STARK interactive oracle proof for AIR]] - `assumes` [EXTRACTED]
 - [[Vanishing polynomials v_n and domain quotients]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_24
+#graphify/paper #graphify/EXTRACTED #community/Community_28

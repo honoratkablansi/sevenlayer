@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf"
 type: "paper"
-community: "Community 134"
+community: "Community 32"
 location: "Lemma 1 (§2.4) / Lemma 6.1 (§6)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_134
+  - community/Community_32
 ---
 
 # Lemma 6.1: expected-time forking lemma in the ROM (polynomially many transcripts, expected-time adversaries)
@@ -19,4 +19,4 @@ tags:
 - [[BCCGP16 Bootle, Cerulli, Chaidos, Groth, Petit, Efficient Zero-Knowledge Arguments in the Discrete Log Setting (EUROCRYPT 2016)]] - `cites` [EXTRACTED]
 - [[BN06 Bellare, Neven, Multi-signatures in the plain public-key model and a general forking lemma (CCS 2006)]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_134
+#graphify/paper #graphify/EXTRACTED #community/Community_32

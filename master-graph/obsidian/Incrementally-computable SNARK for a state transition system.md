@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-58-coda-mina.pdf"
 type: "paper"
-community: "Community 25"
+community: "Community 13"
 location: "Def 4.2, §4.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_25
+  - community/Community_13
 ---
 
 # Incrementally-computable SNARK for a state transition system
@@ -18,4 +18,4 @@ tags:
 - [[SNARK S recursive state-update circuit (Update verifies txns, consensus, signature, prior proof)]] - `introduces` [EXTRACTED]
 - [[State transition system (Sigma, T, Update) abstraction for blockchains]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_25
+#graphify/paper #graphify/EXTRACTED #community/Community_13

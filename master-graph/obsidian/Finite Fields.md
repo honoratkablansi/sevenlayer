@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-50-extended-tower-nfs.pdf"
 type: "paper"
-community: "Community 31"
+community: "Community 44"
 location: "abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_31
+  - community/Community_44
 ---
 
 # Finite Fields
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Discrete Logarithm Problem]] - `defined_in` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_31
+#graphify/paper #graphify/EXTRACTED #community/Community_44

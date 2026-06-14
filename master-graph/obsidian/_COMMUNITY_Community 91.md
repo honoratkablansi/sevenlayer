@@ -1,29 +1,29 @@
 ---
 type: community
-cohesion: 0.16
+cohesion: 0.21
 members: 14
 ---
 
 # Community 91
 
-**Cohesion:** 0.16 - loosely connected
+**Cohesion:** 0.21 - loosely connected
 **Members:** 14 nodes
 
 ## Members
-- [[Algorithms for Quantum Computation Discrete Logarithms and Factoring]] - paper - references/ch07/ref-24-shor.pdf
-- [[BQP (bounded-error quantum polynomial time)]] - paper - references/ch07/ref-24-shor.pdf
-- [[Coppersmith approximate Fourier transform]] - paper - references/ch07/ref-24-shor.pdf
-- [[Decoherence and gate imprecision obstacles]] - paper - references/ch07/ref-24-shor.pdf
-- [[Discrete-log-based public-key cryptosystems (Diffie-HellmanDSA)]] - paper - references/ch07/ref-24-shor.pdf
-- [[Integer Factorization]] - paper - references/ch07/ref-24-shor.pdf
-- [[Period Finding]] - paper - references/ch07/ref-24-shor.pdf
-- [[Peter W. Shor]] - paper - references/ch07/ref-24-shor.pdf
-- [[Quantum Algorithm]] - paper - references/ch07/ref-24-shor.pdf
-- [[Quantum Fourier transform]] - paper - references/ch07/ref-24-shor.pdf
-- [[Quantum discrete logarithm algorithm]] - paper - references/ch07/ref-24-shor.pdf
-- [[Quantum gate array (acyclic circuit) model]] - paper - references/ch07/ref-24-shor.pdf
-- [[Quantum interference  superposition]] - paper - references/ch07/ref-24-shor.pdf
-- [[Simon's oracle algorithm (inspiration for this work)]] - paper - references/ch07/ref-24-shor.pdf
+- [[Harvest Now Decrypt Later Examining Post-Quantum Cryptography and the Data Privacy Risks for Distributed Ledger Networks]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
+- [[Assumption a sufficiently powerful quantum computer (definition relative to underlying crypto strength) will eventually be controllable by a bad actor (nation state, consortium, corporation)]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
+- [[Cryptographically Relevant Quantum Computer (CRQC)]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
+- [[Distributed Ledger Network]] - document - references/ch14/ref-63-harvest-now-decrypt-later.pdf
+- [[Gidney (2025) factoring RSA-2048 with 1M noisy qubits in under a week]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
+- [[Harvest Now Decrypt Later (HNDL)]] - document - references/ch14/ref-63-harvest-now-decrypt-later.pdf
+- [[Mosca & Piani (2024), Quantum Threat Timeline Report, Global Risk Institute]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
+- [[Mosca's Theorem (X+Y vs Z migration urgency)]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
+- [[Mosca's Theorem if X (data shelf life) + Y (PQC migration time)  Z (time to build CRQC), keysdata are at risk; framed as dominant data-privacy protection for DLT]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
+- [[National Security Memorandum 10 (NSM-10) mitigate quantum risk by 2035]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
+- [[PQC Standards Transition Timeline (target 2035, NSM-10)]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
+- [[Q-Day the moving-target momentperiod when a fault-tolerant quantum computer can break asymmetric encryption]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
+- [[Quantum-risk timeline ~100 logical qubits within 10 years; 1-in-3 experts forecast Q-Day before 2032; RSA-2048 factorable in 1 week with 1M noisy qubits]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
+- [[Threat model bad actor joins as node operator, harvests a non-PQC replica of the ledger, later cracks it with a quantum computer to reveal plaintext]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -33,17 +33,17 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 3 edges to [[_COMMUNITY_Community 81]]
-- 2 edges to [[_COMMUNITY_Community 31]]
-- 2 edges to [[_COMMUNITY_Community 113]]
-- 1 edge to [[_COMMUNITY_Community 111]]
-- 1 edge to [[_COMMUNITY_Community 0]]
-- 1 edge to [[_COMMUNITY_Community 15]]
+- 4 edges to [[_COMMUNITY_Community 1]]
+- 3 edges to [[_COMMUNITY_Community 112]]
+- 3 edges to [[_COMMUNITY_Community 96]]
+- 2 edges to [[_COMMUNITY_Community 44]]
 - 1 edge to [[_COMMUNITY_Community 73]]
+- 1 edge to [[_COMMUNITY_Community 11]]
+- 1 edge to [[_COMMUNITY_Community 136]]
+- 1 edge to [[_COMMUNITY_Community 33]]
 
 ## Top bridge nodes
-- [[Algorithms for Quantum Computation Discrete Logarithms and Factoring]] - degree 13, connects to 6 communities
-- [[Quantum Fourier transform]] - degree 6, connects to 1 community
-- [[Quantum discrete logarithm algorithm]] - degree 4, connects to 1 community
-- [[Integer Factorization]] - degree 3, connects to 1 community
-- [[Quantum Algorithm]] - degree 2, connects to 1 community
+- [[Harvest Now Decrypt Later (HNDL)]] - degree 13, connects to 4 communities
+- [[Harvest Now Decrypt Later Examining Post-Quantum Cryptography and the Data Privacy Risks for Distributed Ledger Networks]] - degree 7, connects to 4 communities
+- [[PQC Standards Transition Timeline (target 2035, NSM-10)]] - degree 5, connects to 3 communities
+- [[Cryptographically Relevant Quantum Computer (CRQC)]] - degree 5, connects to 1 community

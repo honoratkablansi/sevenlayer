@@ -1,12 +1,12 @@
 ---
 source_file: "references/snowball/book/ref-121-basefold-efficient-field-agnostic-polynomial-co.pdf"
 type: "paper"
-community: "Community 36"
+community: "Community 12"
 location: "abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_36
+  - community/Community_12
 ---
 
 # Foldable Code
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[BaseFold]] - `uses` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_36
+#graphify/paper #graphify/EXTRACTED #community/Community_12

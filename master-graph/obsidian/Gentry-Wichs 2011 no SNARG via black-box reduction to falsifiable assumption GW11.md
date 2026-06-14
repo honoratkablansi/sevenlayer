@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf"
 type: "paper"
-community: "Community 53"
+community: "Community 74"
 location: "§1, Remark 4.10 [GW11]"
 tags:
   - graphify/paper
   - graphify/INFERRED
-  - community/Community_53
+  - community/Community_74
 ---
 
 # Gentry-Wichs 2011: no SNARG via black-box reduction to falsifiable assumption [GW11]
@@ -15,4 +15,4 @@ tags:
 - [[Bitansky-Canetti-Chiesa-Tromer Recursive Composition and Bootstrapping for SNARKs and PCD (STOC 2013)]] - `cites` [EXTRACTED]
 - [[Knowledge-Soundness]] - `conceptually_related_to` [INFERRED]
 
-#graphify/paper #graphify/INFERRED #community/Community_53
+#graphify/paper #graphify/INFERRED #community/Community_74

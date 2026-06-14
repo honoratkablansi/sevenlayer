@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-02-bctv-cycles.pdf"
 type: "paper"
-community: "Community 53"
+community: "Community 74"
 location: "refs [Val08]"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_53
+  - community/Community_74
 ---
 
 # Valiant: Incrementally Verifiable Computation (TCC 2008)
@@ -16,4 +16,4 @@ tags:
 - [[Incrementally Verifiable Computation (IVC)]] - `defines` [EXTRACTED]
 - [[The Verifier's Dilemma (unbounded sequences)]] - `references` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_53
+#graphify/paper #graphify/EXTRACTED #community/Community_74

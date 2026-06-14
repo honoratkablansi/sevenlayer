@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch08/ref-28-rollup-pricing-attacks.pdf"
 type: "paper"
-community: "Community 21"
+community: "Community 135"
 location: "§5"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_21
+  - community/Community_135
 ---
 
 # Prover-killer attack (high cycles-per-gas tx stalls ZK proof generation)
@@ -20,4 +20,4 @@ tags:
 - [[ZK Rollup]] - `assumes` [EXTRACTED]
 - [[zkVM]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_21
+#graphify/paper #graphify/EXTRACTED #community/Community_135

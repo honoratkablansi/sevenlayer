@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 12"
+community: "Community 40"
 location: "Chapter 13"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_12
+  - community/Community_40
 ---
 
 # Tokenization of Assets
@@ -16,4 +16,4 @@ tags:
 - [[DTCC and Digital Asset Partner to Tokenize DTC-Custodied U.S. Treasury Securities on the Canton Network]] - `references` [EXTRACTED]
 - [[Deutsche Bank  Project Guardian (ZK-verified KYC settlement)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_12
+#graphify/document #graphify/EXTRACTED #community/Community_40

@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 9"
+community: "Community 13"
 location: "Chapter 7"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_9
+  - community/Community_13
 ---
 
 # Claim: Lattice Schemes Are Architecturally Simpler
@@ -15,4 +15,4 @@ tags:
 - [[Halo  Nested Amortization Recursion]] - `compares` [EXTRACTED]
 - [[Neo (Lattice Folding Scheme)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_9
+#graphify/document #graphify/EXTRACTED #community/Community_13

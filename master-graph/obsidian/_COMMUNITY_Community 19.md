@@ -1,45 +1,51 @@
 ---
 type: community
-cohesion: 0.11
-members: 30
+cohesion: 0.08
+members: 36
 ---
 
 # Community 19
 
-**Cohesion:** 0.11 - loosely connected
-**Members:** 30 nodes
+**Cohesion:** 0.08 - loosely connected
+**Members:** 36 nodes
 
 ## Members
-- [[EXECUTE Precompile for Native zk-Rollups]] - document - references/recursion/ch1/ref-19-ef-l1-zkevm-realtime-proving.md
-- [[Enshrined proofs (phase 3 of proving roadmap)]] - document - references/recursion/ch3/ref-57-ethproofs-reporting.md
-- [[EthProofs Dashboard]] - document - references/recursion/ch1/ref-08-sp1-hypercube.md
-- [[Ethproofs ZK Proving Cost Tracker (Ethereum Foundation)]] - document - references/ch13/ref-44-ethproofs.md
-- [[Home Proving]] - document - references/recursion/ch1/ref-19-ef-l1-zkevm-realtime-proving.md
-- [[Jagged PCS]] - document - proving-nothing.md
-- [[Jordi Baylina (Circom, iden3, Hermez, ZisK)]] - document - proving-nothing.md
-- [[L1 zkEVM]] - document - references/recursion/ch1/ref-19-ef-l1-zkevm-realtime-proving.md
-- [[LogUp-GKR]] - document - proving-nothing.md
-- [[Multilinear Polynomials]] - document - references/recursion/ch1/ref-08-sp1-hypercube.md
-- [[Polygon zkEVM Documentation (STARK to FFLONK pipeline)]] - document - references/recursion/ch1/ref-17-polygon-zkevm-docs.md
-- [[PolygonHermez zkEVM sunset and Baylina's pivot to ZisKRISC-V]] - document - proving-nothing.md
-- [[RTP eligibility thresholds (sub-10s proofs, liveness, cost)]] - document - references/recursion/ch3/ref-57-ethproofs-reporting.md
-- [[Real-Time Proving]] - document - references/ch10/ref-52-sp1-hypercube.md
-- [[Realtime Proving Standardized Definition]] - document - references/recursion/ch1/ref-19-ef-l1-zkevm-realtime-proving.md
-- [[SP1 Hypercube]] - document - references/recursion/ch1/ref-08-sp1-hypercube.md
-- [[SP1 Hypercube Proving Ethereum in Real-Time (Succinct Labs)]] - document - references/ch10/ref-52-sp1-hypercube.md
-- [[SP1 Hypercube Proving Ethereum in Real-Time (Succinct, 2025)]] - document - references/recursion/ch1/ref-08-sp1-hypercube.md
-- [[Security sprint milestone M2 (100-bit provable  600 KiB)]] - document - references/recursion/ch3/ref-57-ethproofs-reporting.md
-- [[Shipping an L1 zkEVM 1 Realtime Proving (Ethereum Foundation, 2025)]] - document - references/recursion/ch1/ref-19-ef-l1-zkevm-realtime-proving.md
-- [[Shipping an L1 zkEVM 2 The Security Foundations (Ethereum Foundation)]] - document - references/ch10/ref-55-zkevm-security-foundations.md
-- [[Stateless Proof Verification]] - document - references/recursion/ch1/ref-19-ef-l1-zkevm-realtime-proving.md
-- [[Succinct SP1 technical documentation]] - document - references/recursion/ch1/ref-27-succinct-sp1-docs.md
-- [[WHIR Polynomial Commitment Scheme]] - document - references/ch10/ref-55-zkevm-security-foundations.md
-- [[ZK Proofs Is Privacy Cheap Enough to Be Mainstream (Castle Labs)]] - document - references/ch13/ref-43-castlelabs-zk-privacy.md
-- [[Zero-Knowledge Proof Market Size, Share & Trends Analysis Report (Grand View Research)]] - document - references/ch13/ref-42-gvr-zkp-market-report.md
-- [[ethproofs.org real-time proving reporting (Pico Prism, ethrex)]] - document - references/recursion/ch3/ref-57-ethproofs-reporting.md
-- [[soundcalc (zkVM security estimation tool)]] - document - references/ch10/ref-55-zkevm-security-foundations.md
-- [[zkEVM  EVM-Compatible Proving]] - document - proving-nothing.md
-- [[zkVM prover benchmarks (zkDTVM, OpenVM, ZisK, Pico on GPU clusters)]] - document - references/recursion/ch3/ref-57-ethproofs-reporting.md
+- [[(Super)Spartan zkSNARK]] - paper - references/ch06/ref-21-neo.pdf
+- [[(d,m,B,C)-relaxed binding; binding implies relaxed binding (Lemma 3)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Algebraic reductions of knowledge]] - paper - references/ch06/ref-21-neo.pdf
+- [[Arc (hash-based accumulation for Reed-Solomon codes)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Concrete parameters AGL, Goldilocks, Mersenne-61 over degree-2 extension]] - paper - references/ch06/ref-21-neo.pdf
+- [[HyperNova (CRYPTO'24)]] - paper - references/ch06/ref-21-neo.pdf
+- [[IVC  Proof-Carrying Data]] - paper - references/ch06/ref-20-latticefold.pdf
+- [[Lattice IVCPCD with Spartan+FRI proof compression, no curve cycles]] - paper - references/ch06/ref-21-neo.pdf
+- [[Lattice folding for lookups and read-write memory via ShoutTwist]] - paper - references/ch06/ref-21-neo.pdf
+- [[LatticeFold (ePrint 2024257)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Lemma 2 linear combinations of commitments respect right-multiplication of openings]] - paper - references/ch06/ref-21-neo.pdf
+- [[Linearly homomorphic commitment]] - paper - references/ch06/ref-21-neo.pdf
+- [[Lova (unstructured-lattice folding for subset sum)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Module-based Ajtai Commitment (com = A x)]] - paper - references/ch02/ref-11-latticefold-plus.pdf
+- [[NTT  Coefficient Embedding over R_q]] - paper - references/ch06/ref-20-latticefold.pdf
+- [[Neo folding scheme for CCS (lattice-based)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Neo folding-friendly matrix commitment scheme (Ajtai with new embedding)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Neo Lattice-based Folding Scheme for CCS over Small Fields and Pay-per-bit Commitments]] - paper - references/ch06/ref-21-neo.pdf
+- [[NeutronNova]] - paper - references/ch06/ref-21-neo.pdf
+- [[Nova (CRYPTO'22)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Pay-per-bit commitment cost (cost scales with bit-width of committed scalars)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Pi_CCS reduction (CCS to linearizedmatrix-eval claims via sum-check)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Pi_DEC decomposition reduction (norm-B claim into k norm-b claims)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Pi_RLC random linear combination reduction (folds k+1 norm-b claims into one norm-B)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Plausible post-quantum security from lattice (no DLOG reliance)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Power-of-Two Cyclotomic Ring ZX(Xd+1)]] - paper - references/ch06/ref-20-latticefold.pdf
+- [[Reductions of knowledge framework]] - paper - references/ch06/ref-21-neo.pdf
+- [[Relaxed Binding Commitment reduced to Module-SIS]] - paper - references/ch02/ref-11-latticefold-plus.pdf
+- [[S-module homomorphism via ring of rotation matrices S]] - paper - references/ch06/ref-21-neo.pdf
+- [[Short invertible elements in partially splitting cyclotomic rings]] - paper - references/ch06/ref-21-neo.pdf
+- [[Strong sampling set with small-norm invertible challenges (expansion factor T)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Theorem 2 Ajtai scheme is S-homomorphic and (d,m,B)-binding under MSIS]] - paper - references/ch06/ref-21-neo.pdf
+- [[Theorem 5 composition theorem (restricted + relaxed knowledge soundness compose to RoK)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Theorem 7 cyclotomic ring R_q isomorphic to ring of rotation matrices S]] - paper - references/ch06/ref-21-neo.pdf
+- [[Twist and Shout (sum-check lookup  memory arguments)]] - paper - references/ch06/ref-21-neo.pdf
+- [[b-bit-word embedding of Fm into low-norm cyclotomic ring vector]] - paper - references/ch06/ref-21-neo.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -49,31 +55,23 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 15 edges to [[_COMMUNITY_Community 2]]
-- 6 edges to [[_COMMUNITY_Community 88]]
-- 5 edges to [[_COMMUNITY_Community 14]]
-- 4 edges to [[_COMMUNITY_Community 12]]
-- 3 edges to [[_COMMUNITY_Community 47]]
-- 3 edges to [[_COMMUNITY_Community 62]]
-- 2 edges to [[_COMMUNITY_Community 13]]
-- 2 edges to [[_COMMUNITY_Community 40]]
-- 2 edges to [[_COMMUNITY_Community 3]]
-- 1 edge to [[_COMMUNITY_Community 5]]
-- 1 edge to [[_COMMUNITY_Community 36]]
-- 1 edge to [[_COMMUNITY_Community 95]]
-- 1 edge to [[_COMMUNITY_Community 93]]
-- 1 edge to [[_COMMUNITY_Community 99]]
-- 1 edge to [[_COMMUNITY_Community 127]]
-- 1 edge to [[_COMMUNITY_Community 1]]
-- 1 edge to [[_COMMUNITY_Community 72]]
-- 1 edge to [[_COMMUNITY_Community 74]]
-- 1 edge to [[_COMMUNITY_Community 0]]
-- 1 edge to [[_COMMUNITY_Community 16]]
-- 1 edge to [[_COMMUNITY_Community 23]]
+- 16 edges to [[_COMMUNITY_Community 1]]
+- 4 edges to [[_COMMUNITY_Community 22]]
+- 4 edges to [[_COMMUNITY_Community 30]]
+- 3 edges to [[_COMMUNITY_Community 0]]
+- 2 edges to [[_COMMUNITY_Community 4]]
+- 2 edges to [[_COMMUNITY_Community 9]]
+- 1 edge to [[_COMMUNITY_Community 20]]
+- 1 edge to [[_COMMUNITY_Community 86]]
+- 1 edge to [[_COMMUNITY_Community 29]]
+- 1 edge to [[_COMMUNITY_Community 11]]
+- 1 edge to [[_COMMUNITY_Community 17]]
+- 1 edge to [[_COMMUNITY_Community 3]]
+- 1 edge to [[_COMMUNITY_Community 18]]
 
 ## Top bridge nodes
-- [[zkEVM  EVM-Compatible Proving]] - degree 15, connects to 7 communities
-- [[ZK Proofs Is Privacy Cheap Enough to Be Mainstream (Castle Labs)]] - degree 10, connects to 7 communities
-- [[SP1 Hypercube Proving Ethereum in Real-Time (Succinct Labs)]] - degree 14, connects to 5 communities
-- [[Ethproofs ZK Proving Cost Tracker (Ethereum Foundation)]] - degree 10, connects to 5 communities
-- [[Shipping an L1 zkEVM 2 The Security Foundations (Ethereum Foundation)]] - degree 11, connects to 4 communities
+- [[Neo Lattice-based Folding Scheme for CCS over Small Fields and Pay-per-bit Commitments]] - degree 32, connects to 8 communities
+- [[Power-of-Two Cyclotomic Ring ZX(Xd+1)]] - degree 10, connects to 4 communities
+- [[Neo folding scheme for CCS (lattice-based)]] - degree 9, connects to 2 communities
+- [[Module-based Ajtai Commitment (com = A x)]] - degree 6, connects to 2 communities
+- [[IVC  Proof-Carrying Data]] - degree 3, connects to 2 communities

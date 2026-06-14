@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-50-extended-tower-nfs.pdf"
 type: "paper"
-community: "Community 31"
+community: "Community 16"
 location: "§2.2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_31
+  - community/Community_16
 ---
 
 # Relation collection over R=Z[t]/h(t), B-smooth norms
@@ -16,4 +16,4 @@ tags:
 - [[Lemma 1 (norm size bound via iterated resultants)]] - `conceptually_related_to` [EXTRACTED]
 - [[exTNFS (Extended Tower Number Field Sieve)]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_31
+#graphify/paper #graphify/EXTRACTED #community/Community_16

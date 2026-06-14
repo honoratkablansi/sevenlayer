@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 12"
+community: "Community 40"
 location: "Chapter 13"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_12
+  - community/Community_40
 ---
 
 # Argument: Follow the Money, Watch the Trust
@@ -16,4 +16,4 @@ tags:
 - [[Trust Relocation vs Trust Minimization]] - `introduces` [EXTRACTED]
 - [[ZK Rollup]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_12
+#graphify/document #graphify/EXTRACTED #community/Community_40

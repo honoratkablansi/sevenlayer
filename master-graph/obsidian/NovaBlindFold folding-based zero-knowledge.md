@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-18-hypernova.pdf"
 type: "paper"
-community: "Community 16"
+community: "Community 29"
 location: "§7"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_16
+  - community/Community_29
 ---
 
 # NovaBlindFold: folding-based zero-knowledge
@@ -17,4 +17,4 @@ tags:
 - [[Relaxed R1CS]] - `assumes` [EXTRACTED]
 - [[Spartan]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_16
+#graphify/paper #graphify/EXTRACTED #community/Community_29

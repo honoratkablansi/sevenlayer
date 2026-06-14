@@ -10,24 +10,24 @@ members: 18
 **Members:** 18 nodes
 
 ## Members
-- [[B-Bounded Ajtai Commitment Opening Relation RB_cm]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[B-Relaxed Binding of Ajtai Commitment]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[Base-b Witness Decomposition Step]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[Expanded Evaluation Relation RB_eval]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[Expansion-Decomposition-Folding Pipeline (Pi_mfold)]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[Hypernova Folding Scheme (cited)]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[LaBRADOR Lattice Proof System (cited)]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[Lattice-Based CCS Folding Scheme]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[Lattice-Based Committed CCS Relation RB_cmccs]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[NTT  Coefficient Embedding over R_q]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[Optimized Single-Sumcheck Batch Folding (Pi_batch)]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[Performance Comparable to Hypernova on 64-bit Field]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[Small Prime Modulus via Extension Fields]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[Strong Sampling Set]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[Sumcheck-Based Norm-Bound Range Check]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[Theorem 3.1 LatticeFold Folding Reduction]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[Theorem 3.3 Folding Knowledge Soundness]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[Theorem 4.3 Pi_cm is a RoK from R_rg,B to R_com]] - paper - references/ch02/ref-11-latticefold-plus.pdf
+- [[Automated Detection of Under-Constrained Circuits in Zero-Knowledge Proofs]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[Circomlib Decoder Underconstrained Bug (motivating example)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[Constrained Circuit (Definition 4.6)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[Constrained Variable (Definition 4.4)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[Multi-prover design as defense (redundant proof systems  TEE, trades liveness for safety)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[RISC Zero CVE-2025-52484 (rs1rs2 confusion)]] - document - proving-nothing.md
+- [[Root cause missing input constraints in reusable circuits]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[Root cause out-of-circuit computation not constrained (incl. boomerang issue)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[Root cause unsafe reuse of circuit (implicit sub-circuit constraints, insecure instantiation)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[Root cause wrong translation of logic into constraints (largest circuit root cause, 34)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[Scroll zkEVM LtChip missing range-check bug (Halo2 missing input constraint)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[Soundness and Completeness Bugs]] - document - proving-nothing.md
+- [[Survey of SNARK defense tools (Circomspect, ZKAP, Korrekt, Picus, Ecne, CIVER, SnarkProbe, Coda)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[TornadoCash Underconstrained Circuit Hack]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[Under-Constrained Circuit  Missing Constraint]] - document - proving-nothing.md
+- [[circom-pairing CoreVerifyPubkeyG1 unconstrained-output bug (unsafe sub-circuit reuse)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[zkFuzz (Takahashi, Kim et al., S&P 2026)]] - document - proving-nothing.md
+- [[zkSync Era MemoryWriteQuery Bug]] - document - proving-nothing.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -37,16 +37,21 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 8 edges to [[_COMMUNITY_Community 0]]
-- 3 edges to [[_COMMUNITY_Community 40]]
-- 3 edges to [[_COMMUNITY_Community 10]]
-- 2 edges to [[_COMMUNITY_Community 1]]
-- 1 edge to [[_COMMUNITY_Community 44]]
-- 1 edge to [[_COMMUNITY_Community 34]]
+- 4 edges to [[_COMMUNITY_Community 82]]
+- 3 edges to [[_COMMUNITY_Community 95]]
+- 3 edges to [[_COMMUNITY_Community 24]]
+- 3 edges to [[_COMMUNITY_Community 5]]
+- 3 edges to [[_COMMUNITY_Community 103]]
+- 2 edges to [[_COMMUNITY_Community 129]]
+- 2 edges to [[_COMMUNITY_Community 0]]
+- 2 edges to [[_COMMUNITY_Community 90]]
+- 2 edges to [[_COMMUNITY_Community 46]]
+- 1 edge to [[_COMMUNITY_Community 3]]
+- 1 edge to [[_COMMUNITY_Community 109]]
+- 1 edge to [[_COMMUNITY_Community 107]]
 
 ## Top bridge nodes
-- [[Sumcheck-Based Norm-Bound Range Check]] - degree 4, connects to 2 communities
-- [[Theorem 4.3 Pi_cm is a RoK from R_rg,B to R_com]] - degree 3, connects to 2 communities
-- [[Expansion-Decomposition-Folding Pipeline (Pi_mfold)]] - degree 7, connects to 1 community
-- [[B-Bounded Ajtai Commitment Opening Relation RB_cm]] - degree 6, connects to 1 community
-- [[Lattice-Based CCS Folding Scheme]] - degree 5, connects to 1 community
+- [[Under-Constrained Circuit  Missing Constraint]] - degree 31, connects to 11 communities
+- [[Automated Detection of Under-Constrained Circuits in Zero-Knowledge Proofs]] - degree 10, connects to 6 communities
+- [[Survey of SNARK defense tools (Circomspect, ZKAP, Korrekt, Picus, Ecne, CIVER, SnarkProbe, Coda)]] - degree 3, connects to 1 community
+- [[Circomlib Decoder Underconstrained Bug (motivating example)]] - degree 2, connects to 1 community

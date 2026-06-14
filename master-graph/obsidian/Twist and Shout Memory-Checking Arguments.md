@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-45-small-space-cpu-proofs.pdf"
 type: "document"
-community: "Community 84"
+community: "Community 9"
 location: "page 3"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_84
+  - community/Community_9
 ---
 
 # Twist and Shout Memory-Checking Arguments
@@ -21,4 +21,4 @@ tags:
 - [[Shout sum-check memory-checking  lookup argument for read-only memory]] - `conceptually_related_to` [EXTRACTED]
 - [[Twist sum-check memory-checking argument for readwrite memory]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_84
+#graphify/document #graphify/EXTRACTED #community/Community_9

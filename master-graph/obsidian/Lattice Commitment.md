@@ -1,12 +1,12 @@
 ---
 source_file: "references/snowball/recursion/ref-138-lattice-based-zero-knowledge-proofs-and-applicat.pdf"
 type: "paper"
-community: "Community 15"
+community: "Community 20"
 location: "abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_15
+  - community/Community_20
 ---
 
 # Lattice Commitment
@@ -17,4 +17,4 @@ tags:
 - [[Short Norm Proof]] - `uses` [EXTRACTED]
 - [[Sigma protocol (public-coin 3-move)]] - `uses` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_15
+#graphify/paper #graphify/EXTRACTED #community/Community_20

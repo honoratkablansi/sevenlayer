@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 72"
+community: "Community 80"
 location: "Chapter 14"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_72
+  - community/Community_80
 ---
 
 # Lattice-Based Functional Commitment
@@ -15,4 +15,4 @@ tags:
 - [[Post-Quantum Cryptography]] - `conceptually_related_to` [EXTRACTED]
 - [[Q2 Proven Lower Bound on Post-Quantum Proof Size]] - `cites` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_72
+#graphify/document #graphify/EXTRACTED #community/Community_80

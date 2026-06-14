@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-81-wesolowski-vdf.pdf"
 type: "paper"
-community: "Community 7"
+community: "Community 2"
 location: "§6.2 Proposition 2, Definition 1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_7
+  - community/Community_2
 ---
 
 # Proposition 2: soundness in the random oracle model (reduction to root finding)
@@ -15,4 +15,4 @@ tags:
 - [[Root finding game Groot (extract l-th roots) underlying soundness]] - `assumes` [EXTRACTED]
 - [[Trapdoor VDF (evaluable fast with secret order, sound)]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_7
+#graphify/paper #graphify/EXTRACTED #community/Community_2

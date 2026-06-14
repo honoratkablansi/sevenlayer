@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch2/ref-47-protogalaxy.pdf"
 type: "paper"
-community: "Community 8"
+community: "Community 77"
 location: "§1, References [Val08],[CT10]"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_8
+  - community/Community_77
 ---
 
 # IVC [Val08] and PCD [CT10]: original motivation for folding schemes
@@ -15,4 +15,4 @@ tags:
 - [[Folding Scheme]] - `conceptually_related_to` [EXTRACTED]
 - [[ProtoGalaxy Efficient ProtoStar-style folding of multiple instances (Eagen & Gabizon, ePrint 20231106)]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_8
+#graphify/paper #graphify/EXTRACTED #community/Community_77

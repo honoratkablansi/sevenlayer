@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-51-pairing-efficiency-curves.pdf"
 type: "paper"
-community: "Community 64"
+community: "Community 16"
 location: "page 1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_64
+  - community/Community_16
 ---
 
 # Comparing the Pairing Efficiency over Composite-Order and Prime-Order Elliptic Curves
@@ -19,4 +19,4 @@ tags:
 - [[Number Field Sieve]] - `references` [EXTRACTED]
 - [[Recommendation avoid composite-order groups whenever possible]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_64
+#graphify/paper #graphify/EXTRACTED #community/Community_16

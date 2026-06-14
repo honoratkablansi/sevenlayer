@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch06-the-hybrid-pipeline.md"
 type: "document"
-community: "Community 2"
+community: "Community 17"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_2
+  - community/Community_17
 ---
 
 # The Hybrid Pipeline
@@ -24,4 +24,4 @@ tags:
 - [[STARK]] - `references` [EXTRACTED]
 - [[The Three Families]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_2
+#graphify/document #graphify/EXTRACTED #community/Community_17

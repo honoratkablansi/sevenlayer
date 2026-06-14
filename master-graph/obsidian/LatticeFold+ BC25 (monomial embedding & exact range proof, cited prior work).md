@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-56-symphony.pdf"
 type: "paper"
-community: "Community 34"
+community: "Community 18"
 location: "§1.2, §3.3, §3.4"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_34
+  - community/Community_18
 ---
 
 # LatticeFold+ [BC25] (monomial embedding & exact range proof, cited prior work)
@@ -17,4 +17,4 @@ tags:
 - [[Monomial-embedding RoK Pi_mon (Lemma 3.1) reducing monomial check to linear statement]] - `cites` [EXTRACTED]
 - [[Symphony Scalable SNARKs in the Random Oracle Model from Lattice-Based High-Arity Folding]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_34
+#graphify/paper #graphify/EXTRACTED #community/Community_18

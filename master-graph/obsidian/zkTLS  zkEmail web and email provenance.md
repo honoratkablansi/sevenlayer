@@ -1,12 +1,12 @@
 ---
 source_file: "recursion/recursion-outline.md"
 type: "document"
-community: "Community 11"
+community: "Community 100"
 location: "Recursion Chapter 3"
 tags:
   - graphify/document
   - graphify/INFERRED
-  - community/Community_11
+  - community/Community_100
 ---
 
 # zkTLS / zkEmail web and email provenance
@@ -20,4 +20,4 @@ tags:
 - [[Web data provenance  authenticity of TLS-accessed data]] - `conceptually_related_to` [INFERRED]
 - [[zkEmail]] - `conceptually_related_to` [INFERRED]
 
-#graphify/document #graphify/INFERRED #community/Community_11
+#graphify/document #graphify/INFERRED #community/Community_100

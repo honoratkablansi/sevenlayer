@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 40"
+community: "Community 141"
 location: "Chapter 4"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_40
+  - community/Community_141
 ---
 
 # BatchZK Pipelining (2025)
@@ -16,4 +16,4 @@ tags:
 - [[Sum-Check Protocol]] - `references` [EXTRACTED]
 - [[Witness Generation]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_40
+#graphify/document #graphify/EXTRACTED #community/Community_141

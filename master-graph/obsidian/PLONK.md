@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 62"
+community: "Community 5"
 location: "Chapter 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_62
+  - community/Community_5
 ---
 
 # PLONK
@@ -91,4 +91,4 @@ tags:
 - [[zk-SNARK]] - `conceptually_related_to` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_62
+#graphify/document #graphify/EXTRACTED #community/Community_5

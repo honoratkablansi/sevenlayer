@@ -1,25 +1,31 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 73"
+community: "Community 71"
 location: "Chapter 7"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_73
+  - community/Community_71
 ---
 
 # Pedersen Commitment
 
 ## Connections
+- [[Additive Homomorphism of Commitments]] - `defines` [EXTRACTED]
 - [[Additively-Homomorphic Vector Commitment]] - `conceptually_related_to` [EXTRACTED]
 - [[Bit-decomposition range proof for committed balances (no trusted setup)]] - `assumes` [EXTRACTED]
 - [[Bitcoin]] - `assumes` [EXTRACTED]
+- [[Bulletproofs  Inner Product Argument]] - `uses` [EXTRACTED]
 - [[Case Study Midnight (Layer 6)]] - `references` [EXTRACTED]
 - [[Case Study Midnight and the Three-Token Architecture]] - `references` [EXTRACTED]
+- [[Commit-and-Prove SNARK]] - `uses` [EXTRACTED]
+- [[Commitment Scheme]] - `generalizes` [EXTRACTED]
+- [[Computational Binding]] - `defines` [EXTRACTED]
 - [[Constant-Size Commitments to Polynomials and Their Applications]] - `cites` [EXTRACTED]
-- [[Discrete Logarithm Assumption]] - `assumes` [EXTRACTED]
+- [[Discrete Logarithm Assumption]] - `uses` [EXTRACTED]
 - [[Four Families of Commitment Schemes]] - `references` [EXTRACTED]
+- [[Homomorphic  Trapdoor Commitment Property]] - `defines` [EXTRACTED]
 - [[Inner Product Argument (IPABulletproofs)]] - `references` [EXTRACTED]
 - [[LatticeFold  LatticeFold+]] - `compares` [EXTRACTED]
 - [[LatticeFold+ Faster, Simpler, Shorter Lattice-Based Folding for Succinct Proof Systems]] - `conceptually_related_to` [EXTRACTED]
@@ -37,11 +43,13 @@ tags:
 - [[Provisions privacy-preserving proof of solvency for Bitcoin exchanges]] - `assumes` [EXTRACTED]
 - [[Range Proof]] - `uses` [EXTRACTED]
 - [[Relaxed R1CS]] - `references` [EXTRACTED]
+- [[Schnorr Proof System]] - `builds_on` [EXTRACTED]
 - [[Single-MSM prover cost (size = variables)]] - `assumes` [EXTRACTED]
 - [[SoK Trusted Setups for Powers-of-Tau Strings]] - `conceptually_related_to` [EXTRACTED]
 - [[The Quantum Threat Horizon]] - `references` [EXTRACTED]
 - [[Theorem 3  7.2 zero-knowledge split accumulation for the Hadamard-product predicate under Pedersen commitments (5 G opsclaim)]] - `assumes` [EXTRACTED]
 - [[Theorem 4  A.2 split accumulation for a Pedersen-based polynomial commitment predicate (ROM, DL)]] - `assumes` [EXTRACTED]
 - [[Three Hardness Assumptions, Three Worlds]] - `references` [EXTRACTED]
+- [[Vector commitment scheme (position-binding; Merkle-tree instantiation, O(log n) openings)]] - `generalizes` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_73
+#graphify/document #graphify/EXTRACTED #community/Community_71

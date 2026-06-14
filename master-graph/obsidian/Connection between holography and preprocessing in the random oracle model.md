@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-10-fractal.pdf"
 type: "paper"
-community: "Community 6"
+community: "Community 52"
 location: "Abstract; §1.1(1); §2.2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_6
+  - community/Community_52
 ---
 
 # Connection between holography and preprocessing in the random oracle model
@@ -17,4 +17,4 @@ tags:
 - [[Marlin  algebraic holographic proof (AHP) + polynomial commitments CHMMVW20 — starting-point ideas for the holographic IOP]] - `cites` [EXTRACTED]
 - [[Preprocessing SNARK  SNARG (offline indexing produces a succinct verification key; verifier polylogarithmic in circuit size)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_6
+#graphify/paper #graphify/EXTRACTED #community/Community_52

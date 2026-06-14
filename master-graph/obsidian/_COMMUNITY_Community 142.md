@@ -1,19 +1,18 @@
 ---
 type: community
-cohesion: 0.67
-members: 4
+cohesion: 1.00
+members: 3
 ---
 
 # Community 142
 
-**Cohesion:** 0.67 - moderately connected
-**Members:** 4 nodes
+**Cohesion:** 1.00 - tightly connected
+**Members:** 3 nodes
 
 ## Members
-- [[EZKL  Modulus Labs zkML systems documentation]] - document - references/recursion/ch3/ref-72-ezkl-modulus-docs.md
-- [[Lilith distributed proof-generation cluster]] - document - references/recursion/ch3/ref-72-ezkl-modulus-docs.md
-- [[ONNX-to-ZK-circuit compilation]] - document - references/recursion/ch3/ref-72-ezkl-modulus-docs.md
-- [[Proof of correct model execution]] - document - references/recursion/ch3/ref-72-ezkl-modulus-docs.md
+- [[Proof-carrying data (PCD) primitive formally capturing recursive composition via a compliance predicate]] - paper - references/recursion/ch1/ref-10-fractal.pdf
+- [[Recursive composition  PCD from succinct-verifier SNARKs BCCT13]] - paper - references/recursion/ch1/ref-10-fractal.pdf
+- [[Theorem 4  Theorem 11.5 transformation compiling any preprocessing SNARK in the URS model into a preprocessing PCD scheme (preserving transparency and post-quantum security)]] - paper - references/recursion/ch1/ref-10-fractal.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -23,9 +22,10 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 1 edge to [[_COMMUNITY_Community 8]]
-- 1 edge to [[_COMMUNITY_Community 78]]
+- 2 edges to [[_COMMUNITY_Community 52]]
+- 1 edge to [[_COMMUNITY_Community 11]]
+- 1 edge to [[_COMMUNITY_Community 13]]
 
 ## Top bridge nodes
-- [[Proof of correct model execution]] - degree 3, connects to 1 community
-- [[EZKL  Modulus Labs zkML systems documentation]] - degree 3, connects to 1 community
+- [[Theorem 4  Theorem 11.5 transformation compiling any preprocessing SNARK in the URS model into a preprocessing PCD scheme (preserving transparency and post-quantum security)]] - degree 5, connects to 2 communities
+- [[Proof-carrying data (PCD) primitive formally capturing recursive composition via a compliance predicate]] - degree 3, connects to 1 community

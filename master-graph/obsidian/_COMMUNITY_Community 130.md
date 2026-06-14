@@ -1,20 +1,22 @@
 ---
 type: community
-cohesion: 0.40
-members: 5
+cohesion: 0.38
+members: 7
 ---
 
 # Community 130
 
-**Cohesion:** 0.40 - moderately connected
-**Members:** 5 nodes
+**Cohesion:** 0.38 - loosely connected
+**Members:** 7 nodes
 
 ## Members
-- [[BCTV Succinct NIZK for a von Neumann architecture (USENIX Security 2014)]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
-- [[Preprocessing zk-SNARK for arithmetic circuits]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
-- [[Scalable Zero Knowledge via Cycles of Elliptic Curves (BCTV14, CRYPTO 2014)]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
-- [[Scalable zk-SNARK (fully succinct + incrementally computable)]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
-- [[vnTinyRAM evaluation ~26.2sstep, VIPS clock rate]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
+- [[Blockchain summary (constant-size validity certificate of the chain)]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
+- [[Chain extractability (recursive extractor recovers underlying blockchain from summary)]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
+- [[Coda Decentralized Cryptocurrency at Scale (ePrint 2020352)]] - document - recursion/recursion-outline.md
+- [[Mina  Coda and Pickles recursion layer]] - document - recursion/recursion-outline.md
+- [[Mina end-to-end case study]] - document - recursion/recursion-outline.md
+- [[Succinct Blockchain Protocol definition (5 PPT algorithms + succinctness)]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
+- [[Succinct blockchain]] - document - recursion/recursion-outline.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -24,16 +26,11 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 1 edge to [[_COMMUNITY_Community 97]]
-- 1 edge to [[_COMMUNITY_Community 75]]
-- 1 edge to [[_COMMUNITY_Community 9]]
-- 1 edge to [[_COMMUNITY_Community 18]]
-- 1 edge to [[_COMMUNITY_Community 67]]
-- 1 edge to [[_COMMUNITY_Community 53]]
-- 1 edge to [[_COMMUNITY_Community 90]]
-- 1 edge to [[_COMMUNITY_Community 116]]
+- 2 edges to [[_COMMUNITY_Community 22]]
+- 1 edge to [[_COMMUNITY_Community 13]]
+- 1 edge to [[_COMMUNITY_Community 81]]
+- 1 edge to [[_COMMUNITY_Community 66]]
 
 ## Top bridge nodes
-- [[Preprocessing zk-SNARK for arithmetic circuits]] - degree 4, connects to 3 communities
-- [[Scalable Zero Knowledge via Cycles of Elliptic Curves (BCTV14, CRYPTO 2014)]] - degree 4, connects to 3 communities
-- [[Scalable zk-SNARK (fully succinct + incrementally computable)]] - degree 4, connects to 2 communities
+- [[Succinct blockchain]] - degree 6, connects to 3 communities
+- [[Mina  Coda and Pickles recursion layer]] - degree 5, connects to 2 communities

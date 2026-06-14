@@ -1,26 +1,28 @@
 ---
 type: community
-cohesion: 0.20
-members: 11
+cohesion: 0.21
+members: 13
 ---
 
 # Community 98
 
-**Cohesion:** 0.20 - loosely connected
-**Members:** 11 nodes
+**Cohesion:** 0.21 - loosely connected
+**Members:** 13 nodes
 
 ## Members
-- [[Address-grouping suffices (a-group + t-order) instead of full (a,t)-ordering]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
-- [[Blum, Evans, Gemmell, Kannan, Naor - Checking Correctness of Memories (1991)]] - document - proving-nothing.md
-- [[Claim 4 public-coin multiset hash H_{tau,gamma} via Reed-Solomon fingerprinting; multiset equality with soundness error O((A+B)F)]] - paper - references/ch03/ref-15-lasso.pdf
-- [[Grand Product Argument (accumulator polynomial Z)]] - paper - references/ch02/ref-07-plonk.pdf
-- [[Lagrange Basis over Multiplicative Subgroup]] - paper - references/ch02/ref-07-plonk.pdf
-- [[Offline Memory Checking]] - document - proving-nothing.md
-- [[Pi_active active-cell selection via H_r permutation proofs, V-cost 3N+2A+O(1)]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
-- [[Scribe (BMM24) readwrite-streaming-pass SNARK adapting HyperPlonk PIOP]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[Spice readwrite memory-checking argument (offline, grand-product based)]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[Streaming grand products via depth-first traversal of multiplication-gate tree]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[Universal keyed hashes coefficient hash H_c and root hash H_r]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[Aggregated Range Proof for m Values]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Bulletproofs NIZK Argument System]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Confidential Transactions (CT)]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Logarithmic Proof Size Claim (2 log2(nm)+4 elements)]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Logarithmic-Size Range Proof]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[MPC Protocol for Distributed Bulletproof Generation]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Mimblewimble]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Proof of Solvency for Bitcoin exchanges]] - paper - references/recursion/ch3/ref-88-provisions.pdf
+- [[Provisions Proof of Solvency]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Range Proof]] - document - references/ch02/ref-09-bulletproofs.pdf
+- [[SNARKs with Trusted Setup]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Switch to Quantum-Secure Range Proofs (ElGamal)]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Theorem 3 Aggregate Range Proof Security]] - paper - references/ch02/ref-09-bulletproofs.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -30,19 +32,20 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 4 edges to [[_COMMUNITY_Community 59]]
-- 3 edges to [[_COMMUNITY_Community 2]]
-- 3 edges to [[_COMMUNITY_Community 84]]
-- 3 edges to [[_COMMUNITY_Community 54]]
-- 2 edges to [[_COMMUNITY_Community 16]]
-- 1 edge to [[_COMMUNITY_Community 1]]
-- 1 edge to [[_COMMUNITY_Community 82]]
-- 1 edge to [[_COMMUNITY_Community 86]]
-- 1 edge to [[_COMMUNITY_Community 40]]
+- 4 edges to [[_COMMUNITY_Community 11]]
+- 4 edges to [[_COMMUNITY_Community 71]]
+- 2 edges to [[_COMMUNITY_Community 99]]
+- 1 edge to [[_COMMUNITY_Community 70]]
+- 1 edge to [[_COMMUNITY_Community 41]]
+- 1 edge to [[_COMMUNITY_Community 22]]
+- 1 edge to [[_COMMUNITY_Community 30]]
+- 1 edge to [[_COMMUNITY_Community 20]]
+- 1 edge to [[_COMMUNITY_Community 131]]
+- 1 edge to [[_COMMUNITY_Community 47]]
 
 ## Top bridge nodes
-- [[Offline Memory Checking]] - degree 14, connects to 7 communities
-- [[Grand Product Argument (accumulator polynomial Z)]] - degree 11, connects to 4 communities
-- [[Spice readwrite memory-checking argument (offline, grand-product based)]] - degree 3, connects to 1 community
-- [[Scribe (BMM24) readwrite-streaming-pass SNARK adapting HyperPlonk PIOP]] - degree 2, connects to 1 community
-- [[Address-grouping suffices (a-group + t-order) instead of full (a,t)-ordering]] - degree 2, connects to 1 community
+- [[Range Proof]] - degree 12, connects to 5 communities
+- [[Bulletproofs NIZK Argument System]] - degree 10, connects to 5 communities
+- [[Logarithmic-Size Range Proof]] - degree 5, connects to 2 communities
+- [[Proof of Solvency for Bitcoin exchanges]] - degree 3, connects to 2 communities
+- [[MPC Protocol for Distributed Bulletproof Generation]] - degree 2, connects to 1 community

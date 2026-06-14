@@ -1,22 +1,22 @@
 ---
 type: community
-cohesion: 0.29
+cohesion: 0.43
 members: 7
 ---
 
 # Community 125
 
-**Cohesion:** 0.29 - loosely connected
+**Cohesion:** 0.43 - moderately connected
 **Members:** 7 nodes
 
 ## Members
-- [[DEEP-ALI and FRI]] - document - references/recursion/ch1/ref-18-risc-zero-proof-system-overview.md
-- [[Extended Main and Auxiliary Execution Trace]] - document - references/recursion/ch1/ref-18-risc-zero-proof-system-overview.md
-- [[Groth16 Circuit (on-chain verification wrapper)]] - document - references/recursion/ch1/ref-18-risc-zero-proof-system-overview.md
-- [[Image ID]] - document - references/recursion/ch1/ref-18-risc-zero-proof-system-overview.md
-- [[RISC Zero]] - document - proving-nothing.md
-- [[RISC Zero Recursion Circuit]] - document - references/recursion/ch1/ref-18-risc-zero-proof-system-overview.md
-- [[The RISC Zero STARK Protocol  Proof System Overview]] - document - references/recursion/ch1/ref-18-risc-zero-proof-system-overview.md
+- [[Aztec]] - document - wiki/sections/ch09-open-problems.md
+- [[Claim Privacy as Cross-Cutting Concern]] - document - proving-nothing.md
+- [[Kachina]] - document - proving-nothing.md
+- [[Leakage function Lambda]] - paper - references/ch09/ref-30-kachina.pdf
+- [[Privacy Architectures for Smart Contracts Kachina and Zexe]] - document - wiki/sections/ch09-privacy-architectures-for-smart-contracts-kachina-and-zexe.md
+- [[Private Smart Contracts]] - document - proving-nothing.md
+- [[Zexe]] - document - proving-nothing.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -26,21 +26,20 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 5 edges to [[_COMMUNITY_Community 2]]
-- 3 edges to [[_COMMUNITY_Community 13]]
-- 2 edges to [[_COMMUNITY_Community 1]]
-- 2 edges to [[_COMMUNITY_Community 23]]
-- 1 edge to [[_COMMUNITY_Community 14]]
-- 1 edge to [[_COMMUNITY_Community 88]]
-- 1 edge to [[_COMMUNITY_Community 94]]
-- 1 edge to [[_COMMUNITY_Community 12]]
-- 1 edge to [[_COMMUNITY_Community 52]]
-- 1 edge to [[_COMMUNITY_Community 92]]
-- 1 edge to [[_COMMUNITY_Community 89]]
-- 1 edge to [[_COMMUNITY_Community 126]]
+- 9 edges to [[_COMMUNITY_Community 21]]
+- 4 edges to [[_COMMUNITY_Community 5]]
+- 3 edges to [[_COMMUNITY_Community 35]]
+- 2 edges to [[_COMMUNITY_Community 6]]
+- 2 edges to [[_COMMUNITY_Community 17]]
+- 1 edge to [[_COMMUNITY_Community 84]]
+- 1 edge to [[_COMMUNITY_Community 1]]
+- 1 edge to [[_COMMUNITY_Community 24]]
+- 1 edge to [[_COMMUNITY_Community 22]]
+- 1 edge to [[_COMMUNITY_Community 40]]
 
 ## Top bridge nodes
-- [[RISC Zero]] - degree 22, connects to 11 communities
-- [[DEEP-ALI and FRI]] - degree 3, connects to 1 community
-- [[Groth16 Circuit (on-chain verification wrapper)]] - degree 2, connects to 1 community
-- [[RISC Zero Recursion Circuit]] - degree 2, connects to 1 community
+- [[Privacy Architectures for Smart Contracts Kachina and Zexe]] - degree 12, connects to 4 communities
+- [[Private Smart Contracts]] - degree 9, connects to 4 communities
+- [[Zexe]] - degree 9, connects to 4 communities
+- [[Kachina]] - degree 6, connects to 3 communities
+- [[Aztec]] - degree 3, connects to 1 community

@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch04-witness-generation-costs.md"
 type: "paper"
-community: "Community 89"
+community: "Community 86"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_89
+  - community/Community_86
 ---
 
 # Streaming Witness Generation (Nair, Thaler, Zhu)
@@ -16,4 +16,4 @@ tags:
 - [[The Witness as a Multi-Dimensional Problem]] - `cites` [EXTRACTED]
 - [[Witness Generation Costs]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_89
+#graphify/paper #graphify/EXTRACTED #community/Community_86

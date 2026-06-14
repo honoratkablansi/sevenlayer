@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch14-the-seven-questions-that-remain-open.md"
 type: "document"
-community: "Community 14"
+community: "Community 24"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_14
+  - community/Community_24
 ---
 
 # NVIDIA
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[The Seven Questions That Remain Open]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_14
+#graphify/document #graphify/EXTRACTED #community/Community_24

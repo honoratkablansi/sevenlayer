@@ -1,20 +1,22 @@
 ---
 type: community
-cohesion: 0.40
-members: 5
+cohesion: 0.48
+members: 7
 ---
 
 # Community 129
 
-**Cohesion:** 0.40 - moderately connected
-**Members:** 5 nodes
+**Cohesion:** 0.48 - moderately connected
+**Members:** 7 nodes
 
 ## Members
-- [[Linear Error-Correcting Code]] - paper - references/snowball/book/ref-096-orion-zero-knowledge-proof-with-linear-prover-t.pdf
-- [[Linear-Time Prover]] - paper - references/snowball/book/ref-096-orion-zero-knowledge-proof-with-linear-prover-t.pdf
-- [[Lossless Expander Graph]] - paper - references/snowball/book/ref-096-orion-zero-knowledge-proof-with-linear-prover-t.pdf
-- [[Orion]] - paper - references/snowball/book/ref-096-orion-zero-knowledge-proof-with-linear-prover-t.pdf
-- [[Proof Composition]] - paper - references/snowball/book/ref-096-orion-zero-knowledge-proof-with-linear-prover-t.pdf
+- [[Noir (Aztec)]] - document - wiki/sections/ch03-the-four-philosophies.md
+- [[Picus (QED2)]] - paper - wiki/sections/ch03-under-constrained-circuits-the-dominant-failure-mode.md
+- [[Under-Constrained Circuits The Dominant Failure Mode]] - document - wiki/sections/ch03-under-constrained-circuits-the-dominant-failure-mode.md
+- [[Witness-Constraint Divergence]] - document - wiki/sections/ch04-witness-constraint-divergence.md
+- [[ZKAP (Circuit Dependence Graph static analysis)]] - paper - wiki/sections/ch03-under-constrained-circuits-the-dominant-failure-mode.md
+- [[zkFuzz]] - paper - wiki/sections/ch03-under-constrained-circuits-the-dominant-failure-mode.md
+- [[zkSync Era]] - document - wiki/sections/ch04-witness-constraint-divergence.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -24,9 +26,18 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 1 edge to [[_COMMUNITY_Community 15]]
-- 1 edge to [[_COMMUNITY_Community 32]]
+- 7 edges to [[_COMMUNITY_Community 5]]
+- 4 edges to [[_COMMUNITY_Community 0]]
+- 4 edges to [[_COMMUNITY_Community 86]]
+- 2 edges to [[_COMMUNITY_Community 95]]
+- 2 edges to [[_COMMUNITY_Community 69]]
+- 1 edge to [[_COMMUNITY_Community 115]]
+- 1 edge to [[_COMMUNITY_Community 4]]
+- 1 edge to [[_COMMUNITY_Community 10]]
+- 1 edge to [[_COMMUNITY_Community 24]]
 
 ## Top bridge nodes
-- [[Orion]] - degree 5, connects to 1 community
-- [[Linear-Time Prover]] - degree 2, connects to 1 community
+- [[Under-Constrained Circuits The Dominant Failure Mode]] - degree 16, connects to 7 communities
+- [[Witness-Constraint Divergence]] - degree 13, connects to 5 communities
+- [[Noir (Aztec)]] - degree 6, connects to 1 community
+- [[ZKAP (Circuit Dependence Graph static analysis)]] - degree 3, connects to 1 community

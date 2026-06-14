@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-45-small-space-cpu-proofs.pdf"
 type: "paper"
-community: "Community 40"
+community: "Community 9"
 location: "§1.4 (BCHO22)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_40
+  - community/Community_9
 ---
 
 # Gemini (BCHO22): small-space VM SNARK with streamed multilinear-KZG PCS
@@ -15,4 +15,4 @@ tags:
 - [[Block et al. (BHR20) quasi-linear small-space SNARK for VMs with streaming Bulletproofs PCS]] - `cites` [EXTRACTED]
 - [[KZG Polynomial Commitments from pairings (with trusted setup); Dory transparent pairing-based scheme]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_40
+#graphify/paper #graphify/EXTRACTED #community/Community_9

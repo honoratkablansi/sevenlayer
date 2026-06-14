@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf"
 type: "paper"
-community: "Community 66"
+community: "Community 75"
 location: "title/Abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_66
+  - community/Community_75
 ---
 
 # Scaling up Trustless DNN Inference with Zero-Knowledge Proofs (Kang, Hashimoto, Stoica, Sun, 2022)
@@ -29,4 +29,4 @@ tags:
 - [[ZKML (Zero-Knowledge Machine Learning)]] - `conceptually_related_to` [EXTRACTED]
 - [[zk-SNARK]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_66
+#graphify/paper #graphify/EXTRACTED #community/Community_75

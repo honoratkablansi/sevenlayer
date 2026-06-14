@@ -1,12 +1,12 @@
 ---
 source_file: "recursion/recursion-outline.md"
 type: "document"
-community: "Community 74"
+community: "Community 81"
 location: "Recursion Chapter 3"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_74
+  - community/Community_81
 ---
 
 # Light client / bridge
@@ -20,4 +20,4 @@ tags:
 - [[zkBridge (Xie et al., CCS 2022)]] - `cites` [EXTRACTED]
 - [[zkBridge trustless cross-chain bridge via succinct proofs of consensus  light-client state transitions]] - `assumes` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_74
+#graphify/document #graphify/EXTRACTED #community/Community_81

@@ -1,12 +1,12 @@
 ---
 source_file: "recursion/recursion-outline.md"
 type: "document"
-community: "Community 53"
+community: "Community 74"
 location: "Recursion Chapter 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_53
+  - community/Community_74
 ---
 
 # Succinctness
@@ -18,4 +18,4 @@ tags:
 - [[The Succinctness Threshold]] - `explains` [EXTRACTED]
 - [[The Verifier's Dilemma (unbounded sequences)]] - `explains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_53
+#graphify/document #graphify/EXTRACTED #community/Community_74

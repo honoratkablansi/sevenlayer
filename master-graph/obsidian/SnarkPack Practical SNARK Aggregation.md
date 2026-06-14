@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-33-snarkpack.pdf"
 type: "paper"
-community: "Community 3"
+community: "Community 62"
 location: "title, Abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_3
+  - community/Community_62
 ---
 
 # SnarkPack: Practical SNARK Aggregation
@@ -30,4 +30,4 @@ tags:
 - [[Reuse of two independent Groth16 powers-of-tau ceremonies (no new trusted setup)]] - `introduces` [EXTRACTED]
 - [[SNARK proof aggregation]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_3
+#graphify/paper #graphify/EXTRACTED #community/Community_62

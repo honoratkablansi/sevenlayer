@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch2/ref-44-supernova.pdf"
 type: "paper"
-community: "Community 46"
+community: "Community 55"
 location: "§4.2 (Construction 1)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_46
+  - community/Community_55
 ---
 
 # Construction 1: SuperNova NIVC scheme (G,K,P,V) built from non-interactive folding scheme NIFS for committed relaxed R1CS plus a hash
@@ -21,4 +21,4 @@ tags:
 - [[R1CS (Rank-1 Constraint Systems)]] - `assumes` [EXTRACTED]
 - [[SuperNova (Non-Uniform IVC)]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_46
+#graphify/paper #graphify/EXTRACTED #community/Community_55

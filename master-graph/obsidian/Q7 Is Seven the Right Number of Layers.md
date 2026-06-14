@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 72"
+community: "Community 80"
 location: "Chapter 14"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_72
+  - community/Community_80
 ---
 
 # Q7: Is Seven the Right Number of Layers
@@ -17,4 +17,4 @@ tags:
 - [[Open Questions and the Road Ahead (Ch14)]] - `introduces` [EXTRACTED]
 - [[Seven-Layer Trust Model]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_72
+#graphify/document #graphify/EXTRACTED #community/Community_80

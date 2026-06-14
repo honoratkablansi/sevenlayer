@@ -1,36 +1,37 @@
 ---
 type: community
-cohesion: 0.15
-members: 21
+cohesion: 0.16
+members: 22
 ---
 
 # Community 50
 
-**Cohesion:** 0.15 - loosely connected
-**Members:** 21 nodes
+**Cohesion:** 0.16 - loosely connected
+**Members:** 22 nodes
 
 ## Members
-- [[Batch Opening (CreateWitnessBatchVerifyEvalBatch)]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[Constant-Size Commitment & O(1) Opening Overhead]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[Constant-Size Commitments to Polynomials and Their Applications]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[Content Extraction Signature & Credential Construction]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[Cryptographic Accumulator]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[Feldman Verifiable Secret Sharing]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[Nearly Zero-Knowledge Set  ZK-EDB]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[PolyCommitDL Scheme]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[PolyCommitPed Scheme]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[Polynomial Divisibility Property ((x-i) divides phi(x)-phi(i))]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[Theorem 3.2 PolyCommitDL Security]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[Theorem 3.3 PolyCommitPed Security]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[Theorem 3.4 Batch Opening Binding]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[Theorem 3.5 Strong Correctness]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[Verifiable Secret Sharing]] - document - references/ch02/ref-04-kzg-commitments.pdf
-- [[Zero-Knowledge Set (Micali et al.)]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[eVSS Efficient Feldman VSS]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[t-Bilinear Strong Diffie-Hellman (t-BSDH) Assumption]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[t-Diffie-Hellman Inversion (t-DHI) Assumption]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[t-Polynomial Diffie-Hellman (t-polyDH) Assumption]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[t-Strong Diffie-Hellman (t-SDH) Assumption]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Additive FFT over binary fields (Lin et al.)]] - paper - references/ch02/ref-08-stark.pdf
+- [[Babai, Fortnow, Levin, Szegedy BFLS91 - holographic proofs  checking computations (prior model)]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
+- [[Bare-bones protocol (Theorem 3.1) IP given oracle access to low-degree extensions of wiring predicates add_imult_i specifying circuit]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
+- [[Corollary 1.2 for L-uniform NC, prover poly(n), verifier npolylog(n) time and O(log n) space, communication polylog(n)]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
+- [[Corollary 1.4 public-coin O(log n)-space poly-time verifier IP for all of P (resolves open question on power of log-space public-coin verifiers)]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
+- [[Delegating Computation Interactive Proofs for Muggles (GKR, STOC 2008  full version)]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
+- [[Delegation of computation (delegator verifies untrusted delegatee)]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
+- [[Improved Interactive PCP (IPCP) and efficient-prover Probabilistically Checkable Argument (PCA) for NC relations]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
+- [[Kalai, Raz KR08,KR09 - public-coin IP to 1-round argument transformation via PIR; IPCP and PCA notions]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
+- [[Kilian Kil92,Kil95 - PCP+Merkle-hash argument for NP with polylog communication (argument setting under computational assumptions)]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
+- [[Layer-to-layer reduction reduce verifying one point of LDE of layer i to one point of layer i+1 via sum-check over fz(p,w1,w2) using ~add_i,~mult_i,~beta,~V_i]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
+- [[Low Degree Extension (LDE)]] - paper - references/ch02/ref-08-stark.pdf
+- [[Lund, Fortnow, Karloff, Nisson LFKN92 - algebraic methods  sum-check for P (prior IP work)]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
+- [[Micali Mic94 - CS proofs in the random oracle model (non-interactive delegation precursor)]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
+- [[Private Information Retrieval (poly-log PIR) used to compile public-coin IP into one-round argument]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
+- [[Shamir Sha92 - IP = PSPACE (prior IP work)]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
+- [[Theorem 1.1 public-coin IP for O(log S)-space-uniform circuits; verifier npoly(d,log S) time, O(log S) space; prover poly(S); communication dpolylog(S)]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
+- [[Theorem 1.3 1-round computationally-sound argument for L-uniform NC via Kalai-Raz PIR transformation; certificate poly(kappa,log n)]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
+- [[Theorem 1.61.7 communication-efficient (quasi-linear in witness) zero-knowledge IP for NP relations verifiable in NC, assuming one-way functions]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
+- [[Theorem 4.4 IP implementing bare-bones protocol for NL  space-s(n) time-t(n) nondeterministic TMs; verifier computes ~add_i,~mult_i in polylog time]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
+- [[Utilizing uniformity verifier computes LDE of wiring predicate from short implicit circuit representation; prover proves predicate via NL sub-protocol]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
+- [[Wiring predicates add_i, mult_i and their low-degree extensions ~add_i, ~mult_i (specify which gate triplets are connected)]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -40,18 +41,19 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 7 edges to [[_COMMUNITY_Community 36]]
-- 3 edges to [[_COMMUNITY_Community 73]]
-- 2 edges to [[_COMMUNITY_Community 97]]
-- 2 edges to [[_COMMUNITY_Community 5]]
-- 2 edges to [[_COMMUNITY_Community 8]]
-- 1 edge to [[_COMMUNITY_Community 103]]
-- 1 edge to [[_COMMUNITY_Community 0]]
-- 1 edge to [[_COMMUNITY_Community 15]]
+- 7 edges to [[_COMMUNITY_Community 3]]
+- 3 edges to [[_COMMUNITY_Community 9]]
+- 2 edges to [[_COMMUNITY_Community 51]]
+- 1 edge to [[_COMMUNITY_Community 41]]
+- 1 edge to [[_COMMUNITY_Community 12]]
+- 1 edge to [[_COMMUNITY_Community 4]]
+- 1 edge to [[_COMMUNITY_Community 23]]
+- 1 edge to [[_COMMUNITY_Community 66]]
+- 1 edge to [[_COMMUNITY_Community 63]]
 
 ## Top bridge nodes
-- [[Constant-Size Commitments to Polynomials and Their Applications]] - degree 15, connects to 7 communities
-- [[PolyCommitDL Scheme]] - degree 12, connects to 4 communities
-- [[PolyCommitPed Scheme]] - degree 8, connects to 3 communities
-- [[Verifiable Secret Sharing]] - degree 4, connects to 1 community
-- [[Zero-Knowledge Set (Micali et al.)]] - degree 3, connects to 1 community
+- [[Low Degree Extension (LDE)]] - degree 9, connects to 5 communities
+- [[Delegation of computation (delegator verifies untrusted delegatee)]] - degree 7, connects to 3 communities
+- [[Delegating Computation Interactive Proofs for Muggles (GKR, STOC 2008  full version)]] - degree 20, connects to 2 communities
+- [[Theorem 1.1 public-coin IP for O(log S)-space-uniform circuits; verifier npoly(d,log S) time, O(log S) space; prover poly(S); communication dpolylog(S)]] - degree 9, connects to 1 community
+- [[Bare-bones protocol (Theorem 3.1) IP given oracle access to low-degree extensions of wiring predicates add_imult_i specifying circuit]] - degree 5, connects to 1 community

@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 108"
+community: "Community 109"
 location: "Chapter 4"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_108
+  - community/Community_109
 ---
 
 # Four Witness Gaps (Performance, Memory, Security, Correctness)
@@ -18,4 +18,4 @@ tags:
 - [[The Witness Gap]] - `defines` [EXTRACTED]
 - [[Under-Constrained Circuit  Missing Constraint]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_108
+#graphify/document #graphify/EXTRACTED #community/Community_109

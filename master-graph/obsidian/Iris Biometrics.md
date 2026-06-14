@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch13/ref-59-world-whitepaper.pdf"
 type: "document"
-community: "Community 20"
+community: "Community 97"
 location: "page 3"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_20
+  - community/Community_97
 ---
 
 # Iris Biometrics
@@ -16,4 +16,4 @@ tags:
 - [[The Orb high-security open-source multispectral IR camera issuing an AI-safe PoH credential via local on-device iris+face capture, livenessPAD, and signed iris code]] - `conceptually_related_to` [EXTRACTED]
 - [[World Whitepapers (World Network Proof of Human)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_20
+#graphify/document #graphify/EXTRACTED #community/Community_97

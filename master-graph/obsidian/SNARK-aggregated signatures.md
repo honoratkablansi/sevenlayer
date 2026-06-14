@@ -1,12 +1,12 @@
 ---
 source_file: "recursion/recursion-outline.md"
 type: "document"
-community: "Community 3"
+community: "Community 127"
 location: "Recursion Chapter 3"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_3
+  - community/Community_127
 ---
 
 # SNARK-aggregated signatures
@@ -17,4 +17,4 @@ tags:
 - [[Proof Aggregation]] - `conceptually_related_to` [EXTRACTED]
 - [[lean Ethereum (Justin Drake, EF blog)]] - `explains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_3
+#graphify/document #graphify/EXTRACTED #community/Community_127

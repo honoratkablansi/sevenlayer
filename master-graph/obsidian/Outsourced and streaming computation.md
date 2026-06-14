@@ -1,12 +1,12 @@
 ---
 source_file: "recursion/recursion-outline.md"
 type: "document"
-community: "Community 44"
+community: "Community 66"
 location: "Recursion Chapter 3"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_44
+  - community/Community_66
 ---
 
 # Outsourced and streaming computation
@@ -20,4 +20,4 @@ tags:
 - [[Zero-knowledge voting  governance]] - `conceptually_related_to` [INFERRED]
 - [[vSQL verifiable database system for arbitrary SQL queries over dynamic outsourced databases]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_44
+#graphify/document #graphify/EXTRACTED #community/Community_66

@@ -1,12 +1,12 @@
 ---
 source_file: "references/snowball/recursion/ref-116-a-survey-of-two-verifiable-delay-functions.pdf"
 type: "paper"
-community: "Community 28"
+community: "Community 15"
 location: "abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_28
+  - community/Community_15
 ---
 
 # Verifiable Delay Function
@@ -17,4 +17,4 @@ tags:
 - [[Succinct Argument]] - `uses` [EXTRACTED]
 - [[Time-Lock Puzzle]] - `relates_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_28
+#graphify/paper #graphify/EXTRACTED #community/Community_15

@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-32-nguyen-boneh-setty-nova-cycle.pdf"
 type: "paper"
-community: "Community 124"
+community: "Community 126"
 location: "Bibliography [9]"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_124
+  - community/Community_126
 ---
 
 # Khovratovich, Maller, Tiwari — MinRoot: candidate sequential function for Ethereum VDF (2022) [9]
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[PoC forged Nova proof of 275 Minroot VDF rounds in 1.46 s on a laptop (NovaBreakingTheCycleAttack fork)]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_124
+#graphify/paper #graphify/EXTRACTED #community/Community_126

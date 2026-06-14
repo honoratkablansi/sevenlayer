@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-50-extended-tower-nfs.pdf"
 type: "paper"
-community: "Community 31"
+community: "Community 16"
 location: "§2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_31
+  - community/Community_16
 ---
 
 # exTNFS (Extended Tower Number Field Sieve)
@@ -28,4 +28,4 @@ tags:
 - [[Theorem 1 (exTNFS complexity table)]] - `proves` [EXTRACTED]
 - [[Tower Number Field Sieve (TNFS) Barbulescu-Gaudry-Kleinjung]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_31
+#graphify/paper #graphify/EXTRACTED #community/Community_16

@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 37"
+community: "Community 70"
 location: "Chapter 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_37
+  - community/Community_70
 ---
 
 # Fiat-Shamir Transform
@@ -21,7 +21,8 @@ tags:
 - [[Bulletproofs Short Proofs for Confidential Transactions and More]] - `conceptually_related_to` [EXTRACTED]
 - [[CMT protocol (Cormode-Mitzenmacher-Thaler interactive proof for layered arithmetic circuits)]] - `conceptually_related_to` [EXTRACTED]
 - [[Canetti, Goldreich, Halevi, The Random Oracle Methodology, Revisited (JACM 2004)]] - `references` [EXTRACTED]
-- [[Correlation intractability the property whose circular dependency the attack circumvents by feeding the circuit its own digest as witness]] - `conceptually_related_to` [EXTRACTED]
+- [[Correlation intractability the property whose circular dependency the attack circumvents by feeding the circuit its own digest as witness]] - `relates_to` [EXTRACTED]
+- [[Cryptographic Hash Function]] - `uses` [EXTRACTED]
 - [[Dwork et al. 13 'magic functions' that make Fiat-Shamir work, related to correlation intractability and 3-round zero-knowledge]] - `conceptually_related_to` [EXTRACTED]
 - [[Encoding the Performance]] - `references` [EXTRACTED]
 - [[Extractor Blowup with Recursion Depth]] - `explains` [EXTRACTED]
@@ -30,6 +31,7 @@ tags:
 - [[Fiat & Shamir, Crypto '86 (LNCS 263)]] - `introduces` [EXTRACTED]
 - [[Fiat-Shamir Vulnerabilities]] - `defines` [EXTRACTED]
 - [[Fiat-Shamir With Aborts construction (Schnorr-like signature with rejection sampling on the response)]] - `conceptually_related_to` [EXTRACTED]
+- [[Folding Scheme]] - `uses` [EXTRACTED]
 - [[From Speed Race to Security Race]] - `references` [EXTRACTED]
 - [[Frozen Heart  Fiat-Shamir Vulnerability Class]] - `references` [EXTRACTED]
 - [[Frozen Heart Vulnerability]] - `conceptually_related_to` [EXTRACTED]
@@ -40,6 +42,9 @@ tags:
 - [[Governance The Achilles Heel]] - `references` [EXTRACTED]
 - [[Greyhound polynomial commitment scheme]] - `assumes` [EXTRACTED]
 - [[Greyhound Fast Polynomial Commitments from Lattices]] - `references` [EXTRACTED]
+- [[Grinding Attack (State-Restoration Attack)]] - `relates_to` [EXTRACTED]
+- [[Hash Chaining]] - `builds_on` [EXTRACTED]
+- [[Honest-Verifier Zero-Knowledge]] - `relates_to` [EXTRACTED]
 - [[Interactive Oracle Proofs]] - `uses` [EXTRACTED]
 - [[Interactive Proof (IP) prover-verifier protocol with statistical soundness]] - `uses` [EXTRACTED]
 - [[Interactive Proof System]] - `references` [EXTRACTED]
@@ -56,26 +61,33 @@ tags:
 - [[Multi-folding scheme for CCS (Construction 1)]] - `assumes` [EXTRACTED]
 - [[NARK for R1CS from Fiat-Shamir over a Pedersen-commitment sigma protocol (linear argument size)]] - `assumes` [EXTRACTED]
 - [[Nightstream What a Folding Engine Looks Like from the Inside]] - `references` [EXTRACTED]
+- [[Non-Interactive Argument]] - `defines` [EXTRACTED]
 - [[Non-Interactive Folding Scheme via Fiat-Shamir (Construction 2)]] - `assumes` [EXTRACTED]
 - [[Nova]] - `references` [EXTRACTED]
 - [[On-Chain Verification in 2026]] - `references` [EXTRACTED]
 - [[On-Chain Verifier]] - `conceptually_related_to` [EXTRACTED]
 - [[Open Questions and the Road Ahead]] - `references` [EXTRACTED]
+- [[PCP-to-Argument Compiler (Kilian-Micali)]] - `uses` [EXTRACTED]
 - [[PLONK Main Protocol for Relation R_C (Theorem 7.1)]] - `assumes` [EXTRACTED]
 - [[Poseidon Hash]] - `conceptually_related_to` [INFERRED]
 - [[Proofs, Arguments, and Zero-Knowledge (Justin Thaler, survey textbook)]] - `explains` [EXTRACTED]
 - [[Protocol Pi_{comm,d} GKR + MLPCS succinct argument for non-deterministic depth-d circuit C(x,w)=y; FS-compiled as FS_h(Pi_{comm,d}); challenge r=h(C,x,y,alpha)]] - `assumes` [EXTRACTED]
 - [[Protostar Generic Efficient AccumulationFolding for Special-sound Protocols]] - `conceptually_related_to` [EXTRACTED]
+- [[Public-Coin Interactive Proof]] - `builds_on` [EXTRACTED]
+- [[Public-Coin Protocol]] - `uses` [EXTRACTED]
 - [[Q4 When Will Trustless Become Real]] - `references` [EXTRACTED]
 - [[RO-NARK FScmPi_sps from Special-Sound Protocol]] - `assumes` [EXTRACTED]
 - [[Random Oracle Model]] - `relies-on` [EXTRACTED]
-- [[Random oracle model (non-interactive STARK  NIROP)]] - `used_by` [EXTRACTED]
-- [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `compiles-into` [EXTRACTED]
+- [[Random oracle model (non-interactive STARK  NIROP)]] - `uses` [EXTRACTED]
+- [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `uses` [EXTRACTED]
 - [[Sealing the Certificate]] - `references` [EXTRACTED]
+- [[Sigma protocol (public-coin 3-move)]] - `builds_on` [EXTRACTED]
 - [[Solana ZK ElGamal Bug (2025)]] - `references` [EXTRACTED]
 - [[Sonic zk-SNARK (universal & updatable linear-size SRS)]] - `assumes` [EXTRACTED]
-- [[Soundness]] - `violated-by` [EXTRACTED]
+- [[Soundness]] - `relates_to` [EXTRACTED]
 - [[Sponge construction over the permutation rate r + capacity c; indifferentiable from random oracle up to 2{c2} calls]] - `conceptually_related_to` [INFERRED]
+- [[Strong Fiat-Shamir]] - `generalizes` [EXTRACTED]
+- [[Succinct Argument]] - `compiles_to` [EXTRACTED]
 - [[Symphony Scalable SNARKs in the Random Oracle Model from Lattice-Based High-Arity Folding]] - `references` [EXTRACTED]
 - [[The Deepest Question]] - `conceptually_related_to` [EXTRACTED]
 - [[The Market Landscape]] - `references` [EXTRACTED]
@@ -100,4 +112,4 @@ tags:
 - [[vSQL verifiable database system for arbitrary SQL queries over dynamic outsourced databases]] - `cites` [EXTRACTED]
 - [[zkSNARK for Committed Relaxed R1CS (adapted Spartan)]] - `assumes` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_37
+#graphify/document #graphify/EXTRACTED #community/Community_70

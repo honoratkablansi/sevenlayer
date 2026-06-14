@@ -1,12 +1,12 @@
 ---
 source_file: "references/snowball/book/ref-068-marlin-preprocessing-zksnarks-with-universal-an.pdf"
 type: "paper"
-community: "Community 28"
+community: "Community 15"
 location: "abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_28
+  - community/Community_15
 ---
 
 # Marlin
@@ -18,4 +18,4 @@ tags:
 - [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `improves` [EXTRACTED]
 - [[Universal vs Circuit-Specific SRS]] - `uses` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_28
+#graphify/paper #graphify/EXTRACTED #community/Community_15

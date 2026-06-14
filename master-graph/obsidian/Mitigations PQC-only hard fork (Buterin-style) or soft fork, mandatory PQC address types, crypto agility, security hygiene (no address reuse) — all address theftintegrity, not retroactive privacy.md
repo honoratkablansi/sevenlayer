@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-63-harvest-now-decrypt-later.pdf"
 type: "paper"
-community: "Community 48"
+community: "Community 96"
 location: "§4.4"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_48
+  - community/Community_96
 ---
 
 # Mitigations: PQC-only hard fork (Buterin-style) or soft fork, mandatory PQC address types, crypto agility, security hygiene (no address reuse) — all address theft/integrity, not retroactive privacy
@@ -19,4 +19,4 @@ tags:
 - [[NIST PQC standardization 3 finalized encryption standards + 5 quantum-resistant algorithms; deprecating RSAECC over 5-10 years; US federal migration mandated by 2035]] - `conceptually_related_to` [EXTRACTED]
 - [[Post-Quantum Cryptography]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_48
+#graphify/paper #graphify/EXTRACTED #community/Community_96

@@ -28,11 +28,11 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 3 edges to [[_COMMUNITY_Community 89]]
-- 2 edges to [[_COMMUNITY_Community 93]]
-- 2 edges to [[_COMMUNITY_Community 13]]
-- 1 edge to [[_COMMUNITY_Community 126]]
-- 1 edge to [[_COMMUNITY_Community 109]]
+- 3 edges to [[_COMMUNITY_Community 86]]
+- 2 edges to [[_COMMUNITY_Community 94]]
+- 2 edges to [[_COMMUNITY_Community 5]]
+- 1 edge to [[_COMMUNITY_Community 129]]
+- 1 edge to [[_COMMUNITY_Community 116]]
 
 ## Top bridge nodes
 - [[Witness (private execution traceinputs)]] - degree 10, connects to 4 communities

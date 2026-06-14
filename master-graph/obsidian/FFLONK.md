@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 5"
+community: "Community 17"
 location: "Chapter 8"
 tags:
   - graphify/document
   - graphify/INFERRED
-  - community/Community_5
+  - community/Community_17
 ---
 
 # FFLONK
@@ -16,4 +16,4 @@ tags:
 - [[PLONK]] - `conceptually_related_to` [INFERRED]
 - [[STARK-to-SNARK Recursion]] - `references` [INFERRED]
 
-#graphify/document #graphify/INFERRED #community/Community_5
+#graphify/document #graphify/INFERRED #community/Community_17

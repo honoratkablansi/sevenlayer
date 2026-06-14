@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-23-circle-starks.pdf"
 type: "paper"
-community: "Community 24"
+community: "Community 28"
 location: "p.1 (abstract)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_24
+  - community/Community_28
 ---
 
 # Mersenne Prime M31 (2^31 - 1)
@@ -16,4 +16,4 @@ tags:
 - [[Circle STARKs]] - `assumes` [EXTRACTED]
 - [[Mersenne-31 vs Babybear FFT benchmark (1.4x speed-up)]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_24
+#graphify/paper #graphify/EXTRACTED #community/Community_28

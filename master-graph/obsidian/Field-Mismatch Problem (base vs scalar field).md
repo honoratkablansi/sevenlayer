@@ -1,12 +1,12 @@
 ---
 source_file: "recursion/recursion-outline.md"
 type: "document"
-community: "Community 75"
+community: "Community 49"
 location: "Recursion Chapter 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_75
+  - community/Community_49
 ---
 
 # Field-Mismatch Problem (base vs scalar field)
@@ -16,4 +16,4 @@ tags:
 - [[Full Recursion (in-circuit verifier embedding)]] - `explains` [EXTRACTED]
 - [[Worked Intuition the Proof of a Proof]] - `introduces` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_75
+#graphify/document #graphify/EXTRACTED #community/Community_49

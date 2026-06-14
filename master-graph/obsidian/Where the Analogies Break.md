@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch05-where-the-analogies-break.md"
 type: "document"
-community: "Community 1"
+community: "Community 4"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_1
+  - community/Community_4
 ---
 
 # Where the Analogies Break
@@ -30,4 +30,4 @@ tags:
 - [[Where the Layers Collapse]] - `references` [EXTRACTED]
 - [[ZKIR (Zero-Knowledge Intermediate Representation)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_1
+#graphify/document #graphify/EXTRACTED #community/Community_4

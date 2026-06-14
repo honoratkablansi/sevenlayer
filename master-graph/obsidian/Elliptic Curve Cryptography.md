@@ -1,12 +1,12 @@
 ---
 source_file: "references/snowball/book/ref-106-a-taxonomy-of-pairing-friendly-elliptic-curves.pdf"
 type: "paper"
-community: "Community 65"
+community: "Community 8"
 location: "abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_65
+  - community/Community_8
 ---
 
 # Elliptic Curve Cryptography
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Pairing-friendly elliptic curves]] - `relates_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_65
+#graphify/paper #graphify/EXTRACTED #community/Community_8

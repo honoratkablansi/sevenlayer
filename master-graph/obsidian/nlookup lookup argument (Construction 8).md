@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-18-hypernova.pdf"
 type: "paper"
-community: "Community 119"
+community: "Community 29"
 location: "Appendix F"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_119
+  - community/Community_29
 ---
 
 # nlookup lookup argument (Construction 8)
@@ -17,4 +17,4 @@ tags:
 - [[Sum-Check Protocol]] - `assumes` [EXTRACTED]
 - [[Theorem 8 (nlookup multi-folding scheme)]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_119
+#graphify/paper #graphify/EXTRACTED #community/Community_29

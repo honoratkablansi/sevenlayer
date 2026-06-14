@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-65-greyhound.pdf"
 type: "paper"
-community: "Community 77"
+community: "Community 7"
 location: "Abstract, Tables 1-3, §4.3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_77
+  - community/Community_7
 ---
 
 # Efficiency: O(sqrt N) verifier, polylog proof, 53KB at N=2^30
@@ -17,4 +17,4 @@ tags:
 - [[Ligero (AHIV17) and Brakedown (GLS+21) hash-based PCs (baselines)]] - `cites` [EXTRACTED]
 - [[SLAP succinct lattice polynomial commitments (AFLN24, EUROCRYPT 2024)]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_77
+#graphify/paper #graphify/EXTRACTED #community/Community_7

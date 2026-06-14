@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-88-provisions.pdf"
 type: "paper"
-community: "Community 39"
+community: "Community 73"
 location: "§1; §3.1; §5"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_39
+  - community/Community_73
 ---
 
 # No-trusted-setup design goal (no common reference string)
@@ -16,4 +16,4 @@ tags:
 - [[Provisions privacy-preserving proof of solvency for Bitcoin exchanges]] - `defines` [EXTRACTED]
 - [[zk-SNARK]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_39
+#graphify/paper #graphify/EXTRACTED #community/Community_73

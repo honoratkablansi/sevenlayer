@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 93"
+community: "Community 94"
 location: "Chapter 3"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_93
+  - community/Community_94
 ---
 
 # Disclosure Analysis (Compact)
@@ -21,4 +21,4 @@ tags:
 - [[Witness (private execution traceinputs)]] - `conceptually_related_to` [EXTRACTED]
 - [[disclose() Operator]] - `explains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_93
+#graphify/document #graphify/EXTRACTED #community/Community_94

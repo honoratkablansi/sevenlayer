@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-10-sok-powers-of-tau.pdf"
 type: "paper"
-community: "Community 104"
+community: "Community 68"
 location: "§3.2 MMORPG"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_104
+  - community/Community_68
 ---
 
 # MMORPG framework (Massively Multiparty Open Reusable Parameter Generation; two-phase Groth16 setup)
@@ -22,4 +22,4 @@ tags:
 - [[Surveyed setup protocols (BCDTV15, BGG17, BGM17, KMSV21, KKK21, CDKS22, NRBB22)]] - `cites` [EXTRACTED]
 - [[Zcash Sapling ceremony (2018, two-phase MMORPG, Groth16, BLS12-381)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_104
+#graphify/paper #graphify/EXTRACTED #community/Community_68

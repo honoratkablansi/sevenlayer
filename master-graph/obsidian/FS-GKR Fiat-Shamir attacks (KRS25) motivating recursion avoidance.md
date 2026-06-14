@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-45-small-space-cpu-proofs.pdf"
 type: "paper"
-community: "Community 37"
+community: "Community 70"
 location: "§1.3.4"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_37
+  - community/Community_70
 ---
 
 # FS-GKR Fiat-Shamir attacks (KRS25) motivating recursion avoidance
@@ -15,4 +15,4 @@ tags:
 - [[Fiat-Shamir Transform]] - `conceptually_related_to` [EXTRACTED]
 - [[Small-space Jolt prover (sublinear-space zkVM proving without recursion)]] - `conceptually_related_to` [INFERRED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_37
+#graphify/paper #graphify/EXTRACTED #community/Community_70

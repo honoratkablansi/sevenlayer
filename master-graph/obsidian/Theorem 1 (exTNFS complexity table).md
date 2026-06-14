@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-50-extended-tower-nfs.pdf"
 type: "paper"
-community: "Community 31"
+community: "Community 16"
 location: "§3, Theorem 1, Table 4"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_31
+  - community/Community_16
 ---
 
 # Theorem 1 (exTNFS complexity table)
@@ -16,4 +16,4 @@ tags:
 - [[exTNFS (Extended Tower Number Field Sieve)]] - `proves` [EXTRACTED]
 - [[exTNFS-Conj medium-prime complexity L_Q(13,(489){13})]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_31
+#graphify/paper #graphify/EXTRACTED #community/Community_16

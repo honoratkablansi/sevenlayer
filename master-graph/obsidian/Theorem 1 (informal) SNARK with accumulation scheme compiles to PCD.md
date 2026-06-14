@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf"
 type: "paper"
-community: "Community 9"
+community: "Community 49"
 location: "§1.1 Theorem 1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_9
+  - community/Community_49
 ---
 
 # Theorem 1 (informal): SNARK with accumulation scheme compiles to PCD
@@ -16,4 +16,4 @@ tags:
 - [[Proof-Carrying Data (PCD)]] - `proves` [EXTRACTED]
 - [[Theorem 5.2 transformation T from SNARK + accumulation scheme to PCD for constant-depth predicates]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_9
+#graphify/paper #graphify/EXTRACTED #community/Community_49

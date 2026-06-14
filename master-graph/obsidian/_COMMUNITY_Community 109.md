@@ -1,25 +1,25 @@
 ---
 type: community
-cohesion: 0.27
+cohesion: 0.24
 members: 10
 ---
 
 # Community 109
 
-**Cohesion:** 0.27 - loosely connected
+**Cohesion:** 0.24 - loosely connected
 **Members:** 10 nodes
 
 ## Members
-- [[Cache-Timing Attack]] - document - proving-nothing.md
-- [[Constant-Time Implementation]] - document - proving-nothing.md
-- [[Electromagnetic Side-Channel Attack]] - document - proving-nothing.md
-- [[Mukherjee, Rechberger, Schofnegger Cache-Timing Study (2024)]] - document - proving-nothing.md
-- [[Multi-Scalar Multiplication (MSM)]] - document - proving-nothing.md
-- [[Q6 Practical Constant-Time ZK Proving]] - document - proving-nothing.md
-- [[Reinforced Concrete Hash (Bars Lookup Table)]] - document - proving-nothing.md
-- [[Side-Channel Attack]] - document - proving-nothing.md
-- [[Timing Side-Channel Attack]] - document - proving-nothing.md
-- [[Tramer, Boneh, Paterson Remote Side-Channel Attacks (USENIX 2020)]] - document - proving-nothing.md
+- [[Amdahl's Law]] - document - proving-nothing.md
+- [[Client-Side vs Delegated Proving]] - document - proving-nothing.md
+- [[Four Witness Gaps (Performance, Memory, Security, Correctness)]] - document - proving-nothing.md
+- [[GPU Acceleration of Proving]] - document - proving-nothing.md
+- [[Nair, Thaler, Zhu Streaming Jolt (ePrint 2025611)]] - document - proving-nothing.md
+- [[Q5 Streaming Witness Interaction with Folding]] - document - proving-nothing.md
+- [[Streaming Witness Generation]] - document - proving-nothing.md
+- [[The Hardware Ladder (Privacy as a Luxury Good)]] - document - proving-nothing.md
+- [[The Witness Gap]] - document - proving-nothing.md
+- [[ZKPoG (Li et al., ePrint 2025765)]] - document - proving-nothing.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -29,20 +29,19 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 6 edges to [[_COMMUNITY_Community 89]]
-- 5 edges to [[_COMMUNITY_Community 13]]
-- 3 edges to [[_COMMUNITY_Community 14]]
-- 3 edges to [[_COMMUNITY_Community 72]]
-- 2 edges to [[_COMMUNITY_Community 108]]
-- 1 edge to [[_COMMUNITY_Community 5]]
-- 1 edge to [[_COMMUNITY_Community 1]]
-- 1 edge to [[_COMMUNITY_Community 115]]
-- 1 edge to [[_COMMUNITY_Community 93]]
+- 5 edges to [[_COMMUNITY_Community 86]]
+- 2 edges to [[_COMMUNITY_Community 80]]
+- 1 edge to [[_COMMUNITY_Community 9]]
+- 1 edge to [[_COMMUNITY_Community 116]]
+- 1 edge to [[_COMMUNITY_Community 69]]
+- 1 edge to [[_COMMUNITY_Community 10]]
 - 1 edge to [[_COMMUNITY_Community 0]]
+- 1 edge to [[_COMMUNITY_Community 24]]
+- 1 edge to [[_COMMUNITY_Community 22]]
 
 ## Top bridge nodes
-- [[Side-Channel Attack]] - degree 15, connects to 6 communities
-- [[Multi-Scalar Multiplication (MSM)]] - degree 9, connects to 4 communities
-- [[Q6 Practical Constant-Time ZK Proving]] - degree 5, connects to 1 community
-- [[Constant-Time Implementation]] - degree 4, connects to 1 community
-- [[Timing Side-Channel Attack]] - degree 4, connects to 1 community
+- [[The Witness Gap]] - degree 10, connects to 5 communities
+- [[Four Witness Gaps (Performance, Memory, Security, Correctness)]] - degree 5, connects to 2 communities
+- [[Streaming Witness Generation]] - degree 5, connects to 2 communities
+- [[Q5 Streaming Witness Interaction with Folding]] - degree 3, connects to 2 communities
+- [[GPU Acceleration of Proving]] - degree 4, connects to 1 community

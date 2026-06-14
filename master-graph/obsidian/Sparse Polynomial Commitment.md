@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch03/ref-15-lasso.pdf"
 type: "paper"
-community: "Community 1"
+community: "Community 4"
 location: "abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_1
+  - community/Community_4
 ---
 
 # Sparse Polynomial Commitment
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Lookup Argument]] - `used` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_1
+#graphify/paper #graphify/EXTRACTED #community/Community_4

@@ -1,26 +1,28 @@
 ---
 type: community
-cohesion: 0.27
-members: 11
+cohesion: 0.19
+members: 13
 ---
 
 # Community 100
 
-**Cohesion:** 0.27 - loosely connected
-**Members:** 11 nodes
+**Cohesion:** 0.19 - loosely connected
+**Members:** 13 nodes
 
 ## Members
-- [[(q1,q2)-extended discrete logarithm (edlog) assumption (Def 2)]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
-- [[Algebraic Group Model (AGM)]] - document - references/ch10/ref-38-snarky-ceremonies.pdf
-- [[Algebraic extractor E_agm (white-box, requires view_A, yields linear representation coefficients)]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
-- [[Critical query i_crit and white-box AGM extractor E_A returning QAP witness coefficients]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
-- [[FKL18 - Fuchsbauer, Kiltz, Loss the Algebraic Group Model and Groth16 KS under q-dlog]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
-- [[Lemma 2.2 Real-to-Ideal Pairing Check Reduction under Q-DLOG]] - paper - references/ch02/ref-07-plonk.pdf
-- [[Q-DLOG Assumption]] - paper - references/ch02/ref-07-plonk.pdf
-- [[Theorem 1 (q1+1,q2+1)-dlog implies (q1,q2)-edlog]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
-- [[Theorem 5 Groth16 ceremony has update knowledge soundness under (2n-1,2n-2)-edlog for algebraic adversaries in ROM]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
-- [[Theorem 6.3 PCS evaluation-binding & bounded-extractable under 2d-DLOG in AGM]] - paper - references/ch10/ref-36-sonic.pdf
-- [[UKS proof game hops Game0-Game1 (fresh-SRS simulated critical updates) - Game2 (bad event), reduction to edlog]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
+- [[DKIM signature verification proofs]] - document - references/recursion/ch3/ref-85-zkemail-docs.md
+- [[Email Wallet and account recovery]] - document - references/recursion/ch3/ref-85-zkemail-docs.md
+- [[MPC-TLS prover-verifier protocol]] - document - references/recursion/ch3/ref-86-tlsnotary-docs.md
+- [[Notary attestation of TLS session data]] - document - references/recursion/ch3/ref-86-tlsnotary-docs.md
+- [[Selective redaction of TLS transcript]] - document - references/recursion/ch3/ref-86-tlsnotary-docs.md
+- [[TLSNotary]] - document - references/recursion/ch3/ref-86-tlsnotary-docs.md
+- [[TLSNotary project documentation]] - document - references/recursion/ch3/ref-86-tlsnotary-docs.md
+- [[Web data provenance  authenticity of TLS-accessed data]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[ZK Email Blueprint SDK and Verifier]] - document - references/recursion/ch3/ref-85-zkemail-docs.md
+- [[ZK Email documentation]] - document - references/recursion/ch3/ref-85-zkemail-docs.md
+- [[ZK-Regex circuit primitive]] - document - references/recursion/ch3/ref-85-zkemail-docs.md
+- [[zkEmail]] - document - references/recursion/ch3/ref-85-zkemail-docs.md
+- [[zkTLS  zkEmail web and email provenance]] - document - recursion/recursion-outline.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -30,16 +32,15 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 5 edges to [[_COMMUNITY_Community 61]]
-- 3 edges to [[_COMMUNITY_Community 5]]
-- 2 edges to [[_COMMUNITY_Community 59]]
-- 2 edges to [[_COMMUNITY_Community 73]]
-- 2 edges to [[_COMMUNITY_Community 57]]
-- 1 edge to [[_COMMUNITY_Community 22]]
+- 2 edges to [[_COMMUNITY_Community 48]]
+- 2 edges to [[_COMMUNITY_Community 27]]
+- 1 edge to [[_COMMUNITY_Community 102]]
+- 1 edge to [[_COMMUNITY_Community 13]]
+- 1 edge to [[_COMMUNITY_Community 78]]
 
 ## Top bridge nodes
-- [[Algebraic Group Model (AGM)]] - degree 14, connects to 6 communities
-- [[(q1,q2)-extended discrete logarithm (edlog) assumption (Def 2)]] - degree 5, connects to 2 communities
-- [[Theorem 5 Groth16 ceremony has update knowledge soundness under (2n-1,2n-2)-edlog for algebraic adversaries in ROM]] - degree 5, connects to 2 communities
-- [[Q-DLOG Assumption]] - degree 5, connects to 1 community
-- [[Theorem 6.3 PCS evaluation-binding & bounded-extractable under 2d-DLOG in AGM]] - degree 3, connects to 1 community
+- [[zkTLS  zkEmail web and email provenance]] - degree 7, connects to 3 communities
+- [[Web data provenance  authenticity of TLS-accessed data]] - degree 4, connects to 1 community
+- [[zkEmail]] - degree 4, connects to 1 community
+- [[DKIM signature verification proofs]] - degree 2, connects to 1 community
+- [[Selective redaction of TLS transcript]] - degree 2, connects to 1 community

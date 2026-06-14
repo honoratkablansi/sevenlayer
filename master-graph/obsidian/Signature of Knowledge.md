@@ -1,12 +1,12 @@
 ---
 source_file: "references/snowball/recursion/ref-146-snarky-signatures-minimal-signatures-of-knowled.pdf"
 type: "paper"
-community: "Community 32"
+community: "Community 41"
 location: "abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_32
+  - community/Community_41
 ---
 
 # Signature of Knowledge
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `uses` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_32
+#graphify/paper #graphify/EXTRACTED #community/Community_41

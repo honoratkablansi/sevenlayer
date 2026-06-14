@@ -1,12 +1,12 @@
 ---
 source_file: "references/snowball/book/ref-120-adsnark-nearly-practical-and-privacy-preserving.pdf"
 type: "paper"
-community: "Community 32"
+community: "Community 41"
 location: "abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_32
+  - community/Community_41
 ---
 
 # Authenticated Data
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[AD-SNARK]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_32
+#graphify/paper #graphify/EXTRACTED #community/Community_41

@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf"
 type: "paper"
-community: "Community 7"
+community: "Community 2"
 location: "§8.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_7
+  - community/Community_2
 ---
 
 # Exponentiation-based VDF in a group of unknown order, secure only against bounded pre-computation (§8)
@@ -17,4 +17,4 @@ tags:
 - [[Rivest, Shamir, Wagner, time-lock puzzles and timed-release crypto 68]] - `cites` [EXTRACTED]
 - [[Verifiable delay function (VDF)]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_7
+#graphify/paper #graphify/EXTRACTED #community/Community_2

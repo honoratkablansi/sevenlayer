@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-13-chiesa-chua-weidner-cycles.pdf"
 type: "paper"
-community: "Community 65"
+community: "Community 8"
 location: "§2.1, Lemma 1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_65
+  - community/Community_8
 ---
 
 # Cyclotomic polynomial characterization of embedding degree (n | Phi_k(q))
@@ -16,4 +16,4 @@ tags:
 - [[Embedding degree k]] - `uses` [EXTRACTED]
 - [[Prop. 3 no (5,10)-, (8,8)-, or (12,12)-cycles exist (deg Phi_k = 4 case)]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_65
+#graphify/paper #graphify/EXTRACTED #community/Community_8

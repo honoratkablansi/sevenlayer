@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-19-protostar.pdf"
 type: "paper"
-community: "Community 8"
+community: "Community 76"
 location: "§1, Table 1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_8
+  - community/Community_76
 ---
 
 # SuperNova [KS22] (cited, non-uniform IVC predecessor)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Protostar Generic Efficient AccumulationFolding for Special-sound Protocols]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_8
+#graphify/paper #graphify/EXTRACTED #community/Community_76

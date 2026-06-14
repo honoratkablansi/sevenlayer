@@ -28,8 +28,8 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 1 edge to [[_COMMUNITY_Community 12]]
-- 1 edge to [[_COMMUNITY_Community 58]]
+- 1 edge to [[_COMMUNITY_Community 84]]
+- 1 edge to [[_COMMUNITY_Community 20]]
 
 ## Top bridge nodes
 - [[Association set (custom set of possible fund origins)]] - degree 5, connects to 1 community

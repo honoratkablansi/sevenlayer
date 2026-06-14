@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 12"
+community: "Community 40"
 location: "Chapter 13"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_12
+  - community/Community_40
 ---
 
 # Grand View Research ZKP Market Report (2025)
@@ -15,4 +15,4 @@ tags:
 - [[Market Sizing ($1.54B 2025 to $7.59B 2033, 22.1% CAGR)]] - `cites` [EXTRACTED]
 - [[ZK Identity]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_12
+#graphify/document #graphify/EXTRACTED #community/Community_40

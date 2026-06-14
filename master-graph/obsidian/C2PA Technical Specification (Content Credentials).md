@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch3/ref-79-c2pa-specification.md"
 type: "document"
-community: "Community 103"
+community: "Community 65"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_103
+  - community/Community_65
 ---
 
 # C2PA Technical Specification (Content Credentials)
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[C2PA (Coalition for Content Provenance and Authenticity) camera-signature standard]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_103
+#graphify/document #graphify/EXTRACTED #community/Community_65

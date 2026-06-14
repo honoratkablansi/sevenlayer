@@ -1,12 +1,12 @@
 ---
 source_file: "recursion/recursion-outline.md"
 type: "document"
-community: "Community 16"
+community: "Community 23"
 location: "Recursion Chapter 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_16
+  - community/Community_23
 ---
 
 # Setty, "Spartan" (CRYPTO 2020)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Spartan]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_16
+#graphify/document #graphify/EXTRACTED #community/Community_23

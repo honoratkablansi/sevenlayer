@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch04-witness-generation-costs.md"
 type: "document"
-community: "Community 89"
+community: "Community 86"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_89
+  - community/Community_86
 ---
 
 # GPU-Accelerated Proving
@@ -16,4 +16,4 @@ tags:
 - [[The Overhead Tax 10,000x to 50,000x]] - `references` [EXTRACTED]
 - [[Witness Generation Costs]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_89
+#graphify/document #graphify/EXTRACTED #community/Community_86

@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-10-fractal.pdf"
 type: "paper"
-community: "Community 28"
+community: "Community 15"
 location: "abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_28
+  - community/Community_15
 ---
 
 # Holographic Proof
@@ -15,4 +15,4 @@ tags:
 - [[Interactive Oracle Proofs]] - `specializes` [EXTRACTED]
 - [[R1CS (Rank-1 Constraint Systems)]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_28
+#graphify/paper #graphify/EXTRACTED #community/Community_15

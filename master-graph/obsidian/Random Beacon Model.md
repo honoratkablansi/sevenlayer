@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-05-mpc-random-beacon.pdf"
 type: "document"
-community: "Community 104"
+community: "Community 58"
 location: "Abstract"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_104
+  - community/Community_58
 ---
 
 # Random Beacon Model
@@ -20,4 +20,4 @@ tags:
 - [[Secure Multi-Party Computation (MPC)]] - `uses` [EXTRACTED]
 - [[Snarky Ceremonies]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_104
+#graphify/document #graphify/EXTRACTED #community/Community_58

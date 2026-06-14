@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 109"
+community: "Community 116"
 location: "Chapter 14"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_109
+  - community/Community_116
 ---
 
 # Q6: Practical Constant-Time ZK Proving
@@ -18,4 +18,4 @@ tags:
 - [[Side-Channel Attack]] - `explains` [EXTRACTED]
 - [[The Three Frontiers (Performance, Security, Privacy)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_109
+#graphify/document #graphify/EXTRACTED #community/Community_116

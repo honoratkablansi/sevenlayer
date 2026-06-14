@@ -1,7 +1,8 @@
 {
   "aliases": {
+    "concept_sum-check-protocol": "concept_sumcheck",
     "concept_gkr-protocol": "concept_gkr",
-    "concept_lattice-cryptography": "concept_lattice",
-    "concept_quadratic-arithmetic-program": "concept_qap"
+    "concept_bilinear-pairing": "concept_pairing",
+    "concept_freivalds-protocol": "concept_freivalds"
   }
 }

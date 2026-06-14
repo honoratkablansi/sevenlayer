@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 0"
+community: "Community 1"
 location: "Chapter 10"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Community_1
 ---
 
 # Post-Quantum Security
@@ -22,4 +22,4 @@ tags:
 - [[Path Three Post-Quantum Folding]] - `explains` [EXTRACTED]
 - [[Zero-Knowledge Scalable Transparent ARgument of Knowledge (ZK-STARK)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/document #graphify/EXTRACTED #community/Community_1

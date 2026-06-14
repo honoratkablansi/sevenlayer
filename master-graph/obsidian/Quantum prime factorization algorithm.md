@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch07/ref-24-shor.pdf"
 type: "paper"
-community: "Community 113"
+community: "Community 106"
 location: "§5"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_113
+  - community/Community_106
 ---
 
 # Quantum prime factorization algorithm
@@ -19,4 +19,4 @@ tags:
 - [[Reduction of factoring to order-finding (Miller 1976)]] - `assumes` [EXTRACTED]
 - [[Shor's Algorithm]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_113
+#graphify/paper #graphify/EXTRACTED #community/Community_106

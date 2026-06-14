@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch06/ref-17-nova.pdf"
 type: "paper"
-community: "Community 28"
+community: "Community 29"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_28
+  - community/Community_29
 ---
 
 # Nova: Recursive Zero-Knowledge Arguments from Folding Schemes
@@ -30,4 +30,4 @@ tags:
 - [[Sum-Check Protocol]] - `conceptually_related_to` [EXTRACTED]
 - [[Trusted Setup Ceremony]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_28
+#graphify/paper #graphify/EXTRACTED #community/Community_29

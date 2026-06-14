@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-05-halo.pdf"
 type: "paper"
-community: "Community 75"
+community: "Community 8"
 location: "References [4]"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_75
+  - community/Community_8
 ---
 
 # Ben-Sasson, Chiesa, Tromer, Virza: Scalable Zero Knowledge via cycles of elliptic curves [4]
@@ -15,4 +15,4 @@ tags:
 - [[Cycles of Elliptic Curves]] - `cites` [EXTRACTED]
 - [[Recursive Proof Composition]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_75
+#graphify/paper #graphify/EXTRACTED #community/Community_8

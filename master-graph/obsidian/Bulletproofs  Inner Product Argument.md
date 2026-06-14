@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 14"
+community: "Community 11"
 location: "Chapter 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_14
+  - community/Community_11
 ---
 
 # Bulletproofs / Inner Product Argument
@@ -21,8 +21,11 @@ tags:
 - [[Frozen Heart Forgery of Zero Knowledge Proofs (Trail of Bits, 2022)]] - `references` [EXTRACTED]
 - [[Inner Product Argument (IPABulletproofs)]] - `uses` [EXTRACTED]
 - [[Layer 1 -- Building the Stage]] - `references` [EXTRACTED]
+- [[Logarithmic Proof Size]] - `defines` [EXTRACTED]
 - [[Maturity and Readiness]] - `references` [EXTRACTED]
-- [[Polynomial Commitment Scheme]] - `conceptually_related_to` [EXTRACTED]
+- [[No-trusted-setup (transparent) argument under discrete log over normal curve cycles]] - `defines` [EXTRACTED]
+- [[Pedersen Commitment]] - `uses` [EXTRACTED]
+- [[Polynomial Commitment Scheme]] - `builds_on` [EXTRACTED]
 - [[Proofs, Arguments, and Zero-Knowledge (Justin Thaler, survey textbook)]] - `explains` [EXTRACTED]
 - [[Range Proof]] - `uses` [EXTRACTED]
 - [[STARK]] - `compares` [EXTRACTED]
@@ -34,6 +37,6 @@ tags:
 - [[Transparent Setup]] - `conceptually_related_to` [EXTRACTED]
 - [[Two Ways to Build a Stage]] - `conceptually_related_to` [EXTRACTED]
 - [[When the Transcript Lies Fiat-Shamir Vulnerabilities]] - `references` [EXTRACTED]
-- [[Zero-Knowledge Proof]] - `defines` [EXTRACTED]
+- [[Zero-Knowledge Proof]] - `relates_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_14
+#graphify/document #graphify/EXTRACTED #community/Community_11

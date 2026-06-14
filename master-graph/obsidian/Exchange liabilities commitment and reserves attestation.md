@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch3/ref-89-summa-proof-of-solvency.md"
 type: "document"
-community: "Community 135"
+community: "Community 137"
 tags:
   - graphify/document
   - graphify/INFERRED
-  - community/Community_135
+  - community/Community_137
 ---
 
 # Exchange liabilities commitment and reserves attestation
@@ -14,4 +14,4 @@ tags:
 - [[Proof of solvency  financial compliance]] - `conceptually_related_to` [INFERRED]
 - [[Summa Proof of Solvency Protocol]] - `introduces` [INFERRED]
 
-#graphify/document #graphify/INFERRED #community/Community_135
+#graphify/document #graphify/INFERRED #community/Community_137

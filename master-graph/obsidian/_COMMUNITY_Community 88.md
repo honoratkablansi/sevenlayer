@@ -1,29 +1,30 @@
 ---
 type: community
-cohesion: 0.19
-members: 14
+cohesion: 0.18
+members: 15
 ---
 
 # Community 88
 
-**Cohesion:** 0.19 - loosely connected
-**Members:** 14 nodes
+**Cohesion:** 0.18 - loosely connected
+**Members:** 15 nodes
 
 ## Members
-- [[Continuations]] - document - recursion/recursion-outline.md
-- [[Cost-model mismatch zkVM uniform-cost constraints vs CPU hardware heuristics (cachebranch-predILP)]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
-- [[Finding -Ox gains (40%) on zkVMs far smaller than on traditional x86 CPUs]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
-- [[Justin Thaler]] - document - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[Proving CPU Executions in Small Space]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[RISC Zero zkVM]] - document - references/recursion/ch1/ref-28-risc-zero-technical-docs.md
-- [[RISC Zero zkVM (evaluated, v1.2.4)]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
-- [[Receipt (self-certifying proof of execution)]] - document - references/recursion/ch1/ref-28-risc-zero-technical-docs.md
-- [[Recursion (proof recursion in zkVMs)]] - document - references/recursion/ch1/ref-27-succinct-sp1-docs.md
-- [[Succinct verification without re-execution]] - document - references/recursion/ch1/ref-28-risc-zero-technical-docs.md
-- [[Surprising result strength reduction (div to shift-add) 3.5x faster on x86 but 40% slower proving on RISC Zero]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
-- [[The Universal Stage (zkVM metaphor)]] - document - proving-nothing.md
-- [[zkVM]] - document - proving-nothing.md
-- [[zkVM Cost Collapse (~10xyear)]] - document - proving-nothing.md
+- [[Bit-decomposition gadget proving ReLU + max pooling composition with a single bit-decomposition per number]] - paper - references/recursion/ch3/ref-70-zkcnn.pdf
+- [[Evaluation VGG16 (15M params) proof 88.3s  341KB  59.3ms verify; 1264x faster prover than vCNN]] - paper - references/recursion/ch3/ref-70-zkcnn.pdf
+- [[Jacob et al. 28 integer-arithmetic-only quantization scheme used to encode reals]] - paper - references/recursion/ch3/ref-70-zkcnn.pdf
+- [[Quantization of real-valued modeldata to Q-bit integers in finite field (affine map a = L(q-Z))]] - paper - references/recursion/ch3/ref-70-zkcnn.pdf
+- [[SafetyNets (Ghodsi et al. 25) GKR-based verifiable NN inference (no privacy)]] - paper - references/recursion/ch3/ref-70-zkcnn.pdf
+- [[Thaler 41 time-optimal sum-check for matrix multiplication (prover O(n2)  O(n3))]] - paper - references/recursion/ch3/ref-70-zkcnn.pdf
+- [[Theorem 4.1 Protocol 3 is correct and sound (Def C.1)]] - paper - references/recursion/ch3/ref-70-zkcnn.pdf
+- [[Verifiable  trustless DNN inference model consumer verifies that the model provider served correct predictions in an untrusted (MLaaS) setting]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[ZEN (Feng et al. 23) ZKP-friendly quantization for neural networks (baseline)]] - paper - references/recursion/ch3/ref-70-zkcnn.pdf
+- [[Zero knowledge CNN accuracy scheme over many samples (prove secret model accuracy on public dataset)]] - paper - references/recursion/ch3/ref-70-zkcnn.pdf
+- [[Zero knowledge via zk-sumcheck + low-degree extension + zk polynomial commitment; non-interactive via Fiat-Shamir]] - paper - references/recursion/ch3/ref-70-zkcnn.pdf
+- [[Zero-knowledge proof of 2-D convolution correctness]] - paper - references/recursion/ch3/ref-70-zkcnn.pdf
+- [[vCNN (Lee et al. 34) QAP + polynomial-QAP commit-and-prove for CNNs (baseline)]] - paper - references/recursion/ch3/ref-70-zkcnn.pdf
+- [[zkCNN commit-and-prove scheme (KeyGen, Commit, Prove, Verify) for CNN prediction]] - paper - references/recursion/ch3/ref-70-zkcnn.pdf
+- [[zkCNN Zero Knowledge Proofs for CNN Predictions and Accuracy (CCS 2021)]] - paper - references/recursion/ch3/ref-70-zkcnn.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -33,49 +34,16 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 10 edges to [[_COMMUNITY_Community 2]]
-- 7 edges to [[_COMMUNITY_Community 52]]
-- 6 edges to [[_COMMUNITY_Community 19]]
-- 5 edges to [[_COMMUNITY_Community 14]]
-- 5 edges to [[_COMMUNITY_Community 1]]
-- 5 edges to [[_COMMUNITY_Community 84]]
-- 4 edges to [[_COMMUNITY_Community 89]]
-- 3 edges to [[_COMMUNITY_Community 94]]
-- 3 edges to [[_COMMUNITY_Community 46]]
-- 3 edges to [[_COMMUNITY_Community 0]]
-- 3 edges to [[_COMMUNITY_Community 34]]
-- 3 edges to [[_COMMUNITY_Community 92]]
-- 2 edges to [[_COMMUNITY_Community 32]]
-- 2 edges to [[_COMMUNITY_Community 28]]
-- 2 edges to [[_COMMUNITY_Community 13]]
-- 2 edges to [[_COMMUNITY_Community 21]]
-- 2 edges to [[_COMMUNITY_Community 9]]
-- 2 edges to [[_COMMUNITY_Community 62]]
-- 1 edge to [[_COMMUNITY_Community 15]]
-- 1 edge to [[_COMMUNITY_Community 78]]
-- 1 edge to [[_COMMUNITY_Community 36]]
-- 1 edge to [[_COMMUNITY_Community 97]]
-- 1 edge to [[_COMMUNITY_Community 72]]
-- 1 edge to [[_COMMUNITY_Community 122]]
-- 1 edge to [[_COMMUNITY_Community 3]]
-- 1 edge to [[_COMMUNITY_Community 125]]
-- 1 edge to [[_COMMUNITY_Community 82]]
-- 1 edge to [[_COMMUNITY_Community 123]]
-- 1 edge to [[_COMMUNITY_Community 54]]
-- 1 edge to [[_COMMUNITY_Community 25]]
-- 1 edge to [[_COMMUNITY_Community 73]]
-- 1 edge to [[_COMMUNITY_Community 75]]
-- 1 edge to [[_COMMUNITY_Community 18]]
-- 1 edge to [[_COMMUNITY_Community 40]]
-- 1 edge to [[_COMMUNITY_Community 77]]
-- 1 edge to [[_COMMUNITY_Community 23]]
-- 1 edge to [[_COMMUNITY_Community 39]]
-- 1 edge to [[_COMMUNITY_Community 4]]
-- 1 edge to [[_COMMUNITY_Community 63]]
+- 6 edges to [[_COMMUNITY_Community 3]]
+- 4 edges to [[_COMMUNITY_Community 79]]
+- 4 edges to [[_COMMUNITY_Community 75]]
+- 2 edges to [[_COMMUNITY_Community 12]]
+- 1 edge to [[_COMMUNITY_Community 70]]
+- 1 edge to [[_COMMUNITY_Community 9]]
 
 ## Top bridge nodes
-- [[zkVM]] - degree 59, connects to 24 communities
-- [[Recursion (proof recursion in zkVMs)]] - degree 31, connects to 20 communities
-- [[Proving CPU Executions in Small Space]] - degree 12, connects to 6 communities
-- [[RISC Zero zkVM]] - degree 4, connects to 1 community
-- [[RISC Zero zkVM (evaluated, v1.2.4)]] - degree 3, connects to 1 community
+- [[zkCNN commit-and-prove scheme (KeyGen, Commit, Prove, Verify) for CNN prediction]] - degree 11, connects to 2 communities
+- [[Verifiable  trustless DNN inference model consumer verifies that the model provider served correct predictions in an untrusted (MLaaS) setting]] - degree 8, connects to 2 communities
+- [[zkCNN Zero Knowledge Proofs for CNN Predictions and Accuracy (CCS 2021)]] - degree 8, connects to 2 communities
+- [[Zero knowledge via zk-sumcheck + low-degree extension + zk polynomial commitment; non-interactive via Fiat-Shamir]] - degree 3, connects to 2 communities
+- [[Zero-knowledge proof of 2-D convolution correctness]] - degree 4, connects to 1 community

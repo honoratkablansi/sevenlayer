@@ -1,35 +1,37 @@
 ---
 type: community
-cohesion: 0.15
-members: 20
+cohesion: 0.13
+members: 22
 ---
 
 # Community 54
 
-**Cohesion:** 0.15 - loosely connected
-**Members:** 20 nodes
+**Cohesion:** 0.13 - loosely connected
+**Members:** 22 nodes
 
 ## Members
-- [[Bezout's identity for univariate polynomials (uniquenessdisjointness tool)]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
-- [[CP-Mirage+ commit-and-prove zkSNARK for AIPs with Pedersen-committed witnesses]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
-- [[CirC-compiler implementation, bellmanGroth16 base, Z rollup application]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
-- [[Commit-and-Prove SNARK]] - document - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
-- [[Conditional uniqueness AIP Pi_c-uniq, V-cost 6A+O(1)]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
-- [[Cost claim first volatile RAM proof with V-cost independent of N (up to 32.9% time cut)]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
-- [[Cost claim persistent RAM proving time reduced up to 51.3x vs RSAMerkle prior art]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
-- [[Cost claim sparse persistent RAM estimated up to 143x constraint reduction]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
-- [[Grand Product Check]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
-- [[Offline Memory Checking  Algebraic RAM Reduction]] - document - wiki/sections/ch04-witness-generation-costs.md
-- [[Ozdemir et al. RSAMerkle set-accumulator RAM (prior state of the art)]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
-- [[Persistent RAM AIP (committed initialfinal states)]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
-- [[Punctured disjointness AIP Pi_PuncDisj, V-cost 2C+2A+O(log C)]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
-- [[Punctured uniqueness AIP Pi_PuncUniq (gcd has form Xc), V-cost 4C+O(log C)]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
-- [[Read-over-write (RoW) validity condition for transcripts]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
-- [[Sparse persistent RAM AIP (capacity C, N approx 2256)]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
-- [[UniqBez divide-and-conquer Bezout coefficient computation (4.5 A log2 A)]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
-- [[Uniqueness AIP Pi_uniq (gcd(z,z')=1 via Bezout), V-cost 4A+O(1)]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
-- [[Volatile RAM AIP (zeroed init, uncommitted final)]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
-- [[Volatile and Persistent Memory for zkSNARKs via Algebraic Interactive Proofs]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[Digital Signature]] - paper - references/ch14/ref-64-fips-204.pdf
+- [[ExpandA  ExpandS  ExpandMask SHAKE-based pseudorandom sampling of matrix A from ρ, secrets s1s2, and mask y]] - paper - references/ch14/ref-64-fips-204.pdf
+- [[FIPS 204 Module-Lattice-Based Digital Signature Standard]] - paper - references/ch14/ref-64-fips-204.pdf
+- [[FIPS 204 Module-Lattice-Based Digital Signature Standard (ML-DSA), published 2024-08-13]] - paper - references/ch14/ref-64-fips-204.pdf
+- [[Fiat-Shamir With Aborts construction (Schnorr-like signature with rejection sampling on the response)]] - paper - references/ch14/ref-64-fips-204.pdf
+- [[HashML-DSA domain-separated pre-hash variant signing PH(M) for largestreamed messages]] - paper - references/ch14/ref-64-fips-204.pdf
+- [[Hedged (default, fresh + precomputed randomness) vs deterministic signing variant; same Verify works for both]] - paper - references/ch14/ref-64-fips-204.pdf
+- [[Hint vector h ∈ R2k (MakeHintUseHint) lets verifier reconstruct high bits w1 despite t1 compression]] - paper - references/ch14/ref-64-fips-204.pdf
+- [[ML-DSA (Module-Lattice Digital Signature Algorithm)]] - document - references/ch14/ref-64-fips-204.pdf
+- [[ML-DSA derived from CRYSTALS-DILITHIUM v3.1 (Round-3 PQC selection); differences in Appendix D]] - paper - references/ch14/ref-64-fips-204.pdf
+- [[ML-DSA-44 parameter set (k,ℓ)=(4,4), η=2, τ=39, λ=128, Category 2; pk 1312 B, sk 2560 B, sig 2420 B]] - paper - references/ch14/ref-64-fips-204.pdf
+- [[ML-DSA-65 parameter set (k,ℓ)=(6,5), η=4, τ=49, λ=192, Category 3; pk 1952 B, sk 4032 B, sig 3309 B]] - paper - references/ch14/ref-64-fips-204.pdf
+- [[ML-DSA-87 parameter set (k,ℓ)=(8,7), η=2, τ=60, λ=256, Category 5; pk 2592 B, sk 4896 B, sig 4627 B]] - paper - references/ch14/ref-64-fips-204.pdf
+- [[ML-DSA.KeyGen (Alg 16.1) expand seed ξ - seed ρ for A, seeds for s1,s2,K; t = A·s1 + s2, publish compressed t1]] - paper - references/ch14/ref-64-fips-204.pdf
+- [[ML-DSA.Sign (Alg 26.2) commit w=Ay, challenge c~ from H(w1μ), response z = y + c·s1, with rejection-sampling abort loop]] - paper - references/ch14/ref-64-fips-204.pdf
+- [[ML-DSA.Verify (Alg 36.3) recompute w1' via UseHint from z, t1, c; accept iff z is short and c~ matches H(w1'μ)]] - paper - references/ch14/ref-64-fips-204.pdf
+- [[Message representative μ = H(H(pk)  M); signing μ not M provides BUFF  beyond-unforgeability properties]] - paper - references/ch14/ref-64-fips-204.pdf
+- [[Power2Round  Decompose  HighBits  LowBits drop d=13 low-order bits of t and round w to multiples of α=2γ2]] - paper - references/ch14/ref-64-fips-204.pdf
+- [[Rejection sampling abort and restart with new mask y if z (or r0) coefficients fall outside bound, removing bias toward secret s1s2]] - paper - references/ch14/ref-64-fips-204.pdf
+- [[SampleInBall (Alg 29) challenge polynomial c with exactly τ nonzero ±1 coefficients, derived from c~]] - paper - references/ch14/ref-64-fips-204.pdf
+- [[Strong existential unforgeability under chosen-message attack (SUF-CMA) plus BUFF properties]] - paper - references/ch14/ref-64-fips-204.pdf
+- [[Uses SHAKE128 and SHAKE256 (FIPS 202) as XOFs for all expansion, hashing, and challenge derivation]] - paper - references/ch14/ref-64-fips-204.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -40,18 +42,15 @@ SORT file.name ASC
 
 ## Connections to other communities
 - 4 edges to [[_COMMUNITY_Community 1]]
-- 3 edges to [[_COMMUNITY_Community 98]]
-- 3 edges to [[_COMMUNITY_Community 128]]
-- 2 edges to [[_COMMUNITY_Community 89]]
-- 1 edge to [[_COMMUNITY_Community 32]]
-- 1 edge to [[_COMMUNITY_Community 5]]
-- 1 edge to [[_COMMUNITY_Community 28]]
-- 1 edge to [[_COMMUNITY_Community 88]]
-- 1 edge to [[_COMMUNITY_Community 14]]
+- 3 edges to [[_COMMUNITY_Community 33]]
+- 3 edges to [[_COMMUNITY_Community 112]]
+- 2 edges to [[_COMMUNITY_Community 70]]
+- 1 edge to [[_COMMUNITY_Community 0]]
+- 1 edge to [[_COMMUNITY_Community 86]]
 
 ## Top bridge nodes
-- [[Volatile and Persistent Memory for zkSNARKs via Algebraic Interactive Proofs]] - degree 16, connects to 6 communities
-- [[Offline Memory Checking  Algebraic RAM Reduction]] - degree 7, connects to 4 communities
-- [[Volatile RAM AIP (zeroed init, uncommitted final)]] - degree 8, connects to 2 communities
-- [[Persistent RAM AIP (committed initialfinal states)]] - degree 5, connects to 1 community
-- [[CP-Mirage+ commit-and-prove zkSNARK for AIPs with Pedersen-committed witnesses]] - degree 4, connects to 1 community
+- [[ML-DSA (Module-Lattice Digital Signature Algorithm)]] - degree 21, connects to 4 communities
+- [[FIPS 204 Module-Lattice-Based Digital Signature Standard]] - degree 5, connects to 2 communities
+- [[ML-DSA.Sign (Alg 26.2) commit w=Ay, challenge c~ from H(w1μ), response z = y + c·s1, with rejection-sampling abort loop]] - degree 8, connects to 1 community
+- [[Fiat-Shamir With Aborts construction (Schnorr-like signature with rejection sampling on the response)]] - degree 4, connects to 1 community
+- [[ML-DSA.KeyGen (Alg 16.1) expand seed ξ - seed ρ for A, seeds for s1,s2,K; t = A·s1 + s2, publish compressed t1]] - degree 4, connects to 1 community

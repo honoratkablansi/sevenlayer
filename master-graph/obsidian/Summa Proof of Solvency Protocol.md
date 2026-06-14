@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch3/ref-89-summa-proof-of-solvency.md"
 type: "document"
-community: "Community 135"
+community: "Community 137"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_135
+  - community/Community_137
 ---
 
 # Summa Proof of Solvency Protocol
@@ -17,4 +17,4 @@ tags:
 - [[Solidity verifier smart contracts]] - `explains` [EXTRACTED]
 - [[Summa Rust backend API]] - `explains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_135
+#graphify/document #graphify/EXTRACTED #community/Community_137

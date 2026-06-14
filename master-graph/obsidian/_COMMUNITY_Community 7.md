@@ -1,64 +1,60 @@
 ---
 type: community
 cohesion: 0.07
-members: 49
+members: 45
 ---
 
 # Community 7
 
 **Cohesion:** 0.07 - loosely connected
-**Members:** 49 nodes
+**Members:** 45 nodes
 
 ## Members
-- [[Aggregation (single proof for many outputs, Theorem 1) and watermarking of proofs]] - paper - references/recursion/ch3/ref-81-wesolowski-vdf.pdf
-- [[Cited Boneh & Naor - Timed commitments (CRYPTO 2000) 7]] - paper - references/recursion/ch3/ref-81-wesolowski-vdf.pdf
-- [[Cited Boneh, Bonneau, Bunz, Fisch - Verifiable Delay Functions (CRYPTO 2018) 4]] - paper - references/recursion/ch3/ref-81-wesolowski-vdf.pdf
-- [[Cited Boneh, Bunz, Fisch - Survey of two VDFs (ePrint 2018712) 5]] - paper - references/recursion/ch3/ref-81-wesolowski-vdf.pdf
-- [[Cited Buchmann & Williams - key-exchange via imaginary quadratic fields (1988) 9]] - paper - references/recursion/ch3/ref-81-wesolowski-vdf.pdf
-- [[Cited Lenstra & Wesolowski - slothunicorntrx slow-timed hash (2016) 15]] - paper - references/recursion/ch3/ref-81-wesolowski-vdf.pdf
-- [[Cited Pietrzak - Simple Verifiable Delay Functions 16]] - paper - references/recursion/ch3/ref-81-wesolowski-vdf.pdf
-- [[Cited Rabin - Transaction protection by beacons (1983) 17]] - paper - references/recursion/ch3/ref-81-wesolowski-vdf.pdf
-- [[Cited Rivest, Shamir, Wagner - Time-lock puzzles and timed-release crypto (1996) 18]] - paper - references/recursion/ch3/ref-81-wesolowski-vdf.pdf
-- [[Cohen & Pietrzak, simpler PoSW from a non-depth-robust Merkle-tree graph 19]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
-- [[Comparison vs Pietrzak VDF single group element  2 exponentiations vs O(log t)]] - paper - references/recursion/ch3/ref-81-wesolowski-vdf.pdf
-- [[Computational timestamping application incremental VDFs counter proof-of-stake long-range forks]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
-- [[Dwork & Naor, moderately hard pricingclient puzzles via modular square roots 31]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
-- [[Exponentiation-based VDF in a group of unknown order, secure only against bounded pre-computation (§8)]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
-- [[Fast verification requirement Verify runs in total time poly(log t, λ), exponentially faster than Eval]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
-- [[Formal VDF definition triple (Setup, Eval, Verify) with correctness, soundness, sequentiality]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
-- [[Generalised time-lock assumption for families of unknown-order groups (Assumption 2)]] - paper - references/recursion/ch3/ref-81-wesolowski-vdf.pdf
-- [[Groups of unknown order (RSA group, class group of imaginary quadratic field)]] - paper - references/recursion/ch3/ref-81-wesolowski-vdf.pdf
-- [[Inherently sequential computation  sequentiality]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
-- [[Iterated sequential function f = g(k) iterating round function g is the fastest evaluation (Assumption 1)]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
-- [[Lenstra & Wesolowski, Sloth time-asymmetric encoding and 'Unicorn' beacon 48]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
-- [[Mahmoody et al., publicly verifiable proofs of sequential work via depth-robust graphs 52]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
-- [[Pietrzak, RSA-based VDF from repeated squaring with trusted setup 64,65]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
-- [[Practical efficiency boost time-asymmetric encodings as the sequential computation inside IVC (~7,000x SNARK efficiency gain)]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
-- [[Proof computable in O(tlog t) group operations (Algorithm 5, base-2kappa)]] - paper - references/recursion/ch3/ref-81-wesolowski-vdf.pdf
-- [[Proof of exponentiation (short proof pi = g{floor(2tl)})]] - paper - references/recursion/ch3/ref-81-wesolowski-vdf.pdf
-- [[Proof-of-replication  proof-of-space application via efficiently-decodable VDF as time-asymmetric ideal cipher]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
-- [[Proposition 1 (tδ)-sequentiality in the random oracle model]] - paper - references/recursion/ch3/ref-81-wesolowski-vdf.pdf
-- [[Proposition 2 soundness in the random oracle model (reduction to root finding)]] - paper - references/recursion/ch3/ref-81-wesolowski-vdf.pdf
-- [[Randomness beacon]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
-- [[Repeatedsequential squaring in a group of unknown order]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
-- [[Rivest, Shamir, Wagner, time-lock puzzles and timed-release crypto 68]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
-- [[Root finding game Groot (extract l-th roots) underlying soundness]] - paper - references/recursion/ch3/ref-81-wesolowski-vdf.pdf
-- [[SNARK  SNARG verifiable-computation primitive (Def. 8) used to make Verify succinct]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
-- [[Time-lock assumption no shortcut to g{2t} without group order (Assumption 1)]] - paper - references/recursion/ch3/ref-81-wesolowski-vdf.pdf
-- [[Trapdoor VDF (evaluable fast with secret order, sound)]] - paper - references/recursion/ch3/ref-81-wesolowski-vdf.pdf
-- [[Trapdoor-VDF identification protocol with zero-knowledge and on-line deniability]] - paper - references/recursion/ch3/ref-81-wesolowski-vdf.pdf
-- [[Uniquenesssoundness for every input x a unique output y verifies; adversary cannot make Verify accept y≠Eval(x)]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
-- [[VDF randomness-beacon application post pp on chain, beacon r where (r,π)=Eval(ek,b); also 'Unicorn' commit-free n-party beacon]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
-- [[VDF_IVC theoretical VDF from tight IVC, achieves σ(t)=(1−ε)t−O(1) sequentiality (Theorem 1)]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
-- [[VDF_VC simpler VDF from verifiable computation (log N parallel SNARGs over geometric segments), σ(t)=(1−ε)t (Theorem 2, added May 2019)]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
-- [[Valiant, incrementally verifiable computation  computationally sound proofs 70]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
-- [[Verifiable Delay Functions (Boneh et al., CRYPTO 2018)]] - document - recursion/recursion-outline.md
-- [[Verifiable delay function (VDF)]] - document - recursion/recursion-outline.md
-- [[Weak VDF from injective rational  permutation polynomials over finite fields, (t2, o(t))-sequential via polynomial GCD hardness]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
-- [[Wesolowski public-coin protocol verifier samples prime l, checks pil gr = y]] - paper - references/recursion/ch3/ref-81-wesolowski-vdf.pdf
-- [[Wesolowski, Efficient Verifiable Delay Functions (EUROCRYPT 2019)]] - paper - references/recursion/ch3/ref-81-wesolowski-vdf.pdf
-- [[Wesolowski, efficient VDF from groups of unknown order 73]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
-- [[σ-sequentiality security property (parallel PRAM adversary cannot win in time σ(t)t after polynomial precomputation)]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
+- [[AVX-512 multi-modular NTT ring arithmetic library]] - paper - references/ch14/ref-65-greyhound.pdf
+- [[Assumption 4.3 MatrixACLMT Knowledge Assumption (matrix variant of knowledge k-ISIS)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Attack on Extractable Linear FC integer variant of ACL+22 not extractable assuming inhomogeneous SIS]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[BASIS_struct Assumption (structured lattice assumption of WW23; implies l-succinct SIS)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Batched evaluation protocol for multiple pointspolynomials]] - paper - references/ch14/ref-65-greyhound.pdf
+- [[Bivariate polynomial folding f(X,Y)=aT S b with Y=Xm]] - paper - references/ch14/ref-65-greyhound.pdf
+- [[CRS Efficiency Claim l{d+1} CRS for degree-d polynomials (reduces ACL+22 exponent from 2d to d+1; l3 for quadratics vs l4l5)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Committing to w via v=Dw-hat (proof-size reduction)]] - paper - references/ch14/ref-65-greyhound.pdf
+- [[Construction 3.19 Dual Functional Commitment for Bounded-Depth Boolean Circuits]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Construction 3.2 Functional Commitment for Constant-Degree Polynomials]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Construction 3.9 Multi-Output Functional Commitment for Constant-Degree Polynomials]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Coordinate-wise special soundness analysis (CWSS)]] - paper - references/ch14/ref-65-greyhound.pdf
+- [[Dual Functional Commitment (commit to function f, open at input x)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Efficiency O(sqrt N) verifier, polylog proof, 53KB at N=230]] - paper - references/ch14/ref-65-greyhound.pdf
+- [[Evasive LWE Assumption (implies l-succinct SIS plus LWE)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Extractable Functional Commitment (equivalent to SNARG for NP via quadratic relations)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[FMN23 lattice polynomial commitments  Power-BASIS (CWSS origin)]] - paper - references/ch14/ref-65-greyhound.pdf
+- [[Fast Johnson-Lindenstrauss projection via Four Russians algorithm]] - paper - references/ch14/ref-65-greyhound.pdf
+- [[Fast Verification in the Preprocessing Model (sublinear verifier after functioninput preprocessing)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Functional Commitment]] - document - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[GSW  BGG+14 Lattice Homomorphic Evaluation Machinery]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Greyhound polynomial commitment scheme]] - paper - references/ch14/ref-65-greyhound.pdf
+- [[Greyhound Fast Polynomial Commitments from Lattices]] - paper - references/ch14/ref-65-greyhound.pdf
+- [[Inhomogeneous SIS Assumption]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Inner and outer commitment construction]] - paper - references/ch14/ref-65-greyhound.pdf
+- [[KLVW23 RAM-Delegation-Based FC for All Circuits (LWE, transparent, non-black-box)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[KZG10 constant-size polynomial commitments]] - paper - references/ch14/ref-65-greyhound.pdf
+- [[Knowledge k-R-ISIS Assumption (Albrecht et al. CRYPTO 2022)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[LaBRADOR Proof System]] - document - references/ch14/ref-65-greyhound.pdf
+- [[Lattice-Based Functional Commitments Fast Verification and Cryptanalysis]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Ligero (AHIV17) and Brakedown (GLS+21) hash-based PCs (baselines)]] - paper - references/ch14/ref-65-greyhound.pdf
+- [[Oblivious Sampling Cryptanalysis (Babai-rounding attack breaking extractability  knowledge k-R-ISIS plausibility)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Preprocessing SNARG]] - paper - references/snowball/book/ref-086-succinct-non-interactive-arguments-via-linear-in.pdf
+- [[Reduction of verification to a single short-norm linear relation over Rq]] - paper - references/ch14/ref-65-greyhound.pdf
+- [[SLAP succinct lattice polynomial commitments (AFLN24, EUROCRYPT 2024)]] - paper - references/ch14/ref-65-greyhound.pdf
+- [[Short Integer Solutions (SIS) Assumption]] - document - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Split-and-fold  folding paradigm]] - paper - references/ch14/ref-65-greyhound.pdf
+- [[Succinct Non-interactive Argument (SNARG)]] - paper - references/ch02/ref-06-groth16.pdf
+- [[Theorem 3.22 Selective-Input Binding of Dual FC under l-succinct SIS]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Theorem 3.6 Computational Binding of Construction 3.2 under l-succinct SIS]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Theorem 4.1 completeness, weak binding, knowledge soundness of PCS]] - paper - references/ch14/ref-65-greyhound.pdf
+- [[Three-round proof of polynomial evaluation (quadratic relation)]] - paper - references/ch14/ref-65-greyhound.pdf
+- [[Weak binding of innerouter commitment under Module-SIS (Lemma 2.11)]] - paper - references/ch14/ref-65-greyhound.pdf
+- [[Zq-to-Rq evaluation transform via Galois automorphism (AFLN24)]] - paper - references/ch14/ref-65-greyhound.pdf
+- [[l-Succinct SIS Assumption (falsifiable q-type generalization of SIS, trapdoor for I_l ⊗ A  W)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -68,17 +64,23 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 5 edges to [[_COMMUNITY_Community 25]]
-- 2 edges to [[_COMMUNITY_Community 37]]
-- 1 edge to [[_COMMUNITY_Community 32]]
-- 1 edge to [[_COMMUNITY_Community 97]]
-- 1 edge to [[_COMMUNITY_Community 28]]
-- 1 edge to [[_COMMUNITY_Community 9]]
-- 1 edge to [[_COMMUNITY_Community 23]]
+- 17 edges to [[_COMMUNITY_Community 1]]
+- 7 edges to [[_COMMUNITY_Community 12]]
+- 3 edges to [[_COMMUNITY_Community 41]]
+- 2 edges to [[_COMMUNITY_Community 20]]
+- 2 edges to [[_COMMUNITY_Community 70]]
+- 2 edges to [[_COMMUNITY_Community 0]]
+- 2 edges to [[_COMMUNITY_Community 11]]
+- 1 edge to [[_COMMUNITY_Community 15]]
+- 1 edge to [[_COMMUNITY_Community 6]]
+- 1 edge to [[_COMMUNITY_Community 24]]
+- 1 edge to [[_COMMUNITY_Community 22]]
+- 1 edge to [[_COMMUNITY_Community 39]]
+- 1 edge to [[_COMMUNITY_Community 33]]
 
 ## Top bridge nodes
-- [[Verifiable delay function (VDF)]] - degree 24, connects to 5 communities
-- [[SNARK  SNARG verifiable-computation primitive (Def. 8) used to make Verify succinct]] - degree 4, connects to 2 communities
-- [[Wesolowski, Efficient Verifiable Delay Functions (EUROCRYPT 2019)]] - degree 14, connects to 1 community
-- [[VDF_IVC theoretical VDF from tight IVC, achieves σ(t)=(1−ε)t−O(1) sequentiality (Theorem 1)]] - degree 6, connects to 1 community
-- [[Practical efficiency boost time-asymmetric encodings as the sequential computation inside IVC (~7,000x SNARK efficiency gain)]] - degree 3, connects to 1 community
+- [[Greyhound Fast Polynomial Commitments from Lattices]] - degree 17, connects to 5 communities
+- [[Greyhound polynomial commitment scheme]] - degree 14, connects to 5 communities
+- [[LaBRADOR Proof System]] - degree 12, connects to 5 communities
+- [[Lattice-Based Functional Commitments Fast Verification and Cryptanalysis]] - degree 14, connects to 4 communities
+- [[Functional Commitment]] - degree 9, connects to 3 communities

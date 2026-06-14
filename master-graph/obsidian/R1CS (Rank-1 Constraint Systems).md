@@ -1,18 +1,19 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 28"
+community: "Community 15"
 location: "Chapter 3"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_28
+  - community/Community_15
 ---
 
 # R1CS (Rank-1 Constraint Systems)
 
 ## Connections
 - [[AD-SNARK]] - `uses` [EXTRACTED]
+- [[Arithmetic Circuit]] - `compiles_to` [EXTRACTED]
 - [[Aurora]] - `uses` [EXTRACTED]
 - [[Bivariate constraint system a∘b=c plus Q linear constraints, embedded as constant term of t(X,Y)]] - `conceptually_related_to` [EXTRACTED]
 - [[CCS (Customizable Constraint Systems)]] - `generalizes` [EXTRACTED]
@@ -24,7 +25,7 @@ tags:
 - [[CirC Compiler Infrastructure for Proof Systems, Software Verification, and More]] - `conceptually_related_to` [EXTRACTED]
 - [[Circom]] - `defines` [EXTRACTED]
 - [[Circuit Generator]] - `defines` [EXTRACTED]
-- [[Circuit Satisfiability front ends compiling computer programs into arithmetic circuits  circuit-SAT instances]] - `conceptually_related_to` [EXTRACTED]
+- [[Circuit Satisfiability front ends compiling computer programs into arithmetic circuits  circuit-SAT instances]] - `generalizes` [EXTRACTED]
 - [[Constraint System]] - `introduces` [EXTRACTED]
 - [[Construction 1 SuperNova NIVC scheme (G,K,P,V) built from non-interactive folding scheme NIFS for committed relaxed R1CS plus a hash]] - `assumes` [EXTRACTED]
 - [[Cross-Term Derivation]] - `explains` [EXTRACTED]
@@ -35,6 +36,7 @@ tags:
 - [[Existentially Quantified Circuit (EQC)]] - `relates_to` [EXTRACTED]
 - [[Folding Scheme]] - `supports` [EXTRACTED]
 - [[Formal Verification]] - `targets` [EXTRACTED]
+- [[GGPR Linear PCP (Gennaro-Gentry-Parno-Raykova)]] - `uses` [EXTRACTED]
 - [[Gemini Elastic SNARK]] - `uses` [EXTRACTED]
 - [[Generalized Committed Linear Relation R_lin,B]] - `conceptually_related_to` [EXTRACTED]
 - [[Glossary of Key Terms]] - `defines` [EXTRACTED]
@@ -51,7 +53,7 @@ tags:
 - [[Lemma 1 constant-time R1CS-to-CCS reduction (t=3, q=2, d=2)]] - `proves` [EXTRACTED]
 - [[Linear PCP]] - `uses` [EXTRACTED]
 - [[Marlin]] - `uses` [EXTRACTED]
-- [[Multi-Prover Interactive Proofs (MIPs) and succinct arguments for circuit satisfiability]] - `references` [EXTRACTED]
+- [[Multi-Prover Interactive Proofs (MIPs) and succinct arguments for circuit satisfiability]] - `relates_to` [EXTRACTED]
 - [[Multilinear extension (MLE)]] - `conceptually_related_to` [EXTRACTED]
 - [[NARK for R1CS from Fiat-Shamir over a Pedersen-commitment sigma protocol (linear argument size)]] - `conceptually_related_to` [EXTRACTED]
 - [[Nova]] - `uses` [EXTRACTED]
@@ -59,10 +61,11 @@ tags:
 - [[PLONK]] - `uses` [EXTRACTED]
 - [[Per-instruction step functions {F_1,...,F_l} plus control function phi; each F_j verifies one instruction type, cost independent of l]] - `assumes` [EXTRACTED]
 - [[Polynomial Commitment Scheme]] - `uses` [EXTRACTED]
+- [[Polynomial IOP  interactive oracle protocol]] - `relates_to` [EXTRACTED]
 - [[Proof System Compiler]] - `generates` [EXTRACTED]
 - [[Proofs, Arguments, and Zero-Knowledge (Justin Thaler, survey textbook)]] - `explains` [EXTRACTED]
 - [[Protostar Generic Efficient AccumulationFolding for Special-sound Protocols]] - `conceptually_related_to` [EXTRACTED]
-- [[QAP (Quadratic Arithmetic Program)]] - `conceptually_related_to` [EXTRACTED]
+- [[QAP (Quadratic Arithmetic Program)]] - `relates_to` [EXTRACTED]
 - [[Quadratic Span Program]] - `relates_to` [EXTRACTED]
 - [[Quarks  Xiphos  Kopis]] - `uses` [EXTRACTED]
 - [[Recursion (proof recursion in zkVMs)]] - `uses` [EXTRACTED]
@@ -72,7 +75,8 @@ tags:
 - [[Spartan]] - `proves` [EXTRACTED]
 - [[Spartan applied to uniform R1CS (no commitment to A,B,C matrices)]] - `assumes` [EXTRACTED]
 - [[Spartan over Jolt's uniform block-diagonal R1CS, streamed via Az,Bz,Cz]] - `assumes` [EXTRACTED]
-- [[Succinct Argument]] - `uses` [EXTRACTED]
+- [[Succinct Argument]] - `relates_to` [EXTRACTED]
+- [[Sum-Check Protocol]] - `relates_to` [EXTRACTED]
 - [[SuperNova (Non-Uniform IVC)]] - `uses` [EXTRACTED]
 - [[Symphony Scalable SNARKs in the Random Oracle Model from Lattice-Based High-Arity Folding]] - `references` [EXTRACTED]
 - [[The Constraint System Evolution R1CS, AIR, PLONKish]] - `defines` [EXTRACTED]
@@ -80,6 +84,7 @@ tags:
 - [[The Spreadsheet Metaphor (And Where It Works)]] - `references` [EXTRACTED]
 - [[Theorem 2 efficient public-coin zero-knowledge holographic IOP for indexed relation R_R1CS (O(m log m) indexerprover, O(x+log m) verifier, O(log m) queries)]] - `assumes` [EXTRACTED]
 - [[Theorem 2 transparent zkNARK for R1CS with constant-size split accumulation verifier in ROM under DL]] - `conceptually_related_to` [EXTRACTED]
+- [[Trusted Setup Ceremony]] - `relates_to` [EXTRACTED]
 - [[Verifiable computation]] - `relates_to` [EXTRACTED]
 - [[Verifiable delay function (VDF)]] - `relates_to` [EXTRACTED]
 - [[Volatile and Persistent Memory for zkSNARKs via Algebraic Interactive Proofs]] - `references` [EXTRACTED]
@@ -89,4 +94,4 @@ tags:
 - [[Zero-knowledge proof system]] - `conceptually_related_to` [EXTRACTED]
 - [[zk-SNARK]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_28
+#graphify/document #graphify/EXTRACTED #community/Community_15

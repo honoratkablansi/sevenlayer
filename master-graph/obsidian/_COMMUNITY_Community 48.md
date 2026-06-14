@@ -1,36 +1,37 @@
 ---
 type: community
-cohesion: 0.13
-members: 21
+cohesion: 0.11
+members: 22
 ---
 
 # Community 48
 
-**Cohesion:** 0.13 - loosely connected
-**Members:** 21 nodes
+**Cohesion:** 0.11 - loosely connected
+**Members:** 22 nodes
 
 ## Members
-- [[Harvest Now Decrypt Later Examining Post-Quantum Cryptography and the Data Privacy Risks for Distributed Ledger Networks]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
-- [[Algorithm Deprecation Timeline]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
-- [[BIS Project Leap (2023) Quantum-proofing the financial system]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
-- [[Bitcoin]] - document - references/ch14/ref-63-harvest-now-decrypt-later.pdf
-- [[Bitcoin address crypto stack ECC (publicprivate key) - SHA-256 & RIPEMD-160 hashing - base58bech32m encoding; address creation is a 5-step nested process]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
-- [[Bitcoin case study public, permissionless DLT with ~15-year ledger used to illustrate HNDL; threat is current, active, unmitigated for data privacy, and asynchronous across address types]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
-- [[Buterin (2023) Ethereum quantum-emergency hard-fork proposal]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
-- [[Crypto agility building continuous migration between quantum-resistant algorithms into governance rather than targeting a single Q-Day]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
-- [[Cryptographic Migration]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
-- [[Distributed Ledger Network]] - document - references/ch14/ref-63-harvest-now-decrypt-later.pdf
-- [[Economic-impact assessment no conclusive peer-reviewed total-value-at-risk figure exists; authors deem quantifying vulnerable bitcoin operationally a 'red herring' vs. identifying unmitigable_ce42a868]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
-- [[Exposed-keyaddress analysis vulnerability concentrated in legacy, reused, and Taproot (SchnorrECC) addresses and early-mined coins, possibly incl. Satoshi's dormant ECDSA addresses]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
-- [[HNDL poses two primary present threats to Bitcoin revealing confidential encrypted data (data privacy) and stealing funds (theft)]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
-- [[Harvest Now Decrypt Later (HNDL)]] - document - references/ch14/ref-63-harvest-now-decrypt-later.pdf
-- [[Hybrid Key Exchange]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
-- [[Limitation all proposed mitigations require security-through-force, antithetical to Bitcoin's decentralized, choice-over-force governance ethos]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
-- [[Mitigations PQC-only hard fork (Buterin-style) or soft fork, mandatory PQC address types, crypto agility, security hygiene (no address reuse) — all address theftintegrity, not retroactive privacy]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
-- [[NIST PQC standardization 3 finalized encryption standards + 5 quantum-resistant algorithms; deprecating RSAECC over 5-10 years; US federal migration mandated by 2035]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
-- [[Quantum Threat]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
-- [[Thesis PQC can protect DLT integritysecurity but cannot retroactively protect data privacy of past transactions against HNDL]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
-- [[Threat model bad actor joins as node operator, harvests a non-PQC replica of the ledger, later cracks it with a quantum computer to reveal plaintext]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
+- [[Age and nationality verification]] - document - references/recursion/ch3/ref-83-zkpassport-anon-aadhaar.md
+- [[Cited Mixicle (privacy-preserving oracle construction for binary options)]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Credential subject]] - document - references/recursion/ch3/ref-84-w3c-verifiable-credentials.md
+- [[EU eIDAS 2.0 (digital identity wallets, 450M users)]] - document - proving-nothing.md
+- [[Humanity Protocol (palm-vein biometric, $1.1B valuation)]] - document - proving-nothing.md
+- [[Issuer  Holder  Verifier roles]] - document - references/recursion/ch3/ref-84-w3c-verifiable-credentials.md
+- [[JSON-LD core data model and contexts]] - document - references/recursion/ch3/ref-84-w3c-verifiable-credentials.md
+- [[Midnight Developer Guide (Midnight Docs)]] - document - references/ch12/ref-41-midnight-developer-guide.md
+- [[On-device proof generation (mobile passport NFC)]] - document - references/recursion/ch3/ref-83-zkpassport-anon-aadhaar.md
+- [[Partisia  Danish Student Credentials (ZK + MPC)]] - document - proving-nothing.md
+- [[Petra confidential SBOM exchange via CP-ABE (Ishgair et al.), main baseline contrasted with VeriSBOM]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
+- [[Privacy Pools (0xbow, prove-innocence-not-identity)]] - document - proving-nothing.md
+- [[Selective Disclosure]] - document - proving-nothing.md
+- [[Three demo applications confidential binary option, legacy-to-anonymous age credential, price-discrimination claim]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Verifiable credentials]] - document - references/recursion/ch3/ref-84-w3c-verifiable-credentials.md
+- [[Verifiable presentation]] - document - references/recursion/ch3/ref-84-w3c-verifiable-credentials.md
+- [[W3C Verifiable Credentials Data Model v2.0]] - document - references/recursion/ch3/ref-84-w3c-verifiable-credentials.md
+- [[World (Worldcoin, iris-scanning orbs)]] - document - proving-nothing.md
+- [[ZK Identity]] - document - proving-nothing.md
+- [[ZKPassport  Anon-Aadhaar document-proof systems]] - document - references/recursion/ch3/ref-83-zkpassport-anon-aadhaar.md
+- [[ZKPassport SDK and QR verification card]] - document - references/recursion/ch3/ref-83-zkpassport-anon-aadhaar.md
+- [[Zero-knowledge proofs in verifiable credentials]] - document - references/recursion/ch3/ref-84-w3c-verifiable-credentials.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -40,18 +41,27 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 7 edges to [[_COMMUNITY_Community 0]]
-- 4 edges to [[_COMMUNITY_Community 81]]
-- 2 edges to [[_COMMUNITY_Community 111]]
-- 2 edges to [[_COMMUNITY_Community 39]]
-- 1 edge to [[_COMMUNITY_Community 73]]
-- 1 edge to [[_COMMUNITY_Community 5]]
-- 1 edge to [[_COMMUNITY_Community 133]]
-- 1 edge to [[_COMMUNITY_Community 6]]
+- 4 edges to [[_COMMUNITY_Community 89]]
+- 3 edges to [[_COMMUNITY_Community 40]]
+- 2 edges to [[_COMMUNITY_Community 20]]
+- 2 edges to [[_COMMUNITY_Community 21]]
+- 2 edges to [[_COMMUNITY_Community 36]]
+- 2 edges to [[_COMMUNITY_Community 67]]
+- 2 edges to [[_COMMUNITY_Community 27]]
+- 2 edges to [[_COMMUNITY_Community 100]]
+- 2 edges to [[_COMMUNITY_Community 10]]
+- 2 edges to [[_COMMUNITY_Community 5]]
+- 2 edges to [[_COMMUNITY_Community 78]]
+- 1 edge to [[_COMMUNITY_Community 14]]
+- 1 edge to [[_COMMUNITY_Community 94]]
+- 1 edge to [[_COMMUNITY_Community 24]]
+- 1 edge to [[_COMMUNITY_Community 86]]
+- 1 edge to [[_COMMUNITY_Community 61]]
+- 1 edge to [[_COMMUNITY_Community 13]]
 
 ## Top bridge nodes
-- [[Harvest Now Decrypt Later (HNDL)]] - degree 13, connects to 4 communities
-- [[Harvest Now Decrypt Later Examining Post-Quantum Cryptography and the Data Privacy Risks for Distributed Ledger Networks]] - degree 7, connects to 2 communities
-- [[Bitcoin]] - degree 6, connects to 2 communities
-- [[Mitigations PQC-only hard fork (Buterin-style) or soft fork, mandatory PQC address types, crypto agility, security hygiene (no address reuse) — all address theftintegrity, not retroactive privacy]] - degree 6, connects to 1 community
-- [[Cryptographic Migration]] - degree 5, connects to 1 community
+- [[Selective Disclosure]] - degree 22, connects to 10 communities
+- [[ZK Identity]] - degree 9, connects to 3 communities
+- [[Verifiable credentials]] - degree 5, connects to 3 communities
+- [[Midnight Developer Guide (Midnight Docs)]] - degree 5, connects to 3 communities
+- [[ZKPassport  Anon-Aadhaar document-proof systems]] - degree 7, connects to 2 communities

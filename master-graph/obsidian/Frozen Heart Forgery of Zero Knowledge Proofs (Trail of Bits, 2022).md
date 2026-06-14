@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch06/ref-22-frozen-heart.md"
 type: "document"
-community: "Community 37"
+community: "Community 17"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_37
+  - community/Community_17
 ---
 
 # Frozen Heart: Forgery of Zero Knowledge Proofs (Trail of Bits, 2022)
@@ -21,4 +21,4 @@ tags:
 - [[Schnorr Proof System]] - `references` [EXTRACTED]
 - [[The Synthesis -- Three Paths, Not Two]] - `cites` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_37
+#graphify/document #graphify/EXTRACTED #community/Community_17

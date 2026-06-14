@@ -1,44 +1,50 @@
 ---
 type: community
-cohesion: 0.10
-members: 29
+cohesion: 0.14
+members: 35
 ---
 
 # Community 21
 
-**Cohesion:** 0.10 - loosely connected
-**Members:** 29 nodes
+**Cohesion:** 0.14 - loosely connected
+**Members:** 35 nodes
 
 ## Members
-- [[2016 Ethereum Shanghai  EIP-150 underpriced-opcode DoS precedent]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Amplified finality-delay attack (1.45x-2.73x over direct L1 blob-stuffing)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Blob Fee Market]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[CongestionGriefing Attack]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Cycles-per-gas mispricing (MODEXP 2961, JUMPDEST 1039; EVM gas != proving cost)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[DA-saturation DoS sustained L2 liveness halt at 0.8-2.7 ETHhour]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[DA-saturation attack (data-heavy compute-light tx flooding L1 blob capacity)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Diamandis et al. multidimensional blockchain fee markets 19]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Direct economic damage attack (drains rollup vault via Ctx amortization, $11,172h on Scroll)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[EIP-1559 base-fee mechanism]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Empirical evaluation on Scroll, Linea, zkSync Era, Arbitrum, Optimism, Base]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Ethereum]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Generic rollup cost model Txfee = L2fee + L1fee (rho_blob, Scalar_blob, Ctx, Stx)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[L2 EIP-1559-style DA pricing with L1-fee floor (DA-saturation mitigation)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[MODEXP killer block 94x finality latency, $42.26 prover loss per 35M-gas block]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Multi-dimensional TFM (matrix Ax over gasDAprovingfixed; adaptive per-resource pricing)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Perez & Livshits 'Broken Metre' (EVM resource-metering mispricing detection)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Prover-aware metering per-opcode proof-gas profiling, dedicated L2ProvingFee]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Prover-killer attack (high cycles-per-gas tx stalls ZK proof generation)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Reactive mitigations tx size limits, dynamic fee scalars, aggressive tx filtering]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Responsible disclosure all rollups vulnerable, 4 bug bounties, mitigations adopted]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Rollup multi-dimensional TFM (L2 gas + L1 DA + settlementverification)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Roughgarden TFM design  EIP-1559 incentive-compatibility 47,48]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Shared-DA multi-tenant risk attack on one rollup cascades across DA-layer tenants]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Smart contract systems via multiplexing  gas]] - paper - references/ch09/ref-30-kachina.pdf
-- [[Threat model budget-bounded L2 user; liveness, finality, economic-safety objectives]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Transaction Fee Mechanisms (TFM)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Unaligned Incentives Pricing Attacks Against Blockchain Rollups]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Unaligned-incentives thesis cross-dimension mispricing yields novel attacks]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[Collaborative  Threshold Proving]] - document - proving-nothing.md
+- [[Composability When One PET Is Not Enough]] - document - wiki/sections/ch09-composability-when-one-pet-is-not-enough.md
+- [[Computational Security]] - document - proving-nothing.md
+- [[FHE Bootstrapping]] - document - proving-nothing.md
+- [[Fully Homomorphic Encryption (FHE)]] - document - proving-nothing.md
+- [[GDPR]] - document - wiki/sections/ch09-the-regulatory-intersection.md
+- [[GDPR Right to Erasure (Blockchain Immutability Paradox)]] - document - proving-nothing.md
+- [[Garbled Circuits]] - document - proving-nothing.md
+- [[Gentry, 'Fully Homomorphic Encryption Using Ideal Lattices' (STOC 2009)]] - document - proving-nothing.md
+- [[Heuristic Security]] - document - proving-nothing.md
+- [[Information-Theoretic Security]] - document - proving-nothing.md
+- [[Intel SGX]] - document - proving-nothing.md
+- [[Oblivious Transfer]] - document - proving-nothing.md
+- [[Open Problems]] - document - wiki/sections/ch09-open-problems.md
+- [[Privacy-Enhancing Technologies]] - document - wiki/chapters/09-privacy-enhancing-technologies.md
+- [[Private Information Retrieval (PIR)]] - document - wiki/sections/ch09-open-problems.md
+- [[Private Set Intersection (PSI)]] - document - proving-nothing.md
+- [[Real-World Deployments Five Case Studies]] - document - wiki/sections/ch09-real-world-deployments-five-case-studies.md
+- [[SPDZ (Dishonest-Majority MPC)]] - document - proving-nothing.md
+- [[Secure Multi-Party Computation (MPC)]] - document - wiki/chapters/09-privacy-enhancing-technologies.md
+- [[Shamir Secret Sharing]] - document - proving-nothing.md
+- [[TFHE (Torus FHE)]] - document - proving-nothing.md
+- [[The Decision Matrix]] - document - wiki/sections/ch09-the-decision-matrix.md
+- [[The Four Pillars]] - document - wiki/sections/ch09-the-four-pillars.md
+- [[The Incomplete Stack]] - document - wiki/sections/ch09-the-incomplete-stack.md
+- [[The Regulatory Intersection]] - document - wiki/sections/ch09-the-regulatory-intersection.md
+- [[Three Kinds of Security]] - document - wiki/sections/ch09-three-kinds-of-security.md
+- [[Trusted Execution Environment (TEE)]] - document - wiki/chapters/09-privacy-enhancing-technologies.md
+- [[Verifiable FHE (zkFHE)]] - document - proving-nothing.md
+- [[Yao's Millionaires' Problem]] - document - proving-nothing.md
+- [[Yao, 'Protocols for Secure Computations' (FOCS 1982)]] - document - proving-nothing.md
+- [[Zama Confidential Blockchain Protocol]] - document - proving-nothing.md
+- [[Zero-Knowledge Proofs (ZKPs)]] - document - proving-nothing.md
+- [[eIDAS 2.0]] - document - wiki/sections/ch09-the-regulatory-intersection.md
+- [[zKYC (Zero-Knowledge Know Your Customer)]] - document - proving-nothing.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -48,15 +54,35 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 6 edges to [[_COMMUNITY_Community 17]]
-- 4 edges to [[_COMMUNITY_Community 47]]
-- 2 edges to [[_COMMUNITY_Community 88]]
-- 2 edges to [[_COMMUNITY_Community 35]]
-- 1 edge to [[_COMMUNITY_Community 32]]
+- 10 edges to [[_COMMUNITY_Community 110]]
+- 9 edges to [[_COMMUNITY_Community 125]]
+- 6 edges to [[_COMMUNITY_Community 20]]
+- 4 edges to [[_COMMUNITY_Community 84]]
+- 4 edges to [[_COMMUNITY_Community 61]]
+- 4 edges to [[_COMMUNITY_Community 24]]
+- 3 edges to [[_COMMUNITY_Community 85]]
+- 3 edges to [[_COMMUNITY_Community 56]]
+- 3 edges to [[_COMMUNITY_Community 10]]
+- 3 edges to [[_COMMUNITY_Community 40]]
+- 2 edges to [[_COMMUNITY_Community 11]]
+- 2 edges to [[_COMMUNITY_Community 48]]
+- 2 edges to [[_COMMUNITY_Community 58]]
+- 2 edges to [[_COMMUNITY_Community 27]]
+- 2 edges to [[_COMMUNITY_Community 1]]
+- 1 edge to [[_COMMUNITY_Community 5]]
+- 1 edge to [[_COMMUNITY_Community 78]]
+- 1 edge to [[_COMMUNITY_Community 25]]
+- 1 edge to [[_COMMUNITY_Community 42]]
+- 1 edge to [[_COMMUNITY_Community 63]]
+- 1 edge to [[_COMMUNITY_Community 68]]
+- 1 edge to [[_COMMUNITY_Community 35]]
+- 1 edge to [[_COMMUNITY_Community 86]]
+- 1 edge to [[_COMMUNITY_Community 17]]
+- 1 edge to [[_COMMUNITY_Community 0]]
 
 ## Top bridge nodes
-- [[Unaligned Incentives Pricing Attacks Against Blockchain Rollups]] - degree 12, connects to 3 communities
-- [[Prover-killer attack (high cycles-per-gas tx stalls ZK proof generation)]] - degree 7, connects to 2 communities
-- [[DA-saturation attack (data-heavy compute-light tx flooding L1 blob capacity)]] - degree 10, connects to 1 community
-- [[Ethereum]] - degree 4, connects to 1 community
-- [[Empirical evaluation on Scroll, Linea, zkSync Era, Arbitrum, Optimism, Base]] - degree 4, connects to 1 community
+- [[Privacy-Enhancing Technologies]] - degree 35, connects to 11 communities
+- [[Secure Multi-Party Computation (MPC)]] - degree 27, connects to 9 communities
+- [[Fully Homomorphic Encryption (FHE)]] - degree 19, connects to 6 communities
+- [[eIDAS 2.0]] - degree 13, connects to 5 communities
+- [[The Four Pillars]] - degree 14, connects to 4 communities

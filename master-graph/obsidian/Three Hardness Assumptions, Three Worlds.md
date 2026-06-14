@@ -1,12 +1,12 @@
 ---
 source_file: "wiki/sections/ch07-three-hardness-assumptions-three-worlds.md"
 type: "document"
-community: "Community 0"
+community: "Community 1"
 location: "Three Hardness Assumptions, Three Worlds"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Community_1
 ---
 
 # Three Hardness Assumptions, Three Worlds
@@ -31,4 +31,4 @@ tags:
 - [[The Quantum Threat Horizon]] - `references` [EXTRACTED]
 - [[The Trilemma -- And Its Dissolution]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/document #graphify/EXTRACTED #community/Community_1

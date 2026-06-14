@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-63-harvest-now-decrypt-later.pdf"
 type: "paper"
-community: "Community 48"
+community: "Community 91"
 location: "p.1 (title/abstract)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_48
+  - community/Community_91
 ---
 
 # "Harvest Now Decrypt Later": Examining Post-Quantum Cryptography and the Data Privacy Risks for Distributed Ledger Networks
@@ -20,4 +20,4 @@ tags:
 - [[Post-Quantum Cryptography]] - `references` [EXTRACTED]
 - [[Thesis PQC can protect DLT integritysecurity but cannot retroactively protect data privacy of past transactions against HNDL]] - `introduces` [INFERRED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_48
+#graphify/paper #graphify/EXTRACTED #community/Community_91

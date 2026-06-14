@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-10-fractal.pdf"
 type: "paper"
-community: "Community 6"
+community: "Community 52"
 location: "§1 Introduction; §1.2.3 ([BCTV14])"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_6
+  - community/Community_52
 ---
 
 # Prior efficient recursion approach using pairing-based SNARKs on cycles of pairing-friendly elliptic curves [BCTV14]
@@ -16,4 +16,4 @@ tags:
 - [[Preprocessing SNARK  SNARG (offline indexing produces a succinct verification key; verifier polylogarithmic in circuit size)]] - `assumes` [EXTRACTED]
 - [[Recursive Proof Composition]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_6
+#graphify/paper #graphify/EXTRACTED #community/Community_52

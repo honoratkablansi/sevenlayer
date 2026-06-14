@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 79"
+community: "Community 48"
 location: "Chapter 13"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_79
+  - community/Community_48
 ---
 
 # EU eIDAS 2.0 (digital identity wallets, 450M users)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Selective Disclosure]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_79
+#graphify/document #graphify/EXTRACTED #community/Community_48

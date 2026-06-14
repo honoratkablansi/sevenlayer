@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch01-the-deepest-question.md"
 type: "document"
-community: "Community 14"
+community: "Community 24"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_14
+  - community/Community_24
 ---
 
 # The Deepest Question
@@ -29,4 +29,4 @@ tags:
 - [[Trusted Setup Ceremony]] - `conceptually_related_to` [EXTRACTED]
 - [[Zcash]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_14
+#graphify/document #graphify/EXTRACTED #community/Community_24

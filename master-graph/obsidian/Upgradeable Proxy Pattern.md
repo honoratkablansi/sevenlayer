@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 71"
+community: "Community 101"
 location: "Chapter 8"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_71
+  - community/Community_101
 ---
 
 # Upgradeable Proxy Pattern
@@ -17,4 +17,4 @@ tags:
 - [[Meisami & Bodell Upgradeable Contract Survey (2023)]] - `cites` [EXTRACTED]
 - [[On-Chain Verifier]] - `explains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_71
+#graphify/document #graphify/EXTRACTED #community/Community_101

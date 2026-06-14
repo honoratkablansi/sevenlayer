@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch01/ref-03-sok-snark-vulnerabilities.pdf"
 type: "paper"
-community: "Community 106"
+community: "Community 107"
 location: "§5.1 V2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_106
+  - community/Community_107
 ---
 
 # Over-constrained circuit (rejects valid witnesses, causes DoS)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Circuit-layer vulnerabilities (99 bugs; most prevalent class)]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_106
+#graphify/paper #graphify/EXTRACTED #community/Community_107

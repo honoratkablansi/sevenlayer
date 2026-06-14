@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-20-latticefold.pdf"
 type: "paper"
-community: "Community 69"
+community: "Community 30"
 location: "§2.3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_69
+  - community/Community_30
 ---
 
 # B-Relaxed Binding of Ajtai Commitment
@@ -16,4 +16,4 @@ tags:
 - [[Strong Sampling Set]] - `assumes` [EXTRACTED]
 - [[Theorem 3.3 Folding Knowledge Soundness]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_69
+#graphify/paper #graphify/EXTRACTED #community/Community_30

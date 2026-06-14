@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch3/ref-72-ezkl-modulus-docs.md"
 type: "document"
-community: "Community 136"
+community: "Community 139"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_136
+  - community/Community_139
 ---
 
 # EZKL / Modulus Labs zkML systems documentation
@@ -15,4 +15,4 @@ tags:
 - [[ONNX-to-ZK-circuit compilation]] - `explains` [EXTRACTED]
 - [[ZKML (Zero-Knowledge Machine Learning)]] - `explains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_136
+#graphify/document #graphify/EXTRACTED #community/Community_139

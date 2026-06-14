@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch06-the-post-quantum-horizon.md"
 type: "document"
-community: "Community 62"
+community: "Community 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_62
+  - community/Community_1
 ---
 
 # The Post-Quantum Horizon
@@ -31,4 +31,4 @@ tags:
 - [[The Folding Genealogy]] - `references` [EXTRACTED]
 - [[The Laws That Break]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_62
+#graphify/document #graphify/EXTRACTED #community/Community_1

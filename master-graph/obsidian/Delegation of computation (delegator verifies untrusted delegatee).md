@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf"
 type: "paper"
-community: "Community 41"
+community: "Community 50"
 location: "§1 (Delegating Computation)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_41
+  - community/Community_50
 ---
 
 # Delegation of computation (delegator verifies untrusted delegatee)
@@ -20,4 +20,4 @@ tags:
 - [[Theorem 1.1 public-coin IP for O(log S)-space-uniform circuits; verifier npoly(d,log S) time, O(log S) space; prover poly(S); communication dpolylog(S)]] - `conceptually_related_to` [EXTRACTED]
 - [[Verifiable computation]] - `relates_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_41
+#graphify/paper #graphify/EXTRACTED #community/Community_50

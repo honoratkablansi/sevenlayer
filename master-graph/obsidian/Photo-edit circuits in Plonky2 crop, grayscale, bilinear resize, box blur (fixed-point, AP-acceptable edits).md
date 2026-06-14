@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-78-veritas.pdf"
 type: "paper"
-community: "Community 83"
+community: "Community 65"
 location: "§6.2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_83
+  - community/Community_65
 ---
 
 # Photo-edit circuits in Plonky2: crop, grayscale, bilinear resize, box blur (fixed-point, AP-acceptable edits)
@@ -16,4 +16,4 @@ tags:
 - [[PLONK]] - `assumes` [EXTRACTED]
 - [[VerITAS Verifying Image Transformations at Scale (Datta, Chen, Boneh, ePrint 20241066)]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_83
+#graphify/paper #graphify/EXTRACTED #community/Community_65

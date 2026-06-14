@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch09/ref-29-gentry-fhe.pdf"
 type: "paper"
-community: "Community 18"
+community: "Community 85"
 location: "§1.2, §3.4"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_18
+  - community/Community_85
 ---
 
 # Decisional CVP for ideal lattices in a fixed ring (bounded-distance decoding hardness underlying E1)
@@ -16,4 +16,4 @@ tags:
 - [[Ideal lattices (ideals of Zxf(x) as lattices; rotation basis)]] - `assumes` [EXTRACTED]
 - [[Somewhat-homomorphic scheme E1 over ideal lattices (ciphertext v+x; ring addmult mod B_Jpk)]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_18
+#graphify/paper #graphify/EXTRACTED #community/Community_85

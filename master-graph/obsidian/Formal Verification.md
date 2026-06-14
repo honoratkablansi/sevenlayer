@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 72"
+community: "Community 80"
 location: "Chapter 14"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_72
+  - community/Community_80
 ---
 
 # Formal Verification
@@ -19,4 +19,4 @@ tags:
 - [[Shipping an L1 zkEVM 2 The Security Foundations (Ethereum Foundation)]] - `references` [EXTRACTED]
 - [[The Three Frontiers (Performance, Security, Privacy)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_72
+#graphify/document #graphify/EXTRACTED #community/Community_80

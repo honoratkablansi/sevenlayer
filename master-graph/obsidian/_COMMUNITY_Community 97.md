@@ -1,27 +1,28 @@
 ---
 type: community
-cohesion: 0.23
-members: 12
+cohesion: 0.18
+members: 13
 ---
 
 # Community 97
 
-**Cohesion:** 0.23 - loosely connected
-**Members:** 12 nodes
+**Cohesion:** 0.18 - loosely connected
+**Members:** 13 nodes
 
 ## Members
-- [[Amicable Pairs]] - paper - references/snowball/recursion/ref-153-amicable-pairs-and-aliquot-cycles-for-elliptic-c.pdf
-- [[BN Curve]] - paper - references/snowball/book/ref-133-pairing-friendly-elliptic-curves-of-prime-order.pdf
-- [[Bilinear Pairing]] - document - proving-nothing.md
-- [[Circuit Satisfiability front ends compiling computer programs into arithmetic circuits  circuit-SAT instances]] - paper - references/recursion/ch1/ref-20-thaler-proofs-arguments-zk.pdf
-- [[Complex Multiplication (CM)]] - paper - references/recursion/ch1/ref-13-chiesa-chua-weidner-cycles.pdf
-- [[Dory]] - paper - references/snowball/book/ref-092-dory-efficient-transparent-arguments-for-gener.pdf
-- [[Elliptic Curve  Discrete Logarithm Problem]] - document - proving-nothing.md
-- [[Groth Short Pairing-Based NIZK]] - paper - references/snowball/book/ref-090-short-pairing-based-non-interactive-zero-knowled.pdf
-- [[Hierarchical Identity-Based Encryption (HIBE)]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
-- [[Progression-Free Sets]] - paper - references/snowball/book/ref-097-progression-free-sets-and-sublinear-pairing-base.pdf
-- [[Progression-Free Sets NIZK]] - paper - references/snowball/book/ref-097-progression-free-sets-and-sublinear-pairing-base.pdf
-- [[Weil Pairing]] - paper - references/snowball/book/ref-134-pairings-for-cryptographers.pdf
+- [['Large-Scale MPC Scaling Private Iris Code Uniqueness Checks to Millions of Users' — cited technical paper underpinning AMPC]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[AMPC infrastructure NVIDIA H100 GPUs (AWS p5.48xlarge, RDMA) running CUDA, ~50M pairwise comparisonssec; operated by FAU Erlangen, UC Berkeley RDI, Nethermind, KAIST, UTEC, UZurich]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[Anonymized Multi-Party Computation (AMPC) quantum-secure SMPC uniqueness service on encrypted iris-code fragments, revealing only a single matchno-match bit, never plaintext Hamming distances]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[Iris Biometrics]] - document - references/ch13/ref-59-world-whitepaper.pdf
+- [[Iris biometrics 1N uniqueness modality with FMR beyond 2.5e-14, randomly formed in gestation, stable, uncorrelated even between twinsown eyes]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[John Daugman iris recognition (1993, Gabor-wavelet IrisCode), foundational prior work for the Orb's iris algorithm]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[Orb hardware root of trust dual burned keys (NVIDIA Jetson SoC fuses + secure element), NIST-SP-800-108 KDF provisioning, dm-verity signed-firmware boot, on-chain Orb Registry]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[Personal Custody Package (PCP) irisface embeddings, raw images and AMPC fragments encrypted on the Orb with a user key, sent to the phone, then images deleted from the Orb]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[Presentation Attack Detection & liveness local challenge-response, passive liveness, thermal heat-signature check, contact-lens detection across multispectral sensors]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[Secure multi-party computation (SMPC) multiple independent nodes jointly check uniqueness over secret-shared, end-to-end encrypted fragments without any party seeing the data]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[The Orb high-security open-source multispectral IR camera issuing an AI-safe PoH credential via local on-device iris+face capture, livenessPAD, and signed iris code]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[Unique iris code frequency-based features extracted from iris texture via multi-scale Gabor wavelet filters with quantized phase response; matched by Hamming distance with masks]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[Uniqueness targetsclaims per-iris FMR 1e-6, billion-scale FMR ~1e-12, FNMR  5e-3; achieved FMR 2.25e-14 at ~1e-3 FNMR in pre-launch tests]] - paper - references/ch13/ref-59-world-whitepaper.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -31,30 +32,10 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 10 edges to [[_COMMUNITY_Community 5]]
-- 5 edges to [[_COMMUNITY_Community 22]]
-- 4 edges to [[_COMMUNITY_Community 31]]
-- 3 edges to [[_COMMUNITY_Community 36]]
-- 3 edges to [[_COMMUNITY_Community 65]]
-- 3 edges to [[_COMMUNITY_Community 28]]
-- 2 edges to [[_COMMUNITY_Community 15]]
-- 2 edges to [[_COMMUNITY_Community 32]]
-- 2 edges to [[_COMMUNITY_Community 50]]
-- 2 edges to [[_COMMUNITY_Community 64]]
-- 2 edges to [[_COMMUNITY_Community 3]]
-- 2 edges to [[_COMMUNITY_Community 90]]
-- 2 edges to [[_COMMUNITY_Community 75]]
-- 1 edge to [[_COMMUNITY_Community 130]]
-- 1 edge to [[_COMMUNITY_Community 132]]
-- 1 edge to [[_COMMUNITY_Community 7]]
-- 1 edge to [[_COMMUNITY_Community 88]]
-- 1 edge to [[_COMMUNITY_Community 35]]
-- 1 edge to [[_COMMUNITY_Community 2]]
-- 1 edge to [[_COMMUNITY_Community 85]]
+- 5 edges to [[_COMMUNITY_Community 89]]
 
 ## Top bridge nodes
-- [[Bilinear Pairing]] - degree 38, connects to 16 communities
-- [[Elliptic Curve  Discrete Logarithm Problem]] - degree 8, connects to 3 communities
-- [[Dory]] - degree 5, connects to 3 communities
-- [[Groth Short Pairing-Based NIZK]] - degree 5, connects to 3 communities
-- [[Circuit Satisfiability front ends compiling computer programs into arithmetic circuits  circuit-SAT instances]] - degree 5, connects to 2 communities
+- [[Anonymized Multi-Party Computation (AMPC) quantum-secure SMPC uniqueness service on encrypted iris-code fragments, revealing only a single matchno-match bit, never plaintext Hamming distances]] - degree 7, connects to 1 community
+- [[The Orb high-security open-source multispectral IR camera issuing an AI-safe PoH credential via local on-device iris+face capture, livenessPAD, and signed iris code]] - degree 6, connects to 1 community
+- [[Iris Biometrics]] - degree 3, connects to 1 community
+- [[Personal Custody Package (PCP) irisface embeddings, raw images and AMPC fragments encrypted on the Orb with a user key, sent to the phone, then images deleted from the Orb]] - degree 2, connects to 1 community

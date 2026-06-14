@@ -1,29 +1,29 @@
 ---
 type: community
-cohesion: 0.22
+cohesion: 0.18
 members: 14
 ---
 
 # Community 92
 
-**Cohesion:** 0.22 - loosely connected
+**Cohesion:** 0.18 - loosely connected
 **Members:** 14 nodes
 
 ## Members
-- [[ARGUZZ Testing zkVMs for Soundness and Completeness Bugs]] - paper - references/ch14/ref-61-arguzz.pdf
-- [[ARGUZZ first automated fuzzer for zkVM soundness & completeness bugs (7-step workflow)]] - paper - references/ch14/ref-61-arguzz.pdf
-- [[CIRCIL extended with inline-RISC-V-assembly custom functions (e.g. mulhsu) + circuit-to-Rust translation]] - paper - references/ch14/ref-61-arguzz.pdf
-- [[CIRCUZZ 23 metamorphic fuzzer for ZK pipelines (CIRCOMGNARKNOIR) via CIRCIL]] - paper - references/ch14/ref-61-arguzz.pdf
-- [[Efficient metamorphic-testing variant known expected output, k-safety, single padded trace]] - paper - references/ch14/ref-61-arguzz.pdf
-- [[FUZZTRUCTION  FUZZTRUCTION-NET 10,11 fault-injection-based fuzzing]] - paper - references/ch14/ref-61-arguzz.pdf
-- [[Fault Injection]] - document - references/ch14/ref-61-arguzz.pdf
-- [[Fuzzing  Metamorphic Testing]] - paper - references/ch14/ref-61-arguzz.pdf
-- [[MTZK 43 metamorphic testing of zero-knowledge compilers]] - paper - references/ch14/ref-61-arguzz.pdf
-- [[Metamorphic Testing]] - document - references/ch14/ref-61-arguzz.pdf
-- [[Product programs  hyperproperty (k-safety) reasoning 12,13,20,41]] - paper - references/ch14/ref-61-arguzz.pdf
-- [[Product-program metamorphic oracle merge k equivalent Rust fns; SUCCESS (0xC0FFEE) vs OOPS (0x0)]] - paper - references/ch14/ref-61-arguzz.pdf
-- [[RISC-V CPU fuzzers 25,29,40,44 (DifuzzRTL, TheHuzz, Cascade, MorFuzz)]] - paper - references/ch14/ref-61-arguzz.pdf
-- [[Semantics-preserving rewrite rules (commassocdistribDe Morgan; field-arith rules disabled)]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Canetti-Goldreich-Halevi CGH04 The random oracle methodology, revisited - RO-uninstantiable primitives; diagonalization basis of attack]] - paper - references/recursion/ch1/ref-11-khovratovich-fiat-shamir-attacks.pdf
+- [[Definition 6 adaptive soundness of FS_h(Pi_{comm,d}); adversary given spec of h and comm outputs (C,x,y,pi) with C(x,w)!=y yet verifier accepts]] - paper - references/recursion/ch1/ref-11-khovratovich-fiat-shamir-attacks.pdf
+- [[Diagonalization-based uninstantiability craft a self-referential prover message yielding a favorable verifier challenge (CGH04 lineage; Kleene recursion  quines)]] - paper - references/recursion/ch1/ref-11-khovratovich-fiat-shamir-attacks.pdf
+- [[Extractor Blowup with Recursion Depth]] - document - recursion/recursion-outline.md
+- [[Goldwasser-Kalai-Rothblum GKR15 Delegating computation interactive proofs for Muggles - the GKR protocol]] - paper - references/recursion/ch1/ref-11-khovratovich-fiat-shamir-attacks.pdf
+- [[Khovratovich-Rothblum-Soukhanov How to Prove False Statements - Practical Attacks on Fiat-Shamir (ePrint 2025118)]] - paper - references/recursion/ch1/ref-11-khovratovich-fiat-shamir-attacks.pdf
+- [[Multilinear polynomial commitment scheme (MLPCS) short commitment to a multilinear polynomial with succinct evaluation proofs]] - paper - references/recursion/ch1/ref-11-khovratovich-fiat-shamir-attacks.pdf
+- [[Polyhedra Network Expander Pol24 - deployed GKR-based system affected; authors notified designers, mitigations introduced]] - paper - references/recursion/ch1/ref-11-khovratovich-fiat-shamir-attacks.pdf
+- [[Prior FS uninstantiability counterexamples Barak Bar01, Goldwasser-Kalai GK03, and Bartusek et al. BBH+19 On the (in)security of Kilian-based SNARGs]] - paper - references/recursion/ch1/ref-11-khovratovich-fiat-shamir-attacks.pdf
+- [[Protocol Pi_{comm,d} GKR + MLPCS succinct argument for non-deterministic depth-d circuit C(x,w)=y; FS-compiled as FS_h(Pi_{comm,d}); challenge r=h(C,x,y,alpha)]] - paper - references/recursion/ch1/ref-11-khovratovich-fiat-shamir-attacks.pdf
+- [[Recursive composition prior work Valiant Val08 IVC, Bitansky-Canetti-Chiesa-Tromer BCCT13 PCD, Ben-Sasson-Chiesa-Tromer-Virza BCTV14 cycles of elliptic curves]] - paper - references/recursion/ch1/ref-11-khovratovich-fiat-shamir-attacks.pdf
+- [[Theorem 10 (informal) universal GKR circuit unsound for any additively-homomorphic commitment (EC or lattice) since comm(w)=comm(wC)+comm(win); also batched FRI]] - paper - references/recursion/ch1/ref-11-khovratovich-fiat-shamir-attacks.pdf
+- [[Theorem 9 family T'(N,M) unsound for any commitment with sub-input-size code and any hash; uses an f-quine (Lemma 8, p=f+c via Kleene recursion) passed as witness; commitment-independent]] - paper - references/recursion/ch1/ref-11-khovratovich-fiat-shamir-attacks.pdf
+- [[Universal Computation Attack (§4) fixed circuits independent of crypto primitives via universal Turing machine circuit and quines; violates non-adaptive soundness]] - paper - references/recursion/ch1/ref-11-khovratovich-fiat-shamir-attacks.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -33,16 +33,17 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 5 edges to [[_COMMUNITY_Community 78]]
-- 3 edges to [[_COMMUNITY_Community 88]]
-- 2 edges to [[_COMMUNITY_Community 15]]
-- 2 edges to [[_COMMUNITY_Community 2]]
-- 1 edge to [[_COMMUNITY_Community 125]]
-- 1 edge to [[_COMMUNITY_Community 14]]
+- 4 edges to [[_COMMUNITY_Community 126]]
+- 3 edges to [[_COMMUNITY_Community 70]]
+- 3 edges to [[_COMMUNITY_Community 13]]
+- 2 edges to [[_COMMUNITY_Community 122]]
+- 2 edges to [[_COMMUNITY_Community 3]]
+- 1 edge to [[_COMMUNITY_Community 52]]
+- 1 edge to [[_COMMUNITY_Community 0]]
 
 ## Top bridge nodes
-- [[ARGUZZ Testing zkVMs for Soundness and Completeness Bugs]] - degree 8, connects to 4 communities
-- [[ARGUZZ first automated fuzzer for zkVM soundness & completeness bugs (7-step workflow)]] - degree 13, connects to 3 communities
-- [[Fault Injection]] - degree 5, connects to 1 community
-- [[Product-program metamorphic oracle merge k equivalent Rust fns; SUCCESS (0xC0FFEE) vs OOPS (0x0)]] - degree 3, connects to 1 community
-- [[Fuzzing  Metamorphic Testing]] - degree 2, connects to 1 community
+- [[Khovratovich-Rothblum-Soukhanov How to Prove False Statements - Practical Attacks on Fiat-Shamir (ePrint 2025118)]] - degree 12, connects to 4 communities
+- [[Protocol Pi_{comm,d} GKR + MLPCS succinct argument for non-deterministic depth-d circuit C(x,w)=y; FS-compiled as FS_h(Pi_{comm,d}); challenge r=h(C,x,y,alpha)]] - degree 6, connects to 2 communities
+- [[Extractor Blowup with Recursion Depth]] - degree 3, connects to 2 communities
+- [[Diagonalization-based uninstantiability craft a self-referential prover message yielding a favorable verifier challenge (CGH04 lineage; Kleene recursion  quines)]] - degree 3, connects to 1 community
+- [[Multilinear polynomial commitment scheme (MLPCS) short commitment to a multilinear polynomial with succinct evaluation proofs]] - degree 3, connects to 1 community

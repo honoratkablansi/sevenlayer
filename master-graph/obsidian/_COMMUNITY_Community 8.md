@@ -1,62 +1,59 @@
 ---
 type: community
-cohesion: 0.07
-members: 47
+cohesion: 0.09
+members: 44
 ---
 
 # Community 8
 
-**Cohesion:** 0.07 - loosely connected
-**Members:** 47 nodes
+**Cohesion:** 0.09 - loosely connected
+**Members:** 44 nodes
 
 ## Members
-- [[(2k-1)-Move Special-Sound Protocol with Algebraic Verifier]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Accumulation Scheme (P_acc, V_acc, D) for NARK Verifier with Slack mu and Error Commitment E]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Accumulation schemes BCMS20, BCL+21 recursive proof composition  PCD without succinct arguments; introduced accumulation term and k-folding]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
-- [[BCLMS21 'PCD Without Succinct Arguments' (cited, accumulation-IVC compiler  Theorem 1)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Branched-Gate Caching for Non-Uniform Error Terms (cost ~ C_pc not sum C_i)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[CVPi_sps High-Degree Verifier Compression (l checks - 1 degree-(d+2) check + 2 sqrt(l) degree-2 checks)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Circuit Selection Sub-Protocol Pi_select (program-counter one-hot, degree 2)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Claim 4.4 F(X) (degree log n, sum of length n) computable in O(n) field ops via binary-tree edge-labeling recursion]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
-- [[Claim 4.5 G(X) (degree dk) computable in O(dk log(dk)M + dknC) F-multiplications via FFTIFFT]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
-- [[Commit-and-Open Transform cmPi_sps (Lemma 2)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Corollary 1 Protostar Prover Cost (recursive circuit = 3 group scalar mults + hash of d field elements)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Cross Error-Correcting Terms e_j_{j=1}{d-1} as Accumulation Proof]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Folding many accumulators (§5) transpose sumcheck technique to fold k accumulators by linearly combining beta_j; prover O(kdM+nkdC)]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
-- [[Folding template additively homomorphic vector commitments; verifier randomly combines witness commitments, prover combines witnesses]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
-- [[Generic AccumulationFolding Compiler for Special-Sound Protocols (4-step workflow)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[High-Degree Custom Gate Relation Sub-Protocol Pi_GATE (degree d)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Homomorphic  Trapdoor Commitment Property]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[Homomorphic Sparse Error-Commitment Update for Lookups (O(l) indep. of T)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[HyperNova Folding Scheme KS23 (cited, concurrent CCS multi-folding)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[HyperNova KS23 folding via randomized sumcheck; verifier d log n field ops, log n RO hashes]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
-- [[IVC Val08 and PCD CT10 original motivation for folding schemes]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
-- [[Lemma 3.2 special-soundness for R' (collision-augmented relation) implies knowledge-soundness with negl error for R]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
-- [[Lemma 4.2 f(sum a_i L_i(X)) = sum f(a_i) L_i(X) + Z(X) Q(X) (polynomials commute mod Z with Lagrange multiplication)]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
-- [[Log-Derivative Lookup Argument (Habock)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Lookup Relation Sub-Protocol Pi_LK (3-move, degree 2, prover indep. of table size T)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Multi-instance (k-)folding folding k instances in one folding operation]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
-- [[Nova Folding Scheme KST22 (cited, R1CS k=1 d=2 case)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Nova KST21 recursive ZK arguments from folding; R_acc = relaxed committed R1CS]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
-- [[Permutation Relation Sub-Protocol Pi_sigma (degree 1)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[ProtoGalaxy Efficient ProtoStar-style folding of multiple instances (Eagen & Gabizon, ePrint 20231106)]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
-- [[Protostar Generic Efficient AccumulationFolding for Special-sound Protocols]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Protostar Non-Uniform IVC Scheme for Multi-Circuit Plonkup R_mplkup]] - paper - references/ch06/ref-19-protostar.pdf
-- [[RO-NARK FScmPi_sps from Special-Sound Protocol]] - paper - references/ch06/ref-19-protostar.pdf
-- [[R_rand relation randomized relaxed relation with ((phi,beta,e),omega) s.t. sum_i pow_i(beta) f_i(omega)=e]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
-- [[Relaxed Algebraic Verifier Predicate sum mu(d-j) f_j = e]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Sublinear recursive verifier marginal work log n field ops + O(1) hashes; constant per-instance ops for constant-degree gates]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
-- [[Sumcheck-Style Error-Term Computation Algorithm O(d2 log d)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[SuperNova KS22 (cited, non-uniform IVC predecessor)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Theorem 2 Accumulation Knowledge Soundness (d+1)-special-sound, error (Q+1)(d+1)F]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Theorem 3 IVC for High-Degree Special-Sound Protocols (recursive circuit k+d-1 or k+2 scalar mults)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Theorem 4.3 ProtoGalaxy is an (Rk - R_rand) accumulationfolding scheme (complete and knowledge-sound)]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
-- [[Transition from monomial to Lagrange base associate each folded instance with a distinct Lagrange coefficient L_i(X)]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
-- [[Vanishing polynomial Z(X) of subgroup H; decomposition G(X)=F(alpha)L_0(X)+Z(X)K(X) avoids exponentially growing degree]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
-- [[Vector-Valued Lookup Sub-Protocol Pi_VLK (5-move, degree 3)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[AFK22 Attema, Fehr, Klooss Fiat-Shamir transformation of multi-round interactive proofs (special-soundness - NIROM knowledge-soundness)]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
-- [[pow_i polynomial and powers-of-beta vector; ProtoGalaxy avoids committing to the power vector (unlike ProtoStar)]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
-- [[§5 alternative construction for large k replace mod-Z(X) vanishing check with a sumcheck over a size-k domain; verifier O(log n + d log k) ops, log k hashes]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
+- [[Amicable Pairs]] - paper - references/snowball/recursion/ref-153-amicable-pairs-and-aliquot-cycles-for-elliptic-c.pdf
+- [[BN Curve]] - paper - references/snowball/book/ref-133-pairing-friendly-elliptic-curves-of-prime-order.pdf
+- [[Barreto & Naehrig BN05 - prime-order curves with k=12 (discriminant D=3)]] - paper - references/recursion/ch1/ref-13-chiesa-chua-weidner-cycles.pdf
+- [[Ben-Sasson, Chiesa, Tromer, Virza BCTV14 - introduced pairing-friendly cycles for recursive SNARK composition]] - paper - references/recursion/ch1/ref-13-chiesa-chua-weidner-cycles.pdf
+- [[Ben-Sasson, Chiesa, Tromer, Virza Scalable Zero Knowledge via cycles of elliptic curves 4]] - paper - references/recursion/ch1/ref-05-halo.pdf
+- [[Bilinear Pairing]] - document - proving-nothing.md
+- [[CM discriminant D  complex multiplication method]] - paper - references/recursion/ch1/ref-13-chiesa-chua-weidner-cycles.pdf
+- [[Chiesa, Chua & Weidner, On Cycles of Pairing-Friendly Elliptic Curves (2019)]] - paper - references/recursion/ch1/ref-13-chiesa-chua-weidner-cycles.pdf
+- [[Cited Ben-Sasson-Chiesa-Tromer-Virza, Scalable ZK via cycles of elliptic curves (CRYPTO 2014)]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
+- [[Complex Multiplication (CM)]] - paper - references/recursion/ch1/ref-13-chiesa-chua-weidner-cycles.pdf
+- [[Construction of a new pairing-friendly 4-cycle of MNT curves]] - paper - references/recursion/ch1/ref-13-chiesa-chua-weidner-cycles.pdf
+- [[Cycles of Elliptic Curves]] - document - references/ch06/ref-17-nova.pdf
+- [[Cyclotomic polynomial characterization of embedding degree (n  Phi_k(q))]] - paper - references/recursion/ch1/ref-13-chiesa-chua-weidner-cycles.pdf
+- [[Definition pairing-friendly (k1,...,km)-cycle of ordinary curves with small embedding degrees]] - paper - references/recursion/ch1/ref-13-chiesa-chua-weidner-cycles.pdf
+- [[Distortion map phi(x,y)-(-x,Zy) giving symmetric pairing]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[Dual elliptic primes equivalent to 2-cycles of ordinary curves (Prop. 10)]] - paper - references/recursion/ch1/ref-13-chiesa-chua-weidner-cycles.pdf
+- [[Elliptic Curve  Discrete Logarithm Problem]] - document - proving-nothing.md
+- [[Elliptic Curve Cryptography]] - paper - references/snowball/book/ref-106-a-taxonomy-of-pairing-friendly-elliptic-curves.pdf
+- [[Embedding degree k]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[Field mismatch (q != r forced by embedding degree)]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
+- [[Freeman Fre06 - prime-order curve family with k=10]] - paper - references/recursion/ch1/ref-13-chiesa-chua-weidner-cycles.pdf
+- [[Grobner-basis investigation no mixed MNTFreemanBN cycles of length =4 beyond Prop. 2]] - paper - references/recursion/ch1/ref-13-chiesa-chua-weidner-cycles.pdf
+- [[Groth Short Pairing-Based NIZK]] - paper - references/snowball/book/ref-090-short-pairing-based-non-interactive-zero-knowled.pdf
+- [[Hierarchical Identity-Based Encryption (HIBE)]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[Lemma 4 sum of traces of an m-cycle equals m (necessary condition)]] - paper - references/recursion/ch1/ref-13-chiesa-chua-weidner-cycles.pdf
+- [[MNT curves (embedding degrees 4 and 6)]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
+- [[Menezes, Okamoto & Vanstone MOV93 - MOV reduction; supersingular embedding degree = 6]] - paper - references/recursion/ch1/ref-13-chiesa-chua-weidner-cycles.pdf
+- [[Miyaji, Nakabayashi & Takano MNT01 - characterization of prime-order curves with k=3,4,6]] - paper - references/recursion/ch1/ref-13-chiesa-chua-weidner-cycles.pdf
+- [[Nguyen, Boneh, Setty, Revisiting the Nova Proof System on a Cycle of Curves (ePrint 2023969)]] - document - recursion/recursion-outline.md
+- [[Nguyen-Boneh-Setty Bug Study]] - document - recursion/recursion-outline.md
+- [[Non-native (wrong-field) arithmetic]] - paper - references/recursion/ch1/ref-30-cyclefold.pdf
+- [[Pairing-friendly elliptic curves]] - paper - references/recursion/ch1/ref-13-chiesa-chua-weidner-cycles.pdf
+- [[Prop. 2 all MNT cycles have length 2 or 4, alternating embedding degrees (6,4) or (6,4,6,4)]] - paper - references/recursion/ch1/ref-13-chiesa-chua-weidner-cycles.pdf
+- [[Prop. 3 no (5,10)-, (8,8)-, or (12,12)-cycles exist (deg Phi_k = 4 case)]] - paper - references/recursion/ch1/ref-13-chiesa-chua-weidner-cycles.pdf
+- [[Prop. 5 m-cycle of curves with fixed discriminant D3 has m=2 (D=3 gives m=6)]] - paper - references/recursion/ch1/ref-13-chiesa-chua-weidner-cycles.pdf
+- [[Prop. 7 no m-cycles (m1) with nontrivial cofactors for large q (composite-order cycles cannot exist)]] - paper - references/recursion/ch1/ref-13-chiesa-chua-weidner-cycles.pdf
+- [[Props. 8-9 no cycles consisting only of Freeman (k=10) or only of Barreto-Naehrig (k=12) curves]] - paper - references/recursion/ch1/ref-13-chiesa-chua-weidner-cycles.pdf
+- [[Quarantine of foreign-field EC group ops to native circuit on E2]] - paper - references/recursion/ch1/ref-30-cyclefold.pdf
+- [[Silverman & Stange SS11 - aliquot cycles of elliptic curves, existence Prop. 1]] - paper - references/recursion/ch1/ref-13-chiesa-chua-weidner-cycles.pdf
+- [[Supersingular elliptic curve]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[Supersingular k=2 curve construction p=hN-1, E y2=x3-x]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[Tate pairing]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[Tate pairing on composite-order supersingular curve (Alg.2)]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[Weil Pairing]] - paper - references/snowball/book/ref-134-pairings-for-cryptographers.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -66,20 +63,38 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 14 edges to [[_COMMUNITY_Community 1]]
-- 6 edges to [[_COMMUNITY_Community 9]]
-- 3 edges to [[_COMMUNITY_Community 37]]
-- 3 edges to [[_COMMUNITY_Community 25]]
+- 8 edges to [[_COMMUNITY_Community 11]]
+- 7 edges to [[_COMMUNITY_Community 16]]
+- 7 edges to [[_COMMUNITY_Community 25]]
+- 6 edges to [[_COMMUNITY_Community 39]]
+- 6 edges to [[_COMMUNITY_Community 13]]
+- 5 edges to [[_COMMUNITY_Community 42]]
+- 4 edges to [[_COMMUNITY_Community 47]]
+- 3 edges to [[_COMMUNITY_Community 22]]
+- 3 edges to [[_COMMUNITY_Community 121]]
+- 2 edges to [[_COMMUNITY_Community 20]]
+- 2 edges to [[_COMMUNITY_Community 41]]
+- 2 edges to [[_COMMUNITY_Community 57]]
+- 2 edges to [[_COMMUNITY_Community 1]]
 - 2 edges to [[_COMMUNITY_Community 62]]
-- 2 edges to [[_COMMUNITY_Community 28]]
-- 2 edges to [[_COMMUNITY_Community 66]]
-- 2 edges to [[_COMMUNITY_Community 50]]
-- 1 edge to [[_COMMUNITY_Community 15]]
+- 2 edges to [[_COMMUNITY_Community 15]]
+- 2 edges to [[_COMMUNITY_Community 29]]
+- 2 edges to [[_COMMUNITY_Community 32]]
+- 2 edges to [[_COMMUNITY_Community 6]]
+- 2 edges to [[_COMMUNITY_Community 49]]
+- 1 edge to [[_COMMUNITY_Community 17]]
+- 1 edge to [[_COMMUNITY_Community 12]]
+- 1 edge to [[_COMMUNITY_Community 2]]
+- 1 edge to [[_COMMUNITY_Community 63]]
+- 1 edge to [[_COMMUNITY_Community 35]]
+- 1 edge to [[_COMMUNITY_Community 131]]
 - 1 edge to [[_COMMUNITY_Community 0]]
+- 1 edge to [[_COMMUNITY_Community 108]]
+- 1 edge to [[_COMMUNITY_Community 44]]
 
 ## Top bridge nodes
-- [[Protostar Generic Efficient AccumulationFolding for Special-sound Protocols]] - degree 18, connects to 8 communities
-- [[(2k-1)-Move Special-Sound Protocol with Algebraic Verifier]] - degree 14, connects to 3 communities
-- [[Protostar Non-Uniform IVC Scheme for Multi-Circuit Plonkup R_mplkup]] - degree 11, connects to 2 communities
-- [[Accumulation Scheme (P_acc, V_acc, D) for NARK Verifier with Slack mu and Error Commitment E]] - degree 7, connects to 2 communities
-- [[Homomorphic  Trapdoor Commitment Property]] - degree 6, connects to 2 communities
+- [[Bilinear Pairing]] - degree 43, connects to 17 communities
+- [[Cycles of Elliptic Curves]] - degree 40, connects to 11 communities
+- [[Groth Short Pairing-Based NIZK]] - degree 5, connects to 4 communities
+- [[Elliptic Curve  Discrete Logarithm Problem]] - degree 8, connects to 3 communities
+- [[MNT curves (embedding degrees 4 and 6)]] - degree 11, connects to 2 communities

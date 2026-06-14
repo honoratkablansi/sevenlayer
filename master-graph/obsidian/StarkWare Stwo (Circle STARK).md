@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 122"
+community: "Community 120"
 location: "Chapter 10"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_122
+  - community/Community_120
 ---
 
 # StarkWare Stwo (Circle STARK)
@@ -15,4 +15,4 @@ tags:
 - [[Path One Hybrid STARK-to-SNARK Pipeline]] - `references` [EXTRACTED]
 - [[Small Fields (BabyBear, Mersenne-31)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_122
+#graphify/document #graphify/EXTRACTED #community/Community_120

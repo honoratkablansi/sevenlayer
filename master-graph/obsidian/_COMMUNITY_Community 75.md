@@ -1,32 +1,33 @@
 ---
 type: community
-cohesion: 0.13
-members: 17
+cohesion: 0.16
+members: 18
 ---
 
 # Community 75
 
-**Cohesion:** 0.13 - loosely connected
-**Members:** 17 nodes
+**Cohesion:** 0.16 - loosely connected
+**Members:** 18 nodes
 
 ## Members
-- [[Ben-Sasson, Chiesa, Tromer, Virza Scalable Zero Knowledge via cycles of elliptic curves 4]] - paper - references/recursion/ch1/ref-05-halo.pdf
-- [[Cited Ben-Sasson-Chiesa-Tromer-Virza, Scalable ZK via cycles of elliptic curves (CRYPTO 2014)]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
-- [[Compatibility Hell (cross-layer alignment)]] - document - recursion/recursion-outline.md
-- [[Cycles of Elliptic Curves]] - document - references/ch06/ref-17-nova.pdf
-- [[Dual elliptic primes equivalent to 2-cycles of ordinary curves (Prop. 10)]] - paper - references/recursion/ch1/ref-13-chiesa-chua-weidner-cycles.pdf
-- [[Field-Mismatch Problem (base vs scalar field)]] - document - recursion/recursion-outline.md
-- [[Full Recursion (in-circuit verifier embedding)]] - document - recursion/recursion-outline.md
-- [[Half-pairing cycle (e.g., BN254Grumpkin)]] - paper - references/recursion/ch1/ref-30-cyclefold.pdf
-- [[Nguyen, Boneh, Setty, Revisiting the Nova Proof System on a Cycle of Curves (ePrint 2023969)]] - document - recursion/recursion-outline.md
-- [[Nguyen-Boneh-Setty Bug Study]] - document - recursion/recursion-outline.md
-- [[Non-native (wrong-field) arithmetic]] - paper - references/recursion/ch1/ref-30-cyclefold.pdf
-- [[Prop. 7 no m-cycles (m1) with nontrivial cofactors for large q (composite-order cycles cannot exist)]] - paper - references/recursion/ch1/ref-13-chiesa-chua-weidner-cycles.pdf
-- [[Quarantine of foreign-field EC group ops to native circuit on E2]] - paper - references/recursion/ch1/ref-30-cyclefold.pdf
-- [[Silverman & Stange SS11 - aliquot cycles of elliptic curves, existence Prop. 1]] - paper - references/recursion/ch1/ref-13-chiesa-chua-weidner-cycles.pdf
-- [[Tiny co-processor circuit C_EC on second curve (~1000-1500 gates)]] - paper - references/recursion/ch1/ref-30-cyclefold.pdf
-- [[Verifiable delegation of scalar multiplication + point addition]] - paper - references/recursion/ch1/ref-30-cyclefold.pdf
-- [[Worked Intuition the Proof of a Proof]] - document - recursion/recursion-outline.md
+- [[Automated translation layer compiling TensorFlow Lite models into halo2 circuits (columngate minimization, lookup-table sharing)]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[Evaluation claim ImageNet-scale MobileNet v2 SNARKs up to 79.2% top-5 accuracy; 10x-1000x lower proving time than prior work (Zen, vCNN, pvCNN, zkCNN)]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[Groth16  R1CS arithmetization (Groth 2016; Gennaro et al. 2013) older pairing-based SNARK + R1CS used by prior DNN-SNARK work (e.g. Zen)]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[MobileNet v2 (Sandler et al. 2018) inverted-residual CNN architecture used as the proved model]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[Neural-network arithmetization translating CNN layers (convolution, batchnorm, ReLU, residual, fully-connected) into ZK-SNARK arithmetic-circuit constraints]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[Optimization 1 lookup arguments for non-linearities (fused ClipAndScale division + ReLU) sharing one lookup table across layers]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[Optimization 2 sub-circuit reuse across layers via two shared custom gates (addition and dot-product with zero point) and shared lookup tables]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[Plonkup  Plonkish Circuit-Satisfiability Relation]] - paper - references/ch06/ref-19-protostar.pdf
+- [[Proof of model provenance committing to hidden weights via a SNARK-friendly hash so a provider can prove it ran a specific committed model]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[Proof-of-inference first ImageNet-scale ZK-SNARK proof of valid DNN inference (MobileNet v2), 79% top-5 accuracy, verifiable in ~10s]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[Protocol for verifying MLaaS model accuracy with hidden weights, using ZK-SNARKs plus stakingescrow economic incentives]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[Protocol for verifying MLaaS predictions in rounds, with random-contest sampling so a ZK-SNARK is not needed for every prediction]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[Sangria Moh23 (cited, Plonk degree-2 folding)]] - paper - references/ch06/ref-19-protostar.pdf
+- [[Scaling up Trustless DNN Inference with Zero-Knowledge Proofs (Kang, Hashimoto, Stoica, Sun, 2022)]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[Secure ML via MPC  homomorphic encryption  interactive proofs (Ghodsi SafetyNets 2017, Mohassel SecureML 2017, Knott CrypTen 2021, GAZELLE, Delphi) impractical against malicious adversaries o_cb9fbadd]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[Trustless retrieval ZK-SNARK protocol for returning documents matching an ML-encoded predicate (FOIA  legal-discovery use cases)]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[Use of the SNARK-friendly Poseidon hash to commit to hidden inputs andor weights inside the circuit]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[int8uint8 quantization with fixed-point (ab) scale approximation to avoid floating-point emulation in the prime field]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -36,27 +37,15 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 8 edges to [[_COMMUNITY_Community 1]]
-- 8 edges to [[_COMMUNITY_Community 65]]
-- 3 edges to [[_COMMUNITY_Community 23]]
-- 3 edges to [[_COMMUNITY_Community 90]]
-- 3 edges to [[_COMMUNITY_Community 51]]
-- 2 edges to [[_COMMUNITY_Community 97]]
-- 2 edges to [[_COMMUNITY_Community 33]]
-- 2 edges to [[_COMMUNITY_Community 38]]
-- 2 edges to [[_COMMUNITY_Community 43]]
-- 1 edge to [[_COMMUNITY_Community 13]]
-- 1 edge to [[_COMMUNITY_Community 28]]
-- 1 edge to [[_COMMUNITY_Community 16]]
-- 1 edge to [[_COMMUNITY_Community 107]]
-- 1 edge to [[_COMMUNITY_Community 130]]
-- 1 edge to [[_COMMUNITY_Community 68]]
-- 1 edge to [[_COMMUNITY_Community 88]]
-- 1 edge to [[_COMMUNITY_Community 14]]
+- 4 edges to [[_COMMUNITY_Community 81]]
+- 4 edges to [[_COMMUNITY_Community 88]]
+- 3 edges to [[_COMMUNITY_Community 79]]
+- 2 edges to [[_COMMUNITY_Community 5]]
+- 2 edges to [[_COMMUNITY_Community 76]]
 
 ## Top bridge nodes
-- [[Cycles of Elliptic Curves]] - degree 40, connects to 15 communities
-- [[Tiny co-processor circuit C_EC on second curve (~1000-1500 gates)]] - degree 5, connects to 2 communities
-- [[Compatibility Hell (cross-layer alignment)]] - degree 3, connects to 1 community
-- [[Full Recursion (in-circuit verifier embedding)]] - degree 3, connects to 1 community
-- [[Nguyen-Boneh-Setty Bug Study]] - degree 3, connects to 1 community
+- [[Scaling up Trustless DNN Inference with Zero-Knowledge Proofs (Kang, Hashimoto, Stoica, Sun, 2022)]] - degree 16, connects to 4 communities
+- [[Plonkup  Plonkish Circuit-Satisfiability Relation]] - degree 6, connects to 2 communities
+- [[Proof-of-inference first ImageNet-scale ZK-SNARK proof of valid DNN inference (MobileNet v2), 79% top-5 accuracy, verifiable in ~10s]] - degree 6, connects to 2 communities
+- [[Evaluation claim ImageNet-scale MobileNet v2 SNARKs up to 79.2% top-5 accuracy; 10x-1000x lower proving time than prior work (Zen, vCNN, pvCNN, zkCNN)]] - degree 3, connects to 1 community
+- [[Use of the SNARK-friendly Poseidon hash to commit to hidden inputs andor weights inside the circuit]] - degree 3, connects to 1 community

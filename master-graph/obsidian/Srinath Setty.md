@@ -1,12 +1,12 @@
 ---
 source_file: "wiki/sections/ch02-the-quantum-shelf-life.md"
 type: "document"
-community: "Community 14"
+community: "Community 24"
 location: "Entities"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_14
+  - community/Community_24
 ---
 
 # Srinath Setty
@@ -20,4 +20,4 @@ tags:
 - [[The Seven Questions That Remain Open]] - `references` [EXTRACTED]
 - [[The Sumcheck Protocol The Hidden Foundation]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_14
+#graphify/document #graphify/EXTRACTED #community/Community_24

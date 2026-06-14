@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 1"
+community: "Community 22"
 location: "Chapter 5"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_1
+  - community/Community_22
 ---
 
 # Folding Scheme
@@ -28,6 +28,7 @@ tags:
 - [[Committed relaxed R1CS over the ring R = F1 x F2 (binding, additively-homomorphic, succinct commitments)]] - `conceptually_related_to` [EXTRACTED]
 - [[Cycles of Elliptic Curves]] - `conceptually_related_to` [INFERRED]
 - [[Encoding the Performance]] - `references` [EXTRACTED]
+- [[Fiat-Shamir Transform]] - `uses` [EXTRACTED]
 - [[Fiat-Shamir verification key vk = H(pp, R1CS) must enter every random-oracle call to preserve folding-verifier soundness]] - `assumes` [EXTRACTED]
 - [[Folding Scheme for Committed Relaxed R1CS (Construction 1)]] - `conceptually_related_to` [EXTRACTED]
 - [[Folding template additively homomorphic vector commitments; verifier randomly combines witness commitments, prover combines witnesses]] - `conceptually_related_to` [EXTRACTED]
@@ -41,6 +42,7 @@ tags:
 - [[HyperNova (CRYPTO'24)]] - `conceptually_related_to` [EXTRACTED]
 - [[HyperNova Recursive Arguments for Customizable Constraint Systems]] - `conceptually_related_to` [EXTRACTED]
 - [[IVC Val08 and PCD CT10 original motivation for folding schemes]] - `conceptually_related_to` [EXTRACTED]
+- [[IVC via Homomorphic Commitments (Nova  Folding)]] - `uses` [EXTRACTED]
 - [[Incrementally Verifiable Computation (IVC)]] - `uses` [EXTRACTED]
 - [[Knowledge-Soundness]] - `conceptually_related_to` [EXTRACTED]
 - [[Kothapalli, Setty — HyperNova recursive arguments for customizable constraint systems (2023) 10]] - `cites` [EXTRACTED]
@@ -78,6 +80,7 @@ tags:
 - [[Open Questions and the Road Ahead]] - `references` [EXTRACTED]
 - [[PLONK]] - `defines` [EXTRACTED]
 - [[Path Three Post-Quantum Folding]] - `conceptually_related_to` [EXTRACTED]
+- [[Polynomial Commitment Scheme]] - `uses` [EXTRACTED]
 - [[Proof-Carrying Data (PCD)]] - `uses` [EXTRACTED]
 - [[Proofs, Arguments, and Zero-Knowledge (Justin Thaler, survey textbook)]] - `explains` [EXTRACTED]
 - [[ProtoGalaxy (Multi-Instance Folding)]] - `conceptually_related_to` [EXTRACTED]
@@ -125,4 +128,4 @@ tags:
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 - [[zkVMs Across the Stack]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_1
+#graphify/document #graphify/EXTRACTED #community/Community_22

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-35-coda.pdf"
 type: "paper"
-community: "Community 56"
+community: "Community 46"
 location: "§3.5"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_56
+  - community/Community_46
 ---
 
 # Theorem 2: Circuit Evaluation Type Preservation
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Theorem 1 Expression Type Preservation (soundness)]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_56
+#graphify/paper #graphify/EXTRACTED #community/Community_46

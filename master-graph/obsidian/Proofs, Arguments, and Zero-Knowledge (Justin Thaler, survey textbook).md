@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-20-thaler-proofs-arguments-zk.pdf"
 type: "paper"
-community: "Community 28"
+community: "Community 15"
 location: "title/Introduction (ch 1)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_28
+  - community/Community_15
 ---
 
 # Proofs, Arguments, and Zero-Knowledge (Justin Thaler, survey textbook)
@@ -32,4 +32,4 @@ tags:
 - [[Schwartz-Zippel Lemma]] - `explains` [EXTRACTED]
 - [[Sum-Check Protocol]] - `explains` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_28
+#graphify/paper #graphify/EXTRACTED #community/Community_15

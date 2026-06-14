@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-65-greyhound.pdf"
 type: "paper"
-community: "Community 77"
+community: "Community 7"
 location: "§2.2 Def.2.5, §3.1 Lem.3.2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_77
+  - community/Community_7
 ---
 
 # Coordinate-wise special soundness analysis (CWSS)
@@ -16,4 +16,4 @@ tags:
 - [[Module-SIS  Module-LWE]] - `assumes` [EXTRACTED]
 - [[Three-round proof of polynomial evaluation (quadratic relation)]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_77
+#graphify/paper #graphify/EXTRACTED #community/Community_7

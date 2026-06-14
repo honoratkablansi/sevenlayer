@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch3/ref-62-ntia-cisa-sbom-minimum-elements.md"
 type: "document"
-community: "Community 60"
+community: "Community 64"
 tags:
   - graphify/document
   - graphify/INFERRED
-  - community/Community_60
+  - community/Community_64
 ---
 
 # Component inventory and dependency relationships
@@ -14,4 +14,4 @@ tags:
 - [[NTIA Minimum Elements for a Software Bill of Materials (SBOM)]] - `defines` [EXTRACTED]
 - [[Software supply chain]] - `conceptually_related_to` [INFERRED]
 
-#graphify/document #graphify/INFERRED #community/Community_60
+#graphify/document #graphify/INFERRED #community/Community_64

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-38-snarky-ceremonies.pdf"
 type: "document"
-community: "Community 100"
+community: "Community 105"
 location: "page 4"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_100
+  - community/Community_105
 ---
 
 # Algebraic Group Model (AGM)
@@ -17,6 +17,7 @@ tags:
 - [[FKL18 - Fuchsbauer, Kiltz, Loss the Algebraic Group Model and Groth16 KS under q-dlog]] - `introduces` [EXTRACTED]
 - [[Generic (Bilinear) Group Model]] - `improves` [EXTRACTED]
 - [[Groth16]] - `uses` [EXTRACTED]
+- [[KZG Polynomial Commitments from pairings (with trusted setup); Dory transparent pairing-based scheme]] - `relates_to` [EXTRACTED]
 - [[Lemma 2.2 Real-to-Ideal Pairing Check Reduction under Q-DLOG]] - `conceptually_related_to` [EXTRACTED]
 - [[PLONK Permutations over Lagrange-bases for Oecumenical Noninteractive arguments of Knowledge]] - `cites` [EXTRACTED]
 - [[Q-DLOG Assumption]] - `conceptually_related_to` [EXTRACTED]
@@ -27,4 +28,4 @@ tags:
 - [[Theorem 6.3 PCS evaluation-binding & bounded-extractable under 2d-DLOG in AGM]] - `assumes` [EXTRACTED]
 - [[Trusted Setup Ceremony]] - `proves-security-of` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_100
+#graphify/document #graphify/EXTRACTED #community/Community_105

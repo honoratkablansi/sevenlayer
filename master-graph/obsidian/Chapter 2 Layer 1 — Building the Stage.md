@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 121"
+community: "Community 119"
 location: "Chapter 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_121
+  - community/Community_119
 ---
 
 # Chapter 2: Layer 1 — Building the Stage
@@ -17,4 +17,4 @@ tags:
 - [[Finite Field Arithmetic]] - `conceptually_related_to` [EXTRACTED]
 - [[Structured Reference String (SRS)]] - `introduces` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_121
+#graphify/document #graphify/EXTRACTED #community/Community_119

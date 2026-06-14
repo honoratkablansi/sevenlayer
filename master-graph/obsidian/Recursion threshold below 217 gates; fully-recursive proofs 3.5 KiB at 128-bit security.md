@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-05-halo.pdf"
 type: "paper"
-community: "Community 51"
+community: "Community 47"
 location: "§1.2, §6.4, §7"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_51
+  - community/Community_47
 ---
 
 # Recursion threshold below 2^17 gates; fully-recursive proofs 3.5 KiB at 128-bit security
@@ -16,4 +16,4 @@ tags:
 - [[Halo first practical recursive proof composition without a trusted setup]] - `proves` [EXTRACTED]
 - [[Recursive Proof Composition]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_51
+#graphify/paper #graphify/EXTRACTED #community/Community_47

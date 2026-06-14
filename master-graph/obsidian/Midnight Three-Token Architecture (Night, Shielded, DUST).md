@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 13"
+community: "Community 5"
 location: "Chapter 8"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_13
+  - community/Community_5
 ---
 
 # Midnight Three-Token Architecture (Night, Shielded, DUST)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Midnight (Privacy Blockchain)]] - `explains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_13
+#graphify/document #graphify/EXTRACTED #community/Community_5

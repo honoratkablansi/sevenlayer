@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-90-zexe.pdf"
 type: "paper"
-community: "Community 43"
+community: "Community 6"
 location: "§2.4; §3.1; Fig. 2, Fig. 5"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_43
+  - community/Community_6
 ---
 
 # Record (commitment, address pk, payload, birth/death predicate, serial number)
@@ -16,4 +16,4 @@ tags:
 - [[Records nano-kernel (RNK) minimalist shared execution environment over records]] - `defines` [EXTRACTED]
 - [[Zerocash]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_43
+#graphify/paper #graphify/EXTRACTED #community/Community_6

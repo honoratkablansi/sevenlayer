@@ -1,12 +1,12 @@
 ---
 source_file: "references/snowball/recursion/ref-121-replicated-state-machines-without-replicated-exe.pdf"
 type: "paper"
-community: "Community 110"
+community: "Community 111"
 location: "abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_110
+  - community/Community_111
 ---
 
 # Byzantine Fault Tolerance
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Replicated State Machine]] - `relates_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_110
+#graphify/paper #graphify/EXTRACTED #community/Community_111

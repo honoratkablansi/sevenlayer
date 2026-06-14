@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-21-zktree.pdf"
 type: "paper"
-community: "Community 23"
+community: "Community 13"
 location: "§2.2; ref [19]"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_23
+  - community/Community_13
 ---
 
 # Recursion via cycles of elliptic curves (Ben-Sasson et al.)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Recursive Proof Composition]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_23
+#graphify/paper #graphify/EXTRACTED #community/Community_13

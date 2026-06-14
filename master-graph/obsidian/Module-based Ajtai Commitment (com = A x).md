@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-11-latticefold-plus.pdf"
 type: "paper"
-community: "Community 10"
+community: "Community 19"
 location: "§2.3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_10
+  - community/Community_19
 ---
 
 # Module-based Ajtai Commitment (com = A x)
@@ -19,4 +19,4 @@ tags:
 - [[Power-of-Two Cyclotomic Ring ZX(Xd+1)]] - `conceptually_related_to` [EXTRACTED]
 - [[Relaxed Binding Commitment reduced to Module-SIS]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_10
+#graphify/paper #graphify/EXTRACTED #community/Community_19

@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-13-chiesa-chua-weidner-cycles.pdf"
 type: "paper"
-community: "Community 75"
+community: "Community 8"
 location: "§1, §3, refs"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_75
+  - community/Community_8
 ---
 
 # Silverman & Stange [SS11] - aliquot cycles of elliptic curves, existence Prop. 1
@@ -15,4 +15,4 @@ tags:
 - [[Chiesa, Chua & Weidner, On Cycles of Pairing-Friendly Elliptic Curves (2019)]] - `cites` [EXTRACTED]
 - [[Cycles of Elliptic Curves]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_75
+#graphify/paper #graphify/EXTRACTED #community/Community_8

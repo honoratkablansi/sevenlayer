@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 88"
+community: "Community 10"
 location: "Chapter 4"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_88
+  - community/Community_10
 ---
 
 # zkVM
@@ -72,4 +72,4 @@ tags:
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 - [[zkVMs Across the Stack]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_88
+#graphify/document #graphify/EXTRACTED #community/Community_10

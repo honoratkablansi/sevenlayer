@@ -1,19 +1,21 @@
 ---
 source_file: "references/recursion/ch1/ref-20-thaler-proofs-arguments-zk.pdf"
 type: "paper"
-community: "Community 5"
+community: "Community 11"
 location: "ch 15 (Polynomial Commitments from Pairings)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_5
+  - community/Community_11
 ---
 
 # KZG Polynomial Commitments from pairings (with trusted setup); Dory transparent pairing-based scheme
 
 ## Connections
+- [[Algebraic Group Model (AGM)]] - `relates_to` [EXTRACTED]
 - [[BLS12-381 Curve]] - `references` [EXTRACTED]
 - [[BN254 (alt_bn128) Curve]] - `references` [EXTRACTED]
+- [[Batch Evaluation of Committed Polynomials]] - `uses` [EXTRACTED]
 - [[Batched KZG Polynomial Commitment Scheme (multi-poly, multi-point)]] - `conceptually_related_to` [EXTRACTED]
 - [[Bilinear Pairing]] - `uses` [INFERRED]
 - [[Case Study Midnight (IOGCardano)]] - `references` [EXTRACTED]
@@ -34,6 +36,7 @@ tags:
 - [[Halo 2  UltraPlonk]] - `references` [EXTRACTED]
 - [[Kate, Zaverucha & Goldberg, KZG (ASIACRYPT 2010)]] - `cites` [EXTRACTED]
 - [[Kate, Zaverucha, Goldberg — Constant-Size Commitments to Polynomials (ASIACRYPT 2010)]] - `cites` [EXTRACTED]
+- [[Knowledge of Exponent Assumption (KEA) basis for the discrete-log proof of knowledge scheme]] - `uses` [EXTRACTED]
 - [[Lattice-Based Functional Commitments Fast Verification and Cryptanalysis]] - `references` [EXTRACTED]
 - [[Layer 1 -- Building the Stage]] - `references` [EXTRACTED]
 - [[Layer 5 -- The Sealed Certificate]] - `references` [EXTRACTED]
@@ -46,6 +49,7 @@ tags:
 - [[Midnight's BLS12-381 Stage]] - `conceptually_related_to` [EXTRACTED]
 - [[Midnight's ZKIR A Concrete Layer 4]] - `references` [EXTRACTED]
 - [[Modified KZG polynomial commitment for Laurent polynomials (bounded-degree, single-point hidden)]] - `conceptually_related_to` [EXTRACTED]
+- [[Multilinear KZG Polynomial Commitment]] - `generalizes` [EXTRACTED]
 - [[Nightstream What a Folding Engine Looks Like from the Inside]] - `references` [EXTRACTED]
 - [[Open Questions and the Road Ahead]] - `references` [EXTRACTED]
 - [[Option-Value Analysis]] - `conceptually_related_to` [EXTRACTED]
@@ -61,7 +65,7 @@ tags:
 - [[Small Fields]] - `references` [EXTRACTED]
 - [[Sonic zk-SNARK (universal & updatable linear-size SRS)]] - `cites` [EXTRACTED]
 - [[Sonic Zero-Knowledge SNARKs from Linear-Size Universal and Updatable Structured Reference Strings]] - `references` [EXTRACTED]
-- [[Structured Reference String (SRS)]] - `references` [EXTRACTED]
+- [[Structured Reference String (SRS)]] - `uses` [EXTRACTED]
 - [[The 141,416-Person Question]] - `conceptually_related_to` [EXTRACTED]
 - [[The ADOPT Framework]] - `conceptually_related_to` [EXTRACTED]
 - [[The Cascade Effect]] - `references` [EXTRACTED]
@@ -87,11 +91,11 @@ tags:
 - [[The Trilemma -- And Its Dissolution]] - `references` [EXTRACTED]
 - [[Theorem 3 MT-IPP completeness and knowledge soundness]] - `assumes` [EXTRACTED]
 - [[Three Hardness Assumptions, Three Worlds]] - `references` [EXTRACTED]
-- [[Trusted Setup Ceremony]] - `references` [EXTRACTED]
+- [[Trusted Setup Ceremony]] - `uses` [EXTRACTED]
 - [[Two Ways to Build a Stage]] - `conceptually_related_to` [EXTRACTED]
 - [[When the Transcript Lies Fiat-Shamir Vulnerabilities]] - `references` [EXTRACTED]
 - [[Where the Layers Collapse]] - `references` [EXTRACTED]
 - [[ZK Rollups The Proving Grounds (Production)]] - `references` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_5
+#graphify/paper #graphify/EXTRACTED #community/Community_11

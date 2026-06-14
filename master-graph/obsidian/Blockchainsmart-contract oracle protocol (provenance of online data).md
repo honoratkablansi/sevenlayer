@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-87-deco.pdf"
 type: "paper"
-community: "Community 11"
+community: "Community 27"
 location: "§3.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_11
+  - community/Community_27
 ---
 
 # Blockchain/smart-contract oracle protocol (provenance of online data)
@@ -16,4 +16,4 @@ tags:
 - [[Ideal functionality F_Oracle (formal security definition of decentralized oracle) between S, P, V]] - `defines` [EXTRACTED]
 - [[Trust model no trusted hardware, no server-side modification; oracle trusted for integrity not privacy; privacy holds even if all oracles compromised]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_11
+#graphify/paper #graphify/EXTRACTED #community/Community_27

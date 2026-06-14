@@ -1,61 +1,58 @@
 ---
 type: community
-cohesion: 0.07
-members: 46
+cohesion: 0.06
+members: 43
 ---
 
 # Community 9
 
-**Cohesion:** 0.07 - loosely connected
-**Members:** 46 nodes
+**Cohesion:** 0.06 - loosely connected
+**Members:** 43 nodes
 
 ## Members
-- [[Accumulation Scheme Completeness and Soundness Properties]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
-- [[Accumulation Scheme for a Non-Interactive Argument (Def 4.1)]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
-- [[Accumulation Scheme for a Polynomial Commitment (Def 4.2)]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
-- [[Accumulation Schemes]] - document - references/ch06/ref-19-protostar.pdf
-- [[BCCT13 Recursive Composition and Bootstrapping for SNARKs and PCD]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
-- [[Ben-Sasson, Chiesa, Tromer, Virza, Scalable zero knowledge via cycles of elliptic curves (CRYPTO 2014) 7 first preprocessing PCD implementation]] - paper - references/recursion/ch3/ref-77-photoproof.pdf
-- [[Bowe, Grigg, Hopwood, Halo (ePrint 20191021)]] - document - recursion/recursion-outline.md
-- [[COS20 Fractal - Post-Quantum Transparent Recursive Proofs from Holography]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
-- [[Chiesa & Tromer, Proof-carrying data and hearsay arguments from signature cards (ICS 2010) 11]] - paper - references/recursion/ch3/ref-77-photoproof.pdf
-- [[Chiesa-Tromer Proof-Carrying Data (ICS 2010  2012)]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
-- [[Claim Lattice Schemes Are Architecturally Simpler]] - document - proving-nothing.md
-- [[Compliance predicate encoded as Fp-Rank-1 Constraint System (R1CS); transformations built as image-processing gadgets (crop, flip, transpose, rotate, brightnesscontrast, identity)]] - paper - references/recursion/ch3/ref-77-photoproof.pdf
-- [[Distributed Proof Generation]] - paper - references/snowball/book/ref-104-cluster-computing-in-zero-knowledge.pdf
-- [[Editor applies one permissible transformation and runs PCD prover to fold a new authenticity proof onto the prior signatureproof (Algorithm 3)]] - paper - references/recursion/ch3/ref-77-photoproof.pdf
-- [[Formal Accumulation Scheme Definition AS=(G,I,P,V,D) for (Phi,H)]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
-- [[Friedman, The trustworthy digital camera (IEEE Trans. Consumer Electronics 1993) 21 in-camera digital signing as root of trust]] - paper - references/recursion/ch3/ref-77-photoproof.pdf
-- [[Gennaro, Gentry, Parno, Raykova, Quadratic span programs and succinct NIZKs without PCPs (EUROCRYPT 2013) 22 SNARK scheme used by libsnark]] - paper - references/recursion/ch3/ref-77-photoproof.pdf
-- [[Goldwasser, Micali, Rivest, A digital signature scheme secure against adaptive chosen-message attacks (1988) 24 existentially unforgeable signatures]] - paper - references/recursion/ch3/ref-77-photoproof.pdf
-- [[Halo  Nested Amortization Recursion]] - document - proving-nothing.md
-- [[Halo Infinite]] - paper - references/snowball/book/ref-095-halo-infinite-recursive-zk-snarks-from-any-addi.pdf
-- [[IA scheme = (S, G_IA, P_IA, V_IA) new cryptographic primitive for image authentication over a permissible-transformation set T]] - paper - references/recursion/ch3/ref-77-photoproof.pdf
-- [[Media provenance]] - document - recursion/recursion-outline.md
-- [[Multi-Scalar Multiplication]] - paper - references/snowball/book/ref-108-dizk-a-distributed-zero-knowledge-proof-system.pdf
-- [[Permissible transformation set T = (t1,...,tn) editor-configurable set of authenticity-preserving image transformations]] - paper - references/recursion/ch3/ref-77-photoproof.pdf
-- [[PhotoProof (Naveh, Tromer, S&P 2016)]] - document - recursion/recursion-outline.md
-- [[PhotoProof compliance predicate Pi_T (Algorithm 1) base case verifies signature, else checks t in T, t(I_in,gamma)=I_out, and public key unchanged]] - paper - references/recursion/ch3/ref-77-photoproof.pdf
-- [[PhotoProof cryptographic image authentication scheme for any permissible transformation set]] - paper - references/recursion/ch3/ref-77-photoproof.pdf
-- [[Pickles  Mina]] - document - recursion/recursion-outline.md
-- [[Predicate-Efficient SNARK]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
-- [[Private multi-party applications  autonomous worlds]] - document - recursion/recursion-outline.md
-- [[Proof-Carrying Data (PCD)]] - document - references/ch06/ref-18-hypernova.pdf
-- [[Proof-Carrying Data from Accumulation Schemes (BCMS20)]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
-- [[Relaxed Succinctness deferred verification via sublinear accumulation verifier]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
-- [[Signature-outside-Pi optimization camera signs a collision-resistant original-hash; verifier checks signature outside PCD, predicate ensures original-hash unchanged across edits]] - paper - references/recursion/ch3/ref-77-photoproof.pdf
-- [[Signed camera-original as root of trust in-camera digital signature on the original image anchors the start of the permissible-transformation chain]] - paper - references/recursion/ch3/ref-77-photoproof.pdf
-- [[Statistical zero-knowledge proofs an authenticated (e.g. cropped) image reveals nothing about the image beyond its authenticity, hiding cropped-out regions and edit history]] - paper - references/recursion/ch3/ref-77-photoproof.pdf
-- [[Succinctness constant-size proofs O_lambda(1) and verifier runtime O_lambda(I), independent of image edit-history length]] - paper - references/recursion/ch3/ref-77-photoproof.pdf
-- [[Theorem 1 (informal) SNARK with accumulation scheme compiles to PCD]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
-- [[Theorem 2 (informal) accumulation for predicate + predicate-efficient SNARK yields accumulation for the SNARK]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
-- [[Theorem 5.2 transformation T from SNARK + accumulation scheme to PCD for constant-depth predicates]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
-- [[Theorem 9 for any poly-time transformation set T, given PCD and an existentially unforgeable signature scheme, PP = (S,G_PP,P_PP,V_PP) is an IA scheme for T]] - paper - references/recursion/ch3/ref-77-photoproof.pdf
-- [[Verifiable Computation  Delegation]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
-- [[Walsh, CertiPics over Nexus OS with TPM secure co-processor 57 prior policy-based image authentication lacking succinctness and zero-knowledge]] - paper - references/recursion/ch3/ref-77-photoproof.pdf
-- [[Working prototype on libsnark using preprocessing PCD of Ben-Sasson et al.; ECDSA NIST192p signatures; small N x N images (up to 128x128)]] - paper - references/recursion/ch3/ref-77-photoproof.pdf
-- [[Zero Knowledge for Accumulation Schemes (simulator, verification proof piV)]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
-- [[Zexe Decentralized Private Computation (Bowe et al., S&P 2020)]] - document - recursion/recursion-outline.md
+- [[SAT Interactive Proof]] - paper - references/books/proofs-args-zk.pdf
+- [[Address-grouping suffices (a-group + t-order) instead of full (a,t)-ordering]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[Argument that large shards enable faster TwistShout proving (K-linear cost amortized)]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Block et al. (BHR20) quasi-linear small-space SNARK for VMs with streaming Bulletproofs PCS]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Blum, Evans, Gemmell, Kannan, Naor - Checking Correctness of Memories (1991)]] - document - proving-nothing.md
+- [[Blumberg et al. (BTVW14) small-space quasi-linear PIOP for circuit-SAT]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Boolean Formula]] - paper - references/books/proofs-args-zk.pdf
+- [[Claim 4 public-coin multiset hash H_{tau,gamma} via Reed-Solomon fingerprinting; multiset equality with soundness error O((A+B)F)]] - paper - references/ch03/ref-15-lasso.pdf
+- [[Concrete cost estimate ~900T linear-space vs ~900T+12T log T small-space field mults]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Continuations  recursive composition for zkVM prover memory control]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Cormode-Thaler-Yi (CTY11) linear-time and sparse streaming sum-check provers]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Dimension parameter d factoring one-hot address poly into d smaller polys]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Gemini (BCHO22) small-space VM SNARK with streamed multilinear-KZG PCS]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[IP = PSPACE (Complexity Result)]] - paper - references/books/proofs-args-zk.pdf
+- [[Jolt sum-check-based zkVM for RISC-V]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Justin Thaler]] - document - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[LFKN LFKN90 original sum-check protocol]] - paper - references/ch03/ref-15-lasso.pdf
+- [[Lund-Fortnow-Karloff-Nisan 35 original sum-check protocol]] - paper - references/recursion/ch3/ref-70-zkcnn.pdf
+- [[Multiplicative Subgroup Vanishing Polynomial]] - paper - references/books/proofs-args-zk.pdf
+- [[Offline Memory Checking]] - document - proving-nothing.md
+- [[One-hot (unit-vector) address encoding for memory ops in TwistShout]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Prefix-suffix inner product sum-check protocol (streaming, linear-time)]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Proving CPU Executions in Small Space]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Recursive SNARK Composition (Preprocessing to Fully Succinct)]] - paper - references/ch02/ref-06-groth16.pdf
+- [[Repeated witness generation with checkpoints and multithreaded parallel regeneration]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Shout sum-check memory-checking  lookup argument for read-only memory]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Small-space Jolt prover (sublinear-space zkVM proving without recursion)]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Small-value sum-check optimization (Bagad-Domb-Thaler Algorithm 3)]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Soundness Error]] - paper - references/books/proofs-args-zk.pdf
+- [[Sparrow (PP24) sqrt-space SNARK for data-parallel circuits]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Sparse-dense sum-check proving algorithm (streaming, sparsity-linear time)]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Spartan Set20 - linear-time R1CS polynomial IOP that SuperSpartan generalizes]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
+- [[Spartan over Jolt's uniform block-diagonal R1CS, streamed via Az,Bz,Cz]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Spice readwrite memory-checking argument (offline, grand-product based)]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Square-root space target O(sqrt(KT))  O(K+T{12}) suffices in practice over O(K+log T)]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Streaming  small-space sum-check prover (logarithmic-space, quasi-linear time)]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Sum-Check Protocol]] - document - recursion/recursion-outline.md
+- [[SuperSpartan SNARK family for CCS generalizing Spartan's polynomial IOP]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
+- [[Theorem 1 polynomial IOP for CCS, soundness O((t+d)log m)F, prover O(N+tm+qmd log2 d) F-ops]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
+- [[Theorem 7.1 Jolt prover in S=O(K+log T) space and O(T log T) time]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Twist and Shout Memory-Checking Arguments]] - document - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Twist sum-check memory-checking argument for readwrite memory]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Univariate Polynomial]] - paper - references/books/proofs-args-zk.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -65,41 +62,46 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 8 edges to [[_COMMUNITY_Community 32]]
-- 7 edges to [[_COMMUNITY_Community 23]]
-- 6 edges to [[_COMMUNITY_Community 8]]
-- 6 edges to [[_COMMUNITY_Community 38]]
-- 5 edges to [[_COMMUNITY_Community 36]]
+- 17 edges to [[_COMMUNITY_Community 4]]
+- 10 edges to [[_COMMUNITY_Community 3]]
+- 9 edges to [[_COMMUNITY_Community 15]]
+- 9 edges to [[_COMMUNITY_Community 23]]
+- 7 edges to [[_COMMUNITY_Community 12]]
+- 7 edges to [[_COMMUNITY_Community 29]]
+- 6 edges to [[_COMMUNITY_Community 26]]
+- 6 edges to [[_COMMUNITY_Community 22]]
+- 6 edges to [[_COMMUNITY_Community 18]]
+- 5 edges to [[_COMMUNITY_Community 0]]
+- 5 edges to [[_COMMUNITY_Community 10]]
 - 5 edges to [[_COMMUNITY_Community 25]]
-- 5 edges to [[_COMMUNITY_Community 53]]
-- 4 edges to [[_COMMUNITY_Community 83]]
-- 3 edges to [[_COMMUNITY_Community 5]]
-- 3 edges to [[_COMMUNITY_Community 1]]
-- 3 edges to [[_COMMUNITY_Community 0]]
-- 3 edges to [[_COMMUNITY_Community 51]]
-- 2 edges to [[_COMMUNITY_Community 62]]
-- 2 edges to [[_COMMUNITY_Community 55]]
-- 2 edges to [[_COMMUNITY_Community 60]]
-- 2 edges to [[_COMMUNITY_Community 90]]
-- 2 edges to [[_COMMUNITY_Community 88]]
-- 2 edges to [[_COMMUNITY_Community 103]]
-- 1 edge to [[_COMMUNITY_Community 22]]
-- 1 edge to [[_COMMUNITY_Community 37]]
-- 1 edge to [[_COMMUNITY_Community 117]]
-- 1 edge to [[_COMMUNITY_Community 28]]
-- 1 edge to [[_COMMUNITY_Community 131]]
-- 1 edge to [[_COMMUNITY_Community 47]]
-- 1 edge to [[_COMMUNITY_Community 3]]
-- 1 edge to [[_COMMUNITY_Community 130]]
-- 1 edge to [[_COMMUNITY_Community 116]]
-- 1 edge to [[_COMMUNITY_Community 43]]
+- 5 edges to [[_COMMUNITY_Community 43]]
+- 4 edges to [[_COMMUNITY_Community 1]]
+- 4 edges to [[_COMMUNITY_Community 30]]
+- 3 edges to [[_COMMUNITY_Community 86]]
+- 3 edges to [[_COMMUNITY_Community 50]]
+- 2 edges to [[_COMMUNITY_Community 6]]
+- 2 edges to [[_COMMUNITY_Community 19]]
+- 2 edges to [[_COMMUNITY_Community 66]]
+- 2 edges to [[_COMMUNITY_Community 17]]
+- 2 edges to [[_COMMUNITY_Community 72]]
+- 1 edge to [[_COMMUNITY_Community 20]]
+- 1 edge to [[_COMMUNITY_Community 41]]
+- 1 edge to [[_COMMUNITY_Community 109]]
+- 1 edge to [[_COMMUNITY_Community 141]]
+- 1 edge to [[_COMMUNITY_Community 79]]
+- 1 edge to [[_COMMUNITY_Community 39]]
+- 1 edge to [[_COMMUNITY_Community 49]]
+- 1 edge to [[_COMMUNITY_Community 24]]
+- 1 edge to [[_COMMUNITY_Community 124]]
+- 1 edge to [[_COMMUNITY_Community 70]]
 - 1 edge to [[_COMMUNITY_Community 14]]
-- 1 edge to [[_COMMUNITY_Community 40]]
-- 1 edge to [[_COMMUNITY_Community 7]]
+- 1 edge to [[_COMMUNITY_Community 11]]
+- 1 edge to [[_COMMUNITY_Community 88]]
+- 1 edge to [[_COMMUNITY_Community 63]]
 
 ## Top bridge nodes
-- [[Proof-Carrying Data (PCD)]] - degree 47, connects to 20 communities
-- [[Accumulation Schemes]] - degree 35, connects to 16 communities
-- [[Halo  Nested Amortization Recursion]] - degree 10, connects to 4 communities
-- [[Media provenance]] - degree 10, connects to 3 communities
-- [[Halo Infinite]] - degree 5, connects to 3 communities
+- [[Sum-Check Protocol]] - degree 109, connects to 30 communities
+- [[Offline Memory Checking]] - degree 14, connects to 6 communities
+- [[Proving CPU Executions in Small Space]] - degree 12, connects to 6 communities
+- [[SuperSpartan SNARK family for CCS generalizing Spartan's polynomial IOP]] - degree 7, connects to 4 communities
+- [[Small-space Jolt prover (sublinear-space zkVM proving without recursion)]] - degree 9, connects to 3 communities

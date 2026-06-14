@@ -1,12 +1,12 @@
 ---
 source_file: "recursion/recursion-outline.md"
 type: "document"
-community: "Community 1"
+community: "Community 25"
 location: "Recursion Chapter 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_1
+  - community/Community_25
 ---
 
 # Bunz, Chen, "ProtoStar" (ePrint 2023/620)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[ProtoStar]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_1
+#graphify/document #graphify/EXTRACTED #community/Community_25

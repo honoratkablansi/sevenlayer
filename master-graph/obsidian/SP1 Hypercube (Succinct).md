@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 2"
+community: "Community 10"
 location: "Chapter 11"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_2
+  - community/Community_10
 ---
 
 # SP1 Hypercube (Succinct)
@@ -60,4 +60,4 @@ tags:
 - [[zkVM Landscape Table (March 2026)]] - `references` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_2
+#graphify/document #graphify/EXTRACTED #community/Community_10

@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-10-fractal.pdf"
 type: "paper"
-community: "Community 6"
+community: "Community 52"
 location: "Abstract; §1; §2.2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_6
+  - community/Community_52
 ---
 
 # Post-quantum security (against quantum adversaries; security in the QROM)
@@ -22,4 +22,4 @@ tags:
 - [[Theorem 4  Theorem 11.5 transformation compiling any preprocessing SNARK in the URS model into a preprocessing PCD scheme (preserving transparency and post-quantum security)]] - `proves` [EXTRACTED]
 - [[Zero-Knowledge Proof]] - `relates_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_6
+#graphify/paper #graphify/EXTRACTED #community/Community_52

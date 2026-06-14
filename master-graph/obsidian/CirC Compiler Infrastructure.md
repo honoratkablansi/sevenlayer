@@ -1,12 +1,12 @@
 ---
 source_file: "references/snowball/book/ref-122-circ-compiler-infrastructure-for-proof-systems.pdf"
 type: "paper"
-community: "Community 96"
+community: "Community 103"
 location: "abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_96
+  - community/Community_103
 ---
 
 # CirC Compiler Infrastructure
@@ -17,4 +17,4 @@ tags:
 - [[Practical Security Analysis of Zero-Knowledge Proof Circuits]] - `cites` [EXTRACTED]
 - [[R1CS (Rank-1 Constraint Systems)]] - `uses` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_96
+#graphify/paper #graphify/EXTRACTED #community/Community_103

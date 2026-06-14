@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-50-extended-tower-nfs.pdf"
 type: "paper"
-community: "Community 31"
+community: "Community 16"
 location: "§6, §7"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_31
+  - community/Community_16
 ---
 
 # Mandate to update pairing key sizes (c=64→48, factor ~1.33; SNFS factor 2)
@@ -16,4 +16,4 @@ tags:
 - [[Bilinear Pairing]] - `conceptually_related_to` [EXTRACTED]
 - [[exTNFS-Conj medium-prime complexity L_Q(13,(489){13})]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_31
+#graphify/paper #graphify/EXTRACTED #community/Community_16

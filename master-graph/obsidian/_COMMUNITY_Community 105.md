@@ -1,26 +1,26 @@
 ---
 type: community
-cohesion: 0.24
+cohesion: 0.27
 members: 11
 ---
 
 # Community 105
 
-**Cohesion:** 0.24 - loosely connected
+**Cohesion:** 0.27 - loosely connected
 **Members:** 11 nodes
 
 ## Members
-- [[Bit-decomposition gadget proving ReLU + max pooling composition with a single bit-decomposition per number]] - paper - references/recursion/ch3/ref-70-zkcnn.pdf
-- [[Jacob et al. 28 integer-arithmetic-only quantization scheme used to encode reals]] - paper - references/recursion/ch3/ref-70-zkcnn.pdf
-- [[Quantization of real-valued modeldata to Q-bit integers in finite field (affine map a = L(q-Z))]] - paper - references/recursion/ch3/ref-70-zkcnn.pdf
-- [[SafetyNets (Ghodsi et al. 25) GKR-based verifiable NN inference (no privacy)]] - paper - references/recursion/ch3/ref-70-zkcnn.pdf
-- [[Thaler 41 time-optimal sum-check for matrix multiplication (prover O(n2)  O(n3))]] - paper - references/recursion/ch3/ref-70-zkcnn.pdf
-- [[Theorem 4.1 Protocol 3 is correct and sound (Def C.1)]] - paper - references/recursion/ch3/ref-70-zkcnn.pdf
-- [[Verifiable  trustless DNN inference model consumer verifies that the model provider served correct predictions in an untrusted (MLaaS) setting]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
-- [[Zero knowledge CNN accuracy scheme over many samples (prove secret model accuracy on public dataset)]] - paper - references/recursion/ch3/ref-70-zkcnn.pdf
-- [[Zero knowledge via zk-sumcheck + low-degree extension + zk polynomial commitment; non-interactive via Fiat-Shamir]] - paper - references/recursion/ch3/ref-70-zkcnn.pdf
-- [[zkCNN commit-and-prove scheme (KeyGen, Commit, Prove, Verify) for CNN prediction]] - paper - references/recursion/ch3/ref-70-zkcnn.pdf
-- [[zkCNN Zero Knowledge Proofs for CNN Predictions and Accuracy (CCS 2021)]] - paper - references/recursion/ch3/ref-70-zkcnn.pdf
+- [[(q1,q2)-extended discrete logarithm (edlog) assumption (Def 2)]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
+- [[Algebraic Group Model (AGM)]] - document - references/ch10/ref-38-snarky-ceremonies.pdf
+- [[Algebraic extractor E_agm (white-box, requires view_A, yields linear representation coefficients)]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
+- [[Critical query i_crit and white-box AGM extractor E_A returning QAP witness coefficients]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
+- [[FKL18 - Fuchsbauer, Kiltz, Loss the Algebraic Group Model and Groth16 KS under q-dlog]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
+- [[Lemma 2.2 Real-to-Ideal Pairing Check Reduction under Q-DLOG]] - paper - references/ch02/ref-07-plonk.pdf
+- [[Q-DLOG Assumption]] - paper - references/ch02/ref-07-plonk.pdf
+- [[Theorem 1 (q1+1,q2+1)-dlog implies (q1,q2)-edlog]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
+- [[Theorem 5 Groth16 ceremony has update knowledge soundness under (2n-1,2n-2)-edlog for algebraic adversaries in ROM]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
+- [[Theorem 6.3 PCS evaluation-binding & bounded-extractable under 2d-DLOG in AGM]] - paper - references/ch10/ref-36-sonic.pdf
+- [[UKS proof game hops Game0-Game1 (fresh-SRS simulated critical updates) - Game2 (bad event), reduction to edlog]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -30,16 +30,17 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 5 edges to [[_COMMUNITY_Community 85]]
-- 4 edges to [[_COMMUNITY_Community 117]]
-- 4 edges to [[_COMMUNITY_Community 66]]
-- 2 edges to [[_COMMUNITY_Community 36]]
-- 1 edge to [[_COMMUNITY_Community 37]]
-- 1 edge to [[_COMMUNITY_Community 40]]
+- 5 edges to [[_COMMUNITY_Community 59]]
+- 2 edges to [[_COMMUNITY_Community 17]]
+- 2 edges to [[_COMMUNITY_Community 11]]
+- 2 edges to [[_COMMUNITY_Community 43]]
+- 2 edges to [[_COMMUNITY_Community 131]]
+- 2 edges to [[_COMMUNITY_Community 83]]
+- 1 edge to [[_COMMUNITY_Community 39]]
 
 ## Top bridge nodes
-- [[zkCNN commit-and-prove scheme (KeyGen, Commit, Prove, Verify) for CNN prediction]] - degree 11, connects to 2 communities
-- [[Verifiable  trustless DNN inference model consumer verifies that the model provider served correct predictions in an untrusted (MLaaS) setting]] - degree 8, connects to 2 communities
-- [[zkCNN Zero Knowledge Proofs for CNN Predictions and Accuracy (CCS 2021)]] - degree 8, connects to 2 communities
-- [[Zero knowledge via zk-sumcheck + low-degree extension + zk polynomial commitment; non-interactive via Fiat-Shamir]] - degree 3, connects to 2 communities
-- [[SafetyNets (Ghodsi et al. 25) GKR-based verifiable NN inference (no privacy)]] - degree 3, connects to 1 community
+- [[Algebraic Group Model (AGM)]] - degree 15, connects to 7 communities
+- [[(q1,q2)-extended discrete logarithm (edlog) assumption (Def 2)]] - degree 5, connects to 2 communities
+- [[Theorem 5 Groth16 ceremony has update knowledge soundness under (2n-1,2n-2)-edlog for algebraic adversaries in ROM]] - degree 5, connects to 2 communities
+- [[Q-DLOG Assumption]] - degree 5, connects to 1 community
+- [[Theorem 6.3 PCS evaluation-binding & bounded-extractable under 2d-DLOG in AGM]] - degree 3, connects to 1 community

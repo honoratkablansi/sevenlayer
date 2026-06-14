@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/GLOSSARY.md"
 type: "document"
-community: "Community 1"
+community: "Community 25"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_1
+  - community/Community_25
 ---
 
 # Glossary of Key Terms
@@ -27,4 +27,4 @@ tags:
 - [[STARK]] - `defines` [EXTRACTED]
 - [[Sum-Check Protocol]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_1
+#graphify/document #graphify/EXTRACTED #community/Community_25

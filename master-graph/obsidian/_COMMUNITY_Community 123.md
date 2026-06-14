@@ -1,23 +1,23 @@
 ---
 type: community
-cohesion: 0.32
+cohesion: 0.29
 members: 8
 ---
 
 # Community 123
 
-**Cohesion:** 0.32 - loosely connected
+**Cohesion:** 0.29 - loosely connected
 **Members:** 8 nodes
 
 ## Members
-- [[Axiom]] - document - wiki/sections/ch13-zk-coprocessors-off-chain-computation-on-chain-verification-growth.md
-- [[Brevis]] - document - wiki/sections/ch13-zk-coprocessors-off-chain-computation-on-chain-verification-growth.md
-- [[EZKL]] - document - wiki/sections/ch13-zkml-provable-machine-learning-research.md
-- [[Lagrange]] - document - wiki/sections/ch13-zk-coprocessors-off-chain-computation-on-chain-verification-growth.md
-- [[Lagrange DeepProve]] - document - wiki/sections/ch13-zkml-provable-machine-learning-research.md
-- [[Pico zkVM]] - document - wiki/sections/ch13-zk-coprocessors-off-chain-computation-on-chain-verification-growth.md
-- [[ZK Coprocessors Off-Chain Computation, On-Chain Verification (Growth)]] - document - wiki/sections/ch13-zk-coprocessors-off-chain-computation-on-chain-verification-growth.md
-- [[ZKML Provable Machine Learning (Research)]] - document - wiki/sections/ch13-zkml-provable-machine-learning-research.md
+- [[Certificate Transparency]] - document - references/recursion/ch3/ref-65-rfc-6962-certificate-transparency.md
+- [[Content Credentials trust model (X.509 signers)]] - document - references/recursion/ch3/ref-79-c2pa-specification.md
+- [[Merkle Hash Tree]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Merkle audit and consistency proofs]] - document - references/recursion/ch3/ref-65-rfc-6962-certificate-transparency.md
+- [[Misissued-certificate detection by monitors and auditors]] - document - references/recursion/ch3/ref-65-rfc-6962-certificate-transparency.md
+- [[RFC 6962 Certificate Transparency]] - document - references/recursion/ch3/ref-65-rfc-6962-certificate-transparency.md
+- [[Signed Certificate Timestamp (SCT)]] - document - references/recursion/ch3/ref-65-rfc-6962-certificate-transparency.md
+- [[Verifiable transparency logs]] - document - recursion/recursion-outline.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -27,16 +27,13 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 3 edges to [[_COMMUNITY_Community 2]]
-- 3 edges to [[_COMMUNITY_Community 62]]
-- 3 edges to [[_COMMUNITY_Community 12]]
-- 2 edges to [[_COMMUNITY_Community 117]]
-- 2 edges to [[_COMMUNITY_Community 1]]
-- 1 edge to [[_COMMUNITY_Community 88]]
-- 1 edge to [[_COMMUNITY_Community 17]]
+- 1 edge to [[_COMMUNITY_Community 22]]
+- 1 edge to [[_COMMUNITY_Community 57]]
+- 1 edge to [[_COMMUNITY_Community 64]]
+- 1 edge to [[_COMMUNITY_Community 31]]
+- 1 edge to [[_COMMUNITY_Community 65]]
 
 ## Top bridge nodes
-- [[ZK Coprocessors Off-Chain Computation, On-Chain Verification (Growth)]] - degree 12, connects to 5 communities
-- [[ZKML Provable Machine Learning (Research)]] - degree 10, connects to 5 communities
-- [[Lagrange DeepProve]] - degree 2, connects to 1 community
-- [[EZKL]] - degree 2, connects to 1 community
+- [[Verifiable transparency logs]] - degree 4, connects to 2 communities
+- [[Content Credentials trust model (X.509 signers)]] - degree 3, connects to 2 communities
+- [[Merkle Hash Tree]] - degree 3, connects to 1 community

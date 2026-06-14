@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch1/ref-28-risc-zero-technical-docs.md"
 type: "document"
-community: "Community 88"
+community: "Community 133"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_88
+  - community/Community_133
 ---
 
 # RISC Zero zkVM
@@ -16,4 +16,4 @@ tags:
 - [[Receipt (self-certifying proof of execution)]] - `introduces` [EXTRACTED]
 - [[zkVM]] - `conceptually_related_to` [INFERRED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_88
+#graphify/document #graphify/EXTRACTED #community/Community_133

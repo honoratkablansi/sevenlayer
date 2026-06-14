@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 88"
+community: "Community 10"
 location: "Chapter 11"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_88
+  - community/Community_10
 ---
 
 # The Universal Stage (zkVM metaphor)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[zkVM]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_88
+#graphify/document #graphify/EXTRACTED #community/Community_10

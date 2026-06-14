@@ -1,28 +1,29 @@
 ---
 type: community
-cohesion: 0.18
-members: 13
+cohesion: 0.19
+members: 14
 ---
 
 # Community 93
 
-**Cohesion:** 0.18 - loosely connected
-**Members:** 13 nodes
+**Cohesion:** 0.19 - loosely connected
+**Members:** 14 nodes
 
 ## Members
-- [[ACIR (Abstract Circuit Intermediate Representation)]] - document - proving-nothing.md
-- [[Claim The language determines what bugs the developer can make]] - document - proving-nothing.md
-- [[Compact (MidnightIOG DSL)]] - document - proving-nothing.md
-- [[Compact 26-Pass Nanopass Compilation Pipeline]] - document - proving-nothing.md
-- [[Disclosure Analysis (Compact)]] - document - proving-nothing.md
-- [[Fourth Philosophy Application-Specific DSL]] - document - proving-nothing.md
-- [[Leo (Aleo record-based DSL)]] - document - proving-nothing.md
-- [[Leo (Aleo)  o1js (Mina)]] - document - proving-nothing.md
-- [[Noir (Aztec Labs, ACIR)]] - document - proving-nothing.md
-- [[Pearce et al., NAVe Formal Verification for Noir Programs, 2025]] - document - proving-nothing.md
-- [[RISC-V zkVMs]] - document - proving-nothing.md
-- [[The Four Philosophies of Layer 2 Languages]] - document - proving-nothing.md
-- [[disclose() Operator]] - document - proving-nothing.md
+- [[EXECUTE Precompile for Native zk-Rollups]] - document - references/recursion/ch1/ref-19-ef-l1-zkevm-realtime-proving.md
+- [[Enshrined proofs (phase 3 of proving roadmap)]] - document - references/recursion/ch3/ref-57-ethproofs-reporting.md
+- [[EthProofs Dashboard]] - document - references/recursion/ch1/ref-08-sp1-hypercube.md
+- [[Home Proving]] - document - references/recursion/ch1/ref-19-ef-l1-zkevm-realtime-proving.md
+- [[L1 zkEVM]] - document - references/recursion/ch1/ref-19-ef-l1-zkevm-realtime-proving.md
+- [[RTP eligibility thresholds (sub-10s proofs, liveness, cost)]] - document - references/recursion/ch3/ref-57-ethproofs-reporting.md
+- [[Real-Time Proving]] - document - references/ch10/ref-52-sp1-hypercube.md
+- [[Realtime Proving Standardized Definition]] - document - references/recursion/ch1/ref-19-ef-l1-zkevm-realtime-proving.md
+- [[SP1 Hypercube Proving Ethereum in Real-Time (Succinct, 2025)]] - document - references/recursion/ch1/ref-08-sp1-hypercube.md
+- [[Security sprint milestone M2 (100-bit provable  600 KiB)]] - document - references/recursion/ch3/ref-57-ethproofs-reporting.md
+- [[Shipping an L1 zkEVM 1 Realtime Proving (Ethereum Foundation, 2025)]] - document - references/recursion/ch1/ref-19-ef-l1-zkevm-realtime-proving.md
+- [[Stateless Proof Verification]] - document - references/recursion/ch1/ref-19-ef-l1-zkevm-realtime-proving.md
+- [[ethproofs.org real-time proving reporting (Pico Prism, ethrex)]] - document - references/recursion/ch3/ref-57-ethproofs-reporting.md
+- [[zkVM prover benchmarks (zkDTVM, OpenVM, ZisK, Pico on GPU clusters)]] - document - references/recursion/ch3/ref-57-ethproofs-reporting.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -32,17 +33,14 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 7 edges to [[_COMMUNITY_Community 13]]
-- 2 edges to [[_COMMUNITY_Community 115]]
-- 1 edge to [[_COMMUNITY_Community 79]]
-- 1 edge to [[_COMMUNITY_Community 1]]
-- 1 edge to [[_COMMUNITY_Community 2]]
-- 1 edge to [[_COMMUNITY_Community 19]]
-- 1 edge to [[_COMMUNITY_Community 109]]
+- 7 edges to [[_COMMUNITY_Community 10]]
+- 2 edges to [[_COMMUNITY_Community 102]]
+- 1 edge to [[_COMMUNITY_Community 78]]
+- 1 edge to [[_COMMUNITY_Community 0]]
+- 1 edge to [[_COMMUNITY_Community 47]]
 
 ## Top bridge nodes
-- [[The Four Philosophies of Layer 2 Languages]] - degree 8, connects to 3 communities
-- [[Disclosure Analysis (Compact)]] - degree 8, connects to 2 communities
-- [[disclose() Operator]] - degree 3, connects to 2 communities
-- [[Compact (MidnightIOG DSL)]] - degree 6, connects to 1 community
-- [[ACIR (Abstract Circuit Intermediate Representation)]] - degree 3, connects to 1 community
+- [[Real-Time Proving]] - degree 13, connects to 4 communities
+- [[Realtime Proving Standardized Definition]] - degree 5, connects to 2 communities
+- [[L1 zkEVM]] - degree 6, connects to 1 community
+- [[SP1 Hypercube Proving Ethereum in Real-Time (Succinct, 2025)]] - degree 2, connects to 1 community

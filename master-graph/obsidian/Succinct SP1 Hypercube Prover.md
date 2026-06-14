@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 47"
+community: "Community 78"
 location: "Chapter 1"
 tags:
   - graphify/document
   - graphify/INFERRED
-  - community/Community_47
+  - community/Community_78
 ---
 
 # Succinct SP1 Hypercube Prover
@@ -15,4 +15,4 @@ tags:
 - [[Claim Proving Cost Collapse $80 to $0.04 (2023-2025)]] - `references` [EXTRACTED]
 - [[ZK Rollup]] - `conceptually_related_to` [INFERRED]
 
-#graphify/document #graphify/INFERRED #community/Community_47
+#graphify/document #graphify/INFERRED #community/Community_78

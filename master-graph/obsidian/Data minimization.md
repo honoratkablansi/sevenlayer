@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch13/ref-60-eidas-2-regulation.pdf"
 type: "paper"
-community: "Community 29"
+community: "Community 36"
 location: "Recital 12, 59; Art. 5b(3)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_29
+  - community/Community_36
 ---
 
 # Data minimization
@@ -17,4 +17,4 @@ tags:
 - [[Selective Disclosure]] - `conceptually_related_to` [EXTRACTED]
 - [[Sole user control & logical data separation (Art. 5a(14))]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_29
+#graphify/paper #graphify/EXTRACTED #community/Community_36

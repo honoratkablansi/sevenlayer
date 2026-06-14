@@ -1,12 +1,12 @@
 ---
 source_file: "references/snowball/book/ref-072-zerocash-decentralized-anonymous-payments-from.pdf"
 type: "paper"
-community: "Community 58"
+community: "Community 15"
 location: "abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_58
+  - community/Community_15
 ---
 
 # Decentralized Anonymous Payment
@@ -16,4 +16,4 @@ tags:
 - [[Merkle Tree]] - `uses` [EXTRACTED]
 - [[Zerocash]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_58
+#graphify/paper #graphify/EXTRACTED #community/Community_15

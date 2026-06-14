@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-20-latticefold.pdf"
 type: "paper"
-community: "Community 69"
+community: "Community 30"
 location: "§2.1 Def 2.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_69
+  - community/Community_30
 ---
 
 # Strong Sampling Set
@@ -16,4 +16,4 @@ tags:
 - [[Sum-Check Protocol]] - `assumes` [EXTRACTED]
 - [[Theorem 4.3 Pi_cm is a RoK from R_rg,B to R_com]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_69
+#graphify/paper #graphify/EXTRACTED #community/Community_30

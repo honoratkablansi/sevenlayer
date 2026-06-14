@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-06-groth16.pdf"
 type: "paper"
-community: "Community 22"
+community: "Community 39"
 location: "Def. 4, §2.5"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_22
+  - community/Community_39
 ---
 
 # Disclosure-free Common Reference String
@@ -15,4 +15,4 @@ tags:
 - [[On the Size of Pairing-Based Non-interactive Arguments]] - `introduces` [EXTRACTED]
 - [[Split-NILP to Pairing-based NIZK Compiler]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_22
+#graphify/paper #graphify/EXTRACTED #community/Community_39

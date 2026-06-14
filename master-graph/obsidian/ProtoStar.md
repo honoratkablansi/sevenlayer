@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 1"
+community: "Community 25"
 location: "Chapter 6"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_1
+  - community/Community_25
 ---
 
 # ProtoStar
@@ -25,4 +25,4 @@ tags:
 - [[The Folding Genealogy]] - `defines` [EXTRACTED]
 - [[pow_i polynomial and powers-of-beta vector; ProtoGalaxy avoids committing to the power vector (unlike ProtoStar)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_1
+#graphify/document #graphify/EXTRACTED #community/Community_25

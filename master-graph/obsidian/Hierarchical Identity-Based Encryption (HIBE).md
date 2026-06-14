@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-51-pairing-efficiency-curves.pdf"
 type: "paper"
-community: "Community 97"
+community: "Community 8"
 location: "introduction"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_97
+  - community/Community_8
 ---
 
 # Hierarchical Identity-Based Encryption (HIBE)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Bilinear Pairing]] - `uses` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_97
+#graphify/paper #graphify/EXTRACTED #community/Community_8

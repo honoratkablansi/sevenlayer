@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-05-mpc-random-beacon.pdf"
 type: "paper"
-community: "Community 87"
+community: "Community 58"
 location: "§3.7 Alg 3-4; Claim 3.5"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_87
+  - community/Community_58
 ---
 
 # POK/CheckPOK: random-oracle discrete-log proof of knowledge of exponent (Algorithms 3,4)
@@ -16,4 +16,4 @@ tags:
 - [[Player-exchangeable MPC (px-MPC) message sequence with no restriction on sender identity, no private state between messages]] - `assumes` [EXTRACTED]
 - [[SameRatio  consistent pairing-based ratio-equality checks (Algorithms 1,2)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_87
+#graphify/paper #graphify/EXTRACTED #community/Community_58

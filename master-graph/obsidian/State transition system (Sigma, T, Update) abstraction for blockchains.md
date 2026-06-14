@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-58-coda-mina.pdf"
 type: "paper"
-community: "Community 25"
+community: "Community 13"
 location: "Def 4.1, §4.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_25
+  - community/Community_13
 ---
 
 # State transition system (Sigma, T, Update) abstraction for blockchains
@@ -15,4 +15,4 @@ tags:
 - [[Incrementally Verifiable Computation (IVC)]] - `conceptually_related_to` [EXTRACTED]
 - [[Incrementally-computable SNARK for a state transition system]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_25
+#graphify/paper #graphify/EXTRACTED #community/Community_13

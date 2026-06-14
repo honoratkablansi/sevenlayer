@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch04-the-hidden-bottleneck.md"
 type: "document"
-community: "Community 89"
+community: "Community 86"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_89
+  - community/Community_86
 ---
 
 # The Hidden Bottleneck
@@ -22,4 +22,4 @@ tags:
 - [[Witness-Constraint Divergence]] - `references` [EXTRACTED]
 - [[ZKPOG (GPU Witness Acceleration)]] - `cites` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_89
+#graphify/document #graphify/EXTRACTED #community/Community_86

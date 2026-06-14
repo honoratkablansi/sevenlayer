@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-88-provisions.pdf"
 type: "paper"
-community: "Community 39"
+community: "Community 73"
 location: "§5; App B Protocol 4; ref [23]"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_39
+  - community/Community_73
 ---
 
 # Bit-decomposition range proof for committed balances (no trusted setup)
@@ -17,4 +17,4 @@ tags:
 - [[Pedersen Commitment]] - `assumes` [EXTRACTED]
 - [[Privacy-preserving proof of liabilities (Protocol 2)]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_39
+#graphify/paper #graphify/EXTRACTED #community/Community_73

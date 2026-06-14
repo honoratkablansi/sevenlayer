@@ -1,31 +1,31 @@
 ---
 type: community
-cohesion: 0.24
+cohesion: 0.17
 members: 16
 ---
 
 # Community 83
 
-**Cohesion:** 0.24 - loosely connected
+**Cohesion:** 0.17 - loosely connected
 **Members:** 16 nodes
 
 ## Members
-- [[Custom proof system for lattice hash range proof (Plookup) + Freivalds + univariate SumCheck (Aurora)]] - paper - references/recursion/ch3/ref-78-veritas.pdf
-- [[Extended PLONK permutation argument (tau') tying circuit trace T(X) to witness polynomial W(X)]] - paper - references/recursion/ch3/ref-78-veritas.pdf
-- [[Homomorphic  redactable signatures (alternate, SNARK-free designs; impractical for blurresize)]] - paper - references/recursion/ch3/ref-78-veritas.pdf
-- [[Image Authentication (IA) proving an image faithfully represents an original photograph from a given capture device class]] - paper - references/recursion/ch3/ref-77-photoproof.pdf
-- [[Instance-witness relation R f(w)=x AND SigVerify(vk,w,sigma)=1 (signed original to edited image)]] - paper - references/recursion/ch3/ref-78-veritas.pdf
-- [[Lattice+Poseidon hash H(v)=Poseidon(A·v mod q) SNARK-friendly hash for 30 MP images (Mode 1)]] - paper - references/recursion/ch3/ref-78-veritas.pdf
-- [[Performance proof for 90 MB  30 MP image in ~13 min ($0.54, weak signer) or ~3 min ($0.13, powerful signer), verify 1 s]] - paper - references/recursion/ch3/ref-78-veritas.pdf
-- [[Photo-edit circuits in Plonky2 crop, grayscale, bilinear resize, box blur (fixed-point, AP-acceptable edits)]] - paper - references/recursion/ch3/ref-78-veritas.pdf
-- [[PhotoProof (Naveh & Tromer 2016) - prior ZK image-edit proofs, impractical proving time]] - paper - references/recursion/ch3/ref-78-veritas.pdf
-- [[Polynomial-commitment hash (Mode 2) signer commits to poly(w); SNARK circuit avoids hashingsignature verification]] - paper - references/recursion/ch3/ref-78-veritas.pdf
-- [[Short Integer Solution (SIS) lattice hash H_A(v)=Av mod q (linear, low-norm preimage)]] - paper - references/recursion/ch3/ref-78-veritas.pdf
-- [[Theorem 5.1 RangeCheck (Alg.1-2) is a zk-SNARK for relation R_RP (rangelow-norm proof)]] - paper - references/recursion/ch3/ref-78-veritas.pdf
-- [[Theorem 5.2 LatticeHash proof (Alg.3-4) is a zk-SNARK for relation R'_LH (knowledge of low-norm preimage)]] - paper - references/recursion/ch3/ref-78-veritas.pdf
-- [[VerITAS Verifying Image Transformations at Scale (Datta, Chen, Boneh, ePrint 20241066)]] - paper - references/recursion/ch3/ref-78-veritas.pdf
-- [[ZK-IMG (Kang et al. 2022) - 100x speedup over PhotoProof but limited to 720p900 KP images]] - paper - references/recursion/ch3/ref-78-veritas.pdf
-- [[opt-VerITAS precommitted rows of A reduce verifier time ~20x (30 MP verify ~0.8 s) at cost of larger proofs]] - paper - references/recursion/ch3/ref-78-veritas.pdf
+- [[Batching of polynomial commitments & grand-product arguments (random linear combinations)]] - paper - references/ch10/ref-36-sonic.pdf
+- [[Bivariate constraint system a∘b=c plus Q linear constraints, embedded as constant term of t(X,Y)]] - paper - references/ch10/ref-36-sonic.pdf
+- [[Bounded Polynomial Extractability & Evaluation Binding (PCS properties)]] - paper - references/ch10/ref-36-sonic.pdf
+- [[Constant 256-byte proofs, ~0.7ms helped verification, BLS12-381 Rust implementation]] - paper - references/ch10/ref-36-sonic.pdf
+- [[Grand-Product Argument (gprodPgprodV, prod a_i = prod b_i)]] - paper - references/ch10/ref-36-sonic.pdf
+- [[Helped mode untrusted helper aggregates a batch of proofs (best practical efficiency)]] - paper - references/ch10/ref-36-sonic.pdf
+- [[Linear-size monomial SRS {g{xi}, g{alpha xi}, h{xi}, h{alpha xi}, e(g,halpha)}, galpha omitted]] - paper - references/ch10/ref-36-sonic.pdf
+- [[Maller et al. — Sonic Universal and Updatable SRS (CCS 2019)]] - document - proving-nothing.md
+- [[Mary Maller]] - document - references/ch10/ref-36-sonic.pdf
+- [[Modified KZG polynomial commitment for Laurent polynomials (bounded-degree, single-point hidden)]] - paper - references/ch10/ref-36-sonic.pdf
+- [[Polynomial Permutation Argument (DerivepermPpermV)]] - paper - references/ch10/ref-36-sonic.pdf
+- [[Signature of Correct Computation (scPscV) for s(z,y) of public s(X,Y)]] - paper - references/ch10/ref-36-sonic.pdf
+- [[Sonic zk-SNARK (universal & updatable linear-size SRS)]] - paper - references/ch10/ref-36-sonic.pdf
+- [[Unhelped (standalone) signature of correct computation — succinct verifier, higher overhead]] - paper - references/ch10/ref-36-sonic.pdf
+- [[Universal vs Circuit-Specific SRS]] - document - proving-nothing.md
+- [[Well-Formedness Argument (commitment to sum a_i Xi, no constant term)]] - paper - references/ch10/ref-36-sonic.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -35,18 +35,21 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 4 edges to [[_COMMUNITY_Community 9]]
-- 3 edges to [[_COMMUNITY_Community 36]]
-- 3 edges to [[_COMMUNITY_Community 62]]
-- 3 edges to [[_COMMUNITY_Community 1]]
-- 2 edges to [[_COMMUNITY_Community 74]]
-- 2 edges to [[_COMMUNITY_Community 103]]
-- 1 edge to [[_COMMUNITY_Community 28]]
-- 1 edge to [[_COMMUNITY_Community 23]]
+- 6 edges to [[_COMMUNITY_Community 11]]
+- 4 edges to [[_COMMUNITY_Community 34]]
+- 3 edges to [[_COMMUNITY_Community 59]]
+- 2 edges to [[_COMMUNITY_Community 43]]
+- 2 edges to [[_COMMUNITY_Community 15]]
+- 2 edges to [[_COMMUNITY_Community 105]]
+- 2 edges to [[_COMMUNITY_Community 99]]
+- 1 edge to [[_COMMUNITY_Community 70]]
+- 1 edge to [[_COMMUNITY_Community 41]]
+- 1 edge to [[_COMMUNITY_Community 17]]
+- 1 edge to [[_COMMUNITY_Community 5]]
 
 ## Top bridge nodes
-- [[VerITAS Verifying Image Transformations at Scale (Datta, Chen, Boneh, ePrint 20241066)]] - degree 22, connects to 7 communities
-- [[Image Authentication (IA) proving an image faithfully represents an original photograph from a given capture device class]] - degree 8, connects to 2 communities
-- [[Lattice+Poseidon hash H(v)=Poseidon(A·v mod q) SNARK-friendly hash for 30 MP images (Mode 1)]] - degree 6, connects to 1 community
-- [[Custom proof system for lattice hash range proof (Plookup) + Freivalds + univariate SumCheck (Aurora)]] - degree 5, connects to 1 community
-- [[Instance-witness relation R f(w)=x AND SigVerify(vk,w,sigma)=1 (signed original to edited image)]] - degree 4, connects to 1 community
+- [[Universal vs Circuit-Specific SRS]] - degree 15, connects to 8 communities
+- [[Sonic zk-SNARK (universal & updatable linear-size SRS)]] - degree 14, connects to 5 communities
+- [[Mary Maller]] - degree 4, connects to 3 communities
+- [[Modified KZG polynomial commitment for Laurent polynomials (bounded-degree, single-point hidden)]] - degree 7, connects to 2 communities
+- [[Bivariate constraint system a∘b=c plus Q linear constraints, embedded as constant term of t(X,Y)]] - degree 3, connects to 1 community

@@ -1,26 +1,27 @@
 ---
 type: community
-cohesion: 0.20
-members: 11
+cohesion: 0.23
+members: 12
 ---
 
 # Community 103
 
-**Cohesion:** 0.20 - loosely connected
-**Members:** 11 nodes
+**Cohesion:** 0.23 - loosely connected
+**Members:** 12 nodes
 
 ## Members
-- [[C2PA (Coalition for Content Provenance and Authenticity) camera-signature standard]] - paper - references/recursion/ch3/ref-78-veritas.pdf
-- [[C2PA Technical Specification (Content Credentials)]] - document - references/recursion/ch3/ref-79-c2pa-specification.md
-- [[Certificate Transparency]] - document - references/recursion/ch3/ref-65-rfc-6962-certificate-transparency.md
-- [[Content Credentials trust model (X.509 signers)]] - document - references/recursion/ch3/ref-79-c2pa-specification.md
-- [[Glass-to-glass end-to-end security (camera to user screen, no trusted editor)]] - paper - references/recursion/ch3/ref-78-veritas.pdf
-- [[Merkle Hash Tree]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[Merkle audit and consistency proofs]] - document - references/recursion/ch3/ref-65-rfc-6962-certificate-transparency.md
-- [[Misissued-certificate detection by monitors and auditors]] - document - references/recursion/ch3/ref-65-rfc-6962-certificate-transparency.md
-- [[RFC 6962 Certificate Transparency]] - document - references/recursion/ch3/ref-65-rfc-6962-certificate-transparency.md
-- [[Signed Certificate Timestamp (SCT)]] - document - references/recursion/ch3/ref-65-rfc-6962-certificate-transparency.md
-- [[Verifiable transparency logs]] - document - recursion/recursion-outline.md
+- [[Apposcopy inter-component call graph (ICCG) abstraction]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
+- [[CirC Compiler Infrastructure]] - paper - references/snowball/book/ref-122-circ-compiler-infrastructure-for-proof-systems.pdf
+- [[Circomspect Static Analyzer]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[Circuit Dependence Graph (CDG)]] - document - references/ch03/ref-13-practical-security-zk-circuits.pdf
+- [[Circuit Dependence Graph (CDG) abstraction G=(V,Ed,Ec)]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
+- [[Constrained Horn Clause  Datalog query]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
+- [[Constraint Compiler]] - paper - references/snowball/book/ref-122-circ-compiler-infrastructure-for-proof-systems.pdf
+- [[Datalog-style CDG construction inference rules]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
+- [[Practical Security Analysis of Zero-Knowledge Proof Circuits]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
+- [[Static Analysis]] - document - references/ch03/ref-13-practical-security-zk-circuits.pdf
+- [[ZKAP (static analyzer for ZKP circuits)]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
+- [[ZKAP evaluation on 258 Circom circuits (17 projects)]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -30,15 +31,19 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 2 edges to [[_COMMUNITY_Community 60]]
-- 2 edges to [[_COMMUNITY_Community 9]]
-- 2 edges to [[_COMMUNITY_Community 83]]
-- 1 edge to [[_COMMUNITY_Community 25]]
-- 1 edge to [[_COMMUNITY_Community 50]]
+- 4 edges to [[_COMMUNITY_Community 90]]
+- 3 edges to [[_COMMUNITY_Community 3]]
+- 3 edges to [[_COMMUNITY_Community 69]]
+- 2 edges to [[_COMMUNITY_Community 95]]
+- 1 edge to [[_COMMUNITY_Community 20]]
+- 1 edge to [[_COMMUNITY_Community 41]]
+- 1 edge to [[_COMMUNITY_Community 15]]
+- 1 edge to [[_COMMUNITY_Community 5]]
+- 1 edge to [[_COMMUNITY_Community 24]]
 
 ## Top bridge nodes
-- [[C2PA (Coalition for Content Provenance and Authenticity) camera-signature standard]] - degree 6, connects to 3 communities
-- [[Verifiable transparency logs]] - degree 4, connects to 2 communities
-- [[Content Credentials trust model (X.509 signers)]] - degree 3, connects to 1 community
-- [[Merkle Hash Tree]] - degree 3, connects to 1 community
-- [[Glass-to-glass end-to-end security (camera to user screen, no trusted editor)]] - degree 2, connects to 1 community
+- [[Practical Security Analysis of Zero-Knowledge Proof Circuits]] - degree 10, connects to 6 communities
+- [[Static Analysis]] - degree 5, connects to 2 communities
+- [[CirC Compiler Infrastructure]] - degree 4, connects to 2 communities
+- [[Circomspect Static Analyzer]] - degree 4, connects to 2 communities
+- [[Circuit Dependence Graph (CDG) abstraction G=(V,Ed,Ec)]] - degree 6, connects to 1 community

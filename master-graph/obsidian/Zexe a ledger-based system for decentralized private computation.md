@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-90-zexe.pdf"
 type: "paper"
-community: "Community 43"
+community: "Community 6"
 location: "Abstract; §1.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_43
+  - community/Community_6
 ---
 
 # Zexe: a ledger-based system for decentralized private computation
@@ -27,4 +27,4 @@ tags:
 - [[Succinctness transactions validated in time independent of offline computation (968 bytes)]] - `proves` [EXTRACTED]
 - [[Zerocash]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_43
+#graphify/paper #graphify/EXTRACTED #community/Community_6

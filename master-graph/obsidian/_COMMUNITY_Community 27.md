@@ -1,41 +1,46 @@
 ---
 type: community
-cohesion: 0.12
-members: 26
+cohesion: 0.09
+members: 31
 ---
 
 # Community 27
 
-**Cohesion:** 0.12 - loosely connected
-**Members:** 26 nodes
+**Cohesion:** 0.09 - loosely connected
+**Members:** 31 nodes
 
 ## Members
-- [[CRYSTALS-Kyber KEM (round-three NIST PQC submission)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[Centered Binomial Distribution (CBD) noise sampling]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[Cryptographic functions HJGPRFXOF from SHA-3 and SHAKE (FIPS 202)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[Decapsulation failure probability (2-138.8 to 2-174.8)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[Fujisaki-Okamoto (FO) transform]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[HVZK  hiding variant via Module-LWE masking]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[IND-CCA2 security]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[Implicit rejection mechanism (re-encryption ciphertext comparison)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[K-PKE component public-key encryption scheme (KeyGenEncryptDecrypt)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[Key-Encapsulation Mechanism (KEM)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[ML-KEM (Module-Lattice-Based Key-Encapsulation Mechanism, FIPS 203)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[ML-KEM Key-Encapsulation Mechanism]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[ML-KEM internal derandomized algorithms (KeyGenEncapsDecaps_internal)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[ML-KEM-1024 (k=4, security category 5, 256-bit RBG)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[ML-KEM-512 (k=2, security category 1, 128-bit RBG)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[ML-KEM-768 (k=3, security category 3, 192-bit RBG, NIST default)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[ML-KEM.Decaps (deterministic decapsulation, Algorithm 21)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[ML-KEM.Encaps (probabilistic encapsulation, Algorithm 20)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[ML-KEM.KeyGen (probabilistic key generation, Algorithm 19)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[Module Learning With Errors (MLWE)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[NIST PQC security strength categories (1-5)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[PQC-Classical Hybrid Protocols (composite KEM via SP 800-56C, dual signatures)]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
-- [[Public-Key Encryption]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[Ring-LWE]] - paper - references/snowball/recursion/ref-108-worst-case-to-average-case-reductions-for-module.pdf
-- [[Security based on Module-LWE over R_q plus SelfTargetMSIS, a nonstandard variant of Module-SIS]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[Worst-Case to Average-Case Reduction]] - paper - references/snowball/recursion/ref-108-worst-case-to-average-case-reductions-for-module.pdf
+- [[2PC query execution over TLS prover and verifier run custom 2PC (2PC-HMAC, 2PC-GCM) to construct TLS records under secret-shared keys]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[2PC-HMAC optimization compute inner-hash IV s0=f_H(IV, k+ipad) once, local inner hash regardless of query length]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[3-AES-invocation record revelation vs 1027 naive AES-in-ZKP, via CBC MAC-then-encrypt structure]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Authenticated data feed (ADF) for smart contracts]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Blockchainsmart-contract oracle protocol (provenance of online data)]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Cited Bulletproofs (transparent-setup ZK alternative to libsnark)]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Cited Camenisch-Stadler ZK-PoK notation for proofs of knowledge]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Cited Canetti, Universally Composable Security framework]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Cited Cinderella (verifiable computation over X.509 certificates)]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Cited TLS-N (server-side TLS 1.3 extension signing session, chunk-level redaction)]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Cited TLSNotary (deprecated-TLS auditor oracle, no privacy from oracle)]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Cited Town Crier (TEESGX-based oracle, ADF term origin)]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Cited Yao garbled circuits (basis of 2PC for bitwise ops)]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Cited libsnark zk-SNARK library (Ben-Sasson et al. proof system 18)]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Cited secret-sharing MtA (multiplicative-to-additive) protocol used in ECtF]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Context-integrity property and context-integrity attacks (quoting out of context  reflection attack) universal to privacy-preserving oracles]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[DECO decentralized oracle for TLS (Zhang, Maram, Malvai, Goldfeder, Juels, CCS 2020)]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Decentralized Oracle for TLS]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[ECtF protocol convert additive shares of an EC point in GF(p) to additive shares of its x-coordinate in F_p (8-ciphertext comm.)]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Efficient selective opening of TLS records (RevealRedact modes) exploiting MAC-then-encrypt and Merkle-Damgard structure]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Ideal functionality F_Oracle (formal security definition of decentralized oracle) between S, P, V]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Key idea withhold MAC key share from prover until after commitment, making session-data commitment unforgeable]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Key-value grammar optimization (globally unique keys) for JSONHTML two-stage parsing]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Secure multi-party computation (MPC)  two-party computation (2PC)]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Security properties prover-integrity, verifier-integrity, privacy under static malicious adversary]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Theorem 4.1 Prot_DECO UC-securely realizes F_Oracle in (F_2PC, F_ZK)-hybrid world, assuming hard discrete log and SHA-256 compression as random oracle]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Three-party handshake (3P-HS) prover+verifier jointly act as TLS client, secret-share session keys with server, transparent to server]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Transport Layer Security (TLS) handshake + record protocol]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Trust model no trusted hardware, no server-side modification; oracle trusted for integrity not privacy; privacy holds even if all oracles compromised]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Universally Composable (UC) security via ideal functionality]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Zero-knowledge two-stage parsing scheme local pre-process (Trans) then prove context integrity on shorter transformed string]] - paper - references/recursion/ch3/ref-87-deco.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -45,19 +50,17 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 6 edges to [[_COMMUNITY_Community 0]]
-- 3 edges to [[_COMMUNITY_Community 89]]
-- 3 edges to [[_COMMUNITY_Community 45]]
-- 2 edges to [[_COMMUNITY_Community 15]]
-- 2 edges to [[_COMMUNITY_Community 81]]
-- 2 edges to [[_COMMUNITY_Community 111]]
-- 1 edge to [[_COMMUNITY_Community 6]]
-- 1 edge to [[_COMMUNITY_Community 18]]
-- 1 edge to [[_COMMUNITY_Community 77]]
+- 5 edges to [[_COMMUNITY_Community 20]]
+- 2 edges to [[_COMMUNITY_Community 48]]
+- 2 edges to [[_COMMUNITY_Community 100]]
+- 2 edges to [[_COMMUNITY_Community 21]]
+- 1 edge to [[_COMMUNITY_Community 41]]
+- 1 edge to [[_COMMUNITY_Community 11]]
+- 1 edge to [[_COMMUNITY_Community 59]]
 
 ## Top bridge nodes
-- [[ML-KEM Key-Encapsulation Mechanism]] - degree 12, connects to 5 communities
-- [[Module Learning With Errors (MLWE)]] - degree 12, connects to 4 communities
-- [[ML-KEM (Module-Lattice-Based Key-Encapsulation Mechanism, FIPS 203)]] - degree 17, connects to 2 communities
-- [[CRYSTALS-Kyber KEM (round-three NIST PQC submission)]] - degree 5, connects to 2 communities
-- [[Security based on Module-LWE over R_q plus SelfTargetMSIS, a nonstandard variant of Module-SIS]] - degree 3, connects to 2 communities
+- [[DECO decentralized oracle for TLS (Zhang, Maram, Malvai, Goldfeder, Juels, CCS 2020)]] - degree 22, connects to 2 communities
+- [[Secure multi-party computation (MPC)  two-party computation (2PC)]] - degree 6, connects to 2 communities
+- [[Efficient selective opening of TLS records (RevealRedact modes) exploiting MAC-then-encrypt and Merkle-Damgard structure]] - degree 5, connects to 2 communities
+- [[Decentralized Oracle for TLS]] - degree 3, connects to 2 communities
+- [[Transport Layer Security (TLS) handshake + record protocol]] - degree 5, connects to 1 community

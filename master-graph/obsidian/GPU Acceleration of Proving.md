@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 108"
+community: "Community 109"
 location: "Chapter 4"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_108
+  - community/Community_109
 ---
 
 # GPU Acceleration of Proving
@@ -17,4 +17,4 @@ tags:
 - [[Number-Theoretic Transform (NTT)]] - `references` [EXTRACTED]
 - [[The Witness Gap]] - `explains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_108
+#graphify/document #graphify/EXTRACTED #community/Community_109

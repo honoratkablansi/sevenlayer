@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-17-nova.pdf"
 type: "paper"
-community: "Community 90"
+community: "Community 121"
 location: "§1.3, ref [4]"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_90
+  - community/Community_121
 ---
 
 # Pasta Cycle of Elliptic Curves
@@ -22,4 +22,4 @@ tags:
 - [[The Pasta Curves for Halo 2 and Beyond (Hopwood, ECC 2020)]] - `introduces` [EXTRACTED]
 - [[Tweedle Curves]] - `compares` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_90
+#graphify/paper #graphify/EXTRACTED #community/Community_121

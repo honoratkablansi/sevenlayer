@@ -1,25 +1,25 @@
 ---
 type: community
-cohesion: 0.29
+cohesion: 0.24
 members: 10
 ---
 
 # Community 114
 
-**Cohesion:** 0.29 - loosely connected
+**Cohesion:** 0.24 - loosely connected
 **Members:** 10 nodes
 
 ## Members
-- [[Algebraic-attack security interpolation and Groebner-basis attacks dominate; degree D_alpha(r) = alphar; round bounds derived from degree-of-regularity  monomial-count estimates (Eq. 3,4,10)]] - paper - references/recursion/ch1/ref-31-poseidon.pdf
-- [[Cited attack work KR21 (Mind the Middle Layer) and BCD+20 (Out of Oddity) - linear-layersubspace attacks motivating the new MDS assumption; ABM23 algebraic cryptanalysis of Poseidon]] - paper - references/recursion/ch1/ref-31-poseidon.pdf
-- [[Cited prior work HADES design strategy  HADESMiMC GLR+20 - the keyed SPN family Poseidon-pi instantiates]] - paper - references/recursion/ch1/ref-31-poseidon.pdf
-- [[Cited prior work wide trail design strategy DR01  AES DR02 - basis for full-round statistical security]] - paper - references/recursion/ch1/ref-31-poseidon.pdf
-- [[Full rounds (RF = 2Rf) t S-boxes applied to full state; protect against statistical attacks via wide trail strategy]] - paper - references/recursion/ch1/ref-31-poseidon.pdf
-- [[HADES design strategy mix RF full-S-box rounds (outer) with RP partial-S-box rounds (middle), one S-box in partial rounds]] - paper - references/recursion/ch1/ref-31-poseidon.pdf
-- [[Linear-layer assumption fix choosing the MDS matrix to forbid infinite subspace trails blocks the S(i)-subspace Groebner attack of KR21,BCD+20]] - paper - references/recursion/ch1/ref-31-poseidon.pdf
-- [[MixLayer t-by-t MDS (Cauchy) matrix linear layer realizing wide trail strategy; matrix chosen to block infinite subspace trails]] - paper - references/recursion/ch1/ref-31-poseidon.pdf
-- [[Partial rounds (RP) single S-box plus (t-1) identity functions; cheap way to raise algebraic degree, reduce R1CSAET cost]] - paper - references/recursion/ch1/ref-31-poseidon.pdf
-- [[Round-number selection choose minimal RF (=6) for statistical attacks, minimize tRF+RP subject to algebraic-attack bounds, plus margin (+2 RF, +7.5% RP)]] - paper - references/recursion/ch1/ref-31-poseidon.pdf
+- [[Accumulation Scheme (P_acc, V_acc, D) for NARK Verifier with Slack mu and Error Commitment E]] - paper - references/ch06/ref-19-protostar.pdf
+- [[Branched-Gate Caching for Non-Uniform Error Terms (cost ~ C_pc not sum C_i)]] - paper - references/ch06/ref-19-protostar.pdf
+- [[Commit-and-Open Transform cmPi_sps (Lemma 2)]] - paper - references/ch06/ref-19-protostar.pdf
+- [[Cross Error-Correcting Terms e_j_{j=1}{d-1} as Accumulation Proof]] - paper - references/ch06/ref-19-protostar.pdf
+- [[Homomorphic  Trapdoor Commitment Property]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Homomorphic Sparse Error-Commitment Update for Lookups (O(l) indep. of T)]] - paper - references/ch06/ref-19-protostar.pdf
+- [[RO-NARK FScmPi_sps from Special-Sound Protocol]] - paper - references/ch06/ref-19-protostar.pdf
+- [[Relaxed Algebraic Verifier Predicate sum mu(d-j) f_j = e]] - paper - references/ch06/ref-19-protostar.pdf
+- [[Sumcheck-Style Error-Term Computation Algorithm O(d2 log d)]] - paper - references/ch06/ref-19-protostar.pdf
+- [[Theorem 2 Accumulation Knowledge Soundness (d+1)-special-sound, error (Q+1)(d+1)F]] - paper - references/ch06/ref-19-protostar.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -29,12 +29,18 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 4 edges to [[_COMMUNITY_Community 120]]
-- 1 edge to [[_COMMUNITY_Community 101]]
+- 4 edges to [[_COMMUNITY_Community 76]]
+- 2 edges to [[_COMMUNITY_Community 71]]
+- 2 edges to [[_COMMUNITY_Community 57]]
+- 1 edge to [[_COMMUNITY_Community 20]]
+- 1 edge to [[_COMMUNITY_Community 70]]
+- 1 edge to [[_COMMUNITY_Community 22]]
+- 1 edge to [[_COMMUNITY_Community 11]]
+- 1 edge to [[_COMMUNITY_Community 49]]
 
 ## Top bridge nodes
-- [[Full rounds (RF = 2Rf) t S-boxes applied to full state; protect against statistical attacks via wide trail strategy]] - degree 5, connects to 1 community
-- [[Partial rounds (RP) single S-box plus (t-1) identity functions; cheap way to raise algebraic degree, reduce R1CSAET cost]] - degree 5, connects to 1 community
-- [[HADES design strategy mix RF full-S-box rounds (outer) with RP partial-S-box rounds (middle), one S-box in partial rounds]] - degree 4, connects to 1 community
-- [[Round-number selection choose minimal RF (=6) for statistical attacks, minimize tRF+RP subject to algebraic-attack bounds, plus margin (+2 RF, +7.5% RP)]] - degree 4, connects to 1 community
-- [[MixLayer t-by-t MDS (Cauchy) matrix linear layer realizing wide trail strategy; matrix chosen to block infinite subspace trails]] - degree 3, connects to 1 community
+- [[Homomorphic  Trapdoor Commitment Property]] - degree 9, connects to 4 communities
+- [[Accumulation Scheme (P_acc, V_acc, D) for NARK Verifier with Slack mu and Error Commitment E]] - degree 7, connects to 3 communities
+- [[Commit-and-Open Transform cmPi_sps (Lemma 2)]] - degree 3, connects to 1 community
+- [[RO-NARK FScmPi_sps from Special-Sound Protocol]] - degree 3, connects to 1 community
+- [[Branched-Gate Caching for Non-Uniform Error Terms (cost ~ C_pc not sum C_i)]] - degree 2, connects to 1 community

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-46-zk-memory-algebraic-proofs.pdf"
 type: "paper"
-community: "Community 54"
+community: "Community 6"
 location: "§5"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_54
+  - community/Community_6
 ---
 
 # Persistent RAM AIP (committed initial/final states)
@@ -18,4 +18,4 @@ tags:
 - [[Read-over-write (RoW) validity condition for transcripts]] - `assumes` [EXTRACTED]
 - [[Volatile and Persistent Memory for zkSNARKs via Algebraic Interactive Proofs]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_54
+#graphify/paper #graphify/EXTRACTED #community/Community_6

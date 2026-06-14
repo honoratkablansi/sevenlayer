@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-87-deco.pdf"
 type: "paper"
-community: "Community 32"
+community: "Community 41"
 location: "Section 5"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_32
+  - community/Community_41
 ---
 
 # Selective Opening / context integrity
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `relates_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_32
+#graphify/paper #graphify/EXTRACTED #community/Community_41

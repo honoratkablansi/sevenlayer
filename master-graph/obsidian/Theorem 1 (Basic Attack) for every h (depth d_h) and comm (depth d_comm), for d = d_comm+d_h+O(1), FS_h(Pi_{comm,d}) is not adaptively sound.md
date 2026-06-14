@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-11-khovratovich-fiat-shamir-attacks.pdf"
 type: "paper"
-community: "Community 101"
+community: "Community 122"
 location: "Theorem 1 (p.4)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_101
+  - community/Community_122
 ---
 
 # Theorem 1 (Basic Attack): for every h (depth d_h) and comm (depth d_comm), for d >= d_comm+d_h+O(1), FS_h(Pi_{comm,d}) is not adaptively sound
@@ -17,4 +17,4 @@ tags:
 - [[Soundness attack producing an accepting proof for a false statement in a FS-compiled argument (adaptive and non-adaptive variants)]] - `proves` [EXTRACTED]
 - [[Theorem 2 (Extended Attack) poly-time A turns any admissible circuit C into functionally-equivalent C (depth d+d_comm+O(d_h log l)) plus proof that C(x,w)=y for arbitrary y; soundness depends_296f75ab]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_101
+#graphify/paper #graphify/EXTRACTED #community/Community_122

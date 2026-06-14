@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 25"
+community: "Community 22"
 location: "Chapter 6"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_25
+  - community/Community_22
 ---
 
 # Incrementally Verifiable Computation (IVC)
@@ -20,11 +20,14 @@ tags:
 - [[CycleFold (ePrint 20231192)]] - `conceptually_related_to` [EXTRACTED]
 - [[Folding Scheme]] - `uses` [EXTRACTED]
 - [[GKR protocol doubly-efficient interactive proof for bounded-depth computation via layer-by-layer sumcheck reduction; prover need not commit to full trace]] - `uses` [EXTRACTED]
+- [[Groth16]] - `enables` [EXTRACTED]
 - [[Halo Infinite]] - `relates_to` [EXTRACTED]
 - [[High-integrity and embedded systems]] - `conceptually_related_to` [EXTRACTED]
 - [[Historical Arc of Recursion (2008-2026)]] - `references` [EXTRACTED]
 - [[HyperNova Recursive Arguments for Customizable Constraint Systems]] - `implements` [EXTRACTED]
+- [[IVC via Homomorphic Commitments (Nova  Folding)]] - `enables` [EXTRACTED]
 - [[Incrementally-computable SNARK for a state transition system]] - `defines` [EXTRACTED]
+- [[Iterative  Incremental Computation (F(i)(x))]] - `generalizes` [EXTRACTED]
 - [[LatticeFold+ Faster, Simpler, Shorter Lattice-Based Folding for Succinct Proof Systems]] - `conceptually_related_to` [EXTRACTED]
 - [[Layer 5 -- The Sealed Certificate]] - `defines` [EXTRACTED]
 - [[Mangrove]] - `uses` [EXTRACTED]
@@ -37,6 +40,7 @@ tags:
 - [[Nova IVC Scheme (Construction 3)]] - `defines` [EXTRACTED]
 - [[Nova Recursive Zero-Knowledge Arguments from Folding Schemes]] - `defines` [EXTRACTED]
 - [[Outsourced and streaming computation]] - `conceptually_related_to` [EXTRACTED]
+- [[Overhead of Recursion]] - `relates_to` [EXTRACTED]
 - [[Parallel scan state (decouple block production from SNARK proving)]] - `assumes` [EXTRACTED]
 - [[Practical efficiency boost time-asymmetric encodings as the sequential computation inside IVC (~7,000x SNARK efficiency gain)]] - `assumes` [EXTRACTED]
 - [[Proof-Carrying Data (PCD)]] - `relates_to` [EXTRACTED]
@@ -51,6 +55,7 @@ tags:
 - [[Recursive SNARK]] - `conceptually_related_to` [EXTRACTED]
 - [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `uses` [EXTRACTED]
 - [[SNARK  SNARG verifiable-computation primitive (Def. 8) used to make Verify succinct]] - `assumes` [EXTRACTED]
+- [[SNARK Composition (Proof Composition)]] - `enables` [EXTRACTED]
 - [[SNARK-aggregated signatures]] - `conceptually_related_to` [EXTRACTED]
 - [[State transition system (Sigma, T, Update) abstraction for blockchains]] - `conceptually_related_to` [EXTRACTED]
 - [[Succinct blockchain]] - `assumes` [EXTRACTED]
@@ -69,4 +74,4 @@ tags:
 - [[ZKML (Zero-Knowledge Machine Learning)]] - `conceptually_related_to` [EXTRACTED]
 - [[Val08 Valiant, Incrementally Verifiable Computation or Proofs of Knowledge Imply TimeSpace Efficiency (TCC 2008)]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_25
+#graphify/document #graphify/EXTRACTED #community/Community_22

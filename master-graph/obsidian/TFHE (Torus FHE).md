@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 4"
+community: "Community 21"
 location: "Chapter 9"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_4
+  - community/Community_21
 ---
 
 # TFHE (Torus FHE)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Fully Homomorphic Encryption (FHE)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_4
+#graphify/document #graphify/EXTRACTED #community/Community_21

@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 89"
+community: "Community 86"
 location: "Chapter 14"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_89
+  - community/Community_86
 ---
 
 # ZKPOG (GPU Witness Acceleration)
@@ -19,4 +19,4 @@ tags:
 - [[Witness Generation]] - `references` [EXTRACTED]
 - [[Witness Generation Costs]] - `cites` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_89
+#graphify/document #graphify/EXTRACTED #community/Community_86

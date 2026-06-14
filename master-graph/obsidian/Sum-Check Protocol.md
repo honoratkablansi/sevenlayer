@@ -1,31 +1,35 @@
 ---
 source_file: "recursion/recursion-outline.md"
 type: "document"
-community: "Community 40"
+community: "Community 9"
 location: "Recursion Chapter 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_40
+  - community/Community_9
 ---
 
 # Sum-Check Protocol
 
 ## Connections
+- [[SAT Interactive Proof]] - `uses` [EXTRACTED]
 - [[Accumulation Schemes]] - `used` [EXTRACTED]
 - [[Aurora]] - `uses` [EXTRACTED]
 - [[BaseFold]] - `uses` [EXTRACTED]
 - [[BatchZK Pipelining (2025)]] - `references` [EXTRACTED]
+- [[Boolean Hypercube]] - `uses` [EXTRACTED]
 - [[CCS The Rosetta Stone]] - `references` [EXTRACTED]
 - [[CMT protocol (Cormode-Mitzenmacher-Thaler interactive proof for layered arithmetic circuits)]] - `assumes` [EXTRACTED]
 - [[Commitment Transformation Protocol Pi_cm]] - `conceptually_related_to` [EXTRACTED]
 - [[Construction 1 multi-folding scheme for CCS over a cycle of curves]] - `assumes` [EXTRACTED]
 - [[Cormode-Thaler-Yi (CTY11) linear-time and sparse streaming sum-check provers]] - `conceptually_related_to` [EXTRACTED]
+- [[Counting Triangles IP]] - `uses` [EXTRACTED]
 - [[Customizable Constraint Systems for Succinct Arguments]] - `conceptually_related_to` [EXTRACTED]
 - [[Delegating Computation Interactive Proofs for Muggles (GKR, STOC 2008  full version)]] - `defines` [EXTRACTED]
 - [[Delegating F~ evaluation via sequence of sum-checks verifier time O(log2 N), proof size O(log2 N)]] - `conceptually_related_to` [EXTRACTED]
 - [[Encoding of R1CS as a degree-3 log m-variate polynomial G_{io,τ} summing to 0 (Theorem 4.1)]] - `conceptually_related_to` [EXTRACTED]
 - [[Encoding the Performance]] - `references` [EXTRACTED]
+- [[Finite Field Arithmetic]] - `uses` [EXTRACTED]
 - [[Folding Scheme]] - `relates_to` [EXTRACTED]
 - [[GKR protocol doubly-efficient interactive proof for bounded-depth computation via layer-by-layer sumcheck reduction; prover need not commit to full trace]] - `uses` [EXTRACTED]
 - [[Glossary of Key Terms]] - `defines` [EXTRACTED]
@@ -35,6 +39,7 @@ tags:
 - [[HyperPlonk]] - `uses` [EXTRACTED]
 - [[Incrementally Verifiable Computation (IVC)]] - `relates_to` [EXTRACTED]
 - [[Interactive Oracle Proofs]] - `uses` [EXTRACTED]
+- [[Interactive Proof (IP) prover-verifier protocol with statistical soundness]] - `builds_on` [EXTRACTED]
 - [[Jolt sum-check-based zkVM for RISC-V]] - `assumes` [EXTRACTED]
 - [[LFKN LFKN90 original sum-check protocol]] - `cites` [EXTRACTED]
 - [[Lasso]] - `uses` [INFERRED]
@@ -49,11 +54,14 @@ tags:
 - [[Lookup Argument]] - `used` [EXTRACTED]
 - [[Lund, Fortnow, Karloff, Nisson LFKN92 - algebraic methods  sum-check for P (prior IP work)]] - `cites` [EXTRACTED]
 - [[Lund-Fortnow-Karloff-Nisan 35 original sum-check protocol]] - `cites` [EXTRACTED]
+- [[Masking Polynomial (ZK via Random Polynomial Blinding)]] - `uses` [EXTRACTED]
 - [[Monomial Set Check Pi_mon]] - `conceptually_related_to` [EXTRACTED]
 - [[Monomial-embedding RoK Pi_mon (Lemma 3.1) reducing monomial check to linear statement]] - `assumes` [EXTRACTED]
+- [[Multi-Prover Interactive Proofs (MIPs) and succinct arguments for circuit satisfiability]] - `uses` [EXTRACTED]
 - [[Multi-folding scheme for CCS (Construction 1)]] - `assumes` [EXTRACTED]
 - [[Multifolding]] - `references` [EXTRACTED]
-- [[Multilinear extension (MLE)]] - `references` [EXTRACTED]
+- [[Multilinear extension (MLE)]] - `uses` [EXTRACTED]
+- [[Multiplicative Subgroup Vanishing Polynomial]] - `uses` [EXTRACTED]
 - [[Neo Lattice-based Folding Scheme for CCS over Small Fields and Pay-per-bit Commitments]] - `conceptually_related_to` [EXTRACTED]
 - [[New sum-check protocol for FFT with O(N) linear prover time (faster than computing the FFT)]] - `conceptually_related_to` [EXTRACTED]
 - [[Nightstream Lattice-Based Folding for CCS (LFDT-Nightstream)]] - `references` [EXTRACTED]
@@ -64,13 +72,15 @@ tags:
 - [[Polynomial IOP for Idealized Relaxed R1CS (Construction 5)]] - `assumes` [EXTRACTED]
 - [[Proofs, Arguments, and Zero-Knowledge (Justin Thaler, survey textbook)]] - `explains` [EXTRACTED]
 - [[Proving CPU Executions in Small Space]] - `references` [EXTRACTED]
+- [[R1CS (Rank-1 Constraint Systems)]] - `relates_to` [EXTRACTED]
 - [[Real-Time Ethereum Proving]] - `references` [EXTRACTED]
 - [[RoK Pi_had reducing batched HadamardR1CS relation to linear relation (Prop 3.1)]] - `assumes` [EXTRACTED]
 - [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `relates_to` [EXTRACTED]
 - [[SP1 Hypercube Proving Ethereum in Real-Time (Succinct Labs)]] - `references` [EXTRACTED]
-- [[Schwartz-Zippel Lemma]] - `conceptually_related_to` [INFERRED]
+- [[Schwartz-Zippel Lemma]] - `uses` [INFERRED]
 - [[Setty, Spartan Efficient and General-Purpose zkSNARKs without Trusted Setup (CRYPTO 2020  ePrint 2019550)]] - `cites` [EXTRACTED]
 - [[Shout sum-check memory-checking  lookup argument for read-only memory]] - `assumes` [EXTRACTED]
+- [[Soundness Error]] - `defines` [EXTRACTED]
 - [[Spark optimal sparse multilinear PCS from Spartan; evaluates m-sparse poly in O(c·m) time via c memories of size N{1c}]] - `assumes` [EXTRACTED]
 - [[Sparrow (PP24) sqrt-space SNARK for data-parallel circuits]] - `assumes` [EXTRACTED]
 - [[Sparse-dense sum-check protocol reduces lookups into any MLE-structured table to lookups into a decomposable table]] - `conceptually_related_to` [EXTRACTED]
@@ -81,6 +91,7 @@ tags:
 - [[Strong Sampling Set]] - `assumes` [EXTRACTED]
 - [[Succinct Argument]] - `defines` [EXTRACTED]
 - [[Sumcheck-Based Norm-Bound Range Check]] - `introduces` [EXTRACTED]
+- [[Super-Efficient MatMult IP]] - `uses` [EXTRACTED]
 - [[SuperMarlin univariate-sumcheck SNARK for CCS generalizing Marlin]] - `assumes` [EXTRACTED]
 - [[SuperSpartan]] - `uses` [EXTRACTED]
 - [[SuperSpartan SNARK family for CCS generalizing Spartan's polynomial IOP]] - `assumes` [EXTRACTED]
@@ -98,14 +109,17 @@ tags:
 - [[Three zkVMs Through Seven Layers]] - `conceptually_related_to` [EXTRACTED]
 - [[Twist sum-check memory-checking argument for readwrite memory]] - `assumes` [EXTRACTED]
 - [[Two-round sum-check public-coin succinct interactive argument of knowledge for R1CS (Theorem 5.1)]] - `assumes` [EXTRACTED]
+- [[Univariate Lagrange Interpolation]] - `uses` [EXTRACTED]
+- [[Univariate Polynomial]] - `uses` [EXTRACTED]
 - [[Verifiable computation]] - `uses` [EXTRACTED]
 - [[Where the Analogies Break]] - `references` [EXTRACTED]
 - [[Where the Layers Collapse]] - `references` [EXTRACTED]
 - [[Witness Generation Costs]] - `references` [EXTRACTED]
 - [[ZKML (Zero-Knowledge Machine Learning)]] - `uses` [EXTRACTED]
 - [[Zero-Knowledge Proof]] - `improves` [EXTRACTED]
+- [[Zero-Knowledge Sum-Check Protocol]] - `builds_on` [EXTRACTED]
 - [[nlookup lookup argument (Construction 8)]] - `assumes` [EXTRACTED]
 - [[vSQL verifiable database system for arbitrary SQL queries over dynamic outsourced databases]] - `cites` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_40
+#graphify/document #graphify/EXTRACTED #community/Community_9

@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-61-verisbom.pdf"
 type: "paper"
-community: "Community 55"
+community: "Community 67"
 location: "§6 Theorem 2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_55
+  - community/Community_67
 ---
 
 # Theorem 2: Soundness of Dual-Tree verification (no valid proof for non-existent/non-compliant package)
@@ -15,4 +15,4 @@ tags:
 - [[ValidDep dual-membership predicate package valid iff member of both PT and ST roots]] - `conceptually_related_to` [EXTRACTED]
 - [[VeriSBOM trustless, selectively-disclosed verifiable SBOM-sharing framework via ZKPs]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_55
+#graphify/paper #graphify/EXTRACTED #community/Community_67

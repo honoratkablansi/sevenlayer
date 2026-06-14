@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-30-cyclefold.pdf"
 type: "paper"
-community: "Community 33"
+community: "Community 25"
 location: "§3 (Lemma 2)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_33
+  - community/Community_25
 ---
 
 # Lemma 2: knowledge soundness of Construction 1 (forking-based extractor)
@@ -15,4 +15,4 @@ tags:
 - [[Construction 1 multi-folding scheme for CCS over a cycle of curves]] - `proves` [EXTRACTED]
 - [[Theorem 1 public-coin multi-folding scheme for CCS (completeness + knowledge soundness)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_33
+#graphify/paper #graphify/EXTRACTED #community/Community_25

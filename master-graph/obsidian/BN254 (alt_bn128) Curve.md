@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 2"
+community: "Community 0"
 location: "Chapter 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_2
+  - community/Community_0
 ---
 
 # BN254 (alt_bn128) Curve
@@ -60,4 +60,4 @@ tags:
 - [[Zcash Sapling Ceremony (2018, BGM17 MMORPG)]] - `references` [INFERRED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_2
+#graphify/document #graphify/EXTRACTED #community/Community_0

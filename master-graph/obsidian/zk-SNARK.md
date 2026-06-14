@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch13/ref-42-gvr-zkp-market-report.md"
 type: "document"
-community: "Community 74"
+community: "Community 81"
 location: "Type Insights"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_74
+  - community/Community_81
 ---
 
 # zk-SNARK
@@ -34,4 +34,4 @@ tags:
 - [[Zero-Knowledge Proof Market Size, Share & Trends Analysis Report (Grand View Research)]] - `references` [EXTRACTED]
 - [[Zerocash]] - `assumes` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_74
+#graphify/document #graphify/EXTRACTED #community/Community_81

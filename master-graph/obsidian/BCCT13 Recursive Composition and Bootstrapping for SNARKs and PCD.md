@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf"
 type: "paper"
-community: "Community 9"
+community: "Community 49"
 location: "§1.2, ref [BCCT13]"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_9
+  - community/Community_49
 ---
 
 # BCCT13: Recursive Composition and Bootstrapping for SNARKs and PCD
@@ -16,4 +16,4 @@ tags:
 - [[Proof-Carrying Data from Accumulation Schemes (BCMS20)]] - `cites` [EXTRACTED]
 - [[Recursive Proof Composition]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_9
+#graphify/paper #graphify/EXTRACTED #community/Community_49

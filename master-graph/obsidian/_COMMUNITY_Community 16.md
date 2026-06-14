@@ -1,49 +1,52 @@
 ---
 type: community
 cohesion: 0.08
-members: 34
+members: 37
 ---
 
 # Community 16
 
 **Cohesion:** 0.08 - loosely connected
-**Members:** 34 nodes
+**Members:** 37 nodes
 
 ## Members
-- [[Blum-Evans-Gemmell-Kannan-Naor BEG+91 original offline memory checking (FOCS 1991)]] - paper - references/ch03/ref-15-lasso.pdf
-- [[Computation Commitment]] - paper - references/recursion/ch2/ref-41-spartan.pdf
-- [[Computation commitments succinct commitment to R1CS structure via public preprocessing (Encode), no trapdoor]] - paper - references/recursion/ch2/ref-41-spartan.pdf
-- [[Encoding of R1CS as a degree-3 log m-variate polynomial G_{io,τ} summing to 0 (Theorem 4.1)]] - paper - references/recursion/ch2/ref-41-spartan.pdf
-- [[Extractable polynomial commitment scheme for multilinear polynomials (Setup, Commit, Open, Eval)]] - paper - references/recursion/ch2/ref-41-spartan.pdf
-- [[Fiat-Shamir transform in the random oracle model to obtain NIZKzkSNARK from public-coin argument]] - paper - references/recursion/ch2/ref-41-spartan.pdf
-- [[GGPR quadratic arithmetic programs (QAPs)  Pinocchio trusted-setup SNARKs (cited prior work)]] - paper - references/recursion/ch2/ref-41-spartan.pdf
-- [[Goldwasser-Kalai-Rothblum (GKR) doubly-efficient interactive proofs (cited prior work)]] - paper - references/recursion/ch2/ref-41-spartan.pdf
-- [[Hyrax (Wahby et al.) transparent zkSNARK + Hyrax-PC multilinear polynomial commitment (cited  instantiated)]] - paper - references/recursion/ch2/ref-41-spartan.pdf
-- [[Lemma 5 (Nova folding is blinding)]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[Libra (Xie et al.) linear-time-prover zkSNARK for uniform circuits (cited; SpartanKE alternative)]] - paper - references/recursion/ch2/ref-41-spartan.pdf
-- [[Multilinear Polynomial Commitment]] - paper - references/recursion/ch2/ref-41-spartan.pdf
-- [[No-FFT prover (sum-check avoids FFT-based polynomial machinery of QAPIOP SNARKs)]] - paper - references/recursion/ch2/ref-41-spartan.pdf
-- [[No-trusted-setup (transparent) argument under discrete log over normal curve cycles]] - paper - references/recursion/ch1/ref-05-halo.pdf
-- [[NovaBlindFold folding-based zero-knowledge]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[Offline memory checking via public-coin randomized check (memory in the head) for O(n)-sized eval circuit]] - paper - references/recursion/ch2/ref-41-spartan.pdf
-- [[SPARK Compiler]] - paper - references/recursion/ch2/ref-41-spartan.pdf
-- [[SPARK compiler transforms a dense multilinear PC into one for sparse multilinear polynomials]] - paper - references/recursion/ch2/ref-41-spartan.pdf
-- [[Setty, Spartan (CRYPTO 2020)]] - document - recursion/recursion-outline.md
-- [[Setty, Spartan Efficient and General-Purpose zkSNARKs without Trusted Setup (CRYPTO 2020  ePrint 2019550)]] - paper - references/recursion/ch2/ref-41-spartan.pdf
-- [[Spark optimal sparse multilinear PCS from Spartan; evaluates m-sparse poly in O(c·m) time via c memories of size N{1c}]] - paper - references/ch03/ref-15-lasso.pdf
-- [[Sparse multilinear polynomial commitment (Spartan compiler)]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
-- [[Spartan]] - document - proving-nothing.md
-- [[Spartan Rust library (~8,000 LoC), DLOG-based transparent zkSNARK; github.comMicrosoftSpartan]] - paper - references/recursion/ch2/ref-41-spartan.pdf
-- [[Spartan Set20 source of the Spark sparse PCS that Lasso builds on]] - paper - references/ch03/ref-15-lasso.pdf
-- [[Spartan over Jolt's uniform block-diagonal R1CS, streamed via Az,Bz,Cz]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[Spartan variants SpartanDL, SpartanRO, SpartanCL (transparent), SpartanKE (universal setup)]] - paper - references/recursion/ch2/ref-41-spartan.pdf
-- [[Stronger Spark security secure even when sparse-polynomial metadata is committed by a malicious prover (first 'standard' sparse PCS)]] - paper - references/ch03/ref-15-lasso.pdf
-- [[Theorem 1.1  Corollary 1.1 family of zkSNARKs, prover O(n)–O(n log n), verifierproof O(log² n)–O(√n)]] - paper - references/recursion/ch2/ref-41-spartan.pdf
-- [[Theorem 2 c-memory Spark transform — sparse PCS over c·log M variables; prover commits to (3c+1) dense (log m)-variate + c (log N{1c})-variate polynomials]] - paper - references/ch03/ref-15-lasso.pdf
-- [[Theorem 4.1 ∃ degree-3 log m-variate G with ∑ G(x)=0 iff R1CS satisfiable]] - paper - references/recursion/ch2/ref-41-spartan.pdf
-- [[Theorem 5.1 succinct interactive AoK from any extractable multilinear polynomial commitment]] - paper - references/recursion/ch2/ref-41-spartan.pdf
-- [[Time-optimal (linear-time O(n)) prover from multilinear decomposition + SPARK]] - paper - references/recursion/ch2/ref-41-spartan.pdf
-- [[Two-round sum-check public-coin succinct interactive argument of knowledge for R1CS (Theorem 5.1)]] - paper - references/recursion/ch2/ref-41-spartan.pdf
+- [[BGN scheme cost comparison prime-order 28x faster despite 12 pairings]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[BN254  embedding-degree-12 BN pairings drop below 128-bit security]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[Barreto-Naehrig Curves]] - document - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[Benchmark composite-order pairing 254x slower (1.27s vs 5.05ms) at 128-bit]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[Comparing the Pairing Efficiency over Composite-Order and Prime-Order Elliptic Curves]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[Composite-Order Bilinear Groups]] - document - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[Composite-extension factorization F_{pn}=F_{(pη)κ}, gcd(η,κ)=1]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[ConjugationGJL polynomial selection Barbulescu-Gaudry-Guillevic-Morain]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[Doubly-extended tower number field K_f = Q(ι,α_f)]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[Elliptic Curve Method (ECM) factoring attack]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[Freeman composite-to-prime-order conversion (cited prior work)]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[Individual logarithm smoothing + special-q descent]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[Lemma 1 (norm size bound via iterated resultants)]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[Lenstra modulussecurity recommendations (cited prior work)]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[Lewko generic conversion, Eurocrypt 2012 (cited prior work)]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[Lewko-Waters HIBE cost prime-order 10x-192x faster]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[LibCryptoLCH Cx86-64 asm implementation (Thales)]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[Mandate to update pairing key sizes (c=64→48, factor ~1.33; SNFS factor 2)]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[MexTNFS multiple-number-field variant (c≈1.71)]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[Multi-prime RSA modulus sizing (2-8 primes, extends Lenstra)]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[NFS medium-prime case (JLSV) Joux-Lercier-Smart-Vercauteren]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[NFSECM crossover ECM beats NFS at 5+ prime factors]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[Number Field Sieve]] - document - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[Optimal ate pairing]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[Optimal ate pairing operation count on BN curve (Alg.1)]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[Polynomial Selection]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[Polynomial selection step (h,f,g) — JLSV2 and Conjugation methods]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[Recommendation avoid composite-order groups whenever possible]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[Relation collection over R=Zth(t), B-smooth norms]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[SexTNFS for special-form (d-SNFS) characteristic, L_Q(13,(329){13})]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[Special NFS in F_{pn} Joux-Pierrot]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[Subgroup decision assumption]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[Theorem 1 (exTNFS complexity table)]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[Tower Number Field Sieve (TNFS)]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[Tower Number Field Sieve (TNFS) Barbulescu-Gaudry-Kleinjung]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[exTNFS (Extended Tower Number Field Sieve)]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[exTNFS-Conj medium-prime complexity L_Q(13,(489){13})]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -53,28 +56,14 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 11 edges to [[_COMMUNITY_Community 1]]
-- 6 edges to [[_COMMUNITY_Community 40]]
-- 4 edges to [[_COMMUNITY_Community 28]]
-- 4 edges to [[_COMMUNITY_Community 2]]
-- 2 edges to [[_COMMUNITY_Community 62]]
-- 2 edges to [[_COMMUNITY_Community 86]]
-- 2 edges to [[_COMMUNITY_Community 98]]
+- 7 edges to [[_COMMUNITY_Community 8]]
+- 2 edges to [[_COMMUNITY_Community 12]]
 - 2 edges to [[_COMMUNITY_Community 44]]
-- 2 edges to [[_COMMUNITY_Community 51]]
-- 1 edge to [[_COMMUNITY_Community 32]]
-- 1 edge to [[_COMMUNITY_Community 139]]
-- 1 edge to [[_COMMUNITY_Community 119]]
-- 1 edge to [[_COMMUNITY_Community 0]]
-- 1 edge to [[_COMMUNITY_Community 75]]
-- 1 edge to [[_COMMUNITY_Community 36]]
-- 1 edge to [[_COMMUNITY_Community 84]]
-- 1 edge to [[_COMMUNITY_Community 23]]
-- 1 edge to [[_COMMUNITY_Community 19]]
+- 2 edges to [[_COMMUNITY_Community 1]]
 
 ## Top bridge nodes
-- [[Spartan]] - degree 39, connects to 10 communities
-- [[No-trusted-setup (transparent) argument under discrete log over normal curve cycles]] - degree 8, connects to 4 communities
-- [[Spark optimal sparse multilinear PCS from Spartan; evaluates m-sparse poly in O(c·m) time via c memories of size N{1c}]] - degree 7, connects to 3 communities
-- [[Spartan over Jolt's uniform block-diagonal R1CS, streamed via Az,Bz,Cz]] - degree 4, connects to 3 communities
-- [[Encoding of R1CS as a degree-3 log m-variate polynomial G_{io,τ} summing to 0 (Theorem 4.1)]] - degree 4, connects to 3 communities
+- [[exTNFS (Extended Tower Number Field Sieve)]] - degree 15, connects to 4 communities
+- [[Number Field Sieve]] - degree 10, connects to 3 communities
+- [[Composite-Order Bilinear Groups]] - degree 7, connects to 1 community
+- [[Comparing the Pairing Efficiency over Composite-Order and Prime-Order Elliptic Curves]] - degree 6, connects to 1 community
+- [[Mandate to update pairing key sizes (c=64→48, factor ~1.33; SNFS factor 2)]] - degree 3, connects to 1 community

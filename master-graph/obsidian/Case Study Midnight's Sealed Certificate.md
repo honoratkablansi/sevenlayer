@@ -1,12 +1,12 @@
 ---
 source_file: "wiki/sections/ch03-the-developer-s-actual-experience.md"
 type: "document"
-community: "Community 62"
+community: "Community 5"
 location: "Dependencies"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_62
+  - community/Community_5
 ---
 
 # Case Study: Midnight's Sealed Certificate
@@ -33,4 +33,4 @@ tags:
 - [[Trusted Setup Ceremony]] - `references` [EXTRACTED]
 - [[ZKIR (Zero-Knowledge Intermediate Representation)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_62
+#graphify/document #graphify/EXTRACTED #community/Community_5

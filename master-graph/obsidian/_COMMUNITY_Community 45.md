@@ -1,37 +1,38 @@
 ---
 type: community
 cohesion: 0.13
-members: 22
+members: 23
 ---
 
 # Community 45
 
 **Cohesion:** 0.13 - loosely connected
-**Members:** 22 nodes
+**Members:** 23 nodes
 
 ## Members
-- [[Digital Signature]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[ExpandA  ExpandS  ExpandMask SHAKE-based pseudorandom sampling of matrix A from ρ, secrets s1s2, and mask y]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[FIPS 204 Module-Lattice-Based Digital Signature Standard]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[FIPS 204 Module-Lattice-Based Digital Signature Standard (ML-DSA), published 2024-08-13]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[Fiat-Shamir With Aborts construction (Schnorr-like signature with rejection sampling on the response)]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[HashML-DSA domain-separated pre-hash variant signing PH(M) for largestreamed messages]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[Hedged (default, fresh + precomputed randomness) vs deterministic signing variant; same Verify works for both]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[Hint vector h ∈ R2k (MakeHintUseHint) lets verifier reconstruct high bits w1 despite t1 compression]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[ML-DSA (Module-Lattice Digital Signature Algorithm)]] - document - references/ch14/ref-64-fips-204.pdf
-- [[ML-DSA derived from CRYSTALS-DILITHIUM v3.1 (Round-3 PQC selection); differences in Appendix D]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[ML-DSA-44 parameter set (k,ℓ)=(4,4), η=2, τ=39, λ=128, Category 2; pk 1312 B, sk 2560 B, sig 2420 B]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[ML-DSA-65 parameter set (k,ℓ)=(6,5), η=4, τ=49, λ=192, Category 3; pk 1952 B, sk 4032 B, sig 3309 B]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[ML-DSA-87 parameter set (k,ℓ)=(8,7), η=2, τ=60, λ=256, Category 5; pk 2592 B, sk 4896 B, sig 4627 B]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[ML-DSA.KeyGen (Alg 16.1) expand seed ξ - seed ρ for A, seeds for s1,s2,K; t = A·s1 + s2, publish compressed t1]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[ML-DSA.Sign (Alg 26.2) commit w=Ay, challenge c~ from H(w1μ), response z = y + c·s1, with rejection-sampling abort loop]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[ML-DSA.Verify (Alg 36.3) recompute w1' via UseHint from z, t1, c; accept iff z is short and c~ matches H(w1'μ)]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[Message representative μ = H(H(pk)  M); signing μ not M provides BUFF  beyond-unforgeability properties]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[Power2Round  Decompose  HighBits  LowBits drop d=13 low-order bits of t and round w to multiples of α=2γ2]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[Rejection sampling abort and restart with new mask y if z (or r0) coefficients fall outside bound, removing bias toward secret s1s2]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[SampleInBall (Alg 29) challenge polynomial c with exactly τ nonzero ±1 coefficients, derived from c~]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[Strong existential unforgeability under chosen-message attack (SUF-CMA) plus BUFF properties]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[Uses SHAKE128 and SHAKE256 (FIPS 202) as XOFs for all expansion, hashing, and challenge derivation]] - paper - references/ch14/ref-64-fips-204.pdf
+- [[2016 Ethereum Shanghai  EIP-150 underpriced-opcode DoS precedent]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[Amplified finality-delay attack (1.45x-2.73x over direct L1 blob-stuffing)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[DA Marketplace (Celestia, EigenDA, Avail)]] - document - proving-nothing.md
+- [[DA-saturation DoS sustained L2 liveness halt at 0.8-2.7 ETHhour]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[DA-saturation attack (data-heavy compute-light tx flooding L1 blob capacity)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[Data Availability]] - document - proving-nothing.md
+- [[Diamandis et al. multidimensional blockchain fee markets 19]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[Direct economic damage attack (drains rollup vault via Ctx amortization, $11,172h on Scroll)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[EIP-1559 base-fee mechanism]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[Empirical evaluation on Scroll, Linea, zkSync Era, Arbitrum, Optimism, Base]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[Generic rollup cost model Txfee = L2fee + L1fee (rho_blob, Scalar_blob, Ctx, Stx)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[L2 EIP-1559-style DA pricing with L1-fee floor (DA-saturation mitigation)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[LazyLedger (Al-Bassam, 2019)]] - document - proving-nothing.md
+- [[Multi-dimensional TFM (matrix Ax over gasDAprovingfixed; adaptive per-resource pricing)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[Reactive mitigations tx size limits, dynamic fee scalars, aggressive tx filtering]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[Responsible disclosure all rollups vulnerable, 4 bug bounties, mitigations adopted]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[Rollup multi-dimensional TFM (L2 gas + L1 DA + settlementverification)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[Roughgarden TFM design  EIP-1559 incentive-compatibility 47,48]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[Shared-DA multi-tenant risk attack on one rollup cascades across DA-layer tenants]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[Threat model budget-bounded L2 user; liveness, finality, economic-safety objectives]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[Transaction Fee Mechanisms (TFM)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[Unaligned Incentives Pricing Attacks Against Blockchain Rollups]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[Unaligned-incentives thesis cross-dimension mispricing yields novel attacks]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -41,16 +42,18 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 4 edges to [[_COMMUNITY_Community 0]]
-- 3 edges to [[_COMMUNITY_Community 27]]
-- 3 edges to [[_COMMUNITY_Community 111]]
-- 2 edges to [[_COMMUNITY_Community 37]]
-- 1 edge to [[_COMMUNITY_Community 2]]
-- 1 edge to [[_COMMUNITY_Community 89]]
+- 5 edges to [[_COMMUNITY_Community 61]]
+- 4 edges to [[_COMMUNITY_Community 78]]
+- 2 edges to [[_COMMUNITY_Community 101]]
+- 2 edges to [[_COMMUNITY_Community 35]]
+- 2 edges to [[_COMMUNITY_Community 135]]
+- 1 edge to [[_COMMUNITY_Community 41]]
+- 1 edge to [[_COMMUNITY_Community 138]]
+- 1 edge to [[_COMMUNITY_Community 117]]
 
 ## Top bridge nodes
-- [[ML-DSA (Module-Lattice Digital Signature Algorithm)]] - degree 21, connects to 4 communities
-- [[FIPS 204 Module-Lattice-Based Digital Signature Standard]] - degree 5, connects to 2 communities
-- [[ML-DSA.Sign (Alg 26.2) commit w=Ay, challenge c~ from H(w1μ), response z = y + c·s1, with rejection-sampling abort loop]] - degree 8, connects to 1 community
-- [[Fiat-Shamir With Aborts construction (Schnorr-like signature with rejection sampling on the response)]] - degree 4, connects to 1 community
-- [[ML-DSA.KeyGen (Alg 16.1) expand seed ξ - seed ρ for A, seeds for s1,s2,K; t = A·s1 + s2, publish compressed t1]] - degree 4, connects to 1 community
+- [[Data Availability]] - degree 13, connects to 5 communities
+- [[Unaligned Incentives Pricing Attacks Against Blockchain Rollups]] - degree 12, connects to 5 communities
+- [[EIP-1559 base-fee mechanism]] - degree 5, connects to 1 community
+- [[Unaligned-incentives thesis cross-dimension mispricing yields novel attacks]] - degree 5, connects to 1 community
+- [[Empirical evaluation on Scroll, Linea, zkSync Era, Arbitrum, Optimism, Base]] - degree 4, connects to 1 community

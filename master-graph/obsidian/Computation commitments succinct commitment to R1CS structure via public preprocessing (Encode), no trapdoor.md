@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch2/ref-41-spartan.pdf"
 type: "paper"
-community: "Community 16"
+community: "Community 47"
 location: "§6, Lemma 6.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_16
+  - community/Community_47
 ---
 
 # Computation commitments: succinct commitment to R1CS structure via public preprocessing (Encode), no trapdoor
@@ -16,4 +16,4 @@ tags:
 - [[Sparse multilinear polynomial commitment (Spartan compiler)]] - `assumes` [EXTRACTED]
 - [[Spartan]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_16
+#graphify/paper #graphify/EXTRACTED #community/Community_47

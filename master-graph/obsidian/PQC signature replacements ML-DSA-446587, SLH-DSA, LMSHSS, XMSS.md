@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch07/ref-26-nist-ir-8547.pdf"
 type: "paper"
-community: "Community 111"
+community: "Community 112"
 location: "§4.1.1 Table 3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_111
+  - community/Community_112
 ---
 
 # PQC signature replacements: ML-DSA-44/65/87, SLH-DSA, LMS/HSS, XMSS
@@ -15,4 +15,4 @@ tags:
 - [[ML-DSA (Module-Lattice Digital Signature Algorithm)]] - `introduces` [EXTRACTED]
 - [[SLH-DSA (Stateless Hash-Based Digital Signature Algorithm)]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_111
+#graphify/paper #graphify/EXTRACTED #community/Community_112

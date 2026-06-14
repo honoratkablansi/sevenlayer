@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/09-privacy-enhancing-technologies.md"
 type: "document"
-community: "Community 4"
+community: "Community 21"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_4
+  - community/Community_21
 ---
 
 # Secure Multi-Party Computation (MPC)
@@ -39,4 +39,4 @@ tags:
 - [[Trusted Setup Ceremony]] - `uses` [EXTRACTED]
 - [[Yao's Millionaires' Problem]] - `explains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_4
+#graphify/document #graphify/EXTRACTED #community/Community_21

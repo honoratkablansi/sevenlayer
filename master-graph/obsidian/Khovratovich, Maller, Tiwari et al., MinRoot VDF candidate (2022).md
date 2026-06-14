@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch2/ref-42-minroot-vdf.md"
 type: "document"
-community: "Community 30"
+community: "Community 38"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_30
+  - community/Community_38
 ---
 
 # Khovratovich, Maller, Tiwari et al., "MinRoot" VDF candidate (2022)
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[Recursion References (cited works)]] - `cites` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_30
+#graphify/document #graphify/EXTRACTED #community/Community_38

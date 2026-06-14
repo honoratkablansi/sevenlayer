@@ -1,17 +1,18 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 5"
+community: "Community 17"
 location: "Chapter 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_5
+  - community/Community_17
 ---
 
 # Groth16
 
 ## Connections
+- [[2-cycle of elliptic curves (BN254Grumpkin)]] - `uses` [EXTRACTED]
 - [[Algebraic Group Model (AGM)]] - `uses` [EXTRACTED]
 - [[BLS12-381 Curve]] - `references` [EXTRACTED]
 - [[BLS12-381 new pairing-friendly curve, 384-bit base field, 256-bit group order, 128-bit security]] - `conceptually_related_to` [EXTRACTED]
@@ -29,6 +30,7 @@ tags:
 - [[FFLONK]] - `compares` [EXTRACTED]
 - [[FOOM Club Verifier Misconfiguration (2022)]] - `references` [EXTRACTED]
 - [[Filecoin Proof-of-Space application (BLS12-381, Rust bellperson)]] - `assumes` [EXTRACTED]
+- [[GGPR Linear PCP (Gennaro-Gentry-Parno-Raykova)]] - `builds_on` [EXTRACTED]
 - [[Glossary of Key Terms]] - `defines` [EXTRACTED]
 - [[Groth 2016 (ePrint 2016260)]] - `introduces` [EXTRACTED]
 - [[Groth Gro16 On the size of pairing-based non-interactive arguments]] - `conceptually_related_to` [EXTRACTED]
@@ -36,11 +38,14 @@ tags:
 - [[Groth16 wrap-circuit splitting tradeoff per-FRI-query sub-circuits trade prover speed vs on-chain cost]] - `conceptually_related_to` [EXTRACTED]
 - [[Hybrid STARK-to-SNARK Production Pipeline]] - `references` [EXTRACTED]
 - [[Hybrid Transparent-Inner  Compact-Outer Architecture]] - `references` [EXTRACTED]
+- [[Incrementally Verifiable Computation (IVC)]] - `enables` [EXTRACTED]
 - [[Layer 1 -- Building the Stage]] - `references` [EXTRACTED]
 - [[Layer 5 -- The Sealed Certificate]] - `references` [EXTRACTED]
 - [[Layer 5 The Sealed Certificate (Proof System)]] - `introduces` [EXTRACTED]
 - [[Layer 6 -- The Deep Craft]] - `references` [EXTRACTED]
 - [[Layer 7 -- The Verdict]] - `references` [EXTRACTED]
+- [[Linear Interactive Proof (LIP)]] - `builds_on` [EXTRACTED]
+- [[Linear PCP]] - `enables` [EXTRACTED]
 - [[Maturity and Readiness]] - `references` [EXTRACTED]
 - [[Memory The Binding Constraint]] - `references` [EXTRACTED]
 - [[Midnight's ZKIR A Concrete Layer 4]] - `references` [EXTRACTED]
@@ -76,6 +81,7 @@ tags:
 - [[Snarky Ceremonies]] - `references` [EXTRACTED]
 - [[Sonic Zero-Knowledge SNARKs from Linear-Size Universal and Updatable Structured Reference Strings]] - `references` [EXTRACTED]
 - [[Structured Reference String (SRS)]] - `references` [EXTRACTED]
+- [[Taxonomy of SNARKs (IP  MIP  IOP  Linear-PCP)]] - `defines` [EXTRACTED]
 - [[The Bug That Was Not a Ceremony Failure]] - `conceptually_related_to` [EXTRACTED]
 - [[The CapexOpex Framework]] - `conceptually_related_to` [EXTRACTED]
 - [[The Constraint System Evolution R1CS, AIR, PLONKish]] - `references` [EXTRACTED]
@@ -120,4 +126,4 @@ tags:
 - [[zkTree zero-knowledge recursion tree with ZKP membership proofs]] - `cites` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_5
+#graphify/document #graphify/EXTRACTED #community/Community_17

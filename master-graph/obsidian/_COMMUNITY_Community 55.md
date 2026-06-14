@@ -1,35 +1,37 @@
 ---
 type: community
-cohesion: 0.18
-members: 20
+cohesion: 0.13
+members: 22
 ---
 
 # Community 55
 
-**Cohesion:** 0.18 - loosely connected
-**Members:** 20 nodes
+**Cohesion:** 0.13 - loosely connected
+**Members:** 22 nodes
 
 ## Members
-- [[Compliance predicate  local property of distributed computation]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
-- [[Dual-Tree Architecture Package Tree (authenticity) + isomorphic Shadow Tree (compliance)]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
-- [[Folding-based aggregation ValidDep as atomic step folded over N dependencies into one succinct proof pi]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
-- [[Forest of Shadow Trees + DatalogHorn-clause policy composition and client-on-demand aggregation]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
-- [[Groth16 pairing-based zkSNARK (cited alternative proving system)]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
-- [[Implementation CircomPoseidon Attest circuit, Nova folding over Pasta curves, Spartan-wrapped succinct proof, Python+pyDataLog+SQLite auditor engine]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
-- [[Nova recursive folding scheme (IVC; first to fold two NP statements into one)]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
-- [[Package Tree (PT) VC maintained by package manager committing dependency inclusionauthenticity]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
-- [[Petra confidential SBOM exchange via CP-ABE (Ishgair et al.), main baseline contrasted with VeriSBOM]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
-- [[Policy Propagation Engine (PPE) recursive compliance C(p)=L(p)prod C(d) propagated up dependency DAG]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
-- [[Re-proving on CVEupdate via root freshness revocation (S3) and remediation (S4) lifecycle, replay resistance]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
-- [[Root-binding accountability verification bound to trusted public roots defeats parallel forged trees]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
-- [[Shadow Tree (ST) isomorphic compliance VC by auditor; leaf flag 10 (compliantnon-compliant)]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
-- [[Spartan transparent zkSNARK without trusted setup (final proof compression wrapper)]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
-- [[Theorem 1 Package Tree position-binding (cannot open index to a different value)]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
-- [[Theorem 2 Soundness of Dual-Tree verification (no valid proof for non-existentnon-compliant package)]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
-- [[Theorem 3 Root-binding accountability (cannot accept proof from divergent PTST)]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
-- [[ValidDep dual-membership predicate package valid iff member of both PT and ST roots]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
-- [[Vector commitment scheme (position-binding; Merkle-tree instantiation, O(log n) openings)]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
-- [[VeriSBOM trustless, selectively-disclosed verifiable SBOM-sharing framework via ZKPs]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
+- [[A la carte cost profile per-step proving cost proportional only to the circuit size of the invoked instruction, independent of k (number of instruction types)]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[Augmented function F'_j runs F_j then a verifier circuit folding u_i into U_ipc, checks public IO hash, and computes pc_{i+1} via phi]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[Avoiding universal switch circuits SuperNova never builds a circuit summing all instruction circuits; per-step cost depends only on the executed instruction]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[Buffet 34 a-la-carte cost via line-by-line compilation to non-uniform circuits, but not incremental and needs static execution bounds]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[Compression to succinct zero-knowledge apply a general-purpose zkSNARK (e.g., Spartan) over a valid NIVC proof, as in Nova]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[Construction 1 SuperNova NIVC scheme (G,K,P,V) built from non-interactive folding scheme NIFS for committed relaxed R1CS plus a hash]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[Control function phi takes (z_i, omega_i) and outputs program counter pc in {1,...,l} selecting which F_j to apply at each step]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[Instantiations VDF machine (l=1, MinRoot) and RAM machine (RISC-V-like, program counter register, Merkle-committed memory)]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[Kothapalli, Setty, Tzialla, Nova (CRYPTO 2022)]] - document - recursion/recursion-outline.md
+- [[Lemma 1  Assumption 1 non-interactive folding scheme for committed relaxed R1CS (Nova 21); prover O(n), verifier and communication O(1), via Fiat-Shamir in plain model]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[Lemma 2 (Completeness) Construction 1 is an NIVC scheme satisfying perfect completeness]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[Lemma 3 (Knowledge soundness) Construction 1 satisfies knowledge soundness via inductive extractor reduction to folding-scheme soundness]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[Lemma 4 (Efficiency) F'_j = phi + F_j + o(2G + 2H + R); prover cost dominated by two multiexponentiations sized to the executed instruction]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[MIRAGE 20 adapts vRAM techniques to Groth's SNARK; still relies on whole-trace invariants, incompatible with incremental proving]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[Multiple running instances, one per instruction type; incoming step instance folded into the running instance selected by pc (U_ipc)]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[Non-uniform IVC (NIVC) generalization of IVC where each step proves a relation chosen from a set, selected by a control function]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[Optimization offlineMerkle memory-checking reduces F'_j circuit dependence on l from O(l) to O(log l) then to O(1) constraints]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[Per-instruction step functions {F_1,...,F_l} plus control function phi; each F_j verifies one instruction type, cost independent of l]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[Program counter (pc) index selecting which instructionfunction is run at a step; computed by control function phi and threaded between augmented circuits]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[SuperNova (Non-Uniform IVC)]] - document - proving-nothing.md
+- [[Universal circuit single circuit executing any supported instruction (fetch-decode-execute); per-step cost scales with sum of all instruction circuit sizes]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[vRAM 37 trimmed universal circuit for vnTinyRAM via fingerprinting over the trace; not incremental, not zero-knowledge]] - paper - references/recursion/ch2/ref-44-supernova.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -39,17 +41,16 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
+- 6 edges to [[_COMMUNITY_Community 22]]
+- 4 edges to [[_COMMUNITY_Community 25]]
 - 3 edges to [[_COMMUNITY_Community 15]]
-- 3 edges to [[_COMMUNITY_Community 23]]
-- 3 edges to [[_COMMUNITY_Community 60]]
-- 2 edges to [[_COMMUNITY_Community 79]]
-- 2 edges to [[_COMMUNITY_Community 9]]
-- 2 edges to [[_COMMUNITY_Community 53]]
+- 2 edges to [[_COMMUNITY_Community 10]]
 - 1 edge to [[_COMMUNITY_Community 1]]
+- 1 edge to [[_COMMUNITY_Community 29]]
 
 ## Top bridge nodes
-- [[VeriSBOM trustless, selectively-disclosed verifiable SBOM-sharing framework via ZKPs]] - degree 22, connects to 4 communities
-- [[Compliance predicate  local property of distributed computation]] - degree 8, connects to 2 communities
-- [[Vector commitment scheme (position-binding; Merkle-tree instantiation, O(log n) openings)]] - degree 5, connects to 1 community
-- [[Folding-based aggregation ValidDep as atomic step folded over N dependencies into one succinct proof pi]] - degree 3, connects to 1 community
-- [[Nova recursive folding scheme (IVC; first to fold two NP statements into one)]] - degree 3, connects to 1 community
+- [[SuperNova (Non-Uniform IVC)]] - degree 15, connects to 5 communities
+- [[Universal circuit single circuit executing any supported instruction (fetch-decode-execute); per-step cost scales with sum of all instruction circuit sizes]] - degree 4, connects to 2 communities
+- [[Lemma 1  Assumption 1 non-interactive folding scheme for committed relaxed R1CS (Nova 21); prover O(n), verifier and communication O(1), via Fiat-Shamir in plain model]] - degree 4, connects to 2 communities
+- [[Construction 1 SuperNova NIVC scheme (G,K,P,V) built from non-interactive folding scheme NIFS for committed relaxed R1CS plus a hash]] - degree 8, connects to 1 community
+- [[Non-uniform IVC (NIVC) generalization of IVC where each step proves a relation chosen from a set, selected by a control function]] - degree 5, connects to 1 community

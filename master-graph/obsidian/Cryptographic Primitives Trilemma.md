@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 0"
+community: "Community 1"
 location: "Chapter 7"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Community_1
 ---
 
 # Cryptographic Primitives Trilemma
@@ -19,4 +19,4 @@ tags:
 - [[Layer 6 -- The Deep Craft]] - `defines` [EXTRACTED]
 - [[The Trilemma -- And Its Dissolution]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/document #graphify/EXTRACTED #community/Community_1

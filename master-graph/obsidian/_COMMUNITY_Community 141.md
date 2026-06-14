@@ -1,19 +1,18 @@
 ---
 type: community
 cohesion: 0.67
-members: 4
+members: 3
 ---
 
 # Community 141
 
 **Cohesion:** 0.67 - moderately connected
-**Members:** 4 nodes
+**Members:** 3 nodes
 
 ## Members
-- [[Chaliasos et al. Pricing Attacks (2025)]] - document - proving-nothing.md
-- [[DA-Saturation Attack]] - document - proving-nothing.md
-- [[Multidimensional Fee Pricing]] - document - proving-nothing.md
-- [[Prover-Killer Attack]] - document - proving-nothing.md
+- [[BatchZK Pipelining (2025)]] - document - proving-nothing.md
+- [[Ozdemir, Laufer, Boneh Algebraic RAM (S&P 2025, ePrint 2024979)]] - document - proving-nothing.md
+- [[RAM Consistency  Memory Checking]] - document - proving-nothing.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -23,9 +22,10 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 3 edges to [[_COMMUNITY_Community 27]]
-- 1 edge to [[_COMMUNITY_Community 72]]
+- 1 edge to [[_COMMUNITY_Community 86]]
+- 1 edge to [[_COMMUNITY_Community 5]]
+- 1 edge to [[_COMMUNITY_Community 9]]
 
 ## Top bridge nodes
-- [[Prover-Killer Attack]] - degree 4, connects to 2 communities
-- [[DA-Saturation Attack]] - degree 4, connects to 1 community
+- [[BatchZK Pipelining (2025)]] - degree 3, connects to 2 communities
+- [[RAM Consistency  Memory Checking]] - degree 2, connects to 1 community

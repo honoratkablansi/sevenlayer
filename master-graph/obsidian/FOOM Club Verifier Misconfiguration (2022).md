@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 71"
+community: "Community 101"
 location: "Chapter 8"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_71
+  - community/Community_101
 ---
 
 # FOOM Club Verifier Misconfiguration (2022)
@@ -15,4 +15,4 @@ tags:
 - [[Groth16]] - `references` [EXTRACTED]
 - [[On-Chain Verifier]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_71
+#graphify/document #graphify/EXTRACTED #community/Community_101

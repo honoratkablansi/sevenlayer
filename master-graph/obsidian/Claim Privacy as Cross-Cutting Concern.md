@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 4"
+community: "Community 125"
 location: "Chapter 12"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_4
+  - community/Community_125
 ---
 
 # Claim: Privacy as Cross-Cutting Concern
@@ -15,4 +15,4 @@ tags:
 - [[Private Smart Contracts]] - `explains` [EXTRACTED]
 - [[Seven-Layer ZK Model]] - `compares` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_4
+#graphify/document #graphify/EXTRACTED #community/Community_125

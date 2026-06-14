@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 122"
+community: "Community 120"
 location: "Chapter 10"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_122
+  - community/Community_120
 ---
 
 # Succinct SP1 Hypercube
@@ -16,4 +16,4 @@ tags:
 - [[Small Fields (BabyBear, Mersenne-31)]] - `references` [EXTRACTED]
 - [[zkVM]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_122
+#graphify/document #graphify/EXTRACTED #community/Community_120

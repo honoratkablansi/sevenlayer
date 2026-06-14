@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-61-verisbom.pdf"
 type: "paper"
-community: "Community 55"
+community: "Community 67"
 location: "§7.1; Fig.6"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_55
+  - community/Community_67
 ---
 
 # Implementation: Circom/Poseidon Attest circuit, Nova folding over Pasta curves, Spartan-wrapped succinct proof, Python+pyDataLog+SQLite auditor engine
@@ -16,4 +16,4 @@ tags:
 - [[Spartan transparent zkSNARK without trusted setup (final proof compression wrapper)]] - `assumes` [EXTRACTED]
 - [[VeriSBOM trustless, selectively-disclosed verifiable SBOM-sharing framework via ZKPs]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_55
+#graphify/paper #graphify/EXTRACTED #community/Community_67

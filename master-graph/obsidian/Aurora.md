@@ -1,12 +1,12 @@
 ---
 source_file: "references/snowball/book/ref-087-aurora-transparent-succinct-arguments-for-r1cs.pdf"
 type: "paper"
-community: "Community 28"
+community: "Community 15"
 location: "abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_28
+  - community/Community_15
 ---
 
 # Aurora
@@ -18,4 +18,4 @@ tags:
 - [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `defines` [EXTRACTED]
 - [[Sum-Check Protocol]] - `uses` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_28
+#graphify/paper #graphify/EXTRACTED #community/Community_15

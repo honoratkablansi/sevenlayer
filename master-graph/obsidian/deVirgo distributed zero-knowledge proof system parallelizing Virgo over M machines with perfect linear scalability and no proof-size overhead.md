@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-59-zkbridge.pdf"
 type: "paper"
-community: "Community 74"
+community: "Community 81"
 location: "§1.1, §4, §4.4"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_74
+  - community/Community_81
 ---
 
 # deVirgo: distributed zero-knowledge proof system parallelizing Virgo over M machines with perfect linear scalability and no proof-size overhead
@@ -25,4 +25,4 @@ tags:
 - [[Xie et al., zkBridge Trustless Cross-chain Bridges Made Practical (CCS 2022)]] - `defines` [EXTRACTED]
 - [[zkBridge trustless cross-chain bridge via succinct proofs of consensus  light-client state transitions]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_74
+#graphify/paper #graphify/EXTRACTED #community/Community_81

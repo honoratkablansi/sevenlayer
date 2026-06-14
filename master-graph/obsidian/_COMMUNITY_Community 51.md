@@ -1,36 +1,37 @@
 ---
 type: community
 cohesion: 0.13
-members: 21
+members: 22
 ---
 
 # Community 51
 
 **Cohesion:** 0.13 - loosely connected
-**Members:** 21 nodes
+**Members:** 22 nodes
 
 ## Members
-- [[Amortization strategy helper collapses m linear-time commitment-opening checks into one]] - paper - references/recursion/ch1/ref-05-halo.pdf
-- [[Bulletproofs (Bunz et al.) 13]] - paper - references/recursion/ch1/ref-05-halo.pdf
-- [[Chiesa, Chua On cycles of pairing-friendly elliptic curves 16]] - paper - references/recursion/ch1/ref-05-halo.pdf
-- [[Chiesa, Tromer Proof-Carrying Data 19]] - paper - references/recursion/ch1/ref-05-halo.pdf
-- [[Deferred inner-product-argument check G = s,G = Commit(sigma, g(X,u_1..u_k)) opened in next argument]] - paper - references/recursion/ch1/ref-05-halo.pdf
-- [[Discrete Log Relation Assumption]] - paper - references/recursion/ch1/ref-05-halo.pdf
-- [[Endomorphism-based circuit optimization (Algorithm 1, 3.5 constraintsbit)]] - paper - references/recursion/ch1/ref-05-halo.pdf
-- [[Fractal (Chiesa, Ojha, Spooner) post-quantum transparent recursive proofs 18]] - paper - references/recursion/ch1/ref-05-halo.pdf
-- [[Halo first practical recursive proof composition without a trusted setup]] - paper - references/recursion/ch1/ref-05-halo.pdf
-- [[Main argument Sonic-variant PSHVZK argument of knowledge for arithmetic circuit satisfiability]] - paper - references/recursion/ch1/ref-05-halo.pdf
-- [[Nested amortization deferringcollapsing linear-time verification through recursive public inputs]] - paper - references/recursion/ch1/ref-05-halo.pdf
-- [[Non-interactive instantiation via Fiat-Shamir with Rescue duplex-sponge in random oracle model]] - paper - references/recursion/ch1/ref-05-halo.pdf
-- [[Pedersen-based univariate polynomial commitment with amortized succinctness]] - paper - references/recursion/ch1/ref-05-halo.pdf
-- [[Recursion threshold below 217 gates; fully-recursive proofs 3.5 KiB at 128-bit security]] - paper - references/recursion/ch1/ref-05-halo.pdf
-- [[Sonic (Maller, Bowe, Kohlweiss, Meiklejohn) 32]] - paper - references/recursion/ch1/ref-05-halo.pdf
-- [[Theorem 1 polynomial commitment protocol has completeness, witness-extended emulation, PSHVZK]] - paper - references/recursion/ch1/ref-05-halo.pdf
-- [[Theorem 2 main protocol (Fig. 1) has completeness, PSHVZK, computational witness-extended emulation]] - paper - references/recursion/ch1/ref-05-halo.pdf
-- [[Theorem 3 (Distinct-x theorem) safe incomplete addition in scalar-mult circuits]] - paper - references/recursion/ch1/ref-05-halo.pdf
-- [[TweedledumTweedledee 255-bit prime-order normal (non-pairing) 2-cycle, y2=x3+5]] - paper - references/recursion/ch1/ref-05-halo.pdf
-- [[Valiant Incrementally verifiable computation 36]] - paper - references/recursion/ch1/ref-05-halo.pdf
-- [[Wahby, Tzialla, shelat, Thaler, Walfish Doubly-efficient zkSNARKs without trusted setup 37]] - paper - references/recursion/ch1/ref-05-halo.pdf
+- [[Algebraic Intermediate Representation (AIR)]] - paper - references/ch02/ref-08-stark.pdf
+- [[Algebraic Linking Interactive Oracle Proof (ALI)]] - paper - references/ch02/ref-08-stark.pdf
+- [[Algebraic Placement and Routing (APR) reduction]] - paper - references/ch02/ref-08-stark.pdf
+- [[Authentication Path  Communication Complexity minimization (coset & row subtrees)]] - paper - references/ch02/ref-08-stark.pdf
+- [[Binary AIR (BAIR) and Permuted AIR (PAIR)]] - paper - references/ch02/ref-08-stark.pdf
+- [[Collision-resistant hash function assumption (interactive STARK)]] - paper - references/ch02/ref-08-stark.pdf
+- [[DNA Profile Match (DPM) proof-of-concept benchmark]] - paper - references/ch02/ref-08-stark.pdf
+- [[Davies-Meyer hash over RijndaelAES (binary-field-friendly hash)]] - paper - references/ch02/ref-08-stark.pdf
+- [[Interactive Oracle Proof (IOP) model]] - paper - references/ch02/ref-08-stark.pdf
+- [[Maximal interpolation degree d_max reduction (n·c·d vs prior n·c·w·d + n·c·s)]] - paper - references/ch02/ref-08-stark.pdf
+- [[Merkle-tree commit-reveal (Kilian cut-and-choose)]] - paper - references/ch02/ref-08-stark.pdf
+- [[Prior ZK-STIK for NPNEXP (Ben-Sasson et al. refs 17,15)]] - paper - references/ch02/ref-08-stark.pdf
+- [[Reed-Solomon Proximity Testing (RPT  low-degree testing) problem]] - paper - references/ch02/ref-08-stark.pdf
+- [[Register-based encoding (one RS codeword per register)]] - paper - references/ch02/ref-08-stark.pdf
+- [[SCI  quasi-linear PCP STARK (Ben-Sasson et al. 2016, ref 13)]] - paper - references/ch02/ref-08-stark.pdf
+- [[Scalable Transparent IOP of Knowledge (STIK)]] - paper - references/ch02/ref-08-stark.pdf
+- [[Scalable, Transparent, and Post-Quantum Secure Computational Integrity]] - paper - references/ch02/ref-08-stark.pdf
+- [[Theorem 3.4 — ZK-STIK for space-bounded computations]] - paper - references/ch02/ref-08-stark.pdf
+- [[Theorem 3.5 — wi-STIK for NEXP]] - paper - references/ch02/ref-08-stark.pdf
+- [[Transparency  public randomness (no trusted setup, Arthur-Merlin)]] - paper - references/ch02/ref-08-stark.pdf
+- [[ZK-SNARK  Zerocash (Zcash, non-transparent QSP-based, ref 1853)]] - paper - references/ch02/ref-08-stark.pdf
+- [[Zero-Knowledge Scalable Transparent ARgument of Knowledge (ZK-STARK)]] - paper - references/ch02/ref-08-stark.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -40,19 +41,20 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 4 edges to [[_COMMUNITY_Community 23]]
-- 3 edges to [[_COMMUNITY_Community 75]]
-- 3 edges to [[_COMMUNITY_Community 9]]
-- 2 edges to [[_COMMUNITY_Community 36]]
-- 2 edges to [[_COMMUNITY_Community 5]]
-- 2 edges to [[_COMMUNITY_Community 73]]
-- 2 edges to [[_COMMUNITY_Community 16]]
-- 1 edge to [[_COMMUNITY_Community 14]]
-- 1 edge to [[_COMMUNITY_Community 25]]
+- 5 edges to [[_COMMUNITY_Community 0]]
+- 3 edges to [[_COMMUNITY_Community 11]]
+- 3 edges to [[_COMMUNITY_Community 1]]
+- 3 edges to [[_COMMUNITY_Community 15]]
+- 2 edges to [[_COMMUNITY_Community 4]]
+- 2 edges to [[_COMMUNITY_Community 50]]
+- 1 edge to [[_COMMUNITY_Community 20]]
+- 1 edge to [[_COMMUNITY_Community 17]]
+- 1 edge to [[_COMMUNITY_Community 29]]
+- 1 edge to [[_COMMUNITY_Community 52]]
 
 ## Top bridge nodes
-- [[Halo first practical recursive proof composition without a trusted setup]] - degree 14, connects to 4 communities
-- [[Pedersen-based univariate polynomial commitment with amortized succinctness]] - degree 8, connects to 2 communities
-- [[Discrete Log Relation Assumption]] - degree 6, connects to 2 communities
-- [[Nested amortization deferringcollapsing linear-time verification through recursive public inputs]] - degree 5, connects to 2 communities
-- [[Deferred inner-product-argument check G = s,G = Commit(sigma, g(X,u_1..u_k)) opened in next argument]] - degree 3, connects to 2 communities
+- [[Scalable, Transparent, and Post-Quantum Secure Computational Integrity]] - degree 26, connects to 9 communities
+- [[Zero-Knowledge Scalable Transparent ARgument of Knowledge (ZK-STARK)]] - degree 7, connects to 2 communities
+- [[Scalable Transparent IOP of Knowledge (STIK)]] - degree 6, connects to 1 community
+- [[Algebraic Linking Interactive Oracle Proof (ALI)]] - degree 3, connects to 1 community
+- [[Collision-resistant hash function assumption (interactive STARK)]] - degree 2, connects to 1 community

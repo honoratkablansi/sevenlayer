@@ -1,12 +1,12 @@
 ---
 source_file: "references/snowball/recursion/ref-118-fast-reductions-from-rams-to-delegatable-succinc.pdf"
 type: "paper"
-community: "Community 96"
+community: "Community 3"
 location: "abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_96
+  - community/Community_3
 ---
 
 # RAM Computation
@@ -15,4 +15,4 @@ tags:
 - [[Arithmetic Circuit]] - `relates_to` [EXTRACTED]
 - [[Arithmetization]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_96
+#graphify/paper #graphify/EXTRACTED #community/Community_3

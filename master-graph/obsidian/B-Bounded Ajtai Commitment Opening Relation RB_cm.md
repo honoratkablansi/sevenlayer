@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-20-latticefold.pdf"
 type: "paper"
-community: "Community 69"
+community: "Community 18"
 location: "§3.1 Eq.(8)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_69
+  - community/Community_18
 ---
 
 # B-Bounded Ajtai Commitment Opening Relation R^B_cm
@@ -19,4 +19,4 @@ tags:
 - [[NTT  Coefficient Embedding over R_q]] - `conceptually_related_to` [EXTRACTED]
 - [[Sumcheck-Based Norm-Bound Range Check]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_69
+#graphify/paper #graphify/EXTRACTED #community/Community_18

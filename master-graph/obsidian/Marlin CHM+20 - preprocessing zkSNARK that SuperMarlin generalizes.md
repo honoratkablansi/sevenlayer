@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch03/ref-14-ccs-customizable-constraints.pdf"
 type: "paper"
-community: "Community 40"
+community: "Community 29"
 location: "refs [CHM+20]"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_40
+  - community/Community_29
 ---
 
 # Marlin [CHM+20] - preprocessing zkSNARK that SuperMarlin generalizes
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[SuperMarlin univariate-sumcheck SNARK for CCS generalizing Marlin]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_40
+#graphify/paper #graphify/EXTRACTED #community/Community_29

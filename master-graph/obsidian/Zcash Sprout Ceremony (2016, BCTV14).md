@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 5"
+community: "Community 17"
 location: "Chapter 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_5
+  - community/Community_17
 ---
 
 # Zcash Sprout Ceremony (2016, BCTV14)
@@ -16,4 +16,4 @@ tags:
 - [[Trusted Setup Ceremony]] - `references` [EXTRACTED]
 - [[Zcash Sapling Ceremony (2018, BGM17 MMORPG)]] - `compares` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_5
+#graphify/document #graphify/EXTRACTED #community/Community_17

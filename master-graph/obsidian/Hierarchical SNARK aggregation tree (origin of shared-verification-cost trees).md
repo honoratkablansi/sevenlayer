@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-21-zktree.pdf"
 type: "paper"
-community: "Community 3"
+community: "Community 87"
 location: "§2.2; ref [10]"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_3
+  - community/Community_87
 ---
 
 # Hierarchical SNARK aggregation tree (origin of shared-verification-cost trees)
@@ -15,4 +15,4 @@ tags:
 - [[Aggregation tree (recursive verification tree)]] - `cites` [EXTRACTED]
 - [[Heterogeneous zk proofs in a single tree (claim of novelty over prior trees)]] - `conceptually_related_to` [INFERRED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_3
+#graphify/paper #graphify/EXTRACTED #community/Community_87

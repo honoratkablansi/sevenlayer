@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-10-fractal.pdf"
 type: "paper"
-community: "Community 6"
+community: "Community 52"
 location: "title/abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_6
+  - community/Community_52
 ---
 
 # Fractal: Post-Quantum and Transparent Recursive Proofs from Holography (Chiesa, Ojha, Spooner, EUROCRYPT 2020)
@@ -20,4 +20,4 @@ tags:
 - [[Theorem 3 preprocessing zkSNARK for R1CS in the (Q)ROM (FRACTAL) — first efficient post-quantum transparent preprocessing zkSNARK]] - `proves` [EXTRACTED]
 - [[Theorem 4  Theorem 11.5 transformation compiling any preprocessing SNARK in the URS model into a preprocessing PCD scheme (preserving transparency and post-quantum security)]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_6
+#graphify/paper #graphify/EXTRACTED #community/Community_52

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-50-extended-tower-nfs.pdf"
 type: "paper"
-community: "Community 31"
+community: "Community 16"
 location: "ref [22]"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_31
+  - community/Community_16
 ---
 
 # NFS medium-prime case (JLSV) [Joux-Lercier-Smart-Vercauteren]
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[exTNFS (Extended Tower Number Field Sieve)]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_31
+#graphify/paper #graphify/EXTRACTED #community/Community_16

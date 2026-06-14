@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf"
 type: "paper"
-community: "Community 66"
+community: "Community 75"
 location: "Abstract / §6 Evaluation, Table 1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_66
+  - community/Community_75
 ---
 
 # Proof-of-inference: first ImageNet-scale ZK-SNARK proof of valid DNN inference (MobileNet v2), 79% top-5 accuracy, verifiable in ~10s
@@ -19,4 +19,4 @@ tags:
 - [[Verifiable  trustless DNN inference model consumer verifies that the model provider served correct predictions in an untrusted (MLaaS) setting]] - `conceptually_related_to` [EXTRACTED]
 - [[zk-SNARK]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_66
+#graphify/paper #graphify/EXTRACTED #community/Community_75

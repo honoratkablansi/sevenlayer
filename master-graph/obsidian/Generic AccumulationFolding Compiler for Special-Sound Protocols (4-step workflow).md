@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-19-protostar.pdf"
 type: "paper"
-community: "Community 8"
+community: "Community 76"
 location: "§1.1, Fig 1, §3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_8
+  - community/Community_76
 ---
 
 # Generic Accumulation/Folding Compiler for Special-Sound Protocols (4-step workflow)
@@ -19,4 +19,4 @@ tags:
 - [[Protostar Non-Uniform IVC Scheme for Multi-Circuit Plonkup R_mplkup]] - `assumes` [EXTRACTED]
 - [[Theorem 3 IVC for High-Degree Special-Sound Protocols (recursive circuit k+d-1 or k+2 scalar mults)]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_8
+#graphify/paper #graphify/EXTRACTED #community/Community_76

@@ -1,39 +1,42 @@
 ---
 type: community
 cohesion: 0.12
-members: 24
+members: 27
 ---
 
 # Community 31
 
 **Cohesion:** 0.12 - loosely connected
-**Members:** 24 nodes
+**Members:** 27 nodes
 
 ## Members
-- [[Composite-extension factorization F_{pn}=F_{(pη)κ}, gcd(η,κ)=1]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[ConjugationGJL polynomial selection Barbulescu-Gaudry-Guillevic-Morain]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[Discrete Logarithm Problem]] - paper - references/ch07/ref-24-shor.pdf
-- [[Doubly-extended tower number field K_f = Q(ι,α_f)]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[Elliptic Curve Method (ECM) factoring attack]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
-- [[Extended Tower Number Field Sieve A New Complexity for the Medium Prime Case]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[Finite Field Arithmetic]] - document - proving-nothing.md
-- [[Finite Fields]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[Individual logarithm smoothing + special-q descent]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[Lemma 1 (norm size bound via iterated resultants)]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[Mandate to update pairing key sizes (c=64→48, factor ~1.33; SNFS factor 2)]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[MexTNFS multiple-number-field variant (c≈1.71)]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[NFS medium-prime case (JLSV) Joux-Lercier-Smart-Vercauteren]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[NFSECM crossover ECM beats NFS at 5+ prime factors]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
-- [[Number Field Sieve]] - document - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[Polynomial Selection]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[Polynomial selection step (h,f,g) — JLSV2 and Conjugation methods]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[Relation collection over R=Zth(t), B-smooth norms]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[Theorem 1 (exTNFS complexity table)]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[Three Multiplicative Sources of Proving Overhead]] - document - proving-nothing.md
-- [[Tower Number Field Sieve (TNFS)]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[Tower Number Field Sieve (TNFS) Barbulescu-Gaudry-Kleinjung]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[exTNFS (Extended Tower Number Field Sieve)]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[exTNFS-Conj medium-prime complexity L_Q(13,(489){13})]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[Ben-Sasson, Chiesa, Tromer, Virza, Scalable zero knowledge via cycles of elliptic curves (CRYPTO 2014) 7 first preprocessing PCD implementation]] - paper - references/recursion/ch3/ref-77-photoproof.pdf
+- [[Chiesa & Tromer, Proof-carrying data and hearsay arguments from signature cards (ICS 2010) 11]] - paper - references/recursion/ch3/ref-77-photoproof.pdf
+- [[Chiesa-Tromer Proof-Carrying Data (ICS 2010  2012)]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
+- [[Compliance predicate encoded as Fp-Rank-1 Constraint System (R1CS); transformations built as image-processing gadgets (crop, flip, transpose, rotate, brightnesscontrast, identity)]] - paper - references/recursion/ch3/ref-77-photoproof.pdf
+- [[Distributed Proof Generation]] - paper - references/snowball/book/ref-104-cluster-computing-in-zero-knowledge.pdf
+- [[Editor applies one permissible transformation and runs PCD prover to fold a new authenticity proof onto the prior signatureproof (Algorithm 3)]] - paper - references/recursion/ch3/ref-77-photoproof.pdf
+- [[Friedman, The trustworthy digital camera (IEEE Trans. Consumer Electronics 1993) 21 in-camera digital signing as root of trust]] - paper - references/recursion/ch3/ref-77-photoproof.pdf
+- [[Gennaro, Gentry, Parno, Raykova, Quadratic span programs and succinct NIZKs without PCPs (EUROCRYPT 2013) 22 SNARK scheme used by libsnark]] - paper - references/recursion/ch3/ref-77-photoproof.pdf
+- [[Goldwasser, Micali, Rivest, A digital signature scheme secure against adaptive chosen-message attacks (1988) 24 existentially unforgeable signatures]] - paper - references/recursion/ch3/ref-77-photoproof.pdf
+- [[IA scheme = (S, G_IA, P_IA, V_IA) new cryptographic primitive for image authentication over a permissible-transformation set T]] - paper - references/recursion/ch3/ref-77-photoproof.pdf
+- [[Media provenance]] - document - recursion/recursion-outline.md
+- [[Multi-Scalar Multiplication]] - paper - references/snowball/book/ref-108-dizk-a-distributed-zero-knowledge-proof-system.pdf
+- [[Permissible transformation set T = (t1,...,tn) editor-configurable set of authenticity-preserving image transformations]] - paper - references/recursion/ch3/ref-77-photoproof.pdf
+- [[PhotoProof (Naveh, Tromer, S&P 2016)]] - document - recursion/recursion-outline.md
+- [[PhotoProof compliance predicate Pi_T (Algorithm 1) base case verifies signature, else checks t in T, t(I_in,gamma)=I_out, and public key unchanged]] - paper - references/recursion/ch3/ref-77-photoproof.pdf
+- [[PhotoProof cryptographic image authentication scheme for any permissible transformation set]] - paper - references/recursion/ch3/ref-77-photoproof.pdf
+- [[Private multi-party applications  autonomous worlds]] - document - recursion/recursion-outline.md
+- [[Proof-Carrying Data (PCD)]] - document - references/ch06/ref-18-hypernova.pdf
+- [[Signature-outside-Pi optimization camera signs a collision-resistant original-hash; verifier checks signature outside PCD, predicate ensures original-hash unchanged across edits]] - paper - references/recursion/ch3/ref-77-photoproof.pdf
+- [[Signed camera-original as root of trust in-camera digital signature on the original image anchors the start of the permissible-transformation chain]] - paper - references/recursion/ch3/ref-77-photoproof.pdf
+- [[Statistical zero-knowledge proofs an authenticated (e.g. cropped) image reveals nothing about the image beyond its authenticity, hiding cropped-out regions and edit history]] - paper - references/recursion/ch3/ref-77-photoproof.pdf
+- [[Succinctness constant-size proofs O_lambda(1) and verifier runtime O_lambda(I), independent of image edit-history length]] - paper - references/recursion/ch3/ref-77-photoproof.pdf
+- [[Theorem 9 for any poly-time transformation set T, given PCD and an existentially unforgeable signature scheme, PP = (S,G_PP,P_PP,V_PP) is an IA scheme for T]] - paper - references/recursion/ch3/ref-77-photoproof.pdf
+- [[Verifiable Computation  Delegation]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
+- [[Walsh, CertiPics over Nexus OS with TPM secure co-processor 57 prior policy-based image authentication lacking succinctness and zero-knowledge]] - paper - references/recursion/ch3/ref-77-photoproof.pdf
+- [[Working prototype on libsnark using preprocessing PCD of Ben-Sasson et al.; ECDSA NIST192p signatures; small N x N images (up to 128x128)]] - paper - references/recursion/ch3/ref-77-photoproof.pdf
+- [[Zexe Decentralized Private Computation (Bowe et al., S&P 2020)]] - document - recursion/recursion-outline.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -43,23 +46,31 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 5 edges to [[_COMMUNITY_Community 64]]
-- 4 edges to [[_COMMUNITY_Community 97]]
-- 3 edges to [[_COMMUNITY_Community 1]]
-- 2 edges to [[_COMMUNITY_Community 91]]
-- 2 edges to [[_COMMUNITY_Community 5]]
-- 1 edge to [[_COMMUNITY_Community 36]]
-- 1 edge to [[_COMMUNITY_Community 121]]
-- 1 edge to [[_COMMUNITY_Community 96]]
-- 1 edge to [[_COMMUNITY_Community 89]]
-- 1 edge to [[_COMMUNITY_Community 81]]
-- 1 edge to [[_COMMUNITY_Community 65]]
-- 1 edge to [[_COMMUNITY_Community 0]]
-- 1 edge to [[_COMMUNITY_Community 2]]
+- 6 edges to [[_COMMUNITY_Community 49]]
+- 5 edges to [[_COMMUNITY_Community 22]]
+- 5 edges to [[_COMMUNITY_Community 65]]
+- 3 edges to [[_COMMUNITY_Community 41]]
+- 3 edges to [[_COMMUNITY_Community 74]]
+- 3 edges to [[_COMMUNITY_Community 32]]
+- 3 edges to [[_COMMUNITY_Community 42]]
+- 2 edges to [[_COMMUNITY_Community 29]]
+- 2 edges to [[_COMMUNITY_Community 13]]
+- 2 edges to [[_COMMUNITY_Community 67]]
+- 2 edges to [[_COMMUNITY_Community 64]]
+- 1 edge to [[_COMMUNITY_Community 72]]
+- 1 edge to [[_COMMUNITY_Community 17]]
+- 1 edge to [[_COMMUNITY_Community 79]]
+- 1 edge to [[_COMMUNITY_Community 1]]
+- 1 edge to [[_COMMUNITY_Community 78]]
+- 1 edge to [[_COMMUNITY_Community 102]]
+- 1 edge to [[_COMMUNITY_Community 134]]
+- 1 edge to [[_COMMUNITY_Community 128]]
+- 1 edge to [[_COMMUNITY_Community 6]]
+- 1 edge to [[_COMMUNITY_Community 123]]
 
 ## Top bridge nodes
-- [[Discrete Logarithm Problem]] - degree 10, connects to 4 communities
-- [[Extended Tower Number Field Sieve A New Complexity for the Medium Prime Case]] - degree 7, connects to 4 communities
-- [[Finite Field Arithmetic]] - degree 8, connects to 3 communities
-- [[Three Multiplicative Sources of Proving Overhead]] - degree 4, connects to 3 communities
-- [[exTNFS (Extended Tower Number Field Sieve)]] - degree 15, connects to 2 communities
+- [[Proof-Carrying Data (PCD)]] - degree 47, connects to 18 communities
+- [[Media provenance]] - degree 10, connects to 3 communities
+- [[Distributed Proof Generation]] - degree 4, connects to 2 communities
+- [[PhotoProof cryptographic image authentication scheme for any permissible transformation set]] - degree 11, connects to 1 community
+- [[PhotoProof compliance predicate Pi_T (Algorithm 1) base case verifies signature, else checks t in T, t(I_in,gamma)=I_out, and public key unchanged]] - degree 5, connects to 1 community

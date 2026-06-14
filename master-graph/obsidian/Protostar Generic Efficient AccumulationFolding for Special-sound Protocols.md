@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-19-protostar.pdf"
 type: "paper"
-community: "Community 8"
+community: "Community 76"
 location: "p.1 (title/abstract)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_8
+  - community/Community_76
 ---
 
 # Protostar: Generic Efficient Accumulation/Folding for Special-sound Protocols
@@ -31,4 +31,4 @@ tags:
 - [[Sangria Moh23 (cited, Plonk degree-2 folding)]] - `cites` [EXTRACTED]
 - [[SuperNova KS22 (cited, non-uniform IVC predecessor)]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_8
+#graphify/paper #graphify/EXTRACTED #community/Community_76

@@ -1,12 +1,12 @@
 ---
 source_file: "references/snowball/recursion/ref-116-a-survey-of-two-verifiable-delay-functions.pdf"
 type: "paper"
-community: "Community 28"
+community: "Community 15"
 location: "abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_28
+  - community/Community_15
 ---
 
 # Group of Unknown Order
@@ -15,4 +15,4 @@ tags:
 - [[Supersonic  DARK SNARK]] - `uses` [EXTRACTED]
 - [[Verifiable Delay Function]] - `uses` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_28
+#graphify/paper #graphify/EXTRACTED #community/Community_15

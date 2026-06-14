@@ -1,33 +1,34 @@
 ---
 type: community
-cohesion: 0.16
-members: 18
+cohesion: 0.15
+members: 19
 ---
 
 # Community 68
 
-**Cohesion:** 0.16 - loosely connected
-**Members:** 18 nodes
+**Cohesion:** 0.15 - loosely connected
+**Members:** 19 nodes
 
 ## Members
-- [[Binary tree of proofs (basewrapmerge recursion over block transitions)]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
-- [[Cited Bowe-Gabizon, simulation-extractable Groth zk-SNARK (ePrint 2018187)]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
-- [[Cited Halo (Bowe-Grigg-Hopwood) and Marlin (Chiesa et al.) — universal-setup recursion]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
-- [[Cited Ouroboros Genesis (Badertscher et al., ePrint 2018378) — Samasika base protocol]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
-- [[Implementation OCaml + Snarky DSL + libsnark backend, libp2p; 200ms verify, k=10, R=240s, f=0.5]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
-- [[Mina (Coda)]] - document - recursion/recursion-outline.md
-- [[Ouroboros Samasika first provably-secure succinct PoS consensus]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
-- [[Parallel scan state (decouple block production from SNARK proving)]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
-- [[Pickles  universal-setup recursion roadmap (Halo, Marlin)]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
-- [[Prover incentives snarkers and lowest-price SNARK-work auction]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
-- [[SNARK S recursive state-update circuit (Update verifies txns, consensus, signature, prior proof)]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
-- [[Scan-state claim latency O(log R), storage 2R-1+O(1) vs naive O(R)]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
-- [[Signatures of Knowledge (SoK) for non-malleable fee requests, via Bowe-Gabizon SNARK]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
-- [[Testnet evaluation 85 participants, 49 block producers, 24826 txns, 53120 SNARK proofs]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
-- [[Theorem 2 Samasika satisfies CP, CG, CQ, existential-CQ (security proof)]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
-- [[TickTock SNARK pair (base, merge, wrap proofs over the curve cycle)]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
-- [[Window min-density (nu-shifting omega-window) for succinct long-range fork resolution]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
-- [[maxvalid-sc chain-selection rule (succinct adaptation of maxvalid-bg)]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
+- [[ADOPT ceremony desiderata Available, Decentralized, Open, Persistent, Transparent]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
+- [[Ethereum KZG ceremony (141416 contributors, 10 implementations, model transparency example)]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
+- [[Formal trusted setup protocol definition (processchannel tuple, corruption threshold t, trapdoor s)]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
+- [[MMORPG framework (Massively Multiparty Open Reusable Parameter Generation; two-phase Groth16 setup)]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
+- [[Perpetual Powers-of-Tau (PPOT) ceremony (Semaphore, BN254, 228, fluid continuous participation)]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
+- [[Powers of Tau]] - document - proving-nothing.md
+- [[Powers-of-tau beyond SNARKs (asynchronous DKG, weighted-threshold signatures)]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
+- [[Protocol security properties correctness, gamma-epsilon trapdoor-confidentiality, consistency, (m,epsilon)-robustness]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
+- [[Protocol vs. ceremony distinction (mathematical protocol vs real-world instantiation)]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
+- [[Reuse of two independent Groth16 powers-of-tau ceremonies (no new trusted setup)]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
+- [[Round-robin non-parallelizable model, secure under n-1 dishonest (dishonest-majority) participants]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
+- [[Setup taxonomy public-cointransparent vs private-coin; circuit-specific vs universal vs updatable]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
+- [[Six ceremony best-practice lessons (multi impl + audit, diverse participation, air-gapped machines, geographic isolation, diverse randomness, public verifiable log)]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
+- [[SoK Trusted Setups for Powers-of-Tau Strings]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
+- [[Survey of 40+ real-world ceremonies (Aleo, Aztec, Filecoin, Hermez, Ethereum KZG, Manta, ZKSync, etc.)]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
+- [[Surveyed setup protocols (BCDTV15, BGG17, BGM17, KMSV21, KKK21, CDKS22, NRBB22)]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
+- [[Zcash Sapling ceremony (2018, two-phase MMORPG, Groth16, BLS12-381)]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
+- [[Zcash Sprout ceremony (2016, six participants, BCTV14, first major PoT ceremony)]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
+- [[q-strong Diffie-Hellman (q-sDH) hardness assumption]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -37,13 +38,21 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 4 edges to [[_COMMUNITY_Community 23]]
-- 3 edges to [[_COMMUNITY_Community 25]]
-- 1 edge to [[_COMMUNITY_Community 75]]
+- 11 edges to [[_COMMUNITY_Community 11]]
+- 5 edges to [[_COMMUNITY_Community 58]]
+- 5 edges to [[_COMMUNITY_Community 34]]
+- 3 edges to [[_COMMUNITY_Community 59]]
+- 2 edges to [[_COMMUNITY_Community 62]]
+- 1 edge to [[_COMMUNITY_Community 41]]
+- 1 edge to [[_COMMUNITY_Community 17]]
+- 1 edge to [[_COMMUNITY_Community 119]]
+- 1 edge to [[_COMMUNITY_Community 5]]
+- 1 edge to [[_COMMUNITY_Community 71]]
+- 1 edge to [[_COMMUNITY_Community 21]]
 
 ## Top bridge nodes
-- [[Mina (Coda)]] - degree 9, connects to 2 communities
-- [[Parallel scan state (decouple block production from SNARK proving)]] - degree 6, connects to 1 community
-- [[SNARK S recursive state-update circuit (Update verifies txns, consensus, signature, prior proof)]] - degree 4, connects to 1 community
-- [[Pickles  universal-setup recursion roadmap (Halo, Marlin)]] - degree 3, connects to 1 community
-- [[Binary tree of proofs (basewrapmerge recursion over block transitions)]] - degree 3, connects to 1 community
+- [[Powers of Tau]] - degree 20, connects to 7 communities
+- [[SoK Trusted Setups for Powers-of-Tau Strings]] - degree 13, connects to 5 communities
+- [[MMORPG framework (Massively Multiparty Open Reusable Parameter Generation; two-phase Groth16 setup)]] - degree 9, connects to 3 communities
+- [[Setup taxonomy public-cointransparent vs private-coin; circuit-specific vs universal vs updatable]] - degree 4, connects to 2 communities
+- [[Formal trusted setup protocol definition (processchannel tuple, corruption threshold t, trapdoor s)]] - degree 4, connects to 1 community

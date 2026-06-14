@@ -1,24 +1,23 @@
 ---
 type: community
-cohesion: 0.22
-members: 9
+cohesion: 0.29
+members: 8
 ---
 
 # Community 119
 
-**Cohesion:** 0.22 - loosely connected
-**Members:** 9 nodes
+**Cohesion:** 0.29 - loosely connected
+**Members:** 8 nodes
 
 ## Members
-- [[Lemma 610 (folding CCS is randomizing)]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[Linearized (committed) CCS relation]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[Multi-folding scheme (generalized folding)]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[Multi-folding scheme for CCS (Construction 1)]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[No commitments to cross-terms efficiency claim]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[Sangria (folding scheme for Plonkish)]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[Theorem 1 (multi-folding scheme for CCS)]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[Theorem 8 (nlookup multi-folding scheme)]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[nlookup lookup argument (Construction 8)]] - paper - references/ch06/ref-18-hypernova.pdf
+- [[1-of-N Trust Model]] - document - proving-nothing.md
+- [[ADOPT Framework (Available, Decentralized, Open, Persistent, Transparent)]] - document - proving-nothing.md
+- [[CapexOpex Setup Economics Framework]] - document - proving-nothing.md
+- [[Chapter 2 Layer 1 — Building the Stage]] - document - proving-nothing.md
+- [[Ethereum KZG Summoning Ceremony (2023, 141,416 contributors)]] - document - proving-nothing.md
+- [[Luhmann — Risk A Sociological Theory (trust vs confidence, 1993)]] - document - proving-nothing.md
+- [[Nikolaenko et al. — Powers-of-Tau to the People Decentralizing Setup Ceremonies (ACNS 2024)]] - document - proving-nothing.md
+- [[Wang, Cohney, Bonneau — SoK Trusted Setups for Powers-of-Tau Strings (FC 2025)]] - document - proving-nothing.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -28,15 +27,14 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 6 edges to [[_COMMUNITY_Community 1]]
-- 2 edges to [[_COMMUNITY_Community 40]]
-- 1 edge to [[_COMMUNITY_Community 37]]
-- 1 edge to [[_COMMUNITY_Community 16]]
-- 1 edge to [[_COMMUNITY_Community 131]]
+- 2 edges to [[_COMMUNITY_Community 11]]
+- 1 edge to [[_COMMUNITY_Community 5]]
+- 1 edge to [[_COMMUNITY_Community 12]]
+- 1 edge to [[_COMMUNITY_Community 68]]
+- 1 edge to [[_COMMUNITY_Community 17]]
 
 ## Top bridge nodes
-- [[Multi-folding scheme for CCS (Construction 1)]] - degree 10, connects to 5 communities
-- [[nlookup lookup argument (Construction 8)]] - degree 4, connects to 2 communities
-- [[Multi-folding scheme (generalized folding)]] - degree 3, connects to 1 community
-- [[Sangria (folding scheme for Plonkish)]] - degree 2, connects to 1 community
-- [[Linearized (committed) CCS relation]] - degree 2, connects to 1 community
+- [[Ethereum KZG Summoning Ceremony (2023, 141,416 contributors)]] - degree 5, connects to 2 communities
+- [[Chapter 2 Layer 1 — Building the Stage]] - degree 4, connects to 2 communities
+- [[1-of-N Trust Model]] - degree 4, connects to 1 community
+- [[CapexOpex Setup Economics Framework]] - degree 3, connects to 1 community

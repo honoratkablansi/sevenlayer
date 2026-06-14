@@ -1,36 +1,37 @@
 ---
 type: community
 cohesion: 0.12
-members: 21
+members: 22
 ---
 
 # Community 49
 
 **Cohesion:** 0.12 - loosely connected
-**Members:** 21 nodes
+**Members:** 22 nodes
 
 ## Members
-- [[Automated find-and-prove-bug pipeline (SMT + ZKP)]] - paper - references/ch10/ref-33-circ.pdf
-- [[Breakable block (exceptional control flow construct)]] - paper - references/ch10/ref-33-circ.pdf
-- [[CirC ILP back-end (CBC solver)]] - paper - references/ch10/ref-33-circ.pdf
-- [[CirC R1CS back-end (lowering pass)]] - paper - references/ch10/ref-33-circ.pdf
-- [[CirC SMT back-end (Z3 Haskell bindings)]] - paper - references/ch10/ref-33-circ.pdf
-- [[CirC ZoKratesZ front-end]] - paper - references/ch10/ref-33-circ.pdf
-- [[CirC-IR (SMT-LIB-based circuit IR)]] - paper - references/ch10/ref-33-circ.pdf
-- [[Circify language-independent state-management library]] - paper - references/ch10/ref-33-circ.pdf
-- [[Compiler intermediate representation]] - paper - references/ch10/ref-33-circ.pdf
-- [[Constant folding  SMT term rewriting pass]] - paper - references/ch10/ref-33-circ.pdf
-- [[Existentially Quantified Circuit (EQC)]] - paper - references/ch10/ref-33-circ.pdf
-- [[Fine-grained array modeling]] - paper - references/ch10/ref-33-circ.pdf
-- [[Guarded SSA versioning via ITE terms]] - paper - references/ch10/ref-33-circ.pdf
-- [[Integer Linear Programming]] - paper - references/ch10/ref-33-circ.pdf
-- [[Linearity reduction (R1CS-specific optimization)]] - paper - references/ch10/ref-33-circ.pdf
-- [[Oblivious array elimination pass]] - paper - references/ch10/ref-33-circ.pdf
-- [[Proof System Compiler]] - paper - references/ch10/ref-33-circ.pdf
-- [[SMT-guided loop-unroll bound inference]] - paper - references/ch10/ref-33-circ.pdf
-- [[Satisfiability Modulo Theories (SMT)]] - paper - references/ch10/ref-33-circ.pdf
-- [[ZKlog Datalog dialect front-end]] - paper - references/ch10/ref-33-circ.pdf
-- [[Zero-knowledge proof system]] - paper - references/ch10/ref-33-circ.pdf
+- [[Accumulation Scheme Completeness and Soundness Properties]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
+- [[Accumulation Scheme for a Non-Interactive Argument (Def 4.1)]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
+- [[Accumulation Scheme for a Polynomial Commitment (Def 4.2)]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
+- [[Accumulation Schemes]] - document - references/ch06/ref-19-protostar.pdf
+- [[BCCT13 Recursive Composition and Bootstrapping for SNARKs and PCD]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
+- [[COS20 Fractal - Post-Quantum Transparent Recursive Proofs from Holography]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
+- [[Compatibility Hell (cross-layer alignment)]] - document - recursion/recursion-outline.md
+- [[Field-Mismatch Problem (base vs scalar field)]] - document - recursion/recursion-outline.md
+- [[Formal Accumulation Scheme Definition AS=(G,I,P,V,D) for (Phi,H)]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
+- [[Full Recursion (in-circuit verifier embedding)]] - document - recursion/recursion-outline.md
+- [[Halo Infinite]] - paper - references/snowball/book/ref-095-halo-infinite-recursive-zk-snarks-from-any-addi.pdf
+- [[Nova KST21 recursive ZK arguments from folding; R_acc = relaxed committed R1CS]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
+- [[Pickles  Mina]] - document - recursion/recursion-outline.md
+- [[Predicate-Efficient SNARK]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
+- [[Proof-Carrying Data from Accumulation Schemes (BCMS20)]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
+- [[Relaxed Succinctness deferred verification via sublinear accumulation verifier]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
+- [[Section 1.3 Construction-Strategy Taxonomy Table]] - document - recursion/recursion-outline.md
+- [[Theorem 1 (informal) SNARK with accumulation scheme compiles to PCD]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
+- [[Theorem 2 (informal) accumulation for predicate + predicate-efficient SNARK yields accumulation for the SNARK]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
+- [[Theorem 5.2 transformation T from SNARK + accumulation scheme to PCD for constant-depth predicates]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
+- [[Worked Intuition the Proof of a Proof]] - document - recursion/recursion-outline.md
+- [[Zero Knowledge for Accumulation Schemes (simulator, verification proof piV)]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -40,14 +41,30 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 4 edges to [[_COMMUNITY_Community 28]]
-- 3 edges to [[_COMMUNITY_Community 4]]
-- 1 edge to [[_COMMUNITY_Community 32]]
-- 1 edge to [[_COMMUNITY_Community 96]]
+- 6 edges to [[_COMMUNITY_Community 22]]
+- 6 edges to [[_COMMUNITY_Community 13]]
+- 6 edges to [[_COMMUNITY_Community 31]]
+- 5 edges to [[_COMMUNITY_Community 41]]
+- 4 edges to [[_COMMUNITY_Community 12]]
+- 3 edges to [[_COMMUNITY_Community 76]]
+- 3 edges to [[_COMMUNITY_Community 32]]
+- 3 edges to [[_COMMUNITY_Community 47]]
+- 2 edges to [[_COMMUNITY_Community 5]]
+- 2 edges to [[_COMMUNITY_Community 8]]
+- 2 edges to [[_COMMUNITY_Community 77]]
+- 1 edge to [[_COMMUNITY_Community 70]]
+- 1 edge to [[_COMMUNITY_Community 0]]
+- 1 edge to [[_COMMUNITY_Community 29]]
+- 1 edge to [[_COMMUNITY_Community 114]]
+- 1 edge to [[_COMMUNITY_Community 121]]
+- 1 edge to [[_COMMUNITY_Community 74]]
+- 1 edge to [[_COMMUNITY_Community 9]]
+- 1 edge to [[_COMMUNITY_Community 2]]
+- 1 edge to [[_COMMUNITY_Community 10]]
 
 ## Top bridge nodes
-- [[Existentially Quantified Circuit (EQC)]] - degree 5, connects to 3 communities
-- [[Proof System Compiler]] - degree 4, connects to 2 communities
-- [[CirC-IR (SMT-LIB-based circuit IR)]] - degree 12, connects to 1 community
-- [[Satisfiability Modulo Theories (SMT)]] - degree 6, connects to 1 community
-- [[CirC R1CS back-end (lowering pass)]] - degree 5, connects to 1 community
+- [[Accumulation Schemes]] - degree 36, connects to 17 communities
+- [[Halo Infinite]] - degree 5, connects to 4 communities
+- [[Proof-Carrying Data from Accumulation Schemes (BCMS20)]] - degree 10, connects to 3 communities
+- [[Section 1.3 Construction-Strategy Taxonomy Table]] - degree 5, connects to 3 communities
+- [[Predicate-Efficient SNARK]] - degree 4, connects to 2 communities

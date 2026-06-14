@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 32"
+community: "Community 41"
 location: "Chapter 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_32
+  - community/Community_41
 ---
 
 # SNARK (Succinct Non-interactive ARgument of Knowledge)
@@ -16,6 +16,7 @@ tags:
 - [[AD-SNARK]] - `improves` [EXTRACTED]
 - [[Accumulation Scheme for a Non-Interactive Argument (Def 4.1)]] - `conceptually_related_to` [EXTRACTED]
 - [[Accumulation Schemes]] - `uses` [EXTRACTED]
+- [[Argument System interactive proof sound only against computationally bounded provers]] - `special_case_of` [EXTRACTED]
 - [[Arithmetic Circuit]] - `uses` [EXTRACTED]
 - [[Aurora]] - `defines` [EXTRACTED]
 - [[Bilinear Pairing]] - `uses` [EXTRACTED]
@@ -37,7 +38,7 @@ tags:
 - [[Extractable Collision-Resistant Hash]] - `defines` [EXTRACTED]
 - [[Extractable verifiable polynomial-delegation protocol with knowledge soundness (vSQL Construction 2)]] - `conceptually_related_to` [EXTRACTED]
 - [[Falsifiable Assumption]] - `relates_to` [EXTRACTED]
-- [[Fiat-Shamir Transform]] - `compiles-into` [EXTRACTED]
+- [[Fiat-Shamir Transform]] - `uses` [EXTRACTED]
 - [[First construction of PCD without succinct arguments (linear-size NARKs suffice)]] - `conceptually_related_to` [EXTRACTED]
 - [[Folding Scheme]] - `relates_to` [EXTRACTED]
 - [[Functional Commitment]] - `used_to_build` [EXTRACTED]
@@ -53,7 +54,7 @@ tags:
 - [[Incrementally Verifiable Computation (IVC)]] - `uses` [EXTRACTED]
 - [[Interactive Oracle Proofs]] - `uses` [EXTRACTED]
 - [[Knowledge Assumption]] - `uses` [EXTRACTED]
-- [[Knowledge-Soundness]] - `defines` [EXTRACTED]
+- [[Knowledge-Soundness]] - `uses` [EXTRACTED]
 - [[Knowledge-of-Exponent Assumption]] - `conceptually_related_to` [EXTRACTED]
 - [[Lattice Cryptography]] - `uses` [EXTRACTED]
 - [[Linear Interactive Proof (LIP)]] - `relates_to` [EXTRACTED]
@@ -107,6 +108,7 @@ tags:
 - [[Spartan]] - `instantiates` [EXTRACTED]
 - [[Square Span Program]] - `uses` [EXTRACTED]
 - [[Static Analysis]] - `relates_to` [EXTRACTED]
+- [[Succinct Argument]] - `builds_on` [EXTRACTED]
 - [[Succinct Non-interactive Argument (SNARG)]] - `relates_to` [EXTRACTED]
 - [[Succinct Proof]] - `relates_to` [EXTRACTED]
 - [[Succinctness]] - `assumes` [EXTRACTED]
@@ -130,10 +132,10 @@ tags:
 - [[Verifiable computation]] - `relates_to` [EXTRACTED]
 - [[Verifiable delay function (VDF)]] - `uses` [EXTRACTED]
 - [[ZKML (Zero-Knowledge Machine Learning)]] - `uses` [EXTRACTED]
-- [[Zero-Knowledge Proof]] - `related_to` [EXTRACTED]
+- [[Zero-Knowledge Proof]] - `builds_on` [EXTRACTED]
 - [[Zerocash]] - `uses` [EXTRACTED]
 - [[Gro16 Groth, On the Size of Pairing-Based Non-interactive Arguments (EUROCRYPT 2016)]] - `conceptually_related_to` [EXTRACTED]
 - [[vSQL verifiable database system for arbitrary SQL queries over dynamic outsourced databases]] - `cites` [EXTRACTED]
 - [[zkVM]] - `uses` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_32
+#graphify/document #graphify/EXTRACTED #community/Community_41

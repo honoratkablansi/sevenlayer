@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-87-deco.pdf"
 type: "paper"
-community: "Community 11"
+community: "Community 27"
 location: "§3.2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_11
+  - community/Community_27
 ---
 
 # Security properties: prover-integrity, verifier-integrity, privacy under static malicious adversary
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Ideal functionality F_Oracle (formal security definition of decentralized oracle) between S, P, V]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_11
+#graphify/paper #graphify/EXTRACTED #community/Community_27

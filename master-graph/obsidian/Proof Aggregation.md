@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 3"
+community: "Community 102"
 location: "Chapter 8"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_3
+  - community/Community_102
 ---
 
 # Proof Aggregation
@@ -27,6 +27,7 @@ tags:
 - [[Recursive STARK proving]] - `defines` [EXTRACTED]
 - [[SHARP (SHARed Prover)]] - `explains` [EXTRACTED]
 - [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `improves` [EXTRACTED]
+- [[SNARK Composition (Proof Composition)]] - `enables` [EXTRACTED]
 - [[SNARK proof aggregation]] - `conceptually_related_to` [EXTRACTED]
 - [[SNARK-aggregated signatures]] - `conceptually_related_to` [EXTRACTED]
 - [[SnarkPack Practical SNARK Aggregation]] - `introduces` [EXTRACTED]
@@ -40,4 +41,4 @@ tags:
 - [[zkTLS  zkEmail web and email provenance]] - `conceptually_related_to` [EXTRACTED]
 - [[zkTree zero-knowledge recursion tree with ZKP membership proofs]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_3
+#graphify/document #graphify/EXTRACTED #community/Community_102

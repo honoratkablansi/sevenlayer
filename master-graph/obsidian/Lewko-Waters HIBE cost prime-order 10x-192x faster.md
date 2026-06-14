@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-51-pairing-efficiency-curves.pdf"
 type: "paper"
-community: "Community 64"
+community: "Community 16"
 location: "§5.2 Tab.8-9"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_64
+  - community/Community_16
 ---
 
 # Lewko-Waters HIBE cost: prime-order 10x-192x faster
@@ -16,4 +16,4 @@ tags:
 - [[Lewko generic conversion, Eurocrypt 2012 (cited prior work)]] - `cites` [EXTRACTED]
 - [[Recommendation avoid composite-order groups whenever possible]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_64
+#graphify/paper #graphify/EXTRACTED #community/Community_16

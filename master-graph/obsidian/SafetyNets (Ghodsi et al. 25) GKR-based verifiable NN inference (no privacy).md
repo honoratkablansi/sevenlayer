@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-70-zkcnn.pdf"
 type: "paper"
-community: "Community 105"
+community: "Community 88"
 location: "§1.1, References [25]"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_105
+  - community/Community_88
 ---
 
 # SafetyNets (Ghodsi et al. [25]): GKR-based verifiable NN inference (no privacy)
@@ -16,4 +16,4 @@ tags:
 - [[Verifiable  trustless DNN inference model consumer verifies that the model provider served correct predictions in an untrusted (MLaaS) setting]] - `conceptually_related_to` [EXTRACTED]
 - [[zkCNN Zero Knowledge Proofs for CNN Predictions and Accuracy (CCS 2021)]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_105
+#graphify/paper #graphify/EXTRACTED #community/Community_88

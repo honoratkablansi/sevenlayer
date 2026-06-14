@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-87-deco.pdf"
 type: "paper"
-community: "Community 11"
+community: "Community 27"
 location: "§3.4.2, §4.2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_11
+  - community/Community_27
 ---
 
 # 2PC query execution over TLS: prover and verifier run custom 2PC (2PC-HMAC, 2PC-GCM) to construct TLS records under secret-shared keys
@@ -16,4 +16,4 @@ tags:
 - [[DECO decentralized oracle for TLS (Zhang, Maram, Malvai, Goldfeder, Juels, CCS 2020)]] - `introduces` [EXTRACTED]
 - [[Secure multi-party computation (MPC)  two-party computation (2PC)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_11
+#graphify/paper #graphify/EXTRACTED #community/Community_27

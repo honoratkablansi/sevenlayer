@@ -1,12 +1,12 @@
 ---
 source_file: "references/snowball/book/ref-095-halo-infinite-recursive-zk-snarks-from-any-addi.pdf"
 type: "paper"
-community: "Community 9"
+community: "Community 49"
 location: "abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_9
+  - community/Community_49
 ---
 
 # Halo Infinite
@@ -18,4 +18,4 @@ tags:
 - [[Proof-Carrying Data (PCD)]] - `defines` [EXTRACTED]
 - [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `uses` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_9
+#graphify/paper #graphify/EXTRACTED #community/Community_49

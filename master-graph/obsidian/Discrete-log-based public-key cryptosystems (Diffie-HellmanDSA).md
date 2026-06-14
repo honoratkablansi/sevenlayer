@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch07/ref-24-shor.pdf"
 type: "paper"
-community: "Community 91"
+community: "Community 44"
 location: "§6"
 tags:
   - graphify/paper
   - graphify/INFERRED
-  - community/Community_91
+  - community/Community_44
 ---
 
 # Discrete-log-based public-key cryptosystems (Diffie-Hellman/DSA)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Quantum discrete logarithm algorithm]] - `conceptually_related_to` [INFERRED]
 
-#graphify/paper #graphify/INFERRED #community/Community_91
+#graphify/paper #graphify/INFERRED #community/Community_44

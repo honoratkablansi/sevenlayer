@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-90-zexe.pdf"
 type: "paper"
-community: "Community 43"
+community: "Community 6"
 location: "§1.2 (Succinct blockchains) [MS18]"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_43
+  - community/Community_6
 ---
 
 # Coda [MS18]: arbitrary-depth recursive SNARK composition for succinct blockchains
@@ -16,4 +16,4 @@ tags:
 - [[Recursive Proof Composition]] - `conceptually_related_to` [EXTRACTED]
 - [[Zexe a ledger-based system for decentralized private computation]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_43
+#graphify/paper #graphify/EXTRACTED #community/Community_6

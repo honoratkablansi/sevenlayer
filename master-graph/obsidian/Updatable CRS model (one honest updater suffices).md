@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-37-updatable-universal-crs.pdf"
 type: "paper"
-community: "Community 67"
+community: "Community 34"
 location: "§3, §3.3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_67
+  - community/Community_34
 ---
 
 # Updatable CRS model (one honest updater suffices)
@@ -20,4 +20,4 @@ tags:
 - [[Updatable and Universal Common Reference Strings with Applications to zk-SNARKs]] - `introduces` [EXTRACTED]
 - [[Updatable and Universal Structured Reference String]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_67
+#graphify/paper #graphify/EXTRACTED #community/Community_34

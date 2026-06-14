@@ -1,29 +1,30 @@
 ---
 type: community
-cohesion: 0.38
-members: 14
+cohesion: 0.23
+members: 15
 ---
 
 # Community 89
 
-**Cohesion:** 0.38 - loosely connected
-**Members:** 14 nodes
+**Cohesion:** 0.23 - loosely connected
+**Members:** 15 nodes
 
 ## Members
-- [[BatchZK (pipelined GPU prover)]] - paper - wiki/sections/ch04-witness-generation-costs.md
-- [[Execution Traces]] - document - wiki/sections/ch04-execution-traces.md
-- [[GPU-Accelerated Proving]] - document - wiki/sections/ch04-witness-generation-costs.md
-- [[Memory The Binding Constraint]] - document - wiki/sections/ch04-memory-the-binding-constraint.md
-- [[NTT over R_q (q=8380417, ζ=1753 a 512th root of unity) fast module-polynomial multiplication NTT(ab)=NTT(a)∘NTT(b)]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[Number-Theoretic Transform (NTT)]] - document - proving-nothing.md
-- [[Reinforced Concrete Hash]] - document - wiki/chapters/04-the-secret-performance.md
-- [[Streaming Witness Generation (Nair, Thaler, Zhu)]] - paper - wiki/sections/ch04-witness-generation-costs.md
-- [[The Hidden Bottleneck]] - document - wiki/sections/ch04-the-hidden-bottleneck.md
-- [[The Secret Performance]] - document - wiki/chapters/04-the-secret-performance.md
-- [[The Witness as a Multi-Dimensional Problem]] - document - wiki/sections/ch04-the-witness-as-a-multi-dimensional-problem.md
-- [[Witness Generation]] - document - proving-nothing.md
-- [[Witness Generation Costs]] - document - wiki/sections/ch04-witness-generation-costs.md
-- [[ZKPOG (GPU Witness Acceleration)]] - document - proving-nothing.md
+- [[Digital Identity]] - document - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[Electronic Identification (eID)]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[NFC ID credential self-custodial credential derived locally from ICAO-compliant NFC passportsnational IDs to prove attributes (age, nationality) without uploading ID data]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[Nullifier]] - document - proving-nothing.md
+- [[PoH authentication unlinkable pseudonymity via self-custody + ZKP against a public registry, plus a person-bound second factor (Face Auth) with periodic reauthentication]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[Proof of Human (PoH) private primitive establishing a party is a real, unique human (or agent acting on a human's behalf)]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[Proof of Personhood]] - document - proving-nothing.md
+- [[Semaphore set registration zk-SNARK privacy layer; smart contract on Ethereum holding a Merkle set of Poseidon (BN254) hashes of World ID secrets, bridged to other chains]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[Semaphore generic open-source zk-SNARK group-membership and signaling protocol for Ethereum (Groth16-verifiable)]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[World Chain human-centered financial layer implemented as an OP Stack  Superchain layer-2 on Ethereum with human-based transaction prioritization]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[World ID]] - document - references/ch13/ref-59-world-whitepaper.pdf
+- [[World ID open-source decentralized privacy-preserving digital identity issuing unlinkable proofs (Proof of Human, Age, Country) via personal custody, AMPC and ZKPs]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[World Network real human network with five core technologies (World ID, Orb, World App, World Chain, WLD) for Proof of Human plus a financial layer]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[World Whitepapers (World Network Proof of Human)]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[Worldcoin (WLD) ERC-20 native token, 10B initial cap, =60% target to verified humans as user tokens, governanceone-person-one-vote, =1.5% inflation only after 15 years]] - paper - references/ch13/ref-59-world-whitepaper.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -33,34 +34,17 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 14 edges to [[_COMMUNITY_Community 1]]
-- 13 edges to [[_COMMUNITY_Community 14]]
-- 11 edges to [[_COMMUNITY_Community 13]]
-- 10 edges to [[_COMMUNITY_Community 2]]
-- 6 edges to [[_COMMUNITY_Community 109]]
-- 6 edges to [[_COMMUNITY_Community 0]]
-- 4 edges to [[_COMMUNITY_Community 108]]
-- 4 edges to [[_COMMUNITY_Community 88]]
-- 4 edges to [[_COMMUNITY_Community 126]]
-- 3 edges to [[_COMMUNITY_Community 62]]
-- 3 edges to [[_COMMUNITY_Community 115]]
-- 3 edges to [[_COMMUNITY_Community 40]]
-- 3 edges to [[_COMMUNITY_Community 27]]
-- 2 edges to [[_COMMUNITY_Community 5]]
-- 2 edges to [[_COMMUNITY_Community 72]]
-- 2 edges to [[_COMMUNITY_Community 54]]
-- 1 edge to [[_COMMUNITY_Community 36]]
-- 1 edge to [[_COMMUNITY_Community 31]]
+- 5 edges to [[_COMMUNITY_Community 97]]
+- 4 edges to [[_COMMUNITY_Community 48]]
+- 3 edges to [[_COMMUNITY_Community 20]]
+- 3 edges to [[_COMMUNITY_Community 36]]
 - 1 edge to [[_COMMUNITY_Community 10]]
-- 1 edge to [[_COMMUNITY_Community 125]]
-- 1 edge to [[_COMMUNITY_Community 58]]
-- 1 edge to [[_COMMUNITY_Community 45]]
-- 1 edge to [[_COMMUNITY_Community 20]]
-- 1 edge to [[_COMMUNITY_Community 4]]
+- 1 edge to [[_COMMUNITY_Community 86]]
+- 1 edge to [[_COMMUNITY_Community 5]]
 
 ## Top bridge nodes
-- [[The Secret Performance]] - degree 43, connects to 16 communities
-- [[Number-Theoretic Transform (NTT)]] - degree 21, connects to 9 communities
-- [[Witness Generation Costs]] - degree 22, connects to 8 communities
-- [[The Witness as a Multi-Dimensional Problem]] - degree 15, connects to 7 communities
-- [[Execution Traces]] - degree 12, connects to 7 communities
+- [[Proof of Personhood]] - degree 10, connects to 2 communities
+- [[World Whitepapers (World Network Proof of Human)]] - degree 6, connects to 2 communities
+- [[Nullifier]] - degree 4, connects to 2 communities
+- [[Digital Identity]] - degree 8, connects to 1 community
+- [[World ID open-source decentralized privacy-preserving digital identity issuing unlinkable proofs (Proof of Human, Age, Country) via personal custody, AMPC and ZKPs]] - degree 8, connects to 1 community

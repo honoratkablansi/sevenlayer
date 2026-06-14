@@ -1,66 +1,60 @@
 ---
 type: community
-cohesion: 0.11
-members: 51
+cohesion: 0.17
+members: 45
 ---
 
 # Community 5
 
-**Cohesion:** 0.11 - loosely connected
-**Members:** 51 nodes
+**Cohesion:** 0.17 - loosely connected
+**Members:** 45 nodes
 
 ## Members
-- [[Ariel Gabizon]] - document - wiki/sections/ch02-the-bug-that-was-not-a-ceremony-failure.md
-- [[BLS12-381 new pairing-friendly curve, 384-bit base field, 256-bit group order, 128-bit security]] - paper - references/ch02/ref-05-mpc-random-beacon.pdf
-- [[BN254's Eroding Security Margin]] - document - wiki/sections/ch02-bn254-s-eroding-security-margin.md
-- [[Bootle, Cerulli, Chaidos, Groth, Petit Efficient ZK arguments in the discrete log setting (inner product argument) 12]] - paper - references/recursion/ch1/ref-05-halo.pdf
-- [[Bunz et al., Bulletproofs (IEEE S&P 2018)]] - document - proving-nothing.md
-- [[CVE-2019-7167 BCTV14 Counterfeiting Bug]] - document - proving-nothing.md
-- [[Chaliasos et al. — SoK Understanding Security Vulnerabilities in SNARKs (USENIX Security 2024)]] - document - proving-nothing.md
-- [[Discrete Logarithm Problem (DLP)]] - document - proving-nothing.md
-- [[Ethereum KZG Summoning of 2023 (141,416 participants)]] - document - proving-nothing.md
-- [[FFLONK]] - document - proving-nothing.md
-- [[Formal trusted setup protocol definition (processchannel tuple, corruption threshold t, trapdoor s)]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
-- [[Groth 2016 (ePrint 2016260)]] - document - proving-nothing.md
-- [[Groth — On the Size of Pairing-Based Non-interactive Arguments (EUROCRYPT 2016)]] - document - proving-nothing.md
-- [[Groth16]] - document - proving-nothing.md
-- [[Harvest Now, Decrypt Later Threat]] - document - proving-nothing.md
-- [[Inner Product Argument (IPABulletproofs)]] - document - proving-nothing.md
-- [[KZG Polynomial Commitments from pairings (with trusted setup); Dory transparent pairing-based scheme]] - paper - references/recursion/ch1/ref-20-thaler-proofs-arguments-zk.pdf
-- [[Kate, Zaverucha & Goldberg, KZG (ASIACRYPT 2010)]] - document - proving-nothing.md
-- [[Kate, Zaverucha, Goldberg — Constant-Size Commitments to Polynomials (ASIACRYPT 2010)]] - document - proving-nothing.md
-- [[Layer 1 -- Building the Stage]] - document - wiki/chapters/02-building-the-stage.md
-- [[MMORPG massively multi-party open reusable parameter generation system]] - paper - references/ch02/ref-05-mpc-random-beacon.pdf
+- [[AETSTARK cost wdT metric; Poseidon-128 width-3 AET cost 20540perm (40 opsbit), width-5 38214perm]] - paper - references/recursion/ch1/ref-31-poseidon.pdf
+- [[Algebraic vs Traditional Hash Functions]] - document - wiki/sections/ch04-side-channel-attacks-when-the-walls-leak.md
+- [[BLS12-381 Curve]] - document - proving-nothing.md
+- [[Cardano]] - document - wiki/sections/ch12-midnight-at-a-glance.md
+- [[Case Study Midnight (Layer 6)]] - document - wiki/sections/ch07-case-study-midnight.md
+- [[Case Study Midnight and the Three-Token Architecture]] - document - wiki/sections/ch04-memory-the-binding-constraint.md
+- [[Case Study Midnight's Sealed Certificate]] - document - wiki/sections/ch03-the-developer-s-actual-experience.md
+- [[Choreographing the Act]] - document - wiki/chapters/03-choreographing-the-act.md
+- [[Compact Language]] - document - wiki/chapters/03-choreographing-the-act.md
+- [[Compact Language Reference (Midnight Network)]] - document - references/ch12/ref-39-compact-language-reference.md
+- [[Compact's Disclosure Analysis]] - document - wiki/sections/ch03-compact-s-disclosure-analysis.md
+- [[Five Lessons for ZK System Design]] - document - wiki/sections/ch12-five-lessons-for-zk-system-design.md
+- [[Four-Phase Transaction Pipeline]] - document - proving-nothing.md
+- [[Full Seven-Layer Mapping]] - document - wiki/sections/ch12-full-seven-layer-mapping.md
+- [[Gabizon, Williamson, Ciobotaru — PLONK (ePrint 2019953)]] - document - proving-nothing.md
+- [[Halo 2  UltraPlonk]] - document - proving-nothing.md
+- [[Jubjub Curve]] - document - proving-nothing.md
+- [[Leo (Aleo)]] - document - wiki/sections/ch03-the-four-philosophies.md
+- [[Local Proof Server (localhost6300)]] - document - proving-nothing.md
+- [[Midnight (Privacy Blockchain)]] - document - proving-nothing.md
+- [[Midnight -- The Privacy Theater]] - document - wiki/chapters/12-midnight-the-privacy-theater.md
 - [[Midnight BLS12-381 Layer 1 Case Study (CompactZKIR, Pluto-Eris switch)]] - document - proving-nothing.md
-- [[Midnight's BLS12-381 Stage]] - document - wiki/sections/ch02-midnight-s-bls12-381-stage.md
-- [[NIST]] - document - wiki/sections/ch01-the-deepest-question.md
-- [[Option-Value Analysis]] - document - wiki/sections/ch02-option-value-analysis.md
-- [[Powers of Tau]] - document - proving-nothing.md
-- [[Powers-of-tau beyond SNARKs (asynchronous DKG, weighted-threshold signatures)]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
-- [[Protocol security properties correctness, gamma-epsilon trapdoor-confidentiality, consistency, (m,epsilon)-robustness]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
-- [[Protocol vs. ceremony distinction (mathematical protocol vs real-world instantiation)]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
-- [[Quantum Shelf Life & Option Value]] - document - proving-nothing.md
-- [[Round-robin non-parallelizable model, secure under n-1 dishonest (dishonest-majority) participants]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
-- [[Scalable Multi-party Computation for zk-SNARK Parameters in the Random Beacon Model]] - paper - references/ch02/ref-05-mpc-random-beacon.pdf
-- [[Setup taxonomy public-cointransparent vs private-coin; circuit-specific vs universal vs updatable]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
-- [[Shor's Algorithm  Quantum Threat]] - document - proving-nothing.md
-- [[SoK Trusted Setups for Powers-of-Tau Strings]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
-- [[Structured Reference String (SRS)]] - document - proving-nothing.md
-- [[The 141,416-Person Question]] - document - wiki/sections/ch02-the-141-416-person-question.md
-- [[The ADOPT Framework]] - document - wiki/sections/ch02-the-adopt-framework.md
-- [[The Bug That Was Not a Ceremony Failure]] - document - wiki/sections/ch02-the-bug-that-was-not-a-ceremony-failure.md
-- [[The CapexOpex Framework]] - document - wiki/sections/ch02-the-capex-opex-framework.md
-- [[The Fair Shuffle Problem]] - document - wiki/sections/ch02-the-fair-shuffle-problem.md
-- [[The Quantum Shelf Life]] - document - wiki/sections/ch02-the-quantum-shelf-life.md
-- [[The Setup Tradeoff]] - document - wiki/sections/ch02-the-setup-tradeoff.md
-- [[The Structured Reference String]] - document - wiki/sections/ch02-the-structured-reference-string.md
-- [[Toxic Waste (Trapdoor)]] - document - proving-nothing.md
-- [[Trusted Setup Ceremony]] - document - proving-nothing.md
-- [[Two Ways to Build a Stage]] - document - wiki/sections/ch02-two-ways-to-build-a-stage.md
-- [[Universal versus Circuit-Specific Setups]] - document - wiki/sections/ch02-universal-versus-circuit-specific-setups.md
-- [[Zcash Sapling Ceremony (2018, BGM17 MMORPG)]] - document - proving-nothing.md
-- [[Zcash Sprout Ceremony (2016, BCTV14)]] - document - proving-nothing.md
-- [[q-strong Diffie-Hellman (q-sDH) hardness assumption]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
+- [[Midnight Reference Documentation (473pp)]] - document - proving-nothing.md
+- [[Midnight Three-Token Architecture (Night, Shielded, DUST)]] - document - proving-nothing.md
+- [[Midnight as Test Case]] - document - wiki/sections/ch12-midnight-as-test-case.md
+- [[Midnight at a Glance]] - document - wiki/sections/ch12-midnight-at-a-glance.md
+- [[Midnight's ZKIR A Concrete Layer 4]] - document - wiki/sections/ch05-midnight-s-zkir-a-concrete-layer-4.md
+- [[Midnight Compiler, IR, Circuit]] - document - wiki/sections/ch03-midnight-compiler-ir-circuit.md
+- [[MidnightJS SDK]] - document - wiki/sections/ch12-full-seven-layer-mapping.md
+- [[PLONK]] - document - proving-nothing.md
+- [[Poseidon Hash]] - document - proving-nothing.md
+- [[Privacy Theater Analogy]] - document - proving-nothing.md
+- [[Relaxed Arithmetization]] - paper - references/snowball/recursion/ref-114-sangria-a-folding-scheme-for-plonk.pdf
+- [[ShieldedUnshielded UTXO Model]] - document - proving-nothing.md
+- [[The Developer's Actual Experience]] - document - wiki/sections/ch03-the-developer-s-actual-experience.md
+- [[The Disclose Boundary Midnight's Witness Architecture]] - document - wiki/sections/ch04-the-disclose-boundary-midnight-s-witness-architecture.md
+- [[The Four Philosophies]] - document - wiki/sections/ch03-the-four-philosophies.md
+- [[The Privacy Theater Analogy]] - document - wiki/sections/ch12-the-privacy-theater-analogy.md
+- [[Three-Token Model (NIGHTDUSTCustom)]] - document - proving-nothing.md
+- [[UTXO Model]] - document - wiki/sections/ch12-full-seven-layer-mapping.md
+- [[Verifier Key Lifecycle  Immutability]] - document - proving-nothing.md
+- [[Where Midnight Challenges the Model]] - document - wiki/sections/ch12-where-midnight-challenges-the-model.md
+- [[Where Midnight Validates the Model]] - document - wiki/sections/ch12-where-midnight-validates-the-model.md
+- [[ZKIR (Zero-Knowledge Intermediate Representation)]] - document - proving-nothing.md
+- [[ZKIR Intermediate Representation Reference (Midnight Network, stub)]] - document - references/ch12/ref-40-zkir-reference.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -70,60 +64,63 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 54 edges to [[_COMMUNITY_Community 0]]
-- 44 edges to [[_COMMUNITY_Community 2]]
-- 40 edges to [[_COMMUNITY_Community 14]]
-- 32 edges to [[_COMMUNITY_Community 62]]
-- 20 edges to [[_COMMUNITY_Community 1]]
-- 18 edges to [[_COMMUNITY_Community 13]]
-- 13 edges to [[_COMMUNITY_Community 17]]
-- 11 edges to [[_COMMUNITY_Community 3]]
-- 10 edges to [[_COMMUNITY_Community 97]]
-- 9 edges to [[_COMMUNITY_Community 104]]
-- 8 edges to [[_COMMUNITY_Community 57]]
-- 6 edges to [[_COMMUNITY_Community 32]]
-- 6 edges to [[_COMMUNITY_Community 73]]
-- 5 edges to [[_COMMUNITY_Community 22]]
-- 5 edges to [[_COMMUNITY_Community 28]]
-- 5 edges to [[_COMMUNITY_Community 12]]
-- 5 edges to [[_COMMUNITY_Community 61]]
-- 5 edges to [[_COMMUNITY_Community 59]]
-- 5 edges to [[_COMMUNITY_Community 87]]
-- 5 edges to [[_COMMUNITY_Community 36]]
-- 3 edges to [[_COMMUNITY_Community 71]]
-- 3 edges to [[_COMMUNITY_Community 37]]
-- 3 edges to [[_COMMUNITY_Community 100]]
-- 3 edges to [[_COMMUNITY_Community 9]]
-- 3 edges to [[_COMMUNITY_Community 121]]
-- 3 edges to [[_COMMUNITY_Community 67]]
-- 3 edges to [[_COMMUNITY_Community 4]]
+- 54 edges to [[_COMMUNITY_Community 1]]
+- 41 edges to [[_COMMUNITY_Community 0]]
+- 38 edges to [[_COMMUNITY_Community 4]]
+- 37 edges to [[_COMMUNITY_Community 24]]
+- 36 edges to [[_COMMUNITY_Community 11]]
+- 32 edges to [[_COMMUNITY_Community 17]]
+- 15 edges to [[_COMMUNITY_Community 10]]
+- 13 edges to [[_COMMUNITY_Community 86]]
+- 13 edges to [[_COMMUNITY_Community 61]]
+- 7 edges to [[_COMMUNITY_Community 94]]
+- 7 edges to [[_COMMUNITY_Community 129]]
+- 6 edges to [[_COMMUNITY_Community 22]]
+- 5 edges to [[_COMMUNITY_Community 116]]
+- 5 edges to [[_COMMUNITY_Community 13]]
+- 5 edges to [[_COMMUNITY_Community 60]]
+- 4 edges to [[_COMMUNITY_Community 117]]
+- 4 edges to [[_COMMUNITY_Community 125]]
+- 4 edges to [[_COMMUNITY_Community 95]]
+- 3 edges to [[_COMMUNITY_Community 41]]
+- 3 edges to [[_COMMUNITY_Community 65]]
+- 3 edges to [[_COMMUNITY_Community 69]]
+- 2 edges to [[_COMMUNITY_Community 70]]
+- 2 edges to [[_COMMUNITY_Community 12]]
+- 2 edges to [[_COMMUNITY_Community 25]]
+- 2 edges to [[_COMMUNITY_Community 48]]
+- 2 edges to [[_COMMUNITY_Community 121]]
+- 2 edges to [[_COMMUNITY_Community 81]]
+- 2 edges to [[_COMMUNITY_Community 43]]
+- 2 edges to [[_COMMUNITY_Community 49]]
 - 2 edges to [[_COMMUNITY_Community 15]]
-- 2 edges to [[_COMMUNITY_Community 89]]
-- 2 edges to [[_COMMUNITY_Community 42]]
-- 2 edges to [[_COMMUNITY_Community 96]]
-- 2 edges to [[_COMMUNITY_Community 102]]
-- 2 edges to [[_COMMUNITY_Community 51]]
-- 2 edges to [[_COMMUNITY_Community 50]]
-- 2 edges to [[_COMMUNITY_Community 26]]
-- 2 edges to [[_COMMUNITY_Community 31]]
-- 1 edge to [[_COMMUNITY_Community 109]]
-- 1 edge to [[_COMMUNITY_Community 122]]
-- 1 edge to [[_COMMUNITY_Community 19]]
-- 1 edge to [[_COMMUNITY_Community 54]]
-- 1 edge to [[_COMMUNITY_Community 6]]
-- 1 edge to [[_COMMUNITY_Community 112]]
-- 1 edge to [[_COMMUNITY_Community 11]]
-- 1 edge to [[_COMMUNITY_Community 85]]
-- 1 edge to [[_COMMUNITY_Community 116]]
+- 2 edges to [[_COMMUNITY_Community 115]]
+- 2 edges to [[_COMMUNITY_Community 75]]
+- 2 edges to [[_COMMUNITY_Community 79]]
+- 2 edges to [[_COMMUNITY_Community 71]]
+- 2 edges to [[_COMMUNITY_Community 87]]
+- 2 edges to [[_COMMUNITY_Community 122]]
+- 2 edges to [[_COMMUNITY_Community 40]]
+- 1 edge to [[_COMMUNITY_Community 20]]
+- 1 edge to [[_COMMUNITY_Community 119]]
+- 1 edge to [[_COMMUNITY_Community 80]]
+- 1 edge to [[_COMMUNITY_Community 21]]
+- 1 edge to [[_COMMUNITY_Community 35]]
+- 1 edge to [[_COMMUNITY_Community 68]]
+- 1 edge to [[_COMMUNITY_Community 83]]
+- 1 edge to [[_COMMUNITY_Community 29]]
+- 1 edge to [[_COMMUNITY_Community 76]]
+- 1 edge to [[_COMMUNITY_Community 59]]
 - 1 edge to [[_COMMUNITY_Community 23]]
-- 1 edge to [[_COMMUNITY_Community 111]]
-- 1 edge to [[_COMMUNITY_Community 58]]
-- 1 edge to [[_COMMUNITY_Community 48]]
-- 1 edge to [[_COMMUNITY_Community 40]]
+- 1 edge to [[_COMMUNITY_Community 141]]
+- 1 edge to [[_COMMUNITY_Community 56]]
+- 1 edge to [[_COMMUNITY_Community 103]]
+- 1 edge to [[_COMMUNITY_Community 37]]
+- 1 edge to [[_COMMUNITY_Community 89]]
 
 ## Top bridge nodes
-- [[Groth16]] - degree 107, connects to 27 communities
-- [[Trusted Setup Ceremony]] - degree 85, connects to 26 communities
-- [[Layer 1 -- Building the Stage]] - degree 56, connects to 19 communities
-- [[KZG Polynomial Commitments from pairings (with trusted setup); Dory transparent pairing-based scheme]] - degree 81, connects to 18 communities
-- [[Inner Product Argument (IPABulletproofs)]] - degree 26, connects to 10 communities
+- [[PLONK]] - degree 78, connects to 25 communities
+- [[Midnight (Privacy Blockchain)]] - degree 79, connects to 19 communities
+- [[Poseidon Hash]] - degree 46, connects to 16 communities
+- [[Choreographing the Act]] - degree 44, connects to 15 communities
+- [[Halo 2  UltraPlonk]] - degree 39, connects to 14 communities

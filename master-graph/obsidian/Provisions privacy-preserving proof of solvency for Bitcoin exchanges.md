@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-88-provisions.pdf"
 type: "paper"
-community: "Community 39"
+community: "Community 73"
 location: "Title; Abstract; §3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_39
+  - community/Community_73
 ---
 
 # Provisions: privacy-preserving proof of solvency for Bitcoin exchanges
@@ -29,4 +29,4 @@ tags:
 - [[Zerocash]] - `cites` [EXTRACTED]
 - [[zk-SNARK]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_39
+#graphify/paper #graphify/EXTRACTED #community/Community_73

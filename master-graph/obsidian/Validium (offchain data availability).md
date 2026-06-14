@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch1/ref-17-polygon-zkevm-docs.md"
 type: "document"
-community: "Community 99"
+community: "Community 104"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_99
+  - community/Community_104
 ---
 
 # Validium (offchain data availability)
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[Polygon CDK (Chain Development Kit)]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_99
+#graphify/document #graphify/EXTRACTED #community/Community_104

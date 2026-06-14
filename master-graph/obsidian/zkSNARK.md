@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-46-zk-memory-algebraic-proofs.pdf"
 type: "document"
-community: "Community 128"
+community: "Community 6"
 location: "Section 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_128
+  - community/Community_6
 ---
 
 # zkSNARK
@@ -21,4 +21,4 @@ tags:
 - [[The 'execute' NP statement R_e proved in zero knowledge per transaction]] - `assumes` [EXTRACTED]
 - [[Volatile and Persistent Memory for zkSNARKs via Algebraic Interactive Proofs]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_128
+#graphify/document #graphify/EXTRACTED #community/Community_6

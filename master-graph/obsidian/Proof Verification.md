@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 71"
+community: "Community 101"
 location: "Chapter 8"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_71
+  - community/Community_101
 ---
 
 # Proof Verification
@@ -15,4 +15,4 @@ tags:
 - [[On-Chain Verifier]] - `defines` [EXTRACTED]
 - [[Verification Gas Cost]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_71
+#graphify/document #graphify/EXTRACTED #community/Community_101

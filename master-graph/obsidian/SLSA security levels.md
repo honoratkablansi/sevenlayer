@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch3/ref-63-slsa-intoto-frameworks.md"
 type: "document"
-community: "Community 60"
+community: "Community 64"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_60
+  - community/Community_64
 ---
 
 # SLSA security levels
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[SLSA (Supply-chain Levels for Software Artifacts)]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_60
+#graphify/document #graphify/EXTRACTED #community/Community_64

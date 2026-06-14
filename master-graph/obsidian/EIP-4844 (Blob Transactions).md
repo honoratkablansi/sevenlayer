@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 17"
+community: "Community 101"
 location: "Chapter 8"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_17
+  - community/Community_101
 ---
 
 # EIP-4844 (Blob Transactions)
@@ -19,4 +19,4 @@ tags:
 - [[The Price of a Verdict]] - `references` [EXTRACTED]
 - [[Verification Gas Cost]] - `conceptually_related_to` [INFERRED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_17
+#graphify/document #graphify/EXTRACTED #community/Community_101

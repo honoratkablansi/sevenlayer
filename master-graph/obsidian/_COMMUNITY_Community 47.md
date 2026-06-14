@@ -1,36 +1,38 @@
 ---
 type: community
-cohesion: 0.13
-members: 21
+cohesion: 0.12
+members: 23
 ---
 
 # Community 47
 
-**Cohesion:** 0.13 - loosely connected
-**Members:** 21 nodes
+**Cohesion:** 0.12 - loosely connected
+**Members:** 23 nodes
 
 ## Members
-- [[Buterin, A rollup-centric ethereum roadmap (2020)]] - document - references/recursion/ch3/ref-54-ethereum-rollup-centric-roadmap.md
-- [[Claim Proving Cost Collapse $80 to $0.04 (2023-2025)]] - document - proving-nothing.md
-- [[Data availability layer (base layer as DA for rollups)]] - document - references/recursion/ch3/ref-54-ethereum-rollup-centric-roadmap.md
-- [[Identity and credentials]] - document - recursion/recursion-outline.md
-- [[Linea (ConsenSys zkEVM, $2B TVL, gnark)]] - document - proving-nothing.md
-- [[Maturity gradient for application clusters]] - document - recursion/recursion-outline.md
-- [[Optimistic Rollups]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Phase 1.5 and done (base layer for consensus and DA only)]] - document - references/recursion/ch3/ref-54-ethereum-rollup-centric-roadmap.md
-- [[Polygon zkEVM STARK to FFLONK pipeline]] - document - recursion/recursion-outline.md
-- [[Polygon zkEVM Shutdown (~$250M, ZisK spinoff)]] - document - proving-nothing.md
-- [[Proof compression (STARK-to-SNARK)]] - document - recursion/recursion-outline.md
-- [[Rollup Stage 012 Decentralization]] - document - proving-nothing.md
-- [[Rollup-centric Ethereum scaling roadmap]] - document - references/recursion/ch3/ref-54-ethereum-rollup-centric-roadmap.md
-- [[Scroll (zkEVM, $748M TVL, halo2KZG)]] - document - proving-nothing.md
-- [[Section 3.7 recursion strategy decision framework]] - document - recursion/recursion-outline.md
-- [[Starknet (Stwo Circle STARK prover, Cairo ISA)]] - document - proving-nothing.md
-- [[Succinct SP1 Hypercube Prover]] - document - proving-nothing.md
-- [[Three Converging Forces (privacy, scaling, cost)]] - document - proving-nothing.md
-- [[ZK Rollup]] - document - proving-nothing.md
-- [[ZK rollup advantages over optimistic rollups (finality, cost, security)]] - document - references/recursion/ch3/ref-54-ethereum-rollup-centric-roadmap.md
-- [[ZKsync Era (Matter Labs, Airbender prover)]] - document - proving-nothing.md
+- [[Amortization strategy helper collapses m linear-time commitment-opening checks into one]] - paper - references/recursion/ch1/ref-05-halo.pdf
+- [[Bulletproofs (Bunz et al.) 13]] - paper - references/recursion/ch1/ref-05-halo.pdf
+- [[Chiesa, Chua On cycles of pairing-friendly elliptic curves 16]] - paper - references/recursion/ch1/ref-05-halo.pdf
+- [[Chiesa, Tromer Proof-Carrying Data 19]] - paper - references/recursion/ch1/ref-05-halo.pdf
+- [[Computation commitments succinct commitment to R1CS structure via public preprocessing (Encode), no trapdoor]] - paper - references/recursion/ch2/ref-41-spartan.pdf
+- [[Deferred inner-product-argument check G = s,G = Commit(sigma, g(X,u_1..u_k)) opened in next argument]] - paper - references/recursion/ch1/ref-05-halo.pdf
+- [[Discrete Log Relation Assumption]] - paper - references/recursion/ch1/ref-05-halo.pdf
+- [[Endomorphism-based circuit optimization (Algorithm 1, 3.5 constraintsbit)]] - paper - references/recursion/ch1/ref-05-halo.pdf
+- [[Fractal (Chiesa, Ojha, Spooner) post-quantum transparent recursive proofs 18]] - paper - references/recursion/ch1/ref-05-halo.pdf
+- [[Halo first practical recursive proof composition without a trusted setup]] - paper - references/recursion/ch1/ref-05-halo.pdf
+- [[Main argument Sonic-variant PSHVZK argument of knowledge for arithmetic circuit satisfiability]] - paper - references/recursion/ch1/ref-05-halo.pdf
+- [[Nested amortization deferringcollapsing linear-time verification through recursive public inputs]] - paper - references/recursion/ch1/ref-05-halo.pdf
+- [[No-trusted-setup (transparent) argument under discrete log over normal curve cycles]] - paper - references/recursion/ch1/ref-05-halo.pdf
+- [[Non-interactive instantiation via Fiat-Shamir with Rescue duplex-sponge in random oracle model]] - paper - references/recursion/ch1/ref-05-halo.pdf
+- [[Pedersen-based univariate polynomial commitment with amortized succinctness]] - paper - references/recursion/ch1/ref-05-halo.pdf
+- [[Recursion threshold below 217 gates; fully-recursive proofs 3.5 KiB at 128-bit security]] - paper - references/recursion/ch1/ref-05-halo.pdf
+- [[Sonic (Maller, Bowe, Kohlweiss, Meiklejohn) 32]] - paper - references/recursion/ch1/ref-05-halo.pdf
+- [[Theorem 1 polynomial commitment protocol has completeness, witness-extended emulation, PSHVZK]] - paper - references/recursion/ch1/ref-05-halo.pdf
+- [[Theorem 2 main protocol (Fig. 1) has completeness, PSHVZK, computational witness-extended emulation]] - paper - references/recursion/ch1/ref-05-halo.pdf
+- [[Theorem 3 (Distinct-x theorem) safe incomplete addition in scalar-mult circuits]] - paper - references/recursion/ch1/ref-05-halo.pdf
+- [[TweedledumTweedledee 255-bit prime-order normal (non-pairing) 2-cycle, y2=x3+5]] - paper - references/recursion/ch1/ref-05-halo.pdf
+- [[Valiant Incrementally verifiable computation 36]] - paper - references/recursion/ch1/ref-05-halo.pdf
+- [[Wahby, Tzialla, shelat, Thaler, Walfish Doubly-efficient zkSNARKs without trusted setup 37]] - paper - references/recursion/ch1/ref-05-halo.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -40,26 +42,20 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 4 edges to [[_COMMUNITY_Community 12]]
-- 4 edges to [[_COMMUNITY_Community 21]]
-- 3 edges to [[_COMMUNITY_Community 17]]
-- 3 edges to [[_COMMUNITY_Community 71]]
-- 3 edges to [[_COMMUNITY_Community 19]]
-- 2 edges to [[_COMMUNITY_Community 79]]
-- 1 edge to [[_COMMUNITY_Community 3]]
-- 1 edge to [[_COMMUNITY_Community 14]]
-- 1 edge to [[_COMMUNITY_Community 2]]
-- 1 edge to [[_COMMUNITY_Community 58]]
-- 1 edge to [[_COMMUNITY_Community 52]]
-- 1 edge to [[_COMMUNITY_Community 1]]
-- 1 edge to [[_COMMUNITY_Community 9]]
-- 1 edge to [[_COMMUNITY_Community 11]]
-- 1 edge to [[_COMMUNITY_Community 99]]
-- 1 edge to [[_COMMUNITY_Community 127]]
+- 5 edges to [[_COMMUNITY_Community 13]]
+- 4 edges to [[_COMMUNITY_Community 11]]
+- 4 edges to [[_COMMUNITY_Community 23]]
+- 4 edges to [[_COMMUNITY_Community 8]]
+- 3 edges to [[_COMMUNITY_Community 49]]
+- 2 edges to [[_COMMUNITY_Community 12]]
+- 1 edge to [[_COMMUNITY_Community 22]]
+- 1 edge to [[_COMMUNITY_Community 131]]
+- 1 edge to [[_COMMUNITY_Community 98]]
+- 1 edge to [[_COMMUNITY_Community 93]]
 
 ## Top bridge nodes
-- [[ZK Rollup]] - degree 34, connects to 10 communities
-- [[Identity and credentials]] - degree 5, connects to 3 communities
-- [[Rollup-centric Ethereum scaling roadmap]] - degree 7, connects to 2 communities
-- [[Optimistic Rollups]] - degree 5, connects to 1 community
-- [[Three Converging Forces (privacy, scaling, cost)]] - degree 3, connects to 1 community
+- [[No-trusted-setup (transparent) argument under discrete log over normal curve cycles]] - degree 9, connects to 5 communities
+- [[Halo first practical recursive proof composition without a trusted setup]] - degree 14, connects to 3 communities
+- [[Discrete Log Relation Assumption]] - degree 6, connects to 3 communities
+- [[Pedersen-based univariate polynomial commitment with amortized succinctness]] - degree 8, connects to 2 communities
+- [[Nested amortization deferringcollapsing linear-time verification through recursive public inputs]] - degree 5, connects to 2 communities

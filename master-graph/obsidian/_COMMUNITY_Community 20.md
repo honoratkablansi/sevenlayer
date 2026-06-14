@@ -1,45 +1,50 @@
 ---
 type: community
-cohesion: 0.10
-members: 30
+cohesion: 0.07
+members: 35
 ---
 
 # Community 20
 
-**Cohesion:** 0.10 - loosely connected
-**Members:** 30 nodes
+**Cohesion:** 0.07 - loosely connected
+**Members:** 35 nodes
 
 ## Members
-- [['Large-Scale MPC Scaling Private Iris Code Uniqueness Checks to Millions of Users' — cited technical paper underpinning AMPC]] - paper - references/ch13/ref-59-world-whitepaper.pdf
-- [[AMPC infrastructure NVIDIA H100 GPUs (AWS p5.48xlarge, RDMA) running CUDA, ~50M pairwise comparisonssec; operated by FAU Erlangen, UC Berkeley RDI, Nethermind, KAIST, UTEC, UZurich]] - paper - references/ch13/ref-59-world-whitepaper.pdf
-- [[Anonymized Multi-Party Computation (AMPC) quantum-secure SMPC uniqueness service on encrypted iris-code fragments, revealing only a single matchno-match bit, never plaintext Hamming distances]] - paper - references/ch13/ref-59-world-whitepaper.pdf
-- [[Digital Identity]] - document - references/ch13/ref-60-eidas-2-regulation.pdf
-- [[Electronic Identification (eID)]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
-- [[Humanity Protocol (palm-vein biometric, $1.1B valuation)]] - document - proving-nothing.md
-- [[Iris Biometrics]] - document - references/ch13/ref-59-world-whitepaper.pdf
-- [[Iris biometrics 1N uniqueness modality with FMR beyond 2.5e-14, randomly formed in gestation, stable, uncorrelated even between twinsown eyes]] - paper - references/ch13/ref-59-world-whitepaper.pdf
-- [[John Daugman iris recognition (1993, Gabor-wavelet IrisCode), foundational prior work for the Orb's iris algorithm]] - paper - references/ch13/ref-59-world-whitepaper.pdf
-- [[NFC ID credential self-custodial credential derived locally from ICAO-compliant NFC passportsnational IDs to prove attributes (age, nationality) without uploading ID data]] - paper - references/ch13/ref-59-world-whitepaper.pdf
-- [[Nullifier]] - document - proving-nothing.md
-- [[Orb hardware root of trust dual burned keys (NVIDIA Jetson SoC fuses + secure element), NIST-SP-800-108 KDF provisioning, dm-verity signed-firmware boot, on-chain Orb Registry]] - paper - references/ch13/ref-59-world-whitepaper.pdf
-- [[Personal Custody Package (PCP) irisface embeddings, raw images and AMPC fragments encrypted on the Orb with a user key, sent to the phone, then images deleted from the Orb]] - paper - references/ch13/ref-59-world-whitepaper.pdf
-- [[PoH authentication unlinkable pseudonymity via self-custody + ZKP against a public registry, plus a person-bound second factor (Face Auth) with periodic reauthentication]] - paper - references/ch13/ref-59-world-whitepaper.pdf
-- [[Presentation Attack Detection & liveness local challenge-response, passive liveness, thermal heat-signature check, contact-lens detection across multispectral sensors]] - paper - references/ch13/ref-59-world-whitepaper.pdf
-- [[Proof of Human (PoH) private primitive establishing a party is a real, unique human (or agent acting on a human's behalf)]] - paper - references/ch13/ref-59-world-whitepaper.pdf
-- [[Proof of Personhood]] - document - proving-nothing.md
-- [[Secure multi-party computation (SMPC) multiple independent nodes jointly check uniqueness over secret-shared, end-to-end encrypted fragments without any party seeing the data]] - paper - references/ch13/ref-59-world-whitepaper.pdf
-- [[Semaphore set registration zk-SNARK privacy layer; smart contract on Ethereum holding a Merkle set of Poseidon (BN254) hashes of World ID secrets, bridged to other chains]] - paper - references/ch13/ref-59-world-whitepaper.pdf
-- [[Semaphore generic open-source zk-SNARK group-membership and signaling protocol for Ethereum (Groth16-verifiable)]] - paper - references/ch13/ref-59-world-whitepaper.pdf
-- [[The Orb high-security open-source multispectral IR camera issuing an AI-safe PoH credential via local on-device iris+face capture, livenessPAD, and signed iris code]] - paper - references/ch13/ref-59-world-whitepaper.pdf
-- [[Unique iris code frequency-based features extracted from iris texture via multi-scale Gabor wavelet filters with quantized phase response; matched by Hamming distance with masks]] - paper - references/ch13/ref-59-world-whitepaper.pdf
-- [[Uniqueness targetsclaims per-iris FMR 1e-6, billion-scale FMR ~1e-12, FNMR  5e-3; achieved FMR 2.25e-14 at ~1e-3 FNMR in pre-launch tests]] - paper - references/ch13/ref-59-world-whitepaper.pdf
-- [[World (Worldcoin, iris-scanning orbs)]] - document - proving-nothing.md
-- [[World Chain human-centered financial layer implemented as an OP Stack  Superchain layer-2 on Ethereum with human-based transaction prioritization]] - paper - references/ch13/ref-59-world-whitepaper.pdf
-- [[World ID]] - document - references/ch13/ref-59-world-whitepaper.pdf
-- [[World ID open-source decentralized privacy-preserving digital identity issuing unlinkable proofs (Proof of Human, Age, Country) via personal custody, AMPC and ZKPs]] - paper - references/ch13/ref-59-world-whitepaper.pdf
-- [[World Network real human network with five core technologies (World ID, Orb, World App, World Chain, WLD) for Proof of Human plus a financial layer]] - paper - references/ch13/ref-59-world-whitepaper.pdf
-- [[World Whitepapers (World Network Proof of Human)]] - paper - references/ch13/ref-59-world-whitepaper.pdf
-- [[Worldcoin (WLD) ERC-20 native token, 10B initial cap, =60% target to verified humans as user tokens, governanceone-person-one-vote, =1.5% inflation only after 15 years]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[Auxiliary-Input Zero-Knowledge]] - paper - references/books/proofs-args-zk.pdf
+- [[Coin-IDnullifier secret scheme (L=hash(s+1), U=hash(s+2))]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
+- [[Collision Problem]] - paper - references/books/proofs-args-zk.pdf
+- [[Computational Zero-Knowledge]] - paper - references/books/proofs-args-zk.pdf
+- [[Decentralization]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[Dual Merkle-branch ZK proof (into total coin-ID root R and association-set root R_A)]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
+- [[Goldwasser, Micali, Rackoff — Knowledge Complexity of Interactive Proof Systems (1985)]] - document - proving-nothing.md
+- [[Graph Non-Isomorphism Protocol]] - paper - references/books/proofs-args-zk.pdf
+- [[Honest-Verifier Zero-Knowledge]] - paper - references/books/proofs-args-zk.pdf
+- [[Ideal Linear Commitment]] - paper - references/snowball/book/ref-148-arya-nearly-linear-time-zero-knowledge-proofs-f.pdf
+- [[Interactive Proof System]] - document - proving-nothing.md
+- [[Interactive proof for QNR (Example 1, coin-flipping challenge)]] - paper - references/ch01/ref-02-gmr-knowledge-complexity.pdf
+- [[Lattice Commitment]] - paper - references/snowball/recursion/ref-138-lattice-based-zero-knowledge-proofs-and-applicat.pdf
+- [[Linear Error-Correcting Code]] - paper - references/snowball/book/ref-096-orion-zero-knowledge-proof-with-linear-prover-t.pdf
+- [[Lossless Expander Graph]] - paper - references/snowball/book/ref-096-orion-zero-knowledge-proof-with-linear-prover-t.pdf
+- [[Multiplicative Relation Proof]] - paper - references/snowball/recursion/ref-145-practical-product-proofs-for-lattice-commitments.pdf
+- [[Orion]] - paper - references/snowball/book/ref-096-orion-zero-knowledge-proof-with-linear-prover-t.pdf
+- [[Perfect  Statistical  Computational Zero-Knowledge]] - paper - references/ch01/ref-02-gmr-knowledge-complexity.pdf
+- [[Perfect Zero-Knowledge]] - paper - references/books/proofs-args-zk.pdf
+- [[Perfect zero-knowledge proof for QR (Theorem 1)]] - paper - references/ch01/ref-02-gmr-knowledge-complexity.pdf
+- [[Privacy-Preserving Proof]] - paper - references/snowball/book/ref-120-adsnark-nearly-practical-and-privacy-preserving.pdf
+- [[Private State Blockchain]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[Progression-Free Sets]] - paper - references/snowball/book/ref-097-progression-free-sets-and-sublinear-pairing-base.pdf
+- [[Progression-Free Sets NIZK]] - paper - references/snowball/book/ref-097-progression-free-sets-and-sublinear-pairing-base.pdf
+- [[Proof Composition]] - paper - references/snowball/book/ref-096-orion-zero-knowledge-proof-with-linear-prover-t.pdf
+- [[Prover and Verifier]] - document - proving-nothing.md
+- [[Quadratic Residuosity (QR) and Non-Residuosity (QNR) mod x]] - paper - references/ch01/ref-02-gmr-knowledge-complexity.pdf
+- [[Short Norm Proof]] - paper - references/snowball/recursion/ref-138-lattice-based-zero-knowledge-proofs-and-applicat.pdf
+- [[Simulator  Simulation paradigm (expected poly-time M, View_{A,B})]] - paper - references/ch01/ref-02-gmr-knowledge-complexity.pdf
+- [[Stage Magic Metaphor (MagicianAudience)]] - document - proving-nothing.md
+- [[Statistical  Computational Indistinguishability (judge, poly-size circuit families)]] - paper - references/ch01/ref-02-gmr-knowledge-complexity.pdf
+- [[Statistical Zero-Knowledge]] - paper - references/books/proofs-args-zk.pdf
+- [[Statistical zero-knowledge proof for QNR]] - paper - references/ch01/ref-02-gmr-knowledge-complexity.pdf
+- [[TinyRAM]] - paper - references/snowball/book/ref-070-snarks-for-c-verifying-program-executions-succi.pdf
+- [[Zero-Knowledge Proof]] - document - proving-nothing.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -49,16 +54,49 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 3 edges to [[_COMMUNITY_Community 15]]
-- 3 edges to [[_COMMUNITY_Community 12]]
-- 3 edges to [[_COMMUNITY_Community 29]]
-- 2 edges to [[_COMMUNITY_Community 79]]
-- 1 edge to [[_COMMUNITY_Community 89]]
-- 1 edge to [[_COMMUNITY_Community 13]]
+- 6 edges to [[_COMMUNITY_Community 72]]
+- 6 edges to [[_COMMUNITY_Community 71]]
+- 6 edges to [[_COMMUNITY_Community 21]]
+- 5 edges to [[_COMMUNITY_Community 27]]
+- 4 edges to [[_COMMUNITY_Community 12]]
+- 4 edges to [[_COMMUNITY_Community 15]]
+- 4 edges to [[_COMMUNITY_Community 3]]
+- 3 edges to [[_COMMUNITY_Community 24]]
+- 3 edges to [[_COMMUNITY_Community 36]]
+- 3 edges to [[_COMMUNITY_Community 89]]
+- 3 edges to [[_COMMUNITY_Community 67]]
+- 3 edges to [[_COMMUNITY_Community 0]]
+- 3 edges to [[_COMMUNITY_Community 63]]
+- 3 edges to [[_COMMUNITY_Community 1]]
+- 2 edges to [[_COMMUNITY_Community 4]]
+- 2 edges to [[_COMMUNITY_Community 48]]
+- 2 edges to [[_COMMUNITY_Community 14]]
+- 2 edges to [[_COMMUNITY_Community 41]]
+- 2 edges to [[_COMMUNITY_Community 11]]
+- 2 edges to [[_COMMUNITY_Community 84]]
+- 2 edges to [[_COMMUNITY_Community 7]]
+- 2 edges to [[_COMMUNITY_Community 8]]
+- 2 edges to [[_COMMUNITY_Community 33]]
+- 2 edges to [[_COMMUNITY_Community 70]]
+- 1 edge to [[_COMMUNITY_Community 5]]
+- 1 edge to [[_COMMUNITY_Community 39]]
+- 1 edge to [[_COMMUNITY_Community 51]]
+- 1 edge to [[_COMMUNITY_Community 79]]
+- 1 edge to [[_COMMUNITY_Community 139]]
+- 1 edge to [[_COMMUNITY_Community 111]]
+- 1 edge to [[_COMMUNITY_Community 103]]
+- 1 edge to [[_COMMUNITY_Community 35]]
+- 1 edge to [[_COMMUNITY_Community 9]]
+- 1 edge to [[_COMMUNITY_Community 114]]
+- 1 edge to [[_COMMUNITY_Community 17]]
+- 1 edge to [[_COMMUNITY_Community 19]]
+- 1 edge to [[_COMMUNITY_Community 52]]
+- 1 edge to [[_COMMUNITY_Community 98]]
+- 1 edge to [[_COMMUNITY_Community 118]]
 
 ## Top bridge nodes
-- [[Proof of Personhood]] - degree 10, connects to 3 communities
-- [[Nullifier]] - degree 4, connects to 2 communities
-- [[Digital Identity]] - degree 8, connects to 1 community
-- [[World Whitepapers (World Network Proof of Human)]] - degree 6, connects to 1 community
-- [[PoH authentication unlinkable pseudonymity via self-custody + ZKP against a public registry, plus a person-bound second factor (Face Auth) with periodic reauthentication]] - degree 4, connects to 1 community
+- [[Zero-Knowledge Proof]] - degree 97, connects to 36 communities
+- [[Progression-Free Sets NIZK]] - degree 5, connects to 3 communities
+- [[Dual Merkle-branch ZK proof (into total coin-ID root R and association-set root R_A)]] - degree 5, connects to 3 communities
+- [[Honest-Verifier Zero-Knowledge]] - degree 4, connects to 2 communities
+- [[Lattice Commitment]] - degree 4, connects to 2 communities

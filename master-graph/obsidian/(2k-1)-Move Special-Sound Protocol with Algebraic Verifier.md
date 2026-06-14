@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-19-protostar.pdf"
 type: "paper"
-community: "Community 8"
+community: "Community 76"
 location: "§2.1 Def 3, §3.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_8
+  - community/Community_76
 ---
 
 # (2k-1)-Move Special-Sound Protocol with Algebraic Verifier
@@ -27,4 +27,4 @@ tags:
 - [[Protostar Generic Efficient AccumulationFolding for Special-sound Protocols]] - `conceptually_related_to` [EXTRACTED]
 - [[AFK22 Attema, Fehr, Klooss Fiat-Shamir transformation of multi-round interactive proofs (special-soundness - NIROM knowledge-soundness)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_8
+#graphify/paper #graphify/EXTRACTED #community/Community_76

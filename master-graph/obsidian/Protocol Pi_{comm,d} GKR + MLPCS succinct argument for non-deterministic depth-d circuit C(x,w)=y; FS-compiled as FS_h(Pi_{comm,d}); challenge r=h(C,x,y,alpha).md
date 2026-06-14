@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-11-khovratovich-fiat-shamir-attacks.pdf"
 type: "paper"
-community: "Community 23"
+community: "Community 92"
 location: "§1.1.1, §2.1-2.2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_23
+  - community/Community_92
 ---
 
 # Protocol Pi_{comm,d}: GKR + MLPCS succinct argument for non-deterministic depth-d circuit C(x,w)=y; FS-compiled as FS_h(Pi_{comm,d}); challenge r=h(<C>,x,y,alpha)
@@ -19,4 +19,4 @@ tags:
 - [[Multilinear polynomial commitment scheme (MLPCS) short commitment to a multilinear polynomial with succinct evaluation proofs]] - `assumes` [EXTRACTED]
 - [[Polyhedra Network Expander Pol24 - deployed GKR-based system affected; authors notified designers, mitigations introduced]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_23
+#graphify/paper #graphify/EXTRACTED #community/Community_92

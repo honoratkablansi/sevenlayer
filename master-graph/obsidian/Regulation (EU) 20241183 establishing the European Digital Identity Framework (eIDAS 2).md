@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch13/ref-60-eidas-2-regulation.pdf"
 type: "paper"
-community: "Community 29"
+community: "Community 36"
 location: "page 1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_29
+  - community/Community_36
 ---
 
 # Regulation (EU) 2024/1183 establishing the European Digital Identity Framework (eIDAS 2)
@@ -20,4 +20,4 @@ tags:
 - [[The Promise of Provable and Programmable Secrets]] - `cites` [EXTRACTED]
 - [[Zero-Knowledge Proof]] - `references` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_29
+#graphify/paper #graphify/EXTRACTED #community/Community_36

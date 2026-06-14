@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-13-chiesa-chua-weidner-cycles.pdf"
 type: "paper"
-community: "Community 65"
+community: "Community 8"
 location: "§2.2, §8, refs"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_65
+  - community/Community_8
 ---
 
 # Freeman [Fre06] - prime-order curve family with k=10
@@ -16,4 +16,4 @@ tags:
 - [[Pairing-friendly elliptic curves]] - `conceptually_related_to` [EXTRACTED]
 - [[Props. 8-9 no cycles consisting only of Freeman (k=10) or only of Barreto-Naehrig (k=12) curves]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_65
+#graphify/paper #graphify/EXTRACTED #community/Community_8

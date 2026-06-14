@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/14-open-questions-and-the-road-ahead.md"
 type: "document"
-community: "Community 14"
+community: "Community 24"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_14
+  - community/Community_24
 ---
 
 # Open Questions and the Road Ahead
@@ -61,4 +61,4 @@ tags:
 - [[Zcash]] - `references` [EXTRACTED]
 - [[zkVM]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_14
+#graphify/document #graphify/EXTRACTED #community/Community_24

@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch2/ref-50-veridise-nova-series.md"
 type: "document"
-community: "Community 23"
+community: "Community 22"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_23
+  - community/Community_22
 ---
 
 # Veridise Nova explainer series (Breaking Down the Nova Recursive SNARK)
@@ -15,4 +15,4 @@ tags:
 - [[Nova]] - `explains` [EXTRACTED]
 - [[Recursive Proof Composition]] - `explains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_23
+#graphify/document #graphify/EXTRACTED #community/Community_22

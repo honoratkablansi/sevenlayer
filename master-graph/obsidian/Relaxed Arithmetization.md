@@ -1,12 +1,12 @@
 ---
 source_file: "references/snowball/recursion/ref-114-sangria-a-folding-scheme-for-plonk.pdf"
 type: "paper"
-community: "Community 62"
+community: "Community 5"
 location: "abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_62
+  - community/Community_5
 ---
 
 # Relaxed Arithmetization
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[PLONK]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_62
+#graphify/paper #graphify/EXTRACTED #community/Community_5

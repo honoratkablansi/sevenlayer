@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch06-sealing-the-certificate.md"
 type: "document"
-community: "Community 62"
+community: "Community 17"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_62
+  - community/Community_17
 ---
 
 # Sealing the Certificate
@@ -22,4 +22,4 @@ tags:
 - [[Schwartz-Zippel Lemma]] - `references` [EXTRACTED]
 - [[The Three Families]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_62
+#graphify/document #graphify/EXTRACTED #community/Community_17

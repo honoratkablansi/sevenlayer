@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 36"
+community: "Community 12"
 location: "Chapter 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_36
+  - community/Community_12
 ---
 
 # Polynomial Commitment Scheme
@@ -19,10 +19,13 @@ tags:
 - [[BASIS Assumption]] - `uses` [EXTRACTED]
 - [[BLS12-381 Curve]] - `conceptually_related_to` [INFERRED]
 - [[BaseFold]] - `defines` [EXTRACTED]
+- [[Batch Evaluation of Committed Polynomials]] - `builds_on` [EXTRACTED]
 - [[Bilinear Pairing]] - `uses` [EXTRACTED]
 - [[Bivariate polynomial folding f(X,Y)=aT S b with Y=Xm]] - `conceptually_related_to` [EXTRACTED]
+- [[Brakedown Polynomial Commitment]] - `compiles_to` [EXTRACTED]
 - [[Brakedown GLS+21 & Orion XZS22 field-agnosticpost-quantum poly commitments instantiating SuperSpartan]] - `conceptually_related_to` [EXTRACTED]
-- [[Bulletproofs  Inner Product Argument]] - `conceptually_related_to` [EXTRACTED]
+- [[Bulletproofs  Inner Product Argument]] - `builds_on` [EXTRACTED]
+- [[Commitment Scheme]] - `builds_on` [EXTRACTED]
 - [[Constant-Size Commitment & O(1) Opening Overhead]] - `conceptually_related_to` [EXTRACTED]
 - [[Constant-Size Commitments to Polynomials and Their Applications]] - `defines` [EXTRACTED]
 - [[Construction 3.2 Functional Commitment for Constant-Degree Polynomials]] - `conceptually_related_to` [EXTRACTED]
@@ -30,16 +33,18 @@ tags:
 - [[Dory]] - `defines` [EXTRACTED]
 - [[Dory transparent polynomial commitment scheme (log-round, sqrt-space prover)]] - `conceptually_related_to` [EXTRACTED]
 - [[Extractable verifiable polynomial-delegation protocol with knowledge soundness (vSQL Construction 2)]] - `defines` [EXTRACTED]
-- [[FRI Commitment Scheme]] - `relates_to` [EXTRACTED]
+- [[FRI Commitment Scheme]] - `compiles_to` [EXTRACTED]
+- [[Folding Scheme]] - `uses` [EXTRACTED]
 - [[Functional Commitment]] - `generalizes` [EXTRACTED]
 - [[Greyhound polynomial commitment scheme]] - `defines` [EXTRACTED]
 - [[Greyhound Fast Polynomial Commitments from Lattices]] - `implements` [EXTRACTED]
 - [[Halo Infinite]] - `uses` [EXTRACTED]
 - [[Halo first practical recursive proof composition without a trusted setup]] - `assumes` [INFERRED]
+- [[Holographic  Preprocessing Argument System]] - `uses` [EXTRACTED]
 - [[HyperKZG  Mercury polynomial commitment]] - `conceptually_related_to` [INFERRED]
 - [[HyperPlonk]] - `uses` [EXTRACTED]
 - [[Inner Product Argument (IPABulletproofs)]] - `improves` [EXTRACTED]
-- [[Interactive Oracle Proofs]] - `relates_to` [EXTRACTED]
+- [[Interactive Oracle Proofs]] - `uses` [EXTRACTED]
 - [[Jolt SNARKs for Virtual Machines via Lookups]] - `assumes` [EXTRACTED]
 - [[KZG Polynomial Commitments from pairings (with trusted setup); Dory transparent pairing-based scheme]] - `defines` [EXTRACTED]
 - [[KZG10 constant-size polynomial commitments]] - `defines` [EXTRACTED]
@@ -53,9 +58,13 @@ tags:
 - [[Layer 6 -- The Deep Craft]] - `defines` [EXTRACTED]
 - [[Layer 6 The Deep Craft (Cryptographic Primitives)]] - `explains` [EXTRACTED]
 - [[Leveled Bilinear Modules]] - `uses` [EXTRACTED]
+- [[Ligero]] - `compiles_to` [EXTRACTED]
 - [[Linear-Time Encodable Code]] - `uses` [EXTRACTED]
+- [[Low-Degree Test]] - `uses` [EXTRACTED]
 - [[MSM commitment via Pippenger's algorithm]] - `conceptually_related_to` [EXTRACTED]
 - [[Marlin]] - `uses` [EXTRACTED]
+- [[Masking Polynomial (ZK via Random Polynomial Blinding)]] - `uses` [EXTRACTED]
+- [[Merkle Hashing]] - `uses` [EXTRACTED]
 - [[Nova]] - `uses` [EXTRACTED]
 - [[Number-Theoretic Transform (NTT)]] - `uses` [EXTRACTED]
 - [[Open Questions and the Road Ahead]] - `references` [EXTRACTED]
@@ -68,8 +77,9 @@ tags:
 - [[Plookup]] - `uses` [EXTRACTED]
 - [[PolyCommitDL Scheme]] - `defines` [EXTRACTED]
 - [[PolyCommitPed Scheme]] - `defines` [EXTRACTED]
-- [[Polynomial IOP  interactive oracle protocol]] - `conceptually_related_to` [EXTRACTED]
+- [[Polynomial IOP  interactive oracle protocol]] - `uses` [EXTRACTED]
 - [[Polynomial-commitment hash (Mode 2) signer commits to poly(w); SNARK circuit avoids hashingsignature verification]] - `assumes` [EXTRACTED]
+- [[Post-Quantum Soundness]] - `relates_to` [EXTRACTED]
 - [[Predicate-Efficient SNARK]] - `conceptually_related_to` [EXTRACTED]
 - [[Proof Aggregation]] - `conceptually_related_to` [EXTRACTED]
 - [[Proof Core Layers 4-5-6 Inseparable]] - `explains` [EXTRACTED]
@@ -82,8 +92,11 @@ tags:
 - [[Schwartz-Zippel Lemma]] - `conceptually_related_to` [EXTRACTED]
 - [[Signatures of Correct Computation]] - `uses` [EXTRACTED]
 - [[Software supply chain]] - `uses` [EXTRACTED]
+- [[Sparse multilinear polynomial commitment (Spartan compiler)]] - `builds_on` [EXTRACTED]
+- [[Succinct Argument]] - `compiles_to` [EXTRACTED]
 - [[Sum-Check Protocol]] - `uses` [EXTRACTED]
 - [[Supersonic  DARK SNARK]] - `uses` [EXTRACTED]
+- [[Taxonomy of SNARKs (IP  MIP  IOP  Linear-PCP)]] - `uses` [EXTRACTED]
 - [[The Ideal PCS Problem]] - `references` [EXTRACTED]
 - [[The Seven-Layer ZK Stack Model]] - `explains` [EXTRACTED]
 - [[Theorem 3 (informal) ZK accumulation schemes for PC_DL and PC_AGM in the ROM]] - `proves` [EXTRACTED]
@@ -96,10 +109,13 @@ tags:
 - [[Verifiable computation]] - `uses` [EXTRACTED]
 - [[Virgo ZKP System]] - `uses` [EXTRACTED]
 - [[Virgo Transparent Polynomial Delegation and ZK Proofs (Zhang-Xie-Zhang-Song, S&P 2020) 76 — base ZKP that deVirgo distributes]] - `defines` [EXTRACTED]
+- [[Wiring Predicate (add_i  mult_i)]] - `uses` [EXTRACTED]
+- [[Witness Extraction]] - `uses` [EXTRACTED]
 - [[Zero knowledge via zk-sumcheck + low-degree extension + zk polynomial commitment; non-interactive via Fiat-Shamir]] - `assumes` [EXTRACTED]
-- [[Zero-Knowledge Proof]] - `uses` [EXTRACTED]
+- [[Zero-Knowledge Proof]] - `relates_to` [EXTRACTED]
 - [[Zero-Knowledge Set (Micali et al.)]] - `relates_to` [EXTRACTED]
+- [[Zero-Knowledge Sum-Check Protocol]] - `uses` [EXTRACTED]
 - [[deVirgo distributed zero-knowledge proof system parallelizing Virgo over M machines with perfect linear scalability and no proof-size overhead]] - `assumes` [EXTRACTED]
 - [[zkCNN commit-and-prove scheme (KeyGen, Commit, Prove, Verify) for CNN prediction]] - `assumes` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_36
+#graphify/document #graphify/EXTRACTED #community/Community_12

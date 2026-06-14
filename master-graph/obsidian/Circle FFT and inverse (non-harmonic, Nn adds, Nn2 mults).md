@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-23-circle-starks.pdf"
 type: "paper"
-community: "Community 24"
+community: "Community 28"
 location: "§4 Theorem 2, Theorem 3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_24
+  - community/Community_28
 ---
 
 # Circle FFT and inverse (non-harmonic, N*n adds, N*n/2 mults)
@@ -21,4 +21,4 @@ tags:
 - [[Mersenne-31 vs Babybear FFT benchmark (1.4x speed-up)]] - `conceptually_related_to` [EXTRACTED]
 - [[Twin-coset and standard position coset FFT domains]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_24
+#graphify/paper #graphify/EXTRACTED #community/Community_28

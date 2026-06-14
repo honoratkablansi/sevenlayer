@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-21-neo.pdf"
 type: "paper"
-community: "Community 10"
+community: "Community 19"
 location: "§4.6, Thm 4"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_10
+  - community/Community_19
 ---
 
 # Pi_DEC decomposition reduction (norm-B claim into k norm-b claims)
@@ -15,4 +15,4 @@ tags:
 - [[(d,m,B,C)-relaxed binding; binding implies relaxed binding (Lemma 3)]] - `assumes` [EXTRACTED]
 - [[Neo folding scheme for CCS (lattice-based)]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_10
+#graphify/paper #graphify/EXTRACTED #community/Community_19

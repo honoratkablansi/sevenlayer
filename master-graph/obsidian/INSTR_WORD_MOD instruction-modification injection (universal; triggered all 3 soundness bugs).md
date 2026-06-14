@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-61-arguzz.pdf"
 type: "paper"
-community: "Community 78"
+community: "Community 14"
 location: "§3.3, Fig.7, Appx.B, Tab.3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_78
+  - community/Community_14
 ---
 
 # INSTR_WORD_MOD instruction-modification injection (universal; triggered all 3 soundness bugs)
@@ -19,4 +19,4 @@ tags:
 - [[NEXUS bug3 (soundness) unconstrained store-value lower bits in swshsb load-store]] - `conceptually_related_to` [EXTRACTED]
 - [[RISC ZERO bug1 (soundness) missing constraint on 3-register insns (remudivu); $50,000 bounty]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_78
+#graphify/paper #graphify/EXTRACTED #community/Community_14

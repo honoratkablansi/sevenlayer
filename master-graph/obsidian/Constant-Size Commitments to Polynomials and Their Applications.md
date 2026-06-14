@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch02/ref-04-kzg-commitments.pdf"
 type: "paper"
-community: "Community 50"
+community: "Community 57"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_50
+  - community/Community_57
 ---
 
 # Constant-Size Commitments to Polynomials and Their Applications
@@ -27,4 +27,4 @@ tags:
 - [[Zero-Knowledge Set (Micali et al.)]] - `cites` [EXTRACTED]
 - [[t-Polynomial Diffie-Hellman (t-polyDH) Assumption]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_50
+#graphify/paper #graphify/EXTRACTED #community/Community_57

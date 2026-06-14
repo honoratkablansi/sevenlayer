@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 70"
+community: "Community 69"
 location: "Chapter 4"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_70
+  - community/Community_69
 ---
 
 # zkFuzz (Takahashi, Kim et al., S&P 2026)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Under-Constrained Circuit  Missing Constraint]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_70
+#graphify/document #graphify/EXTRACTED #community/Community_69

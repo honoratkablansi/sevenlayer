@@ -1,13 +1,13 @@
 ---
 type: community
 cohesion: 0.11
-members: 24
+members: 25
 ---
 
 # Community 35
 
 **Cohesion:** 0.11 - loosely connected
-**Members:** 24 nodes
+**Members:** 25 nodes
 
 ## Members
 - [[Aggelos Kiayias]] - paper - references/ch09/ref-30-kachina.pdf
@@ -17,6 +17,7 @@ members: 24
 - [[Contract transition function Delta]] - paper - references/ch09/ref-30-kachina.pdf
 - [[Core transition function Gamma]] - paper - references/ch09/ref-30-kachina.pdf
 - [[Dependency function dep and invariant J]] - paper - references/ch09/ref-30-kachina.pdf
+- [[Ethereum]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
 - [[G_simpleLedger functionality]] - paper - references/ch09/ref-30-kachina.pdf
 - [[Global ledger functionality G_ledger (GUC)]] - paper - references/ch09/ref-30-kachina.pdf
 - [[Hawk private smart contracts]] - paper - references/ch09/ref-30-kachina.pdf
@@ -24,11 +25,11 @@ members: 24
 - [[Kachina -- Foundations of Private Smart Contracts]] - paper - references/ch09/ref-30-kachina.pdf
 - [[Kachina core protocol]] - paper - references/ch09/ref-30-kachina.pdf
 - [[Kachina method via UC-emulation transitivity]] - paper - references/ch09/ref-30-kachina.pdf
-- [[Leakage function Lambda]] - paper - references/ch09/ref-30-kachina.pdf
 - [[NIZK functionality F_nizkL]] - paper - references/ch09/ref-30-kachina.pdf
 - [[Nakamoto consensus]] - paper - references/ch09/ref-30-kachina.pdf
 - [[Non-Interactive Zero-Knowledge (NIZK)]] - paper - references/ch09/ref-30-kachina.pdf
 - [[Public state sigma  private state rho split]] - paper - references/ch09/ref-30-kachina.pdf
+- [[Smart contract systems via multiplexing  gas]] - paper - references/ch09/ref-30-kachina.pdf
 - [[State oracle]] - paper - references/ch09/ref-30-kachina.pdf
 - [[State oracle transcript]] - paper - references/ch09/ref-30-kachina.pdf
 - [[Theorem 1 Kachina UC-emulates F_sc]] - paper - references/ch09/ref-30-kachina.pdf
@@ -43,16 +44,18 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 4 edges to [[_COMMUNITY_Community 4]]
-- 3 edges to [[_COMMUNITY_Community 58]]
-- 2 edges to [[_COMMUNITY_Community 15]]
-- 2 edges to [[_COMMUNITY_Community 21]]
-- 1 edge to [[_COMMUNITY_Community 13]]
-- 1 edge to [[_COMMUNITY_Community 97]]
+- 3 edges to [[_COMMUNITY_Community 125]]
+- 3 edges to [[_COMMUNITY_Community 84]]
+- 2 edges to [[_COMMUNITY_Community 45]]
+- 1 edge to [[_COMMUNITY_Community 20]]
+- 1 edge to [[_COMMUNITY_Community 5]]
+- 1 edge to [[_COMMUNITY_Community 8]]
+- 1 edge to [[_COMMUNITY_Community 21]]
+- 1 edge to [[_COMMUNITY_Community 29]]
 
 ## Top bridge nodes
 - [[Kachina -- Foundations of Private Smart Contracts]] - degree 13, connects to 5 communities
 - [[Non-Interactive Zero-Knowledge (NIZK)]] - degree 6, connects to 1 community
-- [[Kachina core protocol]] - degree 6, connects to 1 community
+- [[Ideal smart contract functionality F_sc{Delta,Lambda}]] - degree 5, connects to 1 community
+- [[Ethereum]] - degree 4, connects to 1 community
 - [[Contract class C_Kachina]] - degree 3, connects to 1 community
-- [[Bilinear Group]] - degree 2, connects to 1 community

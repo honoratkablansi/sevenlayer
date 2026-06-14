@@ -1,29 +1,33 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 15"
+community: "Community 20"
 location: "Chapter 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_15
+  - community/Community_20
 ---
 
 # Zero-Knowledge Proof
 
 ## Connections
 - [[3-AES-invocation record revelation vs 1027 naive AES-in-ZKP, via CBC MAC-then-encrypt structure]] - `conceptually_related_to` [EXTRACTED]
-- [[Bulletproofs  Inner Product Argument]] - `defines` [EXTRACTED]
+- [[Auxiliary-Input Zero-Knowledge]] - `generalizes` [EXTRACTED]
+- [[Bulletproofs  Inner Product Argument]] - `relates_to` [EXTRACTED]
 - [[Cairo (StarkWare ZK-native ISA)]] - `relates_to` [EXTRACTED]
 - [[Cited Bulletproofs (transparent-setup ZK alternative to libsnark)]] - `conceptually_related_to` [EXTRACTED]
 - [[Cited libsnark zk-SNARK library (Ben-Sasson et al. proof system 18)]] - `conceptually_related_to` [EXTRACTED]
 - [[Coin-IDnullifier secret scheme (L=hash(s+1), U=hash(s+2))]] - `assumes` [EXTRACTED]
+- [[Commit-and-Prove SNARK]] - `builds_on` [EXTRACTED]
 - [[Commitment Scheme]] - `uses` [EXTRACTED]
 - [[Completeness]] - `defines` [EXTRACTED]
 - [[Computational Soundness]] - `relates_to` [EXTRACTED]
+- [[Computational Zero-Knowledge]] - `special_case_of` [EXTRACTED]
 - [[Constraint Compiler]] - `uses` [EXTRACTED]
 - [[Dual Merkle-branch ZK proof (into total coin-ID root R and association-set root R_A)]] - `assumes` [EXTRACTED]
 - [[Efficient selective opening of TLS records (RevealRedact modes) exploiting MAC-then-encrypt and Merkle-Damgard structure]] - `conceptually_related_to` [EXTRACTED]
+- [[Extension Polynomial (Random Higher-Degree Witness Extension)]] - `builds_on` [EXTRACTED]
 - [[FRI Commitment Scheme]] - `uses` [EXTRACTED]
 - [[Fortnow result NP-complete ZK proof implies poly hierarchy collapse]] - `conceptually_related_to` [EXTRACTED]
 - [[Goldwasser, Micali, Rackoff — Knowledge Complexity of Interactive Proof Systems (1985)]] - `introduces` [EXTRACTED]
@@ -31,6 +35,7 @@ tags:
 - [[Groth16]] - `uses` [EXTRACTED]
 - [[Groth16 pairing-based zkSNARK (cited alternative proving system)]] - `conceptually_related_to` [EXTRACTED]
 - [[Homomorphic  Trapdoor Commitment Property]] - `defines` [EXTRACTED]
+- [[Honest-Verifier Zero-Knowledge]] - `special_case_of` [EXTRACTED]
 - [[Ideal Linear Commitment]] - `uses` [EXTRACTED]
 - [[Interactive Oracle Proofs]] - `defines` [EXTRACTED]
 - [[Interactive Proof (IP) prover-verifier protocol with statistical soundness]] - `uses` [EXTRACTED]
@@ -40,6 +45,7 @@ tags:
 - [[Libra]] - `defines` [EXTRACTED]
 - [[Ligero]] - `defines` [EXTRACTED]
 - [[Lookup Argument]] - `uses` [EXTRACTED]
+- [[Masking Polynomial (ZK via Random Polynomial Blinding)]] - `builds_on` [EXTRACTED]
 - [[Midnight (Privacy Blockchain)]] - `references` [EXTRACTED]
 - [[Module Learning With Errors (MLWE)]] - `uses` [EXTRACTED]
 - [[Module-SIS  Module-LWE]] - `uses` [EXTRACTED]
@@ -49,9 +55,10 @@ tags:
 - [[Orion]] - `defines` [EXTRACTED]
 - [[Pantry Verifiable Computation with State]] - `uses` [EXTRACTED]
 - [[Perfect  Statistical  Computational Zero-Knowledge]] - `defines` [EXTRACTED]
+- [[Perfect Zero-Knowledge]] - `special_case_of` [EXTRACTED]
 - [[Perfect zero-knowledge proof for QR (Theorem 1)]] - `proves` [EXTRACTED]
 - [[PoH authentication unlinkable pseudonymity via self-custody + ZKP against a public registry, plus a person-bound second factor (Face Auth) with periodic reauthentication]] - `assumes` [EXTRACTED]
-- [[Polynomial Commitment Scheme]] - `uses` [EXTRACTED]
+- [[Polynomial Commitment Scheme]] - `relates_to` [EXTRACTED]
 - [[Post-quantum security (against quantum adversaries; security in the QROM)]] - `relates_to` [EXTRACTED]
 - [[Power-of-Two Cyclotomic Ring ZX(Xd+1)]] - `uses` [EXTRACTED]
 - [[Privacy-Preserving Proof]] - `uses` [EXTRACTED]
@@ -64,7 +71,7 @@ tags:
 - [[Prover and Verifier]] - `conceptually_related_to` [EXTRACTED]
 - [[Regulation (EU) 20241183 establishing the European Digital Identity Framework (eIDAS 2)]] - `references` [EXTRACTED]
 - [[Ring-LWE]] - `uses` [EXTRACTED]
-- [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `related_to` [EXTRACTED]
+- [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `builds_on` [EXTRACTED]
 - [[STARK]] - `uses` [EXTRACTED]
 - [[Scalable, Transparent, and Post-Quantum Secure Computational Integrity]] - `conceptually_related_to` [EXTRACTED]
 - [[Selective Disclosure]] - `conceptually_related_to` [INFERRED]
@@ -76,6 +83,7 @@ tags:
 - [[SoK What Don't We Know Understanding Security Vulnerabilities in SNARKs]] - `conceptually_related_to` [EXTRACTED]
 - [[Soundness]] - `defines` [EXTRACTED]
 - [[Spartan transparent zkSNARK without trusted setup (final proof compression wrapper)]] - `conceptually_related_to` [EXTRACTED]
+- [[Statistical Zero-Knowledge]] - `special_case_of` [EXTRACTED]
 - [[Statistical zero-knowledge proof for QNR]] - `proves` [EXTRACTED]
 - [[Succinct Argument]] - `relates_to` [EXTRACTED]
 - [[Succinct Non-interactive Argument (SNARG)]] - `relates_to` [EXTRACTED]
@@ -102,4 +110,4 @@ tags:
 - [[Zerocash]] - `uses` [EXTRACTED]
 - [[zKYC (Zero-Knowledge Know Your Customer)]] - `implements` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_15
+#graphify/document #graphify/EXTRACTED #community/Community_20

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-46-zk-memory-algebraic-proofs.pdf"
 type: "paper"
-community: "Community 54"
+community: "Community 6"
 location: "§6.2.2, Protocol 4"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_54
+  - community/Community_6
 ---
 
 # Punctured disjointness AIP Pi_PuncDisj, V-cost 2C+2A+O(log C)
@@ -16,4 +16,4 @@ tags:
 - [[Punctured uniqueness AIP Pi_PuncUniq (gcd has form Xc), V-cost 4C+O(log C)]] - `conceptually_related_to` [EXTRACTED]
 - [[Sparse persistent RAM AIP (capacity C, N approx 2256)]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_54
+#graphify/paper #graphify/EXTRACTED #community/Community_6

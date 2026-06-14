@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch2/ref-47-protogalaxy.pdf"
 type: "paper"
-community: "Community 8"
+community: "Community 77"
 location: "title/abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_8
+  - community/Community_77
 ---
 
 # ProtoGalaxy: Efficient ProtoStar-style folding of multiple instances (Eagen & Gabizon, ePrint 2023/1106)
@@ -33,4 +33,4 @@ tags:
 - [[AFK22 Attema, Fehr, Klooss Fiat-Shamir transformation of multi-round interactive proofs (special-soundness - NIROM knowledge-soundness)]] - `cites` [EXTRACTED]
 - [[§5 alternative construction for large k replace mod-Z(X) vanishing check with a sumcheck over a size-k domain; verifier O(log n + d log k) ops, log k hashes]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_8
+#graphify/paper #graphify/EXTRACTED #community/Community_77

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch13/ref-59-world-whitepaper.pdf"
 type: "paper"
-community: "Community 15"
+community: "Community 20"
 location: "section 1.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_15
+  - community/Community_20
 ---
 
 # Decentralization
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Private State Blockchain]] - `supports` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_15
+#graphify/paper #graphify/EXTRACTED #community/Community_20

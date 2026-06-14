@@ -1,12 +1,12 @@
 ---
 source_file: "references/snowball/book/ref-119-zk-img-attested-images-via-zero-knowledge-proof.pdf"
 type: "paper"
-community: "Community 32"
+community: "Community 41"
 location: "abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_32
+  - community/Community_41
 ---
 
 # Image Attestation
@@ -16,4 +16,4 @@ tags:
 - [[Halo 2  UltraPlonk]] - `uses` [EXTRACTED]
 - [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `uses` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_32
+#graphify/paper #graphify/EXTRACTED #community/Community_41

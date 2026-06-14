@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch1/ref-27-succinct-sp1-docs.md"
 type: "document"
-community: "Community 88"
+community: "Community 22"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_88
+  - community/Community_22
 ---
 
 # Recursion (proof recursion in zkVMs)
@@ -43,4 +43,4 @@ tags:
 - [[The Synthesis -- Three Paths, Not Two]] - `references` [EXTRACTED]
 - [[zkVM]] - `relates_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_88
+#graphify/document #graphify/EXTRACTED #community/Community_22

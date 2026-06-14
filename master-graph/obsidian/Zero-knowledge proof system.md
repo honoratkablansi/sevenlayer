@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-33-circ.pdf"
 type: "paper"
-community: "Community 49"
+community: "Community 56"
 location: "§2.2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_49
+  - community/Community_56
 ---
 
 # Zero-knowledge proof system
@@ -15,4 +15,4 @@ tags:
 - [[Automated find-and-prove-bug pipeline (SMT + ZKP)]] - `conceptually_related_to` [EXTRACTED]
 - [[R1CS (Rank-1 Constraint Systems)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_49
+#graphify/paper #graphify/EXTRACTED #community/Community_56

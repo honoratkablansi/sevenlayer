@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch1/ref-07-plonky2.md"
 type: "document"
-community: "Community 23"
+community: "Community 13"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_23
+  - community/Community_13
 ---
 
 # Plonky2: Fast Recursive Arguments with PLONK and FRI (2022)
@@ -14,4 +14,4 @@ tags:
 - [[Plonky2]] - `introduces` [EXTRACTED]
 - [[Polygon Zero]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_23
+#graphify/document #graphify/EXTRACTED #community/Community_13

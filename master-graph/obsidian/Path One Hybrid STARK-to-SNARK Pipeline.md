@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 122"
+community: "Community 120"
 location: "Chapter 10"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_122
+  - community/Community_120
 ---
 
 # Path One: Hybrid STARK-to-SNARK Pipeline
@@ -20,4 +20,4 @@ tags:
 - [[Succinct SP1 Hypercube]] - `references` [EXTRACTED]
 - [[Three Paths, Not Two (Synthesis)]] - `introduces` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_122
+#graphify/document #graphify/EXTRACTED #community/Community_120

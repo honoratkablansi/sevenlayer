@@ -40,3 +40,4 @@ recursion-graph/.work/
 # master-graph build scratch (curated files force-added)
 master-graph/.work/
 master-graph/.snowball/
+master-graph/.thaler/

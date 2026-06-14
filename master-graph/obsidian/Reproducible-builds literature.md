@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch3/ref-64-reproducible-builds-literature.md"
 type: "document"
-community: "Community 30"
+community: "Community 38"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_30
+  - community/Community_38
 ---
 
 # Reproducible-builds literature
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[Recursion References (cited works)]] - `cites` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_30
+#graphify/document #graphify/EXTRACTED #community/Community_38

@@ -1,20 +1,21 @@
 ---
 type: community
 cohesion: 0.40
-members: 5
+members: 6
 ---
 
 # Community 131
 
 **Cohesion:** 0.40 - moderately connected
-**Members:** 5 nodes
+**Members:** 6 nodes
 
 ## Members
-- [[A-la-carte cost profile for machine execution]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[HyperNova NIVC-from-multifolding compiler (Construction 2)]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[Non-uniform IVC (NIVC)]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[Single-MSM prover cost (size = variables)]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[Theorem 3 (HyperNova NIVC scheme)]] - paper - references/ch06/ref-18-hypernova.pdf
+- [[Computational Diffie-Hellman (CDH) Assumption]] - paper - references/books/proofs-args-zk.pdf
+- [[Cyclic Group]] - paper - references/books/proofs-args-zk.pdf
+- [[Decisional Diffie-Hellman (DDH) assumption over secp256k1]] - paper - references/recursion/ch3/ref-88-provisions.pdf
+- [[Discrete Logarithm Assumption]] - document - references/ch02/ref-09-bulletproofs.pdf
+- [[Elliptic Curve Group]] - paper - references/books/proofs-args-zk.pdf
+- [[Theorem 4  A.2 split accumulation for a Pedersen-based polynomial commitment predicate (ROM, DL)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -24,14 +25,22 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 1 edge to [[_COMMUNITY_Community 25]]
-- 1 edge to [[_COMMUNITY_Community 46]]
-- 1 edge to [[_COMMUNITY_Community 73]]
+- 5 edges to [[_COMMUNITY_Community 32]]
+- 2 edges to [[_COMMUNITY_Community 11]]
+- 2 edges to [[_COMMUNITY_Community 71]]
+- 2 edges to [[_COMMUNITY_Community 99]]
+- 2 edges to [[_COMMUNITY_Community 105]]
+- 1 edge to [[_COMMUNITY_Community 8]]
+- 1 edge to [[_COMMUNITY_Community 72]]
+- 1 edge to [[_COMMUNITY_Community 98]]
+- 1 edge to [[_COMMUNITY_Community 47]]
+- 1 edge to [[_COMMUNITY_Community 57]]
 - 1 edge to [[_COMMUNITY_Community 1]]
-- 1 edge to [[_COMMUNITY_Community 9]]
-- 1 edge to [[_COMMUNITY_Community 119]]
+- 1 edge to [[_COMMUNITY_Community 44]]
+- 1 edge to [[_COMMUNITY_Community 22]]
+- 1 edge to [[_COMMUNITY_Community 73]]
 
 ## Top bridge nodes
-- [[Non-uniform IVC (NIVC)]] - degree 4, connects to 3 communities
-- [[HyperNova NIVC-from-multifolding compiler (Construction 2)]] - degree 4, connects to 2 communities
-- [[Single-MSM prover cost (size = variables)]] - degree 2, connects to 1 community
+- [[Discrete Logarithm Assumption]] - degree 21, connects to 12 communities
+- [[Decisional Diffie-Hellman (DDH) assumption over secp256k1]] - degree 4, connects to 2 communities
+- [[Theorem 4  A.2 split accumulation for a Pedersen-based polynomial commitment predicate (ROM, DL)]] - degree 4, connects to 2 communities

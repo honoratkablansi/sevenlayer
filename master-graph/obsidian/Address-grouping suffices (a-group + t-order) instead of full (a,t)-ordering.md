@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-46-zk-memory-algebraic-proofs.pdf"
 type: "paper"
-community: "Community 98"
+community: "Community 9"
 location: "§4.2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_98
+  - community/Community_9
 ---
 
 # Address-grouping suffices (a-group + t-order) instead of full (a,t)-ordering
@@ -15,4 +15,4 @@ tags:
 - [[Offline Memory Checking]] - `conceptually_related_to` [EXTRACTED]
 - [[Volatile RAM AIP (zeroed init, uncommitted final)]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_98
+#graphify/paper #graphify/EXTRACTED #community/Community_9

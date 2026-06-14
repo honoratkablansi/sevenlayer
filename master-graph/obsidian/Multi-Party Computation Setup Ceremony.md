@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-37-updatable-universal-crs.pdf"
 type: "document"
-community: "Community 67"
+community: "Community 34"
 location: "page 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_67
+  - community/Community_34
 ---
 
 # Multi-Party Computation Setup Ceremony
@@ -24,4 +24,4 @@ tags:
 - [[Updatable and Universal Common Reference Strings with Applications to zk-SNARKs]] - `references` [EXTRACTED]
 - [[Zcash Sprout ceremony (2016, six participants, BCTV14, first major PoT ceremony)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_67
+#graphify/document #graphify/EXTRACTED #community/Community_34

@@ -1,12 +1,12 @@
 ---
 source_file: "wiki/sections/ch07-small-fields.md"
 type: "document"
-community: "Community 0"
+community: "Community 1"
 location: "Small Fields"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Community_1
 ---
 
 # Small Fields
@@ -27,4 +27,4 @@ tags:
 - [[The Cascade Effect]] - `references` [EXTRACTED]
 - [[Zcash]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/document #graphify/EXTRACTED #community/Community_1

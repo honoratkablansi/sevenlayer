@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-36-sonic.pdf"
 type: "paper"
-community: "Community 57"
+community: "Community 83"
 location: "Abstract, §1.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_57
+  - community/Community_83
 ---
 
 # Sonic zk-SNARK (universal & updatable linear-size SRS)
@@ -27,4 +27,4 @@ tags:
 - [[Universal vs Circuit-Specific SRS]] - `assumes` [EXTRACTED]
 - [[Updatable and Universal Structured Reference String]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_57
+#graphify/paper #graphify/EXTRACTED #community/Community_83

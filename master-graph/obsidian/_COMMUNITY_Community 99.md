@@ -1,26 +1,28 @@
 ---
 type: community
-cohesion: 0.18
-members: 11
+cohesion: 0.17
+members: 13
 ---
 
 # Community 99
 
-**Cohesion:** 0.18 - loosely connected
-**Members:** 11 nodes
+**Cohesion:** 0.17 - loosely connected
+**Members:** 13 nodes
 
 ## Members
-- [[Agglayer Cross-Chain Interoperability]] - document - references/recursion/ch1/ref-17-polygon-zkevm-docs.md
-- [[Atomic cross-chain operations (all-succeed or all-fail)]] - document - references/recursion/ch3/ref-55-polygon-agglayer-docs.md
-- [[Chain sovereignty (connected chains keep own architecturegovernance)]] - document - references/recursion/ch3/ref-55-polygon-agglayer-docs.md
-- [[Cross-L2 transfers and interoperability]] - document - references/recursion/ch3/ref-54-ethereum-rollup-centric-roadmap.md
-- [[Cross-chain proof aggregation and interop]] - document - recursion/recursion-outline.md
-- [[Pessimistic proofs (mathematical containment of chain compromise)]] - document - references/recursion/ch3/ref-55-polygon-agglayer-docs.md
-- [[Polygon AggLayer documentation]] - document - references/recursion/ch3/ref-55-polygon-agglayer-docs.md
-- [[Polygon CDK (Chain Development Kit)]] - document - references/recursion/ch1/ref-17-polygon-zkevm-docs.md
-- [[Prover markets  recursion as infrastructure]] - document - recursion/recursion-outline.md
-- [[Unified liquidity (assets retain identity, no wrapped tokens)]] - document - references/recursion/ch3/ref-55-polygon-agglayer-docs.md
-- [[Validium (offchain data availability)]] - document - references/recursion/ch1/ref-17-polygon-zkevm-docs.md
+- [[Bootle et al. (BCC+16) Inner-Product Argument]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Improved Inner-Product Argument (2 log2 n)]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Pedersen Vector Commitment]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Pinocchio Arithmetic Circuit Format]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Single Multi-Exponentiation Verifier & Batch Verification]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Subversion Zero-Knowledge (adversary generates the SRS)]] - paper - references/ch10/ref-36-sonic.pdf
+- [[Theorem 1 Inner-Product Argument Security]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Theorem 5 Arithmetic Circuit Protocol Soundness]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Theorem 6.1 Sonic satisfies subversion zero-knowledge]] - paper - references/ch10/ref-36-sonic.pdf
+- [[Theorem 6.2 Sonic has witness-extended emulation]] - paper - references/ch10/ref-36-sonic.pdf
+- [[Witness-Extended Emulation (Knowledge Soundness)]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Zero-Knowledge Argument of Knowledge]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Zero-Knowledge Proof for Arithmetic Circuits (Protocol 3)]] - paper - references/ch02/ref-09-bulletproofs.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -30,14 +32,16 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 2 edges to [[_COMMUNITY_Community 74]]
-- 1 edge to [[_COMMUNITY_Community 19]]
-- 1 edge to [[_COMMUNITY_Community 3]]
-- 1 edge to [[_COMMUNITY_Community 60]]
-- 1 edge to [[_COMMUNITY_Community 47]]
+- 2 edges to [[_COMMUNITY_Community 11]]
+- 2 edges to [[_COMMUNITY_Community 131]]
+- 2 edges to [[_COMMUNITY_Community 98]]
+- 2 edges to [[_COMMUNITY_Community 83]]
+- 1 edge to [[_COMMUNITY_Community 71]]
+- 1 edge to [[_COMMUNITY_Community 59]]
 
 ## Top bridge nodes
-- [[Cross-chain proof aggregation and interop]] - degree 6, connects to 2 communities
-- [[Polygon CDK (Chain Development Kit)]] - degree 3, connects to 1 community
-- [[Cross-L2 transfers and interoperability]] - degree 2, connects to 1 community
-- [[Prover markets  recursion as infrastructure]] - degree 2, connects to 1 community
+- [[Improved Inner-Product Argument (2 log2 n)]] - degree 7, connects to 2 communities
+- [[Bootle et al. (BCC+16) Inner-Product Argument]] - degree 3, connects to 1 community
+- [[Subversion Zero-Knowledge (adversary generates the SRS)]] - degree 3, connects to 1 community
+- [[Theorem 1 Inner-Product Argument Security]] - degree 3, connects to 1 community
+- [[Pedersen Vector Commitment]] - degree 2, connects to 1 community

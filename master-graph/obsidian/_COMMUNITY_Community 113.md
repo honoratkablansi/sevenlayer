@@ -10,16 +10,16 @@ members: 10
 **Members:** 10 nodes
 
 ## Members
-- [[Continued-fraction expansion to recover order from observed cq]] - paper - references/ch07/ref-24-shor.pdf
-- [[Factoring complexity O((log n)2 log log n log log log n) quantum steps]] - paper - references/ch07/ref-24-shor.pdf
-- [[Number field sieve (best classical factoring, exp time)]] - paper - references/ch07/ref-24-shor.pdf
-- [[Quantum order-finding (period-finding) subroutine]] - paper - references/ch07/ref-24-shor.pdf
-- [[Quantum prime factorization algorithm]] - paper - references/ch07/ref-24-shor.pdf
-- [[Reduction of factoring to order-finding (Miller 1976)]] - paper - references/ch07/ref-24-shor.pdf
-- [[Reversible computation]] - paper - references/ch07/ref-24-shor.pdf
-- [[Reversible modular exponentiation subroutine]] - paper - references/ch07/ref-24-shor.pdf
-- [[Schonhage-Strassen fast multiplication via FFT]] - paper - references/ch07/ref-24-shor.pdf
-- [[Universal reversible gates (Toffoli, Fredkin)]] - paper - references/ch07/ref-24-shor.pdf
+- [[Buterin, A rollup-centric ethereum roadmap (2020)]] - document - references/recursion/ch3/ref-54-ethereum-rollup-centric-roadmap.md
+- [[Danksharding  proto-danksharding (EIP-4844 blobs)]] - document - references/recursion/ch3/ref-56-ethereum-org-zkevm-roadmap.md
+- [[Data availability layer (base layer as DA for rollups)]] - document - references/recursion/ch3/ref-54-ethereum-rollup-centric-roadmap.md
+- [[PeerDAS (peer-to-peer data availability sampling, Fusaka)]] - document - references/recursion/ch3/ref-56-ethereum-org-zkevm-roadmap.md
+- [[Phase 1.5 and done (base layer for consensus and DA only)]] - document - references/recursion/ch3/ref-54-ethereum-rollup-centric-roadmap.md
+- [[Rollup-centric Ethereum scaling roadmap]] - document - references/recursion/ch3/ref-54-ethereum-rollup-centric-roadmap.md
+- [[Sharding dropped in favor of rollup scaling]] - document - references/recursion/ch3/ref-56-ethereum-org-zkevm-roadmap.md
+- [[Single slot finality]] - document - references/recursion/ch3/ref-56-ethereum-org-zkevm-roadmap.md
+- [[Statelessness (stateless clients verify blocks without storing state)]] - document - references/recursion/ch3/ref-56-ethereum-org-zkevm-roadmap.md
+- [[ethereum.org Ethereum roadmap page (zkEVM)]] - document - references/recursion/ch3/ref-56-ethereum-org-zkevm-roadmap.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -29,9 +29,10 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 2 edges to [[_COMMUNITY_Community 91]]
-- 2 edges to [[_COMMUNITY_Community 81]]
+- 2 edges to [[_COMMUNITY_Community 78]]
+- 1 edge to [[_COMMUNITY_Community 10]]
+- 1 edge to [[_COMMUNITY_Community 104]]
 
 ## Top bridge nodes
-- [[Quantum prime factorization algorithm]] - degree 6, connects to 2 communities
-- [[Quantum order-finding (period-finding) subroutine]] - degree 5, connects to 1 community
+- [[Rollup-centric Ethereum scaling roadmap]] - degree 7, connects to 2 communities
+- [[ethereum.org Ethereum roadmap page (zkEVM)]] - degree 6, connects to 1 community

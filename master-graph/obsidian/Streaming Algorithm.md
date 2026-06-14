@@ -1,12 +1,12 @@
 ---
 source_file: "references/snowball/book/ref-088-gemini-elastic-snarks-for-diverse-environments.pdf"
 type: "paper"
-community: "Community 28"
+community: "Community 15"
 location: "abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_28
+  - community/Community_15
 ---
 
 # Streaming Algorithm
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Gemini Elastic SNARK]] - `uses` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_28
+#graphify/paper #graphify/EXTRACTED #community/Community_15

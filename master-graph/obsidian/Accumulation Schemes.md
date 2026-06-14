@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-19-protostar.pdf"
 type: "document"
-community: "Community 9"
+community: "Community 49"
 location: "abstract"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_9
+  - community/Community_49
 ---
 
 # Accumulation Schemes
@@ -30,6 +30,7 @@ tags:
 - [[Nested amortization deferringcollapsing linear-time verification through recursive public inputs]] - `conceptually_related_to` [EXTRACTED]
 - [[Nova KST21 recursive ZK arguments from folding; R_acc = relaxed committed R1CS]] - `conceptually_related_to` [EXTRACTED]
 - [[Nova Recursive Zero-Knowledge Arguments from Folding Schemes]] - `cites` [EXTRACTED]
+- [[Overhead of Recursion]] - `relates_to` [EXTRACTED]
 - [[PLONK]] - `enables` [EXTRACTED]
 - [[Pasta Cycle of Elliptic Curves]] - `conceptually_related_to` [EXTRACTED]
 - [[Pickles  Mina]] - `references` [EXTRACTED]
@@ -48,4 +49,4 @@ tags:
 - [[Theorem 2 (informal) accumulation for predicate + predicate-efficient SNARK yields accumulation for the SNARK]] - `proves` [EXTRACTED]
 - [[Verifiable delay function (VDF)]] - `uses` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_9
+#graphify/document #graphify/EXTRACTED #community/Community_49

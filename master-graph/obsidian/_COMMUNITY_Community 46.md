@@ -1,37 +1,38 @@
 ---
 type: community
-cohesion: 0.13
-members: 22
+cohesion: 0.10
+members: 23
 ---
 
 # Community 46
 
-**Cohesion:** 0.13 - loosely connected
-**Members:** 22 nodes
+**Cohesion:** 0.10 - loosely connected
+**Members:** 23 nodes
 
 ## Members
-- [[A la carte cost profile per-step proving cost proportional only to the circuit size of the invoked instruction, independent of k (number of instruction types)]] - paper - references/recursion/ch2/ref-44-supernova.pdf
-- [[Augmented function F'_j runs F_j then a verifier circuit folding u_i into U_ipc, checks public IO hash, and computes pc_{i+1} via phi]] - paper - references/recursion/ch2/ref-44-supernova.pdf
-- [[Avoiding universal switch circuits SuperNova never builds a circuit summing all instruction circuits; per-step cost depends only on the executed instruction]] - paper - references/recursion/ch2/ref-44-supernova.pdf
-- [[Buffet 34 a-la-carte cost via line-by-line compilation to non-uniform circuits, but not incremental and needs static execution bounds]] - paper - references/recursion/ch2/ref-44-supernova.pdf
-- [[Compression to succinct zero-knowledge apply a general-purpose zkSNARK (e.g., Spartan) over a valid NIVC proof, as in Nova]] - paper - references/recursion/ch2/ref-44-supernova.pdf
-- [[Construction 1 SuperNova NIVC scheme (G,K,P,V) built from non-interactive folding scheme NIFS for committed relaxed R1CS plus a hash]] - paper - references/recursion/ch2/ref-44-supernova.pdf
-- [[Control function phi takes (z_i, omega_i) and outputs program counter pc in {1,...,l} selecting which F_j to apply at each step]] - paper - references/recursion/ch2/ref-44-supernova.pdf
-- [[Instantiations VDF machine (l=1, MinRoot) and RAM machine (RISC-V-like, program counter register, Merkle-committed memory)]] - paper - references/recursion/ch2/ref-44-supernova.pdf
-- [[Kothapalli, Setty, Tzialla, Nova (CRYPTO 2022)]] - document - recursion/recursion-outline.md
-- [[Lemma 1  Assumption 1 non-interactive folding scheme for committed relaxed R1CS (Nova 21); prover O(n), verifier and communication O(1), via Fiat-Shamir in plain model]] - paper - references/recursion/ch2/ref-44-supernova.pdf
-- [[Lemma 2 (Completeness) Construction 1 is an NIVC scheme satisfying perfect completeness]] - paper - references/recursion/ch2/ref-44-supernova.pdf
-- [[Lemma 3 (Knowledge soundness) Construction 1 satisfies knowledge soundness via inductive extractor reduction to folding-scheme soundness]] - paper - references/recursion/ch2/ref-44-supernova.pdf
-- [[Lemma 4 (Efficiency) F'_j = phi + F_j + o(2G + 2H + R); prover cost dominated by two multiexponentiations sized to the executed instruction]] - paper - references/recursion/ch2/ref-44-supernova.pdf
-- [[MIRAGE 20 adapts vRAM techniques to Groth's SNARK; still relies on whole-trace invariants, incompatible with incremental proving]] - paper - references/recursion/ch2/ref-44-supernova.pdf
-- [[Multiple running instances, one per instruction type; incoming step instance folded into the running instance selected by pc (U_ipc)]] - paper - references/recursion/ch2/ref-44-supernova.pdf
-- [[Non-uniform IVC (NIVC) generalization of IVC where each step proves a relation chosen from a set, selected by a control function]] - paper - references/recursion/ch2/ref-44-supernova.pdf
-- [[Optimization offlineMerkle memory-checking reduces F'_j circuit dependence on l from O(l) to O(log l) then to O(1) constraints]] - paper - references/recursion/ch2/ref-44-supernova.pdf
-- [[Per-instruction step functions {F_1,...,F_l} plus control function phi; each F_j verifies one instruction type, cost independent of l]] - paper - references/recursion/ch2/ref-44-supernova.pdf
-- [[Program counter (pc) index selecting which instructionfunction is run at a step; computed by control function phi and threaded between augmented circuits]] - paper - references/recursion/ch2/ref-44-supernova.pdf
-- [[SuperNova (Non-Uniform IVC)]] - document - proving-nothing.md
-- [[Universal circuit single circuit executing any supported instruction (fetch-decode-execute); per-step cost scales with sum of all instruction circuit sizes]] - paper - references/recursion/ch2/ref-44-supernova.pdf
-- [[vRAM 37 trimmed universal circuit for vnTinyRAM via fingerprinting over the trace; not incremental, not zero-knowledge]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[6 previously-unknown vulnerabilities discovered (BigMod, IsPositive, ed25519-circom etc.)]] - paper - references/ch10/ref-35-coda.pdf
+- [[BigLessThan motivating example (Circom bug at line 32)]] - paper - references/ch10/ref-35-coda.pdf
+- [[Certifying Zero-Knowledge Circuits with Refinement Types]] - paper - references/ch10/ref-35-coda.pdf
+- [[Coda compiler partial evaluation to R1CS constraints]] - paper - references/ch10/ref-35-coda.pdf
+- [[Coda domain-specific Coq tactic library (F_to_Z, overflow, split_sum, switch_sum, reduce_sum, ind)]] - paper - references/ch10/ref-35-coda.pdf
+- [[Coda refinement type system {nuT  phi}]] - paper - references/ch10/ref-35-coda.pdf
+- [[Coda type-checking rules (circuit, expression, subtyping judgments)]] - paper - references/ch10/ref-35-coda.pdf
+- [[Coda verified higher-order library (branching, zip, array aggregates)]] - paper - references/ch10/ref-35-coda.pdf
+- [[Coda statically-typed functional DSL for ZK circuits]] - paper - references/ch10/ref-35-coda.pdf
+- [[Coq Proof Assistant]] - document - references/ch10/ref-35-coda.pdf
+- [[Coq lemma generation for proof obligations]] - paper - references/ch10/ref-35-coda.pdf
+- [[Evaluation 77 circuits from 9 Circom projects, 66 verified]] - paper - references/ch10/ref-35-coda.pdf
+- [[Fiat-Crypto finite-field formalization library]] - paper - references/ch10/ref-35-coda.pdf
+- [[Liquid  logically-qualified data types (SMT-discharged)]] - paper - references/ch10/ref-35-coda.pdf
+- [[Non-determinism (star) and assertion semantics encoding relations]] - paper - references/ch10/ref-35-coda.pdf
+- [[Refinement Types]] - document - references/ch10/ref-35-coda.pdf
+- [[SMT solving over finite fields  large prime fields]] - paper - references/ch10/ref-35-coda.pdf
+- [[TSub-Refine subtyping rule (reduces type checking to logical validity)]] - paper - references/ch10/ref-35-coda.pdf
+- [[Theorem 1 Expression Type Preservation (soundness)]] - paper - references/ch10/ref-35-coda.pdf
+- [[Theorem 2 Circuit Evaluation Type Preservation]] - paper - references/ch10/ref-35-coda.pdf
+- [[Trustless threat model (attacker controls source, R1CS, prover, verifier; can swap proof)]] - paper - references/ch10/ref-35-coda.pdf
+- [[Verification-effort case study 60% shorter proofs vs shallow embedding]] - paper - references/ch10/ref-35-coda.pdf
+- [[iter combinator with annotated loop invariant]] - paper - references/ch10/ref-35-coda.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -41,16 +42,16 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 7 edges to [[_COMMUNITY_Community 1]]
-- 3 edges to [[_COMMUNITY_Community 28]]
-- 3 edges to [[_COMMUNITY_Community 88]]
-- 2 edges to [[_COMMUNITY_Community 25]]
-- 1 edge to [[_COMMUNITY_Community 0]]
-- 1 edge to [[_COMMUNITY_Community 131]]
+- 4 edges to [[_COMMUNITY_Community 95]]
+- 2 edges to [[_COMMUNITY_Community 3]]
+- 2 edges to [[_COMMUNITY_Community 69]]
+- 1 edge to [[_COMMUNITY_Community 41]]
+- 1 edge to [[_COMMUNITY_Community 15]]
+- 1 edge to [[_COMMUNITY_Community 80]]
 
 ## Top bridge nodes
-- [[SuperNova (Non-Uniform IVC)]] - degree 15, connects to 5 communities
-- [[Universal circuit single circuit executing any supported instruction (fetch-decode-execute); per-step cost scales with sum of all instruction circuit sizes]] - degree 4, connects to 2 communities
-- [[Construction 1 SuperNova NIVC scheme (G,K,P,V) built from non-interactive folding scheme NIFS for committed relaxed R1CS plus a hash]] - degree 8, connects to 1 community
-- [[Non-uniform IVC (NIVC) generalization of IVC where each step proves a relation chosen from a set, selected by a control function]] - degree 5, connects to 1 community
-- [[Lemma 1  Assumption 1 non-interactive folding scheme for committed relaxed R1CS (Nova 21); prover O(n), verifier and communication O(1), via Fiat-Shamir in plain model]] - degree 4, connects to 1 community
+- [[Certifying Zero-Knowledge Circuits with Refinement Types]] - degree 6, connects to 3 communities
+- [[Coda statically-typed functional DSL for ZK circuits]] - degree 9, connects to 1 community
+- [[Evaluation 77 circuits from 9 Circom projects, 66 verified]] - degree 4, connects to 1 community
+- [[Refinement Types]] - degree 3, connects to 1 community
+- [[SMT solving over finite fields  large prime fields]] - degree 2, connects to 1 community

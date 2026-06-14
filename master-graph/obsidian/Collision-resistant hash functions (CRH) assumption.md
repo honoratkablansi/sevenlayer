@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf"
 type: "paper"
-community: "Community 53"
+community: "Community 74"
 location: "abstract, §2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_53
+  - community/Community_74
 ---
 
 # Collision-resistant hash functions (CRH) assumption
@@ -18,4 +18,4 @@ tags:
 - [[Theorem 3 Locally-Efficient RAM Compliance (NP statement - poly-depth compliance predicate)]] - `assumes` [EXTRACTED]
 - [[Theorem 4  9.1 Main bootstrapping theorem (any SNARK - complexity-preserving SNARK and PCD)]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_53
+#graphify/paper #graphify/EXTRACTED #community/Community_74

@@ -10,14 +10,14 @@ members: 8
 **Members:** 8 nodes
 
 ## Members
-- [[1-of-N Trust Model]] - document - proving-nothing.md
-- [[ADOPT Framework (Available, Decentralized, Open, Persistent, Transparent)]] - document - proving-nothing.md
-- [[CapexOpex Setup Economics Framework]] - document - proving-nothing.md
-- [[Chapter 2 Layer 1 — Building the Stage]] - document - proving-nothing.md
-- [[Ethereum KZG Summoning Ceremony (2023, 141,416 contributors)]] - document - proving-nothing.md
-- [[Luhmann — Risk A Sociological Theory (trust vs confidence, 1993)]] - document - proving-nothing.md
-- [[Nikolaenko et al. — Powers-of-Tau to the People Decentralizing Setup Ceremonies (ACNS 2024)]] - document - proving-nothing.md
-- [[Wang, Cohney, Bonneau — SoK Trusted Setups for Powers-of-Tau Strings (FC 2025)]] - document - proving-nothing.md
+- [[2-adicity of a curve (nu_2(r-1) large)]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
+- [[Halo 2]] - document - references/recursion/ch1/ref-12-pasta-curves.md
+- [[Karabina-Teske 1-to-1 MNT4MNT6 correspondence (Theorem 3.3)]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
+- [[MNT4MNT6 2-cycle (E4, E6) at 80-bit security]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
+- [[Pasta Cycle of Elliptic Curves]] - paper - references/ch06/ref-17-nova.pdf
+- [[Sonobe Library]] - document - recursion/recursion-outline.md
+- [[The Pasta Curves for Halo 2 and Beyond (Hopwood, ECC 2020)]] - document - references/recursion/ch1/ref-12-pasta-curves.md
+- [[Tweedle Curves]] - document - references/recursion/ch1/ref-12-pasta-curves.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -27,13 +27,16 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 3 edges to [[_COMMUNITY_Community 5]]
-- 1 edge to [[_COMMUNITY_Community 0]]
-- 1 edge to [[_COMMUNITY_Community 31]]
-- 1 edge to [[_COMMUNITY_Community 14]]
+- 3 edges to [[_COMMUNITY_Community 8]]
+- 2 edges to [[_COMMUNITY_Community 5]]
+- 1 edge to [[_COMMUNITY_Community 29]]
+- 1 edge to [[_COMMUNITY_Community 49]]
+- 1 edge to [[_COMMUNITY_Community 25]]
+- 1 edge to [[_COMMUNITY_Community 42]]
 
 ## Top bridge nodes
-- [[Ethereum KZG Summoning Ceremony (2023, 141,416 contributors)]] - degree 5, connects to 2 communities
-- [[Chapter 2 Layer 1 — Building the Stage]] - degree 4, connects to 2 communities
-- [[1-of-N Trust Model]] - degree 4, connects to 1 community
-- [[CapexOpex Setup Economics Framework]] - degree 3, connects to 1 community
+- [[Pasta Cycle of Elliptic Curves]] - degree 9, connects to 4 communities
+- [[2-adicity of a curve (nu_2(r-1) large)]] - degree 5, connects to 2 communities
+- [[Karabina-Teske 1-to-1 MNT4MNT6 correspondence (Theorem 3.3)]] - degree 3, connects to 1 community
+- [[MNT4MNT6 2-cycle (E4, E6) at 80-bit security]] - degree 3, connects to 1 community
+- [[Sonobe Library]] - degree 2, connects to 1 community

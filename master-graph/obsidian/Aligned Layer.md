@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch08-proof-aggregation-the-missing-layer.md"
 type: "document"
-community: "Community 17"
+community: "Community 61"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_17
+  - community/Community_61
 ---
 
 # Aligned Layer
@@ -16,4 +16,4 @@ tags:
 - [[Proof Aggregation The Missing Layer]] - `defines` [EXTRACTED]
 - [[Proving-as-a-Service The Prover Market (Production)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_17
+#graphify/document #graphify/EXTRACTED #community/Community_61

@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch14-coda.md"
 type: "document"
-community: "Community 14"
+community: "Community 24"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_14
+  - community/Community_24
 ---
 
 # Coda
@@ -37,4 +37,4 @@ tags:
 - [[Three Converging Forces]] - `references` [EXTRACTED]
 - [[eIDAS 2.0]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_14
+#graphify/document #graphify/EXTRACTED #community/Community_24

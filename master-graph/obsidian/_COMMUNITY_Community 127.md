@@ -1,21 +1,22 @@
 ---
 type: community
-cohesion: 0.40
-members: 6
+cohesion: 0.33
+members: 7
 ---
 
 # Community 127
 
-**Cohesion:** 0.40 - moderately connected
-**Members:** 6 nodes
+**Cohesion:** 0.33 - loosely connected
+**Members:** 7 nodes
 
 ## Members
-- [[Danksharding  proto-danksharding (EIP-4844 blobs)]] - document - references/recursion/ch3/ref-56-ethereum-org-zkevm-roadmap.md
-- [[PeerDAS (peer-to-peer data availability sampling, Fusaka)]] - document - references/recursion/ch3/ref-56-ethereum-org-zkevm-roadmap.md
-- [[Sharding dropped in favor of rollup scaling]] - document - references/recursion/ch3/ref-56-ethereum-org-zkevm-roadmap.md
-- [[Single slot finality]] - document - references/recursion/ch3/ref-56-ethereum-org-zkevm-roadmap.md
-- [[Statelessness (stateless clients verify blocks without storing state)]] - document - references/recursion/ch3/ref-56-ethereum-org-zkevm-roadmap.md
-- [[ethereum.org Ethereum roadmap page (zkEVM)]] - document - references/recursion/ch3/ref-56-ethereum-org-zkevm-roadmap.md
+- [[BLS signatures]] - document - references/recursion/ch1/ref-37-ethereum-lean-hash-based-sig-aggregation.md
+- [[Hash-based cryptography (lean foundation)]] - document - references/recursion/ch1/ref-37-ethereum-lean-hash-based-sig-aggregation.md
+- [[Hash-based signatures]] - document - references/recursion/ch1/ref-37-ethereum-lean-hash-based-sig-aggregation.md
+- [[Real-time zkVMs (lean execution)]] - document - references/recursion/ch1/ref-37-ethereum-lean-hash-based-sig-aggregation.md
+- [[Rise of SNARKs]] - document - references/recursion/ch1/ref-37-ethereum-lean-hash-based-sig-aggregation.md
+- [[SNARK-aggregated signatures]] - document - recursion/recursion-outline.md
+- [[lean Ethereum (Justin Drake, EF blog)]] - document - references/recursion/ch1/ref-37-ethereum-lean-hash-based-sig-aggregation.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -25,9 +26,12 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 1 edge to [[_COMMUNITY_Community 19]]
-- 1 edge to [[_COMMUNITY_Community 47]]
+- 1 edge to [[_COMMUNITY_Community 10]]
+- 1 edge to [[_COMMUNITY_Community 22]]
+- 1 edge to [[_COMMUNITY_Community 1]]
+- 1 edge to [[_COMMUNITY_Community 102]]
 
 ## Top bridge nodes
-- [[ethereum.org Ethereum roadmap page (zkEVM)]] - degree 6, connects to 1 community
-- [[Sharding dropped in favor of rollup scaling]] - degree 2, connects to 1 community
+- [[SNARK-aggregated signatures]] - degree 4, connects to 2 communities
+- [[Hash-based signatures]] - degree 4, connects to 1 community
+- [[Real-time zkVMs (lean execution)]] - degree 2, connects to 1 community

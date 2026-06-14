@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-51-pairing-efficiency-curves.pdf"
 type: "document"
-community: "Community 64"
+community: "Community 16"
 location: "page 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_64
+  - community/Community_16
 ---
 
 # Barreto-Naehrig Curves
@@ -18,4 +18,4 @@ tags:
 - [[Optimal ate pairing operation count on BN curve (Alg.1)]] - `assumes` [EXTRACTED]
 - [[SexTNFS for special-form (d-SNFS) characteristic, L_Q(13,(329){13})]] - `assumes` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_64
+#graphify/document #graphify/EXTRACTED #community/Community_16

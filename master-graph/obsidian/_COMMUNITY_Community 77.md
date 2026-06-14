@@ -1,32 +1,33 @@
 ---
 type: community
-cohesion: 0.15
-members: 17
+cohesion: 0.18
+members: 18
 ---
 
 # Community 77
 
-**Cohesion:** 0.15 - loosely connected
-**Members:** 17 nodes
+**Cohesion:** 0.18 - loosely connected
+**Members:** 18 nodes
 
 ## Members
-- [[AVX-512 multi-modular NTT ring arithmetic library]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[Batched evaluation protocol for multiple pointspolynomials]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[Bivariate polynomial folding f(X,Y)=aT S b with Y=Xm]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[Committing to w via v=Dw-hat (proof-size reduction)]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[Coordinate-wise special soundness analysis (CWSS)]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[Efficiency O(sqrt N) verifier, polylog proof, 53KB at N=230]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[FMN23 lattice polynomial commitments  Power-BASIS (CWSS origin)]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[Fast Johnson-Lindenstrauss projection via Four Russians algorithm]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[Greyhound polynomial commitment scheme]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[LaBRADOR Proof System]] - document - references/ch14/ref-65-greyhound.pdf
-- [[Ligero (AHIV17) and Brakedown (GLS+21) hash-based PCs (baselines)]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[Reduction of verification to a single short-norm linear relation over Rq]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[SLAP succinct lattice polynomial commitments (AFLN24, EUROCRYPT 2024)]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[Split-and-fold  folding paradigm]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[Theorem 4.1 completeness, weak binding, knowledge soundness of PCS]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[Three-round proof of polynomial evaluation (quadratic relation)]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[Zq-to-Rq evaluation transform via Galois automorphism (AFLN24)]] - paper - references/ch14/ref-65-greyhound.pdf
+- [[Accumulation schemes BCMS20, BCL+21 recursive proof composition  PCD without succinct arguments; introduced accumulation term and k-folding]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
+- [[Claim 4.4 F(X) (degree log n, sum of length n) computable in O(n) field ops via binary-tree edge-labeling recursion]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
+- [[Claim 4.5 G(X) (degree dk) computable in O(dk log(dk)M + dknC) F-multiplications via FFTIFFT]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
+- [[Folding many accumulators (§5) transpose sumcheck technique to fold k accumulators by linearly combining beta_j; prover O(kdM+nkdC)]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
+- [[Folding template additively homomorphic vector commitments; verifier randomly combines witness commitments, prover combines witnesses]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
+- [[HyperNova KS23 folding via randomized sumcheck; verifier d log n field ops, log n RO hashes]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
+- [[IVC Val08 and PCD CT10 original motivation for folding schemes]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
+- [[Lemma 3.2 special-soundness for R' (collision-augmented relation) implies knowledge-soundness with negl error for R]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
+- [[Lemma 4.2 f(sum a_i L_i(X)) = sum f(a_i) L_i(X) + Z(X) Q(X) (polynomials commute mod Z with Lagrange multiplication)]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
+- [[Multi-instance (k-)folding folding k instances in one folding operation]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
+- [[ProtoGalaxy Efficient ProtoStar-style folding of multiple instances (Eagen & Gabizon, ePrint 20231106)]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
+- [[R_rand relation randomized relaxed relation with ((phi,beta,e),omega) s.t. sum_i pow_i(beta) f_i(omega)=e]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
+- [[Sublinear recursive verifier marginal work log n field ops + O(1) hashes; constant per-instance ops for constant-degree gates]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
+- [[Theorem 4.3 ProtoGalaxy is an (Rk - R_rand) accumulationfolding scheme (complete and knowledge-sound)]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
+- [[Transition from monomial to Lagrange base associate each folded instance with a distinct Lagrange coefficient L_i(X)]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
+- [[Vanishing polynomial Z(X) of subgroup H; decomposition G(X)=F(alpha)L_0(X)+Z(X)K(X) avoids exponentially growing degree]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
+- [[pow_i polynomial and powers-of-beta vector; ProtoGalaxy avoids committing to the power vector (unlike ProtoStar)]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
+- [[§5 alternative construction for large k replace mod-Z(X) vanishing check with a sumcheck over a size-k domain; verifier O(log n + d log k) ops, log k hashes]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -36,19 +37,15 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 9 edges to [[_COMMUNITY_Community 0]]
-- 5 edges to [[_COMMUNITY_Community 26]]
-- 3 edges to [[_COMMUNITY_Community 36]]
-- 1 edge to [[_COMMUNITY_Community 15]]
-- 1 edge to [[_COMMUNITY_Community 37]]
-- 1 edge to [[_COMMUNITY_Community 32]]
-- 1 edge to [[_COMMUNITY_Community 28]]
-- 1 edge to [[_COMMUNITY_Community 88]]
-- 1 edge to [[_COMMUNITY_Community 27]]
+- 4 edges to [[_COMMUNITY_Community 29]]
+- 3 edges to [[_COMMUNITY_Community 76]]
+- 2 edges to [[_COMMUNITY_Community 22]]
+- 2 edges to [[_COMMUNITY_Community 25]]
+- 2 edges to [[_COMMUNITY_Community 49]]
 
 ## Top bridge nodes
-- [[Greyhound polynomial commitment scheme]] - degree 14, connects to 6 communities
-- [[LaBRADOR Proof System]] - degree 12, connects to 6 communities
-- [[Three-round proof of polynomial evaluation (quadratic relation)]] - degree 6, connects to 1 community
-- [[SLAP succinct lattice polynomial commitments (AFLN24, EUROCRYPT 2024)]] - degree 3, connects to 1 community
-- [[Coordinate-wise special soundness analysis (CWSS)]] - degree 3, connects to 1 community
+- [[ProtoGalaxy Efficient ProtoStar-style folding of multiple instances (Eagen & Gabizon, ePrint 20231106)]] - degree 20, connects to 4 communities
+- [[Multi-instance (k-)folding folding k instances in one folding operation]] - degree 5, connects to 1 community
+- [[Theorem 4.3 ProtoGalaxy is an (Rk - R_rand) accumulationfolding scheme (complete and knowledge-sound)]] - degree 5, connects to 1 community
+- [[Accumulation schemes BCMS20, BCL+21 recursive proof composition  PCD without succinct arguments; introduced accumulation term and k-folding]] - degree 3, connects to 1 community
+- [[HyperNova KS23 folding via randomized sumcheck; verifier d log n field ops, log n RO hashes]] - degree 3, connects to 1 community

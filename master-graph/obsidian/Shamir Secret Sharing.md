@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 4"
+community: "Community 21"
 location: "Chapter 9"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_4
+  - community/Community_21
 ---
 
 # Shamir Secret Sharing
@@ -15,4 +15,4 @@ tags:
 - [[Information-Theoretic Security]] - `conceptually_related_to` [EXTRACTED]
 - [[Secure Multi-Party Computation (MPC)]] - `explains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_4
+#graphify/document #graphify/EXTRACTED #community/Community_21

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch07/ref-26-nist-ir-8547.pdf"
 type: "paper"
-community: "Community 81"
+community: "Community 91"
 location: "§4 / Appendix A"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_81
+  - community/Community_91
 ---
 
 # Cryptographically Relevant Quantum Computer (CRQC)
@@ -18,4 +18,4 @@ tags:
 - [[Q-Day the moving-target momentperiod when a fault-tolerant quantum computer can break asymmetric encryption]] - `defines` [EXTRACTED]
 - [[Shor's Algorithm]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_81
+#graphify/paper #graphify/EXTRACTED #community/Community_91

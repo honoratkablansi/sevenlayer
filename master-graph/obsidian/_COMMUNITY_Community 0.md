@@ -1,87 +1,75 @@
 ---
 type: community
-cohesion: 0.08
-members: 72
+cohesion: 0.11
+members: 60
 ---
 
 # Community 0
 
-**Cohesion:** 0.08 - loosely connected
-**Members:** 72 nodes
+**Cohesion:** 0.11 - loosely connected
+**Members:** 60 nodes
 
 ## Members
-- [[Ajtai commitments]] - document - wiki/concepts/ajtai.md
-- [[Arc (hash-based accumulation for Reed-Solomon codes)]] - paper - references/ch06/ref-21-neo.pdf
-- [[BLS12-381 Curve]] - document - proving-nothing.md
-- [[Boneh & Chen, LatticeFold (ASIACRYPT 2025; ePrint 2024257)]] - document - proving-nothing.md
-- [[Boneh, Chen, LatticeFold (ePrint 2024257)]] - document - recursion/recursion-outline.md
-- [[Case Study Midnight (IOGCardano)]] - document - proving-nothing.md
-- [[Case Study Midnight (Layer 6)]] - document - wiki/sections/ch07-case-study-midnight.md
-- [[Concrete parameters AGL, Goldilocks, Mersenne-61 over degree-2 extension]] - paper - references/ch06/ref-21-neo.pdf
-- [[Cryptographic Primitives Trilemma]] - document - proving-nothing.md
-- [[FIPS 203 Module-Lattice-Based Key-Encapsulation Mechanism Standard (with FIPS 204205)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[Four Families of Commitment Schemes]] - document - wiki/sections/ch07-four-families-of-commitment-schemes.md
-- [[Goldilocks Field]] - document - wiki/chapters/03-choreographing-the-act.md
-- [[Greyhound]] - document - wiki/sections/ch07-lattice-based-proving.md
-- [[Greyhound (Lattice SNARK)]] - document - proving-nothing.md
-- [[Greyhound and LaBRADOR (Lattice Proofs)]] - document - proving-nothing.md
-- [[HyperNova (CRYPTO'24)]] - paper - references/ch06/ref-21-neo.pdf
-- [[Inner and outer commitment construction]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[Jubjub Curve]] - document - proving-nothing.md
-- [[LaBRADOR (Lattice Argument System)]] - document - proving-nothing.md
-- [[Lattice Cryptography]] - document - wiki/chapters/07-the-deep-craft.md
-- [[Lattice folding for lookups and read-write memory via ShoutTwist]] - paper - references/ch06/ref-21-neo.pdf
-- [[Lattice-Based Proving]] - document - wiki/sections/ch07-lattice-based-proving.md
-- [[LatticeFold  LatticeFold+]] - document - proving-nothing.md
-- [[LatticeFold  LatticeFold+ (Boneh, Chen)]] - document - proving-nothing.md
-- [[LatticeFold Lattice-Based Folding Scheme]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[LatticeFold+]] - document - proving-nothing.md
-- [[LatticeFold A Lattice-based Folding Scheme and its Applications to Succinct Proof Systems]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[Layer 6 -- The Deep Craft]] - document - wiki/chapters/07-the-deep-craft.md
-- [[Layer 6 Commitment Trilemma]] - document - proving-nothing.md
-- [[Lova (unstructured-lattice folding for subset sum)]] - paper - references/ch06/ref-21-neo.pdf
-- [[Maturity and Readiness]] - document - wiki/sections/ch07-maturity-and-readiness.md
-- [[Module Homomorphism (Lattice Folding Property)]] - document - proving-nothing.md
-- [[Module Lattice]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[Module-Ajtai binding commitment (Construction 2.1) with strictrelaxed openings]] - paper - references/ch10/ref-56-symphony.pdf
-- [[Module-SIS  Module-LWE]] - document - proving-nothing.md
-- [[NIST FIPS 204 (ML-DSA)]] - document - proving-nothing.md
-- [[NIST PQC Standards (FIPS 203204205, IR 8547)]] - document - proving-nothing.md
-- [[Neo (Lattice Folding Scheme)]] - document - proving-nothing.md
-- [[Neo (Lattice Folding over Small Fields)]] - document - wiki/sections/ch06-the-folding-genealogy.md
-- [[Neo (Small-Field Lattice Folding)]] - document - proving-nothing.md
-- [[Neo and SuperNeo (Nguyen, Setty, ePrint 2025294)]] - document - proving-nothing.md
-- [[Neo Lattice-based Folding Scheme for CCS over Small Fields and Pay-per-bit Commitments]] - paper - references/ch06/ref-21-neo.pdf
-- [[NeutronNova]] - paper - references/ch06/ref-21-neo.pdf
-- [[Nightstream]] - document - wiki/chapters/06-the-sealed-certificate.md
-- [[Nightstream (Lattice-Folding Implementation)]] - document - proving-nothing.md
-- [[Nightstream Lattice-Based Folding for CCS (LFDT-Nightstream)]] - document - references/ch06/ref-49-nightstream.md
-- [[Nightstream What a Folding Engine Looks Like from the Inside]] - document - wiki/sections/ch04-memory-the-binding-constraint.md
-- [[Nova (CRYPTO'22)]] - paper - references/ch06/ref-21-neo.pdf
-- [[Nova Folding Scheme (cited)]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[Path Three Post-Quantum Folding]] - document - wiki/sections/ch10-path-three-post-quantum-folding.md
-- [[Plausible post-quantum security from lattice (no DLOG reliance)]] - paper - references/ch06/ref-21-neo.pdf
-- [[Post-Quantum Cryptography]] - document - proving-nothing.md
-- [[Post-Quantum Security]] - document - proving-nothing.md
-- [[Protostar Folding Scheme (cited)]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[Quantum Threat Horizon (CRQC  HNDL)]] - document - proving-nothing.md
-- [[Small Fields]] - document - wiki/sections/ch07-small-fields.md
-- [[Symphony]] - document - wiki/sections/ch06-the-folding-genealogy.md
-- [[Symphony (High-Arity Lattice Folding)]] - document - proving-nothing.md
-- [[Symphony (Production Lattice Folding)]] - document - proving-nothing.md
-- [[The Cascade Effect]] - document - wiki/sections/ch07-the-cascade-effect.md
-- [[The Folding Genealogy]] - document - wiki/sections/ch06-the-folding-genealogy.md
-- [[The Laws That Break]] - document - wiki/sections/ch07-the-laws-that-break.md
-- [[The One-Way Door]] - document - wiki/sections/ch07-the-one-way-door.md
-- [[The Quantum Threat Horizon]] - document - wiki/sections/ch07-the-quantum-threat-horizon.md
-- [[The Structural Advantage of Lattices]] - document - wiki/sections/ch07-the-structural-advantage-of-lattices.md
-- [[The Trilemma -- And Its Dissolution]] - document - wiki/sections/ch07-the-trilemma-and-its-dissolution.md
-- [[Theorem 2 Ajtai scheme is S-homomorphic and (d,m,B)-binding under MSIS]] - paper - references/ch06/ref-21-neo.pdf
-- [[Three Hardness Assumptions, Three Worlds]] - document - wiki/sections/ch07-three-hardness-assumptions-three-worlds.md
+- [[AIR Arithmetization]] - paper - references/snowball/book/ref-137-scalable-transparent-and-post-quantum-secure-c.pdf
+- [[Airbender]] - document - wiki/chapters/05-encoding-the-performance.md
+- [[BN254 (alt_bn128) Curve]] - document - proving-nothing.md
+- [[BabyBear]] - document - wiki/concepts/babybear.md
+- [[BabyBear Field]] - document - proving-nothing.md
+- [[Ben-Sasson et al. — Scalable, Transparent, Post-Quantum Secure Computational Integrity (ePrint 2018046)]] - document - proving-nothing.md
+- [[Ben-Sasson et al., FRI (ICALP 2018)]] - document - proving-nothing.md
+- [[Brevis Pico Prism]] - document - proving-nothing.md
+- [[Cairo (StarkWare ZK-native ISA)]] - document - proving-nothing.md
+- [[Chaliasos et al. SoK SNARK Vulnerabilities (USENIX Security 2024)]] - paper - wiki/sections/ch03-risc-v-won-why-taxonomy-still-matters.md
+- [[Circle STARKs]] - document - proving-nothing.md
+- [[DEEP-ALI and FRI]] - document - references/recursion/ch1/ref-18-risc-zero-proof-system-overview.md
+- [[Ethereum Foundation]] - document - wiki/sections/ch10-path-two-pure-transparent.md
+- [[Ethereum Foundation L1 zkEVM Mandate]] - document - proving-nothing.md
+- [[Extended Main and Auxiliary Execution Trace]] - document - references/recursion/ch1/ref-18-risc-zero-proof-system-overview.md
+- [[FRI Commitment Scheme]] - document - proving-nothing.md
+- [[FRI Folding (Commitment and Query Phases)]] - paper - references/books/proofs-args-zk.pdf
+- [[FRI Protocol]] - document - proving-nothing.md
+- [[From Circuits to Virtual Machines A Brief Evolution]] - document - wiki/sections/ch03-from-circuits-to-virtual-machines-a-brief-evolution.md
+- [[Groth16 Circuit (on-chain verification wrapper)]] - document - references/recursion/ch1/ref-18-risc-zero-proof-system-overview.md
+- [[Groth16 wrap-circuit splitting tradeoff per-FRI-query sub-circuits trade prover speed vs on-chain cost]] - paper - references/recursion/ch1/ref-21-zktree.pdf
+- [[Hyrax Commitment Scheme]] - document - wiki/sections/ch11-three-zkvms-through-seven-layers.md
+- [[Image ID]] - document - references/recursion/ch1/ref-18-risc-zero-proof-system-overview.md
+- [[Mersenne-31  M31]] - document - wiki/concepts/mersenne.md
+- [[Mersenne-31 Field (M31)]] - document - proving-nothing.md
+- [[OpenVM]] - document - wiki/sections/ch11-performance-the-cost-collapse.md
+- [[Path One The Hybrid STARK-to-SNARK Pipeline]] - document - wiki/sections/ch10-path-one-the-hybrid-stark-to-snark-pipeline.md
+- [[Path Two Pure Transparent]] - document - wiki/sections/ch10-path-two-pure-transparent.md
+- [[Performance The Cost Collapse]] - document - wiki/sections/ch11-performance-the-cost-collapse.md
+- [[Pico Prism]] - document - wiki/sections/ch10-path-one-the-hybrid-stark-to-snark-pipeline.md
+- [[RISC Zero]] - document - proving-nothing.md
+- [[RISC-V Convergence]] - document - wiki/sections/ch11-risc-v-convergence.md
+- [[RISC-V Won. Why Taxonomy Still Matters.]] - document - wiki/sections/ch03-risc-v-won-why-taxonomy-still-matters.md
+- [[RISC-V architecture]] - document - references/recursion/ch1/ref-27-succinct-sp1-docs.md
+- [[SP1 Hypercube Proving Ethereum in Real-Time (Succinct Labs)]] - document - references/ch10/ref-52-sp1-hypercube.md
+- [[STARK]] - document - proving-nothing.md
+- [[Small prime fields (machine-register-sized Goldilocks, M61)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Small-Field Arithmetic (SIMDGPU)]] - document - proving-nothing.md
+- [[Small-Field STARKs (Goldilocks, BabyBear, M31)]] - document - proving-nothing.md
+- [[Square Root Commitment-Proof Size Tradeoff]] - paper - references/books/proofs-args-zk.pdf
+- [[Starknet]] - document - wiki/sections/ch01-three-converging-forces.md
+- [[Stwo]] - document - wiki/chapters/01-the-promise-of-provable-and-programmable-secrets.md
+- [[Stwo (StarkWare Circle STARK Prover)]] - document - proving-nothing.md
+- [[Tensor Product Structure in Evaluation Vector]] - paper - references/books/proofs-args-zk.pdf
+- [[The Proof Core Triad]] - document - wiki/sections/ch11-the-proof-core-triad.md
+- [[The Binary That Broke]] - document - wiki/sections/ch10-the-binary-that-broke.md
+- [[The Causal Web Why It Is a DAG, Not a Stack]] - document - wiki/sections/ch10-the-causal-web-why-it-is-a-dag-not-a-stack.md
+- [[The Landscape Table (March 2026)]] - document - wiki/sections/ch11-the-landscape-table-march-2026.md
+- [[The Map Redrawn]] - document - wiki/sections/ch10-the-map-redrawn.md
+- [[The RISC Zero STARK Protocol  Proof System Overview]] - document - references/recursion/ch1/ref-18-risc-zero-proof-system-overview.md
+- [[The Stage Is Set]] - document - wiki/sections/ch11-the-stage-is-set.md
+- [[The Synthesis -- Three Paths, Not Two]] - document - wiki/chapters/10-the-synthesis-three-paths-not-two.md
+- [[The Three-Path Table]] - document - wiki/sections/ch10-the-three-path-table.md
+- [[Three zkVMs Through Seven Layers]] - document - wiki/sections/ch11-three-zkvms-through-seven-layers.md
 - [[Tower NFS Erosion of BN254 Security]] - document - proving-nothing.md
-- [[Twist and Shout (sum-check lookup  memory arguments)]] - paper - references/ch06/ref-21-neo.pdf
-- [[Weak binding of innerouter commitment under Module-SIS (Lemma 2.11)]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[Zcash]] - document - wiki/chapters/01-the-promise-of-provable-and-programmable-secrets.md
+- [[ZKsync Airbender GPU-Accelerated RISC-V Proving]] - document - references/ch10/ref-53-airbender.md
+- [[ZisK]] - document - wiki/sections/ch02-the-capex-opex-framework.md
+- [[zkVMs -- The Universal Stage]] - document - wiki/chapters/11-zkvms-the-universal-stage.md
+- [[zkVMs Across the Stack]] - document - wiki/sections/ch11-zkvms-across-the-stack.md
+- [[zkWASM]] - document - wiki/sections/ch11-risc-v-convergence.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -91,56 +79,58 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 58 edges to [[_COMMUNITY_Community 2]]
-- 55 edges to [[_COMMUNITY_Community 1]]
-- 54 edges to [[_COMMUNITY_Community 5]]
-- 52 edges to [[_COMMUNITY_Community 62]]
-- 41 edges to [[_COMMUNITY_Community 14]]
-- 39 edges to [[_COMMUNITY_Community 13]]
-- 22 edges to [[_COMMUNITY_Community 10]]
-- 9 edges to [[_COMMUNITY_Community 77]]
-- 8 edges to [[_COMMUNITY_Community 69]]
-- 8 edges to [[_COMMUNITY_Community 34]]
-- 8 edges to [[_COMMUNITY_Community 26]]
-- 7 edges to [[_COMMUNITY_Community 73]]
-- 7 edges to [[_COMMUNITY_Community 48]]
-- 6 edges to [[_COMMUNITY_Community 27]]
-- 6 edges to [[_COMMUNITY_Community 89]]
-- 5 edges to [[_COMMUNITY_Community 37]]
-- 5 edges to [[_COMMUNITY_Community 40]]
-- 4 edges to [[_COMMUNITY_Community 15]]
-- 4 edges to [[_COMMUNITY_Community 36]]
-- 4 edges to [[_COMMUNITY_Community 28]]
-- 4 edges to [[_COMMUNITY_Community 45]]
-- 4 edges to [[_COMMUNITY_Community 18]]
-- 3 edges to [[_COMMUNITY_Community 88]]
-- 3 edges to [[_COMMUNITY_Community 116]]
-- 3 edges to [[_COMMUNITY_Community 42]]
-- 3 edges to [[_COMMUNITY_Community 111]]
-- 3 edges to [[_COMMUNITY_Community 9]]
-- 3 edges to [[_COMMUNITY_Community 4]]
-- 2 edges to [[_COMMUNITY_Community 25]]
-- 2 edges to [[_COMMUNITY_Community 39]]
-- 2 edges to [[_COMMUNITY_Community 72]]
-- 2 edges to [[_COMMUNITY_Community 81]]
-- 1 edge to [[_COMMUNITY_Community 32]]
-- 1 edge to [[_COMMUNITY_Community 121]]
-- 1 edge to [[_COMMUNITY_Community 109]]
-- 1 edge to [[_COMMUNITY_Community 16]]
-- 1 edge to [[_COMMUNITY_Community 46]]
-- 1 edge to [[_COMMUNITY_Community 3]]
-- 1 edge to [[_COMMUNITY_Community 122]]
-- 1 edge to [[_COMMUNITY_Community 50]]
+- 61 edges to [[_COMMUNITY_Community 1]]
+- 56 edges to [[_COMMUNITY_Community 17]]
+- 56 edges to [[_COMMUNITY_Community 4]]
+- 43 edges to [[_COMMUNITY_Community 11]]
+- 41 edges to [[_COMMUNITY_Community 5]]
+- 40 edges to [[_COMMUNITY_Community 10]]
+- 36 edges to [[_COMMUNITY_Community 24]]
+- 8 edges to [[_COMMUNITY_Community 28]]
+- 8 edges to [[_COMMUNITY_Community 22]]
+- 6 edges to [[_COMMUNITY_Community 86]]
+- 6 edges to [[_COMMUNITY_Community 61]]
+- 5 edges to [[_COMMUNITY_Community 120]]
+- 5 edges to [[_COMMUNITY_Community 51]]
+- 5 edges to [[_COMMUNITY_Community 25]]
+- 5 edges to [[_COMMUNITY_Community 15]]
+- 5 edges to [[_COMMUNITY_Community 9]]
+- 5 edges to [[_COMMUNITY_Community 26]]
+- 4 edges to [[_COMMUNITY_Community 23]]
+- 4 edges to [[_COMMUNITY_Community 129]]
+- 3 edges to [[_COMMUNITY_Community 20]]
+- 3 edges to [[_COMMUNITY_Community 41]]
+- 3 edges to [[_COMMUNITY_Community 102]]
+- 3 edges to [[_COMMUNITY_Community 29]]
+- 3 edges to [[_COMMUNITY_Community 52]]
+- 3 edges to [[_COMMUNITY_Community 12]]
+- 3 edges to [[_COMMUNITY_Community 13]]
+- 3 edges to [[_COMMUNITY_Community 37]]
+- 3 edges to [[_COMMUNITY_Community 19]]
+- 2 edges to [[_COMMUNITY_Community 95]]
+- 2 edges to [[_COMMUNITY_Community 69]]
+- 2 edges to [[_COMMUNITY_Community 7]]
+- 2 edges to [[_COMMUNITY_Community 79]]
+- 1 edge to [[_COMMUNITY_Community 70]]
+- 1 edge to [[_COMMUNITY_Community 49]]
 - 1 edge to [[_COMMUNITY_Community 8]]
-- 1 edge to [[_COMMUNITY_Community 91]]
-- 1 edge to [[_COMMUNITY_Community 19]]
-- 1 edge to [[_COMMUNITY_Community 44]]
-- 1 edge to [[_COMMUNITY_Community 31]]
-- 1 edge to [[_COMMUNITY_Community 6]]
+- 1 edge to [[_COMMUNITY_Community 94]]
+- 1 edge to [[_COMMUNITY_Community 63]]
+- 1 edge to [[_COMMUNITY_Community 109]]
+- 1 edge to [[_COMMUNITY_Community 42]]
+- 1 edge to [[_COMMUNITY_Community 14]]
+- 1 edge to [[_COMMUNITY_Community 93]]
+- 1 edge to [[_COMMUNITY_Community 30]]
+- 1 edge to [[_COMMUNITY_Community 18]]
+- 1 edge to [[_COMMUNITY_Community 54]]
+- 1 edge to [[_COMMUNITY_Community 92]]
+- 1 edge to [[_COMMUNITY_Community 72]]
+- 1 edge to [[_COMMUNITY_Community 87]]
+- 1 edge to [[_COMMUNITY_Community 21]]
 
 ## Top bridge nodes
-- [[Lattice Cryptography]] - degree 79, connects to 20 communities
-- [[Layer 6 -- The Deep Craft]] - degree 62, connects to 20 communities
-- [[Post-Quantum Cryptography]] - degree 47, connects to 16 communities
-- [[Module-SIS  Module-LWE]] - degree 47, connects to 12 communities
-- [[Zcash]] - degree 31, connects to 9 communities
+- [[STARK]] - degree 81, connects to 20 communities
+- [[FRI Commitment Scheme]] - degree 76, connects to 20 communities
+- [[The Synthesis -- Three Paths, Not Two]] - degree 50, connects to 14 communities
+- [[zkVMs -- The Universal Stage]] - degree 48, connects to 14 communities
+- [[BN254 (alt_bn128) Curve]] - degree 47, connects to 10 communities

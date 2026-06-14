@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 98"
+community: "Community 9"
 location: "Chapter 5"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_98
+  - community/Community_9
 ---
 
 # Offline Memory Checking
@@ -27,4 +27,4 @@ tags:
 - [[Twist sum-check memory-checking argument for readwrite memory]] - `conceptually_related_to` [EXTRACTED]
 - [[Volatile RAM AIP (zeroed init, uncommitted final)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_98
+#graphify/document #graphify/EXTRACTED #community/Community_9

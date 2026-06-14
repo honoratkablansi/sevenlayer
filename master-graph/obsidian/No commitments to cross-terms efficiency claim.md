@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-18-hypernova.pdf"
 type: "paper"
-community: "Community 119"
+community: "Community 29"
 location: "§1.3 / Theorem 1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_119
+  - community/Community_29
 ---
 
 # No commitments to cross-terms efficiency claim
@@ -15,4 +15,4 @@ tags:
 - [[Sangria (folding scheme for Plonkish)]] - `conceptually_related_to` [EXTRACTED]
 - [[Theorem 1 (multi-folding scheme for CCS)]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_119
+#graphify/paper #graphify/EXTRACTED #community/Community_29

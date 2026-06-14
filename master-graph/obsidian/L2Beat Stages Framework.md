@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch08-governance-the-achilles-heel.md"
 type: "document"
-community: "Community 71"
+community: "Community 117"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_71
+  - community/Community_117
 ---
 
 # L2Beat Stages Framework
@@ -21,4 +21,4 @@ tags:
 - [[Who Verifies the Verifier]] - `references` [EXTRACTED]
 - [[ZK Rollup]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_71
+#graphify/document #graphify/EXTRACTED #community/Community_117

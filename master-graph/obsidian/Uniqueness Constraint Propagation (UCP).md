@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch03/ref-12-underconstrained-circuits.pdf"
 type: "paper"
-community: "Community 76"
+community: "Community 82"
 location: "§5.1 Algorithm 2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_76
+  - community/Community_82
 ---
 
 # Uniqueness Constraint Propagation (UCP)
@@ -18,4 +18,4 @@ tags:
 - [[Under-Constrained Circuit  Missing Constraint]] - `conceptually_related_to` [EXTRACTED]
 - [[Verify Algorithm (Algorithm 1)]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_76
+#graphify/paper #graphify/EXTRACTED #community/Community_82

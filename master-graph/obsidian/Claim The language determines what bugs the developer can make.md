@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 93"
+community: "Community 94"
 location: "Chapter 3"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_93
+  - community/Community_94
 ---
 
 # Claim: The language determines what bugs the developer can make
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[The Four Philosophies of Layer 2 Languages]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_93
+#graphify/document #graphify/EXTRACTED #community/Community_94

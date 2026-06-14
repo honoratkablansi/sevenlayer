@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-32-zkvm-compiler-optimization.pdf"
 type: "paper"
-community: "Community 52"
+community: "Community 37"
 location: "§7 [46]"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_52
+  - community/Community_37
 ---
 
 # BinTuner (Ren et al.): OpenTuner-based study of compiler-opt impact on binary diff
@@ -15,4 +15,4 @@ tags:
 - [[Evaluating Compiler Optimization Impacts on zkVM Performance]] - `cites` [EXTRACTED]
 - [[Genetic autotuning via OpenTuner (cycle-count fitness; up to 2.2x speedup over -O3)]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_52
+#graphify/paper #graphify/EXTRACTED #community/Community_37

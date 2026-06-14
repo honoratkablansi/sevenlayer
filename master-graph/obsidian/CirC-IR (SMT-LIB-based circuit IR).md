@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-33-circ.pdf"
 type: "paper"
-community: "Community 49"
+community: "Community 56"
 location: "§3.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_49
+  - community/Community_56
 ---
 
 # CirC-IR (SMT-LIB-based circuit IR)
@@ -25,4 +25,4 @@ tags:
 - [[Oblivious array elimination pass]] - `conceptually_related_to` [EXTRACTED]
 - [[Satisfiability Modulo Theories (SMT)]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_49
+#graphify/paper #graphify/EXTRACTED #community/Community_56

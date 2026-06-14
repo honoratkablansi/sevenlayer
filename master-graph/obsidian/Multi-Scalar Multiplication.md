@@ -1,12 +1,12 @@
 ---
 source_file: "references/snowball/book/ref-108-dizk-a-distributed-zero-knowledge-proof-system.pdf"
 type: "paper"
-community: "Community 9"
+community: "Community 31"
 location: "abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_9
+  - community/Community_31
 ---
 
 # Multi-Scalar Multiplication
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Distributed Proof Generation]] - `uses` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_9
+#graphify/paper #graphify/EXTRACTED #community/Community_31

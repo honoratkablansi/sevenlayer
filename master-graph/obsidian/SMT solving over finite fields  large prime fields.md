@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-35-coda.pdf"
 type: "paper"
-community: "Community 56"
+community: "Community 46"
 location: "§1, §7 [32][45]"
 tags:
   - graphify/paper
   - graphify/INFERRED
-  - community/Community_56
+  - community/Community_46
 ---
 
 # SMT solving over finite fields / large prime fields
@@ -15,4 +15,4 @@ tags:
 - [[Coq lemma generation for proof obligations]] - `cites` [EXTRACTED]
 - [[Under-Constrained Circuit  Missing Constraint]] - `conceptually_related_to` [INFERRED]
 
-#graphify/paper #graphify/INFERRED #community/Community_56
+#graphify/paper #graphify/INFERRED #community/Community_46

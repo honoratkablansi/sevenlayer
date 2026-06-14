@@ -1,28 +1,28 @@
 ---
 type: community
-cohesion: 0.23
+cohesion: 0.17
 members: 13
 ---
 
 # Community 96
 
-**Cohesion:** 0.23 - loosely connected
+**Cohesion:** 0.17 - loosely connected
 **Members:** 13 nodes
 
 ## Members
-- [[Arithmetic Circuit]] - document - proving-nothing.md
-- [[CirC Compiler Infrastructure]] - paper - references/snowball/book/ref-122-circ-compiler-infrastructure-for-proof-systems.pdf
-- [[Circomspect Static Analyzer]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
-- [[Circuit Dependence Graph (CDG)]] - document - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[Circuit Dependence Graph (CDG) abstraction G=(V,Ed,Ec)]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[Constraint Compiler]] - paper - references/snowball/book/ref-122-circ-compiler-infrastructure-for-proof-systems.pdf
-- [[Datalog-style CDG construction inference rules]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[Libra]] - paper - references/snowball/book/ref-081-libra-succinct-zero-knowledge-proofs-with-optim.pdf
-- [[Practical Security Analysis of Zero-Knowledge Proof Circuits]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[RAM Computation]] - paper - references/snowball/recursion/ref-118-fast-reductions-from-rams-to-delegatable-succinc.pdf
-- [[Static Analysis]] - document - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[ZKAP (static analyzer for ZKP circuits)]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[ZKAP evaluation on 258 Circom circuits (17 projects)]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
+- [[Algorithm Deprecation Timeline]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
+- [[BIS Project Leap (2023) Quantum-proofing the financial system]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
+- [[Bitcoin case study public, permissionless DLT with ~15-year ledger used to illustrate HNDL; threat is current, active, unmitigated for data privacy, and asynchronous across address types]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
+- [[Buterin (2023) Ethereum quantum-emergency hard-fork proposal]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
+- [[Crypto agility building continuous migration between quantum-resistant algorithms into governance rather than targeting a single Q-Day]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
+- [[Cryptographic Migration]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
+- [[HNDL poses two primary present threats to Bitcoin revealing confidential encrypted data (data privacy) and stealing funds (theft)]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
+- [[Hybrid Key Exchange]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
+- [[Limitation all proposed mitigations require security-through-force, antithetical to Bitcoin's decentralized, choice-over-force governance ethos]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
+- [[Mitigations PQC-only hard fork (Buterin-style) or soft fork, mandatory PQC address types, crypto agility, security hygiene (no address reuse) — all address theftintegrity, not retroactive privacy]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
+- [[NIST PQC standardization 3 finalized encryption standards + 5 quantum-resistant algorithms; deprecating RSAECC over 5-10 years; US federal migration mandated by 2035]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
+- [[Quantum Threat]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
+- [[Thesis PQC can protect DLT integritysecurity but cannot retroactively protect data privacy of past transactions against HNDL]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -32,29 +32,14 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 4 edges to [[_COMMUNITY_Community 70]]
-- 4 edges to [[_COMMUNITY_Community 80]]
-- 3 edges to [[_COMMUNITY_Community 95]]
-- 2 edges to [[_COMMUNITY_Community 15]]
-- 2 edges to [[_COMMUNITY_Community 32]]
-- 2 edges to [[_COMMUNITY_Community 5]]
-- 2 edges to [[_COMMUNITY_Community 1]]
-- 2 edges to [[_COMMUNITY_Community 76]]
-- 2 edges to [[_COMMUNITY_Community 56]]
-- 1 edge to [[_COMMUNITY_Community 31]]
-- 1 edge to [[_COMMUNITY_Community 74]]
-- 1 edge to [[_COMMUNITY_Community 49]]
-- 1 edge to [[_COMMUNITY_Community 4]]
-- 1 edge to [[_COMMUNITY_Community 63]]
-- 1 edge to [[_COMMUNITY_Community 28]]
-- 1 edge to [[_COMMUNITY_Community 13]]
-- 1 edge to [[_COMMUNITY_Community 14]]
-- 1 edge to [[_COMMUNITY_Community 40]]
-- 1 edge to [[_COMMUNITY_Community 85]]
+- 3 edges to [[_COMMUNITY_Community 1]]
+- 3 edges to [[_COMMUNITY_Community 91]]
+- 1 edge to [[_COMMUNITY_Community 73]]
+- 1 edge to [[_COMMUNITY_Community 52]]
 
 ## Top bridge nodes
-- [[Arithmetic Circuit]] - degree 19, connects to 12 communities
-- [[Practical Security Analysis of Zero-Knowledge Proof Circuits]] - degree 10, connects to 5 communities
-- [[Libra]] - degree 5, connects to 4 communities
-- [[CirC Compiler Infrastructure]] - degree 4, connects to 2 communities
-- [[Circomspect Static Analyzer]] - degree 4, connects to 2 communities
+- [[Bitcoin case study public, permissionless DLT with ~15-year ledger used to illustrate HNDL; threat is current, active, unmitigated for data privacy, and asynchronous across address types]] - degree 3, connects to 2 communities
+- [[Mitigations PQC-only hard fork (Buterin-style) or soft fork, mandatory PQC address types, crypto agility, security hygiene (no address reuse) — all address theftintegrity, not retroactive privacy]] - degree 6, connects to 1 community
+- [[Cryptographic Migration]] - degree 5, connects to 1 community
+- [[Thesis PQC can protect DLT integritysecurity but cannot retroactively protect data privacy of past transactions against HNDL]] - degree 4, connects to 1 community
+- [[Crypto agility building continuous migration between quantum-resistant algorithms into governance rather than targeting a single Q-Day]] - degree 3, connects to 1 community

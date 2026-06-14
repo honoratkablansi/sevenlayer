@@ -1,37 +1,39 @@
 ---
 type: community
-cohesion: 0.16
-members: 22
+cohesion: 0.11
+members: 24
 ---
 
 # Community 44
 
-**Cohesion:** 0.16 - loosely connected
-**Members:** 22 nodes
+**Cohesion:** 0.11 - loosely connected
+**Members:** 24 nodes
 
 ## Members
-- [[(d,l)-Power Knowledge of Exponent assumption (Assumption 2), multivariate generalization of q-PKE]] - paper - references/recursion/ch3/ref-73-vsql.pdf
-- [[Avoiding relay gates inputsoutputs at arbitrary circuit layers via multilinear-extension combination (Eq. 2)]] - paper - references/recursion/ch3/ref-73-vsql.pdf
-- [[CMT extension supporting server-provided auxiliary input (non-deterministic computation) via committed multilinear extension]] - paper - references/recursion/ch3/ref-73-vsql.pdf
-- [[CMT protocol (Cormode-Mitzenmacher-Thaler interactive proof for layered arithmetic circuits)]] - paper - references/recursion/ch3/ref-73-vsql.pdf
-- [[Delegated-input technique client outsources database multilinear extension and verifies final CMT point via polynomial commitment]] - paper - references/recursion/ch3/ref-73-vsql.pdf
-- [[Empirical evaluation on TPC-H (6M rows, 13 columns); server up to 120x faster than SNARKs, comparable to IntegriDB]] - paper - references/recursion/ch3/ref-73-vsql.pdf
-- [[Expressive update support server commits to new database digest, verified by running CMT on update circuit]] - paper - references/recursion/ch3/ref-73-vsql.pdf
-- [[Extractable verifiable polynomial-delegation protocol with knowledge soundness (vSQL Construction 2)]] - paper - references/recursion/ch3/ref-73-vsql.pdf
-- [[IntegriDB (Zhang-Katz-Papamanthou), prior verifiable-SQL scheme compared against]] - paper - references/recursion/ch3/ref-73-vsql.pdf
-- [[Kate-Zaverucha-Goldberg  Papamanthou-Shi-Tamassia polynomial commitments extended by vSQL]] - paper - references/recursion/ch3/ref-73-vsql.pdf
-- [[Lemma 2 linear combinations of commitments respect right-multiplication of openings]] - paper - references/ch06/ref-21-neo.pdf
-- [[Linearly homomorphic commitment]] - paper - references/ch06/ref-21-neo.pdf
-- [[Multilinear extension (MLE)]] - paper - references/ch03/ref-16-jolt.pdf
-- [[Non-deterministic optimized zeroequality testing (x'=xy, z=x(1-xy)) replacing Fermat-based test; 80x speedup]] - paper - references/recursion/ch3/ref-73-vsql.pdf
-- [[O(zN) interactive set-intersection verification for joins via sorted-permutation product check]] - paper - references/recursion/ch3/ref-73-vsql.pdf
-- [[Outsourced and streaming computation]] - document - recursion/recursion-outline.md
-- [[Theorem 3 Construction 2 is a (extractable) verifiable polynomial-delegation protocol under Assumptions 1 and 2]] - paper - references/recursion/ch3/ref-73-vsql.pdf
-- [[Theorem 4 vSQL (Construction 3) is a verifiable database system for SQL queries given extractable polynomial delegation]] - paper - references/recursion/ch3/ref-73-vsql.pdf
-- [[Verifiable databases and analytics]] - document - recursion/recursion-outline.md
-- [[Zero-knowledge voting  governance]] - document - recursion/recursion-outline.md
-- [[q-Strong Diffie-Hellman assumption (Assumption 1)]] - paper - references/recursion/ch3/ref-73-vsql.pdf
-- [[vSQL verifiable database system for arbitrary SQL queries over dynamic outsourced databases]] - paper - references/recursion/ch3/ref-73-vsql.pdf
+- [[Algorithms for Quantum Computation Discrete Logarithms and Factoring]] - paper - references/ch07/ref-24-shor.pdf
+- [[Approval-status terms acceptable, deprecated, disallowed, legacy use]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
+- [[BQP (bounded-error quantum polynomial time)]] - paper - references/ch07/ref-24-shor.pdf
+- [[Coppersmith approximate Fourier transform]] - paper - references/ch07/ref-24-shor.pdf
+- [[Decoherence and gate imprecision obstacles]] - paper - references/ch07/ref-24-shor.pdf
+- [[DeprecationDisallowance Schedule 112-bit deprecated after 2030, RSAECC disallowed after 2035]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
+- [[Discrete Logarithm Problem]] - paper - references/ch07/ref-24-shor.pdf
+- [[Discrete-log-based public-key cryptosystems (Diffie-HellmanDSA)]] - paper - references/ch07/ref-24-shor.pdf
+- [[ECDSA (Elliptic Curve Digital Signature Algorithm)]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
+- [[Finite Fields]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[Integer Factorization]] - paper - references/ch07/ref-24-shor.pdf
+- [[Period Finding]] - paper - references/ch07/ref-24-shor.pdf
+- [[Peter W. Shor]] - paper - references/ch07/ref-24-shor.pdf
+- [[Public-Key Cryptography]] - paper - references/ch07/ref-24-shor.pdf
+- [[Quantum Algorithm]] - paper - references/ch07/ref-24-shor.pdf
+- [[Quantum Fourier transform]] - paper - references/ch07/ref-24-shor.pdf
+- [[Quantum discrete logarithm algorithm]] - paper - references/ch07/ref-24-shor.pdf
+- [[Quantum gate array (acyclic circuit) model]] - paper - references/ch07/ref-24-shor.pdf
+- [[Quantum interference  superposition]] - paper - references/ch07/ref-24-shor.pdf
+- [[Quantum-vulnerable digital signatures (ECDSA, EdDSA, RSA per FIPS 186)]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
+- [[Quantum-vulnerable key establishment (Finite FieldEC DH & MQV per SP 800-56A, RSA per SP 800-56B)]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
+- [[RSA Cryptosystem]] - paper - references/ch07/ref-24-shor.pdf
+- [[Shor's Algorithm]] - paper - references/ch07/ref-24-shor.pdf
+- [[Simon's oracle algorithm (inspiration for this work)]] - paper - references/ch07/ref-24-shor.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -41,26 +43,22 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 4 edges to [[_COMMUNITY_Community 40]]
-- 4 edges to [[_COMMUNITY_Community 85]]
-- 3 edges to [[_COMMUNITY_Community 32]]
-- 3 edges to [[_COMMUNITY_Community 36]]
-- 2 edges to [[_COMMUNITY_Community 37]]
-- 2 edges to [[_COMMUNITY_Community 28]]
-- 2 edges to [[_COMMUNITY_Community 25]]
-- 2 edges to [[_COMMUNITY_Community 82]]
+- 4 edges to [[_COMMUNITY_Community 106]]
+- 3 edges to [[_COMMUNITY_Community 1]]
+- 2 edges to [[_COMMUNITY_Community 112]]
+- 2 edges to [[_COMMUNITY_Community 91]]
 - 2 edges to [[_COMMUNITY_Community 16]]
-- 1 edge to [[_COMMUNITY_Community 0]]
-- 1 edge to [[_COMMUNITY_Community 69]]
-- 1 edge to [[_COMMUNITY_Community 10]]
-- 1 edge to [[_COMMUNITY_Community 86]]
-- 1 edge to [[_COMMUNITY_Community 39]]
-- 1 edge to [[_COMMUNITY_Community 41]]
-- 1 edge to [[_COMMUNITY_Community 63]]
+- 1 edge to [[_COMMUNITY_Community 12]]
+- 1 edge to [[_COMMUNITY_Community 29]]
+- 1 edge to [[_COMMUNITY_Community 131]]
+- 1 edge to [[_COMMUNITY_Community 136]]
+- 1 edge to [[_COMMUNITY_Community 11]]
+- 1 edge to [[_COMMUNITY_Community 8]]
+- 1 edge to [[_COMMUNITY_Community 33]]
 
 ## Top bridge nodes
-- [[Multilinear extension (MLE)]] - degree 17, connects to 8 communities
-- [[vSQL verifiable database system for arbitrary SQL queries over dynamic outsourced databases]] - degree 17, connects to 4 communities
-- [[Outsourced and streaming computation]] - degree 7, connects to 4 communities
-- [[CMT protocol (Cormode-Mitzenmacher-Thaler interactive proof for layered arithmetic circuits)]] - degree 8, connects to 3 communities
-- [[Extractable verifiable polynomial-delegation protocol with knowledge soundness (vSQL Construction 2)]] - degree 10, connects to 2 communities
+- [[Discrete Logarithm Problem]] - degree 10, connects to 5 communities
+- [[Algorithms for Quantum Computation Discrete Logarithms and Factoring]] - degree 13, connects to 4 communities
+- [[Shor's Algorithm]] - degree 7, connects to 4 communities
+- [[DeprecationDisallowance Schedule 112-bit deprecated after 2030, RSAECC disallowed after 2035]] - degree 5, connects to 2 communities
+- [[RSA Cryptosystem]] - degree 7, connects to 1 community

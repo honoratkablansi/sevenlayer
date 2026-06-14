@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch03/ref-12-underconstrained-circuits.pdf"
 type: "paper"
-community: "Community 96"
+community: "Community 103"
 location: "§9"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_96
+  - community/Community_103
 ---
 
 # Circomspect Static Analyzer
@@ -17,4 +17,4 @@ tags:
 - [[ZKAP (static analyzer for ZKP circuits)]] - `cites` [EXTRACTED]
 - [[ZKAP evaluation on 258 Circom circuits (17 projects)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_96
+#graphify/paper #graphify/EXTRACTED #community/Community_103

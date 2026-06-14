@@ -1,30 +1,30 @@
 ---
 type: community
-cohesion: 0.18
+cohesion: 0.37
 members: 15
 ---
 
 # Community 86
 
-**Cohesion:** 0.18 - loosely connected
+**Cohesion:** 0.37 - loosely connected
 **Members:** 15 nodes
 
 ## Members
-- [[Cost claim all committed field elements are 'small' in {0,...,max(m,N{1c},q)-1}, enabling ~1 group opelement via Pippenger MSM]] - paper - references/ch03/ref-15-lasso.pdf
-- [[GeneralizedLasso lookup argument for any MLElow-degree-structured table via the sparse-dense sum-check protocol]] - paper - references/ch03/ref-15-lasso.pdf
-- [[Indexed lookup argument (commit to value vector a and index vector b, prove a_i = tb_i)]] - paper - references/ch03/ref-15-lasso.pdf
-- [[Lasso lookup argument for SOSsmall tables, prover commits to 3cm + c·N{1c} small field elements]] - paper - references/ch03/ref-15-lasso.pdf
-- [[Lookup Singularity]] - document - proving-nothing.md
-- [[Lookup singularity & companion paper Jolt replace each VM (RISC-V) instruction with one lookup into a 2128-size decomposable table]] - paper - references/ch03/ref-15-lasso.pdf
-- [[MLE-structured table multilinear extension of the table is evaluable in O(log N) time, so no party commits to it]] - paper - references/ch03/ref-15-lasso.pdf
-- [[Multilinear polynomial commitment scheme (MSM-based or hash-based)]] - paper - references/ch03/ref-15-lasso.pdf
-- [[Prior lookup arguments plookup GW20b, Halo2 BGH20, cq EFG22, Caulk ZBK+22, flookup GK22, Baloo ZGK+22, log-derivative lookups]] - paper - references/ch03/ref-15-lasso.pdf
-- [[SOS  decomposable table Tr = g(T_1r_1,...,T_alphar_c) with alpha=kc MLE-structured sub-tables of size N{1c}]] - paper - references/ch03/ref-15-lasso.pdf
-- [[Sona transparent multilinear PCS (BabyHyrax + Nova) with O(1) commit size, O(1) verify, O(sqrt(N)) crypto eval-proof work]] - paper - references/ch03/ref-15-lasso.pdf
-- [[Sparse-dense sum-check protocol reduces lookups into any MLE-structured table to lookups into a decomposable table]] - paper - references/ch03/ref-15-lasso.pdf
-- [[Surge generalization of Spark proving inner product of an m-sparse committed vector with any decomposable (SOS) dense table]] - paper - references/ch03/ref-15-lasso.pdf
-- [[Theorem 3 Surge polynomial IOP is complete and knowledge-sound for proving sum_y M~(r,y)·Ty=v with soundness O((m+N{1c})F)]] - paper - references/ch03/ref-15-lasso.pdf
-- [[Unlocking the Lookup Singularity with Lasso]] - paper - references/ch03/ref-15-lasso.pdf
+- [[BatchZK (pipelined GPU prover)]] - paper - wiki/sections/ch04-witness-generation-costs.md
+- [[Execution Traces]] - document - wiki/sections/ch04-execution-traces.md
+- [[GPU-Accelerated Proving]] - document - wiki/sections/ch04-witness-generation-costs.md
+- [[Memory The Binding Constraint]] - document - wiki/sections/ch04-memory-the-binding-constraint.md
+- [[Multi-Scalar Multiplication (MSM)]] - document - proving-nothing.md
+- [[NTT over R_q (q=8380417, ζ=1753 a 512th root of unity) fast module-polynomial multiplication NTT(ab)=NTT(a)∘NTT(b)]] - paper - references/ch14/ref-64-fips-204.pdf
+- [[Number-Theoretic Transform (NTT)]] - document - proving-nothing.md
+- [[Reinforced Concrete Hash]] - document - wiki/chapters/04-the-secret-performance.md
+- [[Streaming Witness Generation (Nair, Thaler, Zhu)]] - paper - wiki/sections/ch04-witness-generation-costs.md
+- [[The Hidden Bottleneck]] - document - wiki/sections/ch04-the-hidden-bottleneck.md
+- [[The Secret Performance]] - document - wiki/chapters/04-the-secret-performance.md
+- [[The Witness as a Multi-Dimensional Problem]] - document - wiki/sections/ch04-the-witness-as-a-multi-dimensional-problem.md
+- [[Witness Generation]] - document - proving-nothing.md
+- [[Witness Generation Costs]] - document - wiki/sections/ch04-witness-generation-costs.md
+- [[ZKPOG (GPU Witness Acceleration)]] - document - proving-nothing.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -34,18 +34,38 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 5 edges to [[_COMMUNITY_Community 1]]
-- 2 edges to [[_COMMUNITY_Community 2]]
-- 2 edges to [[_COMMUNITY_Community 82]]
-- 2 edges to [[_COMMUNITY_Community 16]]
-- 1 edge to [[_COMMUNITY_Community 36]]
-- 1 edge to [[_COMMUNITY_Community 98]]
-- 1 edge to [[_COMMUNITY_Community 44]]
-- 1 edge to [[_COMMUNITY_Community 40]]
+- 15 edges to [[_COMMUNITY_Community 4]]
+- 13 edges to [[_COMMUNITY_Community 5]]
+- 12 edges to [[_COMMUNITY_Community 24]]
+- 7 edges to [[_COMMUNITY_Community 10]]
+- 6 edges to [[_COMMUNITY_Community 0]]
+- 5 edges to [[_COMMUNITY_Community 109]]
+- 4 edges to [[_COMMUNITY_Community 116]]
+- 4 edges to [[_COMMUNITY_Community 1]]
+- 4 edges to [[_COMMUNITY_Community 129]]
+- 3 edges to [[_COMMUNITY_Community 115]]
+- 3 edges to [[_COMMUNITY_Community 33]]
+- 3 edges to [[_COMMUNITY_Community 9]]
+- 2 edges to [[_COMMUNITY_Community 17]]
+- 2 edges to [[_COMMUNITY_Community 12]]
+- 2 edges to [[_COMMUNITY_Community 80]]
+- 2 edges to [[_COMMUNITY_Community 15]]
+- 2 edges to [[_COMMUNITY_Community 22]]
+- 2 edges to [[_COMMUNITY_Community 25]]
+- 1 edge to [[_COMMUNITY_Community 11]]
+- 1 edge to [[_COMMUNITY_Community 141]]
+- 1 edge to [[_COMMUNITY_Community 3]]
+- 1 edge to [[_COMMUNITY_Community 19]]
+- 1 edge to [[_COMMUNITY_Community 26]]
+- 1 edge to [[_COMMUNITY_Community 48]]
+- 1 edge to [[_COMMUNITY_Community 6]]
+- 1 edge to [[_COMMUNITY_Community 54]]
+- 1 edge to [[_COMMUNITY_Community 89]]
+- 1 edge to [[_COMMUNITY_Community 21]]
 
 ## Top bridge nodes
-- [[Unlocking the Lookup Singularity with Lasso]] - degree 10, connects to 4 communities
-- [[Lookup Singularity]] - degree 6, connects to 2 communities
-- [[Lasso lookup argument for SOSsmall tables, prover commits to 3cm + c·N{1c} small field elements]] - degree 7, connects to 1 community
-- [[Surge generalization of Spark proving inner product of an m-sparse committed vector with any decomposable (SOS) dense table]] - degree 4, connects to 1 community
-- [[MLE-structured table multilinear extension of the table is evaluable in O(log N) time, so no party commits to it]] - degree 3, connects to 1 community
+- [[The Secret Performance]] - degree 43, connects to 20 communities
+- [[Number-Theoretic Transform (NTT)]] - degree 21, connects to 8 communities
+- [[Witness Generation Costs]] - degree 22, connects to 6 communities
+- [[Witness Generation]] - degree 14, connects to 6 communities
+- [[Memory The Binding Constraint]] - degree 14, connects to 6 communities

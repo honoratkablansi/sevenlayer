@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch1/ref-17-polygon-zkevm-docs.md"
 type: "document"
-community: "Community 99"
+community: "Community 104"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_99
+  - community/Community_104
 ---
 
 # Agglayer Cross-Chain Interoperability
@@ -19,4 +19,4 @@ tags:
 - [[Polygon CDK (Chain Development Kit)]] - `references` [EXTRACTED]
 - [[Unified liquidity (assets retain identity, no wrapped tokens)]] - `explains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_99
+#graphify/document #graphify/EXTRACTED #community/Community_104

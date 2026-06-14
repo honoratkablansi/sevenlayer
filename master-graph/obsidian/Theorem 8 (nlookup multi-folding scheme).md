@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-18-hypernova.pdf"
 type: "paper"
-community: "Community 119"
+community: "Community 29"
 location: "Appendix F Theorem 8 / H.5"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_119
+  - community/Community_29
 ---
 
 # Theorem 8 (nlookup multi-folding scheme)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[nlookup lookup argument (Construction 8)]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_119
+#graphify/paper #graphify/EXTRACTED #community/Community_29

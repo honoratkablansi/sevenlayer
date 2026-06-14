@@ -1,31 +1,32 @@
 ---
 type: community
-cohesion: 0.17
-members: 16
+cohesion: 0.15
+members: 17
 ---
 
 # Community 82
 
-**Cohesion:** 0.17 - loosely connected
-**Members:** 16 nodes
+**Cohesion:** 0.15 - loosely connected
+**Members:** 17 nodes
 
 ## Members
-- [[All RISC-V instructions are decomposable (main technical contribution)]] - paper - references/ch03/ref-16-jolt.pdf
-- [[Comparison vs RISC Zero (~34), Cairo-VM (~13), Plonk per CPU step]] - paper - references/ch03/ref-16-jolt.pdf
-- [[Decomposable tables]] - paper - references/ch03/ref-16-jolt.pdf
-- [[Generalized-Lasso vs Lasso auditabilityperformance tradeoff (2x-3x cost)]] - paper - references/ch03/ref-16-jolt.pdf
-- [[Jolt SNARKs for Virtual Machines via Lookups]] - paper - references/ch03/ref-16-jolt.pdf
-- [[Lasso companion paper STW23 (Setty, Thaler, Wahby 2023)]] - paper - references/ch03/ref-16-jolt.pdf
-- [[Lemma 2 RS and WS are permutations iff every read returns last-written (value,count)]] - paper - references/ch03/ref-16-jolt.pdf
-- [[MLE-structured tables]] - paper - references/ch03/ref-16-jolt.pdf
-- [[MSM commitment via Pippenger's algorithm]] - paper - references/ch03/ref-16-jolt.pdf
-- [[Per-instruction MLE-structured evaluation tables (EQ, LTU, SLL, ANDORXOR, ADDSUB, MUL)]] - paper - references/ch03/ref-16-jolt.pdf
-- [[Prover commits to ~6 256-bit field elements per RISC-V CPU step]] - paper - references/ch03/ref-16-jolt.pdf
-- [[Single collation polynomial g for concatenated instruction tables]] - paper - references/ch03/ref-16-jolt.pdf
-- [[Single giant 2128 RISC-V lookup table T_risc-vopcodexy]] - paper - references/ch03/ref-16-jolt.pdf
-- [[Spartan applied to uniform R1CS (no commitment to A,B,C matrices)]] - paper - references/ch03/ref-16-jolt.pdf
-- [[Spice-based memory-checking optimized with Lasso (max via lookup)]] - paper - references/ch03/ref-16-jolt.pdf
-- [[Virtual instructions and virtual registers (MULH, DIVREM, MOVSIGN, ADVICE, ASSERT)]] - paper - references/ch03/ref-16-jolt.pdf
+- [[Compositional Counterexample Construction]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[EdwardsToMontgomery Underconstrained Bug]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[Finite-Field SMT Solver (cvc5 fork)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[Groebner Basis Computation]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[InferValues Value Inference (Algorithm 3)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[Logical Encoding of Arithmetic Circuit (Definition 4.3)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[QED2 (verification tool)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[QED2 Evaluation Results (70% solved, 8 vulnerabilities)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[SMT Query Procedure (Algorithm 4)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[SMT Solving]] - document - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[UCP Inference Rules (Assign, Base-Conv, BigInt-Mul, All-But-One-0)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[UCP Rule Soundness Proofs]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[Under-Constrained Circuit Bug]] - document - proving-nothing.md
+- [[Uniqueness Constraint Propagation (UCP)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[Value Inference Soundness (Lemmas A.4, A.5)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[Verify Algorithm (Algorithm 1)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[ZkBench Benchmark Suite (163 Circom circuits)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -35,20 +36,15 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 6 edges to [[_COMMUNITY_Community 2]]
-- 2 edges to [[_COMMUNITY_Community 36]]
-- 2 edges to [[_COMMUNITY_Community 28]]
-- 2 edges to [[_COMMUNITY_Community 1]]
-- 2 edges to [[_COMMUNITY_Community 86]]
-- 2 edges to [[_COMMUNITY_Community 44]]
-- 1 edge to [[_COMMUNITY_Community 88]]
-- 1 edge to [[_COMMUNITY_Community 98]]
-- 1 edge to [[_COMMUNITY_Community 94]]
-- 1 edge to [[_COMMUNITY_Community 15]]
+- 4 edges to [[_COMMUNITY_Community 69]]
+- 2 edges to [[_COMMUNITY_Community 3]]
+- 1 edge to [[_COMMUNITY_Community 41]]
+- 1 edge to [[_COMMUNITY_Community 95]]
+- 1 edge to [[_COMMUNITY_Community 24]]
 
 ## Top bridge nodes
-- [[Jolt SNARKs for Virtual Machines via Lookups]] - degree 25, connects to 8 communities
-- [[Decomposable tables]] - degree 5, connects to 1 community
-- [[All RISC-V instructions are decomposable (main technical contribution)]] - degree 3, connects to 1 community
-- [[Per-instruction MLE-structured evaluation tables (EQ, LTU, SLL, ANDORXOR, ADDSUB, MUL)]] - degree 3, connects to 1 community
-- [[Prover commits to ~6 256-bit field elements per RISC-V CPU step]] - degree 3, connects to 1 community
+- [[Under-Constrained Circuit Bug]] - degree 4, connects to 3 communities
+- [[QED2 (verification tool)]] - degree 6, connects to 1 community
+- [[Uniqueness Constraint Propagation (UCP)]] - degree 5, connects to 1 community
+- [[SMT Solving]] - degree 4, connects to 1 community
+- [[ZkBench Benchmark Suite (163 Circom circuits)]] - degree 3, connects to 1 community

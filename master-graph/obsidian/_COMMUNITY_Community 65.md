@@ -1,33 +1,34 @@
 ---
 type: community
-cohesion: 0.21
-members: 18
+cohesion: 0.19
+members: 19
 ---
 
 # Community 65
 
-**Cohesion:** 0.21 - loosely connected
-**Members:** 18 nodes
+**Cohesion:** 0.19 - loosely connected
+**Members:** 19 nodes
 
 ## Members
-- [[Barreto & Naehrig BN05 - prime-order curves with k=12 (discriminant D=3)]] - paper - references/recursion/ch1/ref-13-chiesa-chua-weidner-cycles.pdf
-- [[Ben-Sasson, Chiesa, Tromer, Virza BCTV14 - introduced pairing-friendly cycles for recursive SNARK composition]] - paper - references/recursion/ch1/ref-13-chiesa-chua-weidner-cycles.pdf
-- [[CM discriminant D  complex multiplication method]] - paper - references/recursion/ch1/ref-13-chiesa-chua-weidner-cycles.pdf
-- [[Chiesa, Chua & Weidner, On Cycles of Pairing-Friendly Elliptic Curves (2019)]] - paper - references/recursion/ch1/ref-13-chiesa-chua-weidner-cycles.pdf
-- [[Construction of a new pairing-friendly 4-cycle of MNT curves]] - paper - references/recursion/ch1/ref-13-chiesa-chua-weidner-cycles.pdf
-- [[Cyclotomic polynomial characterization of embedding degree (n  Phi_k(q))]] - paper - references/recursion/ch1/ref-13-chiesa-chua-weidner-cycles.pdf
-- [[Definition pairing-friendly (k1,...,km)-cycle of ordinary curves with small embedding degrees]] - paper - references/recursion/ch1/ref-13-chiesa-chua-weidner-cycles.pdf
-- [[Elliptic Curve Cryptography]] - paper - references/snowball/book/ref-106-a-taxonomy-of-pairing-friendly-elliptic-curves.pdf
-- [[Embedding degree k]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
-- [[Field mismatch (q != r forced by embedding degree)]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
-- [[Freeman Fre06 - prime-order curve family with k=10]] - paper - references/recursion/ch1/ref-13-chiesa-chua-weidner-cycles.pdf
-- [[Lemma 4 sum of traces of an m-cycle equals m (necessary condition)]] - paper - references/recursion/ch1/ref-13-chiesa-chua-weidner-cycles.pdf
-- [[Menezes, Okamoto & Vanstone MOV93 - MOV reduction; supersingular embedding degree = 6]] - paper - references/recursion/ch1/ref-13-chiesa-chua-weidner-cycles.pdf
-- [[Pairing-friendly elliptic curves]] - paper - references/recursion/ch1/ref-13-chiesa-chua-weidner-cycles.pdf
-- [[Prop. 2 all MNT cycles have length 2 or 4, alternating embedding degrees (6,4) or (6,4,6,4)]] - paper - references/recursion/ch1/ref-13-chiesa-chua-weidner-cycles.pdf
-- [[Prop. 3 no (5,10)-, (8,8)-, or (12,12)-cycles exist (deg Phi_k = 4 case)]] - paper - references/recursion/ch1/ref-13-chiesa-chua-weidner-cycles.pdf
-- [[Prop. 5 m-cycle of curves with fixed discriminant D3 has m=2 (D=3 gives m=6)]] - paper - references/recursion/ch1/ref-13-chiesa-chua-weidner-cycles.pdf
-- [[Props. 8-9 no cycles consisting only of Freeman (k=10) or only of Barreto-Naehrig (k=12) curves]] - paper - references/recursion/ch1/ref-13-chiesa-chua-weidner-cycles.pdf
+- [[C2PA (Coalition for Content Provenance and Authenticity) camera-signature standard]] - paper - references/recursion/ch3/ref-78-veritas.pdf
+- [[C2PA Technical Specification (Content Credentials)]] - document - references/recursion/ch3/ref-79-c2pa-specification.md
+- [[Custom proof system for lattice hash range proof (Plookup) + Freivalds + univariate SumCheck (Aurora)]] - paper - references/recursion/ch3/ref-78-veritas.pdf
+- [[Extended PLONK permutation argument (tau') tying circuit trace T(X) to witness polynomial W(X)]] - paper - references/recursion/ch3/ref-78-veritas.pdf
+- [[Glass-to-glass end-to-end security (camera to user screen, no trusted editor)]] - paper - references/recursion/ch3/ref-78-veritas.pdf
+- [[Homomorphic  redactable signatures (alternate, SNARK-free designs; impractical for blurresize)]] - paper - references/recursion/ch3/ref-78-veritas.pdf
+- [[Image Authentication (IA) proving an image faithfully represents an original photograph from a given capture device class]] - paper - references/recursion/ch3/ref-77-photoproof.pdf
+- [[Instance-witness relation R f(w)=x AND SigVerify(vk,w,sigma)=1 (signed original to edited image)]] - paper - references/recursion/ch3/ref-78-veritas.pdf
+- [[Lattice+Poseidon hash H(v)=Poseidon(A·v mod q) SNARK-friendly hash for 30 MP images (Mode 1)]] - paper - references/recursion/ch3/ref-78-veritas.pdf
+- [[Performance proof for 90 MB  30 MP image in ~13 min ($0.54, weak signer) or ~3 min ($0.13, powerful signer), verify 1 s]] - paper - references/recursion/ch3/ref-78-veritas.pdf
+- [[Photo-edit circuits in Plonky2 crop, grayscale, bilinear resize, box blur (fixed-point, AP-acceptable edits)]] - paper - references/recursion/ch3/ref-78-veritas.pdf
+- [[PhotoProof (Naveh & Tromer 2016) - prior ZK image-edit proofs, impractical proving time]] - paper - references/recursion/ch3/ref-78-veritas.pdf
+- [[Polynomial-commitment hash (Mode 2) signer commits to poly(w); SNARK circuit avoids hashingsignature verification]] - paper - references/recursion/ch3/ref-78-veritas.pdf
+- [[Short Integer Solution (SIS) lattice hash H_A(v)=Av mod q (linear, low-norm preimage)]] - paper - references/recursion/ch3/ref-78-veritas.pdf
+- [[Theorem 5.1 RangeCheck (Alg.1-2) is a zk-SNARK for relation R_RP (rangelow-norm proof)]] - paper - references/recursion/ch3/ref-78-veritas.pdf
+- [[Theorem 5.2 LatticeHash proof (Alg.3-4) is a zk-SNARK for relation R'_LH (knowledge of low-norm preimage)]] - paper - references/recursion/ch3/ref-78-veritas.pdf
+- [[VerITAS Verifying Image Transformations at Scale (Datta, Chen, Boneh, ePrint 20241066)]] - paper - references/recursion/ch3/ref-78-veritas.pdf
+- [[ZK-IMG (Kang et al. 2022) - 100x speedup over PhotoProof but limited to 720p900 KP images]] - paper - references/recursion/ch3/ref-78-veritas.pdf
+- [[opt-VerITAS precommitted rows of A reduce verifier time ~20x (30 MP verify ~0.8 s) at cost of larger proofs]] - paper - references/recursion/ch3/ref-78-veritas.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -37,16 +38,19 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 8 edges to [[_COMMUNITY_Community 75]]
-- 6 edges to [[_COMMUNITY_Community 90]]
-- 3 edges to [[_COMMUNITY_Community 97]]
-- 3 edges to [[_COMMUNITY_Community 23]]
-- 1 edge to [[_COMMUNITY_Community 31]]
-- 1 edge to [[_COMMUNITY_Community 132]]
+- 5 edges to [[_COMMUNITY_Community 31]]
+- 3 edges to [[_COMMUNITY_Community 12]]
+- 3 edges to [[_COMMUNITY_Community 5]]
+- 3 edges to [[_COMMUNITY_Community 4]]
+- 2 edges to [[_COMMUNITY_Community 81]]
+- 1 edge to [[_COMMUNITY_Community 15]]
+- 1 edge to [[_COMMUNITY_Community 13]]
+- 1 edge to [[_COMMUNITY_Community 64]]
+- 1 edge to [[_COMMUNITY_Community 123]]
 
 ## Top bridge nodes
-- [[Embedding degree k]] - degree 12, connects to 4 communities
-- [[Chiesa, Chua & Weidner, On Cycles of Pairing-Friendly Elliptic Curves (2019)]] - degree 20, connects to 3 communities
-- [[Pairing-friendly elliptic curves]] - degree 9, connects to 2 communities
-- [[Field mismatch (q != r forced by embedding degree)]] - degree 3, connects to 2 communities
-- [[Definition pairing-friendly (k1,...,km)-cycle of ordinary curves with small embedding degrees]] - degree 5, connects to 1 community
+- [[VerITAS Verifying Image Transformations at Scale (Datta, Chen, Boneh, ePrint 20241066)]] - degree 22, connects to 6 communities
+- [[C2PA (Coalition for Content Provenance and Authenticity) camera-signature standard]] - degree 6, connects to 3 communities
+- [[Image Authentication (IA) proving an image faithfully represents an original photograph from a given capture device class]] - degree 8, connects to 2 communities
+- [[Lattice+Poseidon hash H(v)=Poseidon(A·v mod q) SNARK-friendly hash for 30 MP images (Mode 1)]] - degree 6, connects to 1 community
+- [[Custom proof system for lattice hash range proof (Plookup) + Freivalds + univariate SumCheck (Aurora)]] - degree 5, connects to 1 community

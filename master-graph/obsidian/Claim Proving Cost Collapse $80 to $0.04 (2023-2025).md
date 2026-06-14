@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 47"
+community: "Community 78"
 location: "Chapter 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_47
+  - community/Community_78
 ---
 
 # Claim: Proving Cost Collapse $80 to $0.04 (2023-2025)
@@ -15,4 +15,4 @@ tags:
 - [[Succinct SP1 Hypercube Prover]] - `references` [EXTRACTED]
 - [[Three Converging Forces (privacy, scaling, cost)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_47
+#graphify/document #graphify/EXTRACTED #community/Community_78

@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch03/ref-14-ccs-customizable-constraints.pdf"
 type: "paper"
-community: "Community 1"
+community: "Community 29"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_1
+  - community/Community_29
 ---
 
 # Customizable Constraint Systems for Succinct Arguments
@@ -27,4 +27,4 @@ tags:
 - [[SuperMarlin univariate-sumcheck SNARK for CCS generalizing Marlin]] - `introduces` [EXTRACTED]
 - [[SuperSpartan SNARK family for CCS generalizing Spartan's polynomial IOP]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_1
+#graphify/paper #graphify/EXTRACTED #community/Community_29

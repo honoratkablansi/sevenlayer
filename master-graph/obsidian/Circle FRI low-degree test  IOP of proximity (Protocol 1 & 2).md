@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-23-circle-starks.pdf"
 type: "paper"
-community: "Community 24"
+community: "Community 28"
 location: "§6 Protocol 1, Protocol 2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_24
+  - community/Community_28
 ---
 
 # Circle FRI low-degree test / IOP of proximity (Protocol 1 & 2)
@@ -18,4 +18,4 @@ tags:
 - [[FFT-basis B_n and FFT-space L'_N (dimension gap of co-dimension one)]] - `assumes` [EXTRACTED]
 - [[FRI Commitment Scheme]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_24
+#graphify/paper #graphify/EXTRACTED #community/Community_28

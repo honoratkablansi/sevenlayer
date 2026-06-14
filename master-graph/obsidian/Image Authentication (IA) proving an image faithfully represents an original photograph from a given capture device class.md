@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-77-photoproof.pdf"
 type: "paper"
-community: "Community 83"
+community: "Community 65"
 location: "§I-A; §II"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_83
+  - community/Community_65
 ---
 
 # Image Authentication (IA): proving an image faithfully represents an original photograph from a given capture device class
@@ -21,4 +21,4 @@ tags:
 - [[VerITAS Verifying Image Transformations at Scale (Datta, Chen, Boneh, ePrint 20241066)]] - `conceptually_related_to` [EXTRACTED]
 - [[ZK-IMG (Kang et al. 2022) - 100x speedup over PhotoProof but limited to 720p900 KP images]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_83
+#graphify/paper #graphify/EXTRACTED #community/Community_65

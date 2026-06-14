@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-55-zkevm-security-foundations.md"
 type: "document"
-community: "Community 19"
+community: "Community 10"
 location: "Milestone 1: soundcalc integration"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_19
+  - community/Community_10
 ---
 
 # soundcalc (zkVM security estimation tool)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Shipping an L1 zkEVM 2 The Security Foundations (Ethereum Foundation)]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_19
+#graphify/document #graphify/EXTRACTED #community/Community_10

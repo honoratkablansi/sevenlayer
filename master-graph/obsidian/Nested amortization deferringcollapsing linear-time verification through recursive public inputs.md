@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-05-halo.pdf"
 type: "paper"
-community: "Community 51"
+community: "Community 47"
 location: "§1.1, §4, §7"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_51
+  - community/Community_47
 ---
 
 # Nested amortization: deferring/collapsing linear-time verification through recursive public inputs
@@ -18,4 +18,4 @@ tags:
 - [[Main argument Sonic-variant PSHVZK argument of knowledge for arithmetic circuit satisfiability]] - `conceptually_related_to` [EXTRACTED]
 - [[Recursive Proof Composition]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_51
+#graphify/paper #graphify/EXTRACTED #community/Community_47

@@ -1,33 +1,34 @@
 ---
 type: community
-cohesion: 0.16
-members: 18
+cohesion: 0.18
+members: 19
 ---
 
 # Community 66
 
-**Cohesion:** 0.16 - loosely connected
-**Members:** 18 nodes
+**Cohesion:** 0.18 - loosely connected
+**Members:** 19 nodes
 
 ## Members
-- [[Automated translation layer compiling TensorFlow Lite models into halo2 circuits (columngate minimization, lookup-table sharing)]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
-- [[Evaluation claim ImageNet-scale MobileNet v2 SNARKs up to 79.2% top-5 accuracy; 10x-1000x lower proving time than prior work (Zen, vCNN, pvCNN, zkCNN)]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
-- [[Groth16  R1CS arithmetization (Groth 2016; Gennaro et al. 2013) older pairing-based SNARK + R1CS used by prior DNN-SNARK work (e.g. Zen)]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
-- [[MobileNet v2 (Sandler et al. 2018) inverted-residual CNN architecture used as the proved model]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
-- [[Neural-network arithmetization translating CNN layers (convolution, batchnorm, ReLU, residual, fully-connected) into ZK-SNARK arithmetic-circuit constraints]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
-- [[Optimization 1 lookup arguments for non-linearities (fused ClipAndScale division + ReLU) sharing one lookup table across layers]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
-- [[Optimization 2 sub-circuit reuse across layers via two shared custom gates (addition and dot-product with zero point) and shared lookup tables]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
-- [[Plonkup  Plonkish Circuit-Satisfiability Relation]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Proof of model provenance committing to hidden weights via a SNARK-friendly hash so a provider can prove it ran a specific committed model]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
-- [[Proof-of-inference first ImageNet-scale ZK-SNARK proof of valid DNN inference (MobileNet v2), 79% top-5 accuracy, verifiable in ~10s]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
-- [[Protocol for verifying MLaaS model accuracy with hidden weights, using ZK-SNARKs plus stakingescrow economic incentives]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
-- [[Protocol for verifying MLaaS predictions in rounds, with random-contest sampling so a ZK-SNARK is not needed for every prediction]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
-- [[Sangria Moh23 (cited, Plonk degree-2 folding)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Scaling up Trustless DNN Inference with Zero-Knowledge Proofs (Kang, Hashimoto, Stoica, Sun, 2022)]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
-- [[Secure ML via MPC  homomorphic encryption  interactive proofs (Ghodsi SafetyNets 2017, Mohassel SecureML 2017, Knott CrypTen 2021, GAZELLE, Delphi) impractical against malicious adversaries o_cb9fbadd]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
-- [[Trustless retrieval ZK-SNARK protocol for returning documents matching an ML-encoded predicate (FOIA  legal-discovery use cases)]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
-- [[Use of the SNARK-friendly Poseidon hash to commit to hidden inputs andor weights inside the circuit]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
-- [[int8uint8 quantization with fixed-point (ab) scale approximation to avoid floating-point emulation in the prime field]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[(d,l)-Power Knowledge of Exponent assumption (Assumption 2), multivariate generalization of q-PKE]] - paper - references/recursion/ch3/ref-73-vsql.pdf
+- [[Avoiding relay gates inputsoutputs at arbitrary circuit layers via multilinear-extension combination (Eq. 2)]] - paper - references/recursion/ch3/ref-73-vsql.pdf
+- [[CMT extension supporting server-provided auxiliary input (non-deterministic computation) via committed multilinear extension]] - paper - references/recursion/ch3/ref-73-vsql.pdf
+- [[CMT protocol (Cormode-Mitzenmacher-Thaler interactive proof for layered arithmetic circuits)]] - paper - references/recursion/ch3/ref-73-vsql.pdf
+- [[Delegated-input technique client outsources database multilinear extension and verifies final CMT point via polynomial commitment]] - paper - references/recursion/ch3/ref-73-vsql.pdf
+- [[Empirical evaluation on TPC-H (6M rows, 13 columns); server up to 120x faster than SNARKs, comparable to IntegriDB]] - paper - references/recursion/ch3/ref-73-vsql.pdf
+- [[Expressive update support server commits to new database digest, verified by running CMT on update circuit]] - paper - references/recursion/ch3/ref-73-vsql.pdf
+- [[Extractable verifiable polynomial-delegation protocol with knowledge soundness (vSQL Construction 2)]] - paper - references/recursion/ch3/ref-73-vsql.pdf
+- [[IntegriDB (Zhang-Katz-Papamanthou), prior verifiable-SQL scheme compared against]] - paper - references/recursion/ch3/ref-73-vsql.pdf
+- [[Kate-Zaverucha-Goldberg  Papamanthou-Shi-Tamassia polynomial commitments extended by vSQL]] - paper - references/recursion/ch3/ref-73-vsql.pdf
+- [[Non-deterministic optimized zeroequality testing (x'=xy, z=x(1-xy)) replacing Fermat-based test; 80x speedup]] - paper - references/recursion/ch3/ref-73-vsql.pdf
+- [[O(zN) interactive set-intersection verification for joins via sorted-permutation product check]] - paper - references/recursion/ch3/ref-73-vsql.pdf
+- [[Outsourced and streaming computation]] - document - recursion/recursion-outline.md
+- [[Theorem 3 Construction 2 is a (extractable) verifiable polynomial-delegation protocol under Assumptions 1 and 2]] - paper - references/recursion/ch3/ref-73-vsql.pdf
+- [[Theorem 4 vSQL (Construction 3) is a verifiable database system for SQL queries given extractable polynomial delegation]] - paper - references/recursion/ch3/ref-73-vsql.pdf
+- [[Verifiable databases and analytics]] - document - recursion/recursion-outline.md
+- [[Zero-knowledge voting  governance]] - document - recursion/recursion-outline.md
+- [[q-Strong Diffie-Hellman assumption (Assumption 1)]] - paper - references/recursion/ch3/ref-73-vsql.pdf
+- [[vSQL verifiable database system for arbitrary SQL queries over dynamic outsourced databases]] - paper - references/recursion/ch3/ref-73-vsql.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -37,15 +38,20 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 4 edges to [[_COMMUNITY_Community 74]]
-- 4 edges to [[_COMMUNITY_Community 105]]
-- 3 edges to [[_COMMUNITY_Community 117]]
-- 2 edges to [[_COMMUNITY_Community 62]]
-- 2 edges to [[_COMMUNITY_Community 8]]
+- 5 edges to [[_COMMUNITY_Community 3]]
+- 3 edges to [[_COMMUNITY_Community 41]]
+- 3 edges to [[_COMMUNITY_Community 12]]
+- 2 edges to [[_COMMUNITY_Community 70]]
+- 2 edges to [[_COMMUNITY_Community 9]]
+- 1 edge to [[_COMMUNITY_Community 22]]
+- 1 edge to [[_COMMUNITY_Community 130]]
+- 1 edge to [[_COMMUNITY_Community 73]]
+- 1 edge to [[_COMMUNITY_Community 50]]
+- 1 edge to [[_COMMUNITY_Community 63]]
 
 ## Top bridge nodes
-- [[Scaling up Trustless DNN Inference with Zero-Knowledge Proofs (Kang, Hashimoto, Stoica, Sun, 2022)]] - degree 16, connects to 4 communities
-- [[Plonkup  Plonkish Circuit-Satisfiability Relation]] - degree 6, connects to 2 communities
-- [[Proof-of-inference first ImageNet-scale ZK-SNARK proof of valid DNN inference (MobileNet v2), 79% top-5 accuracy, verifiable in ~10s]] - degree 6, connects to 2 communities
-- [[Evaluation claim ImageNet-scale MobileNet v2 SNARKs up to 79.2% top-5 accuracy; 10x-1000x lower proving time than prior work (Zen, vCNN, pvCNN, zkCNN)]] - degree 3, connects to 1 community
-- [[Use of the SNARK-friendly Poseidon hash to commit to hidden inputs andor weights inside the circuit]] - degree 3, connects to 1 community
+- [[vSQL verifiable database system for arbitrary SQL queries over dynamic outsourced databases]] - degree 17, connects to 4 communities
+- [[Outsourced and streaming computation]] - degree 7, connects to 4 communities
+- [[Extractable verifiable polynomial-delegation protocol with knowledge soundness (vSQL Construction 2)]] - degree 10, connects to 3 communities
+- [[CMT protocol (Cormode-Mitzenmacher-Thaler interactive proof for layered arithmetic circuits)]] - degree 8, connects to 3 communities
+- [[Verifiable databases and analytics]] - degree 4, connects to 1 community

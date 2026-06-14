@@ -1,24 +1,24 @@
 ---
 type: community
-cohesion: 0.28
+cohesion: 0.25
 members: 9
 ---
 
 # Community 117
 
-**Cohesion:** 0.28 - loosely connected
+**Cohesion:** 0.25 - loosely connected
 **Members:** 9 nodes
 
 ## Members
-- [[EZKL (open-source ZKML toolkit, halo2ONNX)]] - document - proving-nothing.md
-- [[Evaluation VGG16 (15M params) proof 88.3s  341KB  59.3ms verify; 1264x faster prover than vCNN]] - paper - references/recursion/ch3/ref-70-zkcnn.pdf
-- [[Halo2 proving system]] - document - references/recursion/ch3/ref-72-ezkl-modulus-docs.md
-- [[Lagrange  DeepProve (ZK coprocessing, 700x ZKML claim)]] - document - proving-nothing.md
-- [[Sumcheck-based DNN proof systems (zkCNNLiu 2021, vCNNLee 2020, pvCNNWeng 2022, Thaler 2013) custom IPSNARK protocols tailored to convolutions, limited to MNISTCIFAR-10]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
-- [[ZEN (Feng et al. 23) ZKP-friendly quantization for neural networks (baseline)]] - paper - references/recursion/ch3/ref-70-zkcnn.pdf
-- [[ZKML (Zero-Knowledge Machine Learning)]] - document - proving-nothing.md
-- [[vCNN (Lee et al. 34) QAP + polynomial-QAP commit-and-prove for CNNs (baseline)]] - paper - references/recursion/ch3/ref-70-zkcnn.pdf
-- [[zkML inference proof with folding case study]] - document - recursion/recursion-outline.md
+- [[Beanstalk Flash Loan Attack ($182M, 2022)]] - document - proving-nothing.md
+- [[Fraud Proof System]] - document - references/ch08/ref-27-l2beat-stages.md
+- [[Governance Attack Surface]] - document - proving-nothing.md
+- [[L2BEAT Stages Framework for L2 Maturity]] - document - references/ch08/ref-27-l2beat-stages.md
+- [[L2Beat Stages Framework]] - document - wiki/sections/ch08-governance-the-achilles-heel.md
+- [[Maturity Assessment (Stage 0-1)]] - document - proving-nothing.md
+- [[Tornado Cash Governance Attack (2023)]] - document - proving-nothing.md
+- [[Trust Minimization (Not Trustless)]] - document - proving-nothing.md
+- [[Verifier Ossification  Immutability]] - document - proving-nothing.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -28,24 +28,20 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 4 edges to [[_COMMUNITY_Community 12]]
-- 4 edges to [[_COMMUNITY_Community 105]]
-- 3 edges to [[_COMMUNITY_Community 66]]
-- 2 edges to [[_COMMUNITY_Community 1]]
-- 2 edges to [[_COMMUNITY_Community 123]]
-- 1 edge to [[_COMMUNITY_Community 15]]
-- 1 edge to [[_COMMUNITY_Community 32]]
-- 1 edge to [[_COMMUNITY_Community 28]]
-- 1 edge to [[_COMMUNITY_Community 25]]
-- 1 edge to [[_COMMUNITY_Community 9]]
-- 1 edge to [[_COMMUNITY_Community 74]]
-- 1 edge to [[_COMMUNITY_Community 136]]
-- 1 edge to [[_COMMUNITY_Community 40]]
-- 1 edge to [[_COMMUNITY_Community 85]]
+- 5 edges to [[_COMMUNITY_Community 61]]
+- 4 edges to [[_COMMUNITY_Community 5]]
+- 2 edges to [[_COMMUNITY_Community 78]]
+- 1 edge to [[_COMMUNITY_Community 11]]
+- 1 edge to [[_COMMUNITY_Community 45]]
+- 1 edge to [[_COMMUNITY_Community 101]]
+- 1 edge to [[_COMMUNITY_Community 80]]
+- 1 edge to [[_COMMUNITY_Community 84]]
+- 1 edge to [[_COMMUNITY_Community 10]]
+- 1 edge to [[_COMMUNITY_Community 24]]
 
 ## Top bridge nodes
-- [[ZKML (Zero-Knowledge Machine Learning)]] - degree 24, connects to 13 communities
-- [[Lagrange  DeepProve (ZK coprocessing, 700x ZKML claim)]] - degree 3, connects to 1 community
-- [[Sumcheck-based DNN proof systems (zkCNNLiu 2021, vCNNLee 2020, pvCNNWeng 2022, Thaler 2013) custom IPSNARK protocols tailored to convolutions, limited to MNISTCIFAR-10]] - degree 3, connects to 1 community
-- [[vCNN (Lee et al. 34) QAP + polynomial-QAP commit-and-prove for CNNs (baseline)]] - degree 3, connects to 1 community
-- [[ZEN (Feng et al. 23) ZKP-friendly quantization for neural networks (baseline)]] - degree 3, connects to 1 community
+- [[L2BEAT Stages Framework for L2 Maturity]] - degree 9, connects to 7 communities
+- [[L2Beat Stages Framework]] - degree 9, connects to 3 communities
+- [[Governance Attack Surface]] - degree 7, connects to 2 communities
+- [[Trust Minimization (Not Trustless)]] - degree 3, connects to 2 communities
+- [[Verifier Ossification  Immutability]] - degree 3, connects to 1 community

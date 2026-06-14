@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 5"
+community: "Community 1"
 location: "Chapter 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_5
+  - community/Community_1
 ---
 
 # Quantum Shelf Life & Option Value
@@ -17,4 +17,4 @@ tags:
 - [[Midnight BLS12-381 Layer 1 Case Study (CompactZKIR, Pluto-Eris switch)]] - `conceptually_related_to` [EXTRACTED]
 - [[Shor's Algorithm  Quantum Threat]] - `explains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_5
+#graphify/document #graphify/EXTRACTED #community/Community_1

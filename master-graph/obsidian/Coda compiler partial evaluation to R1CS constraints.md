@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-35-coda.pdf"
 type: "paper"
-community: "Community 56"
+community: "Community 46"
 location: "§4, Fig.8"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_56
+  - community/Community_46
 ---
 
 # Coda compiler: partial evaluation to R1CS constraints
@@ -15,4 +15,4 @@ tags:
 - [[Arithmetic Circuit]] - `defines` [EXTRACTED]
 - [[Coda statically-typed functional DSL for ZK circuits]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_56
+#graphify/paper #graphify/EXTRACTED #community/Community_46

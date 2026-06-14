@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-17-nova.pdf"
 type: "paper"
-community: "Community 23"
+community: "Community 13"
 location: "§1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_23
+  - community/Community_13
 ---
 
 # Recursive Proof Composition
@@ -94,4 +94,4 @@ tags:
 - [[zkBridge trustless cross-chain bridge via succinct proofs of consensus  light-client state transitions]] - `introduces` [EXTRACTED]
 - [[zkEmail]] - `conceptually_related_to` [INFERRED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_23
+#graphify/paper #graphify/EXTRACTED #community/Community_13

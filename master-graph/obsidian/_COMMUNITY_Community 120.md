@@ -1,24 +1,23 @@
 ---
 type: community
-cohesion: 0.28
-members: 9
+cohesion: 0.32
+members: 8
 ---
 
 # Community 120
 
-**Cohesion:** 0.28 - loosely connected
-**Members:** 9 nodes
+**Cohesion:** 0.32 - loosely connected
+**Members:** 8 nodes
 
 ## Members
-- [[Cited prior work MiMC AGR+16 - algebraically simple cube S-box, minimal multiplicative complexity, inspiration for Poseidon]] - paper - references/recursion/ch1/ref-31-poseidon.pdf
-- [[Cited prior work sponge construction and its indifferentiability BDPA08]] - paper - references/recursion/ch1/ref-31-poseidon.pdf
-- [[Cited priorcompetitor work RescueVision (MARVELlous) AABS+19 - full S-box layers with x{1d}, primebinary STARK-friendly hashes]] - paper - references/recursion/ch1/ref-31-poseidon.pdf
-- [[Poseidon-pi internal permutation t-word SPN family over F_p, variant of HADESMiMC with fixed known key]] - paper - references/recursion/ch1/ref-31-poseidon.pdf
-- [[Poseidon A New Hash Function for Zero-Knowledge Proof Systems (Grassi et al., USENIX Security 2021, updated version)]] - paper - references/recursion/ch1/ref-31-poseidon.pdf
-- [[Power-map S-box S(x)=xalpha, alpha=3 smallest integer with gcd(alpha,p-1)=1 (typically x3 or x5)]] - paper - references/recursion/ch1/ref-31-poseidon.pdf
-- [[Security claims Poseidon-M is 2M-secure vs collisions and (second) preimages; Poseidon-pi is 2{min(M,m1,m2)}-secure vs CICO problem]] - paper - references/recursion/ch1/ref-31-poseidon.pdf
-- [[Sponge construction over the permutation rate r + capacity c; indifferentiable from random oracle up to 2{c2} calls]] - paper - references/recursion/ch1/ref-31-poseidon.pdf
-- [[Statistical-attack security =6 full rounds (RF) needed; cubex5 S-boxes are APN-like (DPmax 2p, 4p) so full rounds + wide trail resist differentiallineartruncatedreboundsubspace attacks]] - paper - references/recursion/ch1/ref-31-poseidon.pdf
+- [[Path One Hybrid STARK-to-SNARK Pipeline]] - document - proving-nothing.md
+- [[Seven-Layer Causal Web (DAG, 14 edges)]] - document - proving-nothing.md
+- [[Small Fields (BabyBear, Mersenne-31)]] - document - proving-nothing.md
+- [[StarkWare Stwo (Circle STARK)]] - document - proving-nothing.md
+- [[Succinct SP1 Hypercube]] - document - proving-nothing.md
+- [[The SNARK-or-STARK Binary Is Dead]] - document - proving-nothing.md
+- [[Three Paths, Not Two (Synthesis)]] - document - proving-nothing.md
+- [[Trustless vs Trust-Minimized]] - document - proving-nothing.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -28,14 +27,17 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 4 edges to [[_COMMUNITY_Community 114]]
-- 3 edges to [[_COMMUNITY_Community 13]]
-- 1 edge to [[_COMMUNITY_Community 37]]
-- 1 edge to [[_COMMUNITY_Community 116]]
+- 5 edges to [[_COMMUNITY_Community 0]]
+- 2 edges to [[_COMMUNITY_Community 24]]
+- 1 edge to [[_COMMUNITY_Community 41]]
+- 1 edge to [[_COMMUNITY_Community 17]]
+- 1 edge to [[_COMMUNITY_Community 10]]
+- 1 edge to [[_COMMUNITY_Community 1]]
+- 1 edge to [[_COMMUNITY_Community 13]]
 
 ## Top bridge nodes
-- [[Sponge construction over the permutation rate r + capacity c; indifferentiable from random oracle up to 2{c2} calls]] - degree 5, connects to 2 communities
-- [[Poseidon-pi internal permutation t-word SPN family over F_p, variant of HADESMiMC with fixed known key]] - degree 6, connects to 1 community
-- [[Poseidon A New Hash Function for Zero-Knowledge Proof Systems (Grassi et al., USENIX Security 2021, updated version)]] - degree 4, connects to 1 community
-- [[Power-map S-box S(x)=xalpha, alpha=3 smallest integer with gcd(alpha,p-1)=1 (typically x3 or x5)]] - degree 4, connects to 1 community
-- [[Security claims Poseidon-M is 2M-secure vs collisions and (second) preimages; Poseidon-pi is 2{min(M,m1,m2)}-secure vs CICO problem]] - degree 3, connects to 1 community
+- [[Path One Hybrid STARK-to-SNARK Pipeline]] - degree 7, connects to 3 communities
+- [[Three Paths, Not Two (Synthesis)]] - degree 7, connects to 3 communities
+- [[The SNARK-or-STARK Binary Is Dead]] - degree 3, connects to 2 communities
+- [[Seven-Layer Causal Web (DAG, 14 edges)]] - degree 3, connects to 1 community
+- [[Succinct SP1 Hypercube]] - degree 3, connects to 1 community

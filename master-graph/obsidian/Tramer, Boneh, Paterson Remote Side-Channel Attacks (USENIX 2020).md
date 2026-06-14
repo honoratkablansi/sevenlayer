@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 109"
+community: "Community 116"
 location: "Chapter 4"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_109
+  - community/Community_116
 ---
 
 # Tramer, Boneh, Paterson Remote Side-Channel Attacks (USENIX 2020)
@@ -16,4 +16,4 @@ tags:
 - [[Multi-Scalar Multiplication (MSM)]] - `references` [EXTRACTED]
 - [[Timing Side-Channel Attack]] - `introduces` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_109
+#graphify/document #graphify/EXTRACTED #community/Community_116

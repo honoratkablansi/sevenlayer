@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-06-groth16.pdf"
 type: "paper"
-community: "Community 22"
+community: "Community 39"
 location: "Thm 4, §4.2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_22
+  - community/Community_39
 ---
 
 # Theorem 4: Pairing-based Arguments Need Elements in Both G1 and G2
@@ -17,4 +17,4 @@ tags:
 - [[Relation Generator with Hard Decisional Problems]] - `assumes` [EXTRACTED]
 - [[Type III Asymmetric Bilinear Group]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_22
+#graphify/paper #graphify/EXTRACTED #community/Community_39

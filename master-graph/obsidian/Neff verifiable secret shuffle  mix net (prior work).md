@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-88-provisions.pdf"
 type: "paper"
-community: "Community 39"
+community: "Community 73"
 location: "§7; App D; ref [28]"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_39
+  - community/Community_73
 ---
 
 # Neff verifiable secret shuffle / mix net (prior work)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Proof of non-collusion extension (Neff-mix permutation, DDH)]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_39
+#graphify/paper #graphify/EXTRACTED #community/Community_73

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch01/ref-03-sok-snark-vulnerabilities.pdf"
 type: "paper"
-community: "Community 106"
+community: "Community 107"
 location: "§6"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_106
+  - community/Community_107
 ---
 
 # Integration-layer vulnerabilities (13 bugs: unchecked data, delegation, composition, complementary-logic)
@@ -15,4 +15,4 @@ tags:
 - [[Four-layer SNARK system model (Circuit, Frontend, Backend, Integration)]] - `defines` [EXTRACTED]
 - [[Semaphore verifier uint256 over snark field bug (integration, breaks completeness)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_106
+#graphify/paper #graphify/EXTRACTED #community/Community_107

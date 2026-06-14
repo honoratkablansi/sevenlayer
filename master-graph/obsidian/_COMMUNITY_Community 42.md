@@ -1,37 +1,39 @@
 ---
 type: community
-cohesion: 0.13
-members: 22
+cohesion: 0.11
+members: 24
 ---
 
 # Community 42
 
-**Cohesion:** 0.13 - loosely connected
-**Members:** 22 nodes
+**Cohesion:** 0.11 - loosely connected
+**Members:** 24 nodes
 
 ## Members
-- [[Algebraic Intermediate Representation (AIR)]] - paper - references/ch02/ref-08-stark.pdf
-- [[Algebraic Linking Interactive Oracle Proof (ALI)]] - paper - references/ch02/ref-08-stark.pdf
-- [[Algebraic Placement and Routing (APR) reduction]] - paper - references/ch02/ref-08-stark.pdf
-- [[Authentication Path  Communication Complexity minimization (coset & row subtrees)]] - paper - references/ch02/ref-08-stark.pdf
-- [[Binary AIR (BAIR) and Permuted AIR (PAIR)]] - paper - references/ch02/ref-08-stark.pdf
-- [[Collision-resistant hash function assumption (interactive STARK)]] - paper - references/ch02/ref-08-stark.pdf
-- [[DNA Profile Match (DPM) proof-of-concept benchmark]] - paper - references/ch02/ref-08-stark.pdf
-- [[Davies-Meyer hash over RijndaelAES (binary-field-friendly hash)]] - paper - references/ch02/ref-08-stark.pdf
-- [[Interactive Oracle Proof (IOP) model]] - paper - references/ch02/ref-08-stark.pdf
-- [[Maximal interpolation degree d_max reduction (n·c·d vs prior n·c·w·d + n·c·s)]] - paper - references/ch02/ref-08-stark.pdf
-- [[Merkle-tree commit-reveal (Kilian cut-and-choose)]] - paper - references/ch02/ref-08-stark.pdf
-- [[Prior ZK-STIK for NPNEXP (Ben-Sasson et al. refs 17,15)]] - paper - references/ch02/ref-08-stark.pdf
-- [[Reed-Solomon Proximity Testing (RPT  low-degree testing) problem]] - paper - references/ch02/ref-08-stark.pdf
-- [[Register-based encoding (one RS codeword per register)]] - paper - references/ch02/ref-08-stark.pdf
-- [[SCI  quasi-linear PCP STARK (Ben-Sasson et al. 2016, ref 13)]] - paper - references/ch02/ref-08-stark.pdf
-- [[Scalable Transparent IOP of Knowledge (STIK)]] - paper - references/ch02/ref-08-stark.pdf
-- [[Scalable, Transparent, and Post-Quantum Secure Computational Integrity]] - paper - references/ch02/ref-08-stark.pdf
-- [[Theorem 3.4 — ZK-STIK for space-bounded computations]] - paper - references/ch02/ref-08-stark.pdf
-- [[Theorem 3.5 — wi-STIK for NEXP]] - paper - references/ch02/ref-08-stark.pdf
-- [[Transparency  public randomness (no trusted setup, Arthur-Merlin)]] - paper - references/ch02/ref-08-stark.pdf
-- [[ZK-SNARK  Zerocash (Zcash, non-transparent QSP-based, ref 1853)]] - paper - references/ch02/ref-08-stark.pdf
-- [[Zero-Knowledge Scalable Transparent ARgument of Knowledge (ZK-STARK)]] - paper - references/ch02/ref-08-stark.pdf
+- [[Algebraic Hash Functions (Poseidon)]] - document - proving-nothing.md
+- [[Alternating PCD construction over 2-cycle (Cpcd,alpha  Cpcd,beta)]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
+- [[BCTV Succinct NIZK for a von Neumann architecture (USENIX Security 2014)]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
+- [[Bootstrappable encryption scheme that can evaluate its own (augmented) decryption circuit]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Bootstrapping (FHE)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Bootstrapping theorem any bootstrappable scheme yields leveled FHE family {E(d)} (Thm 1,3)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Collision-Resistant Hash Functions]] - document - proving-nothing.md
+- [[Grover's Algorithm]] - document - proving-nothing.md
+- [[KDM-security  circular security (self-loop of encrypted secret keys yields true FHE)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Merkle-tree memory checking for delegated RAM]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
+- [[Noise Growth in HE]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Nondeterministic pairing verification with affine coordinates]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
+- [[PCD-friendly 2-cycle (base field of one curve = group order of other)]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
+- [[Performance counterbalanced assumptions; gamma_subset=sqrt(n), n~=lambda2, breaking time ~2sqrt(n)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Preprocessing zk-SNARK for arithmetic circuits]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
+- [[RAM compliance predicate Pi_{M,H} (per-step verification)]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
+- [[Recrypt homomorphically evaluate decryption circuit on encrypted secret-key bits to refresh ciphertext error]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Scalable Zero Knowledge via Cycles of Elliptic Curves (BCTV14, CRYPTO 2014)]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
+- [[Scalable zk-SNARK (fully succinct + incrementally computable)]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
+- [[Scheme E3 squashed E2 with hidden sparse subset; bootstrappable and semantically secure (Thm 2, Thm 11)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Sparse Subset Sum Problem (SSSP)  SplitKey Distinguishing Problem second hardness assumption from tau in public key]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Squashing the decryption circuit SplitKeyExpandCT shift work to encrypter so Decrypt sums only sub-linear vectors (E3)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Subset-sum hash verifiable in =300 gates over native field]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
+- [[vnTinyRAM evaluation ~26.2sstep, VIPS clock rate]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -41,21 +43,27 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 4 edges to [[_COMMUNITY_Community 2]]
-- 3 edges to [[_COMMUNITY_Community 0]]
-- 3 edges to [[_COMMUNITY_Community 28]]
-- 2 edges to [[_COMMUNITY_Community 15]]
-- 2 edges to [[_COMMUNITY_Community 5]]
-- 2 edges to [[_COMMUNITY_Community 1]]
-- 2 edges to [[_COMMUNITY_Community 41]]
-- 1 edge to [[_COMMUNITY_Community 14]]
-- 1 edge to [[_COMMUNITY_Community 73]]
-- 1 edge to [[_COMMUNITY_Community 62]]
-- 1 edge to [[_COMMUNITY_Community 6]]
+- 5 edges to [[_COMMUNITY_Community 8]]
+- 4 edges to [[_COMMUNITY_Community 85]]
+- 3 edges to [[_COMMUNITY_Community 31]]
+- 3 edges to [[_COMMUNITY_Community 74]]
+- 1 edge to [[_COMMUNITY_Community 41]]
+- 1 edge to [[_COMMUNITY_Community 0]]
+- 1 edge to [[_COMMUNITY_Community 11]]
+- 1 edge to [[_COMMUNITY_Community 12]]
+- 1 edge to [[_COMMUNITY_Community 1]]
+- 1 edge to [[_COMMUNITY_Community 60]]
+- 1 edge to [[_COMMUNITY_Community 122]]
+- 1 edge to [[_COMMUNITY_Community 21]]
+- 1 edge to [[_COMMUNITY_Community 13]]
+- 1 edge to [[_COMMUNITY_Community 128]]
+- 1 edge to [[_COMMUNITY_Community 22]]
+- 1 edge to [[_COMMUNITY_Community 34]]
+- 1 edge to [[_COMMUNITY_Community 121]]
 
 ## Top bridge nodes
-- [[Scalable, Transparent, and Post-Quantum Secure Computational Integrity]] - degree 26, connects to 10 communities
-- [[Zero-Knowledge Scalable Transparent ARgument of Knowledge (ZK-STARK)]] - degree 7, connects to 2 communities
-- [[Scalable Transparent IOP of Knowledge (STIK)]] - degree 6, connects to 1 community
-- [[Algebraic Linking Interactive Oracle Proof (ALI)]] - degree 3, connects to 1 community
-- [[Collision-resistant hash function assumption (interactive STARK)]] - degree 2, connects to 1 community
+- [[Bootstrapping (FHE)]] - degree 15, connects to 6 communities
+- [[Collision-Resistant Hash Functions]] - degree 9, connects to 3 communities
+- [[Algebraic Hash Functions (Poseidon)]] - degree 4, connects to 3 communities
+- [[Preprocessing zk-SNARK for arithmetic circuits]] - degree 4, connects to 3 communities
+- [[Scalable Zero Knowledge via Cycles of Elliptic Curves (BCTV14, CRYPTO 2014)]] - degree 4, connects to 3 communities

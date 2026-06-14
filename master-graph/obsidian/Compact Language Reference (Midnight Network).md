@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch12/ref-39-compact-language-reference.md"
 type: "document"
-community: "Community 13"
+community: "Community 5"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_13
+  - community/Community_5
 ---
 
 # Compact Language Reference (Midnight Network)
@@ -18,4 +18,4 @@ tags:
 - [[ZKIR (Zero-Knowledge Intermediate Representation)]] - `references` [EXTRACTED]
 - [[ZKIR Intermediate Representation Reference (Midnight Network, stub)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_13
+#graphify/document #graphify/EXTRACTED #community/Community_5

@@ -1,33 +1,35 @@
 ---
 type: community
-cohesion: 0.27
-members: 18
+cohesion: 0.15
+members: 20
 ---
 
 # Community 62
 
-**Cohesion:** 0.27 - loosely connected
-**Members:** 18 nodes
+**Cohesion:** 0.15 - loosely connected
+**Members:** 20 nodes
 
 ## Members
-- [[Case Study Midnight's Sealed Certificate]] - document - wiki/sections/ch03-the-developer-s-actual-experience.md
-- [[Fiat-Shamir Vulnerabilities]] - document - wiki/sections/ch06-fiat-shamir-vulnerabilities.md
-- [[From Speed Race to Security Race]] - document - wiki/sections/ch06-from-speed-race-to-security-race.md
-- [[Gabizon, Williamson, Ciobotaru — PLONK (ePrint 2019953)]] - document - proving-nothing.md
-- [[Halo 2  UltraPlonk]] - document - proving-nothing.md
-- [[Layer 5 -- The Sealed Certificate]] - document - wiki/chapters/06-the-sealed-certificate.md
-- [[Layer 5 The Sealed Certificate (Proof System)]] - document - proving-nothing.md
-- [[Mangrove]] - document - wiki/sections/ch06-snark-recursion-vs-folding-the-full-picture.md
-- [[PLONK]] - document - proving-nothing.md
-- [[Relaxed Arithmetization]] - paper - references/snowball/recursion/ref-114-sangria-a-folding-scheme-for-plonk.pdf
-- [[SNARK Recursion vs. Folding The Full Picture]] - document - wiki/sections/ch06-snark-recursion-vs-folding-the-full-picture.md
-- [[Scroll]] - document - wiki/sections/ch13-zk-rollups-the-proving-grounds-production.md
-- [[Sealing the Certificate]] - document - wiki/sections/ch06-sealing-the-certificate.md
-- [[The Post-Quantum Horizon]] - document - wiki/sections/ch06-the-post-quantum-horizon.md
-- [[The Proof Core Triad (Field, Commitment, Arithmetization)]] - document - proving-nothing.md
-- [[The Proof Core Why Layers 4, 5, and 6 Are Inseparable]] - document - wiki/sections/ch06-the-proof-core-why-layers-4-5-and-6-are-inseparable.md
-- [[The Sealed Certificate (Chapter Closing)]] - document - wiki/sections/ch06-the-sealed-certificate.md
-- [[The Three Families]] - document - wiki/sections/ch06-the-three-families.md
+- [[ASDGP Auxiliary Structured Double Group Pairing assumption]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
+- [[ASSGP Auxiliary Structured Single Group Pairing assumption]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
+- [[Bootle et al. BCC+16 Bulletproofs split-and-collapse strategy]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
+- [[Bowe et al. BCG+20 Zexe recursive composition]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
+- [[Bunz et al. BMM+19 Proofs for Inner Pairing Products]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
+- [[Daza, Rafols, Zacharakis DRZ20 updateable IPP with log verifier]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
+- [[Doubly-homomorphic collapsing commitment]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
+- [[Filecoin Proof-of-Space application (BLS12-381, Rust bellperson)]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
+- [[Groth Gro16 On the size of pairing-based non-interactive arguments]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
+- [[Inner pairing product argument (IPP)]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
+- [[Lai, Malavolta, Ronge LMR19 succinct arguments for bilinear group arithmetic]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
+- [[Logarithmic-size proof and log-time verifier]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
+- [[MIPP Multi-exponentiation Inner Product argument]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
+- [[MT-IPP merged MIPP+TIPP argument]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
+- [[Non-recursive (pairing-based) aggregation vs recursive composition]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
+- [[Pair Group Commitment schemes (CMs single  CMd double group)]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
+- [[SNARK proof aggregation]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
+- [[SnarkPack Practical SNARK Aggregation]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
+- [[TIPP Target Inner Pairing Product argument]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
+- [[Theorem 3 MT-IPP completeness and knowledge soundness]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -37,45 +39,16 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 52 edges to [[_COMMUNITY_Community 0]]
-- 40 edges to [[_COMMUNITY_Community 1]]
-- 38 edges to [[_COMMUNITY_Community 2]]
-- 32 edges to [[_COMMUNITY_Community 5]]
-- 23 edges to [[_COMMUNITY_Community 13]]
-- 16 edges to [[_COMMUNITY_Community 14]]
-- 10 edges to [[_COMMUNITY_Community 37]]
-- 8 edges to [[_COMMUNITY_Community 17]]
-- 4 edges to [[_COMMUNITY_Community 32]]
-- 3 edges to [[_COMMUNITY_Community 23]]
-- 3 edges to [[_COMMUNITY_Community 83]]
-- 3 edges to [[_COMMUNITY_Community 89]]
-- 3 edges to [[_COMMUNITY_Community 12]]
-- 3 edges to [[_COMMUNITY_Community 59]]
-- 3 edges to [[_COMMUNITY_Community 123]]
-- 3 edges to [[_COMMUNITY_Community 19]]
-- 2 edges to [[_COMMUNITY_Community 74]]
+- 4 edges to [[_COMMUNITY_Community 17]]
+- 3 edges to [[_COMMUNITY_Community 102]]
 - 2 edges to [[_COMMUNITY_Community 8]]
-- 2 edges to [[_COMMUNITY_Community 9]]
-- 2 edges to [[_COMMUNITY_Community 28]]
-- 2 edges to [[_COMMUNITY_Community 16]]
-- 2 edges to [[_COMMUNITY_Community 66]]
-- 2 edges to [[_COMMUNITY_Community 25]]
-- 2 edges to [[_COMMUNITY_Community 22]]
-- 2 edges to [[_COMMUNITY_Community 40]]
-- 2 edges to [[_COMMUNITY_Community 88]]
-- 1 edge to [[_COMMUNITY_Community 36]]
-- 1 edge to [[_COMMUNITY_Community 57]]
-- 1 edge to [[_COMMUNITY_Community 90]]
-- 1 edge to [[_COMMUNITY_Community 61]]
-- 1 edge to [[_COMMUNITY_Community 126]]
-- 1 edge to [[_COMMUNITY_Community 4]]
-- 1 edge to [[_COMMUNITY_Community 42]]
-- 1 edge to [[_COMMUNITY_Community 10]]
-- 1 edge to [[_COMMUNITY_Community 34]]
+- 2 edges to [[_COMMUNITY_Community 11]]
+- 2 edges to [[_COMMUNITY_Community 68]]
+- 1 edge to [[_COMMUNITY_Community 41]]
 
 ## Top bridge nodes
-- [[PLONK]] - degree 78, connects to 22 communities
-- [[Layer 5 -- The Sealed Certificate]] - degree 69, connects to 20 communities
-- [[Halo 2  UltraPlonk]] - degree 39, connects to 15 communities
-- [[The Three Families]] - degree 27, connects to 8 communities
-- [[The Sealed Certificate (Chapter Closing)]] - degree 20, connects to 8 communities
+- [[SNARK proof aggregation]] - degree 6, connects to 4 communities
+- [[SnarkPack Practical SNARK Aggregation]] - degree 17, connects to 3 communities
+- [[Pair Group Commitment schemes (CMs single  CMd double group)]] - degree 7, connects to 1 community
+- [[MT-IPP merged MIPP+TIPP argument]] - degree 6, connects to 1 community
+- [[Inner pairing product argument (IPP)]] - degree 5, connects to 1 community

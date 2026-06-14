@@ -1,12 +1,12 @@
 ---
 source_file: "references/snowball/book/ref-081-libra-succinct-zero-knowledge-proofs-with-optim.pdf"
 type: "paper"
-community: "Community 96"
+community: "Community 3"
 location: "abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_96
+  - community/Community_3
 ---
 
 # Libra
@@ -18,4 +18,4 @@ tags:
 - [[Trusted Setup Ceremony]] - `uses` [EXTRACTED]
 - [[Zero-Knowledge Proof]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_96
+#graphify/paper #graphify/EXTRACTED #community/Community_3

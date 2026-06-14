@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch02-bn254-s-eroding-security-margin.md"
 type: "document"
-community: "Community 5"
+community: "Community 11"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_5
+  - community/Community_11
 ---
 
 # BN254's Eroding Security Margin
@@ -21,4 +21,4 @@ tags:
 - [[The Structured Reference String]] - `references` [EXTRACTED]
 - [[Trusted Setup Ceremony]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_5
+#graphify/document #graphify/EXTRACTED #community/Community_11

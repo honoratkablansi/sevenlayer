@@ -1,17 +1,19 @@
 ---
 source_file: "references/ch01/ref-02-gmr-knowledge-complexity.pdf"
 type: "paper"
-community: "Community 15"
+community: "Community 72"
 location: "abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_15
+  - community/Community_72
 ---
 
 # Computational Soundness
 
 ## Connections
+- [[Argument System interactive proof sound only against computationally bounded provers]] - `defines` [EXTRACTED]
+- [[Soundness]] - `special_case_of` [EXTRACTED]
 - [[Zero-Knowledge Proof]] - `relates_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_15
+#graphify/paper #graphify/EXTRACTED #community/Community_72

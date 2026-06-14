@@ -1,19 +1,6 @@
 {
-  "concept_zk-proof": "concept_zero-knowledge-proof",
-  "concept_zero-knowledge": "concept_zero-knowledge-proof",
-  "concept_ceremony": "concept_trusted-setup",
-  "concept_riscv": "concept_risc-v-isa",
-  "concept_elliptic-curve-cycles": "concept_curve-cycles",
-  "concept_cycles-of-curves": "concept_curve-cycles",
-  "concept_mlwe": "concept_module-lwe",
-  "concept_digital-wallet": "concept_eudi-wallet",
-  "concept_sis-assumption": "concept_sis",
-  "concept_circ-compiler": "concept_circ",
-  "concept_qft": "concept_quantum-fourier-transform",
-  "concept_anonymity": "concept_anonymity-set",
-  "concept_ajtai-commitment": "concept_ajtai",
-  "concept_groups-unknown-order": "concept_group-of-unknown-order",
+  "concept_sum-check-protocol": "concept_sumcheck",
   "concept_gkr-protocol": "concept_gkr",
-  "concept_lattice-cryptography": "concept_lattice",
-  "concept_quadratic-arithmetic-program": "concept_qap"
+  "concept_bilinear-pairing": "concept_pairing",
+  "concept_freivalds-protocol": "concept_freivalds"
 }

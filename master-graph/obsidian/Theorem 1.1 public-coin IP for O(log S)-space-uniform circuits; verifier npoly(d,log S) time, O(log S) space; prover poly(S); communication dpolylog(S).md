@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf"
 type: "paper"
-community: "Community 41"
+community: "Community 50"
 location: "Theorem 1.1, §1.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_41
+  - community/Community_50
 ---
 
 # Theorem 1.1: public-coin IP for O(log S)-space-uniform circuits; verifier n*poly(d,log S) time, O(log S) space; prover poly(S); communication d*polylog(S)
@@ -22,4 +22,4 @@ tags:
 - [[Theorem 1.61.7 communication-efficient (quasi-linear in witness) zero-knowledge IP for NP relations verifiable in NC, assuming one-way functions]] - `assumes` [EXTRACTED]
 - [[Utilizing uniformity verifier computes LDE of wiring predicate from short implicit circuit representation; prover proves predicate via NL sub-protocol]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_41
+#graphify/paper #graphify/EXTRACTED #community/Community_50

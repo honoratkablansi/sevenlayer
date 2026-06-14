@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-09-bulletproofs.pdf"
 type: "paper"
-community: "Community 102"
+community: "Community 99"
 location: "§1.1, §6.3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_102
+  - community/Community_99
 ---
 
 # Pinocchio Arithmetic Circuit Format
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Zero-Knowledge Proof for Arithmetic Circuits (Protocol 3)]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_102
+#graphify/paper #graphify/EXTRACTED #community/Community_99

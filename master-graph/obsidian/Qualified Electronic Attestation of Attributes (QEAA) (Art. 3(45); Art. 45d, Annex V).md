@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch13/ref-60-eidas-2-regulation.pdf"
 type: "paper"
-community: "Community 29"
+community: "Community 36"
 location: "Art. 3(45); Art. 45d; Annex V"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_29
+  - community/Community_36
 ---
 
 # Qualified Electronic Attestation of Attributes (QEAA) (Art. 3(45); Art. 45d, Annex V)
@@ -17,4 +17,4 @@ tags:
 - [[Issuance with complete certainty of identityattributes (Recital 74)]] - `assumes` [EXTRACTED]
 - [[Qualified Trust Service Provider  qualified trust services]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_29
+#graphify/paper #graphify/EXTRACTED #community/Community_36

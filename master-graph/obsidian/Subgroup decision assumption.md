@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-51-pairing-efficiency-curves.pdf"
 type: "paper"
-community: "Community 64"
+community: "Community 16"
 location: "§1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_64
+  - community/Community_16
 ---
 
 # Subgroup decision assumption
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Composite-Order Bilinear Groups]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_64
+#graphify/paper #graphify/EXTRACTED #community/Community_16

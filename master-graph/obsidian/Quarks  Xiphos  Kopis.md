@@ -1,12 +1,12 @@
 ---
 source_file: "references/snowball/recursion/ref-102-quarks-quadruple-efficient-transparent-zksnarks.pdf"
 type: "paper"
-community: "Community 36"
+community: "Community 12"
 location: "abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_36
+  - community/Community_12
 ---
 
 # Quarks / Xiphos / Kopis
@@ -17,4 +17,4 @@ tags:
 - [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `defines` [EXTRACTED]
 - [[Trusted Setup Ceremony]] - `improves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_36
+#graphify/paper #graphify/EXTRACTED #community/Community_12

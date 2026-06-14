@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/13-the-market-landscape.md"
 type: "document"
-community: "Community 12"
+community: "Community 10"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_12
+  - community/Community_10
 ---
 
 # The Market Landscape
@@ -52,4 +52,4 @@ tags:
 - [[eIDAS 2.0]] - `references` [EXTRACTED]
 - [[zkEVM  EVM-Compatible Proving]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_12
+#graphify/document #graphify/EXTRACTED #community/Community_10

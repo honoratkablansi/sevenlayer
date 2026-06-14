@@ -1,39 +1,41 @@
 ---
 type: community
-cohesion: 0.12
-members: 24
+cohesion: 0.10
+members: 26
 ---
 
 # Community 34
 
-**Cohesion:** 0.12 - loosely connected
-**Members:** 24 nodes
+**Cohesion:** 0.10 - loosely connected
+**Members:** 26 nodes
 
 ## Members
-- [[Approximate range proof RoK Pi_rg for ring vectors (Thm 3.1) via random projection + monomial lookup]] - paper - references/ch10/ref-56-symphony.pdf
-- [[Argument of Knowledge]] - paper - references/snowball/recursion/ref-110-algebraic-reductions-of-knowledge.pdf
-- [[Commit-and-Open Fiat-Shamir transform FSHPi_cm,Pi_rok (Thm 5.1) over compressed transcript]] - paper - references/ch10/ref-56-symphony.pdf
-- [[Commit-and-prove compiler from RoK to SNARK without FS in circuit (Construction 6.1, Thm 6.1)]] - paper - references/ch10/ref-56-symphony.pdf
-- [[Efficiency 200KB proof (PQ), prover dominated by witness commitment, O(loglog n) data passes, O(n) memory]] - paper - references/ch10/ref-56-symphony.pdf
-- [[Halo BGH19 (origin of accumulationfolding, cited prior work)]] - paper - references/ch10/ref-56-symphony.pdf
-- [[High-arity folding (fold many NP statements per step, no deep folding trees)]] - paper - references/ch10/ref-56-symphony.pdf
-- [[LaBRADOR BS23 (lattice argument, random projection, challenge set, cited prior work)]] - paper - references/ch10/ref-56-symphony.pdf
-- [[Lattice-based high-arity folding scheme Pi_fold (Thm 4.1) compressing l_np R1CS statements in one shot]] - paper - references/ch10/ref-56-symphony.pdf
-- [[LatticeFold BC24 (lattice folding & decomposition RoK, cited prior work)]] - paper - references/ch10/ref-56-symphony.pdf
-- [[LatticeFold+ BC25 (monomial embedding & exact range proof, cited prior work)]] - paper - references/ch10/ref-56-symphony.pdf
-- [[Monomial-embedding RoK Pi_mon (Lemma 3.1) reducing monomial check to linear statement]] - paper - references/ch10/ref-56-symphony.pdf
-- [[Neo NS25 (lattice SNARK; Hadamard sumcheck and single-instance encoding, cited prior work)]] - paper - references/ch10/ref-56-symphony.pdf
-- [[Plausibly post-quantum security from lattice MSIS hardness]] - paper - references/ch10/ref-56-symphony.pdf
-- [[Protostar BC23 (commit-and-open  accumulation, cited prior work)]] - paper - references/ch10/ref-56-symphony.pdf
-- [[Random projection for norm preservation (J in {0,+-1}, ell2-norm preserved mod q)]] - paper - references/ch10/ref-56-symphony.pdf
-- [[Reduction of Knowledge]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[RoK Pi_had reducing batched HadamardR1CS relation to linear relation (Prop 3.1)]] - paper - references/ch10/ref-56-symphony.pdf
-- [[Straightline extractability of commitment (enables tighter ROM reduction)]] - paper - references/ch10/ref-56-symphony.pdf
-- [[Symphony Scalable SNARKs in the Random Oracle Model from Lattice-Based High-Arity Folding]] - paper - references/ch10/ref-56-symphony.pdf
-- [[Symphony scalable SNARK in the ROM from high-arity folding]] - paper - references/ch10/ref-56-symphony.pdf
-- [[Tensor Reduction]] - paper - references/snowball/recursion/ref-110-algebraic-reductions-of-knowledge.pdf
-- [[Tensor-of-rings E = K (x) Rq enabling interleaved sumcheck and folding]] - paper - references/ch10/ref-56-symphony.pdf
-- [[Two-layer folding via splitting linear-statement RoK (§8), under stronger structured-MSIS]] - paper - references/ch10/ref-56-symphony.pdf
+- [[BCTV14 extra-parameter vulnerability (forge arbitrary proofs; Zcash counterfeiting flaw, Gabizon 2018)]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
+- [[Cited Bellare-Fuchsbauer-Scafuro subversion impossibility (BFS16)]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Cited Groth 2010 pairing-based zk-SNARK (Gro10b)]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Cited MPC CRS ceremonies BCG+15, BGG17, BGM17]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Impossibility updating non-monomial CRS reveals constituent monomials]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Knowledge-of-Exponent Assumption]] - paper - references/ch02/ref-06-groth16.pdf
+- [[Lemma 6 single adversarial update implies full updatable knowledge soundness]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Lemmas 1-2 subversion-secure = updatable-secure = trusted-secure]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Lemmas 4-5 trapdoor extraction for subvertible & updatable CRSs]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[MonoExtract  FinalMonoExtract monomial-extraction algorithm]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Multi-Party Computation Setup Ceremony]] - document - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Quadratic monomial-only universal CRS (multivariate X,Y,Z, j=7)]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Specializable universal CRS via untrusted Derive algorithm]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Subversion-resistant NIZK  subversion zero-knowledge]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Theorem 3 perfect subversion zero-knowledge of the construction]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Theorem 4 update knowledge soundness under q-MK and q-MC]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Theorem 5  Lemma 8 Pinocchio cannot be made updatable]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Three setup-oracle types trusted (T), updatable (U), subvertible (S)]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Trusted CRS setup with secret trapdoor]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Updatable & specializable QAP-based zk-SNARK construction]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Updatable CRS model (one honest updater suffices)]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Updatable CRS syntax Setup, Update, VerifyCRS algorithms]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Updatable and Universal Common Reference Strings with Applications to zk-SNARKs]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[X-security games COMP, X-ZK, X-SND, X-KSND for X in {T,U,S}]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[q-Monomial Computational (q-MC) assumption]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[q-Monomial Knowledge (q-MK) assumption]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -43,21 +45,19 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 8 edges to [[_COMMUNITY_Community 0]]
-- 5 edges to [[_COMMUNITY_Community 40]]
-- 4 edges to [[_COMMUNITY_Community 1]]
-- 3 edges to [[_COMMUNITY_Community 88]]
-- 2 edges to [[_COMMUNITY_Community 6]]
-- 1 edge to [[_COMMUNITY_Community 37]]
-- 1 edge to [[_COMMUNITY_Community 28]]
-- 1 edge to [[_COMMUNITY_Community 62]]
-- 1 edge to [[_COMMUNITY_Community 2]]
-- 1 edge to [[_COMMUNITY_Community 69]]
-- 1 edge to [[_COMMUNITY_Community 10]]
+- 5 edges to [[_COMMUNITY_Community 68]]
+- 4 edges to [[_COMMUNITY_Community 83]]
+- 4 edges to [[_COMMUNITY_Community 39]]
+- 4 edges to [[_COMMUNITY_Community 59]]
+- 3 edges to [[_COMMUNITY_Community 11]]
+- 3 edges to [[_COMMUNITY_Community 58]]
+- 1 edge to [[_COMMUNITY_Community 41]]
+- 1 edge to [[_COMMUNITY_Community 81]]
+- 1 edge to [[_COMMUNITY_Community 42]]
 
 ## Top bridge nodes
-- [[Symphony Scalable SNARKs in the Random Oracle Model from Lattice-Based High-Arity Folding]] - degree 22, connects to 8 communities
-- [[Reduction of Knowledge]] - degree 8, connects to 3 communities
-- [[Lattice-based high-arity folding scheme Pi_fold (Thm 4.1) compressing l_np R1CS statements in one shot]] - degree 9, connects to 2 communities
-- [[Tensor Reduction]] - degree 3, connects to 2 communities
-- [[Commit-and-Open Fiat-Shamir transform FSHPi_cm,Pi_rok (Thm 5.1) over compressed transcript]] - degree 5, connects to 1 community
+- [[Updatable and Universal Common Reference Strings with Applications to zk-SNARKs]] - degree 16, connects to 5 communities
+- [[Multi-Party Computation Setup Ceremony]] - degree 11, connects to 3 communities
+- [[Knowledge-of-Exponent Assumption]] - degree 4, connects to 2 communities
+- [[Updatable CRS model (one honest updater suffices)]] - degree 7, connects to 1 community
+- [[Updatable & specializable QAP-based zk-SNARK construction]] - degree 6, connects to 1 community

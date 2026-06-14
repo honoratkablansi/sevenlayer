@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-09-bulletproofs.pdf"
 type: "document"
-community: "Community 73"
+community: "Community 98"
 location: "Abstract"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_73
+  - community/Community_98
 ---
 
 # Range Proof
@@ -25,4 +25,4 @@ tags:
 - [[Proof of Solvency for Bitcoin exchanges]] - `uses` [EXTRACTED]
 - [[Provisions Proof of Solvency]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_73
+#graphify/document #graphify/EXTRACTED #community/Community_98

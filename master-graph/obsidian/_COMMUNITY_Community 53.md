@@ -1,35 +1,37 @@
 ---
 type: community
-cohesion: 0.14
-members: 20
+cohesion: 0.15
+members: 22
 ---
 
 # Community 53
 
-**Cohesion:** 0.14 - loosely connected
-**Members:** 20 nodes
+**Cohesion:** 0.15 - loosely connected
+**Members:** 22 nodes
 
 ## Members
-- [[Ben-Sasson et al. 2013 RAM-to-small-space reduction via Merkle hashing BSCGT13]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
-- [[Bitansky-Canetti-Chiesa-Tromer 2012 ECRH to SNARK and back BCCT12]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
-- [[Bitansky-Canetti-Chiesa-Tromer Recursive Composition and Bootstrapping for SNARKs and PCD (STOC 2013)]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
-- [[Boneh-Segev-Waters 2012 targeted malleability BSW12]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
-- [[Chiesa-Tromer 2010 Proof-Carrying Data  enforcing local properties CT10]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
-- [[Collision-resistant hash functions (CRH) assumption]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
-- [[Complexity-preserving SNARK (prover time tpoly(k), space spoly(k); no preprocessing)]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
-- [[Extractor (polynomial) size blowup under recursive extraction (forces O(1) depth)]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
-- [[Gentry 2009 FHE bootstrapping paradigm Gen09]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
-- [[Gentry-Wichs 2011 no SNARG via black-box reduction to falsifiable assumption GW11]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
-- [[SNARK bootstrapping (to complexity-preserving SNARK)]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
-- [[Succinctness]] - document - recursion/recursion-outline.md
-- [[The Succinctness Threshold]] - document - recursion/recursion-outline.md
-- [[The Verifier's Dilemma (unbounded sequences)]] - document - recursion/recursion-outline.md
-- [[Theorem 1 SNARK Recursive Composition (SNARK - PCD for O(1)-depth predicates)]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
-- [[Theorem 2 PCD Depth-Reduction (O(1)-depth PCD - poly-depth path PCD via wide Merkle proof trees)]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
-- [[Theorem 3 Locally-Efficient RAM Compliance (NP statement - poly-depth compliance predicate)]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
-- [[Theorem 4  9.1 Main bootstrapping theorem (any SNARK - complexity-preserving SNARK and PCD)]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
-- [[Valiant 2008 Incrementally-Verifiable Computation Val08]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
-- [[Valiant Incrementally Verifiable Computation (TCC 2008)]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
+- [[Barak et al. 3 impossibility of code obfuscation; obfuscating a PRF ensemble fails to securely instantiate the random oracle]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
+- [[Bellare & Rogaway 5 original formulation of the random oracle methodology]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
+- [[CGH separation technique feed the implementation's own codeseed back into the scheme via evasive relations; diagonalization over the enumeration of all poly-time ensembles to reverse quantifier order]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
+- [[Correlation intractability the property whose circular dependency the attack circumvents by feeding the circuit its own digest as witness]] - paper - references/recursion/ch1/ref-11-khovratovich-fiat-shamir-attacks.pdf
+- [[Definition 3.2 correlation-intractable ensemble (and weak variant over poly-time recognizable relations)]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
+- [[Dwork et al. 13 'magic functions' that make Fiat-Shamir work, related to correlation intractability and 3-round zero-knowledge]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
+- [[Evasive binary relation (Def 3.1) infeasible to find x with (x,O(x)) in R under a random oracle]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
+- [[Fiat & Shamir 14 identification-to-signature transformation (sound in ROM)]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
+- [[Goldreich, Goldwasser, Micali 19 pseudorandom function ensembles (shown not necessarily correlation-intractable)]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
+- [[Informal Theorem 1.2 signature and encryption schemes secure in ROM but with no secure implementation by any function ensemble (with explicit generic adversary)]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
+- [[Kilian 26 succinct interactive arguments, basis for Micali's CS-proof construction]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
+- [[Micali 27 non-interactive CS-proofs in the Random Oracle Model (Theorem 2.7)]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
+- [[Proposition 5.2 non-existence of restricted (length-bounded) correlation-intractable ensembles when seed length = input+output length]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
+- [[Provable security  reductionist methodology]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
+- [[Random Oracle Methodology (Bellare-Rogaway design heuristic)]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
+- [[Random Oracle instantiation failure schemes secure in ROM but insecure under any concrete implementation]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
+- [[The Random Oracle Methodology, Revisited (Canetti, Goldreich, Halevi, JACM 2004  STOC 1998)]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
+- [[Theorem 3.4 no correlation-intractable function ensembles exist (not even in the weak sense), via diagonal relation R_F = {(s, f_s(s))}]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
+- [[Theorem 4.4 a poly-time signature scheme, existentially unforgeable in ROM, but existentially forgeable (key-only) and totally breakable (chosen-message) under any function-ensemble implementation]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
+- [[Theorem 4.6 public-key encryption schemes secure (semantic  CCA) in ROM but insecure under any function-ensemble implementation; CCA attack reveals the decryption key]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
+- [[Universal ensemble U and universal relation R_U = {(x, u_x(x))}, enumerating all efficiently computable ensembles]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
+- [[Use of non-interactive CS-proofs (Micali) to collapse super-polynomial diagonalization checks into a polynomial-time signingverification, yielding a standard (poly-time) scheme]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -39,19 +41,13 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 5 edges to [[_COMMUNITY_Community 9]]
-- 5 edges to [[_COMMUNITY_Community 23]]
-- 3 edges to [[_COMMUNITY_Community 18]]
-- 2 edges to [[_COMMUNITY_Community 22]]
-- 2 edges to [[_COMMUNITY_Community 32]]
-- 2 edges to [[_COMMUNITY_Community 25]]
-- 2 edges to [[_COMMUNITY_Community 55]]
-- 1 edge to [[_COMMUNITY_Community 1]]
-- 1 edge to [[_COMMUNITY_Community 130]]
+- 4 edges to [[_COMMUNITY_Community 70]]
+- 3 edges to [[_COMMUNITY_Community 52]]
+- 1 edge to [[_COMMUNITY_Community 122]]
 
 ## Top bridge nodes
-- [[Bitansky-Canetti-Chiesa-Tromer Recursive Composition and Bootstrapping for SNARKs and PCD (STOC 2013)]] - degree 15, connects to 5 communities
-- [[Theorem 1 SNARK Recursive Composition (SNARK - PCD for O(1)-depth predicates)]] - degree 5, connects to 3 communities
-- [[Succinctness]] - degree 5, connects to 2 communities
-- [[The Succinctness Threshold]] - degree 3, connects to 2 communities
-- [[Valiant 2008 Incrementally-Verifiable Computation Val08]] - degree 3, connects to 2 communities
+- [[Correlation intractability the property whose circular dependency the attack circumvents by feeding the circuit its own digest as witness]] - degree 9, connects to 3 communities
+- [[The Random Oracle Methodology, Revisited (Canetti, Goldreich, Halevi, JACM 2004  STOC 1998)]] - degree 13, connects to 1 community
+- [[Random Oracle Methodology (Bellare-Rogaway design heuristic)]] - degree 4, connects to 1 community
+- [[Fiat & Shamir 14 identification-to-signature transformation (sound in ROM)]] - degree 3, connects to 1 community
+- [[Dwork et al. 13 'magic functions' that make Fiat-Shamir work, related to correlation intractability and 3-round zero-knowledge]] - degree 2, connects to 1 community

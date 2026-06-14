@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf"
 type: "paper"
-community: "Community 7"
+community: "Community 2"
 location: "§2, §9, §9.1 ([31])"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_7
+  - community/Community_2
 ---
 
 # Dwork & Naor, moderately hard pricing/client puzzles via modular square roots [31]
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Verifiable delay function (VDF)]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_7
+#graphify/paper #graphify/EXTRACTED #community/Community_2

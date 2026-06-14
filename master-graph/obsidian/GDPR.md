@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch09-the-regulatory-intersection.md"
 type: "document"
-community: "Community 4"
+community: "Community 21"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_4
+  - community/Community_21
 ---
 
 # GDPR
@@ -16,4 +16,4 @@ tags:
 - [[The Incomplete Stack]] - `conceptually_related_to` [EXTRACTED]
 - [[The Regulatory Intersection]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_4
+#graphify/document #graphify/EXTRACTED #community/Community_21

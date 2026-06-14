@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-21-zktree.pdf"
 type: "paper"
-community: "Community 3"
+community: "Community 87"
 location: "§3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_3
+  - community/Community_87
 ---
 
 # Leaf builder L_i(pi_i,{x_i},VD_i) -> upsilon_i,h_i,c_i
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Three zkTree proof types user proof, leaf proof, node proof]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_3
+#graphify/paper #graphify/EXTRACTED #community/Community_87

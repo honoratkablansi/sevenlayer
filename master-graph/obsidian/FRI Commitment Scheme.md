@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 2"
+community: "Community 0"
 location: "Chapter 5"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_2
+  - community/Community_0
 ---
 
 # FRI Commitment Scheme
@@ -28,6 +28,7 @@ tags:
 - [[DEEP-ALI and FRI]] - `references` [EXTRACTED]
 - [[Encoding the Performance]] - `references` [EXTRACTED]
 - [[FRACTAL verifier expressed as a constraint system; threshold for recursion (2M constraints checkable in 1.1M), using Poseidon hash and FRI constraint systems]] - `assumes` [EXTRACTED]
+- [[FRI Folding (Commitment and Query Phases)]] - `defines` [EXTRACTED]
 - [[Four Families of Commitment Schemes]] - `defines` [EXTRACTED]
 - [[Glossary of Key Terms]] - `defines` [EXTRACTED]
 - [[Goldilocks Field]] - `conceptually_related_to` [EXTRACTED]
@@ -39,8 +40,9 @@ tags:
 - [[Layer 5 -- The Sealed Certificate]] - `references` [EXTRACTED]
 - [[Layer 6 -- The Deep Craft]] - `references` [EXTRACTED]
 - [[Lookup Argument]] - `references` [EXTRACTED]
-- [[Low-Degree Testing]] - `defines` [EXTRACTED]
+- [[Low-Degree Testing]] - `uses` [EXTRACTED]
 - [[Maturity and Readiness]] - `references` [EXTRACTED]
+- [[Merkle Tree]] - `uses` [EXTRACTED]
 - [[Mersenne-31 Field (M31)]] - `conceptually_related_to` [EXTRACTED]
 - [[Midnight -- The Privacy Theater]] - `references` [EXTRACTED]
 - [[Midnight's BLS12-381 Stage]] - `conceptually_related_to` [EXTRACTED]
@@ -48,7 +50,7 @@ tags:
 - [[Option-Value Analysis]] - `conceptually_related_to` [EXTRACTED]
 - [[Path Two Pure Transparent]] - `conceptually_related_to` [EXTRACTED]
 - [[Plonky2]] - `references` [EXTRACTED]
-- [[Polynomial Commitment Scheme]] - `relates_to` [EXTRACTED]
+- [[Polynomial Commitment Scheme]] - `compiles_to` [EXTRACTED]
 - [[Proofs, Arguments, and Zero-Knowledge (Justin Thaler, survey textbook)]] - `explains` [EXTRACTED]
 - [[RISC-V Convergence]] - `conceptually_related_to` [EXTRACTED]
 - [[Reed-Solomon Code]] - `uses` [EXTRACTED]
@@ -87,4 +89,4 @@ tags:
 - [[Zero-Knowledge Proof]] - `uses` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_2
+#graphify/document #graphify/EXTRACTED #community/Community_0

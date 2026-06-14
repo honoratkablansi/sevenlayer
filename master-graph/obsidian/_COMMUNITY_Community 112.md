@@ -10,16 +10,16 @@ members: 10
 **Members:** 10 nodes
 
 ## Members
-- [[BCTV14 extra-parameter vulnerability (forge arbitrary proofs; Zcash counterfeiting flaw, Gabizon 2018)]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
-- [[Cited Bellare-Fuchsbauer-Scafuro subversion impossibility (BFS16)]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[Lemmas 1-2 subversion-secure = updatable-secure = trusted-secure]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[Subversion-resistant NIZK  subversion zero-knowledge]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[Theorem 3 perfect subversion zero-knowledge of the construction]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[Three setup-oracle types trusted (T), updatable (U), subvertible (S)]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[Trusted CRS setup with secret trapdoor]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[X-security games COMP, X-ZK, X-SND, X-KSND for X in {T,U,S}]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[Zcash Sapling ceremony (2018, two-phase MMORPG, Groth16, BLS12-381)]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
-- [[Zcash Sprout ceremony (2016, six participants, BCTV14, first major PoT ceremony)]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
+- [[FIPS 203 (ML-KEM Standard)]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
+- [[FIPS 204 (ML-DSA Standard)]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
+- [[FIPS 205 (SLH-DSA Standard)]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
+- [[Five Post-Quantum Security Categories (1-5; AES-128 to AES-256, SHA-256SHA3-384)]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
+- [[PQC signature replacements ML-DSA-446587, SLH-DSA, LMSHSS, XMSS]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
+- [[Quantitative (Strong) Church's thesis]] - paper - references/ch07/ref-24-shor.pdf
+- [[Quantum Computing]] - paper - references/ch07/ref-24-shor.pdf
+- [[SLH-DSA (Stateless Hash-Based Digital Signature Algorithm)]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
+- [[Symmetric crypto (AES, SHA-23) less quantum-vulnerable; 112-bit symmetric disallowed 2030]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
+- [[Transition to Post-Quantum Cryptography Standards (NIST IR 8547)]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -29,13 +29,16 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 4 edges to [[_COMMUNITY_Community 67]]
-- 2 edges to [[_COMMUNITY_Community 104]]
-- 1 edge to [[_COMMUNITY_Community 5]]
+- 3 edges to [[_COMMUNITY_Community 1]]
+- 3 edges to [[_COMMUNITY_Community 91]]
+- 3 edges to [[_COMMUNITY_Community 54]]
+- 2 edges to [[_COMMUNITY_Community 44]]
+- 2 edges to [[_COMMUNITY_Community 33]]
+- 1 edge to [[_COMMUNITY_Community 11]]
 
 ## Top bridge nodes
-- [[Zcash Sprout ceremony (2016, six participants, BCTV14, first major PoT ceremony)]] - degree 4, connects to 2 communities
-- [[Subversion-resistant NIZK  subversion zero-knowledge]] - degree 5, connects to 1 community
-- [[Three setup-oracle types trusted (T), updatable (U), subvertible (S)]] - degree 4, connects to 1 community
-- [[Zcash Sapling ceremony (2018, two-phase MMORPG, Groth16, BLS12-381)]] - degree 2, connects to 1 community
-- [[Cited Bellare-Fuchsbauer-Scafuro subversion impossibility (BFS16)]] - degree 2, connects to 1 community
+- [[Transition to Post-Quantum Cryptography Standards (NIST IR 8547)]] - degree 13, connects to 4 communities
+- [[Quantum Computing]] - degree 4, connects to 2 communities
+- [[Five Post-Quantum Security Categories (1-5; AES-128 to AES-256, SHA-256SHA3-384)]] - degree 3, connects to 2 communities
+- [[FIPS 203 (ML-KEM Standard)]] - degree 2, connects to 1 community
+- [[FIPS 204 (ML-DSA Standard)]] - degree 2, connects to 1 community

@@ -1,12 +1,12 @@
 ---
 source_file: "recursion/recursion-outline.md"
 type: "document"
-community: "Community 23"
+community: "Community 13"
 location: "Recursion Chapter 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_23
+  - community/Community_13
 ---
 
 # Plonky2
@@ -21,4 +21,4 @@ tags:
 - [[Recursive Proof Composition]] - `cites` [EXTRACTED]
 - [[zkTree zero-knowledge recursion tree with ZKP membership proofs]] - `assumes` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_23
+#graphify/document #graphify/EXTRACTED #community/Community_13

@@ -1,34 +1,36 @@
 ---
 type: community
 cohesion: 0.15
-members: 19
+members: 21
 ---
 
 # Community 57
 
 **Cohesion:** 0.15 - loosely connected
-**Members:** 19 nodes
+**Members:** 21 nodes
 
 ## Members
-- [[Batching of polynomial commitments & grand-product arguments (random linear combinations)]] - paper - references/ch10/ref-36-sonic.pdf
-- [[Bivariate constraint system a∘b=c plus Q linear constraints, embedded as constant term of t(X,Y)]] - paper - references/ch10/ref-36-sonic.pdf
-- [[Bounded Polynomial Extractability & Evaluation Binding (PCS properties)]] - paper - references/ch10/ref-36-sonic.pdf
-- [[Constant 256-byte proofs, ~0.7ms helped verification, BLS12-381 Rust implementation]] - paper - references/ch10/ref-36-sonic.pdf
-- [[Grand-Product Argument (gprodPgprodV, prod a_i = prod b_i)]] - paper - references/ch10/ref-36-sonic.pdf
-- [[Helped mode untrusted helper aggregates a batch of proofs (best practical efficiency)]] - paper - references/ch10/ref-36-sonic.pdf
-- [[Linear-size monomial SRS {g{xi}, g{alpha xi}, h{xi}, h{alpha xi}, e(g,halpha)}, galpha omitted]] - paper - references/ch10/ref-36-sonic.pdf
-- [[Maller et al. — Sonic Universal and Updatable SRS (CCS 2019)]] - document - proving-nothing.md
-- [[Mary Maller]] - document - references/ch10/ref-36-sonic.pdf
-- [[Modified KZG polynomial commitment for Laurent polynomials (bounded-degree, single-point hidden)]] - paper - references/ch10/ref-36-sonic.pdf
-- [[Polynomial Permutation Argument (DerivepermPpermV)]] - paper - references/ch10/ref-36-sonic.pdf
-- [[Signature of Correct Computation (scPscV) for s(z,y) of public s(X,Y)]] - paper - references/ch10/ref-36-sonic.pdf
-- [[Sonic zk-SNARK (universal & updatable linear-size SRS)]] - paper - references/ch10/ref-36-sonic.pdf
-- [[Sonic Zero-Knowledge SNARKs from Linear-Size Universal and Updatable Structured Reference Strings]] - paper - references/ch10/ref-36-sonic.pdf
-- [[Subversion Zero-Knowledge (adversary generates the SRS)]] - paper - references/ch10/ref-36-sonic.pdf
-- [[Theorem 6.1 Sonic satisfies subversion zero-knowledge]] - paper - references/ch10/ref-36-sonic.pdf
-- [[Unhelped (standalone) signature of correct computation — succinct verifier, higher overhead]] - paper - references/ch10/ref-36-sonic.pdf
-- [[Universal vs Circuit-Specific SRS]] - document - proving-nothing.md
-- [[Well-Formedness Argument (commitment to sum a_i Xi, no constant term)]] - paper - references/ch10/ref-36-sonic.pdf
+- [[Batch Opening (CreateWitnessBatchVerifyEvalBatch)]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Constant-Size Commitment & O(1) Opening Overhead]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Constant-Size Commitments to Polynomials and Their Applications]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Content Extraction Signature & Credential Construction]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Cryptographic Accumulator]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Feldman Verifiable Secret Sharing]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Nearly Zero-Knowledge Set  ZK-EDB]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[PolyCommitDL Scheme]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[PolyCommitPed Scheme]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Polynomial Divisibility Property ((x-i) divides phi(x)-phi(i))]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Theorem 3.2 PolyCommitDL Security]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Theorem 3.3 PolyCommitPed Security]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Theorem 3.4 Batch Opening Binding]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Theorem 3.5 Strong Correctness]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Verifiable Secret Sharing]] - document - references/ch02/ref-04-kzg-commitments.pdf
+- [[Zero-Knowledge Set (Micali et al.)]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[eVSS Efficient Feldman VSS]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[t-Bilinear Strong Diffie-Hellman (t-BSDH) Assumption]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[t-Diffie-Hellman Inversion (t-DHI) Assumption]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[t-Polynomial Diffie-Hellman (t-polyDH) Assumption]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[t-Strong Diffie-Hellman (t-SDH) Assumption]] - paper - references/ch02/ref-04-kzg-commitments.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -38,21 +40,19 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 8 edges to [[_COMMUNITY_Community 5]]
-- 6 edges to [[_COMMUNITY_Community 61]]
-- 5 edges to [[_COMMUNITY_Community 67]]
-- 3 edges to [[_COMMUNITY_Community 59]]
-- 2 edges to [[_COMMUNITY_Community 14]]
-- 2 edges to [[_COMMUNITY_Community 28]]
-- 2 edges to [[_COMMUNITY_Community 100]]
-- 2 edges to [[_COMMUNITY_Community 102]]
-- 1 edge to [[_COMMUNITY_Community 37]]
-- 1 edge to [[_COMMUNITY_Community 32]]
-- 1 edge to [[_COMMUNITY_Community 62]]
+- 7 edges to [[_COMMUNITY_Community 12]]
+- 2 edges to [[_COMMUNITY_Community 8]]
+- 2 edges to [[_COMMUNITY_Community 71]]
+- 2 edges to [[_COMMUNITY_Community 11]]
+- 2 edges to [[_COMMUNITY_Community 114]]
+- 1 edge to [[_COMMUNITY_Community 123]]
+- 1 edge to [[_COMMUNITY_Community 1]]
+- 1 edge to [[_COMMUNITY_Community 29]]
+- 1 edge to [[_COMMUNITY_Community 131]]
 
 ## Top bridge nodes
-- [[Universal vs Circuit-Specific SRS]] - degree 15, connects to 7 communities
-- [[Sonic zk-SNARK (universal & updatable linear-size SRS)]] - degree 14, connects to 5 communities
-- [[Sonic Zero-Knowledge SNARKs from Linear-Size Universal and Updatable Structured Reference Strings]] - degree 13, connects to 5 communities
-- [[Modified KZG polynomial commitment for Laurent polynomials (bounded-degree, single-point hidden)]] - degree 7, connects to 2 communities
-- [[Mary Maller]] - degree 4, connects to 2 communities
+- [[Constant-Size Commitments to Polynomials and Their Applications]] - degree 15, connects to 7 communities
+- [[PolyCommitDL Scheme]] - degree 12, connects to 4 communities
+- [[PolyCommitPed Scheme]] - degree 8, connects to 3 communities
+- [[Verifiable Secret Sharing]] - degree 4, connects to 1 community
+- [[Zero-Knowledge Set (Micali et al.)]] - degree 3, connects to 1 community
