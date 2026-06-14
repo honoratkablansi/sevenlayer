@@ -66,3 +66,23 @@ def test_slide_pdf_pages_one_entry_per_page(tmp_path):
     pages = m.slide_pdf_pages(pdf)
     assert len(pages) == 2
     assert all(isinstance(p, str) for p in pages)
+
+
+def test_cmd_fetch_writes_artifacts_and_manifest(tmp_path, monkeypatch):
+    monkeypatch.setattr(m, "MOOC_DIR", tmp_path / "references" / "mooc")
+    monkeypatch.setattr(m, "MOOC_MANIFEST", tmp_path / "references" / "mooc" / "manifest.json")
+    monkeypatch.setattr(m, "MOOC_WORK", tmp_path / ".mooc")
+    monkeypatch.setattr(m, "REPO", tmp_path)
+    monkeypatch.setattr(m, "fetch_transcript",
+                        lambda vid: [{"start": 0, "dur": 1, "text": "hello zk"}])
+    monkeypatch.setattr(m, "fetch_slides",
+                        lambda url, dest: (dest.write_bytes(b"%PDF-1.4 x"), "fetcher-chrome")[1])
+    rc = m.cmd_fetch("vid123", "http://x/s.pdf", "lecture01", "Intro")
+    assert rc == 0
+    paths = m.lecture_paths("lecture01")
+    assert paths["transcript_json"].exists()
+    assert "hello zk" in paths["transcript_txt"].read_text(encoding="utf-8")
+    entry = m.load_manifest()[0]
+    assert entry["label"] == "lecture01" and entry["video_id"] == "vid123"
+    job = m._load(m.MOOC_WORK / "lecture01-job.json")
+    assert job["source_file"] == "references/mooc/lecture01/slides.pdf"
