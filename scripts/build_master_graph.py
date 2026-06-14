@@ -663,11 +663,16 @@ def main() -> int:
     import argparse
     ap = argparse.ArgumentParser(description=__doc__)
     sub = ap.add_subparsers(dest="cmd", required=True)
-    for name in ("merge", "consolidate", "relabel", "concepts"):
+    for name in ("merge", "consolidate", "relabel", "concepts", "snowball-plan"):
         sub.add_parser(name)
+    sm = sub.add_parser("snowball-merge")
+    sm.add_argument("--finalize", action="store_true")
     args = ap.parse_args()
     dispatch = {"merge": cmd_merge, "consolidate": cmd_consolidate,
-                "relabel": cmd_relabel, "concepts": cmd_concepts}
+                "relabel": cmd_relabel, "concepts": cmd_concepts,
+                "snowball-plan": cmd_snowball_plan}
+    if args.cmd == "snowball-merge":
+        return cmd_snowball_merge(args.finalize)
     return dispatch[args.cmd]()
 
 
