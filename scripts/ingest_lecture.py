@@ -165,28 +165,35 @@ def cmd_fetch(video_id: str, slides_url: str, label: str, title: str) -> int:
 
 
 def cmd_merge(label: str) -> int:
-    import glob
+    # Cheap checks first, before any heavy graphify imports (so this stays
+    # responsive under any interpreter and gives clean errors).
+    frags = sorted(str(p) for p in MOOC_WORK.glob(f"frag-{label}-*.json"))
+    if not frags:
+        print(f"no fragments at {MOOC_WORK / ('frag-' + label + '-*.json')}")
+        return 1
+
     import sys as _sys
-    _sys.path.insert(0, str(REPO / "scripts"))
+    scripts_dir = str(REPO / "scripts")
+    if scripts_dir not in _sys.path:
+        _sys.path.insert(0, scripts_dir)
     import build_master_graph as bmg
     from deepen_pdfs import merge_fragment
     from networkx.readwrite import json_graph
 
+    if not bmg.MASTER_GRAPH.exists():
+        print(f"master graph not found at {bmg.MASTER_GRAPH} — run build_master_graph merge first")
+        return 1
     graph = bmg._load(bmg.MASTER_GRAPH)
     before = (len(graph["nodes"]), len(graph["links"]))
-    frags = sorted(glob.glob(str(MOOC_WORK / f"frag-{label}-*.json")))
-    if not frags:
-        print(f"no fragments at {MOOC_WORK / ('frag-' + label + '-*.json')}")
-        return 1
     merged = 0
     for f in frags:
-        blob = bmg._load(Path(f))
         try:
+            blob = bmg._load(Path(f))
             frag = bmg.load_fragment_blob(blob)
-        except ValueError as exc:
+            merge_fragment(graph, frag)
+        except (ValueError, AssertionError, OSError) as exc:
             print(f"  bad fragment {f}: {exc}, skipped")
             continue
-        merge_fragment(graph, frag)
         merged += 1
     if not merged:
         print("no valid fragments merged")
