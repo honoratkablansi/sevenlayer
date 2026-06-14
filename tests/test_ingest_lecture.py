@@ -32,3 +32,23 @@ def test_chunk_text_edge_cases():
 def test_chunk_text_clamps_zero_or_negative_n():
     assert m.chunk_text("a b c", 0) == ["a b c"]
     assert m.chunk_text("a b c", -5) == ["a b c"]
+
+
+def test_lecture_paths_layout():
+    p = m.lecture_paths("lecture01")
+    assert p["slides"].name == "slides.pdf"
+    assert p["transcript_txt"].name == "transcript.txt"
+    assert p["transcript_json"].name == "transcript.json"
+    assert p["dir"].name == "lecture01"
+    assert "references/mooc" in str(p["dir"]).replace("\\", "/")
+
+
+def test_manifest_upsert_is_idempotent_by_label(tmp_path, monkeypatch):
+    monkeypatch.setattr(m, "MOOC_DIR", tmp_path)
+    monkeypatch.setattr(m, "MOOC_MANIFEST", tmp_path / "manifest.json")
+    m.manifest_upsert({"label": "lecture01", "title": "A"})
+    m.manifest_upsert({"label": "lecture01", "title": "B"})  # replaces
+    m.manifest_upsert({"label": "lecture02", "title": "C"})
+    entries = m.load_manifest()
+    assert [e["label"] for e in entries] == ["lecture01", "lecture02"]
+    assert entries[0]["title"] == "B"

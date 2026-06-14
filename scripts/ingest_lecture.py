@@ -61,3 +61,26 @@ def chunk_text(text: str, n_chunks: int) -> list[str]:
     n_chunks = max(1, n_chunks)
     size = math.ceil(len(words) / n_chunks)
     return [" ".join(words[i:i + size]) for i in range(0, len(words), size)]
+
+
+def lecture_paths(label: str) -> dict:
+    d = MOOC_DIR / label
+    return {"dir": d, "transcript_json": d / "transcript.json",
+            "transcript_txt": d / "transcript.txt", "slides": d / "slides.pdf"}
+
+
+def load_manifest() -> list[dict]:
+    if MOOC_MANIFEST.exists():
+        return json.loads(MOOC_MANIFEST.read_text(encoding="utf-8"))
+    return []
+
+
+def manifest_upsert(entry: dict) -> list[dict]:
+    """Insert or replace (by 'label') a lecture entry; persist sorted by label."""
+    entries = [e for e in load_manifest() if e.get("label") != entry["label"]]
+    entries.append(entry)
+    entries.sort(key=lambda e: e["label"])
+    MOOC_DIR.mkdir(parents=True, exist_ok=True)
+    MOOC_MANIFEST.write_text(
+        json.dumps(entries, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    return entries
