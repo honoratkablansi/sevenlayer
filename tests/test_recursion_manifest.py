@@ -11,6 +11,16 @@ def load():
     return json.loads(MANIFEST.read_text(encoding="utf-8"))
 
 
+def curated():
+    """Hand-curated recursion bibliography (snowball discoveries excluded)."""
+    return [e for e in load() if "snowball_round" not in e]
+
+
+def snowball():
+    """Auto-discovered entries appended by the citation snowball."""
+    return [e for e in load() if "snowball_round" in e]
+
+
 def test_ids_unique_and_sorted():
     ids = [e["id"] for e in load()]
     assert ids == sorted(ids)
@@ -18,7 +28,7 @@ def test_ids_unique_and_sorted():
 
 
 def test_entry_shape():
-    for e in load():
+    for e in curated():
         assert e["type"] in VALID_TYPES, e
         assert e["citation"].strip()
         assert e["chapters"] and all(c in (1, 2, 3) for c in e["chapters"]), e
@@ -30,11 +40,24 @@ def test_entry_shape():
         expected = f"references/recursion/ch{e['chapters'][0]}/ref-{e['id']:02d}-{e['slug']}.{ext}"
         assert e["file"] == expected, f"ref {e['id']}: {e['file']} != {expected}"
         if e["type"] in ("paper", "web"):
-            assert e["url"].startswith("http"), e
+            assert e["url"].startswith("http")
+
+
+def test_snowball_entries_shape():
+    # Snowball entries use the looser references/snowball/recursion/ convention.
+    for e in snowball():
+        assert e["type"] in VALID_TYPES, e
+        assert e["citation"].strip()
+        assert e["snowball_round"] >= 0
+        assert e["file"].startswith("references/snowball/recursion/"), e["file"]
+        assert re.fullmatch(r"[a-z0-9]+(-[a-z0-9]+)*", e["slug"]), e["slug"]
+        if e["type"] in ("paper", "web") and "url" in e:
+            assert e["url"].startswith("http")
 
 
 def test_slugs_kebab_and_unique():
-    slugs = [e["slug"] for e in load()]
+    # Curated slugs are unique; snowball slugs are title-derived and may repeat.
+    slugs = [e["slug"] for e in curated()]
     assert len(slugs) == len(set(slugs))
     for s in slugs:
         assert re.fullmatch(r"[a-z0-9]+(-[a-z0-9]+)*", s), s
