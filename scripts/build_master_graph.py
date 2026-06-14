@@ -586,11 +586,14 @@ def load_fragment_blob(blob: dict) -> dict:
 def cmd_snowball_merge(finalize: bool) -> int:
     import sys as _sys
     _sys.path.insert(0, str(REPO / "scripts"))
-    from deepen_pdfs import merge_fragment
-    from networkx.readwrite import json_graph
 
     state = load_state()
     if not finalize:
+        # graphify/networkx are only needed to rebuild the graph after merging
+        # fragments; keep them out of the finalize path so --finalize can run under
+        # the (scrapling-only) venv interpreter that does the fetching.
+        from deepen_pdfs import merge_fragment
+        from networkx.readwrite import json_graph
         if not MASTER_GRAPH.exists():
             print(f"master graph not found at {MASTER_GRAPH} — run 'merge' first")
             return 1
