@@ -553,8 +553,10 @@ def _append_manifest_entries(kept: list[dict], state: dict) -> int:
             url = c.get("url") or ""
             slug = re.sub(r"[^a-z0-9]+", "-", (c["title"][:48]).lower()).strip("-")
             ext = "pdf" if url.endswith(".pdf") or "eprint.iacr.org" in url or "arxiv.org" in url else "md"
+            venue, year = c.get("venue"), c.get("year")
+            cite_suffix = f" ({venue}{' ' + str(year) if year else ''})" if venue else ""
             entry = {"id": next_id, "slug": slug,
-                     "citation": c["title"] + (f" ({c['venue']} {c['year']})" if c.get("venue") else ""),
+                     "citation": c["title"] + cite_suffix,
                      "chapters": c.get("_chapters", []),
                      "type": "paper" if ext == "pdf" else ("web" if url else "stub"),
                      "file": f"references/snowball/{name}/ref-{next_id:03d}-{slug}.{ext}",
@@ -589,8 +591,15 @@ def cmd_snowball_merge(finalize: bool) -> int:
 
     state = load_state()
     if not finalize:
+        if not MASTER_GRAPH.exists():
+            print(f"master graph not found at {MASTER_GRAPH} — run 'merge' first")
+            return 1
+        jobs_path = SNOWBALL / "jobs.json"
+        if not jobs_path.exists():
+            print(f"jobs.json not found at {jobs_path} — run snowball-plan first")
+            return 1
         graph = _load(MASTER_GRAPH)
-        jobs = _load(SNOWBALL / "jobs.json")
+        jobs = _load(jobs_path)
         cands_raw: list[dict] = []
         mined = []
         for j in jobs:
@@ -625,7 +634,18 @@ def cmd_snowball_merge(finalize: bool) -> int:
         print("Now run the relevance judge, then: snowball-merge --finalize")
         return 0
 
-    kept = _load(SNOWBALL / "judge-out.json").get("keep", [])
+    # finalize fetches via fetch_references.py, which needs scrapling — only the
+    # system Python has it. Bail clearly rather than silently fetching nothing.
+    import importlib.util
+    if importlib.util.find_spec("scrapling") is None:
+        print("scrapling not importable here — run snowball-merge --finalize with the "
+              "system Python (not the venv)")
+        return 1
+    judge_out = SNOWBALL / "judge-out.json"
+    if not judge_out.exists():
+        print(f"judge-out.json not found at {judge_out} — run the relevance judge first")
+        return 1
+    kept = _load(judge_out).get("keep", [])
     appended = _append_manifest_entries(kept, state)
     fetched = 0
     if appended:
