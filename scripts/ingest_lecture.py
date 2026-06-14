@@ -79,7 +79,7 @@ def manifest_upsert(entry: dict) -> list[dict]:
     """Insert or replace (by 'label') a lecture entry; persist sorted by label."""
     entries = [e for e in load_manifest() if e.get("label") != entry["label"]]
     entries.append(entry)
-    entries.sort(key=lambda e: e["label"])
+    entries.sort(key=lambda e: e.get("label", ""))
     MOOC_DIR.mkdir(parents=True, exist_ok=True)
     MOOC_MANIFEST.write_text(
         json.dumps(entries, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")

@@ -41,6 +41,7 @@ def test_lecture_paths_layout():
     assert p["transcript_json"].name == "transcript.json"
     assert p["dir"].name == "lecture01"
     assert "references/mooc" in str(p["dir"]).replace("\\", "/")
+    assert p["dir"] == m.MOOC_DIR / "lecture01"
 
 
 def test_manifest_upsert_is_idempotent_by_label(tmp_path, monkeypatch):
