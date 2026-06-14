@@ -162,3 +162,60 @@ def cmd_fetch(video_id: str, slides_url: str, label: str, title: str) -> int:
     print(f"fetched {label}: {len(segments)} segments ({nwords} words); "
           f"slides via {how} -> {paths['dir']}")
     return 0
+
+
+def cmd_merge(label: str) -> int:
+    import glob
+    import sys as _sys
+    _sys.path.insert(0, str(REPO / "scripts"))
+    import build_master_graph as bmg
+    from deepen_pdfs import merge_fragment
+    from networkx.readwrite import json_graph
+
+    graph = bmg._load(bmg.MASTER_GRAPH)
+    before = (len(graph["nodes"]), len(graph["links"]))
+    frags = sorted(glob.glob(str(MOOC_WORK / f"frag-{label}-*.json")))
+    if not frags:
+        print(f"no fragments at {MOOC_WORK / ('frag-' + label + '-*.json')}")
+        return 1
+    merged = 0
+    for f in frags:
+        blob = bmg._load(Path(f))
+        try:
+            frag = bmg.load_fragment_blob(blob)
+        except ValueError as exc:
+            print(f"  bad fragment {f}: {exc}, skipped")
+            continue
+        merge_fragment(graph, frag)
+        merged += 1
+    if not merged:
+        print("no valid fragments merged")
+        return 1
+    G = json_graph.node_link_graph(graph, edges="links")
+    stats = bmg._export(G, None, None, len(bmg.INPUTS))
+    bmg._dump_communities()
+    print(f"merged {merged} fragments: nodes {before[0]}->{stats['nodes']}, "
+          f"edges {before[1]}->{stats['edges']}, communities {stats['communities']}")
+    return 0
+
+
+def main() -> int:
+    import argparse
+    ap = argparse.ArgumentParser(description=__doc__)
+    sub = ap.add_subparsers(dest="cmd", required=True)
+    f = sub.add_parser("fetch")
+    f.add_argument("--video", required=True)
+    f.add_argument("--slides", required=True)
+    f.add_argument("--label", required=True)
+    f.add_argument("--title", default="")
+    mg = sub.add_parser("merge")
+    mg.add_argument("--label", required=True)
+    args = ap.parse_args()
+    if args.cmd == "fetch":
+        return cmd_fetch(args.video, args.slides, args.label, args.title)
+    return cmd_merge(args.label)
+
+
+if __name__ == "__main__":
+    import sys
+    sys.exit(main())
