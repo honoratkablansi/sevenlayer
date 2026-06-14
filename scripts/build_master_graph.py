@@ -497,6 +497,41 @@ def cmd_relabel() -> int:
     return 0
 
 
+def _all_papers() -> list[dict]:
+    """Every fetched paper across both manifests, as {id, manifest, file, chapters}."""
+    rows = []
+    for name, mpath in MANIFESTS.items():
+        if not mpath.exists():
+            continue
+        for e in _load(mpath):
+            if e.get("type") == "paper" and e.get("duplicate_of") is None:
+                f = REPO / e["file"]
+                if f.exists() and f.read_bytes()[:5] == b"%PDF-":
+                    rows.append({"id": e["id"], "manifest": name,
+                                 "file": e["file"], "chapters": e.get("chapters", [])})
+    return rows
+
+
+def cmd_snowball_plan() -> int:
+    state = load_state()
+    stop, why = should_stop(state)
+    if stop:
+        print(f"snowball stopped: {why} (round={state['round']}, fetched={state['total_fetched']})")
+        return 0
+    if state["round"] == 0 and not state["frontier"]:
+        frontier = _all_papers()
+    else:
+        fset = set(state["frontier"])
+        frontier = [p for p in _all_papers() if p["file"] in fset]
+    frontier = [p for p in frontier if p["file"] not in set(state["mined_files"])]
+    jobs = [{"file": p["file"], "manifest": p["manifest"], "chapters": p["chapters"],
+             "frag_out": f"master-graph/.snowball/frag-r{state['round']}-{i:03d}.json"}
+            for i, p in enumerate(frontier)]
+    _dump(SNOWBALL / "jobs.json", jobs)
+    print(f"round {state['round']}: {len(jobs)} papers to mine -> {SNOWBALL / 'jobs.json'}")
+    return 0
+
+
 def main() -> int:
     import argparse
     ap = argparse.ArgumentParser(description=__doc__)
