@@ -1090,5 +1090,913 @@
     "type": "stub",
     "file": "references/recursion/ch3/ref-93-ezkl-monolithic-benchmarks.md",
     "status": "stub"
+  },
+  {
+    "id": 94,
+    "slug": "algebraic-methods-for-interactive-proof-systems",
+    "citation": "Algebraic methods for interactive proof systems (Journal of the ACM 1992)",
+    "chapters": [
+      1
+    ],
+    "type": "stub",
+    "file": "references/snowball/recursion/ref-094-algebraic-methods-for-interactive-proof-systems.md",
+    "status": "stub",
+    "discovered_from": "references/ch02/ref-08-stark.pdf",
+    "snowball_round": 0
+  },
+  {
+    "id": 95,
+    "slug": "time-optimal-interactive-proofs-for-circuit-eval",
+    "citation": "Time-optimal interactive proofs for circuit evaluation",
+    "chapters": [
+      1
+    ],
+    "type": "paper",
+    "file": "references/snowball/recursion/ref-095-time-optimal-interactive-proofs-for-circuit-eval.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch02/ref-08-stark.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2013/351.pdf"
+  },
+  {
+    "id": 96,
+    "slug": "doubly-efficient-zksnarks-without-trusted-setup",
+    "citation": "Doubly-efficient zkSNARKs without trusted setup (IEEE S&P 2018 2018)",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "file": "references/snowball/recursion/ref-096-doubly-efficient-zksnarks-without-trusted-setup.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch03/ref-14-ccs-customizable-constraints.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2017/1132.pdf"
+  },
+  {
+    "id": 97,
+    "slug": "proving-the-correct-execution-of-concurrent-serv",
+    "citation": "Proving the correct execution of concurrent services in zero-knowledge (USENIX OSDI 2018 2018)",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "file": "references/snowball/recursion/ref-097-proving-the-correct-execution-of-concurrent-serv.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch03/ref-14-ccs-customizable-constraints.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2018/907.pdf"
+  },
+  {
+    "id": 98,
+    "slug": "practical-verified-computation-with-streaming-in",
+    "citation": "Practical verified computation with streaming interactive proofs (ITCS 2012)",
+    "chapters": [
+      1
+    ],
+    "type": "paper",
+    "file": "references/snowball/recursion/ref-098-practical-verified-computation-with-streaming-in.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch02/ref-08-stark.pdf",
+    "snowball_round": 0,
+    "url": "https://arxiv.org/pdf/1105.2003"
+  },
+  {
+    "id": 99,
+    "slug": "resolving-the-conflict-between-generality-and-pl",
+    "citation": "Resolving the conflict between generality and plausibility in verified computation (EuroSys 2013)",
+    "chapters": [
+      1
+    ],
+    "type": "paper",
+    "file": "references/snowball/recursion/ref-099-resolving-the-conflict-between-generality-and-pl.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch02/ref-08-stark.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2012/622.pdf"
+  },
+  {
+    "id": 100,
+    "slug": "a-note-on-efficient-zero-knowledge-proofs-and-ar",
+    "citation": "A note on efficient zero-knowledge proofs and arguments (extended abstract) (STOC 1992 1992)",
+    "chapters": [
+      2
+    ],
+    "type": "stub",
+    "file": "references/snowball/recursion/ref-100-a-note-on-efficient-zero-knowledge-proofs-and-ar.md",
+    "status": "stub",
+    "discovered_from": "references/ch03/ref-14-ccs-customizable-constraints.pdf",
+    "snowball_round": 0
+  },
+  {
+    "id": 101,
+    "slug": "groth16-on-the-size-of-pairing-based-non-intera",
+    "citation": "Groth16: On the Size of Pairing-based Non-interactive Arguments (EUROCRYPT 2016 2016)",
+    "chapters": [
+      1
+    ],
+    "type": "paper",
+    "file": "references/snowball/recursion/ref-101-groth16-on-the-size-of-pairing-based-non-intera.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch06/ref-20-latticefold.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2016/260.pdf"
+  },
+  {
+    "id": 102,
+    "slug": "quarks-quadruple-efficient-transparent-zksnarks",
+    "citation": "Quarks: Quadruple-efficient transparent zkSNARKs (ePrint 2020/1275 2020)",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "file": "references/snowball/recursion/ref-102-quarks-quadruple-efficient-transparent-zksnarks.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch03/ref-14-ccs-customizable-constraints.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2020/1275.pdf"
+  },
+  {
+    "id": 103,
+    "slug": "transparent-polynomial-delegation-and-its-applic",
+    "citation": "Transparent polynomial delegation and its applications to zero knowledge proof (IEEE S&P 2020 2020)",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "file": "references/snowball/recursion/ref-103-transparent-polynomial-delegation-and-its-applic.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch03/ref-14-ccs-customizable-constraints.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2019/1482.pdf"
+  },
+  {
+    "id": 104,
+    "slug": "vram-faster-verifiable-ram-with-program-indepen",
+    "citation": "vRAM: Faster verifiable RAM with program-independent preprocessing (IEEE S&P 2018 2018)",
+    "chapters": [
+      1
+    ],
+    "type": "stub",
+    "file": "references/snowball/recursion/ref-104-vram-faster-verifiable-ram-with-program-indepen.md",
+    "status": "stub",
+    "discovered_from": "references/ch03/ref-16-jolt.pdf",
+    "snowball_round": 0
+  },
+  {
+    "id": 105,
+    "slug": "brakedown-linear-time-and-field-agnostic-snarks",
+    "citation": "Brakedown: Linear-Time and Field-Agnostic SNARKs for R1CS (CRYPTO 2023 2023)",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "file": "references/snowball/recursion/ref-105-brakedown-linear-time-and-field-agnostic-snarks.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch02/ref-11-latticefold-plus.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2021/1043.pdf"
+  },
+  {
+    "id": 106,
+    "slug": "sonic-zero-knowledge-snarks-from-linear-size-un",
+    "citation": "Sonic: Zero-knowledge SNARKs from linear-size universal and updateable structured reference strings (ACM CCS 2019 2019)",
+    "chapters": [
+      1
+    ],
+    "type": "paper",
+    "file": "references/snowball/recursion/ref-106-sonic-zero-knowledge-snarks-from-linear-size-un.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch06/ref-18-hypernova.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2019/099.pdf"
+  },
+  {
+    "id": 107,
+    "slug": "taking-proof-based-verified-computation-a-few-st",
+    "citation": "Taking proof-based verified computation a few steps closer to practicality (USENIX Security 2012)",
+    "chapters": [
+      1
+    ],
+    "type": "paper",
+    "file": "references/snowball/recursion/ref-107-taking-proof-based-verified-computation-a-few-st.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch02/ref-08-stark.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2012/598.pdf"
+  },
+  {
+    "id": 108,
+    "slug": "worst-case-to-average-case-reductions-for-module",
+    "citation": "Worst-case to average-case reductions for module lattices (DCC 2015)",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "file": "references/snowball/recursion/ref-108-worst-case-to-average-case-reductions-for-module.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch02/ref-11-latticefold-plus.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2012/090.pdf"
+  },
+  {
+    "id": 109,
+    "slug": "a-hybrid-architecture-for-interactive-verifiable",
+    "citation": "A hybrid architecture for interactive verifiable computation (IEEE S&P 2013)",
+    "chapters": [
+      1
+    ],
+    "type": "stub",
+    "file": "references/snowball/recursion/ref-109-a-hybrid-architecture-for-interactive-verifiable.md",
+    "status": "stub",
+    "discovered_from": "references/ch02/ref-08-stark.pdf",
+    "snowball_round": 0
+  },
+  {
+    "id": 110,
+    "slug": "algebraic-reductions-of-knowledge",
+    "citation": "Algebraic Reductions of Knowledge (CRYPTO 2023 2023)",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "file": "references/snowball/recursion/ref-110-algebraic-reductions-of-knowledge.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch02/ref-11-latticefold-plus.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2022/009.pdf"
+  },
+  {
+    "id": 111,
+    "slug": "constant-round-interactive-proofs-for-delegating",
+    "citation": "Constant-round interactive proofs for delegating computation (STOC 2016)",
+    "chapters": [
+      1
+    ],
+    "type": "stub",
+    "file": "references/snowball/recursion/ref-111-constant-round-interactive-proofs-for-delegating.md",
+    "status": "stub",
+    "discovered_from": "references/ch02/ref-08-stark.pdf",
+    "snowball_round": 0
+  },
+  {
+    "id": 112,
+    "slug": "full-accounting-for-verifiable-outsourcing",
+    "citation": "Full accounting for verifiable outsourcing (ACM CCS 2017 2017)",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "file": "references/snowball/recursion/ref-112-full-accounting-for-verifiable-outsourcing.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch03/ref-14-ccs-customizable-constraints.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2017/242.pdf"
+  },
+  {
+    "id": 113,
+    "slug": "random-oracles-are-practical-a-paradigm-for-des",
+    "citation": "Random oracles are practical: A paradigm for designing efficient protocols (ACM CCS 1993)",
+    "chapters": [
+      1
+    ],
+    "type": "stub",
+    "file": "references/snowball/recursion/ref-113-random-oracles-are-practical-a-paradigm-for-des.md",
+    "status": "stub",
+    "discovered_from": "references/ch02/ref-08-stark.pdf",
+    "snowball_round": 0
+  },
+  {
+    "id": 114,
+    "slug": "sangria-a-folding-scheme-for-plonk",
+    "citation": "Sangria: a folding scheme for PLONK",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "file": "references/snowball/recursion/ref-114-sangria-a-folding-scheme-for-plonk.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch02/ref-11-latticefold-plus.pdf",
+    "snowball_round": 0,
+    "url": "https://raw.githubusercontent.com/geometryresearch/technical_notes/main/sangria_folding_plonk.pdf"
+  },
+  {
+    "id": 115,
+    "slug": "sumcheck-arguments-and-their-applications",
+    "citation": "Sumcheck Arguments and Their Applications (CRYPTO 2021 2021)",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "file": "references/snowball/recursion/ref-115-sumcheck-arguments-and-their-applications.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch02/ref-11-latticefold-plus.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2021/333.pdf"
+  },
+  {
+    "id": 116,
+    "slug": "a-survey-of-two-verifiable-delay-functions",
+    "citation": "A survey of two verifiable delay functions (ePrint 2018/712 2018)",
+    "chapters": [
+      1
+    ],
+    "type": "paper",
+    "file": "references/snowball/recursion/ref-116-a-survey-of-two-verifiable-delay-functions.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch06/ref-17-nova.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2018/712.pdf"
+  },
+  {
+    "id": 117,
+    "slug": "checking-computations-in-polylogarithmic-time",
+    "citation": "Checking computations in polylogarithmic time (STOC 1991)",
+    "chapters": [
+      1
+    ],
+    "type": "stub",
+    "file": "references/snowball/recursion/ref-117-checking-computations-in-polylogarithmic-time.md",
+    "status": "stub",
+    "discovered_from": "references/ch02/ref-08-stark.pdf",
+    "snowball_round": 0
+  },
+  {
+    "id": 118,
+    "slug": "fast-reductions-from-rams-to-delegatable-succinc",
+    "citation": "Fast reductions from RAMs to delegatable succinct constraint satisfaction problems (ITCS 2013)",
+    "chapters": [
+      1
+    ],
+    "type": "paper",
+    "file": "references/snowball/recursion/ref-118-fast-reductions-from-rams-to-delegatable-succinc.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch02/ref-08-stark.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2012/071.pdf"
+  },
+  {
+    "id": 119,
+    "slug": "generalized-compact-knapsacks-are-collision-resi",
+    "citation": "Generalized Compact Knapsacks Are Collision Resistant (ICALP 2006 2006)",
+    "chapters": [
+      2
+    ],
+    "type": "stub",
+    "file": "references/snowball/recursion/ref-119-generalized-compact-knapsacks-are-collision-resi.md",
+    "status": "stub",
+    "discovered_from": "references/ch02/ref-11-latticefold-plus.pdf",
+    "snowball_round": 0
+  },
+  {
+    "id": 120,
+    "slug": "non-interactive-verifiable-computing-outsourcin",
+    "citation": "Non-interactive verifiable computing: Outsourcing computation to untrusted workers (CRYPTO 2010)",
+    "chapters": [
+      1
+    ],
+    "type": "paper",
+    "file": "references/snowball/recursion/ref-120-non-interactive-verifiable-computing-outsourcin.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch02/ref-08-stark.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2009/547.pdf"
+  },
+  {
+    "id": 121,
+    "slug": "replicated-state-machines-without-replicated-exe",
+    "citation": "Replicated state machines without replicated execution (IEEE S&P 2020 2020)",
+    "chapters": [
+      1
+    ],
+    "type": "paper",
+    "file": "references/snowball/recursion/ref-121-replicated-state-machines-without-replicated-exe.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch06/ref-17-nova.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2020/195.pdf"
+  },
+  {
+    "id": 122,
+    "slug": "arc-accumulation-for-reed-solomon-codes",
+    "citation": "Arc: Accumulation for Reed-Solomon Codes",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "file": "references/snowball/recursion/ref-122-arc-accumulation-for-reed-solomon-codes.pdf",
+    "status": "failed",
+    "discovered_from": "references/ch02/ref-11-latticefold-plus.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2024/1731"
+  },
+  {
+    "id": 123,
+    "slug": "efficient-arguments-without-short-pcps",
+    "citation": "Efficient arguments without short PCPs (CCC 2007)",
+    "chapters": [
+      1
+    ],
+    "type": "stub",
+    "file": "references/snowball/recursion/ref-123-efficient-arguments-without-short-pcps.md",
+    "status": "stub",
+    "discovered_from": "references/ch02/ref-08-stark.pdf",
+    "snowball_round": 0
+  },
+  {
+    "id": 124,
+    "slug": "efficient-collision-resistant-hashing-from-worst",
+    "citation": "Efficient Collision-Resistant Hashing from Worst-Case Assumptions on Cyclic Lattices (TCC 2006 2006)",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "file": "references/snowball/recursion/ref-124-efficient-collision-resistant-hashing-from-worst.pdf",
+    "status": "failed",
+    "discovered_from": "references/ch02/ref-11-latticefold-plus.pdf",
+    "snowball_round": 0,
+    "url": "https://web.eecs.umich.edu/~cpeikert/pubs/cyclic-crh.pdf"
+  },
+  {
+    "id": 125,
+    "slug": "ethstark-documentation",
+    "citation": "ethSTARK Documentation (IACR ePrint 2021/582 2021)",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "file": "references/snowball/recursion/ref-125-ethstark-documentation.pdf",
+    "status": "failed",
+    "discovered_from": "references/ch03/ref-14-ccs-customizable-constraints.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2021/582"
+  },
+  {
+    "id": 126,
+    "slug": "folding-schemes-with-selective-verification",
+    "citation": "Folding Schemes with Selective Verification",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "file": "references/snowball/recursion/ref-126-folding-schemes-with-selective-verification.pdf",
+    "status": "failed",
+    "discovered_from": "references/ch02/ref-11-latticefold-plus.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2022/1576"
+  },
+  {
+    "id": 127,
+    "slug": "generating-hard-instances-of-lattice-problems-e",
+    "citation": "Generating Hard Instances of Lattice Problems (Extended Abstract) (28th ACM STOC 1996)",
+    "chapters": [
+      2
+    ],
+    "type": "stub",
+    "file": "references/snowball/recursion/ref-127-generating-hard-instances-of-lattice-problems-e.md",
+    "status": "stub",
+    "discovered_from": "references/ch02/ref-11-latticefold-plus.pdf",
+    "snowball_round": 0
+  },
+  {
+    "id": 128,
+    "slug": "making-argument-systems-for-outsourced-computati",
+    "citation": "Making argument systems for outsourced computation practical (sometimes) (NDSS 2012)",
+    "chapters": [
+      1
+    ],
+    "type": "stub",
+    "file": "references/snowball/recursion/ref-128-making-argument-systems-for-outsourced-computati.md",
+    "status": "stub",
+    "discovered_from": "references/ch02/ref-08-stark.pdf",
+    "snowball_round": 0
+  },
+  {
+    "id": 129,
+    "slug": "mirage-succinct-arguments-for-randomized-algori",
+    "citation": "MIRAGE: Succinct Arguments for Randomized Algorithms with Applications to Universal zk-SNARKs (USENIX Security 2020 2020)",
+    "chapters": [
+      1
+    ],
+    "type": "paper",
+    "file": "references/snowball/recursion/ref-129-mirage-succinct-arguments-for-randomized-algori.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch06/ref-18-hypernova.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2020/278.pdf"
+  },
+  {
+    "id": 130,
+    "slug": "recursive-proof-composition-from-accumulation-sc",
+    "citation": "Recursive Proof Composition from Accumulation Schemes (TCC 2020 2020)",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "file": "references/snowball/recursion/ref-130-recursive-proof-composition-from-accumulation-sc.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch02/ref-11-latticefold-plus.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2020/499.pdf"
+  },
+  {
+    "id": 131,
+    "slug": "short-invertible-elements-in-partially-splittin",
+    "citation": "Short, Invertible Elements in Partially Splitting Cyclotomic Rings and Applications to Lattice-Based Zero-Knowledge Proofs (EUROCRYPT 2018 2018)",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "file": "references/snowball/recursion/ref-131-short-invertible-elements-in-partially-splittin.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch02/ref-11-latticefold-plus.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2017/523.pdf"
+  },
+  {
+    "id": 132,
+    "slug": "using-zk-proofs-to-fight-disinformation",
+    "citation": "Using ZK Proofs to Fight Disinformation",
+    "chapters": [
+      2
+    ],
+    "type": "stub",
+    "file": "references/snowball/recursion/ref-132-using-zk-proofs-to-fight-disinformation.md",
+    "status": "stub",
+    "discovered_from": "references/ch02/ref-11-latticefold-plus.pdf",
+    "snowball_round": 0
+  },
+  {
+    "id": 133,
+    "slug": "a-non-pcp-approach-to-succinct-quantum-safe-zero",
+    "citation": "A Non-PCP Approach to Succinct Quantum-Safe Zero-Knowledge (CRYPTO 2020 2020)",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "file": "references/snowball/recursion/ref-133-a-non-pcp-approach-to-succinct-quantum-safe-zero.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch02/ref-11-latticefold-plus.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2020/737.pdf"
+  },
+  {
+    "id": 134,
+    "slug": "interactive-proofs-of-proximity-delegating-comp",
+    "citation": "Interactive proofs of proximity: delegating computation in sublinear time (STOC 2013)",
+    "chapters": [
+      1
+    ],
+    "type": "stub",
+    "file": "references/snowball/recursion/ref-134-interactive-proofs-of-proximity-delegating-comp.md",
+    "status": "stub",
+    "discovered_from": "references/ch02/ref-08-stark.pdf",
+    "snowball_round": 0
+  },
+  {
+    "id": 135,
+    "slug": "labrador-compact-proofs-for-r1cs-from-module-si",
+    "citation": "LaBRADOR: Compact Proofs for R1CS from Module-SIS (CRYPTO 2023 2023)",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "file": "references/snowball/recursion/ref-135-labrador-compact-proofs-for-r1cs-from-module-si.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch02/ref-11-latticefold-plus.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2022/1341.pdf"
+  },
+  {
+    "id": 136,
+    "slug": "lattice-based-polynomial-commitments-towards-as",
+    "citation": "Lattice-Based Polynomial Commitments: Towards Asymptotic and Concrete Efficiency (Journal of Cryptology 2024)",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "file": "references/snowball/recursion/ref-136-lattice-based-polynomial-commitments-towards-as.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch02/ref-11-latticefold-plus.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2023/846.pdf"
+  },
+  {
+    "id": 137,
+    "slug": "lattice-based-succinct-arguments-for-np-with-pol",
+    "citation": "Lattice-Based Succinct Arguments for NP with Polylogarithmic-Time Verification (CRYPTO 2023 2023)",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "file": "references/snowball/recursion/ref-137-lattice-based-succinct-arguments-for-np-with-pol.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch02/ref-11-latticefold-plus.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2023/930.pdf"
+  },
+  {
+    "id": 138,
+    "slug": "lattice-based-zero-knowledge-proofs-and-applicat",
+    "citation": "Lattice-Based Zero-Knowledge Proofs and Applications: Shorter, Simpler, and More General (CRYPTO 2022 2022)",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "file": "references/snowball/recursion/ref-138-lattice-based-zero-knowledge-proofs-and-applicat.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch02/ref-11-latticefold-plus.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2022/284.pdf"
+  },
+  {
+    "id": 139,
+    "slug": "linear-time-zero-knowledge-proofs-for-arithmetic",
+    "citation": "Linear-time zero-knowledge proofs for arithmetic circuit satisfiability (ePrint 2021/030 2021)",
+    "chapters": [
+      1
+    ],
+    "type": "paper",
+    "file": "references/snowball/recursion/ref-139-linear-time-zero-knowledge-proofs-for-arithmetic.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch06/ref-17-nova.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2021/030.pdf"
+  },
+  {
+    "id": 140,
+    "slug": "mangrove-a-scalable-framework-for-folding-based",
+    "citation": "Mangrove: A Scalable Framework for Folding-Based SNARKs (CRYPTO 2024 2024)",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "file": "references/snowball/recursion/ref-140-mangrove-a-scalable-framework-for-folding-based.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch02/ref-11-latticefold-plus.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2024/416.pdf"
+  },
+  {
+    "id": 141,
+    "slug": "mina-cryptocurrency",
+    "citation": "Mina cryptocurrency",
+    "chapters": [
+      1
+    ],
+    "type": "web",
+    "file": "references/snowball/recursion/ref-141-mina-cryptocurrency.md",
+    "status": "ok",
+    "discovered_from": "references/ch06/ref-17-nova.pdf",
+    "snowball_round": 0,
+    "url": "https://minaprotocol.com"
+  },
+  {
+    "id": 142,
+    "slug": "multivariate-lookups-based-on-logarithmic-deriva",
+    "citation": "Multivariate lookups based on logarithmic derivatives (ePrint 2022/1530 2022)",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "file": "references/snowball/recursion/ref-142-multivariate-lookups-based-on-logarithmic-deriva.pdf",
+    "status": "failed",
+    "discovered_from": "references/ch06/ref-19-protostar.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2022/1530"
+  },
+  {
+    "id": 143,
+    "slug": "neo-lattice-based-folding-scheme-for-ccs-over-s",
+    "citation": "Neo: Lattice-based folding scheme for CCS over small fields and pay-per-bit commitments",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "file": "references/snowball/recursion/ref-143-neo-lattice-based-folding-scheme-for-ccs-over-s.pdf",
+    "status": "failed",
+    "discovered_from": "references/ch02/ref-11-latticefold-plus.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2025/294"
+  },
+  {
+    "id": 144,
+    "slug": "plookup-a-simplified-polynomial-protocol-for-lo",
+    "citation": "plookup: A simplified polynomial protocol for lookup tables (ePrint 2020/315 2020)",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "file": "references/snowball/recursion/ref-144-plookup-a-simplified-polynomial-protocol-for-lo.pdf",
+    "status": "failed",
+    "discovered_from": "references/ch06/ref-19-protostar.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2020/315"
+  },
+  {
+    "id": 145,
+    "slug": "practical-product-proofs-for-lattice-commitments",
+    "citation": "Practical Product Proofs for Lattice Commitments (CRYPTO 2020 2020)",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "file": "references/snowball/recursion/ref-145-practical-product-proofs-for-lattice-commitments.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch02/ref-11-latticefold-plus.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2020/517.pdf"
+  },
+  {
+    "id": 146,
+    "slug": "snarky-signatures-minimal-signatures-of-knowled",
+    "citation": "Snarky signatures: Minimal signatures of knowledge from simulation-extractable SNARKs (CRYPTO 2017)",
+    "chapters": [
+      1
+    ],
+    "type": "paper",
+    "file": "references/snowball/recursion/ref-146-snarky-signatures-minimal-signatures-of-knowled.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch02/ref-08-stark.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2017/540.pdf"
+  },
+  {
+    "id": 147,
+    "slug": "universal-arguments-and-their-applications",
+    "citation": "Universal arguments and their applications (SIAM Journal on Computing 2008)",
+    "chapters": [
+      1
+    ],
+    "type": "paper",
+    "file": "references/snowball/recursion/ref-147-universal-arguments-and-their-applications.pdf",
+    "status": "failed",
+    "discovered_from": "references/ch02/ref-08-stark.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2001/105.pdf"
+  },
+  {
+    "id": 148,
+    "slug": "zero-knowledge-from-secure-multiparty-computatio",
+    "citation": "Zero-knowledge from secure multiparty computation (STOC 2007)",
+    "chapters": [
+      1
+    ],
+    "type": "stub",
+    "file": "references/snowball/recursion/ref-148-zero-knowledge-from-secure-multiparty-computatio.md",
+    "status": "stub",
+    "discovered_from": "references/ch02/ref-08-stark.pdf",
+    "snowball_round": 0
+  },
+  {
+    "id": 149,
+    "slug": "a-compressed-sigma-protocol-theory-for-lattices",
+    "citation": "A Compressed Sigma-Protocol Theory for Lattices (CRYPTO 2021 2021)",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "file": "references/snowball/recursion/ref-149-a-compressed-sigma-protocol-theory-for-lattices.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch02/ref-11-latticefold-plus.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2021/307.pdf"
+  },
+  {
+    "id": 150,
+    "slug": "a-digital-signature-scheme-secure-against-adapti",
+    "citation": "A digital signature scheme secure against adaptive chosen-message attacks (CRYPTO 1988 1988)",
+    "chapters": [
+      1
+    ],
+    "type": "stub",
+    "file": "references/snowball/recursion/ref-150-a-digital-signature-scheme-secure-against-adapti.md",
+    "status": "stub",
+    "discovered_from": "references/ch06/ref-18-hypernova.pdf",
+    "snowball_round": 0
+  },
+  {
+    "id": 151,
+    "slug": "a-zero-knowledge-sumcheck-and-its-applications",
+    "citation": "A zero knowledge sumcheck and its applications (CoRR abs/1704.02086 2017)",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "file": "references/snowball/recursion/ref-151-a-zero-knowledge-sumcheck-and-its-applications.pdf",
+    "status": "ok",
+    "discovered_from": "references/recursion/ch2/ref-41-spartan.pdf",
+    "snowball_round": 0,
+    "url": "https://arxiv.org/pdf/1704.02086"
+  },
+  {
+    "id": 152,
+    "slug": "accumulation-without-homomorphism",
+    "citation": "Accumulation without homomorphism (ePrint 2024/474 2024)",
+    "chapters": [
+      1
+    ],
+    "type": "paper",
+    "file": "references/snowball/recursion/ref-152-accumulation-without-homomorphism.pdf",
+    "status": "failed",
+    "discovered_from": "references/ch06/ref-20-latticefold.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2024/474"
+  },
+  {
+    "id": 153,
+    "slug": "amicable-pairs-and-aliquot-cycles-for-elliptic-c",
+    "citation": "Amicable pairs and aliquot cycles for elliptic curves (Experimental Mathematics 2011)",
+    "chapters": [
+      1
+    ],
+    "type": "paper",
+    "file": "references/snowball/recursion/ref-153-amicable-pairs-and-aliquot-cycles-for-elliptic-c.pdf",
+    "status": "ok",
+    "discovered_from": "references/recursion/ch1/ref-02-bctv-cycles.pdf",
+    "snowball_round": 0,
+    "url": "https://arxiv.org/pdf/0912.1831"
+  },
+  {
+    "id": 154,
+    "slug": "assignment-testers-towards-a-combinatorial-proo",
+    "citation": "Assignment testers: Towards a combinatorial proof of the PCP theorem (FOCS 2004)",
+    "chapters": [
+      1
+    ],
+    "type": "stub",
+    "file": "references/snowball/recursion/ref-154-assignment-testers-towards-a-combinatorial-proo.md",
+    "status": "stub",
+    "discovered_from": "references/ch02/ref-08-stark.pdf",
+    "snowball_round": 0
+  },
+  {
+    "id": 155,
+    "slug": "baloo-nearly-optimal-lookup-arguments",
+    "citation": "Baloo: Nearly optimal lookup arguments (ePrint 2022/1565 2022)",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "file": "references/snowball/recursion/ref-155-baloo-nearly-optimal-lookup-arguments.pdf",
+    "status": "failed",
+    "discovered_from": "references/ch06/ref-19-protostar.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2022/1565"
+  },
+  {
+    "id": 156,
+    "slug": "blaze-fast-snarks-from-interleaved-raa-codes",
+    "citation": "Blaze: Fast SNARKs from Interleaved RAA Codes",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "file": "references/snowball/recursion/ref-156-blaze-fast-snarks-from-interleaved-raa-codes.pdf",
+    "status": "failed",
+    "discovered_from": "references/ch02/ref-11-latticefold-plus.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2024/1609"
+  },
+  {
+    "id": 157,
+    "slug": "brakedown-linear-time-and-post-quantum-snarks-f",
+    "citation": "Brakedown: Linear-time and post-quantum SNARKs for R1CS",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "file": "references/snowball/recursion/ref-157-brakedown-linear-time-and-post-quantum-snarks-f.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch03/ref-14-ccs-customizable-constraints.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2021/1043.pdf"
+  },
+  {
+    "id": 158,
+    "slug": "coda-cryptocurrency",
+    "citation": "Coda Cryptocurrency",
+    "chapters": [
+      1
+    ],
+    "type": "web",
+    "file": "references/snowball/recursion/ref-158-coda-cryptocurrency.md",
+    "status": "ok-stealth",
+    "discovered_from": "references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf",
+    "snowball_round": 0,
+    "url": "https://codaprotocol.com/"
+  },
+  {
+    "id": 159,
+    "slug": "collision-free-hashing-from-lattice-problems",
+    "citation": "Collision-free hashing from lattice problems (ECCC 1996)",
+    "chapters": [
+      1
+    ],
+    "type": "paper",
+    "file": "references/snowball/recursion/ref-159-collision-free-hashing-from-lattice-problems.pdf",
+    "status": "failed",
+    "discovered_from": "references/recursion/ch1/ref-02-bctv-cycles.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/1996/009.pdf"
   }
 ]

@@ -771,5 +771,1171 @@
     "url": "https://eprint.iacr.org/2024/1293.pdf",
     "file": "references/ch14/ref-65-greyhound.pdf",
     "status": "ok"
+  },
+  {
+    "id": 66,
+    "slug": "quadratic-span-programs-and-succinct-nizks-witho",
+    "citation": "Quadratic span programs and succinct NIZKs without PCPs (EUROCRYPT 2013)",
+    "chapters": [
+      1
+    ],
+    "type": "paper",
+    "file": "references/snowball/book/ref-066-quadratic-span-programs-and-succinct-nizks-witho.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch01/ref-03-sok-snark-vulnerabilities.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2012/215.pdf"
+  },
+  {
+    "id": 67,
+    "slug": "pinocchio-nearly-practical-verifiable-computati",
+    "citation": "Pinocchio: Nearly practical verifiable computation (Communications of the ACM 2016)",
+    "chapters": [
+      1
+    ],
+    "type": "paper",
+    "file": "references/snowball/book/ref-067-pinocchio-nearly-practical-verifiable-computati.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch01/ref-03-sok-snark-vulnerabilities.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2013/279.pdf"
+  },
+  {
+    "id": 68,
+    "slug": "marlin-preprocessing-zksnarks-with-universal-an",
+    "citation": "Marlin: Preprocessing zkSNARKs with universal and updatable SRS (EUROCRYPT 2020)",
+    "chapters": [
+      1
+    ],
+    "type": "paper",
+    "file": "references/snowball/book/ref-068-marlin-preprocessing-zksnarks-with-universal-an.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch01/ref-03-sok-snark-vulnerabilities.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2019/1047.pdf"
+  },
+  {
+    "id": 69,
+    "slug": "plonk-permutations-over-lagrange-bases-for-oecu",
+    "citation": "PLONK: Permutations over Lagrange-bases for Oecumenical Noninteractive arguments of Knowledge (IACR ePrint 2019)",
+    "chapters": [
+      1
+    ],
+    "type": "paper",
+    "file": "references/snowball/book/ref-069-plonk-permutations-over-lagrange-bases-for-oecu.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch01/ref-03-sok-snark-vulnerabilities.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2019/953.pdf"
+  },
+  {
+    "id": 70,
+    "slug": "snarks-for-c-verifying-program-executions-succi",
+    "citation": "SNARKs for C: verifying program executions succinctly and in zero knowledge (CRYPTO 2013)",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "file": "references/snowball/book/ref-070-snarks-for-c-verifying-program-executions-succi.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch02/ref-05-mpc-random-beacon.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2013/507.pdf"
+  },
+  {
+    "id": 71,
+    "slug": "succinct-non-interactive-zero-knowledge-for-a-vo",
+    "citation": "Succinct Non-Interactive zero knowledge for a von neumann architecture (USENIX Security 2014)",
+    "chapters": [
+      1
+    ],
+    "type": "paper",
+    "file": "references/snowball/book/ref-071-succinct-non-interactive-zero-knowledge-for-a-vo.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch01/ref-03-sok-snark-vulnerabilities.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2013/879.pdf"
+  },
+  {
+    "id": 72,
+    "slug": "zerocash-decentralized-anonymous-payments-from",
+    "citation": "Zerocash: Decentralized anonymous payments from bitcoin (IEEE S&P 2014)",
+    "chapters": [
+      1
+    ],
+    "type": "paper",
+    "file": "references/snowball/book/ref-072-zerocash-decentralized-anonymous-payments-from.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch01/ref-03-sok-snark-vulnerabilities.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2014/349.pdf"
+  },
+  {
+    "id": 73,
+    "slug": "ligero-lightweight-sublinear-arguments-without",
+    "citation": "Ligero: Lightweight sublinear arguments without a trusted setup (ACM CCS 2017)",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "file": "references/snowball/book/ref-073-ligero-lightweight-sublinear-arguments-without.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch02/ref-05-mpc-random-beacon.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2022/1608.pdf"
+  },
+  {
+    "id": 74,
+    "slug": "from-extractable-collision-resistance-to-succinc",
+    "citation": "From extractable collision resistance to succinct non-interactive arguments of knowledge, and back again (ITCS 2012)",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "file": "references/snowball/book/ref-074-from-extractable-collision-resistance-to-succinc.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch02/ref-06-groth16.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2011/443.pdf"
+  },
+  {
+    "id": 75,
+    "slug": "efficient-ram-and-control-flow-in-verifiable-out",
+    "citation": "Efficient RAM and control flow in verifiable outsourced computation (NDSS 2015)",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "file": "references/snowball/book/ref-075-efficient-ram-and-control-flow-in-verifiable-out.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch02/ref-06-groth16.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2014/674.pdf"
+  },
+  {
+    "id": 76,
+    "slug": "efficient-zero-knowledge-arguments-for-arithmeti",
+    "citation": "Efficient zero-knowledge arguments for arithmetic circuits in the discrete log setting (EUROCRYPT 2016)",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "file": "references/snowball/book/ref-076-efficient-zero-knowledge-arguments-for-arithmeti.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch02/ref-07-plonk.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2016/263.pdf"
+  },
+  {
+    "id": 77,
+    "slug": "separating-succinct-non-interactive-arguments-fr",
+    "citation": "Separating succinct non-interactive arguments from all falsifiable assumptions (STOC 2011)",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "file": "references/snowball/book/ref-077-separating-succinct-non-interactive-arguments-fr.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch02/ref-06-groth16.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2010/610.pdf"
+  },
+  {
+    "id": 78,
+    "slug": "computationally-sound-proofs",
+    "citation": "Computationally sound proofs (SIAM Journal on Computing 2000)",
+    "chapters": [
+      1
+    ],
+    "type": "stub",
+    "file": "references/snowball/book/ref-078-computationally-sound-proofs.md",
+    "status": "stub",
+    "discovered_from": "references/ch01/ref-03-sok-snark-vulnerabilities.pdf",
+    "snowball_round": 0
+  },
+  {
+    "id": 79,
+    "slug": "interactive-oracle-proofs",
+    "citation": "Interactive oracle proofs (TCC 2016)",
+    "chapters": [
+      1
+    ],
+    "type": "paper",
+    "file": "references/snowball/book/ref-079-interactive-oracle-proofs.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch01/ref-03-sok-snark-vulnerabilities.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2016/116.pdf"
+  },
+  {
+    "id": 80,
+    "slug": "fast-reed-solomon-interactive-oracle-proofs-of-p",
+    "citation": "Fast reed-solomon interactive oracle proofs of proximity (ICALP 2018)",
+    "chapters": [
+      1
+    ],
+    "type": "paper",
+    "file": "references/snowball/book/ref-080-fast-reed-solomon-interactive-oracle-proofs-of-p.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch01/ref-03-sok-snark-vulnerabilities.pdf",
+    "snowball_round": 0,
+    "url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol107-icalp2018/LIPIcs.ICALP.2018.14/LIPIcs.ICALP.2018.14.pdf"
+  },
+  {
+    "id": 81,
+    "slug": "libra-succinct-zero-knowledge-proofs-with-optim",
+    "citation": "Libra: Succinct zero-knowledge proofs with optimal prover computation (CRYPTO 2019)",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "file": "references/snowball/book/ref-081-libra-succinct-zero-knowledge-proofs-with-optim.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch02/ref-10-sok-powers-of-tau.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2019/317.pdf"
+  },
+  {
+    "id": 82,
+    "slug": "cairo-a-turing-complete-stark-friendly-cpu-arc",
+    "citation": "Cairo – a Turing-complete STARK-friendly CPU architecture (IACR ePrint 2021)",
+    "chapters": [
+      1
+    ],
+    "type": "paper",
+    "file": "references/snowball/book/ref-082-cairo-a-turing-complete-stark-friendly-cpu-arc.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch01/ref-03-sok-snark-vulnerabilities.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2021/1063.pdf"
+  },
+  {
+    "id": 83,
+    "slug": "cs-proofs",
+    "citation": "CS proofs (FOCS 1994)",
+    "chapters": [
+      2
+    ],
+    "type": "stub",
+    "file": "references/snowball/book/ref-083-cs-proofs.md",
+    "status": "stub",
+    "discovered_from": "references/ch02/ref-09-bulletproofs.pdf",
+    "snowball_round": 0
+  },
+  {
+    "id": 84,
+    "slug": "hyperplonk-plonk-with-linear-time-prover-and-hi",
+    "citation": "HyperPLONK: PLONK with linear-time prover and high-degree custom gates (Eurocrypt 2023)",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "file": "references/snowball/book/ref-084-hyperplonk-plonk-with-linear-time-prover-and-hi.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch02/ref-10-sok-powers-of-tau.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2022/1355.pdf"
+  },
+  {
+    "id": 85,
+    "slug": "libsnark",
+    "citation": "libsnark (GitHub 2014)",
+    "chapters": [
+      2
+    ],
+    "type": "web",
+    "file": "references/snowball/book/ref-085-libsnark.md",
+    "status": "ok",
+    "discovered_from": "references/ch02/ref-06-groth16.pdf",
+    "snowball_round": 0,
+    "url": "https://github.com/scipr-lab/libsnark"
+  },
+  {
+    "id": 86,
+    "slug": "succinct-non-interactive-arguments-via-linear-in",
+    "citation": "Succinct non-interactive arguments via linear interactive proofs (TCC 2013)",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "file": "references/snowball/book/ref-086-succinct-non-interactive-arguments-via-linear-in.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch02/ref-05-mpc-random-beacon.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2012/718.pdf"
+  },
+  {
+    "id": 87,
+    "slug": "aurora-transparent-succinct-arguments-for-r1cs",
+    "citation": "Aurora: Transparent succinct arguments for R1CS (EUROCRYPT 2019)",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "file": "references/snowball/book/ref-087-aurora-transparent-succinct-arguments-for-r1cs.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch02/ref-07-plonk.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2018/828.pdf"
+  },
+  {
+    "id": 88,
+    "slug": "gemini-elastic-snarks-for-diverse-environments",
+    "citation": "Gemini: Elastic SNARKs for diverse environments (Eurocrypt 2022)",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "file": "references/snowball/book/ref-088-gemini-elastic-snarks-for-diverse-environments.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch02/ref-10-sok-powers-of-tau.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2022/420.pdf"
+  },
+  {
+    "id": 89,
+    "slug": "plonk-permutations-over-lagrange-bases-for-oecu",
+    "citation": "PLONK: Permutations over Lagrange-bases for Oecumenical Noninteractive arguments of Knowledge (IACR ePrint 2019)",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "file": "references/snowball/book/ref-089-plonk-permutations-over-lagrange-bases-for-oecu.pdf",
+    "status": "failed",
+    "discovered_from": "references/ch02/ref-10-sok-powers-of-tau.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2019/953"
+  },
+  {
+    "id": 90,
+    "slug": "short-pairing-based-non-interactive-zero-knowled",
+    "citation": "Short pairing-based non-interactive zero-knowledge arguments (ASIACRYPT 2010)",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "file": "references/snowball/book/ref-090-short-pairing-based-non-interactive-zero-knowled.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch02/ref-05-mpc-random-beacon.pdf",
+    "snowball_round": 0,
+    "url": "https://www.iacr.org/archive/asiacrypt2010/6477323/6477323.pdf"
+  },
+  {
+    "id": 91,
+    "slug": "transparent-snarks-from-dark-compilers",
+    "citation": "Transparent SNARKs from DARK compilers (Eurocrypt 2020)",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "file": "references/snowball/book/ref-091-transparent-snarks-from-dark-compilers.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch02/ref-10-sok-powers-of-tau.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2019/1229.pdf"
+  },
+  {
+    "id": 92,
+    "slug": "dory-efficient-transparent-arguments-for-gener",
+    "citation": "Dory: Efficient, transparent arguments for generalised inner products and polynomial commitments (TCC 2021)",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "file": "references/snowball/book/ref-092-dory-efficient-transparent-arguments-for-gener.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch02/ref-10-sok-powers-of-tau.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2020/1274.pdf"
+  },
+  {
+    "id": 93,
+    "slug": "verifying-computations-with-state",
+    "citation": "Verifying computations with state (SOSP 2013)",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "file": "references/snowball/book/ref-093-verifying-computations-with-state.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch02/ref-06-groth16.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2013/356.pdf"
+  },
+  {
+    "id": 94,
+    "slug": "checking-the-correctness-of-memories",
+    "citation": "Checking the correctness of memories (FOCS 1991 1991)",
+    "chapters": [
+      3,
+      4,
+      5
+    ],
+    "type": "stub",
+    "file": "references/snowball/book/ref-094-checking-the-correctness-of-memories.md",
+    "status": "stub",
+    "discovered_from": "references/ch03/ref-15-lasso.pdf",
+    "snowball_round": 0
+  },
+  {
+    "id": 95,
+    "slug": "halo-infinite-recursive-zk-snarks-from-any-addi",
+    "citation": "Halo infinite: Recursive zk-SNARKs from any additive polynomial commitment scheme (IACR ePrint 2020)",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "file": "references/snowball/book/ref-095-halo-infinite-recursive-zk-snarks-from-any-addi.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch02/ref-07-plonk.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2020/1536.pdf"
+  },
+  {
+    "id": 96,
+    "slug": "orion-zero-knowledge-proof-with-linear-prover-t",
+    "citation": "Orion: Zero knowledge proof with linear prover time (CRYPTO 2022)",
+    "chapters": [
+      1
+    ],
+    "type": "paper",
+    "file": "references/snowball/book/ref-096-orion-zero-knowledge-proof-with-linear-prover-t.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch01/ref-03-sok-snark-vulnerabilities.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2022/1010.pdf"
+  },
+  {
+    "id": 97,
+    "slug": "progression-free-sets-and-sublinear-pairing-base",
+    "citation": "Progression-free sets and sublinear pairing-based non-interactive zero-knowledge arguments (TCC 2012)",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "file": "references/snowball/book/ref-097-progression-free-sets-and-sublinear-pairing-base.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch02/ref-05-mpc-random-beacon.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2011/009.pdf"
+  },
+  {
+    "id": 98,
+    "slug": "circom-a-circuit-description-language-for-build",
+    "citation": "Circom: A circuit description language for building zero-knowledge applications (IEEE Transactions on Dependable and Secure Computing 2022)",
+    "chapters": [
+      1
+    ],
+    "type": "stub",
+    "file": "references/snowball/book/ref-098-circom-a-circuit-description-language-for-build.md",
+    "status": "stub",
+    "discovered_from": "references/ch01/ref-03-sok-snark-vulnerabilities.pdf",
+    "snowball_round": 0
+  },
+  {
+    "id": 99,
+    "slug": "plookup-a-simplified-polynomial-protocol-for-lo",
+    "citation": "plookup: A simplified polynomial protocol for lookup tables (IACR ePrint 2020)",
+    "chapters": [
+      1
+    ],
+    "type": "paper",
+    "file": "references/snowball/book/ref-099-plookup-a-simplified-polynomial-protocol-for-lo.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch01/ref-03-sok-snark-vulnerabilities.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2020/315.pdf"
+  },
+  {
+    "id": 100,
+    "slug": "scalable-zero-knowledge-with-no-trusted-setup",
+    "citation": "Scalable zero knowledge with no trusted setup (CRYPTO 2019)",
+    "chapters": [
+      1
+    ],
+    "type": "paper",
+    "file": "references/snowball/book/ref-100-scalable-zero-knowledge-with-no-trusted-setup.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch01/ref-03-sok-snark-vulnerabilities.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2018/046.pdf"
+  },
+  {
+    "id": 101,
+    "slug": "signatures-of-correct-computation",
+    "citation": "Signatures of correct computation (TCC 2013)",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "file": "references/snowball/book/ref-101-signatures-of-correct-computation.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch02/ref-10-sok-powers-of-tau.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2011/587.pdf"
+  },
+  {
+    "id": 102,
+    "slug": "zokrates-scalable-privacy-preserving-off-chain-c",
+    "citation": "ZoKrates-scalable privacy-preserving off-chain computations (IEEE iThings 2018)",
+    "chapters": [
+      1
+    ],
+    "type": "stub",
+    "file": "references/snowball/book/ref-102-zokrates-scalable-privacy-preserving-off-chain-c.md",
+    "status": "stub",
+    "discovered_from": "references/ch01/ref-03-sok-snark-vulnerabilities.pdf",
+    "snowball_round": 0
+  },
+  {
+    "id": 103,
+    "slug": "a-note-on-efficient-zero-knowledge-proofs-and-ar",
+    "citation": "A note on efficient zero-knowledge proofs and arguments (STOC 1992)",
+    "chapters": [
+      2
+    ],
+    "type": "stub",
+    "file": "references/snowball/book/ref-103-a-note-on-efficient-zero-knowledge-proofs-and-ar.md",
+    "status": "stub",
+    "discovered_from": "references/ch02/ref-05-mpc-random-beacon.pdf",
+    "snowball_round": 0
+  },
+  {
+    "id": 104,
+    "slug": "cluster-computing-in-zero-knowledge",
+    "citation": "Cluster computing in zero knowledge (EUROCRYPT 2015)",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "file": "references/snowball/book/ref-104-cluster-computing-in-zero-knowledge.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch02/ref-06-groth16.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2015/377.pdf"
+  },
+  {
+    "id": 105,
+    "slug": "updatable-and-universal-common-reference-strings",
+    "citation": "Updatable and universal common reference strings with applications to zk-SNARKs (IACR ePrint 2018)",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "file": "references/snowball/book/ref-105-updatable-and-universal-common-reference-strings.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch02/ref-07-plonk.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2018/280.pdf"
+  },
+  {
+    "id": 106,
+    "slug": "a-taxonomy-of-pairing-friendly-elliptic-curves",
+    "citation": "A taxonomy of pairing-friendly elliptic curves (Journal of Cryptology 2010)",
+    "chapters": [
+      10,
+      11
+    ],
+    "type": "paper",
+    "file": "references/snowball/book/ref-106-a-taxonomy-of-pairing-friendly-elliptic-curves.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch10/ref-50-extended-tower-nfs.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2006/372.pdf"
+  },
+  {
+    "id": 107,
+    "slug": "caulk-lookup-arguments-in-sublinear-time",
+    "citation": "Caulk: Lookup arguments in sublinear time",
+    "chapters": [
+      3,
+      4,
+      5
+    ],
+    "type": "paper",
+    "file": "references/snowball/book/ref-107-caulk-lookup-arguments-in-sublinear-time.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch03/ref-15-lasso.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2022/621.pdf"
+  },
+  {
+    "id": 108,
+    "slug": "dizk-a-distributed-zero-knowledge-proof-system",
+    "citation": "DIZK: A distributed zero knowledge proof system (USENIX Security 2018)",
+    "chapters": [
+      10,
+      11
+    ],
+    "type": "paper",
+    "file": "references/snowball/book/ref-108-dizk-a-distributed-zero-knowledge-proof-system.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch10/ref-32-zkvm-compiler-optimization.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2018/691.pdf"
+  },
+  {
+    "id": 109,
+    "slug": "hawk-the-blockchain-model-of-cryptography-and-p",
+    "citation": "Hawk: The blockchain model of cryptography and privacy-preserving smart contracts (IEEE S&P 2016)",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "file": "references/snowball/book/ref-109-hawk-the-blockchain-model-of-cryptography-and-p.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch02/ref-05-mpc-random-beacon.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2015/675.pdf"
+  },
+  {
+    "id": 110,
+    "slug": "a-digital-signature-based-on-a-conventional-encr",
+    "citation": "A digital signature based on a conventional encryption function (CRYPTO 1987 1987)",
+    "chapters": [
+      14
+    ],
+    "type": "stub",
+    "file": "references/snowball/book/ref-110-a-digital-signature-based-on-a-conventional-encr.md",
+    "status": "stub",
+    "discovered_from": "references/ch14/ref-62-lattice-functional-commitments.pdf",
+    "snowball_round": 0
+  },
+  {
+    "id": 111,
+    "slug": "a-multi-party-protocol-for-constructing-the-publ",
+    "citation": "A multi-party protocol for constructing the public parameters of the Pinocchio zk-SNARK (IACR ePrint 2017)",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "file": "references/snowball/book/ref-111-a-multi-party-protocol-for-constructing-the-publ.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch02/ref-05-mpc-random-beacon.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2017/602.pdf"
+  },
+  {
+    "id": 112,
+    "slug": "geppetto-versatile-verifiable-computation",
+    "citation": "Geppetto: Versatile verifiable computation (IEEE S&P 2015)",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "file": "references/snowball/book/ref-112-geppetto-versatile-verifiable-computation.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch02/ref-06-groth16.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2014/976.pdf"
+  },
+  {
+    "id": 113,
+    "slug": "polynomial-commitments",
+    "citation": "Polynomial commitments (ASIACRYPT 2010)",
+    "chapters": [
+      10,
+      11
+    ],
+    "type": "paper",
+    "file": "references/snowball/book/ref-113-polynomial-commitments.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch10/ref-32-zkvm-compiler-optimization.pdf",
+    "snowball_round": 0,
+    "url": "https://cacr.uwaterloo.ca/techreports/2010/cacr2010-10.pdf"
+  },
+  {
+    "id": 114,
+    "slug": "proofs-for-inner-pairing-products-and-applicatio",
+    "citation": "Proofs for inner pairing products and applications (ASIACRYPT 2021 2021)",
+    "chapters": [
+      3,
+      4,
+      5
+    ],
+    "type": "paper",
+    "file": "references/snowball/book/ref-114-proofs-for-inner-pairing-products-and-applicatio.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch03/ref-15-lasso.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2019/1177.pdf"
+  },
+  {
+    "id": 115,
+    "slug": "scaling-verifiable-computation-using-efficient-s",
+    "citation": "Scaling verifiable computation using efficient set accumulators (USENIX Security 2020 2020)",
+    "chapters": [],
+    "type": "paper",
+    "file": "references/snowball/book/ref-115-scaling-verifiable-computation-using-efficient-s.pdf",
+    "status": "ok",
+    "discovered_from": "",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2019/1494.pdf"
+  },
+  {
+    "id": 116,
+    "slug": "secure-sampling-of-public-parameters-for-succinc",
+    "citation": "Secure sampling of public parameters for succinct zero knowledge proofs (IEEE S&P 2015)",
+    "chapters": [
+      2
+    ],
+    "type": "stub",
+    "file": "references/snowball/book/ref-116-secure-sampling-of-public-parameters-for-succinc.md",
+    "status": "stub",
+    "discovered_from": "references/ch02/ref-05-mpc-random-beacon.pdf",
+    "snowball_round": 0
+  },
+  {
+    "id": 117,
+    "slug": "simulation-sound-nizk-proofs-for-a-practical-lan",
+    "citation": "Simulation-sound NIZK proofs for a practical language and constant size group signatures (ASIACRYPT 2006)",
+    "chapters": [
+      1
+    ],
+    "type": "stub",
+    "file": "references/snowball/book/ref-117-simulation-sound-nizk-proofs-for-a-practical-lan.md",
+    "status": "stub",
+    "discovered_from": "references/ch01/ref-03-sok-snark-vulnerabilities.pdf",
+    "snowball_round": 0
+  },
+  {
+    "id": 118,
+    "slug": "sonic-zero-knowledge-snarks-from-linear-size-un",
+    "citation": "Sonic: Zero-knowledge SNARKs from linear-size universal and updatable structured reference strings (ACM CCS 2019)",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "file": "references/snowball/book/ref-118-sonic-zero-knowledge-snarks-from-linear-size-un.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch02/ref-10-sok-powers-of-tau.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2019/099.pdf"
+  },
+  {
+    "id": 119,
+    "slug": "zk-img-attested-images-via-zero-knowledge-proof",
+    "citation": "zk-img: Attested images via zero-knowledge proofs to fight disinformation",
+    "chapters": [
+      1
+    ],
+    "type": "paper",
+    "file": "references/snowball/book/ref-119-zk-img-attested-images-via-zero-knowledge-proof.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch01/ref-03-sok-snark-vulnerabilities.pdf",
+    "snowball_round": 0,
+    "url": "https://arxiv.org/pdf/2211.04775"
+  },
+  {
+    "id": 120,
+    "slug": "adsnark-nearly-practical-and-privacy-preserving",
+    "citation": "ADSNARK: nearly practical and privacy-preserving proofs on authenticated data (IEEE S&P 2015)",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "file": "references/snowball/book/ref-120-adsnark-nearly-practical-and-privacy-preserving.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch02/ref-06-groth16.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2014/617.pdf"
+  },
+  {
+    "id": 121,
+    "slug": "basefold-efficient-field-agnostic-polynomial-co",
+    "citation": "Basefold: Efficient field-agnostic polynomial commitment schemes from foldable codes (IACR ePrint 2023)",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "file": "references/snowball/book/ref-121-basefold-efficient-field-agnostic-polynomial-co.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch02/ref-10-sok-powers-of-tau.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2023/1705.pdf"
+  },
+  {
+    "id": 122,
+    "slug": "circ-compiler-infrastructure-for-proof-systems",
+    "citation": "Circ: Compiler infrastructure for proof systems, software verification, and more (IEEE S&P 2022)",
+    "chapters": [
+      1
+    ],
+    "type": "paper",
+    "file": "references/snowball/book/ref-122-circ-compiler-infrastructure-for-proof-systems.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch01/ref-03-sok-snark-vulnerabilities.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2020/1586.pdf"
+  },
+  {
+    "id": 123,
+    "slug": "constructing-elliptic-curves-with-prescribed-emb",
+    "citation": "Constructing elliptic curves with prescribed embedding degrees (SCN 2003)",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "file": "references/snowball/book/ref-123-constructing-elliptic-curves-with-prescribed-emb.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch02/ref-10-sok-powers-of-tau.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2002/088.pdf"
+  },
+  {
+    "id": 124,
+    "slug": "efficient-non-interactive-proof-systems-for-bili",
+    "citation": "Efficient non-interactive proof systems for bilinear groups (EUROCRYPT 2008)",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "file": "references/snowball/book/ref-124-efficient-non-interactive-proof-systems-for-bili.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch02/ref-09-bulletproofs.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2007/155.pdf"
+  },
+  {
+    "id": 125,
+    "slug": "efficient-protocols-for-set-membership-and-range",
+    "citation": "Efficient protocols for set membership and range proofs (ASIACRYPT 2008)",
+    "chapters": [
+      2
+    ],
+    "type": "stub",
+    "file": "references/snowball/book/ref-125-efficient-protocols-for-set-membership-and-range.md",
+    "status": "stub",
+    "discovered_from": "references/ch02/ref-09-bulletproofs.pdf",
+    "snowball_round": 0
+  },
+  {
+    "id": 126,
+    "slug": "fiat-shamir-transformation-of-multi-round-intera",
+    "citation": "Fiat-Shamir transformation of multi-round interactive proofs (IACR ePrint 2021)",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "file": "references/snowball/book/ref-126-fiat-shamir-transformation-of-multi-round-intera.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch02/ref-09-bulletproofs.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2021/1377.pdf"
+  },
+  {
+    "id": 127,
+    "slug": "generating-hard-instances-of-lattice-problems",
+    "citation": "Generating hard instances of lattice problems (STOC 1996 1996)",
+    "chapters": [
+      9
+    ],
+    "type": "stub",
+    "file": "references/snowball/book/ref-127-generating-hard-instances-of-lattice-problems.md",
+    "status": "stub",
+    "discovered_from": "references/ch09/ref-29-gentry-fhe.pdf",
+    "snowball_round": 0
+  },
+  {
+    "id": 128,
+    "slug": "groth10-short-pairing-based-non-interactive-zer",
+    "citation": "Groth10: Short pairing-based non-interactive zero-knowledge arguments (ASIACRYPT 2010)",
+    "chapters": [
+      10,
+      11
+    ],
+    "type": "stub",
+    "file": "references/snowball/book/ref-128-groth10-short-pairing-based-non-interactive-zer.md",
+    "status": "stub",
+    "discovered_from": "references/ch10/ref-33-circ.pdf",
+    "snowball_round": 0
+  },
+  {
+    "id": 129,
+    "slug": "incremental-multiset-hash-functions-and-their-ap",
+    "citation": "Incremental multiset hash functions and their application to memory integrity checking (ASIACRYPT 2003 2003)",
+    "chapters": [
+      3,
+      4,
+      5
+    ],
+    "type": "stub",
+    "file": "references/snowball/book/ref-129-incremental-multiset-hash-functions-and-their-ap.md",
+    "status": "stub",
+    "discovered_from": "references/ch03/ref-15-lasso.pdf",
+    "snowball_round": 0
+  },
+  {
+    "id": 130,
+    "slug": "interactive-proofs-and-the-hardness-of-approxima",
+    "citation": "Interactive proofs and the hardness of approximating cliques (JACM 1996)",
+    "chapters": [
+      10,
+      11
+    ],
+    "type": "stub",
+    "file": "references/snowball/book/ref-130-interactive-proofs-and-the-hardness-of-approxima.md",
+    "status": "stub",
+    "discovered_from": "references/ch10/ref-33-circ.pdf",
+    "snowball_round": 0
+  },
+  {
+    "id": 131,
+    "slug": "ip-pspace",
+    "citation": "IP = PSPACE (Journal of the ACM 1992)",
+    "chapters": [
+      2
+    ],
+    "type": "stub",
+    "file": "references/snowball/book/ref-131-ip-pspace.md",
+    "status": "stub",
+    "discovered_from": "references/ch02/ref-10-sok-powers-of-tau.pdf",
+    "snowball_round": 0
+  },
+  {
+    "id": 132,
+    "slug": "non-interactive-zero-knowledge-and-its-applicati",
+    "citation": "Non-interactive zero-knowledge and its applications (STOC 1988)",
+    "chapters": [
+      2
+    ],
+    "type": "stub",
+    "file": "references/snowball/book/ref-132-non-interactive-zero-knowledge-and-its-applicati.md",
+    "status": "stub",
+    "discovered_from": "references/ch02/ref-06-groth16.pdf",
+    "snowball_round": 0
+  },
+  {
+    "id": 133,
+    "slug": "pairing-friendly-elliptic-curves-of-prime-order",
+    "citation": "Pairing-friendly elliptic curves of prime order (SAC 2006)",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "file": "references/snowball/book/ref-133-pairing-friendly-elliptic-curves-of-prime-order.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch02/ref-10-sok-powers-of-tau.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2005/133.pdf"
+  },
+  {
+    "id": 134,
+    "slug": "pairings-for-cryptographers",
+    "citation": "Pairings for cryptographers (Discrete Applied Mathematics 2008)",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "file": "references/snowball/book/ref-134-pairings-for-cryptographers.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch02/ref-04-kzg-commitments.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2006/165.pdf"
+  },
+  {
+    "id": 135,
+    "slug": "practical-delegation-of-computation-using-multip",
+    "citation": "Practical delegation of computation using multiple servers (ACM CCS 2011)",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "file": "references/snowball/book/ref-135-practical-delegation-of-computation-using-multip.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch02/ref-09-bulletproofs.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2011/518.pdf"
+  },
+  {
+    "id": 136,
+    "slug": "roll-up-roll-back-snark-side-chain-17000-tps",
+    "citation": "Roll up / roll back snark side chain ~17000 tps (ethresear.ch 2018)",
+    "chapters": [],
+    "type": "web",
+    "file": "references/snowball/book/ref-136-roll-up-roll-back-snark-side-chain-17000-tps.md",
+    "status": "ok",
+    "discovered_from": "",
+    "snowball_round": 0,
+    "url": "https://ethresear.ch/t/roll-up-roll-back-snark-side-chain-17000-tps/3675"
+  },
+  {
+    "id": 137,
+    "slug": "scalable-transparent-and-post-quantum-secure-c",
+    "citation": "Scalable, transparent, and post-quantum secure computational integrity (STARK) (IACR ePrint 2018)",
+    "chapters": [
+      10,
+      11
+    ],
+    "type": "paper",
+    "file": "references/snowball/book/ref-137-scalable-transparent-and-post-quantum-secure-c.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch10/ref-35-coda.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2018/046.pdf"
+  },
+  {
+    "id": 138,
+    "slug": "square-span-programs-with-applications-to-succin",
+    "citation": "Square span programs with applications to succinct NIZK arguments (ASIACRYPT 2014)",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "file": "references/snowball/book/ref-138-square-span-programs-with-applications-to-succin.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch02/ref-06-groth16.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2014/718.pdf"
+  },
+  {
+    "id": 139,
+    "slug": "the-algebraic-group-model-and-its-applications",
+    "citation": "The algebraic group model and its applications (CRYPTO 2018)",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "file": "references/snowball/book/ref-139-the-algebraic-group-model-and-its-applications.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch02/ref-07-plonk.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2017/620.pdf"
+  },
+  {
+    "id": 140,
+    "slug": "zero-knowledge-proofs-for-finite-field-arithmeti",
+    "citation": "Zero-knowledge proofs for finite field arithmetic, or: Can zero-knowledge be for free? (CRYPTO 1998)",
+    "chapters": [
+      2
+    ],
+    "type": "stub",
+    "file": "references/snowball/book/ref-140-zero-knowledge-proofs-for-finite-field-arithmeti.md",
+    "status": "stub",
+    "discovered_from": "references/ch02/ref-09-bulletproofs.pdf",
+    "snowball_round": 0
+  },
+  {
+    "id": 141,
+    "slug": "zerocoin-anonymous-distributed-e-cash-from-bitc",
+    "citation": "Zerocoin: Anonymous distributed e-cash from bitcoin (IEEE S&P 2013)",
+    "chapters": [
+      1
+    ],
+    "type": "stub",
+    "file": "references/snowball/book/ref-141-zerocoin-anonymous-distributed-e-cash-from-bitc.md",
+    "status": "stub",
+    "discovered_from": "references/ch01/ref-03-sok-snark-vulnerabilities.pdf",
+    "snowball_round": 0
+  },
+  {
+    "id": 142,
+    "slug": "zksync-scaling-and-privacy-engine-for-ethereum",
+    "citation": "zkSync: Scaling and privacy engine for Ethereum (Technical documentation 2020)",
+    "chapters": [
+      8
+    ],
+    "type": "web",
+    "file": "references/snowball/book/ref-142-zksync-scaling-and-privacy-engine-for-ethereum.md",
+    "status": "ok",
+    "discovered_from": "references/ch08/ref-28-rollup-pricing-attacks.pdf",
+    "snowball_round": 0,
+    "url": "https://zksync.io"
+  },
+  {
+    "id": 143,
+    "slug": "a-hybrid-architecture-for-verifiable-computation",
+    "citation": "A hybrid architecture for verifiable computation (S&P 2013 2013)",
+    "chapters": [],
+    "type": "paper",
+    "file": "references/snowball/book/ref-143-a-hybrid-architecture-for-verifiable-computation.pdf",
+    "status": "ok",
+    "discovered_from": "",
+    "snowball_round": 0,
+    "url": "https://www.ieee-security.org/TC/SP2013/papers/4977a223.pdf"
+  },
+  {
+    "id": 144,
+    "slug": "a-verifiable-secret-shuffle-and-its-application",
+    "citation": "A verifiable secret shuffle and its application to e-voting (ACM CCS 2001)",
+    "chapters": [
+      2
+    ],
+    "type": "stub",
+    "file": "references/snowball/book/ref-144-a-verifiable-secret-shuffle-and-its-application.md",
+    "status": "stub",
+    "discovered_from": "references/ch02/ref-09-bulletproofs.pdf",
+    "snowball_round": 0
+  },
+  {
+    "id": 145,
+    "slug": "a-zero-knowledge-version-of-vsql",
+    "citation": "A zero-knowledge version of vSQL (IACR Cryptol. ePrint Arch. 2017)",
+    "chapters": [],
+    "type": "paper",
+    "file": "references/snowball/book/ref-145-a-zero-knowledge-version-of-vsql.pdf",
+    "status": "ok",
+    "discovered_from": "",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2017/1146.pdf"
+  },
+  {
+    "id": 146,
+    "slug": "aggregatable-subvector-commitments-for-stateless",
+    "citation": "Aggregatable subvector commitments for stateless cryptocurrencies (SCN 2020)",
+    "chapters": [
+      10,
+      11
+    ],
+    "type": "stub",
+    "file": "references/snowball/book/ref-146-aggregatable-subvector-commitments-for-stateless.md",
+    "status": "stub",
+    "discovered_from": "references/ch10/ref-36-sonic.pdf",
+    "snowball_round": 0
+  },
+  {
+    "id": 147,
+    "slug": "an-algebraic-framework-for-universal-and-updatab",
+    "citation": "An algebraic framework for universal and updatable SNARKs (CRYPTO 2021)",
+    "chapters": [
+      2
+    ],
+    "type": "paper",
+    "file": "references/snowball/book/ref-147-an-algebraic-framework-for-universal-and-updatab.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch02/ref-10-sok-powers-of-tau.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2021/590.pdf"
+  },
+  {
+    "id": 148,
+    "slug": "arya-nearly-linear-time-zero-knowledge-proofs-f",
+    "citation": "Arya: Nearly linear-time zero-knowledge proofs for correct program execution (ASIACRYPT 2018 2018)",
+    "chapters": [
+      3,
+      4,
+      5
+    ],
+    "type": "paper",
+    "file": "references/snowball/book/ref-148-arya-nearly-linear-time-zero-knowledge-proofs-f.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch03/ref-15-lasso.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2018/380.pdf"
+  },
+  {
+    "id": 149,
+    "slug": "bn254-pairing-friendly-elliptic-curves-for-snark",
+    "citation": "BN254 pairing-friendly elliptic curves for SNARKs (SAC 2006)",
+    "chapters": [
+      10,
+      11
+    ],
+    "type": "paper",
+    "file": "references/snowball/book/ref-149-bn254-pairing-friendly-elliptic-curves-for-snark.pdf",
+    "status": "ok",
+    "discovered_from": "references/ch10/ref-33-circ.pdf",
+    "snowball_round": 0,
+    "url": "https://eprint.iacr.org/2005/133.pdf"
   }
 ]
