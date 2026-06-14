@@ -1,12 +1,12 @@
 ---
 source_file: "references/books/proofs-args-zk.pdf"
 type: "paper"
-community: "Community 3"
+community: "Community 27"
 location: "The Sum-Check Protocol"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_3
+  - community/Community_27
 ---
 
 # Super-Efficient MatMult IP
@@ -20,4 +20,4 @@ tags:
 - [[Multilinear extension (MLE)]] - `uses` [EXTRACTED]
 - [[Sum-Check Protocol]] - `uses` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_3
+#graphify/paper #graphify/EXTRACTED #community/Community_27

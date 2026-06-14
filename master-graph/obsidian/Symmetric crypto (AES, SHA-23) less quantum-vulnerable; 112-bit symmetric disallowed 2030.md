@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch07/ref-26-nist-ir-8547.pdf"
 type: "paper"
-community: "Community 112"
+community: "Community 111"
 location: "§4.1.3 Tables 6-7"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_112
+  - community/Community_111
 ---
 
 # Symmetric crypto (AES, SHA-2/3) less quantum-vulnerable; 112-bit symmetric disallowed 2030
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Transition to Post-Quantum Cryptography Standards (NIST IR 8547)]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_112
+#graphify/paper #graphify/EXTRACTED #community/Community_111

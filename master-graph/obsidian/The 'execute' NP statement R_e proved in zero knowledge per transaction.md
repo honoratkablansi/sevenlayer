@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-90-zexe.pdf"
 type: "paper"
-community: "Community 6"
+community: "Community 55"
 location: "§2.4; Fig. 4; §4.2 (Fig. 9)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_6
+  - community/Community_55
 ---
 
 # The 'execute' NP statement R_e proved in zero knowledge per transaction
@@ -18,4 +18,4 @@ tags:
 - [[Pedersen commitmentshashes over twisted Edwards curves E_EdBLS, E_EdCP for efficient circuits]] - `assumes` [EXTRACTED]
 - [[zkSNARK]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_6
+#graphify/paper #graphify/EXTRACTED #community/Community_55

@@ -1,12 +1,12 @@
 ---
 source_file: "references/snowball/book/ref-091-transparent-snarks-from-dark-compilers.pdf"
 type: "paper"
-community: "Community 15"
+community: "Community 21"
 location: "abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_15
+  - community/Community_21
 ---
 
 # Supersonic / DARK SNARK
@@ -18,4 +18,4 @@ tags:
 - [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `defines` [EXTRACTED]
 - [[Trusted Setup Ceremony]] - `relates_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_15
+#graphify/paper #graphify/EXTRACTED #community/Community_21

@@ -1,36 +1,36 @@
 ---
 type: community
-cohesion: 0.15
+cohesion: 0.12
 members: 21
 ---
 
 # Community 57
 
-**Cohesion:** 0.15 - loosely connected
+**Cohesion:** 0.12 - loosely connected
 **Members:** 21 nodes
 
 ## Members
-- [[Batch Opening (CreateWitnessBatchVerifyEvalBatch)]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[Constant-Size Commitment & O(1) Opening Overhead]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[Constant-Size Commitments to Polynomials and Their Applications]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[Content Extraction Signature & Credential Construction]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[Cryptographic Accumulator]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[Feldman Verifiable Secret Sharing]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[Nearly Zero-Knowledge Set  ZK-EDB]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[PolyCommitDL Scheme]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[PolyCommitPed Scheme]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[Polynomial Divisibility Property ((x-i) divides phi(x)-phi(i))]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[Theorem 3.2 PolyCommitDL Security]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[Theorem 3.3 PolyCommitPed Security]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[Theorem 3.4 Batch Opening Binding]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[Theorem 3.5 Strong Correctness]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[Verifiable Secret Sharing]] - document - references/ch02/ref-04-kzg-commitments.pdf
-- [[Zero-Knowledge Set (Micali et al.)]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[eVSS Efficient Feldman VSS]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[t-Bilinear Strong Diffie-Hellman (t-BSDH) Assumption]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[t-Diffie-Hellman Inversion (t-DHI) Assumption]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[t-Polynomial Diffie-Hellman (t-polyDH) Assumption]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[t-Strong Diffie-Hellman (t-SDH) Assumption]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Automated find-and-prove-bug pipeline (SMT + ZKP)]] - paper - references/ch10/ref-33-circ.pdf
+- [[Breakable block (exceptional control flow construct)]] - paper - references/ch10/ref-33-circ.pdf
+- [[CirC ILP back-end (CBC solver)]] - paper - references/ch10/ref-33-circ.pdf
+- [[CirC R1CS back-end (lowering pass)]] - paper - references/ch10/ref-33-circ.pdf
+- [[CirC SMT back-end (Z3 Haskell bindings)]] - paper - references/ch10/ref-33-circ.pdf
+- [[CirC ZoKratesZ front-end]] - paper - references/ch10/ref-33-circ.pdf
+- [[CirC-IR (SMT-LIB-based circuit IR)]] - paper - references/ch10/ref-33-circ.pdf
+- [[Circify language-independent state-management library]] - paper - references/ch10/ref-33-circ.pdf
+- [[Compiler intermediate representation]] - paper - references/ch10/ref-33-circ.pdf
+- [[Constant folding  SMT term rewriting pass]] - paper - references/ch10/ref-33-circ.pdf
+- [[Existentially Quantified Circuit (EQC)]] - paper - references/ch10/ref-33-circ.pdf
+- [[Fine-grained array modeling]] - paper - references/ch10/ref-33-circ.pdf
+- [[Guarded SSA versioning via ITE terms]] - paper - references/ch10/ref-33-circ.pdf
+- [[Integer Linear Programming]] - paper - references/ch10/ref-33-circ.pdf
+- [[Linearity reduction (R1CS-specific optimization)]] - paper - references/ch10/ref-33-circ.pdf
+- [[Oblivious array elimination pass]] - paper - references/ch10/ref-33-circ.pdf
+- [[Proof System Compiler]] - paper - references/ch10/ref-33-circ.pdf
+- [[SMT-guided loop-unroll bound inference]] - paper - references/ch10/ref-33-circ.pdf
+- [[Satisfiability Modulo Theories (SMT)]] - paper - references/ch10/ref-33-circ.pdf
+- [[ZKlog Datalog dialect front-end]] - paper - references/ch10/ref-33-circ.pdf
+- [[Zero-knowledge proof system]] - paper - references/ch10/ref-33-circ.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -40,19 +40,14 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 7 edges to [[_COMMUNITY_Community 12]]
-- 2 edges to [[_COMMUNITY_Community 8]]
-- 2 edges to [[_COMMUNITY_Community 71]]
-- 2 edges to [[_COMMUNITY_Community 11]]
-- 2 edges to [[_COMMUNITY_Community 114]]
-- 1 edge to [[_COMMUNITY_Community 123]]
-- 1 edge to [[_COMMUNITY_Community 1]]
-- 1 edge to [[_COMMUNITY_Community 29]]
-- 1 edge to [[_COMMUNITY_Community 131]]
+- 4 edges to [[_COMMUNITY_Community 15]]
+- 3 edges to [[_COMMUNITY_Community 4]]
+- 1 edge to [[_COMMUNITY_Community 36]]
+- 1 edge to [[_COMMUNITY_Community 18]]
 
 ## Top bridge nodes
-- [[Constant-Size Commitments to Polynomials and Their Applications]] - degree 15, connects to 7 communities
-- [[PolyCommitDL Scheme]] - degree 12, connects to 4 communities
-- [[PolyCommitPed Scheme]] - degree 8, connects to 3 communities
-- [[Verifiable Secret Sharing]] - degree 4, connects to 1 community
-- [[Zero-Knowledge Set (Micali et al.)]] - degree 3, connects to 1 community
+- [[Existentially Quantified Circuit (EQC)]] - degree 5, connects to 3 communities
+- [[Proof System Compiler]] - degree 4, connects to 2 communities
+- [[CirC-IR (SMT-LIB-based circuit IR)]] - degree 12, connects to 1 community
+- [[Satisfiability Modulo Theories (SMT)]] - degree 6, connects to 1 community
+- [[CirC R1CS back-end (lowering pass)]] - degree 5, connects to 1 community

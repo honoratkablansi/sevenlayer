@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/concepts/beanstalk.md"
 type: "document"
-community: "Community 24"
+community: "Community 12"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_24
+  - community/Community_12
 ---
 
 # Beanstalk
@@ -21,4 +21,4 @@ tags:
 - [[The Synthesis -- Three Paths, Not Two]] - `references` [EXTRACTED]
 - [[Trust Decomposition Seven Weaker Assumptions]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_24
+#graphify/document #graphify/EXTRACTED #community/Community_12

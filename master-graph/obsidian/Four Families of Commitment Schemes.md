@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch07-four-families-of-commitment-schemes.md"
 type: "document"
-community: "Community 1"
+community: "Community 0"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_1
+  - community/Community_0
 ---
 
 # Four Families of Commitment Schemes
@@ -38,4 +38,4 @@ tags:
 - [[Trusted Setup Ceremony]] - `references` [EXTRACTED]
 - [[Zcash]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_1
+#graphify/document #graphify/EXTRACTED #community/Community_0

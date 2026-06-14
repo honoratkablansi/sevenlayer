@@ -1,40 +1,42 @@
 ---
 type: community
-cohesion: 0.11
-members: 25
+cohesion: 0.08
+members: 27
 ---
 
 # Community 36
 
-**Cohesion:** 0.11 - loosely connected
-**Members:** 25 nodes
+**Cohesion:** 0.08 - loosely connected
+**Members:** 27 nodes
 
 ## Members
-- [[Authentic sources & attribute verification (Art. 3(47); Art. 45e)]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
-- [[Certification of EUDI Wallets (Art. 5c)]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
-- [[Common dashboard transaction log, GDPR Art.17 erasure, DPA reporting (Art. 5a(4)(d))]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
-- [[Data minimization]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
-- [[Definition 'European Digital Identity Wallet' (Art. 3(42))]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
-- [[EUDI Wallet (Art. 5a) user-controlled cross-border eID means]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
-- [[EUDI Wallet relying parties registration, intended-use declaration (Art. 5b)]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
-- [[Electronic Attestation of Attributes]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
-- [[Electronic Attestation of Attributes (EAA) (Art. 3(44); Art. 45b)]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
-- [[European Digital Identity Framework (amending Reg 9102014)]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
-- [[European Digital Identity Wallet]] - document - references/ch13/ref-60-eidas-2-regulation.pdf
-- [[GDPR  Reg 2016679 compliance & purpose limitation (Art. 5a(17); Recital 12)]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
-- [[Issuance with complete certainty of identityattributes (Recital 74)]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
-- [[Levels of assurance wallet at assurance level 'high' (Art. 8; Art. 5a(11))]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
-- [[Privacy-preserving  no-tracking technical framework (Art. 5a(16))]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
-- [[QTSP non-combination of personal data  wallet-issuer blindness (Art. 45h; Art. 5a(5)(b))]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
-- [[Qualified Electronic Attestation of Attributes (QEAA) (Art. 3(45); Art. 45d, Annex V)]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
-- [[Qualified Trust Service Provider  qualified trust services]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
-- [[Qualified Trust Services]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
-- [[Regulation (EU) 2016679 (GDPR)]] - document - references/ch13/ref-60-eidas-2-regulation.pdf
-- [[Regulation (EU) 20241183 establishing the European Digital Identity Framework (eIDAS 2)]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
-- [[Sole user control & logical data separation (Art. 5a(14))]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
-- [[Unlinkability]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
-- [[User-chosen pseudonyms (Art. 5a(4)(b); Recital 22)]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
-- [[Voluntary use, open-source, free-of-charge wallet (Art. 5a(3),(13),(15))]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[AD-SNARK]] - paper - references/snowball/book/ref-120-adsnark-nearly-practical-and-privacy-preserving.pdf
+- [[Attested Camera]] - paper - references/snowball/book/ref-119-zk-img-attested-images-via-zero-knowledge-proof.pdf
+- [[Authenticated Data]] - paper - references/snowball/book/ref-120-adsnark-nearly-practical-and-privacy-preserving.pdf
+- [[Black-Box Separation]] - paper - references/snowball/book/ref-077-separating-succinct-non-interactive-arguments-fr.pdf
+- [[Checkable Subspace Sampling Argument]] - paper - references/snowball/book/ref-147-an-algebraic-framework-for-universal-and-updatab.pdf
+- [[Common Reference String]] - paper - references/snowball/book/ref-077-separating-succinct-non-interactive-arguments-fr.pdf
+- [[Distributed Proof Generation]] - paper - references/snowball/book/ref-104-cluster-computing-in-zero-knowledge.pdf
+- [[Extractable Collision-Resistant Hash]] - paper - references/snowball/book/ref-074-from-extractable-collision-resistance-to-succinc.pdf
+- [[Falsifiable Assumption]] - paper - references/snowball/book/ref-077-separating-succinct-non-interactive-arguments-fr.pdf
+- [[Image Attestation]] - paper - references/snowball/book/ref-119-zk-img-attested-images-via-zero-knowledge-proof.pdf
+- [[Image Provenance Verification]] - paper - references/recursion/ch3/ref-78-veritas.pdf
+- [[Knowledge Assumption]] - paper - references/snowball/book/ref-074-from-extractable-collision-resistance-to-succinc.pdf
+- [[Multi-Scalar Multiplication]] - paper - references/snowball/book/ref-108-dizk-a-distributed-zero-knowledge-proof-system.pdf
+- [[Proof Bootstrapping]] - paper - references/snowball/book/ref-112-geppetto-versatile-verifiable-computation.pdf
+- [[Proof Chaining]] - paper - references/snowball/book/ref-119-zk-img-attested-images-via-zero-knowledge-proof.pdf
+- [[Publicly-verifiable vs designated-verifier SNARK]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
+- [[Quadratic Span Program]] - paper - references/snowball/book/ref-066-quadratic-span-programs-and-succinct-nizks-witho.pdf
+- [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - document - proving-nothing.md
+- [[Selective Opening  context integrity]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Signature of Knowledge]] - paper - references/snowball/recursion/ref-146-snarky-signatures-minimal-signatures-of-knowled.pdf
+- [[Simulation-Extractability]] - paper - references/snowball/recursion/ref-146-snarky-signatures-minimal-signatures-of-knowled.pdf
+- [[Square Span Program]] - paper - references/snowball/book/ref-138-square-span-programs-with-applications-to-succin.pdf
+- [[Succinct Proof]] - paper - references/snowball/recursion/ref-121-replicated-state-machines-without-replicated-exe.pdf
+- [[TinyRAM]] - paper - references/snowball/book/ref-070-snarks-for-c-verifying-program-executions-succi.pdf
+- [[Universal Common Reference String]] - paper - references/snowball/book/ref-105-updatable-and-universal-common-reference-strings.pdf
+- [[Verifiable Computation  Delegation]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
+- [[Verifiable State Update]] - paper - references/snowball/book/ref-115-scaling-verifiable-computation-using-efficient-s.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -44,15 +46,62 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 3 edges to [[_COMMUNITY_Community 20]]
-- 3 edges to [[_COMMUNITY_Community 89]]
+- 13 edges to [[_COMMUNITY_Community 15]]
+- 6 edges to [[_COMMUNITY_Community 2]]
+- 5 edges to [[_COMMUNITY_Community 32]]
+- 5 edges to [[_COMMUNITY_Community 8]]
+- 5 edges to [[_COMMUNITY_Community 64]]
+- 4 edges to [[_COMMUNITY_Community 42]]
+- 4 edges to [[_COMMUNITY_Community 38]]
+- 4 edges to [[_COMMUNITY_Community 9]]
+- 4 edges to [[_COMMUNITY_Community 18]]
+- 4 edges to [[_COMMUNITY_Community 0]]
+- 3 edges to [[_COMMUNITY_Community 12]]
+- 3 edges to [[_COMMUNITY_Community 21]]
+- 3 edges to [[_COMMUNITY_Community 68]]
+- 3 edges to [[_COMMUNITY_Community 47]]
+- 2 edges to [[_COMMUNITY_Community 22]]
+- 2 edges to [[_COMMUNITY_Community 44]]
+- 2 edges to [[_COMMUNITY_Community 40]]
+- 2 edges to [[_COMMUNITY_Community 35]]
 - 2 edges to [[_COMMUNITY_Community 48]]
-- 1 edge to [[_COMMUNITY_Community 24]]
-- 1 edge to [[_COMMUNITY_Community 10]]
+- 2 edges to [[_COMMUNITY_Community 87]]
+- 2 edges to [[_COMMUNITY_Community 46]]
+- 2 edges to [[_COMMUNITY_Community 29]]
+- 1 edge to [[_COMMUNITY_Community 116]]
+- 1 edge to [[_COMMUNITY_Community 19]]
+- 1 edge to [[_COMMUNITY_Community 65]]
+- 1 edge to [[_COMMUNITY_Community 33]]
+- 1 edge to [[_COMMUNITY_Community 91]]
+- 1 edge to [[_COMMUNITY_Community 96]]
+- 1 edge to [[_COMMUNITY_Community 81]]
+- 1 edge to [[_COMMUNITY_Community 23]]
+- 1 edge to [[_COMMUNITY_Community 98]]
+- 1 edge to [[_COMMUNITY_Community 105]]
+- 1 edge to [[_COMMUNITY_Community 28]]
+- 1 edge to [[_COMMUNITY_Community 20]]
+- 1 edge to [[_COMMUNITY_Community 57]]
+- 1 edge to [[_COMMUNITY_Community 50]]
+- 1 edge to [[_COMMUNITY_Community 41]]
+- 1 edge to [[_COMMUNITY_Community 123]]
+- 1 edge to [[_COMMUNITY_Community 122]]
+- 1 edge to [[_COMMUNITY_Community 31]]
+- 1 edge to [[_COMMUNITY_Community 62]]
+- 1 edge to [[_COMMUNITY_Community 90]]
+- 1 edge to [[_COMMUNITY_Community 6]]
+- 1 edge to [[_COMMUNITY_Community 11]]
+- 1 edge to [[_COMMUNITY_Community 25]]
+- 1 edge to [[_COMMUNITY_Community 63]]
+- 1 edge to [[_COMMUNITY_Community 110]]
+- 1 edge to [[_COMMUNITY_Community 106]]
+- 1 edge to [[_COMMUNITY_Community 73]]
+- 1 edge to [[_COMMUNITY_Community 129]]
+- 1 edge to [[_COMMUNITY_Community 112]]
+- 1 edge to [[_COMMUNITY_Community 17]]
 
 ## Top bridge nodes
-- [[Regulation (EU) 20241183 establishing the European Digital Identity Framework (eIDAS 2)]] - degree 7, connects to 4 communities
-- [[EUDI Wallet (Art. 5a) user-controlled cross-border eID means]] - degree 15, connects to 2 communities
-- [[European Digital Identity Wallet]] - degree 5, connects to 1 community
-- [[Data minimization]] - degree 4, connects to 1 community
-- [[Unlinkability]] - degree 4, connects to 1 community
+- [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - degree 126, connects to 51 communities
+- [[Distributed Proof Generation]] - degree 4, connects to 2 communities
+- [[AD-SNARK]] - degree 3, connects to 1 community
+- [[Image Attestation]] - degree 3, connects to 1 community
+- [[Quadratic Span Program]] - degree 3, connects to 1 community

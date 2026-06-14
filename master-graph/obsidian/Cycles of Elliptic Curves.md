@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-17-nova.pdf"
 type: "document"
-community: "Community 8"
+community: "Community 24"
 location: "abstract"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_8
+  - community/Community_24
 ---
 
 # Cycles of Elliptic Curves
@@ -53,4 +53,4 @@ tags:
 - [[Two parallel IVC chains over a curve cycle that must be linked (R1CS(1)R1CS(2) over ring R = F1 x F2)]] - `conceptually_related_to` [EXTRACTED]
 - [[BCTV14 Ben-Sasson, Chiesa, Tromer, Virza, Scalable Zero Knowledge via Cycles of Elliptic Curves (CRYPTO 2014)]] - `cites` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_8
+#graphify/document #graphify/EXTRACTED #community/Community_24

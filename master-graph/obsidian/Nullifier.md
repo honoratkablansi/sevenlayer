@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 89"
+community: "Community 3"
 location: "Chapter 4: The Secret Performance"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_89
+  - community/Community_3
 ---
 
 # Nullifier
@@ -17,4 +17,4 @@ tags:
 - [[Semaphore generic open-source zk-SNARK group-membership and signaling protocol for Ethereum (Groth16-verifiable)]] - `conceptually_related_to` [EXTRACTED]
 - [[The Secret Performance]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_89
+#graphify/document #graphify/EXTRACTED #community/Community_3

@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-78-veritas.pdf"
 type: "paper"
-community: "Community 65"
+community: "Community 67"
 location: "§2.4 eq.(2)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_65
+  - community/Community_67
 ---
 
 # Short Integer Solution (SIS) lattice hash H_A(v)=Av mod q (linear, low-norm preimage)
@@ -15,4 +15,4 @@ tags:
 - [[Custom proof system for lattice hash range proof (Plookup) + Freivalds + univariate SumCheck (Aurora)]] - `assumes` [EXTRACTED]
 - [[Lattice+Poseidon hash H(v)=Poseidon(A·v mod q) SNARK-friendly hash for 30 MP images (Mode 1)]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_65
+#graphify/paper #graphify/EXTRACTED #community/Community_67

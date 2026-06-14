@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 101"
+community: "Community 102"
 location: "Chapter 8"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_101
+  - community/Community_102
 ---
 
 # On-Chain Verifier
@@ -20,4 +20,4 @@ tags:
 - [[XZ Utils Supply-Chain Attack (CVE-2024-3094)]] - `compares` [EXTRACTED]
 - [[ZK Rollup]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_101
+#graphify/document #graphify/EXTRACTED #community/Community_102

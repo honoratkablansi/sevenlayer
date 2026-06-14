@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf"
 type: "paper"
-community: "Community 32"
+community: "Community 38"
 location: "References [BCMS20]"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_32
+  - community/Community_38
 ---
 
 # [BCMS20] Bunz, Chiesa, Mishra, Spooner, Proof-Carrying Data from Accumulation Schemes (TCC 2020)
@@ -19,4 +19,4 @@ tags:
 - [[Rust implementation + evaluation recursion threshold ~52,000 constraints, =8.5x cheaper than atomic-accumulation IVC on Pasta cycle]] - `conceptually_related_to` [EXTRACTED]
 - [[Zero-finding game lemma (expected-time variant of BCMS20 Lemma A.3) for polynomial-identity testing via RO commitments]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_32
+#graphify/paper #graphify/EXTRACTED #community/Community_38

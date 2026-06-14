@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch03/ref-13-practical-security-zk-circuits.pdf"
 type: "paper"
-community: "Community 103"
+community: "Community 105"
 location: "§4.2, Fig.9"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_103
+  - community/Community_105
 ---
 
 # Datalog-style CDG construction inference rules
@@ -15,4 +15,4 @@ tags:
 - [[Circuit Dependence Graph (CDG) abstraction G=(V,Ed,Ec)]] - `defines` [EXTRACTED]
 - [[Static Analysis]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_103
+#graphify/paper #graphify/EXTRACTED #community/Community_105

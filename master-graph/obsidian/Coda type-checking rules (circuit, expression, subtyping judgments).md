@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-35-coda.pdf"
 type: "paper"
-community: "Community 46"
+community: "Community 50"
 location: "§3.3.1, Fig.6"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_46
+  - community/Community_50
 ---
 
 # Coda type-checking rules (circuit, expression, subtyping judgments)
@@ -17,4 +17,4 @@ tags:
 - [[Theorem 1 Expression Type Preservation (soundness)]] - `proves` [EXTRACTED]
 - [[iter combinator with annotated loop invariant]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_46
+#graphify/paper #graphify/EXTRACTED #community/Community_50

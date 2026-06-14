@@ -1,12 +1,12 @@
 ---
 source_file: "references/books/proofs-args-zk.pdf"
 type: "paper"
-community: "Community 12"
+community: "Community 27"
 location: "Chapter 2: The Power of Randomness / Section 2.1 Reed-Solomon Fingerprinting"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_12
+  - community/Community_27
 ---
 
 # Reed-Solomon Fingerprinting
@@ -17,4 +17,4 @@ tags:
 - [[Polynomial Evaluation Over Finite Field]] - `uses` [EXTRACTED]
 - [[Reed-Solomon Code]] - `uses` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_12
+#graphify/paper #graphify/EXTRACTED #community/Community_27

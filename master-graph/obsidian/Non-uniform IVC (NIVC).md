@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-18-hypernova.pdf"
 type: "paper"
-community: "Community 29"
+community: "Community 52"
 location: "§5 Definition 11"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_29
+  - community/Community_52
 ---
 
 # Non-uniform IVC (NIVC)
@@ -17,4 +17,4 @@ tags:
 - [[Proof-Carrying Data (PCD)]] - `conceptually_related_to` [EXTRACTED]
 - [[SuperNova (Non-Uniform IVC)]] - `instantiates` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_29
+#graphify/paper #graphify/EXTRACTED #community/Community_52

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-07-plonk.pdf"
 type: "paper"
-community: "Community 43"
+community: "Community 65"
 location: "§8, Round 1-3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_43
+  - community/Community_65
 ---
 
 # Zero-Knowledge via ZH Blinding Scalars
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[PLONK Main Protocol for Relation R_C (Theorem 7.1)]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_43
+#graphify/paper #graphify/EXTRACTED #community/Community_65

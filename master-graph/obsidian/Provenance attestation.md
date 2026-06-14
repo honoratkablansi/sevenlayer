@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch3/ref-63-slsa-intoto-frameworks.md"
 type: "document"
-community: "Community 64"
+community: "Community 62"
 tags:
   - graphify/document
   - graphify/INFERRED
-  - community/Community_64
+  - community/Community_62
 ---
 
 # Provenance attestation
@@ -16,4 +16,4 @@ tags:
 - [[Software supply-chain transparency]] - `conceptually_related_to` [INFERRED]
 - [[in-toto supply-chain framework]] - `introduces` [INFERRED]
 
-#graphify/document #graphify/INFERRED #community/Community_64
+#graphify/document #graphify/INFERRED #community/Community_62

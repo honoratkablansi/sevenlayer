@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-13-chiesa-chua-weidner-cycles.pdf"
 type: "paper"
-community: "Community 8"
+community: "Community 24"
 location: "Def. 2 & Def. 4, §1/§3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_8
+  - community/Community_24
 ---
 
 # Definition: pairing-friendly (k1,...,km)-cycle of ordinary curves with small embedding degrees
@@ -18,4 +18,4 @@ tags:
 - [[Embedding degree k]] - `assumes` [EXTRACTED]
 - [[Pairing-friendly elliptic curves]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_8
+#graphify/paper #graphify/EXTRACTED #community/Community_24

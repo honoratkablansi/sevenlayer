@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch11-the-landscape-table-march-2026.md"
 type: "document"
-community: "Community 0"
+community: "Community 13"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Community_13
 ---
 
 # The Landscape Table (March 2026)
@@ -47,4 +47,4 @@ tags:
 - [[zkVMs Across the Stack]] - `references` [EXTRACTED]
 - [[zkWASM]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/document #graphify/EXTRACTED #community/Community_13

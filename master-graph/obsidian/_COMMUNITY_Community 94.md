@@ -1,28 +1,29 @@
 ---
 type: community
-cohesion: 0.18
-members: 13
+cohesion: 0.21
+members: 14
 ---
 
 # Community 94
 
-**Cohesion:** 0.18 - loosely connected
-**Members:** 13 nodes
+**Cohesion:** 0.21 - loosely connected
+**Members:** 14 nodes
 
 ## Members
-- [[ACIR (Abstract Circuit Intermediate Representation)]] - document - proving-nothing.md
-- [[Claim The language determines what bugs the developer can make]] - document - proving-nothing.md
-- [[Compact (MidnightIOG DSL)]] - document - proving-nothing.md
-- [[Compact 26-Pass Nanopass Compilation Pipeline]] - document - proving-nothing.md
-- [[Disclosure Analysis (Compact)]] - document - proving-nothing.md
-- [[Fourth Philosophy Application-Specific DSL]] - document - proving-nothing.md
-- [[Leo (Aleo record-based DSL)]] - document - proving-nothing.md
-- [[Leo (Aleo)  o1js (Mina)]] - document - proving-nothing.md
-- [[Noir (Aztec Labs, ACIR)]] - document - proving-nothing.md
-- [[Pearce et al., NAVe Formal Verification for Noir Programs, 2025]] - document - proving-nothing.md
-- [[RISC-V zkVMs]] - document - proving-nothing.md
-- [[The Four Philosophies of Layer 2 Languages]] - document - proving-nothing.md
-- [[disclose() Operator]] - document - proving-nothing.md
+- [[ASDGP Auxiliary Structured Double Group Pairing assumption]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
+- [[ASSGP Auxiliary Structured Single Group Pairing assumption]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
+- [[Bootle et al. BCC+16 Bulletproofs split-and-collapse strategy]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
+- [[Bowe et al. BCG+20 Zexe recursive composition]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
+- [[Bunz et al. BMM+19 Proofs for Inner Pairing Products]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
+- [[Doubly-homomorphic collapsing commitment]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
+- [[Filecoin Proof-of-Space application (BLS12-381, Rust bellperson)]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
+- [[Groth Gro16 On the size of pairing-based non-interactive arguments]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
+- [[Lai, Malavolta, Ronge LMR19 succinct arguments for bilinear group arithmetic]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
+- [[Logarithmic-size proof and log-time verifier]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
+- [[Non-recursive (pairing-based) aggregation vs recursive composition]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
+- [[Pair Group Commitment schemes (CMs single  CMd double group)]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
+- [[Reuse of two independent Groth16 powers-of-tau ceremonies (no new trusted setup)]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
+- [[SnarkPack Practical SNARK Aggregation]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -32,17 +33,14 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 7 edges to [[_COMMUNITY_Community 5]]
-- 2 edges to [[_COMMUNITY_Community 115]]
-- 1 edge to [[_COMMUNITY_Community 48]]
-- 1 edge to [[_COMMUNITY_Community 4]]
-- 1 edge to [[_COMMUNITY_Community 0]]
-- 1 edge to [[_COMMUNITY_Community 10]]
-- 1 edge to [[_COMMUNITY_Community 116]]
+- 4 edges to [[_COMMUNITY_Community 122]]
+- 3 edges to [[_COMMUNITY_Community 8]]
+- 2 edges to [[_COMMUNITY_Community 106]]
+- 1 edge to [[_COMMUNITY_Community 9]]
 
 ## Top bridge nodes
-- [[The Four Philosophies of Layer 2 Languages]] - degree 8, connects to 3 communities
-- [[Disclosure Analysis (Compact)]] - degree 8, connects to 2 communities
-- [[disclose() Operator]] - degree 3, connects to 2 communities
-- [[Compact (MidnightIOG DSL)]] - degree 6, connects to 1 community
-- [[ACIR (Abstract Circuit Intermediate Representation)]] - degree 3, connects to 1 community
+- [[SnarkPack Practical SNARK Aggregation]] - degree 17, connects to 3 communities
+- [[Pair Group Commitment schemes (CMs single  CMd double group)]] - degree 7, connects to 1 community
+- [[Reuse of two independent Groth16 powers-of-tau ceremonies (no new trusted setup)]] - degree 3, connects to 1 community
+- [[Groth Gro16 On the size of pairing-based non-interactive arguments]] - degree 2, connects to 1 community
+- [[Filecoin Proof-of-Space application (BLS12-381, Rust bellperson)]] - degree 2, connects to 1 community

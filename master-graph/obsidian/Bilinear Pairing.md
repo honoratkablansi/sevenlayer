@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 8"
+community: "Community 87"
 location: "Chapter 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_8
+  - community/Community_87
 ---
 
 # Bilinear Pairing
@@ -56,4 +56,4 @@ tags:
 - [[Weil Pairing]] - `relates_to` [EXTRACTED]
 - [[exTNFS (Extended Tower Number Field Sieve)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_8
+#graphify/document #graphify/EXTRACTED #community/Community_87

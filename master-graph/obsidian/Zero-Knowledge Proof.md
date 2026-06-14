@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 20"
+community: "Community 22"
 location: "Chapter 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_20
+  - community/Community_22
 ---
 
 # Zero-Knowledge Proof
@@ -22,6 +22,7 @@ tags:
 - [[Commit-and-Prove SNARK]] - `builds_on` [EXTRACTED]
 - [[Commitment Scheme]] - `uses` [EXTRACTED]
 - [[Completeness]] - `defines` [EXTRACTED]
+- [[Computational Indistinguishability]] - `defines` [EXTRACTED]
 - [[Computational Soundness]] - `relates_to` [EXTRACTED]
 - [[Computational Zero-Knowledge]] - `special_case_of` [EXTRACTED]
 - [[Constraint Compiler]] - `uses` [EXTRACTED]
@@ -30,7 +31,10 @@ tags:
 - [[Extension Polynomial (Random Higher-Degree Witness Extension)]] - `builds_on` [EXTRACTED]
 - [[FRI Commitment Scheme]] - `uses` [EXTRACTED]
 - [[Fortnow result NP-complete ZK proof implies poly hierarchy collapse]] - `conceptually_related_to` [EXTRACTED]
+- [[GMR (Goldwasser-Micali-Rackoff) Paper]] - `defines` [EXTRACTED]
 - [[Goldwasser, Micali, Rackoff — Knowledge Complexity of Interactive Proof Systems (1985)]] - `introduces` [EXTRACTED]
+- [[Graph 3-Coloring (G3-COLOR)]] - `example_of` [EXTRACTED]
+- [[Graph Isomorphism (GI)]] - `example_of` [EXTRACTED]
 - [[Groth Short Pairing-Based NIZK]] - `defines` [EXTRACTED]
 - [[Groth16]] - `uses` [EXTRACTED]
 - [[Groth16 pairing-based zkSNARK (cited alternative proving system)]] - `conceptually_related_to` [EXTRACTED]
@@ -38,8 +42,10 @@ tags:
 - [[Honest-Verifier Zero-Knowledge]] - `special_case_of` [EXTRACTED]
 - [[Ideal Linear Commitment]] - `uses` [EXTRACTED]
 - [[Interactive Oracle Proofs]] - `defines` [EXTRACTED]
-- [[Interactive Proof (IP) prover-verifier protocol with statistical soundness]] - `uses` [EXTRACTED]
+- [[Interactive Proof (IP) prover-verifier protocol with statistical soundness]] - `builds_on` [EXTRACTED]
+- [[Interactive Proof for Graph Non-Isomorphism]] - `relates_to` [EXTRACTED]
 - [[Knowledge Complexity]] - `conceptually_related_to` [EXTRACTED]
+- [[Knowledge-Soundness]] - `relates_to` [EXTRACTED]
 - [[LaBRADOR Proof System]] - `improves` [EXTRACTED]
 - [[Lattice Cryptography]] - `uses` [EXTRACTED]
 - [[Libra]] - `defines` [EXTRACTED]
@@ -50,12 +56,13 @@ tags:
 - [[Module Learning With Errors (MLWE)]] - `uses` [EXTRACTED]
 - [[Module-SIS  Module-LWE]] - `uses` [EXTRACTED]
 - [[Multiplicative Relation Proof]] - `relates_to` [EXTRACTED]
+- [[NP (Nondeterministic Polynomial Time)]] - `relates_to` [EXTRACTED]
 - [[Non-Interactive Zero-Knowledge (NIZK)]] - `uses` [EXTRACTED]
 - [[On the Size of Pairing-Based Non-interactive Arguments]] - `conceptually_related_to` [EXTRACTED]
 - [[Orion]] - `defines` [EXTRACTED]
 - [[Pantry Verifiable Computation with State]] - `uses` [EXTRACTED]
 - [[Perfect  Statistical  Computational Zero-Knowledge]] - `defines` [EXTRACTED]
-- [[Perfect Zero-Knowledge]] - `special_case_of` [EXTRACTED]
+- [[Perfect Zero-Knowledge]] - `generalizes` [EXTRACTED]
 - [[Perfect zero-knowledge proof for QR (Theorem 1)]] - `proves` [EXTRACTED]
 - [[PoH authentication unlinkable pseudonymity via self-custody + ZKP against a public registry, plus a person-bound second factor (Face Auth) with periodic reauthentication]] - `assumes` [EXTRACTED]
 - [[Polynomial Commitment Scheme]] - `relates_to` [EXTRACTED]
@@ -65,10 +72,13 @@ tags:
 - [[Privacy-preserving  no-tracking technical framework (Art. 5a(16))]] - `assumes` [INFERRED]
 - [[Private State Blockchain]] - `uses` [EXTRACTED]
 - [[Progression-Free Sets NIZK]] - `defines` [EXTRACTED]
+- [[Proof of Knowledge]] - `generalizes` [EXTRACTED]
 - [[Proof of Personhood]] - `enables` [EXTRACTED]
 - [[Proof of correct model execution]] - `conceptually_related_to` [EXTRACTED]
+- [[Protocol Compiler (Honest-to-Dishonest Player Transformation)]] - `enables` [EXTRACTED]
 - [[Prover Efficiency]] - `defines` [EXTRACTED]
 - [[Prover and Verifier]] - `conceptually_related_to` [EXTRACTED]
+- [[Quadratic Residuosity (QR) and Non-Residuosity (QNR) mod x]] - `motivates` [EXTRACTED]
 - [[Regulation (EU) 20241183 establishing the European Digital Identity Framework (eIDAS 2)]] - `references` [EXTRACTED]
 - [[Ring-LWE]] - `uses` [EXTRACTED]
 - [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `builds_on` [EXTRACTED]
@@ -78,6 +88,7 @@ tags:
 - [[Semaphore generic open-source zk-SNARK group-membership and signaling protocol for Ethereum (Groth16-verifiable)]] - `assumes` [EXTRACTED]
 - [[Short Norm Proof]] - `defines` [EXTRACTED]
 - [[Sigma protocol (public-coin 3-move)]] - `defines` [EXTRACTED]
+- [[Simulation Paradigm]] - `defines` [EXTRACTED]
 - [[Simulator  Simulation paradigm (expected poly-time M, View_{A,B})]] - `defines` [EXTRACTED]
 - [[Smart Contract]] - `uses` [EXTRACTED]
 - [[SoK What Don't We Know Understanding Security Vulnerabilities in SNARKs]] - `conceptually_related_to` [EXTRACTED]
@@ -104,10 +115,12 @@ tags:
 - [[VeriSBOM trustless, selectively-disclosed verifiable SBOM-sharing framework via ZKPs]] - `assumes` [EXTRACTED]
 - [[Verifiable State Machine]] - `uses` [EXTRACTED]
 - [[Verifiable computation]] - `uses` [EXTRACTED]
+- [[Verifier's View (transcript of interaction + coin tosses)]] - `defines` [EXTRACTED]
 - [[Virgo ZKP System]] - `defines` [EXTRACTED]
 - [[ZKML (Zero-Knowledge Machine Learning)]] - `references` [EXTRACTED]
+- [[ZKP Applications (Blockchain, Forensics, Nuclear Disarmament, Legal)]] - `enables` [EXTRACTED]
 - [[Zero-knowledge two-stage parsing scheme local pre-process (Trans) then prove context integrity on shorter transformed string]] - `conceptually_related_to` [EXTRACTED]
 - [[Zerocash]] - `uses` [EXTRACTED]
 - [[zKYC (Zero-Knowledge Know Your Customer)]] - `implements` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_20
+#graphify/document #graphify/EXTRACTED #community/Community_22

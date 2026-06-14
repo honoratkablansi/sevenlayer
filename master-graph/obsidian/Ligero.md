@@ -1,12 +1,12 @@
 ---
 source_file: "references/snowball/book/ref-073-ligero-lightweight-sublinear-arguments-without.pdf"
 type: "paper"
-community: "Community 12"
+community: "Community 21"
 location: "abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_12
+  - community/Community_21
 ---
 
 # Ligero
@@ -20,4 +20,4 @@ tags:
 - [[Tensor-Product Structure in Polynomial Evaluation]] - `uses` [EXTRACTED]
 - [[Zero-Knowledge Proof]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_12
+#graphify/paper #graphify/EXTRACTED #community/Community_21

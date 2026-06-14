@@ -1,12 +1,12 @@
 ---
 source_file: "references/snowball/recursion/ref-129-mirage-succinct-arguments-for-randomized-algori.pdf"
 type: "paper"
-community: "Community 17"
+community: "Community 8"
 location: "abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_17
+  - community/Community_8
 ---
 
 # Universal SNARK
@@ -16,4 +16,4 @@ tags:
 - [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `improves` [EXTRACTED]
 - [[Trusted Setup Ceremony]] - `uses` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_17
+#graphify/paper #graphify/EXTRACTED #community/Community_8

@@ -1,12 +1,12 @@
 ---
 source_file: "references/snowball/book/ref-105-updatable-and-universal-common-reference-strings.pdf"
 type: "paper"
-community: "Community 59"
+community: "Community 36"
 location: "abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_59
+  - community/Community_36
 ---
 
 # Universal Common Reference String
@@ -15,4 +15,4 @@ tags:
 - [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `uses` [EXTRACTED]
 - [[Updatable and Universal Structured Reference String]] - `relates_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_59
+#graphify/paper #graphify/EXTRACTED #community/Community_36

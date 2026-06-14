@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/08-the-verdict.md"
 type: "document"
-community: "Community 61"
+community: "Community 8"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_61
+  - community/Community_8
 ---
 
 # Layer 7 -- The Verdict
@@ -56,4 +56,4 @@ tags:
 - [[Who Verifies the Verifier]] - `part_of` [EXTRACTED]
 - [[ZK Rollup]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_61
+#graphify/document #graphify/EXTRACTED #community/Community_8

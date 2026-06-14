@@ -1,12 +1,12 @@
 ---
 source_file: "references/books/proofs-args-zk.pdf"
 type: "paper"
-community: "Community 14"
+community: "Community 84"
 location: "Chapter 1: Introduction / Chapter 2: The Power of Randomness"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_14
+  - community/Community_84
 ---
 
 # Probabilistic Proof System
@@ -16,4 +16,4 @@ tags:
 - [[Freivalds' Algorithm]] - `special_case_of` [EXTRACTED]
 - [[Soundness]] - `uses` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_14
+#graphify/paper #graphify/EXTRACTED #community/Community_84

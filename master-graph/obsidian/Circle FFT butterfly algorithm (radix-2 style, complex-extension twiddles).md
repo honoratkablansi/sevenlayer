@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-23-circle-starks.pdf"
 type: "paper"
-community: "Community 28"
+community: "Community 34"
 location: "Appendix D Algorithm 1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_28
+  - community/Community_34
 ---
 
 # Circle FFT butterfly algorithm (radix-2 style, complex-extension twiddles)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Circle FFT and inverse (non-harmonic, Nn adds, Nn2 mults)]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_28
+#graphify/paper #graphify/EXTRACTED #community/Community_34

@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-58-coda-mina.pdf"
 type: "paper"
-community: "Community 13"
+community: "Community 78"
 location: "§9 Future Work"
 tags:
   - graphify/paper
   - graphify/INFERRED
-  - community/Community_13
+  - community/Community_78
 ---
 
 # Pickles / universal-setup recursion roadmap (Halo, Marlin)
@@ -16,4 +16,4 @@ tags:
 - [[Mina (Coda)]] - `conceptually_related_to` [INFERRED]
 - [[Recursive Proof Composition]] - `conceptually_related_to` [INFERRED]
 
-#graphify/paper #graphify/INFERRED #community/Community_13
+#graphify/paper #graphify/INFERRED #community/Community_78

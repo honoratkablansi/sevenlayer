@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch03/ref-16-jolt.pdf"
 type: "paper"
-community: "Community 3"
+community: "Community 27"
 location: "§2.1, Lemma 1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_3
+  - community/Community_27
 ---
 
 # Multilinear extension (MLE)
@@ -44,4 +44,4 @@ tags:
 - [[Univariate Lagrange Interpolation]] - `uses` [EXTRACTED]
 - [[Wiring Predicate (add_i  mult_i)]] - `uses` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_3
+#graphify/paper #graphify/EXTRACTED #community/Community_27

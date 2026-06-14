@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-05-halo.pdf"
 type: "paper"
-community: "Community 47"
+community: "Community 70"
 location: "References [32]"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_47
+  - community/Community_70
 ---
 
 # Sonic (Maller, Bowe, Kohlweiss, Meiklejohn) [32]
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Main argument Sonic-variant PSHVZK argument of knowledge for arithmetic circuit satisfiability]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_47
+#graphify/paper #graphify/EXTRACTED #community/Community_70

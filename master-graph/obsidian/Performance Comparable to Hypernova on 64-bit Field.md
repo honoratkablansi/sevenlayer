@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-20-latticefold.pdf"
 type: "paper"
-community: "Community 18"
+community: "Community 101"
 location: "Abstract, §5"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_18
+  - community/Community_101
 ---
 
 # Performance Comparable to Hypernova on 64-bit Field
@@ -15,4 +15,4 @@ tags:
 - [[Hypernova Folding Scheme (cited)]] - `conceptually_related_to` [EXTRACTED]
 - [[LatticeFold Lattice-Based Folding Scheme]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_18
+#graphify/paper #graphify/EXTRACTED #community/Community_101

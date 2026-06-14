@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-35-coda.pdf"
 type: "paper"
-community: "Community 46"
+community: "Community 50"
 location: "§3.3.2, Fig.7"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_46
+  - community/Community_50
 ---
 
 # TSub-Refine subtyping rule (reduces type checking to logical validity)
@@ -15,4 +15,4 @@ tags:
 - [[Coda type-checking rules (circuit, expression, subtyping judgments)]] - `defines` [EXTRACTED]
 - [[Coq lemma generation for proof obligations]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_46
+#graphify/paper #graphify/EXTRACTED #community/Community_50

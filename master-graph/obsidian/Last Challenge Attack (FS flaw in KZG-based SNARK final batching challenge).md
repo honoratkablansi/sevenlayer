@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch01/ref-03-sok-snark-vulnerabilities.pdf"
 type: "paper"
-community: "Community 70"
+community: "Community 32"
 location: "App A.3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_70
+  - community/Community_32
 ---
 
 # Last Challenge Attack (FS flaw in KZG-based SNARK final batching challenge)
@@ -15,4 +15,4 @@ tags:
 - [[Fiat-Shamir Transform]] - `conceptually_related_to` [EXTRACTED]
 - [[Proof-system (theoretical) vulnerabilities affecting all implementations]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_70
+#graphify/paper #graphify/EXTRACTED #community/Community_32

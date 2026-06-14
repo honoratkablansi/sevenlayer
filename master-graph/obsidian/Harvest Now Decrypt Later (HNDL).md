@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-63-harvest-now-decrypt-later.pdf"
 type: "document"
-community: "Community 91"
+community: "Community 66"
 location: "Abstract"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_91
+  - community/Community_66
 ---
 
 # Harvest Now Decrypt Later (HNDL)
@@ -26,4 +26,4 @@ tags:
 - [[Threat model bad actor joins as node operator, harvests a non-PQC replica of the ledger, later cracks it with a quantum computer to reveal plaintext]] - `defines` [EXTRACTED]
 - [[Transition to Post-Quantum Cryptography Standards (NIST IR 8547)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_91
+#graphify/document #graphify/EXTRACTED #community/Community_66

@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch01/ref-01-clarke-profiles-of-the-future.md"
 type: "document"
-community: "Community 24"
+community: "Community 12"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_24
+  - community/Community_12
 ---
 
 # Profiles of the Future (Arthur C. Clarke, 1962)
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[The Promise of Provable and Programmable Secrets]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_24
+#graphify/document #graphify/EXTRACTED #community/Community_12

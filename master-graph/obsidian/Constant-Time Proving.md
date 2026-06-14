@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 24"
+community: "Community 12"
 location: "Chapter 14: Open Questions and the Road Ahead"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_24
+  - community/Community_12
 ---
 
 # Constant-Time Proving
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Open Questions and the Road Ahead]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_24
+#graphify/document #graphify/EXTRACTED #community/Community_12

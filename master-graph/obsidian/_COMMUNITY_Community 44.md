@@ -1,39 +1,40 @@
 ---
 type: community
-cohesion: 0.11
-members: 24
+cohesion: 0.10
+members: 25
 ---
 
 # Community 44
 
-**Cohesion:** 0.11 - loosely connected
-**Members:** 24 nodes
+**Cohesion:** 0.10 - loosely connected
+**Members:** 25 nodes
 
 ## Members
-- [[Algorithms for Quantum Computation Discrete Logarithms and Factoring]] - paper - references/ch07/ref-24-shor.pdf
-- [[Approval-status terms acceptable, deprecated, disallowed, legacy use]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
-- [[BQP (bounded-error quantum polynomial time)]] - paper - references/ch07/ref-24-shor.pdf
-- [[Coppersmith approximate Fourier transform]] - paper - references/ch07/ref-24-shor.pdf
-- [[Decoherence and gate imprecision obstacles]] - paper - references/ch07/ref-24-shor.pdf
-- [[DeprecationDisallowance Schedule 112-bit deprecated after 2030, RSAECC disallowed after 2035]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
-- [[Discrete Logarithm Problem]] - paper - references/ch07/ref-24-shor.pdf
-- [[Discrete-log-based public-key cryptosystems (Diffie-HellmanDSA)]] - paper - references/ch07/ref-24-shor.pdf
-- [[ECDSA (Elliptic Curve Digital Signature Algorithm)]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
-- [[Finite Fields]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[Integer Factorization]] - paper - references/ch07/ref-24-shor.pdf
-- [[Period Finding]] - paper - references/ch07/ref-24-shor.pdf
-- [[Peter W. Shor]] - paper - references/ch07/ref-24-shor.pdf
-- [[Public-Key Cryptography]] - paper - references/ch07/ref-24-shor.pdf
-- [[Quantum Algorithm]] - paper - references/ch07/ref-24-shor.pdf
-- [[Quantum Fourier transform]] - paper - references/ch07/ref-24-shor.pdf
-- [[Quantum discrete logarithm algorithm]] - paper - references/ch07/ref-24-shor.pdf
-- [[Quantum gate array (acyclic circuit) model]] - paper - references/ch07/ref-24-shor.pdf
-- [[Quantum interference  superposition]] - paper - references/ch07/ref-24-shor.pdf
-- [[Quantum-vulnerable digital signatures (ECDSA, EdDSA, RSA per FIPS 186)]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
-- [[Quantum-vulnerable key establishment (Finite FieldEC DH & MQV per SP 800-56A, RSA per SP 800-56B)]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
-- [[RSA Cryptosystem]] - paper - references/ch07/ref-24-shor.pdf
-- [[Shor's Algorithm]] - paper - references/ch07/ref-24-shor.pdf
-- [[Simon's oracle algorithm (inspiration for this work)]] - paper - references/ch07/ref-24-shor.pdf
+- [[Ben-Sasson et al. 2013 RAM-to-small-space reduction via Merkle hashing BSCGT13]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
+- [[Bitansky-Canetti-Chiesa-Tromer 2012 ECRH to SNARK and back BCCT12]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
+- [[Bitansky-Canetti-Chiesa-Tromer Recursive Composition and Bootstrapping for SNARKs and PCD (STOC 2013)]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
+- [[Boneh-Segev-Waters 2012 targeted malleability BSW12]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
+- [[Chiesa-Tromer 2010 Proof-Carrying Data  enforcing local properties CT10]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
+- [[Circuit Privacy]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Collision-resistant hash functions (CRH) assumption]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
+- [[Complexity-preserving SNARK (prover time tpoly(k), space spoly(k); no preprocessing)]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
+- [[Extractor (polynomial) size blowup under recursive extraction (forces O(1) depth)]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
+- [[Fully-homomorphic encryption (FHE) assumption]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
+- [[Gentry 2009 FHE bootstrapping paradigm Gen09]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
+- [[Gentry-Wichs 2011 no SNARG via black-box reduction to falsifiable assumption GW11]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
+- [[Ideal Lattice]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Learning With Errors (LWE) problem (Regev 2005)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
+- [[SNARK bootstrapping (to complexity-preserving SNARK)]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
+- [[Somewhat Homomorphic Encryption (SHE)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Succinctness]] - document - recursion/recursion-outline.md
+- [[The Succinctness Threshold]] - document - recursion/recursion-outline.md
+- [[The Verifier's Dilemma (unbounded sequences)]] - document - recursion/recursion-outline.md
+- [[Theorem 1 SNARK Recursive Composition (SNARK - PCD for O(1)-depth predicates)]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
+- [[Theorem 2 PCD Depth-Reduction (O(1)-depth PCD - poly-depth path PCD via wide Merkle proof trees)]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
+- [[Theorem 3 Locally-Efficient RAM Compliance (NP statement - poly-depth compliance predicate)]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
+- [[Theorem 4  9.1 Main bootstrapping theorem (any SNARK - complexity-preserving SNARK and PCD)]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
+- [[Valiant 2008 Incrementally-Verifiable Computation Val08]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
+- [[Valiant Incrementally Verifiable Computation (TCC 2008)]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -43,22 +44,21 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 4 edges to [[_COMMUNITY_Community 106]]
-- 3 edges to [[_COMMUNITY_Community 1]]
-- 2 edges to [[_COMMUNITY_Community 112]]
-- 2 edges to [[_COMMUNITY_Community 91]]
-- 2 edges to [[_COMMUNITY_Community 16]]
-- 1 edge to [[_COMMUNITY_Community 12]]
-- 1 edge to [[_COMMUNITY_Community 29]]
-- 1 edge to [[_COMMUNITY_Community 131]]
-- 1 edge to [[_COMMUNITY_Community 136]]
-- 1 edge to [[_COMMUNITY_Community 11]]
-- 1 edge to [[_COMMUNITY_Community 8]]
-- 1 edge to [[_COMMUNITY_Community 33]]
+- 5 edges to [[_COMMUNITY_Community 19]]
+- 4 edges to [[_COMMUNITY_Community 47]]
+- 3 edges to [[_COMMUNITY_Community 0]]
+- 3 edges to [[_COMMUNITY_Community 41]]
+- 2 edges to [[_COMMUNITY_Community 32]]
+- 2 edges to [[_COMMUNITY_Community 36]]
+- 2 edges to [[_COMMUNITY_Community 23]]
+- 2 edges to [[_COMMUNITY_Community 69]]
+- 1 edge to [[_COMMUNITY_Community 64]]
+- 1 edge to [[_COMMUNITY_Community 43]]
+- 1 edge to [[_COMMUNITY_Community 103]]
 
 ## Top bridge nodes
-- [[Discrete Logarithm Problem]] - degree 10, connects to 5 communities
-- [[Algorithms for Quantum Computation Discrete Logarithms and Factoring]] - degree 13, connects to 4 communities
-- [[Shor's Algorithm]] - degree 7, connects to 4 communities
-- [[DeprecationDisallowance Schedule 112-bit deprecated after 2030, RSAECC disallowed after 2035]] - degree 5, connects to 2 communities
-- [[RSA Cryptosystem]] - degree 7, connects to 1 community
+- [[Bitansky-Canetti-Chiesa-Tromer Recursive Composition and Bootstrapping for SNARKs and PCD (STOC 2013)]] - degree 15, connects to 5 communities
+- [[Succinctness]] - degree 5, connects to 2 communities
+- [[Theorem 1 SNARK Recursive Composition (SNARK - PCD for O(1)-depth predicates)]] - degree 5, connects to 2 communities
+- [[Learning With Errors (LWE) problem (Regev 2005)]] - degree 3, connects to 2 communities
+- [[The Succinctness Threshold]] - degree 3, connects to 2 communities

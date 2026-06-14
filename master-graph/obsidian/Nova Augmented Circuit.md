@@ -1,12 +1,12 @@
 ---
 source_file: "recursion/recursion-outline.md"
 type: "document"
-community: "Community 22"
+community: "Community 23"
 location: "Recursion Chapter 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_22
+  - community/Community_23
 ---
 
 # Nova Augmented Circuit
@@ -16,4 +16,4 @@ tags:
 - [[Nova]] - `explains` [EXTRACTED]
 - [[Proof-Carrying Data (PCD)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_22
+#graphify/document #graphify/EXTRACTED #community/Community_23

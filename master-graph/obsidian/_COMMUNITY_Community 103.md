@@ -1,27 +1,27 @@
 ---
 type: community
-cohesion: 0.23
+cohesion: 0.17
 members: 12
 ---
 
 # Community 103
 
-**Cohesion:** 0.23 - loosely connected
+**Cohesion:** 0.17 - loosely connected
 **Members:** 12 nodes
 
 ## Members
-- [[Apposcopy inter-component call graph (ICCG) abstraction]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[CirC Compiler Infrastructure]] - paper - references/snowball/book/ref-122-circ-compiler-infrastructure-for-proof-systems.pdf
-- [[Circomspect Static Analyzer]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
-- [[Circuit Dependence Graph (CDG)]] - document - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[Circuit Dependence Graph (CDG) abstraction G=(V,Ed,Ec)]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[Constrained Horn Clause  Datalog query]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[Constraint Compiler]] - paper - references/snowball/book/ref-122-circ-compiler-infrastructure-for-proof-systems.pdf
-- [[Datalog-style CDG construction inference rules]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[Practical Security Analysis of Zero-Knowledge Proof Circuits]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[Static Analysis]] - document - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[ZKAP (static analyzer for ZKP circuits)]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[ZKAP evaluation on 258 Circom circuits (17 projects)]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
+- [[Algebraic Hash Functions (Poseidon)]] - document - proving-nothing.md
+- [[Alternating PCD construction over 2-cycle (Cpcd,alpha  Cpcd,beta)]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
+- [[Collision-Resistant Hash Functions]] - document - proving-nothing.md
+- [[Grover's Algorithm]] - document - proving-nothing.md
+- [[Merkle-tree memory checking for delegated RAM]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
+- [[Nondeterministic pairing verification with affine coordinates]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
+- [[PCD-friendly 2-cycle (base field of one curve = group order of other)]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
+- [[RAM compliance predicate Pi_{M,H} (per-step verification)]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
+- [[Scalable Zero Knowledge via Cycles of Elliptic Curves (BCTV14, CRYPTO 2014)]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
+- [[Scalable zk-SNARK (fully succinct + incrementally computable)]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
+- [[Subset-sum hash verifiable in =300 gates over native field]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
+- [[vnTinyRAM evaluation ~26.2sstep, VIPS clock rate]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -31,19 +31,21 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 4 edges to [[_COMMUNITY_Community 90]]
-- 3 edges to [[_COMMUNITY_Community 3]]
-- 3 edges to [[_COMMUNITY_Community 69]]
-- 2 edges to [[_COMMUNITY_Community 95]]
-- 1 edge to [[_COMMUNITY_Community 20]]
-- 1 edge to [[_COMMUNITY_Community 41]]
-- 1 edge to [[_COMMUNITY_Community 15]]
-- 1 edge to [[_COMMUNITY_Community 5]]
-- 1 edge to [[_COMMUNITY_Community 24]]
+- 3 edges to [[_COMMUNITY_Community 24]]
+- 3 edges to [[_COMMUNITY_Community 47]]
+- 2 edges to [[_COMMUNITY_Community 41]]
+- 2 edges to [[_COMMUNITY_Community 5]]
+- 1 edge to [[_COMMUNITY_Community 87]]
+- 1 edge to [[_COMMUNITY_Community 0]]
+- 1 edge to [[_COMMUNITY_Community 10]]
+- 1 edge to [[_COMMUNITY_Community 21]]
+- 1 edge to [[_COMMUNITY_Community 35]]
+- 1 edge to [[_COMMUNITY_Community 44]]
+- 1 edge to [[_COMMUNITY_Community 91]]
 
 ## Top bridge nodes
-- [[Practical Security Analysis of Zero-Knowledge Proof Circuits]] - degree 10, connects to 6 communities
-- [[Static Analysis]] - degree 5, connects to 2 communities
-- [[CirC Compiler Infrastructure]] - degree 4, connects to 2 communities
-- [[Circomspect Static Analyzer]] - degree 4, connects to 2 communities
-- [[Circuit Dependence Graph (CDG) abstraction G=(V,Ed,Ec)]] - degree 6, connects to 1 community
+- [[Collision-Resistant Hash Functions]] - degree 9, connects to 4 communities
+- [[Scalable Zero Knowledge via Cycles of Elliptic Curves (BCTV14, CRYPTO 2014)]] - degree 4, connects to 3 communities
+- [[Algebraic Hash Functions (Poseidon)]] - degree 4, connects to 2 communities
+- [[Scalable zk-SNARK (fully succinct + incrementally computable)]] - degree 4, connects to 1 community
+- [[Alternating PCD construction over 2-cycle (Cpcd,alpha  Cpcd,beta)]] - degree 4, connects to 1 community

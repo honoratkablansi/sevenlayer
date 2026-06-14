@@ -10,23 +10,23 @@ members: 17
 **Members:** 17 nodes
 
 ## Members
-- [[Axiom]] - document - wiki/sections/ch13-zk-coprocessors-off-chain-computation-on-chain-verification-growth.md
-- [[Axiom (ZK Coprocessor, $20M Series A)]] - document - proving-nothing.md
-- [[Brevis]] - document - wiki/sections/ch13-zk-coprocessors-off-chain-computation-on-chain-verification-growth.md
-- [[Brevis (Coprocessor + Pico Prism zkVM, ProverNet)]] - document - proving-nothing.md
-- [[EZKL]] - document - wiki/sections/ch13-zkml-provable-machine-learning-research.md
-- [[EZKL (open-source ZKML toolkit, halo2ONNX)]] - document - proving-nothing.md
-- [[Halo2 proving system]] - document - references/recursion/ch3/ref-72-ezkl-modulus-docs.md
-- [[Lagrange]] - document - wiki/sections/ch13-zk-coprocessors-off-chain-computation-on-chain-verification-growth.md
-- [[Lagrange  DeepProve (ZK coprocessing, 700x ZKML claim)]] - document - proving-nothing.md
-- [[Lagrange DeepProve]] - document - wiki/sections/ch13-zkml-provable-machine-learning-research.md
-- [[Pico zkVM]] - document - wiki/sections/ch13-zk-coprocessors-off-chain-computation-on-chain-verification-growth.md
-- [[Sumcheck-based DNN proof systems (zkCNNLiu 2021, vCNNLee 2020, pvCNNWeng 2022, Thaler 2013) custom IPSNARK protocols tailored to convolutions, limited to MNISTCIFAR-10]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
-- [[ZK Coprocessor]] - document - proving-nothing.md
-- [[ZK Coprocessors Off-Chain Computation, On-Chain Verification (Growth)]] - document - wiki/sections/ch13-zk-coprocessors-off-chain-computation-on-chain-verification-growth.md
-- [[ZKML (Zero-Knowledge Machine Learning)]] - document - proving-nothing.md
-- [[ZKML Provable Machine Learning (Research)]] - document - wiki/sections/ch13-zkml-provable-machine-learning-research.md
-- [[zkML inference proof with folding case study]] - document - recursion/recursion-outline.md
+- [[4x4 Sudoku Proof (Running Example)]] - document - proving-nothing.md
+- [[Chapter 3 Choreographing the Act (Layer 2 - Language)]] - document - proving-nothing.md
+- [[Claim The compiler, not the language, is the part that matters]] - document - proving-nothing.md
+- [[Collision Problem]] - paper - references/books/proofs-args-zk.pdf
+- [[Gassmann et al., Evaluating Compiler Optimization Impacts on zkVM Performance, arXiv 2508.17518]] - document - proving-nothing.md
+- [[Graph Isomorphism (GI)]] - paper - references/mooc/lecture01/slides.pdf
+- [[Graph Non-Isomorphism Protocol]] - paper - references/books/proofs-args-zk.pdf
+- [[Honest-Verifier Zero-Knowledge]] - paper - references/books/proofs-args-zk.pdf
+- [[IP Complexity Class (Interactive Proof Languages)]] - paper - references/mooc/lecture01/slides.pdf
+- [[NP (Nondeterministic Polynomial Time)]] - paper - references/mooc/lecture01/slides.pdf
+- [[NP-Proof (Efficiently Verifiable Proof)]] - paper - references/mooc/lecture01/slides.pdf
+- [[Non-Deterministic Hint]] - document - proving-nothing.md
+- [[Ozdemir, Brown, Wahby, CirC Compiler Infrastructure for Proof Systems, IEEE S&P 2022]] - document - proving-nothing.md
+- [[PSPACE (IP = PSPACE Theorem)]] - paper - references/mooc/lecture01/slides.pdf
+- [[Six-Step Developer Lifecycle (Write-Compile-Test-Prove-Deploy-Monitor)]] - document - proving-nothing.md
+- [[Statistical Zero-Knowledge]] - paper - references/books/proofs-args-zk.pdf
+- [[Witness (private execution traceinputs)]] - document - proving-nothing.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -36,27 +36,22 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 5 edges to [[_COMMUNITY_Community 10]]
-- 4 edges to [[_COMMUNITY_Community 88]]
-- 3 edges to [[_COMMUNITY_Community 22]]
-- 3 edges to [[_COMMUNITY_Community 40]]
-- 3 edges to [[_COMMUNITY_Community 75]]
-- 2 edges to [[_COMMUNITY_Community 0]]
-- 2 edges to [[_COMMUNITY_Community 5]]
-- 2 edges to [[_COMMUNITY_Community 4]]
-- 2 edges to [[_COMMUNITY_Community 17]]
-- 1 edge to [[_COMMUNITY_Community 20]]
-- 1 edge to [[_COMMUNITY_Community 41]]
-- 1 edge to [[_COMMUNITY_Community 15]]
-- 1 edge to [[_COMMUNITY_Community 31]]
-- 1 edge to [[_COMMUNITY_Community 81]]
-- 1 edge to [[_COMMUNITY_Community 139]]
-- 1 edge to [[_COMMUNITY_Community 9]]
+- 5 edges to [[_COMMUNITY_Community 22]]
+- 5 edges to [[_COMMUNITY_Community 40]]
+- 4 edges to [[_COMMUNITY_Community 1]]
+- 2 edges to [[_COMMUNITY_Community 84]]
+- 2 edges to [[_COMMUNITY_Community 53]]
+- 2 edges to [[_COMMUNITY_Community 32]]
+- 2 edges to [[_COMMUNITY_Community 97]]
+- 1 edge to [[_COMMUNITY_Community 17]]
 - 1 edge to [[_COMMUNITY_Community 61]]
+- 1 edge to [[_COMMUNITY_Community 29]]
+- 1 edge to [[_COMMUNITY_Community 15]]
+- 1 edge to [[_COMMUNITY_Community 112]]
 
 ## Top bridge nodes
-- [[ZKML (Zero-Knowledge Machine Learning)]] - degree 24, connects to 12 communities
-- [[ZK Coprocessors Off-Chain Computation, On-Chain Verification (Growth)]] - degree 12, connects to 4 communities
-- [[ZKML Provable Machine Learning (Research)]] - degree 10, connects to 4 communities
-- [[ZK Coprocessor]] - degree 6, connects to 2 communities
-- [[Sumcheck-based DNN proof systems (zkCNNLiu 2021, vCNNLee 2020, pvCNNWeng 2022, Thaler 2013) custom IPSNARK protocols tailored to convolutions, limited to MNISTCIFAR-10]] - degree 3, connects to 1 community
+- [[NP (Nondeterministic Polynomial Time)]] - degree 10, connects to 6 communities
+- [[Witness (private execution traceinputs)]] - degree 14, connects to 5 communities
+- [[Graph Isomorphism (GI)]] - degree 6, connects to 3 communities
+- [[NP-Proof (Efficiently Verifiable Proof)]] - degree 5, connects to 3 communities
+- [[Honest-Verifier Zero-Knowledge]] - degree 4, connects to 3 communities

@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 110"
+community: "Community 4"
 location: "Chapter 9"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_110
+  - community/Community_4
 ---
 
 # Claim: Privacy Is a Property of Architecture, Not a Bolt-On
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Chapter 9 Privacy-Enhancing Technologies]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_110
+#graphify/document #graphify/EXTRACTED #community/Community_4

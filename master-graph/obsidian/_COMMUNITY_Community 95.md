@@ -1,28 +1,29 @@
 ---
 type: community
-cohesion: 0.18
-members: 13
+cohesion: 0.16
+members: 14
 ---
 
 # Community 95
 
-**Cohesion:** 0.18 - loosely connected
-**Members:** 13 nodes
+**Cohesion:** 0.16 - loosely connected
+**Members:** 14 nodes
 
 ## Members
-- [[Chaliasos et al. — SoK Security Vulnerabilities in SNARKs (USENIX 2024)]] - document - proving-nothing.md
-- [[Circom]] - document - proving-nothing.md
-- [[Claim Under-constrained circuits are the dominant ZK failure mode (95 of 141 bugs)]] - document - proving-nothing.md
-- [[Jordi Baylina (Circom, iden3, Hermez, ZisK)]] - document - proving-nothing.md
-- [[Pailoor et al., PicusQED2 Automated Detection of Under-Constrained Circuits, PLDI 2023]] - document - proving-nothing.md
-- [[PolygonHermez zkEVM sunset and Baylina's pivot to ZisKRISC-V]] - document - proving-nothing.md
-- [[Root cause assigned but not constrained (signal given a value with no constraint)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
-- [[Takahashi et al., zkFuzz Fuzzing of Zero-Knowledge Circuits, IEEE S&P 2026]] - document - proving-nothing.md
-- [[Tornado Cash Under-Constraint Bug]] - document - proving-nothing.md
-- [[Tornado Cash circomlib MiMC under-constrained bug (assigned-but-unconstrained output)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
-- [[Under-Constrained Circuits]] - document - proving-nothing.md
-- [[Wen et al., ZKAP Practical Security Analysis of ZK Proof Circuits, USENIX Security 2024]] - document - proving-nothing.md
-- [[Xue et al., ZK-Coder LLMs for ZK Proof Code Generation, arXiv 2509.11708]] - document - proving-nothing.md
+- [[Algorand player-replaceable byzantine agreement (cited analogy for player exchangeability)]] - paper - references/ch02/ref-05-mpc-random-beacon.pdf
+- [[Ben-Sasson-Chiesa-Green-Tromer-Virza MPC for public parameters (prior CRS protocol)]] - paper - references/ch02/ref-05-mpc-random-beacon.pdf
+- [[Bowe-Gabizon-Green MPC for the Pinocchio zk-SNARK parameters (prior protocol, Zcash setup)]] - paper - references/ch02/ref-05-mpc-random-beacon.pdf
+- [[Delayed-hash random beacon (e.g. 240 SHA256 iterations) per Bunz-Goldfeder-Bonneau]] - paper - references/ch02/ref-05-mpc-random-beacon.pdf
+- [[Knowledge of Exponent Assumption (KEA) basis for the discrete-log proof of knowledge scheme]] - paper - references/ch02/ref-05-mpc-random-beacon.pdf
+- [[Layered multiplydivide + linear-combination circuit structure for parameter generation]] - paper - references/ch02/ref-05-mpc-random-beacon.pdf
+- [[POKCheckPOK random-oracle discrete-log proof of knowledge of exponent (Algorithms 3,4)]] - paper - references/ch02/ref-05-mpc-random-beacon.pdf
+- [[Player-exchangeable MPC (px-MPC) message sequence with no restriction on sender identity, no private state between messages]] - paper - references/ch02/ref-05-mpc-random-beacon.pdf
+- [[Precommitment phase round in prior MPC forcing pre-selection of participants and secret custody, removed by this work]] - paper - references/ch02/ref-05-mpc-random-beacon.pdf
+- [[Random beacon model public verifiable randomness at fixed time slots, unavailable before the slot]] - paper - references/ch02/ref-05-mpc-random-beacon.pdf
+- [[SameRatio  consistent pairing-based ratio-equality checks (Algorithms 1,2)]] - paper - references/ch02/ref-05-mpc-random-beacon.pdf
+- [[Theorem 5.1 security under u-co-resistant beacon, advantage bound 2{-ud}·adv - negl]] - paper - references/ch02/ref-05-mpc-random-beacon.pdf
+- [[Untrusted coordinator deterministic, publicly verifiable interphase computation party]] - paper - references/ch02/ref-05-mpc-random-beacon.pdf
+- [[u-co-resistance beacon output retains min-entropy at least k·logF_p - u under adversarial influence]] - paper - references/ch02/ref-05-mpc-random-beacon.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -32,25 +33,13 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 4 edges to [[_COMMUNITY_Community 5]]
-- 4 edges to [[_COMMUNITY_Community 46]]
-- 3 edges to [[_COMMUNITY_Community 69]]
-- 2 edges to [[_COMMUNITY_Community 15]]
-- 2 edges to [[_COMMUNITY_Community 129]]
-- 2 edges to [[_COMMUNITY_Community 0]]
-- 2 edges to [[_COMMUNITY_Community 103]]
-- 1 edge to [[_COMMUNITY_Community 14]]
-- 1 edge to [[_COMMUNITY_Community 41]]
-- 1 edge to [[_COMMUNITY_Community 3]]
-- 1 edge to [[_COMMUNITY_Community 24]]
-- 1 edge to [[_COMMUNITY_Community 82]]
-- 1 edge to [[_COMMUNITY_Community 6]]
-- 1 edge to [[_COMMUNITY_Community 107]]
-- 1 edge to [[_COMMUNITY_Community 10]]
+- 4 edges to [[_COMMUNITY_Community 35]]
+- 3 edges to [[_COMMUNITY_Community 9]]
+- 1 edge to [[_COMMUNITY_Community 42]]
 
 ## Top bridge nodes
-- [[Circom]] - degree 28, connects to 13 communities
-- [[Jordi Baylina (Circom, iden3, Hermez, ZisK)]] - degree 3, connects to 1 community
-- [[Root cause assigned but not constrained (signal given a value with no constraint)]] - degree 3, connects to 1 community
-- [[PolygonHermez zkEVM sunset and Baylina's pivot to ZisKRISC-V]] - degree 2, connects to 1 community
-- [[Chaliasos et al. — SoK Security Vulnerabilities in SNARKs (USENIX 2024)]] - degree 2, connects to 1 community
+- [[Player-exchangeable MPC (px-MPC) message sequence with no restriction on sender identity, no private state between messages]] - degree 9, connects to 2 communities
+- [[Knowledge of Exponent Assumption (KEA) basis for the discrete-log proof of knowledge scheme]] - degree 3, connects to 2 communities
+- [[Random beacon model public verifiable randomness at fixed time slots, unavailable before the slot]] - degree 5, connects to 1 community
+- [[Ben-Sasson-Chiesa-Green-Tromer-Virza MPC for public parameters (prior CRS protocol)]] - degree 2, connects to 1 community
+- [[Bowe-Gabizon-Green MPC for the Pinocchio zk-SNARK parameters (prior protocol, Zcash setup)]] - degree 2, connects to 1 community

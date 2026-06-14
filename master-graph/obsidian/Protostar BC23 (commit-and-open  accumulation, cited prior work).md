@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-56-symphony.pdf"
 type: "paper"
-community: "Community 18"
+community: "Community 83"
 location: "§5"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_18
+  - community/Community_83
 ---
 
 # Protostar [BC23] (commit-and-open / accumulation, cited prior work)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Commit-and-Open Fiat-Shamir transform FSHPi_cm,Pi_rok (Thm 5.1) over compressed transcript]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_18
+#graphify/paper #graphify/EXTRACTED #community/Community_83

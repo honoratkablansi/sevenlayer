@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch1/ref-18-risc-zero-proof-system-overview.md"
 type: "document"
-community: "Community 0"
+community: "Community 61"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Community_61
 ---
 
 # DEEP-ALI and FRI
@@ -15,4 +15,4 @@ tags:
 - [[FRI Commitment Scheme]] - `references` [EXTRACTED]
 - [[RISC Zero]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/document #graphify/EXTRACTED #community/Community_61

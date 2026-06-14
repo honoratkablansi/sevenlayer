@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch13/ref-44-ethproofs.md"
 type: "document"
-community: "Community 10"
+community: "Community 16"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_10
+  - community/Community_16
 ---
 
 # Ethproofs: ZK Proving Cost Tracker (Ethereum Foundation)
@@ -22,4 +22,4 @@ tags:
 - [[zkEVM  EVM-Compatible Proving]] - `references` [EXTRACTED]
 - [[zkVM]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_10
+#graphify/document #graphify/EXTRACTED #community/Community_16

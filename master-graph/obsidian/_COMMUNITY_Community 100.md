@@ -1,28 +1,28 @@
 ---
 type: community
-cohesion: 0.19
+cohesion: 0.22
 members: 13
 ---
 
 # Community 100
 
-**Cohesion:** 0.19 - loosely connected
+**Cohesion:** 0.22 - loosely connected
 **Members:** 13 nodes
 
 ## Members
-- [[DKIM signature verification proofs]] - document - references/recursion/ch3/ref-85-zkemail-docs.md
-- [[Email Wallet and account recovery]] - document - references/recursion/ch3/ref-85-zkemail-docs.md
-- [[MPC-TLS prover-verifier protocol]] - document - references/recursion/ch3/ref-86-tlsnotary-docs.md
-- [[Notary attestation of TLS session data]] - document - references/recursion/ch3/ref-86-tlsnotary-docs.md
-- [[Selective redaction of TLS transcript]] - document - references/recursion/ch3/ref-86-tlsnotary-docs.md
-- [[TLSNotary]] - document - references/recursion/ch3/ref-86-tlsnotary-docs.md
-- [[TLSNotary project documentation]] - document - references/recursion/ch3/ref-86-tlsnotary-docs.md
-- [[Web data provenance  authenticity of TLS-accessed data]] - paper - references/recursion/ch3/ref-87-deco.pdf
-- [[ZK Email Blueprint SDK and Verifier]] - document - references/recursion/ch3/ref-85-zkemail-docs.md
-- [[ZK Email documentation]] - document - references/recursion/ch3/ref-85-zkemail-docs.md
-- [[ZK-Regex circuit primitive]] - document - references/recursion/ch3/ref-85-zkemail-docs.md
-- [[zkEmail]] - document - references/recursion/ch3/ref-85-zkemail-docs.md
-- [[zkTLS  zkEmail web and email provenance]] - document - recursion/recursion-outline.md
+- [[Algebraic Interactive Proof (AIP) public-coin IP with arithmetic-circuit verifier]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[CP-Mirage+ commit-and-prove zkSNARK for AIPs with Pedersen-committed witnesses]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[CirC-compiler implementation, bellmanGroth16 base, Z rollup application]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[Cost claim persistent RAM proving time reduced up to 51.3x vs RSAMerkle prior art]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[I-R1CS interactive rank-1 constraint system arithmetization for AIPs]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[MIRAGE (Kosba et al.) succinct arguments for randomized algorithms MA1]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[Mirage+ zkSNARK compiler from AIP (I-R1CS) to zkSNARK, generalizes Groth16Mirage]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[Ozdemir et al. RSAMerkle set-accumulator RAM (prior state of the art)]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[Persistent RAM AIP (committed initialfinal states)]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[Pi_active active-cell selection via H_r permutation proofs, V-cost 3N+2A+O(1)]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[Read-over-write (RoW) validity condition for transcripts]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[Volatile and Persistent Memory for zkSNARKs via Algebraic Interactive Proofs]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[zkSNARK]] - document - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -32,15 +32,21 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 2 edges to [[_COMMUNITY_Community 48]]
-- 2 edges to [[_COMMUNITY_Community 27]]
-- 1 edge to [[_COMMUNITY_Community 102]]
-- 1 edge to [[_COMMUNITY_Community 13]]
-- 1 edge to [[_COMMUNITY_Community 78]]
+- 5 edges to [[_COMMUNITY_Community 85]]
+- 3 edges to [[_COMMUNITY_Community 55]]
+- 2 edges to [[_COMMUNITY_Community 2]]
+- 2 edges to [[_COMMUNITY_Community 124]]
+- 1 edge to [[_COMMUNITY_Community 8]]
+- 1 edge to [[_COMMUNITY_Community 98]]
+- 1 edge to [[_COMMUNITY_Community 15]]
+- 1 edge to [[_COMMUNITY_Community 46]]
+- 1 edge to [[_COMMUNITY_Community 125]]
+- 1 edge to [[_COMMUNITY_Community 1]]
+- 1 edge to [[_COMMUNITY_Community 12]]
 
 ## Top bridge nodes
-- [[zkTLS  zkEmail web and email provenance]] - degree 7, connects to 3 communities
-- [[Web data provenance  authenticity of TLS-accessed data]] - degree 4, connects to 1 community
-- [[zkEmail]] - degree 4, connects to 1 community
-- [[DKIM signature verification proofs]] - degree 2, connects to 1 community
-- [[Selective redaction of TLS transcript]] - degree 2, connects to 1 community
+- [[Volatile and Persistent Memory for zkSNARKs via Algebraic Interactive Proofs]] - degree 16, connects to 8 communities
+- [[zkSNARK]] - degree 8, connects to 3 communities
+- [[CP-Mirage+ commit-and-prove zkSNARK for AIPs with Pedersen-committed witnesses]] - degree 4, connects to 1 community
+- [[Pi_active active-cell selection via H_r permutation proofs, V-cost 3N+2A+O(1)]] - degree 2, connects to 1 community
+- [[Read-over-write (RoW) validity condition for transcripts]] - degree 2, connects to 1 community

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-64-fips-204.pdf"
 type: "paper"
-community: "Community 1"
+community: "Community 0"
 location: "title"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_1
+  - community/Community_0
 ---
 
 # Module Lattice
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Lattice Cryptography]] - `instance_of` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_1
+#graphify/paper #graphify/EXTRACTED #community/Community_0

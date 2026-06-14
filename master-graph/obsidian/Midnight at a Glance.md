@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch12-midnight-at-a-glance.md"
 type: "document"
-community: "Community 5"
+community: "Community 17"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_5
+  - community/Community_17
 ---
 
 # Midnight at a Glance
@@ -23,4 +23,4 @@ tags:
 - [[ZK Rollups The Proving Grounds (Production)]] - `references` [EXTRACTED]
 - [[ZKIR (Zero-Knowledge Intermediate Representation)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_5
+#graphify/document #graphify/EXTRACTED #community/Community_17

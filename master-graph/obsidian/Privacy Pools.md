@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 84"
+community: "Community 48"
 location: "Chapter 9"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_84
+  - community/Community_48
 ---
 
 # Privacy Pools
@@ -26,4 +26,4 @@ tags:
 - [[ZK Identity (Growth  Regulatory Mandate)]] - `references` [EXTRACTED]
 - [[Zero-Knowledge Proofs (ZKPs)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_84
+#graphify/document #graphify/EXTRACTED #community/Community_48

@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf"
 type: "paper"
-community: "Community 53"
+community: "Community 51"
 location: "§4"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_53
+  - community/Community_51
 ---
 
 # Random Oracle instantiation failure: schemes secure in ROM but insecure under any concrete implementation
@@ -17,4 +17,4 @@ tags:
 - [[Provable security  reductionist methodology]] - `conceptually_related_to` [INFERRED]
 - [[The Random Oracle Methodology, Revisited (Canetti, Goldreich, Halevi, JACM 2004  STOC 1998)]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_53
+#graphify/paper #graphify/EXTRACTED #community/Community_51

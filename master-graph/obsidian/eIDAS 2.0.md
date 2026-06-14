@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch09-the-regulatory-intersection.md"
 type: "document"
-community: "Community 21"
+community: "Community 4"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_21
+  - community/Community_4
 ---
 
 # eIDAS 2.0
@@ -25,4 +25,4 @@ tags:
 - [[ZK Identity (Growth  Regulatory Mandate)]] - `references` [EXTRACTED]
 - [[Zero-Knowledge Proofs (ZKPs)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_21
+#graphify/document #graphify/EXTRACTED #community/Community_4

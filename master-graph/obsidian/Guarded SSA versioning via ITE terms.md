@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-33-circ.pdf"
 type: "paper"
-community: "Community 56"
+community: "Community 57"
 location: "§3.2"
 tags:
   - graphify/paper
   - graphify/INFERRED
-  - community/Community_56
+  - community/Community_57
 ---
 
 # Guarded SSA versioning via ITE terms
@@ -15,4 +15,4 @@ tags:
 - [[Circify language-independent state-management library]] - `defines` [EXTRACTED]
 - [[Satisfiability Modulo Theories (SMT)]] - `cites` [INFERRED]
 
-#graphify/paper #graphify/INFERRED #community/Community_56
+#graphify/paper #graphify/INFERRED #community/Community_57

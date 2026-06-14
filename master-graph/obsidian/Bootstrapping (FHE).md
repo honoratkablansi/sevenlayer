@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch09/ref-29-gentry-fhe.pdf"
 type: "paper"
-community: "Community 42"
+community: "Community 41"
 location: "p.1 (abstract)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_42
+  - community/Community_41
 ---
 
 # Bootstrapping (FHE)
@@ -28,4 +28,4 @@ tags:
 - [[Scalable zk-SNARK (fully succinct + incrementally computable)]] - `introduces` [EXTRACTED]
 - [[Squashing the decryption circuit SplitKeyExpandCT shift work to encrypter so Decrypt sums only sub-linear vectors (E3)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_42
+#graphify/paper #graphify/EXTRACTED #community/Community_41

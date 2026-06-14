@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-02-bctv-cycles.pdf"
 type: "paper"
-community: "Community 42"
+community: "Community 103"
 location: "§6.3, Rmk 6.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_42
+  - community/Community_103
 ---
 
 # Merkle-tree memory checking for delegated RAM
@@ -15,4 +15,4 @@ tags:
 - [[Collision-Resistant Hash Functions]] - `assumes` [EXTRACTED]
 - [[RAM compliance predicate Pi_{M,H} (per-step verification)]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_42
+#graphify/paper #graphify/EXTRACTED #community/Community_103

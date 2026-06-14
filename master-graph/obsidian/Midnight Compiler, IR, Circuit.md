@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch03-midnight-compiler-ir-circuit.md"
 type: "document"
-community: "Community 5"
+community: "Community 17"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_5
+  - community/Community_17
 ---
 
 # Midnight: Compiler, IR, Circuit
@@ -27,4 +27,4 @@ tags:
 - [[The Four Philosophies]] - `references` [EXTRACTED]
 - [[ZKIR (Zero-Knowledge Intermediate Representation)]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_5
+#graphify/document #graphify/EXTRACTED #community/Community_17

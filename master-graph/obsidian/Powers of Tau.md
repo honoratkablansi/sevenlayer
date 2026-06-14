@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 68"
+community: "Community 9"
 location: "Chapter 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_68
+  - community/Community_9
 ---
 
 # Powers of Tau
@@ -33,4 +33,4 @@ tags:
 - [[Trusted Setup Ceremony]] - `conceptually_related_to` [EXTRACTED]
 - [[q-strong Diffie-Hellman (q-sDH) hardness assumption]] - `assumes` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_68
+#graphify/document #graphify/EXTRACTED #community/Community_9

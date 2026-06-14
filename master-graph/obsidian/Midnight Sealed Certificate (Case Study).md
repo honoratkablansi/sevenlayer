@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 13"
+community: "Community 19"
 location: "Chapter 6"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_13
+  - community/Community_19
 ---
 
 # Midnight Sealed Certificate (Case Study)
@@ -15,4 +15,4 @@ tags:
 - [[Halo 2  UltraPlonk]] - `references` [EXTRACTED]
 - [[Recursive Proof Composition]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_13
+#graphify/document #graphify/EXTRACTED #community/Community_19

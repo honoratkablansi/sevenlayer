@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-02-bctv-cycles.pdf"
 type: "paper"
-community: "Community 8"
+community: "Community 24"
 location: "§3.2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_8
+  - community/Community_24
 ---
 
 # MNT curves (embedding degrees 4 and 6)
@@ -24,4 +24,4 @@ tags:
 - [[Pairing-friendly elliptic curves]] - `conceptually_related_to` [EXTRACTED]
 - [[Prop. 2 all MNT cycles have length 2 or 4, alternating embedding degrees (6,4) or (6,4,6,4)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_8
+#graphify/paper #graphify/EXTRACTED #community/Community_24

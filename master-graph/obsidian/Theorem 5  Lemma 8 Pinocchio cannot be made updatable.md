@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-37-updatable-universal-crs.pdf"
 type: "paper"
-community: "Community 34"
+community: "Community 82"
 location: "§6.3, Theorem 5, Lemma 8"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_34
+  - community/Community_82
 ---
 
 # Theorem 5 / Lemma 8: Pinocchio cannot be made updatable
@@ -15,4 +15,4 @@ tags:
 - [[MonoExtract  FinalMonoExtract monomial-extraction algorithm]] - `assumes` [EXTRACTED]
 - [[QAP (Quadratic Arithmetic Program)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_34
+#graphify/paper #graphify/EXTRACTED #community/Community_82

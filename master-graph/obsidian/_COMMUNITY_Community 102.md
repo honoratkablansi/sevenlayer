@@ -1,27 +1,27 @@
 ---
 type: community
-cohesion: 0.20
+cohesion: 0.17
 members: 12
 ---
 
 # Community 102
 
-**Cohesion:** 0.20 - loosely connected
+**Cohesion:** 0.17 - loosely connected
 **Members:** 12 nodes
 
 ## Members
-- [[Aggregation Trees (zkTree cost model)]] - document - recursion/recursion-outline.md
-- [[Applicative recursion (application-aware proof + input compression)]] - document - references/recursion/ch3/ref-53-starkware-recursive-starks.md
-- [[L3 deployments on top of L2 via recursive verifier]] - document - references/recursion/ch3/ref-53-starkware-recursive-starks.md
-- [[Logarithmic verification compression of STARK proofs]] - document - references/recursion/ch3/ref-53-starkware-recursive-starks.md
-- [[NEBRA]] - document - proving-nothing.md
-- [[Proof Aggregation]] - document - proving-nothing.md
-- [[Real-time zkVM pipeline case study]] - document - recursion/recursion-outline.md
-- [[Recursive STARK proving]] - document - references/recursion/ch3/ref-53-starkware-recursive-starks.md
-- [[SHARP (SHARed Prover)]] - document - references/recursion/ch3/ref-53-starkware-recursive-starks.md
-- [[StarkWare, Recursive STARKs (2022)]] - document - references/recursion/ch3/ref-53-starkware-recursive-starks.md
-- [[Three Core Capabilities compression, incrementality, composability]] - document - recursion/recursion-outline.md
-- [[When Not to Recurse (crossover heuristics)]] - document - recursion/recursion-outline.md
+- [[Blob Fee Market]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[CongestionGriefing Attack]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[EIP-4844 (Blob Transactions)]] - document - proving-nothing.md
+- [[FOOM Club Verifier Misconfiguration (2022)]] - document - proving-nothing.md
+- [[Layer-2 Rollup]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[Maximal Extractable Value (MEV)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[Meisami & Bodell Upgradeable Contract Survey (2023)]] - document - proving-nothing.md
+- [[On-Chain Verifier]] - document - proving-nothing.md
+- [[Proof Verification]] - document - proving-nothing.md
+- [[Upgradeable Proxy Pattern]] - document - proving-nothing.md
+- [[Verification Gas Cost]] - document - proving-nothing.md
+- [[XZ Utils Supply-Chain Attack (CVE-2024-3094)]] - document - proving-nothing.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -31,30 +31,15 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 3 edges to [[_COMMUNITY_Community 0]]
-- 3 edges to [[_COMMUNITY_Community 62]]
-- 2 edges to [[_COMMUNITY_Community 61]]
-- 2 edges to [[_COMMUNITY_Community 87]]
-- 2 edges to [[_COMMUNITY_Community 93]]
-- 2 edges to [[_COMMUNITY_Community 13]]
-- 1 edge to [[_COMMUNITY_Community 41]]
-- 1 edge to [[_COMMUNITY_Community 17]]
-- 1 edge to [[_COMMUNITY_Community 78]]
-- 1 edge to [[_COMMUNITY_Community 12]]
-- 1 edge to [[_COMMUNITY_Community 11]]
-- 1 edge to [[_COMMUNITY_Community 101]]
-- 1 edge to [[_COMMUNITY_Community 104]]
-- 1 edge to [[_COMMUNITY_Community 81]]
-- 1 edge to [[_COMMUNITY_Community 73]]
-- 1 edge to [[_COMMUNITY_Community 127]]
-- 1 edge to [[_COMMUNITY_Community 134]]
-- 1 edge to [[_COMMUNITY_Community 100]]
-- 1 edge to [[_COMMUNITY_Community 22]]
-- 1 edge to [[_COMMUNITY_Community 31]]
+- 7 edges to [[_COMMUNITY_Community 8]]
+- 2 edges to [[_COMMUNITY_Community 33]]
+- 1 edge to [[_COMMUNITY_Community 32]]
+- 1 edge to [[_COMMUNITY_Community 60]]
+- 1 edge to [[_COMMUNITY_Community 106]]
 
 ## Top bridge nodes
-- [[Proof Aggregation]] - degree 28, connects to 16 communities
-- [[Recursive STARK proving]] - degree 7, connects to 2 communities
-- [[SHARP (SHARed Prover)]] - degree 4, connects to 1 community
-- [[Aggregation Trees (zkTree cost model)]] - degree 2, connects to 1 community
-- [[Three Core Capabilities compression, incrementality, composability]] - degree 2, connects to 1 community
+- [[On-Chain Verifier]] - degree 7, connects to 3 communities
+- [[EIP-4844 (Blob Transactions)]] - degree 6, connects to 2 communities
+- [[Verification Gas Cost]] - degree 4, connects to 2 communities
+- [[Upgradeable Proxy Pattern]] - degree 4, connects to 1 community
+- [[Blob Fee Market]] - degree 3, connects to 1 community

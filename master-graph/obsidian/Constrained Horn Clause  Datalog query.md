@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch03/ref-13-practical-security-zk-circuits.pdf"
 type: "paper"
-community: "Community 103"
+community: "Community 105"
 location: "§4.3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_103
+  - community/Community_105
 ---
 
 # Constrained Horn Clause / Datalog query
@@ -15,4 +15,4 @@ tags:
 - [[Apposcopy inter-component call graph (ICCG) abstraction]] - `conceptually_related_to` [INFERRED]
 - [[Vulnerability Description Language (VDL)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_103
+#graphify/paper #graphify/EXTRACTED #community/Community_105

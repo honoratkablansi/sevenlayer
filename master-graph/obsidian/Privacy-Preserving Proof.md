@@ -1,12 +1,12 @@
 ---
 source_file: "references/snowball/book/ref-120-adsnark-nearly-practical-and-privacy-preserving.pdf"
 type: "paper"
-community: "Community 20"
+community: "Community 22"
 location: "abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_20
+  - community/Community_22
 ---
 
 # Privacy-Preserving Proof
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Zero-Knowledge Proof]] - `uses` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_20
+#graphify/paper #graphify/EXTRACTED #community/Community_22

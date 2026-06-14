@@ -1,12 +1,12 @@
 ---
 source_file: "recursion/recursion-outline.md"
 type: "document"
-community: "Community 79"
+community: "Community 90"
 location: "Recursion Chapter 3"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_79
+  - community/Community_90
 ---
 
 # zkML inference proof with folding case study
@@ -15,4 +15,4 @@ tags:
 - [[Folding Scheme]] - `references` [EXTRACTED]
 - [[ZKML (Zero-Knowledge Machine Learning)]] - `explains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_79
+#graphify/document #graphify/EXTRACTED #community/Community_90

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch07/ref-25-nist-fips-203-204-205.pdf"
 type: "paper"
-community: "Community 33"
+community: "Community 43"
 location: "p.4 (announcement)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_33
+  - community/Community_43
 ---
 
 # Module Learning With Errors (MLWE)
@@ -25,4 +25,4 @@ tags:
 - [[Worst-Case to Average-Case Reduction]] - `defines` [EXTRACTED]
 - [[Zero-Knowledge Proof]] - `uses` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_33
+#graphify/paper #graphify/EXTRACTED #community/Community_43

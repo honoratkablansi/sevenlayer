@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-81-wesolowski-vdf.pdf"
 type: "paper"
-community: "Community 2"
+community: "Community 6"
 location: "Refs [4], §1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_2
+  - community/Community_6
 ---
 
 # Cited: Boneh, Bonneau, Bunz, Fisch - Verifiable Delay Functions (CRYPTO 2018) [4]
@@ -15,4 +15,4 @@ tags:
 - [[Verifiable delay function (VDF)]] - `cites` [EXTRACTED]
 - [[Wesolowski, Efficient Verifiable Delay Functions (EUROCRYPT 2019)]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_2
+#graphify/paper #graphify/EXTRACTED #community/Community_6

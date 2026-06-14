@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 80"
+community: "Community 1"
 location: "Chapter 14"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_80
+  - community/Community_1
 ---
 
 # The Ideal PCS Problem
@@ -15,4 +15,4 @@ tags:
 - [[Polynomial Commitment Scheme]] - `references` [EXTRACTED]
 - [[Q2 Proven Lower Bound on Post-Quantum Proof Size]] - `introduces` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_80
+#graphify/document #graphify/EXTRACTED #community/Community_1

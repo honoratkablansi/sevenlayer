@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 78"
+community: "Community 60"
 location: "Chapter 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_78
+  - community/Community_60
 ---
 
 # ZK Rollup
@@ -47,4 +47,4 @@ tags:
 - [[ZKsync Era (Matter Labs, Airbender prover)]] - `references` [EXTRACTED]
 - [[zkEVM  EVM-Compatible Proving]] - `conceptually_related_to` [INFERRED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_78
+#graphify/document #graphify/EXTRACTED #community/Community_60

@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch2/ref-41-spartan.pdf"
 type: "paper"
-community: "Community 23"
+community: "Community 27"
 location: "abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_23
+  - community/Community_27
 ---
 
 # Multilinear Polynomial Commitment
@@ -18,4 +18,4 @@ tags:
 - [[SPARK Compiler]] - `extends` [EXTRACTED]
 - [[Spartan]] - `uses` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_23
+#graphify/paper #graphify/EXTRACTED #community/Community_27

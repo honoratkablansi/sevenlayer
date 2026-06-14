@@ -1,12 +1,12 @@
 ---
 source_file: "references/books/proofs-args-zk.pdf"
 type: "paper"
-community: "Community 71"
+community: "Community 112"
 location: "Polynomial Commitments from Discrete Log (Bulletproofs)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_71
+  - community/Community_112
 ---
 
 # Computational Binding
@@ -15,4 +15,4 @@ tags:
 - [[Commitment Scheme]] - `defines` [EXTRACTED]
 - [[Pedersen Commitment]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_71
+#graphify/paper #graphify/EXTRACTED #community/Community_112

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-35-coda.pdf"
 type: "paper"
-community: "Community 46"
+community: "Community 50"
 location: "§6.3, Fig.9"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_46
+  - community/Community_50
 ---
 
 # Verification-effort case study: 60% shorter proofs vs shallow embedding
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Evaluation 77 circuits from 9 Circom projects, 66 verified]] - `shares_data_with` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_46
+#graphify/paper #graphify/EXTRACTED #community/Community_50

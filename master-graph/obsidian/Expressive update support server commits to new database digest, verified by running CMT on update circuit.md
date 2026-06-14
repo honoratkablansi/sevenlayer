@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-73-vsql.pdf"
 type: "paper"
-community: "Community 66"
+community: "Community 68"
 location: "§I-B Supporting Efficient Updates; §V-B Supporting Expressive Updates; Construction 3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_66
+  - community/Community_68
 ---
 
 # Expressive update support: server commits to new database digest, verified by running CMT on update circuit
@@ -16,4 +16,4 @@ tags:
 - [[Extractable verifiable polynomial-delegation protocol with knowledge soundness (vSQL Construction 2)]] - `assumes` [EXTRACTED]
 - [[vSQL verifiable database system for arbitrary SQL queries over dynamic outsourced databases]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_66
+#graphify/paper #graphify/EXTRACTED #community/Community_68

@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch3/ref-82-chase-lysyanskaya-delegatable-credentials.md"
 type: "document"
-community: "Community 38"
+community: "Community 45"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_38
+  - community/Community_45
 ---
 
 # Chase, Lysyanskaya, "Delegatable Anonymous Credentials" lineage (CRYPTO 2009 onward)
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[Recursion References (cited works)]] - `cites` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_38
+#graphify/document #graphify/EXTRACTED #community/Community_45

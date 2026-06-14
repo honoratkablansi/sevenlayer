@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-87-deco.pdf"
 type: "paper"
-community: "Community 48"
+community: "Community 11"
 location: "§6, §7"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_48
+  - community/Community_11
 ---
 
 # Three demo applications: confidential binary option, legacy-to-anonymous age credential, price-discrimination claim
@@ -17,4 +17,4 @@ tags:
 - [[Selective Disclosure]] - `conceptually_related_to` [EXTRACTED]
 - [[Zero-Knowledge Proof]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_48
+#graphify/paper #graphify/EXTRACTED #community/Community_11

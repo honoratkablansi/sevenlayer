@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-50-extended-tower-nfs.pdf"
 type: "paper"
-community: "Community 16"
+community: "Community 56"
 location: "ref [5]"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_16
+  - community/Community_56
 ---
 
 # Conjugation/GJL polynomial selection [Barbulescu-Gaudry-Guillevic-Morain]
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Polynomial selection step (h,f,g) — JLSV2 and Conjugation methods]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_16
+#graphify/paper #graphify/EXTRACTED #community/Community_56

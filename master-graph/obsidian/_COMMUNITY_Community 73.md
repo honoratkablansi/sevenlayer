@@ -1,33 +1,33 @@
 ---
 type: community
-cohesion: 0.18
+cohesion: 0.15
 members: 18
 ---
 
 # Community 73
 
-**Cohesion:** 0.18 - loosely connected
+**Cohesion:** 0.15 - loosely connected
 **Members:** 18 nodes
 
 ## Members
-- [[Anonymity set of Bitcoin public keys for address unlinkability]] - paper - references/recursion/ch3/ref-88-provisions.pdf
-- [[Bit-decomposition range proof for committed balances (no trusted setup)]] - paper - references/recursion/ch3/ref-88-provisions.pdf
-- [[Bitcoin]] - document - references/ch14/ref-63-harvest-now-decrypt-later.pdf
-- [[Chaum-Pedersen proof of representation of a DH tuple]] - paper - references/recursion/ch3/ref-88-provisions.pdf
-- [[General security definition of a privacy-preserving proof of solvency (valid pair; correctnesssoundnessownershipprivacy)]] - paper - references/recursion/ch3/ref-88-provisions.pdf
-- [[Injective customer-ID commitment to defeat clash attack]] - paper - references/recursion/ch3/ref-88-provisions.pdf
-- [[Maxwell Merkle-tree proof of reservesliabilities (prior work)]] - paper - references/recursion/ch3/ref-88-provisions.pdf
-- [[Neff verifiable secret shuffle  mix net (prior work)]] - paper - references/recursion/ch3/ref-88-provisions.pdf
-- [[No-trusted-setup design goal (no common reference string)]] - paper - references/recursion/ch3/ref-88-provisions.pdf
-- [[Non-surjective liability mapping fake users only increase apparent liabilities]] - paper - references/recursion/ch3/ref-88-provisions.pdf
-- [[Privacy-preserving proof of liabilities (Protocol 2)]] - paper - references/recursion/ch3/ref-88-provisions.pdf
-- [[Proof of assets  proof of reserves]] - paper - references/recursion/ch3/ref-88-provisions.pdf
-- [[Proof of non-collusion extension (Neff-mix permutation, DDH)]] - paper - references/recursion/ch3/ref-88-provisions.pdf
-- [[Proof of solvency  financial compliance]] - document - recursion/recursion-outline.md
-- [[Provisions (Dagher et al., CCS 2015)]] - document - recursion/recursion-outline.md
-- [[Provisions privacy-preserving proof of solvency for Bitcoin exchanges]] - paper - references/recursion/ch3/ref-88-provisions.pdf
-- [[Theorem 2 proof-of-liabilities is zero-knowledge and sound]] - paper - references/recursion/ch3/ref-88-provisions.pdf
-- [[Theorem 3 Provisions (Protocol 3) is a privacy-preserving proof of solvency]] - paper - references/recursion/ch3/ref-88-provisions.pdf
+- [[Aggregation tree (recursive verification tree)]] - paper - references/recursion/ch1/ref-21-zktree.pdf
+- [[Circuit-hash and input-hash Merkle roots at zkTree root]] - paper - references/recursion/ch1/ref-21-zktree.pdf
+- [[Comparison vs deVirgo zkTree avoids central machine  circuit-splitting rigidity]] - paper - references/recursion/ch1/ref-21-zktree.pdf
+- [[Distributed proof generation with independent same-level proofs (no inter-worker comms)]] - paper - references/recursion/ch1/ref-21-zktree.pdf
+- [[Ed25519Tendermint evaluation 32 sigs verified on ETH, 77s end-to-end, 230k gas]] - paper - references/recursion/ch1/ref-21-zktree.pdf
+- [[Groth16 wrap-circuit splitting tradeoff per-FRI-query sub-circuits trade prover speed vs on-chain cost]] - paper - references/recursion/ch1/ref-21-zktree.pdf
+- [[Heterogeneous zk proofs in a single tree (claim of novelty over prior trees)]] - paper - references/recursion/ch1/ref-21-zktree.pdf
+- [[Hierarchical SNARK aggregation tree (origin of shared-verification-cost trees)]] - paper - references/recursion/ch1/ref-21-zktree.pdf
+- [[Intermediate bn128-Poseidon Plonky2 proof to eliminate non-native range checks]] - paper - references/recursion/ch1/ref-21-zktree.pdf
+- [[Leaf builder L_i(pi_i,{x_i},VD_i) - upsilon_i,h_i,c_i]] - paper - references/recursion/ch1/ref-21-zktree.pdf
+- [[Merkle ZKP membership proof]] - paper - references/recursion/ch1/ref-21-zktree.pdf
+- [[Node builder combining leafnode pairs into omega_k,h_k,c_k]] - paper - references/recursion/ch1/ref-21-zktree.pdf
+- [[On-chain verifier Plonky2 root recursively wrapped into Groth16 (230k gas)]] - paper - references/recursion/ch1/ref-21-zktree.pdf
+- [[RSA Accumulator]] - paper - references/snowball/book/ref-115-scaling-verifiable-computation-using-efficient-s.pdf
+- [[Three zkTree proof types user proof, leaf proof, node proof]] - paper - references/recursion/ch1/ref-21-zktree.pdf
+- [[zkBridge  deVirgo distributed proving via circuit splitting (Xie et al.)]] - paper - references/recursion/ch1/ref-21-zktree.pdf
+- [[zkTree costtime model gen time ~ log(n) node-proof times; comm cost n x proof size (~130KB)]] - paper - references/recursion/ch1/ref-21-zktree.pdf
+- [[zkTree zero-knowledge recursion tree with ZKP membership proofs]] - paper - references/recursion/ch1/ref-21-zktree.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -37,21 +37,18 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 10 edges to [[_COMMUNITY_Community 71]]
-- 2 edges to [[_COMMUNITY_Community 81]]
-- 2 edges to [[_COMMUNITY_Community 137]]
-- 1 edge to [[_COMMUNITY_Community 102]]
-- 1 edge to [[_COMMUNITY_Community 84]]
-- 1 edge to [[_COMMUNITY_Community 91]]
-- 1 edge to [[_COMMUNITY_Community 96]]
-- 1 edge to [[_COMMUNITY_Community 136]]
-- 1 edge to [[_COMMUNITY_Community 13]]
-- 1 edge to [[_COMMUNITY_Community 66]]
-- 1 edge to [[_COMMUNITY_Community 131]]
+- 3 edges to [[_COMMUNITY_Community 8]]
+- 2 edges to [[_COMMUNITY_Community 106]]
+- 2 edges to [[_COMMUNITY_Community 17]]
+- 2 edges to [[_COMMUNITY_Community 19]]
+- 1 edge to [[_COMMUNITY_Community 36]]
+- 1 edge to [[_COMMUNITY_Community 2]]
+- 1 edge to [[_COMMUNITY_Community 0]]
+- 1 edge to [[_COMMUNITY_Community 15]]
 
 ## Top bridge nodes
-- [[Proof of solvency  financial compliance]] - degree 12, connects to 5 communities
-- [[Bitcoin]] - degree 6, connects to 4 communities
-- [[Provisions privacy-preserving proof of solvency for Bitcoin exchanges]] - degree 16, connects to 3 communities
-- [[Privacy-preserving proof of liabilities (Protocol 2)]] - degree 7, connects to 1 community
-- [[Proof of assets  proof of reserves]] - degree 4, connects to 1 community
+- [[zkTree zero-knowledge recursion tree with ZKP membership proofs]] - degree 14, connects to 4 communities
+- [[RSA Accumulator]] - degree 3, connects to 2 communities
+- [[Groth16 wrap-circuit splitting tradeoff per-FRI-query sub-circuits trade prover speed vs on-chain cost]] - degree 3, connects to 2 communities
+- [[Aggregation tree (recursive verification tree)]] - degree 5, connects to 1 community
+- [[Merkle ZKP membership proof]] - degree 4, connects to 1 community

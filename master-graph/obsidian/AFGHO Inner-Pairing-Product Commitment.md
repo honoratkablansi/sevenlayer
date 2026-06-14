@@ -1,12 +1,12 @@
 ---
 source_file: "references/books/proofs-args-zk.pdf"
 type: "paper"
-community: "Community 11"
+community: "Community 87"
 location: "Polynomial Commitments from Pairings (KZG, Dory)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_11
+  - community/Community_87
 ---
 
 # AFGHO Inner-Pairing-Product Commitment
@@ -16,4 +16,4 @@ tags:
 - [[Dory]] - `uses` [EXTRACTED]
 - [[Inner Product Argument (IPABulletproofs)]] - `relates_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_11
+#graphify/paper #graphify/EXTRACTED #community/Community_87

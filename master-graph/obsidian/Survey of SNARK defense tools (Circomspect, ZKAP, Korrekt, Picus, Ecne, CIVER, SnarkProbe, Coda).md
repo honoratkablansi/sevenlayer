@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch01/ref-03-sok-snark-vulnerabilities.pdf"
 type: "paper"
-community: "Community 69"
+community: "Community 72"
 location: "§8, Table 7"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_69
+  - community/Community_72
 ---
 
 # Survey of SNARK defense tools (Circomspect, ZKAP, Korrekt, Picus, Ecne, CIVER, SnarkProbe, Coda)
@@ -16,4 +16,4 @@ tags:
 - [[SoK What Don't We Know Understanding Security Vulnerabilities in SNARKs]] - `cites` [EXTRACTED]
 - [[Under-Constrained Circuit  Missing Constraint]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_69
+#graphify/paper #graphify/EXTRACTED #community/Community_72

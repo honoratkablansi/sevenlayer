@@ -1,12 +1,12 @@
 ---
 source_file: "references/snowball/book/ref-135-practical-delegation-of-computation-using-multip.pdf"
 type: "paper"
-community: "Community 63"
+community: "Community 15"
 location: "abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_63
+  - community/Community_15
 ---
 
 # Public Verifiability
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Verifiable computation]] - `relates_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_63
+#graphify/paper #graphify/EXTRACTED #community/Community_15

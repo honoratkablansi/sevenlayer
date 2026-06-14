@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-31-poseidon.pdf"
 type: "paper"
-community: "Community 60"
+community: "Community 5"
 location: "title/abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_60
+  - community/Community_5
 ---
 
 # Poseidon: A New Hash Function for Zero-Knowledge Proof Systems (Grassi et al., USENIX Security 2021, updated version)
@@ -17,4 +17,4 @@ tags:
 - [[Poseidon-pi internal permutation t-word SPN family over F_p, variant of HADESMiMC with fixed known key]] - `introduces` [EXTRACTED]
 - [[Security claims Poseidon-M is 2M-secure vs collisions and (second) preimages; Poseidon-pi is 2{min(M,m1,m2)}-secure vs CICO problem]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_60
+#graphify/paper #graphify/EXTRACTED #community/Community_5

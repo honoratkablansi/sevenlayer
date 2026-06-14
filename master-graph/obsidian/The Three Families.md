@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch06-the-three-families.md"
 type: "document"
-community: "Community 17"
+community: "Community 8"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_17
+  - community/Community_8
 ---
 
 # The Three Families
@@ -39,4 +39,4 @@ tags:
 - [[ZK Rollups The Proving Grounds (Production)]] - `references` [EXTRACTED]
 - [[Zcash]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_17
+#graphify/document #graphify/EXTRACTED #community/Community_8

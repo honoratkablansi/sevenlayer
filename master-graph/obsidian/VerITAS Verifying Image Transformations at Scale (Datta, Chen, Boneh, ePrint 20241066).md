@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-78-veritas.pdf"
 type: "paper"
-community: "Community 65"
+community: "Community 67"
 location: "title/abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_65
+  - community/Community_67
 ---
 
 # VerITAS: Verifying Image Transformations at Scale (Datta, Chen, Boneh, ePrint 2024/1066)
@@ -35,4 +35,4 @@ tags:
 - [[opt-VerITAS precommitted rows of A reduce verifier time ~20x (30 MP verify ~0.8 s) at cost of larger proofs]] - `introduces` [EXTRACTED]
 - [[zk-SNARK]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_65
+#graphify/paper #graphify/EXTRACTED #community/Community_67

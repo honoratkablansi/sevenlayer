@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-77-photoproof.pdf"
 type: "paper"
-community: "Community 31"
+community: "Community 47"
 location: "Abstract; §I-C; §IV-A"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_31
+  - community/Community_47
 ---
 
 # PhotoProof: cryptographic image authentication scheme for any permissible transformation set
@@ -24,4 +24,4 @@ tags:
 - [[Walsh, CertiPics over Nexus OS with TPM secure co-processor 57 prior policy-based image authentication lacking succinctness and zero-knowledge]] - `cites` [EXTRACTED]
 - [[Working prototype on libsnark using preprocessing PCD of Ben-Sasson et al.; ECDSA NIST192p signatures; small N x N images (up to 128x128)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_31
+#graphify/paper #graphify/EXTRACTED #community/Community_47

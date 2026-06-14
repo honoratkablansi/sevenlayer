@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch3/ref-83-zkpassport-anon-aadhaar.md"
 type: "document"
-community: "Community 48"
+community: "Community 86"
 tags:
   - graphify/document
   - graphify/INFERRED
-  - community/Community_48
+  - community/Community_86
 ---
 
 # Age and nationality verification
@@ -14,4 +14,4 @@ tags:
 - [[Selective Disclosure]] - `conceptually_related_to` [INFERRED]
 - [[ZKPassport  Anon-Aadhaar document-proof systems]] - `introduces` [EXTRACTED]
 
-#graphify/document #graphify/INFERRED #community/Community_48
+#graphify/document #graphify/INFERRED #community/Community_86

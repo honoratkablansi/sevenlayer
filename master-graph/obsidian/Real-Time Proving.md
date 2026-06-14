@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-52-sp1-hypercube.md"
 type: "document"
-community: "Community 93"
+community: "Community 30"
 location: "Real-Time Proving Is Here"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_93
+  - community/Community_30
 ---
 
 # Real-Time Proving
@@ -26,4 +26,4 @@ tags:
 - [[ZK Rollup]] - `conceptually_related_to` [EXTRACTED]
 - [[ethproofs.org real-time proving reporting (Pico Prism, ethrex)]] - `explains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_93
+#graphify/document #graphify/EXTRACTED #community/Community_30

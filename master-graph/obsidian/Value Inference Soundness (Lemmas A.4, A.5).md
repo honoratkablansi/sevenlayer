@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch03/ref-12-underconstrained-circuits.pdf"
 type: "paper"
-community: "Community 82"
+community: "Community 81"
 location: "Appendix A.2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_82
+  - community/Community_81
 ---
 
 # Value Inference Soundness (Lemmas A.4, A.5)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[InferValues Value Inference (Algorithm 3)]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_82
+#graphify/paper #graphify/EXTRACTED #community/Community_81

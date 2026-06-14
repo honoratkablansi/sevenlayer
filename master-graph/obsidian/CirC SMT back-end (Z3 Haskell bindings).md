@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-33-circ.pdf"
 type: "paper"
-community: "Community 56"
+community: "Community 57"
 location: "§4.2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_56
+  - community/Community_57
 ---
 
 # CirC SMT back-end (Z3 Haskell bindings)
@@ -17,4 +17,4 @@ tags:
 - [[SMT-guided loop-unroll bound inference]] - `shares_data_with` [EXTRACTED]
 - [[Satisfiability Modulo Theories (SMT)]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_56
+#graphify/paper #graphify/EXTRACTED #community/Community_57

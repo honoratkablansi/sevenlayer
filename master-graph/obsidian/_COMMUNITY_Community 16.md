@@ -1,52 +1,56 @@
 ---
 type: community
-cohesion: 0.08
-members: 37
+cohesion: 0.07
+members: 41
 ---
 
 # Community 16
 
-**Cohesion:** 0.08 - loosely connected
-**Members:** 37 nodes
+**Cohesion:** 0.07 - loosely connected
+**Members:** 41 nodes
 
 ## Members
-- [[BGN scheme cost comparison prime-order 28x faster despite 12 pairings]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
-- [[BN254  embedding-degree-12 BN pairings drop below 128-bit security]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[Barreto-Naehrig Curves]] - document - references/ch10/ref-51-pairing-efficiency-curves.pdf
-- [[Benchmark composite-order pairing 254x slower (1.27s vs 5.05ms) at 128-bit]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
-- [[Comparing the Pairing Efficiency over Composite-Order and Prime-Order Elliptic Curves]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
-- [[Composite-Order Bilinear Groups]] - document - references/ch10/ref-51-pairing-efficiency-curves.pdf
-- [[Composite-extension factorization F_{pn}=F_{(pη)κ}, gcd(η,κ)=1]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[ConjugationGJL polynomial selection Barbulescu-Gaudry-Guillevic-Morain]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[Doubly-extended tower number field K_f = Q(ι,α_f)]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[Elliptic Curve Method (ECM) factoring attack]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
-- [[Freeman composite-to-prime-order conversion (cited prior work)]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
-- [[Individual logarithm smoothing + special-q descent]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[Lemma 1 (norm size bound via iterated resultants)]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[Lenstra modulussecurity recommendations (cited prior work)]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
-- [[Lewko generic conversion, Eurocrypt 2012 (cited prior work)]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
-- [[Lewko-Waters HIBE cost prime-order 10x-192x faster]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
-- [[LibCryptoLCH Cx86-64 asm implementation (Thales)]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
-- [[Mandate to update pairing key sizes (c=64→48, factor ~1.33; SNFS factor 2)]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[MexTNFS multiple-number-field variant (c≈1.71)]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[Multi-prime RSA modulus sizing (2-8 primes, extends Lenstra)]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
-- [[NFS medium-prime case (JLSV) Joux-Lercier-Smart-Vercauteren]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[NFSECM crossover ECM beats NFS at 5+ prime factors]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
-- [[Number Field Sieve]] - document - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[Optimal ate pairing]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
-- [[Optimal ate pairing operation count on BN curve (Alg.1)]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
-- [[Polynomial Selection]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[Polynomial selection step (h,f,g) — JLSV2 and Conjugation methods]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[Recommendation avoid composite-order groups whenever possible]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
-- [[Relation collection over R=Zth(t), B-smooth norms]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[SexTNFS for special-form (d-SNFS) characteristic, L_Q(13,(329){13})]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[Special NFS in F_{pn} Joux-Pierrot]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[Subgroup decision assumption]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
-- [[Theorem 1 (exTNFS complexity table)]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[Tower Number Field Sieve (TNFS)]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[Tower Number Field Sieve (TNFS) Barbulescu-Gaudry-Kleinjung]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[exTNFS (Extended Tower Number Field Sieve)]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[exTNFS-Conj medium-prime complexity L_Q(13,(489){13})]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[Aligned Layer (EigenLayer restaking, verification-as-a-service)]] - document - proving-nothing.md
+- [[Argument Follow the Money, Watch the Trust]] - document - proving-nothing.md
+- [[Axiom (ZK Coprocessor, $20M Series A)]] - document - proving-nothing.md
+- [[Brevis (Coprocessor + Pico Prism zkVM, ProverNet)]] - document - proving-nothing.md
+- [[Canton Network]] - document - wiki/sections/ch13-enterprise-pilots-pilot.md
+- [[Chorus One Economics of ZK-Proving (2025)]] - document - proving-nothing.md
+- [[Chorus One The Economics of ZK-Proving (2025)]] - document - wiki/sections/ch13-market-sizing.md
+- [[DTCC (Depository Trust & Clearing Corporation)]] - document - wiki/sections/ch13-enterprise-pilots-pilot.md
+- [[DTCC  Canton Network (tokenized Treasuries, privacy settlement)]] - document - proving-nothing.md
+- [[DTCC and Digital Asset Partner to Tokenize DTC-Custodied U.S. Treasury Securities on the Canton Network]] - document - references/ch13/ref-58-dtcc-canton-tokenization.md
+- [[Deutsche Bank (Project Guardian)]] - document - wiki/sections/ch13-enterprise-pilots-pilot.md
+- [[Deutsche Bank  Project Guardian (ZK-verified KYC settlement)]] - document - proving-nothing.md
+- [[Enterprise Pilots (Pilot)]] - document - wiki/sections/ch13-enterprise-pilots-pilot.md
+- [[Ethproofs ZK Proving Cost Tracker (Ethereum Foundation)]] - document - references/ch13/ref-44-ethproofs.md
+- [[Grand View Research ZKP Market Report (2025)]] - document - proving-nothing.md
+- [[Grand View Research Zero-Knowledge Proof Market Size Report (2025)]] - document - wiki/sections/ch13-market-sizing.md
+- [[Humanity Protocol]] - document - wiki/sections/ch13-zk-identity-growth-regulatory-mandate.md
+- [[Market Sizing]] - document - wiki/sections/ch13-market-sizing.md
+- [[Market Sizing ($1.54B 2025 to $7.59B 2033, 22.1% CAGR)]] - document - proving-nothing.md
+- [[Partisia  Danish Student Credentials (ZK + MPC)]] - document - proving-nothing.md
+- [[Partisia Blockchain]] - document - wiki/sections/ch13-enterprise-pilots-pilot.md
+- [[Polygon zkEVM Documentation (STARK to FFLONK pipeline)]] - document - references/recursion/ch1/ref-17-polygon-zkevm-docs.md
+- [[Privacy Pools (0xbow, prove-innocence-not-identity)]] - document - proving-nothing.md
+- [[Proving-as-a-Service]] - document - proving-nothing.md
+- [[Proving-as-a-Service The Prover Market (Production)]] - document - wiki/sections/ch13-proving-as-a-service-the-prover-market-production.md
+- [[RISC Zero Boundless]] - document - wiki/sections/ch13-proving-as-a-service-the-prover-market-production.md
+- [[RISC Zero Boundless (proof marketplace, forced migration)]] - document - proving-nothing.md
+- [[Succinct Network]] - document - wiki/sections/ch13-proving-as-a-service-the-prover-market-production.md
+- [[Succinct Network (SP1 Hypercube, $PROVE token)]] - document - proving-nothing.md
+- [[The Economics of ZK-Proving Market Size and Future Projections (Chorus One)]] - document - references/ch13/ref-57-chorus-one-zk-economics.md
+- [[The Market Landscape]] - document - wiki/chapters/13-the-market-landscape.md
+- [[Tokenization of Assets]] - document - proving-nothing.md
+- [[Trust Relocation vs Trust Minimization]] - document - proving-nothing.md
+- [[World (formerly Worldcoin)]] - document - wiki/sections/ch13-zk-identity-growth-regulatory-mandate.md
+- [[ZK Coprocessor]] - document - proving-nothing.md
+- [[ZK Identity]] - document - proving-nothing.md
+- [[ZK Identity (Growth  Regulatory Mandate)]] - document - wiki/sections/ch13-zk-identity-growth-regulatory-mandate.md
+- [[ZK Proofs Is Privacy Cheap Enough to Be Mainstream (Castle Labs)]] - document - references/ch13/ref-43-castlelabs-zk-privacy.md
+- [[Zero-Knowledge Proof Market Size, Share & Trends Analysis Report (Grand View Research)]] - document - references/ch13/ref-42-gvr-zkp-market-report.md
+- [[ZkCloud (formerly Gevulot)]] - document - wiki/sections/ch13-proving-as-a-service-the-prover-market-production.md
+- [[zkEVM  EVM-Compatible Proving]] - document - proving-nothing.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -56,14 +60,32 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 7 edges to [[_COMMUNITY_Community 8]]
-- 2 edges to [[_COMMUNITY_Community 12]]
-- 2 edges to [[_COMMUNITY_Community 44]]
-- 2 edges to [[_COMMUNITY_Community 1]]
+- 12 edges to [[_COMMUNITY_Community 12]]
+- 9 edges to [[_COMMUNITY_Community 30]]
+- 7 edges to [[_COMMUNITY_Community 90]]
+- 6 edges to [[_COMMUNITY_Community 8]]
+- 6 edges to [[_COMMUNITY_Community 13]]
+- 6 edges to [[_COMMUNITY_Community 4]]
+- 5 edges to [[_COMMUNITY_Community 60]]
+- 5 edges to [[_COMMUNITY_Community 17]]
+- 4 edges to [[_COMMUNITY_Community 48]]
+- 4 edges to [[_COMMUNITY_Community 3]]
+- 3 edges to [[_COMMUNITY_Community 35]]
+- 3 edges to [[_COMMUNITY_Community 86]]
+- 3 edges to [[_COMMUNITY_Community 61]]
+- 3 edges to [[_COMMUNITY_Community 20]]
+- 3 edges to [[_COMMUNITY_Community 0]]
+- 1 edge to [[_COMMUNITY_Community 32]]
+- 1 edge to [[_COMMUNITY_Community 97]]
+- 1 edge to [[_COMMUNITY_Community 98]]
+- 1 edge to [[_COMMUNITY_Community 117]]
+- 1 edge to [[_COMMUNITY_Community 107]]
+- 1 edge to [[_COMMUNITY_Community 75]]
+- 1 edge to [[_COMMUNITY_Community 19]]
 
 ## Top bridge nodes
-- [[exTNFS (Extended Tower Number Field Sieve)]] - degree 15, connects to 4 communities
-- [[Number Field Sieve]] - degree 10, connects to 3 communities
-- [[Composite-Order Bilinear Groups]] - degree 7, connects to 1 community
-- [[Comparing the Pairing Efficiency over Composite-Order and Prime-Order Elliptic Curves]] - degree 6, connects to 1 community
-- [[Mandate to update pairing key sizes (c=64→48, factor ~1.33; SNFS factor 2)]] - degree 3, connects to 1 community
+- [[The Market Landscape]] - degree 40, connects to 15 communities
+- [[zkEVM  EVM-Compatible Proving]] - degree 15, connects to 8 communities
+- [[Enterprise Pilots (Pilot)]] - degree 14, connects to 6 communities
+- [[ZK Proofs Is Privacy Cheap Enough to Be Mainstream (Castle Labs)]] - degree 10, connects to 6 communities
+- [[Market Sizing]] - degree 15, connects to 5 communities

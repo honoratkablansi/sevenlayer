@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 12"
+community: "Community 27"
 location: "Chapter 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_12
+  - community/Community_27
 ---
 
 # Finite Field Arithmetic
@@ -29,4 +29,4 @@ tags:
 - [[Univariate Lagrange Interpolation]] - `uses` [EXTRACTED]
 - [[exTNFS (Extended Tower Number Field Sieve)]] - `assumes` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_12
+#graphify/document #graphify/EXTRACTED #community/Community_27

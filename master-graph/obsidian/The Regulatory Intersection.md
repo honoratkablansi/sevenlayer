@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch09-the-regulatory-intersection.md"
 type: "document"
-community: "Community 21"
+community: "Community 4"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_21
+  - community/Community_4
 ---
 
 # The Regulatory Intersection
@@ -21,4 +21,4 @@ tags:
 - [[eIDAS 2.0]] - `defines` [EXTRACTED]
 - [[zKYC (Zero-Knowledge Know Your Customer)]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_21
+#graphify/document #graphify/EXTRACTED #community/Community_4

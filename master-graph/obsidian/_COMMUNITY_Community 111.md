@@ -10,16 +10,16 @@ members: 10
 **Members:** 10 nodes
 
 ## Members
-- [[Blockchain]] - paper - references/ch09/ref-30-kachina.pdf
-- [[Blockchain Model of Cryptography]] - paper - references/snowball/book/ref-109-hawk-the-blockchain-model-of-cryptography-and-p.pdf
-- [[Byzantine Fault Tolerance]] - paper - references/snowball/recursion/ref-121-replicated-state-machines-without-replicated-exe.pdf
-- [[Data Privacy]] - paper - references/ch09/ref-30-kachina.pdf
-- [[Leakage Function]] - paper - references/ch09/ref-30-kachina.pdf
-- [[Replicated State Machine]] - paper - references/snowball/recursion/ref-121-replicated-state-machines-without-replicated-exe.pdf
-- [[Smart Contract]] - paper - references/ch09/ref-30-kachina.pdf
-- [[State Machine  Transition System]] - paper - references/ch09/ref-30-kachina.pdf
-- [[Transactional Privacy]] - paper - references/snowball/book/ref-109-hawk-the-blockchain-model-of-cryptography-and-p.pdf
-- [[Universal Composability (UC) Framework]] - paper - references/ch09/ref-30-kachina.pdf
+- [[FIPS 203 (ML-KEM Standard)]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
+- [[FIPS 204 (ML-DSA Standard)]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
+- [[FIPS 205 (SLH-DSA Standard)]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
+- [[Five Post-Quantum Security Categories (1-5; AES-128 to AES-256, SHA-256SHA3-384)]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
+- [[PQC signature replacements ML-DSA-446587, SLH-DSA, LMSHSS, XMSS]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
+- [[Quantitative (Strong) Church's thesis]] - paper - references/ch07/ref-24-shor.pdf
+- [[Quantum Computing]] - paper - references/ch07/ref-24-shor.pdf
+- [[SLH-DSA (Stateless Hash-Based Digital Signature Algorithm)]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
+- [[Symmetric crypto (AES, SHA-23) less quantum-vulnerable; 112-bit symmetric disallowed 2030]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
+- [[Transition to Post-Quantum Cryptography Standards (NIST IR 8547)]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -29,10 +29,17 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 1 edge to [[_COMMUNITY_Community 20]]
-- 1 edge to [[_COMMUNITY_Community 41]]
-- 1 edge to [[_COMMUNITY_Community 63]]
+- 3 edges to [[_COMMUNITY_Community 0]]
+- 3 edges to [[_COMMUNITY_Community 66]]
+- 3 edges to [[_COMMUNITY_Community 59]]
+- 2 edges to [[_COMMUNITY_Community 43]]
+- 1 edge to [[_COMMUNITY_Community 92]]
+- 1 edge to [[_COMMUNITY_Community 108]]
+- 1 edge to [[_COMMUNITY_Community 35]]
 
 ## Top bridge nodes
-- [[Smart Contract]] - degree 8, connects to 2 communities
-- [[Replicated State Machine]] - degree 3, connects to 1 community
+- [[Transition to Post-Quantum Cryptography Standards (NIST IR 8547)]] - degree 13, connects to 4 communities
+- [[Quantum Computing]] - degree 4, connects to 2 communities
+- [[Five Post-Quantum Security Categories (1-5; AES-128 to AES-256, SHA-256SHA3-384)]] - degree 3, connects to 2 communities
+- [[FIPS 203 (ML-KEM Standard)]] - degree 2, connects to 1 community
+- [[FIPS 204 (ML-DSA Standard)]] - degree 2, connects to 1 community

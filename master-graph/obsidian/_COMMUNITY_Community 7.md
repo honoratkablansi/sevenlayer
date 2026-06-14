@@ -1,60 +1,64 @@
 ---
 type: community
 cohesion: 0.07
-members: 45
+members: 49
 ---
 
 # Community 7
 
 **Cohesion:** 0.07 - loosely connected
-**Members:** 45 nodes
+**Members:** 49 nodes
 
 ## Members
-- [[AVX-512 multi-modular NTT ring arithmetic library]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[Assumption 4.3 MatrixACLMT Knowledge Assumption (matrix variant of knowledge k-ISIS)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
-- [[Attack on Extractable Linear FC integer variant of ACL+22 not extractable assuming inhomogeneous SIS]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
-- [[BASIS_struct Assumption (structured lattice assumption of WW23; implies l-succinct SIS)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
-- [[Batched evaluation protocol for multiple pointspolynomials]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[Bivariate polynomial folding f(X,Y)=aT S b with Y=Xm]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[CRS Efficiency Claim l{d+1} CRS for degree-d polynomials (reduces ACL+22 exponent from 2d to d+1; l3 for quadratics vs l4l5)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
-- [[Committing to w via v=Dw-hat (proof-size reduction)]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[Construction 3.19 Dual Functional Commitment for Bounded-Depth Boolean Circuits]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
-- [[Construction 3.2 Functional Commitment for Constant-Degree Polynomials]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
-- [[Construction 3.9 Multi-Output Functional Commitment for Constant-Degree Polynomials]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
-- [[Coordinate-wise special soundness analysis (CWSS)]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[Dual Functional Commitment (commit to function f, open at input x)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
-- [[Efficiency O(sqrt N) verifier, polylog proof, 53KB at N=230]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[Evasive LWE Assumption (implies l-succinct SIS plus LWE)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
-- [[Extractable Functional Commitment (equivalent to SNARG for NP via quadratic relations)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
-- [[FMN23 lattice polynomial commitments  Power-BASIS (CWSS origin)]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[Fast Johnson-Lindenstrauss projection via Four Russians algorithm]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[Fast Verification in the Preprocessing Model (sublinear verifier after functioninput preprocessing)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
-- [[Functional Commitment]] - document - references/ch14/ref-62-lattice-functional-commitments.pdf
-- [[GSW  BGG+14 Lattice Homomorphic Evaluation Machinery]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
-- [[Greyhound polynomial commitment scheme]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[Greyhound Fast Polynomial Commitments from Lattices]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[Inhomogeneous SIS Assumption]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
-- [[Inner and outer commitment construction]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[KLVW23 RAM-Delegation-Based FC for All Circuits (LWE, transparent, non-black-box)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
-- [[KZG10 constant-size polynomial commitments]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[Knowledge k-R-ISIS Assumption (Albrecht et al. CRYPTO 2022)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
-- [[LaBRADOR Proof System]] - document - references/ch14/ref-65-greyhound.pdf
-- [[Lattice-Based Functional Commitments Fast Verification and Cryptanalysis]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
-- [[Ligero (AHIV17) and Brakedown (GLS+21) hash-based PCs (baselines)]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[Oblivious Sampling Cryptanalysis (Babai-rounding attack breaking extractability  knowledge k-R-ISIS plausibility)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
-- [[Preprocessing SNARG]] - paper - references/snowball/book/ref-086-succinct-non-interactive-arguments-via-linear-in.pdf
-- [[Reduction of verification to a single short-norm linear relation over Rq]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[SLAP succinct lattice polynomial commitments (AFLN24, EUROCRYPT 2024)]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[Short Integer Solutions (SIS) Assumption]] - document - references/ch14/ref-62-lattice-functional-commitments.pdf
-- [[Split-and-fold  folding paradigm]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[Succinct Non-interactive Argument (SNARG)]] - paper - references/ch02/ref-06-groth16.pdf
-- [[Theorem 3.22 Selective-Input Binding of Dual FC under l-succinct SIS]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
-- [[Theorem 3.6 Computational Binding of Construction 3.2 under l-succinct SIS]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
-- [[Theorem 4.1 completeness, weak binding, knowledge soundness of PCS]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[Three-round proof of polynomial evaluation (quadratic relation)]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[Weak binding of innerouter commitment under Module-SIS (Lemma 2.11)]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[Zq-to-Rq evaluation transform via Galois automorphism (AFLN24)]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[l-Succinct SIS Assumption (falsifiable q-type generalization of SIS, trapdoor for I_l ⊗ A  W)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[(2k-1)-Move Special-Sound Protocol with Algebraic Verifier]] - paper - references/ch06/ref-19-protostar.pdf
+- [[Accumulation Scheme (P_acc, V_acc, D) for NARK Verifier with Slack mu and Error Commitment E]] - paper - references/ch06/ref-19-protostar.pdf
+- [[Accumulation schemes BCMS20, BCL+21 recursive proof composition  PCD without succinct arguments; introduced accumulation term and k-folding]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
+- [[BCLMS21 'PCD Without Succinct Arguments' (cited, accumulation-IVC compiler  Theorem 1)]] - paper - references/ch06/ref-19-protostar.pdf
+- [[Branched-Gate Caching for Non-Uniform Error Terms (cost ~ C_pc not sum C_i)]] - paper - references/ch06/ref-19-protostar.pdf
+- [[CVPi_sps High-Degree Verifier Compression (l checks - 1 degree-(d+2) check + 2 sqrt(l) degree-2 checks)]] - paper - references/ch06/ref-19-protostar.pdf
+- [[Circuit Selection Sub-Protocol Pi_select (program-counter one-hot, degree 2)]] - paper - references/ch06/ref-19-protostar.pdf
+- [[Claim 4.4 F(X) (degree log n, sum of length n) computable in O(n) field ops via binary-tree edge-labeling recursion]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
+- [[Claim 4.5 G(X) (degree dk) computable in O(dk log(dk)M + dknC) F-multiplications via FFTIFFT]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
+- [[Commit-and-Open Transform cmPi_sps (Lemma 2)]] - paper - references/ch06/ref-19-protostar.pdf
+- [[Corollary 1 Protostar Prover Cost (recursive circuit = 3 group scalar mults + hash of d field elements)]] - paper - references/ch06/ref-19-protostar.pdf
+- [[Cross Error-Correcting Terms e_j_{j=1}{d-1} as Accumulation Proof]] - paper - references/ch06/ref-19-protostar.pdf
+- [[Eagen, Gabizon, ProtoGalaxy (ePrint 20231106)]] - document - recursion/recursion-outline.md
+- [[Folding many accumulators (§5) transpose sumcheck technique to fold k accumulators by linearly combining beta_j; prover O(kdM+nkdC)]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
+- [[Folding template additively homomorphic vector commitments; verifier randomly combines witness commitments, prover combines witnesses]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
+- [[Generic AccumulationFolding Compiler for Special-Sound Protocols (4-step workflow)]] - paper - references/ch06/ref-19-protostar.pdf
+- [[High-Degree Custom Gate Relation Sub-Protocol Pi_GATE (degree d)]] - paper - references/ch06/ref-19-protostar.pdf
+- [[Homomorphic  Trapdoor Commitment Property]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Homomorphic Sparse Error-Commitment Update for Lookups (O(l) indep. of T)]] - paper - references/ch06/ref-19-protostar.pdf
+- [[HyperNova Folding Scheme KS23 (cited, concurrent CCS multi-folding)]] - paper - references/ch06/ref-19-protostar.pdf
+- [[HyperNova KS23 folding via randomized sumcheck; verifier d log n field ops, log n RO hashes]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
+- [[IVC Val08 and PCD CT10 original motivation for folding schemes]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
+- [[Lemma 3.2 special-soundness for R' (collision-augmented relation) implies knowledge-soundness with negl error for R]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
+- [[Lemma 4.2 f(sum a_i L_i(X)) = sum f(a_i) L_i(X) + Z(X) Q(X) (polynomials commute mod Z with Lagrange multiplication)]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
+- [[Log-Derivative Lookup Argument (Habock)]] - paper - references/ch06/ref-19-protostar.pdf
+- [[Lookup Relation Sub-Protocol Pi_LK (3-move, degree 2, prover indep. of table size T)]] - paper - references/ch06/ref-19-protostar.pdf
+- [[Multi-instance (k-)folding folding k instances in one folding operation]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
+- [[Nova Folding Scheme KST22 (cited, R1CS k=1 d=2 case)]] - paper - references/ch06/ref-19-protostar.pdf
+- [[Nova KST21 recursive ZK arguments from folding; R_acc = relaxed committed R1CS]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
+- [[Permutation Relation Sub-Protocol Pi_sigma (degree 1)]] - paper - references/ch06/ref-19-protostar.pdf
+- [[ProtoGalaxy (Multi-Instance Folding)]] - document - proving-nothing.md
+- [[ProtoGalaxy Efficient ProtoStar-style folding of multiple instances (Eagen & Gabizon, ePrint 20231106)]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
+- [[Protostar Generic Efficient AccumulationFolding for Special-sound Protocols]] - paper - references/ch06/ref-19-protostar.pdf
+- [[Protostar Non-Uniform IVC Scheme for Multi-Circuit Plonkup R_mplkup]] - paper - references/ch06/ref-19-protostar.pdf
+- [[RO-NARK FScmPi_sps from Special-Sound Protocol]] - paper - references/ch06/ref-19-protostar.pdf
+- [[R_rand relation randomized relaxed relation with ((phi,beta,e),omega) s.t. sum_i pow_i(beta) f_i(omega)=e]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
+- [[Relaxed Algebraic Verifier Predicate sum mu(d-j) f_j = e]] - paper - references/ch06/ref-19-protostar.pdf
+- [[Sublinear recursive verifier marginal work log n field ops + O(1) hashes; constant per-instance ops for constant-degree gates]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
+- [[Sumcheck-Style Error-Term Computation Algorithm O(d2 log d)]] - paper - references/ch06/ref-19-protostar.pdf
+- [[SuperNova KS22 (cited, non-uniform IVC predecessor)]] - paper - references/ch06/ref-19-protostar.pdf
+- [[Theorem 2 Accumulation Knowledge Soundness (d+1)-special-sound, error (Q+1)(d+1)F]] - paper - references/ch06/ref-19-protostar.pdf
+- [[Theorem 3 IVC for High-Degree Special-Sound Protocols (recursive circuit k+d-1 or k+2 scalar mults)]] - paper - references/ch06/ref-19-protostar.pdf
+- [[Theorem 4.3 ProtoGalaxy is an (Rk - R_rand) accumulationfolding scheme (complete and knowledge-sound)]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
+- [[Transition from monomial to Lagrange base associate each folded instance with a distinct Lagrange coefficient L_i(X)]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
+- [[Vanishing polynomial Z(X) of subgroup H; decomposition G(X)=F(alpha)L_0(X)+Z(X)K(X) avoids exponentially growing degree]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
+- [[Vector-Valued Lookup Sub-Protocol Pi_VLK (5-move, degree 3)]] - paper - references/ch06/ref-19-protostar.pdf
+- [[AFK22 Attema, Fehr, Klooss Fiat-Shamir transformation of multi-round interactive proofs (special-soundness - NIROM knowledge-soundness)]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
+- [[pow_i polynomial and powers-of-beta vector; ProtoGalaxy avoids committing to the power vector (unlike ProtoStar)]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
+- [[§5 alternative construction for large k replace mod-Z(X) vanishing check with a sumcheck over a size-k domain; verifier O(log n + d log k) ops, log k hashes]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -64,23 +68,24 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 17 edges to [[_COMMUNITY_Community 1]]
-- 7 edges to [[_COMMUNITY_Community 12]]
-- 3 edges to [[_COMMUNITY_Community 41]]
-- 2 edges to [[_COMMUNITY_Community 20]]
-- 2 edges to [[_COMMUNITY_Community 70]]
-- 2 edges to [[_COMMUNITY_Community 0]]
-- 2 edges to [[_COMMUNITY_Community 11]]
-- 1 edge to [[_COMMUNITY_Community 15]]
-- 1 edge to [[_COMMUNITY_Community 6]]
-- 1 edge to [[_COMMUNITY_Community 24]]
+- 12 edges to [[_COMMUNITY_Community 0]]
+- 6 edges to [[_COMMUNITY_Community 64]]
+- 3 edges to [[_COMMUNITY_Community 32]]
+- 3 edges to [[_COMMUNITY_Community 23]]
+- 3 edges to [[_COMMUNITY_Community 37]]
+- 2 edges to [[_COMMUNITY_Community 2]]
+- 2 edges to [[_COMMUNITY_Community 29]]
+- 2 edges to [[_COMMUNITY_Community 76]]
+- 2 edges to [[_COMMUNITY_Community 58]]
 - 1 edge to [[_COMMUNITY_Community 22]]
-- 1 edge to [[_COMMUNITY_Community 39]]
-- 1 edge to [[_COMMUNITY_Community 33]]
+- 1 edge to [[_COMMUNITY_Community 8]]
+- 1 edge to [[_COMMUNITY_Community 15]]
+- 1 edge to [[_COMMUNITY_Community 71]]
+- 1 edge to [[_COMMUNITY_Community 112]]
 
 ## Top bridge nodes
-- [[Greyhound Fast Polynomial Commitments from Lattices]] - degree 17, connects to 5 communities
-- [[Greyhound polynomial commitment scheme]] - degree 14, connects to 5 communities
-- [[LaBRADOR Proof System]] - degree 12, connects to 5 communities
-- [[Lattice-Based Functional Commitments Fast Verification and Cryptanalysis]] - degree 14, connects to 4 communities
-- [[Functional Commitment]] - degree 9, connects to 3 communities
+- [[Protostar Generic Efficient AccumulationFolding for Special-sound Protocols]] - degree 18, connects to 8 communities
+- [[Homomorphic  Trapdoor Commitment Property]] - degree 9, connects to 4 communities
+- [[(2k-1)-Move Special-Sound Protocol with Algebraic Verifier]] - degree 14, connects to 3 communities
+- [[ProtoGalaxy (Multi-Instance Folding)]] - degree 10, connects to 3 communities
+- [[Protostar Non-Uniform IVC Scheme for Multi-Circuit Plonkup R_mplkup]] - degree 11, connects to 2 communities

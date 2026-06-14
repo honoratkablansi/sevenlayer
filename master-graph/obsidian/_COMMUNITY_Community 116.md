@@ -1,24 +1,23 @@
 ---
 type: community
-cohesion: 0.28
-members: 9
+cohesion: 0.32
+members: 8
 ---
 
 # Community 116
 
-**Cohesion:** 0.28 - loosely connected
-**Members:** 9 nodes
+**Cohesion:** 0.32 - loosely connected
+**Members:** 8 nodes
 
 ## Members
-- [[Cache-Timing Attack]] - document - proving-nothing.md
-- [[Constant-Time Implementation]] - document - proving-nothing.md
-- [[Electromagnetic Side-Channel Attack]] - document - proving-nothing.md
-- [[Mukherjee, Rechberger, Schofnegger Cache-Timing Study (2024)]] - document - proving-nothing.md
-- [[Q6 Practical Constant-Time ZK Proving]] - document - proving-nothing.md
-- [[Reinforced Concrete Hash (Bars Lookup Table)]] - document - proving-nothing.md
-- [[Side-Channel Attack]] - document - proving-nothing.md
-- [[Timing Side-Channel Attack]] - document - proving-nothing.md
-- [[Tramer, Boneh, Paterson Remote Side-Channel Attacks (USENIX 2020)]] - document - proving-nothing.md
+- [[Path One Hybrid STARK-to-SNARK Pipeline]] - document - proving-nothing.md
+- [[Seven-Layer Causal Web (DAG, 14 edges)]] - document - proving-nothing.md
+- [[Small Fields (BabyBear, Mersenne-31)]] - document - proving-nothing.md
+- [[StarkWare Stwo (Circle STARK)]] - document - proving-nothing.md
+- [[Succinct SP1 Hypercube]] - document - proving-nothing.md
+- [[The SNARK-or-STARK Binary Is Dead]] - document - proving-nothing.md
+- [[Three Paths, Not Two (Synthesis)]] - document - proving-nothing.md
+- [[Trustless vs Trust-Minimized]] - document - proving-nothing.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -28,19 +27,17 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 5 edges to [[_COMMUNITY_Community 5]]
-- 4 edges to [[_COMMUNITY_Community 86]]
-- 3 edges to [[_COMMUNITY_Community 80]]
-- 2 edges to [[_COMMUNITY_Community 24]]
-- 1 edge to [[_COMMUNITY_Community 17]]
-- 1 edge to [[_COMMUNITY_Community 115]]
-- 1 edge to [[_COMMUNITY_Community 109]]
-- 1 edge to [[_COMMUNITY_Community 94]]
-- 1 edge to [[_COMMUNITY_Community 1]]
+- 5 edges to [[_COMMUNITY_Community 12]]
+- 2 edges to [[_COMMUNITY_Community 13]]
+- 1 edge to [[_COMMUNITY_Community 36]]
+- 1 edge to [[_COMMUNITY_Community 8]]
+- 1 edge to [[_COMMUNITY_Community 20]]
+- 1 edge to [[_COMMUNITY_Community 10]]
+- 1 edge to [[_COMMUNITY_Community 19]]
 
 ## Top bridge nodes
-- [[Side-Channel Attack]] - degree 15, connects to 6 communities
-- [[Tramer, Boneh, Paterson Remote Side-Channel Attacks (USENIX 2020)]] - degree 3, connects to 2 communities
-- [[Q6 Practical Constant-Time ZK Proving]] - degree 5, connects to 1 community
-- [[Constant-Time Implementation]] - degree 4, connects to 1 community
-- [[Timing Side-Channel Attack]] - degree 4, connects to 1 community
+- [[Path One Hybrid STARK-to-SNARK Pipeline]] - degree 7, connects to 4 communities
+- [[Three Paths, Not Two (Synthesis)]] - degree 7, connects to 2 communities
+- [[The SNARK-or-STARK Binary Is Dead]] - degree 3, connects to 2 communities
+- [[Seven-Layer Causal Web (DAG, 14 edges)]] - degree 3, connects to 1 community
+- [[Succinct SP1 Hypercube]] - degree 3, connects to 1 community

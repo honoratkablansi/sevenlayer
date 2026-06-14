@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-38-snarky-ceremonies.pdf"
 type: "paper"
-community: "Community 59"
+community: "Community 9"
 location: "page 1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_59
+  - community/Community_9
 ---
 
 # Snarky Ceremonies
@@ -34,4 +34,4 @@ tags:
 - [[Updatable and Universal Structured Reference String]] - `references` [EXTRACTED]
 - [[Update knowledge soundness (Def 5, game GameA,EA_uks over phi_max phases)]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_59
+#graphify/paper #graphify/EXTRACTED #community/Community_9

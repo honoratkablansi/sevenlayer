@@ -1,33 +1,34 @@
 ---
 type: community
-cohesion: 0.12
-members: 18
+cohesion: 0.15
+members: 19
 ---
 
 # Community 70
 
-**Cohesion:** 0.12 - loosely connected
-**Members:** 18 nodes
+**Cohesion:** 0.15 - loosely connected
+**Members:** 19 nodes
 
 ## Members
-- [[Canetti, Goldreich, Halevi, The Random Oracle Methodology, Revisited (JACM 2004)]] - document - recursion/recursion-outline.md
-- [[Cryptographic Hash Function]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[FS-GKR Fiat-Shamir attacks (KRS25) motivating recursion avoidance]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[Fiat & Shamir, Crypto '86 (LNCS 263)]] - document - proving-nothing.md
-- [[Fiat-Shamir Transform]] - document - proving-nothing.md
-- [[Frozen Heart  Fiat-Shamir Vulnerability Class]] - document - proving-nothing.md
-- [[Frozen Heart Vulnerability (2022)]] - document - proving-nothing.md
-- [[Hash Chaining]] - paper - references/books/proofs-args-zk.pdf
-- [[Khovratovich, Rothblum, Soukhanov, How to Prove False Statements (ePrint 2025118)]] - document - recursion/recursion-outline.md
-- [[Last Challenge Attack (2024)]] - document - proving-nothing.md
-- [[Last Challenge Attack (FS flaw in KZG-based SNARK final batching challenge)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
-- [[Non-Interactive Argument]] - paper - references/books/proofs-args-zk.pdf
-- [[Nova IVC soundnessmalleability bug on cycle of curves (missing consistency check)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
-- [[PinocchioBCTV setup counterfeiting bug exploited in Zcash (bypass parameters forge proofs)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
-- [[Proof-system (theoretical) vulnerabilities affecting all implementations]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
-- [[Public-Coin Protocol]] - paper - references/books/proofs-args-zk.pdf
-- [[Random Oracle Model]] - paper - references/recursion/ch1/ref-11-khovratovich-fiat-shamir-attacks.pdf
-- [[Solana ZK ElGamal Bug (2025)]] - document - proving-nothing.md
+- [[Bulletproofs (Bunz et al.) 13]] - paper - references/recursion/ch1/ref-05-halo.pdf
+- [[Chiesa, Chua On cycles of pairing-friendly elliptic curves 16]] - paper - references/recursion/ch1/ref-05-halo.pdf
+- [[Chiesa, Tromer Proof-Carrying Data 19]] - paper - references/recursion/ch1/ref-05-halo.pdf
+- [[Discrete Log Relation Assumption]] - paper - references/recursion/ch1/ref-05-halo.pdf
+- [[Endomorphism-based circuit optimization (Algorithm 1, 3.5 constraintsbit)]] - paper - references/recursion/ch1/ref-05-halo.pdf
+- [[Fractal (Chiesa, Ojha, Spooner) post-quantum transparent recursive proofs 18]] - paper - references/recursion/ch1/ref-05-halo.pdf
+- [[Halo first practical recursive proof composition without a trusted setup]] - paper - references/recursion/ch1/ref-05-halo.pdf
+- [[Main argument Sonic-variant PSHVZK argument of knowledge for arithmetic circuit satisfiability]] - paper - references/recursion/ch1/ref-05-halo.pdf
+- [[No-trusted-setup (transparent) argument under discrete log over normal curve cycles]] - paper - references/recursion/ch1/ref-05-halo.pdf
+- [[Non-interactive instantiation via Fiat-Shamir with Rescue duplex-sponge in random oracle model]] - paper - references/recursion/ch1/ref-05-halo.pdf
+- [[Pedersen-based univariate polynomial commitment with amortized succinctness]] - paper - references/recursion/ch1/ref-05-halo.pdf
+- [[Recursion threshold below 217 gates; fully-recursive proofs 3.5 KiB at 128-bit security]] - paper - references/recursion/ch1/ref-05-halo.pdf
+- [[Sonic (Maller, Bowe, Kohlweiss, Meiklejohn) 32]] - paper - references/recursion/ch1/ref-05-halo.pdf
+- [[Theorem 1 polynomial commitment protocol has completeness, witness-extended emulation, PSHVZK]] - paper - references/recursion/ch1/ref-05-halo.pdf
+- [[Theorem 2 main protocol (Fig. 1) has completeness, PSHVZK, computational witness-extended emulation]] - paper - references/recursion/ch1/ref-05-halo.pdf
+- [[Theorem 3 (Distinct-x theorem) safe incomplete addition in scalar-mult circuits]] - paper - references/recursion/ch1/ref-05-halo.pdf
+- [[TweedledumTweedledee 255-bit prime-order normal (non-pairing) 2-cycle, y2=x3+5]] - paper - references/recursion/ch1/ref-05-halo.pdf
+- [[Valiant Incrementally verifiable computation 36]] - paper - references/recursion/ch1/ref-05-halo.pdf
+- [[Wahby, Tzialla, shelat, Thaler, Walfish Doubly-efficient zkSNARKs without trusted setup 37]] - paper - references/recursion/ch1/ref-05-halo.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -37,50 +38,18 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 10 edges to [[_COMMUNITY_Community 17]]
-- 8 edges to [[_COMMUNITY_Community 24]]
-- 5 edges to [[_COMMUNITY_Community 15]]
-- 5 edges to [[_COMMUNITY_Community 61]]
-- 4 edges to [[_COMMUNITY_Community 72]]
-- 4 edges to [[_COMMUNITY_Community 53]]
-- 3 edges to [[_COMMUNITY_Community 14]]
-- 3 edges to [[_COMMUNITY_Community 92]]
-- 3 edges to [[_COMMUNITY_Community 4]]
-- 3 edges to [[_COMMUNITY_Community 1]]
-- 2 edges to [[_COMMUNITY_Community 20]]
-- 2 edges to [[_COMMUNITY_Community 25]]
-- 2 edges to [[_COMMUNITY_Community 66]]
-- 2 edges to [[_COMMUNITY_Community 5]]
-- 2 edges to [[_COMMUNITY_Community 52]]
-- 2 edges to [[_COMMUNITY_Community 41]]
-- 2 edges to [[_COMMUNITY_Community 71]]
-- 2 edges to [[_COMMUNITY_Community 2]]
-- 2 edges to [[_COMMUNITY_Community 76]]
-- 2 edges to [[_COMMUNITY_Community 7]]
-- 2 edges to [[_COMMUNITY_Community 124]]
-- 2 edges to [[_COMMUNITY_Community 54]]
-- 2 edges to [[_COMMUNITY_Community 80]]
-- 1 edge to [[_COMMUNITY_Community 101]]
-- 1 edge to [[_COMMUNITY_Community 60]]
-- 1 edge to [[_COMMUNITY_Community 12]]
-- 1 edge to [[_COMMUNITY_Community 29]]
-- 1 edge to [[_COMMUNITY_Community 114]]
-- 1 edge to [[_COMMUNITY_Community 88]]
-- 1 edge to [[_COMMUNITY_Community 0]]
-- 1 edge to [[_COMMUNITY_Community 10]]
-- 1 edge to [[_COMMUNITY_Community 11]]
-- 1 edge to [[_COMMUNITY_Community 18]]
-- 1 edge to [[_COMMUNITY_Community 83]]
-- 1 edge to [[_COMMUNITY_Community 43]]
-- 1 edge to [[_COMMUNITY_Community 98]]
-- 1 edge to [[_COMMUNITY_Community 3]]
-- 1 edge to [[_COMMUNITY_Community 49]]
-- 1 edge to [[_COMMUNITY_Community 22]]
-- 1 edge to [[_COMMUNITY_Community 9]]
+- 5 edges to [[_COMMUNITY_Community 29]]
+- 4 edges to [[_COMMUNITY_Community 24]]
+- 4 edges to [[_COMMUNITY_Community 19]]
+- 3 edges to [[_COMMUNITY_Community 31]]
+- 3 edges to [[_COMMUNITY_Community 64]]
+- 2 edges to [[_COMMUNITY_Community 21]]
+- 1 edge to [[_COMMUNITY_Community 23]]
+- 1 edge to [[_COMMUNITY_Community 30]]
 
 ## Top bridge nodes
-- [[Fiat-Shamir Transform]] - degree 99, connects to 39 communities
-- [[Cryptographic Hash Function]] - degree 4, connects to 2 communities
-- [[Proof-system (theoretical) vulnerabilities affecting all implementations]] - degree 4, connects to 1 community
-- [[FS-GKR Fiat-Shamir attacks (KRS25) motivating recursion avoidance]] - degree 2, connects to 1 community
-- [[Public-Coin Protocol]] - degree 2, connects to 1 community
+- [[No-trusted-setup (transparent) argument under discrete log over normal curve cycles]] - degree 9, connects to 5 communities
+- [[Halo first practical recursive proof composition without a trusted setup]] - degree 14, connects to 4 communities
+- [[Pedersen-based univariate polynomial commitment with amortized succinctness]] - degree 8, connects to 3 communities
+- [[Main argument Sonic-variant PSHVZK argument of knowledge for arithmetic circuit satisfiability]] - degree 7, connects to 1 community
+- [[Discrete Log Relation Assumption]] - degree 6, connects to 1 community

@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch05-the-sumcheck-protocol-the-hidden-foundation.md"
 type: "document"
-community: "Community 4"
+community: "Community 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_4
+  - community/Community_2
 ---
 
 # The Sumcheck Protocol: The Hidden Foundation
@@ -35,4 +35,4 @@ tags:
 - [[Where the Layers Collapse]] - `references` [EXTRACTED]
 - [[Witness Generation Costs]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_4
+#graphify/document #graphify/EXTRACTED #community/Community_2

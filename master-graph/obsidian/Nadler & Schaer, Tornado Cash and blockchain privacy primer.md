@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch09/ref-31-blockchain-privacy-compliance.pdf"
 type: "paper"
-community: "Community 84"
+community: "Community 48"
 location: "Ref [2]"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_84
+  - community/Community_48
 ---
 
 # Nadler & Schaer, Tornado Cash and blockchain privacy primer
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Blockchain Privacy and Regulatory Compliance Towards a Practical Equilibrium]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_84
+#graphify/paper #graphify/EXTRACTED #community/Community_48

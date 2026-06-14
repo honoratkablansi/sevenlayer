@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch12-full-seven-layer-mapping.md"
 type: "document"
-community: "Community 5"
+community: "Community 17"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_5
+  - community/Community_17
 ---
 
 # MidnightJS SDK
@@ -18,4 +18,4 @@ tags:
 - [[The Three Frontiers]] - `references` [EXTRACTED]
 - [[Where Midnight Challenges the Model]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_5
+#graphify/document #graphify/EXTRACTED #community/Community_17

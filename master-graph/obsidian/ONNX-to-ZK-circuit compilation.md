@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch3/ref-72-ezkl-modulus-docs.md"
 type: "document"
-community: "Community 139"
+community: "Community 127"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_139
+  - community/Community_127
 ---
 
 # ONNX-to-ZK-circuit compilation
@@ -14,4 +14,4 @@ tags:
 - [[EZKL  Modulus Labs zkML systems documentation]] - `explains` [EXTRACTED]
 - [[Proof of correct model execution]] - `introduces` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_139
+#graphify/document #graphify/EXTRACTED #community/Community_127

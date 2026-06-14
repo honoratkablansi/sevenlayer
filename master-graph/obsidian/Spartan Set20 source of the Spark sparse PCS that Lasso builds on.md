@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch03/ref-15-lasso.pdf"
 type: "paper"
-community: "Community 23"
+community: "Community 31"
 location: "refs [Set20]"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_23
+  - community/Community_31
 ---
 
 # Spartan [Set20]: source of the Spark sparse PCS that Lasso builds on
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Stronger Spark security secure even when sparse-polynomial metadata is committed by a malicious prover (first 'standard' sparse PCS)]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_23
+#graphify/paper #graphify/EXTRACTED #community/Community_31

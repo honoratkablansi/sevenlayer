@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 110"
+community: "Community 4"
 location: "Chapter 9"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_110
+  - community/Community_4
 ---
 
 # Claim: ZKPs Are Necessary But Not Sufficient for Privacy
@@ -15,4 +15,4 @@ tags:
 - [[The Privacy Stack (Layered PET Composition)]] - `conceptually_related_to` [INFERRED]
 - [[Zero-Knowledge Proofs (ZKPs)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_110
+#graphify/document #graphify/EXTRACTED #community/Community_4

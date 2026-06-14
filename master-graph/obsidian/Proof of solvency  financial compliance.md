@@ -1,12 +1,12 @@
 ---
 source_file: "recursion/recursion-outline.md"
 type: "document"
-community: "Community 73"
+community: "Community 39"
 location: "Recursion Chapter 3"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_73
+  - community/Community_39
 ---
 
 # Proof of solvency / financial compliance
@@ -25,4 +25,4 @@ tags:
 - [[Summa Proof of Solvency Protocol]] - `defines` [EXTRACTED]
 - [[Verifiable databases and analytics]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_73
+#graphify/document #graphify/EXTRACTED #community/Community_39

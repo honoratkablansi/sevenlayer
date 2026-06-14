@@ -17,7 +17,7 @@ tags:
 - [[MIP = NEXP]] - `defines` [EXTRACTED]
 - [[Non-Adaptivity in MIPs]] - `uses` [EXTRACTED]
 - [[Polynomial IOP  interactive oracle protocol]] - `generalizes` [EXTRACTED]
-- [[Probabilistically Checkable Proofs (PCPs) compiling a PCP into a succinct argument via Merkle commitment]] - `compiles_to` [EXTRACTED]
+- [[Probabilistically Checkable Proofs (PCPs) compiling a PCP into a succinct argument via Merkle commitment]] - `relates_to` [EXTRACTED]
 - [[Proofs, Arguments, and Zero-Knowledge (Justin Thaler, survey textbook)]] - `explains` [EXTRACTED]
 - [[R1CS (Rank-1 Constraint Systems)]] - `relates_to` [EXTRACTED]
 - [[Succinct Argument]] - `compiles_to` [EXTRACTED]

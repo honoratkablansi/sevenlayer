@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 42"
+community: "Community 103"
 location: "Chapter 7"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_42
+  - community/Community_103
 ---
 
 # Algebraic Hash Functions (Poseidon)
@@ -17,4 +17,4 @@ tags:
 - [[Collision-Resistant Hash Functions]] - `conceptually_related_to` [EXTRACTED]
 - [[Power-map S-box S(x)=xalpha, alpha=3 smallest integer with gcd(alpha,p-1)=1 (typically x3 or x5)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_42
+#graphify/document #graphify/EXTRACTED #community/Community_103

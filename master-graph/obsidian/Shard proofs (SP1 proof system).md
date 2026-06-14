@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch1/ref-27-succinct-sp1-docs.md"
 type: "document"
-community: "Community 10"
+community: "Community 30"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_10
+  - community/Community_30
 ---
 
 # Shard proofs (SP1 proof system)
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[SP1 Hypercube (Succinct)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_10
+#graphify/document #graphify/EXTRACTED #community/Community_30

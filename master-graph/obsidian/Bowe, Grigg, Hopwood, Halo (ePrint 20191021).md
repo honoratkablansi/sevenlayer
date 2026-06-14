@@ -1,12 +1,12 @@
 ---
 source_file: "recursion/recursion-outline.md"
 type: "document"
-community: "Community 13"
+community: "Community 19"
 location: "Recursion Chapter 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_13
+  - community/Community_19
 ---
 
 # Bowe, Grigg, Hopwood, "Halo" (ePrint 2019/1021)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Halo  Nested Amortization Recursion]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_13
+#graphify/document #graphify/EXTRACTED #community/Community_19

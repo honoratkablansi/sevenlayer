@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-33-snarkpack.pdf"
 type: "paper"
-community: "Community 62"
+community: "Community 122"
 location: "§3 (TIPP), §5 Rtipp"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_62
+  - community/Community_122
 ---
 
 # TIPP: Target Inner Pairing Product argument
@@ -15,4 +15,4 @@ tags:
 - [[Inner pairing product argument (IPP)]] - `conceptually_related_to` [EXTRACTED]
 - [[MT-IPP merged MIPP+TIPP argument]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_62
+#graphify/paper #graphify/EXTRACTED #community/Community_122

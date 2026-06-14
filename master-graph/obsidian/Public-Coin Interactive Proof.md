@@ -1,12 +1,12 @@
 ---
 source_file: "references/books/proofs-args-zk.pdf"
 type: "paper"
-community: "Community 72"
+community: "Community 40"
 location: "Definitions and Technical Preliminaries"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_72
+  - community/Community_40
 ---
 
 # Public-Coin Interactive Proof
@@ -16,4 +16,4 @@ tags:
 - [[Interactive Proof (IP) prover-verifier protocol with statistical soundness]] - `special_case_of` [EXTRACTED]
 - [[Private-Coin Interactive Proof]] - `generalizes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_72
+#graphify/paper #graphify/EXTRACTED #community/Community_40

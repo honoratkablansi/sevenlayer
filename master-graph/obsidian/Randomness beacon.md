@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf"
 type: "paper"
-community: "Community 2"
+community: "Community 6"
 location: "§1 Introduction; §2 Applications"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_2
+  - community/Community_6
 ---
 
 # Randomness beacon
@@ -16,4 +16,4 @@ tags:
 - [[VDF randomness-beacon application post pp on chain, beacon r where (r,π)=Eval(ek,b); also 'Unicorn' commit-free n-party beacon]] - `conceptually_related_to` [EXTRACTED]
 - [[Verifiable delay function (VDF)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_2
+#graphify/paper #graphify/EXTRACTED #community/Community_6

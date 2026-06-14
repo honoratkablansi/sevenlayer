@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 79"
+community: "Community 90"
 location: "Chapter 13"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_79
+  - community/Community_90
 ---
 
 # ZKML (Zero-Knowledge Machine Learning)
@@ -37,4 +37,4 @@ tags:
 - [[zkCNN Zero Knowledge Proofs for CNN Predictions and Accuracy (CCS 2021)]] - `conceptually_related_to` [EXTRACTED]
 - [[zkML inference proof with folding case study]] - `explains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_79
+#graphify/document #graphify/EXTRACTED #community/Community_90

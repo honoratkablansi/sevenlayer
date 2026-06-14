@@ -1,53 +1,60 @@
 ---
 type: community
-cohesion: 0.15
-members: 38
+cohesion: 0.06
+members: 45
 ---
 
 # Community 11
 
-**Cohesion:** 0.15 - loosely connected
-**Members:** 38 nodes
+**Cohesion:** 0.06 - loosely connected
+**Members:** 45 nodes
 
 ## Members
-- [[AFGHO Inner-Pairing-Product Commitment]] - paper - references/books/proofs-args-zk.pdf
-- [[Ariel Gabizon]] - document - wiki/sections/ch02-the-bug-that-was-not-a-ceremony-failure.md
-- [[BN254's Eroding Security Margin]] - document - wiki/sections/ch02-bn254-s-eroding-security-margin.md
-- [[Bootle, Cerulli, Chaidos, Groth, Petit Efficient ZK arguments in the discrete log setting (inner product argument) 12]] - paper - references/recursion/ch1/ref-05-halo.pdf
-- [[Bulletproofs  Inner Product Argument]] - document - proving-nothing.md
-- [[Bulletproofs Short Proofs for Confidential Transactions and More]] - paper - references/ch02/ref-09-bulletproofs.pdf
-- [[Bunz et al., Bulletproofs (IEEE S&P 2018)]] - document - proving-nothing.md
-- [[Discrete Logarithm Problem (DLP)]] - document - proving-nothing.md
-- [[Dory]] - paper - references/snowball/book/ref-092-dory-efficient-transparent-arguments-for-gener.pdf
-- [[Ethereum KZG Summoning of 2023 (141,416 participants)]] - document - proving-nothing.md
-- [[Hardness Assumption]] - document - proving-nothing.md
-- [[Inner Product Argument (IPABulletproofs)]] - document - proving-nothing.md
-- [[KZG Polynomial Commitments from pairings (with trusted setup); Dory transparent pairing-based scheme]] - paper - references/recursion/ch1/ref-20-thaler-proofs-arguments-zk.pdf
-- [[Kate, Zaverucha & Goldberg, KZG (ASIACRYPT 2010)]] - document - proving-nothing.md
-- [[Kate, Zaverucha, Goldberg — Constant-Size Commitments to Polynomials (ASIACRYPT 2010)]] - document - proving-nothing.md
-- [[Layer 1 -- Building the Stage]] - document - wiki/chapters/02-building-the-stage.md
-- [[Logarithmic Proof Size]] - paper - references/books/proofs-args-zk.pdf
-- [[Midnight's BLS12-381 Stage]] - document - wiki/sections/ch02-midnight-s-bls12-381-stage.md
-- [[Multilinear KZG Polynomial Commitment]] - paper - references/books/proofs-args-zk.pdf
-- [[NIST]] - document - wiki/sections/ch01-the-deepest-question.md
-- [[Option-Value Analysis]] - document - wiki/sections/ch02-option-value-analysis.md
-- [[Recursive Halving in Inner Product Argument]] - paper - references/books/proofs-args-zk.pdf
-- [[Sonic Zero-Knowledge SNARKs from Linear-Size Universal and Updatable Structured Reference Strings]] - paper - references/ch10/ref-36-sonic.pdf
-- [[Structured Reference String (SRS)]] - document - proving-nothing.md
-- [[The 141,416-Person Question]] - document - wiki/sections/ch02-the-141-416-person-question.md
-- [[The ADOPT Framework]] - document - wiki/sections/ch02-the-adopt-framework.md
-- [[The Bug That Was Not a Ceremony Failure]] - document - wiki/sections/ch02-the-bug-that-was-not-a-ceremony-failure.md
-- [[The CapexOpex Framework]] - document - wiki/sections/ch02-the-capex-opex-framework.md
-- [[The Deepest Symmetry]] - document - wiki/sections/ch08-the-deepest-symmetry.md
-- [[The Fair Shuffle Problem]] - document - wiki/sections/ch02-the-fair-shuffle-problem.md
-- [[The Quantum Shelf Life]] - document - wiki/sections/ch02-the-quantum-shelf-life.md
-- [[The Setup Tradeoff]] - document - wiki/sections/ch02-the-setup-tradeoff.md
-- [[The Structured Reference String]] - document - wiki/sections/ch02-the-structured-reference-string.md
-- [[Toxic Waste (Trapdoor)]] - document - proving-nothing.md
-- [[Transparent Setup]] - document - proving-nothing.md
-- [[Trusted Setup Ceremony]] - document - proving-nothing.md
-- [[Two Ways to Build a Stage]] - document - wiki/sections/ch02-two-ways-to-build-a-stage.md
-- [[Universal versus Circuit-Specific Setups]] - document - wiki/sections/ch02-universal-versus-circuit-specific-setups.md
+- [[2PC query execution over TLS prover and verifier run custom 2PC (2PC-HMAC, 2PC-GCM) to construct TLS records under secret-shared keys]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[2PC-HMAC optimization compute inner-hash IV s0=f_H(IV, k+ipad) once, local inner hash regardless of query length]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[3-AES-invocation record revelation vs 1027 naive AES-in-ZKP, via CBC MAC-then-encrypt structure]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Authenticated data feed (ADF) for smart contracts]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Blockchainsmart-contract oracle protocol (provenance of online data)]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Cited Bulletproofs (transparent-setup ZK alternative to libsnark)]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Cited Camenisch-Stadler ZK-PoK notation for proofs of knowledge]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Cited Canetti, Universally Composable Security framework]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Cited Cinderella (verifiable computation over X.509 certificates)]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Cited Mixicle (privacy-preserving oracle construction for binary options)]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Cited TLS-N (server-side TLS 1.3 extension signing session, chunk-level redaction)]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Cited TLSNotary (deprecated-TLS auditor oracle, no privacy from oracle)]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Cited Town Crier (TEESGX-based oracle, ADF term origin)]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Cited Yao garbled circuits (basis of 2PC for bitwise ops)]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Cited libsnark zk-SNARK library (Ben-Sasson et al. proof system 18)]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Cited secret-sharing MtA (multiplicative-to-additive) protocol used in ECtF]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Context-integrity property and context-integrity attacks (quoting out of context  reflection attack) universal to privacy-preserving oracles]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[DECO decentralized oracle for TLS (Zhang, Maram, Malvai, Goldfeder, Juels, CCS 2020)]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[DKIM signature verification proofs]] - document - references/recursion/ch3/ref-85-zkemail-docs.md
+- [[Decentralized Oracle for TLS]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[ECtF protocol convert additive shares of an EC point in GF(p) to additive shares of its x-coordinate in F_p (8-ciphertext comm.)]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Efficient selective opening of TLS records (RevealRedact modes) exploiting MAC-then-encrypt and Merkle-Damgard structure]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Email Wallet and account recovery]] - document - references/recursion/ch3/ref-85-zkemail-docs.md
+- [[Ideal functionality F_Oracle (formal security definition of decentralized oracle) between S, P, V]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Key idea withhold MAC key share from prover until after commitment, making session-data commitment unforgeable]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Key-value grammar optimization (globally unique keys) for JSONHTML two-stage parsing]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[MPC-TLS prover-verifier protocol]] - document - references/recursion/ch3/ref-86-tlsnotary-docs.md
+- [[Notary attestation of TLS session data]] - document - references/recursion/ch3/ref-86-tlsnotary-docs.md
+- [[Security properties prover-integrity, verifier-integrity, privacy under static malicious adversary]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Selective redaction of TLS transcript]] - document - references/recursion/ch3/ref-86-tlsnotary-docs.md
+- [[TLSNotary]] - document - references/recursion/ch3/ref-86-tlsnotary-docs.md
+- [[TLSNotary project documentation]] - document - references/recursion/ch3/ref-86-tlsnotary-docs.md
+- [[Theorem 4.1 Prot_DECO UC-securely realizes F_Oracle in (F_2PC, F_ZK)-hybrid world, assuming hard discrete log and SHA-256 compression as random oracle]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Three demo applications confidential binary option, legacy-to-anonymous age credential, price-discrimination claim]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Three-party handshake (3P-HS) prover+verifier jointly act as TLS client, secret-share session keys with server, transparent to server]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Transport Layer Security (TLS) handshake + record protocol]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Trust model no trusted hardware, no server-side modification; oracle trusted for integrity not privacy; privacy holds even if all oracles compromised]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Universally Composable (UC) security via ideal functionality]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Web data provenance  authenticity of TLS-accessed data]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[ZK Email Blueprint SDK and Verifier]] - document - references/recursion/ch3/ref-85-zkemail-docs.md
+- [[ZK Email documentation]] - document - references/recursion/ch3/ref-85-zkemail-docs.md
+- [[ZK-Regex circuit primitive]] - document - references/recursion/ch3/ref-85-zkemail-docs.md
+- [[Zero-knowledge two-stage parsing scheme local pre-process (Trans) then prove context integrity on shorter transformed string]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[zkEmail]] - document - references/recursion/ch3/ref-85-zkemail-docs.md
+- [[zkTLS  zkEmail web and email provenance]] - document - recursion/recursion-outline.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -57,63 +64,17 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 43 edges to [[_COMMUNITY_Community 0]]
-- 39 edges to [[_COMMUNITY_Community 1]]
-- 36 edges to [[_COMMUNITY_Community 5]]
-- 28 edges to [[_COMMUNITY_Community 24]]
-- 23 edges to [[_COMMUNITY_Community 17]]
-- 11 edges to [[_COMMUNITY_Community 68]]
-- 8 edges to [[_COMMUNITY_Community 4]]
-- 8 edges to [[_COMMUNITY_Community 12]]
-- 8 edges to [[_COMMUNITY_Community 8]]
-- 7 edges to [[_COMMUNITY_Community 61]]
-- 7 edges to [[_COMMUNITY_Community 15]]
-- 6 edges to [[_COMMUNITY_Community 83]]
-- 5 edges to [[_COMMUNITY_Community 43]]
-- 4 edges to [[_COMMUNITY_Community 10]]
-- 4 edges to [[_COMMUNITY_Community 58]]
-- 4 edges to [[_COMMUNITY_Community 59]]
-- 4 edges to [[_COMMUNITY_Community 3]]
-- 4 edges to [[_COMMUNITY_Community 98]]
-- 4 edges to [[_COMMUNITY_Community 47]]
-- 3 edges to [[_COMMUNITY_Community 51]]
-- 3 edges to [[_COMMUNITY_Community 34]]
-- 3 edges to [[_COMMUNITY_Community 25]]
-- 2 edges to [[_COMMUNITY_Community 20]]
-- 2 edges to [[_COMMUNITY_Community 119]]
-- 2 edges to [[_COMMUNITY_Community 29]]
-- 2 edges to [[_COMMUNITY_Community 21]]
-- 2 edges to [[_COMMUNITY_Community 105]]
-- 2 edges to [[_COMMUNITY_Community 39]]
-- 2 edges to [[_COMMUNITY_Community 131]]
-- 2 edges to [[_COMMUNITY_Community 71]]
-- 2 edges to [[_COMMUNITY_Community 52]]
-- 2 edges to [[_COMMUNITY_Community 22]]
-- 2 edges to [[_COMMUNITY_Community 13]]
-- 2 edges to [[_COMMUNITY_Community 99]]
-- 2 edges to [[_COMMUNITY_Community 57]]
-- 2 edges to [[_COMMUNITY_Community 7]]
-- 2 edges to [[_COMMUNITY_Community 62]]
-- 1 edge to [[_COMMUNITY_Community 70]]
-- 1 edge to [[_COMMUNITY_Community 41]]
-- 1 edge to [[_COMMUNITY_Community 117]]
-- 1 edge to [[_COMMUNITY_Community 40]]
-- 1 edge to [[_COMMUNITY_Community 27]]
-- 1 edge to [[_COMMUNITY_Community 86]]
-- 1 edge to [[_COMMUNITY_Community 142]]
-- 1 edge to [[_COMMUNITY_Community 42]]
-- 1 edge to [[_COMMUNITY_Community 102]]
-- 1 edge to [[_COMMUNITY_Community 67]]
-- 1 edge to [[_COMMUNITY_Community 114]]
+- 6 edges to [[_COMMUNITY_Community 22]]
+- 5 edges to [[_COMMUNITY_Community 86]]
+- 4 edges to [[_COMMUNITY_Community 9]]
+- 2 edges to [[_COMMUNITY_Community 4]]
+- 1 edge to [[_COMMUNITY_Community 36]]
+- 1 edge to [[_COMMUNITY_Community 106]]
 - 1 edge to [[_COMMUNITY_Community 19]]
-- 1 edge to [[_COMMUNITY_Community 112]]
-- 1 edge to [[_COMMUNITY_Community 44]]
-- 1 edge to [[_COMMUNITY_Community 91]]
-- 1 edge to [[_COMMUNITY_Community 9]]
 
 ## Top bridge nodes
-- [[Trusted Setup Ceremony]] - degree 89, connects to 28 communities
-- [[KZG Polynomial Commitments from pairings (with trusted setup); Dory transparent pairing-based scheme]] - degree 85, connects to 21 communities
-- [[Layer 1 -- Building the Stage]] - degree 56, connects to 20 communities
-- [[Inner Product Argument (IPABulletproofs)]] - degree 31, connects to 13 communities
-- [[Bulletproofs  Inner Product Argument]] - degree 26, connects to 13 communities
+- [[zkTLS  zkEmail web and email provenance]] - degree 7, connects to 2 communities
+- [[Efficient selective opening of TLS records (RevealRedact modes) exploiting MAC-then-encrypt and Merkle-Damgard structure]] - degree 5, connects to 2 communities
+- [[Three demo applications confidential binary option, legacy-to-anonymous age credential, price-discrimination claim]] - degree 4, connects to 2 communities
+- [[Decentralized Oracle for TLS]] - degree 3, connects to 2 communities
+- [[Transport Layer Security (TLS) handshake + record protocol]] - degree 5, connects to 1 community

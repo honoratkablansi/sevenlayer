@@ -1,33 +1,33 @@
 ---
 type: community
-cohesion: 0.19
+cohesion: 0.16
 members: 18
 ---
 
 # Community 76
 
-**Cohesion:** 0.19 - loosely connected
+**Cohesion:** 0.16 - loosely connected
 **Members:** 18 nodes
 
 ## Members
-- [[(2k-1)-Move Special-Sound Protocol with Algebraic Verifier]] - paper - references/ch06/ref-19-protostar.pdf
-- [[BCLMS21 'PCD Without Succinct Arguments' (cited, accumulation-IVC compiler  Theorem 1)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[CVPi_sps High-Degree Verifier Compression (l checks - 1 degree-(d+2) check + 2 sqrt(l) degree-2 checks)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Circuit Selection Sub-Protocol Pi_select (program-counter one-hot, degree 2)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Corollary 1 Protostar Prover Cost (recursive circuit = 3 group scalar mults + hash of d field elements)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Generic AccumulationFolding Compiler for Special-Sound Protocols (4-step workflow)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[High-Degree Custom Gate Relation Sub-Protocol Pi_GATE (degree d)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[HyperNova Folding Scheme KS23 (cited, concurrent CCS multi-folding)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Log-Derivative Lookup Argument (Habock)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Lookup Relation Sub-Protocol Pi_LK (3-move, degree 2, prover indep. of table size T)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Nova Folding Scheme KST22 (cited, R1CS k=1 d=2 case)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Permutation Relation Sub-Protocol Pi_sigma (degree 1)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Protostar Generic Efficient AccumulationFolding for Special-sound Protocols]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Protostar Non-Uniform IVC Scheme for Multi-Circuit Plonkup R_mplkup]] - paper - references/ch06/ref-19-protostar.pdf
-- [[SuperNova KS22 (cited, non-uniform IVC predecessor)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Theorem 3 IVC for High-Degree Special-Sound Protocols (recursive circuit k+d-1 or k+2 scalar mults)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[Vector-Valued Lookup Sub-Protocol Pi_VLK (5-move, degree 3)]] - paper - references/ch06/ref-19-protostar.pdf
-- [[AFK22 Attema, Fehr, Klooss Fiat-Shamir transformation of multi-round interactive proofs (special-soundness - NIROM knowledge-soundness)]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
+- [[Automated translation layer compiling TensorFlow Lite models into halo2 circuits (columngate minimization, lookup-table sharing)]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[Evaluation claim ImageNet-scale MobileNet v2 SNARKs up to 79.2% top-5 accuracy; 10x-1000x lower proving time than prior work (Zen, vCNN, pvCNN, zkCNN)]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[Groth16  R1CS arithmetization (Groth 2016; Gennaro et al. 2013) older pairing-based SNARK + R1CS used by prior DNN-SNARK work (e.g. Zen)]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[MobileNet v2 (Sandler et al. 2018) inverted-residual CNN architecture used as the proved model]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[Neural-network arithmetization translating CNN layers (convolution, batchnorm, ReLU, residual, fully-connected) into ZK-SNARK arithmetic-circuit constraints]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[Optimization 1 lookup arguments for non-linearities (fused ClipAndScale division + ReLU) sharing one lookup table across layers]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[Optimization 2 sub-circuit reuse across layers via two shared custom gates (addition and dot-product with zero point) and shared lookup tables]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[Plonkup  Plonkish Circuit-Satisfiability Relation]] - paper - references/ch06/ref-19-protostar.pdf
+- [[Proof of model provenance committing to hidden weights via a SNARK-friendly hash so a provider can prove it ran a specific committed model]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[Proof-of-inference first ImageNet-scale ZK-SNARK proof of valid DNN inference (MobileNet v2), 79% top-5 accuracy, verifiable in ~10s]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[Protocol for verifying MLaaS model accuracy with hidden weights, using ZK-SNARKs plus stakingescrow economic incentives]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[Protocol for verifying MLaaS predictions in rounds, with random-contest sampling so a ZK-SNARK is not needed for every prediction]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[Sangria Moh23 (cited, Plonk degree-2 folding)]] - paper - references/ch06/ref-19-protostar.pdf
+- [[Scaling up Trustless DNN Inference with Zero-Knowledge Proofs (Kang, Hashimoto, Stoica, Sun, 2022)]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[Secure ML via MPC  homomorphic encryption  interactive proofs (Ghodsi SafetyNets 2017, Mohassel SecureML 2017, Knott CrypTen 2021, GAZELLE, Delphi) impractical against malicious adversaries o_cb9fbadd]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[Trustless retrieval ZK-SNARK protocol for returning documents matching an ML-encoded predicate (FOIA  legal-discovery use cases)]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[Use of the SNARK-friendly Poseidon hash to commit to hidden inputs andor weights inside the circuit]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[int8uint8 quantization with fixed-point (ab) scale approximation to avoid floating-point emulation in the prime field]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -37,22 +37,15 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 6 edges to [[_COMMUNITY_Community 22]]
-- 4 edges to [[_COMMUNITY_Community 114]]
-- 3 edges to [[_COMMUNITY_Community 49]]
-- 3 edges to [[_COMMUNITY_Community 77]]
-- 2 edges to [[_COMMUNITY_Community 70]]
-- 2 edges to [[_COMMUNITY_Community 4]]
-- 2 edges to [[_COMMUNITY_Community 75]]
-- 1 edge to [[_COMMUNITY_Community 5]]
-- 1 edge to [[_COMMUNITY_Community 15]]
-- 1 edge to [[_COMMUNITY_Community 29]]
-- 1 edge to [[_COMMUNITY_Community 1]]
-- 1 edge to [[_COMMUNITY_Community 17]]
+- 4 edges to [[_COMMUNITY_Community 75]]
+- 4 edges to [[_COMMUNITY_Community 88]]
+- 3 edges to [[_COMMUNITY_Community 90]]
+- 2 edges to [[_COMMUNITY_Community 17]]
+- 2 edges to [[_COMMUNITY_Community 7]]
 
 ## Top bridge nodes
-- [[Protostar Generic Efficient AccumulationFolding for Special-sound Protocols]] - degree 18, connects to 10 communities
-- [[(2k-1)-Move Special-Sound Protocol with Algebraic Verifier]] - degree 14, connects to 5 communities
-- [[Protostar Non-Uniform IVC Scheme for Multi-Circuit Plonkup R_mplkup]] - degree 11, connects to 3 communities
-- [[Generic AccumulationFolding Compiler for Special-Sound Protocols (4-step workflow)]] - degree 6, connects to 2 communities
-- [[Lookup Relation Sub-Protocol Pi_LK (3-move, degree 2, prover indep. of table size T)]] - degree 5, connects to 1 community
+- [[Scaling up Trustless DNN Inference with Zero-Knowledge Proofs (Kang, Hashimoto, Stoica, Sun, 2022)]] - degree 16, connects to 4 communities
+- [[Plonkup  Plonkish Circuit-Satisfiability Relation]] - degree 6, connects to 2 communities
+- [[Proof-of-inference first ImageNet-scale ZK-SNARK proof of valid DNN inference (MobileNet v2), 79% top-5 accuracy, verifiable in ~10s]] - degree 6, connects to 2 communities
+- [[Evaluation claim ImageNet-scale MobileNet v2 SNARKs up to 79.2% top-5 accuracy; 10x-1000x lower proving time than prior work (Zen, vCNN, pvCNN, zkCNN)]] - degree 3, connects to 1 community
+- [[Use of the SNARK-friendly Poseidon hash to commit to hidden inputs andor weights inside the circuit]] - degree 3, connects to 1 community

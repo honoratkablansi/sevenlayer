@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch07/ref-26-nist-ir-8547.pdf"
 type: "paper"
-community: "Community 44"
+community: "Community 108"
 location: "§4.1.2 Table 4"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_44
+  - community/Community_108
 ---
 
 # Quantum-vulnerable key establishment (Finite Field/EC DH & MQV per SP 800-56A, RSA per SP 800-56B)
@@ -16,4 +16,4 @@ tags:
 - [[Discrete Logarithm Problem]] - `assumes` [EXTRACTED]
 - [[RSA Cryptosystem]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_44
+#graphify/paper #graphify/EXTRACTED #community/Community_108

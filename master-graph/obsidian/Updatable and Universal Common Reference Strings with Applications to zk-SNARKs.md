@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-37-updatable-universal-crs.pdf"
 type: "paper"
-community: "Community 34"
+community: "Community 9"
 location: "page 1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_34
+  - community/Community_9
 ---
 
 # Updatable and Universal Common Reference Strings with Applications to zk-SNARKs
@@ -29,4 +29,4 @@ tags:
 - [[q-Monomial Knowledge (q-MK) assumption]] - `introduces` [EXTRACTED]
 - [[zk-SNARK]] - `references` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_34
+#graphify/paper #graphify/EXTRACTED #community/Community_9

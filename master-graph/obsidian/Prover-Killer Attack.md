@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 138"
+community: "Community 60"
 location: "Chapter 8"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_138
+  - community/Community_60
 ---
 
 # Prover-Killer Attack
@@ -17,4 +17,4 @@ tags:
 - [[Multidimensional Fee Pricing]] - `references` [EXTRACTED]
 - [[ZK Rollup]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_138
+#graphify/document #graphify/EXTRACTED #community/Community_60

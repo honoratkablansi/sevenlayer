@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-05-halo.pdf"
 type: "paper"
-community: "Community 47"
+community: "Community 70"
 location: "Abstract, §1.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_47
+  - community/Community_70
 ---
 
 # Halo: first practical recursive proof composition without a trusted setup
@@ -27,4 +27,4 @@ tags:
 - [[TweedledumTweedledee 255-bit prime-order normal (non-pairing) 2-cycle, y2=x3+5]] - `introduces` [EXTRACTED]
 - [[Valiant Incrementally verifiable computation 36]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_47
+#graphify/paper #graphify/EXTRACTED #community/Community_70

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-07-plonk.pdf"
 type: "document"
-community: "Community 43"
+community: "Community 65"
 location: "Abstract"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_43
+  - community/Community_65
 ---
 
 # Permutation Argument
@@ -21,4 +21,4 @@ tags:
 - [[PLONK Permutations over Lagrange-bases for Oecumenical Noninteractive arguments of Knowledge]] - `conceptually_related_to` [EXTRACTED]
 - [[Sonic Zero-Knowledge SNARKs from Linear-Size Universal and Updatable Structured Reference Strings]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_43
+#graphify/document #graphify/EXTRACTED #community/Community_65

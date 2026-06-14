@@ -1,34 +1,35 @@
 ---
 type: community
-cohesion: 0.11
-members: 19
+cohesion: 0.17
+members: 20
 ---
 
 # Community 63
 
-**Cohesion:** 0.11 - loosely connected
-**Members:** 19 nodes
+**Cohesion:** 0.17 - loosely connected
+**Members:** 20 nodes
 
 ## Members
-- [[Circuit Generator]] - paper - references/snowball/book/ref-071-succinct-non-interactive-zero-knowledge-for-a-vo.pdf
-- [[Concurrent Execution]] - paper - references/snowball/recursion/ref-097-proving-the-correct-execution-of-concurrent-serv.pdf
-- [[Data-Parallel Computation]] - paper - references/snowball/recursion/ref-095-time-optimal-interactive-proofs-for-circuit-eval.pdf
-- [[Hybrid Protocol Architecture]] - paper - references/snowball/book/ref-143-a-hybrid-architecture-for-verifiable-computation.pdf
-- [[Merkle ZKP membership proof]] - paper - references/recursion/ch1/ref-21-zktree.pdf
-- [[Pantry Verifiable Computation with State]] - paper - references/snowball/book/ref-093-verifying-computations-with-state.pdf
-- [[Proof of correct program execution]] - document - references/recursion/ch1/ref-28-risc-zero-technical-docs.md
-- [[Public Verifiability]] - paper - references/snowball/book/ref-135-practical-delegation-of-computation-using-multip.pdf
-- [[Publicly Verifiable Computation]] - paper - references/snowball/book/ref-101-signatures-of-correct-computation.pdf
-- [[RAM Verification]] - paper - references/snowball/book/ref-075-efficient-ram-and-control-flow-in-verifiable-out.pdf
-- [[RSA Accumulator]] - paper - references/snowball/book/ref-115-scaling-verifiable-computation-using-efficient-s.pdf
-- [[Signatures of Correct Computation]] - paper - references/snowball/book/ref-101-signatures-of-correct-computation.pdf
-- [[Streaming Verification]] - paper - references/snowball/recursion/ref-098-practical-verified-computation-with-streaming-in.pdf
-- [[Untrusted Storage]] - paper - references/snowball/book/ref-093-verifying-computations-with-state.pdf
-- [[Verifiable ASIC]] - paper - references/snowball/recursion/ref-112-full-accounting-for-verifiable-outsourcing.pdf
-- [[Verifiable State Machine]] - paper - references/snowball/recursion/ref-097-proving-the-correct-execution-of-concurrent-serv.pdf
-- [[Verifiable Storage Primitive]] - paper - references/snowball/recursion/ref-097-proving-the-correct-execution-of-concurrent-serv.pdf
-- [[Verifiable computation]] - document - references/recursion/ch1/ref-28-risc-zero-technical-docs.md
-- [[Von Neumann Architecture]] - paper - references/snowball/book/ref-071-succinct-non-interactive-zero-knowledge-for-a-vo.pdf
+- [[Babai, Fortnow, Levin, Szegedy BFLS91 - holographic proofs  checking computations (prior model)]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
+- [[Bare-bones protocol (Theorem 3.1) IP given oracle access to low-degree extensions of wiring predicates add_imult_i specifying circuit]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
+- [[Corollary 1.2 for L-uniform NC, prover poly(n), verifier npolylog(n) time and O(log n) space, communication polylog(n)]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
+- [[Corollary 1.4 public-coin O(log n)-space poly-time verifier IP for all of P (resolves open question on power of log-space public-coin verifiers)]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
+- [[Delegating Computation Interactive Proofs for Muggles (GKR, STOC 2008  full version)]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
+- [[Delegation of computation (delegator verifies untrusted delegatee)]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
+- [[Improved Interactive PCP (IPCP) and efficient-prover Probabilistically Checkable Argument (PCA) for NC relations]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
+- [[Kalai, Raz KR08,KR09 - public-coin IP to 1-round argument transformation via PIR; IPCP and PCA notions]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
+- [[Kilian Kil92,Kil95 - PCP+Merkle-hash argument for NP with polylog communication (argument setting under computational assumptions)]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
+- [[Layer-to-layer reduction reduce verifying one point of LDE of layer i to one point of layer i+1 via sum-check over fz(p,w1,w2) using ~add_i,~mult_i,~beta,~V_i]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
+- [[Lund, Fortnow, Karloff, Nisson LFKN92 - algebraic methods  sum-check for P (prior IP work)]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
+- [[Micali Mic94 - CS proofs in the random oracle model (non-interactive delegation precursor)]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
+- [[Private Information Retrieval (poly-log PIR) used to compile public-coin IP into one-round argument]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
+- [[Shamir Sha92 - IP = PSPACE (prior IP work)]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
+- [[Theorem 1.1 public-coin IP for O(log S)-space-uniform circuits; verifier npoly(d,log S) time, O(log S) space; prover poly(S); communication dpolylog(S)]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
+- [[Theorem 1.3 1-round computationally-sound argument for L-uniform NC via Kalai-Raz PIR transformation; certificate poly(kappa,log n)]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
+- [[Theorem 1.61.7 communication-efficient (quasi-linear in witness) zero-knowledge IP for NP relations verifiable in NC, assuming one-way functions]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
+- [[Theorem 4.4 IP implementing bare-bones protocol for NL  space-s(n) time-t(n) nondeterministic TMs; verifier computes ~add_i,~mult_i in polylog time]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
+- [[Utilizing uniformity verifier computes LDE of wiring predicate from short implicit circuit representation; prover proves predicate via NL sub-protocol]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
+- [[Wiring predicates add_i, mult_i and their low-degree extensions ~add_i, ~mult_i (specify which gate triplets are connected)]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -38,27 +39,16 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 6 edges to [[_COMMUNITY_Community 15]]
-- 4 edges to [[_COMMUNITY_Community 41]]
-- 3 edges to [[_COMMUNITY_Community 20]]
-- 3 edges to [[_COMMUNITY_Community 3]]
-- 2 edges to [[_COMMUNITY_Community 12]]
-- 2 edges to [[_COMMUNITY_Community 72]]
-- 2 edges to [[_COMMUNITY_Community 87]]
-- 1 edge to [[_COMMUNITY_Community 8]]
-- 1 edge to [[_COMMUNITY_Community 0]]
-- 1 edge to [[_COMMUNITY_Community 39]]
-- 1 edge to [[_COMMUNITY_Community 4]]
-- 1 edge to [[_COMMUNITY_Community 21]]
-- 1 edge to [[_COMMUNITY_Community 9]]
-- 1 edge to [[_COMMUNITY_Community 66]]
-- 1 edge to [[_COMMUNITY_Community 50]]
-- 1 edge to [[_COMMUNITY_Community 133]]
-- 1 edge to [[_COMMUNITY_Community 111]]
+- 4 edges to [[_COMMUNITY_Community 27]]
+- 3 edges to [[_COMMUNITY_Community 28]]
+- 3 edges to [[_COMMUNITY_Community 18]]
+- 1 edge to [[_COMMUNITY_Community 36]]
+- 1 edge to [[_COMMUNITY_Community 68]]
+- 1 edge to [[_COMMUNITY_Community 15]]
 
 ## Top bridge nodes
-- [[Verifiable computation]] - degree 27, connects to 13 communities
-- [[Verifiable State Machine]] - degree 5, connects to 2 communities
-- [[Circuit Generator]] - degree 4, connects to 2 communities
-- [[Merkle ZKP membership proof]] - degree 4, connects to 2 communities
-- [[Pantry Verifiable Computation with State]] - degree 4, connects to 2 communities
+- [[Delegating Computation Interactive Proofs for Muggles (GKR, STOC 2008  full version)]] - degree 20, connects to 3 communities
+- [[Delegation of computation (delegator verifies untrusted delegatee)]] - degree 7, connects to 3 communities
+- [[Theorem 1.1 public-coin IP for O(log S)-space-uniform circuits; verifier npoly(d,log S) time, O(log S) space; prover poly(S); communication dpolylog(S)]] - degree 9, connects to 2 communities
+- [[Layer-to-layer reduction reduce verifying one point of LDE of layer i to one point of layer i+1 via sum-check over fz(p,w1,w2) using ~add_i,~mult_i,~beta,~V_i]] - degree 4, connects to 2 communities
+- [[Bare-bones protocol (Theorem 3.1) IP given oracle access to low-degree extensions of wiring predicates add_imult_i specifying circuit]] - degree 5, connects to 1 community

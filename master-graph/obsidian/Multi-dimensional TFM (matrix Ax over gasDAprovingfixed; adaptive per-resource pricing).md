@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch08/ref-28-rollup-pricing-attacks.pdf"
 type: "paper"
-community: "Community 45"
+community: "Community 33"
 location: "§6.4"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_45
+  - community/Community_33
 ---
 
 # Multi-dimensional TFM (matrix Ax over gas/DA/proving/fixed; adaptive per-resource pricing)
@@ -16,4 +16,4 @@ tags:
 - [[EIP-1559 base-fee mechanism]] - `conceptually_related_to` [EXTRACTED]
 - [[Unaligned-incentives thesis cross-dimension mispricing yields novel attacks]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_45
+#graphify/paper #graphify/EXTRACTED #community/Community_33

@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf"
 type: "paper"
-community: "Community 50"
+community: "Community 63"
 location: "§3.1 (p.27-28), eqn F={~add_i,~mult_i}"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_50
+  - community/Community_63
 ---
 
 # Wiring predicates add_i, mult_i and their low-degree extensions ~add_i, ~mult_i (specify which gate triplets are connected)
@@ -17,4 +17,4 @@ tags:
 - [[Layer-to-layer reduction reduce verifying one point of LDE of layer i to one point of layer i+1 via sum-check over fz(p,w1,w2) using ~add_i,~mult_i,~beta,~V_i]] - `assumes` [EXTRACTED]
 - [[Utilizing uniformity verifier computes LDE of wiring predicate from short implicit circuit representation; prover proves predicate via NL sub-protocol]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_50
+#graphify/paper #graphify/EXTRACTED #community/Community_63

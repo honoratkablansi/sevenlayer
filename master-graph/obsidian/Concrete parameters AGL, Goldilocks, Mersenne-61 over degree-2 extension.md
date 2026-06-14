@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-21-neo.pdf"
 type: "paper"
-community: "Community 19"
+community: "Community 26"
 location: "§6"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_19
+  - community/Community_26
 ---
 
 # Concrete parameters: AGL, Goldilocks, Mersenne-61 over degree-2 extension
@@ -16,4 +16,4 @@ tags:
 - [[Neo Lattice-based Folding Scheme for CCS over Small Fields and Pay-per-bit Commitments]] - `defines` [EXTRACTED]
 - [[Small prime fields (machine-register-sized Goldilocks, M61)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_19
+#graphify/paper #graphify/EXTRACTED #community/Community_26

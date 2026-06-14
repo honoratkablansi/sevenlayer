@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch03/ref-12-underconstrained-circuits.pdf"
 type: "paper"
-community: "Community 82"
+community: "Community 81"
 location: "§5.2 Algorithm 4"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_82
+  - community/Community_81
 ---
 
 # SMT Query Procedure (Algorithm 4)
@@ -17,4 +17,4 @@ tags:
 - [[SMT Solving]] - `conceptually_related_to` [EXTRACTED]
 - [[Verify Algorithm (Algorithm 1)]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_82
+#graphify/paper #graphify/EXTRACTED #community/Community_81

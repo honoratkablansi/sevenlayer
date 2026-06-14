@@ -10,14 +10,14 @@ members: 8
 **Members:** 8 nodes
 
 ## Members
-- [[1-of-N Trust Model]] - document - proving-nothing.md
-- [[ADOPT Framework (Available, Decentralized, Open, Persistent, Transparent)]] - document - proving-nothing.md
-- [[CapexOpex Setup Economics Framework]] - document - proving-nothing.md
-- [[Chapter 2 Layer 1 — Building the Stage]] - document - proving-nothing.md
-- [[Ethereum KZG Summoning Ceremony (2023, 141,416 contributors)]] - document - proving-nothing.md
-- [[Luhmann — Risk A Sociological Theory (trust vs confidence, 1993)]] - document - proving-nothing.md
-- [[Nikolaenko et al. — Powers-of-Tau to the People Decentralizing Setup Ceremonies (ACNS 2024)]] - document - proving-nothing.md
-- [[Wang, Cohney, Bonneau — SoK Trusted Setups for Powers-of-Tau Strings (FC 2025)]] - document - proving-nothing.md
+- [[Certificate Transparency]] - document - references/recursion/ch3/ref-65-rfc-6962-certificate-transparency.md
+- [[Content Credentials trust model (X.509 signers)]] - document - references/recursion/ch3/ref-79-c2pa-specification.md
+- [[Merkle Hash Tree]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[Merkle audit and consistency proofs]] - document - references/recursion/ch3/ref-65-rfc-6962-certificate-transparency.md
+- [[Misissued-certificate detection by monitors and auditors]] - document - references/recursion/ch3/ref-65-rfc-6962-certificate-transparency.md
+- [[RFC 6962 Certificate Transparency]] - document - references/recursion/ch3/ref-65-rfc-6962-certificate-transparency.md
+- [[Signed Certificate Timestamp (SCT)]] - document - references/recursion/ch3/ref-65-rfc-6962-certificate-transparency.md
+- [[Verifiable transparency logs]] - document - recursion/recursion-outline.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -27,14 +27,13 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 2 edges to [[_COMMUNITY_Community 11]]
-- 1 edge to [[_COMMUNITY_Community 5]]
-- 1 edge to [[_COMMUNITY_Community 12]]
-- 1 edge to [[_COMMUNITY_Community 68]]
-- 1 edge to [[_COMMUNITY_Community 17]]
+- 1 edge to [[_COMMUNITY_Community 23]]
+- 1 edge to [[_COMMUNITY_Community 58]]
+- 1 edge to [[_COMMUNITY_Community 62]]
+- 1 edge to [[_COMMUNITY_Community 47]]
+- 1 edge to [[_COMMUNITY_Community 67]]
 
 ## Top bridge nodes
-- [[Ethereum KZG Summoning Ceremony (2023, 141,416 contributors)]] - degree 5, connects to 2 communities
-- [[Chapter 2 Layer 1 — Building the Stage]] - degree 4, connects to 2 communities
-- [[1-of-N Trust Model]] - degree 4, connects to 1 community
-- [[CapexOpex Setup Economics Framework]] - degree 3, connects to 1 community
+- [[Verifiable transparency logs]] - degree 4, connects to 2 communities
+- [[Content Credentials trust model (X.509 signers)]] - degree 3, connects to 2 communities
+- [[Merkle Hash Tree]] - degree 3, connects to 1 community

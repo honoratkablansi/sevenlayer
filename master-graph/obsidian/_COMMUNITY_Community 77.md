@@ -1,33 +1,33 @@
 ---
 type: community
-cohesion: 0.18
+cohesion: 0.15
 members: 18
 ---
 
 # Community 77
 
-**Cohesion:** 0.18 - loosely connected
+**Cohesion:** 0.15 - loosely connected
 **Members:** 18 nodes
 
 ## Members
-- [[Accumulation schemes BCMS20, BCL+21 recursive proof composition  PCD without succinct arguments; introduced accumulation term and k-folding]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
-- [[Claim 4.4 F(X) (degree log n, sum of length n) computable in O(n) field ops via binary-tree edge-labeling recursion]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
-- [[Claim 4.5 G(X) (degree dk) computable in O(dk log(dk)M + dknC) F-multiplications via FFTIFFT]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
-- [[Folding many accumulators (§5) transpose sumcheck technique to fold k accumulators by linearly combining beta_j; prover O(kdM+nkdC)]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
-- [[Folding template additively homomorphic vector commitments; verifier randomly combines witness commitments, prover combines witnesses]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
-- [[HyperNova KS23 folding via randomized sumcheck; verifier d log n field ops, log n RO hashes]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
-- [[IVC Val08 and PCD CT10 original motivation for folding schemes]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
-- [[Lemma 3.2 special-soundness for R' (collision-augmented relation) implies knowledge-soundness with negl error for R]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
-- [[Lemma 4.2 f(sum a_i L_i(X)) = sum f(a_i) L_i(X) + Z(X) Q(X) (polynomials commute mod Z with Lagrange multiplication)]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
-- [[Multi-instance (k-)folding folding k instances in one folding operation]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
-- [[ProtoGalaxy Efficient ProtoStar-style folding of multiple instances (Eagen & Gabizon, ePrint 20231106)]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
-- [[R_rand relation randomized relaxed relation with ((phi,beta,e),omega) s.t. sum_i pow_i(beta) f_i(omega)=e]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
-- [[Sublinear recursive verifier marginal work log n field ops + O(1) hashes; constant per-instance ops for constant-degree gates]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
-- [[Theorem 4.3 ProtoGalaxy is an (Rk - R_rand) accumulationfolding scheme (complete and knowledge-sound)]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
-- [[Transition from monomial to Lagrange base associate each folded instance with a distinct Lagrange coefficient L_i(X)]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
-- [[Vanishing polynomial Z(X) of subgroup H; decomposition G(X)=F(alpha)L_0(X)+Z(X)K(X) avoids exponentially growing degree]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
-- [[pow_i polynomial and powers-of-beta vector; ProtoGalaxy avoids committing to the power vector (unlike ProtoStar)]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
-- [[§5 alternative construction for large k replace mod-Z(X) vanishing check with a sumcheck over a size-k domain; verifier O(log n + d log k) ops, log k hashes]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
+- [[Argument that large shards enable faster TwistShout proving (K-linear cost amortized)]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Concrete cost estimate ~900T linear-space vs ~900T+12T log T small-space field mults]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Continuations  recursive composition for zkVM prover memory control]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Dimension parameter d factoring one-hot address poly into d smaller polys]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Jolt sum-check-based zkVM for RISC-V]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Justin Thaler]] - document - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[One-hot (unit-vector) address encoding for memory ops in TwistShout]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Prefix-suffix inner product sum-check protocol (streaming, linear-time)]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Proving CPU Executions in Small Space]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Recursive SNARK Composition (Preprocessing to Fully Succinct)]] - paper - references/ch02/ref-06-groth16.pdf
+- [[Repeated witness generation with checkpoints and multithreaded parallel regeneration]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Small-space Jolt prover (sublinear-space zkVM proving without recursion)]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Sparrow (PP24) sqrt-space SNARK for data-parallel circuits]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Sparse-dense sum-check proving algorithm (streaming, sparsity-linear time)]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Square-root space target O(sqrt(KT))  O(K+T{12}) suffices in practice over O(K+log T)]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Theorem 7.1 Jolt prover in S=O(K+log T) space and O(T log T) time]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Twist and Shout Memory-Checking Arguments]] - document - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Twist sum-check memory-checking argument for readwrite memory]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -37,15 +37,23 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 4 edges to [[_COMMUNITY_Community 29]]
-- 3 edges to [[_COMMUNITY_Community 76]]
-- 2 edges to [[_COMMUNITY_Community 22]]
-- 2 edges to [[_COMMUNITY_Community 25]]
-- 2 edges to [[_COMMUNITY_Community 49]]
+- 7 edges to [[_COMMUNITY_Community 28]]
+- 3 edges to [[_COMMUNITY_Community 20]]
+- 3 edges to [[_COMMUNITY_Community 80]]
+- 3 edges to [[_COMMUNITY_Community 85]]
+- 2 edges to [[_COMMUNITY_Community 0]]
+- 1 edge to [[_COMMUNITY_Community 13]]
+- 1 edge to [[_COMMUNITY_Community 99]]
+- 1 edge to [[_COMMUNITY_Community 42]]
+- 1 edge to [[_COMMUNITY_Community 1]]
+- 1 edge to [[_COMMUNITY_Community 12]]
+- 1 edge to [[_COMMUNITY_Community 32]]
+- 1 edge to [[_COMMUNITY_Community 53]]
+- 1 edge to [[_COMMUNITY_Community 31]]
 
 ## Top bridge nodes
-- [[ProtoGalaxy Efficient ProtoStar-style folding of multiple instances (Eagen & Gabizon, ePrint 20231106)]] - degree 20, connects to 4 communities
-- [[Multi-instance (k-)folding folding k instances in one folding operation]] - degree 5, connects to 1 community
-- [[Theorem 4.3 ProtoGalaxy is an (Rk - R_rand) accumulationfolding scheme (complete and knowledge-sound)]] - degree 5, connects to 1 community
-- [[Accumulation schemes BCMS20, BCL+21 recursive proof composition  PCD without succinct arguments; introduced accumulation term and k-folding]] - degree 3, connects to 1 community
-- [[HyperNova KS23 folding via randomized sumcheck; verifier d log n field ops, log n RO hashes]] - degree 3, connects to 1 community
+- [[Proving CPU Executions in Small Space]] - degree 12, connects to 7 communities
+- [[Jolt sum-check-based zkVM for RISC-V]] - degree 9, connects to 6 communities
+- [[Small-space Jolt prover (sublinear-space zkVM proving without recursion)]] - degree 9, connects to 4 communities
+- [[Twist sum-check memory-checking argument for readwrite memory]] - degree 4, connects to 2 communities
+- [[Twist and Shout Memory-Checking Arguments]] - degree 8, connects to 1 community

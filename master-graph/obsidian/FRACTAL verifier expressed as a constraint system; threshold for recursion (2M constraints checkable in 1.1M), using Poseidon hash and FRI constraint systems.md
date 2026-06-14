@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-10-fractal.pdf"
 type: "paper"
-community: "Community 52"
+community: "Community 74"
 location: "§2.6; §12.2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_52
+  - community/Community_74
 ---
 
 # FRACTAL verifier expressed as a constraint system; threshold for recursion (2M constraints checkable in 1.1M), using Poseidon hash and FRI constraint systems
@@ -18,4 +18,4 @@ tags:
 - [[Recursive Proof Composition]] - `conceptually_related_to` [EXTRACTED]
 - [[Reed–Solomon-encoded IOP (RS-encoded holographic IOP) with rational constraints over prover messages]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_52
+#graphify/paper #graphify/EXTRACTED #community/Community_74

@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch2/ref-43-nova-implementation.md"
 type: "document"
-community: "Community 12"
+community: "Community 21"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_12
+  - community/Community_21
 ---
 
 # HyperKZG / Mercury polynomial commitment
@@ -15,4 +15,4 @@ tags:
 - [[Polynomial Commitment Scheme]] - `conceptually_related_to` [INFERRED]
 - [[Universal setup  Powers of Tau (SRS)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_12
+#graphify/document #graphify/EXTRACTED #community/Community_21

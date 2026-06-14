@@ -1,37 +1,38 @@
 ---
 type: community
-cohesion: 0.16
-members: 22
+cohesion: 0.10
+members: 23
 ---
 
 # Community 50
 
-**Cohesion:** 0.16 - loosely connected
-**Members:** 22 nodes
+**Cohesion:** 0.10 - loosely connected
+**Members:** 23 nodes
 
 ## Members
-- [[Additive FFT over binary fields (Lin et al.)]] - paper - references/ch02/ref-08-stark.pdf
-- [[Babai, Fortnow, Levin, Szegedy BFLS91 - holographic proofs  checking computations (prior model)]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
-- [[Bare-bones protocol (Theorem 3.1) IP given oracle access to low-degree extensions of wiring predicates add_imult_i specifying circuit]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
-- [[Corollary 1.2 for L-uniform NC, prover poly(n), verifier npolylog(n) time and O(log n) space, communication polylog(n)]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
-- [[Corollary 1.4 public-coin O(log n)-space poly-time verifier IP for all of P (resolves open question on power of log-space public-coin verifiers)]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
-- [[Delegating Computation Interactive Proofs for Muggles (GKR, STOC 2008  full version)]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
-- [[Delegation of computation (delegator verifies untrusted delegatee)]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
-- [[Improved Interactive PCP (IPCP) and efficient-prover Probabilistically Checkable Argument (PCA) for NC relations]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
-- [[Kalai, Raz KR08,KR09 - public-coin IP to 1-round argument transformation via PIR; IPCP and PCA notions]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
-- [[Kilian Kil92,Kil95 - PCP+Merkle-hash argument for NP with polylog communication (argument setting under computational assumptions)]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
-- [[Layer-to-layer reduction reduce verifying one point of LDE of layer i to one point of layer i+1 via sum-check over fz(p,w1,w2) using ~add_i,~mult_i,~beta,~V_i]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
-- [[Low Degree Extension (LDE)]] - paper - references/ch02/ref-08-stark.pdf
-- [[Lund, Fortnow, Karloff, Nisson LFKN92 - algebraic methods  sum-check for P (prior IP work)]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
-- [[Micali Mic94 - CS proofs in the random oracle model (non-interactive delegation precursor)]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
-- [[Private Information Retrieval (poly-log PIR) used to compile public-coin IP into one-round argument]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
-- [[Shamir Sha92 - IP = PSPACE (prior IP work)]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
-- [[Theorem 1.1 public-coin IP for O(log S)-space-uniform circuits; verifier npoly(d,log S) time, O(log S) space; prover poly(S); communication dpolylog(S)]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
-- [[Theorem 1.3 1-round computationally-sound argument for L-uniform NC via Kalai-Raz PIR transformation; certificate poly(kappa,log n)]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
-- [[Theorem 1.61.7 communication-efficient (quasi-linear in witness) zero-knowledge IP for NP relations verifiable in NC, assuming one-way functions]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
-- [[Theorem 4.4 IP implementing bare-bones protocol for NL  space-s(n) time-t(n) nondeterministic TMs; verifier computes ~add_i,~mult_i in polylog time]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
-- [[Utilizing uniformity verifier computes LDE of wiring predicate from short implicit circuit representation; prover proves predicate via NL sub-protocol]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
-- [[Wiring predicates add_i, mult_i and their low-degree extensions ~add_i, ~mult_i (specify which gate triplets are connected)]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
+- [[6 previously-unknown vulnerabilities discovered (BigMod, IsPositive, ed25519-circom etc.)]] - paper - references/ch10/ref-35-coda.pdf
+- [[BigLessThan motivating example (Circom bug at line 32)]] - paper - references/ch10/ref-35-coda.pdf
+- [[Certifying Zero-Knowledge Circuits with Refinement Types]] - paper - references/ch10/ref-35-coda.pdf
+- [[Coda compiler partial evaluation to R1CS constraints]] - paper - references/ch10/ref-35-coda.pdf
+- [[Coda domain-specific Coq tactic library (F_to_Z, overflow, split_sum, switch_sum, reduce_sum, ind)]] - paper - references/ch10/ref-35-coda.pdf
+- [[Coda refinement type system {nuT  phi}]] - paper - references/ch10/ref-35-coda.pdf
+- [[Coda type-checking rules (circuit, expression, subtyping judgments)]] - paper - references/ch10/ref-35-coda.pdf
+- [[Coda verified higher-order library (branching, zip, array aggregates)]] - paper - references/ch10/ref-35-coda.pdf
+- [[Coda statically-typed functional DSL for ZK circuits]] - paper - references/ch10/ref-35-coda.pdf
+- [[Coq Proof Assistant]] - document - references/ch10/ref-35-coda.pdf
+- [[Coq lemma generation for proof obligations]] - paper - references/ch10/ref-35-coda.pdf
+- [[Evaluation 77 circuits from 9 Circom projects, 66 verified]] - paper - references/ch10/ref-35-coda.pdf
+- [[Fiat-Crypto finite-field formalization library]] - paper - references/ch10/ref-35-coda.pdf
+- [[Liquid  logically-qualified data types (SMT-discharged)]] - paper - references/ch10/ref-35-coda.pdf
+- [[Non-determinism (star) and assertion semantics encoding relations]] - paper - references/ch10/ref-35-coda.pdf
+- [[Refinement Types]] - document - references/ch10/ref-35-coda.pdf
+- [[SMT solving over finite fields  large prime fields]] - paper - references/ch10/ref-35-coda.pdf
+- [[TSub-Refine subtyping rule (reduces type checking to logical validity)]] - paper - references/ch10/ref-35-coda.pdf
+- [[Theorem 1 Expression Type Preservation (soundness)]] - paper - references/ch10/ref-35-coda.pdf
+- [[Theorem 2 Circuit Evaluation Type Preservation]] - paper - references/ch10/ref-35-coda.pdf
+- [[Trustless threat model (attacker controls source, R1CS, prover, verifier; can swap proof)]] - paper - references/ch10/ref-35-coda.pdf
+- [[Verification-effort case study 60% shorter proofs vs shallow embedding]] - paper - references/ch10/ref-35-coda.pdf
+- [[iter combinator with annotated loop invariant]] - paper - references/ch10/ref-35-coda.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -41,19 +42,16 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 7 edges to [[_COMMUNITY_Community 3]]
-- 3 edges to [[_COMMUNITY_Community 9]]
-- 2 edges to [[_COMMUNITY_Community 51]]
-- 1 edge to [[_COMMUNITY_Community 41]]
-- 1 edge to [[_COMMUNITY_Community 12]]
-- 1 edge to [[_COMMUNITY_Community 4]]
-- 1 edge to [[_COMMUNITY_Community 23]]
-- 1 edge to [[_COMMUNITY_Community 66]]
-- 1 edge to [[_COMMUNITY_Community 63]]
+- 4 edges to [[_COMMUNITY_Community 98]]
+- 2 edges to [[_COMMUNITY_Community 18]]
+- 2 edges to [[_COMMUNITY_Community 72]]
+- 1 edge to [[_COMMUNITY_Community 36]]
+- 1 edge to [[_COMMUNITY_Community 15]]
+- 1 edge to [[_COMMUNITY_Community 1]]
 
 ## Top bridge nodes
-- [[Low Degree Extension (LDE)]] - degree 9, connects to 5 communities
-- [[Delegation of computation (delegator verifies untrusted delegatee)]] - degree 7, connects to 3 communities
-- [[Delegating Computation Interactive Proofs for Muggles (GKR, STOC 2008  full version)]] - degree 20, connects to 2 communities
-- [[Theorem 1.1 public-coin IP for O(log S)-space-uniform circuits; verifier npoly(d,log S) time, O(log S) space; prover poly(S); communication dpolylog(S)]] - degree 9, connects to 1 community
-- [[Bare-bones protocol (Theorem 3.1) IP given oracle access to low-degree extensions of wiring predicates add_imult_i specifying circuit]] - degree 5, connects to 1 community
+- [[Certifying Zero-Knowledge Circuits with Refinement Types]] - degree 6, connects to 3 communities
+- [[Coda statically-typed functional DSL for ZK circuits]] - degree 9, connects to 1 community
+- [[Evaluation 77 circuits from 9 Circom projects, 66 verified]] - degree 4, connects to 1 community
+- [[Refinement Types]] - degree 3, connects to 1 community
+- [[SMT solving over finite fields  large prime fields]] - degree 2, connects to 1 community

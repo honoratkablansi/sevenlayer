@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 70"
+community: "Community 32"
 location: "Chapter 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_70
+  - community/Community_32
 ---
 
 # Fiat-Shamir Transform
@@ -17,6 +17,7 @@ tags:
 - [[Accumulation Schemes]] - `used_by` [EXTRACTED]
 - [[Algebraic vs Traditional Hash Functions]] - `references` [EXTRACTED]
 - [[Arguzz (zkVM Fuzzer)]] - `references` [INFERRED]
+- [[Arthur-Merlin (AM) Protocols  Public-Coin Proofs]] - `motivates` [EXTRACTED]
 - [[Bulletproofs NIZK Argument System]] - `assumes` [EXTRACTED]
 - [[Bulletproofs Short Proofs for Confidential Transactions and More]] - `conceptually_related_to` [EXTRACTED]
 - [[CMT protocol (Cormode-Mitzenmacher-Thaler interactive proof for layered arithmetic circuits)]] - `conceptually_related_to` [EXTRACTED]
@@ -46,7 +47,7 @@ tags:
 - [[Hash Chaining]] - `builds_on` [EXTRACTED]
 - [[Honest-Verifier Zero-Knowledge]] - `relates_to` [EXTRACTED]
 - [[Interactive Oracle Proofs]] - `uses` [EXTRACTED]
-- [[Interactive Proof (IP) prover-verifier protocol with statistical soundness]] - `uses` [EXTRACTED]
+- [[Interactive Proof (IP) prover-verifier protocol with statistical soundness]] - `builds_on` [EXTRACTED]
 - [[Interactive Proof System]] - `references` [EXTRACTED]
 - [[Khovratovich, Rothblum, Soukhanov, How to Prove False Statements (ePrint 2025118)]] - `references` [EXTRACTED]
 - [[Khovratovich-Rothblum-Soukhanov How to Prove False Statements - Practical Attacks on Fiat-Shamir (ePrint 2025118)]] - `conceptually_related_to` [EXTRACTED]
@@ -79,7 +80,7 @@ tags:
 - [[RO-NARK FScmPi_sps from Special-Sound Protocol]] - `assumes` [EXTRACTED]
 - [[Random Oracle Model]] - `relies-on` [EXTRACTED]
 - [[Random oracle model (non-interactive STARK  NIROP)]] - `uses` [EXTRACTED]
-- [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `uses` [EXTRACTED]
+- [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `motivates` [EXTRACTED]
 - [[Sealing the Certificate]] - `references` [EXTRACTED]
 - [[Sigma protocol (public-coin 3-move)]] - `builds_on` [EXTRACTED]
 - [[Solana ZK ElGamal Bug (2025)]] - `references` [EXTRACTED]
@@ -112,4 +113,4 @@ tags:
 - [[vSQL verifiable database system for arbitrary SQL queries over dynamic outsourced databases]] - `cites` [EXTRACTED]
 - [[zkSNARK for Committed Relaxed R1CS (adapted Spartan)]] - `assumes` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_70
+#graphify/document #graphify/EXTRACTED #community/Community_32

@@ -1,12 +1,12 @@
 ---
 source_file: "recursion/recursion-outline.md"
 type: "document"
-community: "Community 130"
+community: "Community 23"
 location: "Recursion Chapter 3"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_130
+  - community/Community_23
 ---
 
 # Mina / Coda and Pickles recursion layer
@@ -18,4 +18,4 @@ tags:
 - [[Succinct blockchain]] - `explains` [EXTRACTED]
 - [[Zero-knowledge voting  governance]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_130
+#graphify/document #graphify/EXTRACTED #community/Community_23

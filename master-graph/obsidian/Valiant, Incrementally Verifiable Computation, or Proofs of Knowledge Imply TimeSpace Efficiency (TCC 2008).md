@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch1/ref-01-valiant-ivc.md"
 type: "document"
-community: "Community 38"
+community: "Community 45"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_38
+  - community/Community_45
 ---
 
 # Valiant, "Incrementally Verifiable Computation, or Proofs of Knowledge Imply Time/Space Efficiency" (TCC 2008)
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[Recursion References (cited works)]] - `cites` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_38
+#graphify/document #graphify/EXTRACTED #community/Community_45

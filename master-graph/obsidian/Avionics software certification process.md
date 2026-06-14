@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch3/ref-68-do-178c-avionics-certification.md"
 type: "document"
-community: "Community 132"
+community: "Community 23"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_132
+  - community/Community_23
 ---
 
 # Avionics software certification process
@@ -14,4 +14,4 @@ tags:
 - [[DO-178C Software Considerations in Airborne Systems]] - `defines` [EXTRACTED]
 - [[Design assurance levels  certification rigor]] - `explains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_132
+#graphify/document #graphify/EXTRACTED #community/Community_23

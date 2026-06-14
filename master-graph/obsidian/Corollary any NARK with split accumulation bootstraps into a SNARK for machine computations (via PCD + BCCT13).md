@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf"
 type: "paper"
-community: "Community 32"
+community: "Community 38"
 location: "§1.1(2)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_32
+  - community/Community_38
 ---
 
 # Corollary: any NARK with split accumulation bootstraps into a SNARK for machine computations (via PCD + [BCCT13])
@@ -16,4 +16,4 @@ tags:
 - [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `conceptually_related_to` [EXTRACTED]
 - [[BCCT13 Bitansky, Canetti, Chiesa, Tromer, Recursive Composition and Bootstrapping for SNARKs and PCD (STOC 2013)]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_32
+#graphify/paper #graphify/EXTRACTED #community/Community_38

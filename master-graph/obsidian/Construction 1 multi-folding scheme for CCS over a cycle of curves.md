@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-30-cyclefold.pdf"
 type: "paper"
-community: "Community 25"
+community: "Community 37"
 location: "§3 (Construction 1)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_25
+  - community/Community_37
 ---
 
 # Construction 1: multi-folding scheme for CCS over a cycle of curves
@@ -22,4 +22,4 @@ tags:
 - [[Sum-Check Protocol]] - `assumes` [EXTRACTED]
 - [[Theorem 1 public-coin multi-folding scheme for CCS (completeness + knowledge soundness)]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_25
+#graphify/paper #graphify/EXTRACTED #community/Community_37

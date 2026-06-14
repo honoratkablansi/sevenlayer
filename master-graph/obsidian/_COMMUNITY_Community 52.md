@@ -1,37 +1,38 @@
 ---
 type: community
-cohesion: 0.16
-members: 22
+cohesion: 0.12
+members: 23
 ---
 
 # Community 52
 
-**Cohesion:** 0.16 - loosely connected
-**Members:** 22 nodes
+**Cohesion:** 0.12 - loosely connected
+**Members:** 23 nodes
 
 ## Members
-- [[Aurora transparent IOP for R1CS (univariate sumcheck, lincheck) BCRSVW19]] - paper - references/recursion/ch1/ref-10-fractal.pdf
-- [[BCS transformation (IOP - SNARG via Merkle trees  Fiat-Shamir), BCS16]] - paper - references/recursion/ch1/ref-10-fractal.pdf
-- [[Connection between holography and preprocessing in the random oracle model]] - paper - references/recursion/ch1/ref-10-fractal.pdf
-- [[FRACTAL system implementation extending libiop, supporting generic compilation of holographic proofs into preprocessing SNARGs]] - paper - references/recursion/ch1/ref-10-fractal.pdf
-- [[FRACTAL verifier expressed as a constraint system; threshold for recursion (2M constraints checkable in 1.1M), using Poseidon hash and FRI constraint systems]] - paper - references/recursion/ch1/ref-10-fractal.pdf
-- [[Fractal Post-Quantum and Transparent Recursive Proofs from Holography (Chiesa, Ojha, Spooner, EUROCRYPT 2020)]] - paper - references/recursion/ch1/ref-10-fractal.pdf
-- [[Function ensemble implementation of a random oracle (Def 2.1) seed s selected once, public; f_s replaces oracle calls]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Holographic interactive oracle proof (verifier queries an encoding of the index rather than reading it)]] - paper - references/recursion/ch1/ref-10-fractal.pdf
-- [[Holographic lincheck and sparse matrix arithmetization protocol (rational extension of summand; one fewer round than Marlin)]] - paper - references/recursion/ch1/ref-10-fractal.pdf
-- [[Indexed relations triples (index, instance, witness) where the index is encoded offline by the indexer]] - paper - references/recursion/ch1/ref-10-fractal.pdf
-- [[Marlin  algebraic holographic proof (AHP) + polynomial commitments CHMMVW20 — starting-point ideas for the holographic IOP]] - paper - references/recursion/ch1/ref-10-fractal.pdf
-- [[Methodology for post-quantum, transparent recursive composition of SNARKs (no special algebraic objects)]] - paper - references/recursion/ch1/ref-10-fractal.pdf
-- [[Poseidon algebraic hash function GKRRS19, chosen for the recursion-friendly constraint system]] - paper - references/recursion/ch1/ref-10-fractal.pdf
-- [[Post-quantum security (against quantum adversaries; security in the QROM)]] - paper - references/recursion/ch1/ref-10-fractal.pdf
-- [[Preprocessing SNARK  SNARG (offline indexing produces a succinct verification key; verifier polylogarithmic in circuit size)]] - paper - references/recursion/ch1/ref-10-fractal.pdf
-- [[Prior efficient recursion approach using pairing-based SNARKs on cycles of pairing-friendly elliptic curves BCTV14]] - paper - references/recursion/ch1/ref-10-fractal.pdf
-- [[Random oracle model (non-interactive STARK  NIROP)]] - paper - references/ch02/ref-08-stark.pdf
-- [[Reed–Solomon-encoded IOP (RS-encoded holographic IOP) with rational constraints over prover messages]] - paper - references/recursion/ch1/ref-10-fractal.pdf
-- [[Sumcheck for rational functions (univariate rational sumcheck over a domain K)]] - paper - references/recursion/ch1/ref-10-fractal.pdf
-- [[Theorem 1 compiler from any holographic IOP to a preprocessing SNARG, unconditionally secure in the (Q)ROM (zkPoK preserved)]] - paper - references/recursion/ch1/ref-10-fractal.pdf
-- [[Theorem 2 efficient public-coin zero-knowledge holographic IOP for indexed relation R_R1CS (O(m log m) indexerprover, O(x+log m) verifier, O(log m) queries)]] - paper - references/recursion/ch1/ref-10-fractal.pdf
-- [[Theorem 3 preprocessing zkSNARK for R1CS in the (Q)ROM (FRACTAL) — first efficient post-quantum transparent preprocessing zkSNARK]] - paper - references/recursion/ch1/ref-10-fractal.pdf
+- [[A la carte cost profile per-step proving cost proportional only to the circuit size of the invoked instruction, independent of k (number of instruction types)]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[Augmented function F'_j runs F_j then a verifier circuit folding u_i into U_ipc, checks public IO hash, and computes pc_{i+1} via phi]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[Avoiding universal switch circuits SuperNova never builds a circuit summing all instruction circuits; per-step cost depends only on the executed instruction]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[Buffet 34 a-la-carte cost via line-by-line compilation to non-uniform circuits, but not incremental and needs static execution bounds]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[Compression to succinct zero-knowledge apply a general-purpose zkSNARK (e.g., Spartan) over a valid NIVC proof, as in Nova]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[Construction 1 SuperNova NIVC scheme (G,K,P,V) built from non-interactive folding scheme NIFS for committed relaxed R1CS plus a hash]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[Control function phi takes (z_i, omega_i) and outputs program counter pc in {1,...,l} selecting which F_j to apply at each step]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[Instantiations VDF machine (l=1, MinRoot) and RAM machine (RISC-V-like, program counter register, Merkle-committed memory)]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[Kothapalli, Setty, Tzialla, Nova (CRYPTO 2022)]] - document - recursion/recursion-outline.md
+- [[Lemma 1  Assumption 1 non-interactive folding scheme for committed relaxed R1CS (Nova 21); prover O(n), verifier and communication O(1), via Fiat-Shamir in plain model]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[Lemma 2 (Completeness) Construction 1 is an NIVC scheme satisfying perfect completeness]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[Lemma 3 (Knowledge soundness) Construction 1 satisfies knowledge soundness via inductive extractor reduction to folding-scheme soundness]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[Lemma 4 (Efficiency) F'_j = phi + F_j + o(2G + 2H + R); prover cost dominated by two multiexponentiations sized to the executed instruction]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[MIRAGE 20 adapts vRAM techniques to Groth's SNARK; still relies on whole-trace invariants, incompatible with incremental proving]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[Multiple running instances, one per instruction type; incoming step instance folded into the running instance selected by pc (U_ipc)]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[Non-uniform IVC (NIVC)]] - paper - references/ch06/ref-18-hypernova.pdf
+- [[Non-uniform IVC (NIVC) generalization of IVC where each step proves a relation chosen from a set, selected by a control function]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[Optimization offlineMerkle memory-checking reduces F'_j circuit dependence on l from O(l) to O(log l) then to O(1) constraints]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[Per-instruction step functions {F_1,...,F_l} plus control function phi; each F_j verifies one instruction type, cost independent of l]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[Program counter (pc) index selecting which instructionfunction is run at a step; computed by control function phi and threaded between augmented circuits]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[SuperNova (Non-Uniform IVC)]] - document - proving-nothing.md
+- [[Universal circuit single circuit executing any supported instruction (fetch-decode-execute); per-step cost scales with sum of all instruction circuit sizes]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[vRAM 37 trimmed universal circuit for vnTinyRAM via fingerprinting over the trace; not incremental, not zero-knowledge]] - paper - references/recursion/ch2/ref-44-supernova.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -41,27 +42,18 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 3 edges to [[_COMMUNITY_Community 0]]
-- 3 edges to [[_COMMUNITY_Community 53]]
-- 3 edges to [[_COMMUNITY_Community 13]]
-- 2 edges to [[_COMMUNITY_Community 70]]
-- 2 edges to [[_COMMUNITY_Community 11]]
-- 2 edges to [[_COMMUNITY_Community 15]]
-- 2 edges to [[_COMMUNITY_Community 18]]
-- 2 edges to [[_COMMUNITY_Community 32]]
-- 2 edges to [[_COMMUNITY_Community 142]]
-- 1 edge to [[_COMMUNITY_Community 20]]
-- 1 edge to [[_COMMUNITY_Community 41]]
-- 1 edge to [[_COMMUNITY_Community 33]]
-- 1 edge to [[_COMMUNITY_Community 51]]
-- 1 edge to [[_COMMUNITY_Community 59]]
-- 1 edge to [[_COMMUNITY_Community 92]]
-- 1 edge to [[_COMMUNITY_Community 96]]
-- 1 edge to [[_COMMUNITY_Community 1]]
+- 5 edges to [[_COMMUNITY_Community 0]]
+- 3 edges to [[_COMMUNITY_Community 15]]
+- 3 edges to [[_COMMUNITY_Community 23]]
+- 3 edges to [[_COMMUNITY_Community 2]]
+- 2 edges to [[_COMMUNITY_Community 20]]
+- 1 edge to [[_COMMUNITY_Community 37]]
+- 1 edge to [[_COMMUNITY_Community 47]]
+- 1 edge to [[_COMMUNITY_Community 71]]
 
 ## Top bridge nodes
-- [[Random oracle model (non-interactive STARK  NIROP)]] - degree 15, connects to 8 communities
-- [[Post-quantum security (against quantum adversaries; security in the QROM)]] - degree 9, connects to 7 communities
-- [[Methodology for post-quantum, transparent recursive composition of SNARKs (no special algebraic objects)]] - degree 5, connects to 2 communities
-- [[FRACTAL verifier expressed as a constraint system; threshold for recursion (2M constraints checkable in 1.1M), using Poseidon hash and FRI constraint systems]] - degree 5, connects to 2 communities
-- [[Theorem 2 efficient public-coin zero-knowledge holographic IOP for indexed relation R_R1CS (O(m log m) indexerprover, O(x+log m) verifier, O(log m) queries)]] - degree 9, connects to 1 community
+- [[SuperNova (Non-Uniform IVC)]] - degree 15, connects to 4 communities
+- [[Non-uniform IVC (NIVC)]] - degree 4, connects to 3 communities
+- [[Universal circuit single circuit executing any supported instruction (fetch-decode-execute); per-step cost scales with sum of all instruction circuit sizes]] - degree 4, connects to 2 communities
+- [[Lemma 1  Assumption 1 non-interactive folding scheme for committed relaxed R1CS (Nova 21); prover O(n), verifier and communication O(1), via Fiat-Shamir in plain model]] - degree 4, connects to 2 communities
+- [[Construction 1 SuperNova NIVC scheme (G,K,P,V) built from non-interactive folding scheme NIFS for committed relaxed R1CS plus a hash]] - degree 8, connects to 1 community

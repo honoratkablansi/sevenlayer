@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 119"
+community: "Community 115"
 location: "Chapter 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_119
+  - community/Community_115
 ---
 
 # Wang, Cohney, Bonneau — SoK: Trusted Setups for Powers-of-Tau Strings (FC 2025)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[ADOPT Framework (Available, Decentralized, Open, Persistent, Transparent)]] - `cites` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_119
+#graphify/document #graphify/EXTRACTED #community/Community_115

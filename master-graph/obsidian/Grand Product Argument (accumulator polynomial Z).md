@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-07-plonk.pdf"
 type: "paper"
-community: "Community 43"
+community: "Community 85"
 location: "§5"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_43
+  - community/Community_85
 ---
 
 # Grand Product Argument (accumulator polynomial Z)
@@ -24,4 +24,4 @@ tags:
 - [[Theorem 3 Surge polynomial IOP is complete and knowledge-sound for proving sum_y M~(r,y)·Ty=v with soundness O((m+N{1c})F)]] - `assumes` [EXTRACTED]
 - [[Universal keyed hashes coefficient hash H_c and root hash H_r]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_43
+#graphify/paper #graphify/EXTRACTED #community/Community_85

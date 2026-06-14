@@ -1,41 +1,43 @@
 ---
 type: community
-cohesion: 0.12
-members: 26
+cohesion: 0.09
+members: 28
 ---
 
 # Community 32
 
-**Cohesion:** 0.12 - loosely connected
-**Members:** 26 nodes
+**Cohesion:** 0.09 - loosely connected
+**Members:** 28 nodes
 
 ## Members
-- [[Atomic Accumulation]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
-- [[Bivariate polynomial identity batching n Hadamard products to 1 via two-round public-coin reduction]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[Constant-size accumulation verifier (O(1) groupfield ops, improving log-size verifier of BCMS20)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[Corollary any NARK with split accumulation bootstraps into a SNARK for machine computations (via PCD + BCCT13)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[First construction of PCD without succinct arguments (linear-size NARKs suffice)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[Lemma 6.1 expected-time forking lemma in the ROM (polynomially many transcripts, expected-time adversaries)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[Proof-Carrying Data without Succinct Arguments (Bunz, Chiesa, Lin, Mishra, Spooner, CRYPTO 2021  ePrint 20201618)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[Recursion circuit via split accumulation (IVCPCD prover recurses only on instance parts of proofaccumulator)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[Rust implementation + evaluation recursion threshold ~52,000 constraints, =8.5x cheaper than atomic-accumulation IVC on Pasta cycle]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[Split Accumulation]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
-- [[Theorem 1  5.3 compile any NARK with a split accumulation scheme into a PCD scheme (no oracles, CRS model)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[Theorem 2 transparent zkNARK for R1CS with constant-size split accumulation verifier in ROM under DL]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[Theorem 3  7.2 zero-knowledge split accumulation for the Hadamard-product predicate under Pedersen commitments (5 G opsclaim)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[Zero-finding game lemma (expected-time variant of BCMS20 Lemma A.3) for polynomial-identity testing via RO commitments]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[BBBPWM18 Bunz, Bootle, Boneh, Poelstra, Wuille, Maxwell, Bulletproofs Short Proofs for Confidential Transactions and More (S&P 2018)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[BCCGP16 Bootle, Cerulli, Chaidos, Groth, Petit, Efficient Zero-Knowledge Arguments in the Discrete Log Setting (EUROCRYPT 2016)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[BCCT13 Bitansky, Canetti, Chiesa, Tromer, Recursive Composition and Bootstrapping for SNARKs and PCD (STOC 2013)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[BCMS20 Bunz, Chiesa, Mishra, Spooner, Proof-Carrying Data from Accumulation Schemes (TCC 2020)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[BCTV14 Ben-Sasson, Chiesa, Tromer, Virza, Scalable Zero Knowledge via Cycles of Elliptic Curves (CRYPTO 2014)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[BDFG20 Boneh, Drake, Fisch, Gabizon, Halo Infinite Recursive zk-SNARKs from any Additive Polynomial Commitment Scheme (ePrint 20201536, concurrent work)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[BGH19 Bowe, Grigg, Hopwood, Halo Recursive Proof Composition without a Trusted Setup (ePrint 20191021)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[BN06 Bellare, Neven, Multi-signatures in the plain public-key model and a general forking lemma (CCS 2006)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[COS20 Chiesa, Ojha, Spooner, Fractal Post-Quantum and Transparent Recursive Proofs from Holography (EUROCRYPT 2020)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[CT10 Chiesa, Tromer, Proof-Carrying Data and Hearsay Arguments from Signature Cards (ICS 2010)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[Gro16 Groth, On the Size of Pairing-Based Non-interactive Arguments (EUROCRYPT 2016)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[Val08 Valiant, Incrementally Verifiable Computation or Proofs of Knowledge Imply TimeSpace Efficiency (TCC 2008)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
+- [[Arthur-Merlin (AM) Protocols  Public-Coin Proofs]] - paper - references/mooc/lecture01/slides.pdf
+- [[Canetti, Goldreich, Halevi, The Random Oracle Methodology, Revisited (JACM 2004)]] - document - recursion/recursion-outline.md
+- [[Cryptographic Hash Function]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
+- [[FS-GKR Fiat-Shamir attacks (KRS25) motivating recursion avoidance]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Fiat & Shamir, Crypto '86 (LNCS 263)]] - document - proving-nothing.md
+- [[Fiat-Shamir Transform]] - document - proving-nothing.md
+- [[Frozen Heart  Fiat-Shamir Vulnerability Class]] - document - proving-nothing.md
+- [[Frozen Heart Vulnerability (2022)]] - document - proving-nothing.md
+- [[Goldwasser, Micali, Rackoff — Knowledge Complexity of Interactive Proof Systems (1985)]] - document - proving-nothing.md
+- [[Hash Chaining]] - paper - references/books/proofs-args-zk.pdf
+- [[Interactive Proof System]] - document - proving-nothing.md
+- [[Khovratovich, Rothblum, Soukhanov, How to Prove False Statements (ePrint 2025118)]] - document - recursion/recursion-outline.md
+- [[Knowledge-Soundness]] - document - proving-nothing.md
+- [[Last Challenge Attack (2024)]] - document - proving-nothing.md
+- [[Last Challenge Attack (FS flaw in KZG-based SNARK final batching challenge)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[Merkle Tree]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
+- [[Non-Interactive Argument]] - paper - references/books/proofs-args-zk.pdf
+- [[Nova IVC soundnessmalleability bug on cycle of curves (missing consistency check)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[PCP-to-Argument Compiler (Kilian-Micali)]] - paper - references/books/proofs-args-zk.pdf
+- [[PinocchioBCTV setup counterfeiting bug exploited in Zcash (bypass parameters forge proofs)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[Proof-system (theoretical) vulnerabilities affecting all implementations]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[Public-Coin Protocol]] - paper - references/books/proofs-args-zk.pdf
+- [[Random Oracle Model]] - paper - references/recursion/ch1/ref-11-khovratovich-fiat-shamir-attacks.pdf
+- [[Solana ZK ElGamal Bug (2025)]] - document - proving-nothing.md
+- [[Succinct Argument]] - paper - references/snowball/recursion/ref-115-sumcheck-arguments-and-their-applications.pdf
+- [[Time-Lock Puzzle]] - paper - references/snowball/recursion/ref-116-a-survey-of-two-verifiable-delay-functions.pdf
+- [[Verifiable Delay Function]] - paper - references/snowball/recursion/ref-116-a-survey-of-two-verifiable-delay-functions.pdf
+- [[Witness Extraction]] - paper - references/books/proofs-args-zk.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -45,21 +47,57 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 5 edges to [[_COMMUNITY_Community 131]]
-- 3 edges to [[_COMMUNITY_Community 41]]
-- 3 edges to [[_COMMUNITY_Community 71]]
-- 3 edges to [[_COMMUNITY_Community 31]]
-- 3 edges to [[_COMMUNITY_Community 49]]
-- 2 edges to [[_COMMUNITY_Community 22]]
-- 2 edges to [[_COMMUNITY_Community 8]]
-- 2 edges to [[_COMMUNITY_Community 52]]
+- 12 edges to [[_COMMUNITY_Community 8]]
+- 10 edges to [[_COMMUNITY_Community 15]]
+- 9 edges to [[_COMMUNITY_Community 0]]
+- 8 edges to [[_COMMUNITY_Community 12]]
+- 6 edges to [[_COMMUNITY_Community 22]]
+- 5 edges to [[_COMMUNITY_Community 36]]
+- 5 edges to [[_COMMUNITY_Community 40]]
+- 5 edges to [[_COMMUNITY_Community 29]]
+- 5 edges to [[_COMMUNITY_Community 2]]
+- 4 edges to [[_COMMUNITY_Community 53]]
+- 4 edges to [[_COMMUNITY_Community 19]]
+- 4 edges to [[_COMMUNITY_Community 51]]
+- 4 edges to [[_COMMUNITY_Community 21]]
+- 3 edges to [[_COMMUNITY_Community 7]]
+- 3 edges to [[_COMMUNITY_Community 1]]
+- 2 edges to [[_COMMUNITY_Community 35]]
+- 2 edges to [[_COMMUNITY_Community 37]]
+- 2 edges to [[_COMMUNITY_Community 44]]
+- 2 edges to [[_COMMUNITY_Community 79]]
+- 2 edges to [[_COMMUNITY_Community 68]]
+- 2 edges to [[_COMMUNITY_Community 17]]
+- 2 edges to [[_COMMUNITY_Community 74]]
+- 2 edges to [[_COMMUNITY_Community 6]]
 - 2 edges to [[_COMMUNITY_Community 13]]
-- 1 edge to [[_COMMUNITY_Community 72]]
-- 1 edge to [[_COMMUNITY_Community 15]]
+- 2 edges to [[_COMMUNITY_Community 59]]
+- 2 edges to [[_COMMUNITY_Community 18]]
+- 1 edge to [[_COMMUNITY_Community 42]]
+- 1 edge to [[_COMMUNITY_Community 47]]
+- 1 edge to [[_COMMUNITY_Community 38]]
+- 1 edge to [[_COMMUNITY_Community 124]]
+- 1 edge to [[_COMMUNITY_Community 102]]
+- 1 edge to [[_COMMUNITY_Community 5]]
+- 1 edge to [[_COMMUNITY_Community 71]]
+- 1 edge to [[_COMMUNITY_Community 88]]
+- 1 edge to [[_COMMUNITY_Community 16]]
+- 1 edge to [[_COMMUNITY_Community 83]]
+- 1 edge to [[_COMMUNITY_Community 10]]
+- 1 edge to [[_COMMUNITY_Community 9]]
+- 1 edge to [[_COMMUNITY_Community 96]]
+- 1 edge to [[_COMMUNITY_Community 65]]
+- 1 edge to [[_COMMUNITY_Community 120]]
+- 1 edge to [[_COMMUNITY_Community 64]]
+- 1 edge to [[_COMMUNITY_Community 87]]
+- 1 edge to [[_COMMUNITY_Community 48]]
+- 1 edge to [[_COMMUNITY_Community 25]]
+- 1 edge to [[_COMMUNITY_Community 77]]
+- 1 edge to [[_COMMUNITY_Community 28]]
 
 ## Top bridge nodes
-- [[Theorem 2 transparent zkNARK for R1CS with constant-size split accumulation verifier in ROM under DL]] - degree 8, connects to 4 communities
-- [[Split Accumulation]] - degree 9, connects to 2 communities
-- [[Theorem 3  7.2 zero-knowledge split accumulation for the Hadamard-product predicate under Pedersen commitments (5 G opsclaim)]] - degree 7, connects to 2 communities
-- [[Lemma 6.1 expected-time forking lemma in the ROM (polynomially many transcripts, expected-time adversaries)]] - degree 6, connects to 2 communities
-- [[Theorem 1  5.3 compile any NARK with a split accumulation scheme into a PCD scheme (no oracles, CRS model)]] - degree 6, connects to 2 communities
+- [[Fiat-Shamir Transform]] - degree 100, connects to 35 communities
+- [[Knowledge-Soundness]] - degree 22, connects to 15 communities
+- [[Succinct Argument]] - degree 19, connects to 8 communities
+- [[Merkle Tree]] - degree 10, connects to 8 communities
+- [[Cryptographic Hash Function]] - degree 4, connects to 2 communities

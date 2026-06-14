@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-59-zkbridge.pdf"
 type: "paper"
-community: "Community 23"
+community: "Community 2"
 location: "[58], §4.2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_23
+  - community/Community_2
 ---
 
 # Sumcheck / Algebraic Methods for Interactive Proof Systems (Lund-Fortnow-Karloff-Nisan, J.ACM 1992) [58]
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Sumcheck Protocol]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_23
+#graphify/paper #graphify/EXTRACTED #community/Community_2

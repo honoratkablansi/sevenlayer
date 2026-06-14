@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 70"
+community: "Community 32"
 location: "Chapter 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_70
+  - community/Community_32
 ---
 
 # Fiat & Shamir, Crypto '86 (LNCS 263)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Fiat-Shamir Transform]] - `introduces` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_70
+#graphify/document #graphify/EXTRACTED #community/Community_32

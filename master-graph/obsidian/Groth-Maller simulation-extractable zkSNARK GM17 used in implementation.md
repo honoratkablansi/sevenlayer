@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-90-zexe.pdf"
 type: "paper"
-community: "Community 6"
+community: "Community 55"
 location: "§2.6; §8 [GM17]"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_6
+  - community/Community_55
 ---
 
 # Groth-Maller simulation-extractable zkSNARK [GM17] used in implementation
@@ -16,4 +16,4 @@ tags:
 - [[Zexe a ledger-based system for decentralized private computation]] - `cites` [EXTRACTED]
 - [[zkSNARK]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_6
+#graphify/paper #graphify/EXTRACTED #community/Community_55

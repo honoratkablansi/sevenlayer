@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 11"
+community: "Community 35"
 location: "Chapter 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_11
+  - community/Community_35
 ---
 
 # Structured Reference String (SRS)
@@ -22,4 +22,4 @@ tags:
 - [[Powers of Tau]] - `conceptually_related_to` [EXTRACTED]
 - [[Trusted Setup Ceremony]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_11
+#graphify/document #graphify/EXTRACTED #community/Community_35

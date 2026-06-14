@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-13-chiesa-chua-weidner-cycles.pdf"
 type: "paper"
-community: "Community 8"
+community: "Community 24"
 location: "§6, Prop. 4-6"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_8
+  - community/Community_24
 ---
 
 # Prop. 5: m-cycle of curves with fixed discriminant D>3 has m<=2 (D=3 gives m=6)
@@ -16,4 +16,4 @@ tags:
 - [[Chiesa, Chua & Weidner, On Cycles of Pairing-Friendly Elliptic Curves (2019)]] - `proves` [EXTRACTED]
 - [[Cycles of Elliptic Curves]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_8
+#graphify/paper #graphify/EXTRACTED #community/Community_24

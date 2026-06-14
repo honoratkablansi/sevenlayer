@@ -1,47 +1,46 @@
 ---
 type: community
-cohesion: 0.10
-members: 32
+cohesion: 0.09
+members: 31
 ---
 
 # Community 26
 
-**Cohesion:** 0.10 - loosely connected
-**Members:** 32 nodes
+**Cohesion:** 0.09 - loosely connected
+**Members:** 31 nodes
 
 ## Members
-- [[All RISC-V instructions are decomposable (main technical contribution)]] - paper - references/ch03/ref-16-jolt.pdf
-- [[Comparison vs RISC Zero (~34), Cairo-VM (~13), Plonk per CPU step]] - paper - references/ch03/ref-16-jolt.pdf
-- [[Cost claim all committed field elements are 'small' in {0,...,max(m,N{1c},q)-1}, enabling ~1 group opelement via Pippenger MSM]] - paper - references/ch03/ref-15-lasso.pdf
-- [[Decomposable tables]] - paper - references/ch03/ref-16-jolt.pdf
-- [[Generalized-Lasso vs Lasso auditabilityperformance tradeoff (2x-3x cost)]] - paper - references/ch03/ref-16-jolt.pdf
-- [[GeneralizedLasso lookup argument for any MLElow-degree-structured table via the sparse-dense sum-check protocol]] - paper - references/ch03/ref-15-lasso.pdf
-- [[Indexed lookup argument (commit to value vector a and index vector b, prove a_i = tb_i)]] - paper - references/ch03/ref-15-lasso.pdf
-- [[Jolt SNARKs for Virtual Machines via Lookups]] - paper - references/ch03/ref-16-jolt.pdf
-- [[Lasso]] - document - proving-nothing.md
-- [[Lasso companion paper STW23 (Setty, Thaler, Wahby 2023)]] - paper - references/ch03/ref-16-jolt.pdf
-- [[Lasso lookup argument for SOSsmall tables, prover commits to 3cm + c·N{1c} small field elements]] - paper - references/ch03/ref-15-lasso.pdf
-- [[Lemma 2 RS and WS are permutations iff every read returns last-written (value,count)]] - paper - references/ch03/ref-16-jolt.pdf
-- [[Lookup Singularity]] - document - proving-nothing.md
-- [[Lookup singularity & companion paper Jolt replace each VM (RISC-V) instruction with one lookup into a 2128-size decomposable table]] - paper - references/ch03/ref-15-lasso.pdf
-- [[MLE-structured table multilinear extension of the table is evaluable in O(log N) time, so no party commits to it]] - paper - references/ch03/ref-15-lasso.pdf
-- [[MLE-structured tables]] - paper - references/ch03/ref-16-jolt.pdf
-- [[MSM commitment via Pippenger's algorithm]] - paper - references/ch03/ref-16-jolt.pdf
-- [[Multilinear polynomial commitment scheme (MSM-based or hash-based)]] - paper - references/ch03/ref-15-lasso.pdf
-- [[Per-instruction MLE-structured evaluation tables (EQ, LTU, SLL, ANDORXOR, ADDSUB, MUL)]] - paper - references/ch03/ref-16-jolt.pdf
-- [[Prior lookup arguments plookup GW20b, Halo2 BGH20, cq EFG22, Caulk ZBK+22, flookup GK22, Baloo ZGK+22, log-derivative lookups]] - paper - references/ch03/ref-15-lasso.pdf
-- [[Prover commits to ~6 256-bit field elements per RISC-V CPU step]] - paper - references/ch03/ref-16-jolt.pdf
-- [[SOS  decomposable table Tr = g(T_1r_1,...,T_alphar_c) with alpha=kc MLE-structured sub-tables of size N{1c}]] - paper - references/ch03/ref-15-lasso.pdf
-- [[Single collation polynomial g for concatenated instruction tables]] - paper - references/ch03/ref-16-jolt.pdf
-- [[Single giant 2128 RISC-V lookup table T_risc-vopcodexy]] - paper - references/ch03/ref-16-jolt.pdf
-- [[Sona transparent multilinear PCS (BabyHyrax + Nova) with O(1) commit size, O(1) verify, O(sqrt(N)) crypto eval-proof work]] - paper - references/ch03/ref-15-lasso.pdf
-- [[Sparse-dense sum-check protocol reduces lookups into any MLE-structured table to lookups into a decomposable table]] - paper - references/ch03/ref-15-lasso.pdf
-- [[Spartan applied to uniform R1CS (no commitment to A,B,C matrices)]] - paper - references/ch03/ref-16-jolt.pdf
-- [[Spice-based memory-checking optimized with Lasso (max via lookup)]] - paper - references/ch03/ref-16-jolt.pdf
-- [[Surge generalization of Spark proving inner product of an m-sparse committed vector with any decomposable (SOS) dense table]] - paper - references/ch03/ref-15-lasso.pdf
-- [[Theorem 3 Surge polynomial IOP is complete and knowledge-sound for proving sum_y M~(r,y)·Ty=v with soundness O((m+N{1c})F)]] - paper - references/ch03/ref-15-lasso.pdf
-- [[Unlocking the Lookup Singularity with Lasso]] - paper - references/ch03/ref-15-lasso.pdf
-- [[Virtual instructions and virtual registers (MULH, DIVREM, MOVSIGN, ADVICE, ASSERT)]] - paper - references/ch03/ref-16-jolt.pdf
+- [[(Super)Spartan zkSNARK]] - paper - references/ch06/ref-21-neo.pdf
+- [[(d,m,B,C)-relaxed binding; binding implies relaxed binding (Lemma 3)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Algebraic reductions of knowledge]] - paper - references/ch06/ref-21-neo.pdf
+- [[Arc (hash-based accumulation for Reed-Solomon codes)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Concrete parameters AGL, Goldilocks, Mersenne-61 over degree-2 extension]] - paper - references/ch06/ref-21-neo.pdf
+- [[HyperNova (CRYPTO'24)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Lattice IVCPCD with Spartan+FRI proof compression, no curve cycles]] - paper - references/ch06/ref-21-neo.pdf
+- [[Lattice folding for lookups and read-write memory via ShoutTwist]] - paper - references/ch06/ref-21-neo.pdf
+- [[LatticeFold (ePrint 2024257)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Lemma 2 linear combinations of commitments respect right-multiplication of openings]] - paper - references/ch06/ref-21-neo.pdf
+- [[Linearly homomorphic commitment]] - paper - references/ch06/ref-21-neo.pdf
+- [[Lova (unstructured-lattice folding for subset sum)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Neo folding scheme for CCS (lattice-based)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Neo folding-friendly matrix commitment scheme (Ajtai with new embedding)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Neo Lattice-based Folding Scheme for CCS over Small Fields and Pay-per-bit Commitments]] - paper - references/ch06/ref-21-neo.pdf
+- [[NeutronNova]] - paper - references/ch06/ref-21-neo.pdf
+- [[Nova (CRYPTO'22)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Pay-per-bit commitment cost (cost scales with bit-width of committed scalars)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Pi_CCS reduction (CCS to linearizedmatrix-eval claims via sum-check)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Pi_DEC decomposition reduction (norm-B claim into k norm-b claims)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Pi_RLC random linear combination reduction (folds k+1 norm-b claims into one norm-B)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Plausible post-quantum security from lattice (no DLOG reliance)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Reductions of knowledge framework]] - paper - references/ch06/ref-21-neo.pdf
+- [[S-module homomorphism via ring of rotation matrices S]] - paper - references/ch06/ref-21-neo.pdf
+- [[Short invertible elements in partially splitting cyclotomic rings]] - paper - references/ch06/ref-21-neo.pdf
+- [[Strong sampling set with small-norm invertible challenges (expansion factor T)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Theorem 2 Ajtai scheme is S-homomorphic and (d,m,B)-binding under MSIS]] - paper - references/ch06/ref-21-neo.pdf
+- [[Theorem 5 composition theorem (restricted + relaxed knowledge soundness compose to RoK)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Theorem 7 cyclotomic ring R_q isomorphic to ring of rotation matrices S]] - paper - references/ch06/ref-21-neo.pdf
+- [[Twist and Shout (sum-check lookup  memory arguments)]] - paper - references/ch06/ref-21-neo.pdf
+- [[b-bit-word embedding of Fm into low-norm cyclotomic ring vector]] - paper - references/ch06/ref-21-neo.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -51,22 +50,20 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 13 edges to [[_COMMUNITY_Community 4]]
-- 6 edges to [[_COMMUNITY_Community 9]]
-- 5 edges to [[_COMMUNITY_Community 0]]
-- 4 edges to [[_COMMUNITY_Community 12]]
-- 4 edges to [[_COMMUNITY_Community 24]]
-- 3 edges to [[_COMMUNITY_Community 3]]
-- 2 edges to [[_COMMUNITY_Community 15]]
-- 2 edges to [[_COMMUNITY_Community 10]]
-- 2 edges to [[_COMMUNITY_Community 43]]
-- 2 edges to [[_COMMUNITY_Community 23]]
-- 1 edge to [[_COMMUNITY_Community 86]]
-- 1 edge to [[_COMMUNITY_Community 29]]
+- 11 edges to [[_COMMUNITY_Community 0]]
+- 8 edges to [[_COMMUNITY_Community 10]]
+- 2 edges to [[_COMMUNITY_Community 2]]
+- 2 edges to [[_COMMUNITY_Community 13]]
+- 2 edges to [[_COMMUNITY_Community 28]]
+- 1 edge to [[_COMMUNITY_Community 23]]
+- 1 edge to [[_COMMUNITY_Community 71]]
+- 1 edge to [[_COMMUNITY_Community 35]]
+- 1 edge to [[_COMMUNITY_Community 12]]
+- 1 edge to [[_COMMUNITY_Community 27]]
 
 ## Top bridge nodes
-- [[Lasso]] - degree 26, connects to 7 communities
-- [[Jolt SNARKs for Virtual Machines via Lookups]] - degree 25, connects to 7 communities
-- [[Unlocking the Lookup Singularity with Lasso]] - degree 10, connects to 3 communities
-- [[Lasso lookup argument for SOSsmall tables, prover commits to 3cm + c·N{1c} small field elements]] - degree 7, connects to 1 community
-- [[Lookup Singularity]] - degree 6, connects to 1 community
+- [[Neo Lattice-based Folding Scheme for CCS over Small Fields and Pay-per-bit Commitments]] - degree 32, connects to 8 communities
+- [[Neo folding scheme for CCS (lattice-based)]] - degree 9, connects to 2 communities
+- [[Neo folding-friendly matrix commitment scheme (Ajtai with new embedding)]] - degree 8, connects to 2 communities
+- [[Concrete parameters AGL, Goldilocks, Mersenne-61 over degree-2 extension]] - degree 3, connects to 2 communities
+- [[Lattice IVCPCD with Spartan+FRI proof compression, no curve cycles]] - degree 3, connects to 1 community

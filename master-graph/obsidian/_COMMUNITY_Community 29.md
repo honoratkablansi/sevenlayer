@@ -1,43 +1,44 @@
 ---
 type: community
-cohesion: 0.09
-members: 28
+cohesion: 0.12
+members: 29
 ---
 
 # Community 29
 
-**Cohesion:** 0.09 - loosely connected
-**Members:** 28 nodes
+**Cohesion:** 0.12 - loosely connected
+**Members:** 29 nodes
 
 ## Members
-- [[A-la-carte cost profile for machine execution]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[Complete Bibliography]] - document - wiki/BIBLIOGRAPHY.md
-- [[Customizable Constraint Systems for Succinct Arguments]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
-- [[CycleFold cycle-of-curves delegation technique]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[Eagen, Gabizon, ProtoGalaxy (ePrint 20231106)]] - document - recursion/recursion-outline.md
-- [[Halo Recursive Proof Composition]] - paper - references/ch06/ref-17-nova.pdf
-- [[HyperNova NIVC-from-multifolding compiler (Construction 2)]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[HyperNova Recursive Arguments for Customizable Constraint Systems]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[HyperPlonk CBBZ23 - multilinear Plonk with linear prover, contrasted cost route]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
-- [[Lemma 5 (Nova folding is blinding)]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[Lemma 610 (folding CCS is randomizing)]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[Linearized (committed) CCS relation]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[Marlin CHM+20 - preprocessing zkSNARK that SuperMarlin generalizes]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
-- [[Multi-folding scheme (generalized folding)]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[Multi-folding scheme for CCS (Construction 1)]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[No commitments to cross-terms efficiency claim]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[Non-uniform IVC (NIVC)]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[Nova Recursive Zero-Knowledge Arguments from Folding Schemes]] - paper - references/ch06/ref-17-nova.pdf
-- [[NovaBlindFold folding-based zero-knowledge]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[ProtoGalaxy (Multi-Instance Folding)]] - document - proving-nothing.md
-- [[Relaxed R1CS]] - document - proving-nothing.md
-- [[Sangria (folding scheme for Plonkish)]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[Single-MSM prover cost (size = variables)]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[SuperMarlin univariate-sumcheck SNARK for CCS generalizing Marlin]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
-- [[Theorem 1 (multi-folding scheme for CCS)]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[Theorem 3 (HyperNova NIVC scheme)]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[Theorem 8 (nlookup multi-folding scheme)]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[nlookup lookup argument (Construction 8)]] - paper - references/ch06/ref-18-hypernova.pdf
+- [[Aggregated Range Proof for m Values]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Bootle, Cerulli, Chaidos, Groth, Petit Efficient ZK arguments in the discrete log setting (inner product argument) 12]] - paper - references/recursion/ch1/ref-05-halo.pdf
+- [[Bulletproofs  Inner Product Argument]] - document - proving-nothing.md
+- [[Bulletproofs NIZK Argument System]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Bulletproofs Short Proofs for Confidential Transactions and More]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Bunz et al., Bulletproofs (IEEE S&P 2018)]] - document - proving-nothing.md
+- [[Confidential Transactions (CT)]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Cyclic Group]] - paper - references/books/proofs-args-zk.pdf
+- [[Discrete Logarithm Assumption]] - document - references/ch02/ref-09-bulletproofs.pdf
+- [[Elliptic Curve Group]] - paper - references/books/proofs-args-zk.pdf
+- [[Inner Product Argument (IPABulletproofs)]] - document - proving-nothing.md
+- [[Logarithmic Proof Size]] - paper - references/books/proofs-args-zk.pdf
+- [[Logarithmic Proof Size Claim (2 log2(nm)+4 elements)]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Logarithmic-Size Range Proof]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[MPC Protocol for Distributed Bulletproof Generation]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Mimblewimble]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[NARK for R1CS from Fiat-Shamir over a Pedersen-commitment sigma protocol (linear argument size)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
+- [[Pedersen Commitment]] - document - proving-nothing.md
+- [[Proof of Solvency for Bitcoin exchanges]] - paper - references/recursion/ch3/ref-88-provisions.pdf
+- [[Proof-of-assets Sigma-protocol (HVZK argument of knowledge)]] - paper - references/recursion/ch3/ref-88-provisions.pdf
+- [[Provisions Proof of Solvency]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Range Proof]] - document - references/ch02/ref-09-bulletproofs.pdf
+- [[Recursive Halving in Inner Product Argument]] - paper - references/books/proofs-args-zk.pdf
+- [[SNARKs with Trusted Setup]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Schnorr Proof System]] - document - references/ch06/ref-22-frozen-heart.md
+- [[Sigma protocol (public-coin 3-move)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
+- [[Switch to Quantum-Secure Range Proofs (ElGamal)]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Theorem 3 Aggregate Range Proof Security]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Theorem 4  A.2 split accumulation for a Pedersen-based polynomial commitment predicate (ROM, DL)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -47,41 +48,47 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 10 edges to [[_COMMUNITY_Community 22]]
-- 9 edges to [[_COMMUNITY_Community 4]]
-- 7 edges to [[_COMMUNITY_Community 25]]
-- 7 edges to [[_COMMUNITY_Community 9]]
-- 5 edges to [[_COMMUNITY_Community 1]]
-- 4 edges to [[_COMMUNITY_Community 15]]
-- 4 edges to [[_COMMUNITY_Community 23]]
-- 4 edges to [[_COMMUNITY_Community 77]]
-- 3 edges to [[_COMMUNITY_Community 0]]
-- 3 edges to [[_COMMUNITY_Community 71]]
-- 2 edges to [[_COMMUNITY_Community 11]]
-- 2 edges to [[_COMMUNITY_Community 24]]
-- 2 edges to [[_COMMUNITY_Community 8]]
-- 2 edges to [[_COMMUNITY_Community 17]]
-- 2 edges to [[_COMMUNITY_Community 31]]
-- 1 edge to [[_COMMUNITY_Community 70]]
-- 1 edge to [[_COMMUNITY_Community 5]]
-- 1 edge to [[_COMMUNITY_Community 55]]
-- 1 edge to [[_COMMUNITY_Community 72]]
-- 1 edge to [[_COMMUNITY_Community 57]]
-- 1 edge to [[_COMMUNITY_Community 39]]
-- 1 edge to [[_COMMUNITY_Community 43]]
-- 1 edge to [[_COMMUNITY_Community 51]]
-- 1 edge to [[_COMMUNITY_Community 26]]
-- 1 edge to [[_COMMUNITY_Community 76]]
-- 1 edge to [[_COMMUNITY_Community 124]]
-- 1 edge to [[_COMMUNITY_Community 121]]
-- 1 edge to [[_COMMUNITY_Community 49]]
+- 19 edges to [[_COMMUNITY_Community 0]]
+- 9 edges to [[_COMMUNITY_Community 14]]
+- 9 edges to [[_COMMUNITY_Community 39]]
+- 8 edges to [[_COMMUNITY_Community 38]]
+- 7 edges to [[_COMMUNITY_Community 35]]
+- 5 edges to [[_COMMUNITY_Community 32]]
+- 5 edges to [[_COMMUNITY_Community 8]]
+- 5 edges to [[_COMMUNITY_Community 70]]
+- 4 edges to [[_COMMUNITY_Community 22]]
+- 4 edges to [[_COMMUNITY_Community 12]]
+- 4 edges to [[_COMMUNITY_Community 10]]
+- 4 edges to [[_COMMUNITY_Community 124]]
+- 3 edges to [[_COMMUNITY_Community 87]]
+- 3 edges to [[_COMMUNITY_Community 17]]
+- 3 edges to [[_COMMUNITY_Community 58]]
+- 3 edges to [[_COMMUNITY_Community 112]]
+- 2 edges to [[_COMMUNITY_Community 36]]
+- 2 edges to [[_COMMUNITY_Community 21]]
+- 2 edges to [[_COMMUNITY_Community 15]]
+- 2 edges to [[_COMMUNITY_Community 9]]
+- 2 edges to [[_COMMUNITY_Community 71]]
+- 2 edges to [[_COMMUNITY_Community 69]]
+- 2 edges to [[_COMMUNITY_Community 7]]
+- 2 edges to [[_COMMUNITY_Community 40]]
+- 1 edge to [[_COMMUNITY_Community 1]]
+- 1 edge to [[_COMMUNITY_Community 13]]
+- 1 edge to [[_COMMUNITY_Community 2]]
 - 1 edge to [[_COMMUNITY_Community 19]]
-- 1 edge to [[_COMMUNITY_Community 44]]
-- 1 edge to [[_COMMUNITY_Community 35]]
+- 1 edge to [[_COMMUNITY_Community 64]]
+- 1 edge to [[_COMMUNITY_Community 106]]
+- 1 edge to [[_COMMUNITY_Community 129]]
+- 1 edge to [[_COMMUNITY_Community 37]]
+- 1 edge to [[_COMMUNITY_Community 66]]
+- 1 edge to [[_COMMUNITY_Community 54]]
+- 1 edge to [[_COMMUNITY_Community 4]]
+- 1 edge to [[_COMMUNITY_Community 92]]
+- 1 edge to [[_COMMUNITY_Community 79]]
 
 ## Top bridge nodes
-- [[Nova Recursive Zero-Knowledge Arguments from Folding Schemes]] - degree 18, connects to 12 communities
-- [[Complete Bibliography]] - degree 16, connects to 12 communities
-- [[HyperNova Recursive Arguments for Customizable Constraint Systems]] - degree 25, connects to 11 communities
-- [[Customizable Constraint Systems for Succinct Arguments]] - degree 15, connects to 6 communities
-- [[ProtoGalaxy (Multi-Instance Folding)]] - degree 10, connects to 4 communities
+- [[Pedersen Commitment]] - degree 39, connects to 16 communities
+- [[Inner Product Argument (IPABulletproofs)]] - degree 31, connects to 14 communities
+- [[Bulletproofs  Inner Product Argument]] - degree 26, connects to 12 communities
+- [[Sigma protocol (public-coin 3-move)]] - degree 17, connects to 10 communities
+- [[Discrete Logarithm Assumption]] - degree 21, connects to 7 communities

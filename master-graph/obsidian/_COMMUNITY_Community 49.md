@@ -1,37 +1,38 @@
 ---
 type: community
-cohesion: 0.12
-members: 22
+cohesion: 0.13
+members: 23
 ---
 
 # Community 49
 
-**Cohesion:** 0.12 - loosely connected
-**Members:** 22 nodes
+**Cohesion:** 0.13 - loosely connected
+**Members:** 23 nodes
 
 ## Members
-- [[Accumulation Scheme Completeness and Soundness Properties]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
-- [[Accumulation Scheme for a Non-Interactive Argument (Def 4.1)]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
-- [[Accumulation Scheme for a Polynomial Commitment (Def 4.2)]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
-- [[Accumulation Schemes]] - document - references/ch06/ref-19-protostar.pdf
-- [[BCCT13 Recursive Composition and Bootstrapping for SNARKs and PCD]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
-- [[COS20 Fractal - Post-Quantum Transparent Recursive Proofs from Holography]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
-- [[Compatibility Hell (cross-layer alignment)]] - document - recursion/recursion-outline.md
-- [[Field-Mismatch Problem (base vs scalar field)]] - document - recursion/recursion-outline.md
-- [[Formal Accumulation Scheme Definition AS=(G,I,P,V,D) for (Phi,H)]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
-- [[Full Recursion (in-circuit verifier embedding)]] - document - recursion/recursion-outline.md
-- [[Halo Infinite]] - paper - references/snowball/book/ref-095-halo-infinite-recursive-zk-snarks-from-any-addi.pdf
-- [[Nova KST21 recursive ZK arguments from folding; R_acc = relaxed committed R1CS]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
-- [[Pickles  Mina]] - document - recursion/recursion-outline.md
-- [[Predicate-Efficient SNARK]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
-- [[Proof-Carrying Data from Accumulation Schemes (BCMS20)]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
-- [[Relaxed Succinctness deferred verification via sublinear accumulation verifier]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
-- [[Section 1.3 Construction-Strategy Taxonomy Table]] - document - recursion/recursion-outline.md
-- [[Theorem 1 (informal) SNARK with accumulation scheme compiles to PCD]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
-- [[Theorem 2 (informal) accumulation for predicate + predicate-efficient SNARK yields accumulation for the SNARK]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
-- [[Theorem 5.2 transformation T from SNARK + accumulation scheme to PCD for constant-depth predicates]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
-- [[Worked Intuition the Proof of a Proof]] - document - recursion/recursion-outline.md
-- [[Zero Knowledge for Accumulation Schemes (simulator, verification proof piV)]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
+- [[BGN scheme cost comparison prime-order 28x faster despite 12 pairings]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[BN254  embedding-degree-12 BN pairings drop below 128-bit security]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[Barreto-Naehrig Curves]] - document - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[Benchmark composite-order pairing 254x slower (1.27s vs 5.05ms) at 128-bit]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[Comparing the Pairing Efficiency over Composite-Order and Prime-Order Elliptic Curves]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[Composite-Order Bilinear Groups]] - document - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[Distortion map phi(x,y)-(-x,Zy) giving symmetric pairing]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[Freeman composite-to-prime-order conversion (cited prior work)]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[Lenstra modulussecurity recommendations (cited prior work)]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[Lewko generic conversion, Eurocrypt 2012 (cited prior work)]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[Lewko-Waters HIBE cost prime-order 10x-192x faster]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[LibCryptoLCH Cx86-64 asm implementation (Thales)]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[Multi-prime RSA modulus sizing (2-8 primes, extends Lenstra)]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[Optimal ate pairing]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[Optimal ate pairing operation count on BN curve (Alg.1)]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[Recommendation avoid composite-order groups whenever possible]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[SexTNFS for special-form (d-SNFS) characteristic, L_Q(13,(329){13})]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[Special NFS in F_{pn} Joux-Pierrot]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[Subgroup decision assumption]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[Supersingular elliptic curve]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[Supersingular k=2 curve construction p=hN-1, E y2=x3-x]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[Tate pairing]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[Tate pairing on composite-order supersingular curve (Alg.2)]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -41,30 +42,13 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 6 edges to [[_COMMUNITY_Community 22]]
-- 6 edges to [[_COMMUNITY_Community 13]]
-- 6 edges to [[_COMMUNITY_Community 31]]
-- 5 edges to [[_COMMUNITY_Community 41]]
-- 4 edges to [[_COMMUNITY_Community 12]]
-- 3 edges to [[_COMMUNITY_Community 76]]
-- 3 edges to [[_COMMUNITY_Community 32]]
-- 3 edges to [[_COMMUNITY_Community 47]]
-- 2 edges to [[_COMMUNITY_Community 5]]
-- 2 edges to [[_COMMUNITY_Community 8]]
-- 2 edges to [[_COMMUNITY_Community 77]]
-- 1 edge to [[_COMMUNITY_Community 70]]
-- 1 edge to [[_COMMUNITY_Community 0]]
-- 1 edge to [[_COMMUNITY_Community 29]]
-- 1 edge to [[_COMMUNITY_Community 114]]
-- 1 edge to [[_COMMUNITY_Community 121]]
-- 1 edge to [[_COMMUNITY_Community 74]]
-- 1 edge to [[_COMMUNITY_Community 9]]
-- 1 edge to [[_COMMUNITY_Community 2]]
-- 1 edge to [[_COMMUNITY_Community 10]]
+- 5 edges to [[_COMMUNITY_Community 56]]
+- 3 edges to [[_COMMUNITY_Community 87]]
+- 1 edge to [[_COMMUNITY_Community 24]]
 
 ## Top bridge nodes
-- [[Accumulation Schemes]] - degree 36, connects to 17 communities
-- [[Halo Infinite]] - degree 5, connects to 4 communities
-- [[Proof-Carrying Data from Accumulation Schemes (BCMS20)]] - degree 10, connects to 3 communities
-- [[Section 1.3 Construction-Strategy Taxonomy Table]] - degree 5, connects to 3 communities
-- [[Predicate-Efficient SNARK]] - degree 4, connects to 2 communities
+- [[Composite-Order Bilinear Groups]] - degree 7, connects to 2 communities
+- [[Comparing the Pairing Efficiency over Composite-Order and Prime-Order Elliptic Curves]] - degree 6, connects to 2 communities
+- [[Supersingular k=2 curve construction p=hN-1, E y2=x3-x]] - degree 5, connects to 1 community
+- [[SexTNFS for special-form (d-SNFS) characteristic, L_Q(13,(329){13})]] - degree 4, connects to 1 community
+- [[Multi-prime RSA modulus sizing (2-8 primes, extends Lenstra)]] - degree 4, connects to 1 community

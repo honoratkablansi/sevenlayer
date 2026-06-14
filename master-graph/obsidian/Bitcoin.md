@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-63-harvest-now-decrypt-later.pdf"
 type: "document"
-community: "Community 73"
+community: "Community 66"
 location: "Section 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_73
+  - community/Community_66
 ---
 
 # Bitcoin
@@ -19,4 +19,4 @@ tags:
 - [[Pedersen Commitment]] - `assumes` [EXTRACTED]
 - [[Provisions privacy-preserving proof of solvency for Bitcoin exchanges]] - `assumes` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_73
+#graphify/document #graphify/EXTRACTED #community/Community_66

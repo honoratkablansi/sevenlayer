@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch1/ref-12-pasta-curves.md"
 type: "document"
-community: "Community 121"
+community: "Community 91"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_121
+  - community/Community_91
 ---
 
 # Tweedle Curves
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[Pasta Cycle of Elliptic Curves]] - `compares` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_121
+#graphify/document #graphify/EXTRACTED #community/Community_91

@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch3/ref-91-dark-forest-zk-gaming.md"
 type: "document"
-community: "Community 38"
+community: "Community 45"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_38
+  - community/Community_45
 ---
 
 # Dark Forest and zk-gaming ecosystem writeups
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[Recursion References (cited works)]] - `cites` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_38
+#graphify/document #graphify/EXTRACTED #community/Community_45

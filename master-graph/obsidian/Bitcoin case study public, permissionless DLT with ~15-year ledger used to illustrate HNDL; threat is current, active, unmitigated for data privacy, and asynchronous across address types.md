@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-63-harvest-now-decrypt-later.pdf"
 type: "paper"
-community: "Community 96"
+community: "Community 66"
 location: "§4.0; §4.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_96
+  - community/Community_66
 ---
 
 # Bitcoin case study: public, permissionless DLT with ~15-year ledger used to illustrate HNDL; threat is current, active, unmitigated for data privacy, and asynchronous across address types
@@ -16,4 +16,4 @@ tags:
 - [[HNDL poses two primary present threats to Bitcoin revealing confidential encrypted data (data privacy) and stealing funds (theft)]] - `conceptually_related_to` [EXTRACTED]
 - [[Harvest Now Decrypt Later (HNDL)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_96
+#graphify/paper #graphify/EXTRACTED #community/Community_66

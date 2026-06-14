@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch3/ref-53-starkware-recursive-starks.md"
 type: "document"
-community: "Community 102"
+community: "Community 106"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_102
+  - community/Community_106
 ---
 
 # StarkWare, "Recursive STARKs" (2022)
@@ -15,4 +15,4 @@ tags:
 - [[Recursive STARK proving]] - `introduces` [EXTRACTED]
 - [[SHARP (SHARed Prover)]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_102
+#graphify/document #graphify/EXTRACTED #community/Community_106

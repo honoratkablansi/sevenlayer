@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf"
 type: "paper"
-community: "Community 2"
+community: "Community 6"
 location: "§4 Def. 8"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_2
+  - community/Community_6
 ---
 
 # SNARK / SNARG verifiable-computation primitive (Def. 8) used to make Verify succinct
@@ -17,4 +17,4 @@ tags:
 - [[Recursive Proof Composition]] - `assumes` [INFERRED]
 - [[VDF_VC simpler VDF from verifiable computation (log N parallel SNARGs over geometric segments), σ(t)=(1−ε)t (Theorem 2, added May 2019)]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_2
+#graphify/paper #graphify/EXTRACTED #community/Community_6

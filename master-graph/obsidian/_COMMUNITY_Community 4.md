@@ -1,60 +1,67 @@
 ---
 type: community
-cohesion: 0.12
-members: 45
+cohesion: 0.09
+members: 52
 ---
 
 # Community 4
 
-**Cohesion:** 0.12 - loosely connected
-**Members:** 45 nodes
+**Cohesion:** 0.09 - loosely connected
+**Members:** 52 nodes
 
 ## Members
-- [[4x4 Sudoku Running Example]] - document - proving-nothing.md
-- [[AIR (Algebraic Intermediate Representation)]] - document - proving-nothing.md
-- [[Arithmetization]] - document - proving-nothing.md
-- [[Avoiding preprocessing for uniform CCS (AIR) verifier evaluates wiring MLEs M_j in log time]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
-- [[Binius (Binary Tower Fields)]] - document - proving-nothing.md
-- [[CCS (Customizable Constraint Systems)]] - document - proving-nothing.md
-- [[CCS formal definition matrices M_j, multisets S_i, constants c_i, sum c_i · Hadamard_{j in S_i} (M_j z) = 0]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
-- [[CCS+ CCS extended with read-only lookup-table operations]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
-- [[CCS The Rosetta Stone]] - document - wiki/sections/ch05-ccs-the-rosetta-stone.md
-- [[Claim R1CS, AIR, PLONKish Are Dialects of CCS]] - document - proving-nothing.md
-- [[Constraint System]] - document - proving-nothing.md
-- [[Encoding the Performance]] - document - wiki/chapters/05-encoding-the-performance.md
-- [[Encoding the Performance (Layer 4 Arithmetization)]] - document - proving-nothing.md
-- [[Free addition gates for uniform CCS prover crypto work independent of additions]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
-- [[Grand Product Check]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
-- [[Hyrax polynomial commitment]] - document - proving-nothing.md
-- [[Jolt (zkVM via Lookups)]] - document - proving-nothing.md
-- [[Layer 4 -- Arithmetization]] - document - wiki/sections/ch05-layer-4-arithmetization.md
-- [[Lemma 2 Plonkish-to-CCS reduction; multisets encode monomials of g]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
-- [[Lemma 3 AIR-to-CCS reduction; constraint g applied to adjacent trace rows]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
-- [[LogUp]] - document - proving-nothing.md
-- [[Lookup Argument]] - document - proving-nothing.md
-- [[Midnight ZKIR (24-Opcode Instruction DAG)]] - document - proving-nothing.md
-- [[Offline Memory Checking  Algebraic RAM Reduction]] - document - wiki/sections/ch04-witness-generation-costs.md
-- [[PLONK GWC19 - proof system Plonkish was believed tied to]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
-- [[PLONKish Arithmetization]] - document - proving-nothing.md
-- [[Plookup]] - document - proving-nothing.md
-- [[Proof Core Layers 4-5-6 Inseparable]] - document - proving-nothing.md
-- [[SIMD CCS  data-parallel CCS with log-time IO consistency via next() MLE]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
-- [[Schwartz-Zippel Lemma]] - document - proving-nothing.md
-- [[Setty, Thaler, Wahby - CCS Paper (2023)]] - document - proving-nothing.md
-- [[Setty, Thaler, Wahby, Customizable Constraint Systems (ePrint 2023552)]] - document - recursion/recursion-outline.md
-- [[Sparse Polynomial Commitment]] - paper - references/ch03/ref-15-lasso.pdf
-- [[SuperSpartan]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
-- [[The Constraint System Evolution R1CS, AIR, PLONKish]] - document - wiki/sections/ch05-the-constraint-system-evolution-r1cs-air-plonkish.md
-- [[The Overhead Tax 10,000x to 50,000x]] - document - wiki/sections/ch05-the-overhead-tax-10-000x-to-50-000x.md
-- [[The Proof Core Triad (Layers 4-5-6)]] - document - proving-nothing.md
-- [[The Seven-Layer ZK Stack Model]] - document - proving-nothing.md
-- [[The Spreadsheet Metaphor (And Where It Works)]] - document - wiki/sections/ch05-the-spreadsheet-metaphor-and-where-it-works.md
-- [[The Sumcheck Protocol The Hidden Foundation]] - document - wiki/sections/ch05-the-sumcheck-protocol-the-hidden-foundation.md
-- [[Theorem 2 MLE of 'add-1-in-binary' next() function evaluable in logarithmic time]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
-- [[Total Degree (of a Polynomial)]] - paper - references/books/proofs-args-zk.pdf
-- [[Trust-Minimization Thesis (decompose, not eliminate trust)]] - document - proving-nothing.md
-- [[Where the Analogies Break]] - document - wiki/sections/ch05-where-the-analogies-break.md
-- [[Where the Layers Collapse]] - document - wiki/sections/ch05-ccs-the-rosetta-stone.md
+- [[Aztec]] - document - wiki/sections/ch09-open-problems.md
+- [[Chapter 9 Privacy-Enhancing Technologies]] - document - proving-nothing.md
+- [[CirC Compiler Infrastructure for Proof Systems, Software Verification, and More]] - paper - references/ch10/ref-33-circ.pdf
+- [[CirC shared compiler infrastructure for EQCs]] - paper - references/ch10/ref-33-circ.pdf
+- [[Claim Privacy Is a Property of Architecture, Not a Bolt-On]] - document - proving-nothing.md
+- [[Claim ZKPs Are Necessary But Not Sufficient for Privacy]] - document - proving-nothing.md
+- [[Collaborative  Threshold Proving]] - document - proving-nothing.md
+- [[Composability When One PET Is Not Enough]] - document - wiki/sections/ch09-composability-when-one-pet-is-not-enough.md
+- [[Computational Security]] - document - proving-nothing.md
+- [[Differential Privacy (DP)]] - document - proving-nothing.md
+- [[Dinur-Nissim Database Reconstruction Theorem]] - document - proving-nothing.md
+- [[FHE Bootstrapping]] - document - proving-nothing.md
+- [[Fully Homomorphic Encryption (FHE)]] - document - proving-nothing.md
+- [[GDPR]] - document - wiki/sections/ch09-the-regulatory-intersection.md
+- [[GDPR Right to Erasure (Blockchain Immutability Paradox)]] - document - proving-nothing.md
+- [[Garbled Circuits]] - document - proving-nothing.md
+- [[Gentry, 'Fully Homomorphic Encryption Using Ideal Lattices' (STOC 2009)]] - document - proving-nothing.md
+- [[Google RAPPOR]] - document - proving-nothing.md
+- [[Heuristic Security]] - document - proving-nothing.md
+- [[Information-Theoretic Security]] - document - proving-nothing.md
+- [[Intel SGX]] - document - proving-nothing.md
+- [[Kachina]] - document - proving-nothing.md
+- [[Local Differential Privacy]] - document - proving-nothing.md
+- [[Oblivious Transfer]] - document - proving-nothing.md
+- [[Open Problems]] - document - wiki/sections/ch09-open-problems.md
+- [[Privacy Architectures for Smart Contracts Kachina and Zexe]] - document - wiki/sections/ch09-privacy-architectures-for-smart-contracts-kachina-and-zexe.md
+- [[Privacy-Enhancing Technologies]] - document - wiki/chapters/09-privacy-enhancing-technologies.md
+- [[Privacy-Enhancing Technologies (PETs)]] - document - proving-nothing.md
+- [[Private Information Retrieval (PIR)]] - document - wiki/sections/ch09-open-problems.md
+- [[Private Set Intersection (PSI)]] - document - proving-nothing.md
+- [[Private Smart Contracts]] - document - proving-nothing.md
+- [[Real-World Deployments Five Case Studies]] - document - wiki/sections/ch09-real-world-deployments-five-case-studies.md
+- [[SPDZ (Dishonest-Majority MPC)]] - document - proving-nothing.md
+- [[Secure Multi-Party Computation (MPC)]] - document - wiki/chapters/09-privacy-enhancing-technologies.md
+- [[Shamir Secret Sharing]] - document - proving-nothing.md
+- [[TFHE (Torus FHE)]] - document - proving-nothing.md
+- [[The Decision Matrix]] - document - wiki/sections/ch09-the-decision-matrix.md
+- [[The Four Pillars]] - document - wiki/sections/ch09-the-four-pillars.md
+- [[The Incomplete Stack]] - document - wiki/sections/ch09-the-incomplete-stack.md
+- [[The Privacy Stack (Layered PET Composition)]] - document - proving-nothing.md
+- [[The Regulatory Intersection]] - document - wiki/sections/ch09-the-regulatory-intersection.md
+- [[Three Kinds of Security]] - document - wiki/sections/ch09-three-kinds-of-security.md
+- [[Trusted Execution Environment (TEE)]] - document - wiki/chapters/09-privacy-enhancing-technologies.md
+- [[US Census Bureau 2020 TopDown Algorithm]] - document - proving-nothing.md
+- [[Verifiable FHE (zkFHE)]] - document - proving-nothing.md
+- [[Yao's Millionaires' Problem]] - document - proving-nothing.md
+- [[Yao, 'Protocols for Secure Computations' (FOCS 1982)]] - document - proving-nothing.md
+- [[Zama Confidential Blockchain Protocol]] - document - proving-nothing.md
+- [[Zero-Knowledge Proofs (ZKPs)]] - document - proving-nothing.md
+- [[Zexe]] - document - proving-nothing.md
+- [[eIDAS 2.0]] - document - wiki/sections/ch09-the-regulatory-intersection.md
+- [[zKYC (Zero-Knowledge Know Your Customer)]] - document - proving-nothing.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -64,48 +71,34 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 56 edges to [[_COMMUNITY_Community 0]]
-- 38 edges to [[_COMMUNITY_Community 5]]
-- 21 edges to [[_COMMUNITY_Community 24]]
-- 18 edges to [[_COMMUNITY_Community 25]]
-- 17 edges to [[_COMMUNITY_Community 9]]
-- 17 edges to [[_COMMUNITY_Community 10]]
-- 15 edges to [[_COMMUNITY_Community 1]]
-- 15 edges to [[_COMMUNITY_Community 86]]
-- 13 edges to [[_COMMUNITY_Community 17]]
-- 13 edges to [[_COMMUNITY_Community 26]]
-- 11 edges to [[_COMMUNITY_Community 22]]
-- 10 edges to [[_COMMUNITY_Community 23]]
-- 9 edges to [[_COMMUNITY_Community 15]]
-- 9 edges to [[_COMMUNITY_Community 29]]
-- 8 edges to [[_COMMUNITY_Community 11]]
-- 8 edges to [[_COMMUNITY_Community 12]]
-- 6 edges to [[_COMMUNITY_Community 3]]
+- 7 edges to [[_COMMUNITY_Community 0]]
+- 6 edges to [[_COMMUNITY_Community 22]]
+- 6 edges to [[_COMMUNITY_Community 12]]
+- 6 edges to [[_COMMUNITY_Community 16]]
+- 5 edges to [[_COMMUNITY_Community 17]]
 - 5 edges to [[_COMMUNITY_Community 41]]
-- 3 edges to [[_COMMUNITY_Community 70]]
-- 3 edges to [[_COMMUNITY_Community 30]]
-- 3 edges to [[_COMMUNITY_Community 6]]
-- 3 edges to [[_COMMUNITY_Community 65]]
-- 2 edges to [[_COMMUNITY_Community 20]]
-- 2 edges to [[_COMMUNITY_Community 51]]
-- 2 edges to [[_COMMUNITY_Community 76]]
-- 2 edges to [[_COMMUNITY_Community 18]]
-- 2 edges to [[_COMMUNITY_Community 19]]
-- 2 edges to [[_COMMUNITY_Community 79]]
-- 1 edge to [[_COMMUNITY_Community 94]]
-- 1 edge to [[_COMMUNITY_Community 67]]
-- 1 edge to [[_COMMUNITY_Community 63]]
-- 1 edge to [[_COMMUNITY_Community 80]]
-- 1 edge to [[_COMMUNITY_Community 14]]
-- 1 edge to [[_COMMUNITY_Community 129]]
-- 1 edge to [[_COMMUNITY_Community 39]]
-- 1 edge to [[_COMMUNITY_Community 72]]
-- 1 edge to [[_COMMUNITY_Community 50]]
-- 1 edge to [[_COMMUNITY_Community 43]]
+- 5 edges to [[_COMMUNITY_Community 25]]
+- 4 edges to [[_COMMUNITY_Community 48]]
+- 4 edges to [[_COMMUNITY_Community 8]]
+- 3 edges to [[_COMMUNITY_Community 57]]
+- 2 edges to [[_COMMUNITY_Community 35]]
+- 2 edges to [[_COMMUNITY_Community 86]]
+- 2 edges to [[_COMMUNITY_Community 15]]
+- 2 edges to [[_COMMUNITY_Community 55]]
+- 2 edges to [[_COMMUNITY_Community 9]]
+- 2 edges to [[_COMMUNITY_Community 11]]
+- 2 edges to [[_COMMUNITY_Community 13]]
+- 1 edge to [[_COMMUNITY_Community 60]]
+- 1 edge to [[_COMMUNITY_Community 18]]
+- 1 edge to [[_COMMUNITY_Community 2]]
+- 1 edge to [[_COMMUNITY_Community 29]]
+- 1 edge to [[_COMMUNITY_Community 61]]
+- 1 edge to [[_COMMUNITY_Community 20]]
+- 1 edge to [[_COMMUNITY_Community 1]]
 
 ## Top bridge nodes
-- [[Lookup Argument]] - degree 57, connects to 21 communities
-- [[Encoding the Performance]] - degree 61, connects to 18 communities
-- [[CCS (Customizable Constraint Systems)]] - degree 49, connects to 15 communities
-- [[The Overhead Tax 10,000x to 50,000x]] - degree 35, connects to 14 communities
-- [[The Sumcheck Protocol The Hidden Foundation]] - degree 23, connects to 12 communities
+- [[Privacy-Enhancing Technologies]] - degree 35, connects to 8 communities
+- [[Secure Multi-Party Computation (MPC)]] - degree 27, connects to 6 communities
+- [[eIDAS 2.0]] - degree 13, connects to 5 communities
+- [[CirC Compiler Infrastructure for Proof Systems, Software Verification, and More]] - degree 8, connects to 5 communities
+- [[Private Smart Contracts]] - degree 9, connects to 4 communities

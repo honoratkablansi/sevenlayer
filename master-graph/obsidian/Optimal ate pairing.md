@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-51-pairing-efficiency-curves.pdf"
 type: "paper"
-community: "Community 16"
+community: "Community 49"
 location: "§4.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_16
+  - community/Community_49
 ---
 
 # Optimal ate pairing
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Optimal ate pairing operation count on BN curve (Alg.1)]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_16
+#graphify/paper #graphify/EXTRACTED #community/Community_49

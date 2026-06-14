@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-70-zkcnn.pdf"
 type: "paper"
-community: "Community 3"
+community: "Community 114"
 location: "§4.2.1 (Eq 13)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_3
+  - community/Community_114
 ---
 
 # Generalized addition/multiplication gates (fan-in > 2 and inner products in a single sum-check)
@@ -17,4 +17,4 @@ tags:
 - [[Generalized gates taking inputs from arbitrary layers (witness wired directly to convFC layers) with no prover overhead]] - `conceptually_related_to` [EXTRACTED]
 - [[zkCNN Zero Knowledge Proofs for CNN Predictions and Accuracy (CCS 2021)]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_3
+#graphify/paper #graphify/EXTRACTED #community/Community_114

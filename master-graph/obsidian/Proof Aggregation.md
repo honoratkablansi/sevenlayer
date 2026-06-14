@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 102"
+community: "Community 106"
 location: "Chapter 8"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_102
+  - community/Community_106
 ---
 
 # Proof Aggregation
@@ -41,4 +41,4 @@ tags:
 - [[zkTLS  zkEmail web and email provenance]] - `conceptually_related_to` [EXTRACTED]
 - [[zkTree zero-knowledge recursion tree with ZKP membership proofs]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_102
+#graphify/document #graphify/EXTRACTED #community/Community_106

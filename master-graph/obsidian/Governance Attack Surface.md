@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 117"
+community: "Community 8"
 location: "Chapter 8"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_117
+  - community/Community_8
 ---
 
 # Governance Attack Surface
@@ -20,4 +20,4 @@ tags:
 - [[Upgradeable Proxy Pattern]] - `conceptually_related_to` [EXTRACTED]
 - [[Verifier Ossification  Immutability]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_117
+#graphify/document #graphify/EXTRACTED #community/Community_8

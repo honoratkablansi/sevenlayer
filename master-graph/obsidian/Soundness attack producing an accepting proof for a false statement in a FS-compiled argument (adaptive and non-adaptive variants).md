@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-11-khovratovich-fiat-shamir-attacks.pdf"
 type: "paper"
-community: "Community 126"
+community: "Community 5"
 location: "Abstract, §3, §4"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_126
+  - community/Community_5
 ---
 
 # Soundness attack: producing an accepting proof for a false statement in a FS-compiled argument (adaptive and non-adaptive variants)
@@ -25,4 +25,4 @@ tags:
 - [[Two-stage forged-proof construction run honest prover with adversarial u(1)_{i-1}U(2)_perp inputs to produce convincing proof for false statement]] - `conceptually_related_to` [EXTRACTED]
 - [[Underconstrained additional R1CS instance-witness pair (u(1)_i, w(1)_i) carried in the old IVC proof]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_126
+#graphify/paper #graphify/EXTRACTED #community/Community_5

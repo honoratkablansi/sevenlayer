@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-10-fractal.pdf"
 type: "paper"
-community: "Community 52"
+community: "Community 74"
 location: "Theorem 1, §1.1(1); §10"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_52
+  - community/Community_74
 ---
 
 # Theorem 1: compiler from any holographic IOP to a preprocessing SNARG, unconditionally secure in the (Q)ROM (zk/PoK preserved)
@@ -19,4 +19,4 @@ tags:
 - [[Random oracle model (non-interactive STARK  NIROP)]] - `assumes` [EXTRACTED]
 - [[Theorem 3 preprocessing zkSNARK for R1CS in the (Q)ROM (FRACTAL) — first efficient post-quantum transparent preprocessing zkSNARK]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_52
+#graphify/paper #graphify/EXTRACTED #community/Community_74

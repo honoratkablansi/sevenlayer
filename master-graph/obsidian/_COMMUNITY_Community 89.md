@@ -1,30 +1,30 @@
 ---
 type: community
-cohesion: 0.23
+cohesion: 0.18
 members: 15
 ---
 
 # Community 89
 
-**Cohesion:** 0.23 - loosely connected
+**Cohesion:** 0.18 - loosely connected
 **Members:** 15 nodes
 
 ## Members
-- [[Digital Identity]] - document - references/ch13/ref-60-eidas-2-regulation.pdf
-- [[Electronic Identification (eID)]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
-- [[NFC ID credential self-custodial credential derived locally from ICAO-compliant NFC passportsnational IDs to prove attributes (age, nationality) without uploading ID data]] - paper - references/ch13/ref-59-world-whitepaper.pdf
-- [[Nullifier]] - document - proving-nothing.md
-- [[PoH authentication unlinkable pseudonymity via self-custody + ZKP against a public registry, plus a person-bound second factor (Face Auth) with periodic reauthentication]] - paper - references/ch13/ref-59-world-whitepaper.pdf
-- [[Proof of Human (PoH) private primitive establishing a party is a real, unique human (or agent acting on a human's behalf)]] - paper - references/ch13/ref-59-world-whitepaper.pdf
-- [[Proof of Personhood]] - document - proving-nothing.md
-- [[Semaphore set registration zk-SNARK privacy layer; smart contract on Ethereum holding a Merkle set of Poseidon (BN254) hashes of World ID secrets, bridged to other chains]] - paper - references/ch13/ref-59-world-whitepaper.pdf
-- [[Semaphore generic open-source zk-SNARK group-membership and signaling protocol for Ethereum (Groth16-verifiable)]] - paper - references/ch13/ref-59-world-whitepaper.pdf
-- [[World Chain human-centered financial layer implemented as an OP Stack  Superchain layer-2 on Ethereum with human-based transaction prioritization]] - paper - references/ch13/ref-59-world-whitepaper.pdf
-- [[World ID]] - document - references/ch13/ref-59-world-whitepaper.pdf
-- [[World ID open-source decentralized privacy-preserving digital identity issuing unlinkable proofs (Proof of Human, Age, Country) via personal custody, AMPC and ZKPs]] - paper - references/ch13/ref-59-world-whitepaper.pdf
-- [[World Network real human network with five core technologies (World ID, Orb, World App, World Chain, WLD) for Proof of Human plus a financial layer]] - paper - references/ch13/ref-59-world-whitepaper.pdf
-- [[World Whitepapers (World Network Proof of Human)]] - paper - references/ch13/ref-59-world-whitepaper.pdf
-- [[Worldcoin (WLD) ERC-20 native token, 10B initial cap, =60% target to verified humans as user tokens, governanceone-person-one-vote, =1.5% inflation only after 15 years]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[Cost claim all committed field elements are 'small' in {0,...,max(m,N{1c},q)-1}, enabling ~1 group opelement via Pippenger MSM]] - paper - references/ch03/ref-15-lasso.pdf
+- [[GeneralizedLasso lookup argument for any MLElow-degree-structured table via the sparse-dense sum-check protocol]] - paper - references/ch03/ref-15-lasso.pdf
+- [[Indexed lookup argument (commit to value vector a and index vector b, prove a_i = tb_i)]] - paper - references/ch03/ref-15-lasso.pdf
+- [[Lasso lookup argument for SOSsmall tables, prover commits to 3cm + c·N{1c} small field elements]] - paper - references/ch03/ref-15-lasso.pdf
+- [[Lookup Singularity]] - document - proving-nothing.md
+- [[Lookup singularity & companion paper Jolt replace each VM (RISC-V) instruction with one lookup into a 2128-size decomposable table]] - paper - references/ch03/ref-15-lasso.pdf
+- [[MLE-structured table multilinear extension of the table is evaluable in O(log N) time, so no party commits to it]] - paper - references/ch03/ref-15-lasso.pdf
+- [[Multilinear polynomial commitment scheme (MSM-based or hash-based)]] - paper - references/ch03/ref-15-lasso.pdf
+- [[Prior lookup arguments plookup GW20b, Halo2 BGH20, cq EFG22, Caulk ZBK+22, flookup GK22, Baloo ZGK+22, log-derivative lookups]] - paper - references/ch03/ref-15-lasso.pdf
+- [[SOS  decomposable table Tr = g(T_1r_1,...,T_alphar_c) with alpha=kc MLE-structured sub-tables of size N{1c}]] - paper - references/ch03/ref-15-lasso.pdf
+- [[Sona transparent multilinear PCS (BabyHyrax + Nova) with O(1) commit size, O(1) verify, O(sqrt(N)) crypto eval-proof work]] - paper - references/ch03/ref-15-lasso.pdf
+- [[Sparse-dense sum-check protocol reduces lookups into any MLE-structured table to lookups into a decomposable table]] - paper - references/ch03/ref-15-lasso.pdf
+- [[Surge generalization of Spark proving inner product of an m-sparse committed vector with any decomposable (SOS) dense table]] - paper - references/ch03/ref-15-lasso.pdf
+- [[Theorem 3 Surge polynomial IOP is complete and knowledge-sound for proving sum_y M~(r,y)·Ty=v with soundness O((m+N{1c})F)]] - paper - references/ch03/ref-15-lasso.pdf
+- [[Unlocking the Lookup Singularity with Lasso]] - paper - references/ch03/ref-15-lasso.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -34,17 +34,18 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 5 edges to [[_COMMUNITY_Community 97]]
-- 4 edges to [[_COMMUNITY_Community 48]]
-- 3 edges to [[_COMMUNITY_Community 20]]
-- 3 edges to [[_COMMUNITY_Community 36]]
-- 1 edge to [[_COMMUNITY_Community 10]]
-- 1 edge to [[_COMMUNITY_Community 86]]
-- 1 edge to [[_COMMUNITY_Community 5]]
+- 5 edges to [[_COMMUNITY_Community 2]]
+- 3 edges to [[_COMMUNITY_Community 80]]
+- 2 edges to [[_COMMUNITY_Community 31]]
+- 1 edge to [[_COMMUNITY_Community 21]]
+- 1 edge to [[_COMMUNITY_Community 13]]
+- 1 edge to [[_COMMUNITY_Community 85]]
+- 1 edge to [[_COMMUNITY_Community 27]]
+- 1 edge to [[_COMMUNITY_Community 28]]
 
 ## Top bridge nodes
-- [[Proof of Personhood]] - degree 10, connects to 2 communities
-- [[World Whitepapers (World Network Proof of Human)]] - degree 6, connects to 2 communities
-- [[Nullifier]] - degree 4, connects to 2 communities
-- [[Digital Identity]] - degree 8, connects to 1 community
-- [[World ID open-source decentralized privacy-preserving digital identity issuing unlinkable proofs (Proof of Human, Age, Country) via personal custody, AMPC and ZKPs]] - degree 8, connects to 1 community
+- [[Unlocking the Lookup Singularity with Lasso]] - degree 10, connects to 4 communities
+- [[Lookup Singularity]] - degree 6, connects to 2 communities
+- [[Lasso lookup argument for SOSsmall tables, prover commits to 3cm + c·N{1c} small field elements]] - degree 7, connects to 1 community
+- [[Surge generalization of Spark proving inner product of an m-sparse committed vector with any decomposable (SOS) dense table]] - degree 4, connects to 1 community
+- [[MLE-structured table multilinear extension of the table is evaluable in O(log N) time, so no party commits to it]] - degree 3, connects to 1 community

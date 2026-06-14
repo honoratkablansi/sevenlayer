@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch04-memory-the-binding-constraint.md"
 type: "document"
-community: "Community 86"
+community: "Community 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_86
+  - community/Community_1
 ---
 
 # Memory: The Binding Constraint
@@ -26,4 +26,4 @@ tags:
 - [[Witness Generation Costs]] - `references` [EXTRACTED]
 - [[ZKPOG (GPU Witness Acceleration)]] - `cites` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_86
+#graphify/document #graphify/EXTRACTED #community/Community_1

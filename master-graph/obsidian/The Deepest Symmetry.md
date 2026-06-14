@@ -1,12 +1,12 @@
 ---
 source_file: "wiki/sections/ch08-the-deepest-symmetry.md"
 type: "document"
-community: "Community 11"
+community: "Community 35"
 location: "The Deepest Symmetry"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_11
+  - community/Community_35
 ---
 
 # The Deepest Symmetry
@@ -21,4 +21,4 @@ tags:
 - [[The Structured Reference String]] - `references` [EXTRACTED]
 - [[Trusted Setup Ceremony]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_11
+#graphify/document #graphify/EXTRACTED #community/Community_35

@@ -1,12 +1,12 @@
 ---
 source_file: "references/books/proofs-args-zk.pdf"
 type: "paper"
-community: "Community 22"
+community: "Community 23"
 location: "SNARK Composition, Recursion, and Taxonomy"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_22
+  - community/Community_23
 ---
 
 # Iterative / Incremental Computation (F^(i)(x))
@@ -15,4 +15,4 @@ tags:
 - [[Incrementally Verifiable Computation (IVC)]] - `generalizes` [EXTRACTED]
 - [[SNARK Composition (Proof Composition)]] - `enables` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_22
+#graphify/paper #graphify/EXTRACTED #community/Community_23

@@ -1,38 +1,40 @@
 ---
 type: community
-cohesion: 0.13
-members: 23
+cohesion: 0.08
+members: 25
 ---
 
 # Community 45
 
-**Cohesion:** 0.13 - loosely connected
-**Members:** 23 nodes
+**Cohesion:** 0.08 - loosely connected
+**Members:** 25 nodes
 
 ## Members
-- [[2016 Ethereum Shanghai  EIP-150 underpriced-opcode DoS precedent]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Amplified finality-delay attack (1.45x-2.73x over direct L1 blob-stuffing)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[DA Marketplace (Celestia, EigenDA, Avail)]] - document - proving-nothing.md
-- [[DA-saturation DoS sustained L2 liveness halt at 0.8-2.7 ETHhour]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[DA-saturation attack (data-heavy compute-light tx flooding L1 blob capacity)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Data Availability]] - document - proving-nothing.md
-- [[Diamandis et al. multidimensional blockchain fee markets 19]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Direct economic damage attack (drains rollup vault via Ctx amortization, $11,172h on Scroll)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[EIP-1559 base-fee mechanism]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Empirical evaluation on Scroll, Linea, zkSync Era, Arbitrum, Optimism, Base]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Generic rollup cost model Txfee = L2fee + L1fee (rho_blob, Scalar_blob, Ctx, Stx)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[L2 EIP-1559-style DA pricing with L1-fee floor (DA-saturation mitigation)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[LazyLedger (Al-Bassam, 2019)]] - document - proving-nothing.md
-- [[Multi-dimensional TFM (matrix Ax over gasDAprovingfixed; adaptive per-resource pricing)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Reactive mitigations tx size limits, dynamic fee scalars, aggressive tx filtering]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Responsible disclosure all rollups vulnerable, 4 bug bounties, mitigations adopted]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Rollup multi-dimensional TFM (L2 gas + L1 DA + settlementverification)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Roughgarden TFM design  EIP-1559 incentive-compatibility 47,48]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Shared-DA multi-tenant risk attack on one rollup cascades across DA-layer tenants]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Threat model budget-bounded L2 user; liveness, finality, economic-safety objectives]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Transaction Fee Mechanisms (TFM)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Unaligned Incentives Pricing Attacks Against Blockchain Rollups]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Unaligned-incentives thesis cross-dimension mispricing yields novel attacks]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[BEATS Batch ECDSA Transaction verification Scheme  Scalable batch verification of ECDSA for blockchain using IVC (Fr]] - document - references/recursion/ch1/ref-24-beats-batch-ecdsa.md
+- [[Academic literature on end-to-end verifiable voting with zero-knowledge tallies]] - document - references/recursion/ch3/ref-60-verifiable-voting-zk-tallies.md
+- [[Aligned Layer, The Year of zkVM Real-Time Proving (2025)  prover-market analyses]] - document - references/recursion/ch1/ref-35-aligned-year-of-zkvm-realtime.md
+- [[Chase, Lysyanskaya, Delegatable Anonymous Credentials lineage (CRYPTO 2009 onward)]] - document - references/recursion/ch3/ref-82-chase-lysyanskaya-delegatable-credentials.md
+- [[Chiesa, Tromer, Proof-Carrying Data and Hearsay Arguments from Signature Cards (ICS 2010)]] - document - references/recursion/ch1/ref-04-chiesa-tromer-pcd-hearsay.md
+- [[Dark Forest and zk-gaming ecosystem writeups]] - document - references/recursion/ch3/ref-91-dark-forest-zk-gaming.md
+- [[EZKL benchmarks (monolithic zkML inference baseline)]] - document - references/recursion/ch3/ref-93-ezkl-monolithic-benchmarks.md
+- [[Fiat, Shamir, How to Prove Yourself Practical Solutions to Identification and Signature Problems (CRYPTO 1986)]] - document - references/recursion/ch2/ref-40-fiat-shamir.md
+- [[IVC streaming computation literature]] - document - references/recursion/ch3/ref-76-ivc-streaming-literature.md
+- [[Khovratovich, Maller, Tiwari et al., MinRoot VDF candidate (2022)]] - document - references/recursion/ch2/ref-42-minroot-vdf.md
+- [[Mina Pickles technical documentation]] - document - references/recursion/ch2/ref-49-mina-pickles-docs.md
+- [[Mina, Hazook recursive zkRollup design (2024)]] - document - references/recursion/ch1/ref-25-mina-hazook.md
+- [[Nova-based zkML folding literature]] - document - references/recursion/ch3/ref-71-nova-zkml-folding.md
+- [[Pedersen, Non-Interactive and Information-Theoretic Secure Verifiable Secret Sharing (CRYPTO 1991)]] - document - references/recursion/ch2/ref-39-pedersen-commitments.md
+- [[Practitioner literature on recursive ZK circuit design (e.g., zkDev, Designing Efficient Recursive ZK Circuits, 2026)]] - document - references/recursion/ch1/ref-29-zkdev-recursive-circuits.md
+- [[Published IVC flight-control benchmark work (real-time high-integrity flight control via recursive SNARKs)]] - document - references/recursion/ch3/ref-67-ivc-flight-control-benchmark.md
+- [[RISC Zero, Continuations  Using Continuations to Prove Any EVM Transaction (2023)]] - document - references/recursion/ch1/ref-23-risc-zero-continuations.md
+- [[Recursion References (cited works)]] - document - references/recursion/manifest.json
+- [[Reproducible-builds literature]] - document - references/recursion/ch3/ref-64-reproducible-builds-literature.md
+- [[Research literature on SNARK-backed transparency logs and verifiable log-structured storage]] - document - references/recursion/ch3/ref-66-snark-backed-transparency-logs.md
+- [[Sonobe library documentation (PSE0xPARC)]] - document - references/recursion/ch2/ref-48-sonobe.md
+- [[State-channel literature]] - document - references/recursion/ch3/ref-92-state-channel-literature.md
+- [[Subsequent verifiable-database and zk-analytics literature]] - document - references/recursion/ch3/ref-74-verifiable-database-zk-analytics.md
+- [[Succinct, Real-Time Proving with 16 GPUs (2026)]] - document - references/recursion/ch1/ref-34-succinct-16-gpus.md
+- [[Valiant, Incrementally Verifiable Computation, or Proofs of Knowledge Imply TimeSpace Efficiency (TCC 2008)]] - document - references/recursion/ch1/ref-01-valiant-ivc.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -40,20 +42,3 @@ members: 23
 TABLE source_file, type FROM #community/Community_45
 SORT file.name ASC
 ```
-
-## Connections to other communities
-- 5 edges to [[_COMMUNITY_Community 61]]
-- 4 edges to [[_COMMUNITY_Community 78]]
-- 2 edges to [[_COMMUNITY_Community 101]]
-- 2 edges to [[_COMMUNITY_Community 35]]
-- 2 edges to [[_COMMUNITY_Community 135]]
-- 1 edge to [[_COMMUNITY_Community 41]]
-- 1 edge to [[_COMMUNITY_Community 138]]
-- 1 edge to [[_COMMUNITY_Community 117]]
-
-## Top bridge nodes
-- [[Data Availability]] - degree 13, connects to 5 communities
-- [[Unaligned Incentives Pricing Attacks Against Blockchain Rollups]] - degree 12, connects to 5 communities
-- [[EIP-1559 base-fee mechanism]] - degree 5, connects to 1 community
-- [[Unaligned-incentives thesis cross-dimension mispricing yields novel attacks]] - degree 5, connects to 1 community
-- [[Empirical evaluation on Scroll, Linea, zkSync Era, Arbitrum, Optimism, Base]] - degree 4, connects to 1 community

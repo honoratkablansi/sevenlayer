@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-46-zk-memory-algebraic-proofs.pdf"
 type: "paper"
-community: "Community 6"
+community: "Community 100"
 location: "§3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_6
+  - community/Community_100
 ---
 
 # Algebraic Interactive Proof (AIP): public-coin IP with arithmetic-circuit verifier
@@ -16,4 +16,4 @@ tags:
 - [[Volatile and Persistent Memory for zkSNARKs via Algebraic Interactive Proofs]] - `defines` [EXTRACTED]
 - [[zkSNARK]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_6
+#graphify/paper #graphify/EXTRACTED #community/Community_100

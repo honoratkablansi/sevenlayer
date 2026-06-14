@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch3/ref-79-c2pa-specification.md"
 type: "document"
-community: "Community 123"
+community: "Community 119"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_123
+  - community/Community_119
 ---
 
 # Content Credentials trust model (X.509 signers)
@@ -15,4 +15,4 @@ tags:
 - [[Certificate Transparency]] - `conceptually_related_to` [INFERRED]
 - [[Media provenance]] - `explains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_123
+#graphify/document #graphify/EXTRACTED #community/Community_119

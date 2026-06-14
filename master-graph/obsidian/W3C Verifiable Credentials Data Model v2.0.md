@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch3/ref-84-w3c-verifiable-credentials.md"
 type: "document"
-community: "Community 48"
+community: "Community 86"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_48
+  - community/Community_86
 ---
 
 # W3C Verifiable Credentials Data Model v2.0
@@ -19,4 +19,4 @@ tags:
 - [[ZKPassport  Anon-Aadhaar document-proof systems]] - `conceptually_related_to` [INFERRED]
 - [[Zero-knowledge proofs in verifiable credentials]] - `explains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_48
+#graphify/document #graphify/EXTRACTED #community/Community_86

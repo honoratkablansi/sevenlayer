@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-33-circ.pdf"
 type: "paper"
-community: "Community 56"
+community: "Community 57"
 location: "§7.3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_56
+  - community/Community_57
 ---
 
 # Automated find-and-prove-bug pipeline (SMT + ZKP)
@@ -16,4 +16,4 @@ tags:
 - [[CirC SMT back-end (Z3 Haskell bindings)]] - `shares_data_with` [EXTRACTED]
 - [[Zero-knowledge proof system]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_56
+#graphify/paper #graphify/EXTRACTED #community/Community_57

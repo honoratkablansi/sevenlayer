@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch04-the-disclose-boundary-midnight-s-witness-architecture.md"
 type: "document"
-community: "Community 5"
+community: "Community 17"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_5
+  - community/Community_17
 ---
 
 # The Disclose Boundary: Midnight's Witness Architecture
@@ -33,4 +33,4 @@ tags:
 - [[ZK Identity (Growth  Regulatory Mandate)]] - `references` [EXTRACTED]
 - [[ZKIR (Zero-Knowledge Intermediate Representation)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_5
+#graphify/document #graphify/EXTRACTED #community/Community_17

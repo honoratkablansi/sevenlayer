@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch01/ref-02-gmr-knowledge-complexity.pdf"
 type: "paper"
-community: "Community 72"
+community: "Community 40"
 location: "abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_72
+  - community/Community_40
 ---
 
 # Computational Soundness
@@ -16,4 +16,4 @@ tags:
 - [[Soundness]] - `special_case_of` [EXTRACTED]
 - [[Zero-Knowledge Proof]] - `relates_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_72
+#graphify/paper #graphify/EXTRACTED #community/Community_40

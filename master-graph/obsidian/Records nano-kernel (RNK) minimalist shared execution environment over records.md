@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-90-zexe.pdf"
 type: "paper"
-community: "Community 6"
+community: "Community 55"
 location: "§2.3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_6
+  - community/Community_55
 ---
 
 # Records nano-kernel (RNK): minimalist shared execution environment over records
@@ -19,4 +19,4 @@ tags:
 - [[Record (commitment, address pk, payload, birthdeath predicate, serial number)]] - `defines` [EXTRACTED]
 - [[Zexe a ledger-based system for decentralized private computation]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_6
+#graphify/paper #graphify/EXTRACTED #community/Community_55

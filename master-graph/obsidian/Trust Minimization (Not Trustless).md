@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 117"
+community: "Community 8"
 location: "Chapter 8"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_117
+  - community/Community_8
 ---
 
 # Trust Minimization (Not Trustless)
@@ -16,4 +16,4 @@ tags:
 - [[Layer 7 -- The Verdict]] - `explains` [EXTRACTED]
 - [[Trusted Setup Ceremony]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_117
+#graphify/document #graphify/EXTRACTED #community/Community_8

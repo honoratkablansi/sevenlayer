@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch3/ref-67-ivc-flight-control-benchmark.md"
 type: "document"
-community: "Community 38"
+community: "Community 45"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_38
+  - community/Community_45
 ---
 
 # Published IVC flight-control benchmark work (real-time high-integrity flight control via recursive SNARKs)
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[Recursion References (cited works)]] - `cites` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_38
+#graphify/document #graphify/EXTRACTED #community/Community_45

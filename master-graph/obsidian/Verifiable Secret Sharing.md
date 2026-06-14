@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-04-kzg-commitments.pdf"
 type: "document"
-community: "Community 57"
+community: "Community 58"
 location: "Section 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_57
+  - community/Community_58
 ---
 
 # Verifiable Secret Sharing
@@ -17,4 +17,4 @@ tags:
 - [[Polynomial Commitment Scheme]] - `relates_to` [EXTRACTED]
 - [[eVSS Efficient Feldman VSS]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_57
+#graphify/document #graphify/EXTRACTED #community/Community_58

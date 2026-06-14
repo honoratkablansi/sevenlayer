@@ -1,35 +1,35 @@
 ---
 type: community
-cohesion: 0.15
+cohesion: 0.13
 members: 20
 ---
 
 # Community 62
 
-**Cohesion:** 0.15 - loosely connected
+**Cohesion:** 0.13 - loosely connected
 **Members:** 20 nodes
 
 ## Members
-- [[ASDGP Auxiliary Structured Double Group Pairing assumption]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
-- [[ASSGP Auxiliary Structured Single Group Pairing assumption]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
-- [[Bootle et al. BCC+16 Bulletproofs split-and-collapse strategy]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
-- [[Bowe et al. BCG+20 Zexe recursive composition]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
-- [[Bunz et al. BMM+19 Proofs for Inner Pairing Products]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
-- [[Daza, Rafols, Zacharakis DRZ20 updateable IPP with log verifier]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
-- [[Doubly-homomorphic collapsing commitment]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
-- [[Filecoin Proof-of-Space application (BLS12-381, Rust bellperson)]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
-- [[Groth Gro16 On the size of pairing-based non-interactive arguments]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
-- [[Inner pairing product argument (IPP)]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
-- [[Lai, Malavolta, Ronge LMR19 succinct arguments for bilinear group arithmetic]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
-- [[Logarithmic-size proof and log-time verifier]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
-- [[MIPP Multi-exponentiation Inner Product argument]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
-- [[MT-IPP merged MIPP+TIPP argument]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
-- [[Non-recursive (pairing-based) aggregation vs recursive composition]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
-- [[Pair Group Commitment schemes (CMs single  CMd double group)]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
-- [[SNARK proof aggregation]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
-- [[SnarkPack Practical SNARK Aggregation]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
-- [[TIPP Target Inner Pairing Product argument]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
-- [[Theorem 3 MT-IPP completeness and knowledge soundness]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
+- [[Build integrity and artifact verification]] - document - references/recursion/ch3/ref-63-slsa-intoto-frameworks.md
+- [[C2PA Manifest]] - document - references/recursion/ch3/ref-79-c2pa-specification.md
+- [[C2PA assertions and claims]] - document - references/recursion/ch3/ref-79-c2pa-specification.md
+- [[Component inventory and dependency relationships]] - document - references/recursion/ch3/ref-62-ntia-cisa-sbom-minimum-elements.md
+- [[Executive Order 14028 on Improving the Nation's Cybersecurity]] - document - references/recursion/ch3/ref-62-ntia-cisa-sbom-minimum-elements.md
+- [[Hard and soft binding to content]] - document - references/recursion/ch3/ref-79-c2pa-specification.md
+- [[NTIA Minimum Elements for a Software Bill of Materials (SBOM)]] - document - references/recursion/ch3/ref-62-ntia-cisa-sbom-minimum-elements.md
+- [[Provenance attestation]] - document - references/recursion/ch3/ref-63-slsa-intoto-frameworks.md
+- [[Prover markets  recursion as infrastructure]] - document - recursion/recursion-outline.md
+- [[SBOM verification as PCD instance]] - document - recursion/recursion-outline.md
+- [[SLSA (Supply-chain Levels for Software Artifacts)]] - document - references/recursion/ch3/ref-63-slsa-intoto-frameworks.md
+- [[SLSA Specification v1.0]] - document - references/recursion/ch3/ref-63-slsa-intoto-frameworks.md
+- [[SLSA security levels]] - document - references/recursion/ch3/ref-63-slsa-intoto-frameworks.md
+- [[Software Bill of Materials (SBOM)]] - document - recursion/recursion-outline.md
+- [[Software supply chain]] - document - recursion/recursion-outline.md
+- [[Software supply-chain transparency]] - document - references/recursion/ch3/ref-62-ntia-cisa-sbom-minimum-elements.md
+- [[VeriSBOM (arXiv 2026)]] - document - recursion/recursion-outline.md
+- [[Verifiable build pipelines  attestation chains]] - document - recursion/recursion-outline.md
+- [[in-toto supply-chain framework]] - document - references/recursion/ch3/ref-63-slsa-intoto-frameworks.md
+- [[in-toto supply-chain integrity via signed step metadata (cited prior work)]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -39,16 +39,17 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 4 edges to [[_COMMUNITY_Community 17]]
-- 3 edges to [[_COMMUNITY_Community 102]]
-- 2 edges to [[_COMMUNITY_Community 8]]
-- 2 edges to [[_COMMUNITY_Community 11]]
-- 2 edges to [[_COMMUNITY_Community 68]]
-- 1 edge to [[_COMMUNITY_Community 41]]
+- 3 edges to [[_COMMUNITY_Community 69]]
+- 2 edges to [[_COMMUNITY_Community 47]]
+- 1 edge to [[_COMMUNITY_Community 36]]
+- 1 edge to [[_COMMUNITY_Community 21]]
+- 1 edge to [[_COMMUNITY_Community 75]]
+- 1 edge to [[_COMMUNITY_Community 119]]
+- 1 edge to [[_COMMUNITY_Community 67]]
 
 ## Top bridge nodes
-- [[SNARK proof aggregation]] - degree 6, connects to 4 communities
-- [[SnarkPack Practical SNARK Aggregation]] - degree 17, connects to 3 communities
-- [[Pair Group Commitment schemes (CMs single  CMd double group)]] - degree 7, connects to 1 community
-- [[MT-IPP merged MIPP+TIPP argument]] - degree 6, connects to 1 community
-- [[Inner pairing product argument (IPP)]] - degree 5, connects to 1 community
+- [[Software supply chain]] - degree 9, connects to 3 communities
+- [[Software Bill of Materials (SBOM)]] - degree 8, connects to 2 communities
+- [[C2PA Manifest]] - degree 3, connects to 1 community
+- [[Software supply-chain transparency]] - degree 3, connects to 1 community
+- [[SBOM verification as PCD instance]] - degree 3, connects to 1 community

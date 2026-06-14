@@ -1,12 +1,12 @@
 ---
 source_file: "references/books/proofs-args-zk.pdf"
 type: "paper"
-community: "Community 12"
+community: "Community 21"
 location: "Succinct Arguments from IPs and MIPs"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_12
+  - community/Community_21
 ---
 
 # Low-Degree Test
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Polynomial Commitment Scheme]] - `uses` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_12
+#graphify/paper #graphify/EXTRACTED #community/Community_21

@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 26"
+community: "Community 89"
 location: "Chapter 5"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_26
+  - community/Community_89
 ---
 
 # Lookup Singularity
@@ -19,4 +19,4 @@ tags:
 - [[SOS  decomposable table Tr = g(T_1r_1,...,T_alphar_c) with alpha=kc MLE-structured sub-tables of size N{1c}]] - `conceptually_related_to` [INFERRED]
 - [[Unlocking the Lookup Singularity with Lasso]] - `introduces` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_26
+#graphify/document #graphify/EXTRACTED #community/Community_89

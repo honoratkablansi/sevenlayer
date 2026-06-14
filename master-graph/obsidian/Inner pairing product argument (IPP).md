@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-33-snarkpack.pdf"
 type: "paper"
-community: "Community 62"
+community: "Community 122"
 location: "§2.1, §5 MT-IPP, Related Work"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_62
+  - community/Community_122
 ---
 
 # Inner pairing product argument (IPP)
@@ -18,4 +18,4 @@ tags:
 - [[SNARK proof aggregation]] - `uses` [EXTRACTED]
 - [[TIPP Target Inner Pairing Product argument]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_62
+#graphify/paper #graphify/EXTRACTED #community/Community_122

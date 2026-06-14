@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 48"
+community: "Community 16"
 location: "Chapter 13"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_48
+  - community/Community_16
 ---
 
 # Privacy Pools (0xbow, prove-innocence-not-identity)
@@ -15,4 +15,4 @@ tags:
 - [[Selective Disclosure]] - `conceptually_related_to` [EXTRACTED]
 - [[ZK Identity]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_48
+#graphify/document #graphify/EXTRACTED #community/Community_16

@@ -1,12 +1,12 @@
 ---
 source_file: "references/snowball/recursion/ref-115-sumcheck-arguments-and-their-applications.pdf"
 type: "paper"
-community: "Community 15"
+community: "Community 32"
 location: "abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_15
+  - community/Community_32
 ---
 
 # Succinct Argument
@@ -32,4 +32,4 @@ tags:
 - [[Verifiable Delay Function]] - `uses` [EXTRACTED]
 - [[Zero-Knowledge Proof]] - `relates_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_15
+#graphify/paper #graphify/EXTRACTED #community/Community_32

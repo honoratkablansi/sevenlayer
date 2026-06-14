@@ -1,12 +1,12 @@
 ---
 source_file: "recursion/recursion-outline.md"
 type: "document"
-community: "Community 55"
+community: "Community 52"
 location: "Recursion Chapter 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_55
+  - community/Community_52
 ---
 
 # Kothapalli, Setty, Tzialla, "Nova" (CRYPTO 2022)
@@ -15,4 +15,4 @@ tags:
 - [[Nova]] - `defines` [EXTRACTED]
 - [[SuperNova (Non-Uniform IVC)]] - `references` [INFERRED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_55
+#graphify/document #graphify/EXTRACTED #community/Community_52

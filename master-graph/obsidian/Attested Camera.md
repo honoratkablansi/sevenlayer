@@ -1,12 +1,12 @@
 ---
 source_file: "references/snowball/book/ref-119-zk-img-attested-images-via-zero-knowledge-proof.pdf"
 type: "paper"
-community: "Community 41"
+community: "Community 36"
 location: "abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_41
+  - community/Community_36
 ---
 
 # Attested Camera
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Image Attestation]] - `uses` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_41
+#graphify/paper #graphify/EXTRACTED #community/Community_36

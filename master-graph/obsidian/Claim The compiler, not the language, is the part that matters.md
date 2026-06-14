@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 115"
+community: "Community 79"
 location: "Chapter 3"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_115
+  - community/Community_79
 ---
 
 # Claim: The compiler, not the language, is the part that matters
@@ -16,4 +16,4 @@ tags:
 - [[Ozdemir, Brown, Wahby, CirC Compiler Infrastructure for Proof Systems, IEEE S&P 2022]] - `cites` [EXTRACTED]
 - [[Six-Step Developer Lifecycle (Write-Compile-Test-Prove-Deploy-Monitor)]] - `explains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_115
+#graphify/document #graphify/EXTRACTED #community/Community_79

@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-59-zkbridge.pdf"
 type: "paper"
-community: "Community 81"
+community: "Community 75"
 location: "title page"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_81
+  - community/Community_75
 ---
 
 # Xie et al., zkBridge: Trustless Cross-chain Bridges Made Practical (CCS 2022)
@@ -20,4 +20,4 @@ tags:
 - [[zk-SNARK]] - `assumes` [EXTRACTED]
 - [[zkBridge trustless cross-chain bridge via succinct proofs of consensus  light-client state transitions]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_81
+#graphify/paper #graphify/EXTRACTED #community/Community_75

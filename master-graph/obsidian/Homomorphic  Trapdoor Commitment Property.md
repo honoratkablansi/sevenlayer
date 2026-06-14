@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-04-kzg-commitments.pdf"
 type: "paper"
-community: "Community 114"
+community: "Community 7"
 location: "§3.4 (Features)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_114
+  - community/Community_7
 ---
 
 # Homomorphic / Trapdoor Commitment Property
@@ -22,4 +22,4 @@ tags:
 - [[Theorem 2 Accumulation Knowledge Soundness (d+1)-special-sound, error (Q+1)(d+1)F]] - `assumes` [EXTRACTED]
 - [[Zero-Knowledge Proof]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_114
+#graphify/paper #graphify/EXTRACTED #community/Community_7

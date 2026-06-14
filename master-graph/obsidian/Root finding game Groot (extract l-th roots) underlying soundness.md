@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-81-wesolowski-vdf.pdf"
 type: "paper"
-community: "Community 2"
+community: "Community 6"
 location: "§6.1 Definitions 6-7"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_2
+  - community/Community_6
 ---
 
 # Root finding game G^root (extract l-th roots) underlying soundness
@@ -16,4 +16,4 @@ tags:
 - [[Groups of unknown order (RSA group, class group of imaginary quadratic field)]] - `assumes` [EXTRACTED]
 - [[Proposition 2 soundness in the random oracle model (reduction to root finding)]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_2
+#graphify/paper #graphify/EXTRACTED #community/Community_6

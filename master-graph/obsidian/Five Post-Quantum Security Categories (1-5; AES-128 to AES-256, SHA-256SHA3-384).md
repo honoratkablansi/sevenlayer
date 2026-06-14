@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch07/ref-26-nist-ir-8547.pdf"
 type: "paper"
-community: "Community 112"
+community: "Community 111"
 location: "§4 Table 1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_112
+  - community/Community_111
 ---
 
 # Five Post-Quantum Security Categories (1-5; AES-128 to AES-256, SHA-256/SHA3-384)
@@ -16,4 +16,4 @@ tags:
 - [[ML-KEM Key-Encapsulation Mechanism]] - `conceptually_related_to` [EXTRACTED]
 - [[Transition to Post-Quantum Cryptography Standards (NIST IR 8547)]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_112
+#graphify/paper #graphify/EXTRACTED #community/Community_111

@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 25"
+community: "Community 37"
 location: "Chapter 6"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_25
+  - community/Community_37
 ---
 
 # CycleFold
@@ -31,4 +31,4 @@ tags:
 - [[Tiny co-processor circuit C_EC on second curve (~1000-1500 gates)]] - `defines` [EXTRACTED]
 - [[Verifiable delegation of scalar multiplication + point addition]] - `introduces` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_25
+#graphify/document #graphify/EXTRACTED #community/Community_37

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-62-lattice-functional-commitments.pdf"
 type: "paper"
-community: "Community 7"
+community: "Community 46"
 location: "§1, §1.2.3, §4"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_7
+  - community/Community_46
 ---
 
 # Knowledge k-R-ISIS Assumption (Albrecht et al. CRYPTO 2022)
@@ -17,4 +17,4 @@ tags:
 - [[Lattice-Based Functional Commitments Fast Verification and Cryptanalysis]] - `cites` [EXTRACTED]
 - [[Oblivious Sampling Cryptanalysis (Babai-rounding attack breaking extractability  knowledge k-R-ISIS plausibility)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_7
+#graphify/paper #graphify/EXTRACTED #community/Community_46

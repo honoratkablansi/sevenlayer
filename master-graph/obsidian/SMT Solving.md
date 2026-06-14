@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch03/ref-12-underconstrained-circuits.pdf"
 type: "document"
-community: "Community 82"
+community: "Community 81"
 location: "abstract"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_82
+  - community/Community_81
 ---
 
 # SMT Solving
@@ -17,4 +17,4 @@ tags:
 - [[SMT Query Procedure (Algorithm 4)]] - `conceptually_related_to` [EXTRACTED]
 - [[Under-Constrained Circuit Bug]] - `relates_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_82
+#graphify/document #graphify/EXTRACTED #community/Community_81

@@ -1,12 +1,12 @@
 ---
 source_file: "references/books/proofs-args-zk.pdf"
 type: "paper"
-community: "Community 12"
+community: "Community 21"
 location: "ZK via Commit-and-Prove and Masking Polynomials"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_12
+  - community/Community_21
 ---
 
 # Zero-Knowledge Sum-Check Protocol
@@ -16,4 +16,4 @@ tags:
 - [[Polynomial Commitment Scheme]] - `uses` [EXTRACTED]
 - [[Sum-Check Protocol]] - `builds_on` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_12
+#graphify/paper #graphify/EXTRACTED #community/Community_21

@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 10"
+community: "Community 99"
 location: "Chapter 11"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_10
+  - community/Community_99
 ---
 
 # SHARP (Shared Prover) aggregation
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Stwo  Cairo (StarkWare)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_10
+#graphify/document #graphify/EXTRACTED #community/Community_99

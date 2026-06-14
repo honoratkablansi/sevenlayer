@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 21"
+community: "Community 4"
 location: "Chapter 9"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_21
+  - community/Community_4
 ---
 
 # Yao, 'Protocols for Secure Computations' (FOCS 1982)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Yao's Millionaires' Problem]] - `cites` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_21
+#graphify/document #graphify/EXTRACTED #community/Community_4

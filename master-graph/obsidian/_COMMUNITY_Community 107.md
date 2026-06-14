@@ -1,26 +1,26 @@
 ---
 type: community
-cohesion: 0.18
+cohesion: 0.22
 members: 11
 ---
 
 # Community 107
 
-**Cohesion:** 0.18 - loosely connected
+**Cohesion:** 0.22 - loosely connected
 **Members:** 11 nodes
 
 ## Members
-- [[Aztec Plonk verifier point-at-infinity bug (zeros forge proofs; backend soundness)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
-- [[Backend-layer vulnerabilities (23 bugs setup error, prover error, unsafe verifier)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
-- [[Circuit-layer vulnerabilities (99 bugs; most prevalent class)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
-- [[ComputationalHints error (wrong witness computation; completenesssoundness)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
-- [[Four-layer SNARK system model (Circuit, Frontend, Backend, Integration)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
-- [[Frontend-layer vulnerabilities (6 bugs incorrect constraint compilation, witness-gen error)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
-- [[Integration-layer vulnerabilities (13 bugs unchecked data, delegation, composition, complementary-logic)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
-- [[Key finding low-level DSLs (Circom, Gnark) are easy-to-misuse, driving most circuit bugs]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
-- [[Over-constrained circuit (rejects valid witnesses, causes DoS)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
-- [[Root cause arithmetic field error (nativetransformed over- and underflows)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
-- [[Semaphore verifier uint256 over snark field bug (integration, breaks completeness)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[Buterin, A rollup-centric ethereum roadmap (2020)]] - document - references/recursion/ch3/ref-54-ethereum-rollup-centric-roadmap.md
+- [[Cross-L2 transfers and interoperability]] - document - references/recursion/ch3/ref-54-ethereum-rollup-centric-roadmap.md
+- [[Danksharding  proto-danksharding (EIP-4844 blobs)]] - document - references/recursion/ch3/ref-56-ethereum-org-zkevm-roadmap.md
+- [[Data availability layer (base layer as DA for rollups)]] - document - references/recursion/ch3/ref-54-ethereum-rollup-centric-roadmap.md
+- [[PeerDAS (peer-to-peer data availability sampling, Fusaka)]] - document - references/recursion/ch3/ref-56-ethereum-org-zkevm-roadmap.md
+- [[Phase 1.5 and done (base layer for consensus and DA only)]] - document - references/recursion/ch3/ref-54-ethereum-rollup-centric-roadmap.md
+- [[Rollup-centric Ethereum scaling roadmap]] - document - references/recursion/ch3/ref-54-ethereum-rollup-centric-roadmap.md
+- [[Sharding dropped in favor of rollup scaling]] - document - references/recursion/ch3/ref-56-ethereum-org-zkevm-roadmap.md
+- [[Single slot finality]] - document - references/recursion/ch3/ref-56-ethereum-org-zkevm-roadmap.md
+- [[Statelessness (stateless clients verify blocks without storing state)]] - document - references/recursion/ch3/ref-56-ethereum-org-zkevm-roadmap.md
+- [[ethereum.org Ethereum roadmap page (zkEVM)]] - document - references/recursion/ch3/ref-56-ethereum-org-zkevm-roadmap.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -30,11 +30,11 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 1 edge to [[_COMMUNITY_Community 95]]
-- 1 edge to [[_COMMUNITY_Community 69]]
-- 1 edge to [[_COMMUNITY_Community 24]]
+- 2 edges to [[_COMMUNITY_Community 60]]
+- 1 edge to [[_COMMUNITY_Community 16]]
+- 1 edge to [[_COMMUNITY_Community 75]]
 
 ## Top bridge nodes
-- [[Circuit-layer vulnerabilities (99 bugs; most prevalent class)]] - degree 6, connects to 1 community
-- [[Four-layer SNARK system model (Circuit, Frontend, Backend, Integration)]] - degree 5, connects to 1 community
-- [[Key finding low-level DSLs (Circom, Gnark) are easy-to-misuse, driving most circuit bugs]] - degree 2, connects to 1 community
+- [[Rollup-centric Ethereum scaling roadmap]] - degree 7, connects to 1 community
+- [[ethereum.org Ethereum roadmap page (zkEVM)]] - degree 6, connects to 1 community
+- [[Cross-L2 transfers and interoperability]] - degree 2, connects to 1 community

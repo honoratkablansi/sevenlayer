@@ -1,25 +1,26 @@
 ---
 type: community
-cohesion: 0.24
-members: 10
+cohesion: 0.18
+members: 11
 ---
 
 # Community 109
 
-**Cohesion:** 0.24 - loosely connected
-**Members:** 10 nodes
+**Cohesion:** 0.18 - loosely connected
+**Members:** 11 nodes
 
 ## Members
-- [[Amdahl's Law]] - document - proving-nothing.md
-- [[Client-Side vs Delegated Proving]] - document - proving-nothing.md
-- [[Four Witness Gaps (Performance, Memory, Security, Correctness)]] - document - proving-nothing.md
-- [[GPU Acceleration of Proving]] - document - proving-nothing.md
-- [[Nair, Thaler, Zhu Streaming Jolt (ePrint 2025611)]] - document - proving-nothing.md
-- [[Q5 Streaming Witness Interaction with Folding]] - document - proving-nothing.md
-- [[Streaming Witness Generation]] - document - proving-nothing.md
-- [[The Hardware Ladder (Privacy as a Luxury Good)]] - document - proving-nothing.md
-- [[The Witness Gap]] - document - proving-nothing.md
-- [[ZKPoG (Li et al., ePrint 2025765)]] - document - proving-nothing.md
+- [[Aztec Plonk verifier point-at-infinity bug (zeros forge proofs; backend soundness)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[Backend-layer vulnerabilities (23 bugs setup error, prover error, unsafe verifier)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[Circuit-layer vulnerabilities (99 bugs; most prevalent class)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[ComputationalHints error (wrong witness computation; completenesssoundness)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[Four-layer SNARK system model (Circuit, Frontend, Backend, Integration)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[Frontend-layer vulnerabilities (6 bugs incorrect constraint compilation, witness-gen error)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[Integration-layer vulnerabilities (13 bugs unchecked data, delegation, composition, complementary-logic)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[Key finding low-level DSLs (Circom, Gnark) are easy-to-misuse, driving most circuit bugs]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[Over-constrained circuit (rejects valid witnesses, causes DoS)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[Root cause arithmetic field error (nativetransformed over- and underflows)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[Semaphore verifier uint256 over snark field bug (integration, breaks completeness)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -29,19 +30,11 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 5 edges to [[_COMMUNITY_Community 86]]
-- 2 edges to [[_COMMUNITY_Community 80]]
-- 1 edge to [[_COMMUNITY_Community 9]]
-- 1 edge to [[_COMMUNITY_Community 116]]
-- 1 edge to [[_COMMUNITY_Community 69]]
-- 1 edge to [[_COMMUNITY_Community 10]]
-- 1 edge to [[_COMMUNITY_Community 0]]
-- 1 edge to [[_COMMUNITY_Community 24]]
-- 1 edge to [[_COMMUNITY_Community 22]]
+- 1 edge to [[_COMMUNITY_Community 98]]
+- 1 edge to [[_COMMUNITY_Community 72]]
+- 1 edge to [[_COMMUNITY_Community 40]]
 
 ## Top bridge nodes
-- [[The Witness Gap]] - degree 10, connects to 5 communities
-- [[Four Witness Gaps (Performance, Memory, Security, Correctness)]] - degree 5, connects to 2 communities
-- [[Streaming Witness Generation]] - degree 5, connects to 2 communities
-- [[Q5 Streaming Witness Interaction with Folding]] - degree 3, connects to 2 communities
-- [[GPU Acceleration of Proving]] - degree 4, connects to 1 community
+- [[Circuit-layer vulnerabilities (99 bugs; most prevalent class)]] - degree 6, connects to 1 community
+- [[Four-layer SNARK system model (Circuit, Frontend, Backend, Integration)]] - degree 5, connects to 1 community
+- [[Key finding low-level DSLs (Circom, Gnark) are easy-to-misuse, driving most circuit bugs]] - degree 2, connects to 1 community

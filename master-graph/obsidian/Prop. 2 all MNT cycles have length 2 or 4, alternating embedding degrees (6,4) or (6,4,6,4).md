@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-13-chiesa-chua-weidner-cycles.pdf"
 type: "paper"
-community: "Community 8"
+community: "Community 24"
 location: "§4, Prop. 2 (Lemmas 5-10)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_8
+  - community/Community_24
 ---
 
 # Prop. 2: all MNT cycles have length 2 or 4, alternating embedding degrees (6,4) or (6,4,6,4)
@@ -17,4 +17,4 @@ tags:
 - [[Embedding degree k]] - `proves` [EXTRACTED]
 - [[MNT curves (embedding degrees 4 and 6)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_8
+#graphify/paper #graphify/EXTRACTED #community/Community_24

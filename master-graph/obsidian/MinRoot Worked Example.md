@@ -1,12 +1,12 @@
 ---
 source_file: "recursion/recursion-outline.md"
 type: "document"
-community: "Community 25"
+community: "Community 2"
 location: "Recursion Chapter 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_25
+  - community/Community_2
 ---
 
 # MinRoot Worked Example
@@ -15,4 +15,4 @@ tags:
 - [[MinRoot VDF]] - `references` [EXTRACTED]
 - [[Nova]] - `explains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_25
+#graphify/document #graphify/EXTRACTED #community/Community_2

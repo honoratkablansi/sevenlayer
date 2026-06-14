@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 109"
+community: "Community 1"
 location: "Chapter 4"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_109
+  - community/Community_1
 ---
 
 # Streaming Witness Generation
@@ -18,4 +18,4 @@ tags:
 - [[Sum-Check Protocol]] - `conceptually_related_to` [EXTRACTED]
 - [[Witness Generation]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_109
+#graphify/document #graphify/EXTRACTED #community/Community_1

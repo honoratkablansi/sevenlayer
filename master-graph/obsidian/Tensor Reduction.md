@@ -1,12 +1,12 @@
 ---
 source_file: "references/snowball/recursion/ref-110-algebraic-reductions-of-knowledge.pdf"
 type: "paper"
-community: "Community 22"
+community: "Community 118"
 location: "abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_22
+  - community/Community_118
 ---
 
 # Tensor Reduction
@@ -16,4 +16,4 @@ tags:
 - [[Reduction of Knowledge]] - `defines` [EXTRACTED]
 - [[Sum-Check Protocol]] - `relates_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_22
+#graphify/paper #graphify/EXTRACTED #community/Community_118

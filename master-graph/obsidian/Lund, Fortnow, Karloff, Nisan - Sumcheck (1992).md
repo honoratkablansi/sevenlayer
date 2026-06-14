@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 23"
+community: "Community 2"
 location: "Chapter 5"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_23
+  - community/Community_2
 ---
 
 # Lund, Fortnow, Karloff, Nisan - Sumcheck (1992)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Sumcheck Protocol]] - `introduces` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_23
+#graphify/document #graphify/EXTRACTED #community/Community_2

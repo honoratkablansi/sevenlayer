@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-65-greyhound.pdf"
 type: "paper"
-community: "Community 7"
+community: "Community 96"
 location: "§3.1, Fig.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_7
+  - community/Community_96
 ---
 
 # Three-round proof of polynomial evaluation (quadratic relation)
@@ -19,4 +19,4 @@ tags:
 - [[Greyhound polynomial commitment scheme]] - `introduces` [EXTRACTED]
 - [[Inner and outer commitment construction]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_7
+#graphify/paper #graphify/EXTRACTED #community/Community_96

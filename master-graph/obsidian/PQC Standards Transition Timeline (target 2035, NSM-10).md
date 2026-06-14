@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch07/ref-26-nist-ir-8547.pdf"
 type: "paper"
-community: "Community 91"
+community: "Community 66"
 location: "§4"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_91
+  - community/Community_66
 ---
 
 # PQC Standards Transition Timeline (target 2035, NSM-10)
@@ -18,4 +18,4 @@ tags:
 - [[PQC-Classical Hybrid Protocols (composite KEM via SP 800-56C, dual signatures)]] - `conceptually_related_to` [INFERRED]
 - [[Transition to Post-Quantum Cryptography Standards (NIST IR 8547)]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_91
+#graphify/paper #graphify/EXTRACTED #community/Community_66

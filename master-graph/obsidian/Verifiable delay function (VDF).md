@@ -1,12 +1,12 @@
 ---
 source_file: "recursion/recursion-outline.md"
 type: "document"
-community: "Community 2"
+community: "Community 6"
 location: "Recursion Chapter 3"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_2
+  - community/Community_6
 ---
 
 # Verifiable delay function (VDF)
@@ -37,4 +37,4 @@ tags:
 - [[Weak VDF from injective rational  permutation polynomials over finite fields, (t2, o(t))-sequential via polynomial GCD hardness]] - `introduces` [EXTRACTED]
 - [[Wesolowski, Efficient Verifiable Delay Functions (EUROCRYPT 2019)]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_2
+#graphify/document #graphify/EXTRACTED #community/Community_6

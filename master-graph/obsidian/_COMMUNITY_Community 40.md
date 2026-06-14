@@ -1,39 +1,41 @@
 ---
 type: community
 cohesion: 0.10
-members: 24
+members: 26
 ---
 
 # Community 40
 
 **Cohesion:** 0.10 - loosely connected
-**Members:** 24 nodes
+**Members:** 26 nodes
 
 ## Members
-- [[Aligned Layer (EigenLayer restaking, verification-as-a-service)]] - document - proving-nothing.md
-- [[Argument Follow the Money, Watch the Trust]] - document - proving-nothing.md
-- [[Canton Network]] - document - wiki/sections/ch13-enterprise-pilots-pilot.md
-- [[Chorus One Economics of ZK-Proving (2025)]] - document - proving-nothing.md
-- [[Chorus One The Economics of ZK-Proving (2025)]] - document - wiki/sections/ch13-market-sizing.md
-- [[DTCC (Depository Trust & Clearing Corporation)]] - document - wiki/sections/ch13-enterprise-pilots-pilot.md
-- [[DTCC  Canton Network (tokenized Treasuries, privacy settlement)]] - document - proving-nothing.md
-- [[DTCC and Digital Asset Partner to Tokenize DTC-Custodied U.S. Treasury Securities on the Canton Network]] - document - references/ch13/ref-58-dtcc-canton-tokenization.md
-- [[Deutsche Bank (Project Guardian)]] - document - wiki/sections/ch13-enterprise-pilots-pilot.md
-- [[Deutsche Bank  Project Guardian (ZK-verified KYC settlement)]] - document - proving-nothing.md
-- [[Enterprise Pilots (Pilot)]] - document - wiki/sections/ch13-enterprise-pilots-pilot.md
-- [[Grand View Research ZKP Market Report (2025)]] - document - proving-nothing.md
-- [[Grand View Research Zero-Knowledge Proof Market Size Report (2025)]] - document - wiki/sections/ch13-market-sizing.md
-- [[Humanity Protocol]] - document - wiki/sections/ch13-zk-identity-growth-regulatory-mandate.md
-- [[Market Sizing]] - document - wiki/sections/ch13-market-sizing.md
-- [[Market Sizing ($1.54B 2025 to $7.59B 2033, 22.1% CAGR)]] - document - proving-nothing.md
-- [[Partisia Blockchain]] - document - wiki/sections/ch13-enterprise-pilots-pilot.md
-- [[Proving-as-a-Service]] - document - proving-nothing.md
-- [[RISC Zero Boundless (proof marketplace, forced migration)]] - document - proving-nothing.md
-- [[Succinct Network (SP1 Hypercube, $PROVE token)]] - document - proving-nothing.md
-- [[Tokenization of Assets]] - document - proving-nothing.md
-- [[Trust Relocation vs Trust Minimization]] - document - proving-nothing.md
-- [[World (formerly Worldcoin)]] - document - wiki/sections/ch13-zk-identity-growth-regulatory-mandate.md
-- [[ZK Identity (Growth  Regulatory Mandate)]] - document - wiki/sections/ch13-zk-identity-growth-regulatory-mandate.md
+- [[Argument System interactive proof sound only against computationally bounded provers]] - paper - references/recursion/ch1/ref-20-thaler-proofs-arguments-zk.pdf
+- [[Arthur-Merlin games (Babai) as restricted interactive proofs]] - paper - references/ch01/ref-02-gmr-knowledge-complexity.pdf
+- [[Colorblind Verifier Analogy (physical intuition two-color page, colorblind verifier, coin-flip challenge)]] - paper - references/mooc/lecture01/slides.pdf
+- [[Complete Bibliography]] - document - wiki/BIBLIOGRAPHY.md
+- [[Computational Soundness]] - paper - references/ch01/ref-02-gmr-knowledge-complexity.pdf
+- [[Dataset of 141 SNARK vulnerabilities (107 audits, 16 disclosures, 18 bug-tracker; 2018-2024)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[Fortnow result NP-complete ZK proof implies poly hierarchy collapse]] - paper - references/ch01/ref-02-gmr-knowledge-complexity.pdf
+- [[IP language recognized by probabilistic PSPACE machine A]] - paper - references/ch01/ref-02-gmr-knowledge-complexity.pdf
+- [[IP Interactive Polynomial-time language class]] - paper - references/ch01/ref-02-gmr-knowledge-complexity.pdf
+- [[Interaction and Randomness (Two New Ingredients)]] - paper - references/mooc/lecture01/slides.pdf
+- [[Interactive Proof (IP) prover-verifier protocol with statistical soundness]] - paper - references/recursion/ch1/ref-20-thaler-proofs-arguments-zk.pdf
+- [[Interactive Proof for Graph Non-Isomorphism]] - paper - references/mooc/lecture01/slides.pdf
+- [[Interactive Turing Machine (ITM)]] - paper - references/ch01/ref-02-gmr-knowledge-complexity.pdf
+- [[Interactive proof for QNR (Example 1, coin-flipping challenge)]] - paper - references/ch01/ref-02-gmr-knowledge-complexity.pdf
+- [[Knowledge Complexity]] - document - references/ch01/ref-02-gmr-knowledge-complexity.pdf
+- [[Methodology classify each bug by layer, type, root cause, and impact]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[Private-Coin Interactive Proof]] - paper - references/books/proofs-args-zk.pdf
+- [[Prover]] - paper - references/mooc/lecture01/slides.pdf
+- [[Prover and Verifier (interactive protocol A,B)]] - paper - references/ch01/ref-02-gmr-knowledge-complexity.pdf
+- [[Public-Coin Interactive Proof]] - paper - references/books/proofs-args-zk.pdf
+- [[Randomness in Proofs (verifier coin tosses create unpredictable challenges)]] - paper - references/mooc/lecture01/slides.pdf
+- [[Round Complexity]] - paper - references/books/proofs-args-zk.pdf
+- [[SNARK threat model adversarial roles (NetworkUserProver) and impacts (soundnesscompletenessZK)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[SoK What Don't We Know Understanding Security Vulnerabilities in SNARKs]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[The Knowledge Complexity of Interactive Proof Systems]] - paper - references/ch01/ref-02-gmr-knowledge-complexity.pdf
+- [[Verifiable Computing]] - paper - references/books/proofs-args-zk.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -43,22 +45,38 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 5 edges to [[_COMMUNITY_Community 10]]
-- 4 edges to [[_COMMUNITY_Community 17]]
-- 3 edges to [[_COMMUNITY_Community 79]]
-- 3 edges to [[_COMMUNITY_Community 48]]
-- 3 edges to [[_COMMUNITY_Community 24]]
-- 3 edges to [[_COMMUNITY_Community 21]]
-- 2 edges to [[_COMMUNITY_Community 78]]
-- 2 edges to [[_COMMUNITY_Community 84]]
-- 2 edges to [[_COMMUNITY_Community 5]]
-- 1 edge to [[_COMMUNITY_Community 11]]
+- 11 edges to [[_COMMUNITY_Community 22]]
+- 7 edges to [[_COMMUNITY_Community 15]]
+- 5 edges to [[_COMMUNITY_Community 32]]
+- 5 edges to [[_COMMUNITY_Community 12]]
+- 5 edges to [[_COMMUNITY_Community 79]]
+- 4 edges to [[_COMMUNITY_Community 53]]
+- 3 edges to [[_COMMUNITY_Community 27]]
+- 2 edges to [[_COMMUNITY_Community 36]]
+- 2 edges to [[_COMMUNITY_Community 42]]
+- 2 edges to [[_COMMUNITY_Community 29]]
+- 2 edges to [[_COMMUNITY_Community 0]]
+- 2 edges to [[_COMMUNITY_Community 18]]
+- 1 edge to [[_COMMUNITY_Community 84]]
+- 1 edge to [[_COMMUNITY_Community 13]]
+- 1 edge to [[_COMMUNITY_Community 109]]
+- 1 edge to [[_COMMUNITY_Community 72]]
+- 1 edge to [[_COMMUNITY_Community 35]]
 - 1 edge to [[_COMMUNITY_Community 61]]
-- 1 edge to [[_COMMUNITY_Community 125]]
+- 1 edge to [[_COMMUNITY_Community 58]]
+- 1 edge to [[_COMMUNITY_Community 65]]
+- 1 edge to [[_COMMUNITY_Community 54]]
+- 1 edge to [[_COMMUNITY_Community 2]]
+- 1 edge to [[_COMMUNITY_Community 80]]
+- 1 edge to [[_COMMUNITY_Community 71]]
+- 1 edge to [[_COMMUNITY_Community 92]]
+- 1 edge to [[_COMMUNITY_Community 25]]
+- 1 edge to [[_COMMUNITY_Community 28]]
+- 1 edge to [[_COMMUNITY_Community 129]]
 
 ## Top bridge nodes
-- [[Enterprise Pilots (Pilot)]] - degree 14, connects to 8 communities
-- [[Market Sizing]] - degree 15, connects to 7 communities
-- [[ZK Identity (Growth  Regulatory Mandate)]] - degree 10, connects to 6 communities
-- [[Proving-as-a-Service]] - degree 8, connects to 2 communities
-- [[Trust Relocation vs Trust Minimization]] - degree 4, connects to 1 community
+- [[Complete Bibliography]] - degree 16, connects to 13 communities
+- [[Interactive Proof (IP) prover-verifier protocol with statistical soundness]] - degree 47, connects to 12 communities
+- [[SoK What Don't We Know Understanding Security Vulnerabilities in SNARKs]] - degree 12, connects to 7 communities
+- [[The Knowledge Complexity of Interactive Proof Systems]] - degree 9, connects to 3 communities
+- [[Argument System interactive proof sound only against computationally bounded provers]] - degree 7, connects to 3 communities

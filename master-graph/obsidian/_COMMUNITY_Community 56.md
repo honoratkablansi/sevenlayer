@@ -1,36 +1,37 @@
 ---
 type: community
-cohesion: 0.13
-members: 21
+cohesion: 0.12
+members: 22
 ---
 
 # Community 56
 
-**Cohesion:** 0.13 - loosely connected
-**Members:** 21 nodes
+**Cohesion:** 0.12 - loosely connected
+**Members:** 22 nodes
 
 ## Members
-- [[Automated find-and-prove-bug pipeline (SMT + ZKP)]] - paper - references/ch10/ref-33-circ.pdf
-- [[Breakable block (exceptional control flow construct)]] - paper - references/ch10/ref-33-circ.pdf
-- [[CirC ILP back-end (CBC solver)]] - paper - references/ch10/ref-33-circ.pdf
-- [[CirC R1CS back-end (lowering pass)]] - paper - references/ch10/ref-33-circ.pdf
-- [[CirC SMT back-end (Z3 Haskell bindings)]] - paper - references/ch10/ref-33-circ.pdf
-- [[CirC ZoKratesZ front-end]] - paper - references/ch10/ref-33-circ.pdf
-- [[CirC-IR (SMT-LIB-based circuit IR)]] - paper - references/ch10/ref-33-circ.pdf
-- [[CirC Compiler Infrastructure for Proof Systems, Software Verification, and More]] - paper - references/ch10/ref-33-circ.pdf
-- [[CirC shared compiler infrastructure for EQCs]] - paper - references/ch10/ref-33-circ.pdf
-- [[Circify language-independent state-management library]] - paper - references/ch10/ref-33-circ.pdf
-- [[Compiler intermediate representation]] - paper - references/ch10/ref-33-circ.pdf
-- [[Constant folding  SMT term rewriting pass]] - paper - references/ch10/ref-33-circ.pdf
-- [[Existentially Quantified Circuit (EQC)]] - paper - references/ch10/ref-33-circ.pdf
-- [[Fine-grained array modeling]] - paper - references/ch10/ref-33-circ.pdf
-- [[Guarded SSA versioning via ITE terms]] - paper - references/ch10/ref-33-circ.pdf
-- [[Linearity reduction (R1CS-specific optimization)]] - paper - references/ch10/ref-33-circ.pdf
-- [[Oblivious array elimination pass]] - paper - references/ch10/ref-33-circ.pdf
-- [[SMT-guided loop-unroll bound inference]] - paper - references/ch10/ref-33-circ.pdf
-- [[Satisfiability Modulo Theories (SMT)]] - paper - references/ch10/ref-33-circ.pdf
-- [[ZKlog Datalog dialect front-end]] - paper - references/ch10/ref-33-circ.pdf
-- [[Zero-knowledge proof system]] - paper - references/ch10/ref-33-circ.pdf
+- [[Composite-extension factorization F_{pn}=F_{(pη)κ}, gcd(η,κ)=1]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[ConjugationGJL polynomial selection Barbulescu-Gaudry-Guillevic-Morain]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[Discrete Logarithm Problem]] - paper - references/ch07/ref-24-shor.pdf
+- [[Doubly-extended tower number field K_f = Q(ι,α_f)]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[Elliptic Curve Method (ECM) factoring attack]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[Extended Tower Number Field Sieve A New Complexity for the Medium Prime Case]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[Finite Fields]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[Individual logarithm smoothing + special-q descent]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[Lemma 1 (norm size bound via iterated resultants)]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[Mandate to update pairing key sizes (c=64→48, factor ~1.33; SNFS factor 2)]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[MexTNFS multiple-number-field variant (c≈1.71)]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[NFS medium-prime case (JLSV) Joux-Lercier-Smart-Vercauteren]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[NFSECM crossover ECM beats NFS at 5+ prime factors]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[Number Field Sieve]] - document - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[Polynomial Selection]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[Polynomial selection step (h,f,g) — JLSV2 and Conjugation methods]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[Relation collection over R=Zth(t), B-smooth norms]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[Theorem 1 (exTNFS complexity table)]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[Tower Number Field Sieve (TNFS)]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[Tower Number Field Sieve (TNFS) Barbulescu-Gaudry-Kleinjung]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[exTNFS (Extended Tower Number Field Sieve)]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[exTNFS-Conj medium-prime complexity L_Q(13,(489){13})]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -40,18 +41,19 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 4 edges to [[_COMMUNITY_Community 15]]
-- 3 edges to [[_COMMUNITY_Community 21]]
-- 2 edges to [[_COMMUNITY_Community 3]]
-- 1 edge to [[_COMMUNITY_Community 85]]
-- 1 edge to [[_COMMUNITY_Community 5]]
+- 5 edges to [[_COMMUNITY_Community 49]]
+- 4 edges to [[_COMMUNITY_Community 87]]
+- 3 edges to [[_COMMUNITY_Community 27]]
+- 2 edges to [[_COMMUNITY_Community 92]]
+- 2 edges to [[_COMMUNITY_Community 35]]
+- 1 edge to [[_COMMUNITY_Community 108]]
 - 1 edge to [[_COMMUNITY_Community 24]]
-- 1 edge to [[_COMMUNITY_Community 37]]
-- 1 edge to [[_COMMUNITY_Community 41]]
+- 1 edge to [[_COMMUNITY_Community 0]]
+- 1 edge to [[_COMMUNITY_Community 12]]
 
 ## Top bridge nodes
-- [[CirC Compiler Infrastructure for Proof Systems, Software Verification, and More]] - degree 8, connects to 5 communities
-- [[CirC shared compiler infrastructure for EQCs]] - degree 6, connects to 3 communities
-- [[Existentially Quantified Circuit (EQC)]] - degree 5, connects to 2 communities
-- [[Satisfiability Modulo Theories (SMT)]] - degree 6, connects to 1 community
-- [[CirC R1CS back-end (lowering pass)]] - degree 5, connects to 1 community
+- [[Discrete Logarithm Problem]] - degree 10, connects to 5 communities
+- [[Extended Tower Number Field Sieve A New Complexity for the Medium Prime Case]] - degree 7, connects to 4 communities
+- [[exTNFS (Extended Tower Number Field Sieve)]] - degree 15, connects to 3 communities
+- [[Number Field Sieve]] - degree 10, connects to 2 communities
+- [[Mandate to update pairing key sizes (c=64→48, factor ~1.33; SNFS factor 2)]] - degree 3, connects to 2 communities

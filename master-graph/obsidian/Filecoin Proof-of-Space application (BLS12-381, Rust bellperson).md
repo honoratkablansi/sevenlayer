@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-33-snarkpack.pdf"
 type: "paper"
-community: "Community 62"
+community: "Community 94"
 location: "§1 Filecoin System, §7 Implementation"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_62
+  - community/Community_94
 ---
 
 # Filecoin Proof-of-Space application (BLS12-381, Rust bellperson)
@@ -15,4 +15,4 @@ tags:
 - [[Groth16]] - `assumes` [EXTRACTED]
 - [[SnarkPack Practical SNARK Aggregation]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_62
+#graphify/paper #graphify/EXTRACTED #community/Community_94

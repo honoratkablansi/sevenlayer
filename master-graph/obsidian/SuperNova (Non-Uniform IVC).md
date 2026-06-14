@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 55"
+community: "Community 52"
 location: "Chapter 6"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_55
+  - community/Community_52
 ---
 
 # SuperNova (Non-Uniform IVC)
@@ -28,4 +28,4 @@ tags:
 - [[The Folding Genealogy]] - `defines` [EXTRACTED]
 - [[vRAM 37 trimmed universal circuit for vnTinyRAM via fingerprinting over the trace; not incremental, not zero-knowledge]] - `cites` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_55
+#graphify/document #graphify/EXTRACTED #community/Community_52

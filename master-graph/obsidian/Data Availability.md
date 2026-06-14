@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 45"
+community: "Community 33"
 location: "Chapter 8"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_45
+  - community/Community_33
 ---
 
 # Data Availability
@@ -26,4 +26,4 @@ tags:
 - [[Unaligned Incentives Pricing Attacks Against Blockchain Rollups]] - `conceptually_related_to` [EXTRACTED]
 - [[ZK Rollup]] - `explains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_45
+#graphify/document #graphify/EXTRACTED #community/Community_33

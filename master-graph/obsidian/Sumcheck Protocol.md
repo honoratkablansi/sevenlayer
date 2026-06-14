@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 23"
+community: "Community 2"
 location: "Chapter 5"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_23
+  - community/Community_2
 ---
 
 # Sumcheck Protocol
@@ -22,4 +22,4 @@ tags:
 - [[Sumcheck  Algebraic Methods for Interactive Proof Systems (Lund-Fortnow-Karloff-Nisan, J.ACM 1992) 58]] - `cites` [EXTRACTED]
 - [[deVirgo distributed zero-knowledge proof system parallelizing Virgo over M machines with perfect linear scalability and no proof-size overhead]] - `assumes` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_23
+#graphify/document #graphify/EXTRACTED #community/Community_2

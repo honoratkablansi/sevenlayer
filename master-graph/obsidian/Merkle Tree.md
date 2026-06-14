@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch09/ref-31-blockchain-privacy-compliance.pdf"
 type: "paper"
-community: "Community 15"
+community: "Community 32"
 location: "p.2 (section 2.3)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_15
+  - community/Community_32
 ---
 
 # Merkle Tree
@@ -23,4 +23,4 @@ tags:
 - [[Succinct Argument]] - `builds_on` [EXTRACTED]
 - [[The Secret Performance]] - `references` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_15
+#graphify/paper #graphify/EXTRACTED #community/Community_32

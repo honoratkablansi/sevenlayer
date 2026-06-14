@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 41"
+community: "Community 36"
 location: "Chapter 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_41
+  - community/Community_36
 ---
 
 # SNARK (Succinct Non-interactive ARgument of Knowledge)
@@ -38,7 +38,7 @@ tags:
 - [[Extractable Collision-Resistant Hash]] - `defines` [EXTRACTED]
 - [[Extractable verifiable polynomial-delegation protocol with knowledge soundness (vSQL Construction 2)]] - `conceptually_related_to` [EXTRACTED]
 - [[Falsifiable Assumption]] - `relates_to` [EXTRACTED]
-- [[Fiat-Shamir Transform]] - `uses` [EXTRACTED]
+- [[Fiat-Shamir Transform]] - `motivates` [EXTRACTED]
 - [[First construction of PCD without succinct arguments (linear-size NARKs suffice)]] - `conceptually_related_to` [EXTRACTED]
 - [[Folding Scheme]] - `relates_to` [EXTRACTED]
 - [[Functional Commitment]] - `used_to_build` [EXTRACTED]
@@ -132,10 +132,11 @@ tags:
 - [[Verifiable computation]] - `relates_to` [EXTRACTED]
 - [[Verifiable delay function (VDF)]] - `uses` [EXTRACTED]
 - [[ZKML (Zero-Knowledge Machine Learning)]] - `uses` [EXTRACTED]
+- [[ZKP Applications (Blockchain, Forensics, Nuclear Disarmament, Legal)]] - `motivates` [EXTRACTED]
 - [[Zero-Knowledge Proof]] - `builds_on` [EXTRACTED]
 - [[Zerocash]] - `uses` [EXTRACTED]
 - [[Gro16 Groth, On the Size of Pairing-Based Non-interactive Arguments (EUROCRYPT 2016)]] - `conceptually_related_to` [EXTRACTED]
 - [[vSQL verifiable database system for arbitrary SQL queries over dynamic outsourced databases]] - `cites` [EXTRACTED]
 - [[zkVM]] - `uses` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_41
+#graphify/document #graphify/EXTRACTED #community/Community_36

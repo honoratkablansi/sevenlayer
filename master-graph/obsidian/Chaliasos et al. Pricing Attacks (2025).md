@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 138"
+community: "Community 60"
 location: "Chapter 8"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_138
+  - community/Community_60
 ---
 
 # Chaliasos et al. Pricing Attacks (2025)
@@ -15,4 +15,4 @@ tags:
 - [[DA-Saturation Attack]] - `introduces` [EXTRACTED]
 - [[Prover-Killer Attack]] - `introduces` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_138
+#graphify/document #graphify/EXTRACTED #community/Community_60

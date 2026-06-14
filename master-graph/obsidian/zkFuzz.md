@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch03-under-constrained-circuits-the-dominant-failure-mode.md"
 type: "paper"
-community: "Community 129"
+community: "Community 61"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_129
+  - community/Community_61
 ---
 
 # zkFuzz
@@ -14,4 +14,4 @@ tags:
 - [[Under-Constrained Circuits The Dominant Failure Mode]] - `cites` [EXTRACTED]
 - [[Witness-Constraint Divergence]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_129
+#graphify/paper #graphify/EXTRACTED #community/Community_61

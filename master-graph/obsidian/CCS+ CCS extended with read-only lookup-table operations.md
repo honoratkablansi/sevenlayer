@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch03/ref-14-ccs-customizable-constraints.pdf"
 type: "paper"
-community: "Community 4"
+community: "Community 2"
 location: "Appendix B, Def B.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_4
+  - community/Community_2
 ---
 
 # CCS+: CCS extended with read-only lookup-table operations
@@ -15,4 +15,4 @@ tags:
 - [[CCS (Customizable Constraint Systems)]] - `conceptually_related_to` [EXTRACTED]
 - [[Lookup Argument]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_4
+#graphify/paper #graphify/EXTRACTED #community/Community_2

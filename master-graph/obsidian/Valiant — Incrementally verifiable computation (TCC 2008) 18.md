@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-32-nguyen-boneh-setty-nova-cycle.pdf"
 type: "paper"
-community: "Community 13"
+community: "Community 19"
 location: "Bibliography [18]"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_13
+  - community/Community_19
 ---
 
 # Valiant — Incrementally verifiable computation (TCC 2008) [18]
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Recursive Proof Composition]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_13
+#graphify/paper #graphify/EXTRACTED #community/Community_19

@@ -1,50 +1,48 @@
 ---
 type: community
-cohesion: 0.14
-members: 35
+cohesion: 0.08
+members: 33
 ---
 
 # Community 21
 
-**Cohesion:** 0.14 - loosely connected
-**Members:** 35 nodes
+**Cohesion:** 0.08 - loosely connected
+**Members:** 33 nodes
 
 ## Members
-- [[Collaborative  Threshold Proving]] - document - proving-nothing.md
-- [[Composability When One PET Is Not Enough]] - document - wiki/sections/ch09-composability-when-one-pet-is-not-enough.md
-- [[Computational Security]] - document - proving-nothing.md
-- [[FHE Bootstrapping]] - document - proving-nothing.md
-- [[Fully Homomorphic Encryption (FHE)]] - document - proving-nothing.md
-- [[GDPR]] - document - wiki/sections/ch09-the-regulatory-intersection.md
-- [[GDPR Right to Erasure (Blockchain Immutability Paradox)]] - document - proving-nothing.md
-- [[Garbled Circuits]] - document - proving-nothing.md
-- [[Gentry, 'Fully Homomorphic Encryption Using Ideal Lattices' (STOC 2009)]] - document - proving-nothing.md
-- [[Heuristic Security]] - document - proving-nothing.md
-- [[Information-Theoretic Security]] - document - proving-nothing.md
-- [[Intel SGX]] - document - proving-nothing.md
-- [[Oblivious Transfer]] - document - proving-nothing.md
-- [[Open Problems]] - document - wiki/sections/ch09-open-problems.md
-- [[Privacy-Enhancing Technologies]] - document - wiki/chapters/09-privacy-enhancing-technologies.md
-- [[Private Information Retrieval (PIR)]] - document - wiki/sections/ch09-open-problems.md
-- [[Private Set Intersection (PSI)]] - document - proving-nothing.md
-- [[Real-World Deployments Five Case Studies]] - document - wiki/sections/ch09-real-world-deployments-five-case-studies.md
-- [[SPDZ (Dishonest-Majority MPC)]] - document - proving-nothing.md
-- [[Secure Multi-Party Computation (MPC)]] - document - wiki/chapters/09-privacy-enhancing-technologies.md
-- [[Shamir Secret Sharing]] - document - proving-nothing.md
-- [[TFHE (Torus FHE)]] - document - proving-nothing.md
-- [[The Decision Matrix]] - document - wiki/sections/ch09-the-decision-matrix.md
-- [[The Four Pillars]] - document - wiki/sections/ch09-the-four-pillars.md
-- [[The Incomplete Stack]] - document - wiki/sections/ch09-the-incomplete-stack.md
-- [[The Regulatory Intersection]] - document - wiki/sections/ch09-the-regulatory-intersection.md
-- [[Three Kinds of Security]] - document - wiki/sections/ch09-three-kinds-of-security.md
-- [[Trusted Execution Environment (TEE)]] - document - wiki/chapters/09-privacy-enhancing-technologies.md
-- [[Verifiable FHE (zkFHE)]] - document - proving-nothing.md
-- [[Yao's Millionaires' Problem]] - document - proving-nothing.md
-- [[Yao, 'Protocols for Secure Computations' (FOCS 1982)]] - document - proving-nothing.md
-- [[Zama Confidential Blockchain Protocol]] - document - proving-nothing.md
-- [[Zero-Knowledge Proofs (ZKPs)]] - document - proving-nothing.md
-- [[eIDAS 2.0]] - document - wiki/sections/ch09-the-regulatory-intersection.md
-- [[zKYC (Zero-Knowledge Know Your Customer)]] - document - proving-nothing.md
+- [[Algebraic Query Complexity]] - paper - references/snowball/recursion/ref-151-a-zero-knowledge-sumcheck-and-its-applications.pdf
+- [[BASIS Assumption]] - paper - references/snowball/recursion/ref-136-lattice-based-polynomial-commitments-towards-as.pdf
+- [[BaseFold]] - paper - references/snowball/book/ref-121-basefold-efficient-field-agnostic-polynomial-co.pdf
+- [[Batch Evaluation of Committed Polynomials]] - paper - references/books/proofs-args-zk.pdf
+- [[Brakedown Polynomial Commitment]] - paper - references/books/proofs-args-zk.pdf
+- [[Brakedown GLS+21 & Orion XZS22 field-agnosticpost-quantum poly commitments instantiating SuperSpartan]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
+- [[Claim Field Choice Is a One-Way Door (Cascade Effect)]] - document - proving-nothing.md
+- [[Extension Polynomial (Random Higher-Degree Witness Extension)]] - paper - references/books/proofs-args-zk.pdf
+- [[Foldable Code]] - paper - references/snowball/book/ref-121-basefold-efficient-field-agnostic-polynomial-co.pdf
+- [[Group of Unknown Order]] - paper - references/snowball/recursion/ref-116-a-survey-of-two-verifiable-delay-functions.pdf
+- [[HyperKZG  Mercury polynomial commitment]] - document - references/recursion/ch2/ref-43-nova-implementation.md
+- [[KZG10 constant-size polynomial commitments]] - paper - references/ch14/ref-65-greyhound.pdf
+- [[KZG10 Constant-Size Commitments to Polynomials]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
+- [[Kate, Zaverucha, Goldberg Constant-size commitments to polynomials 30]] - paper - references/recursion/ch1/ref-05-halo.pdf
+- [[Layer 6 The Deep Craft (Cryptographic Primitives)]] - document - proving-nothing.md
+- [[Leveled Bilinear Modules]] - paper - references/snowball/recursion/ref-137-lattice-based-succinct-arguments-for-np-with-pol.pdf
+- [[Ligero]] - paper - references/snowball/book/ref-073-ligero-lightweight-sublinear-arguments-without.pdf
+- [[Linear-Time Encodable Code]] - paper - references/snowball/recursion/ref-105-brakedown-linear-time-and-field-agnostic-snarks.pdf
+- [[Low-Degree Test]] - paper - references/books/proofs-args-zk.pdf
+- [[Masking Polynomial (ZK via Random Polynomial Blinding)]] - paper - references/books/proofs-args-zk.pdf
+- [[Merkle Hashing]] - paper - references/books/proofs-args-zk.pdf
+- [[PC_AGM bilinear-group (KZG) polynomial commitment with pairing-batching accumulation]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
+- [[PC_DL discrete-log polynomial commitment with accumulation (IPA-based)]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
+- [[Polynomial Commitment Scheme]] - document - proving-nothing.md
+- [[Post-Quantum Soundness]] - paper - references/books/proofs-args-zk.pdf
+- [[Quarks  Xiphos  Kopis]] - paper - references/snowball/recursion/ref-102-quarks-quadruple-efficient-transparent-zksnarks.pdf
+- [[Supersonic  DARK SNARK]] - paper - references/snowball/book/ref-091-transparent-snarks-from-dark-compilers.pdf
+- [[Tensor-Product Structure in Polynomial Evaluation]] - paper - references/books/proofs-args-zk.pdf
+- [[Theorem 3 (informal) ZK accumulation schemes for PC_DL and PC_AGM in the ROM]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
+- [[Theorem 3 family of preprocessing SNARKs for CCS via PIOP + sparse poly commitment + Fiat-Shamir]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
+- [[Universal setup  Powers of Tau (SRS)]] - document - references/recursion/ch2/ref-43-nova-implementation.md
+- [[Zero-Finding Games Lemma 3.3 (security of PC accumulation in ROM)]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
+- [[Zero-Knowledge Sum-Check Protocol]] - paper - references/books/proofs-args-zk.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -54,35 +52,49 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 10 edges to [[_COMMUNITY_Community 110]]
-- 9 edges to [[_COMMUNITY_Community 125]]
-- 6 edges to [[_COMMUNITY_Community 20]]
-- 4 edges to [[_COMMUNITY_Community 84]]
-- 4 edges to [[_COMMUNITY_Community 61]]
-- 4 edges to [[_COMMUNITY_Community 24]]
-- 3 edges to [[_COMMUNITY_Community 85]]
-- 3 edges to [[_COMMUNITY_Community 56]]
-- 3 edges to [[_COMMUNITY_Community 10]]
-- 3 edges to [[_COMMUNITY_Community 40]]
-- 2 edges to [[_COMMUNITY_Community 11]]
-- 2 edges to [[_COMMUNITY_Community 48]]
-- 2 edges to [[_COMMUNITY_Community 58]]
-- 2 edges to [[_COMMUNITY_Community 27]]
+- 10 edges to [[_COMMUNITY_Community 0]]
+- 10 edges to [[_COMMUNITY_Community 15]]
+- 7 edges to [[_COMMUNITY_Community 27]]
+- 7 edges to [[_COMMUNITY_Community 58]]
+- 5 edges to [[_COMMUNITY_Community 35]]
+- 5 edges to [[_COMMUNITY_Community 28]]
+- 4 edges to [[_COMMUNITY_Community 22]]
+- 4 edges to [[_COMMUNITY_Community 32]]
+- 4 edges to [[_COMMUNITY_Community 64]]
+- 3 edges to [[_COMMUNITY_Community 36]]
+- 3 edges to [[_COMMUNITY_Community 80]]
+- 3 edges to [[_COMMUNITY_Community 68]]
+- 3 edges to [[_COMMUNITY_Community 67]]
+- 3 edges to [[_COMMUNITY_Community 2]]
+- 3 edges to [[_COMMUNITY_Community 87]]
+- 3 edges to [[_COMMUNITY_Community 18]]
+- 2 edges to [[_COMMUNITY_Community 46]]
+- 2 edges to [[_COMMUNITY_Community 96]]
+- 2 edges to [[_COMMUNITY_Community 70]]
+- 2 edges to [[_COMMUNITY_Community 29]]
+- 2 edges to [[_COMMUNITY_Community 88]]
 - 2 edges to [[_COMMUNITY_Community 1]]
-- 1 edge to [[_COMMUNITY_Community 5]]
-- 1 edge to [[_COMMUNITY_Community 78]]
-- 1 edge to [[_COMMUNITY_Community 25]]
-- 1 edge to [[_COMMUNITY_Community 42]]
-- 1 edge to [[_COMMUNITY_Community 63]]
-- 1 edge to [[_COMMUNITY_Community 68]]
-- 1 edge to [[_COMMUNITY_Community 35]]
-- 1 edge to [[_COMMUNITY_Community 86]]
+- 2 edges to [[_COMMUNITY_Community 10]]
+- 2 edges to [[_COMMUNITY_Community 31]]
 - 1 edge to [[_COMMUNITY_Community 17]]
-- 1 edge to [[_COMMUNITY_Community 0]]
+- 1 edge to [[_COMMUNITY_Community 65]]
+- 1 edge to [[_COMMUNITY_Community 89]]
+- 1 edge to [[_COMMUNITY_Community 53]]
+- 1 edge to [[_COMMUNITY_Community 106]]
+- 1 edge to [[_COMMUNITY_Community 75]]
+- 1 edge to [[_COMMUNITY_Community 128]]
+- 1 edge to [[_COMMUNITY_Community 12]]
+- 1 edge to [[_COMMUNITY_Community 30]]
+- 1 edge to [[_COMMUNITY_Community 8]]
+- 1 edge to [[_COMMUNITY_Community 62]]
+- 1 edge to [[_COMMUNITY_Community 112]]
+- 1 edge to [[_COMMUNITY_Community 103]]
+- 1 edge to [[_COMMUNITY_Community 19]]
+- 1 edge to [[_COMMUNITY_Community 124]]
 
 ## Top bridge nodes
-- [[Privacy-Enhancing Technologies]] - degree 35, connects to 11 communities
-- [[Secure Multi-Party Computation (MPC)]] - degree 27, connects to 9 communities
-- [[Fully Homomorphic Encryption (FHE)]] - degree 19, connects to 6 communities
-- [[eIDAS 2.0]] - degree 13, connects to 5 communities
-- [[The Four Pillars]] - degree 14, connects to 4 communities
+- [[Polynomial Commitment Scheme]] - degree 105, connects to 36 communities
+- [[Ligero]] - degree 7, connects to 4 communities
+- [[Masking Polynomial (ZK via Random Polynomial Blinding)]] - degree 7, connects to 3 communities
+- [[Supersonic  DARK SNARK]] - degree 5, connects to 3 communities
+- [[Theorem 3 family of preprocessing SNARKs for CCS via PIOP + sparse poly commitment + Fiat-Shamir]] - degree 5, connects to 3 communities

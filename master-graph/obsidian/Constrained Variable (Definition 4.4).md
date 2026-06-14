@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch03/ref-12-underconstrained-circuits.pdf"
 type: "paper"
-community: "Community 69"
+community: "Community 72"
 location: "§4.2 Def 4.4"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_69
+  - community/Community_72
 ---
 
 # Constrained Variable (Definition 4.4)
@@ -15,4 +15,4 @@ tags:
 - [[Constrained Circuit (Definition 4.6)]] - `assumes` [EXTRACTED]
 - [[Under-Constrained Circuit  Missing Constraint]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_69
+#graphify/paper #graphify/EXTRACTED #community/Community_72

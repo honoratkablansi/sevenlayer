@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch11-three-zkvms-through-seven-layers.md"
 type: "document"
-community: "Community 0"
+community: "Community 129"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Community_129
 ---
 
 # Hyrax Commitment Scheme
@@ -22,4 +22,4 @@ tags:
 - [[Trusted Setup Ceremony]] - `improves` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/document #graphify/EXTRACTED #community/Community_129

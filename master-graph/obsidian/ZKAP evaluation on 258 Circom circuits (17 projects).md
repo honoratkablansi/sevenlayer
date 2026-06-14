@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch03/ref-13-practical-security-zk-circuits.pdf"
 type: "paper"
-community: "Community 103"
+community: "Community 105"
 location: "§5, Table 4"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_103
+  - community/Community_105
 ---
 
 # ZKAP evaluation on 258 Circom circuits (17 projects)
@@ -16,4 +16,4 @@ tags:
 - [[Circomspect Static Analyzer]] - `conceptually_related_to` [EXTRACTED]
 - [[ZKAP (static analyzer for ZKP circuits)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_103
+#graphify/paper #graphify/EXTRACTED #community/Community_105

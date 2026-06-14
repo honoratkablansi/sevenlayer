@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/02-building-the-stage.md"
 type: "document"
-community: "Community 11"
+community: "Community 35"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_11
+  - community/Community_35
 ---
 
 # Layer 1 -- Building the Stage
@@ -68,4 +68,4 @@ tags:
 - [[Universal versus Circuit-Specific Setups]] - `part_of` [EXTRACTED]
 - [[Zcash]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_11
+#graphify/document #graphify/EXTRACTED #community/Community_35

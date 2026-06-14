@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 71"
+community: "Community 29"
 location: "Chapter 7"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_71
+  - community/Community_29
 ---
 
 # Pedersen Commitment
@@ -52,4 +52,4 @@ tags:
 - [[Three Hardness Assumptions, Three Worlds]] - `references` [EXTRACTED]
 - [[Vector commitment scheme (position-binding; Merkle-tree instantiation, O(log n) openings)]] - `generalizes` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_71
+#graphify/document #graphify/EXTRACTED #community/Community_29

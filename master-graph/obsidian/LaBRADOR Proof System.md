@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-65-greyhound.pdf"
 type: "document"
-community: "Community 7"
+community: "Community 10"
 location: "Abstract"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_7
+  - community/Community_10
 ---
 
 # LaBRADOR Proof System
@@ -25,4 +25,4 @@ tags:
 - [[Theorem 4.1 completeness, weak binding, knowledge soundness of PCS]] - `cites` [EXTRACTED]
 - [[Zero-Knowledge Proof]] - `improves` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_7
+#graphify/document #graphify/EXTRACTED #community/Community_10

@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-58-coda-mina.pdf"
 type: "paper"
-community: "Community 13"
+community: "Community 78"
 location: "§5.0.2, Fig 4; UpdateChainSummary §5.0.3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_13
+  - community/Community_78
 ---
 
 # SNARK S: recursive state-update circuit (Update verifies txns, consensus, signature, prior proof)
@@ -17,4 +17,4 @@ tags:
 - [[Mina (Coda)]] - `introduces` [EXTRACTED]
 - [[Ouroboros Samasika first provably-secure succinct PoS consensus]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_13
+#graphify/paper #graphify/EXTRACTED #community/Community_78

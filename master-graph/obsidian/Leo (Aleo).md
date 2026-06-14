@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch03-the-four-philosophies.md"
 type: "document"
-community: "Community 5"
+community: "Community 61"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_5
+  - community/Community_61
 ---
 
 # Leo (Aleo)
@@ -14,4 +14,4 @@ tags:
 - [[Choreographing the Act]] - `defines` [EXTRACTED]
 - [[The Four Philosophies]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_5
+#graphify/document #graphify/EXTRACTED #community/Community_61

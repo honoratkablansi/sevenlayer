@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-62-lattice-functional-commitments.pdf"
 type: "paper"
-community: "Community 7"
+community: "Community 46"
 location: "§1.2, Assumption 3.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_7
+  - community/Community_46
 ---
 
 # l-Succinct SIS Assumption (falsifiable q-type generalization of SIS, trapdoor for [I_l ⊗ A | W])
@@ -21,4 +21,4 @@ tags:
 - [[Theorem 3.22 Selective-Input Binding of Dual FC under l-succinct SIS]] - `assumes` [EXTRACTED]
 - [[Theorem 3.6 Computational Binding of Construction 3.2 under l-succinct SIS]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_7
+#graphify/paper #graphify/EXTRACTED #community/Community_46

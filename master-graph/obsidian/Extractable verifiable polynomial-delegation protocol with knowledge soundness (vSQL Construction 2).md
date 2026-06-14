@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-73-vsql.pdf"
 type: "paper"
-community: "Community 66"
+community: "Community 68"
 location: "§III Construction 2; Definition 2 (Knowledge Soundness)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_66
+  - community/Community_68
 ---
 
 # Extractable verifiable polynomial-delegation protocol with knowledge soundness (vSQL Construction 2)
@@ -23,4 +23,4 @@ tags:
 - [[Theorem 4 vSQL (Construction 3) is a verifiable database system for SQL queries given extractable polynomial delegation]] - `assumes` [EXTRACTED]
 - [[vSQL verifiable database system for arbitrary SQL queries over dynamic outsourced databases]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_66
+#graphify/paper #graphify/EXTRACTED #community/Community_68

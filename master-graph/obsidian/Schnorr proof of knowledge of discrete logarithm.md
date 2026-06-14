@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-88-provisions.pdf"
 type: "paper"
-community: "Community 71"
+community: "Community 39"
 location: "§3.1; §6; ref [31]"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_71
+  - community/Community_39
 ---
 
 # Schnorr proof of knowledge of discrete logarithm
@@ -16,4 +16,4 @@ tags:
 - [[Provisions privacy-preserving proof of solvency for Bitcoin exchanges]] - `cites` [EXTRACTED]
 - [[Sigma protocol (public-coin 3-move)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_71
+#graphify/paper #graphify/EXTRACTED #community/Community_39

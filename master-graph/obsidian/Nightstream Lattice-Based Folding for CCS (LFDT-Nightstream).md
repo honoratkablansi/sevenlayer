@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch06/ref-49-nightstream.md"
 type: "document"
-community: "Community 22"
+community: "Community 0"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_22
+  - community/Community_0
 ---
 
 # Nightstream: Lattice-Based Folding for CCS (LFDT-Nightstream)
@@ -21,4 +21,4 @@ tags:
 - [[Sum-Check Protocol]] - `references` [EXTRACTED]
 - [[zkVM]] - `implements` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_22
+#graphify/document #graphify/EXTRACTED #community/Community_0

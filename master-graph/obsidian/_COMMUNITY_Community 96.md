@@ -1,28 +1,29 @@
 ---
 type: community
-cohesion: 0.17
-members: 13
+cohesion: 0.16
+members: 14
 ---
 
 # Community 96
 
-**Cohesion:** 0.17 - loosely connected
-**Members:** 13 nodes
+**Cohesion:** 0.16 - loosely connected
+**Members:** 14 nodes
 
 ## Members
-- [[Algorithm Deprecation Timeline]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
-- [[BIS Project Leap (2023) Quantum-proofing the financial system]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
-- [[Bitcoin case study public, permissionless DLT with ~15-year ledger used to illustrate HNDL; threat is current, active, unmitigated for data privacy, and asynchronous across address types]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
-- [[Buterin (2023) Ethereum quantum-emergency hard-fork proposal]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
-- [[Crypto agility building continuous migration between quantum-resistant algorithms into governance rather than targeting a single Q-Day]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
-- [[Cryptographic Migration]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
-- [[HNDL poses two primary present threats to Bitcoin revealing confidential encrypted data (data privacy) and stealing funds (theft)]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
-- [[Hybrid Key Exchange]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
-- [[Limitation all proposed mitigations require security-through-force, antithetical to Bitcoin's decentralized, choice-over-force governance ethos]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
-- [[Mitigations PQC-only hard fork (Buterin-style) or soft fork, mandatory PQC address types, crypto agility, security hygiene (no address reuse) — all address theftintegrity, not retroactive privacy]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
-- [[NIST PQC standardization 3 finalized encryption standards + 5 quantum-resistant algorithms; deprecating RSAECC over 5-10 years; US federal migration mandated by 2035]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
-- [[Quantum Threat]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
-- [[Thesis PQC can protect DLT integritysecurity but cannot retroactively protect data privacy of past transactions against HNDL]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
+- [[Batched evaluation protocol for multiple pointspolynomials]] - paper - references/ch14/ref-65-greyhound.pdf
+- [[Bivariate polynomial folding f(X,Y)=aT S b with Y=Xm]] - paper - references/ch14/ref-65-greyhound.pdf
+- [[Committing to w via v=Dw-hat (proof-size reduction)]] - paper - references/ch14/ref-65-greyhound.pdf
+- [[Coordinate-wise special soundness analysis (CWSS)]] - paper - references/ch14/ref-65-greyhound.pdf
+- [[Efficiency O(sqrt N) verifier, polylog proof, 53KB at N=230]] - paper - references/ch14/ref-65-greyhound.pdf
+- [[FMN23 lattice polynomial commitments  Power-BASIS (CWSS origin)]] - paper - references/ch14/ref-65-greyhound.pdf
+- [[Greyhound polynomial commitment scheme]] - paper - references/ch14/ref-65-greyhound.pdf
+- [[HVZK  hiding variant via Module-LWE masking]] - paper - references/ch14/ref-65-greyhound.pdf
+- [[Ligero (AHIV17) and Brakedown (GLS+21) hash-based PCs (baselines)]] - paper - references/ch14/ref-65-greyhound.pdf
+- [[Reduction of verification to a single short-norm linear relation over Rq]] - paper - references/ch14/ref-65-greyhound.pdf
+- [[SLAP succinct lattice polynomial commitments (AFLN24, EUROCRYPT 2024)]] - paper - references/ch14/ref-65-greyhound.pdf
+- [[Split-and-fold  folding paradigm]] - paper - references/ch14/ref-65-greyhound.pdf
+- [[Three-round proof of polynomial evaluation (quadratic relation)]] - paper - references/ch14/ref-65-greyhound.pdf
+- [[Zq-to-Rq evaluation transform via Galois automorphism (AFLN24)]] - paper - references/ch14/ref-65-greyhound.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -32,14 +33,16 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 3 edges to [[_COMMUNITY_Community 1]]
-- 3 edges to [[_COMMUNITY_Community 91]]
-- 1 edge to [[_COMMUNITY_Community 73]]
-- 1 edge to [[_COMMUNITY_Community 52]]
+- 7 edges to [[_COMMUNITY_Community 10]]
+- 4 edges to [[_COMMUNITY_Community 0]]
+- 2 edges to [[_COMMUNITY_Community 21]]
+- 1 edge to [[_COMMUNITY_Community 32]]
+- 1 edge to [[_COMMUNITY_Community 36]]
+- 1 edge to [[_COMMUNITY_Community 43]]
 
 ## Top bridge nodes
-- [[Bitcoin case study public, permissionless DLT with ~15-year ledger used to illustrate HNDL; threat is current, active, unmitigated for data privacy, and asynchronous across address types]] - degree 3, connects to 2 communities
-- [[Mitigations PQC-only hard fork (Buterin-style) or soft fork, mandatory PQC address types, crypto agility, security hygiene (no address reuse) — all address theftintegrity, not retroactive privacy]] - degree 6, connects to 1 community
-- [[Cryptographic Migration]] - degree 5, connects to 1 community
-- [[Thesis PQC can protect DLT integritysecurity but cannot retroactively protect data privacy of past transactions against HNDL]] - degree 4, connects to 1 community
-- [[Crypto agility building continuous migration between quantum-resistant algorithms into governance rather than targeting a single Q-Day]] - degree 3, connects to 1 community
+- [[Greyhound polynomial commitment scheme]] - degree 14, connects to 5 communities
+- [[Three-round proof of polynomial evaluation (quadratic relation)]] - degree 6, connects to 1 community
+- [[Efficiency O(sqrt N) verifier, polylog proof, 53KB at N=230]] - degree 4, connects to 1 community
+- [[SLAP succinct lattice polynomial commitments (AFLN24, EUROCRYPT 2024)]] - degree 3, connects to 1 community
+- [[Coordinate-wise special soundness analysis (CWSS)]] - degree 3, connects to 1 community

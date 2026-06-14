@@ -1,12 +1,12 @@
 ---
 source_file: "wiki/sections/ch02-the-bug-that-was-not-a-ceremony-failure.md"
 type: "document"
-community: "Community 11"
+community: "Community 35"
 location: "Entities"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_11
+  - community/Community_35
 ---
 
 # Ariel Gabizon
@@ -19,4 +19,4 @@ tags:
 - [[Two Ways to Build a Stage]] - `conceptually_related_to` [EXTRACTED]
 - [[Universal versus Circuit-Specific Setups]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_11
+#graphify/document #graphify/EXTRACTED #community/Community_35

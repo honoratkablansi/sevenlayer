@@ -1,31 +1,30 @@
 ---
 type: community
-cohesion: 0.15
-members: 16
+cohesion: 0.20
+members: 15
 ---
 
 # Community 84
 
-**Cohesion:** 0.15 - loosely connected
-**Members:** 16 nodes
+**Cohesion:** 0.20 - loosely connected
+**Members:** 15 nodes
 
 ## Members
-- [[Anonymity set]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
-- [[Blockchain Privacy]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
-- [[Blockchain Privacy and Regulatory Compliance Towards a Practical Equilibrium]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
-- [[CoinJoin (Bitcoin mixing)]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
-- [[Derecho Privacy Pools with proof-carrying disclosures (Beal & Fisch)]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
-- [[Ideal private payments contract (Delta_pp, Lambda_pp)]] - paper - references/ch09/ref-30-kachina.pdf
-- [[Linkable ring signature (Monero mixing)]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
-- [[Nadler & Schaer, Tornado Cash and blockchain privacy primer]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
-- [[Privacy Pools]] - document - proving-nothing.md
-- [[Regulatory Compliance]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
-- [[Rejected designs centralized access & system-wide entry allowlisting (central point of failure)]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
-- [[Sequential proofs  inclusion-delay handling via forwarded Merkle branches & secrets]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
-- [[Theorem 2  Corollary 1 private payments emulation]] - paper - references/ch09/ref-30-kachina.pdf
-- [[Vitalik Buterin]] - document - references/ch08/ref-27-l2beat-stages.md
-- [[Zerocash]] - document - proving-nothing.md
-- [[Zerocash Kachina contract Gamma_zc]] - paper - references/ch09/ref-30-kachina.pdf
+- [[ARGUZZ first automated fuzzer for zkVM soundness & completeness bugs (7-step workflow)]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[CIRCIL extended with inline-RISC-V-assembly custom functions (e.g. mulhsu) + circuit-to-Rust translation]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[CIRCUZZ 23 metamorphic fuzzer for ZK pipelines (CIRCOMGNARKNOIR) via CIRCIL]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Completeness]] - document - proving-nothing.md
+- [[Efficient metamorphic-testing variant known expected output, k-safety, single padded trace]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Freivalds' Algorithm]] - paper - references/books/proofs-args-zk.pdf
+- [[MTZK 43 metamorphic testing of zero-knowledge compilers]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Metamorphic Testing]] - document - references/ch14/ref-61-arguzz.pdf
+- [[Perfect Completeness]] - paper - references/books/proofs-args-zk.pdf
+- [[Probabilistic Proof System]] - paper - references/books/proofs-args-zk.pdf
+- [[Product programs  hyperproperty (k-safety) reasoning 12,13,20,41]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Product-program metamorphic oracle merge k equivalent Rust fns; SUCCESS (0xC0FFEE) vs OOPS (0x0)]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[RISC-V CPU fuzzers 25,29,40,44 (DifuzzRTL, TheHuzz, Cascade, MorFuzz)]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Semantics-preserving rewrite rules (commassocdistribDe Morgan; field-arith rules disabled)]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[The Bar ID  Proof at the Door Scenario]] - document - proving-nothing.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -35,25 +34,18 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 4 edges to [[_COMMUNITY_Community 21]]
-- 3 edges to [[_COMMUNITY_Community 41]]
-- 3 edges to [[_COMMUNITY_Community 35]]
-- 3 edges to [[_COMMUNITY_Community 6]]
-- 2 edges to [[_COMMUNITY_Community 20]]
-- 2 edges to [[_COMMUNITY_Community 15]]
-- 2 edges to [[_COMMUNITY_Community 24]]
-- 2 edges to [[_COMMUNITY_Community 40]]
-- 1 edge to [[_COMMUNITY_Community 78]]
-- 1 edge to [[_COMMUNITY_Community 125]]
-- 1 edge to [[_COMMUNITY_Community 81]]
-- 1 edge to [[_COMMUNITY_Community 73]]
-- 1 edge to [[_COMMUNITY_Community 10]]
-- 1 edge to [[_COMMUNITY_Community 118]]
-- 1 edge to [[_COMMUNITY_Community 117]]
+- 5 edges to [[_COMMUNITY_Community 20]]
+- 5 edges to [[_COMMUNITY_Community 53]]
+- 3 edges to [[_COMMUNITY_Community 27]]
+- 2 edges to [[_COMMUNITY_Community 79]]
+- 1 edge to [[_COMMUNITY_Community 22]]
+- 1 edge to [[_COMMUNITY_Community 12]]
+- 1 edge to [[_COMMUNITY_Community 40]]
+- 1 edge to [[_COMMUNITY_Community 86]]
 
 ## Top bridge nodes
-- [[Zerocash]] - degree 14, connects to 8 communities
-- [[Privacy Pools]] - degree 13, connects to 6 communities
-- [[Blockchain Privacy and Regulatory Compliance Towards a Practical Equilibrium]] - degree 12, connects to 5 communities
-- [[Blockchain Privacy]] - degree 3, connects to 1 community
-- [[Theorem 2  Corollary 1 private payments emulation]] - degree 3, connects to 1 community
+- [[Completeness]] - degree 12, connects to 5 communities
+- [[ARGUZZ first automated fuzzer for zkVM soundness & completeness bugs (7-step workflow)]] - degree 13, connects to 2 communities
+- [[Freivalds' Algorithm]] - degree 6, connects to 2 communities
+- [[Metamorphic Testing]] - degree 4, connects to 1 community
+- [[Probabilistic Proof System]] - degree 3, connects to 1 community

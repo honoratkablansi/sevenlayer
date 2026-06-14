@@ -1,12 +1,12 @@
 ---
 source_file: "references/books/proofs-args-zk.pdf"
 type: "paper"
-community: "Community 12"
+community: "Community 21"
 location: "Interactive Oracle Proofs"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_12
+  - community/Community_21
 ---
 
 # Tensor-Product Structure in Polynomial Evaluation
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Ligero]] - `uses` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_12
+#graphify/paper #graphify/EXTRACTED #community/Community_21

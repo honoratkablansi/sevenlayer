@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-51-pairing-efficiency-curves.pdf"
 type: "paper"
-community: "Community 16"
+community: "Community 49"
 location: "§6"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_16
+  - community/Community_49
 ---
 
 # Recommendation: avoid composite-order groups whenever possible
@@ -17,4 +17,4 @@ tags:
 - [[Comparing the Pairing Efficiency over Composite-Order and Prime-Order Elliptic Curves]] - `proves` [EXTRACTED]
 - [[Lewko-Waters HIBE cost prime-order 10x-192x faster]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_16
+#graphify/paper #graphify/EXTRACTED #community/Community_49

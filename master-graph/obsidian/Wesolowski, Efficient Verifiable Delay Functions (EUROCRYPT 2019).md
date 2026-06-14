@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-81-wesolowski-vdf.pdf"
 type: "paper"
-community: "Community 2"
+community: "Community 6"
 location: "Title/Abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_2
+  - community/Community_6
 ---
 
 # Wesolowski, Efficient Verifiable Delay Functions (EUROCRYPT 2019)
@@ -27,4 +27,4 @@ tags:
 - [[Trapdoor-VDF identification protocol with zero-knowledge and on-line deniability]] - `introduces` [EXTRACTED]
 - [[Verifiable delay function (VDF)]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_2
+#graphify/paper #graphify/EXTRACTED #community/Community_6

@@ -1,30 +1,30 @@
 ---
 type: community
-cohesion: 0.37
+cohesion: 0.17
 members: 15
 ---
 
 # Community 86
 
-**Cohesion:** 0.37 - loosely connected
+**Cohesion:** 0.17 - loosely connected
 **Members:** 15 nodes
 
 ## Members
-- [[BatchZK (pipelined GPU prover)]] - paper - wiki/sections/ch04-witness-generation-costs.md
-- [[Execution Traces]] - document - wiki/sections/ch04-execution-traces.md
-- [[GPU-Accelerated Proving]] - document - wiki/sections/ch04-witness-generation-costs.md
-- [[Memory The Binding Constraint]] - document - wiki/sections/ch04-memory-the-binding-constraint.md
-- [[Multi-Scalar Multiplication (MSM)]] - document - proving-nothing.md
-- [[NTT over R_q (q=8380417, ζ=1753 a 512th root of unity) fast module-polynomial multiplication NTT(ab)=NTT(a)∘NTT(b)]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[Number-Theoretic Transform (NTT)]] - document - proving-nothing.md
-- [[Reinforced Concrete Hash]] - document - wiki/chapters/04-the-secret-performance.md
-- [[Streaming Witness Generation (Nair, Thaler, Zhu)]] - paper - wiki/sections/ch04-witness-generation-costs.md
-- [[The Hidden Bottleneck]] - document - wiki/sections/ch04-the-hidden-bottleneck.md
-- [[The Secret Performance]] - document - wiki/chapters/04-the-secret-performance.md
-- [[The Witness as a Multi-Dimensional Problem]] - document - wiki/sections/ch04-the-witness-as-a-multi-dimensional-problem.md
-- [[Witness Generation]] - document - proving-nothing.md
-- [[Witness Generation Costs]] - document - wiki/sections/ch04-witness-generation-costs.md
-- [[ZKPOG (GPU Witness Acceleration)]] - document - proving-nothing.md
+- [[Age and nationality verification]] - document - references/recursion/ch3/ref-83-zkpassport-anon-aadhaar.md
+- [[Credential subject]] - document - references/recursion/ch3/ref-84-w3c-verifiable-credentials.md
+- [[EU eIDAS 2.0 (digital identity wallets, 450M users)]] - document - proving-nothing.md
+- [[Identity and credentials]] - document - recursion/recursion-outline.md
+- [[Issuer  Holder  Verifier roles]] - document - references/recursion/ch3/ref-84-w3c-verifiable-credentials.md
+- [[JSON-LD core data model and contexts]] - document - references/recursion/ch3/ref-84-w3c-verifiable-credentials.md
+- [[On-device proof generation (mobile passport NFC)]] - document - references/recursion/ch3/ref-83-zkpassport-anon-aadhaar.md
+- [[Petra confidential SBOM exchange via CP-ABE (Ishgair et al.), main baseline contrasted with VeriSBOM]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
+- [[Selective Disclosure]] - document - proving-nothing.md
+- [[Verifiable credentials]] - document - references/recursion/ch3/ref-84-w3c-verifiable-credentials.md
+- [[Verifiable presentation]] - document - references/recursion/ch3/ref-84-w3c-verifiable-credentials.md
+- [[W3C Verifiable Credentials Data Model v2.0]] - document - references/recursion/ch3/ref-84-w3c-verifiable-credentials.md
+- [[ZKPassport  Anon-Aadhaar document-proof systems]] - document - references/recursion/ch3/ref-83-zkpassport-anon-aadhaar.md
+- [[ZKPassport SDK and QR verification card]] - document - references/recursion/ch3/ref-83-zkpassport-anon-aadhaar.md
+- [[Zero-knowledge proofs in verifiable credentials]] - document - references/recursion/ch3/ref-84-w3c-verifiable-credentials.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -34,38 +34,23 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 15 edges to [[_COMMUNITY_Community 4]]
-- 13 edges to [[_COMMUNITY_Community 5]]
-- 12 edges to [[_COMMUNITY_Community 24]]
-- 7 edges to [[_COMMUNITY_Community 10]]
-- 6 edges to [[_COMMUNITY_Community 0]]
-- 5 edges to [[_COMMUNITY_Community 109]]
-- 4 edges to [[_COMMUNITY_Community 116]]
-- 4 edges to [[_COMMUNITY_Community 1]]
-- 4 edges to [[_COMMUNITY_Community 129]]
-- 3 edges to [[_COMMUNITY_Community 115]]
-- 3 edges to [[_COMMUNITY_Community 33]]
-- 3 edges to [[_COMMUNITY_Community 9]]
-- 2 edges to [[_COMMUNITY_Community 17]]
-- 2 edges to [[_COMMUNITY_Community 12]]
-- 2 edges to [[_COMMUNITY_Community 80]]
-- 2 edges to [[_COMMUNITY_Community 15]]
-- 2 edges to [[_COMMUNITY_Community 22]]
-- 2 edges to [[_COMMUNITY_Community 25]]
-- 1 edge to [[_COMMUNITY_Community 11]]
-- 1 edge to [[_COMMUNITY_Community 141]]
-- 1 edge to [[_COMMUNITY_Community 3]]
+- 5 edges to [[_COMMUNITY_Community 11]]
+- 4 edges to [[_COMMUNITY_Community 3]]
+- 3 edges to [[_COMMUNITY_Community 16]]
+- 2 edges to [[_COMMUNITY_Community 4]]
+- 2 edges to [[_COMMUNITY_Community 69]]
+- 1 edge to [[_COMMUNITY_Community 22]]
+- 1 edge to [[_COMMUNITY_Community 84]]
+- 1 edge to [[_COMMUNITY_Community 97]]
+- 1 edge to [[_COMMUNITY_Community 17]]
+- 1 edge to [[_COMMUNITY_Community 12]]
+- 1 edge to [[_COMMUNITY_Community 47]]
 - 1 edge to [[_COMMUNITY_Community 19]]
-- 1 edge to [[_COMMUNITY_Community 26]]
-- 1 edge to [[_COMMUNITY_Community 48]]
-- 1 edge to [[_COMMUNITY_Community 6]]
-- 1 edge to [[_COMMUNITY_Community 54]]
-- 1 edge to [[_COMMUNITY_Community 89]]
-- 1 edge to [[_COMMUNITY_Community 21]]
+- 1 edge to [[_COMMUNITY_Community 60]]
 
 ## Top bridge nodes
-- [[The Secret Performance]] - degree 43, connects to 20 communities
-- [[Number-Theoretic Transform (NTT)]] - degree 21, connects to 8 communities
-- [[Witness Generation Costs]] - degree 22, connects to 6 communities
-- [[Witness Generation]] - degree 14, connects to 6 communities
-- [[Memory The Binding Constraint]] - degree 14, connects to 6 communities
+- [[Selective Disclosure]] - degree 22, connects to 10 communities
+- [[Identity and credentials]] - degree 5, connects to 3 communities
+- [[Verifiable credentials]] - degree 5, connects to 2 communities
+- [[ZKPassport  Anon-Aadhaar document-proof systems]] - degree 7, connects to 1 community
+- [[Petra confidential SBOM exchange via CP-ABE (Ishgair et al.), main baseline contrasted with VeriSBOM]] - degree 2, connects to 1 community

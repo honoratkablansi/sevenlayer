@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-87-deco.pdf"
 type: "paper"
-community: "Community 27"
+community: "Community 11"
 location: "Title/Abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_27
+  - community/Community_11
 ---
 
 # DECO: decentralized oracle for TLS (Zhang, Maram, Malvai, Goldfeder, Juels, CCS 2020)
@@ -35,4 +35,4 @@ tags:
 - [[Zero-knowledge two-stage parsing scheme local pre-process (Trans) then prove context integrity on shorter transformed string]] - `introduces` [EXTRACTED]
 - [[zkTLS  zkEmail web and email provenance]] - `introduces` [INFERRED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_27
+#graphify/paper #graphify/EXTRACTED #community/Community_11

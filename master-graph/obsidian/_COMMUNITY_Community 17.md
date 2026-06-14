@@ -1,51 +1,54 @@
 ---
 type: community
-cohesion: 0.10
-members: 36
+cohesion: 0.19
+members: 39
 ---
 
 # Community 17
 
-**Cohesion:** 0.10 - loosely connected
-**Members:** 36 nodes
+**Cohesion:** 0.19 - loosely connected
+**Members:** 39 nodes
 
 ## Members
-- [[CVE-2019-7167 BCTV14 Counterfeiting Bug]] - document - proving-nothing.md
-- [[Chaliasos et al. — SoK Understanding Security Vulnerabilities in SNARKs (USENIX Security 2024)]] - document - proving-nothing.md
-- [[Circle STARKs and Stwo A Generational Leap]] - document - wiki/sections/ch06-circle-starks-and-stwo-a-generational-leap.md
-- [[FFLONK]] - document - proving-nothing.md
-- [[Fiat-Shamir Vulnerabilities]] - document - wiki/sections/ch06-fiat-shamir-vulnerabilities.md
-- [[From Speed Race to Security Race]] - document - wiki/sections/ch06-from-speed-race-to-security-race.md
-- [[Frozen Heart Vulnerability]] - document - proving-nothing.md
-- [[Frozen Heart Forgery of Zero Knowledge Proofs (Trail of Bits, 2022)]] - document - references/ch06/ref-22-frozen-heart.md
-- [[Groth 2016 (ePrint 2016260)]] - document - proving-nothing.md
-- [[Groth — On the Size of Pairing-Based Non-interactive Arguments (EUROCRYPT 2016)]] - document - proving-nothing.md
-- [[Groth16]] - document - proving-nothing.md
-- [[Hybrid Transparent-Inner  Compact-Outer Architecture]] - document - proving-nothing.md
-- [[Layer 5 -- The Sealed Certificate]] - document - wiki/chapters/06-the-sealed-certificate.md
-- [[Layer 5 The Sealed Certificate (Proof System)]] - document - proving-nothing.md
-- [[Linea]] - document - wiki/sections/ch13-zk-rollups-the-proving-grounds-production.md
-- [[NVIDIA H100 GPU]] - document - wiki/sections/ch13-proving-as-a-service-the-prover-market-production.md
-- [[Polygon]] - document - wiki/sections/ch03-the-four-philosophies.md
-- [[Proving-as-a-Service The Prover Market (Production)]] - document - wiki/sections/ch13-proving-as-a-service-the-prover-market-production.md
-- [[RISC Zero Boundless]] - document - wiki/sections/ch13-proving-as-a-service-the-prover-market-production.md
-- [[Real-Time Ethereum Proving]] - document - wiki/sections/ch06-real-time-ethereum-proving.md
-- [[Recursion vs. Folding Russian Dolls and Snowballs]] - document - wiki/sections/ch06-recursion-vs-folding-russian-dolls-and-snowballs.md
-- [[SP1 Hypercube (Succinct Labs)]] - document - proving-nothing.md
-- [[STARK-Inside-SNARK-Outside Hybrid Pipeline]] - document - proving-nothing.md
-- [[Scroll]] - document - wiki/sections/ch13-zk-rollups-the-proving-grounds-production.md
-- [[Sealing the Certificate]] - document - wiki/sections/ch06-sealing-the-certificate.md
-- [[Succinct Network]] - document - wiki/sections/ch13-proving-as-a-service-the-prover-market-production.md
-- [[The Hybrid Pipeline]] - document - wiki/sections/ch06-the-hybrid-pipeline.md
-- [[The Proof Core Triad (Field, Commitment, Arithmetization)]] - document - proving-nothing.md
-- [[The Sealed Certificate (Chapter Closing)]] - document - wiki/sections/ch06-the-sealed-certificate.md
-- [[The Three Families]] - document - wiki/sections/ch06-the-three-families.md
-- [[Universal SNARK]] - paper - references/snowball/recursion/ref-129-mirage-succinct-arguments-for-randomized-algori.pdf
-- [[ZK Rollups The Proving Grounds (Production)]] - document - wiki/sections/ch13-zk-rollups-the-proving-grounds-production.md
-- [[ZKsync Airbender]] - document - proving-nothing.md
-- [[Zcash Sapling Ceremony (2018, BGM17 MMORPG)]] - document - proving-nothing.md
-- [[Zcash Sprout Ceremony (2016, BCTV14)]] - document - proving-nothing.md
-- [[ZkCloud (formerly Gevulot)]] - document - wiki/sections/ch13-proving-as-a-service-the-prover-market-production.md
+- [[AETSTARK cost wdT metric; Poseidon-128 width-3 AET cost 20540perm (40 opsbit), width-5 38214perm]] - paper - references/recursion/ch1/ref-31-poseidon.pdf
+- [[Algebraic vs Traditional Hash Functions]] - document - wiki/sections/ch04-side-channel-attacks-when-the-walls-leak.md
+- [[BLS12-381 Curve]] - document - proving-nothing.md
+- [[Cardano]] - document - wiki/sections/ch12-midnight-at-a-glance.md
+- [[Case Study Midnight (Layer 6)]] - document - wiki/sections/ch07-case-study-midnight.md
+- [[Case Study Midnight and the Three-Token Architecture]] - document - wiki/sections/ch04-memory-the-binding-constraint.md
+- [[Case Study Midnight's Sealed Certificate]] - document - wiki/sections/ch03-the-developer-s-actual-experience.md
+- [[Compact Language]] - document - wiki/chapters/03-choreographing-the-act.md
+- [[Compact Language Reference (Midnight Network)]] - document - references/ch12/ref-39-compact-language-reference.md
+- [[Compact's Disclosure Analysis]] - document - wiki/sections/ch03-compact-s-disclosure-analysis.md
+- [[Five Lessons for ZK System Design]] - document - wiki/sections/ch12-five-lessons-for-zk-system-design.md
+- [[Four-Phase Transaction Pipeline]] - document - proving-nothing.md
+- [[Full Seven-Layer Mapping]] - document - wiki/sections/ch12-full-seven-layer-mapping.md
+- [[Halo 2  UltraPlonk]] - document - proving-nothing.md
+- [[Jubjub Curve]] - document - proving-nothing.md
+- [[Local Proof Server (localhost6300)]] - document - proving-nothing.md
+- [[Midnight (Privacy Blockchain)]] - document - proving-nothing.md
+- [[Midnight -- The Privacy Theater]] - document - wiki/chapters/12-midnight-the-privacy-theater.md
+- [[Midnight Developer Guide (Midnight Docs)]] - document - references/ch12/ref-41-midnight-developer-guide.md
+- [[Midnight Reference Documentation (473pp)]] - document - proving-nothing.md
+- [[Midnight Three-Token Architecture (Night, Shielded, DUST)]] - document - proving-nothing.md
+- [[Midnight as Test Case]] - document - wiki/sections/ch12-midnight-as-test-case.md
+- [[Midnight at a Glance]] - document - wiki/sections/ch12-midnight-at-a-glance.md
+- [[Midnight's ZKIR A Concrete Layer 4]] - document - wiki/sections/ch05-midnight-s-zkir-a-concrete-layer-4.md
+- [[Midnight Compiler, IR, Circuit]] - document - wiki/sections/ch03-midnight-compiler-ir-circuit.md
+- [[MidnightJS SDK]] - document - wiki/sections/ch12-full-seven-layer-mapping.md
+- [[Poseidon Hash]] - document - proving-nothing.md
+- [[Privacy Theater Analogy]] - document - proving-nothing.md
+- [[ShieldedUnshielded UTXO Model]] - document - proving-nothing.md
+- [[Side-Channel Attacks When the Walls Leak]] - document - wiki/sections/ch04-side-channel-attacks-when-the-walls-leak.md
+- [[The Disclose Boundary Midnight's Witness Architecture]] - document - wiki/sections/ch04-the-disclose-boundary-midnight-s-witness-architecture.md
+- [[The Privacy Theater Analogy]] - document - wiki/sections/ch12-the-privacy-theater-analogy.md
+- [[Three-Token Model (NIGHTDUSTCustom)]] - document - proving-nothing.md
+- [[UTXO Model]] - document - wiki/sections/ch12-full-seven-layer-mapping.md
+- [[Verifier Key Lifecycle  Immutability]] - document - proving-nothing.md
+- [[Where Midnight Challenges the Model]] - document - wiki/sections/ch12-where-midnight-challenges-the-model.md
+- [[Where Midnight Validates the Model]] - document - wiki/sections/ch12-where-midnight-validates-the-model.md
+- [[ZKIR (Zero-Knowledge Intermediate Representation)]] - document - proving-nothing.md
+- [[ZKIR Intermediate Representation Reference (Midnight Network, stub)]] - document - references/ch12/ref-40-zkir-reference.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -55,57 +58,46 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 56 edges to [[_COMMUNITY_Community 0]]
-- 35 edges to [[_COMMUNITY_Community 1]]
-- 32 edges to [[_COMMUNITY_Community 5]]
-- 23 edges to [[_COMMUNITY_Community 11]]
-- 16 edges to [[_COMMUNITY_Community 10]]
-- 16 edges to [[_COMMUNITY_Community 24]]
-- 13 edges to [[_COMMUNITY_Community 4]]
-- 12 edges to [[_COMMUNITY_Community 61]]
-- 11 edges to [[_COMMUNITY_Community 22]]
-- 10 edges to [[_COMMUNITY_Community 70]]
-- 6 edges to [[_COMMUNITY_Community 25]]
-- 5 edges to [[_COMMUNITY_Community 39]]
-- 5 edges to [[_COMMUNITY_Community 15]]
-- 4 edges to [[_COMMUNITY_Community 62]]
-- 4 edges to [[_COMMUNITY_Community 40]]
-- 3 edges to [[_COMMUNITY_Community 58]]
-- 2 edges to [[_COMMUNITY_Community 41]]
-- 2 edges to [[_COMMUNITY_Community 101]]
-- 2 edges to [[_COMMUNITY_Community 87]]
-- 2 edges to [[_COMMUNITY_Community 86]]
-- 2 edges to [[_COMMUNITY_Community 43]]
-- 2 edges to [[_COMMUNITY_Community 105]]
-- 2 edges to [[_COMMUNITY_Community 23]]
-- 2 edges to [[_COMMUNITY_Community 13]]
-- 2 edges to [[_COMMUNITY_Community 125]]
-- 2 edges to [[_COMMUNITY_Community 29]]
-- 2 edges to [[_COMMUNITY_Community 9]]
-- 2 edges to [[_COMMUNITY_Community 79]]
-- 1 edge to [[_COMMUNITY_Community 20]]
-- 1 edge to [[_COMMUNITY_Community 116]]
-- 1 edge to [[_COMMUNITY_Community 120]]
-- 1 edge to [[_COMMUNITY_Community 8]]
-- 1 edge to [[_COMMUNITY_Community 83]]
-- 1 edge to [[_COMMUNITY_Community 68]]
-- 1 edge to [[_COMMUNITY_Community 59]]
-- 1 edge to [[_COMMUNITY_Community 6]]
-- 1 edge to [[_COMMUNITY_Community 31]]
-- 1 edge to [[_COMMUNITY_Community 102]]
-- 1 edge to [[_COMMUNITY_Community 78]]
-- 1 edge to [[_COMMUNITY_Community 119]]
-- 1 edge to [[_COMMUNITY_Community 51]]
-- 1 edge to [[_COMMUNITY_Community 72]]
-- 1 edge to [[_COMMUNITY_Community 30]]
-- 1 edge to [[_COMMUNITY_Community 76]]
-- 1 edge to [[_COMMUNITY_Community 19]]
-- 1 edge to [[_COMMUNITY_Community 18]]
+- 54 edges to [[_COMMUNITY_Community 0]]
+- 32 edges to [[_COMMUNITY_Community 12]]
+- 32 edges to [[_COMMUNITY_Community 8]]
+- 30 edges to [[_COMMUNITY_Community 35]]
+- 27 edges to [[_COMMUNITY_Community 2]]
+- 26 edges to [[_COMMUNITY_Community 13]]
+- 25 edges to [[_COMMUNITY_Community 1]]
+- 20 edges to [[_COMMUNITY_Community 61]]
+- 7 edges to [[_COMMUNITY_Community 5]]
+- 5 edges to [[_COMMUNITY_Community 4]]
+- 5 edges to [[_COMMUNITY_Community 16]]
+- 4 edges to [[_COMMUNITY_Community 97]]
+- 3 edges to [[_COMMUNITY_Community 29]]
+- 3 edges to [[_COMMUNITY_Community 19]]
+- 2 edges to [[_COMMUNITY_Community 32]]
+- 2 edges to [[_COMMUNITY_Community 10]]
+- 2 edges to [[_COMMUNITY_Community 98]]
+- 2 edges to [[_COMMUNITY_Community 76]]
+- 2 edges to [[_COMMUNITY_Community 90]]
+- 2 edges to [[_COMMUNITY_Community 30]]
+- 2 edges to [[_COMMUNITY_Community 73]]
+- 1 edge to [[_COMMUNITY_Community 22]]
+- 1 edge to [[_COMMUNITY_Community 115]]
 - 1 edge to [[_COMMUNITY_Community 21]]
+- 1 edge to [[_COMMUNITY_Community 86]]
+- 1 edge to [[_COMMUNITY_Community 27]]
+- 1 edge to [[_COMMUNITY_Community 25]]
+- 1 edge to [[_COMMUNITY_Community 79]]
+- 1 edge to [[_COMMUNITY_Community 72]]
+- 1 edge to [[_COMMUNITY_Community 80]]
+- 1 edge to [[_COMMUNITY_Community 75]]
+- 1 edge to [[_COMMUNITY_Community 36]]
+- 1 edge to [[_COMMUNITY_Community 91]]
+- 1 edge to [[_COMMUNITY_Community 24]]
+- 1 edge to [[_COMMUNITY_Community 48]]
+- 1 edge to [[_COMMUNITY_Community 3]]
 
 ## Top bridge nodes
-- [[Groth16]] - degree 113, connects to 30 communities
-- [[Layer 5 -- The Sealed Certificate]] - degree 69, connects to 21 communities
-- [[ZK Rollups The Proving Grounds (Production)]] - degree 25, connects to 9 communities
-- [[The Three Families]] - degree 27, connects to 8 communities
-- [[The Sealed Certificate (Chapter Closing)]] - degree 20, connects to 7 communities
+- [[Midnight (Privacy Blockchain)]] - degree 79, connects to 13 communities
+- [[Poseidon Hash]] - degree 46, connects to 13 communities
+- [[Halo 2  UltraPlonk]] - degree 39, connects to 13 communities
+- [[BLS12-381 Curve]] - degree 42, connects to 10 communities
+- [[Midnight -- The Privacy Theater]] - degree 36, connects to 9 communities

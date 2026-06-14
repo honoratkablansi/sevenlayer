@@ -1,12 +1,12 @@
 ---
 source_file: "recursion/recursion-outline.md"
 type: "document"
-community: "Community 13"
+community: "Community 19"
 location: "Recursion Chapter 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_13
+  - community/Community_19
 ---
 
 # Recursion Shifts Cost, It Doesn't Eliminate It
@@ -15,4 +15,4 @@ tags:
 - [[Recursive Proof Composition]] - `explains` [EXTRACTED]
 - [[The Recursion Gap (prove-vs-run overhead)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_13
+#graphify/document #graphify/EXTRACTED #community/Community_19

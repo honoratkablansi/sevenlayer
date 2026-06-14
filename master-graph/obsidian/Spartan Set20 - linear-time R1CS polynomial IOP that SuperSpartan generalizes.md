@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch03/ref-14-ccs-customizable-constraints.pdf"
 type: "paper"
-community: "Community 9"
+community: "Community 28"
 location: "refs [Set20]"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_9
+  - community/Community_28
 ---
 
 # Spartan [Set20] - linear-time R1CS polynomial IOP that SuperSpartan generalizes
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[SuperSpartan SNARK family for CCS generalizing Spartan's polynomial IOP]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_9
+#graphify/paper #graphify/EXTRACTED #community/Community_28

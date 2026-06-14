@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-30-cyclefold.pdf"
 type: "paper"
-community: "Community 25"
+community: "Community 37"
 location: "§1.2 (Closing the loop), §3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_25
+  - community/Community_37
 ---
 
 # Fold second-curve correctness instance u_EC on the first curve via Nova
@@ -19,4 +19,4 @@ tags:
 - [[Spartan zkSNARK]] - `conceptually_related_to` [EXTRACTED]
 - [[Tiny co-processor circuit C_EC on second curve (~1000-1500 gates)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_25
+#graphify/paper #graphify/EXTRACTED #community/Community_37

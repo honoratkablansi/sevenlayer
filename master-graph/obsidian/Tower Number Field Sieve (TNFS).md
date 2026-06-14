@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-50-extended-tower-nfs.pdf"
 type: "paper"
-community: "Community 16"
+community: "Community 56"
 location: "introduction"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_16
+  - community/Community_56
 ---
 
 # Tower Number Field Sieve (TNFS)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Number Field Sieve]] - `extends` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_16
+#graphify/paper #graphify/EXTRACTED #community/Community_56

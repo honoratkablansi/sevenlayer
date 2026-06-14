@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-08-stark.pdf"
 type: "paper"
-community: "Community 51"
+community: "Community 54"
 location: "§2.3, App. D"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_51
+  - community/Community_54
 ---
 
 # Algebraic Linking Interactive Oracle Proof (ALI)
@@ -16,4 +16,4 @@ tags:
 - [[FRI Commitment Scheme]] - `assumes` [EXTRACTED]
 - [[Scalable, Transparent, and Post-Quantum Secure Computational Integrity]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_51
+#graphify/paper #graphify/EXTRACTED #community/Community_54

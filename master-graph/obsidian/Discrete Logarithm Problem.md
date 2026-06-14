@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch07/ref-24-shor.pdf"
 type: "paper"
-community: "Community 44"
+community: "Community 56"
 location: "p.1 (abstract)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_44
+  - community/Community_56
 ---
 
 # Discrete Logarithm Problem
@@ -23,4 +23,4 @@ tags:
 - [[Quantum-vulnerable key establishment (Finite FieldEC DH & MQV per SP 800-56A, RSA per SP 800-56B)]] - `assumes` [EXTRACTED]
 - [[exTNFS (Extended Tower Number Field Sieve)]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_44
+#graphify/paper #graphify/EXTRACTED #community/Community_56

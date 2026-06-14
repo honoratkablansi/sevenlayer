@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch07/ref-26-nist-ir-8547.pdf"
 type: "paper"
-community: "Community 96"
+community: "Community 104"
 location: "section 2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_96
+  - community/Community_104
 ---
 
 # Cryptographic Migration
@@ -18,4 +18,4 @@ tags:
 - [[Post-quantum security (against quantum adversaries; security in the QROM)]] - `defines` [EXTRACTED]
 - [[Quantum Threat]] - `motivates` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_96
+#graphify/paper #graphify/EXTRACTED #community/Community_104

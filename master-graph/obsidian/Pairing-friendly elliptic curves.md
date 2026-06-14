@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-13-chiesa-chua-weidner-cycles.pdf"
 type: "paper"
-community: "Community 8"
+community: "Community 24"
 location: "§2.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_8
+  - community/Community_24
 ---
 
 # Pairing-friendly elliptic curves
@@ -22,4 +22,4 @@ tags:
 - [[Freeman Fre06 - prime-order curve family with k=10]] - `conceptually_related_to` [EXTRACTED]
 - [[MNT curves (embedding degrees 4 and 6)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_8
+#graphify/paper #graphify/EXTRACTED #community/Community_24

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-08-stark.pdf"
 type: "paper"
-community: "Community 52"
+community: "Community 74"
 location: "§3.3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_52
+  - community/Community_74
 ---
 
 # Random oracle model (non-interactive STARK / NIROP)
@@ -28,4 +28,4 @@ tags:
 - [[Transparent random oracle RO_0RO_1 (programmable weakening; simulator learns r)]] - `conceptually_related_to` [EXTRACTED]
 - [[Zero-Knowledge Scalable Transparent ARgument of Knowledge (ZK-STARK)]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_52
+#graphify/paper #graphify/EXTRACTED #community/Community_74

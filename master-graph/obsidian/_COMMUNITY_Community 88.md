@@ -34,16 +34,17 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 6 edges to [[_COMMUNITY_Community 3]]
-- 4 edges to [[_COMMUNITY_Community 79]]
-- 4 edges to [[_COMMUNITY_Community 75]]
-- 2 edges to [[_COMMUNITY_Community 12]]
-- 1 edge to [[_COMMUNITY_Community 70]]
-- 1 edge to [[_COMMUNITY_Community 9]]
+- 4 edges to [[_COMMUNITY_Community 90]]
+- 4 edges to [[_COMMUNITY_Community 76]]
+- 3 edges to [[_COMMUNITY_Community 18]]
+- 3 edges to [[_COMMUNITY_Community 114]]
+- 2 edges to [[_COMMUNITY_Community 21]]
+- 1 edge to [[_COMMUNITY_Community 32]]
+- 1 edge to [[_COMMUNITY_Community 28]]
 
 ## Top bridge nodes
 - [[zkCNN commit-and-prove scheme (KeyGen, Commit, Prove, Verify) for CNN prediction]] - degree 11, connects to 2 communities
 - [[Verifiable  trustless DNN inference model consumer verifies that the model provider served correct predictions in an untrusted (MLaaS) setting]] - degree 8, connects to 2 communities
 - [[zkCNN Zero Knowledge Proofs for CNN Predictions and Accuracy (CCS 2021)]] - degree 8, connects to 2 communities
+- [[Zero-knowledge proof of 2-D convolution correctness]] - degree 4, connects to 2 communities
 - [[Zero knowledge via zk-sumcheck + low-degree extension + zk polynomial commitment; non-interactive via Fiat-Shamir]] - degree 3, connects to 2 communities
-- [[Zero-knowledge proof of 2-D convolution correctness]] - degree 4, connects to 1 community

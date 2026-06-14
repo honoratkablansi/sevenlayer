@@ -1,31 +1,31 @@
 ---
 type: community
-cohesion: 0.17
+cohesion: 0.16
 members: 16
 ---
 
 # Community 83
 
-**Cohesion:** 0.17 - loosely connected
+**Cohesion:** 0.16 - loosely connected
 **Members:** 16 nodes
 
 ## Members
-- [[Batching of polynomial commitments & grand-product arguments (random linear combinations)]] - paper - references/ch10/ref-36-sonic.pdf
-- [[Bivariate constraint system a∘b=c plus Q linear constraints, embedded as constant term of t(X,Y)]] - paper - references/ch10/ref-36-sonic.pdf
-- [[Bounded Polynomial Extractability & Evaluation Binding (PCS properties)]] - paper - references/ch10/ref-36-sonic.pdf
-- [[Constant 256-byte proofs, ~0.7ms helped verification, BLS12-381 Rust implementation]] - paper - references/ch10/ref-36-sonic.pdf
-- [[Grand-Product Argument (gprodPgprodV, prod a_i = prod b_i)]] - paper - references/ch10/ref-36-sonic.pdf
-- [[Helped mode untrusted helper aggregates a batch of proofs (best practical efficiency)]] - paper - references/ch10/ref-36-sonic.pdf
-- [[Linear-size monomial SRS {g{xi}, g{alpha xi}, h{xi}, h{alpha xi}, e(g,halpha)}, galpha omitted]] - paper - references/ch10/ref-36-sonic.pdf
-- [[Maller et al. — Sonic Universal and Updatable SRS (CCS 2019)]] - document - proving-nothing.md
-- [[Mary Maller]] - document - references/ch10/ref-36-sonic.pdf
-- [[Modified KZG polynomial commitment for Laurent polynomials (bounded-degree, single-point hidden)]] - paper - references/ch10/ref-36-sonic.pdf
-- [[Polynomial Permutation Argument (DerivepermPpermV)]] - paper - references/ch10/ref-36-sonic.pdf
-- [[Signature of Correct Computation (scPscV) for s(z,y) of public s(X,Y)]] - paper - references/ch10/ref-36-sonic.pdf
-- [[Sonic zk-SNARK (universal & updatable linear-size SRS)]] - paper - references/ch10/ref-36-sonic.pdf
-- [[Unhelped (standalone) signature of correct computation — succinct verifier, higher overhead]] - paper - references/ch10/ref-36-sonic.pdf
-- [[Universal vs Circuit-Specific SRS]] - document - proving-nothing.md
-- [[Well-Formedness Argument (commitment to sum a_i Xi, no constant term)]] - paper - references/ch10/ref-36-sonic.pdf
+- [[Commit-and-Open Fiat-Shamir transform FSHPi_cm,Pi_rok (Thm 5.1) over compressed transcript]] - paper - references/ch10/ref-56-symphony.pdf
+- [[Commit-and-prove compiler from RoK to SNARK without FS in circuit (Construction 6.1, Thm 6.1)]] - paper - references/ch10/ref-56-symphony.pdf
+- [[Efficiency 200KB proof (PQ), prover dominated by witness commitment, O(loglog n) data passes, O(n) memory]] - paper - references/ch10/ref-56-symphony.pdf
+- [[Halo BGH19 (origin of accumulationfolding, cited prior work)]] - paper - references/ch10/ref-56-symphony.pdf
+- [[High-arity folding (fold many NP statements per step, no deep folding trees)]] - paper - references/ch10/ref-56-symphony.pdf
+- [[Lattice-based high-arity folding scheme Pi_fold (Thm 4.1) compressing l_np R1CS statements in one shot]] - paper - references/ch10/ref-56-symphony.pdf
+- [[LatticeFold BC24 (lattice folding & decomposition RoK, cited prior work)]] - paper - references/ch10/ref-56-symphony.pdf
+- [[Neo NS25 (lattice SNARK; Hadamard sumcheck and single-instance encoding, cited prior work)]] - paper - references/ch10/ref-56-symphony.pdf
+- [[Plausibly post-quantum security from lattice MSIS hardness]] - paper - references/ch10/ref-56-symphony.pdf
+- [[Protostar BC23 (commit-and-open  accumulation, cited prior work)]] - paper - references/ch10/ref-56-symphony.pdf
+- [[RoK Pi_had reducing batched HadamardR1CS relation to linear relation (Prop 3.1)]] - paper - references/ch10/ref-56-symphony.pdf
+- [[Straightline extractability of commitment (enables tighter ROM reduction)]] - paper - references/ch10/ref-56-symphony.pdf
+- [[Symphony Scalable SNARKs in the Random Oracle Model from Lattice-Based High-Arity Folding]] - paper - references/ch10/ref-56-symphony.pdf
+- [[Symphony scalable SNARK in the ROM from high-arity folding]] - paper - references/ch10/ref-56-symphony.pdf
+- [[Tensor-of-rings E = K (x) Rq enabling interleaved sumcheck and folding]] - paper - references/ch10/ref-56-symphony.pdf
+- [[Two-layer folding via splitting linear-statement RoK (§8), under stronger structured-MSIS]] - paper - references/ch10/ref-56-symphony.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -35,21 +35,19 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 6 edges to [[_COMMUNITY_Community 11]]
-- 4 edges to [[_COMMUNITY_Community 34]]
-- 3 edges to [[_COMMUNITY_Community 59]]
-- 2 edges to [[_COMMUNITY_Community 43]]
-- 2 edges to [[_COMMUNITY_Community 15]]
-- 2 edges to [[_COMMUNITY_Community 105]]
-- 2 edges to [[_COMMUNITY_Community 99]]
-- 1 edge to [[_COMMUNITY_Community 70]]
-- 1 edge to [[_COMMUNITY_Community 41]]
-- 1 edge to [[_COMMUNITY_Community 17]]
-- 1 edge to [[_COMMUNITY_Community 5]]
+- 9 edges to [[_COMMUNITY_Community 0]]
+- 4 edges to [[_COMMUNITY_Community 118]]
+- 3 edges to [[_COMMUNITY_Community 10]]
+- 3 edges to [[_COMMUNITY_Community 28]]
+- 2 edges to [[_COMMUNITY_Community 74]]
+- 1 edge to [[_COMMUNITY_Community 32]]
+- 1 edge to [[_COMMUNITY_Community 15]]
+- 1 edge to [[_COMMUNITY_Community 20]]
+- 1 edge to [[_COMMUNITY_Community 12]]
 
 ## Top bridge nodes
-- [[Universal vs Circuit-Specific SRS]] - degree 15, connects to 8 communities
-- [[Sonic zk-SNARK (universal & updatable linear-size SRS)]] - degree 14, connects to 5 communities
-- [[Mary Maller]] - degree 4, connects to 3 communities
-- [[Modified KZG polynomial commitment for Laurent polynomials (bounded-degree, single-point hidden)]] - degree 7, connects to 2 communities
-- [[Bivariate constraint system a∘b=c plus Q linear constraints, embedded as constant term of t(X,Y)]] - degree 3, connects to 1 community
+- [[Symphony Scalable SNARKs in the Random Oracle Model from Lattice-Based High-Arity Folding]] - degree 22, connects to 7 communities
+- [[Lattice-based high-arity folding scheme Pi_fold (Thm 4.1) compressing l_np R1CS statements in one shot]] - degree 9, connects to 3 communities
+- [[RoK Pi_had reducing batched HadamardR1CS relation to linear relation (Prop 3.1)]] - degree 4, connects to 2 communities
+- [[Commit-and-Open Fiat-Shamir transform FSHPi_cm,Pi_rok (Thm 5.1) over compressed transcript]] - degree 5, connects to 1 community
+- [[Neo NS25 (lattice SNARK; Hadamard sumcheck and single-instance encoding, cited prior work)]] - degree 3, connects to 1 community

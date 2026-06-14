@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-88-provisions.pdf"
 type: "paper"
-community: "Community 73"
+community: "Community 39"
 location: "§5 Protocol 2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_73
+  - community/Community_39
 ---
 
 # Privacy-preserving proof of liabilities (Protocol 2)
@@ -20,4 +20,4 @@ tags:
 - [[Provisions privacy-preserving proof of solvency for Bitcoin exchanges]] - `introduces` [EXTRACTED]
 - [[Theorem 2 proof-of-liabilities is zero-knowledge and sound]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_73
+#graphify/paper #graphify/EXTRACTED #community/Community_39

@@ -1,33 +1,34 @@
 ---
 type: community
-cohesion: 0.12
-members: 18
+cohesion: 0.20
+members: 19
 ---
 
 # Community 69
 
-**Cohesion:** 0.12 - loosely connected
-**Members:** 18 nodes
+**Cohesion:** 0.20 - loosely connected
+**Members:** 19 nodes
 
 ## Members
-- [[Automated Detection of Under-Constrained Circuits in Zero-Knowledge Proofs]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
-- [[Circomlib Decoder Underconstrained Bug (motivating example)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
-- [[Constrained Circuit (Definition 4.6)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
-- [[Constrained Variable (Definition 4.4)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
-- [[Multi-prover design as defense (redundant proof systems  TEE, trades liveness for safety)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
-- [[RISC Zero CVE-2025-52484 (rs1rs2 confusion)]] - document - proving-nothing.md
-- [[Root cause missing input constraints in reusable circuits]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
-- [[Root cause out-of-circuit computation not constrained (incl. boomerang issue)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
-- [[Root cause unsafe reuse of circuit (implicit sub-circuit constraints, insecure instantiation)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
-- [[Root cause wrong translation of logic into constraints (largest circuit root cause, 34)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
-- [[Scroll zkEVM LtChip missing range-check bug (Halo2 missing input constraint)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
-- [[Soundness and Completeness Bugs]] - document - proving-nothing.md
-- [[Survey of SNARK defense tools (Circomspect, ZKAP, Korrekt, Picus, Ecne, CIVER, SnarkProbe, Coda)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
-- [[TornadoCash Underconstrained Circuit Hack]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
-- [[Under-Constrained Circuit  Missing Constraint]] - document - proving-nothing.md
-- [[circom-pairing CoreVerifyPubkeyG1 unconstrained-output bug (unsafe sub-circuit reuse)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
-- [[zkFuzz (Takahashi, Kim et al., S&P 2026)]] - document - proving-nothing.md
-- [[zkSync Era MemoryWriteQuery Bug]] - document - proving-nothing.md
+- [[Compliance predicate  local property of distributed computation]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
+- [[Dual-Tree Architecture Package Tree (authenticity) + isomorphic Shadow Tree (compliance)]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
+- [[Folding-based aggregation ValidDep as atomic step folded over N dependencies into one succinct proof pi]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
+- [[Forest of Shadow Trees + DatalogHorn-clause policy composition and client-on-demand aggregation]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
+- [[Groth16 pairing-based zkSNARK (cited alternative proving system)]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
+- [[Implementation CircomPoseidon Attest circuit, Nova folding over Pasta curves, Spartan-wrapped succinct proof, Python+pyDataLog+SQLite auditor engine]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
+- [[Nova recursive folding scheme (IVC; first to fold two NP statements into one)]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
+- [[Package Tree (PT) VC maintained by package manager committing dependency inclusionauthenticity]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
+- [[Policy Propagation Engine (PPE) recursive compliance C(p)=L(p)prod C(d) propagated up dependency DAG]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
+- [[Re-proving on CVEupdate via root freshness revocation (S3) and remediation (S4) lifecycle, replay resistance]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
+- [[Root-binding accountability verification bound to trusted public roots defeats parallel forged trees]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
+- [[Shadow Tree (ST) isomorphic compliance VC by auditor; leaf flag 10 (compliantnon-compliant)]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
+- [[Spartan transparent zkSNARK without trusted setup (final proof compression wrapper)]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
+- [[Theorem 1 Package Tree position-binding (cannot open index to a different value)]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
+- [[Theorem 2 Soundness of Dual-Tree verification (no valid proof for non-existentnon-compliant package)]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
+- [[Theorem 3 Root-binding accountability (cannot accept proof from divergent PTST)]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
+- [[ValidDep dual-membership predicate package valid iff member of both PT and ST roots]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
+- [[Vector commitment scheme (position-binding; Merkle-tree instantiation, O(log n) openings)]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
+- [[VeriSBOM trustless, selectively-disclosed verifiable SBOM-sharing framework via ZKPs]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -37,21 +38,18 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 4 edges to [[_COMMUNITY_Community 82]]
-- 3 edges to [[_COMMUNITY_Community 95]]
-- 3 edges to [[_COMMUNITY_Community 24]]
-- 3 edges to [[_COMMUNITY_Community 5]]
-- 3 edges to [[_COMMUNITY_Community 103]]
-- 2 edges to [[_COMMUNITY_Community 129]]
-- 2 edges to [[_COMMUNITY_Community 0]]
-- 2 edges to [[_COMMUNITY_Community 90]]
-- 2 edges to [[_COMMUNITY_Community 46]]
-- 1 edge to [[_COMMUNITY_Community 3]]
-- 1 edge to [[_COMMUNITY_Community 109]]
-- 1 edge to [[_COMMUNITY_Community 107]]
+- 3 edges to [[_COMMUNITY_Community 22]]
+- 3 edges to [[_COMMUNITY_Community 19]]
+- 3 edges to [[_COMMUNITY_Community 62]]
+- 2 edges to [[_COMMUNITY_Community 86]]
+- 2 edges to [[_COMMUNITY_Community 29]]
+- 2 edges to [[_COMMUNITY_Community 47]]
+- 2 edges to [[_COMMUNITY_Community 44]]
+- 1 edge to [[_COMMUNITY_Community 2]]
 
 ## Top bridge nodes
-- [[Under-Constrained Circuit  Missing Constraint]] - degree 31, connects to 11 communities
-- [[Automated Detection of Under-Constrained Circuits in Zero-Knowledge Proofs]] - degree 10, connects to 6 communities
-- [[Survey of SNARK defense tools (Circomspect, ZKAP, Korrekt, Picus, Ecne, CIVER, SnarkProbe, Coda)]] - degree 3, connects to 1 community
-- [[Circomlib Decoder Underconstrained Bug (motivating example)]] - degree 2, connects to 1 community
+- [[VeriSBOM trustless, selectively-disclosed verifiable SBOM-sharing framework via ZKPs]] - degree 22, connects to 4 communities
+- [[Compliance predicate  local property of distributed computation]] - degree 8, connects to 2 communities
+- [[Vector commitment scheme (position-binding; Merkle-tree instantiation, O(log n) openings)]] - degree 7, connects to 2 communities
+- [[Folding-based aggregation ValidDep as atomic step folded over N dependencies into one succinct proof pi]] - degree 3, connects to 1 community
+- [[Nova recursive folding scheme (IVC; first to fold two NP statements into one)]] - degree 3, connects to 1 community

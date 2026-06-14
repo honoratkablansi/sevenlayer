@@ -1,12 +1,12 @@
 ---
 source_file: "references/snowball/book/ref-096-orion-zero-knowledge-proof-with-linear-prover-t.pdf"
 type: "paper"
-community: "Community 20"
+community: "Community 18"
 location: "abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_20
+  - community/Community_18
 ---
 
 # Lossless Expander Graph
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Orion]] - `uses` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_20
+#graphify/paper #graphify/EXTRACTED #community/Community_18

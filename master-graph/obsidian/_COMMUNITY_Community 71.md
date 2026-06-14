@@ -1,33 +1,34 @@
 ---
 type: community
-cohesion: 0.16
-members: 18
+cohesion: 0.13
+members: 19
 ---
 
 # Community 71
 
-**Cohesion:** 0.16 - loosely connected
-**Members:** 18 nodes
+**Cohesion:** 0.13 - loosely connected
+**Members:** 19 nodes
 
 ## Members
-- [[Additive Homomorphism of Commitments]] - paper - references/books/proofs-args-zk.pdf
-- [[Additively-Homomorphic Vector Commitment]] - paper - references/ch06/ref-17-nova.pdf
-- [[Commit-and-Prove SNARK]] - document - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
-- [[Commitment Scheme]] - paper - references/ch06/ref-21-neo.pdf
-- [[Computational Binding]] - paper - references/books/proofs-args-zk.pdf
-- [[Fiat-Shamir heuristic (interactive to non-interactive compilation)]] - paper - references/recursion/ch3/ref-88-provisions.pdf
-- [[Multiplicative Complexity (of a Circuit)]] - paper - references/books/proofs-args-zk.pdf
-- [[NARK for R1CS from Fiat-Shamir over a Pedersen-commitment sigma protocol (linear argument size)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[Non-interactive argument of knowledge (NARK)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[Pay-Per-Bit Commitment]] - paper - references/ch06/ref-21-neo.pdf
-- [[Pedersen Commitment]] - document - proving-nothing.md
-- [[Proof-of-assets Sigma-protocol (HVZK argument of knowledge)]] - paper - references/recursion/ch3/ref-88-provisions.pdf
-- [[Ring-SIS]] - paper - references/snowball/recursion/ref-133-a-non-pcp-approach-to-succinct-quantum-safe-zero.pdf
-- [[Schnorr proof of knowledge of discrete logarithm]] - paper - references/recursion/ch3/ref-88-provisions.pdf
-- [[Sigma protocol (public-coin 3-move)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[Special Soundness]] - paper - references/books/proofs-args-zk.pdf
-- [[Theorem 1 proof-of-assets Sigma-protocol is HVZK argument of knowledge]] - paper - references/recursion/ch3/ref-88-provisions.pdf
-- [[Zero-Knowledge from Interactive Proofs (GKR-based)]] - paper - references/books/proofs-args-zk.pdf
+- [[A-la-carte cost profile for machine execution]] - paper - references/ch06/ref-18-hypernova.pdf
+- [[Cross-Term Derivation]] - document - recursion/recursion-outline.md
+- [[CycleFold cycle-of-curves delegation technique]] - paper - references/ch06/ref-18-hypernova.pdf
+- [[HyperNova NIVC-from-multifolding compiler (Construction 2)]] - paper - references/ch06/ref-18-hypernova.pdf
+- [[HyperNova Recursive Arguments for Customizable Constraint Systems]] - paper - references/ch06/ref-18-hypernova.pdf
+- [[Lemma 5 (Nova folding is blinding)]] - paper - references/ch06/ref-18-hypernova.pdf
+- [[Lemma 610 (folding CCS is randomizing)]] - paper - references/ch06/ref-18-hypernova.pdf
+- [[Linearized (committed) CCS relation]] - paper - references/ch06/ref-18-hypernova.pdf
+- [[Multi-folding scheme (generalized folding)]] - paper - references/ch06/ref-18-hypernova.pdf
+- [[Multi-folding scheme for CCS (Construction 1)]] - paper - references/ch06/ref-18-hypernova.pdf
+- [[No commitments to cross-terms efficiency claim]] - paper - references/ch06/ref-18-hypernova.pdf
+- [[NovaBlindFold folding-based zero-knowledge]] - paper - references/ch06/ref-18-hypernova.pdf
+- [[Relaxed R1CS]] - document - proving-nothing.md
+- [[Sangria (folding scheme for Plonkish)]] - paper - references/ch06/ref-18-hypernova.pdf
+- [[Single-MSM prover cost (size = variables)]] - paper - references/ch06/ref-18-hypernova.pdf
+- [[Theorem 1 (multi-folding scheme for CCS)]] - paper - references/ch06/ref-18-hypernova.pdf
+- [[Theorem 3 (HyperNova NIVC scheme)]] - paper - references/ch06/ref-18-hypernova.pdf
+- [[Theorem 8 (nlookup multi-folding scheme)]] - paper - references/ch06/ref-18-hypernova.pdf
+- [[nlookup lookup argument (Construction 8)]] - paper - references/ch06/ref-18-hypernova.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -37,33 +38,26 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 10 edges to [[_COMMUNITY_Community 73]]
-- 6 edges to [[_COMMUNITY_Community 20]]
-- 6 edges to [[_COMMUNITY_Community 1]]
-- 4 edges to [[_COMMUNITY_Community 72]]
-- 4 edges to [[_COMMUNITY_Community 98]]
-- 3 edges to [[_COMMUNITY_Community 22]]
-- 3 edges to [[_COMMUNITY_Community 29]]
-- 3 edges to [[_COMMUNITY_Community 32]]
-- 2 edges to [[_COMMUNITY_Community 70]]
-- 2 edges to [[_COMMUNITY_Community 41]]
-- 2 edges to [[_COMMUNITY_Community 12]]
-- 2 edges to [[_COMMUNITY_Community 11]]
+- 9 edges to [[_COMMUNITY_Community 2]]
+- 6 edges to [[_COMMUNITY_Community 0]]
+- 3 edges to [[_COMMUNITY_Community 31]]
+- 3 edges to [[_COMMUNITY_Community 37]]
+- 3 edges to [[_COMMUNITY_Community 28]]
 - 2 edges to [[_COMMUNITY_Community 15]]
-- 2 edges to [[_COMMUNITY_Community 131]]
-- 2 edges to [[_COMMUNITY_Community 57]]
-- 2 edges to [[_COMMUNITY_Community 5]]
-- 2 edges to [[_COMMUNITY_Community 114]]
-- 2 edges to [[_COMMUNITY_Community 6]]
-- 1 edge to [[_COMMUNITY_Community 25]]
-- 1 edge to [[_COMMUNITY_Community 68]]
-- 1 edge to [[_COMMUNITY_Community 30]]
-- 1 edge to [[_COMMUNITY_Community 99]]
-- 1 edge to [[_COMMUNITY_Community 67]]
+- 2 edges to [[_COMMUNITY_Community 23]]
+- 2 edges to [[_COMMUNITY_Community 29]]
+- 1 edge to [[_COMMUNITY_Community 32]]
+- 1 edge to [[_COMMUNITY_Community 7]]
+- 1 edge to [[_COMMUNITY_Community 24]]
+- 1 edge to [[_COMMUNITY_Community 47]]
+- 1 edge to [[_COMMUNITY_Community 26]]
+- 1 edge to [[_COMMUNITY_Community 40]]
+- 1 edge to [[_COMMUNITY_Community 13]]
+- 1 edge to [[_COMMUNITY_Community 52]]
 
 ## Top bridge nodes
-- [[Pedersen Commitment]] - degree 39, connects to 16 communities
-- [[Sigma protocol (public-coin 3-move)]] - degree 17, connects to 6 communities
-- [[Commitment Scheme]] - degree 11, connects to 5 communities
-- [[Commit-and-Prove SNARK]] - degree 11, connects to 3 communities
-- [[NARK for R1CS from Fiat-Shamir over a Pedersen-commitment sigma protocol (linear argument size)]] - degree 6, connects to 3 communities
+- [[HyperNova Recursive Arguments for Customizable Constraint Systems]] - degree 25, connects to 12 communities
+- [[Relaxed R1CS]] - degree 8, connects to 5 communities
+- [[Multi-folding scheme for CCS (Construction 1)]] - degree 10, connects to 4 communities
+- [[CycleFold cycle-of-curves delegation technique]] - degree 4, connects to 2 communities
+- [[HyperNova NIVC-from-multifolding compiler (Construction 2)]] - degree 4, connects to 1 community

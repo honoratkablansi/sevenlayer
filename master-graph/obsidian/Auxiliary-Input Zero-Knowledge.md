@@ -1,12 +1,12 @@
 ---
 source_file: "references/books/proofs-args-zk.pdf"
 type: "paper"
-community: "Community 20"
+community: "Community 22"
 location: "Zero-Knowledge and Sigma-Protocols"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_20
+  - community/Community_22
 ---
 
 # Auxiliary-Input Zero-Knowledge
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Zero-Knowledge Proof]] - `generalizes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_20
+#graphify/paper #graphify/EXTRACTED #community/Community_22

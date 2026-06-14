@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch09/ref-31-blockchain-privacy-compliance.pdf"
 type: "paper"
-community: "Community 20"
+community: "Community 22"
 location: "§2.4; Fig. 3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_20
+  - community/Community_22
 ---
 
 # Dual Merkle-branch ZK proof (into total coin-ID root R and association-set root R_A)
@@ -18,4 +18,4 @@ tags:
 - [[Privacy Pools]] - `defines` [EXTRACTED]
 - [[Zero-Knowledge Proof]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_20
+#graphify/paper #graphify/EXTRACTED #community/Community_22

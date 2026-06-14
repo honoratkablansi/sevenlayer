@@ -1,12 +1,12 @@
 ---
 source_file: "wiki/sections/ch08-governance-the-achilles-heel.md"
 type: "document"
-community: "Community 61"
+community: "Community 8"
 location: "Governance: The Achilles Heel"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_61
+  - community/Community_8
 ---
 
 # Governance: The Achilles Heel
@@ -26,4 +26,4 @@ tags:
 - [[Tornado Cash Governance Attack (May 2023)]] - `defines` [EXTRACTED]
 - [[Who Verifies the Verifier]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_61
+#graphify/document #graphify/EXTRACTED #community/Community_8

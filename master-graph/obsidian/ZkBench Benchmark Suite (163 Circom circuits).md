@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch03/ref-12-underconstrained-circuits.pdf"
 type: "paper"
-community: "Community 82"
+community: "Community 81"
 location: "§4, §7"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_82
+  - community/Community_81
 ---
 
 # ZkBench Benchmark Suite (163 Circom circuits)
@@ -16,4 +16,4 @@ tags:
 - [[QED2 (verification tool)]] - `shares_data_with` [EXTRACTED]
 - [[QED2 Evaluation Results (70% solved, 8 vulnerabilities)]] - `shares_data_with` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_82
+#graphify/paper #graphify/EXTRACTED #community/Community_81

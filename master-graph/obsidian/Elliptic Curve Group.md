@@ -1,12 +1,12 @@
 ---
 source_file: "references/books/proofs-args-zk.pdf"
 type: "paper"
-community: "Community 131"
+community: "Community 29"
 location: "Zero-Knowledge and Sigma-Protocols"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_131
+  - community/Community_29
 ---
 
 # Elliptic Curve Group
@@ -15,4 +15,4 @@ tags:
 - [[Cyclic Group]] - `generalizes` [EXTRACTED]
 - [[Discrete Logarithm Assumption]] - `relates_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_131
+#graphify/paper #graphify/EXTRACTED #community/Community_29

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch03/ref-16-jolt.pdf"
 type: "paper"
-community: "Community 26"
+community: "Community 80"
 location: "§7.3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_26
+  - community/Community_80
 ---
 
 # Generalized-Lasso vs Lasso auditability/performance tradeoff (2x-3x cost)
@@ -15,4 +15,4 @@ tags:
 - [[Jolt SNARKs for Virtual Machines via Lookups]] - `introduces` [EXTRACTED]
 - [[Lasso]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_26
+#graphify/paper #graphify/EXTRACTED #community/Community_80

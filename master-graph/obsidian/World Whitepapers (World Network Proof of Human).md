@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch13/ref-59-world-whitepaper.pdf"
 type: "paper"
-community: "Community 89"
+community: "Community 3"
 location: "page 1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_89
+  - community/Community_3
 ---
 
 # World Whitepapers (World Network: Proof of Human)
@@ -19,4 +19,4 @@ tags:
 - [[World ID]] - `references` [EXTRACTED]
 - [[World Network real human network with five core technologies (World ID, Orb, World App, World Chain, WLD) for Proof of Human plus a financial layer]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_89
+#graphify/paper #graphify/EXTRACTED #community/Community_3

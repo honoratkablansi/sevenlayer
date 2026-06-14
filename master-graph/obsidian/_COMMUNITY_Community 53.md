@@ -1,37 +1,37 @@
 ---
 type: community
-cohesion: 0.15
+cohesion: 0.11
 members: 22
 ---
 
 # Community 53
 
-**Cohesion:** 0.15 - loosely connected
+**Cohesion:** 0.11 - loosely connected
 **Members:** 22 nodes
 
 ## Members
-- [[Barak et al. 3 impossibility of code obfuscation; obfuscating a PRF ensemble fails to securely instantiate the random oracle]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Bellare & Rogaway 5 original formulation of the random oracle methodology]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[CGH separation technique feed the implementation's own codeseed back into the scheme via evasive relations; diagonalization over the enumeration of all poly-time ensembles to reverse quantifier order]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Correlation intractability the property whose circular dependency the attack circumvents by feeding the circuit its own digest as witness]] - paper - references/recursion/ch1/ref-11-khovratovich-fiat-shamir-attacks.pdf
-- [[Definition 3.2 correlation-intractable ensemble (and weak variant over poly-time recognizable relations)]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Dwork et al. 13 'magic functions' that make Fiat-Shamir work, related to correlation intractability and 3-round zero-knowledge]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Evasive binary relation (Def 3.1) infeasible to find x with (x,O(x)) in R under a random oracle]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Fiat & Shamir 14 identification-to-signature transformation (sound in ROM)]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Goldreich, Goldwasser, Micali 19 pseudorandom function ensembles (shown not necessarily correlation-intractable)]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Informal Theorem 1.2 signature and encryption schemes secure in ROM but with no secure implementation by any function ensemble (with explicit generic adversary)]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Kilian 26 succinct interactive arguments, basis for Micali's CS-proof construction]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Micali 27 non-interactive CS-proofs in the Random Oracle Model (Theorem 2.7)]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Proposition 5.2 non-existence of restricted (length-bounded) correlation-intractable ensembles when seed length = input+output length]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Provable security  reductionist methodology]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Random Oracle Methodology (Bellare-Rogaway design heuristic)]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Random Oracle instantiation failure schemes secure in ROM but insecure under any concrete implementation]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[The Random Oracle Methodology, Revisited (Canetti, Goldreich, Halevi, JACM 2004  STOC 1998)]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Theorem 3.4 no correlation-intractable function ensembles exist (not even in the weak sense), via diagonal relation R_F = {(s, f_s(s))}]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Theorem 4.4 a poly-time signature scheme, existentially unforgeable in ROM, but existentially forgeable (key-only) and totally breakable (chosen-message) under any function-ensemble implementation]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Theorem 4.6 public-key encryption schemes secure (semantic  CCA) in ROM but insecure under any function-ensemble implementation; CCA attack reveals the decryption key]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Universal ensemble U and universal relation R_U = {(x, u_x(x))}, enumerating all efficiently computable ensembles]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Use of non-interactive CS-proofs (Micali) to collapse super-polynomial diagonalization checks into a polynomial-time signingverification, yielding a standard (poly-time) scheme]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
+- [[Adaptive Soundness]] - paper - references/books/proofs-args-zk.pdf
+- [[Dory transparent polynomial commitment scheme (log-round, sqrt-space prover)]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Error reduction by sequential repetition (Remark 1)]] - paper - references/ch01/ref-02-gmr-knowledge-complexity.pdf
+- [[Evaluation across 6 RISC-V zkVMs; 11 bugs (3 soundness FI, 8 completeness MT) in 3 of them]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Fair fault-injection scheduler (uniform RISC-V instruction coverage via least-injected selection)]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Grinding Attack (State-Restoration Attack)]] - paper - references/books/proofs-args-zk.pdf
+- [[INSTR_WORD_MOD instruction-modification injection (universal; triggered all 3 soundness bugs)]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[IP = PSPACE (Shamir's Theorem)]] - paper - references/mooc/lecture01/slides.pdf
+- [[Injection-type taxonomy (PC mod, ALU resultoperand, memreg mod, DIVREM flips, ecall id, branch invert)]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[JOLT bug6 (soundness) unconstrained immediate operand in lui instruction]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Malicious-prover fault injection into VM execution logic (verifier-only-trusted threat model)]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Multi-Prover Interactive Proof (MIP)]] - paper - references/mooc/lecture01/slides.pdf
+- [[NEXUS bug3 (soundness) unconstrained store-value lower bits in swshsb load-store]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Negligible Probability (grows slower than any 1poly; soundness error bound)]] - paper - references/mooc/lecture01/slides.pdf
+- [[PCP Theorem (Probabilistically Checkable Proofs)]] - paper - references/mooc/lecture01/slides.pdf
+- [[RISC ZERO bug1 (soundness) missing constraint on 3-register insns (remudivu); $50,000 bounty]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Ripple-effect fault propagation (fault at one instruction cascades along data dependencies)]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Rust 1.80 miscompilation by-product bug (boolean expr; both soundness & completeness)]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Soundness]] - document - proving-nothing.md
+- [[Soundness-bug detection criterion output flips SUCCESS-OOPS yet verifier accepts proof]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Statistical (Information-Theoretic) Soundness]] - paper - references/books/proofs-args-zk.pdf
+- [[Strong Fiat-Shamir]] - paper - references/books/proofs-args-zk.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -41,13 +41,20 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 4 edges to [[_COMMUNITY_Community 70]]
-- 3 edges to [[_COMMUNITY_Community 52]]
-- 1 edge to [[_COMMUNITY_Community 122]]
+- 5 edges to [[_COMMUNITY_Community 84]]
+- 4 edges to [[_COMMUNITY_Community 32]]
+- 4 edges to [[_COMMUNITY_Community 40]]
+- 3 edges to [[_COMMUNITY_Community 20]]
+- 2 edges to [[_COMMUNITY_Community 79]]
+- 1 edge to [[_COMMUNITY_Community 22]]
+- 1 edge to [[_COMMUNITY_Community 98]]
+- 1 edge to [[_COMMUNITY_Community 12]]
+- 1 edge to [[_COMMUNITY_Community 21]]
+- 1 edge to [[_COMMUNITY_Community 77]]
 
 ## Top bridge nodes
-- [[Correlation intractability the property whose circular dependency the attack circumvents by feeding the circuit its own digest as witness]] - degree 9, connects to 3 communities
-- [[The Random Oracle Methodology, Revisited (Canetti, Goldreich, Halevi, JACM 2004  STOC 1998)]] - degree 13, connects to 1 community
-- [[Random Oracle Methodology (Bellare-Rogaway design heuristic)]] - degree 4, connects to 1 community
-- [[Fiat & Shamir 14 identification-to-signature transformation (sound in ROM)]] - degree 3, connects to 1 community
-- [[Dwork et al. 13 'magic functions' that make Fiat-Shamir work, related to correlation intractability and 3-round zero-knowledge]] - degree 2, connects to 1 community
+- [[Soundness]] - degree 22, connects to 8 communities
+- [[Malicious-prover fault injection into VM execution logic (verifier-only-trusted threat model)]] - degree 8, connects to 2 communities
+- [[Dory transparent polynomial commitment scheme (log-round, sqrt-space prover)]] - degree 3, connects to 2 communities
+- [[Evaluation across 6 RISC-V zkVMs; 11 bugs (3 soundness FI, 8 completeness MT) in 3 of them]] - degree 6, connects to 1 community
+- [[INSTR_WORD_MOD instruction-modification injection (universal; triggered all 3 soundness bugs)]] - degree 6, connects to 1 community

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-21-neo.pdf"
 type: "paper"
-community: "Community 71"
+community: "Community 112"
 location: "abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_71
+  - community/Community_112
 ---
 
 # Pay-Per-Bit Commitment
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Commitment Scheme]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_71
+#graphify/paper #graphify/EXTRACTED #community/Community_112

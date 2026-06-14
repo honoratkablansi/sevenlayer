@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-33-snarkpack.pdf"
 type: "paper"
-community: "Community 62"
+community: "Community 94"
 location: "§1 Related Work (BCG+20 recursion comparison)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_62
+  - community/Community_94
 ---
 
 # Non-recursive (pairing-based) aggregation vs recursive composition
@@ -15,4 +15,4 @@ tags:
 - [[Bowe et al. BCG+20 Zexe recursive composition]] - `conceptually_related_to` [EXTRACTED]
 - [[SnarkPack Practical SNARK Aggregation]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_62
+#graphify/paper #graphify/EXTRACTED #community/Community_94

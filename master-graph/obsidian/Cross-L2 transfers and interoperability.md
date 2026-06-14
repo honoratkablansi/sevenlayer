@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch3/ref-54-ethereum-rollup-centric-roadmap.md"
 type: "document"
-community: "Community 104"
+community: "Community 107"
 tags:
   - graphify/document
   - graphify/INFERRED
-  - community/Community_104
+  - community/Community_107
 ---
 
 # Cross-L2 transfers and interoperability
@@ -14,4 +14,4 @@ tags:
 - [[Cross-chain proof aggregation and interop]] - `conceptually_related_to` [INFERRED]
 - [[Rollup-centric Ethereum scaling roadmap]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/INFERRED #community/Community_104
+#graphify/document #graphify/INFERRED #community/Community_107

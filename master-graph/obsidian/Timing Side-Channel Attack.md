@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 116"
+community: "Community 1"
 location: "Chapter 4"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_116
+  - community/Community_1
 ---
 
 # Timing Side-Channel Attack
@@ -17,4 +17,4 @@ tags:
 - [[Side-Channel Attack]] - `conceptually_related_to` [EXTRACTED]
 - [[Tramer, Boneh, Paterson Remote Side-Channel Attacks (USENIX 2020)]] - `introduces` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_116
+#graphify/document #graphify/EXTRACTED #community/Community_1

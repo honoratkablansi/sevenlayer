@@ -1,12 +1,12 @@
 ---
 source_file: "references/books/proofs-args-zk.pdf"
 type: "paper"
-community: "Community 14"
+community: "Community 53"
 location: "Fiat-Shamir Transformation"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_14
+  - community/Community_53
 ---
 
 # Strong Fiat-Shamir
@@ -15,4 +15,4 @@ tags:
 - [[Adaptive Soundness]] - `defines` [EXTRACTED]
 - [[Fiat-Shamir Transform]] - `generalizes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_14
+#graphify/paper #graphify/EXTRACTED #community/Community_53

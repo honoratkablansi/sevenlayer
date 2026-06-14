@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf"
 type: "paper"
-community: "Community 32"
+community: "Community 38"
 location: "§2.2, §4.1 (single-check decider)"
 tags:
   - graphify/paper
   - graphify/INFERRED
-  - community/Community_32
+  - community/Community_38
 ---
 
 # Atomic Accumulation
@@ -18,4 +18,4 @@ tags:
 - [[Split Accumulation]] - `conceptually_related_to` [INFERRED]
 - [[BCMS20 Bunz, Chiesa, Mishra, Spooner, Proof-Carrying Data from Accumulation Schemes (TCC 2020)]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/INFERRED #community/Community_32
+#graphify/paper #graphify/INFERRED #community/Community_38

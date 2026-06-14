@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-38-snarky-ceremonies.pdf"
 type: "paper"
-community: "Community 59"
+community: "Community 9"
 location: "§3 Def 5"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_59
+  - community/Community_9
 ---
 
 # Update knowledge soundness (Def 5, game GameA,EA_uks over phi_max phases)
@@ -18,4 +18,4 @@ tags:
 - [[Theorem 5 Groth16 ceremony has update knowledge soundness under (2n-1,2n-2)-edlog for algebraic adversaries in ROM]] - `proves` [EXTRACTED]
 - [[Updatable and Universal Structured Reference String]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_59
+#graphify/paper #graphify/EXTRACTED #community/Community_9

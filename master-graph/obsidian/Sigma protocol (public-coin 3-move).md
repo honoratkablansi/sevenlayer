@@ -1,19 +1,19 @@
 ---
 source_file: "references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf"
 type: "paper"
-community: "Community 71"
+community: "Community 29"
 location: "§2.3.2 / Fig 3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_71
+  - community/Community_29
 ---
 
 # Sigma protocol (public-coin 3-move)
 
 ## Connections
 - [[Commit-and-Prove SNARK]] - `uses` [EXTRACTED]
-- [[Commitment Scheme]] - `builds_on` [EXTRACTED]
+- [[Commitment Scheme]] - `relates_to` [EXTRACTED]
 - [[Fiat-Shamir Transform]] - `builds_on` [EXTRACTED]
 - [[Fiat-Shamir heuristic (interactive to non-interactive compilation)]] - `conceptually_related_to` [EXTRACTED]
 - [[Honest-Verifier Zero-Knowledge]] - `uses` [EXTRACTED]
@@ -30,4 +30,4 @@ tags:
 - [[Special Soundness]] - `defines` [EXTRACTED]
 - [[Zero-Knowledge Proof]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_71
+#graphify/paper #graphify/EXTRACTED #community/Community_29

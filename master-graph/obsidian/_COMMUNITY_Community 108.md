@@ -1,26 +1,26 @@
 ---
 type: community
-cohesion: 0.24
+cohesion: 0.22
 members: 11
 ---
 
 # Community 108
 
-**Cohesion:** 0.24 - loosely connected
+**Cohesion:** 0.22 - loosely connected
 **Members:** 11 nodes
 
 ## Members
-- [[Augmented constraint systems R1 and R2 (Fig 1a1b) each folds opposite-field instance, hashes carry public IO across the cycle]] - paper - references/recursion/ch1/ref-32-nguyen-boneh-setty-nova-cycle.pdf
-- [[Committed relaxed R1CS over the ring R = F1 x F2 (binding, additively-homomorphic, succinct commitments)]] - paper - references/recursion/ch1/ref-32-nguyen-boneh-setty-nova-cycle.pdf
-- [[General binding lesson every claimed running instance must be cryptographically bound (via hashcopy constraints) to the witness actually folded into it]] - paper - references/recursion/ch1/ref-32-nguyen-boneh-setty-nova-cycle.pdf
-- [[IVC proof compression a final fold (without SNARK) plus Spartan zkSNARK over R_sat yields the CompressedSNARK]] - paper - references/recursion/ch1/ref-32-nguyen-boneh-setty-nova-cycle.pdf
-- [[Modified 2-cycle Nova IVC scheme shorter proofs (eliminates one R1CS instance-witness pair), proven sound; adopted upstream (PR 167)]] - paper - references/recursion/ch1/ref-32-nguyen-boneh-setty-nova-cycle.pdf
-- [[Nova IVC proofs are malleable attacker mauls final z_i to z'_i (different last aux) without knowing earlier aux values]] - paper - references/recursion/ch1/ref-32-nguyen-boneh-setty-nova-cycle.pdf
-- [[Revisiting the Nova Proof System on a Cycle of Curves (Nguyen, Boneh, Setty, ePrint 2023969)]] - paper - references/recursion/ch1/ref-32-nguyen-boneh-setty-nova-cycle.pdf
-- [[Setty — Spartan efficient general-purpose zkSNARKs without trusted setup (CRYPTO 2020) 16]] - paper - references/recursion/ch1/ref-32-nguyen-boneh-setty-nova-cycle.pdf
-- [[Theorem 1 if the folding scheme is knowledge-sound and the hash is collision-resistant, the modified 2-cycle Nova IVC is knowledge-sound]] - paper - references/recursion/ch1/ref-32-nguyen-boneh-setty-nova-cycle.pdf
-- [[Three malleability mitigations zkSNARK compression (simulation-extractable), context in vk, and incremental context (range-keyed vk swap)]] - paper - references/recursion/ch1/ref-32-nguyen-boneh-setty-nova-cycle.pdf
-- [[Two parallel IVC chains over a curve cycle that must be linked (R1CS(1)R1CS(2) over ring R = F1 x F2)]] - paper - references/recursion/ch1/ref-32-nguyen-boneh-setty-nova-cycle.pdf
+- [[Approval-status terms acceptable, deprecated, disallowed, legacy use]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
+- [[DeprecationDisallowance Schedule 112-bit deprecated after 2030, RSAECC disallowed after 2035]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
+- [[ECDSA (Elliptic Curve Digital Signature Algorithm)]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
+- [[Litinski (2023) computing a 256-bit ECC private key with ~50M Toffoli gates]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
+- [[Public-Key Cryptography]] - paper - references/ch07/ref-24-shor.pdf
+- [[Quantum-vulnerable digital signatures (ECDSA, EdDSA, RSA per FIPS 186)]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
+- [[Quantum-vulnerable key establishment (Finite FieldEC DH & MQV per SP 800-56A, RSA per SP 800-56B)]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
+- [[RSA Cryptosystem]] - paper - references/ch07/ref-24-shor.pdf
+- [[RSA public-key cryptosystem (Rivest-Shamir-Adleman 1978)]] - paper - references/ch07/ref-24-shor.pdf
+- [[RSA-2048 and ECC-256 (discrete log) are asymmetric schemes broken by Shor's algorithm; symmetric crypto is more resilient via larger keys]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
+- [[Shor's Algorithm]] - paper - references/ch07/ref-24-shor.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -30,14 +30,17 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 4 edges to [[_COMMUNITY_Community 126]]
-- 3 edges to [[_COMMUNITY_Community 22]]
-- 3 edges to [[_COMMUNITY_Community 25]]
-- 1 edge to [[_COMMUNITY_Community 8]]
+- 3 edges to [[_COMMUNITY_Community 92]]
+- 3 edges to [[_COMMUNITY_Community 66]]
+- 2 edges to [[_COMMUNITY_Community 0]]
+- 2 edges to [[_COMMUNITY_Community 113]]
+- 1 edge to [[_COMMUNITY_Community 111]]
+- 1 edge to [[_COMMUNITY_Community 56]]
+- 1 edge to [[_COMMUNITY_Community 43]]
 
 ## Top bridge nodes
-- [[Revisiting the Nova Proof System on a Cycle of Curves (Nguyen, Boneh, Setty, ePrint 2023969)]] - degree 9, connects to 2 communities
-- [[Modified 2-cycle Nova IVC scheme shorter proofs (eliminates one R1CS instance-witness pair), proven sound; adopted upstream (PR 167)]] - degree 5, connects to 2 communities
-- [[General binding lesson every claimed running instance must be cryptographically bound (via hashcopy constraints) to the witness actually folded into it]] - degree 3, connects to 2 communities
-- [[Nova IVC proofs are malleable attacker mauls final z_i to z'_i (different last aux) without knowing earlier aux values]] - degree 3, connects to 1 community
-- [[Theorem 1 if the folding scheme is knowledge-sound and the hash is collision-resistant, the modified 2-cycle Nova IVC is knowledge-sound]] - degree 3, connects to 1 community
+- [[Shor's Algorithm]] - degree 7, connects to 4 communities
+- [[DeprecationDisallowance Schedule 112-bit deprecated after 2030, RSAECC disallowed after 2035]] - degree 5, connects to 2 communities
+- [[RSA-2048 and ECC-256 (discrete log) are asymmetric schemes broken by Shor's algorithm; symmetric crypto is more resilient via larger keys]] - degree 4, connects to 2 communities
+- [[RSA Cryptosystem]] - degree 7, connects to 1 community
+- [[Quantum-vulnerable key establishment (Finite FieldEC DH & MQV per SP 800-56A, RSA per SP 800-56B)]] - degree 3, connects to 1 community

@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-02-bctv-cycles.pdf"
 type: "paper"
-community: "Community 42"
+community: "Community 103"
 location: "§5.2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_42
+  - community/Community_103
 ---
 
 # Subset-sum hash verifiable in <=300 gates over native field
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Collision-Resistant Hash Functions]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_42
+#graphify/paper #graphify/EXTRACTED #community/Community_103

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch09/ref-29-gentry-fhe.pdf"
 type: "paper"
-community: "Community 42"
+community: "Community 41"
 location: "§5"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_42
+  - community/Community_41
 ---
 
 # Squashing the decryption circuit: SplitKey/ExpandCT shift work to encrypter so Decrypt sums only sub-linear vectors (E3)
@@ -17,4 +17,4 @@ tags:
 - [[Scheme E3 squashed E2 with hidden sparse subset; bootstrappable and semantically secure (Thm 2, Thm 11)]] - `assumes` [EXTRACTED]
 - [[Sparse Subset Sum Problem (SSSP)  SplitKey Distinguishing Problem second hardness assumption from tau in public key]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_42
+#graphify/paper #graphify/EXTRACTED #community/Community_41

@@ -1,24 +1,23 @@
 ---
 type: community
-cohesion: 0.25
-members: 9
+cohesion: 0.32
+members: 8
 ---
 
 # Community 118
 
-**Cohesion:** 0.25 - loosely connected
-**Members:** 9 nodes
+**Cohesion:** 0.32 - loosely connected
+**Members:** 8 nodes
 
 ## Members
-- [[ASP construction strategies (add-with-delayexclude-bad, $Nmonthperson, trusted-community, real-time AI scoring)]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
-- [[Association Set Provider (ASP) intermediary]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
-- [[Association set (custom set of possible fund origins)]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
-- [[Bilateral direct proof (size-one association set; timestamping-service variant)]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
-- [[Dissociation game (AliceBobCarlDavid vs Eve elimination example)]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
-- [[Exclusion proof ('my withdrawal does not come from one of these deposits')]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
-- [[Membership proof ('my withdrawal comes from one of these deposits')]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
-- [[Neutral, censorship-resistant infrastructure  jurisdiction-flexible compliance argument]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
-- [[Separating equilibrium between compliant and non-compliant withdrawals]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
+- [[Approximate range proof RoK Pi_rg for ring vectors (Thm 3.1) via random projection + monomial lookup]] - paper - references/ch10/ref-56-symphony.pdf
+- [[Argument of Knowledge]] - paper - references/snowball/recursion/ref-110-algebraic-reductions-of-knowledge.pdf
+- [[LaBRADOR BS23 (lattice argument, random projection, challenge set, cited prior work)]] - paper - references/ch10/ref-56-symphony.pdf
+- [[LatticeFold+ BC25 (monomial embedding & exact range proof, cited prior work)]] - paper - references/ch10/ref-56-symphony.pdf
+- [[Monomial-embedding RoK Pi_mon (Lemma 3.1) reducing monomial check to linear statement]] - paper - references/ch10/ref-56-symphony.pdf
+- [[Random projection for norm preservation (J in {0,+-1}, ell2-norm preserved mod q)]] - paper - references/ch10/ref-56-symphony.pdf
+- [[Reduction of Knowledge]] - paper - references/ch06/ref-20-latticefold.pdf
+- [[Tensor Reduction]] - paper - references/snowball/recursion/ref-110-algebraic-reductions-of-knowledge.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -28,9 +27,14 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 1 edge to [[_COMMUNITY_Community 84]]
-- 1 edge to [[_COMMUNITY_Community 20]]
+- 4 edges to [[_COMMUNITY_Community 83]]
+- 3 edges to [[_COMMUNITY_Community 0]]
+- 3 edges to [[_COMMUNITY_Community 28]]
+- 1 edge to [[_COMMUNITY_Community 101]]
 
 ## Top bridge nodes
-- [[Association set (custom set of possible fund origins)]] - degree 5, connects to 1 community
-- [[Separating equilibrium between compliant and non-compliant withdrawals]] - degree 3, connects to 1 community
+- [[Reduction of Knowledge]] - degree 8, connects to 4 communities
+- [[LatticeFold+ BC25 (monomial embedding & exact range proof, cited prior work)]] - degree 4, connects to 2 communities
+- [[Tensor Reduction]] - degree 3, connects to 2 communities
+- [[Approximate range proof RoK Pi_rg for ring vectors (Thm 3.1) via random projection + monomial lookup]] - degree 5, connects to 1 community
+- [[Monomial-embedding RoK Pi_mon (Lemma 3.1) reducing monomial check to linear statement]] - degree 4, connects to 1 community

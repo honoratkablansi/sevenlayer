@@ -1,32 +1,31 @@
 ---
 type: community
-cohesion: 0.15
-members: 17
+cohesion: 0.12
+members: 16
 ---
 
 # Community 82
 
-**Cohesion:** 0.15 - loosely connected
-**Members:** 17 nodes
+**Cohesion:** 0.12 - loosely connected
+**Members:** 16 nodes
 
 ## Members
-- [[Compositional Counterexample Construction]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
-- [[EdwardsToMontgomery Underconstrained Bug]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
-- [[Finite-Field SMT Solver (cvc5 fork)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
-- [[Groebner Basis Computation]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
-- [[InferValues Value Inference (Algorithm 3)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
-- [[Logical Encoding of Arithmetic Circuit (Definition 4.3)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
-- [[QED2 (verification tool)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
-- [[QED2 Evaluation Results (70% solved, 8 vulnerabilities)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
-- [[SMT Query Procedure (Algorithm 4)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
-- [[SMT Solving]] - document - references/ch03/ref-12-underconstrained-circuits.pdf
-- [[UCP Inference Rules (Assign, Base-Conv, BigInt-Mul, All-But-One-0)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
-- [[UCP Rule Soundness Proofs]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
-- [[Under-Constrained Circuit Bug]] - document - proving-nothing.md
-- [[Uniqueness Constraint Propagation (UCP)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
-- [[Value Inference Soundness (Lemmas A.4, A.5)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
-- [[Verify Algorithm (Algorithm 1)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
-- [[ZkBench Benchmark Suite (163 Circom circuits)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[Cited Bellare-Fuchsbauer-Scafuro subversion impossibility (BFS16)]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Cited Groth 2010 pairing-based zk-SNARK (Gro10b)]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Impossibility updating non-monomial CRS reveals constituent monomials]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Lemma 6 single adversarial update implies full updatable knowledge soundness]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Lemmas 1-2 subversion-secure = updatable-secure = trusted-secure]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[MonoExtract  FinalMonoExtract monomial-extraction algorithm]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Quadratic monomial-only universal CRS (multivariate X,Y,Z, j=7)]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Specializable universal CRS via untrusted Derive algorithm]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Subversion-resistant NIZK  subversion zero-knowledge]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Theorem 3 perfect subversion zero-knowledge of the construction]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Theorem 4 update knowledge soundness under q-MK and q-MC]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Theorem 5  Lemma 8 Pinocchio cannot be made updatable]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Three setup-oracle types trusted (T), updatable (U), subvertible (S)]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Trusted CRS setup with secret trapdoor]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Updatable & specializable QAP-based zk-SNARK construction]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[X-security games COMP, X-ZK, X-SND, X-KSND for X in {T,U,S}]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -36,15 +35,14 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 4 edges to [[_COMMUNITY_Community 69]]
-- 2 edges to [[_COMMUNITY_Community 3]]
-- 1 edge to [[_COMMUNITY_Community 41]]
-- 1 edge to [[_COMMUNITY_Community 95]]
-- 1 edge to [[_COMMUNITY_Community 24]]
+- 8 edges to [[_COMMUNITY_Community 9]]
+- 2 edges to [[_COMMUNITY_Community 42]]
+- 1 edge to [[_COMMUNITY_Community 35]]
+- 1 edge to [[_COMMUNITY_Community 91]]
 
 ## Top bridge nodes
-- [[Under-Constrained Circuit Bug]] - degree 4, connects to 3 communities
-- [[QED2 (verification tool)]] - degree 6, connects to 1 community
-- [[Uniqueness Constraint Propagation (UCP)]] - degree 5, connects to 1 community
-- [[SMT Solving]] - degree 4, connects to 1 community
-- [[ZkBench Benchmark Suite (163 Circom circuits)]] - degree 3, connects to 1 community
+- [[Updatable & specializable QAP-based zk-SNARK construction]] - degree 6, connects to 2 communities
+- [[Subversion-resistant NIZK  subversion zero-knowledge]] - degree 5, connects to 2 communities
+- [[Quadratic monomial-only universal CRS (multivariate X,Y,Z, j=7)]] - degree 4, connects to 1 community
+- [[Three setup-oracle types trusted (T), updatable (U), subvertible (S)]] - degree 4, connects to 1 community
+- [[Impossibility updating non-monomial CRS reveals constituent monomials]] - degree 3, connects to 1 community

@@ -1,12 +1,12 @@
 ---
 source_file: "recursion/recursion-outline.md"
 type: "document"
-community: "Community 15"
+community: "Community 71"
 location: "Recursion Chapter 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_15
+  - community/Community_71
 ---
 
 # Cross-Term Derivation
@@ -15,4 +15,4 @@ tags:
 - [[R1CS (Rank-1 Constraint Systems)]] - `explains` [EXTRACTED]
 - [[Relaxed R1CS]] - `explains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_15
+#graphify/document #graphify/EXTRACTED #community/Community_71

@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf"
 type: "paper"
-community: "Community 53"
+community: "Community 51"
 location: "title"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_53
+  - community/Community_51
 ---
 
 # The Random Oracle Methodology, Revisited (Canetti, Goldreich, Halevi, JACM 2004 / STOC 1998)
@@ -26,4 +26,4 @@ tags:
 - [[Proposition 5.2 non-existence of restricted (length-bounded) correlation-intractable ensembles when seed length = input+output length]] - `proves` [EXTRACTED]
 - [[Random Oracle instantiation failure schemes secure in ROM but insecure under any concrete implementation]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_53
+#graphify/paper #graphify/EXTRACTED #community/Community_51

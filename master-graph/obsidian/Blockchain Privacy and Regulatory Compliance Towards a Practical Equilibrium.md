@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch09/ref-31-blockchain-privacy-compliance.pdf"
 type: "paper"
-community: "Community 84"
+community: "Community 48"
 location: "p.1 (title/abstract)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_84
+  - community/Community_48
 ---
 
 # Blockchain Privacy and Regulatory Compliance: Towards a Practical Equilibrium
@@ -25,4 +25,4 @@ tags:
 - [[ZK Rollup]] - `conceptually_related_to` [EXTRACTED]
 - [[Zerocash]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_84
+#graphify/paper #graphify/EXTRACTED #community/Community_48

@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch3/ref-65-rfc-6962-certificate-transparency.md"
 type: "document"
-community: "Community 123"
+community: "Community 119"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_123
+  - community/Community_119
 ---
 
 # Misissued-certificate detection by monitors and auditors
@@ -14,4 +14,4 @@ tags:
 - [[Certificate Transparency]] - `explains` [EXTRACTED]
 - [[Merkle audit and consistency proofs]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_123
+#graphify/document #graphify/EXTRACTED #community/Community_119

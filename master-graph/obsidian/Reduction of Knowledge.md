@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-20-latticefold.pdf"
 type: "paper"
-community: "Community 18"
+community: "Community 118"
 location: "§2.5"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_18
+  - community/Community_118
 ---
 
 # Reduction of Knowledge
@@ -21,4 +21,4 @@ tags:
 - [[Tensor Reduction]] - `defines` [EXTRACTED]
 - [[Theorem 3.1 LatticeFold Folding Reduction]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_18
+#graphify/paper #graphify/EXTRACTED #community/Community_118

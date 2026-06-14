@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch1/ref-34-succinct-16-gpus.md"
 type: "document"
-community: "Community 38"
+community: "Community 45"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_38
+  - community/Community_45
 ---
 
 # Succinct, "Real-Time Proving with 16 GPUs" (2026)
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[Recursion References (cited works)]] - `cites` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_38
+#graphify/document #graphify/EXTRACTED #community/Community_45

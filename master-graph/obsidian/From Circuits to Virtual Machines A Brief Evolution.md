@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch03-from-circuits-to-virtual-machines-a-brief-evolution.md"
 type: "document"
-community: "Community 0"
+community: "Community 61"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Community_61
 ---
 
 # From Circuits to Virtual Machines: A Brief Evolution
@@ -29,4 +29,4 @@ tags:
 - [[Under-Constrained Circuits The Dominant Failure Mode]] - `references` [EXTRACTED]
 - [[ZisK]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/document #graphify/EXTRACTED #community/Community_61

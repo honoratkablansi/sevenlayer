@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch3/ref-57-ethproofs-reporting.md"
 type: "document"
-community: "Community 93"
+community: "Community 30"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_93
+  - community/Community_30
 ---
 
 # ethproofs.org real-time proving reporting (Pico Prism, ethrex)
@@ -18,4 +18,4 @@ tags:
 - [[Security sprint milestone M2 (100-bit provable  600 KiB)]] - `references` [EXTRACTED]
 - [[zkVM prover benchmarks (zkDTVM, OpenVM, ZisK, Pico on GPU clusters)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_93
+#graphify/document #graphify/EXTRACTED #community/Community_30

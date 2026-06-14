@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf"
 type: "paper"
-community: "Community 32"
+community: "Community 38"
 location: "§2.4 / Lemma A.3 (App A.2)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_32
+  - community/Community_38
 ---
 
 # Zero-finding game lemma (expected-time variant of [BCMS20] Lemma A.3) for polynomial-identity testing via RO commitments
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[BCMS20 Bunz, Chiesa, Mishra, Spooner, Proof-Carrying Data from Accumulation Schemes (TCC 2020)]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_32
+#graphify/paper #graphify/EXTRACTED #community/Community_38

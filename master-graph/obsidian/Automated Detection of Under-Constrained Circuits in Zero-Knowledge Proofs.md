@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch03/ref-12-underconstrained-circuits.pdf"
 type: "paper"
-community: "Community 69"
+community: "Community 72"
 location: "pp.1-2 (title/abstract)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_69
+  - community/Community_72
 ---
 
 # Automated Detection of Under-Constrained Circuits in Zero-Knowledge Proofs
@@ -23,4 +23,4 @@ tags:
 - [[TornadoCash Underconstrained Circuit Hack]] - `cites` [EXTRACTED]
 - [[Under-Constrained Circuit  Missing Constraint]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_69
+#graphify/paper #graphify/EXTRACTED #community/Community_72

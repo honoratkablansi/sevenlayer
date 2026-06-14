@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch06-the-proof-core-why-layers-4-5-and-6-are-inseparable.md"
 type: "document"
-community: "Community 1"
+community: "Community 0"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_1
+  - community/Community_0
 ---
 
 # The Proof Core: Why Layers 4, 5, and 6 Are Inseparable
@@ -30,4 +30,4 @@ tags:
 - [[Sum-Check Protocol]] - `references` [EXTRACTED]
 - [[The Three Families]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_1
+#graphify/document #graphify/EXTRACTED #community/Community_0

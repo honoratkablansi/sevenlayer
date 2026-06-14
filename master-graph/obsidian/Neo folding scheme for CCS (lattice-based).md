@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-21-neo.pdf"
 type: "paper"
-community: "Community 19"
+community: "Community 26"
 location: "§4"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_19
+  - community/Community_26
 ---
 
 # Neo folding scheme for CCS (lattice-based)
@@ -22,4 +22,4 @@ tags:
 - [[Pi_RLC random linear combination reduction (folds k+1 norm-b claims into one norm-B)]] - `defines` [EXTRACTED]
 - [[Reductions of knowledge framework]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_19
+#graphify/paper #graphify/EXTRACTED #community/Community_26

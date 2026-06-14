@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 14"
+community: "Community 53"
 location: "Chapter 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_14
+  - community/Community_53
 ---
 
 # Soundness
@@ -23,6 +23,10 @@ tags:
 - [[Interactive Proof (IP) prover-verifier protocol with statistical soundness]] - `defines` [EXTRACTED]
 - [[Knowledge-Soundness]] - `generalizes` [EXTRACTED]
 - [[Malicious-prover fault injection into VM execution logic (verifier-only-trusted threat model)]] - `conceptually_related_to` [EXTRACTED]
+- [[NP (Nondeterministic Polynomial Time)]] - `relates_to` [EXTRACTED]
+- [[NP-Proof (Efficiently Verifiable Proof)]] - `uses` [EXTRACTED]
+- [[Negligible Probability (grows slower than any 1poly; soundness error bound)]] - `uses` [EXTRACTED]
+- [[PCP Theorem (Probabilistically Checkable Proofs)]] - `relates_to` [EXTRACTED]
 - [[Probabilistic Proof System]] - `uses` [EXTRACTED]
 - [[RISC ZERO bug1 (soundness) missing constraint on 3-register insns (remudivu); $50,000 bounty]] - `conceptually_related_to` [EXTRACTED]
 - [[Soundness-bug detection criterion output flips SUCCESS-OOPS yet verifier accepts proof]] - `conceptually_related_to` [EXTRACTED]
@@ -31,4 +35,4 @@ tags:
 - [[Zero-Knowledge Proof]] - `defines` [EXTRACTED]
 - [[zkVM]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_14
+#graphify/document #graphify/EXTRACTED #community/Community_53

@@ -1,12 +1,12 @@
 ---
 source_file: "references/books/proofs-args-zk.pdf"
 type: "paper"
-community: "Community 12"
+community: "Community 21"
 location: "ZK via Commit-and-Prove and Masking Polynomials"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_12
+  - community/Community_21
 ---
 
 # Masking Polynomial (ZK via Random Polynomial Blinding)
@@ -20,4 +20,4 @@ tags:
 - [[Zero-Knowledge Proof]] - `builds_on` [EXTRACTED]
 - [[Zero-Knowledge Sum-Check Protocol]] - `uses` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_12
+#graphify/paper #graphify/EXTRACTED #community/Community_21

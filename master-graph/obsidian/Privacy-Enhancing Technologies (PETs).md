@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 110"
+community: "Community 4"
 location: "Chapter 9"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_110
+  - community/Community_4
 ---
 
 # Privacy-Enhancing Technologies (PETs)
@@ -19,4 +19,4 @@ tags:
 - [[The Privacy Stack (Layered PET Composition)]] - `explains` [EXTRACTED]
 - [[Zero-Knowledge Proofs (ZKPs)]] - `introduces` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_110
+#graphify/document #graphify/EXTRACTED #community/Community_4

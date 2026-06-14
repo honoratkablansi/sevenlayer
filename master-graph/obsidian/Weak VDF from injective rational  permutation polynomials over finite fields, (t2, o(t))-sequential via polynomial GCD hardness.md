@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf"
 type: "paper"
-community: "Community 2"
+community: "Community 6"
 location: "§6; Def. 5 (weak-VDF)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_2
+  - community/Community_6
 ---
 
 # Weak VDF from injective rational / permutation polynomials over finite fields, (t^2, o(t))-sequential via polynomial GCD hardness
@@ -15,4 +15,4 @@ tags:
 - [[Repeatedsequential squaring in a group of unknown order]] - `assumes` [EXTRACTED]
 - [[Verifiable delay function (VDF)]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_2
+#graphify/paper #graphify/EXTRACTED #community/Community_6

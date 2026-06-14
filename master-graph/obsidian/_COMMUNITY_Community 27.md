@@ -1,46 +1,45 @@
 ---
 type: community
-cohesion: 0.09
-members: 31
+cohesion: 0.11
+members: 30
 ---
 
 # Community 27
 
-**Cohesion:** 0.09 - loosely connected
-**Members:** 31 nodes
+**Cohesion:** 0.11 - loosely connected
+**Members:** 30 nodes
 
 ## Members
-- [[2PC query execution over TLS prover and verifier run custom 2PC (2PC-HMAC, 2PC-GCM) to construct TLS records under secret-shared keys]] - paper - references/recursion/ch3/ref-87-deco.pdf
-- [[2PC-HMAC optimization compute inner-hash IV s0=f_H(IV, k+ipad) once, local inner hash regardless of query length]] - paper - references/recursion/ch3/ref-87-deco.pdf
-- [[3-AES-invocation record revelation vs 1027 naive AES-in-ZKP, via CBC MAC-then-encrypt structure]] - paper - references/recursion/ch3/ref-87-deco.pdf
-- [[Authenticated data feed (ADF) for smart contracts]] - paper - references/recursion/ch3/ref-87-deco.pdf
-- [[Blockchainsmart-contract oracle protocol (provenance of online data)]] - paper - references/recursion/ch3/ref-87-deco.pdf
-- [[Cited Bulletproofs (transparent-setup ZK alternative to libsnark)]] - paper - references/recursion/ch3/ref-87-deco.pdf
-- [[Cited Camenisch-Stadler ZK-PoK notation for proofs of knowledge]] - paper - references/recursion/ch3/ref-87-deco.pdf
-- [[Cited Canetti, Universally Composable Security framework]] - paper - references/recursion/ch3/ref-87-deco.pdf
-- [[Cited Cinderella (verifiable computation over X.509 certificates)]] - paper - references/recursion/ch3/ref-87-deco.pdf
-- [[Cited TLS-N (server-side TLS 1.3 extension signing session, chunk-level redaction)]] - paper - references/recursion/ch3/ref-87-deco.pdf
-- [[Cited TLSNotary (deprecated-TLS auditor oracle, no privacy from oracle)]] - paper - references/recursion/ch3/ref-87-deco.pdf
-- [[Cited Town Crier (TEESGX-based oracle, ADF term origin)]] - paper - references/recursion/ch3/ref-87-deco.pdf
-- [[Cited Yao garbled circuits (basis of 2PC for bitwise ops)]] - paper - references/recursion/ch3/ref-87-deco.pdf
-- [[Cited libsnark zk-SNARK library (Ben-Sasson et al. proof system 18)]] - paper - references/recursion/ch3/ref-87-deco.pdf
-- [[Cited secret-sharing MtA (multiplicative-to-additive) protocol used in ECtF]] - paper - references/recursion/ch3/ref-87-deco.pdf
-- [[Context-integrity property and context-integrity attacks (quoting out of context  reflection attack) universal to privacy-preserving oracles]] - paper - references/recursion/ch3/ref-87-deco.pdf
-- [[DECO decentralized oracle for TLS (Zhang, Maram, Malvai, Goldfeder, Juels, CCS 2020)]] - paper - references/recursion/ch3/ref-87-deco.pdf
-- [[Decentralized Oracle for TLS]] - paper - references/recursion/ch3/ref-87-deco.pdf
-- [[ECtF protocol convert additive shares of an EC point in GF(p) to additive shares of its x-coordinate in F_p (8-ciphertext comm.)]] - paper - references/recursion/ch3/ref-87-deco.pdf
-- [[Efficient selective opening of TLS records (RevealRedact modes) exploiting MAC-then-encrypt and Merkle-Damgard structure]] - paper - references/recursion/ch3/ref-87-deco.pdf
-- [[Ideal functionality F_Oracle (formal security definition of decentralized oracle) between S, P, V]] - paper - references/recursion/ch3/ref-87-deco.pdf
-- [[Key idea withhold MAC key share from prover until after commitment, making session-data commitment unforgeable]] - paper - references/recursion/ch3/ref-87-deco.pdf
-- [[Key-value grammar optimization (globally unique keys) for JSONHTML two-stage parsing]] - paper - references/recursion/ch3/ref-87-deco.pdf
-- [[Secure multi-party computation (MPC)  two-party computation (2PC)]] - paper - references/recursion/ch3/ref-87-deco.pdf
-- [[Security properties prover-integrity, verifier-integrity, privacy under static malicious adversary]] - paper - references/recursion/ch3/ref-87-deco.pdf
-- [[Theorem 4.1 Prot_DECO UC-securely realizes F_Oracle in (F_2PC, F_ZK)-hybrid world, assuming hard discrete log and SHA-256 compression as random oracle]] - paper - references/recursion/ch3/ref-87-deco.pdf
-- [[Three-party handshake (3P-HS) prover+verifier jointly act as TLS client, secret-share session keys with server, transparent to server]] - paper - references/recursion/ch3/ref-87-deco.pdf
-- [[Transport Layer Security (TLS) handshake + record protocol]] - paper - references/recursion/ch3/ref-87-deco.pdf
-- [[Trust model no trusted hardware, no server-side modification; oracle trusted for integrity not privacy; privacy holds even if all oracles compromised]] - paper - references/recursion/ch3/ref-87-deco.pdf
-- [[Universally Composable (UC) security via ideal functionality]] - paper - references/recursion/ch3/ref-87-deco.pdf
-- [[Zero-knowledge two-stage parsing scheme local pre-process (Trans) then prove context integrity on shorter transformed string]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[4x4 Sudoku Running Example]] - document - proving-nothing.md
+- [[Adjacency Matrix as Function Encoding]] - paper - references/books/proofs-args-zk.pdf
+- [[Arithmetization]] - document - proving-nothing.md
+- [[Boolean Hypercube]] - paper - references/books/proofs-args-zk.pdf
+- [[Counting Triangles IP]] - paper - references/books/proofs-args-zk.pdf
+- [[Distance-Amplifying Code]] - paper - references/books/proofs-args-zk.pdf
+- [[Doubly-efficient interactive proof (efficient prover, super-efficient verifier)]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
+- [[Efficient Prover for Product-of-MLEs]] - paper - references/books/proofs-args-zk.pdf
+- [[Encoding the Performance (Layer 4 Arithmetization)]] - document - proving-nothing.md
+- [[Finite Field Arithmetic]] - document - proving-nothing.md
+- [[HyperPlonk]] - paper - references/snowball/book/ref-084-hyperplonk-plonk-with-linear-time-prover-and-hi.pdf
+- [[Lagrange Basis Polynomial]] - paper - references/books/proofs-args-zk.pdf
+- [[Low Degree Extension (LDE)]] - paper - references/ch02/ref-08-stark.pdf
+- [[Multilinear Polynomial Commitment]] - paper - references/recursion/ch2/ref-41-spartan.pdf
+- [[Multilinear extension (MLE)]] - paper - references/ch03/ref-16-jolt.pdf
+- [[Multivariate Polynomial]] - paper - references/books/proofs-args-zk.pdf
+- [[Polynomial Evaluation Over Finite Field]] - paper - references/books/proofs-args-zk.pdf
+- [[Proof Core Layers 4-5-6 Inseparable]] - document - proving-nothing.md
+- [[Reducing Multiple Polynomial Evaluations to One]] - paper - references/books/proofs-args-zk.pdf
+- [[Reed-Solomon Code]] - paper - references/snowball/book/ref-073-ligero-lightweight-sublinear-arguments-without.pdf
+- [[Reed-Solomon Fingerprinting]] - paper - references/books/proofs-args-zk.pdf
+- [[SPARK Compiler]] - paper - references/recursion/ch2/ref-41-spartan.pdf
+- [[Schwartz-Zippel Lemma]] - document - proving-nothing.md
+- [[Soundness Error]] - paper - references/books/proofs-args-zk.pdf
+- [[Super-Efficient MatMult IP]] - paper - references/books/proofs-args-zk.pdf
+- [[The Seven-Layer ZK Stack Model]] - document - proving-nothing.md
+- [[Three Multiplicative Sources of Proving Overhead]] - document - proving-nothing.md
+- [[Total Degree (of a Polynomial)]] - paper - references/books/proofs-args-zk.pdf
+- [[Trust-Minimization Thesis (decompose, not eliminate trust)]] - document - proving-nothing.md
+- [[Univariate Lagrange Interpolation]] - paper - references/books/proofs-args-zk.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -50,17 +49,41 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 5 edges to [[_COMMUNITY_Community 20]]
-- 2 edges to [[_COMMUNITY_Community 48]]
-- 2 edges to [[_COMMUNITY_Community 100]]
-- 2 edges to [[_COMMUNITY_Community 21]]
-- 1 edge to [[_COMMUNITY_Community 41]]
-- 1 edge to [[_COMMUNITY_Community 11]]
-- 1 edge to [[_COMMUNITY_Community 59]]
+- 13 edges to [[_COMMUNITY_Community 2]]
+- 12 edges to [[_COMMUNITY_Community 28]]
+- 11 edges to [[_COMMUNITY_Community 18]]
+- 7 edges to [[_COMMUNITY_Community 21]]
+- 4 edges to [[_COMMUNITY_Community 0]]
+- 4 edges to [[_COMMUNITY_Community 15]]
+- 4 edges to [[_COMMUNITY_Community 31]]
+- 4 edges to [[_COMMUNITY_Community 63]]
+- 3 edges to [[_COMMUNITY_Community 12]]
+- 3 edges to [[_COMMUNITY_Community 8]]
+- 3 edges to [[_COMMUNITY_Community 56]]
+- 3 edges to [[_COMMUNITY_Community 40]]
+- 3 edges to [[_COMMUNITY_Community 68]]
+- 3 edges to [[_COMMUNITY_Community 84]]
+- 2 edges to [[_COMMUNITY_Community 54]]
+- 2 edges to [[_COMMUNITY_Community 80]]
+- 1 edge to [[_COMMUNITY_Community 22]]
+- 1 edge to [[_COMMUNITY_Community 35]]
+- 1 edge to [[_COMMUNITY_Community 97]]
+- 1 edge to [[_COMMUNITY_Community 61]]
+- 1 edge to [[_COMMUNITY_Community 13]]
+- 1 edge to [[_COMMUNITY_Community 17]]
+- 1 edge to [[_COMMUNITY_Community 115]]
+- 1 edge to [[_COMMUNITY_Community 1]]
+- 1 edge to [[_COMMUNITY_Community 10]]
+- 1 edge to [[_COMMUNITY_Community 42]]
+- 1 edge to [[_COMMUNITY_Community 101]]
+- 1 edge to [[_COMMUNITY_Community 89]]
+- 1 edge to [[_COMMUNITY_Community 26]]
+- 1 edge to [[_COMMUNITY_Community 114]]
+- 1 edge to [[_COMMUNITY_Community 87]]
 
 ## Top bridge nodes
-- [[DECO decentralized oracle for TLS (Zhang, Maram, Malvai, Goldfeder, Juels, CCS 2020)]] - degree 22, connects to 2 communities
-- [[Secure multi-party computation (MPC)  two-party computation (2PC)]] - degree 6, connects to 2 communities
-- [[Efficient selective opening of TLS records (RevealRedact modes) exploiting MAC-then-encrypt and Merkle-Damgard structure]] - degree 5, connects to 2 communities
-- [[Decentralized Oracle for TLS]] - degree 3, connects to 2 communities
-- [[Transport Layer Security (TLS) handshake + record protocol]] - degree 5, connects to 1 community
+- [[Multilinear extension (MLE)]] - degree 31, connects to 12 communities
+- [[Arithmetization]] - degree 25, connects to 9 communities
+- [[Schwartz-Zippel Lemma]] - degree 19, connects to 9 communities
+- [[HyperPlonk]] - degree 6, connects to 5 communities
+- [[Finite Field Arithmetic]] - degree 16, connects to 4 communities

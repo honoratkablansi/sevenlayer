@@ -1,12 +1,12 @@
 ---
 source_file: "references/snowball/book/ref-109-hawk-the-blockchain-model-of-cryptography-and-p.pdf"
 type: "paper"
-community: "Community 111"
+community: "Community 110"
 location: "abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_111
+  - community/Community_110
 ---
 
 # Blockchain Model of Cryptography
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Smart Contract]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_111
+#graphify/paper #graphify/EXTRACTED #community/Community_110

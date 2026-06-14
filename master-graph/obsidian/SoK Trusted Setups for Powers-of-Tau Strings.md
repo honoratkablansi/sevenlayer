@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch02/ref-10-sok-powers-of-tau.pdf"
 type: "paper"
-community: "Community 68"
+community: "Community 9"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_68
+  - community/Community_9
 ---
 
 # SoK: Trusted Setups for Powers-of-Tau Strings
@@ -25,4 +25,4 @@ tags:
 - [[Survey of 40+ real-world ceremonies (Aleo, Aztec, Filecoin, Hermez, Ethereum KZG, Manta, ZKSync, etc.)]] - `introduces` [EXTRACTED]
 - [[Trusted Setup Ceremony]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_68
+#graphify/paper #graphify/EXTRACTED #community/Community_9

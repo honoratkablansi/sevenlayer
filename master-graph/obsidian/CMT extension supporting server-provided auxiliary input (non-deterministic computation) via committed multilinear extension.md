@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-73-vsql.pdf"
 type: "paper"
-community: "Community 66"
+community: "Community 68"
 location: "§I-B; §V-B Supporting Auxiliary Inputs"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_66
+  - community/Community_68
 ---
 
 # CMT extension supporting server-provided auxiliary input (non-deterministic computation) via committed multilinear extension
@@ -18,4 +18,4 @@ tags:
 - [[O(zN) interactive set-intersection verification for joins via sorted-permutation product check]] - `assumes` [EXTRACTED]
 - [[vSQL verifiable database system for arbitrary SQL queries over dynamic outsourced databases]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_66
+#graphify/paper #graphify/EXTRACTED #community/Community_68

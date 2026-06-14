@@ -1,38 +1,39 @@
 ---
 type: community
-cohesion: 0.10
-members: 23
+cohesion: 0.14
+members: 24
 ---
 
 # Community 46
 
-**Cohesion:** 0.10 - loosely connected
-**Members:** 23 nodes
+**Cohesion:** 0.14 - loosely connected
+**Members:** 24 nodes
 
 ## Members
-- [[6 previously-unknown vulnerabilities discovered (BigMod, IsPositive, ed25519-circom etc.)]] - paper - references/ch10/ref-35-coda.pdf
-- [[BigLessThan motivating example (Circom bug at line 32)]] - paper - references/ch10/ref-35-coda.pdf
-- [[Certifying Zero-Knowledge Circuits with Refinement Types]] - paper - references/ch10/ref-35-coda.pdf
-- [[Coda compiler partial evaluation to R1CS constraints]] - paper - references/ch10/ref-35-coda.pdf
-- [[Coda domain-specific Coq tactic library (F_to_Z, overflow, split_sum, switch_sum, reduce_sum, ind)]] - paper - references/ch10/ref-35-coda.pdf
-- [[Coda refinement type system {nuT  phi}]] - paper - references/ch10/ref-35-coda.pdf
-- [[Coda type-checking rules (circuit, expression, subtyping judgments)]] - paper - references/ch10/ref-35-coda.pdf
-- [[Coda verified higher-order library (branching, zip, array aggregates)]] - paper - references/ch10/ref-35-coda.pdf
-- [[Coda statically-typed functional DSL for ZK circuits]] - paper - references/ch10/ref-35-coda.pdf
-- [[Coq Proof Assistant]] - document - references/ch10/ref-35-coda.pdf
-- [[Coq lemma generation for proof obligations]] - paper - references/ch10/ref-35-coda.pdf
-- [[Evaluation 77 circuits from 9 Circom projects, 66 verified]] - paper - references/ch10/ref-35-coda.pdf
-- [[Fiat-Crypto finite-field formalization library]] - paper - references/ch10/ref-35-coda.pdf
-- [[Liquid  logically-qualified data types (SMT-discharged)]] - paper - references/ch10/ref-35-coda.pdf
-- [[Non-determinism (star) and assertion semantics encoding relations]] - paper - references/ch10/ref-35-coda.pdf
-- [[Refinement Types]] - document - references/ch10/ref-35-coda.pdf
-- [[SMT solving over finite fields  large prime fields]] - paper - references/ch10/ref-35-coda.pdf
-- [[TSub-Refine subtyping rule (reduces type checking to logical validity)]] - paper - references/ch10/ref-35-coda.pdf
-- [[Theorem 1 Expression Type Preservation (soundness)]] - paper - references/ch10/ref-35-coda.pdf
-- [[Theorem 2 Circuit Evaluation Type Preservation]] - paper - references/ch10/ref-35-coda.pdf
-- [[Trustless threat model (attacker controls source, R1CS, prover, verifier; can swap proof)]] - paper - references/ch10/ref-35-coda.pdf
-- [[Verification-effort case study 60% shorter proofs vs shallow embedding]] - paper - references/ch10/ref-35-coda.pdf
-- [[iter combinator with annotated loop invariant]] - paper - references/ch10/ref-35-coda.pdf
+- [[Assumption 4.3 MatrixACLMT Knowledge Assumption (matrix variant of knowledge k-ISIS)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Attack on Extractable Linear FC integer variant of ACL+22 not extractable assuming inhomogeneous SIS]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[BASIS_struct Assumption (structured lattice assumption of WW23; implies l-succinct SIS)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[CRS Efficiency Claim l{d+1} CRS for degree-d polynomials (reduces ACL+22 exponent from 2d to d+1; l3 for quadratics vs l4l5)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Construction 3.19 Dual Functional Commitment for Bounded-Depth Boolean Circuits]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Construction 3.2 Functional Commitment for Constant-Degree Polynomials]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Construction 3.9 Multi-Output Functional Commitment for Constant-Degree Polynomials]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Dual Functional Commitment (commit to function f, open at input x)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Evasive LWE Assumption (implies l-succinct SIS plus LWE)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Extractable Functional Commitment (equivalent to SNARG for NP via quadratic relations)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Fast Verification in the Preprocessing Model (sublinear verifier after functioninput preprocessing)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Functional Commitment]] - document - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[GSW  BGG+14 Lattice Homomorphic Evaluation Machinery]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Inhomogeneous SIS Assumption]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[KLVW23 RAM-Delegation-Based FC for All Circuits (LWE, transparent, non-black-box)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Knowledge k-R-ISIS Assumption (Albrecht et al. CRYPTO 2022)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Lattice-Based Functional Commitments Fast Verification and Cryptanalysis]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Oblivious Sampling Cryptanalysis (Babai-rounding attack breaking extractability  knowledge k-R-ISIS plausibility)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Preprocessing SNARG]] - paper - references/snowball/book/ref-086-succinct-non-interactive-arguments-via-linear-in.pdf
+- [[Short Integer Solutions (SIS) Assumption]] - document - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Succinct Non-interactive Argument (SNARG)]] - paper - references/ch02/ref-06-groth16.pdf
+- [[Theorem 3.22 Selective-Input Binding of Dual FC under l-succinct SIS]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Theorem 3.6 Computational Binding of Construction 3.2 under l-succinct SIS]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[l-Succinct SIS Assumption (falsifiable q-type generalization of SIS, trapdoor for I_l ⊗ A  W)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -42,16 +43,19 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 4 edges to [[_COMMUNITY_Community 95]]
-- 2 edges to [[_COMMUNITY_Community 3]]
-- 2 edges to [[_COMMUNITY_Community 69]]
-- 1 edge to [[_COMMUNITY_Community 41]]
-- 1 edge to [[_COMMUNITY_Community 15]]
-- 1 edge to [[_COMMUNITY_Community 80]]
+- 6 edges to [[_COMMUNITY_Community 0]]
+- 2 edges to [[_COMMUNITY_Community 36]]
+- 2 edges to [[_COMMUNITY_Community 21]]
+- 2 edges to [[_COMMUNITY_Community 10]]
+- 1 edge to [[_COMMUNITY_Community 22]]
+- 1 edge to [[_COMMUNITY_Community 100]]
+- 1 edge to [[_COMMUNITY_Community 12]]
+- 1 edge to [[_COMMUNITY_Community 35]]
+- 1 edge to [[_COMMUNITY_Community 42]]
 
 ## Top bridge nodes
-- [[Certifying Zero-Knowledge Circuits with Refinement Types]] - degree 6, connects to 3 communities
-- [[Coda statically-typed functional DSL for ZK circuits]] - degree 9, connects to 1 community
-- [[Evaluation 77 circuits from 9 Circom projects, 66 verified]] - degree 4, connects to 1 community
-- [[Refinement Types]] - degree 3, connects to 1 community
-- [[SMT solving over finite fields  large prime fields]] - degree 2, connects to 1 community
+- [[Lattice-Based Functional Commitments Fast Verification and Cryptanalysis]] - degree 14, connects to 4 communities
+- [[Functional Commitment]] - degree 9, connects to 3 communities
+- [[Succinct Non-interactive Argument (SNARG)]] - degree 5, connects to 3 communities
+- [[Construction 3.2 Functional Commitment for Constant-Degree Polynomials]] - degree 10, connects to 2 communities
+- [[l-Succinct SIS Assumption (falsifiable q-type generalization of SIS, trapdoor for I_l ⊗ A  W)]] - degree 8, connects to 1 community

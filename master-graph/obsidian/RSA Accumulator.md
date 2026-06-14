@@ -1,12 +1,12 @@
 ---
 source_file: "references/snowball/book/ref-115-scaling-verifiable-computation-using-efficient-s.pdf"
 type: "paper"
-community: "Community 63"
+community: "Community 73"
 location: "abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_63
+  - community/Community_73
 ---
 
 # RSA Accumulator
@@ -16,4 +16,4 @@ tags:
 - [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `uses` [EXTRACTED]
 - [[Verifiable computation]] - `improves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_63
+#graphify/paper #graphify/EXTRACTED #community/Community_73

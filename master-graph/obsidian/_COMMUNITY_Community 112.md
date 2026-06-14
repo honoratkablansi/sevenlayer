@@ -1,25 +1,25 @@
 ---
 type: community
-cohesion: 0.20
+cohesion: 0.27
 members: 10
 ---
 
 # Community 112
 
-**Cohesion:** 0.20 - loosely connected
+**Cohesion:** 0.27 - loosely connected
 **Members:** 10 nodes
 
 ## Members
-- [[FIPS 203 (ML-KEM Standard)]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
-- [[FIPS 204 (ML-DSA Standard)]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
-- [[FIPS 205 (SLH-DSA Standard)]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
-- [[Five Post-Quantum Security Categories (1-5; AES-128 to AES-256, SHA-256SHA3-384)]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
-- [[PQC signature replacements ML-DSA-446587, SLH-DSA, LMSHSS, XMSS]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
-- [[Quantitative (Strong) Church's thesis]] - paper - references/ch07/ref-24-shor.pdf
-- [[Quantum Computing]] - paper - references/ch07/ref-24-shor.pdf
-- [[SLH-DSA (Stateless Hash-Based Digital Signature Algorithm)]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
-- [[Symmetric crypto (AES, SHA-23) less quantum-vulnerable; 112-bit symmetric disallowed 2030]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
-- [[Transition to Post-Quantum Cryptography Standards (NIST IR 8547)]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
+- [[Commitment Scheme]] - paper - references/ch06/ref-21-neo.pdf
+- [[Computational Binding]] - paper - references/books/proofs-args-zk.pdf
+- [[Computational Zero-Knowledge]] - paper - references/books/proofs-args-zk.pdf
+- [[Graph 3-Coloring (G3-COLOR)]] - paper - references/mooc/lecture01/slides.pdf
+- [[NP-Completeness and Reducibility]] - paper - references/mooc/lecture01/slides.pdf
+- [[One-Way Function]] - paper - references/mooc/lecture01/slides.pdf
+- [[Pay-Per-Bit Commitment]] - paper - references/ch06/ref-21-neo.pdf
+- [[Ring-SIS]] - paper - references/snowball/recursion/ref-133-a-non-pcp-approach-to-succinct-quantum-safe-zero.pdf
+- [[Three-Coloring Zero-Knowledge Proof (GMW)]] - paper - references/mooc/lecture01/slides.pdf
+- [[ZKP Applications (Blockchain, Forensics, Nuclear Disarmament, Legal)]] - paper - references/mooc/lecture01/slides.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -29,16 +29,19 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 3 edges to [[_COMMUNITY_Community 1]]
-- 3 edges to [[_COMMUNITY_Community 91]]
-- 3 edges to [[_COMMUNITY_Community 54]]
-- 2 edges to [[_COMMUNITY_Community 44]]
-- 2 edges to [[_COMMUNITY_Community 33]]
-- 1 edge to [[_COMMUNITY_Community 11]]
+- 5 edges to [[_COMMUNITY_Community 22]]
+- 3 edges to [[_COMMUNITY_Community 29]]
+- 1 edge to [[_COMMUNITY_Community 36]]
+- 1 edge to [[_COMMUNITY_Community 21]]
+- 1 edge to [[_COMMUNITY_Community 0]]
+- 1 edge to [[_COMMUNITY_Community 124]]
+- 1 edge to [[_COMMUNITY_Community 7]]
+- 1 edge to [[_COMMUNITY_Community 25]]
+- 1 edge to [[_COMMUNITY_Community 79]]
 
 ## Top bridge nodes
-- [[Transition to Post-Quantum Cryptography Standards (NIST IR 8547)]] - degree 13, connects to 4 communities
-- [[Quantum Computing]] - degree 4, connects to 2 communities
-- [[Five Post-Quantum Security Categories (1-5; AES-128 to AES-256, SHA-256SHA3-384)]] - degree 3, connects to 2 communities
-- [[FIPS 203 (ML-KEM Standard)]] - degree 2, connects to 1 community
-- [[FIPS 204 (ML-DSA Standard)]] - degree 2, connects to 1 community
+- [[Commitment Scheme]] - degree 15, connects to 7 communities
+- [[Graph 3-Coloring (G3-COLOR)]] - degree 3, connects to 2 communities
+- [[ZKP Applications (Blockchain, Forensics, Nuclear Disarmament, Legal)]] - degree 3, connects to 2 communities
+- [[Computational Zero-Knowledge]] - degree 6, connects to 1 community
+- [[Three-Coloring Zero-Knowledge Proof (GMW)]] - degree 4, connects to 1 community

@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf"
 type: "paper"
-community: "Community 74"
+community: "Community 44"
 location: "title/abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_74
+  - community/Community_44
 ---
 
 # Bitansky-Canetti-Chiesa-Tromer: Recursive Composition and Bootstrapping for SNARKs and PCD (STOC 2013)
@@ -28,4 +28,4 @@ tags:
 - [[Valiant 2008 Incrementally-Verifiable Computation Val08]] - `cites` [EXTRACTED]
 - [[Valiant Incrementally Verifiable Computation (TCC 2008)]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_74
+#graphify/paper #graphify/EXTRACTED #community/Community_44

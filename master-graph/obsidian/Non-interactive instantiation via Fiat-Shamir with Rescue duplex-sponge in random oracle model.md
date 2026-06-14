@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-05-halo.pdf"
 type: "paper"
-community: "Community 47"
+community: "Community 70"
 location: "§6, [21], [1], [7]"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_47
+  - community/Community_70
 ---
 
 # Non-interactive instantiation via Fiat-Shamir with Rescue duplex-sponge in random oracle model
@@ -16,4 +16,4 @@ tags:
 - [[Main argument Sonic-variant PSHVZK argument of knowledge for arithmetic circuit satisfiability]] - `conceptually_related_to` [EXTRACTED]
 - [[No-trusted-setup (transparent) argument under discrete log over normal curve cycles]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_47
+#graphify/paper #graphify/EXTRACTED #community/Community_70

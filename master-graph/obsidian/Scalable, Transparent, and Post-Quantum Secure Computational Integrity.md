@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch02/ref-08-stark.pdf"
 type: "paper"
-community: "Community 51"
+community: "Community 54"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_51
+  - community/Community_54
 ---
 
 # Scalable, Transparent, and Post-Quantum Secure Computational Integrity
@@ -38,4 +38,4 @@ tags:
 - [[Zero-Knowledge Proof]] - `conceptually_related_to` [EXTRACTED]
 - [[Zero-Knowledge Scalable Transparent ARgument of Knowledge (ZK-STARK)]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_51
+#graphify/paper #graphify/EXTRACTED #community/Community_54

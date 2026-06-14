@@ -1,23 +1,21 @@
 ---
 type: community
-cohesion: 0.29
-members: 8
+cohesion: 0.40
+members: 6
 ---
 
 # Community 123
 
-**Cohesion:** 0.29 - loosely connected
-**Members:** 8 nodes
+**Cohesion:** 0.40 - moderately connected
+**Members:** 6 nodes
 
 ## Members
-- [[Certificate Transparency]] - document - references/recursion/ch3/ref-65-rfc-6962-certificate-transparency.md
-- [[Content Credentials trust model (X.509 signers)]] - document - references/recursion/ch3/ref-79-c2pa-specification.md
-- [[Merkle Hash Tree]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[Merkle audit and consistency proofs]] - document - references/recursion/ch3/ref-65-rfc-6962-certificate-transparency.md
-- [[Misissued-certificate detection by monitors and auditors]] - document - references/recursion/ch3/ref-65-rfc-6962-certificate-transparency.md
-- [[RFC 6962 Certificate Transparency]] - document - references/recursion/ch3/ref-65-rfc-6962-certificate-transparency.md
-- [[Signed Certificate Timestamp (SCT)]] - document - references/recursion/ch3/ref-65-rfc-6962-certificate-transparency.md
-- [[Verifiable transparency logs]] - document - recursion/recursion-outline.md
+- [[Methodology for post-quantum, transparent recursive composition of SNARKs (no special algebraic objects)]] - paper - references/recursion/ch1/ref-10-fractal.pdf
+- [[Post-quantum security (against quantum adversaries; security in the QROM)]] - paper - references/recursion/ch1/ref-10-fractal.pdf
+- [[Prior efficient recursion approach using pairing-based SNARKs on cycles of pairing-friendly elliptic curves BCTV14]] - paper - references/recursion/ch1/ref-10-fractal.pdf
+- [[Proof-carrying data (PCD) primitive formally capturing recursive composition via a compliance predicate]] - paper - references/recursion/ch1/ref-10-fractal.pdf
+- [[Recursive composition  PCD from succinct-verifier SNARKs BCCT13]] - paper - references/recursion/ch1/ref-10-fractal.pdf
+- [[Theorem 4  Theorem 11.5 transformation compiling any preprocessing SNARK in the URS model into a preprocessing PCD scheme (preserving transparency and post-quantum security)]] - paper - references/recursion/ch1/ref-10-fractal.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -27,13 +25,18 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
+- 4 edges to [[_COMMUNITY_Community 74]]
+- 3 edges to [[_COMMUNITY_Community 12]]
+- 3 edges to [[_COMMUNITY_Community 19]]
 - 1 edge to [[_COMMUNITY_Community 22]]
-- 1 edge to [[_COMMUNITY_Community 57]]
-- 1 edge to [[_COMMUNITY_Community 64]]
-- 1 edge to [[_COMMUNITY_Community 31]]
-- 1 edge to [[_COMMUNITY_Community 65]]
+- 1 edge to [[_COMMUNITY_Community 36]]
+- 1 edge to [[_COMMUNITY_Community 43]]
+- 1 edge to [[_COMMUNITY_Community 104]]
+- 1 edge to [[_COMMUNITY_Community 0]]
 
 ## Top bridge nodes
-- [[Verifiable transparency logs]] - degree 4, connects to 2 communities
-- [[Content Credentials trust model (X.509 signers)]] - degree 3, connects to 2 communities
-- [[Merkle Hash Tree]] - degree 3, connects to 1 community
+- [[Post-quantum security (against quantum adversaries; security in the QROM)]] - degree 9, connects to 7 communities
+- [[Methodology for post-quantum, transparent recursive composition of SNARKs (no special algebraic objects)]] - degree 5, connects to 3 communities
+- [[Theorem 4  Theorem 11.5 transformation compiling any preprocessing SNARK in the URS model into a preprocessing PCD scheme (preserving transparency and post-quantum security)]] - degree 5, connects to 2 communities
+- [[Prior efficient recursion approach using pairing-based SNARKs on cycles of pairing-friendly elliptic curves BCTV14]] - degree 3, connects to 2 communities
+- [[Proof-carrying data (PCD) primitive formally capturing recursive composition via a compliance predicate]] - degree 3, connects to 1 community

@@ -1,51 +1,53 @@
 ---
 type: community
 cohesion: 0.07
-members: 36
+members: 38
 ---
 
 # Community 18
 
 **Cohesion:** 0.07 - loosely connected
-**Members:** 36 nodes
+**Members:** 38 nodes
 
 ## Members
-- [[Approximate range proof RoK Pi_rg for ring vectors (Thm 3.1) via random projection + monomial lookup]] - paper - references/ch10/ref-56-symphony.pdf
-- [[Argument of Knowledge]] - paper - references/snowball/recursion/ref-110-algebraic-reductions-of-knowledge.pdf
-- [[B-Bounded Ajtai Commitment Opening Relation RB_cm]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[Base-b Witness Decomposition Step]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[Commit-and-Open Fiat-Shamir transform FSHPi_cm,Pi_rok (Thm 5.1) over compressed transcript]] - paper - references/ch10/ref-56-symphony.pdf
-- [[Commit-and-prove compiler from RoK to SNARK without FS in circuit (Construction 6.1, Thm 6.1)]] - paper - references/ch10/ref-56-symphony.pdf
-- [[Efficiency 200KB proof (PQ), prover dominated by witness commitment, O(loglog n) data passes, O(n) memory]] - paper - references/ch10/ref-56-symphony.pdf
-- [[Expanded Evaluation Relation RB_eval]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[Expansion-Decomposition-Folding Pipeline (Pi_mfold)]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[Halo BGH19 (origin of accumulationfolding, cited prior work)]] - paper - references/ch10/ref-56-symphony.pdf
-- [[High-arity folding (fold many NP statements per step, no deep folding trees)]] - paper - references/ch10/ref-56-symphony.pdf
-- [[Hypernova Folding Scheme (cited)]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[LaBRADOR Lattice Proof System (cited)]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[LaBRADOR BS23 (lattice argument, random projection, challenge set, cited prior work)]] - paper - references/ch10/ref-56-symphony.pdf
-- [[Lattice-Based CCS Folding Scheme]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[Lattice-Based Committed CCS Relation RB_cmccs]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[Lattice-based high-arity folding scheme Pi_fold (Thm 4.1) compressing l_np R1CS statements in one shot]] - paper - references/ch10/ref-56-symphony.pdf
-- [[LatticeFold BC24 (lattice folding & decomposition RoK, cited prior work)]] - paper - references/ch10/ref-56-symphony.pdf
-- [[LatticeFold+ BC25 (monomial embedding & exact range proof, cited prior work)]] - paper - references/ch10/ref-56-symphony.pdf
-- [[Monomial-embedding RoK Pi_mon (Lemma 3.1) reducing monomial check to linear statement]] - paper - references/ch10/ref-56-symphony.pdf
-- [[Neo NS25 (lattice SNARK; Hadamard sumcheck and single-instance encoding, cited prior work)]] - paper - references/ch10/ref-56-symphony.pdf
-- [[Optimized Single-Sumcheck Batch Folding (Pi_batch)]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[Performance Comparable to Hypernova on 64-bit Field]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[Plausibly post-quantum security from lattice MSIS hardness]] - paper - references/ch10/ref-56-symphony.pdf
-- [[Protostar BC23 (commit-and-open  accumulation, cited prior work)]] - paper - references/ch10/ref-56-symphony.pdf
-- [[Random projection for norm preservation (J in {0,+-1}, ell2-norm preserved mod q)]] - paper - references/ch10/ref-56-symphony.pdf
-- [[Reduction of Knowledge]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[RoK Pi_had reducing batched HadamardR1CS relation to linear relation (Prop 3.1)]] - paper - references/ch10/ref-56-symphony.pdf
-- [[Small Prime Modulus via Extension Fields]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[Straightline extractability of commitment (enables tighter ROM reduction)]] - paper - references/ch10/ref-56-symphony.pdf
-- [[Sumcheck-Based Norm-Bound Range Check]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[Symphony Scalable SNARKs in the Random Oracle Model from Lattice-Based High-Arity Folding]] - paper - references/ch10/ref-56-symphony.pdf
-- [[Symphony scalable SNARK in the ROM from high-arity folding]] - paper - references/ch10/ref-56-symphony.pdf
-- [[Tensor-of-rings E = K (x) Rq enabling interleaved sumcheck and folding]] - paper - references/ch10/ref-56-symphony.pdf
-- [[Theorem 3.1 LatticeFold Folding Reduction]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[Two-layer folding via splitting linear-statement RoK (§8), under stronger structured-MSIS]] - paper - references/ch10/ref-56-symphony.pdf
+- [[SAT Interactive Proof]] - paper - references/books/proofs-args-zk.pdf
+- [[Arithmetic Circuit]] - document - proving-nothing.md
+- [[Arithmetic Circuit Evaluation Problem]] - paper - references/books/proofs-args-zk.pdf
+- [[Back End (Argument System for Circuit Evaluation)]] - paper - references/books/proofs-args-zk.pdf
+- [[Bit Decomposition for Non-Arithmetic Operations]] - paper - references/books/proofs-args-zk.pdf
+- [[Boolean Formula]] - paper - references/books/proofs-args-zk.pdf
+- [[Configuration Graph (RAM Reachability)]] - paper - references/books/proofs-args-zk.pdf
+- [[Execution Transcript  Purported Trace]] - paper - references/books/proofs-args-zk.pdf
+- [[Front End (Program-to-Circuit Compiler)]] - paper - references/books/proofs-args-zk.pdf
+- [[GKR  Delegating Computation Interactive Proofs for Muggles (Goldwasser-Kalai-Rothblum, J.ACM 2015) 53]] - paper - references/recursion/ch3/ref-59-zkbridge.pdf
+- [[GKR protocol doubly-efficient interactive proof for bounded-depth computation via layer-by-layer sumcheck reduction; prover need not commit to full trace]] - paper - references/recursion/ch1/ref-11-khovratovich-fiat-shamir-attacks.pdf
+- [[Gate Value Function (W_i)]] - paper - references/books/proofs-args-zk.pdf
+- [[Goldwasser-Kalai-Rothblum 26 Delegating Computation  Interactive Proofs for Muggles]] - paper - references/recursion/ch3/ref-70-zkcnn.pdf
+- [[Holographic  Preprocessing Argument System]] - paper - references/books/proofs-args-zk.pdf
+- [[IP = PSPACE (Complexity Result)]] - paper - references/books/proofs-args-zk.pdf
+- [[Large-Base Decomposition (Bootle et al. Amortized Technique)]] - paper - references/books/proofs-args-zk.pdf
+- [[Layered Arithmetic Circuit]] - paper - references/books/proofs-args-zk.pdf
+- [[Libra]] - paper - references/snowball/book/ref-081-libra-succinct-zero-knowledge-proofs-with-optim.pdf
+- [[Linear Error-Correcting Code]] - paper - references/snowball/book/ref-096-orion-zero-knowledge-proof-with-linear-prover-t.pdf
+- [[Linear-Time Prover]] - paper - references/snowball/book/ref-096-orion-zero-knowledge-proof-with-linear-prover-t.pdf
+- [[Log-Space Uniform Circuit]] - paper - references/books/proofs-args-zk.pdf
+- [[Lossless Expander Graph]] - paper - references/snowball/book/ref-096-orion-zero-knowledge-proof-with-linear-prover-t.pdf
+- [[Machine Code  Random Access Machine (RAM)]] - paper - references/books/proofs-args-zk.pdf
+- [[Machine Configuration]] - paper - references/books/proofs-args-zk.pdf
+- [[Memory Consistency Checking]] - paper - references/books/proofs-args-zk.pdf
+- [[NC Complexity Class (Parallel Algorithms)]] - paper - references/books/proofs-args-zk.pdf
+- [[Orion]] - paper - references/snowball/book/ref-096-orion-zero-knowledge-proof-with-linear-prover-t.pdf
+- [[Permutation-Invariant Fingerprinting]] - paper - references/books/proofs-args-zk.pdf
+- [[Program-to-Circuit Reduction (First Technique)]] - paper - references/books/proofs-args-zk.pdf
+- [[Proof Composition]] - paper - references/snowball/book/ref-096-orion-zero-knowledge-proof-with-linear-prover-t.pdf
+- [[Prover Efficiency]] - paper - references/snowball/book/ref-148-arya-nearly-linear-time-zero-knowledge-proofs-f.pdf
+- [[RAM Computation]] - paper - references/snowball/recursion/ref-118-fast-reductions-from-rams-to-delegatable-succinc.pdf
+- [[Routing Network  De Bruijn Graph (Non-Deterministic Sort)]] - paper - references/books/proofs-args-zk.pdf
+- [[Shallow Circuit (Small-Space to Low-Depth)]] - paper - references/books/proofs-args-zk.pdf
+- [[Table Lookup Inside Circuit Satisfiability Instance]] - paper - references/books/proofs-args-zk.pdf
+- [[Time Consistency Checking (Transition Function)]] - paper - references/books/proofs-args-zk.pdf
+- [[Virgo ZKP System]] - paper - references/snowball/recursion/ref-103-transparent-polynomial-delegation-and-its-applic.pdf
+- [[Wiring Predicate (add_i  mult_i)]] - paper - references/books/proofs-args-zk.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -55,23 +57,37 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 14 edges to [[_COMMUNITY_Community 1]]
-- 6 edges to [[_COMMUNITY_Community 22]]
-- 6 edges to [[_COMMUNITY_Community 9]]
-- 2 edges to [[_COMMUNITY_Community 4]]
-- 2 edges to [[_COMMUNITY_Community 52]]
-- 2 edges to [[_COMMUNITY_Community 30]]
-- 1 edge to [[_COMMUNITY_Community 70]]
-- 1 edge to [[_COMMUNITY_Community 15]]
-- 1 edge to [[_COMMUNITY_Community 10]]
-- 1 edge to [[_COMMUNITY_Community 17]]
-- 1 edge to [[_COMMUNITY_Community 0]]
-- 1 edge to [[_COMMUNITY_Community 3]]
-- 1 edge to [[_COMMUNITY_Community 19]]
+- 11 edges to [[_COMMUNITY_Community 27]]
+- 11 edges to [[_COMMUNITY_Community 15]]
+- 4 edges to [[_COMMUNITY_Community 22]]
+- 4 edges to [[_COMMUNITY_Community 36]]
+- 3 edges to [[_COMMUNITY_Community 35]]
+- 3 edges to [[_COMMUNITY_Community 21]]
+- 3 edges to [[_COMMUNITY_Community 75]]
+- 3 edges to [[_COMMUNITY_Community 105]]
+- 3 edges to [[_COMMUNITY_Community 2]]
+- 3 edges to [[_COMMUNITY_Community 28]]
+- 3 edges to [[_COMMUNITY_Community 88]]
+- 3 edges to [[_COMMUNITY_Community 63]]
+- 3 edges to [[_COMMUNITY_Community 114]]
+- 2 edges to [[_COMMUNITY_Community 32]]
+- 2 edges to [[_COMMUNITY_Community 81]]
+- 2 edges to [[_COMMUNITY_Community 50]]
+- 2 edges to [[_COMMUNITY_Community 68]]
+- 2 edges to [[_COMMUNITY_Community 40]]
+- 2 edges to [[_COMMUNITY_Community 19]]
+- 1 edge to [[_COMMUNITY_Community 72]]
+- 1 edge to [[_COMMUNITY_Community 57]]
+- 1 edge to [[_COMMUNITY_Community 4]]
+- 1 edge to [[_COMMUNITY_Community 98]]
+- 1 edge to [[_COMMUNITY_Community 1]]
+- 1 edge to [[_COMMUNITY_Community 23]]
+- 1 edge to [[_COMMUNITY_Community 5]]
+- 1 edge to [[_COMMUNITY_Community 128]]
 
 ## Top bridge nodes
-- [[Symphony Scalable SNARKs in the Random Oracle Model from Lattice-Based High-Arity Folding]] - degree 22, connects to 8 communities
-- [[Lattice-based high-arity folding scheme Pi_fold (Thm 4.1) compressing l_np R1CS statements in one shot]] - degree 9, connects to 2 communities
-- [[Reduction of Knowledge]] - degree 8, connects to 2 communities
-- [[Expansion-Decomposition-Folding Pipeline (Pi_mfold)]] - degree 7, connects to 2 communities
-- [[B-Bounded Ajtai Commitment Opening Relation RB_cm]] - degree 6, connects to 2 communities
+- [[GKR protocol doubly-efficient interactive proof for bounded-depth computation via layer-by-layer sumcheck reduction; prover need not commit to full trace]] - degree 46, connects to 15 communities
+- [[Arithmetic Circuit]] - degree 33, connects to 12 communities
+- [[Libra]] - degree 5, connects to 3 communities
+- [[Virgo ZKP System]] - degree 4, connects to 3 communities
+- [[Layered Arithmetic Circuit]] - degree 6, connects to 2 communities

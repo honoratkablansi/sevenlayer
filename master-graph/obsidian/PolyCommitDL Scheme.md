@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-04-kzg-commitments.pdf"
 type: "paper"
-community: "Community 57"
+community: "Community 58"
 location: "§3.2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_57
+  - community/Community_58
 ---
 
 # PolyCommitDL Scheme
@@ -25,4 +25,4 @@ tags:
 - [[eVSS Efficient Feldman VSS]] - `conceptually_related_to` [EXTRACTED]
 - [[t-Strong Diffie-Hellman (t-SDH) Assumption]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_57
+#graphify/paper #graphify/EXTRACTED #community/Community_58

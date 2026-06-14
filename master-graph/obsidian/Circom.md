@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 95"
+community: "Community 98"
 location: "Chapter 3"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_95
+  - community/Community_98
 ---
 
 # Circom
@@ -41,4 +41,4 @@ tags:
 - [[ZkBench Benchmark Suite (163 Circom circuits)]] - `conceptually_related_to` [EXTRACTED]
 - [[zkSNARK]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_95
+#graphify/document #graphify/EXTRACTED #community/Community_98

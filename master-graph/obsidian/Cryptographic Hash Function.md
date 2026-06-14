@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf"
 type: "paper"
-community: "Community 70"
+community: "Community 32"
 location: "abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_70
+  - community/Community_32
 ---
 
 # Cryptographic Hash Function
@@ -17,4 +17,4 @@ tags:
 - [[Hash Chaining]] - `uses` [EXTRACTED]
 - [[Random oracle model (non-interactive STARK  NIROP)]] - `relates_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_70
+#graphify/paper #graphify/EXTRACTED #community/Community_32

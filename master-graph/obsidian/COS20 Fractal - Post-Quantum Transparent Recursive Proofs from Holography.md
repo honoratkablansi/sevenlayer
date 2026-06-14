@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf"
 type: "paper"
-community: "Community 49"
+community: "Community 64"
 location: "§1.2, ref [COS20]"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_49
+  - community/Community_64
 ---
 
 # COS20: Fractal - Post-Quantum Transparent Recursive Proofs from Holography
@@ -15,4 +15,4 @@ tags:
 - [[Recursive Proof Composition]] - `conceptually_related_to` [EXTRACTED]
 - [[Theorem 5.2 transformation T from SNARK + accumulation scheme to PCD for constant-depth predicates]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_49
+#graphify/paper #graphify/EXTRACTED #community/Community_64

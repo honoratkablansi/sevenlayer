@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch14-the-three-frontiers.md"
 type: "document"
-community: "Community 24"
+community: "Community 13"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_24
+  - community/Community_13
 ---
 
 # The Three Frontiers
@@ -29,4 +29,4 @@ tags:
 - [[Zcash]] - `references` [EXTRACTED]
 - [[eIDAS 2.0]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_24
+#graphify/document #graphify/EXTRACTED #community/Community_13

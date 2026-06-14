@@ -1,12 +1,12 @@
 ---
 source_file: "recursion/recursion-outline.md"
 type: "document"
-community: "Community 31"
+community: "Community 47"
 location: "Recursion Chapter 3"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_31
+  - community/Community_47
 ---
 
 # Private multi-party applications / autonomous worlds
@@ -15,4 +15,4 @@ tags:
 - [[Proof-Carrying Data (PCD)]] - `conceptually_related_to` [EXTRACTED]
 - [[Zexe Decentralized Private Computation (Bowe et al., S&P 2020)]] - `cites` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_31
+#graphify/document #graphify/EXTRACTED #community/Community_47

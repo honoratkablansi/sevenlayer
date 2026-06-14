@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-18-hypernova.pdf"
 type: "paper"
-community: "Community 22"
+community: "Community 23"
 location: "§9 / Appendix E / ref [4]"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_22
+  - community/Community_23
 ---
 
 # 2-cycle of elliptic curves (BN254/Grumpkin)
@@ -19,4 +19,4 @@ tags:
 - [[SNARK Composition (Proof Composition)]] - `enables` [EXTRACTED]
 - [[Transparent SNARK (no trusted setup)]] - `relates_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_22
+#graphify/paper #graphify/EXTRACTED #community/Community_23

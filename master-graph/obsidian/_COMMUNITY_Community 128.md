@@ -1,22 +1,19 @@
 ---
 type: community
-cohesion: 0.29
-members: 7
+cohesion: 0.50
+members: 4
 ---
 
 # Community 128
 
-**Cohesion:** 0.29 - loosely connected
-**Members:** 7 nodes
+**Cohesion:** 0.50 - moderately connected
+**Members:** 4 nodes
 
 ## Members
-- [[Circuit Privacy]] - paper - references/ch09/ref-29-gentry-fhe.pdf
-- [[Extractor (polynomial) size blowup under recursive extraction (forces O(1) depth)]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
-- [[Fully-homomorphic encryption (FHE) assumption]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
-- [[Ideal Lattice]] - paper - references/ch09/ref-29-gentry-fhe.pdf
-- [[Learning With Errors (LWE) problem (Regev 2005)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[Somewhat Homomorphic Encryption (SHE)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
-- [[Theorem 1 SNARK Recursive Composition (SNARK - PCD for O(1)-depth predicates)]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
+- [[Fiore-Nitulescu On the (in)security of SNARKs in the presence of oracles (TCC 2016) 50 — O-SNARK notion]] - paper - references/recursion/ch3/ref-59-zkbridge.pdf
+- [[Micali Computationally Sound Proofs (SIAM J. Comput. 2000) 60 — non-interactive ROM construction underlying Virgo]] - paper - references/recursion/ch3/ref-59-zkbridge.pdf
+- [[O-SNARK SNARK over authenticated data  oracle families (Fiore-Nitulescu); deVirgo is an O-SNARK in the random oracle model]] - paper - references/recursion/ch3/ref-59-zkbridge.pdf
+- [[Virgo Transparent Polynomial Delegation and ZK Proofs (Zhang-Xie-Zhang-Song, S&P 2020) 76 — base ZKP that deVirgo distributes]] - paper - references/recursion/ch3/ref-59-zkbridge.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -26,17 +23,10 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 2 edges to [[_COMMUNITY_Community 1]]
-- 1 edge to [[_COMMUNITY_Community 72]]
-- 1 edge to [[_COMMUNITY_Community 31]]
-- 1 edge to [[_COMMUNITY_Community 33]]
-- 1 edge to [[_COMMUNITY_Community 42]]
-- 1 edge to [[_COMMUNITY_Community 13]]
-- 1 edge to [[_COMMUNITY_Community 74]]
+- 2 edges to [[_COMMUNITY_Community 75]]
+- 1 edge to [[_COMMUNITY_Community 21]]
+- 1 edge to [[_COMMUNITY_Community 18]]
 
 ## Top bridge nodes
-- [[Theorem 1 SNARK Recursive Composition (SNARK - PCD for O(1)-depth predicates)]] - degree 5, connects to 3 communities
-- [[Learning With Errors (LWE) problem (Regev 2005)]] - degree 3, connects to 2 communities
-- [[Fully-homomorphic encryption (FHE) assumption]] - degree 6, connects to 1 community
-- [[Extractor (polynomial) size blowup under recursive extraction (forces O(1) depth)]] - degree 2, connects to 1 community
-- [[Ideal Lattice]] - degree 2, connects to 1 community
+- [[Virgo Transparent Polynomial Delegation and ZK Proofs (Zhang-Xie-Zhang-Song, S&P 2020) 76 — base ZKP that deVirgo distributes]] - degree 4, connects to 3 communities
+- [[O-SNARK SNARK over authenticated data  oracle families (Fiore-Nitulescu); deVirgo is an O-SNARK in the random oracle model]] - degree 3, connects to 1 community

@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch11-three-zkvms-through-seven-layers.md"
 type: "document"
-community: "Community 0"
+community: "Community 13"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Community_13
 ---
 
 # Three zkVMs Through Seven Layers
@@ -39,4 +39,4 @@ tags:
 - [[zkVMs -- The Universal Stage]] - `part_of` [EXTRACTED]
 - [[zkVMs Across the Stack]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/document #graphify/EXTRACTED #community/Community_13

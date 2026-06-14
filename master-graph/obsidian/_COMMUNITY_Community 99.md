@@ -10,19 +10,19 @@ members: 13
 **Members:** 13 nodes
 
 ## Members
-- [[Bootle et al. (BCC+16) Inner-Product Argument]] - paper - references/ch02/ref-09-bulletproofs.pdf
-- [[Improved Inner-Product Argument (2 log2 n)]] - paper - references/ch02/ref-09-bulletproofs.pdf
-- [[Pedersen Vector Commitment]] - paper - references/ch02/ref-09-bulletproofs.pdf
-- [[Pinocchio Arithmetic Circuit Format]] - paper - references/ch02/ref-09-bulletproofs.pdf
-- [[Single Multi-Exponentiation Verifier & Batch Verification]] - paper - references/ch02/ref-09-bulletproofs.pdf
-- [[Subversion Zero-Knowledge (adversary generates the SRS)]] - paper - references/ch10/ref-36-sonic.pdf
-- [[Theorem 1 Inner-Product Argument Security]] - paper - references/ch02/ref-09-bulletproofs.pdf
-- [[Theorem 5 Arithmetic Circuit Protocol Soundness]] - paper - references/ch02/ref-09-bulletproofs.pdf
-- [[Theorem 6.1 Sonic satisfies subversion zero-knowledge]] - paper - references/ch10/ref-36-sonic.pdf
-- [[Theorem 6.2 Sonic has witness-extended emulation]] - paper - references/ch10/ref-36-sonic.pdf
-- [[Witness-Extended Emulation (Knowledge Soundness)]] - paper - references/ch02/ref-09-bulletproofs.pdf
-- [[Zero-Knowledge Argument of Knowledge]] - paper - references/ch02/ref-09-bulletproofs.pdf
-- [[Zero-Knowledge Proof for Arithmetic Circuits (Protocol 3)]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Airbender (Matter Labs)]] - document - proving-nothing.md
+- [[EF Security Pivot to 128-bit (Dec 2025)]] - document - proving-nothing.md
+- [[Gassmann et al., Optimizing RISC-V zkVM Compilation (2025)]] - document - proving-nothing.md
+- [[Kakarot (EVM-on-Stwo hedge)]] - document - proving-nothing.md
+- [[Mersenne-31 (M31) field]] - document - proving-nothing.md
+- [[RISC-V Convergence (8 of 10 zkVMs)]] - document - proving-nothing.md
+- [[RISC-V ISA]] - document - proving-nothing.md
+- [[Real-time Ethereum proving solved (12s)]] - document - proving-nothing.md
+- [[SHARP (Shared Prover) aggregation]] - document - proving-nothing.md
+- [[Stwo  Cairo (StarkWare)]] - document - proving-nothing.md
+- [[The Proof Core Triad (Layers 4-5-6)]] - document - proving-nothing.md
+- [[ZisK (SilentSig  ex-Hermez)]] - document - proving-nothing.md
+- [[zkVM Landscape Table (March 2026)]] - document - proving-nothing.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -32,16 +32,17 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 2 edges to [[_COMMUNITY_Community 11]]
-- 2 edges to [[_COMMUNITY_Community 131]]
-- 2 edges to [[_COMMUNITY_Community 98]]
-- 2 edges to [[_COMMUNITY_Community 83]]
-- 1 edge to [[_COMMUNITY_Community 71]]
-- 1 edge to [[_COMMUNITY_Community 59]]
+- 4 edges to [[_COMMUNITY_Community 13]]
+- 3 edges to [[_COMMUNITY_Community 20]]
+- 3 edges to [[_COMMUNITY_Community 30]]
+- 1 edge to [[_COMMUNITY_Community 2]]
+- 1 edge to [[_COMMUNITY_Community 61]]
+- 1 edge to [[_COMMUNITY_Community 80]]
+- 1 edge to [[_COMMUNITY_Community 77]]
 
 ## Top bridge nodes
-- [[Improved Inner-Product Argument (2 log2 n)]] - degree 7, connects to 2 communities
-- [[Bootle et al. (BCC+16) Inner-Product Argument]] - degree 3, connects to 1 community
-- [[Subversion Zero-Knowledge (adversary generates the SRS)]] - degree 3, connects to 1 community
-- [[Theorem 1 Inner-Product Argument Security]] - degree 3, connects to 1 community
-- [[Pedersen Vector Commitment]] - degree 2, connects to 1 community
+- [[RISC-V ISA]] - degree 8, connects to 6 communities
+- [[The Proof Core Triad (Layers 4-5-6)]] - degree 4, connects to 3 communities
+- [[zkVM Landscape Table (March 2026)]] - degree 4, connects to 2 communities
+- [[Stwo  Cairo (StarkWare)]] - degree 5, connects to 1 community
+- [[Mersenne-31 (M31) field]] - degree 4, connects to 1 community

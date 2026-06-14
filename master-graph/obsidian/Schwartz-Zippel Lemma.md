@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 4"
+community: "Community 27"
 location: "Chapter 6"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_4
+  - community/Community_27
 ---
 
 # Schwartz-Zippel Lemma
@@ -32,4 +32,4 @@ tags:
 - [[Theorem 2 Perfect ZK NIZK with Generic-Group Knowledge Soundness]] - `assumes` [EXTRACTED]
 - [[Total Degree (of a Polynomial)]] - `uses` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_4
+#graphify/document #graphify/EXTRACTED #community/Community_27

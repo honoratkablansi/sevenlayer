@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 94"
+community: "Community 97"
 location: "Chapter 12"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_94
+  - community/Community_97
 ---
 
 # disclose() Operator
@@ -16,4 +16,4 @@ tags:
 - [[Selective Disclosure]] - `conceptually_related_to` [EXTRACTED]
 - [[Side-Channel Attack]] - `conceptually_related_to` [INFERRED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_94
+#graphify/document #graphify/EXTRACTED #community/Community_97

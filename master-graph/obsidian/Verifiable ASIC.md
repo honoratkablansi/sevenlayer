@@ -1,12 +1,12 @@
 ---
 source_file: "references/snowball/recursion/ref-112-full-accounting-for-verifiable-outsourcing.pdf"
 type: "paper"
-community: "Community 63"
+community: "Community 15"
 location: "abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_63
+  - community/Community_15
 ---
 
 # Verifiable ASIC
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Verifiable computation]] - `uses` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_63
+#graphify/paper #graphify/EXTRACTED #community/Community_15

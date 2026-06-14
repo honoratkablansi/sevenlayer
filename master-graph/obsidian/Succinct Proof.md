@@ -1,12 +1,12 @@
 ---
 source_file: "references/snowball/recursion/ref-121-replicated-state-machines-without-replicated-exe.pdf"
 type: "paper"
-community: "Community 41"
+community: "Community 36"
 location: "abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_41
+  - community/Community_36
 ---
 
 # Succinct Proof
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `relates_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_41
+#graphify/paper #graphify/EXTRACTED #community/Community_36

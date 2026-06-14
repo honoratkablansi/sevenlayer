@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 80"
+community: "Community 1"
 location: "Chapter 14"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_80
+  - community/Community_1
 ---
 
 # Arguzz (zkVM Fuzzer)
@@ -16,4 +16,4 @@ tags:
 - [[The Three Frontiers (Performance, Security, Privacy)]] - `cites` [EXTRACTED]
 - [[zkVM]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_80
+#graphify/document #graphify/EXTRACTED #community/Community_1

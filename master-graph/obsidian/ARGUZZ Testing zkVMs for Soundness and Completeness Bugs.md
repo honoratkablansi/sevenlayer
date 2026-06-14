@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-61-arguzz.pdf"
 type: "paper"
-community: "Community 14"
+community: "Community 20"
 location: "p.1 (title/abstract)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_14
+  - community/Community_20
 ---
 
 # ARGUZZ: Testing zkVMs for Soundness and Completeness Bugs
@@ -21,4 +21,4 @@ tags:
 - [[SP1 Hypercube (Succinct)]] - `references` [EXTRACTED]
 - [[zkVM]] - `references` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_14
+#graphify/paper #graphify/EXTRACTED #community/Community_20

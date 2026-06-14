@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 17"
+community: "Community 8"
 location: "Chapter 6"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_17
+  - community/Community_8
 ---
 
 # STARK-Inside-SNARK-Outside Hybrid Pipeline
@@ -17,4 +17,4 @@ tags:
 - [[SP1 Hypercube (Succinct Labs)]] - `references` [EXTRACTED]
 - [[STARK]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_17
+#graphify/document #graphify/EXTRACTED #community/Community_8

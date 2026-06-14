@@ -1,12 +1,12 @@
 ---
 source_file: "references/books/proofs-args-zk.pdf"
 type: "paper"
-community: "Community 20"
+community: "Community 79"
 location: "Zero-Knowledge and Sigma-Protocols"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_20
+  - community/Community_79
 ---
 
 # Statistical Zero-Knowledge
@@ -16,4 +16,4 @@ tags:
 - [[Graph Non-Isomorphism Protocol]] - `uses` [EXTRACTED]
 - [[Zero-Knowledge Proof]] - `special_case_of` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_20
+#graphify/paper #graphify/EXTRACTED #community/Community_79

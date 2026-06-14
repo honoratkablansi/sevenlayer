@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch1/ref-28-risc-zero-technical-docs.md"
 type: "document"
-community: "Community 63"
+community: "Community 15"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_63
+  - community/Community_15
 ---
 
 # Verifiable computation
@@ -39,4 +39,4 @@ tags:
 - [[Verifiable State Machine]] - `relates_to` [EXTRACTED]
 - [[Zero-Knowledge Proof]] - `uses` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_63
+#graphify/document #graphify/EXTRACTED #community/Community_15

@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-20-thaler-proofs-arguments-zk.pdf"
 type: "paper"
-community: "Community 72"
+community: "Community 40"
 location: "ch 3.2 (Argument Systems)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_72
+  - community/Community_40
 ---
 
 # Argument System: interactive proof sound only against computationally bounded provers
@@ -20,4 +20,4 @@ tags:
 - [[Verifiable Computing]] - `uses` [EXTRACTED]
 - [[Verifiable computation]] - `uses` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_72
+#graphify/paper #graphify/EXTRACTED #community/Community_40

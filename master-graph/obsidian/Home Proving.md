@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch1/ref-19-ef-l1-zkevm-realtime-proving.md"
 type: "document"
-community: "Community 93"
+community: "Community 30"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_93
+  - community/Community_30
 ---
 
 # Home Proving
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[Realtime Proving Standardized Definition]] - `explains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_93
+#graphify/document #graphify/EXTRACTED #community/Community_30

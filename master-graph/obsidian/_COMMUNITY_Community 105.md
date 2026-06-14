@@ -1,26 +1,27 @@
 ---
 type: community
-cohesion: 0.27
-members: 11
+cohesion: 0.23
+members: 12
 ---
 
 # Community 105
 
-**Cohesion:** 0.27 - loosely connected
-**Members:** 11 nodes
+**Cohesion:** 0.23 - loosely connected
+**Members:** 12 nodes
 
 ## Members
-- [[(q1,q2)-extended discrete logarithm (edlog) assumption (Def 2)]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
-- [[Algebraic Group Model (AGM)]] - document - references/ch10/ref-38-snarky-ceremonies.pdf
-- [[Algebraic extractor E_agm (white-box, requires view_A, yields linear representation coefficients)]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
-- [[Critical query i_crit and white-box AGM extractor E_A returning QAP witness coefficients]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
-- [[FKL18 - Fuchsbauer, Kiltz, Loss the Algebraic Group Model and Groth16 KS under q-dlog]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
-- [[Lemma 2.2 Real-to-Ideal Pairing Check Reduction under Q-DLOG]] - paper - references/ch02/ref-07-plonk.pdf
-- [[Q-DLOG Assumption]] - paper - references/ch02/ref-07-plonk.pdf
-- [[Theorem 1 (q1+1,q2+1)-dlog implies (q1,q2)-edlog]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
-- [[Theorem 5 Groth16 ceremony has update knowledge soundness under (2n-1,2n-2)-edlog for algebraic adversaries in ROM]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
-- [[Theorem 6.3 PCS evaluation-binding & bounded-extractable under 2d-DLOG in AGM]] - paper - references/ch10/ref-36-sonic.pdf
-- [[UKS proof game hops Game0-Game1 (fresh-SRS simulated critical updates) - Game2 (bad event), reduction to edlog]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
+- [[Apposcopy inter-component call graph (ICCG) abstraction]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
+- [[CirC Compiler Infrastructure]] - paper - references/snowball/book/ref-122-circ-compiler-infrastructure-for-proof-systems.pdf
+- [[Circomspect Static Analyzer]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[Circuit Dependence Graph (CDG)]] - document - references/ch03/ref-13-practical-security-zk-circuits.pdf
+- [[Circuit Dependence Graph (CDG) abstraction G=(V,Ed,Ec)]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
+- [[Constrained Horn Clause  Datalog query]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
+- [[Constraint Compiler]] - paper - references/snowball/book/ref-122-circ-compiler-infrastructure-for-proof-systems.pdf
+- [[Datalog-style CDG construction inference rules]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
+- [[Practical Security Analysis of Zero-Knowledge Proof Circuits]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
+- [[Static Analysis]] - document - references/ch03/ref-13-practical-security-zk-circuits.pdf
+- [[ZKAP (static analyzer for ZKP circuits)]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
+- [[ZKAP evaluation on 258 Circom circuits (17 projects)]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -30,17 +31,19 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 5 edges to [[_COMMUNITY_Community 59]]
-- 2 edges to [[_COMMUNITY_Community 17]]
-- 2 edges to [[_COMMUNITY_Community 11]]
-- 2 edges to [[_COMMUNITY_Community 43]]
-- 2 edges to [[_COMMUNITY_Community 131]]
-- 2 edges to [[_COMMUNITY_Community 83]]
-- 1 edge to [[_COMMUNITY_Community 39]]
+- 4 edges to [[_COMMUNITY_Community 93]]
+- 3 edges to [[_COMMUNITY_Community 18]]
+- 3 edges to [[_COMMUNITY_Community 72]]
+- 2 edges to [[_COMMUNITY_Community 98]]
+- 1 edge to [[_COMMUNITY_Community 22]]
+- 1 edge to [[_COMMUNITY_Community 36]]
+- 1 edge to [[_COMMUNITY_Community 15]]
+- 1 edge to [[_COMMUNITY_Community 61]]
+- 1 edge to [[_COMMUNITY_Community 12]]
 
 ## Top bridge nodes
-- [[Algebraic Group Model (AGM)]] - degree 15, connects to 7 communities
-- [[(q1,q2)-extended discrete logarithm (edlog) assumption (Def 2)]] - degree 5, connects to 2 communities
-- [[Theorem 5 Groth16 ceremony has update knowledge soundness under (2n-1,2n-2)-edlog for algebraic adversaries in ROM]] - degree 5, connects to 2 communities
-- [[Q-DLOG Assumption]] - degree 5, connects to 1 community
-- [[Theorem 6.3 PCS evaluation-binding & bounded-extractable under 2d-DLOG in AGM]] - degree 3, connects to 1 community
+- [[Practical Security Analysis of Zero-Knowledge Proof Circuits]] - degree 10, connects to 6 communities
+- [[Static Analysis]] - degree 5, connects to 2 communities
+- [[CirC Compiler Infrastructure]] - degree 4, connects to 2 communities
+- [[Circomspect Static Analyzer]] - degree 4, connects to 2 communities
+- [[Circuit Dependence Graph (CDG) abstraction G=(V,Ed,Ec)]] - degree 6, connects to 1 community

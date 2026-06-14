@@ -1,12 +1,12 @@
 ---
 source_file: "recursion/recursion-outline.md"
 type: "document"
-community: "Community 29"
+community: "Community 7"
 location: "Recursion Chapter 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_29
+  - community/Community_7
 ---
 
 # Eagen, Gabizon, "ProtoGalaxy" (ePrint 2023/1106)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[ProtoGalaxy (Multi-Instance Folding)]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_29
+#graphify/document #graphify/EXTRACTED #community/Community_7

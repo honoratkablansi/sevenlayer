@@ -1,35 +1,35 @@
 ---
 type: community
-cohesion: 0.22
+cohesion: 0.21
 members: 20
 ---
 
 # Community 61
 
-**Cohesion:** 0.22 - loosely connected
+**Cohesion:** 0.21 - loosely connected
 **Members:** 20 nodes
 
 ## Members
-- [[Aligned Layer]] - document - wiki/sections/ch08-proof-aggregation-the-missing-layer.md
-- [[Beanstalk Flash Loan Attack (April 2022)]] - document - wiki/sections/ch08-governance-the-achilles-heel.md
-- [[Beanstalk Flash Loan Governance Attack (April 2022)]] - document - proving-nothing.md
-- [[Celestia]] - document - wiki/sections/ch08-the-price-of-a-verdict.md
-- [[Chaliasos et al. Rollup Pricing Attacks Study (2025)]] - document - wiki/sections/ch08-pricing-attacks.md
-- [[Flash Loans]] - document - proving-nothing.md
-- [[Frozen Heart Vulnerability Class (Trail of Bits, 2022)]] - document - wiki/sections/ch08-when-the-transcript-lies-fiat-shamir-vulnerabilities.md
-- [[Governance The Achilles Heel]] - document - wiki/sections/ch08-governance-the-achilles-heel.md
-- [[Layer 7 -- The Verdict]] - document - wiki/chapters/08-the-verdict.md
-- [[NEBRA Universal Proof Aggregation]] - document - wiki/sections/ch08-proof-aggregation-the-missing-layer.md
-- [[On-Chain Governance]] - document - proving-nothing.md
-- [[On-Chain Verification in 2026]] - document - wiki/sections/ch08-on-chain-verification-in-2026.md
-- [[Pricing Attacks]] - document - wiki/sections/ch08-pricing-attacks.md
-- [[Proof Aggregation The Missing Layer]] - document - wiki/sections/ch08-proof-aggregation-the-missing-layer.md
-- [[SHARP (StarkWare Shared Prover)]] - document - wiki/sections/ch08-proof-aggregation-the-missing-layer.md
-- [[The Price of a Verdict]] - document - wiki/sections/ch08-the-price-of-a-verdict.md
-- [[The Social Layer]] - document - wiki/sections/ch08-the-social-layer.md
-- [[Tornado Cash Governance Attack (May 2023)]] - document - wiki/sections/ch08-governance-the-achilles-heel.md
-- [[When the Transcript Lies Fiat-Shamir Vulnerabilities]] - document - wiki/sections/ch08-when-the-transcript-lies-fiat-shamir-vulnerabilities.md
-- [[Who Verifies the Verifier]] - document - wiki/sections/ch08-who-verifies-the-verifier.md
+- [[Chaliasos et al. SoK SNARK Vulnerabilities (USENIX Security 2024)]] - paper - wiki/sections/ch03-risc-v-won-why-taxonomy-still-matters.md
+- [[Choreographing the Act]] - document - wiki/chapters/03-choreographing-the-act.md
+- [[DEEP-ALI and FRI]] - document - references/recursion/ch1/ref-18-risc-zero-proof-system-overview.md
+- [[Extended Main and Auxiliary Execution Trace]] - document - references/recursion/ch1/ref-18-risc-zero-proof-system-overview.md
+- [[From Circuits to Virtual Machines A Brief Evolution]] - document - wiki/sections/ch03-from-circuits-to-virtual-machines-a-brief-evolution.md
+- [[Groth16 Circuit (on-chain verification wrapper)]] - document - references/recursion/ch1/ref-18-risc-zero-proof-system-overview.md
+- [[Image ID]] - document - references/recursion/ch1/ref-18-risc-zero-proof-system-overview.md
+- [[Leo (Aleo)]] - document - wiki/sections/ch03-the-four-philosophies.md
+- [[Noir (Aztec)]] - document - wiki/sections/ch03-the-four-philosophies.md
+- [[Picus (QED2)]] - paper - wiki/sections/ch03-under-constrained-circuits-the-dominant-failure-mode.md
+- [[RISC Zero]] - document - proving-nothing.md
+- [[RISC-V Won. Why Taxonomy Still Matters.]] - document - wiki/sections/ch03-risc-v-won-why-taxonomy-still-matters.md
+- [[The Developer's Actual Experience]] - document - wiki/sections/ch03-the-developer-s-actual-experience.md
+- [[The Four Philosophies]] - document - wiki/sections/ch03-the-four-philosophies.md
+- [[The RISC Zero STARK Protocol  Proof System Overview]] - document - references/recursion/ch1/ref-18-risc-zero-proof-system-overview.md
+- [[Under-Constrained Circuits The Dominant Failure Mode]] - document - wiki/sections/ch03-under-constrained-circuits-the-dominant-failure-mode.md
+- [[Witness-Constraint Divergence]] - document - wiki/sections/ch04-witness-constraint-divergence.md
+- [[ZKAP (Circuit Dependence Graph static analysis)]] - paper - wiki/sections/ch03-under-constrained-circuits-the-dominant-failure-mode.md
+- [[zkFuzz]] - paper - wiki/sections/ch03-under-constrained-circuits-the-dominant-failure-mode.md
+- [[zkSync Era]] - document - wiki/sections/ch04-witness-constraint-divergence.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -39,29 +39,32 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 13 edges to [[_COMMUNITY_Community 5]]
-- 12 edges to [[_COMMUNITY_Community 17]]
-- 7 edges to [[_COMMUNITY_Community 11]]
+- 21 edges to [[_COMMUNITY_Community 13]]
+- 20 edges to [[_COMMUNITY_Community 17]]
+- 8 edges to [[_COMMUNITY_Community 12]]
+- 6 edges to [[_COMMUNITY_Community 98]]
+- 6 edges to [[_COMMUNITY_Community 20]]
+- 6 edges to [[_COMMUNITY_Community 72]]
 - 6 edges to [[_COMMUNITY_Community 0]]
-- 5 edges to [[_COMMUNITY_Community 70]]
-- 5 edges to [[_COMMUNITY_Community 45]]
-- 5 edges to [[_COMMUNITY_Community 117]]
-- 4 edges to [[_COMMUNITY_Community 101]]
-- 4 edges to [[_COMMUNITY_Community 21]]
-- 3 edges to [[_COMMUNITY_Community 24]]
-- 2 edges to [[_COMMUNITY_Community 102]]
-- 2 edges to [[_COMMUNITY_Community 138]]
-- 2 edges to [[_COMMUNITY_Community 10]]
-- 1 edge to [[_COMMUNITY_Community 78]]
-- 1 edge to [[_COMMUNITY_Community 22]]
-- 1 edge to [[_COMMUNITY_Community 25]]
-- 1 edge to [[_COMMUNITY_Community 48]]
+- 6 edges to [[_COMMUNITY_Community 30]]
+- 6 edges to [[_COMMUNITY_Community 1]]
+- 4 edges to [[_COMMUNITY_Community 8]]
+- 3 edges to [[_COMMUNITY_Community 16]]
+- 3 edges to [[_COMMUNITY_Community 97]]
+- 3 edges to [[_COMMUNITY_Community 2]]
+- 2 edges to [[_COMMUNITY_Community 19]]
+- 1 edge to [[_COMMUNITY_Community 27]]
+- 1 edge to [[_COMMUNITY_Community 15]]
 - 1 edge to [[_COMMUNITY_Community 79]]
+- 1 edge to [[_COMMUNITY_Community 99]]
 - 1 edge to [[_COMMUNITY_Community 40]]
+- 1 edge to [[_COMMUNITY_Community 4]]
+- 1 edge to [[_COMMUNITY_Community 105]]
+- 1 edge to [[_COMMUNITY_Community 35]]
 
 ## Top bridge nodes
-- [[Layer 7 -- The Verdict]] - degree 44, connects to 16 communities
-- [[On-Chain Verification in 2026]] - degree 17, connects to 7 communities
-- [[Governance The Achilles Heel]] - degree 13, connects to 6 communities
-- [[The Price of a Verdict]] - degree 12, connects to 4 communities
-- [[When the Transcript Lies Fiat-Shamir Vulnerabilities]] - degree 11, connects to 4 communities
+- [[Choreographing the Act]] - degree 44, connects to 15 communities
+- [[The Four Philosophies]] - degree 26, connects to 10 communities
+- [[RISC Zero]] - degree 22, connects to 8 communities
+- [[From Circuits to Virtual Machines A Brief Evolution]] - degree 17, connects to 6 communities
+- [[Under-Constrained Circuits The Dominant Failure Mode]] - degree 16, connects to 6 communities

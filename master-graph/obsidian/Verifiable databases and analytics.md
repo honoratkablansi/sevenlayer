@@ -1,12 +1,12 @@
 ---
 source_file: "recursion/recursion-outline.md"
 type: "document"
-community: "Community 66"
+community: "Community 68"
 location: "Recursion Chapter 3"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_66
+  - community/Community_68
 ---
 
 # Verifiable databases and analytics
@@ -17,4 +17,4 @@ tags:
 - [[Proof of solvency  financial compliance]] - `conceptually_related_to` [EXTRACTED]
 - [[vSQL verifiable database system for arbitrary SQL queries over dynamic outsourced databases]] - `introduces` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_66
+#graphify/document #graphify/EXTRACTED #community/Community_68

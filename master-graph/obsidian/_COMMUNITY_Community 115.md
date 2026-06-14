@@ -1,24 +1,23 @@
 ---
 type: community
-cohesion: 0.25
-members: 9
+cohesion: 0.29
+members: 8
 ---
 
 # Community 115
 
-**Cohesion:** 0.25 - loosely connected
-**Members:** 9 nodes
+**Cohesion:** 0.29 - loosely connected
+**Members:** 8 nodes
 
 ## Members
-- [[4x4 Sudoku Proof (Running Example)]] - document - proving-nothing.md
-- [[Chapter 3 Choreographing the Act (Layer 2 - Language)]] - document - proving-nothing.md
-- [[Claim The compiler, not the language, is the part that matters]] - document - proving-nothing.md
-- [[Gassmann et al., Evaluating Compiler Optimization Impacts on zkVM Performance, arXiv 2508.17518]] - document - proving-nothing.md
-- [[Midnight disclose() Boundary and Two-Transcript Model]] - document - proving-nothing.md
-- [[Non-Deterministic Hint]] - document - proving-nothing.md
-- [[Ozdemir, Brown, Wahby, CirC Compiler Infrastructure for Proof Systems, IEEE S&P 2022]] - document - proving-nothing.md
-- [[Six-Step Developer Lifecycle (Write-Compile-Test-Prove-Deploy-Monitor)]] - document - proving-nothing.md
-- [[Witness (private execution traceinputs)]] - document - proving-nothing.md
+- [[1-of-N Trust Model]] - document - proving-nothing.md
+- [[ADOPT Framework (Available, Decentralized, Open, Persistent, Transparent)]] - document - proving-nothing.md
+- [[CapexOpex Setup Economics Framework]] - document - proving-nothing.md
+- [[Chapter 2 Layer 1 — Building the Stage]] - document - proving-nothing.md
+- [[Ethereum KZG Summoning Ceremony (2023, 141,416 contributors)]] - document - proving-nothing.md
+- [[Luhmann — Risk A Sociological Theory (trust vs confidence, 1993)]] - document - proving-nothing.md
+- [[Nikolaenko et al. — Powers-of-Tau to the People Decentralizing Setup Ceremonies (ACNS 2024)]] - document - proving-nothing.md
+- [[Wang, Cohney, Bonneau — SoK Trusted Setups for Powers-of-Tau Strings (FC 2025)]] - document - proving-nothing.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -28,13 +27,14 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 3 edges to [[_COMMUNITY_Community 86]]
-- 2 edges to [[_COMMUNITY_Community 94]]
-- 2 edges to [[_COMMUNITY_Community 5]]
-- 1 edge to [[_COMMUNITY_Community 129]]
-- 1 edge to [[_COMMUNITY_Community 116]]
+- 2 edges to [[_COMMUNITY_Community 35]]
+- 1 edge to [[_COMMUNITY_Community 17]]
+- 1 edge to [[_COMMUNITY_Community 27]]
+- 1 edge to [[_COMMUNITY_Community 9]]
+- 1 edge to [[_COMMUNITY_Community 12]]
 
 ## Top bridge nodes
-- [[Witness (private execution traceinputs)]] - degree 10, connects to 4 communities
-- [[Midnight disclose() Boundary and Two-Transcript Model]] - degree 3, connects to 2 communities
-- [[Chapter 3 Choreographing the Act (Layer 2 - Language)]] - degree 3, connects to 1 community
+- [[Ethereum KZG Summoning Ceremony (2023, 141,416 contributors)]] - degree 5, connects to 2 communities
+- [[Chapter 2 Layer 1 — Building the Stage]] - degree 4, connects to 2 communities
+- [[1-of-N Trust Model]] - degree 4, connects to 1 community
+- [[CapexOpex Setup Economics Framework]] - degree 3, connects to 1 community

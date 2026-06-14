@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 86"
+community: "Community 1"
 location: "Chapter 4"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_86
+  - community/Community_1
 ---
 
 # Witness Generation
@@ -27,4 +27,4 @@ tags:
 - [[ZKPoG (Li et al., ePrint 2025765)]] - `references` [EXTRACTED]
 - [[zkVM]] - `explains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_86
+#graphify/document #graphify/EXTRACTED #community/Community_1

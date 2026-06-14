@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 110"
+community: "Community 4"
 location: "Chapter 9"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_110
+  - community/Community_4
 ---
 
 # Differential Privacy (DP)
@@ -24,4 +24,4 @@ tags:
 - [[The Incomplete Stack]] - `conceptually_related_to` [EXTRACTED]
 - [[US Census Bureau 2020 TopDown Algorithm]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_110
+#graphify/document #graphify/EXTRACTED #community/Community_4

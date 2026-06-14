@@ -1,12 +1,12 @@
 ---
 source_file: "references/books/proofs-args-zk.pdf"
 type: "paper"
-community: "Community 71"
+community: "Community 124"
 location: "ZK via Commit-and-Prove and Masking Polynomials"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_71
+  - community/Community_124
 ---
 
 # Zero-Knowledge from Interactive Proofs (GKR-based)
@@ -15,4 +15,4 @@ tags:
 - [[Commit-and-Prove SNARK]] - `builds_on` [EXTRACTED]
 - [[Multiplicative Complexity (of a Circuit)]] - `relates_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_71
+#graphify/paper #graphify/EXTRACTED #community/Community_124

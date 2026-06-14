@@ -1,12 +1,12 @@
 ---
 source_file: "references/books/proofs-args-zk.pdf"
 type: "paper"
-community: "Community 3"
+community: "Community 18"
 location: "The GKR Protocol and Its Efficient Implementation"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_3
+  - community/Community_18
 ---
 
 # Gate Value Function (W_i)
@@ -16,4 +16,4 @@ tags:
 - [[Layered Arithmetic Circuit]] - `defines` [EXTRACTED]
 - [[Multilinear extension (MLE)]] - `uses` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_3
+#graphify/paper #graphify/EXTRACTED #community/Community_18

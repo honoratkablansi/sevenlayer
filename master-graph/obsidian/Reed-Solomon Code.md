@@ -1,12 +1,12 @@
 ---
 source_file: "references/snowball/book/ref-073-ligero-lightweight-sublinear-arguments-without.pdf"
 type: "paper"
-community: "Community 12"
+community: "Community 27"
 location: "abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_12
+  - community/Community_27
 ---
 
 # Reed-Solomon Code
@@ -22,4 +22,4 @@ tags:
 - [[Reed-Solomon Fingerprinting]] - `uses` [EXTRACTED]
 - [[Univariate Lagrange Interpolation]] - `relates_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_12
+#graphify/paper #graphify/EXTRACTED #community/Community_27

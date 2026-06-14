@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-05-mpc-random-beacon.pdf"
 type: "paper"
-community: "Community 58"
+community: "Community 9"
 location: "§6"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_58
+  - community/Community_9
 ---
 
 # Extended Groth CRS: depth-two-circuit-computable CRS enabling two-phase px-MPC
@@ -16,4 +16,4 @@ tags:
 - [[Layered multiplydivide + linear-combination circuit structure for parameter generation]] - `conceptually_related_to` [EXTRACTED]
 - [[Multi-Party Computation Setup Ceremony]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_58
+#graphify/paper #graphify/EXTRACTED #community/Community_9

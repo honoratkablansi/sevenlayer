@@ -10,28 +10,28 @@ members: 22
 **Members:** 22 nodes
 
 ## Members
-- [[Digital Signature]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[ExpandA  ExpandS  ExpandMask SHAKE-based pseudorandom sampling of matrix A from ρ, secrets s1s2, and mask y]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[FIPS 204 Module-Lattice-Based Digital Signature Standard]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[FIPS 204 Module-Lattice-Based Digital Signature Standard (ML-DSA), published 2024-08-13]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[Fiat-Shamir With Aborts construction (Schnorr-like signature with rejection sampling on the response)]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[HashML-DSA domain-separated pre-hash variant signing PH(M) for largestreamed messages]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[Hedged (default, fresh + precomputed randomness) vs deterministic signing variant; same Verify works for both]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[Hint vector h ∈ R2k (MakeHintUseHint) lets verifier reconstruct high bits w1 despite t1 compression]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[ML-DSA (Module-Lattice Digital Signature Algorithm)]] - document - references/ch14/ref-64-fips-204.pdf
-- [[ML-DSA derived from CRYSTALS-DILITHIUM v3.1 (Round-3 PQC selection); differences in Appendix D]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[ML-DSA-44 parameter set (k,ℓ)=(4,4), η=2, τ=39, λ=128, Category 2; pk 1312 B, sk 2560 B, sig 2420 B]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[ML-DSA-65 parameter set (k,ℓ)=(6,5), η=4, τ=49, λ=192, Category 3; pk 1952 B, sk 4032 B, sig 3309 B]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[ML-DSA-87 parameter set (k,ℓ)=(8,7), η=2, τ=60, λ=256, Category 5; pk 2592 B, sk 4896 B, sig 4627 B]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[ML-DSA.KeyGen (Alg 16.1) expand seed ξ - seed ρ for A, seeds for s1,s2,K; t = A·s1 + s2, publish compressed t1]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[ML-DSA.Sign (Alg 26.2) commit w=Ay, challenge c~ from H(w1μ), response z = y + c·s1, with rejection-sampling abort loop]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[ML-DSA.Verify (Alg 36.3) recompute w1' via UseHint from z, t1, c; accept iff z is short and c~ matches H(w1'μ)]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[Message representative μ = H(H(pk)  M); signing μ not M provides BUFF  beyond-unforgeability properties]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[Power2Round  Decompose  HighBits  LowBits drop d=13 low-order bits of t and round w to multiples of α=2γ2]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[Rejection sampling abort and restart with new mask y if z (or r0) coefficients fall outside bound, removing bias toward secret s1s2]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[SampleInBall (Alg 29) challenge polynomial c with exactly τ nonzero ±1 coefficients, derived from c~]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[Strong existential unforgeability under chosen-message attack (SUF-CMA) plus BUFF properties]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[Uses SHAKE128 and SHAKE256 (FIPS 202) as XOFs for all expansion, hashing, and challenge derivation]] - paper - references/ch14/ref-64-fips-204.pdf
+- [[Additive FFT over binary fields (Lin et al.)]] - paper - references/ch02/ref-08-stark.pdf
+- [[Algebraic Intermediate Representation (AIR)]] - paper - references/ch02/ref-08-stark.pdf
+- [[Algebraic Linking Interactive Oracle Proof (ALI)]] - paper - references/ch02/ref-08-stark.pdf
+- [[Algebraic Placement and Routing (APR) reduction]] - paper - references/ch02/ref-08-stark.pdf
+- [[Authentication Path  Communication Complexity minimization (coset & row subtrees)]] - paper - references/ch02/ref-08-stark.pdf
+- [[Binary AIR (BAIR) and Permuted AIR (PAIR)]] - paper - references/ch02/ref-08-stark.pdf
+- [[Collision-resistant hash function assumption (interactive STARK)]] - paper - references/ch02/ref-08-stark.pdf
+- [[DNA Profile Match (DPM) proof-of-concept benchmark]] - paper - references/ch02/ref-08-stark.pdf
+- [[Davies-Meyer hash over RijndaelAES (binary-field-friendly hash)]] - paper - references/ch02/ref-08-stark.pdf
+- [[Maximal interpolation degree d_max reduction (n·c·d vs prior n·c·w·d + n·c·s)]] - paper - references/ch02/ref-08-stark.pdf
+- [[Merkle-tree commit-reveal (Kilian cut-and-choose)]] - paper - references/ch02/ref-08-stark.pdf
+- [[Prior ZK-STIK for NPNEXP (Ben-Sasson et al. refs 17,15)]] - paper - references/ch02/ref-08-stark.pdf
+- [[Reed-Solomon Proximity Testing (RPT  low-degree testing) problem]] - paper - references/ch02/ref-08-stark.pdf
+- [[Register-based encoding (one RS codeword per register)]] - paper - references/ch02/ref-08-stark.pdf
+- [[SCI  quasi-linear PCP STARK (Ben-Sasson et al. 2016, ref 13)]] - paper - references/ch02/ref-08-stark.pdf
+- [[Scalable Transparent IOP of Knowledge (STIK)]] - paper - references/ch02/ref-08-stark.pdf
+- [[Scalable, Transparent, and Post-Quantum Secure Computational Integrity]] - paper - references/ch02/ref-08-stark.pdf
+- [[Theorem 3.4 — ZK-STIK for space-bounded computations]] - paper - references/ch02/ref-08-stark.pdf
+- [[Theorem 3.5 — wi-STIK for NEXP]] - paper - references/ch02/ref-08-stark.pdf
+- [[Transparency  public randomness (no trusted setup, Arthur-Merlin)]] - paper - references/ch02/ref-08-stark.pdf
+- [[ZK-SNARK  Zerocash (Zcash, non-transparent QSP-based, ref 1853)]] - paper - references/ch02/ref-08-stark.pdf
+- [[Zero-Knowledge Scalable Transparent ARgument of Knowledge (ZK-STARK)]] - paper - references/ch02/ref-08-stark.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -41,16 +41,21 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 4 edges to [[_COMMUNITY_Community 1]]
-- 3 edges to [[_COMMUNITY_Community 33]]
-- 3 edges to [[_COMMUNITY_Community 112]]
-- 2 edges to [[_COMMUNITY_Community 70]]
-- 1 edge to [[_COMMUNITY_Community 0]]
-- 1 edge to [[_COMMUNITY_Community 86]]
+- 6 edges to [[_COMMUNITY_Community 0]]
+- 3 edges to [[_COMMUNITY_Community 15]]
+- 2 edges to [[_COMMUNITY_Community 35]]
+- 2 edges to [[_COMMUNITY_Community 2]]
+- 2 edges to [[_COMMUNITY_Community 10]]
+- 2 edges to [[_COMMUNITY_Community 27]]
+- 1 edge to [[_COMMUNITY_Community 22]]
+- 1 edge to [[_COMMUNITY_Community 12]]
+- 1 edge to [[_COMMUNITY_Community 29]]
+- 1 edge to [[_COMMUNITY_Community 40]]
+- 1 edge to [[_COMMUNITY_Community 74]]
 
 ## Top bridge nodes
-- [[ML-DSA (Module-Lattice Digital Signature Algorithm)]] - degree 21, connects to 4 communities
-- [[FIPS 204 Module-Lattice-Based Digital Signature Standard]] - degree 5, connects to 2 communities
-- [[ML-DSA.Sign (Alg 26.2) commit w=Ay, challenge c~ from H(w1μ), response z = y + c·s1, with rejection-sampling abort loop]] - degree 8, connects to 1 community
-- [[Fiat-Shamir With Aborts construction (Schnorr-like signature with rejection sampling on the response)]] - degree 4, connects to 1 community
-- [[ML-DSA.KeyGen (Alg 16.1) expand seed ξ - seed ρ for A, seeds for s1,s2,K; t = A·s1 + s2, publish compressed t1]] - degree 4, connects to 1 community
+- [[Scalable, Transparent, and Post-Quantum Secure Computational Integrity]] - degree 26, connects to 9 communities
+- [[Zero-Knowledge Scalable Transparent ARgument of Knowledge (ZK-STARK)]] - degree 7, connects to 2 communities
+- [[Scalable Transparent IOP of Knowledge (STIK)]] - degree 6, connects to 1 community
+- [[Algebraic Linking Interactive Oracle Proof (ALI)]] - degree 3, connects to 1 community
+- [[Additive FFT over binary fields (Lin et al.)]] - degree 2, connects to 1 community

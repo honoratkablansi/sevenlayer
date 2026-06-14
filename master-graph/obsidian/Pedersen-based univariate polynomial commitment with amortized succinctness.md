@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-05-halo.pdf"
 type: "paper"
-community: "Community 47"
+community: "Community 70"
 location: "§1.1, §3, §3.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_47
+  - community/Community_70
 ---
 
 # Pedersen-based univariate polynomial commitment with amortized succinctness
@@ -21,4 +21,4 @@ tags:
 - [[Theorem 1 polynomial commitment protocol has completeness, witness-extended emulation, PSHVZK]] - `proves` [EXTRACTED]
 - [[Wahby, Tzialla, shelat, Thaler, Walfish Doubly-efficient zkSNARKs without trusted setup 37]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_47
+#graphify/paper #graphify/EXTRACTED #community/Community_70

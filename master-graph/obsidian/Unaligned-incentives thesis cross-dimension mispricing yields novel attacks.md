@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch08/ref-28-rollup-pricing-attacks.pdf"
 type: "paper"
-community: "Community 45"
+community: "Community 33"
 location: "§1 Abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_45
+  - community/Community_33
 ---
 
 # Unaligned-incentives thesis: cross-dimension mispricing yields novel attacks
@@ -18,4 +18,4 @@ tags:
 - [[Transaction Fee Mechanisms (TFM)]] - `conceptually_related_to` [EXTRACTED]
 - [[Unaligned Incentives Pricing Attacks Against Blockchain Rollups]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_45
+#graphify/paper #graphify/EXTRACTED #community/Community_33

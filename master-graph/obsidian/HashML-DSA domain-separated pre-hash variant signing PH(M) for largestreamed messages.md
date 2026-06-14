@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-64-fips-204.pdf"
 type: "paper"
-community: "Community 54"
+community: "Community 59"
 location: "§5.4"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_54
+  - community/Community_59
 ---
 
 # HashML-DSA: domain-separated pre-hash variant signing PH(M) for large/streamed messages
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[ML-DSA (Module-Lattice Digital Signature Algorithm)]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_54
+#graphify/paper #graphify/EXTRACTED #community/Community_59

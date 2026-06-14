@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-11-khovratovich-fiat-shamir-attacks.pdf"
 type: "paper"
-community: "Community 92"
+community: "Community 19"
 location: "§1.1.4, §4"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_92
+  - community/Community_19
 ---
 
 # Universal Computation Attack (§4): fixed circuits independent of crypto primitives via universal Turing machine circuit and quines; violates non-adaptive soundness
@@ -16,4 +16,4 @@ tags:
 - [[Theorem 10 (informal) universal GKR circuit unsound for any additively-homomorphic commitment (EC or lattice) since comm(w)=comm(wC)+comm(win); also batched FRI]] - `proves` [EXTRACTED]
 - [[Theorem 9 family T'(N,M) unsound for any commitment with sub-input-size code and any hash; uses an f-quine (Lemma 8, p=f+c via Kleene recursion) passed as witness; commitment-independent]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_92
+#graphify/paper #graphify/EXTRACTED #community/Community_19

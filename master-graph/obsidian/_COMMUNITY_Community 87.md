@@ -1,30 +1,30 @@
 ---
 type: community
-cohesion: 0.18
+cohesion: 0.17
 members: 15
 ---
 
 # Community 87
 
-**Cohesion:** 0.18 - loosely connected
+**Cohesion:** 0.17 - loosely connected
 **Members:** 15 nodes
 
 ## Members
-- [[Aggregation tree (recursive verification tree)]] - paper - references/recursion/ch1/ref-21-zktree.pdf
-- [[Circuit-hash and input-hash Merkle roots at zkTree root]] - paper - references/recursion/ch1/ref-21-zktree.pdf
-- [[Comparison vs deVirgo zkTree avoids central machine  circuit-splitting rigidity]] - paper - references/recursion/ch1/ref-21-zktree.pdf
-- [[Distributed proof generation with independent same-level proofs (no inter-worker comms)]] - paper - references/recursion/ch1/ref-21-zktree.pdf
-- [[Ed25519Tendermint evaluation 32 sigs verified on ETH, 77s end-to-end, 230k gas]] - paper - references/recursion/ch1/ref-21-zktree.pdf
-- [[Heterogeneous zk proofs in a single tree (claim of novelty over prior trees)]] - paper - references/recursion/ch1/ref-21-zktree.pdf
-- [[Hierarchical SNARK aggregation tree (origin of shared-verification-cost trees)]] - paper - references/recursion/ch1/ref-21-zktree.pdf
-- [[Intermediate bn128-Poseidon Plonky2 proof to eliminate non-native range checks]] - paper - references/recursion/ch1/ref-21-zktree.pdf
-- [[Leaf builder L_i(pi_i,{x_i},VD_i) - upsilon_i,h_i,c_i]] - paper - references/recursion/ch1/ref-21-zktree.pdf
-- [[Node builder combining leafnode pairs into omega_k,h_k,c_k]] - paper - references/recursion/ch1/ref-21-zktree.pdf
-- [[On-chain verifier Plonky2 root recursively wrapped into Groth16 (230k gas)]] - paper - references/recursion/ch1/ref-21-zktree.pdf
-- [[Three zkTree proof types user proof, leaf proof, node proof]] - paper - references/recursion/ch1/ref-21-zktree.pdf
-- [[zkBridge  deVirgo distributed proving via circuit splitting (Xie et al.)]] - paper - references/recursion/ch1/ref-21-zktree.pdf
-- [[zkTree costtime model gen time ~ log(n) node-proof times; comm cost n x proof size (~130KB)]] - paper - references/recursion/ch1/ref-21-zktree.pdf
-- [[zkTree zero-knowledge recursion tree with ZKP membership proofs]] - paper - references/recursion/ch1/ref-21-zktree.pdf
+- [[AFGHO Inner-Pairing-Product Commitment]] - paper - references/books/proofs-args-zk.pdf
+- [[Amicable Pairs]] - paper - references/snowball/recursion/ref-153-amicable-pairs-and-aliquot-cycles-for-elliptic-c.pdf
+- [[BN Curve]] - paper - references/snowball/book/ref-133-pairing-friendly-elliptic-curves-of-prime-order.pdf
+- [[Bilinear Pairing]] - document - proving-nothing.md
+- [[Complex Multiplication (CM)]] - paper - references/recursion/ch1/ref-13-chiesa-chua-weidner-cycles.pdf
+- [[Dory]] - paper - references/snowball/book/ref-092-dory-efficient-transparent-arguments-for-gener.pdf
+- [[Elliptic Curve  Discrete Logarithm Problem]] - document - proving-nothing.md
+- [[Groth Short Pairing-Based NIZK]] - paper - references/snowball/book/ref-090-short-pairing-based-non-interactive-zero-knowled.pdf
+- [[Hierarchical Identity-Based Encryption (HIBE)]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[Multilinear KZG Polynomial Commitment]] - paper - references/books/proofs-args-zk.pdf
+- [[Progression-Free Sets]] - paper - references/snowball/book/ref-097-progression-free-sets-and-sublinear-pairing-base.pdf
+- [[Progression-Free Sets NIZK]] - paper - references/snowball/book/ref-097-progression-free-sets-and-sublinear-pairing-base.pdf
+- [[Publicly Verifiable Computation]] - paper - references/snowball/book/ref-101-signatures-of-correct-computation.pdf
+- [[Signatures of Correct Computation]] - paper - references/snowball/book/ref-101-signatures-of-correct-computation.pdf
+- [[Weil Pairing]] - paper - references/snowball/book/ref-134-pairings-for-cryptographers.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -34,16 +34,33 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 2 edges to [[_COMMUNITY_Community 17]]
-- 2 edges to [[_COMMUNITY_Community 102]]
-- 2 edges to [[_COMMUNITY_Community 5]]
-- 2 edges to [[_COMMUNITY_Community 13]]
-- 2 edges to [[_COMMUNITY_Community 63]]
+- 8 edges to [[_COMMUNITY_Community 35]]
+- 6 edges to [[_COMMUNITY_Community 42]]
+- 6 edges to [[_COMMUNITY_Community 24]]
+- 4 edges to [[_COMMUNITY_Community 56]]
+- 4 edges to [[_COMMUNITY_Community 15]]
+- 3 edges to [[_COMMUNITY_Community 21]]
+- 3 edges to [[_COMMUNITY_Community 49]]
+- 3 edges to [[_COMMUNITY_Community 29]]
+- 2 edges to [[_COMMUNITY_Community 22]]
+- 2 edges to [[_COMMUNITY_Community 36]]
+- 2 edges to [[_COMMUNITY_Community 58]]
+- 2 edges to [[_COMMUNITY_Community 122]]
+- 1 edge to [[_COMMUNITY_Community 8]]
+- 1 edge to [[_COMMUNITY_Community 91]]
+- 1 edge to [[_COMMUNITY_Community 103]]
+- 1 edge to [[_COMMUNITY_Community 6]]
 - 1 edge to [[_COMMUNITY_Community 0]]
+- 1 edge to [[_COMMUNITY_Community 25]]
+- 1 edge to [[_COMMUNITY_Community 32]]
+- 1 edge to [[_COMMUNITY_Community 39]]
+- 1 edge to [[_COMMUNITY_Community 10]]
+- 1 edge to [[_COMMUNITY_Community 13]]
+- 1 edge to [[_COMMUNITY_Community 27]]
 
 ## Top bridge nodes
-- [[zkTree zero-knowledge recursion tree with ZKP membership proofs]] - degree 14, connects to 6 communities
-- [[Aggregation tree (recursive verification tree)]] - degree 5, connects to 1 community
-- [[On-chain verifier Plonky2 root recursively wrapped into Groth16 (230k gas)]] - degree 4, connects to 1 community
-- [[Distributed proof generation with independent same-level proofs (no inter-worker comms)]] - degree 3, connects to 1 community
-- [[Circuit-hash and input-hash Merkle roots at zkTree root]] - degree 2, connects to 1 community
+- [[Bilinear Pairing]] - degree 43, connects to 18 communities
+- [[Elliptic Curve  Discrete Logarithm Problem]] - degree 8, connects to 4 communities
+- [[Dory]] - degree 6, connects to 4 communities
+- [[Groth Short Pairing-Based NIZK]] - degree 5, connects to 4 communities
+- [[Progression-Free Sets NIZK]] - degree 5, connects to 3 communities

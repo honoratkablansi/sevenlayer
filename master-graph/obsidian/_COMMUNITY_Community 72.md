@@ -1,33 +1,33 @@
 ---
 type: community
-cohesion: 0.14
+cohesion: 0.12
 members: 18
 ---
 
 # Community 72
 
-**Cohesion:** 0.14 - loosely connected
+**Cohesion:** 0.12 - loosely connected
 **Members:** 18 nodes
 
 ## Members
-- [[Argument System interactive proof sound only against computationally bounded provers]] - paper - references/recursion/ch1/ref-20-thaler-proofs-arguments-zk.pdf
-- [[Arthur-Merlin games (Babai) as restricted interactive proofs]] - paper - references/ch01/ref-02-gmr-knowledge-complexity.pdf
-- [[Computational Soundness]] - paper - references/ch01/ref-02-gmr-knowledge-complexity.pdf
-- [[Fortnow result NP-complete ZK proof implies poly hierarchy collapse]] - paper - references/ch01/ref-02-gmr-knowledge-complexity.pdf
-- [[IP language recognized by probabilistic PSPACE machine A]] - paper - references/ch01/ref-02-gmr-knowledge-complexity.pdf
-- [[IP Interactive Polynomial-time language class]] - paper - references/ch01/ref-02-gmr-knowledge-complexity.pdf
-- [[Interactive Proof (IP) prover-verifier protocol with statistical soundness]] - paper - references/recursion/ch1/ref-20-thaler-proofs-arguments-zk.pdf
-- [[Interactive Turing Machine (ITM)]] - paper - references/ch01/ref-02-gmr-knowledge-complexity.pdf
-- [[Knowledge Complexity]] - document - references/ch01/ref-02-gmr-knowledge-complexity.pdf
-- [[Knowledge-Soundness]] - document - proving-nothing.md
-- [[Private-Coin Interactive Proof]] - paper - references/books/proofs-args-zk.pdf
-- [[Prover and Verifier (interactive protocol A,B)]] - paper - references/ch01/ref-02-gmr-knowledge-complexity.pdf
-- [[Public-Coin Interactive Proof]] - paper - references/books/proofs-args-zk.pdf
-- [[Round Complexity]] - paper - references/books/proofs-args-zk.pdf
-- [[Schnorr Proof System]] - document - references/ch06/ref-22-frozen-heart.md
-- [[The Knowledge Complexity of Interactive Proof Systems]] - paper - references/ch01/ref-02-gmr-knowledge-complexity.pdf
-- [[Verifiable Computing]] - paper - references/books/proofs-args-zk.pdf
-- [[Witness Extraction]] - paper - references/books/proofs-args-zk.pdf
+- [[Automated Detection of Under-Constrained Circuits in Zero-Knowledge Proofs]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[Circomlib Decoder Underconstrained Bug (motivating example)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[Constrained Circuit (Definition 4.6)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[Constrained Variable (Definition 4.4)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[Multi-prover design as defense (redundant proof systems  TEE, trades liveness for safety)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[RISC Zero CVE-2025-52484 (rs1rs2 confusion)]] - document - proving-nothing.md
+- [[Root cause missing input constraints in reusable circuits]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[Root cause out-of-circuit computation not constrained (incl. boomerang issue)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[Root cause unsafe reuse of circuit (implicit sub-circuit constraints, insecure instantiation)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[Root cause wrong translation of logic into constraints (largest circuit root cause, 34)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[Scroll zkEVM LtChip missing range-check bug (Halo2 missing input constraint)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[Soundness and Completeness Bugs]] - document - proving-nothing.md
+- [[Survey of SNARK defense tools (Circomspect, ZKAP, Korrekt, Picus, Ecne, CIVER, SnarkProbe, Coda)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[TornadoCash Underconstrained Circuit Hack]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[Under-Constrained Circuit  Missing Constraint]] - document - proving-nothing.md
+- [[circom-pairing CoreVerifyPubkeyG1 unconstrained-output bug (unsafe sub-circuit reuse)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[zkFuzz (Takahashi, Kim et al., S&P 2026)]] - document - proving-nothing.md
+- [[zkSync Era MemoryWriteQuery Bug]] - document - proving-nothing.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -37,35 +37,21 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 7 edges to [[_COMMUNITY_Community 15]]
-- 6 edges to [[_COMMUNITY_Community 20]]
-- 5 edges to [[_COMMUNITY_Community 14]]
-- 4 edges to [[_COMMUNITY_Community 70]]
-- 4 edges to [[_COMMUNITY_Community 71]]
-- 3 edges to [[_COMMUNITY_Community 24]]
-- 3 edges to [[_COMMUNITY_Community 3]]
-- 2 edges to [[_COMMUNITY_Community 41]]
-- 2 edges to [[_COMMUNITY_Community 39]]
-- 2 edges to [[_COMMUNITY_Community 9]]
-- 2 edges to [[_COMMUNITY_Community 63]]
-- 1 edge to [[_COMMUNITY_Community 58]]
-- 1 edge to [[_COMMUNITY_Community 13]]
-- 1 edge to [[_COMMUNITY_Community 31]]
-- 1 edge to [[_COMMUNITY_Community 22]]
-- 1 edge to [[_COMMUNITY_Community 25]]
-- 1 edge to [[_COMMUNITY_Community 128]]
-- 1 edge to [[_COMMUNITY_Community 74]]
-- 1 edge to [[_COMMUNITY_Community 32]]
-- 1 edge to [[_COMMUNITY_Community 12]]
-- 1 edge to [[_COMMUNITY_Community 4]]
-- 1 edge to [[_COMMUNITY_Community 29]]
+- 6 edges to [[_COMMUNITY_Community 61]]
+- 4 edges to [[_COMMUNITY_Community 81]]
+- 3 edges to [[_COMMUNITY_Community 98]]
+- 3 edges to [[_COMMUNITY_Community 105]]
+- 2 edges to [[_COMMUNITY_Community 12]]
+- 2 edges to [[_COMMUNITY_Community 93]]
+- 2 edges to [[_COMMUNITY_Community 50]]
+- 1 edge to [[_COMMUNITY_Community 18]]
+- 1 edge to [[_COMMUNITY_Community 1]]
 - 1 edge to [[_COMMUNITY_Community 17]]
-- 1 edge to [[_COMMUNITY_Community 131]]
-- 1 edge to [[_COMMUNITY_Community 0]]
+- 1 edge to [[_COMMUNITY_Community 109]]
+- 1 edge to [[_COMMUNITY_Community 40]]
 
 ## Top bridge nodes
-- [[Knowledge-Soundness]] - degree 18, connects to 14 communities
-- [[Interactive Proof (IP) prover-verifier protocol with statistical soundness]] - degree 32, connects to 11 communities
-- [[The Knowledge Complexity of Interactive Proof Systems]] - degree 9, connects to 4 communities
-- [[Argument System interactive proof sound only against computationally bounded provers]] - degree 7, connects to 3 communities
-- [[Schnorr Proof System]] - degree 5, connects to 3 communities
+- [[Under-Constrained Circuit  Missing Constraint]] - degree 31, connects to 10 communities
+- [[Automated Detection of Under-Constrained Circuits in Zero-Knowledge Proofs]] - degree 10, connects to 6 communities
+- [[Survey of SNARK defense tools (Circomspect, ZKAP, Korrekt, Picus, Ecne, CIVER, SnarkProbe, Coda)]] - degree 3, connects to 1 community
+- [[Circomlib Decoder Underconstrained Bug (motivating example)]] - degree 2, connects to 1 community

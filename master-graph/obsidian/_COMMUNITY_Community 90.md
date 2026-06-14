@@ -10,20 +10,20 @@ members: 14
 **Members:** 14 nodes
 
 ## Members
-- [[32 previously-unknown vulnerabilities (34 unique problems, 405 warnings)]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[Constraint-computation discrepancy vulnerability class]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[Dataflow-Constraint Discrepancy (DCD) detector]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[Division-by-Zero (DBZ) detector]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[Nondeterministic signals vulnerability class]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[Taxonomy of Circom vulnerabilities (3 root-cause classes)]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[Type Mismatch (TM) detector]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[US, USCO, AM, NDD detectors (remaining ZKAP checkers)]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[Unconstrained Circuit Output (UCO) detector]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[Unconstrained Sub-circuit Input (USCI) detector]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[Unsafe component usage vulnerability class]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[Vulnerability Description Language (VDL)]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[ed25519-circom PointCompress unconstrained-output bug]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[iden3 verifyExpirationTime missing-range-check type mismatch]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
+- [[Axiom]] - document - wiki/sections/ch13-zk-coprocessors-off-chain-computation-on-chain-verification-growth.md
+- [[Brevis]] - document - wiki/sections/ch13-zk-coprocessors-off-chain-computation-on-chain-verification-growth.md
+- [[EZKL]] - document - wiki/sections/ch13-zkml-provable-machine-learning-research.md
+- [[EZKL (open-source ZKML toolkit, halo2ONNX)]] - document - proving-nothing.md
+- [[Halo2 proving system]] - document - references/recursion/ch3/ref-72-ezkl-modulus-docs.md
+- [[Lagrange]] - document - wiki/sections/ch13-zk-coprocessors-off-chain-computation-on-chain-verification-growth.md
+- [[Lagrange  DeepProve (ZK coprocessing, 700x ZKML claim)]] - document - proving-nothing.md
+- [[Lagrange DeepProve]] - document - wiki/sections/ch13-zkml-provable-machine-learning-research.md
+- [[Pico zkVM]] - document - wiki/sections/ch13-zk-coprocessors-off-chain-computation-on-chain-verification-growth.md
+- [[Sumcheck-based DNN proof systems (zkCNNLiu 2021, vCNNLee 2020, pvCNNWeng 2022, Thaler 2013) custom IPSNARK protocols tailored to convolutions, limited to MNISTCIFAR-10]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[ZK Coprocessors Off-Chain Computation, On-Chain Verification (Growth)]] - document - wiki/sections/ch13-zk-coprocessors-off-chain-computation-on-chain-verification-growth.md
+- [[ZKML (Zero-Knowledge Machine Learning)]] - document - proving-nothing.md
+- [[ZKML Provable Machine Learning (Research)]] - document - wiki/sections/ch13-zkml-provable-machine-learning-research.md
+- [[zkML inference proof with folding case study]] - document - recursion/recursion-outline.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -33,12 +33,27 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 4 edges to [[_COMMUNITY_Community 103]]
-- 2 edges to [[_COMMUNITY_Community 69]]
+- 7 edges to [[_COMMUNITY_Community 16]]
+- 4 edges to [[_COMMUNITY_Community 88]]
+- 3 edges to [[_COMMUNITY_Community 0]]
+- 3 edges to [[_COMMUNITY_Community 76]]
+- 2 edges to [[_COMMUNITY_Community 17]]
+- 2 edges to [[_COMMUNITY_Community 2]]
+- 2 edges to [[_COMMUNITY_Community 8]]
+- 2 edges to [[_COMMUNITY_Community 13]]
+- 1 edge to [[_COMMUNITY_Community 22]]
+- 1 edge to [[_COMMUNITY_Community 36]]
+- 1 edge to [[_COMMUNITY_Community 15]]
+- 1 edge to [[_COMMUNITY_Community 20]]
+- 1 edge to [[_COMMUNITY_Community 23]]
+- 1 edge to [[_COMMUNITY_Community 47]]
+- 1 edge to [[_COMMUNITY_Community 75]]
+- 1 edge to [[_COMMUNITY_Community 127]]
+- 1 edge to [[_COMMUNITY_Community 28]]
 
 ## Top bridge nodes
-- [[Vulnerability Description Language (VDL)]] - degree 8, connects to 1 community
-- [[Nondeterministic signals vulnerability class]] - degree 4, connects to 1 community
-- [[Taxonomy of Circom vulnerabilities (3 root-cause classes)]] - degree 4, connects to 1 community
-- [[Unsafe component usage vulnerability class]] - degree 3, connects to 1 community
-- [[32 previously-unknown vulnerabilities (34 unique problems, 405 warnings)]] - degree 3, connects to 1 community
+- [[ZKML (Zero-Knowledge Machine Learning)]] - degree 24, connects to 12 communities
+- [[ZK Coprocessors Off-Chain Computation, On-Chain Verification (Growth)]] - degree 12, connects to 4 communities
+- [[ZKML Provable Machine Learning (Research)]] - degree 10, connects to 4 communities
+- [[Lagrange  DeepProve (ZK coprocessing, 700x ZKML claim)]] - degree 3, connects to 1 community
+- [[Sumcheck-based DNN proof systems (zkCNNLiu 2021, vCNNLee 2020, pvCNNWeng 2022, Thaler 2013) custom IPSNARK protocols tailored to convolutions, limited to MNISTCIFAR-10]] - degree 3, connects to 1 community

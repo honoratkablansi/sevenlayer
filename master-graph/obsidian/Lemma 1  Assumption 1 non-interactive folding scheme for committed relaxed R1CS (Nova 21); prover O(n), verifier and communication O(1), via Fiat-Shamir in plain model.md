@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch2/ref-44-supernova.pdf"
 type: "paper"
-community: "Community 55"
+community: "Community 52"
 location: "§2.3 (Lemma 1, Assumption 1)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_55
+  - community/Community_52
 ---
 
 # Lemma 1 / Assumption 1: non-interactive folding scheme for committed relaxed R1CS (Nova [21]); prover O(n), verifier and communication O(1), via Fiat-Shamir in plain model
@@ -17,4 +17,4 @@ tags:
 - [[Lemma 3 (Knowledge soundness) Construction 1 satisfies knowledge soundness via inductive extractor reduction to folding-scheme soundness]] - `assumes` [EXTRACTED]
 - [[Nova]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_55
+#graphify/paper #graphify/EXTRACTED #community/Community_52

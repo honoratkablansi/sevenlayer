@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-23-circle-starks.pdf"
 type: "paper"
-community: "Community 28"
+community: "Community 34"
 location: "Appendix B.2 Theorem 7, B.3 Theorem 8, Eq (47)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_28
+  - community/Community_34
 ---
 
 # Circle STARK AIR soundness & knowledge-soundness error (Theorem 7/8)
@@ -16,4 +16,4 @@ tags:
 - [[Circle STARK interactive oracle proof for AIR]] - `proves` [EXTRACTED]
 - [[Correlated agreement theorem for Reed-Solomon codes]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_28
+#graphify/paper #graphify/EXTRACTED #community/Community_34

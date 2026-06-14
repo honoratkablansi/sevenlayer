@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 79"
+community: "Community 90"
 location: "Chapter 13"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_79
+  - community/Community_90
 ---
 
 # EZKL (open-source ZKML toolkit, halo2/ONNX)
@@ -15,4 +15,4 @@ tags:
 - [[Lagrange  DeepProve (ZK coprocessing, 700x ZKML claim)]] - `compares` [EXTRACTED]
 - [[ZKML (Zero-Knowledge Machine Learning)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_79
+#graphify/document #graphify/EXTRACTED #community/Community_90

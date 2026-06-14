@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-81-wesolowski-vdf.pdf"
 type: "paper"
-community: "Community 2"
+community: "Community 6"
 location: "Refs [9], §1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_2
+  - community/Community_6
 ---
 
 # Cited: Buchmann & Williams - key-exchange via imaginary quadratic fields (1988) [9]
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Groups of unknown order (RSA group, class group of imaginary quadratic field)]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_2
+#graphify/paper #graphify/EXTRACTED #community/Community_6

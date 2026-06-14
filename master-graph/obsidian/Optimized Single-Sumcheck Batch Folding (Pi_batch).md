@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-20-latticefold.pdf"
 type: "paper"
-community: "Community 18"
+community: "Community 101"
 location: "§4.3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_18
+  - community/Community_101
 ---
 
 # Optimized Single-Sumcheck Batch Folding (Pi_batch)
@@ -15,4 +15,4 @@ tags:
 - [[Lattice-Based CCS Folding Scheme]] - `introduces` [EXTRACTED]
 - [[Sum-Check Protocol]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_18
+#graphify/paper #graphify/EXTRACTED #community/Community_101

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch08/ref-28-rollup-pricing-attacks.pdf"
 type: "paper"
-community: "Community 101"
+community: "Community 102"
 location: "section 3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_101
+  - community/Community_102
 ---
 
 # Blob Fee Market
@@ -16,4 +16,4 @@ tags:
 - [[EIP-1559 base-fee mechanism]] - `inspired` [EXTRACTED]
 - [[EIP-4844 (Blob Transactions)]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_101
+#graphify/paper #graphify/EXTRACTED #community/Community_102

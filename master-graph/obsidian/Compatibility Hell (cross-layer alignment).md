@@ -1,12 +1,12 @@
 ---
 source_file: "recursion/recursion-outline.md"
 type: "document"
-community: "Community 49"
+community: "Community 24"
 location: "Recursion Chapter 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_49
+  - community/Community_24
 ---
 
 # Compatibility Hell (cross-layer alignment)
@@ -16,4 +16,4 @@ tags:
 - [[Field-Mismatch Problem (base vs scalar field)]] - `explains` [EXTRACTED]
 - [[Poseidon Hash]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_49
+#graphify/document #graphify/EXTRACTED #community/Community_24

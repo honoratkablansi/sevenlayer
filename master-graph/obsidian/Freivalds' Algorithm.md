@@ -1,12 +1,12 @@
 ---
 source_file: "references/books/proofs-args-zk.pdf"
 type: "paper"
-community: "Community 14"
+community: "Community 84"
 location: "Chapter 2: The Power of Randomness / Section 2.2 Freivalds' Algorithm"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_14
+  - community/Community_84
 ---
 
 # Freivalds' Algorithm
@@ -19,4 +19,4 @@ tags:
 - [[Soundness]] - `relates_to` [EXTRACTED]
 - [[Super-Efficient MatMult IP]] - `generalizes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_14
+#graphify/paper #graphify/EXTRACTED #community/Community_84

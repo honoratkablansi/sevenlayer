@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-38-snarky-ceremonies.pdf"
 type: "paper"
-community: "Community 59"
+community: "Community 14"
 location: "refs [BGM17]"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_59
+  - community/Community_14
 ---
 
 # BGM17 - Bowe, Gabizon, Miers: scalable MPC for zk-SNARK params in random beacon model
@@ -16,4 +16,4 @@ tags:
 - [[Pi_dl discrete logarithm proof of knowledge (update PoK; pi=Grw, RO(phi))]] - `cites` [EXTRACTED]
 - [[Snarky Ceremonies]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_59
+#graphify/paper #graphify/EXTRACTED #community/Community_14

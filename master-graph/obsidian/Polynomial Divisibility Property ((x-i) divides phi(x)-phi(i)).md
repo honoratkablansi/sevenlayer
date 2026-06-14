@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-04-kzg-commitments.pdf"
 type: "paper"
-community: "Community 57"
+community: "Community 58"
 location: "§3.2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_57
+  - community/Community_58
 ---
 
 # Polynomial Divisibility Property ((x-i) divides phi(x)-phi(i))
@@ -15,4 +15,4 @@ tags:
 - [[PolyCommitDL Scheme]] - `assumes` [EXTRACTED]
 - [[PolyCommitPed Scheme]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_57
+#graphify/paper #graphify/EXTRACTED #community/Community_58

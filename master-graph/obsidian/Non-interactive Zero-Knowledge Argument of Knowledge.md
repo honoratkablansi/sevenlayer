@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-06-groth16.pdf"
 type: "paper"
-community: "Community 59"
+community: "Community 42"
 location: "§2.2 (Def. 2)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_59
+  - community/Community_42
 ---
 
 # Non-interactive Zero-Knowledge Argument of Knowledge
@@ -15,4 +15,4 @@ tags:
 - [[3-Element Pairing-based SNARK for Arithmetic Circuit SAT]] - `conceptually_related_to` [EXTRACTED]
 - [[Ceremonial SNARK (NIZK with multi-round SRS ceremony)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_59
+#graphify/paper #graphify/EXTRACTED #community/Community_42

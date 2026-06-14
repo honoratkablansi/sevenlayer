@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch13/ref-60-eidas-2-regulation.pdf"
 type: "paper"
-community: "Community 36"
+community: "Community 3"
 location: "section 2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_36
+  - community/Community_3
 ---
 
 # Qualified Trust Services
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Electronic Attestation of Attributes]] - `issues` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_36
+#graphify/paper #graphify/EXTRACTED #community/Community_3

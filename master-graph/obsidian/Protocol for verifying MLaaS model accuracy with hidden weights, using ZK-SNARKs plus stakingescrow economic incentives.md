@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf"
 type: "paper"
-community: "Community 75"
+community: "Community 76"
 location: "§5.2 / Appendix A-B"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_75
+  - community/Community_76
 ---
 
 # Protocol for verifying MLaaS model accuracy with hidden weights, using ZK-SNARKs plus staking/escrow economic incentives
@@ -16,4 +16,4 @@ tags:
 - [[Scaling up Trustless DNN Inference with Zero-Knowledge Proofs (Kang, Hashimoto, Stoica, Sun, 2022)]] - `introduces` [EXTRACTED]
 - [[Verifiable  trustless DNN inference model consumer verifies that the model provider served correct predictions in an untrusted (MLaaS) setting]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_75
+#graphify/paper #graphify/EXTRACTED #community/Community_76

@@ -1,34 +1,34 @@
 ---
 type: community
-cohesion: 0.20
+cohesion: 0.19
 members: 19
 ---
 
 # Community 67
 
-**Cohesion:** 0.20 - loosely connected
+**Cohesion:** 0.19 - loosely connected
 **Members:** 19 nodes
 
 ## Members
-- [[Compliance predicate  local property of distributed computation]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
-- [[Dual-Tree Architecture Package Tree (authenticity) + isomorphic Shadow Tree (compliance)]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
-- [[Folding-based aggregation ValidDep as atomic step folded over N dependencies into one succinct proof pi]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
-- [[Forest of Shadow Trees + DatalogHorn-clause policy composition and client-on-demand aggregation]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
-- [[Groth16 pairing-based zkSNARK (cited alternative proving system)]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
-- [[Implementation CircomPoseidon Attest circuit, Nova folding over Pasta curves, Spartan-wrapped succinct proof, Python+pyDataLog+SQLite auditor engine]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
-- [[Nova recursive folding scheme (IVC; first to fold two NP statements into one)]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
-- [[Package Tree (PT) VC maintained by package manager committing dependency inclusionauthenticity]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
-- [[Policy Propagation Engine (PPE) recursive compliance C(p)=L(p)prod C(d) propagated up dependency DAG]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
-- [[Re-proving on CVEupdate via root freshness revocation (S3) and remediation (S4) lifecycle, replay resistance]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
-- [[Root-binding accountability verification bound to trusted public roots defeats parallel forged trees]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
-- [[Shadow Tree (ST) isomorphic compliance VC by auditor; leaf flag 10 (compliantnon-compliant)]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
-- [[Spartan transparent zkSNARK without trusted setup (final proof compression wrapper)]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
-- [[Theorem 1 Package Tree position-binding (cannot open index to a different value)]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
-- [[Theorem 2 Soundness of Dual-Tree verification (no valid proof for non-existentnon-compliant package)]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
-- [[Theorem 3 Root-binding accountability (cannot accept proof from divergent PTST)]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
-- [[ValidDep dual-membership predicate package valid iff member of both PT and ST roots]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
-- [[Vector commitment scheme (position-binding; Merkle-tree instantiation, O(log n) openings)]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
-- [[VeriSBOM trustless, selectively-disclosed verifiable SBOM-sharing framework via ZKPs]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
+- [[C2PA (Coalition for Content Provenance and Authenticity) camera-signature standard]] - paper - references/recursion/ch3/ref-78-veritas.pdf
+- [[C2PA Technical Specification (Content Credentials)]] - document - references/recursion/ch3/ref-79-c2pa-specification.md
+- [[Custom proof system for lattice hash range proof (Plookup) + Freivalds + univariate SumCheck (Aurora)]] - paper - references/recursion/ch3/ref-78-veritas.pdf
+- [[Extended PLONK permutation argument (tau') tying circuit trace T(X) to witness polynomial W(X)]] - paper - references/recursion/ch3/ref-78-veritas.pdf
+- [[Glass-to-glass end-to-end security (camera to user screen, no trusted editor)]] - paper - references/recursion/ch3/ref-78-veritas.pdf
+- [[Homomorphic  redactable signatures (alternate, SNARK-free designs; impractical for blurresize)]] - paper - references/recursion/ch3/ref-78-veritas.pdf
+- [[Image Authentication (IA) proving an image faithfully represents an original photograph from a given capture device class]] - paper - references/recursion/ch3/ref-77-photoproof.pdf
+- [[Instance-witness relation R f(w)=x AND SigVerify(vk,w,sigma)=1 (signed original to edited image)]] - paper - references/recursion/ch3/ref-78-veritas.pdf
+- [[Lattice+Poseidon hash H(v)=Poseidon(A·v mod q) SNARK-friendly hash for 30 MP images (Mode 1)]] - paper - references/recursion/ch3/ref-78-veritas.pdf
+- [[Performance proof for 90 MB  30 MP image in ~13 min ($0.54, weak signer) or ~3 min ($0.13, powerful signer), verify 1 s]] - paper - references/recursion/ch3/ref-78-veritas.pdf
+- [[Photo-edit circuits in Plonky2 crop, grayscale, bilinear resize, box blur (fixed-point, AP-acceptable edits)]] - paper - references/recursion/ch3/ref-78-veritas.pdf
+- [[PhotoProof (Naveh & Tromer 2016) - prior ZK image-edit proofs, impractical proving time]] - paper - references/recursion/ch3/ref-78-veritas.pdf
+- [[Polynomial-commitment hash (Mode 2) signer commits to poly(w); SNARK circuit avoids hashingsignature verification]] - paper - references/recursion/ch3/ref-78-veritas.pdf
+- [[Short Integer Solution (SIS) lattice hash H_A(v)=Av mod q (linear, low-norm preimage)]] - paper - references/recursion/ch3/ref-78-veritas.pdf
+- [[Theorem 5.1 RangeCheck (Alg.1-2) is a zk-SNARK for relation R_RP (rangelow-norm proof)]] - paper - references/recursion/ch3/ref-78-veritas.pdf
+- [[Theorem 5.2 LatticeHash proof (Alg.3-4) is a zk-SNARK for relation R'_LH (knowledge of low-norm preimage)]] - paper - references/recursion/ch3/ref-78-veritas.pdf
+- [[VerITAS Verifying Image Transformations at Scale (Datta, Chen, Boneh, ePrint 20241066)]] - paper - references/recursion/ch3/ref-78-veritas.pdf
+- [[ZK-IMG (Kang et al. 2022) - 100x speedup over PhotoProof but limited to 720p900 KP images]] - paper - references/recursion/ch3/ref-78-veritas.pdf
+- [[opt-VerITAS precommitted rows of A reduce verifier time ~20x (30 MP verify ~0.8 s) at cost of larger proofs]] - paper - references/recursion/ch3/ref-78-veritas.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -38,19 +38,19 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 3 edges to [[_COMMUNITY_Community 20]]
-- 3 edges to [[_COMMUNITY_Community 13]]
-- 3 edges to [[_COMMUNITY_Community 64]]
-- 2 edges to [[_COMMUNITY_Community 48]]
-- 2 edges to [[_COMMUNITY_Community 31]]
-- 2 edges to [[_COMMUNITY_Community 74]]
-- 1 edge to [[_COMMUNITY_Community 4]]
-- 1 edge to [[_COMMUNITY_Community 11]]
-- 1 edge to [[_COMMUNITY_Community 71]]
+- 5 edges to [[_COMMUNITY_Community 47]]
+- 3 edges to [[_COMMUNITY_Community 21]]
+- 3 edges to [[_COMMUNITY_Community 8]]
+- 3 edges to [[_COMMUNITY_Community 2]]
+- 2 edges to [[_COMMUNITY_Community 75]]
+- 1 edge to [[_COMMUNITY_Community 15]]
+- 1 edge to [[_COMMUNITY_Community 19]]
+- 1 edge to [[_COMMUNITY_Community 62]]
+- 1 edge to [[_COMMUNITY_Community 119]]
 
 ## Top bridge nodes
-- [[VeriSBOM trustless, selectively-disclosed verifiable SBOM-sharing framework via ZKPs]] - degree 22, connects to 4 communities
-- [[Vector commitment scheme (position-binding; Merkle-tree instantiation, O(log n) openings)]] - degree 7, connects to 3 communities
-- [[Compliance predicate  local property of distributed computation]] - degree 8, connects to 2 communities
-- [[Folding-based aggregation ValidDep as atomic step folded over N dependencies into one succinct proof pi]] - degree 3, connects to 1 community
-- [[Nova recursive folding scheme (IVC; first to fold two NP statements into one)]] - degree 3, connects to 1 community
+- [[VerITAS Verifying Image Transformations at Scale (Datta, Chen, Boneh, ePrint 20241066)]] - degree 22, connects to 6 communities
+- [[C2PA (Coalition for Content Provenance and Authenticity) camera-signature standard]] - degree 6, connects to 3 communities
+- [[Image Authentication (IA) proving an image faithfully represents an original photograph from a given capture device class]] - degree 8, connects to 2 communities
+- [[Lattice+Poseidon hash H(v)=Poseidon(A·v mod q) SNARK-friendly hash for 30 MP images (Mode 1)]] - degree 6, connects to 1 community
+- [[Custom proof system for lattice hash range proof (Plookup) + Freivalds + univariate SumCheck (Aurora)]] - degree 5, connects to 1 community

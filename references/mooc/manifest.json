@@ -1,0 +1,14 @@
+[
+  {
+    "label": "lecture01",
+    "title": "Introduction and History of ZKP",
+    "video_id": "uchjTIlPzFo",
+    "video_url": "https://www.youtube.com/watch?v=uchjTIlPzFo",
+    "slides_url": "https://rdi.berkeley.edu/zk-learning/assets/Lecture1-2023-slides.pdf",
+    "transcript_segments": 2134,
+    "transcript_words": 16513,
+    "slides_fetched_via": "fetcher-chrome",
+    "license": "CC",
+    "course": "Berkeley ZKP MOOC"
+  }
+]

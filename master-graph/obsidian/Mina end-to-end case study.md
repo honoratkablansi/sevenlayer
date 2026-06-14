@@ -1,12 +1,12 @@
 ---
 source_file: "recursion/recursion-outline.md"
 type: "document"
-community: "Community 130"
+community: "Community 23"
 location: "Recursion Chapter 3"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_130
+  - community/Community_23
 ---
 
 # Mina end-to-end case study
@@ -15,4 +15,4 @@ tags:
 - [[Coda Decentralized Cryptocurrency at Scale (ePrint 2020352)]] - `cites` [EXTRACTED]
 - [[Mina  Coda and Pickles recursion layer]] - `explains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_130
+#graphify/document #graphify/EXTRACTED #community/Community_23

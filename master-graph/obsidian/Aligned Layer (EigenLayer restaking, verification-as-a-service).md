@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 40"
+community: "Community 16"
 location: "Chapter 13"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_40
+  - community/Community_16
 ---
 
 # Aligned Layer (EigenLayer restaking, verification-as-a-service)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Proving-as-a-Service]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_40
+#graphify/document #graphify/EXTRACTED #community/Community_16

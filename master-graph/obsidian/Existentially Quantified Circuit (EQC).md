@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-33-circ.pdf"
 type: "paper"
-community: "Community 56"
+community: "Community 57"
 location: "§2.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_56
+  - community/Community_57
 ---
 
 # Existentially Quantified Circuit (EQC)
@@ -18,4 +18,4 @@ tags:
 - [[R1CS (Rank-1 Constraint Systems)]] - `relates_to` [EXTRACTED]
 - [[Satisfiability Modulo Theories (SMT)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_56
+#graphify/paper #graphify/EXTRACTED #community/Community_57

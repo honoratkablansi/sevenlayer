@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 21"
+community: "Community 4"
 location: "Chapter 9"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_21
+  - community/Community_4
 ---
 
 # Fully Homomorphic Encryption (FHE)
@@ -32,4 +32,4 @@ tags:
 - [[Verifiable computation]] - `uses` [EXTRACTED]
 - [[Zama Confidential Blockchain Protocol]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_21
+#graphify/document #graphify/EXTRACTED #community/Community_4

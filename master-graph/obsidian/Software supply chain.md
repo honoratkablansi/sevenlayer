@@ -1,12 +1,12 @@
 ---
 source_file: "recursion/recursion-outline.md"
 type: "document"
-community: "Community 64"
+community: "Community 62"
 location: "Recursion Chapter 3"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_64
+  - community/Community_62
 ---
 
 # Software supply chain
@@ -22,4 +22,4 @@ tags:
 - [[Verifiable build pipelines  attestation chains]] - `conceptually_related_to` [EXTRACTED]
 - [[in-toto supply-chain integrity via signed step metadata (cited prior work)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_64
+#graphify/document #graphify/EXTRACTED #community/Community_62

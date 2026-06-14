@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-55-zkevm-security-foundations.md"
 type: "document"
-community: "Community 10"
+community: "Community 30"
 location: "Three Milestones"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_10
+  - community/Community_30
 ---
 
 # WHIR Polynomial Commitment Scheme
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Shipping an L1 zkEVM 2 The Security Foundations (Ethereum Foundation)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_10
+#graphify/document #graphify/EXTRACTED #community/Community_30

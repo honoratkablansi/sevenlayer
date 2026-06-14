@@ -1,12 +1,12 @@
 ---
 source_file: "references/snowball/recursion/ref-145-practical-product-proofs-for-lattice-commitments.pdf"
 type: "paper"
-community: "Community 20"
+community: "Community 22"
 location: "abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_20
+  - community/Community_22
 ---
 
 # Multiplicative Relation Proof
@@ -16,4 +16,4 @@ tags:
 - [[Lattice Cryptography]] - `uses` [EXTRACTED]
 - [[Zero-Knowledge Proof]] - `relates_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_20
+#graphify/paper #graphify/EXTRACTED #community/Community_22

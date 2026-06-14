@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch01/ref-02-gmr-knowledge-complexity.pdf"
 type: "paper"
-community: "Community 14"
+community: "Community 53"
 location: "p. 190"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_14
+  - community/Community_53
 ---
 
 # Error reduction by sequential repetition (Remark 1)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Soundness]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_14
+#graphify/paper #graphify/EXTRACTED #community/Community_53

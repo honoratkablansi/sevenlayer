@@ -1,64 +1,70 @@
 ---
 type: community
-cohesion: 0.07
-members: 49
+cohesion: 0.09
+members: 55
 ---
 
 # Community 2
 
-**Cohesion:** 0.07 - loosely connected
-**Members:** 49 nodes
+**Cohesion:** 0.09 - loosely connected
+**Members:** 55 nodes
 
 ## Members
-- [[Aggregation (single proof for many outputs, Theorem 1) and watermarking of proofs]] - paper - references/recursion/ch3/ref-81-wesolowski-vdf.pdf
-- [[Cited Boneh & Naor - Timed commitments (CRYPTO 2000) 7]] - paper - references/recursion/ch3/ref-81-wesolowski-vdf.pdf
-- [[Cited Boneh, Bonneau, Bunz, Fisch - Verifiable Delay Functions (CRYPTO 2018) 4]] - paper - references/recursion/ch3/ref-81-wesolowski-vdf.pdf
-- [[Cited Boneh, Bunz, Fisch - Survey of two VDFs (ePrint 2018712) 5]] - paper - references/recursion/ch3/ref-81-wesolowski-vdf.pdf
-- [[Cited Buchmann & Williams - key-exchange via imaginary quadratic fields (1988) 9]] - paper - references/recursion/ch3/ref-81-wesolowski-vdf.pdf
-- [[Cited Lenstra & Wesolowski - slothunicorntrx slow-timed hash (2016) 15]] - paper - references/recursion/ch3/ref-81-wesolowski-vdf.pdf
-- [[Cited Pietrzak - Simple Verifiable Delay Functions 16]] - paper - references/recursion/ch3/ref-81-wesolowski-vdf.pdf
-- [[Cited Rabin - Transaction protection by beacons (1983) 17]] - paper - references/recursion/ch3/ref-81-wesolowski-vdf.pdf
-- [[Cited Rivest, Shamir, Wagner - Time-lock puzzles and timed-release crypto (1996) 18]] - paper - references/recursion/ch3/ref-81-wesolowski-vdf.pdf
-- [[Cohen & Pietrzak, simpler PoSW from a non-depth-robust Merkle-tree graph 19]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
-- [[Comparison vs Pietrzak VDF single group element  2 exponentiations vs O(log t)]] - paper - references/recursion/ch3/ref-81-wesolowski-vdf.pdf
-- [[Computational timestamping application incremental VDFs counter proof-of-stake long-range forks]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
-- [[Dwork & Naor, moderately hard pricingclient puzzles via modular square roots 31]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
-- [[Exponentiation-based VDF in a group of unknown order, secure only against bounded pre-computation (§8)]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
-- [[Fast verification requirement Verify runs in total time poly(log t, λ), exponentially faster than Eval]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
-- [[Formal VDF definition triple (Setup, Eval, Verify) with correctness, soundness, sequentiality]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
-- [[Generalised time-lock assumption for families of unknown-order groups (Assumption 2)]] - paper - references/recursion/ch3/ref-81-wesolowski-vdf.pdf
-- [[Groups of unknown order (RSA group, class group of imaginary quadratic field)]] - paper - references/recursion/ch3/ref-81-wesolowski-vdf.pdf
-- [[Inherently sequential computation  sequentiality]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
-- [[Iterated sequential function f = g(k) iterating round function g is the fastest evaluation (Assumption 1)]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
-- [[Lenstra & Wesolowski, Sloth time-asymmetric encoding and 'Unicorn' beacon 48]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
-- [[Mahmoody et al., publicly verifiable proofs of sequential work via depth-robust graphs 52]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
-- [[Pietrzak, RSA-based VDF from repeated squaring with trusted setup 64,65]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
-- [[Practical efficiency boost time-asymmetric encodings as the sequential computation inside IVC (~7,000x SNARK efficiency gain)]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
-- [[Proof computable in O(tlog t) group operations (Algorithm 5, base-2kappa)]] - paper - references/recursion/ch3/ref-81-wesolowski-vdf.pdf
-- [[Proof of exponentiation (short proof pi = g{floor(2tl)})]] - paper - references/recursion/ch3/ref-81-wesolowski-vdf.pdf
-- [[Proof-of-replication  proof-of-space application via efficiently-decodable VDF as time-asymmetric ideal cipher]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
-- [[Proposition 1 (tδ)-sequentiality in the random oracle model]] - paper - references/recursion/ch3/ref-81-wesolowski-vdf.pdf
-- [[Proposition 2 soundness in the random oracle model (reduction to root finding)]] - paper - references/recursion/ch3/ref-81-wesolowski-vdf.pdf
-- [[Randomness beacon]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
-- [[Repeatedsequential squaring in a group of unknown order]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
-- [[Rivest, Shamir, Wagner, time-lock puzzles and timed-release crypto 68]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
-- [[Root finding game Groot (extract l-th roots) underlying soundness]] - paper - references/recursion/ch3/ref-81-wesolowski-vdf.pdf
-- [[SNARK  SNARG verifiable-computation primitive (Def. 8) used to make Verify succinct]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
-- [[Time-lock assumption no shortcut to g{2t} without group order (Assumption 1)]] - paper - references/recursion/ch3/ref-81-wesolowski-vdf.pdf
-- [[Trapdoor VDF (evaluable fast with secret order, sound)]] - paper - references/recursion/ch3/ref-81-wesolowski-vdf.pdf
-- [[Trapdoor-VDF identification protocol with zero-knowledge and on-line deniability]] - paper - references/recursion/ch3/ref-81-wesolowski-vdf.pdf
-- [[Uniquenesssoundness for every input x a unique output y verifies; adversary cannot make Verify accept y≠Eval(x)]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
-- [[VDF randomness-beacon application post pp on chain, beacon r where (r,π)=Eval(ek,b); also 'Unicorn' commit-free n-party beacon]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
-- [[VDF_IVC theoretical VDF from tight IVC, achieves σ(t)=(1−ε)t−O(1) sequentiality (Theorem 1)]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
-- [[VDF_VC simpler VDF from verifiable computation (log N parallel SNARGs over geometric segments), σ(t)=(1−ε)t (Theorem 2, added May 2019)]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
-- [[Valiant, incrementally verifiable computation  computationally sound proofs 70]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
-- [[Verifiable Delay Functions (Boneh et al., CRYPTO 2018)]] - document - recursion/recursion-outline.md
-- [[Verifiable delay function (VDF)]] - document - recursion/recursion-outline.md
-- [[Weak VDF from injective rational  permutation polynomials over finite fields, (t2, o(t))-sequential via polynomial GCD hardness]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
-- [[Wesolowski public-coin protocol verifier samples prime l, checks pil gr = y]] - paper - references/recursion/ch3/ref-81-wesolowski-vdf.pdf
-- [[Wesolowski, Efficient Verifiable Delay Functions (EUROCRYPT 2019)]] - paper - references/recursion/ch3/ref-81-wesolowski-vdf.pdf
-- [[Wesolowski, efficient VDF from groups of unknown order 73]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
-- [[σ-sequentiality security property (parallel PRAM adversary cannot win in time σ(t)t after polynomial precomputation)]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
+- [[AIR (Algebraic Intermediate Representation)]] - document - proving-nothing.md
+- [[Avoiding preprocessing for uniform CCS (AIR) verifier evaluates wiring MLEs M_j in log time]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
+- [[Binding Verification Keys and Statements Safely]] - document - recursion/recursion-outline.md
+- [[Binius (Binary Tower Fields)]] - document - proving-nothing.md
+- [[CCS (Customizable Constraint Systems)]] - document - proving-nothing.md
+- [[CCS formal definition matrices M_j, multisets S_i, constants c_i, sum c_i · Hadamard_{j in S_i} (M_j z) = 0]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
+- [[CCS+ CCS extended with read-only lookup-table operations]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
+- [[CCS The Rosetta Stone]] - document - wiki/sections/ch05-ccs-the-rosetta-stone.md
+- [[Claim R1CS, AIR, PLONKish Are Dialects of CCS]] - document - proving-nothing.md
+- [[Constraint System]] - document - proving-nothing.md
+- [[Customizable Constraint Systems for Succinct Arguments]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
+- [[Encoding the Performance]] - document - wiki/chapters/05-encoding-the-performance.md
+- [[Free addition gates for uniform CCS prover crypto work independent of additions]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
+- [[Glossary of Key Terms]] - document - wiki/GLOSSARY.md
+- [[Grand Product Check]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[HyperNova]] - document - proving-nothing.md
+- [[HyperNova KS24b (linearization, CCS folding)]] - paper - references/ch02/ref-11-latticefold-plus.pdf
+- [[HyperPlonk CBBZ23 - multilinear Plonk with linear prover, contrasted cost route]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
+- [[Layer 4 -- Arithmetization]] - document - wiki/sections/ch05-layer-4-arithmetization.md
+- [[Lemma 1 constant-time R1CS-to-CCS reduction (t=3, q=2, d=2)]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
+- [[Lemma 2 Plonkish-to-CCS reduction; multisets encode monomials of g]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
+- [[Lemma 3 AIR-to-CCS reduction; constraint g applied to adjacent trace rows]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
+- [[LogUp]] - document - proving-nothing.md
+- [[LogUp-GKR]] - document - proving-nothing.md
+- [[Lookup Argument]] - document - proving-nothing.md
+- [[Lund, Fortnow, Karloff, Nisan - Sumcheck (1992)]] - document - proving-nothing.md
+- [[MicroNova (on-chain efficient Nova)]] - document - references/recursion/ch2/ref-43-nova-implementation.md
+- [[Midnight ZKIR (24-Opcode Instruction DAG)]] - document - proving-nothing.md
+- [[MinRoot VDF]] - document - recursion/recursion-outline.md
+- [[MinRoot Worked Example]] - document - recursion/recursion-outline.md
+- [[Neo (Small-Field Lattice Folding)]] - document - proving-nothing.md
+- [[Nightstream (Lattice-Folding Implementation)]] - document - proving-nothing.md
+- [[Nova]] - document - proving-nothing.md
+- [[Nova reference implementation (microsoftNova)]] - document - references/recursion/ch2/ref-43-nova-implementation.md
+- [[Offline Memory Checking  Algebraic RAM Reduction]] - document - wiki/sections/ch04-witness-generation-costs.md
+- [[PLONK GWC19 - proof system Plonkish was believed tied to]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
+- [[PLONKish Arithmetization]] - document - proving-nothing.md
+- [[Plookup]] - document - proving-nothing.md
+- [[SIMD CCS  data-parallel CCS with log-time IO consistency via next() MLE]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
+- [[Setty, Thaler, Wahby - CCS Paper (2023)]] - document - proving-nothing.md
+- [[Setty, Thaler, Wahby, Customizable Constraint Systems (ePrint 2023552)]] - document - recursion/recursion-outline.md
+- [[Small-Field Arithmetic (BabyBear, Mersenne-31, Goldilocks)]] - document - proving-nothing.md
+- [[Sparse Polynomial Commitment]] - paper - references/ch03/ref-15-lasso.pdf
+- [[Srinath Setty]] - document - wiki/sections/ch02-the-quantum-shelf-life.md
+- [[Sumcheck  Algebraic Methods for Interactive Proof Systems (Lund-Fortnow-Karloff-Nisan, J.ACM 1992) 58]] - paper - references/recursion/ch3/ref-59-zkbridge.pdf
+- [[Sumcheck Protocol]] - document - proving-nothing.md
+- [[SuperSpartan]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
+- [[Symphony (Production Lattice Folding)]] - document - proving-nothing.md
+- [[The Constraint System Evolution R1CS, AIR, PLONKish]] - document - wiki/sections/ch05-the-constraint-system-evolution-r1cs-air-plonkish.md
+- [[The Overhead Tax 10,000x to 50,000x]] - document - wiki/sections/ch05-the-overhead-tax-10-000x-to-50-000x.md
+- [[The Spreadsheet Metaphor (And Where It Works)]] - document - wiki/sections/ch05-the-spreadsheet-metaphor-and-where-it-works.md
+- [[The Sumcheck Protocol The Hidden Foundation]] - document - wiki/sections/ch05-the-sumcheck-protocol-the-hidden-foundation.md
+- [[Theorem 2 MLE of 'add-1-in-binary' next() function evaluable in logarithmic time]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
+- [[Where the Analogies Break]] - document - wiki/sections/ch05-where-the-analogies-break.md
+- [[Where the Layers Collapse]] - document - wiki/sections/ch05-ccs-the-rosetta-stone.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -68,17 +74,55 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 5 edges to [[_COMMUNITY_Community 22]]
-- 2 edges to [[_COMMUNITY_Community 70]]
-- 1 edge to [[_COMMUNITY_Community 41]]
-- 1 edge to [[_COMMUNITY_Community 8]]
-- 1 edge to [[_COMMUNITY_Community 15]]
-- 1 edge to [[_COMMUNITY_Community 49]]
-- 1 edge to [[_COMMUNITY_Community 13]]
+- 51 edges to [[_COMMUNITY_Community 0]]
+- 44 edges to [[_COMMUNITY_Community 13]]
+- 27 edges to [[_COMMUNITY_Community 17]]
+- 24 edges to [[_COMMUNITY_Community 12]]
+- 21 edges to [[_COMMUNITY_Community 8]]
+- 20 edges to [[_COMMUNITY_Community 28]]
+- 14 edges to [[_COMMUNITY_Community 1]]
+- 13 edges to [[_COMMUNITY_Community 27]]
+- 13 edges to [[_COMMUNITY_Community 37]]
+- 12 edges to [[_COMMUNITY_Community 15]]
+- 11 edges to [[_COMMUNITY_Community 35]]
+- 9 edges to [[_COMMUNITY_Community 30]]
+- 9 edges to [[_COMMUNITY_Community 71]]
+- 9 edges to [[_COMMUNITY_Community 31]]
+- 6 edges to [[_COMMUNITY_Community 36]]
+- 6 edges to [[_COMMUNITY_Community 80]]
+- 5 edges to [[_COMMUNITY_Community 32]]
+- 5 edges to [[_COMMUNITY_Community 89]]
+- 4 edges to [[_COMMUNITY_Community 19]]
+- 3 edges to [[_COMMUNITY_Community 21]]
+- 3 edges to [[_COMMUNITY_Community 20]]
+- 3 edges to [[_COMMUNITY_Community 18]]
+- 3 edges to [[_COMMUNITY_Community 67]]
+- 3 edges to [[_COMMUNITY_Community 23]]
+- 3 edges to [[_COMMUNITY_Community 52]]
+- 3 edges to [[_COMMUNITY_Community 5]]
+- 3 edges to [[_COMMUNITY_Community 10]]
+- 3 edges to [[_COMMUNITY_Community 61]]
+- 2 edges to [[_COMMUNITY_Community 54]]
+- 2 edges to [[_COMMUNITY_Community 7]]
+- 2 edges to [[_COMMUNITY_Community 101]]
+- 2 edges to [[_COMMUNITY_Community 26]]
+- 2 edges to [[_COMMUNITY_Community 85]]
+- 2 edges to [[_COMMUNITY_Community 100]]
+- 2 edges to [[_COMMUNITY_Community 24]]
+- 2 edges to [[_COMMUNITY_Community 90]]
+- 1 edge to [[_COMMUNITY_Community 22]]
+- 1 edge to [[_COMMUNITY_Community 99]]
+- 1 edge to [[_COMMUNITY_Community 75]]
+- 1 edge to [[_COMMUNITY_Community 69]]
+- 1 edge to [[_COMMUNITY_Community 73]]
+- 1 edge to [[_COMMUNITY_Community 29]]
+- 1 edge to [[_COMMUNITY_Community 4]]
+- 1 edge to [[_COMMUNITY_Community 65]]
+- 1 edge to [[_COMMUNITY_Community 40]]
 
 ## Top bridge nodes
-- [[Verifiable delay function (VDF)]] - degree 24, connects to 5 communities
-- [[SNARK  SNARG verifiable-computation primitive (Def. 8) used to make Verify succinct]] - degree 4, connects to 2 communities
-- [[Wesolowski, Efficient Verifiable Delay Functions (EUROCRYPT 2019)]] - degree 14, connects to 1 community
-- [[VDF_IVC theoretical VDF from tight IVC, achieves σ(t)=(1−ε)t−O(1) sequentiality (Theorem 1)]] - degree 6, connects to 1 community
-- [[Practical efficiency boost time-asymmetric encodings as the sequential computation inside IVC (~7,000x SNARK efficiency gain)]] - degree 3, connects to 1 community
+- [[Lookup Argument]] - degree 57, connects to 24 communities
+- [[Nova]] - degree 66, connects to 21 communities
+- [[Encoding the Performance]] - degree 61, connects to 18 communities
+- [[The Overhead Tax 10,000x to 50,000x]] - degree 35, connects to 13 communities
+- [[CCS (Customizable Constraint Systems)]] - degree 49, connects to 12 communities

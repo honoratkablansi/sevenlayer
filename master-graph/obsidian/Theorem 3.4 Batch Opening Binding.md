@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-04-kzg-commitments.pdf"
 type: "paper"
-community: "Community 57"
+community: "Community 58"
 location: "§3.4 (Thm 3.4)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_57
+  - community/Community_58
 ---
 
 # Theorem 3.4: Batch Opening Binding
@@ -15,4 +15,4 @@ tags:
 - [[Batch Opening (CreateWitnessBatchVerifyEvalBatch)]] - `proves` [EXTRACTED]
 - [[t-Bilinear Strong Diffie-Hellman (t-BSDH) Assumption]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_57
+#graphify/paper #graphify/EXTRACTED #community/Community_58

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-32-zkvm-compiler-optimization.pdf"
 type: "paper"
-community: "Community 37"
+community: "Community 20"
 location: "p.1 (title/abstract)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_37
+  - community/Community_20
 ---
 
 # Evaluating Compiler Optimization Impacts on zkVM Performance
@@ -26,4 +26,4 @@ tags:
 - [[zkVM]] - `conceptually_related_to` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_37
+#graphify/paper #graphify/EXTRACTED #community/Community_20

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch13/ref-59-world-whitepaper.pdf"
 type: "paper"
-community: "Community 89"
+community: "Community 3"
 location: "§1.2.2, §1.2.5"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_89
+  - community/Community_3
 ---
 
 # World Network: real human network with five core technologies (World ID, Orb, World App, World Chain, WLD) for Proof of Human plus a financial layer
@@ -19,4 +19,4 @@ tags:
 - [[World Whitepapers (World Network Proof of Human)]] - `defines` [EXTRACTED]
 - [[Worldcoin (WLD) ERC-20 native token, 10B initial cap, =60% target to verified humans as user tokens, governanceone-person-one-vote, =1.5% inflation only after 15 years]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_89
+#graphify/paper #graphify/EXTRACTED #community/Community_3

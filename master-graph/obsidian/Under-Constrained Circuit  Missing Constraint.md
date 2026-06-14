@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 69"
+community: "Community 72"
 location: "Chapter 4"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_69
+  - community/Community_72
 ---
 
 # Under-Constrained Circuit / Missing Constraint
@@ -44,4 +44,4 @@ tags:
 - [[zkFuzz (Takahashi, Kim et al., S&P 2026)]] - `references` [EXTRACTED]
 - [[zkSync Era MemoryWriteQuery Bug]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_69
+#graphify/document #graphify/EXTRACTED #community/Community_72

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-19-protostar.pdf"
 type: "document"
-community: "Community 49"
+community: "Community 64"
 location: "abstract"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_49
+  - community/Community_64
 ---
 
 # Accumulation Schemes
@@ -49,4 +49,4 @@ tags:
 - [[Theorem 2 (informal) accumulation for predicate + predicate-efficient SNARK yields accumulation for the SNARK]] - `proves` [EXTRACTED]
 - [[Verifiable delay function (VDF)]] - `uses` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_49
+#graphify/document #graphify/EXTRACTED #community/Community_64

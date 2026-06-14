@@ -1,26 +1,27 @@
 ---
 type: community
 cohesion: 0.18
-members: 11
+members: 12
 ---
 
 # Community 104
 
 **Cohesion:** 0.18 - loosely connected
-**Members:** 11 nodes
+**Members:** 12 nodes
 
 ## Members
-- [[Agglayer Cross-Chain Interoperability]] - document - references/recursion/ch1/ref-17-polygon-zkevm-docs.md
-- [[Atomic cross-chain operations (all-succeed or all-fail)]] - document - references/recursion/ch3/ref-55-polygon-agglayer-docs.md
-- [[Chain sovereignty (connected chains keep own architecturegovernance)]] - document - references/recursion/ch3/ref-55-polygon-agglayer-docs.md
-- [[Cross-L2 transfers and interoperability]] - document - references/recursion/ch3/ref-54-ethereum-rollup-centric-roadmap.md
-- [[Cross-chain proof aggregation and interop]] - document - recursion/recursion-outline.md
-- [[Pessimistic proofs (mathematical containment of chain compromise)]] - document - references/recursion/ch3/ref-55-polygon-agglayer-docs.md
-- [[Polygon AggLayer documentation]] - document - references/recursion/ch3/ref-55-polygon-agglayer-docs.md
-- [[Polygon CDK (Chain Development Kit)]] - document - references/recursion/ch1/ref-17-polygon-zkevm-docs.md
-- [[Prover markets  recursion as infrastructure]] - document - recursion/recursion-outline.md
-- [[Unified liquidity (assets retain identity, no wrapped tokens)]] - document - references/recursion/ch3/ref-55-polygon-agglayer-docs.md
-- [[Validium (offchain data availability)]] - document - references/recursion/ch1/ref-17-polygon-zkevm-docs.md
+- [[Algorithm Deprecation Timeline]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
+- [[BIS Project Leap (2023) Quantum-proofing the financial system]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
+- [[Buterin (2023) Ethereum quantum-emergency hard-fork proposal]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
+- [[Crypto agility building continuous migration between quantum-resistant algorithms into governance rather than targeting a single Q-Day]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
+- [[Cryptographic Migration]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
+- [[HNDL poses two primary present threats to Bitcoin revealing confidential encrypted data (data privacy) and stealing funds (theft)]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
+- [[Hybrid Key Exchange]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
+- [[Limitation all proposed mitigations require security-through-force, antithetical to Bitcoin's decentralized, choice-over-force governance ethos]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
+- [[Mitigations PQC-only hard fork (Buterin-style) or soft fork, mandatory PQC address types, crypto agility, security hygiene (no address reuse) — all address theftintegrity, not retroactive privacy]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
+- [[NIST PQC standardization 3 finalized encryption standards + 5 quantum-resistant algorithms; deprecating RSAECC over 5-10 years; US federal migration mandated by 2035]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
+- [[Quantum Threat]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
+- [[Thesis PQC can protect DLT integritysecurity but cannot retroactively protect data privacy of past transactions against HNDL]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -30,14 +31,13 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 2 edges to [[_COMMUNITY_Community 81]]
-- 1 edge to [[_COMMUNITY_Community 10]]
-- 1 edge to [[_COMMUNITY_Community 102]]
-- 1 edge to [[_COMMUNITY_Community 64]]
-- 1 edge to [[_COMMUNITY_Community 113]]
+- 3 edges to [[_COMMUNITY_Community 0]]
+- 3 edges to [[_COMMUNITY_Community 66]]
+- 1 edge to [[_COMMUNITY_Community 123]]
 
 ## Top bridge nodes
-- [[Cross-chain proof aggregation and interop]] - degree 6, connects to 2 communities
-- [[Polygon CDK (Chain Development Kit)]] - degree 3, connects to 1 community
-- [[Cross-L2 transfers and interoperability]] - degree 2, connects to 1 community
-- [[Prover markets  recursion as infrastructure]] - degree 2, connects to 1 community
+- [[Mitigations PQC-only hard fork (Buterin-style) or soft fork, mandatory PQC address types, crypto agility, security hygiene (no address reuse) — all address theftintegrity, not retroactive privacy]] - degree 6, connects to 1 community
+- [[Cryptographic Migration]] - degree 5, connects to 1 community
+- [[Thesis PQC can protect DLT integritysecurity but cannot retroactively protect data privacy of past transactions against HNDL]] - degree 4, connects to 1 community
+- [[Crypto agility building continuous migration between quantum-resistant algorithms into governance rather than targeting a single Q-Day]] - degree 3, connects to 1 community
+- [[HNDL poses two primary present threats to Bitcoin revealing confidential encrypted data (data privacy) and stealing funds (theft)]] - degree 3, connects to 1 community

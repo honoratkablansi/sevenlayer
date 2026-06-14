@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch03/ref-15-lasso.pdf"
 type: "paper"
-community: "Community 26"
+community: "Community 89"
 location: "§1.1(2), §5, Fig 5"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_26
+  - community/Community_89
 ---
 
 # Surge: generalization of Spark proving inner product of an m-sparse committed vector with any decomposable (SOS) dense table
@@ -17,4 +17,4 @@ tags:
 - [[Spark optimal sparse multilinear PCS from Spartan; evaluates m-sparse poly in O(c·m) time via c memories of size N{1c}]] - `introduces` [EXTRACTED]
 - [[Theorem 3 Surge polynomial IOP is complete and knowledge-sound for proving sum_y M~(r,y)·Ty=v with soundness O((m+N{1c})F)]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_26
+#graphify/paper #graphify/EXTRACTED #community/Community_89

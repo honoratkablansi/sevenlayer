@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch03/ref-12-underconstrained-circuits.pdf"
 type: "paper"
-community: "Community 69"
+community: "Community 72"
 location: "§3 Fig 6"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_69
+  - community/Community_72
 ---
 
 # Circomlib Decoder Underconstrained Bug (motivating example)
@@ -15,4 +15,4 @@ tags:
 - [[Circom]] - `conceptually_related_to` [EXTRACTED]
 - [[Under-Constrained Circuit  Missing Constraint]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_69
+#graphify/paper #graphify/EXTRACTED #community/Community_72

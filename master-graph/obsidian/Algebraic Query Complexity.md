@@ -1,12 +1,12 @@
 ---
 source_file: "references/snowball/recursion/ref-151-a-zero-knowledge-sumcheck-and-its-applications.pdf"
 type: "paper"
-community: "Community 12"
+community: "Community 21"
 location: "abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_12
+  - community/Community_21
 ---
 
 # Algebraic Query Complexity
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Polynomial Commitment Scheme]] - `uses` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_12
+#graphify/paper #graphify/EXTRACTED #community/Community_21

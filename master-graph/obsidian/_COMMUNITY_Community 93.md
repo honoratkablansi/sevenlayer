@@ -10,20 +10,20 @@ members: 14
 **Members:** 14 nodes
 
 ## Members
-- [[EXECUTE Precompile for Native zk-Rollups]] - document - references/recursion/ch1/ref-19-ef-l1-zkevm-realtime-proving.md
-- [[Enshrined proofs (phase 3 of proving roadmap)]] - document - references/recursion/ch3/ref-57-ethproofs-reporting.md
-- [[EthProofs Dashboard]] - document - references/recursion/ch1/ref-08-sp1-hypercube.md
-- [[Home Proving]] - document - references/recursion/ch1/ref-19-ef-l1-zkevm-realtime-proving.md
-- [[L1 zkEVM]] - document - references/recursion/ch1/ref-19-ef-l1-zkevm-realtime-proving.md
-- [[RTP eligibility thresholds (sub-10s proofs, liveness, cost)]] - document - references/recursion/ch3/ref-57-ethproofs-reporting.md
-- [[Real-Time Proving]] - document - references/ch10/ref-52-sp1-hypercube.md
-- [[Realtime Proving Standardized Definition]] - document - references/recursion/ch1/ref-19-ef-l1-zkevm-realtime-proving.md
-- [[SP1 Hypercube Proving Ethereum in Real-Time (Succinct, 2025)]] - document - references/recursion/ch1/ref-08-sp1-hypercube.md
-- [[Security sprint milestone M2 (100-bit provable  600 KiB)]] - document - references/recursion/ch3/ref-57-ethproofs-reporting.md
-- [[Shipping an L1 zkEVM 1 Realtime Proving (Ethereum Foundation, 2025)]] - document - references/recursion/ch1/ref-19-ef-l1-zkevm-realtime-proving.md
-- [[Stateless Proof Verification]] - document - references/recursion/ch1/ref-19-ef-l1-zkevm-realtime-proving.md
-- [[ethproofs.org real-time proving reporting (Pico Prism, ethrex)]] - document - references/recursion/ch3/ref-57-ethproofs-reporting.md
-- [[zkVM prover benchmarks (zkDTVM, OpenVM, ZisK, Pico on GPU clusters)]] - document - references/recursion/ch3/ref-57-ethproofs-reporting.md
+- [[32 previously-unknown vulnerabilities (34 unique problems, 405 warnings)]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
+- [[Constraint-computation discrepancy vulnerability class]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
+- [[Dataflow-Constraint Discrepancy (DCD) detector]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
+- [[Division-by-Zero (DBZ) detector]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
+- [[Nondeterministic signals vulnerability class]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
+- [[Taxonomy of Circom vulnerabilities (3 root-cause classes)]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
+- [[Type Mismatch (TM) detector]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
+- [[US, USCO, AM, NDD detectors (remaining ZKAP checkers)]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
+- [[Unconstrained Circuit Output (UCO) detector]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
+- [[Unconstrained Sub-circuit Input (USCI) detector]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
+- [[Unsafe component usage vulnerability class]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
+- [[Vulnerability Description Language (VDL)]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
+- [[ed25519-circom PointCompress unconstrained-output bug]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
+- [[iden3 verifyExpirationTime missing-range-check type mismatch]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -33,14 +33,12 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 7 edges to [[_COMMUNITY_Community 10]]
-- 2 edges to [[_COMMUNITY_Community 102]]
-- 1 edge to [[_COMMUNITY_Community 78]]
-- 1 edge to [[_COMMUNITY_Community 0]]
-- 1 edge to [[_COMMUNITY_Community 47]]
+- 4 edges to [[_COMMUNITY_Community 105]]
+- 2 edges to [[_COMMUNITY_Community 72]]
 
 ## Top bridge nodes
-- [[Real-Time Proving]] - degree 13, connects to 4 communities
-- [[Realtime Proving Standardized Definition]] - degree 5, connects to 2 communities
-- [[L1 zkEVM]] - degree 6, connects to 1 community
-- [[SP1 Hypercube Proving Ethereum in Real-Time (Succinct, 2025)]] - degree 2, connects to 1 community
+- [[Vulnerability Description Language (VDL)]] - degree 8, connects to 1 community
+- [[Nondeterministic signals vulnerability class]] - degree 4, connects to 1 community
+- [[Taxonomy of Circom vulnerabilities (3 root-cause classes)]] - degree 4, connects to 1 community
+- [[Unsafe component usage vulnerability class]] - degree 3, connects to 1 community
+- [[32 previously-unknown vulnerabilities (34 unique problems, 405 warnings)]] - degree 3, connects to 1 community

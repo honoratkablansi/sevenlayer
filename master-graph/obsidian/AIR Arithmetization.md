@@ -1,12 +1,12 @@
 ---
 source_file: "references/snowball/book/ref-137-scalable-transparent-and-post-quantum-secure-c.pdf"
 type: "paper"
-community: "Community 0"
+community: "Community 12"
 location: "abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Community_12
 ---
 
 # AIR Arithmetization
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[STARK]] - `uses` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_0
+#graphify/paper #graphify/EXTRACTED #community/Community_12

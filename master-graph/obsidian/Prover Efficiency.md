@@ -1,12 +1,12 @@
 ---
 source_file: "references/snowball/book/ref-148-arya-nearly-linear-time-zero-knowledge-proofs-f.pdf"
 type: "paper"
-community: "Community 3"
+community: "Community 18"
 location: "abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_3
+  - community/Community_18
 ---
 
 # Prover Efficiency
@@ -16,4 +16,4 @@ tags:
 - [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `improves` [EXTRACTED]
 - [[Zero-Knowledge Proof]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_3
+#graphify/paper #graphify/EXTRACTED #community/Community_18
