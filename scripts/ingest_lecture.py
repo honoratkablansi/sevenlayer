@@ -34,3 +34,18 @@ def _load(path):
 def _dump_json(path, obj) -> None:
     Path(path).parent.mkdir(parents=True, exist_ok=True)
     Path(path).write_text(json.dumps(obj, indent=2, ensure_ascii=False), encoding="utf-8")
+
+
+def transcript_to_text(segments: list[dict], marker_every: int = 40) -> str:
+    """Join transcript segments into clean prose. When marker_every > 0, insert a
+    [mm:ss] timestamp marker before every marker_every-th segment (supports chunked
+    extraction)."""
+    out: list[str] = []
+    for i, s in enumerate(segments):
+        if marker_every and i % marker_every == 0:
+            t = int(s.get("start", 0))
+            out.append(f"[{t // 60:02d}:{t % 60:02d}]")
+        txt = (s.get("text") or "").replace("\n", " ").strip()
+        if txt:
+            out.append(txt)
+    return " ".join(out)
