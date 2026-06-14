@@ -181,3 +181,25 @@ def test_render_concepts_md_has_table_and_rollup():
     assert "under-covered" in md and "absent" in md
     assert "## Per-chapter gaps" in md          # rollup section
     assert "Chapter 3" in md
+
+
+def test_parse_citations_normalizes_and_drops_untitled():
+    raw = [{"title": "  Nova  ", "url": "https://eprint.iacr.org/2021/370"},
+           {"authors": ["X"]}]  # no title -> dropped
+    out = m.parse_citations(raw)
+    assert len(out) == 1 and out[0]["title"] == "Nova"
+
+
+def test_lexical_keep_uses_keywords_and_vocab():
+    vocab = {"sumcheck"}
+    assert m.lexical_keep({"title": "A folding scheme for R1CS"}, vocab) is True   # keyword
+    assert m.lexical_keep({"title": "Sumcheck revisited", "venue": ""}, vocab) is True  # vocab
+    assert m.lexical_keep({"title": "Gardening tips for tomatoes"}, vocab) is False
+
+
+def test_dedup_candidates_against_existing_keys():
+    existing = {m.citation_key({"url": "https://eprint.iacr.org/2021/370"})}
+    cands = [{"title": "Nova", "url": "https://eprint.iacr.org/2021/370"},
+             {"title": "HyperNova", "url": "https://eprint.iacr.org/2023/573"}]
+    out = m.dedup_candidates(cands, existing)
+    assert [c["title"] for c in out] == ["HyperNova"]

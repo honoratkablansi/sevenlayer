@@ -355,6 +355,70 @@ def cmd_concepts() -> int:
     return 0
 
 
+ZK_KEYWORDS = {
+    "zero", "knowledge", "snark", "stark", "proof", "circuit", "commitment",
+    "polynomial", "lattice", "folding", "recursion", "recursive", "arithmetization",
+    "witness", "verifier", "prover", "soundness", "ivc", "pcd", "accumulation",
+    "sumcheck", "plonk", "groth", "kzg", "fri", "pairing", "elliptic", "curve",
+    "field", "hash", "fiat", "shamir", "zkvm", "rollup", "halo", "nova", "bulletproof",
+}
+
+
+def vocab_from_graph(graph: dict) -> set[str]:
+    toks: set[str] = set()
+    for n in graph["nodes"]:
+        for t in normalize_label(n.get("label") or "").split():
+            if len(t) > 2:
+                toks.add(t)
+    return toks
+
+
+def parse_citations(raw: list[dict]) -> list[dict]:
+    """Normalize subagent citation records; drop entries with no title."""
+    out = []
+    for r in raw or []:
+        title = (r.get("title") or "").strip()
+        if not title:
+            continue
+        out.append({"title": title, "authors": r.get("authors") or [],
+                    "venue": (r.get("venue") or "").strip(),
+                    "year": r.get("year"), "url": (r.get("url") or "").strip()})
+    return out
+
+
+def lexical_keep(candidate: dict, vocab: set[str], keywords: set[str] = ZK_KEYWORDS) -> bool:
+    toks = set(normalize_label(
+        f"{candidate.get('title','')} {candidate.get('venue','')}").split())
+    return bool(toks & keywords) or bool(toks & vocab)
+
+
+def citation_key(c: dict) -> str:
+    url = (c.get("url") or "").strip().lower()
+    if url:
+        return "url:" + re.sub(r"^https?://(www\.)?", "", url).rstrip("/")
+    return "title:" + normalize_label(c.get("title") or c.get("citation") or "")
+
+
+def manifest_keys(manifest: list[dict]) -> set[str]:
+    keys = set()
+    for e in manifest:
+        if e.get("url"):
+            keys.add(citation_key({"url": e["url"]}))
+        keys.add(citation_key({"citation": e.get("citation", "")}))
+    return keys
+
+
+def dedup_candidates(cands: list[dict], existing_keys: set[str]) -> list[dict]:
+    out, seen = [], set(existing_keys)
+    for c in cands:
+        k = citation_key(c)
+        if k in seen:
+            continue
+        seen.add(k)
+        out.append(c)
+    return out
+
+
 def top_hub_nodes(graph: dict, n: int = 100) -> list[dict]:
     """The n highest-degree concept nodes, for the LLM synonym pass."""
     deg = degree_map(graph)
