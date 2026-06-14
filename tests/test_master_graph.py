@@ -210,3 +210,12 @@ def test_should_stop_enforces_all_three_limits():
     assert m.should_stop({"round": 3, "total_fetched": 0, "new_relevant_last_round": None})[0] is True      # max rounds
     assert m.should_stop({"round": 1, "total_fetched": 0, "new_relevant_last_round": 4})[0] is True          # converged
     assert m.should_stop({"round": 1, "total_fetched": 0, "new_relevant_last_round": 20})[0] is False
+
+
+def test_load_fragment_blob_accepts_nested_and_bare():
+    bare = {"nodes": [{"id": "a", "label": "A"}], "edges": []}
+    assert m.load_fragment_blob(bare)["nodes"][0]["id"] == "a"
+    nested = {"fragment": bare, "citations": []}
+    assert m.load_fragment_blob(nested)["nodes"][0]["id"] == "a"
+    with pytest.raises(ValueError):
+        m.load_fragment_blob({"citations": []})

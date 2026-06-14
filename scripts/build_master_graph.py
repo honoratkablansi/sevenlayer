@@ -532,6 +532,133 @@ def cmd_snowball_plan() -> int:
     return 0
 
 
+def _append_manifest_entries(kept: list[dict], state: dict) -> int:
+    """Append kept papers as manifest entries with provenance, honoring HARD_CAP.
+    Returns the number actually appended."""
+    room = HARD_CAP - state["total_fetched"]
+    if room <= 0:
+        print("HARD_CAP reached; dropping all candidates this round (logged).")
+        return 0
+    if len(kept) > room:
+        print(f"HARD_CAP: appending {room} of {len(kept)} candidates; dropping {len(kept) - room} (logged).")
+        kept = kept[:room]
+    appended = 0
+    for name, mpath in MANIFESTS.items():
+        manifest = _load(mpath)
+        next_id = max((e["id"] for e in manifest), default=0) + 1
+        for c in kept:
+            target = "recursion" if c.get("_origin") == "recursion" else "book"
+            if name != target:
+                continue
+            url = c.get("url") or ""
+            slug = re.sub(r"[^a-z0-9]+", "-", (c["title"][:48]).lower()).strip("-")
+            ext = "pdf" if url.endswith(".pdf") or "eprint.iacr.org" in url or "arxiv.org" in url else "md"
+            entry = {"id": next_id, "slug": slug,
+                     "citation": c["title"] + (f" ({c['venue']} {c['year']})" if c.get("venue") else ""),
+                     "chapters": c.get("_chapters", []),
+                     "type": "paper" if ext == "pdf" else ("web" if url else "stub"),
+                     "file": f"references/snowball/{name}/ref-{next_id:03d}-{slug}.{ext}",
+                     "status": "pending",
+                     "discovered_from": c.get("_from"), "snowball_round": state["round"]}
+            if url:
+                entry["url"] = url
+            manifest.append(entry)
+            next_id += 1
+            appended += 1
+        _dump(mpath, manifest)
+    return appended
+
+
+def load_fragment_blob(blob: dict) -> dict:
+    """Validate an inline {nodes,edges} fragment (the 'fragment' key of a subagent
+    blob, or a bare fragment)."""
+    frag = blob.get("fragment", blob)
+    if not isinstance(frag, dict) or "nodes" not in frag or "edges" not in frag:
+        raise ValueError("fragment needs 'nodes' and 'edges'")
+    for n in frag["nodes"]:
+        if "id" not in n or "label" not in n:
+            raise ValueError(f"node missing id/label: {n}")
+    return frag
+
+
+def cmd_snowball_merge(finalize: bool) -> int:
+    import sys as _sys
+    _sys.path.insert(0, str(REPO / "scripts"))
+    from deepen_pdfs import merge_fragment
+    from networkx.readwrite import json_graph
+
+    state = load_state()
+    if not finalize:
+        graph = _load(MASTER_GRAPH)
+        jobs = _load(SNOWBALL / "jobs.json")
+        cands_raw: list[dict] = []
+        mined = []
+        for j in jobs:
+            fp = REPO / j["frag_out"]
+            if not fp.exists():
+                print(f"  no fragment: {j['frag_out']}, skipped")
+                continue
+            blob = _load(fp)
+            try:
+                frag = load_fragment_blob(blob)
+            except ValueError as exc:
+                print(f"  bad fragment {fp.name}: {exc}, skipped")
+                continue
+            merge_fragment(graph, frag)
+            for c in parse_citations(blob.get("citations", [])):
+                c["_from"] = j["file"]
+                c["_origin"] = "recursion" if "recursion" in j["manifest"] else "book"
+                c["_chapters"] = j.get("chapters", [])
+                cands_raw.append(c)
+            mined.append(j["file"])
+        G = json_graph.node_link_graph(graph, edges="links")
+        _export(G, None, None, len(INPUTS))
+        vocab = vocab_from_graph(graph)
+        existing = set().union(*(manifest_keys(_load(p)) for p in MANIFESTS.values() if p.exists()))
+        survivors = dedup_candidates(
+            [c for c in cands_raw if lexical_keep(c, vocab)], existing)
+        _dump(SNOWBALL / "judge-in.json", survivors)
+        state["mined_files"] = sorted(set(state["mined_files"]) | set(mined))
+        save_state(state)
+        print(f"merged {len(mined)} fragments; {len(cands_raw)} citations -> "
+              f"{len(survivors)} lexical survivors -> {SNOWBALL / 'judge-in.json'}")
+        print("Now run the relevance judge, then: snowball-merge --finalize")
+        return 0
+
+    kept = _load(SNOWBALL / "judge-out.json").get("keep", [])
+    appended = _append_manifest_entries(kept, state)
+    fetched = 0
+    if appended:
+        import subprocess
+        for name, mpath in MANIFESTS.items():
+            ids = [e["id"] for e in _load(mpath)
+                   if e.get("snowball_round") == state["round"] and e.get("status") == "pending"]
+            if not ids:
+                continue
+            subprocess.run([_sys.executable, str(REPO / "scripts" / "fetch_references.py"),
+                            "--manifest", str(mpath), "--only", ",".join(map(str, ids))],
+                           cwd=str(REPO))
+            fetched += sum(1 for e in _load(mpath)
+                           if e.get("snowball_round") == state["round"]
+                           and e.get("status") in ("ok", "ok-stealth"))
+    new_files = []
+    for mpath in MANIFESTS.values():
+        if mpath.exists():
+            new_files += [e["file"] for e in _load(mpath)
+                          if e.get("snowball_round") == state["round"]
+                          and e.get("status") in ("ok", "ok-stealth")]
+    state["round"] += 1
+    state["total_fetched"] += fetched
+    state["new_relevant_last_round"] = len(kept)
+    state["frontier"] = new_files
+    save_state(state)
+    stop, why = should_stop(state)
+    print(f"round {state['round'] - 1}: appended {appended}, fetched {fetched}, "
+          f"total_fetched {state['total_fetched']}. "
+          + (f"STOP ({why})." if stop else "continue: snowball-plan."))
+    return 0
+
+
 def main() -> int:
     import argparse
     ap = argparse.ArgumentParser(description=__doc__)
