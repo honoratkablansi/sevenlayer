@@ -1,45 +1,45 @@
 ---
 type: community
-cohesion: 0.11
+cohesion: 0.16
 members: 30
 ---
 
 # Community 27
 
-**Cohesion:** 0.11 - loosely connected
+**Cohesion:** 0.16 - loosely connected
 **Members:** 30 nodes
 
 ## Members
-- [[4x4 Sudoku Running Example]] - document - proving-nothing.md
-- [[Adjacency Matrix as Function Encoding]] - paper - references/books/proofs-args-zk.pdf
-- [[Arithmetization]] - document - proving-nothing.md
-- [[Boolean Hypercube]] - paper - references/books/proofs-args-zk.pdf
-- [[Counting Triangles IP]] - paper - references/books/proofs-args-zk.pdf
-- [[Distance-Amplifying Code]] - paper - references/books/proofs-args-zk.pdf
-- [[Doubly-efficient interactive proof (efficient prover, super-efficient verifier)]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
-- [[Efficient Prover for Product-of-MLEs]] - paper - references/books/proofs-args-zk.pdf
-- [[Encoding the Performance (Layer 4 Arithmetization)]] - document - proving-nothing.md
-- [[Finite Field Arithmetic]] - document - proving-nothing.md
-- [[HyperPlonk]] - paper - references/snowball/book/ref-084-hyperplonk-plonk-with-linear-time-prover-and-hi.pdf
-- [[Lagrange Basis Polynomial]] - paper - references/books/proofs-args-zk.pdf
-- [[Low Degree Extension (LDE)]] - paper - references/ch02/ref-08-stark.pdf
-- [[Multilinear Polynomial Commitment]] - paper - references/recursion/ch2/ref-41-spartan.pdf
-- [[Multilinear extension (MLE)]] - paper - references/ch03/ref-16-jolt.pdf
-- [[Multivariate Polynomial]] - paper - references/books/proofs-args-zk.pdf
-- [[Polynomial Evaluation Over Finite Field]] - paper - references/books/proofs-args-zk.pdf
-- [[Proof Core Layers 4-5-6 Inseparable]] - document - proving-nothing.md
-- [[Reducing Multiple Polynomial Evaluations to One]] - paper - references/books/proofs-args-zk.pdf
-- [[Reed-Solomon Code]] - paper - references/snowball/book/ref-073-ligero-lightweight-sublinear-arguments-without.pdf
-- [[Reed-Solomon Fingerprinting]] - paper - references/books/proofs-args-zk.pdf
-- [[SPARK Compiler]] - paper - references/recursion/ch2/ref-41-spartan.pdf
-- [[Schwartz-Zippel Lemma]] - document - proving-nothing.md
-- [[Soundness Error]] - paper - references/books/proofs-args-zk.pdf
-- [[Super-Efficient MatMult IP]] - paper - references/books/proofs-args-zk.pdf
-- [[The Seven-Layer ZK Stack Model]] - document - proving-nothing.md
-- [[Three Multiplicative Sources of Proving Overhead]] - document - proving-nothing.md
-- [[Total Degree (of a Polynomial)]] - paper - references/books/proofs-args-zk.pdf
-- [[Trust-Minimization Thesis (decompose, not eliminate trust)]] - document - proving-nothing.md
-- [[Univariate Lagrange Interpolation]] - paper - references/books/proofs-args-zk.pdf
+- [[Collaborative  Threshold Proving]] - document - proving-nothing.md
+- [[Composability When One PET Is Not Enough]] - document - wiki/sections/ch09-composability-when-one-pet-is-not-enough.md
+- [[Differential Privacy (DP)]] - document - proving-nothing.md
+- [[Dinur-Nissim Database Reconstruction Theorem]] - document - proving-nothing.md
+- [[GDPR]] - document - wiki/sections/ch09-the-regulatory-intersection.md
+- [[Garbled Circuits]] - document - proving-nothing.md
+- [[Google RAPPOR]] - document - proving-nothing.md
+- [[Heuristic Security]] - document - proving-nothing.md
+- [[Information-Theoretic Security]] - document - proving-nothing.md
+- [[Intel SGX]] - document - proving-nothing.md
+- [[Local Differential Privacy]] - document - proving-nothing.md
+- [[Oblivious Transfer]] - document - proving-nothing.md
+- [[Open Problems]] - document - wiki/sections/ch09-open-problems.md
+- [[Privacy-Enhancing Technologies]] - document - wiki/chapters/09-privacy-enhancing-technologies.md
+- [[Private Information Retrieval (PIR)]] - document - wiki/sections/ch09-open-problems.md
+- [[Private Set Intersection (PSI)]] - document - proving-nothing.md
+- [[Real-World Deployments Five Case Studies]] - document - wiki/sections/ch09-real-world-deployments-five-case-studies.md
+- [[SPDZ (Dishonest-Majority MPC)]] - document - proving-nothing.md
+- [[Secure Multi-Party Computation (MPC)]] - document - wiki/chapters/09-privacy-enhancing-technologies.md
+- [[Shamir Secret Sharing]] - document - proving-nothing.md
+- [[The Decision Matrix]] - document - wiki/sections/ch09-the-decision-matrix.md
+- [[The Four Pillars]] - document - wiki/sections/ch09-the-four-pillars.md
+- [[The Incomplete Stack]] - document - wiki/sections/ch09-the-incomplete-stack.md
+- [[The Regulatory Intersection]] - document - wiki/sections/ch09-the-regulatory-intersection.md
+- [[Three Kinds of Security]] - document - wiki/sections/ch09-three-kinds-of-security.md
+- [[Trusted Execution Environment (TEE)]] - document - wiki/chapters/09-privacy-enhancing-technologies.md
+- [[US Census Bureau 2020 TopDown Algorithm]] - document - proving-nothing.md
+- [[Yao's Millionaires' Problem]] - document - proving-nothing.md
+- [[Yao, 'Protocols for Secure Computations' (FOCS 1982)]] - document - proving-nothing.md
+- [[eIDAS 2.0]] - document - wiki/sections/ch09-the-regulatory-intersection.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -49,41 +49,31 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 13 edges to [[_COMMUNITY_Community 2]]
-- 12 edges to [[_COMMUNITY_Community 28]]
-- 11 edges to [[_COMMUNITY_Community 18]]
-- 7 edges to [[_COMMUNITY_Community 21]]
-- 4 edges to [[_COMMUNITY_Community 0]]
-- 4 edges to [[_COMMUNITY_Community 15]]
-- 4 edges to [[_COMMUNITY_Community 31]]
-- 4 edges to [[_COMMUNITY_Community 63]]
-- 3 edges to [[_COMMUNITY_Community 12]]
-- 3 edges to [[_COMMUNITY_Community 8]]
-- 3 edges to [[_COMMUNITY_Community 56]]
-- 3 edges to [[_COMMUNITY_Community 40]]
-- 3 edges to [[_COMMUNITY_Community 68]]
-- 3 edges to [[_COMMUNITY_Community 84]]
+- 15 edges to [[_COMMUNITY_Community 91]]
+- 9 edges to [[_COMMUNITY_Community 128]]
+- 6 edges to [[_COMMUNITY_Community 52]]
+- 5 edges to [[_COMMUNITY_Community 22]]
+- 5 edges to [[_COMMUNITY_Community 15]]
+- 3 edges to [[_COMMUNITY_Community 10]]
+- 3 edges to [[_COMMUNITY_Community 9]]
+- 2 edges to [[_COMMUNITY_Community 4]]
 - 2 edges to [[_COMMUNITY_Community 54]]
-- 2 edges to [[_COMMUNITY_Community 80]]
-- 1 edge to [[_COMMUNITY_Community 22]]
-- 1 edge to [[_COMMUNITY_Community 35]]
-- 1 edge to [[_COMMUNITY_Community 97]]
-- 1 edge to [[_COMMUNITY_Community 61]]
-- 1 edge to [[_COMMUNITY_Community 13]]
-- 1 edge to [[_COMMUNITY_Community 17]]
-- 1 edge to [[_COMMUNITY_Community 115]]
+- 2 edges to [[_COMMUNITY_Community 85]]
+- 2 edges to [[_COMMUNITY_Community 49]]
+- 2 edges to [[_COMMUNITY_Community 35]]
+- 2 edges to [[_COMMUNITY_Community 0]]
+- 1 edge to [[_COMMUNITY_Community 3]]
+- 1 edge to [[_COMMUNITY_Community 53]]
+- 1 edge to [[_COMMUNITY_Community 5]]
+- 1 edge to [[_COMMUNITY_Community 75]]
+- 1 edge to [[_COMMUNITY_Community 67]]
+- 1 edge to [[_COMMUNITY_Community 41]]
 - 1 edge to [[_COMMUNITY_Community 1]]
-- 1 edge to [[_COMMUNITY_Community 10]]
-- 1 edge to [[_COMMUNITY_Community 42]]
-- 1 edge to [[_COMMUNITY_Community 101]]
-- 1 edge to [[_COMMUNITY_Community 89]]
-- 1 edge to [[_COMMUNITY_Community 26]]
-- 1 edge to [[_COMMUNITY_Community 114]]
-- 1 edge to [[_COMMUNITY_Community 87]]
+- 1 edge to [[_COMMUNITY_Community 29]]
 
 ## Top bridge nodes
-- [[Multilinear extension (MLE)]] - degree 31, connects to 12 communities
-- [[Arithmetization]] - degree 25, connects to 9 communities
-- [[Schwartz-Zippel Lemma]] - degree 19, connects to 9 communities
-- [[HyperPlonk]] - degree 6, connects to 5 communities
-- [[Finite Field Arithmetic]] - degree 16, connects to 4 communities
+- [[Privacy-Enhancing Technologies]] - degree 35, connects to 10 communities
+- [[Secure Multi-Party Computation (MPC)]] - degree 27, connects to 9 communities
+- [[eIDAS 2.0]] - degree 13, connects to 6 communities
+- [[The Four Pillars]] - degree 14, connects to 4 communities
+- [[The Incomplete Stack]] - degree 10, connects to 3 communities

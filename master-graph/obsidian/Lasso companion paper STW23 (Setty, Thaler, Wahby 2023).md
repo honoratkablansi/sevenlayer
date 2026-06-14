@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch03/ref-16-jolt.pdf"
 type: "paper"
-community: "Community 80"
+community: "Community 88"
 location: "References [STW23]"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_80
+  - community/Community_88
 ---
 
 # Lasso companion paper [STW23] (Setty, Thaler, Wahby 2023)
@@ -15,4 +15,4 @@ tags:
 - [[Jolt SNARKs for Virtual Machines via Lookups]] - `cites` [EXTRACTED]
 - [[Lasso]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_80
+#graphify/paper #graphify/EXTRACTED #community/Community_88

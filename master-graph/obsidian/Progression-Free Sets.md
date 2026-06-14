@@ -1,12 +1,12 @@
 ---
 source_file: "references/snowball/book/ref-097-progression-free-sets-and-sublinear-pairing-base.pdf"
 type: "paper"
-community: "Community 87"
+community: "Community 90"
 location: "abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_87
+  - community/Community_90
 ---
 
 # Progression-Free Sets
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Progression-Free Sets NIZK]] - `uses` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_87
+#graphify/paper #graphify/EXTRACTED #community/Community_90

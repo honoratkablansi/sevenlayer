@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf"
 type: "paper"
-community: "Community 21"
+community: "Community 8"
 location: "§1.1, §2.4.2, ref [KZG10]"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_21
+  - community/Community_8
 ---
 
 # KZG10: Constant-Size Commitments to Polynomials
@@ -15,4 +15,4 @@ tags:
 - [[PC_AGM bilinear-group (KZG) polynomial commitment with pairing-batching accumulation]] - `cites` [EXTRACTED]
 - [[Polynomial Commitment Scheme]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_21
+#graphify/paper #graphify/EXTRACTED #community/Community_8

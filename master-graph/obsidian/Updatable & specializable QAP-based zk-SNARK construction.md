@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-37-updatable-universal-crs.pdf"
 type: "paper"
-community: "Community 82"
+community: "Community 58"
 location: "§5, Fig. 2-3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_82
+  - community/Community_58
 ---
 
 # Updatable & specializable QAP-based zk-SNARK construction
@@ -19,4 +19,4 @@ tags:
 - [[Theorem 4 update knowledge soundness under q-MK and q-MC]] - `proves` [EXTRACTED]
 - [[Updatable CRS model (one honest updater suffices)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_82
+#graphify/paper #graphify/EXTRACTED #community/Community_58

@@ -1,25 +1,26 @@
 ---
 type: community
-cohesion: 0.20
-members: 10
+cohesion: 0.24
+members: 11
 ---
 
 # Community 110
 
-**Cohesion:** 0.20 - loosely connected
-**Members:** 10 nodes
+**Cohesion:** 0.24 - loosely connected
+**Members:** 11 nodes
 
 ## Members
-- [[Blockchain]] - paper - references/ch09/ref-30-kachina.pdf
-- [[Blockchain Model of Cryptography]] - paper - references/snowball/book/ref-109-hawk-the-blockchain-model-of-cryptography-and-p.pdf
-- [[Byzantine Fault Tolerance]] - paper - references/snowball/recursion/ref-121-replicated-state-machines-without-replicated-exe.pdf
-- [[Data Privacy]] - paper - references/ch09/ref-30-kachina.pdf
-- [[Leakage Function]] - paper - references/ch09/ref-30-kachina.pdf
-- [[Replicated State Machine]] - paper - references/snowball/recursion/ref-121-replicated-state-machines-without-replicated-exe.pdf
-- [[Smart Contract]] - paper - references/ch09/ref-30-kachina.pdf
-- [[State Machine  Transition System]] - paper - references/ch09/ref-30-kachina.pdf
-- [[Transactional Privacy]] - paper - references/snowball/book/ref-109-hawk-the-blockchain-model-of-cryptography-and-p.pdf
-- [[Universal Composability (UC) Framework]] - paper - references/ch09/ref-30-kachina.pdf
+- [[Comparing the Pairing Efficiency over Composite-Order and Prime-Order Elliptic Curves]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[Composite-Order Bilinear Groups]] - document - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[Elliptic Curve Method (ECM) factoring attack]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[Lenstra modulussecurity recommendations (cited prior work)]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[Multi-prime RSA modulus sizing (2-8 primes, extends Lenstra)]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[NFSECM crossover ECM beats NFS at 5+ prime factors]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[Number Field Sieve]] - document - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[Polynomial Selection]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[Subgroup decision assumption]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[Tower Number Field Sieve (TNFS)]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[Tower Number Field Sieve (TNFS) Barbulescu-Gaudry-Kleinjung]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -29,10 +30,15 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 1 edge to [[_COMMUNITY_Community 22]]
-- 1 edge to [[_COMMUNITY_Community 36]]
-- 1 edge to [[_COMMUNITY_Community 15]]
+- 3 edges to [[_COMMUNITY_Community 90]]
+- 3 edges to [[_COMMUNITY_Community 82]]
+- 2 edges to [[_COMMUNITY_Community 134]]
+- 1 edge to [[_COMMUNITY_Community 66]]
+- 1 edge to [[_COMMUNITY_Community 39]]
+- 1 edge to [[_COMMUNITY_Community 126]]
 
 ## Top bridge nodes
-- [[Smart Contract]] - degree 8, connects to 2 communities
-- [[Replicated State Machine]] - degree 3, connects to 1 community
+- [[Number Field Sieve]] - degree 10, connects to 4 communities
+- [[Composite-Order Bilinear Groups]] - degree 7, connects to 3 communities
+- [[Comparing the Pairing Efficiency over Composite-Order and Prime-Order Elliptic Curves]] - degree 6, connects to 3 communities
+- [[Tower Number Field Sieve (TNFS) Barbulescu-Gaudry-Kleinjung]] - degree 2, connects to 1 community

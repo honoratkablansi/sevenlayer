@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch07/ref-26-nist-ir-8547.pdf"
 type: "paper"
-community: "Community 104"
+community: "Community 101"
 location: "section 4"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_104
+  - community/Community_101
 ---
 
 # Hybrid Key Exchange
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Cryptographic Migration]] - `recommends` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_104
+#graphify/paper #graphify/EXTRACTED #community/Community_101

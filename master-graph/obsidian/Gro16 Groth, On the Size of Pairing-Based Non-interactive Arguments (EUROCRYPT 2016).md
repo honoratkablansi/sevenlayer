@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf"
 type: "paper"
-community: "Community 38"
+community: "Community 31"
 location: "References [Gro16]"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_38
+  - community/Community_31
 ---
 
 # [Gro16] Groth, On the Size of Pairing-Based Non-interactive Arguments (EUROCRYPT 2016)
@@ -15,4 +15,4 @@ tags:
 - [[Rust implementation + evaluation recursion threshold ~52,000 constraints, =8.5x cheaper than atomic-accumulation IVC on Pasta cycle]] - `conceptually_related_to` [EXTRACTED]
 - [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_38
+#graphify/paper #graphify/EXTRACTED #community/Community_31

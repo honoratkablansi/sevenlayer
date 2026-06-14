@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch2/ref-44-supernova.pdf"
 type: "paper"
-community: "Community 52"
+community: "Community 46"
 location: "§1 (requirements); §1.1; §1.2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_52
+  - community/Community_46
 ---
 
 # A la carte cost profile: per-step proving cost proportional only to the circuit size of the invoked instruction, independent of k (number of instruction types)
@@ -17,4 +17,4 @@ tags:
 - [[Lemma 4 (Efficiency) F'_j = phi + F_j + o(2G + 2H + R); prover cost dominated by two multiexponentiations sized to the executed instruction]] - `proves` [INFERRED]
 - [[SuperNova (Non-Uniform IVC)]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_52
+#graphify/paper #graphify/EXTRACTED #community/Community_46

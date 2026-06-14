@@ -1,12 +1,12 @@
 ---
 source_file: "references/mooc/lecture01/slides.pdf"
 type: "paper"
-community: "Community 79"
+community: "Community 7"
 location: "ZKP MOOC Lecture 1 (slides)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_79
+  - community/Community_7
 ---
 
 # PSPACE (IP = PSPACE Theorem)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[IP Complexity Class (Interactive Proof Languages)]] - `relates_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_79
+#graphify/paper #graphify/EXTRACTED #community/Community_7

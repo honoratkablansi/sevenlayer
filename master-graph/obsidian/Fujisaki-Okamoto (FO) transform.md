@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch07/ref-25-nist-fips-203-204-205.pdf"
 type: "paper"
-community: "Community 43"
+community: "Community 36"
 location: "§3.2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_43
+  - community/Community_36
 ---
 
 # Fujisaki-Okamoto (FO) transform
@@ -17,4 +17,4 @@ tags:
 - [[K-PKE component public-key encryption scheme (KeyGenEncryptDecrypt)]] - `conceptually_related_to` [EXTRACTED]
 - [[ML-KEM (Module-Lattice-Based Key-Encapsulation Mechanism, FIPS 203)]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_43
+#graphify/paper #graphify/EXTRACTED #community/Community_36

@@ -1,12 +1,12 @@
 ---
 source_file: "references/snowball/recursion/ref-108-worst-case-to-average-case-reductions-for-module.pdf"
 type: "paper"
-community: "Community 43"
+community: "Community 36"
 location: "abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_43
+  - community/Community_36
 ---
 
 # Worst-Case to Average-Case Reduction
@@ -15,4 +15,4 @@ tags:
 - [[Module Learning With Errors (MLWE)]] - `defines` [EXTRACTED]
 - [[Module-SIS  Module-LWE]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_43
+#graphify/paper #graphify/EXTRACTED #community/Community_36

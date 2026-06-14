@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-17-nova.pdf"
 type: "paper"
-community: "Community 120"
+community: "Community 39"
 location: "§3 Lemma 1, Appendix E"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_120
+  - community/Community_39
 ---
 
 # Forking Lemma for Folding Schemes (Lemma 1)
@@ -15,4 +15,4 @@ tags:
 - [[Folding Scheme]] - `conceptually_related_to` [EXTRACTED]
 - [[Theorem 3 Folding Scheme Completeness, Knowledge Soundness, ZK]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_120
+#graphify/paper #graphify/EXTRACTED #community/Community_39

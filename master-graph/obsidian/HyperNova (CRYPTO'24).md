@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-21-neo.pdf"
 type: "paper"
-community: "Community 26"
+community: "Community 62"
 location: "[42]"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_26
+  - community/Community_62
 ---
 
 # HyperNova (CRYPTO'24)
@@ -16,4 +16,4 @@ tags:
 - [[Neo folding scheme for CCS (lattice-based)]] - `cites` [EXTRACTED]
 - [[Neo Lattice-based Folding Scheme for CCS over Small Fields and Pay-per-bit Commitments]] - `shares_data_with` [INFERRED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_26
+#graphify/paper #graphify/EXTRACTED #community/Community_62

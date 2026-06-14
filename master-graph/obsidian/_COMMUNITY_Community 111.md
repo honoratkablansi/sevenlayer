@@ -1,25 +1,26 @@
 ---
 type: community
-cohesion: 0.20
-members: 10
+cohesion: 0.18
+members: 11
 ---
 
 # Community 111
 
-**Cohesion:** 0.20 - loosely connected
-**Members:** 10 nodes
+**Cohesion:** 0.18 - loosely connected
+**Members:** 11 nodes
 
 ## Members
-- [[FIPS 203 (ML-KEM Standard)]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
-- [[FIPS 204 (ML-DSA Standard)]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
-- [[FIPS 205 (SLH-DSA Standard)]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
-- [[Five Post-Quantum Security Categories (1-5; AES-128 to AES-256, SHA-256SHA3-384)]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
-- [[PQC signature replacements ML-DSA-446587, SLH-DSA, LMSHSS, XMSS]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
-- [[Quantitative (Strong) Church's thesis]] - paper - references/ch07/ref-24-shor.pdf
-- [[Quantum Computing]] - paper - references/ch07/ref-24-shor.pdf
-- [[SLH-DSA (Stateless Hash-Based Digital Signature Algorithm)]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
-- [[Symmetric crypto (AES, SHA-23) less quantum-vulnerable; 112-bit symmetric disallowed 2030]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
-- [[Transition to Post-Quantum Cryptography Standards (NIST IR 8547)]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
+- [[Aztec Plonk verifier point-at-infinity bug (zeros forge proofs; backend soundness)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[Backend-layer vulnerabilities (23 bugs setup error, prover error, unsafe verifier)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[Circuit-layer vulnerabilities (99 bugs; most prevalent class)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[ComputationalHints error (wrong witness computation; completenesssoundness)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[Four-layer SNARK system model (Circuit, Frontend, Backend, Integration)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[Frontend-layer vulnerabilities (6 bugs incorrect constraint compilation, witness-gen error)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[Integration-layer vulnerabilities (13 bugs unchecked data, delegation, composition, complementary-logic)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[Key finding low-level DSLs (Circom, Gnark) are easy-to-misuse, driving most circuit bugs]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[Over-constrained circuit (rejects valid witnesses, causes DoS)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[Root cause arithmetic field error (nativetransformed over- and underflows)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[Semaphore verifier uint256 over snark field bug (integration, breaks completeness)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -29,17 +30,11 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 3 edges to [[_COMMUNITY_Community 0]]
-- 3 edges to [[_COMMUNITY_Community 66]]
-- 3 edges to [[_COMMUNITY_Community 59]]
-- 2 edges to [[_COMMUNITY_Community 43]]
-- 1 edge to [[_COMMUNITY_Community 92]]
-- 1 edge to [[_COMMUNITY_Community 108]]
-- 1 edge to [[_COMMUNITY_Community 35]]
+- 1 edge to [[_COMMUNITY_Community 94]]
+- 1 edge to [[_COMMUNITY_Community 72]]
+- 1 edge to [[_COMMUNITY_Community 15]]
 
 ## Top bridge nodes
-- [[Transition to Post-Quantum Cryptography Standards (NIST IR 8547)]] - degree 13, connects to 4 communities
-- [[Quantum Computing]] - degree 4, connects to 2 communities
-- [[Five Post-Quantum Security Categories (1-5; AES-128 to AES-256, SHA-256SHA3-384)]] - degree 3, connects to 2 communities
-- [[FIPS 203 (ML-KEM Standard)]] - degree 2, connects to 1 community
-- [[FIPS 204 (ML-DSA Standard)]] - degree 2, connects to 1 community
+- [[Circuit-layer vulnerabilities (99 bugs; most prevalent class)]] - degree 6, connects to 1 community
+- [[Four-layer SNARK system model (Circuit, Frontend, Backend, Integration)]] - degree 5, connects to 1 community
+- [[Key finding low-level DSLs (Circom, Gnark) are easy-to-misuse, driving most circuit bugs]] - degree 2, connects to 1 community

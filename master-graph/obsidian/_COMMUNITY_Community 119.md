@@ -1,23 +1,24 @@
 ---
 type: community
-cohesion: 0.29
-members: 8
+cohesion: 0.25
+members: 9
 ---
 
 # Community 119
 
-**Cohesion:** 0.29 - loosely connected
-**Members:** 8 nodes
+**Cohesion:** 0.25 - loosely connected
+**Members:** 9 nodes
 
 ## Members
-- [[Certificate Transparency]] - document - references/recursion/ch3/ref-65-rfc-6962-certificate-transparency.md
-- [[Content Credentials trust model (X.509 signers)]] - document - references/recursion/ch3/ref-79-c2pa-specification.md
-- [[Merkle Hash Tree]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[Merkle audit and consistency proofs]] - document - references/recursion/ch3/ref-65-rfc-6962-certificate-transparency.md
-- [[Misissued-certificate detection by monitors and auditors]] - document - references/recursion/ch3/ref-65-rfc-6962-certificate-transparency.md
-- [[RFC 6962 Certificate Transparency]] - document - references/recursion/ch3/ref-65-rfc-6962-certificate-transparency.md
-- [[Signed Certificate Timestamp (SCT)]] - document - references/recursion/ch3/ref-65-rfc-6962-certificate-transparency.md
-- [[Verifiable transparency logs]] - document - recursion/recursion-outline.md
+- [[Beanstalk Flash Loan Attack ($182M, 2022)]] - document - proving-nothing.md
+- [[Fraud Proof System]] - document - references/ch08/ref-27-l2beat-stages.md
+- [[Governance Attack Surface]] - document - proving-nothing.md
+- [[L2BEAT Stages Framework for L2 Maturity]] - document - references/ch08/ref-27-l2beat-stages.md
+- [[L2Beat Stages Framework]] - document - wiki/sections/ch08-governance-the-achilles-heel.md
+- [[Maturity Assessment (Stage 0-1)]] - document - proving-nothing.md
+- [[Tornado Cash Governance Attack (2023)]] - document - proving-nothing.md
+- [[Verifier Ossification  Immutability]] - document - proving-nothing.md
+- [[Vitalik Buterin]] - document - references/ch08/ref-27-l2beat-stages.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -27,13 +28,19 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 1 edge to [[_COMMUNITY_Community 23]]
-- 1 edge to [[_COMMUNITY_Community 58]]
-- 1 edge to [[_COMMUNITY_Community 62]]
-- 1 edge to [[_COMMUNITY_Community 47]]
-- 1 edge to [[_COMMUNITY_Community 67]]
+- 5 edges to [[_COMMUNITY_Community 9]]
+- 4 edges to [[_COMMUNITY_Community 3]]
+- 2 edges to [[_COMMUNITY_Community 53]]
+- 1 edge to [[_COMMUNITY_Community 38]]
+- 1 edge to [[_COMMUNITY_Community 104]]
+- 1 edge to [[_COMMUNITY_Community 73]]
+- 1 edge to [[_COMMUNITY_Community 29]]
+- 1 edge to [[_COMMUNITY_Community 15]]
+- 1 edge to [[_COMMUNITY_Community 52]]
 
 ## Top bridge nodes
-- [[Verifiable transparency logs]] - degree 4, connects to 2 communities
-- [[Content Credentials trust model (X.509 signers)]] - degree 3, connects to 2 communities
-- [[Merkle Hash Tree]] - degree 3, connects to 1 community
+- [[L2BEAT Stages Framework for L2 Maturity]] - degree 9, connects to 6 communities
+- [[L2Beat Stages Framework]] - degree 9, connects to 3 communities
+- [[Governance Attack Surface]] - degree 7, connects to 3 communities
+- [[Verifier Ossification  Immutability]] - degree 3, connects to 1 community
+- [[Maturity Assessment (Stage 0-1)]] - degree 2, connects to 1 community

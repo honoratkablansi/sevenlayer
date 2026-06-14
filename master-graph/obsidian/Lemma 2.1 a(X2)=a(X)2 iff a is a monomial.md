@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-11-latticefold-plus.pdf"
 type: "paper"
-community: "Community 28"
+community: "Community 23"
 location: "§2.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_28
+  - community/Community_23
 ---
 
 # Lemma 2.1: a(X^2)=a(X)^2 iff a is a monomial
@@ -15,4 +15,4 @@ tags:
 - [[Monomial Set Check Pi_mon]] - `assumes` [EXTRACTED]
 - [[Schwartz-Zippel Lemma]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_28
+#graphify/paper #graphify/EXTRACTED #community/Community_23

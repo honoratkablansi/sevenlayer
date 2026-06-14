@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-88-provisions.pdf"
 type: "paper"
-community: "Community 29"
+community: "Community 56"
 location: "§4.1 Protocol 1; Thm 1; App C"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_29
+  - community/Community_56
 ---
 
 # Proof-of-assets Sigma-protocol (HVZK argument of knowledge)
@@ -17,4 +17,4 @@ tags:
 - [[Sigma protocol (public-coin 3-move)]] - `conceptually_related_to` [EXTRACTED]
 - [[Theorem 1 proof-of-assets Sigma-protocol is HVZK argument of knowledge]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_29
+#graphify/paper #graphify/EXTRACTED #community/Community_56

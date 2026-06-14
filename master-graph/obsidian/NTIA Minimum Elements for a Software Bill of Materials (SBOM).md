@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch3/ref-62-ntia-cisa-sbom-minimum-elements.md"
 type: "document"
-community: "Community 62"
+community: "Community 6"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_62
+  - community/Community_6
 ---
 
 # NTIA Minimum Elements for a Software Bill of Materials (SBOM)
@@ -15,4 +15,4 @@ tags:
 - [[Executive Order 14028 on Improving the Nation's Cybersecurity]] - `references` [EXTRACTED]
 - [[Software Bill of Materials (SBOM)]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_62
+#graphify/document #graphify/EXTRACTED #community/Community_6

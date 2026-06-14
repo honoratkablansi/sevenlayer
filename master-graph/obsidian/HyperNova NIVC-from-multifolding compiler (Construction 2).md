@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-18-hypernova.pdf"
 type: "paper"
-community: "Community 71"
+community: "Community 46"
 location: "§6.3 Construction 2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_71
+  - community/Community_46
 ---
 
 # HyperNova: NIVC-from-multifolding compiler (Construction 2)
@@ -17,4 +17,4 @@ tags:
 - [[Non-uniform IVC (NIVC)]] - `defines` [EXTRACTED]
 - [[Theorem 3 (HyperNova NIVC scheme)]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_71
+#graphify/paper #graphify/EXTRACTED #community/Community_46

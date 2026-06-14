@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf"
 type: "paper"
-community: "Community 44"
+community: "Community 25"
 location: "abstract, §6.2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_44
+  - community/Community_25
 ---
 
 # Fully-homomorphic encryption (FHE) assumption
@@ -19,4 +19,4 @@ tags:
 - [[Somewhat Homomorphic Encryption (SHE)]] - `extends_to` [EXTRACTED]
 - [[Theorem 1 SNARK Recursive Composition (SNARK - PCD for O(1)-depth predicates)]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_44
+#graphify/paper #graphify/EXTRACTED #community/Community_25

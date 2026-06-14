@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 1"
+community: "Community 73"
 location: "Chapter 14"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_1
+  - community/Community_73
 ---
 
 # Seven-Layer Trust Model
@@ -17,4 +17,4 @@ tags:
 - [[Q7 Is Seven the Right Number of Layers]] - `references` [EXTRACTED]
 - [[Zeno's Paradox of Trust (Conjunction Effect)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_1
+#graphify/document #graphify/EXTRACTED #community/Community_73

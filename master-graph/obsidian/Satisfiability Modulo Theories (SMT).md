@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-33-circ.pdf"
 type: "paper"
-community: "Community 57"
+community: "Community 49"
 location: "p.1 (abstract)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_57
+  - community/Community_49
 ---
 
 # Satisfiability Modulo Theories (SMT)
@@ -19,4 +19,4 @@ tags:
 - [[Guarded SSA versioning via ITE terms]] - `cites` [INFERRED]
 - [[Proof System Compiler]] - `uses` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_57
+#graphify/paper #graphify/EXTRACTED #community/Community_49

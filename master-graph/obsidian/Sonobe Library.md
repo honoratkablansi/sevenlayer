@@ -1,12 +1,12 @@
 ---
 source_file: "recursion/recursion-outline.md"
 type: "document"
-community: "Community 91"
+community: "Community 123"
 location: "Recursion Chapter 2"
 tags:
   - graphify/document
   - graphify/INFERRED
-  - community/Community_91
+  - community/Community_123
 ---
 
 # Sonobe Library
@@ -15,4 +15,4 @@ tags:
 - [[Folding Family Tradeoff Table]] - `references` [EXTRACTED]
 - [[Pasta Cycle of Elliptic Curves]] - `references` [INFERRED]
 
-#graphify/document #graphify/INFERRED #community/Community_91
+#graphify/document #graphify/INFERRED #community/Community_123

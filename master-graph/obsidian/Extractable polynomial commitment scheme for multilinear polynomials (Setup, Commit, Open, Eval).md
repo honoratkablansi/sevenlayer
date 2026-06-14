@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch2/ref-41-spartan.pdf"
 type: "paper"
-community: "Community 31"
+community: "Community 28"
 location: "§2.4, Def. 2.11–2.13"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_31
+  - community/Community_28
 ---
 
 # Extractable polynomial commitment scheme for multilinear polynomials (Setup, Commit, Open, Eval)
@@ -17,4 +17,4 @@ tags:
 - [[Sparse multilinear polynomial commitment (Spartan compiler)]] - `conceptually_related_to` [EXTRACTED]
 - [[Two-round sum-check public-coin succinct interactive argument of knowledge for R1CS (Theorem 5.1)]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_31
+#graphify/paper #graphify/EXTRACTED #community/Community_28

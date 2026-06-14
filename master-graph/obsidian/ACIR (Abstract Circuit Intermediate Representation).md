@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 97"
+community: "Community 98"
 location: "Chapter 3"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_97
+  - community/Community_98
 ---
 
 # ACIR (Abstract Circuit Intermediate Representation)
@@ -16,4 +16,4 @@ tags:
 - [[Noir (Aztec Labs, ACIR)]] - `defines` [EXTRACTED]
 - [[Pearce et al., NAVe Formal Verification for Noir Programs, 2025]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_97
+#graphify/document #graphify/EXTRACTED #community/Community_98

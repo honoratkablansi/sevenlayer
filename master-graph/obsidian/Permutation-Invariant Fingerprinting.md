@@ -1,12 +1,12 @@
 ---
 source_file: "references/books/proofs-args-zk.pdf"
 type: "paper"
-community: "Community 18"
+community: "Community 21"
 location: "Front Ends: Programs Into Circuits"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_18
+  - community/Community_21
 ---
 
 # Permutation-Invariant Fingerprinting
@@ -15,4 +15,4 @@ tags:
 - [[Arithmetic Circuit]] - `uses` [EXTRACTED]
 - [[Memory Consistency Checking]] - `uses` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_18
+#graphify/paper #graphify/EXTRACTED #community/Community_21

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-45-small-space-cpu-proofs.pdf"
 type: "paper"
-community: "Community 85"
+community: "Community 23"
 location: "§1.2 (techniques); App D"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_85
+  - community/Community_23
 ---
 
 # Streaming grand products via depth-first traversal of multiplication-gate tree
@@ -16,4 +16,4 @@ tags:
 - [[Scribe (BMM24) readwrite-streaming-pass SNARK adapting HyperPlonk PIOP]] - `conceptually_related_to` [EXTRACTED]
 - [[Spice readwrite memory-checking argument (offline, grand-product based)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_85
+#graphify/paper #graphify/EXTRACTED #community/Community_23

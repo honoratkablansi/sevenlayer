@@ -1,1 +1,10 @@
-{}
+{
+  "concept_bilinear-pairing": "concept_pairing",
+  "concept_committed-relaxed-r1cs": "ref-17_committed-relaxed-r1cs",
+  "concept_execution-trace": "section_ch04-execution-traces",
+  "concept_multilinear-commitment": "concept_multilinear-polynomial",
+  "concept_quadratic-arithmetic-program": "concept_qap",
+  "concept_circ-compiler-infra": "concept_circ",
+  "concept_counting-triangles": "concept_counting-triangles-ip",
+  "concept_zero-knowledge": "concept_zero-knowledge-proof"
+}

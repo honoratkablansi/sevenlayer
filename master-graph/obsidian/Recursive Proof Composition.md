@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-17-nova.pdf"
 type: "paper"
-community: "Community 19"
+community: "Community 24"
 location: "§1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_19
+  - community/Community_24
 ---
 
 # Recursive Proof Composition
@@ -45,7 +45,7 @@ tags:
 - [[Halo first practical recursive proof composition without a trusted setup]] - `introduces` [EXTRACTED]
 - [[Historical Arc of Recursion (2008-2026)]] - `explains` [EXTRACTED]
 - [[In-circuit hash the FS hash function (and PCS) computed inside the GKR arithmetic circuit being proved; depth d = d_comm+d_h enables the attack]] - `conceptually_related_to` [EXTRACTED]
-- [[Incrementally Verifiable Computation (IVC)]] - `conceptually_related_to` [EXTRACTED]
+- [[Incrementally Verifiable Computation (IVC)]] - `uses` [EXTRACTED]
 - [[Incrementally-computable SNARK for a state transition system]] - `assumes` [EXTRACTED]
 - [[Khovratovich-Rothblum-Soukhanov How to Prove False Statements - Practical Attacks on Fiat-Shamir (ePrint 2025118)]] - `conceptually_related_to` [INFERRED]
 - [[Knowledge-Soundness]] - `assumes` [EXTRACTED]
@@ -61,13 +61,15 @@ tags:
 - [[Plonky2]] - `cites` [EXTRACTED]
 - [[Poseidon Hash]] - `conceptually_related_to` [INFERRED]
 - [[Prior efficient recursion approach using pairing-based SNARKs on cycles of pairing-friendly elliptic curves BCTV14]] - `cites` [EXTRACTED]
+- [[Proof Aggregation]] - `enables` [EXTRACTED]
+- [[Proof compression (STARK-to-SNARK)]] - `enables` [EXTRACTED]
 - [[Proof of solvency  financial compliance]] - `conceptually_related_to` [INFERRED]
 - [[Proof-Carrying Data (PCD)]] - `conceptually_related_to` [EXTRACTED]
 - [[Proof-Carrying Data from Accumulation Schemes (BCMS20)]] - `conceptually_related_to` [EXTRACTED]
 - [[Proof-carrying data (PCD) primitive formally capturing recursive composition via a compliance predicate]] - `conceptually_related_to` [EXTRACTED]
 - [[Proofs, Arguments, and Zero-Knowledge (Justin Thaler, survey textbook)]] - `explains` [EXTRACTED]
 - [[RISC Zero Recursion Circuit]] - `conceptually_related_to` [EXTRACTED]
-- [[Recursion (proof recursion in zkVMs)]] - `conceptually_related_to` [INFERRED]
+- [[Recursion (proof recursion in zkVMs)]] - `defines` [INFERRED]
 - [[Recursion Shifts Cost, It Doesn't Eliminate It]] - `explains` [EXTRACTED]
 - [[Recursion circuit via split accumulation (IVCPCD prover recurses only on instance parts of proofaccumulator)]] - `conceptually_related_to` [EXTRACTED]
 - [[Recursion threshold below 217 gates; fully-recursive proofs 3.5 KiB at 128-bit security]] - `conceptually_related_to` [EXTRACTED]
@@ -94,4 +96,4 @@ tags:
 - [[zkBridge trustless cross-chain bridge via succinct proofs of consensus  light-client state transitions]] - `introduces` [EXTRACTED]
 - [[zkEmail]] - `conceptually_related_to` [INFERRED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_19
+#graphify/paper #graphify/EXTRACTED #community/Community_24

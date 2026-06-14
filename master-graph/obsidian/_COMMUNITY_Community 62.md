@@ -1,35 +1,36 @@
 ---
 type: community
 cohesion: 0.13
-members: 20
+members: 21
 ---
 
 # Community 62
 
 **Cohesion:** 0.13 - loosely connected
-**Members:** 20 nodes
+**Members:** 21 nodes
 
 ## Members
-- [[Build integrity and artifact verification]] - document - references/recursion/ch3/ref-63-slsa-intoto-frameworks.md
-- [[C2PA Manifest]] - document - references/recursion/ch3/ref-79-c2pa-specification.md
-- [[C2PA assertions and claims]] - document - references/recursion/ch3/ref-79-c2pa-specification.md
-- [[Component inventory and dependency relationships]] - document - references/recursion/ch3/ref-62-ntia-cisa-sbom-minimum-elements.md
-- [[Executive Order 14028 on Improving the Nation's Cybersecurity]] - document - references/recursion/ch3/ref-62-ntia-cisa-sbom-minimum-elements.md
-- [[Hard and soft binding to content]] - document - references/recursion/ch3/ref-79-c2pa-specification.md
-- [[NTIA Minimum Elements for a Software Bill of Materials (SBOM)]] - document - references/recursion/ch3/ref-62-ntia-cisa-sbom-minimum-elements.md
-- [[Provenance attestation]] - document - references/recursion/ch3/ref-63-slsa-intoto-frameworks.md
-- [[Prover markets  recursion as infrastructure]] - document - recursion/recursion-outline.md
-- [[SBOM verification as PCD instance]] - document - recursion/recursion-outline.md
-- [[SLSA (Supply-chain Levels for Software Artifacts)]] - document - references/recursion/ch3/ref-63-slsa-intoto-frameworks.md
-- [[SLSA Specification v1.0]] - document - references/recursion/ch3/ref-63-slsa-intoto-frameworks.md
-- [[SLSA security levels]] - document - references/recursion/ch3/ref-63-slsa-intoto-frameworks.md
-- [[Software Bill of Materials (SBOM)]] - document - recursion/recursion-outline.md
-- [[Software supply chain]] - document - recursion/recursion-outline.md
-- [[Software supply-chain transparency]] - document - references/recursion/ch3/ref-62-ntia-cisa-sbom-minimum-elements.md
-- [[VeriSBOM (arXiv 2026)]] - document - recursion/recursion-outline.md
-- [[Verifiable build pipelines  attestation chains]] - document - recursion/recursion-outline.md
-- [[in-toto supply-chain framework]] - document - references/recursion/ch3/ref-63-slsa-intoto-frameworks.md
-- [[in-toto supply-chain integrity via signed step metadata (cited prior work)]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
+- [[(d,m,B,C)-relaxed binding; binding implies relaxed binding (Lemma 3)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Algebraic reductions of knowledge]] - paper - references/ch06/ref-21-neo.pdf
+- [[Arc (hash-based accumulation for Reed-Solomon codes)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Concrete parameters AGL, Goldilocks, Mersenne-61 over degree-2 extension]] - paper - references/ch06/ref-21-neo.pdf
+- [[HyperNova (CRYPTO'24)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Lattice folding for lookups and read-write memory via ShoutTwist]] - paper - references/ch06/ref-21-neo.pdf
+- [[LatticeFold (ePrint 2024257)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Lova (unstructured-lattice folding for subset sum)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Neo folding scheme for CCS (lattice-based)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Neo Lattice-based Folding Scheme for CCS over Small Fields and Pay-per-bit Commitments]] - paper - references/ch06/ref-21-neo.pdf
+- [[NeutronNova]] - paper - references/ch06/ref-21-neo.pdf
+- [[Nova (CRYPTO'22)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Pi_CCS reduction (CCS to linearizedmatrix-eval claims via sum-check)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Pi_DEC decomposition reduction (norm-B claim into k norm-b claims)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Pi_RLC random linear combination reduction (folds k+1 norm-b claims into one norm-B)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Plausible post-quantum security from lattice (no DLOG reliance)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Reductions of knowledge framework]] - paper - references/ch06/ref-21-neo.pdf
+- [[Short invertible elements in partially splitting cyclotomic rings]] - paper - references/ch06/ref-21-neo.pdf
+- [[Strong sampling set with small-norm invertible challenges (expansion factor T)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Theorem 5 composition theorem (restricted + relaxed knowledge soundness compose to RoK)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Twist and Shout (sum-check lookup  memory arguments)]] - paper - references/ch06/ref-21-neo.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -39,17 +40,22 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 3 edges to [[_COMMUNITY_Community 69]]
-- 2 edges to [[_COMMUNITY_Community 47]]
-- 1 edge to [[_COMMUNITY_Community 36]]
-- 1 edge to [[_COMMUNITY_Community 21]]
-- 1 edge to [[_COMMUNITY_Community 75]]
-- 1 edge to [[_COMMUNITY_Community 119]]
-- 1 edge to [[_COMMUNITY_Community 67]]
+- 6 edges to [[_COMMUNITY_Community 14]]
+- 6 edges to [[_COMMUNITY_Community 10]]
+- 4 edges to [[_COMMUNITY_Community 39]]
+- 2 edges to [[_COMMUNITY_Community 37]]
+- 2 edges to [[_COMMUNITY_Community 0]]
+- 2 edges to [[_COMMUNITY_Community 23]]
+- 1 edge to [[_COMMUNITY_Community 18]]
+- 1 edge to [[_COMMUNITY_Community 5]]
+- 1 edge to [[_COMMUNITY_Community 78]]
+- 1 edge to [[_COMMUNITY_Community 47]]
+- 1 edge to [[_COMMUNITY_Community 30]]
+- 1 edge to [[_COMMUNITY_Community 4]]
 
 ## Top bridge nodes
-- [[Software supply chain]] - degree 9, connects to 3 communities
-- [[Software Bill of Materials (SBOM)]] - degree 8, connects to 2 communities
-- [[C2PA Manifest]] - degree 3, connects to 1 community
-- [[Software supply-chain transparency]] - degree 3, connects to 1 community
-- [[SBOM verification as PCD instance]] - degree 3, connects to 1 community
+- [[Neo Lattice-based Folding Scheme for CCS over Small Fields and Pay-per-bit Commitments]] - degree 32, connects to 12 communities
+- [[Neo folding scheme for CCS (lattice-based)]] - degree 9, connects to 2 communities
+- [[Concrete parameters AGL, Goldilocks, Mersenne-61 over degree-2 extension]] - degree 3, connects to 2 communities
+- [[Strong sampling set with small-norm invertible challenges (expansion factor T)]] - degree 4, connects to 1 community
+- [[Pi_CCS reduction (CCS to linearizedmatrix-eval claims via sum-check)]] - degree 3, connects to 1 community

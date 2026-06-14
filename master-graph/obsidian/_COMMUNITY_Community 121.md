@@ -1,22 +1,24 @@
 ---
 type: community
-cohesion: 0.33
-members: 7
+cohesion: 0.25
+members: 9
 ---
 
 # Community 121
 
-**Cohesion:** 0.33 - loosely connected
-**Members:** 7 nodes
+**Cohesion:** 0.25 - loosely connected
+**Members:** 9 nodes
 
 ## Members
-- [[BLS signatures]] - document - references/recursion/ch1/ref-37-ethereum-lean-hash-based-sig-aggregation.md
-- [[Hash-based cryptography (lean foundation)]] - document - references/recursion/ch1/ref-37-ethereum-lean-hash-based-sig-aggregation.md
-- [[Hash-based signatures]] - document - references/recursion/ch1/ref-37-ethereum-lean-hash-based-sig-aggregation.md
-- [[Real-time zkVMs (lean execution)]] - document - references/recursion/ch1/ref-37-ethereum-lean-hash-based-sig-aggregation.md
-- [[Rise of SNARKs]] - document - references/recursion/ch1/ref-37-ethereum-lean-hash-based-sig-aggregation.md
-- [[SNARK-aggregated signatures]] - document - recursion/recursion-outline.md
-- [[lean Ethereum (Justin Drake, EF blog)]] - document - references/recursion/ch1/ref-37-ethereum-lean-hash-based-sig-aggregation.md
+- [[ASP construction strategies (add-with-delayexclude-bad, $Nmonthperson, trusted-community, real-time AI scoring)]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
+- [[Association Set Provider (ASP) intermediary]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
+- [[Association set (custom set of possible fund origins)]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
+- [[Bilateral direct proof (size-one association set; timestamping-service variant)]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
+- [[Dissociation game (AliceBobCarlDavid vs Eve elimination example)]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
+- [[Exclusion proof ('my withdrawal does not come from one of these deposits')]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
+- [[Membership proof ('my withdrawal comes from one of these deposits')]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
+- [[Neutral, censorship-resistant infrastructure  jurisdiction-flexible compliance argument]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
+- [[Separating equilibrium between compliant and non-compliant withdrawals]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -26,12 +28,9 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 1 edge to [[_COMMUNITY_Community 20]]
-- 1 edge to [[_COMMUNITY_Community 23]]
-- 1 edge to [[_COMMUNITY_Community 0]]
-- 1 edge to [[_COMMUNITY_Community 106]]
+- 1 edge to [[_COMMUNITY_Community 52]]
+- 1 edge to [[_COMMUNITY_Community 22]]
 
 ## Top bridge nodes
-- [[SNARK-aggregated signatures]] - degree 4, connects to 2 communities
-- [[Hash-based signatures]] - degree 4, connects to 1 community
-- [[Real-time zkVMs (lean execution)]] - degree 2, connects to 1 community
+- [[Association set (custom set of possible fund origins)]] - degree 5, connects to 1 community
+- [[Separating equilibrium between compliant and non-compliant withdrawals]] - degree 3, connects to 1 community

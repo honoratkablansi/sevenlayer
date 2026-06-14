@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-46-zk-memory-algebraic-proofs.pdf"
 type: "document"
-community: "Community 124"
+community: "Community 80"
 location: "Section 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_124
+  - community/Community_80
 ---
 
 # Commit-and-Prove SNARK
@@ -24,4 +24,4 @@ tags:
 - [[Zero-Knowledge Proof]] - `builds_on` [EXTRACTED]
 - [[Zero-Knowledge from Interactive Proofs (GKR-based)]] - `builds_on` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_124
+#graphify/document #graphify/EXTRACTED #community/Community_80

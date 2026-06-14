@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-23-circle-starks.pdf"
 type: "paper"
-community: "Community 34"
+community: "Community 32"
 location: "section 2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_34
+  - community/Community_32
 ---
 
 # Mersenne Prime Field
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Circle group  circle curve x2+y2=1]] - `uses` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_34
+#graphify/paper #graphify/EXTRACTED #community/Community_32

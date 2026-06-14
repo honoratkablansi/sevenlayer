@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-13-chiesa-chua-weidner-cycles.pdf"
 type: "paper"
-community: "Community 24"
+community: "Community 16"
 location: "§2.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_24
+  - community/Community_16
 ---
 
 # CM discriminant D / complex multiplication method
@@ -15,4 +15,4 @@ tags:
 - [[Pairing-friendly elliptic curves]] - `conceptually_related_to` [EXTRACTED]
 - [[Prop. 5 m-cycle of curves with fixed discriminant D3 has m=2 (D=3 gives m=6)]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_24
+#graphify/paper #graphify/EXTRACTED #community/Community_16

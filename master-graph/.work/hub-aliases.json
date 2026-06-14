@@ -1,8 +1,9 @@
 {
   "aliases": {
-    "concept_sum-check-protocol": "concept_sumcheck",
-    "concept_gkr-protocol": "concept_gkr",
     "concept_bilinear-pairing": "concept_pairing",
-    "concept_freivalds-protocol": "concept_freivalds"
+    "concept_quadratic-arithmetic-program": "concept_qap",
+    "concept_circ-compiler-infra": "concept_circ",
+    "concept_counting-triangles": "concept_counting-triangles-ip",
+    "concept_zero-knowledge": "concept_zero-knowledge-proof"
   }
 }

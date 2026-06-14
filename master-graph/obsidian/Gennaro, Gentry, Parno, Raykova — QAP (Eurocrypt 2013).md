@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 42"
+community: "Community 34"
 location: "Chapter 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_42
+  - community/Community_34
 ---
 
 # Gennaro, Gentry, Parno, Raykova — QAP (Eurocrypt 2013)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[QAP (Quadratic Arithmetic Program)]] - `introduces` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_42
+#graphify/document #graphify/EXTRACTED #community/Community_34

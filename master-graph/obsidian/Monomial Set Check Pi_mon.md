@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-11-latticefold-plus.pdf"
 type: "paper"
-community: "Community 28"
+community: "Community 23"
 location: "§4.2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_28
+  - community/Community_23
 ---
 
 # Monomial Set Check Pi_mon
@@ -16,4 +16,4 @@ tags:
 - [[Range Check Protocol Pi_rgchk (double-commitment range proof)]] - `conceptually_related_to` [EXTRACTED]
 - [[Sum-Check Protocol]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_28
+#graphify/paper #graphify/EXTRACTED #community/Community_23

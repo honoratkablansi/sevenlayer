@@ -1,34 +1,35 @@
 ---
 type: community
-cohesion: 0.20
-members: 19
+cohesion: 0.15
+members: 20
 ---
 
 # Community 69
 
-**Cohesion:** 0.20 - loosely connected
-**Members:** 19 nodes
+**Cohesion:** 0.15 - loosely connected
+**Members:** 20 nodes
 
 ## Members
-- [[Compliance predicate  local property of distributed computation]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
-- [[Dual-Tree Architecture Package Tree (authenticity) + isomorphic Shadow Tree (compliance)]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
-- [[Folding-based aggregation ValidDep as atomic step folded over N dependencies into one succinct proof pi]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
-- [[Forest of Shadow Trees + DatalogHorn-clause policy composition and client-on-demand aggregation]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
-- [[Groth16 pairing-based zkSNARK (cited alternative proving system)]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
-- [[Implementation CircomPoseidon Attest circuit, Nova folding over Pasta curves, Spartan-wrapped succinct proof, Python+pyDataLog+SQLite auditor engine]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
-- [[Nova recursive folding scheme (IVC; first to fold two NP statements into one)]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
-- [[Package Tree (PT) VC maintained by package manager committing dependency inclusionauthenticity]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
-- [[Policy Propagation Engine (PPE) recursive compliance C(p)=L(p)prod C(d) propagated up dependency DAG]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
-- [[Re-proving on CVEupdate via root freshness revocation (S3) and remediation (S4) lifecycle, replay resistance]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
-- [[Root-binding accountability verification bound to trusted public roots defeats parallel forged trees]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
-- [[Shadow Tree (ST) isomorphic compliance VC by auditor; leaf flag 10 (compliantnon-compliant)]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
-- [[Spartan transparent zkSNARK without trusted setup (final proof compression wrapper)]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
-- [[Theorem 1 Package Tree position-binding (cannot open index to a different value)]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
-- [[Theorem 2 Soundness of Dual-Tree verification (no valid proof for non-existentnon-compliant package)]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
-- [[Theorem 3 Root-binding accountability (cannot accept proof from divergent PTST)]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
-- [[ValidDep dual-membership predicate package valid iff member of both PT and ST roots]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
-- [[Vector commitment scheme (position-binding; Merkle-tree instantiation, O(log n) openings)]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
-- [[VeriSBOM trustless, selectively-disclosed verifiable SBOM-sharing framework via ZKPs]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
+- [[BGM17 - Bowe, Gabizon, Miers scalable MPC for zk-SNARK params in random beacon model]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
+- [[Beacon-free ceremony removes BGM17 random beacon, biased SRS tolerated]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
+- [[Ceremonial SNARK (NIZK with multi-round SRS ceremony)]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
+- [[Ceremony syntax Pgen, Update, VerifySRS, Prove, Verify, Sim with split SRS srs=(srs_1..srs_phimax)]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
+- [[GKM+18 - Groth, Kohlweiss, Maller, Meiklejohn, Miers Updatable and universal CRS]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
+- [[MBKM19 - Sonic updatable NIZK framework extended by this paper]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
+- [[Non-interactive Zero-Knowledge Argument of Knowledge]] - paper - references/ch02/ref-06-groth16.pdf
+- [[Pi_dl discrete logarithm proof of knowledge (update PoK; pi=Grw, RO(phi))]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
+- [[Polynomial oracle O_poly (Laurent polynomial evaluation G{f(z)}, models SRS elements)]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
+- [[SRS update oracle O_srs (updatefinalize, honest-update-required-per-phase)]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
+- [[Snarky Ceremonies]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
+- [[Straight-line simulation-extractability in (RO,d-Poly) model (Def 7, O_se + O_poly oracles)]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
+- [[Subversion zero-knowledge for ceremonies (Def 4, subverter Z + extractor E_Z)]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
+- [[Theorem 2 Pi_dl is complete, perfect ZK, straight-line SE under (1,0)-dlog in AGM+RO]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
+- [[Theorem 4 Groth16 ceremony is subversion zero-knowledge (trapdoor extracted via Pi_dl)]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
+- [[Transparent random oracle RO_0RO_1 (programmable weakening; simulator learns r)]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
+- [[Two-phase split SRS universal srs_u (phase 1) + specialized srs_s (phase 2), phi_max=2]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
+- [[Universal Common Reference String]] - paper - references/snowball/book/ref-105-updatable-and-universal-common-reference-strings.pdf
+- [[Updatable and Universal Structured Reference String]] - document - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Update knowledge soundness (Def 5, game GameA,EA_uks over phi_max phases)]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -38,18 +39,21 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 3 edges to [[_COMMUNITY_Community 22]]
-- 3 edges to [[_COMMUNITY_Community 19]]
-- 3 edges to [[_COMMUNITY_Community 62]]
-- 2 edges to [[_COMMUNITY_Community 86]]
-- 2 edges to [[_COMMUNITY_Community 29]]
-- 2 edges to [[_COMMUNITY_Community 47]]
-- 2 edges to [[_COMMUNITY_Community 44]]
+- 7 edges to [[_COMMUNITY_Community 4]]
+- 5 edges to [[_COMMUNITY_Community 109]]
+- 4 edges to [[_COMMUNITY_Community 58]]
+- 3 edges to [[_COMMUNITY_Community 70]]
+- 2 edges to [[_COMMUNITY_Community 20]]
+- 2 edges to [[_COMMUNITY_Community 34]]
+- 2 edges to [[_COMMUNITY_Community 85]]
+- 1 edge to [[_COMMUNITY_Community 9]]
+- 1 edge to [[_COMMUNITY_Community 11]]
+- 1 edge to [[_COMMUNITY_Community 35]]
 - 1 edge to [[_COMMUNITY_Community 2]]
 
 ## Top bridge nodes
-- [[VeriSBOM trustless, selectively-disclosed verifiable SBOM-sharing framework via ZKPs]] - degree 22, connects to 4 communities
-- [[Compliance predicate  local property of distributed computation]] - degree 8, connects to 2 communities
-- [[Vector commitment scheme (position-binding; Merkle-tree instantiation, O(log n) openings)]] - degree 7, connects to 2 communities
-- [[Folding-based aggregation ValidDep as atomic step folded over N dependencies into one succinct proof pi]] - degree 3, connects to 1 community
-- [[Nova recursive folding scheme (IVC; first to fold two NP statements into one)]] - degree 3, connects to 1 community
+- [[Snarky Ceremonies]] - degree 21, connects to 7 communities
+- [[Updatable and Universal Structured Reference String]] - degree 13, connects to 6 communities
+- [[Two-phase split SRS universal srs_u (phase 1) + specialized srs_s (phase 2), phi_max=2]] - degree 3, connects to 2 communities
+- [[Update knowledge soundness (Def 5, game GameA,EA_uks over phi_max phases)]] - degree 5, connects to 1 community
+- [[Ceremonial SNARK (NIZK with multi-round SRS ceremony)]] - degree 4, connects to 1 community

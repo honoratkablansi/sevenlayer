@@ -1,29 +1,29 @@
 ---
 type: community
-cohesion: 0.16
+cohesion: 0.18
 members: 14
 ---
 
 # Community 96
 
-**Cohesion:** 0.16 - loosely connected
+**Cohesion:** 0.18 - loosely connected
 **Members:** 14 nodes
 
 ## Members
-- [[Batched evaluation protocol for multiple pointspolynomials]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[Bivariate polynomial folding f(X,Y)=aT S b with Y=Xm]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[Committing to w via v=Dw-hat (proof-size reduction)]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[Coordinate-wise special soundness analysis (CWSS)]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[Efficiency O(sqrt N) verifier, polylog proof, 53KB at N=230]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[FMN23 lattice polynomial commitments  Power-BASIS (CWSS origin)]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[Greyhound polynomial commitment scheme]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[HVZK  hiding variant via Module-LWE masking]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[Ligero (AHIV17) and Brakedown (GLS+21) hash-based PCs (baselines)]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[Reduction of verification to a single short-norm linear relation over Rq]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[SLAP succinct lattice polynomial commitments (AFLN24, EUROCRYPT 2024)]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[Split-and-fold  folding paradigm]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[Three-round proof of polynomial evaluation (quadratic relation)]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[Zq-to-Rq evaluation transform via Galois automorphism (AFLN24)]] - paper - references/ch14/ref-65-greyhound.pdf
+- [[Canetti-Goldreich-Halevi CGH04 The random oracle methodology, revisited - RO-uninstantiable primitives; diagonalization basis of attack]] - paper - references/recursion/ch1/ref-11-khovratovich-fiat-shamir-attacks.pdf
+- [[Definition 6 adaptive soundness of FS_h(Pi_{comm,d}); adversary given spec of h and comm outputs (C,x,y,pi) with C(x,w)!=y yet verifier accepts]] - paper - references/recursion/ch1/ref-11-khovratovich-fiat-shamir-attacks.pdf
+- [[Diagonalization-based uninstantiability craft a self-referential prover message yielding a favorable verifier challenge (CGH04 lineage; Kleene recursion  quines)]] - paper - references/recursion/ch1/ref-11-khovratovich-fiat-shamir-attacks.pdf
+- [[Extractor Blowup with Recursion Depth]] - document - recursion/recursion-outline.md
+- [[Goldwasser-Kalai-Rothblum GKR15 Delegating computation interactive proofs for Muggles - the GKR protocol]] - paper - references/recursion/ch1/ref-11-khovratovich-fiat-shamir-attacks.pdf
+- [[Khovratovich-Rothblum-Soukhanov How to Prove False Statements - Practical Attacks on Fiat-Shamir (ePrint 2025118)]] - paper - references/recursion/ch1/ref-11-khovratovich-fiat-shamir-attacks.pdf
+- [[Multilinear polynomial commitment scheme (MLPCS) short commitment to a multilinear polynomial with succinct evaluation proofs]] - paper - references/recursion/ch1/ref-11-khovratovich-fiat-shamir-attacks.pdf
+- [[Polyhedra Network Expander Pol24 - deployed GKR-based system affected; authors notified designers, mitigations introduced]] - paper - references/recursion/ch1/ref-11-khovratovich-fiat-shamir-attacks.pdf
+- [[Prior FS uninstantiability counterexamples Barak Bar01, Goldwasser-Kalai GK03, and Bartusek et al. BBH+19 On the (in)security of Kilian-based SNARGs]] - paper - references/recursion/ch1/ref-11-khovratovich-fiat-shamir-attacks.pdf
+- [[Protocol Pi_{comm,d} GKR + MLPCS succinct argument for non-deterministic depth-d circuit C(x,w)=y; FS-compiled as FS_h(Pi_{comm,d}); challenge r=h(C,x,y,alpha)]] - paper - references/recursion/ch1/ref-11-khovratovich-fiat-shamir-attacks.pdf
+- [[Recursive composition prior work Valiant Val08 IVC, Bitansky-Canetti-Chiesa-Tromer BCCT13 PCD, Ben-Sasson-Chiesa-Tromer-Virza BCTV14 cycles of elliptic curves]] - paper - references/recursion/ch1/ref-11-khovratovich-fiat-shamir-attacks.pdf
+- [[Theorem 10 (informal) universal GKR circuit unsound for any additively-homomorphic commitment (EC or lattice) since comm(w)=comm(wC)+comm(win); also batched FRI]] - paper - references/recursion/ch1/ref-11-khovratovich-fiat-shamir-attacks.pdf
+- [[Theorem 9 family T'(N,M) unsound for any commitment with sub-input-size code and any hash; uses an f-quine (Lemma 8, p=f+c via Kleene recursion) passed as witness; commitment-independent]] - paper - references/recursion/ch1/ref-11-khovratovich-fiat-shamir-attacks.pdf
+- [[Universal Computation Attack (§4) fixed circuits independent of crypto primitives via universal Turing machine circuit and quines; violates non-adaptive soundness]] - paper - references/recursion/ch1/ref-11-khovratovich-fiat-shamir-attacks.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -33,16 +33,17 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 7 edges to [[_COMMUNITY_Community 10]]
-- 4 edges to [[_COMMUNITY_Community 0]]
+- 4 edges to [[_COMMUNITY_Community 129]]
+- 3 edges to [[_COMMUNITY_Community 17]]
+- 3 edges to [[_COMMUNITY_Community 24]]
+- 2 edges to [[_COMMUNITY_Community 125]]
 - 2 edges to [[_COMMUNITY_Community 21]]
-- 1 edge to [[_COMMUNITY_Community 32]]
-- 1 edge to [[_COMMUNITY_Community 36]]
-- 1 edge to [[_COMMUNITY_Community 43]]
+- 1 edge to [[_COMMUNITY_Community 2]]
+- 1 edge to [[_COMMUNITY_Community 0]]
 
 ## Top bridge nodes
-- [[Greyhound polynomial commitment scheme]] - degree 14, connects to 5 communities
-- [[Three-round proof of polynomial evaluation (quadratic relation)]] - degree 6, connects to 1 community
-- [[Efficiency O(sqrt N) verifier, polylog proof, 53KB at N=230]] - degree 4, connects to 1 community
-- [[SLAP succinct lattice polynomial commitments (AFLN24, EUROCRYPT 2024)]] - degree 3, connects to 1 community
-- [[Coordinate-wise special soundness analysis (CWSS)]] - degree 3, connects to 1 community
+- [[Khovratovich-Rothblum-Soukhanov How to Prove False Statements - Practical Attacks on Fiat-Shamir (ePrint 2025118)]] - degree 12, connects to 4 communities
+- [[Protocol Pi_{comm,d} GKR + MLPCS succinct argument for non-deterministic depth-d circuit C(x,w)=y; FS-compiled as FS_h(Pi_{comm,d}); challenge r=h(C,x,y,alpha)]] - degree 6, connects to 2 communities
+- [[Extractor Blowup with Recursion Depth]] - degree 3, connects to 2 communities
+- [[Diagonalization-based uninstantiability craft a self-referential prover message yielding a favorable verifier challenge (CGH04 lineage; Kleene recursion  quines)]] - degree 3, connects to 1 community
+- [[Multilinear polynomial commitment scheme (MLPCS) short commitment to a multilinear polynomial with succinct evaluation proofs]] - degree 3, connects to 1 community

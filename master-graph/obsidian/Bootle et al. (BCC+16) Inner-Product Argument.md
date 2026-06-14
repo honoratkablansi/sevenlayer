@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-09-bulletproofs.pdf"
 type: "paper"
-community: "Community 14"
+community: "Community 131"
 location: "§3 (intro), §5"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_14
+  - community/Community_131
 ---
 
 # Bootle et al. (BCC+16) Inner-Product Argument
@@ -16,4 +16,4 @@ tags:
 - [[Inner Product Argument (IPABulletproofs)]] - `conceptually_related_to` [EXTRACTED]
 - [[Zero-Knowledge Proof for Arithmetic Circuits (Protocol 3)]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_14
+#graphify/paper #graphify/EXTRACTED #community/Community_131

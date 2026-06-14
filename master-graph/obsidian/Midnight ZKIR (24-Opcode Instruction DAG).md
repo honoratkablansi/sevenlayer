@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 2"
+community: "Community 11"
 location: "Chapter 5"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_2
+  - community/Community_11
 ---
 
 # Midnight ZKIR (24-Opcode Instruction DAG)
@@ -17,4 +17,4 @@ tags:
 - [[Encoding the Performance (Layer 4 Arithmetization)]] - `references` [EXTRACTED]
 - [[PLONKish Arithmetization]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_2
+#graphify/document #graphify/EXTRACTED #community/Community_11

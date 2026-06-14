@@ -1,12 +1,12 @@
 ---
 source_file: "references/snowball/book/ref-086-succinct-non-interactive-arguments-via-linear-in.pdf"
 type: "paper"
-community: "Community 46"
+community: "Community 45"
 location: "abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_46
+  - community/Community_45
 ---
 
 # Preprocessing SNARG
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Succinct Non-interactive Argument (SNARG)]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_46
+#graphify/paper #graphify/EXTRACTED #community/Community_45

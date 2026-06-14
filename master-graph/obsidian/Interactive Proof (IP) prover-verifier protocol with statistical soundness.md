@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-20-thaler-proofs-arguments-zk.pdf"
 type: "paper"
-community: "Community 40"
+community: "Community 7"
 location: "ch 3 (Definitions), ch 4 (Interactive Proofs)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_40
+  - community/Community_7
 ---
 
 # Interactive Proof (IP): prover-verifier protocol with statistical soundness
@@ -18,14 +18,14 @@ tags:
 - [[Colorblind Verifier Analogy (physical intuition two-color page, colorblind verifier, coin-flip challenge)]] - `motivates` [EXTRACTED]
 - [[Completeness]] - `defines` [EXTRACTED]
 - [[Doubly-efficient interactive proof (efficient prover, super-efficient verifier)]] - `generalizes` [EXTRACTED]
-- [[Fiat-Shamir Transform]] - `builds_on` [EXTRACTED]
+- [[Fiat-Shamir Transform]] - `applies` [EXTRACTED]
 - [[GKR protocol doubly-efficient interactive proof for bounded-depth computation via layer-by-layer sumcheck reduction; prover need not commit to full trace]] - `generalizes` [EXTRACTED]
 - [[GMR (Goldwasser-Micali-Rackoff) Paper]] - `defines` [EXTRACTED]
 - [[Graph Isomorphism (GI)]] - `example_of` [EXTRACTED]
 - [[Graph Non-Isomorphism Protocol]] - `example_of` [EXTRACTED]
 - [[Hyrax Commitment Scheme]] - `uses` [EXTRACTED]
 - [[IP = PSPACE (Complexity Result)]] - `relates_to` [EXTRACTED]
-- [[IP = PSPACE (Shamir's Theorem)]] - `enables` [EXTRACTED]
+- [[IP = PSPACE (Shamir's Theorem)]] - `relates_to` [EXTRACTED]
 - [[IP Complexity Class (Interactive Proof Languages)]] - `defines` [EXTRACTED]
 - [[IP Interactive Polynomial-time language class]] - `defines` [EXTRACTED]
 - [[Interaction and Randomness (Two New Ingredients)]] - `defines` [EXTRACTED]
@@ -38,7 +38,7 @@ tags:
 - [[Multilinear extension (MLE)]] - `builds_on` [EXTRACTED]
 - [[NP (Nondeterministic Polynomial Time)]] - `motivates` [EXTRACTED]
 - [[NP-Proof (Efficiently Verifiable Proof)]] - `generalizes` [EXTRACTED]
-- [[Polynomial IOP  interactive oracle protocol]] - `generalizes` [EXTRACTED]
+- [[Polynomial IOP  interactive oracle protocol]] - `builds_on` [EXTRACTED]
 - [[Private-Coin Interactive Proof]] - `special_case_of` [EXTRACTED]
 - [[Proofs, Arguments, and Zero-Knowledge (Justin Thaler, survey textbook)]] - `explains` [EXTRACTED]
 - [[Prover]] - `defines` [EXTRACTED]
@@ -58,6 +58,6 @@ tags:
 - [[Verifiable Computing]] - `uses` [EXTRACTED]
 - [[Verifiable computation]] - `uses` [EXTRACTED]
 - [[Verifier]] - `defines` [EXTRACTED]
-- [[Zero-Knowledge Proof]] - `builds_on` [EXTRACTED]
+- [[Zero-Knowledge Proof]] - `relates_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_40
+#graphify/paper #graphify/EXTRACTED #community/Community_7

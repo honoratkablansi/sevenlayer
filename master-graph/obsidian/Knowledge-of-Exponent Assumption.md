@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-06-groth16.pdf"
 type: "paper"
-community: "Community 91"
+community: "Community 122"
 location: "§1.1 (Technique)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_91
+  - community/Community_122
 ---
 
 # Knowledge-of-Exponent Assumption
@@ -17,4 +17,4 @@ tags:
 - [[q-Monomial Computational (q-MC) assumption]] - `conceptually_related_to` [INFERRED]
 - [[q-Monomial Knowledge (q-MK) assumption]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_91
+#graphify/paper #graphify/EXTRACTED #community/Community_122

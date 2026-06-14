@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 106"
+community: "Community 24"
 location: "Chapter 8"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_106
+  - community/Community_24
 ---
 
 # Proof Aggregation
@@ -24,6 +24,8 @@ tags:
 - [[Polynomial Commitment Scheme]] - `conceptually_related_to` [EXTRACTED]
 - [[Proof of solvency  financial compliance]] - `conceptually_related_to` [EXTRACTED]
 - [[Real-time zkVM pipeline case study]] - `references` [EXTRACTED]
+- [[Recursion (proof recursion in zkVMs)]] - `relates_to` [EXTRACTED]
+- [[Recursive Proof Composition]] - `enables` [EXTRACTED]
 - [[Recursive STARK proving]] - `defines` [EXTRACTED]
 - [[SHARP (SHARed Prover)]] - `explains` [EXTRACTED]
 - [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `improves` [EXTRACTED]
@@ -36,9 +38,10 @@ tags:
 - [[Universal Proof Aggregation (UPA)]] - `conceptually_related_to` [EXTRACTED]
 - [[Verification Gas Cost]] - `explains` [EXTRACTED]
 - [[When Not to Recurse (crossover heuristics)]] - `compares` [EXTRACTED]
-- [[ZK Rollup]] - `conceptually_related_to` [EXTRACTED]
+- [[ZK Rollup]] - `enables` [EXTRACTED]
 - [[deVirgo distributed zero-knowledge proof system parallelizing Virgo over M machines with perfect linear scalability and no proof-size overhead]] - `conceptually_related_to` [EXTRACTED]
+- [[zkEVM  EVM-Compatible Proving]] - `uses` [EXTRACTED]
 - [[zkTLS  zkEmail web and email provenance]] - `conceptually_related_to` [EXTRACTED]
 - [[zkTree zero-knowledge recursion tree with ZKP membership proofs]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_106
+#graphify/document #graphify/EXTRACTED #community/Community_24

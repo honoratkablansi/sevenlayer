@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 53"
+community: "Community 7"
 location: "Chapter 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_53
+  - community/Community_7
 ---
 
 # Soundness
@@ -27,12 +27,17 @@ tags:
 - [[NP-Proof (Efficiently Verifiable Proof)]] - `uses` [EXTRACTED]
 - [[Negligible Probability (grows slower than any 1poly; soundness error bound)]] - `uses` [EXTRACTED]
 - [[PCP Theorem (Probabilistically Checkable Proofs)]] - `relates_to` [EXTRACTED]
+- [[Parallel Repetition]] - `relates_to` [EXTRACTED]
 - [[Probabilistic Proof System]] - `uses` [EXTRACTED]
 - [[RISC ZERO bug1 (soundness) missing constraint on 3-register insns (remudivu); $50,000 bounty]] - `conceptually_related_to` [EXTRACTED]
+- [[Round-by-Round Soundness]] - `generalizes` [EXTRACTED]
 - [[Soundness-bug detection criterion output flips SUCCESS-OOPS yet verifier accepts proof]] - `conceptually_related_to` [EXTRACTED]
-- [[Statistical (Information-Theoretic) Soundness]] - `special_case_of` [EXTRACTED]
+- [[Statistical (Information-Theoretic) Soundness]] - `generalizes` [EXTRACTED]
+- [[Succinct Argument]] - `uses` [EXTRACTED]
+- [[Sum-Check Protocol]] - `relates_to` [EXTRACTED]
 - [[The Promise of Provable and Programmable Secrets]] - `defines` [EXTRACTED]
+- [[Under-Constrained Circuit  Missing Constraint]] - `relates_to` [EXTRACTED]
 - [[Zero-Knowledge Proof]] - `defines` [EXTRACTED]
 - [[zkVM]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_53
+#graphify/document #graphify/EXTRACTED #community/Community_7

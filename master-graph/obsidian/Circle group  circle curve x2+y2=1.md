@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-23-circle-starks.pdf"
 type: "paper"
-community: "Community 34"
+community: "Community 32"
 location: "§3, §3.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_34
+  - community/Community_32
 ---
 
 # Circle group / circle curve x^2+y^2=1
@@ -21,4 +21,4 @@ tags:
 - [[Space L_N of bivariate polynomials (Riemann-Roch space, dim N+1)]] - `conceptually_related_to` [EXTRACTED]
 - [[Twin-coset and standard position coset FFT domains]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_34
+#graphify/paper #graphify/EXTRACTED #community/Community_32

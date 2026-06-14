@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 0"
+community: "Community 39"
 location: "Chapter 5"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Community_39
 ---
 
 # Folding Scheme
@@ -37,14 +37,15 @@ tags:
 - [[General binding lesson every claimed running instance must be cryptographically bound (via hashcopy constraints) to the witness actually folded into it]] - `conceptually_related_to` [INFERRED]
 - [[Glossary of Key Terms]] - `defines` [EXTRACTED]
 - [[High-arity folding (fold many NP statements per step, no deep folding trees)]] - `conceptually_related_to` [EXTRACTED]
+- [[Homomorphic  Trapdoor Commitment Property]] - `uses` [EXTRACTED]
 - [[How to Read This Guide]] - `conceptually_related_to` [EXTRACTED]
 - [[HyperNova]] - `part_of` [EXTRACTED]
 - [[HyperNova (CRYPTO'24)]] - `conceptually_related_to` [EXTRACTED]
 - [[HyperNova Recursive Arguments for Customizable Constraint Systems]] - `conceptually_related_to` [EXTRACTED]
 - [[IVC Val08 and PCD CT10 original motivation for folding schemes]] - `conceptually_related_to` [EXTRACTED]
 - [[IVC via Homomorphic Commitments (Nova  Folding)]] - `uses` [EXTRACTED]
-- [[Incrementally Verifiable Computation (IVC)]] - `uses` [EXTRACTED]
-- [[Knowledge-Soundness]] - `conceptually_related_to` [EXTRACTED]
+- [[Incrementally Verifiable Computation (IVC)]] - `enables` [EXTRACTED]
+- [[Knowledge-Soundness]] - `relates_to` [EXTRACTED]
 - [[Kothapalli, Setty — HyperNova recursive arguments for customizable constraint systems (2023) 10]] - `cites` [EXTRACTED]
 - [[Kothapalli, Setty, Tzialla — Nova Recursive zero-knowledge arguments from folding schemes (CRYPTO 2022) 11]] - `introduces` [EXTRACTED]
 - [[Lattice Cryptography]] - `used_in` [EXTRACTED]
@@ -74,7 +75,7 @@ tags:
 - [[Neo Lattice-based Folding Scheme for CCS over Small Fields and Pay-per-bit Commitments]] - `conceptually_related_to` [EXTRACTED]
 - [[Nightstream Lattice-Based Folding for CCS (LFDT-Nightstream)]] - `implements` [EXTRACTED]
 - [[Nightstream What a Folding Engine Looks Like from the Inside]] - `references` [EXTRACTED]
-- [[Nova]] - `improves` [EXTRACTED]
+- [[Nova]] - `uses` [EXTRACTED]
 - [[Nova Folding Scheme KST22 (cited, R1CS k=1 d=2 case)]] - `conceptually_related_to` [EXTRACTED]
 - [[Nova Recursive Zero-Knowledge Arguments from Folding Schemes]] - `introduces` [EXTRACTED]
 - [[Open Questions and the Road Ahead]] - `references` [EXTRACTED]
@@ -88,7 +89,7 @@ tags:
 - [[Protostar Generic Efficient AccumulationFolding for Special-sound Protocols]] - `conceptually_related_to` [EXTRACTED]
 - [[Proving CPU Executions in Small Space]] - `references` [EXTRACTED]
 - [[Q5 Streaming Witness Interaction with Folding]] - `compares` [EXTRACTED]
-- [[R1CS (Rank-1 Constraint Systems)]] - `supports` [EXTRACTED]
+- [[R1CS (Rank-1 Constraint Systems)]] - `uses` [EXTRACTED]
 - [[Range Proof]] - `used` [EXTRACTED]
 - [[Recursion (proof recursion in zkVMs)]] - `enables` [INFERRED]
 - [[Recursion vs. Folding Russian Dolls and Snowballs]] - `defines` [EXTRACTED]
@@ -128,4 +129,4 @@ tags:
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 - [[zkVMs Across the Stack]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/document #graphify/EXTRACTED #community/Community_39

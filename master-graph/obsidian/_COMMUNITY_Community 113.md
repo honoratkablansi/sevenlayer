@@ -1,25 +1,25 @@
 ---
 type: community
-cohesion: 0.24
+cohesion: 0.22
 members: 10
 ---
 
 # Community 113
 
-**Cohesion:** 0.24 - loosely connected
+**Cohesion:** 0.22 - loosely connected
 **Members:** 10 nodes
 
 ## Members
-- [[Continued-fraction expansion to recover order from observed cq]] - paper - references/ch07/ref-24-shor.pdf
-- [[Factoring complexity O((log n)2 log log n log log log n) quantum steps]] - paper - references/ch07/ref-24-shor.pdf
-- [[Number field sieve (best classical factoring, exp time)]] - paper - references/ch07/ref-24-shor.pdf
-- [[Quantum order-finding (period-finding) subroutine]] - paper - references/ch07/ref-24-shor.pdf
-- [[Quantum prime factorization algorithm]] - paper - references/ch07/ref-24-shor.pdf
-- [[Reduction of factoring to order-finding (Miller 1976)]] - paper - references/ch07/ref-24-shor.pdf
-- [[Reversible computation]] - paper - references/ch07/ref-24-shor.pdf
-- [[Reversible modular exponentiation subroutine]] - paper - references/ch07/ref-24-shor.pdf
-- [[Schonhage-Strassen fast multiplication via FFT]] - paper - references/ch07/ref-24-shor.pdf
-- [[Universal reversible gates (Toffoli, Fredkin)]] - paper - references/ch07/ref-24-shor.pdf
+- [[Arkworks (Rust R1CS Library)]] - paper - references/mooc/lecture03/slides.pdf
+- [[Bellman (Rust R1CS Library)]] - paper - references/mooc/lecture03/slides.pdf
+- [[Circuit Equivalence (Witness-Constraint)]] - paper - references/mooc/lecture14/slides.pdf
+- [[Circuit Gadget]] - paper - references/mooc/lecture03/slides.pdf
+- [[Circuit Synthesis Library]] - paper - references/mooc/lecture03/slides.pdf
+- [[Constraint System]] - document - proving-nothing.md
+- [[Gadgetlib (C++ R1CS Library)]] - paper - references/mooc/lecture03/slides.pdf
+- [[Hardware Description Language (HDL) for R1CS]] - paper - references/mooc/lecture03/slides.pdf
+- [[Over-Constrained Circuit]] - paper - references/mooc/lecture14/slides.pdf
+- [[Snarky (OCaml Circuit Library)]] - paper - references/mooc/lecture03/slides.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -29,9 +29,18 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 2 edges to [[_COMMUNITY_Community 92]]
-- 2 edges to [[_COMMUNITY_Community 108]]
+- 6 edges to [[_COMMUNITY_Community 11]]
+- 3 edges to [[_COMMUNITY_Community 5]]
+- 2 edges to [[_COMMUNITY_Community 94]]
+- 1 edge to [[_COMMUNITY_Community 1]]
+- 1 edge to [[_COMMUNITY_Community 19]]
+- 1 edge to [[_COMMUNITY_Community 72]]
+- 1 edge to [[_COMMUNITY_Community 124]]
+- 1 edge to [[_COMMUNITY_Community 15]]
 
 ## Top bridge nodes
-- [[Quantum prime factorization algorithm]] - degree 6, connects to 2 communities
-- [[Quantum order-finding (period-finding) subroutine]] - degree 5, connects to 1 community
+- [[Constraint System]] - degree 13, connects to 5 communities
+- [[Circuit Equivalence (Witness-Constraint)]] - degree 4, connects to 2 communities
+- [[Bellman (Rust R1CS Library)]] - degree 3, connects to 2 communities
+- [[Circuit Synthesis Library]] - degree 6, connects to 1 community
+- [[Arkworks (Rust R1CS Library)]] - degree 3, connects to 1 community

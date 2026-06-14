@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-21-neo.pdf"
 type: "paper"
-community: "Community 26"
+community: "Community 62"
 location: "Thm 5, §5, Def 19"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_26
+  - community/Community_62
 ---
 
 # Theorem 5: composition theorem (restricted + relaxed knowledge soundness compose to RoK)
@@ -17,4 +17,4 @@ tags:
 - [[Pi_RLC random linear combination reduction (folds k+1 norm-b claims into one norm-B)]] - `conceptually_related_to` [EXTRACTED]
 - [[Reductions of knowledge framework]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_26
+#graphify/paper #graphify/EXTRACTED #community/Community_62

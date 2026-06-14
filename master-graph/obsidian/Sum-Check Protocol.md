@@ -1,12 +1,12 @@
 ---
 source_file: "recursion/recursion-outline.md"
 type: "document"
-community: "Community 28"
+community: "Community 23"
 location: "Recursion Chapter 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_28
+  - community/Community_23
 ---
 
 # Sum-Check Protocol
@@ -21,9 +21,10 @@ tags:
 - [[CCS The Rosetta Stone]] - `references` [EXTRACTED]
 - [[CMT protocol (Cormode-Mitzenmacher-Thaler interactive proof for layered arithmetic circuits)]] - `assumes` [EXTRACTED]
 - [[Commitment Transformation Protocol Pi_cm]] - `conceptually_related_to` [EXTRACTED]
+- [[Completeness]] - `relates_to` [EXTRACTED]
 - [[Construction 1 multi-folding scheme for CCS over a cycle of curves]] - `assumes` [EXTRACTED]
 - [[Cormode-Thaler-Yi (CTY11) linear-time and sparse streaming sum-check provers]] - `conceptually_related_to` [EXTRACTED]
-- [[Counting Triangles IP]] - `uses` [EXTRACTED]
+- [[Counting Triangles IP]] - `applies` [EXTRACTED]
 - [[Customizable Constraint Systems for Succinct Arguments]] - `conceptually_related_to` [EXTRACTED]
 - [[Delegating Computation Interactive Proofs for Muggles (GKR, STOC 2008  full version)]] - `defines` [EXTRACTED]
 - [[Delegating F~ evaluation via sequence of sum-checks verifier time O(log2 N), proof size O(log2 N)]] - `conceptually_related_to` [EXTRACTED]
@@ -31,12 +32,13 @@ tags:
 - [[Encoding the Performance]] - `references` [EXTRACTED]
 - [[Finite Field Arithmetic]] - `uses` [EXTRACTED]
 - [[Folding Scheme]] - `relates_to` [EXTRACTED]
-- [[GKR protocol doubly-efficient interactive proof for bounded-depth computation via layer-by-layer sumcheck reduction; prover need not commit to full trace]] - `uses` [EXTRACTED]
+- [[GKR protocol doubly-efficient interactive proof for bounded-depth computation via layer-by-layer sumcheck reduction; prover need not commit to full trace]] - `builds_on` [EXTRACTED]
 - [[Glossary of Key Terms]] - `defines` [EXTRACTED]
 - [[Grand Product Argument (accumulator polynomial Z)]] - `conceptually_related_to` [EXTRACTED]
 - [[HyperNova]] - `references` [EXTRACTED]
 - [[HyperNova Recursive Arguments for Customizable Constraint Systems]] - `conceptually_related_to` [EXTRACTED]
 - [[HyperPlonk]] - `uses` [EXTRACTED]
+- [[IP = PSPACE (Shamir's Theorem)]] - `uses` [EXTRACTED]
 - [[Incrementally Verifiable Computation (IVC)]] - `relates_to` [EXTRACTED]
 - [[Interactive Oracle Proofs]] - `uses` [EXTRACTED]
 - [[Interactive Proof (IP) prover-verifier protocol with statistical soundness]] - `builds_on` [EXTRACTED]
@@ -67,10 +69,12 @@ tags:
 - [[Nightstream Lattice-Based Folding for CCS (LFDT-Nightstream)]] - `references` [EXTRACTED]
 - [[Nova Recursive Zero-Knowledge Arguments from Folding Schemes]] - `conceptually_related_to` [EXTRACTED]
 - [[Optimized Single-Sumcheck Batch Folding (Pi_batch)]] - `conceptually_related_to` [EXTRACTED]
+- [[Oracle Access]] - `uses` [EXTRACTED]
 - [[Pi_CCS reduction (CCS to linearizedmatrix-eval claims via sum-check)]] - `assumes` [EXTRACTED]
 - [[Polynomial Commitment Scheme]] - `uses` [EXTRACTED]
 - [[Polynomial IOP for Idealized Relaxed R1CS (Construction 5)]] - `assumes` [EXTRACTED]
 - [[Proofs, Arguments, and Zero-Knowledge (Justin Thaler, survey textbook)]] - `explains` [EXTRACTED]
+- [[Prover]] - `uses` [EXTRACTED]
 - [[Proving CPU Executions in Small Space]] - `references` [EXTRACTED]
 - [[R1CS (Rank-1 Constraint Systems)]] - `relates_to` [EXTRACTED]
 - [[Real-Time Ethereum Proving]] - `references` [EXTRACTED]
@@ -80,6 +84,7 @@ tags:
 - [[Schwartz-Zippel Lemma]] - `uses` [INFERRED]
 - [[Setty, Spartan Efficient and General-Purpose zkSNARKs without Trusted Setup (CRYPTO 2020  ePrint 2019550)]] - `cites` [EXTRACTED]
 - [[Shout sum-check memory-checking  lookup argument for read-only memory]] - `assumes` [EXTRACTED]
+- [[Soundness]] - `relates_to` [EXTRACTED]
 - [[Soundness Error]] - `defines` [EXTRACTED]
 - [[Spark optimal sparse multilinear PCS from Spartan; evaluates m-sparse poly in O(c·m) time via c memories of size N{1c}]] - `assumes` [EXTRACTED]
 - [[Sparrow (PP24) sqrt-space SNARK for data-parallel circuits]] - `assumes` [EXTRACTED]
@@ -112,6 +117,7 @@ tags:
 - [[Univariate Lagrange Interpolation]] - `uses` [EXTRACTED]
 - [[Univariate Polynomial]] - `uses` [EXTRACTED]
 - [[Verifiable computation]] - `uses` [EXTRACTED]
+- [[Verifier]] - `uses` [EXTRACTED]
 - [[Where the Analogies Break]] - `references` [EXTRACTED]
 - [[Where the Layers Collapse]] - `references` [EXTRACTED]
 - [[Witness Generation Costs]] - `references` [EXTRACTED]
@@ -122,4 +128,4 @@ tags:
 - [[vSQL verifiable database system for arbitrary SQL queries over dynamic outsourced databases]] - `cites` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_28
+#graphify/document #graphify/EXTRACTED #community/Community_23

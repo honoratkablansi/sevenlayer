@@ -1,12 +1,12 @@
 ---
 source_file: "wiki/sections/ch08-who-verifies-the-verifier.md"
 type: "document"
-community: "Community 8"
+community: "Community 9"
 location: "Who Verifies the Verifier?"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_8
+  - community/Community_9
 ---
 
 # Who Verifies the Verifier?
@@ -24,4 +24,4 @@ tags:
 - [[Tornado Cash Governance Attack (May 2023)]] - `references` [EXTRACTED]
 - [[When the Transcript Lies Fiat-Shamir Vulnerabilities]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_8
+#graphify/document #graphify/EXTRACTED #community/Community_9

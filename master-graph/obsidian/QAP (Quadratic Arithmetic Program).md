@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 42"
+community: "Community 34"
 location: "Chapter 5"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_42
+  - community/Community_34
 ---
 
 # QAP (Quadratic Arithmetic Program)
@@ -14,23 +14,28 @@ tags:
 ## Connections
 - [[3-Element Pairing-based SNARK for Arithmetic Circuit SAT]] - `defines` [EXTRACTED]
 - [[Bilinear Pairing]] - `uses` [EXTRACTED]
-- [[GGPR Linear PCP (Gennaro-Gentry-Parno-Raykova)]] - `compiles_to` [EXTRACTED]
+- [[Circuit Satisfiability front ends compiling computer programs into arithmetic circuits  circuit-SAT instances]] - `compiles_to` [EXTRACTED]
+- [[Extended Witness]] - `relates_to` [EXTRACTED]
+- [[GGPR Linear PCP (Gennaro-Gentry-Parno-Raykova)]] - `defines` [EXTRACTED]
 - [[Gennaro, Gentry, Parno, Raykova - QAPNIZK (2012)]] - `introduces` [EXTRACTED]
 - [[Gennaro, Gentry, Parno, Raykova — QAP (Eurocrypt 2013)]] - `introduces` [EXTRACTED]
 - [[Gennaro-Gentry-Parno-Raykova QSPQAP and Succinct NIZKs (GGPR13)]] - `cites` [EXTRACTED]
-- [[Groth16]] - `conceptually_related_to` [EXTRACTED]
-- [[Linear PCP]] - `defines` [EXTRACTED]
+- [[Groth16]] - `builds_on` [EXTRACTED]
+- [[Linear PCP]] - `relates_to` [EXTRACTED]
+- [[Master Polynomial]] - `defines` [EXTRACTED]
 - [[Non-interactive Linear Proof (NILP) for Quadratic Arithmetic Programs]] - `defines` [EXTRACTED]
 - [[On the Size of Pairing-Based Non-interactive Arguments]] - `conceptually_related_to` [EXTRACTED]
 - [[Parno-Howell-Gentry-Raykova Pinocchio (PHGR13)]] - `conceptually_related_to` [EXTRACTED]
-- [[Pinocchio]] - `uses` [EXTRACTED]
-- [[R1CS (Rank-1 Constraint Systems)]] - `relates_to` [EXTRACTED]
-- [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `uses` [EXTRACTED]
+- [[Pinocchio]] - `builds_on` [EXTRACTED]
+- [[R1CS (Rank-1 Constraint Systems)]] - `generalizes` [EXTRACTED]
+- [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `compiles_to` [EXTRACTED]
+- [[Selector Polynomial S(X)]] - `uses` [EXTRACTED]
 - [[The Promise of Provable and Programmable Secrets]] - `references` [EXTRACTED]
 - [[Theorem 5  Lemma 8 Pinocchio cannot be made updatable]] - `conceptually_related_to` [EXTRACTED]
 - [[Two-phase split SRS universal srs_u (phase 1) + specialized srs_s (phase 2), phi_max=2]] - `conceptually_related_to` [EXTRACTED]
 - [[Updatable & specializable QAP-based zk-SNARK construction]] - `assumes` [EXTRACTED]
 - [[Updatable and Universal Common Reference Strings with Applications to zk-SNARKs]] - `references` [EXTRACTED]
+- [[Vanishing Polynomial]] - `uses` [EXTRACTED]
 - [[Verifiable computation]] - `uses` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_42
+#graphify/document #graphify/EXTRACTED #community/Community_34

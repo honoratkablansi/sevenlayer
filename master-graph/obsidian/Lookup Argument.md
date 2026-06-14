@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 2"
+community: "Community 11"
 location: "Chapter 5"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_2
+  - community/Community_11
 ---
 
 # Lookup Argument
@@ -15,17 +15,21 @@ tags:
 - [[Ariel Gabizon]] - `references` [EXTRACTED]
 - [[CCS+ CCS extended with read-only lookup-table operations]] - `defines` [EXTRACTED]
 - [[CCS The Rosetta Stone]] - `references` [EXTRACTED]
+- [[Constraint System]] - `builds_on` [EXTRACTED]
 - [[Custom proof system for lattice hash range proof (Plookup) + Freivalds + univariate SumCheck (Aurora)]] - `assumes` [EXTRACTED]
 - [[Customizable Constraint Systems for Succinct Arguments]] - `conceptually_related_to` [EXTRACTED]
+- [[EVM Circuit]] - `uses` [EXTRACTED]
 - [[Encoding the Performance]] - `part_of` [EXTRACTED]
 - [[FRI Commitment Scheme]] - `references` [EXTRACTED]
 - [[GKR protocol doubly-efficient interactive proof for bounded-depth computation via layer-by-layer sumcheck reduction; prover need not commit to full trace]] - `references` [EXTRACTED]
+- [[Grand Product Argument (accumulator polynomial Z)]] - `builds_on` [EXTRACTED]
 - [[HyperNova Recursive Arguments for Customizable Constraint Systems]] - `conceptually_related_to` [EXTRACTED]
 - [[HyperPlonk]] - `uses` [EXTRACTED]
 - [[Indexed lookup argument (commit to value vector a and index vector b, prove a_i = tb_i)]] - `conceptually_related_to` [EXTRACTED]
 - [[Jolt (zkVM via Lookups)]] - `references` [EXTRACTED]
 - [[Jolt SNARKs for Virtual Machines via Lookups]] - `conceptually_related_to` [EXTRACTED]
 - [[KZG Polynomial Commitments from pairings (with trusted setup); Dory transparent pairing-based scheme]] - `uses` [EXTRACTED]
+- [[Keccak Circuit]] - `uses` [EXTRACTED]
 - [[Lasso]] - `defines` [EXTRACTED]
 - [[Lasso lookup argument for SOSsmall tables, prover commits to 3cm + c·N{1c} small field elements]] - `defines` [EXTRACTED]
 - [[Layer 4 -- Arithmetization]] - `references` [EXTRACTED]
@@ -36,16 +40,20 @@ tags:
 - [[Offline Memory Checking]] - `conceptually_related_to` [EXTRACTED]
 - [[Offline Memory Checking  Algebraic RAM Reduction]] - `references` [EXTRACTED]
 - [[PLONK]] - `extends` [EXTRACTED]
-- [[PLONKish Arithmetization]] - `references` [EXTRACTED]
+- [[PLONKish Arithmetization]] - `defines` [EXTRACTED]
 - [[Plonky3]] - `references` [EXTRACTED]
 - [[Plookup]] - `defines` [EXTRACTED]
 - [[Polygon]] - `references` [EXTRACTED]
 - [[Poseidon Hash]] - `references` [EXTRACTED]
+- [[Prime Field Arithmetic]] - `uses` [EXTRACTED]
 - [[Prior lookup arguments plookup GW20b, Halo2 BGH20, cq EFG22, Caulk ZBK+22, flookup GK22, Baloo ZGK+22, log-derivative lookups]] - `conceptually_related_to` [EXTRACTED]
 - [[ProtoStar]] - `references` [EXTRACTED]
 - [[Protostar Generic Efficient AccumulationFolding for Special-sound Protocols]] - `conceptually_related_to` [EXTRACTED]
 - [[Purely Algebraic Range Proof (no bit-decomposition)]] - `conceptually_related_to` [INFERRED]
+- [[RAM Circuit]] - `uses` [EXTRACTED]
 - [[RISC-V architecture]] - `references` [EXTRACTED]
+- [[Random Linear Combination (RLC)]] - `relates_to` [EXTRACTED]
+- [[Range Proof]] - `uses` [EXTRACTED]
 - [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `used` [EXTRACTED]
 - [[SP1 Hypercube (Succinct)]] - `references` [EXTRACTED]
 - [[STARK]] - `references` [EXTRACTED]
@@ -70,4 +78,4 @@ tags:
 - [[Zero-Knowledge Proof]] - `uses` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_2
+#graphify/document #graphify/EXTRACTED #community/Community_11

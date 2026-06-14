@@ -1,37 +1,36 @@
 ---
 type: community
-cohesion: 0.15
-members: 22
+cohesion: 0.13
+members: 21
 ---
 
 # Community 55
 
-**Cohesion:** 0.15 - loosely connected
-**Members:** 22 nodes
+**Cohesion:** 0.13 - loosely connected
+**Members:** 21 nodes
 
 ## Members
-- [[Applications user-defined assets, private DEXs, regulation-friendly stablecoins]] - paper - references/recursion/ch3/ref-90-zexe.pdf
-- [[Bespoke depth-2 (one-layer) recursion inner predicate proofs verified by outer proof]] - paper - references/recursion/ch3/ref-90-zexe.pdf
-- [[Birth and death predicates governing record creation and consumption]] - paper - references/recursion/ch3/ref-90-zexe.pdf
-- [[Cocks-Pinch bounded recursion BLS12 curve E_BLS + Cocks-Pinch curve E_CP (avoids full cycle)]] - paper - references/recursion/ch3/ref-90-zexe.pdf
-- [[Coda MS18 arbitrary-depth recursive SNARK composition for succinct blockchains]] - paper - references/recursion/ch3/ref-90-zexe.pdf
-- [[Consumability each record consumable at least and at most once (anti faerie-gold)]] - paper - references/recursion/ch3/ref-90-zexe.pdf
-- [[DPC security construction realizes F_DPC under simulation-extractable NIZK (proof in App. A)]] - paper - references/recursion/ch3/ref-90-zexe.pdf
-- [[Data privacy transaction hides payloadsinputsoutputs of records]] - paper - references/recursion/ch3/ref-90-zexe.pdf
-- [[Decentralized Private Computation (DPC) scheme]] - paper - references/recursion/ch3/ref-90-zexe.pdf
-- [[Delegable DPC delegate proof generation to untrusted worker via randomizable signatures]] - paper - references/recursion/ch3/ref-90-zexe.pdf
-- [[Function privacy transaction hides WHICH predicatefunction was executed]] - paper - references/recursion/ch3/ref-90-zexe.pdf
-- [[Groth-Maller simulation-extractable zkSNARK GM17 used in implementation]] - paper - references/recursion/ch3/ref-90-zexe.pdf
-- [[Hawk KMS+16 offline computation with data privacy but no function privacy]] - paper - references/recursion/ch3/ref-90-zexe.pdf
-- [[Ideal functionality F_DPC capturing DPC security (UC-style, single execution)]] - paper - references/recursion/ch3/ref-90-zexe.pdf
-- [[Pedersen commitmentshashes over twisted Edwards curves E_EdBLS, E_EdCP for efficient circuits]] - paper - references/recursion/ch3/ref-90-zexe.pdf
-- [[Prior recursive SNARK composition over a 2-cycle of curves BCTV17]] - paper - references/recursion/ch3/ref-90-zexe.pdf
-- [[Record (commitment, address pk, payload, birthdeath predicate, serial number)]] - paper - references/recursion/ch3/ref-90-zexe.pdf
-- [[Records nano-kernel (RNK) minimalist shared execution environment over records]] - paper - references/recursion/ch3/ref-90-zexe.pdf
-- [[Succinctness transactions validated in time independent of offline computation (968 bytes)]] - paper - references/recursion/ch3/ref-90-zexe.pdf
-- [[The 'execute' NP statement R_e proved in zero knowledge per transaction]] - paper - references/recursion/ch3/ref-90-zexe.pdf
-- [[Transaction non-malleability security goal]] - paper - references/recursion/ch3/ref-90-zexe.pdf
-- [[Zexe a ledger-based system for decentralized private computation]] - paper - references/recursion/ch3/ref-90-zexe.pdf
+- [[Aggregation tree (recursive verification tree)]] - paper - references/recursion/ch1/ref-21-zktree.pdf
+- [[Circuit-hash and input-hash Merkle roots at zkTree root]] - paper - references/recursion/ch1/ref-21-zktree.pdf
+- [[Comparison vs deVirgo zkTree avoids central machine  circuit-splitting rigidity]] - paper - references/recursion/ch1/ref-21-zktree.pdf
+- [[Distributed proof generation with independent same-level proofs (no inter-worker comms)]] - paper - references/recursion/ch1/ref-21-zktree.pdf
+- [[Ed25519Tendermint evaluation 32 sigs verified on ETH, 77s end-to-end, 230k gas]] - paper - references/recursion/ch1/ref-21-zktree.pdf
+- [[Groth16 wrap-circuit splitting tradeoff per-FRI-query sub-circuits trade prover speed vs on-chain cost]] - paper - references/recursion/ch1/ref-21-zktree.pdf
+- [[Heterogeneous zk proofs in a single tree (claim of novelty over prior trees)]] - paper - references/recursion/ch1/ref-21-zktree.pdf
+- [[Hierarchical SNARK aggregation tree (origin of shared-verification-cost trees)]] - paper - references/recursion/ch1/ref-21-zktree.pdf
+- [[Intermediate bn128-Poseidon Plonky2 proof to eliminate non-native range checks]] - paper - references/recursion/ch1/ref-21-zktree.pdf
+- [[Leaf builder L_i(pi_i,{x_i},VD_i) - upsilon_i,h_i,c_i]] - paper - references/recursion/ch1/ref-21-zktree.pdf
+- [[Merkle ZKP membership proof]] - paper - references/recursion/ch1/ref-21-zktree.pdf
+- [[Node builder combining leafnode pairs into omega_k,h_k,c_k]] - paper - references/recursion/ch1/ref-21-zktree.pdf
+- [[On-chain verifier Plonky2 root recursively wrapped into Groth16 (230k gas)]] - paper - references/recursion/ch1/ref-21-zktree.pdf
+- [[Plonky2]] - document - recursion/recursion-outline.md
+- [[Plonky2 Fast Recursive Arguments with PLONK and FRI (2022)]] - document - references/recursion/ch1/ref-07-plonky2.md
+- [[Polygon Zero]] - document - references/recursion/ch1/ref-07-plonky2.md
+- [[RSA Accumulator]] - paper - references/snowball/book/ref-115-scaling-verifiable-computation-using-efficient-s.pdf
+- [[Three zkTree proof types user proof, leaf proof, node proof]] - paper - references/recursion/ch1/ref-21-zktree.pdf
+- [[zkBridge  deVirgo distributed proving via circuit splitting (Xie et al.)]] - paper - references/recursion/ch1/ref-21-zktree.pdf
+- [[zkTree costtime model gen time ~ log(n) node-proof times; comm cost n x proof size (~130KB)]] - paper - references/recursion/ch1/ref-21-zktree.pdf
+- [[zkTree zero-knowledge recursion tree with ZKP membership proofs]] - paper - references/recursion/ch1/ref-21-zktree.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -41,16 +40,18 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 3 edges to [[_COMMUNITY_Community 25]]
-- 3 edges to [[_COMMUNITY_Community 100]]
-- 3 edges to [[_COMMUNITY_Community 19]]
-- 2 edges to [[_COMMUNITY_Community 4]]
-- 2 edges to [[_COMMUNITY_Community 24]]
-- 1 edge to [[_COMMUNITY_Community 47]]
+- 4 edges to [[_COMMUNITY_Community 24]]
+- 3 edges to [[_COMMUNITY_Community 9]]
+- 3 edges to [[_COMMUNITY_Community 3]]
+- 2 edges to [[_COMMUNITY_Community 11]]
+- 2 edges to [[_COMMUNITY_Community 0]]
+- 1 edge to [[_COMMUNITY_Community 20]]
+- 1 edge to [[_COMMUNITY_Community 5]]
+- 1 edge to [[_COMMUNITY_Community 92]]
 
 ## Top bridge nodes
-- [[Zexe a ledger-based system for decentralized private computation]] - degree 14, connects to 3 communities
-- [[Decentralized Private Computation (DPC) scheme]] - degree 10, connects to 1 community
-- [[Records nano-kernel (RNK) minimalist shared execution environment over records]] - degree 6, connects to 1 community
-- [[Bespoke depth-2 (one-layer) recursion inner predicate proofs verified by outer proof]] - degree 6, connects to 1 community
-- [[The 'execute' NP statement R_e proved in zero knowledge per transaction]] - degree 5, connects to 1 community
+- [[Plonky2]] - degree 8, connects to 5 communities
+- [[zkTree zero-knowledge recursion tree with ZKP membership proofs]] - degree 14, connects to 3 communities
+- [[RSA Accumulator]] - degree 3, connects to 2 communities
+- [[Groth16 wrap-circuit splitting tradeoff per-FRI-query sub-circuits trade prover speed vs on-chain cost]] - degree 3, connects to 2 communities
+- [[Aggregation tree (recursive verification tree)]] - degree 5, connects to 1 community

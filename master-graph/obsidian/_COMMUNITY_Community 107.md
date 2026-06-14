@@ -1,26 +1,27 @@
 ---
 type: community
-cohesion: 0.22
-members: 11
+cohesion: 0.29
+members: 12
 ---
 
 # Community 107
 
-**Cohesion:** 0.22 - loosely connected
-**Members:** 11 nodes
+**Cohesion:** 0.29 - loosely connected
+**Members:** 12 nodes
 
 ## Members
-- [[Buterin, A rollup-centric ethereum roadmap (2020)]] - document - references/recursion/ch3/ref-54-ethereum-rollup-centric-roadmap.md
-- [[Cross-L2 transfers and interoperability]] - document - references/recursion/ch3/ref-54-ethereum-rollup-centric-roadmap.md
-- [[Danksharding  proto-danksharding (EIP-4844 blobs)]] - document - references/recursion/ch3/ref-56-ethereum-org-zkevm-roadmap.md
-- [[Data availability layer (base layer as DA for rollups)]] - document - references/recursion/ch3/ref-54-ethereum-rollup-centric-roadmap.md
-- [[PeerDAS (peer-to-peer data availability sampling, Fusaka)]] - document - references/recursion/ch3/ref-56-ethereum-org-zkevm-roadmap.md
-- [[Phase 1.5 and done (base layer for consensus and DA only)]] - document - references/recursion/ch3/ref-54-ethereum-rollup-centric-roadmap.md
-- [[Rollup-centric Ethereum scaling roadmap]] - document - references/recursion/ch3/ref-54-ethereum-rollup-centric-roadmap.md
-- [[Sharding dropped in favor of rollup scaling]] - document - references/recursion/ch3/ref-56-ethereum-org-zkevm-roadmap.md
-- [[Single slot finality]] - document - references/recursion/ch3/ref-56-ethereum-org-zkevm-roadmap.md
-- [[Statelessness (stateless clients verify blocks without storing state)]] - document - references/recursion/ch3/ref-56-ethereum-org-zkevm-roadmap.md
-- [[ethereum.org Ethereum roadmap page (zkEVM)]] - document - references/recursion/ch3/ref-56-ethereum-org-zkevm-roadmap.md
+- [[Automated translation layer compiling TensorFlow Lite models into halo2 circuits (columngate minimization, lookup-table sharing)]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[Evaluation claim ImageNet-scale MobileNet v2 SNARKs up to 79.2% top-5 accuracy; 10x-1000x lower proving time than prior work (Zen, vCNN, pvCNN, zkCNN)]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[MobileNet v2 (Sandler et al. 2018) inverted-residual CNN architecture used as the proved model]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[Proof of model provenance committing to hidden weights via a SNARK-friendly hash so a provider can prove it ran a specific committed model]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[Proof-of-inference first ImageNet-scale ZK-SNARK proof of valid DNN inference (MobileNet v2), 79% top-5 accuracy, verifiable in ~10s]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[Protocol for verifying MLaaS model accuracy with hidden weights, using ZK-SNARKs plus stakingescrow economic incentives]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[Protocol for verifying MLaaS predictions in rounds, with random-contest sampling so a ZK-SNARK is not needed for every prediction]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[Scaling up Trustless DNN Inference with Zero-Knowledge Proofs (Kang, Hashimoto, Stoica, Sun, 2022)]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[Secure ML via MPC  homomorphic encryption  interactive proofs (Ghodsi SafetyNets 2017, Mohassel SecureML 2017, Knott CrypTen 2021, GAZELLE, Delphi) impractical against malicious adversaries o_cb9fbadd]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[Trustless retrieval ZK-SNARK protocol for returning documents matching an ML-encoded predicate (FOIA  legal-discovery use cases)]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[Use of the SNARK-friendly Poseidon hash to commit to hidden inputs andor weights inside the circuit]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[Verifiable  trustless DNN inference model consumer verifies that the model provider served correct predictions in an untrusted (MLaaS) setting]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -30,11 +31,15 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 2 edges to [[_COMMUNITY_Community 60]]
-- 1 edge to [[_COMMUNITY_Community 16]]
-- 1 edge to [[_COMMUNITY_Community 75]]
+- 4 edges to [[_COMMUNITY_Community 79]]
+- 4 edges to [[_COMMUNITY_Community 87]]
+- 3 edges to [[_COMMUNITY_Community 132]]
+- 3 edges to [[_COMMUNITY_Community 50]]
+- 1 edge to [[_COMMUNITY_Community 11]]
 
 ## Top bridge nodes
-- [[Rollup-centric Ethereum scaling roadmap]] - degree 7, connects to 1 community
-- [[ethereum.org Ethereum roadmap page (zkEVM)]] - degree 6, connects to 1 community
-- [[Cross-L2 transfers and interoperability]] - degree 2, connects to 1 community
+- [[Scaling up Trustless DNN Inference with Zero-Knowledge Proofs (Kang, Hashimoto, Stoica, Sun, 2022)]] - degree 16, connects to 4 communities
+- [[Verifiable  trustless DNN inference model consumer verifies that the model provider served correct predictions in an untrusted (MLaaS) setting]] - degree 8, connects to 2 communities
+- [[Proof-of-inference first ImageNet-scale ZK-SNARK proof of valid DNN inference (MobileNet v2), 79% top-5 accuracy, verifiable in ~10s]] - degree 6, connects to 1 community
+- [[Evaluation claim ImageNet-scale MobileNet v2 SNARKs up to 79.2% top-5 accuracy; 10x-1000x lower proving time than prior work (Zen, vCNN, pvCNN, zkCNN)]] - degree 3, connects to 1 community
+- [[Use of the SNARK-friendly Poseidon hash to commit to hidden inputs andor weights inside the circuit]] - degree 3, connects to 1 community

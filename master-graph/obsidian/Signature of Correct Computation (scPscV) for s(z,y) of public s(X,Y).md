@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-36-sonic.pdf"
 type: "paper"
-community: "Community 14"
+community: "Community 70"
 location: "§4.5, §7, §8"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_14
+  - community/Community_70
 ---
 
 # Signature of Correct Computation (scP/scV) for s(z,y) of public s(X,Y)
@@ -16,4 +16,4 @@ tags:
 - [[Sonic zk-SNARK (universal & updatable linear-size SRS)]] - `assumes` [EXTRACTED]
 - [[Unhelped (standalone) signature of correct computation — succinct verifier, higher overhead]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_14
+#graphify/paper #graphify/EXTRACTED #community/Community_70

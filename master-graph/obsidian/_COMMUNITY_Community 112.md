@@ -1,25 +1,26 @@
 ---
 type: community
-cohesion: 0.27
-members: 10
+cohesion: 0.24
+members: 11
 ---
 
 # Community 112
 
-**Cohesion:** 0.27 - loosely connected
-**Members:** 10 nodes
+**Cohesion:** 0.24 - loosely connected
+**Members:** 11 nodes
 
 ## Members
-- [[Commitment Scheme]] - paper - references/ch06/ref-21-neo.pdf
-- [[Computational Binding]] - paper - references/books/proofs-args-zk.pdf
-- [[Computational Zero-Knowledge]] - paper - references/books/proofs-args-zk.pdf
-- [[Graph 3-Coloring (G3-COLOR)]] - paper - references/mooc/lecture01/slides.pdf
-- [[NP-Completeness and Reducibility]] - paper - references/mooc/lecture01/slides.pdf
-- [[One-Way Function]] - paper - references/mooc/lecture01/slides.pdf
-- [[Pay-Per-Bit Commitment]] - paper - references/ch06/ref-21-neo.pdf
-- [[Ring-SIS]] - paper - references/snowball/recursion/ref-133-a-non-pcp-approach-to-succinct-quantum-safe-zero.pdf
-- [[Three-Coloring Zero-Knowledge Proof (GMW)]] - paper - references/mooc/lecture01/slides.pdf
-- [[ZKP Applications (Blockchain, Forensics, Nuclear Disarmament, Legal)]] - paper - references/mooc/lecture01/slides.pdf
+- [[Augmented constraint systems R1 and R2 (Fig 1a1b) each folds opposite-field instance, hashes carry public IO across the cycle]] - paper - references/recursion/ch1/ref-32-nguyen-boneh-setty-nova-cycle.pdf
+- [[Committed relaxed R1CS over the ring R = F1 x F2 (binding, additively-homomorphic, succinct commitments)]] - paper - references/recursion/ch1/ref-32-nguyen-boneh-setty-nova-cycle.pdf
+- [[General binding lesson every claimed running instance must be cryptographically bound (via hashcopy constraints) to the witness actually folded into it]] - paper - references/recursion/ch1/ref-32-nguyen-boneh-setty-nova-cycle.pdf
+- [[IVC proof compression a final fold (without SNARK) plus Spartan zkSNARK over R_sat yields the CompressedSNARK]] - paper - references/recursion/ch1/ref-32-nguyen-boneh-setty-nova-cycle.pdf
+- [[Modified 2-cycle Nova IVC scheme shorter proofs (eliminates one R1CS instance-witness pair), proven sound; adopted upstream (PR 167)]] - paper - references/recursion/ch1/ref-32-nguyen-boneh-setty-nova-cycle.pdf
+- [[Nova IVC proofs are malleable attacker mauls final z_i to z'_i (different last aux) without knowing earlier aux values]] - paper - references/recursion/ch1/ref-32-nguyen-boneh-setty-nova-cycle.pdf
+- [[Revisiting the Nova Proof System on a Cycle of Curves (Nguyen, Boneh, Setty, ePrint 2023969)]] - paper - references/recursion/ch1/ref-32-nguyen-boneh-setty-nova-cycle.pdf
+- [[Setty — Spartan efficient general-purpose zkSNARKs without trusted setup (CRYPTO 2020) 16]] - paper - references/recursion/ch1/ref-32-nguyen-boneh-setty-nova-cycle.pdf
+- [[Theorem 1 if the folding scheme is knowledge-sound and the hash is collision-resistant, the modified 2-cycle Nova IVC is knowledge-sound]] - paper - references/recursion/ch1/ref-32-nguyen-boneh-setty-nova-cycle.pdf
+- [[Three malleability mitigations zkSNARK compression (simulation-extractable), context in vk, and incremental context (range-keyed vk swap)]] - paper - references/recursion/ch1/ref-32-nguyen-boneh-setty-nova-cycle.pdf
+- [[Two parallel IVC chains over a curve cycle that must be linked (R1CS(1)R1CS(2) over ring R = F1 x F2)]] - paper - references/recursion/ch1/ref-32-nguyen-boneh-setty-nova-cycle.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -29,19 +30,14 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 5 edges to [[_COMMUNITY_Community 22]]
-- 3 edges to [[_COMMUNITY_Community 29]]
-- 1 edge to [[_COMMUNITY_Community 36]]
-- 1 edge to [[_COMMUNITY_Community 21]]
-- 1 edge to [[_COMMUNITY_Community 0]]
-- 1 edge to [[_COMMUNITY_Community 124]]
-- 1 edge to [[_COMMUNITY_Community 7]]
-- 1 edge to [[_COMMUNITY_Community 25]]
-- 1 edge to [[_COMMUNITY_Community 79]]
+- 4 edges to [[_COMMUNITY_Community 39]]
+- 4 edges to [[_COMMUNITY_Community 129]]
+- 2 edges to [[_COMMUNITY_Community 5]]
+- 1 edge to [[_COMMUNITY_Community 16]]
 
 ## Top bridge nodes
-- [[Commitment Scheme]] - degree 15, connects to 7 communities
-- [[Graph 3-Coloring (G3-COLOR)]] - degree 3, connects to 2 communities
-- [[ZKP Applications (Blockchain, Forensics, Nuclear Disarmament, Legal)]] - degree 3, connects to 2 communities
-- [[Computational Zero-Knowledge]] - degree 6, connects to 1 community
-- [[Three-Coloring Zero-Knowledge Proof (GMW)]] - degree 4, connects to 1 community
+- [[Revisiting the Nova Proof System on a Cycle of Curves (Nguyen, Boneh, Setty, ePrint 2023969)]] - degree 9, connects to 2 communities
+- [[Modified 2-cycle Nova IVC scheme shorter proofs (eliminates one R1CS instance-witness pair), proven sound; adopted upstream (PR 167)]] - degree 5, connects to 2 communities
+- [[General binding lesson every claimed running instance must be cryptographically bound (via hashcopy constraints) to the witness actually folded into it]] - degree 3, connects to 2 communities
+- [[Nova IVC proofs are malleable attacker mauls final z_i to z'_i (different last aux) without knowing earlier aux values]] - degree 3, connects to 1 community
+- [[Theorem 1 if the folding scheme is knowledge-sound and the hash is collision-resistant, the modified 2-cycle Nova IVC is knowledge-sound]] - degree 3, connects to 1 community

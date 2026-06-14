@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 84"
+community: "Community 7"
 location: "Chapter 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_84
+  - community/Community_7
 ---
 
 # The Bar ID / Proof at the Door Scenario
@@ -15,4 +15,4 @@ tags:
 - [[Completeness]] - `explains` [EXTRACTED]
 - [[Selective Disclosure]] - `explains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_84
+#graphify/document #graphify/EXTRACTED #community/Community_7

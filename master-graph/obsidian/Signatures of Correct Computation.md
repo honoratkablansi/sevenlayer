@@ -1,12 +1,12 @@
 ---
 source_file: "references/snowball/book/ref-101-signatures-of-correct-computation.pdf"
 type: "paper"
-community: "Community 87"
+community: "Community 90"
 location: "abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_87
+  - community/Community_90
 ---
 
 # Signatures of Correct Computation
@@ -17,4 +17,4 @@ tags:
 - [[Publicly Verifiable Computation]] - `relates_to` [EXTRACTED]
 - [[Verifiable computation]] - `improves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_87
+#graphify/paper #graphify/EXTRACTED #community/Community_90

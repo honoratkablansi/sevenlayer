@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-10-fractal.pdf"
 type: "paper"
-community: "Community 74"
+community: "Community 2"
 location: "Theorem 2, §1.1(2); §7–§8"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_74
+  - community/Community_2
 ---
 
 # Theorem 2: efficient public-coin zero-knowledge holographic IOP for indexed relation R_R1CS (O(m log m) indexer/prover, O(|x|+log m) verifier, O(log m) queries)
@@ -22,4 +22,4 @@ tags:
 - [[Reed–Solomon-encoded IOP (RS-encoded holographic IOP) with rational constraints over prover messages]] - `conceptually_related_to` [EXTRACTED]
 - [[Theorem 3 preprocessing zkSNARK for R1CS in the (Q)ROM (FRACTAL) — first efficient post-quantum transparent preprocessing zkSNARK]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_74
+#graphify/paper #graphify/EXTRACTED #community/Community_2

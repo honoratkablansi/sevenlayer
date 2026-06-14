@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 13"
+community: "Community 0"
 location: "Chapter 3"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_13
+  - community/Community_0
 ---
 
 # Cairo (StarkWare ZK-native ISA)
@@ -14,6 +14,7 @@ tags:
 ## Connections
 - [[AIR (Algebraic Intermediate Representation)]] - `uses` [EXTRACTED]
 - [[Choreographing the Act]] - `references` [EXTRACTED]
+- [[Domain-Specific Language for ZKP]] - `relates_to` [EXTRACTED]
 - [[From Circuits to Virtual Machines A Brief Evolution]] - `references` [EXTRACTED]
 - [[Incrementally Verifiable Computation (IVC)]] - `relates_to` [EXTRACTED]
 - [[Midnight Compiler, IR, Circuit]] - `references` [EXTRACTED]
@@ -35,4 +36,4 @@ tags:
 - [[Zero-Knowledge Proof]] - `relates_to` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_13
+#graphify/document #graphify/EXTRACTED #community/Community_0

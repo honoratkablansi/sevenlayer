@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch10-the-three-path-table.md"
 type: "document"
-community: "Community 12"
+community: "Community 39"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_12
+  - community/Community_39
 ---
 
 # The Three-Path Table
@@ -23,4 +23,4 @@ tags:
 - [[The Landscape Table (March 2026)]] - `references` [EXTRACTED]
 - [[The Synthesis -- Three Paths, Not Two]] - `part_of` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_12
+#graphify/document #graphify/EXTRACTED #community/Community_39

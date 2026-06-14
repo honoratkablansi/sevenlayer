@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-77-photoproof.pdf"
 type: "paper"
-community: "Community 47"
+community: "Community 26"
 location: "§I-B; §IV-A; Appendix A"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_47
+  - community/Community_26
 ---
 
 # Signed camera-original as root of trust: in-camera digital signature on the original image anchors the start of the permissible-transformation chain
@@ -18,4 +18,4 @@ tags:
 - [[PhotoProof cryptographic image authentication scheme for any permissible transformation set]] - `assumes` [EXTRACTED]
 - [[Signature-outside-Pi optimization camera signs a collision-resistant original-hash; verifier checks signature outside PCD, predicate ensures original-hash unchanged across edits]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_47
+#graphify/paper #graphify/EXTRACTED #community/Community_26

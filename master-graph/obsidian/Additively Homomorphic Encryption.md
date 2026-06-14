@@ -1,12 +1,12 @@
 ---
 source_file: "references/books/proofs-args-zk.pdf"
 type: "paper"
-community: "Community 15"
+community: "Community 20"
 location: "Linear PCPs (GGPR)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_15
+  - community/Community_20
 ---
 
 # Additively Homomorphic Encryption
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Linear PCP Commitment (IKO CommitReveal Protocol)]] - `uses` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_15
+#graphify/paper #graphify/EXTRACTED #community/Community_20

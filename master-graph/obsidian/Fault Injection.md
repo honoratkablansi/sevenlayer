@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-61-arguzz.pdf"
 type: "document"
-community: "Community 20"
+community: "Community 42"
 location: "Section 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_20
+  - community/Community_42
 ---
 
 # Fault Injection
@@ -18,4 +18,4 @@ tags:
 - [[INSTR_WORD_MOD instruction-modification injection (universal; triggered all 3 soundness bugs)]] - `conceptually_related_to` [EXTRACTED]
 - [[Malicious-prover fault injection into VM execution logic (verifier-only-trusted threat model)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_20
+#graphify/document #graphify/EXTRACTED #community/Community_42

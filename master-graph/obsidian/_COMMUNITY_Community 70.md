@@ -1,34 +1,35 @@
 ---
 type: community
-cohesion: 0.15
-members: 19
+cohesion: 0.13
+members: 20
 ---
 
 # Community 70
 
-**Cohesion:** 0.15 - loosely connected
-**Members:** 19 nodes
+**Cohesion:** 0.13 - loosely connected
+**Members:** 20 nodes
 
 ## Members
-- [[Bulletproofs (Bunz et al.) 13]] - paper - references/recursion/ch1/ref-05-halo.pdf
-- [[Chiesa, Chua On cycles of pairing-friendly elliptic curves 16]] - paper - references/recursion/ch1/ref-05-halo.pdf
-- [[Chiesa, Tromer Proof-Carrying Data 19]] - paper - references/recursion/ch1/ref-05-halo.pdf
-- [[Discrete Log Relation Assumption]] - paper - references/recursion/ch1/ref-05-halo.pdf
-- [[Endomorphism-based circuit optimization (Algorithm 1, 3.5 constraintsbit)]] - paper - references/recursion/ch1/ref-05-halo.pdf
-- [[Fractal (Chiesa, Ojha, Spooner) post-quantum transparent recursive proofs 18]] - paper - references/recursion/ch1/ref-05-halo.pdf
-- [[Halo first practical recursive proof composition without a trusted setup]] - paper - references/recursion/ch1/ref-05-halo.pdf
-- [[Main argument Sonic-variant PSHVZK argument of knowledge for arithmetic circuit satisfiability]] - paper - references/recursion/ch1/ref-05-halo.pdf
-- [[No-trusted-setup (transparent) argument under discrete log over normal curve cycles]] - paper - references/recursion/ch1/ref-05-halo.pdf
-- [[Non-interactive instantiation via Fiat-Shamir with Rescue duplex-sponge in random oracle model]] - paper - references/recursion/ch1/ref-05-halo.pdf
-- [[Pedersen-based univariate polynomial commitment with amortized succinctness]] - paper - references/recursion/ch1/ref-05-halo.pdf
-- [[Recursion threshold below 217 gates; fully-recursive proofs 3.5 KiB at 128-bit security]] - paper - references/recursion/ch1/ref-05-halo.pdf
-- [[Sonic (Maller, Bowe, Kohlweiss, Meiklejohn) 32]] - paper - references/recursion/ch1/ref-05-halo.pdf
-- [[Theorem 1 polynomial commitment protocol has completeness, witness-extended emulation, PSHVZK]] - paper - references/recursion/ch1/ref-05-halo.pdf
-- [[Theorem 2 main protocol (Fig. 1) has completeness, PSHVZK, computational witness-extended emulation]] - paper - references/recursion/ch1/ref-05-halo.pdf
-- [[Theorem 3 (Distinct-x theorem) safe incomplete addition in scalar-mult circuits]] - paper - references/recursion/ch1/ref-05-halo.pdf
-- [[TweedledumTweedledee 255-bit prime-order normal (non-pairing) 2-cycle, y2=x3+5]] - paper - references/recursion/ch1/ref-05-halo.pdf
-- [[Valiant Incrementally verifiable computation 36]] - paper - references/recursion/ch1/ref-05-halo.pdf
-- [[Wahby, Tzialla, shelat, Thaler, Walfish Doubly-efficient zkSNARKs without trusted setup 37]] - paper - references/recursion/ch1/ref-05-halo.pdf
+- [[Batching of polynomial commitments & grand-product arguments (random linear combinations)]] - paper - references/ch10/ref-36-sonic.pdf
+- [[Bivariate constraint system a∘b=c plus Q linear constraints, embedded as constant term of t(X,Y)]] - paper - references/ch10/ref-36-sonic.pdf
+- [[Bounded Polynomial Extractability & Evaluation Binding (PCS properties)]] - paper - references/ch10/ref-36-sonic.pdf
+- [[Constant 256-byte proofs, ~0.7ms helped verification, BLS12-381 Rust implementation]] - paper - references/ch10/ref-36-sonic.pdf
+- [[Grand-Product Argument (gprodPgprodV, prod a_i = prod b_i)]] - paper - references/ch10/ref-36-sonic.pdf
+- [[Helped mode untrusted helper aggregates a batch of proofs (best practical efficiency)]] - paper - references/ch10/ref-36-sonic.pdf
+- [[Linear-size monomial SRS {g{xi}, g{alpha xi}, h{xi}, h{alpha xi}, e(g,halpha)}, galpha omitted]] - paper - references/ch10/ref-36-sonic.pdf
+- [[Mary Maller]] - document - references/ch10/ref-36-sonic.pdf
+- [[Modified KZG polynomial commitment for Laurent polynomials (bounded-degree, single-point hidden)]] - paper - references/ch10/ref-36-sonic.pdf
+- [[Polynomial Permutation Argument (DerivepermPpermV)]] - paper - references/ch10/ref-36-sonic.pdf
+- [[Signature of Correct Computation (scPscV) for s(z,y) of public s(X,Y)]] - paper - references/ch10/ref-36-sonic.pdf
+- [[Sonic zk-SNARK (universal & updatable linear-size SRS)]] - paper - references/ch10/ref-36-sonic.pdf
+- [[Subversion Zero-Knowledge (adversary generates the SRS)]] - paper - references/ch10/ref-36-sonic.pdf
+- [[Theorem 1 Inner-Product Argument Security]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Theorem 6.1 Sonic satisfies subversion zero-knowledge]] - paper - references/ch10/ref-36-sonic.pdf
+- [[Theorem 6.2 Sonic has witness-extended emulation]] - paper - references/ch10/ref-36-sonic.pdf
+- [[Unhelped (standalone) signature of correct computation — succinct verifier, higher overhead]] - paper - references/ch10/ref-36-sonic.pdf
+- [[Well-Formedness Argument (commitment to sum a_i Xi, no constant term)]] - paper - references/ch10/ref-36-sonic.pdf
+- [[Witness-Extended Emulation (Knowledge Soundness)]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Zero-Knowledge Argument of Knowledge]] - paper - references/ch02/ref-09-bulletproofs.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -38,18 +39,18 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 5 edges to [[_COMMUNITY_Community 29]]
-- 4 edges to [[_COMMUNITY_Community 24]]
-- 4 edges to [[_COMMUNITY_Community 19]]
-- 3 edges to [[_COMMUNITY_Community 31]]
-- 3 edges to [[_COMMUNITY_Community 64]]
-- 2 edges to [[_COMMUNITY_Community 21]]
-- 1 edge to [[_COMMUNITY_Community 23]]
-- 1 edge to [[_COMMUNITY_Community 30]]
+- 6 edges to [[_COMMUNITY_Community 4]]
+- 3 edges to [[_COMMUNITY_Community 69]]
+- 2 edges to [[_COMMUNITY_Community 75]]
+- 2 edges to [[_COMMUNITY_Community 109]]
+- 1 edge to [[_COMMUNITY_Community 17]]
+- 1 edge to [[_COMMUNITY_Community 5]]
+- 1 edge to [[_COMMUNITY_Community 58]]
+- 1 edge to [[_COMMUNITY_Community 131]]
 
 ## Top bridge nodes
-- [[No-trusted-setup (transparent) argument under discrete log over normal curve cycles]] - degree 9, connects to 5 communities
-- [[Halo first practical recursive proof composition without a trusted setup]] - degree 14, connects to 4 communities
-- [[Pedersen-based univariate polynomial commitment with amortized succinctness]] - degree 8, connects to 3 communities
-- [[Main argument Sonic-variant PSHVZK argument of knowledge for arithmetic circuit satisfiability]] - degree 7, connects to 1 community
-- [[Discrete Log Relation Assumption]] - degree 6, connects to 1 community
+- [[Sonic zk-SNARK (universal & updatable linear-size SRS)]] - degree 14, connects to 4 communities
+- [[Mary Maller]] - degree 4, connects to 3 communities
+- [[Modified KZG polynomial commitment for Laurent polynomials (bounded-degree, single-point hidden)]] - degree 7, connects to 2 communities
+- [[Theorem 1 Inner-Product Argument Security]] - degree 3, connects to 2 communities
+- [[Subversion Zero-Knowledge (adversary generates the SRS)]] - degree 3, connects to 1 community

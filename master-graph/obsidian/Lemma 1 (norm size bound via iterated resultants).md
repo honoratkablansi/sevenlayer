@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-50-extended-tower-nfs.pdf"
 type: "paper"
-community: "Community 56"
+community: "Community 82"
 location: "§3, Lemma 1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_56
+  - community/Community_82
 ---
 
 # Lemma 1 (norm size bound via iterated resultants)
@@ -15,4 +15,4 @@ tags:
 - [[Relation collection over R=Zth(t), B-smooth norms]] - `conceptually_related_to` [EXTRACTED]
 - [[Theorem 1 (exTNFS complexity table)]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_56
+#graphify/paper #graphify/EXTRACTED #community/Community_82

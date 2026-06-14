@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-90-zexe.pdf"
 type: "paper"
-community: "Community 55"
+community: "Community 48"
 location: "§1; §1.1 (Privacy); §3.3 (Execution privacy)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_55
+  - community/Community_48
 ---
 
 # Function privacy: transaction hides WHICH predicate/function was executed
@@ -16,4 +16,4 @@ tags:
 - [[Decentralized Private Computation (DPC) scheme]] - `proves` [EXTRACTED]
 - [[Hawk KMS+16 offline computation with data privacy but no function privacy]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_55
+#graphify/paper #graphify/EXTRACTED #community/Community_48

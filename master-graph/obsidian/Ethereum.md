@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch08/ref-28-rollup-pricing-attacks.pdf"
 type: "paper"
-community: "Community 25"
+community: "Community 38"
 location: "p.1 (introduction)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_25
+  - community/Community_38
 ---
 
 # Ethereum
@@ -16,5 +16,7 @@ tags:
 - [[Rollup multi-dimensional TFM (L2 gas + L1 DA + settlementverification)]] - `assumes` [EXTRACTED]
 - [[Smart contract systems via multiplexing  gas]] - `conceptually_related_to` [EXTRACTED]
 - [[Unaligned Incentives Pricing Attacks Against Blockchain Rollups]] - `conceptually_related_to` [EXTRACTED]
+- [[ZK Rollup]] - `relates_to` [EXTRACTED]
+- [[zkEVM  EVM-Compatible Proving]] - `relates_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_25
+#graphify/paper #graphify/EXTRACTED #community/Community_38

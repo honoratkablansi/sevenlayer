@@ -1,29 +1,30 @@
 ---
 type: community
-cohesion: 0.16
-members: 14
+cohesion: 0.17
+members: 15
 ---
 
 # Community 91
 
-**Cohesion:** 0.16 - loosely connected
-**Members:** 14 nodes
+**Cohesion:** 0.17 - loosely connected
+**Members:** 15 nodes
 
 ## Members
-- [[2-adicity of a curve (nu_2(r-1) large)]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
-- [[BCTV Succinct NIZK for a von Neumann architecture (USENIX Security 2014)]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
-- [[Halo 2]] - document - references/recursion/ch1/ref-12-pasta-curves.md
-- [[Karabina-Teske 1-to-1 MNT4MNT6 correspondence (Theorem 3.3)]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
-- [[Knowledge-of-Exponent Assumption]] - paper - references/ch02/ref-06-groth16.pdf
-- [[Lemmas 4-5 trapdoor extraction for subvertible & updatable CRSs]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[MNT4MNT6 2-cycle (E4, E6) at 80-bit security]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
-- [[Pasta Cycle of Elliptic Curves]] - paper - references/ch06/ref-17-nova.pdf
-- [[Preprocessing zk-SNARK for arithmetic circuits]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
-- [[Sonobe Library]] - document - recursion/recursion-outline.md
-- [[The Pasta Curves for Halo 2 and Beyond (Hopwood, ECC 2020)]] - document - references/recursion/ch1/ref-12-pasta-curves.md
-- [[Tweedle Curves]] - document - references/recursion/ch1/ref-12-pasta-curves.md
-- [[q-Monomial Computational (q-MC) assumption]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[q-Monomial Knowledge (q-MK) assumption]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Chapter 9 Privacy-Enhancing Technologies]] - document - proving-nothing.md
+- [[Claim Privacy Is a Property of Architecture, Not a Bolt-On]] - document - proving-nothing.md
+- [[Claim ZKPs Are Necessary But Not Sufficient for Privacy]] - document - proving-nothing.md
+- [[Computational Security]] - document - proving-nothing.md
+- [[FHE Bootstrapping]] - document - proving-nothing.md
+- [[Fully Homomorphic Encryption (FHE)]] - document - proving-nothing.md
+- [[GDPR Right to Erasure (Blockchain Immutability Paradox)]] - document - proving-nothing.md
+- [[Gentry, 'Fully Homomorphic Encryption Using Ideal Lattices' (STOC 2009)]] - document - proving-nothing.md
+- [[Privacy-Enhancing Technologies (PETs)]] - document - proving-nothing.md
+- [[TFHE (Torus FHE)]] - document - proving-nothing.md
+- [[The Privacy Stack (Layered PET Composition)]] - document - proving-nothing.md
+- [[Verifiable FHE (zkFHE)]] - document - proving-nothing.md
+- [[Zama Confidential Blockchain Protocol]] - document - proving-nothing.md
+- [[Zero-Knowledge Proofs (ZKPs)]] - document - proving-nothing.md
+- [[zKYC (Zero-Knowledge Know Your Customer)]] - document - proving-nothing.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -33,21 +34,19 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 3 edges to [[_COMMUNITY_Community 24]]
-- 2 edges to [[_COMMUNITY_Community 9]]
-- 1 edge to [[_COMMUNITY_Community 36]]
-- 1 edge to [[_COMMUNITY_Community 87]]
-- 1 edge to [[_COMMUNITY_Community 8]]
-- 1 edge to [[_COMMUNITY_Community 17]]
-- 1 edge to [[_COMMUNITY_Community 0]]
-- 1 edge to [[_COMMUNITY_Community 64]]
-- 1 edge to [[_COMMUNITY_Community 82]]
-- 1 edge to [[_COMMUNITY_Community 37]]
-- 1 edge to [[_COMMUNITY_Community 103]]
+- 15 edges to [[_COMMUNITY_Community 27]]
+- 2 edges to [[_COMMUNITY_Community 67]]
+- 2 edges to [[_COMMUNITY_Community 2]]
+- 1 edge to [[_COMMUNITY_Community 22]]
+- 1 edge to [[_COMMUNITY_Community 52]]
+- 1 edge to [[_COMMUNITY_Community 49]]
+- 1 edge to [[_COMMUNITY_Community 25]]
+- 1 edge to [[_COMMUNITY_Community 9]]
+- 1 edge to [[_COMMUNITY_Community 92]]
 
 ## Top bridge nodes
-- [[Pasta Cycle of Elliptic Curves]] - degree 9, connects to 4 communities
-- [[2-adicity of a curve (nu_2(r-1) large)]] - degree 5, connects to 1 community
-- [[Knowledge-of-Exponent Assumption]] - degree 4, connects to 1 community
-- [[Preprocessing zk-SNARK for arithmetic circuits]] - degree 4, connects to 1 community
-- [[q-Monomial Computational (q-MC) assumption]] - degree 3, connects to 1 community
+- [[Fully Homomorphic Encryption (FHE)]] - degree 21, connects to 7 communities
+- [[Zero-Knowledge Proofs (ZKPs)]] - degree 9, connects to 2 communities
+- [[zKYC (Zero-Knowledge Know Your Customer)]] - degree 6, connects to 2 communities
+- [[Privacy-Enhancing Technologies (PETs)]] - degree 6, connects to 1 community
+- [[Verifiable FHE (zkFHE)]] - degree 3, connects to 1 community

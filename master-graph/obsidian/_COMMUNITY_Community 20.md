@@ -1,52 +1,48 @@
 ---
 type: community
-cohesion: 0.08
-members: 37
+cohesion: 0.07
+members: 33
 ---
 
 # Community 20
 
-**Cohesion:** 0.08 - loosely connected
-**Members:** 37 nodes
+**Cohesion:** 0.07 - loosely connected
+**Members:** 33 nodes
 
 ## Members
-- [[58-program benchmark suite (PolyBench, NPB, SPEC CPU 2017, a16z, Succinct, RSP, crypto)]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
-- [[ARGUZZ Testing zkVMs for Soundness and Completeness Bugs]] - paper - references/ch14/ref-61-arguzz.pdf
-- [[Ben-Sasson et al. first SNARK for von Neumann architecture (bounded machine)]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
-- [[BinTuner (Ren et al.) OpenTuner-based study of compiler-opt impact on binary diff]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
-- [[Cairo Turing-complete STARK-friendly CPU architecture (prior zkVM)]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
-- [[Continuations]] - document - recursion/recursion-outline.md
-- [[Cost-model mismatch zkVM uniform-cost constraints vs CPU hardware heuristics (cachebranch-predILP)]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
-- [[Evaluating Compiler Optimization Impacts on zkVM Performance]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
-- [[FUZZTRUCTION  FUZZTRUCTION-NET 10,11 fault-injection-based fuzzing]] - paper - references/ch14/ref-61-arguzz.pdf
-- [[Fault Injection]] - document - references/ch14/ref-61-arguzz.pdf
-- [[Finding -Ox gains (40%) on zkVMs far smaller than on traditional x86 CPUs]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
-- [[Finding inline is most beneficial pass (~22-30% gains, +28.4% RISC Zero exec)]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
-- [[Finding licm is most detrimental pass (+11.8% exec, +13.5% proving on RISC Zero; +444% paging on npb-lu)]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
-- [[First systematic study of compiler-optimization impact on zkVMs]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
-- [[Four optimization principles (P1 paging-aware, P2 selective inlining, P3 instr-reducing unroll, P4 conservative branch elim)]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
-- [[Fuzzing  Metamorphic Testing]] - paper - references/ch14/ref-61-arguzz.pdf
-- [[Genetic autotuning via OpenTuner (cycle-count fitness; up to 2.2x speedup over -O3)]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
-- [[Key cost components dynamic instruction count and paging cycles (~1130 cyclespage-op)]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
-- [[LLVM Compiler Infrastructure]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
-- [[Methodology 71 optimization profiles (64 LLVM passes, 6 -Ox levels, 1 baseline) x 2 zkVMs]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
-- [[Precompiles built-in circuits for hashingEC ops limiting autotuning crypto gains]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
-- [[Proving time (prover wall-clock cost metric)]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
-- [[RISC Zero technical documentation (dev.risczero.com)]] - document - references/recursion/ch1/ref-28-risc-zero-technical-docs.md
-- [[RISC Zero zkVM]] - document - references/recursion/ch1/ref-28-risc-zero-technical-docs.md
-- [[RISC Zero zkVM (evaluated, v1.2.4)]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
-- [[Receipt (self-certifying proof of execution)]] - document - references/recursion/ch1/ref-28-risc-zero-technical-docs.md
-- [[SP1 zkVM (evaluated, v4.1.4)]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
-- [[Security-critical bug SP1 silently aborts mid-run yet proof verifies (false-correctness; reported and patched)]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
-- [[Succinct verification without re-execution]] - document - references/recursion/ch1/ref-28-risc-zero-technical-docs.md
-- [[Superoptimization (e.g. Souper) for zkVM guest code]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
-- [[Surprising result strength reduction (div to shift-add) 3.5x faster on x86 but 40% slower proving on RISC Zero]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
-- [[The Universal Stage (zkVM metaphor)]] - document - proving-nothing.md
-- [[Three zkVM metrics cycle count, executor time, proving time]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
-- [[zk-Bench (Ernstberger et al.) benchmarking framework for ZK DSLsSNARKs]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
-- [[zkVM]] - document - proving-nothing.md
-- [[zkVM Cost Collapse (~10xyear)]] - document - proving-nothing.md
-- [[zkVM-aware LLVM modifications (100 LOC cost model, heuristics, disabled passes); +45% RISC Zero, +4.6% avg]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
+- [[AD-SNARK]] - paper - references/snowball/book/ref-120-adsnark-nearly-practical-and-privacy-preserving.pdf
+- [[Additively Homomorphic Encryption]] - paper - references/books/proofs-args-zk.pdf
+- [[Attested Camera]] - paper - references/snowball/book/ref-119-zk-img-attested-images-via-zero-knowledge-proof.pdf
+- [[Authenticated Data]] - paper - references/snowball/book/ref-120-adsnark-nearly-practical-and-privacy-preserving.pdf
+- [[Back End (Argument System for Circuit Evaluation)]] - paper - references/books/proofs-args-zk.pdf
+- [[Black-Box Separation]] - paper - references/snowball/book/ref-077-separating-succinct-non-interactive-arguments-fr.pdf
+- [[Checkable Subspace Sampling Argument]] - paper - references/snowball/book/ref-147-an-algebraic-framework-for-universal-and-updatab.pdf
+- [[Extractable Collision-Resistant Hash]] - paper - references/snowball/book/ref-074-from-extractable-collision-resistance-to-succinc.pdf
+- [[Front End (Program-to-Circuit Compiler)]] - paper - references/books/proofs-args-zk.pdf
+- [[GGPR Linear PCP (Gennaro-Gentry-Parno-Raykova)]] - paper - references/books/proofs-args-zk.pdf
+- [[Image Attestation]] - paper - references/snowball/book/ref-119-zk-img-attested-images-via-zero-knowledge-proof.pdf
+- [[Image Provenance Verification]] - paper - references/recursion/ch3/ref-78-veritas.pdf
+- [[Knowledge Assumption]] - paper - references/snowball/book/ref-074-from-extractable-collision-resistance-to-succinc.pdf
+- [[Linear PCP]] - paper - references/snowball/book/ref-086-succinct-non-interactive-arguments-via-linear-in.pdf
+- [[Linear PCP Commitment (IKO CommitReveal Protocol)]] - paper - references/books/proofs-args-zk.pdf
+- [[Linearity Testing (BLR)]] - paper - references/books/proofs-args-zk.pdf
+- [[Pinocchio]] - paper - references/snowball/book/ref-067-pinocchio-nearly-practical-verifiable-computati.pdf
+- [[Proof Bootstrapping]] - paper - references/snowball/book/ref-112-geppetto-versatile-verifiable-computation.pdf
+- [[Proof Chaining]] - paper - references/snowball/book/ref-119-zk-img-attested-images-via-zero-knowledge-proof.pdf
+- [[Publicly-verifiable vs designated-verifier SNARK]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
+- [[Quadratic Span Program]] - paper - references/snowball/book/ref-066-quadratic-span-programs-and-succinct-nizks-witho.pdf
+- [[Quarks  Xiphos  Kopis]] - paper - references/snowball/recursion/ref-102-quarks-quadruple-efficient-transparent-zksnarks.pdf
+- [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - document - proving-nothing.md
+- [[SNARK DSL (Circom, ZoKrates, Leo, Noir, Cairo)]] - paper - references/mooc/lecture02/slides.pdf
+- [[Selective Opening  context integrity]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Signature of Knowledge]] - paper - references/snowball/recursion/ref-146-snarky-signatures-minimal-signatures-of-knowled.pdf
+- [[Simulation-Extractability]] - paper - references/snowball/recursion/ref-146-snarky-signatures-minimal-signatures-of-knowled.pdf
+- [[Square Span Program]] - paper - references/snowball/book/ref-138-square-span-programs-with-applications-to-succin.pdf
+- [[Succinct Proof]] - paper - references/snowball/recursion/ref-121-replicated-state-machines-without-replicated-exe.pdf
+- [[Taxonomy of SNARKs (IP  MIP  IOP  Linear-PCP)]] - paper - references/books/proofs-args-zk.pdf
+- [[TinyRAM]] - paper - references/snowball/book/ref-070-snarks-for-c-verifying-program-executions-succi.pdf
+- [[Verifiable State Update]] - paper - references/snowball/book/ref-115-scaling-verifiable-computation-using-efficient-s.pdf
+- [[ZKP Compilation Pipeline]] - paper - references/mooc/lecture03/slides.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -56,33 +52,69 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 8 edges to [[_COMMUNITY_Community 13]]
-- 6 edges to [[_COMMUNITY_Community 61]]
-- 5 edges to [[_COMMUNITY_Community 84]]
-- 5 edges to [[_COMMUNITY_Community 12]]
-- 4 edges to [[_COMMUNITY_Community 1]]
-- 4 edges to [[_COMMUNITY_Community 30]]
-- 3 edges to [[_COMMUNITY_Community 53]]
-- 3 edges to [[_COMMUNITY_Community 99]]
+- 13 edges to [[_COMMUNITY_Community 33]]
+- 10 edges to [[_COMMUNITY_Community 5]]
+- 9 edges to [[_COMMUNITY_Community 8]]
+- 8 edges to [[_COMMUNITY_Community 9]]
+- 8 edges to [[_COMMUNITY_Community 34]]
+- 7 edges to [[_COMMUNITY_Community 21]]
+- 6 edges to [[_COMMUNITY_Community 11]]
+- 5 edges to [[_COMMUNITY_Community 64]]
+- 5 edges to [[_COMMUNITY_Community 92]]
+- 4 edges to [[_COMMUNITY_Community 31]]
+- 4 edges to [[_COMMUNITY_Community 4]]
+- 4 edges to [[_COMMUNITY_Community 94]]
+- 3 edges to [[_COMMUNITY_Community 17]]
+- 3 edges to [[_COMMUNITY_Community 25]]
+- 3 edges to [[_COMMUNITY_Community 71]]
+- 3 edges to [[_COMMUNITY_Community 15]]
+- 3 edges to [[_COMMUNITY_Community 39]]
+- 3 edges to [[_COMMUNITY_Community 26]]
 - 3 edges to [[_COMMUNITY_Community 2]]
-- 3 edges to [[_COMMUNITY_Community 16]]
-- 3 edges to [[_COMMUNITY_Community 77]]
-- 3 edges to [[_COMMUNITY_Community 0]]
+- 2 edges to [[_COMMUNITY_Community 22]]
+- 2 edges to [[_COMMUNITY_Community 24]]
 - 2 edges to [[_COMMUNITY_Community 52]]
-- 2 edges to [[_COMMUNITY_Community 33]]
-- 1 edge to [[_COMMUNITY_Community 36]]
-- 1 edge to [[_COMMUNITY_Community 60]]
-- 1 edge to [[_COMMUNITY_Community 116]]
-- 1 edge to [[_COMMUNITY_Community 121]]
-- 1 edge to [[_COMMUNITY_Community 80]]
+- 2 edges to [[_COMMUNITY_Community 23]]
+- 2 edges to [[_COMMUNITY_Community 37]]
+- 2 edges to [[_COMMUNITY_Community 45]]
+- 2 edges to [[_COMMUNITY_Community 80]]
+- 2 edges to [[_COMMUNITY_Community 69]]
+- 1 edge to [[_COMMUNITY_Community 133]]
+- 1 edge to [[_COMMUNITY_Community 85]]
+- 1 edge to [[_COMMUNITY_Community 38]]
+- 1 edge to [[_COMMUNITY_Community 122]]
+- 1 edge to [[_COMMUNITY_Community 14]]
 - 1 edge to [[_COMMUNITY_Community 83]]
+- 1 edge to [[_COMMUNITY_Community 18]]
 - 1 edge to [[_COMMUNITY_Community 90]]
-- 1 edge to [[_COMMUNITY_Community 4]]
-- 1 edge to [[_COMMUNITY_Community 15]]
+- 1 edge to [[_COMMUNITY_Community 124]]
+- 1 edge to [[_COMMUNITY_Community 19]]
+- 1 edge to [[_COMMUNITY_Community 49]]
+- 1 edge to [[_COMMUNITY_Community 51]]
+- 1 edge to [[_COMMUNITY_Community 1]]
+- 1 edge to [[_COMMUNITY_Community 61]]
+- 1 edge to [[_COMMUNITY_Community 28]]
+- 1 edge to [[_COMMUNITY_Community 6]]
+- 1 edge to [[_COMMUNITY_Community 79]]
+- 1 edge to [[_COMMUNITY_Community 10]]
+- 1 edge to [[_COMMUNITY_Community 12]]
+- 1 edge to [[_COMMUNITY_Community 35]]
+- 1 edge to [[_COMMUNITY_Community 56]]
+- 1 edge to [[_COMMUNITY_Community 41]]
+- 1 edge to [[_COMMUNITY_Community 68]]
+- 1 edge to [[_COMMUNITY_Community 74]]
+- 1 edge to [[_COMMUNITY_Community 114]]
+- 1 edge to [[_COMMUNITY_Community 55]]
+- 1 edge to [[_COMMUNITY_Community 0]]
+- 1 edge to [[_COMMUNITY_Community 7]]
+- 1 edge to [[_COMMUNITY_Community 87]]
+- 1 edge to [[_COMMUNITY_Community 53]]
+- 1 edge to [[_COMMUNITY_Community 29]]
+- 1 edge to [[_COMMUNITY_Community 84]]
 
 ## Top bridge nodes
-- [[zkVM]] - degree 59, connects to 20 communities
-- [[ARGUZZ Testing zkVMs for Soundness and Completeness Bugs]] - degree 8, connects to 5 communities
-- [[Evaluating Compiler Optimization Impacts on zkVM Performance]] - degree 13, connects to 4 communities
-- [[LLVM Compiler Infrastructure]] - degree 7, connects to 1 community
-- [[Fault Injection]] - degree 5, connects to 1 community
+- [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - degree 139, connects to 58 communities
+- [[Linear PCP]] - degree 13, connects to 6 communities
+- [[GGPR Linear PCP (Gennaro-Gentry-Parno-Raykova)]] - degree 7, connects to 5 communities
+- [[Front End (Program-to-Circuit Compiler)]] - degree 9, connects to 4 communities
+- [[Pinocchio]] - degree 6, connects to 4 communities

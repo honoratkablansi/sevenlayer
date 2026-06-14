@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf"
 type: "paper"
-community: "Community 44"
+community: "Community 25"
 location: "§2.2 Thm 1, §6"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_44
+  - community/Community_25
 ---
 
 # Theorem 1: SNARK Recursive Composition (SNARK -> PCD for O(1)-depth predicates)
@@ -18,4 +18,4 @@ tags:
 - [[Recursive Proof Composition]] - `proves` [EXTRACTED]
 - [[Theorem 4  9.1 Main bootstrapping theorem (any SNARK - complexity-preserving SNARK and PCD)]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_44
+#graphify/paper #graphify/EXTRACTED #community/Community_25

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-35-coda.pdf"
 type: "paper"
-community: "Community 50"
+community: "Community 51"
 location: "§1, §3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_50
+  - community/Community_51
 ---
 
 # Coda: statically-typed functional DSL for ZK circuits
@@ -22,4 +22,4 @@ tags:
 - [[Non-determinism (star) and assertion semantics encoding relations]] - `defines` [EXTRACTED]
 - [[Trustless threat model (attacker controls source, R1CS, prover, verifier; can swap proof)]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_50
+#graphify/paper #graphify/EXTRACTED #community/Community_51

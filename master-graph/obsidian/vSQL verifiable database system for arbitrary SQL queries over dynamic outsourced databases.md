@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-73-vsql.pdf"
 type: "paper"
-community: "Community 68"
+community: "Community 71"
 location: "Abstract; §I-A; §V"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_68
+  - community/Community_71
 ---
 
 # vSQL: verifiable database system for arbitrary SQL queries over dynamic outsourced databases
@@ -30,4 +30,4 @@ tags:
 - [[Theorem 4 vSQL (Construction 3) is a verifiable database system for SQL queries given extractable polynomial delegation]] - `proves` [EXTRACTED]
 - [[Verifiable databases and analytics]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_68
+#graphify/paper #graphify/EXTRACTED #community/Community_71

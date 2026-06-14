@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-10-fractal.pdf"
 type: "paper"
-community: "Community 74"
+community: "Community 2"
 location: "§1.2.1; §1.2.2; §2.3 ([CHMMVW20])"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_74
+  - community/Community_2
 ---
 
 # Marlin / algebraic holographic proof (AHP) + polynomial commitments [CHMMVW20] — starting-point ideas for the holographic IOP
@@ -17,4 +17,4 @@ tags:
 - [[Preprocessing SNARK  SNARG (offline indexing produces a succinct verification key; verifier polylogarithmic in circuit size)]] - `conceptually_related_to` [EXTRACTED]
 - [[Theorem 2 efficient public-coin zero-knowledge holographic IOP for indexed relation R_R1CS (O(m log m) indexerprover, O(x+log m) verifier, O(log m) queries)]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_74
+#graphify/paper #graphify/EXTRACTED #community/Community_2

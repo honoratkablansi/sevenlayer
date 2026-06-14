@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch02-midnight-s-bls12-381-stage.md"
 type: "document"
-community: "Community 35"
+community: "Community 4"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_35
+  - community/Community_4
 ---
 
 # Midnight's BLS12-381 Stage
@@ -25,4 +25,4 @@ tags:
 - [[Trusted Setup Ceremony]] - `conceptually_related_to` [EXTRACTED]
 - [[Universal versus Circuit-Specific Setups]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_35
+#graphify/document #graphify/EXTRACTED #community/Community_4

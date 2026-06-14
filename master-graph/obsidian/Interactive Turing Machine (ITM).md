@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch01/ref-02-gmr-knowledge-complexity.pdf"
 type: "paper"
-community: "Community 40"
+community: "Community 7"
 location: "p. 189"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_40
+  - community/Community_7
 ---
 
 # Interactive Turing Machine (ITM)
@@ -15,4 +15,4 @@ tags:
 - [[Interactive Proof (IP) prover-verifier protocol with statistical soundness]] - `defines` [EXTRACTED]
 - [[Prover and Verifier (interactive protocol A,B)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_40
+#graphify/paper #graphify/EXTRACTED #community/Community_7

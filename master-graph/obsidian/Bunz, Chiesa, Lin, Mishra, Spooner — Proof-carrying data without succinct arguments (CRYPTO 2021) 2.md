@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-32-nguyen-boneh-setty-nova-cycle.pdf"
 type: "paper"
-community: "Community 19"
+community: "Community 24"
 location: "Bibliography [2]"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_19
+  - community/Community_24
 ---
 
 # Bunz, Chiesa, Lin, Mishra, Spooner — Proof-carrying data without succinct arguments (CRYPTO 2021) [2]
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Recursive Proof Composition]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_19
+#graphify/paper #graphify/EXTRACTED #community/Community_24

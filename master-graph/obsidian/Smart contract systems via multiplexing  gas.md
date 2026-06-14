@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch09/ref-30-kachina.pdf"
 type: "paper"
-community: "Community 25"
+community: "Community 38"
 location: "App J"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_25
+  - community/Community_38
 ---
 
 # Smart contract systems via multiplexing / gas
@@ -15,4 +15,4 @@ tags:
 - [[Ethereum]] - `conceptually_related_to` [EXTRACTED]
 - [[Kachina core protocol]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_25
+#graphify/paper #graphify/EXTRACTED #community/Community_38

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-23-circle-starks.pdf"
 type: "paper"
-community: "Community 34"
+community: "Community 32"
 location: "§1, Appendix A"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_34
+  - community/Community_32
 ---
 
 # Reed-Solomon proximity gaps / list-decoding
@@ -16,4 +16,4 @@ tags:
 - [[Correlated agreement theorem for Reed-Solomon codes]] - `conceptually_related_to` [EXTRACTED]
 - [[Elliptic Curve FFT (ECFFT)]] - `conceptually_related_to` [INFERRED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_34
+#graphify/paper #graphify/EXTRACTED #community/Community_32

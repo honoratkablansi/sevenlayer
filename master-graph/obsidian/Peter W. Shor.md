@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch07/ref-24-shor.pdf"
 type: "paper"
-community: "Community 92"
+community: "Community 66"
 location: "p.1 (title page)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_92
+  - community/Community_66
 ---
 
 # Peter W. Shor
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Algorithms for Quantum Computation Discrete Logarithms and Factoring]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_92
+#graphify/paper #graphify/EXTRACTED #community/Community_66

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch01/ref-03-sok-snark-vulnerabilities.pdf"
 type: "paper"
-community: "Community 40"
+community: "Community 15"
 location: "§2 Contributions, §4"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_40
+  - community/Community_15
 ---
 
 # Dataset of 141 SNARK vulnerabilities (107 audits, 16 disclosures, 18 bug-tracker; 2018-2024)
@@ -15,4 +15,4 @@ tags:
 - [[Methodology classify each bug by layer, type, root cause, and impact]] - `defines` [EXTRACTED]
 - [[SoK What Don't We Know Understanding Security Vulnerabilities in SNARKs]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_40
+#graphify/paper #graphify/EXTRACTED #community/Community_15

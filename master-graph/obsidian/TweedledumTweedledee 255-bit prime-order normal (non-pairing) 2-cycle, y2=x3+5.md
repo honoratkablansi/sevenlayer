@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-05-halo.pdf"
 type: "paper"
-community: "Community 70"
+community: "Community 76"
 location: "§1.1, §6.1, [26]"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_70
+  - community/Community_76
 ---
 
 # Tweedledum/Tweedledee: 255-bit prime-order normal (non-pairing) 2-cycle, y^2=x^3+5
@@ -16,4 +16,4 @@ tags:
 - [[Endomorphism-based circuit optimization (Algorithm 1, 3.5 constraintsbit)]] - `assumes` [EXTRACTED]
 - [[Halo first practical recursive proof composition without a trusted setup]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_70
+#graphify/paper #graphify/EXTRACTED #community/Community_76

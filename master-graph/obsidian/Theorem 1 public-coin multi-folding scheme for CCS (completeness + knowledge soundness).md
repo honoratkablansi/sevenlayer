@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-30-cyclefold.pdf"
 type: "paper"
-community: "Community 37"
+community: "Community 5"
 location: "§3 (Theorem 1)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_37
+  - community/Community_5
 ---
 
 # Theorem 1: public-coin multi-folding scheme for CCS (completeness + knowledge soundness)
@@ -16,4 +16,4 @@ tags:
 - [[Lemma 1 perfect completeness of Construction 1]] - `conceptually_related_to` [EXTRACTED]
 - [[Lemma 2 knowledge soundness of Construction 1 (forking-based extractor)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_37
+#graphify/paper #graphify/EXTRACTED #community/Community_5

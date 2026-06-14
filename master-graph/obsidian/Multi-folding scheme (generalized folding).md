@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-18-hypernova.pdf"
 type: "paper"
-community: "Community 71"
+community: "Community 37"
 location: "§3 Definition 7"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_71
+  - community/Community_37
 ---
 
 # Multi-folding scheme (generalized folding)
@@ -16,4 +16,4 @@ tags:
 - [[Multi-folding scheme for CCS (Construction 1)]] - `defines` [EXTRACTED]
 - [[nlookup lookup argument (Construction 8)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_71
+#graphify/paper #graphify/EXTRACTED #community/Community_37

@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-87-deco.pdf"
 type: "paper"
-community: "Community 11"
+community: "Community 35"
 location: "§5.2.2, Def.5.2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_11
+  - community/Community_35
 ---
 
 # Zero-knowledge two-stage parsing scheme: local pre-process (Trans) then prove context integrity on shorter transformed string
@@ -17,4 +17,4 @@ tags:
 - [[Key-value grammar optimization (globally unique keys) for JSONHTML two-stage parsing]] - `conceptually_related_to` [EXTRACTED]
 - [[Zero-Knowledge Proof]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_11
+#graphify/paper #graphify/EXTRACTED #community/Community_35

@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-02-bctv-cycles.pdf"
 type: "paper"
-community: "Community 91"
+community: "Community 122"
 location: "§2.1, App. C"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_91
+  - community/Community_122
 ---
 
 # Preprocessing zk-SNARK for arithmetic circuits
@@ -17,4 +17,4 @@ tags:
 - [[Bilinear Pairing]] - `assumes` [EXTRACTED]
 - [[Knowledge-of-Exponent Assumption]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_91
+#graphify/paper #graphify/EXTRACTED #community/Community_122

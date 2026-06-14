@@ -1,12 +1,12 @@
 ---
 source_file: "references/books/proofs-args-zk.pdf"
 type: "paper"
-community: "Community 18"
+community: "Community 21"
 location: "The GKR Protocol and Its Efficient Implementation"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_18
+  - community/Community_21
 ---
 
 # Layered Arithmetic Circuit
@@ -19,4 +19,4 @@ tags:
 - [[Gate Value Function (W_i)]] - `defines` [EXTRACTED]
 - [[Wiring Predicate (add_i  mult_i)]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_18
+#graphify/paper #graphify/EXTRACTED #community/Community_21

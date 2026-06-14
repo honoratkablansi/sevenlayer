@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-21-neo.pdf"
 type: "paper"
-community: "Community 26"
+community: "Community 62"
 location: "Def 14, §3.4"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_26
+  - community/Community_62
 ---
 
 # Strong sampling set with small-norm invertible challenges (expansion factor T)
@@ -17,4 +17,4 @@ tags:
 - [[Pi_RLC random linear combination reduction (folds k+1 norm-b claims into one norm-B)]] - `assumes` [EXTRACTED]
 - [[Short invertible elements in partially splitting cyclotomic rings]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_26
+#graphify/paper #graphify/EXTRACTED #community/Community_62

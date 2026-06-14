@@ -1,12 +1,12 @@
 ---
 source_file: "recursion/recursion-outline.md"
 type: "document"
-community: "Community 60"
+community: "Community 53"
 location: "Recursion Chapter 3"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_60
+  - community/Community_53
 ---
 
 # Section 3.7 recursion strategy decision framework
@@ -16,4 +16,4 @@ tags:
 - [[Maturity gradient for application clusters]] - `references` [INFERRED]
 - [[ZK Rollup]] - `compares` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_60
+#graphify/document #graphify/EXTRACTED #community/Community_53

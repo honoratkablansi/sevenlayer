@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-50-extended-tower-nfs.pdf"
 type: "paper"
-community: "Community 56"
+community: "Community 82"
 location: "§3.3, Table 1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_56
+  - community/Community_82
 ---
 
 # exTNFS-Conj medium-prime complexity L_Q(1/3,(48/9)^{1/3})
@@ -16,4 +16,4 @@ tags:
 - [[Polynomial selection step (h,f,g) — JLSV2 and Conjugation methods]] - `assumes` [EXTRACTED]
 - [[Theorem 1 (exTNFS complexity table)]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_56
+#graphify/paper #graphify/EXTRACTED #community/Community_82

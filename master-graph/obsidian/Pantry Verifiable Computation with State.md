@@ -1,12 +1,12 @@
 ---
 source_file: "references/snowball/book/ref-093-verifying-computations-with-state.pdf"
 type: "paper"
-community: "Community 15"
+community: "Community 92"
 location: "abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_15
+  - community/Community_92
 ---
 
 # Pantry Verifiable Computation with State
@@ -17,4 +17,4 @@ tags:
 - [[Verifiable computation]] - `defines` [EXTRACTED]
 - [[Zero-Knowledge Proof]] - `uses` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_15
+#graphify/paper #graphify/EXTRACTED #community/Community_92

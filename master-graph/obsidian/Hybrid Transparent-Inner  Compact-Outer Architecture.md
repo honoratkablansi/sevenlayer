@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 12"
+community: "Community 4"
 location: "Chapter 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_12
+  - community/Community_4
 ---
 
 # Hybrid Transparent-Inner / Compact-Outer Architecture
@@ -16,4 +16,4 @@ tags:
 - [[Groth16]] - `references` [EXTRACTED]
 - [[STARK]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_12
+#graphify/document #graphify/EXTRACTED #community/Community_4

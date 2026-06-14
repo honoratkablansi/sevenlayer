@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 87"
+community: "Community 90"
 location: "Chapter 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_87
+  - community/Community_90
 ---
 
 # Bilinear Pairing
@@ -15,6 +15,7 @@ tags:
 - [[3-Element Pairing-based SNARK for Arithmetic Circuit SAT]] - `assumes` [EXTRACTED]
 - [[AFGHO Inner-Pairing-Product Commitment]] - `uses` [EXTRACTED]
 - [[Amicable Pairs]] - `relates_to` [EXTRACTED]
+- [[BLS signatures]] - `uses` [EXTRACTED]
 - [[BN Curve]] - `uses` [EXTRACTED]
 - [[Bilinear Group]] - `uses` [EXTRACTED]
 - [[Comparing the Pairing Efficiency over Composite-Order and Prime-Order Elliptic Curves]] - `assumes` [EXTRACTED]
@@ -22,13 +23,15 @@ tags:
 - [[Constant-Size Commitments to Polynomials and Their Applications]] - `conceptually_related_to` [EXTRACTED]
 - [[Cycles of Elliptic Curves]] - `requires` [EXTRACTED]
 - [[Decisional Diffie-Hellman (DDH) assumption over secp256k1]] - `relates_to` [EXTRACTED]
+- [[Discrete Logarithm Assumption]] - `relates_to` [EXTRACTED]
 - [[Dory]] - `uses` [EXTRACTED]
-- [[Elliptic Curve  Discrete Logarithm Problem]] - `uses` [EXTRACTED]
+- [[Elliptic Curve  Discrete Logarithm Problem]] - `builds_on` [EXTRACTED]
 - [[Embedding degree k]] - `characterized-by` [EXTRACTED]
 - [[Extended Tower Number Field Sieve A New Complexity for the Medium Prime Case]] - `references` [EXTRACTED]
 - [[Groth Short Pairing-Based NIZK]] - `uses` [EXTRACTED]
 - [[Groth16]] - `uses` [EXTRACTED]
 - [[Hierarchical Identity-Based Encryption (HIBE)]] - `uses` [EXTRACTED]
+- [[Inner Pairing Product Argument (BMMTV 2021)]] - `uses` [EXTRACTED]
 - [[Inner Product Argument (IPABulletproofs)]] - `uses` [EXTRACTED]
 - [[Inner pairing product argument (IPP)]] - `assumes` [EXTRACTED]
 - [[KZG Polynomial Commitments from pairings (with trusted setup); Dory transparent pairing-based scheme]] - `uses` [INFERRED]
@@ -45,7 +48,7 @@ tags:
 - [[Progression-Free Sets NIZK]] - `uses` [EXTRACTED]
 - [[QAP (Quadratic Arithmetic Program)]] - `uses` [EXTRACTED]
 - [[Recursion (proof recursion in zkVMs)]] - `uses` [EXTRACTED]
-- [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `uses` [EXTRACTED]
+- [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `builds_on` [EXTRACTED]
 - [[SNARK proof aggregation]] - `uses` [EXTRACTED]
 - [[Signatures of Correct Computation]] - `uses` [EXTRACTED]
 - [[Single Pairing-Product Verification Equation (3 pairings)]] - `assumes` [EXTRACTED]
@@ -53,7 +56,8 @@ tags:
 - [[Succinct Argument]] - `uses` [EXTRACTED]
 - [[Tate pairing]] - `relates_to` [EXTRACTED]
 - [[Verifiable delay function (VDF)]] - `relates_to` [EXTRACTED]
+- [[Verifier]] - `uses` [EXTRACTED]
 - [[Weil Pairing]] - `relates_to` [EXTRACTED]
 - [[exTNFS (Extended Tower Number Field Sieve)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_87
+#graphify/document #graphify/EXTRACTED #community/Community_90

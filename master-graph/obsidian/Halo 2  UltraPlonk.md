@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 17"
+community: "Community 11"
 location: "Chapter 6"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_17
+  - community/Community_11
 ---
 
 # Halo 2 / UltraPlonk
@@ -21,7 +21,7 @@ tags:
 - [[Four-Phase Transaction Pipeline]] - `references` [EXTRACTED]
 - [[Full Seven-Layer Mapping]] - `references` [EXTRACTED]
 - [[Image Attestation]] - `uses` [EXTRACTED]
-- [[KZG Polynomial Commitments from pairings (with trusted setup); Dory transparent pairing-based scheme]] - `references` [EXTRACTED]
+- [[KZG Polynomial Commitments from pairings (with trusted setup); Dory transparent pairing-based scheme]] - `uses` [EXTRACTED]
 - [[Layer 1 -- Building the Stage]] - `references` [EXTRACTED]
 - [[Layer 5 -- The Sealed Certificate]] - `references` [EXTRACTED]
 - [[Layer 6 -- The Deep Craft]] - `references` [EXTRACTED]
@@ -31,8 +31,9 @@ tags:
 - [[Midnight Sealed Certificate (Case Study)]] - `references` [EXTRACTED]
 - [[Midnight's ZKIR A Concrete Layer 4]] - `references` [EXTRACTED]
 - [[PLONK]] - `implements` [EXTRACTED]
-- [[PLONKish Arithmetization]] - `conceptually_related_to` [EXTRACTED]
+- [[PLONKish Arithmetization]] - `uses` [EXTRACTED]
 - [[Plonkup  Plonkish Circuit-Satisfiability Relation]] - `defines` [EXTRACTED]
+- [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `builds_on` [EXTRACTED]
 - [[SNARK Recursion vs. Folding The Full Picture]] - `references` [EXTRACTED]
 - [[Scaling up Trustless DNN Inference with Zero-Knowledge Proofs (Kang, Hashimoto, Stoica, Sun, 2022)]] - `cites` [EXTRACTED]
 - [[Scroll]] - `implements` [EXTRACTED]
@@ -51,5 +52,6 @@ tags:
 - [[ZK Rollups The Proving Grounds (Production)]] - `references` [EXTRACTED]
 - [[ZKML Provable Machine Learning (Research)]] - `references` [EXTRACTED]
 - [[zk-SNARK]] - `conceptually_related_to` [EXTRACTED]
+- [[zkEVM  EVM-Compatible Proving]] - `uses` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_17
+#graphify/document #graphify/EXTRACTED #community/Community_11

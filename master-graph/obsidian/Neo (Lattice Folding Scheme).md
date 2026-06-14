@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 0"
+community: "Community 10"
 location: "Chapter 7"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Community_10
 ---
 
 # Neo (Lattice Folding Scheme)
@@ -17,4 +17,4 @@ tags:
 - [[Goldilocks Field]] - `references` [EXTRACTED]
 - [[LatticeFold  LatticeFold+]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/document #graphify/EXTRACTED #community/Community_10

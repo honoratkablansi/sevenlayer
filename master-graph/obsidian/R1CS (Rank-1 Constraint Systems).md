@@ -1,20 +1,23 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 15"
+community: "Community 5"
 location: "Chapter 3"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_15
+  - community/Community_5
 ---
 
 # R1CS (Rank-1 Constraint Systems)
 
 ## Connections
 - [[AD-SNARK]] - `uses` [EXTRACTED]
-- [[Arithmetic Circuit]] - `compiles_to` [EXTRACTED]
+- [[Arithmetic Circuit]] - `generalizes` [EXTRACTED]
+- [[Arithmetization]] - `relates_to` [EXTRACTED]
+- [[Arkworks (Rust R1CS Library)]] - `compiles_to` [EXTRACTED]
 - [[Aurora]] - `uses` [EXTRACTED]
+- [[Bellman (Rust R1CS Library)]] - `compiles_to` [EXTRACTED]
 - [[Bivariate constraint system a∘b=c plus Q linear constraints, embedded as constant term of t(X,Y)]] - `conceptually_related_to` [EXTRACTED]
 - [[CCS (Customizable Constraint Systems)]] - `generalizes` [EXTRACTED]
 - [[CCS The Rosetta Stone]] - `references` [EXTRACTED]
@@ -23,10 +26,10 @@ tags:
 - [[CirC Compiler Infrastructure]] - `uses` [EXTRACTED]
 - [[CirC R1CS back-end (lowering pass)]] - `defines` [EXTRACTED]
 - [[CirC Compiler Infrastructure for Proof Systems, Software Verification, and More]] - `conceptually_related_to` [EXTRACTED]
-- [[Circom]] - `defines` [EXTRACTED]
+- [[Circom]] - `compiles_to` [EXTRACTED]
 - [[Circuit Generator]] - `defines` [EXTRACTED]
 - [[Circuit Satisfiability front ends compiling computer programs into arithmetic circuits  circuit-SAT instances]] - `generalizes` [EXTRACTED]
-- [[Constraint System]] - `introduces` [EXTRACTED]
+- [[Constraint System]] - `defines` [EXTRACTED]
 - [[Construction 1 SuperNova NIVC scheme (G,K,P,V) built from non-interactive folding scheme NIFS for committed relaxed R1CS plus a hash]] - `assumes` [EXTRACTED]
 - [[Cross-Term Derivation]] - `explains` [EXTRACTED]
 - [[Customizable Constraint Systems for Succinct Arguments]] - `conceptually_related_to` [EXTRACTED]
@@ -34,13 +37,15 @@ tags:
 - [[Encoding of R1CS as a degree-3 log m-variate polynomial G_{io,τ} summing to 0 (Theorem 4.1)]] - `defines` [EXTRACTED]
 - [[Encoding the Performance]] - `references` [EXTRACTED]
 - [[Existentially Quantified Circuit (EQC)]] - `relates_to` [EXTRACTED]
-- [[Folding Scheme]] - `supports` [EXTRACTED]
+- [[Folding Scheme]] - `uses` [EXTRACTED]
 - [[Formal Verification]] - `targets` [EXTRACTED]
+- [[Front End (Program-to-Circuit Compiler)]] - `compiles_to` [EXTRACTED]
 - [[GGPR Linear PCP (Gennaro-Gentry-Parno-Raykova)]] - `uses` [EXTRACTED]
 - [[Gemini Elastic SNARK]] - `uses` [EXTRACTED]
 - [[Generalized Committed Linear Relation R_lin,B]] - `conceptually_related_to` [EXTRACTED]
 - [[Glossary of Key Terms]] - `defines` [EXTRACTED]
 - [[Groth16]] - `uses` [EXTRACTED]
+- [[Hadamard Product Check]] - `uses` [EXTRACTED]
 - [[Holographic Proof]] - `proves` [EXTRACTED]
 - [[Hybrid Protocol Architecture]] - `uses` [EXTRACTED]
 - [[HyperNova]] - `references` [EXTRACTED]
@@ -56,21 +61,24 @@ tags:
 - [[Multi-Prover Interactive Proofs (MIPs) and succinct arguments for circuit satisfiability]] - `relates_to` [EXTRACTED]
 - [[Multilinear extension (MLE)]] - `conceptually_related_to` [EXTRACTED]
 - [[NARK for R1CS from Fiat-Shamir over a Pedersen-commitment sigma protocol (linear argument size)]] - `conceptually_related_to` [EXTRACTED]
+- [[Noir (Aztec)]] - `compiles_to` [EXTRACTED]
 - [[Nova]] - `uses` [EXTRACTED]
 - [[Nova Recursive Zero-Knowledge Arguments from Folding Schemes]] - `conceptually_related_to` [EXTRACTED]
 - [[PLONK]] - `uses` [EXTRACTED]
+- [[PLONKish Arithmetization]] - `generalizes` [EXTRACTED]
 - [[Per-instruction step functions {F_1,...,F_l} plus control function phi; each F_j verifies one instruction type, cost independent of l]] - `assumes` [EXTRACTED]
 - [[Polynomial Commitment Scheme]] - `uses` [EXTRACTED]
 - [[Polynomial IOP  interactive oracle protocol]] - `relates_to` [EXTRACTED]
+- [[Prime Field Arithmetic]] - `defines` [EXTRACTED]
 - [[Proof System Compiler]] - `generates` [EXTRACTED]
 - [[Proofs, Arguments, and Zero-Knowledge (Justin Thaler, survey textbook)]] - `explains` [EXTRACTED]
 - [[Protostar Generic Efficient AccumulationFolding for Special-sound Protocols]] - `conceptually_related_to` [EXTRACTED]
-- [[QAP (Quadratic Arithmetic Program)]] - `relates_to` [EXTRACTED]
+- [[QAP (Quadratic Arithmetic Program)]] - `generalizes` [EXTRACTED]
 - [[Quadratic Span Program]] - `relates_to` [EXTRACTED]
 - [[Quarks  Xiphos  Kopis]] - `uses` [EXTRACTED]
 - [[Recursion (proof recursion in zkVMs)]] - `uses` [EXTRACTED]
 - [[Recursion vs. Folding Russian Dolls and Snowballs]] - `references` [EXTRACTED]
-- [[Relaxed R1CS]] - `conceptually_related_to` [EXTRACTED]
+- [[Relaxed R1CS]] - `generalizes` [EXTRACTED]
 - [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `uses` [EXTRACTED]
 - [[Spartan]] - `proves` [EXTRACTED]
 - [[Spartan applied to uniform R1CS (no commitment to A,B,C matrices)]] - `assumes` [EXTRACTED]
@@ -91,7 +99,9 @@ tags:
 - [[Wen et al., ZKAP Practical Security Analysis of ZK Proof Circuits, USENIX Security 2024]] - `references` [EXTRACTED]
 - [[Where the Analogies Break]] - `references` [EXTRACTED]
 - [[ZKML (Zero-Knowledge Machine Learning)]] - `relates_to` [EXTRACTED]
+- [[ZKP Compilation Pipeline]] - `compiles_to` [EXTRACTED]
 - [[Zero-knowledge proof system]] - `conceptually_related_to` [EXTRACTED]
+- [[ZoKrates (PL Compiler to R1CS)]] - `compiles_to` [EXTRACTED]
 - [[zk-SNARK]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_15
+#graphify/document #graphify/EXTRACTED #community/Community_5

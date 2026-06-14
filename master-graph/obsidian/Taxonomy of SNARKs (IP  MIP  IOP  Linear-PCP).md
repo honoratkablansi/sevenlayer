@@ -1,12 +1,12 @@
 ---
 source_file: "references/books/proofs-args-zk.pdf"
 type: "paper"
-community: "Community 15"
+community: "Community 20"
 location: "SNARK Composition, Recursion, and Taxonomy"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_15
+  - community/Community_20
 ---
 
 # Taxonomy of SNARKs (IP / MIP / IOP / Linear-PCP)
@@ -17,4 +17,4 @@ tags:
 - [[Linear PCP]] - `defines` [EXTRACTED]
 - [[Polynomial Commitment Scheme]] - `uses` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_15
+#graphify/paper #graphify/EXTRACTED #community/Community_20

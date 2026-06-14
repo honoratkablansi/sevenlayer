@@ -1,43 +1,43 @@
 ---
 type: community
-cohesion: 0.09
+cohesion: 0.11
 members: 28
 ---
 
 # Community 32
 
-**Cohesion:** 0.09 - loosely connected
+**Cohesion:** 0.11 - loosely connected
 **Members:** 28 nodes
 
 ## Members
-- [[Arthur-Merlin (AM) Protocols  Public-Coin Proofs]] - paper - references/mooc/lecture01/slides.pdf
-- [[Canetti, Goldreich, Halevi, The Random Oracle Methodology, Revisited (JACM 2004)]] - document - recursion/recursion-outline.md
-- [[Cryptographic Hash Function]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[FS-GKR Fiat-Shamir attacks (KRS25) motivating recursion avoidance]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[Fiat & Shamir, Crypto '86 (LNCS 263)]] - document - proving-nothing.md
-- [[Fiat-Shamir Transform]] - document - proving-nothing.md
-- [[Frozen Heart  Fiat-Shamir Vulnerability Class]] - document - proving-nothing.md
-- [[Frozen Heart Vulnerability (2022)]] - document - proving-nothing.md
-- [[Goldwasser, Micali, Rackoff — Knowledge Complexity of Interactive Proof Systems (1985)]] - document - proving-nothing.md
-- [[Hash Chaining]] - paper - references/books/proofs-args-zk.pdf
-- [[Interactive Proof System]] - document - proving-nothing.md
-- [[Khovratovich, Rothblum, Soukhanov, How to Prove False Statements (ePrint 2025118)]] - document - recursion/recursion-outline.md
-- [[Knowledge-Soundness]] - document - proving-nothing.md
-- [[Last Challenge Attack (2024)]] - document - proving-nothing.md
-- [[Last Challenge Attack (FS flaw in KZG-based SNARK final batching challenge)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
-- [[Merkle Tree]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
-- [[Non-Interactive Argument]] - paper - references/books/proofs-args-zk.pdf
-- [[Nova IVC soundnessmalleability bug on cycle of curves (missing consistency check)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
-- [[PCP-to-Argument Compiler (Kilian-Micali)]] - paper - references/books/proofs-args-zk.pdf
-- [[PinocchioBCTV setup counterfeiting bug exploited in Zcash (bypass parameters forge proofs)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
-- [[Proof-system (theoretical) vulnerabilities affecting all implementations]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
-- [[Public-Coin Protocol]] - paper - references/books/proofs-args-zk.pdf
-- [[Random Oracle Model]] - paper - references/recursion/ch1/ref-11-khovratovich-fiat-shamir-attacks.pdf
-- [[Solana ZK ElGamal Bug (2025)]] - document - proving-nothing.md
-- [[Succinct Argument]] - paper - references/snowball/recursion/ref-115-sumcheck-arguments-and-their-applications.pdf
-- [[Time-Lock Puzzle]] - paper - references/snowball/recursion/ref-116-a-survey-of-two-verifiable-delay-functions.pdf
-- [[Verifiable Delay Function]] - paper - references/snowball/recursion/ref-116-a-survey-of-two-verifiable-delay-functions.pdf
-- [[Witness Extraction]] - paper - references/books/proofs-args-zk.pdf
+- [[Batch circle FRI soundness error (Theorem 6, eps_PROX)]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[CFFT-friendly prime (p+1 divisible by 2(n+1))]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[Circle FFT and inverse (non-harmonic, Nn adds, Nn2 mults)]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[Circle FFT butterfly algorithm (radix-2 style, complex-extension twiddles)]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[Circle FRI low-degree test  IOP of proximity (Protocol 1 & 2)]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[Circle STARK AIR soundness & knowledge-soundness error (Theorem 78)]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[Circle STARK interactive oracle proof for AIR]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[Circle code (MDS algebraic-geometry  generalized Reed-Solomon code)]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[Circle group  circle curve x2+y2=1]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[Correlated agreement theorem for Reed-Solomon codes]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[DEEP single-point quotients (realimaginary parts over F(i))]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[Decomposition Lemma overall quotient split with dimension-gap scalar lambda]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[Elliptic Curve FFT (ECFFT)]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[FFT-basis B_n and FFT-space L'_N (dimension gap of co-dimension one)]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[Fast Fourier Transform (FFT)]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[Galois-FFT (G-FFT) over rational function field automorphisms]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[Group squaring map pi and inversion J (the two endomorphisms)]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[Isomorphism of circle curve to projective line P1 (genus zero, F+1 points)]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[Limit-at-infinity calculus for resolving the dimension gap]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[Mersenne FFT  Reed-Solomon codes over the circle group HLN23]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[Mersenne Prime Field]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[Mersenne Prime M31 (231 - 1)]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[Mersenne-31 vs Babybear FFT benchmark (1.4x speed-up)]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[Optimized non-zk circle STARK (eval domain superset of trace, group position)]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[Reed-Solomon proximity gaps  list-decoding]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[Space L_N of bivariate polynomials (Riemann-Roch space, dim N+1)]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[Twin-coset and standard position coset FFT domains]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[Vanishing polynomials v_n and domain quotients]] - paper - references/ch06/ref-23-circle-starks.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -47,57 +47,12 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 12 edges to [[_COMMUNITY_Community 8]]
-- 10 edges to [[_COMMUNITY_Community 15]]
-- 9 edges to [[_COMMUNITY_Community 0]]
-- 8 edges to [[_COMMUNITY_Community 12]]
-- 6 edges to [[_COMMUNITY_Community 22]]
-- 5 edges to [[_COMMUNITY_Community 36]]
-- 5 edges to [[_COMMUNITY_Community 40]]
-- 5 edges to [[_COMMUNITY_Community 29]]
-- 5 edges to [[_COMMUNITY_Community 2]]
-- 4 edges to [[_COMMUNITY_Community 53]]
-- 4 edges to [[_COMMUNITY_Community 19]]
-- 4 edges to [[_COMMUNITY_Community 51]]
-- 4 edges to [[_COMMUNITY_Community 21]]
-- 3 edges to [[_COMMUNITY_Community 7]]
-- 3 edges to [[_COMMUNITY_Community 1]]
-- 2 edges to [[_COMMUNITY_Community 35]]
-- 2 edges to [[_COMMUNITY_Community 37]]
-- 2 edges to [[_COMMUNITY_Community 44]]
-- 2 edges to [[_COMMUNITY_Community 79]]
-- 2 edges to [[_COMMUNITY_Community 68]]
-- 2 edges to [[_COMMUNITY_Community 17]]
-- 2 edges to [[_COMMUNITY_Community 74]]
-- 2 edges to [[_COMMUNITY_Community 6]]
-- 2 edges to [[_COMMUNITY_Community 13]]
-- 2 edges to [[_COMMUNITY_Community 59]]
-- 2 edges to [[_COMMUNITY_Community 18]]
-- 1 edge to [[_COMMUNITY_Community 42]]
-- 1 edge to [[_COMMUNITY_Community 47]]
-- 1 edge to [[_COMMUNITY_Community 38]]
-- 1 edge to [[_COMMUNITY_Community 124]]
-- 1 edge to [[_COMMUNITY_Community 102]]
-- 1 edge to [[_COMMUNITY_Community 5]]
-- 1 edge to [[_COMMUNITY_Community 71]]
-- 1 edge to [[_COMMUNITY_Community 88]]
-- 1 edge to [[_COMMUNITY_Community 16]]
-- 1 edge to [[_COMMUNITY_Community 83]]
-- 1 edge to [[_COMMUNITY_Community 10]]
-- 1 edge to [[_COMMUNITY_Community 9]]
-- 1 edge to [[_COMMUNITY_Community 96]]
-- 1 edge to [[_COMMUNITY_Community 65]]
-- 1 edge to [[_COMMUNITY_Community 120]]
-- 1 edge to [[_COMMUNITY_Community 64]]
-- 1 edge to [[_COMMUNITY_Community 87]]
-- 1 edge to [[_COMMUNITY_Community 48]]
-- 1 edge to [[_COMMUNITY_Community 25]]
-- 1 edge to [[_COMMUNITY_Community 77]]
-- 1 edge to [[_COMMUNITY_Community 28]]
+- 6 edges to [[_COMMUNITY_Community 0]]
+- 2 edges to [[_COMMUNITY_Community 9]]
 
 ## Top bridge nodes
-- [[Fiat-Shamir Transform]] - degree 100, connects to 35 communities
-- [[Knowledge-Soundness]] - degree 22, connects to 15 communities
-- [[Succinct Argument]] - degree 19, connects to 8 communities
-- [[Merkle Tree]] - degree 10, connects to 8 communities
-- [[Cryptographic Hash Function]] - degree 4, connects to 2 communities
+- [[Circle group  circle curve x2+y2=1]] - degree 8, connects to 2 communities
+- [[Circle STARK interactive oracle proof for AIR]] - degree 8, connects to 1 community
+- [[Circle FRI low-degree test  IOP of proximity (Protocol 1 & 2)]] - degree 5, connects to 1 community
+- [[Elliptic Curve FFT (ECFFT)]] - degree 3, connects to 1 community
+- [[Mersenne Prime M31 (231 - 1)]] - degree 3, connects to 1 community

@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-20-thaler-proofs-arguments-zk.pdf"
 type: "paper"
-community: "Community 15"
+community: "Community 33"
 location: "ch 8 (MIPs and Succinct Arguments)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_15
+  - community/Community_33
 ---
 
 # Multi-Prover Interactive Proofs (MIPs) and succinct arguments for circuit satisfiability
@@ -23,4 +23,4 @@ tags:
 - [[Succinct Argument]] - `compiles_to` [EXTRACTED]
 - [[Sum-Check Protocol]] - `uses` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_15
+#graphify/paper #graphify/EXTRACTED #community/Community_33

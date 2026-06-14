@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-59-zkbridge.pdf"
 type: "paper"
-community: "Community 128"
+community: "Community 142"
 location: "[76], §4"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_128
+  - community/Community_142
 ---
 
 # Virgo: Transparent Polynomial Delegation and ZK Proofs (Zhang-Xie-Zhang-Song, S&P 2020) [76] — base ZKP that deVirgo distributes
@@ -17,4 +17,4 @@ tags:
 - [[Polynomial Commitment Scheme]] - `defines` [EXTRACTED]
 - [[deVirgo distributed zero-knowledge proof system parallelizing Virgo over M machines with perfect linear scalability and no proof-size overhead]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_128
+#graphify/paper #graphify/EXTRACTED #community/Community_142

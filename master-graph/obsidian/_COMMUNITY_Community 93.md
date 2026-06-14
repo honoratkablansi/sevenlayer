@@ -1,29 +1,30 @@
 ---
 type: community
-cohesion: 0.19
-members: 14
+cohesion: 0.18
+members: 15
 ---
 
 # Community 93
 
-**Cohesion:** 0.19 - loosely connected
-**Members:** 14 nodes
+**Cohesion:** 0.18 - loosely connected
+**Members:** 15 nodes
 
 ## Members
-- [[32 previously-unknown vulnerabilities (34 unique problems, 405 warnings)]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[Constraint-computation discrepancy vulnerability class]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[Dataflow-Constraint Discrepancy (DCD) detector]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[Division-by-Zero (DBZ) detector]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[Nondeterministic signals vulnerability class]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[Taxonomy of Circom vulnerabilities (3 root-cause classes)]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[Type Mismatch (TM) detector]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[US, USCO, AM, NDD detectors (remaining ZKAP checkers)]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[Unconstrained Circuit Output (UCO) detector]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[Unconstrained Sub-circuit Input (USCI) detector]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[Unsafe component usage vulnerability class]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[Vulnerability Description Language (VDL)]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[ed25519-circom PointCompress unconstrained-output bug]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[iden3 verifyExpirationTime missing-range-check type mismatch]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
+- [[Cost claim all committed field elements are 'small' in {0,...,max(m,N{1c},q)-1}, enabling ~1 group opelement via Pippenger MSM]] - paper - references/ch03/ref-15-lasso.pdf
+- [[GeneralizedLasso lookup argument for any MLElow-degree-structured table via the sparse-dense sum-check protocol]] - paper - references/ch03/ref-15-lasso.pdf
+- [[Indexed lookup argument (commit to value vector a and index vector b, prove a_i = tb_i)]] - paper - references/ch03/ref-15-lasso.pdf
+- [[Lasso lookup argument for SOSsmall tables, prover commits to 3cm + c·N{1c} small field elements]] - paper - references/ch03/ref-15-lasso.pdf
+- [[Lookup Singularity]] - document - proving-nothing.md
+- [[Lookup singularity & companion paper Jolt replace each VM (RISC-V) instruction with one lookup into a 2128-size decomposable table]] - paper - references/ch03/ref-15-lasso.pdf
+- [[MLE-structured table multilinear extension of the table is evaluable in O(log N) time, so no party commits to it]] - paper - references/ch03/ref-15-lasso.pdf
+- [[Multilinear polynomial commitment scheme (MSM-based or hash-based)]] - paper - references/ch03/ref-15-lasso.pdf
+- [[Prior lookup arguments plookup GW20b, Halo2 BGH20, cq EFG22, Caulk ZBK+22, flookup GK22, Baloo ZGK+22, log-derivative lookups]] - paper - references/ch03/ref-15-lasso.pdf
+- [[SOS  decomposable table Tr = g(T_1r_1,...,T_alphar_c) with alpha=kc MLE-structured sub-tables of size N{1c}]] - paper - references/ch03/ref-15-lasso.pdf
+- [[Sona transparent multilinear PCS (BabyHyrax + Nova) with O(1) commit size, O(1) verify, O(sqrt(N)) crypto eval-proof work]] - paper - references/ch03/ref-15-lasso.pdf
+- [[Sparse-dense sum-check protocol reduces lookups into any MLE-structured table to lookups into a decomposable table]] - paper - references/ch03/ref-15-lasso.pdf
+- [[Surge generalization of Spark proving inner product of an m-sparse committed vector with any decomposable (SOS) dense table]] - paper - references/ch03/ref-15-lasso.pdf
+- [[Theorem 3 Surge polynomial IOP is complete and knowledge-sound for proving sum_y M~(r,y)·Ty=v with soundness O((m+N{1c})F)]] - paper - references/ch03/ref-15-lasso.pdf
+- [[Unlocking the Lookup Singularity with Lasso]] - paper - references/ch03/ref-15-lasso.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -33,12 +34,18 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 4 edges to [[_COMMUNITY_Community 105]]
-- 2 edges to [[_COMMUNITY_Community 72]]
+- 5 edges to [[_COMMUNITY_Community 11]]
+- 2 edges to [[_COMMUNITY_Community 15]]
+- 2 edges to [[_COMMUNITY_Community 88]]
+- 2 edges to [[_COMMUNITY_Community 23]]
+- 1 edge to [[_COMMUNITY_Community 8]]
+- 1 edge to [[_COMMUNITY_Community 28]]
+- 1 edge to [[_COMMUNITY_Community 47]]
+- 1 edge to [[_COMMUNITY_Community 99]]
 
 ## Top bridge nodes
-- [[Vulnerability Description Language (VDL)]] - degree 8, connects to 1 community
-- [[Nondeterministic signals vulnerability class]] - degree 4, connects to 1 community
-- [[Taxonomy of Circom vulnerabilities (3 root-cause classes)]] - degree 4, connects to 1 community
-- [[Unsafe component usage vulnerability class]] - degree 3, connects to 1 community
-- [[32 previously-unknown vulnerabilities (34 unique problems, 405 warnings)]] - degree 3, connects to 1 community
+- [[Unlocking the Lookup Singularity with Lasso]] - degree 10, connects to 4 communities
+- [[Lookup Singularity]] - degree 6, connects to 2 communities
+- [[Lasso lookup argument for SOSsmall tables, prover commits to 3cm + c·N{1c} small field elements]] - degree 7, connects to 1 community
+- [[Surge generalization of Spark proving inner product of an m-sparse committed vector with any decomposable (SOS) dense table]] - degree 4, connects to 1 community
+- [[MLE-structured table multilinear extension of the table is evaluable in O(log N) time, so no party commits to it]] - degree 3, connects to 1 community

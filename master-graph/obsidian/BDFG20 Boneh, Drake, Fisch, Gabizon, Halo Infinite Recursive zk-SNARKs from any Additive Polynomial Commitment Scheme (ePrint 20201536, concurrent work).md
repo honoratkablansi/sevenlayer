@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf"
 type: "paper"
-community: "Community 38"
+community: "Community 31"
 location: "Remark 1.1 / References [BDFG20]"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_38
+  - community/Community_31
 ---
 
 # [BDFG20] Boneh, Drake, Fisch, Gabizon, Halo Infinite: Recursive zk-SNARKs from any Additive Polynomial Commitment Scheme (ePrint 2020/1536, concurrent work)
@@ -15,4 +15,4 @@ tags:
 - [[Proof-Carrying Data without Succinct Arguments (Bunz, Chiesa, Lin, Mishra, Spooner, CRYPTO 2021  ePrint 20201618)]] - `cites` [EXTRACTED]
 - [[Split Accumulation]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_38
+#graphify/paper #graphify/EXTRACTED #community/Community_31

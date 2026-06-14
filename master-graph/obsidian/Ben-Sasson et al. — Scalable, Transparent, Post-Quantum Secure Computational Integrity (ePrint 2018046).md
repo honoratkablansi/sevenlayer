@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 12"
+community: "Community 9"
 location: "Chapter 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_12
+  - community/Community_9
 ---
 
 # Ben-Sasson et al. — Scalable, Transparent, Post-Quantum Secure Computational Integrity (ePrint 2018/046)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[STARK]] - `cites` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_12
+#graphify/document #graphify/EXTRACTED #community/Community_9

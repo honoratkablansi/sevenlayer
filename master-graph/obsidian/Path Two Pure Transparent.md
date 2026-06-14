@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch10-path-two-pure-transparent.md"
 type: "document"
-community: "Community 12"
+community: "Community 0"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_12
+  - community/Community_0
 ---
 
 # Path Two: Pure Transparent
@@ -25,4 +25,4 @@ tags:
 - [[Three Paths, Not Two (Synthesis)]] - `introduces` [EXTRACTED]
 - [[Trusted Setup Ceremony]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_12
+#graphify/document #graphify/EXTRACTED #community/Community_0

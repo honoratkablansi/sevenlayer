@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-04-kzg-commitments.pdf"
 type: "paper"
-community: "Community 58"
+community: "Community 59"
 location: "§4.2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_58
+  - community/Community_59
 ---
 
 # Zero-Knowledge Set (Micali et al.)
@@ -16,4 +16,4 @@ tags:
 - [[Nearly Zero-Knowledge Set  ZK-EDB]] - `conceptually_related_to` [EXTRACTED]
 - [[Polynomial Commitment Scheme]] - `relates_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_58
+#graphify/paper #graphify/EXTRACTED #community/Community_59

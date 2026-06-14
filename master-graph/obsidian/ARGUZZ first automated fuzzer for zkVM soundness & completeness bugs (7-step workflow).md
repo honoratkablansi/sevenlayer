@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-61-arguzz.pdf"
 type: "paper"
-community: "Community 84"
+community: "Community 42"
 location: "Abstract, §2, Fig.2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_84
+  - community/Community_42
 ---
 
 # ARGUZZ: first automated fuzzer for zkVM soundness & completeness bugs (7-step workflow)
@@ -26,4 +26,4 @@ tags:
 - [[Soundness]] - `conceptually_related_to` [EXTRACTED]
 - [[zkVM]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_84
+#graphify/paper #graphify/EXTRACTED #community/Community_42

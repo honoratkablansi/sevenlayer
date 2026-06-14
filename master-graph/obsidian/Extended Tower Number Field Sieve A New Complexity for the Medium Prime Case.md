@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-50-extended-tower-nfs.pdf"
 type: "paper"
-community: "Community 56"
+community: "Community 39"
 location: "page 1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_56
+  - community/Community_39
 ---
 
 # Extended Tower Number Field Sieve: A New Complexity for the Medium Prime Case
@@ -20,4 +20,4 @@ tags:
 - [[The Synthesis -- Three Paths, Not Two]] - `cites` [EXTRACTED]
 - [[exTNFS (Extended Tower Number Field Sieve)]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_56
+#graphify/paper #graphify/EXTRACTED #community/Community_39

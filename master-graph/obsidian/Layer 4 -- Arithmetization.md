@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch05-layer-4-arithmetization.md"
 type: "document"
-community: "Community 2"
+community: "Community 11"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_2
+  - community/Community_11
 ---
 
 # Layer 4 -- Arithmetization
@@ -27,4 +27,4 @@ tags:
 - [[The Witness as a Multi-Dimensional Problem]] - `references` [EXTRACTED]
 - [[ZKML Provable Machine Learning (Research)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_2
+#graphify/document #graphify/EXTRACTED #community/Community_11

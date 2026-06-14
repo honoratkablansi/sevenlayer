@@ -1,36 +1,36 @@
 ---
 type: community
-cohesion: 0.15
+cohesion: 0.12
 members: 21
 ---
 
 # Community 58
 
-**Cohesion:** 0.15 - loosely connected
+**Cohesion:** 0.12 - loosely connected
 **Members:** 21 nodes
 
 ## Members
-- [[Batch Opening (CreateWitnessBatchVerifyEvalBatch)]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[Constant-Size Commitment & O(1) Opening Overhead]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[Constant-Size Commitments to Polynomials and Their Applications]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[Content Extraction Signature & Credential Construction]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[Cryptographic Accumulator]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[Feldman Verifiable Secret Sharing]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[Nearly Zero-Knowledge Set  ZK-EDB]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[PolyCommitDL Scheme]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[PolyCommitPed Scheme]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[Polynomial Divisibility Property ((x-i) divides phi(x)-phi(i))]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[Theorem 3.2 PolyCommitDL Security]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[Theorem 3.3 PolyCommitPed Security]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[Theorem 3.4 Batch Opening Binding]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[Theorem 3.5 Strong Correctness]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[Verifiable Secret Sharing]] - document - references/ch02/ref-04-kzg-commitments.pdf
-- [[Zero-Knowledge Set (Micali et al.)]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[eVSS Efficient Feldman VSS]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[t-Bilinear Strong Diffie-Hellman (t-BSDH) Assumption]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[t-Diffie-Hellman Inversion (t-DHI) Assumption]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[t-Polynomial Diffie-Hellman (t-polyDH) Assumption]] - paper - references/ch02/ref-04-kzg-commitments.pdf
-- [[t-Strong Diffie-Hellman (t-SDH) Assumption]] - paper - references/ch02/ref-04-kzg-commitments.pdf
+- [[BCTV14 extra-parameter vulnerability (forge arbitrary proofs; Zcash counterfeiting flaw, Gabizon 2018)]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
+- [[Cited Bellare-Fuchsbauer-Scafuro subversion impossibility (BFS16)]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Cited Groth 2010 pairing-based zk-SNARK (Gro10b)]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Cited MPC CRS ceremonies BCG+15, BGG17, BGM17]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Impossibility updating non-monomial CRS reveals constituent monomials]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Jens Groth]] - document - wiki/sections/ch06-the-three-families.md
+- [[Lemmas 1-2 subversion-secure = updatable-secure = trusted-secure]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[MonoExtract  FinalMonoExtract monomial-extraction algorithm]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Multi-Party Computation Setup Ceremony]] - document - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Quadratic monomial-only universal CRS (multivariate X,Y,Z, j=7)]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Specializable universal CRS via untrusted Derive algorithm]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Subversion-resistant NIZK  subversion zero-knowledge]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Theorem 3 perfect subversion zero-knowledge of the construction]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Theorem 5  Lemma 8 Pinocchio cannot be made updatable]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Three setup-oracle types trusted (T), updatable (U), subvertible (S)]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Trusted CRS setup with secret trapdoor]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Updatable & specializable QAP-based zk-SNARK construction]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Updatable CRS model (one honest updater suffices)]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Updatable CRS syntax Setup, Update, VerifyCRS algorithms]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Updatable and Universal Common Reference Strings with Applications to zk-SNARKs]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[X-security games COMP, X-ZK, X-SND, X-KSND for X in {T,U,S}]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -40,18 +40,19 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 7 edges to [[_COMMUNITY_Community 21]]
-- 3 edges to [[_COMMUNITY_Community 29]]
-- 2 edges to [[_COMMUNITY_Community 87]]
-- 2 edges to [[_COMMUNITY_Community 35]]
-- 2 edges to [[_COMMUNITY_Community 7]]
-- 1 edge to [[_COMMUNITY_Community 119]]
+- 7 edges to [[_COMMUNITY_Community 4]]
+- 5 edges to [[_COMMUNITY_Community 85]]
+- 4 edges to [[_COMMUNITY_Community 34]]
+- 4 edges to [[_COMMUNITY_Community 69]]
+- 3 edges to [[_COMMUNITY_Community 122]]
+- 2 edges to [[_COMMUNITY_Community 84]]
+- 1 edge to [[_COMMUNITY_Community 87]]
+- 1 edge to [[_COMMUNITY_Community 70]]
 - 1 edge to [[_COMMUNITY_Community 0]]
-- 1 edge to [[_COMMUNITY_Community 40]]
 
 ## Top bridge nodes
-- [[Constant-Size Commitments to Polynomials and Their Applications]] - degree 15, connects to 7 communities
-- [[PolyCommitDL Scheme]] - degree 12, connects to 4 communities
-- [[PolyCommitPed Scheme]] - degree 8, connects to 3 communities
-- [[Verifiable Secret Sharing]] - degree 4, connects to 1 community
-- [[Zero-Knowledge Set (Micali et al.)]] - degree 3, connects to 1 community
+- [[Updatable and Universal Common Reference Strings with Applications to zk-SNARKs]] - degree 16, connects to 6 communities
+- [[Multi-Party Computation Setup Ceremony]] - degree 11, connects to 4 communities
+- [[Updatable & specializable QAP-based zk-SNARK construction]] - degree 6, connects to 2 communities
+- [[Jens Groth]] - degree 3, connects to 2 communities
+- [[Updatable CRS model (one honest updater suffices)]] - degree 7, connects to 1 community

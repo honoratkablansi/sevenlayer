@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch07/ref-25-nist-fips-203-204-205.pdf"
 type: "paper"
-community: "Community 43"
+community: "Community 36"
 location: "p.3 (abstract)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_43
+  - community/Community_36
 ---
 
 # ML-KEM Key-Encapsulation Mechanism
@@ -25,4 +25,4 @@ tags:
 - [[Post-quantum security (against quantum adversaries; security in the QROM)]] - `defines` [EXTRACTED]
 - [[Public-Key Encryption]] - `relates_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_43
+#graphify/paper #graphify/EXTRACTED #community/Community_36

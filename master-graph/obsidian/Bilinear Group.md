@@ -1,12 +1,12 @@
 ---
 source_file: "references/snowball/book/ref-124-efficient-non-interactive-proof-systems-for-bili.pdf"
 type: "paper"
-community: "Community 25"
+community: "Community 17"
 location: "abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_25
+  - community/Community_17
 ---
 
 # Bilinear Group
@@ -15,4 +15,4 @@ tags:
 - [[Bilinear Pairing]] - `uses` [EXTRACTED]
 - [[Non-Interactive Zero-Knowledge (NIZK)]] - `uses` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_25
+#graphify/paper #graphify/EXTRACTED #community/Community_17

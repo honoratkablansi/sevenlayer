@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 98"
+community: "Community 127"
 location: "Chapter 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_98
+  - community/Community_127
 ---
 
 # Chaliasos et al. — SoK: Security Vulnerabilities in SNARKs (USENIX 2024)
@@ -15,4 +15,4 @@ tags:
 - [[Claim Under-constrained circuits are the dominant ZK failure mode (95 of 141 bugs)]] - `cites` [EXTRACTED]
 - [[Soundness]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_98
+#graphify/document #graphify/EXTRACTED #community/Community_127

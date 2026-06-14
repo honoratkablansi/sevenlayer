@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-63-harvest-now-decrypt-later.pdf"
 type: "paper"
-community: "Community 66"
+community: "Community 95"
 location: "§1; §4.0; §4.3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_66
+  - community/Community_95
 ---
 
 # Threat model: bad actor joins as node operator, harvests a non-PQC replica of the ledger, later cracks it with a quantum computer to reveal plaintext
@@ -16,4 +16,4 @@ tags:
 - [[Distributed Ledger Network]] - `assumes` [EXTRACTED]
 - [[Harvest Now Decrypt Later (HNDL)]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_66
+#graphify/paper #graphify/EXTRACTED #community/Community_95

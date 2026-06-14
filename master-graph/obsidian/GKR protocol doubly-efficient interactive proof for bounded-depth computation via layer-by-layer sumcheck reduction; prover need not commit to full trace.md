@@ -1,25 +1,27 @@
 ---
 source_file: "references/recursion/ch1/ref-11-khovratovich-fiat-shamir-attacks.pdf"
 type: "paper"
-community: "Community 18"
+community: "Community 21"
 location: "§2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_18
+  - community/Community_21
 ---
 
 # GKR protocol: doubly-efficient interactive proof for bounded-depth computation via layer-by-layer sumcheck reduction; prover need not commit to full trace
 
 ## Connections
-- [[Arithmetic Circuit]] - `uses` [EXTRACTED]
+- [[Arithmetic Circuit]] - `applies` [EXTRACTED]
 - [[Arithmetic Circuit Evaluation Problem]] - `uses` [EXTRACTED]
 - [[Bare-bones protocol (Theorem 3.1) IP given oracle access to low-degree extensions of wiring predicates add_imult_i specifying circuit]] - `conceptually_related_to` [EXTRACTED]
+- [[Boolean Hypercube]] - `uses` [EXTRACTED]
 - [[CMT protocol (Cormode-Mitzenmacher-Thaler interactive proof for layered arithmetic circuits)]] - `assumes` [EXTRACTED]
 - [[Circuit Satisfiability front ends compiling computer programs into arithmetic circuits  circuit-SAT instances]] - `verified-by` [EXTRACTED]
+- [[Circuit Transcript]] - `uses` [EXTRACTED]
 - [[Data-Parallel Computation]] - `uses` [EXTRACTED]
 - [[Delegating Computation Interactive Proofs for Muggles (GKR, STOC 2008  full version)]] - `introduces` [EXTRACTED]
-- [[Doubly-efficient interactive proof (efficient prover, super-efficient verifier)]] - `defines` [EXTRACTED]
+- [[Doubly-efficient interactive proof (efficient prover, super-efficient verifier)]] - `relates_to` [EXTRACTED]
 - [[Fiat-Shamir Transform]] - `attacks` [EXTRACTED]
 - [[GKR  Delegating Computation Interactive Proofs for Muggles (Goldwasser-Kalai-Rothblum, J.ACM 2015) 53]] - `cites` [EXTRACTED]
 - [[Gate Value Function (W_i)]] - `uses` [EXTRACTED]
@@ -37,6 +39,7 @@ tags:
 - [[Lookup Argument]] - `references` [EXTRACTED]
 - [[Multilinear extension (MLE)]] - `uses` [EXTRACTED]
 - [[NC Complexity Class (Parallel Algorithms)]] - `relates_to` [EXTRACTED]
+- [[Polynomial IOP  interactive oracle protocol]] - `builds_on` [EXTRACTED]
 - [[Proofs, Arguments, and Zero-Knowledge (Justin Thaler, survey textbook)]] - `explains` [EXTRACTED]
 - [[Protocol Pi_{comm,d} GKR + MLPCS succinct argument for non-deterministic depth-d circuit C(x,w)=y; FS-compiled as FS_h(Pi_{comm,d}); challenge r=h(C,x,y,alpha)]] - `assumes` [EXTRACTED]
 - [[Prover Efficiency]] - `improves` [EXTRACTED]
@@ -46,11 +49,12 @@ tags:
 - [[Schwartz-Zippel Lemma]] - `uses` [EXTRACTED]
 - [[Streaming Verification]] - `uses` [EXTRACTED]
 - [[Succinct Argument]] - `builds_on` [EXTRACTED]
-- [[Sum-Check Protocol]] - `uses` [EXTRACTED]
+- [[Sum-Check Protocol]] - `builds_on` [EXTRACTED]
 - [[Sumcheck Protocol]] - `conceptually_related_to` [EXTRACTED]
 - [[Super-Efficient MatMult IP]] - `relates_to` [EXTRACTED]
 - [[The Sumcheck Protocol The Hidden Foundation]] - `references` [EXTRACTED]
 - [[Theorem 1.1 public-coin IP for O(log S)-space-uniform circuits; verifier npoly(d,log S) time, O(log S) space; prover poly(S); communication dpolylog(S)]] - `proves` [INFERRED]
+- [[Vanishing Polynomial]] - `uses` [EXTRACTED]
 - [[Virgo ZKP System]] - `uses` [EXTRACTED]
 - [[Virgo Transparent Polynomial Delegation and ZK Proofs (Zhang-Xie-Zhang-Song, S&P 2020) 76 — base ZKP that deVirgo distributes]] - `assumes` [INFERRED]
 - [[Wiring Predicate (add_i  mult_i)]] - `uses` [EXTRACTED]
@@ -59,4 +63,4 @@ tags:
 - [[vSQL verifiable database system for arbitrary SQL queries over dynamic outsourced databases]] - `cites` [EXTRACTED]
 - [[zkCNN commit-and-prove scheme (KeyGen, Commit, Prove, Verify) for CNN prediction]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_18
+#graphify/paper #graphify/EXTRACTED #community/Community_21

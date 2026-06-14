@@ -1,12 +1,12 @@
 ---
 source_file: "references/snowball/recursion/ref-097-proving-the-correct-execution-of-concurrent-serv.pdf"
 type: "paper"
-community: "Community 15"
+community: "Community 92"
 location: "abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_15
+  - community/Community_92
 ---
 
 # Verifiable State Machine
@@ -18,4 +18,4 @@ tags:
 - [[Verifiable computation]] - `relates_to` [EXTRACTED]
 - [[Zero-Knowledge Proof]] - `uses` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_15
+#graphify/paper #graphify/EXTRACTED #community/Community_92

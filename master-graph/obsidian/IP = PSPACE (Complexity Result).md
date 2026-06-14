@@ -1,12 +1,12 @@
 ---
 source_file: "references/books/proofs-args-zk.pdf"
 type: "paper"
-community: "Community 18"
+community: "Community 23"
 location: "Definitions and Technical Preliminaries"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_18
+  - community/Community_23
 ---
 
 # IP = PSPACE (Complexity Result)
@@ -15,4 +15,4 @@ tags:
 - [[SAT Interactive Proof]] - `builds_on` [EXTRACTED]
 - [[Interactive Proof (IP) prover-verifier protocol with statistical soundness]] - `relates_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_18
+#graphify/paper #graphify/EXTRACTED #community/Community_23

@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 1"
+community: "Community 73"
 location: "Chapter 14"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_1
+  - community/Community_73
 ---
 
 # Zeno's Paradox of Trust (Conjunction Effect)
@@ -15,4 +15,4 @@ tags:
 - [[Q4 When Will Trustless Become Real]] - `introduces` [EXTRACTED]
 - [[Seven-Layer Trust Model]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_1
+#graphify/document #graphify/EXTRACTED #community/Community_73

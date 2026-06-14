@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch09/ref-31-blockchain-privacy-compliance.pdf"
 type: "paper"
-community: "Community 48"
+community: "Community 121"
 location: "§3.1; Fig. 4"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_48
+  - community/Community_121
 ---
 
 # Dissociation game (Alice/Bob/Carl/David vs Eve elimination example)
@@ -15,4 +15,4 @@ tags:
 - [[Association set (custom set of possible fund origins)]] - `assumes` [EXTRACTED]
 - [[Separating equilibrium between compliant and non-compliant withdrawals]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_48
+#graphify/paper #graphify/EXTRACTED #community/Community_121

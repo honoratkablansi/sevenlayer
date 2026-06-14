@@ -1,12 +1,12 @@
 ---
 source_file: "references/books/proofs-args-zk.pdf"
 type: "paper"
-community: "Community 27"
+community: "Community 47"
 location: "The Sum-Check Protocol"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_27
+  - community/Community_47
 ---
 
 # Adjacency Matrix as Function Encoding
@@ -15,4 +15,4 @@ tags:
 - [[Boolean Hypercube]] - `uses` [EXTRACTED]
 - [[Counting Triangles IP]] - `uses` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_27
+#graphify/paper #graphify/EXTRACTED #community/Community_47

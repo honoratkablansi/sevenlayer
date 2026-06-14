@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch01/ref-03-sok-snark-vulnerabilities.pdf"
 type: "paper"
-community: "Community 32"
+community: "Community 17"
 location: "App A.4"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_32
+  - community/Community_17
 ---
 
 # Nova IVC soundness/malleability bug on cycle of curves (missing consistency check)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Proof-system (theoretical) vulnerabilities affecting all implementations]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_32
+#graphify/paper #graphify/EXTRACTED #community/Community_17

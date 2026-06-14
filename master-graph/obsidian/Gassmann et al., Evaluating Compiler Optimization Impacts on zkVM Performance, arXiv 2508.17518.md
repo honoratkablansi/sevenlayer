@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 79"
+community: "Community 98"
 location: "Chapter 3"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_79
+  - community/Community_98
 ---
 
 # Gassmann et al., Evaluating Compiler Optimization Impacts on zkVM Performance, arXiv 2508.17518
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Claim The compiler, not the language, is the part that matters]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_79
+#graphify/document #graphify/EXTRACTED #community/Community_98

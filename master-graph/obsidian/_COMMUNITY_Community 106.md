@@ -1,26 +1,27 @@
 ---
 type: community
-cohesion: 0.22
-members: 11
+cohesion: 0.17
+members: 12
 ---
 
 # Community 106
 
-**Cohesion:** 0.22 - loosely connected
-**Members:** 11 nodes
+**Cohesion:** 0.17 - loosely connected
+**Members:** 12 nodes
 
 ## Members
-- [[Aggregation Trees (zkTree cost model)]] - document - recursion/recursion-outline.md
-- [[Applicative recursion (application-aware proof + input compression)]] - document - references/recursion/ch3/ref-53-starkware-recursive-starks.md
-- [[L3 deployments on top of L2 via recursive verifier]] - document - references/recursion/ch3/ref-53-starkware-recursive-starks.md
-- [[Logarithmic verification compression of STARK proofs]] - document - references/recursion/ch3/ref-53-starkware-recursive-starks.md
-- [[NEBRA]] - document - proving-nothing.md
-- [[Proof Aggregation]] - document - proving-nothing.md
-- [[Recursive STARK proving]] - document - references/recursion/ch3/ref-53-starkware-recursive-starks.md
-- [[SHARP (SHARed Prover)]] - document - references/recursion/ch3/ref-53-starkware-recursive-starks.md
-- [[StarkWare, Recursive STARKs (2022)]] - document - references/recursion/ch3/ref-53-starkware-recursive-starks.md
-- [[Three Core Capabilities compression, incrementality, composability]] - document - recursion/recursion-outline.md
-- [[When Not to Recurse (crossover heuristics)]] - document - recursion/recursion-outline.md
+- [[Batched KZG Polynomial Commitment Scheme (multi-poly, multi-point)]] - paper - references/ch02/ref-07-plonk.pdf
+- [[Compiler Polynomial Protocol to AGM-Knowledge-Sound Protocol (Lemma 4.7)]] - paper - references/ch02/ref-07-plonk.pdf
+- [[Copy Constraints via Permutation (wiring check)]] - paper - references/ch02/ref-07-plonk.pdf
+- [[Corollary 7.2 11n+1 G1-exp prover, 7 G1 + 67 F proof, 2 pairings]] - paper - references/ch02/ref-07-plonk.pdf
+- [[Extended Permutation Check Across Multiple Polynomials]] - paper - references/ch02/ref-07-plonk.pdf
+- [[Idealized Low-Degree (Polynomial) Protocol]] - paper - references/ch02/ref-07-plonk.pdf
+- [[Linearisation Polynomial (Maller optimization)]] - paper - references/ch02/ref-07-plonk.pdf
+- [[PLONK Constraint System & Arithmetization (selectorgate equation)]] - paper - references/ch02/ref-07-plonk.pdf
+- [[PLONK Main Protocol for Relation R_C (Theorem 7.1)]] - paper - references/ch02/ref-07-plonk.pdf
+- [[Ranged Polynomial Protocol (identities over a subset S)]] - paper - references/ch02/ref-07-plonk.pdf
+- [[Selector Polynomials (qL,qR,qO,qM,qC)]] - paper - references/ch02/ref-07-plonk.pdf
+- [[Zero-Knowledge via ZH Blinding Scalars]] - paper - references/ch02/ref-07-plonk.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -30,29 +31,15 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 3 edges to [[_COMMUNITY_Community 8]]
-- 2 edges to [[_COMMUNITY_Community 13]]
-- 2 edges to [[_COMMUNITY_Community 75]]
-- 2 edges to [[_COMMUNITY_Community 23]]
-- 2 edges to [[_COMMUNITY_Community 30]]
-- 2 edges to [[_COMMUNITY_Community 73]]
-- 2 edges to [[_COMMUNITY_Community 94]]
-- 2 edges to [[_COMMUNITY_Community 19]]
-- 1 edge to [[_COMMUNITY_Community 36]]
-- 1 edge to [[_COMMUNITY_Community 12]]
-- 1 edge to [[_COMMUNITY_Community 60]]
-- 1 edge to [[_COMMUNITY_Community 21]]
-- 1 edge to [[_COMMUNITY_Community 29]]
-- 1 edge to [[_COMMUNITY_Community 102]]
-- 1 edge to [[_COMMUNITY_Community 39]]
-- 1 edge to [[_COMMUNITY_Community 121]]
-- 1 edge to [[_COMMUNITY_Community 122]]
-- 1 edge to [[_COMMUNITY_Community 11]]
-- 1 edge to [[_COMMUNITY_Community 47]]
+- 4 edges to [[_COMMUNITY_Community 133]]
+- 2 edges to [[_COMMUNITY_Community 11]]
+- 1 edge to [[_COMMUNITY_Community 17]]
+- 1 edge to [[_COMMUNITY_Community 4]]
+- 1 edge to [[_COMMUNITY_Community 23]]
 
 ## Top bridge nodes
-- [[Proof Aggregation]] - degree 28, connects to 15 communities
-- [[Recursive STARK proving]] - degree 7, connects to 2 communities
-- [[SHARP (SHARed Prover)]] - degree 4, connects to 2 communities
-- [[Aggregation Trees (zkTree cost model)]] - degree 2, connects to 1 community
-- [[Three Core Capabilities compression, incrementality, composability]] - degree 2, connects to 1 community
+- [[PLONK Main Protocol for Relation R_C (Theorem 7.1)]] - degree 9, connects to 3 communities
+- [[Batched KZG Polynomial Commitment Scheme (multi-poly, multi-point)]] - degree 4, connects to 2 communities
+- [[Copy Constraints via Permutation (wiring check)]] - degree 3, connects to 1 community
+- [[PLONK Constraint System & Arithmetization (selectorgate equation)]] - degree 3, connects to 1 community
+- [[Idealized Low-Degree (Polynomial) Protocol]] - degree 3, connects to 1 community

@@ -1,0 +1,8757 @@
+[
+  {
+    "start": 1.48,
+    "dur": 1.25,
+    "text": "YUPENG ZHANG: Hello, everyone."
+  },
+  {
+    "start": 2.73,
+    "dur": 2.84,
+    "text": "Welcome back to our MOOC\non zero-knowledge proofs."
+  },
+  {
+    "start": 5.57,
+    "dur": 1.89,
+    "text": "I'm Yupeng Zhang,\nand today I'm going"
+  },
+  {
+    "start": 7.46,
+    "dur": 2.04,
+    "text": "to talk about polynomial\ncommitment schemes"
+  },
+  {
+    "start": 9.5,
+    "dur": 3.91,
+    "text": "based on error-correcting codes."
+  },
+  {
+    "start": 13.41,
+    "dur": 4.02,
+    "text": "Recall that a common paradigm\nto construct efficient SNARKs"
+  },
+  {
+    "start": 17.43,
+    "dur": 3.0,
+    "text": "for general circuits is to\ncombine a polynomial commitment"
+  },
+  {
+    "start": 20.43,
+    "dur": 3.79,
+    "text": "scheme with an appropriate\npolynomial interactive proof,"
+  },
+  {
+    "start": 24.22,
+    "dur": 2.96,
+    "text": "such as the PLONK IOP and\nthe interactive proofs,"
+  },
+  {
+    "start": 27.18,
+    "dur": 3.18,
+    "text": "as we've seen in\nprevious lectures."
+  },
+  {
+    "start": 30.36,
+    "dur": 3.48,
+    "text": "Last time I started this section\non polynomial commitments"
+  },
+  {
+    "start": 33.84,
+    "dur": 3.99,
+    "text": "and talked about the classical\nprotocol of the KCG polynomial"
+  },
+  {
+    "start": 37.83,
+    "dur": 1.62,
+    "text": "commitment."
+  },
+  {
+    "start": 39.45,
+    "dur": 2.61,
+    "text": "The protocol utilizes\nthe bilinear pairing"
+  },
+  {
+    "start": 42.06,
+    "dur": 2.67,
+    "text": "and has this trusted\nsetup step, to compute"
+  },
+  {
+    "start": 44.73,
+    "dur": 3.06,
+    "text": "the global parameters with\nthis structure and the trapdoor"
+  },
+  {
+    "start": 47.79,
+    "dur": 1.03,
+    "text": "in it."
+  },
+  {
+    "start": 48.82,
+    "dur": 2.15,
+    "text": "And the key idea of\nthe scheme relies"
+  },
+  {
+    "start": 50.97,
+    "dur": 2.13,
+    "text": "on this polynomial\nequation to compute"
+  },
+  {
+    "start": 53.1,
+    "dur": 3.14,
+    "text": "the quotient polynomial q of x."
+  },
+  {
+    "start": 56.24,
+    "dur": 3.21,
+    "text": "And the scheme has a very small\ngroup size and a very fast"
+  },
+  {
+    "start": 59.45,
+    "dur": 1.83,
+    "text": "verifier time in practice."
+  },
+  {
+    "start": 61.28,
+    "dur": 3.27,
+    "text": "The proof only consists of a\nsingle element in the group,"
+  },
+  {
+    "start": 64.55,
+    "dur": 3.51,
+    "text": "and the verifier only needs\nto compute a single parent"
+  },
+  {
+    "start": 68.06,
+    "dur": 2.64,
+    "text": "equation."
+  },
+  {
+    "start": 70.7,
+    "dur": 3.42,
+    "text": "In addition, I also talked\nabout other polynomial schemes"
+  },
+  {
+    "start": 74.12,
+    "dur": 3.96,
+    "text": "without trusted setup, that are\nbased on discrete log problem."
+  },
+  {
+    "start": 78.08,
+    "dur": 5.13,
+    "text": "Those include bulletproofs,\nhyrax, dory, and dark."
+  },
+  {
+    "start": 83.21,
+    "dur": 2.61,
+    "text": "In this lecture,\nwe are going to see"
+  },
+  {
+    "start": 85.82,
+    "dur": 2.4,
+    "text": "a new class of\npolynomial schemes"
+  },
+  {
+    "start": 88.22,
+    "dur": 1.92,
+    "text": "based on error-correcting codes."
+  },
+  {
+    "start": 90.14,
+    "dur": 2.07,
+    "text": "And to give you\nsome motivations,"
+  },
+  {
+    "start": 92.21,
+    "dur": 4.38,
+    "text": "here I'm showing you the pros\nand cons of these schemes"
+  },
+  {
+    "start": 96.59,
+    "dur": 1.57,
+    "text": "on this slide."
+  },
+  {
+    "start": 98.16,
+    "dur": 2.42,
+    "text": "So on the positive\nside, we are not"
+  },
+  {
+    "start": 100.58,
+    "dur": 4.26,
+    "text": "aware of any efficient\nalgorithms on quantum computers"
+  },
+  {
+    "start": 104.84,
+    "dur": 2.2,
+    "text": "to break the assumptions\nof these schemes."
+  },
+  {
+    "start": 107.04,
+    "dur": 2.51,
+    "text": "So the schemes are\nplausibly post-quantum,"
+  },
+  {
+    "start": 109.55,
+    "dur": 3.27,
+    "text": "unlike those that are based\non discrete log problem."
+  },
+  {
+    "start": 112.82,
+    "dur": 3.06,
+    "text": "In addition, the prover\ntime of these schemes"
+  },
+  {
+    "start": 115.88,
+    "dur": 4.35,
+    "text": "tend to be fast, because\nthey do not require any group"
+  },
+  {
+    "start": 120.23,
+    "dur": 1.32,
+    "text": "exponentiations."
+  },
+  {
+    "start": 121.55,
+    "dur": 3.21,
+    "text": "The prover only computes\nhash functions, Merkle trees,"
+  },
+  {
+    "start": 124.76,
+    "dur": 3.689,
+    "text": "and some field additions,\nmultiplications, and FFT."
+  },
+  {
+    "start": 128.449,
+    "dur": 2.981,
+    "text": "Finally, the size of the global\nparameters is very small,"
+  },
+  {
+    "start": 131.43,
+    "dur": 1.62,
+    "text": "and there is no trusted set up."
+  },
+  {
+    "start": 133.05,
+    "dur": 2.4,
+    "text": "All we need to do\nis to sample a hash"
+  },
+  {
+    "start": 135.45,
+    "dur": 4.57,
+    "text": "from a family of hash functions\nand the size is constant."
+  },
+  {
+    "start": 140.02,
+    "dur": 3.49,
+    "text": "But of course, these nice\nproperties come at a cost."
+  },
+  {
+    "start": 143.51,
+    "dur": 2.87,
+    "text": "The first drawback is\nthat the schemes usually"
+  },
+  {
+    "start": 146.38,
+    "dur": 2.02,
+    "text": "have a very large proof size."
+  },
+  {
+    "start": 148.4,
+    "dur": 2.21,
+    "text": "And as you will\nsee later, we are"
+  },
+  {
+    "start": 150.61,
+    "dur": 2.4,
+    "text": "talking about several\nmegabytes to tens"
+  },
+  {
+    "start": 153.01,
+    "dur": 2.61,
+    "text": "of megabytes in practice."
+  },
+  {
+    "start": 155.62,
+    "dur": 3.03,
+    "text": "And another drawback is\nthat because of the lack"
+  },
+  {
+    "start": 158.65,
+    "dur": 4.32,
+    "text": "of the algebraic structure\nthese proofs do not"
+  },
+  {
+    "start": 162.97,
+    "dur": 2.46,
+    "text": "have this homomorphic\nproperty, and they"
+  },
+  {
+    "start": 165.43,
+    "dur": 3.24,
+    "text": "are hard to aggregate--"
+  },
+  {
+    "start": 168.67,
+    "dur": 2.4,
+    "text": "in a similar way as\nwe've seen last time"
+  },
+  {
+    "start": 171.07,
+    "dur": 2.49,
+    "text": "in the variants of KZG\npolynomial commitments"
+  },
+  {
+    "start": 173.56,
+    "dur": 5.11,
+    "text": "to support multiple evaluations."
+  },
+  {
+    "start": 178.67,
+    "dur": 2.4,
+    "text": "So to understand\nthe schemes based"
+  },
+  {
+    "start": 181.07,
+    "dur": 1.47,
+    "text": "on our error-occuring\ncodes, here's"
+  },
+  {
+    "start": 182.54,
+    "dur": 1.41,
+    "text": "the plan of this lecture."
+  },
+  {
+    "start": 183.95,
+    "dur": 1.68,
+    "text": "There will be three segments."
+  },
+  {
+    "start": 185.63,
+    "dur": 2.91,
+    "text": "In the first segment, I'm going\nto talk about some background"
+  },
+  {
+    "start": 188.54,
+    "dur": 1.71,
+    "text": "on error-occuring codes."
+  },
+  {
+    "start": 190.25,
+    "dur": 2.67,
+    "text": "And with that background,\nin the second segment,"
+  },
+  {
+    "start": 192.92,
+    "dur": 2.28,
+    "text": "I'm going to present the\npolynomial commitment schemes"
+  },
+  {
+    "start": 195.2,
+    "dur": 2.58,
+    "text": "using any error-occuring codes."
+  },
+  {
+    "start": 197.78,
+    "dur": 2.07,
+    "text": "And in the last\nsegment, I'm going"
+  },
+  {
+    "start": 199.85,
+    "dur": 2.52,
+    "text": "to talk about this\ninteresting line of work,"
+  },
+  {
+    "start": 202.37,
+    "dur": 3.87,
+    "text": "to build linear-time encodable\ncode based on expander graphs."
+  },
+  {
+    "start": 206.24,
+    "dur": 1.68,
+    "text": "And the polynomial\ncommitment schemes"
+  },
+  {
+    "start": 207.92,
+    "dur": 3.6,
+    "text": "and zere-knowledge proof\nschemes using this type of code"
+  },
+  {
+    "start": 211.52,
+    "dur": 3.3,
+    "text": "to have a linear\ntime prover in terms"
+  },
+  {
+    "start": 214.82,
+    "dur": 4.57,
+    "text": "of the number of field additions\nand field multiplications."
+  },
+  {
+    "start": 219.39,
+    "dur": 2.6,
+    "text": "So let's start with\nthe background."
+  },
+  {
+    "start": 224.737,
+    "dur": 1.458,
+    "text": "The error-occuring\ncode is actually"
+  },
+  {
+    "start": 226.195,
+    "dur": 3.015,
+    "text": "a well-studied topic in the\narea of information theory"
+  },
+  {
+    "start": 229.21,
+    "dur": 1.66,
+    "text": "and coding theory."
+  },
+  {
+    "start": 230.87,
+    "dur": 2.51,
+    "text": "It can be used to correct\nerrors in the transmission"
+  },
+  {
+    "start": 233.38,
+    "dur": 1.65,
+    "text": "over the network,\nand that is why it's"
+  },
+  {
+    "start": 235.03,
+    "dur": 2.58,
+    "text": "called error-occuring code."
+  },
+  {
+    "start": 237.61,
+    "dur": 3.36,
+    "text": "An error-occuring code\nencodes a message of size k"
+  },
+  {
+    "start": 240.97,
+    "dur": 4.05,
+    "text": "to a codeword of size n, where\nn is strictly larger than k."
+  },
+  {
+    "start": 245.02,
+    "dur": 3.27,
+    "text": "An important property of\nthe error-occuring code"
+  },
+  {
+    "start": 248.29,
+    "dur": 2.8,
+    "text": "is this concept of\na minimum distance."
+  },
+  {
+    "start": 251.09,
+    "dur": 2.39,
+    "text": "So the distance\nbetween two codewords"
+  },
+  {
+    "start": 253.48,
+    "dur": 2.25,
+    "text": "is the number of different\nlocations between the two"
+  },
+  {
+    "start": 255.73,
+    "dur": 3.039,
+    "text": "codewords, and this is\ncalled Hamming distance."
+  },
+  {
+    "start": 258.769,
+    "dur": 3.531,
+    "text": "And if you take the minimum of\nthe distance between any two"
+  },
+  {
+    "start": 262.3,
+    "dur": 2.7,
+    "text": "codewords and call\nit delta, that"
+  },
+  {
+    "start": 265.0,
+    "dur": 4.12,
+    "text": "is the minimum distance of\nthis error-occuring code."
+  },
+  {
+    "start": 269.12,
+    "dur": 4.38,
+    "text": "And this n, k, and delta are\nthree important parameters"
+  },
+  {
+    "start": 273.5,
+    "dur": 4.71,
+    "text": "of the code, and we really\ncall it n. k, delta code."
+  },
+  {
+    "start": 278.21,
+    "dur": 1.14,
+    "text": "I know that there's--"
+  },
+  {
+    "start": 279.35,
+    "dur": 5.23,
+    "text": "another important parameter\nis the alphabet of the code,"
+  },
+  {
+    "start": 284.58,
+    "dur": 2.9,
+    "text": "whether it's defined over\na binary or a finite field,"
+  },
+  {
+    "start": 287.48,
+    "dur": 5.81,
+    "text": "but I'm omitting this\nparameter in this notation."
+  },
+  {
+    "start": 293.29,
+    "dur": 6.11,
+    "text": "So to give you an example, the\nsimplest example you're using"
+  },
+  {
+    "start": 299.4,
+    "dur": 1.62,
+    "text": "is this repetition code."
+  },
+  {
+    "start": 301.02,
+    "dur": 2.85,
+    "text": "And here I'm using an\nexample with a message"
+  },
+  {
+    "start": 303.87,
+    "dur": 2.34,
+    "text": "of size 2 over\nthe binary values,"
+  },
+  {
+    "start": 306.21,
+    "dur": 2.31,
+    "text": "and the code was size 6."
+  },
+  {
+    "start": 308.52,
+    "dur": 3.48,
+    "text": "So essentially, we are repeating\neach symbol three times"
+  },
+  {
+    "start": 312.0,
+    "dur": 1.6,
+    "text": "to encode the message."
+  },
+  {
+    "start": 313.6,
+    "dur": 2.99,
+    "text": "So that's why we have the\nencoding of 00 gives you all"
+  },
+  {
+    "start": 316.59,
+    "dur": 4.32,
+    "text": "zeros, and encoding\nof 01 is 000111."
+  },
+  {
+    "start": 320.91,
+    "dur": 2.07,
+    "text": "And similarly, you\nhave the encoding of 10"
+  },
+  {
+    "start": 322.98,
+    "dur": 1.14,
+    "text": "and the encoding of 11."
+  },
+  {
+    "start": 324.12,
+    "dur": 2.7,
+    "text": "And that's all possible\nmessages of length 2"
+  },
+  {
+    "start": 326.82,
+    "dur": 3.06,
+    "text": "over the binary field."
+  },
+  {
+    "start": 329.88,
+    "dur": 2.42,
+    "text": "So then it's not hard to see\nthat the minimum distance"
+  },
+  {
+    "start": 332.3,
+    "dur": 2.22,
+    "text": "of this code is actually 3."
+  },
+  {
+    "start": 334.52,
+    "dur": 4.14,
+    "text": "Because if you take any two\ncodewords from these four"
+  },
+  {
+    "start": 338.66,
+    "dur": 5.04,
+    "text": "possible codewords, we have\nat least three locations"
+  },
+  {
+    "start": 343.7,
+    "dur": 2.92,
+    "text": "between any two codewords\nthat are different."
+  },
+  {
+    "start": 346.62,
+    "dur": 2.3,
+    "text": "And because this\nnice property, we"
+  },
+  {
+    "start": 348.92,
+    "dur": 3.09,
+    "text": "can actually correct one\nerror during the transmission."
+  },
+  {
+    "start": 352.01,
+    "dur": 6.2,
+    "text": "Suppose that because the noise\nlevel it can only introduce"
+  },
+  {
+    "start": 358.21,
+    "dur": 4.02,
+    "text": "at most one error\nduring a transmission,"
+  },
+  {
+    "start": 362.23,
+    "dur": 4.92,
+    "text": "and the codeword we\nreceive is 010111."
+  },
+  {
+    "start": 367.15,
+    "dur": 3.69,
+    "text": "Then, because of this distant\nproperty of the repetition"
+  },
+  {
+    "start": 370.84,
+    "dur": 5.43,
+    "text": "code, there is only one message\nwhose codeword is one error"
+  },
+  {
+    "start": 376.27,
+    "dur": 3.54,
+    "text": "away from this\ncodeword-- that is, 01."
+  },
+  {
+    "start": 379.81,
+    "dur": 3.06,
+    "text": "And the codeword is 000111."
+  },
+  {
+    "start": 382.87,
+    "dur": 3.66,
+    "text": "And that is why we are sure that\nthe original message must be"
+  },
+  {
+    "start": 386.53,
+    "dur": 3.63,
+    "text": "01, even with such an error\nduring the transmission."
+  },
+  {
+    "start": 390.16,
+    "dur": 2.85,
+    "text": "So that is the\noriginal application"
+  },
+  {
+    "start": 393.01,
+    "dur": 1.86,
+    "text": "of the error-correcting code."
+  },
+  {
+    "start": 394.87,
+    "dur": 3.72,
+    "text": "And the process to derive\nthis original message"
+  },
+  {
+    "start": 398.59,
+    "dur": 3.3,
+    "text": "from a received codeword is\ncalled decoding algorithm."
+  },
+  {
+    "start": 401.89,
+    "dur": 2.52,
+    "text": "And an interesting\nthing to note here"
+  },
+  {
+    "start": 404.41,
+    "dur": 3.03,
+    "text": "is that in our polynomial\ncommitment scheme,"
+  },
+  {
+    "start": 407.44,
+    "dur": 3.73,
+    "text": "we are not going to use this\ndecoding algorithm at all."
+  },
+  {
+    "start": 411.17,
+    "dur": 2.36,
+    "text": "So because of that,\nwe can actually"
+  },
+  {
+    "start": 413.53,
+    "dur": 2.985,
+    "text": "use error-correcting codes\nwithout efficient decoding."
+  },
+  {
+    "start": 420.54,
+    "dur": 4.86,
+    "text": "So next, I'm just going to\ndefine some additional terms."
+  },
+  {
+    "start": 425.4,
+    "dur": 3.74,
+    "text": "So we have this rate of an\nerror-correcting code as k over"
+  },
+  {
+    "start": 429.14,
+    "dur": 3.15,
+    "text": "n So essentially, it's\nrepresenting the ratio"
+  },
+  {
+    "start": 432.29,
+    "dur": 6.33,
+    "text": "of a meaningful message when\nwe have a codeword of size k--"
+  },
+  {
+    "start": 438.62,
+    "dur": 1.44,
+    "text": "size n, sorry."
+  },
+  {
+    "start": 440.06,
+    "dur": 3.78,
+    "text": "So this is basically\nmeasuring out of n symbols,"
+  },
+  {
+    "start": 443.84,
+    "dur": 3.06,
+    "text": "we only have k symbols\nrepresenting the message."
+  },
+  {
+    "start": 446.9,
+    "dur": 2.25,
+    "text": "And this is a number\nbetween 0 and 1,"
+  },
+  {
+    "start": 449.15,
+    "dur": 5.6,
+    "text": "and apparently we want it to\nbe as close to 1 as possible."
+  },
+  {
+    "start": 454.75,
+    "dur": 2.99,
+    "text": "And we also have this term\ncalled relative distance,"
+  },
+  {
+    "start": 457.74,
+    "dur": 2.88,
+    "text": "is basically the minimum\ndistance delta divided by n."
+  },
+  {
+    "start": 460.62,
+    "dur": 3.12,
+    "text": "So this is the ratio\nof the codeword"
+  },
+  {
+    "start": 463.74,
+    "dur": 3.27,
+    "text": "that is different between\nany two codewords."
+  },
+  {
+    "start": 467.01,
+    "dur": 2.31,
+    "text": "And again, this is a\nnumber between 0 and 1."
+  },
+  {
+    "start": 469.32,
+    "dur": 2.25,
+    "text": "And for the purpose\nof error correction,"
+  },
+  {
+    "start": 471.57,
+    "dur": 3.3,
+    "text": "we also want it to be\nas big as possible."
+  },
+  {
+    "start": 474.87,
+    "dur": 2.19,
+    "text": "And using the same\nexample of a repetition"
+  },
+  {
+    "start": 477.06,
+    "dur": 3.72,
+    "text": "code, if we have a rate of 1\nor a, meaning that we are going"
+  },
+  {
+    "start": 480.78,
+    "dur": 3.85,
+    "text": "to repeat each symbol a times,\nthen from the previous example,"
+  },
+  {
+    "start": 484.63,
+    "dur": 4.46,
+    "text": "we can see that the\ndistance of this code is a."
+  },
+  {
+    "start": 489.09,
+    "dur": 1.89,
+    "text": "And therefore the\nrelative distance"
+  },
+  {
+    "start": 490.98,
+    "dur": 3.15,
+    "text": "is the delta over n, where\nn equals to k times a."
+  },
+  {
+    "start": 494.13,
+    "dur": 1.86,
+    "text": "So the distance is 1 over k."
+  },
+  {
+    "start": 495.99,
+    "dur": 2.25,
+    "text": "And turns out this is\nactually not very good,"
+  },
+  {
+    "start": 498.24,
+    "dur": 4.71,
+    "text": "because it decays as the\nmessage size k increases."
+  },
+  {
+    "start": 502.95,
+    "dur": 3.39,
+    "text": "So it's not an\nasymptotically good code."
+  },
+  {
+    "start": 506.34,
+    "dur": 4.02,
+    "text": "And as we said, we want both the\nrate and the relative distance"
+  },
+  {
+    "start": 510.36,
+    "dur": 1.72,
+    "text": "to be as big as possible."
+  },
+  {
+    "start": 512.08,
+    "dur": 1.8,
+    "text": "But unfortunately,\nthere is usually"
+  },
+  {
+    "start": 513.88,
+    "dur": 3.46,
+    "text": "a trade off between the rate\nand the distance of the code."
+  },
+  {
+    "start": 517.34,
+    "dur": 2.94,
+    "text": "Intuitively speaking,\nincreasing the rate"
+  },
+  {
+    "start": 520.28,
+    "dur": 3.24,
+    "text": "will actually decrease the\nrelative distance of the code."
+  },
+  {
+    "start": 523.52,
+    "dur": 3.24,
+    "text": "And we have well-studied\nbounds on the relationship"
+  },
+  {
+    "start": 526.76,
+    "dur": 3.188,
+    "text": "between the rate and the\nrelative distance of a code"
+  },
+  {
+    "start": 529.948,
+    "dur": 1.042,
+    "text": "under different settings."
+  },
+  {
+    "start": 534.06,
+    "dur": 3.77,
+    "text": "So the last concept we\nintroduce is this linear code."
+  },
+  {
+    "start": 537.83,
+    "dur": 3.39,
+    "text": "And the linear code is actually\nthe most common type of code"
+  },
+  {
+    "start": 541.22,
+    "dur": 2.07,
+    "text": "we are using in practice."
+  },
+  {
+    "start": 543.29,
+    "dur": 3.09,
+    "text": "So for linear code, we have\nan additional requirement"
+  },
+  {
+    "start": 546.38,
+    "dur": 4.95,
+    "text": "that any linear combination of\ncodewords is also a codeword."
+  },
+  {
+    "start": 551.33,
+    "dur": 3.03,
+    "text": "And because of\nthis property, it's"
+  },
+  {
+    "start": 554.36,
+    "dur": 3.63,
+    "text": "equivalent to say that the\nencoding algorithm can always"
+  },
+  {
+    "start": 557.99,
+    "dur": 2.37,
+    "text": "be represented as\na vector matrix"
+  },
+  {
+    "start": 560.36,
+    "dur": 4.29,
+    "text": "multiplication between message\nm and a generator matrix of size"
+  },
+  {
+    "start": 564.65,
+    "dur": 1.1,
+    "text": "k times n."
+  },
+  {
+    "start": 568.47,
+    "dur": 3.45,
+    "text": "And because of all these cool\ntechniques in linear algebra,"
+  },
+  {
+    "start": 571.92,
+    "dur": 4.63,
+    "text": "the linear code can be analyzed\nto have a nice properties,"
+  },
+  {
+    "start": 576.55,
+    "dur": 2.81,
+    "text": "and that's why it is the\nmost common type of code"
+  },
+  {
+    "start": 579.36,
+    "dur": 1.83,
+    "text": "we use in practice."
+  },
+  {
+    "start": 581.19,
+    "dur": 2.25,
+    "text": "And now the implication\nof the linear code"
+  },
+  {
+    "start": 583.44,
+    "dur": 2.52,
+    "text": "is that the minimum\ndistance is the same"
+  },
+  {
+    "start": 585.96,
+    "dur": 4.02,
+    "text": "as the number of the\nleast number of non-zeros"
+  },
+  {
+    "start": 589.98,
+    "dur": 2.07,
+    "text": "for any non-zero codewords."
+  },
+  {
+    "start": 592.05,
+    "dur": 2.73,
+    "text": "And we call this as the\nweight of the codeword."
+  },
+  {
+    "start": 594.78,
+    "dur": 4.44,
+    "text": "And this is actually not hard\nto see because the distance is"
+  },
+  {
+    "start": 599.22,
+    "dur": 4.02,
+    "text": "defined as the Hamming distance\nbetween any two codewords."
+  },
+  {
+    "start": 603.24,
+    "dur": 3.69,
+    "text": "And because the code is\nlinear, the subtraction"
+  },
+  {
+    "start": 606.93,
+    "dur": 3.7,
+    "text": "of those two code words\nis also a codeword."
+  },
+  {
+    "start": 610.63,
+    "dur": 4.72,
+    "text": "So that is saying that the\nnumber of different locations"
+  },
+  {
+    "start": 615.35,
+    "dur": 2.01,
+    "text": "directly implies\nanother codeword"
+  },
+  {
+    "start": 617.36,
+    "dur": 2.76,
+    "text": "with that many\nnon-zero elements."
+  },
+  {
+    "start": 620.12,
+    "dur": 1.8,
+    "text": "So therefore the\nminimum distance"
+  },
+  {
+    "start": 621.92,
+    "dur": 1.86,
+    "text": "between any two\ncodewords is just"
+  },
+  {
+    "start": 623.78,
+    "dur": 3.66,
+    "text": "equivalent to the minimum\nweight of a non-zero codeword"
+  },
+  {
+    "start": 627.44,
+    "dur": 1.38,
+    "text": "for a linear code."
+  },
+  {
+    "start": 628.82,
+    "dur": 3.7,
+    "text": "That's something\nto keep in mind."
+  },
+  {
+    "start": 632.52,
+    "dur": 1.73,
+    "text": "So finally, I'm\ngoing to show you"
+  },
+  {
+    "start": 634.25,
+    "dur": 3.27,
+    "text": "this classic construction\nof the linear code called"
+  },
+  {
+    "start": 637.52,
+    "dur": 1.14,
+    "text": "Reed-Solomon code."
+  },
+  {
+    "start": 638.66,
+    "dur": 2.55,
+    "text": "And this is actually a\nvery important construction"
+  },
+  {
+    "start": 641.21,
+    "dur": 3.33,
+    "text": "in the literature and\nhas many applications"
+  },
+  {
+    "start": 644.54,
+    "dur": 2.04,
+    "text": "to build cryptographic\nprimitives,"
+  },
+  {
+    "start": 646.58,
+    "dur": 4.68,
+    "text": "such as the zero-knowledge proof\nschemes of Ligero and STARK"
+  },
+  {
+    "start": 651.26,
+    "dur": 3.03,
+    "text": "and also for secret sharing\nand other applications"
+  },
+  {
+    "start": 654.29,
+    "dur": 1.96,
+    "text": "in cryptography."
+  },
+  {
+    "start": 656.25,
+    "dur": 2.42,
+    "text": "So here I'm defining\nReed-Solomon code"
+  },
+  {
+    "start": 658.67,
+    "dur": 2.37,
+    "text": "over a finite-field\nmodule of prime number p."
+  },
+  {
+    "start": 661.04,
+    "dur": 4.92,
+    "text": "And the encode algorithm\ntakes a size k message"
+  },
+  {
+    "start": 665.96,
+    "dur": 4.2,
+    "text": "and encode it as\na size n codeword."
+  },
+  {
+    "start": 670.16,
+    "dur": 1.8,
+    "text": "So the way to do\nit is we're going"
+  },
+  {
+    "start": 671.96,
+    "dur": 4.0,
+    "text": "to view the message as a unique\ndegree k minus 1 univariate"
+  },
+  {
+    "start": 675.96,
+    "dur": 1.14,
+    "text": "polynomial."
+  },
+  {
+    "start": 677.1,
+    "dur": 3.36,
+    "text": "You can think of it as a\npolynomial interpolation"
+  },
+  {
+    "start": 680.46,
+    "dur": 5.4,
+    "text": "on a fixed set of\npublic coins of size k."
+  },
+  {
+    "start": 685.86,
+    "dur": 3.21,
+    "text": "And we are going to treat\neach symbol of the message"
+  },
+  {
+    "start": 689.07,
+    "dur": 2.703,
+    "text": "as the valuation at\na predefined point,"
+  },
+  {
+    "start": 691.773,
+    "dur": 1.917,
+    "text": "and then we're going to\ninterpolate it and get"
+  },
+  {
+    "start": 693.69,
+    "dur": 3.45,
+    "text": "a unique degree, k minus 1.9."
+  },
+  {
+    "start": 697.14,
+    "dur": 2.31,
+    "text": "Then the codeword is\nsimply the valuation"
+  },
+  {
+    "start": 699.45,
+    "dur": 2.88,
+    "text": "of this polynomial at n points."
+  },
+  {
+    "start": 702.33,
+    "dur": 2.56,
+    "text": "Again, these are predefined\nand public points."
+  },
+  {
+    "start": 704.89,
+    "dur": 2.03,
+    "text": "For example, we can\nuse the root of unity."
+  },
+  {
+    "start": 706.92,
+    "dur": 2.31,
+    "text": "And we're going to\nevaluate at omega,"
+  },
+  {
+    "start": 709.23,
+    "dur": 3.57,
+    "text": "omega to the 2, all the way\nto omega to the n, where omega"
+  },
+  {
+    "start": 712.8,
+    "dur": 3.13,
+    "text": "to the n equals 1 module p."
+  },
+  {
+    "start": 715.93,
+    "dur": 1.86,
+    "text": "And this is actually\na linear code,"
+  },
+  {
+    "start": 717.79,
+    "dur": 1.62,
+    "text": "because the encoding\nalgorithm can"
+  },
+  {
+    "start": 719.41,
+    "dur": 2.73,
+    "text": "be represented as\na vector matrix"
+  },
+  {
+    "start": 722.14,
+    "dur": 3.36,
+    "text": "multiplication between the\nmessage and the generator"
+  },
+  {
+    "start": 725.5,
+    "dur": 5.44,
+    "text": "matrix, which can be derived\nfrom the Fourier matrix."
+  },
+  {
+    "start": 730.94,
+    "dur": 3.14,
+    "text": "And there is some code\nhas a very nice distance."
+  },
+  {
+    "start": 734.08,
+    "dur": 3.09,
+    "text": "The distance is actually\nn minus k plus 1."
+  },
+  {
+    "start": 737.17,
+    "dur": 1.86,
+    "text": "And this is very good."
+  },
+  {
+    "start": 739.03,
+    "dur": 3.51,
+    "text": "And that is because, as we\nsaid in the previous slides,"
+  },
+  {
+    "start": 742.54,
+    "dur": 3.36,
+    "text": "for linear code the\nminimum distance is simply"
+  },
+  {
+    "start": 745.9,
+    "dur": 2.61,
+    "text": "the minimum number\nof non-zero elements"
+  },
+  {
+    "start": 748.51,
+    "dur": 2.13,
+    "text": "of a non-zero codeword."
+  },
+  {
+    "start": 750.64,
+    "dur": 1.94,
+    "text": "Then as each code\nword is actually"
+  },
+  {
+    "start": 752.58,
+    "dur": 4.81,
+    "text": "the evaluation of a degree k\nminus 1 univariate polynomial,"
+  },
+  {
+    "start": 757.39,
+    "dur": 2.52,
+    "text": "how many locations can be 0?"
+  },
+  {
+    "start": 759.91,
+    "dur": 2.28,
+    "text": "Well at most, k minus 1."
+  },
+  {
+    "start": 762.19,
+    "dur": 2.31,
+    "text": "That is because a degree\nk minus 1 polynomial"
+  },
+  {
+    "start": 764.5,
+    "dur": 2.16,
+    "text": "has at most, k minus 1 roots."
+  },
+  {
+    "start": 766.66,
+    "dur": 4.17,
+    "text": "So therefore at least n\nminus k plus 1 locations"
+  },
+  {
+    "start": 770.83,
+    "dur": 2.28,
+    "text": "are non-zero for a\nnon-zero message."
+  },
+  {
+    "start": 773.11,
+    "dur": 2.79,
+    "text": "So that is why the\ndistance is this one."
+  },
+  {
+    "start": 775.9,
+    "dur": 1.9,
+    "text": "And to give you a\nconcrete number,"
+  },
+  {
+    "start": 777.8,
+    "dur": 1.67,
+    "text": "let's say that n equals to 2k."
+  },
+  {
+    "start": 779.47,
+    "dur": 4.5,
+    "text": "If we're expanding the message\nby 2 and get a codeword n"
+  },
+  {
+    "start": 783.97,
+    "dur": 3.6,
+    "text": "equals to 2k, then the\nrate is a constant 1/2."
+  },
+  {
+    "start": 787.57,
+    "dur": 2.23,
+    "text": "That's actually pretty\ngood in practice."
+  },
+  {
+    "start": 789.8,
+    "dur": 4.3,
+    "text": "Then by this derivation, the\nrelative distance is also 1/2,"
+  },
+  {
+    "start": 794.1,
+    "dur": 1.08,
+    "text": "is a constant."
+  },
+  {
+    "start": 795.18,
+    "dur": 2.493,
+    "text": "So the distance is also\nvery good in practice."
+  },
+  {
+    "start": 797.673,
+    "dur": 2.417,
+    "text": "So it turns out this is actually\nthe best you can achieve,"
+  },
+  {
+    "start": 800.09,
+    "dur": 5.49,
+    "text": "and so the Reed-Solomon\ncode is asymptotically good."
+  },
+  {
+    "start": 805.58,
+    "dur": 2.82,
+    "text": "And finally, the encoding time\nof Reed-Solomon code is order"
+  },
+  {
+    "start": 808.4,
+    "dur": 3.68,
+    "text": "of n times log n using the fast\nFourier transform algorithm--"
+  },
+  {
+    "start": 812.08,
+    "dur": 3.88,
+    "text": "FFT to evaluate this\npolynomial at these end points"
+  },
+  {
+    "start": 815.96,
+    "dur": 2.83,
+    "text": "defined by the roots of unity."
+  },
+  {
+    "start": 818.79,
+    "dur": 2.09,
+    "text": "So that's everything\nI want to talk about"
+  },
+  {
+    "start": 820.88,
+    "dur": 2.385,
+    "text": "for error-occuring codes."
+  },
+  {
+    "start": 828.18,
+    "dur": 2.62,
+    "text": "With this background, in the\nsecond segment of the lecture,"
+  },
+  {
+    "start": 830.8,
+    "dur": 2.48,
+    "text": "I'm going to show you how to\nbuild polynomial commitments"
+  },
+  {
+    "start": 833.28,
+    "dur": 3.58,
+    "text": "using linear codes."
+  },
+  {
+    "start": 836.86,
+    "dur": 2.57,
+    "text": "So recall that this is a setting\nof a polynomial commitment."
+  },
+  {
+    "start": 839.43,
+    "dur": 2.28,
+    "text": "We have four algorithms--\nthe key generation,"
+  },
+  {
+    "start": 841.71,
+    "dur": 2.01,
+    "text": "commit, eval, and verify."
+  },
+  {
+    "start": 843.72,
+    "dur": 3.18,
+    "text": "And the scheme I'm\ngoing to show you here"
+  },
+  {
+    "start": 846.9,
+    "dur": 3.33,
+    "text": "is derived from the papers\nof Ligero, Bootle et al"
+  },
+  {
+    "start": 850.23,
+    "dur": 2.34,
+    "text": "in 2017, \"Brakedown\"\nand \"Orion.\""
+  },
+  {
+    "start": 852.57,
+    "dur": 3.66,
+    "text": "And the scheme has a\nsquare-root-size proof"
+  },
+  {
+    "start": 856.23,
+    "dur": 3.61,
+    "text": "and a\nsquare-root-verification cost."
+  },
+  {
+    "start": 859.84,
+    "dur": 3.08,
+    "text": "So the key idea of\nthis polynomial scheme"
+  },
+  {
+    "start": 862.92,
+    "dur": 2.76,
+    "text": "is to identify the\nmatrix structure"
+  },
+  {
+    "start": 865.68,
+    "dur": 2.29,
+    "text": "in the polynomial evaluation."
+  },
+  {
+    "start": 867.97,
+    "dur": 4.22,
+    "text": "So here I'm showing you\nthat a matrix consisting"
+  },
+  {
+    "start": 872.19,
+    "dur": 2.31,
+    "text": "of the coefficients\nof the polynomial,"
+  },
+  {
+    "start": 874.5,
+    "dur": 3.75,
+    "text": "from f11 all the way\nto f square root d."
+  },
+  {
+    "start": 878.25,
+    "dur": 4.83,
+    "text": "And I'm assuming that the number\nof coefficients of a polynomial"
+  },
+  {
+    "start": 883.08,
+    "dur": 3.33,
+    "text": "is exact power of an integer."
+  },
+  {
+    "start": 886.41,
+    "dur": 3.97,
+    "text": "But of course, you can\npad it if it is not."
+  },
+  {
+    "start": 890.38,
+    "dur": 3.59,
+    "text": "And the reason why we are\narranging the coefficients"
+  },
+  {
+    "start": 893.97,
+    "dur": 2.97,
+    "text": "of a polynomial in this form\nis that, we can actually"
+  },
+  {
+    "start": 896.94,
+    "dur": 3.36,
+    "text": "write the equation of\na polynomial evaluation"
+  },
+  {
+    "start": 900.3,
+    "dur": 2.05,
+    "text": "as this equation."
+  },
+  {
+    "start": 902.35,
+    "dur": 3.62,
+    "text": "So we're going to have\ntwo indices, i and j,"
+  },
+  {
+    "start": 905.97,
+    "dur": 2.16,
+    "text": "ranging from 1 all the\nway to square root d."
+  },
+  {
+    "start": 908.13,
+    "dur": 5.25,
+    "text": "And then compute this product\nbetween the coefficients"
+  },
+  {
+    "start": 913.38,
+    "dur": 3.51,
+    "text": "and the corresponding monomial--"
+  },
+  {
+    "start": 916.89,
+    "dur": 2.73,
+    "text": "evaluate that point\nu in this way."
+  },
+  {
+    "start": 919.62,
+    "dur": 3.39,
+    "text": "And the nice property\nof this way of computing"
+  },
+  {
+    "start": 923.01,
+    "dur": 2.79,
+    "text": "is that the polynomial\nevaluation f of u"
+  },
+  {
+    "start": 925.8,
+    "dur": 3.52,
+    "text": "can actually be\ndecomposed into two steps."
+  },
+  {
+    "start": 929.32,
+    "dur": 1.49,
+    "text": "So in the first\nstep, we are going"
+  },
+  {
+    "start": 930.81,
+    "dur": 4.8,
+    "text": "to multiply a vector defined\nby this version point"
+  },
+  {
+    "start": 935.61,
+    "dur": 5.25,
+    "text": "u of size square root d with\nthe matrix of the coefficients"
+  },
+  {
+    "start": 940.86,
+    "dur": 1.2,
+    "text": "of the polynomial."
+  },
+  {
+    "start": 942.06,
+    "dur": 2.46,
+    "text": "And the result of this\nvector-matrix notation"
+  },
+  {
+    "start": 944.52,
+    "dur": 2.55,
+    "text": "will give you a vector\nof size square root d."
+  },
+  {
+    "start": 947.07,
+    "dur": 1.77,
+    "text": "Then in the second\nstep, we are going"
+  },
+  {
+    "start": 948.84,
+    "dur": 5.13,
+    "text": "to multiply that vector\nwith another vector derived"
+  },
+  {
+    "start": 953.97,
+    "dur": 3.46,
+    "text": "from the evaluation point u\nand take the inner product."
+  },
+  {
+    "start": 957.43,
+    "dur": 1.43,
+    "text": "The result will\nbe a single value"
+  },
+  {
+    "start": 958.86,
+    "dur": 2.61,
+    "text": "that equals to the\nevaluation f of u."
+  },
+  {
+    "start": 961.47,
+    "dur": 3.6,
+    "text": "And if you do the derivation\nfollowing the rules of vector"
+  },
+  {
+    "start": 965.07,
+    "dur": 2.04,
+    "text": "matrix multiplications,\nyou can see"
+  },
+  {
+    "start": 967.11,
+    "dur": 2.07,
+    "text": "that this computation\nis exactly the same"
+  },
+  {
+    "start": 969.18,
+    "dur": 2.52,
+    "text": "as the equation at the bottom."
+  },
+  {
+    "start": 971.7,
+    "dur": 3.06,
+    "text": "So I'm saying here\nthat evaluation"
+  },
+  {
+    "start": 974.76,
+    "dur": 5.41,
+    "text": "can be viewed as this two steps\nof vector-matrix on occasion."
+  },
+  {
+    "start": 980.17,
+    "dur": 2.58,
+    "text": "With this observation,\nwe can actually"
+  },
+  {
+    "start": 982.75,
+    "dur": 3.12,
+    "text": "reduce the polynomial\ncommitment scheme"
+  },
+  {
+    "start": 985.87,
+    "dur": 4.21,
+    "text": "to an argument for\nvector-matrix product."
+  },
+  {
+    "start": 990.08,
+    "dur": 4.67,
+    "text": "So if you're good with a\nscheme, with a square root"
+  },
+  {
+    "start": 994.75,
+    "dur": 2.7,
+    "text": "the proof size,\nthen we can actually"
+  },
+  {
+    "start": 997.45,
+    "dur": 3.533,
+    "text": "just prove the computation\nof the first step."
+  },
+  {
+    "start": 1000.983,
+    "dur": 1.417,
+    "text": "So in the first\nstep, we are going"
+  },
+  {
+    "start": 1002.4,
+    "dur": 4.8,
+    "text": "to multiply this vector of\nsquare root d size defined"
+  },
+  {
+    "start": 1007.2,
+    "dur": 4.22,
+    "text": "by the evaluation point u,\nwith this matrix defined"
+  },
+  {
+    "start": 1011.42,
+    "dur": 2.43,
+    "text": "by the coefficients\nof the polynomial."
+  },
+  {
+    "start": 1013.85,
+    "dur": 4.86,
+    "text": "And the result of that is a\nvector of a square root d size."
+  },
+  {
+    "start": 1018.71,
+    "dur": 4.89,
+    "text": "So then the prover can just\nsend this result of the vector"
+  },
+  {
+    "start": 1023.6,
+    "dur": 1.259,
+    "text": "directly to the verifier."
+  },
+  {
+    "start": 1024.859,
+    "dur": 3.421,
+    "text": "And the verifier verifies that\nthe first step is actually"
+  },
+  {
+    "start": 1028.28,
+    "dur": 2.85,
+    "text": "computed correctly\nusing this proof system."
+  },
+  {
+    "start": 1031.13,
+    "dur": 2.61,
+    "text": "And then you evaluate\nthe second step locally,"
+  },
+  {
+    "start": 1033.74,
+    "dur": 3.599,
+    "text": "by taking the inner\nproduct of this vector"
+  },
+  {
+    "start": 1037.339,
+    "dur": 4.601,
+    "text": "with the second vector defined\nby the evaluation point u."
+  },
+  {
+    "start": 1041.94,
+    "dur": 2.34,
+    "text": "And in this way, the\nproof size is only"
+  },
+  {
+    "start": 1044.28,
+    "dur": 2.13,
+    "text": "this vector of\nsize square root d,"
+  },
+  {
+    "start": 1046.41,
+    "dur": 3.96,
+    "text": "and the verifier time\nis again square root d,"
+  },
+  {
+    "start": 1050.37,
+    "dur": 1.87,
+    "text": "by computing that inner product."
+  },
+  {
+    "start": 1052.24,
+    "dur": 3.71,
+    "text": "So this is saying that if we\ncan have an argument scheme"
+  },
+  {
+    "start": 1055.95,
+    "dur": 3.21,
+    "text": "for this first step of\nvector-matrix product--"
+  },
+  {
+    "start": 1059.16,
+    "dur": 2.67,
+    "text": "with a reasonable proof size\nand worth our time, of course--"
+  },
+  {
+    "start": 1061.83,
+    "dur": 3.09,
+    "text": "then we are going to have\na polynomial commitment"
+  },
+  {
+    "start": 1064.92,
+    "dur": 3.3,
+    "text": "scheme with a square root d\nproof size and square root d"
+  },
+  {
+    "start": 1068.22,
+    "dur": 1.15,
+    "text": "verification time."
+  },
+  {
+    "start": 1069.37,
+    "dur": 2.6,
+    "text": "So in this way, we\nreduce the problem"
+  },
+  {
+    "start": 1071.97,
+    "dur": 2.535,
+    "text": "to this simpler problem\nof vector-matrix product."
+  },
+  {
+    "start": 1078.26,
+    "dur": 4.05,
+    "text": "So then the focus of the\nremaining part will be,"
+  },
+  {
+    "start": 1082.31,
+    "dur": 2.72,
+    "text": "how can we design\na scheme to test"
+  },
+  {
+    "start": 1085.03,
+    "dur": 4.08,
+    "text": "the computation of this\nvector-matrix product"
+  },
+  {
+    "start": 1089.11,
+    "dur": 3.75,
+    "text": "without sending this matrix\ndirectly to the verifier side?"
+  },
+  {
+    "start": 1092.86,
+    "dur": 4.47,
+    "text": "So the idea is to use the\nlinear error-occuring code"
+  },
+  {
+    "start": 1097.33,
+    "dur": 2.58,
+    "text": "to encode this matrix\ndefined by the coefficients"
+  },
+  {
+    "start": 1099.91,
+    "dur": 1.42,
+    "text": "of the polynomial."
+  },
+  {
+    "start": 1101.33,
+    "dur": 4.82,
+    "text": "So here we are going to encode\neach row of this matrix using"
+  },
+  {
+    "start": 1106.15,
+    "dur": 1.84,
+    "text": "a linear code."
+  },
+  {
+    "start": 1107.99,
+    "dur": 4.04,
+    "text": "So then the dimension\nof this original matrix"
+  },
+  {
+    "start": 1112.03,
+    "dur": 2.07,
+    "text": "is square d by square root d."
+  },
+  {
+    "start": 1114.1,
+    "dur": 3.12,
+    "text": "And here the size of the\nmessage of this linear code,"
+  },
+  {
+    "start": 1117.22,
+    "dur": 2.13,
+    "text": "k equals to square root d."
+  },
+  {
+    "start": 1119.35,
+    "dur": 3.57,
+    "text": "After encoding, we end up\nwith an encoded matrix,"
+  },
+  {
+    "start": 1122.92,
+    "dur": 2.2,
+    "text": "and the dimension\nis square d by n,"
+  },
+  {
+    "start": 1125.12,
+    "dur": 2.57,
+    "text": "where n is the size\nof the codeword."
+  },
+  {
+    "start": 1127.69,
+    "dur": 2.31,
+    "text": "And for your\ninformation, we are going"
+  },
+  {
+    "start": 1130.0,
+    "dur": 4.93,
+    "text": "to eventually use a linear\ncode with a constant rate."
+  },
+  {
+    "start": 1134.93,
+    "dur": 2.57,
+    "text": "So then n is asymptotically\nthe same as k"
+  },
+  {
+    "start": 1137.5,
+    "dur": 1.275,
+    "text": "and which is also the same--"
+  },
+  {
+    "start": 1138.775,
+    "dur": 1.875,
+    "text": "asymptotically the same\nas the square root d."
+  },
+  {
+    "start": 1140.65,
+    "dur": 2.46,
+    "text": "So after encoding,\nwe are not increasing"
+  },
+  {
+    "start": 1143.11,
+    "dur": 4.52,
+    "text": "the size of this encoding\nmatrix syntactically."
+  },
+  {
+    "start": 1147.63,
+    "dur": 3.39,
+    "text": "So with this encoding\nmatrix, we are"
+  },
+  {
+    "start": 1151.02,
+    "dur": 4.14,
+    "text": "going to commit to\nthis polynomial defined"
+  },
+  {
+    "start": 1155.16,
+    "dur": 1.41,
+    "text": "by this encoded matrix."
+  },
+  {
+    "start": 1156.57,
+    "dur": 2.49,
+    "text": "And the commitment is\nusing the Merkle hash tree."
+  },
+  {
+    "start": 1159.06,
+    "dur": 2.65,
+    "text": "So recall that in\nprevious lectures,"
+  },
+  {
+    "start": 1161.71,
+    "dur": 3.68,
+    "text": "we explained this very important\nprimitive in cryptography"
+  },
+  {
+    "start": 1165.39,
+    "dur": 1.8,
+    "text": "called Merkle hash tree."
+  },
+  {
+    "start": 1167.19,
+    "dur": 2.76,
+    "text": "And the construction\nis to compute"
+  },
+  {
+    "start": 1169.95,
+    "dur": 3.57,
+    "text": "the hash of two\nconsecutive leaves"
+  },
+  {
+    "start": 1173.52,
+    "dur": 2.16,
+    "text": "and then do it recursively\nin a tree structure"
+  },
+  {
+    "start": 1175.68,
+    "dur": 1.71,
+    "text": "to get the root of this tree."
+  },
+  {
+    "start": 1177.39,
+    "dur": 4.05,
+    "text": "And this root is served as\na commitment of this vector."
+  },
+  {
+    "start": 1181.44,
+    "dur": 4.95,
+    "text": "And later the prover can\nactually open this commitment"
+  },
+  {
+    "start": 1186.39,
+    "dur": 4.11,
+    "text": "and prove to the verifier that\nthe leaf at a certain location"
+  },
+  {
+    "start": 1190.5,
+    "dur": 2.37,
+    "text": "equals to a particular value."
+  },
+  {
+    "start": 1192.87,
+    "dur": 2.79,
+    "text": "And the proof is generated\nby traversing this tree"
+  },
+  {
+    "start": 1195.66,
+    "dur": 2.34,
+    "text": "and returning all the\nsiblings along the path"
+  },
+  {
+    "start": 1198.0,
+    "dur": 1.56,
+    "text": "from the leaf to the root."
+  },
+  {
+    "start": 1199.56,
+    "dur": 3.27,
+    "text": "And the verifier can\nactually reconstruct the root"
+  },
+  {
+    "start": 1202.83,
+    "dur": 2.13,
+    "text": "with only the information\nfrom the siblings,"
+  },
+  {
+    "start": 1204.96,
+    "dur": 2.53,
+    "text": "and the proof size\nis only logarithm"
+  },
+  {
+    "start": 1207.49,
+    "dur": 1.87,
+    "text": "in the size of the vector."
+  },
+  {
+    "start": 1209.36,
+    "dur": 2.1,
+    "text": "So this is the Merkle tree."
+  },
+  {
+    "start": 1211.46,
+    "dur": 4.01,
+    "text": "And the way to commit\nto this polynomial"
+  },
+  {
+    "start": 1215.47,
+    "dur": 3.48,
+    "text": "is, first, we are going to\nencode this polynomial row-wise"
+  },
+  {
+    "start": 1218.95,
+    "dur": 1.35,
+    "text": "using the linear code."
+  },
+  {
+    "start": 1220.3,
+    "dur": 1.83,
+    "text": "After that we are\ngoing to use the Merkle"
+  },
+  {
+    "start": 1222.13,
+    "dur": 3.99,
+    "text": "tree to commit to this\nencoded matrix column-wise."
+  },
+  {
+    "start": 1226.12,
+    "dur": 4.98,
+    "text": "We are going to view each column\nas one leaf of the Merkle tree"
+  },
+  {
+    "start": 1231.1,
+    "dur": 5.37,
+    "text": "and then build this Merkle\ntree on top of this matrix"
+  },
+  {
+    "start": 1236.47,
+    "dur": 3.84,
+    "text": "and then send this root hash to\nthe verifier as the commitment"
+  },
+  {
+    "start": 1240.31,
+    "dur": 2.19,
+    "text": "of the polynomial."
+  },
+  {
+    "start": 1242.5,
+    "dur": 2.13,
+    "text": "And using this commitment,\nyou can imagine later"
+  },
+  {
+    "start": 1244.63,
+    "dur": 4.8,
+    "text": "that we can actually open\neach column individually."
+  },
+  {
+    "start": 1249.43,
+    "dur": 3.78,
+    "text": "The prover can actually send a\ncolumn chosen by the verifier--"
+  },
+  {
+    "start": 1253.21,
+    "dur": 2.31,
+    "text": "and then together with\nthe Merkle tree proof."
+  },
+  {
+    "start": 1255.52,
+    "dur": 3.66,
+    "text": "And the verifier can verify\nthat the column is not altered--"
+  },
+  {
+    "start": 1259.18,
+    "dur": 2.22,
+    "text": "is actually indeed as\ncommitted in the first place"
+  },
+  {
+    "start": 1261.4,
+    "dur": 0.93,
+    "text": "by the proof."
+  },
+  {
+    "start": 1262.33,
+    "dur": 4.98,
+    "text": "So this is the commitment step\nof the polynomial commitment"
+  },
+  {
+    "start": 1267.31,
+    "dur": 1.08,
+    "text": "I'm describing."
+  },
+  {
+    "start": 1268.39,
+    "dur": 2.28,
+    "text": "And because of this\ncommitment step,"
+  },
+  {
+    "start": 1270.67,
+    "dur": 2.76,
+    "text": "then actually the key generation\nof this polynomial commitment"
+  },
+  {
+    "start": 1273.43,
+    "dur": 1.36,
+    "text": "scheme is very straightforward."
+  },
+  {
+    "start": 1274.79,
+    "dur": 2.81,
+    "text": "All we need to do is to\nsample a hash function that"
+  },
+  {
+    "start": 1277.6,
+    "dur": 2.16,
+    "text": "will be used for the\nMerkle tree, and that's it."
+  },
+  {
+    "start": 1279.76,
+    "dur": 2.34,
+    "text": "So there's no trust to\nset up, and the size"
+  },
+  {
+    "start": 1282.1,
+    "dur": 2.49,
+    "text": "of the global parameter\nis only constant."
+  },
+  {
+    "start": 1288.34,
+    "dur": 3.32,
+    "text": "Then the most\ncomplicated protocol"
+  },
+  {
+    "start": 1291.66,
+    "dur": 1.65,
+    "text": "of this polynomial\ncommitment scheme"
+  },
+  {
+    "start": 1293.31,
+    "dur": 3.66,
+    "text": "is this evaluation together\nwith the verification."
+  },
+  {
+    "start": 1296.97,
+    "dur": 2.82,
+    "text": "And I'm going to\nspend plenty of time"
+  },
+  {
+    "start": 1299.79,
+    "dur": 2.32,
+    "text": "explaining these\nsteps in details."
+  },
+  {
+    "start": 1302.11,
+    "dur": 5.07,
+    "text": "So the raw algorithm can be\nroughly divided into two steps."
+  },
+  {
+    "start": 1307.18,
+    "dur": 3.32,
+    "text": "And the first step is called\nthe proximity test, or proximity"
+  },
+  {
+    "start": 1310.5,
+    "dur": 1.26,
+    "text": "checking."
+  },
+  {
+    "start": 1311.76,
+    "dur": 2.64,
+    "text": "And the main goal\nof this step is"
+  },
+  {
+    "start": 1314.4,
+    "dur": 3.21,
+    "text": "to test if the\ncommitted matrix indeed"
+  },
+  {
+    "start": 1317.61,
+    "dur": 6.07,
+    "text": "consists of these squared d\ncodewords encoded row-wise."
+  },
+  {
+    "start": 1323.68,
+    "dur": 2.82,
+    "text": "And the reason for\nthis check is that--"
+  },
+  {
+    "start": 1326.5,
+    "dur": 3.6,
+    "text": "recall in the commitment\nphase, an honest prover"
+  },
+  {
+    "start": 1330.1,
+    "dur": 4.02,
+    "text": "should commit to this\nmatrix as encoded"
+  },
+  {
+    "start": 1334.12,
+    "dur": 3.03,
+    "text": "from the original matrix\ndefined by the coefficients"
+  },
+  {
+    "start": 1337.15,
+    "dur": 1.29,
+    "text": "of the polynomial."
+  },
+  {
+    "start": 1338.44,
+    "dur": 4.13,
+    "text": "But if the prover\nis malicious, he"
+  },
+  {
+    "start": 1342.57,
+    "dur": 4.08,
+    "text": "may not follow the algorithms\nwe were describing."
+  },
+  {
+    "start": 1346.65,
+    "dur": 3.48,
+    "text": "In particular, it is actually\nnot hard for the verifier"
+  },
+  {
+    "start": 1350.13,
+    "dur": 2.88,
+    "text": "to check the size\nof this matrix--"
+  },
+  {
+    "start": 1353.01,
+    "dur": 2.76,
+    "text": "for example, by returning\none path of the Merkle tree."
+  },
+  {
+    "start": 1355.77,
+    "dur": 3.12,
+    "text": "But even if the matrix--"
+  },
+  {
+    "start": 1358.89,
+    "dur": 2.37,
+    "text": "the size of the matrix or\nthe dimension of the matrix"
+  },
+  {
+    "start": 1361.26,
+    "dur": 3.24,
+    "text": "is as specified,\neach row may not"
+  },
+  {
+    "start": 1364.5,
+    "dur": 4.58,
+    "text": "be a valid codeword\nof the linear code."
+  },
+  {
+    "start": 1369.08,
+    "dur": 5.34,
+    "text": "A malicious prover could\ngenerate any arbitrary vector"
+  },
+  {
+    "start": 1374.42,
+    "dur": 4.53,
+    "text": "of length n and then put\nsquare root d of these vectors"
+  },
+  {
+    "start": 1378.95,
+    "dur": 3.03,
+    "text": "and commit it using Merkle tree\nand send it to the verifier."
+  },
+  {
+    "start": 1381.98,
+    "dur": 2.55,
+    "text": "They're not even\ncodewords of this code."
+  },
+  {
+    "start": 1384.53,
+    "dur": 1.83,
+    "text": "And again, using the\nReed-Solomon code"
+  },
+  {
+    "start": 1386.36,
+    "dur": 2.91,
+    "text": "as an example, if\nthe prover is honest,"
+  },
+  {
+    "start": 1389.27,
+    "dur": 2.73,
+    "text": "then each row should\nbe a Reed-Solomon code"
+  },
+  {
+    "start": 1392.0,
+    "dur": 2.73,
+    "text": "encoding-- in particular\na polynomial evaluated"
+  },
+  {
+    "start": 1394.73,
+    "dur": 0.87,
+    "text": "at endpoints."
+  },
+  {
+    "start": 1395.6,
+    "dur": 2.58,
+    "text": "But a malicious\nprover may just commit"
+  },
+  {
+    "start": 1398.18,
+    "dur": 3.87,
+    "text": "to any vectors of\nlength, and they may not"
+  },
+  {
+    "start": 1402.05,
+    "dur": 3.15,
+    "text": "be on the same polynomial\nof degree k minus 1."
+  },
+  {
+    "start": 1405.2,
+    "dur": 3.63,
+    "text": "So that is the purpose of\nthis first proximity test,"
+  },
+  {
+    "start": 1408.83,
+    "dur": 4.71,
+    "text": "trying to ensure that the\ncommitted matrix is indeed"
+  },
+  {
+    "start": 1413.54,
+    "dur": 4.95,
+    "text": "encoded as specified by\nthe commitment algorithm."
+  },
+  {
+    "start": 1418.49,
+    "dur": 2.68,
+    "text": "And the way to do\nit is as follows."
+  },
+  {
+    "start": 1421.17,
+    "dur": 4.52,
+    "text": "So first the verifier is going\nto send a random vector of size"
+  },
+  {
+    "start": 1425.69,
+    "dur": 1.2,
+    "text": "square root d."
+  },
+  {
+    "start": 1426.89,
+    "dur": 3.81,
+    "text": "And I'm using r1 and r2 all the\nway to rd, to denote it here."
+  },
+  {
+    "start": 1430.7,
+    "dur": 2.01,
+    "text": "And the verifier is\nasking the prover"
+  },
+  {
+    "start": 1432.71,
+    "dur": 3.75,
+    "text": "to return the result\nof this vector"
+  },
+  {
+    "start": 1436.46,
+    "dur": 4.09,
+    "text": "times the encoded matrix."
+  },
+  {
+    "start": 1440.55,
+    "dur": 2.85,
+    "text": "So then the result\nof this computation"
+  },
+  {
+    "start": 1443.4,
+    "dur": 3.99,
+    "text": "is a vector of size n-- the\nsame as the size of one row,"
+  },
+  {
+    "start": 1447.39,
+    "dur": 3.51,
+    "text": "if the prover is honest."
+  },
+  {
+    "start": 1450.9,
+    "dur": 4.05,
+    "text": "After that the verifier is going\nto pick several random columns"
+  },
+  {
+    "start": 1454.95,
+    "dur": 3.06,
+    "text": "and ask the prover to\nopen these columns."
+  },
+  {
+    "start": 1458.01,
+    "dur": 2.22,
+    "text": "And recall that in\nthe commitment phase,"
+  },
+  {
+    "start": 1460.23,
+    "dur": 3.48,
+    "text": "the prover already commits\nto the columns using a Merkle"
+  },
+  {
+    "start": 1463.71,
+    "dur": 0.52,
+    "text": "tree."
+  },
+  {
+    "start": 1464.23,
+    "dur": 3.2,
+    "text": "So in this step, the prover also\nsends the corresponding Merkle"
+  },
+  {
+    "start": 1467.43,
+    "dur": 4.63,
+    "text": "tree proofs, in particular paths\nfrom the leaves to the root--"
+  },
+  {
+    "start": 1472.06,
+    "dur": 2.36,
+    "text": "so that by checking\nthese Merkle tree proofs,"
+  },
+  {
+    "start": 1474.42,
+    "dur": 4.5,
+    "text": "the verifier can make sure that\nthese random selected columns"
+  },
+  {
+    "start": 1478.92,
+    "dur": 3.18,
+    "text": "are indeed consistent with those\ncommitted in the first place."
+  },
+  {
+    "start": 1482.1,
+    "dur": 5.85,
+    "text": "The prover cannot change the\nvalues of these columns at all."
+  },
+  {
+    "start": 1487.95,
+    "dur": 2.64,
+    "text": "Then, finally, the\nverifier is going"
+  },
+  {
+    "start": 1490.59,
+    "dur": 2.22,
+    "text": "to perform the\nfollowing three checks."
+  },
+  {
+    "start": 1492.81,
+    "dur": 3.87,
+    "text": "The first check is that\nthis vector returned"
+  },
+  {
+    "start": 1496.68,
+    "dur": 1.98,
+    "text": "by proving the first\nround is indeed"
+  },
+  {
+    "start": 1498.66,
+    "dur": 2.41,
+    "text": "a codeword of the linear code."
+  },
+  {
+    "start": 1501.07,
+    "dur": 2.79,
+    "text": "And this is true\nif the prover is"
+  },
+  {
+    "start": 1503.86,
+    "dur": 3.0,
+    "text": "honest because of the\nproperty of a linear code."
+  },
+  {
+    "start": 1506.86,
+    "dur": 2.1,
+    "text": "Any linear combination\nof codewords"
+  },
+  {
+    "start": 1508.96,
+    "dur": 1.17,
+    "text": "still gives you a codeword."
+  },
+  {
+    "start": 1510.13,
+    "dur": 3.12,
+    "text": "So this is actually\na linear combination"
+  },
+  {
+    "start": 1513.25,
+    "dur": 5.25,
+    "text": "of r1 times the first\nrow plus r2 times"
+  },
+  {
+    "start": 1518.5,
+    "dur": 1.45,
+    "text": "the second row and so forth."
+  },
+  {
+    "start": 1519.95,
+    "dur": 2.81,
+    "text": "And this still should\ngive you a codeword,"
+  },
+  {
+    "start": 1522.76,
+    "dur": 1.5,
+    "text": "if the prover is honest."
+  },
+  {
+    "start": 1524.26,
+    "dur": 3.39,
+    "text": "Second, the verifier checks\nthat the columns are indeed"
+  },
+  {
+    "start": 1527.65,
+    "dur": 2.52,
+    "text": "as committed using\nthe Merkle tree."
+  },
+  {
+    "start": 1530.17,
+    "dur": 2.67,
+    "text": "And this is, as I\nexplained before,"
+  },
+  {
+    "start": 1532.84,
+    "dur": 3.03,
+    "text": "can be done by checking the\nMerkle path proof to ensure"
+  },
+  {
+    "start": 1535.87,
+    "dur": 3.75,
+    "text": "that the prover cannot change\nany value of these committed"
+  },
+  {
+    "start": 1539.62,
+    "dur": 1.11,
+    "text": "columns."
+  },
+  {
+    "start": 1540.73,
+    "dur": 2.76,
+    "text": "Finally, the verifier\nis going to compute"
+  },
+  {
+    "start": 1543.49,
+    "dur": 5.14,
+    "text": "the inner product between this\nrandom vector and each column."
+  },
+  {
+    "start": 1548.63,
+    "dur": 3.77,
+    "text": "And by the rule of a\nvector-matrix modification,"
+  },
+  {
+    "start": 1552.4,
+    "dur": 4.37,
+    "text": "you can see that if the\nanswer is honestly computed,"
+  },
+  {
+    "start": 1556.77,
+    "dur": 3.42,
+    "text": "then the inner product between\nthis vector r and each column"
+  },
+  {
+    "start": 1560.19,
+    "dur": 3.18,
+    "text": "should equal to the\ncorresponding element"
+  },
+  {
+    "start": 1563.37,
+    "dur": 3.43,
+    "text": "of this vector\nreturned by the prover."
+  },
+  {
+    "start": 1566.8,
+    "dur": 2.31,
+    "text": "And verifier is checking\nthis relationship"
+  },
+  {
+    "start": 1569.11,
+    "dur": 4.14,
+    "text": "for each column that\nis chosen randomly"
+  },
+  {
+    "start": 1573.25,
+    "dur": 1.87,
+    "text": "by the verifier itself."
+  },
+  {
+    "start": 1575.12,
+    "dur": 3.71,
+    "text": "And if all of these\nthree checks pass, then"
+  },
+  {
+    "start": 1578.83,
+    "dur": 2.73,
+    "text": "with overwhelming probability\nthe verifier can actually"
+  },
+  {
+    "start": 1581.56,
+    "dur": 3.54,
+    "text": "conclude that the\ncommitted matrix is indeed"
+  },
+  {
+    "start": 1585.1,
+    "dur": 4.99,
+    "text": "as encoded in the commitment\nalgorithm we described before."
+  },
+  {
+    "start": 1590.09,
+    "dur": 3.08,
+    "text": "So that is the description\nof this proximity test."
+  },
+  {
+    "start": 1595.9,
+    "dur": 3.92,
+    "text": "So why is this protocol secure?"
+  },
+  {
+    "start": 1599.82,
+    "dur": 4.243,
+    "text": "So here I'm going to sketch\nthe intuition of the soundness"
+  },
+  {
+    "start": 1604.063,
+    "dur": 0.747,
+    "text": "proof."
+  },
+  {
+    "start": 1604.81,
+    "dur": 4.93,
+    "text": "And it heavily relies on the\nproperty of the linear code."
+  },
+  {
+    "start": 1609.74,
+    "dur": 4.79,
+    "text": "So as usual, we are going to\nstart with a contradiction."
+  },
+  {
+    "start": 1614.53,
+    "dur": 1.89,
+    "text": "Suppose that the prover cheats."
+  },
+  {
+    "start": 1616.42,
+    "dur": 5.58,
+    "text": "So this committed matrix is\nactually not an encoded matrix"
+  },
+  {
+    "start": 1622.0,
+    "dur": 0.99,
+    "text": "as specified."
+  },
+  {
+    "start": 1622.99,
+    "dur": 3.27,
+    "text": "The prover can actually pick\nany values in the vectors"
+  },
+  {
+    "start": 1626.26,
+    "dur": 3.42,
+    "text": "and then put them together and\ncommit it using a Merkle tree."
+  },
+  {
+    "start": 1629.68,
+    "dur": 3.72,
+    "text": "Then, we are going to condition\non whether this vector"
+  },
+  {
+    "start": 1633.4,
+    "dur": 4.17,
+    "text": "in the first round is\ncorrectly computed or not."
+  },
+  {
+    "start": 1637.57,
+    "dur": 3.53,
+    "text": "So if this vector is\ncorrectly computed"
+  },
+  {
+    "start": 1641.1,
+    "dur": 6.81,
+    "text": "based on this fake matrix\nchosen by the prover,"
+  },
+  {
+    "start": 1647.91,
+    "dur": 3.27,
+    "text": "then by the property of\na linear code it can--"
+  },
+  {
+    "start": 1651.18,
+    "dur": 5.53,
+    "text": "the vector-matrix product\nas correctly computed"
+  },
+  {
+    "start": 1656.71,
+    "dur": 2.7,
+    "text": "by the prover cannot\nbe a codeword."
+  },
+  {
+    "start": 1659.41,
+    "dur": 3.19,
+    "text": "So then the check 1 will fail."
+  },
+  {
+    "start": 1662.6,
+    "dur": 4.92,
+    "text": "So this is saying that\nthis is a simple strategy."
+  },
+  {
+    "start": 1667.52,
+    "dur": 3.44,
+    "text": "So the prover is cheating, is\ncommitting to a wrong matrix,"
+  },
+  {
+    "start": 1670.96,
+    "dur": 3.09,
+    "text": "then you just can't\nfollow the wrong matrix"
+  },
+  {
+    "start": 1674.05,
+    "dur": 2.61,
+    "text": "and compute the inner product\nbetween this random value"
+  },
+  {
+    "start": 1676.66,
+    "dur": 1.92,
+    "text": "vector and the matrix."
+  },
+  {
+    "start": 1678.58,
+    "dur": 2.04,
+    "text": "And the result won't\nbe a codeword because"
+  },
+  {
+    "start": 1680.62,
+    "dur": 4.29,
+    "text": "of the linear property of the\ncode and won't pass check 1--"
+  },
+  {
+    "start": 1684.91,
+    "dur": 1.95,
+    "text": "which means that\nthe adversary is"
+  },
+  {
+    "start": 1686.86,
+    "dur": 4.09,
+    "text": "left with only the\nsecond option, which"
+  },
+  {
+    "start": 1690.95,
+    "dur": 3.6,
+    "text": "is the prover has to\nreturn a wrong vector,"
+  },
+  {
+    "start": 1694.55,
+    "dur": 2.49,
+    "text": "that is not the result\nof the inner product"
+  },
+  {
+    "start": 1697.04,
+    "dur": 6.18,
+    "text": "between this vector and this\nmatrix committed by the prover."
+  },
+  {
+    "start": 1703.22,
+    "dur": 4.65,
+    "text": "And if that is the case, then\nwe have this nice property"
+  },
+  {
+    "start": 1707.87,
+    "dur": 2.1,
+    "text": "of the distance of the codeword."
+  },
+  {
+    "start": 1709.97,
+    "dur": 2.49,
+    "text": "Because this wrong\nanswer is still"
+  },
+  {
+    "start": 1712.46,
+    "dur": 4.62,
+    "text": "has to be a codeword\nto pass check one, then"
+  },
+  {
+    "start": 1717.08,
+    "dur": 2.61,
+    "text": "by the minimum distance\nproperty of a linear code,"
+  },
+  {
+    "start": 1719.69,
+    "dur": 2.52,
+    "text": "there should be\nmany locations that"
+  },
+  {
+    "start": 1722.21,
+    "dur": 4.3,
+    "text": "are different from\nthe correct answer."
+  },
+  {
+    "start": 1726.51,
+    "dur": 3.29,
+    "text": "For example, if you're using\na Reed-Solomon code again with"
+  },
+  {
+    "start": 1729.8,
+    "dur": 4.14,
+    "text": "a relative distance 1/2,\nthen that means that half"
+  },
+  {
+    "start": 1733.94,
+    "dur": 3.6,
+    "text": "of the locations\nare actually wrong--"
+  },
+  {
+    "start": 1737.54,
+    "dur": 2.16,
+    "text": "actually different\nfrom the correct answer"
+  },
+  {
+    "start": 1739.7,
+    "dur": 3.69,
+    "text": "of this vector-matrix product."
+  },
+  {
+    "start": 1743.39,
+    "dur": 2.61,
+    "text": "Because of that, by\nthe second check,"
+  },
+  {
+    "start": 1746.0,
+    "dur": 2.49,
+    "text": "the columns are the\nsame as committed."
+  },
+  {
+    "start": 1748.49,
+    "dur": 4.84,
+    "text": "You cannot lie about these\ncolumns that are opened"
+  },
+  {
+    "start": 1753.33,
+    "dur": 1.56,
+    "text": "by the verifier."
+  },
+  {
+    "start": 1754.89,
+    "dur": 2.61,
+    "text": "Then it means that\nthe probability"
+  },
+  {
+    "start": 1757.5,
+    "dur": 4.18,
+    "text": "of passing the third\ncheck is extremely small."
+  },
+  {
+    "start": 1761.68,
+    "dur": 2.51,
+    "text": "That is because if\nhalf of the locations"
+  },
+  {
+    "start": 1764.19,
+    "dur": 2.4,
+    "text": "are actually different from\nthe correct answer, what"
+  },
+  {
+    "start": 1766.59,
+    "dur": 4.33,
+    "text": "is the probability of\nopening a random column"
+  },
+  {
+    "start": 1770.92,
+    "dur": 1.74,
+    "text": "and still passing\nthe verification"
+  },
+  {
+    "start": 1772.66,
+    "dur": 0.99,
+    "text": "of this inner product?"
+  },
+  {
+    "start": 1773.65,
+    "dur": 4.17,
+    "text": "The inner product between this\nrandom vector and this column"
+  },
+  {
+    "start": 1777.82,
+    "dur": 3.97,
+    "text": "is actually correctly\ncomputed, given"
+  },
+  {
+    "start": 1781.79,
+    "dur": 3.06,
+    "text": "the fact that half of the\nlocations are actually wrong."
+  },
+  {
+    "start": 1784.85,
+    "dur": 3.31,
+    "text": "Well, the probability\nis 1/2, is a constant."
+  },
+  {
+    "start": 1788.16,
+    "dur": 2.72,
+    "text": "So then by opening\nmultiple columns,"
+  },
+  {
+    "start": 1790.88,
+    "dur": 3.09,
+    "text": "saying that 100 columns, the\nprobability of passing this"
+  },
+  {
+    "start": 1793.97,
+    "dur": 2.41,
+    "text": "check 3 decays exponentially."
+  },
+  {
+    "start": 1796.38,
+    "dur": 3.65,
+    "text": "So in that way, we can actually\nachieve a negligible soundness"
+  },
+  {
+    "start": 1800.03,
+    "dur": 0.61,
+    "text": "error."
+  },
+  {
+    "start": 1800.64,
+    "dur": 5.21,
+    "text": "And so the whole\nsoundness can actually"
+  },
+  {
+    "start": 1805.85,
+    "dur": 3.82,
+    "text": "be proven to have a negligible\ncheating probability."
+  },
+  {
+    "start": 1809.67,
+    "dur": 7.12,
+    "text": "So that is the intuition\nbehind this proximity test."
+  },
+  {
+    "start": 1816.79,
+    "dur": 3.59,
+    "text": "So this proximity test\nalgorithm was actually"
+  },
+  {
+    "start": 1820.38,
+    "dur": 2.44,
+    "text": "introduced independently\nby these two papers."
+  },
+  {
+    "start": 1822.82,
+    "dur": 3.44,
+    "text": "The first one is Ligero, and the\nsecond one is by Bootle et al,"
+  },
+  {
+    "start": 1826.26,
+    "dur": 1.56,
+    "text": "in 2017."
+  },
+  {
+    "start": 1827.82,
+    "dur": 4.95,
+    "text": "And in Ligero, they call this\none as a interleaved test,"
+  },
+  {
+    "start": 1832.77,
+    "dur": 2.31,
+    "text": "and the protocol uses\nthe Reed-Solomon code--"
+  },
+  {
+    "start": 1835.08,
+    "dur": 1.48,
+    "text": "where the encoding\ntime, of course,"
+  },
+  {
+    "start": 1836.56,
+    "dur": 2.3,
+    "text": "is linear, by order of n log n."
+  },
+  {
+    "start": 1838.86,
+    "dur": 3.72,
+    "text": "And independently in\nBootle et al in 2017,"
+  },
+  {
+    "start": 1842.58,
+    "dur": 4.05,
+    "text": "they also propose a similar\nproximity test algorithm,"
+  },
+  {
+    "start": 1846.63,
+    "dur": 3.48,
+    "text": "and they call it the ideal\nmultilinear commitment model."
+  },
+  {
+    "start": 1850.11,
+    "dur": 2.1,
+    "text": "And based on this\nmodel, they actually"
+  },
+  {
+    "start": 1852.21,
+    "dur": 4.03,
+    "text": "designed a scheme for\na general purpose,"
+  },
+  {
+    "start": 1856.24,
+    "dur": 1.79,
+    "text": "not for circuit computation."
+  },
+  {
+    "start": 1858.03,
+    "dur": 4.11,
+    "text": "And they were using a\nlinear-timing code instead"
+  },
+  {
+    "start": 1862.14,
+    "dur": 1.59,
+    "text": "of Reed-Solomon\ncode, which I'm going"
+  },
+  {
+    "start": 1863.73,
+    "dur": 3.39,
+    "text": "to introduce this in the\nthird segment of the lecture."
+  },
+  {
+    "start": 1867.12,
+    "dur": 2.37,
+    "text": "And this actually\ngives the first SNARK"
+  },
+  {
+    "start": 1869.49,
+    "dur": 1.68,
+    "text": "with a strict\nlinear-prover time,"
+  },
+  {
+    "start": 1871.17,
+    "dur": 4.0,
+    "text": "in terms of field additions\nand field modifications."
+  },
+  {
+    "start": 1875.17,
+    "dur": 2.91,
+    "text": "And by the way, the schemes\nproposing these two papers"
+  },
+  {
+    "start": 1878.08,
+    "dur": 2.04,
+    "text": "were actually for\ngeneral purpose SNARKs."
+  },
+  {
+    "start": 1880.12,
+    "dur": 3.99,
+    "text": "And here I'm actually presenting\nthis technique and use it"
+  },
+  {
+    "start": 1884.11,
+    "dur": 4.47,
+    "text": "to construct the polynomial\ncommitments as a specialized"
+  },
+  {
+    "start": 1888.58,
+    "dur": 4.62,
+    "text": "protocol, which was actually\nproposed in the follow-up"
+  },
+  {
+    "start": 1893.2,
+    "dur": 0.99,
+    "text": "papers--"
+  },
+  {
+    "start": 1894.19,
+    "dur": 3.21,
+    "text": "such as \"Brakedown\" and\nthe \"Orion\" that I'm"
+  },
+  {
+    "start": 1897.4,
+    "dur": 1.095,
+    "text": "going to highlight later."
+  },
+  {
+    "start": 1902.32,
+    "dur": 2.88,
+    "text": "So that is just the intuition\nof the soundness proof."
+  },
+  {
+    "start": 1905.2,
+    "dur": 1.86,
+    "text": "And turns out in the\nformal proof things"
+  },
+  {
+    "start": 1907.06,
+    "dur": 1.77,
+    "text": "are actually much\nmore complicated."
+  },
+  {
+    "start": 1908.83,
+    "dur": 3.96,
+    "text": "And here I'm just showing you\nthe kind of key differences,"
+  },
+  {
+    "start": 1912.79,
+    "dur": 5.37,
+    "text": "and I refer you to read the\ndetails in the paper of Ligero."
+  },
+  {
+    "start": 1918.16,
+    "dur": 3.21,
+    "text": "So it turns out in\nthe formal proof--"
+  },
+  {
+    "start": 1921.37,
+    "dur": 7.65,
+    "text": "is actually we can't prove that\nthe prover cannot cheat at all."
+  },
+  {
+    "start": 1929.02,
+    "dur": 3.33,
+    "text": "Like, we can't catch\nthe cheating prover"
+  },
+  {
+    "start": 1932.35,
+    "dur": 3.66,
+    "text": "if he merely changes one\nvalue of this encoded matrix."
+  },
+  {
+    "start": 1936.01,
+    "dur": 5.33,
+    "text": "What we can prove is that if the\ncommitted matrix C is very far"
+  },
+  {
+    "start": 1941.34,
+    "dur": 3.42,
+    "text": "away from any codeword\nthat is encoded"
+  },
+  {
+    "start": 1944.76,
+    "dur": 2.58,
+    "text": "as specified by\ncommitment, we can actually"
+  },
+  {
+    "start": 1947.34,
+    "dur": 2.7,
+    "text": "catch it with an\noverwhelming probability."
+  },
+  {
+    "start": 1950.04,
+    "dur": 3.3,
+    "text": "In particular, we\ndefine another parameter"
+  },
+  {
+    "start": 1953.34,
+    "dur": 4.33,
+    "text": "called e, that is related to the\ndistance of this linear code."
+  },
+  {
+    "start": 1957.67,
+    "dur": 6.65,
+    "text": "So e is less than delta\nover 4, for any number e."
+  },
+  {
+    "start": 1964.32,
+    "dur": 5.08,
+    "text": "Then if the committed\nmatrix e-far from any"
+  },
+  {
+    "start": 1969.4,
+    "dur": 3.93,
+    "text": "codeword-- meaning that if\nwe take the minimum distance"
+  },
+  {
+    "start": 1973.33,
+    "dur": 5.61,
+    "text": "of any row with any codeword\nin this linear code,"
+  },
+  {
+    "start": 1978.94,
+    "dur": 3.99,
+    "text": "and if that distance is\nactually far away-- meaning"
+  },
+  {
+    "start": 1982.93,
+    "dur": 2.49,
+    "text": "that at least e locations\nthat are different-- then"
+  },
+  {
+    "start": 1985.42,
+    "dur": 2.64,
+    "text": "we can actually catch\nthe cheating prover"
+  },
+  {
+    "start": 1988.06,
+    "dur": 1.77,
+    "text": "with an overwhelming\nprobability."
+  },
+  {
+    "start": 1989.83,
+    "dur": 1.14,
+    "text": "Why is that?"
+  },
+  {
+    "start": 1990.97,
+    "dur": 3.72,
+    "text": "Well, in the formal proof, we\ncan show that if this matrix C"
+  },
+  {
+    "start": 1994.69,
+    "dur": 8.05,
+    "text": "is e-far from a real codeword,\nthen the vector matrix product"
+  },
+  {
+    "start": 2002.74,
+    "dur": 5.87,
+    "text": "between a random vector r\nand this committed matrix C--"
+  },
+  {
+    "start": 2008.61,
+    "dur": 3.27,
+    "text": "the result-- we call it w-- that\nis exactly the vector returned"
+  },
+  {
+    "start": 2011.88,
+    "dur": 3.84,
+    "text": "by the prover, as I\nspecified in the protocol--"
+  },
+  {
+    "start": 2015.72,
+    "dur": 2.025,
+    "text": "the probability\nof that vector is"
+  },
+  {
+    "start": 2017.745,
+    "dur": 6.285,
+    "text": "e-close to any codeword is\nless than or equal to E plus 1"
+  },
+  {
+    "start": 2024.03,
+    "dur": 1.72,
+    "text": "over the size of\nthis finite field."
+  },
+  {
+    "start": 2025.75,
+    "dur": 1.71,
+    "text": "So this is extremely small."
+  },
+  {
+    "start": 2027.46,
+    "dur": 1.29,
+    "text": "This is negligible."
+  },
+  {
+    "start": 2028.75,
+    "dur": 2.26,
+    "text": "Which means that if\nthe committed matrix"
+  },
+  {
+    "start": 2031.01,
+    "dur": 3.4,
+    "text": "C is e-far from any\ncodeword as a matrix,"
+  },
+  {
+    "start": 2034.41,
+    "dur": 3.09,
+    "text": "then this vector is\nalso far from any"
+  },
+  {
+    "start": 2037.5,
+    "dur": 1.87,
+    "text": "codeword with high probability."
+  },
+  {
+    "start": 2039.37,
+    "dur": 4.01,
+    "text": "So that is the difference of\nthe claim from the intuition"
+  },
+  {
+    "start": 2043.38,
+    "dur": 1.89,
+    "text": "to the formal proof."
+  },
+  {
+    "start": 2045.27,
+    "dur": 2.1,
+    "text": "So then if we rule\nout this possibility,"
+  },
+  {
+    "start": 2047.37,
+    "dur": 2.13,
+    "text": "then the remaining part\nis exactly the same"
+  },
+  {
+    "start": 2049.5,
+    "dur": 1.5,
+    "text": "as the intuition."
+  },
+  {
+    "start": 2051.0,
+    "dur": 5.34,
+    "text": "Conditioning on this vector w\nis actually e-close to any--"
+  },
+  {
+    "start": 2056.34,
+    "dur": 3.12,
+    "text": "sorry, e-far from any\ncodeword-- then the probability"
+  },
+  {
+    "start": 2059.46,
+    "dur": 3.3,
+    "text": "of passing check 3\nfor t random columns"
+  },
+  {
+    "start": 2062.76,
+    "dur": 2.07,
+    "text": "decays exponentially with t."
+  },
+  {
+    "start": 2064.83,
+    "dur": 6.46,
+    "text": "So in particular because e\nover n fraction of the values"
+  },
+  {
+    "start": 2071.29,
+    "dur": 4.199,
+    "text": "are different from\nthe real result,"
+  },
+  {
+    "start": 2075.489,
+    "dur": 3.15,
+    "text": "then the probability\nof passing all checks"
+  },
+  {
+    "start": 2078.639,
+    "dur": 2.79,
+    "text": "for all t random\ncolumns is 1 minus e"
+  },
+  {
+    "start": 2081.429,
+    "dur": 1.531,
+    "text": "over n to the power of t."
+  },
+  {
+    "start": 2082.96,
+    "dur": 3.12,
+    "text": "And that decays\nexponentially with t."
+  },
+  {
+    "start": 2086.08,
+    "dur": 2.28,
+    "text": "And this is exactly\nthe reason why"
+  },
+  {
+    "start": 2088.36,
+    "dur": 3.97,
+    "text": "we need a linear code with a\nconstant relative distance."
+  },
+  {
+    "start": 2092.33,
+    "dur": 2.73,
+    "text": "So this e is related to\nthe distance of the code."
+  },
+  {
+    "start": 2095.06,
+    "dur": 3.35,
+    "text": "So you can roughly\nthink of this as related"
+  },
+  {
+    "start": 2098.41,
+    "dur": 1.48,
+    "text": "to the relative distance."
+  },
+  {
+    "start": 2099.89,
+    "dur": 2.54,
+    "text": "And if you have a constant\nrelative distance,"
+  },
+  {
+    "start": 2102.43,
+    "dur": 2.43,
+    "text": "this number is a\nconstant, and then we"
+  },
+  {
+    "start": 2104.86,
+    "dur": 2.19,
+    "text": "can make it negligible\nby repeating"
+  },
+  {
+    "start": 2107.05,
+    "dur": 2.01,
+    "text": "the check for t columns--"
+  },
+  {
+    "start": 2109.06,
+    "dur": 4.02,
+    "text": "say, 100 columns,\nor 500 columns."
+  },
+  {
+    "start": 2113.08,
+    "dur": 2.58,
+    "text": "Otherwise, if the distance\nof the code is not good,"
+  },
+  {
+    "start": 2115.66,
+    "dur": 3.12,
+    "text": "then we cannot make this\nprobability negligible."
+  },
+  {
+    "start": 2118.78,
+    "dur": 2.67,
+    "text": "So that is why we\nneed a linear code"
+  },
+  {
+    "start": 2121.45,
+    "dur": 4.21,
+    "text": "with constant relative distance,\nsuch as Reed-Solomon code."
+  },
+  {
+    "start": 2125.66,
+    "dur": 3.02,
+    "text": "And by the way, in a recent\nversion of this Ligero,"
+  },
+  {
+    "start": 2128.68,
+    "dur": 2.61,
+    "text": "the authors further show\nthat we can actually"
+  },
+  {
+    "start": 2131.29,
+    "dur": 3.63,
+    "text": "choose any e that is\nless than delta over 3"
+  },
+  {
+    "start": 2134.92,
+    "dur": 1.47,
+    "text": "as a parameter in this proof."
+  },
+  {
+    "start": 2136.39,
+    "dur": 5.85,
+    "text": "So that improves the\nproof size by some factor."
+  },
+  {
+    "start": 2142.24,
+    "dur": 6.65,
+    "text": "So that is the reason why this\nproximity testing is working."
+  },
+  {
+    "start": 2148.89,
+    "dur": 2.97,
+    "text": "We can actually show that the\ncommitted matrix is actually"
+  },
+  {
+    "start": 2151.86,
+    "dur": 4.5,
+    "text": "close to a codeword that is\nencoded using the commitment"
+  },
+  {
+    "start": 2156.36,
+    "dur": 0.66,
+    "text": "algorithm."
+  },
+  {
+    "start": 2160.37,
+    "dur": 2.0,
+    "text": "Another interesting thing\nI want to mention here"
+  },
+  {
+    "start": 2162.37,
+    "dur": 2.97,
+    "text": "is that we can actually\nperform one optimization"
+  },
+  {
+    "start": 2165.34,
+    "dur": 2.13,
+    "text": "in this proximity test."
+  },
+  {
+    "start": 2167.47,
+    "dur": 2.76,
+    "text": "So the optimization\nis that instead"
+  },
+  {
+    "start": 2170.23,
+    "dur": 3.91,
+    "text": "of sending the\ncodeword, which is"
+  },
+  {
+    "start": 2174.14,
+    "dur": 3.09,
+    "text": "the result of this\nvectoc-matrix product,"
+  },
+  {
+    "start": 2177.23,
+    "dur": 3.39,
+    "text": "the prover can actually\nsend a message behind this"
+  },
+  {
+    "start": 2180.62,
+    "dur": 3.42,
+    "text": "codeword to the verifier."
+  },
+  {
+    "start": 2184.04,
+    "dur": 4.08,
+    "text": "And then the verifier can\nactually use this message--"
+  },
+  {
+    "start": 2188.12,
+    "dur": 1.68,
+    "text": "it can actually\nencode this message"
+  },
+  {
+    "start": 2189.8,
+    "dur": 3.15,
+    "text": "to recover this codeword\nthat was supposed"
+  },
+  {
+    "start": 2192.95,
+    "dur": 3.21,
+    "text": "to be sent by the prover--"
+  },
+  {
+    "start": 2196.16,
+    "dur": 2.64,
+    "text": "and then perform the\nremaining checks."
+  },
+  {
+    "start": 2198.8,
+    "dur": 2.25,
+    "text": "And why this is a\nnice optimization,"
+  },
+  {
+    "start": 2201.05,
+    "dur": 2.97,
+    "text": "first, this actually reduces\nthe size of the proof."
+  },
+  {
+    "start": 2204.02,
+    "dur": 2.16,
+    "text": "Because instead of sending\na vector of size n,"
+  },
+  {
+    "start": 2206.18,
+    "dur": 5.46,
+    "text": "we now only need to send\na message of size only n--"
+  },
+  {
+    "start": 2211.64,
+    "dur": 3.61,
+    "text": "only k-- that is equal\nto square root d."
+  },
+  {
+    "start": 2215.25,
+    "dur": 2.51,
+    "text": "Another optimization is\nthat the verifier now"
+  },
+  {
+    "start": 2217.76,
+    "dur": 2.13,
+    "text": "doesn't have to perform\nthe first check, where"
+  },
+  {
+    "start": 2219.89,
+    "dur": 2.4,
+    "text": "this vector is a codeword."
+  },
+  {
+    "start": 2222.29,
+    "dur": 1.8,
+    "text": "This check's\nperformed implicitly,"
+  },
+  {
+    "start": 2224.09,
+    "dur": 3.917,
+    "text": "because it is literally\nencoded from a message sent"
+  },
+  {
+    "start": 2228.007,
+    "dur": 0.583,
+    "text": "by the prover."
+  },
+  {
+    "start": 2228.59,
+    "dur": 2.4,
+    "text": "So it has to be a codeword."
+  },
+  {
+    "start": 2230.99,
+    "dur": 1.92,
+    "text": "And another\ninteresting observation"
+  },
+  {
+    "start": 2232.91,
+    "dur": 2.38,
+    "text": "is that by the property\nof a linear code,"
+  },
+  {
+    "start": 2235.29,
+    "dur": 2.28,
+    "text": "this message of\nsize square root D"
+  },
+  {
+    "start": 2237.57,
+    "dur": 4.68,
+    "text": "is exactly same as the result\nof the vector-matrix product"
+  },
+  {
+    "start": 2242.25,
+    "dur": 4.38,
+    "text": "between this random vector\nwith the original matrix, that"
+  },
+  {
+    "start": 2246.63,
+    "dur": 4.19,
+    "text": "was defined by the coefficients\nof the polynomial instead"
+  },
+  {
+    "start": 2250.82,
+    "dur": 1.89,
+    "text": "of the encoded matrix."
+  },
+  {
+    "start": 2252.71,
+    "dur": 1.86,
+    "text": "And it is actually\nnot hard to check"
+  },
+  {
+    "start": 2254.57,
+    "dur": 2.41,
+    "text": "due to the property\nof the linear code."
+  },
+  {
+    "start": 2256.98,
+    "dur": 3.11,
+    "text": "So this is a nice\noptimization to keep"
+  },
+  {
+    "start": 2260.09,
+    "dur": 2.42,
+    "text": "in mind for the remaining\nof the protocol."
+  },
+  {
+    "start": 2265.62,
+    "dur": 4.13,
+    "text": "So now with the first step\nof this proximity check,"
+  },
+  {
+    "start": 2269.75,
+    "dur": 2.76,
+    "text": "with overwhelming\nprobability the verifier"
+  },
+  {
+    "start": 2272.51,
+    "dur": 2.49,
+    "text": "knows that this\ncommitted matrix must"
+  },
+  {
+    "start": 2275.0,
+    "dur": 3.55,
+    "text": "be close to an encoded matrix."
+  },
+  {
+    "start": 2278.55,
+    "dur": 3.68,
+    "text": "Then the second step of\nthis polynomial commitment"
+  },
+  {
+    "start": 2282.23,
+    "dur": 4.83,
+    "text": "is called the consistency\ntest, or consistency check."
+  },
+  {
+    "start": 2287.06,
+    "dur": 4.38,
+    "text": "The purpose of this step\nis to really test that"
+  },
+  {
+    "start": 2291.44,
+    "dur": 5.62,
+    "text": "the vector-matrix product\nbetween this vector defined"
+  },
+  {
+    "start": 2297.06,
+    "dur": 3.63,
+    "text": "by the vanishing point and\nthis [INAUDIBLE] matrix equals"
+  },
+  {
+    "start": 2300.69,
+    "dur": 2.1,
+    "text": "to the claimed result--"
+  },
+  {
+    "start": 2302.79,
+    "dur": 3.55,
+    "text": "a vector of size square root d."
+  },
+  {
+    "start": 2306.34,
+    "dur": 3.6,
+    "text": "And turns out the algorithm,\nthe protocol of this step,"
+  },
+  {
+    "start": 2309.94,
+    "dur": 5.89,
+    "text": "is almost the same as everything\nwe did for the proximity test."
+  },
+  {
+    "start": 2315.83,
+    "dur": 4.93,
+    "text": "So in order to do that, first,\nthe prover is going to send"
+  },
+  {
+    "start": 2320.76,
+    "dur": 3.24,
+    "text": "the message, m, to the verifier,\nwhere the message should be"
+  },
+  {
+    "start": 2324.0,
+    "dur": 4.53,
+    "text": "equal to the vector-matrix\nproduct between this vector"
+  },
+  {
+    "start": 2328.53,
+    "dur": 5.16,
+    "text": "defined by the vanishing point\nand the original matrix defined"
+  },
+  {
+    "start": 2333.69,
+    "dur": 3.0,
+    "text": "by the coefficients of the\npolynomial of square root d--"
+  },
+  {
+    "start": 2336.69,
+    "dur": 2.52,
+    "text": "by square root d\nbefore the encoding."
+  },
+  {
+    "start": 2339.21,
+    "dur": 3.75,
+    "text": "And the result should be a\nvector of size square root d."
+  },
+  {
+    "start": 2342.96,
+    "dur": 2.97,
+    "text": "And that is the message\nof a linear code."
+  },
+  {
+    "start": 2345.93,
+    "dur": 3.06,
+    "text": "Then the verifier is going\nto encode this message"
+  },
+  {
+    "start": 2348.99,
+    "dur": 6.18,
+    "text": "to get a codeword\nof length n here."
+  },
+  {
+    "start": 2355.17,
+    "dur": 2.39,
+    "text": "And as I explained\nin the previous slide"
+  },
+  {
+    "start": 2357.56,
+    "dur": 3.78,
+    "text": "using this optimization,\nthis vector of size n"
+  },
+  {
+    "start": 2361.34,
+    "dur": 4.14,
+    "text": "should be the result of this\nvector defined by the vanishing"
+  },
+  {
+    "start": 2365.48,
+    "dur": 3.3,
+    "text": "point u times this encoded\nmatrix of size square d"
+  },
+  {
+    "start": 2368.78,
+    "dur": 2.35,
+    "text": "by n here."
+  },
+  {
+    "start": 2371.13,
+    "dur": 3.96,
+    "text": "And this is exactly the\nsame as the proximity test"
+  },
+  {
+    "start": 2375.09,
+    "dur": 2.97,
+    "text": "with optimization I introduced."
+  },
+  {
+    "start": 2378.06,
+    "dur": 3.9,
+    "text": "After that the verifier is going\nto pick several random columns"
+  },
+  {
+    "start": 2381.96,
+    "dur": 2.97,
+    "text": "and ask the prover to\nreturn these columns back."
+  },
+  {
+    "start": 2384.93,
+    "dur": 3.24,
+    "text": "And recall that in\nthe commitment phase,"
+  },
+  {
+    "start": 2388.17,
+    "dur": 3.16,
+    "text": "the prover commits to these\ncolumns using Merkle tree."
+  },
+  {
+    "start": 2391.33,
+    "dur": 2.84,
+    "text": "So in this step, the prover\nfurther proves that these"
+  },
+  {
+    "start": 2394.17,
+    "dur": 3.6,
+    "text": "columns are actually-- has the\ncorresponding Merkle tree path,"
+  },
+  {
+    "start": 2397.77,
+    "dur": 3.69,
+    "text": "so that the prover cannot change\nany value of these committed"
+  },
+  {
+    "start": 2401.46,
+    "dur": 1.5,
+    "text": "columns."
+  },
+  {
+    "start": 2402.96,
+    "dur": 1.83,
+    "text": "And finally, the\nverifier is going"
+  },
+  {
+    "start": 2404.79,
+    "dur": 2.34,
+    "text": "to perform exactly\nthe same three"
+  },
+  {
+    "start": 2407.13,
+    "dur": 2.4,
+    "text": "checks as the proximity test."
+  },
+  {
+    "start": 2409.53,
+    "dur": 2.82,
+    "text": "So first this vector\nis actually a codeword."
+  },
+  {
+    "start": 2412.35,
+    "dur": 3.0,
+    "text": "Second, the columns are as\ncommitted in the Merkle tree."
+  },
+  {
+    "start": 2415.35,
+    "dur": 2.55,
+    "text": "And third, the inner\nproduct between this vector"
+  },
+  {
+    "start": 2417.9,
+    "dur": 1.65,
+    "text": "defined by the\nvanishing point u."
+  },
+  {
+    "start": 2419.55,
+    "dur": 4.14,
+    "text": "And each column is consistent\nwith the corresponding location"
+  },
+  {
+    "start": 2423.69,
+    "dur": 2.14,
+    "text": "of this code word."
+  },
+  {
+    "start": 2425.83,
+    "dur": 3.71,
+    "text": "And the reason why I'm actually\nremoving this first two checks"
+  },
+  {
+    "start": 2429.54,
+    "dur": 2.83,
+    "text": "is that we don't need\nto do them anymore."
+  },
+  {
+    "start": 2432.37,
+    "dur": 5.34,
+    "text": "So the first check is\nembedded in this encoding"
+  },
+  {
+    "start": 2437.71,
+    "dur": 2.61,
+    "text": "because of the\noptimization I mentioned."
+  },
+  {
+    "start": 2440.32,
+    "dur": 3.15,
+    "text": "The prover only needs to send\nthe message to the verifier."
+  },
+  {
+    "start": 2443.47,
+    "dur": 2.94,
+    "text": "And the fact that the verifier\nencodes it to the codeword"
+  },
+  {
+    "start": 2446.41,
+    "dur": 3.15,
+    "text": "already tells the fact that\nthis vector is a code word."
+  },
+  {
+    "start": 2449.56,
+    "dur": 1.92,
+    "text": "The second one,\nwe also don't need"
+  },
+  {
+    "start": 2451.48,
+    "dur": 3.12,
+    "text": "to do it because the\ncolumns we are opening here"
+  },
+  {
+    "start": 2454.6,
+    "dur": 3.87,
+    "text": "are exactly the same as\nones in the proximity test."
+  },
+  {
+    "start": 2458.47,
+    "dur": 2.54,
+    "text": "The verifier\ndoesn't have to pick"
+  },
+  {
+    "start": 2461.01,
+    "dur": 2.73,
+    "text": "new randomly chosen columns."
+  },
+  {
+    "start": 2463.74,
+    "dur": 2.37,
+    "text": "We are going to use exactly\nthose columns opened"
+  },
+  {
+    "start": 2466.11,
+    "dur": 1.89,
+    "text": "in the proximity\ntest, and we don't"
+  },
+  {
+    "start": 2468.0,
+    "dur": 3.63,
+    "text": "need to verify the Merkle\ntree paths anymore."
+  },
+  {
+    "start": 2471.63,
+    "dur": 3.42,
+    "text": "So the only difference-- the\nonly additional step to perform"
+  },
+  {
+    "start": 2475.05,
+    "dur": 2.37,
+    "text": "is the third one-- is\nagain an inner product,"
+  },
+  {
+    "start": 2477.42,
+    "dur": 3.18,
+    "text": "but this time it's the inner\nproduct between this vector"
+  },
+  {
+    "start": 2480.6,
+    "dur": 3.0,
+    "text": "u here defined by the\nvanishing point instead"
+  },
+  {
+    "start": 2483.6,
+    "dur": 3.943,
+    "text": "of a random vector chosen\nin the proximity test."
+  },
+  {
+    "start": 2487.543,
+    "dur": 2.417,
+    "text": "And we are going to do the\ninner product between this one,"
+  },
+  {
+    "start": 2489.96,
+    "dur": 4.56,
+    "text": "each column, and see that it is\nconsistent with this codeword"
+  },
+  {
+    "start": 2494.52,
+    "dur": 2.77,
+    "text": "computed from the\nencoding of the message."
+  },
+  {
+    "start": 2497.29,
+    "dur": 3.65,
+    "text": "And again, if this\ntest is true, then we"
+  },
+  {
+    "start": 2500.94,
+    "dur": 2.55,
+    "text": "can conclude that\nthis message m is"
+  },
+  {
+    "start": 2503.49,
+    "dur": 3.39,
+    "text": "the product between\nthis vector defined by u"
+  },
+  {
+    "start": 2506.88,
+    "dur": 3.76,
+    "text": "and the original matrix\ndefined by the coefficients"
+  },
+  {
+    "start": 2510.64,
+    "dur": 2.28,
+    "text": "of the polynomial\nbefore encoding."
+  },
+  {
+    "start": 2512.92,
+    "dur": 3.75,
+    "text": "So that completes the\ndescription of the second step"
+  },
+  {
+    "start": 2516.67,
+    "dur": 1.35,
+    "text": "of a consistency check."
+  },
+  {
+    "start": 2520.78,
+    "dur": 4.62,
+    "text": "So to sketch the\nsoundness of this step,"
+  },
+  {
+    "start": 2525.4,
+    "dur": 2.46,
+    "text": "first, by the proximity\ntest, we already"
+  },
+  {
+    "start": 2527.86,
+    "dur": 4.53,
+    "text": "know that this committed matrix\nC is very close to a codeword."
+  },
+  {
+    "start": 2532.39,
+    "dur": 3.54,
+    "text": "Then in order to prove\nknowledge soundness,"
+  },
+  {
+    "start": 2535.93,
+    "dur": 2.67,
+    "text": "the key idea is that,\nalthough we actually"
+  },
+  {
+    "start": 2538.6,
+    "dur": 2.4,
+    "text": "don't know whether\nthis matrix is indeed"
+  },
+  {
+    "start": 2541.0,
+    "dur": 4.02,
+    "text": "exactly the same as\nan encoded matrix,"
+  },
+  {
+    "start": 2545.02,
+    "dur": 2.52,
+    "text": "because it is close\nto a codeword,"
+  },
+  {
+    "start": 2547.54,
+    "dur": 2.85,
+    "text": "then it is actually\nenough to actually build"
+  },
+  {
+    "start": 2550.39,
+    "dur": 5.88,
+    "text": "an efficient extractor to\nextract the coefficient matrix"
+  },
+  {
+    "start": 2556.27,
+    "dur": 1.53,
+    "text": "defining a polynomial."
+  },
+  {
+    "start": 2557.8,
+    "dur": 3.63,
+    "text": "And this extraction is using the\nMerkle-tree commitment and also"
+  },
+  {
+    "start": 2561.43,
+    "dur": 2.46,
+    "text": "the efficient-decoding\nalgorithm to decode"
+  },
+  {
+    "start": 2563.89,
+    "dur": 2.01,
+    "text": "this committment matrix."
+  },
+  {
+    "start": 2565.9,
+    "dur": 2.07,
+    "text": "Because it is close\nto a codeword,"
+  },
+  {
+    "start": 2567.97,
+    "dur": 4.72,
+    "text": "then there is a unique\ncoefficient matrix, F,"
+  },
+  {
+    "start": 2572.69,
+    "dur": 4.35,
+    "text": "so that we can actually track\nF such that the vector u times"
+  },
+  {
+    "start": 2577.04,
+    "dur": 4.05,
+    "text": "F equals to this message\nm returned by the prover."
+  },
+  {
+    "start": 2581.09,
+    "dur": 1.62,
+    "text": "And that completes\nthe first step"
+  },
+  {
+    "start": 2582.71,
+    "dur": 4.17,
+    "text": "of this vector-matrix\nproduct argument."
+  },
+  {
+    "start": 2586.88,
+    "dur": 3.32,
+    "text": "And this is with an\noverwhelming probability."
+  },
+  {
+    "start": 2590.2,
+    "dur": 3.185,
+    "text": "So that is the intuition of the\nsoundness of this second step."
+  },
+  {
+    "start": 2595.95,
+    "dur": 3.14,
+    "text": "And if you're interested\nin the formal proof,"
+  },
+  {
+    "start": 2599.09,
+    "dur": 3.81,
+    "text": "please feel free to refer to\nthe papers for more details."
+  },
+  {
+    "start": 2602.9,
+    "dur": 3.443,
+    "text": "And I'm not going to talk\nabout the formal proof"
+  },
+  {
+    "start": 2606.343,
+    "dur": 0.667,
+    "text": "in this lecture."
+  },
+  {
+    "start": 2610.01,
+    "dur": 2.18,
+    "text": "So to put everything\ntogether, this"
+  },
+  {
+    "start": 2612.19,
+    "dur": 5.19,
+    "text": "is the algorithm of this\nentire polynomial commitment."
+  },
+  {
+    "start": 2617.38,
+    "dur": 1.5,
+    "text": "So in the key\ngeneration, we're just"
+  },
+  {
+    "start": 2618.88,
+    "dur": 3.63,
+    "text": "going to sample a hash function\nfrom a family of hashes."
+  },
+  {
+    "start": 2622.51,
+    "dur": 2.37,
+    "text": "And to commit to\na matrix, we are"
+  },
+  {
+    "start": 2624.88,
+    "dur": 3.42,
+    "text": "going to encode the coefficient\nmatrix of F row-wise"
+  },
+  {
+    "start": 2628.3,
+    "dur": 2.04,
+    "text": "with a linear code,\nand then we are"
+  },
+  {
+    "start": 2630.34,
+    "dur": 3.24,
+    "text": "going to compute the Merkle-tree\ncommitment on the columns"
+  },
+  {
+    "start": 2633.58,
+    "dur": 2.61,
+    "text": "of this encoded matrix."
+  },
+  {
+    "start": 2636.19,
+    "dur": 2.85,
+    "text": "And then the eval and\nthe verifier algorithm"
+  },
+  {
+    "start": 2639.04,
+    "dur": 3.1,
+    "text": "are actually a kind of\ninteractive process."
+  },
+  {
+    "start": 2642.14,
+    "dur": 2.54,
+    "text": "So there are two\nsteps-- a proximity test"
+  },
+  {
+    "start": 2644.68,
+    "dur": 1.65,
+    "text": "and the consistency test."
+  },
+  {
+    "start": 2646.33,
+    "dur": 2.04,
+    "text": "In the proximity\ntest, we are going"
+  },
+  {
+    "start": 2648.37,
+    "dur": 2.7,
+    "text": "to compute the random\nlinear combination"
+  },
+  {
+    "start": 2651.07,
+    "dur": 5.07,
+    "text": "of all the rows using the random\nchallenge by the verifier."
+  },
+  {
+    "start": 2656.14,
+    "dur": 2.64,
+    "text": "And the verifier is going\nto check its consistency"
+  },
+  {
+    "start": 2658.78,
+    "dur": 2.04,
+    "text": "with t random columns."
+  },
+  {
+    "start": 2660.82,
+    "dur": 5.7,
+    "text": "And this guarantees that the\ncommitted matrix is actually"
+  },
+  {
+    "start": 2666.52,
+    "dur": 2.75,
+    "text": "close to an encoded matrix."
+  },
+  {
+    "start": 2669.27,
+    "dur": 1.91,
+    "text": "Then the second\nstep, we are going"
+  },
+  {
+    "start": 2671.18,
+    "dur": 2.4,
+    "text": "to perform this\nconsistency check,"
+  },
+  {
+    "start": 2673.58,
+    "dur": 3.09,
+    "text": "and we are going to use\nexactly those columns opened"
+  },
+  {
+    "start": 2676.67,
+    "dur": 1.38,
+    "text": "in the first step--"
+  },
+  {
+    "start": 2678.05,
+    "dur": 3.87,
+    "text": "and checks that the inner\nproduct between the vector"
+  },
+  {
+    "start": 2681.92,
+    "dur": 4.11,
+    "text": "u defined by the vanishing\npoint u with these columns"
+  },
+  {
+    "start": 2686.03,
+    "dur": 2.15,
+    "text": "is consistent with\nthe answer that"
+  },
+  {
+    "start": 2688.18,
+    "dur": 2.26,
+    "text": "encoded from the message m."
+  },
+  {
+    "start": 2690.44,
+    "dur": 2.67,
+    "text": "So in this way, we\ncan make sure that u"
+  },
+  {
+    "start": 2693.11,
+    "dur": 4.11,
+    "text": "times the coefficient\nmatrix F equals to m."
+  },
+  {
+    "start": 2697.22,
+    "dur": 2.22,
+    "text": "And to complete the\npolynomial evaluation,"
+  },
+  {
+    "start": 2699.44,
+    "dur": 4.77,
+    "text": "we can perform the second step\nlocally, on the verifier side."
+  },
+  {
+    "start": 2704.21,
+    "dur": 2.94,
+    "text": "So the verifier simply\ncomputes the inner product"
+  },
+  {
+    "start": 2707.15,
+    "dur": 2.88,
+    "text": "between the message\nm and the second half"
+  },
+  {
+    "start": 2710.03,
+    "dur": 2.25,
+    "text": "of the vector, defined\nby this vanishing point."
+  },
+  {
+    "start": 2712.28,
+    "dur": 3.97,
+    "text": "And I'm just going to call\nit u prime for simplicity."
+  },
+  {
+    "start": 2716.25,
+    "dur": 4.55,
+    "text": "And if you still\nrecall the derivation"
+  },
+  {
+    "start": 2720.8,
+    "dur": 2.19,
+    "text": "we showed in the very\nbeginning, there's"
+  },
+  {
+    "start": 2722.99,
+    "dur": 2.25,
+    "text": "two steps of the\nvector-matrix product,"
+  },
+  {
+    "start": 2725.24,
+    "dur": 2.88,
+    "text": "and the inner product gives\nyou the evaluation f of u,"
+  },
+  {
+    "start": 2728.12,
+    "dur": 1.83,
+    "text": "If the prover is honest."
+  },
+  {
+    "start": 2729.95,
+    "dur": 2.52,
+    "text": "So that completes the\nentire description"
+  },
+  {
+    "start": 2732.47,
+    "dur": 2.01,
+    "text": "of this polynomial commitment."
+  },
+  {
+    "start": 2734.48,
+    "dur": 3.78,
+    "text": "And this also shows\nyou the necessity"
+  },
+  {
+    "start": 2738.26,
+    "dur": 2.7,
+    "text": "of this proximity test\nand the consistency check."
+  },
+  {
+    "start": 2740.96,
+    "dur": 4.05,
+    "text": "So one question I usually\nget when seeing this protocol"
+  },
+  {
+    "start": 2745.01,
+    "dur": 5.05,
+    "text": "is, it looks like the\nproximity test and consistency"
+  },
+  {
+    "start": 2750.06,
+    "dur": 2.9,
+    "text": "test are almost the same."
+  },
+  {
+    "start": 2752.96,
+    "dur": 2.47,
+    "text": "We are using the\nsame open columns,"
+  },
+  {
+    "start": 2755.43,
+    "dur": 2.63,
+    "text": "and we are checking the inner\nproducts between these columns"
+  },
+  {
+    "start": 2758.06,
+    "dur": 1.63,
+    "text": "and the corresponding vector."
+  },
+  {
+    "start": 2759.69,
+    "dur": 2.33,
+    "text": "So can we just perform\nonly the consistency test"
+  },
+  {
+    "start": 2762.02,
+    "dur": 1.44,
+    "text": "without the proximity test?"
+  },
+  {
+    "start": 2763.46,
+    "dur": 1.59,
+    "text": "Well, the answer is no."
+  },
+  {
+    "start": 2765.05,
+    "dur": 2.34,
+    "text": "And intuitively\nspeaking, the reason"
+  },
+  {
+    "start": 2767.39,
+    "dur": 3.57,
+    "text": "is because this u is\nnot randomly generated."
+  },
+  {
+    "start": 2770.96,
+    "dur": 3.63,
+    "text": "It's actually derived from\nthe evaluation point u"
+  },
+  {
+    "start": 2774.59,
+    "dur": 1.87,
+    "text": "in a very well-structured way."
+  },
+  {
+    "start": 2776.46,
+    "dur": 4.97,
+    "text": "And if this evaluation\npoint is not randomly"
+  },
+  {
+    "start": 2781.43,
+    "dur": 3.09,
+    "text": "chosen from a large domain\nrandomly in a finite field,"
+  },
+  {
+    "start": 2784.52,
+    "dur": 2.55,
+    "text": "then the consistence\ntest only, the prover"
+  },
+  {
+    "start": 2787.07,
+    "dur": 3.925,
+    "text": "can actually cheat if he\nknows some information"
+  },
+  {
+    "start": 2790.995,
+    "dur": 1.625,
+    "text": "at that time about\nthe evaluation point"
+  },
+  {
+    "start": 2792.62,
+    "dur": 1.59,
+    "text": "you're going to choose."
+  },
+  {
+    "start": 2794.21,
+    "dur": 3.42,
+    "text": "And that is why this\nproximity test is necessary."
+  },
+  {
+    "start": 2797.63,
+    "dur": 3.48,
+    "text": "So no matter what will\nbe the evaluation point,"
+  },
+  {
+    "start": 2801.11,
+    "dur": 1.92,
+    "text": "we are going to run\nthis proximity test"
+  },
+  {
+    "start": 2803.03,
+    "dur": 2.4,
+    "text": "using random challenges\nfrom the verifier."
+  },
+  {
+    "start": 2805.43,
+    "dur": 3.75,
+    "text": "And this guarantees that the\ncommitted matrix is actually"
+  },
+  {
+    "start": 2809.18,
+    "dur": 2.28,
+    "text": "close to an encoded matrix."
+  },
+  {
+    "start": 2811.46,
+    "dur": 2.77,
+    "text": "And then we can perform\nthe consistency test"
+  },
+  {
+    "start": 2814.23,
+    "dur": 4.95,
+    "text": "and extract this witness such\nthat the vector-matrix product"
+  },
+  {
+    "start": 2819.18,
+    "dur": 6.55,
+    "text": "is equal to n, with an\noverwhelming probability."
+  },
+  {
+    "start": 2825.73,
+    "dur": 3.59,
+    "text": "So then next, let's\nsee the properties"
+  },
+  {
+    "start": 2829.32,
+    "dur": 1.5,
+    "text": "of this\npolynomial-commitment scheme"
+  },
+  {
+    "start": 2830.82,
+    "dur": 2.14,
+    "text": "based on the linear code."
+  },
+  {
+    "start": 2832.96,
+    "dur": 3.0,
+    "text": "So the key generation\nis very efficient."
+  },
+  {
+    "start": 2835.96,
+    "dur": 3.3,
+    "text": "It does not require any trusted\nsetup and merely samples"
+  },
+  {
+    "start": 2839.26,
+    "dur": 2.75,
+    "text": "the hash function, so the\nsize of the global parameter"
+  },
+  {
+    "start": 2842.01,
+    "dur": 2.07,
+    "text": "is constant."
+  },
+  {
+    "start": 2844.08,
+    "dur": 3.37,
+    "text": "In the commitment\nthere are two steps."
+  },
+  {
+    "start": 2847.45,
+    "dur": 3.29,
+    "text": "So first, we are going to\nencode this matrix row-wise,"
+  },
+  {
+    "start": 2850.74,
+    "dur": 2.58,
+    "text": "and the complexity is\ndominated by the encoding"
+  },
+  {
+    "start": 2853.32,
+    "dur": 1.69,
+    "text": "algorithm of the linear code."
+  },
+  {
+    "start": 2855.01,
+    "dur": 3.32,
+    "text": "So if you're using the\nresolving code, for example,"
+  },
+  {
+    "start": 2858.33,
+    "dur": 5.52,
+    "text": "then the encoding complexity\nis order of d times log d."
+  },
+  {
+    "start": 2863.85,
+    "dur": 3.06,
+    "text": "We're talking about field\nadditions and modifications."
+  },
+  {
+    "start": 2866.91,
+    "dur": 3.21,
+    "text": "Alternatively, we can\nuse any linear code"
+  },
+  {
+    "start": 2870.12,
+    "dur": 3.78,
+    "text": "with a good relative distance--\nin particular, constant"
+  },
+  {
+    "start": 2873.9,
+    "dur": 1.18,
+    "text": "relative distance."
+  },
+  {
+    "start": 2875.08,
+    "dur": 2.27,
+    "text": "So then if you're using\nlinear time encoded code"
+  },
+  {
+    "start": 2877.35,
+    "dur": 3.87,
+    "text": "with good distance, you can\nachieve a linear encoding time"
+  },
+  {
+    "start": 2881.22,
+    "dur": 2.07,
+    "text": "in this step."
+  },
+  {
+    "start": 2883.29,
+    "dur": 3.28,
+    "text": "Next, we are going to commit\nthis encoded matrix using"
+  },
+  {
+    "start": 2886.57,
+    "dur": 0.66,
+    "text": "a Merkle tree."
+  },
+  {
+    "start": 2887.23,
+    "dur": 2.91,
+    "text": "And this one is actually\nnot the dominant cost."
+  },
+  {
+    "start": 2890.14,
+    "dur": 2.19,
+    "text": "We are going to compute\norder of d hashes,"
+  },
+  {
+    "start": 2892.33,
+    "dur": 2.31,
+    "text": "and the commitment\nsize is only constant--"
+  },
+  {
+    "start": 2894.64,
+    "dur": 2.34,
+    "text": "the root of the Merkle tree."
+  },
+  {
+    "start": 2896.98,
+    "dur": 3.84,
+    "text": "The evaluation will take\norder of d field additions"
+  },
+  {
+    "start": 2900.82,
+    "dur": 2.82,
+    "text": "and modifications again and\ncan be made non-interactive"
+  },
+  {
+    "start": 2903.64,
+    "dur": 3.15,
+    "text": "using the Fiat Shamir\ntransformation."
+  },
+  {
+    "start": 2906.79,
+    "dur": 4.31,
+    "text": "So then, finally, the\nkind of-- as I mentioned,"
+  },
+  {
+    "start": 2911.1,
+    "dur": 2.07,
+    "text": "the drawback of this\nscheme is the proof size"
+  },
+  {
+    "start": 2913.17,
+    "dur": 1.03,
+    "text": "is relatively large."
+  },
+  {
+    "start": 2914.2,
+    "dur": 1.61,
+    "text": "So in the scheme\nI'm presenting here,"
+  },
+  {
+    "start": 2915.81,
+    "dur": 2.19,
+    "text": "the proof size is\norder of square root d."
+  },
+  {
+    "start": 2918.0,
+    "dur": 1.68,
+    "text": "And that is because\nwe are opening,"
+  },
+  {
+    "start": 2919.68,
+    "dur": 3.48,
+    "text": "essentially, one row\nand the multiple columns"
+  },
+  {
+    "start": 2923.16,
+    "dur": 1.83,
+    "text": "of this encoded matrix."
+  },
+  {
+    "start": 2924.99,
+    "dur": 4.32,
+    "text": "And the optimal solution is that\nthe matrix dimension as square"
+  },
+  {
+    "start": 2929.31,
+    "dur": 1.56,
+    "text": "root d times square root d."
+  },
+  {
+    "start": 2930.87,
+    "dur": 2.97,
+    "text": "So the proof size is\norder of square root d."
+  },
+  {
+    "start": 2933.84,
+    "dur": 5.37,
+    "text": "And similarly, the verifier\ntime is order of square root d."
+  },
+  {
+    "start": 2939.21,
+    "dur": 2.32,
+    "text": "So to show you some\nconcrete numbers--"
+  },
+  {
+    "start": 2941.53,
+    "dur": 2.39,
+    "text": "so this is the performance\nof the polynomial-commitment"
+  },
+  {
+    "start": 2943.92,
+    "dur": 1.95,
+    "text": "scheme, that was\nactually described"
+  },
+  {
+    "start": 2945.87,
+    "dur": 2.45,
+    "text": "in the \"Brakedown\" paper."
+  },
+  {
+    "start": 2948.32,
+    "dur": 6.21,
+    "text": "So for a polynomial of degree\nd equals to 2 to the 25--"
+  },
+  {
+    "start": 2954.53,
+    "dur": 3.84,
+    "text": "that is about 32 million--"
+  },
+  {
+    "start": 2958.37,
+    "dur": 1.98,
+    "text": "using a linear time\nencodable code,"
+  },
+  {
+    "start": 2960.35,
+    "dur": 3.69,
+    "text": "then I'm going to explain in\nthe next segment the commitment"
+  },
+  {
+    "start": 2964.04,
+    "dur": 5.22,
+    "text": "takes 36 seconds using a single\nthread on a reasonable machine."
+  },
+  {
+    "start": 2969.26,
+    "dur": 2.88,
+    "text": "And the evaluation to\ngenerate the proof only"
+  },
+  {
+    "start": 2972.14,
+    "dur": 2.2,
+    "text": "takes 3.2 seconds."
+  },
+  {
+    "start": 2974.34,
+    "dur": 3.99,
+    "text": "So these numbers are actually\nexcellent in practice"
+  },
+  {
+    "start": 2978.33,
+    "dur": 3.99,
+    "text": "and are significantly faster\nthan those schemes based"
+  },
+  {
+    "start": 2982.32,
+    "dur": 2.98,
+    "text": "on discrete log and bilinear\npairing-- for example,"
+  },
+  {
+    "start": 2985.3,
+    "dur": 2.51,
+    "text": "the polynomial commitment\nscheme and the bulletproofs--"
+  },
+  {
+    "start": 2987.81,
+    "dur": 3.69,
+    "text": "because it's not using\nany group exponentiations."
+  },
+  {
+    "start": 2991.5,
+    "dur": 3.25,
+    "text": "It's linear number of\nadditions and multiplications."
+  },
+  {
+    "start": 2994.75,
+    "dur": 1.58,
+    "text": "So that's very efficient."
+  },
+  {
+    "start": 2996.33,
+    "dur": 2.41,
+    "text": "But apparently the\ndrawback is the proof size."
+  },
+  {
+    "start": 2998.74,
+    "dur": 3.74,
+    "text": "So using this scheme with\nthe square root proof size,"
+  },
+  {
+    "start": 3002.48,
+    "dur": 3.42,
+    "text": "we are talking about\n49MB concretely."
+  },
+  {
+    "start": 3005.9,
+    "dur": 3.72,
+    "text": "So this is really a big\noverhead and may not"
+  },
+  {
+    "start": 3009.62,
+    "dur": 2.47,
+    "text": "be desirable for\ncertain applications."
+  },
+  {
+    "start": 3012.09,
+    "dur": 2.36,
+    "text": "And finally the verifier\ntime is about 0.7 seconds,"
+  },
+  {
+    "start": 3014.45,
+    "dur": 2.385,
+    "text": "so that's actually a\nreasonably fast in practice."
+  },
+  {
+    "start": 3020.68,
+    "dur": 2.36,
+    "text": "So before I conclude\nthis segment,"
+  },
+  {
+    "start": 3023.04,
+    "dur": 5.28,
+    "text": "I also want to further discuss\nseveral follow-up papers"
+  },
+  {
+    "start": 3028.32,
+    "dur": 1.98,
+    "text": "in the literature,\nand that leads"
+  },
+  {
+    "start": 3030.3,
+    "dur": 2.68,
+    "text": "to this polynomial-commitment\nscheme I'm describing."
+  },
+  {
+    "start": 3032.98,
+    "dur": 3.11,
+    "text": "So actually the key\nidea of this version"
+  },
+  {
+    "start": 3036.09,
+    "dur": 4.02,
+    "text": "of polynomial-commitment scheme\ncame from these two papers."
+  },
+  {
+    "start": 3040.11,
+    "dur": 5.55,
+    "text": "So recall that in the original\npaper of Ligero and Bootle"
+  },
+  {
+    "start": 3045.66,
+    "dur": 3.69,
+    "text": "et al 2017, they were\nmerely describing a way"
+  },
+  {
+    "start": 3049.35,
+    "dur": 3.25,
+    "text": "to do this proximity test."
+  },
+  {
+    "start": 3052.6,
+    "dur": 3.29,
+    "text": "And in order to make it work\nfor a polynomial commitment"
+  },
+  {
+    "start": 3055.89,
+    "dur": 3.45,
+    "text": "efficiently, it relies\non this nice observation"
+  },
+  {
+    "start": 3059.34,
+    "dur": 2.85,
+    "text": "and the improvements of\nthe protocol for tensor"
+  },
+  {
+    "start": 3062.19,
+    "dur": 4.26,
+    "text": "query IOP, proposed by Bootle,\nChiesa, and Groth in 2020."
+  },
+  {
+    "start": 3066.45,
+    "dur": 3.51,
+    "text": "So in this paper, they\npropose this protocol"
+  },
+  {
+    "start": 3069.96,
+    "dur": 4.71,
+    "text": "that I was describing for tensor\nproducts and tensor query."
+  },
+  {
+    "start": 3074.67,
+    "dur": 1.17,
+    "text": "And what is that?"
+  },
+  {
+    "start": 3075.84,
+    "dur": 2.83,
+    "text": "So to give you an example\nfor this two dimensions, that"
+  },
+  {
+    "start": 3078.67,
+    "dur": 2.91,
+    "text": "is exactly the protocol\nwe were describing."
+  },
+  {
+    "start": 3081.58,
+    "dur": 3.81,
+    "text": "So that works for the inner\nproduct between a vector f."
+  },
+  {
+    "start": 3085.39,
+    "dur": 2.13,
+    "text": "And you can think of\nthis as the coefficients"
+  },
+  {
+    "start": 3087.52,
+    "dur": 3.12,
+    "text": "of a polynomial and\nanother vector, that"
+  },
+  {
+    "start": 3090.64,
+    "dur": 6.0,
+    "text": "is generated by the tensor\nproduct between two subvectors"
+  },
+  {
+    "start": 3096.64,
+    "dur": 1.5,
+    "text": "of size square root d--"
+  },
+  {
+    "start": 3098.14,
+    "dur": 2.64,
+    "text": "so u tensor, u prime."
+  },
+  {
+    "start": 3100.78,
+    "dur": 3.27,
+    "text": "And it only works for this\ntype of inner products,"
+  },
+  {
+    "start": 3104.05,
+    "dur": 6.27,
+    "text": "but not the general inner\nproduct for arbitrary vectors."
+  },
+  {
+    "start": 3110.32,
+    "dur": 3.48,
+    "text": "And in this paper, it also\ngeneralized the protocol"
+  },
+  {
+    "start": 3113.8,
+    "dur": 3.15,
+    "text": "to multiple dimensions\ninstead of just dimension two."
+  },
+  {
+    "start": 3116.95,
+    "dur": 2.34,
+    "text": "And using this approach,\nwe can actually"
+  },
+  {
+    "start": 3119.29,
+    "dur": 1.74,
+    "text": "achieve a smaller\nproof size that"
+  },
+  {
+    "start": 3121.03,
+    "dur": 3.36,
+    "text": "is order of n to the ne\nsmall constant epsilon, that"
+  },
+  {
+    "start": 3124.39,
+    "dur": 1.73,
+    "text": "is less than 1."
+  },
+  {
+    "start": 3126.12,
+    "dur": 4.92,
+    "text": "And you can think of the scheme\nas basically a generalization"
+  },
+  {
+    "start": 3131.04,
+    "dur": 2.31,
+    "text": "to a multi-dimensional matrix."
+  },
+  {
+    "start": 3133.35,
+    "dur": 2.88,
+    "text": "And we are performing this\nproximity test and consistency"
+  },
+  {
+    "start": 3136.23,
+    "dur": 3.0,
+    "text": "test recursively,\ndimension by dimension."
+  },
+  {
+    "start": 3139.23,
+    "dur": 4.35,
+    "text": "And the end result it gives\nyou, this is a smaller proof"
+  },
+  {
+    "start": 3143.58,
+    "dur": 2.79,
+    "text": "size of order order\nof n to the epsilon,"
+  },
+  {
+    "start": 3146.37,
+    "dur": 2.85,
+    "text": "instead of only square root n."
+  },
+  {
+    "start": 3149.22,
+    "dur": 5.19,
+    "text": "Then with this\ntensor IOP paper--"
+  },
+  {
+    "start": 3154.41,
+    "dur": 4.05,
+    "text": "in the \"Brakedown\" paper, they\nactually introduce this scheme"
+  },
+  {
+    "start": 3158.46,
+    "dur": 2.82,
+    "text": "that I was describing\nearlier in this lecture"
+  },
+  {
+    "start": 3161.28,
+    "dur": 1.9,
+    "text": "based on this tensor query."
+  },
+  {
+    "start": 3163.18,
+    "dur": 5.63,
+    "text": "So this is actually the origin\nof the polynomial commitment."
+  },
+  {
+    "start": 3168.81,
+    "dur": 3.33,
+    "text": "And another important\ncontribution of this paper"
+  },
+  {
+    "start": 3172.14,
+    "dur": 3.39,
+    "text": "is it actually proposes\nanother technique"
+  },
+  {
+    "start": 3175.53,
+    "dur": 3.69,
+    "text": "to prove knowledge soundness,\nand that is actually worth"
+  },
+  {
+    "start": 3179.22,
+    "dur": 0.76,
+    "text": "mentioning."
+  },
+  {
+    "start": 3179.98,
+    "dur": 4.31,
+    "text": "So recall that an\ninteresting observation"
+  },
+  {
+    "start": 3184.29,
+    "dur": 1.93,
+    "text": "of the protocol that\nI was describing"
+  },
+  {
+    "start": 3186.22,
+    "dur": 3.15,
+    "text": "is that it does not need\na decoding algorithm"
+  },
+  {
+    "start": 3189.37,
+    "dur": 1.59,
+    "text": "of the linear code at all."
+  },
+  {
+    "start": 3190.96,
+    "dur": 4.29,
+    "text": "The prover sends the message\nof this vector matrix product"
+  },
+  {
+    "start": 3195.25,
+    "dur": 1.47,
+    "text": "to the verifier,\nand the verifier"
+  },
+  {
+    "start": 3196.72,
+    "dur": 2.1,
+    "text": "encodes it to get the codeword."
+  },
+  {
+    "start": 3198.82,
+    "dur": 2.32,
+    "text": "So there is no decoding\nalgorithm involved."
+  },
+  {
+    "start": 3201.14,
+    "dur": 2.0,
+    "text": "So because of that,\nwe can actually"
+  },
+  {
+    "start": 3203.14,
+    "dur": 3.69,
+    "text": "use any code without an\nefficient decoding algorithm,"
+  },
+  {
+    "start": 3206.83,
+    "dur": 2.82,
+    "text": "and it gives a lot of\nrelaxation on the design space"
+  },
+  {
+    "start": 3209.65,
+    "dur": 1.35,
+    "text": "of the code."
+  },
+  {
+    "start": 3211.0,
+    "dur": 3.96,
+    "text": "But unfortunately, in order\nto prove soundness formally,"
+  },
+  {
+    "start": 3214.96,
+    "dur": 3.0,
+    "text": "especially this extractor\nfor knowledge soundness,"
+  },
+  {
+    "start": 3217.96,
+    "dur": 2.64,
+    "text": "we need an efficient\ndecoding algorithm"
+  },
+  {
+    "start": 3220.6,
+    "dur": 5.85,
+    "text": "to extract the witness\nof the coefficient matrix"
+  },
+  {
+    "start": 3226.45,
+    "dur": 3.99,
+    "text": "from this committed matrix--\nthat is close to a code word."
+  },
+  {
+    "start": 3230.44,
+    "dur": 2.55,
+    "text": "If the decoding algorithm\nis not efficient,"
+  },
+  {
+    "start": 3232.99,
+    "dur": 2.49,
+    "text": "the extractor won't\nbe of polynomial time"
+  },
+  {
+    "start": 3235.48,
+    "dur": 1.87,
+    "text": "and actually doesn't work."
+  },
+  {
+    "start": 3237.35,
+    "dur": 2.51,
+    "text": "So this paper shows\nyou an alternative way"
+  },
+  {
+    "start": 3239.86,
+    "dur": 1.68,
+    "text": "to prove knowledge soundness."
+  },
+  {
+    "start": 3241.54,
+    "dur": 2.55,
+    "text": "And the approach is similar\nto a single protocol,"
+  },
+  {
+    "start": 3244.09,
+    "dur": 2.97,
+    "text": "with the rewinding of\nmultiple random queries"
+  },
+  {
+    "start": 3247.06,
+    "dur": 2.97,
+    "text": "to extract this\ncoefficient matrix"
+  },
+  {
+    "start": 3250.03,
+    "dur": 1.6,
+    "text": "without efficient decoding."
+  },
+  {
+    "start": 3251.63,
+    "dur": 5.06,
+    "text": "So with this contribution, we\ncan finally use any linear code"
+  },
+  {
+    "start": 3256.69,
+    "dur": 1.65,
+    "text": "without efficient\ndecoding to build"
+  },
+  {
+    "start": 3258.34,
+    "dur": 4.0,
+    "text": "such a efficient\npolynomial-commitment scheme."
+  },
+  {
+    "start": 3262.34,
+    "dur": 2.23,
+    "text": "Another two papers\nworth mentioning"
+  },
+  {
+    "start": 3264.57,
+    "dur": 2.91,
+    "text": "are this Bootle,\nChiesa, and Liu in 2021"
+  },
+  {
+    "start": 3267.48,
+    "dur": 4.2,
+    "text": "and then this \"Orion\" paper by\nXie, Zhang, and Song in 2022."
+  },
+  {
+    "start": 3271.68,
+    "dur": 4.32,
+    "text": "And the main contributions of\nthese two papers for this part"
+  },
+  {
+    "start": 3276.0,
+    "dur": 1.92,
+    "text": "is to improve the proof size."
+  },
+  {
+    "start": 3277.92,
+    "dur": 3.72,
+    "text": "Recall that the proof size in\nthe version I was describing"
+  },
+  {
+    "start": 3281.64,
+    "dur": 3.3,
+    "text": "is square root d, and it's\nactually concretely very"
+  },
+  {
+    "start": 3284.94,
+    "dur": 2.04,
+    "text": "large-- tens of megabytes."
+  },
+  {
+    "start": 3286.98,
+    "dur": 3.93,
+    "text": "So in this paper by\nBootle et al. in 2021,"
+  },
+  {
+    "start": 3290.91,
+    "dur": 2.085,
+    "text": "they reduced the\nproof size to poly log"
+  },
+  {
+    "start": 3292.995,
+    "dur": 4.275,
+    "text": "n using a proof composition\ntechnique combining the tensor"
+  },
+  {
+    "start": 3297.27,
+    "dur": 4.89,
+    "text": "IOP with the PCP of proximity\nproposed in this paper."
+  },
+  {
+    "start": 3302.16,
+    "dur": 3.45,
+    "text": "And the contribution\nof \"Orion\" paper"
+  },
+  {
+    "start": 3305.61,
+    "dur": 3.15,
+    "text": "is actually to\nreduce the proof size"
+  },
+  {
+    "start": 3308.76,
+    "dur": 3.13,
+    "text": "with a concrete\nefficient protocol."
+  },
+  {
+    "start": 3311.89,
+    "dur": 4.34,
+    "text": "So the result is it can actually\nimprove the proof size to order"
+  },
+  {
+    "start": 3316.23,
+    "dur": 3.0,
+    "text": "of log n square with a\nproof composition technique,"
+  },
+  {
+    "start": 3319.23,
+    "dur": 2.23,
+    "text": "using the code-switching\ntechnique proposed"
+  },
+  {
+    "start": 3321.46,
+    "dur": 1.08,
+    "text": "in this paper."
+  },
+  {
+    "start": 3322.54,
+    "dur": 2.73,
+    "text": "And concrete speaking,\nit reduces the proof size"
+  },
+  {
+    "start": 3325.27,
+    "dur": 6.6,
+    "text": "for degree d equals to 2 to the\n25, from about 50MB to 5.7MB."
+  },
+  {
+    "start": 3331.87,
+    "dur": 2.52,
+    "text": "So this is about an order\nof magnitude improvement,"
+  },
+  {
+    "start": 3334.39,
+    "dur": 3.75,
+    "text": "but still it's actually\nquite large in practice--"
+  },
+  {
+    "start": 3338.14,
+    "dur": 1.86,
+    "text": "because of the\ndistance of the code"
+  },
+  {
+    "start": 3340.0,
+    "dur": 3.57,
+    "text": "and also the design of this\nentire polynomial-commitment"
+  },
+  {
+    "start": 3343.57,
+    "dur": 1.0,
+    "text": "scheme."
+  },
+  {
+    "start": 3344.57,
+    "dur": 2.18,
+    "text": "So because of that,\nthis really gives you"
+  },
+  {
+    "start": 3346.75,
+    "dur": 4.47,
+    "text": "a trade off between efficient\nprover time and the large proof"
+  },
+  {
+    "start": 3351.22,
+    "dur": 2.7,
+    "text": "size, and you should\nchoose appropriate schemes"
+  },
+  {
+    "start": 3353.92,
+    "dur": 2.38,
+    "text": "for your application."
+  },
+  {
+    "start": 3356.3,
+    "dur": 5.3,
+    "text": "So that's the entire segment\nfor the polynomial commitment"
+  },
+  {
+    "start": 3361.6,
+    "dur": 2.98,
+    "text": "based on the linear code."
+  },
+  {
+    "start": 3364.58,
+    "dur": 1.82,
+    "text": "So in the next\nsegment, I'm going"
+  },
+  {
+    "start": 3366.4,
+    "dur": 4.02,
+    "text": "to present a\nconcrete construction"
+  },
+  {
+    "start": 3370.42,
+    "dur": 4.372,
+    "text": "of a linear-time encodable code,\nwhich leads to a linear time"
+  },
+  {
+    "start": 3374.792,
+    "dur": 2.333,
+    "text": "polynomial commitments and\nzer0-knowledge proof schemes."
+  },
+  {
+    "start": 3382.09,
+    "dur": 2.603,
+    "text": "Welcome back to the last\nsegment of the lecture."
+  },
+  {
+    "start": 3384.693,
+    "dur": 1.417,
+    "text": "So in this part,\nI'm going to talk"
+  },
+  {
+    "start": 3386.11,
+    "dur": 3.06,
+    "text": "about linear-time encodable\ncode with a constant relative"
+  },
+  {
+    "start": 3389.17,
+    "dur": 3.96,
+    "text": "distance using expander graphs."
+  },
+  {
+    "start": 3393.13,
+    "dur": 5.04,
+    "text": "And this code has been used in\nthis interesting line of work"
+  },
+  {
+    "start": 3398.17,
+    "dur": 3.21,
+    "text": "to construct SNARKs with\na linear prover time."
+  },
+  {
+    "start": 3401.38,
+    "dur": 2.25,
+    "text": "Here I'm talking about\nthe linear number of field"
+  },
+  {
+    "start": 3403.63,
+    "dur": 2.31,
+    "text": "additions and modifications,\nso they can be"
+  },
+  {
+    "start": 3405.94,
+    "dur": 2.08,
+    "text": "really efficient in practice."
+  },
+  {
+    "start": 3408.02,
+    "dur": 5.09,
+    "text": "And as I mentioned earlier in\nthis lecture, this line of work"
+  },
+  {
+    "start": 3413.11,
+    "dur": 4.5,
+    "text": "was initiated by Bootle,\nCerulli, Ghadafi, Groth,"
+  },
+  {
+    "start": 3417.61,
+    "dur": 2.91,
+    "text": "Hajiabadi, and Jakobsen in 2017."
+  },
+  {
+    "start": 3420.52,
+    "dur": 2.88,
+    "text": "And there they proposed this\nideal linear-commitment model"
+  },
+  {
+    "start": 3423.4,
+    "dur": 1.83,
+    "text": "with a square root d proof size."
+  },
+  {
+    "start": 3425.23,
+    "dur": 1.83,
+    "text": "And this is basically\nthe proximity test"
+  },
+  {
+    "start": 3427.06,
+    "dur": 3.24,
+    "text": "I explained in the earlier\npart of the lecture."
+  },
+  {
+    "start": 3430.3,
+    "dur": 2.22,
+    "text": "And later this\nscheme was further"
+  },
+  {
+    "start": 3432.52,
+    "dur": 1.8,
+    "text": "improved by Bootle,\nChiesa, and Groth"
+  },
+  {
+    "start": 3434.32,
+    "dur": 5.7,
+    "text": "in 2020, to construct an IOP\nthat supports tensor queries."
+  },
+  {
+    "start": 3440.02,
+    "dur": 1.86,
+    "text": "In this scheme,\nthey can actually"
+  },
+  {
+    "start": 3441.88,
+    "dur": 3.21,
+    "text": "achieve a proof size of order\nd to the power of epsilon"
+  },
+  {
+    "start": 3445.09,
+    "dur": 3.3,
+    "text": "for any small\nconstants of epsilon."
+  },
+  {
+    "start": 3448.39,
+    "dur": 4.36,
+    "text": "And after that, in this paper\nby Bootle, Chiesa, and Liu,"
+  },
+  {
+    "start": 3452.75,
+    "dur": 1.56,
+    "text": "they further improve\nthe proof size"
+  },
+  {
+    "start": 3454.31,
+    "dur": 4.02,
+    "text": "to be polylog d, using the proof\ncomposition between a tensor"
+  },
+  {
+    "start": 3458.33,
+    "dur": 3.61,
+    "text": "IOP and the PCP of proximity."
+  },
+  {
+    "start": 3461.94,
+    "dur": 5.46,
+    "text": "After that, in this \"Brakedown\"\npaper by Golovnev, Lee, Setty,"
+  },
+  {
+    "start": 3467.4,
+    "dur": 3.63,
+    "text": "Thaler, and Whaby, they\nactually use this technique"
+  },
+  {
+    "start": 3471.03,
+    "dur": 2.22,
+    "text": "of tensor IOP to build\nan efficient polynomial"
+  },
+  {
+    "start": 3473.25,
+    "dur": 2.1,
+    "text": "commitment, with a\nproof size of order"
+  },
+  {
+    "start": 3475.35,
+    "dur": 2.22,
+    "text": "of a d to the power of epsilon."
+  },
+  {
+    "start": 3477.57,
+    "dur": 1.62,
+    "text": "And also, as mentioned\nin this paper,"
+  },
+  {
+    "start": 3479.19,
+    "dur": 2.07,
+    "text": "they showed how to prove\nknowledge soundness"
+  },
+  {
+    "start": 3481.26,
+    "dur": 3.64,
+    "text": "without an efficient\ndecoding of the linear code."
+  },
+  {
+    "start": 3484.9,
+    "dur": 4.46,
+    "text": "And finally, in our \"Orion\"\npaper by Xie, Zhang, and Song,"
+  },
+  {
+    "start": 3489.36,
+    "dur": 2.43,
+    "text": "we further propose a\ncode-switching technique"
+  },
+  {
+    "start": 3491.79,
+    "dur": 4.37,
+    "text": "to reduce the proof size to\norder of log d square using"
+  },
+  {
+    "start": 3496.16,
+    "dur": 2.5,
+    "text": "a proof of composition and the\ncode-switching technique that"
+  },
+  {
+    "start": 3498.66,
+    "dur": 2.04,
+    "text": "is a concretely efficient."
+  },
+  {
+    "start": 3500.7,
+    "dur": 3.93,
+    "text": "But all of these papers are\nusing this single construction"
+  },
+  {
+    "start": 3504.63,
+    "dur": 3.07,
+    "text": "of the linear time\nencoder code with"
+  },
+  {
+    "start": 3507.7,
+    "dur": 1.71,
+    "text": "a constant relative distance."
+  },
+  {
+    "start": 3509.41,
+    "dur": 5.27,
+    "text": "So in this part, I'm\ngoing to clearly explain"
+  },
+  {
+    "start": 3514.68,
+    "dur": 2.76,
+    "text": "to you that the construction\nand why it can actually achieve"
+  },
+  {
+    "start": 3517.44,
+    "dur": 2.02,
+    "text": "a constant relative distance."
+  },
+  {
+    "start": 3519.46,
+    "dur": 2.19,
+    "text": "So this code was\nactually proposed"
+  },
+  {
+    "start": 3521.65,
+    "dur": 3.81,
+    "text": "by Daniel Spielman\nin 1996 and later it"
+  },
+  {
+    "start": 3525.46,
+    "dur": 4.26,
+    "text": "was generalized from a binary\nto a finite field in this paper"
+  },
+  {
+    "start": 3529.72,
+    "dur": 2.85,
+    "text": "by Druk-Ishai in 2014."
+  },
+  {
+    "start": 3532.57,
+    "dur": 3.69,
+    "text": "And this code relies on\nthis classical object"
+  },
+  {
+    "start": 3536.26,
+    "dur": 2.11,
+    "text": "called expander graphs."
+  },
+  {
+    "start": 3538.37,
+    "dur": 5.57,
+    "text": "So in an expander graph any\nsubset of graph or subgraph"
+  },
+  {
+    "start": 3543.94,
+    "dur": 4.5,
+    "text": "can actually connect to\nmany neighbor of nodes"
+  },
+  {
+    "start": 3548.44,
+    "dur": 1.0,
+    "text": "in this graph--"
+  },
+  {
+    "start": 3549.44,
+    "dur": 1.61,
+    "text": "and so this is a\nvery good expansion"
+  },
+  {
+    "start": 3551.05,
+    "dur": 1.6,
+    "text": "and called expander graph."
+  },
+  {
+    "start": 3552.65,
+    "dur": 3.83,
+    "text": "And here I'm showing you an\nexample of a bipartite graph,"
+  },
+  {
+    "start": 3556.48,
+    "dur": 3.21,
+    "text": "meaning that there is\na left set of nodes"
+  },
+  {
+    "start": 3559.69,
+    "dur": 1.89,
+    "text": "and the right side of nodes."
+  },
+  {
+    "start": 3561.58,
+    "dur": 2.34,
+    "text": "And there are connections\nbetween these two sets,"
+  },
+  {
+    "start": 3563.92,
+    "dur": 3.15,
+    "text": "but there is no connection\nwithin each set."
+  },
+  {
+    "start": 3567.07,
+    "dur": 2.41,
+    "text": "And that is called\na bipartite graph."
+  },
+  {
+    "start": 3569.48,
+    "dur": 4.04,
+    "text": "And in this bipartite graph,\nevery node on the left"
+  },
+  {
+    "start": 3573.52,
+    "dur": 4.05,
+    "text": "has three outgoing edges\nconnecting to a two nodes"
+  },
+  {
+    "start": 3577.57,
+    "dur": 1.09,
+    "text": "on the right-hand side."
+  },
+  {
+    "start": 3578.66,
+    "dur": 4.55,
+    "text": "So the degree of each\nnode on the left is 3."
+  },
+  {
+    "start": 3583.21,
+    "dur": 3.42,
+    "text": "Then this graph actually\nhas a very good expansion,"
+  },
+  {
+    "start": 3586.63,
+    "dur": 5.46,
+    "text": "because you can check that every\ntwo nodes on the left-hand side"
+  },
+  {
+    "start": 3592.09,
+    "dur": 3.73,
+    "text": "connects to at least five\nnodes on the right-hand side."
+  },
+  {
+    "start": 3595.82,
+    "dur": 3.47,
+    "text": "So that is a good expansion\nbecause in total there"
+  },
+  {
+    "start": 3599.29,
+    "dur": 2.16,
+    "text": "are three edges from each node."
+  },
+  {
+    "start": 3601.45,
+    "dur": 3.48,
+    "text": "So from a set of two\nnodes on the left,"
+  },
+  {
+    "start": 3604.93,
+    "dur": 2.76,
+    "text": "there are at most\nsix outgoing edges,"
+  },
+  {
+    "start": 3607.69,
+    "dur": 3.73,
+    "text": "so it can connect to at most six\nnodes on the right-hand side."
+  },
+  {
+    "start": 3611.42,
+    "dur": 1.64,
+    "text": "And now it connects\nto at least five,"
+  },
+  {
+    "start": 3613.06,
+    "dur": 2.49,
+    "text": "so the expansion is pretty good."
+  },
+  {
+    "start": 3615.55,
+    "dur": 3.66,
+    "text": "So this gives you an example\nof the bipartite graph"
+  },
+  {
+    "start": 3619.21,
+    "dur": 1.56,
+    "text": "that is a good expander."
+  },
+  {
+    "start": 3620.77,
+    "dur": 3.09,
+    "text": "And this is exactly the\ntype of expanded graph"
+  },
+  {
+    "start": 3623.86,
+    "dur": 2.73,
+    "text": "we are going to use to build\nthis linear-time encodable"
+  },
+  {
+    "start": 3626.59,
+    "dur": 1.02,
+    "text": "code."
+  },
+  {
+    "start": 3627.61,
+    "dur": 3.93,
+    "text": "So to give you a very\nkind of rough intuition"
+  },
+  {
+    "start": 3631.54,
+    "dur": 3.39,
+    "text": "why we need such an\nexpander graph to achieve"
+  },
+  {
+    "start": 3634.93,
+    "dur": 1.56,
+    "text": "a good relative distance--"
+  },
+  {
+    "start": 3639.24,
+    "dur": 2.55,
+    "text": "but roughly speaking\nwith such an expander,"
+  },
+  {
+    "start": 3641.79,
+    "dur": 4.05,
+    "text": "we are just going to put the\nmessage on the left-side nodes."
+  },
+  {
+    "start": 3645.84,
+    "dur": 1.89,
+    "text": "We're going to put each\nsymbol of the message"
+  },
+  {
+    "start": 3647.73,
+    "dur": 2.44,
+    "text": "into each node on\nthe left-hand side."
+  },
+  {
+    "start": 3650.67,
+    "dur": 2.34,
+    "text": "And then the way to\ncompute this encoding"
+  },
+  {
+    "start": 3653.01,
+    "dur": 2.58,
+    "text": "is for every node\non the right, we"
+  },
+  {
+    "start": 3655.59,
+    "dur": 3.03,
+    "text": "are going to sum the\nvalues of the nodes"
+  },
+  {
+    "start": 3658.62,
+    "dur": 2.04,
+    "text": "from the left that's\nconnected to this node."
+  },
+  {
+    "start": 3660.66,
+    "dur": 3.21,
+    "text": "For example, to compute the\nfirst symbol of this encoding,"
+  },
+  {
+    "start": 3663.87,
+    "dur": 2.34,
+    "text": "we are going to sum up the\nvalues in the first node"
+  },
+  {
+    "start": 3666.21,
+    "dur": 1.89,
+    "text": "on the left and the\nsecond node on the left,"
+  },
+  {
+    "start": 3668.1,
+    "dur": 2.237,
+    "text": "because of these two edges."
+  },
+  {
+    "start": 3670.337,
+    "dur": 0.583,
+    "text": "And that's it."
+  },
+  {
+    "start": 3670.92,
+    "dur": 2.64,
+    "text": "That's a very simple\nalgorithm to encode it,"
+  },
+  {
+    "start": 3673.56,
+    "dur": 1.95,
+    "text": "just through a\nsummation of the values"
+  },
+  {
+    "start": 3675.51,
+    "dur": 2.04,
+    "text": "from the neighbors on the left."
+  },
+  {
+    "start": 3677.55,
+    "dur": 4.81,
+    "text": "And this is actually\na linear code,"
+  },
+  {
+    "start": 3682.36,
+    "dur": 2.85,
+    "text": "because this way of\nencoding can be represented"
+  },
+  {
+    "start": 3685.21,
+    "dur": 2.79,
+    "text": "as a vector-matrix product\nbetween the message"
+  },
+  {
+    "start": 3688.0,
+    "dur": 2.83,
+    "text": "and the adjacency matrix\nof this bipartite graph."
+  },
+  {
+    "start": 3690.83,
+    "dur": 3.32,
+    "text": "So that is the generator\nof this way of encoding."
+  },
+  {
+    "start": 3694.15,
+    "dur": 2.19,
+    "text": "So that is why it\nis a linear code."
+  },
+  {
+    "start": 3696.34,
+    "dur": 3.51,
+    "text": "And it is also the encoding\nof this simple version"
+  },
+  {
+    "start": 3699.85,
+    "dur": 3.0,
+    "text": "can be done very\nefficiently in linear time,"
+  },
+  {
+    "start": 3702.85,
+    "dur": 2.34,
+    "text": "simply because we are just\ngoing to go through each node"
+  },
+  {
+    "start": 3705.19,
+    "dur": 2.0,
+    "text": "and compute the summation\non the left-hand side."
+  },
+  {
+    "start": 3707.19,
+    "dur": 4.07,
+    "text": "Because the number of edges\nfrom each node is constant,"
+  },
+  {
+    "start": 3711.26,
+    "dur": 2.99,
+    "text": "so the running time of\nthis entire encoding"
+  },
+  {
+    "start": 3714.25,
+    "dur": 2.83,
+    "text": "is merely a constant times\nthe size of the message."
+  },
+  {
+    "start": 3717.08,
+    "dur": 1.85,
+    "text": "So that's a linear encoding."
+  },
+  {
+    "start": 3718.93,
+    "dur": 3.21,
+    "text": "And the intuition why we\nneed to expand the graph"
+  },
+  {
+    "start": 3722.14,
+    "dur": 2.13,
+    "text": "to achieve a constant\nrelative distance"
+  },
+  {
+    "start": 3724.27,
+    "dur": 3.84,
+    "text": "is because recall that\nfrom the very beginning,"
+  },
+  {
+    "start": 3728.11,
+    "dur": 2.34,
+    "text": "I said that the distance\nof a linear code"
+  },
+  {
+    "start": 3730.45,
+    "dur": 2.31,
+    "text": "is equivalent to\nthe minimum weight"
+  },
+  {
+    "start": 3732.76,
+    "dur": 2.49,
+    "text": "of any non-zero codeword."
+  },
+  {
+    "start": 3735.25,
+    "dur": 4.57,
+    "text": "So it just suffices to count\nthe number of non-zero codewords"
+  },
+  {
+    "start": 3739.82,
+    "dur": 2.13,
+    "text": "for all the messages."
+  },
+  {
+    "start": 3741.95,
+    "dur": 3.45,
+    "text": "And the reason why we need a\ngood expansion is because even"
+  },
+  {
+    "start": 3745.4,
+    "dur": 2.88,
+    "text": "if the message has a very\nsmall number of non-zeros--"
+  },
+  {
+    "start": 3748.28,
+    "dur": 2.46,
+    "text": "for example, there's only a\nsingle element of the message"
+  },
+  {
+    "start": 3750.74,
+    "dur": 1.29,
+    "text": "is non-zero--"
+  },
+  {
+    "start": 3752.03,
+    "dur": 3.18,
+    "text": "it expands to many nodes\non the right-hand side--"
+  },
+  {
+    "start": 3755.21,
+    "dur": 2.41,
+    "text": "in this case, at least\nthree nodes on the right."
+  },
+  {
+    "start": 3757.62,
+    "dur": 4.1,
+    "text": "So one non-zero leads to\nat least three non-zeros"
+  },
+  {
+    "start": 3761.72,
+    "dur": 2.55,
+    "text": "on the right and two\nnon-zero leads to five."
+  },
+  {
+    "start": 3764.27,
+    "dur": 3.39,
+    "text": "So that is amplifying the number\nof non-zeros from the message"
+  },
+  {
+    "start": 3767.66,
+    "dur": 2.07,
+    "text": "to the codeword in\norder to achieve"
+  },
+  {
+    "start": 3769.73,
+    "dur": 2.02,
+    "text": "a good distance of the code."
+  },
+  {
+    "start": 3771.75,
+    "dur": 3.77,
+    "text": "So that's the intuition\nwhy we need an expander."
+  },
+  {
+    "start": 3775.52,
+    "dur": 3.39,
+    "text": "But unfortunately this simple\nencoding does not work."
+  },
+  {
+    "start": 3778.91,
+    "dur": 2.61,
+    "text": "It's actually far\naway from being"
+  },
+  {
+    "start": 3781.52,
+    "dur": 3.06,
+    "text": "a good code with constant\nrelative distance."
+  },
+  {
+    "start": 3784.58,
+    "dur": 2.61,
+    "text": "And it's not hard to see this."
+  },
+  {
+    "start": 3787.19,
+    "dur": 1.81,
+    "text": "Because again,\nusing the example,"
+  },
+  {
+    "start": 3789.0,
+    "dur": 3.59,
+    "text": "if the message contains only\na single non-zero value,"
+  },
+  {
+    "start": 3792.59,
+    "dur": 3.03,
+    "text": "by the requirement of\na constant distance"
+  },
+  {
+    "start": 3795.62,
+    "dur": 3.6,
+    "text": "the codeword has to have a\nconstant portion of the values"
+  },
+  {
+    "start": 3799.22,
+    "dur": 0.99,
+    "text": "to be non-zero."
+  },
+  {
+    "start": 3800.21,
+    "dur": 2.76,
+    "text": "And clearly this is not possible\nusing this simple encoding,"
+  },
+  {
+    "start": 3802.97,
+    "dur": 3.93,
+    "text": "because one non-zero can\nonly connect to three nodes"
+  },
+  {
+    "start": 3806.9,
+    "dur": 1.47,
+    "text": "on the right-hand\nside, which leads"
+  },
+  {
+    "start": 3808.37,
+    "dur": 2.4,
+    "text": "to three non-zeros in\nthe codeword-- instead"
+  },
+  {
+    "start": 3810.77,
+    "dur": 1.24,
+    "text": "of a constant fraction."
+  },
+  {
+    "start": 3812.01,
+    "dur": 6.2,
+    "text": "So this simple way of encoding\ndoes not work directly."
+  },
+  {
+    "start": 3818.21,
+    "dur": 2.78,
+    "text": "So the next, I'm just\ngoing to show you"
+  },
+  {
+    "start": 3820.99,
+    "dur": 4.59,
+    "text": "the formal way of building\nthis linear-time decodable"
+  },
+  {
+    "start": 3825.58,
+    "dur": 3.36,
+    "text": "code with the constant relative\ndistance using expander graphs,"
+  },
+  {
+    "start": 3828.94,
+    "dur": 2.58,
+    "text": "and also we'll show you why\nthis can actually achieve"
+  },
+  {
+    "start": 3831.52,
+    "dur": 1.66,
+    "text": "a constant relative distance."
+  },
+  {
+    "start": 3833.18,
+    "dur": 3.68,
+    "text": "So in order to do that, the\nfirst thing I'm going to define"
+  },
+  {
+    "start": 3836.86,
+    "dur": 3.25,
+    "text": "is this concept of\nlossless expander."
+  },
+  {
+    "start": 3840.11,
+    "dur": 1.64,
+    "text": "It's basically a\ntype of expander"
+  },
+  {
+    "start": 3841.75,
+    "dur": 3.42,
+    "text": "that has a very good expansion--\nalmost a perfect expansion"
+  },
+  {
+    "start": 3845.17,
+    "dur": 2.56,
+    "text": "among all expander graphs."
+  },
+  {
+    "start": 3847.73,
+    "dur": 3.35,
+    "text": "So in a lossless expander,\njust to define some notations,"
+  },
+  {
+    "start": 3851.08,
+    "dur": 2.31,
+    "text": "we're going to use the\nsize of L to denote number"
+  },
+  {
+    "start": 3853.39,
+    "dur": 1.62,
+    "text": "of nodes on the left side."
+  },
+  {
+    "start": 3855.01,
+    "dur": 4.35,
+    "text": "And the size of the\nset on the right"
+  },
+  {
+    "start": 3859.36,
+    "dur": 3.84,
+    "text": "is a constant fraction\nof L-- alpha times L,"
+  },
+  {
+    "start": 3863.2,
+    "dur": 1.44,
+    "text": "for a constant alpha."
+  },
+  {
+    "start": 3864.64,
+    "dur": 2.457,
+    "text": "In this example, alpha\nis actually larger than 1"
+  },
+  {
+    "start": 3867.097,
+    "dur": 2.583,
+    "text": "because the right-hand side is\nlarger than the left-hand side."
+  },
+  {
+    "start": 3869.68,
+    "dur": 1.71,
+    "text": "But in the real\nexpander, we're going"
+  },
+  {
+    "start": 3871.39,
+    "dur": 3.21,
+    "text": "to use in this\nlinear code, alpha"
+  },
+  {
+    "start": 3874.6,
+    "dur": 3.41,
+    "text": "is actually a value\nthat is between 0 and 1."
+  },
+  {
+    "start": 3878.01,
+    "dur": 3.05,
+    "text": "So the size of the\nright side is actually"
+  },
+  {
+    "start": 3881.06,
+    "dur": 1.71,
+    "text": "smaller than the size\nof the left side."
+  },
+  {
+    "start": 3882.77,
+    "dur": 2.25,
+    "text": "And then the degree of\nthe node in the left set"
+  },
+  {
+    "start": 3885.02,
+    "dur": 3.82,
+    "text": "is a constant g-- and\nthe three in this case."
+  },
+  {
+    "start": 3888.84,
+    "dur": 2.95,
+    "text": "So then with this\ndefinition, what"
+  },
+  {
+    "start": 3891.79,
+    "dur": 2.31,
+    "text": "is the maximum\npossible expansion"
+  },
+  {
+    "start": 3894.1,
+    "dur": 3.94,
+    "text": "for a subset on the left?"
+  },
+  {
+    "start": 3898.04,
+    "dur": 0.69,
+    "text": "OK."
+  },
+  {
+    "start": 3898.73,
+    "dur": 3.03,
+    "text": "If you think about\nit, if you take"
+  },
+  {
+    "start": 3901.76,
+    "dur": 4.22,
+    "text": "any subset of nodes on the\nleft, the number of total edges"
+  },
+  {
+    "start": 3905.98,
+    "dur": 4.18,
+    "text": "is exactly g times S.\nEvery node has g edges,"
+  },
+  {
+    "start": 3910.16,
+    "dur": 2.16,
+    "text": "and you have S nodes in total."
+  },
+  {
+    "start": 3912.32,
+    "dur": 2.632,
+    "text": "So then at most, you\ncan connect to g times S"
+  },
+  {
+    "start": 3914.952,
+    "dur": 1.208,
+    "text": "nodes on the right-hand side."
+  },
+  {
+    "start": 3916.16,
+    "dur": 3.34,
+    "text": "That's the maximum\npossible expansion."
+  },
+  {
+    "start": 3919.5,
+    "dur": 2.84,
+    "text": "So then we are just going\nto define this last expander"
+  },
+  {
+    "start": 3922.34,
+    "dur": 0.76,
+    "text": "in this way."
+  },
+  {
+    "start": 3923.1,
+    "dur": 2.66,
+    "text": "So we want this expander\ngraph to achieve"
+  },
+  {
+    "start": 3925.76,
+    "dur": 2.7,
+    "text": "this maximum possible expansion."
+  },
+  {
+    "start": 3928.46,
+    "dur": 2.205,
+    "text": "And I'm using this\ncapital gamma of S"
+  },
+  {
+    "start": 3930.665,
+    "dur": 2.895,
+    "text": "to denote neighbors of\nthis subset of nodes."
+  },
+  {
+    "start": 3933.56,
+    "dur": 4.65,
+    "text": "And the size equals to g to S.\nSo that's the best expansion"
+  },
+  {
+    "start": 3938.21,
+    "dur": 1.35,
+    "text": "you can have."
+  },
+  {
+    "start": 3939.56,
+    "dur": 3.33,
+    "text": "But then it turns out there\nhas to be another condition"
+  },
+  {
+    "start": 3942.89,
+    "dur": 1.63,
+    "text": "to make it happen."
+  },
+  {
+    "start": 3944.52,
+    "dur": 1.82,
+    "text": "It can't be true\nfor all subsets,"
+  },
+  {
+    "start": 3946.34,
+    "dur": 2.07,
+    "text": "simply because we\ndon't have enough nodes"
+  },
+  {
+    "start": 3948.41,
+    "dur": 1.77,
+    "text": "on the right-hand side."
+  },
+  {
+    "start": 3950.18,
+    "dur": 4.21,
+    "text": "In total, we have alpha\ntimes L nodes on the right."
+  },
+  {
+    "start": 3954.39,
+    "dur": 3.73,
+    "text": "And if this g times S is\nlarger than the number,"
+  },
+  {
+    "start": 3958.12,
+    "dur": 0.9,
+    "text": "it can't happen."
+  },
+  {
+    "start": 3959.02,
+    "dur": 1.5,
+    "text": "You don't have enough nodes."
+  },
+  {
+    "start": 3960.52,
+    "dur": 2.15,
+    "text": "So in order to\nmake it happen, we"
+  },
+  {
+    "start": 3962.67,
+    "dur": 3.06,
+    "text": "have to have a condition\non the size of this subset,"
+  },
+  {
+    "start": 3965.73,
+    "dur": 4.26,
+    "text": "saying that for all\nsubsets that is less than"
+  },
+  {
+    "start": 3969.99,
+    "dur": 2.88,
+    "text": "or equal to alpha\ntimes L divided by g,"
+  },
+  {
+    "start": 3972.87,
+    "dur": 3.44,
+    "text": "we want the expansion\nto be maximum."
+  },
+  {
+    "start": 3976.31,
+    "dur": 2.27,
+    "text": "And you can see this\nis g times S is less"
+  },
+  {
+    "start": 3978.58,
+    "dur": 2.91,
+    "text": "than or equal to alpha L.\nThat's exactly describing"
+  },
+  {
+    "start": 3981.49,
+    "dur": 1.23,
+    "text": "the condition I was saying."
+  },
+  {
+    "start": 3982.72,
+    "dur": 2.37,
+    "text": "As long as you have enough\nnodes on the right-hand side,"
+  },
+  {
+    "start": 3985.09,
+    "dur": 1.57,
+    "text": "I want maximum expansion."
+  },
+  {
+    "start": 3986.66,
+    "dur": 3.59,
+    "text": "So that is the idea\nof this loss expander."
+  },
+  {
+    "start": 3990.25,
+    "dur": 2.5,
+    "text": "But then, again, this is\nactually too good to be true."
+  },
+  {
+    "start": 3992.75,
+    "dur": 4.2,
+    "text": "So that is actually very\nhard to find such graphs."
+  },
+  {
+    "start": 3996.95,
+    "dur": 4.01,
+    "text": "So in the real definition\nof the loss expander,"
+  },
+  {
+    "start": 4000.96,
+    "dur": 3.72,
+    "text": "we are going to relax this two\ndefinitions, two conditions"
+  },
+  {
+    "start": 4004.68,
+    "dur": 1.8,
+    "text": "a little bit, but\nstill following"
+  },
+  {
+    "start": 4006.48,
+    "dur": 2.23,
+    "text": "the idea I was describing."
+  },
+  {
+    "start": 4008.71,
+    "dur": 2.12,
+    "text": "So in the real\ndefinition instead"
+  },
+  {
+    "start": 4010.83,
+    "dur": 3.06,
+    "text": "of saying that this\nexpansion of this subset"
+  },
+  {
+    "start": 4013.89,
+    "dur": 3.15,
+    "text": "is exactly the same as\ng times S is the best"
+  },
+  {
+    "start": 4017.04,
+    "dur": 3.42,
+    "text": "we can do, we are going to say\nthat it's going to be a larger"
+  },
+  {
+    "start": 4020.46,
+    "dur": 2.655,
+    "text": "than or equal to 1\nminus beta times g of S,"
+  },
+  {
+    "start": 4023.115,
+    "dur": 2.295,
+    "text": "where beta is actually\na small constant."
+  },
+  {
+    "start": 4025.41,
+    "dur": 2.16,
+    "text": "And when beta\napproaches to zero,"
+  },
+  {
+    "start": 4027.57,
+    "dur": 1.71,
+    "text": "that is the maximum\nexpansion you want."
+  },
+  {
+    "start": 4029.28,
+    "dur": 3.52,
+    "text": "So beta is a parameter\nof this loss expander."
+  },
+  {
+    "start": 4032.8,
+    "dur": 1.13,
+    "text": "It's a relaxation."
+  },
+  {
+    "start": 4033.93,
+    "dur": 2.28,
+    "text": "And similarly for\nthis condition,"
+  },
+  {
+    "start": 4036.21,
+    "dur": 3.93,
+    "text": "[INAUDIBLE] you want it to\nhold for any subset S with size"
+  },
+  {
+    "start": 4040.14,
+    "dur": 2.52,
+    "text": "less than or equal to\nalpha times L divided by g."
+  },
+  {
+    "start": 4042.66,
+    "dur": 3.06,
+    "text": "Again, that is too good, and we\nuse another parameter, delta--"
+  },
+  {
+    "start": 4045.72,
+    "dur": 0.96,
+    "text": "small delta--"
+  },
+  {
+    "start": 4046.68,
+    "dur": 4.65,
+    "text": "to replace alpha-- saying\nthat for all subsets of size"
+  },
+  {
+    "start": 4051.33,
+    "dur": 2.49,
+    "text": "that is smaller than or\nequal to this amount,"
+  },
+  {
+    "start": 4053.82,
+    "dur": 3.39,
+    "text": "we have this almost\nperfect expansion."
+  },
+  {
+    "start": 4057.21,
+    "dur": 3.03,
+    "text": "And again this delta\nshould approach to alpha"
+  },
+  {
+    "start": 4060.24,
+    "dur": 1.84,
+    "text": "and is, again, a constant."
+  },
+  {
+    "start": 4062.08,
+    "dur": 4.85,
+    "text": "So that is a real definition\nof a loss expander."
+  },
+  {
+    "start": 4066.93,
+    "dur": 3.99,
+    "text": "And for time being, all\nyou need to remember"
+  },
+  {
+    "start": 4070.92,
+    "dur": 3.33,
+    "text": "is that it is a bipartite graph\nwith a very good expansion."
+  },
+  {
+    "start": 4074.25,
+    "dur": 2.52,
+    "text": "Any small subset expands\nto a large number"
+  },
+  {
+    "start": 4076.77,
+    "dur": 1.26,
+    "text": "of neighbors on the right."
+  },
+  {
+    "start": 4078.03,
+    "dur": 3.12,
+    "text": "And encoding is we put\nmessage on the left-hand side,"
+  },
+  {
+    "start": 4081.15,
+    "dur": 2.61,
+    "text": "and we are going to sum\nup the corresponding nodes"
+  },
+  {
+    "start": 4083.76,
+    "dur": 2.04,
+    "text": "with the edges on\nthe right-hand side"
+  },
+  {
+    "start": 4085.8,
+    "dur": 1.84,
+    "text": "to get the result\nof the encoding."
+  },
+  {
+    "start": 4087.64,
+    "dur": 5.19,
+    "text": "So that's the concept\nof a loss expander."
+  },
+  {
+    "start": 4092.83,
+    "dur": 1.5,
+    "text": "With that, next\nI'm going to show"
+  },
+  {
+    "start": 4094.33,
+    "dur": 2.91,
+    "text": "you an overview of this\nreal encoding algorithm."
+  },
+  {
+    "start": 4097.24,
+    "dur": 1.5,
+    "text": "It's actually much\nmore complicated"
+  },
+  {
+    "start": 4098.74,
+    "dur": 1.93,
+    "text": "than just applying\nthis loss expander."
+  },
+  {
+    "start": 4100.67,
+    "dur": 2.79,
+    "text": "It's actually recursive\nwhen encoding algorithm."
+  },
+  {
+    "start": 4103.46,
+    "dur": 3.05,
+    "text": "So how can we encode a message?"
+  },
+  {
+    "start": 4106.51,
+    "dur": 2.25,
+    "text": "So suppose the size\nof the message is k."
+  },
+  {
+    "start": 4108.76,
+    "dur": 2.519,
+    "text": "The goal of this\ntype of encoding"
+  },
+  {
+    "start": 4111.279,
+    "dur": 2.611,
+    "text": "is to get a codeword\nof size 4 times k."
+  },
+  {
+    "start": 4113.89,
+    "dur": 3.87,
+    "text": "So the rate is 1/4,\nis a constant rate."
+  },
+  {
+    "start": 4117.76,
+    "dur": 1.62,
+    "text": "In the first step,\nwe are just going"
+  },
+  {
+    "start": 4119.38,
+    "dur": 2.16,
+    "text": "to copy the message\ndirectly to be"
+  },
+  {
+    "start": 4121.54,
+    "dur": 3.27,
+    "text": "the first part of the codeword."
+  },
+  {
+    "start": 4124.81,
+    "dur": 2.339,
+    "text": "And this is parties of size k."
+  },
+  {
+    "start": 4127.149,
+    "dur": 2.341,
+    "text": "And this is actually a\nquite common approach"
+  },
+  {
+    "start": 4129.49,
+    "dur": 1.949,
+    "text": "in [INAUDIBLE] code."
+  },
+  {
+    "start": 4131.439,
+    "dur": 2.038,
+    "text": "And the code with\nthe first part to be"
+  },
+  {
+    "start": 4133.477,
+    "dur": 2.417,
+    "text": "exactly the same as message\nis called the systematic code."
+  },
+  {
+    "start": 4138.45,
+    "dur": 3.48,
+    "text": "Then, in the second part, we\nare going to apply this loss"
+  },
+  {
+    "start": 4141.93,
+    "dur": 1.86,
+    "text": "expander on this message."
+  },
+  {
+    "start": 4143.79,
+    "dur": 3.12,
+    "text": "And we are going to use a loss\nexpander with these parameters"
+  },
+  {
+    "start": 4146.91,
+    "dur": 1.949,
+    "text": "such that alpha equals to 1/2."
+  },
+  {
+    "start": 4148.859,
+    "dur": 2.79,
+    "text": "The size of the red\nside is only half"
+  },
+  {
+    "start": 4151.649,
+    "dur": 1.531,
+    "text": "of the size of the left side."
+  },
+  {
+    "start": 4153.18,
+    "dur": 2.969,
+    "text": "And then we have\nthis good expansion,"
+  },
+  {
+    "start": 4156.149,
+    "dur": 3.63,
+    "text": "characterized by\na delta and beta."
+  },
+  {
+    "start": 4159.779,
+    "dur": 4.351,
+    "text": "And the result of this\napplying loss expander"
+  },
+  {
+    "start": 4164.13,
+    "dur": 5.46,
+    "text": "gives you a encoding\nthat is of size k over 2."
+  },
+  {
+    "start": 4169.59,
+    "dur": 2.22,
+    "text": "They're going to compute\nthe right-hand side"
+  },
+  {
+    "start": 4171.81,
+    "dur": 2.58,
+    "text": "of the nodes using the\nsummation from neighbors"
+  },
+  {
+    "start": 4174.39,
+    "dur": 1.24,
+    "text": "of the left-hand side."
+  },
+  {
+    "start": 4175.63,
+    "dur": 4.57,
+    "text": "So that is a vector\nof size k over 2."
+  },
+  {
+    "start": 4180.2,
+    "dur": 5.46,
+    "text": "Then a very important step of\nthis encoding is that we are"
+  },
+  {
+    "start": 4185.66,
+    "dur": 4.26,
+    "text": "going to assume that we\nalready have a good encoding"
+  },
+  {
+    "start": 4189.92,
+    "dur": 1.68,
+    "text": "algorithm-- a good linear code--"
+  },
+  {
+    "start": 4191.6,
+    "dur": 3.26,
+    "text": "for message of size k over 2."
+  },
+  {
+    "start": 4194.86,
+    "dur": 5.1,
+    "text": "And it already has a very good\nconstant relative distance."
+  },
+  {
+    "start": 4199.96,
+    "dur": 2.91,
+    "text": "And we're going to use it\nto construct this encoding"
+  },
+  {
+    "start": 4202.87,
+    "dur": 2.85,
+    "text": "algorithm for message of size k."
+  },
+  {
+    "start": 4205.72,
+    "dur": 2.07,
+    "text": "And for time being just\nassume that we have"
+  },
+  {
+    "start": 4207.79,
+    "dur": 1.86,
+    "text": "such an encoding algorithm."
+  },
+  {
+    "start": 4209.65,
+    "dur": 2.82,
+    "text": "Then we're going to apply it\nto the result of this loss"
+  },
+  {
+    "start": 4212.47,
+    "dur": 0.93,
+    "text": "expander."
+  },
+  {
+    "start": 4213.4,
+    "dur": 1.5,
+    "text": "And the rate is again the same."
+  },
+  {
+    "start": 4214.9,
+    "dur": 0.72,
+    "text": "It's 1/4."
+  },
+  {
+    "start": 4215.62,
+    "dur": 2.7,
+    "text": "So the result is\n4 times k over 2,"
+  },
+  {
+    "start": 4218.32,
+    "dur": 4.53,
+    "text": "and that gives us the\ncodeword c1 of size 2 times k."
+  },
+  {
+    "start": 4222.85,
+    "dur": 2.67,
+    "text": "And we're going to put it\nas the second part of this"
+  },
+  {
+    "start": 4225.52,
+    "dur": 2.86,
+    "text": "encoding the codeword."
+  },
+  {
+    "start": 4228.38,
+    "dur": 1.59,
+    "text": "And we're not done yet."
+  },
+  {
+    "start": 4229.97,
+    "dur": 1.83,
+    "text": "Finally, we have another step."
+  },
+  {
+    "start": 4231.8,
+    "dur": 3.66,
+    "text": "We are going to run\nthis codeword c1"
+  },
+  {
+    "start": 4235.46,
+    "dur": 1.74,
+    "text": "through another\nlossless expander"
+  },
+  {
+    "start": 4237.2,
+    "dur": 4.62,
+    "text": "graph with alpha equals to\n1/2, and with these parameters"
+  },
+  {
+    "start": 4241.82,
+    "dur": 1.56,
+    "text": "and good expansions."
+  },
+  {
+    "start": 4243.38,
+    "dur": 2.97,
+    "text": "And the result of that is\nhalf of the size of c1,"
+  },
+  {
+    "start": 4246.35,
+    "dur": 1.47,
+    "text": "because alpha equals to 1/2."
+  },
+  {
+    "start": 4247.82,
+    "dur": 2.64,
+    "text": "The size of the nodes on\nthe right-hand side is 1/2."
+  },
+  {
+    "start": 4250.46,
+    "dur": 2.73,
+    "text": "So we end up with another part."
+  },
+  {
+    "start": 4253.19,
+    "dur": 3.69,
+    "text": "We denote it as\ncodeword c2 of size k."
+  },
+  {
+    "start": 4256.88,
+    "dur": 3.0,
+    "text": "And then the final codeword\nis the concatenation"
+  },
+  {
+    "start": 4259.88,
+    "dur": 2.19,
+    "text": "of the message c1 and c2."
+  },
+  {
+    "start": 4262.07,
+    "dur": 2.43,
+    "text": "And the size is\nk plus 2k plus k."
+  },
+  {
+    "start": 4264.5,
+    "dur": 2.01,
+    "text": "In total it is 4 times k."
+  },
+  {
+    "start": 4266.51,
+    "dur": 2.85,
+    "text": "And that's how we do this\nencoding algorithm using"
+  },
+  {
+    "start": 4269.36,
+    "dur": 3.28,
+    "text": "the lossless expander."
+  },
+  {
+    "start": 4272.64,
+    "dur": 2.82,
+    "text": "And then you may\nwonder, how can we"
+  },
+  {
+    "start": 4275.46,
+    "dur": 3.51,
+    "text": "get this encoding algorithm\nfor the message of size k"
+  },
+  {
+    "start": 4278.97,
+    "dur": 2.73,
+    "text": "over 2 with a good\nrelative distance"
+  },
+  {
+    "start": 4281.7,
+    "dur": 3.48,
+    "text": "without using this exactly\nthe same encoding algorithm"
+  },
+  {
+    "start": 4285.18,
+    "dur": 1.68,
+    "text": "for message of size k over 2."
+  },
+  {
+    "start": 4286.86,
+    "dur": 3.31,
+    "text": "And that is why it's a\nrecursive encoding algorithm."
+  },
+  {
+    "start": 4290.17,
+    "dur": 2.36,
+    "text": "And once you have this\nvector of k over 2,"
+  },
+  {
+    "start": 4292.53,
+    "dur": 1.74,
+    "text": "how do you do this encoding?"
+  },
+  {
+    "start": 4294.27,
+    "dur": 2.01,
+    "text": "Well, you put this\nk over 2 vector"
+  },
+  {
+    "start": 4296.28,
+    "dur": 5.06,
+    "text": "again here, with all of these\nparameters divided by 2."
+  },
+  {
+    "start": 4301.34,
+    "dur": 3.13,
+    "text": "[INAUDIBLE] 2, copy it, and\nthen do another loss expander"
+  },
+  {
+    "start": 4304.47,
+    "dur": 3.42,
+    "text": "and get a k over 4 and do\nthe recursive encoding step"
+  },
+  {
+    "start": 4307.89,
+    "dur": 0.91,
+    "text": "by step."
+  },
+  {
+    "start": 4308.8,
+    "dur": 3.94,
+    "text": "So that is the recursive part\nof this encoding algorithm."
+  },
+  {
+    "start": 4312.74,
+    "dur": 2.62,
+    "text": "Another thing to highlight\nis that although we"
+  },
+  {
+    "start": 4315.36,
+    "dur": 3.78,
+    "text": "are using two loss expanders\nwith both alpha equals to 1/2,"
+  },
+  {
+    "start": 4319.14,
+    "dur": 2.46,
+    "text": "there are actually two\ndifferent expander graphs"
+  },
+  {
+    "start": 4321.6,
+    "dur": 3.36,
+    "text": "because the sizes are different."
+  },
+  {
+    "start": 4324.96,
+    "dur": 2.91,
+    "text": "This expander graphs\ntakes an input of size k"
+  },
+  {
+    "start": 4327.87,
+    "dur": 3.15,
+    "text": "on the left side and generates\na vector of size k over 2"
+  },
+  {
+    "start": 4331.02,
+    "dur": 1.02,
+    "text": "on the right side."
+  },
+  {
+    "start": 4332.04,
+    "dur": 3.03,
+    "text": "And this loss expander\ngraph takes input--"
+  },
+  {
+    "start": 4335.07,
+    "dur": 3.81,
+    "text": "a vector of size 2k-- and\ncomputes a vector of size k."
+  },
+  {
+    "start": 4338.88,
+    "dur": 3.49,
+    "text": "So because of that in this\nrecursive encoding algorithm,"
+  },
+  {
+    "start": 4342.37,
+    "dur": 3.0,
+    "text": "we're actually using a sequence\nof loss expander graphs"
+  },
+  {
+    "start": 4345.37,
+    "dur": 1.6,
+    "text": "with similar parameters."
+  },
+  {
+    "start": 4346.97,
+    "dur": 2.41,
+    "text": "Alpha always equals\n1/2, and we want"
+  },
+  {
+    "start": 4349.38,
+    "dur": 1.75,
+    "text": "the expansions of these\nlossless expanders"
+  },
+  {
+    "start": 4351.13,
+    "dur": 3.81,
+    "text": "to be pretty good, with all\nthese beta and delta and g"
+  },
+  {
+    "start": 4354.94,
+    "dur": 1.59,
+    "text": "parameters."
+  },
+  {
+    "start": 4356.53,
+    "dur": 1.89,
+    "text": "So that is the\nhigh-level overview"
+  },
+  {
+    "start": 4358.42,
+    "dur": 2.31,
+    "text": "of this recursive\nencoding algorithm"
+  },
+  {
+    "start": 4360.73,
+    "dur": 3.24,
+    "text": "using the lossless expander."
+  },
+  {
+    "start": 4363.97,
+    "dur": 3.4,
+    "text": "And to put in a\nmore formal way--"
+  },
+  {
+    "start": 4367.37,
+    "dur": 1.55,
+    "text": "so here is basically\na description"
+  },
+  {
+    "start": 4368.92,
+    "dur": 2.31,
+    "text": "of this recursive\nencoding, as I described"
+  },
+  {
+    "start": 4371.23,
+    "dur": 1.53,
+    "text": "in the previous slide--"
+  },
+  {
+    "start": 4372.76,
+    "dur": 1.62,
+    "text": "in the chart."
+  },
+  {
+    "start": 4374.38,
+    "dur": 2.7,
+    "text": "So we have a message\nof size k, and we"
+  },
+  {
+    "start": 4377.08,
+    "dur": 2.07,
+    "text": "want to get a codeword\nof size 4k, such"
+  },
+  {
+    "start": 4379.15,
+    "dur": 1.98,
+    "text": "that the rate is constant 1/4."
+  },
+  {
+    "start": 4381.13,
+    "dur": 3.42,
+    "text": "Then we assume that there is\nan encoding algorithm from k"
+  },
+  {
+    "start": 4384.55,
+    "dur": 2.37,
+    "text": "over 2 to 2k already,\nwith a very good"
+  },
+  {
+    "start": 4386.92,
+    "dur": 2.46,
+    "text": "relative constant distance--\na constant relative distance,"
+  },
+  {
+    "start": 4389.38,
+    "dur": 1.985,
+    "text": "delta."
+  },
+  {
+    "start": 4391.365,
+    "dur": 1.375,
+    "text": "And we also suppose\nthat there is"
+  },
+  {
+    "start": 4392.74,
+    "dur": 1.8,
+    "text": "a sequence of expander graphs."
+  },
+  {
+    "start": 4394.54,
+    "dur": 6.09,
+    "text": "And we're using two graphs from\nthis sequence of size k and 2k"
+  },
+  {
+    "start": 4400.63,
+    "dur": 3.33,
+    "text": "on the left-hand side,\nwith alpha equals to 1/2."
+  },
+  {
+    "start": 4403.96,
+    "dur": 2.07,
+    "text": "Then the encoding\nalgorithm can basically"
+  },
+  {
+    "start": 4406.03,
+    "dur": 3.94,
+    "text": "describe by this four steps."
+  },
+  {
+    "start": 4409.97,
+    "dur": 2.75,
+    "text": "We're going to pass this n\nthrough the loss expander"
+  },
+  {
+    "start": 4412.72,
+    "dur": 2.91,
+    "text": "graph, to get m1\nof size k over 2."
+  },
+  {
+    "start": 4415.63,
+    "dur": 4.05,
+    "text": "Then we're going to encode\nthis m1 to get c1 of size 2k"
+  },
+  {
+    "start": 4419.68,
+    "dur": 3.51,
+    "text": "using this encoding algorithm\nfrom k over 2 to 2k,"
+  },
+  {
+    "start": 4423.19,
+    "dur": 1.89,
+    "text": "with a good relative distance."
+  },
+  {
+    "start": 4425.08,
+    "dur": 3.27,
+    "text": "Then we are going to pass c1\nthrough another loss expander"
+  },
+  {
+    "start": 4428.35,
+    "dur": 1.95,
+    "text": "to get c2 of size k."
+  },
+  {
+    "start": 4430.3,
+    "dur": 2.79,
+    "text": "And finally, we're just going\nto concatenate them together"
+  },
+  {
+    "start": 4433.09,
+    "dur": 3.04,
+    "text": "to get a codeword of size 4k."
+  },
+  {
+    "start": 4436.13,
+    "dur": 2.25,
+    "text": "And to complete\nthis recursion, we"
+  },
+  {
+    "start": 4438.38,
+    "dur": 2.37,
+    "text": "are going to repeat it\nfor k over 2, k over 4,"
+  },
+  {
+    "start": 4440.75,
+    "dur": 2.22,
+    "text": "until the message\nbecomes a constant size--"
+  },
+  {
+    "start": 4442.97,
+    "dur": 3.45,
+    "text": "that is, talking\nabout this step--"
+  },
+  {
+    "start": 4446.42,
+    "dur": 2.64,
+    "text": "assuming that how can we--"
+  },
+  {
+    "start": 4449.06,
+    "dur": 2.655,
+    "text": "explaining how can we go\nfrom this encoding of k"
+  },
+  {
+    "start": 4451.715,
+    "dur": 1.005,
+    "text": "over 2 to 2k."
+  },
+  {
+    "start": 4452.72,
+    "dur": 3.81,
+    "text": "We just repeat this entire\nencoding algorithm for size k"
+  },
+  {
+    "start": 4456.53,
+    "dur": 3.45,
+    "text": "over 2 and then k over\n4, until a constant size."
+  },
+  {
+    "start": 4459.98,
+    "dur": 4.71,
+    "text": "So finally, how can we complete\nthis recursive encoding?"
+  },
+  {
+    "start": 4464.69,
+    "dur": 3.24,
+    "text": "Once the size of this\nmessage becomes a constant,"
+  },
+  {
+    "start": 4467.93,
+    "dur": 3.66,
+    "text": "we can actually use any\ncode with good distance"
+  },
+  {
+    "start": 4471.59,
+    "dur": 2.04,
+    "text": "for this message--"
+  },
+  {
+    "start": 4473.63,
+    "dur": 1.86,
+    "text": "for example, the\nReed-Solomon code."
+  },
+  {
+    "start": 4475.49,
+    "dur": 1.86,
+    "text": "And here, because the\nsize of the message"
+  },
+  {
+    "start": 4477.35,
+    "dur": 2.07,
+    "text": "is constant no\nmatter what we do,"
+  },
+  {
+    "start": 4479.42,
+    "dur": 4.08,
+    "text": "it won't affect the asymptotic\nbehavior of this code."
+  },
+  {
+    "start": 4483.5,
+    "dur": 2.92,
+    "text": "The encoding time\nremains constant."
+  },
+  {
+    "start": 4486.42,
+    "dur": 2.39,
+    "text": "And so that is the\nformal description"
+  },
+  {
+    "start": 4488.81,
+    "dur": 1.22,
+    "text": "of this recursive encoding."
+  },
+  {
+    "start": 4492.85,
+    "dur": 5.15,
+    "text": "So next I'm going to show\nyou why this way of encoding"
+  },
+  {
+    "start": 4498.0,
+    "dur": 3.31,
+    "text": "can achieve a constant\nrelative distance."
+  },
+  {
+    "start": 4501.31,
+    "dur": 3.02,
+    "text": "So the theorem is saying that\nthe distance of this code,"
+  },
+  {
+    "start": 4504.33,
+    "dur": 2.37,
+    "text": "delta prime, equals to\nthe minimum of delta,"
+  },
+  {
+    "start": 4506.7,
+    "dur": 4.95,
+    "text": "which is actually the relative\ndistance of this code we use"
+  },
+  {
+    "start": 4511.65,
+    "dur": 1.89,
+    "text": "in the middle-- from\nk over 2 to 2k--"
+  },
+  {
+    "start": 4513.54,
+    "dur": 2.43,
+    "text": "and another parameter\ndelta, or 4g, that"
+  },
+  {
+    "start": 4515.97,
+    "dur": 2.94,
+    "text": "depends on the expander graph."
+  },
+  {
+    "start": 4518.91,
+    "dur": 3.21,
+    "text": "And this proof is actually\na little technical,"
+  },
+  {
+    "start": 4522.12,
+    "dur": 4.05,
+    "text": "but the first time\nI've seen this proof"
+  },
+  {
+    "start": 4526.17,
+    "dur": 3.57,
+    "text": "from the paper and\nalso the speleman code"
+  },
+  {
+    "start": 4529.74,
+    "dur": 2.32,
+    "text": "paper it was really impressive."
+  },
+  {
+    "start": 4532.06,
+    "dur": 3.11,
+    "text": "And I really wanted to show\nyou the idea of this proof,"
+  },
+  {
+    "start": 4535.17,
+    "dur": 1.74,
+    "text": "of the constant\nrelative distance."
+  },
+  {
+    "start": 4536.91,
+    "dur": 2.59,
+    "text": "So yeah, let's do that."
+  },
+  {
+    "start": 4539.5,
+    "dur": 2.42,
+    "text": "So recall that these\nparameters are actually"
+  },
+  {
+    "start": 4541.92,
+    "dur": 2.11,
+    "text": "related to this expander."
+  },
+  {
+    "start": 4544.03,
+    "dur": 2.54,
+    "text": "This delta is the\nconstraint on the size"
+  },
+  {
+    "start": 4546.57,
+    "dur": 3.24,
+    "text": "of this subset of the nodes\non the left-hand side,"
+  },
+  {
+    "start": 4549.81,
+    "dur": 3.9,
+    "text": "and this g is the\ndegree of this node."
+  },
+  {
+    "start": 4553.71,
+    "dur": 2.28,
+    "text": "From the left to the\nright is a constant f."
+  },
+  {
+    "start": 4555.99,
+    "dur": 2.04,
+    "text": "And also, we have this theta."
+  },
+  {
+    "start": 4558.03,
+    "dur": 1.98,
+    "text": "It depends on delta\nand g, and it's not"
+  },
+  {
+    "start": 4560.01,
+    "dur": 1.98,
+    "text": "used directly in the analysis--"
+  },
+  {
+    "start": 4561.99,
+    "dur": 2.7,
+    "text": "just to remind you\nthat these parameters."
+  },
+  {
+    "start": 4564.69,
+    "dur": 4.23,
+    "text": "And recall that the codeword\nis the concatenation"
+  },
+  {
+    "start": 4568.92,
+    "dur": 4.08,
+    "text": "of the message c1 and\nc2, where c1 is derived"
+  },
+  {
+    "start": 4573.0,
+    "dur": 4.77,
+    "text": "from the expanded graph of m\nto get m1 and encode it using"
+  },
+  {
+    "start": 4577.77,
+    "dur": 4.5,
+    "text": "another good code, with a\nconstant relative distance"
+  },
+  {
+    "start": 4582.27,
+    "dur": 1.45,
+    "text": "of delta."
+  },
+  {
+    "start": 4583.72,
+    "dur": 4.67,
+    "text": "So here the higg-level\nidea of this proof"
+  },
+  {
+    "start": 4588.39,
+    "dur": 4.72,
+    "text": "is to actually break it\ndown to several cases."
+  },
+  {
+    "start": 4593.11,
+    "dur": 4.68,
+    "text": "So again, recall that\nfor any linear code"
+  },
+  {
+    "start": 4597.79,
+    "dur": 3.65,
+    "text": "the distance between\nany two code word"
+  },
+  {
+    "start": 4601.44,
+    "dur": 3.18,
+    "text": "is equivalent to the\nweight of a codeword."
+  },
+  {
+    "start": 4604.62,
+    "dur": 3.57,
+    "text": "So we are just calculating\nthe minimum weight"
+  },
+  {
+    "start": 4608.19,
+    "dur": 4.43,
+    "text": "of any non-zero codeword to\nget the minimum distance."
+  },
+  {
+    "start": 4612.62,
+    "dur": 2.24,
+    "text": "So that's what we are\ntrying to prove here."
+  },
+  {
+    "start": 4614.86,
+    "dur": 6.37,
+    "text": "And the first case is\nactually extremely simple."
+  },
+  {
+    "start": 4621.23,
+    "dur": 2.84,
+    "text": "So we're saying that if\nthe weight of the message"
+  },
+  {
+    "start": 4624.07,
+    "dur": 2.71,
+    "text": "is large enough,\nthen we are done."
+  },
+  {
+    "start": 4626.78,
+    "dur": 3.08,
+    "text": "Then the weight of\nthis codeword is good"
+  },
+  {
+    "start": 4629.86,
+    "dur": 2.01,
+    "text": "and then there's\nnothing to prove here,"
+  },
+  {
+    "start": 4631.87,
+    "dur": 2.88,
+    "text": "because we are copying this\nmessage to the codeword."
+  },
+  {
+    "start": 4634.75,
+    "dur": 2.19,
+    "text": "And then if you're counting\nthe number of non-zeros"
+  },
+  {
+    "start": 4636.94,
+    "dur": 3.84,
+    "text": "in this codeword, we already\nhave more than 4k times delta"
+  },
+  {
+    "start": 4640.78,
+    "dur": 2.25,
+    "text": "prime number of non-zeros."
+  },
+  {
+    "start": 4643.03,
+    "dur": 5.64,
+    "text": "So the distance or the relative\nweight of this codeword"
+  },
+  {
+    "start": 4648.67,
+    "dur": 3.24,
+    "text": "is already 4k delta\nprime divided by 4k."
+  },
+  {
+    "start": 4651.91,
+    "dur": 1.95,
+    "text": "So that is larger than\ndelta prime already."
+  },
+  {
+    "start": 4653.86,
+    "dur": 2.59,
+    "text": "So we're saying that\nfor all messages"
+  },
+  {
+    "start": 4656.45,
+    "dur": 1.79,
+    "text": "there's actually large weights."
+  },
+  {
+    "start": 4658.24,
+    "dur": 4.29,
+    "text": "Then automatically, we get\nlarge-weight codewords."
+  },
+  {
+    "start": 4662.53,
+    "dur": 2.13,
+    "text": "So that is a very simple."
+  },
+  {
+    "start": 4664.66,
+    "dur": 4.14,
+    "text": "Then the second case\nis if this weight of m"
+  },
+  {
+    "start": 4668.8,
+    "dur": 4.19,
+    "text": "is less than or equal to this\n4k times delta prime, what can"
+  },
+  {
+    "start": 4672.99,
+    "dur": 1.54,
+    "text": "we do?"
+  },
+  {
+    "start": 4674.53,
+    "dur": 2.82,
+    "text": "So here is where\nthe expander graph--"
+  },
+  {
+    "start": 4677.35,
+    "dur": 2.1,
+    "text": "the loss expander kicks in."
+  },
+  {
+    "start": 4679.45,
+    "dur": 3.26,
+    "text": "So recall that the definition\nof the loss expander"
+  },
+  {
+    "start": 4682.71,
+    "dur": 2.88,
+    "text": "has a condition on the\nsize of the subset of nodes"
+  },
+  {
+    "start": 4685.59,
+    "dur": 1.41,
+    "text": "on the left-hand side."
+  },
+  {
+    "start": 4687.0,
+    "dur": 2.88,
+    "text": "And this is exactly\nthe condition where"
+  },
+  {
+    "start": 4689.88,
+    "dur": 4.27,
+    "text": "this is actually satisfied."
+  },
+  {
+    "start": 4694.15,
+    "dur": 2.87,
+    "text": "So we can show that\nif the weight of m"
+  },
+  {
+    "start": 4697.02,
+    "dur": 2.76,
+    "text": "is less than 4k\ntimes delta prime--"
+  },
+  {
+    "start": 4699.78,
+    "dur": 3.3,
+    "text": "and if we substitute delta\nprime with this delta over 4g,"
+  },
+  {
+    "start": 4703.08,
+    "dur": 3.88,
+    "text": "you can see that it\nmeans that the weight--"
+  },
+  {
+    "start": 4706.96,
+    "dur": 3.62,
+    "text": "the number of non-zeros is\nless than or equal to k times"
+  },
+  {
+    "start": 4710.58,
+    "dur": 0.81,
+    "text": "delta over g."
+  },
+  {
+    "start": 4711.39,
+    "dur": 2.91,
+    "text": "That's exactly the condition\nof this loss expander."
+  },
+  {
+    "start": 4714.3,
+    "dur": 2.505,
+    "text": "Because of that,\nif we use this S"
+  },
+  {
+    "start": 4716.805,
+    "dur": 2.475,
+    "text": "to denote a set\nof non-zero nodes,"
+  },
+  {
+    "start": 4719.28,
+    "dur": 5.25,
+    "text": "then it has to expand to\nmore than 1 minus beta times"
+  },
+  {
+    "start": 4724.53,
+    "dur": 2.88,
+    "text": "g times S nodes, on\nthe right-hand side."
+  },
+  {
+    "start": 4727.41,
+    "dur": 4.11,
+    "text": "That is the definition\nof the loss expander."
+  },
+  {
+    "start": 4731.52,
+    "dur": 3.34,
+    "text": "And once you have\nthis good expansion"
+  },
+  {
+    "start": 4734.86,
+    "dur": 3.48,
+    "text": "on the right-hand side, then\nby a simple counting argument,"
+  },
+  {
+    "start": 4738.34,
+    "dur": 4.35,
+    "text": "we can show that at least\none node in this neighbor"
+  },
+  {
+    "start": 4742.69,
+    "dur": 3.99,
+    "text": "have a unique\nneighbor in S, which"
+  },
+  {
+    "start": 4746.68,
+    "dur": 5.67,
+    "text": "means that this result of this\nexpander m1 must be non-zero."
+  },
+  {
+    "start": 4752.35,
+    "dur": 0.81,
+    "text": "And why is that?"
+  },
+  {
+    "start": 4753.16,
+    "dur": 2.41,
+    "text": "There's a simple proof\nby contradiction."
+  },
+  {
+    "start": 4755.57,
+    "dur": 3.03,
+    "text": "Suppose that you have--"
+  },
+  {
+    "start": 4758.6,
+    "dur": 4.52,
+    "text": "so all the nodes in the neighbor\nhave at least two neighbors"
+  },
+  {
+    "start": 4763.12,
+    "dur": 3.39,
+    "text": "in this S, then the\ntotal number of edges"
+  },
+  {
+    "start": 4766.51,
+    "dur": 3.27,
+    "text": "will be 2 times 1 minus\nbeta times g times S."
+  },
+  {
+    "start": 4769.78,
+    "dur": 3.36,
+    "text": "But in total, you only\nhave g times S many edges,"
+  },
+  {
+    "start": 4773.14,
+    "dur": 7.883,
+    "text": "because each node in S has this\ng outgoing edges as a constant."
+  },
+  {
+    "start": 4781.023,
+    "dur": 1.417,
+    "text": "So then you just\nsimply don't have"
+  },
+  {
+    "start": 4782.44,
+    "dur": 1.96,
+    "text": "enough edges in this graph."
+  },
+  {
+    "start": 4784.4,
+    "dur": 3.8,
+    "text": "So because of that at least\none node in this neighbor"
+  },
+  {
+    "start": 4788.2,
+    "dur": 3.03,
+    "text": "have a unique neighbor in S.\nAnd in fact, you can actually"
+  },
+  {
+    "start": 4791.23,
+    "dur": 1.59,
+    "text": "do a much better bound."
+  },
+  {
+    "start": 4792.82,
+    "dur": 2.73,
+    "text": "Actually, a lot of nodes should\nhave unique neighbors in S"
+  },
+  {
+    "start": 4795.55,
+    "dur": 2.37,
+    "text": "because of this good expansion."
+  },
+  {
+    "start": 4797.92,
+    "dur": 4.2,
+    "text": "And the sole reason why we are\ntrying to make such an argument"
+  },
+  {
+    "start": 4802.12,
+    "dur": 3.03,
+    "text": "is that we want to show that\nthis result of this loss"
+  },
+  {
+    "start": 4805.15,
+    "dur": 3.8,
+    "text": "expander-- we call\nit m1-- is non-zero."
+  },
+  {
+    "start": 4808.95,
+    "dur": 1.32,
+    "text": "That's all we need."
+  },
+  {
+    "start": 4810.27,
+    "dur": 3.99,
+    "text": "As long as this m1 is non-zero,\nwe are applying this recursive"
+  },
+  {
+    "start": 4814.26,
+    "dur": 3.57,
+    "text": "encoding of another good code\nwith constant relative distance"
+  },
+  {
+    "start": 4817.83,
+    "dur": 1.21,
+    "text": "of delta--"
+  },
+  {
+    "start": 4819.04,
+    "dur": 2.31,
+    "text": "then the weight of\nthe c1 has to be"
+  },
+  {
+    "start": 4821.35,
+    "dur": 2.7,
+    "text": "larger than or equal\nto 2k times delta."
+  },
+  {
+    "start": 4824.05,
+    "dur": 4.53,
+    "text": "Because of the distance\nproperty of this second code,"
+  },
+  {
+    "start": 4828.58,
+    "dur": 3.0,
+    "text": "we use it in the\nrecursive encoding."
+  },
+  {
+    "start": 4831.58,
+    "dur": 2.34,
+    "text": "So all we need to prove\nis that m1 is non-zero."
+  },
+  {
+    "start": 4833.92,
+    "dur": 2.55,
+    "text": "As long as m1 is\nnon-zero, the weight of c1"
+  },
+  {
+    "start": 4836.47,
+    "dur": 1.57,
+    "text": "is actually pretty big."
+  },
+  {
+    "start": 4838.04,
+    "dur": 5.66,
+    "text": "So that is the key idea\nof this second step."
+  },
+  {
+    "start": 4843.7,
+    "dur": 3.3,
+    "text": "Then actually, in order to\nfinish this entire proof,"
+  },
+  {
+    "start": 4847.0,
+    "dur": 3.7,
+    "text": "we are just following this\nsame idea and do it again."
+  },
+  {
+    "start": 4850.7,
+    "dur": 3.23,
+    "text": "So then we can just condition\non whether this weight of c1"
+  },
+  {
+    "start": 4853.93,
+    "dur": 1.9,
+    "text": "is big enough or not."
+  },
+  {
+    "start": 4855.83,
+    "dur": 3.11,
+    "text": "So if this weight of\nc1 is already larger"
+  },
+  {
+    "start": 4858.94,
+    "dur": 2.01,
+    "text": "than 4K delta prime,\nwhich is exactly"
+  },
+  {
+    "start": 4860.95,
+    "dur": 1.99,
+    "text": "the same argument\nas the first step,"
+  },
+  {
+    "start": 4862.94,
+    "dur": 5.09,
+    "text": "then we are done, by saying that\nthe number of non-zeros in c1"
+  },
+  {
+    "start": 4868.03,
+    "dur": 1.11,
+    "text": "is already big enough."
+  },
+  {
+    "start": 4869.14,
+    "dur": 2.22,
+    "text": "So the weight of\nc-- the codeword c"
+  },
+  {
+    "start": 4871.36,
+    "dur": 5.52,
+    "text": "is actually larger than\ndelta prime, and we're good."
+  },
+  {
+    "start": 4876.88,
+    "dur": 4.24,
+    "text": "And else, if the\nweight of this c1"
+  },
+  {
+    "start": 4881.12,
+    "dur": 3.6,
+    "text": "is actually less than\nor equal to 4k times"
+  },
+  {
+    "start": 4884.72,
+    "dur": 2.82,
+    "text": "delta prime but still\nlarger than 2k delta,"
+  },
+  {
+    "start": 4887.54,
+    "dur": 4.44,
+    "text": "then we can apply the argument\nof loss expander again."
+  },
+  {
+    "start": 4891.98,
+    "dur": 2.71,
+    "text": "The size of this\nsubset is bounded."
+  },
+  {
+    "start": 4894.69,
+    "dur": 2.81,
+    "text": "So because of the condition\nof this loss expander,"
+  },
+  {
+    "start": 4897.5,
+    "dur": 3.36,
+    "text": "we are going to compute c2\nusing the second loss expander."
+  },
+  {
+    "start": 4900.86,
+    "dur": 2.97,
+    "text": "And we can show that because\nof the unique neighbors,"
+  },
+  {
+    "start": 4903.83,
+    "dur": 2.1,
+    "text": "the weight of c2\nhas to be larger"
+  },
+  {
+    "start": 4905.93,
+    "dur": 3.18,
+    "text": "than or equal to 2k\ntimes delta prime--"
+  },
+  {
+    "start": 4909.11,
+    "dur": 1.74,
+    "text": "because of this\ncounting argument."
+  },
+  {
+    "start": 4910.85,
+    "dur": 3.42,
+    "text": "We seem to have that many\nnodes with unique neighbors,"
+  },
+  {
+    "start": 4914.27,
+    "dur": 1.35,
+    "text": "and they have to be non-zero."
+  },
+  {
+    "start": 4915.62,
+    "dur": 4.11,
+    "text": "And then summing it up together\nwith this weight of c1--"
+  },
+  {
+    "start": 4919.73,
+    "dur": 4.41,
+    "text": "so the weight of c1 has to be\nlarger than 2k times delta--"
+  },
+  {
+    "start": 4924.14,
+    "dur": 1.89,
+    "text": "we end up with the\ntotal weight to be"
+  },
+  {
+    "start": 4926.03,
+    "dur": 2.49,
+    "text": "larger than or equal to\n2k times delta prime."
+  },
+  {
+    "start": 4928.52,
+    "dur": 4.56,
+    "text": "And that completes the proof for\nthis distance of this encoding."
+  },
+  {
+    "start": 4935.31,
+    "dur": 4.38,
+    "text": "And again, I was saying that\nthis is a little bit technical,"
+  },
+  {
+    "start": 4939.69,
+    "dur": 3.81,
+    "text": "but the high-level\nidea I want to deliver"
+  },
+  {
+    "start": 4943.5,
+    "dur": 3.66,
+    "text": "is that we're just\nproving it case by case."
+  },
+  {
+    "start": 4947.16,
+    "dur": 3.06,
+    "text": "The first case is if the\nmessage has enough weight,"
+  },
+  {
+    "start": 4950.22,
+    "dur": 1.18,
+    "text": "then we're good."
+  },
+  {
+    "start": 4951.4,
+    "dur": 3.47,
+    "text": "If not, then the\ncondition of loss expander"
+  },
+  {
+    "start": 4954.87,
+    "dur": 1.39,
+    "text": "will be satisfied."
+  },
+  {
+    "start": 4956.26,
+    "dur": 2.662,
+    "text": "And then this message\nwill expand to many nodes"
+  },
+  {
+    "start": 4958.922,
+    "dur": 0.958,
+    "text": "on the right-hand side."
+  },
+  {
+    "start": 4959.88,
+    "dur": 2.7,
+    "text": "Then, by a simple\ncounting argument,"
+  },
+  {
+    "start": 4962.58,
+    "dur": 2.79,
+    "text": "a big portion of these nodes\nwill have unique neighbors"
+  },
+  {
+    "start": 4965.37,
+    "dur": 1.35,
+    "text": "from the message, m."
+  },
+  {
+    "start": 4966.72,
+    "dur": 3.27,
+    "text": "And the unique neighbors\nimplies non-zero elements,"
+  },
+  {
+    "start": 4969.99,
+    "dur": 5.28,
+    "text": "because you're just summing the\nvalue in this non-zero element"
+  },
+  {
+    "start": 4975.27,
+    "dur": 3.3,
+    "text": "with nothing else-- and the\nresult has to be non-zero."
+  },
+  {
+    "start": 4978.57,
+    "dur": 2.58,
+    "text": "And then we are just going\nto apply it again and finally"
+  },
+  {
+    "start": 4981.15,
+    "dur": 1.95,
+    "text": "compute this proof,\nto show that it has"
+  },
+  {
+    "start": 4983.1,
+    "dur": 1.215,
+    "text": "a constant relative distance."
+  },
+  {
+    "start": 4987.18,
+    "dur": 5.22,
+    "text": "So that is the proof why it has\nactually a constant relative"
+  },
+  {
+    "start": 4992.4,
+    "dur": 1.63,
+    "text": "distance."
+  },
+  {
+    "start": 4994.03,
+    "dur": 5.07,
+    "text": "So with that, we can actually\nbuild this linear-time encoder"
+  },
+  {
+    "start": 4999.1,
+    "dur": 1.83,
+    "text": "code using the expander\ngraphs, and that"
+  },
+  {
+    "start": 5000.93,
+    "dur": 3.78,
+    "text": "completes the entire description\nof the encoding algorithm."
+  },
+  {
+    "start": 5004.71,
+    "dur": 3.27,
+    "text": "And the last piece of\nthe puzzle is, how can we"
+  },
+  {
+    "start": 5007.98,
+    "dur": 2.73,
+    "text": "find such lossless expanders?"
+  },
+  {
+    "start": 5010.71,
+    "dur": 2.5,
+    "text": "Do they exist in practice?"
+  },
+  {
+    "start": 5013.21,
+    "dur": 1.43,
+    "text": "Well, it turns out\nwe can actually"
+  },
+  {
+    "start": 5014.64,
+    "dur": 2.58,
+    "text": "construct the loss\nexpanders explicitly"
+  },
+  {
+    "start": 5017.22,
+    "dur": 1.5,
+    "text": "in a deterministic way."
+  },
+  {
+    "start": 5018.72,
+    "dur": 3.9,
+    "text": "And this was proposed\nin this paper in 2002."
+  },
+  {
+    "start": 5022.62,
+    "dur": 2.73,
+    "text": "But unfortunately, the concrete\nefficiency of this approach"
+  },
+  {
+    "start": 5025.35,
+    "dur": 1.77,
+    "text": "is actually not very\ngood in practice,"
+  },
+  {
+    "start": 5027.12,
+    "dur": 2.85,
+    "text": "because it has a large hidden\nconstant in the construction--"
+  },
+  {
+    "start": 5029.97,
+    "dur": 4.05,
+    "text": "namely, you have to find\na constant-sized graph"
+  },
+  {
+    "start": 5034.02,
+    "dur": 1.83,
+    "text": "with a very good\nexpansion property."
+  },
+  {
+    "start": 5035.85,
+    "dur": 2.85,
+    "text": "And the only way to do it is\nto do a brute force search,"
+  },
+  {
+    "start": 5038.7,
+    "dur": 6.3,
+    "text": "and will lead to a very\nbig overhead in practice."
+  },
+  {
+    "start": 5045.0,
+    "dur": 3.36,
+    "text": "Another approach is to actually\nsample a graph-- bipartite"
+  },
+  {
+    "start": 5048.36,
+    "dur": 0.9,
+    "text": "graph randomly."
+  },
+  {
+    "start": 5049.26,
+    "dur": 1.8,
+    "text": "And as you may\nknow, random graphs"
+  },
+  {
+    "start": 5051.06,
+    "dur": 2.05,
+    "text": "tend to have a good expansions."
+  },
+  {
+    "start": 5053.11,
+    "dur": 3.29,
+    "text": "So if you just do that\nwith some good probability,"
+  },
+  {
+    "start": 5056.4,
+    "dur": 3.45,
+    "text": "you can actually have\nthese loss expanders."
+  },
+  {
+    "start": 5059.85,
+    "dur": 2.19,
+    "text": "But unfortunately, the\nprobability is only 1"
+  },
+  {
+    "start": 5062.04,
+    "dur": 3.9,
+    "text": "over a polynomial unit,\ninstead of a negligible."
+  },
+  {
+    "start": 5065.94,
+    "dur": 3.48,
+    "text": "So we can't achieve\nnegligible failure probability"
+  },
+  {
+    "start": 5069.42,
+    "dur": 1.3,
+    "text": "through random sampling."
+  },
+  {
+    "start": 5070.72,
+    "dur": 3.595,
+    "text": "And this is also not hard to\nshow because actually the lower"
+  },
+  {
+    "start": 5074.315,
+    "dur": 1.375,
+    "text": "bound of this\nfailure probability"
+  },
+  {
+    "start": 5075.69,
+    "dur": 2.37,
+    "text": "has to be inverse\npolynomial, simply"
+  },
+  {
+    "start": 5078.06,
+    "dur": 3.06,
+    "text": "because the size of the\ngraph is a polynomial n."
+  },
+  {
+    "start": 5081.12,
+    "dur": 2.25,
+    "text": "And your total sample space--"
+  },
+  {
+    "start": 5083.37,
+    "dur": 3.21,
+    "text": "the random space\nis a polynomial n."
+  },
+  {
+    "start": 5086.58,
+    "dur": 3.75,
+    "text": "And there is at least one graph\nthat is not loss expander."
+  },
+  {
+    "start": 5090.33,
+    "dur": 3.87,
+    "text": "So then the probability of\nfailure has to be bigger than 1"
+  },
+  {
+    "start": 5094.2,
+    "dur": 0.81,
+    "text": "over the poly n."
+  },
+  {
+    "start": 5095.01,
+    "dur": 3.57,
+    "text": "So this is a very\nsimple argument."
+  },
+  {
+    "start": 5098.58,
+    "dur": 2.51,
+    "text": "So then that leads\nto some improvements"
+  },
+  {
+    "start": 5101.09,
+    "dur": 4.5,
+    "text": "of this linear-time encoder\ncode based on expander graphs,"
+  },
+  {
+    "start": 5105.59,
+    "dur": 4.09,
+    "text": "in these two papers,\n\"Brakedown\" and \"Orion.\""
+  },
+  {
+    "start": 5109.68,
+    "dur": 5.88,
+    "text": "So in the \"Breakdown\" paper,\nthe proposed improved version"
+  },
+  {
+    "start": 5115.56,
+    "dur": 3.51,
+    "text": "of this encoding using random\nsummations instead of plane"
+  },
+  {
+    "start": 5119.07,
+    "dur": 0.88,
+    "text": "summations."
+  },
+  {
+    "start": 5119.95,
+    "dur": 2.87,
+    "text": "So I was describing\nthe way to encode"
+  },
+  {
+    "start": 5122.82,
+    "dur": 3.09,
+    "text": "the message is to\nactually sum the neighbors"
+  },
+  {
+    "start": 5125.91,
+    "dur": 3.28,
+    "text": "on the right-hand side from the\nnodes on the left-hand side."
+  },
+  {
+    "start": 5129.19,
+    "dur": 2.24,
+    "text": "So in this paper instead\nof doing the plane sum,"
+  },
+  {
+    "start": 5131.43,
+    "dur": 2.07,
+    "text": "they're going to\nassign a random weight"
+  },
+  {
+    "start": 5133.5,
+    "dur": 1.99,
+    "text": "for each edge in\nthe finite field,"
+  },
+  {
+    "start": 5135.49,
+    "dur": 1.91,
+    "text": "and then doing a\nweighted sum based"
+  },
+  {
+    "start": 5137.4,
+    "dur": 1.93,
+    "text": "on weights on these edges."
+  },
+  {
+    "start": 5139.33,
+    "dur": 3.23,
+    "text": "And this actually boosts\nthe concrete distance"
+  },
+  {
+    "start": 5142.56,
+    "dur": 2.04,
+    "text": "significantly, and\nthey can actually"
+  },
+  {
+    "start": 5144.6,
+    "dur": 3.85,
+    "text": "show that the distance is\nactually very good in practice,"
+  },
+  {
+    "start": 5148.45,
+    "dur": 2.42,
+    "text": "but it's very high probability."
+  },
+  {
+    "start": 5150.87,
+    "dur": 4.35,
+    "text": "And another improvement\nin the \"Orion\" paper"
+  },
+  {
+    "start": 5155.22,
+    "dur": 3.57,
+    "text": "is actually further\nproposed a testing algorithm"
+  },
+  {
+    "start": 5158.79,
+    "dur": 5.43,
+    "text": "to reduce the failure\nprobability of this sampling--"
+  },
+  {
+    "start": 5164.22,
+    "dur": 1.5,
+    "text": "loss [INAUDIBLE] expander."
+  },
+  {
+    "start": 5165.72,
+    "dur": 2.61,
+    "text": "And this testing\nalgorithm is actually"
+  },
+  {
+    "start": 5168.33,
+    "dur": 2.08,
+    "text": "based on an\ninteresting connection"
+  },
+  {
+    "start": 5170.41,
+    "dur": 3.54,
+    "text": "between the expansion of a\ngraph and the maximum density"
+  },
+  {
+    "start": 5173.95,
+    "dur": 0.91,
+    "text": "of a graph."
+  },
+  {
+    "start": 5174.86,
+    "dur": 1.7,
+    "text": "So using this algorithm,\nwe can actually"
+  },
+  {
+    "start": 5176.56,
+    "dur": 4.32,
+    "text": "build a testing algorithm to\nsee whether a random graph is"
+  },
+  {
+    "start": 5180.88,
+    "dur": 3.03,
+    "text": "a loss expander or not,\nand the failure probability"
+  },
+  {
+    "start": 5183.91,
+    "dur": 3.81,
+    "text": "is reduced from inverse\npolynomial to a negligible."
+  },
+  {
+    "start": 5187.72,
+    "dur": 2.1,
+    "text": "And you can actually\ndo a rejection sampling"
+  },
+  {
+    "start": 5189.82,
+    "dur": 2.49,
+    "text": "to really get a\ngood loss expander"
+  },
+  {
+    "start": 5192.31,
+    "dur": 2.02,
+    "text": "with overwhelming probability."
+  },
+  {
+    "start": 5194.33,
+    "dur": 4.7,
+    "text": "So these are the contributions\nto the linear-time encoder"
+  },
+  {
+    "start": 5199.03,
+    "dur": 1.425,
+    "text": "code from these two papers."
+  },
+  {
+    "start": 5203.84,
+    "dur": 3.84,
+    "text": "So yeah, that's everything about\nthis linear-time encoding code."
+  },
+  {
+    "start": 5207.68,
+    "dur": 4.12,
+    "text": "So finally, to put everything\ntogether, so in this lecture,"
+  },
+  {
+    "start": 5211.8,
+    "dur": 3.86,
+    "text": "I showed you how to build a\npolynomial commitment using"
+  },
+  {
+    "start": 5215.66,
+    "dur": 1.56,
+    "text": "a linear code."
+  },
+  {
+    "start": 5217.22,
+    "dur": 3.48,
+    "text": "And combined with the polynomial\nIOPs-- for example, the PLONK"
+  },
+  {
+    "start": 5220.7,
+    "dur": 4.38,
+    "text": "IOP and the interactive proofs,\nwe discussed in the earlier"
+  },
+  {
+    "start": 5225.08,
+    "dur": 4.05,
+    "text": "lectures-- we end up with SNARKs\nbased on error-occuring codes."
+  },
+  {
+    "start": 5229.13,
+    "dur": 2.74,
+    "text": "And they have these\nnice properties."
+  },
+  {
+    "start": 5231.87,
+    "dur": 3.14,
+    "text": "So in terms of the\nadvantages, they only"
+  },
+  {
+    "start": 5235.01,
+    "dur": 1.2,
+    "text": "have a transparent setup."
+  },
+  {
+    "start": 5236.21,
+    "dur": 3.84,
+    "text": "There's no trapdoor and\ntrusted setup in these schemes."
+  },
+  {
+    "start": 5240.05,
+    "dur": 3.75,
+    "text": "And the size of the global\nparameters is only constant."
+  },
+  {
+    "start": 5243.8,
+    "dur": 2.19,
+    "text": "We only need to\nsample a hash function"
+  },
+  {
+    "start": 5245.99,
+    "dur": 2.22,
+    "text": "from a family of hashes."
+  },
+  {
+    "start": 5248.21,
+    "dur": 4.23,
+    "text": "And the time to commit\nto the polynomial"
+  },
+  {
+    "start": 5252.44,
+    "dur": 1.86,
+    "text": "and to generate the\nproof is actually"
+  },
+  {
+    "start": 5254.3,
+    "dur": 1.74,
+    "text": "extremely fast in practice."
+  },
+  {
+    "start": 5256.04,
+    "dur": 1.92,
+    "text": "So it only requires\na linear number"
+  },
+  {
+    "start": 5257.96,
+    "dur": 2.28,
+    "text": "of field additions\nand multiplications"
+  },
+  {
+    "start": 5260.24,
+    "dur": 2.53,
+    "text": "in the degree of the polynomial."
+  },
+  {
+    "start": 5262.77,
+    "dur": 3.21,
+    "text": "And the schemes are also\nplausibly post-quantum secure."
+  },
+  {
+    "start": 5265.98,
+    "dur": 3.45,
+    "text": "And another important feature\nI want to highlight here"
+  },
+  {
+    "start": 5269.43,
+    "dur": 3.99,
+    "text": "is that they are field agnostic,\nmeaning that the schemes don't"
+  },
+  {
+    "start": 5273.42,
+    "dur": 5.58,
+    "text": "use FFT or bilinear pairings\nor discrete log, which"
+  },
+  {
+    "start": 5279.0,
+    "dur": 3.26,
+    "text": "means that they can actually\nwork on any field you want."
+  },
+  {
+    "start": 5282.26,
+    "dur": 2.34,
+    "text": "So you can actually\npick a native field"
+  },
+  {
+    "start": 5284.6,
+    "dur": 2.19,
+    "text": "of the computation you\nwant to prove and then run"
+  },
+  {
+    "start": 5286.79,
+    "dur": 4.03,
+    "text": "these algorithms-- or run these\nschemes directly on that field."
+  },
+  {
+    "start": 5290.82,
+    "dur": 3.5,
+    "text": "So that's another nice\nfeature about these schemes."
+  },
+  {
+    "start": 5294.32,
+    "dur": 4.2,
+    "text": "And on the drawback side, as\nI emphasized several times,"
+  },
+  {
+    "start": 5298.52,
+    "dur": 3.28,
+    "text": "the proof size tend to\nbe very big in practice."
+  },
+  {
+    "start": 5301.8,
+    "dur": 2.69,
+    "text": "So in the plain version I\ndescribed in this lecture,"
+  },
+  {
+    "start": 5304.49,
+    "dur": 2.75,
+    "text": "the proof size is\nsquare root of d"
+  },
+  {
+    "start": 5307.24,
+    "dur": 1.65,
+    "text": "in the size of the polynomial."
+  },
+  {
+    "start": 5308.89,
+    "dur": 3.6,
+    "text": "And [INAUDIBLE] can be all\nthe way to tens of megabytes."
+  },
+  {
+    "start": 5312.49,
+    "dur": 3.3,
+    "text": "And even with these improvements\nusing proof of composition,"
+  },
+  {
+    "start": 5315.79,
+    "dur": 3.84,
+    "text": "it can be reduced to a polylog\nd, or log d square, but still"
+  },
+  {
+    "start": 5319.63,
+    "dur": 3.0,
+    "text": "in practice there are\nseveral megabytes--"
+  },
+  {
+    "start": 5322.63,
+    "dur": 2.04,
+    "text": "because the distance\nof code and also"
+  },
+  {
+    "start": 5324.67,
+    "dur": 2.79,
+    "text": "the mechanism to construct these\npolynomial commitments using"
+  },
+  {
+    "start": 5327.46,
+    "dur": 1.8,
+    "text": "the code and Merkle trees."
+  },
+  {
+    "start": 5329.26,
+    "dur": 5.43,
+    "text": "So because of this, really\ndepends on your applications"
+  },
+  {
+    "start": 5334.69,
+    "dur": 2.49,
+    "text": "and is a trade-off\nbetween the poorer time"
+  },
+  {
+    "start": 5337.18,
+    "dur": 4.52,
+    "text": "and assumptions and\nthis proof size."
+  },
+  {
+    "start": 5341.7,
+    "dur": 1.85,
+    "text": "So that's the end\nof this lecture."
+  },
+  {
+    "start": 5343.55,
+    "dur": 3.39,
+    "text": "And in the next lecture, we\nare going to further discuss"
+  },
+  {
+    "start": 5346.94,
+    "dur": 3.06,
+    "text": "the FRI protocol and\nthe STARK construction"
+  },
+  {
+    "start": 5350.0,
+    "dur": 2.42,
+    "text": "Thank you for listening."
+  }
+]

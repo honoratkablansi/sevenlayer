@@ -1,12 +1,12 @@
 ---
 source_file: "references/snowball/book/ref-086-succinct-non-interactive-arguments-via-linear-in.pdf"
 type: "paper"
-community: "Community 15"
+community: "Community 20"
 location: "abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_15
+  - community/Community_20
 ---
 
 # Linear PCP
@@ -19,11 +19,11 @@ tags:
 - [[Linear PCP Commitment (IKO CommitReveal Protocol)]] - `uses` [EXTRACTED]
 - [[Linearity Testing (BLR)]] - `uses` [EXTRACTED]
 - [[Probabilistically Checkable Proofs (PCPs) compiling a PCP into a succinct argument via Merkle commitment]] - `generalizes` [EXTRACTED]
-- [[QAP (Quadratic Arithmetic Program)]] - `defines` [EXTRACTED]
+- [[QAP (Quadratic Arithmetic Program)]] - `relates_to` [EXTRACTED]
 - [[R1CS (Rank-1 Constraint Systems)]] - `uses` [EXTRACTED]
 - [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `uses` [EXTRACTED]
 - [[Succinct Argument]] - `compiles_to` [EXTRACTED]
 - [[Taxonomy of SNARKs (IP  MIP  IOP  Linear-PCP)]] - `defines` [EXTRACTED]
 - [[Verifiable computation]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_15
+#graphify/paper #graphify/EXTRACTED #community/Community_20

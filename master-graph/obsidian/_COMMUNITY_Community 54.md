@@ -1,37 +1,36 @@
 ---
 type: community
-cohesion: 0.13
-members: 22
+cohesion: 0.11
+members: 21
 ---
 
 # Community 54
 
-**Cohesion:** 0.13 - loosely connected
-**Members:** 22 nodes
+**Cohesion:** 0.11 - loosely connected
+**Members:** 21 nodes
 
 ## Members
-- [[Additive FFT over binary fields (Lin et al.)]] - paper - references/ch02/ref-08-stark.pdf
-- [[Algebraic Intermediate Representation (AIR)]] - paper - references/ch02/ref-08-stark.pdf
-- [[Algebraic Linking Interactive Oracle Proof (ALI)]] - paper - references/ch02/ref-08-stark.pdf
-- [[Algebraic Placement and Routing (APR) reduction]] - paper - references/ch02/ref-08-stark.pdf
-- [[Authentication Path  Communication Complexity minimization (coset & row subtrees)]] - paper - references/ch02/ref-08-stark.pdf
-- [[Binary AIR (BAIR) and Permuted AIR (PAIR)]] - paper - references/ch02/ref-08-stark.pdf
-- [[Collision-resistant hash function assumption (interactive STARK)]] - paper - references/ch02/ref-08-stark.pdf
-- [[DNA Profile Match (DPM) proof-of-concept benchmark]] - paper - references/ch02/ref-08-stark.pdf
-- [[Davies-Meyer hash over RijndaelAES (binary-field-friendly hash)]] - paper - references/ch02/ref-08-stark.pdf
-- [[Maximal interpolation degree d_max reduction (n·c·d vs prior n·c·w·d + n·c·s)]] - paper - references/ch02/ref-08-stark.pdf
-- [[Merkle-tree commit-reveal (Kilian cut-and-choose)]] - paper - references/ch02/ref-08-stark.pdf
-- [[Prior ZK-STIK for NPNEXP (Ben-Sasson et al. refs 17,15)]] - paper - references/ch02/ref-08-stark.pdf
-- [[Reed-Solomon Proximity Testing (RPT  low-degree testing) problem]] - paper - references/ch02/ref-08-stark.pdf
-- [[Register-based encoding (one RS codeword per register)]] - paper - references/ch02/ref-08-stark.pdf
-- [[SCI  quasi-linear PCP STARK (Ben-Sasson et al. 2016, ref 13)]] - paper - references/ch02/ref-08-stark.pdf
-- [[Scalable Transparent IOP of Knowledge (STIK)]] - paper - references/ch02/ref-08-stark.pdf
-- [[Scalable, Transparent, and Post-Quantum Secure Computational Integrity]] - paper - references/ch02/ref-08-stark.pdf
-- [[Theorem 3.4 — ZK-STIK for space-bounded computations]] - paper - references/ch02/ref-08-stark.pdf
-- [[Theorem 3.5 — wi-STIK for NEXP]] - paper - references/ch02/ref-08-stark.pdf
-- [[Transparency  public randomness (no trusted setup, Arthur-Merlin)]] - paper - references/ch02/ref-08-stark.pdf
-- [[ZK-SNARK  Zerocash (Zcash, non-transparent QSP-based, ref 1853)]] - paper - references/ch02/ref-08-stark.pdf
-- [[Zero-Knowledge Scalable Transparent ARgument of Knowledge (ZK-STARK)]] - paper - references/ch02/ref-08-stark.pdf
+- [[Age and nationality verification]] - document - references/recursion/ch3/ref-83-zkpassport-anon-aadhaar.md
+- [[Cited Mixicle (privacy-preserving oracle construction for binary options)]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Credential subject]] - document - references/recursion/ch3/ref-84-w3c-verifiable-credentials.md
+- [[EU eIDAS 2.0 (digital identity wallets, 450M users)]] - document - proving-nothing.md
+- [[Humanity Protocol (palm-vein biometric, $1.1B valuation)]] - document - proving-nothing.md
+- [[Issuer  Holder  Verifier roles]] - document - references/recursion/ch3/ref-84-w3c-verifiable-credentials.md
+- [[JSON-LD core data model and contexts]] - document - references/recursion/ch3/ref-84-w3c-verifiable-credentials.md
+- [[On-device proof generation (mobile passport NFC)]] - document - references/recursion/ch3/ref-83-zkpassport-anon-aadhaar.md
+- [[Partisia  Danish Student Credentials (ZK + MPC)]] - document - proving-nothing.md
+- [[Petra confidential SBOM exchange via CP-ABE (Ishgair et al.), main baseline contrasted with VeriSBOM]] - paper - references/recursion/ch3/ref-61-verisbom.pdf
+- [[Privacy Pools (0xbow, prove-innocence-not-identity)]] - document - proving-nothing.md
+- [[Selective Disclosure]] - document - proving-nothing.md
+- [[Three demo applications confidential binary option, legacy-to-anonymous age credential, price-discrimination claim]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Verifiable credentials]] - document - references/recursion/ch3/ref-84-w3c-verifiable-credentials.md
+- [[Verifiable presentation]] - document - references/recursion/ch3/ref-84-w3c-verifiable-credentials.md
+- [[W3C Verifiable Credentials Data Model v2.0]] - document - references/recursion/ch3/ref-84-w3c-verifiable-credentials.md
+- [[World (Worldcoin, iris-scanning orbs)]] - document - proving-nothing.md
+- [[ZK Identity]] - document - proving-nothing.md
+- [[ZKPassport  Anon-Aadhaar document-proof systems]] - document - references/recursion/ch3/ref-83-zkpassport-anon-aadhaar.md
+- [[ZKPassport SDK and QR verification card]] - document - references/recursion/ch3/ref-83-zkpassport-anon-aadhaar.md
+- [[Zero-knowledge proofs in verifiable credentials]] - document - references/recursion/ch3/ref-84-w3c-verifiable-credentials.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -41,21 +40,25 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 6 edges to [[_COMMUNITY_Community 0]]
-- 3 edges to [[_COMMUNITY_Community 15]]
-- 2 edges to [[_COMMUNITY_Community 35]]
-- 2 edges to [[_COMMUNITY_Community 2]]
-- 2 edges to [[_COMMUNITY_Community 10]]
+- 4 edges to [[_COMMUNITY_Community 97]]
+- 2 edges to [[_COMMUNITY_Community 22]]
+- 2 edges to [[_COMMUNITY_Community 3]]
 - 2 edges to [[_COMMUNITY_Community 27]]
-- 1 edge to [[_COMMUNITY_Community 22]]
-- 1 edge to [[_COMMUNITY_Community 12]]
-- 1 edge to [[_COMMUNITY_Community 29]]
-- 1 edge to [[_COMMUNITY_Community 40]]
-- 1 edge to [[_COMMUNITY_Community 74]]
+- 2 edges to [[_COMMUNITY_Community 40]]
+- 2 edges to [[_COMMUNITY_Community 6]]
+- 2 edges to [[_COMMUNITY_Community 35]]
+- 2 edges to [[_COMMUNITY_Community 103]]
+- 2 edges to [[_COMMUNITY_Community 29]]
+- 2 edges to [[_COMMUNITY_Community 52]]
+- 2 edges to [[_COMMUNITY_Community 53]]
+- 1 edge to [[_COMMUNITY_Community 7]]
+- 1 edge to [[_COMMUNITY_Community 15]]
+- 1 edge to [[_COMMUNITY_Community 100]]
+- 1 edge to [[_COMMUNITY_Community 24]]
 
 ## Top bridge nodes
-- [[Scalable, Transparent, and Post-Quantum Secure Computational Integrity]] - degree 26, connects to 9 communities
-- [[Zero-Knowledge Scalable Transparent ARgument of Knowledge (ZK-STARK)]] - degree 7, connects to 2 communities
-- [[Scalable Transparent IOP of Knowledge (STIK)]] - degree 6, connects to 1 community
-- [[Algebraic Linking Interactive Oracle Proof (ALI)]] - degree 3, connects to 1 community
-- [[Additive FFT over binary fields (Lin et al.)]] - degree 2, connects to 1 community
+- [[Selective Disclosure]] - degree 22, connects to 10 communities
+- [[ZK Identity]] - degree 9, connects to 4 communities
+- [[Verifiable credentials]] - degree 5, connects to 3 communities
+- [[ZKPassport  Anon-Aadhaar document-proof systems]] - degree 7, connects to 2 communities
+- [[Three demo applications confidential binary option, legacy-to-anonymous age credential, price-discrimination claim]] - degree 4, connects to 2 communities

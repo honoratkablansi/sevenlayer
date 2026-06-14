@@ -1,12 +1,12 @@
 ---
 source_file: "references/mooc/lecture01/slides.pdf"
 type: "paper"
-community: "Community 40"
+community: "Community 7"
 location: "ZKP MOOC Lecture 1 (transcript)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_40
+  - community/Community_7
 ---
 
 # Interactive Proof for Graph Non-Isomorphism
@@ -15,4 +15,4 @@ tags:
 - [[Interactive Proof (IP) prover-verifier protocol with statistical soundness]] - `uses` [EXTRACTED]
 - [[Zero-Knowledge Proof]] - `relates_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_40
+#graphify/paper #graphify/EXTRACTED #community/Community_7

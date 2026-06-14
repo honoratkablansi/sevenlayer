@@ -1,34 +1,34 @@
 ---
 type: community
-cohesion: 0.13
+cohesion: 0.18
 members: 19
 ---
 
 # Community 71
 
-**Cohesion:** 0.13 - loosely connected
+**Cohesion:** 0.18 - loosely connected
 **Members:** 19 nodes
 
 ## Members
-- [[A-la-carte cost profile for machine execution]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[Cross-Term Derivation]] - document - recursion/recursion-outline.md
-- [[CycleFold cycle-of-curves delegation technique]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[HyperNova NIVC-from-multifolding compiler (Construction 2)]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[HyperNova Recursive Arguments for Customizable Constraint Systems]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[Lemma 5 (Nova folding is blinding)]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[Lemma 610 (folding CCS is randomizing)]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[Linearized (committed) CCS relation]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[Multi-folding scheme (generalized folding)]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[Multi-folding scheme for CCS (Construction 1)]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[No commitments to cross-terms efficiency claim]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[NovaBlindFold folding-based zero-knowledge]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[Relaxed R1CS]] - document - proving-nothing.md
-- [[Sangria (folding scheme for Plonkish)]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[Single-MSM prover cost (size = variables)]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[Theorem 1 (multi-folding scheme for CCS)]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[Theorem 3 (HyperNova NIVC scheme)]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[Theorem 8 (nlookup multi-folding scheme)]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[nlookup lookup argument (Construction 8)]] - paper - references/ch06/ref-18-hypernova.pdf
+- [[(d,l)-Power Knowledge of Exponent assumption (Assumption 2), multivariate generalization of q-PKE]] - paper - references/recursion/ch3/ref-73-vsql.pdf
+- [[Avoiding relay gates inputsoutputs at arbitrary circuit layers via multilinear-extension combination (Eq. 2)]] - paper - references/recursion/ch3/ref-73-vsql.pdf
+- [[CMT extension supporting server-provided auxiliary input (non-deterministic computation) via committed multilinear extension]] - paper - references/recursion/ch3/ref-73-vsql.pdf
+- [[CMT protocol (Cormode-Mitzenmacher-Thaler interactive proof for layered arithmetic circuits)]] - paper - references/recursion/ch3/ref-73-vsql.pdf
+- [[Delegated-input technique client outsources database multilinear extension and verifies final CMT point via polynomial commitment]] - paper - references/recursion/ch3/ref-73-vsql.pdf
+- [[Empirical evaluation on TPC-H (6M rows, 13 columns); server up to 120x faster than SNARKs, comparable to IntegriDB]] - paper - references/recursion/ch3/ref-73-vsql.pdf
+- [[Expressive update support server commits to new database digest, verified by running CMT on update circuit]] - paper - references/recursion/ch3/ref-73-vsql.pdf
+- [[Extractable verifiable polynomial-delegation protocol with knowledge soundness (vSQL Construction 2)]] - paper - references/recursion/ch3/ref-73-vsql.pdf
+- [[IntegriDB (Zhang-Katz-Papamanthou), prior verifiable-SQL scheme compared against]] - paper - references/recursion/ch3/ref-73-vsql.pdf
+- [[Kate-Zaverucha-Goldberg  Papamanthou-Shi-Tamassia polynomial commitments extended by vSQL]] - paper - references/recursion/ch3/ref-73-vsql.pdf
+- [[Non-deterministic optimized zeroequality testing (x'=xy, z=x(1-xy)) replacing Fermat-based test; 80x speedup]] - paper - references/recursion/ch3/ref-73-vsql.pdf
+- [[O(zN) interactive set-intersection verification for joins via sorted-permutation product check]] - paper - references/recursion/ch3/ref-73-vsql.pdf
+- [[Outsourced and streaming computation]] - document - recursion/recursion-outline.md
+- [[Theorem 3 Construction 2 is a (extractable) verifiable polynomial-delegation protocol under Assumptions 1 and 2]] - paper - references/recursion/ch3/ref-73-vsql.pdf
+- [[Theorem 4 vSQL (Construction 3) is a verifiable database system for SQL queries given extractable polynomial delegation]] - paper - references/recursion/ch3/ref-73-vsql.pdf
+- [[Verifiable databases and analytics]] - document - recursion/recursion-outline.md
+- [[Zero-knowledge voting  governance]] - document - recursion/recursion-outline.md
+- [[q-Strong Diffie-Hellman assumption (Assumption 1)]] - paper - references/recursion/ch3/ref-73-vsql.pdf
+- [[vSQL verifiable database system for arbitrary SQL queries over dynamic outsourced databases]] - paper - references/recursion/ch3/ref-73-vsql.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -38,26 +38,20 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 9 edges to [[_COMMUNITY_Community 2]]
-- 6 edges to [[_COMMUNITY_Community 0]]
-- 3 edges to [[_COMMUNITY_Community 31]]
-- 3 edges to [[_COMMUNITY_Community 37]]
-- 3 edges to [[_COMMUNITY_Community 28]]
-- 2 edges to [[_COMMUNITY_Community 15]]
+- 3 edges to [[_COMMUNITY_Community 20]]
+- 3 edges to [[_COMMUNITY_Community 8]]
+- 3 edges to [[_COMMUNITY_Community 47]]
+- 2 edges to [[_COMMUNITY_Community 17]]
+- 2 edges to [[_COMMUNITY_Community 18]]
 - 2 edges to [[_COMMUNITY_Community 23]]
-- 2 edges to [[_COMMUNITY_Community 29]]
-- 1 edge to [[_COMMUNITY_Community 32]]
-- 1 edge to [[_COMMUNITY_Community 7]]
-- 1 edge to [[_COMMUNITY_Community 24]]
-- 1 edge to [[_COMMUNITY_Community 47]]
-- 1 edge to [[_COMMUNITY_Community 26]]
-- 1 edge to [[_COMMUNITY_Community 40]]
-- 1 edge to [[_COMMUNITY_Community 13]]
-- 1 edge to [[_COMMUNITY_Community 52]]
+- 2 edges to [[_COMMUNITY_Community 21]]
+- 1 edge to [[_COMMUNITY_Community 56]]
+- 1 edge to [[_COMMUNITY_Community 68]]
+- 1 edge to [[_COMMUNITY_Community 92]]
 
 ## Top bridge nodes
-- [[HyperNova Recursive Arguments for Customizable Constraint Systems]] - degree 25, connects to 12 communities
-- [[Relaxed R1CS]] - degree 8, connects to 5 communities
-- [[Multi-folding scheme for CCS (Construction 1)]] - degree 10, connects to 4 communities
-- [[CycleFold cycle-of-curves delegation technique]] - degree 4, connects to 2 communities
-- [[HyperNova NIVC-from-multifolding compiler (Construction 2)]] - degree 4, connects to 1 community
+- [[vSQL verifiable database system for arbitrary SQL queries over dynamic outsourced databases]] - degree 17, connects to 4 communities
+- [[CMT protocol (Cormode-Mitzenmacher-Thaler interactive proof for layered arithmetic circuits)]] - degree 8, connects to 4 communities
+- [[Outsourced and streaming computation]] - degree 7, connects to 4 communities
+- [[Extractable verifiable polynomial-delegation protocol with knowledge soundness (vSQL Construction 2)]] - degree 10, connects to 3 communities
+- [[Verifiable databases and analytics]] - degree 4, connects to 1 community

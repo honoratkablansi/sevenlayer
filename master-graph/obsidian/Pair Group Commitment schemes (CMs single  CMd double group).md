@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-33-snarkpack.pdf"
 type: "paper"
-community: "Community 94"
+community: "Community 61"
 location: "§4 Pair Group Commitment Schemes"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_94
+  - community/Community_61
 ---
 
 # Pair Group Commitment schemes (CMs single / CMd double group)
@@ -20,4 +20,4 @@ tags:
 - [[Reuse of two independent Groth16 powers-of-tau ceremonies (no new trusted setup)]] - `conceptually_related_to` [EXTRACTED]
 - [[SnarkPack Practical SNARK Aggregation]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_94
+#graphify/paper #graphify/EXTRACTED #community/Community_61

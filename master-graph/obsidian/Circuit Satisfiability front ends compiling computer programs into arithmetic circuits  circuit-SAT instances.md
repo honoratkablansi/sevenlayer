@@ -1,18 +1,18 @@
 ---
 source_file: "references/recursion/ch1/ref-20-thaler-proofs-arguments-zk.pdf"
 type: "paper"
-community: "Community 15"
+community: "Community 33"
 location: "ch 6 (Front Ends: Turning Programs Into Circuits)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_15
+  - community/Community_33
 ---
 
 # Circuit Satisfiability front ends: compiling computer programs into arithmetic circuits / circuit-SAT instances
 
 ## Connections
-- [[Arithmetic Circuit]] - `defines` [EXTRACTED]
+- [[Arithmetic Circuit]] - `relates_to` [EXTRACTED]
 - [[Execution Transcript  Purported Trace]] - `uses` [EXTRACTED]
 - [[Front End (Program-to-Circuit Compiler)]] - `reduces_to` [EXTRACTED]
 - [[GGPR Linear PCP (Gennaro-Gentry-Parno-Raykova)]] - `relates_to` [EXTRACTED]
@@ -22,10 +22,13 @@ tags:
 - [[Probabilistically Checkable Proofs (PCPs) compiling a PCP into a succinct argument via Merkle commitment]] - `relates_to` [EXTRACTED]
 - [[Progression-Free Sets NIZK]] - `uses` [EXTRACTED]
 - [[Proofs, Arguments, and Zero-Knowledge (Justin Thaler, survey textbook)]] - `explains` [EXTRACTED]
+- [[QAP (Quadratic Arithmetic Program)]] - `compiles_to` [EXTRACTED]
 - [[Quasilinear-Length PCP]] - `relates_to` [EXTRACTED]
 - [[R1CS (Rank-1 Constraint Systems)]] - `generalizes` [EXTRACTED]
+- [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `uses` [EXTRACTED]
 - [[Succinct Argument]] - `relates_to` [EXTRACTED]
 - [[Table Lookup Inside Circuit Satisfiability Instance]] - `reduces_to` [EXTRACTED]
+- [[Witness (private execution traceinputs)]] - `uses` [EXTRACTED]
 - [[Witness Generation]] - `uses` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_15
+#graphify/paper #graphify/EXTRACTED #community/Community_33

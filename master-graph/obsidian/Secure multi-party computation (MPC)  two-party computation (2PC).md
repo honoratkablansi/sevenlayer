@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-87-deco.pdf"
 type: "paper"
-community: "Community 9"
+community: "Community 35"
 location: "§2.2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_9
+  - community/Community_35
 ---
 
 # Secure multi-party computation (MPC) / two-party computation (2PC)
@@ -19,4 +19,4 @@ tags:
 - [[Trusted Setup Ceremony]] - `improves` [EXTRACTED]
 - [[Updatable and Universal Structured Reference String]] - `uses` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_9
+#graphify/paper #graphify/EXTRACTED #community/Community_35

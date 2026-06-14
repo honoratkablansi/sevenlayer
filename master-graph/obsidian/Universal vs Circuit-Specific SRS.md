@@ -1,18 +1,19 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 9"
+community: "Community 4"
 location: "Chapter 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_9
+  - community/Community_4
 ---
 
 # Universal vs Circuit-Specific SRS
 
 ## Connections
 - [[Groth16]] - `compares` [EXTRACTED]
+- [[KZG Polynomial Commitments from pairings (with trusted setup); Dory transparent pairing-based scheme]] - `uses` [EXTRACTED]
 - [[Linear-size monomial SRS {g{xi}, g{alpha xi}, h{xi}, h{alpha xi}, e(g,halpha)}, galpha omitted]] - `defines` [EXTRACTED]
 - [[Maller et al. — Sonic Universal and Updatable SRS (CCS 2019)]] - `cites` [EXTRACTED]
 - [[Marlin]] - `uses` [EXTRACTED]
@@ -28,4 +29,4 @@ tags:
 - [[Universal Updatable SRS Setup (Bowe-Gabizon-Miers)]] - `defines` [EXTRACTED]
 - [[Updatable and Universal Common Reference Strings with Applications to zk-SNARKs]] - `introduces` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_9
+#graphify/document #graphify/EXTRACTED #community/Community_4

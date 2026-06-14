@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-78-veritas.pdf"
 type: "paper"
-community: "Community 67"
+community: "Community 26"
 location: "§1, §3 Threat Model"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_67
+  - community/Community_26
 ---
 
 # C2PA (Coalition for Content Provenance and Authenticity) camera-signature standard
@@ -19,4 +19,4 @@ tags:
 - [[Media provenance]] - `introduces` [EXTRACTED]
 - [[VerITAS Verifying Image Transformations at Scale (Datta, Chen, Boneh, ePrint 20241066)]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_67
+#graphify/paper #graphify/EXTRACTED #community/Community_26

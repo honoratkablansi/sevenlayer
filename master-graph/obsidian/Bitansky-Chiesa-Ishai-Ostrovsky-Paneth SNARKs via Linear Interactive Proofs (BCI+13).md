@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-06-groth16.pdf"
 type: "paper"
-community: "Community 42"
+community: "Community 34"
 location: "§1, refs"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_42
+  - community/Community_34
 ---
 
 # Bitansky-Chiesa-Ishai-Ostrovsky-Paneth: SNARKs via Linear Interactive Proofs (BCI+13)
@@ -16,4 +16,4 @@ tags:
 - [[On the Size of Pairing-Based Non-interactive Arguments]] - `cites` [EXTRACTED]
 - [[Theorem 3 No NILP Has a Degree-1 (Linear) Verifier]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_42
+#graphify/paper #graphify/EXTRACTED #community/Community_34

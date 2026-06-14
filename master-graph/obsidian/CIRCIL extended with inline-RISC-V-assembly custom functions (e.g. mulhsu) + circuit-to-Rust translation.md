@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-61-arguzz.pdf"
 type: "paper"
-community: "Community 84"
+community: "Community 42"
 location: "§2 Steps 1-3, §3.1, Fig.6"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_84
+  - community/Community_42
 ---
 
 # CIRCIL extended with inline-RISC-V-assembly custom functions (e.g. mulhsu) + circuit-to-Rust translation
@@ -15,4 +15,4 @@ tags:
 - [[ARGUZZ first automated fuzzer for zkVM soundness & completeness bugs (7-step workflow)]] - `defines` [EXTRACTED]
 - [[CIRCUZZ 23 metamorphic fuzzer for ZK pipelines (CIRCOMGNARKNOIR) via CIRCIL]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_84
+#graphify/paper #graphify/EXTRACTED #community/Community_42

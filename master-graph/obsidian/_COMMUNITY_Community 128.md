@@ -1,19 +1,22 @@
 ---
 type: community
-cohesion: 0.50
-members: 4
+cohesion: 0.43
+members: 7
 ---
 
 # Community 128
 
-**Cohesion:** 0.50 - moderately connected
-**Members:** 4 nodes
+**Cohesion:** 0.43 - moderately connected
+**Members:** 7 nodes
 
 ## Members
-- [[Fiore-Nitulescu On the (in)security of SNARKs in the presence of oracles (TCC 2016) 50 — O-SNARK notion]] - paper - references/recursion/ch3/ref-59-zkbridge.pdf
-- [[Micali Computationally Sound Proofs (SIAM J. Comput. 2000) 60 — non-interactive ROM construction underlying Virgo]] - paper - references/recursion/ch3/ref-59-zkbridge.pdf
-- [[O-SNARK SNARK over authenticated data  oracle families (Fiore-Nitulescu); deVirgo is an O-SNARK in the random oracle model]] - paper - references/recursion/ch3/ref-59-zkbridge.pdf
-- [[Virgo Transparent Polynomial Delegation and ZK Proofs (Zhang-Xie-Zhang-Song, S&P 2020) 76 — base ZKP that deVirgo distributes]] - paper - references/recursion/ch3/ref-59-zkbridge.pdf
+- [[Aztec]] - document - wiki/sections/ch09-open-problems.md
+- [[Claim Privacy as Cross-Cutting Concern]] - document - proving-nothing.md
+- [[Kachina]] - document - proving-nothing.md
+- [[Leakage function Lambda]] - paper - references/ch09/ref-30-kachina.pdf
+- [[Privacy Architectures for Smart Contracts Kachina and Zexe]] - document - wiki/sections/ch09-privacy-architectures-for-smart-contracts-kachina-and-zexe.md
+- [[Private Smart Contracts]] - document - proving-nothing.md
+- [[Zexe]] - document - proving-nothing.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -23,10 +26,18 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 2 edges to [[_COMMUNITY_Community 75]]
-- 1 edge to [[_COMMUNITY_Community 21]]
-- 1 edge to [[_COMMUNITY_Community 18]]
+- 9 edges to [[_COMMUNITY_Community 27]]
+- 4 edges to [[_COMMUNITY_Community 3]]
+- 4 edges to [[_COMMUNITY_Community 41]]
+- 2 edges to [[_COMMUNITY_Community 48]]
+- 2 edges to [[_COMMUNITY_Community 10]]
+- 2 edges to [[_COMMUNITY_Community 5]]
+- 1 edge to [[_COMMUNITY_Community 15]]
+- 1 edge to [[_COMMUNITY_Community 52]]
 
 ## Top bridge nodes
-- [[Virgo Transparent Polynomial Delegation and ZK Proofs (Zhang-Xie-Zhang-Song, S&P 2020) 76 — base ZKP that deVirgo distributes]] - degree 4, connects to 3 communities
-- [[O-SNARK SNARK over authenticated data  oracle families (Fiore-Nitulescu); deVirgo is an O-SNARK in the random oracle model]] - degree 3, connects to 1 community
+- [[Privacy Architectures for Smart Contracts Kachina and Zexe]] - degree 12, connects to 4 communities
+- [[Private Smart Contracts]] - degree 9, connects to 4 communities
+- [[Zexe]] - degree 9, connects to 4 communities
+- [[Kachina]] - degree 6, connects to 3 communities
+- [[Aztec]] - degree 3, connects to 1 community

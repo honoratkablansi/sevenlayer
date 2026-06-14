@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch09/ref-30-kachina.pdf"
 type: "paper"
-community: "Community 110"
+community: "Community 114"
 location: "abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_110
+  - community/Community_114
 ---
 
 # Smart Contract
@@ -20,5 +20,6 @@ tags:
 - [[Transactional Privacy]] - `relates_to` [EXTRACTED]
 - [[Universal Composability (UC) Framework]] - `formalizes` [EXTRACTED]
 - [[Zero-Knowledge Proof]] - `uses` [EXTRACTED]
+- [[zkEVM  EVM-Compatible Proving]] - `relates_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_110
+#graphify/paper #graphify/EXTRACTED #community/Community_114

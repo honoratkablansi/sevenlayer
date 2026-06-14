@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-08-stark.pdf"
 type: "paper"
-community: "Community 54"
+community: "Community 65"
 location: "Def. B.5, Def. B.8"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_54
+  - community/Community_65
 ---
 
 # Binary AIR (BAIR) and Permuted AIR (PAIR)
@@ -15,4 +15,4 @@ tags:
 - [[Algebraic Intermediate Representation (AIR)]] - `conceptually_related_to` [EXTRACTED]
 - [[Algebraic Placement and Routing (APR) reduction]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_54
+#graphify/paper #graphify/EXTRACTED #community/Community_65

@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 4"
+community: "Community 91"
 location: "Chapter 9"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_4
+  - community/Community_91
 ---
 
 # Fully Homomorphic Encryption (FHE)
@@ -15,10 +15,12 @@ tags:
 - [[CirC Compiler Infrastructure for Proof Systems, Software Verification, and More]] - `conceptually_related_to` [EXTRACTED]
 - [[Composability When One PET Is Not Enough]] - `references` [EXTRACTED]
 - [[Computational Security]] - `conceptually_related_to` [EXTRACTED]
+- [[Correlation intractability the property whose circular dependency the attack circumvents by feeding the circuit its own digest as witness]] - `builds_on` [EXTRACTED]
 - [[FHE Bootstrapping]] - `explains` [EXTRACTED]
 - [[Fully Homomorphic Encryption Using Ideal Lattices]] - `introduces` [EXTRACTED]
 - [[Homomorphic encryption (Evaluate over encrypted data without decrypting)]] - `conceptually_related_to` [EXTRACTED]
 - [[KDM-security  circular security (self-loop of encrypted secret keys yields true FHE)]] - `conceptually_related_to` [EXTRACTED]
+- [[Learning With Errors (LWE) problem (Regev 2005)]] - `builds_on` [EXTRACTED]
 - [[On-Chain Verification in 2026]] - `references` [EXTRACTED]
 - [[Open Problems]] - `references` [EXTRACTED]
 - [[Privacy-Enhancing Technologies]] - `references` [EXTRACTED]
@@ -32,4 +34,4 @@ tags:
 - [[Verifiable computation]] - `uses` [EXTRACTED]
 - [[Zama Confidential Blockchain Protocol]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_4
+#graphify/document #graphify/EXTRACTED #community/Community_91

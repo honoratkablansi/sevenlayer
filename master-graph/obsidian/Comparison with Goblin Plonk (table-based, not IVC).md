@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-30-cyclefold.pdf"
 type: "paper"
-community: "Community 37"
+community: "Community 5"
 location: "§1.2 (Comparison with Goblin Plonk)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_37
+  - community/Community_5
 ---
 
 # Comparison with Goblin Plonk (table-based, not IVC)
@@ -16,4 +16,4 @@ tags:
 - [[CycleFold (ePrint 20231192)]] - `introduces` [EXTRACTED]
 - [[Recursive Proof Composition]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_37
+#graphify/paper #graphify/EXTRACTED #community/Community_5

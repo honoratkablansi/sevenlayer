@@ -1,58 +1,55 @@
 ---
 type: community
-cohesion: 0.08
-members: 43
+cohesion: 0.13
+members: 40
 ---
 
 # Community 15
 
-**Cohesion:** 0.08 - loosely connected
-**Members:** 43 nodes
+**Cohesion:** 0.13 - loosely connected
+**Members:** 40 nodes
 
 ## Members
-- [[Additively Homomorphic Encryption]] - paper - references/books/proofs-args-zk.pdf
-- [[Aurora]] - paper - references/snowball/book/ref-087-aurora-transparent-succinct-arguments-for-r1cs.pdf
-- [[Bivariate Low-Degree Testing (Polishchuk-Spielman)]] - paper - references/books/proofs-args-zk.pdf
-- [[Circuit Generator]] - paper - references/snowball/book/ref-071-succinct-non-interactive-zero-knowledge-for-a-vo.pdf
-- [[Circuit Satisfiability front ends compiling computer programs into arithmetic circuits  circuit-SAT instances]] - paper - references/recursion/ch1/ref-20-thaler-proofs-arguments-zk.pdf
-- [[Concurrent Execution]] - paper - references/snowball/recursion/ref-097-proving-the-correct-execution-of-concurrent-serv.pdf
-- [[Data-Parallel Computation]] - paper - references/snowball/recursion/ref-095-time-optimal-interactive-proofs-for-circuit-eval.pdf
-- [[GGPR Linear PCP (Gennaro-Gentry-Parno-Raykova)]] - paper - references/books/proofs-args-zk.pdf
-- [[Gemini Elastic SNARK]] - paper - references/snowball/book/ref-088-gemini-elastic-snarks-for-diverse-environments.pdf
-- [[Holographic Proof]] - paper - references/recursion/ch1/ref-10-fractal.pdf
-- [[Hybrid Protocol Architecture]] - paper - references/snowball/book/ref-143-a-hybrid-architecture-for-verifiable-computation.pdf
-- [[Interactive Oracle Proof (IOP) model]] - paper - references/ch02/ref-08-stark.pdf
-- [[Interactive Oracle Proofs]] - document - references/ch02/ref-08-stark.pdf
-- [[Linear PCP]] - paper - references/snowball/book/ref-086-succinct-non-interactive-arguments-via-linear-in.pdf
-- [[Linear PCP Commitment (IKO CommitReveal Protocol)]] - paper - references/books/proofs-args-zk.pdf
-- [[Linearity Testing (BLR)]] - paper - references/books/proofs-args-zk.pdf
-- [[Low-Degree Testing]] - paper - references/snowball/book/ref-080-fast-reed-solomon-interactive-oracle-proofs-of-p.pdf
-- [[MIP = NEXP]] - paper - references/books/proofs-args-zk.pdf
-- [[MPC-in-the-Head]] - paper - references/books/proofs-args-zk.pdf
-- [[Marlin]] - paper - references/snowball/book/ref-068-marlin-preprocessing-zksnarks-with-universal-an.pdf
-- [[Multi-Prover Interactive Proofs (MIPs) and succinct arguments for circuit satisfiability]] - paper - references/recursion/ch1/ref-20-thaler-proofs-arguments-zk.pdf
-- [[Non-Adaptivity in MIPs]] - paper - references/books/proofs-args-zk.pdf
-- [[Pantry Verifiable Computation with State]] - paper - references/snowball/book/ref-093-verifying-computations-with-state.pdf
-- [[Pinocchio]] - paper - references/snowball/book/ref-067-pinocchio-nearly-practical-verifiable-computati.pdf
-- [[Polynomial IOP  interactive oracle protocol]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
-- [[Probabilistically Checkable Proofs (PCPs) compiling a PCP into a succinct argument via Merkle commitment]] - paper - references/recursion/ch1/ref-20-thaler-proofs-arguments-zk.pdf
-- [[Proof of correct program execution]] - document - references/recursion/ch1/ref-28-risc-zero-technical-docs.md
-- [[Proofs, Arguments, and Zero-Knowledge (Justin Thaler, survey textbook)]] - paper - references/recursion/ch1/ref-20-thaler-proofs-arguments-zk.pdf
-- [[Public Verifiability]] - paper - references/snowball/book/ref-135-practical-delegation-of-computation-using-multip.pdf
-- [[Quasilinear-Length PCP]] - paper - references/books/proofs-args-zk.pdf
-- [[R1CS (Rank-1 Constraint Systems)]] - document - proving-nothing.md
-- [[RAM Verification]] - paper - references/snowball/book/ref-075-efficient-ram-and-control-flow-in-verifiable-out.pdf
-- [[Reed-Solomon Testing (Univariate Low-Degree Test)]] - paper - references/books/proofs-args-zk.pdf
-- [[Streaming Algorithm]] - paper - references/snowball/book/ref-088-gemini-elastic-snarks-for-diverse-environments.pdf
-- [[Streaming Verification]] - paper - references/snowball/recursion/ref-098-practical-verified-computation-with-streaming-in.pdf
-- [[Taxonomy of SNARKs (IP  MIP  IOP  Linear-PCP)]] - paper - references/books/proofs-args-zk.pdf
-- [[Untrusted Storage]] - paper - references/snowball/book/ref-093-verifying-computations-with-state.pdf
-- [[Vanishing Polynomial]] - paper - references/books/proofs-args-zk.pdf
-- [[Verifiable ASIC]] - paper - references/snowball/recursion/ref-112-full-accounting-for-verifiable-outsourcing.pdf
-- [[Verifiable State Machine]] - paper - references/snowball/recursion/ref-097-proving-the-correct-execution-of-concurrent-serv.pdf
-- [[Verifiable Storage Primitive]] - paper - references/snowball/recursion/ref-097-proving-the-correct-execution-of-concurrent-serv.pdf
-- [[Verifiable computation]] - document - references/recursion/ch1/ref-28-risc-zero-technical-docs.md
-- [[Von Neumann Architecture]] - paper - references/snowball/book/ref-071-succinct-non-interactive-zero-knowledge-for-a-vo.pdf
+- [[ARGUZZ Testing zkVMs for Soundness and Completeness Bugs]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Beanstalk]] - document - wiki/concepts/beanstalk.md
+- [[Bulletproofs  Inner Product Argument]] - document - proving-nothing.md
+- [[Coda]] - document - wiki/sections/ch14-coda.md
+- [[Constant-Time Proving]] - document - proving-nothing.md
+- [[Convergence]] - document - wiki/sections/ch14-convergence.md
+- [[Dataset of 141 SNARK vulnerabilities (107 audits, 16 disclosures, 18 bug-tracker; 2018-2024)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[Failure Cascade Structure (Internal DAG)]] - document - proving-nothing.md
+- [[Frozen Heart Forgery of Zero Knowledge Proofs (Trail of Bits, 2022)]] - document - references/ch06/ref-22-frozen-heart.md
+- [[How to Read This Guide]] - document - wiki/sections/ch01-how-to-read-this-guide.md
+- [[Hyrax polynomial commitment]] - document - proving-nothing.md
+- [[Jolt (zkVM via Lookups)]] - document - proving-nothing.md
+- [[Justin Thaler]] - document - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[L2Beat]] - document - wiki/sections/ch01-the-deepest-question.md
+- [[Lasso]] - document - proving-nothing.md
+- [[Methodology classify each bug by layer, type, root cause, and impact]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[NVIDIA]] - document - wiki/sections/ch14-the-seven-questions-that-remain-open.md
+- [[Open Questions and the Road Ahead]] - document - wiki/chapters/14-open-questions-and-the-road-ahead.md
+- [[Profiles of the Future (Arthur C. Clarke, 1962)]] - document - references/ch01/ref-01-clarke-profiles-of-the-future.md
+- [[Proving CPU Executions in Small Space]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Proving Nothing]] - document - proving-nothing.md
+- [[SNARK threat model adversarial roles (NetworkUserProver) and impacts (soundnesscompletenessZK)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[Seven-Layer ZK Model]] - document - proving-nothing.md
+- [[Sevenlayer Wiki Index]] - document - wiki/INDEX.md
+- [[Side-Channel Attacks When the Walls Leak]] - document - wiki/sections/ch04-side-channel-attacks-when-the-walls-leak.md
+- [[SoK What Don't We Know Understanding Security Vulnerabilities in SNARKs]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[Stage 2 Rollup Governance]] - document - proving-nothing.md
+- [[The Deepest Question]] - document - wiki/sections/ch01-the-deepest-question.md
+- [[The First Decision]] - document - wiki/sections/ch01-the-first-decision.md
+- [[The Phenomenon]] - document - wiki/sections/ch01-the-phenomenon.md
+- [[The Promise of Provable and Programmable Secrets]] - document - wiki/chapters/01-the-promise-of-provable-and-programmable-secrets.md
+- [[The Proof at the Door]] - document - wiki/sections/ch01-the-proof-at-the-door.md
+- [[The Seven Layers at a Glance]] - document - wiki/sections/ch01-the-seven-layers-at-a-glance.md
+- [[The Seven Questions That Remain Open]] - document - wiki/sections/ch14-the-seven-questions-that-remain-open.md
+- [[The Three Frontiers]] - document - wiki/sections/ch14-the-three-frontiers.md
+- [[The Trick]] - document - wiki/sections/ch01-the-trick.md
+- [[Three Converging Forces]] - document - wiki/sections/ch01-three-converging-forces.md
+- [[Tornado Cash]] - document - wiki/chapters/03-choreographing-the-act.md
+- [[Trust Decomposition Seven Weaker Assumptions]] - document - wiki/sections/ch10-trust-decomposition-seven-weaker-assumptions.md
+- [[Zcash]] - document - wiki/chapters/01-the-promise-of-provable-and-programmable-secrets.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -62,59 +59,58 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 13 edges to [[_COMMUNITY_Community 36]]
-- 12 edges to [[_COMMUNITY_Community 2]]
-- 11 edges to [[_COMMUNITY_Community 18]]
-- 10 edges to [[_COMMUNITY_Community 32]]
-- 10 edges to [[_COMMUNITY_Community 21]]
-- 10 edges to [[_COMMUNITY_Community 0]]
-- 9 edges to [[_COMMUNITY_Community 28]]
-- 7 edges to [[_COMMUNITY_Community 40]]
-- 6 edges to [[_COMMUNITY_Community 42]]
-- 5 edges to [[_COMMUNITY_Community 8]]
+- 48 edges to [[_COMMUNITY_Community 0]]
+- 37 edges to [[_COMMUNITY_Community 10]]
+- 35 edges to [[_COMMUNITY_Community 3]]
+- 29 edges to [[_COMMUNITY_Community 11]]
+- 28 edges to [[_COMMUNITY_Community 9]]
+- 26 edges to [[_COMMUNITY_Community 4]]
+- 23 edges to [[_COMMUNITY_Community 1]]
+- 15 edges to [[_COMMUNITY_Community 39]]
+- 9 edges to [[_COMMUNITY_Community 17]]
+- 9 edges to [[_COMMUNITY_Community 5]]
+- 8 edges to [[_COMMUNITY_Community 29]]
+- 6 edges to [[_COMMUNITY_Community 19]]
+- 5 edges to [[_COMMUNITY_Community 7]]
+- 5 edges to [[_COMMUNITY_Community 88]]
+- 5 edges to [[_COMMUNITY_Community 52]]
+- 5 edges to [[_COMMUNITY_Community 27]]
 - 4 edges to [[_COMMUNITY_Community 22]]
-- 4 edges to [[_COMMUNITY_Community 27]]
-- 4 edges to [[_COMMUNITY_Community 57]]
-- 4 edges to [[_COMMUNITY_Community 87]]
-- 3 edges to [[_COMMUNITY_Community 35]]
-- 3 edges to [[_COMMUNITY_Community 31]]
-- 3 edges to [[_COMMUNITY_Community 52]]
+- 3 edges to [[_COMMUNITY_Community 20]]
+- 3 edges to [[_COMMUNITY_Community 8]]
+- 3 edges to [[_COMMUNITY_Community 75]]
+- 3 edges to [[_COMMUNITY_Community 90]]
+- 3 edges to [[_COMMUNITY_Community 72]]
 - 3 edges to [[_COMMUNITY_Community 23]]
-- 3 edges to [[_COMMUNITY_Community 54]]
-- 2 edges to [[_COMMUNITY_Community 29]]
-- 2 edges to [[_COMMUNITY_Community 98]]
-- 2 edges to [[_COMMUNITY_Community 71]]
-- 2 edges to [[_COMMUNITY_Community 80]]
-- 2 edges to [[_COMMUNITY_Community 74]]
-- 2 edges to [[_COMMUNITY_Community 4]]
-- 2 edges to [[_COMMUNITY_Community 1]]
-- 1 edge to [[_COMMUNITY_Community 12]]
-- 1 edge to [[_COMMUNITY_Community 9]]
-- 1 edge to [[_COMMUNITY_Community 38]]
-- 1 edge to [[_COMMUNITY_Community 61]]
-- 1 edge to [[_COMMUNITY_Community 7]]
-- 1 edge to [[_COMMUNITY_Community 50]]
-- 1 edge to [[_COMMUNITY_Community 100]]
-- 1 edge to [[_COMMUNITY_Community 83]]
-- 1 edge to [[_COMMUNITY_Community 75]]
-- 1 edge to [[_COMMUNITY_Community 14]]
-- 1 edge to [[_COMMUNITY_Community 10]]
-- 1 edge to [[_COMMUNITY_Community 90]]
-- 1 edge to [[_COMMUNITY_Community 67]]
-- 1 edge to [[_COMMUNITY_Community 6]]
+- 3 edges to [[_COMMUNITY_Community 99]]
+- 3 edges to [[_COMMUNITY_Community 57]]
+- 3 edges to [[_COMMUNITY_Community 42]]
+- 2 edges to [[_COMMUNITY_Community 94]]
+- 2 edges to [[_COMMUNITY_Community 34]]
+- 2 edges to [[_COMMUNITY_Community 93]]
+- 2 edges to [[_COMMUNITY_Community 73]]
+- 1 edge to [[_COMMUNITY_Community 53]]
+- 1 edge to [[_COMMUNITY_Community 54]]
+- 1 edge to [[_COMMUNITY_Community 2]]
+- 1 edge to [[_COMMUNITY_Community 33]]
+- 1 edge to [[_COMMUNITY_Community 76]]
+- 1 edge to [[_COMMUNITY_Community 56]]
+- 1 edge to [[_COMMUNITY_Community 28]]
 - 1 edge to [[_COMMUNITY_Community 105]]
-- 1 edge to [[_COMMUNITY_Community 13]]
-- 1 edge to [[_COMMUNITY_Community 19]]
-- 1 edge to [[_COMMUNITY_Community 68]]
-- 1 edge to [[_COMMUNITY_Community 79]]
-- 1 edge to [[_COMMUNITY_Community 63]]
-- 1 edge to [[_COMMUNITY_Community 20]]
-- 1 edge to [[_COMMUNITY_Community 73]]
-- 1 edge to [[_COMMUNITY_Community 110]]
+- 1 edge to [[_COMMUNITY_Community 83]]
+- 1 edge to [[_COMMUNITY_Community 128]]
+- 1 edge to [[_COMMUNITY_Community 111]]
+- 1 edge to [[_COMMUNITY_Community 49]]
+- 1 edge to [[_COMMUNITY_Community 45]]
+- 1 edge to [[_COMMUNITY_Community 80]]
+- 1 edge to [[_COMMUNITY_Community 119]]
+- 1 edge to [[_COMMUNITY_Community 40]]
+- 1 edge to [[_COMMUNITY_Community 81]]
+- 1 edge to [[_COMMUNITY_Community 113]]
 
 ## Top bridge nodes
-- [[R1CS (Rank-1 Constraint Systems)]] - degree 81, connects to 36 communities
-- [[Verifiable computation]] - degree 27, connects to 14 communities
-- [[Proofs, Arguments, and Zero-Knowledge (Justin Thaler, survey textbook)]] - degree 19, connects to 12 communities
-- [[Interactive Oracle Proofs]] - degree 28, connects to 11 communities
-- [[Linear PCP]] - degree 13, connects to 5 communities
+- [[Open Questions and the Road Ahead]] - degree 49, connects to 20 communities
+- [[The Promise of Provable and Programmable Secrets]] - degree 49, connects to 17 communities
+- [[Bulletproofs  Inner Product Argument]] - degree 29, connects to 15 communities
+- [[The Seven Questions That Remain Open]] - degree 36, connects to 12 communities
+- [[Zcash]] - degree 34, connects to 11 communities

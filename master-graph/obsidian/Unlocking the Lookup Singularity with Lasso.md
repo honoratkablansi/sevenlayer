@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch03/ref-15-lasso.pdf"
 type: "paper"
-community: "Community 89"
+community: "Community 93"
 location: "p.1 (title/abstract)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_89
+  - community/Community_93
 ---
 
 # Unlocking the Lookup Singularity with Lasso
@@ -23,4 +23,4 @@ tags:
 - [[Sona transparent multilinear PCS (BabyHyrax + Nova) with O(1) commit size, O(1) verify, O(sqrt(N)) crypto eval-proof work]] - `introduces` [EXTRACTED]
 - [[Spartan]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_89
+#graphify/paper #graphify/EXTRACTED #community/Community_93

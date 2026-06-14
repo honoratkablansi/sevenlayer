@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch10-trustless-versus-trust-minimized.md"
 type: "document"
-community: "Community 12"
+community: "Community 4"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_12
+  - community/Community_4
 ---
 
 # "Trustless" versus "Trust-Minimized"
@@ -16,4 +16,4 @@ tags:
 - [[Trust Decomposition Seven Weaker Assumptions]] - `references` [EXTRACTED]
 - [[Trusted Setup Ceremony]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_12
+#graphify/document #graphify/EXTRACTED #community/Community_4

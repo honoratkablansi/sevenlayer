@@ -1,43 +1,41 @@
 ---
 type: community
-cohesion: 0.11
-members: 28
+cohesion: 0.12
+members: 26
 ---
 
 # Community 34
 
-**Cohesion:** 0.11 - loosely connected
-**Members:** 28 nodes
+**Cohesion:** 0.12 - loosely connected
+**Members:** 26 nodes
 
 ## Members
-- [[Batch circle FRI soundness error (Theorem 6, eps_PROX)]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[CFFT-friendly prime (p+1 divisible by 2(n+1))]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[Circle FFT and inverse (non-harmonic, Nn adds, Nn2 mults)]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[Circle FFT butterfly algorithm (radix-2 style, complex-extension twiddles)]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[Circle FRI low-degree test  IOP of proximity (Protocol 1 & 2)]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[Circle STARK AIR soundness & knowledge-soundness error (Theorem 78)]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[Circle STARK interactive oracle proof for AIR]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[Circle code (MDS algebraic-geometry  generalized Reed-Solomon code)]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[Circle group  circle curve x2+y2=1]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[Correlated agreement theorem for Reed-Solomon codes]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[DEEP single-point quotients (realimaginary parts over F(i))]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[Decomposition Lemma overall quotient split with dimension-gap scalar lambda]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[Elliptic Curve FFT (ECFFT)]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[FFT-basis B_n and FFT-space L'_N (dimension gap of co-dimension one)]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[Fast Fourier Transform (FFT)]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[Galois-FFT (G-FFT) over rational function field automorphisms]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[Group squaring map pi and inversion J (the two endomorphisms)]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[Isomorphism of circle curve to projective line P1 (genus zero, F+1 points)]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[Limit-at-infinity calculus for resolving the dimension gap]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[Mersenne FFT  Reed-Solomon codes over the circle group HLN23]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[Mersenne Prime Field]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[Mersenne Prime M31 (231 - 1)]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[Mersenne-31 vs Babybear FFT benchmark (1.4x speed-up)]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[Optimized non-zk circle STARK (eval domain superset of trace, group position)]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[Reed-Solomon proximity gaps  list-decoding]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[Space L_N of bivariate polynomials (Riemann-Roch space, dim N+1)]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[Twin-coset and standard position coset FFT domains]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[Vanishing polynomials v_n and domain quotients]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[2-Field-Element NILP via Squaring Gates]] - paper - references/ch02/ref-06-groth16.pdf
+- [[3-Element Pairing-based SNARK for Arithmetic Circuit SAT]] - paper - references/ch02/ref-06-groth16.pdf
+- [[Bitansky-Chiesa-Ishai-Ostrovsky-Paneth SNARKs via Linear Interactive Proofs (BCI+13)]] - paper - references/ch02/ref-06-groth16.pdf
+- [[Danezis-Fournet-Groth-Kohlweiss Square Span Programs (DFGK14)]] - paper - references/ch02/ref-06-groth16.pdf
+- [[Disclosure-free Common Reference String]] - paper - references/ch02/ref-06-groth16.pdf
+- [[Generic (Bilinear) Group Model]] - paper - references/ch02/ref-06-groth16.pdf
+- [[Gennaro, Gentry, Parno, Raykova - QAPNIZK (2012)]] - document - proving-nothing.md
+- [[Gennaro, Gentry, Parno, Raykova — QAP (Eurocrypt 2013)]] - document - proving-nothing.md
+- [[Gennaro-Gentry-Parno-Raykova QSPQAP and Succinct NIZKs (GGPR13)]] - paper - references/ch02/ref-06-groth16.pdf
+- [[Gentry-Wichs SNARGs Need Non-falsifiable Assumptions (GW11)]] - paper - references/ch02/ref-06-groth16.pdf
+- [[Linear Interactive Proof (LIP)]] - paper - references/ch02/ref-06-groth16.pdf
+- [[Master Polynomial]] - paper - references/mooc/lecture09/slides.pdf
+- [[Non-interactive Linear Proof (NILP) for Quadratic Arithmetic Programs]] - paper - references/ch02/ref-06-groth16.pdf
+- [[On the Size of Pairing-Based Non-interactive Arguments]] - paper - references/ch02/ref-06-groth16.pdf
+- [[Parno-Howell-Gentry-Raykova Pinocchio (PHGR13)]] - paper - references/ch02/ref-06-groth16.pdf
+- [[Polynomial Interpolation]] - paper - references/mooc/lecture09/slides.pdf
+- [[QAP (Quadratic Arithmetic Program)]] - document - proving-nothing.md
+- [[Relation Generator with Hard Decisional Problems]] - paper - references/ch02/ref-06-groth16.pdf
+- [[Selector Polynomial S(X)]] - paper - references/mooc/lecture05/slides.pdf
+- [[Shoup Lower Bounds for Discrete Logarithms (Generic Group Model) (Sho97)]] - paper - references/ch02/ref-06-groth16.pdf
+- [[Single Pairing-Product Verification Equation (3 pairings)]] - paper - references/ch02/ref-06-groth16.pdf
+- [[Split-NILP to Pairing-based NIZK Compiler]] - paper - references/ch02/ref-06-groth16.pdf
+- [[Theorem 2 Perfect ZK NIZK with Generic-Group Knowledge Soundness]] - paper - references/ch02/ref-06-groth16.pdf
+- [[Theorem 3 No NILP Has a Degree-1 (Linear) Verifier]] - paper - references/ch02/ref-06-groth16.pdf
+- [[Theorem 4 Pairing-based Arguments Need Elements in Both G1 and G2]] - paper - references/ch02/ref-06-groth16.pdf
+- [[Type III Asymmetric Bilinear Group]] - paper - references/ch02/ref-06-groth16.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -47,13 +45,30 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 5 edges to [[_COMMUNITY_Community 13]]
-- 2 edges to [[_COMMUNITY_Community 12]]
-- 1 edge to [[_COMMUNITY_Community 0]]
+- 8 edges to [[_COMMUNITY_Community 20]]
+- 6 edges to [[_COMMUNITY_Community 90]]
+- 4 edges to [[_COMMUNITY_Community 9]]
+- 4 edges to [[_COMMUNITY_Community 4]]
+- 4 edges to [[_COMMUNITY_Community 58]]
+- 3 edges to [[_COMMUNITY_Community 33]]
+- 3 edges to [[_COMMUNITY_Community 11]]
+- 2 edges to [[_COMMUNITY_Community 5]]
+- 2 edges to [[_COMMUNITY_Community 69]]
+- 2 edges to [[_COMMUNITY_Community 15]]
+- 2 edges to [[_COMMUNITY_Community 23]]
+- 1 edge to [[_COMMUNITY_Community 22]]
+- 1 edge to [[_COMMUNITY_Community 92]]
+- 1 edge to [[_COMMUNITY_Community 7]]
+- 1 edge to [[_COMMUNITY_Community 133]]
+- 1 edge to [[_COMMUNITY_Community 57]]
+- 1 edge to [[_COMMUNITY_Community 10]]
+- 1 edge to [[_COMMUNITY_Community 109]]
+- 1 edge to [[_COMMUNITY_Community 45]]
+- 1 edge to [[_COMMUNITY_Community 84]]
 
 ## Top bridge nodes
-- [[Circle group  circle curve x2+y2=1]] - degree 8, connects to 2 communities
-- [[Circle STARK interactive oracle proof for AIR]] - degree 8, connects to 1 community
-- [[Circle FRI low-degree test  IOP of proximity (Protocol 1 & 2)]] - degree 5, connects to 1 community
-- [[Elliptic Curve FFT (ECFFT)]] - degree 3, connects to 1 community
-- [[Mersenne Prime M31 (231 - 1)]] - degree 3, connects to 1 community
+- [[On the Size of Pairing-Based Non-interactive Arguments]] - degree 24, connects to 12 communities
+- [[QAP (Quadratic Arithmetic Program)]] - degree 25, connects to 10 communities
+- [[Linear Interactive Proof (LIP)]] - degree 10, connects to 6 communities
+- [[Generic (Bilinear) Group Model]] - degree 6, connects to 4 communities
+- [[3-Element Pairing-based SNARK for Arithmetic Circuit SAT]] - degree 10, connects to 3 communities

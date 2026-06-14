@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-32-nguyen-boneh-setty-nova-cycle.pdf"
 type: "paper"
-community: "Community 0"
+community: "Community 39"
 location: "Bibliography [3]; §3 (vk argument)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Community_39
 ---
 
 # Dao, Miller, Wright, Grubbs — Weak Fiat-Shamir attacks on modern proof systems (2023) [3]
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Fiat-Shamir verification key vk = H(pp, R1CS) must enter every random-oracle call to preserve folding-verifier soundness]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_0
+#graphify/paper #graphify/EXTRACTED #community/Community_39

@@ -1,30 +1,32 @@
 ---
 type: community
-cohesion: 0.16
-members: 15
+cohesion: 0.15
+members: 17
 ---
 
 # Community 85
 
-**Cohesion:** 0.16 - loosely connected
-**Members:** 15 nodes
+**Cohesion:** 0.15 - loosely connected
+**Members:** 17 nodes
 
 ## Members
-- [[Address-grouping suffices (a-group + t-order) instead of full (a,t)-ordering]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
-- [[Blum, Evans, Gemmell, Kannan, Naor - Checking Correctness of Memories (1991)]] - document - proving-nothing.md
-- [[Claim 4 public-coin multiset hash H_{tau,gamma} via Reed-Solomon fingerprinting; multiset equality with soundness error O((A+B)F)]] - paper - references/ch03/ref-15-lasso.pdf
-- [[Conditional uniqueness AIP Pi_c-uniq, V-cost 6A+O(1)]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
-- [[Cost claim first volatile RAM proof with V-cost independent of N (up to 32.9% time cut)]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
-- [[Grand Product Argument (accumulator polynomial Z)]] - paper - references/ch02/ref-07-plonk.pdf
-- [[Lagrange Basis over Multiplicative Subgroup]] - paper - references/ch02/ref-07-plonk.pdf
-- [[Offline Memory Checking]] - document - proving-nothing.md
-- [[Scribe (BMM24) readwrite-streaming-pass SNARK adapting HyperPlonk PIOP]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[Spice readwrite memory-checking argument (offline, grand-product based)]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[Streaming grand products via depth-first traversal of multiplication-gate tree]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[UniqBez divide-and-conquer Bezout coefficient computation (4.5 A log2 A)]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
-- [[Uniqueness AIP Pi_uniq (gcd(z,z')=1 via Bezout), V-cost 4A+O(1)]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
-- [[Universal keyed hashes coefficient hash H_c and root hash H_r]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
-- [[Volatile RAM AIP (zeroed init, uncommitted final)]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[ADOPT ceremony desiderata Available, Decentralized, Open, Persistent, Transparent]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
+- [[Ceremony attackfailure modes malicious abort, biased coordinator randomness, lost transcripts, software bugs, weak BN254 base point]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
+- [[Ethereum KZG ceremony (141416 contributors, 10 implementations, model transparency example)]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
+- [[Formal trusted setup protocol definition (processchannel tuple, corruption threshold t, trapdoor s)]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
+- [[MMORPG framework (Massively Multiparty Open Reusable Parameter Generation; two-phase Groth16 setup)]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
+- [[Pre-commitment layer defending against adaptive bias of contribution tau_j]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
+- [[Protocol security properties correctness, gamma-epsilon trapdoor-confidentiality, consistency, (m,epsilon)-robustness]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
+- [[Protocol vs. ceremony distinction (mathematical protocol vs real-world instantiation)]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
+- [[Random Beacon Model]] - document - references/ch02/ref-05-mpc-random-beacon.pdf
+- [[Round-robin non-parallelizable model, secure under n-1 dishonest (dishonest-majority) participants]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
+- [[Six ceremony best-practice lessons (multi impl + audit, diverse participation, air-gapped machines, geographic isolation, diverse randomness, public verifiable log)]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
+- [[Snarky Ceremonies (relaxed-security MMORPG variant; no random beacon needed)]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
+- [[SoK Trusted Setups for Powers-of-Tau Strings]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
+- [[Survey of 40+ real-world ceremonies (Aleo, Aztec, Filecoin, Hermez, Ethereum KZG, Manta, ZKSync, etc.)]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
+- [[Surveyed setup protocols (BCDTV15, BGG17, BGM17, KMSV21, KKK21, CDKS22, NRBB22)]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
+- [[Zcash Sapling ceremony (2018, two-phase MMORPG, Groth16, BLS12-381)]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
+- [[Zcash Sprout ceremony (2016, six participants, BCTV14, first major PoT ceremony)]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -34,20 +36,17 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 5 edges to [[_COMMUNITY_Community 100]]
-- 4 edges to [[_COMMUNITY_Community 65]]
-- 3 edges to [[_COMMUNITY_Community 77]]
-- 2 edges to [[_COMMUNITY_Community 13]]
-- 2 edges to [[_COMMUNITY_Community 2]]
-- 2 edges to [[_COMMUNITY_Community 80]]
-- 2 edges to [[_COMMUNITY_Community 31]]
-- 1 edge to [[_COMMUNITY_Community 89]]
-- 1 edge to [[_COMMUNITY_Community 28]]
-- 1 edge to [[_COMMUNITY_Community 125]]
+- 13 edges to [[_COMMUNITY_Community 4]]
+- 5 edges to [[_COMMUNITY_Community 58]]
+- 2 edges to [[_COMMUNITY_Community 27]]
+- 2 edges to [[_COMMUNITY_Community 69]]
+- 1 edge to [[_COMMUNITY_Community 20]]
+- 1 edge to [[_COMMUNITY_Community 56]]
+- 1 edge to [[_COMMUNITY_Community 84]]
 
 ## Top bridge nodes
-- [[Offline Memory Checking]] - degree 14, connects to 6 communities
-- [[Grand Product Argument (accumulator polynomial Z)]] - degree 11, connects to 5 communities
-- [[Volatile RAM AIP (zeroed init, uncommitted final)]] - degree 8, connects to 2 communities
-- [[Uniqueness AIP Pi_uniq (gcd(z,z')=1 via Bezout), V-cost 4A+O(1)]] - degree 5, connects to 2 communities
-- [[Spice readwrite memory-checking argument (offline, grand-product based)]] - degree 3, connects to 1 community
+- [[SoK Trusted Setups for Powers-of-Tau Strings]] - degree 13, connects to 4 communities
+- [[Random Beacon Model]] - degree 7, connects to 4 communities
+- [[MMORPG framework (Massively Multiparty Open Reusable Parameter Generation; two-phase Groth16 setup)]] - degree 9, connects to 2 communities
+- [[Formal trusted setup protocol definition (processchannel tuple, corruption threshold t, trapdoor s)]] - degree 4, connects to 1 community
+- [[Zcash Sprout ceremony (2016, six participants, BCTV14, first major PoT ceremony)]] - degree 4, connects to 1 community

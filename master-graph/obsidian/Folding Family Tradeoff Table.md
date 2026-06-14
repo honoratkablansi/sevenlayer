@@ -1,12 +1,12 @@
 ---
 source_file: "recursion/recursion-outline.md"
 type: "document"
-community: "Community 37"
+community: "Community 5"
 location: "Recursion Chapter 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_37
+  - community/Community_5
 ---
 
 # Folding Family Tradeoff Table
@@ -19,4 +19,4 @@ tags:
 - [[Sonobe Library]] - `references` [EXTRACTED]
 - [[SuperNova (Non-Uniform IVC)]] - `compares` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_37
+#graphify/document #graphify/EXTRACTED #community/Community_5

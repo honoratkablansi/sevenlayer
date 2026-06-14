@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-45-small-space-cpu-proofs.pdf"
 type: "paper"
-community: "Community 53"
+community: "Community 42"
 location: "§1.1.4; §1.3.1; §6 (Lee21)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_53
+  - community/Community_42
 ---
 
 # Dory transparent polynomial commitment scheme (log-round, sqrt-space prover)
@@ -16,4 +16,4 @@ tags:
 - [[Polynomial Commitment Scheme]] - `conceptually_related_to` [EXTRACTED]
 - [[Theorem 7.1 Jolt prover in S=O(K+log T) space and O(T log T) time]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_53
+#graphify/paper #graphify/EXTRACTED #community/Community_42

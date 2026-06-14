@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch2/ref-48-sonobe.md"
 type: "document"
-community: "Community 45"
+community: "Community 43"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_45
+  - community/Community_43
 ---
 
 # Sonobe library documentation (PSE/0xPARC)
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[Recursion References (cited works)]] - `cites` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_45
+#graphify/document #graphify/EXTRACTED #community/Community_43

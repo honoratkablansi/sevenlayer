@@ -1,21 +1,22 @@
 ---
 type: community
-cohesion: 0.40
-members: 6
+cohesion: 0.33
+members: 7
 ---
 
 # Community 131
 
-**Cohesion:** 0.40 - moderately connected
-**Members:** 6 nodes
+**Cohesion:** 0.33 - loosely connected
+**Members:** 7 nodes
 
 ## Members
-- [[Computational Diffie-Hellman (CDH) Assumption]] - paper - references/books/proofs-args-zk.pdf
-- [[Cyclic Group]] - paper - references/books/proofs-args-zk.pdf
-- [[Decisional Diffie-Hellman (DDH) assumption over secp256k1]] - paper - references/recursion/ch3/ref-88-provisions.pdf
-- [[Discrete Logarithm Assumption]] - document - references/ch02/ref-09-bulletproofs.pdf
-- [[Elliptic Curve Group]] - paper - references/books/proofs-args-zk.pdf
-- [[Theorem 4  A.2 split accumulation for a Pedersen-based polynomial commitment predicate (ROM, DL)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
+- [[Bootle et al. (BCC+16) Inner-Product Argument]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Improved Inner-Product Argument (2 log2 n)]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Pedersen Vector Commitment]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Pinocchio Arithmetic Circuit Format]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Single Multi-Exponentiation Verifier & Batch Verification]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Theorem 5 Arithmetic Circuit Protocol Soundness]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Zero-Knowledge Proof for Arithmetic Circuits (Protocol 3)]] - paper - references/ch02/ref-09-bulletproofs.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -25,22 +26,13 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 5 edges to [[_COMMUNITY_Community 32]]
-- 2 edges to [[_COMMUNITY_Community 11]]
-- 2 edges to [[_COMMUNITY_Community 71]]
-- 2 edges to [[_COMMUNITY_Community 99]]
-- 2 edges to [[_COMMUNITY_Community 105]]
-- 1 edge to [[_COMMUNITY_Community 8]]
-- 1 edge to [[_COMMUNITY_Community 72]]
-- 1 edge to [[_COMMUNITY_Community 98]]
-- 1 edge to [[_COMMUNITY_Community 47]]
-- 1 edge to [[_COMMUNITY_Community 57]]
-- 1 edge to [[_COMMUNITY_Community 1]]
-- 1 edge to [[_COMMUNITY_Community 44]]
-- 1 edge to [[_COMMUNITY_Community 22]]
-- 1 edge to [[_COMMUNITY_Community 73]]
+- 2 edges to [[_COMMUNITY_Community 90]]
+- 2 edges to [[_COMMUNITY_Community 75]]
+- 1 edge to [[_COMMUNITY_Community 56]]
+- 1 edge to [[_COMMUNITY_Community 70]]
 
 ## Top bridge nodes
-- [[Discrete Logarithm Assumption]] - degree 21, connects to 12 communities
-- [[Decisional Diffie-Hellman (DDH) assumption over secp256k1]] - degree 4, connects to 2 communities
-- [[Theorem 4  A.2 split accumulation for a Pedersen-based polynomial commitment predicate (ROM, DL)]] - degree 4, connects to 2 communities
+- [[Improved Inner-Product Argument (2 log2 n)]] - degree 7, connects to 3 communities
+- [[Bootle et al. (BCC+16) Inner-Product Argument]] - degree 3, connects to 1 community
+- [[Pedersen Vector Commitment]] - degree 2, connects to 1 community
+- [[Theorem 5 Arithmetic Circuit Protocol Soundness]] - degree 2, connects to 1 community

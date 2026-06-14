@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 126"
+community: "Community 9"
 location: "Chapter 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_126
+  - community/Community_9
 ---
 
 # Chaliasos et al. — SoK: Understanding Security Vulnerabilities in SNARKs (USENIX Security 2024)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[CVE-2019-7167 BCTV14 Counterfeiting Bug]] - `cites` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_126
+#graphify/document #graphify/EXTRACTED #community/Community_9

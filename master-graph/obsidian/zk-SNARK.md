@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch13/ref-42-gvr-zkp-market-report.md"
 type: "document"
-community: "Community 75"
+community: "Community 87"
 location: "Type Insights"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_75
+  - community/Community_87
 ---
 
 # zk-SNARK
@@ -22,6 +22,7 @@ tags:
 - [[Proof-of-inference first ImageNet-scale ZK-SNARK proof of valid DNN inference (MobileNet v2), 79% top-5 accuracy, verifiable in ~10s]] - `assumes` [EXTRACTED]
 - [[Provisions privacy-preserving proof of solvency for Bitcoin exchanges]] - `cites` [EXTRACTED]
 - [[R1CS (Rank-1 Constraint Systems)]] - `conceptually_related_to` [EXTRACTED]
+- [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `generalizes` [EXTRACTED]
 - [[Scaling up Trustless DNN Inference with Zero-Knowledge Proofs (Kang, Hashimoto, Stoica, Sun, 2022)]] - `assumes` [EXTRACTED]
 - [[Theorem 3.1 bridge BRSC1-SC2 satisfies consistency and liveness given one honest relay node, a consistentlive sender chain, a light-client verifier, and a sound proof system]] - `assumes` [EXTRACTED]
 - [[Theorem 4.1 deVirgo (Protocol 8) is an argument of knowledge with completeness and knowledge soundness for relation C(x,w)=1]] - `assumes` [EXTRACTED]
@@ -31,7 +32,8 @@ tags:
 - [[VerITAS Verifying Image Transformations at Scale (Datta, Chen, Boneh, ePrint 20241066)]] - `assumes` [EXTRACTED]
 - [[Xie et al., zkBridge Trustless Cross-chain Bridges Made Practical (CCS 2022)]] - `assumes` [EXTRACTED]
 - [[ZKML (Zero-Knowledge Machine Learning)]] - `assumes` [EXTRACTED]
+- [[Zero-Knowledge Proof]] - `uses` [EXTRACTED]
 - [[Zero-Knowledge Proof Market Size, Share & Trends Analysis Report (Grand View Research)]] - `references` [EXTRACTED]
 - [[Zerocash]] - `assumes` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_75
+#graphify/document #graphify/EXTRACTED #community/Community_87

@@ -1,0 +1,98 @@
+[
+  {
+    "label": "lecture02",
+    "video_id": "bGEXYpt3sj0",
+    "slides_url": "https://rdi.berkeley.edu/zk-learning/assets/Lecture2-2023.pdf",
+    "title": "ZKP MOOC Lecture 2: Overview of Modern SNARK Constructions"
+  },
+  {
+    "label": "lecture03",
+    "video_id": "UpRSaG6iuks",
+    "slides_url": "https://rdi.berkeley.edu/zk-learning/assets/lecture3-2023.pdf",
+    "title": "ZKP MOOC Lecture 3: Programming ZKPs"
+  },
+  {
+    "label": "lecture04",
+    "video_id": "4018OYyoAf8",
+    "slides_url": "https://rdi.berkeley.edu/zk-learning/assets/lecture4.pdf",
+    "title": "ZKP MOOC Lecture 4: Interactive Proofs"
+  },
+  {
+    "label": "lecture05",
+    "video_id": "A0oZVEXav24",
+    "slides_url": "https://rdi.berkeley.edu/zk-learning/assets/lecture5-2023.pdf",
+    "title": "ZKP MOOC Lecture 5: The Plonk SNARK"
+  },
+  {
+    "label": "lecture06",
+    "video_id": "WyT5KkKBJUw",
+    "slides_url": "https://rdi.berkeley.edu/zk-learning/assets/lecture6.pdf",
+    "title": "ZKP MOOC Lecture 6: Polynomial Commitments based on Pairing and Discrete Logarithm"
+  },
+  {
+    "label": "lecture07",
+    "video_id": "1S7ZjqG9uyI",
+    "slides_url": "https://rdi.berkeley.edu/zk-learning/assets/lecture7.pdf",
+    "title": "ZKP MOOC Lecture 7: Polynomial Commitments based on Error-correcting Codes"
+  },
+  {
+    "label": "lecture08",
+    "video_id": "A3edAQDPnDY",
+    "slides_url": "https://rdi.berkeley.edu/zk-learning/assets/lecture8.pdf",
+    "title": "ZKP MOOC Lecture 8: FRI-based Polynomial Commitments and Fiat-Shamir"
+  },
+  {
+    "label": "lecture09",
+    "video_id": "I7TXIHXamwM",
+    "slides_url": "https://rdi.berkeley.edu/zk-learning/assets/lecture9.pdf",
+    "title": "ZKP MOOC Lecture 9: SNARKs based on Linear PCP"
+  },
+  {
+    "label": "lecture10",
+    "video_id": "0LW-qeVe6QI",
+    "slides_url": "https://rdi.berkeley.edu/zk-learning/assets/lecture10.pdf",
+    "title": "ZKP MOOC Lecture 10: Recursive SNARKs"
+  },
+  {
+    "label": "lecture11",
+    "video_id": "CIGnBb8B0rQ",
+    "slides_url": "https://rdi.berkeley.edu/zk-learning/assets/lecture11.pdf",
+    "title": "ZKP MOOC Lecture 11: From Practice to Theory"
+  },
+  {
+    "label": "lecture12",
+    "video_id": "vuQGdbpDWcs",
+    "slides_url": "https://rdi.berkeley.edu/zk-learning/assets/lecture12.pdf",
+    "title": "ZKP MOOC Lecture 12: zkEVM Design, Optimization and Applications"
+  },
+  {
+    "label": "lecture13-opcode",
+    "video_id": "Crzw7ccuHd0",
+    "slides_url": "https://rdi.berkeley.edu/zk-learning/assets/lecture_opcode.pdf",
+    "title": "Keyboard shortcuts"
+  },
+  {
+    "label": "lecture13-privacy",
+    "video_id": "1o3cl42bs40",
+    "slides_url": "https://rdi.berkeley.edu/zk-learning/assets/lecture_privacy.pdf",
+    "title": "Keyboard shortcuts"
+  },
+  {
+    "label": "lecture13-dawnsong",
+    "video_id": "0bKasr4G7OM",
+    "slides_url": "https://rdi.berkeley.edu/zk-learning/assets/dawnsong-lecture.pdf",
+    "title": "Keyboard shortcuts"
+  },
+  {
+    "label": "lecture13-yupeng",
+    "video_id": "tbEsv2afhko",
+    "slides_url": "https://rdi.berkeley.edu/zk-learning/assets/yupeng-lecture.pdf",
+    "title": "Keyboard shortcuts"
+  },
+  {
+    "label": "lecture14",
+    "video_id": "av7Wq742GIA",
+    "slides_url": "https://rdi.berkeley.edu/zk-learning/assets/lecture14.pdf",
+    "title": "ZKP MOOC Lecture 15: Secure ZK Circuits with Formal Methods"
+  }
+]

@@ -1,20 +1,19 @@
 ---
-source_file: "proving-nothing.md"
-type: "document"
-community: "Community 14"
-location: "Chapter 4"
+source_file: "references/mooc/lecture12/slides.pdf"
+type: "paper"
+community: "Community 113"
+location: "ZKP MOOC Lecture 12"
 tags:
-  - graphify/document
+  - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_14
+  - community/Community_113
 ---
 
 # Execution Trace
 
 ## Connections
-- [[Execution Traces]] - `defines` [EXTRACTED]
-- [[The Secret Performance]] - `defines` [EXTRACTED]
-- [[Witness (private execution traceinputs)]] - `conceptually_related_to` [EXTRACTED]
-- [[Witness Generation]] - `explains` [EXTRACTED]
+- [[EVM Circuit]] - `uses` [EXTRACTED]
+- [[EVM Opcode]] - `defines` [EXTRACTED]
+- [[Witness Generation]] - `uses` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_14
+#graphify/paper #graphify/EXTRACTED #community/Community_113

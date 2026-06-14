@@ -1,12 +1,12 @@
 ---
 source_file: "references/books/proofs-args-zk.pdf"
 type: "paper"
-community: "Community 29"
+community: "Community 90"
 location: "Polynomial Commitments from Discrete Log (Bulletproofs)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_29
+  - community/Community_90
 ---
 
 # Recursive Halving in Inner Product Argument
@@ -15,4 +15,4 @@ tags:
 - [[Inner Product Argument (IPABulletproofs)]] - `uses` [EXTRACTED]
 - [[Logarithmic Proof Size]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_29
+#graphify/paper #graphify/EXTRACTED #community/Community_90

@@ -1,47 +1,47 @@
 ---
 type: community
-cohesion: 0.12
+cohesion: 0.08
 members: 32
 ---
 
 # Community 24
 
-**Cohesion:** 0.12 - loosely connected
+**Cohesion:** 0.08 - loosely connected
 **Members:** 32 nodes
 
 ## Members
-- [[Barreto & Naehrig BN05 - prime-order curves with k=12 (discriminant D=3)]] - paper - references/recursion/ch1/ref-13-chiesa-chua-weidner-cycles.pdf
-- [[Ben-Sasson, Chiesa, Tromer, Virza BCTV14 - introduced pairing-friendly cycles for recursive SNARK composition]] - paper - references/recursion/ch1/ref-13-chiesa-chua-weidner-cycles.pdf
-- [[CM discriminant D  complex multiplication method]] - paper - references/recursion/ch1/ref-13-chiesa-chua-weidner-cycles.pdf
-- [[Chiesa, Chua & Weidner, On Cycles of Pairing-Friendly Elliptic Curves (2019)]] - paper - references/recursion/ch1/ref-13-chiesa-chua-weidner-cycles.pdf
-- [[Cited Ben-Sasson-Chiesa-Tromer-Virza, Scalable ZK via cycles of elliptic curves (CRYPTO 2014)]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
-- [[Compatibility Hell (cross-layer alignment)]] - document - recursion/recursion-outline.md
-- [[Construction of a new pairing-friendly 4-cycle of MNT curves]] - paper - references/recursion/ch1/ref-13-chiesa-chua-weidner-cycles.pdf
-- [[Cycles of Elliptic Curves]] - document - references/ch06/ref-17-nova.pdf
-- [[Cyclotomic polynomial characterization of embedding degree (n  Phi_k(q))]] - paper - references/recursion/ch1/ref-13-chiesa-chua-weidner-cycles.pdf
-- [[Definition pairing-friendly (k1,...,km)-cycle of ordinary curves with small embedding degrees]] - paper - references/recursion/ch1/ref-13-chiesa-chua-weidner-cycles.pdf
-- [[Dual elliptic primes equivalent to 2-cycles of ordinary curves (Prop. 10)]] - paper - references/recursion/ch1/ref-13-chiesa-chua-weidner-cycles.pdf
-- [[Elliptic Curve Cryptography]] - paper - references/snowball/book/ref-106-a-taxonomy-of-pairing-friendly-elliptic-curves.pdf
-- [[Embedding degree k]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
-- [[Field mismatch (q != r forced by embedding degree)]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
-- [[Field-Mismatch Problem (base vs scalar field)]] - document - recursion/recursion-outline.md
-- [[Freeman Fre06 - prime-order curve family with k=10]] - paper - references/recursion/ch1/ref-13-chiesa-chua-weidner-cycles.pdf
-- [[Full Recursion (in-circuit verifier embedding)]] - document - recursion/recursion-outline.md
-- [[Grobner-basis investigation no mixed MNTFreemanBN cycles of length =4 beyond Prop. 2]] - paper - references/recursion/ch1/ref-13-chiesa-chua-weidner-cycles.pdf
-- [[Lemma 4 sum of traces of an m-cycle equals m (necessary condition)]] - paper - references/recursion/ch1/ref-13-chiesa-chua-weidner-cycles.pdf
-- [[MNT curves (embedding degrees 4 and 6)]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
-- [[Menezes, Okamoto & Vanstone MOV93 - MOV reduction; supersingular embedding degree = 6]] - paper - references/recursion/ch1/ref-13-chiesa-chua-weidner-cycles.pdf
-- [[Miyaji, Nakabayashi & Takano MNT01 - characterization of prime-order curves with k=3,4,6]] - paper - references/recursion/ch1/ref-13-chiesa-chua-weidner-cycles.pdf
-- [[Nguyen, Boneh, Setty, Revisiting the Nova Proof System on a Cycle of Curves (ePrint 2023969)]] - document - recursion/recursion-outline.md
-- [[Nguyen-Boneh-Setty Bug Study]] - document - recursion/recursion-outline.md
-- [[Pairing-friendly elliptic curves]] - paper - references/recursion/ch1/ref-13-chiesa-chua-weidner-cycles.pdf
-- [[Prop. 2 all MNT cycles have length 2 or 4, alternating embedding degrees (6,4) or (6,4,6,4)]] - paper - references/recursion/ch1/ref-13-chiesa-chua-weidner-cycles.pdf
-- [[Prop. 3 no (5,10)-, (8,8)-, or (12,12)-cycles exist (deg Phi_k = 4 case)]] - paper - references/recursion/ch1/ref-13-chiesa-chua-weidner-cycles.pdf
-- [[Prop. 5 m-cycle of curves with fixed discriminant D3 has m=2 (D=3 gives m=6)]] - paper - references/recursion/ch1/ref-13-chiesa-chua-weidner-cycles.pdf
-- [[Prop. 7 no m-cycles (m1) with nontrivial cofactors for large q (composite-order cycles cannot exist)]] - paper - references/recursion/ch1/ref-13-chiesa-chua-weidner-cycles.pdf
-- [[Props. 8-9 no cycles consisting only of Freeman (k=10) or only of Barreto-Naehrig (k=12) curves]] - paper - references/recursion/ch1/ref-13-chiesa-chua-weidner-cycles.pdf
-- [[Silverman & Stange SS11 - aliquot cycles of elliptic curves, existence Prop. 1]] - paper - references/recursion/ch1/ref-13-chiesa-chua-weidner-cycles.pdf
-- [[Worked Intuition the Proof of a Proof]] - document - recursion/recursion-outline.md
+- [[Aggregation Trees (zkTree cost model)]] - document - recursion/recursion-outline.md
+- [[Applicative recursion (application-aware proof + input compression)]] - document - references/recursion/ch3/ref-53-starkware-recursive-starks.md
+- [[Ben-Sasson, Chiesa, Tromer, Virza Scalable Zero Knowledge via cycles of elliptic curves 4]] - paper - references/recursion/ch1/ref-05-halo.pdf
+- [[Bitansky, Canetti, Chiesa, Tromer, Recursive composition and bootstrapping for SNARKs and proof-carrying data (STOC 2013) 9]] - paper - references/recursion/ch3/ref-77-photoproof.pdf
+- [[Bunz, Chiesa, Lin, Mishra, Spooner — Proof-carrying data without succinct arguments (CRYPTO 2021) 2]] - paper - references/recursion/ch1/ref-32-nguyen-boneh-setty-nova-cycle.pdf
+- [[Cited Bitansky-Canetti-Chiesa-Tromer, Recursive composition  PCD (STOC 2013)]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
+- [[Fractal Post-quantum and Transparent Recursive Proofs from Holography (Chiesa-Ojha-Spooner, EUROCRYPT 2020) 45]] - paper - references/recursion/ch3/ref-59-zkbridge.pdf
+- [[Incrementally-computable SNARK for a state transition system]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
+- [[L3 deployments on top of L2 via recursive verifier]] - document - references/recursion/ch3/ref-53-starkware-recursive-starks.md
+- [[Logarithmic verification compression of STARK proofs]] - document - references/recursion/ch3/ref-53-starkware-recursive-starks.md
+- [[Midnight Sealed Certificate (Case Study)]] - document - proving-nothing.md
+- [[NEBRA]] - document - proving-nothing.md
+- [[Nebra UPA whitepaper (Universal Proof Aggregation)]] - document - references/recursion/ch1/ref-22-nebra-upa.md
+- [[Off-chain recursion, single aggregated onchain proof]] - document - references/recursion/ch1/ref-22-nebra-upa.md
+- [[Onchain ZKP settlement  verification cost]] - document - references/recursion/ch1/ref-22-nebra-upa.md
+- [[Proof Aggregation]] - document - proving-nothing.md
+- [[RISC Zero Recursion Circuit]] - document - references/recursion/ch1/ref-18-risc-zero-proof-system-overview.md
+- [[Real-time zkVM pipeline case study]] - document - recursion/recursion-outline.md
+- [[Recursion Shifts Cost, It Doesn't Eliminate It]] - document - recursion/recursion-outline.md
+- [[Recursion via cycles of elliptic curves (Ben-Sasson et al.)]] - paper - references/recursion/ch1/ref-21-zktree.pdf
+- [[Recursive Proof Composition]] - paper - references/ch06/ref-17-nova.pdf
+- [[Recursive SNARK]] - document - references/recursion/ch1/ref-22-nebra-upa.md
+- [[Recursive STARK proving]] - document - references/recursion/ch3/ref-53-starkware-recursive-starks.md
+- [[SHARP (SHARed Prover)]] - document - references/recursion/ch3/ref-53-starkware-recursive-starks.md
+- [[STARK-to-SNARK Recursion]] - document - references/recursion/ch1/ref-17-polygon-zkevm-docs.md
+- [[StarkWare, Recursive STARKs (2022)]] - document - references/recursion/ch3/ref-53-starkware-recursive-starks.md
+- [[State transition system (Sigma, T, Update) abstraction for blockchains]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
+- [[The Recursion Gap (prove-vs-run overhead)]] - document - recursion/recursion-outline.md
+- [[Three Core Capabilities compression, incrementality, composability]] - document - recursion/recursion-outline.md
+- [[Universal Proof Aggregation (UPA)]] - document - references/recursion/ch1/ref-22-nebra-upa.md
+- [[Valiant — Incrementally verifiable computation (TCC 2008) 18]] - paper - references/recursion/ch1/ref-32-nguyen-boneh-setty-nova-cycle.pdf
+- [[When Not to Recurse (crossover heuristics)]] - document - recursion/recursion-outline.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -51,27 +51,47 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 6 edges to [[_COMMUNITY_Community 87]]
-- 6 edges to [[_COMMUNITY_Community 19]]
-- 5 edges to [[_COMMUNITY_Community 37]]
-- 4 edges to [[_COMMUNITY_Community 70]]
-- 3 edges to [[_COMMUNITY_Community 0]]
-- 3 edges to [[_COMMUNITY_Community 91]]
-- 3 edges to [[_COMMUNITY_Community 103]]
-- 2 edges to [[_COMMUNITY_Community 2]]
-- 2 edges to [[_COMMUNITY_Community 38]]
-- 2 edges to [[_COMMUNITY_Community 55]]
-- 1 edge to [[_COMMUNITY_Community 17]]
-- 1 edge to [[_COMMUNITY_Community 71]]
-- 1 edge to [[_COMMUNITY_Community 5]]
-- 1 edge to [[_COMMUNITY_Community 78]]
-- 1 edge to [[_COMMUNITY_Community 56]]
-- 1 edge to [[_COMMUNITY_Community 49]]
-- 1 edge to [[_COMMUNITY_Community 12]]
+- 7 edges to [[_COMMUNITY_Community 9]]
+- 7 edges to [[_COMMUNITY_Community 18]]
+- 6 edges to [[_COMMUNITY_Community 5]]
+- 6 edges to [[_COMMUNITY_Community 16]]
+- 6 edges to [[_COMMUNITY_Community 25]]
+- 5 edges to [[_COMMUNITY_Community 0]]
+- 4 edges to [[_COMMUNITY_Community 29]]
+- 4 edges to [[_COMMUNITY_Community 39]]
+- 4 edges to [[_COMMUNITY_Community 87]]
+- 4 edges to [[_COMMUNITY_Community 55]]
+- 4 edges to [[_COMMUNITY_Community 26]]
+- 4 edges to [[_COMMUNITY_Community 77]]
+- 4 edges to [[_COMMUNITY_Community 2]]
+- 4 edges to [[_COMMUNITY_Community 64]]
+- 3 edges to [[_COMMUNITY_Community 11]]
+- 3 edges to [[_COMMUNITY_Community 61]]
+- 3 edges to [[_COMMUNITY_Community 76]]
+- 3 edges to [[_COMMUNITY_Community 96]]
+- 3 edges to [[_COMMUNITY_Community 6]]
+- 3 edges to [[_COMMUNITY_Community 48]]
+- 2 edges to [[_COMMUNITY_Community 33]]
+- 2 edges to [[_COMMUNITY_Community 20]]
+- 2 edges to [[_COMMUNITY_Community 53]]
+- 2 edges to [[_COMMUNITY_Community 56]]
+- 2 edges to [[_COMMUNITY_Community 103]]
+- 2 edges to [[_COMMUNITY_Community 31]]
+- 1 edge to [[_COMMUNITY_Community 8]]
+- 1 edge to [[_COMMUNITY_Community 90]]
+- 1 edge to [[_COMMUNITY_Community 104]]
+- 1 edge to [[_COMMUNITY_Community 108]]
+- 1 edge to [[_COMMUNITY_Community 130]]
+- 1 edge to [[_COMMUNITY_Community 3]]
+- 1 edge to [[_COMMUNITY_Community 125]]
+- 1 edge to [[_COMMUNITY_Community 54]]
+- 1 edge to [[_COMMUNITY_Community 89]]
+- 1 edge to [[_COMMUNITY_Community 139]]
+- 1 edge to [[_COMMUNITY_Community 28]]
 
 ## Top bridge nodes
-- [[Cycles of Elliptic Curves]] - degree 40, connects to 13 communities
-- [[Embedding degree k]] - degree 12, connects to 3 communities
-- [[MNT curves (embedding degrees 4 and 6)]] - degree 11, connects to 3 communities
-- [[Chiesa, Chua & Weidner, On Cycles of Pairing-Friendly Elliptic Curves (2019)]] - degree 20, connects to 1 community
-- [[Pairing-friendly elliptic curves]] - degree 9, connects to 1 community
+- [[Recursive Proof Composition]] - degree 83, connects to 28 communities
+- [[Proof Aggregation]] - degree 31, connects to 16 communities
+- [[STARK-to-SNARK Recursion]] - degree 5, connects to 4 communities
+- [[Recursive SNARK]] - degree 5, connects to 3 communities
+- [[The Recursion Gap (prove-vs-run overhead)]] - degree 4, connects to 3 communities

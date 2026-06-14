@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-06-groth16.pdf"
 type: "paper"
-community: "Community 42"
+community: "Community 34"
 location: "§1, §1.1, refs"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_42
+  - community/Community_34
 ---
 
 # Gentry-Wichs: SNARGs Need Non-falsifiable Assumptions (GW11)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[On the Size of Pairing-Based Non-interactive Arguments]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_42
+#graphify/paper #graphify/EXTRACTED #community/Community_34

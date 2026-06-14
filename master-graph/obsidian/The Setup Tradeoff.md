@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch02-the-setup-tradeoff.md"
 type: "document"
-community: "Community 35"
+community: "Community 4"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_35
+  - community/Community_4
 ---
 
 # The Setup Tradeoff
@@ -20,4 +20,4 @@ tags:
 - [[The Quantum Shelf Life]] - `references` [EXTRACTED]
 - [[Trusted Setup Ceremony]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_35
+#graphify/document #graphify/EXTRACTED #community/Community_4

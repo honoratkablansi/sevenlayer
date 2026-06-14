@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch01-the-seven-layers-at-a-glance.md"
 type: "document"
-community: "Community 12"
+community: "Community 15"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_12
+  - community/Community_15
 ---
 
 # The Seven Layers at a Glance
@@ -26,4 +26,4 @@ tags:
 - [[Trusted Setup Ceremony]] - `conceptually_related_to` [EXTRACTED]
 - [[Zcash]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_12
+#graphify/document #graphify/EXTRACTED #community/Community_15

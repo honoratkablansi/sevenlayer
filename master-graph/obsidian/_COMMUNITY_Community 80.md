@@ -1,32 +1,32 @@
 ---
 type: community
-cohesion: 0.19
+cohesion: 0.16
 members: 17
 ---
 
 # Community 80
 
-**Cohesion:** 0.19 - loosely connected
+**Cohesion:** 0.16 - loosely connected
 **Members:** 17 nodes
 
 ## Members
-- [[All RISC-V instructions are decomposable (main technical contribution)]] - paper - references/ch03/ref-16-jolt.pdf
-- [[Comparison vs RISC Zero (~34), Cairo-VM (~13), Plonk per CPU step]] - paper - references/ch03/ref-16-jolt.pdf
-- [[Decomposable tables]] - paper - references/ch03/ref-16-jolt.pdf
-- [[Generalized-Lasso vs Lasso auditabilityperformance tradeoff (2x-3x cost)]] - paper - references/ch03/ref-16-jolt.pdf
-- [[Jolt SNARKs for Virtual Machines via Lookups]] - paper - references/ch03/ref-16-jolt.pdf
-- [[Lasso]] - document - proving-nothing.md
-- [[Lasso companion paper STW23 (Setty, Thaler, Wahby 2023)]] - paper - references/ch03/ref-16-jolt.pdf
-- [[Lemma 2 RS and WS are permutations iff every read returns last-written (value,count)]] - paper - references/ch03/ref-16-jolt.pdf
-- [[MLE-structured tables]] - paper - references/ch03/ref-16-jolt.pdf
-- [[MSM commitment via Pippenger's algorithm]] - paper - references/ch03/ref-16-jolt.pdf
-- [[Per-instruction MLE-structured evaluation tables (EQ, LTU, SLL, ANDORXOR, ADDSUB, MUL)]] - paper - references/ch03/ref-16-jolt.pdf
-- [[Prover commits to ~6 256-bit field elements per RISC-V CPU step]] - paper - references/ch03/ref-16-jolt.pdf
-- [[Single collation polynomial g for concatenated instruction tables]] - paper - references/ch03/ref-16-jolt.pdf
-- [[Single giant 2128 RISC-V lookup table T_risc-vopcodexy]] - paper - references/ch03/ref-16-jolt.pdf
-- [[Spartan applied to uniform R1CS (no commitment to A,B,C matrices)]] - paper - references/ch03/ref-16-jolt.pdf
-- [[Spice-based memory-checking optimized with Lasso (max via lookup)]] - paper - references/ch03/ref-16-jolt.pdf
-- [[Virtual instructions and virtual registers (MULH, DIVREM, MOVSIGN, ADVICE, ASSERT)]] - paper - references/ch03/ref-16-jolt.pdf
+- [[Additive Homomorphism of Commitments]] - paper - references/books/proofs-args-zk.pdf
+- [[Commit-and-Prove SNARK]] - document - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[Commitment Scheme]] - paper - references/ch06/ref-21-neo.pdf
+- [[Computational Binding]] - paper - references/books/proofs-args-zk.pdf
+- [[Computational Zero-Knowledge]] - paper - references/books/proofs-args-zk.pdf
+- [[Fiat-Shamir heuristic (interactive to non-interactive compilation)]] - paper - references/recursion/ch3/ref-88-provisions.pdf
+- [[Multiplicative Complexity (of a Circuit)]] - paper - references/books/proofs-args-zk.pdf
+- [[NP-Completeness and Reducibility]] - paper - references/mooc/lecture01/slides.pdf
+- [[One-Way Function]] - paper - references/mooc/lecture01/slides.pdf
+- [[Pay-Per-Bit Commitment]] - paper - references/ch06/ref-21-neo.pdf
+- [[Ring-SIS]] - paper - references/snowball/recursion/ref-133-a-non-pcp-approach-to-succinct-quantum-safe-zero.pdf
+- [[Schnorr Proof System]] - document - references/ch06/ref-22-frozen-heart.md
+- [[Sigma protocol (public-coin 3-move)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
+- [[Special Soundness]] - paper - references/books/proofs-args-zk.pdf
+- [[Three-Coloring Zero-Knowledge Proof (GMW)]] - paper - references/mooc/lecture01/slides.pdf
+- [[ZKP Applications (Blockchain, Forensics, Nuclear Disarmament, Legal)]] - paper - references/mooc/lecture01/slides.pdf
+- [[Zero-Knowledge from Interactive Proofs (GKR-based)]] - paper - references/books/proofs-args-zk.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -36,25 +36,28 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 6 edges to [[_COMMUNITY_Community 2]]
-- 6 edges to [[_COMMUNITY_Community 13]]
-- 3 edges to [[_COMMUNITY_Community 21]]
-- 3 edges to [[_COMMUNITY_Community 89]]
-- 3 edges to [[_COMMUNITY_Community 12]]
-- 3 edges to [[_COMMUNITY_Community 77]]
-- 2 edges to [[_COMMUNITY_Community 15]]
-- 2 edges to [[_COMMUNITY_Community 85]]
-- 2 edges to [[_COMMUNITY_Community 27]]
-- 1 edge to [[_COMMUNITY_Community 20]]
-- 1 edge to [[_COMMUNITY_Community 28]]
-- 1 edge to [[_COMMUNITY_Community 1]]
+- 8 edges to [[_COMMUNITY_Community 56]]
+- 7 edges to [[_COMMUNITY_Community 22]]
+- 3 edges to [[_COMMUNITY_Community 33]]
+- 3 edges to [[_COMMUNITY_Community 7]]
+- 2 edges to [[_COMMUNITY_Community 20]]
+- 2 edges to [[_COMMUNITY_Community 8]]
+- 2 edges to [[_COMMUNITY_Community 81]]
 - 1 edge to [[_COMMUNITY_Community 17]]
-- 1 edge to [[_COMMUNITY_Community 99]]
-- 1 edge to [[_COMMUNITY_Community 40]]
+- 1 edge to [[_COMMUNITY_Community 39]]
+- 1 edge to [[_COMMUNITY_Community 14]]
+- 1 edge to [[_COMMUNITY_Community 15]]
+- 1 edge to [[_COMMUNITY_Community 75]]
+- 1 edge to [[_COMMUNITY_Community 45]]
+- 1 edge to [[_COMMUNITY_Community 13]]
+- 1 edge to [[_COMMUNITY_Community 31]]
+- 1 edge to [[_COMMUNITY_Community 10]]
+- 1 edge to [[_COMMUNITY_Community 5]]
+- 1 edge to [[_COMMUNITY_Community 41]]
 
 ## Top bridge nodes
-- [[Lasso]] - degree 26, connects to 10 communities
-- [[Jolt SNARKs for Virtual Machines via Lookups]] - degree 25, connects to 8 communities
-- [[All RISC-V instructions are decomposable (main technical contribution)]] - degree 3, connects to 1 community
-- [[Per-instruction MLE-structured evaluation tables (EQ, LTU, SLL, ANDORXOR, ADDSUB, MUL)]] - degree 3, connects to 1 community
-- [[Spice-based memory-checking optimized with Lasso (max via lookup)]] - degree 3, connects to 1 community
+- [[Commitment Scheme]] - degree 17, connects to 9 communities
+- [[Sigma protocol (public-coin 3-move)]] - degree 17, connects to 9 communities
+- [[Commit-and-Prove SNARK]] - degree 11, connects to 4 communities
+- [[Schnorr Proof System]] - degree 5, connects to 4 communities
+- [[ZKP Applications (Blockchain, Forensics, Nuclear Disarmament, Legal)]] - degree 3, connects to 2 communities

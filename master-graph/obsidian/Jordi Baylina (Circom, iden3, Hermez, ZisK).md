@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 98"
+community: "Community 94"
 location: "Chapter 3"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_98
+  - community/Community_94
 ---
 
 # Jordi Baylina (Circom, iden3, Hermez, ZisK)
@@ -16,4 +16,4 @@ tags:
 - [[From Circuits to Virtual Machines A Brief Evolution]] - `references` [EXTRACTED]
 - [[PolygonHermez zkEVM sunset and Baylina's pivot to ZisKRISC-V]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_98
+#graphify/document #graphify/EXTRACTED #community/Community_94

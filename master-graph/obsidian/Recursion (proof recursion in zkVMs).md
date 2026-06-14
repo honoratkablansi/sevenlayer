@@ -1,16 +1,17 @@
 ---
 source_file: "references/recursion/ch1/ref-27-succinct-sp1-docs.md"
 type: "document"
-community: "Community 0"
+community: "Community 5"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Community_5
 ---
 
 # Recursion (proof recursion in zkVMs)
 
 ## Connections
+- [[2-cycle of elliptic curves (BN254Grumpkin)]] - `enables` [EXTRACTED]
 - [[Accumulation Schemes]] - `generalizes` [EXTRACTED]
 - [[Bilinear Pairing]] - `uses` [EXTRACTED]
 - [[Bootstrapping (FHE)]] - `implements` [EXTRACTED]
@@ -18,6 +19,7 @@ tags:
 - [[Cycles of Elliptic Curves]] - `enabled-by` [EXTRACTED]
 - [[Discrete Logarithm Assumption]] - `based_on` [EXTRACTED]
 - [[Folding Scheme]] - `enables` [INFERRED]
+- [[Halo  Nested Amortization Recursion]] - `uses` [EXTRACTED]
 - [[Incrementally Verifiable Computation (IVC)]] - `uses` [EXTRACTED]
 - [[LaBRADOR Proof System]] - `uses` [EXTRACTED]
 - [[Layer 5 -- The Sealed Certificate]] - `references` [EXTRACTED]
@@ -25,12 +27,13 @@ tags:
 - [[Nova Recursive Zero-Knowledge Arguments from Folding Schemes]] - `conceptually_related_to` [EXTRACTED]
 - [[Polynomial Commitment Scheme]] - `relates_to` [EXTRACTED]
 - [[Privacy Architectures for Smart Contracts Kachina and Zexe]] - `references` [EXTRACTED]
+- [[Proof Aggregation]] - `relates_to` [EXTRACTED]
 - [[Proof-Carrying Data (PCD)]] - `uses` [EXTRACTED]
 - [[Proving CPU Executions in Small Space]] - `references` [EXTRACTED]
 - [[R1CS (Rank-1 Constraint Systems)]] - `uses` [EXTRACTED]
 - [[Recursion vs. Folding Russian Dolls and Snowballs]] - `defines` [EXTRACTED]
-- [[Recursive Proof Composition]] - `conceptually_related_to` [INFERRED]
-- [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `uses` [EXTRACTED]
+- [[Recursive Proof Composition]] - `defines` [INFERRED]
+- [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `builds_on` [EXTRACTED]
 - [[SNARK Recursion vs. Folding The Full Picture]] - `references` [EXTRACTED]
 - [[SP1 Hypercube]] - `references` [EXTRACTED]
 - [[Shipping an L1 zkEVM 2 The Security Foundations (Ethereum Foundation)]] - `references` [EXTRACTED]
@@ -43,4 +46,4 @@ tags:
 - [[The Synthesis -- Three Paths, Not Two]] - `references` [EXTRACTED]
 - [[zkVM]] - `relates_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/document #graphify/EXTRACTED #community/Community_5

@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch06-recursion-vs-folding-russian-dolls-and-snowballs.md"
 type: "document"
-community: "Community 0"
+community: "Community 5"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Community_5
 ---
 
 # Recursion vs. Folding: Russian Dolls and Snowballs
@@ -24,4 +24,4 @@ tags:
 - [[The Hybrid Pipeline]] - `references` [EXTRACTED]
 - [[Zexe]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/document #graphify/EXTRACTED #community/Community_5

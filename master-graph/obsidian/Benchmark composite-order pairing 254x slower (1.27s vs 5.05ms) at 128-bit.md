@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-51-pairing-efficiency-curves.pdf"
 type: "paper"
-community: "Community 49"
+community: "Community 134"
 location: "§5 Tab.6"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_49
+  - community/Community_134
 ---
 
 # Benchmark: composite-order pairing 254x slower (1.27s vs 5.05ms) at 128-bit
@@ -18,4 +18,4 @@ tags:
 - [[LibCryptoLCH Cx86-64 asm implementation (Thales)]] - `proves` [EXTRACTED]
 - [[Recommendation avoid composite-order groups whenever possible]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_49
+#graphify/paper #graphify/EXTRACTED #community/Community_134

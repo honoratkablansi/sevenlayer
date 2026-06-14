@@ -1,20 +1,23 @@
 ---
 type: community
-cohesion: 0.50
-members: 5
+cohesion: 0.32
+members: 8
 ---
 
 # Community 124
 
-**Cohesion:** 0.50 - moderately connected
-**Members:** 5 nodes
+**Cohesion:** 0.32 - loosely connected
+**Members:** 8 nodes
 
 ## Members
-- [[Additive Homomorphism of Commitments]] - paper - references/books/proofs-args-zk.pdf
-- [[Commit-and-Prove SNARK]] - document - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
-- [[Multiplicative Complexity (of a Circuit)]] - paper - references/books/proofs-args-zk.pdf
-- [[Special Soundness]] - paper - references/books/proofs-args-zk.pdf
-- [[Zero-Knowledge from Interactive Proofs (GKR-based)]] - paper - references/books/proofs-args-zk.pdf
+- [[Abstract Interpretation]] - paper - references/mooc/lecture14/slides.pdf
+- [[Apposcopy inter-component call graph (ICCG) abstraction]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
+- [[Circuit Dependence Graph (CDG)]] - document - references/ch03/ref-13-practical-security-zk-circuits.pdf
+- [[Circuit Dependence Graph (CDG) abstraction G=(V,Ed,Ec)]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
+- [[Constrained Horn Clause  Datalog query]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
+- [[Datalog-style CDG construction inference rules]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
+- [[Static Analysis]] - document - references/ch03/ref-13-practical-security-zk-circuits.pdf
+- [[Vanguard Static Analyzer]] - paper - references/mooc/lecture14/slides.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -24,14 +27,18 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 4 edges to [[_COMMUNITY_Community 29]]
-- 2 edges to [[_COMMUNITY_Community 100]]
-- 1 edge to [[_COMMUNITY_Community 22]]
-- 1 edge to [[_COMMUNITY_Community 32]]
-- 1 edge to [[_COMMUNITY_Community 112]]
-- 1 edge to [[_COMMUNITY_Community 21]]
+- 4 edges to [[_COMMUNITY_Community 94]]
+- 3 edges to [[_COMMUNITY_Community 86]]
+- 2 edges to [[_COMMUNITY_Community 21]]
+- 2 edges to [[_COMMUNITY_Community 73]]
+- 1 edge to [[_COMMUNITY_Community 20]]
+- 1 edge to [[_COMMUNITY_Community 1]]
+- 1 edge to [[_COMMUNITY_Community 113]]
+- 1 edge to [[_COMMUNITY_Community 42]]
 
 ## Top bridge nodes
-- [[Commit-and-Prove SNARK]] - degree 11, connects to 5 communities
-- [[Special Soundness]] - degree 3, connects to 2 communities
-- [[Additive Homomorphism of Commitments]] - degree 2, connects to 1 community
+- [[Static Analysis]] - degree 9, connects to 5 communities
+- [[Circuit Dependence Graph (CDG)]] - degree 6, connects to 4 communities
+- [[Circuit Dependence Graph (CDG) abstraction G=(V,Ed,Ec)]] - degree 6, connects to 2 communities
+- [[Vanguard Static Analyzer]] - degree 4, connects to 2 communities
+- [[Constrained Horn Clause  Datalog query]] - degree 2, connects to 1 community

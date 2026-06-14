@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-10-sok-powers-of-tau.pdf"
 type: "paper"
-community: "Community 9"
+community: "Community 85"
 location: "§1 Protocols vs. ceremonies"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_9
+  - community/Community_85
 ---
 
 # Protocol vs. ceremony distinction (mathematical protocol vs real-world instantiation)
@@ -15,4 +15,4 @@ tags:
 - [[SoK Trusted Setups for Powers-of-Tau Strings]] - `introduces` [EXTRACTED]
 - [[Trusted Setup Ceremony]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_9
+#graphify/paper #graphify/EXTRACTED #community/Community_85

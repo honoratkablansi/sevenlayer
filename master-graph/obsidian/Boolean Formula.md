@@ -1,12 +1,12 @@
 ---
 source_file: "references/books/proofs-args-zk.pdf"
 type: "paper"
-community: "Community 18"
+community: "Community 23"
 location: "The Sum-Check Protocol"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_18
+  - community/Community_23
 ---
 
 # Boolean Formula
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[SAT Interactive Proof]] - `applies` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_18
+#graphify/paper #graphify/EXTRACTED #community/Community_23

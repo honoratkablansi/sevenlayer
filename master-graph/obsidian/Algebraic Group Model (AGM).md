@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-38-snarky-ceremonies.pdf"
 type: "document"
-community: "Community 14"
+community: "Community 109"
 location: "page 4"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_14
+  - community/Community_109
 ---
 
 # Algebraic Group Model (AGM)
@@ -28,4 +28,4 @@ tags:
 - [[Theorem 6.3 PCS evaluation-binding & bounded-extractable under 2d-DLOG in AGM]] - `assumes` [EXTRACTED]
 - [[Trusted Setup Ceremony]] - `proves-security-of` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_14
+#graphify/document #graphify/EXTRACTED #community/Community_109

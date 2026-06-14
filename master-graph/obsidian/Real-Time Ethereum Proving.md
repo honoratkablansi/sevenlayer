@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch06-real-time-ethereum-proving.md"
 type: "document"
-community: "Community 13"
+community: "Community 0"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_13
+  - community/Community_0
 ---
 
 # Real-Time Ethereum Proving
@@ -24,4 +24,4 @@ tags:
 - [[The Three Frontiers]] - `references` [EXTRACTED]
 - [[ZKsync Airbender]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_13
+#graphify/document #graphify/EXTRACTED #community/Community_0

@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-73-vsql.pdf"
 type: "paper"
-community: "Community 68"
+community: "Community 71"
 location: "§II-D Construction 1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_68
+  - community/Community_71
 ---
 
 # CMT protocol (Cormode-Mitzenmacher-Thaler interactive proof for layered arithmetic circuits)
@@ -21,4 +21,4 @@ tags:
 - [[Sum-Check Protocol]] - `assumes` [EXTRACTED]
 - [[vSQL verifiable database system for arbitrary SQL queries over dynamic outsourced databases]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_68
+#graphify/paper #graphify/EXTRACTED #community/Community_71

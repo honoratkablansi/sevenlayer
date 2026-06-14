@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-58-coda-mina.pdf"
 type: "paper"
-community: "Community 23"
+community: "Community 18"
 location: "Ref [24], §4.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_23
+  - community/Community_18
 ---
 
 # Cited: Valiant, Incrementally Verifiable Computation (TCC 2008)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Incrementally Verifiable Computation (IVC)]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_23
+#graphify/paper #graphify/EXTRACTED #community/Community_18

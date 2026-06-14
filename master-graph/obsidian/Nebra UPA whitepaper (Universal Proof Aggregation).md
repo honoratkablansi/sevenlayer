@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch1/ref-22-nebra-upa.md"
 type: "document"
-community: "Community 23"
+community: "Community 24"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_23
+  - community/Community_24
 ---
 
 # Nebra UPA whitepaper (Universal Proof Aggregation)
@@ -14,4 +14,4 @@ tags:
 - [[Onchain ZKP settlement  verification cost]] - `explains` [EXTRACTED]
 - [[Universal Proof Aggregation (UPA)]] - `introduces` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_23
+#graphify/document #graphify/EXTRACTED #community/Community_24

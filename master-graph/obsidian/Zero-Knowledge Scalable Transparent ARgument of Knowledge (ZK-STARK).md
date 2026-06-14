@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-08-stark.pdf"
 type: "paper"
-community: "Community 54"
+community: "Community 65"
 location: "§1.1, §3.3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_54
+  - community/Community_65
 ---
 
 # Zero-Knowledge Scalable Transparent ARgument of Knowledge (ZK-STARK)
@@ -20,4 +20,4 @@ tags:
 - [[Transparency  public randomness (no trusted setup, Arthur-Merlin)]] - `conceptually_related_to` [EXTRACTED]
 - [[ZK-SNARK  Zerocash (Zcash, non-transparent QSP-based, ref 1853)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_54
+#graphify/paper #graphify/EXTRACTED #community/Community_65

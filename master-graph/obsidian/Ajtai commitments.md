@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/concepts/ajtai.md"
 type: "document"
-community: "Community 0"
+community: "Community 10"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Community_10
 ---
 
 # Ajtai commitments
@@ -39,4 +39,4 @@ tags:
 - [[The Structural Advantage of Lattices]] - `references` [EXTRACTED]
 - [[Three Hardness Assumptions, Three Worlds]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/document #graphify/EXTRACTED #community/Community_10

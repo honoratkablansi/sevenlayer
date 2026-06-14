@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 8"
+community: "Community 9"
 location: "Chapter 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_8
+  - community/Community_9
 ---
 
 # Groth16
@@ -31,6 +31,7 @@ tags:
 - [[FOOM Club Verifier Misconfiguration (2022)]] - `references` [EXTRACTED]
 - [[Filecoin Proof-of-Space application (BLS12-381, Rust bellperson)]] - `assumes` [EXTRACTED]
 - [[GGPR Linear PCP (Gennaro-Gentry-Parno-Raykova)]] - `builds_on` [EXTRACTED]
+- [[Generic (Bilinear) Group Model]] - `uses` [EXTRACTED]
 - [[Glossary of Key Terms]] - `defines` [EXTRACTED]
 - [[Groth 2016 (ePrint 2016260)]] - `introduces` [EXTRACTED]
 - [[Groth Gro16 On the size of pairing-based non-interactive arguments]] - `conceptually_related_to` [EXTRACTED]
@@ -59,16 +60,17 @@ tags:
 - [[Path One The Hybrid STARK-to-SNARK Pipeline]] - `conceptually_related_to` [EXTRACTED]
 - [[Path Three Post-Quantum Folding]] - `conceptually_related_to` [EXTRACTED]
 - [[Path Two Pure Transparent]] - `conceptually_related_to` [EXTRACTED]
+- [[Pinocchio]] - `builds_on` [EXTRACTED]
 - [[Post-Quantum Security]] - `compares` [INFERRED]
 - [[Powers of Tau]] - `assumes` [EXTRACTED]
 - [[Pricing Attacks]] - `references` [EXTRACTED]
 - [[Proof Aggregation]] - `uses` [EXTRACTED]
 - [[Proof Aggregation The Missing Layer]] - `references` [EXTRACTED]
-- [[QAP (Quadratic Arithmetic Program)]] - `conceptually_related_to` [EXTRACTED]
+- [[QAP (Quadratic Arithmetic Program)]] - `builds_on` [EXTRACTED]
 - [[R1CS (Rank-1 Constraint Systems)]] - `uses` [EXTRACTED]
 - [[Real-Time Ethereum Proving]] - `references` [EXTRACTED]
 - [[Recursion vs. Folding Russian Dolls and Snowballs]] - `references` [EXTRACTED]
-- [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `improves` [EXTRACTED]
+- [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `relates_to` [EXTRACTED]
 - [[SNARK Recursion vs. Folding The Full Picture]] - `references` [EXTRACTED]
 - [[SNARK proof aggregation]] - `compatible_with` [EXTRACTED]
 - [[STARK]] - `compares` [EXTRACTED]
@@ -122,8 +124,9 @@ tags:
 - [[Who Verifies the Verifier]] - `references` [EXTRACTED]
 - [[ZK Proofs Is Privacy Cheap Enough to Be Mainstream (Castle Labs)]] - `references` [EXTRACTED]
 - [[ZK Rollups The Proving Grounds (Production)]] - `references` [EXTRACTED]
+- [[Zcash]] - `uses` [EXTRACTED]
 - [[Zero-Knowledge Proof]] - `uses` [EXTRACTED]
 - [[zkTree zero-knowledge recursion tree with ZKP membership proofs]] - `cites` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_8
+#graphify/document #graphify/EXTRACTED #community/Community_9

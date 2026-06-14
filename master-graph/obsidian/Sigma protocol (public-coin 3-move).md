@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf"
 type: "paper"
-community: "Community 29"
+community: "Community 80"
 location: "§2.3.2 / Fig 3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_29
+  - community/Community_80
 ---
 
 # Sigma protocol (public-coin 3-move)
@@ -30,4 +30,4 @@ tags:
 - [[Special Soundness]] - `defines` [EXTRACTED]
 - [[Zero-Knowledge Proof]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_29
+#graphify/paper #graphify/EXTRACTED #community/Community_80

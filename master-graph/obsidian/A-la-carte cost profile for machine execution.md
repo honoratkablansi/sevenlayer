@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-18-hypernova.pdf"
 type: "paper"
-community: "Community 71"
+community: "Community 143"
 location: "§1.2(2) / Theorem 3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_71
+  - community/Community_143
 ---
 
 # A-la-carte cost profile for machine execution
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Theorem 3 (HyperNova NIVC scheme)]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_71
+#graphify/paper #graphify/EXTRACTED #community/Community_143

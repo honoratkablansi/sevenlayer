@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch13-enterprise-pilots-pilot.md"
 type: "document"
-community: "Community 16"
+community: "Community 52"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_16
+  - community/Community_52
 ---
 
 # Enterprise Pilots (Pilot)
@@ -26,4 +26,4 @@ tags:
 - [[ZK Identity (Growth  Regulatory Mandate)]] - `references` [EXTRACTED]
 - [[eIDAS 2.0]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_16
+#graphify/document #graphify/EXTRACTED #community/Community_52

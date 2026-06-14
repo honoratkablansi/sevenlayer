@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-38-snarky-ceremonies.pdf"
 type: "paper"
-community: "Community 14"
+community: "Community 69"
 location: "§2.1 Fig 1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_14
+  - community/Community_69
 ---
 
 # Transparent random oracle RO_0/RO_1 (programmable weakening; simulator learns r)
@@ -15,4 +15,4 @@ tags:
 - [[Random oracle model (non-interactive STARK  NIROP)]] - `conceptually_related_to` [EXTRACTED]
 - [[Straight-line simulation-extractability in (RO,d-Poly) model (Def 7, O_se + O_poly oracles)]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_14
+#graphify/paper #graphify/EXTRACTED #community/Community_69

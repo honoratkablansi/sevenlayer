@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 2"
+community: "Community 37"
 location: "Chapter 6"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_2
+  - community/Community_37
 ---
 
 # Symphony (Production Lattice Folding)
@@ -15,4 +15,4 @@ tags:
 - [[Module-SIS  Module-LWE]] - `references` [EXTRACTED]
 - [[Neo (Small-Field Lattice Folding)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_2
+#graphify/document #graphify/EXTRACTED #community/Community_37

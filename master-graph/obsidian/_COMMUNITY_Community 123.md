@@ -1,21 +1,23 @@
 ---
 type: community
-cohesion: 0.40
-members: 6
+cohesion: 0.29
+members: 8
 ---
 
 # Community 123
 
-**Cohesion:** 0.40 - moderately connected
-**Members:** 6 nodes
+**Cohesion:** 0.29 - loosely connected
+**Members:** 8 nodes
 
 ## Members
-- [[Methodology for post-quantum, transparent recursive composition of SNARKs (no special algebraic objects)]] - paper - references/recursion/ch1/ref-10-fractal.pdf
-- [[Post-quantum security (against quantum adversaries; security in the QROM)]] - paper - references/recursion/ch1/ref-10-fractal.pdf
-- [[Prior efficient recursion approach using pairing-based SNARKs on cycles of pairing-friendly elliptic curves BCTV14]] - paper - references/recursion/ch1/ref-10-fractal.pdf
-- [[Proof-carrying data (PCD) primitive formally capturing recursive composition via a compliance predicate]] - paper - references/recursion/ch1/ref-10-fractal.pdf
-- [[Recursive composition  PCD from succinct-verifier SNARKs BCCT13]] - paper - references/recursion/ch1/ref-10-fractal.pdf
-- [[Theorem 4  Theorem 11.5 transformation compiling any preprocessing SNARK in the URS model into a preprocessing PCD scheme (preserving transparency and post-quantum security)]] - paper - references/recursion/ch1/ref-10-fractal.pdf
+- [[2-adicity of a curve (nu_2(r-1) large)]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
+- [[Halo 2]] - document - references/recursion/ch1/ref-12-pasta-curves.md
+- [[Karabina-Teske 1-to-1 MNT4MNT6 correspondence (Theorem 3.3)]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
+- [[MNT4MNT6 2-cycle (E4, E6) at 80-bit security]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
+- [[Pasta Cycle of Elliptic Curves]] - paper - references/ch06/ref-17-nova.pdf
+- [[Sonobe Library]] - document - recursion/recursion-outline.md
+- [[The Pasta Curves for Halo 2 and Beyond (Hopwood, ECC 2020)]] - document - references/recursion/ch1/ref-12-pasta-curves.md
+- [[Tweedle Curves]] - document - references/recursion/ch1/ref-12-pasta-curves.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -25,18 +27,17 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 4 edges to [[_COMMUNITY_Community 74]]
-- 3 edges to [[_COMMUNITY_Community 12]]
-- 3 edges to [[_COMMUNITY_Community 19]]
-- 1 edge to [[_COMMUNITY_Community 22]]
-- 1 edge to [[_COMMUNITY_Community 36]]
-- 1 edge to [[_COMMUNITY_Community 43]]
-- 1 edge to [[_COMMUNITY_Community 104]]
-- 1 edge to [[_COMMUNITY_Community 0]]
+- 3 edges to [[_COMMUNITY_Community 5]]
+- 3 edges to [[_COMMUNITY_Community 16]]
+- 1 edge to [[_COMMUNITY_Community 11]]
+- 1 edge to [[_COMMUNITY_Community 3]]
+- 1 edge to [[_COMMUNITY_Community 64]]
+- 1 edge to [[_COMMUNITY_Community 18]]
+- 1 edge to [[_COMMUNITY_Community 122]]
 
 ## Top bridge nodes
-- [[Post-quantum security (against quantum adversaries; security in the QROM)]] - degree 9, connects to 7 communities
-- [[Methodology for post-quantum, transparent recursive composition of SNARKs (no special algebraic objects)]] - degree 5, connects to 3 communities
-- [[Theorem 4  Theorem 11.5 transformation compiling any preprocessing SNARK in the URS model into a preprocessing PCD scheme (preserving transparency and post-quantum security)]] - degree 5, connects to 2 communities
-- [[Prior efficient recursion approach using pairing-based SNARKs on cycles of pairing-friendly elliptic curves BCTV14]] - degree 3, connects to 2 communities
-- [[Proof-carrying data (PCD) primitive formally capturing recursive composition via a compliance predicate]] - degree 3, connects to 1 community
+- [[Pasta Cycle of Elliptic Curves]] - degree 11, connects to 5 communities
+- [[2-adicity of a curve (nu_2(r-1) large)]] - degree 5, connects to 2 communities
+- [[Karabina-Teske 1-to-1 MNT4MNT6 correspondence (Theorem 3.3)]] - degree 3, connects to 1 community
+- [[MNT4MNT6 2-cycle (E4, E6) at 80-bit security]] - degree 3, connects to 1 community
+- [[Sonobe Library]] - degree 2, connects to 1 community

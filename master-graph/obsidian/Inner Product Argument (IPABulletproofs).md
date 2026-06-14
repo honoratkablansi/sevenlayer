@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 29"
+community: "Community 90"
 location: "Chapter 7"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_29
+  - community/Community_90
 ---
 
 # Inner Product Argument (IPA/Bulletproofs)
@@ -25,10 +25,12 @@ tags:
 - [[Discrete Logarithm Problem (DLP)]] - `references` [EXTRACTED]
 - [[Dory]] - `uses` [EXTRACTED]
 - [[Four Families of Commitment Schemes]] - `defines` [EXTRACTED]
+- [[Functional Commitment]] - `generalizes` [EXTRACTED]
 - [[Halo  Nested Amortization Recursion]] - `references` [EXTRACTED]
 - [[Homomorphic  Trapdoor Commitment Property]] - `uses` [EXTRACTED]
 - [[Hyrax Commitment Scheme]] - `uses` [EXTRACTED]
 - [[Improved Inner-Product Argument (2 log2 n)]] - `defines` [EXTRACTED]
+- [[Inner Pairing Product Argument (BMMTV 2021)]] - `generalizes` [EXTRACTED]
 - [[Layer 1 -- Building the Stage]] - `references` [EXTRACTED]
 - [[Layer 6 -- The Deep Craft]] - `references` [EXTRACTED]
 - [[Maturity and Readiness]] - `references` [EXTRACTED]
@@ -44,4 +46,4 @@ tags:
 - [[Two Ways to Build a Stage]] - `conceptually_related_to` [EXTRACTED]
 - [[Vector commitment scheme (position-binding; Merkle-tree instantiation, O(log n) openings)]] - `uses` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_29
+#graphify/document #graphify/EXTRACTED #community/Community_90

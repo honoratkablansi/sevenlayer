@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-73-vsql.pdf"
 type: "paper"
-community: "Community 68"
+community: "Community 71"
 location: "§I-B Supporting Delegated Inputs; §V-A"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_68
+  - community/Community_71
 ---
 
 # Delegated-input technique: client outsources database multilinear extension and verifies final CMT point via polynomial commitment
@@ -16,4 +16,4 @@ tags:
 - [[Extractable verifiable polynomial-delegation protocol with knowledge soundness (vSQL Construction 2)]] - `assumes` [EXTRACTED]
 - [[vSQL verifiable database system for arbitrary SQL queries over dynamic outsourced databases]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_68
+#graphify/paper #graphify/EXTRACTED #community/Community_71

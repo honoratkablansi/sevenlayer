@@ -1,12 +1,12 @@
 ---
 source_file: "recursion/recursion-outline.md"
 type: "document"
-community: "Community 37"
+community: "Community 5"
 location: "Recursion Chapter 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_37
+  - community/Community_5
 ---
 
 # Kothapalli, Setty, "CycleFold" (ePrint 2023/1192)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[CycleFold]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_37
+#graphify/document #graphify/EXTRACTED #community/Community_5

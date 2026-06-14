@@ -1,27 +1,27 @@
 ---
 type: community
-cohesion: 0.18
+cohesion: 0.17
 members: 12
 ---
 
 # Community 104
 
-**Cohesion:** 0.18 - loosely connected
+**Cohesion:** 0.17 - loosely connected
 **Members:** 12 nodes
 
 ## Members
-- [[Algorithm Deprecation Timeline]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
-- [[BIS Project Leap (2023) Quantum-proofing the financial system]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
-- [[Buterin (2023) Ethereum quantum-emergency hard-fork proposal]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
-- [[Crypto agility building continuous migration between quantum-resistant algorithms into governance rather than targeting a single Q-Day]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
-- [[Cryptographic Migration]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
-- [[HNDL poses two primary present threats to Bitcoin revealing confidential encrypted data (data privacy) and stealing funds (theft)]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
-- [[Hybrid Key Exchange]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
-- [[Limitation all proposed mitigations require security-through-force, antithetical to Bitcoin's decentralized, choice-over-force governance ethos]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
-- [[Mitigations PQC-only hard fork (Buterin-style) or soft fork, mandatory PQC address types, crypto agility, security hygiene (no address reuse) — all address theftintegrity, not retroactive privacy]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
-- [[NIST PQC standardization 3 finalized encryption standards + 5 quantum-resistant algorithms; deprecating RSAECC over 5-10 years; US federal migration mandated by 2035]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
-- [[Quantum Threat]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
-- [[Thesis PQC can protect DLT integritysecurity but cannot retroactively protect data privacy of past transactions against HNDL]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
+- [[Blob Fee Market]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[CongestionGriefing Attack]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[EIP-4844 (Blob Transactions)]] - document - proving-nothing.md
+- [[FOOM Club Verifier Misconfiguration (2022)]] - document - proving-nothing.md
+- [[Layer-2 Rollup]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[Maximal Extractable Value (MEV)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[Meisami & Bodell Upgradeable Contract Survey (2023)]] - document - proving-nothing.md
+- [[On-Chain Verifier]] - document - proving-nothing.md
+- [[Proof Verification]] - document - proving-nothing.md
+- [[Upgradeable Proxy Pattern]] - document - proving-nothing.md
+- [[Verification Gas Cost]] - document - proving-nothing.md
+- [[XZ Utils Supply-Chain Attack (CVE-2024-3094)]] - document - proving-nothing.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -31,13 +31,16 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 3 edges to [[_COMMUNITY_Community 0]]
-- 3 edges to [[_COMMUNITY_Community 66]]
-- 1 edge to [[_COMMUNITY_Community 123]]
+- 6 edges to [[_COMMUNITY_Community 9]]
+- 2 edges to [[_COMMUNITY_Community 38]]
+- 1 edge to [[_COMMUNITY_Community 17]]
+- 1 edge to [[_COMMUNITY_Community 53]]
+- 1 edge to [[_COMMUNITY_Community 24]]
+- 1 edge to [[_COMMUNITY_Community 119]]
 
 ## Top bridge nodes
-- [[Mitigations PQC-only hard fork (Buterin-style) or soft fork, mandatory PQC address types, crypto agility, security hygiene (no address reuse) — all address theftintegrity, not retroactive privacy]] - degree 6, connects to 1 community
-- [[Cryptographic Migration]] - degree 5, connects to 1 community
-- [[Thesis PQC can protect DLT integritysecurity but cannot retroactively protect data privacy of past transactions against HNDL]] - degree 4, connects to 1 community
-- [[Crypto agility building continuous migration between quantum-resistant algorithms into governance rather than targeting a single Q-Day]] - degree 3, connects to 1 community
-- [[HNDL poses two primary present threats to Bitcoin revealing confidential encrypted data (data privacy) and stealing funds (theft)]] - degree 3, connects to 1 community
+- [[On-Chain Verifier]] - degree 7, connects to 3 communities
+- [[EIP-4844 (Blob Transactions)]] - degree 6, connects to 2 communities
+- [[Upgradeable Proxy Pattern]] - degree 4, connects to 2 communities
+- [[Verification Gas Cost]] - degree 4, connects to 2 communities
+- [[Blob Fee Market]] - degree 3, connects to 1 community

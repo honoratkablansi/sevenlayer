@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-62-lattice-functional-commitments.pdf"
 type: "paper"
-community: "Community 46"
+community: "Community 45"
 location: "§4.2, Construction 4.5"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_46
+  - community/Community_45
 ---
 
 # Attack on Extractable Linear FC: integer variant of ACL+22 not extractable assuming inhomogeneous SIS
@@ -16,4 +16,4 @@ tags:
 - [[Knowledge k-R-ISIS Assumption (Albrecht et al. CRYPTO 2022)]] - `conceptually_related_to` [EXTRACTED]
 - [[Oblivious Sampling Cryptanalysis (Babai-rounding attack breaking extractability  knowledge k-R-ISIS plausibility)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_46
+#graphify/paper #graphify/EXTRACTED #community/Community_45

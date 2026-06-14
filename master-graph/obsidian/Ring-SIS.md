@@ -1,12 +1,12 @@
 ---
 source_file: "references/snowball/recursion/ref-133-a-non-pcp-approach-to-succinct-quantum-safe-zero.pdf"
 type: "paper"
-community: "Community 112"
+community: "Community 80"
 location: "abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_112
+  - community/Community_80
 ---
 
 # Ring-SIS
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Commitment Scheme]] - `uses` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_112
+#graphify/paper #graphify/EXTRACTED #community/Community_80

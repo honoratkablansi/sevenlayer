@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch08-proof-aggregation-the-missing-layer.md"
 type: "document"
-community: "Community 8"
+community: "Community 9"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_8
+  - community/Community_9
 ---
 
 # NEBRA Universal Proof Aggregation
@@ -14,4 +14,4 @@ tags:
 - [[On-Chain Verification in 2026]] - `references` [EXTRACTED]
 - [[Proof Aggregation The Missing Layer]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_8
+#graphify/document #graphify/EXTRACTED #community/Community_9

@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 27"
+community: "Community 11"
 location: "Chapter 5"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_27
+  - community/Community_11
 ---
 
 # Proof Core: Layers 4-5-6 Inseparable
@@ -17,4 +17,4 @@ tags:
 - [[Finite Field Arithmetic]] - `explains` [EXTRACTED]
 - [[Polynomial Commitment Scheme]] - `explains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_27
+#graphify/document #graphify/EXTRACTED #community/Community_11

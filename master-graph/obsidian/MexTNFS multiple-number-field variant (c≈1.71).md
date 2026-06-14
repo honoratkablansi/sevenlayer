@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-50-extended-tower-nfs.pdf"
 type: "paper"
-community: "Community 56"
+community: "Community 82"
 location: "§4.2, Table 2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_56
+  - community/Community_82
 ---
 
 # MexTNFS multiple-number-field variant (c≈1.71)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[exTNFS (Extended Tower Number Field Sieve)]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_56
+#graphify/paper #graphify/EXTRACTED #community/Community_82

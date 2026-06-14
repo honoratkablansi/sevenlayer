@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch03/ref-15-lasso.pdf"
 type: "paper"
-community: "Community 89"
+community: "Community 93"
 location: "§1.1(3), §5, Fig 6"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_89
+  - community/Community_93
 ---
 
 # Lasso: lookup argument for SOS/small tables, prover commits to 3cm + c·N^{1/c} small field elements
@@ -20,4 +20,4 @@ tags:
 - [[Surge generalization of Spark proving inner product of an m-sparse committed vector with any decomposable (SOS) dense table]] - `assumes` [EXTRACTED]
 - [[Unlocking the Lookup Singularity with Lasso]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_89
+#graphify/paper #graphify/EXTRACTED #community/Community_93

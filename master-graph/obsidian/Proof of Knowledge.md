@@ -13,6 +13,7 @@ tags:
 
 ## Connections
 - [[Knowledge Extractor]] - `defines` [EXTRACTED]
+- [[Knowledge-Soundness]] - `uses` [EXTRACTED]
 - [[Zero-Knowledge Identity Authentication (Fiat-Shamir Application)]] - `enables` [EXTRACTED]
 - [[Zero-Knowledge Proof]] - `generalizes` [EXTRACTED]
 

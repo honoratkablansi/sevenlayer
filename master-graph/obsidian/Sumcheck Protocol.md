@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 2"
+community: "Community 28"
 location: "Chapter 5"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_2
+  - community/Community_28
 ---
 
 # Sumcheck Protocol
@@ -17,9 +17,11 @@ tags:
 - [[HyperNova]] - `references` [EXTRACTED]
 - [[LogUp]] - `conceptually_related_to` [EXTRACTED]
 - [[Lund, Fortnow, Karloff, Nisan - Sumcheck (1992)]] - `introduces` [EXTRACTED]
+- [[Multilinear KZG Polynomial Commitment]] - `uses` [EXTRACTED]
+- [[Polynomial IOP  interactive oracle protocol]] - `relates_to` [EXTRACTED]
 - [[SP1 Hypercube (Succinct Labs)]] - `references` [EXTRACTED]
 - [[Spartan]] - `references` [EXTRACTED]
 - [[Sumcheck  Algebraic Methods for Interactive Proof Systems (Lund-Fortnow-Karloff-Nisan, J.ACM 1992) 58]] - `cites` [EXTRACTED]
 - [[deVirgo distributed zero-knowledge proof system parallelizing Virgo over M machines with perfect linear scalability and no proof-size overhead]] - `assumes` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_2
+#graphify/document #graphify/EXTRACTED #community/Community_28

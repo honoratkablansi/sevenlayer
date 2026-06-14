@@ -1,34 +1,35 @@
 ---
 type: community
-cohesion: 0.19
-members: 19
+cohesion: 0.15
+members: 20
 ---
 
 # Community 67
 
-**Cohesion:** 0.19 - loosely connected
-**Members:** 19 nodes
+**Cohesion:** 0.15 - loosely connected
+**Members:** 20 nodes
 
 ## Members
-- [[C2PA (Coalition for Content Provenance and Authenticity) camera-signature standard]] - paper - references/recursion/ch3/ref-78-veritas.pdf
-- [[C2PA Technical Specification (Content Credentials)]] - document - references/recursion/ch3/ref-79-c2pa-specification.md
-- [[Custom proof system for lattice hash range proof (Plookup) + Freivalds + univariate SumCheck (Aurora)]] - paper - references/recursion/ch3/ref-78-veritas.pdf
-- [[Extended PLONK permutation argument (tau') tying circuit trace T(X) to witness polynomial W(X)]] - paper - references/recursion/ch3/ref-78-veritas.pdf
-- [[Glass-to-glass end-to-end security (camera to user screen, no trusted editor)]] - paper - references/recursion/ch3/ref-78-veritas.pdf
-- [[Homomorphic  redactable signatures (alternate, SNARK-free designs; impractical for blurresize)]] - paper - references/recursion/ch3/ref-78-veritas.pdf
-- [[Image Authentication (IA) proving an image faithfully represents an original photograph from a given capture device class]] - paper - references/recursion/ch3/ref-77-photoproof.pdf
-- [[Instance-witness relation R f(w)=x AND SigVerify(vk,w,sigma)=1 (signed original to edited image)]] - paper - references/recursion/ch3/ref-78-veritas.pdf
-- [[Lattice+Poseidon hash H(v)=Poseidon(A·v mod q) SNARK-friendly hash for 30 MP images (Mode 1)]] - paper - references/recursion/ch3/ref-78-veritas.pdf
-- [[Performance proof for 90 MB  30 MP image in ~13 min ($0.54, weak signer) or ~3 min ($0.13, powerful signer), verify 1 s]] - paper - references/recursion/ch3/ref-78-veritas.pdf
-- [[Photo-edit circuits in Plonky2 crop, grayscale, bilinear resize, box blur (fixed-point, AP-acceptable edits)]] - paper - references/recursion/ch3/ref-78-veritas.pdf
-- [[PhotoProof (Naveh & Tromer 2016) - prior ZK image-edit proofs, impractical proving time]] - paper - references/recursion/ch3/ref-78-veritas.pdf
-- [[Polynomial-commitment hash (Mode 2) signer commits to poly(w); SNARK circuit avoids hashingsignature verification]] - paper - references/recursion/ch3/ref-78-veritas.pdf
-- [[Short Integer Solution (SIS) lattice hash H_A(v)=Av mod q (linear, low-norm preimage)]] - paper - references/recursion/ch3/ref-78-veritas.pdf
-- [[Theorem 5.1 RangeCheck (Alg.1-2) is a zk-SNARK for relation R_RP (rangelow-norm proof)]] - paper - references/recursion/ch3/ref-78-veritas.pdf
-- [[Theorem 5.2 LatticeHash proof (Alg.3-4) is a zk-SNARK for relation R'_LH (knowledge of low-norm preimage)]] - paper - references/recursion/ch3/ref-78-veritas.pdf
-- [[VerITAS Verifying Image Transformations at Scale (Datta, Chen, Boneh, ePrint 20241066)]] - paper - references/recursion/ch3/ref-78-veritas.pdf
-- [[ZK-IMG (Kang et al. 2022) - 100x speedup over PhotoProof but limited to 720p900 KP images]] - paper - references/recursion/ch3/ref-78-veritas.pdf
-- [[opt-VerITAS precommitted rows of A reduce verifier time ~20x (30 MP verify ~0.8 s) at cost of larger proofs]] - paper - references/recursion/ch3/ref-78-veritas.pdf
+- [[Boneh-Goh-Nissim evaluating 2-DNF formulas on ciphertexts 11]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Circuit privacy via RandomizeCT (add encryption of 0 with super-polynomially larger error)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Closest vector problem  lattice reduction (LLL)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Craig Gentry]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Decisional CVP for ideal lattices in a fixed ring (bounded-distance decoding hardness underlying E1)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Error-vector growth bounds evaluation depth ~ (c1-c2) log n (Thm 6, Thm 8; expansion factor gamma_Mult)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Fully Homomorphic Encryption Using Ideal Lattices]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Goldwasser-Micali first semantically secure (additively) homomorphic scheme 23]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Homomorphic encryption (Evaluate over encrypted data without decrypting)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Ideal Coset Problem (ICP) decide if t is near-lattice (Samp1) or uniform mod J; security of E1 (Def.10, Thm 7)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Ideal lattices (ideals of Zxf(x) as lattices; rotation basis)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[NTRU ring-based public-key cryptosystem (ideal-lattice cryptography precedent) 25]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Performance counterbalanced assumptions; gamma_subset=sqrt(n), n~=lambda2, breaking time ~2sqrt(n)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Rivest-Adleman-Dertouzos 1978 privacy homomorphisms (original FHE open problem) 54]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Scheme E2 tweaks (narrow C_E to B(rDec2); replace matrix-vector by ring mult v_Jsk x psi) lowering decryption depth]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Scheme E3 squashed E2 with hidden sparse subset; bootstrappable and semantically secure (Thm 2, Thm 11)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Somewhat-homomorphic scheme E1 over ideal lattices (ciphertext v+x; ring addmult mod B_Jpk)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Sparse Subset Sum Problem (SSSP)  SplitKey Distinguishing Problem second hardness assumption from tau in public key]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Squashing the decryption circuit SplitKeyExpandCT shift work to encrypter so Decrypt sums only sub-linear vectors (E3)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Three-step FHE blueprint SWHE - squash decryption - bootstrap to fully homomorphic]] - paper - references/ch09/ref-29-gentry-fhe.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -38,19 +39,15 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 5 edges to [[_COMMUNITY_Community 47]]
-- 3 edges to [[_COMMUNITY_Community 21]]
-- 3 edges to [[_COMMUNITY_Community 8]]
-- 3 edges to [[_COMMUNITY_Community 2]]
-- 2 edges to [[_COMMUNITY_Community 75]]
-- 1 edge to [[_COMMUNITY_Community 15]]
-- 1 edge to [[_COMMUNITY_Community 19]]
-- 1 edge to [[_COMMUNITY_Community 62]]
-- 1 edge to [[_COMMUNITY_Community 119]]
+- 4 edges to [[_COMMUNITY_Community 25]]
+- 2 edges to [[_COMMUNITY_Community 91]]
+- 2 edges to [[_COMMUNITY_Community 10]]
+- 1 edge to [[_COMMUNITY_Community 49]]
+- 1 edge to [[_COMMUNITY_Community 27]]
 
 ## Top bridge nodes
-- [[VerITAS Verifying Image Transformations at Scale (Datta, Chen, Boneh, ePrint 20241066)]] - degree 22, connects to 6 communities
-- [[C2PA (Coalition for Content Provenance and Authenticity) camera-signature standard]] - degree 6, connects to 3 communities
-- [[Image Authentication (IA) proving an image faithfully represents an original photograph from a given capture device class]] - degree 8, connects to 2 communities
-- [[Lattice+Poseidon hash H(v)=Poseidon(A·v mod q) SNARK-friendly hash for 30 MP images (Mode 1)]] - degree 6, connects to 1 community
-- [[Custom proof system for lattice hash range proof (Plookup) + Freivalds + univariate SumCheck (Aurora)]] - degree 5, connects to 1 community
+- [[Fully Homomorphic Encryption Using Ideal Lattices]] - degree 12, connects to 5 communities
+- [[Scheme E3 squashed E2 with hidden sparse subset; bootstrappable and semantically secure (Thm 2, Thm 11)]] - degree 5, connects to 1 community
+- [[Homomorphic encryption (Evaluate over encrypted data without decrypting)]] - degree 4, connects to 1 community
+- [[Ideal lattices (ideals of Zxf(x) as lattices; rotation basis)]] - degree 4, connects to 1 community
+- [[Squashing the decryption circuit SplitKeyExpandCT shift work to encrypter so Decrypt sums only sub-linear vectors (E3)]] - degree 4, connects to 1 community

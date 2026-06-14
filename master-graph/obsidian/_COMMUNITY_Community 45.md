@@ -1,40 +1,39 @@
 ---
 type: community
-cohesion: 0.08
-members: 25
+cohesion: 0.14
+members: 24
 ---
 
 # Community 45
 
-**Cohesion:** 0.08 - loosely connected
-**Members:** 25 nodes
+**Cohesion:** 0.14 - loosely connected
+**Members:** 24 nodes
 
 ## Members
-- [[BEATS Batch ECDSA Transaction verification Scheme  Scalable batch verification of ECDSA for blockchain using IVC (Fr]] - document - references/recursion/ch1/ref-24-beats-batch-ecdsa.md
-- [[Academic literature on end-to-end verifiable voting with zero-knowledge tallies]] - document - references/recursion/ch3/ref-60-verifiable-voting-zk-tallies.md
-- [[Aligned Layer, The Year of zkVM Real-Time Proving (2025)  prover-market analyses]] - document - references/recursion/ch1/ref-35-aligned-year-of-zkvm-realtime.md
-- [[Chase, Lysyanskaya, Delegatable Anonymous Credentials lineage (CRYPTO 2009 onward)]] - document - references/recursion/ch3/ref-82-chase-lysyanskaya-delegatable-credentials.md
-- [[Chiesa, Tromer, Proof-Carrying Data and Hearsay Arguments from Signature Cards (ICS 2010)]] - document - references/recursion/ch1/ref-04-chiesa-tromer-pcd-hearsay.md
-- [[Dark Forest and zk-gaming ecosystem writeups]] - document - references/recursion/ch3/ref-91-dark-forest-zk-gaming.md
-- [[EZKL benchmarks (monolithic zkML inference baseline)]] - document - references/recursion/ch3/ref-93-ezkl-monolithic-benchmarks.md
-- [[Fiat, Shamir, How to Prove Yourself Practical Solutions to Identification and Signature Problems (CRYPTO 1986)]] - document - references/recursion/ch2/ref-40-fiat-shamir.md
-- [[IVC streaming computation literature]] - document - references/recursion/ch3/ref-76-ivc-streaming-literature.md
-- [[Khovratovich, Maller, Tiwari et al., MinRoot VDF candidate (2022)]] - document - references/recursion/ch2/ref-42-minroot-vdf.md
-- [[Mina Pickles technical documentation]] - document - references/recursion/ch2/ref-49-mina-pickles-docs.md
-- [[Mina, Hazook recursive zkRollup design (2024)]] - document - references/recursion/ch1/ref-25-mina-hazook.md
-- [[Nova-based zkML folding literature]] - document - references/recursion/ch3/ref-71-nova-zkml-folding.md
-- [[Pedersen, Non-Interactive and Information-Theoretic Secure Verifiable Secret Sharing (CRYPTO 1991)]] - document - references/recursion/ch2/ref-39-pedersen-commitments.md
-- [[Practitioner literature on recursive ZK circuit design (e.g., zkDev, Designing Efficient Recursive ZK Circuits, 2026)]] - document - references/recursion/ch1/ref-29-zkdev-recursive-circuits.md
-- [[Published IVC flight-control benchmark work (real-time high-integrity flight control via recursive SNARKs)]] - document - references/recursion/ch3/ref-67-ivc-flight-control-benchmark.md
-- [[RISC Zero, Continuations  Using Continuations to Prove Any EVM Transaction (2023)]] - document - references/recursion/ch1/ref-23-risc-zero-continuations.md
-- [[Recursion References (cited works)]] - document - references/recursion/manifest.json
-- [[Reproducible-builds literature]] - document - references/recursion/ch3/ref-64-reproducible-builds-literature.md
-- [[Research literature on SNARK-backed transparency logs and verifiable log-structured storage]] - document - references/recursion/ch3/ref-66-snark-backed-transparency-logs.md
-- [[Sonobe library documentation (PSE0xPARC)]] - document - references/recursion/ch2/ref-48-sonobe.md
-- [[State-channel literature]] - document - references/recursion/ch3/ref-92-state-channel-literature.md
-- [[Subsequent verifiable-database and zk-analytics literature]] - document - references/recursion/ch3/ref-74-verifiable-database-zk-analytics.md
-- [[Succinct, Real-Time Proving with 16 GPUs (2026)]] - document - references/recursion/ch1/ref-34-succinct-16-gpus.md
-- [[Valiant, Incrementally Verifiable Computation, or Proofs of Knowledge Imply TimeSpace Efficiency (TCC 2008)]] - document - references/recursion/ch1/ref-01-valiant-ivc.md
+- [[Assumption 4.3 MatrixACLMT Knowledge Assumption (matrix variant of knowledge k-ISIS)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Attack on Extractable Linear FC integer variant of ACL+22 not extractable assuming inhomogeneous SIS]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[BASIS_struct Assumption (structured lattice assumption of WW23; implies l-succinct SIS)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[CRS Efficiency Claim l{d+1} CRS for degree-d polynomials (reduces ACL+22 exponent from 2d to d+1; l3 for quadratics vs l4l5)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Construction 3.19 Dual Functional Commitment for Bounded-Depth Boolean Circuits]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Construction 3.2 Functional Commitment for Constant-Degree Polynomials]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Construction 3.9 Multi-Output Functional Commitment for Constant-Degree Polynomials]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Dual Functional Commitment (commit to function f, open at input x)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Evasive LWE Assumption (implies l-succinct SIS plus LWE)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Extractable Functional Commitment (equivalent to SNARG for NP via quadratic relations)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Fast Verification in the Preprocessing Model (sublinear verifier after functioninput preprocessing)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Functional Commitment]] - document - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[GSW  BGG+14 Lattice Homomorphic Evaluation Machinery]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Inhomogeneous SIS Assumption]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[KLVW23 RAM-Delegation-Based FC for All Circuits (LWE, transparent, non-black-box)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Knowledge k-R-ISIS Assumption (Albrecht et al. CRYPTO 2022)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Lattice-Based Functional Commitments Fast Verification and Cryptanalysis]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Oblivious Sampling Cryptanalysis (Babai-rounding attack breaking extractability  knowledge k-R-ISIS plausibility)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Preprocessing SNARG]] - paper - references/snowball/book/ref-086-succinct-non-interactive-arguments-via-linear-in.pdf
+- [[Short Integer Solutions (SIS) Assumption]] - document - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Succinct Non-interactive Argument (SNARG)]] - paper - references/ch02/ref-06-groth16.pdf
+- [[Theorem 3.22 Selective-Input Binding of Dual FC under l-succinct SIS]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[Theorem 3.6 Computational Binding of Construction 3.2 under l-succinct SIS]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
+- [[l-Succinct SIS Assumption (falsifiable q-type generalization of SIS, trapdoor for I_l ⊗ A  W)]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -42,3 +41,25 @@ members: 25
 TABLE source_file, type FROM #community/Community_45
 SORT file.name ASC
 ```
+
+## Connections to other communities
+- 5 edges to [[_COMMUNITY_Community 14]]
+- 3 edges to [[_COMMUNITY_Community 10]]
+- 2 edges to [[_COMMUNITY_Community 20]]
+- 2 edges to [[_COMMUNITY_Community 8]]
+- 1 edge to [[_COMMUNITY_Community 22]]
+- 1 edge to [[_COMMUNITY_Community 90]]
+- 1 edge to [[_COMMUNITY_Community 48]]
+- 1 edge to [[_COMMUNITY_Community 15]]
+- 1 edge to [[_COMMUNITY_Community 4]]
+- 1 edge to [[_COMMUNITY_Community 47]]
+- 1 edge to [[_COMMUNITY_Community 6]]
+- 1 edge to [[_COMMUNITY_Community 80]]
+- 1 edge to [[_COMMUNITY_Community 34]]
+
+## Top bridge nodes
+- [[Functional Commitment]] - degree 13, connects to 8 communities
+- [[Lattice-Based Functional Commitments Fast Verification and Cryptanalysis]] - degree 14, connects to 5 communities
+- [[Succinct Non-interactive Argument (SNARG)]] - degree 5, connects to 3 communities
+- [[Construction 3.2 Functional Commitment for Constant-Degree Polynomials]] - degree 10, connects to 2 communities
+- [[Short Integer Solutions (SIS) Assumption]] - degree 5, connects to 2 communities

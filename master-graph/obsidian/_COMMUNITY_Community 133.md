@@ -1,20 +1,21 @@
 ---
 type: community
-cohesion: 0.40
-members: 5
+cohesion: 0.33
+members: 6
 ---
 
 # Community 133
 
-**Cohesion:** 0.40 - moderately connected
-**Members:** 5 nodes
+**Cohesion:** 0.33 - loosely connected
+**Members:** 6 nodes
 
 ## Members
-- [[Continuations]] - document - recursion/recursion-outline.md
-- [[RISC Zero technical documentation (dev.risczero.com)]] - document - references/recursion/ch1/ref-28-risc-zero-technical-docs.md
-- [[RISC Zero zkVM]] - document - references/recursion/ch1/ref-28-risc-zero-technical-docs.md
-- [[Receipt (self-certifying proof of execution)]] - document - references/recursion/ch1/ref-28-risc-zero-technical-docs.md
-- [[Succinct verification without re-execution]] - document - references/recursion/ch1/ref-28-risc-zero-technical-docs.md
+- [[AuroraLight (Sonic-like, improved proverSRS)]] - paper - references/ch02/ref-07-plonk.pdf
+- [[Bayer-Groth PermutationShuffle Argument]] - paper - references/ch02/ref-07-plonk.pdf
+- [[Marlin (universal preprocessing SNARK)]] - paper - references/ch02/ref-07-plonk.pdf
+- [[PLONK Permutations over Lagrange-bases for Oecumenical Noninteractive arguments of Knowledge]] - paper - references/ch02/ref-07-plonk.pdf
+- [[Sonic]] - document - proving-nothing.md
+- [[Universal Updatable SRS Setup (Bowe-Gabizon-Miers)]] - paper - references/ch02/ref-07-plonk.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -24,11 +25,20 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 2 edges to [[_COMMUNITY_Community 10]]
-- 1 edge to [[_COMMUNITY_Community 22]]
-- 1 edge to [[_COMMUNITY_Community 63]]
+- 5 edges to [[_COMMUNITY_Community 4]]
+- 4 edges to [[_COMMUNITY_Community 11]]
+- 4 edges to [[_COMMUNITY_Community 106]]
+- 2 edges to [[_COMMUNITY_Community 109]]
+- 1 edge to [[_COMMUNITY_Community 20]]
+- 1 edge to [[_COMMUNITY_Community 9]]
+- 1 edge to [[_COMMUNITY_Community 8]]
+- 1 edge to [[_COMMUNITY_Community 34]]
+- 1 edge to [[_COMMUNITY_Community 23]]
+- 1 edge to [[_COMMUNITY_Community 10]]
+- 1 edge to [[_COMMUNITY_Community 5]]
 
 ## Top bridge nodes
-- [[Continuations]] - degree 3, connects to 2 communities
-- [[RISC Zero zkVM]] - degree 4, connects to 1 community
-- [[RISC Zero technical documentation (dev.risczero.com)]] - degree 2, connects to 1 community
+- [[PLONK Permutations over Lagrange-bases for Oecumenical Noninteractive arguments of Knowledge]] - degree 24, connects to 11 communities
+- [[Bayer-Groth PermutationShuffle Argument]] - degree 2, connects to 1 community
+- [[Sonic]] - degree 2, connects to 1 community
+- [[Universal Updatable SRS Setup (Bowe-Gabizon-Miers)]] - degree 2, connects to 1 community

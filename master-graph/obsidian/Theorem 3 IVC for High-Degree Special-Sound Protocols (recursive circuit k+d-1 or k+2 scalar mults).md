@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-19-protostar.pdf"
 type: "paper"
-community: "Community 7"
+community: "Community 13"
 location: "§3.5 Thm 3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_7
+  - community/Community_13
 ---
 
 # Theorem 3: IVC for High-Degree Special-Sound Protocols (recursive circuit k+d-1 or k+2 scalar mults)
@@ -18,4 +18,4 @@ tags:
 - [[Generic AccumulationFolding Compiler for Special-Sound Protocols (4-step workflow)]] - `proves` [EXTRACTED]
 - [[Incrementally Verifiable Computation (IVC)]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_7
+#graphify/paper #graphify/EXTRACTED #community/Community_13

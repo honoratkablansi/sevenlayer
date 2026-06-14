@@ -1,12 +1,12 @@
 ---
 source_file: "wiki/sections/ch07-the-quantum-threat-horizon.md"
 type: "document"
-community: "Community 0"
+community: "Community 10"
 location: "The Quantum Threat Horizon"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Community_10
 ---
 
 # The Quantum Threat Horizon
@@ -27,4 +27,4 @@ tags:
 - [[Three Hardness Assumptions, Three Worlds]] - `references` [EXTRACTED]
 - [[Zcash]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/document #graphify/EXTRACTED #community/Community_10

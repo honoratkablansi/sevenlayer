@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch13/ref-60-eidas-2-regulation.pdf"
 type: "paper"
-community: "Community 3"
+community: "Community 97"
 location: "section 1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_3
+  - community/Community_97
 ---
 
 # Electronic Identification (eID)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Digital Identity]] - `instance_of` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_3
+#graphify/paper #graphify/EXTRACTED #community/Community_97

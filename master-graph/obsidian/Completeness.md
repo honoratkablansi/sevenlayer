@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 84"
+community: "Community 7"
 location: "Chapter 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_84
+  - community/Community_7
 ---
 
 # Completeness
@@ -20,9 +20,10 @@ tags:
 - [[Perfect Completeness]] - `special_case_of` [EXTRACTED]
 - [[Probabilistic Proof System]] - `uses` [EXTRACTED]
 - [[Product-program metamorphic oracle merge k equivalent Rust fns; SUCCESS (0xC0FFEE) vs OOPS (0x0)]] - `conceptually_related_to` [EXTRACTED]
+- [[Sum-Check Protocol]] - `relates_to` [EXTRACTED]
 - [[The Bar ID  Proof at the Door Scenario]] - `explains` [EXTRACTED]
 - [[The Promise of Provable and Programmable Secrets]] - `defines` [EXTRACTED]
 - [[Zero-Knowledge Proof]] - `defines` [EXTRACTED]
 - [[zkVM]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_84
+#graphify/document #graphify/EXTRACTED #community/Community_7

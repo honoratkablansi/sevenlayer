@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-05-mpc-random-beacon.pdf"
 type: "paper"
-community: "Community 95"
+community: "Community 84"
 location: "ref [16]"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_95
+  - community/Community_84
 ---
 
 # Bowe-Gabizon-Green MPC for the Pinocchio zk-SNARK parameters (prior protocol, Zcash setup)
@@ -15,4 +15,4 @@ tags:
 - [[MMORPG massively multi-party open reusable parameter generation system]] - `cites` [EXTRACTED]
 - [[SameRatio  consistent pairing-based ratio-equality checks (Algorithms 1,2)]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_95
+#graphify/paper #graphify/EXTRACTED #community/Community_84

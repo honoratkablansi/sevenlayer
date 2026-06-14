@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-08-stark.pdf"
 type: "paper"
-community: "Community 27"
+community: "Community 47"
 location: "§2.4, Def. 2.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_27
+  - community/Community_47
 ---
 
 # Low Degree Extension (LDE)
@@ -22,4 +22,4 @@ tags:
 - [[Scalable, Transparent, and Post-Quantum Secure Computational Integrity]] - `assumes` [EXTRACTED]
 - [[Schwartz-Zippel Lemma]] - `uses` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_27
+#graphify/paper #graphify/EXTRACTED #community/Community_47

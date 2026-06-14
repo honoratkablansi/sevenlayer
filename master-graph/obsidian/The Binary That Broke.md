@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch10-the-binary-that-broke.md"
 type: "document"
-community: "Community 12"
+community: "Community 39"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_12
+  - community/Community_39
 ---
 
 # The Binary That Broke
@@ -17,4 +17,4 @@ tags:
 - [[STARK]] - `conceptually_related_to` [EXTRACTED]
 - [[The Synthesis -- Three Paths, Not Two]] - `part_of` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_12
+#graphify/document #graphify/EXTRACTED #community/Community_39

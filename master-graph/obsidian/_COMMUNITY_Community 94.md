@@ -1,29 +1,29 @@
 ---
 type: community
-cohesion: 0.21
+cohesion: 0.20
 members: 14
 ---
 
 # Community 94
 
-**Cohesion:** 0.21 - loosely connected
+**Cohesion:** 0.20 - loosely connected
 **Members:** 14 nodes
 
 ## Members
-- [[ASDGP Auxiliary Structured Double Group Pairing assumption]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
-- [[ASSGP Auxiliary Structured Single Group Pairing assumption]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
-- [[Bootle et al. BCC+16 Bulletproofs split-and-collapse strategy]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
-- [[Bowe et al. BCG+20 Zexe recursive composition]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
-- [[Bunz et al. BMM+19 Proofs for Inner Pairing Products]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
-- [[Doubly-homomorphic collapsing commitment]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
-- [[Filecoin Proof-of-Space application (BLS12-381, Rust bellperson)]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
-- [[Groth Gro16 On the size of pairing-based non-interactive arguments]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
-- [[Lai, Malavolta, Ronge LMR19 succinct arguments for bilinear group arithmetic]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
-- [[Logarithmic-size proof and log-time verifier]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
-- [[Non-recursive (pairing-based) aggregation vs recursive composition]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
-- [[Pair Group Commitment schemes (CMs single  CMd double group)]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
-- [[Reuse of two independent Groth16 powers-of-tau ceremonies (no new trusted setup)]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
-- [[SnarkPack Practical SNARK Aggregation]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
+- [[CirC Compiler Infrastructure]] - paper - references/snowball/book/ref-122-circ-compiler-infrastructure-for-proof-systems.pdf
+- [[Circom]] - document - proving-nothing.md
+- [[Circomspect Static Analyzer]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[Constraint Compiler]] - paper - references/snowball/book/ref-122-circ-compiler-infrastructure-for-proof-systems.pdf
+- [[Domain-Specific Language for ZKP]] - paper - references/mooc/lecture03/slides.pdf
+- [[Jordi Baylina (Circom, iden3, Hermez, ZisK)]] - document - proving-nothing.md
+- [[PolygonHermez zkEVM sunset and Baylina's pivot to ZisKRISC-V]] - document - proving-nothing.md
+- [[Practical Security Analysis of Zero-Knowledge Proof Circuits]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
+- [[Root cause assigned but not constrained (signal given a value with no constraint)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[Tornado Cash circomlib MiMC under-constrained bug (assigned-but-unconstrained output)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[Xue et al., ZK-Coder LLMs for ZK Proof Code Generation, arXiv 2509.11708]] - document - proving-nothing.md
+- [[ZKAP (static analyzer for ZKP circuits)]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
+- [[ZKAP evaluation on 258 Circom circuits (17 projects)]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
+- [[ZoKrates (PL Compiler to R1CS)]] - paper - references/mooc/lecture03/slides.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -33,14 +33,28 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 4 edges to [[_COMMUNITY_Community 122]]
-- 3 edges to [[_COMMUNITY_Community 8]]
-- 2 edges to [[_COMMUNITY_Community 106]]
-- 1 edge to [[_COMMUNITY_Community 9]]
+- 7 edges to [[_COMMUNITY_Community 3]]
+- 7 edges to [[_COMMUNITY_Community 72]]
+- 4 edges to [[_COMMUNITY_Community 20]]
+- 4 edges to [[_COMMUNITY_Community 51]]
+- 4 edges to [[_COMMUNITY_Community 124]]
+- 3 edges to [[_COMMUNITY_Community 5]]
+- 3 edges to [[_COMMUNITY_Community 1]]
+- 3 edges to [[_COMMUNITY_Community 0]]
+- 2 edges to [[_COMMUNITY_Community 22]]
+- 2 edges to [[_COMMUNITY_Community 21]]
+- 2 edges to [[_COMMUNITY_Community 127]]
+- 2 edges to [[_COMMUNITY_Community 15]]
+- 2 edges to [[_COMMUNITY_Community 113]]
+- 2 edges to [[_COMMUNITY_Community 86]]
+- 1 edge to [[_COMMUNITY_Community 83]]
+- 1 edge to [[_COMMUNITY_Community 48]]
+- 1 edge to [[_COMMUNITY_Community 111]]
+- 1 edge to [[_COMMUNITY_Community 29]]
 
 ## Top bridge nodes
-- [[SnarkPack Practical SNARK Aggregation]] - degree 17, connects to 3 communities
-- [[Pair Group Commitment schemes (CMs single  CMd double group)]] - degree 7, connects to 1 community
-- [[Reuse of two independent Groth16 powers-of-tau ceremonies (no new trusted setup)]] - degree 3, connects to 1 community
-- [[Groth Gro16 On the size of pairing-based non-interactive arguments]] - degree 2, connects to 1 community
-- [[Filecoin Proof-of-Space application (BLS12-381, Rust bellperson)]] - degree 2, connects to 1 community
+- [[Circom]] - degree 35, connects to 15 communities
+- [[Practical Security Analysis of Zero-Knowledge Proof Circuits]] - degree 10, connects to 6 communities
+- [[Domain-Specific Language for ZKP]] - degree 7, connects to 4 communities
+- [[CirC Compiler Infrastructure]] - degree 7, connects to 3 communities
+- [[ZoKrates (PL Compiler to R1CS)]] - degree 4, connects to 2 communities

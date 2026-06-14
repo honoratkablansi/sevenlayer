@@ -1,12 +1,12 @@
 ---
 source_file: "references/books/proofs-args-zk.pdf"
 type: "paper"
-community: "Community 15"
+community: "Community 33"
 location: "PCPs and Succinct Arguments"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_15
+  - community/Community_33
 ---
 
 # Quasilinear-Length PCP
@@ -17,4 +17,4 @@ tags:
 - [[Probabilistically Checkable Proofs (PCPs) compiling a PCP into a succinct argument via Merkle commitment]] - `generalizes` [EXTRACTED]
 - [[Vanishing Polynomial]] - `uses` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_15
+#graphify/paper #graphify/EXTRACTED #community/Community_33

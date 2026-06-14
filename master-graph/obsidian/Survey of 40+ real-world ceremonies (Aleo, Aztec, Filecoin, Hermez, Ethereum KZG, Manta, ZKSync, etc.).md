@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-10-sok-powers-of-tau.pdf"
 type: "paper"
-community: "Community 9"
+community: "Community 85"
 location: "§4, Table 4"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_9
+  - community/Community_85
 ---
 
 # Survey of 40+ real-world ceremonies (Aleo, Aztec, Filecoin, Hermez, Ethereum KZG, Manta, ZKSync, etc.)
@@ -17,4 +17,4 @@ tags:
 - [[SoK Trusted Setups for Powers-of-Tau Strings]] - `introduces` [EXTRACTED]
 - [[Zcash Sprout ceremony (2016, six participants, BCTV14, first major PoT ceremony)]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_9
+#graphify/paper #graphify/EXTRACTED #community/Community_85

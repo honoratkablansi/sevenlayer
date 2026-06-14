@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch2/ref-41-spartan.pdf"
 type: "paper"
-community: "Community 31"
+community: "Community 28"
 location: "Abstract; §1.1; §8"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_31
+  - community/Community_28
 ---
 
 # Spartan Rust library (~8,000 LoC), DLOG-based transparent zkSNARK; github.com/Microsoft/Spartan
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Spartan]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_31
+#graphify/paper #graphify/EXTRACTED #community/Community_28

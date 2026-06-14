@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-90-zexe.pdf"
 type: "paper"
-community: "Community 55"
+community: "Community 48"
 location: "§1.1; §2.4; §3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_55
+  - community/Community_48
 ---
 
 # Decentralized Private Computation (DPC) scheme
@@ -23,4 +23,4 @@ tags:
 - [[Zerocash]] - `assumes` [EXTRACTED]
 - [[Zexe a ledger-based system for decentralized private computation]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_55
+#graphify/paper #graphify/EXTRACTED #community/Community_48

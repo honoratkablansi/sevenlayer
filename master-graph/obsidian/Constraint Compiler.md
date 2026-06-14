@@ -1,12 +1,12 @@
 ---
 source_file: "references/snowball/book/ref-122-circ-compiler-infrastructure-for-proof-systems.pdf"
 type: "paper"
-community: "Community 105"
+community: "Community 94"
 location: "abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_105
+  - community/Community_94
 ---
 
 # Constraint Compiler
@@ -15,4 +15,4 @@ tags:
 - [[CirC Compiler Infrastructure]] - `defines` [EXTRACTED]
 - [[Zero-Knowledge Proof]] - `uses` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_105
+#graphify/paper #graphify/EXTRACTED #community/Community_94

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-06-groth16.pdf"
 type: "paper"
-community: "Community 42"
+community: "Community 34"
 location: "Thm 3, §4.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_42
+  - community/Community_34
 ---
 
 # Theorem 3: No NILP Has a Degree-1 (Linear) Verifier
@@ -17,4 +17,4 @@ tags:
 - [[On the Size of Pairing-Based Non-interactive Arguments]] - `proves` [EXTRACTED]
 - [[Relation Generator with Hard Decisional Problems]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_42
+#graphify/paper #graphify/EXTRACTED #community/Community_34

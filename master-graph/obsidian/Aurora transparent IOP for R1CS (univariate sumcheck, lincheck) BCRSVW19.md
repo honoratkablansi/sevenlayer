@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-10-fractal.pdf"
 type: "paper"
-community: "Community 74"
+community: "Community 2"
 location: "§2.3 (Aurora); Fig.1 ([BCRSVW19])"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_74
+  - community/Community_2
 ---
 
 # Aurora: transparent IOP for R1CS (univariate sumcheck, lincheck) [BCRSVW19]
@@ -16,4 +16,4 @@ tags:
 - [[Sumcheck for rational functions (univariate rational sumcheck over a domain K)]] - `cites` [EXTRACTED]
 - [[Theorem 2 efficient public-coin zero-knowledge holographic IOP for indexed relation R_R1CS (O(m log m) indexerprover, O(x+log m) verifier, O(log m) queries)]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_74
+#graphify/paper #graphify/EXTRACTED #community/Community_2

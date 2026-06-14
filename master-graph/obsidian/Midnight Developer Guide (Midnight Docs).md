@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch12/ref-41-midnight-developer-guide.md"
 type: "document"
-community: "Community 17"
+community: "Community 3"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_17
+  - community/Community_3
 ---
 
 # Midnight Developer Guide (Midnight Docs)
@@ -17,4 +17,4 @@ tags:
 - [[Selective Disclosure]] - `references` [EXTRACTED]
 - [[The Secret Performance]] - `cites` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_17
+#graphify/document #graphify/EXTRACTED #community/Community_3

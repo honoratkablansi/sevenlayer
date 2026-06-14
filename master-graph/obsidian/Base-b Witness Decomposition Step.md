@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-20-latticefold.pdf"
 type: "paper"
-community: "Community 101"
+community: "Community 78"
 location: "§3.2.2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_101
+  - community/Community_78
 ---
 
 # Base-b Witness Decomposition Step
@@ -15,4 +15,4 @@ tags:
 - [[B-Bounded Ajtai Commitment Opening Relation RB_cm]] - `conceptually_related_to` [EXTRACTED]
 - [[Expansion-Decomposition-Folding Pipeline (Pi_mfold)]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_101
+#graphify/paper #graphify/EXTRACTED #community/Community_78

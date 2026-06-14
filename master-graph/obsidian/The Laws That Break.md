@@ -1,12 +1,12 @@
 ---
 source_file: "wiki/sections/ch07-the-laws-that-break.md"
 type: "document"
-community: "Community 0"
+community: "Community 10"
 location: "The Laws That Break"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Community_10
 ---
 
 # The Laws That Break
@@ -21,4 +21,4 @@ tags:
 - [[The Post-Quantum Horizon]] - `references` [EXTRACTED]
 - [[Three Hardness Assumptions, Three Worlds]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/document #graphify/EXTRACTED #community/Community_10

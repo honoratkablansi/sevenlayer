@@ -1,12 +1,12 @@
 ---
 source_file: "references/books/proofs-args-zk.pdf"
 type: "paper"
-community: "Community 27"
+community: "Community 47"
 location: "The Sum-Check Protocol"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_27
+  - community/Community_47
 ---
 
 # Counting Triangles IP
@@ -17,7 +17,7 @@ tags:
 - [[Finite Field Arithmetic]] - `uses` [EXTRACTED]
 - [[Multilinear extension (MLE)]] - `uses` [EXTRACTED]
 - [[Reducing Multiple Polynomial Evaluations to One]] - `applies` [EXTRACTED]
-- [[Sum-Check Protocol]] - `uses` [EXTRACTED]
+- [[Sum-Check Protocol]] - `applies` [EXTRACTED]
 - [[Super-Efficient MatMult IP]] - `uses` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_27
+#graphify/paper #graphify/EXTRACTED #community/Community_47

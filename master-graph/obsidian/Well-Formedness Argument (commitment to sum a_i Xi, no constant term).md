@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-36-sonic.pdf"
 type: "paper"
-community: "Community 14"
+community: "Community 70"
 location: "§B.3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_14
+  - community/Community_70
 ---
 
 # Well-Formedness Argument (commitment to sum a_i X^i, no constant term)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Grand-Product Argument (gprodPgprodV, prod a_i = prod b_i)]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_14
+#graphify/paper #graphify/EXTRACTED #community/Community_70

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-51-pairing-efficiency-curves.pdf"
 type: "paper"
-community: "Community 49"
+community: "Community 126"
 location: "§4.2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_49
+  - community/Community_126
 ---
 
 # Tate pairing
@@ -15,4 +15,4 @@ tags:
 - [[Bilinear Pairing]] - `relates_to` [EXTRACTED]
 - [[Tate pairing on composite-order supersingular curve (Alg.2)]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_49
+#graphify/paper #graphify/EXTRACTED #community/Community_126

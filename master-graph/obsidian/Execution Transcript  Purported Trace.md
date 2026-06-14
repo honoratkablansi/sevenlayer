@@ -1,12 +1,12 @@
 ---
 source_file: "references/books/proofs-args-zk.pdf"
 type: "paper"
-community: "Community 18"
+community: "Community 21"
 location: "Front Ends: Programs Into Circuits"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_18
+  - community/Community_21
 ---
 
 # Execution Transcript / Purported Trace
@@ -17,4 +17,4 @@ tags:
 - [[Time Consistency Checking (Transition Function)]] - `relates_to` [EXTRACTED]
 - [[Witness Generation]] - `relates_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_18
+#graphify/paper #graphify/EXTRACTED #community/Community_21

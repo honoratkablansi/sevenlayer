@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch03/ref-13-practical-security-zk-circuits.pdf"
 type: "paper"
-community: "Community 93"
+community: "Community 86"
 location: "§4.4"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_93
+  - community/Community_86
 ---
 
 # Type Mismatch (TM) detector
@@ -16,4 +16,4 @@ tags:
 - [[Vulnerability Description Language (VDL)]] - `defines` [EXTRACTED]
 - [[iden3 verifyExpirationTime missing-range-check type mismatch]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_93
+#graphify/paper #graphify/EXTRACTED #community/Community_86

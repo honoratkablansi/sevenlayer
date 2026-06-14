@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-19-protostar.pdf"
 type: "paper"
-community: "Community 7"
+community: "Community 13"
 location: "§6 Def 16, Lemma 8"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_7
+  - community/Community_13
 ---
 
 # Protostar: Non-Uniform IVC Scheme for Multi-Circuit Plonkup R_mplkup
@@ -24,4 +24,4 @@ tags:
 - [[Plonkup  Plonkish Circuit-Satisfiability Relation]] - `defines` [EXTRACTED]
 - [[Protostar Generic Efficient AccumulationFolding for Special-sound Protocols]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_7
+#graphify/paper #graphify/EXTRACTED #community/Community_13

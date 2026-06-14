@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-77-photoproof.pdf"
 type: "paper"
-community: "Community 47"
+community: "Community 26"
 location: "§II-B; §IV-B"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_47
+  - community/Community_26
 ---
 
 # Succinctness: constant-size proofs O_lambda(1) and verifier runtime O_lambda(|I|), independent of image edit-history length
@@ -15,4 +15,4 @@ tags:
 - [[PhotoProof cryptographic image authentication scheme for any permissible transformation set]] - `proves` [EXTRACTED]
 - [[Proof-Carrying Data (PCD)]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_47
+#graphify/paper #graphify/EXTRACTED #community/Community_26

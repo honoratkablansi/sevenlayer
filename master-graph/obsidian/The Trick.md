@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch01-the-trick.md"
 type: "document"
-community: "Community 12"
+community: "Community 15"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_12
+  - community/Community_15
 ---
 
 # The Trick
@@ -16,4 +16,4 @@ tags:
 - [[The Proof at the Door]] - `references` [EXTRACTED]
 - [[The Seven Layers at a Glance]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_12
+#graphify/document #graphify/EXTRACTED #community/Community_15

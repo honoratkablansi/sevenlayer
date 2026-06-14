@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch02-universal-versus-circuit-specific-setups.md"
 type: "document"
-community: "Community 35"
+community: "Community 4"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_35
+  - community/Community_4
 ---
 
 # Universal versus Circuit-Specific Setups
@@ -24,4 +24,4 @@ tags:
 - [[The CapexOpex Framework]] - `references` [EXTRACTED]
 - [[Trusted Setup Ceremony]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_35
+#graphify/document #graphify/EXTRACTED #community/Community_4

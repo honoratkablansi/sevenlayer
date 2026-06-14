@@ -1,29 +1,29 @@
 ---
 type: community
-cohesion: 0.16
+cohesion: 0.21
 members: 14
 ---
 
 # Community 95
 
-**Cohesion:** 0.16 - loosely connected
+**Cohesion:** 0.21 - loosely connected
 **Members:** 14 nodes
 
 ## Members
-- [[Algorand player-replaceable byzantine agreement (cited analogy for player exchangeability)]] - paper - references/ch02/ref-05-mpc-random-beacon.pdf
-- [[Ben-Sasson-Chiesa-Green-Tromer-Virza MPC for public parameters (prior CRS protocol)]] - paper - references/ch02/ref-05-mpc-random-beacon.pdf
-- [[Bowe-Gabizon-Green MPC for the Pinocchio zk-SNARK parameters (prior protocol, Zcash setup)]] - paper - references/ch02/ref-05-mpc-random-beacon.pdf
-- [[Delayed-hash random beacon (e.g. 240 SHA256 iterations) per Bunz-Goldfeder-Bonneau]] - paper - references/ch02/ref-05-mpc-random-beacon.pdf
-- [[Knowledge of Exponent Assumption (KEA) basis for the discrete-log proof of knowledge scheme]] - paper - references/ch02/ref-05-mpc-random-beacon.pdf
-- [[Layered multiplydivide + linear-combination circuit structure for parameter generation]] - paper - references/ch02/ref-05-mpc-random-beacon.pdf
-- [[POKCheckPOK random-oracle discrete-log proof of knowledge of exponent (Algorithms 3,4)]] - paper - references/ch02/ref-05-mpc-random-beacon.pdf
-- [[Player-exchangeable MPC (px-MPC) message sequence with no restriction on sender identity, no private state between messages]] - paper - references/ch02/ref-05-mpc-random-beacon.pdf
-- [[Precommitment phase round in prior MPC forcing pre-selection of participants and secret custody, removed by this work]] - paper - references/ch02/ref-05-mpc-random-beacon.pdf
-- [[Random beacon model public verifiable randomness at fixed time slots, unavailable before the slot]] - paper - references/ch02/ref-05-mpc-random-beacon.pdf
-- [[SameRatio  consistent pairing-based ratio-equality checks (Algorithms 1,2)]] - paper - references/ch02/ref-05-mpc-random-beacon.pdf
-- [[Theorem 5.1 security under u-co-resistant beacon, advantage bound 2{-ud}·adv - negl]] - paper - references/ch02/ref-05-mpc-random-beacon.pdf
-- [[Untrusted coordinator deterministic, publicly verifiable interphase computation party]] - paper - references/ch02/ref-05-mpc-random-beacon.pdf
-- [[u-co-resistance beacon output retains min-entropy at least k·logF_p - u under adversarial influence]] - paper - references/ch02/ref-05-mpc-random-beacon.pdf
+- [[Harvest Now Decrypt Later Examining Post-Quantum Cryptography and the Data Privacy Risks for Distributed Ledger Networks]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
+- [[Assumption a sufficiently powerful quantum computer (definition relative to underlying crypto strength) will eventually be controllable by a bad actor (nation state, consortium, corporation)]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
+- [[Cryptographically Relevant Quantum Computer (CRQC)]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
+- [[Distributed Ledger Network]] - document - references/ch14/ref-63-harvest-now-decrypt-later.pdf
+- [[Gidney (2025) factoring RSA-2048 with 1M noisy qubits in under a week]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
+- [[Harvest Now Decrypt Later (HNDL)]] - document - references/ch14/ref-63-harvest-now-decrypt-later.pdf
+- [[Mosca & Piani (2024), Quantum Threat Timeline Report, Global Risk Institute]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
+- [[Mosca's Theorem (X+Y vs Z migration urgency)]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
+- [[Mosca's Theorem if X (data shelf life) + Y (PQC migration time)  Z (time to build CRQC), keysdata are at risk; framed as dominant data-privacy protection for DLT]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
+- [[National Security Memorandum 10 (NSM-10) mitigate quantum risk by 2035]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
+- [[PQC Standards Transition Timeline (target 2035, NSM-10)]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
+- [[Q-Day the moving-target momentperiod when a fault-tolerant quantum computer can break asymmetric encryption]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
+- [[Quantum-risk timeline ~100 logical qubits within 10 years; 1-in-3 experts forecast Q-Day before 2032; RSA-2048 factorable in 1 week with 1M noisy qubits]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
+- [[Threat model bad actor joins as node operator, harvests a non-PQC replica of the ledger, later cracks it with a quantum computer to reveal plaintext]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -33,13 +33,16 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 4 edges to [[_COMMUNITY_Community 35]]
-- 3 edges to [[_COMMUNITY_Community 9]]
-- 1 edge to [[_COMMUNITY_Community 42]]
+- 4 edges to [[_COMMUNITY_Community 10]]
+- 3 edges to [[_COMMUNITY_Community 115]]
+- 3 edges to [[_COMMUNITY_Community 117]]
+- 3 edges to [[_COMMUNITY_Community 101]]
+- 1 edge to [[_COMMUNITY_Community 56]]
+- 1 edge to [[_COMMUNITY_Community 4]]
+- 1 edge to [[_COMMUNITY_Community 36]]
 
 ## Top bridge nodes
-- [[Player-exchangeable MPC (px-MPC) message sequence with no restriction on sender identity, no private state between messages]] - degree 9, connects to 2 communities
-- [[Knowledge of Exponent Assumption (KEA) basis for the discrete-log proof of knowledge scheme]] - degree 3, connects to 2 communities
-- [[Random beacon model public verifiable randomness at fixed time slots, unavailable before the slot]] - degree 5, connects to 1 community
-- [[Ben-Sasson-Chiesa-Green-Tromer-Virza MPC for public parameters (prior CRS protocol)]] - degree 2, connects to 1 community
-- [[Bowe-Gabizon-Green MPC for the Pinocchio zk-SNARK parameters (prior protocol, Zcash setup)]] - degree 2, connects to 1 community
+- [[Harvest Now Decrypt Later (HNDL)]] - degree 13, connects to 4 communities
+- [[Harvest Now Decrypt Later Examining Post-Quantum Cryptography and the Data Privacy Risks for Distributed Ledger Networks]] - degree 7, connects to 4 communities
+- [[PQC Standards Transition Timeline (target 2035, NSM-10)]] - degree 5, connects to 3 communities
+- [[Cryptographically Relevant Quantum Computer (CRQC)]] - degree 5, connects to 1 community

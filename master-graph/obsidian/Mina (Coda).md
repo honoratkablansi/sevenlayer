@@ -1,12 +1,12 @@
 ---
 source_file: "recursion/recursion-outline.md"
 type: "document"
-community: "Community 78"
+community: "Community 77"
 location: "Recursion Chapter 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_78
+  - community/Community_77
 ---
 
 # Mina (Coda)
@@ -22,4 +22,4 @@ tags:
 - [[Succinct blockchain]] - `introduces` [EXTRACTED]
 - [[Testnet evaluation 85 participants, 49 block producers, 24826 txns, 53120 SNARK proofs]] - `proves` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_78
+#graphify/document #graphify/EXTRACTED #community/Community_77

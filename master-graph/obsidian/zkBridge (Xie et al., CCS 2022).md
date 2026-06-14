@@ -1,12 +1,12 @@
 ---
 source_file: "recursion/recursion-outline.md"
 type: "document"
-community: "Community 75"
+community: "Community 87"
 location: "Recursion Chapter 3"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_75
+  - community/Community_87
 ---
 
 # zkBridge (Xie et al., CCS 2022)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Light client  bridge]] - `cites` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_75
+#graphify/document #graphify/EXTRACTED #community/Community_87

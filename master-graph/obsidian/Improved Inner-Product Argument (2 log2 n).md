@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-09-bulletproofs.pdf"
 type: "paper"
-community: "Community 14"
+community: "Community 131"
 location: "§3, Protocol 1 & 2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_14
+  - community/Community_131
 ---
 
 # Improved Inner-Product Argument (2 log2 n)
@@ -20,4 +20,4 @@ tags:
 - [[Theorem 1 Inner-Product Argument Security]] - `proves` [EXTRACTED]
 - [[Zero-Knowledge Proof for Arithmetic Circuits (Protocol 3)]] - `shares_data_with` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_14
+#graphify/paper #graphify/EXTRACTED #community/Community_131

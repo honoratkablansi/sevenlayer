@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-18-hypernova.pdf"
 type: "document"
-community: "Community 47"
+community: "Community 26"
 location: "abstract"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_47
+  - community/Community_26
 ---
 
 # Proof-Carrying Data (PCD)
@@ -28,7 +28,7 @@ tags:
 - [[HyperNova Recursive Arguments for Customizable Constraint Systems]] - `conceptually_related_to` [EXTRACTED]
 - [[Identity and credentials]] - `conceptually_related_to` [EXTRACTED]
 - [[Image Authentication (IA) proving an image faithfully represents an original photograph from a given capture device class]] - `uses` [EXTRACTED]
-- [[Incrementally Verifiable Computation (IVC)]] - `relates_to` [EXTRACTED]
+- [[Incrementally Verifiable Computation (IVC)]] - `generalizes` [EXTRACTED]
 - [[Knowledge-Soundness]] - `assumes` [EXTRACTED]
 - [[LatticeFold A Lattice-based Folding Scheme and its Applications to Succinct Proof Systems]] - `conceptually_related_to` [EXTRACTED]
 - [[Mangrove]] - `uses` [EXTRACTED]
@@ -60,4 +60,4 @@ tags:
 - [[BCMS20 Bunz, Chiesa, Mishra, Spooner, Proof-Carrying Data from Accumulation Schemes (TCC 2020)]] - `conceptually_related_to` [EXTRACTED]
 - [[CT10 Chiesa, Tromer, Proof-Carrying Data and Hearsay Arguments from Signature Cards (ICS 2010)]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_47
+#graphify/document #graphify/EXTRACTED #community/Community_26

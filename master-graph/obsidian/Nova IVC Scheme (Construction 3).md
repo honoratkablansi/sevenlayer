@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-17-nova.pdf"
 type: "paper"
-community: "Community 120"
+community: "Community 17"
 location: "§5.1 Construction 3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_120
+  - community/Community_17
 ---
 
 # Nova IVC Scheme (Construction 3)
@@ -20,4 +20,4 @@ tags:
 - [[Nova Recursive Zero-Knowledge Arguments from Folding Schemes]] - `introduces` [EXTRACTED]
 - [[zkSNARK of a Valid IVC Proof (Construction 4)]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_120
+#graphify/paper #graphify/EXTRACTED #community/Community_17

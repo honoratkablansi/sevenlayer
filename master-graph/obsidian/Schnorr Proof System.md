@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-22-frozen-heart.md"
 type: "document"
-community: "Community 29"
+community: "Community 80"
 location: "Preventing Frozen Heart Vulnerabilities"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_29
+  - community/Community_80
 ---
 
 # Schnorr Proof System
@@ -18,4 +18,4 @@ tags:
 - [[Pedersen Commitment]] - `builds_on` [EXTRACTED]
 - [[Sigma protocol (public-coin 3-move)]] - `special_case_of` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_29
+#graphify/document #graphify/EXTRACTED #community/Community_80

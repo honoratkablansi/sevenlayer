@@ -1,23 +1,25 @@
 ---
 type: community
-cohesion: 0.32
-members: 8
+cohesion: 0.24
+members: 10
 ---
 
 # Community 116
 
-**Cohesion:** 0.32 - loosely connected
-**Members:** 8 nodes
+**Cohesion:** 0.24 - loosely connected
+**Members:** 10 nodes
 
 ## Members
-- [[Path One Hybrid STARK-to-SNARK Pipeline]] - document - proving-nothing.md
-- [[Seven-Layer Causal Web (DAG, 14 edges)]] - document - proving-nothing.md
-- [[Small Fields (BabyBear, Mersenne-31)]] - document - proving-nothing.md
-- [[StarkWare Stwo (Circle STARK)]] - document - proving-nothing.md
-- [[Succinct SP1 Hypercube]] - document - proving-nothing.md
-- [[The SNARK-or-STARK Binary Is Dead]] - document - proving-nothing.md
-- [[Three Paths, Not Two (Synthesis)]] - document - proving-nothing.md
-- [[Trustless vs Trust-Minimized]] - document - proving-nothing.md
+- [[Buterin, A rollup-centric ethereum roadmap (2020)]] - document - references/recursion/ch3/ref-54-ethereum-rollup-centric-roadmap.md
+- [[Danksharding  proto-danksharding (EIP-4844 blobs)]] - document - references/recursion/ch3/ref-56-ethereum-org-zkevm-roadmap.md
+- [[Data availability layer (base layer as DA for rollups)]] - document - references/recursion/ch3/ref-54-ethereum-rollup-centric-roadmap.md
+- [[PeerDAS (peer-to-peer data availability sampling, Fusaka)]] - document - references/recursion/ch3/ref-56-ethereum-org-zkevm-roadmap.md
+- [[Phase 1.5 and done (base layer for consensus and DA only)]] - document - references/recursion/ch3/ref-54-ethereum-rollup-centric-roadmap.md
+- [[Rollup-centric Ethereum scaling roadmap]] - document - references/recursion/ch3/ref-54-ethereum-rollup-centric-roadmap.md
+- [[Sharding dropped in favor of rollup scaling]] - document - references/recursion/ch3/ref-56-ethereum-org-zkevm-roadmap.md
+- [[Single slot finality]] - document - references/recursion/ch3/ref-56-ethereum-org-zkevm-roadmap.md
+- [[Statelessness (stateless clients verify blocks without storing state)]] - document - references/recursion/ch3/ref-56-ethereum-org-zkevm-roadmap.md
+- [[ethereum.org Ethereum roadmap page (zkEVM)]] - document - references/recursion/ch3/ref-56-ethereum-org-zkevm-roadmap.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -27,17 +29,10 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 5 edges to [[_COMMUNITY_Community 12]]
-- 2 edges to [[_COMMUNITY_Community 13]]
-- 1 edge to [[_COMMUNITY_Community 36]]
-- 1 edge to [[_COMMUNITY_Community 8]]
-- 1 edge to [[_COMMUNITY_Community 20]]
-- 1 edge to [[_COMMUNITY_Community 10]]
-- 1 edge to [[_COMMUNITY_Community 19]]
+- 2 edges to [[_COMMUNITY_Community 53]]
+- 1 edge to [[_COMMUNITY_Community 29]]
+- 1 edge to [[_COMMUNITY_Community 108]]
 
 ## Top bridge nodes
-- [[Path One Hybrid STARK-to-SNARK Pipeline]] - degree 7, connects to 4 communities
-- [[Three Paths, Not Two (Synthesis)]] - degree 7, connects to 2 communities
-- [[The SNARK-or-STARK Binary Is Dead]] - degree 3, connects to 2 communities
-- [[Seven-Layer Causal Web (DAG, 14 edges)]] - degree 3, connects to 1 community
-- [[Succinct SP1 Hypercube]] - degree 3, connects to 1 community
+- [[Rollup-centric Ethereum scaling roadmap]] - degree 7, connects to 2 communities
+- [[ethereum.org Ethereum roadmap page (zkEVM)]] - degree 6, connects to 1 community

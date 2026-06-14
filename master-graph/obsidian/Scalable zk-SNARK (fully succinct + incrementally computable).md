@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-02-bctv-cycles.pdf"
 type: "paper"
-community: "Community 103"
+community: "Community 25"
 location: "§1.2, §6, App. E"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_103
+  - community/Community_25
 ---
 
 # Scalable zk-SNARK (fully succinct + incrementally computable)
@@ -17,4 +17,4 @@ tags:
 - [[Scalable Zero Knowledge via Cycles of Elliptic Curves (BCTV14, CRYPTO 2014)]] - `introduces` [EXTRACTED]
 - [[vnTinyRAM evaluation ~26.2sstep, VIPS clock rate]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_103
+#graphify/paper #graphify/EXTRACTED #community/Community_25

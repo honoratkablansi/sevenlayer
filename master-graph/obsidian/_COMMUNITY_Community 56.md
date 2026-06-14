@@ -1,37 +1,36 @@
 ---
 type: community
-cohesion: 0.12
-members: 22
+cohesion: 0.17
+members: 21
 ---
 
 # Community 56
 
-**Cohesion:** 0.12 - loosely connected
-**Members:** 22 nodes
+**Cohesion:** 0.17 - loosely connected
+**Members:** 21 nodes
 
 ## Members
-- [[Composite-extension factorization F_{pn}=F_{(pη)κ}, gcd(η,κ)=1]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[ConjugationGJL polynomial selection Barbulescu-Gaudry-Guillevic-Morain]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[Discrete Logarithm Problem]] - paper - references/ch07/ref-24-shor.pdf
-- [[Doubly-extended tower number field K_f = Q(ι,α_f)]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[Elliptic Curve Method (ECM) factoring attack]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
-- [[Extended Tower Number Field Sieve A New Complexity for the Medium Prime Case]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[Finite Fields]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[Individual logarithm smoothing + special-q descent]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[Lemma 1 (norm size bound via iterated resultants)]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[Mandate to update pairing key sizes (c=64→48, factor ~1.33; SNFS factor 2)]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[MexTNFS multiple-number-field variant (c≈1.71)]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[NFS medium-prime case (JLSV) Joux-Lercier-Smart-Vercauteren]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[NFSECM crossover ECM beats NFS at 5+ prime factors]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
-- [[Number Field Sieve]] - document - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[Polynomial Selection]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[Polynomial selection step (h,f,g) — JLSV2 and Conjugation methods]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[Relation collection over R=Zth(t), B-smooth norms]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[Theorem 1 (exTNFS complexity table)]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[Tower Number Field Sieve (TNFS)]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[Tower Number Field Sieve (TNFS) Barbulescu-Gaudry-Kleinjung]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[exTNFS (Extended Tower Number Field Sieve)]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[exTNFS-Conj medium-prime complexity L_Q(13,(489){13})]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[Additively-Homomorphic Vector Commitment]] - paper - references/ch06/ref-17-nova.pdf
+- [[Anonymity set of Bitcoin public keys for address unlinkability]] - paper - references/recursion/ch3/ref-88-provisions.pdf
+- [[Bit-decomposition range proof for committed balances (no trusted setup)]] - paper - references/recursion/ch3/ref-88-provisions.pdf
+- [[Bitcoin]] - document - references/ch14/ref-63-harvest-now-decrypt-later.pdf
+- [[General security definition of a privacy-preserving proof of solvency (valid pair; correctnesssoundnessownershipprivacy)]] - paper - references/recursion/ch3/ref-88-provisions.pdf
+- [[Injective customer-ID commitment to defeat clash attack]] - paper - references/recursion/ch3/ref-88-provisions.pdf
+- [[Maxwell Merkle-tree proof of reservesliabilities (prior work)]] - paper - references/recursion/ch3/ref-88-provisions.pdf
+- [[No-trusted-setup design goal (no common reference string)]] - paper - references/recursion/ch3/ref-88-provisions.pdf
+- [[Non-surjective liability mapping fake users only increase apparent liabilities]] - paper - references/recursion/ch3/ref-88-provisions.pdf
+- [[Pedersen Commitment]] - document - proving-nothing.md
+- [[Privacy-preserving proof of liabilities (Protocol 2)]] - paper - references/recursion/ch3/ref-88-provisions.pdf
+- [[Proof of Solvency for Bitcoin exchanges]] - paper - references/recursion/ch3/ref-88-provisions.pdf
+- [[Proof of assets  proof of reserves]] - paper - references/recursion/ch3/ref-88-provisions.pdf
+- [[Proof of solvency  financial compliance]] - document - recursion/recursion-outline.md
+- [[Proof-of-assets Sigma-protocol (HVZK argument of knowledge)]] - paper - references/recursion/ch3/ref-88-provisions.pdf
+- [[Provisions (Dagher et al., CCS 2015)]] - document - recursion/recursion-outline.md
+- [[Provisions privacy-preserving proof of solvency for Bitcoin exchanges]] - paper - references/recursion/ch3/ref-88-provisions.pdf
+- [[Schnorr proof of knowledge of discrete logarithm]] - paper - references/recursion/ch3/ref-88-provisions.pdf
+- [[Theorem 1 proof-of-assets Sigma-protocol is HVZK argument of knowledge]] - paper - references/recursion/ch3/ref-88-provisions.pdf
+- [[Theorem 2 proof-of-liabilities is zero-knowledge and sound]] - paper - references/recursion/ch3/ref-88-provisions.pdf
+- [[Theorem 3 Provisions (Protocol 3) is a privacy-preserving proof of solvency]] - paper - references/recursion/ch3/ref-88-provisions.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -41,19 +40,36 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 5 edges to [[_COMMUNITY_Community 49]]
-- 4 edges to [[_COMMUNITY_Community 87]]
-- 3 edges to [[_COMMUNITY_Community 27]]
-- 2 edges to [[_COMMUNITY_Community 92]]
-- 2 edges to [[_COMMUNITY_Community 35]]
-- 1 edge to [[_COMMUNITY_Community 108]]
-- 1 edge to [[_COMMUNITY_Community 24]]
-- 1 edge to [[_COMMUNITY_Community 0]]
-- 1 edge to [[_COMMUNITY_Community 12]]
+- 8 edges to [[_COMMUNITY_Community 80]]
+- 6 edges to [[_COMMUNITY_Community 75]]
+- 4 edges to [[_COMMUNITY_Community 5]]
+- 4 edges to [[_COMMUNITY_Community 10]]
+- 3 edges to [[_COMMUNITY_Community 135]]
+- 2 edges to [[_COMMUNITY_Community 31]]
+- 2 edges to [[_COMMUNITY_Community 59]]
+- 2 edges to [[_COMMUNITY_Community 3]]
+- 2 edges to [[_COMMUNITY_Community 24]]
+- 2 edges to [[_COMMUNITY_Community 87]]
+- 2 edges to [[_COMMUNITY_Community 139]]
+- 1 edge to [[_COMMUNITY_Community 22]]
+- 1 edge to [[_COMMUNITY_Community 20]]
+- 1 edge to [[_COMMUNITY_Community 15]]
+- 1 edge to [[_COMMUNITY_Community 90]]
+- 1 edge to [[_COMMUNITY_Community 143]]
+- 1 edge to [[_COMMUNITY_Community 85]]
+- 1 edge to [[_COMMUNITY_Community 30]]
+- 1 edge to [[_COMMUNITY_Community 131]]
+- 1 edge to [[_COMMUNITY_Community 13]]
+- 1 edge to [[_COMMUNITY_Community 6]]
+- 1 edge to [[_COMMUNITY_Community 41]]
+- 1 edge to [[_COMMUNITY_Community 95]]
+- 1 edge to [[_COMMUNITY_Community 101]]
+- 1 edge to [[_COMMUNITY_Community 117]]
+- 1 edge to [[_COMMUNITY_Community 71]]
 
 ## Top bridge nodes
-- [[Discrete Logarithm Problem]] - degree 10, connects to 5 communities
-- [[Extended Tower Number Field Sieve A New Complexity for the Medium Prime Case]] - degree 7, connects to 4 communities
-- [[exTNFS (Extended Tower Number Field Sieve)]] - degree 15, connects to 3 communities
-- [[Number Field Sieve]] - degree 10, connects to 2 communities
-- [[Mandate to update pairing key sizes (c=64→48, factor ~1.33; SNFS factor 2)]] - degree 3, connects to 2 communities
+- [[Pedersen Commitment]] - degree 39, connects to 15 communities
+- [[Provisions privacy-preserving proof of solvency for Bitcoin exchanges]] - degree 16, connects to 4 communities
+- [[Proof of solvency  financial compliance]] - degree 12, connects to 3 communities
+- [[Bitcoin]] - degree 6, connects to 3 communities
+- [[Proof of Solvency for Bitcoin exchanges]] - degree 3, connects to 2 communities

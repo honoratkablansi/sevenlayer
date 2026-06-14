@@ -1,0 +1,8647 @@
+[
+  {
+    "start": 0.91,
+    "dur": 1.25,
+    "text": "YUPENG ZHANG: Hello, everyone."
+  },
+  {
+    "start": 2.16,
+    "dur": 2.39,
+    "text": "Welcome back to our course\non zero knowledge proofs."
+  },
+  {
+    "start": 4.55,
+    "dur": 0.93,
+    "text": "I'm Yupeng Zhang."
+  },
+  {
+    "start": 5.48,
+    "dur": 2.7,
+    "text": "And, today, I'm going to talk\nabout polynomial commitments"
+  },
+  {
+    "start": 8.18,
+    "dur": 5.14,
+    "text": "based on bilinear pairing\nand discrete logarithm."
+  },
+  {
+    "start": 13.32,
+    "dur": 2.62,
+    "text": "Recall that from\nprevious lectures,"
+  },
+  {
+    "start": 15.94,
+    "dur": 1.58,
+    "text": "we've learned that\na common recipe"
+  },
+  {
+    "start": 17.52,
+    "dur": 2.13,
+    "text": "to build an efficient\nSNARK system"
+  },
+  {
+    "start": 19.65,
+    "dur": 3.01,
+    "text": "is this general\nparadigm in two steps."
+  },
+  {
+    "start": 22.66,
+    "dur": 3.27,
+    "text": "We first design a proper\ninteractive Oracle proof,"
+  },
+  {
+    "start": 25.93,
+    "dur": 1.76,
+    "text": "such as a polynomial IOP."
+  },
+  {
+    "start": 27.69,
+    "dur": 2.73,
+    "text": "And then we can combine it\nwith a polynomial commitment"
+  },
+  {
+    "start": 30.42,
+    "dur": 4.63,
+    "text": "to build an efficient SNARK\nfor circuit evaluations."
+  },
+  {
+    "start": 35.05,
+    "dur": 2.97,
+    "text": "In the last lecture, Dan has\ntaught about the Plonk scheme,"
+  },
+  {
+    "start": 38.02,
+    "dur": 1.65,
+    "text": "where we can reduce\nthe computation"
+  },
+  {
+    "start": 39.67,
+    "dur": 2.58,
+    "text": "of a general circuit\nto [INAUDIBLE],,"
+  },
+  {
+    "start": 42.25,
+    "dur": 3.93,
+    "text": "such as the polynomial equality\ntesting, product check,"
+  },
+  {
+    "start": 46.18,
+    "dur": 2.13,
+    "text": "permutation check, and so on."
+  },
+  {
+    "start": 48.31,
+    "dur": 3.36,
+    "text": "Combining the Plonk IOP\nwith a univariate polynomial"
+  },
+  {
+    "start": 51.67,
+    "dur": 2.34,
+    "text": "commitment, we will\nget an efficient SNARK"
+  },
+  {
+    "start": 54.01,
+    "dur": 2.78,
+    "text": "for general circuits."
+  },
+  {
+    "start": 56.79,
+    "dur": 3.72,
+    "text": "Earlier, in lecture four, Justin\ntalked about interactive proofs"
+  },
+  {
+    "start": 60.51,
+    "dur": 3.18,
+    "text": "and showed how to check the\ncircuit satisfiability using"
+  },
+  {
+    "start": 63.69,
+    "dur": 2.55,
+    "text": "the classical sumcheck protocol."
+  },
+  {
+    "start": 66.24,
+    "dur": 1.8,
+    "text": "At the end of this\nprotocol, the verifier"
+  },
+  {
+    "start": 68.04,
+    "dur": 2.88,
+    "text": "has to evaluate a multivariate\npolynomial defined"
+  },
+  {
+    "start": 70.92,
+    "dur": 3.07,
+    "text": "by the prover's witness\nat a single point."
+  },
+  {
+    "start": 73.99,
+    "dur": 2.93,
+    "text": "And this is, again, realized\nby a multivariate polynomial"
+  },
+  {
+    "start": 76.92,
+    "dur": 4.53,
+    "text": "commitment scheme in order\nto get an efficient SNARK."
+  },
+  {
+    "start": 81.45,
+    "dur": 2.91,
+    "text": "So, in today's lecture, I'm\ngoing to formally present"
+  },
+  {
+    "start": 84.36,
+    "dur": 2.58,
+    "text": "the constructions of binomial\ncommitment schemes based"
+  },
+  {
+    "start": 86.94,
+    "dur": 2.97,
+    "text": "on bilinear pairing\nand discrete logarithm."
+  },
+  {
+    "start": 89.91,
+    "dur": 2.22,
+    "text": "Combining them with\nthe polynomial IOPs"
+  },
+  {
+    "start": 92.13,
+    "dur": 1.68,
+    "text": "we learned before,\nwe will eventually"
+  },
+  {
+    "start": 93.81,
+    "dur": 2.85,
+    "text": "have the complete description\nof several efficient SNARK"
+  },
+  {
+    "start": 96.66,
+    "dur": 1.82,
+    "text": "schemes."
+  },
+  {
+    "start": 98.48,
+    "dur": 2.83,
+    "text": "So, to start, what is\na binomial commitment?"
+  },
+  {
+    "start": 101.31,
+    "dur": 3.56,
+    "text": "It is, again, a protocol\nbetween a prover and a verifier"
+  },
+  {
+    "start": 104.87,
+    "dur": 3.87,
+    "text": "for a family of polynomials, for\nexample, univariate polynomials"
+  },
+  {
+    "start": 108.74,
+    "dur": 2.49,
+    "text": "with degree less\nthan or equal to B."
+  },
+  {
+    "start": 111.23,
+    "dur": 3.87,
+    "text": "And the prover has this\npolynomial in the family."
+  },
+  {
+    "start": 115.1,
+    "dur": 2.55,
+    "text": "And without sending it\ndirectly to the verifier,"
+  },
+  {
+    "start": 117.65,
+    "dur": 2.52,
+    "text": "the prover can commit\nto this polynomial"
+  },
+  {
+    "start": 120.17,
+    "dur": 2.73,
+    "text": "through a polynomial commitment."
+  },
+  {
+    "start": 122.9,
+    "dur": 2.34,
+    "text": "Later, the verifier\ncan issue a query"
+  },
+  {
+    "start": 125.24,
+    "dur": 2.31,
+    "text": "on the evaluation\nat this point u."
+  },
+  {
+    "start": 127.55,
+    "dur": 4.41,
+    "text": "And the prover replies with\nthe value v and the proof pi,"
+  },
+  {
+    "start": 131.96,
+    "dur": 3.93,
+    "text": "proving that v equals to\nthe evaluation f of u."
+  },
+  {
+    "start": 135.89,
+    "dur": 5.25,
+    "text": "And, at the same time, f belongs\nto this family of polynomials."
+  },
+  {
+    "start": 141.14,
+    "dur": 2.79,
+    "text": "More formally speaking,\nthere are four algorithms"
+  },
+  {
+    "start": 143.93,
+    "dur": 1.95,
+    "text": "of a polynomial\ncommitment scheme,"
+  },
+  {
+    "start": 145.88,
+    "dur": 4.14,
+    "text": "keygen, commit,\neval, and verify."
+  },
+  {
+    "start": 150.02,
+    "dur": 4.26,
+    "text": "The keygen takes the\ndescription of this family"
+  },
+  {
+    "start": 154.28,
+    "dur": 2.07,
+    "text": "of the polynomials\nand security parameter"
+  },
+  {
+    "start": 156.35,
+    "dur": 2.97,
+    "text": "and outputs a set of\nglobal parameters."
+  },
+  {
+    "start": 159.32,
+    "dur": 2.76,
+    "text": "It is also known as the public\nkey, or public parameters,"
+  },
+  {
+    "start": 162.08,
+    "dur": 1.32,
+    "text": "or common reference string."
+  },
+  {
+    "start": 163.4,
+    "dur": 1.68,
+    "text": "But, in this lecture,\nI'm just going"
+  },
+  {
+    "start": 165.08,
+    "dur": 2.41,
+    "text": "to use gp to represent it."
+  },
+  {
+    "start": 167.49,
+    "dur": 2.07,
+    "text": "Then, given gp and\nthe polynomial,"
+  },
+  {
+    "start": 169.56,
+    "dur": 3.33,
+    "text": "the prover can compute the\ncommitment of this polynomial."
+  },
+  {
+    "start": 172.89,
+    "dur": 2.16,
+    "text": "And, later, at the\nevaluation point u,"
+  },
+  {
+    "start": 175.05,
+    "dur": 2.97,
+    "text": "the prover can call\nthis eval algorithm"
+  },
+  {
+    "start": 178.02,
+    "dur": 3.45,
+    "text": "to output the evaluation\nv and the approved pi."
+  },
+  {
+    "start": 181.47,
+    "dur": 3.39,
+    "text": "And, finally, the verifier can\nverify the correctness of this"
+  },
+  {
+    "start": 184.86,
+    "dur": 3.87,
+    "text": "claim using gp, the\ncommitment, u,v, and pi,"
+  },
+  {
+    "start": 188.73,
+    "dur": 4.02,
+    "text": "and output either\naccept or reject."
+  },
+  {
+    "start": 192.75,
+    "dur": 2.49,
+    "text": "The correctness of a\npolynomial commitment"
+  },
+  {
+    "start": 195.24,
+    "dur": 2.37,
+    "text": "says that if the prover\nis honest and follows"
+  },
+  {
+    "start": 197.61,
+    "dur": 3.0,
+    "text": "all of these algorithms,\nthen the verification always"
+  },
+  {
+    "start": 200.61,
+    "dur": 2.05,
+    "text": "outputs accept."
+  },
+  {
+    "start": 202.66,
+    "dur": 2.82,
+    "text": "And I omit the formal\ndefinition here."
+  },
+  {
+    "start": 205.48,
+    "dur": 2.4,
+    "text": "More interestingly,\nwe want the scheme"
+  },
+  {
+    "start": 207.88,
+    "dur": 2.91,
+    "text": "to be sound, meaning that\nthe prover should not"
+  },
+  {
+    "start": 210.79,
+    "dur": 2.53,
+    "text": "be able to lie about\nthis evaluation."
+  },
+  {
+    "start": 213.32,
+    "dur": 2.06,
+    "text": "And, here, I'm showing\nthe formal definition"
+  },
+  {
+    "start": 215.38,
+    "dur": 2.16,
+    "text": "of a knowledge soundness."
+  },
+  {
+    "start": 217.54,
+    "dur": 2.67,
+    "text": "It says that for every\npolynomial time adversary,"
+  },
+  {
+    "start": 220.21,
+    "dur": 3.63,
+    "text": "given the global parameters\ngenerated by keygen,"
+  },
+  {
+    "start": 223.84,
+    "dur": 4.17,
+    "text": "if the adversary can output\na valid commitment evaluation"
+  },
+  {
+    "start": 228.01,
+    "dur": 3.78,
+    "text": "and proof that pass the\nverification with probability"
+  },
+  {
+    "start": 231.79,
+    "dur": 3.69,
+    "text": "1, then there must exist\nan efficient extractor that"
+  },
+  {
+    "start": 235.48,
+    "dur": 4.65,
+    "text": "uses A so that it can extract\na polynomial f, where f of u"
+  },
+  {
+    "start": 240.13,
+    "dur": 4.56,
+    "text": "equals to v and fx belongs\nto this family of polynomials"
+  },
+  {
+    "start": 244.69,
+    "dur": 2.44,
+    "text": "with an overwhelming\nprobability."
+  },
+  {
+    "start": 247.13,
+    "dur": 3.08,
+    "text": "So that is the formal definition\nof knowledge soundness"
+  },
+  {
+    "start": 250.21,
+    "dur": 2.83,
+    "text": "of polynomial commitments."
+  },
+  {
+    "start": 253.04,
+    "dur": 2.06,
+    "text": "So, in order to fully\nunderstand the construction"
+  },
+  {
+    "start": 255.1,
+    "dur": 1.583,
+    "text": "of binomial commitments,\nthere will be"
+  },
+  {
+    "start": 256.683,
+    "dur": 1.906,
+    "text": "three segments of this lecture."
+  },
+  {
+    "start": 258.589,
+    "dur": 1.401,
+    "text": "So, first, I'm\ngoing to introduce"
+  },
+  {
+    "start": 259.99,
+    "dur": 2.22,
+    "text": "some mathematical and\ncryptographic background"
+  },
+  {
+    "start": 262.21,
+    "dur": 3.66,
+    "text": "on groups, discrete-log,\nand bilinear pairing."
+  },
+  {
+    "start": 265.87,
+    "dur": 4.17,
+    "text": "After that, I'm going to present\nthe classical construction"
+  },
+  {
+    "start": 270.04,
+    "dur": 2.82,
+    "text": "of this KZG polynomial\ncommitment using"
+  },
+  {
+    "start": 272.86,
+    "dur": 3.87,
+    "text": "bilinear pairing and also\ntalk about these variants."
+  },
+  {
+    "start": 276.73,
+    "dur": 2.19,
+    "text": "Finally, in the\nlast part, I will"
+  },
+  {
+    "start": 278.92,
+    "dur": 2.22,
+    "text": "talk about polynomial\ncommitment schemes"
+  },
+  {
+    "start": 281.14,
+    "dur": 2.76,
+    "text": "without trusted setup,\nsuch as bulletproofs,"
+  },
+  {
+    "start": 283.9,
+    "dur": 2.28,
+    "text": "and also highlight\nsome other schemes"
+  },
+  {
+    "start": 286.18,
+    "dur": 4.95,
+    "text": "based on discrete logarithm,\nsuch as Hyrax, Dory, and Dark."
+  },
+  {
+    "start": 291.13,
+    "dur": 3.61,
+    "text": "So let's start with\nsome background."
+  },
+  {
+    "start": 294.74,
+    "dur": 3.0,
+    "text": "The first thing I want\nto define is a group."
+  },
+  {
+    "start": 297.74,
+    "dur": 5.22,
+    "text": "A group is a set of elements\nand an operation star"
+  },
+  {
+    "start": 302.96,
+    "dur": 2.59,
+    "text": "that satisfy these\nfour properties."
+  },
+  {
+    "start": 305.55,
+    "dur": 1.88,
+    "text": "And I think it's\nactually easier to walk"
+  },
+  {
+    "start": 307.43,
+    "dur": 2.34,
+    "text": "through these properties\nwith a concrete example"
+  },
+  {
+    "start": 309.77,
+    "dur": 3.81,
+    "text": "that everyone knows, like\nintegers and their additions."
+  },
+  {
+    "start": 313.58,
+    "dur": 1.98,
+    "text": "As you can see\nhere, closure means"
+  },
+  {
+    "start": 315.56,
+    "dur": 3.87,
+    "text": "that given two elements\nin the integers, a and b,"
+  },
+  {
+    "start": 319.43,
+    "dur": 2.58,
+    "text": "then a plus b should\nalso be an integer."
+  },
+  {
+    "start": 322.01,
+    "dur": 4.11,
+    "text": "And this is clearly true\nfor integers under addition."
+  },
+  {
+    "start": 326.12,
+    "dur": 3.94,
+    "text": "Associativity says\nthat computing"
+  },
+  {
+    "start": 330.06,
+    "dur": 4.29,
+    "text": "the result of a plus b and then\nplus c should equal to a plus"
+  },
+  {
+    "start": 334.35,
+    "dur": 1.92,
+    "text": "the result of b plus c."
+  },
+  {
+    "start": 336.27,
+    "dur": 2.52,
+    "text": "And this is also\ntrue for integers."
+  },
+  {
+    "start": 338.79,
+    "dur": 3.45,
+    "text": "And identity means that there\nexists an identity element such"
+  },
+  {
+    "start": 342.24,
+    "dur": 4.95,
+    "text": "that e plus a equal to a\nplus e equals to a itself."
+  },
+  {
+    "start": 347.19,
+    "dur": 3.9,
+    "text": "And 0 is the identity element\nfor integers under addition."
+  },
+  {
+    "start": 351.09,
+    "dur": 3.22,
+    "text": "And, finally, for every\nelement in this set,"
+  },
+  {
+    "start": 354.31,
+    "dur": 3.83,
+    "text": "there exists an inverse such\nthat a plus b equals to 0."
+  },
+  {
+    "start": 358.14,
+    "dur": 1.77,
+    "text": "Again, for integers,\nthis is taking"
+  },
+  {
+    "start": 359.91,
+    "dur": 2.26,
+    "text": "the negative of the number."
+  },
+  {
+    "start": 362.17,
+    "dur": 2.33,
+    "text": "So because of this,\nintegers under addition"
+  },
+  {
+    "start": 364.5,
+    "dur": 1.93,
+    "text": "satisfy all of these\nfour properties,"
+  },
+  {
+    "start": 366.43,
+    "dur": 3.16,
+    "text": "so it forms a group."
+  },
+  {
+    "start": 369.59,
+    "dur": 3.0,
+    "text": "And other groups that\npeople are familiar with"
+  },
+  {
+    "start": 372.59,
+    "dur": 3.31,
+    "text": "include rational numbers,\nreal numbers, complex numbers,"
+  },
+  {
+    "start": 375.9,
+    "dur": 1.14,
+    "text": "and so forth."
+  },
+  {
+    "start": 377.04,
+    "dur": 1.94,
+    "text": "However, groups we\nuse in cryptography"
+  },
+  {
+    "start": 378.98,
+    "dur": 1.42,
+    "text": "are quite different."
+  },
+  {
+    "start": 380.4,
+    "dur": 2.36,
+    "text": "For example, a\ncommon group we use"
+  },
+  {
+    "start": 382.76,
+    "dur": 2.85,
+    "text": "is positive integers\nmodulo a prime number p"
+  },
+  {
+    "start": 385.61,
+    "dur": 2.07,
+    "text": "under multiplication."
+  },
+  {
+    "start": 387.68,
+    "dur": 3.18,
+    "text": "And the set is 1, 2, 3,\nall the way to p minus 1."
+  },
+  {
+    "start": 390.86,
+    "dur": 2.82,
+    "text": "And this is a finite set."
+  },
+  {
+    "start": 393.68,
+    "dur": 1.65,
+    "text": "And you can check\nthat it actually"
+  },
+  {
+    "start": 395.33,
+    "dur": 2.94,
+    "text": "satisfies all these\nfour properties"
+  },
+  {
+    "start": 398.27,
+    "dur": 3.75,
+    "text": "and thus form a\nmultiplicative group."
+  },
+  {
+    "start": 402.02,
+    "dur": 3.06,
+    "text": "Another common group we use\nis defined by elliptic curves,"
+  },
+  {
+    "start": 405.08,
+    "dur": 2.91,
+    "text": "but I'm not going to go into\ndetails in this lecture."
+  },
+  {
+    "start": 407.99,
+    "dur": 2.35,
+    "text": "And I will mainly\nuse this example"
+  },
+  {
+    "start": 410.34,
+    "dur": 2.255,
+    "text": "of a multiplicative group,\nmodulo p, in this lecture."
+  },
+  {
+    "start": 415.66,
+    "dur": 3.38,
+    "text": "So given the definition of a\ngroup, then for every group"
+  },
+  {
+    "start": 419.04,
+    "dur": 3.73,
+    "text": "there exists the\nconcept of a generator."
+  },
+  {
+    "start": 422.77,
+    "dur": 2.51,
+    "text": "So the generator\nis an element that"
+  },
+  {
+    "start": 425.28,
+    "dur": 2.7,
+    "text": "can generate all\nelements in this group"
+  },
+  {
+    "start": 427.98,
+    "dur": 3.99,
+    "text": "by taking all powers\nof this element g."
+  },
+  {
+    "start": 431.97,
+    "dur": 3.87,
+    "text": "For example, taking the\nmultiplicative group"
+  },
+  {
+    "start": 435.84,
+    "dur": 4.35,
+    "text": "modulo, the prime\nnumber 7, the elements"
+  },
+  {
+    "start": 440.19,
+    "dur": 2.4,
+    "text": "include 1, 2, 3, 4, 5, 6."
+  },
+  {
+    "start": 442.59,
+    "dur": 5.34,
+    "text": "And then, we can actually take\n3 as an example as an element."
+  },
+  {
+    "start": 447.93,
+    "dur": 3.6,
+    "text": "You can see here that if you\ntake all the powers of 3--"
+  },
+  {
+    "start": 451.53,
+    "dur": 2.97,
+    "text": "and, of course, the computation\nalways done modulo 7--"
+  },
+  {
+    "start": 454.5,
+    "dur": 3.51,
+    "text": "you can see that it iterates\nthrough all possible elements,"
+  },
+  {
+    "start": 458.01,
+    "dur": 3.9,
+    "text": "3, 2, 6, 4, 5, 1 in this group."
+  },
+  {
+    "start": 461.91,
+    "dur": 2.43,
+    "text": "So because of this,\nby the definition,"
+  },
+  {
+    "start": 464.34,
+    "dur": 2.79,
+    "text": "3 is a generator of this\nmultiplicative group"
+  },
+  {
+    "start": 467.13,
+    "dur": 2.39,
+    "text": "of Z7 star."
+  },
+  {
+    "start": 469.52,
+    "dur": 2.43,
+    "text": "By the way, there usually\nexist multiple generators,"
+  },
+  {
+    "start": 471.95,
+    "dur": 2.25,
+    "text": "and they can be efficiently\ncomputed and sampled"
+  },
+  {
+    "start": 474.2,
+    "dur": 2.76,
+    "text": "in practice."
+  },
+  {
+    "start": 476.96,
+    "dur": 3.48,
+    "text": "With this definition of a\ngenerator, then the group"
+  },
+  {
+    "start": 480.44,
+    "dur": 2.07,
+    "text": "G has an alternative\nrepresentation"
+  },
+  {
+    "start": 482.51,
+    "dur": 2.19,
+    "text": "as the powers of\nthe generator g."
+  },
+  {
+    "start": 484.7,
+    "dur": 1.92,
+    "text": "You can write it as g\nto the 1, g to the 2,"
+  },
+  {
+    "start": 486.62,
+    "dur": 1.68,
+    "text": "all the way to g\nto the p minus 1."
+  },
+  {
+    "start": 488.3,
+    "dur": 3.0,
+    "text": "This is because, by the\ndefinition of the generator,"
+  },
+  {
+    "start": 491.3,
+    "dur": 3.28,
+    "text": "this set iterates through\nall possible elements."
+  },
+  {
+    "start": 494.58,
+    "dur": 1.46,
+    "text": "So this is essentially\nthe same set"
+  },
+  {
+    "start": 496.04,
+    "dur": 3.54,
+    "text": "of the group in a\ndifferent order."
+  },
+  {
+    "start": 499.58,
+    "dur": 1.86,
+    "text": "Here, note that in\nthis lecture, I'm"
+  },
+  {
+    "start": 501.44,
+    "dur": 1.56,
+    "text": "using the\nmultiplicative notation"
+  },
+  {
+    "start": 503.0,
+    "dur": 2.61,
+    "text": "where the operation of the\ngroup is multiplication."
+  },
+  {
+    "start": 505.61,
+    "dur": 3.9,
+    "text": "And exponentiation means\nrepeating the multiplication"
+  },
+  {
+    "start": 509.51,
+    "dur": 1.11,
+    "text": "multiple times."
+  },
+  {
+    "start": 510.62,
+    "dur": 1.74,
+    "text": "Recall that, in\nthe last lecture,"
+  },
+  {
+    "start": 512.36,
+    "dur": 2.4,
+    "text": "Dan was using the\nadditive notation, where"
+  },
+  {
+    "start": 514.76,
+    "dur": 2.799,
+    "text": "the base operation is addition."
+  },
+  {
+    "start": 517.559,
+    "dur": 1.821,
+    "text": "Each of these two\nnotation is convenient"
+  },
+  {
+    "start": 519.38,
+    "dur": 1.89,
+    "text": "for different protocols\nand is actually"
+  },
+  {
+    "start": 521.27,
+    "dur": 2.88,
+    "text": "good for you to\nunderstand both notations."
+  },
+  {
+    "start": 524.15,
+    "dur": 1.59,
+    "text": "But I will use the\nmultiplicative one"
+  },
+  {
+    "start": 525.74,
+    "dur": 2.71,
+    "text": "in this lecture."
+  },
+  {
+    "start": 528.45,
+    "dur": 3.56,
+    "text": "So because of this alternative\nway of defining the group,"
+  },
+  {
+    "start": 532.01,
+    "dur": 2.01,
+    "text": "then we can formally\ndefine a problem"
+  },
+  {
+    "start": 534.02,
+    "dur": 1.59,
+    "text": "called discrete logarithm."
+  },
+  {
+    "start": 535.61,
+    "dur": 3.24,
+    "text": "The problem is, given an\nelement y in this group."
+  },
+  {
+    "start": 538.85,
+    "dur": 3.36,
+    "text": "Please find x such\nthat a generator G"
+  },
+  {
+    "start": 542.21,
+    "dur": 2.31,
+    "text": "to the power of x equals to y."
+  },
+  {
+    "start": 544.52,
+    "dur": 2.67,
+    "text": "This is well-defined\nfor every y because"
+  },
+  {
+    "start": 547.19,
+    "dur": 1.86,
+    "text": "of this alternative\nrepresentation."
+  },
+  {
+    "start": 549.05,
+    "dur": 2.88,
+    "text": "And the problem is analog\nto the logarithm computation"
+  },
+  {
+    "start": 551.93,
+    "dur": 1.48,
+    "text": "in the continuous case."
+  },
+  {
+    "start": 553.41,
+    "dur": 2.45,
+    "text": "Thus, it is called discrete-log."
+  },
+  {
+    "start": 555.86,
+    "dur": 4.59,
+    "text": "So then let's see an example on\nthe multiplicative group, mod"
+  },
+  {
+    "start": 560.45,
+    "dur": 0.93,
+    "text": "7."
+  },
+  {
+    "start": 561.38,
+    "dur": 3.93,
+    "text": "And so, please tell me, what\nis x such that 3 to the x"
+  },
+  {
+    "start": 565.31,
+    "dur": 2.36,
+    "text": "equals to 4 mod 7?"
+  },
+  {
+    "start": 567.67,
+    "dur": 2.91,
+    "text": "Can you compute it now?"
+  },
+  {
+    "start": 570.58,
+    "dur": 2.61,
+    "text": "Actually, you can't\nfigure it out immediately."
+  },
+  {
+    "start": 573.19,
+    "dur": 3.0,
+    "text": "And, basically,\nthe naive solution"
+  },
+  {
+    "start": 576.19,
+    "dur": 3.51,
+    "text": "is try out all\npossible x to see which"
+  },
+  {
+    "start": 579.7,
+    "dur": 3.83,
+    "text": "one is true for this equation."
+  },
+  {
+    "start": 583.53,
+    "dur": 2.97,
+    "text": "And this suggests that\nthis problem is actually"
+  },
+  {
+    "start": 586.5,
+    "dur": 0.9,
+    "text": "hard to solve."
+  },
+  {
+    "start": 587.4,
+    "dur": 3.96,
+    "text": "And this is known as the\nfamous discrete-log assumption."
+  },
+  {
+    "start": 591.36,
+    "dur": 2.61,
+    "text": "The assumption says that\nthis discrete-log problem"
+  },
+  {
+    "start": 593.97,
+    "dur": 1.83,
+    "text": "is computationally hard."
+  },
+  {
+    "start": 595.8,
+    "dur": 1.71,
+    "text": "And, basically,\nthe naive solution"
+  },
+  {
+    "start": 597.51,
+    "dur": 3.18,
+    "text": "is try all possible\nelements in the group, which"
+  },
+  {
+    "start": 600.69,
+    "dur": 2.97,
+    "text": "the complexity of which is\nproportional to the size"
+  },
+  {
+    "start": 603.66,
+    "dur": 1.59,
+    "text": "of the group and\nis computationally"
+  },
+  {
+    "start": 605.25,
+    "dur": 2.7,
+    "text": "hard if the size is\nexponentially large."
+  },
+  {
+    "start": 607.95,
+    "dur": 3.12,
+    "text": "And there are better\nalgorithms in practice"
+  },
+  {
+    "start": 611.07,
+    "dur": 1.98,
+    "text": "that improves the running\ntime a little bit."
+  },
+  {
+    "start": 613.05,
+    "dur": 3.75,
+    "text": "But, still, it's considered\nnot in polynomial time."
+  },
+  {
+    "start": 616.8,
+    "dur": 2.7,
+    "text": "And, by the way, this\ndiscrete-log assumption"
+  },
+  {
+    "start": 619.5,
+    "dur": 1.86,
+    "text": "does not hold in\nall groups but is"
+  },
+  {
+    "start": 621.36,
+    "dur": 1.95,
+    "text": "believed to hold in\ncertain groups that"
+  },
+  {
+    "start": 623.31,
+    "dur": 2.04,
+    "text": "are used in cryptography."
+  },
+  {
+    "start": 625.35,
+    "dur": 3.69,
+    "text": "And, also, quantum\ncomputers will actually"
+  },
+  {
+    "start": 629.04,
+    "dur": 3.1,
+    "text": "solve this discrete-log\nproblem in polynomial time."
+  },
+  {
+    "start": 632.14,
+    "dur": 3.11,
+    "text": "Therefore, all algorithms--\nor all protocols"
+  },
+  {
+    "start": 635.25,
+    "dur": 1.65,
+    "text": "based on the\ndiscrete-log assumption"
+  },
+  {
+    "start": 636.9,
+    "dur": 1.365,
+    "text": "will not be post-quantum secure."
+  },
+  {
+    "start": 641.45,
+    "dur": 3.6,
+    "text": "Another popular assumption\nthat is highly related"
+  },
+  {
+    "start": 645.05,
+    "dur": 1.71,
+    "text": "to the discrete log\nassumption is called"
+  },
+  {
+    "start": 646.76,
+    "dur": 1.25,
+    "text": "the Diffie-Hellman assumption."
+  },
+  {
+    "start": 648.01,
+    "dur": 1.75,
+    "text": "And here, I'm\npresenting the version"
+  },
+  {
+    "start": 649.76,
+    "dur": 2.92,
+    "text": "called the computational\nDiffie-Hellman assumption."
+  },
+  {
+    "start": 652.68,
+    "dur": 2.04,
+    "text": "It says, given g to\nthe x and g to the y,"
+  },
+  {
+    "start": 654.72,
+    "dur": 2.92,
+    "text": "you cannot compute g\nto the xy efficiently."
+  },
+  {
+    "start": 657.64,
+    "dur": 3.59,
+    "text": "And it's also a fundamental\nassumption in cryptography."
+  },
+  {
+    "start": 661.23,
+    "dur": 2.07,
+    "text": "And you can see\nhere that, clearly,"
+  },
+  {
+    "start": 663.3,
+    "dur": 1.68,
+    "text": "if you can solve\ndiscrete-log problem,"
+  },
+  {
+    "start": 664.98,
+    "dur": 3.06,
+    "text": "then you can compute x from\ng to x and y from g to y"
+  },
+  {
+    "start": 668.04,
+    "dur": 2.07,
+    "text": "and then use them to\ncompute g to the xy."
+  },
+  {
+    "start": 670.11,
+    "dur": 1.56,
+    "text": "So, therefore,\nthis assumption is"
+  },
+  {
+    "start": 671.67,
+    "dur": 2.22,
+    "text": "stronger than the\ndiscrete-log assumption."
+  },
+  {
+    "start": 673.89,
+    "dur": 4.77,
+    "text": "But, still, it is believed\nto be hard in the groups we"
+  },
+  {
+    "start": 678.66,
+    "dur": 1.724,
+    "text": "are using in cryptography."
+  },
+  {
+    "start": 684.1,
+    "dur": 2.82,
+    "text": "With these definitions,\nI'm ready to present"
+  },
+  {
+    "start": 686.92,
+    "dur": 3.33,
+    "text": "the important building\nblock we are going"
+  },
+  {
+    "start": 690.25,
+    "dur": 2.64,
+    "text": "to use called bilinear pairing."
+  },
+  {
+    "start": 692.89,
+    "dur": 5.31,
+    "text": "So in a bilinear pairing,\nin addition to the group"
+  },
+  {
+    "start": 698.2,
+    "dur": 2.85,
+    "text": "G and the generator g, we\nalso have a target group"
+  },
+  {
+    "start": 701.05,
+    "dur": 2.67,
+    "text": "called GT and an\noperation called pairing."
+  },
+  {
+    "start": 703.72,
+    "dur": 1.89,
+    "text": "We use e to denote it."
+  },
+  {
+    "start": 705.61,
+    "dur": 2.34,
+    "text": "The base group G\nand target group GT"
+  },
+  {
+    "start": 707.95,
+    "dur": 2.7,
+    "text": "are both multiplicative\ngroups of order p."
+  },
+  {
+    "start": 710.65,
+    "dur": 3.42,
+    "text": "And g is the generator\nof this base group G."
+  },
+  {
+    "start": 714.07,
+    "dur": 2.46,
+    "text": "And the rule for the\npairing operation"
+  },
+  {
+    "start": 716.53,
+    "dur": 2.04,
+    "text": "is that it takes input--"
+  },
+  {
+    "start": 718.57,
+    "dur": 1.77,
+    "text": "it takes two elements\nin the base group"
+  },
+  {
+    "start": 720.34,
+    "dur": 3.16,
+    "text": "as input, p to the\nx and q to the y."
+  },
+  {
+    "start": 723.5,
+    "dur": 3.27,
+    "text": "And, after the pairing, it gives\nyou an element in the target"
+  },
+  {
+    "start": 726.77,
+    "dur": 4.08,
+    "text": "group which equals to e\nP,Q to the power of xy."
+  },
+  {
+    "start": 730.85,
+    "dur": 5.73,
+    "text": "So, basically, it's computing\nthe product in the exponent"
+  },
+  {
+    "start": 736.58,
+    "dur": 1.26,
+    "text": "of this equation."
+  },
+  {
+    "start": 740.48,
+    "dur": 4.64,
+    "text": "So, again, to get familiar\nwith that using an example,"
+  },
+  {
+    "start": 745.12,
+    "dur": 3.42,
+    "text": "given g to the x and g to the\ny, the pairing of these two"
+  },
+  {
+    "start": 748.54,
+    "dur": 3.3,
+    "text": "elements equals to e\ng,g to the power of xy."
+  },
+  {
+    "start": 751.84,
+    "dur": 5.04,
+    "text": "And by a similar rule, this also\nequals to the pairing between g"
+  },
+  {
+    "start": 756.88,
+    "dur": 3.61,
+    "text": "to the xy and the\ngenerator g itself."
+  },
+  {
+    "start": 760.49,
+    "dur": 5.007,
+    "text": "So this gives you a way\nthat's given g to the x and g"
+  },
+  {
+    "start": 765.497,
+    "dur": 2.603,
+    "text": "to the y, you can actually\ncheck if some element"
+  },
+  {
+    "start": 768.1,
+    "dur": 5.51,
+    "text": "h is g to the xy or not\nwithout knowing x and y."
+  },
+  {
+    "start": 773.61,
+    "dur": 2.13,
+    "text": "So, basically, this\ngives you a tool"
+  },
+  {
+    "start": 775.74,
+    "dur": 2.58,
+    "text": "to verify the\nproduct relationship"
+  },
+  {
+    "start": 778.32,
+    "dur": 1.83,
+    "text": "in the exponent\nof the computation"
+  },
+  {
+    "start": 780.15,
+    "dur": 1.44,
+    "text": "but not computing it."
+  },
+  {
+    "start": 781.59,
+    "dur": 3.63,
+    "text": "So note that using pairing, you\ncannot break the computational"
+  },
+  {
+    "start": 785.22,
+    "dur": 1.29,
+    "text": "Diffie-Hellman assumption."
+  },
+  {
+    "start": 786.51,
+    "dur": 2.82,
+    "text": "You cannot compute g\nto the xy directly."
+  },
+  {
+    "start": 789.33,
+    "dur": 4.74,
+    "text": "But you can use pairing to\ncheck if someone gives you"
+  },
+  {
+    "start": 794.07,
+    "dur": 5.52,
+    "text": "the result of g to xy,\nwhether it is true or not."
+  },
+  {
+    "start": 799.59,
+    "dur": 2.42,
+    "text": "And, again, for\nyour information,"
+  },
+  {
+    "start": 802.01,
+    "dur": 2.97,
+    "text": "not all groups in which\ndiscrete-log is hard"
+  },
+  {
+    "start": 804.98,
+    "dur": 2.43,
+    "text": "are believed to support\nefficient computable pairing,"
+  },
+  {
+    "start": 807.41,
+    "dur": 2.678,
+    "text": "but some groups are,\nespecially those defined"
+  },
+  {
+    "start": 810.088,
+    "dur": 1.042,
+    "text": "by [? elliptic ?] curves."
+  },
+  {
+    "start": 815.06,
+    "dur": 5.58,
+    "text": "So a good example to get more\nfamiliar with this pairing"
+  },
+  {
+    "start": 820.64,
+    "dur": 3.78,
+    "text": "operation is through\nthis elegant design"
+  },
+  {
+    "start": 824.42,
+    "dur": 1.47,
+    "text": "of a BLS signature."
+  },
+  {
+    "start": 825.89,
+    "dur": 4.35,
+    "text": "This was proposed by Boneh,\nLynn, and Shacham in 2001."
+  },
+  {
+    "start": 830.24,
+    "dur": 3.94,
+    "text": "So the key generation of this\nBL signature is very simple."
+  },
+  {
+    "start": 834.18,
+    "dur": 3.08,
+    "text": "The private key is just\na random element x."
+  },
+  {
+    "start": 837.26,
+    "dur": 2.1,
+    "text": "And the public\nkey is g to the x."
+  },
+  {
+    "start": 839.36,
+    "dur": 2.99,
+    "text": "By the discrete-log\nassumption, given g to the x,"
+  },
+  {
+    "start": 842.35,
+    "dur": 3.73,
+    "text": "it is hard to figure out\nthe x, the secret key."
+  },
+  {
+    "start": 846.08,
+    "dur": 3.42,
+    "text": "In order to sign\na message, we are"
+  },
+  {
+    "start": 849.5,
+    "dur": 2.25,
+    "text": "going to compute the\nhash of this message"
+  },
+  {
+    "start": 851.75,
+    "dur": 2.19,
+    "text": "and then raise it to\nthe power of x, where"
+  },
+  {
+    "start": 853.94,
+    "dur": 2.61,
+    "text": "h is a cryptographic hash\nfunction that maps the message"
+  },
+  {
+    "start": 856.55,
+    "dur": 3.18,
+    "text": "space to the base group."
+  },
+  {
+    "start": 859.73,
+    "dur": 1.86,
+    "text": "In order to verify\nthe signature,"
+  },
+  {
+    "start": 861.59,
+    "dur": 2.55,
+    "text": "note that everyone can\nactually compute H of m."
+  },
+  {
+    "start": 864.14,
+    "dur": 1.81,
+    "text": "That is a public hash function."
+  },
+  {
+    "start": 865.95,
+    "dur": 5.54,
+    "text": "But without knowing x, we cannot\ncompute the hash of m raised"
+  },
+  {
+    "start": 871.49,
+    "dur": 1.63,
+    "text": "to the power of x directly."
+  },
+  {
+    "start": 873.12,
+    "dur": 1.55,
+    "text": "So what can we do?"
+  },
+  {
+    "start": 874.67,
+    "dur": 2.28,
+    "text": "Here comes the\npairing operation."
+  },
+  {
+    "start": 876.95,
+    "dur": 3.21,
+    "text": "We can actually pair\nthe H of m with g"
+  },
+  {
+    "start": 880.16,
+    "dur": 1.8,
+    "text": "to the power of x,\nwhich is the public key."
+  },
+  {
+    "start": 881.96,
+    "dur": 1.29,
+    "text": "This is known by everyone."
+  },
+  {
+    "start": 883.25,
+    "dur": 5.58,
+    "text": "And then check if it is the same\nas the pairing of the signature"
+  },
+  {
+    "start": 888.83,
+    "dur": 2.36,
+    "text": "and generator itself."
+  },
+  {
+    "start": 891.19,
+    "dur": 2.97,
+    "text": "If the signature is\ncomputed honestly,"
+  },
+  {
+    "start": 894.16,
+    "dur": 3.57,
+    "text": "as H of m to the\npower of x, then"
+  },
+  {
+    "start": 897.73,
+    "dur": 1.47,
+    "text": "this verification will pass."
+  },
+  {
+    "start": 899.2,
+    "dur": 4.2,
+    "text": "So that's the correctness\npart of the BLS signature."
+  },
+  {
+    "start": 903.4,
+    "dur": 3.93,
+    "text": "For soundness, in\nthe paper, it can"
+  },
+  {
+    "start": 907.33,
+    "dur": 2.79,
+    "text": "be shown that if there\nexists an adversary that"
+  },
+  {
+    "start": 910.12,
+    "dur": 2.52,
+    "text": "can forge a signatures,\nthen we can actually"
+  },
+  {
+    "start": 912.64,
+    "dur": 2.52,
+    "text": "use the adversary to break the\ncomputational Diffie-Hellman"
+  },
+  {
+    "start": 915.16,
+    "dur": 2.2,
+    "text": "assumption in this\nbilinear group."
+  },
+  {
+    "start": 917.36,
+    "dur": 3.93,
+    "text": "So, therefore, this\nsignature scheme is secure."
+  },
+  {
+    "start": 921.29,
+    "dur": 2.93,
+    "text": "So this shows you\nan example that"
+  },
+  {
+    "start": 924.22,
+    "dur": 3.06,
+    "text": "utilize the power of the\npairing to check the product"
+  },
+  {
+    "start": 927.28,
+    "dur": 2.895,
+    "text": "relationship in the\nexponent of this equation."
+  },
+  {
+    "start": 935.36,
+    "dur": 1.86,
+    "text": "With the background on\nthe bilinear pairing,"
+  },
+  {
+    "start": 937.22,
+    "dur": 2.97,
+    "text": "I'm ready to show you the\nconstruction of the KZG"
+  },
+  {
+    "start": 940.19,
+    "dur": 2.55,
+    "text": "polynomial commitment\nscheme in the second segment"
+  },
+  {
+    "start": 942.74,
+    "dur": 2.31,
+    "text": "of the lecture."
+  },
+  {
+    "start": 945.05,
+    "dur": 2.07,
+    "text": "The KZG polynomial\ncommitment scheme"
+  },
+  {
+    "start": 947.12,
+    "dur": 2.82,
+    "text": "was introduced by Kate,\nZaverucha, and Goldberg"
+  },
+  {
+    "start": 949.94,
+    "dur": 1.11,
+    "text": "in 2010."
+  },
+  {
+    "start": 951.05,
+    "dur": 2.94,
+    "text": "And the applications\nin the original paper"
+  },
+  {
+    "start": 953.99,
+    "dur": 1.68,
+    "text": "include verifiable\nsecret sharing"
+  },
+  {
+    "start": 955.67,
+    "dur": 2.22,
+    "text": "and verifiable\npolynomial delegations."
+  },
+  {
+    "start": 957.89,
+    "dur": 3.03,
+    "text": "But in recent years, it\nhas become a very important"
+  },
+  {
+    "start": 960.92,
+    "dur": 2.52,
+    "text": "building block to\nconstruct efficient SNARK"
+  },
+  {
+    "start": 963.44,
+    "dur": 2.01,
+    "text": "systems in practice."
+  },
+  {
+    "start": 965.45,
+    "dur": 2.1,
+    "text": "Recall that there\nare four algorithms"
+  },
+  {
+    "start": 967.55,
+    "dur": 1.65,
+    "text": "for a polynomial\ncommitment scheme."
+  },
+  {
+    "start": 969.2,
+    "dur": 2.01,
+    "text": "We have a key generation\nthat generates"
+  },
+  {
+    "start": 971.21,
+    "dur": 1.93,
+    "text": "a set of global parameters."
+  },
+  {
+    "start": 973.14,
+    "dur": 2.3,
+    "text": "And then the prover calls\nthis commit algorithm"
+  },
+  {
+    "start": 975.44,
+    "dur": 3.03,
+    "text": "to compute the commitment\nfor a polynomial F."
+  },
+  {
+    "start": 978.47,
+    "dur": 2.31,
+    "text": "Later, for an\nevaluation point u,"
+  },
+  {
+    "start": 980.78,
+    "dur": 2.22,
+    "text": "the prover calls\nthe eval algorithm"
+  },
+  {
+    "start": 983.0,
+    "dur": 2.67,
+    "text": "to compute the evaluation\ntogether with the proof pi."
+  },
+  {
+    "start": 985.67,
+    "dur": 2.97,
+    "text": "And, finally, the verifier\ncalls the verifier algorithm"
+  },
+  {
+    "start": 988.64,
+    "dur": 3.09,
+    "text": "to verify the correctness\nof the evaluation."
+  },
+  {
+    "start": 991.73,
+    "dur": 3.82,
+    "text": "And we are going to go through\nthe four algorithms of the KZG"
+  },
+  {
+    "start": 995.55,
+    "dur": 2.67,
+    "text": "polynomial commitment\nscheme one by one."
+  },
+  {
+    "start": 998.22,
+    "dur": 4.38,
+    "text": "The scheme works on a bilinear\ngroup with a base group G,"
+  },
+  {
+    "start": 1002.6,
+    "dur": 2.7,
+    "text": "a target group GT, and\na pairing operation e."
+  },
+  {
+    "start": 1005.3,
+    "dur": 3.48,
+    "text": "And the basic version\nworks for the family"
+  },
+  {
+    "start": 1008.78,
+    "dur": 2.37,
+    "text": "of univariate polynomials\nwith degree less than"
+  },
+  {
+    "start": 1011.15,
+    "dur": 4.56,
+    "text": "or equal to d, where d is\na publicly known parameter."
+  },
+  {
+    "start": 1015.71,
+    "dur": 2.1,
+    "text": "First, in the key\ngeneration algorithm,"
+  },
+  {
+    "start": 1017.81,
+    "dur": 5.1,
+    "text": "we are going to sample a random\nnumber tau in this finite field"
+  },
+  {
+    "start": 1022.91,
+    "dur": 0.69,
+    "text": "mod p."
+  },
+  {
+    "start": 1023.6,
+    "dur": 2.43,
+    "text": "And then we are going\nto use tau to compute"
+  },
+  {
+    "start": 1026.03,
+    "dur": 1.92,
+    "text": "this set of global parameters."
+  },
+  {
+    "start": 1027.95,
+    "dur": 2.19,
+    "text": "In particular, we\nare going to raise g"
+  },
+  {
+    "start": 1030.14,
+    "dur": 1.65,
+    "text": "to the different powers of tau."
+  },
+  {
+    "start": 1031.79,
+    "dur": 1.92,
+    "text": "We have g, g to\nthe power of tau,"
+  },
+  {
+    "start": 1033.71,
+    "dur": 2.79,
+    "text": "g to the power of tau square,\nand so on, all the way to g"
+  },
+  {
+    "start": 1036.5,
+    "dur": 1.95,
+    "text": "to the power of tau to the d."
+  },
+  {
+    "start": 1038.45,
+    "dur": 2.76,
+    "text": "Note that the size of\nthis global parameters"
+  },
+  {
+    "start": 1041.21,
+    "dur": 3.57,
+    "text": "is linear in the maximum\ndegree of the polynomial"
+  },
+  {
+    "start": 1044.78,
+    "dur": 1.44,
+    "text": "we want to support."
+  },
+  {
+    "start": 1046.22,
+    "dur": 2.94,
+    "text": "Intuitively speaking,\nsince we are"
+  },
+  {
+    "start": 1049.16,
+    "dur": 3.52,
+    "text": "using a group in which the\nsquare log problem is hard,"
+  },
+  {
+    "start": 1052.68,
+    "dur": 2.54,
+    "text": "no one should be able\nto compute tau given"
+  },
+  {
+    "start": 1055.22,
+    "dur": 3.14,
+    "text": "this set of global parameters."
+  },
+  {
+    "start": 1058.36,
+    "dur": 6.95,
+    "text": "So, in that sense, tau is hidden\nin exponent of the generator G."
+  },
+  {
+    "start": 1065.31,
+    "dur": 3.3,
+    "text": "After that, in an important\nstep of this key generation"
+  },
+  {
+    "start": 1068.61,
+    "dur": 3.09,
+    "text": "algorithm, is that we\nhave to completely delete"
+  },
+  {
+    "start": 1071.7,
+    "dur": 1.23,
+    "text": "this secret key tau."
+  },
+  {
+    "start": 1072.93,
+    "dur": 2.58,
+    "text": "That is because,\ninterestingly, in the remaining"
+  },
+  {
+    "start": 1075.51,
+    "dur": 2.49,
+    "text": "part of the KZG polynomial\ncommitment scheme,"
+  },
+  {
+    "start": 1078.0,
+    "dur": 2.52,
+    "text": "we are not going to\nuse this tau at all."
+  },
+  {
+    "start": 1080.52,
+    "dur": 2.4,
+    "text": "It suffices to the\nglobal parameters"
+  },
+  {
+    "start": 1082.92,
+    "dur": 5.38,
+    "text": "to commit and generate the proof\nand to verify the evaluation."
+  },
+  {
+    "start": 1088.3,
+    "dur": 5.84,
+    "text": "And if anyone can have access\nto this secret key tau,"
+  },
+  {
+    "start": 1094.14,
+    "dur": 2.76,
+    "text": "then they can actually\ngenerate a fake proof"
+  },
+  {
+    "start": 1096.9,
+    "dur": 1.68,
+    "text": "to fool the verifier\nand to break"
+  },
+  {
+    "start": 1098.58,
+    "dur": 2.53,
+    "text": "the security of this\npolynomial commitment scheme."
+  },
+  {
+    "start": 1101.11,
+    "dur": 4.01,
+    "text": "So it is very important\nto discard this tau"
+  },
+  {
+    "start": 1105.12,
+    "dur": 2.53,
+    "text": "after the key\ngeneration algorithm."
+  },
+  {
+    "start": 1107.65,
+    "dur": 3.27,
+    "text": "And this step is called\nthe trusted setup"
+  },
+  {
+    "start": 1110.92,
+    "dur": 2.52,
+    "text": "because we have to\ntrust this preprocessor"
+  },
+  {
+    "start": 1113.44,
+    "dur": 4.26,
+    "text": "to discard this toxic waste\nof tau after the execution."
+  },
+  {
+    "start": 1117.7,
+    "dur": 3.63,
+    "text": "And, in practice, this is not\ndesirable for many applications"
+  },
+  {
+    "start": 1121.33,
+    "dur": 3.36,
+    "text": "because it is hard to find\na trusted party to run"
+  },
+  {
+    "start": 1124.69,
+    "dur": 2.71,
+    "text": "this trusted setup."
+  },
+  {
+    "start": 1127.4,
+    "dur": 3.63,
+    "text": "So given this set of\nglobal parameters,"
+  },
+  {
+    "start": 1131.03,
+    "dur": 3.53,
+    "text": "the way to commit to a\npolynomial is as follows."
+  },
+  {
+    "start": 1134.56,
+    "dur": 2.5,
+    "text": "First, we are going to represent\nthis polynomial in the form"
+  },
+  {
+    "start": 1137.06,
+    "dur": 1.08,
+    "text": "of the coefficients."
+  },
+  {
+    "start": 1138.14,
+    "dur": 4.24,
+    "text": "We have f0 plus f1x plus\nf2x squared and so forth,"
+  },
+  {
+    "start": 1142.38,
+    "dur": 3.02,
+    "text": "all the way to fdx\nto the power of d."
+  },
+  {
+    "start": 1145.4,
+    "dur": 2.34,
+    "text": "Then, the commitment we\nare trying to compute"
+  },
+  {
+    "start": 1147.74,
+    "dur": 6.21,
+    "text": "is simply g to the power of\nf evaluated at the point tau."
+  },
+  {
+    "start": 1153.95,
+    "dur": 3.03,
+    "text": "And it turns out the prover\ncan actually compute it"
+  },
+  {
+    "start": 1156.98,
+    "dur": 3.51,
+    "text": "without accessing tau directly."
+  },
+  {
+    "start": 1160.49,
+    "dur": 2.41,
+    "text": "You can actually compute it\nusing the global parameters"
+  },
+  {
+    "start": 1162.9,
+    "dur": 0.5,
+    "text": "only."
+  },
+  {
+    "start": 1163.4,
+    "dur": 3.9,
+    "text": "That is because if you just\nexpand the expression of f"
+  },
+  {
+    "start": 1167.3,
+    "dur": 2.28,
+    "text": "of tau, you get g\nto the power of f0"
+  },
+  {
+    "start": 1169.58,
+    "dur": 2.68,
+    "text": "plus f1 tau plus f2\ntau square and so on."
+  },
+  {
+    "start": 1172.26,
+    "dur": 3.24,
+    "text": "And by the rules\nof exponentiation,"
+  },
+  {
+    "start": 1175.5,
+    "dur": 3.93,
+    "text": "it equals to g raised to\nthe power of f0 times g"
+  },
+  {
+    "start": 1179.43,
+    "dur": 3.45,
+    "text": "to the tau raised to the\npower of f1 times g to the tau"
+  },
+  {
+    "start": 1182.88,
+    "dur": 3.16,
+    "text": "square raised to the power of\nf2m and so on and so forth."
+  },
+  {
+    "start": 1186.04,
+    "dur": 3.35,
+    "text": "And this is because, basically,\nthe addition in the exponents"
+  },
+  {
+    "start": 1189.39,
+    "dur": 2.82,
+    "text": "is equivalent to multiplication\nin the base level."
+  },
+  {
+    "start": 1192.21,
+    "dur": 2.4,
+    "text": "And multiplications\nin the exponent"
+  },
+  {
+    "start": 1194.61,
+    "dur": 4.04,
+    "text": "is equivalent to exponentiations\nin the base level."
+  },
+  {
+    "start": 1198.65,
+    "dur": 2.54,
+    "text": "So, in this way, we can\ncompute the commitment"
+  },
+  {
+    "start": 1201.19,
+    "dur": 1.23,
+    "text": "using this equation."
+  },
+  {
+    "start": 1202.42,
+    "dur": 3.81,
+    "text": "And note that each of these\nelements in the parentheses"
+  },
+  {
+    "start": 1206.23,
+    "dur": 3.07,
+    "text": "is actually from the\nglobal parameters directly."
+  },
+  {
+    "start": 1209.3,
+    "dur": 3.05,
+    "text": "So, in this way, the\nprover can actually"
+  },
+  {
+    "start": 1212.35,
+    "dur": 4.29,
+    "text": "raise each value in\nthe global parameters"
+  },
+  {
+    "start": 1216.64,
+    "dur": 2.94,
+    "text": "to the corresponding\ndegree defined"
+  },
+  {
+    "start": 1219.58,
+    "dur": 2.88,
+    "text": "by the coefficients\nof the polynomial"
+  },
+  {
+    "start": 1222.46,
+    "dur": 3.0,
+    "text": "and get this commitment\nwithout using tau directly."
+  },
+  {
+    "start": 1225.46,
+    "dur": 3.72,
+    "text": "So that's how we\ncommit to a polynomial."
+  },
+  {
+    "start": 1229.18,
+    "dur": 1.65,
+    "text": "And note the size\nof this commitment"
+  },
+  {
+    "start": 1230.83,
+    "dur": 4.65,
+    "text": "is only one element in the base\ngroup of the bilinear group."
+  },
+  {
+    "start": 1238.46,
+    "dur": 2.03,
+    "text": "So after that,\nlet's see how can we"
+  },
+  {
+    "start": 1240.49,
+    "dur": 3.21,
+    "text": "generate a proof for\nevaluation of this polynomial"
+  },
+  {
+    "start": 1243.7,
+    "dur": 1.95,
+    "text": "f at a point e."
+  },
+  {
+    "start": 1245.65,
+    "dur": 3.36,
+    "text": "The most important key idea of\nthis KZG polynomial commitment"
+  },
+  {
+    "start": 1249.01,
+    "dur": 4.02,
+    "text": "is actually based on this\npolynomial equation, where"
+  },
+  {
+    "start": 1253.03,
+    "dur": 4.2,
+    "text": "for any polynomial\nf, fx minus f of u"
+  },
+  {
+    "start": 1257.23,
+    "dur": 3.45,
+    "text": "can always be expressed\nas the product of two"
+  },
+  {
+    "start": 1260.68,
+    "dur": 2.85,
+    "text": "polynomials x minus u\ntimes another polynomial q"
+  },
+  {
+    "start": 1263.53,
+    "dur": 3.81,
+    "text": "of x, where the degree\nof qx is d minus 1."
+  },
+  {
+    "start": 1267.34,
+    "dur": 3.3,
+    "text": "And it's actually not hard\nto see this relationship"
+  },
+  {
+    "start": 1270.64,
+    "dur": 4.81,
+    "text": "because u is clearly a root\nof this polynomial fx minus f"
+  },
+  {
+    "start": 1275.45,
+    "dur": 0.5,
+    "text": "of u."
+  },
+  {
+    "start": 1275.95,
+    "dur": 2.01,
+    "text": "This equals to 0 at the point u."
+  },
+  {
+    "start": 1277.96,
+    "dur": 4.71,
+    "text": "And, because of this fact,\nthen the polynomial fx minus fu"
+  },
+  {
+    "start": 1282.67,
+    "dur": 4.29,
+    "text": "can always be decomposed\nas x minus u times q of x."
+  },
+  {
+    "start": 1286.96,
+    "dur": 1.89,
+    "text": "And there are\nother ways to prove"
+  },
+  {
+    "start": 1288.85,
+    "dur": 1.83,
+    "text": "the correctness\nof this equation,"
+  },
+  {
+    "start": 1290.68,
+    "dur": 3.61,
+    "text": "for example, using\nTaylor's expansion."
+  },
+  {
+    "start": 1294.29,
+    "dur": 1.76,
+    "text": "So with this\npolynomial equation,"
+  },
+  {
+    "start": 1296.05,
+    "dur": 3.15,
+    "text": "then the idea of a KZG\npolynomial commitment"
+  },
+  {
+    "start": 1299.2,
+    "dur": 4.32,
+    "text": "is for the prover to compute\nthis polynomial q of x and then"
+  },
+  {
+    "start": 1303.52,
+    "dur": 3.63,
+    "text": "generate a proof pi equals\nto g raised to the power of q"
+  },
+  {
+    "start": 1307.15,
+    "dur": 3.48,
+    "text": "evaluated at point tau."
+  },
+  {
+    "start": 1310.63,
+    "dur": 3.03,
+    "text": "Again, this can be computed\nusing the global parameters"
+  },
+  {
+    "start": 1313.66,
+    "dur": 2.94,
+    "text": "only without actually\nsetting this tau."
+  },
+  {
+    "start": 1316.6,
+    "dur": 4.14,
+    "text": "And the proof size is only\none element in the base"
+  },
+  {
+    "start": 1320.74,
+    "dur": 3.35,
+    "text": "group of the bilinear group."
+  },
+  {
+    "start": 1324.09,
+    "dur": 4.36,
+    "text": "Finally, how can we verify the\ncorrectness of this evaluation?"
+  },
+  {
+    "start": 1328.45,
+    "dur": 1.8,
+    "text": "Then the idea of\nthis verification"
+  },
+  {
+    "start": 1330.25,
+    "dur": 3.69,
+    "text": "is to check this polynomial\nequation at this secret point"
+  },
+  {
+    "start": 1333.94,
+    "dur": 1.14,
+    "text": "tau."
+  },
+  {
+    "start": 1335.08,
+    "dur": 1.98,
+    "text": "In particular,\nwhat we are trying"
+  },
+  {
+    "start": 1337.06,
+    "dur": 4.41,
+    "text": "to check is g raised to the\npower of f tau minus f of u"
+  },
+  {
+    "start": 1341.47,
+    "dur": 4.14,
+    "text": "should equal to g to the power\nof tau minus u times q tau."
+  },
+  {
+    "start": 1345.61,
+    "dur": 1.74,
+    "text": "And this is\nbasically replicating"
+  },
+  {
+    "start": 1347.35,
+    "dur": 6.18,
+    "text": "this polynomial equation in\nexponent at the point tau,"
+  },
+  {
+    "start": 1353.53,
+    "dur": 2.4,
+    "text": "substituting the variable x."
+  },
+  {
+    "start": 1355.93,
+    "dur": 3.75,
+    "text": "And here I'm listing what will\nhappen if the prover is honest."
+  },
+  {
+    "start": 1359.68,
+    "dur": 3.24,
+    "text": "Basically, the prover is going\nto commit to g to the f of tau."
+  },
+  {
+    "start": 1362.92,
+    "dur": 2.13,
+    "text": "And the proof is\ng to the q of tau."
+  },
+  {
+    "start": 1365.05,
+    "dur": 3.03,
+    "text": "And this evaluation v is f of u."
+  },
+  {
+    "start": 1368.08,
+    "dur": 5.49,
+    "text": "So given all of these values, we\nalmost have all the information"
+  },
+  {
+    "start": 1373.57,
+    "dur": 2.52,
+    "text": "about this equation to check."
+  },
+  {
+    "start": 1376.09,
+    "dur": 3.96,
+    "text": "So on the left-hand side,\nwe have g to the f of tau"
+  },
+  {
+    "start": 1380.05,
+    "dur": 0.9,
+    "text": "given by the prover."
+  },
+  {
+    "start": 1380.95,
+    "dur": 2.07,
+    "text": "And we have g to\nthe f of u, again,"
+  },
+  {
+    "start": 1383.02,
+    "dur": 2.37,
+    "text": "given by the prover\nas the evaluation."
+  },
+  {
+    "start": 1385.39,
+    "dur": 2.19,
+    "text": "On the right-hand\nside, the verifier"
+  },
+  {
+    "start": 1387.58,
+    "dur": 1.33,
+    "text": "knows the evaluation point u."
+  },
+  {
+    "start": 1388.91,
+    "dur": 1.41,
+    "text": "This is the public information."
+  },
+  {
+    "start": 1390.32,
+    "dur": 2.8,
+    "text": "And we have a g to the tau\nin the global parameters."
+  },
+  {
+    "start": 1393.12,
+    "dur": 3.98,
+    "text": "And the prover returns g to\nthe q of tau as the proof."
+  },
+  {
+    "start": 1397.1,
+    "dur": 3.99,
+    "text": "But, unfortunately, we cannot\ncompute g to the tau minus u"
+  },
+  {
+    "start": 1401.09,
+    "dur": 1.95,
+    "text": "times q of tau directly."
+  },
+  {
+    "start": 1403.04,
+    "dur": 2.49,
+    "text": "This is because the\nverifier is only"
+  },
+  {
+    "start": 1405.53,
+    "dur": 4.42,
+    "text": "given g to the tau minus u and\ng to the q of tau as the proof."
+  },
+  {
+    "start": 1409.95,
+    "dur": 2.27,
+    "text": "And by the computational\nDiffie-Hellman assumption,"
+  },
+  {
+    "start": 1412.22,
+    "dur": 4.11,
+    "text": "it is actually hard to\ncompute g to the power of tau"
+  },
+  {
+    "start": 1416.33,
+    "dur": 4.43,
+    "text": "minus u times q of tau\ngiven these two values."
+  },
+  {
+    "start": 1420.76,
+    "dur": 1.86,
+    "text": "So what can we do?"
+  },
+  {
+    "start": 1422.62,
+    "dur": 3.56,
+    "text": "Well, the solution is\nto use bilinear pairing."
+  },
+  {
+    "start": 1426.18,
+    "dur": 2.22,
+    "text": "Recall that pairing\ngives you a way"
+  },
+  {
+    "start": 1428.4,
+    "dur": 2.31,
+    "text": "to check the\nproduct relationship"
+  },
+  {
+    "start": 1430.71,
+    "dur": 4.33,
+    "text": "in the exponent of the equation\ninstead of computing it."
+  },
+  {
+    "start": 1435.04,
+    "dur": 2.63,
+    "text": "So, with pairing,\ninstead of computing g"
+  },
+  {
+    "start": 1437.67,
+    "dur": 2.1,
+    "text": "to the tau minus\nq times q of tau,"
+  },
+  {
+    "start": 1439.77,
+    "dur": 1.92,
+    "text": "we are going to\ncheck the correctness"
+  },
+  {
+    "start": 1441.69,
+    "dur": 2.34,
+    "text": "of this computation."
+  },
+  {
+    "start": 1444.03,
+    "dur": 5.4,
+    "text": "In particular, we're going to\npair the commitment divided"
+  },
+  {
+    "start": 1449.43,
+    "dur": 2.43,
+    "text": "by g to the power\nof the evaluation v"
+  },
+  {
+    "start": 1451.86,
+    "dur": 3.05,
+    "text": "with the generator."
+  },
+  {
+    "start": 1454.91,
+    "dur": 1.74,
+    "text": "And, on the\nright-hand side, we're"
+  },
+  {
+    "start": 1456.65,
+    "dur": 3.57,
+    "text": "going to check whether this\nis equal to the pairing of a g"
+  },
+  {
+    "start": 1460.22,
+    "dur": 3.0,
+    "text": "to the tau minus u\nand the proof itself."
+  },
+  {
+    "start": 1463.22,
+    "dur": 3.15,
+    "text": "And to see the correctness\nof this verification,"
+  },
+  {
+    "start": 1466.37,
+    "dur": 2.91,
+    "text": "if you substitute these\ncommitments and proof"
+  },
+  {
+    "start": 1469.28,
+    "dur": 4.71,
+    "text": "by the correct evaluations\nprovided by the honest prover,"
+  },
+  {
+    "start": 1473.99,
+    "dur": 2.64,
+    "text": "you can see that the\nleft-hand side equals"
+  },
+  {
+    "start": 1476.63,
+    "dur": 2.7,
+    "text": "to e to g to the\npower of f of tau"
+  },
+  {
+    "start": 1479.33,
+    "dur": 4.69,
+    "text": "minus f of u because of the\nrule of the pairing equation."
+  },
+  {
+    "start": 1484.02,
+    "dur": 3.74,
+    "text": "And on the right-hand side,\nif pi is honestly computed,"
+  },
+  {
+    "start": 1487.76,
+    "dur": 2.34,
+    "text": "it should equal to g to\nthe power of q of tau."
+  },
+  {
+    "start": 1490.1,
+    "dur": 2.34,
+    "text": "And then, by the rule\nof bilinear pairing,"
+  },
+  {
+    "start": 1492.44,
+    "dur": 3.51,
+    "text": "the right-hand side equals to e\ng,g to the power of tau minus u"
+  },
+  {
+    "start": 1495.95,
+    "dur": 1.42,
+    "text": "times q of tau."
+  },
+  {
+    "start": 1497.37,
+    "dur": 3.14,
+    "text": "It's basically computing\nthe product in the exponent."
+  },
+  {
+    "start": 1500.51,
+    "dur": 3.87,
+    "text": "And, finally, because\nof this equation,"
+  },
+  {
+    "start": 1504.38,
+    "dur": 4.5,
+    "text": "if the prover is honest, this\nequation-- pairing equation"
+  },
+  {
+    "start": 1508.88,
+    "dur": 0.81,
+    "text": "should hold."
+  },
+  {
+    "start": 1509.69,
+    "dur": 3.645,
+    "text": "e g,g to the power of f tau\nminus f of u should equal to e"
+  },
+  {
+    "start": 1513.335,
+    "dur": 3.445,
+    "text": "g,g to the power of tau\nminus q times q of tau."
+  },
+  {
+    "start": 1516.78,
+    "dur": 2.15,
+    "text": "This is essentially\nchecking this equation"
+  },
+  {
+    "start": 1518.93,
+    "dur": 2.65,
+    "text": "at the secret point tau."
+  },
+  {
+    "start": 1521.58,
+    "dur": 3.03,
+    "text": "And that completes the\ndescription of this entire KZG"
+  },
+  {
+    "start": 1524.61,
+    "dur": 1.92,
+    "text": "polynomial commitment scheme."
+  },
+  {
+    "start": 1526.53,
+    "dur": 6.18,
+    "text": "Finally, to put it back\nto this slide showing"
+  },
+  {
+    "start": 1532.71,
+    "dur": 2.61,
+    "text": "the interactions between\nthe prover and verifier,"
+  },
+  {
+    "start": 1535.32,
+    "dur": 2.19,
+    "text": "in the key generation\nalgorithm, we"
+  },
+  {
+    "start": 1537.51,
+    "dur": 3.63,
+    "text": "are going to generate the global\nparameters as g, g to the tau,"
+  },
+  {
+    "start": 1541.14,
+    "dur": 1.68,
+    "text": "all the way to g to\nthe tau to the d."
+  },
+  {
+    "start": 1542.82,
+    "dur": 3.03,
+    "text": "And this is the\ntrusted setup step."
+  },
+  {
+    "start": 1545.85,
+    "dur": 3.24,
+    "text": "And then, for a polynomial\nf of x, the prover"
+  },
+  {
+    "start": 1549.09,
+    "dur": 4.36,
+    "text": "can commit to it using\nonly the global parameters"
+  },
+  {
+    "start": 1553.45,
+    "dur": 2.9,
+    "text": "and compute g to the f\nof tau as the commitment."
+  },
+  {
+    "start": 1556.35,
+    "dur": 2.97,
+    "text": "Later, for an\nevaluation point u,"
+  },
+  {
+    "start": 1559.32,
+    "dur": 3.09,
+    "text": "the prover computes\nthis polynomial equation"
+  },
+  {
+    "start": 1562.41,
+    "dur": 4.68,
+    "text": "fx minus f of u equals to\nx minus u times q of x."
+  },
+  {
+    "start": 1567.09,
+    "dur": 2.88,
+    "text": "After figuring out\nq of x, the prover"
+  },
+  {
+    "start": 1569.97,
+    "dur": 3.57,
+    "text": "computes this proof pi as\ng to the power of q tau."
+  },
+  {
+    "start": 1573.54,
+    "dur": 5.51,
+    "text": "And, finally, the verifier\nchecks this polynomial equation"
+  },
+  {
+    "start": 1579.05,
+    "dur": 3.74,
+    "text": "in the exponent using\nthe pairing operation."
+  },
+  {
+    "start": 1582.79,
+    "dur": 3.24,
+    "text": "And that is complete description\nof the KZG polynomial"
+  },
+  {
+    "start": 1586.03,
+    "dur": 0.78,
+    "text": "commitment."
+  },
+  {
+    "start": 1591.93,
+    "dur": 1.59,
+    "text": "So now we've explained\nthe correctness"
+  },
+  {
+    "start": 1593.52,
+    "dur": 2.07,
+    "text": "of the polynomial\ncommitment scheme."
+  },
+  {
+    "start": 1595.59,
+    "dur": 4.35,
+    "text": "Namely, if the prover is honest,\nthen the correct evaluation"
+  },
+  {
+    "start": 1599.94,
+    "dur": 2.25,
+    "text": "proof can always pass\nthe verification because"
+  },
+  {
+    "start": 1602.19,
+    "dur": 2.22,
+    "text": "of the polynomial equation."
+  },
+  {
+    "start": 1604.41,
+    "dur": 1.74,
+    "text": "But what about soundness?"
+  },
+  {
+    "start": 1606.15,
+    "dur": 2.97,
+    "text": "Why can the prover\nreturn a wrong evaluation"
+  },
+  {
+    "start": 1609.12,
+    "dur": 3.66,
+    "text": "and a fake proof and still\npass the verification?"
+  },
+  {
+    "start": 1612.78,
+    "dur": 1.74,
+    "text": "Well, the soundness\nof the scheme"
+  },
+  {
+    "start": 1614.52,
+    "dur": 2.58,
+    "text": "is actually based on\nso-called q-Strong bilinear"
+  },
+  {
+    "start": 1617.1,
+    "dur": 1.59,
+    "text": "Diffie-Hellman assumption."
+  },
+  {
+    "start": 1618.69,
+    "dur": 3.12,
+    "text": "The assumption states that\ngiven the bilinear group"
+  },
+  {
+    "start": 1621.81,
+    "dur": 3.6,
+    "text": "and the global parameters, g to\nthe tau, g to the tau square,"
+  },
+  {
+    "start": 1625.41,
+    "dur": 2.66,
+    "text": "all the way to g to\nthe tau to the d,"
+  },
+  {
+    "start": 1628.07,
+    "dur": 4.21,
+    "text": "the adversary cannot compute\nthis value e g,g to the power"
+  },
+  {
+    "start": 1632.28,
+    "dur": 5.24,
+    "text": "of 1 over tau minus\nu for any constant u."
+  },
+  {
+    "start": 1637.52,
+    "dur": 3.2,
+    "text": "And this is actually a variant\nof the discrete-log assumption"
+  },
+  {
+    "start": 1640.72,
+    "dur": 2.67,
+    "text": "and the Diffie-Hellman\nassumption."
+  },
+  {
+    "start": 1643.39,
+    "dur": 3.0,
+    "text": "From the name, you\ncan actually tell"
+  },
+  {
+    "start": 1646.39,
+    "dur": 3.24,
+    "text": "that there is a rigorous\nreduction from this assumption"
+  },
+  {
+    "start": 1649.63,
+    "dur": 4.047,
+    "text": "to the computational\nDiffie-Hellman assumption,"
+  },
+  {
+    "start": 1653.677,
+    "dur": 1.833,
+    "text": "which means that this\nassumption is strictly"
+  },
+  {
+    "start": 1655.51,
+    "dur": 3.15,
+    "text": "stronger than the computational\nDiffie-Hellman assumption."
+  },
+  {
+    "start": 1658.66,
+    "dur": 3.15,
+    "text": "But, still, we believe\nthat this assumption"
+  },
+  {
+    "start": 1661.81,
+    "dur": 3.18,
+    "text": "holds in the bilinear groups\nwe use in cryptography."
+  },
+  {
+    "start": 1669.22,
+    "dur": 2.57,
+    "text": "So, with this\nassumption, I'm going"
+  },
+  {
+    "start": 1671.79,
+    "dur": 3.3,
+    "text": "to show you the formal\nsecurity proof of the KZG"
+  },
+  {
+    "start": 1675.09,
+    "dur": 1.38,
+    "text": "polynomial commitment scheme."
+  },
+  {
+    "start": 1676.47,
+    "dur": 2.1,
+    "text": "And this slide will\nbe quite technical."
+  },
+  {
+    "start": 1678.57,
+    "dur": 3.24,
+    "text": "But I'm going to go through\nit slowly, step by step."
+  },
+  {
+    "start": 1681.81,
+    "dur": 2.7,
+    "text": "And I also think that this\nis really an elegant security"
+  },
+  {
+    "start": 1684.51,
+    "dur": 3.99,
+    "text": "proof and a good place to\nshow you a formal proof"
+  },
+  {
+    "start": 1688.5,
+    "dur": 2.6,
+    "text": "in cryptography here."
+  },
+  {
+    "start": 1691.1,
+    "dur": 3.21,
+    "text": "So a common approach to prove\nsecurity in cryptography"
+  },
+  {
+    "start": 1694.31,
+    "dur": 1.86,
+    "text": "is by contradiction."
+  },
+  {
+    "start": 1696.17,
+    "dur": 3.06,
+    "text": "In the first step,\nwe suppose that there"
+  },
+  {
+    "start": 1699.23,
+    "dur": 3.45,
+    "text": "exists an adversary that\ncan return a wrong answer v"
+  },
+  {
+    "start": 1702.68,
+    "dur": 4.17,
+    "text": "star that is not equal to\nf of u and the fake proof"
+  },
+  {
+    "start": 1706.85,
+    "dur": 3.87,
+    "text": "but still pass the verification."
+  },
+  {
+    "start": 1710.72,
+    "dur": 3.21,
+    "text": "Then, by the equation\nof the verification,"
+  },
+  {
+    "start": 1713.93,
+    "dur": 2.49,
+    "text": "we have the pairing\nof the commitment"
+  },
+  {
+    "start": 1716.42,
+    "dur": 1.83,
+    "text": "divided by g to the v star."
+  },
+  {
+    "start": 1718.25,
+    "dur": 2.46,
+    "text": "And the generator\ng should equal to g"
+  },
+  {
+    "start": 1720.71,
+    "dur": 3.76,
+    "text": "to the power of tau minus u\npaired with the fake proof pi"
+  },
+  {
+    "start": 1724.47,
+    "dur": 0.5,
+    "text": "star."
+  },
+  {
+    "start": 1724.97,
+    "dur": 2.97,
+    "text": "This is directly\nfrom the equation"
+  },
+  {
+    "start": 1727.94,
+    "dur": 3.42,
+    "text": "we check in the verification."
+  },
+  {
+    "start": 1731.36,
+    "dur": 2.49,
+    "text": "Then, next, I'm going\nto cheat a little bit"
+  },
+  {
+    "start": 1733.85,
+    "dur": 4.11,
+    "text": "and write this commitment\nas g to the power of f"
+  },
+  {
+    "start": 1737.96,
+    "dur": 5.1,
+    "text": "of tau for some polynomial\nf known by the adversary."
+  },
+  {
+    "start": 1743.06,
+    "dur": 3.9,
+    "text": "And this is actually a big\nassumption because, for just"
+  },
+  {
+    "start": 1746.96,
+    "dur": 3.33,
+    "text": "a randomly generated\nnumber as a commitment,"
+  },
+  {
+    "start": 1750.29,
+    "dur": 3.69,
+    "text": "you cannot always write it as\ng to the f for some f known"
+  },
+  {
+    "start": 1753.98,
+    "dur": 1.35,
+    "text": "by the adversary."
+  },
+  {
+    "start": 1755.33,
+    "dur": 2.4,
+    "text": "And we need a so-called\nknowledge assumption"
+  },
+  {
+    "start": 1757.73,
+    "dur": 1.99,
+    "text": "to really make it happen."
+  },
+  {
+    "start": 1759.72,
+    "dur": 5.73,
+    "text": "I'm going to explain it in\ndetail later in the lecture."
+  },
+  {
+    "start": 1765.45,
+    "dur": 4.37,
+    "text": "So if we're good\nwith this writing"
+  },
+  {
+    "start": 1769.82,
+    "dur": 2.77,
+    "text": "this commitment as the g\nto the power of f of tau,"
+  },
+  {
+    "start": 1772.59,
+    "dur": 5.72,
+    "text": "then the next step is the key\nidea of this security proof."
+  },
+  {
+    "start": 1778.31,
+    "dur": 3.42,
+    "text": "Because this v star is different\nfrom the real evaluation"
+  },
+  {
+    "start": 1781.73,
+    "dur": 3.57,
+    "text": "f of u, we are going\nto subtract f of u"
+  },
+  {
+    "start": 1785.3,
+    "dur": 6.16,
+    "text": "from this value in the\nexponent and then add it back."
+  },
+  {
+    "start": 1791.46,
+    "dur": 3.09,
+    "text": "The purpose of doing this is\nthat now, in the exponent,"
+  },
+  {
+    "start": 1794.55,
+    "dur": 2.3,
+    "text": "we have f tau\nminus f of u, which"
+  },
+  {
+    "start": 1796.85,
+    "dur": 3.06,
+    "text": "is the correct evaluation\nof this polynomial"
+  },
+  {
+    "start": 1799.91,
+    "dur": 4.44,
+    "text": "plus a difference term,\nwhich we defined as delta"
+  },
+  {
+    "start": 1804.35,
+    "dur": 1.92,
+    "text": "equals to f of u minus v star."
+  },
+  {
+    "start": 1806.27,
+    "dur": 2.37,
+    "text": "And note that this\ndelta is non-zero"
+  },
+  {
+    "start": 1808.64,
+    "dur": 2.94,
+    "text": "because v star is\nnot equal to f of u"
+  },
+  {
+    "start": 1811.58,
+    "dur": 3.04,
+    "text": "because the prover is cheating."
+  },
+  {
+    "start": 1814.62,
+    "dur": 3.36,
+    "text": "So then, now we have\nthe correct evaluation"
+  },
+  {
+    "start": 1817.98,
+    "dur": 3.03,
+    "text": "f of tau minus f of\nu in the exponent,"
+  },
+  {
+    "start": 1821.01,
+    "dur": 4.32,
+    "text": "this can be decomposed as\ntau minus u times q of tau"
+  },
+  {
+    "start": 1825.33,
+    "dur": 3.42,
+    "text": "for the correct q\nin the exponent--"
+  },
+  {
+    "start": 1828.75,
+    "dur": 2.01,
+    "text": "again, by the\npolynomial equation"
+  },
+  {
+    "start": 1830.76,
+    "dur": 4.47,
+    "text": "I introduced earlier\nin the lecture."
+  },
+  {
+    "start": 1835.23,
+    "dur": 2.96,
+    "text": "And then, by the rule\nof the bilinear pairing,"
+  },
+  {
+    "start": 1838.19,
+    "dur": 4.23,
+    "text": "we can try to extract these\nelements in the exponent"
+  },
+  {
+    "start": 1842.42,
+    "dur": 1.86,
+    "text": "and put it outside\nof the pairing."
+  },
+  {
+    "start": 1844.28,
+    "dur": 3.48,
+    "text": "So the left-hand side equals to\ne g,g to the power of tau minus"
+  },
+  {
+    "start": 1847.76,
+    "dur": 3.39,
+    "text": "u times q of tau\nplus this delta."
+  },
+  {
+    "start": 1851.15,
+    "dur": 4.21,
+    "text": "And, on the right-hand\nside, the e g"
+  },
+  {
+    "start": 1855.36,
+    "dur": 5.14,
+    "text": "equals to e g pi star raised\nto the power of tau minus u."
+  },
+  {
+    "start": 1860.5,
+    "dur": 1.74,
+    "text": "Then, from this\nequation, we can see"
+  },
+  {
+    "start": 1862.24,
+    "dur": 3.75,
+    "text": "that the two terms\nin the left-hand side"
+  },
+  {
+    "start": 1865.99,
+    "dur": 3.725,
+    "text": "and on the right-hand side,\nthey both have a common factor"
+  },
+  {
+    "start": 1869.715,
+    "dur": 1.615,
+    "text": "tau minus u."
+  },
+  {
+    "start": 1871.33,
+    "dur": 3.63,
+    "text": "So we can actually combine\nthese two terms together."
+  },
+  {
+    "start": 1874.96,
+    "dur": 4.86,
+    "text": "By dividing this leading term\nin the front on both sides,"
+  },
+  {
+    "start": 1879.82,
+    "dur": 6.81,
+    "text": "we get e g,g to the power of\ndelta equals to this e g pi"
+  },
+  {
+    "start": 1886.63,
+    "dur": 4.77,
+    "text": "star divided by e g,g to the\npower of q tau together raised"
+  },
+  {
+    "start": 1891.4,
+    "dur": 3.69,
+    "text": "to the power of tau minus u,\nbecause they both have a common"
+  },
+  {
+    "start": 1895.09,
+    "dur": 2.46,
+    "text": "factor of tau minus u."
+  },
+  {
+    "start": 1897.55,
+    "dur": 3.16,
+    "text": "Then, once we reach\nthis step, you"
+  },
+  {
+    "start": 1900.71,
+    "dur": 3.87,
+    "text": "can roughly get the idea of how\nto break the q-Strong bilinear"
+  },
+  {
+    "start": 1904.58,
+    "dur": 2.01,
+    "text": "Diffie-Hellman assumption."
+  },
+  {
+    "start": 1906.59,
+    "dur": 2.22,
+    "text": "So, from both sides,\nwe can actually"
+  },
+  {
+    "start": 1908.81,
+    "dur": 4.14,
+    "text": "raise them to the power\nof tau minus u inverse."
+  },
+  {
+    "start": 1912.95,
+    "dur": 1.95,
+    "text": "And note that here,\nI'm not saying"
+  },
+  {
+    "start": 1914.9,
+    "dur": 3.03,
+    "text": "that anyone knows this\nsecret value of tau minus u"
+  },
+  {
+    "start": 1917.93,
+    "dur": 1.87,
+    "text": "and can compute the inverse."
+  },
+  {
+    "start": 1919.8,
+    "dur": 3.08,
+    "text": "I'm merely stating the\nfact that, if we do that,"
+  },
+  {
+    "start": 1922.88,
+    "dur": 3.37,
+    "text": "we have the following equation."
+  },
+  {
+    "start": 1926.25,
+    "dur": 2.67,
+    "text": "And, in the following equation,\non the left-hand side,"
+  },
+  {
+    "start": 1928.92,
+    "dur": 3.26,
+    "text": "we have e g,g to the power of\ndelta divided by tau minus u."
+  },
+  {
+    "start": 1932.18,
+    "dur": 4.38,
+    "text": "This is almost the\nsame as the problem"
+  },
+  {
+    "start": 1936.56,
+    "dur": 4.71,
+    "text": "of the q-Strong bilinear\nDiffie-Hellman assumption."
+  },
+  {
+    "start": 1941.27,
+    "dur": 2.09,
+    "text": "We are trying to\ncompute this value."
+  },
+  {
+    "start": 1943.36,
+    "dur": 3.12,
+    "text": "On the right-hand side\nequals to this value"
+  },
+  {
+    "start": 1946.48,
+    "dur": 1.56,
+    "text": "inside the parentheses."
+  },
+  {
+    "start": 1948.04,
+    "dur": 2.46,
+    "text": "And note that the\nadversary can actually"
+  },
+  {
+    "start": 1950.5,
+    "dur": 4.8,
+    "text": "compute the right-hand side\nwith the global parameters only."
+  },
+  {
+    "start": 1955.3,
+    "dur": 3.96,
+    "text": "That is because this e g pi\nstar is known by the attacker"
+  },
+  {
+    "start": 1959.26,
+    "dur": 4.77,
+    "text": "because he literally\ngenerated the fake proof."
+  },
+  {
+    "start": 1964.03,
+    "dur": 3.87,
+    "text": "And this e g,g to the power\nof q of tau is also known"
+  },
+  {
+    "start": 1967.9,
+    "dur": 4.35,
+    "text": "by the adversary because q\nof tau is the correct proof."
+  },
+  {
+    "start": 1972.25,
+    "dur": 2.94,
+    "text": "And you can't\nprevent the adversary"
+  },
+  {
+    "start": 1975.19,
+    "dur": 1.89,
+    "text": "from computing\nthe correct proof."
+  },
+  {
+    "start": 1977.08,
+    "dur": 4.08,
+    "text": "So the adversary knows\nboth of these values"
+  },
+  {
+    "start": 1981.16,
+    "dur": 1.54,
+    "text": "and compute the right-hand side."
+  },
+  {
+    "start": 1982.7,
+    "dur": 4.4,
+    "text": "Which means that the adversary\ncan use this contradiction--"
+  },
+  {
+    "start": 1987.1,
+    "dur": 4.92,
+    "text": "use this fake proof to\nbreak the q-Strong bilinear"
+  },
+  {
+    "start": 1992.02,
+    "dur": 2.68,
+    "text": "Diffie-Hellman assumption."
+  },
+  {
+    "start": 1994.7,
+    "dur": 2.96,
+    "text": "But then we assume\nthat this assumption"
+  },
+  {
+    "start": 1997.66,
+    "dur": 1.74,
+    "text": "is computationally\nhard, which means"
+  },
+  {
+    "start": 1999.4,
+    "dur": 3.15,
+    "text": "that it is a contradiction."
+  },
+  {
+    "start": 2002.55,
+    "dur": 3.15,
+    "text": "The first step of this v\nstar not equal to f of u"
+  },
+  {
+    "start": 2005.7,
+    "dur": 2.37,
+    "text": "should not happen."
+  },
+  {
+    "start": 2008.07,
+    "dur": 3.23,
+    "text": "So that completes the entire\nsecurity proof of the KZG"
+  },
+  {
+    "start": 2011.3,
+    "dur": 1.39,
+    "text": "polynomial commitment scheme."
+  },
+  {
+    "start": 2012.69,
+    "dur": 4.82,
+    "text": "And if you can't follow\nthe entire derivation,"
+  },
+  {
+    "start": 2017.51,
+    "dur": 3.09,
+    "text": "note that the key idea\nof this security proof"
+  },
+  {
+    "start": 2020.6,
+    "dur": 4.56,
+    "text": "is to decompose this fake value\nv star into the correct value"
+  },
+  {
+    "start": 2025.16,
+    "dur": 2.82,
+    "text": "f of u and a difference delta."
+  },
+  {
+    "start": 2027.98,
+    "dur": 2.49,
+    "text": "And then we can actually\ntrack the common factor"
+  },
+  {
+    "start": 2030.47,
+    "dur": 2.2,
+    "text": "of tau minus u in the exponent."
+  },
+  {
+    "start": 2032.67,
+    "dur": 3.98,
+    "text": "So that is the most clever\nstep of this security proof,"
+  },
+  {
+    "start": 2036.65,
+    "dur": 0.72,
+    "text": "in my opinion."
+  },
+  {
+    "start": 2041.07,
+    "dur": 3.45,
+    "text": "So after that, we have\nactually a remaining part"
+  },
+  {
+    "start": 2044.52,
+    "dur": 1.54,
+    "text": "that is not solved yet."
+  },
+  {
+    "start": 2046.06,
+    "dur": 2.119,
+    "text": "So because, in the\nsecurity proof,"
+  },
+  {
+    "start": 2048.179,
+    "dur": 2.161,
+    "text": "I actually made an assumption."
+  },
+  {
+    "start": 2050.34,
+    "dur": 3.93,
+    "text": "So when we see this commitment\nf, in the next step,"
+  },
+  {
+    "start": 2054.27,
+    "dur": 5.219,
+    "text": "I actually write it as g to\nthe power of f of tau for some"
+  },
+  {
+    "start": 2059.489,
+    "dur": 3.541,
+    "text": "f known by the prover--\nknown by the adversary."
+  },
+  {
+    "start": 2063.03,
+    "dur": 2.25,
+    "text": "And this is actually\na very big assumption."
+  },
+  {
+    "start": 2065.28,
+    "dur": 2.52,
+    "text": "If the prover just\ngenerates a random value"
+  },
+  {
+    "start": 2067.8,
+    "dur": 2.47,
+    "text": "and call it the\ncommitment f, how"
+  },
+  {
+    "start": 2070.27,
+    "dur": 2.0,
+    "text": "can you make sure that\nthe prover actually knows"
+  },
+  {
+    "start": 2072.27,
+    "dur": 3.429,
+    "text": "this polynomial f locally?"
+  },
+  {
+    "start": 2075.699,
+    "dur": 2.121,
+    "text": "And this is actually\nhard to check."
+  },
+  {
+    "start": 2077.82,
+    "dur": 3.54,
+    "text": "And this requires an additional\nassumption called knowledge"
+  },
+  {
+    "start": 2081.36,
+    "dur": 2.129,
+    "text": "of the exponent assumption."
+  },
+  {
+    "start": 2083.489,
+    "dur": 2.42,
+    "text": "So this key idea\nof this assumption"
+  },
+  {
+    "start": 2085.909,
+    "dur": 3.431,
+    "text": "is saying that, for\nthis global parameters,"
+  },
+  {
+    "start": 2089.34,
+    "dur": 2.339,
+    "text": "for the KZG\npolynomial commitment,"
+  },
+  {
+    "start": 2091.679,
+    "dur": 3.661,
+    "text": "we are going to sample\nanother secret value alpha"
+  },
+  {
+    "start": 2095.34,
+    "dur": 3.33,
+    "text": "and compute g to the\nalpha, g to the alpha tau,"
+  },
+  {
+    "start": 2098.67,
+    "dur": 3.19,
+    "text": "g to the alpha tau square, and\nso on and so forth, all the way"
+  },
+  {
+    "start": 2101.86,
+    "dur": 3.38,
+    "text": "to g to the alpha tau\nto the power of d."
+  },
+  {
+    "start": 2105.24,
+    "dur": 3.96,
+    "text": "Basically, we are raising\neach of the elements"
+  },
+  {
+    "start": 2109.2,
+    "dur": 4.23,
+    "text": "in this global parameters\nto another power of alpha."
+  },
+  {
+    "start": 2113.43,
+    "dur": 4.36,
+    "text": "And we are going to include both\nas the new global parameters."
+  },
+  {
+    "start": 2117.79,
+    "dur": 4.82,
+    "text": "So now, for every commitment\ng to the power of f tau,"
+  },
+  {
+    "start": 2122.61,
+    "dur": 2.67,
+    "text": "using the second set\nof global parameters,"
+  },
+  {
+    "start": 2125.28,
+    "dur": 3.81,
+    "text": "we can also ask the prover to\ncompute g to the alpha times"
+  },
+  {
+    "start": 2129.09,
+    "dur": 1.75,
+    "text": "f of tau."
+  },
+  {
+    "start": 2130.84,
+    "dur": 3.27,
+    "text": "And this is actually easy\nto do because we're just"
+  },
+  {
+    "start": 2134.11,
+    "dur": 4.02,
+    "text": "raising the corresponding\nelement in the second set"
+  },
+  {
+    "start": 2138.13,
+    "dur": 2.97,
+    "text": "of the global parameters\nto the same coefficients"
+  },
+  {
+    "start": 2141.1,
+    "dur": 3.21,
+    "text": "of the polynomial f."
+  },
+  {
+    "start": 2144.31,
+    "dur": 2.13,
+    "text": "So there is,\nactually, a one to one"
+  },
+  {
+    "start": 2146.44,
+    "dur": 4.66,
+    "text": "relationship between these\ntwo sets of global parameters."
+  },
+  {
+    "start": 2151.1,
+    "dur": 3.29,
+    "text": "So, after that, in\nthe verification,"
+  },
+  {
+    "start": 2154.39,
+    "dur": 3.91,
+    "text": "we are going to check an\nadditional pairing equation."
+  },
+  {
+    "start": 2158.3,
+    "dur": 4.19,
+    "text": "So this equation is\nessentially checking"
+  },
+  {
+    "start": 2162.49,
+    "dur": 1.56,
+    "text": "the relationship\nbetween these two"
+  },
+  {
+    "start": 2164.05,
+    "dur": 1.69,
+    "text": "components of the commitment."
+  },
+  {
+    "start": 2165.74,
+    "dur": 2.66,
+    "text": "We are going to do the\npairing of the commitment--"
+  },
+  {
+    "start": 2168.4,
+    "dur": 2.22,
+    "text": "the first commitment--"
+  },
+  {
+    "start": 2170.62,
+    "dur": 1.86,
+    "text": "with g to the alpha."
+  },
+  {
+    "start": 2172.48,
+    "dur": 3.12,
+    "text": "And then we are\ngoing to check it"
+  },
+  {
+    "start": 2175.6,
+    "dur": 3.66,
+    "text": "against the pairing between\nthis commitment prime"
+  },
+  {
+    "start": 2179.26,
+    "dur": 1.8,
+    "text": "with the generator g."
+  },
+  {
+    "start": 2181.06,
+    "dur": 5.4,
+    "text": "And, again, if this com\nprime is computed honestly,"
+  },
+  {
+    "start": 2186.46,
+    "dur": 2.22,
+    "text": "then you can always\npass this verification"
+  },
+  {
+    "start": 2188.68,
+    "dur": 3.84,
+    "text": "because it is the product\nequation in the exponent,"
+  },
+  {
+    "start": 2192.52,
+    "dur": 4.11,
+    "text": "and the left-hand side should\nequal to the right-hand side."
+  },
+  {
+    "start": 2196.63,
+    "dur": 2.37,
+    "text": "And the assumption\nsays that, as long"
+  },
+  {
+    "start": 2199.0,
+    "dur": 2.04,
+    "text": "as you can pass\nthis verification,"
+  },
+  {
+    "start": 2201.04,
+    "dur": 3.3,
+    "text": "there must exist an\nefficient extractor e"
+  },
+  {
+    "start": 2204.34,
+    "dur": 2.82,
+    "text": "that can extract a\npolynomial f such"
+  },
+  {
+    "start": 2207.16,
+    "dur": 4.41,
+    "text": "that the commitment equals to\ng to the power of f of tau."
+  },
+  {
+    "start": 2211.57,
+    "dur": 2.01,
+    "text": "So this assumption\ndirectly solves"
+  },
+  {
+    "start": 2213.58,
+    "dur": 4.01,
+    "text": "the problem we were facing\nin the security proof."
+  },
+  {
+    "start": 2217.59,
+    "dur": 2.41,
+    "text": "Given the commitment\nf, we don't know"
+  },
+  {
+    "start": 2220.0,
+    "dur": 1.75,
+    "text": "how to express that\nas g to the power of f"
+  },
+  {
+    "start": 2221.75,
+    "dur": 3.07,
+    "text": "tau, then by this\nassumption, if you perform"
+  },
+  {
+    "start": 2224.82,
+    "dur": 4.89,
+    "text": "an additional commitment com\nprime and an additional check"
+  },
+  {
+    "start": 2229.71,
+    "dur": 2.94,
+    "text": "using pairing, then\nthere exists an extractor"
+  },
+  {
+    "start": 2232.65,
+    "dur": 3.12,
+    "text": "to extract g to the f of tau."
+  },
+  {
+    "start": 2235.77,
+    "dur": 2.85,
+    "text": "So that is the\nknowledge assumption."
+  },
+  {
+    "start": 2238.62,
+    "dur": 2.01,
+    "text": "With the knowledge\nassumption, we"
+  },
+  {
+    "start": 2240.63,
+    "dur": 2.37,
+    "text": "can actually solve\nthis problem and get"
+  },
+  {
+    "start": 2243.0,
+    "dur": 3.93,
+    "text": "a real polynomial\ncommitment scheme that"
+  },
+  {
+    "start": 2246.93,
+    "dur": 2.04,
+    "text": "satisfies knowledge soundness."
+  },
+  {
+    "start": 2248.97,
+    "dur": 3.78,
+    "text": "So, basically, in the\nkey generation algorithm,"
+  },
+  {
+    "start": 2252.75,
+    "dur": 2.91,
+    "text": "we are going to generate two\nsets of public parameters,"
+  },
+  {
+    "start": 2255.66,
+    "dur": 3.54,
+    "text": "g to the power of tau, tau\nsquare, and tau to d, and g"
+  },
+  {
+    "start": 2259.2,
+    "dur": 2.76,
+    "text": "to the alpha, g to the alpha\ntau, g to the alpha tau square,"
+  },
+  {
+    "start": 2261.96,
+    "dur": 1.39,
+    "text": "and so forth."
+  },
+  {
+    "start": 2263.35,
+    "dur": 2.09,
+    "text": "And for each\ncommitment, it consists"
+  },
+  {
+    "start": 2265.44,
+    "dur": 5.0,
+    "text": "of two parts, g to the f of tau\nand g to the alpha f of tau."
+  },
+  {
+    "start": 2270.44,
+    "dur": 3.27,
+    "text": "And to verify the correctness\nof the evaluation,"
+  },
+  {
+    "start": 2273.71,
+    "dur": 2.91,
+    "text": "in addition to this\npairing equation"
+  },
+  {
+    "start": 2276.62,
+    "dur": 3.63,
+    "text": "to check the polynomial\nequation, we also"
+  },
+  {
+    "start": 2280.25,
+    "dur": 3.48,
+    "text": "check that the pairing\nof com and g to the alpha"
+  },
+  {
+    "start": 2283.73,
+    "dur": 3.93,
+    "text": "equals to the pairing of com\nprime and the generator g."
+  },
+  {
+    "start": 2287.66,
+    "dur": 4.8,
+    "text": "And by the knowledge assumption\nin the very first step"
+  },
+  {
+    "start": 2292.46,
+    "dur": 3.3,
+    "text": "of the security proof,\nwe can extract f such"
+  },
+  {
+    "start": 2295.76,
+    "dur": 4.33,
+    "text": "that the commitment equals\nto g to the power of f tau"
+  },
+  {
+    "start": 2300.09,
+    "dur": 1.92,
+    "text": "by the knowledge assumption."
+  },
+  {
+    "start": 2302.01,
+    "dur": 2.88,
+    "text": "And that solve the problem\nof the security proof"
+  },
+  {
+    "start": 2304.89,
+    "dur": 3.06,
+    "text": "and gives you the\nfinal complete proof"
+  },
+  {
+    "start": 2307.95,
+    "dur": 4.52,
+    "text": "of the knowledge soundness."
+  },
+  {
+    "start": 2312.47,
+    "dur": 3.45,
+    "text": "But then, a problem of this\nknowledge soundness assumption"
+  },
+  {
+    "start": 2315.92,
+    "dur": 5.66,
+    "text": "is that it actually introduced\nan overhead in the commitment"
+  },
+  {
+    "start": 2321.58,
+    "dur": 1.93,
+    "text": "size and the verifier time."
+  },
+  {
+    "start": 2323.51,
+    "dur": 3.5,
+    "text": "So now the commitment becomes\ntwo elements in the base group,"
+  },
+  {
+    "start": 2327.01,
+    "dur": 3.39,
+    "text": "and the verifier becomes a\ntwo parent equations to check."
+  },
+  {
+    "start": 2330.4,
+    "dur": 3.27,
+    "text": "So it basically doubles\nthe cost of this scheme."
+  },
+  {
+    "start": 2333.67,
+    "dur": 4.24,
+    "text": "So in order to further\nimprove this part,"
+  },
+  {
+    "start": 2337.91,
+    "dur": 3.17,
+    "text": "we can also prove the\nsecurity in a model called"
+  },
+  {
+    "start": 2341.08,
+    "dur": 2.91,
+    "text": "the generic group model, GGM."
+  },
+  {
+    "start": 2343.99,
+    "dur": 4.17,
+    "text": "So, in GGM, informally\nspeaking, the adversary"
+  },
+  {
+    "start": 2348.16,
+    "dur": 4.23,
+    "text": "is only given an oracle to\ncompute the group operations."
+  },
+  {
+    "start": 2352.39,
+    "dur": 5.04,
+    "text": "What it means is that, given\na set of global parameters,"
+  },
+  {
+    "start": 2357.43,
+    "dur": 3.51,
+    "text": "the adversary can only compute\ntheir linear combinations"
+  },
+  {
+    "start": 2360.94,
+    "dur": 3.9,
+    "text": "in order to get another group\nelement in the base group."
+  },
+  {
+    "start": 2364.84,
+    "dur": 2.58,
+    "text": "There is no other way for the\nadversary to, for example,"
+  },
+  {
+    "start": 2367.42,
+    "dur": 3.81,
+    "text": "sample a random point and it\nhappens to be another group"
+  },
+  {
+    "start": 2371.23,
+    "dur": 2.28,
+    "text": "element in the base group."
+  },
+  {
+    "start": 2373.51,
+    "dur": 2.25,
+    "text": "Because of this\nmodel, we can actually"
+  },
+  {
+    "start": 2375.76,
+    "dur": 2.26,
+    "text": "use the GGM to\nreplace the knowledge"
+  },
+  {
+    "start": 2378.02,
+    "dur": 2.7,
+    "text": "of exponent assumption\nand reduce the commitment"
+  },
+  {
+    "start": 2380.72,
+    "dur": 5.28,
+    "text": "size to one element, and\nalso the verifier time to one"
+  },
+  {
+    "start": 2386.0,
+    "dur": 2.49,
+    "text": "parent equation to check."
+  },
+  {
+    "start": 2388.49,
+    "dur": 5.34,
+    "text": "And this GGM is, again, a\nstronger model to work with."
+  },
+  {
+    "start": 2393.83,
+    "dur": 2.28,
+    "text": "But it's also believed\nto be reasonable"
+  },
+  {
+    "start": 2396.11,
+    "dur": 3.36,
+    "text": "because it captures\nall known attacks"
+  },
+  {
+    "start": 2399.47,
+    "dur": 2.52,
+    "text": "against the\ndiscrete-log assumptions"
+  },
+  {
+    "start": 2401.99,
+    "dur": 4.06,
+    "text": "or the Diffie-Hellman\nassumptions and the family."
+  },
+  {
+    "start": 2406.05,
+    "dur": 4.65,
+    "text": "So that is why it is reasonable\nto use this to prove security"
+  },
+  {
+    "start": 2410.7,
+    "dur": 1.42,
+    "text": "in our case."
+  },
+  {
+    "start": 2412.12,
+    "dur": 4.37,
+    "text": "And here is really an informal\ndescription of this GGM model."
+  },
+  {
+    "start": 2416.49,
+    "dur": 4.62,
+    "text": "And please see the\nbook by Dan and Victor"
+  },
+  {
+    "start": 2421.11,
+    "dur": 2.1,
+    "text": "for more details\nabout the GGM model."
+  },
+  {
+    "start": 2427.26,
+    "dur": 3.59,
+    "text": "So, with all of\nthat, finally, we"
+  },
+  {
+    "start": 2430.85,
+    "dur": 1.98,
+    "text": "end up with this KZG\npolynomial commitment"
+  },
+  {
+    "start": 2432.83,
+    "dur": 3.43,
+    "text": "scheme that is correct\nand the knowledge sound"
+  },
+  {
+    "start": 2436.26,
+    "dur": 2.1,
+    "text": "and in the GGM model."
+  },
+  {
+    "start": 2438.36,
+    "dur": 3.27,
+    "text": "So to remind you, again, we\nhave these global parameters."
+  },
+  {
+    "start": 2441.63,
+    "dur": 2.12,
+    "text": "And the prover commits\nto the polynomial as g"
+  },
+  {
+    "start": 2443.75,
+    "dur": 1.35,
+    "text": "to the power of f tau."
+  },
+  {
+    "start": 2445.1,
+    "dur": 3.48,
+    "text": "And in order to\nprove an evaluation,"
+  },
+  {
+    "start": 2448.58,
+    "dur": 2.97,
+    "text": "we compute this\nquotient polynomial fx"
+  },
+  {
+    "start": 2451.55,
+    "dur": 2.91,
+    "text": "minus f of u divided\nby x minus u."
+  },
+  {
+    "start": 2454.46,
+    "dur": 2.37,
+    "text": "And the proof is g to\nthe power of q of tau."
+  },
+  {
+    "start": 2456.83,
+    "dur": 2.715,
+    "text": "And the verifier checks it\nusing a pairing equation."
+  },
+  {
+    "start": 2462.32,
+    "dur": 3.2,
+    "text": "So, finally, let's look at\nthe properties of this KZG"
+  },
+  {
+    "start": 2465.52,
+    "dur": 2.38,
+    "text": "polynomial commitment scheme."
+  },
+  {
+    "start": 2467.9,
+    "dur": 3.05,
+    "text": "So in the key generation\nalgorithm, as we discussed,"
+  },
+  {
+    "start": 2470.95,
+    "dur": 1.77,
+    "text": "it requires a trusted setup."
+  },
+  {
+    "start": 2472.72,
+    "dur": 2.37,
+    "text": "Someone has to pick\nthis secret key tau,"
+  },
+  {
+    "start": 2475.09,
+    "dur": 3.63,
+    "text": "generate the global parameters,\nand remove this secret key tau"
+  },
+  {
+    "start": 2478.72,
+    "dur": 0.78,
+    "text": "completely."
+  },
+  {
+    "start": 2479.5,
+    "dur": 2.7,
+    "text": "Otherwise, the security\nwill be broken."
+  },
+  {
+    "start": 2482.2,
+    "dur": 4.83,
+    "text": "And the commit takes order\nof d group exponentiations."
+  },
+  {
+    "start": 2487.03,
+    "dur": 3.09,
+    "text": "Or computing-- to compute\ng to the power of f"
+  },
+  {
+    "start": 2490.12,
+    "dur": 2.14,
+    "text": "tau given the global parameters."
+  },
+  {
+    "start": 2492.26,
+    "dur": 2.54,
+    "text": "And the size of the\ncommitment is constant."
+  },
+  {
+    "start": 2494.8,
+    "dur": 3.69,
+    "text": "There's only one group\nelement in the base group."
+  },
+  {
+    "start": 2498.49,
+    "dur": 3.06,
+    "text": "And the evaluation\nalgorithm, the complexity"
+  },
+  {
+    "start": 2501.55,
+    "dur": 2.04,
+    "text": "of that is, again,\norder of d group"
+  },
+  {
+    "start": 2503.59,
+    "dur": 3.3,
+    "text": "exponentiation to compute\ng to the power of q of tau."
+  },
+  {
+    "start": 2506.89,
+    "dur": 2.37,
+    "text": "And note that this\npolynomial q of x"
+  },
+  {
+    "start": 2509.26,
+    "dur": 2.76,
+    "text": "can be computed\nefficiently in linear time"
+  },
+  {
+    "start": 2512.02,
+    "dur": 1.68,
+    "text": "using just a simple\nlong division."
+  },
+  {
+    "start": 2513.7,
+    "dur": 2.97,
+    "text": "You don't have to\nuse a complicated"
+  },
+  {
+    "start": 2516.67,
+    "dur": 2.31,
+    "text": "polynomial divisions to do that."
+  },
+  {
+    "start": 2518.98,
+    "dur": 5.13,
+    "text": "And the proof size is only\none group element out of one."
+  },
+  {
+    "start": 2524.11,
+    "dur": 5.46,
+    "text": "And the verifier time is only\none pair of equations to check."
+  },
+  {
+    "start": 2529.57,
+    "dur": 3.24,
+    "text": "So that is why the KZG\npolynomial commitment"
+  },
+  {
+    "start": 2532.81,
+    "dur": 3.27,
+    "text": "is actually very\nefficient in practice"
+  },
+  {
+    "start": 2536.08,
+    "dur": 3.04,
+    "text": "with very small proof size\nand fast verifier time."
+  },
+  {
+    "start": 2539.12,
+    "dur": 2.21,
+    "text": "But the only drawback\nis that it requires"
+  },
+  {
+    "start": 2541.33,
+    "dur": 5.45,
+    "text": "a trusted setup in the\nkey generation algorithm."
+  },
+  {
+    "start": 2546.78,
+    "dur": 1.65,
+    "text": "So another thing\nwe want to mention"
+  },
+  {
+    "start": 2548.43,
+    "dur": 4.77,
+    "text": "is that in order to somehow\nrelax this trusted setup"
+  },
+  {
+    "start": 2553.2,
+    "dur": 3.75,
+    "text": "assumption practice, there\nis a process called ceremony."
+  },
+  {
+    "start": 2556.95,
+    "dur": 3.96,
+    "text": "The goal of the ceremony is to\nhave a distributed generation"
+  },
+  {
+    "start": 2560.91,
+    "dur": 3.72,
+    "text": "of the global parameters so that\nno one can actually reconstruct"
+  },
+  {
+    "start": 2564.63,
+    "dur": 4.53,
+    "text": "this trapdoor tau if at\nleast one of the participants"
+  },
+  {
+    "start": 2569.16,
+    "dur": 2.61,
+    "text": "is honest and\ndiscards their secret."
+  },
+  {
+    "start": 2575.34,
+    "dur": 2.49,
+    "text": "So let's see how can we do that."
+  },
+  {
+    "start": 2577.83,
+    "dur": 4.5,
+    "text": "Well, actually, the\nidea is very simple"
+  },
+  {
+    "start": 2582.33,
+    "dur": 3.04,
+    "text": "because of this nice structure\nof the global parameters."
+  },
+  {
+    "start": 2585.37,
+    "dur": 2.36,
+    "text": "Recall that the global\nparameters is g raised"
+  },
+  {
+    "start": 2587.73,
+    "dur": 1.83,
+    "text": "to the different powers of tau."
+  },
+  {
+    "start": 2589.56,
+    "dur": 5.64,
+    "text": "And we just call a\nrunning global parameters"
+  },
+  {
+    "start": 2595.2,
+    "dur": 4.92,
+    "text": "generated by one party as\ng1, g2, all the way to gd."
+  },
+  {
+    "start": 2600.12,
+    "dur": 3.9,
+    "text": "So then, if we receive\nthis global parameters"
+  },
+  {
+    "start": 2604.02,
+    "dur": 3.09,
+    "text": "from another party,\nthere as a way"
+  },
+  {
+    "start": 2607.11,
+    "dur": 3.81,
+    "text": "to introduce an additional\npart of the randomness"
+  },
+  {
+    "start": 2610.92,
+    "dur": 2.76,
+    "text": "called s and update\nthis gp prime"
+  },
+  {
+    "start": 2613.68,
+    "dur": 2.83,
+    "text": "into a new set of\nglobal parameters."
+  },
+  {
+    "start": 2616.51,
+    "dur": 1.53,
+    "text": "And the update is very simple."
+  },
+  {
+    "start": 2618.04,
+    "dur": 2.3,
+    "text": "We are going to\nraise each element"
+  },
+  {
+    "start": 2620.34,
+    "dur": 4.59,
+    "text": "of this existing global\nparameters, g1, g2, and gd,"
+  },
+  {
+    "start": 2624.93,
+    "dur": 2.24,
+    "text": "to the corresponding\npowers of s."
+  },
+  {
+    "start": 2627.17,
+    "dur": 3.17,
+    "text": "We compute g1 to the\ns, g2 to the s squared,"
+  },
+  {
+    "start": 2630.34,
+    "dur": 3.28,
+    "text": "all the way to gd\nto the s to the d."
+  },
+  {
+    "start": 2633.62,
+    "dur": 4.6,
+    "text": "And if you just write down\nthis equation formally,"
+  },
+  {
+    "start": 2638.22,
+    "dur": 4.29,
+    "text": "you can see that if gp\nis honestly computed,"
+  },
+  {
+    "start": 2642.51,
+    "dur": 1.77,
+    "text": "then this set of\nglobal parameters"
+  },
+  {
+    "start": 2644.28,
+    "dur": 4.97,
+    "text": "becomes g to the tau s, g to\nthe tau s together square,"
+  },
+  {
+    "start": 2649.25,
+    "dur": 1.695,
+    "text": "and then all the\nway to g to the tau"
+  },
+  {
+    "start": 2650.945,
+    "dur": 2.765,
+    "text": "s together to the power of d."
+  },
+  {
+    "start": 2653.71,
+    "dur": 2.7,
+    "text": "Which means that this new\nset of global parameters"
+  },
+  {
+    "start": 2656.41,
+    "dur": 4.23,
+    "text": "is actually equivalent\nto generating"
+  },
+  {
+    "start": 2660.64,
+    "dur": 4.31,
+    "text": "it using the secret tau\ntimes s from the beginning."
+  },
+  {
+    "start": 2664.95,
+    "dur": 2.6,
+    "text": "So this gives you a sense\nthat if everyone is honest,"
+  },
+  {
+    "start": 2667.55,
+    "dur": 3.87,
+    "text": "then they can still form\nthe correct generation"
+  },
+  {
+    "start": 2671.42,
+    "dur": 3.45,
+    "text": "of the global parameters using\nthe product of all the secrets"
+  },
+  {
+    "start": 2674.87,
+    "dur": 2.83,
+    "text": "from all the parties."
+  },
+  {
+    "start": 2677.7,
+    "dur": 2.79,
+    "text": "So, finally, there are\nsome additional steps"
+  },
+  {
+    "start": 2680.49,
+    "dur": 3.96,
+    "text": "to check that this gp prime\nis indeed correctly generated."
+  },
+  {
+    "start": 2684.45,
+    "dur": 1.68,
+    "text": "In case that someone\nis malicious,"
+  },
+  {
+    "start": 2686.13,
+    "dur": 3.79,
+    "text": "we don't want them to ruin\nthis entire global parameters."
+  },
+  {
+    "start": 2689.92,
+    "dur": 3.8,
+    "text": "And there are two steps\nto check the correctness."
+  },
+  {
+    "start": 2693.72,
+    "dur": 1.44,
+    "text": "So, first of all,\nthe contributor"
+  },
+  {
+    "start": 2695.16,
+    "dur": 2.94,
+    "text": "has to generate\nthe proof proving"
+  },
+  {
+    "start": 2698.1,
+    "dur": 4.11,
+    "text": "that he or she knows s\nsuch that g1 prime equals"
+  },
+  {
+    "start": 2702.21,
+    "dur": 2.86,
+    "text": "to g1 to the power of s."
+  },
+  {
+    "start": 2705.07,
+    "dur": 4.73,
+    "text": "Indeed, you are introducing\nsome valid secret s from g1"
+  },
+  {
+    "start": 2709.8,
+    "dur": 3.24,
+    "text": "to g1 prime instead\nof discarding"
+  },
+  {
+    "start": 2713.04,
+    "dur": 2.49,
+    "text": "this existing global\nparameters and generate"
+  },
+  {
+    "start": 2715.53,
+    "dur": 1.89,
+    "text": "gp prime from scratch."
+  },
+  {
+    "start": 2717.42,
+    "dur": 1.98,
+    "text": "And this one can be\ndone efficiently using,"
+  },
+  {
+    "start": 2719.4,
+    "dur": 2.22,
+    "text": "for example, sigma [INAUDIBLE]."
+  },
+  {
+    "start": 2721.62,
+    "dur": 4.05,
+    "text": "And another check we need to do\nis that after this computation,"
+  },
+  {
+    "start": 2725.67,
+    "dur": 4.53,
+    "text": "gp prime should have the\nform of consecutive powers"
+  },
+  {
+    "start": 2730.2,
+    "dur": 3.63,
+    "text": "of this generator raised\nto this new secret."
+  },
+  {
+    "start": 2733.83,
+    "dur": 3.42,
+    "text": "And this can actually be checked\nefficiently using pairing."
+  },
+  {
+    "start": 2737.25,
+    "dur": 1.29,
+    "text": "There's a simple check."
+  },
+  {
+    "start": 2738.54,
+    "dur": 3.45,
+    "text": "You can actually do the pairing\nbetween gi prime and g1 prime."
+  },
+  {
+    "start": 2741.99,
+    "dur": 3.66,
+    "text": "And that should equal to\ngi plus 1 prime and g for i"
+  },
+  {
+    "start": 2745.65,
+    "dur": 3.37,
+    "text": "equals to 0 all the\nway to d minus 1."
+  },
+  {
+    "start": 2749.02,
+    "dur": 1.98,
+    "text": "And this shows that,\nafter the update,"
+  },
+  {
+    "start": 2751.0,
+    "dur": 2.64,
+    "text": "we still have a valid\nglobal parameters"
+  },
+  {
+    "start": 2753.64,
+    "dur": 1.23,
+    "text": "with this relationship."
+  },
+  {
+    "start": 2754.87,
+    "dur": 2.61,
+    "text": "And, also, another thing\nyou need to pay attention to"
+  },
+  {
+    "start": 2757.48,
+    "dur": 5.64,
+    "text": "is that we can't just remove\nthe secret and change it to 0."
+  },
+  {
+    "start": 2763.12,
+    "dur": 2.46,
+    "text": "So in order to\nprevent that, we have"
+  },
+  {
+    "start": 2765.58,
+    "dur": 2.91,
+    "text": "to check that g1 prime\nis not equal to 0."
+  },
+  {
+    "start": 2768.49,
+    "dur": 2.91,
+    "text": "And this nice way of\ndoing the ceremony"
+  },
+  {
+    "start": 2771.4,
+    "dur": 7.3,
+    "text": "was actually introduced\nin this paper in 2022."
+  },
+  {
+    "start": 2778.7,
+    "dur": 3.12,
+    "text": "So that completes this\ndiscussion of the KZG"
+  },
+  {
+    "start": 2781.82,
+    "dur": 1.29,
+    "text": "polynomial commitment scheme."
+  },
+  {
+    "start": 2785.77,
+    "dur": 2.61,
+    "text": "As we've seen so far, the\nKZG polynomial commitment"
+  },
+  {
+    "start": 2788.38,
+    "dur": 2.7,
+    "text": "has this simple and nice\nalgebraic structure,"
+  },
+  {
+    "start": 2791.08,
+    "dur": 2.13,
+    "text": "and that's why it has\nled to many variants"
+  },
+  {
+    "start": 2793.21,
+    "dur": 1.03,
+    "text": "in the literature."
+  },
+  {
+    "start": 2794.24,
+    "dur": 3.92,
+    "text": "And I'm going to discuss\nsome of these variants next."
+  },
+  {
+    "start": 2798.16,
+    "dur": 3.75,
+    "text": "The first extension is\nto the multivariate case."
+  },
+  {
+    "start": 2801.91,
+    "dur": 3.66,
+    "text": "And the scheme was proposed by\nPapamanthou, Shi, and Tamassia"
+  },
+  {
+    "start": 2805.57,
+    "dur": 2.88,
+    "text": "in the paper in 2013."
+  },
+  {
+    "start": 2808.45,
+    "dur": 1.77,
+    "text": "And here I'm showing\nyou an example"
+  },
+  {
+    "start": 2810.22,
+    "dur": 3.03,
+    "text": "of a multivariate polynomial\nwith the k variables."
+  },
+  {
+    "start": 2813.25,
+    "dur": 1.65,
+    "text": "And it's basically\ncan be expressed"
+  },
+  {
+    "start": 2814.9,
+    "dur": 3.27,
+    "text": "as the summation of all\nthese polynomials generated"
+  },
+  {
+    "start": 2818.17,
+    "dur": 4.05,
+    "text": "by these variables times the\ncorresponding coefficients."
+  },
+  {
+    "start": 2822.22,
+    "dur": 3.33,
+    "text": "And the key idea to build\na multivariate polynomial"
+  },
+  {
+    "start": 2825.55,
+    "dur": 3.73,
+    "text": "commitment scheme is based\non this polynomial equation."
+  },
+  {
+    "start": 2829.28,
+    "dur": 3.17,
+    "text": "So for every\nmultivariate polynomial,"
+  },
+  {
+    "start": 2832.45,
+    "dur": 6.24,
+    "text": "f x1 to xk minus f u1 to uk,\nthe evaluation at this point"
+  },
+  {
+    "start": 2838.69,
+    "dur": 3.12,
+    "text": "can always be expressed\nas the summation"
+  },
+  {
+    "start": 2841.81,
+    "dur": 5.02,
+    "text": "of x minus i minus\nui times q ix from i"
+  },
+  {
+    "start": 2846.83,
+    "dur": 1.56,
+    "text": "equals to 1 all the way to k."
+  },
+  {
+    "start": 2848.39,
+    "dur": 3.96,
+    "text": "And, here, q ik is, again,\na multivariate polynomial."
+  },
+  {
+    "start": 2852.35,
+    "dur": 1.89,
+    "text": "It's actually not\nstraightforward to prove"
+  },
+  {
+    "start": 2854.24,
+    "dur": 0.96,
+    "text": "this equation."
+  },
+  {
+    "start": 2855.2,
+    "dur": 5.502,
+    "text": "But I refer you to the original\npaper for a formal proof"
+  },
+  {
+    "start": 2860.702,
+    "dur": 0.708,
+    "text": "of this equation."
+  },
+  {
+    "start": 2864.66,
+    "dur": 3.21,
+    "text": "And based on this\npolynomial equation,"
+  },
+  {
+    "start": 2867.87,
+    "dur": 4.23,
+    "text": "then in the key generation,\ninstead of sampling one--"
+  },
+  {
+    "start": 2872.1,
+    "dur": 3.18,
+    "text": "a secret key tau, we are\ngoing to sample k secret keys,"
+  },
+  {
+    "start": 2875.28,
+    "dur": 1.98,
+    "text": "tau 1 and all the way to tau k."
+  },
+  {
+    "start": 2877.26,
+    "dur": 2.43,
+    "text": "And, basically, each\ntau is representing"
+  },
+  {
+    "start": 2879.69,
+    "dur": 3.52,
+    "text": "the one variable in this\nmultivariate polynomial."
+  },
+  {
+    "start": 2883.21,
+    "dur": 3.32,
+    "text": "Then we are going to compute the\nglobal parameters as g raised"
+  },
+  {
+    "start": 2886.53,
+    "dur": 3.51,
+    "text": "to all possible monomials\ngenerated by tau 1"
+  },
+  {
+    "start": 2890.04,
+    "dur": 1.35,
+    "text": "all the way to tau k."
+  },
+  {
+    "start": 2891.39,
+    "dur": 3.99,
+    "text": "And, for example, as Justin\ndiscussed in lecture four,"
+  },
+  {
+    "start": 2895.38,
+    "dur": 2.745,
+    "text": "for multilinear polynomials,\nthere are in total 2"
+  },
+  {
+    "start": 2898.125,
+    "dur": 5.935,
+    "text": "to the power of k monomials\ngenerated by all the variables."
+  },
+  {
+    "start": 2904.06,
+    "dur": 2.55,
+    "text": "Then, with this\npublic parameter,"
+  },
+  {
+    "start": 2906.61,
+    "dur": 2.23,
+    "text": "the commitment is\nvery straightforward."
+  },
+  {
+    "start": 2908.84,
+    "dur": 3.24,
+    "text": "We are still computing\ng to the power of f tau,"
+  },
+  {
+    "start": 2912.08,
+    "dur": 2.51,
+    "text": "where tau now is a\nvector tau 1 to tau k."
+  },
+  {
+    "start": 2914.59,
+    "dur": 3.33,
+    "text": "And, again, this can be computed\nusing the global parameters"
+  },
+  {
+    "start": 2917.92,
+    "dur": 0.84,
+    "text": "only."
+  },
+  {
+    "start": 2918.76,
+    "dur": 1.89,
+    "text": "The prover is\nraising each element"
+  },
+  {
+    "start": 2920.65,
+    "dur": 3.39,
+    "text": "of the global parameters to\nthe corresponding coefficient"
+  },
+  {
+    "start": 2924.04,
+    "dur": 2.25,
+    "text": "of the polynomial and\nmultiply them together"
+  },
+  {
+    "start": 2926.29,
+    "dur": 3.45,
+    "text": "to get the commitment."
+  },
+  {
+    "start": 2929.74,
+    "dur": 2.82,
+    "text": "Next, in order to\ncompute the proof,"
+  },
+  {
+    "start": 2932.56,
+    "dur": 3.18,
+    "text": "the prover is going to evaluate\nthis polynomial at this point"
+  },
+  {
+    "start": 2935.74,
+    "dur": 4.47,
+    "text": "u1 to uk and invoke this\nequation to compute qx"
+  },
+  {
+    "start": 2940.21,
+    "dur": 1.23,
+    "text": "for all i."
+  },
+  {
+    "start": 2941.44,
+    "dur": 4.35,
+    "text": "Then the proof consists\nof multiple elements."
+  },
+  {
+    "start": 2945.79,
+    "dur": 3.86,
+    "text": "Pi i equals to g\nto the power of qi"
+  },
+  {
+    "start": 2949.65,
+    "dur": 5.38,
+    "text": "evaluated at the\npoint tau here for i"
+  },
+  {
+    "start": 2955.03,
+    "dur": 2.67,
+    "text": "equals to 1 all the way to k."
+  },
+  {
+    "start": 2957.7,
+    "dur": 3.57,
+    "text": "And, finally, to verify the\ncorrectness of this evaluation,"
+  },
+  {
+    "start": 2961.27,
+    "dur": 1.59,
+    "text": "we are again checking\nthis equation"
+  },
+  {
+    "start": 2962.86,
+    "dur": 2.43,
+    "text": "in the exponent using\nbilinear pairing."
+  },
+  {
+    "start": 2965.29,
+    "dur": 2.34,
+    "text": "On the left-hand side\nis exactly the same"
+  },
+  {
+    "start": 2967.63,
+    "dur": 1.48,
+    "text": "as the univariate case."
+  },
+  {
+    "start": 2969.11,
+    "dur": 3.53,
+    "text": "We are computing the pairing\nbetween the commitment divided"
+  },
+  {
+    "start": 2972.64,
+    "dur": 4.56,
+    "text": "by g to the v with\nthe generator itself."
+  },
+  {
+    "start": 2977.2,
+    "dur": 2.79,
+    "text": "On the right-hand side, we\nhave a multiple pairings."
+  },
+  {
+    "start": 2979.99,
+    "dur": 2.55,
+    "text": "So the verifier is computing\nthe pairing between g"
+  },
+  {
+    "start": 2982.54,
+    "dur": 3.09,
+    "text": "to the power of tau\ni minus ui and pi i,"
+  },
+  {
+    "start": 2985.63,
+    "dur": 2.91,
+    "text": "and then multiply all\nof them together from i"
+  },
+  {
+    "start": 2988.54,
+    "dur": 1.77,
+    "text": "equals to 1 all the way to k."
+  },
+  {
+    "start": 2990.31,
+    "dur": 1.95,
+    "text": "And if you do the\nderivation, this"
+  },
+  {
+    "start": 2992.26,
+    "dur": 2.28,
+    "text": "is essentially\nchecking this equation"
+  },
+  {
+    "start": 2994.54,
+    "dur": 4.83,
+    "text": "at point tau i in the exponent."
+  },
+  {
+    "start": 2999.37,
+    "dur": 4.11,
+    "text": "And, for the similar reason,\nthis scheme is correct,"
+  },
+  {
+    "start": 3003.48,
+    "dur": 5.64,
+    "text": "and it can be proved sound\nunder the same assumptions."
+  },
+  {
+    "start": 3009.12,
+    "dur": 5.5,
+    "text": "And, in terms of efficiency, the\ncommitment and the evaluation"
+  },
+  {
+    "start": 3014.62,
+    "dur": 2.46,
+    "text": "has the same\ncomplexity as before."
+  },
+  {
+    "start": 3017.08,
+    "dur": 3.97,
+    "text": "Assuming that the n is the\ntotal size of this polynomial,"
+  },
+  {
+    "start": 3021.05,
+    "dur": 3.38,
+    "text": "then both of them are order\nof n group exponentiations."
+  },
+  {
+    "start": 3024.43,
+    "dur": 2.31,
+    "text": "But the scheme does\nintroduce an overhead"
+  },
+  {
+    "start": 3026.74,
+    "dur": 1.9,
+    "text": "on the proof size and\nthe verifier time."
+  },
+  {
+    "start": 3028.64,
+    "dur": 1.88,
+    "text": "So now the proof\nsize becomes order"
+  },
+  {
+    "start": 3030.52,
+    "dur": 4.32,
+    "text": "of k, which is order\nof log n, for example,"
+  },
+  {
+    "start": 3034.84,
+    "dur": 2.19,
+    "text": "for multilinear polynomial."
+  },
+  {
+    "start": 3037.03,
+    "dur": 2.83,
+    "text": "And the same applies\nto the verifier time."
+  },
+  {
+    "start": 3039.86,
+    "dur": 2.9,
+    "text": "So this is the scheme for\nmultivariate polynomial"
+  },
+  {
+    "start": 3042.76,
+    "dur": 2.77,
+    "text": "commitment."
+  },
+  {
+    "start": 3045.53,
+    "dur": 2.18,
+    "text": "The second extension\nI want to introduce"
+  },
+  {
+    "start": 3047.71,
+    "dur": 3.33,
+    "text": "is a way to achieve\nzero knowledge."
+  },
+  {
+    "start": 3051.04,
+    "dur": 3.66,
+    "text": "And I refer you to see lecture\none for the formal definition"
+  },
+  {
+    "start": 3054.7,
+    "dur": 1.08,
+    "text": "of zero knowledge."
+  },
+  {
+    "start": 3055.78,
+    "dur": 2.34,
+    "text": "In the case of a\npolynomial commitment,"
+  },
+  {
+    "start": 3058.12,
+    "dur": 1.56,
+    "text": "essentially, zero\nknowledge is saying"
+  },
+  {
+    "start": 3059.68,
+    "dur": 4.82,
+    "text": "that there exists a simulator,\nwithout knowing the polynomial,"
+  },
+  {
+    "start": 3064.5,
+    "dur": 1.71,
+    "text": "the simulator can\nactually simulate"
+  },
+  {
+    "start": 3066.21,
+    "dur": 4.47,
+    "text": "the view of the verifier\nand generate this proof."
+  },
+  {
+    "start": 3070.68,
+    "dur": 4.35,
+    "text": "And that is indistinguishable\nfrom a real execution"
+  },
+  {
+    "start": 3075.03,
+    "dur": 1.65,
+    "text": "with the polynomial."
+  },
+  {
+    "start": 3076.68,
+    "dur": 3.96,
+    "text": "And, turns out, this plane\nKZG is not zero knowledge."
+  },
+  {
+    "start": 3080.64,
+    "dur": 4.83,
+    "text": "And the simple way to see it\nis that this commitment equals"
+  },
+  {
+    "start": 3085.47,
+    "dur": 3.6,
+    "text": "to g to the power of f tau\nis actually deterministic."
+  },
+  {
+    "start": 3089.07,
+    "dur": 3.42,
+    "text": "Although you cannot reconstruct\nf of tau directly from"
+  },
+  {
+    "start": 3092.49,
+    "dur": 2.7,
+    "text": "the commitment, you can actually\ndo some testing for this"
+  },
+  {
+    "start": 3095.19,
+    "dur": 1.84,
+    "text": "polynomial."
+  },
+  {
+    "start": 3097.03,
+    "dur": 4.92,
+    "text": "For example, we can assume that\n[INAUDIBLE] is the polynomial"
+  },
+  {
+    "start": 3101.95,
+    "dur": 1.95,
+    "text": "a zero polynomial."
+  },
+  {
+    "start": 3103.9,
+    "dur": 2.7,
+    "text": "But if that is true,\nthen g to the f of tau"
+  },
+  {
+    "start": 3106.6,
+    "dur": 3.6,
+    "text": "must be equal to g to the\npower of 0, which equals to 1."
+  },
+  {
+    "start": 3110.2,
+    "dur": 2.64,
+    "text": "And you can actually check\nwhether the commitment is 1"
+  },
+  {
+    "start": 3112.84,
+    "dur": 0.66,
+    "text": "or not."
+  },
+  {
+    "start": 3113.5,
+    "dur": 4.0,
+    "text": "And that tells you whether the\npolynomial is all 0 or not."
+  },
+  {
+    "start": 3117.5,
+    "dur": 2.27,
+    "text": "And, in general, you\ncan make any hypothesis"
+  },
+  {
+    "start": 3119.77,
+    "dur": 3.54,
+    "text": "about whether a polynomial\nis of certain form"
+  },
+  {
+    "start": 3123.31,
+    "dur": 2.07,
+    "text": "and then compute the\ncorresponding commitment"
+  },
+  {
+    "start": 3125.38,
+    "dur": 2.98,
+    "text": "and check that if the same\nas the real commitment."
+  },
+  {
+    "start": 3128.36,
+    "dur": 1.55,
+    "text": "So, in this way,\nyou can actually"
+  },
+  {
+    "start": 3129.91,
+    "dur": 6.81,
+    "text": "learn some information about\nthis secret polynomial."
+  },
+  {
+    "start": 3136.72,
+    "dur": 2.85,
+    "text": "So that is why this scheme\nis not zero knowledge."
+  },
+  {
+    "start": 3139.57,
+    "dur": 3.42,
+    "text": "And the key reason is that this\ncommitment is deterministic"
+  },
+  {
+    "start": 3142.99,
+    "dur": 5.2,
+    "text": "and can be computed by anyone."
+  },
+  {
+    "start": 3148.19,
+    "dur": 3.38,
+    "text": "So the key idea to\nmake it zero knowledge"
+  },
+  {
+    "start": 3151.57,
+    "dur": 2.7,
+    "text": "is to mask both\ncommitment and the proof"
+  },
+  {
+    "start": 3154.27,
+    "dur": 1.53,
+    "text": "with some randomizers."
+  },
+  {
+    "start": 3155.8,
+    "dur": 4.32,
+    "text": "And here I'm showing you\na scheme from my paper"
+  },
+  {
+    "start": 3160.12,
+    "dur": 2.88,
+    "text": "with my co-authors in 2018."
+  },
+  {
+    "start": 3163.0,
+    "dur": 3.33,
+    "text": "So the key idea\nof this scheme is"
+  },
+  {
+    "start": 3166.33,
+    "dur": 3.21,
+    "text": "that instead of committing to\ng to the power of f of tau,"
+  },
+  {
+    "start": 3169.54,
+    "dur": 2.19,
+    "text": "you're going to add\na randomizer term."
+  },
+  {
+    "start": 3171.73,
+    "dur": 3.9,
+    "text": "That is r times eta, where\nr is a random number chosen"
+  },
+  {
+    "start": 3175.63,
+    "dur": 2.76,
+    "text": "by the prover, and\neta is actually"
+  },
+  {
+    "start": 3178.39,
+    "dur": 4.56,
+    "text": "another secret key sampled\nby the pre-processor"
+  },
+  {
+    "start": 3182.95,
+    "dur": 1.2,
+    "text": "in the trusted setup."
+  },
+  {
+    "start": 3184.15,
+    "dur": 2.16,
+    "text": "And, of course, we\nalso need to include g"
+  },
+  {
+    "start": 3186.31,
+    "dur": 2.37,
+    "text": "to the eta in the\npublic parameters."
+  },
+  {
+    "start": 3188.68,
+    "dur": 4.53,
+    "text": "But I'll omit this step in\nthis informal description."
+  },
+  {
+    "start": 3193.21,
+    "dur": 2.8,
+    "text": "And then, to generate\nthe proof, instead"
+  },
+  {
+    "start": 3196.01,
+    "dur": 4.14,
+    "text": "of doing the regular\ndecomposition, fx minus f of u,"
+  },
+  {
+    "start": 3200.15,
+    "dur": 2.97,
+    "text": "we are going to do a\nrandomized decomposition."
+  },
+  {
+    "start": 3203.12,
+    "dur": 2.05,
+    "text": "You see here that on\nthe left-hand side,"
+  },
+  {
+    "start": 3205.17,
+    "dur": 2.54,
+    "text": "we have an additional\nterm, r times y, which"
+  },
+  {
+    "start": 3207.71,
+    "dur": 2.85,
+    "text": "is actually from this\nrandomizer of the commitment."
+  },
+  {
+    "start": 3210.56,
+    "dur": 3.42,
+    "text": "And, here, we are replacing\neta with a variable y."
+  },
+  {
+    "start": 3213.98,
+    "dur": 2.1,
+    "text": "And on the right-hand\nside, instead"
+  },
+  {
+    "start": 3216.08,
+    "dur": 2.19,
+    "text": "of doing x minus\nu times q of x, we"
+  },
+  {
+    "start": 3218.27,
+    "dur": 4.8,
+    "text": "are going to do x minus u times\nq of x plus r prime times y,"
+  },
+  {
+    "start": 3223.07,
+    "dur": 3.12,
+    "text": "where r prime is another\nrandomizer sampled"
+  },
+  {
+    "start": 3226.19,
+    "dur": 3.66,
+    "text": "by the prover to\nmask this proof."
+  },
+  {
+    "start": 3229.85,
+    "dur": 3.18,
+    "text": "And then, if you expand\nthis multiplication,"
+  },
+  {
+    "start": 3233.03,
+    "dur": 2.7,
+    "text": "you will see that this\nis the remaining term."
+  },
+  {
+    "start": 3235.73,
+    "dur": 2.88,
+    "text": "And all of them have\nthis common factor y."
+  },
+  {
+    "start": 3238.61,
+    "dur": 5.4,
+    "text": "So we can write it as y times r\nminus r prime times x minus u."
+  },
+  {
+    "start": 3244.01,
+    "dur": 2.01,
+    "text": "With this decomposition,\nwe can actually"
+  },
+  {
+    "start": 3246.02,
+    "dur": 3.67,
+    "text": "generate the proof pi\nconsisting of two elements."
+  },
+  {
+    "start": 3249.69,
+    "dur": 1.94,
+    "text": "The first element\nis g to the power"
+  },
+  {
+    "start": 3251.63,
+    "dur": 4.02,
+    "text": "of q tau plus r prime eta,\nwhich is essentially evaluating"
+  },
+  {
+    "start": 3255.65,
+    "dur": 4.74,
+    "text": "this polynomial inside the\nfirst parenthesis at point tau"
+  },
+  {
+    "start": 3260.39,
+    "dur": 3.69,
+    "text": "substituting x and the\neta substituting y."
+  },
+  {
+    "start": 3264.08,
+    "dur": 2.31,
+    "text": "And the second element\nis g to the power"
+  },
+  {
+    "start": 3266.39,
+    "dur": 2.73,
+    "text": "of r minus r prime\ntimes tau minus u"
+  },
+  {
+    "start": 3269.12,
+    "dur": 2.49,
+    "text": "and, essentially, from\nthe second polynomial"
+  },
+  {
+    "start": 3271.61,
+    "dur": 1.74,
+    "text": "in the parentheses."
+  },
+  {
+    "start": 3273.35,
+    "dur": 3.87,
+    "text": "And then, we can check\nthis relationship"
+  },
+  {
+    "start": 3277.22,
+    "dur": 4.98,
+    "text": "of the randomized decomposition\nwith the pairing equation"
+  },
+  {
+    "start": 3282.2,
+    "dur": 3.26,
+    "text": "to check the product\nin the exponent."
+  },
+  {
+    "start": 3285.46,
+    "dur": 4.05,
+    "text": "And this is how we achieve\nzero knowledge for the KZG"
+  },
+  {
+    "start": 3289.51,
+    "dur": 1.71,
+    "text": "polynomial commitment scheme."
+  },
+  {
+    "start": 3291.22,
+    "dur": 2.94,
+    "text": "And another interesting\nthing to think about"
+  },
+  {
+    "start": 3294.16,
+    "dur": 2.1,
+    "text": "is that, actually,\nthis scheme is"
+  },
+  {
+    "start": 3296.26,
+    "dur": 5.58,
+    "text": "almost equivalent to\ngeneralizing the univariate KZG"
+  },
+  {
+    "start": 3301.84,
+    "dur": 3.48,
+    "text": "polynomial commitment scheme\nto the bivariate case."
+  },
+  {
+    "start": 3305.32,
+    "dur": 5.11,
+    "text": "We're essentially adding\nan additional variable y"
+  },
+  {
+    "start": 3310.43,
+    "dur": 2.34,
+    "text": "so that we can\nactually use this term"
+  },
+  {
+    "start": 3312.77,
+    "dur": 4.99,
+    "text": "to randomize both the\ncommitment and the proof."
+  },
+  {
+    "start": 3317.76,
+    "dur": 3.68,
+    "text": "And for a correct\nevaluation of f of u,"
+  },
+  {
+    "start": 3321.44,
+    "dur": 2.94,
+    "text": "we are essentially evaluating\nthis bivariate polynomial"
+  },
+  {
+    "start": 3324.38,
+    "dur": 5.43,
+    "text": "at the point u comma 0, where\n0 is for the variable y."
+  },
+  {
+    "start": 3329.81,
+    "dur": 5.05,
+    "text": "And, in this way, we can\nachieve zero knowledge."
+  },
+  {
+    "start": 3334.86,
+    "dur": 2.85,
+    "text": "So, finally, the last\nvariant I want to introduce"
+  },
+  {
+    "start": 3337.71,
+    "dur": 1.71,
+    "text": "is this batch opening."
+  },
+  {
+    "start": 3339.42,
+    "dur": 4.32,
+    "text": "So the first version I want to\nstart from a single polynomial,"
+  },
+  {
+    "start": 3343.74,
+    "dur": 5.27,
+    "text": "where there is a one polynomial\nhold by the prover, f,"
+  },
+  {
+    "start": 3349.01,
+    "dur": 2.7,
+    "text": "and the prover wants to\nconvince the verifier"
+  },
+  {
+    "start": 3351.71,
+    "dur": 2.58,
+    "text": "that the evaluation of\nf at multiple points"
+  },
+  {
+    "start": 3354.29,
+    "dur": 4.5,
+    "text": "u1 all the way to un for m that\nis smaller than [INAUDIBLE] d."
+  },
+  {
+    "start": 3358.79,
+    "dur": 1.92,
+    "text": "Because if it's\nlarger than d, then"
+  },
+  {
+    "start": 3360.71,
+    "dur": 5.19,
+    "text": "you can reconstruct the\npolynomial in the first place."
+  },
+  {
+    "start": 3365.9,
+    "dur": 4.37,
+    "text": "So the key idea to\ngenerate a short proof"
+  },
+  {
+    "start": 3370.27,
+    "dur": 4.62,
+    "text": "for this multiple evaluations\nis that we can actually"
+  },
+  {
+    "start": 3374.89,
+    "dur": 3.981,
+    "text": "extrapolate the evaluations\nf u1, f u2, all the way"
+  },
+  {
+    "start": 3378.871,
+    "dur": 3.069,
+    "text": "to f um to get a\npolynomial h of x."
+  },
+  {
+    "start": 3381.94,
+    "dur": 5.294,
+    "text": "The property of this h of x is\nthat h u1 should equal to f u1."
+  },
+  {
+    "start": 3387.234,
+    "dur": 3.586,
+    "text": "h u2 should equal to f u2,\nand so on and so forth."
+  },
+  {
+    "start": 3390.82,
+    "dur": 2.16,
+    "text": "And h um should equal to f um."
+  },
+  {
+    "start": 3392.98,
+    "dur": 4.53,
+    "text": "And there exists a unique\npolynomial of hx of degree m"
+  },
+  {
+    "start": 3397.51,
+    "dur": 4.17,
+    "text": "with such a property with\na leading coefficient 1."
+  },
+  {
+    "start": 3401.68,
+    "dur": 3.96,
+    "text": "So with such a\npolynomial h of x, then"
+  },
+  {
+    "start": 3405.64,
+    "dur": 3.41,
+    "text": "we have a new equation here."
+  },
+  {
+    "start": 3409.05,
+    "dur": 5.43,
+    "text": "fx minus h of x equals to the\nproduct of x minus ui for i"
+  },
+  {
+    "start": 3414.48,
+    "dur": 3.78,
+    "text": "equals to 1 to n times the\nquotient polynomial qz."
+  },
+  {
+    "start": 3418.26,
+    "dur": 1.51,
+    "text": "Why is that?"
+  },
+  {
+    "start": 3419.77,
+    "dur": 3.14,
+    "text": "Again, we can check the\nroots of this polynomial"
+  },
+  {
+    "start": 3422.91,
+    "dur": 2.01,
+    "text": "on the left-hand side."
+  },
+  {
+    "start": 3424.92,
+    "dur": 5.19,
+    "text": "If you take-- evaluate this\npolynomial at u1, then because"
+  },
+  {
+    "start": 3430.11,
+    "dur": 4.89,
+    "text": "of the property of h of\nx, f u1 equals to h u1."
+  },
+  {
+    "start": 3435.0,
+    "dur": 3.42,
+    "text": "So the left-hand side\nis 0 at point u1."
+  },
+  {
+    "start": 3438.42,
+    "dur": 6.27,
+    "text": "For a similar reason, it is also\n0 at u2, u3, all the way to un."
+  },
+  {
+    "start": 3444.69,
+    "dur": 5.28,
+    "text": "So, because of that, u1, u2,\nand u3 and all the way to un"
+  },
+  {
+    "start": 3449.97,
+    "dur": 3.87,
+    "text": "are all roots of this\npolynomial fx minus h of x."
+  },
+  {
+    "start": 3453.84,
+    "dur": 2.1,
+    "text": "And, because of\nthat, it can always"
+  },
+  {
+    "start": 3455.94,
+    "dur": 4.14,
+    "text": "be decomposed as this product\ntimes the quotient polynomial q"
+  },
+  {
+    "start": 3460.08,
+    "dur": 1.9,
+    "text": "of x."
+  },
+  {
+    "start": 3461.98,
+    "dur": 3.0,
+    "text": "So then, we are going to\ncompute the proof pi as g"
+  },
+  {
+    "start": 3464.98,
+    "dur": 4.23,
+    "text": "to the power of q tau as in the\nregular case with one opening."
+  },
+  {
+    "start": 3469.21,
+    "dur": 2.73,
+    "text": "And note that this is only\na single element in the base"
+  },
+  {
+    "start": 3471.94,
+    "dur": 3.21,
+    "text": "group for multiple evaluations."
+  },
+  {
+    "start": 3475.15,
+    "dur": 4.52,
+    "text": "Finally, we can check\nthis polynomial equation"
+  },
+  {
+    "start": 3479.67,
+    "dur": 2.85,
+    "text": "at point tau using\nthe pairing again."
+  },
+  {
+    "start": 3482.52,
+    "dur": 2.01,
+    "text": "So, on the left-hand\nside, we are"
+  },
+  {
+    "start": 3484.53,
+    "dur": 3.81,
+    "text": "going to compute the pairing\nbetween the commitment divided"
+  },
+  {
+    "start": 3488.34,
+    "dur": 2.88,
+    "text": "by g to the h of tau and\nthe generator itself."
+  },
+  {
+    "start": 3491.22,
+    "dur": 3.66,
+    "text": "And the verifier is able to\ncompute this g to the h of tau"
+  },
+  {
+    "start": 3494.88,
+    "dur": 2.73,
+    "text": "using the global parameters."
+  },
+  {
+    "start": 3497.61,
+    "dur": 2.13,
+    "text": "On the right-hand\nside, we are going"
+  },
+  {
+    "start": 3499.74,
+    "dur": 1.89,
+    "text": "to compute the pairing\nbetween g to the power"
+  },
+  {
+    "start": 3501.63,
+    "dur": 3.18,
+    "text": "of the product of tau minus ui."
+  },
+  {
+    "start": 3504.81,
+    "dur": 2.43,
+    "text": "Again, the verifier\ncan compute it"
+  },
+  {
+    "start": 3507.24,
+    "dur": 2.28,
+    "text": "using the polynomial\ninterpolation"
+  },
+  {
+    "start": 3509.52,
+    "dur": 1.54,
+    "text": "and global parameters."
+  },
+  {
+    "start": 3511.06,
+    "dur": 2.51,
+    "text": "And then, we are going to do\nthe pairing between this one"
+  },
+  {
+    "start": 3513.57,
+    "dur": 1.97,
+    "text": "and the pi itself."
+  },
+  {
+    "start": 3515.54,
+    "dur": 3.74,
+    "text": "And if the prover is\nhonest, then this equation"
+  },
+  {
+    "start": 3519.28,
+    "dur": 3.6,
+    "text": "should hold because of this\npolynomial relationship."
+  },
+  {
+    "start": 3522.88,
+    "dur": 4.05,
+    "text": "And we can prove the\nsoundness in a similar way"
+  },
+  {
+    "start": 3526.93,
+    "dur": 2.13,
+    "text": "and reduce it to the\nq-Strong bilinear"
+  },
+  {
+    "start": 3529.06,
+    "dur": 1.48,
+    "text": "Diffie-Hellman assumption."
+  },
+  {
+    "start": 3530.54,
+    "dur": 4.64,
+    "text": "So, in this way, for multiple\nevaluations, m evaluations,"
+  },
+  {
+    "start": 3535.18,
+    "dur": 4.03,
+    "text": "the proof is still\na single element."
+  },
+  {
+    "start": 3539.21,
+    "dur": 3.38,
+    "text": "But note that the verifier\ntime is actually order of n--"
+  },
+  {
+    "start": 3542.59,
+    "dur": 2.85,
+    "text": "grows linearly in the\nnumber of evaluations."
+  },
+  {
+    "start": 3548.19,
+    "dur": 2.49,
+    "text": "And, finally, in the\nextended version,"
+  },
+  {
+    "start": 3550.68,
+    "dur": 1.88,
+    "text": "which was actually\nleft as a homework"
+  },
+  {
+    "start": 3552.56,
+    "dur": 3.36,
+    "text": "in the previous\nlecture by Dan, there"
+  },
+  {
+    "start": 3555.92,
+    "dur": 4.23,
+    "text": "exists a batch opening protocol\nfor multiple evaluations,"
+  },
+  {
+    "start": 3560.15,
+    "dur": 2.52,
+    "text": "multiple polynomials,\nand multiple evaluations."
+  },
+  {
+    "start": 3562.67,
+    "dur": 2.97,
+    "text": "So now, in the most general\ncase, the prover commits"
+  },
+  {
+    "start": 3565.64,
+    "dur": 4.44,
+    "text": "to multiple polynomials, f\nix for i equals to n-- for i"
+  },
+  {
+    "start": 3570.08,
+    "dur": 3.63,
+    "text": "belongs to n, the set n."
+  },
+  {
+    "start": 3573.71,
+    "dur": 1.95,
+    "text": "And then, the prover\nwants to prove"
+  },
+  {
+    "start": 3575.66,
+    "dur": 7.32,
+    "text": "that fi uij equals to vij for\nj belongs to the set of n."
+  },
+  {
+    "start": 3582.98,
+    "dur": 6.72,
+    "text": "And the key idea is similar to\nthe a single polynomial case."
+  },
+  {
+    "start": 3589.7,
+    "dur": 2.52,
+    "text": "For every polynomial\nfi, we are going"
+  },
+  {
+    "start": 3592.22,
+    "dur": 3.63,
+    "text": "to extrapolate fi u1, fi u2--"
+  },
+  {
+    "start": 3595.85,
+    "dur": 6.9,
+    "text": "and I'm missing an index here--\nfi um, to get h ix for i in n."
+  },
+  {
+    "start": 3602.75,
+    "dur": 5.11,
+    "text": "Then, for the similar reason,\nwe have a polynomial equation"
+  },
+  {
+    "start": 3607.86,
+    "dur": 1.86,
+    "text": "for every polynomial."
+  },
+  {
+    "start": 3609.72,
+    "dur": 4.41,
+    "text": "f ix, and minus h ix\nequals to the product"
+  },
+  {
+    "start": 3614.13,
+    "dur": 7.11,
+    "text": "of x minus u im times q ix."
+  },
+  {
+    "start": 3621.24,
+    "dur": 4.29,
+    "text": "So we are going to have a q\nix for each polynomial fi."
+  },
+  {
+    "start": 3625.53,
+    "dur": 2.1,
+    "text": "And then we can\ncombine all of these q"
+  },
+  {
+    "start": 3627.63,
+    "dur": 2.34,
+    "text": "ix via a random\nlinear combination"
+  },
+  {
+    "start": 3629.97,
+    "dur": 3.69,
+    "text": "and compute g to the power of\nthat polynomial, which is only"
+  },
+  {
+    "start": 3633.66,
+    "dur": 1.92,
+    "text": "a single element in the proof."
+  },
+  {
+    "start": 3635.58,
+    "dur": 1.5,
+    "text": "And then, the\nverifier can actually"
+  },
+  {
+    "start": 3637.08,
+    "dur": 3.36,
+    "text": "reproduce all of these\nequations in the exponent using"
+  },
+  {
+    "start": 3640.44,
+    "dur": 3.21,
+    "text": "the public parameters and\nthen check this equation"
+  },
+  {
+    "start": 3643.65,
+    "dur": 1.99,
+    "text": "using bilinear pairing."
+  },
+  {
+    "start": 3645.64,
+    "dur": 3.71,
+    "text": "So, in this way, we can actually\nbatch the multiple evaluations"
+  },
+  {
+    "start": 3649.35,
+    "dur": 5.04,
+    "text": "of multiple polynomials\ninto a single proof."
+  },
+  {
+    "start": 3654.39,
+    "dur": 3.79,
+    "text": "So that's all the variants I\nwant to discuss about the KZG"
+  },
+  {
+    "start": 3658.18,
+    "dur": 1.46,
+    "text": "polynomial commitment scheme."
+  },
+  {
+    "start": 3659.64,
+    "dur": 4.02,
+    "text": "So going all the way back to\nthe general purpose SNARKs,"
+  },
+  {
+    "start": 3663.66,
+    "dur": 3.3,
+    "text": "with these variants of KZG\npolynomial commitments,"
+  },
+  {
+    "start": 3666.96,
+    "dur": 5.22,
+    "text": "we can actually construct SNARKs\nbased on these polynomial IOPs."
+  },
+  {
+    "start": 3672.18,
+    "dur": 2.58,
+    "text": "For example, using\nthe Plonk system,"
+  },
+  {
+    "start": 3674.76,
+    "dur": 2.24,
+    "text": "we can combine this\nPlonk polynomial"
+  },
+  {
+    "start": 3677.0,
+    "dur": 3.64,
+    "text": "IOP with the univariate KZG\npolynomial commitment scheme"
+  },
+  {
+    "start": 3680.64,
+    "dur": 2.04,
+    "text": "to get a SNARK for\ngeneral circuits."
+  },
+  {
+    "start": 3682.68,
+    "dur": 1.95,
+    "text": "And this is exactly\nthe construction"
+  },
+  {
+    "start": 3684.63,
+    "dur": 3.06,
+    "text": "proposed by the Plonk paper."
+  },
+  {
+    "start": 3687.69,
+    "dur": 2.43,
+    "text": "And in terms of\ninteractive proofs,"
+  },
+  {
+    "start": 3690.12,
+    "dur": 2.67,
+    "text": "there are actually\nseveral papers"
+  },
+  {
+    "start": 3692.79,
+    "dur": 1.47,
+    "text": "proposing these constructions."
+  },
+  {
+    "start": 3694.26,
+    "dur": 4.65,
+    "text": "So we can actually combine\nsumcheck protocol or a variant"
+  },
+  {
+    "start": 3698.91,
+    "dur": 3.0,
+    "text": "called the GKR protocol for\nlayered arithmetic circuits"
+  },
+  {
+    "start": 3701.91,
+    "dur": 4.08,
+    "text": "with a multivariate version of\nthe KZG polynomial commitment."
+  },
+  {
+    "start": 3705.99,
+    "dur": 4.5,
+    "text": "And that leads to an efficient\nSNARK for the computation"
+  },
+  {
+    "start": 3710.49,
+    "dur": 0.81,
+    "text": "of circuits."
+  },
+  {
+    "start": 3711.3,
+    "dur": 4.42,
+    "text": "And this idea was used\nin the system called vSQL"
+  },
+  {
+    "start": 3715.72,
+    "dur": 4.47,
+    "text": "and later in Libra\nin these two papers."
+  },
+  {
+    "start": 3720.19,
+    "dur": 3.39,
+    "text": "So that completes the discussion\nof the polynomial commitment"
+  },
+  {
+    "start": 3723.58,
+    "dur": 2.67,
+    "text": "scheme based on\nbilinear pairing."
+  },
+  {
+    "start": 3726.25,
+    "dur": 1.92,
+    "text": "And, in the next\nsegment, I'm going"
+  },
+  {
+    "start": 3728.17,
+    "dur": 2.16,
+    "text": "to talk about other\npolynomial commitment schemes"
+  },
+  {
+    "start": 3730.33,
+    "dur": 1.98,
+    "text": "based on discrete logarithm."
+  },
+  {
+    "start": 3737.87,
+    "dur": 2.8,
+    "text": "Welcome back to the last\nsegment of this lecture."
+  },
+  {
+    "start": 3740.67,
+    "dur": 1.61,
+    "text": "In this segment,\nI'm going to talk"
+  },
+  {
+    "start": 3742.28,
+    "dur": 1.71,
+    "text": "about polynomial\ncommitment scheme"
+  },
+  {
+    "start": 3743.99,
+    "dur": 4.32,
+    "text": "without trusted setup based\non discrete logarithm."
+  },
+  {
+    "start": 3748.31,
+    "dur": 2.31,
+    "text": "Recall that the KZG\npolynomial commitment"
+  },
+  {
+    "start": 3750.62,
+    "dur": 3.27,
+    "text": "scheme is very impressive\nperformance in practice."
+  },
+  {
+    "start": 3753.89,
+    "dur": 4.335,
+    "text": "Both commitment and proof\nsize are only order of 1."
+  },
+  {
+    "start": 3758.225,
+    "dur": 2.325,
+    "text": "And so, one group element each."
+  },
+  {
+    "start": 3760.55,
+    "dur": 4.14,
+    "text": "And verifier time is only\none pairing equation."
+  },
+  {
+    "start": 3764.69,
+    "dur": 3.66,
+    "text": "But the main drawback of this\npolynomial commitment scheme"
+  },
+  {
+    "start": 3768.35,
+    "dur": 1.83,
+    "text": "is that it requires\na trusted setup"
+  },
+  {
+    "start": 3770.18,
+    "dur": 2.65,
+    "text": "to generate global parameters."
+  },
+  {
+    "start": 3772.83,
+    "dur": 2.54,
+    "text": "And, of course, the\nceremony process"
+  },
+  {
+    "start": 3775.37,
+    "dur": 3.12,
+    "text": "relaxes trust a little\nbit and is actually"
+  },
+  {
+    "start": 3778.49,
+    "dur": 2.16,
+    "text": "good for many\napplications in practice."
+  },
+  {
+    "start": 3780.65,
+    "dur": 3.72,
+    "text": "But, still, this trusted\nsetup is a fundamental problem"
+  },
+  {
+    "start": 3784.37,
+    "dur": 2.44,
+    "text": "to solve."
+  },
+  {
+    "start": 3786.81,
+    "dur": 3.47,
+    "text": "So, in recent years, there\nhas been a main focus"
+  },
+  {
+    "start": 3790.28,
+    "dur": 4.65,
+    "text": "to construct efficient\ntransparent zero knowledge"
+  },
+  {
+    "start": 3794.93,
+    "dur": 2.73,
+    "text": "proof schemes without\ntrusted setup."
+  },
+  {
+    "start": 3797.66,
+    "dur": 5.19,
+    "text": "And, in this lecture, I'm going\nto talk about the scheme based"
+  },
+  {
+    "start": 3802.85,
+    "dur": 1.89,
+    "text": "on bulletproofs,\nwhich was proposed"
+  },
+  {
+    "start": 3804.74,
+    "dur": 3.1,
+    "text": "by Bootle et al. in\n2016 and later refined"
+  },
+  {
+    "start": 3807.84,
+    "dur": 2.67,
+    "text": "by Bunz et al. in 2018."
+  },
+  {
+    "start": 3810.51,
+    "dur": 3.75,
+    "text": "And in the original\nbulletproof paper,"
+  },
+  {
+    "start": 3814.26,
+    "dur": 3.03,
+    "text": "they proposed an\ninner product argument"
+  },
+  {
+    "start": 3817.29,
+    "dur": 2.34,
+    "text": "and has a special\nprotocol for range proofs"
+  },
+  {
+    "start": 3819.63,
+    "dur": 5.61,
+    "text": "and also can be generalized to\nproofs for general arithmetic"
+  },
+  {
+    "start": 3825.24,
+    "dur": 0.84,
+    "text": "circuit."
+  },
+  {
+    "start": 3826.08,
+    "dur": 2.31,
+    "text": "But, here, I'm just\ngoing to rephrase"
+  },
+  {
+    "start": 3828.39,
+    "dur": 4.11,
+    "text": "this bulletproof protocol\nas a polynomial commitment"
+  },
+  {
+    "start": 3832.5,
+    "dur": 2.49,
+    "text": "because it can still\nshow the key idea"
+  },
+  {
+    "start": 3834.99,
+    "dur": 2.88,
+    "text": "of this bulletproof reduction,\nbut it will significantly"
+  },
+  {
+    "start": 3837.87,
+    "dur": 3.49,
+    "text": "simplify the protocol."
+  },
+  {
+    "start": 3841.36,
+    "dur": 4.16,
+    "text": "So, in this scheme,\nthe key generation"
+  },
+  {
+    "start": 3845.52,
+    "dur": 1.51,
+    "text": "is actually very simple."
+  },
+  {
+    "start": 3847.03,
+    "dur": 2.99,
+    "text": "We are just going to sample\nthe global parameters"
+  },
+  {
+    "start": 3850.02,
+    "dur": 6.35,
+    "text": "as a d plus 1 random elements\nin this group without--"
+  },
+  {
+    "start": 3856.37,
+    "dur": 4.09,
+    "text": "there's no trapdoor or secret\nkey in this setup process."
+  },
+  {
+    "start": 3860.46,
+    "dur": 2.84,
+    "text": "So that is why we call\nit a transparent setup."
+  },
+  {
+    "start": 3863.3,
+    "dur": 2.123,
+    "text": "And note that the size\nof this global parameter"
+  },
+  {
+    "start": 3865.423,
+    "dur": 1.417,
+    "text": "in the constructor\nof bulletproofs"
+  },
+  {
+    "start": 3866.84,
+    "dur": 4.58,
+    "text": "is still linear in the\ndegree of the polynomial."
+  },
+  {
+    "start": 3871.42,
+    "dur": 3.06,
+    "text": "With this global parameters,\nthe commitments of the scheme"
+  },
+  {
+    "start": 3874.48,
+    "dur": 2.67,
+    "text": "is also very simple."
+  },
+  {
+    "start": 3877.15,
+    "dur": 4.56,
+    "text": "So, again, given a polynomial fx\nequals to f0 plus f1 x plus f2"
+  },
+  {
+    "start": 3881.71,
+    "dur": 4.26,
+    "text": "x squared and so on all the\nway to fd times x to the d,"
+  },
+  {
+    "start": 3885.97,
+    "dur": 6.48,
+    "text": "the commitment is simply g0\nto f0 times g1 to f1 times"
+  },
+  {
+    "start": 3892.45,
+    "dur": 3.75,
+    "text": "g2 to f2 and all\nthe way to gd to fd."
+  },
+  {
+    "start": 3896.2,
+    "dur": 2.58,
+    "text": "So, basically, we are\nstill raising each element"
+  },
+  {
+    "start": 3898.78,
+    "dur": 3.18,
+    "text": "of the global parameters to\nthe corresponding coefficient"
+  },
+  {
+    "start": 3901.96,
+    "dur": 2.49,
+    "text": "of this polynomial and\nthen multiply them together"
+  },
+  {
+    "start": 3904.45,
+    "dur": 3.0,
+    "text": "to get a constant\nsize commitment."
+  },
+  {
+    "start": 3907.45,
+    "dur": 3.13,
+    "text": "And for those who are familiar\nwith the Pedersen commitment,"
+  },
+  {
+    "start": 3910.58,
+    "dur": 4.1,
+    "text": "you can see this is actually\nthe standard commitment"
+  },
+  {
+    "start": 3914.68,
+    "dur": 2.64,
+    "text": "scheme for the vector version\nof the Pedersen commitment."
+  },
+  {
+    "start": 3917.32,
+    "dur": 2.85,
+    "text": "And, here, I'm omitting\nthe random term"
+  },
+  {
+    "start": 3920.17,
+    "dur": 1.6,
+    "text": "of the Pedersen commitment."
+  },
+  {
+    "start": 3921.77,
+    "dur": 2.33,
+    "text": "But it is actually\nnot hard to just add"
+  },
+  {
+    "start": 3924.1,
+    "dur": 3.27,
+    "text": "a term h to the r at the\nend, and all the protocols"
+  },
+  {
+    "start": 3927.37,
+    "dur": 0.78,
+    "text": "should follow."
+  },
+  {
+    "start": 3931.65,
+    "dur": 2.18,
+    "text": "So with this\ncommitment, I'm going"
+  },
+  {
+    "start": 3933.83,
+    "dur": 2.43,
+    "text": "to first describe\nthe high-level idea"
+  },
+  {
+    "start": 3936.26,
+    "dur": 3.31,
+    "text": "of this bulletproof reduction."
+  },
+  {
+    "start": 3939.57,
+    "dur": 5.28,
+    "text": "So when the verifier picks\nan inversion point u,"
+  },
+  {
+    "start": 3944.85,
+    "dur": 3.78,
+    "text": "the prover replies with\nthis v as the evaluation"
+  },
+  {
+    "start": 3948.63,
+    "dur": 1.56,
+    "text": "of this polynomial at point u."
+  },
+  {
+    "start": 3950.19,
+    "dur": 3.66,
+    "text": "And here I'm using an example\nof a degree 3 polynomial, which"
+  },
+  {
+    "start": 3953.85,
+    "dur": 5.52,
+    "text": "equals to f0 plus f1x plus\nf2x squared plus f3x to the 3."
+  },
+  {
+    "start": 3959.37,
+    "dur": 4.05,
+    "text": "And, clearly, the evaluation\nis equal to this equation"
+  },
+  {
+    "start": 3963.42,
+    "dur": 2.07,
+    "text": "if the prover is honest."
+  },
+  {
+    "start": 3965.49,
+    "dur": 3.51,
+    "text": "And the key idea of this\nbulletproof reduction"
+  },
+  {
+    "start": 3969.0,
+    "dur": 4.83,
+    "text": "is to actually reduce\nthis claim of evaluation v"
+  },
+  {
+    "start": 3973.83,
+    "dur": 3.9,
+    "text": "at point u for the polynomial\ninside this commitment"
+  },
+  {
+    "start": 3977.73,
+    "dur": 4.79,
+    "text": "to a new claim about the\nnew polynomial of only half"
+  },
+  {
+    "start": 3982.52,
+    "dur": 2.88,
+    "text": "of the [? signs. ?] So\nthrough a reduction,"
+  },
+  {
+    "start": 3985.4,
+    "dur": 4.23,
+    "text": "we want to reduce this\noriginal polynomial of degree 3"
+  },
+  {
+    "start": 3989.63,
+    "dur": 3.75,
+    "text": "to a new polynomial of degree\nonly 1 with two coefficients,"
+  },
+  {
+    "start": 3993.38,
+    "dur": 3.81,
+    "text": "f0 prime plus f1 prime x."
+  },
+  {
+    "start": 3997.19,
+    "dur": 3.06,
+    "text": "And then we can somehow\ncompute the commitment"
+  },
+  {
+    "start": 4000.25,
+    "dur": 4.88,
+    "text": "of this new polynomial as\ncom prime with some new bases"
+  },
+  {
+    "start": 4005.13,
+    "dur": 4.92,
+    "text": "g0 prime to f0 prime times g1\nprime to f1 prime and, also,"
+  },
+  {
+    "start": 4010.05,
+    "dur": 4.89,
+    "text": "a new claim about evaluation\nv prime for the new polynomial"
+  },
+  {
+    "start": 4014.94,
+    "dur": 2.01,
+    "text": "at point u."
+  },
+  {
+    "start": 4016.95,
+    "dur": 3.57,
+    "text": "And, if you can do\nthis, then the verifier"
+  },
+  {
+    "start": 4020.52,
+    "dur": 3.45,
+    "text": "will receive a new instance\nof this polynomial commitment"
+  },
+  {
+    "start": 4023.97,
+    "dur": 3.96,
+    "text": "for a polynomial\nof degree only 1/2."
+  },
+  {
+    "start": 4027.93,
+    "dur": 3.45,
+    "text": "Then we can just keep doing\nthis recursively to reduce"
+  },
+  {
+    "start": 4031.38,
+    "dur": 2.73,
+    "text": "the new instance to another\npolynomial of degree"
+  },
+  {
+    "start": 4034.11,
+    "dur": 2.52,
+    "text": "only d over 4 and\nd over 8 and all"
+  },
+  {
+    "start": 4036.63,
+    "dur": 3.3,
+    "text": "the way to a constant\ndegree polynomial."
+  },
+  {
+    "start": 4039.93,
+    "dur": 3.66,
+    "text": "And, finally, if we don't\ncare about the 0 knowledge"
+  },
+  {
+    "start": 4043.59,
+    "dur": 3.03,
+    "text": "for the time being,\nthen, in the last round,"
+  },
+  {
+    "start": 4046.62,
+    "dur": 2.64,
+    "text": "the prover can just send\nthis constant size polynomial"
+  },
+  {
+    "start": 4049.26,
+    "dur": 1.32,
+    "text": "to the verifier directly."
+  },
+  {
+    "start": 4050.58,
+    "dur": 3.15,
+    "text": "And the verifier opens\nthe polynomial and checks"
+  },
+  {
+    "start": 4053.73,
+    "dur": 3.24,
+    "text": "that the evaluation of the\nlast round is indeed true."
+  },
+  {
+    "start": 4056.97,
+    "dur": 2.1,
+    "text": "And that completes\nthe entire reduction"
+  },
+  {
+    "start": 4059.07,
+    "dur": 3.27,
+    "text": "and guarantees that\nthe original evaluation"
+  },
+  {
+    "start": 4062.34,
+    "dur": 4.49,
+    "text": "of this v for this polynomial\nof degree 3 is actually correct."
+  },
+  {
+    "start": 4066.83,
+    "dur": 3.92,
+    "text": "So that is the high level\nidea of this bulletproof."
+  },
+  {
+    "start": 4070.75,
+    "dur": 3.21,
+    "text": "But the main challenge\nof this reduction"
+  },
+  {
+    "start": 4073.96,
+    "dur": 3.99,
+    "text": "is how can we go from\nthis original polynomial"
+  },
+  {
+    "start": 4077.95,
+    "dur": 3.12,
+    "text": "to a new polynomial\nof half of the size?"
+  },
+  {
+    "start": 4081.07,
+    "dur": 2.79,
+    "text": "We have to check the\nrelationship between these two"
+  },
+  {
+    "start": 4083.86,
+    "dur": 0.87,
+    "text": "polynomials."
+  },
+  {
+    "start": 4084.73,
+    "dur": 2.91,
+    "text": "We can't let the prover\njust to commit randomly"
+  },
+  {
+    "start": 4087.64,
+    "dur": 3.21,
+    "text": "to a new commitment without\nany relationship before"
+  },
+  {
+    "start": 4090.85,
+    "dur": 4.85,
+    "text": "and then commit to a\nnew evaluation v prime."
+  },
+  {
+    "start": 4095.7,
+    "dur": 2.85,
+    "text": "Then the prover can\njust cheat and lie"
+  },
+  {
+    "start": 4098.55,
+    "dur": 2.49,
+    "text": "about the original\nevaluation because there"
+  },
+  {
+    "start": 4101.04,
+    "dur": 3.63,
+    "text": "is no relationship between v and\nv prime and com and com prime."
+  },
+  {
+    "start": 4104.67,
+    "dur": 4.809,
+    "text": "So a major challenge--\nand the problem"
+  },
+  {
+    "start": 4109.479,
+    "dur": 1.891,
+    "text": "we are going to see\nnext-- is how can we"
+  },
+  {
+    "start": 4111.37,
+    "dur": 3.359,
+    "text": "establish such a connection\nbetween the old instance"
+  },
+  {
+    "start": 4114.729,
+    "dur": 1.005,
+    "text": "and the new instance?"
+  },
+  {
+    "start": 4118.8,
+    "dur": 3.769,
+    "text": "So and here I'm listing\nthe global parameters"
+  },
+  {
+    "start": 4122.569,
+    "dur": 2.401,
+    "text": "as g0, g1, g2, and g3."
+  },
+  {
+    "start": 4124.97,
+    "dur": 5.04,
+    "text": "And a common way to reduce the\npolynomial to half of the size"
+  },
+  {
+    "start": 4130.01,
+    "dur": 4.41,
+    "text": "is to actually decompose\nit to two parts."
+  },
+  {
+    "start": 4134.42,
+    "dur": 1.68,
+    "text": "And the way I'm\ndoing here is we are"
+  },
+  {
+    "start": 4136.1,
+    "dur": 2.25,
+    "text": "going to have a left\npart of the polynomial"
+  },
+  {
+    "start": 4138.35,
+    "dur": 1.98,
+    "text": "and the right part\nof the polynomial."
+  },
+  {
+    "start": 4140.33,
+    "dur": 2.699,
+    "text": "And here you can see\nthat I'm defining vl"
+  },
+  {
+    "start": 4143.029,
+    "dur": 5.101,
+    "text": "as f0 plus f1u, which\nis from the first half"
+  },
+  {
+    "start": 4148.13,
+    "dur": 3.059,
+    "text": "of the coefficients of the\noriginal polynomial fx."
+  },
+  {
+    "start": 4151.189,
+    "dur": 1.951,
+    "text": "And, similarly,\nwe have vr equals"
+  },
+  {
+    "start": 4153.14,
+    "dur": 4.08,
+    "text": "to f2 plus f3u, which\nis from the second half"
+  },
+  {
+    "start": 4157.22,
+    "dur": 0.9,
+    "text": "of the polynomial."
+  },
+  {
+    "start": 4158.12,
+    "dur": 3.3,
+    "text": "Note that I'm restricting the\ndegree of both polynomials"
+  },
+  {
+    "start": 4161.42,
+    "dur": 5.479,
+    "text": "as only 1/2 of the\noriginal polynomial."
+  },
+  {
+    "start": 4166.899,
+    "dur": 2.311,
+    "text": "So with these two\nvalues, it's not"
+  },
+  {
+    "start": 4169.21,
+    "dur": 2.729,
+    "text": "hard to see that the original\nevaluation v should equal"
+  },
+  {
+    "start": 4171.939,
+    "dur": 3.901,
+    "text": "to vl plus vr times u squared."
+  },
+  {
+    "start": 4175.84,
+    "dur": 3.889,
+    "text": "So that gives you a way to\ncheck the correctness of this vl"
+  },
+  {
+    "start": 4179.729,
+    "dur": 1.651,
+    "text": "and vr."
+  },
+  {
+    "start": 4181.38,
+    "dur": 3.76,
+    "text": "After that, another\nquite common approach"
+  },
+  {
+    "start": 4185.14,
+    "dur": 2.16,
+    "text": "to reduce the\noriginal polynomial"
+  },
+  {
+    "start": 4187.3,
+    "dur": 2.46,
+    "text": "to a new polynomial of\nonly half of the size"
+  },
+  {
+    "start": 4189.76,
+    "dur": 2.79,
+    "text": "is through random\nlinear combination."
+  },
+  {
+    "start": 4192.55,
+    "dur": 3.12,
+    "text": "So now we have two parts\nof the binomial, first half"
+  },
+  {
+    "start": 4195.67,
+    "dur": 0.84,
+    "text": "and second half."
+  },
+  {
+    "start": 4196.51,
+    "dur": 2.5,
+    "text": "Then the verifier\npicks a random number"
+  },
+  {
+    "start": 4199.01,
+    "dur": 1.73,
+    "text": "r and send it to the prover."
+  },
+  {
+    "start": 4200.74,
+    "dur": 4.5,
+    "text": "And the prover is going to\ncombine these two polynomials"
+  },
+  {
+    "start": 4205.24,
+    "dur": 4.2,
+    "text": "by multiplying r times the\nfirst half plus the second half."
+  },
+  {
+    "start": 4209.44,
+    "dur": 2.85,
+    "text": "And the result of that\nis this new polynomial"
+  },
+  {
+    "start": 4212.29,
+    "dur": 2.13,
+    "text": "of only two elements."
+  },
+  {
+    "start": 4214.42,
+    "dur": 3.27,
+    "text": "In this new polynomial,\nf0 prime simply"
+  },
+  {
+    "start": 4217.69,
+    "dur": 2.7,
+    "text": "equals to r times f0 plus f2."
+  },
+  {
+    "start": 4220.39,
+    "dur": 4.37,
+    "text": "And f1 prime equals\nto r times f1 plus f3."
+  },
+  {
+    "start": 4224.76,
+    "dur": 4.23,
+    "text": "So, in this way, we reduce the\noriginal polynomial of degree 3"
+  },
+  {
+    "start": 4228.99,
+    "dur": 2.73,
+    "text": "to a new polynomial of\ndegree 1 that is only of half"
+  },
+  {
+    "start": 4231.72,
+    "dur": 2.64,
+    "text": "of the size."
+  },
+  {
+    "start": 4234.36,
+    "dur": 2.19,
+    "text": "Then, with this\nnew reduction, it's"
+  },
+  {
+    "start": 4236.55,
+    "dur": 2.49,
+    "text": "not hard to see\nthat the evaluation"
+  },
+  {
+    "start": 4239.04,
+    "dur": 2.31,
+    "text": "of this new\npolynomial at point u"
+  },
+  {
+    "start": 4241.35,
+    "dur": 4.98,
+    "text": "should equal to r\ntimes vl plus vr."
+  },
+  {
+    "start": 4246.33,
+    "dur": 3.12,
+    "text": "And this is the\nnew claim, v prime,"
+  },
+  {
+    "start": 4249.45,
+    "dur": 2.75,
+    "text": "the verifier is trying to check."
+  },
+  {
+    "start": 4252.2,
+    "dur": 3.26,
+    "text": "So, in this way, I show\nyou a simple approach"
+  },
+  {
+    "start": 4255.46,
+    "dur": 5.44,
+    "text": "to reduce this polynomial to\na new polynomial of only half"
+  },
+  {
+    "start": 4260.9,
+    "dur": 0.9,
+    "text": "of the size."
+  },
+  {
+    "start": 4261.8,
+    "dur": 3.42,
+    "text": "And, at the same\ntime, the verifier"
+  },
+  {
+    "start": 4265.22,
+    "dur": 3.93,
+    "text": "has already checked the\nclaim about the relationship"
+  },
+  {
+    "start": 4269.15,
+    "dur": 3.84,
+    "text": "between the new evaluation v\nprime and the old evaluation v"
+  },
+  {
+    "start": 4272.99,
+    "dur": 3.47,
+    "text": "through this two\nparts of vl and vr."
+  },
+  {
+    "start": 4276.46,
+    "dur": 3.93,
+    "text": "So the only remaining\nchallenge is"
+  },
+  {
+    "start": 4280.39,
+    "dur": 5.32,
+    "text": "to generate the commitment\nof this new polynomial."
+  },
+  {
+    "start": 4285.71,
+    "dur": 2.37,
+    "text": "But turns out this stuff\nis quite challenging,"
+  },
+  {
+    "start": 4288.08,
+    "dur": 3.72,
+    "text": "because given this\nnew polynomial,"
+  },
+  {
+    "start": 4291.8,
+    "dur": 3.47,
+    "text": "you can't let the\nprover just to compute"
+  },
+  {
+    "start": 4295.27,
+    "dur": 2.61,
+    "text": "the same Pedersen's commitment\nusing the same basis."
+  },
+  {
+    "start": 4297.88,
+    "dur": 2.7,
+    "text": "For example, if you ask\nthe prover to commit g0"
+  },
+  {
+    "start": 4300.58,
+    "dur": 2.61,
+    "text": "to this first term and\ng1 to the second term,"
+  },
+  {
+    "start": 4303.19,
+    "dur": 2.4,
+    "text": "there is no way for\nthe verifier to check"
+  },
+  {
+    "start": 4305.59,
+    "dur": 1.92,
+    "text": "that this new\ncommitment is indeed"
+  },
+  {
+    "start": 4307.51,
+    "dur": 4.86,
+    "text": "computed from the vectors in\nthis old commitment com f."
+  },
+  {
+    "start": 4312.37,
+    "dur": 3.01,
+    "text": "That is because now we\nhave a transparent setup."
+  },
+  {
+    "start": 4315.38,
+    "dur": 4.98,
+    "text": "We don't know the relationship\nbetween these different bases."
+  },
+  {
+    "start": 4320.36,
+    "dur": 3.75,
+    "text": "And we can't compute\ncomputations in exponent"
+  },
+  {
+    "start": 4324.11,
+    "dur": 2.64,
+    "text": "across these different bases."
+  },
+  {
+    "start": 4326.75,
+    "dur": 2.28,
+    "text": "So in order to\naddress this issue,"
+  },
+  {
+    "start": 4329.03,
+    "dur": 4.77,
+    "text": "here is the clever design of\nthis bulletproof protocol."
+  },
+  {
+    "start": 4333.8,
+    "dur": 4.86,
+    "text": "So in addition to this vl\nand vr, in the same round"
+  },
+  {
+    "start": 4338.66,
+    "dur": 6.18,
+    "text": "we are going to ask the prover\nto send two more commitments."
+  },
+  {
+    "start": 4344.84,
+    "dur": 4.35,
+    "text": "And the first one is g2\nto f0 times g3 to f1."
+  },
+  {
+    "start": 4349.19,
+    "dur": 4.13,
+    "text": "And the second one, g0\nto f2 times g1 to f3."
+  },
+  {
+    "start": 4353.32,
+    "dur": 3.45,
+    "text": "So intuitive speaking,\nthis is the commitment"
+  },
+  {
+    "start": 4356.77,
+    "dur": 2.05,
+    "text": "to the first half\nof the polynomial."
+  },
+  {
+    "start": 4358.82,
+    "dur": 3.6,
+    "text": "And this is commitment to the\nsecond half of the polynomial."
+  },
+  {
+    "start": 4362.42,
+    "dur": 2.37,
+    "text": "That's why I name it l and r."
+  },
+  {
+    "start": 4364.79,
+    "dur": 4.5,
+    "text": "But, interestingly, the\nbases are different."
+  },
+  {
+    "start": 4369.29,
+    "dur": 4.82,
+    "text": "We are using g2 and g3 to commit\nto the first half and g0 and g1"
+  },
+  {
+    "start": 4374.11,
+    "dur": 1.45,
+    "text": "to commit to the second half."
+  },
+  {
+    "start": 4375.56,
+    "dur": 3.74,
+    "text": "So it's kind of a\ncross-term for this"
+  },
+  {
+    "start": 4379.3,
+    "dur": 1.29,
+    "text": "to compute these commitments."
+  },
+  {
+    "start": 4380.59,
+    "dur": 1.77,
+    "text": "We're using the second\nhalf of the basis"
+  },
+  {
+    "start": 4382.36,
+    "dur": 2.1,
+    "text": "to commit to the first\nhalf of the polynomial."
+  },
+  {
+    "start": 4384.46,
+    "dur": 2.37,
+    "text": "And then we use the\nfirst half of the basis"
+  },
+  {
+    "start": 4386.83,
+    "dur": 2.74,
+    "text": "to commit to the second\nhalf of the polynomial."
+  },
+  {
+    "start": 4389.57,
+    "dur": 1.73,
+    "text": "So that is l and r."
+  },
+  {
+    "start": 4391.3,
+    "dur": 4.14,
+    "text": "Again, both of them are only\none element in the group."
+  },
+  {
+    "start": 4395.44,
+    "dur": 2.67,
+    "text": "So with l and r,\nturns out the verifier"
+  },
+  {
+    "start": 4398.11,
+    "dur": 3.54,
+    "text": "is able to reduce\nthis old commitment"
+  },
+  {
+    "start": 4401.65,
+    "dur": 5.27,
+    "text": "com f to a new commitment\nfor this new polynomial."
+  },
+  {
+    "start": 4406.92,
+    "dur": 2.79,
+    "text": "And how can she do that?"
+  },
+  {
+    "start": 4409.71,
+    "dur": 2.64,
+    "text": "Through this magical equation."
+  },
+  {
+    "start": 4412.35,
+    "dur": 3.0,
+    "text": "The verifier is going\nto compute com prime"
+  },
+  {
+    "start": 4415.35,
+    "dur": 2.91,
+    "text": "as l to the power of\nthis random [? number ?]"
+  },
+  {
+    "start": 4418.26,
+    "dur": 3.12,
+    "text": "times the original\ncommitment times r"
+  },
+  {
+    "start": 4421.38,
+    "dur": 2.82,
+    "text": "to the power of small r inverse."
+  },
+  {
+    "start": 4424.2,
+    "dur": 4.41,
+    "text": "And with that, we claim that\nthis commitment is actually"
+  },
+  {
+    "start": 4428.61,
+    "dur": 6.33,
+    "text": "for this new polynomial under\na new global parameters."
+  },
+  {
+    "start": 4434.94,
+    "dur": 1.17,
+    "text": "Why is that?"
+  },
+  {
+    "start": 4436.11,
+    "dur": 3.24,
+    "text": "Now I'm going to explain\nthis magical computation"
+  },
+  {
+    "start": 4439.35,
+    "dur": 1.96,
+    "text": "in this slide."
+  },
+  {
+    "start": 4441.31,
+    "dur": 3.02,
+    "text": "So, here, I'm listing\nthe information"
+  },
+  {
+    "start": 4444.33,
+    "dur": 2.64,
+    "text": "received from the prover\nif the prover is honest."
+  },
+  {
+    "start": 4446.97,
+    "dur": 4.92,
+    "text": "So the original commitment\nis this g0 to f0, g1 to f1"
+  },
+  {
+    "start": 4451.89,
+    "dur": 0.78,
+    "text": "and so forth."
+  },
+  {
+    "start": 4452.67,
+    "dur": 3.18,
+    "text": "And the left part is the\ncross-term for the first half."
+  },
+  {
+    "start": 4455.85,
+    "dur": 6.03,
+    "text": "And r is the cross-term\ncommitment for the second half."
+  },
+  {
+    "start": 4461.88,
+    "dur": 1.87,
+    "text": "And the verifier is\ncomputing this com"
+  },
+  {
+    "start": 4463.75,
+    "dur": 4.43,
+    "text": "prime as l to the r\ntimes the old commitment"
+  },
+  {
+    "start": 4468.18,
+    "dur": 2.86,
+    "text": "times r to the small r inverse."
+  },
+  {
+    "start": 4471.04,
+    "dur": 2.1,
+    "text": "So what is this computation?"
+  },
+  {
+    "start": 4473.14,
+    "dur": 3.81,
+    "text": "Well, then let's just\nexpand it term by term."
+  },
+  {
+    "start": 4476.95,
+    "dur": 6.37,
+    "text": "So first, let's see what's\nhappening for this base g0."
+  },
+  {
+    "start": 4483.32,
+    "dur": 4.95,
+    "text": "So in this equation,\nthe second term com"
+  },
+  {
+    "start": 4488.27,
+    "dur": 2.82,
+    "text": "has this term go to f0."
+  },
+  {
+    "start": 4491.09,
+    "dur": 2.28,
+    "text": "So we are going\nto write it here."
+  },
+  {
+    "start": 4493.37,
+    "dur": 3.76,
+    "text": "And r contains\nthe term g0 to f2."
+  },
+  {
+    "start": 4497.13,
+    "dur": 3.31,
+    "text": "And then we raise it to the\npower of a small r inverse."
+  },
+  {
+    "start": 4500.44,
+    "dur": 2.6,
+    "text": "So that gives us r\ninverse times f2."
+  },
+  {
+    "start": 4503.04,
+    "dur": 6.15,
+    "text": "And there's no term inside\nthis commitment l with base g0."
+  },
+  {
+    "start": 4509.19,
+    "dur": 1.8,
+    "text": "So the result of\nthis computation"
+  },
+  {
+    "start": 4510.99,
+    "dur": 2.97,
+    "text": "gives you g0 to f0\nplus r inverse times"
+  },
+  {
+    "start": 4513.96,
+    "dur": 5.03,
+    "text": "f2 on top of the base of g0."
+  },
+  {
+    "start": 4518.99,
+    "dur": 4.39,
+    "text": "Similarly, let's\ntake a look at g2."
+  },
+  {
+    "start": 4523.38,
+    "dur": 5.49,
+    "text": "From the commitment l, there's\na g2 to the power of f0."
+  },
+  {
+    "start": 4528.87,
+    "dur": 2.25,
+    "text": "And when we raise it to\nthe power of small r,"
+  },
+  {
+    "start": 4531.12,
+    "dur": 2.88,
+    "text": "that gives g2 to r times f0."
+  },
+  {
+    "start": 4534.0,
+    "dur": 3.36,
+    "text": "And from the old commitment,\nwe have g2 to f2."
+  },
+  {
+    "start": 4537.36,
+    "dur": 4.38,
+    "text": "And we don't have anything with\nthe base g2 in the commitment"
+  },
+  {
+    "start": 4541.74,
+    "dur": 1.54,
+    "text": "r."
+  },
+  {
+    "start": 4543.28,
+    "dur": 2.51,
+    "text": "So, in sum, that gives\nus g2 to the power"
+  },
+  {
+    "start": 4545.79,
+    "dur": 3.48,
+    "text": "of r times f0 plus f2."
+  },
+  {
+    "start": 4549.27,
+    "dur": 1.8,
+    "text": "And then we can do\nthe derivation again"
+  },
+  {
+    "start": 4551.07,
+    "dur": 2.73,
+    "text": "for the basis g1 and g3."
+  },
+  {
+    "start": 4553.8,
+    "dur": 2.61,
+    "text": "And, again, g1,\nyou have this g1 f1"
+  },
+  {
+    "start": 4556.41,
+    "dur": 5.88,
+    "text": "from the commitment and\na g1 f3 from the R part,"
+  },
+  {
+    "start": 4562.29,
+    "dur": 1.96,
+    "text": "and raise it to small r inverse."
+  },
+  {
+    "start": 4564.25,
+    "dur": 3.23,
+    "text": "So we have g1 f1 plus\nR inverse times f3."
+  },
+  {
+    "start": 4567.48,
+    "dur": 4.71,
+    "text": "And, finally, for g3, you have\nthis g3 f3 from the commitment"
+  },
+  {
+    "start": 4572.19,
+    "dur": 6.27,
+    "text": "and g3 to the f1 times r from\nthe l part of the commitment."
+  },
+  {
+    "start": 4578.46,
+    "dur": 5.68,
+    "text": "So all I'm saying\nis that it looks"
+  },
+  {
+    "start": 4584.14,
+    "dur": 3.16,
+    "text": "complicated to expand\neverything and figure it out."
+  },
+  {
+    "start": 4587.3,
+    "dur": 3.02,
+    "text": "But there's no\nmagical math involved."
+  },
+  {
+    "start": 4590.32,
+    "dur": 2.52,
+    "text": "You just do it step by\nstep for every basis."
+  },
+  {
+    "start": 4592.84,
+    "dur": 4.15,
+    "text": "And you end up with this\nequation as the new commitment"
+  },
+  {
+    "start": 4596.99,
+    "dur": 2.08,
+    "text": "com prime."
+  },
+  {
+    "start": 4599.07,
+    "dur": 3.3,
+    "text": "So then with that, the\ninteresting observation"
+  },
+  {
+    "start": 4602.37,
+    "dur": 3.36,
+    "text": "is we can actually\nextract a common factor"
+  },
+  {
+    "start": 4605.73,
+    "dur": 3.09,
+    "text": "from the exponent of g0 and g2."
+  },
+  {
+    "start": 4608.82,
+    "dur": 5.22,
+    "text": "And this common factor happens\nto be r times f0 plus f2."
+  },
+  {
+    "start": 4614.04,
+    "dur": 3.81,
+    "text": "Clearly, you have this factor\nfrom in the exponent of g2."
+  },
+  {
+    "start": 4617.85,
+    "dur": 3.89,
+    "text": "So you end up with g2\nin the parentheses."
+  },
+  {
+    "start": 4621.74,
+    "dur": 5.52,
+    "text": "From the exponent of g0, if\nyou extract this r inverse out,"
+  },
+  {
+    "start": 4627.26,
+    "dur": 4.71,
+    "text": "then the remaining term\nequals to r times f0 plus f2."
+  },
+  {
+    "start": 4631.97,
+    "dur": 4.23,
+    "text": "That is why it also has a common\nfactor r times f0 plus f2."
+  },
+  {
+    "start": 4636.2,
+    "dur": 2.34,
+    "text": "And the remaining term\nin the parentheses"
+  },
+  {
+    "start": 4638.54,
+    "dur": 4.18,
+    "text": "is g0 raised to the\npower of r inverse."
+  },
+  {
+    "start": 4642.72,
+    "dur": 1.95,
+    "text": "Similarly, we can\ndo the same thing"
+  },
+  {
+    "start": 4644.67,
+    "dur": 1.8,
+    "text": "for the base of g1 and g3."
+  },
+  {
+    "start": 4646.47,
+    "dur": 3.0,
+    "text": "And the second part\nof the new commitment"
+  },
+  {
+    "start": 4649.47,
+    "dur": 3.3,
+    "text": "equals to g1 to the\npower of r inverse times"
+  },
+  {
+    "start": 4652.77,
+    "dur": 6.3,
+    "text": "g3 together raised to the\npower of r times f1 plus f3."
+  },
+  {
+    "start": 4659.07,
+    "dur": 5.64,
+    "text": "And recall that this is\nexactly the new polynomial"
+  },
+  {
+    "start": 4664.71,
+    "dur": 2.89,
+    "text": "we are trying to reduce to."
+  },
+  {
+    "start": 4667.6,
+    "dur": 3.15,
+    "text": "The new polynomial\ncontains two coefficients."
+  },
+  {
+    "start": 4670.75,
+    "dur": 3.45,
+    "text": "The first coefficient is\nexactly this r f0 plus f2,"
+  },
+  {
+    "start": 4674.2,
+    "dur": 3.98,
+    "text": "and the second coefficient\nis r times f1 plus f3."
+  },
+  {
+    "start": 4678.18,
+    "dur": 3.12,
+    "text": "So that is saying,\nafter this computation,"
+  },
+  {
+    "start": 4681.3,
+    "dur": 3.4,
+    "text": "the verifier ends up\nwith a new commitment."
+  },
+  {
+    "start": 4684.7,
+    "dur": 3.27,
+    "text": "And this is, again, the same\nas the Pedersen commitment."
+  },
+  {
+    "start": 4687.97,
+    "dur": 4.47,
+    "text": "And exponent is actually\nfrom the new polynomial."
+  },
+  {
+    "start": 4692.44,
+    "dur": 6.34,
+    "text": "And the basis are from these\ntwo numbers in the parentheses."
+  },
+  {
+    "start": 4698.78,
+    "dur": 3.86,
+    "text": "So we have to update this\nglobal parameters as g0"
+  },
+  {
+    "start": 4702.64,
+    "dur": 5.01,
+    "text": "to the r inverse times g2 and\ng1 to the r inverse times g3"
+  },
+  {
+    "start": 4707.65,
+    "dur": 1.48,
+    "text": "and combine them together."
+  },
+  {
+    "start": 4709.13,
+    "dur": 3.08,
+    "text": "So, in this way, we have a new\nglobal parameters or new set"
+  },
+  {
+    "start": 4712.21,
+    "dur": 2.34,
+    "text": "of basis of only\nhalf of the size."
+  },
+  {
+    "start": 4714.55,
+    "dur": 3.09,
+    "text": "And this com prime is\nexactly the commitment"
+  },
+  {
+    "start": 4717.64,
+    "dur": 4.33,
+    "text": "of this new polynomial\nusing this new basis."
+  },
+  {
+    "start": 4721.97,
+    "dur": 3.38,
+    "text": "So that solves the problem\nof establishing a connection"
+  },
+  {
+    "start": 4725.35,
+    "dur": 3.24,
+    "text": "from the old commitment to a\nnew commitment with the help"
+  },
+  {
+    "start": 4728.59,
+    "dur": 3.06,
+    "text": "of these two values l and r."
+  },
+  {
+    "start": 4731.65,
+    "dur": 2.04,
+    "text": "So going back to the\noriginal picture,"
+  },
+  {
+    "start": 4733.69,
+    "dur": 5.05,
+    "text": "that completes the description\nof one step of this reduction."
+  },
+  {
+    "start": 4738.74,
+    "dur": 2.63,
+    "text": "So in each round, the\nprover can actually"
+  },
+  {
+    "start": 4741.37,
+    "dur": 4.11,
+    "text": "send vl, vr as the evaluations\nof first half and second half"
+  },
+  {
+    "start": 4745.48,
+    "dur": 4.59,
+    "text": "and l and r as the cross-term\ncommitments of the first half"
+  },
+  {
+    "start": 4750.07,
+    "dur": 1.05,
+    "text": "and second half."
+  },
+  {
+    "start": 4751.12,
+    "dur": 4.17,
+    "text": "And verifier can update the\ncommitment as this equation"
+  },
+  {
+    "start": 4755.29,
+    "dur": 4.05,
+    "text": "and derive the new\nbasis as this equation"
+  },
+  {
+    "start": 4759.34,
+    "dur": 4.71,
+    "text": "and computes the new claim of\nevaluation v prime as r times"
+  },
+  {
+    "start": 4764.05,
+    "dur": 1.44,
+    "text": "vl plus vr."
+  },
+  {
+    "start": 4765.49,
+    "dur": 5.25,
+    "text": "So, in this way, they can\nreduce the original polynomial"
+  },
+  {
+    "start": 4770.74,
+    "dur": 3.63,
+    "text": "and evaluation to a new\npolynomial and evaluation"
+  },
+  {
+    "start": 4774.37,
+    "dur": 3.29,
+    "text": "of only half of the size."
+  },
+  {
+    "start": 4777.66,
+    "dur": 4.77,
+    "text": "And note here that another point\nI want to highlight is someone"
+  },
+  {
+    "start": 4782.43,
+    "dur": 2.88,
+    "text": "may be familiar with, for\nexample, the standard FFT"
+  },
+  {
+    "start": 4785.31,
+    "dur": 3.33,
+    "text": "reduction, which actually\ndecompose the polynomial"
+  },
+  {
+    "start": 4788.64,
+    "dur": 2.4,
+    "text": "as the odd terms--"
+  },
+  {
+    "start": 4791.04,
+    "dur": 2.34,
+    "text": "odd coefficients and\neven coefficients."
+  },
+  {
+    "start": 4793.38,
+    "dur": 4.8,
+    "text": "And I believe it's actually\nshould still working."
+  },
+  {
+    "start": 4798.18,
+    "dur": 2.46,
+    "text": "You can actually decompose\nit as odd and even"
+  },
+  {
+    "start": 4800.64,
+    "dur": 2.37,
+    "text": "instead of the left\npart and right part,"
+  },
+  {
+    "start": 4803.01,
+    "dur": 1.53,
+    "text": "and the same\nprotocol should still"
+  },
+  {
+    "start": 4804.54,
+    "dur": 3.0,
+    "text": "follow for this polynomial\ncommitment based"
+  },
+  {
+    "start": 4807.54,
+    "dur": 2.88,
+    "text": "on bulletproofs."
+  },
+  {
+    "start": 4810.42,
+    "dur": 5.55,
+    "text": "So with this protocol\nof the reduction, here"
+  },
+  {
+    "start": 4815.97,
+    "dur": 4.8,
+    "text": "we can actually generalize it\nto a polynomial of degree d."
+  },
+  {
+    "start": 4820.77,
+    "dur": 4.38,
+    "text": "So with the commitment\nof that polynomial,"
+  },
+  {
+    "start": 4825.15,
+    "dur": 4.92,
+    "text": "the job on the prover side\nis to compute this lr, vl,"
+  },
+  {
+    "start": 4830.07,
+    "dur": 1.95,
+    "text": "and vr in each round."
+  },
+  {
+    "start": 4832.02,
+    "dur": 2.85,
+    "text": "And then the prover receives\nthe randomness from the verifier"
+  },
+  {
+    "start": 4834.87,
+    "dur": 3.42,
+    "text": "and reduce this polynomial f\nto f prime of degree only d"
+  },
+  {
+    "start": 4838.29,
+    "dur": 0.75,
+    "text": "over 2."
+  },
+  {
+    "start": 4839.04,
+    "dur": 2.07,
+    "text": "And here, to be\nprecise, I'm actually"
+  },
+  {
+    "start": 4841.11,
+    "dur": 3.87,
+    "text": "assuming that the degree d\nplus 1 should be a power of 2."
+  },
+  {
+    "start": 4844.98,
+    "dur": 5.43,
+    "text": "So after reduction, the degree\nshould be d minus 1 over 2"
+  },
+  {
+    "start": 4850.41,
+    "dur": 1.18,
+    "text": "or something like that."
+  },
+  {
+    "start": 4851.59,
+    "dur": 5.51,
+    "text": "But this is not that important\nand just a corner case."
+  },
+  {
+    "start": 4857.1,
+    "dur": 3.93,
+    "text": "And after that, the prover\nshould update the basis"
+  },
+  {
+    "start": 4861.03,
+    "dur": 2.16,
+    "text": "from the original\nglobal parameters gp"
+  },
+  {
+    "start": 4863.19,
+    "dur": 4.8,
+    "text": "to gp prime using equation\nI explained before."
+  },
+  {
+    "start": 4867.99,
+    "dur": 2.1,
+    "text": "On the verifier\nside, the verifier"
+  },
+  {
+    "start": 4870.09,
+    "dur": 3.06,
+    "text": "receives two new\nclaims, vl and vr."
+  },
+  {
+    "start": 4873.15,
+    "dur": 2.59,
+    "text": "First, she has to\ncheck that they"
+  },
+  {
+    "start": 4875.74,
+    "dur": 3.5,
+    "text": "are consistent with the\noriginal claim, the evaluation"
+  },
+  {
+    "start": 4879.24,
+    "dur": 3.42,
+    "text": "v. And then, the verifier\ngenerates this r randomly"
+  },
+  {
+    "start": 4882.66,
+    "dur": 3.81,
+    "text": "and updates commitment\nas this equation updates"
+  },
+  {
+    "start": 4886.47,
+    "dur": 2.07,
+    "text": "the global parameters\nand also updates"
+  },
+  {
+    "start": 4888.54,
+    "dur": 6.02,
+    "text": "the claim of the evaluation v\nprime as r times vl plus vr."
+  },
+  {
+    "start": 4894.56,
+    "dur": 4.02,
+    "text": "And, after that, they're going\nto do a recursion for log d"
+  },
+  {
+    "start": 4898.58,
+    "dur": 3.06,
+    "text": "times to further reduce the\ndegree to d over 4, d over 8,"
+  },
+  {
+    "start": 4901.64,
+    "dur": 2.52,
+    "text": "and all the way to a\nconstant polynomial."
+  },
+  {
+    "start": 4904.16,
+    "dur": 3.0,
+    "text": "And to complete this entire\nprotocol, in the last round,"
+  },
+  {
+    "start": 4907.16,
+    "dur": 2.25,
+    "text": "the prover simply sends\nthis constant size binomial"
+  },
+  {
+    "start": 4909.41,
+    "dur": 0.9,
+    "text": "to the verifier."
+  },
+  {
+    "start": 4910.31,
+    "dur": 2.46,
+    "text": "The verifier checks it\nagainst the commitment."
+  },
+  {
+    "start": 4912.77,
+    "dur": 2.64,
+    "text": "Checks that the evaluation\nin the last round"
+  },
+  {
+    "start": 4915.41,
+    "dur": 2.52,
+    "text": "is correct, which completes\nthe entire reduction"
+  },
+  {
+    "start": 4917.93,
+    "dur": 1.92,
+    "text": "of this bulletproof\nand guarantees"
+  },
+  {
+    "start": 4919.85,
+    "dur": 3.66,
+    "text": "that the original evaluation\nof this polynomial of degree d"
+  },
+  {
+    "start": 4923.51,
+    "dur": 2.62,
+    "text": "is actually correct."
+  },
+  {
+    "start": 4926.13,
+    "dur": 2.45,
+    "text": "So that is the\ncomplete description"
+  },
+  {
+    "start": 4928.58,
+    "dur": 4.74,
+    "text": "of this polynomial commitment\nscheme based on bulletproofs."
+  },
+  {
+    "start": 4933.32,
+    "dur": 3.99,
+    "text": "And here, I won't go into\nthe details of the soundness"
+  },
+  {
+    "start": 4937.31,
+    "dur": 1.62,
+    "text": "proof of this bulletproofs."
+  },
+  {
+    "start": 4938.93,
+    "dur": 1.56,
+    "text": "But, roughly\nspeaking, you're using"
+  },
+  {
+    "start": 4940.49,
+    "dur": 4.77,
+    "text": "this random linear combinations\nto actually combine two claims"
+  },
+  {
+    "start": 4945.26,
+    "dur": 2.16,
+    "text": "about the left part\nand the right part"
+  },
+  {
+    "start": 4947.42,
+    "dur": 3.51,
+    "text": "into one claim of\nonly half of the size."
+  },
+  {
+    "start": 4950.93,
+    "dur": 3.12,
+    "text": "I refer you to the original\npaper for more details"
+  },
+  {
+    "start": 4954.05,
+    "dur": 1.747,
+    "text": "about the security proof."
+  },
+  {
+    "start": 4958.6,
+    "dur": 2.82,
+    "text": "So, finally, let's take\na look at the properties"
+  },
+  {
+    "start": 4961.42,
+    "dur": 1.66,
+    "text": "of this bulletproofs."
+  },
+  {
+    "start": 4963.08,
+    "dur": 4.31,
+    "text": "So, in the key generation, there\nno trapdoor or toxic waste."
+  },
+  {
+    "start": 4967.39,
+    "dur": 2.46,
+    "text": "The setup is transparent."
+  },
+  {
+    "start": 4969.85,
+    "dur": 1.89,
+    "text": "And the size of the\nglobal parameters"
+  },
+  {
+    "start": 4971.74,
+    "dur": 1.83,
+    "text": "is linear in the degree\nof the polynomial."
+  },
+  {
+    "start": 4973.57,
+    "dur": 5.55,
+    "text": "So this solves the problem of\nthe KZG polynomial commitment."
+  },
+  {
+    "start": 4979.12,
+    "dur": 2.79,
+    "text": "To commit to a\npolynomial, it also"
+  },
+  {
+    "start": 4981.91,
+    "dur": 2.82,
+    "text": "takes order of d\ngroup exponentiations."
+  },
+  {
+    "start": 4984.73,
+    "dur": 4.08,
+    "text": "And the commitment is\ngain of size constant,"
+  },
+  {
+    "start": 4988.81,
+    "dur": 2.37,
+    "text": "one element in the group."
+  },
+  {
+    "start": 4991.18,
+    "dur": 3.57,
+    "text": "And to generate the\nproof, it takes only order"
+  },
+  {
+    "start": 4994.75,
+    "dur": 2.49,
+    "text": "of d group\nexponentiations because it"
+  },
+  {
+    "start": 4997.24,
+    "dur": 1.83,
+    "text": "is a recursive reduction."
+  },
+  {
+    "start": 4999.07,
+    "dur": 2.61,
+    "text": "And every time you cut the\nsize of the polynomial to half."
+  },
+  {
+    "start": 5001.68,
+    "dur": 4.32,
+    "text": "So, in total, the\ncomplexity remains"
+  },
+  {
+    "start": 5006.0,
+    "dur": 2.07,
+    "text": "linear in the degree\nof the polynomial."
+  },
+  {
+    "start": 5008.07,
+    "dur": 2.77,
+    "text": "And the version I\ndescribed before"
+  },
+  {
+    "start": 5010.84,
+    "dur": 3.59,
+    "text": "is actually interactive between\nthe prover and verifier."
+  },
+  {
+    "start": 5014.43,
+    "dur": 3.91,
+    "text": "And you can actually make it\nnon-interactive via the Fiat"
+  },
+  {
+    "start": 5018.34,
+    "dur": 2.83,
+    "text": "Shamir transformation."
+  },
+  {
+    "start": 5021.17,
+    "dur": 4.41,
+    "text": "And, in addition, the proof\nsize is only order of log d."
+  },
+  {
+    "start": 5025.58,
+    "dur": 1.71,
+    "text": "Because, in every\nround, the prover"
+  },
+  {
+    "start": 5027.29,
+    "dur": 2.4,
+    "text": "is only sending a constant\nnumber of elements"
+  },
+  {
+    "start": 5029.69,
+    "dur": 1.71,
+    "text": "to the verifier."
+  },
+  {
+    "start": 5031.4,
+    "dur": 2.76,
+    "text": "Remember, there's the\nlr, and vl, and vr,"
+  },
+  {
+    "start": 5034.16,
+    "dur": 3.84,
+    "text": "four elements in total in\nthe version I'm describing."
+  },
+  {
+    "start": 5038.0,
+    "dur": 4.17,
+    "text": "And, finally, one\nof the main drawback"
+  },
+  {
+    "start": 5042.17,
+    "dur": 2.52,
+    "text": "of this protocol\nbased on bulletproof"
+  },
+  {
+    "start": 5044.69,
+    "dur": 1.98,
+    "text": "is its verifier time."
+  },
+  {
+    "start": 5046.67,
+    "dur": 2.61,
+    "text": "The verifier time is\nactually linear in the degree"
+  },
+  {
+    "start": 5049.28,
+    "dur": 1.05,
+    "text": "of this polynomial."
+  },
+  {
+    "start": 5050.33,
+    "dur": 3.06,
+    "text": "And that is because,\nrecall, in the description"
+  },
+  {
+    "start": 5053.39,
+    "dur": 2.76,
+    "text": "of this protocol,\nthe verifier has also"
+  },
+  {
+    "start": 5056.15,
+    "dur": 6.06,
+    "text": "to update this global parameters\nby combining two basis into one"
+  },
+  {
+    "start": 5062.21,
+    "dur": 1.59,
+    "text": "using this random number r."
+  },
+  {
+    "start": 5063.8,
+    "dur": 3.21,
+    "text": "And the complexity of\nthis step is actually"
+  },
+  {
+    "start": 5067.01,
+    "dur": 4.95,
+    "text": "linear, which is the same as\nthe complexity as of the prover."
+  },
+  {
+    "start": 5071.96,
+    "dur": 2.49,
+    "text": "So that is why the\nverifier time is actually"
+  },
+  {
+    "start": 5074.45,
+    "dur": 3.18,
+    "text": "quite slow in practice\nusing this version"
+  },
+  {
+    "start": 5077.63,
+    "dur": 2.915,
+    "text": "of the polynomial commitment\nbased on bulletproofs."
+  },
+  {
+    "start": 5085.5,
+    "dur": 5.34,
+    "text": "So in order to further\nimprove the properties"
+  },
+  {
+    "start": 5090.84,
+    "dur": 4.59,
+    "text": "of the bulletproofs, there have\nbeen other polynomial command"
+  },
+  {
+    "start": 5095.43,
+    "dur": 2.94,
+    "text": "schemes based on discrete\nlogarithm in the literature."
+  },
+  {
+    "start": 5098.37,
+    "dur": 4.38,
+    "text": "And I don't have time to go\ninto details of these protocols."
+  },
+  {
+    "start": 5102.75,
+    "dur": 1.86,
+    "text": "But here I'm just\ngoing to highlight"
+  },
+  {
+    "start": 5104.61,
+    "dur": 4.18,
+    "text": "the key improvements and the\nkey ideas in these schemes."
+  },
+  {
+    "start": 5108.79,
+    "dur": 1.73,
+    "text": "So the first scheme\nI want to mention"
+  },
+  {
+    "start": 5110.52,
+    "dur": 3.78,
+    "text": "is this Hyrax proposed\nby Wahby et al. in 2018."
+  },
+  {
+    "start": 5114.3,
+    "dur": 4.2,
+    "text": "So, in this paper, they propose\nanother polynomial commitment"
+  },
+  {
+    "start": 5118.5,
+    "dur": 3.3,
+    "text": "scheme that improves the\nverifier time from linear"
+  },
+  {
+    "start": 5121.8,
+    "dur": 2.04,
+    "text": "to only square root d."
+  },
+  {
+    "start": 5123.84,
+    "dur": 2.7,
+    "text": "And the key idea is to\nrepresent the coefficients"
+  },
+  {
+    "start": 5126.54,
+    "dur": 3.18,
+    "text": "of this polynomial\nas a 2D matrix."
+  },
+  {
+    "start": 5129.72,
+    "dur": 4.05,
+    "text": "Then you can actually commit\nto this matrix row-wise"
+  },
+  {
+    "start": 5133.77,
+    "dur": 1.86,
+    "text": "and then do a\nreduction column-wise"
+  },
+  {
+    "start": 5135.63,
+    "dur": 3.24,
+    "text": "to get the final answer of\nthe polynomial evaluation."
+  },
+  {
+    "start": 5138.87,
+    "dur": 6.46,
+    "text": "And with this approach, the\nproof size and verifier time"
+  },
+  {
+    "start": 5145.33,
+    "dur": 4.48,
+    "text": "are only linear in one\ndimension of the matrix."
+  },
+  {
+    "start": 5149.81,
+    "dur": 1.82,
+    "text": "So in this way, we can\nachieve a proof size"
+  },
+  {
+    "start": 5151.63,
+    "dur": 3.95,
+    "text": "of a square root d and a\nverifier time of square root d."
+  },
+  {
+    "start": 5155.58,
+    "dur": 3.975,
+    "text": "And, also, in the paper, there\nis actually a flexible way"
+  },
+  {
+    "start": 5159.555,
+    "dur": 1.125,
+    "text": "to choose these parameters."
+  },
+  {
+    "start": 5160.68,
+    "dur": 2.58,
+    "text": "For example, the proof\nsize can be further reduced"
+  },
+  {
+    "start": 5163.26,
+    "dur": 3.69,
+    "text": "to the n-th root of d with the\ncost of verifier increasing"
+  },
+  {
+    "start": 5166.95,
+    "dur": 3.21,
+    "text": "to d to the power\nof 1 minus 1 over n."
+  },
+  {
+    "start": 5170.16,
+    "dur": 1.89,
+    "text": "So, essentially, the\nproduct of these two"
+  },
+  {
+    "start": 5172.05,
+    "dur": 2.25,
+    "text": "has to be linear in d."
+  },
+  {
+    "start": 5174.3,
+    "dur": 4.035,
+    "text": "So that is the polynomial\ncommitment in the Hyrax paper."
+  },
+  {
+    "start": 5182.89,
+    "dur": 3.78,
+    "text": "Another very important paper\nfor polynomial commitment"
+  },
+  {
+    "start": 5186.67,
+    "dur": 3.12,
+    "text": "is called Dory,\nproposed by Lee in 2021."
+  },
+  {
+    "start": 5189.79,
+    "dur": 3.9,
+    "text": "And this is a very\nnice improvement"
+  },
+  {
+    "start": 5193.69,
+    "dur": 3.51,
+    "text": "over the polynomial commitment\nscheme based on bulletproofs."
+  },
+  {
+    "start": 5197.2,
+    "dur": 2.91,
+    "text": "And the key contribution is to\nfurther improve the verifier"
+  },
+  {
+    "start": 5200.11,
+    "dur": 5.03,
+    "text": "time to only order of log d\nwithout any asymptotic overhead"
+  },
+  {
+    "start": 5205.14,
+    "dur": 1.38,
+    "text": "on other parts."
+  },
+  {
+    "start": 5206.52,
+    "dur": 2.4,
+    "text": "And the key idea\nof this Dory paper"
+  },
+  {
+    "start": 5208.92,
+    "dur": 4.53,
+    "text": "is to delegate the verifier's\ncomputation to the prover side."
+  },
+  {
+    "start": 5213.45,
+    "dur": 3.42,
+    "text": "Recall that the verifier\nhas to update this basis"
+  },
+  {
+    "start": 5216.87,
+    "dur": 1.98,
+    "text": "to generate a new set\nof global parameters"
+  },
+  {
+    "start": 5218.85,
+    "dur": 4.99,
+    "text": "by combining two elements in\nthe old global parameters."
+  },
+  {
+    "start": 5223.84,
+    "dur": 2.78,
+    "text": "And this is a very well\nstructured computation."
+  },
+  {
+    "start": 5226.62,
+    "dur": 4.5,
+    "text": "You always take two elements\nfrom the global parameters that"
+  },
+  {
+    "start": 5231.12,
+    "dur": 3.48,
+    "text": "are publicly known\nand well structured"
+  },
+  {
+    "start": 5234.6,
+    "dur": 4.29,
+    "text": "and combine them with using\nthe random numbers chosen"
+  },
+  {
+    "start": 5238.89,
+    "dur": 1.23,
+    "text": "by the verifier."
+  },
+  {
+    "start": 5240.12,
+    "dur": 4.53,
+    "text": "And using the approach\ncalled inner pairing product"
+  },
+  {
+    "start": 5244.65,
+    "dur": 3.66,
+    "text": "arguments proposed\nby this paper, Dory"
+  },
+  {
+    "start": 5248.31,
+    "dur": 3.75,
+    "text": "is able to delegate this\ncomputation of the verifier"
+  },
+  {
+    "start": 5252.06,
+    "dur": 1.08,
+    "text": "to the prover side."
+  },
+  {
+    "start": 5253.14,
+    "dur": 2.67,
+    "text": "And the time to verify\nthis type of computation"
+  },
+  {
+    "start": 5255.81,
+    "dur": 2.7,
+    "text": "is reduced to only\norder of log d."
+  },
+  {
+    "start": 5258.51,
+    "dur": 3.12,
+    "text": "So with this approach,\nthe verifier time"
+  },
+  {
+    "start": 5261.63,
+    "dur": 4.41,
+    "text": "is sublinear in the\npolynomial commitment."
+  },
+  {
+    "start": 5266.04,
+    "dur": 3.78,
+    "text": "Another improvement to highlight\nis the protocol also improves"
+  },
+  {
+    "start": 5269.82,
+    "dur": 4.89,
+    "text": "the prover time to only order\nsquare root d exponentiations."
+  },
+  {
+    "start": 5274.71,
+    "dur": 3.51,
+    "text": "But the time to\nevaluate this polynomial"
+  },
+  {
+    "start": 5278.22,
+    "dur": 3.33,
+    "text": "remains order of d so,\nstill, asymptotically,"
+  },
+  {
+    "start": 5281.55,
+    "dur": 3.54,
+    "text": "the prover times the linear\nnumber of field operations."
+  },
+  {
+    "start": 5285.09,
+    "dur": 4.35,
+    "text": "And this improvement\nalso, concrete speaking,"
+  },
+  {
+    "start": 5289.44,
+    "dur": 3.45,
+    "text": "this improves the prover time\nsignificantly in practice."
+  },
+  {
+    "start": 5292.89,
+    "dur": 2.1,
+    "text": "But for the purpose\nof constructing"
+  },
+  {
+    "start": 5294.99,
+    "dur": 2.16,
+    "text": "efficient zero\nknowledge proof schemes,"
+  },
+  {
+    "start": 5297.15,
+    "dur": 2.31,
+    "text": "it really depends\non your protocol."
+  },
+  {
+    "start": 5299.46,
+    "dur": 3.63,
+    "text": "For some protocols, for\nexample, the Plonk protocol"
+  },
+  {
+    "start": 5303.09,
+    "dur": 1.98,
+    "text": "we covered in the\nprevious lecture,"
+  },
+  {
+    "start": 5305.07,
+    "dur": 3.51,
+    "text": "the prover has to commit\nto a polynomial defined"
+  },
+  {
+    "start": 5308.58,
+    "dur": 4.05,
+    "text": "by the witness and\nthen later open it"
+  },
+  {
+    "start": 5312.63,
+    "dur": 2.25,
+    "text": "at some random point\nchosen by the verifier."
+  },
+  {
+    "start": 5314.88,
+    "dur": 3.16,
+    "text": "And, because of that, the prover\ntime of the zero knowledge"
+  },
+  {
+    "start": 5318.04,
+    "dur": 3.84,
+    "text": "proof scheme includes both the\ncommitment and the prover time"
+  },
+  {
+    "start": 5321.88,
+    "dur": 1.63,
+    "text": "of the polynomial commitment."
+  },
+  {
+    "start": 5323.51,
+    "dur": 4.13,
+    "text": "So, in that sense, the\naddition of these two steps"
+  },
+  {
+    "start": 5327.64,
+    "dur": 3.18,
+    "text": "still remain linear\nnumber of exponentiations"
+  },
+  {
+    "start": 5330.82,
+    "dur": 3.99,
+    "text": "using the dot reconstruction."
+  },
+  {
+    "start": 5334.81,
+    "dur": 2.61,
+    "text": "Finally, the last\npaper I want to mention"
+  },
+  {
+    "start": 5337.42,
+    "dur": 6.06,
+    "text": "is this Dark paper by Bunz,\nFisch, and Szepieniec in 2020."
+  },
+  {
+    "start": 5343.48,
+    "dur": 3.93,
+    "text": "So this paper also achieves a\nstrictly order of a log d proof"
+  },
+  {
+    "start": 5347.41,
+    "dur": 1.74,
+    "text": "size and verifier time."
+  },
+  {
+    "start": 5349.15,
+    "dur": 2.85,
+    "text": "And, in fact, the\nscheme I described"
+  },
+  {
+    "start": 5352.0,
+    "dur": 1.98,
+    "text": "for polynomial commitment\nbased on bulletproofs"
+  },
+  {
+    "start": 5353.98,
+    "dur": 1.47,
+    "text": "in the previous\nslides is actually"
+  },
+  {
+    "start": 5355.45,
+    "dur": 2.5,
+    "text": "inspired by the\nconstruction in this paper."
+  },
+  {
+    "start": 5357.95,
+    "dur": 2.75,
+    "text": "So this is also a very important\npaper in the literature."
+  },
+  {
+    "start": 5360.7,
+    "dur": 2.85,
+    "text": "And the key idea\nis also delegating"
+  },
+  {
+    "start": 5363.55,
+    "dur": 6.06,
+    "text": "some of the verifier's\ncomputation with linear time"
+  },
+  {
+    "start": 5369.61,
+    "dur": 3.87,
+    "text": "to the prover side using\nsome prior protocols."
+  },
+  {
+    "start": 5373.48,
+    "dur": 4.29,
+    "text": "And the cryptographic\nprimitive this paper works on"
+  },
+  {
+    "start": 5377.77,
+    "dur": 1.875,
+    "text": "is this a group\nof unknown order."
+  },
+  {
+    "start": 5383.23,
+    "dur": 4.39,
+    "text": "So, finally, to summarize\nthis entire lecture."
+  },
+  {
+    "start": 5387.62,
+    "dur": 2.15,
+    "text": "So, in this lecture,\nwe've talked"
+  },
+  {
+    "start": 5389.77,
+    "dur": 1.5,
+    "text": "about polynomial\ncommitment schemes"
+  },
+  {
+    "start": 5391.27,
+    "dur": 3.21,
+    "text": "based on bilinear pairing\nand discrete logarithm."
+  },
+  {
+    "start": 5394.48,
+    "dur": 5.46,
+    "text": "And, in the first part, we\nstudied this classical design"
+  },
+  {
+    "start": 5399.94,
+    "dur": 2.01,
+    "text": "of the KZG polynomial\ncommitment scheme."
+  },
+  {
+    "start": 5401.95,
+    "dur": 2.88,
+    "text": "And this scheme\nhas a trust setup"
+  },
+  {
+    "start": 5404.83,
+    "dur": 2.965,
+    "text": "that has a very impressive\nperformance in practice."
+  },
+  {
+    "start": 5407.795,
+    "dur": 1.625,
+    "text": "Both the proof size\nand the commitments"
+  },
+  {
+    "start": 5409.42,
+    "dur": 1.38,
+    "text": "are only one group elements."
+  },
+  {
+    "start": 5410.8,
+    "dur": 1.95,
+    "text": "And the verifier\nis constant time--"
+  },
+  {
+    "start": 5412.75,
+    "dur": 3.51,
+    "text": "a single pairing equation."
+  },
+  {
+    "start": 5416.26,
+    "dur": 2.52,
+    "text": "And in order to remove\nthis trusted setup"
+  },
+  {
+    "start": 5418.78,
+    "dur": 2.04,
+    "text": "and achieve the\ntransparent setup,"
+  },
+  {
+    "start": 5420.82,
+    "dur": 2.16,
+    "text": "we have a sequence\nof works based"
+  },
+  {
+    "start": 5422.98,
+    "dur": 4.78,
+    "text": "on variants of discrete-log\nproblems in different groups."
+  },
+  {
+    "start": 5427.76,
+    "dur": 3.89,
+    "text": "So the bulletproofs\nreduces the--"
+  },
+  {
+    "start": 5431.65,
+    "dur": 2.67,
+    "text": "removes the trusted setup and\nachieves the logarithm proof"
+  },
+  {
+    "start": 5434.32,
+    "dur": 0.69,
+    "text": "size."
+  },
+  {
+    "start": 5435.01,
+    "dur": 3.18,
+    "text": "And it is purely based on\nthe discrete-log assumption."
+  },
+  {
+    "start": 5438.19,
+    "dur": 1.77,
+    "text": "But, unfortunately,\nthe verifier time"
+  },
+  {
+    "start": 5439.96,
+    "dur": 3.28,
+    "text": "is linear in the degree\nof the polynomial."
+  },
+  {
+    "start": 5443.24,
+    "dur": 3.27,
+    "text": "And, later, this is improved\nby the Hyrax construction"
+  },
+  {
+    "start": 5446.51,
+    "dur": 2.28,
+    "text": "with the cost of a\nincrease on the proof size"
+  },
+  {
+    "start": 5448.79,
+    "dur": 1.74,
+    "text": "to square root d."
+  },
+  {
+    "start": 5450.53,
+    "dur": 3.27,
+    "text": "And, finally, we\nhave two papers that"
+  },
+  {
+    "start": 5453.8,
+    "dur": 3.0,
+    "text": "achieves both logarithm proof\nsize and logarithm proof"
+  },
+  {
+    "start": 5456.8,
+    "dur": 3.0,
+    "text": "verifier time without\nany trusted setup."
+  },
+  {
+    "start": 5459.8,
+    "dur": 3.87,
+    "text": "The Dory paper is based\non the bilinear pairing"
+  },
+  {
+    "start": 5463.67,
+    "dur": 2.76,
+    "text": "operation for the inner\npairing product argument."
+  },
+  {
+    "start": 5466.43,
+    "dur": 3.72,
+    "text": "And the Dark scheme is based\non the group of unknown order."
+  },
+  {
+    "start": 5472.85,
+    "dur": 3.75,
+    "text": "So that is everything I want\nto talk about in this lecture."
+  },
+  {
+    "start": 5476.6,
+    "dur": 2.35,
+    "text": "Thank you for listening."
+  }
+]

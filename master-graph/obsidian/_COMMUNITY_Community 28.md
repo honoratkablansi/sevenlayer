@@ -1,45 +1,44 @@
 ---
 type: community
-cohesion: 0.08
-members: 30
+cohesion: 0.09
+members: 29
 ---
 
 # Community 28
 
-**Cohesion:** 0.08 - loosely connected
-**Members:** 30 nodes
+**Cohesion:** 0.09 - loosely connected
+**Members:** 29 nodes
 
 ## Members
-- [[B-Relaxed Binding of Ajtai Commitment]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[Block et al. (BHR20) quasi-linear small-space SNARK for VMs with streaming Bulletproofs PCS]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[Blumberg et al. (BTVW14) small-space quasi-linear PIOP for circuit-SAT]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[Commitment Transformation Protocol Pi_cm]] - paper - references/ch02/ref-11-latticefold-plus.pdf
-- [[Cormode-Thaler-Yi (CTY11) linear-time and sparse streaming sum-check provers]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[Gemini (BCHO22) small-space VM SNARK with streamed multilinear-KZG PCS]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[Generalized Committed Linear Relation R_lin,B]] - paper - references/ch02/ref-11-latticefold-plus.pdf
-- [[LFKN LFKN90 original sum-check protocol]] - paper - references/ch03/ref-15-lasso.pdf
-- [[Lemma 2.1 a(X2)=a(X)2 iff a is a monomial]] - paper - references/ch02/ref-11-latticefold-plus.pdf
-- [[Lemma 2.2 ct(bpsi)=a characterizes range membership via EXP]] - paper - references/ch02/ref-11-latticefold-plus.pdf
-- [[Lund-Fortnow-Karloff-Nisan 35 original sum-check protocol]] - paper - references/recursion/ch3/ref-70-zkcnn.pdf
-- [[Marlin CHM+20 - preprocessing zkSNARK that SuperMarlin generalizes]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
-- [[Monomial Set Check Pi_mon]] - paper - references/ch02/ref-11-latticefold-plus.pdf
-- [[Multi-Input Folding Pi_mlin (R_lin,B(L) - R_lin,B2)]] - paper - references/ch02/ref-11-latticefold-plus.pdf
-- [[Multifolding]] - document - recursion/recursion-outline.md
-- [[Multiplicative Subgroup Vanishing Polynomial]] - paper - references/books/proofs-args-zk.pdf
-- [[Purely Algebraic Range Proof (no bit-decomposition)]] - paper - references/ch02/ref-11-latticefold-plus.pdf
-- [[Range Check Protocol Pi_rgchk (double-commitment range proof)]] - paper - references/ch02/ref-11-latticefold-plus.pdf
-- [[Shout sum-check memory-checking  lookup argument for read-only memory]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[Small-value sum-check optimization (Bagad-Domb-Thaler Algorithm 3)]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[Spartan Set20 - linear-time R1CS polynomial IOP that SuperSpartan generalizes]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
-- [[Streaming  small-space sum-check prover (logarithmic-space, quasi-linear time)]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[Strong Sampling Set]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[Sum-Check Protocol]] - document - recursion/recursion-outline.md
-- [[SuperMarlin univariate-sumcheck SNARK for CCS generalizing Marlin]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
-- [[SuperSpartan SNARK family for CCS generalizing Spartan's polynomial IOP]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
-- [[Theorem 1 polynomial IOP for CCS, soundness O((t+d)log m)F, prover O(N+tm+qmd log2 d) F-ops]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
-- [[Theorem 3.3 Folding Knowledge Soundness]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[Theorem 4.3 Pi_cm is a RoK from R_rg,B to R_com]] - paper - references/ch02/ref-11-latticefold-plus.pdf
-- [[Univariate Polynomial]] - paper - references/books/proofs-args-zk.pdf
+- [[Computation Commitment]] - paper - references/recursion/ch2/ref-41-spartan.pdf
+- [[Computation commitments succinct commitment to R1CS structure via public preprocessing (Encode), no trapdoor]] - paper - references/recursion/ch2/ref-41-spartan.pdf
+- [[Encoding of R1CS as a degree-3 log m-variate polynomial G_{io,τ} summing to 0 (Theorem 4.1)]] - paper - references/recursion/ch2/ref-41-spartan.pdf
+- [[Extractable polynomial commitment scheme for multilinear polynomials (Setup, Commit, Open, Eval)]] - paper - references/recursion/ch2/ref-41-spartan.pdf
+- [[Fiat-Shamir transform in the random oracle model to obtain NIZKzkSNARK from public-coin argument]] - paper - references/recursion/ch2/ref-41-spartan.pdf
+- [[GGPR quadratic arithmetic programs (QAPs)  Pinocchio trusted-setup SNARKs (cited prior work)]] - paper - references/recursion/ch2/ref-41-spartan.pdf
+- [[Goldwasser-Kalai-Rothblum (GKR) doubly-efficient interactive proofs (cited prior work)]] - paper - references/recursion/ch2/ref-41-spartan.pdf
+- [[Home Proving]] - document - references/recursion/ch1/ref-19-ef-l1-zkevm-realtime-proving.md
+- [[Hyrax (Wahby et al.) transparent zkSNARK + Hyrax-PC multilinear polynomial commitment (cited  instantiated)]] - paper - references/recursion/ch2/ref-41-spartan.pdf
+- [[Libra (Xie et al.) linear-time-prover zkSNARK for uniform circuits (cited; SpartanKE alternative)]] - paper - references/recursion/ch2/ref-41-spartan.pdf
+- [[Lund, Fortnow, Karloff, Nisan - Sumcheck (1992)]] - document - proving-nothing.md
+- [[No-FFT prover (sum-check avoids FFT-based polynomial machinery of QAPIOP SNARKs)]] - paper - references/recursion/ch2/ref-41-spartan.pdf
+- [[No-trusted-setup (transparent) argument under discrete log over normal curve cycles]] - paper - references/recursion/ch1/ref-05-halo.pdf
+- [[Offline memory checking via public-coin randomized check (memory in the head) for O(n)-sized eval circuit]] - paper - references/recursion/ch2/ref-41-spartan.pdf
+- [[Realtime Proving Standardized Definition]] - document - references/recursion/ch1/ref-19-ef-l1-zkevm-realtime-proving.md
+- [[SP1 Hypercube (Succinct Labs)]] - document - proving-nothing.md
+- [[SPARK compiler transforms a dense multilinear PC into one for sparse multilinear polynomials]] - paper - references/recursion/ch2/ref-41-spartan.pdf
+- [[Setty, Spartan (CRYPTO 2020)]] - document - recursion/recursion-outline.md
+- [[Setty, Spartan Efficient and General-Purpose zkSNARKs without Trusted Setup (CRYPTO 2020  ePrint 2019550)]] - paper - references/recursion/ch2/ref-41-spartan.pdf
+- [[Spartan]] - document - proving-nothing.md
+- [[Spartan Rust library (~8,000 LoC), DLOG-based transparent zkSNARK; github.comMicrosoftSpartan]] - paper - references/recursion/ch2/ref-41-spartan.pdf
+- [[Spartan variants SpartanDL, SpartanRO, SpartanCL (transparent), SpartanKE (universal setup)]] - paper - references/recursion/ch2/ref-41-spartan.pdf
+- [[Sumcheck  Algebraic Methods for Interactive Proof Systems (Lund-Fortnow-Karloff-Nisan, J.ACM 1992) 58]] - paper - references/recursion/ch3/ref-59-zkbridge.pdf
+- [[Sumcheck Protocol]] - document - proving-nothing.md
+- [[Theorem 1.1  Corollary 1.1 family of zkSNARKs, prover O(n)–O(n log n), verifierproof O(log² n)–O(√n)]] - paper - references/recursion/ch2/ref-41-spartan.pdf
+- [[Theorem 4.1 ∃ degree-3 log m-variate G with ∑ G(x)=0 iff R1CS satisfiable]] - paper - references/recursion/ch2/ref-41-spartan.pdf
+- [[Theorem 5.1 succinct interactive AoK from any extractable multilinear polynomial commitment]] - paper - references/recursion/ch2/ref-41-spartan.pdf
+- [[Time-optimal (linear-time O(n)) prover from multilinear decomposition + SPARK]] - paper - references/recursion/ch2/ref-41-spartan.pdf
+- [[Two-round sum-check public-coin succinct interactive argument of knowledge for R1CS (Theorem 5.1)]] - paper - references/recursion/ch2/ref-41-spartan.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -49,43 +48,32 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 20 edges to [[_COMMUNITY_Community 2]]
-- 12 edges to [[_COMMUNITY_Community 27]]
-- 9 edges to [[_COMMUNITY_Community 15]]
-- 9 edges to [[_COMMUNITY_Community 0]]
-- 8 edges to [[_COMMUNITY_Community 10]]
-- 7 edges to [[_COMMUNITY_Community 77]]
-- 6 edges to [[_COMMUNITY_Community 31]]
-- 5 edges to [[_COMMUNITY_Community 21]]
-- 4 edges to [[_COMMUNITY_Community 1]]
-- 4 edges to [[_COMMUNITY_Community 13]]
-- 3 edges to [[_COMMUNITY_Community 71]]
-- 3 edges to [[_COMMUNITY_Community 83]]
-- 3 edges to [[_COMMUNITY_Community 37]]
-- 3 edges to [[_COMMUNITY_Community 118]]
-- 3 edges to [[_COMMUNITY_Community 101]]
-- 3 edges to [[_COMMUNITY_Community 18]]
-- 3 edges to [[_COMMUNITY_Community 63]]
-- 2 edges to [[_COMMUNITY_Community 26]]
-- 2 edges to [[_COMMUNITY_Community 68]]
-- 2 edges to [[_COMMUNITY_Community 114]]
-- 1 edge to [[_COMMUNITY_Community 22]]
-- 1 edge to [[_COMMUNITY_Community 36]]
-- 1 edge to [[_COMMUNITY_Community 80]]
-- 1 edge to [[_COMMUNITY_Community 23]]
-- 1 edge to [[_COMMUNITY_Community 90]]
-- 1 edge to [[_COMMUNITY_Community 30]]
-- 1 edge to [[_COMMUNITY_Community 64]]
-- 1 edge to [[_COMMUNITY_Community 85]]
-- 1 edge to [[_COMMUNITY_Community 89]]
-- 1 edge to [[_COMMUNITY_Community 35]]
-- 1 edge to [[_COMMUNITY_Community 88]]
-- 1 edge to [[_COMMUNITY_Community 32]]
-- 1 edge to [[_COMMUNITY_Community 40]]
+- 7 edges to [[_COMMUNITY_Community 5]]
+- 7 edges to [[_COMMUNITY_Community 11]]
+- 4 edges to [[_COMMUNITY_Community 23]]
+- 4 edges to [[_COMMUNITY_Community 0]]
+- 3 edges to [[_COMMUNITY_Community 47]]
+- 3 edges to [[_COMMUNITY_Community 29]]
+- 3 edges to [[_COMMUNITY_Community 99]]
+- 2 edges to [[_COMMUNITY_Community 37]]
+- 2 edges to [[_COMMUNITY_Community 10]]
+- 2 edges to [[_COMMUNITY_Community 76]]
+- 1 edge to [[_COMMUNITY_Community 20]]
+- 1 edge to [[_COMMUNITY_Community 15]]
+- 1 edge to [[_COMMUNITY_Community 87]]
+- 1 edge to [[_COMMUNITY_Community 21]]
+- 1 edge to [[_COMMUNITY_Community 8]]
+- 1 edge to [[_COMMUNITY_Community 4]]
+- 1 edge to [[_COMMUNITY_Community 93]]
+- 1 edge to [[_COMMUNITY_Community 1]]
+- 1 edge to [[_COMMUNITY_Community 57]]
+- 1 edge to [[_COMMUNITY_Community 9]]
+- 1 edge to [[_COMMUNITY_Community 16]]
+- 1 edge to [[_COMMUNITY_Community 24]]
 
 ## Top bridge nodes
-- [[Sum-Check Protocol]] - degree 109, connects to 32 communities
-- [[Generalized Committed Linear Relation R_lin,B]] - degree 6, connects to 5 communities
-- [[SuperSpartan SNARK family for CCS generalizing Spartan's polynomial IOP]] - degree 7, connects to 3 communities
-- [[Shout sum-check memory-checking  lookup argument for read-only memory]] - degree 3, connects to 2 communities
-- [[Purely Algebraic Range Proof (no bit-decomposition)]] - degree 3, connects to 2 communities
+- [[Spartan]] - degree 39, connects to 11 communities
+- [[Sumcheck Protocol]] - degree 11, connects to 7 communities
+- [[No-trusted-setup (transparent) argument under discrete log over normal curve cycles]] - degree 9, connects to 4 communities
+- [[Encoding of R1CS as a degree-3 log m-variate polynomial G_{io,τ} summing to 0 (Theorem 4.1)]] - degree 4, connects to 3 communities
+- [[SP1 Hypercube (Succinct Labs)]] - degree 3, connects to 2 communities

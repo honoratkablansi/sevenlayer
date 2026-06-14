@@ -1,38 +1,37 @@
 ---
 type: community
-cohesion: 0.12
-members: 23
+cohesion: 0.11
+members: 22
 ---
 
 # Community 52
 
-**Cohesion:** 0.12 - loosely connected
-**Members:** 23 nodes
+**Cohesion:** 0.11 - loosely connected
+**Members:** 22 nodes
 
 ## Members
-- [[A la carte cost profile per-step proving cost proportional only to the circuit size of the invoked instruction, independent of k (number of instruction types)]] - paper - references/recursion/ch2/ref-44-supernova.pdf
-- [[Augmented function F'_j runs F_j then a verifier circuit folding u_i into U_ipc, checks public IO hash, and computes pc_{i+1} via phi]] - paper - references/recursion/ch2/ref-44-supernova.pdf
-- [[Avoiding universal switch circuits SuperNova never builds a circuit summing all instruction circuits; per-step cost depends only on the executed instruction]] - paper - references/recursion/ch2/ref-44-supernova.pdf
-- [[Buffet 34 a-la-carte cost via line-by-line compilation to non-uniform circuits, but not incremental and needs static execution bounds]] - paper - references/recursion/ch2/ref-44-supernova.pdf
-- [[Compression to succinct zero-knowledge apply a general-purpose zkSNARK (e.g., Spartan) over a valid NIVC proof, as in Nova]] - paper - references/recursion/ch2/ref-44-supernova.pdf
-- [[Construction 1 SuperNova NIVC scheme (G,K,P,V) built from non-interactive folding scheme NIFS for committed relaxed R1CS plus a hash]] - paper - references/recursion/ch2/ref-44-supernova.pdf
-- [[Control function phi takes (z_i, omega_i) and outputs program counter pc in {1,...,l} selecting which F_j to apply at each step]] - paper - references/recursion/ch2/ref-44-supernova.pdf
-- [[Instantiations VDF machine (l=1, MinRoot) and RAM machine (RISC-V-like, program counter register, Merkle-committed memory)]] - paper - references/recursion/ch2/ref-44-supernova.pdf
-- [[Kothapalli, Setty, Tzialla, Nova (CRYPTO 2022)]] - document - recursion/recursion-outline.md
-- [[Lemma 1  Assumption 1 non-interactive folding scheme for committed relaxed R1CS (Nova 21); prover O(n), verifier and communication O(1), via Fiat-Shamir in plain model]] - paper - references/recursion/ch2/ref-44-supernova.pdf
-- [[Lemma 2 (Completeness) Construction 1 is an NIVC scheme satisfying perfect completeness]] - paper - references/recursion/ch2/ref-44-supernova.pdf
-- [[Lemma 3 (Knowledge soundness) Construction 1 satisfies knowledge soundness via inductive extractor reduction to folding-scheme soundness]] - paper - references/recursion/ch2/ref-44-supernova.pdf
-- [[Lemma 4 (Efficiency) F'_j = phi + F_j + o(2G + 2H + R); prover cost dominated by two multiexponentiations sized to the executed instruction]] - paper - references/recursion/ch2/ref-44-supernova.pdf
-- [[MIRAGE 20 adapts vRAM techniques to Groth's SNARK; still relies on whole-trace invariants, incompatible with incremental proving]] - paper - references/recursion/ch2/ref-44-supernova.pdf
-- [[Multiple running instances, one per instruction type; incoming step instance folded into the running instance selected by pc (U_ipc)]] - paper - references/recursion/ch2/ref-44-supernova.pdf
-- [[Non-uniform IVC (NIVC)]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[Non-uniform IVC (NIVC) generalization of IVC where each step proves a relation chosen from a set, selected by a control function]] - paper - references/recursion/ch2/ref-44-supernova.pdf
-- [[Optimization offlineMerkle memory-checking reduces F'_j circuit dependence on l from O(l) to O(log l) then to O(1) constraints]] - paper - references/recursion/ch2/ref-44-supernova.pdf
-- [[Per-instruction step functions {F_1,...,F_l} plus control function phi; each F_j verifies one instruction type, cost independent of l]] - paper - references/recursion/ch2/ref-44-supernova.pdf
-- [[Program counter (pc) index selecting which instructionfunction is run at a step; computed by control function phi and threaded between augmented circuits]] - paper - references/recursion/ch2/ref-44-supernova.pdf
-- [[SuperNova (Non-Uniform IVC)]] - document - proving-nothing.md
-- [[Universal circuit single circuit executing any supported instruction (fetch-decode-execute); per-step cost scales with sum of all instruction circuit sizes]] - paper - references/recursion/ch2/ref-44-supernova.pdf
-- [[vRAM 37 trimmed universal circuit for vnTinyRAM via fingerprinting over the trace; not incremental, not zero-knowledge]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[Anonymity set]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
+- [[Blockchain Privacy]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
+- [[Blockchain Privacy and Regulatory Compliance Towards a Practical Equilibrium]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
+- [[Canton Network]] - document - wiki/sections/ch13-enterprise-pilots-pilot.md
+- [[Chorus One The Economics of ZK-Proving (2025)]] - document - wiki/sections/ch13-market-sizing.md
+- [[CoinJoin (Bitcoin mixing)]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
+- [[DTCC (Depository Trust & Clearing Corporation)]] - document - wiki/sections/ch13-enterprise-pilots-pilot.md
+- [[Derecho Privacy Pools with proof-carrying disclosures (Beal & Fisch)]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
+- [[Deutsche Bank (Project Guardian)]] - document - wiki/sections/ch13-enterprise-pilots-pilot.md
+- [[Enterprise Pilots (Pilot)]] - document - wiki/sections/ch13-enterprise-pilots-pilot.md
+- [[Grand View Research Zero-Knowledge Proof Market Size Report (2025)]] - document - wiki/sections/ch13-market-sizing.md
+- [[Humanity Protocol]] - document - wiki/sections/ch13-zk-identity-growth-regulatory-mandate.md
+- [[Linkable ring signature (Monero mixing)]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
+- [[Market Sizing]] - document - wiki/sections/ch13-market-sizing.md
+- [[Nadler & Schaer, Tornado Cash and blockchain privacy primer]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
+- [[Partisia Blockchain]] - document - wiki/sections/ch13-enterprise-pilots-pilot.md
+- [[Privacy Pools]] - document - proving-nothing.md
+- [[Regulatory Compliance]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
+- [[Rejected designs centralized access & system-wide entry allowlisting (central point of failure)]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
+- [[Sequential proofs  inclusion-delay handling via forwarded Merkle branches & secrets]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
+- [[World (formerly Worldcoin)]] - document - wiki/sections/ch13-zk-identity-growth-regulatory-mandate.md
+- [[ZK Identity (Growth  Regulatory Mandate)]] - document - wiki/sections/ch13-zk-identity-growth-regulatory-mandate.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -42,18 +41,29 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 5 edges to [[_COMMUNITY_Community 0]]
-- 3 edges to [[_COMMUNITY_Community 15]]
-- 3 edges to [[_COMMUNITY_Community 23]]
-- 3 edges to [[_COMMUNITY_Community 2]]
+- 6 edges to [[_COMMUNITY_Community 27]]
+- 5 edges to [[_COMMUNITY_Community 15]]
+- 4 edges to [[_COMMUNITY_Community 29]]
+- 3 edges to [[_COMMUNITY_Community 0]]
 - 2 edges to [[_COMMUNITY_Community 20]]
-- 1 edge to [[_COMMUNITY_Community 37]]
-- 1 edge to [[_COMMUNITY_Community 47]]
-- 1 edge to [[_COMMUNITY_Community 71]]
+- 2 edges to [[_COMMUNITY_Community 53]]
+- 2 edges to [[_COMMUNITY_Community 41]]
+- 2 edges to [[_COMMUNITY_Community 79]]
+- 2 edges to [[_COMMUNITY_Community 54]]
+- 2 edges to [[_COMMUNITY_Community 100]]
+- 2 edges to [[_COMMUNITY_Community 3]]
+- 1 edge to [[_COMMUNITY_Community 4]]
+- 1 edge to [[_COMMUNITY_Community 91]]
+- 1 edge to [[_COMMUNITY_Community 22]]
+- 1 edge to [[_COMMUNITY_Community 121]]
+- 1 edge to [[_COMMUNITY_Community 119]]
+- 1 edge to [[_COMMUNITY_Community 33]]
+- 1 edge to [[_COMMUNITY_Community 9]]
+- 1 edge to [[_COMMUNITY_Community 128]]
 
 ## Top bridge nodes
-- [[SuperNova (Non-Uniform IVC)]] - degree 15, connects to 4 communities
-- [[Non-uniform IVC (NIVC)]] - degree 4, connects to 3 communities
-- [[Universal circuit single circuit executing any supported instruction (fetch-decode-execute); per-step cost scales with sum of all instruction circuit sizes]] - degree 4, connects to 2 communities
-- [[Lemma 1  Assumption 1 non-interactive folding scheme for committed relaxed R1CS (Nova 21); prover O(n), verifier and communication O(1), via Fiat-Shamir in plain model]] - degree 4, connects to 2 communities
-- [[Construction 1 SuperNova NIVC scheme (G,K,P,V) built from non-interactive folding scheme NIFS for committed relaxed R1CS plus a hash]] - degree 8, connects to 1 community
+- [[Market Sizing]] - degree 15, connects to 8 communities
+- [[Enterprise Pilots (Pilot)]] - degree 14, connects to 7 communities
+- [[Blockchain Privacy and Regulatory Compliance Towards a Practical Equilibrium]] - degree 12, connects to 7 communities
+- [[Privacy Pools]] - degree 13, connects to 6 communities
+- [[ZK Identity (Growth  Regulatory Mandate)]] - degree 10, connects to 5 communities

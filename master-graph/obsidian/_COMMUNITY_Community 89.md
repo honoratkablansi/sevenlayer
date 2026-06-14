@@ -1,30 +1,31 @@
 ---
 type: community
-cohesion: 0.18
-members: 15
+cohesion: 0.24
+members: 16
 ---
 
 # Community 89
 
-**Cohesion:** 0.18 - loosely connected
-**Members:** 15 nodes
+**Cohesion:** 0.24 - loosely connected
+**Members:** 16 nodes
 
 ## Members
-- [[Cost claim all committed field elements are 'small' in {0,...,max(m,N{1c},q)-1}, enabling ~1 group opelement via Pippenger MSM]] - paper - references/ch03/ref-15-lasso.pdf
-- [[GeneralizedLasso lookup argument for any MLElow-degree-structured table via the sparse-dense sum-check protocol]] - paper - references/ch03/ref-15-lasso.pdf
-- [[Indexed lookup argument (commit to value vector a and index vector b, prove a_i = tb_i)]] - paper - references/ch03/ref-15-lasso.pdf
-- [[Lasso lookup argument for SOSsmall tables, prover commits to 3cm + c·N{1c} small field elements]] - paper - references/ch03/ref-15-lasso.pdf
-- [[Lookup Singularity]] - document - proving-nothing.md
-- [[Lookup singularity & companion paper Jolt replace each VM (RISC-V) instruction with one lookup into a 2128-size decomposable table]] - paper - references/ch03/ref-15-lasso.pdf
-- [[MLE-structured table multilinear extension of the table is evaluable in O(log N) time, so no party commits to it]] - paper - references/ch03/ref-15-lasso.pdf
-- [[Multilinear polynomial commitment scheme (MSM-based or hash-based)]] - paper - references/ch03/ref-15-lasso.pdf
-- [[Prior lookup arguments plookup GW20b, Halo2 BGH20, cq EFG22, Caulk ZBK+22, flookup GK22, Baloo ZGK+22, log-derivative lookups]] - paper - references/ch03/ref-15-lasso.pdf
-- [[SOS  decomposable table Tr = g(T_1r_1,...,T_alphar_c) with alpha=kc MLE-structured sub-tables of size N{1c}]] - paper - references/ch03/ref-15-lasso.pdf
-- [[Sona transparent multilinear PCS (BabyHyrax + Nova) with O(1) commit size, O(1) verify, O(sqrt(N)) crypto eval-proof work]] - paper - references/ch03/ref-15-lasso.pdf
-- [[Sparse-dense sum-check protocol reduces lookups into any MLE-structured table to lookups into a decomposable table]] - paper - references/ch03/ref-15-lasso.pdf
-- [[Surge generalization of Spark proving inner product of an m-sparse committed vector with any decomposable (SOS) dense table]] - paper - references/ch03/ref-15-lasso.pdf
-- [[Theorem 3 Surge polynomial IOP is complete and knowledge-sound for proving sum_y M~(r,y)·Ty=v with soundness O((m+N{1c})F)]] - paper - references/ch03/ref-15-lasso.pdf
-- [[Unlocking the Lookup Singularity with Lasso]] - paper - references/ch03/ref-15-lasso.pdf
+- [[Custom proof system for lattice hash range proof (Plookup) + Freivalds + univariate SumCheck (Aurora)]] - paper - references/recursion/ch3/ref-78-veritas.pdf
+- [[Extended PLONK permutation argument (tau') tying circuit trace T(X) to witness polynomial W(X)]] - paper - references/recursion/ch3/ref-78-veritas.pdf
+- [[Homomorphic  redactable signatures (alternate, SNARK-free designs; impractical for blurresize)]] - paper - references/recursion/ch3/ref-78-veritas.pdf
+- [[Image Authentication (IA) proving an image faithfully represents an original photograph from a given capture device class]] - paper - references/recursion/ch3/ref-77-photoproof.pdf
+- [[Instance-witness relation R f(w)=x AND SigVerify(vk,w,sigma)=1 (signed original to edited image)]] - paper - references/recursion/ch3/ref-78-veritas.pdf
+- [[Lattice+Poseidon hash H(v)=Poseidon(A·v mod q) SNARK-friendly hash for 30 MP images (Mode 1)]] - paper - references/recursion/ch3/ref-78-veritas.pdf
+- [[Performance proof for 90 MB  30 MP image in ~13 min ($0.54, weak signer) or ~3 min ($0.13, powerful signer), verify 1 s]] - paper - references/recursion/ch3/ref-78-veritas.pdf
+- [[Photo-edit circuits in Plonky2 crop, grayscale, bilinear resize, box blur (fixed-point, AP-acceptable edits)]] - paper - references/recursion/ch3/ref-78-veritas.pdf
+- [[PhotoProof (Naveh & Tromer 2016) - prior ZK image-edit proofs, impractical proving time]] - paper - references/recursion/ch3/ref-78-veritas.pdf
+- [[Polynomial-commitment hash (Mode 2) signer commits to poly(w); SNARK circuit avoids hashingsignature verification]] - paper - references/recursion/ch3/ref-78-veritas.pdf
+- [[Short Integer Solution (SIS) lattice hash H_A(v)=Av mod q (linear, low-norm preimage)]] - paper - references/recursion/ch3/ref-78-veritas.pdf
+- [[Theorem 5.1 RangeCheck (Alg.1-2) is a zk-SNARK for relation R_RP (rangelow-norm proof)]] - paper - references/recursion/ch3/ref-78-veritas.pdf
+- [[Theorem 5.2 LatticeHash proof (Alg.3-4) is a zk-SNARK for relation R'_LH (knowledge of low-norm preimage)]] - paper - references/recursion/ch3/ref-78-veritas.pdf
+- [[VerITAS Verifying Image Transformations at Scale (Datta, Chen, Boneh, ePrint 20241066)]] - paper - references/recursion/ch3/ref-78-veritas.pdf
+- [[ZK-IMG (Kang et al. 2022) - 100x speedup over PhotoProof but limited to 720p900 KP images]] - paper - references/recursion/ch3/ref-78-veritas.pdf
+- [[opt-VerITAS precommitted rows of A reduce verifier time ~20x (30 MP verify ~0.8 s) at cost of larger proofs]] - paper - references/recursion/ch3/ref-78-veritas.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -34,18 +35,16 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 5 edges to [[_COMMUNITY_Community 2]]
-- 3 edges to [[_COMMUNITY_Community 80]]
-- 2 edges to [[_COMMUNITY_Community 31]]
-- 1 edge to [[_COMMUNITY_Community 21]]
-- 1 edge to [[_COMMUNITY_Community 13]]
-- 1 edge to [[_COMMUNITY_Community 85]]
-- 1 edge to [[_COMMUNITY_Community 27]]
-- 1 edge to [[_COMMUNITY_Community 28]]
+- 6 edges to [[_COMMUNITY_Community 11]]
+- 6 edges to [[_COMMUNITY_Community 26]]
+- 3 edges to [[_COMMUNITY_Community 8]]
+- 2 edges to [[_COMMUNITY_Community 87]]
+- 1 edge to [[_COMMUNITY_Community 5]]
+- 1 edge to [[_COMMUNITY_Community 24]]
 
 ## Top bridge nodes
-- [[Unlocking the Lookup Singularity with Lasso]] - degree 10, connects to 4 communities
-- [[Lookup Singularity]] - degree 6, connects to 2 communities
-- [[Lasso lookup argument for SOSsmall tables, prover commits to 3cm + c·N{1c} small field elements]] - degree 7, connects to 1 community
-- [[Surge generalization of Spark proving inner product of an m-sparse committed vector with any decomposable (SOS) dense table]] - degree 4, connects to 1 community
-- [[MLE-structured table multilinear extension of the table is evaluable in O(log N) time, so no party commits to it]] - degree 3, connects to 1 community
+- [[VerITAS Verifying Image Transformations at Scale (Datta, Chen, Boneh, ePrint 20241066)]] - degree 22, connects to 5 communities
+- [[Image Authentication (IA) proving an image faithfully represents an original photograph from a given capture device class]] - degree 8, connects to 2 communities
+- [[Lattice+Poseidon hash H(v)=Poseidon(A·v mod q) SNARK-friendly hash for 30 MP images (Mode 1)]] - degree 6, connects to 1 community
+- [[Custom proof system for lattice hash range proof (Plookup) + Freivalds + univariate SumCheck (Aurora)]] - degree 5, connects to 1 community
+- [[Instance-witness relation R f(w)=x AND SigVerify(vk,w,sigma)=1 (signed original to edited image)]] - degree 4, connects to 1 community

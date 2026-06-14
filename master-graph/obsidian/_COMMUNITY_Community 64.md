@@ -1,13 +1,13 @@
 ---
 type: community
-cohesion: 0.16
-members: 19
+cohesion: 0.15
+members: 20
 ---
 
 # Community 64
 
-**Cohesion:** 0.16 - loosely connected
-**Members:** 19 nodes
+**Cohesion:** 0.15 - loosely connected
+**Members:** 20 nodes
 
 ## Members
 - [[Accumulation Scheme Completeness and Soundness Properties]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
@@ -21,6 +21,7 @@ members: 19
 - [[Formal Accumulation Scheme Definition AS=(G,I,P,V,D) for (Phi,H)]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
 - [[Halo Infinite]] - paper - references/snowball/book/ref-095-halo-infinite-recursive-zk-snarks-from-any-addi.pdf
 - [[Nested amortization deferringcollapsing linear-time verification through recursive public inputs]] - paper - references/recursion/ch1/ref-05-halo.pdf
+- [[Nova KST21 recursive ZK arguments from folding; R_acc = relaxed committed R1CS]] - paper - references/recursion/ch2/ref-47-protogalaxy.pdf
 - [[Pickles  Mina]] - document - recursion/recursion-outline.md
 - [[Predicate-Efficient SNARK]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
 - [[Proof-Carrying Data from Accumulation Schemes (BCMS20)]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
@@ -38,27 +39,28 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 6 edges to [[_COMMUNITY_Community 19]]
-- 6 edges to [[_COMMUNITY_Community 7]]
-- 6 edges to [[_COMMUNITY_Community 47]]
-- 5 edges to [[_COMMUNITY_Community 36]]
-- 4 edges to [[_COMMUNITY_Community 21]]
-- 3 edges to [[_COMMUNITY_Community 0]]
-- 3 edges to [[_COMMUNITY_Community 23]]
-- 3 edges to [[_COMMUNITY_Community 38]]
-- 3 edges to [[_COMMUNITY_Community 70]]
-- 1 edge to [[_COMMUNITY_Community 32]]
-- 1 edge to [[_COMMUNITY_Community 8]]
-- 1 edge to [[_COMMUNITY_Community 29]]
-- 1 edge to [[_COMMUNITY_Community 91]]
-- 1 edge to [[_COMMUNITY_Community 44]]
+- 6 edges to [[_COMMUNITY_Community 26]]
+- 5 edges to [[_COMMUNITY_Community 20]]
+- 5 edges to [[_COMMUNITY_Community 13]]
+- 4 edges to [[_COMMUNITY_Community 8]]
+- 4 edges to [[_COMMUNITY_Community 5]]
+- 4 edges to [[_COMMUNITY_Community 24]]
+- 3 edges to [[_COMMUNITY_Community 18]]
+- 3 edges to [[_COMMUNITY_Community 31]]
+- 3 edges to [[_COMMUNITY_Community 76]]
+- 2 edges to [[_COMMUNITY_Community 39]]
+- 1 edge to [[_COMMUNITY_Community 17]]
+- 1 edge to [[_COMMUNITY_Community 11]]
+- 1 edge to [[_COMMUNITY_Community 90]]
+- 1 edge to [[_COMMUNITY_Community 123]]
+- 1 edge to [[_COMMUNITY_Community 25]]
+- 1 edge to [[_COMMUNITY_Community 9]]
+- 1 edge to [[_COMMUNITY_Community 23]]
 - 1 edge to [[_COMMUNITY_Community 12]]
-- 1 edge to [[_COMMUNITY_Community 28]]
-- 1 edge to [[_COMMUNITY_Community 6]]
 
 ## Top bridge nodes
 - [[Accumulation Schemes]] - degree 36, connects to 15 communities
+- [[Proof-Carrying Data from Accumulation Schemes (BCMS20)]] - degree 10, connects to 4 communities
 - [[Halo Infinite]] - degree 5, connects to 4 communities
-- [[Proof-Carrying Data from Accumulation Schemes (BCMS20)]] - degree 10, connects to 3 communities
 - [[Nested amortization deferringcollapsing linear-time verification through recursive public inputs]] - degree 5, connects to 2 communities
 - [[Predicate-Efficient SNARK]] - degree 4, connects to 2 communities

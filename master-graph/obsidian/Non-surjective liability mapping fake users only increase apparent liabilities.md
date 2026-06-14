@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-88-provisions.pdf"
 type: "paper"
-community: "Community 39"
+community: "Community 56"
 location: "§5 (LiabList intuition)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_39
+  - community/Community_56
 ---
 
 # Non-surjective liability mapping: fake users only increase apparent liabilities
@@ -15,4 +15,4 @@ tags:
 - [[Bit-decomposition range proof for committed balances (no trusted setup)]] - `conceptually_related_to` [INFERRED]
 - [[Privacy-preserving proof of liabilities (Protocol 2)]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_39
+#graphify/paper #graphify/EXTRACTED #community/Community_56

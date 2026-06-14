@@ -1,12 +1,12 @@
 ---
 source_file: "references/snowball/book/ref-088-gemini-elastic-snarks-for-diverse-environments.pdf"
 type: "paper"
-community: "Community 15"
+community: "Community 8"
 location: "abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_15
+  - community/Community_8
 ---
 
 # Gemini Elastic SNARK
@@ -18,4 +18,4 @@ tags:
 - [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `defines` [EXTRACTED]
 - [[Streaming Algorithm]] - `uses` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_15
+#graphify/paper #graphify/EXTRACTED #community/Community_8

@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch10-the-map-redrawn.md"
 type: "document"
-community: "Community 13"
+community: "Community 0"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_13
+  - community/Community_0
 ---
 
 # The Map Redrawn
@@ -18,4 +18,4 @@ tags:
 - [[The Causal Web Why It Is a DAG, Not a Stack]] - `references` [EXTRACTED]
 - [[The Synthesis -- Three Paths, Not Two]] - `part_of` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_13
+#graphify/document #graphify/EXTRACTED #community/Community_0

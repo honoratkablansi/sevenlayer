@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch03/ref-15-lasso.pdf"
 type: "paper"
-community: "Community 28"
+community: "Community 23"
 location: "refs [LFKN90]"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_28
+  - community/Community_23
 ---
 
 # LFKN [LFKN90]: original sum-check protocol
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Sum-Check Protocol]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_28
+#graphify/paper #graphify/EXTRACTED #community/Community_23

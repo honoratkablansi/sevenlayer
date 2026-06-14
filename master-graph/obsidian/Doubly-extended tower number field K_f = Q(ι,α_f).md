@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-50-extended-tower-nfs.pdf"
 type: "paper"
-community: "Community 56"
+community: "Community 82"
 location: "§2.1, Fig.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_56
+  - community/Community_82
 ---
 
 # Doubly-extended tower number field K_f = Q(ι,α_f)
@@ -15,4 +15,4 @@ tags:
 - [[Relation collection over R=Zth(t), B-smooth norms]] - `assumes` [EXTRACTED]
 - [[exTNFS (Extended Tower Number Field Sieve)]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_56
+#graphify/paper #graphify/EXTRACTED #community/Community_82

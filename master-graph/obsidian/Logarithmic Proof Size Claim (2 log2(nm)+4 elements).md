@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-09-bulletproofs.pdf"
 type: "paper"
-community: "Community 29"
+community: "Community 75"
 location: "§4.3, §6.1 Table 1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_29
+  - community/Community_75
 ---
 
 # Logarithmic Proof Size Claim (2 log2(nm)+4 elements)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Aggregated Range Proof for m Values]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_29
+#graphify/paper #graphify/EXTRACTED #community/Community_75

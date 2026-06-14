@@ -1,12 +1,12 @@
 ---
 source_file: "references/books/proofs-args-zk.pdf"
 type: "paper"
-community: "Community 32"
+community: "Community 33"
 location: "PCPs and Succinct Arguments"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_32
+  - community/Community_33
 ---
 
 # PCP-to-Argument Compiler (Kilian-Micali)
@@ -17,4 +17,4 @@ tags:
 - [[Merkle Tree]] - `uses` [EXTRACTED]
 - [[Succinct Argument]] - `compiles_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_32
+#graphify/paper #graphify/EXTRACTED #community/Community_33

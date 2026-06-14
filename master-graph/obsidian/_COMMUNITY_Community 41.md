@@ -1,41 +1,40 @@
 ---
 type: community
-cohesion: 0.12
-members: 26
+cohesion: 0.11
+members: 25
 ---
 
 # Community 41
 
-**Cohesion:** 0.12 - loosely connected
-**Members:** 26 nodes
+**Cohesion:** 0.11 - loosely connected
+**Members:** 25 nodes
 
 ## Members
-- [[Boneh-Goh-Nissim evaluating 2-DNF formulas on ciphertexts 11]] - paper - references/ch09/ref-29-gentry-fhe.pdf
-- [[Bootstrappable encryption scheme that can evaluate its own (augmented) decryption circuit]] - paper - references/ch09/ref-29-gentry-fhe.pdf
-- [[Bootstrapping (FHE)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
-- [[Bootstrapping theorem any bootstrappable scheme yields leveled FHE family {E(d)} (Thm 1,3)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
-- [[Circuit privacy via RandomizeCT (add encryption of 0 with super-polynomially larger error)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
-- [[Closest vector problem  lattice reduction (LLL)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
-- [[Craig Gentry]] - paper - references/ch09/ref-29-gentry-fhe.pdf
-- [[Decisional CVP for ideal lattices in a fixed ring (bounded-distance decoding hardness underlying E1)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
-- [[Error-vector growth bounds evaluation depth ~ (c1-c2) log n (Thm 6, Thm 8; expansion factor gamma_Mult)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
-- [[Fully Homomorphic Encryption Using Ideal Lattices]] - paper - references/ch09/ref-29-gentry-fhe.pdf
-- [[Goldwasser-Micali first semantically secure (additively) homomorphic scheme 23]] - paper - references/ch09/ref-29-gentry-fhe.pdf
-- [[Homomorphic encryption (Evaluate over encrypted data without decrypting)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
-- [[Ideal Coset Problem (ICP) decide if t is near-lattice (Samp1) or uniform mod J; security of E1 (Def.10, Thm 7)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
-- [[Ideal lattices (ideals of Zxf(x) as lattices; rotation basis)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
-- [[KDM-security  circular security (self-loop of encrypted secret keys yields true FHE)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
-- [[NTRU ring-based public-key cryptosystem (ideal-lattice cryptography precedent) 25]] - paper - references/ch09/ref-29-gentry-fhe.pdf
-- [[Noise Growth in HE]] - paper - references/ch09/ref-29-gentry-fhe.pdf
-- [[Performance counterbalanced assumptions; gamma_subset=sqrt(n), n~=lambda2, breaking time ~2sqrt(n)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
-- [[Recrypt homomorphically evaluate decryption circuit on encrypted secret-key bits to refresh ciphertext error]] - paper - references/ch09/ref-29-gentry-fhe.pdf
-- [[Rivest-Adleman-Dertouzos 1978 privacy homomorphisms (original FHE open problem) 54]] - paper - references/ch09/ref-29-gentry-fhe.pdf
-- [[Scheme E2 tweaks (narrow C_E to B(rDec2); replace matrix-vector by ring mult v_Jsk x psi) lowering decryption depth]] - paper - references/ch09/ref-29-gentry-fhe.pdf
-- [[Scheme E3 squashed E2 with hidden sparse subset; bootstrappable and semantically secure (Thm 2, Thm 11)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
-- [[Somewhat-homomorphic scheme E1 over ideal lattices (ciphertext v+x; ring addmult mod B_Jpk)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
-- [[Sparse Subset Sum Problem (SSSP)  SplitKey Distinguishing Problem second hardness assumption from tau in public key]] - paper - references/ch09/ref-29-gentry-fhe.pdf
-- [[Squashing the decryption circuit SplitKeyExpandCT shift work to encrypter so Decrypt sums only sub-linear vectors (E3)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
-- [[Three-step FHE blueprint SWHE - squash decryption - bootstrap to fully homomorphic]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Aggelos Kiayias]] - paper - references/ch09/ref-30-kachina.pdf
+- [[Commit query  transaction checkpoints]] - paper - references/ch09/ref-30-kachina.pdf
+- [[Contract class C_Kachina]] - paper - references/ch09/ref-30-kachina.pdf
+- [[Contract transition function Delta]] - paper - references/ch09/ref-30-kachina.pdf
+- [[Core transition function Gamma]] - paper - references/ch09/ref-30-kachina.pdf
+- [[Decentralized Anonymous Payment]] - paper - references/snowball/book/ref-072-zerocash-decentralized-anonymous-payments-from.pdf
+- [[Dependency function dep and invariant J]] - paper - references/ch09/ref-30-kachina.pdf
+- [[G_simpleLedger functionality]] - paper - references/ch09/ref-30-kachina.pdf
+- [[Global ledger functionality G_ledger (GUC)]] - paper - references/ch09/ref-30-kachina.pdf
+- [[Hawk private smart contracts]] - paper - references/ch09/ref-30-kachina.pdf
+- [[Ideal private payments contract (Delta_pp, Lambda_pp)]] - paper - references/ch09/ref-30-kachina.pdf
+- [[Ideal smart contract functionality F_sc{Delta,Lambda}]] - paper - references/ch09/ref-30-kachina.pdf
+- [[Kachina -- Foundations of Private Smart Contracts]] - paper - references/ch09/ref-30-kachina.pdf
+- [[Kachina core protocol]] - paper - references/ch09/ref-30-kachina.pdf
+- [[Kachina method via UC-emulation transitivity]] - paper - references/ch09/ref-30-kachina.pdf
+- [[NIZK functionality F_nizkL]] - paper - references/ch09/ref-30-kachina.pdf
+- [[Nakamoto consensus]] - paper - references/ch09/ref-30-kachina.pdf
+- [[Public state sigma  private state rho split]] - paper - references/ch09/ref-30-kachina.pdf
+- [[State oracle]] - paper - references/ch09/ref-30-kachina.pdf
+- [[State oracle transcript]] - paper - references/ch09/ref-30-kachina.pdf
+- [[Theorem 1 Kachina UC-emulates F_sc]] - paper - references/ch09/ref-30-kachina.pdf
+- [[Theorem 2  Corollary 1 private payments emulation]] - paper - references/ch09/ref-30-kachina.pdf
+- [[Universal Composability (UC)]] - paper - references/ch09/ref-30-kachina.pdf
+- [[Zerocash]] - document - proving-nothing.md
+- [[Zerocash Kachina contract Gamma_zc]] - paper - references/ch09/ref-30-kachina.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -45,16 +44,24 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 5 edges to [[_COMMUNITY_Community 4]]
-- 3 edges to [[_COMMUNITY_Community 0]]
-- 3 edges to [[_COMMUNITY_Community 44]]
-- 2 edges to [[_COMMUNITY_Community 103]]
-- 1 edge to [[_COMMUNITY_Community 36]]
-- 1 edge to [[_COMMUNITY_Community 19]]
+- 4 edges to [[_COMMUNITY_Community 128]]
+- 3 edges to [[_COMMUNITY_Community 48]]
+- 3 edges to [[_COMMUNITY_Community 17]]
+- 2 edges to [[_COMMUNITY_Community 52]]
+- 2 edges to [[_COMMUNITY_Community 38]]
+- 1 edge to [[_COMMUNITY_Community 22]]
+- 1 edge to [[_COMMUNITY_Community 20]]
+- 1 edge to [[_COMMUNITY_Community 3]]
+- 1 edge to [[_COMMUNITY_Community 87]]
+- 1 edge to [[_COMMUNITY_Community 56]]
+- 1 edge to [[_COMMUNITY_Community 27]]
+- 1 edge to [[_COMMUNITY_Community 5]]
+- 1 edge to [[_COMMUNITY_Community 33]]
+- 1 edge to [[_COMMUNITY_Community 80]]
 
 ## Top bridge nodes
-- [[Bootstrapping (FHE)]] - degree 15, connects to 5 communities
-- [[Fully Homomorphic Encryption Using Ideal Lattices]] - degree 12, connects to 2 communities
-- [[Homomorphic encryption (Evaluate over encrypted data without decrypting)]] - degree 4, connects to 1 community
-- [[Ideal lattices (ideals of Zxf(x) as lattices; rotation basis)]] - degree 4, connects to 1 community
-- [[KDM-security  circular security (self-loop of encrypted secret keys yields true FHE)]] - degree 2, connects to 1 community
+- [[Zerocash]] - degree 14, connects to 7 communities
+- [[Kachina -- Foundations of Private Smart Contracts]] - degree 13, connects to 6 communities
+- [[Decentralized Anonymous Payment]] - degree 3, connects to 2 communities
+- [[Kachina core protocol]] - degree 6, connects to 1 community
+- [[Ideal smart contract functionality F_sc{Delta,Lambda}]] - degree 5, connects to 1 community

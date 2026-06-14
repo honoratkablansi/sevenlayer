@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-06-groth16.pdf"
 type: "paper"
-community: "Community 42"
+community: "Community 34"
 location: "§3.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_42
+  - community/Community_34
 ---
 
 # Non-interactive Linear Proof (NILP) for Quadratic Arithmetic Programs
@@ -18,4 +18,4 @@ tags:
 - [[QAP (Quadratic Arithmetic Program)]] - `defines` [EXTRACTED]
 - [[Split-NILP to Pairing-based NIZK Compiler]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_42
+#graphify/paper #graphify/EXTRACTED #community/Community_34

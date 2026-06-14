@@ -1,30 +1,31 @@
 ---
 type: community
-cohesion: 0.18
-members: 15
+cohesion: 0.17
+members: 16
 ---
 
 # Community 88
 
-**Cohesion:** 0.18 - loosely connected
-**Members:** 15 nodes
+**Cohesion:** 0.17 - loosely connected
+**Members:** 16 nodes
 
 ## Members
-- [[Bit-decomposition gadget proving ReLU + max pooling composition with a single bit-decomposition per number]] - paper - references/recursion/ch3/ref-70-zkcnn.pdf
-- [[Evaluation VGG16 (15M params) proof 88.3s  341KB  59.3ms verify; 1264x faster prover than vCNN]] - paper - references/recursion/ch3/ref-70-zkcnn.pdf
-- [[Jacob et al. 28 integer-arithmetic-only quantization scheme used to encode reals]] - paper - references/recursion/ch3/ref-70-zkcnn.pdf
-- [[Quantization of real-valued modeldata to Q-bit integers in finite field (affine map a = L(q-Z))]] - paper - references/recursion/ch3/ref-70-zkcnn.pdf
-- [[SafetyNets (Ghodsi et al. 25) GKR-based verifiable NN inference (no privacy)]] - paper - references/recursion/ch3/ref-70-zkcnn.pdf
-- [[Thaler 41 time-optimal sum-check for matrix multiplication (prover O(n2)  O(n3))]] - paper - references/recursion/ch3/ref-70-zkcnn.pdf
-- [[Theorem 4.1 Protocol 3 is correct and sound (Def C.1)]] - paper - references/recursion/ch3/ref-70-zkcnn.pdf
-- [[Verifiable  trustless DNN inference model consumer verifies that the model provider served correct predictions in an untrusted (MLaaS) setting]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
-- [[ZEN (Feng et al. 23) ZKP-friendly quantization for neural networks (baseline)]] - paper - references/recursion/ch3/ref-70-zkcnn.pdf
-- [[Zero knowledge CNN accuracy scheme over many samples (prove secret model accuracy on public dataset)]] - paper - references/recursion/ch3/ref-70-zkcnn.pdf
-- [[Zero knowledge via zk-sumcheck + low-degree extension + zk polynomial commitment; non-interactive via Fiat-Shamir]] - paper - references/recursion/ch3/ref-70-zkcnn.pdf
-- [[Zero-knowledge proof of 2-D convolution correctness]] - paper - references/recursion/ch3/ref-70-zkcnn.pdf
-- [[vCNN (Lee et al. 34) QAP + polynomial-QAP commit-and-prove for CNNs (baseline)]] - paper - references/recursion/ch3/ref-70-zkcnn.pdf
-- [[zkCNN commit-and-prove scheme (KeyGen, Commit, Prove, Verify) for CNN prediction]] - paper - references/recursion/ch3/ref-70-zkcnn.pdf
-- [[zkCNN Zero Knowledge Proofs for CNN Predictions and Accuracy (CCS 2021)]] - paper - references/recursion/ch3/ref-70-zkcnn.pdf
+- [[All RISC-V instructions are decomposable (main technical contribution)]] - paper - references/ch03/ref-16-jolt.pdf
+- [[Comparison vs RISC Zero (~34), Cairo-VM (~13), Plonk per CPU step]] - paper - references/ch03/ref-16-jolt.pdf
+- [[Decomposable tables]] - paper - references/ch03/ref-16-jolt.pdf
+- [[Generalized-Lasso vs Lasso auditabilityperformance tradeoff (2x-3x cost)]] - paper - references/ch03/ref-16-jolt.pdf
+- [[Jolt SNARKs for Virtual Machines via Lookups]] - paper - references/ch03/ref-16-jolt.pdf
+- [[Lasso companion paper STW23 (Setty, Thaler, Wahby 2023)]] - paper - references/ch03/ref-16-jolt.pdf
+- [[Lemma 2 RS and WS are permutations iff every read returns last-written (value,count)]] - paper - references/ch03/ref-16-jolt.pdf
+- [[MLE-structured tables]] - paper - references/ch03/ref-16-jolt.pdf
+- [[MSM commitment via Pippenger's algorithm]] - paper - references/ch03/ref-16-jolt.pdf
+- [[Per-instruction MLE-structured evaluation tables (EQ, LTU, SLL, ANDORXOR, ADDSUB, MUL)]] - paper - references/ch03/ref-16-jolt.pdf
+- [[Prover commits to ~6 256-bit field elements per RISC-V CPU step]] - paper - references/ch03/ref-16-jolt.pdf
+- [[Single collation polynomial g for concatenated instruction tables]] - paper - references/ch03/ref-16-jolt.pdf
+- [[Single giant 2128 RISC-V lookup table T_risc-vopcodexy]] - paper - references/ch03/ref-16-jolt.pdf
+- [[Spartan applied to uniform R1CS (no commitment to A,B,C matrices)]] - paper - references/ch03/ref-16-jolt.pdf
+- [[Spice-based memory-checking optimized with Lasso (max via lookup)]] - paper - references/ch03/ref-16-jolt.pdf
+- [[Virtual instructions and virtual registers (MULH, DIVREM, MOVSIGN, ADVICE, ASSERT)]] - paper - references/ch03/ref-16-jolt.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -34,17 +35,19 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 4 edges to [[_COMMUNITY_Community 90]]
-- 4 edges to [[_COMMUNITY_Community 76]]
-- 3 edges to [[_COMMUNITY_Community 18]]
-- 3 edges to [[_COMMUNITY_Community 114]]
-- 2 edges to [[_COMMUNITY_Community 21]]
-- 1 edge to [[_COMMUNITY_Community 32]]
-- 1 edge to [[_COMMUNITY_Community 28]]
+- 5 edges to [[_COMMUNITY_Community 15]]
+- 3 edges to [[_COMMUNITY_Community 5]]
+- 2 edges to [[_COMMUNITY_Community 8]]
+- 2 edges to [[_COMMUNITY_Community 11]]
+- 2 edges to [[_COMMUNITY_Community 93]]
+- 2 edges to [[_COMMUNITY_Community 0]]
+- 2 edges to [[_COMMUNITY_Community 47]]
+- 1 edge to [[_COMMUNITY_Community 19]]
+- 1 edge to [[_COMMUNITY_Community 99]]
 
 ## Top bridge nodes
-- [[zkCNN commit-and-prove scheme (KeyGen, Commit, Prove, Verify) for CNN prediction]] - degree 11, connects to 2 communities
-- [[Verifiable  trustless DNN inference model consumer verifies that the model provider served correct predictions in an untrusted (MLaaS) setting]] - degree 8, connects to 2 communities
-- [[zkCNN Zero Knowledge Proofs for CNN Predictions and Accuracy (CCS 2021)]] - degree 8, connects to 2 communities
-- [[Zero-knowledge proof of 2-D convolution correctness]] - degree 4, connects to 2 communities
-- [[Zero knowledge via zk-sumcheck + low-degree extension + zk polynomial commitment; non-interactive via Fiat-Shamir]] - degree 3, connects to 2 communities
+- [[Jolt SNARKs for Virtual Machines via Lookups]] - degree 25, connects to 8 communities
+- [[Decomposable tables]] - degree 5, connects to 1 community
+- [[All RISC-V instructions are decomposable (main technical contribution)]] - degree 3, connects to 1 community
+- [[Per-instruction MLE-structured evaluation tables (EQ, LTU, SLL, ANDORXOR, ADDSUB, MUL)]] - degree 3, connects to 1 community
+- [[Prover commits to ~6 256-bit field elements per RISC-V CPU step]] - degree 3, connects to 1 community

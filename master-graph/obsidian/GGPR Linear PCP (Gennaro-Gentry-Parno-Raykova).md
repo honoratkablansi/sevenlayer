@@ -1,12 +1,12 @@
 ---
 source_file: "references/books/proofs-args-zk.pdf"
 type: "paper"
-community: "Community 15"
+community: "Community 20"
 location: "Linear PCPs (GGPR)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_15
+  - community/Community_20
 ---
 
 # GGPR Linear PCP (Gennaro-Gentry-Parno-Raykova)
@@ -16,8 +16,8 @@ tags:
 - [[Groth16]] - `builds_on` [EXTRACTED]
 - [[Linear PCP]] - `builds_on` [EXTRACTED]
 - [[Pinocchio]] - `builds_on` [EXTRACTED]
-- [[QAP (Quadratic Arithmetic Program)]] - `compiles_to` [EXTRACTED]
+- [[QAP (Quadratic Arithmetic Program)]] - `defines` [EXTRACTED]
 - [[R1CS (Rank-1 Constraint Systems)]] - `uses` [EXTRACTED]
 - [[Vanishing Polynomial]] - `uses` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_15
+#graphify/paper #graphify/EXTRACTED #community/Community_20

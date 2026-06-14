@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch03/ref-15-lasso.pdf"
 type: "paper"
-community: "Community 89"
+community: "Community 93"
 location: "§1.1(2), §4.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_89
+  - community/Community_93
 ---
 
 # MLE-structured table: multilinear extension of the table is evaluable in O(log N) time, so no party commits to it
@@ -16,4 +16,4 @@ tags:
 - [[Multilinear extension (MLE)]] - `assumes` [EXTRACTED]
 - [[SOS  decomposable table Tr = g(T_1r_1,...,T_alphar_c) with alpha=kc MLE-structured sub-tables of size N{1c}]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_89
+#graphify/paper #graphify/EXTRACTED #community/Community_93

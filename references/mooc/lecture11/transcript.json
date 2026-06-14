@@ -1,0 +1,8447 @@
+[
+  {
+    "start": 5.972,
+    "dur": 1.208,
+    "text": "ALEX LOMBARDI: Hey, everyone."
+  },
+  {
+    "start": 7.18,
+    "dur": 2.42,
+    "text": "I'm Alex, and I'll be\ngiving the 11th lecture"
+  },
+  {
+    "start": 9.6,
+    "dur": 2.34,
+    "text": "for the ZK learning\nonline course."
+  },
+  {
+    "start": 11.94,
+    "dur": 1.71,
+    "text": "In this lecture,\nwe're going to hear"
+  },
+  {
+    "start": 13.65,
+    "dur": 3.018,
+    "text": "about some theoretical\naspects of the proof systems"
+  },
+  {
+    "start": 16.668,
+    "dur": 2.292,
+    "text": "that you've been learning\nabout throughout this course."
+  },
+  {
+    "start": 18.96,
+    "dur": 3.12,
+    "text": "This includes both some very\nimportant ideas dating back"
+  },
+  {
+    "start": 22.08,
+    "dur": 2.61,
+    "text": "to the foundations of the\nfield in the 80s and 90s,"
+  },
+  {
+    "start": 24.69,
+    "dur": 3.06,
+    "text": "as well as some much\nmore recent results just"
+  },
+  {
+    "start": 27.75,
+    "dur": 1.26,
+    "text": "from the last few years."
+  },
+  {
+    "start": 33.77,
+    "dur": 2.33,
+    "text": "Let's start with the\nhigh level overview."
+  },
+  {
+    "start": 36.1,
+    "dur": 1.83,
+    "text": "Cryptographic proof\nsystems are one"
+  },
+  {
+    "start": 37.93,
+    "dur": 1.44,
+    "text": "of the most\nimportant foundations"
+  },
+  {
+    "start": 39.37,
+    "dur": 2.31,
+    "text": "of both theoretical and\napplied cryptography,"
+  },
+  {
+    "start": 41.68,
+    "dur": 2.23,
+    "text": "and they have been\nfor many decades."
+  },
+  {
+    "start": 43.91,
+    "dur": 2.42,
+    "text": "So for most of the course\nyou've been hearing specifically"
+  },
+  {
+    "start": 46.33,
+    "dur": 1.92,
+    "text": "about SNARKs, which\ncurrently have"
+  },
+  {
+    "start": 48.25,
+    "dur": 2.94,
+    "text": "a lot of practical relevance\ndue to potential applications"
+  },
+  {
+    "start": 51.19,
+    "dur": 1.56,
+    "text": "in the blockchain space."
+  },
+  {
+    "start": 52.75,
+    "dur": 3.15,
+    "text": "But long before\nblockchains existed,"
+  },
+  {
+    "start": 55.9,
+    "dur": 4.05,
+    "text": "proof systems were still\ncrucial for practical internet"
+  },
+  {
+    "start": 59.95,
+    "dur": 2.25,
+    "text": "security, in particular\nthe entire notion"
+  },
+  {
+    "start": 62.2,
+    "dur": 2.91,
+    "text": "of authentication or\ndigital signatures"
+  },
+  {
+    "start": 65.11,
+    "dur": 2.29,
+    "text": "is essentially a\nform of proof system."
+  },
+  {
+    "start": 67.4,
+    "dur": 2.99,
+    "text": "And so any kind of secure\ncommunication on the internet"
+  },
+  {
+    "start": 70.39,
+    "dur": 1.62,
+    "text": "relied on it."
+  },
+  {
+    "start": 72.01,
+    "dur": 2.4,
+    "text": "So that's on the practical end."
+  },
+  {
+    "start": 74.41,
+    "dur": 3.69,
+    "text": "On the theoretical end, proof\nsystems and especially zero"
+  },
+  {
+    "start": 78.1,
+    "dur": 2.85,
+    "text": "knowledge proof systems have\nbeen sort of a Swiss army knife"
+  },
+  {
+    "start": 80.95,
+    "dur": 3.81,
+    "text": "in cryptographic constructions,\nand the most prominent example"
+  },
+  {
+    "start": 84.76,
+    "dur": 2.83,
+    "text": "of this is in secure\nmulti-party computation."
+  },
+  {
+    "start": 87.59,
+    "dur": 1.58,
+    "text": "So this is a\ncryptographic primitive"
+  },
+  {
+    "start": 89.17,
+    "dur": 6.1,
+    "text": "that tries to enable a bunch\nof mutually distrustful parties"
+  },
+  {
+    "start": 95.27,
+    "dur": 3.12,
+    "text": "to jointly compute\nan arbitrary function"
+  },
+  {
+    "start": 98.39,
+    "dur": 1.89,
+    "text": "of their private inputs."
+  },
+  {
+    "start": 100.28,
+    "dur": 3.54,
+    "text": "And zero knowledge proofs\nenable you to compile"
+  },
+  {
+    "start": 103.82,
+    "dur": 2.64,
+    "text": "a semi-honest protocol."
+  },
+  {
+    "start": 106.46,
+    "dur": 2.61,
+    "text": "A protocol which is\nonly secure if you're"
+  },
+  {
+    "start": 109.07,
+    "dur": 1.77,
+    "text": "promised that all\nof the participants"
+  },
+  {
+    "start": 110.84,
+    "dur": 2.67,
+    "text": "follow the protocol\nexactly as specified"
+  },
+  {
+    "start": 113.51,
+    "dur": 3.72,
+    "text": "into a fully secure protocol,\nwhere you don't assume where"
+  },
+  {
+    "start": 117.23,
+    "dur": 2.22,
+    "text": "the adversary may deviate."
+  },
+  {
+    "start": 119.45,
+    "dur": 4.08,
+    "text": "And the zero knowledge proof\nis used in a very direct way."
+  },
+  {
+    "start": 123.53,
+    "dur": 1.71,
+    "text": "You have each party\nprove that they"
+  },
+  {
+    "start": 125.24,
+    "dur": 3.269,
+    "text": "are following the protocol\nspecification as they're"
+  },
+  {
+    "start": 128.509,
+    "dur": 1.291,
+    "text": "supposed to."
+  },
+  {
+    "start": 129.8,
+    "dur": 3.47,
+    "text": "So more broadly,\nzero knowledge proofs"
+  },
+  {
+    "start": 133.27,
+    "dur": 2.73,
+    "text": "are a critical tool in\nany sort of situation"
+  },
+  {
+    "start": 136.0,
+    "dur": 2.76,
+    "text": "where you want to enforce\na pre-specified behavior,"
+  },
+  {
+    "start": 138.76,
+    "dur": 1.74,
+    "text": "but simultaneously\nmaintain secrets."
+  },
+  {
+    "start": 140.5,
+    "dur": 4.69,
+    "text": "And this comes up in all sorts\nof contexts in cryptography."
+  },
+  {
+    "start": 145.19,
+    "dur": 4.25,
+    "text": "So given this overview, let's\ntalk a little bit about what"
+  },
+  {
+    "start": 149.44,
+    "dur": 2.79,
+    "text": "theoretical research on\ncryptographic proof systems"
+  },
+  {
+    "start": 152.23,
+    "dur": 1.36,
+    "text": "typically looks like."
+  },
+  {
+    "start": 153.59,
+    "dur": 4.67,
+    "text": "And there are three overlapping\ncategories of thoughts"
+  },
+  {
+    "start": 158.26,
+    "dur": 2.41,
+    "text": "that I want to give you on this."
+  },
+  {
+    "start": 160.67,
+    "dur": 2.84,
+    "text": "So the first is that there\nis a lot of thought given"
+  },
+  {
+    "start": 163.51,
+    "dur": 2.16,
+    "text": "to the question of feasibility."
+  },
+  {
+    "start": 165.67,
+    "dur": 5.94,
+    "text": "Do protocols with properties\nx, y, and z exist in principle?"
+  },
+  {
+    "start": 171.61,
+    "dur": 3.84,
+    "text": "So the most prominent example\nof this is, of course, SNARKs."
+  },
+  {
+    "start": 175.45,
+    "dur": 2.64,
+    "text": "And we're still trying\nto understand today"
+  },
+  {
+    "start": 178.09,
+    "dur": 3.3,
+    "text": "what we can say about whether\nor not SNARKs can mathematically"
+  },
+  {
+    "start": 181.39,
+    "dur": 0.52,
+    "text": "exist."
+  },
+  {
+    "start": 181.91,
+    "dur": 1.58,
+    "text": "And I'll get into\nit in this lecture"
+  },
+  {
+    "start": 183.49,
+    "dur": 3.18,
+    "text": "about what the issues are."
+  },
+  {
+    "start": 186.67,
+    "dur": 4.48,
+    "text": "But beyond SNARK\nspecifically, there"
+  },
+  {
+    "start": 191.15,
+    "dur": 2.7,
+    "text": "are tons of other\nkinds of protocols,"
+  },
+  {
+    "start": 193.85,
+    "dur": 2.76,
+    "text": "for example, like non-succinct\nprotocols satisfying"
+  },
+  {
+    "start": 196.61,
+    "dur": 2.85,
+    "text": "zero knowledge or\nweaker hiding properties"
+  },
+  {
+    "start": 199.46,
+    "dur": 1.8,
+    "text": "like witness\nindistinguishability, witness"
+  },
+  {
+    "start": 201.26,
+    "dur": 2.91,
+    "text": "hiding list."
+  },
+  {
+    "start": 204.17,
+    "dur": 2.22,
+    "text": "Any collection of\nnice properties"
+  },
+  {
+    "start": 206.39,
+    "dur": 2.52,
+    "text": "that you'd like from a\nprotocol maybe inspired"
+  },
+  {
+    "start": 208.91,
+    "dur": 2.97,
+    "text": "by some application then\nyou can ask mathematically"
+  },
+  {
+    "start": 211.88,
+    "dur": 2.07,
+    "text": "can such a proof system exist."
+  },
+  {
+    "start": 213.95,
+    "dur": 2.34,
+    "text": "And this question is\noften very complicated,"
+  },
+  {
+    "start": 216.29,
+    "dur": 3.57,
+    "text": "and it can depend\non the attack model"
+  },
+  {
+    "start": 219.86,
+    "dur": 1.84,
+    "text": "that you're thinking about."
+  },
+  {
+    "start": 221.7,
+    "dur": 2.21,
+    "text": "So, for example,\nthe problem becomes"
+  },
+  {
+    "start": 223.91,
+    "dur": 3.085,
+    "text": "harder if you think\nabout an adversary that"
+  },
+  {
+    "start": 226.995,
+    "dur": 2.375,
+    "text": "might be able to open up a\nbunch of concurrent executions"
+  },
+  {
+    "start": 229.37,
+    "dur": 4.23,
+    "text": "of a protocol and use\nthese executions jointly"
+  },
+  {
+    "start": 233.6,
+    "dur": 1.95,
+    "text": "to try to break security."
+  },
+  {
+    "start": 235.55,
+    "dur": 3.955,
+    "text": "Things can also\nbe more difficult"
+  },
+  {
+    "start": 239.505,
+    "dur": 3.735,
+    "text": "if you have an adversary that\nhas access to, for example,"
+  },
+  {
+    "start": 243.24,
+    "dur": 3.65,
+    "text": "a quantum device then\nit's much less clear"
+  },
+  {
+    "start": 246.89,
+    "dur": 2.16,
+    "text": "when protocols are zero\nknowledge against quantum"
+  },
+  {
+    "start": 249.05,
+    "dur": 2.37,
+    "text": "attacks, for example."
+  },
+  {
+    "start": 251.42,
+    "dur": 6.18,
+    "text": "So there are lots of feasibility\nquestions that come up."
+  },
+  {
+    "start": 257.6,
+    "dur": 4.44,
+    "text": "On top of that, we also want\nto minimize the assumptions"
+  },
+  {
+    "start": 262.04,
+    "dur": 2.82,
+    "text": "that we're making in our\nconstructions to whatever"
+  },
+  {
+    "start": 264.86,
+    "dur": 2.17,
+    "text": "extent that is possible."
+  },
+  {
+    "start": 267.03,
+    "dur": 3.77,
+    "text": "So a couple of things."
+  },
+  {
+    "start": 270.8,
+    "dur": 3.22,
+    "text": "Let me mention a couple\nof specific examples."
+  },
+  {
+    "start": 274.02,
+    "dur": 3.56,
+    "text": "So in non-interactive\nprotocols you often"
+  },
+  {
+    "start": 277.58,
+    "dur": 3.36,
+    "text": "have some trusted\nsetup, either you"
+  },
+  {
+    "start": 280.94,
+    "dur": 4.02,
+    "text": "assume that they're like\na really arbitrary trusted"
+  },
+  {
+    "start": 284.96,
+    "dur": 2.13,
+    "text": "setup of some like\nstructured reference string"
+  },
+  {
+    "start": 287.09,
+    "dur": 1.83,
+    "text": "has been set up by\nsome third-party"
+  },
+  {
+    "start": 288.92,
+    "dur": 2.37,
+    "text": "that the prover and\nverifier have access to,"
+  },
+  {
+    "start": 291.29,
+    "dur": 4.8,
+    "text": "or you assume they have access\nto just a bunch of random coins"
+  },
+  {
+    "start": 296.09,
+    "dur": 3.76,
+    "text": "which is a weaker assumption,\nor you don't assume anything."
+  },
+  {
+    "start": 299.85,
+    "dur": 2.18,
+    "text": "This is called the plain model."
+  },
+  {
+    "start": 302.03,
+    "dur": 2.46,
+    "text": "So there's no setup."
+  },
+  {
+    "start": 304.49,
+    "dur": 3.21,
+    "text": "And feasibility of\ndifferent kinds of protocols"
+  },
+  {
+    "start": 307.7,
+    "dur": 5.46,
+    "text": "can certainly depend on what\nkind of setup you're assuming."
+  },
+  {
+    "start": 313.16,
+    "dur": 2.67,
+    "text": "And we'd like to minimize--\nwe'd like to have the weakest"
+  },
+  {
+    "start": 315.83,
+    "dur": 2.73,
+    "text": "setup possible for\nany kind of protocol"
+  },
+  {
+    "start": 318.56,
+    "dur": 1.59,
+    "text": "that we're thinking about."
+  },
+  {
+    "start": 320.15,
+    "dur": 3.27,
+    "text": "On top of that, we would like\nto have a proof of security"
+  },
+  {
+    "start": 323.42,
+    "dur": 3.57,
+    "text": "or security reduction\nfor our protocols"
+  },
+  {
+    "start": 326.99,
+    "dur": 3.33,
+    "text": "based on preferably\nsimple well-studied"
+  },
+  {
+    "start": 330.32,
+    "dur": 2.19,
+    "text": "and quote-unquote\nfalsifiable assumptions,"
+  },
+  {
+    "start": 332.51,
+    "dur": 2.1,
+    "text": "and I'll get into\nthis a little bit more"
+  },
+  {
+    "start": 334.61,
+    "dur": 3.22,
+    "text": "in the middle of the lecture."
+  },
+  {
+    "start": 337.83,
+    "dur": 5.66,
+    "text": "And then finally, especially\nonce the feasibility questions"
+  },
+  {
+    "start": 343.49,
+    "dur": 2.58,
+    "text": "have been resolved,\nwe also think"
+  },
+  {
+    "start": 346.07,
+    "dur": 3.7,
+    "text": "about improving the efficiency\nof various kinds of protocols."
+  },
+  {
+    "start": 349.77,
+    "dur": 3.92,
+    "text": "And there are many\naxes where you might"
+  },
+  {
+    "start": 353.69,
+    "dur": 1.8,
+    "text": "want to improve efficiency."
+  },
+  {
+    "start": 355.49,
+    "dur": 1.98,
+    "text": "In the interactive\nsetting, you might"
+  },
+  {
+    "start": 357.47,
+    "dur": 3.72,
+    "text": "want to minimize the number\nof rounds of communication."
+  },
+  {
+    "start": 361.19,
+    "dur": 1.77,
+    "text": "Sometimes, not\ninteractive is impossible,"
+  },
+  {
+    "start": 362.96,
+    "dur": 1.71,
+    "text": "but you still want to\nminimize the number of rounds"
+  },
+  {
+    "start": 364.67,
+    "dur": 0.708,
+    "text": "of communication."
+  },
+  {
+    "start": 365.378,
+    "dur": 2.922,
+    "text": "That's a resource you\nmight want to minimize"
+  },
+  {
+    "start": 368.3,
+    "dur": 2.16,
+    "text": "the amount of communication\nlike the number of bits"
+  },
+  {
+    "start": 370.46,
+    "dur": 1.98,
+    "text": "sent between the prover\nand the verifier."
+  },
+  {
+    "start": 372.44,
+    "dur": 5.73,
+    "text": "You might want to optimize\nthe computational efficiency"
+  },
+  {
+    "start": 378.17,
+    "dur": 2.67,
+    "text": "of the prover and the verifier."
+  },
+  {
+    "start": 380.84,
+    "dur": 1.77,
+    "text": "So this last thing the prover--"
+  },
+  {
+    "start": 382.61,
+    "dur": 2.91,
+    "text": "especially the prover\ncomputational efficiency"
+  },
+  {
+    "start": 385.52,
+    "dur": 5.2,
+    "text": "is a lot of what you've been\nhearing about in the class"
+  },
+  {
+    "start": 390.72,
+    "dur": 0.8,
+    "text": "so far."
+  },
+  {
+    "start": 391.52,
+    "dur": 6.24,
+    "text": "But all of the ideas that\nyou can see on this slide"
+  },
+  {
+    "start": 397.76,
+    "dur": 3.36,
+    "text": "are more broadly what theorists\nare often thinking about."
+  },
+  {
+    "start": 401.12,
+    "dur": 1.72,
+    "text": "And then, of course,\non top of that,"
+  },
+  {
+    "start": 402.84,
+    "dur": 2.93,
+    "text": "we also think about how\nto apply various kinds"
+  },
+  {
+    "start": 405.77,
+    "dur": 2.4,
+    "text": "of cryptographic proof systems\nto other applications that"
+  },
+  {
+    "start": 408.17,
+    "dur": 4.32,
+    "text": "are not strictly in the\ncryptographic proof sphere."
+  },
+  {
+    "start": 412.49,
+    "dur": 2.56,
+    "text": "So that was a somewhat\nabstract discussion."
+  },
+  {
+    "start": 415.05,
+    "dur": 2.33,
+    "text": "So let's dive into\na particular example"
+  },
+  {
+    "start": 417.38,
+    "dur": 2.43,
+    "text": "of theoretical\nquestions that come up"
+  },
+  {
+    "start": 419.81,
+    "dur": 2.34,
+    "text": "when talking about\ninteractive zero"
+  },
+  {
+    "start": 422.15,
+    "dur": 1.5,
+    "text": "knowledge protocols,\nwhich you heard"
+  },
+  {
+    "start": 423.65,
+    "dur": 3.42,
+    "text": "about in the first\nlecture by [? Shafi. ?]"
+  },
+  {
+    "start": 427.07,
+    "dur": 2.37,
+    "text": "So when we talk about\ninteractive zero knowledge"
+  },
+  {
+    "start": 429.44,
+    "dur": 2.85,
+    "text": "protocols, we're in a setting\nwith no trusted setup."
+  },
+  {
+    "start": 432.29,
+    "dur": 2.91,
+    "text": "So the prover and verifier\ncan send each other messages,"
+  },
+  {
+    "start": 435.2,
+    "dur": 3.03,
+    "text": "but there's no\ntrusted third-party."
+  },
+  {
+    "start": 438.23,
+    "dur": 2.31,
+    "text": "There's no common\nrandom string that they"
+  },
+  {
+    "start": 440.54,
+    "dur": 4.44,
+    "text": "have access to what they\nsend is all the information"
+  },
+  {
+    "start": 444.98,
+    "dur": 1.96,
+    "text": "that they get to see."
+  },
+  {
+    "start": 446.94,
+    "dur": 3.98,
+    "text": "So in this setting,\nzero knowledge"
+  },
+  {
+    "start": 450.92,
+    "dur": 2.91,
+    "text": "turns out to be much\ntrickier to reason about than"
+  },
+  {
+    "start": 453.83,
+    "dur": 3.0,
+    "text": "in the non-interactive\nsetting with trusted setup."
+  },
+  {
+    "start": 456.83,
+    "dur": 3.06,
+    "text": "And the reason is that\nyou want your protocol"
+  },
+  {
+    "start": 459.89,
+    "dur": 4.29,
+    "text": "to be secure against an\narbitrary polynomial time"
+  },
+  {
+    "start": 464.18,
+    "dur": 3.78,
+    "text": "verifier, which may or may\nnot follow the protocol"
+  },
+  {
+    "start": 467.96,
+    "dur": 1.26,
+    "text": "specification."
+  },
+  {
+    "start": 469.22,
+    "dur": 3.3,
+    "text": "In the non-interactive\nsetting, there"
+  },
+  {
+    "start": 472.52,
+    "dur": 2.07,
+    "text": "is no protocol for\nthe verifier to cheat."
+  },
+  {
+    "start": 474.59,
+    "dur": 1.33,
+    "text": "They'll just sent a message."
+  },
+  {
+    "start": 475.92,
+    "dur": 3.17,
+    "text": "But now they might send messages\nthat they're not supposed to."
+  },
+  {
+    "start": 479.09,
+    "dur": 2.97,
+    "text": "And this might violate\nsecurity so your analysis"
+  },
+  {
+    "start": 482.06,
+    "dur": 2.04,
+    "text": "needs to rule this out."
+  },
+  {
+    "start": 484.1,
+    "dur": 3.27,
+    "text": "So nevertheless,\nwe saw in lecture 1"
+  },
+  {
+    "start": 487.37,
+    "dur": 2.16,
+    "text": "that you could build\na zero knowledge proof"
+  },
+  {
+    "start": 489.53,
+    "dur": 4.89,
+    "text": "system for any NP language, and\nthe base protocol that you saw"
+  },
+  {
+    "start": 494.42,
+    "dur": 2.91,
+    "text": "had some inverse\npolynomial soundness"
+  },
+  {
+    "start": 497.33,
+    "dur": 3.75,
+    "text": "error in three messages."
+  },
+  {
+    "start": 501.08,
+    "dur": 3.91,
+    "text": "And so that's nice, but not\nreally what we're looking for."
+  },
+  {
+    "start": 504.99,
+    "dur": 3.11,
+    "text": "We want a protocol\nwhere a prover can only"
+  },
+  {
+    "start": 508.1,
+    "dur": 3.0,
+    "text": "trick the verifier with\nsome exponentially small"
+  },
+  {
+    "start": 511.1,
+    "dur": 1.329,
+    "text": "probability."
+  },
+  {
+    "start": 512.429,
+    "dur": 2.12,
+    "text": "So we need to think\nabout how to reduce"
+  },
+  {
+    "start": 514.549,
+    "dur": 3.341,
+    "text": "the error in this protocol."
+  },
+  {
+    "start": 517.89,
+    "dur": 2.46,
+    "text": "And so there are a couple\nof things you can do."
+  },
+  {
+    "start": 520.35,
+    "dur": 3.62,
+    "text": "One is that you can repeat that\nprotocol over and over again"
+  },
+  {
+    "start": 523.97,
+    "dur": 2.16,
+    "text": "sequentially, and you\ncan show that this"
+  },
+  {
+    "start": 526.13,
+    "dur": 2.31,
+    "text": "works this will reduce\nthe soundness error,"
+  },
+  {
+    "start": 528.44,
+    "dur": 2.02,
+    "text": "but preserve zero knowledge."
+  },
+  {
+    "start": 530.46,
+    "dur": 3.12,
+    "text": "However, this would\nresult in protocol"
+  },
+  {
+    "start": 533.58,
+    "dur": 2.91,
+    "text": "with, say, 30,000 rounds of\ncommunication or something"
+  },
+  {
+    "start": 536.49,
+    "dur": 3.54,
+    "text": "like that, and this is\nnot something anybody"
+  },
+  {
+    "start": 540.03,
+    "dur": 2.08,
+    "text": "would ever want to run."
+  },
+  {
+    "start": 542.11,
+    "dur": 2.185,
+    "text": "So that's one option."
+  },
+  {
+    "start": 544.295,
+    "dur": 1.375,
+    "text": "Another thing you\ncould try to do"
+  },
+  {
+    "start": 545.67,
+    "dur": 3.01,
+    "text": "is repeat the protocol\nmany times in parallel."
+  },
+  {
+    "start": 548.68,
+    "dur": 3.66,
+    "text": "And this is a very\ncommon thing to do."
+  },
+  {
+    "start": 552.34,
+    "dur": 2.09,
+    "text": "And you can show that\nthis reduces the soundness"
+  },
+  {
+    "start": 554.43,
+    "dur": 1.68,
+    "text": "error as you would\nexpect at least"
+  },
+  {
+    "start": 556.11,
+    "dur": 1.81,
+    "text": "in this particular situation."
+  },
+  {
+    "start": 557.92,
+    "dur": 2.75,
+    "text": "And it does for any\nstatistically sound protocol,"
+  },
+  {
+    "start": 560.67,
+    "dur": 6.39,
+    "text": "it turns out, but it turns out\nthat this parallel repetition"
+  },
+  {
+    "start": 567.06,
+    "dur": 2.64,
+    "text": "transformation does\nnot actually preserve"
+  },
+  {
+    "start": 569.7,
+    "dur": 1.483,
+    "text": "zero knowledge of the protocol."
+  },
+  {
+    "start": 571.183,
+    "dur": 1.667,
+    "text": "And so you have to\nbe a lot more careful"
+  },
+  {
+    "start": 572.85,
+    "dur": 1.99,
+    "text": "in the interactive setting."
+  },
+  {
+    "start": 574.84,
+    "dur": 2.1,
+    "text": "So let's see what the issue is."
+  },
+  {
+    "start": 576.94,
+    "dur": 3.08,
+    "text": "So let's recall what\nthe protocol was"
+  },
+  {
+    "start": 580.02,
+    "dur": 1.93,
+    "text": "from the first lecture."
+  },
+  {
+    "start": 581.95,
+    "dur": 2.27,
+    "text": "So one of the\nprotocols that you saw"
+  },
+  {
+    "start": 584.22,
+    "dur": 2.85,
+    "text": "was a protocol where\nthe prover wants"
+  },
+  {
+    "start": 587.07,
+    "dur": 3.96,
+    "text": "to convince the verifier that a\ncertain publicly-known graph is"
+  },
+  {
+    "start": 591.03,
+    "dur": 1.74,
+    "text": "3 colorable."
+  },
+  {
+    "start": 592.77,
+    "dur": 1.95,
+    "text": "And so the way\nthe protocol works"
+  },
+  {
+    "start": 594.72,
+    "dur": 3.36,
+    "text": "if the prover knows a\nthree coloring of the graph"
+  },
+  {
+    "start": 598.08,
+    "dur": 1.63,
+    "text": "is as follows."
+  },
+  {
+    "start": 599.71,
+    "dur": 3.65,
+    "text": "First the prover takes\nits coloring of the graph"
+  },
+  {
+    "start": 603.36,
+    "dur": 1.66,
+    "text": "and randomizes it."
+  },
+  {
+    "start": 605.02,
+    "dur": 5.54,
+    "text": "So each of the colors it assigns\na random zero, one, or two."
+  },
+  {
+    "start": 610.56,
+    "dur": 5.32,
+    "text": "Then the prover commits to\nthese randomized colors."
+  },
+  {
+    "start": 615.88,
+    "dur": 1.88,
+    "text": "So for every vertex\nin the graph,"
+  },
+  {
+    "start": 617.76,
+    "dur": 3.27,
+    "text": "the prover commits to\na number 0, 1, or 2,"
+  },
+  {
+    "start": 621.03,
+    "dur": 2.73,
+    "text": "and sends all of these\ncommitments to the verifier."
+  },
+  {
+    "start": 623.76,
+    "dur": 2.13,
+    "text": "These commitments\nbind the prover"
+  },
+  {
+    "start": 625.89,
+    "dur": 3.54,
+    "text": "to the assignments-- the\ncoloring assignments,"
+  },
+  {
+    "start": 629.43,
+    "dur": 2.01,
+    "text": "but at this point in time,\nthe verifier does not"
+  },
+  {
+    "start": 631.44,
+    "dur": 3.84,
+    "text": "know what the colors are."
+  },
+  {
+    "start": 635.28,
+    "dur": 2.97,
+    "text": "After these messages\nare sent, the verifier"
+  },
+  {
+    "start": 638.25,
+    "dur": 2.87,
+    "text": "samples a single random edge--"
+  },
+  {
+    "start": 641.12,
+    "dur": 2.83,
+    "text": "we call the challenge\nfrom the graph--"
+  },
+  {
+    "start": 643.95,
+    "dur": 2.61,
+    "text": "and sends this\nedge to the prover."
+  },
+  {
+    "start": 646.56,
+    "dur": 5.49,
+    "text": "And then the prover is required\nto open the two colors--"
+  },
+  {
+    "start": 652.05,
+    "dur": 4.41,
+    "text": "the colors for the two\nvertices on this edge."
+  },
+  {
+    "start": 656.46,
+    "dur": 3.87,
+    "text": "And if the prover actually\ncommitted to a three coloring,"
+  },
+  {
+    "start": 660.33,
+    "dur": 4.23,
+    "text": "then the verifier will\nsee two different colors."
+  },
+  {
+    "start": 664.56,
+    "dur": 2.46,
+    "text": "And the verifier will\naccept if it indeed"
+  },
+  {
+    "start": 667.02,
+    "dur": 2.89,
+    "text": "sees two different colors."
+  },
+  {
+    "start": 669.91,
+    "dur": 7.88,
+    "text": "This is sound because the prover\nwas committed to the coloring"
+  },
+  {
+    "start": 677.79,
+    "dur": 2.68,
+    "text": "before the edge was sampled."
+  },
+  {
+    "start": 680.47,
+    "dur": 4.31,
+    "text": "And so whatever\nthis coloring was"
+  },
+  {
+    "start": 684.78,
+    "dur": 2.64,
+    "text": "if it's not a valid 3\ncoloring, the verifier"
+  },
+  {
+    "start": 687.42,
+    "dur": 1.95,
+    "text": "would have an inverse--"
+  },
+  {
+    "start": 689.37,
+    "dur": 1.77,
+    "text": "at least inverse\npolynomial chance"
+  },
+  {
+    "start": 691.14,
+    "dur": 4.08,
+    "text": "of sampling an edge that the\nprover would be unable to open"
+  },
+  {
+    "start": 695.22,
+    "dur": 2.64,
+    "text": "and accepting response\nwith respect to."
+  },
+  {
+    "start": 697.86,
+    "dur": 4.41,
+    "text": "On the other hand, it's zero\nknowledge intuitively because"
+  },
+  {
+    "start": 702.27,
+    "dur": 5.13,
+    "text": "for any fixed edge that\nthe verifier could ask,"
+  },
+  {
+    "start": 707.4,
+    "dur": 4.36,
+    "text": "the prover is going to open\nup two random unequal colors,"
+  },
+  {
+    "start": 711.76,
+    "dur": 2.76,
+    "text": "and it doesn't seem like the\nverifier really learns anything"
+  },
+  {
+    "start": 714.52,
+    "dur": 2.55,
+    "text": "from seeing two\nrandom unequal colors."
+  },
+  {
+    "start": 717.07,
+    "dur": 4.38,
+    "text": "So to formalize this, we turn\nto the simulation paradigm,"
+  },
+  {
+    "start": 721.45,
+    "dur": 2.23,
+    "text": "which you again heard\nabout in the first lecture."
+  },
+  {
+    "start": 723.68,
+    "dur": 2.4,
+    "text": "So a quick recap."
+  },
+  {
+    "start": 726.08,
+    "dur": 3.26,
+    "text": "So here's how you would\nwrite down a zero knowledge"
+  },
+  {
+    "start": 729.34,
+    "dur": 1.93,
+    "text": "simulator for this protocol."
+  },
+  {
+    "start": 731.27,
+    "dur": 4.94,
+    "text": "So we start with an arbitrary\nverifier V-star, which"
+  },
+  {
+    "start": 736.21,
+    "dur": 2.68,
+    "text": "may behave not as specified."
+  },
+  {
+    "start": 738.89,
+    "dur": 1.94,
+    "text": "So it may not sample\na random edge."
+  },
+  {
+    "start": 740.83,
+    "dur": 3.12,
+    "text": "It may pick a particular\nedge carefully"
+  },
+  {
+    "start": 743.95,
+    "dur": 2.46,
+    "text": "that it wants to learn\nsome information about,"
+  },
+  {
+    "start": 746.41,
+    "dur": 4.5,
+    "text": "and this edge may be a function\nof the provers first message."
+  },
+  {
+    "start": 750.91,
+    "dur": 1.5,
+    "text": "But nevertheless,\nwe want to show"
+  },
+  {
+    "start": 752.41,
+    "dur": 4.71,
+    "text": "that we can simulate the\nverifiers view without knowing"
+  },
+  {
+    "start": 757.12,
+    "dur": 2.4,
+    "text": "a coloring of the graph-- a\nthree coloring of the graph."
+  },
+  {
+    "start": 759.52,
+    "dur": 2.32,
+    "text": "And the way we do\nit is as follows."
+  },
+  {
+    "start": 761.84,
+    "dur": 4.07,
+    "text": "We repeatedly guess\na random edge,"
+  },
+  {
+    "start": 765.91,
+    "dur": 9.88,
+    "text": "and then we commit\nto a coloring that"
+  },
+  {
+    "start": 775.79,
+    "dur": 2.22,
+    "text": "respects this particular edge."
+  },
+  {
+    "start": 778.01,
+    "dur": 2.68,
+    "text": "So we make sure\nthat this edge has"
+  },
+  {
+    "start": 780.69,
+    "dur": 4.55,
+    "text": "a random pair of unequal colors\nassigned to the two vertices."
+  },
+  {
+    "start": 785.24,
+    "dur": 3.015,
+    "text": "You can commit to all 0's\neverywhere else, for example."
+  },
+  {
+    "start": 790.94,
+    "dur": 2.82,
+    "text": "So you send those commitments\nover and then the verifier--"
+  },
+  {
+    "start": 793.76,
+    "dur": 0.9,
+    "text": "you run the verifier."
+  },
+  {
+    "start": 794.66,
+    "dur": 5.22,
+    "text": "The verifier picks some\nedge potentially maliciously"
+  },
+  {
+    "start": 799.88,
+    "dur": 4.17,
+    "text": "and then if the\nedge of the verifier"
+  },
+  {
+    "start": 804.05,
+    "dur": 2.58,
+    "text": "sends is equal to your guess,\nthen you can send the opening."
+  },
+  {
+    "start": 806.63,
+    "dur": 2.37,
+    "text": "And it looks exactly\nlike what the verifier"
+  },
+  {
+    "start": 809.0,
+    "dur": 2.82,
+    "text": "would see in the real protocol."
+  },
+  {
+    "start": 811.82,
+    "dur": 4.2,
+    "text": "If your guess was wrong,\nthen we rewind the verifier."
+  },
+  {
+    "start": 816.02,
+    "dur": 3.72,
+    "text": "We rewind the entire\nexecution, and we start again."
+  },
+  {
+    "start": 819.74,
+    "dur": 2.82,
+    "text": "We come up with a new guess,\nnew commitments, et cetera."
+  },
+  {
+    "start": 822.56,
+    "dur": 4.05,
+    "text": "Because the\ncommitment is hiding,"
+  },
+  {
+    "start": 826.61,
+    "dur": 4.41,
+    "text": "the verifier does not know\nwhich edge we guessed,"
+  },
+  {
+    "start": 831.02,
+    "dur": 2.98,
+    "text": "and our guess is,\nin fact, going to be"
+  },
+  {
+    "start": 834.0,
+    "dur": 2.44,
+    "text": "correct with inverse\npolynomial probability."
+  },
+  {
+    "start": 836.44,
+    "dur": 2.525,
+    "text": "So after a polynomial\nnumber attempts,"
+  },
+  {
+    "start": 838.965,
+    "dur": 3.435,
+    "text": "of we're going to\nsuccessfully create"
+  },
+  {
+    "start": 842.4,
+    "dur": 3.61,
+    "text": "a transcript that\nlooks like what"
+  },
+  {
+    "start": 846.01,
+    "dur": 2.0,
+    "text": "the verifier would have\nseen in a real execution"
+  },
+  {
+    "start": 848.01,
+    "dur": 1.58,
+    "text": "of the protocol."
+  },
+  {
+    "start": 849.59,
+    "dur": 5.07,
+    "text": "So that's how you show that\nthis protocol is zero knowledge."
+  },
+  {
+    "start": 854.66,
+    "dur": 4.29,
+    "text": "S what happens if we repeated\nthis protocol many times"
+  },
+  {
+    "start": 858.95,
+    "dur": 1.18,
+    "text": "in parallel?"
+  },
+  {
+    "start": 860.13,
+    "dur": 2.94,
+    "text": "Let's see what goes wrong."
+  },
+  {
+    "start": 863.07,
+    "dur": 5.27,
+    "text": "So I'm imagining that we have\nsome t number of repetitions"
+  },
+  {
+    "start": 868.34,
+    "dur": 3.45,
+    "text": "of this protocol, and we're\nthinking of t as pretty large."
+  },
+  {
+    "start": 871.79,
+    "dur": 3.3,
+    "text": "It needs to be pretty large in\nparticular, at least security"
+  },
+  {
+    "start": 875.09,
+    "dur": 4.32,
+    "text": "parameter in order to make\nthe soundness error small."
+  },
+  {
+    "start": 879.41,
+    "dur": 3.03,
+    "text": "But if there are a large\nnumber of repetitions,"
+  },
+  {
+    "start": 882.44,
+    "dur": 4.35,
+    "text": "then the simulation strategy\nthat we just described"
+  },
+  {
+    "start": 886.79,
+    "dur": 1.45,
+    "text": "does not work anymore."
+  },
+  {
+    "start": 888.24,
+    "dur": 1.85,
+    "text": "It's not efficient."
+  },
+  {
+    "start": 890.09,
+    "dur": 2.46,
+    "text": "And the reason is that\nthere are at least 2"
+  },
+  {
+    "start": 892.55,
+    "dur": 4.41,
+    "text": "to the t verifier messages\nthat could be sent."
+  },
+  {
+    "start": 896.96,
+    "dur": 2.58,
+    "text": "If you guess one\nof them at random,"
+  },
+  {
+    "start": 899.54,
+    "dur": 2.58,
+    "text": "then it's only\ngoing to match what"
+  },
+  {
+    "start": 902.12,
+    "dur": 3.6,
+    "text": "the verifier sends with\nprobability 2 to the minus t."
+  },
+  {
+    "start": 905.72,
+    "dur": 3.84,
+    "text": "And so you would need to\ndo this 2 to the t times"
+  },
+  {
+    "start": 909.56,
+    "dur": 2.88,
+    "text": "in order to\nsuccessfully simulate."
+  },
+  {
+    "start": 912.44,
+    "dur": 3.04,
+    "text": "So the simulator would not\nrun in polynomial time,"
+  },
+  {
+    "start": 915.48,
+    "dur": 1.97,
+    "text": "and so the protocol\ndoes not satisfy"
+  },
+  {
+    "start": 917.45,
+    "dur": 1.38,
+    "text": "the zero-knowledge property."
+  },
+  {
+    "start": 918.83,
+    "dur": 4.99,
+    "text": "At least, we have not\nshown that it does."
+  },
+  {
+    "start": 923.82,
+    "dur": 4.13,
+    "text": "So that's an explanation\nfor why the simulation"
+  },
+  {
+    "start": 927.95,
+    "dur": 3.12,
+    "text": "strategy we discussed\ndoes not work"
+  },
+  {
+    "start": 931.07,
+    "dur": 1.95,
+    "text": "for the parallel\nrepeated protocol."
+  },
+  {
+    "start": 933.02,
+    "dur": 4.14,
+    "text": "But it turns out that the\nprotocol morally should not be"
+  },
+  {
+    "start": 937.16,
+    "dur": 2.02,
+    "text": "thought of as zero knowledge."
+  },
+  {
+    "start": 939.18,
+    "dur": 3.05,
+    "text": "So there is this result due\nto Dwork, Naor, Reingold,"
+  },
+  {
+    "start": 942.23,
+    "dur": 2.25,
+    "text": "and Stockmeyer from '99."
+  },
+  {
+    "start": 944.48,
+    "dur": 6.34,
+    "text": "And they show this funny\nlose-lose situation."
+  },
+  {
+    "start": 950.82,
+    "dur": 1.82,
+    "text": "There are two things\nthat you might"
+  },
+  {
+    "start": 952.64,
+    "dur": 3.57,
+    "text": "expect to be true for this\nparallel repeated protocol."
+  },
+  {
+    "start": 956.21,
+    "dur": 3.96,
+    "text": "One you might expect it to\nbe zero knowledge, and two"
+  },
+  {
+    "start": 960.17,
+    "dur": 3.27,
+    "text": "you might expect to be able\nto instantiate Fiat-Shamir"
+  },
+  {
+    "start": 963.44,
+    "dur": 1.53,
+    "text": "for this protocol."
+  },
+  {
+    "start": 964.97,
+    "dur": 3.13,
+    "text": "And they show that at least\none of those has to be false."
+  },
+  {
+    "start": 968.1,
+    "dur": 4.43,
+    "text": "So either you cannot instantiate\nFiat-Shamir for this protocol,"
+  },
+  {
+    "start": 972.53,
+    "dur": 3.49,
+    "text": "or if you can instantiate\nFiat-Shamir for this protocol,"
+  },
+  {
+    "start": 976.02,
+    "dur": 3.65,
+    "text": "then the interactive protocol\nis not zero knowledge against"
+  },
+  {
+    "start": 979.67,
+    "dur": 1.275,
+    "text": "malicious verifiers."
+  },
+  {
+    "start": 980.945,
+    "dur": 1.375,
+    "text": "And I won't get\ninto the details."
+  },
+  {
+    "start": 982.32,
+    "dur": 3.99,
+    "text": "But the point is basically\nthat the bad verifier"
+  },
+  {
+    "start": 986.31,
+    "dur": 2.64,
+    "text": "that you can't simulate\nhere is a verifier who"
+  },
+  {
+    "start": 988.95,
+    "dur": 2.1,
+    "text": "generates its\nchallenges maliciously"
+  },
+  {
+    "start": 991.05,
+    "dur": 2.87,
+    "text": "by hashing the provers message."
+  },
+  {
+    "start": 993.92,
+    "dur": 4.67,
+    "text": "So the takeaway here is that we\nshouldn't expect this protocol"
+  },
+  {
+    "start": 998.59,
+    "dur": 1.47,
+    "text": "to be zero knowledge."
+  },
+  {
+    "start": 1000.06,
+    "dur": 2.59,
+    "text": "The correct intuition is that\nFiat-Shamir should be possible."
+  },
+  {
+    "start": 1002.65,
+    "dur": 4.05,
+    "text": "And we'll discuss it\nlater in this class."
+  },
+  {
+    "start": 1006.7,
+    "dur": 3.53,
+    "text": "But as a result, we\ndon't think this protocol"
+  },
+  {
+    "start": 1010.23,
+    "dur": 2.67,
+    "text": "is zero knowledge."
+  },
+  {
+    "start": 1012.9,
+    "dur": 5.4,
+    "text": "So that's an example of\none issue that comes up"
+  },
+  {
+    "start": 1018.3,
+    "dur": 3.54,
+    "text": "when thinking about the theory\nof interactive zero knowledge"
+  },
+  {
+    "start": 1021.84,
+    "dur": 2.076,
+    "text": "protocols."
+  },
+  {
+    "start": 1023.916,
+    "dur": 2.544,
+    "text": "And the fact that parallel\nrepetition doesn't preserve"
+  },
+  {
+    "start": 1026.46,
+    "dur": 2.34,
+    "text": "zero knowledge\ncauses a whole bunch"
+  },
+  {
+    "start": 1028.8,
+    "dur": 5.4,
+    "text": "of problems that come\nout of this fact."
+  },
+  {
+    "start": 1034.2,
+    "dur": 3.0,
+    "text": "And so there are many\nlines of research devoted"
+  },
+  {
+    "start": 1037.2,
+    "dur": 2.889,
+    "text": "to circumventing this problem."
+  },
+  {
+    "start": 1040.089,
+    "dur": 4.191,
+    "text": "So, for example,\nbecause of this issue,"
+  },
+  {
+    "start": 1044.28,
+    "dur": 3.03,
+    "text": "it's not clear how many\nrounds of communication"
+  },
+  {
+    "start": 1047.31,
+    "dur": 5.55,
+    "text": "you need in order to prove\nsomething in zero knowledge."
+  },
+  {
+    "start": 1052.86,
+    "dur": 3.0,
+    "text": "Like, what is the minimal number\nof rounds of communication"
+  },
+  {
+    "start": 1055.86,
+    "dur": 1.92,
+    "text": "of a zero knowledge\nprotocol that actually"
+  },
+  {
+    "start": 1057.78,
+    "dur": 2.98,
+    "text": "achieves small soundness error."
+  },
+  {
+    "start": 1060.76,
+    "dur": 4.94,
+    "text": "So there is a very recent work\nof Bitansky, Kalai, and Paneth,"
+  },
+  {
+    "start": 1065.7,
+    "dur": 4.95,
+    "text": "who give a construction\nthat requires only three"
+  },
+  {
+    "start": 1070.65,
+    "dur": 1.99,
+    "text": "rounds of communication,\nwhich we know"
+  },
+  {
+    "start": 1072.64,
+    "dur": 1.96,
+    "text": "would have to be optimal."
+  },
+  {
+    "start": 1074.6,
+    "dur": 1.76,
+    "text": "We know that you can't\ndo less than three,"
+  },
+  {
+    "start": 1076.36,
+    "dur": 3.46,
+    "text": "and they give\ncandidates construction"
+  },
+  {
+    "start": 1079.82,
+    "dur": 4.51,
+    "text": "for a three-message protocol"
+  },
+  {
+    "start": 1084.33,
+    "dur": 0.5,
+    "text": "So."
+  },
+  {
+    "start": 1084.83,
+    "dur": 2.76,
+    "text": "Here are some other\nquestions that you could ask."
+  },
+  {
+    "start": 1087.59,
+    "dur": 3.06,
+    "text": "Forget about the rounds\nof communication."
+  },
+  {
+    "start": 1090.65,
+    "dur": 4.11,
+    "text": "How efficient can you make\nthe prover in a zero knowledge"
+  },
+  {
+    "start": 1094.76,
+    "dur": 1.5,
+    "text": "protocol?"
+  },
+  {
+    "start": 1096.26,
+    "dur": 2.7,
+    "text": "So there are many\nlines of work devoted"
+  },
+  {
+    "start": 1098.96,
+    "dur": 4.59,
+    "text": "to writing down protocols\nthat have much better prover"
+  },
+  {
+    "start": 1103.55,
+    "dur": 2.22,
+    "text": "efficiency than this\nzero knowledge protocol"
+  },
+  {
+    "start": 1105.77,
+    "dur": 2.31,
+    "text": "for three coloring\nthat I just gave you."
+  },
+  {
+    "start": 1108.08,
+    "dur": 5.07,
+    "text": "In particular, if you want to\nprove some other statement that"
+  },
+  {
+    "start": 1113.15,
+    "dur": 4.29,
+    "text": "does not naturally have the\nstructure of a three colorable"
+  },
+  {
+    "start": 1117.44,
+    "dur": 3.45,
+    "text": "graph, then in order to use\nthe protocol that we just"
+  },
+  {
+    "start": 1120.89,
+    "dur": 1.95,
+    "text": "talked about, you'd\nhave to reduce"
+  },
+  {
+    "start": 1122.84,
+    "dur": 3.78,
+    "text": "the problem you care about\nto a three coloring question,"
+  },
+  {
+    "start": 1126.62,
+    "dur": 3.87,
+    "text": "and this reduction has\nterrible overhead such"
+  },
+  {
+    "start": 1130.49,
+    "dur": 2.82,
+    "text": "that you would never want to\nactually run the three coloring"
+  },
+  {
+    "start": 1133.31,
+    "dur": 4.83,
+    "text": "protocol after computing\nthis reduction."
+  },
+  {
+    "start": 1138.14,
+    "dur": 3.53,
+    "text": "So on the other\nhand, yeah, there"
+  },
+  {
+    "start": 1141.67,
+    "dur": 3.0,
+    "text": "are other constructions of\nzero knowledge protocols"
+  },
+  {
+    "start": 1144.67,
+    "dur": 2.61,
+    "text": "that are much more\nefficient for the prover,"
+  },
+  {
+    "start": 1147.28,
+    "dur": 4.14,
+    "text": "and these are potentially\npractically relevant,"
+  },
+  {
+    "start": 1151.42,
+    "dur": 5.25,
+    "text": "and some of them are related\nto some of the protocols"
+  },
+  {
+    "start": 1156.67,
+    "dur": 4.82,
+    "text": "that you've learned about in\nthis class like bulletproofs."
+  },
+  {
+    "start": 1161.49,
+    "dur": 5.28,
+    "text": "Finally, as we already touched\non in the introduction,"
+  },
+  {
+    "start": 1166.77,
+    "dur": 2.58,
+    "text": "you could also ask for\nstronger forms of security"
+  },
+  {
+    "start": 1169.35,
+    "dur": 2.97,
+    "text": "from zero knowledge protocols\nbesides the definition"
+  },
+  {
+    "start": 1172.32,
+    "dur": 2.08,
+    "text": "that we've talked about so far."
+  },
+  {
+    "start": 1174.4,
+    "dur": 2.69,
+    "text": "So you might want\nthe protocol to be"
+  },
+  {
+    "start": 1177.09,
+    "dur": 2.4,
+    "text": "zero knowledge against quantum\nattacks which we have not"
+  },
+  {
+    "start": 1179.49,
+    "dur": 6.0,
+    "text": "actually argued because\nthe rewinding procedure"
+  },
+  {
+    "start": 1185.49,
+    "dur": 3.18,
+    "text": "that we described\nturns out not to work"
+  },
+  {
+    "start": 1188.67,
+    "dur": 4.32,
+    "text": "when the verifier is quantum\nfor somewhat subtle reasons."
+  },
+  {
+    "start": 1192.99,
+    "dur": 3.99,
+    "text": "Similarly, the rewinding\nprocedure we talked about"
+  },
+  {
+    "start": 1196.98,
+    "dur": 5.31,
+    "text": "does not work in a setting\nwhere you have an adversary who"
+  },
+  {
+    "start": 1202.29,
+    "dur": 4.74,
+    "text": "has opened up many concurrent\nexecutions of a zero knowledge"
+  },
+  {
+    "start": 1207.03,
+    "dur": 2.88,
+    "text": "protocol and is trying\nto learn something"
+  },
+  {
+    "start": 1209.91,
+    "dur": 3.21,
+    "text": "from the joint view\nof many executions."
+  },
+  {
+    "start": 1213.12,
+    "dur": 3.39,
+    "text": "And so there are lots of\nthoughts and techniques"
+  },
+  {
+    "start": 1216.51,
+    "dur": 3.843,
+    "text": "on how to write down protocols\nand prove that they're"
+  },
+  {
+    "start": 1220.353,
+    "dur": 1.042,
+    "text": "secure in these settings."
+  },
+  {
+    "start": 1230.8,
+    "dur": 3.23,
+    "text": "So that was a brief foray into\nthe world of interactive zero"
+  },
+  {
+    "start": 1234.03,
+    "dur": 2.68,
+    "text": "knowledge protocols, but\nfor the rest of the lecture,"
+  },
+  {
+    "start": 1236.71,
+    "dur": 2.15,
+    "text": "I want to talk about\ntheoretical aspects"
+  },
+  {
+    "start": 1238.86,
+    "dur": 2.31,
+    "text": "of the Fiat-Shamir\ntransformation"
+  },
+  {
+    "start": 1241.17,
+    "dur": 2.64,
+    "text": "and about the existence of\nsuccinct non-interactive"
+  },
+  {
+    "start": 1243.81,
+    "dur": 1.45,
+    "text": "arguments."
+  },
+  {
+    "start": 1245.26,
+    "dur": 2.57,
+    "text": "So here's a quick\nreminder of the definition"
+  },
+  {
+    "start": 1247.83,
+    "dur": 3.72,
+    "text": "of a succinct\nnon-interactive argument."
+  },
+  {
+    "start": 1251.55,
+    "dur": 2.34,
+    "text": "So we have an NP language."
+  },
+  {
+    "start": 1253.89,
+    "dur": 3.57,
+    "text": "We have some claim\nrepresented by a string x."
+  },
+  {
+    "start": 1257.46,
+    "dur": 3.66,
+    "text": "And the prover-- the\nhonest prover, at least,"
+  },
+  {
+    "start": 1261.12,
+    "dur": 5.76,
+    "text": "will have a witness w for\nthe truth of the statement x."
+  },
+  {
+    "start": 1266.88,
+    "dur": 3.21,
+    "text": "And the prover and verifier\nshare a common reference"
+  },
+  {
+    "start": 1270.09,
+    "dur": 4.14,
+    "text": "string, either some random coins\nor generated via trusted setup."
+  },
+  {
+    "start": 1274.23,
+    "dur": 3.99,
+    "text": "And then the prover uses\nits potentially long witness"
+  },
+  {
+    "start": 1278.22,
+    "dur": 2.88,
+    "text": "to generate a short\neasy to verify"
+  },
+  {
+    "start": 1281.1,
+    "dur": 2.49,
+    "text": "proof pi that is\nsent to the verifier"
+  },
+  {
+    "start": 1283.59,
+    "dur": 5.04,
+    "text": "that the verifier can use\nto check that x is true."
+  },
+  {
+    "start": 1288.63,
+    "dur": 3.0,
+    "text": "And as long as the\nprover actually"
+  },
+  {
+    "start": 1291.63,
+    "dur": 3.21,
+    "text": "has a witness w for\nx, then the verifier"
+  },
+  {
+    "start": 1294.84,
+    "dur": 2.34,
+    "text": "should almost always accept."
+  },
+  {
+    "start": 1297.18,
+    "dur": 4.71,
+    "text": "But on the other hand, if the\nstatement x is actually false,"
+  },
+  {
+    "start": 1301.89,
+    "dur": 5.26,
+    "text": "then for an arbitrary efficient\nstrategy p-star, whatever"
+  },
+  {
+    "start": 1307.15,
+    "dur": 2.73,
+    "text": "proof that the\nstrategy generates"
+  },
+  {
+    "start": 1309.88,
+    "dur": 3.82,
+    "text": "should make the verifier reject\nwith very high probability."
+  },
+  {
+    "start": 1313.7,
+    "dur": 3.2,
+    "text": "Finally, as I said, we\nwant the proof to be short."
+  },
+  {
+    "start": 1316.9,
+    "dur": 2.19,
+    "text": "So we're thinking of this\nas like polylogarithmic"
+  },
+  {
+    "start": 1319.09,
+    "dur": 3.72,
+    "text": "in the length of the statement\nand witness and verification"
+  },
+  {
+    "start": 1322.81,
+    "dur": 1.6,
+    "text": "should be very fast."
+  },
+  {
+    "start": 1324.41,
+    "dur": 1.97,
+    "text": "It should be about\nthis much time"
+  },
+  {
+    "start": 1326.38,
+    "dur": 2.96,
+    "text": "with some read\naccess to the input."
+  },
+  {
+    "start": 1329.34,
+    "dur": 3.14,
+    "text": "So this is what we'd like."
+  },
+  {
+    "start": 1332.48,
+    "dur": 2.85,
+    "text": "And we've seen\nconstructions of SNARGs"
+  },
+  {
+    "start": 1335.33,
+    "dur": 4.35,
+    "text": "in this class already using\ninteractive oracle proofs along"
+  },
+  {
+    "start": 1339.68,
+    "dur": 1.8,
+    "text": "with a random oracle."
+  },
+  {
+    "start": 1341.48,
+    "dur": 2.52,
+    "text": "There is also another\nfamily of constructions"
+  },
+  {
+    "start": 1344.0,
+    "dur": 3.4,
+    "text": "that you saw briefly\nusing linear PCPs,"
+  },
+  {
+    "start": 1347.4,
+    "dur": 2.0,
+    "text": "but we'll be focusing on\nthe random oracle-based"
+  },
+  {
+    "start": 1349.4,
+    "dur": 3.21,
+    "text": "constructions today."
+  },
+  {
+    "start": 1352.61,
+    "dur": 4.43,
+    "text": "So what does it mean that\na random oracle was used"
+  },
+  {
+    "start": 1357.04,
+    "dur": 3.0,
+    "text": "to convert an IOP into a SNARG?"
+  },
+  {
+    "start": 1360.04,
+    "dur": 4.38,
+    "text": "Well, it's done via the\nFiat-Shamir transform, which"
+  },
+  {
+    "start": 1364.42,
+    "dur": 1.11,
+    "text": "you've also learned about."
+  },
+  {
+    "start": 1365.53,
+    "dur": 3.09,
+    "text": "But a quick recap is that it's\na powerful and very general"
+  },
+  {
+    "start": 1368.62,
+    "dur": 1.71,
+    "text": "proposal for\nremoving interaction"
+  },
+  {
+    "start": 1370.33,
+    "dur": 1.95,
+    "text": "from interactive protocols."
+  },
+  {
+    "start": 1372.28,
+    "dur": 3.81,
+    "text": "As long as the verifier messages\nin the interactive protocol"
+  },
+  {
+    "start": 1376.09,
+    "dur": 2.97,
+    "text": "are truly random\nstrings, then you"
+  },
+  {
+    "start": 1379.06,
+    "dur": 5.04,
+    "text": "can replace interaction with a\nverifier with the hash function"
+  },
+  {
+    "start": 1384.1,
+    "dur": 3.39,
+    "text": "h that the prover uses to\ngenerate verifier messages"
+  },
+  {
+    "start": 1387.49,
+    "dur": 2.19,
+    "text": "on its own by hashing\nits own messages"
+  },
+  {
+    "start": 1389.68,
+    "dur": 4.74,
+    "text": "or hashing the transcript\nprefixes to generate"
+  },
+  {
+    "start": 1394.42,
+    "dur": 2.31,
+    "text": "the next verifier message."
+  },
+  {
+    "start": 1396.73,
+    "dur": 3.03,
+    "text": "What you see on the screen is\njust the three message case."
+  },
+  {
+    "start": 1399.76,
+    "dur": 3.21,
+    "text": "So you can think of\nthe verifier challenge"
+  },
+  {
+    "start": 1402.97,
+    "dur": 4.29,
+    "text": "as being a hash of the\nfirst message alpha"
+  },
+  {
+    "start": 1407.26,
+    "dur": 1.92,
+    "text": "potentially along\nwith the statement"
+  },
+  {
+    "start": 1409.18,
+    "dur": 3.08,
+    "text": "x, which is not written here."
+  },
+  {
+    "start": 1412.26,
+    "dur": 5.6,
+    "text": "So it turns out that if you\nmodel this hash function"
+  },
+  {
+    "start": 1417.86,
+    "dur": 4.68,
+    "text": "as a random oracle, then this\ntransformation will securely"
+  },
+  {
+    "start": 1422.54,
+    "dur": 2.37,
+    "text": "compile any constant\nround public"
+  },
+  {
+    "start": 1424.91,
+    "dur": 1.59,
+    "text": "coin interactive protocol."
+  },
+  {
+    "start": 1426.5,
+    "dur": 3.21,
+    "text": "In fact, it will compile\nmore protocols than this,"
+  },
+  {
+    "start": 1429.71,
+    "dur": 1.75,
+    "text": "but for simplicity\nof discussion,"
+  },
+  {
+    "start": 1431.46,
+    "dur": 3.2,
+    "text": "let's just think about constant\nround protocols for now."
+  },
+  {
+    "start": 1434.66,
+    "dur": 2.43,
+    "text": "So I don't think that\nwe've actually seen"
+  },
+  {
+    "start": 1437.09,
+    "dur": 2.093,
+    "text": "a proof of this in the class."
+  },
+  {
+    "start": 1439.183,
+    "dur": 1.417,
+    "text": "So the first thing\nI'm going to do"
+  },
+  {
+    "start": 1440.6,
+    "dur": 4.83,
+    "text": "is sketch a proof that in\nthe random oracle model"
+  },
+  {
+    "start": 1445.43,
+    "dur": 3.64,
+    "text": "this compiler works."
+  },
+  {
+    "start": 1449.07,
+    "dur": 3.02,
+    "text": "So now we should be a\nlittle more specific."
+  },
+  {
+    "start": 1452.09,
+    "dur": 2.58,
+    "text": "Well, what do we mean\nby the statements"
+  },
+  {
+    "start": 1454.67,
+    "dur": 3.21,
+    "text": "that h is modeled\nas a random oracle?"
+  },
+  {
+    "start": 1457.88,
+    "dur": 5.16,
+    "text": "So the random oracle\nmodel, roughly speaking,"
+  },
+  {
+    "start": 1463.04,
+    "dur": 3.72,
+    "text": "is an assumption about\nthe structure of an attack"
+  },
+  {
+    "start": 1466.76,
+    "dur": 3.36,
+    "text": "on the hash function."
+  },
+  {
+    "start": 1470.12,
+    "dur": 5.28,
+    "text": "So in principle for the\nFiat-Shamir protocol,"
+  },
+  {
+    "start": 1475.4,
+    "dur": 1.77,
+    "text": "the prover is\ngiven a description"
+  },
+  {
+    "start": 1477.17,
+    "dur": 3.24,
+    "text": "of the hash function, and it\ncan use this hash function"
+  },
+  {
+    "start": 1480.41,
+    "dur": 2.61,
+    "text": "description however\nit likes in order"
+  },
+  {
+    "start": 1483.02,
+    "dur": 1.71,
+    "text": "to try to generate its proof."
+  },
+  {
+    "start": 1484.73,
+    "dur": 2.64,
+    "text": "But the random oracle\nmodel is an assumption"
+  },
+  {
+    "start": 1487.37,
+    "dur": 3.57,
+    "text": "that the best that an\nadversarial strategy can do"
+  },
+  {
+    "start": 1490.94,
+    "dur": 4.86,
+    "text": "is treat the hash function\ndescription as a Black box"
+  },
+  {
+    "start": 1495.8,
+    "dur": 5.61,
+    "text": "as a box which takes as\ninputs message alpha and spits"
+  },
+  {
+    "start": 1501.41,
+    "dur": 6.72,
+    "text": "out a message beta, and the\nstrategy will only query this--"
+  },
+  {
+    "start": 1508.13,
+    "dur": 2.37,
+    "text": "query this hash\nfunction as an oracle."
+  },
+  {
+    "start": 1510.5,
+    "dur": 4.537,
+    "text": "Will not use the implementation\ndetails of the hash function."
+  },
+  {
+    "start": 1515.037,
+    "dur": 1.583,
+    "text": "So the random oracle\nmodel was a class"
+  },
+  {
+    "start": 1516.62,
+    "dur": 3.51,
+    "text": "of attacks that tries to-- in\nthe case of Fiat-Shamir tries"
+  },
+  {
+    "start": 1520.13,
+    "dur": 3.5,
+    "text": "to generate an accepting\nproof on a false statement"
+  },
+  {
+    "start": 1523.63,
+    "dur": 3.49,
+    "text": "by querying the hash\nfunction a bunch of times"
+  },
+  {
+    "start": 1527.12,
+    "dur": 2.49,
+    "text": "and not actually looking\nat the implementation"
+  },
+  {
+    "start": 1529.61,
+    "dur": 2.9,
+    "text": "details of the hash function."
+  },
+  {
+    "start": 1532.51,
+    "dur": 3.6,
+    "text": "And roughly speaking, if you're\nonly treating the hash function"
+  },
+  {
+    "start": 1536.11,
+    "dur": 2.07,
+    "text": "as a Black box, it's\nreasonable to think"
+  },
+  {
+    "start": 1538.18,
+    "dur": 2.86,
+    "text": "of it as just like a\nuniformly random function."
+  },
+  {
+    "start": 1541.04,
+    "dur": 3.89,
+    "text": "For example, the\nhash function could"
+  },
+  {
+    "start": 1544.93,
+    "dur": 3.21,
+    "text": "be a pseudo random function,\nand then if you only query it,"
+  },
+  {
+    "start": 1548.14,
+    "dur": 2.58,
+    "text": "then it's indistinguishable\nfrom a truly random function."
+  },
+  {
+    "start": 1553.47,
+    "dur": 4.59,
+    "text": "So the claim very concretely\nis that Fiat-Shamir"
+  },
+  {
+    "start": 1558.06,
+    "dur": 1.99,
+    "text": "works in the random\noracle model,"
+  },
+  {
+    "start": 1560.05,
+    "dur": 3.29,
+    "text": "meaning that if you only\nquery the hash function h"
+  },
+  {
+    "start": 1563.34,
+    "dur": 2.16,
+    "text": "and you don't look at\nits implementation,"
+  },
+  {
+    "start": 1565.5,
+    "dur": 4.38,
+    "text": "then the best prover strategy\nfor the non-interactive"
+  },
+  {
+    "start": 1569.88,
+    "dur": 4.56,
+    "text": "protocol is not much better\nthan the best prover strategy"
+  },
+  {
+    "start": 1574.44,
+    "dur": 1.65,
+    "text": "for the interactive protocol."
+  },
+  {
+    "start": 1576.09,
+    "dur": 2.16,
+    "text": "And there's a security\nloss that grows"
+  },
+  {
+    "start": 1578.25,
+    "dur": 1.87,
+    "text": "with the number of rounds."
+  },
+  {
+    "start": 1580.12,
+    "dur": 1.67,
+    "text": "So for the proof\nright now, we'll"
+  },
+  {
+    "start": 1581.79,
+    "dur": 2.29,
+    "text": "focus on the three message case."
+  },
+  {
+    "start": 1584.08,
+    "dur": 6.365,
+    "text": "So what we need to do is\nshow that any good prover"
+  },
+  {
+    "start": 1590.445,
+    "dur": 2.865,
+    "text": "any successful prover for\nthe non-interactive protocol"
+  },
+  {
+    "start": 1593.31,
+    "dur": 1.95,
+    "text": "can be converted into\na successful prover"
+  },
+  {
+    "start": 1595.26,
+    "dur": 1.5,
+    "text": "for the interactive protocol."
+  },
+  {
+    "start": 1596.76,
+    "dur": 2.35,
+    "text": "So we start with\nthis prover p-star,"
+  },
+  {
+    "start": 1599.11,
+    "dur": 2.15,
+    "text": "which queries the hash\nfunction a bunch of times"
+  },
+  {
+    "start": 1601.26,
+    "dur": 2.85,
+    "text": "and eventually produces a\ntranscript alpha, beta, gamma"
+  },
+  {
+    "start": 1604.11,
+    "dur": 1.77,
+    "text": "sent to the verifier."
+  },
+  {
+    "start": 1605.88,
+    "dur": 5.19,
+    "text": "And we want to say that\nwe can emulate this"
+  },
+  {
+    "start": 1611.07,
+    "dur": 3.7,
+    "text": "in the interactive setting."
+  },
+  {
+    "start": 1614.77,
+    "dur": 3.87,
+    "text": "So the key idea for\nproving security here"
+  },
+  {
+    "start": 1618.64,
+    "dur": 3.39,
+    "text": "is that the first\nmessage alpha that"
+  },
+  {
+    "start": 1622.03,
+    "dur": 3.03,
+    "text": "is generated by\np-star, essentially"
+  },
+  {
+    "start": 1625.06,
+    "dur": 2.4,
+    "text": "has to come from\none of the queries"
+  },
+  {
+    "start": 1627.46,
+    "dur": 3.72,
+    "text": "that p-star made to\nthe hash function h."
+  },
+  {
+    "start": 1631.18,
+    "dur": 2.77,
+    "text": "In fact, that can be done\nwithout loss of generality."
+  },
+  {
+    "start": 1633.95,
+    "dur": 2.0,
+    "text": "You can always\nassume that whenever"
+  },
+  {
+    "start": 1635.95,
+    "dur": 2.7,
+    "text": "the prover is going to output\nsomething it first queries--"
+  },
+  {
+    "start": 1638.65,
+    "dur": 4.86,
+    "text": "the message alpha to the hash\nfunction if you really want."
+  },
+  {
+    "start": 1643.51,
+    "dur": 4.02,
+    "text": "But now the punchline is that\nwe assuming that the prover only"
+  },
+  {
+    "start": 1647.53,
+    "dur": 2.46,
+    "text": "makes a polynomial number of\nqueries to the hash function"
+  },
+  {
+    "start": 1649.99,
+    "dur": 1.735,
+    "text": "because it's running\nin polynomial time"
+  },
+  {
+    "start": 1651.725,
+    "dur": 2.625,
+    "text": "or more generally, it's running\nin some bounded amount of time."
+  },
+  {
+    "start": 1654.35,
+    "dur": 1.708,
+    "text": "And so it has a bounded\nnumber of queries"
+  },
+  {
+    "start": 1656.058,
+    "dur": 2.222,
+    "text": "it can make to\nthe hash function."
+  },
+  {
+    "start": 1658.28,
+    "dur": 5.39,
+    "text": "So we can take advantage\nof this to actually break"
+  },
+  {
+    "start": 1663.67,
+    "dur": 2.67,
+    "text": "the three-message protocol."
+  },
+  {
+    "start": 1666.34,
+    "dur": 4.11,
+    "text": "And the idea is as follows."
+  },
+  {
+    "start": 1670.45,
+    "dur": 4.04,
+    "text": "If we want to trick the verifier\nin the three-message protocol,"
+  },
+  {
+    "start": 1674.49,
+    "dur": 5.73,
+    "text": "well, we have this random\noracle non-interactive strategy"
+  },
+  {
+    "start": 1680.22,
+    "dur": 2.61,
+    "text": "that's tricking the\nnon-interactive verifier,"
+  },
+  {
+    "start": 1682.83,
+    "dur": 3.96,
+    "text": "and if the prover makes q\nqueries to the hash function,"
+  },
+  {
+    "start": 1686.79,
+    "dur": 3.45,
+    "text": "then there's one of q\nlocations essentially"
+  },
+  {
+    "start": 1690.24,
+    "dur": 5.25,
+    "text": "where it's producing\nan accepting transcript"
+  },
+  {
+    "start": 1695.49,
+    "dur": 3.96,
+    "text": "on a false statement for\nthe interactive protocol."
+  },
+  {
+    "start": 1699.45,
+    "dur": 1.77,
+    "text": "So how will break the\ninteractive protocol"
+  },
+  {
+    "start": 1701.22,
+    "dur": 0.99,
+    "text": "is we'll make a guess."
+  },
+  {
+    "start": 1702.21,
+    "dur": 4.44,
+    "text": "We'll guess which query to h is\ngoing to be the successful one,"
+  },
+  {
+    "start": 1706.65,
+    "dur": 1.77,
+    "text": "essentially."
+  },
+  {
+    "start": 1708.42,
+    "dur": 2.82,
+    "text": "And then in the\ninteractive protocol,"
+  },
+  {
+    "start": 1711.24,
+    "dur": 2.4,
+    "text": "we will generate the\nfirst message alpha"
+  },
+  {
+    "start": 1713.64,
+    "dur": 4.32,
+    "text": "by running the\nleft-hand side strategy"
+  },
+  {
+    "start": 1717.96,
+    "dur": 7.92,
+    "text": "making i minus 1 queries to\nthe hash function ourselves."
+  },
+  {
+    "start": 1725.88,
+    "dur": 5.22,
+    "text": "So i is the guess\nthat we made for which"
+  },
+  {
+    "start": 1731.1,
+    "dur": 1.75,
+    "text": "query is going to work."
+  },
+  {
+    "start": 1732.85,
+    "dur": 4.32,
+    "text": "So we do the first i minus 1\nquery is locally ourselves,"
+  },
+  {
+    "start": 1737.17,
+    "dur": 5.28,
+    "text": "and then we send the\nwhatever the ith query"
+  },
+  {
+    "start": 1742.45,
+    "dur": 2.64,
+    "text": "was going to be we instead\nsend that to the verifier."
+  },
+  {
+    "start": 1745.09,
+    "dur": 2.88,
+    "text": "We do not query the hash\nfunction on that alpha."
+  },
+  {
+    "start": 1747.97,
+    "dur": 1.8,
+    "text": "We just send it to the verifier."
+  },
+  {
+    "start": 1749.77,
+    "dur": 4.74,
+    "text": "Then the verifier sends us\nback a random string beta,"
+  },
+  {
+    "start": 1754.51,
+    "dur": 1.65,
+    "text": "and we basically\npretend that this"
+  },
+  {
+    "start": 1756.16,
+    "dur": 2.37,
+    "text": "was the output of\nthe hash function."
+  },
+  {
+    "start": 1758.53,
+    "dur": 2.55,
+    "text": "Then to generate our\nlast message gamma,"
+  },
+  {
+    "start": 1761.08,
+    "dur": 5.64,
+    "text": "we continue running the\nleft-hand side strategy"
+  },
+  {
+    "start": 1766.72,
+    "dur": 2.55,
+    "text": "until it outputs a\ntranscript at the end."
+  },
+  {
+    "start": 1769.27,
+    "dur": 3.24,
+    "text": "We pick whatever\ngamma was chosen"
+  },
+  {
+    "start": 1772.51,
+    "dur": 4.26,
+    "text": "by the Fiat-Shamir prover,\nand we output that."
+  },
+  {
+    "start": 1776.77,
+    "dur": 4.74,
+    "text": "So basically, this will break\nthe interactive protocol"
+  },
+  {
+    "start": 1781.51,
+    "dur": 3.51,
+    "text": "with probability 1 over\nq times the probability"
+  },
+  {
+    "start": 1785.02,
+    "dur": 3.09,
+    "text": "that the non-interactive\nprover is winning."
+  },
+  {
+    "start": 1788.11,
+    "dur": 6.72,
+    "text": "Because if we happen to guess\nwhich query the alpha that"
+  },
+  {
+    "start": 1794.83,
+    "dur": 3.66,
+    "text": "the non-interactive prover\noutputs corresponds to, then we"
+  },
+  {
+    "start": 1798.49,
+    "dur": 0.63,
+    "text": "are--"
+  },
+  {
+    "start": 1799.12,
+    "dur": 1.86,
+    "text": "if our guess is\ncorrect, then we're"
+  },
+  {
+    "start": 1800.98,
+    "dur": 4.17,
+    "text": "correct the emulating\nthe random oracle attack"
+  },
+  {
+    "start": 1805.15,
+    "dur": 2.93,
+    "text": "in the interactive setting."
+  },
+  {
+    "start": 1808.08,
+    "dur": 4.934,
+    "text": "And so this says that your\nsecurity is only 1 over q"
+  },
+  {
+    "start": 1813.014,
+    "dur": 3.096,
+    "text": "worse than the\nsecurity that you had"
+  },
+  {
+    "start": 1816.11,
+    "dur": 1.71,
+    "text": "for the interactive protocol."
+  },
+  {
+    "start": 1817.82,
+    "dur": 4.47,
+    "text": "For a two round protocol,\nyour security loss in general"
+  },
+  {
+    "start": 1822.29,
+    "dur": 3.54,
+    "text": "will grow like 1 over to\nthe r, roughly speaking."
+  },
+  {
+    "start": 1825.83,
+    "dur": 4.68,
+    "text": "Although you can do better for\nprotocols satisfying more fine"
+  },
+  {
+    "start": 1830.51,
+    "dur": 4.29,
+    "text": "grained soundness notions\nlike round by round soundness."
+  },
+  {
+    "start": 1834.8,
+    "dur": 2.15,
+    "text": "So that was a proof\nthat Fiat-Shamir"
+  },
+  {
+    "start": 1836.95,
+    "dur": 2.85,
+    "text": "works under reasonable\nhypothesis in the random oracle"
+  },
+  {
+    "start": 1839.8,
+    "dur": 3.33,
+    "text": "model, but now let's\nrevisit this assumption"
+  },
+  {
+    "start": 1843.13,
+    "dur": 1.99,
+    "text": "that the random oracle\nmodel was making."
+  },
+  {
+    "start": 1845.12,
+    "dur": 2.6,
+    "text": "So as we said\nbefore, the model is"
+  },
+  {
+    "start": 1847.72,
+    "dur": 1.83,
+    "text": "assuming that even\nthough you're given"
+  },
+  {
+    "start": 1849.55,
+    "dur": 2.94,
+    "text": "the description of\nsome hash function h"
+  },
+  {
+    "start": 1852.49,
+    "dur": 3.9,
+    "text": "that the best an attack can do\nfor the purposes of breaking"
+  },
+  {
+    "start": 1856.39,
+    "dur": 3.51,
+    "text": "the Fiat-Shamir protocol\nis treat that hash function"
+  },
+  {
+    "start": 1859.9,
+    "dur": 1.2,
+    "text": "as a Black box."
+  },
+  {
+    "start": 1861.1,
+    "dur": 1.53,
+    "text": "Plug-in a bunch of inputs to it."
+  },
+  {
+    "start": 1862.63,
+    "dur": 4.88,
+    "text": "Get some outputs and use this\nto try to break security."
+  },
+  {
+    "start": 1867.51,
+    "dur": 6.56,
+    "text": "So in reality, the hash function\nis not a random function"
+  },
+  {
+    "start": 1874.07,
+    "dur": 3.12,
+    "text": "that you call as a Black\nbox, but is instead something"
+  },
+  {
+    "start": 1877.19,
+    "dur": 3.54,
+    "text": "like SHA256 may be salted\nwith some like identities"
+  },
+  {
+    "start": 1880.73,
+    "dur": 4.65,
+    "text": "time, stamps, and random\nstrings things like this,"
+  },
+  {
+    "start": 1885.38,
+    "dur": 2.76,
+    "text": "but it's something like SHA256."
+  },
+  {
+    "start": 1888.14,
+    "dur": 4.05,
+    "text": "And so that's what it is in\npractice, but even in theory,"
+  },
+  {
+    "start": 1892.19,
+    "dur": 3.87,
+    "text": "like no matter what you're\ngoing to instantiate"
+  },
+  {
+    "start": 1896.06,
+    "dur": 3.54,
+    "text": "this hash function with some\nefficiently computable public"
+  },
+  {
+    "start": 1899.6,
+    "dur": 3.06,
+    "text": "algorithm because it needs to\nbe something that the prover"
+  },
+  {
+    "start": 1902.66,
+    "dur": 2.67,
+    "text": "and verifier can\nboth actually compute"
+  },
+  {
+    "start": 1905.33,
+    "dur": 2.59,
+    "text": "in a reasonable amount of time."
+  },
+  {
+    "start": 1907.92,
+    "dur": 4.46,
+    "text": "So there is a mismatch between\nthe model, which treats h"
+  },
+  {
+    "start": 1912.38,
+    "dur": 2.91,
+    "text": "as a random function\nand the reality, which"
+  },
+  {
+    "start": 1915.29,
+    "dur": 2.22,
+    "text": "is that it's an\nefficiently computable is"
+  },
+  {
+    "start": 1917.51,
+    "dur": 2.41,
+    "text": "an efficient algorithm."
+  },
+  {
+    "start": 1919.92,
+    "dur": 2.84,
+    "text": "And so YEAH, this is an\nobvious like theoretical"
+  },
+  {
+    "start": 1922.76,
+    "dur": 3.24,
+    "text": "issue, which is that efficient\npublic algorithms can't"
+  },
+  {
+    "start": 1926.0,
+    "dur": 2.95,
+    "text": "compute random functions."
+  },
+  {
+    "start": 1928.95,
+    "dur": 4.83,
+    "text": "And so yeah, that's\na clear issue."
+  },
+  {
+    "start": 1933.78,
+    "dur": 2.76,
+    "text": "But nevertheless,\nyou might still"
+  },
+  {
+    "start": 1936.54,
+    "dur": 4.2,
+    "text": "hope that for any\nsecurity property"
+  },
+  {
+    "start": 1940.74,
+    "dur": 3.93,
+    "text": "that you actually care\nabout that if you can prove"
+  },
+  {
+    "start": 1944.67,
+    "dur": 2.97,
+    "text": "the security property holds\nin the random oracle model,"
+  },
+  {
+    "start": 1947.64,
+    "dur": 4.32,
+    "text": "then reasonable hash function\ninstantiation will also"
+  },
+  {
+    "start": 1951.96,
+    "dur": 2.05,
+    "text": "satisfy that security property."
+  },
+  {
+    "start": 1954.01,
+    "dur": 5.48,
+    "text": "And this is the logic underlying\nthe random oracle heuristic."
+  },
+  {
+    "start": 1959.49,
+    "dur": 5.74,
+    "text": "So, of course, you don't just\nhave to hope that it works."
+  },
+  {
+    "start": 1965.23,
+    "dur": 3.62,
+    "text": "You can also try to attack\nany specific protocols"
+  },
+  {
+    "start": 1968.85,
+    "dur": 1.99,
+    "text": "that you implement."
+  },
+  {
+    "start": 1970.84,
+    "dur": 5.21,
+    "text": "And so the heuristic is\nsupported by the fact"
+  },
+  {
+    "start": 1976.05,
+    "dur": 3.48,
+    "text": "that the Fiat-Shamir paradigm\nhas not been really broken"
+  },
+  {
+    "start": 1979.53,
+    "dur": 4.71,
+    "text": "in practice, but\ntheorists are trying"
+  },
+  {
+    "start": 1984.24,
+    "dur": 2.88,
+    "text": "to get a more\nprincipled understanding"
+  },
+  {
+    "start": 1987.12,
+    "dur": 3.7,
+    "text": "of when and why this\ntransformation actually works."
+  },
+  {
+    "start": 1990.82,
+    "dur": 2.61,
+    "text": "So the first thing I'm going to\nshow you is a negative result."
+  },
+  {
+    "start": 1993.43,
+    "dur": 3.59,
+    "text": "We're going to see a property\nof random oracles that is"
+  },
+  {
+    "start": 1997.02,
+    "dur": 3.42,
+    "text": "a security property that holds\nin the random oracle model that"
+  },
+  {
+    "start": 2000.44,
+    "dur": 4.86,
+    "text": "provably cannot hold for any\nefficiently computable hash"
+  },
+  {
+    "start": 2005.3,
+    "dur": 0.78,
+    "text": "function family."
+  },
+  {
+    "start": 2006.08,
+    "dur": 4.41,
+    "text": "So this is a violation of\nthe random oracle heuristic."
+  },
+  {
+    "start": 2010.49,
+    "dur": 6.13,
+    "text": "So here's a family of very\nimportant security properties."
+  },
+  {
+    "start": 2016.62,
+    "dur": 4.28,
+    "text": "So there's a security\nproperty for every function"
+  },
+  {
+    "start": 2020.9,
+    "dur": 4.92,
+    "text": "f mapping strings to fixed,\nsay, security parameter length"
+  },
+  {
+    "start": 2025.82,
+    "dur": 1.65,
+    "text": "strings."
+  },
+  {
+    "start": 2027.47,
+    "dur": 3.06,
+    "text": "So a hash function or\nhash function family"
+  },
+  {
+    "start": 2030.53,
+    "dur": 4.44,
+    "text": "we say is correlation\nintractable for this function"
+  },
+  {
+    "start": 2034.97,
+    "dur": 0.69,
+    "text": "f."
+  },
+  {
+    "start": 2035.66,
+    "dur": 4.17,
+    "text": "If given a description\nof the hash function h,"
+  },
+  {
+    "start": 2039.83,
+    "dur": 4.17,
+    "text": "it is computationally hard to\nfind an input x to the hash"
+  },
+  {
+    "start": 2044.0,
+    "dur": 5.07,
+    "text": "function such that hash\nof x is equal to f of x."
+  },
+  {
+    "start": 2049.07,
+    "dur": 4.169,
+    "text": "So this is a very, very\nbroad security property."
+  },
+  {
+    "start": 2053.239,
+    "dur": 2.101,
+    "text": "You can plug-in any function\nf that you like here,"
+  },
+  {
+    "start": 2055.34,
+    "dur": 3.6,
+    "text": "and you get a different\nsecurity property."
+  },
+  {
+    "start": 2058.94,
+    "dur": 4.62,
+    "text": "But it's not hard to see that\nfor any fixed function f,"
+  },
+  {
+    "start": 2063.56,
+    "dur": 2.655,
+    "text": "you get f correlation\nintractability"
+  },
+  {
+    "start": 2066.215,
+    "dur": 1.125,
+    "text": "in the random oracle model."
+  },
+  {
+    "start": 2067.34,
+    "dur": 4.27,
+    "text": "That is a random oracle will\nsatisfy this security property."
+  },
+  {
+    "start": 2071.61,
+    "dur": 2.029,
+    "text": "And the reason is very simple."
+  },
+  {
+    "start": 2073.639,
+    "dur": 2.58,
+    "text": "In the random oracle\nmodel, your attacker"
+  },
+  {
+    "start": 2076.219,
+    "dur": 3.721,
+    "text": "is just making a polynomial\nnumber of queries"
+  },
+  {
+    "start": 2079.94,
+    "dur": 1.799,
+    "text": "to the hash function."
+  },
+  {
+    "start": 2081.739,
+    "dur": 3.301,
+    "text": "And for each query x made\nto the hash function,"
+  },
+  {
+    "start": 2085.04,
+    "dur": 3.34,
+    "text": "you get a random\noutput string y."
+  },
+  {
+    "start": 2088.38,
+    "dur": 2.509,
+    "text": "And each time you do\nthis, the probability"
+  },
+  {
+    "start": 2090.889,
+    "dur": 3.33,
+    "text": "that y is equal to f of x\nis 2 to the minus lambda"
+  },
+  {
+    "start": 2094.219,
+    "dur": 2.491,
+    "text": "2 to the minus security\nparameter which is tiny."
+  },
+  {
+    "start": 2096.71,
+    "dur": 2.82,
+    "text": "And so even if you do this a\npolynomial number of times,"
+  },
+  {
+    "start": 2099.53,
+    "dur": 3.87,
+    "text": "you're extremely unlikely\nto find an x such that hash"
+  },
+  {
+    "start": 2103.4,
+    "dur": 2.31,
+    "text": "of x is equal to f of x."
+  },
+  {
+    "start": 2105.71,
+    "dur": 4.92,
+    "text": "And this is true for\nevery fixed function f."
+  },
+  {
+    "start": 2110.63,
+    "dur": 2.04,
+    "text": "So this is a very\nreasonable security property"
+  },
+  {
+    "start": 2112.67,
+    "dur": 1.87,
+    "text": "that a random oracle has."
+  },
+  {
+    "start": 2114.54,
+    "dur": 3.2,
+    "text": "And so you might expect\nthat if you instantiate"
+  },
+  {
+    "start": 2117.74,
+    "dur": 3.0,
+    "text": "the random oracle with SHA\nor with some reasonable hash"
+  },
+  {
+    "start": 2120.74,
+    "dur": 5.88,
+    "text": "function that you'll also\nget this security property,"
+  },
+  {
+    "start": 2126.62,
+    "dur": 2.05,
+    "text": "but it turns out\nthis is not the case."
+  },
+  {
+    "start": 2128.67,
+    "dur": 2.75,
+    "text": "So there is a\nparticular function"
+  },
+  {
+    "start": 2131.42,
+    "dur": 5.88,
+    "text": "f such that for any efficiently\ncomputable hash function"
+  },
+  {
+    "start": 2137.3,
+    "dur": 0.66,
+    "text": "family--"
+  },
+  {
+    "start": 2137.96,
+    "dur": 6.0,
+    "text": "capital H-- H is not correlation\nintractable with respect"
+  },
+  {
+    "start": 2143.96,
+    "dur": 2.52,
+    "text": "to this function."
+  },
+  {
+    "start": 2146.48,
+    "dur": 2.1,
+    "text": "So the random oracle\nheuristic just completely"
+  },
+  {
+    "start": 2148.58,
+    "dur": 4.86,
+    "text": "fails for this notion of\ncorrelation intractability."
+  },
+  {
+    "start": 2153.44,
+    "dur": 1.81,
+    "text": "So if you haven't\nseen this before,"
+  },
+  {
+    "start": 2155.25,
+    "dur": 2.77,
+    "text": "now would be a good\ntime to actually pause"
+  },
+  {
+    "start": 2158.02,
+    "dur": 3.61,
+    "text": "and think about if you could\ncome up with a function"
+  },
+  {
+    "start": 2161.63,
+    "dur": 5.28,
+    "text": "f proving this claim."
+  },
+  {
+    "start": 2166.91,
+    "dur": 2.99,
+    "text": "Can you come up\nwith a bad f where"
+  },
+  {
+    "start": 2169.9,
+    "dur": 2.97,
+    "text": "correlation intractability\nfor f is impossible?"
+  },
+  {
+    "start": 2172.87,
+    "dur": 3.18,
+    "text": "It's an example of a\nvery ubiquitous idea"
+  },
+  {
+    "start": 2176.05,
+    "dur": 3.09,
+    "text": "from theoretical computer\nscience called diagonalization."
+  },
+  {
+    "start": 2179.14,
+    "dur": 3.84,
+    "text": "So I'll give you a\nlittle bit of time"
+  },
+  {
+    "start": 2182.98,
+    "dur": 2.175,
+    "text": "to think about if you\ncan come up with an f."
+  },
+  {
+    "start": 2190.0,
+    "dur": 5.56,
+    "text": "So here's a function f which\ndemonstrates the impossibility."
+  },
+  {
+    "start": 2195.56,
+    "dur": 5.6,
+    "text": "So f is going to take as\ninput an arbitrary string x."
+  },
+  {
+    "start": 2201.16,
+    "dur": 3.99,
+    "text": "And what it will do is it\nwill interpret this string x"
+  },
+  {
+    "start": 2205.15,
+    "dur": 3.9,
+    "text": "as the description\nof a program p."
+  },
+  {
+    "start": 2209.05,
+    "dur": 2.31,
+    "text": "You can always just\nhave some mapping"
+  },
+  {
+    "start": 2211.36,
+    "dur": 2.04,
+    "text": "between strings and programs."
+  },
+  {
+    "start": 2213.4,
+    "dur": 1.83,
+    "text": "It doesn't matter what it is."
+  },
+  {
+    "start": 2215.23,
+    "dur": 5.34,
+    "text": "And then, f of x\nis equal to p of x."
+  },
+  {
+    "start": 2220.57,
+    "dur": 6.79,
+    "text": "So you run the program that\nx describes on input x."
+  },
+  {
+    "start": 2227.36,
+    "dur": 3.96,
+    "text": "So again, f takes as input\nthe description of the program"
+  },
+  {
+    "start": 2231.32,
+    "dur": 4.02,
+    "text": "and it runs the program\non its own description."
+  },
+  {
+    "start": 2235.34,
+    "dur": 3.69,
+    "text": "Seems like a bit of\na weird function."
+  },
+  {
+    "start": 2239.03,
+    "dur": 3.75,
+    "text": "And it makes sense\nbecause it's demonstrating"
+  },
+  {
+    "start": 2242.78,
+    "dur": 2.5,
+    "text": "this random oracle\nimpossibility."
+  },
+  {
+    "start": 2245.28,
+    "dur": 6.23,
+    "text": "So here's why you can't have\ncorrelation and tractability"
+  },
+  {
+    "start": 2251.51,
+    "dur": 4.38,
+    "text": "for this f with an actual\nhash function family."
+  },
+  {
+    "start": 2255.89,
+    "dur": 5.55,
+    "text": "So take any hash function\nfamily capital H."
+  },
+  {
+    "start": 2261.44,
+    "dur": 3.42,
+    "text": "And we can write down a\nvery simple attack that"
+  },
+  {
+    "start": 2264.86,
+    "dur": 2.19,
+    "text": "breaks correlation and\ntractability with respect"
+  },
+  {
+    "start": 2267.05,
+    "dur": 0.84,
+    "text": "to this f."
+  },
+  {
+    "start": 2267.89,
+    "dur": 4.41,
+    "text": "So given a hash function\nlittle h from this family,"
+  },
+  {
+    "start": 2272.3,
+    "dur": 3.03,
+    "text": "we want to find an\ninput x, such that hash"
+  },
+  {
+    "start": 2275.33,
+    "dur": 3.69,
+    "text": "of x is equal to f\nof x So the input"
+  },
+  {
+    "start": 2279.02,
+    "dur": 4.15,
+    "text": "x that we're going to pick is\nthe description of h itself."
+  },
+  {
+    "start": 2283.17,
+    "dur": 2.99,
+    "text": "So we're going to take the--\nwe got a hash function,"
+  },
+  {
+    "start": 2286.16,
+    "dur": 2.52,
+    "text": "and we're going to\nplug the description"
+  },
+  {
+    "start": 2288.68,
+    "dur": 1.815,
+    "text": "of the hash function\ninto itself."
+  },
+  {
+    "start": 2293.492,
+    "dur": 4.168,
+    "text": "And you can see by\ndefinition that hash"
+  },
+  {
+    "start": 2297.66,
+    "dur": 2.01,
+    "text": "of x for this\nparticular choice of x"
+  },
+  {
+    "start": 2299.67,
+    "dur": 3.66,
+    "text": "is going to be equal to f of\nx because what is f of x do?"
+  },
+  {
+    "start": 2303.33,
+    "dur": 5.07,
+    "text": "F of x plugs x into the\nprogram that x describes."
+  },
+  {
+    "start": 2308.4,
+    "dur": 2.49,
+    "text": "X is the description of h."
+  },
+  {
+    "start": 2310.89,
+    "dur": 3.93,
+    "text": "So therefore, f of x\nis equal to h of x."
+  },
+  {
+    "start": 2314.82,
+    "dur": 2.7,
+    "text": "And so we've broken\ncorrelation intractability."
+  },
+  {
+    "start": 2317.52,
+    "dur": 3.06,
+    "text": "Like just given the\ndescription of h,"
+  },
+  {
+    "start": 2320.58,
+    "dur": 3.6,
+    "text": "we can efficiently\nfind an input that"
+  },
+  {
+    "start": 2324.18,
+    "dur": 4.62,
+    "text": "is always equal to f of x,\nwhere f is some fixed function."
+  },
+  {
+    "start": 2328.8,
+    "dur": 4.47,
+    "text": "And a random oracle does\nnot have this property."
+  },
+  {
+    "start": 2333.27,
+    "dur": 2.58,
+    "text": "And so this is a property\nthat holds for any oracles,"
+  },
+  {
+    "start": 2335.85,
+    "dur": 4.29,
+    "text": "but not for any actual\nhash function family."
+  },
+  {
+    "start": 2340.14,
+    "dur": 2.32,
+    "text": "So yeah, this is\nthe counter example."
+  },
+  {
+    "start": 2342.46,
+    "dur": 2.99,
+    "text": "And it's very simple\nto write down,"
+  },
+  {
+    "start": 2345.45,
+    "dur": 2.7,
+    "text": "but I think it takes\nquite a bit of time"
+  },
+  {
+    "start": 2348.15,
+    "dur": 2.2,
+    "text": "to actually wrap\nyour head around."
+  },
+  {
+    "start": 2350.35,
+    "dur": 2.99,
+    "text": "So definitely feel\nfree to take some time"
+  },
+  {
+    "start": 2353.34,
+    "dur": 2.385,
+    "text": "to think about what's\nactually going on here."
+  },
+  {
+    "start": 2361.18,
+    "dur": 2.46,
+    "text": "So let's talk about this\ncounterexample a little bit"
+  },
+  {
+    "start": 2363.64,
+    "dur": 1.03,
+    "text": "more."
+  },
+  {
+    "start": 2364.67,
+    "dur": 3.68,
+    "text": "So let's talk about\nhow reasonable it is."
+  },
+  {
+    "start": 2368.35,
+    "dur": 4.56,
+    "text": "How should this make you\nthink about the intangibility"
+  },
+  {
+    "start": 2372.91,
+    "dur": 1.95,
+    "text": "of random oracles?"
+  },
+  {
+    "start": 2374.86,
+    "dur": 7.05,
+    "text": "So the counterexample is asking\nfor a pretty contrived security"
+  },
+  {
+    "start": 2381.91,
+    "dur": 1.89,
+    "text": "property here."
+  },
+  {
+    "start": 2383.8,
+    "dur": 3.78,
+    "text": "In particular, this is\nonly a counterexample"
+  },
+  {
+    "start": 2387.58,
+    "dur": 3.15,
+    "text": "to the random oracle\nheuristic for hash functions"
+  },
+  {
+    "start": 2390.73,
+    "dur": 5.22,
+    "text": "that need to be able to take\narbitrarily long inputs."
+  },
+  {
+    "start": 2395.95,
+    "dur": 1.74,
+    "text": "In particular,\nyour hash function"
+  },
+  {
+    "start": 2397.69,
+    "dur": 1.68,
+    "text": "needs to be able to take--"
+  },
+  {
+    "start": 2399.37,
+    "dur": 1.86,
+    "text": "it needs to be\nable to hash inputs"
+  },
+  {
+    "start": 2401.23,
+    "dur": 3.21,
+    "text": "that are at least as long as\nthe description of the hash"
+  },
+  {
+    "start": 2404.44,
+    "dur": 1.33,
+    "text": "function itself."
+  },
+  {
+    "start": 2405.77,
+    "dur": 2.36,
+    "text": "And so this\ncounterexample does not"
+  },
+  {
+    "start": 2408.13,
+    "dur": 4.59,
+    "text": "rule out correlation in\ntractability for functions that"
+  },
+  {
+    "start": 2412.72,
+    "dur": 2.25,
+    "text": "have bounded input lengths."
+  },
+  {
+    "start": 2414.97,
+    "dur": 1.74,
+    "text": "And this is very\nimportant, and it"
+  },
+  {
+    "start": 2416.71,
+    "dur": 2.55,
+    "text": "will come up towards\nthe end of the talk"
+  },
+  {
+    "start": 2419.26,
+    "dur": 2.41,
+    "text": "because we're actually\ngoing to build"
+  },
+  {
+    "start": 2421.67,
+    "dur": 3.15,
+    "text": "a hash function satisfying\nweaker forms of correlation"
+  },
+  {
+    "start": 2424.82,
+    "dur": 1.41,
+    "text": "and tractability."
+  },
+  {
+    "start": 2426.23,
+    "dur": 1.05,
+    "text": "They actually exist."
+  },
+  {
+    "start": 2430.1,
+    "dur": 5.01,
+    "text": "So that's one big caveat\nto think about here."
+  },
+  {
+    "start": 2435.11,
+    "dur": 2.01,
+    "text": "On the other hand,\nthere are actually"
+  },
+  {
+    "start": 2437.12,
+    "dur": 5.23,
+    "text": "other hash function\nsecurity properties"
+  },
+  {
+    "start": 2442.35,
+    "dur": 2.57,
+    "text": "that holds for random\noracles and provably don't"
+  },
+  {
+    "start": 2444.92,
+    "dur": 3.24,
+    "text": "hold for any hash\nfunction family that only"
+  },
+  {
+    "start": 2448.16,
+    "dur": 2.16,
+    "text": "involve fixed length inputs."
+  },
+  {
+    "start": 2450.32,
+    "dur": 2.28,
+    "text": "It's no longer about\ncorrelation intractability,"
+  },
+  {
+    "start": 2452.6,
+    "dur": 2.58,
+    "text": "but there are other\nsecurity properties"
+  },
+  {
+    "start": 2455.18,
+    "dur": 2.88,
+    "text": "for fixed length hash functions\nthat are counterexamples."
+  },
+  {
+    "start": 2458.06,
+    "dur": 3.18,
+    "text": "In fact, these\ncounterexamples are"
+  },
+  {
+    "start": 2461.24,
+    "dur": 3.12,
+    "text": "for the Fiat-Shamir heuristic."
+  },
+  {
+    "start": 2464.36,
+    "dur": 4.71,
+    "text": "So there are these two results\nof Barak and Goldwasser-Kalai,"
+  },
+  {
+    "start": 2469.07,
+    "dur": 4.44,
+    "text": "and they show-- they construct\ninteractive protocols,"
+  },
+  {
+    "start": 2473.51,
+    "dur": 2.91,
+    "text": "where the Fiat-Shamir\nheuristic applies"
+  },
+  {
+    "start": 2476.42,
+    "dur": 2.37,
+    "text": "to these protocols in\nthe random oracle model,"
+  },
+  {
+    "start": 2478.79,
+    "dur": 3.07,
+    "text": "in particular, their\nconstant round protocols."
+  },
+  {
+    "start": 2481.86,
+    "dur": 3.47,
+    "text": "And so we know that\nFiat-Shamir should work."
+  },
+  {
+    "start": 2485.33,
+    "dur": 3.91,
+    "text": "But nevertheless, they show that\nfor any efficiently computable"
+  },
+  {
+    "start": 2489.24,
+    "dur": 4.59,
+    "text": "hash function family h, the\nFiat-Shamir protocol using h"
+  },
+  {
+    "start": 2493.83,
+    "dur": 0.99,
+    "text": "is insecure."
+  },
+  {
+    "start": 2494.82,
+    "dur": 2.46,
+    "text": "So for any particular\nh there's an attack,"
+  },
+  {
+    "start": 2497.28,
+    "dur": 3.57,
+    "text": "but for a random oracle\nthere's no attack."
+  },
+  {
+    "start": 2500.85,
+    "dur": 2.79,
+    "text": "So this is a very\ndirect counterexample"
+  },
+  {
+    "start": 2503.64,
+    "dur": 3.33,
+    "text": "saying that although we\nhave this random oracle"
+  },
+  {
+    "start": 2506.97,
+    "dur": 1.44,
+    "text": "proof of security\nfor Fiat-Shamir,"
+  },
+  {
+    "start": 2508.41,
+    "dur": 4.62,
+    "text": "we actually have to be\ncareful when instantiating it."
+  },
+  {
+    "start": 2513.03,
+    "dur": 4.665,
+    "text": "There are some protocols where\nnevertheless it won't work."
+  },
+  {
+    "start": 2526.65,
+    "dur": 3.9,
+    "text": "So as a result,\ntheorists are really"
+  },
+  {
+    "start": 2530.55,
+    "dur": 5.31,
+    "text": "trying to understand\nwhen the random Oracle"
+  },
+  {
+    "start": 2535.86,
+    "dur": 1.71,
+    "text": "heuristic actually applies."
+  },
+  {
+    "start": 2537.57,
+    "dur": 5.94,
+    "text": "When we can take it as evidence\nthat the resulting protocol is"
+  },
+  {
+    "start": 2543.51,
+    "dur": 1.8,
+    "text": "actually secure when\nyou instantiate it"
+  },
+  {
+    "start": 2545.31,
+    "dur": 3.21,
+    "text": "in the real world."
+  },
+  {
+    "start": 2548.52,
+    "dur": 6.04,
+    "text": "So let's note a few more things\nabout the negative result."
+  },
+  {
+    "start": 2554.56,
+    "dur": 3.68,
+    "text": "So first of all, we break\nthe security property"
+  },
+  {
+    "start": 2558.24,
+    "dur": 2.85,
+    "text": "in the attack we just saw\nby running the hash function"
+  },
+  {
+    "start": 2561.09,
+    "dur": 1.86,
+    "text": "on its own description."
+  },
+  {
+    "start": 2562.95,
+    "dur": 2.04,
+    "text": "So you can ask is this\npractically relevant?"
+  },
+  {
+    "start": 2564.99,
+    "dur": 1.98,
+    "text": "Would you ever run\na hash function"
+  },
+  {
+    "start": 2566.97,
+    "dur": 1.71,
+    "text": "on its own description?"
+  },
+  {
+    "start": 2571.41,
+    "dur": 3.06,
+    "text": "If you never want to--"
+  },
+  {
+    "start": 2574.47,
+    "dur": 3.15,
+    "text": "yeah, if your protocols never\ncare about things like this"
+  },
+  {
+    "start": 2577.62,
+    "dur": 3.78,
+    "text": "then maybe you can\nsay that the examples"
+  },
+  {
+    "start": 2581.4,
+    "dur": 2.98,
+    "text": "is irrelevant to practice."
+  },
+  {
+    "start": 2584.38,
+    "dur": 1.9,
+    "text": "You can sometimes say this."
+  },
+  {
+    "start": 2586.28,
+    "dur": 4.31,
+    "text": "But interestingly, SNARKs\nthat are constructed"
+  },
+  {
+    "start": 2590.59,
+    "dur": 2.46,
+    "text": "via recursive\ncomposition actually"
+  },
+  {
+    "start": 2593.05,
+    "dur": 3.15,
+    "text": "do in some sense call\nthe hash function"
+  },
+  {
+    "start": 2596.2,
+    "dur": 1.82,
+    "text": "on its own description."
+  },
+  {
+    "start": 2598.02,
+    "dur": 4.09,
+    "text": "Not exactly as we wrote\nit down in the attack,"
+  },
+  {
+    "start": 2602.11,
+    "dur": 5.13,
+    "text": "but something that at least\nsuperficially resembles it."
+  },
+  {
+    "start": 2607.24,
+    "dur": 4.77,
+    "text": "That's because when you're doing\nrecursive SNARK composition,"
+  },
+  {
+    "start": 2612.01,
+    "dur": 2.01,
+    "text": "what you're doing is\nyou're giving a SNARK"
+  },
+  {
+    "start": 2614.02,
+    "dur": 2.34,
+    "text": "proof that the SNARK\nverifier would have accepted"
+  },
+  {
+    "start": 2616.36,
+    "dur": 2.47,
+    "text": "some other SNARK proof."
+  },
+  {
+    "start": 2618.83,
+    "dur": 3.11,
+    "text": "And so you're proving things\nabout the SNARK verifier."
+  },
+  {
+    "start": 2621.94,
+    "dur": 3.22,
+    "text": "The SNARK verifier is\nrunning the hash function."
+  },
+  {
+    "start": 2625.16,
+    "dur": 3.62,
+    "text": "And so therefore, you want to\ngive a SNARK about something"
+  },
+  {
+    "start": 2628.78,
+    "dur": 2.11,
+    "text": "to do with the hash function."
+  },
+  {
+    "start": 2630.89,
+    "dur": 2.87,
+    "text": "And so as a result,\nyou're using the-- you're"
+  },
+  {
+    "start": 2633.76,
+    "dur": 1.86,
+    "text": "calling the hash\nfunction on information"
+  },
+  {
+    "start": 2635.62,
+    "dur": 3.78,
+    "text": "that depends on the description\nof the hash function."
+  },
+  {
+    "start": 2639.4,
+    "dur": 2.43,
+    "text": "And so to be clear,\nthis is not at all"
+  },
+  {
+    "start": 2641.83,
+    "dur": 5.68,
+    "text": "to say that's a recursive\nSNARKs in practice are broken."
+  },
+  {
+    "start": 2647.51,
+    "dur": 2.6,
+    "text": "We don't actually have attacks."
+  },
+  {
+    "start": 2650.11,
+    "dur": 3.24,
+    "text": "But it does imply\nthat there is a really"
+  },
+  {
+    "start": 2653.35,
+    "dur": 4.23,
+    "text": "hard to describe line\nbetween secure and insecure"
+  },
+  {
+    "start": 2657.58,
+    "dur": 1.89,
+    "text": "instantiations."
+  },
+  {
+    "start": 2659.47,
+    "dur": 1.71,
+    "text": "And as theorists\nwe're still trying"
+  },
+  {
+    "start": 2661.18,
+    "dur": 2.19,
+    "text": "to understand what\nthis line actually"
+  },
+  {
+    "start": 2663.37,
+    "dur": 4.71,
+    "text": "is to explain why the\nconstructions in practice"
+  },
+  {
+    "start": 2668.08,
+    "dur": 3.75,
+    "text": "are secure even though there\nare these weird counterexamples"
+  },
+  {
+    "start": 2671.83,
+    "dur": 0.51,
+    "text": "in theory."
+  },
+  {
+    "start": 2691.11,
+    "dur": 2.97,
+    "text": "Now, that we've seen some\nserious theoretical issues"
+  },
+  {
+    "start": 2694.08,
+    "dur": 1.967,
+    "text": "with the random\noracle model, I'm"
+  },
+  {
+    "start": 2696.047,
+    "dur": 2.083,
+    "text": "going to spend the rest\nof the lecture telling you"
+  },
+  {
+    "start": 2698.13,
+    "dur": 3.0,
+    "text": "about some things that we can\ndo without random oracles."
+  },
+  {
+    "start": 2701.13,
+    "dur": 4.95,
+    "text": "So some constructions\nof secure proof systems"
+  },
+  {
+    "start": 2706.08,
+    "dur": 3.15,
+    "text": "that use explicit\nhash function families"
+  },
+  {
+    "start": 2709.23,
+    "dur": 4.34,
+    "text": "and don't resort to the\nrandom oracle model at all."
+  },
+  {
+    "start": 2713.57,
+    "dur": 3.39,
+    "text": "So what do we do when we\ndon't have random oracles?"
+  },
+  {
+    "start": 2716.96,
+    "dur": 1.86,
+    "text": "On what are we basing security."
+  },
+  {
+    "start": 2718.82,
+    "dur": 3.3,
+    "text": "So what theorists\nlike to do is make"
+  },
+  {
+    "start": 2722.12,
+    "dur": 2.62,
+    "text": "use of what are called\nfalsifiable assumptions."
+  },
+  {
+    "start": 2724.74,
+    "dur": 4.4,
+    "text": "So we want to construct\na proof system or perhaps"
+  },
+  {
+    "start": 2729.14,
+    "dur": 1.74,
+    "text": "some other\ncryptographic primitive"
+  },
+  {
+    "start": 2730.88,
+    "dur": 5.5,
+    "text": "and to prove that the\nprimitive or protocol is secure"
+  },
+  {
+    "start": 2736.38,
+    "dur": 3.96,
+    "text": "assuming that some concrete\nalgorithmic task is"
+  },
+  {
+    "start": 2740.34,
+    "dur": 5.1,
+    "text": "infeasible in polynomial\ntime or in some not too"
+  },
+  {
+    "start": 2745.44,
+    "dur": 1.51,
+    "text": "large amount of time."
+  },
+  {
+    "start": 2746.95,
+    "dur": 2.45,
+    "text": "So some examples of\nfalsifiable assumptions"
+  },
+  {
+    "start": 2749.4,
+    "dur": 3.57,
+    "text": "are that computing discrete\nlogarithms over some group"
+  },
+  {
+    "start": 2752.97,
+    "dur": 5.49,
+    "text": "is hard or perhaps\ninstead we could"
+  },
+  {
+    "start": 2758.46,
+    "dur": 6.16,
+    "text": "assume that solving random\nnoisy linear equations is hard."
+  },
+  {
+    "start": 2764.62,
+    "dur": 2.19,
+    "text": "This is called the learning\nwith errors problem."
+  },
+  {
+    "start": 2766.81,
+    "dur": 5.81,
+    "text": "This is a noisy linear\nequations over z mod p"
+  },
+  {
+    "start": 2772.62,
+    "dur": 2.73,
+    "text": "So these are two very\ncommon assumptions"
+  },
+  {
+    "start": 2775.35,
+    "dur": 4.2,
+    "text": "that are made in\ntheoretical cryptography."
+  },
+  {
+    "start": 2779.55,
+    "dur": 4.32,
+    "text": "But you could also\nmake an assumption"
+  },
+  {
+    "start": 2783.87,
+    "dur": 4.62,
+    "text": "that SHA256 is\ncollision resistant."
+  },
+  {
+    "start": 2788.49,
+    "dur": 3.87,
+    "text": "So SHA256 is not inherently\nan unfalsifiable object."
+  },
+  {
+    "start": 2792.36,
+    "dur": 2.59,
+    "text": "It's the random oracle model\nthat's not falsifiable."
+  },
+  {
+    "start": 2794.95,
+    "dur": 2.73,
+    "text": "You can still take a\nconcrete instantiation"
+  },
+  {
+    "start": 2797.68,
+    "dur": 3.6,
+    "text": "like SHA and the assumption\nthat it's collision resistant"
+  },
+  {
+    "start": 2801.28,
+    "dur": 4.17,
+    "text": "is a reasonable falsifiable\nassumption that we have"
+  },
+  {
+    "start": 2805.45,
+    "dur": 3.32,
+    "text": "quite a bit of confidence in."
+  },
+  {
+    "start": 2808.77,
+    "dur": 2.58,
+    "text": "So these are examples of\nfalsifiable assumptions."
+  },
+  {
+    "start": 2813.96,
+    "dur": 4.725,
+    "text": "And so how things\noften work in crypto"
+  },
+  {
+    "start": 2818.685,
+    "dur": 2.775,
+    "text": "is we construct some\ncryptographic primitive"
+  },
+  {
+    "start": 2821.46,
+    "dur": 7.05,
+    "text": "or protocol based on\nfalsifiable assumptions,"
+  },
+  {
+    "start": 2828.51,
+    "dur": 3.09,
+    "text": "but the construction\nis very inefficient."
+  },
+  {
+    "start": 2831.6,
+    "dur": 4.17,
+    "text": "And so one way to improve the\nefficiency of the construction"
+  },
+  {
+    "start": 2835.77,
+    "dur": 3.21,
+    "text": "is often to make use-- is to\nmodify the construction making"
+  },
+  {
+    "start": 2838.98,
+    "dur": 2.4,
+    "text": "use of a random oracle\nbecause random oracles"
+  },
+  {
+    "start": 2841.38,
+    "dur": 4.92,
+    "text": "solve a lot of technical\nissues for you for free."
+  },
+  {
+    "start": 2846.3,
+    "dur": 3.0,
+    "text": "They can often simplify\ncryptographic constructions"
+  },
+  {
+    "start": 2849.3,
+    "dur": 4.68,
+    "text": "at the cost of this\nmodeling assumption."
+  },
+  {
+    "start": 2853.98,
+    "dur": 2.31,
+    "text": "So, for example, yeah."
+  },
+  {
+    "start": 2856.29,
+    "dur": 2.31,
+    "text": "So I've listed some\nexamples on the slide,"
+  },
+  {
+    "start": 2858.6,
+    "dur": 3.63,
+    "text": "but in particular for\nnon-interactive zero"
+  },
+  {
+    "start": 2862.23,
+    "dur": 1.98,
+    "text": "knowledge protocols--\nforget about succinctness"
+  },
+  {
+    "start": 2864.21,
+    "dur": 0.542,
+    "text": "for a second."
+  },
+  {
+    "start": 2864.752,
+    "dur": 3.208,
+    "text": "Suppose you just want\nnon-interactive zero knowledge."
+  },
+  {
+    "start": 2867.96,
+    "dur": 3.15,
+    "text": "We have constructions both in\nthe random oracle model based"
+  },
+  {
+    "start": 2871.11,
+    "dur": 2.7,
+    "text": "on Fiat-Shamir, and\nalso constructions based"
+  },
+  {
+    "start": 2873.81,
+    "dur": 3.12,
+    "text": "on falsifiable assumptions."
+  },
+  {
+    "start": 2876.93,
+    "dur": 2.61,
+    "text": "So an advantage of\nhaving the construction"
+  },
+  {
+    "start": 2879.54,
+    "dur": 1.65,
+    "text": "based on falsifiable\nassumptions is"
+  },
+  {
+    "start": 2881.19,
+    "dur": 4.77,
+    "text": "that even if we end up using\nthe random oracl based protocol"
+  },
+  {
+    "start": 2885.96,
+    "dur": 4.32,
+    "text": "in the real world, the\nconstruction making"
+  },
+  {
+    "start": 2890.28,
+    "dur": 2.7,
+    "text": "use of falsifiability is\nanother piece of evidence"
+  },
+  {
+    "start": 2892.98,
+    "dur": 2.4,
+    "text": "that the random oracle\nconstruction instantiated"
+  },
+  {
+    "start": 2895.38,
+    "dur": 7.25,
+    "text": "with SHA256 is a\nreasonable thing to do."
+  },
+  {
+    "start": 2902.63,
+    "dur": 2.82,
+    "text": "So our goal for\nthe time being is"
+  },
+  {
+    "start": 2905.45,
+    "dur": 2.73,
+    "text": "to understand what\nkinds of protocols"
+  },
+  {
+    "start": 2908.18,
+    "dur": 3.33,
+    "text": "can be built based on\nfalsifiable cryptographic"
+  },
+  {
+    "start": 2911.51,
+    "dur": 1.36,
+    "text": "assumptions."
+  },
+  {
+    "start": 2912.87,
+    "dur": 6.68,
+    "text": "And so we'll start\nwith SNARKs with a K."
+  },
+  {
+    "start": 2919.55,
+    "dur": 2.46,
+    "text": "So here, we're asking if\nsuccinct non-interactive"
+  },
+  {
+    "start": 2922.01,
+    "dur": 2.7,
+    "text": "arguments of knowledge\ncan be built based"
+  },
+  {
+    "start": 2924.71,
+    "dur": 2.67,
+    "text": "on falsifiable assumptions."
+  },
+  {
+    "start": 2927.38,
+    "dur": 4.99,
+    "text": "And here, the answer\nis pretty quickly no."
+  },
+  {
+    "start": 2932.37,
+    "dur": 2.87,
+    "text": "There are caveats to a lot of\nthese impossibility results,"
+  },
+  {
+    "start": 2935.24,
+    "dur": 2.58,
+    "text": "but the intuition here\nshould be that no, this"
+  },
+  {
+    "start": 2937.82,
+    "dur": 2.77,
+    "text": "is not something you should\nexpect to be able to do."
+  },
+  {
+    "start": 2940.59,
+    "dur": 2.1,
+    "text": "And so what's the issue?"
+  },
+  {
+    "start": 2942.69,
+    "dur": 3.5,
+    "text": "The issue is that an\nargument of knowledge"
+  },
+  {
+    "start": 2946.19,
+    "dur": 3.09,
+    "text": "wants you to be able\nto extract an NP"
+  },
+  {
+    "start": 2949.28,
+    "dur": 4.49,
+    "text": "witness from any\nsuccessful prover,"
+  },
+  {
+    "start": 2953.77,
+    "dur": 4.41,
+    "text": "but the prover is only\noutputting a short proof"
+  },
+  {
+    "start": 2958.18,
+    "dur": 1.18,
+    "text": "string."
+  },
+  {
+    "start": 2959.36,
+    "dur": 7.02,
+    "text": "So it's really unclear how\nto extract a long NP witness"
+  },
+  {
+    "start": 2966.38,
+    "dur": 2.67,
+    "text": "from a short proof string."
+  },
+  {
+    "start": 2969.05,
+    "dur": 4.47,
+    "text": "And the way that the\nconstructions we have"
+  },
+  {
+    "start": 2973.52,
+    "dur": 6.36,
+    "text": "accomplish this is by making an\nassumption that actually that"
+  },
+  {
+    "start": 2979.88,
+    "dur": 1.41,
+    "text": "assumes away this problem."
+  },
+  {
+    "start": 2981.29,
+    "dur": 3.06,
+    "text": "The assumption says,\noh, there is magically"
+  },
+  {
+    "start": 2984.35,
+    "dur": 3.705,
+    "text": "some way to extract a long\nstring from a short one."
+  },
+  {
+    "start": 2990.56,
+    "dur": 6.57,
+    "text": "So random oracles give us this\nbecause in the random oracle"
+  },
+  {
+    "start": 2997.13,
+    "dur": 3.87,
+    "text": "model you can think about the\nentire history of function"
+  },
+  {
+    "start": 3001.0,
+    "dur": 2.58,
+    "text": "calls that the adversary\nmakes to the oracle."
+  },
+  {
+    "start": 3003.58,
+    "dur": 2.07,
+    "text": "And this can give\nyou a long string"
+  },
+  {
+    "start": 3005.65,
+    "dur": 3.76,
+    "text": "even though the proof\nitself is short."
+  },
+  {
+    "start": 3009.41,
+    "dur": 3.92,
+    "text": "Then constructions\nbased on linear PCPs"
+  },
+  {
+    "start": 3013.33,
+    "dur": 2.94,
+    "text": "don't use random\noracles, but they instead"
+  },
+  {
+    "start": 3016.27,
+    "dur": 5.26,
+    "text": "make a knowledge assumption\nover some cryptographic group."
+  },
+  {
+    "start": 3021.53,
+    "dur": 5.49,
+    "text": "And again, this assumption\nsolves this problem for us."
+  },
+  {
+    "start": 3027.02,
+    "dur": 4.41,
+    "text": "It assumes that\nyou can magically"
+  },
+  {
+    "start": 3031.43,
+    "dur": 2.91,
+    "text": "extract large amounts\nof information"
+  },
+  {
+    "start": 3034.34,
+    "dur": 5.22,
+    "text": "even from an adversary that\nactually only explicitly tells"
+  },
+  {
+    "start": 3039.56,
+    "dur": 1.93,
+    "text": "you a small amount\nof information."
+  },
+  {
+    "start": 3041.49,
+    "dur": 1.64,
+    "text": "So this is not a\nproblem we expect"
+  },
+  {
+    "start": 3043.13,
+    "dur": 2.44,
+    "text": "to be able to solve with\nfalsifiable assumptions."
+  },
+  {
+    "start": 3045.57,
+    "dur": 3.83,
+    "text": "And so if you want SNARKs\nwith knowledge soundness,"
+  },
+  {
+    "start": 3049.4,
+    "dur": 3.9,
+    "text": "it seems that you\nneed to go beyond what"
+  },
+  {
+    "start": 3053.3,
+    "dur": 3.89,
+    "text": "theoretical cryptographers\ntypically deal with."
+  },
+  {
+    "start": 3057.19,
+    "dur": 4.56,
+    "text": "However, the situation\nis different for SNARGs"
+  },
+  {
+    "start": 3061.75,
+    "dur": 3.78,
+    "text": "with a G or just a protocol\nsatisfying soundness"
+  },
+  {
+    "start": 3065.53,
+    "dur": 3.3,
+    "text": "and not necessarily\nknowledge soundness."
+  },
+  {
+    "start": 3068.83,
+    "dur": 4.32,
+    "text": "Here, there isn't a\nnearly so clear a reason"
+  },
+  {
+    "start": 3073.15,
+    "dur": 1.74,
+    "text": "why you couldn't\nbuild these based"
+  },
+  {
+    "start": 3074.89,
+    "dur": 3.78,
+    "text": "on falsifiable assumptions even\nthough the only general purpose"
+  },
+  {
+    "start": 3078.67,
+    "dur": 2.76,
+    "text": "constructions we\nhave right now make"
+  },
+  {
+    "start": 3081.43,
+    "dur": 2.34,
+    "text": "use of non-falsifiable\nassumptions"
+  },
+  {
+    "start": 3083.77,
+    "dur": 2.28,
+    "text": "like a random oracle."
+  },
+  {
+    "start": 3086.05,
+    "dur": 2.73,
+    "text": "So we don't know the\nanswer to this question"
+  },
+  {
+    "start": 3088.78,
+    "dur": 2.16,
+    "text": "of whether falsifiable\nassumptions suffice"
+  },
+  {
+    "start": 3090.94,
+    "dur": 1.89,
+    "text": "at the moment."
+  },
+  {
+    "start": 3092.83,
+    "dur": 1.47,
+    "text": "There are some barriers."
+  },
+  {
+    "start": 3094.3,
+    "dur": 2.07,
+    "text": "There are some\ntheoretical papers"
+  },
+  {
+    "start": 3096.37,
+    "dur": 2.53,
+    "text": "that have talked about why\nthis might be difficult,"
+  },
+  {
+    "start": 3098.9,
+    "dur": 2.6,
+    "text": "but I would say the\nevidence is not nearly so"
+  },
+  {
+    "start": 3101.5,
+    "dur": 2.85,
+    "text": "clear as in the SNARK case."
+  },
+  {
+    "start": 3104.35,
+    "dur": 4.59,
+    "text": "And the jury's still\nout probably on"
+  },
+  {
+    "start": 3108.94,
+    "dur": 2.32,
+    "text": "whether this should be possible."
+  },
+  {
+    "start": 3111.26,
+    "dur": 4.16,
+    "text": "And, for example, a lot of my--"
+  },
+  {
+    "start": 3115.42,
+    "dur": 4.07,
+    "text": "personally my research is\non trying to understand"
+  },
+  {
+    "start": 3119.49,
+    "dur": 1.25,
+    "text": "this question a little better."
+  },
+  {
+    "start": 3123.57,
+    "dur": 3.31,
+    "text": "But the state of the art is that\nwe don't know how to do this."
+  },
+  {
+    "start": 3126.88,
+    "dur": 4.4,
+    "text": "And so we're going\nto settle for SNARKs"
+  },
+  {
+    "start": 3131.28,
+    "dur": 2.98,
+    "text": "for subclasses of computation."
+  },
+  {
+    "start": 3134.26,
+    "dur": 3.62,
+    "text": "So we won't build SNARKs\nfor any NP statement,"
+  },
+  {
+    "start": 3137.88,
+    "dur": 4.92,
+    "text": "s but we'll just build them for\nsome special NP statements that"
+  },
+  {
+    "start": 3142.8,
+    "dur": 2.82,
+    "text": "are still pretty expressive."
+  },
+  {
+    "start": 3145.62,
+    "dur": 3.21,
+    "text": "And so for the rest of\nthe lecture, we'll see--"
+  },
+  {
+    "start": 3148.83,
+    "dur": 4.74,
+    "text": "I'll sketch a construction based\non the learning with errors"
+  },
+  {
+    "start": 3153.57,
+    "dur": 2.31,
+    "text": "assumption although the\ndetails of the assumption"
+  },
+  {
+    "start": 3155.88,
+    "dur": 1.3,
+    "text": "are not that important."
+  },
+  {
+    "start": 3157.18,
+    "dur": 3.6,
+    "text": "But this is what we're going\nto see for the rest of today."
+  },
+  {
+    "start": 3160.78,
+    "dur": 2.708,
+    "text": "So there are--\nlet me introduce--"
+  },
+  {
+    "start": 3163.488,
+    "dur": 1.542,
+    "text": "before getting into\nthe construction,"
+  },
+  {
+    "start": 3165.03,
+    "dur": 1.41,
+    "text": "let me introduce the tool--"
+  },
+  {
+    "start": 3166.44,
+    "dur": 3.54,
+    "text": "two main tools and\ntechniques that"
+  },
+  {
+    "start": 3169.98,
+    "dur": 2.02,
+    "text": "are going to come up\nin the construction."
+  },
+  {
+    "start": 3172.0,
+    "dur": 3.05,
+    "text": "So the first is correlation and\ntractability, which we already"
+  },
+  {
+    "start": 3175.05,
+    "dur": 2.5,
+    "text": "saw earlier today."
+  },
+  {
+    "start": 3177.55,
+    "dur": 5.33,
+    "text": "And so instead of using a\nrandom oracle-based hash"
+  },
+  {
+    "start": 3182.88,
+    "dur": 3.15,
+    "text": "function in the\nFiat-Shamir paradigm,"
+  },
+  {
+    "start": 3186.03,
+    "dur": 2.94,
+    "text": "we are going to use a\nhash function satisfying"
+  },
+  {
+    "start": 3188.97,
+    "dur": 2.28,
+    "text": "some forms of correlation\nand tractability"
+  },
+  {
+    "start": 3191.25,
+    "dur": 3.75,
+    "text": "that turn out to suffice\nfor Fiat-Shamir, at least"
+  },
+  {
+    "start": 3195.0,
+    "dur": 4.75,
+    "text": "for some specific interactive\nprotocols not in general."
+  },
+  {
+    "start": 3199.75,
+    "dur": 2.43,
+    "text": "So that's the first tool."
+  },
+  {
+    "start": 3202.18,
+    "dur": 4.04,
+    "text": "The second tool is\nsomething called a somewhere"
+  },
+  {
+    "start": 3206.22,
+    "dur": 3.06,
+    "text": "extractable commitment,\nwhich is a special kind"
+  },
+  {
+    "start": 3209.28,
+    "dur": 1.36,
+    "text": "of succinct commitment scheme."
+  },
+  {
+    "start": 3210.64,
+    "dur": 1.417,
+    "text": "So we've seen\nsuccinct commitments"
+  },
+  {
+    "start": 3212.057,
+    "dur": 2.113,
+    "text": "in this class like Merkle trees."
+  },
+  {
+    "start": 3214.17,
+    "dur": 2.25,
+    "text": "But somewhere\nextractable commitment"
+  },
+  {
+    "start": 3216.42,
+    "dur": 3.42,
+    "text": "is a stronger form of a\nsuccinct commitment scheme,"
+  },
+  {
+    "start": 3219.84,
+    "dur": 5.26,
+    "text": "and it's used to build a special\ninteractive protocol that we"
+  },
+  {
+    "start": 3225.1,
+    "dur": 3.63,
+    "text": "instantiate Fiat-Shamir for\nbased on these correlation"
+  },
+  {
+    "start": 3228.73,
+    "dur": 1.47,
+    "text": "intractable hash functions."
+  },
+  {
+    "start": 3230.2,
+    "dur": 6.3,
+    "text": "And in the end, the interactive\nprotocol that gets built"
+  },
+  {
+    "start": 3236.5,
+    "dur": 3.66,
+    "text": "looks a lot like the typical\nIOP-based interactive"
+  },
+  {
+    "start": 3240.16,
+    "dur": 5.67,
+    "text": "protocols, but only works\nfor special languages"
+  },
+  {
+    "start": 3245.83,
+    "dur": 4.18,
+    "text": "and comes with a\nproof of security."
+  },
+  {
+    "start": 3250.01,
+    "dur": 3.39,
+    "text": "So let's go back to correlation\nand tractability first."
+  },
+  {
+    "start": 3253.4,
+    "dur": 2.85,
+    "text": "So as we said before,\ngiven a function f"
+  },
+  {
+    "start": 3256.25,
+    "dur": 2.16,
+    "text": "a hash family is correlation\nintractable for f"
+  },
+  {
+    "start": 3258.41,
+    "dur": 2.82,
+    "text": "if it's hard to find an\ninput x such that hash of x"
+  },
+  {
+    "start": 3261.23,
+    "dur": 6.09,
+    "text": "equals f of x So\nit turns out you"
+  },
+  {
+    "start": 3267.32,
+    "dur": 2.88,
+    "text": "can think of this as a\nspecial case of a stronger"
+  },
+  {
+    "start": 3270.2,
+    "dur": 1.92,
+    "text": "form of correlation\nintractability"
+  },
+  {
+    "start": 3272.12,
+    "dur": 4.71,
+    "text": "not for functions, but\nfor binary relations."
+  },
+  {
+    "start": 3276.83,
+    "dur": 3.285,
+    "text": "So for every binary\nrelation r, you"
+  },
+  {
+    "start": 3280.115,
+    "dur": 1.875,
+    "text": "could say that a hash\nfunction is correlation"
+  },
+  {
+    "start": 3281.99,
+    "dur": 4.74,
+    "text": "intractable for r if it's hard\nto find an input output pair x"
+  },
+  {
+    "start": 3286.73,
+    "dur": 3.6,
+    "text": "comma hash of x that\nsatisfies the relation,"
+  },
+  {
+    "start": 3290.33,
+    "dur": 2.01,
+    "text": "and as long as the\nrelation doesn't have"
+  },
+  {
+    "start": 3292.34,
+    "dur": 5.31,
+    "text": "too many pairs of points in\nit, then a random oracle will"
+  },
+  {
+    "start": 3297.65,
+    "dur": 3.45,
+    "text": "satisfy this security\nnotion, and you"
+  },
+  {
+    "start": 3301.1,
+    "dur": 3.63,
+    "text": "could look for explicit\nhash functions satisfying"
+  },
+  {
+    "start": 3304.73,
+    "dur": 2.91,
+    "text": "this property."
+  },
+  {
+    "start": 3307.64,
+    "dur": 2.26,
+    "text": "Although again, we know that--"
+  },
+  {
+    "start": 3309.9,
+    "dur": 1.42,
+    "text": "we know there are issues."
+  },
+  {
+    "start": 3311.32,
+    "dur": 4.57,
+    "text": "So let's go back to the\nfunction version for a second."
+  },
+  {
+    "start": 3315.89,
+    "dur": 2.58,
+    "text": "I spent some time earlier\nin the lecture telling you"
+  },
+  {
+    "start": 3318.47,
+    "dur": 2.04,
+    "text": "that this property is\nactually an instantiable."
+  },
+  {
+    "start": 3320.51,
+    "dur": 2.04,
+    "text": "There are some functions\nwhere you can't--"
+  },
+  {
+    "start": 3322.55,
+    "dur": 2.58,
+    "text": "where there's no hash function\nsatisfying this property--"
+  },
+  {
+    "start": 3325.13,
+    "dur": 1.74,
+    "text": "no efficient one."
+  },
+  {
+    "start": 3326.87,
+    "dur": 3.57,
+    "text": "So we're getting around this\nby restricting the input length"
+  },
+  {
+    "start": 3330.44,
+    "dur": 1.03,
+    "text": "to the hash function."
+  },
+  {
+    "start": 3331.47,
+    "dur": 3.41,
+    "text": "So we're going to be\nconsidering this property"
+  },
+  {
+    "start": 3334.88,
+    "dur": 3.87,
+    "text": "for hash functions that\nhave a fixed input length,"
+  },
+  {
+    "start": 3338.75,
+    "dur": 2.34,
+    "text": "and the description\nof the hash function"
+  },
+  {
+    "start": 3341.09,
+    "dur": 3.82,
+    "text": "will have to be slightly\nlarger than this input length."
+  },
+  {
+    "start": 3344.91,
+    "dur": 2.06,
+    "text": "So yeah, we know\nthat this restriction"
+  },
+  {
+    "start": 3346.97,
+    "dur": 4.68,
+    "text": "is necessary or else the\nobject is un-instantiable."
+  },
+  {
+    "start": 3351.65,
+    "dur": 4.74,
+    "text": "We're going to then restrict\nthe notion even further."
+  },
+  {
+    "start": 3356.39,
+    "dur": 2.76,
+    "text": "We're going to only\nconsider f that"
+  },
+  {
+    "start": 3359.15,
+    "dur": 5.07,
+    "text": "are computable in some fixed a\npriori bounded polynomial time"
+  },
+  {
+    "start": 3364.22,
+    "dur": 4.44,
+    "text": "capital T. So our goal\nis going to be to build"
+  },
+  {
+    "start": 3368.66,
+    "dur": 1.83,
+    "text": "a hash function\nthat's correlation"
+  },
+  {
+    "start": 3370.49,
+    "dur": 3.63,
+    "text": "intractable for all function\nf all functions f computable"
+  },
+  {
+    "start": 3374.12,
+    "dur": 1.41,
+    "text": "in time t."
+  },
+  {
+    "start": 3375.53,
+    "dur": 2.82,
+    "text": "And the hash function itself\nwill be computable in time"
+  },
+  {
+    "start": 3378.35,
+    "dur": 1.882,
+    "text": "slightly larger than t."
+  },
+  {
+    "start": 3380.232,
+    "dur": 1.958,
+    "text": "So this is what we know\nhow to build right now."
+  },
+  {
+    "start": 3382.19,
+    "dur": 3.96,
+    "text": "It's not clear if this\nrestriction is necessary,"
+  },
+  {
+    "start": 3386.15,
+    "dur": 5.5,
+    "text": "but yeah, that's currently\nwhat we know how to handle."
+  },
+  {
+    "start": 3391.65,
+    "dur": 4.17,
+    "text": "So next, I'll actually\nshow you a construction"
+  },
+  {
+    "start": 3395.82,
+    "dur": 3.03,
+    "text": "of such a hash\nfunction family based"
+  },
+  {
+    "start": 3398.85,
+    "dur": 1.53,
+    "text": "on a falsifiable assumption."
+  },
+  {
+    "start": 3400.38,
+    "dur": 3.9,
+    "text": "And our main tool for doing\nso is something called"
+  },
+  {
+    "start": 3404.28,
+    "dur": 1.84,
+    "text": "fully homomorphic encryption."
+  },
+  {
+    "start": 3406.12,
+    "dur": 2.33,
+    "text": "So this is a\nencryption scheme where"
+  },
+  {
+    "start": 3408.45,
+    "dur": 4.56,
+    "text": "you can encrypt some data\nx, and on the ciphertext,"
+  },
+  {
+    "start": 3413.01,
+    "dur": 4.14,
+    "text": "encryption of x, it is\npossible to evaluate"
+  },
+  {
+    "start": 3417.15,
+    "dur": 3.57,
+    "text": "an efficiently computable\nfunction f of your choice on it"
+  },
+  {
+    "start": 3420.72,
+    "dur": 2.288,
+    "text": "and obtain an\nencryption of f of x."
+  },
+  {
+    "start": 3423.008,
+    "dur": 1.792,
+    "text": "And this you can do\nwithout the secret key,"
+  },
+  {
+    "start": 3424.8,
+    "dur": 1.5,
+    "text": "without knowing what x is."
+  },
+  {
+    "start": 3426.3,
+    "dur": 2.737,
+    "text": "Just given an encryption\nof x and the function,"
+  },
+  {
+    "start": 3429.037,
+    "dur": 0.833,
+    "text": "you can evaluate it."
+  },
+  {
+    "start": 3429.87,
+    "dur": 1.68,
+    "text": "It's under the hood."
+  },
+  {
+    "start": 3431.55,
+    "dur": 5.22,
+    "text": "And the guarantee of the\nhomomorphic encryption scheme"
+  },
+  {
+    "start": 3436.77,
+    "dur": 2.97,
+    "text": "is that if you were to decrypt\nthe evaluated ciphertext,"
+  },
+  {
+    "start": 3439.74,
+    "dur": 1.8,
+    "text": "you would get f of x."
+  },
+  {
+    "start": 3441.54,
+    "dur": 3.72,
+    "text": "So this is a very powerful tool."
+  },
+  {
+    "start": 3445.26,
+    "dur": 3.81,
+    "text": "And is not necessarily\npractical although people"
+  },
+  {
+    "start": 3449.07,
+    "dur": 4.06,
+    "text": "are spending a lot of time\ntrying to make this practical."
+  },
+  {
+    "start": 3453.13,
+    "dur": 5.04,
+    "text": "It's not actually necessary to\nconstruct the hash function,"
+  },
+  {
+    "start": 3458.17,
+    "dur": 3.96,
+    "text": "but I'm going to use this\nhigh powered tool because it"
+  },
+  {
+    "start": 3462.13,
+    "dur": 2.64,
+    "text": "gives the simplest\nor the easiest"
+  },
+  {
+    "start": 3464.77,
+    "dur": 1.2,
+    "text": "to explain construction."
+  },
+  {
+    "start": 3465.97,
+    "dur": 1.375,
+    "text": "But there are\nother constructions"
+  },
+  {
+    "start": 3467.345,
+    "dur": 2.309,
+    "text": "that do not use fully\nhomomorphic encryption."
+  },
+  {
+    "start": 3472.32,
+    "dur": 3.66,
+    "text": "Nevertheless, let's see\na construction using it."
+  },
+  {
+    "start": 3475.98,
+    "dur": 3.42,
+    "text": "So given a fully homomorphic\nencryption scheme,"
+  },
+  {
+    "start": 3479.4,
+    "dur": 2.05,
+    "text": "we're going to write down\na hash function family,"
+  },
+  {
+    "start": 3481.45,
+    "dur": 3.47,
+    "text": "and then argue that its\ncorrelation intractable."
+  },
+  {
+    "start": 3484.92,
+    "dur": 2.7,
+    "text": "So here's the family."
+  },
+  {
+    "start": 3487.62,
+    "dur": 2.7,
+    "text": "So the description\nof a hash function h"
+  },
+  {
+    "start": 3490.32,
+    "dur": 2.5,
+    "text": "is going to be two things."
+  },
+  {
+    "start": 3492.82,
+    "dur": 2.6,
+    "text": "First of all, a public key\nfor the homomorphic encryption"
+  },
+  {
+    "start": 3495.42,
+    "dur": 4.23,
+    "text": "scheme and then an\nencryption of some"
+  },
+  {
+    "start": 3499.65,
+    "dur": 3.85,
+    "text": "the description of\nsome function g."
+  },
+  {
+    "start": 3503.5,
+    "dur": 4.58,
+    "text": "So you should think of\ng as some like function"
+  },
+  {
+    "start": 3508.08,
+    "dur": 3.03,
+    "text": "that just like takes every input\nand output zero immediately"
+  },
+  {
+    "start": 3511.11,
+    "dur": 3.27,
+    "text": "or something like that."
+  },
+  {
+    "start": 3514.38,
+    "dur": 2.71,
+    "text": "It's not too important\nwhat this function is."
+  },
+  {
+    "start": 3517.09,
+    "dur": 4.44,
+    "text": "In fact, in reality,\nyou can think"
+  },
+  {
+    "start": 3521.53,
+    "dur": 3.33,
+    "text": "of the description\nof our h as actually"
+  },
+  {
+    "start": 3524.86,
+    "dur": 4.62,
+    "text": "being a uniformly random\nstring, but in our heads,"
+  },
+  {
+    "start": 3529.48,
+    "dur": 2.73,
+    "text": "we will think of\nit as a public key"
+  },
+  {
+    "start": 3532.21,
+    "dur": 2.49,
+    "text": "and an encryption\nof a function g."
+  },
+  {
+    "start": 3534.7,
+    "dur": 2.04,
+    "text": "And as long as the\nencryption scheme"
+  },
+  {
+    "start": 3536.74,
+    "dur": 2.76,
+    "text": "has the property that public\nkeys and ciphertexts are pseudo"
+  },
+  {
+    "start": 3539.5,
+    "dur": 4.56,
+    "text": "random, then a random string\nis indistinguishable from such"
+  },
+  {
+    "start": 3544.06,
+    "dur": 2.05,
+    "text": "a hash function description."
+  },
+  {
+    "start": 3546.11,
+    "dur": 2.9,
+    "text": "So we can equivalently think\nof it as a random string"
+  },
+  {
+    "start": 3549.01,
+    "dur": 1.47,
+    "text": "or having this structure."
+  },
+  {
+    "start": 3553.21,
+    "dur": 1.98,
+    "text": "So this is how\nwe're going to think"
+  },
+  {
+    "start": 3555.19,
+    "dur": 5.65,
+    "text": "of a description of\nthe hash function."
+  },
+  {
+    "start": 3560.84,
+    "dur": 2.67,
+    "text": "So now we should say what\nthe hash function actually"
+  },
+  {
+    "start": 3563.51,
+    "dur": 1.71,
+    "text": "is that is given an input x."
+  },
+  {
+    "start": 3565.22,
+    "dur": 1.54,
+    "text": "How do you hash it?"
+  },
+  {
+    "start": 3566.76,
+    "dur": 4.61,
+    "text": "So what you do is you run\nthe FHE evaluation algorithm"
+  },
+  {
+    "start": 3571.37,
+    "dur": 5.44,
+    "text": "on the encryption of g, and\nthe function that you use"
+  },
+  {
+    "start": 3576.81,
+    "dur": 2.03,
+    "text": "is described by x."
+  },
+  {
+    "start": 3578.84,
+    "dur": 3.78,
+    "text": "So what you want to do is\nevaluate the function which"
+  },
+  {
+    "start": 3582.62,
+    "dur": 6.01,
+    "text": "takes g which is encrypted\nand computes g of x."
+  },
+  {
+    "start": 3588.63,
+    "dur": 3.16,
+    "text": "So this is like inverting\nthe usual way you think"
+  },
+  {
+    "start": 3591.79,
+    "dur": 2.7,
+    "text": "about inputs and functions,\nbut this is something"
+  },
+  {
+    "start": 3594.49,
+    "dur": 2.16,
+    "text": "that you can do."
+  },
+  {
+    "start": 3596.65,
+    "dur": 3.15,
+    "text": "So the hash key is\nan encryption of g."
+  },
+  {
+    "start": 3599.8,
+    "dur": 4.215,
+    "text": "And when you hash x, you will\nget an encryption of g of x."
+  },
+  {
+    "start": 3608.19,
+    "dur": 2.43,
+    "text": "But hashing x is a\npublic efficiently"
+  },
+  {
+    "start": 3610.62,
+    "dur": 2.47,
+    "text": "computable operation."
+  },
+  {
+    "start": 3613.09,
+    "dur": 4.71,
+    "text": "So yeah, this is a hash function\nthat you can write down."
+  },
+  {
+    "start": 3617.8,
+    "dur": 2.97,
+    "text": "And so why would we\nexpect this hash function"
+  },
+  {
+    "start": 3620.77,
+    "dur": 3.93,
+    "text": "to satisfy security\nproperties of any kind?"
+  },
+  {
+    "start": 3624.7,
+    "dur": 4.6,
+    "text": "Well, the reason is that\nthe function g is hidden."
+  },
+  {
+    "start": 3629.3,
+    "dur": 4.41,
+    "text": "It's like it's implicitly\nin the description of h,"
+  },
+  {
+    "start": 3633.71,
+    "dur": 3.1,
+    "text": "but nobody actually\nknows what it is."
+  },
+  {
+    "start": 3636.81,
+    "dur": 3.8,
+    "text": "And so you can argue\ndifferent security properties"
+  },
+  {
+    "start": 3640.61,
+    "dur": 4.95,
+    "text": "by imagining that g were\nvarious different functions."
+  },
+  {
+    "start": 3645.56,
+    "dur": 2.97,
+    "text": "Because an encryption of\ng is indistinguishable"
+  },
+  {
+    "start": 3648.53,
+    "dur": 2.67,
+    "text": "from an encryption of some\nother function g prime."
+  },
+  {
+    "start": 3651.2,
+    "dur": 4.23,
+    "text": "You can imagine that g\nwas whatever function"
+  },
+  {
+    "start": 3655.43,
+    "dur": 5.55,
+    "text": "is most convenient to you for\nproving some security property."
+  },
+  {
+    "start": 3660.98,
+    "dur": 2.71,
+    "text": "So let's see-- that's\na little abstract."
+  },
+  {
+    "start": 3663.69,
+    "dur": 2.81,
+    "text": "So let's just see a proof\nthat this hash function"
+  },
+  {
+    "start": 3666.5,
+    "dur": 2.31,
+    "text": "is correlation intractable."
+  },
+  {
+    "start": 3668.81,
+    "dur": 2.23,
+    "text": "So we'll do a proof\nby contradiction."
+  },
+  {
+    "start": 3671.04,
+    "dur": 5.27,
+    "text": "Suppose that for some are\npriori fixed efficiently"
+  },
+  {
+    "start": 3676.31,
+    "dur": 2.61,
+    "text": "computable function\nf, an adversary"
+  },
+  {
+    "start": 3678.92,
+    "dur": 3.93,
+    "text": "could find an input x such that\nhash of x is equal to f of x."
+  },
+  {
+    "start": 3682.85,
+    "dur": 5.55,
+    "text": "Well, then-- so here's the\nkey idea in arguing security."
+  },
+  {
+    "start": 3688.4,
+    "dur": 5.182,
+    "text": "We're going to pick a very\nspecial function g-star of x."
+  },
+  {
+    "start": 3693.582,
+    "dur": 1.458,
+    "text": "What it's going to\ndo is it's going"
+  },
+  {
+    "start": 3695.04,
+    "dur": 7.59,
+    "text": "to compute f of x and then\ndecrypt the resulting string."
+  },
+  {
+    "start": 3702.63,
+    "dur": 2.4,
+    "text": "So you think of f of\nx as a ciphertext."
+  },
+  {
+    "start": 3705.03,
+    "dur": 1.45,
+    "text": "You decrypt it."
+  },
+  {
+    "start": 3706.48,
+    "dur": 1.89,
+    "text": "So now you have some plain text."
+  },
+  {
+    "start": 3708.37,
+    "dur": 2.3,
+    "text": "You can think of the plain\ntext as being a single bit"
+  },
+  {
+    "start": 3710.67,
+    "dur": 1.74,
+    "text": "if you want."
+  },
+  {
+    "start": 3712.41,
+    "dur": 4.99,
+    "text": "And then after\ndecrypting, you add one."
+  },
+  {
+    "start": 3717.4,
+    "dur": 4.87,
+    "text": "So this is a function\nthat you can define."
+  },
+  {
+    "start": 3722.27,
+    "dur": 2.04,
+    "text": "And we know, like I\nwas saying before,"
+  },
+  {
+    "start": 3724.31,
+    "dur": 3.42,
+    "text": "that an encryption of\nwhatever g we started with"
+  },
+  {
+    "start": 3727.73,
+    "dur": 2.34,
+    "text": "is computationally\nindistinguishable"
+  },
+  {
+    "start": 3730.07,
+    "dur": 4.23,
+    "text": "from an encryption of g-star,\nprovided that the encryption"
+  },
+  {
+    "start": 3734.3,
+    "dur": 1.47,
+    "text": "scheme is secure."
+  },
+  {
+    "start": 3735.77,
+    "dur": 2.49,
+    "text": "So there is a minor\ncaveat here, which"
+  },
+  {
+    "start": 3738.26,
+    "dur": 3.78,
+    "text": "is that the g-star\nthat I defined actually"
+  },
+  {
+    "start": 3742.04,
+    "dur": 3.67,
+    "text": "runs the decryption algorithm\nof the encryption scheme."
+  },
+  {
+    "start": 3745.71,
+    "dur": 4.37,
+    "text": "And so it depends on the secret\nkey of the encryption scheme."
+  },
+  {
+    "start": 3750.08,
+    "dur": 2.7,
+    "text": "But we can still argue\nthis indistinguishability"
+  },
+  {
+    "start": 3752.78,
+    "dur": 2.28,
+    "text": "if we know that the\nencryption scheme is"
+  },
+  {
+    "start": 3755.06,
+    "dur": 5.85,
+    "text": "secure in the presence of an\nencryption of the secret key."
+  },
+  {
+    "start": 3760.91,
+    "dur": 1.92,
+    "text": "And so this is called\ncircular security,"
+  },
+  {
+    "start": 3762.83,
+    "dur": 2.595,
+    "text": "and it's something that\ncomes up pretty frequently"
+  },
+  {
+    "start": 3765.425,
+    "dur": 1.875,
+    "text": "in homomorphic encryption,\nand it's something"
+  },
+  {
+    "start": 3767.3,
+    "dur": 1.475,
+    "text": "that we're reasonably\nconfident in."
+  },
+  {
+    "start": 3771.74,
+    "dur": 2.92,
+    "text": "But this assumption is\nnot really necessary."
+  },
+  {
+    "start": 3774.66,
+    "dur": 3.83,
+    "text": "You can get away with less\nwith a more complicated"
+  },
+  {
+    "start": 3778.49,
+    "dur": 1.14,
+    "text": "construction."
+  },
+  {
+    "start": 3779.63,
+    "dur": 3.43,
+    "text": "But we're going to assume\nthe circular security for now"
+  },
+  {
+    "start": 3783.06,
+    "dur": 3.225,
+    "text": "just for the easiest\nconstruction and proof."
+  },
+  {
+    "start": 3789.96,
+    "dur": 2.11,
+    "text": "So we started with\na hash function,"
+  },
+  {
+    "start": 3792.07,
+    "dur": 1.88,
+    "text": "which was an encryption,\nwhich was described"
+  },
+  {
+    "start": 3793.95,
+    "dur": 1.35,
+    "text": "by an encryption of g."
+  },
+  {
+    "start": 3795.3,
+    "dur": 1.8,
+    "text": "But because an\nencryption of g is"
+  },
+  {
+    "start": 3797.1,
+    "dur": 3.786,
+    "text": "indistinguishable from\nan encryption of g prime,"
+  },
+  {
+    "start": 3800.886,
+    "dur": 4.014,
+    "text": "then we know that our attacker\nwould still break security"
+  },
+  {
+    "start": 3804.9,
+    "dur": 3.09,
+    "text": "even if it were given an\nencryption of g prime instead."
+  },
+  {
+    "start": 3807.99,
+    "dur": 2.925,
+    "text": "But now I claim we\nhave a contradiction"
+  },
+  {
+    "start": 3810.915,
+    "dur": 3.255,
+    "text": "that the attacker actually\ncan't break security"
+  },
+  {
+    "start": 3814.17,
+    "dur": 6.24,
+    "text": "when the hash function is an\nencryption of g-star instead."
+  },
+  {
+    "start": 3820.41,
+    "dur": 2.22,
+    "text": "So here's why."
+  },
+  {
+    "start": 3822.63,
+    "dur": 4.53,
+    "text": "So we know that if you\nhash x and your hash key"
+  },
+  {
+    "start": 3827.16,
+    "dur": 3.3,
+    "text": "has an encryption of g-star\nin it, then hash of x"
+  },
+  {
+    "start": 3830.46,
+    "dur": 3.09,
+    "text": "is going to be an\nencryption of g-star of x."
+  },
+  {
+    "start": 3833.55,
+    "dur": 6.0,
+    "text": "So then we can see that--"
+  },
+  {
+    "start": 3839.55,
+    "dur": 6.62,
+    "text": "so if on the other hand, hash\nof x was also equal to f of x."
+  },
+  {
+    "start": 3846.17,
+    "dur": 1.2,
+    "text": "That's what we're assuming."
+  },
+  {
+    "start": 3847.37,
+    "dur": 2.88,
+    "text": "We're assuming the adversary\nmanaged to find such an x,"
+  },
+  {
+    "start": 3850.25,
+    "dur": 2.79,
+    "text": "then we would get that."
+  },
+  {
+    "start": 3853.04,
+    "dur": 3.18,
+    "text": "So if hash of x is\nequal to f of x, then"
+  },
+  {
+    "start": 3856.22,
+    "dur": 2.28,
+    "text": "if you decrypt f\nof x, then this is"
+  },
+  {
+    "start": 3858.5,
+    "dur": 4.656,
+    "text": "supposed to be the same as\nthe decryption of hash of x."
+  },
+  {
+    "start": 3863.156,
+    "dur": 2.214,
+    "text": "But we also know\nthat hash of x is"
+  },
+  {
+    "start": 3865.37,
+    "dur": 1.62,
+    "text": "an encryption of g-star of x."
+  },
+  {
+    "start": 3866.99,
+    "dur": 3.72,
+    "text": "So decryption of hash of\nx is equal to g-star of x."
+  },
+  {
+    "start": 3870.71,
+    "dur": 4.59,
+    "text": "And we've defined g-star to\nalways avoid the function"
+  },
+  {
+    "start": 3875.3,
+    "dur": 1.35,
+    "text": "decryption of f of x."
+  },
+  {
+    "start": 3876.65,
+    "dur": 4.26,
+    "text": "It's literally one plus\ndecryption of f of x."
+  },
+  {
+    "start": 3880.91,
+    "dur": 3.99,
+    "text": "So these two plaintexts\ncannot be equal."
+  },
+  {
+    "start": 3884.9,
+    "dur": 1.95,
+    "text": "They've been-- the scheme\nhas been constructed"
+  },
+  {
+    "start": 3886.85,
+    "dur": 1.62,
+    "text": "so they can never be equal."
+  },
+  {
+    "start": 3888.47,
+    "dur": 4.02,
+    "text": "And therefore, it is actually\nimpossible for the adversary"
+  },
+  {
+    "start": 3892.49,
+    "dur": 2.34,
+    "text": "to break security\nwhen the hash key is"
+  },
+  {
+    "start": 3894.83,
+    "dur": 3.9,
+    "text": "sampled in this strange\nf dependent way."
+  },
+  {
+    "start": 3898.73,
+    "dur": 2.07,
+    "text": "But by indistinguishability\nthat also means"
+  },
+  {
+    "start": 3900.8,
+    "dur": 2.01,
+    "text": "that the adversary can't\ndo it when the hash"
+  },
+  {
+    "start": 3902.81,
+    "dur": 2.3,
+    "text": "key is a random string."
+  },
+  {
+    "start": 3905.11,
+    "dur": 3.23,
+    "text": "So this is a proof assuming\nthat your encryption scheme is"
+  },
+  {
+    "start": 3908.34,
+    "dur": 4.86,
+    "text": "secure enough that the resulting\nhash function is correlation"
+  },
+  {
+    "start": 3913.2,
+    "dur": 0.81,
+    "text": "intractable."
+  },
+  {
+    "start": 3917.1,
+    "dur": 5.43,
+    "text": "So that's one construction of\na correlation intractable hash"
+  },
+  {
+    "start": 3922.53,
+    "dur": 4.86,
+    "text": "family for efficiently\ncomputable functions."
+  },
+  {
+    "start": 3927.39,
+    "dur": 3.42,
+    "text": "So there's been a lot of\nwork over the last five years"
+  },
+  {
+    "start": 3930.81,
+    "dur": 4.14,
+    "text": "or so in constructing\nvarious correlation"
+  },
+  {
+    "start": 3934.95,
+    "dur": 2.85,
+    "text": "intractable hash families,\nincluding for relations"
+  },
+  {
+    "start": 3937.8,
+    "dur": 1.45,
+    "text": "that are not just functions."
+  },
+  {
+    "start": 3939.25,
+    "dur": 3.18,
+    "text": "So I'll list a\nfew on this slide."
+  },
+  {
+    "start": 3942.43,
+    "dur": 2.57,
+    "text": "So when you restrict\nto functions,"
+  },
+  {
+    "start": 3945.0,
+    "dur": 2.61,
+    "text": "we have constructions\nbased on the learning"
+  },
+  {
+    "start": 3947.61,
+    "dur": 0.96,
+    "text": "with errors assumption."
+  },
+  {
+    "start": 3948.57,
+    "dur": 4.47,
+    "text": "So we know-- so LWE\ncan be used to build"
+  },
+  {
+    "start": 3953.04,
+    "dur": 5.31,
+    "text": "fully homomorphic\nencryption, but follow up"
+  },
+  {
+    "start": 3958.35,
+    "dur": 2.22,
+    "text": "works were actually\nable to avoid"
+  },
+  {
+    "start": 3960.57,
+    "dur": 1.98,
+    "text": "making the circular\nsecurity assumption"
+  },
+  {
+    "start": 3962.55,
+    "dur": 2.56,
+    "text": "that I made in the proof\non the previous slide."
+  },
+  {
+    "start": 3965.11,
+    "dur": 3.53,
+    "text": "So you can really build it\nbased on the standard hardness"
+  },
+  {
+    "start": 3968.64,
+    "dur": 2.79,
+    "text": "of learning with errors."
+  },
+  {
+    "start": 3971.43,
+    "dur": 5.04,
+    "text": "There's also a construction from\nthe decisional Diffie-Hellman"
+  },
+  {
+    "start": 3976.47,
+    "dur": 2.97,
+    "text": "assumption, which\nis more related"
+  },
+  {
+    "start": 3979.44,
+    "dur": 3.84,
+    "text": "to some group-based\ncryptography that you"
+  },
+  {
+    "start": 3983.28,
+    "dur": 3.03,
+    "text": "may have seen in this class."
+  },
+  {
+    "start": 3986.31,
+    "dur": 8.775,
+    "text": "So LWE and DDH groups\nare the two main families"
+  },
+  {
+    "start": 3995.085,
+    "dur": 2.205,
+    "text": "of building blocks\nand assumptions"
+  },
+  {
+    "start": 3997.29,
+    "dur": 2.25,
+    "text": "that are used by\ntheoretical cryptographers,"
+  },
+  {
+    "start": 3999.54,
+    "dur": 4.62,
+    "text": "and both of them\nnow know how to use"
+  },
+  {
+    "start": 4004.16,
+    "dur": 3.3,
+    "text": "to build correlation and\ntractability for at least"
+  },
+  {
+    "start": 4007.46,
+    "dur": 2.52,
+    "text": "some kinds of efficiently\ncomputable functions."
+  },
+  {
+    "start": 4009.98,
+    "dur": 1.98,
+    "text": "The DDH-based\nconstruction is actually"
+  },
+  {
+    "start": 4011.96,
+    "dur": 4.92,
+    "text": "restricted to certain\nsubclass of functions,"
+  },
+  {
+    "start": 4016.88,
+    "dur": 3.63,
+    "text": "but it's pretty expressive."
+  },
+  {
+    "start": 4020.51,
+    "dur": 3.64,
+    "text": "Then you can ask, well, OK."
+  },
+  {
+    "start": 4024.15,
+    "dur": 2.4,
+    "text": "What about relations\nthat are not functions,"
+  },
+  {
+    "start": 4026.55,
+    "dur": 2.1,
+    "text": "although it's still\nnot clear why we're"
+  },
+  {
+    "start": 4028.65,
+    "dur": 3.09,
+    "text": "asking any of these\nquestions, but you"
+  },
+  {
+    "start": 4031.74,
+    "dur": 3.84,
+    "text": "could ask what about things\nthat aren't functions."
+  },
+  {
+    "start": 4035.58,
+    "dur": 2.79,
+    "text": "We don't in general,\nwhether or not"
+  },
+  {
+    "start": 4038.37,
+    "dur": 3.57,
+    "text": "we can build correlation\nand tractability for bounds"
+  },
+  {
+    "start": 4041.94,
+    "dur": 2.04,
+    "text": "at input length relations."
+  },
+  {
+    "start": 4043.98,
+    "dur": 4.65,
+    "text": "But we do have a construction\nfor relations satisfying"
+  },
+  {
+    "start": 4048.63,
+    "dur": 2.64,
+    "text": "a nice combinatorial structure."
+  },
+  {
+    "start": 4051.27,
+    "dur": 8.952,
+    "text": "Basically if you think\nof the hash value"
+  },
+  {
+    "start": 4060.222,
+    "dur": 7.548,
+    "text": "as a concatenation\nof many blocks,"
+  },
+  {
+    "start": 4067.77,
+    "dur": 3.21,
+    "text": "then you can guarantee\ncorrelation and tractability"
+  },
+  {
+    "start": 4070.98,
+    "dur": 4.14,
+    "text": "for properties that respect\nthe block wise structure,"
+  },
+  {
+    "start": 4075.12,
+    "dur": 2.52,
+    "text": "and this turns\nout to be relevant"
+  },
+  {
+    "start": 4077.64,
+    "dur": 2.82,
+    "text": "when instantiating Fiat-Shamir."
+  },
+  {
+    "start": 4080.46,
+    "dur": 2.07,
+    "text": "Don't worry too much about this."
+  },
+  {
+    "start": 4082.53,
+    "dur": 3.21,
+    "text": "So we can handle some\nkinds of relations"
+  },
+  {
+    "start": 4085.74,
+    "dur": 4.62,
+    "text": "that have many outputs, but\nit's still somewhat open"
+  },
+  {
+    "start": 4090.36,
+    "dur": 1.53,
+    "text": "how to handle them\nmore generally."
+  },
+  {
+    "start": 4103.18,
+    "dur": 3.45,
+    "text": "That's everything I wanted\nto say on constructions"
+  },
+  {
+    "start": 4106.63,
+    "dur": 2.16,
+    "text": "of correlation\nintractable hash functions"
+  },
+  {
+    "start": 4108.79,
+    "dur": 1.487,
+    "text": "from falsifiable assumptions."
+  },
+  {
+    "start": 4110.277,
+    "dur": 1.542,
+    "text": "So for the rest of\nthe lecture, we'll"
+  },
+  {
+    "start": 4111.819,
+    "dur": 3.271,
+    "text": "talk about how to use the hash\nfunctions that we constructed"
+  },
+  {
+    "start": 4115.09,
+    "dur": 3.18,
+    "text": "to provably instantiate\nthe Fiat-Shamir heuristic"
+  },
+  {
+    "start": 4118.27,
+    "dur": 3.03,
+    "text": "without relying\non random oracles."
+  },
+  {
+    "start": 4121.3,
+    "dur": 3.9,
+    "text": "So the basic paradigm for how to\nuse correlation intractability"
+  },
+  {
+    "start": 4125.2,
+    "dur": 4.93,
+    "text": "is that we'd like to avoid\nsome notion of bad challenges."
+  },
+  {
+    "start": 4130.13,
+    "dur": 3.71,
+    "text": "So on the slide I have\nup the transformation"
+  },
+  {
+    "start": 4133.84,
+    "dur": 4.26,
+    "text": "for three message\ninteractive protocols."
+  },
+  {
+    "start": 4138.1,
+    "dur": 2.07,
+    "text": "And in this setting,\nwe'll consider"
+  },
+  {
+    "start": 4140.17,
+    "dur": 2.74,
+    "text": "the following analysis."
+  },
+  {
+    "start": 4142.91,
+    "dur": 5.33,
+    "text": "So given an initial statement or\ninitial claim x, which is false"
+  },
+  {
+    "start": 4148.24,
+    "dur": 3.84,
+    "text": "and a first message alpha\nthat is adversarially"
+  },
+  {
+    "start": 4152.08,
+    "dur": 4.47,
+    "text": "chosen by the prover, we say\nthat a verifier challenge beta"
+  },
+  {
+    "start": 4156.55,
+    "dur": 6.03,
+    "text": "is bad if there exists a prover\nmessage gamma making verifier--"
+  },
+  {
+    "start": 4162.58,
+    "dur": 2.26,
+    "text": "making the verifier accept."
+  },
+  {
+    "start": 4164.84,
+    "dur": 1.979,
+    "text": "And it'll become\nclear in a moment"
+  },
+  {
+    "start": 4166.819,
+    "dur": 2.261,
+    "text": "why this is the definition\nthat we're writing down."
+  },
+  {
+    "start": 4169.08,
+    "dur": 2.48,
+    "text": "But let's just go\nwith it for now."
+  },
+  {
+    "start": 4171.56,
+    "dur": 5.219,
+    "text": "So in the interactive\nsetting, we'd"
+  },
+  {
+    "start": 4176.779,
+    "dur": 6.211,
+    "text": "like to say that soundness\nof the interactive protocol"
+  },
+  {
+    "start": 4182.99,
+    "dur": 3.539,
+    "text": "implies that most beta--"
+  },
+  {
+    "start": 4186.529,
+    "dur": 4.08,
+    "text": "most challenges are not bad."
+  },
+  {
+    "start": 4190.609,
+    "dur": 1.801,
+    "text": "Specifically, we\nwant to say that"
+  },
+  {
+    "start": 4192.41,
+    "dur": 6.45,
+    "text": "for any false x and for any\nmessage alpha that most beta--"
+  },
+  {
+    "start": 4198.86,
+    "dur": 3.01,
+    "text": "the verifier could\npick are not bad."
+  },
+  {
+    "start": 4201.87,
+    "dur": 2.87,
+    "text": "So this is true for\nstatistically sound proof"
+  },
+  {
+    "start": 4204.74,
+    "dur": 4.98,
+    "text": "systems, but not true for\ncomputationally sound proof"
+  },
+  {
+    "start": 4209.72,
+    "dur": 1.15,
+    "text": "systems."
+  },
+  {
+    "start": 4210.87,
+    "dur": 2.45,
+    "text": "In fact, if the interactive\nprotocol is only"
+  },
+  {
+    "start": 4213.32,
+    "dur": 2.49,
+    "text": "computationally\nsound, it might be"
+  },
+  {
+    "start": 4215.81,
+    "dur": 2.953,
+    "text": "that every message beta is bad."
+  },
+  {
+    "start": 4218.763,
+    "dur": 1.667,
+    "text": "It might be that every\nchallenge is bad."
+  },
+  {
+    "start": 4220.43,
+    "dur": 1.92,
+    "text": "It might be that\nfor every challenge,"
+  },
+  {
+    "start": 4222.35,
+    "dur": 2.85,
+    "text": "there exists a\nmessage gamma that"
+  },
+  {
+    "start": 4225.2,
+    "dur": 4.74,
+    "text": "would make the verifier\naccept, but the protocol"
+  },
+  {
+    "start": 4229.94,
+    "dur": 4.05,
+    "text": "could still be sound\nbecause these gamma might"
+  },
+  {
+    "start": 4233.99,
+    "dur": 1.51,
+    "text": "be hard to find."
+  },
+  {
+    "start": 4235.5,
+    "dur": 2.3,
+    "text": "But if you start with a\nthree message protocol that"
+  },
+  {
+    "start": 4237.8,
+    "dur": 2.61,
+    "text": "is sound against\nunbounded provers,"
+  },
+  {
+    "start": 4240.41,
+    "dur": 2.61,
+    "text": "then the soundness\nactually directly"
+  },
+  {
+    "start": 4243.02,
+    "dur": 3.3,
+    "text": "says that for all false\nx and for all alpha,"
+  },
+  {
+    "start": 4246.32,
+    "dur": 3.99,
+    "text": "most beta are not bad\nbecause whenever beta is bad,"
+  },
+  {
+    "start": 4250.31,
+    "dur": 3.94,
+    "text": "the inefficient prover\ncould trick the verifier."
+  },
+  {
+    "start": 4254.25,
+    "dur": 4.01,
+    "text": "So long story short, if we\nstart with a statistically sound"
+  },
+  {
+    "start": 4258.26,
+    "dur": 3.12,
+    "text": "protocol, which is\na major like caveat."
+  },
+  {
+    "start": 4261.38,
+    "dur": 3.09,
+    "text": "But nevertheless if\nwe start this way,"
+  },
+  {
+    "start": 4264.47,
+    "dur": 4.395,
+    "text": "then we get this\ninteresting fact"
+  },
+  {
+    "start": 4268.865,
+    "dur": 5.205,
+    "text": "that most beta for every fixed\ntranscript prefix x and alpha"
+  },
+  {
+    "start": 4274.07,
+    "dur": 2.53,
+    "text": "most beta are not bad."
+  },
+  {
+    "start": 4276.6,
+    "dur": 3.32,
+    "text": "So this is exactly a\nsituation where correlation"
+  },
+  {
+    "start": 4279.92,
+    "dur": 3.09,
+    "text": "intractability seems useful."
+  },
+  {
+    "start": 4283.01,
+    "dur": 5.94,
+    "text": "In particular, we can talk\nabout a relation whose inputs"
+  },
+  {
+    "start": 4288.95,
+    "dur": 3.75,
+    "text": "are first messages\nalpha and whose outputs"
+  },
+  {
+    "start": 4292.7,
+    "dur": 2.28,
+    "text": "are second messages beta."
+  },
+  {
+    "start": 4294.98,
+    "dur": 5.31,
+    "text": "And we can say that alpha\nbeta is in this relation"
+  },
+  {
+    "start": 4300.29,
+    "dur": 3.43,
+    "text": "if beta is a bad\nchallenge for alpha."
+  },
+  {
+    "start": 4303.72,
+    "dur": 3.02,
+    "text": "So this depends on\nthe initial claim x."
+  },
+  {
+    "start": 4306.74,
+    "dur": 2.55,
+    "text": "So what you actually\nget is a relation"
+  },
+  {
+    "start": 4309.29,
+    "dur": 3.75,
+    "text": "r sub x for every\nfalse statement x,"
+  },
+  {
+    "start": 4313.04,
+    "dur": 2.89,
+    "text": "or you could alternatively\nhave a single relation"
+  },
+  {
+    "start": 4315.93,
+    "dur": 3.84,
+    "text": "whose inputs are x comma\nalpha and outputs are beta."
+  },
+  {
+    "start": 4319.77,
+    "dur": 6.49,
+    "text": "And then this is in the relation\nif x is false and beta is bad."
+  },
+  {
+    "start": 4326.26,
+    "dur": 2.9,
+    "text": "So in any case, there\nare some relations"
+  },
+  {
+    "start": 4329.16,
+    "dur": 2.73,
+    "text": "that we can write down."
+  },
+  {
+    "start": 4331.89,
+    "dur": 4.17,
+    "text": "And it's pretty easy to see\nthat if the Fiat-Shamir hash"
+  },
+  {
+    "start": 4336.06,
+    "dur": 5.46,
+    "text": "function h is correlation\nintractable for these relations"
+  },
+  {
+    "start": 4341.52,
+    "dur": 2.44,
+    "text": "when we're dealing with\nfalse statements anyway,"
+  },
+  {
+    "start": 4343.96,
+    "dur": 3.6,
+    "text": "then the Fiat-Shamir\nprotocol is actually sound."
+  },
+  {
+    "start": 4347.56,
+    "dur": 2.78,
+    "text": "And the reason is\nthat if you break"
+  },
+  {
+    "start": 4350.34,
+    "dur": 3.18,
+    "text": "the soundness of Fiat-Shamir,\nthen whatever first"
+  },
+  {
+    "start": 4353.52,
+    "dur": 1.77,
+    "text": "and second message\nalpha and beta"
+  },
+  {
+    "start": 4355.29,
+    "dur": 4.14,
+    "text": "you end up sending no\nmatter what that pair is,"
+  },
+  {
+    "start": 4359.43,
+    "dur": 3.78,
+    "text": "it must be that beta is\nbad for x comma alpha"
+  },
+  {
+    "start": 4363.21,
+    "dur": 4.41,
+    "text": "because, in fact, you even found\nthe third message gamma making"
+  },
+  {
+    "start": 4367.62,
+    "dur": 1.02,
+    "text": "the verifier accept."
+  },
+  {
+    "start": 4368.64,
+    "dur": 2.73,
+    "text": "So you've solved an\neven harder problem."
+  },
+  {
+    "start": 4371.37,
+    "dur": 3.3,
+    "text": "As a result,\nbreaking Fiat-Shamir"
+  },
+  {
+    "start": 4374.67,
+    "dur": 2.97,
+    "text": "is an attack on this\nparticular kind of correlation"
+  },
+  {
+    "start": 4377.64,
+    "dur": 2.43,
+    "text": "and tractability."
+  },
+  {
+    "start": 4380.07,
+    "dur": 3.48,
+    "text": "So in fact, we can--"
+  },
+  {
+    "start": 4383.55,
+    "dur": 3.24,
+    "text": "so this is a way to relate\ncorrelation in tractability"
+  },
+  {
+    "start": 4386.79,
+    "dur": 4.23,
+    "text": "to Fiat-Shamir for\nthree message protocols."
+  },
+  {
+    "start": 4391.02,
+    "dur": 2.79,
+    "text": "You can extend this\nactually to protocols"
+  },
+  {
+    "start": 4393.81,
+    "dur": 2.1,
+    "text": "with arbitrarily many\nmessages provided"
+  },
+  {
+    "start": 4395.91,
+    "dur": 3.96,
+    "text": "that they satisfy a\nstatistical form of round"
+  },
+  {
+    "start": 4399.87,
+    "dur": 1.2,
+    "text": "by round soundness."
+  },
+  {
+    "start": 4401.07,
+    "dur": 3.72,
+    "text": "That is for every round\nfor every verifier message,"
+  },
+  {
+    "start": 4404.79,
+    "dur": 3.18,
+    "text": "you can talk about a notion\nof that message being bad,"
+  },
+  {
+    "start": 4407.97,
+    "dur": 5.23,
+    "text": "and as long as the hash function\navoids these bad messages,"
+  },
+  {
+    "start": 4413.2,
+    "dur": 3.96,
+    "text": "then you'll get a secure\nFiat-Shamir instantiation."
+  },
+  {
+    "start": 4417.16,
+    "dur": 2.06,
+    "text": "So this is the\nhigh-level approach"
+  },
+  {
+    "start": 4419.22,
+    "dur": 1.89,
+    "text": "for how correlation\nintractability"
+  },
+  {
+    "start": 4421.11,
+    "dur": 2.34,
+    "text": "implies Fiat-Shamir\ninstantiations,"
+  },
+  {
+    "start": 4423.45,
+    "dur": 4.05,
+    "text": "but there are some big technical\nchallenges in order to actually"
+  },
+  {
+    "start": 4427.5,
+    "dur": 1.39,
+    "text": "show that this works."
+  },
+  {
+    "start": 4428.89,
+    "dur": 4.07,
+    "text": "So first of all,\nsometimes you don't"
+  },
+  {
+    "start": 4432.96,
+    "dur": 2.07,
+    "text": "start with an interactive\nproof that is actually"
+  },
+  {
+    "start": 4435.03,
+    "dur": 0.96,
+    "text": "statistically sound."
+  },
+  {
+    "start": 4435.99,
+    "dur": 2.1,
+    "text": "And then so far\nwhat I've said says"
+  },
+  {
+    "start": 4438.09,
+    "dur": 2.62,
+    "text": "nothing about how you might\ninstantiate Fiat-Shamir"
+  },
+  {
+    "start": 4440.71,
+    "dur": 3.15,
+    "text": "for such proof systems."
+  },
+  {
+    "start": 4443.86,
+    "dur": 5.07,
+    "text": "We'll discuss how to handle this\na little bit in the next slide"
+  },
+  {
+    "start": 4448.93,
+    "dur": 3.52,
+    "text": "or in a particular example."
+  },
+  {
+    "start": 4452.45,
+    "dur": 2.175,
+    "text": "The second technical\nchallenge which"
+  },
+  {
+    "start": 4454.625,
+    "dur": 1.625,
+    "text": "I'm not going to\ncover in this lecture,"
+  },
+  {
+    "start": 4456.25,
+    "dur": 5.07,
+    "text": "but you can see some of\nthe papers for details."
+  },
+  {
+    "start": 4461.32,
+    "dur": 2.85,
+    "text": "The second challenge\nis that we only"
+  },
+  {
+    "start": 4464.17,
+    "dur": 5.64,
+    "text": "can build correlation and\ntractability for specific kinds"
+  },
+  {
+    "start": 4469.81,
+    "dur": 0.72,
+    "text": "of relations."
+  },
+  {
+    "start": 4470.53,
+    "dur": 2.73,
+    "text": "In particular, all of the\nrelations that we handle"
+  },
+  {
+    "start": 4473.26,
+    "dur": 3.705,
+    "text": "have the property that they can\nbe decided in polynomial time."
+  },
+  {
+    "start": 4480.08,
+    "dur": 3.54,
+    "text": "But the relation that\nwe just talked about"
+  },
+  {
+    "start": 4483.62,
+    "dur": 2.91,
+    "text": "that alpha and beta\nis in the relation"
+  },
+  {
+    "start": 4486.53,
+    "dur": 3.99,
+    "text": "if there exists a gamma\nmaking the verifier accept"
+  },
+  {
+    "start": 4490.52,
+    "dur": 3.8,
+    "text": "is not actually decidable\nin polynomial time."
+  },
+  {
+    "start": 4494.32,
+    "dur": 6.07,
+    "text": "And so it's not clear how\nanything that we've said so far"
+  },
+  {
+    "start": 4500.39,
+    "dur": 3.24,
+    "text": "helps there either."
+  },
+  {
+    "start": 4503.63,
+    "dur": 5.55,
+    "text": "I won't cover really how you\nhandle this second challenge,"
+  },
+  {
+    "start": 4509.18,
+    "dur": 3.99,
+    "text": "but from the example that we\nare about to get into maybe"
+  },
+  {
+    "start": 4513.17,
+    "dur": 1.62,
+    "text": "you could see how that might go."
+  },
+  {
+    "start": 4517.85,
+    "dur": 3.6,
+    "text": "So now let's focus on\nparticular example."
+  },
+  {
+    "start": 4521.45,
+    "dur": 3.57,
+    "text": "Let's focus on the problem\nof obtaining SNARKs"
+  },
+  {
+    "start": 4525.02,
+    "dur": 3.36,
+    "text": "via interactive\noracle proofs which"
+  },
+  {
+    "start": 4528.38,
+    "dur": 4.32,
+    "text": "you've seen a few times\nin this class already."
+  },
+  {
+    "start": 4532.7,
+    "dur": 4.89,
+    "text": "So here's a very\nsimple template SNARG"
+  },
+  {
+    "start": 4537.59,
+    "dur": 4.62,
+    "text": "using a very special kind of\ninteractive oracle proof, which"
+  },
+  {
+    "start": 4542.21,
+    "dur": 2.79,
+    "text": "is called a probabilistically\ncheckable proof."
+  },
+  {
+    "start": 4545.0,
+    "dur": 3.96,
+    "text": "So this construction is due to\nKilian and Micali from the 90s."
+  },
+  {
+    "start": 4548.96,
+    "dur": 4.41,
+    "text": "And it's essentially a\ntheoretical simplification"
+  },
+  {
+    "start": 4553.37,
+    "dur": 3.84,
+    "text": "of some constructions that\nyou've already seen in class."
+  },
+  {
+    "start": 4557.21,
+    "dur": 4.23,
+    "text": "The cost is that the downside\nis that this construction is"
+  },
+  {
+    "start": 4561.44,
+    "dur": 2.49,
+    "text": "way less efficient,\nbut we don't need"
+  },
+  {
+    "start": 4563.93,
+    "dur": 2.51,
+    "text": "to worry about that for now."
+  },
+  {
+    "start": 4566.44,
+    "dur": 4.13,
+    "text": "So way less prover efficient."
+  },
+  {
+    "start": 4570.57,
+    "dur": 1.9,
+    "text": "So here's the protocol."
+  },
+  {
+    "start": 4572.47,
+    "dur": 2.96,
+    "text": "So the prover starts\nwith a statement"
+  },
+  {
+    "start": 4575.43,
+    "dur": 1.92,
+    "text": "x along with a witness w."
+  },
+  {
+    "start": 4577.35,
+    "dur": 2.85,
+    "text": "And what the prover is going\nto do is, first of all,"
+  },
+  {
+    "start": 4580.2,
+    "dur": 4.98,
+    "text": "compute some long proof\nstring pi from x and w."
+  },
+  {
+    "start": 4585.18,
+    "dur": 1.62,
+    "text": "It's some sort of encoding."
+  },
+  {
+    "start": 4586.8,
+    "dur": 5.37,
+    "text": "And then you can think of pi as\nbeing the analog of the oracles"
+  },
+  {
+    "start": 4592.17,
+    "dur": 4.35,
+    "text": "that you saw in the\nIOP-based constructions."
+  },
+  {
+    "start": 4596.52,
+    "dur": 3.24,
+    "text": "And then the prover commits\nto this very long string pi."
+  },
+  {
+    "start": 4599.76,
+    "dur": 4.24,
+    "text": "It sends a succinct\ncommitment to the verifier."
+  },
+  {
+    "start": 4604.0,
+    "dur": 3.87,
+    "text": "The verifier then\nsamples a random string"
+  },
+  {
+    "start": 4607.87,
+    "dur": 6.27,
+    "text": "which indicates a set of\nlocations or a set of indices."
+  },
+  {
+    "start": 4614.14,
+    "dur": 3.48,
+    "text": "It indicates a substring that\nthe verifier wants the prover"
+  },
+  {
+    "start": 4617.62,
+    "dur": 4.56,
+    "text": "to open, and the substring\nshould be very short."
+  },
+  {
+    "start": 4622.18,
+    "dur": 3.42,
+    "text": "Then finally, the prover\ngives a local openings"
+  },
+  {
+    "start": 4625.6,
+    "dur": 2.325,
+    "text": "to every location that\nthe verifier asked for."
+  },
+  {
+    "start": 4630.46,
+    "dur": 4.74,
+    "text": "So this is like a minimally\ninteractive version"
+  },
+  {
+    "start": 4635.2,
+    "dur": 3.37,
+    "text": "of the IOP-based SNARGs\nthat you've seen before."
+  },
+  {
+    "start": 4638.57,
+    "dur": 1.91,
+    "text": "And instead of using a\npolynomial commitment,"
+  },
+  {
+    "start": 4640.48,
+    "dur": 3.76,
+    "text": "we're just using a\nvector commitment."
+  },
+  {
+    "start": 4644.24,
+    "dur": 0.81,
+    "text": "Good."
+  },
+  {
+    "start": 4645.05,
+    "dur": 2.43,
+    "text": "So this is a very\nbasic construction."
+  },
+  {
+    "start": 4647.48,
+    "dur": 5.85,
+    "text": "And you can prove that\nas long as the mapping"
+  },
+  {
+    "start": 4653.33,
+    "dur": 3.69,
+    "text": "as long as the information\ntheoretic object pi as long as"
+  },
+  {
+    "start": 4657.02,
+    "dur": 3.63,
+    "text": "that underlying proof\nsystem is sound,"
+  },
+  {
+    "start": 4660.65,
+    "dur": 6.28,
+    "text": "then the resulting interactive\nprotocol here is also sound."
+  },
+  {
+    "start": 4666.93,
+    "dur": 2.09,
+    "text": "So then you immediately\nget a candidate"
+  },
+  {
+    "start": 4669.02,
+    "dur": 2.73,
+    "text": "SNARG as well by applying\nFiat-Shamir to this protocol."
+  },
+  {
+    "start": 4676.04,
+    "dur": 4.747,
+    "text": "As I said, this is a\nmore inefficient version"
+  },
+  {
+    "start": 4680.787,
+    "dur": 2.333,
+    "text": "of modern SNARGs that you've\nlearned about in the course"
+  },
+  {
+    "start": 4683.12,
+    "dur": 1.52,
+    "text": "already."
+  },
+  {
+    "start": 4684.64,
+    "dur": 3.48,
+    "text": "But it's easier to\ntalk about this version"
+  },
+  {
+    "start": 4688.12,
+    "dur": 3.13,
+    "text": "because there are\nfewer moving parts."
+  },
+  {
+    "start": 4691.25,
+    "dur": 4.55,
+    "text": "So in principle-- so we\nhave a candidate SNARG,"
+  },
+  {
+    "start": 4695.8,
+    "dur": 4.77,
+    "text": "but since this interactive\nprotocol is not statistically"
+  },
+  {
+    "start": 4700.57,
+    "dur": 1.05,
+    "text": "sound--"
+  },
+  {
+    "start": 4701.62,
+    "dur": 2.28,
+    "text": "it's really not\nclear how anything"
+  },
+  {
+    "start": 4703.9,
+    "dur": 3.09,
+    "text": "I've said about\ncorrelation intractability"
+  },
+  {
+    "start": 4706.99,
+    "dur": 3.12,
+    "text": "can help us argue the soundness\nof the Fiat-Shamir version"
+  },
+  {
+    "start": 4710.11,
+    "dur": 0.97,
+    "text": "of this protocol."
+  },
+  {
+    "start": 4711.08,
+    "dur": 2.96,
+    "text": "So the reason this protocol\nis not statistically sound"
+  },
+  {
+    "start": 4714.04,
+    "dur": 2.28,
+    "text": "is because whenever\nyou can find collisions"
+  },
+  {
+    "start": 4716.32,
+    "dur": 2.85,
+    "text": "in the vector commitment,\nthen this protocol"
+  },
+  {
+    "start": 4719.17,
+    "dur": 1.92,
+    "text": "will be broken or-- sorry."
+  },
+  {
+    "start": 4721.09,
+    "dur": 3.36,
+    "text": "At least, if you can find good\nenough collisions in the vector"
+  },
+  {
+    "start": 4724.45,
+    "dur": 2.94,
+    "text": "commitment, then this\nprotocol will be broken."
+  },
+  {
+    "start": 4730.58,
+    "dur": 1.8,
+    "text": "So what do we do?"
+  },
+  {
+    "start": 4732.38,
+    "dur": 1.71,
+    "text": "What we're going to\ndo is we're going"
+  },
+  {
+    "start": 4734.09,
+    "dur": 3.54,
+    "text": "to restrict the\nkinds of computations"
+  },
+  {
+    "start": 4737.63,
+    "dur": 3.24,
+    "text": "that we imagine\nthat we're proving."
+  },
+  {
+    "start": 4740.87,
+    "dur": 5.4,
+    "text": "So instead of considering the\nproblem of proving an arbitrary"
+  },
+  {
+    "start": 4746.27,
+    "dur": 3.48,
+    "text": "NP statement\nsuccinctly, we're going"
+  },
+  {
+    "start": 4749.75,
+    "dur": 6.51,
+    "text": "to imagine that we're proving\na large number of small NP"
+  },
+  {
+    "start": 4756.26,
+    "dur": 0.57,
+    "text": "statements."
+  },
+  {
+    "start": 4756.83,
+    "dur": 2.34,
+    "text": "So instead of one\nbig computation,"
+  },
+  {
+    "start": 4759.17,
+    "dur": 8.28,
+    "text": "imagine we want to prove that\nmany small claims are true."
+  },
+  {
+    "start": 4767.45,
+    "dur": 3.63,
+    "text": "So this is called a\nSNARG for batch NP."
+  },
+  {
+    "start": 4771.08,
+    "dur": 3.6,
+    "text": "And the syntax is that the\nprover is given k statements x1"
+  },
+  {
+    "start": 4774.68,
+    "dur": 3.69,
+    "text": "through xk, and k\nwitnesses w1 through wk"
+  },
+  {
+    "start": 4778.37,
+    "dur": 2.85,
+    "text": "sends a proof pi\nto the verifier."
+  },
+  {
+    "start": 4781.22,
+    "dur": 2.61,
+    "text": "The verifier has\nthese k statements."
+  },
+  {
+    "start": 4783.83,
+    "dur": 3.39,
+    "text": "And what we want is\nthat the verifier"
+  },
+  {
+    "start": 4787.22,
+    "dur": 2.28,
+    "text": "will accept the\nhonestly generated proof"
+  },
+  {
+    "start": 4789.5,
+    "dur": 3.21,
+    "text": "if every one of the\nwitnesses is a valid witness."
+  },
+  {
+    "start": 4792.71,
+    "dur": 3.21,
+    "text": "If wi is a witness for xi."
+  },
+  {
+    "start": 4795.92,
+    "dur": 4.05,
+    "text": "And moreover, if any\nof the k statements"
+  },
+  {
+    "start": 4799.97,
+    "dur": 3.99,
+    "text": "is false, then no matter\nwhat the prover does"
+  },
+  {
+    "start": 4803.96,
+    "dur": 1.89,
+    "text": "and for any efficient\nprover strategy,"
+  },
+  {
+    "start": 4805.85,
+    "dur": 3.12,
+    "text": "the verifier is\nlikely to reject."
+  },
+  {
+    "start": 4808.97,
+    "dur": 3.45,
+    "text": "Then we still ask that\nthis proof is succinct,"
+  },
+  {
+    "start": 4812.42,
+    "dur": 3.7,
+    "text": "but the succinctness notion\nthat we ask for is different."
+  },
+  {
+    "start": 4816.12,
+    "dur": 3.38,
+    "text": "We want the proof length to\nhave polylogarithmic dependence"
+  },
+  {
+    "start": 4819.5,
+    "dur": 2.79,
+    "text": "in the number of\nstatements k, but we"
+  },
+  {
+    "start": 4822.29,
+    "dur": 4.72,
+    "text": "allow it to be at least as\nlarge as a single witness w."
+  },
+  {
+    "start": 4827.01,
+    "dur": 2.82,
+    "text": "So that's why I said the\nsituation to have in mind"
+  },
+  {
+    "start": 4829.83,
+    "dur": 3.33,
+    "text": "is that you have many\nsmall NP statements."
+  },
+  {
+    "start": 4833.16,
+    "dur": 3.87,
+    "text": "The proof is still succinct\nbecause the naive proof would"
+  },
+  {
+    "start": 4837.03,
+    "dur": 3.03,
+    "text": "require sending k witnesses,\nwhich would be very long,"
+  },
+  {
+    "start": 4840.06,
+    "dur": 3.6,
+    "text": "and you'd have to verify\nk different claims."
+  },
+  {
+    "start": 4843.66,
+    "dur": 2.94,
+    "text": "But the proof length and\nthe verification time"
+  },
+  {
+    "start": 4846.6,
+    "dur": 2.16,
+    "text": "here has a logarithmic\ndependence on k."
+  },
+  {
+    "start": 4852.67,
+    "dur": 3.66,
+    "text": "This is not as strong\nas a full-fledged SNARG"
+  },
+  {
+    "start": 4856.33,
+    "dur": 2.79,
+    "text": "for arbitrary statements,\nbut it's actually"
+  },
+  {
+    "start": 4859.12,
+    "dur": 3.99,
+    "text": "a surprisingly powerful object."
+  },
+  {
+    "start": 4863.11,
+    "dur": 2.64,
+    "text": "It's been shown within\nthe last couple of years"
+  },
+  {
+    "start": 4865.75,
+    "dur": 3.75,
+    "text": "that, for example, if you\nhave such a proof system, then"
+  },
+  {
+    "start": 4869.5,
+    "dur": 4.65,
+    "text": "you can use it to build a\nSNARG for any deterministic"
+  },
+  {
+    "start": 4874.15,
+    "dur": 1.15,
+    "text": "computation."
+  },
+  {
+    "start": 4875.3,
+    "dur": 2.63,
+    "text": "So that's another restricted\nclass of computations,"
+  },
+  {
+    "start": 4877.93,
+    "dur": 6.81,
+    "text": "where there's no witness, but\njust like checking the claim x"
+  },
+  {
+    "start": 4884.74,
+    "dur": 4.71,
+    "text": "yourself would take a\nvery, very long time."
+  },
+  {
+    "start": 4889.45,
+    "dur": 3.03,
+    "text": "And SNARG for\ndeterministic computation"
+  },
+  {
+    "start": 4892.48,
+    "dur": 2.22,
+    "text": "has the prover send\nyou a short proof"
+  },
+  {
+    "start": 4894.7,
+    "dur": 2.05,
+    "text": "that you can verify\nvery quickly."
+  },
+  {
+    "start": 4896.75,
+    "dur": 3.17,
+    "text": "So in any case, the point here\nis that SNARGs for batch NP"
+  },
+  {
+    "start": 4899.92,
+    "dur": 3.09,
+    "text": "are pretty powerful,\nand we're going"
+  },
+  {
+    "start": 4903.01,
+    "dur": 5.24,
+    "text": "to show how to build these using\ncorrelation and tractability."
+  },
+  {
+    "start": 4908.25,
+    "dur": 2.4,
+    "text": "This is a construction due\nto Choudhuri, Jain, and Jin"
+  },
+  {
+    "start": 4910.65,
+    "dur": 3.21,
+    "text": "from 2020."
+  },
+  {
+    "start": 4913.86,
+    "dur": 4.5,
+    "text": "So here's an\ninteractive protocol"
+  },
+  {
+    "start": 4918.36,
+    "dur": 6.0,
+    "text": "that looks a lot like the\nprevious succinct argument"
+  },
+  {
+    "start": 4924.36,
+    "dur": 0.75,
+    "text": "that I showed you."
+  },
+  {
+    "start": 4925.11,
+    "dur": 2.49,
+    "text": "The Kilion-Macali construction."
+  },
+  {
+    "start": 4927.6,
+    "dur": 4.34,
+    "text": "So all that's happened\nis that instead"
+  },
+  {
+    "start": 4931.94,
+    "dur": 3.27,
+    "text": "of writing down a single PCP--"
+  },
+  {
+    "start": 4935.21,
+    "dur": 2.97,
+    "text": "a single proof string\nfor a single witness,"
+  },
+  {
+    "start": 4938.18,
+    "dur": 3.67,
+    "text": "you now write down k of\nthem, one for each one."
+  },
+  {
+    "start": 4941.85,
+    "dur": 1.73,
+    "text": "And then you send a\nsuccinct commitment"
+  },
+  {
+    "start": 4943.58,
+    "dur": 2.13,
+    "text": "to all k of these proof strings."
+  },
+  {
+    "start": 4945.71,
+    "dur": 2.34,
+    "text": "The verifier then does\nthe same thing as before."
+  },
+  {
+    "start": 4948.05,
+    "dur": 2.49,
+    "text": "It samples a location set."
+  },
+  {
+    "start": 4950.54,
+    "dur": 2.43,
+    "text": "But now the prover\nis going to give you"
+  },
+  {
+    "start": 4952.97,
+    "dur": 5.01,
+    "text": "local openings to answers\nfor all k of the proofs."
+  },
+  {
+    "start": 4957.98,
+    "dur": 4.92,
+    "text": "So this is a protocol\nthat you can write down."
+  },
+  {
+    "start": 4962.9,
+    "dur": 3.575,
+    "text": "So if you're concerned that\nthis proof doesn't seem succinct"
+  },
+  {
+    "start": 4966.475,
+    "dur": 0.875,
+    "text": "don't worry about it."
+  },
+  {
+    "start": 4967.35,
+    "dur": 3.38,
+    "text": "We're going to make\nit succinct later--"
+  },
+  {
+    "start": 4970.73,
+    "dur": 2.55,
+    "text": "make it more succinct later."
+  },
+  {
+    "start": 4973.28,
+    "dur": 2.13,
+    "text": "But it's at least\nsomewhat succinct."
+  },
+  {
+    "start": 4975.41,
+    "dur": 2.19,
+    "text": "You do not have to send--"
+  },
+  {
+    "start": 4977.6,
+    "dur": 4.183,
+    "text": "this is still less than k\nwitnesses worth of information"
+  },
+  {
+    "start": 4981.783,
+    "dur": 0.917,
+    "text": "that you've sent here."
+  },
+  {
+    "start": 4985.32,
+    "dur": 4.81,
+    "text": "So why did we switch to the\nbatch verification setting,"
+  },
+  {
+    "start": 4990.13,
+    "dur": 2.52,
+    "text": "and why did we write\ndown this protocol?"
+  },
+  {
+    "start": 4992.65,
+    "dur": 4.11,
+    "text": "Well, there is a\nclever idea here"
+  },
+  {
+    "start": 4996.76,
+    "dur": 5.25,
+    "text": "that reduces us to a protocol\nwhich is statistically sound."
+  },
+  {
+    "start": 5002.01,
+    "dur": 5.73,
+    "text": "So the idea is that you can\nuse a commitment scheme which"
+  },
+  {
+    "start": 5007.74,
+    "dur": 4.83,
+    "text": "is statistically binding\nto one out of the k proofs"
+  },
+  {
+    "start": 5012.57,
+    "dur": 3.54,
+    "text": "that the honest prover\nwas supposed to generate."
+  },
+  {
+    "start": 5016.11,
+    "dur": 3.18,
+    "text": "So, of course, if the\ncommitment is succinct,"
+  },
+  {
+    "start": 5019.29,
+    "dur": 4.02,
+    "text": "you can't be binding to the\nentire concatenation pi1"
+  },
+  {
+    "start": 5023.31,
+    "dur": 1.63,
+    "text": "through pik, then\nyour commitment"
+  },
+  {
+    "start": 5024.94,
+    "dur": 1.5,
+    "text": "would have to be\nat least that long,"
+  },
+  {
+    "start": 5026.44,
+    "dur": 1.43,
+    "text": "and then you have\nno succinctness."
+  },
+  {
+    "start": 5027.87,
+    "dur": 3.5,
+    "text": "But you could be statistically\nbinding to a single one"
+  },
+  {
+    "start": 5031.37,
+    "dur": 0.5,
+    "text": "of them."
+  },
+  {
+    "start": 5031.87,
+    "dur": 3.47,
+    "text": "So it could be that a commitment\ninformation theoretically"
+  },
+  {
+    "start": 5035.34,
+    "dur": 4.02,
+    "text": "determines, say,\nthe first proof pi1."
+  },
+  {
+    "start": 5039.36,
+    "dur": 4.89,
+    "text": "So if that's the case,\nthen if the first statement"
+  },
+  {
+    "start": 5044.25,
+    "dur": 7.17,
+    "text": "x1 is false, then this protocol,\nfor this collection of--"
+  },
+  {
+    "start": 5051.42,
+    "dur": 2.7,
+    "text": "for this statement anyway\nwould be statistically"
+  },
+  {
+    "start": 5054.12,
+    "dur": 3.24,
+    "text": "sound because your information\ntheoretically bound"
+  },
+  {
+    "start": 5057.36,
+    "dur": 5.04,
+    "text": "to this particular\nproof string, then it"
+  },
+  {
+    "start": 5062.4,
+    "dur": 3.48,
+    "text": "turns out there are\nonly a small fraction--"
+  },
+  {
+    "start": 5065.88,
+    "dur": 2.91,
+    "text": "I mean, by the soundness of\nthe information theoretic proof"
+  },
+  {
+    "start": 5068.79,
+    "dur": 2.73,
+    "text": "system, you can only\nsuccessfully answer"
+  },
+  {
+    "start": 5071.52,
+    "dur": 5.07,
+    "text": "a small fraction of the queries\nrepresented by the verifier"
+  },
+  {
+    "start": 5076.59,
+    "dur": 0.72,
+    "text": "challenge."
+  },
+  {
+    "start": 5080.28,
+    "dur": 2.94,
+    "text": "So if you use this special\nkind of commitment scheme,"
+  },
+  {
+    "start": 5083.22,
+    "dur": 4.44,
+    "text": "then you can be\nstatistically sound"
+  },
+  {
+    "start": 5087.66,
+    "dur": 5.76,
+    "text": "when you are told that a\nfixed statement like x1 or xi"
+  },
+  {
+    "start": 5093.42,
+    "dur": 1.83,
+    "text": "is false."
+  },
+  {
+    "start": 5095.25,
+    "dur": 3.15,
+    "text": "So let me say a little\nbit more about this notion"
+  },
+  {
+    "start": 5098.4,
+    "dur": 1.27,
+    "text": "of a commitment scheme."
+  },
+  {
+    "start": 5099.67,
+    "dur": 3.075,
+    "text": "It's a property called\nsomewhere statistical binding."
+  },
+  {
+    "start": 5105.28,
+    "dur": 2.91,
+    "text": "So somewhere statistically\nbinding commitments"
+  },
+  {
+    "start": 5108.19,
+    "dur": 6.97,
+    "text": "are a strengthening of the usual\nnotion of succinct commitment,"
+  },
+  {
+    "start": 5115.16,
+    "dur": 2.33,
+    "text": "which I'm going to think\nof as a Merkle tree"
+  },
+  {
+    "start": 5117.49,
+    "dur": 2.56,
+    "text": "like you've seen in\nthe course so far."
+  },
+  {
+    "start": 5120.05,
+    "dur": 3.23,
+    "text": "So we say that a Merkle tree\ntype construction is somewhere"
+  },
+  {
+    "start": 5123.28,
+    "dur": 7.23,
+    "text": "statistically binding\nif for every like index"
+  },
+  {
+    "start": 5130.51,
+    "dur": 3.99,
+    "text": "of your initial\nvector, there is a way"
+  },
+  {
+    "start": 5134.5,
+    "dur": 8.98,
+    "text": "to choose the hash key such that\nthe roots of the Merkle tree"
+  },
+  {
+    "start": 5143.48,
+    "dur": 3.21,
+    "text": "information\ntheoretically determines"
+  },
+  {
+    "start": 5146.69,
+    "dur": 3.81,
+    "text": "that single location\nof your vector--"
+  },
+  {
+    "start": 5150.5,
+    "dur": 1.6,
+    "text": "that single coordinates."
+  },
+  {
+    "start": 5152.1,
+    "dur": 5.08,
+    "text": "So formally, what you ask\nfor is that for every index i"
+  },
+  {
+    "start": 5157.18,
+    "dur": 4.81,
+    "text": "that there is a way to sample\na hash key, depending on i"
+  },
+  {
+    "start": 5161.99,
+    "dur": 6.075,
+    "text": "so that when you sample\nthe hash key and mode i,"
+  },
+  {
+    "start": 5168.065,
+    "dur": 1.995,
+    "text": "you have statistical\nbinding to the ith"
+  },
+  {
+    "start": 5170.06,
+    "dur": 4.92,
+    "text": "position of your vector,\nand moreover the n"
+  },
+  {
+    "start": 5174.98,
+    "dur": 4.71,
+    "text": "different ways of sampling these\nhash keys one for each index"
+  },
+  {
+    "start": 5179.69,
+    "dur": 2.64,
+    "text": "all have to be computationally\nindistinguishable."
+  },
+  {
+    "start": 5182.33,
+    "dur": 5.28,
+    "text": "So it's statistically binding\nsomewhere, but you don't where."
+  },
+  {
+    "start": 5187.61,
+    "dur": 1.51,
+    "text": "If you're just\ngiven the hash key,"
+  },
+  {
+    "start": 5189.12,
+    "dur": 1.85,
+    "text": "you don't know which\ncoordinate is bound."
+  },
+  {
+    "start": 5190.97,
+    "dur": 4.62,
+    "text": "But one of them is bound,\nbut it could be any of them."
+  },
+  {
+    "start": 5195.59,
+    "dur": 4.858,
+    "text": "And so it turns out that you can\nbuild such commitment schemes."
+  },
+  {
+    "start": 5200.448,
+    "dur": 1.792,
+    "text": "I'm not going to get\ninto the construction,"
+  },
+  {
+    "start": 5202.24,
+    "dur": 2.58,
+    "text": "but it's possible\nto construct these."
+  },
+  {
+    "start": 5204.82,
+    "dur": 3.39,
+    "text": "So you can think of when\nthe hash function is sampled"
+  },
+  {
+    "start": 5208.21,
+    "dur": 4.32,
+    "text": "in mode i, you can\nthink of the Merkle root"
+  },
+  {
+    "start": 5212.53,
+    "dur": 6.833,
+    "text": "as secretly encoding the\nparticular coordinates--"
+  },
+  {
+    "start": 5219.363,
+    "dur": 1.792,
+    "text": "the ith coordinates of\nyour initial vector."
+  },
+  {
+    "start": 5225.0,
+    "dur": 1.71,
+    "text": "So this is the kind\nof commitment scheme"
+  },
+  {
+    "start": 5226.71,
+    "dur": 2.68,
+    "text": "that we want to use\nin this construction."
+  },
+  {
+    "start": 5229.39,
+    "dur": 5.69,
+    "text": "So now the idea is that\nyou can argue soundness"
+  },
+  {
+    "start": 5235.08,
+    "dur": 7.26,
+    "text": "of this protocol and, in\nfact, in the following way."
+  },
+  {
+    "start": 5242.34,
+    "dur": 6.36,
+    "text": "Suppose that one of the\nstatements of xi through xk"
+  },
+  {
+    "start": 5248.7,
+    "dur": 6.03,
+    "text": "is false, then you can switch\nto a world in which the hash"
+  },
+  {
+    "start": 5254.73,
+    "dur": 2.88,
+    "text": "key was sampled to\nbe statistically"
+  },
+  {
+    "start": 5257.61,
+    "dur": 6.0,
+    "text": "binding on the ith\nPCP, where i is"
+  },
+  {
+    "start": 5263.61,
+    "dur": 3.51,
+    "text": "the index of the\nstatement that's false."
+  },
+  {
+    "start": 5267.12,
+    "dur": 7.74,
+    "text": "If you break soundness, then you\nbreak soundness on any of these"
+  },
+  {
+    "start": 5274.86,
+    "dur": 3.2,
+    "text": "no matter which mode of\nhash function you choose."
+  },
+  {
+    "start": 5280.95,
+    "dur": 5.29,
+    "text": "You will imagine that the hash\nkey is sampled in that mode."
+  },
+  {
+    "start": 5286.24,
+    "dur": 1.86,
+    "text": "Then you have a protocol\nwhich is actually"
+  },
+  {
+    "start": 5288.1,
+    "dur": 1.65,
+    "text": "statistically sound."
+  },
+  {
+    "start": 5289.75,
+    "dur": 3.15,
+    "text": "And this actually\nenables you to rely"
+  },
+  {
+    "start": 5292.9,
+    "dur": 4.26,
+    "text": "on correlation and tractability\nto prove the soundness"
+  },
+  {
+    "start": 5297.16,
+    "dur": 3.12,
+    "text": "of the Fiat-Shamir protocol."
+  },
+  {
+    "start": 5300.28,
+    "dur": 2.61,
+    "text": "I won't get into the\ndetails of the arguments,"
+  },
+  {
+    "start": 5302.89,
+    "dur": 5.58,
+    "text": "but the idea is that for any\nparticular index i if the ith"
+  },
+  {
+    "start": 5308.47,
+    "dur": 3.63,
+    "text": "statement is false, you can rely\non correlation intractability"
+  },
+  {
+    "start": 5312.1,
+    "dur": 2.52,
+    "text": "for some relations\nthat depend on the ith"
+  },
+  {
+    "start": 5314.62,
+    "dur": 2.4,
+    "text": "statement and the\nproof string that's"
+  },
+  {
+    "start": 5317.02,
+    "dur": 6.0,
+    "text": "statistically committed\nto by the Merkle root."
+  },
+  {
+    "start": 5323.02,
+    "dur": 1.998,
+    "text": "And you can combine this\nwith the correlation"
+  },
+  {
+    "start": 5325.018,
+    "dur": 1.542,
+    "text": "intractable hash\nfunctions that we've"
+  },
+  {
+    "start": 5326.56,
+    "dur": 5.05,
+    "text": "talked about to argue soundness\nof the Fiat-Shamir protocol."
+  },
+  {
+    "start": 5331.61,
+    "dur": 3.39,
+    "text": "Now, one last detail\nwhich I should mention"
+  },
+  {
+    "start": 5335.0,
+    "dur": 3.99,
+    "text": "is that right now, the protocol\nthat we've written down"
+  },
+  {
+    "start": 5338.99,
+    "dur": 2.14,
+    "text": "is not fully succinct."
+  },
+  {
+    "start": 5341.13,
+    "dur": 3.65,
+    "text": "It's proof length is like\nsecurity parameter times"
+  },
+  {
+    "start": 5344.78,
+    "dur": 3.87,
+    "text": "the sum of the length\nof one witness and k."
+  },
+  {
+    "start": 5348.65,
+    "dur": 3.15,
+    "text": "But what we wanted\nwas essentially"
+  },
+  {
+    "start": 5351.8,
+    "dur": 4.95,
+    "text": "no k dependence or maybe a\npolylogarithmic k dependence,"
+  },
+  {
+    "start": 5356.75,
+    "dur": 3.9,
+    "text": "but you can actually\ndo this by recursion."
+  },
+  {
+    "start": 5360.65,
+    "dur": 2.37,
+    "text": "Well, you can think of this\nprotocol as having done"
+  },
+  {
+    "start": 5363.02,
+    "dur": 6.21,
+    "text": "is it's reduced verifying\nk witnesses w1 through wk"
+  },
+  {
+    "start": 5369.23,
+    "dur": 6.75,
+    "text": "to verifying k openings of\na small subsets of locations"
+  },
+  {
+    "start": 5375.98,
+    "dur": 0.615,
+    "text": "to the PCP."
+  },
+  {
+    "start": 5380.653,
+    "dur": 2.167,
+    "text": "So you have a reduction\nfrom a larger amount of work"
+  },
+  {
+    "start": 5382.82,
+    "dur": 3.78,
+    "text": "to a smaller amount of work,\nand this enables you to recurse."
+  },
+  {
+    "start": 5386.6,
+    "dur": 4.29,
+    "text": "You can then use this\nproof system to--"
+  },
+  {
+    "start": 5390.89,
+    "dur": 4.45,
+    "text": "instead of actually sending the\nopenings in this third round--"
+  },
+  {
+    "start": 5395.34,
+    "dur": 5.96,
+    "text": "you can instead commit to\nsome information related to it"
+  },
+  {
+    "start": 5401.3,
+    "dur": 5.11,
+    "text": "and have a longer protocol\nthat eventually reduces"
+  },
+  {
+    "start": 5406.41,
+    "dur": 3.03,
+    "text": "your work down to nothing."
+  },
+  {
+    "start": 5409.44,
+    "dur": 3.39,
+    "text": "Then you can argue soundness\nof the mere protocol via around"
+  },
+  {
+    "start": 5412.83,
+    "dur": 0.93,
+    "text": "by round argument."
+  },
+  {
+    "start": 5421.0,
+    "dur": 2.58,
+    "text": "This concludes our\ndiscussion of constructing"
+  },
+  {
+    "start": 5423.58,
+    "dur": 2.88,
+    "text": "SNARGs for batch NP\ncomputations without relying"
+  },
+  {
+    "start": 5426.46,
+    "dur": 1.83,
+    "text": "on random oracles."
+  },
+  {
+    "start": 5428.29,
+    "dur": 1.98,
+    "text": "Let me give a quick\nsummary of everything"
+  },
+  {
+    "start": 5430.27,
+    "dur": 2.68,
+    "text": "that we've talked about in the\nsecond half of the lecture."
+  },
+  {
+    "start": 5432.95,
+    "dur": 3.08,
+    "text": "So the basic idea\nis that we could"
+  },
+  {
+    "start": 5436.03,
+    "dur": 3.63,
+    "text": "hope to instantiate Fiat-Shamir\nwithout random oracles"
+  },
+  {
+    "start": 5439.66,
+    "dur": 4.44,
+    "text": "by relying on an appropriate\nnotion of correlation"
+  },
+  {
+    "start": 5444.1,
+    "dur": 2.16,
+    "text": "intractable hash\nfunctions, where"
+  },
+  {
+    "start": 5446.26,
+    "dur": 4.74,
+    "text": "we have to balance that the\nstrong notions of correlation"
+  },
+  {
+    "start": 5451.0,
+    "dur": 4.32,
+    "text": "and tractability are hard\nor impossible to build,"
+  },
+  {
+    "start": 5455.32,
+    "dur": 2.1,
+    "text": "but the notions\nthat we use still"
+  },
+  {
+    "start": 5457.42,
+    "dur": 2.04,
+    "text": "need to be strong\nenough to capture"
+  },
+  {
+    "start": 5459.46,
+    "dur": 2.1,
+    "text": "the security of the\nFiat-Shamir transform"
+  },
+  {
+    "start": 5461.56,
+    "dur": 3.28,
+    "text": "for particular\nprotocols of interest."
+  },
+  {
+    "start": 5464.84,
+    "dur": 2.96,
+    "text": "So there have been a bunch of\nworks over the last few years"
+  },
+  {
+    "start": 5467.8,
+    "dur": 2.58,
+    "text": "that have given different\nconstructions of correlation"
+  },
+  {
+    "start": 5470.38,
+    "dur": 1.86,
+    "text": "intractable hash\nfamilies, and then"
+  },
+  {
+    "start": 5472.24,
+    "dur": 4.65,
+    "text": "applied them to build\nnon-interactive protocols"
+  },
+  {
+    "start": 5476.89,
+    "dur": 1.21,
+    "text": "that we care about."
+  },
+  {
+    "start": 5478.1,
+    "dur": 3.66,
+    "text": "So, for example, we know\nhow through this approach"
+  },
+  {
+    "start": 5481.76,
+    "dur": 5.11,
+    "text": "to build non-interactive zero\nknowledge protocols based on,"
+  },
+  {
+    "start": 5486.87,
+    "dur": 3.32,
+    "text": "quote-unquote standard\ncryptographic assumptions."
+  },
+  {
+    "start": 5490.19,
+    "dur": 2.38,
+    "text": "Here, we've given up on\nsuccinctness for the moment,"
+  },
+  {
+    "start": 5492.57,
+    "dur": 3.56,
+    "text": "and we're just going\nfor zero knowledge."
+  },
+  {
+    "start": 5496.13,
+    "dur": 4.74,
+    "text": "We also know how to make the sum\ncheck protocol non-interactive"
+  },
+  {
+    "start": 5500.87,
+    "dur": 4.83,
+    "text": "using a standard model hash\nfunction using this approach."
+  },
+  {
+    "start": 5505.7,
+    "dur": 4.26,
+    "text": "And this also enables you to\ndo certain kinds of SNARGs"
+  },
+  {
+    "start": 5509.96,
+    "dur": 4.5,
+    "text": "by using the protocol, which I\nthink maybe you haven't learned"
+  },
+  {
+    "start": 5514.46,
+    "dur": 2.7,
+    "text": "about in the class, but it's\nan extension of the sum check"
+  },
+  {
+    "start": 5517.16,
+    "dur": 1.98,
+    "text": "protocol that allows\nyou to delegate"
+  },
+  {
+    "start": 5519.14,
+    "dur": 3.03,
+    "text": "certain kinds of\ndeterministic computations."
+  },
+  {
+    "start": 5522.17,
+    "dur": 2.16,
+    "text": "And then, finally,\nthere's the construction"
+  },
+  {
+    "start": 5524.33,
+    "dur": 1.62,
+    "text": "that we just\nsketched which is how"
+  },
+  {
+    "start": 5525.95,
+    "dur": 3.66,
+    "text": "to do SNARGs for\nbatch NP computations,"
+  },
+  {
+    "start": 5529.61,
+    "dur": 2.91,
+    "text": "again, using a standard\nmodel Fiat-Shamir."
+  },
+  {
+    "start": 5532.52,
+    "dur": 4.2,
+    "text": "And as I mentioned,\nthis can be used in turn"
+  },
+  {
+    "start": 5536.72,
+    "dur": 5.11,
+    "text": "to build SNARGs for arbitrary\ndeterministic computations."
+  },
+  {
+    "start": 5541.83,
+    "dur": 4.28,
+    "text": "So let me mention also a couple\nof the biggest open problems"
+  },
+  {
+    "start": 5546.11,
+    "dur": 2.08,
+    "text": "in my opinion in the area."
+  },
+  {
+    "start": 5548.19,
+    "dur": 3.71,
+    "text": "So first of all, we\nreally still don't"
+  },
+  {
+    "start": 5551.9,
+    "dur": 4.2,
+    "text": "know how to characterize which\ninteractive protocols can"
+  },
+  {
+    "start": 5556.1,
+    "dur": 3.63,
+    "text": "be soundly compiled via\nthe Fiat-Shamir transform"
+  },
+  {
+    "start": 5559.73,
+    "dur": 2.25,
+    "text": "without relying\non random oracles."
+  },
+  {
+    "start": 5561.98,
+    "dur": 3.33,
+    "text": "We know what the random\noracle model predicts"
+  },
+  {
+    "start": 5565.31,
+    "dur": 1.8,
+    "text": "does not match reality."
+  },
+  {
+    "start": 5567.11,
+    "dur": 2.43,
+    "text": "There are some protocols\nwhere there's no hope."
+  },
+  {
+    "start": 5569.54,
+    "dur": 2.52,
+    "text": "On the other hand, we have\nsome positive examples"
+  },
+  {
+    "start": 5572.06,
+    "dur": 3.63,
+    "text": "where it is possible, but\nthere's this huge middle ground"
+  },
+  {
+    "start": 5575.69,
+    "dur": 4.17,
+    "text": "of protocols that we don't know\nhow to analyze nor rule out"
+  },
+  {
+    "start": 5579.86,
+    "dur": 6.9,
+    "text": "and this includes, for example,\nthe IOP-based SNARGs for NP"
+  },
+  {
+    "start": 5586.76,
+    "dur": 2.61,
+    "text": "that you've learned about\nin the class so far."
+  },
+  {
+    "start": 5589.37,
+    "dur": 2.07,
+    "text": "We don't know what\nto say about those,"
+  },
+  {
+    "start": 5591.44,
+    "dur": 1.62,
+    "text": "and that's a big open question."
+  },
+  {
+    "start": 5593.06,
+    "dur": 6.12,
+    "text": "And relatedly, we still don't\nknow whether SNARGs for NP"
+  },
+  {
+    "start": 5599.18,
+    "dur": 3.46,
+    "text": "can be built based on\nfalsifiable assumptions."
+  },
+  {
+    "start": 5602.64,
+    "dur": 2.05,
+    "text": "I mentioned, there are\nsome barriers here."
+  },
+  {
+    "start": 5604.69,
+    "dur": 5.03,
+    "text": "But on the other hand, we\nhave these provable SNARGs"
+  },
+  {
+    "start": 5609.72,
+    "dur": 2.34,
+    "text": "for subclasses of\nNP computations."
+  },
+  {
+    "start": 5612.06,
+    "dur": 2.13,
+    "text": "And I'm actually somewhat\noptimistic that we"
+  },
+  {
+    "start": 5614.19,
+    "dur": 2.43,
+    "text": "can expand this class\nto be larger and larger"
+  },
+  {
+    "start": 5616.62,
+    "dur": 4.32,
+    "text": "and eventually maybe even\nanswer this question positively."
+  },
+  {
+    "start": 5620.94,
+    "dur": 3.73,
+    "text": "I'm hopeful that's in the next,\nsay, 5 to 10 years of research,"
+  },
+  {
+    "start": 5624.67,
+    "dur": 3.5,
+    "text": "we're going to learn a\nlot about these questions."
+  },
+  {
+    "start": 5628.17,
+    "dur": 4.55,
+    "text": "So this concludes the lecture."
+  },
+  {
+    "start": 5632.72,
+    "dur": 3.76,
+    "text": "I hope that among\nother things, you've"
+  },
+  {
+    "start": 5636.48,
+    "dur": 3.9,
+    "text": "learned some cool theory\nbehind the protocols you've"
+  },
+  {
+    "start": 5640.38,
+    "dur": 5.25,
+    "text": "been learning about and\nseen somewhat different way"
+  },
+  {
+    "start": 5645.63,
+    "dur": 3.12,
+    "text": "of looking and thinking about\nthese-- looking at and thinking"
+  },
+  {
+    "start": 5648.75,
+    "dur": 3.72,
+    "text": "about these protocols\nthat will give you"
+  },
+  {
+    "start": 5652.47,
+    "dur": 3.45,
+    "text": "another tool in your\narsenal wherever"
+  },
+  {
+    "start": 5655.92,
+    "dur": 1.62,
+    "text": "you might go after this."
+  },
+  {
+    "start": 5657.54,
+    "dur": 3.89,
+    "text": "So thanks for listening, and\nsee you in the next lecture."
+  }
+]

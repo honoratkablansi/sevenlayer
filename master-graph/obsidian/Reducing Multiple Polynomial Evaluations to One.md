@@ -1,12 +1,12 @@
 ---
 source_file: "references/books/proofs-args-zk.pdf"
 type: "paper"
-community: "Community 27"
+community: "Community 47"
 location: "The Sum-Check Protocol"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_27
+  - community/Community_47
 ---
 
 # Reducing Multiple Polynomial Evaluations to One
@@ -15,4 +15,4 @@ tags:
 - [[Counting Triangles IP]] - `applies` [EXTRACTED]
 - [[Multilinear extension (MLE)]] - `uses` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_27
+#graphify/paper #graphify/EXTRACTED #community/Community_47

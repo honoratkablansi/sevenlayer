@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch1/ref-22-nebra-upa.md"
 type: "document"
-community: "Community 23"
+community: "Community 24"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_23
+  - community/Community_24
 ---
 
 # Recursive SNARK
@@ -17,4 +17,4 @@ tags:
 - [[Recursive Proof Composition]] - `conceptually_related_to` [INFERRED]
 - [[Universal Proof Aggregation (UPA)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_23
+#graphify/document #graphify/EXTRACTED #community/Community_24

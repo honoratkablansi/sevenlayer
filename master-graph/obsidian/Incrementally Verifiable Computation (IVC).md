@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 23"
+community: "Community 18"
 location: "Chapter 6"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_23
+  - community/Community_18
 ---
 
 # Incrementally Verifiable Computation (IVC)
@@ -18,7 +18,7 @@ tags:
 - [[Cairo (StarkWare ZK-native ISA)]] - `relates_to` [EXTRACTED]
 - [[Cited Valiant, Incrementally Verifiable Computation (TCC 2008)]] - `cites` [EXTRACTED]
 - [[CycleFold (ePrint 20231192)]] - `conceptually_related_to` [EXTRACTED]
-- [[Folding Scheme]] - `uses` [EXTRACTED]
+- [[Folding Scheme]] - `enables` [EXTRACTED]
 - [[GKR protocol doubly-efficient interactive proof for bounded-depth computation via layer-by-layer sumcheck reduction; prover need not commit to full trace]] - `uses` [EXTRACTED]
 - [[Groth16]] - `enables` [EXTRACTED]
 - [[Halo Infinite]] - `relates_to` [EXTRACTED]
@@ -35,7 +35,7 @@ tags:
 - [[Neo Lattice-based Folding Scheme for CCS over Small Fields and Pay-per-bit Commitments]] - `conceptually_related_to` [EXTRACTED]
 - [[Non-uniform IVC (NIVC)]] - `generalizes` [EXTRACTED]
 - [[Non-uniform IVC (NIVC) generalization of IVC where each step proves a relation chosen from a set, selected by a control function]] - `conceptually_related_to` [EXTRACTED]
-- [[Nova]] - `implements` [EXTRACTED]
+- [[Nova]] - `enables` [EXTRACTED]
 - [[Nova Augmented Circuit]] - `explains` [EXTRACTED]
 - [[Nova IVC Scheme (Construction 3)]] - `defines` [EXTRACTED]
 - [[Nova Recursive Zero-Knowledge Arguments from Folding Schemes]] - `defines` [EXTRACTED]
@@ -43,7 +43,7 @@ tags:
 - [[Overhead of Recursion]] - `relates_to` [EXTRACTED]
 - [[Parallel scan state (decouple block production from SNARK proving)]] - `assumes` [EXTRACTED]
 - [[Practical efficiency boost time-asymmetric encodings as the sequential computation inside IVC (~7,000x SNARK efficiency gain)]] - `assumes` [EXTRACTED]
-- [[Proof-Carrying Data (PCD)]] - `relates_to` [EXTRACTED]
+- [[Proof-Carrying Data (PCD)]] - `generalizes` [EXTRACTED]
 - [[Proofs, Arguments, and Zero-Knowledge (Justin Thaler, survey textbook)]] - `explains` [EXTRACTED]
 - [[Protostar Generic Efficient AccumulationFolding for Special-sound Protocols]] - `implements` [EXTRACTED]
 - [[Protostar Non-Uniform IVC Scheme for Multi-Circuit Plonkup R_mplkup]] - `defines` [EXTRACTED]
@@ -51,7 +51,7 @@ tags:
 - [[Recursion (proof recursion in zkVMs)]] - `uses` [EXTRACTED]
 - [[Recursion circuit via split accumulation (IVCPCD prover recurses only on instance parts of proofaccumulator)]] - `conceptually_related_to` [EXTRACTED]
 - [[Recursion vs. Folding Russian Dolls and Snowballs]] - `defines` [EXTRACTED]
-- [[Recursive Proof Composition]] - `conceptually_related_to` [EXTRACTED]
+- [[Recursive Proof Composition]] - `uses` [EXTRACTED]
 - [[Recursive SNARK]] - `conceptually_related_to` [EXTRACTED]
 - [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `uses` [EXTRACTED]
 - [[SNARK  SNARG verifiable-computation primitive (Def. 8) used to make Verify succinct]] - `assumes` [EXTRACTED]
@@ -71,7 +71,8 @@ tags:
 - [[Valiant Incrementally verifiable computation 36]] - `defines` [EXTRACTED]
 - [[Verifiable delay function (VDF)]] - `uses` [EXTRACTED]
 - [[Verifiable transparency logs]] - `conceptually_related_to` [EXTRACTED]
+- [[ZK Rollup]] - `enables` [EXTRACTED]
 - [[ZKML (Zero-Knowledge Machine Learning)]] - `conceptually_related_to` [EXTRACTED]
 - [[Val08 Valiant, Incrementally Verifiable Computation or Proofs of Knowledge Imply TimeSpace Efficiency (TCC 2008)]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_23
+#graphify/document #graphify/EXTRACTED #community/Community_18

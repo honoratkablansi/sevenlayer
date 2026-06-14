@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-81-wesolowski-vdf.pdf"
 type: "paper"
-community: "Community 6"
+community: "Community 12"
 location: "Abstract, §4 Examples 1-2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_6
+  - community/Community_12
 ---
 
 # Groups of unknown order (RSA group, class group of imaginary quadratic field)
@@ -18,4 +18,4 @@ tags:
 - [[Root finding game Groot (extract l-th roots) underlying soundness]] - `assumes` [EXTRACTED]
 - [[Wesolowski, Efficient Verifiable Delay Functions (EUROCRYPT 2019)]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_6
+#graphify/paper #graphify/EXTRACTED #community/Community_12

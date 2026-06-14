@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch07/ref-26-nist-ir-8547.pdf"
 type: "paper"
-community: "Community 108"
+community: "Community 117"
 location: "§4.1.1 Tables 2-4"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_108
+  - community/Community_117
 ---
 
 # Deprecation/Disallowance Schedule: 112-bit deprecated after 2030, RSA/ECC disallowed after 2035
@@ -18,4 +18,4 @@ tags:
 - [[Quantum-vulnerable digital signatures (ECDSA, EdDSA, RSA per FIPS 186)]] - `conceptually_related_to` [EXTRACTED]
 - [[Quantum-vulnerable key establishment (Finite FieldEC DH & MQV per SP 800-56A, RSA per SP 800-56B)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_108
+#graphify/paper #graphify/EXTRACTED #community/Community_117

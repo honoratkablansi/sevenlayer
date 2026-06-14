@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-31-poseidon.pdf"
 type: "paper"
-community: "Community 5"
+community: "Community 63"
 location: "§2.2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_5
+  - community/Community_63
 ---
 
 # HADES design strategy: mix RF full-S-box rounds (outer) with RP partial-S-box rounds (middle), one S-box in partial rounds
@@ -17,4 +17,4 @@ tags:
 - [[Partial rounds (RP) single S-box plus (t-1) identity functions; cheap way to raise algebraic degree, reduce R1CSAET cost]] - `defines` [EXTRACTED]
 - [[Poseidon-pi internal permutation t-word SPN family over F_p, variant of HADESMiMC with fixed known key]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_5
+#graphify/paper #graphify/EXTRACTED #community/Community_63

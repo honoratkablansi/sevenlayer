@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 12"
+community: "Community 9"
 location: "Chapter 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_12
+  - community/Community_9
 ---
 
 # STARK
@@ -48,6 +48,7 @@ tags:
 - [[Path One The Hybrid STARK-to-SNARK Pipeline]] - `conceptually_related_to` [EXTRACTED]
 - [[Path Three Post-Quantum Folding]] - `conceptually_related_to` [EXTRACTED]
 - [[Path Two Pure Transparent]] - `conceptually_related_to` [EXTRACTED]
+- [[Polynomial Commitment Scheme]] - `uses` [EXTRACTED]
 - [[Poseidon Hash]] - `references` [EXTRACTED]
 - [[Post-quantum security (against quantum adversaries; security in the QROM)]] - `relates_to` [EXTRACTED]
 - [[Proof Aggregation The Missing Layer]] - `references` [EXTRACTED]
@@ -86,12 +87,13 @@ tags:
 - [[The Three Frontiers]] - `references` [EXTRACTED]
 - [[The Three-Path Table]] - `conceptually_related_to` [EXTRACTED]
 - [[Three Converging Forces]] - `conceptually_related_to` [EXTRACTED]
-- [[Transparent Setup]] - `defines` [EXTRACTED]
+- [[Transparent Setup]] - `uses` [EXTRACTED]
 - [[Trusted Setup Ceremony]] - `relates_to` [EXTRACTED]
 - [[Two Ways to Build a Stage]] - `conceptually_related_to` [EXTRACTED]
+- [[Vector IOP]] - `builds_on` [EXTRACTED]
 - [[Where the Analogies Break]] - `references` [EXTRACTED]
 - [[ZKsync Airbender GPU-Accelerated RISC-V Proving]] - `references` [EXTRACTED]
 - [[Zero-Knowledge Proof]] - `uses` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_12
+#graphify/document #graphify/EXTRACTED #community/Community_9

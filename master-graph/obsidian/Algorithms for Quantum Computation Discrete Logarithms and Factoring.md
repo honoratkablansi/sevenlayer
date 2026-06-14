@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch07/ref-24-shor.pdf"
 type: "paper"
-community: "Community 92"
+community: "Community 66"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_92
+  - community/Community_66
 ---
 
 # Algorithms for Quantum Computation: Discrete Logarithms and Factoring
@@ -25,4 +25,4 @@ tags:
 - [[Shor's Algorithm]] - `defines` [EXTRACTED]
 - [[Simon's oracle algorithm (inspiration for this work)]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_92
+#graphify/paper #graphify/EXTRACTED #community/Community_66

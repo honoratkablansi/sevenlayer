@@ -1,12 +1,12 @@
 ---
 source_file: "references/snowball/recursion/ref-103-transparent-polynomial-delegation-and-its-applic.pdf"
 type: "paper"
-community: "Community 18"
+community: "Community 21"
 location: "abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_18
+  - community/Community_21
 ---
 
 # Virgo ZKP System
@@ -17,4 +17,4 @@ tags:
 - [[Trusted Setup Ceremony]] - `improves` [EXTRACTED]
 - [[Zero-Knowledge Proof]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_18
+#graphify/paper #graphify/EXTRACTED #community/Community_21

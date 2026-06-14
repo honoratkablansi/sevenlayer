@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch2/ref-41-spartan.pdf"
 type: "paper"
-community: "Community 31"
+community: "Community 28"
 location: "§7"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_31
+  - community/Community_28
 ---
 
 # SPARK compiler: transforms a dense multilinear PC into one for sparse multilinear polynomials
@@ -18,4 +18,4 @@ tags:
 - [[Spartan]] - `introduces` [EXTRACTED]
 - [[Time-optimal (linear-time O(n)) prover from multilinear decomposition + SPARK]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_31
+#graphify/paper #graphify/EXTRACTED #community/Community_28

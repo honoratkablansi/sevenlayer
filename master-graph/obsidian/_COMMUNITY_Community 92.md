@@ -1,29 +1,30 @@
 ---
 type: community
-cohesion: 0.16
-members: 14
+cohesion: 0.13
+members: 15
 ---
 
 # Community 92
 
-**Cohesion:** 0.16 - loosely connected
-**Members:** 14 nodes
+**Cohesion:** 0.13 - loosely connected
+**Members:** 15 nodes
 
 ## Members
-- [[Algorithms for Quantum Computation Discrete Logarithms and Factoring]] - paper - references/ch07/ref-24-shor.pdf
-- [[BQP (bounded-error quantum polynomial time)]] - paper - references/ch07/ref-24-shor.pdf
-- [[Coppersmith approximate Fourier transform]] - paper - references/ch07/ref-24-shor.pdf
-- [[Decoherence and gate imprecision obstacles]] - paper - references/ch07/ref-24-shor.pdf
-- [[Discrete-log-based public-key cryptosystems (Diffie-HellmanDSA)]] - paper - references/ch07/ref-24-shor.pdf
-- [[Integer Factorization]] - paper - references/ch07/ref-24-shor.pdf
-- [[Period Finding]] - paper - references/ch07/ref-24-shor.pdf
-- [[Peter W. Shor]] - paper - references/ch07/ref-24-shor.pdf
-- [[Quantum Algorithm]] - paper - references/ch07/ref-24-shor.pdf
-- [[Quantum Fourier transform]] - paper - references/ch07/ref-24-shor.pdf
-- [[Quantum discrete logarithm algorithm]] - paper - references/ch07/ref-24-shor.pdf
-- [[Quantum gate array (acyclic circuit) model]] - paper - references/ch07/ref-24-shor.pdf
-- [[Quantum interference  superposition]] - paper - references/ch07/ref-24-shor.pdf
-- [[Simon's oracle algorithm (inspiration for this work)]] - paper - references/ch07/ref-24-shor.pdf
+- [[Circuit Generator]] - paper - references/snowball/book/ref-071-succinct-non-interactive-zero-knowledge-for-a-vo.pdf
+- [[Concurrent Execution]] - paper - references/snowball/recursion/ref-097-proving-the-correct-execution-of-concurrent-serv.pdf
+- [[Data-Parallel Computation]] - paper - references/snowball/recursion/ref-095-time-optimal-interactive-proofs-for-circuit-eval.pdf
+- [[Hybrid Protocol Architecture]] - paper - references/snowball/book/ref-143-a-hybrid-architecture-for-verifiable-computation.pdf
+- [[Pantry Verifiable Computation with State]] - paper - references/snowball/book/ref-093-verifying-computations-with-state.pdf
+- [[Proof of correct program execution]] - document - references/recursion/ch1/ref-28-risc-zero-technical-docs.md
+- [[Public Verifiability]] - paper - references/snowball/book/ref-135-practical-delegation-of-computation-using-multip.pdf
+- [[RAM Verification]] - paper - references/snowball/book/ref-075-efficient-ram-and-control-flow-in-verifiable-out.pdf
+- [[Streaming Verification]] - paper - references/snowball/recursion/ref-098-practical-verified-computation-with-streaming-in.pdf
+- [[Untrusted Storage]] - paper - references/snowball/book/ref-093-verifying-computations-with-state.pdf
+- [[Verifiable ASIC]] - paper - references/snowball/recursion/ref-112-full-accounting-for-verifiable-outsourcing.pdf
+- [[Verifiable State Machine]] - paper - references/snowball/recursion/ref-097-proving-the-correct-execution-of-concurrent-serv.pdf
+- [[Verifiable Storage Primitive]] - paper - references/snowball/recursion/ref-097-proving-the-correct-execution-of-concurrent-serv.pdf
+- [[Verifiable computation]] - document - references/recursion/ch1/ref-28-risc-zero-technical-docs.md
+- [[Von Neumann Architecture]] - paper - references/snowball/book/ref-071-succinct-non-interactive-zero-knowledge-for-a-vo.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -33,17 +34,27 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 3 edges to [[_COMMUNITY_Community 108]]
-- 2 edges to [[_COMMUNITY_Community 56]]
-- 2 edges to [[_COMMUNITY_Community 113]]
-- 1 edge to [[_COMMUNITY_Community 111]]
+- 5 edges to [[_COMMUNITY_Community 20]]
+- 3 edges to [[_COMMUNITY_Community 22]]
+- 3 edges to [[_COMMUNITY_Community 21]]
+- 3 edges to [[_COMMUNITY_Community 5]]
+- 2 edges to [[_COMMUNITY_Community 7]]
+- 1 edge to [[_COMMUNITY_Community 8]]
 - 1 edge to [[_COMMUNITY_Community 0]]
-- 1 edge to [[_COMMUNITY_Community 40]]
-- 1 edge to [[_COMMUNITY_Community 29]]
+- 1 edge to [[_COMMUNITY_Community 34]]
+- 1 edge to [[_COMMUNITY_Community 91]]
+- 1 edge to [[_COMMUNITY_Community 23]]
+- 1 edge to [[_COMMUNITY_Community 71]]
+- 1 edge to [[_COMMUNITY_Community 33]]
+- 1 edge to [[_COMMUNITY_Community 68]]
+- 1 edge to [[_COMMUNITY_Community 19]]
+- 1 edge to [[_COMMUNITY_Community 90]]
+- 1 edge to [[_COMMUNITY_Community 55]]
+- 1 edge to [[_COMMUNITY_Community 114]]
 
 ## Top bridge nodes
-- [[Algorithms for Quantum Computation Discrete Logarithms and Factoring]] - degree 13, connects to 6 communities
-- [[Quantum Fourier transform]] - degree 6, connects to 1 community
-- [[Quantum discrete logarithm algorithm]] - degree 4, connects to 1 community
-- [[Integer Factorization]] - degree 3, connects to 1 community
-- [[Quantum Algorithm]] - degree 2, connects to 1 community
+- [[Verifiable computation]] - degree 27, connects to 15 communities
+- [[Verifiable State Machine]] - degree 5, connects to 2 communities
+- [[Circuit Generator]] - degree 4, connects to 2 communities
+- [[Pantry Verifiable Computation with State]] - degree 4, connects to 2 communities
+- [[Data-Parallel Computation]] - degree 2, connects to 1 community

@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch07-maturity-and-readiness.md"
 type: "document"
-community: "Community 0"
+community: "Community 10"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Community_10
 ---
 
 # Maturity and Readiness
@@ -29,4 +29,4 @@ tags:
 - [[Symphony]] - `references` [EXTRACTED]
 - [[The One-Way Door]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/document #graphify/EXTRACTED #community/Community_10

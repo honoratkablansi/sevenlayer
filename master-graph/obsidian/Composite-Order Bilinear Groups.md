@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-51-pairing-efficiency-curves.pdf"
 type: "document"
-community: "Community 49"
+community: "Community 110"
 location: "page 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_49
+  - community/Community_110
 ---
 
 # Composite-Order Bilinear Groups
@@ -20,4 +20,4 @@ tags:
 - [[Subgroup decision assumption]] - `assumes` [EXTRACTED]
 - [[Supersingular k=2 curve construction p=hN-1, E y2=x3-x]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_49
+#graphify/document #graphify/EXTRACTED #community/Community_110

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-07-plonk.pdf"
 type: "paper"
-community: "Community 65"
+community: "Community 106"
 location: "§6, §8.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_65
+  - community/Community_106
 ---
 
 # Selector Polynomials (qL,qR,qO,qM,qC)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[PLONK Constraint System & Arithmetization (selectorgate equation)]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_65
+#graphify/paper #graphify/EXTRACTED #community/Community_106

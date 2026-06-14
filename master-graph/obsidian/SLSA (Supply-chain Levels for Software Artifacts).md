@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch3/ref-63-slsa-intoto-frameworks.md"
 type: "document"
-community: "Community 62"
+community: "Community 6"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_62
+  - community/Community_6
 ---
 
 # SLSA (Supply-chain Levels for Software Artifacts)
@@ -18,4 +18,4 @@ tags:
 - [[Software Bill of Materials (SBOM)]] - `conceptually_related_to` [INFERRED]
 - [[Software supply chain]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_62
+#graphify/document #graphify/EXTRACTED #community/Community_6

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-46-zk-memory-algebraic-proofs.pdf"
 type: "paper"
-community: "Community 125"
+community: "Community 138"
 location: "§1, §9.3, Table 3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_125
+  - community/Community_138
 ---
 
 # Cost claim: sparse persistent RAM estimated up to 143x constraint reduction
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Sparse persistent RAM AIP (capacity C, N approx 2256)]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_125
+#graphify/paper #graphify/EXTRACTED #community/Community_138

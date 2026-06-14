@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf"
 type: "paper"
-community: "Community 21"
+community: "Community 8"
 location: "§2.4, Lemma 3.3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_21
+  - community/Community_8
 ---
 
 # Zero-Finding Games Lemma 3.3 (security of PC accumulation in ROM)
@@ -16,4 +16,4 @@ tags:
 - [[PC_DL discrete-log polynomial commitment with accumulation (IPA-based)]] - `assumes` [EXTRACTED]
 - [[Theorem 3 (informal) ZK accumulation schemes for PC_DL and PC_AGM in the ROM]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_21
+#graphify/paper #graphify/EXTRACTED #community/Community_8

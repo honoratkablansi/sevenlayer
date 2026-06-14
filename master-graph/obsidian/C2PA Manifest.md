@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch3/ref-79-c2pa-specification.md"
 type: "document"
-community: "Community 62"
+community: "Community 6"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_62
+  - community/Community_6
 ---
 
 # C2PA Manifest
@@ -15,4 +15,4 @@ tags:
 - [[C2PA assertions and claims]] - `explains` [EXTRACTED]
 - [[Hard and soft binding to content]] - `explains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_62
+#graphify/document #graphify/EXTRACTED #community/Community_6

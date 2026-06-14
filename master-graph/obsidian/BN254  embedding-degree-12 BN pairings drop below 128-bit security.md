@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-50-extended-tower-nfs.pdf"
 type: "paper"
-community: "Community 49"
+community: "Community 82"
 location: "§4.1, §6, §7, Example 2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_49
+  - community/Community_82
 ---
 
 # BN254 / embedding-degree-12 BN pairings drop below 128-bit security
@@ -16,4 +16,4 @@ tags:
 - [[Mandate to update pairing key sizes (c=64→48, factor ~1.33; SNFS factor 2)]] - `conceptually_related_to` [EXTRACTED]
 - [[SexTNFS for special-form (d-SNFS) characteristic, L_Q(13,(329){13})]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_49
+#graphify/paper #graphify/EXTRACTED #community/Community_82

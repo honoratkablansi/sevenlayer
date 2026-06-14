@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch07/ref-24-shor.pdf"
 type: "paper"
-community: "Community 108"
+community: "Community 66"
 location: "introduction"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_108
+  - community/Community_66
 ---
 
 # Public-Key Cryptography
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[RSA Cryptosystem]] - `implements` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_108
+#graphify/paper #graphify/EXTRACTED #community/Community_66

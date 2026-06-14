@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 99"
+community: "Community 0"
 location: "Chapter 11"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_99
+  - community/Community_0
 ---
 
 # RISC-V ISA
@@ -21,4 +21,4 @@ tags:
 - [[ZisK (SilentSig  ex-Hermez)]] - `references` [EXTRACTED]
 - [[zkVM]] - `relates_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_99
+#graphify/document #graphify/EXTRACTED #community/Community_0

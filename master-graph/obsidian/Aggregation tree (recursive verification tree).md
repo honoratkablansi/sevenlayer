@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-21-zktree.pdf"
 type: "paper"
-community: "Community 73"
+community: "Community 55"
 location: "§2.2; §3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_73
+  - community/Community_55
 ---
 
 # Aggregation tree (recursive verification tree)
@@ -18,4 +18,4 @@ tags:
 - [[zkTree costtime model gen time ~ log(n) node-proof times; comm cost n x proof size (~130KB)]] - `conceptually_related_to` [EXTRACTED]
 - [[zkTree zero-knowledge recursion tree with ZKP membership proofs]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_73
+#graphify/paper #graphify/EXTRACTED #community/Community_55

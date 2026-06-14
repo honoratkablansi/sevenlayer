@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch09/ref-30-kachina.pdf"
 type: "paper"
-community: "Community 25"
+community: "Community 41"
 location: "§4.5, App C.3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_25
+  - community/Community_41
 ---
 
 # NIZK functionality F_nizk^L
@@ -15,4 +15,4 @@ tags:
 - [[Kachina core protocol]] - `assumes` [EXTRACTED]
 - [[Non-Interactive Zero-Knowledge (NIZK)]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_25
+#graphify/paper #graphify/EXTRACTED #community/Community_41

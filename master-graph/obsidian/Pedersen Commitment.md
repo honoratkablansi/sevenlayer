@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 29"
+community: "Community 56"
 location: "Chapter 7"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_29
+  - community/Community_56
 ---
 
 # Pedersen Commitment
@@ -20,12 +20,12 @@ tags:
 - [[Case Study Midnight (Layer 6)]] - `references` [EXTRACTED]
 - [[Case Study Midnight and the Three-Token Architecture]] - `references` [EXTRACTED]
 - [[Commit-and-Prove SNARK]] - `uses` [EXTRACTED]
-- [[Commitment Scheme]] - `generalizes` [EXTRACTED]
+- [[Commitment Scheme]] - `defines` [EXTRACTED]
 - [[Computational Binding]] - `defines` [EXTRACTED]
 - [[Constant-Size Commitments to Polynomials and Their Applications]] - `cites` [EXTRACTED]
-- [[Discrete Logarithm Assumption]] - `uses` [EXTRACTED]
+- [[Discrete Logarithm Assumption]] - `builds_on` [EXTRACTED]
 - [[Four Families of Commitment Schemes]] - `references` [EXTRACTED]
-- [[Homomorphic  Trapdoor Commitment Property]] - `defines` [EXTRACTED]
+- [[Homomorphic  Trapdoor Commitment Property]] - `relates_to` [EXTRACTED]
 - [[Inner Product Argument (IPABulletproofs)]] - `references` [EXTRACTED]
 - [[LatticeFold  LatticeFold+]] - `compares` [EXTRACTED]
 - [[LatticeFold+ Faster, Simpler, Shorter Lattice-Based Folding for Succinct Proof Systems]] - `conceptually_related_to` [EXTRACTED]
@@ -52,4 +52,4 @@ tags:
 - [[Three Hardness Assumptions, Three Worlds]] - `references` [EXTRACTED]
 - [[Vector commitment scheme (position-binding; Merkle-tree instantiation, O(log n) openings)]] - `generalizes` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_29
+#graphify/document #graphify/EXTRACTED #community/Community_56

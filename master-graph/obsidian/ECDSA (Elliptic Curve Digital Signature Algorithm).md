@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch07/ref-26-nist-ir-8547.pdf"
 type: "paper"
-community: "Community 108"
+community: "Community 117"
 location: "§2.1.1 / Table 2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_108
+  - community/Community_117
 ---
 
 # ECDSA (Elliptic Curve Digital Signature Algorithm)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Quantum-vulnerable digital signatures (ECDSA, EdDSA, RSA per FIPS 186)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_108
+#graphify/paper #graphify/EXTRACTED #community/Community_117

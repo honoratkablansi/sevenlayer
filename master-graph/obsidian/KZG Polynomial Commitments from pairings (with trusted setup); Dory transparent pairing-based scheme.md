@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-20-thaler-proofs-arguments-zk.pdf"
 type: "paper"
-community: "Community 35"
+community: "Community 4"
 location: "ch 15 (Polynomial Commitments from Pairings)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_35
+  - community/Community_4
 ---
 
 # KZG Polynomial Commitments from pairings (with trusted setup); Dory transparent pairing-based scheme
@@ -15,7 +15,9 @@ tags:
 - [[Algebraic Group Model (AGM)]] - `relates_to` [EXTRACTED]
 - [[BLS12-381 Curve]] - `references` [EXTRACTED]
 - [[BN254 (alt_bn128) Curve]] - `references` [EXTRACTED]
+- [[Batch Evaluation Proof]] - `defines` [EXTRACTED]
 - [[Batch Evaluation of Committed Polynomials]] - `uses` [EXTRACTED]
+- [[Batch Opening (multi-point  multi-polynomial)]] - `builds_on` [EXTRACTED]
 - [[Batched KZG Polynomial Commitment Scheme (multi-poly, multi-point)]] - `conceptually_related_to` [EXTRACTED]
 - [[Bilinear Pairing]] - `uses` [INFERRED]
 - [[Case Study Midnight (IOGCardano)]] - `references` [EXTRACTED]
@@ -23,6 +25,7 @@ tags:
 - [[Case Study Midnight's Sealed Certificate]] - `references` [EXTRACTED]
 - [[Constant-Size Commitments to Polynomials and Their Applications]] - `defines` [EXTRACTED]
 - [[Cryptographic Primitives Trilemma]] - `compares` [EXTRACTED]
+- [[Diffie-Hellman Assumption (CDH  q-SBDH)]] - `builds_on` [EXTRACTED]
 - [[Discrete Logarithm Problem (DLP)]] - `references` [EXTRACTED]
 - [[Encoding the Performance]] - `references` [EXTRACTED]
 - [[Ethereum KZG ceremony (141416 contributors, 10 implementations, model transparency example)]] - `conceptually_related_to` [EXTRACTED]
@@ -31,12 +34,14 @@ tags:
 - [[Full Seven-Layer Mapping]] - `references` [EXTRACTED]
 - [[Gemini (BCHO22) small-space VM SNARK with streamed multilinear-KZG PCS]] - `assumes` [EXTRACTED]
 - [[Gemini Elastic SNARK]] - `uses` [EXTRACTED]
+- [[Generic (Bilinear) Group Model]] - `relates_to` [EXTRACTED]
 - [[Glossary of Key Terms]] - `defines` [EXTRACTED]
 - [[Greyhound Fast Polynomial Commitments from Lattices]] - `references` [EXTRACTED]
-- [[Halo 2  UltraPlonk]] - `references` [EXTRACTED]
+- [[Halo 2  UltraPlonk]] - `uses` [EXTRACTED]
 - [[Kate, Zaverucha & Goldberg, KZG (ASIACRYPT 2010)]] - `cites` [EXTRACTED]
 - [[Kate, Zaverucha, Goldberg — Constant-Size Commitments to Polynomials (ASIACRYPT 2010)]] - `cites` [EXTRACTED]
-- [[Knowledge of Exponent Assumption (KEA) basis for the discrete-log proof of knowledge scheme]] - `uses` [EXTRACTED]
+- [[Knowledge of Exponent Assumption (KEA) basis for the discrete-log proof of knowledge scheme]] - `builds_on` [EXTRACTED]
+- [[Knowledge-Soundness]] - `relates_to` [EXTRACTED]
 - [[Lattice-Based Functional Commitments Fast Verification and Cryptanalysis]] - `references` [EXTRACTED]
 - [[Layer 1 -- Building the Stage]] - `references` [EXTRACTED]
 - [[Layer 5 -- The Sealed Certificate]] - `references` [EXTRACTED]
@@ -53,12 +58,15 @@ tags:
 - [[Nightstream What a Folding Engine Looks Like from the Inside]] - `references` [EXTRACTED]
 - [[Open Questions and the Road Ahead]] - `references` [EXTRACTED]
 - [[Option-Value Analysis]] - `conceptually_related_to` [EXTRACTED]
+- [[PLONK]] - `uses` [EXTRACTED]
 - [[PLONK Permutations over Lagrange-bases for Oecumenical Noninteractive arguments of Knowledge]] - `cites` [EXTRACTED]
 - [[Path Three Post-Quantum Folding]] - `conceptually_related_to` [EXTRACTED]
 - [[Perpetual Powers-of-Tau (PPOT) ceremony (Semaphore, BN254, 228, fluid continuous participation)]] - `conceptually_related_to` [EXTRACTED]
 - [[Polynomial Commitment Scheme]] - `defines` [EXTRACTED]
+- [[Polynomial IOP  interactive oracle protocol]] - `uses` [EXTRACTED]
 - [[Powers of Tau]] - `assumes` [EXTRACTED]
 - [[Proofs, Arguments, and Zero-Knowledge (Justin Thaler, survey textbook)]] - `explains` [EXTRACTED]
+- [[Quotient Polynomial (KZG evaluation witness)]] - `uses` [EXTRACTED]
 - [[RISC-V Convergence]] - `conceptually_related_to` [EXTRACTED]
 - [[Sealing the Certificate]] - `references` [EXTRACTED]
 - [[Setup taxonomy public-cointransparent vs private-coin; circuit-specific vs universal vs updatable]] - `conceptually_related_to` [EXTRACTED]
@@ -93,9 +101,12 @@ tags:
 - [[Three Hardness Assumptions, Three Worlds]] - `references` [EXTRACTED]
 - [[Trusted Setup Ceremony]] - `uses` [EXTRACTED]
 - [[Two Ways to Build a Stage]] - `conceptually_related_to` [EXTRACTED]
+- [[Univariate Lagrange Interpolation]] - `uses` [EXTRACTED]
+- [[Universal vs Circuit-Specific SRS]] - `uses` [EXTRACTED]
+- [[Vector commitment scheme (position-binding; Merkle-tree instantiation, O(log n) openings)]] - `defines` [EXTRACTED]
 - [[When the Transcript Lies Fiat-Shamir Vulnerabilities]] - `references` [EXTRACTED]
 - [[Where the Layers Collapse]] - `references` [EXTRACTED]
 - [[ZK Rollups The Proving Grounds (Production)]] - `references` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_35
+#graphify/paper #graphify/EXTRACTED #community/Community_4

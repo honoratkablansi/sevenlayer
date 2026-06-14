@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch06/ref-20-latticefold.pdf"
 type: "paper"
-community: "Community 0"
+community: "Community 78"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Community_78
 ---
 
 # LatticeFold: A Lattice-based Folding Scheme and its Applications to Succinct Proof Systems
@@ -33,4 +33,4 @@ tags:
 - [[Sum-Check Protocol]] - `conceptually_related_to` [EXTRACTED]
 - [[The Synthesis -- Three Paths, Not Two]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_0
+#graphify/paper #graphify/EXTRACTED #community/Community_78

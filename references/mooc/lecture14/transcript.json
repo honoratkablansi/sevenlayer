@@ -1,0 +1,5667 @@
+[
+  {
+    "start": 0.93,
+    "dur": 1.06,
+    "text": "YU FENG: Hello, everyone."
+  },
+  {
+    "start": 1.99,
+    "dur": 1.01,
+    "text": "My name is Yu Feng."
+  },
+  {
+    "start": 3.0,
+    "dur": 2.4,
+    "text": "I'm a faculty member at UCSB."
+  },
+  {
+    "start": 5.4,
+    "dur": 3.36,
+    "text": "I'm also a co-founder\nat Veridise."
+  },
+  {
+    "start": 8.76,
+    "dur": 3.24,
+    "text": "My research is mostly\non program verification,"
+  },
+  {
+    "start": 12.0,
+    "dur": 2.52,
+    "text": "program analysis, as well\nas programming languages"
+  },
+  {
+    "start": 14.52,
+    "dur": 1.26,
+    "text": "in general."
+  },
+  {
+    "start": 15.78,
+    "dur": 3.33,
+    "text": "Today I will be talking\nabout how to secure your ZK"
+  },
+  {
+    "start": 19.11,
+    "dur": 2.85,
+    "text": "circuit with formal method."
+  },
+  {
+    "start": 21.96,
+    "dur": 4.56,
+    "text": "First of all, I would like to\nstart by stating the obvious,"
+  },
+  {
+    "start": 26.52,
+    "dur": 3.21,
+    "text": "in a sense that bugs\nin blockchain software"
+  },
+  {
+    "start": 29.73,
+    "dur": 2.459,
+    "text": "can be extremely dangerous."
+  },
+  {
+    "start": 32.189,
+    "dur": 4.171,
+    "text": "And here, when I refer\nto blockchain software,"
+  },
+  {
+    "start": 36.36,
+    "dur": 3.96,
+    "text": "this actually ranging from the\nunderlying consensus protocol"
+  },
+  {
+    "start": 40.32,
+    "dur": 3.12,
+    "text": "to zero-knowledge circuit,\nto smart contract,"
+  },
+  {
+    "start": 43.44,
+    "dur": 3.85,
+    "text": "and all the way to the Web3\napplication at the top,"
+  },
+  {
+    "start": 47.29,
+    "dur": 3.66,
+    "text": "including wallets,\ngames, you name it."
+  },
+  {
+    "start": 50.95,
+    "dur": 4.04,
+    "text": "And if you have any logical\nbugs or security vulnerabilities"
+  },
+  {
+    "start": 54.99,
+    "dur": 3.21,
+    "text": "in any of those\nlayers, the attackers"
+  },
+  {
+    "start": 58.2,
+    "dur": 2.28,
+    "text": "can basically exploit\nthem and steal"
+  },
+  {
+    "start": 60.48,
+    "dur": 3.35,
+    "text": "enormous amounts of money."
+  },
+  {
+    "start": 63.83,
+    "dur": 4.3,
+    "text": "Here to attach some number\nto this claim, for instance,"
+  },
+  {
+    "start": 68.13,
+    "dur": 3.71,
+    "text": "a flash loan vulnerability\nthat happened last April"
+  },
+  {
+    "start": 71.84,
+    "dur": 6.27,
+    "text": "in Beanstalk protocol\nresulting in $182 million"
+  },
+  {
+    "start": 78.11,
+    "dur": 4.26,
+    "text": "worth of cryptocurrency\nto be stolen."
+  },
+  {
+    "start": 82.37,
+    "dur": 2.61,
+    "text": "And that denial of\nservice vulnerabilities"
+  },
+  {
+    "start": 84.98,
+    "dur": 5.13,
+    "text": "in the Solana protocol result\nin a widespread network outage,"
+  },
+  {
+    "start": 90.11,
+    "dur": 2.85,
+    "text": "causing the Solana price\ndropped substantially"
+  },
+  {
+    "start": 92.96,
+    "dur": 3.16,
+    "text": "within even a single day."
+  },
+  {
+    "start": 96.12,
+    "dur": 4.04,
+    "text": "And last but also\nrelevant to today's topic,"
+  },
+  {
+    "start": 100.16,
+    "dur": 2.67,
+    "text": "I also want to point\nout that bugs can also"
+  },
+  {
+    "start": 102.83,
+    "dur": 2.91,
+    "text": "arrive at a level of\nzero-knowledge proof, which"
+  },
+  {
+    "start": 105.74,
+    "dur": 3.12,
+    "text": "is not very surprising because\nzero-knowledge proofs are"
+  },
+  {
+    "start": 108.86,
+    "dur": 3.75,
+    "text": "written by humans, and we know\nthat humans all make mistakes."
+  },
+  {
+    "start": 112.61,
+    "dur": 3.27,
+    "text": "And, for instance, in\nthis case a soundness bugs"
+  },
+  {
+    "start": 115.88,
+    "dur": 3.81,
+    "text": "in a ZK-SNARK proof protocol\ncan allow an attacker"
+  },
+  {
+    "start": 119.69,
+    "dur": 4.74,
+    "text": "to create fake Zcash\ncoins out of nowhere."
+  },
+  {
+    "start": 124.43,
+    "dur": 2.37,
+    "text": "Now I agree that this\nmight not be the best"
+  },
+  {
+    "start": 126.8,
+    "dur": 2.7,
+    "text": "way to get started as a\ntalk because this sounds"
+  },
+  {
+    "start": 129.5,
+    "dur": 2.46,
+    "text": "a little bit depressing,\nbut one thing"
+  },
+  {
+    "start": 131.96,
+    "dur": 2.19,
+    "text": "I would like to get\nacross in this talk"
+  },
+  {
+    "start": 134.15,
+    "dur": 3.45,
+    "text": "is that bugs are\nactually not inevitable."
+  },
+  {
+    "start": 137.6,
+    "dur": 3.51,
+    "text": "And if we're using the proper\nand right formal method"
+  },
+  {
+    "start": 141.11,
+    "dur": 2.08,
+    "text": "in blockchain\napplication development,"
+  },
+  {
+    "start": 143.19,
+    "dur": 4.47,
+    "text": "we can actually eradicate\nmajority of the bugs."
+  },
+  {
+    "start": 147.66,
+    "dur": 3.6,
+    "text": "And to address that, here's\nthe outline of today's talks."
+  },
+  {
+    "start": 151.26,
+    "dur": 2.94,
+    "text": "First, I will give\na quick overview"
+  },
+  {
+    "start": 154.2,
+    "dur": 3.03,
+    "text": "about some basic\nconcepts as well as"
+  },
+  {
+    "start": 157.23,
+    "dur": 2.4,
+    "text": "terminology in formal\nmethods that I'm"
+  },
+  {
+    "start": 159.63,
+    "dur": 2.67,
+    "text": "going to use throughout\nthe entire talk."
+  },
+  {
+    "start": 162.3,
+    "dur": 4.47,
+    "text": "Then I will present two projects\nthat applying formal methods"
+  },
+  {
+    "start": 166.77,
+    "dur": 3.09,
+    "text": "to ZK security with\ncomplementary skills"
+  },
+  {
+    "start": 169.86,
+    "dur": 2.51,
+    "text": "in the sense that the\nfirst project will align,"
+  },
+  {
+    "start": 172.37,
+    "dur": 2.41,
+    "text": "will apply lightweight\nstatic analysis that"
+  },
+  {
+    "start": 174.78,
+    "dur": 4.47,
+    "text": "can allow us to find and quickly\nidentify common vulnerabilities"
+  },
+  {
+    "start": 179.25,
+    "dur": 1.95,
+    "text": "in ZK circuit."
+  },
+  {
+    "start": 181.2,
+    "dur": 2.28,
+    "text": "And then so the\nsecond project will"
+  },
+  {
+    "start": 183.48,
+    "dur": 2.07,
+    "text": "be performing\nformal verification"
+  },
+  {
+    "start": 185.55,
+    "dur": 4.38,
+    "text": "to verify that your ZK circuit\nis actually mathematically"
+  },
+  {
+    "start": 189.93,
+    "dur": 2.76,
+    "text": "correct with respect\nto certain properties."
+  },
+  {
+    "start": 192.69,
+    "dur": 2.22,
+    "text": "And finally I will\nconclude my talk"
+  },
+  {
+    "start": 194.91,
+    "dur": 3.48,
+    "text": "with some interesting\nfuture directions."
+  },
+  {
+    "start": 198.39,
+    "dur": 0.9,
+    "text": "Excellent."
+  },
+  {
+    "start": 199.29,
+    "dur": 3.39,
+    "text": "So what is formal method?"
+  },
+  {
+    "start": 202.68,
+    "dur": 2.4,
+    "text": "In a nutshell,\nformal method refers"
+  },
+  {
+    "start": 205.08,
+    "dur": 3.93,
+    "text": "to a set of mathematically\nrigorous technique"
+  },
+  {
+    "start": 209.01,
+    "dur": 4.11,
+    "text": "for finding bugs, as well\nas constructing proof"
+  },
+  {
+    "start": 213.12,
+    "dur": 3.79,
+    "text": "about the correctness\nof your software."
+  },
+  {
+    "start": 216.91,
+    "dur": 3.29,
+    "text": "So to be clear, when I\ntalk about formal methods"
+  },
+  {
+    "start": 220.2,
+    "dur": 2.94,
+    "text": "in this context, I'm\nnot just referring"
+  },
+  {
+    "start": 223.14,
+    "dur": 3.81,
+    "text": "to a single technique\nor a single tool,"
+  },
+  {
+    "start": 226.95,
+    "dur": 4.83,
+    "text": "but rather a class of techniques\nranging from systematic testing"
+  },
+  {
+    "start": 231.78,
+    "dur": 4.23,
+    "text": "to the right, to static analysis\nin the middle, all the way"
+  },
+  {
+    "start": 236.01,
+    "dur": 3.12,
+    "text": "to the right for\nformal verifications."
+  },
+  {
+    "start": 239.13,
+    "dur": 3.67,
+    "text": "And I will talk about this\nin a bit more details later,"
+  },
+  {
+    "start": 242.8,
+    "dur": 2.51,
+    "text": "but generally,\nthe further you go"
+  },
+  {
+    "start": 245.31,
+    "dur": 3.93,
+    "text": "to the right on this\nspectrum, the stronger"
+  },
+  {
+    "start": 249.24,
+    "dur": 1.35,
+    "text": "guarantee you can get."
+  },
+  {
+    "start": 250.59,
+    "dur": 2.07,
+    "text": "However, there's no free lunch."
+  },
+  {
+    "start": 252.66,
+    "dur": 1.74,
+    "text": "In order to get\nstronger guarantee,"
+  },
+  {
+    "start": 254.4,
+    "dur": 4.72,
+    "text": "you also need to put\nmore manual effort."
+  },
+  {
+    "start": 259.12,
+    "dur": 2.85,
+    "text": "Now at a higher\nlevel, we can actually"
+  },
+  {
+    "start": 261.97,
+    "dur": 6.6,
+    "text": "classify formal methods into\neither being dynamic or static."
+  },
+  {
+    "start": 268.57,
+    "dur": 3.7,
+    "text": "In particular, so dynamic\ntechniques on the left,"
+  },
+  {
+    "start": 272.27,
+    "dur": 2.84,
+    "text": "such as fuzzing, you\ncan call the executions."
+  },
+  {
+    "start": 275.11,
+    "dur": 2.13,
+    "text": "They kind of like\nexecuting the program"
+  },
+  {
+    "start": 277.24,
+    "dur": 5.46,
+    "text": "on some interesting input and\nmonitor what happens, typically"
+  },
+  {
+    "start": 282.7,
+    "dur": 4.17,
+    "text": "with the goal of finding\ncertain vulnerabilities."
+  },
+  {
+    "start": 286.87,
+    "dur": 2.77,
+    "text": "In contrast, static\ntechnique on the right,"
+  },
+  {
+    "start": 289.64,
+    "dur": 3.53,
+    "text": "such as abstract interpretations\nor formal verifications,"
+  },
+  {
+    "start": 293.17,
+    "dur": 5.34,
+    "text": "the kind of static staring\nat your source code"
+  },
+  {
+    "start": 298.51,
+    "dur": 2.97,
+    "text": "and try to reason\nabout the behavior"
+  },
+  {
+    "start": 301.48,
+    "dur": 2.77,
+    "text": "of all possible execution\nof your program,"
+  },
+  {
+    "start": 304.25,
+    "dur": 3.71,
+    "text": "and then try to make a\nconclusion whether your system"
+  },
+  {
+    "start": 307.96,
+    "dur": 2.31,
+    "text": "is actually safe or not."
+  },
+  {
+    "start": 310.27,
+    "dur": 3.49,
+    "text": "In this talk, we'll mostly\nfocusing on static techniques,"
+  },
+  {
+    "start": 313.76,
+    "dur": 2.24,
+    "text": "including abstract\ninterpretations, as well"
+  },
+  {
+    "start": 316.0,
+    "dur": 2.49,
+    "text": "as formal verification."
+  },
+  {
+    "start": 318.49,
+    "dur": 4.63,
+    "text": "To begin, so I want to say that\nwe cannot actually reason about"
+  },
+  {
+    "start": 323.12,
+    "dur": 4.71,
+    "text": "the exact behaviors\nof given programs due"
+  },
+  {
+    "start": 327.83,
+    "dur": 6.09,
+    "text": "to the undecidability\nproblems of this context."
+  },
+  {
+    "start": 333.92,
+    "dur": 3.19,
+    "text": "It's essentially we are\nsolving a haunting problems."
+  },
+  {
+    "start": 337.11,
+    "dur": 3.95,
+    "text": "So the fact that we cannot\nreason about the behavior"
+  },
+  {
+    "start": 341.06,
+    "dur": 4.17,
+    "text": "of the actual execution of your\nprogram doesn't mean that we"
+  },
+  {
+    "start": 345.23,
+    "dur": 4.29,
+    "text": "cannot reason about the abstract\nversions of your program."
+  },
+  {
+    "start": 349.52,
+    "dur": 4.29,
+    "text": "So the idea is essentially\nto obtain a conservative"
+  },
+  {
+    "start": 353.81,
+    "dur": 3.75,
+    "text": "of over approximations of\nyour original behavior,"
+  },
+  {
+    "start": 357.56,
+    "dur": 2.52,
+    "text": "and hopefully that\nit is enough to prove"
+  },
+  {
+    "start": 360.08,
+    "dur": 2.67,
+    "text": "the absence of a certain\nbug of the correctness"
+  },
+  {
+    "start": 362.75,
+    "dur": 1.83,
+    "text": "of your program."
+  },
+  {
+    "start": 364.58,
+    "dur": 3.9,
+    "text": "And to do that, we typically use\nabstract interpretation, which"
+  },
+  {
+    "start": 368.48,
+    "dur": 4.56,
+    "text": "is a very popular framework\nto compute over approximations"
+  },
+  {
+    "start": 373.04,
+    "dur": 2.88,
+    "text": "of programming state."
+  },
+  {
+    "start": 375.92,
+    "dur": 4.56,
+    "text": "So just to give you a high level\nintuitions about the insight"
+  },
+  {
+    "start": 380.48,
+    "dur": 4.71,
+    "text": "of an abstract\ninterpretation, here"
+  },
+  {
+    "start": 385.19,
+    "dur": 3.75,
+    "text": "let's use blue\nregions in the middle"
+  },
+  {
+    "start": 388.94,
+    "dur": 3.12,
+    "text": "to represent the\nactual program state"
+  },
+  {
+    "start": 392.06,
+    "dur": 2.04,
+    "text": "and notice that the\nshape is actually"
+  },
+  {
+    "start": 394.1,
+    "dur": 2.13,
+    "text": "highly irregular in\nthe sense that there"
+  },
+  {
+    "start": 396.23,
+    "dur": 3.33,
+    "text": "was no way you can\nactually precisely"
+  },
+  {
+    "start": 399.56,
+    "dur": 3.38,
+    "text": "reason about its actual behavior\ndue to the undecidability"
+  },
+  {
+    "start": 402.94,
+    "dur": 1.33,
+    "text": "of nature."
+  },
+  {
+    "start": 404.27,
+    "dur": 2.94,
+    "text": "And then on the right\nhand side, we also"
+  },
+  {
+    "start": 407.21,
+    "dur": 3.99,
+    "text": "use the red region to\nrepresent some bad state"
+  },
+  {
+    "start": 411.2,
+    "dur": 3.39,
+    "text": "in the sense that some\nvulnerabilities or bad behavior"
+  },
+  {
+    "start": 414.59,
+    "dur": 5.19,
+    "text": "that we hope that our\noriginal system does not have."
+  },
+  {
+    "start": 419.78,
+    "dur": 1.74,
+    "text": "And we know that\nit's very difficult"
+  },
+  {
+    "start": 421.52,
+    "dur": 4.77,
+    "text": "to compute the actual behavior\nof this irregular blue region,"
+  },
+  {
+    "start": 426.29,
+    "dur": 3.54,
+    "text": "and what we can do is that we\ncan actually systematically"
+  },
+  {
+    "start": 429.83,
+    "dur": 5.55,
+    "text": "compute the over approximate\nof the original state using"
+  },
+  {
+    "start": 435.38,
+    "dur": 2.027,
+    "text": "the green region."
+  },
+  {
+    "start": 437.407,
+    "dur": 2.083,
+    "text": "So in this case, you can\nthink of the green region"
+  },
+  {
+    "start": 439.49,
+    "dur": 3.75,
+    "text": "is used to over approximate\noriginal behavior"
+  },
+  {
+    "start": 443.24,
+    "dur": 1.48,
+    "text": "of the blue region."
+  },
+  {
+    "start": 444.72,
+    "dur": 3.53,
+    "text": "And in this case, even\nwith over approximations,"
+  },
+  {
+    "start": 448.25,
+    "dur": 6.42,
+    "text": "we can actually prove that it is\nactually have no intersections"
+  },
+  {
+    "start": 454.67,
+    "dur": 3.9,
+    "text": "with the best state, which is\nthe region, and in this case,"
+  },
+  {
+    "start": 458.57,
+    "dur": 3.6,
+    "text": "we essentially have a proof that\nour original program does not"
+  },
+  {
+    "start": 462.17,
+    "dur": 2.22,
+    "text": "do anything bad."
+  },
+  {
+    "start": 464.39,
+    "dur": 1.78,
+    "text": "And this is great."
+  },
+  {
+    "start": 466.17,
+    "dur": 4.13,
+    "text": "However, the devil is actually\non the details in the sense"
+  },
+  {
+    "start": 470.3,
+    "dur": 4.41,
+    "text": "that in practice, how do\nyou compute and select"
+  },
+  {
+    "start": 474.71,
+    "dur": 3.69,
+    "text": "the right abstractions\nis highly non-trivial."
+  },
+  {
+    "start": 478.4,
+    "dur": 5.16,
+    "text": "For instance, like if you\nlook at the abstractions"
+  },
+  {
+    "start": 483.56,
+    "dur": 3.9,
+    "text": "on the left-hand side\ncase, the over-- even here,"
+  },
+  {
+    "start": 487.46,
+    "dur": 3.84,
+    "text": "the over approximation, which\nis also the green regions,"
+  },
+  {
+    "start": 491.3,
+    "dur": 4.77,
+    "text": "is too coarse green because\nthe green region accidentally"
+  },
+  {
+    "start": 496.07,
+    "dur": 3.3,
+    "text": "overlap with the\nred regions, which"
+  },
+  {
+    "start": 499.37,
+    "dur": 2.94,
+    "text": "means that if you\ngenerate false positive,"
+  },
+  {
+    "start": 502.31,
+    "dur": 4.29,
+    "text": "that actually does not appear\nin concrete executions,"
+  },
+  {
+    "start": 506.6,
+    "dur": 4.02,
+    "text": "and that's essentially when we\nsay that our analysis actually"
+  },
+  {
+    "start": 510.62,
+    "dur": 2.07,
+    "text": "generate false\npositive, which is"
+  },
+  {
+    "start": 512.69,
+    "dur": 4.17,
+    "text": "mostly due to the\nimprecise approximations"
+  },
+  {
+    "start": 516.86,
+    "dur": 4.89,
+    "text": "of our abstract state."
+  },
+  {
+    "start": 521.75,
+    "dur": 4.16,
+    "text": "On the other hand, for\nthe case on the right,"
+  },
+  {
+    "start": 525.91,
+    "dur": 2.68,
+    "text": "the over approximations\non the right hand side"
+  },
+  {
+    "start": 528.59,
+    "dur": 4.89,
+    "text": "is also like undesirable\nbecause the green region here"
+  },
+  {
+    "start": 533.48,
+    "dur": 5.73,
+    "text": "only cover a portion of the\nactual blue state, which"
+  },
+  {
+    "start": 539.21,
+    "dur": 3.75,
+    "text": "means that if you actually\ngenerate a false negative,"
+  },
+  {
+    "start": 542.96,
+    "dur": 5.05,
+    "text": "meaning that if you miss like a\ncritical box in this case, now"
+  },
+  {
+    "start": 548.01,
+    "dur": 3.84,
+    "text": "we get intuitions, but how\ndoes abstract interpretations"
+  },
+  {
+    "start": 551.85,
+    "dur": 1.29,
+    "text": "actually work?"
+  },
+  {
+    "start": 553.14,
+    "dur": 2.22,
+    "text": "How do we compute\nthose abstract states,"
+  },
+  {
+    "start": 555.36,
+    "dur": 2.68,
+    "text": "given concrete problems?"
+  },
+  {
+    "start": 558.04,
+    "dur": 3.08,
+    "text": "So to understand that,\nlet's first review"
+  },
+  {
+    "start": 561.12,
+    "dur": 5.43,
+    "text": "a simple concrete interpreter,\nwhich is essentially take input"
+  },
+  {
+    "start": 566.55,
+    "dur": 2.67,
+    "text": "as concrete value, as\nwell as the code snippet"
+  },
+  {
+    "start": 569.22,
+    "dur": 2.97,
+    "text": "that we want to\ninterpret, and it will"
+  },
+  {
+    "start": 572.19,
+    "dur": 3.75,
+    "text": "produce some concrete output."
+  },
+  {
+    "start": 575.94,
+    "dur": 3.53,
+    "text": "And so given a very\nsimple example,"
+  },
+  {
+    "start": 579.47,
+    "dur": 4.47,
+    "text": "let's say our code snippets\nonly contain one statement,"
+  },
+  {
+    "start": 583.94,
+    "dur": 2.52,
+    "text": "x equal to y plus z."
+  },
+  {
+    "start": 586.46,
+    "dur": 3.66,
+    "text": "And in this case, it\nis trivial to obtain"
+  },
+  {
+    "start": 590.12,
+    "dur": 2.61,
+    "text": "to know that x is\ngoing to evaluate"
+  },
+  {
+    "start": 592.73,
+    "dur": 5.43,
+    "text": "to 3 if y is equal to\n1, and z is equal to 2."
+  },
+  {
+    "start": 598.16,
+    "dur": 3.99,
+    "text": "That's essentially a trivial\nconcrete interpreter."
+  },
+  {
+    "start": 602.15,
+    "dur": 2.7,
+    "text": "So in this case,\nif you can follow"
+  },
+  {
+    "start": 604.85,
+    "dur": 1.68,
+    "text": "the previous\nconcrete interpreter,"
+  },
+  {
+    "start": 606.53,
+    "dur": 2.25,
+    "text": "then I have to say\ncongratulations"
+  },
+  {
+    "start": 608.78,
+    "dur": 5.04,
+    "text": "because an abstract\ninterpreter works exactly"
+  },
+  {
+    "start": 613.82,
+    "dur": 4.11,
+    "text": "like a concrete interpreter,\nexcept that it operates"
+  },
+  {
+    "start": 617.93,
+    "dur": 3.66,
+    "text": "over abstract value, which\nessentially represent"
+  },
+  {
+    "start": 621.59,
+    "dur": 3.04,
+    "text": "a set of concrete value."
+  },
+  {
+    "start": 624.63,
+    "dur": 5.91,
+    "text": "For instance, in this case,\nan integer x is essentially"
+  },
+  {
+    "start": 630.54,
+    "dur": 4.95,
+    "text": "can have an abstract value\nof intervals between a and b,"
+  },
+  {
+    "start": 635.49,
+    "dur": 3.39,
+    "text": "in the sense that we\nsay that x is actually"
+  },
+  {
+    "start": 638.88,
+    "dur": 4.2,
+    "text": "greater or equal than and\nless than or equal than b."
+  },
+  {
+    "start": 643.08,
+    "dur": 4.197,
+    "text": "In this case, let's revisit\nand use the same statement"
+  },
+  {
+    "start": 647.277,
+    "dur": 1.833,
+    "text": "that we see in the\nprevious slide in a sense"
+  },
+  {
+    "start": 649.11,
+    "dur": 3.51,
+    "text": "that given a statement\nx equal to y plus z,"
+  },
+  {
+    "start": 652.62,
+    "dur": 2.31,
+    "text": "and then in this\ncase, if we know"
+  },
+  {
+    "start": 654.93,
+    "dur": 5.64,
+    "text": "that the abstract value of y is\nwithin the interval of a and b,"
+  },
+  {
+    "start": 660.57,
+    "dur": 4.32,
+    "text": "and the abstract value of z is\nwithin the interval between c"
+  },
+  {
+    "start": 664.89,
+    "dur": 4.98,
+    "text": "and d, then once we symbolically\nevaluate this expression"
+  },
+  {
+    "start": 669.87,
+    "dur": 4.98,
+    "text": "y plus z, and we can conclude\nthat the abstract value of x"
+  },
+  {
+    "start": 674.85,
+    "dur": 5.7,
+    "text": "is actually between a\nplus c, and b plus d."
+  },
+  {
+    "start": 680.55,
+    "dur": 3.21,
+    "text": "So basically, as I mentioned\nin the previous slide,"
+  },
+  {
+    "start": 683.76,
+    "dur": 4.08,
+    "text": "the idea is to emulate\nall possible program paths"
+  },
+  {
+    "start": 687.84,
+    "dur": 3.66,
+    "text": "by performing some formal\nsymbolic executions"
+  },
+  {
+    "start": 691.5,
+    "dur": 2.71,
+    "text": "or symbolic reasoning."
+  },
+  {
+    "start": 694.21,
+    "dur": 2.0,
+    "text": "So in this case,\nyou might ask, how"
+  },
+  {
+    "start": 696.21,
+    "dur": 5.2,
+    "text": "about complex program statement\nlike branches and loops?"
+  },
+  {
+    "start": 701.41,
+    "dur": 3.89,
+    "text": "So basically, it's actually like\nit's the same idea in a sense"
+  },
+  {
+    "start": 705.3,
+    "dur": 3.9,
+    "text": "that whenever you have a branch\nor you have doubt about which"
+  },
+  {
+    "start": 709.2,
+    "dur": 2.01,
+    "text": "one you should be\nchoosing, you'll"
+  },
+  {
+    "start": 711.21,
+    "dur": 3.63,
+    "text": "just like a conservative\nassuming that both paths is"
+  },
+  {
+    "start": 714.84,
+    "dur": 1.86,
+    "text": "going to happen,\nand then you just"
+  },
+  {
+    "start": 716.7,
+    "dur": 3.33,
+    "text": "merge the outcome of\ndifferent branches,"
+  },
+  {
+    "start": 720.03,
+    "dur": 3.84,
+    "text": "and collect all the values\nalong different paths."
+  },
+  {
+    "start": 723.87,
+    "dur": 3.24,
+    "text": "For instance, in\nthis example, it's"
+  },
+  {
+    "start": 727.11,
+    "dur": 2.61,
+    "text": "very difficult to\ntell statically"
+  },
+  {
+    "start": 729.72,
+    "dur": 3.78,
+    "text": "whether x is going to\nevaluate to 1 or minus"
+  },
+  {
+    "start": 733.5,
+    "dur": 4.32,
+    "text": "because we don't know what's\nthe actual value of flag"
+  },
+  {
+    "start": 737.82,
+    "dur": 4.16,
+    "text": "because flag can be evaluated\nto either true or false"
+  },
+  {
+    "start": 741.98,
+    "dur": 1.7,
+    "text": "during runtime."
+  },
+  {
+    "start": 743.68,
+    "dur": 3.03,
+    "text": "However, what we can do\nis that we can actually"
+  },
+  {
+    "start": 746.71,
+    "dur": 2.43,
+    "text": "conserve this, say\nthat and conclude"
+  },
+  {
+    "start": 749.14,
+    "dur": 4.89,
+    "text": "that x is actually hold an\nabstract values that is ranging"
+  },
+  {
+    "start": 754.03,
+    "dur": 2.28,
+    "text": "between minus 1 to 1."
+  },
+  {
+    "start": 756.31,
+    "dur": 2.95,
+    "text": "It is imprecise, but it\nactually over approximate"
+  },
+  {
+    "start": 759.26,
+    "dur": 2.68,
+    "text": "the original behavior."
+  },
+  {
+    "start": 761.94,
+    "dur": 1.94,
+    "text": "So abstract\ninterpretation can be"
+  },
+  {
+    "start": 763.88,
+    "dur": 4.95,
+    "text": "used to capture many nasty\nbugs in Web3 smart contract."
+  },
+  {
+    "start": 768.83,
+    "dur": 3.39,
+    "text": "For instance, as some\nof you might know,"
+  },
+  {
+    "start": 772.22,
+    "dur": 3.81,
+    "text": "re-entrance attack is very\ndangerous to smart contracts"
+  },
+  {
+    "start": 776.03,
+    "dur": 2.97,
+    "text": "because it actually\nenable an attacker"
+  },
+  {
+    "start": 779.0,
+    "dur": 6.63,
+    "text": "to repeatedly restore user found\nwithout updating the balance."
+  },
+  {
+    "start": 785.63,
+    "dur": 3.69,
+    "text": "For instance, using this\nexample to illustrate,"
+  },
+  {
+    "start": 789.32,
+    "dur": 3.33,
+    "text": "so here we have the victim\ncontract on the right hand"
+  },
+  {
+    "start": 792.65,
+    "dur": 3.09,
+    "text": "side, as well as the attacker\ncontract on the left hand side."
+  },
+  {
+    "start": 795.74,
+    "dur": 2.4,
+    "text": "In this case, the\nvictim contract"
+  },
+  {
+    "start": 798.14,
+    "dur": 3.21,
+    "text": "has a restore function,\nand then the function"
+  },
+  {
+    "start": 801.35,
+    "dur": 6.48,
+    "text": "is trying to transfer a certain\namount using the external call."
+  },
+  {
+    "start": 807.83,
+    "dur": 5.91,
+    "text": "However, so every time it\ninvokes the external call,"
+  },
+  {
+    "start": 813.74,
+    "dur": 5.16,
+    "text": "and then so if you automatically\ntrigger the anonymous callback"
+  },
+  {
+    "start": 818.9,
+    "dur": 2.86,
+    "text": "function, and then\nthis function happens"
+  },
+  {
+    "start": 821.76,
+    "dur": 3.94,
+    "text": "to be one of the functions of\nthe attacker, so in that case,"
+  },
+  {
+    "start": 825.7,
+    "dur": 4.19,
+    "text": "the attacker can actually\ncall this restore function"
+  },
+  {
+    "start": 829.89,
+    "dur": 3.21,
+    "text": "and re-enter this\nfunction again to make"
+  },
+  {
+    "start": 833.1,
+    "dur": 2.94,
+    "text": "another external\ncall without updating"
+  },
+  {
+    "start": 836.04,
+    "dur": 2.43,
+    "text": "the balance of the account."
+  },
+  {
+    "start": 838.47,
+    "dur": 0.99,
+    "text": "What does that mean?"
+  },
+  {
+    "start": 839.46,
+    "dur": 2.82,
+    "text": "Meaning that so the\nattacker can actually"
+  },
+  {
+    "start": 842.28,
+    "dur": 5.34,
+    "text": "create dozens and hundreds\nof tokens out of nowhere."
+  },
+  {
+    "start": 847.62,
+    "dur": 2.7,
+    "text": "So how do we capture these bugs?"
+  },
+  {
+    "start": 850.32,
+    "dur": 2.34,
+    "text": "So even though the\nactual business"
+  },
+  {
+    "start": 852.66,
+    "dur": 3.99,
+    "text": "logic of the smart contract\nof that defy protocol"
+  },
+  {
+    "start": 856.65,
+    "dur": 4.26,
+    "text": "can be very complex,\nand we can actually"
+  },
+  {
+    "start": 860.91,
+    "dur": 4.44,
+    "text": "abstractly encode the\nre-entrance behavior using"
+  },
+  {
+    "start": 865.35,
+    "dur": 2.37,
+    "text": "abstractions such\nas temporal order,"
+  },
+  {
+    "start": 867.72,
+    "dur": 3.0,
+    "text": "as well as rewrite dependencies."
+  },
+  {
+    "start": 870.72,
+    "dur": 3.3,
+    "text": "For instance, in this\ncase, we can actually"
+  },
+  {
+    "start": 874.02,
+    "dur": 4.38,
+    "text": "statically abstract the\nbehavior of re-entrance attack"
+  },
+  {
+    "start": 878.4,
+    "dur": 4.44,
+    "text": "by saying that whether there\nexists an external function"
+  },
+  {
+    "start": 882.84,
+    "dur": 5.16,
+    "text": "call followed by a storage\nupdate, like in this case,"
+  },
+  {
+    "start": 888.0,
+    "dur": 2.25,
+    "text": "the code snippet on\nthe waiting contract"
+  },
+  {
+    "start": 890.25,
+    "dur": 3.03,
+    "text": "actually match the pattern we\nare looking for in the sense"
+  },
+  {
+    "start": 893.28,
+    "dur": 4.59,
+    "text": "that they first make an external\ncall, which is what they hear,"
+  },
+  {
+    "start": 897.87,
+    "dur": 3.0,
+    "text": "and then after making\nthe call, it is"
+  },
+  {
+    "start": 900.87,
+    "dur": 2.65,
+    "text": "trying to do a storage update."
+  },
+  {
+    "start": 903.52,
+    "dur": 3.77,
+    "text": "So if such case happens, which\nmeans that this external call"
+  },
+  {
+    "start": 907.29,
+    "dur": 3.3,
+    "text": "would enable the attacker to\nre-enter this function again"
+  },
+  {
+    "start": 910.59,
+    "dur": 3.01,
+    "text": "without updating this contract."
+  },
+  {
+    "start": 913.6,
+    "dur": 2.28,
+    "text": "So abstract\ninterpretation is actually"
+  },
+  {
+    "start": 915.88,
+    "dur": 3.3,
+    "text": "very effective in identifying\nspecific types of bugs"
+  },
+  {
+    "start": 919.18,
+    "dur": 7.64,
+    "text": "and vulnerabilities, such as\ninteger overflows, transaction"
+  },
+  {
+    "start": 926.82,
+    "dur": 2.61,
+    "text": "order dependencies,\nflash loan attacks,"
+  },
+  {
+    "start": 929.43,
+    "dur": 2.82,
+    "text": "and there's a whole\nbunch of research"
+  },
+  {
+    "start": 932.25,
+    "dur": 3.93,
+    "text": "and true in both research\ncommunity in academic, as well"
+  },
+  {
+    "start": 936.18,
+    "dur": 0.84,
+    "text": "as industry."
+  },
+  {
+    "start": 937.02,
+    "dur": 3.48,
+    "text": "For instance, Slither is\none of the probably most"
+  },
+  {
+    "start": 940.5,
+    "dur": 4.26,
+    "text": "popular static analyzer\nthat can encode a bunch"
+  },
+  {
+    "start": 944.76,
+    "dur": 1.59,
+    "text": "of common vulnerabilities."
+  },
+  {
+    "start": 946.35,
+    "dur": 1.89,
+    "text": "And the Vanguard,\nlike framework,"
+  },
+  {
+    "start": 948.24,
+    "dur": 4.68,
+    "text": "can also enable the attacker\nor the smart contract developer"
+  },
+  {
+    "start": 952.92,
+    "dur": 4.14,
+    "text": "to essentially encode and\ncapture fractional attack."
+  },
+  {
+    "start": 957.06,
+    "dur": 3.39,
+    "text": "So abstract\ninterpretation is very"
+  },
+  {
+    "start": 960.45,
+    "dur": 3.39,
+    "text": "effective in identifying\nspecific types of bugs"
+  },
+  {
+    "start": 963.84,
+    "dur": 1.68,
+    "text": "and vulnerabilities."
+  },
+  {
+    "start": 965.52,
+    "dur": 5.11,
+    "text": "However it cannot guarantee your\nprogram is free from logical"
+  },
+  {
+    "start": 970.63,
+    "dur": 0.5,
+    "text": "errors."
+  },
+  {
+    "start": 974.347,
+    "dur": 0.833,
+    "text": "What does that mean?"
+  },
+  {
+    "start": 975.18,
+    "dur": 2.94,
+    "text": "Meaning that, let's say if you\nhave a piece of functions that"
+  },
+  {
+    "start": 978.12,
+    "dur": 2.52,
+    "text": "you want to compute, and\nthen you want to reason about"
+  },
+  {
+    "start": 980.64,
+    "dur": 3.48,
+    "text": "whether your function\nwas actually compute"
+  },
+  {
+    "start": 984.12,
+    "dur": 2.97,
+    "text": "as your original\nintended behavior,"
+  },
+  {
+    "start": 987.09,
+    "dur": 2.85,
+    "text": "you cannot do that using\nabstract interpretations,"
+  },
+  {
+    "start": 989.94,
+    "dur": 3.63,
+    "text": "and here that's where we\nneed formal verification."
+  },
+  {
+    "start": 993.57,
+    "dur": 2.64,
+    "text": "However to use\nformal verifications,"
+  },
+  {
+    "start": 996.21,
+    "dur": 3.54,
+    "text": "a prerequisite is to provide\na formal specification"
+  },
+  {
+    "start": 999.75,
+    "dur": 4.27,
+    "text": "to describe what's\nthe intended behavior."
+  },
+  {
+    "start": 1004.02,
+    "dur": 4.23,
+    "text": "Well, so what do I mean\nby formal verification?"
+  },
+  {
+    "start": 1008.25,
+    "dur": 5.43,
+    "text": "Well, that is essentially\na mathematical precise"
+  },
+  {
+    "start": 1013.68,
+    "dur": 3.36,
+    "text": "descriptions of the\nintended program behavior,"
+  },
+  {
+    "start": 1017.04,
+    "dur": 3.63,
+    "text": "typically in some form of\nlogic, such as first order"
+  },
+  {
+    "start": 1020.67,
+    "dur": 2.97,
+    "text": "logics or temporal logic."
+  },
+  {
+    "start": 1023.64,
+    "dur": 4.38,
+    "text": "For instance, if you want to\nimplement a defined protocol,"
+  },
+  {
+    "start": 1028.02,
+    "dur": 5.01,
+    "text": "and then you want to express\nthe correctness of an auction"
+  },
+  {
+    "start": 1033.03,
+    "dur": 2.01,
+    "text": "behavior."
+  },
+  {
+    "start": 1035.04,
+    "dur": 3.69,
+    "text": "And then here you can actually\nwrite the correctness behavior"
+  },
+  {
+    "start": 1038.73,
+    "dur": 3.96,
+    "text": "of your auctions protocol using\nthe temporal specifications"
+  },
+  {
+    "start": 1042.69,
+    "dur": 1.629,
+    "text": "on the left hand side."
+  },
+  {
+    "start": 1044.319,
+    "dur": 4.203,
+    "text": "And if you cannot understand\nwhat the application is about,"
+  },
+  {
+    "start": 1048.522,
+    "dur": 2.208,
+    "text": "that's completely fine\nbecause that's essentially not"
+  },
+  {
+    "start": 1050.73,
+    "dur": 1.78,
+    "text": "the purpose of today's talk."
+  },
+  {
+    "start": 1052.51,
+    "dur": 2.93,
+    "text": "So basically what the\nspecification is trying"
+  },
+  {
+    "start": 1055.44,
+    "dur": 3.04,
+    "text": "to express in English is that--"
+  },
+  {
+    "start": 1058.48,
+    "dur": 5.29,
+    "text": "so imagine I'm a participant\nof the auction protocol."
+  },
+  {
+    "start": 1063.77,
+    "dur": 2.42,
+    "text": "So in this case, no\nmatter what happens,"
+  },
+  {
+    "start": 1066.19,
+    "dur": 5.28,
+    "text": "if I didn't win the bid, if\nI'm not the winner eventually,"
+  },
+  {
+    "start": 1071.47,
+    "dur": 2.97,
+    "text": "then I should eventually\nget my money back"
+  },
+  {
+    "start": 1074.44,
+    "dur": 2.94,
+    "text": "because that's essentially\nlike invariance,"
+  },
+  {
+    "start": 1077.38,
+    "dur": 3.69,
+    "text": "I should always maintain\nregardless like what happens"
+  },
+  {
+    "start": 1081.07,
+    "dur": 2.82,
+    "text": "and how it is going\nto execute and who"
+  },
+  {
+    "start": 1083.89,
+    "dur": 2.58,
+    "text": "is going to interact with."
+  },
+  {
+    "start": 1086.47,
+    "dur": 2.91,
+    "text": "So a formal verification\nto which we usually"
+  },
+  {
+    "start": 1089.38,
+    "dur": 4.26,
+    "text": "call it as a program verifier\nhas different meanings"
+  },
+  {
+    "start": 1093.64,
+    "dur": 4.08,
+    "text": "as the verifier in ZK protocol."
+  },
+  {
+    "start": 1097.72,
+    "dur": 2.64,
+    "text": "So from the high\nlevel perspective,"
+  },
+  {
+    "start": 1100.36,
+    "dur": 3.39,
+    "text": "a formal verifier takes\nthe following input."
+  },
+  {
+    "start": 1103.75,
+    "dur": 4.95,
+    "text": "The source of bytecode of the\ntarget program, specifications"
+  },
+  {
+    "start": 1108.7,
+    "dur": 3.75,
+    "text": "that formally describe the\nproperty to be verified,"
+  },
+  {
+    "start": 1112.45,
+    "dur": 2.94,
+    "text": "and there are other\noptional annotations"
+  },
+  {
+    "start": 1115.39,
+    "dur": 2.88,
+    "text": "such as loop invariance,\ncontract invariance,"
+  },
+  {
+    "start": 1118.27,
+    "dur": 3.81,
+    "text": "or some actual domain\nknowledge and lemmas."
+  },
+  {
+    "start": 1122.08,
+    "dur": 4.11,
+    "text": "So once the program\nverifier takes those inputs,"
+  },
+  {
+    "start": 1126.19,
+    "dur": 6.81,
+    "text": "if you compile those input\ninto a logical formula using"
+  },
+  {
+    "start": 1133.0,
+    "dur": 3.51,
+    "text": "a component called verification\ncondition generator,"
+  },
+  {
+    "start": 1136.51,
+    "dur": 3.52,
+    "text": "we also call it VC generator."
+  },
+  {
+    "start": 1140.03,
+    "dur": 5.01,
+    "text": "And the VC generator ensures\nthat the code satisfies"
+  },
+  {
+    "start": 1145.04,
+    "dur": 4.29,
+    "text": "the specifications if, and\nonly if, the generating formula"
+  },
+  {
+    "start": 1149.33,
+    "dur": 1.74,
+    "text": "is valid."
+  },
+  {
+    "start": 1151.07,
+    "dur": 2.4,
+    "text": "And the validity\nchecking is typically"
+  },
+  {
+    "start": 1153.47,
+    "dur": 2.85,
+    "text": "done through an off\nthe shelf theorem"
+  },
+  {
+    "start": 1156.32,
+    "dur": 5.19,
+    "text": "prover such as\nSMT solver Z3, Z4,"
+  },
+  {
+    "start": 1161.51,
+    "dur": 4.08,
+    "text": "or some kind of interactive\ntheorem prover such as coglin"
+  },
+  {
+    "start": 1165.59,
+    "dur": 2.08,
+    "text": "prover, et cetera."
+  },
+  {
+    "start": 1167.67,
+    "dur": 3.5,
+    "text": "And in the end, so\nthe formal verifier"
+  },
+  {
+    "start": 1171.17,
+    "dur": 3.96,
+    "text": "is going to produce\na yes or no answer."
+  },
+  {
+    "start": 1175.13,
+    "dur": 3.66,
+    "text": "And for the yes case in which\nthe tool was successfully"
+  },
+  {
+    "start": 1178.79,
+    "dur": 4.92,
+    "text": "able to prove\nspecifications, it basically"
+  },
+  {
+    "start": 1183.71,
+    "dur": 3.43,
+    "text": "mathematically guaranteed that\nthe program matched the desired"
+  },
+  {
+    "start": 1187.14,
+    "dur": 0.5,
+    "text": "behavior."
+  },
+  {
+    "start": 1191.48,
+    "dur": 3.23,
+    "text": "So as I mentioned\nearlier, so VC generator,"
+  },
+  {
+    "start": 1194.71,
+    "dur": 1.92,
+    "text": "like verification\ncondition generator"
+  },
+  {
+    "start": 1196.63,
+    "dur": 3.76,
+    "text": "as like a compiler that\noutput logical formula."
+  },
+  {
+    "start": 1200.39,
+    "dur": 3.29,
+    "text": "So here is a simple\nbut concrete example"
+  },
+  {
+    "start": 1203.68,
+    "dur": 2.91,
+    "text": "to illustrate the\nbasic idea behind it."
+  },
+  {
+    "start": 1206.59,
+    "dur": 2.82,
+    "text": "Suppose we have a\nfunction foo that"
+  },
+  {
+    "start": 1209.41,
+    "dur": 3.3,
+    "text": "assigns different\nconstraints to x and y."
+  },
+  {
+    "start": 1212.71,
+    "dur": 3.72,
+    "text": "We assign 10 to x and 5\nto y, and then at the end,"
+  },
+  {
+    "start": 1216.43,
+    "dur": 3.99,
+    "text": "we want to assert that\nx is greater than 0."
+  },
+  {
+    "start": 1220.42,
+    "dur": 4.09,
+    "text": "So once you pass those programs\nas well as the application,"
+  },
+  {
+    "start": 1224.51,
+    "dur": 2.87,
+    "text": "in this case we use assertion\nas its corresponding"
+  },
+  {
+    "start": 1227.38,
+    "dur": 2.49,
+    "text": "specifications, so\nthe VC generator"
+  },
+  {
+    "start": 1229.87,
+    "dur": 3.21,
+    "text": "is going to compile\nthis information"
+  },
+  {
+    "start": 1233.08,
+    "dur": 4.32,
+    "text": "and then generate its\ncorresponding first formula"
+  },
+  {
+    "start": 1237.4,
+    "dur": 1.29,
+    "text": "in first order logic."
+  },
+  {
+    "start": 1238.69,
+    "dur": 1.53,
+    "text": "So basically what\nthis formula is"
+  },
+  {
+    "start": 1240.22,
+    "dur": 5.52,
+    "text": "saying that so if x is equal\nto 10 and y is equal to 5,"
+  },
+  {
+    "start": 1245.74,
+    "dur": 6.22,
+    "text": "then it is going to imply that\nx is going to greater than 0."
+  },
+  {
+    "start": 1251.96,
+    "dur": 3.33,
+    "text": "So now in order\nto formally verify"
+  },
+  {
+    "start": 1255.29,
+    "dur": 2.44,
+    "text": "that this assertion\nalways is true,"
+  },
+  {
+    "start": 1257.73,
+    "dur": 3.32,
+    "text": "so basically, the\nformal verify is going"
+  },
+  {
+    "start": 1261.05,
+    "dur": 2.55,
+    "text": "to reduce the\nproblem to checking"
+  },
+  {
+    "start": 1263.6,
+    "dur": 3.61,
+    "text": "whether this formula is\nactually valid or not,"
+  },
+  {
+    "start": 1267.21,
+    "dur": 3.09,
+    "text": "valid in a sense\nthat no matter what"
+  },
+  {
+    "start": 1270.3,
+    "dur": 3.58,
+    "text": "happens, how you're going\nto execute these programs,"
+  },
+  {
+    "start": 1273.88,
+    "dur": 3.515,
+    "text": "so this formula should\nalways going to be true."
+  },
+  {
+    "start": 1281.23,
+    "dur": 3.14,
+    "text": "And in this case, we know that\nthis assertion always holds"
+  },
+  {
+    "start": 1284.37,
+    "dur": 3.91,
+    "text": "if, and only if, f is valid."
+  },
+  {
+    "start": 1288.28,
+    "dur": 1.82,
+    "text": "So formal verification\nis very nice"
+  },
+  {
+    "start": 1290.1,
+    "dur": 2.82,
+    "text": "because it's essentially gives\nthe strongest guarantee when"
+  },
+  {
+    "start": 1292.92,
+    "dur": 2.57,
+    "text": "the proof succeeds."
+  },
+  {
+    "start": 1295.49,
+    "dur": 3.54,
+    "text": "However, due to, again,\nthe undecidability nature"
+  },
+  {
+    "start": 1299.03,
+    "dur": 3.75,
+    "text": "of formal verifier,\nwhen the proof failed,"
+  },
+  {
+    "start": 1302.78,
+    "dur": 4.0,
+    "text": "it could belong to one\nof the following cases."
+  },
+  {
+    "start": 1306.78,
+    "dur": 4.79,
+    "text": "The first case is that we\ndid find a logical error"
+  },
+  {
+    "start": 1311.57,
+    "dur": 3.42,
+    "text": "in the sense that this\nis a true positive."
+  },
+  {
+    "start": 1314.99,
+    "dur": 5.04,
+    "text": "And the second case could be\nwhile the proof doesn't proceed"
+  },
+  {
+    "start": 1320.03,
+    "dur": 4.65,
+    "text": "is because we need like an\nactual human input such as loop"
+  },
+  {
+    "start": 1324.68,
+    "dur": 5.14,
+    "text": "invariants, such as\nmissing lemmas, such as--"
+  },
+  {
+    "start": 1329.82,
+    "dur": 3.92,
+    "text": "like additional a contract\ninvariance, et cetera."
+  },
+  {
+    "start": 1333.74,
+    "dur": 2.98,
+    "text": "So the last case, which\nis also quite common,"
+  },
+  {
+    "start": 1336.72,
+    "dur": 2.63,
+    "text": "especially in the\ncontext of ZK is"
+  },
+  {
+    "start": 1339.35,
+    "dur": 3.09,
+    "text": "due to the incompleteness\nas well as the capabilities"
+  },
+  {
+    "start": 1342.44,
+    "dur": 2.7,
+    "text": "of existing theorem prover."
+  },
+  {
+    "start": 1345.14,
+    "dur": 2.94,
+    "text": "For instance, in the\nprevious slide figure,"
+  },
+  {
+    "start": 1348.08,
+    "dur": 1.83,
+    "text": "we showed that it's--"
+  },
+  {
+    "start": 1349.91,
+    "dur": 1.68,
+    "text": "when you invoke a\nformal verifier,"
+  },
+  {
+    "start": 1351.59,
+    "dur": 3.24,
+    "text": "it's essentially delegate the\njob to an off the shelf theorem"
+  },
+  {
+    "start": 1354.83,
+    "dur": 1.3,
+    "text": "prover."
+  },
+  {
+    "start": 1356.13,
+    "dur": 4.38,
+    "text": "However, so existing\ntheorem provers"
+  },
+  {
+    "start": 1360.51,
+    "dur": 3.18,
+    "text": "such as SMT solver,\nlike Z3 can only"
+  },
+  {
+    "start": 1363.69,
+    "dur": 3.93,
+    "text": "handle simple linear\ninteger arithmetic."
+  },
+  {
+    "start": 1367.62,
+    "dur": 6.19,
+    "text": "But as we've seen like in the\nfollow-up part of the talk,"
+  },
+  {
+    "start": 1373.81,
+    "dur": 2.93,
+    "text": "so in existing solver\nwe basically choke"
+  },
+  {
+    "start": 1376.74,
+    "dur": 3.42,
+    "text": "for reasoning about\nnon-linear arithmetic"
+  },
+  {
+    "start": 1380.16,
+    "dur": 5.26,
+    "text": "as well as a large prime\nover finite fields, which"
+  },
+  {
+    "start": 1385.42,
+    "dur": 4.24,
+    "text": "are essentially\neverywhere in ZK circuit."
+  },
+  {
+    "start": 1389.66,
+    "dur": 1.64,
+    "text": "So another thing I\nwant to point out"
+  },
+  {
+    "start": 1391.3,
+    "dur": 1.89,
+    "text": "that there are many\ndifferent flavors"
+  },
+  {
+    "start": 1393.19,
+    "dur": 3.18,
+    "text": "of formal verifications,\nand so far, we"
+  },
+  {
+    "start": 1396.37,
+    "dur": 2.73,
+    "text": "talk about unbounded\nverifications"
+  },
+  {
+    "start": 1399.1,
+    "dur": 2.82,
+    "text": "by default, in which\nwe try to reason"
+  },
+  {
+    "start": 1401.92,
+    "dur": 5.8,
+    "text": "about the space of all possible\nbehavior of the software."
+  },
+  {
+    "start": 1407.72,
+    "dur": 3.59,
+    "text": "However, this could be extremely\nchallenging in practice"
+  },
+  {
+    "start": 1411.31,
+    "dur": 3.75,
+    "text": "because that will also\nrequire actual manual effort"
+  },
+  {
+    "start": 1415.06,
+    "dur": 2.71,
+    "text": "and actual human input."
+  },
+  {
+    "start": 1417.77,
+    "dur": 5.18,
+    "text": "So another option in\npractice is that you can also"
+  },
+  {
+    "start": 1422.95,
+    "dur": 4.92,
+    "text": "choose to weaken your guarantee\nusing a bounded verifications,"
+  },
+  {
+    "start": 1427.87,
+    "dur": 3.45,
+    "text": "so which are pretty common in\nreal world formal verification"
+  },
+  {
+    "start": 1431.32,
+    "dur": 0.6,
+    "text": "too."
+  },
+  {
+    "start": 1431.92,
+    "dur": 5.67,
+    "text": "For instance, if you can\nrestrict your input size"
+  },
+  {
+    "start": 1437.59,
+    "dur": 2.49,
+    "text": "to certain degree\nor you restrict"
+  },
+  {
+    "start": 1440.08,
+    "dur": 3.36,
+    "text": "the space of your input\nor sometimes, let's say"
+  },
+  {
+    "start": 1443.44,
+    "dur": 2.82,
+    "text": "you have a complex program\nwith a whole bunch of loops"
+  },
+  {
+    "start": 1446.26,
+    "dur": 2.89,
+    "text": "in which you don't even know\nhow much iteration-- how"
+  },
+  {
+    "start": 1449.15,
+    "dur": 2.73,
+    "text": "many iterations is going to run\nand whether the loop is going"
+  },
+  {
+    "start": 1451.88,
+    "dur": 2.26,
+    "text": "to even terminate,\nso in this case,"
+  },
+  {
+    "start": 1454.14,
+    "dur": 4.16,
+    "text": "you can always-- assuming that\nthe loop is going to execute"
+  },
+  {
+    "start": 1458.3,
+    "dur": 2.79,
+    "text": "under a certain\nconstant, for instance,"
+  },
+  {
+    "start": 1461.09,
+    "dur": 5.07,
+    "text": "you execute your loop like\njust twice for every program"
+  },
+  {
+    "start": 1466.16,
+    "dur": 1.84,
+    "text": "that you encounter."
+  },
+  {
+    "start": 1468.0,
+    "dur": 5.03,
+    "text": "So like what we've seen in the\nstatic analysis case before,"
+  },
+  {
+    "start": 1473.03,
+    "dur": 2.85,
+    "text": "so there's also a whole\nbunch of formal verification"
+  },
+  {
+    "start": 1475.88,
+    "dur": 3.72,
+    "text": "tools in the space of\nsmart contract and Web3."
+  },
+  {
+    "start": 1479.6,
+    "dur": 3.45,
+    "text": "And, for instance, we\nhave Certora prover,"
+  },
+  {
+    "start": 1483.05,
+    "dur": 2.73,
+    "text": "K-framework from\nruntime verification,"
+  },
+  {
+    "start": 1485.78,
+    "dur": 5.31,
+    "text": "we also have Mythril,\nSailfish, et cetera."
+  },
+  {
+    "start": 1491.09,
+    "dur": 5.36,
+    "text": "Now we just show that if you do\nwrite a formal verifications,"
+  },
+  {
+    "start": 1496.45,
+    "dur": 3.66,
+    "text": "so there are actually formal\nverification techniques that"
+  },
+  {
+    "start": 1500.11,
+    "dur": 4.65,
+    "text": "can check programs against the\nprovided specifications, which"
+  },
+  {
+    "start": 1504.76,
+    "dur": 3.81,
+    "text": "is pretty cool right because\nit's essentially you can use"
+  },
+  {
+    "start": 1508.57,
+    "dur": 5.31,
+    "text": "formal verification to find or\nprove the absence of any bugs"
+  },
+  {
+    "start": 1513.88,
+    "dur": 2.88,
+    "text": "or like vulnerability\nin your programs,"
+  },
+  {
+    "start": 1516.76,
+    "dur": 4.41,
+    "text": "as long as you can write the\nformal verification to specify"
+  },
+  {
+    "start": 1521.17,
+    "dur": 2.58,
+    "text": "the bugs you want to check."
+  },
+  {
+    "start": 1523.75,
+    "dur": 4.53,
+    "text": "And in this case, the\ndownside is that it actually"
+  },
+  {
+    "start": 1528.28,
+    "dur": 3.87,
+    "text": "require a lot of manual effort\nfor writing specifications."
+  },
+  {
+    "start": 1532.15,
+    "dur": 2.52,
+    "text": "On the other hand,\nif you don't want"
+  },
+  {
+    "start": 1534.67,
+    "dur": 5.34,
+    "text": "to provide such kind of inputs\nin terms of specifications,"
+  },
+  {
+    "start": 1540.01,
+    "dur": 2.73,
+    "text": "you can use other kind of\nstatic analysis techniques"
+  },
+  {
+    "start": 1542.74,
+    "dur": 3.45,
+    "text": "such as abstract interpretation\nthat I mentioned earlier"
+  },
+  {
+    "start": 1546.19,
+    "dur": 2.79,
+    "text": "in a sense that if\nyou allow us to look"
+  },
+  {
+    "start": 1548.98,
+    "dur": 2.77,
+    "text": "for certain kind\nof vulnerabilities,"
+  },
+  {
+    "start": 1551.75,
+    "dur": 2.7,
+    "text": "and it doesn't require\nany specification"
+  },
+  {
+    "start": 1554.45,
+    "dur": 2.1,
+    "text": "because those like\nno vulnerabilities"
+  },
+  {
+    "start": 1556.55,
+    "dur": 2.67,
+    "text": "are already in code as\na part of the analysis"
+  },
+  {
+    "start": 1559.22,
+    "dur": 3.9,
+    "text": "in the abstract interpretation\nsuch as the example we seen"
+  },
+  {
+    "start": 1563.12,
+    "dur": 3.57,
+    "text": "earlier, such as re-entrance\nattack, integer overflow,"
+  },
+  {
+    "start": 1566.69,
+    "dur": 2.37,
+    "text": "flush-on attack, et cetera."
+  },
+  {
+    "start": 1569.06,
+    "dur": 0.93,
+    "text": "Excellent."
+  },
+  {
+    "start": 1569.99,
+    "dur": 4.98,
+    "text": "That's actually concludes my\npresentation in section 1."
+  },
+  {
+    "start": 1574.97,
+    "dur": 3.72,
+    "text": "So to recap quickly what\nwe have done in section 1"
+  },
+  {
+    "start": 1578.69,
+    "dur": 4.35,
+    "text": "is that I briefly introduce\nsome basic terminology, as well"
+  },
+  {
+    "start": 1583.04,
+    "dur": 2.4,
+    "text": "as concepts in formal methods."
+  },
+  {
+    "start": 1585.44,
+    "dur": 4.41,
+    "text": "And I particularly introduced\nlike two different flavors"
+  },
+  {
+    "start": 1589.85,
+    "dur": 1.27,
+    "text": "of static analysis."
+  },
+  {
+    "start": 1591.12,
+    "dur": 2.39,
+    "text": "One is based on abstract\ninterpretations,"
+  },
+  {
+    "start": 1593.51,
+    "dur": 2.58,
+    "text": "and the second based\non formal verification."
+  },
+  {
+    "start": 1596.09,
+    "dur": 4.53,
+    "text": "And we also review their pros\nand cons as well as their trade"
+  },
+  {
+    "start": 1600.62,
+    "dur": 1.3,
+    "text": "off in practice."
+  },
+  {
+    "start": 1601.92,
+    "dur": 2.96,
+    "text": "So with those powerful\nweapons on hands,"
+  },
+  {
+    "start": 1604.88,
+    "dur": 2.53,
+    "text": "we are able to\ncontinue our journey,"
+  },
+  {
+    "start": 1607.41,
+    "dur": 2.0,
+    "text": "and then we are going to\nsee how we can actually"
+  },
+  {
+    "start": 1609.41,
+    "dur": 3.54,
+    "text": "use those techniques to ensure\nthe robustness of our ZK"
+  },
+  {
+    "start": 1612.95,
+    "dur": 0.93,
+    "text": "circuit."
+  },
+  {
+    "start": 1613.88,
+    "dur": 1.44,
+    "text": "Let's continue."
+  },
+  {
+    "start": 1615.32,
+    "dur": 3.33,
+    "text": "So in this section,\nI'm going to start"
+  },
+  {
+    "start": 1618.65,
+    "dur": 2.73,
+    "text": "by reviewing some\nbasic components"
+  },
+  {
+    "start": 1621.38,
+    "dur": 1.96,
+    "text": "of a typical circuit."
+  },
+  {
+    "start": 1623.34,
+    "dur": 3.41,
+    "text": "So here I want to point out that\neven though you might observe"
+  },
+  {
+    "start": 1626.75,
+    "dur": 3.57,
+    "text": "that most of the example\nas well as evaluations"
+  },
+  {
+    "start": 1630.32,
+    "dur": 5.31,
+    "text": "are based on sitcom and Halo2,\nso our underlying technique was"
+  },
+  {
+    "start": 1635.63,
+    "dur": 2.55,
+    "text": "actually language\nagnostic in the sense"
+  },
+  {
+    "start": 1638.18,
+    "dur": 2.07,
+    "text": "that our technique\nwas actually based"
+  },
+  {
+    "start": 1640.25,
+    "dur": 4.26,
+    "text": "on the semantics of the circuit\nas well as the proven systems,"
+  },
+  {
+    "start": 1644.51,
+    "dur": 3.48,
+    "text": "not based on the syntax\nfeature of the ZK DSL,"
+  },
+  {
+    "start": 1647.99,
+    "dur": 3.18,
+    "text": "so which means that\nwith sufficient amount"
+  },
+  {
+    "start": 1651.17,
+    "dur": 3.42,
+    "text": "of engineering effort, the\npresented techniques should"
+  },
+  {
+    "start": 1654.59,
+    "dur": 4.45,
+    "text": "be able to extend it to other\nDSL and prove system as well."
+  },
+  {
+    "start": 1659.04,
+    "dur": 2.66,
+    "text": "So we are going to\nfirst get started"
+  },
+  {
+    "start": 1661.7,
+    "dur": 3.73,
+    "text": "by sharing some basic\ncomponents in ZK as well,"
+  },
+  {
+    "start": 1665.43,
+    "dur": 3.89,
+    "text": "and then I'm going to\nshare a taxonomy of ZK bugs"
+  },
+  {
+    "start": 1669.32,
+    "dur": 3.86,
+    "text": "based on our large scale\nstudy on existing popular ZK"
+  },
+  {
+    "start": 1673.18,
+    "dur": 0.99,
+    "text": "projects."
+  },
+  {
+    "start": 1674.17,
+    "dur": 3.48,
+    "text": "And then finally, we are going\nto propose a system based"
+  },
+  {
+    "start": 1677.65,
+    "dur": 2.01,
+    "text": "on abstract\ninterpretations which"
+  },
+  {
+    "start": 1679.66,
+    "dur": 2.73,
+    "text": "allow us to quickly identify\nthose vulnerabilities"
+  },
+  {
+    "start": 1682.39,
+    "dur": 3.81,
+    "text": "from large scale ZK projects."
+  },
+  {
+    "start": 1686.2,
+    "dur": 2.61,
+    "text": "To start, I will give\na brief introduction"
+  },
+  {
+    "start": 1688.81,
+    "dur": 4.66,
+    "text": "of how ZK circuits is\nconstructed, and how it works."
+  },
+  {
+    "start": 1693.47,
+    "dur": 4.1,
+    "text": "So first the developer\nwrite their design programs"
+  },
+  {
+    "start": 1697.57,
+    "dur": 5.85,
+    "text": "in the source languages in\nlet's say sitcoms or Halo2,"
+  },
+  {
+    "start": 1703.42,
+    "dur": 3.84,
+    "text": "so the source code\nconsists of two components,"
+  },
+  {
+    "start": 1707.26,
+    "dur": 3.76,
+    "text": "the witness computations\nas well as constraints."
+  },
+  {
+    "start": 1711.02,
+    "dur": 5.06,
+    "text": "So here, the program is then\ncompiled into two parts."
+  },
+  {
+    "start": 1716.08,
+    "dur": 3.99,
+    "text": "The witness generator,\nwhich is obtained by"
+  },
+  {
+    "start": 1720.07,
+    "dur": 4.74,
+    "text": "translate the original witness\ncomputations, as well as"
+  },
+  {
+    "start": 1724.81,
+    "dur": 1.9,
+    "text": "polynomial field equations."
+  },
+  {
+    "start": 1726.71,
+    "dur": 3.2,
+    "text": "So here, the polynomial field\nequation you can think of it's"
+  },
+  {
+    "start": 1729.91,
+    "dur": 4.48,
+    "text": "a set of quadratic equations\nover inputs, output,"
+  },
+  {
+    "start": 1734.39,
+    "dur": 1.95,
+    "text": "as well as\nintermediate variables"
+  },
+  {
+    "start": 1736.34,
+    "dur": 3.49,
+    "text": "that appear in your ZK circuit."
+  },
+  {
+    "start": 1739.83,
+    "dur": 1.67,
+    "text": "And, finally the\nreason that we need"
+  },
+  {
+    "start": 1741.5,
+    "dur": 1.95,
+    "text": "those kind of polynomial\nfield equation"
+  },
+  {
+    "start": 1743.45,
+    "dur": 2.61,
+    "text": "is that those equations\nwill be transformed"
+  },
+  {
+    "start": 1746.06,
+    "dur": 5.19,
+    "text": "into ZK-SNARK, which is\ncomprised of a prover as well"
+  },
+  {
+    "start": 1751.25,
+    "dur": 1.75,
+    "text": "as verifier."
+  },
+  {
+    "start": 1753.0,
+    "dur": 3.23,
+    "text": "So notice that here the\nverifier in ZK-SNARK"
+  },
+  {
+    "start": 1756.23,
+    "dur": 3.12,
+    "text": "is different from the prover\nverifier that introduced"
+  },
+  {
+    "start": 1759.35,
+    "dur": 2.22,
+    "text": "in the previous sections."
+  },
+  {
+    "start": 1761.57,
+    "dur": 2.94,
+    "text": "So here a key challenge\nfor ZK developer"
+  },
+  {
+    "start": 1764.51,
+    "dur": 2.79,
+    "text": "is that writing their\ndesigner programs"
+  },
+  {
+    "start": 1767.3,
+    "dur": 3.3,
+    "text": "require writing both\nwitness generation code,"
+  },
+  {
+    "start": 1770.6,
+    "dur": 3.36,
+    "text": "as well as maintaining\na set of constraints,"
+  },
+  {
+    "start": 1773.96,
+    "dur": 3.24,
+    "text": "which are used by the\ncompiler to produce"
+  },
+  {
+    "start": 1777.2,
+    "dur": 2.93,
+    "text": "a polynomial equation."
+  },
+  {
+    "start": 1780.13,
+    "dur": 4.74,
+    "text": "And in order to write\na correct ZK program,"
+  },
+  {
+    "start": 1784.87,
+    "dur": 3.27,
+    "text": "the witness generations\nas well as the constraints"
+  },
+  {
+    "start": 1788.14,
+    "dur": 2.98,
+    "text": "should be equivalent."
+  },
+  {
+    "start": 1791.12,
+    "dur": 3.56,
+    "text": "And what do we mean for those\nwitness generations as well as"
+  },
+  {
+    "start": 1794.68,
+    "dur": 2.56,
+    "text": "constraint to be equivalent?"
+  },
+  {
+    "start": 1797.24,
+    "dur": 3.74,
+    "text": "So let me define that formally."
+  },
+  {
+    "start": 1800.98,
+    "dur": 2.94,
+    "text": "So here, let me\nintroduce some notations."
+  },
+  {
+    "start": 1803.92,
+    "dur": 3.84,
+    "text": "Let's use a program P\non the left hand side"
+  },
+  {
+    "start": 1807.76,
+    "dur": 4.32,
+    "text": "to represent a witness\ngeneration code."
+  },
+  {
+    "start": 1812.08,
+    "dur": 5.52,
+    "text": "And here, the program P is going\nto take input as some input"
+  },
+  {
+    "start": 1817.6,
+    "dur": 5.07,
+    "text": "variable x, and then it's going\nto return some output variable"
+  },
+  {
+    "start": 1822.67,
+    "dur": 1.8,
+    "text": "y."
+  },
+  {
+    "start": 1824.47,
+    "dur": 2.49,
+    "text": "And then, furthermore,\nwe are going"
+  },
+  {
+    "start": 1826.96,
+    "dur": 4.77,
+    "text": "to use capital C to represent\na system of constraint"
+  },
+  {
+    "start": 1831.73,
+    "dur": 2.86,
+    "text": "over x and y."
+  },
+  {
+    "start": 1834.59,
+    "dur": 3.74,
+    "text": "And then here, the constraint\nis constructed in a way"
+  },
+  {
+    "start": 1838.33,
+    "dur": 3.58,
+    "text": "such that for some concrete\nassignment of x and y,"
+  },
+  {
+    "start": 1841.91,
+    "dur": 2.58,
+    "text": "so the constraint\nsystem C is going"
+  },
+  {
+    "start": 1844.49,
+    "dur": 6.25,
+    "text": "to produce true if it is\nsatisfiable or false otherwise."
+  },
+  {
+    "start": 1850.74,
+    "dur": 2.66,
+    "text": "So given these\ndefinitions, what does it"
+  },
+  {
+    "start": 1853.4,
+    "dur": 5.52,
+    "text": "mean for a program P, as\nwell as a constraint C"
+  },
+  {
+    "start": 1858.92,
+    "dur": 2.59,
+    "text": "to be equivalent?"
+  },
+  {
+    "start": 1861.51,
+    "dur": 3.71,
+    "text": "So formally speaking,\nwe say that P&C"
+  },
+  {
+    "start": 1865.22,
+    "dur": 7.23,
+    "text": "are equivalent if for any\ninput x to P such that P of x"
+  },
+  {
+    "start": 1872.45,
+    "dur": 4.74,
+    "text": "is going to equal to\ny and x and y also"
+  },
+  {
+    "start": 1877.19,
+    "dur": 4.86,
+    "text": "satisfy constraint system C.\nIn other words, the definitions"
+  },
+  {
+    "start": 1882.05,
+    "dur": 3.51,
+    "text": "come into two requirements."
+  },
+  {
+    "start": 1885.56,
+    "dur": 6.51,
+    "text": "So first, for any input output\npair of the witness computation"
+  },
+  {
+    "start": 1892.07,
+    "dur": 6.48,
+    "text": "program P, it must satisfy\nthe set of constraint systems"
+  },
+  {
+    "start": 1898.55,
+    "dur": 3.03,
+    "text": "on capital C."
+  },
+  {
+    "start": 1901.58,
+    "dur": 2.4,
+    "text": "And then similarly,\nthe second requirement"
+  },
+  {
+    "start": 1903.98,
+    "dur": 3.06,
+    "text": "states that for any\npair of x and y,"
+  },
+  {
+    "start": 1907.04,
+    "dur": 3.82,
+    "text": "which already satisfy\nthe constraint system C,"
+  },
+  {
+    "start": 1910.86,
+    "dur": 3.57,
+    "text": "it also be a valid\ninput output pair"
+  },
+  {
+    "start": 1914.43,
+    "dur": 3.33,
+    "text": "of the original program P, which\nessentially does the witness"
+  },
+  {
+    "start": 1917.76,
+    "dur": 1.84,
+    "text": "generation."
+  },
+  {
+    "start": 1919.6,
+    "dur": 4.01,
+    "text": "So the important question is\nthat how can this be violated?"
+  },
+  {
+    "start": 1923.61,
+    "dur": 2.25,
+    "text": "It's actually feasible\nthat those get violated."
+  },
+  {
+    "start": 1928.75,
+    "dur": 3.5,
+    "text": "So we are going to\nlook into this kind"
+  },
+  {
+    "start": 1932.25,
+    "dur": 2.79,
+    "text": "of possible violations\nin a bit formal way,"
+  },
+  {
+    "start": 1935.04,
+    "dur": 2.4,
+    "text": "and then we are\ngoing to break down"
+  },
+  {
+    "start": 1937.44,
+    "dur": 3.24,
+    "text": "the violations of this\nequivalences property"
+  },
+  {
+    "start": 1940.68,
+    "dur": 3.555,
+    "text": "into two classes since it\nactually involves two parties."
+  },
+  {
+    "start": 1946.95,
+    "dur": 3.12,
+    "text": "So on one side, we\nhave the first type"
+  },
+  {
+    "start": 1950.07,
+    "dur": 2.85,
+    "text": "of violations, which\nis what we refer"
+  },
+  {
+    "start": 1952.92,
+    "dur": 4.82,
+    "text": "as an over constrain\nbugs, and which"
+  },
+  {
+    "start": 1957.74,
+    "dur": 4.14,
+    "text": "happens when there is\nsome input/output pair"
+  },
+  {
+    "start": 1961.88,
+    "dur": 1.62,
+    "text": "of the programs--"
+  },
+  {
+    "start": 1963.5,
+    "dur": 3.45,
+    "text": "valid input output\npair that satisfy"
+  },
+  {
+    "start": 1966.95,
+    "dur": 1.89,
+    "text": "the witness computation P."
+  },
+  {
+    "start": 1968.84,
+    "dur": 7.07,
+    "text": "However, it does not satisfy\nthe constraint [INAUDIBLE].."
+  },
+  {
+    "start": 1975.91,
+    "dur": 3.36,
+    "text": "So in this case, we call\nit as an over constraint."
+  },
+  {
+    "start": 1979.27,
+    "dur": 3.48,
+    "text": "However, in practice\nwe barely see"
+  },
+  {
+    "start": 1982.75,
+    "dur": 2.43,
+    "text": "such kind of over\nconstraint bugs,"
+  },
+  {
+    "start": 1985.18,
+    "dur": 3.52,
+    "text": "and it was mostly\ndue to two reasons."
+  },
+  {
+    "start": 1988.7,
+    "dur": 5.24,
+    "text": "And first like the\nZK developer, they"
+  },
+  {
+    "start": 1993.94,
+    "dur": 5.79,
+    "text": "are not incentivized to over\nconstraint their variables"
+  },
+  {
+    "start": 1999.73,
+    "dur": 5.31,
+    "text": "in the circuit because the\nproof generations actually, it's"
+  },
+  {
+    "start": 2005.04,
+    "dur": 1.74,
+    "text": "costly."
+  },
+  {
+    "start": 2006.78,
+    "dur": 3.99,
+    "text": "And most importantly, so in\nmost ZK programming languages"
+  },
+  {
+    "start": 2010.77,
+    "dur": 4.32,
+    "text": "such as Circom and Halo2,\nso those few equations"
+  },
+  {
+    "start": 2015.09,
+    "dur": 3.19,
+    "text": "and constraints are actually\nencode as assertions"
+  },
+  {
+    "start": 2018.28,
+    "dur": 2.27,
+    "text": "through the circuit,\nso which means"
+  },
+  {
+    "start": 2020.55,
+    "dur": 2.73,
+    "text": "that once an over\nconstraint bugs"
+  },
+  {
+    "start": 2023.28,
+    "dur": 4.08,
+    "text": "happens, which means that it\nsatisfied the original witness"
+  },
+  {
+    "start": 2027.36,
+    "dur": 2.1,
+    "text": "computation, but violate\nthose constraints,"
+  },
+  {
+    "start": 2029.46,
+    "dur": 3.66,
+    "text": "you can immediately see the\nassertions during the execution"
+  },
+  {
+    "start": 2033.12,
+    "dur": 2.38,
+    "text": "of the circuit, so which\nmeans a lot of them"
+  },
+  {
+    "start": 2035.5,
+    "dur": 4.16,
+    "text": "are actually being identified\nduring the development phase."
+  },
+  {
+    "start": 2039.66,
+    "dur": 3.9,
+    "text": "However, on the other hands,\nthe second title bugs,"
+  },
+  {
+    "start": 2043.56,
+    "dur": 2.19,
+    "text": "which we call\nunder-constrained bugs,"
+  },
+  {
+    "start": 2045.75,
+    "dur": 4.53,
+    "text": "is actually much, much trickier."
+  },
+  {
+    "start": 2050.28,
+    "dur": 3.53,
+    "text": "So the second type\nof violations happens"
+  },
+  {
+    "start": 2053.81,
+    "dur": 5.76,
+    "text": "when there exists some\npairs of x and y such"
+  },
+  {
+    "start": 2059.57,
+    "dur": 5.97,
+    "text": "that it satisfies the\nconstraint system C. However,"
+  },
+  {
+    "start": 2065.54,
+    "dur": 3.81,
+    "text": "so this x and y they are\nnot a valid input output"
+  },
+  {
+    "start": 2069.35,
+    "dur": 2.19,
+    "text": "pair of the program in\nthe sense that if you"
+  },
+  {
+    "start": 2071.54,
+    "dur": 4.74,
+    "text": "plug-in P of x, so the\nreturn value is not"
+  },
+  {
+    "start": 2076.28,
+    "dur": 1.919,
+    "text": "going to equal to y."
+  },
+  {
+    "start": 2078.199,
+    "dur": 2.971,
+    "text": "So basically, if that's\nthe case as an attacker"
+  },
+  {
+    "start": 2081.17,
+    "dur": 4.35,
+    "text": "or malicious user, you can\nbasically claim any bogus fact"
+  },
+  {
+    "start": 2085.52,
+    "dur": 5.31,
+    "text": "on some any random computations\nbecause those computations are"
+  },
+  {
+    "start": 2090.83,
+    "dur": 3.9,
+    "text": "accepted are all accepted\nby the computing system."
+  },
+  {
+    "start": 2094.73,
+    "dur": 4.56,
+    "text": "And this bugs in practice\nis actually quite dangerous."
+  },
+  {
+    "start": 2099.29,
+    "dur": 1.65,
+    "text": "And why do we care?"
+  },
+  {
+    "start": 2100.94,
+    "dur": 4.5,
+    "text": "So to understand this, let's\nreview the original workflow"
+  },
+  {
+    "start": 2105.44,
+    "dur": 5.8,
+    "text": "of ZK circuits from\nsource code to ZK-SNARKS."
+  },
+  {
+    "start": 2111.24,
+    "dur": 3.48,
+    "text": "So in the end, so\nthe ZK circuit is"
+  },
+  {
+    "start": 2114.72,
+    "dur": 4.08,
+    "text": "going to produce a\nSNARK, which is comprised"
+  },
+  {
+    "start": 2118.8,
+    "dur": 3.49,
+    "text": "of a prover and a verifier."
+  },
+  {
+    "start": 2122.29,
+    "dur": 2.24,
+    "text": "So which means\nthat in this case,"
+  },
+  {
+    "start": 2124.53,
+    "dur": 4.2,
+    "text": "if there is an under-constrained\nbugs in the original source"
+  },
+  {
+    "start": 2128.73,
+    "dur": 4.53,
+    "text": "code of the ZK circuit, the\nverifier can basically accept"
+  },
+  {
+    "start": 2133.26,
+    "dur": 2.29,
+    "text": "bad input/ output pair."
+  },
+  {
+    "start": 2135.55,
+    "dur": 3.86,
+    "text": "They are not supposed to\nbe accepted originally"
+  },
+  {
+    "start": 2139.41,
+    "dur": 3.0,
+    "text": "and this is not just\nhypothetical like bugs,"
+  },
+  {
+    "start": 2142.41,
+    "dur": 2.97,
+    "text": "and this can actually lead\nto serious vulnerabilities"
+  },
+  {
+    "start": 2145.38,
+    "dur": 3.87,
+    "text": "in applications,\nincluding enabled attacker"
+  },
+  {
+    "start": 2149.25,
+    "dur": 2.76,
+    "text": "to drain all of the\ntokens of the protocol"
+  },
+  {
+    "start": 2152.01,
+    "dur": 2.64,
+    "text": "as well as allow the\nuser for double spending."
+  },
+  {
+    "start": 2158.11,
+    "dur": 5.49,
+    "text": "So how do we deal with\nthose kind of scenario?"
+  },
+  {
+    "start": 2163.6,
+    "dur": 2.73,
+    "text": "Because this is actually a\nfundamental problem in a sense,"
+  },
+  {
+    "start": 2166.33,
+    "dur": 5.13,
+    "text": "it requires reason about the\nequivalence between witness"
+  },
+  {
+    "start": 2171.46,
+    "dur": 3.73,
+    "text": "computation of the ZK circuit\nas well as constraint system."
+  },
+  {
+    "start": 2175.19,
+    "dur": 3.05,
+    "text": "And before we actually\ndive into how can"
+  },
+  {
+    "start": 2178.24,
+    "dur": 3.18,
+    "text": "we do that using formal\nverification, which"
+  },
+  {
+    "start": 2181.42,
+    "dur": 3.51,
+    "text": "can provide the strongest\nmathematical guarantee, so"
+  },
+  {
+    "start": 2184.93,
+    "dur": 3.93,
+    "text": "let's take a look at how\nthe existing bugs look like,"
+  },
+  {
+    "start": 2188.86,
+    "dur": 4.2,
+    "text": "and then whether we can actually\ncapture some of the bugs"
+  },
+  {
+    "start": 2193.06,
+    "dur": 3.91,
+    "text": "with some lightweight\nstatic analysis."
+  },
+  {
+    "start": 2196.97,
+    "dur": 1.8,
+    "text": "So from the previous\nsections, we"
+  },
+  {
+    "start": 2198.77,
+    "dur": 2.67,
+    "text": "know that a lightweight\nanalysis based"
+  },
+  {
+    "start": 2201.44,
+    "dur": 4.02,
+    "text": "on abstract interpretations\nis very effective in finding"
+  },
+  {
+    "start": 2205.46,
+    "dur": 4.2,
+    "text": "bugs for known vulnerabilities."
+  },
+  {
+    "start": 2209.66,
+    "dur": 5.01,
+    "text": "However, to use an\nexisting tool like using"
+  },
+  {
+    "start": 2214.67,
+    "dur": 3.09,
+    "text": "abstract interpretation as I\nmentioned earlier, it requires"
+  },
+  {
+    "start": 2217.76,
+    "dur": 4.17,
+    "text": "us to have some sort of a prior\nknowledge about the patterns"
+  },
+  {
+    "start": 2221.93,
+    "dur": 2.28,
+    "text": "of the bugs, the\npatterns can either"
+  },
+  {
+    "start": 2224.21,
+    "dur": 3.1,
+    "text": "be syntax patterns\nor semantic patterns."
+  },
+  {
+    "start": 2227.31,
+    "dur": 3.47,
+    "text": "So, therefore, in order to\ntackle these problems, what"
+  },
+  {
+    "start": 2230.78,
+    "dur": 3.84,
+    "text": "we do at first is essentially\nwe first collaborate"
+  },
+  {
+    "start": 2234.62,
+    "dur": 3.93,
+    "text": "through the collaborations\nfrom researchers in Xerox PARC"
+  },
+  {
+    "start": 2238.55,
+    "dur": 1.62,
+    "text": "and Ethereum foundations."
+  },
+  {
+    "start": 2240.17,
+    "dur": 3.72,
+    "text": "We first like draw a\ntaxonomy of ZK bugs"
+  },
+  {
+    "start": 2243.89,
+    "dur": 5.73,
+    "text": "based on a systematic studies\nover large scale ZK open source"
+  },
+  {
+    "start": 2249.62,
+    "dur": 0.99,
+    "text": "projects."
+  },
+  {
+    "start": 2250.61,
+    "dur": 4.47,
+    "text": "And here, so our taxonomy\ncontains multiple categories,"
+  },
+  {
+    "start": 2255.08,
+    "dur": 3.33,
+    "text": "and each category\nhas several variants"
+  },
+  {
+    "start": 2258.41,
+    "dur": 2.64,
+    "text": "of the bugs identified."
+  },
+  {
+    "start": 2261.05,
+    "dur": 5.53,
+    "text": "So the first categories is\ncalled under constraint signal."
+  },
+  {
+    "start": 2266.58,
+    "dur": 5.21,
+    "text": "So as the name indicates,\nso under signals--"
+  },
+  {
+    "start": 2271.79,
+    "dur": 4.32,
+    "text": "under constraint signal happens\nwhen a constraint was evaluated"
+  },
+  {
+    "start": 2276.11,
+    "dur": 4.05,
+    "text": "to be true, and\nso in this case so"
+  },
+  {
+    "start": 2280.16,
+    "dur": 2.97,
+    "text": "the circuit was able\nto essentially like"
+  },
+  {
+    "start": 2283.13,
+    "dur": 2.8,
+    "text": "accept everything because--"
+  },
+  {
+    "start": 2285.93,
+    "dur": 2.87,
+    "text": "and then because there was no\nconstraint over those signals,"
+  },
+  {
+    "start": 2288.8,
+    "dur": 2.58,
+    "text": "and then here the signal\ncan be either output"
+  },
+  {
+    "start": 2291.38,
+    "dur": 2.16,
+    "text": "signal or any public\nsignal that can be"
+  },
+  {
+    "start": 2293.54,
+    "dur": 4.0,
+    "text": "accessed by the participants."
+  },
+  {
+    "start": 2297.54,
+    "dur": 4.39,
+    "text": "And let's go over\na concrete example."
+  },
+  {
+    "start": 2301.93,
+    "dur": 5.3,
+    "text": "So here, take a buggy\nimplementations of Nun2Bit"
+  },
+  {
+    "start": 2307.23,
+    "dur": 2.31,
+    "text": "from the circle library."
+  },
+  {
+    "start": 2309.54,
+    "dur": 5.97,
+    "text": "So here, a Nun2Bit takes\nas input a prime field n,"
+  },
+  {
+    "start": 2315.51,
+    "dur": 4.02,
+    "text": "and then it's going to return\nits corresponding binary"
+  },
+  {
+    "start": 2319.53,
+    "dur": 4.08,
+    "text": "representations using\narray of n elements."
+  },
+  {
+    "start": 2323.61,
+    "dur": 7.05,
+    "text": "And here, every elements is\ngoing to be either 0 or 1."
+  },
+  {
+    "start": 2330.66,
+    "dur": 4.77,
+    "text": "You convert a few elements\ninto its corresponding binary"
+  },
+  {
+    "start": 2335.43,
+    "dur": 2.43,
+    "text": "representation as\nthe name indicates."
+  },
+  {
+    "start": 2340.85,
+    "dur": 2.58,
+    "text": "So here, one thing\nI want to highlight"
+  },
+  {
+    "start": 2343.43,
+    "dur": 2.98,
+    "text": "is that so during the\nimplementation of the code,"
+  },
+  {
+    "start": 2346.41,
+    "dur": 2.48,
+    "text": "so the developer\nactually tried to use"
+  },
+  {
+    "start": 2348.89,
+    "dur": 5.44,
+    "text": "this kind of triple equal\noperator to indicate that."
+  },
+  {
+    "start": 2354.33,
+    "dur": 3.92,
+    "text": "So they want to constrain\nthe values of the output"
+  },
+  {
+    "start": 2358.25,
+    "dur": 2.88,
+    "text": "elements basically for every--"
+  },
+  {
+    "start": 2361.13,
+    "dur": 2.97,
+    "text": "what constraint is saying\nthat for every elements"
+  },
+  {
+    "start": 2364.1,
+    "dur": 4.17,
+    "text": "in the output array, it\nshould either be 0 or 1."
+  },
+  {
+    "start": 2368.27,
+    "dur": 2.04,
+    "text": "Everything looks so far--"
+  },
+  {
+    "start": 2370.31,
+    "dur": 1.63,
+    "text": "looks good so far."
+  },
+  {
+    "start": 2371.94,
+    "dur": 4.79,
+    "text": "However, so there is a\nsubtle off by 1s errors"
+  },
+  {
+    "start": 2376.73,
+    "dur": 3.24,
+    "text": "in this case in a sense\nthat in this implementation,"
+  },
+  {
+    "start": 2379.97,
+    "dur": 3.81,
+    "text": "the loop bodies use n\nminus 1 as the loop bound,"
+  },
+  {
+    "start": 2383.78,
+    "dur": 4.41,
+    "text": "but the correct\nversion should be n."
+  },
+  {
+    "start": 2388.19,
+    "dur": 5.04,
+    "text": "And then if you actually\ncombine those original circuits"
+  },
+  {
+    "start": 2393.23,
+    "dur": 2.7,
+    "text": "into the corresponding\nconstraint system"
+  },
+  {
+    "start": 2395.93,
+    "dur": 10.38,
+    "text": "as you can see, so using\nan elements of size 4,"
+  },
+  {
+    "start": 2406.31,
+    "dur": 2.71,
+    "text": "so basically, if you look\nat the constraint systems,"
+  },
+  {
+    "start": 2409.02,
+    "dur": 3.71,
+    "text": "so basically output\n0 and output 1,"
+  },
+  {
+    "start": 2412.73,
+    "dur": 4.8,
+    "text": "they are all being constrained\nproperly in the sense"
+  },
+  {
+    "start": 2417.53,
+    "dur": 4.92,
+    "text": "that both outputs are either\nsupposed to be 0 or 1."
+  },
+  {
+    "start": 2422.45,
+    "dur": 4.92,
+    "text": "However, there's no constraints\nover the last elements which"
+  },
+  {
+    "start": 2427.37,
+    "dur": 4.44,
+    "text": "is output 2 because of the\noff by 1 errors introduced"
+  },
+  {
+    "start": 2431.81,
+    "dur": 1.68,
+    "text": "in the original source code."
+  },
+  {
+    "start": 2433.49,
+    "dur": 1.38,
+    "text": "So what does that mean?"
+  },
+  {
+    "start": 2434.87,
+    "dur": 2.1,
+    "text": "Meaning that because\nthere is no constraint"
+  },
+  {
+    "start": 2436.97,
+    "dur": 2.68,
+    "text": "over the last\nelements of the array,"
+  },
+  {
+    "start": 2439.65,
+    "dur": 3.2,
+    "text": "so the attackers can\nbasically pass any value"
+  },
+  {
+    "start": 2442.85,
+    "dur": 1.17,
+    "text": "to the last elements."
+  },
+  {
+    "start": 2444.02,
+    "dur": 2.94,
+    "text": "And then so the\nproof system is going"
+  },
+  {
+    "start": 2446.96,
+    "dur": 3.15,
+    "text": "to accept it because there's\nno constraint that essentially"
+  },
+  {
+    "start": 2450.11,
+    "dur": 2.73,
+    "text": "prevent from accepting this guy."
+  },
+  {
+    "start": 2452.84,
+    "dur": 5.55,
+    "text": "And this can be extremely\ndangerous in practice."
+  },
+  {
+    "start": 2458.39,
+    "dur": 3.3,
+    "text": "And the second category\nthat I'm going to introduce"
+  },
+  {
+    "start": 2461.69,
+    "dur": 4.43,
+    "text": "is called unsafe\ncomponent usage."
+  },
+  {
+    "start": 2466.12,
+    "dur": 4.67,
+    "text": "So as we probably know, a big\nor large circuit is typically"
+  },
+  {
+    "start": 2470.79,
+    "dur": 6.72,
+    "text": "composed of many small and\nreusable gadgets or components"
+  },
+  {
+    "start": 2477.51,
+    "dur": 3.84,
+    "text": "just like you play\nLEGO blocks, so why"
+  },
+  {
+    "start": 2481.35,
+    "dur": 3.72,
+    "text": "each individual components\nor gadgets may look safe"
+  },
+  {
+    "start": 2485.07,
+    "dur": 3.9,
+    "text": "on its own OK but\na box may still"
+  },
+  {
+    "start": 2488.97,
+    "dur": 4.99,
+    "text": "happens at a boundary because\nof incorrect assumptions."
+  },
+  {
+    "start": 2493.96,
+    "dur": 4.01,
+    "text": "So that's what we mean by\nunsafe component usage, which"
+  },
+  {
+    "start": 2497.97,
+    "dur": 4.29,
+    "text": "include both under\nconstraints subcircuit output"
+  },
+  {
+    "start": 2502.26,
+    "dur": 5.4,
+    "text": "as well as under\nconstraint circuit inputs."
+  },
+  {
+    "start": 2507.66,
+    "dur": 4.06,
+    "text": "And so let's take a look at\nconcrete example as well."
+  },
+  {
+    "start": 2511.72,
+    "dur": 3.11,
+    "text": "So in this example,\nthe developer"
+  },
+  {
+    "start": 2514.83,
+    "dur": 4.35,
+    "text": "trying to implement the\nwithdrawal functions, and then"
+  },
+  {
+    "start": 2519.18,
+    "dur": 1.807,
+    "text": "here the withdrawal\nfunction is very easy"
+  },
+  {
+    "start": 2520.987,
+    "dur": 1.583,
+    "text": "to understand in the\nsense that you're"
+  },
+  {
+    "start": 2522.57,
+    "dur": 5.47,
+    "text": "trying to withdraw a certain\namount from your balance."
+  },
+  {
+    "start": 2528.04,
+    "dur": 3.09,
+    "text": "So when-- so the\ndeveloper was trying"
+  },
+  {
+    "start": 2531.13,
+    "dur": 2.37,
+    "text": "to implement the\nwithdrawal functions,"
+  },
+  {
+    "start": 2533.5,
+    "dur": 3.61,
+    "text": "is trying to invoke\nthe less than component"
+  },
+  {
+    "start": 2537.11,
+    "dur": 2.78,
+    "text": "that's essentially\ncompare against the value"
+  },
+  {
+    "start": 2539.89,
+    "dur": 1.725,
+    "text": "between the amount\nand the balance."
+  },
+  {
+    "start": 2544.33,
+    "dur": 2.7,
+    "text": "And, of course, you\nwant to always ensure"
+  },
+  {
+    "start": 2547.03,
+    "dur": 5.04,
+    "text": "that the amount should\nalways less than the balance."
+  },
+  {
+    "start": 2552.07,
+    "dur": 3.6,
+    "text": "However, so because\nthe developer"
+  },
+  {
+    "start": 2555.67,
+    "dur": 6.85,
+    "text": "forgot to constrain the output\nvalues of the less than return,"
+  },
+  {
+    "start": 2562.52,
+    "dur": 2.84,
+    "text": "so in a sense, the original--"
+  },
+  {
+    "start": 2565.36,
+    "dur": 2.07,
+    "text": "the correct constraint\nshould be added"
+  },
+  {
+    "start": 2567.43,
+    "dur": 4.08,
+    "text": "to assert that there should\nbe an actual constraint"
+  },
+  {
+    "start": 2571.51,
+    "dur": 4.62,
+    "text": "to enforce the output value\nto be always equal to 0"
+  },
+  {
+    "start": 2576.13,
+    "dur": 0.95,
+    "text": "in the sense that--"
+  },
+  {
+    "start": 2577.08,
+    "dur": 1.75,
+    "text": "which essentially state\nthat amount should"
+  },
+  {
+    "start": 2578.83,
+    "dur": 1.62,
+    "text": "always less than balance."
+  },
+  {
+    "start": 2580.45,
+    "dur": 4.27,
+    "text": "However, because the developer\nforget about this constraint,"
+  },
+  {
+    "start": 2584.72,
+    "dur": 2.09,
+    "text": "which means that\nbasically there is"
+  },
+  {
+    "start": 2586.81,
+    "dur": 4.24,
+    "text": "no restrictions on the restore\namount, and then as a result,"
+  },
+  {
+    "start": 2591.05,
+    "dur": 3.83,
+    "text": "the attacker can restore\nmore fun than he deserved."
+  },
+  {
+    "start": 2597.54,
+    "dur": 3.42,
+    "text": "So last but not least\nis the discrepancies"
+  },
+  {
+    "start": 2600.96,
+    "dur": 5.31,
+    "text": "between constraint as well\nas witness computations."
+  },
+  {
+    "start": 2606.27,
+    "dur": 4.32,
+    "text": "And due to the design\nof ZK-SNARK so not"
+  },
+  {
+    "start": 2610.59,
+    "dur": 2.76,
+    "text": "all computation can\nbe directly expressed"
+  },
+  {
+    "start": 2613.35,
+    "dur": 2.83,
+    "text": "as constraint in\nthe proof system."
+  },
+  {
+    "start": 2616.18,
+    "dur": 4.43,
+    "text": "So as a result, a bug can arise\nwhen the constraint does not"
+  },
+  {
+    "start": 2620.61,
+    "dur": 3.55,
+    "text": "faithfully capture a\ncomputation semantics."
+  },
+  {
+    "start": 2624.16,
+    "dur": 4.76,
+    "text": "And then here, I'm going to use\nnon-zero inverse as an example"
+  },
+  {
+    "start": 2628.92,
+    "dur": 2.28,
+    "text": "to illustrate this box,\nand then in practice,"
+  },
+  {
+    "start": 2631.2,
+    "dur": 3.93,
+    "text": "there's many, many\nsuch kind of variants."
+  },
+  {
+    "start": 2635.13,
+    "dur": 4.77,
+    "text": "So here let's take a look at\na very simple circuit, which"
+  },
+  {
+    "start": 2639.9,
+    "dur": 2.97,
+    "text": "is essentially trying to\nimplement the multiply inverse"
+  },
+  {
+    "start": 2642.87,
+    "dur": 1.47,
+    "text": "functions."
+  },
+  {
+    "start": 2644.34,
+    "dur": 2.19,
+    "text": "And the function is\nvery simple in the sense"
+  },
+  {
+    "start": 2646.53,
+    "dur": 5.34,
+    "text": "that it's trying to do the\ndivisions between a and b."
+  },
+  {
+    "start": 2651.87,
+    "dur": 4.02,
+    "text": "However, because the division\noperator is not direct support"
+  },
+  {
+    "start": 2655.89,
+    "dur": 3.91,
+    "text": "by the polynomial\nequations, so the developer"
+  },
+  {
+    "start": 2659.8,
+    "dur": 3.75,
+    "text": "needs to construct and simulate\nthis kind of division operator"
+  },
+  {
+    "start": 2663.55,
+    "dur": 2.8,
+    "text": "using multiplication\nfor instance, a divided"
+  },
+  {
+    "start": 2666.35,
+    "dur": 3.95,
+    "text": "by b equal to output, is\ngoing to be equivalent"
+  },
+  {
+    "start": 2670.3,
+    "dur": 2.91,
+    "text": "to you do a\nmultiplication-- you assert"
+  },
+  {
+    "start": 2673.21,
+    "dur": 2.76,
+    "text": "that the multiplication\nbetween output and b"
+  },
+  {
+    "start": 2675.97,
+    "dur": 2.58,
+    "text": "is going to equal to a."
+  },
+  {
+    "start": 2678.55,
+    "dur": 4.47,
+    "text": "However, this looks fine\nexcept that he actually"
+  },
+  {
+    "start": 2683.02,
+    "dur": 3.22,
+    "text": "missed a corner case\nin the sense that--"
+  },
+  {
+    "start": 2686.24,
+    "dur": 3.41,
+    "text": "so this will look\nequivalent for most"
+  },
+  {
+    "start": 2689.65,
+    "dur": 4.17,
+    "text": "of the cases except one\ncorner cases, in the sense"
+  },
+  {
+    "start": 2693.82,
+    "dur": 2.76,
+    "text": "that when b is equal to 0."
+  },
+  {
+    "start": 2696.58,
+    "dur": 3.87,
+    "text": "In the original\nwitness computations,"
+  },
+  {
+    "start": 2700.45,
+    "dur": 2.7,
+    "text": "when you do like\na division by 0,"
+  },
+  {
+    "start": 2703.15,
+    "dur": 2.25,
+    "text": "this is actually an\nundefined behavior"
+  },
+  {
+    "start": 2705.4,
+    "dur": 3.15,
+    "text": "that should be rejected\nand that should"
+  },
+  {
+    "start": 2708.55,
+    "dur": 4.69,
+    "text": "be disallowed during the\nexecution of the program."
+  },
+  {
+    "start": 2713.24,
+    "dur": 3.11,
+    "text": "However, because you\nessentially mimic"
+  },
+  {
+    "start": 2716.35,
+    "dur": 3.38,
+    "text": "this kind of computation\nusing modifications,"
+  },
+  {
+    "start": 2719.73,
+    "dur": 4.77,
+    "text": "so the modifications that\nappear in the current constraint"
+  },
+  {
+    "start": 2724.5,
+    "dur": 4.98,
+    "text": "system which will actually\nallow be equal to 0,"
+  },
+  {
+    "start": 2729.48,
+    "dur": 2.47,
+    "text": "so which means\nthat in that case,"
+  },
+  {
+    "start": 2731.95,
+    "dur": 2.03,
+    "text": "so the circuits and\nthe proof system"
+  },
+  {
+    "start": 2733.98,
+    "dur": 4.17,
+    "text": "is going to essentially allow\nsome additional behavior that"
+  },
+  {
+    "start": 2738.15,
+    "dur": 3.12,
+    "text": "should be undefined in the\noriginal witness computation."
+  },
+  {
+    "start": 2745.49,
+    "dur": 3.99,
+    "text": "And so now we see the\nproblems, but how can we"
+  },
+  {
+    "start": 2749.48,
+    "dur": 4.83,
+    "text": "detect those bugs\nthat might potentially"
+  },
+  {
+    "start": 2754.31,
+    "dur": 5.47,
+    "text": "like appear in a bunch\nof other circuit as well?"
+  },
+  {
+    "start": 2759.78,
+    "dur": 4.31,
+    "text": "So and in particular, how can we\nuse the abstract interpretation"
+  },
+  {
+    "start": 2764.09,
+    "dur": 1.8,
+    "text": "technique that we\nlearned earlier?"
+  },
+  {
+    "start": 2765.89,
+    "dur": 3.3,
+    "text": "To do so, we first\nneed an abstractions"
+  },
+  {
+    "start": 2769.19,
+    "dur": 3.69,
+    "text": "to quantify the key\nsemantics of ZK circuit"
+  },
+  {
+    "start": 2772.88,
+    "dur": 3.12,
+    "text": "that are potentially\nrelevant to our bugs."
+  },
+  {
+    "start": 2776.0,
+    "dur": 4.59,
+    "text": "In particular, we introduce a\nsemantic representations called"
+  },
+  {
+    "start": 2780.59,
+    "dur": 3.85,
+    "text": "circuit dependence graph,\nand as the name indicates,"
+  },
+  {
+    "start": 2784.44,
+    "dur": 4.07,
+    "text": "it's a graph represent\nZK circuits where"
+  },
+  {
+    "start": 2788.51,
+    "dur": 5.07,
+    "text": "node represents signals\nof different type input"
+  },
+  {
+    "start": 2793.58,
+    "dur": 1.12,
+    "text": "and output."
+  },
+  {
+    "start": 2794.7,
+    "dur": 4.61,
+    "text": "And here the edges\nrepresent dependencies."
+  },
+  {
+    "start": 2799.31,
+    "dur": 6.9,
+    "text": "Here we use direct solid arrow\nto represent data dependencies."
+  },
+  {
+    "start": 2806.21,
+    "dur": 3.48,
+    "text": "For instance, in this case, if\nyou have a witness computation"
+  },
+  {
+    "start": 2809.69,
+    "dur": 4.17,
+    "text": "that's trying to\nassign i to o, then we"
+  },
+  {
+    "start": 2813.86,
+    "dur": 2.97,
+    "text": "are going to put an\nedges between from i"
+  },
+  {
+    "start": 2816.83,
+    "dur": 3.09,
+    "text": "to o, which essentially\nencode that."
+  },
+  {
+    "start": 2819.92,
+    "dur": 2.76,
+    "text": "So in order to\ncompute o, it actually"
+  },
+  {
+    "start": 2822.68,
+    "dur": 4.15,
+    "text": "has a data dependency of to y."
+  },
+  {
+    "start": 2826.83,
+    "dur": 2.61,
+    "text": "And similarly, we\nalso introduced"
+  },
+  {
+    "start": 2829.44,
+    "dur": 4.66,
+    "text": "the second type of edges\ncalled constraint edges."
+  },
+  {
+    "start": 2834.1,
+    "dur": 4.97,
+    "text": "So here the constraint edge\nis represented as dash line,"
+  },
+  {
+    "start": 2839.07,
+    "dur": 2.31,
+    "text": "and the line is--"
+  },
+  {
+    "start": 2841.38,
+    "dur": 2.97,
+    "text": "the edge is actually\nundirected in the sense that"
+  },
+  {
+    "start": 2844.35,
+    "dur": 3.09,
+    "text": "let's say if you have a\nconstrained system that"
+  },
+  {
+    "start": 2847.44,
+    "dur": 4.02,
+    "text": "establish the relationship\nbetween a signal o and i,"
+  },
+  {
+    "start": 2851.46,
+    "dur": 3.51,
+    "text": "so we are going to put a\nconstraint edges to connect"
+  },
+  {
+    "start": 2854.97,
+    "dur": 1.5,
+    "text": "those two signals together."
+  },
+  {
+    "start": 2859.68,
+    "dur": 2.82,
+    "text": "So now let's take a\nlook at an example"
+  },
+  {
+    "start": 2862.5,
+    "dur": 2.64,
+    "text": "and how we can actually\nuse circuit dependence"
+  },
+  {
+    "start": 2865.14,
+    "dur": 3.87,
+    "text": "graph to represent some kind\nof a key semantics of a ZK"
+  },
+  {
+    "start": 2869.01,
+    "dur": 1.12,
+    "text": "circuit."
+  },
+  {
+    "start": 2870.13,
+    "dur": 4.62,
+    "text": "So given the circuit\non the left hand side,"
+  },
+  {
+    "start": 2874.75,
+    "dur": 3.44,
+    "text": "what we do is essentially\nwe first construct"
+  },
+  {
+    "start": 2878.19,
+    "dur": 3.63,
+    "text": "a node for every single\nsignals that appear"
+  },
+  {
+    "start": 2881.82,
+    "dur": 1.08,
+    "text": "in your original circuit."
+  },
+  {
+    "start": 2882.9,
+    "dur": 3.54,
+    "text": "For instance, you have a bunch\nof input signals and output"
+  },
+  {
+    "start": 2886.44,
+    "dur": 2.1,
+    "text": "signals, and we are\ngoing to allocate"
+  },
+  {
+    "start": 2888.54,
+    "dur": 3.15,
+    "text": "a node for every\nsingle signal, and then"
+  },
+  {
+    "start": 2891.69,
+    "dur": 2.25,
+    "text": "we use different colors\nto represent whether there"
+  },
+  {
+    "start": 2893.94,
+    "dur": 2.74,
+    "text": "are input and output as well."
+  },
+  {
+    "start": 2896.68,
+    "dur": 4.97,
+    "text": "So once we draw the node, we\nalso need to construct edges."
+  },
+  {
+    "start": 2901.65,
+    "dur": 3.15,
+    "text": "For instance, here we construct\nthe data dependence edges"
+  },
+  {
+    "start": 2904.8,
+    "dur": 2.1,
+    "text": "based on the witness\ncomputations."
+  },
+  {
+    "start": 2906.9,
+    "dur": 1.38,
+    "text": "In this case."
+  },
+  {
+    "start": 2908.28,
+    "dur": 3.96,
+    "text": "In order to compute the\nvalue of the v, signal v,"
+  },
+  {
+    "start": 2912.24,
+    "dur": 2.64,
+    "text": "So you are going to\ndo a computation that"
+  },
+  {
+    "start": 2914.88,
+    "dur": 2.9,
+    "text": "require b1, b2 and carry."
+  },
+  {
+    "start": 2917.78,
+    "dur": 3.14,
+    "text": "So as a result, so you\ncan see, a direct edges"
+  },
+  {
+    "start": 2920.92,
+    "dur": 3.66,
+    "text": "that pointed from carry\nb1, b2, and both of them"
+  },
+  {
+    "start": 2924.58,
+    "dur": 1.53,
+    "text": "will point to b."
+  },
+  {
+    "start": 2926.11,
+    "dur": 3.99,
+    "text": "And similarly, because in\naddition to data dependency,"
+  },
+  {
+    "start": 2930.1,
+    "dur": 2.47,
+    "text": "we also have constraint edges."
+  },
+  {
+    "start": 2932.57,
+    "dur": 3.32,
+    "text": "So in this case, we\nare trying to establish"
+  },
+  {
+    "start": 2935.89,
+    "dur": 4.75,
+    "text": "a constraint that involve\nvariable v, as well as itself."
+  },
+  {
+    "start": 2940.64,
+    "dur": 5.18,
+    "text": "So in this case, we are going\nto put an undirected self-loop"
+  },
+  {
+    "start": 2945.82,
+    "dur": 3.15,
+    "text": "to the signal v,\nand we are going"
+  },
+  {
+    "start": 2948.97,
+    "dur": 5.19,
+    "text": "to do the same thing\nfor c underscore out."
+  },
+  {
+    "start": 2954.16,
+    "dur": 5.43,
+    "text": "And this is the way that we\nconstruct a circuit dependency"
+  },
+  {
+    "start": 2959.59,
+    "dur": 3.41,
+    "text": "graph based on the\noriginal program."
+  },
+  {
+    "start": 2963.0,
+    "dur": 4.046,
+    "text": "So once we obtain\nthe abstractions"
+  },
+  {
+    "start": 2967.046,
+    "dur": 4.404,
+    "text": "of the original circuit using\nour circuit dependence graph,"
+  },
+  {
+    "start": 2971.45,
+    "dur": 3.06,
+    "text": "we can reduce the\nvulnerability detections"
+  },
+  {
+    "start": 2974.51,
+    "dur": 4.71,
+    "text": "as an instance of\nquery over the graph."
+  },
+  {
+    "start": 2979.22,
+    "dur": 4.62,
+    "text": "For instance, this\nquery at the bottom"
+  },
+  {
+    "start": 2983.84,
+    "dur": 4.71,
+    "text": "is to encode the patterns of\nunder constraint output signal"
+  },
+  {
+    "start": 2988.55,
+    "dur": 4.18,
+    "text": "that I mentioned in the first\npatterns of this sections."
+  },
+  {
+    "start": 2992.73,
+    "dur": 4.52,
+    "text": "So we encode this query\nin terms of datalog."
+  },
+  {
+    "start": 2997.25,
+    "dur": 2.61,
+    "text": "So the detail, you don't have\nto understand the details,"
+  },
+  {
+    "start": 2999.86,
+    "dur": 4.56,
+    "text": "but in English, so what I'm\ntrying to say is essentially,"
+  },
+  {
+    "start": 3004.42,
+    "dur": 1.86,
+    "text": "I'm trying to make a query."
+  },
+  {
+    "start": 3006.28,
+    "dur": 2.31,
+    "text": "And what this query\nis saying, I'm"
+  },
+  {
+    "start": 3008.59,
+    "dur": 3.45,
+    "text": "trying to look for whether\nthere exists an under constraint"
+  },
+  {
+    "start": 3012.04,
+    "dur": 1.53,
+    "text": "output signal."
+  },
+  {
+    "start": 3013.57,
+    "dur": 2.7,
+    "text": "And in order to be\nan under constraint"
+  },
+  {
+    "start": 3016.27,
+    "dur": 3.03,
+    "text": "output signal, what I'm\nlooking for is that first--"
+  },
+  {
+    "start": 3019.3,
+    "dur": 2.91,
+    "text": "I'm looking for a\nsignal v that is"
+  },
+  {
+    "start": 3022.21,
+    "dur": 2.32,
+    "text": "going to be the output signal."
+  },
+  {
+    "start": 3024.53,
+    "dur": 4.31,
+    "text": "And I'm trying to check\nwhether this v is constrained"
+  },
+  {
+    "start": 3028.84,
+    "dur": 3.06,
+    "text": "by some constants through--"
+  },
+  {
+    "start": 3031.9,
+    "dur": 3.69,
+    "text": "in the original like\ncircuit dependence graph."
+  },
+  {
+    "start": 3035.59,
+    "dur": 6.4,
+    "text": "And if this output signal is not\nconstrained by any constraints,"
+  },
+  {
+    "start": 3041.99,
+    "dur": 6.15,
+    "text": "and it is also not either\ndirect or indirect constrained"
+  },
+  {
+    "start": 3048.14,
+    "dur": 3.88,
+    "text": "by any input signals,\nin this case,"
+  },
+  {
+    "start": 3052.02,
+    "dur": 3.442,
+    "text": "we say that we identify a\npotential on the constraint"
+  },
+  {
+    "start": 3055.462,
+    "dur": 0.583,
+    "text": "output signal."
+  },
+  {
+    "start": 3058.98,
+    "dur": 4.46,
+    "text": "And now once you understand\nthose examples, let's group"
+  },
+  {
+    "start": 3063.44,
+    "dur": 4.92,
+    "text": "them together and see\nhow a big picture works."
+  },
+  {
+    "start": 3068.36,
+    "dur": 3.75,
+    "text": "We implement the proposed\nidea as a part of the Vanguard"
+  },
+  {
+    "start": 3072.11,
+    "dur": 5.07,
+    "text": "framework which takes as\ninputs of the ZK circuit"
+  },
+  {
+    "start": 3077.18,
+    "dur": 6.66,
+    "text": "either in Circom or Halo2, and\nso what we do is essentially"
+  },
+  {
+    "start": 3083.84,
+    "dur": 1.68,
+    "text": "we are going to take\nthose as the inputs"
+  },
+  {
+    "start": 3085.52,
+    "dur": 4.02,
+    "text": "and then convert them into\nits corresponding circuit"
+  },
+  {
+    "start": 3089.54,
+    "dur": 3.61,
+    "text": "dependence graph like what we\ndid in the previous example."
+  },
+  {
+    "start": 3093.15,
+    "dur": 3.38,
+    "text": "So after that, we are\ngoing to perform query"
+  },
+  {
+    "start": 3096.53,
+    "dur": 3.99,
+    "text": "on the generated circuit\ndependency graph using"
+  },
+  {
+    "start": 3100.52,
+    "dur": 5.01,
+    "text": "a list of query that represent\nthe semantic patterns that we"
+  },
+  {
+    "start": 3105.53,
+    "dur": 1.35,
+    "text": "learned earlier."
+  },
+  {
+    "start": 3106.88,
+    "dur": 2.34,
+    "text": "And then finally,\nthe tool is going"
+  },
+  {
+    "start": 3109.22,
+    "dur": 4.24,
+    "text": "to report any potential\nviolations on the programmer"
+  },
+  {
+    "start": 3113.46,
+    "dur": 2.17,
+    "text": "source code."
+  },
+  {
+    "start": 3115.63,
+    "dur": 3.36,
+    "text": "And to evaluate the\neffectiveness of this approach,"
+  },
+  {
+    "start": 3118.99,
+    "dur": 7.08,
+    "text": "we actually collect 258\ncircuits from 17 popular ZK"
+  },
+  {
+    "start": 3126.07,
+    "dur": 4.65,
+    "text": "projects on open source GitHub."
+  },
+  {
+    "start": 3130.72,
+    "dur": 3.03,
+    "text": "And the preliminary\nresult is actually"
+  },
+  {
+    "start": 3133.75,
+    "dur": 3.51,
+    "text": "quite promising in the\nsense that the tool was"
+  },
+  {
+    "start": 3137.26,
+    "dur": 3.3,
+    "text": "able to identify\na bunch of bugs,"
+  },
+  {
+    "start": 3140.56,
+    "dur": 2.85,
+    "text": "and among those bugs\nidentified by the tools,"
+  },
+  {
+    "start": 3143.41,
+    "dur": 3.72,
+    "text": "it was able to identify\n32 previous unknown"
+  },
+  {
+    "start": 3147.13,
+    "dur": 2.94,
+    "text": "vulnerabilities, and we've\nreported all those bugs"
+  },
+  {
+    "start": 3150.07,
+    "dur": 3.12,
+    "text": "to the project developers,\nand all of-- most of them"
+  },
+  {
+    "start": 3153.19,
+    "dur": 1.86,
+    "text": "are being acknowledged."
+  },
+  {
+    "start": 3155.05,
+    "dur": 3.27,
+    "text": "And in addition to\nthe bugs, we also"
+  },
+  {
+    "start": 3158.32,
+    "dur": 4.26,
+    "text": "like draw there use this bar\nchart to essentially give"
+  },
+  {
+    "start": 3162.58,
+    "dur": 2.7,
+    "text": "some insight about\nthe distributions"
+  },
+  {
+    "start": 3165.28,
+    "dur": 2.49,
+    "text": "of different bugs."
+  },
+  {
+    "start": 3167.77,
+    "dur": 3.63,
+    "text": "So as you can see, it\nis not very surprising"
+  },
+  {
+    "start": 3171.4,
+    "dur": 5.43,
+    "text": "that the developer actually\nhave the most difficulty"
+  },
+  {
+    "start": 3176.83,
+    "dur": 3.93,
+    "text": "in maintaining the semantic\nconsistency between considering"
+  },
+  {
+    "start": 3180.76,
+    "dur": 2.76,
+    "text": "systems, as well as the\nweakness computations."
+  },
+  {
+    "start": 3186.38,
+    "dur": 0.78,
+    "text": "Excellent."
+  },
+  {
+    "start": 3187.16,
+    "dur": 3.99,
+    "text": "Now we see an effectiveness\nof the static analyzer"
+  },
+  {
+    "start": 3191.15,
+    "dur": 3.87,
+    "text": "for capturing common ZK\nbugs, and let's revisit"
+  },
+  {
+    "start": 3195.02,
+    "dur": 3.69,
+    "text": "the early Nun2Bit example."
+  },
+  {
+    "start": 3198.71,
+    "dur": 2.55,
+    "text": "As I indicated earlier,\nso here there's"
+  },
+  {
+    "start": 3201.26,
+    "dur": 4.83,
+    "text": "a box that leads you under\nconstraint problems in which"
+  },
+  {
+    "start": 3206.09,
+    "dur": 2.19,
+    "text": "the developer\nforgot to constrain"
+  },
+  {
+    "start": 3208.28,
+    "dur": 3.27,
+    "text": "the value of the last\nelements in the output array."
+  },
+  {
+    "start": 3211.55,
+    "dur": 2.7,
+    "text": "As a result, this will\nenable the attacker"
+  },
+  {
+    "start": 3214.25,
+    "dur": 3.69,
+    "text": "to supply the last elements\nwith arbitrary value,"
+  },
+  {
+    "start": 3217.94,
+    "dur": 3.88,
+    "text": "and then it will still be\naccepted by the verifier."
+  },
+  {
+    "start": 3221.82,
+    "dur": 2.48,
+    "text": "So suppose the\ndeveloper uses our tool"
+  },
+  {
+    "start": 3224.3,
+    "dur": 2.46,
+    "text": "to identify these\nproblems, and then she"
+  },
+  {
+    "start": 3226.76,
+    "dur": 4.0,
+    "text": "suggests the following fix\non the right hand side."
+  },
+  {
+    "start": 3230.76,
+    "dur": 1.61,
+    "text": "And what you want\nto do is essentially"
+  },
+  {
+    "start": 3232.37,
+    "dur": 2.94,
+    "text": "to figure out whether the\ncurrent version is indeed"
+  },
+  {
+    "start": 3235.31,
+    "dur": 1.41,
+    "text": "correct i.e."
+  },
+  {
+    "start": 3236.72,
+    "dur": 4.67,
+    "text": "it's actually free from\nunder-constrained problem."
+  },
+  {
+    "start": 3241.39,
+    "dur": 3.77,
+    "text": "In this case, we cannot just\nrerun the previous static"
+  },
+  {
+    "start": 3245.16,
+    "dur": 3.9,
+    "text": "analyzer, and then draw the\nconclusion that the current"
+  },
+  {
+    "start": 3249.06,
+    "dur": 3.12,
+    "text": "circuit say based on the fact\nthat the static analyzer cannot"
+  },
+  {
+    "start": 3252.18,
+    "dur": 4.02,
+    "text": "find anything because we know\nthat static analysis is based"
+  },
+  {
+    "start": 3256.2,
+    "dur": 2.65,
+    "text": "on common patterns\nor prior knowledge."
+  },
+  {
+    "start": 3258.85,
+    "dur": 2.51,
+    "text": "However, what the\ndeveloper want right now"
+  },
+  {
+    "start": 3261.36,
+    "dur": 2.25,
+    "text": "is actually a\nstronger guarantee,"
+  },
+  {
+    "start": 3263.61,
+    "dur": 5.02,
+    "text": "which requires doing\nformal verification."
+  },
+  {
+    "start": 3268.63,
+    "dur": 5.82,
+    "text": "And this is where the last\nsections come into play."
+  },
+  {
+    "start": 3274.45,
+    "dur": 2.42,
+    "text": "So before we state\nthe solutions,"
+  },
+  {
+    "start": 3276.87,
+    "dur": 3.48,
+    "text": "I would like to revisit the\nunder-constrained problems"
+  },
+  {
+    "start": 3280.35,
+    "dur": 1.67,
+    "text": "formally."
+  },
+  {
+    "start": 3282.02,
+    "dur": 5.32,
+    "text": "As I mentioned in the earlier\nsections of the previous slide,"
+  },
+  {
+    "start": 3287.34,
+    "dur": 3.05,
+    "text": "so basically, let's say\nwe have a circuit that"
+  },
+  {
+    "start": 3290.39,
+    "dur": 3.15,
+    "text": "contains two parts, the\nwitness computation P,"
+  },
+  {
+    "start": 3293.54,
+    "dur": 4.53,
+    "text": "as well as the computing\nsystem C. And both of them"
+  },
+  {
+    "start": 3298.07,
+    "dur": 4.51,
+    "text": "take x and y, x as an\ninput and y as an output."
+  },
+  {
+    "start": 3302.58,
+    "dur": 4.01,
+    "text": "And here we say that an\nunder-constrained bugs happens"
+  },
+  {
+    "start": 3306.59,
+    "dur": 5.04,
+    "text": "if we have a pair of x\nand y such that xy satisfy"
+  },
+  {
+    "start": 3311.63,
+    "dur": 3.6,
+    "text": "the constraint system\nC. However they are not"
+  },
+  {
+    "start": 3315.23,
+    "dur": 3.94,
+    "text": "a valid pair for program P."
+  },
+  {
+    "start": 3319.17,
+    "dur": 3.18,
+    "text": "So in this case, what we\nwant to do is essentially"
+  },
+  {
+    "start": 3322.35,
+    "dur": 3.21,
+    "text": "we want to formally prove\nthat a circuit is not"
+  },
+  {
+    "start": 3325.56,
+    "dur": 1.84,
+    "text": "on the constraint."
+  },
+  {
+    "start": 3327.4,
+    "dur": 4.69,
+    "text": "And there are multiple\nsolutions for doing that,"
+  },
+  {
+    "start": 3332.09,
+    "dur": 3.68,
+    "text": "and their too naive\napproach is that one,"
+  },
+  {
+    "start": 3335.77,
+    "dur": 3.85,
+    "text": "you can essentially\nperform static analysis."
+  },
+  {
+    "start": 3339.62,
+    "dur": 2.45,
+    "text": "And what we mean\nby static analysis"
+  },
+  {
+    "start": 3342.07,
+    "dur": 3.51,
+    "text": "is that you can\nessentially define"
+  },
+  {
+    "start": 3345.58,
+    "dur": 2.76,
+    "text": "a set of predefined\nrules which allow"
+  },
+  {
+    "start": 3348.34,
+    "dur": 7.68,
+    "text": "you to reason about properties\nof signal variables."
+  },
+  {
+    "start": 3356.02,
+    "dur": 2.52,
+    "text": "For instance, in\nthis case, we have"
+  },
+  {
+    "start": 3358.54,
+    "dur": 3.48,
+    "text": "a simple circuit with\ninput x and output y,"
+  },
+  {
+    "start": 3362.02,
+    "dur": 5.1,
+    "text": "and two equations on\nthe constraint systems."
+  },
+  {
+    "start": 3367.12,
+    "dur": 3.72,
+    "text": "Assuming that we know\nthat input x is going"
+  },
+  {
+    "start": 3370.84,
+    "dur": 4.08,
+    "text": "to be properly constrained,\nand so because we"
+  },
+  {
+    "start": 3374.92,
+    "dur": 5.31,
+    "text": "know that z is a linear\ncombination of x, and x"
+  },
+  {
+    "start": 3380.23,
+    "dur": 3.99,
+    "text": "is well constrained, as a\nresult z is also constrained."
+  },
+  {
+    "start": 3384.22,
+    "dur": 4.08,
+    "text": "And because y is a\nlinear combination of z"
+  },
+  {
+    "start": 3388.3,
+    "dur": 3.78,
+    "text": "and x, as a result, we can\nconclude that y is also"
+  },
+  {
+    "start": 3392.08,
+    "dur": 1.02,
+    "text": "properly constrained."
+  },
+  {
+    "start": 3393.1,
+    "dur": 2.94,
+    "text": "Therefore, we conclude\nthat the entire circuit"
+  },
+  {
+    "start": 3396.04,
+    "dur": 3.79,
+    "text": "is free from under\nconstraint problem."
+  },
+  {
+    "start": 3399.83,
+    "dur": 2.78,
+    "text": "And if you don't want to\ncome up with such kind"
+  },
+  {
+    "start": 3402.61,
+    "dur": 2.58,
+    "text": "of predefined rules,\na general solution"
+  },
+  {
+    "start": 3405.19,
+    "dur": 3.36,
+    "text": "is to formalize the\nproblem as an SMT query."
+  },
+  {
+    "start": 3408.55,
+    "dur": 3.93,
+    "text": "In this case because the\nunder constraint property can"
+  },
+  {
+    "start": 3412.48,
+    "dur": 4.83,
+    "text": "be formalized as a first\norder logical formula,"
+  },
+  {
+    "start": 3417.31,
+    "dur": 4.2,
+    "text": "in the theory of finite field,\nand the solver can directly"
+  },
+  {
+    "start": 3421.51,
+    "dur": 2.25,
+    "text": "answer this query,\nand in this case"
+  },
+  {
+    "start": 3423.76,
+    "dur": 3.27,
+    "text": "if the solver returns\na satisfiable answer,"
+  },
+  {
+    "start": 3427.03,
+    "dur": 3.09,
+    "text": "it means that the manager\nfound a counterexample that"
+  },
+  {
+    "start": 3430.12,
+    "dur": 3.65,
+    "text": "demonstrates the\nunder-constrained problem."
+  },
+  {
+    "start": 3433.77,
+    "dur": 3.48,
+    "text": "Both approaches have\ntheir pros and cons."
+  },
+  {
+    "start": 3437.25,
+    "dur": 4.8,
+    "text": "Studying and analyzing their\nconstraint, it's very scalable"
+  },
+  {
+    "start": 3442.05,
+    "dur": 3.42,
+    "text": "and can allow us to\nverify large circuits that"
+  },
+  {
+    "start": 3445.47,
+    "dur": 2.07,
+    "text": "are safely constrained."
+  },
+  {
+    "start": 3447.54,
+    "dur": 4.17,
+    "text": "However, they often times\nsuffer from false positive"
+  },
+  {
+    "start": 3451.71,
+    "dur": 3.78,
+    "text": "in that if they say that a\ncircuit is under constraint,"
+  },
+  {
+    "start": 3455.49,
+    "dur": 2.83,
+    "text": "it might not be the case."
+  },
+  {
+    "start": 3458.32,
+    "dur": 2.48,
+    "text": "On the other hand,\nSMT solver does not"
+  },
+  {
+    "start": 3460.8,
+    "dur": 2.19,
+    "text": "suffer the false\npositive problems"
+  },
+  {
+    "start": 3462.99,
+    "dur": 3.96,
+    "text": "because it's based on very\nprecise symbolic reasoning."
+  },
+  {
+    "start": 3466.95,
+    "dur": 3.48,
+    "text": "It has a hard time to\nscale to large circuits"
+  },
+  {
+    "start": 3470.43,
+    "dur": 4.37,
+    "text": "with just a few\nhundred of constraints."
+  },
+  {
+    "start": 3474.8,
+    "dur": 4.56,
+    "text": "In this section, I'm going to\npropose a new system called"
+  },
+  {
+    "start": 3479.36,
+    "dur": 3.84,
+    "text": "Picus, which takes, as input,\na set of polynomial field"
+  },
+  {
+    "start": 3483.2,
+    "dur": 2.4,
+    "text": "equations, and\nautomatically tries"
+  },
+  {
+    "start": 3485.6,
+    "dur": 4.05,
+    "text": "to verify that the circuit\nis well constrained."
+  },
+  {
+    "start": 3489.65,
+    "dur": 4.32,
+    "text": "In this case, if Picus\nprove P is well-constrained,"
+  },
+  {
+    "start": 3493.97,
+    "dur": 3.6,
+    "text": "it will return a checkmark\nindicating that the circuit is"
+  },
+  {
+    "start": 3497.57,
+    "dur": 4.95,
+    "text": "safe, and it can also prove the\ncircuit is under constraint,"
+  },
+  {
+    "start": 3502.52,
+    "dur": 3.06,
+    "text": "that it's going to\nreturn a cross mark."
+  },
+  {
+    "start": 3505.58,
+    "dur": 2.61,
+    "text": "If none of the\nabove case happens,"
+  },
+  {
+    "start": 3508.19,
+    "dur": 2.57,
+    "text": "it's going to return unknown."
+  },
+  {
+    "start": 3510.76,
+    "dur": 4.65,
+    "text": "So the key idea behind Picus is\nthat it combines the strengths"
+  },
+  {
+    "start": 3515.41,
+    "dur": 3.48,
+    "text": "and power of static\nanalysis and SMT"
+  },
+  {
+    "start": 3518.89,
+    "dur": 2.58,
+    "text": "allow it to scale\nto large circuits"
+  },
+  {
+    "start": 3521.47,
+    "dur": 3.48,
+    "text": "while maintaining\nreasonable precision."
+  },
+  {
+    "start": 3524.95,
+    "dur": 6.33,
+    "text": "At a high level, the static\nanalyzer and SMT phase of Picus"
+  },
+  {
+    "start": 3531.28,
+    "dur": 4.14,
+    "text": "interact in the loop, given\neach other informations"
+  },
+  {
+    "start": 3535.42,
+    "dur": 3.9,
+    "text": "that allow them to make progress\nthat they could not otherwise"
+  },
+  {
+    "start": 3539.32,
+    "dur": 2.34,
+    "text": "do on their own."
+  },
+  {
+    "start": 3541.66,
+    "dur": 5.27,
+    "text": "And let's take a look at the\ndetails and see how it works."
+  },
+  {
+    "start": 3546.93,
+    "dur": 2.52,
+    "text": "The static analysis\nphase of Picus"
+  },
+  {
+    "start": 3549.45,
+    "dur": 4.84,
+    "text": "takes as input polynomial\nfield equation P"
+  },
+  {
+    "start": 3554.29,
+    "dur": 2.79,
+    "text": "along with a set\nof signal K that"
+  },
+  {
+    "start": 3557.08,
+    "dur": 4.24,
+    "text": "have proven to be well\nconstrained by Picus so far."
+  },
+  {
+    "start": 3561.32,
+    "dur": 2.63,
+    "text": "And at the very\nbeginning, the algorithm"
+  },
+  {
+    "start": 3563.95,
+    "dur": 3.36,
+    "text": "will initialize k as an empty."
+  },
+  {
+    "start": 3567.31,
+    "dur": 3.09,
+    "text": "And given those input,\nthe static analysis engine"
+  },
+  {
+    "start": 3570.4,
+    "dur": 5.64,
+    "text": "will generate an updated\nset of constraint K prime,"
+  },
+  {
+    "start": 3576.04,
+    "dur": 4.14,
+    "text": "saying that those all\nthe signals in those sets"
+  },
+  {
+    "start": 3580.18,
+    "dur": 2.77,
+    "text": "has to prove to be\nwell constrained."
+  },
+  {
+    "start": 3582.95,
+    "dur": 4.2,
+    "text": "So here are the invariants\nis that k prime should always"
+  },
+  {
+    "start": 3587.15,
+    "dur": 3.75,
+    "text": "larger than K to demonstrate\nthat at every iteration,"
+  },
+  {
+    "start": 3590.9,
+    "dur": 3.45,
+    "text": "it will grow the set of signals\nproved to be well constrained"
+  },
+  {
+    "start": 3594.35,
+    "dur": 4.68,
+    "text": "to demonstrate that it is\nactually making progress."
+  },
+  {
+    "start": 3599.03,
+    "dur": 4.88,
+    "text": "So in this case, if\nthe self constraint"
+  },
+  {
+    "start": 3603.91,
+    "dur": 3.0,
+    "text": "is going to contain\nthe output signal,"
+  },
+  {
+    "start": 3606.91,
+    "dur": 2.32,
+    "text": "then we are going to\nreturn a check mark,"
+  },
+  {
+    "start": 3609.23,
+    "dur": 4.28,
+    "text": "meaning that Picus is going\nto terminate and return"
+  },
+  {
+    "start": 3613.51,
+    "dur": 4.85,
+    "text": "the conclusion that the circuit\nis properly constrained."
+  },
+  {
+    "start": 3618.36,
+    "dur": 4.77,
+    "text": "On the other hand,\nbecause in my--"
+  },
+  {
+    "start": 3623.13,
+    "dur": 4.17,
+    "text": "lead you certain scenario that\ncannot be reasons using static"
+  },
+  {
+    "start": 3627.3,
+    "dur": 3.96,
+    "text": "analysis, it's going to pass\nK prime as input to the SMT"
+  },
+  {
+    "start": 3631.26,
+    "dur": 1.8,
+    "text": "phase."
+  },
+  {
+    "start": 3633.06,
+    "dur": 3.09,
+    "text": "So the SMT phase has\na similar interface"
+  },
+  {
+    "start": 3636.15,
+    "dur": 4.32,
+    "text": "in that it takes as\ninput of the constraint P"
+  },
+  {
+    "start": 3640.47,
+    "dur": 5.61,
+    "text": "as well as a set K that\nproved to be well-constrained."
+  },
+  {
+    "start": 3646.08,
+    "dur": 4.29,
+    "text": "And it's going to return a K\ndouble prime, which essentially"
+  },
+  {
+    "start": 3650.37,
+    "dur": 3.66,
+    "text": "contain a set of signals that\nprove to be well-constrained"
+  },
+  {
+    "start": 3654.03,
+    "dur": 4.71,
+    "text": "as well as K under constraint,\nwhich essentially demonstrate"
+  },
+  {
+    "start": 3658.74,
+    "dur": 4.86,
+    "text": "a set of signal that prove\nto be under constraint."
+  },
+  {
+    "start": 3666.33,
+    "dur": 3.09,
+    "text": "The first condition is very\nsimilar to the previous one"
+  },
+  {
+    "start": 3669.42,
+    "dur": 1.68,
+    "text": "in the sense that\nif the output signal"
+  },
+  {
+    "start": 3671.1,
+    "dur": 1.92,
+    "text": "is going to be the\nsubset of K prime,"
+  },
+  {
+    "start": 3673.02,
+    "dur": 2.16,
+    "text": "then we are done in\nthe sense that we just"
+  },
+  {
+    "start": 3675.18,
+    "dur": 3.63,
+    "text": "return the circuit saved."
+  },
+  {
+    "start": 3678.81,
+    "dur": 3.66,
+    "text": "And the second condition state\nthat if any of the output"
+  },
+  {
+    "start": 3682.47,
+    "dur": 6.045,
+    "text": "signal is going to have\na non-empty intersections"
+  },
+  {
+    "start": 3688.515,
+    "dur": 2.115,
+    "text": "with the set of\nsignals that proved"
+  },
+  {
+    "start": 3690.63,
+    "dur": 3.57,
+    "text": "to be under constraint, then\nwe are going to return cross,"
+  },
+  {
+    "start": 3694.2,
+    "dur": 3.38,
+    "text": "indicate that the\ncircuit is unsafe."
+  },
+  {
+    "start": 3697.58,
+    "dur": 3.96,
+    "text": "And in the third case, if K\nis actually equal to K prime,"
+  },
+  {
+    "start": 3701.54,
+    "dur": 3.75,
+    "text": "meaning that there was\nno way that the SMT"
+  },
+  {
+    "start": 3705.29,
+    "dur": 2.92,
+    "text": "solver can make progress."
+  },
+  {
+    "start": 3708.21,
+    "dur": 3.89,
+    "text": "And then the reason that lead\nto this kind of situation"
+  },
+  {
+    "start": 3712.1,
+    "dur": 3.99,
+    "text": "is very much because of\nthe limitations of existing"
+  },
+  {
+    "start": 3716.09,
+    "dur": 1.77,
+    "text": "finite field solver."
+  },
+  {
+    "start": 3717.86,
+    "dur": 3.33,
+    "text": "In that case, we are going to\nreturn question mark indicated"
+  },
+  {
+    "start": 3721.19,
+    "dur": 2.94,
+    "text": "that unknown."
+  },
+  {
+    "start": 3724.13,
+    "dur": 3.84,
+    "text": "And if none of those\nthree cases happens,"
+  },
+  {
+    "start": 3727.97,
+    "dur": 4.5,
+    "text": "we are going to propagate\nthose information K prime back"
+  },
+  {
+    "start": 3732.47,
+    "dur": 2.64,
+    "text": "to the static analysis\nphase and repeat"
+  },
+  {
+    "start": 3735.11,
+    "dur": 5.805,
+    "text": "those process until the tool\nlead to a decisive answer."
+  },
+  {
+    "start": 3743.83,
+    "dur": 4.71,
+    "text": "And here is the output of\nPicus when we evaluate the two"
+  },
+  {
+    "start": 3748.54,
+    "dur": 2.49,
+    "text": "on the fixed version\nof the circuit"
+  },
+  {
+    "start": 3751.03,
+    "dur": 1.6,
+    "text": "that I mentioned earlier."
+  },
+  {
+    "start": 3752.63,
+    "dur": 2.93,
+    "text": "As you can see,\nthe tool is going"
+  },
+  {
+    "start": 3755.56,
+    "dur": 2.58,
+    "text": "to output certain\nstatistics regarding"
+  },
+  {
+    "start": 3758.14,
+    "dur": 2.91,
+    "text": "the number of constraints\nof the circuit,"
+  },
+  {
+    "start": 3761.05,
+    "dur": 3.0,
+    "text": "and then finally it's\ngoing to print save."
+  },
+  {
+    "start": 3764.05,
+    "dur": 5.19,
+    "text": "And here, the save meanings\nthat Picus has formally"
+  },
+  {
+    "start": 3769.24,
+    "dur": 3.93,
+    "text": "verified that the given circuit\nis guaranteed to have no"
+  },
+  {
+    "start": 3773.17,
+    "dur": 3.18,
+    "text": "under constraint signals."
+  },
+  {
+    "start": 3776.35,
+    "dur": 2.94,
+    "text": "To evaluate the\neffectiveness of Picus,"
+  },
+  {
+    "start": 3779.29,
+    "dur": 6.39,
+    "text": "we rounded on 163 circuits\ncollected from popular Circom"
+  },
+  {
+    "start": 3785.68,
+    "dur": 4.05,
+    "text": "library, including 50\nnights from Circom utils,"
+  },
+  {
+    "start": 3789.73,
+    "dur": 3.18,
+    "text": "and 104 from Circom core."
+  },
+  {
+    "start": 3792.91,
+    "dur": 4.98,
+    "text": "So the table at the top\nshows relevant statistics"
+  },
+  {
+    "start": 3797.89,
+    "dur": 2.13,
+    "text": "in terms of number\nof constraints"
+  },
+  {
+    "start": 3800.02,
+    "dur": 4.31,
+    "text": "as well as number\nof output signals."
+  },
+  {
+    "start": 3804.33,
+    "dur": 5.79,
+    "text": "And as we can see, why the\ncircuits in the util library"
+  },
+  {
+    "start": 3810.12,
+    "dur": 2.4,
+    "text": "is relatively\nsmall, the circuits"
+  },
+  {
+    "start": 3812.52,
+    "dur": 3.87,
+    "text": "in the second core library\nis actually very, very big."
+  },
+  {
+    "start": 3816.39,
+    "dur": 5.35,
+    "text": "And to compare against the\neffectiveness of the two,"
+  },
+  {
+    "start": 3821.74,
+    "dur": 4.55,
+    "text": "we also compare Picus against\ntwo baseline, namely the one"
+  },
+  {
+    "start": 3826.29,
+    "dur": 3.42,
+    "text": "that just use static\nanalysis in the middle,"
+  },
+  {
+    "start": 3829.71,
+    "dur": 5.31,
+    "text": "as well as the one\nthat just use SMT."
+  },
+  {
+    "start": 3835.02,
+    "dur": 4.74,
+    "text": "And the blue one correspond\nto the result of Picus."
+  },
+  {
+    "start": 3839.76,
+    "dur": 2.7,
+    "text": "And here the bar chart\nshows the performance"
+  },
+  {
+    "start": 3842.46,
+    "dur": 3.75,
+    "text": "of three tools on two\ndifferent benchmarks set,"
+  },
+  {
+    "start": 3846.21,
+    "dur": 3.33,
+    "text": "namely Circom util as\nwell as Circom core."
+  },
+  {
+    "start": 3849.54,
+    "dur": 3.57,
+    "text": "And then y-axis essentially\ncorrespond to the percentage"
+  },
+  {
+    "start": 3853.11,
+    "dur": 1.71,
+    "text": "of benchmarks that\nare being solved,"
+  },
+  {
+    "start": 3854.82,
+    "dur": 2.88,
+    "text": "and the higher the better."
+  },
+  {
+    "start": 3857.7,
+    "dur": 3.12,
+    "text": "And the conclusion is\nthat Picus consistently"
+  },
+  {
+    "start": 3860.82,
+    "dur": 5.28,
+    "text": "outperform both the baseline\nthat based on static analysis,"
+  },
+  {
+    "start": 3866.1,
+    "dur": 3.31,
+    "text": "as well as SMT solver."
+  },
+  {
+    "start": 3869.41,
+    "dur": 4.57,
+    "text": "And if you look at the chart\nresult a little bit closer,"
+  },
+  {
+    "start": 3873.98,
+    "dur": 4.88,
+    "text": "you realize that\nwhile y SMT server is"
+  },
+  {
+    "start": 3878.86,
+    "dur": 3.18,
+    "text": "effective on solving\nsimple benchmark,"
+  },
+  {
+    "start": 3882.04,
+    "dur": 3.3,
+    "text": "its performance actually\ndropped dramatically"
+  },
+  {
+    "start": 3885.34,
+    "dur": 3.105,
+    "text": "once you increase the\ncomplexity of the circuit."
+  },
+  {
+    "start": 3891.22,
+    "dur": 2.63,
+    "text": "That basically concludes\nthose two projects"
+  },
+  {
+    "start": 3893.85,
+    "dur": 2.29,
+    "text": "that I mainly want\nto discuss today,"
+  },
+  {
+    "start": 3896.14,
+    "dur": 4.53,
+    "text": "and here I want to bring the\nearly figure of a program"
+  },
+  {
+    "start": 3900.67,
+    "dur": 2.1,
+    "text": "verifier again."
+  },
+  {
+    "start": 3902.77,
+    "dur": 4.66,
+    "text": "So while the idea of formal\nverifications is very general,"
+  },
+  {
+    "start": 3907.43,
+    "dur": 4.64,
+    "text": "it has a lot of challenges while\napplying to complex domains"
+  },
+  {
+    "start": 3912.07,
+    "dur": 2.24,
+    "text": "such as ZK circuits."
+  },
+  {
+    "start": 3914.31,
+    "dur": 2.49,
+    "text": "And, for instance, there\nare many, many open problems"
+  },
+  {
+    "start": 3916.8,
+    "dur": 3.12,
+    "text": "such as how do we express\nspecification that involve"
+  },
+  {
+    "start": 3919.92,
+    "dur": 2.97,
+    "text": "complex crypto primitives?"
+  },
+  {
+    "start": 3922.89,
+    "dur": 4.5,
+    "text": "And as we mentioned earlier,\nmost formal verification tool"
+  },
+  {
+    "start": 3927.39,
+    "dur": 4.71,
+    "text": "relying on is underlying theorem\nprover for checking validity"
+  },
+  {
+    "start": 3932.1,
+    "dur": 1.71,
+    "text": "of logical formula."
+  },
+  {
+    "start": 3933.81,
+    "dur": 4.65,
+    "text": "In that case, how can we\ndesign more efficient prover"
+  },
+  {
+    "start": 3938.46,
+    "dur": 3.6,
+    "text": "that can efficiently\nreason about finite fields?"
+  },
+  {
+    "start": 3942.06,
+    "dur": 3.09,
+    "text": "They are everywhere\nin the circuit."
+  },
+  {
+    "start": 3945.15,
+    "dur": 4.02,
+    "text": "In the case when the\nverifications cannot proceed"
+  },
+  {
+    "start": 3949.17,
+    "dur": 3.03,
+    "text": "in the sense that it cannot\nproduce a valid proof,"
+  },
+  {
+    "start": 3952.2,
+    "dur": 3.51,
+    "text": "how can we actually generate\nconcrete evidence to show"
+  },
+  {
+    "start": 3955.71,
+    "dur": 3.22,
+    "text": "the problematics of the circuit?"
+  },
+  {
+    "start": 3958.93,
+    "dur": 3.44,
+    "text": "And finally, as I mentioned\nearlier, so in this world,"
+  },
+  {
+    "start": 3962.37,
+    "dur": 2.4,
+    "text": "we mostly instantiate\nour techniques"
+  },
+  {
+    "start": 3964.77,
+    "dur": 3.36,
+    "text": "in the context of Circom\nas well as a Halo2,"
+  },
+  {
+    "start": 3968.13,
+    "dur": 4.62,
+    "text": "and it will be interesting\nand excited to support"
+  },
+  {
+    "start": 3972.75,
+    "dur": 5.28,
+    "text": "other systems as well, such\nas Plonky2, Nova, et cetera."
+  },
+  {
+    "start": 3978.03,
+    "dur": 3.09,
+    "text": "To conclude, we did\na very brief survey"
+  },
+  {
+    "start": 3981.12,
+    "dur": 3.9,
+    "text": "about formal methods, which\nprovide powerful tools"
+  },
+  {
+    "start": 3985.02,
+    "dur": 3.46,
+    "text": "for ensuring\nsoftware robustness."
+  },
+  {
+    "start": 3988.48,
+    "dur": 2.34,
+    "text": "And then I went\nover two projects,"
+  },
+  {
+    "start": 3990.82,
+    "dur": 2.93,
+    "text": "which demonstrate that how\nformal methods can help"
+  },
+  {
+    "start": 3993.75,
+    "dur": 2.89,
+    "text": "with identifying\ncommon vulnerabilities,"
+  },
+  {
+    "start": 3996.64,
+    "dur": 4.91,
+    "text": "as well as proving the absence\nof certain bugs in ZK circuit."
+  },
+  {
+    "start": 4001.55,
+    "dur": 2.61,
+    "text": "I personally believe\nthat ZK security"
+  },
+  {
+    "start": 4004.16,
+    "dur": 4.62,
+    "text": "is an extremely important topic\nyet under study by the research"
+  },
+  {
+    "start": 4008.78,
+    "dur": 2.55,
+    "text": "community, so which\nmeans that if you"
+  },
+  {
+    "start": 4011.33,
+    "dur": 1.77,
+    "text": "are interested in\nthe problem domain,"
+  },
+  {
+    "start": 4013.1,
+    "dur": 2.33,
+    "text": "feel free to reach out to me."
+  },
+  {
+    "start": 4015.43,
+    "dur": 3.97,
+    "text": "And here are the\nreferences of the talk,"
+  },
+  {
+    "start": 4019.4,
+    "dur": 3.58,
+    "text": "and thank you so much\nfor watching the lecture."
+  },
+  {
+    "start": 4022.98,
+    "dur": 1.52,
+    "text": "Have a good day."
+  }
+]

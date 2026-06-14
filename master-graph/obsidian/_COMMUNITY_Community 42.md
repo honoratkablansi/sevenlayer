@@ -10,31 +10,31 @@ members: 25
 **Members:** 25 nodes
 
 ## Members
-- [[2-Field-Element NILP via Squaring Gates]] - paper - references/ch02/ref-06-groth16.pdf
-- [[3-Element Pairing-based SNARK for Arithmetic Circuit SAT]] - paper - references/ch02/ref-06-groth16.pdf
-- [[Bitansky-Chiesa-Ishai-Ostrovsky-Paneth SNARKs via Linear Interactive Proofs (BCI+13)]] - paper - references/ch02/ref-06-groth16.pdf
-- [[Danezis-Fournet-Groth-Kohlweiss Square Span Programs (DFGK14)]] - paper - references/ch02/ref-06-groth16.pdf
-- [[Disclosure-free Common Reference String]] - paper - references/ch02/ref-06-groth16.pdf
-- [[Generic (Bilinear) Group Model]] - paper - references/ch02/ref-06-groth16.pdf
-- [[Gennaro, Gentry, Parno, Raykova - QAPNIZK (2012)]] - document - proving-nothing.md
-- [[Gennaro, Gentry, Parno, Raykova — QAP (Eurocrypt 2013)]] - document - proving-nothing.md
-- [[Gennaro-Gentry-Parno-Raykova QSPQAP and Succinct NIZKs (GGPR13)]] - paper - references/ch02/ref-06-groth16.pdf
-- [[Gentry-Wichs SNARGs Need Non-falsifiable Assumptions (GW11)]] - paper - references/ch02/ref-06-groth16.pdf
-- [[Jens Groth]] - document - wiki/sections/ch06-the-three-families.md
-- [[Linear Interactive Proof (LIP)]] - paper - references/ch02/ref-06-groth16.pdf
-- [[Non-interactive Linear Proof (NILP) for Quadratic Arithmetic Programs]] - paper - references/ch02/ref-06-groth16.pdf
-- [[Non-interactive Zero-Knowledge Argument of Knowledge]] - paper - references/ch02/ref-06-groth16.pdf
-- [[On the Size of Pairing-Based Non-interactive Arguments]] - paper - references/ch02/ref-06-groth16.pdf
-- [[Parno-Howell-Gentry-Raykova Pinocchio (PHGR13)]] - paper - references/ch02/ref-06-groth16.pdf
-- [[QAP (Quadratic Arithmetic Program)]] - document - proving-nothing.md
-- [[Relation Generator with Hard Decisional Problems]] - paper - references/ch02/ref-06-groth16.pdf
-- [[Shoup Lower Bounds for Discrete Logarithms (Generic Group Model) (Sho97)]] - paper - references/ch02/ref-06-groth16.pdf
-- [[Single Pairing-Product Verification Equation (3 pairings)]] - paper - references/ch02/ref-06-groth16.pdf
-- [[Split-NILP to Pairing-based NIZK Compiler]] - paper - references/ch02/ref-06-groth16.pdf
-- [[Theorem 2 Perfect ZK NIZK with Generic-Group Knowledge Soundness]] - paper - references/ch02/ref-06-groth16.pdf
-- [[Theorem 3 No NILP Has a Degree-1 (Linear) Verifier]] - paper - references/ch02/ref-06-groth16.pdf
-- [[Theorem 4 Pairing-based Arguments Need Elements in Both G1 and G2]] - paper - references/ch02/ref-06-groth16.pdf
-- [[Type III Asymmetric Bilinear Group]] - paper - references/ch02/ref-06-groth16.pdf
+- [[ARGUZZ first automated fuzzer for zkVM soundness & completeness bugs (7-step workflow)]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[CIRCIL extended with inline-RISC-V-assembly custom functions (e.g. mulhsu) + circuit-to-Rust translation]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[CIRCUZZ 23 metamorphic fuzzer for ZK pipelines (CIRCOMGNARKNOIR) via CIRCIL]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Dory transparent polynomial commitment scheme (log-round, sqrt-space prover)]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Efficient metamorphic-testing variant known expected output, k-safety, single padded trace]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Evaluation across 6 RISC-V zkVMs; 11 bugs (3 soundness FI, 8 completeness MT) in 3 of them]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[FUZZTRUCTION  FUZZTRUCTION-NET 10,11 fault-injection-based fuzzing]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Fair fault-injection scheduler (uniform RISC-V instruction coverage via least-injected selection)]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Fault Injection]] - document - references/ch14/ref-61-arguzz.pdf
+- [[Fuzzing  Metamorphic Testing]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[INSTR_WORD_MOD instruction-modification injection (universal; triggered all 3 soundness bugs)]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Injection-type taxonomy (PC mod, ALU resultoperand, memreg mod, DIVREM flips, ecall id, branch invert)]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[JOLT bug6 (soundness) unconstrained immediate operand in lui instruction]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[MTZK 43 metamorphic testing of zero-knowledge compilers]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Malicious-prover fault injection into VM execution logic (verifier-only-trusted threat model)]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Metamorphic Testing]] - document - references/ch14/ref-61-arguzz.pdf
+- [[NEXUS bug3 (soundness) unconstrained store-value lower bits in swshsb load-store]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Product programs  hyperproperty (k-safety) reasoning 12,13,20,41]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Product-program metamorphic oracle merge k equivalent Rust fns; SUCCESS (0xC0FFEE) vs OOPS (0x0)]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[RISC ZERO bug1 (soundness) missing constraint on 3-register insns (remudivu); $50,000 bounty]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[RISC-V CPU fuzzers 25,29,40,44 (DifuzzRTL, TheHuzz, Cascade, MorFuzz)]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Ripple-effect fault propagation (fault at one instruction cascades along data dependencies)]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Rust 1.80 miscompilation by-product bug (boolean expr; both soundness & completeness)]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Semantics-preserving rewrite rules (commassocdistribDe Morgan; field-arith rules disabled)]] - paper - references/ch14/ref-61-arguzz.pdf
+- [[Soundness-bug detection criterion output flips SUCCESS-OOPS yet verifier accepts proof]] - paper - references/ch14/ref-61-arguzz.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -44,28 +44,16 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 6 edges to [[_COMMUNITY_Community 87]]
-- 6 edges to [[_COMMUNITY_Community 15]]
-- 4 edges to [[_COMMUNITY_Community 36]]
-- 4 edges to [[_COMMUNITY_Community 8]]
-- 4 edges to [[_COMMUNITY_Community 9]]
-- 3 edges to [[_COMMUNITY_Community 35]]
-- 2 edges to [[_COMMUNITY_Community 82]]
-- 2 edges to [[_COMMUNITY_Community 12]]
-- 2 edges to [[_COMMUNITY_Community 40]]
-- 1 edge to [[_COMMUNITY_Community 22]]
-- 1 edge to [[_COMMUNITY_Community 32]]
-- 1 edge to [[_COMMUNITY_Community 27]]
-- 1 edge to [[_COMMUNITY_Community 65]]
-- 1 edge to [[_COMMUNITY_Community 77]]
-- 1 edge to [[_COMMUNITY_Community 0]]
-- 1 edge to [[_COMMUNITY_Community 14]]
-- 1 edge to [[_COMMUNITY_Community 46]]
-- 1 edge to [[_COMMUNITY_Community 95]]
+- 6 edges to [[_COMMUNITY_Community 7]]
+- 3 edges to [[_COMMUNITY_Community 15]]
+- 2 edges to [[_COMMUNITY_Community 19]]
+- 1 edge to [[_COMMUNITY_Community 8]]
+- 1 edge to [[_COMMUNITY_Community 124]]
+- 1 edge to [[_COMMUNITY_Community 57]]
 
 ## Top bridge nodes
-- [[On the Size of Pairing-Based Non-interactive Arguments]] - degree 24, connects to 10 communities
-- [[QAP (Quadratic Arithmetic Program)]] - degree 20, connects to 7 communities
-- [[Linear Interactive Proof (LIP)]] - degree 10, connects to 7 communities
-- [[3-Element Pairing-based SNARK for Arithmetic Circuit SAT]] - degree 10, connects to 2 communities
-- [[Generic (Bilinear) Group Model]] - degree 4, connects to 2 communities
+- [[ARGUZZ first automated fuzzer for zkVM soundness & completeness bugs (7-step workflow)]] - degree 13, connects to 3 communities
+- [[Dory transparent polynomial commitment scheme (log-round, sqrt-space prover)]] - degree 3, connects to 2 communities
+- [[Fuzzing  Metamorphic Testing]] - degree 3, connects to 2 communities
+- [[Malicious-prover fault injection into VM execution logic (verifier-only-trusted threat model)]] - degree 8, connects to 1 community
+- [[Fault Injection]] - degree 5, connects to 1 community

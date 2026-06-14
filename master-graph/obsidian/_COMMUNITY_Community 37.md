@@ -1,42 +1,40 @@
 ---
 type: community
-cohesion: 0.11
-members: 27
+cohesion: 0.09
+members: 25
 ---
 
 # Community 37
 
-**Cohesion:** 0.11 - loosely connected
-**Members:** 27 nodes
+**Cohesion:** 0.09 - loosely connected
+**Members:** 25 nodes
 
 ## Members
-- [[Additively-Homomorphic Vector Commitment]] - paper - references/ch06/ref-17-nova.pdf
-- [[Assumption 1 non-interactive multi-folding scheme via Fiat-Shamir in plain model]] - paper - references/recursion/ch1/ref-30-cyclefold.pdf
-- [[BCTV14 cycle-of-curves recursion blueprint]] - paper - references/recursion/ch1/ref-30-cyclefold.pdf
-- [[Bunz, Chen, ProtoStar (ePrint 2023620)]] - document - recursion/recursion-outline.md
-- [[Committed Relaxed R1CS]] - paper - references/ch06/ref-17-nova.pdf
-- [[Comparison with Goblin Plonk (table-based, not IVC)]] - paper - references/recursion/ch1/ref-30-cyclefold.pdf
-- [[Construction 1 multi-folding scheme for CCS over a cycle of curves]] - paper - references/recursion/ch1/ref-30-cyclefold.pdf
-- [[CycleFold]] - document - proving-nothing.md
-- [[CycleFold (ePrint 20231192)]] - paper - references/recursion/ch1/ref-30-cyclefold.pdf
-- [[Fold second-curve correctness instance u_EC on the first curve via Nova]] - paper - references/recursion/ch1/ref-30-cyclefold.pdf
-- [[Folding Family Tradeoff Table]] - document - recursion/recursion-outline.md
-- [[Half-pairing cycle (e.g., BN254Grumpkin)]] - paper - references/recursion/ch1/ref-30-cyclefold.pdf
-- [[Kothapalli, Setty, CycleFold (ePrint 20231192)]] - document - recursion/recursion-outline.md
-- [[Lemma 1 perfect completeness of Construction 1]] - paper - references/recursion/ch1/ref-30-cyclefold.pdf
-- [[Lemma 2 knowledge soundness of Construction 1 (forking-based extractor)]] - paper - references/recursion/ch1/ref-30-cyclefold.pdf
-- [[Multi-folding scheme]] - paper - references/recursion/ch1/ref-30-cyclefold.pdf
-- [[NBS23 revisiting Nova on a cycle of curves (cited prior work)]] - paper - references/recursion/ch1/ref-30-cyclefold.pdf
-- [[Non-native (wrong-field) arithmetic]] - paper - references/recursion/ch1/ref-30-cyclefold.pdf
-- [[Polynomial IOP for Idealized Relaxed R1CS (Construction 5)]] - paper - references/ch06/ref-17-nova.pdf
-- [[ProtoStar]] - document - proving-nothing.md
-- [[Quarantine of foreign-field EC group ops to native circuit on E2]] - paper - references/recursion/ch1/ref-30-cyclefold.pdf
-- [[Spartan zkSNARK]] - paper - references/ch06/ref-17-nova.pdf
-- [[Theorem 1 public-coin multi-folding scheme for CCS (completeness + knowledge soundness)]] - paper - references/recursion/ch1/ref-30-cyclefold.pdf
-- [[Tiny co-processor circuit C_EC on second curve (~1000-1500 gates)]] - paper - references/recursion/ch1/ref-30-cyclefold.pdf
-- [[Verifiable delegation of scalar multiplication + point addition]] - paper - references/recursion/ch1/ref-30-cyclefold.pdf
-- [[zkSNARK for Committed Relaxed R1CS (adapted Spartan)]] - paper - references/ch06/ref-17-nova.pdf
-- [[zkSNARK of a Valid IVC Proof (Construction 4)]] - paper - references/ch06/ref-17-nova.pdf
+- [[Avoiding preprocessing for uniform CCS (AIR) verifier evaluates wiring MLEs M_j in log time]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
+- [[CCS (Customizable Constraint Systems)]] - document - proving-nothing.md
+- [[CCS formal definition matrices M_j, multisets S_i, constants c_i, sum c_i · Hadamard_{j in S_i} (M_j z) = 0]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
+- [[CCS+ CCS extended with read-only lookup-table operations]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
+- [[Claim R1CS, AIR, PLONKish Are Dialects of CCS]] - document - proving-nothing.md
+- [[Free addition gates for uniform CCS prover crypto work independent of additions]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
+- [[Lemma 1 constant-time R1CS-to-CCS reduction (t=3, q=2, d=2)]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
+- [[Lemma 2 Plonkish-to-CCS reduction; multisets encode monomials of g]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
+- [[Lemma 3 AIR-to-CCS reduction; constraint g applied to adjacent trace rows]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
+- [[Lemma 610 (folding CCS is randomizing)]] - paper - references/ch06/ref-18-hypernova.pdf
+- [[Linearized (committed) CCS relation]] - paper - references/ch06/ref-18-hypernova.pdf
+- [[Multi-folding scheme (generalized folding)]] - paper - references/ch06/ref-18-hypernova.pdf
+- [[Multi-folding scheme for CCS (Construction 1)]] - paper - references/ch06/ref-18-hypernova.pdf
+- [[Neo (Small-Field Lattice Folding)]] - document - proving-nothing.md
+- [[Nightstream (Lattice-Folding Implementation)]] - document - proving-nothing.md
+- [[No commitments to cross-terms efficiency claim]] - paper - references/ch06/ref-18-hypernova.pdf
+- [[SIMD CCS  data-parallel CCS with log-time IO consistency via next() MLE]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
+- [[Setty, Thaler, Wahby - CCS Paper (2023)]] - document - proving-nothing.md
+- [[Setty, Thaler, Wahby, Customizable Constraint Systems (ePrint 2023552)]] - document - recursion/recursion-outline.md
+- [[SuperSpartan]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
+- [[Symphony (Production Lattice Folding)]] - document - proving-nothing.md
+- [[Theorem 1 (multi-folding scheme for CCS)]] - paper - references/ch06/ref-18-hypernova.pdf
+- [[Theorem 2 MLE of 'add-1-in-binary' next() function evaluable in logarithmic time]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
+- [[Theorem 8 (nlookup multi-folding scheme)]] - paper - references/ch06/ref-18-hypernova.pdf
+- [[nlookup lookup argument (Construction 8)]] - paper - references/ch06/ref-18-hypernova.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -46,23 +44,27 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 13 edges to [[_COMMUNITY_Community 2]]
-- 6 edges to [[_COMMUNITY_Community 0]]
-- 5 edges to [[_COMMUNITY_Community 24]]
-- 3 edges to [[_COMMUNITY_Community 71]]
-- 3 edges to [[_COMMUNITY_Community 7]]
-- 3 edges to [[_COMMUNITY_Community 28]]
-- 2 edges to [[_COMMUNITY_Community 32]]
-- 2 edges to [[_COMMUNITY_Community 23]]
-- 2 edges to [[_COMMUNITY_Community 120]]
-- 1 edge to [[_COMMUNITY_Community 52]]
-- 1 edge to [[_COMMUNITY_Community 29]]
-- 1 edge to [[_COMMUNITY_Community 19]]
-- 1 edge to [[_COMMUNITY_Community 91]]
+- 16 edges to [[_COMMUNITY_Community 11]]
+- 10 edges to [[_COMMUNITY_Community 5]]
+- 8 edges to [[_COMMUNITY_Community 10]]
+- 3 edges to [[_COMMUNITY_Community 78]]
+- 3 edges to [[_COMMUNITY_Community 23]]
+- 2 edges to [[_COMMUNITY_Community 20]]
+- 2 edges to [[_COMMUNITY_Community 39]]
+- 2 edges to [[_COMMUNITY_Community 28]]
+- 2 edges to [[_COMMUNITY_Community 62]]
+- 1 edge to [[_COMMUNITY_Community 17]]
+- 1 edge to [[_COMMUNITY_Community 13]]
+- 1 edge to [[_COMMUNITY_Community 30]]
+- 1 edge to [[_COMMUNITY_Community 8]]
+- 1 edge to [[_COMMUNITY_Community 3]]
+- 1 edge to [[_COMMUNITY_Community 0]]
+- 1 edge to [[_COMMUNITY_Community 14]]
+- 1 edge to [[_COMMUNITY_Community 46]]
 
 ## Top bridge nodes
-- [[ProtoStar]] - degree 12, connects to 5 communities
-- [[CycleFold]] - degree 18, connects to 4 communities
-- [[Folding Family Tradeoff Table]] - degree 6, connects to 3 communities
-- [[Committed Relaxed R1CS]] - degree 5, connects to 3 communities
-- [[CycleFold (ePrint 20231192)]] - degree 12, connects to 2 communities
+- [[CCS (Customizable Constraint Systems)]] - degree 49, connects to 13 communities
+- [[Multi-folding scheme for CCS (Construction 1)]] - degree 10, connects to 5 communities
+- [[Neo (Small-Field Lattice Folding)]] - degree 4, connects to 2 communities
+- [[nlookup lookup argument (Construction 8)]] - degree 4, connects to 2 communities
+- [[SuperSpartan]] - degree 3, connects to 2 communities

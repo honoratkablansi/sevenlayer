@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-45-small-space-cpu-proofs.pdf"
 type: "paper"
-community: "Community 77"
+community: "Community 57"
 location: "§1.1.4"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_77
+  - community/Community_57
 ---
 
 # Argument that large shards enable faster Twist/Shout proving (K-linear cost amortized)
@@ -15,4 +15,4 @@ tags:
 - [[Continuations  recursive composition for zkVM prover memory control]] - `conceptually_related_to` [EXTRACTED]
 - [[Twist and Shout Memory-Checking Arguments]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_77
+#graphify/paper #graphify/EXTRACTED #community/Community_57

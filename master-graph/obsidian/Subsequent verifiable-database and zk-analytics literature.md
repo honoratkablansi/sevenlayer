@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch3/ref-74-verifiable-database-zk-analytics.md"
 type: "document"
-community: "Community 45"
+community: "Community 43"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_45
+  - community/Community_43
 ---
 
 # Subsequent verifiable-database and zk-analytics literature
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[Recursion References (cited works)]] - `cites` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_45
+#graphify/document #graphify/EXTRACTED #community/Community_43

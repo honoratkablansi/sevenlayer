@@ -37,21 +37,23 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 6 edges to [[_COMMUNITY_Community 61]]
-- 4 edges to [[_COMMUNITY_Community 81]]
-- 3 edges to [[_COMMUNITY_Community 98]]
-- 3 edges to [[_COMMUNITY_Community 105]]
-- 2 edges to [[_COMMUNITY_Community 12]]
-- 2 edges to [[_COMMUNITY_Community 93]]
-- 2 edges to [[_COMMUNITY_Community 50]]
-- 1 edge to [[_COMMUNITY_Community 18]]
-- 1 edge to [[_COMMUNITY_Community 1]]
-- 1 edge to [[_COMMUNITY_Community 17]]
-- 1 edge to [[_COMMUNITY_Community 109]]
-- 1 edge to [[_COMMUNITY_Community 40]]
+- 7 edges to [[_COMMUNITY_Community 94]]
+- 4 edges to [[_COMMUNITY_Community 1]]
+- 4 edges to [[_COMMUNITY_Community 83]]
+- 4 edges to [[_COMMUNITY_Community 86]]
+- 3 edges to [[_COMMUNITY_Community 15]]
+- 3 edges to [[_COMMUNITY_Community 3]]
+- 2 edges to [[_COMMUNITY_Community 21]]
+- 2 edges to [[_COMMUNITY_Community 51]]
+- 2 edges to [[_COMMUNITY_Community 73]]
+- 1 edge to [[_COMMUNITY_Community 7]]
+- 1 edge to [[_COMMUNITY_Community 0]]
+- 1 edge to [[_COMMUNITY_Community 111]]
+- 1 edge to [[_COMMUNITY_Community 113]]
+- 1 edge to [[_COMMUNITY_Community 33]]
 
 ## Top bridge nodes
-- [[Under-Constrained Circuit  Missing Constraint]] - degree 31, connects to 10 communities
-- [[Automated Detection of Under-Constrained Circuits in Zero-Knowledge Proofs]] - degree 10, connects to 6 communities
+- [[Under-Constrained Circuit  Missing Constraint]] - degree 40, connects to 14 communities
+- [[Automated Detection of Under-Constrained Circuits in Zero-Knowledge Proofs]] - degree 10, connects to 5 communities
 - [[Survey of SNARK defense tools (Circomspect, ZKAP, Korrekt, Picus, Ecne, CIVER, SnarkProbe, Coda)]] - degree 3, connects to 1 community
 - [[Circomlib Decoder Underconstrained Bug (motivating example)]] - degree 2, connects to 1 community

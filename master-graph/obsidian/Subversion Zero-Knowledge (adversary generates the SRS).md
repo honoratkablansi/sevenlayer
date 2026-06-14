@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-36-sonic.pdf"
 type: "paper"
-community: "Community 14"
+community: "Community 70"
 location: "§3.2, Def. 3.2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_14
+  - community/Community_70
 ---
 
 # Subversion Zero-Knowledge (adversary generates the SRS)
@@ -16,4 +16,4 @@ tags:
 - [[Theorem 6.1 Sonic satisfies subversion zero-knowledge]] - `proves` [EXTRACTED]
 - [[Witness-Extended Emulation (Knowledge Soundness)]] - `conceptually_related_to` [INFERRED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_14
+#graphify/paper #graphify/EXTRACTED #community/Community_70

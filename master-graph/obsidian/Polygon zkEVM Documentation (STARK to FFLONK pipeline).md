@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch1/ref-17-polygon-zkevm-docs.md"
 type: "document"
-community: "Community 16"
+community: "Community 29"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_16
+  - community/Community_29
 ---
 
 # Polygon zkEVM Documentation (STARK to FFLONK pipeline)
@@ -14,4 +14,4 @@ tags:
 - [[STARK-to-SNARK Recursion]] - `explains` [INFERRED]
 - [[zkEVM  EVM-Compatible Proving]] - `explains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_16
+#graphify/document #graphify/EXTRACTED #community/Community_29

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch07/ref-26-nist-ir-8547.pdf"
 type: "paper"
-community: "Community 111"
+community: "Community 115"
 location: "References [FIPS203]"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_111
+  - community/Community_115
 ---
 
 # FIPS 203 (ML-KEM Standard)
@@ -15,4 +15,4 @@ tags:
 - [[ML-KEM Key-Encapsulation Mechanism]] - `defines` [EXTRACTED]
 - [[Transition to Post-Quantum Cryptography Standards (NIST IR 8547)]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_111
+#graphify/paper #graphify/EXTRACTED #community/Community_115

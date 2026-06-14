@@ -1,40 +1,40 @@
 ---
 type: community
-cohesion: 0.12
+cohesion: 0.08
 members: 25
 ---
 
 # Community 43
 
-**Cohesion:** 0.12 - loosely connected
+**Cohesion:** 0.08 - loosely connected
 **Members:** 25 nodes
 
 ## Members
-- [[CRYSTALS-Kyber KEM (round-three NIST PQC submission)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[Centered Binomial Distribution (CBD) noise sampling]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[Cryptographic functions HJGPRFXOF from SHA-3 and SHAKE (FIPS 202)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[Decapsulation failure probability (2-138.8 to 2-174.8)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[Fujisaki-Okamoto (FO) transform]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[IND-CCA2 security]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[Implicit rejection mechanism (re-encryption ciphertext comparison)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[K-PKE component public-key encryption scheme (KeyGenEncryptDecrypt)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[Key-Encapsulation Mechanism (KEM)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[ML-KEM (Module-Lattice-Based Key-Encapsulation Mechanism, FIPS 203)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[ML-KEM Key-Encapsulation Mechanism]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[ML-KEM internal derandomized algorithms (KeyGenEncapsDecaps_internal)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[ML-KEM-1024 (k=4, security category 5, 256-bit RBG)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[ML-KEM-512 (k=2, security category 1, 128-bit RBG)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[ML-KEM-768 (k=3, security category 3, 192-bit RBG, NIST default)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[ML-KEM.Decaps (deterministic decapsulation, Algorithm 21)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[ML-KEM.Encaps (probabilistic encapsulation, Algorithm 20)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[ML-KEM.KeyGen (probabilistic key generation, Algorithm 19)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[Module Learning With Errors (MLWE)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[NIST PQC security strength categories (1-5)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[PQC-Classical Hybrid Protocols (composite KEM via SP 800-56C, dual signatures)]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
-- [[Public-Key Encryption]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[Ring-LWE]] - paper - references/snowball/recursion/ref-108-worst-case-to-average-case-reductions-for-module.pdf
-- [[Security based on Module-LWE over R_q plus SelfTargetMSIS, a nonstandard variant of Module-SIS]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[Worst-Case to Average-Case Reduction]] - paper - references/snowball/recursion/ref-108-worst-case-to-average-case-reductions-for-module.pdf
+- [[BEATS Batch ECDSA Transaction verification Scheme  Scalable batch verification of ECDSA for blockchain using IVC (Fr]] - document - references/recursion/ch1/ref-24-beats-batch-ecdsa.md
+- [[Academic literature on end-to-end verifiable voting with zero-knowledge tallies]] - document - references/recursion/ch3/ref-60-verifiable-voting-zk-tallies.md
+- [[Aligned Layer, The Year of zkVM Real-Time Proving (2025)  prover-market analyses]] - document - references/recursion/ch1/ref-35-aligned-year-of-zkvm-realtime.md
+- [[Chase, Lysyanskaya, Delegatable Anonymous Credentials lineage (CRYPTO 2009 onward)]] - document - references/recursion/ch3/ref-82-chase-lysyanskaya-delegatable-credentials.md
+- [[Chiesa, Tromer, Proof-Carrying Data and Hearsay Arguments from Signature Cards (ICS 2010)]] - document - references/recursion/ch1/ref-04-chiesa-tromer-pcd-hearsay.md
+- [[Dark Forest and zk-gaming ecosystem writeups]] - document - references/recursion/ch3/ref-91-dark-forest-zk-gaming.md
+- [[EZKL benchmarks (monolithic zkML inference baseline)]] - document - references/recursion/ch3/ref-93-ezkl-monolithic-benchmarks.md
+- [[Fiat, Shamir, How to Prove Yourself Practical Solutions to Identification and Signature Problems (CRYPTO 1986)]] - document - references/recursion/ch2/ref-40-fiat-shamir.md
+- [[IVC streaming computation literature]] - document - references/recursion/ch3/ref-76-ivc-streaming-literature.md
+- [[Khovratovich, Maller, Tiwari et al., MinRoot VDF candidate (2022)]] - document - references/recursion/ch2/ref-42-minroot-vdf.md
+- [[Mina Pickles technical documentation]] - document - references/recursion/ch2/ref-49-mina-pickles-docs.md
+- [[Mina, Hazook recursive zkRollup design (2024)]] - document - references/recursion/ch1/ref-25-mina-hazook.md
+- [[Nova-based zkML folding literature]] - document - references/recursion/ch3/ref-71-nova-zkml-folding.md
+- [[Pedersen, Non-Interactive and Information-Theoretic Secure Verifiable Secret Sharing (CRYPTO 1991)]] - document - references/recursion/ch2/ref-39-pedersen-commitments.md
+- [[Practitioner literature on recursive ZK circuit design (e.g., zkDev, Designing Efficient Recursive ZK Circuits, 2026)]] - document - references/recursion/ch1/ref-29-zkdev-recursive-circuits.md
+- [[Published IVC flight-control benchmark work (real-time high-integrity flight control via recursive SNARKs)]] - document - references/recursion/ch3/ref-67-ivc-flight-control-benchmark.md
+- [[RISC Zero, Continuations  Using Continuations to Prove Any EVM Transaction (2023)]] - document - references/recursion/ch1/ref-23-risc-zero-continuations.md
+- [[Recursion References (cited works)]] - document - references/recursion/manifest.json
+- [[Reproducible-builds literature]] - document - references/recursion/ch3/ref-64-reproducible-builds-literature.md
+- [[Research literature on SNARK-backed transparency logs and verifiable log-structured storage]] - document - references/recursion/ch3/ref-66-snark-backed-transparency-logs.md
+- [[Sonobe library documentation (PSE0xPARC)]] - document - references/recursion/ch2/ref-48-sonobe.md
+- [[State-channel literature]] - document - references/recursion/ch3/ref-92-state-channel-literature.md
+- [[Subsequent verifiable-database and zk-analytics literature]] - document - references/recursion/ch3/ref-74-verifiable-database-zk-analytics.md
+- [[Succinct, Real-Time Proving with 16 GPUs (2026)]] - document - references/recursion/ch1/ref-34-succinct-16-gpus.md
+- [[Valiant, Incrementally Verifiable Computation, or Proofs of Knowledge Imply TimeSpace Efficiency (TCC 2008)]] - document - references/recursion/ch1/ref-01-valiant-ivc.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -42,23 +42,3 @@ members: 25
 TABLE source_file, type FROM #community/Community_43
 SORT file.name ASC
 ```
-
-## Connections to other communities
-- 4 edges to [[_COMMUNITY_Community 0]]
-- 3 edges to [[_COMMUNITY_Community 1]]
-- 3 edges to [[_COMMUNITY_Community 59]]
-- 2 edges to [[_COMMUNITY_Community 22]]
-- 2 edges to [[_COMMUNITY_Community 10]]
-- 2 edges to [[_COMMUNITY_Community 111]]
-- 1 edge to [[_COMMUNITY_Community 108]]
-- 1 edge to [[_COMMUNITY_Community 123]]
-- 1 edge to [[_COMMUNITY_Community 96]]
-- 1 edge to [[_COMMUNITY_Community 44]]
-- 1 edge to [[_COMMUNITY_Community 66]]
-
-## Top bridge nodes
-- [[ML-KEM Key-Encapsulation Mechanism]] - degree 12, connects to 5 communities
-- [[Module Learning With Errors (MLWE)]] - degree 12, connects to 5 communities
-- [[ML-KEM (Module-Lattice-Based Key-Encapsulation Mechanism, FIPS 203)]] - degree 17, connects to 2 communities
-- [[CRYSTALS-Kyber KEM (round-three NIST PQC submission)]] - degree 5, connects to 2 communities
-- [[Security based on Module-LWE over R_q plus SelfTargetMSIS, a nonstandard variant of Module-SIS]] - degree 3, connects to 2 communities

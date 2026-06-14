@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-77-photoproof.pdf"
 type: "paper"
-community: "Community 47"
+community: "Community 26"
 location: "§IV-B, Theorem 9"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_47
+  - community/Community_26
 ---
 
 # Theorem 9: for any poly-time transformation set T, given PCD and an existentially unforgeable signature scheme, PP = (S,G_PP,P_PP,V_PP) is an IA scheme for T
@@ -16,4 +16,4 @@ tags:
 - [[IA scheme = (S, G_IA, P_IA, V_IA) new cryptographic primitive for image authentication over a permissible-transformation set T]] - `proves` [EXTRACTED]
 - [[Proof-Carrying Data (PCD)]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_47
+#graphify/paper #graphify/EXTRACTED #community/Community_26

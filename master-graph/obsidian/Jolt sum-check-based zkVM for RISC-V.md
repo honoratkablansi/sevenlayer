@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-45-small-space-cpu-proofs.pdf"
 type: "paper"
-community: "Community 77"
+community: "Community 57"
 location: "§1.2; §3.2 (AST24)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_77
+  - community/Community_57
 ---
 
 # Jolt: sum-check-based zkVM for RISC-V
@@ -22,4 +22,4 @@ tags:
 - [[Twist and Shout Memory-Checking Arguments]] - `assumes` [EXTRACTED]
 - [[zkVM]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_77
+#graphify/paper #graphify/EXTRACTED #community/Community_57

@@ -1,12 +1,12 @@
 ---
 source_file: "references/snowball/book/ref-143-a-hybrid-architecture-for-verifiable-computation.pdf"
 type: "paper"
-community: "Community 15"
+community: "Community 92"
 location: "abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_15
+  - community/Community_92
 ---
 
 # Hybrid Protocol Architecture
@@ -15,4 +15,4 @@ tags:
 - [[R1CS (Rank-1 Constraint Systems)]] - `uses` [EXTRACTED]
 - [[Verifiable computation]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_15
+#graphify/paper #graphify/EXTRACTED #community/Community_92

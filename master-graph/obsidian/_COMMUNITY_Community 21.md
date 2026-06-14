@@ -10,39 +10,39 @@ members: 33
 **Members:** 33 nodes
 
 ## Members
-- [[Algebraic Query Complexity]] - paper - references/snowball/recursion/ref-151-a-zero-knowledge-sumcheck-and-its-applications.pdf
-- [[BASIS Assumption]] - paper - references/snowball/recursion/ref-136-lattice-based-polynomial-commitments-towards-as.pdf
-- [[BaseFold]] - paper - references/snowball/book/ref-121-basefold-efficient-field-agnostic-polynomial-co.pdf
-- [[Batch Evaluation of Committed Polynomials]] - paper - references/books/proofs-args-zk.pdf
-- [[Brakedown Polynomial Commitment]] - paper - references/books/proofs-args-zk.pdf
-- [[Brakedown GLS+21 & Orion XZS22 field-agnosticpost-quantum poly commitments instantiating SuperSpartan]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
-- [[Claim Field Choice Is a One-Way Door (Cascade Effect)]] - document - proving-nothing.md
-- [[Extension Polynomial (Random Higher-Degree Witness Extension)]] - paper - references/books/proofs-args-zk.pdf
-- [[Foldable Code]] - paper - references/snowball/book/ref-121-basefold-efficient-field-agnostic-polynomial-co.pdf
-- [[Group of Unknown Order]] - paper - references/snowball/recursion/ref-116-a-survey-of-two-verifiable-delay-functions.pdf
-- [[HyperKZG  Mercury polynomial commitment]] - document - references/recursion/ch2/ref-43-nova-implementation.md
-- [[KZG10 constant-size polynomial commitments]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[KZG10 Constant-Size Commitments to Polynomials]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
-- [[Kate, Zaverucha, Goldberg Constant-size commitments to polynomials 30]] - paper - references/recursion/ch1/ref-05-halo.pdf
-- [[Layer 6 The Deep Craft (Cryptographic Primitives)]] - document - proving-nothing.md
-- [[Leveled Bilinear Modules]] - paper - references/snowball/recursion/ref-137-lattice-based-succinct-arguments-for-np-with-pol.pdf
-- [[Ligero]] - paper - references/snowball/book/ref-073-ligero-lightweight-sublinear-arguments-without.pdf
-- [[Linear-Time Encodable Code]] - paper - references/snowball/recursion/ref-105-brakedown-linear-time-and-field-agnostic-snarks.pdf
-- [[Low-Degree Test]] - paper - references/books/proofs-args-zk.pdf
-- [[Masking Polynomial (ZK via Random Polynomial Blinding)]] - paper - references/books/proofs-args-zk.pdf
-- [[Merkle Hashing]] - paper - references/books/proofs-args-zk.pdf
-- [[PC_AGM bilinear-group (KZG) polynomial commitment with pairing-batching accumulation]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
-- [[PC_DL discrete-log polynomial commitment with accumulation (IPA-based)]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
-- [[Polynomial Commitment Scheme]] - document - proving-nothing.md
-- [[Post-Quantum Soundness]] - paper - references/books/proofs-args-zk.pdf
-- [[Quarks  Xiphos  Kopis]] - paper - references/snowball/recursion/ref-102-quarks-quadruple-efficient-transparent-zksnarks.pdf
-- [[Supersonic  DARK SNARK]] - paper - references/snowball/book/ref-091-transparent-snarks-from-dark-compilers.pdf
-- [[Tensor-Product Structure in Polynomial Evaluation]] - paper - references/books/proofs-args-zk.pdf
-- [[Theorem 3 (informal) ZK accumulation schemes for PC_DL and PC_AGM in the ROM]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
-- [[Theorem 3 family of preprocessing SNARKs for CCS via PIOP + sparse poly commitment + Fiat-Shamir]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
-- [[Universal setup  Powers of Tau (SRS)]] - document - references/recursion/ch2/ref-43-nova-implementation.md
-- [[Zero-Finding Games Lemma 3.3 (security of PC accumulation in ROM)]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
-- [[Zero-Knowledge Sum-Check Protocol]] - paper - references/books/proofs-args-zk.pdf
+- [[Arithmetic Circuit]] - document - proving-nothing.md
+- [[Arithmetic Circuit Evaluation Problem]] - paper - references/books/proofs-args-zk.pdf
+- [[Bit Decomposition for Non-Arithmetic Operations]] - paper - references/books/proofs-args-zk.pdf
+- [[Circuit Transcript]] - paper - references/mooc/lecture04/slides.pdf
+- [[Configuration Graph (RAM Reachability)]] - paper - references/books/proofs-args-zk.pdf
+- [[Data-parallel circuit N identical copies of a sub-circuit with no inter-copy wiring (e.g. N signature-verification copies)]] - paper - references/recursion/ch3/ref-59-zkbridge.pdf
+- [[Execution Transcript  Purported Trace]] - paper - references/books/proofs-args-zk.pdf
+- [[GKR  Delegating Computation Interactive Proofs for Muggles (Goldwasser-Kalai-Rothblum, J.ACM 2015) 53]] - paper - references/recursion/ch3/ref-59-zkbridge.pdf
+- [[GKR protocol doubly-efficient interactive proof for bounded-depth computation via layer-by-layer sumcheck reduction; prover need not commit to full trace]] - paper - references/recursion/ch1/ref-11-khovratovich-fiat-shamir-attacks.pdf
+- [[Gate Value Function (W_i)]] - paper - references/books/proofs-args-zk.pdf
+- [[Goldwasser-Kalai-Rothblum 26 Delegating Computation  Interactive Proofs for Muggles]] - paper - references/recursion/ch3/ref-70-zkcnn.pdf
+- [[Holographic  Preprocessing Argument System]] - paper - references/books/proofs-args-zk.pdf
+- [[Large-Base Decomposition (Bootle et al. Amortized Technique)]] - paper - references/books/proofs-args-zk.pdf
+- [[Layered Arithmetic Circuit]] - paper - references/books/proofs-args-zk.pdf
+- [[Libra]] - paper - references/snowball/book/ref-081-libra-succinct-zero-knowledge-proofs-with-optim.pdf
+- [[Linear-Time Prover]] - paper - references/snowball/book/ref-096-orion-zero-knowledge-proof-with-linear-prover-t.pdf
+- [[Log-Space Uniform Circuit]] - paper - references/books/proofs-args-zk.pdf
+- [[Machine Code  Random Access Machine (RAM)]] - paper - references/books/proofs-args-zk.pdf
+- [[Machine Configuration]] - paper - references/books/proofs-args-zk.pdf
+- [[Memory Consistency Checking]] - paper - references/books/proofs-args-zk.pdf
+- [[NC Complexity Class (Parallel Algorithms)]] - paper - references/books/proofs-args-zk.pdf
+- [[Permutation-Invariant Fingerprinting]] - paper - references/books/proofs-args-zk.pdf
+- [[Prime Field Arithmetic]] - paper - references/mooc/lecture03/slides.pdf
+- [[Program-to-Circuit Reduction (First Technique)]] - paper - references/books/proofs-args-zk.pdf
+- [[Prover Efficiency]] - paper - references/snowball/book/ref-148-arya-nearly-linear-time-zero-knowledge-proofs-f.pdf
+- [[RAM Computation]] - paper - references/snowball/recursion/ref-118-fast-reductions-from-rams-to-delegatable-succinc.pdf
+- [[Routing Network  De Bruijn Graph (Non-Deterministic Sort)]] - paper - references/books/proofs-args-zk.pdf
+- [[Shallow Circuit (Small-Space to Low-Depth)]] - paper - references/books/proofs-args-zk.pdf
+- [[Structured vs. Unstructured Circuit]] - paper - references/mooc/lecture02/slides.pdf
+- [[Table Lookup Inside Circuit Satisfiability Instance]] - paper - references/books/proofs-args-zk.pdf
+- [[Time Consistency Checking (Transition Function)]] - paper - references/books/proofs-args-zk.pdf
+- [[Virgo ZKP System]] - paper - references/snowball/recursion/ref-103-transparent-polynomial-delegation-and-its-applic.pdf
+- [[Wiring Predicate (add_i  mult_i)]] - paper - references/books/proofs-args-zk.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -52,49 +52,40 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 10 edges to [[_COMMUNITY_Community 0]]
-- 10 edges to [[_COMMUNITY_Community 15]]
-- 7 edges to [[_COMMUNITY_Community 27]]
-- 7 edges to [[_COMMUNITY_Community 58]]
-- 5 edges to [[_COMMUNITY_Community 35]]
-- 5 edges to [[_COMMUNITY_Community 28]]
-- 4 edges to [[_COMMUNITY_Community 22]]
-- 4 edges to [[_COMMUNITY_Community 32]]
-- 4 edges to [[_COMMUNITY_Community 64]]
-- 3 edges to [[_COMMUNITY_Community 36]]
-- 3 edges to [[_COMMUNITY_Community 80]]
-- 3 edges to [[_COMMUNITY_Community 68]]
-- 3 edges to [[_COMMUNITY_Community 67]]
-- 3 edges to [[_COMMUNITY_Community 2]]
+- 10 edges to [[_COMMUNITY_Community 47]]
+- 7 edges to [[_COMMUNITY_Community 20]]
+- 6 edges to [[_COMMUNITY_Community 11]]
+- 6 edges to [[_COMMUNITY_Community 33]]
+- 6 edges to [[_COMMUNITY_Community 50]]
+- 4 edges to [[_COMMUNITY_Community 8]]
+- 4 edges to [[_COMMUNITY_Community 23]]
+- 3 edges to [[_COMMUNITY_Community 22]]
+- 3 edges to [[_COMMUNITY_Community 4]]
 - 3 edges to [[_COMMUNITY_Community 87]]
-- 3 edges to [[_COMMUNITY_Community 18]]
-- 2 edges to [[_COMMUNITY_Community 46]]
+- 3 edges to [[_COMMUNITY_Community 92]]
+- 3 edges to [[_COMMUNITY_Community 68]]
+- 2 edges to [[_COMMUNITY_Community 72]]
+- 2 edges to [[_COMMUNITY_Community 94]]
+- 2 edges to [[_COMMUNITY_Community 83]]
+- 2 edges to [[_COMMUNITY_Community 49]]
+- 2 edges to [[_COMMUNITY_Community 51]]
+- 2 edges to [[_COMMUNITY_Community 124]]
+- 2 edges to [[_COMMUNITY_Community 5]]
+- 2 edges to [[_COMMUNITY_Community 71]]
 - 2 edges to [[_COMMUNITY_Community 96]]
-- 2 edges to [[_COMMUNITY_Community 70]]
-- 2 edges to [[_COMMUNITY_Community 29]]
-- 2 edges to [[_COMMUNITY_Community 88]]
-- 2 edges to [[_COMMUNITY_Community 1]]
-- 2 edges to [[_COMMUNITY_Community 10]]
-- 2 edges to [[_COMMUNITY_Community 31]]
 - 1 edge to [[_COMMUNITY_Community 17]]
-- 1 edge to [[_COMMUNITY_Community 65]]
-- 1 edge to [[_COMMUNITY_Community 89]]
-- 1 edge to [[_COMMUNITY_Community 53]]
-- 1 edge to [[_COMMUNITY_Community 106]]
-- 1 edge to [[_COMMUNITY_Community 75]]
-- 1 edge to [[_COMMUNITY_Community 128]]
-- 1 edge to [[_COMMUNITY_Community 12]]
-- 1 edge to [[_COMMUNITY_Community 30]]
-- 1 edge to [[_COMMUNITY_Community 8]]
-- 1 edge to [[_COMMUNITY_Community 62]]
-- 1 edge to [[_COMMUNITY_Community 112]]
-- 1 edge to [[_COMMUNITY_Community 103]]
-- 1 edge to [[_COMMUNITY_Community 19]]
-- 1 edge to [[_COMMUNITY_Community 124]]
+- 1 edge to [[_COMMUNITY_Community 73]]
+- 1 edge to [[_COMMUNITY_Community 1]]
+- 1 edge to [[_COMMUNITY_Community 28]]
+- 1 edge to [[_COMMUNITY_Community 18]]
+- 1 edge to [[_COMMUNITY_Community 7]]
+- 1 edge to [[_COMMUNITY_Community 125]]
+- 1 edge to [[_COMMUNITY_Community 142]]
+- 1 edge to [[_COMMUNITY_Community 74]]
 
 ## Top bridge nodes
-- [[Polynomial Commitment Scheme]] - degree 105, connects to 36 communities
-- [[Ligero]] - degree 7, connects to 4 communities
-- [[Masking Polynomial (ZK via Random Polynomial Blinding)]] - degree 7, connects to 3 communities
-- [[Supersonic  DARK SNARK]] - degree 5, connects to 3 communities
-- [[Theorem 3 family of preprocessing SNARKs for CCS via PIOP + sparse poly commitment + Fiat-Shamir]] - degree 5, connects to 3 communities
+- [[GKR protocol doubly-efficient interactive proof for bounded-depth computation via layer-by-layer sumcheck reduction; prover need not commit to full trace]] - degree 50, connects to 17 communities
+- [[Arithmetic Circuit]] - degree 40, connects to 16 communities
+- [[Libra]] - degree 5, connects to 3 communities
+- [[Virgo ZKP System]] - degree 4, connects to 3 communities
+- [[Wiring Predicate (add_i  mult_i)]] - degree 6, connects to 2 communities

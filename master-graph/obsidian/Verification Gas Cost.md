@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 102"
+community: "Community 104"
 location: "Chapter 8"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_102
+  - community/Community_104
 ---
 
 # Verification Gas Cost
@@ -17,4 +17,4 @@ tags:
 - [[Proof Aggregation]] - `explains` [EXTRACTED]
 - [[Proof Verification]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_102
+#graphify/document #graphify/EXTRACTED #community/Community_104

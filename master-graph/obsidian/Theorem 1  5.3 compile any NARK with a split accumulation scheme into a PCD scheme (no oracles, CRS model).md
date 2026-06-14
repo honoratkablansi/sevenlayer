@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf"
 type: "paper"
-community: "Community 38"
+community: "Community 31"
 location: "Thm 1 (§1.1) / Thm 5.3 (§5)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_38
+  - community/Community_31
 ---
 
 # Theorem 1 / 5.3: compile any NARK with a split accumulation scheme into a PCD scheme (no oracles, CRS model)
@@ -19,4 +19,4 @@ tags:
 - [[Recursion circuit via split accumulation (IVCPCD prover recurses only on instance parts of proofaccumulator)]] - `conceptually_related_to` [EXTRACTED]
 - [[Split Accumulation]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_38
+#graphify/paper #graphify/EXTRACTED #community/Community_31

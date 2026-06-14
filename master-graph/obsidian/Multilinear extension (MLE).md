@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch03/ref-16-jolt.pdf"
 type: "paper"
-community: "Community 27"
+community: "Community 47"
 location: "§2.1, Lemma 1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_27
+  - community/Community_47
 ---
 
 # Multilinear extension (MLE)
@@ -14,14 +14,17 @@ tags:
 ## Connections
 - [[Arithmetization]] - `uses` [EXTRACTED]
 - [[Avoiding relay gates inputsoutputs at arbitrary circuit layers via multilinear-extension combination (Eq. 2)]] - `assumes` [EXTRACTED]
-- [[Boolean Hypercube]] - `uses` [EXTRACTED]
+- [[Boolean Hypercube]] - `relates_to` [EXTRACTED]
 - [[CMT protocol (Cormode-Mitzenmacher-Thaler interactive proof for layered arithmetic circuits)]] - `assumes` [EXTRACTED]
+- [[Circuit Transcript]] - `uses` [EXTRACTED]
 - [[Closed-form MLE of Fourier matrix F~(u,x) = prod((1-u_i)+u_iomegaX_{2{i+1}}), bookkeeping table in O(M+N)]] - `conceptually_related_to` [EXTRACTED]
 - [[Counting Triangles IP]] - `uses` [EXTRACTED]
+- [[Distance Amplification]] - `relates_to` [EXTRACTED]
 - [[Efficient Prover for Product-of-MLEs]] - `uses` [EXTRACTED]
 - [[Encoding of R1CS as a degree-3 log m-variate polynomial G_{io,τ} summing to 0 (Theorem 4.1)]] - `assumes` [EXTRACTED]
 - [[Expanded Evaluation Relation RB_eval]] - `conceptually_related_to` [EXTRACTED]
 - [[Extractable verifiable polynomial-delegation protocol with knowledge soundness (vSQL Construction 2)]] - `assumes` [EXTRACTED]
+- [[Finite Field Arithmetic]] - `uses` [EXTRACTED]
 - [[GKR protocol doubly-efficient interactive proof for bounded-depth computation via layer-by-layer sumcheck reduction; prover need not commit to full trace]] - `uses` [EXTRACTED]
 - [[Gate Value Function (W_i)]] - `uses` [EXTRACTED]
 - [[Generalized Committed Linear Relation R_lin,B]] - `conceptually_related_to` [EXTRACTED]
@@ -36,6 +39,7 @@ tags:
 - [[Proofs, Arguments, and Zero-Knowledge (Justin Thaler, survey textbook)]] - `explains` [EXTRACTED]
 - [[R1CS (Rank-1 Constraint Systems)]] - `conceptually_related_to` [EXTRACTED]
 - [[Reducing Multiple Polynomial Evaluations to One]] - `uses` [EXTRACTED]
+- [[Schwartz-Zippel Lemma]] - `applies` [EXTRACTED]
 - [[Sparse multilinear polynomial commitment (Spartan compiler)]] - `uses` [EXTRACTED]
 - [[Sum-Check Protocol]] - `uses` [EXTRACTED]
 - [[Super-Efficient MatMult IP]] - `uses` [EXTRACTED]
@@ -44,4 +48,4 @@ tags:
 - [[Univariate Lagrange Interpolation]] - `uses` [EXTRACTED]
 - [[Wiring Predicate (add_i  mult_i)]] - `uses` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_27
+#graphify/paper #graphify/EXTRACTED #community/Community_47

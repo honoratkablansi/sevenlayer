@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 8"
+community: "Community 11"
 location: "Chapter 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_8
+  - community/Community_11
 ---
 
 # PLONK
@@ -21,10 +21,13 @@ tags:
 - [[Choreographing the Act]] - `references` [EXTRACTED]
 - [[Coda]] - `references` [EXTRACTED]
 - [[Compact's Disclosure Analysis]] - `conceptually_related_to` [EXTRACTED]
+- [[Copy Constraint (Wiring)]] - `uses` [EXTRACTED]
+- [[Custom Gate (Selector Polynomial)]] - `uses` [EXTRACTED]
 - [[Customizable Constraint Systems for Succinct Arguments]] - `conceptually_related_to` [EXTRACTED]
 - [[Encoding the Performance]] - `references` [EXTRACTED]
 - [[Extended PLONK permutation argument (tau') tying circuit trace T(X) to witness polynomial W(X)]] - `conceptually_related_to` [EXTRACTED]
 - [[FFLONK]] - `conceptually_related_to` [INFERRED]
+- [[Fiat-Shamir Transform]] - `uses` [EXTRACTED]
 - [[Fiat-Shamir Vulnerabilities]] - `references` [EXTRACTED]
 - [[Folding Scheme]] - `defines` [EXTRACTED]
 - [[Frozen Heart Forgery of Zero Knowledge Proofs (Trail of Bits, 2022)]] - `references` [EXTRACTED]
@@ -33,7 +36,9 @@ tags:
 - [[Glossary of Key Terms]] - `defines` [EXTRACTED]
 - [[Groth16]] - `conceptually_related_to` [INFERRED]
 - [[Halo 2  UltraPlonk]] - `implements` [EXTRACTED]
-- [[HyperPlonk]] - `improves` [EXTRACTED]
+- [[HyperPlonk]] - `generalizes` [EXTRACTED]
+- [[Interactive Oracle Proofs]] - `uses` [EXTRACTED]
+- [[KZG Polynomial Commitments from pairings (with trusted setup); Dory transparent pairing-based scheme]] - `uses` [EXTRACTED]
 - [[Layer 1 -- Building the Stage]] - `references` [EXTRACTED]
 - [[Layer 4 -- Arithmetization]] - `references` [EXTRACTED]
 - [[Layer 5 -- The Sealed Certificate]] - `references` [EXTRACTED]
@@ -49,18 +54,22 @@ tags:
 - [[Nightstream What a Folding Engine Looks Like from the Inside]] - `references` [EXTRACTED]
 - [[Open Questions and the Road Ahead]] - `references` [EXTRACTED]
 - [[PLONK Permutations over Lagrange-bases for Oecumenical Noninteractive arguments of Knowledge]] - `defines` [EXTRACTED]
+- [[PLONKish Arithmetization]] - `generalizes` [EXTRACTED]
 - [[Permutation Argument]] - `uses` [EXTRACTED]
 - [[Photo-edit circuits in Plonky2 crop, grayscale, bilinear resize, box blur (fixed-point, AP-acceptable edits)]] - `assumes` [EXTRACTED]
 - [[Plonky2]] - `references` [EXTRACTED]
 - [[Plookup]] - `uses` [EXTRACTED]
 - [[Polynomial Commitment Scheme]] - `uses` [EXTRACTED]
+- [[Polynomial IOP (Poly-IOP)]] - `builds_on` [EXTRACTED]
+- [[Polynomial IOP  interactive oracle protocol]] - `uses` [EXTRACTED]
+- [[Prescribed Permutation Check]] - `uses` [EXTRACTED]
 - [[Proof Aggregation The Missing Layer]] - `references` [EXTRACTED]
 - [[Protostar Generic Efficient AccumulationFolding for Special-sound Protocols]] - `conceptually_related_to` [EXTRACTED]
 - [[R1CS (Rank-1 Constraint Systems)]] - `uses` [EXTRACTED]
 - [[RISC-V Convergence]] - `conceptually_related_to` [EXTRACTED]
 - [[Recursive Proof Composition]] - `conceptually_related_to` [INFERRED]
 - [[Relaxed Arithmetization]] - `defines` [EXTRACTED]
-- [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `improves` [EXTRACTED]
+- [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `defines` [EXTRACTED]
 - [[SNARK Recursion vs. Folding The Full Picture]] - `references` [EXTRACTED]
 - [[STARK]] - `compares` [EXTRACTED]
 - [[Snarky Ceremonies]] - `references` [EXTRACTED]
@@ -88,7 +97,8 @@ tags:
 - [[When the Transcript Lies Fiat-Shamir Vulnerabilities]] - `references` [EXTRACTED]
 - [[Where Midnight Validates the Model]] - `references` [EXTRACTED]
 - [[ZK Rollups The Proving Grounds (Production)]] - `references` [EXTRACTED]
+- [[ZeroTest on Omega]] - `uses` [EXTRACTED]
 - [[zk-SNARK]] - `conceptually_related_to` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_8
+#graphify/document #graphify/EXTRACTED #community/Community_11

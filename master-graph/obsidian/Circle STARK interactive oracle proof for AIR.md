@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-23-circle-starks.pdf"
 type: "paper"
-community: "Community 34"
+community: "Community 32"
 location: "§5, §5.2 Protocol 3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_34
+  - community/Community_32
 ---
 
 # Circle STARK interactive oracle proof for AIR
@@ -21,4 +21,4 @@ tags:
 - [[Optimized non-zk circle STARK (eval domain superset of trace, group position)]] - `conceptually_related_to` [EXTRACTED]
 - [[STARK]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_34
+#graphify/paper #graphify/EXTRACTED #community/Community_32

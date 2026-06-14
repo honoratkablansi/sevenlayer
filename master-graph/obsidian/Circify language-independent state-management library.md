@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-33-circ.pdf"
 type: "paper"
-community: "Community 57"
+community: "Community 49"
 location: "§3.2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_57
+  - community/Community_49
 ---
 
 # Circify: language-independent state-management library
@@ -18,4 +18,4 @@ tags:
 - [[Guarded SSA versioning via ITE terms]] - `defines` [EXTRACTED]
 - [[ZKlog Datalog dialect front-end]] - `shares_data_with` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_57
+#graphify/paper #graphify/EXTRACTED #community/Community_49

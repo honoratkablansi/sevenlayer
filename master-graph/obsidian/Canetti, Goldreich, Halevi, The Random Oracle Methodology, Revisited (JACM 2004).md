@@ -1,12 +1,12 @@
 ---
 source_file: "recursion/recursion-outline.md"
 type: "document"
-community: "Community 32"
+community: "Community 17"
 location: "Recursion Chapter 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_32
+  - community/Community_17
 ---
 
 # Canetti, Goldreich, Halevi, "The Random Oracle Methodology, Revisited" (JACM 2004)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Fiat-Shamir Transform]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_32
+#graphify/document #graphify/EXTRACTED #community/Community_17

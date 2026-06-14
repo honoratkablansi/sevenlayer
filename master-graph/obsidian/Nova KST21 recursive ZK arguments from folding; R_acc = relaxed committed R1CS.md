@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch2/ref-47-protogalaxy.pdf"
 type: "paper"
-community: "Community 7"
+community: "Community 64"
 location: "§3.2, References [KST21]"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_7
+  - community/Community_64
 ---
 
 # Nova [KST21]: recursive ZK arguments from folding; R_acc = relaxed committed R1CS
@@ -15,4 +15,4 @@ tags:
 - [[Accumulation Schemes]] - `conceptually_related_to` [EXTRACTED]
 - [[ProtoGalaxy Efficient ProtoStar-style folding of multiple instances (Eagen & Gabizon, ePrint 20231106)]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_7
+#graphify/paper #graphify/EXTRACTED #community/Community_64

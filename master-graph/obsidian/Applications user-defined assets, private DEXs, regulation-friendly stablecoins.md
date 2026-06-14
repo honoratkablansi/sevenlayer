@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-90-zexe.pdf"
 type: "paper"
-community: "Community 55"
+community: "Community 48"
 location: "§1.1; §6"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_55
+  - community/Community_48
 ---
 
 # Applications: user-defined assets, private DEXs, regulation-friendly stablecoins
@@ -16,4 +16,4 @@ tags:
 - [[Records nano-kernel (RNK) minimalist shared execution environment over records]] - `conceptually_related_to` [EXTRACTED]
 - [[Zexe a ledger-based system for decentralized private computation]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_55
+#graphify/paper #graphify/EXTRACTED #community/Community_48

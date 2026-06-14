@@ -1,38 +1,38 @@
 ---
 type: community
-cohesion: 0.09
+cohesion: 0.15
 members: 23
 ---
 
 # Community 48
 
-**Cohesion:** 0.09 - loosely connected
+**Cohesion:** 0.15 - loosely connected
 **Members:** 23 nodes
 
 ## Members
-- [[ASP construction strategies (add-with-delayexclude-bad, $Nmonthperson, trusted-community, real-time AI scoring)]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
-- [[Anonymity set]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
-- [[Association Set Provider (ASP) intermediary]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
-- [[Association set (custom set of possible fund origins)]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
-- [[Bilateral direct proof (size-one association set; timestamping-service variant)]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
-- [[Blockchain Privacy]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
-- [[Blockchain Privacy and Regulatory Compliance Towards a Practical Equilibrium]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
-- [[CoinJoin (Bitcoin mixing)]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
-- [[Derecho Privacy Pools with proof-carrying disclosures (Beal & Fisch)]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
-- [[Dissociation game (AliceBobCarlDavid vs Eve elimination example)]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
-- [[Exclusion proof ('my withdrawal does not come from one of these deposits')]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
-- [[Fraud Proof System]] - document - references/ch08/ref-27-l2beat-stages.md
-- [[L2BEAT Stages Framework for L2 Maturity]] - document - references/ch08/ref-27-l2beat-stages.md
-- [[Linkable ring signature (Monero mixing)]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
-- [[Membership proof ('my withdrawal comes from one of these deposits')]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
-- [[Nadler & Schaer, Tornado Cash and blockchain privacy primer]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
-- [[Neutral, censorship-resistant infrastructure  jurisdiction-flexible compliance argument]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
-- [[Privacy Pools]] - document - proving-nothing.md
-- [[Regulatory Compliance]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
-- [[Rejected designs centralized access & system-wide entry allowlisting (central point of failure)]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
-- [[Separating equilibrium between compliant and non-compliant withdrawals]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
-- [[Sequential proofs  inclusion-delay handling via forwarded Merkle branches & secrets]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
-- [[Vitalik Buterin]] - document - references/ch08/ref-27-l2beat-stages.md
+- [[Applications user-defined assets, private DEXs, regulation-friendly stablecoins]] - paper - references/recursion/ch3/ref-90-zexe.pdf
+- [[Bespoke depth-2 (one-layer) recursion inner predicate proofs verified by outer proof]] - paper - references/recursion/ch3/ref-90-zexe.pdf
+- [[Birth and death predicates governing record creation and consumption]] - paper - references/recursion/ch3/ref-90-zexe.pdf
+- [[Cocks-Pinch bounded recursion BLS12 curve E_BLS + Cocks-Pinch curve E_CP (avoids full cycle)]] - paper - references/recursion/ch3/ref-90-zexe.pdf
+- [[Coda MS18 arbitrary-depth recursive SNARK composition for succinct blockchains]] - paper - references/recursion/ch3/ref-90-zexe.pdf
+- [[Consumability each record consumable at least and at most once (anti faerie-gold)]] - paper - references/recursion/ch3/ref-90-zexe.pdf
+- [[DPC security construction realizes F_DPC under simulation-extractable NIZK (proof in App. A)]] - paper - references/recursion/ch3/ref-90-zexe.pdf
+- [[Data privacy transaction hides payloadsinputsoutputs of records]] - paper - references/recursion/ch3/ref-90-zexe.pdf
+- [[Decentralized Private Computation (DPC) scheme]] - paper - references/recursion/ch3/ref-90-zexe.pdf
+- [[Delegable DPC delegate proof generation to untrusted worker via randomizable signatures]] - paper - references/recursion/ch3/ref-90-zexe.pdf
+- [[Function privacy transaction hides WHICH predicatefunction was executed]] - paper - references/recursion/ch3/ref-90-zexe.pdf
+- [[Groth-Maller simulation-extractable zkSNARK GM17 used in implementation]] - paper - references/recursion/ch3/ref-90-zexe.pdf
+- [[Hawk KMS+16 offline computation with data privacy but no function privacy]] - paper - references/recursion/ch3/ref-90-zexe.pdf
+- [[Ideal functionality F_DPC capturing DPC security (UC-style, single execution)]] - paper - references/recursion/ch3/ref-90-zexe.pdf
+- [[Pedersen commitmentshashes over twisted Edwards curves E_EdBLS, E_EdCP for efficient circuits]] - paper - references/recursion/ch3/ref-90-zexe.pdf
+- [[Prior recursive SNARK composition over a 2-cycle of curves BCTV17]] - paper - references/recursion/ch3/ref-90-zexe.pdf
+- [[Record (commitment, address pk, payload, birthdeath predicate, serial number)]] - paper - references/recursion/ch3/ref-90-zexe.pdf
+- [[Records nano-kernel (RNK) minimalist shared execution environment over records]] - paper - references/recursion/ch3/ref-90-zexe.pdf
+- [[Succinctness transactions validated in time independent of offline computation (968 bytes)]] - paper - references/recursion/ch3/ref-90-zexe.pdf
+- [[The 'execute' NP statement R_e proved in zero knowledge per transaction]] - paper - references/recursion/ch3/ref-90-zexe.pdf
+- [[Transaction non-malleability security goal]] - paper - references/recursion/ch3/ref-90-zexe.pdf
+- [[Zexe a ledger-based system for decentralized private computation]] - paper - references/recursion/ch3/ref-90-zexe.pdf
+- [[zkSNARK]] - document - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -42,21 +42,18 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 4 edges to [[_COMMUNITY_Community 4]]
-- 4 edges to [[_COMMUNITY_Community 16]]
-- 3 edges to [[_COMMUNITY_Community 12]]
-- 2 edges to [[_COMMUNITY_Community 36]]
-- 2 edges to [[_COMMUNITY_Community 60]]
-- 2 edges to [[_COMMUNITY_Community 25]]
-- 2 edges to [[_COMMUNITY_Community 22]]
-- 2 edges to [[_COMMUNITY_Community 8]]
-- 1 edge to [[_COMMUNITY_Community 33]]
-- 1 edge to [[_COMMUNITY_Community 17]]
-- 1 edge to [[_COMMUNITY_Community 32]]
+- 3 edges to [[_COMMUNITY_Community 41]]
+- 3 edges to [[_COMMUNITY_Community 81]]
+- 3 edges to [[_COMMUNITY_Community 24]]
+- 2 edges to [[_COMMUNITY_Community 128]]
+- 2 edges to [[_COMMUNITY_Community 16]]
+- 1 edge to [[_COMMUNITY_Community 94]]
+- 1 edge to [[_COMMUNITY_Community 45]]
+- 1 edge to [[_COMMUNITY_Community 26]]
 
 ## Top bridge nodes
-- [[Blockchain Privacy and Regulatory Compliance Towards a Practical Equilibrium]] - degree 12, connects to 6 communities
-- [[L2BEAT Stages Framework for L2 Maturity]] - degree 9, connects to 6 communities
-- [[Privacy Pools]] - degree 13, connects to 4 communities
-- [[Association set (custom set of possible fund origins)]] - degree 5, connects to 1 community
-- [[Anonymity set]] - degree 4, connects to 1 community
+- [[Zexe a ledger-based system for decentralized private computation]] - degree 14, connects to 3 communities
+- [[zkSNARK]] - degree 8, connects to 3 communities
+- [[Decentralized Private Computation (DPC) scheme]] - degree 10, connects to 1 community
+- [[Records nano-kernel (RNK) minimalist shared execution environment over records]] - degree 6, connects to 1 community
+- [[Bespoke depth-2 (one-layer) recursion inner predicate proofs verified by outer proof]] - degree 6, connects to 1 community

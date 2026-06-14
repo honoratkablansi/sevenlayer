@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch1/ref-24-beats-batch-ecdsa.md"
 type: "document"
-community: "Community 45"
+community: "Community 43"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_45
+  - community/Community_43
 ---
 
 # "BEATS: Batch ECDSA Transaction verification Scheme" / Scalable batch verification of ECDSA for blockchain using IVC (Fr
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[Recursion References (cited works)]] - `cites` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_45
+#graphify/document #graphify/EXTRACTED #community/Community_43

@@ -1,18 +1,19 @@
 ---
 type: community
 cohesion: 0.67
-members: 3
+members: 4
 ---
 
 # Community 141
 
 **Cohesion:** 0.67 - moderately connected
-**Members:** 3 nodes
+**Members:** 4 nodes
 
 ## Members
-- [[BatchZK Pipelining (2025)]] - document - proving-nothing.md
-- [[Ozdemir, Laufer, Boneh Algebraic RAM (S&P 2025, ePrint 2024979)]] - document - proving-nothing.md
-- [[RAM Consistency  Memory Checking]] - document - proving-nothing.md
+- [[EZKL  Modulus Labs zkML systems documentation]] - document - references/recursion/ch3/ref-72-ezkl-modulus-docs.md
+- [[Lilith distributed proof-generation cluster]] - document - references/recursion/ch3/ref-72-ezkl-modulus-docs.md
+- [[ONNX-to-ZK-circuit compilation]] - document - references/recursion/ch3/ref-72-ezkl-modulus-docs.md
+- [[Proof of correct model execution]] - document - references/recursion/ch3/ref-72-ezkl-modulus-docs.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -22,10 +23,9 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 1 edge to [[_COMMUNITY_Community 86]]
-- 1 edge to [[_COMMUNITY_Community 5]]
-- 1 edge to [[_COMMUNITY_Community 9]]
+- 1 edge to [[_COMMUNITY_Community 22]]
+- 1 edge to [[_COMMUNITY_Community 79]]
 
 ## Top bridge nodes
-- [[BatchZK Pipelining (2025)]] - degree 3, connects to 2 communities
-- [[RAM Consistency  Memory Checking]] - degree 2, connects to 1 community
+- [[Proof of correct model execution]] - degree 3, connects to 1 community
+- [[EZKL  Modulus Labs zkML systems documentation]] - degree 3, connects to 1 community

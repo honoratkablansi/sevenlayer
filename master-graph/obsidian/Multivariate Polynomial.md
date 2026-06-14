@@ -1,12 +1,12 @@
 ---
 source_file: "references/books/proofs-args-zk.pdf"
 type: "paper"
-community: "Community 27"
+community: "Community 47"
 location: "Definitions and Technical Preliminaries"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_27
+  - community/Community_47
 ---
 
 # Multivariate Polynomial
@@ -16,4 +16,4 @@ tags:
 - [[Multilinear Polynomial Commitment]] - `special_case_of` [EXTRACTED]
 - [[Schwartz-Zippel Lemma]] - `uses` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_27
+#graphify/paper #graphify/EXTRACTED #community/Community_47

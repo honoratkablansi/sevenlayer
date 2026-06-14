@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch3/ref-68-do-178c-avionics-certification.md"
 type: "document"
-community: "Community 23"
+community: "Community 18"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_23
+  - community/Community_18
 ---
 
 # Design assurance levels / certification rigor
@@ -15,4 +15,4 @@ tags:
 - [[DO-178C Software Considerations in Airborne Systems]] - `introduces` [EXTRACTED]
 - [[High-integrity and embedded systems]] - `conceptually_related_to` [INFERRED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_23
+#graphify/document #graphify/EXTRACTED #community/Community_18

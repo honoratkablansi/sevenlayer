@@ -1,35 +1,36 @@
 ---
 type: community
-cohesion: 0.17
-members: 20
+cohesion: 0.14
+members: 21
 ---
 
 # Community 63
 
-**Cohesion:** 0.17 - loosely connected
-**Members:** 20 nodes
+**Cohesion:** 0.14 - loosely connected
+**Members:** 21 nodes
 
 ## Members
-- [[Babai, Fortnow, Levin, Szegedy BFLS91 - holographic proofs  checking computations (prior model)]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
-- [[Bare-bones protocol (Theorem 3.1) IP given oracle access to low-degree extensions of wiring predicates add_imult_i specifying circuit]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
-- [[Corollary 1.2 for L-uniform NC, prover poly(n), verifier npolylog(n) time and O(log n) space, communication polylog(n)]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
-- [[Corollary 1.4 public-coin O(log n)-space poly-time verifier IP for all of P (resolves open question on power of log-space public-coin verifiers)]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
-- [[Delegating Computation Interactive Proofs for Muggles (GKR, STOC 2008  full version)]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
-- [[Delegation of computation (delegator verifies untrusted delegatee)]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
-- [[Improved Interactive PCP (IPCP) and efficient-prover Probabilistically Checkable Argument (PCA) for NC relations]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
-- [[Kalai, Raz KR08,KR09 - public-coin IP to 1-round argument transformation via PIR; IPCP and PCA notions]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
-- [[Kilian Kil92,Kil95 - PCP+Merkle-hash argument for NP with polylog communication (argument setting under computational assumptions)]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
-- [[Layer-to-layer reduction reduce verifying one point of LDE of layer i to one point of layer i+1 via sum-check over fz(p,w1,w2) using ~add_i,~mult_i,~beta,~V_i]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
-- [[Lund, Fortnow, Karloff, Nisson LFKN92 - algebraic methods  sum-check for P (prior IP work)]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
-- [[Micali Mic94 - CS proofs in the random oracle model (non-interactive delegation precursor)]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
-- [[Private Information Retrieval (poly-log PIR) used to compile public-coin IP into one-round argument]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
-- [[Shamir Sha92 - IP = PSPACE (prior IP work)]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
-- [[Theorem 1.1 public-coin IP for O(log S)-space-uniform circuits; verifier npoly(d,log S) time, O(log S) space; prover poly(S); communication dpolylog(S)]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
-- [[Theorem 1.3 1-round computationally-sound argument for L-uniform NC via Kalai-Raz PIR transformation; certificate poly(kappa,log n)]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
-- [[Theorem 1.61.7 communication-efficient (quasi-linear in witness) zero-knowledge IP for NP relations verifiable in NC, assuming one-way functions]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
-- [[Theorem 4.4 IP implementing bare-bones protocol for NL  space-s(n) time-t(n) nondeterministic TMs; verifier computes ~add_i,~mult_i in polylog time]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
-- [[Utilizing uniformity verifier computes LDE of wiring predicate from short implicit circuit representation; prover proves predicate via NL sub-protocol]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
-- [[Wiring predicates add_i, mult_i and their low-degree extensions ~add_i, ~mult_i (specify which gate triplets are connected)]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
+- [[Algebraic-attack security interpolation and Groebner-basis attacks dominate; degree D_alpha(r) = alphar; round bounds derived from degree-of-regularity  monomial-count estimates (Eq. 3,4,10)]] - paper - references/recursion/ch1/ref-31-poseidon.pdf
+- [[Cited attack work KR21 (Mind the Middle Layer) and BCD+20 (Out of Oddity) - linear-layersubspace attacks motivating the new MDS assumption; ABM23 algebraic cryptanalysis of Poseidon]] - paper - references/recursion/ch1/ref-31-poseidon.pdf
+- [[Cited competitor Pedersen hash HBHW19 - Zcash 256-bit hash, ~1.7 constraintsbit baseline Poseidon improves on]] - paper - references/recursion/ch1/ref-31-poseidon.pdf
+- [[Cited prior work HADES design strategy  HADESMiMC GLR+20 - the keyed SPN family Poseidon-pi instantiates]] - paper - references/recursion/ch1/ref-31-poseidon.pdf
+- [[Cited prior work MiMC AGR+16 - algebraically simple cube S-box, minimal multiplicative complexity, inspiration for Poseidon]] - paper - references/recursion/ch1/ref-31-poseidon.pdf
+- [[Cited prior work sponge construction and its indifferentiability BDPA08]] - paper - references/recursion/ch1/ref-31-poseidon.pdf
+- [[Cited prior work wide trail design strategy DR01  AES DR02 - basis for full-round statistical security]] - paper - references/recursion/ch1/ref-31-poseidon.pdf
+- [[Cited priorcompetitor work RescueVision (MARVELlous) AABS+19 - full S-box layers with x{1d}, primebinary STARK-friendly hashes]] - paper - references/recursion/ch1/ref-31-poseidon.pdf
+- [[Full rounds (RF = 2Rf) t S-boxes applied to full state; protect against statistical attacks via wide trail strategy]] - paper - references/recursion/ch1/ref-31-poseidon.pdf
+- [[HADES design strategy mix RF full-S-box rounds (outer) with RP partial-S-box rounds (middle), one S-box in partial rounds]] - paper - references/recursion/ch1/ref-31-poseidon.pdf
+- [[Linear-layer assumption fix choosing the MDS matrix to forbid infinite subspace trails blocks the S(i)-subspace Groebner attack of KR21,BCD+20]] - paper - references/recursion/ch1/ref-31-poseidon.pdf
+- [[MixLayer t-by-t MDS (Cauchy) matrix linear layer realizing wide trail strategy; matrix chosen to block infinite subspace trails]] - paper - references/recursion/ch1/ref-31-poseidon.pdf
+- [[Partial rounds (RP) single S-box plus (t-1) identity functions; cheap way to raise algebraic degree, reduce R1CSAET cost]] - paper - references/recursion/ch1/ref-31-poseidon.pdf
+- [[Poseidon-pi internal permutation t-word SPN family over F_p, variant of HADESMiMC with fixed known key]] - paper - references/recursion/ch1/ref-31-poseidon.pdf
+- [[Poseidon A New Hash Function for Zero-Knowledge Proof Systems (Grassi et al., USENIX Security 2021, updated version)]] - paper - references/recursion/ch1/ref-31-poseidon.pdf
+- [[Power-map S-box S(x)=xalpha, alpha=3 smallest integer with gcd(alpha,p-1)=1 (typically x3 or x5)]] - paper - references/recursion/ch1/ref-31-poseidon.pdf
+- [[R1CS constraint count 2tRF+2RP for x3, 3tRF+3RP for x5; up to 8x fewer constraintsbit than Pedersen hash]] - paper - references/recursion/ch1/ref-31-poseidon.pdf
+- [[Round-number selection choose minimal RF (=6) for statistical attacks, minimize tRF+RP subject to algebraic-attack bounds, plus margin (+2 RF, +7.5% RP)]] - paper - references/recursion/ch1/ref-31-poseidon.pdf
+- [[Security claims Poseidon-M is 2M-secure vs collisions and (second) preimages; Poseidon-pi is 2{min(M,m1,m2)}-secure vs CICO problem]] - paper - references/recursion/ch1/ref-31-poseidon.pdf
+- [[Sponge construction over the permutation rate r + capacity c; indifferentiable from random oracle up to 2{c2} calls]] - paper - references/recursion/ch1/ref-31-poseidon.pdf
+- [[Statistical-attack security =6 full rounds (RF) needed; cubex5 S-boxes are APN-like (DPmax 2p, 4p) so full rounds + wide trail resist differentiallineartruncatedreboundsubspace attacks]] - paper - references/recursion/ch1/ref-31-poseidon.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -39,16 +40,14 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 4 edges to [[_COMMUNITY_Community 27]]
-- 3 edges to [[_COMMUNITY_Community 28]]
-- 3 edges to [[_COMMUNITY_Community 18]]
-- 1 edge to [[_COMMUNITY_Community 36]]
-- 1 edge to [[_COMMUNITY_Community 68]]
-- 1 edge to [[_COMMUNITY_Community 15]]
+- 5 edges to [[_COMMUNITY_Community 3]]
+- 1 edge to [[_COMMUNITY_Community 17]]
+- 1 edge to [[_COMMUNITY_Community 120]]
+- 1 edge to [[_COMMUNITY_Community 125]]
 
 ## Top bridge nodes
-- [[Delegating Computation Interactive Proofs for Muggles (GKR, STOC 2008  full version)]] - degree 20, connects to 3 communities
-- [[Delegation of computation (delegator verifies untrusted delegatee)]] - degree 7, connects to 3 communities
-- [[Theorem 1.1 public-coin IP for O(log S)-space-uniform circuits; verifier npoly(d,log S) time, O(log S) space; prover poly(S); communication dpolylog(S)]] - degree 9, connects to 2 communities
-- [[Layer-to-layer reduction reduce verifying one point of LDE of layer i to one point of layer i+1 via sum-check over fz(p,w1,w2) using ~add_i,~mult_i,~beta,~V_i]] - degree 4, connects to 2 communities
-- [[Bare-bones protocol (Theorem 3.1) IP given oracle access to low-degree extensions of wiring predicates add_imult_i specifying circuit]] - degree 5, connects to 1 community
+- [[Sponge construction over the permutation rate r + capacity c; indifferentiable from random oracle up to 2{c2} calls]] - degree 5, connects to 2 communities
+- [[R1CS constraint count 2tRF+2RP for x3, 3tRF+3RP for x5; up to 8x fewer constraintsbit than Pedersen hash]] - degree 4, connects to 2 communities
+- [[Poseidon A New Hash Function for Zero-Knowledge Proof Systems (Grassi et al., USENIX Security 2021, updated version)]] - degree 4, connects to 1 community
+- [[Power-map S-box S(x)=xalpha, alpha=3 smallest integer with gcd(alpha,p-1)=1 (typically x3 or x5)]] - degree 4, connects to 1 community
+- [[Cited competitor Pedersen hash HBHW19 - Zcash 256-bit hash, ~1.7 constraintsbit baseline Poseidon improves on]] - degree 2, connects to 1 community

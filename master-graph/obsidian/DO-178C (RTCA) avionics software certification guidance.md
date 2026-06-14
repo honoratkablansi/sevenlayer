@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch3/ref-68-do-178c-avionics-certification.md"
 type: "document"
-community: "Community 23"
+community: "Community 18"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_23
+  - community/Community_18
 ---
 
 # DO-178C (RTCA) avionics software certification guidance
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[DO-178C Software Considerations in Airborne Systems]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_23
+#graphify/document #graphify/EXTRACTED #community/Community_18

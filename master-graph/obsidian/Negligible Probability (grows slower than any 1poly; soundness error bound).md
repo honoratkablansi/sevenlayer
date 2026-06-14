@@ -1,12 +1,12 @@
 ---
 source_file: "references/mooc/lecture01/slides.pdf"
 type: "paper"
-community: "Community 53"
+community: "Community 7"
 location: "ZKP MOOC Lecture 1 (transcript)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_53
+  - community/Community_7
 ---
 
 # Negligible Probability (grows slower than any 1/poly; soundness error bound)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Soundness]] - `uses` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_53
+#graphify/paper #graphify/EXTRACTED #community/Community_7

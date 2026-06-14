@@ -1,12 +1,12 @@
 ---
 source_file: "references/books/proofs-args-zk.pdf"
 type: "paper"
-community: "Community 112"
+community: "Community 80"
 location: "Zero-Knowledge and Sigma-Protocols"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_112
+  - community/Community_80
 ---
 
 # Computational Zero-Knowledge
@@ -19,4 +19,4 @@ tags:
 - [[ZKP Applications (Blockchain, Forensics, Nuclear Disarmament, Legal)]] - `enables` [EXTRACTED]
 - [[Zero-Knowledge Proof]] - `special_case_of` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_112
+#graphify/paper #graphify/EXTRACTED #community/Community_80

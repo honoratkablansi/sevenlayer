@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-51-pairing-efficiency-curves.pdf"
 type: "paper"
-community: "Community 49"
+community: "Community 134"
 location: "§1 [10]"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_49
+  - community/Community_134
 ---
 
 # Freeman composite-to-prime-order conversion (cited prior work)
@@ -16,4 +16,4 @@ tags:
 - [[Composite-Order Bilinear Groups]] - `conceptually_related_to` [EXTRACTED]
 - [[Lewko generic conversion, Eurocrypt 2012 (cited prior work)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_49
+#graphify/paper #graphify/EXTRACTED #community/Community_134

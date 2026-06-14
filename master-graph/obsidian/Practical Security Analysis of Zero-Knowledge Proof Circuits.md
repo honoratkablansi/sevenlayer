@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch03/ref-13-practical-security-zk-circuits.pdf"
 type: "paper"
-community: "Community 105"
+community: "Community 94"
 location: "p.1 (title/abstract)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_105
+  - community/Community_94
 ---
 
 # Practical Security Analysis of Zero-Knowledge Proof Circuits
@@ -23,4 +23,4 @@ tags:
 - [[Under-Constrained Circuit  Missing Constraint]] - `conceptually_related_to` [INFERRED]
 - [[ZKAP (static analyzer for ZKP circuits)]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_105
+#graphify/paper #graphify/EXTRACTED #community/Community_94

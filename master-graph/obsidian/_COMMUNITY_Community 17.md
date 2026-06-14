@@ -1,54 +1,51 @@
 ---
 type: community
-cohesion: 0.19
-members: 39
+cohesion: 0.06
+members: 36
 ---
 
 # Community 17
 
-**Cohesion:** 0.19 - loosely connected
-**Members:** 39 nodes
+**Cohesion:** 0.06 - loosely connected
+**Members:** 36 nodes
 
 ## Members
-- [[AETSTARK cost wdT metric; Poseidon-128 width-3 AET cost 20540perm (40 opsbit), width-5 38214perm]] - paper - references/recursion/ch1/ref-31-poseidon.pdf
-- [[Algebraic vs Traditional Hash Functions]] - document - wiki/sections/ch04-side-channel-attacks-when-the-walls-leak.md
-- [[BLS12-381 Curve]] - document - proving-nothing.md
-- [[Cardano]] - document - wiki/sections/ch12-midnight-at-a-glance.md
-- [[Case Study Midnight (Layer 6)]] - document - wiki/sections/ch07-case-study-midnight.md
-- [[Case Study Midnight and the Three-Token Architecture]] - document - wiki/sections/ch04-memory-the-binding-constraint.md
-- [[Case Study Midnight's Sealed Certificate]] - document - wiki/sections/ch03-the-developer-s-actual-experience.md
-- [[Compact Language]] - document - wiki/chapters/03-choreographing-the-act.md
-- [[Compact Language Reference (Midnight Network)]] - document - references/ch12/ref-39-compact-language-reference.md
-- [[Compact's Disclosure Analysis]] - document - wiki/sections/ch03-compact-s-disclosure-analysis.md
-- [[Five Lessons for ZK System Design]] - document - wiki/sections/ch12-five-lessons-for-zk-system-design.md
-- [[Four-Phase Transaction Pipeline]] - document - proving-nothing.md
-- [[Full Seven-Layer Mapping]] - document - wiki/sections/ch12-full-seven-layer-mapping.md
-- [[Halo 2  UltraPlonk]] - document - proving-nothing.md
-- [[Jubjub Curve]] - document - proving-nothing.md
-- [[Local Proof Server (localhost6300)]] - document - proving-nothing.md
-- [[Midnight (Privacy Blockchain)]] - document - proving-nothing.md
-- [[Midnight -- The Privacy Theater]] - document - wiki/chapters/12-midnight-the-privacy-theater.md
-- [[Midnight Developer Guide (Midnight Docs)]] - document - references/ch12/ref-41-midnight-developer-guide.md
-- [[Midnight Reference Documentation (473pp)]] - document - proving-nothing.md
-- [[Midnight Three-Token Architecture (Night, Shielded, DUST)]] - document - proving-nothing.md
-- [[Midnight as Test Case]] - document - wiki/sections/ch12-midnight-as-test-case.md
-- [[Midnight at a Glance]] - document - wiki/sections/ch12-midnight-at-a-glance.md
-- [[Midnight's ZKIR A Concrete Layer 4]] - document - wiki/sections/ch05-midnight-s-zkir-a-concrete-layer-4.md
-- [[Midnight Compiler, IR, Circuit]] - document - wiki/sections/ch03-midnight-compiler-ir-circuit.md
-- [[MidnightJS SDK]] - document - wiki/sections/ch12-full-seven-layer-mapping.md
-- [[Poseidon Hash]] - document - proving-nothing.md
-- [[Privacy Theater Analogy]] - document - proving-nothing.md
-- [[ShieldedUnshielded UTXO Model]] - document - proving-nothing.md
-- [[Side-Channel Attacks When the Walls Leak]] - document - wiki/sections/ch04-side-channel-attacks-when-the-walls-leak.md
-- [[The Disclose Boundary Midnight's Witness Architecture]] - document - wiki/sections/ch04-the-disclose-boundary-midnight-s-witness-architecture.md
-- [[The Privacy Theater Analogy]] - document - wiki/sections/ch12-the-privacy-theater-analogy.md
-- [[Three-Token Model (NIGHTDUSTCustom)]] - document - proving-nothing.md
-- [[UTXO Model]] - document - wiki/sections/ch12-full-seven-layer-mapping.md
-- [[Verifier Key Lifecycle  Immutability]] - document - proving-nothing.md
-- [[Where Midnight Challenges the Model]] - document - wiki/sections/ch12-where-midnight-challenges-the-model.md
-- [[Where Midnight Validates the Model]] - document - wiki/sections/ch12-where-midnight-validates-the-model.md
-- [[ZKIR (Zero-Knowledge Intermediate Representation)]] - document - proving-nothing.md
-- [[ZKIR Intermediate Representation Reference (Midnight Network, stub)]] - document - references/ch12/ref-40-zkir-reference.md
+- [[Arthur-Merlin (AM) Protocols  Public-Coin Proofs]] - paper - references/mooc/lecture01/slides.pdf
+- [[Augmented Function F' (verifier circuit folding step)]] - paper - references/ch06/ref-17-nova.pdf
+- [[Bilinear Group]] - paper - references/snowball/book/ref-124-efficient-non-interactive-proof-systems-for-bili.pdf
+- [[Canetti, Goldreich, Halevi, The Random Oracle Methodology, Revisited (JACM 2004)]] - document - recursion/recursion-outline.md
+- [[Common Reference String]] - paper - references/snowball/book/ref-077-separating-succinct-non-interactive-arguments-fr.pdf
+- [[Constant Recursion Overhead (~10,000 R1CS constraints, two scalar mults)]] - paper - references/ch06/ref-17-nova.pdf
+- [[Cryptographic Hash Function]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
+- [[FS-GKR Fiat-Shamir attacks (KRS25) motivating recursion avoidance]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Fiat & Shamir, Crypto '86 (LNCS 263)]] - document - proving-nothing.md
+- [[Fiat-Shamir Transform]] - document - proving-nothing.md
+- [[Frozen Heart  Fiat-Shamir Vulnerability Class]] - document - proving-nothing.md
+- [[Frozen Heart Vulnerability (2022)]] - document - proving-nothing.md
+- [[Goldwasser, Micali, Rackoff — Knowledge Complexity of Interactive Proof Systems (1985)]] - document - proving-nothing.md
+- [[Hash Chaining]] - paper - references/books/proofs-args-zk.pdf
+- [[Interactive Proof System]] - document - proving-nothing.md
+- [[Khovratovich, Rothblum, Soukhanov, How to Prove False Statements (ePrint 2025118)]] - document - recursion/recursion-outline.md
+- [[Last Challenge Attack (2024)]] - document - proving-nothing.md
+- [[Last Challenge Attack (FS flaw in KZG-based SNARK final batching challenge)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[Non-Interactive Argument]] - paper - references/books/proofs-args-zk.pdf
+- [[Non-Interactive Folding Scheme via Fiat-Shamir (Construction 2)]] - paper - references/ch06/ref-17-nova.pdf
+- [[Non-Interactive Zero-Knowledge (NIZK)]] - paper - references/ch09/ref-30-kachina.pdf
+- [[Nova IVC Knowledge Soundness (Lemma 3  Lemma 10)]] - paper - references/ch06/ref-17-nova.pdf
+- [[Nova IVC Scheme (Construction 3)]] - paper - references/ch06/ref-17-nova.pdf
+- [[Nova IVC soundnessmalleability bug on cycle of curves (missing consistency check)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[PinocchioBCTV setup counterfeiting bug exploited in Zcash (bypass parameters forge proofs)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[Polynomial IOP for Idealized Relaxed R1CS (Construction 5)]] - paper - references/ch06/ref-17-nova.pdf
+- [[Proof-system (theoretical) vulnerabilities affecting all implementations]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[Public-Coin Protocol]] - paper - references/books/proofs-args-zk.pdf
+- [[Random Oracle Model]] - paper - references/recursion/ch1/ref-11-khovratovich-fiat-shamir-attacks.pdf
+- [[Solana ZK ElGamal Bug (2025)]] - document - proving-nothing.md
+- [[Spartan zkSNARK]] - paper - references/ch06/ref-17-nova.pdf
+- [[Time-Lock Puzzle]] - paper - references/snowball/recursion/ref-116-a-survey-of-two-verifiable-delay-functions.pdf
+- [[Verifiable Delay Function]] - paper - references/snowball/recursion/ref-116-a-survey-of-two-verifiable-delay-functions.pdf
+- [[Witness-Indistinguishable Proof]] - paper - references/snowball/book/ref-124-efficient-non-interactive-proof-systems-for-bili.pdf
+- [[zkSNARK for Committed Relaxed R1CS (adapted Spartan)]] - paper - references/ch06/ref-17-nova.pdf
+- [[zkSNARK of a Valid IVC Proof (Construction 4)]] - paper - references/ch06/ref-17-nova.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -58,46 +55,51 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 54 edges to [[_COMMUNITY_Community 0]]
-- 32 edges to [[_COMMUNITY_Community 12]]
-- 32 edges to [[_COMMUNITY_Community 8]]
-- 30 edges to [[_COMMUNITY_Community 35]]
-- 27 edges to [[_COMMUNITY_Community 2]]
-- 26 edges to [[_COMMUNITY_Community 13]]
-- 25 edges to [[_COMMUNITY_Community 1]]
-- 20 edges to [[_COMMUNITY_Community 61]]
-- 7 edges to [[_COMMUNITY_Community 5]]
-- 5 edges to [[_COMMUNITY_Community 4]]
-- 5 edges to [[_COMMUNITY_Community 16]]
-- 4 edges to [[_COMMUNITY_Community 97]]
-- 3 edges to [[_COMMUNITY_Community 29]]
-- 3 edges to [[_COMMUNITY_Community 19]]
-- 2 edges to [[_COMMUNITY_Community 32]]
-- 2 edges to [[_COMMUNITY_Community 10]]
-- 2 edges to [[_COMMUNITY_Community 98]]
-- 2 edges to [[_COMMUNITY_Community 76]]
-- 2 edges to [[_COMMUNITY_Community 90]]
-- 2 edges to [[_COMMUNITY_Community 30]]
+- 9 edges to [[_COMMUNITY_Community 7]]
+- 9 edges to [[_COMMUNITY_Community 15]]
+- 9 edges to [[_COMMUNITY_Community 10]]
+- 6 edges to [[_COMMUNITY_Community 33]]
+- 6 edges to [[_COMMUNITY_Community 2]]
+- 5 edges to [[_COMMUNITY_Community 11]]
+- 5 edges to [[_COMMUNITY_Community 9]]
+- 4 edges to [[_COMMUNITY_Community 5]]
+- 4 edges to [[_COMMUNITY_Community 8]]
+- 4 edges to [[_COMMUNITY_Community 39]]
+- 3 edges to [[_COMMUNITY_Community 20]]
+- 3 edges to [[_COMMUNITY_Community 96]]
+- 3 edges to [[_COMMUNITY_Community 41]]
+- 2 edges to [[_COMMUNITY_Community 22]]
+- 2 edges to [[_COMMUNITY_Community 71]]
+- 2 edges to [[_COMMUNITY_Community 3]]
+- 2 edges to [[_COMMUNITY_Community 13]]
+- 2 edges to [[_COMMUNITY_Community 12]]
+- 2 edges to [[_COMMUNITY_Community 75]]
+- 2 edges to [[_COMMUNITY_Community 14]]
+- 2 edges to [[_COMMUNITY_Community 0]]
+- 2 edges to [[_COMMUNITY_Community 60]]
 - 2 edges to [[_COMMUNITY_Community 73]]
-- 1 edge to [[_COMMUNITY_Community 22]]
-- 1 edge to [[_COMMUNITY_Community 115]]
+- 2 edges to [[_COMMUNITY_Community 23]]
+- 1 edge to [[_COMMUNITY_Community 104]]
+- 1 edge to [[_COMMUNITY_Community 63]]
+- 1 edge to [[_COMMUNITY_Community 37]]
+- 1 edge to [[_COMMUNITY_Community 31]]
+- 1 edge to [[_COMMUNITY_Community 50]]
+- 1 edge to [[_COMMUNITY_Community 29]]
+- 1 edge to [[_COMMUNITY_Community 44]]
+- 1 edge to [[_COMMUNITY_Community 1]]
+- 1 edge to [[_COMMUNITY_Community 4]]
+- 1 edge to [[_COMMUNITY_Community 70]]
+- 1 edge to [[_COMMUNITY_Community 106]]
 - 1 edge to [[_COMMUNITY_Community 21]]
-- 1 edge to [[_COMMUNITY_Community 86]]
-- 1 edge to [[_COMMUNITY_Community 27]]
-- 1 edge to [[_COMMUNITY_Community 25]]
-- 1 edge to [[_COMMUNITY_Community 79]]
-- 1 edge to [[_COMMUNITY_Community 72]]
+- 1 edge to [[_COMMUNITY_Community 64]]
 - 1 edge to [[_COMMUNITY_Community 80]]
-- 1 edge to [[_COMMUNITY_Community 75]]
-- 1 edge to [[_COMMUNITY_Community 36]]
-- 1 edge to [[_COMMUNITY_Community 91]]
-- 1 edge to [[_COMMUNITY_Community 24]]
-- 1 edge to [[_COMMUNITY_Community 48]]
-- 1 edge to [[_COMMUNITY_Community 3]]
+- 1 edge to [[_COMMUNITY_Community 90]]
+- 1 edge to [[_COMMUNITY_Community 18]]
+- 1 edge to [[_COMMUNITY_Community 57]]
 
 ## Top bridge nodes
-- [[Midnight (Privacy Blockchain)]] - degree 79, connects to 13 communities
-- [[Poseidon Hash]] - degree 46, connects to 13 communities
-- [[Halo 2  UltraPlonk]] - degree 39, connects to 13 communities
-- [[BLS12-381 Curve]] - degree 42, connects to 10 communities
-- [[Midnight -- The Privacy Theater]] - degree 36, connects to 9 communities
+- [[Fiat-Shamir Transform]] - degree 105, connects to 35 communities
+- [[Non-Interactive Zero-Knowledge (NIZK)]] - degree 8, connects to 2 communities
+- [[Nova IVC Scheme (Construction 3)]] - degree 7, connects to 2 communities
+- [[Spartan zkSNARK]] - degree 4, connects to 2 communities
+- [[Verifiable Delay Function]] - degree 4, connects to 2 communities

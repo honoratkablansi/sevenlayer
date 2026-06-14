@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-08-stark.pdf"
 type: "paper"
-community: "Community 54"
+community: "Community 65"
 location: "§2.5"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_54
+  - community/Community_65
 ---
 
 # Merkle-tree commit-reveal (Kilian cut-and-choose)
@@ -16,4 +16,4 @@ tags:
 - [[Davies-Meyer hash over RijndaelAES (binary-field-friendly hash)]] - `conceptually_related_to` [EXTRACTED]
 - [[Scalable, Transparent, and Post-Quantum Secure Computational Integrity]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_54
+#graphify/paper #graphify/EXTRACTED #community/Community_65

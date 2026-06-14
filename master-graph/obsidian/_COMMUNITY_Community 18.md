@@ -1,53 +1,49 @@
 ---
 type: community
-cohesion: 0.07
-members: 38
+cohesion: 0.08
+members: 34
 ---
 
 # Community 18
 
-**Cohesion:** 0.07 - loosely connected
-**Members:** 38 nodes
+**Cohesion:** 0.08 - loosely connected
+**Members:** 34 nodes
 
 ## Members
-- [[SAT Interactive Proof]] - paper - references/books/proofs-args-zk.pdf
-- [[Arithmetic Circuit]] - document - proving-nothing.md
-- [[Arithmetic Circuit Evaluation Problem]] - paper - references/books/proofs-args-zk.pdf
-- [[Back End (Argument System for Circuit Evaluation)]] - paper - references/books/proofs-args-zk.pdf
-- [[Bit Decomposition for Non-Arithmetic Operations]] - paper - references/books/proofs-args-zk.pdf
-- [[Boolean Formula]] - paper - references/books/proofs-args-zk.pdf
-- [[Configuration Graph (RAM Reachability)]] - paper - references/books/proofs-args-zk.pdf
-- [[Execution Transcript  Purported Trace]] - paper - references/books/proofs-args-zk.pdf
-- [[Front End (Program-to-Circuit Compiler)]] - paper - references/books/proofs-args-zk.pdf
-- [[GKR  Delegating Computation Interactive Proofs for Muggles (Goldwasser-Kalai-Rothblum, J.ACM 2015) 53]] - paper - references/recursion/ch3/ref-59-zkbridge.pdf
-- [[GKR protocol doubly-efficient interactive proof for bounded-depth computation via layer-by-layer sumcheck reduction; prover need not commit to full trace]] - paper - references/recursion/ch1/ref-11-khovratovich-fiat-shamir-attacks.pdf
-- [[Gate Value Function (W_i)]] - paper - references/books/proofs-args-zk.pdf
-- [[Goldwasser-Kalai-Rothblum 26 Delegating Computation  Interactive Proofs for Muggles]] - paper - references/recursion/ch3/ref-70-zkcnn.pdf
-- [[Holographic  Preprocessing Argument System]] - paper - references/books/proofs-args-zk.pdf
-- [[IP = PSPACE (Complexity Result)]] - paper - references/books/proofs-args-zk.pdf
-- [[Large-Base Decomposition (Bootle et al. Amortized Technique)]] - paper - references/books/proofs-args-zk.pdf
-- [[Layered Arithmetic Circuit]] - paper - references/books/proofs-args-zk.pdf
-- [[Libra]] - paper - references/snowball/book/ref-081-libra-succinct-zero-knowledge-proofs-with-optim.pdf
-- [[Linear Error-Correcting Code]] - paper - references/snowball/book/ref-096-orion-zero-knowledge-proof-with-linear-prover-t.pdf
-- [[Linear-Time Prover]] - paper - references/snowball/book/ref-096-orion-zero-knowledge-proof-with-linear-prover-t.pdf
-- [[Log-Space Uniform Circuit]] - paper - references/books/proofs-args-zk.pdf
-- [[Lossless Expander Graph]] - paper - references/snowball/book/ref-096-orion-zero-knowledge-proof-with-linear-prover-t.pdf
-- [[Machine Code  Random Access Machine (RAM)]] - paper - references/books/proofs-args-zk.pdf
-- [[Machine Configuration]] - paper - references/books/proofs-args-zk.pdf
-- [[Memory Consistency Checking]] - paper - references/books/proofs-args-zk.pdf
-- [[NC Complexity Class (Parallel Algorithms)]] - paper - references/books/proofs-args-zk.pdf
-- [[Orion]] - paper - references/snowball/book/ref-096-orion-zero-knowledge-proof-with-linear-prover-t.pdf
-- [[Permutation-Invariant Fingerprinting]] - paper - references/books/proofs-args-zk.pdf
-- [[Program-to-Circuit Reduction (First Technique)]] - paper - references/books/proofs-args-zk.pdf
-- [[Proof Composition]] - paper - references/snowball/book/ref-096-orion-zero-knowledge-proof-with-linear-prover-t.pdf
-- [[Prover Efficiency]] - paper - references/snowball/book/ref-148-arya-nearly-linear-time-zero-knowledge-proofs-f.pdf
-- [[RAM Computation]] - paper - references/snowball/recursion/ref-118-fast-reductions-from-rams-to-delegatable-succinc.pdf
-- [[Routing Network  De Bruijn Graph (Non-Deterministic Sort)]] - paper - references/books/proofs-args-zk.pdf
-- [[Shallow Circuit (Small-Space to Low-Depth)]] - paper - references/books/proofs-args-zk.pdf
-- [[Table Lookup Inside Circuit Satisfiability Instance]] - paper - references/books/proofs-args-zk.pdf
-- [[Time Consistency Checking (Transition Function)]] - paper - references/books/proofs-args-zk.pdf
-- [[Virgo ZKP System]] - paper - references/snowball/recursion/ref-103-transparent-polynomial-delegation-and-its-applic.pdf
-- [[Wiring Predicate (add_i  mult_i)]] - paper - references/books/proofs-args-zk.pdf
+- [[2-cycle of elliptic curves (BN254Grumpkin)]] - paper - references/ch06/ref-18-hypernova.pdf
+- [[Avionics software certification process]] - document - references/recursion/ch3/ref-68-do-178c-avionics-certification.md
+- [[Binary-tree IVC  parallel proving compatibility]] - paper - references/recursion/ch1/ref-30-cyclefold.pdf
+- [[Bitansky et al., IVC from SNARKs under extractor complexity assumptions 14]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
+- [[Blockchain summary (constant-size validity certificate of the chain)]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
+- [[Chain extractability (recursive extractor recovers underlying blockchain from summary)]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
+- [[Cited Valiant, Incrementally Verifiable Computation (TCC 2008)]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
+- [[Coda Decentralized Cryptocurrency at Scale (ePrint 2020352)]] - document - recursion/recursion-outline.md
+- [[DO-178C (RTCA) avionics software certification guidance]] - document - references/recursion/ch3/ref-68-do-178c-avionics-certification.md
+- [[DO-178C Software Considerations in Airborne Systems]] - document - references/recursion/ch3/ref-68-do-178c-avionics-certification.md
+- [[Design assurance levels  certification rigor]] - document - references/recursion/ch3/ref-68-do-178c-avionics-certification.md
+- [[Fast verification requirement Verify runs in total time poly(log t, λ), exponentially faster than Eval]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
+- [[Field Emulation]] - paper - references/mooc/lecture10/slides.pdf
+- [[Formal VDF definition triple (Setup, Eval, Verify) with correctness, soundness, sequentiality]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
+- [[High-integrity and embedded systems]] - document - recursion/recursion-outline.md
+- [[IVC via Homomorphic Commitments (Nova  Folding)]] - paper - references/books/proofs-args-zk.pdf
+- [[Incrementally Verifiable Computation (IVC)]] - document - proving-nothing.md
+- [[InnerOuter SNARK (F = O ∘ I)]] - paper - references/books/proofs-args-zk.pdf
+- [[Iterative  Incremental Computation (F(i)(x))]] - paper - references/books/proofs-args-zk.pdf
+- [[Mina  Coda and Pickles recursion layer]] - document - recursion/recursion-outline.md
+- [[Mina end-to-end case study]] - document - recursion/recursion-outline.md
+- [[Nova Augmented Circuit]] - document - recursion/recursion-outline.md
+- [[Overhead of Recursion]] - paper - references/books/proofs-args-zk.pdf
+- [[Practical efficiency boost time-asymmetric encodings as the sequential computation inside IVC (~7,000x SNARK efficiency gain)]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
+- [[Recursion Threshold]] - paper - references/books/proofs-args-zk.pdf
+- [[SNARK  SNARG verifiable-computation primitive (Def. 8) used to make Verify succinct]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
+- [[SNARK Composition (Proof Composition)]] - paper - references/books/proofs-args-zk.pdf
+- [[SNARK-Friendly Hash Function]] - paper - references/books/proofs-args-zk.pdf
+- [[Succinct Blockchain Protocol definition (5 PPT algorithms + succinctness)]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
+- [[Succinct blockchain]] - document - recursion/recursion-outline.md
+- [[Transparent SNARK (no trusted setup)]] - paper - references/books/proofs-args-zk.pdf
+- [[Uniquenesssoundness for every input x a unique output y verifies; adversary cannot make Verify accept y≠Eval(x)]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
+- [[VDF_IVC theoretical VDF from tight IVC, achieves σ(t)=(1−ε)t−O(1) sequentiality (Theorem 1)]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
+- [[Valiant 33 original IVC notion via recursive proof composition, the classic approach SuperNova generalizes]] - paper - references/recursion/ch2/ref-44-supernova.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -57,37 +53,40 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 11 edges to [[_COMMUNITY_Community 27]]
-- 11 edges to [[_COMMUNITY_Community 15]]
-- 4 edges to [[_COMMUNITY_Community 22]]
-- 4 edges to [[_COMMUNITY_Community 36]]
-- 3 edges to [[_COMMUNITY_Community 35]]
-- 3 edges to [[_COMMUNITY_Community 21]]
-- 3 edges to [[_COMMUNITY_Community 75]]
-- 3 edges to [[_COMMUNITY_Community 105]]
-- 3 edges to [[_COMMUNITY_Community 2]]
-- 3 edges to [[_COMMUNITY_Community 28]]
-- 3 edges to [[_COMMUNITY_Community 88]]
-- 3 edges to [[_COMMUNITY_Community 63]]
-- 3 edges to [[_COMMUNITY_Community 114]]
-- 2 edges to [[_COMMUNITY_Community 32]]
-- 2 edges to [[_COMMUNITY_Community 81]]
-- 2 edges to [[_COMMUNITY_Community 50]]
-- 2 edges to [[_COMMUNITY_Community 68]]
-- 2 edges to [[_COMMUNITY_Community 40]]
-- 2 edges to [[_COMMUNITY_Community 19]]
-- 1 edge to [[_COMMUNITY_Community 72]]
-- 1 edge to [[_COMMUNITY_Community 57]]
-- 1 edge to [[_COMMUNITY_Community 4]]
-- 1 edge to [[_COMMUNITY_Community 98]]
-- 1 edge to [[_COMMUNITY_Community 1]]
+- 13 edges to [[_COMMUNITY_Community 5]]
+- 9 edges to [[_COMMUNITY_Community 12]]
+- 7 edges to [[_COMMUNITY_Community 24]]
+- 4 edges to [[_COMMUNITY_Community 39]]
+- 3 edges to [[_COMMUNITY_Community 46]]
+- 3 edges to [[_COMMUNITY_Community 64]]
+- 2 edges to [[_COMMUNITY_Community 9]]
+- 2 edges to [[_COMMUNITY_Community 26]]
+- 2 edges to [[_COMMUNITY_Community 25]]
+- 2 edges to [[_COMMUNITY_Community 71]]
+- 2 edges to [[_COMMUNITY_Community 77]]
+- 2 edges to [[_COMMUNITY_Community 13]]
+- 2 edges to [[_COMMUNITY_Community 31]]
+- 2 edges to [[_COMMUNITY_Community 10]]
+- 1 edge to [[_COMMUNITY_Community 20]]
+- 1 edge to [[_COMMUNITY_Community 53]]
+- 1 edge to [[_COMMUNITY_Community 0]]
+- 1 edge to [[_COMMUNITY_Community 130]]
+- 1 edge to [[_COMMUNITY_Community 6]]
+- 1 edge to [[_COMMUNITY_Community 79]]
+- 1 edge to [[_COMMUNITY_Community 17]]
+- 1 edge to [[_COMMUNITY_Community 33]]
+- 1 edge to [[_COMMUNITY_Community 30]]
+- 1 edge to [[_COMMUNITY_Community 62]]
+- 1 edge to [[_COMMUNITY_Community 76]]
+- 1 edge to [[_COMMUNITY_Community 21]]
 - 1 edge to [[_COMMUNITY_Community 23]]
-- 1 edge to [[_COMMUNITY_Community 5]]
-- 1 edge to [[_COMMUNITY_Community 128]]
+- 1 edge to [[_COMMUNITY_Community 8]]
+- 1 edge to [[_COMMUNITY_Community 123]]
+- 1 edge to [[_COMMUNITY_Community 87]]
 
 ## Top bridge nodes
-- [[GKR protocol doubly-efficient interactive proof for bounded-depth computation via layer-by-layer sumcheck reduction; prover need not commit to full trace]] - degree 46, connects to 15 communities
-- [[Arithmetic Circuit]] - degree 33, connects to 12 communities
-- [[Libra]] - degree 5, connects to 3 communities
-- [[Virgo ZKP System]] - degree 4, connects to 3 communities
-- [[Layered Arithmetic Circuit]] - degree 6, connects to 2 communities
+- [[Incrementally Verifiable Computation (IVC)]] - degree 62, connects to 27 communities
+- [[2-cycle of elliptic curves (BN254Grumpkin)]] - degree 9, connects to 3 communities
+- [[Succinct blockchain]] - degree 6, connects to 2 communities
+- [[SNARK  SNARG verifiable-computation primitive (Def. 8) used to make Verify succinct]] - degree 4, connects to 2 communities
+- [[Nova Augmented Circuit]] - degree 3, connects to 2 communities

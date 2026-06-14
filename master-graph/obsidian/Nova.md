@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 2"
+community: "Community 5"
 location: "Chapter 6"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_2
+  - community/Community_5
 ---
 
 # Nova
@@ -16,7 +16,7 @@ tags:
 - [[Binding Verification Keys and Statements Safely]] - `references` [EXTRACTED]
 - [[CCS The Rosetta Stone]] - `references` [EXTRACTED]
 - [[Coda]] - `references` [EXTRACTED]
-- [[Committed Relaxed R1CS]] - `conceptually_related_to` [EXTRACTED]
+- [[Committed Relaxed R1CS]] - `uses` [EXTRACTED]
 - [[CycleFold]] - `conceptually_related_to` [EXTRACTED]
 - [[CycleFold (ePrint 20231192)]] - `cites` [EXTRACTED]
 - [[CycleFold cycle-of-curves delegation technique]] - `assumes` [EXTRACTED]
@@ -25,14 +25,15 @@ tags:
 - [[Fiat-Shamir Transform]] - `references` [EXTRACTED]
 - [[Fold second-curve correctness instance u_EC on the first curve via Nova]] - `assumes` [EXTRACTED]
 - [[Folding Family Tradeoff Table]] - `compares` [EXTRACTED]
-- [[Folding Scheme]] - `improves` [EXTRACTED]
+- [[Folding Scheme]] - `uses` [EXTRACTED]
 - [[Glossary of Key Terms]] - `defines` [EXTRACTED]
+- [[Halo  Nested Amortization Recursion]] - `builds_on` [EXTRACTED]
 - [[Historical Arc of Recursion (2008-2026)]] - `references` [EXTRACTED]
 - [[HyperKZG  Mercury polynomial commitment]] - `references` [EXTRACTED]
 - [[HyperNova]] - `conceptually_related_to` [EXTRACTED]
 - [[HyperNova KS24b (linearization, CCS folding)]] - `conceptually_related_to` [EXTRACTED]
 - [[HyperNova Recursive Arguments for Customizable Constraint Systems]] - `cites` [EXTRACTED]
-- [[Incrementally Verifiable Computation (IVC)]] - `implements` [EXTRACTED]
+- [[Incrementally Verifiable Computation (IVC)]] - `enables` [EXTRACTED]
 - [[Kothapalli, Setty, Tzialla — Nova Recursive zero-knowledge arguments from folding schemes (CRYPTO 2022) 11]] - `introduces` [EXTRACTED]
 - [[Kothapalli, Setty, Tzialla, Nova (CRYPTO 2022)]] - `defines` [EXTRACTED]
 - [[Lattice-Based Proving]] - `references` [EXTRACTED]
@@ -64,8 +65,9 @@ tags:
 - [[Relaxed R1CS]] - `references` [EXTRACTED]
 - [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `avoids` [EXTRACTED]
 - [[SNARK Recursion vs. Folding The Full Picture]] - `references` [EXTRACTED]
+- [[Sangria (folding scheme for Plonkish)]] - `generalizes` [EXTRACTED]
 - [[Spartan]] - `references` [EXTRACTED]
-- [[SuperNova (Non-Uniform IVC)]] - `extends` [EXTRACTED]
+- [[SuperNova (Non-Uniform IVC)]] - `generalizes` [EXTRACTED]
 - [[The Constraint System Evolution R1CS, AIR, PLONKish]] - `references` [EXTRACTED]
 - [[The Folding Genealogy]] - `references` [EXTRACTED]
 - [[The Landscape Table (March 2026)]] - `references` [EXTRACTED]
@@ -79,4 +81,4 @@ tags:
 - [[Veridise Nova explainer series (Breaking Down the Nova Recursive SNARK)]] - `explains` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_2
+#graphify/document #graphify/EXTRACTED #community/Community_5

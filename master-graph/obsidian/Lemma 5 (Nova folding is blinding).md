@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-18-hypernova.pdf"
 type: "paper"
-community: "Community 71"
+community: "Community 5"
 location: "§7.3 Lemma 5"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_71
+  - community/Community_5
 ---
 
 # Lemma 5 (Nova folding is blinding)
@@ -15,4 +15,4 @@ tags:
 - [[Nova]] - `proves` [EXTRACTED]
 - [[NovaBlindFold folding-based zero-knowledge]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_71
+#graphify/paper #graphify/EXTRACTED #community/Community_5

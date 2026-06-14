@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-20-latticefold.pdf"
 type: "paper"
-community: "Community 101"
+community: "Community 78"
 location: "§4"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_101
+  - community/Community_78
 ---
 
 # Lattice-Based CCS Folding Scheme
@@ -18,4 +18,4 @@ tags:
 - [[Lattice-Based Committed CCS Relation RB_cmccs]] - `defines` [EXTRACTED]
 - [[Optimized Single-Sumcheck Batch Folding (Pi_batch)]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_101
+#graphify/paper #graphify/EXTRACTED #community/Community_78

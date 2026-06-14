@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 32"
+community: "Community 17"
 location: "Chapter 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_32
+  - community/Community_17
 ---
 
 # Fiat-Shamir Transform
@@ -18,6 +18,7 @@ tags:
 - [[Algebraic vs Traditional Hash Functions]] - `references` [EXTRACTED]
 - [[Arguzz (zkVM Fuzzer)]] - `references` [INFERRED]
 - [[Arthur-Merlin (AM) Protocols  Public-Coin Proofs]] - `motivates` [EXTRACTED]
+- [[Bulletproofs  Inner Product Argument]] - `uses` [EXTRACTED]
 - [[Bulletproofs NIZK Argument System]] - `assumes` [EXTRACTED]
 - [[Bulletproofs Short Proofs for Confidential Transactions and More]] - `conceptually_related_to` [EXTRACTED]
 - [[CMT protocol (Cormode-Mitzenmacher-Thaler interactive proof for layered arithmetic circuits)]] - `conceptually_related_to` [EXTRACTED]
@@ -47,7 +48,7 @@ tags:
 - [[Hash Chaining]] - `builds_on` [EXTRACTED]
 - [[Honest-Verifier Zero-Knowledge]] - `relates_to` [EXTRACTED]
 - [[Interactive Oracle Proofs]] - `uses` [EXTRACTED]
-- [[Interactive Proof (IP) prover-verifier protocol with statistical soundness]] - `builds_on` [EXTRACTED]
+- [[Interactive Proof (IP) prover-verifier protocol with statistical soundness]] - `applies` [EXTRACTED]
 - [[Interactive Proof System]] - `references` [EXTRACTED]
 - [[Khovratovich, Rothblum, Soukhanov, How to Prove False Statements (ePrint 2025118)]] - `references` [EXTRACTED]
 - [[Khovratovich-Rothblum-Soukhanov How to Prove False Statements - Practical Attacks on Fiat-Shamir (ePrint 2025118)]] - `conceptually_related_to` [EXTRACTED]
@@ -64,23 +65,27 @@ tags:
 - [[Nightstream What a Folding Engine Looks Like from the Inside]] - `references` [EXTRACTED]
 - [[Non-Interactive Argument]] - `defines` [EXTRACTED]
 - [[Non-Interactive Folding Scheme via Fiat-Shamir (Construction 2)]] - `assumes` [EXTRACTED]
+- [[Non-Interactive Zero-Knowledge (NIZK)]] - `relates_to` [EXTRACTED]
 - [[Nova]] - `references` [EXTRACTED]
 - [[On-Chain Verification in 2026]] - `references` [EXTRACTED]
 - [[On-Chain Verifier]] - `conceptually_related_to` [EXTRACTED]
 - [[Open Questions and the Road Ahead]] - `references` [EXTRACTED]
 - [[PCP-to-Argument Compiler (Kilian-Micali)]] - `uses` [EXTRACTED]
+- [[PLONK]] - `uses` [EXTRACTED]
 - [[PLONK Main Protocol for Relation R_C (Theorem 7.1)]] - `assumes` [EXTRACTED]
+- [[Polynomial Commitment Scheme]] - `uses` [EXTRACTED]
 - [[Poseidon Hash]] - `conceptually_related_to` [INFERRED]
 - [[Proofs, Arguments, and Zero-Knowledge (Justin Thaler, survey textbook)]] - `explains` [EXTRACTED]
 - [[Protocol Pi_{comm,d} GKR + MLPCS succinct argument for non-deterministic depth-d circuit C(x,w)=y; FS-compiled as FS_h(Pi_{comm,d}); challenge r=h(C,x,y,alpha)]] - `assumes` [EXTRACTED]
 - [[Protostar Generic Efficient AccumulationFolding for Special-sound Protocols]] - `conceptually_related_to` [EXTRACTED]
 - [[Public-Coin Interactive Proof]] - `builds_on` [EXTRACTED]
-- [[Public-Coin Protocol]] - `uses` [EXTRACTED]
+- [[Public-Coin Protocol]] - `applies` [EXTRACTED]
 - [[Q4 When Will Trustless Become Real]] - `references` [EXTRACTED]
 - [[RO-NARK FScmPi_sps from Special-Sound Protocol]] - `assumes` [EXTRACTED]
 - [[Random Oracle Model]] - `relies-on` [EXTRACTED]
-- [[Random oracle model (non-interactive STARK  NIROP)]] - `uses` [EXTRACTED]
-- [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `motivates` [EXTRACTED]
+- [[Random oracle model (non-interactive STARK  NIROP)]] - `relates_to` [EXTRACTED]
+- [[Round-by-Round Soundness]] - `relates_to` [EXTRACTED]
+- [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `relates_to` [EXTRACTED]
 - [[Sealing the Certificate]] - `references` [EXTRACTED]
 - [[Sigma protocol (public-coin 3-move)]] - `builds_on` [EXTRACTED]
 - [[Solana ZK ElGamal Bug (2025)]] - `references` [EXTRACTED]
@@ -113,4 +118,4 @@ tags:
 - [[vSQL verifiable database system for arbitrary SQL queries over dynamic outsourced databases]] - `cites` [EXTRACTED]
 - [[zkSNARK for Committed Relaxed R1CS (adapted Spartan)]] - `assumes` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_32
+#graphify/document #graphify/EXTRACTED #community/Community_17

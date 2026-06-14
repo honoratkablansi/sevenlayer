@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 10"
+community: "Community 78"
 location: "Chapter 10"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_10
+  - community/Community_78
 ---
 
 # Post-Quantum Security
@@ -20,6 +20,7 @@ tags:
 - [[LatticeFold+ Faster, Simpler, Shorter Lattice-Based Folding for Succinct Proof Systems]] - `assumes` [EXTRACTED]
 - [[Module-SIS  Module-LWE]] - `assumes` [INFERRED]
 - [[Path Three Post-Quantum Folding]] - `explains` [EXTRACTED]
+- [[Polynomial Commitment Scheme]] - `relates_to` [EXTRACTED]
 - [[Zero-Knowledge Scalable Transparent ARgument of Knowledge (ZK-STARK)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_10
+#graphify/document #graphify/EXTRACTED #community/Community_78

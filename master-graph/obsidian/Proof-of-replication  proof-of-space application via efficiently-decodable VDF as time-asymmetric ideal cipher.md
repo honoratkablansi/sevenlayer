@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf"
 type: "paper"
-community: "Community 6"
+community: "Community 12"
 location: "§2 (Proof of replication)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_6
+  - community/Community_12
 ---
 
 # Proof-of-replication / proof-of-space application via efficiently-decodable VDF as time-asymmetric ideal cipher
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Verifiable delay function (VDF)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_6
+#graphify/paper #graphify/EXTRACTED #community/Community_12

@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-70-zkcnn.pdf"
 type: "paper"
-community: "Community 114"
+community: "Community 50"
 location: "§3.1 (Eq 5, Eq 8, Algorithms 1-2)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_114
+  - community/Community_50
 ---
 
 # New sum-check protocol for FFT with O(N) linear prover time (faster than computing the FFT)
@@ -19,4 +19,4 @@ tags:
 - [[Sum-Check Protocol]] - `conceptually_related_to` [EXTRACTED]
 - [[zkCNN Zero Knowledge Proofs for CNN Predictions and Accuracy (CCS 2021)]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_114
+#graphify/paper #graphify/EXTRACTED #community/Community_50

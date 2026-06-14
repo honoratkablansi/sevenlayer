@@ -1,59 +1,56 @@
 ---
 type: community
-cohesion: 0.05
-members: 44
+cohesion: 0.08
+members: 41
 ---
 
 # Community 14
 
-**Cohesion:** 0.05 - loosely connected
-**Members:** 44 nodes
+**Cohesion:** 0.08 - loosely connected
+**Members:** 41 nodes
 
 ## Members
-- [[(q1,q2)-extended discrete logarithm (edlog) assumption (Def 2)]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
-- [[Algebraic Group Model (AGM)]] - document - references/ch10/ref-38-snarky-ceremonies.pdf
-- [[Algebraic extractor E_agm (white-box, requires view_A, yields linear representation coefficients)]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
-- [[BGM17 - Bowe, Gabizon, Miers scalable MPC for zk-SNARK params in random beacon model]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
-- [[Batching of polynomial commitments & grand-product arguments (random linear combinations)]] - paper - references/ch10/ref-36-sonic.pdf
-- [[Beacon-free ceremony removes BGM17 random beacon, biased SRS tolerated]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
-- [[Bivariate constraint system a∘b=c plus Q linear constraints, embedded as constant term of t(X,Y)]] - paper - references/ch10/ref-36-sonic.pdf
-- [[Bootle et al. (BCC+16) Inner-Product Argument]] - paper - references/ch02/ref-09-bulletproofs.pdf
-- [[Bounded Polynomial Extractability & Evaluation Binding (PCS properties)]] - paper - references/ch10/ref-36-sonic.pdf
-- [[Constant 256-byte proofs, ~0.7ms helped verification, BLS12-381 Rust implementation]] - paper - references/ch10/ref-36-sonic.pdf
-- [[Critical query i_crit and white-box AGM extractor E_A returning QAP witness coefficients]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
-- [[FKL18 - Fuchsbauer, Kiltz, Loss the Algebraic Group Model and Groth16 KS under q-dlog]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
-- [[Grand-Product Argument (gprodPgprodV, prod a_i = prod b_i)]] - paper - references/ch10/ref-36-sonic.pdf
-- [[Helped mode untrusted helper aggregates a batch of proofs (best practical efficiency)]] - paper - references/ch10/ref-36-sonic.pdf
-- [[Improved Inner-Product Argument (2 log2 n)]] - paper - references/ch02/ref-09-bulletproofs.pdf
-- [[Lemma 2.2 Real-to-Ideal Pairing Check Reduction under Q-DLOG]] - paper - references/ch02/ref-07-plonk.pdf
-- [[Modified KZG polynomial commitment for Laurent polynomials (bounded-degree, single-point hidden)]] - paper - references/ch10/ref-36-sonic.pdf
-- [[Pedersen Vector Commitment]] - paper - references/ch02/ref-09-bulletproofs.pdf
-- [[Pi_dl discrete logarithm proof of knowledge (update PoK; pi=Grw, RO(phi))]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
-- [[Pinocchio Arithmetic Circuit Format]] - paper - references/ch02/ref-09-bulletproofs.pdf
-- [[Polynomial Permutation Argument (DerivepermPpermV)]] - paper - references/ch10/ref-36-sonic.pdf
-- [[Polynomial oracle O_poly (Laurent polynomial evaluation G{f(z)}, models SRS elements)]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
-- [[Q-DLOG Assumption]] - paper - references/ch02/ref-07-plonk.pdf
-- [[Signature of Correct Computation (scPscV) for s(z,y) of public s(X,Y)]] - paper - references/ch10/ref-36-sonic.pdf
-- [[Single Multi-Exponentiation Verifier & Batch Verification]] - paper - references/ch02/ref-09-bulletproofs.pdf
-- [[Straight-line simulation-extractability in (RO,d-Poly) model (Def 7, O_se + O_poly oracles)]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
-- [[Subversion Zero-Knowledge (adversary generates the SRS)]] - paper - references/ch10/ref-36-sonic.pdf
-- [[Subversion zero-knowledge for ceremonies (Def 4, subverter Z + extractor E_Z)]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
-- [[Theorem 1 (q1+1,q2+1)-dlog implies (q1,q2)-edlog]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
-- [[Theorem 1 Inner-Product Argument Security]] - paper - references/ch02/ref-09-bulletproofs.pdf
-- [[Theorem 2 Pi_dl is complete, perfect ZK, straight-line SE under (1,0)-dlog in AGM+RO]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
-- [[Theorem 4 Groth16 ceremony is subversion zero-knowledge (trapdoor extracted via Pi_dl)]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
-- [[Theorem 5 Arithmetic Circuit Protocol Soundness]] - paper - references/ch02/ref-09-bulletproofs.pdf
-- [[Theorem 5 Groth16 ceremony has update knowledge soundness under (2n-1,2n-2)-edlog for algebraic adversaries in ROM]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
-- [[Theorem 6.1 Sonic satisfies subversion zero-knowledge]] - paper - references/ch10/ref-36-sonic.pdf
-- [[Theorem 6.2 Sonic has witness-extended emulation]] - paper - references/ch10/ref-36-sonic.pdf
-- [[Theorem 6.3 PCS evaluation-binding & bounded-extractable under 2d-DLOG in AGM]] - paper - references/ch10/ref-36-sonic.pdf
-- [[Transparent random oracle RO_0RO_1 (programmable weakening; simulator learns r)]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
-- [[UKS proof game hops Game0-Game1 (fresh-SRS simulated critical updates) - Game2 (bad event), reduction to edlog]] - paper - references/ch10/ref-38-snarky-ceremonies.pdf
-- [[Unhelped (standalone) signature of correct computation — succinct verifier, higher overhead]] - paper - references/ch10/ref-36-sonic.pdf
-- [[Well-Formedness Argument (commitment to sum a_i Xi, no constant term)]] - paper - references/ch10/ref-36-sonic.pdf
-- [[Witness-Extended Emulation (Knowledge Soundness)]] - paper - references/ch02/ref-09-bulletproofs.pdf
-- [[Zero-Knowledge Argument of Knowledge]] - paper - references/ch02/ref-09-bulletproofs.pdf
-- [[Zero-Knowledge Proof for Arithmetic Circuits (Protocol 3)]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[AVX-512 multi-modular NTT ring arithmetic library]] - paper - references/ch14/ref-65-greyhound.pdf
+- [[Batched evaluation protocol for multiple pointspolynomials]] - paper - references/ch14/ref-65-greyhound.pdf
+- [[Bivariate polynomial folding f(X,Y)=aT S b with Y=Xm]] - paper - references/ch14/ref-65-greyhound.pdf
+- [[Claim Field Choice Is a One-Way Door (Cascade Effect)]] - document - proving-nothing.md
+- [[Committing to w via v=Dw-hat (proof-size reduction)]] - paper - references/ch14/ref-65-greyhound.pdf
+- [[Coordinate-wise special soundness analysis (CWSS)]] - paper - references/ch14/ref-65-greyhound.pdf
+- [[Discrete Logarithm Problem (DLP)]] - document - proving-nothing.md
+- [[Efficiency O(sqrt N) verifier, polylog proof, 53KB at N=230]] - paper - references/ch14/ref-65-greyhound.pdf
+- [[FMN23 lattice polynomial commitments  Power-BASIS (CWSS origin)]] - paper - references/ch14/ref-65-greyhound.pdf
+- [[Fast Johnson-Lindenstrauss projection via Four Russians algorithm]] - paper - references/ch14/ref-65-greyhound.pdf
+- [[Greyhound (Lattice SNARK)]] - document - proving-nothing.md
+- [[Greyhound polynomial commitment scheme]] - paper - references/ch14/ref-65-greyhound.pdf
+- [[Greyhound Fast Polynomial Commitments from Lattices]] - paper - references/ch14/ref-65-greyhound.pdf
+- [[Hardness Assumption]] - document - proving-nothing.md
+- [[Harvest Now, Decrypt Later Threat]] - document - proving-nothing.md
+- [[Inner and outer commitment construction]] - paper - references/ch14/ref-65-greyhound.pdf
+- [[LaBRADOR Proof System]] - document - references/ch14/ref-65-greyhound.pdf
+- [[Layer 6 The Deep Craft (Cryptographic Primitives)]] - document - proving-nothing.md
+- [[Ligero (AHIV17) and Brakedown (GLS+21) hash-based PCs (baselines)]] - paper - references/ch14/ref-65-greyhound.pdf
+- [[Module-SIS  Module-LWE]] - document - proving-nothing.md
+- [[Module-based Ajtai Commitment (com = A x)]] - paper - references/ch02/ref-11-latticefold-plus.pdf
+- [[NIST FIPS 204 (ML-DSA)]] - document - proving-nothing.md
+- [[NTT  Coefficient Embedding over R_q]] - paper - references/ch06/ref-20-latticefold.pdf
+- [[Neo folding-friendly matrix commitment scheme (Ajtai with new embedding)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Pay-per-bit commitment cost (cost scales with bit-width of committed scalars)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Power-of-Two Cyclotomic Ring ZX(Xd+1)]] - paper - references/ch06/ref-20-latticefold.pdf
+- [[Quantum Shelf Life & Option Value]] - document - proving-nothing.md
+- [[Quantum Threat Horizon (CRQC  HNDL)]] - document - proving-nothing.md
+- [[Reduction of verification to a single short-norm linear relation over Rq]] - paper - references/ch14/ref-65-greyhound.pdf
+- [[Relaxed Binding Commitment reduced to Module-SIS]] - paper - references/ch02/ref-11-latticefold-plus.pdf
+- [[S-module homomorphism via ring of rotation matrices S]] - paper - references/ch06/ref-21-neo.pdf
+- [[SLAP succinct lattice polynomial commitments (AFLN24, EUROCRYPT 2024)]] - paper - references/ch14/ref-65-greyhound.pdf
+- [[Shor's Algorithm  Quantum Threat]] - document - proving-nothing.md
+- [[Split-and-fold  folding paradigm]] - paper - references/ch14/ref-65-greyhound.pdf
+- [[Theorem 2 Ajtai scheme is S-homomorphic and (d,m,B)-binding under MSIS]] - paper - references/ch06/ref-21-neo.pdf
+- [[Theorem 4.1 completeness, weak binding, knowledge soundness of PCS]] - paper - references/ch14/ref-65-greyhound.pdf
+- [[Theorem 7 cyclotomic ring R_q isomorphic to ring of rotation matrices S]] - paper - references/ch06/ref-21-neo.pdf
+- [[Three-round proof of polynomial evaluation (quadratic relation)]] - paper - references/ch14/ref-65-greyhound.pdf
+- [[Weak binding of innerouter commitment under Module-SIS (Lemma 2.11)]] - paper - references/ch14/ref-65-greyhound.pdf
+- [[Zq-to-Rq evaluation transform via Galois automorphism (AFLN24)]] - paper - references/ch14/ref-65-greyhound.pdf
+- [[b-bit-word embedding of Fm into low-norm cyclotomic ring vector]] - paper - references/ch06/ref-21-neo.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -63,18 +60,32 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 16 edges to [[_COMMUNITY_Community 9]]
-- 9 edges to [[_COMMUNITY_Community 29]]
-- 3 edges to [[_COMMUNITY_Community 35]]
-- 2 edges to [[_COMMUNITY_Community 8]]
-- 2 edges to [[_COMMUNITY_Community 65]]
-- 1 edge to [[_COMMUNITY_Community 15]]
-- 1 edge to [[_COMMUNITY_Community 42]]
-- 1 edge to [[_COMMUNITY_Community 74]]
+- 22 edges to [[_COMMUNITY_Community 10]]
+- 6 edges to [[_COMMUNITY_Community 8]]
+- 6 edges to [[_COMMUNITY_Community 30]]
+- 6 edges to [[_COMMUNITY_Community 62]]
+- 5 edges to [[_COMMUNITY_Community 45]]
+- 4 edges to [[_COMMUNITY_Community 4]]
+- 4 edges to [[_COMMUNITY_Community 78]]
+- 3 edges to [[_COMMUNITY_Community 22]]
+- 3 edges to [[_COMMUNITY_Community 39]]
+- 3 edges to [[_COMMUNITY_Community 44]]
+- 3 edges to [[_COMMUNITY_Community 36]]
+- 2 edges to [[_COMMUNITY_Community 17]]
+- 2 edges to [[_COMMUNITY_Community 5]]
+- 2 edges to [[_COMMUNITY_Community 0]]
+- 1 edge to [[_COMMUNITY_Community 20]]
+- 1 edge to [[_COMMUNITY_Community 9]]
+- 1 edge to [[_COMMUNITY_Community 16]]
+- 1 edge to [[_COMMUNITY_Community 1]]
+- 1 edge to [[_COMMUNITY_Community 37]]
+- 1 edge to [[_COMMUNITY_Community 80]]
+- 1 edge to [[_COMMUNITY_Community 120]]
+- 1 edge to [[_COMMUNITY_Community 90]]
 
 ## Top bridge nodes
-- [[Algebraic Group Model (AGM)]] - degree 15, connects to 6 communities
-- [[Modified KZG polynomial commitment for Laurent polynomials (bounded-degree, single-point hidden)]] - degree 7, connects to 2 communities
-- [[(q1,q2)-extended discrete logarithm (edlog) assumption (Def 2)]] - degree 5, connects to 2 communities
-- [[Theorem 5 Groth16 ceremony has update knowledge soundness under (2n-1,2n-2)-edlog for algebraic adversaries in ROM]] - degree 5, connects to 2 communities
-- [[Bivariate constraint system a∘b=c plus Q linear constraints, embedded as constant term of t(X,Y)]] - degree 3, connects to 2 communities
+- [[Module-SIS  Module-LWE]] - degree 47, connects to 12 communities
+- [[Greyhound Fast Polynomial Commitments from Lattices]] - degree 17, connects to 7 communities
+- [[Greyhound polynomial commitment scheme]] - degree 14, connects to 6 communities
+- [[Power-of-Two Cyclotomic Ring ZX(Xd+1)]] - degree 10, connects to 5 communities
+- [[LaBRADOR Proof System]] - degree 12, connects to 4 communities

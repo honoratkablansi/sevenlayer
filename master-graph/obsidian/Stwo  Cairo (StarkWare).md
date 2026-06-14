@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 99"
+community: "Community 105"
 location: "Chapter 11"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_99
+  - community/Community_105
 ---
 
 # Stwo / Cairo (StarkWare)
@@ -18,4 +18,4 @@ tags:
 - [[Mersenne-31 (M31) field]] - `references` [EXTRACTED]
 - [[SHARP (Shared Prover) aggregation]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_99
+#graphify/document #graphify/EXTRACTED #community/Community_105

@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-59-zkbridge.pdf"
 type: "paper"
-community: "Community 75"
+community: "Community 21"
 location: "§1, §4"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_75
+  - community/Community_21
 ---
 
 # Data-parallel circuit: N identical copies of a sub-circuit with no inter-copy wiring (e.g. N signature-verification copies)
@@ -17,4 +17,4 @@ tags:
 - [[Linear-Time Prover]] - `builds_on` [EXTRACTED]
 - [[deVirgo distributed zero-knowledge proof system parallelizing Virgo over M machines with perfect linear scalability and no proof-size overhead]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_75
+#graphify/paper #graphify/EXTRACTED #community/Community_21

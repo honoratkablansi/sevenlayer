@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-81-wesolowski-vdf.pdf"
 type: "paper"
-community: "Community 6"
+community: "Community 12"
 location: "§4 (interactive succinct argument)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_6
+  - community/Community_12
 ---
 
 # Proof of exponentiation (short proof pi = g^{floor(2^t/l)})
@@ -18,4 +18,4 @@ tags:
 - [[Wesolowski public-coin protocol verifier samples prime l, checks pil gr = y]] - `defines` [EXTRACTED]
 - [[Wesolowski, Efficient Verifiable Delay Functions (EUROCRYPT 2019)]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_6
+#graphify/paper #graphify/EXTRACTED #community/Community_12

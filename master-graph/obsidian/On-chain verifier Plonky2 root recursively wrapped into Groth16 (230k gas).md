@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-21-zktree.pdf"
 type: "paper"
-community: "Community 73"
+community: "Community 55"
 location: "§4 (Fig. 3)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_73
+  - community/Community_55
 ---
 
 # On-chain verifier: Plonky2 root recursively wrapped into Groth16 (230k gas)
@@ -17,4 +17,4 @@ tags:
 - [[Intermediate bn128-Poseidon Plonky2 proof to eliminate non-native range checks]] - `introduces` [EXTRACTED]
 - [[zkTree zero-knowledge recursion tree with ZKP membership proofs]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_73
+#graphify/paper #graphify/EXTRACTED #community/Community_55
