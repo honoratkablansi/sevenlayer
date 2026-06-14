@@ -110,7 +110,7 @@ def fetch_transcript(video_id: str) -> list[dict]:
                  "dur": round(float(s.duration), 3), "text": s.text} for s in fetched]
     except Exception:  # noqa: BLE001 - fall back to the classic classmethod API
         data = YouTubeTranscriptApi.get_transcript(video_id, languages=["en"])
-        return [{"start": d["start"], "dur": d.get("duration", 0), "text": d["text"]}
+        return [{"start": d.get("start", 0), "dur": d.get("duration", 0), "text": d["text"]}
                 for d in data]
 
 
@@ -118,11 +118,15 @@ def fetch_slides(url: str, dest: Path) -> str:
     """Fetch a slide PDF via the hardened paper fetcher (curl_cffi -> Camoufox
     stealth on a Cloudflare wall); verify %PDF- magic; atomic write. Returns how."""
     import sys as _sys
-    _sys.path.insert(0, str(REPO / "scripts"))
+    scripts_dir = str(REPO / "scripts")
+    if scripts_dir not in _sys.path:
+        _sys.path.insert(0, scripts_dir)
     from fetch_references import fetch_paper
     data, how = fetch_paper(url)
     if data is None:
         raise RuntimeError(f"failed to fetch slides PDF: {url}")
+    if data[:5] != b"%PDF-":
+        raise RuntimeError(f"slides response is not a PDF: {url}")
     dest.parent.mkdir(parents=True, exist_ok=True)
     tmp = dest.with_suffix(dest.suffix + ".tmp")
     tmp.write_bytes(data)
@@ -133,16 +137,18 @@ def fetch_slides(url: str, dest: Path) -> str:
 def cmd_fetch(video_id: str, slides_url: str, label: str, title: str) -> int:
     paths = lecture_paths(label)
     paths["dir"].mkdir(parents=True, exist_ok=True)
+    # Both network fetches first, so a fetch failure leaves no partial artifacts.
     segments = fetch_transcript(video_id)
-    _dump_json(paths["transcript_json"], segments)
-    text = transcript_to_text(segments)
-    paths["transcript_txt"].write_text(text, encoding="utf-8")
     how = fetch_slides(slides_url, paths["slides"])
+    text = transcript_to_text(segments)
+    nwords = len(text.split())
+    _dump_json(paths["transcript_json"], segments)
+    paths["transcript_txt"].write_text(text, encoding="utf-8")
     manifest_upsert({
         "label": label, "title": title, "video_id": video_id,
         "video_url": f"https://www.youtube.com/watch?v={video_id}",
         "slides_url": slides_url, "transcript_segments": len(segments),
-        "transcript_words": len(text.split()), "slides_fetched_via": how,
+        "transcript_words": nwords, "slides_fetched_via": how,
         "license": "CC", "course": "Berkeley ZKP MOOC",
     })
     MOOC_WORK.mkdir(parents=True, exist_ok=True)
@@ -153,6 +159,6 @@ def cmd_fetch(video_id: str, slides_url: str, label: str, title: str) -> int:
         "source_file": f"references/mooc/{label}/slides.pdf",
         "frag_glob": f"master-graph/.mooc/frag-{label}-*.json",
     })
-    print(f"fetched {label}: {len(segments)} segments ({len(text.split())} words); "
+    print(f"fetched {label}: {len(segments)} segments ({nwords} words); "
           f"slides via {how} -> {paths['dir']}")
     return 0
