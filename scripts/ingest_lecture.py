@@ -49,3 +49,14 @@ def transcript_to_text(segments: list[dict], marker_every: int = 40) -> str:
         if txt:
             out.append(txt)
     return " ".join(out)
+
+
+def chunk_text(text: str, n_chunks: int) -> list[str]:
+    """Split text into up to n_chunks roughly-equal chunks on whitespace
+    boundaries (never mid-word). Empty text -> []."""
+    words = text.split()
+    if not words:
+        return []
+    n_chunks = max(1, n_chunks)
+    size = math.ceil(len(words) / n_chunks)
+    return [" ".join(words[i:i + size]) for i in range(0, len(words), size)]
