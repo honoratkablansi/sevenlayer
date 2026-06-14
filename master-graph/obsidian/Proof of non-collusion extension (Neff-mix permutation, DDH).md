@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-88-provisions.pdf"
 type: "paper"
-community: "Community 25"
+community: "Community 39"
 location: "§7; App D; refs [28],[1]"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_25
+  - community/Community_39
 ---
 
 # Proof of non-collusion extension (Neff-mix permutation, DDH)
@@ -17,4 +17,4 @@ tags:
 - [[Neff verifiable secret shuffle  mix net (prior work)]] - `cites` [EXTRACTED]
 - [[Provisions privacy-preserving proof of solvency for Bitcoin exchanges]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_25
+#graphify/paper #graphify/EXTRACTED #community/Community_39

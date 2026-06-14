@@ -1,20 +1,24 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 12"
+community: "Community 97"
 location: "Chapter 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_12
+  - community/Community_97
 ---
 
 # Elliptic Curve / Discrete Logarithm Problem
 
 ## Connections
-- [[Bilinear Pairing]] - `conceptually_related_to` [EXTRACTED]
+- [[BN Curve]] - `defines` [EXTRACTED]
+- [[BN254 (alt_bn128) Curve]] - `defines` [EXTRACTED]
+- [[Bilinear Pairing]] - `uses` [EXTRACTED]
+- [[Complex Multiplication (CM)]] - `defines` [EXTRACTED]
+- [[Embedding degree k]] - `defines` [EXTRACTED]
 - [[Layer 1 -- Building the Stage]] - `defines` [EXTRACTED]
 - [[Shor's Algorithm  Quantum Threat]] - `conceptually_related_to` [EXTRACTED]
 - [[Structured Reference String (SRS)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_12
+#graphify/document #graphify/EXTRACTED #community/Community_97

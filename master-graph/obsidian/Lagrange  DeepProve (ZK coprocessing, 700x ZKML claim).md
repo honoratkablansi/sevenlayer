@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 77"
+community: "Community 117"
 location: "Chapter 13"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_77
+  - community/Community_117
 ---
 
 # Lagrange / DeepProve (ZK coprocessing, 700x ZKML claim)
@@ -16,4 +16,4 @@ tags:
 - [[ZK Coprocessor]] - `references` [EXTRACTED]
 - [[ZKML (Zero-Knowledge Machine Learning)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_77
+#graphify/document #graphify/EXTRACTED #community/Community_117

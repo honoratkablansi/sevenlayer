@@ -1,32 +1,32 @@
 ---
 type: community
-cohesion: 0.18
+cohesion: 0.12
 members: 17
 ---
 
 # Community 71
 
-**Cohesion:** 0.18 - loosely connected
+**Cohesion:** 0.12 - loosely connected
 **Members:** 17 nodes
 
 ## Members
-- [[Centered Binomial Distribution (CBD) noise sampling]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[Cryptographic functions HJGPRFXOF from SHA-3 and SHAKE (FIPS 202)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[Decapsulation failure probability (2-138.8 to 2-174.8)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[Fujisaki-Okamoto (FO) transform]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[IND-CCA2 security]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[Implicit rejection mechanism (re-encryption ciphertext comparison)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[K-PKE component public-key encryption scheme (KeyGenEncryptDecrypt)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[Key-Encapsulation Mechanism (KEM)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[ML-KEM (Module-Lattice-Based Key-Encapsulation Mechanism, FIPS 203)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[ML-KEM internal derandomized algorithms (KeyGenEncapsDecaps_internal)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[ML-KEM-1024 (k=4, security category 5, 256-bit RBG)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[ML-KEM-512 (k=2, security category 1, 128-bit RBG)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[ML-KEM-768 (k=3, security category 3, 192-bit RBG, NIST default)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[ML-KEM.Decaps (deterministic decapsulation, Algorithm 21)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[ML-KEM.Encaps (probabilistic encapsulation, Algorithm 20)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[ML-KEM.KeyGen (probabilistic key generation, Algorithm 19)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[NIST PQC security strength categories (1-5)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
+- [[Beanstalk Flash Loan Attack ($182M, 2022)]] - document - proving-nothing.md
+- [[FOOM Club Verifier Misconfiguration (2022)]] - document - proving-nothing.md
+- [[Fraud Proof System]] - document - references/ch08/ref-27-l2beat-stages.md
+- [[Governance Attack Surface]] - document - proving-nothing.md
+- [[L2BEAT Stages Framework for L2 Maturity]] - document - references/ch08/ref-27-l2beat-stages.md
+- [[L2Beat Stages Framework]] - document - wiki/sections/ch08-governance-the-achilles-heel.md
+- [[Maturity Assessment (Stage 0-1)]] - document - proving-nothing.md
+- [[Meisami & Bodell Upgradeable Contract Survey (2023)]] - document - proving-nothing.md
+- [[On-Chain Verifier]] - document - proving-nothing.md
+- [[Proof Verification]] - document - proving-nothing.md
+- [[Tornado Cash Governance Attack (2023)]] - document - proving-nothing.md
+- [[Trust Minimization (Not Trustless)]] - document - proving-nothing.md
+- [[Upgradeable Proxy Pattern]] - document - proving-nothing.md
+- [[Verification Gas Cost]] - document - proving-nothing.md
+- [[Verifier Ossification  Immutability]] - document - proving-nothing.md
+- [[Vitalik Buterin]] - document - references/ch08/ref-27-l2beat-stages.md
+- [[XZ Utils Supply-Chain Attack (CVE-2024-3094)]] - document - proving-nothing.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -36,11 +36,20 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 3 edges to [[_COMMUNITY_Community 120]]
-- 2 edges to [[_COMMUNITY_Community 1]]
-- 1 edge to [[_COMMUNITY_Community 0]]
+- 9 edges to [[_COMMUNITY_Community 17]]
+- 4 edges to [[_COMMUNITY_Community 13]]
+- 3 edges to [[_COMMUNITY_Community 5]]
+- 3 edges to [[_COMMUNITY_Community 47]]
+- 1 edge to [[_COMMUNITY_Community 37]]
+- 1 edge to [[_COMMUNITY_Community 3]]
 - 1 edge to [[_COMMUNITY_Community 72]]
+- 1 edge to [[_COMMUNITY_Community 12]]
+- 1 edge to [[_COMMUNITY_Community 14]]
+- 1 edge to [[_COMMUNITY_Community 58]]
 
 ## Top bridge nodes
-- [[ML-KEM (Module-Lattice-Based Key-Encapsulation Mechanism, FIPS 203)]] - degree 17, connects to 4 communities
-- [[K-PKE component public-key encryption scheme (KeyGenEncryptDecrypt)]] - degree 6, connects to 2 communities
+- [[L2BEAT Stages Framework for L2 Maturity]] - degree 9, connects to 5 communities
+- [[L2Beat Stages Framework]] - degree 9, connects to 3 communities
+- [[On-Chain Verifier]] - degree 7, connects to 3 communities
+- [[Verification Gas Cost]] - degree 4, connects to 3 communities
+- [[Trust Minimization (Not Trustless)]] - degree 3, connects to 2 communities

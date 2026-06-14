@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch10-path-two-pure-transparent.md"
 type: "document"
-community: "Community 8"
+community: "Community 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_8
+  - community/Community_2
 ---
 
 # Ethereum Foundation
@@ -14,4 +14,4 @@ tags:
 - [[Path Two Pure Transparent]] - `references` [EXTRACTED]
 - [[Performance The Cost Collapse]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_8
+#graphify/document #graphify/EXTRACTED #community/Community_2

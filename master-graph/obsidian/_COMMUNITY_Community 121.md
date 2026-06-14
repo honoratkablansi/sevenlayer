@@ -1,20 +1,23 @@
 ---
 type: community
-cohesion: 0.50
-members: 5
+cohesion: 0.29
+members: 8
 ---
 
 # Community 121
 
-**Cohesion:** 0.50 - moderately connected
-**Members:** 5 nodes
+**Cohesion:** 0.29 - loosely connected
+**Members:** 8 nodes
 
 ## Members
-- [[Nebra UPA whitepaper (Universal Proof Aggregation)]] - document - references/recursion/ch1/ref-22-nebra-upa.md
-- [[Off-chain recursion, single aggregated onchain proof]] - document - references/recursion/ch1/ref-22-nebra-upa.md
-- [[Onchain ZKP settlement  verification cost]] - document - references/recursion/ch1/ref-22-nebra-upa.md
-- [[Recursive SNARK]] - document - references/recursion/ch1/ref-22-nebra-upa.md
-- [[Universal Proof Aggregation (UPA)]] - document - references/recursion/ch1/ref-22-nebra-upa.md
+- [[1-of-N Trust Model]] - document - proving-nothing.md
+- [[ADOPT Framework (Available, Decentralized, Open, Persistent, Transparent)]] - document - proving-nothing.md
+- [[CapexOpex Setup Economics Framework]] - document - proving-nothing.md
+- [[Chapter 2 Layer 1 — Building the Stage]] - document - proving-nothing.md
+- [[Ethereum KZG Summoning Ceremony (2023, 141,416 contributors)]] - document - proving-nothing.md
+- [[Luhmann — Risk A Sociological Theory (trust vs confidence, 1993)]] - document - proving-nothing.md
+- [[Nikolaenko et al. — Powers-of-Tau to the People Decentralizing Setup Ceremonies (ACNS 2024)]] - document - proving-nothing.md
+- [[Wang, Cohney, Bonneau — SoK Trusted Setups for Powers-of-Tau Strings (FC 2025)]] - document - proving-nothing.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -24,12 +27,13 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 1 edge to [[_COMMUNITY_Community 32]]
-- 1 edge to [[_COMMUNITY_Community 61]]
-- 1 edge to [[_COMMUNITY_Community 105]]
-- 1 edge to [[_COMMUNITY_Community 20]]
+- 3 edges to [[_COMMUNITY_Community 5]]
+- 1 edge to [[_COMMUNITY_Community 0]]
+- 1 edge to [[_COMMUNITY_Community 31]]
 - 1 edge to [[_COMMUNITY_Community 14]]
 
 ## Top bridge nodes
-- [[Recursive SNARK]] - degree 5, connects to 4 communities
-- [[Universal Proof Aggregation (UPA)]] - degree 4, connects to 1 community
+- [[Ethereum KZG Summoning Ceremony (2023, 141,416 contributors)]] - degree 5, connects to 2 communities
+- [[Chapter 2 Layer 1 — Building the Stage]] - degree 4, connects to 2 communities
+- [[1-of-N Trust Model]] - degree 4, connects to 1 community
+- [[CapexOpex Setup Economics Framework]] - degree 3, connects to 1 community

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-21-neo.pdf"
 type: "paper"
-community: "Community 48"
+community: "Community 10"
 location: "§2.2, Def 1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_48
+  - community/Community_10
 ---
 
 # Reductions of knowledge framework
@@ -16,4 +16,4 @@ tags:
 - [[Neo folding scheme for CCS (lattice-based)]] - `conceptually_related_to` [EXTRACTED]
 - [[Theorem 5 composition theorem (restricted + relaxed knowledge soundness compose to RoK)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_48
+#graphify/paper #graphify/EXTRACTED #community/Community_10

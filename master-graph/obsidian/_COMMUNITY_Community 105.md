@@ -1,25 +1,26 @@
 ---
 type: community
-cohesion: 0.22
-members: 10
+cohesion: 0.24
+members: 11
 ---
 
 # Community 105
 
-**Cohesion:** 0.22 - loosely connected
-**Members:** 10 nodes
+**Cohesion:** 0.24 - loosely connected
+**Members:** 11 nodes
 
 ## Members
-- [[Applicative recursion (application-aware proof + input compression)]] - document - references/recursion/ch3/ref-53-starkware-recursive-starks.md
-- [[L3 deployments on top of L2 via recursive verifier]] - document - references/recursion/ch3/ref-53-starkware-recursive-starks.md
-- [[Logarithmic verification compression of STARK proofs]] - document - references/recursion/ch3/ref-53-starkware-recursive-starks.md
-- [[NEBRA]] - document - proving-nothing.md
-- [[Proof Aggregation]] - document - proving-nothing.md
-- [[Real-time zkVM pipeline case study]] - document - recursion/recursion-outline.md
-- [[Recursive STARK proving]] - document - references/recursion/ch3/ref-53-starkware-recursive-starks.md
-- [[StarkWare, Recursive STARKs (2022)]] - document - references/recursion/ch3/ref-53-starkware-recursive-starks.md
-- [[Three Core Capabilities compression, incrementality, composability]] - document - recursion/recursion-outline.md
-- [[When Not to Recurse (crossover heuristics)]] - document - recursion/recursion-outline.md
+- [[Bit-decomposition gadget proving ReLU + max pooling composition with a single bit-decomposition per number]] - paper - references/recursion/ch3/ref-70-zkcnn.pdf
+- [[Jacob et al. 28 integer-arithmetic-only quantization scheme used to encode reals]] - paper - references/recursion/ch3/ref-70-zkcnn.pdf
+- [[Quantization of real-valued modeldata to Q-bit integers in finite field (affine map a = L(q-Z))]] - paper - references/recursion/ch3/ref-70-zkcnn.pdf
+- [[SafetyNets (Ghodsi et al. 25) GKR-based verifiable NN inference (no privacy)]] - paper - references/recursion/ch3/ref-70-zkcnn.pdf
+- [[Thaler 41 time-optimal sum-check for matrix multiplication (prover O(n2)  O(n3))]] - paper - references/recursion/ch3/ref-70-zkcnn.pdf
+- [[Theorem 4.1 Protocol 3 is correct and sound (Def C.1)]] - paper - references/recursion/ch3/ref-70-zkcnn.pdf
+- [[Verifiable  trustless DNN inference model consumer verifies that the model provider served correct predictions in an untrusted (MLaaS) setting]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[Zero knowledge CNN accuracy scheme over many samples (prove secret model accuracy on public dataset)]] - paper - references/recursion/ch3/ref-70-zkcnn.pdf
+- [[Zero knowledge via zk-sumcheck + low-degree extension + zk polynomial commitment; non-interactive via Fiat-Shamir]] - paper - references/recursion/ch3/ref-70-zkcnn.pdf
+- [[zkCNN commit-and-prove scheme (KeyGen, Commit, Prove, Verify) for CNN prediction]] - paper - references/recursion/ch3/ref-70-zkcnn.pdf
+- [[zkCNN Zero Knowledge Proofs for CNN Predictions and Accuracy (CCS 2021)]] - paper - references/recursion/ch3/ref-70-zkcnn.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -29,27 +30,16 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 3 edges to [[_COMMUNITY_Community 89]]
-- 2 edges to [[_COMMUNITY_Community 17]]
-- 2 edges to [[_COMMUNITY_Community 15]]
-- 2 edges to [[_COMMUNITY_Community 78]]
-- 2 edges to [[_COMMUNITY_Community 69]]
-- 2 edges to [[_COMMUNITY_Community 14]]
-- 1 edge to [[_COMMUNITY_Community 67]]
-- 1 edge to [[_COMMUNITY_Community 68]]
-- 1 edge to [[_COMMUNITY_Community 8]]
-- 1 edge to [[_COMMUNITY_Community 117]]
-- 1 edge to [[_COMMUNITY_Community 99]]
-- 1 edge to [[_COMMUNITY_Community 65]]
-- 1 edge to [[_COMMUNITY_Community 25]]
-- 1 edge to [[_COMMUNITY_Community 115]]
-- 1 edge to [[_COMMUNITY_Community 121]]
-- 1 edge to [[_COMMUNITY_Community 93]]
-- 1 edge to [[_COMMUNITY_Community 20]]
+- 5 edges to [[_COMMUNITY_Community 85]]
+- 4 edges to [[_COMMUNITY_Community 117]]
+- 4 edges to [[_COMMUNITY_Community 66]]
+- 2 edges to [[_COMMUNITY_Community 36]]
+- 1 edge to [[_COMMUNITY_Community 37]]
+- 1 edge to [[_COMMUNITY_Community 40]]
 
 ## Top bridge nodes
-- [[Proof Aggregation]] - degree 24, connects to 14 communities
-- [[Recursive STARK proving]] - degree 7, connects to 2 communities
-- [[StarkWare, Recursive STARKs (2022)]] - degree 3, connects to 1 community
-- [[Three Core Capabilities compression, incrementality, composability]] - degree 2, connects to 1 community
-- [[When Not to Recurse (crossover heuristics)]] - degree 2, connects to 1 community
+- [[zkCNN commit-and-prove scheme (KeyGen, Commit, Prove, Verify) for CNN prediction]] - degree 11, connects to 2 communities
+- [[Verifiable  trustless DNN inference model consumer verifies that the model provider served correct predictions in an untrusted (MLaaS) setting]] - degree 8, connects to 2 communities
+- [[zkCNN Zero Knowledge Proofs for CNN Predictions and Accuracy (CCS 2021)]] - degree 8, connects to 2 communities
+- [[Zero knowledge via zk-sumcheck + low-degree extension + zk polynomial commitment; non-interactive via Fiat-Shamir]] - degree 3, connects to 2 communities
+- [[SafetyNets (Ghodsi et al. 25) GKR-based verifiable NN inference (no privacy)]] - degree 3, connects to 1 community

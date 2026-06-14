@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-21-neo.pdf"
 type: "paper"
-community: "Community 48"
+community: "Community 0"
 location: "p.1 (title/abstract)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_48
+  - community/Community_0
 ---
 
 # Neo: Lattice-based Folding Scheme for CCS over Small Fields and Pay-per-bit Commitments
@@ -45,4 +45,4 @@ tags:
 - [[Theorem 5 composition theorem (restricted + relaxed knowledge soundness compose to RoK)]] - `proves` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_48
+#graphify/paper #graphify/EXTRACTED #community/Community_0

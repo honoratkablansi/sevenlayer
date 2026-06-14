@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch09/ref-29-gentry-fhe.pdf"
 type: "paper"
-community: "Community 34"
+community: "Community 18"
 location: "§1.2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_34
+  - community/Community_18
 ---
 
 # Recrypt: homomorphically evaluate decryption circuit on encrypted secret-key bits to refresh ciphertext error
@@ -15,4 +15,4 @@ tags:
 - [[Bootstrappable encryption scheme that can evaluate its own (augmented) decryption circuit]] - `conceptually_related_to` [EXTRACTED]
 - [[Bootstrapping (FHE)]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_34
+#graphify/paper #graphify/EXTRACTED #community/Community_18

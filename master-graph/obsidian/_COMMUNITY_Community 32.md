@@ -1,40 +1,39 @@
 ---
 type: community
-cohesion: 0.10
-members: 25
+cohesion: 0.09
+members: 24
 ---
 
 # Community 32
 
-**Cohesion:** 0.10 - loosely connected
-**Members:** 25 nodes
+**Cohesion:** 0.09 - loosely connected
+**Members:** 24 nodes
 
 ## Members
-- [[Accumulation  Split-Accumulation Schemes]] - paper - references/ch06/ref-17-nova.pdf
-- [[Bunz, Chen — ProtoStar generic efficient accumulationfolding for special-sound protocols (2023) 1]] - paper - references/recursion/ch1/ref-32-nguyen-boneh-setty-nova-cycle.pdf
-- [[Dao, Miller, Wright, Grubbs — Weak Fiat-Shamir attacks on modern proof systems (2023) 3]] - paper - references/recursion/ch1/ref-32-nguyen-boneh-setty-nova-cycle.pdf
-- [[Decomposition Pi_decomp (R_lin,B2 - R_lin,B(2))]] - paper - references/ch02/ref-11-latticefold-plus.pdf
-- [[Fiat-Shamir verification key vk = H(pp, R1CS) must enter every random-oracle call to preserve folding-verifier soundness]] - paper - references/recursion/ch1/ref-32-nguyen-boneh-setty-nova-cycle.pdf
-- [[Folding Scheme]] - document - proving-nothing.md
-- [[Greyhound NS24 (LaBRADOR-based PCS, sqrt verifier)]] - paper - references/ch02/ref-11-latticefold-plus.pdf
-- [[Greyhound and LaBRADOR (Lattice Proofs)]] - document - proving-nothing.md
-- [[IVC  Proof-Carrying Data]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[Kothapalli, Setty — HyperNova recursive arguments for customizable constraint systems (2023) 10]] - paper - references/recursion/ch1/ref-32-nguyen-boneh-setty-nova-cycle.pdf
-- [[LatticeFold  LatticeFold+ (Boneh, Chen)]] - document - proving-nothing.md
-- [[LatticeFold BC24 (predecessor)]] - paper - references/ch02/ref-11-latticefold-plus.pdf
-- [[LatticeFold+ Folding Scheme (R_comp x R_acc - R_acc)]] - paper - references/ch02/ref-11-latticefold-plus.pdf
-- [[LatticeFold+ Faster, Simpler, Shorter Lattice-Based Folding for Succinct Proof Systems]] - paper - references/ch02/ref-11-latticefold-plus.pdf
-- [[Layer 6 Commitment Trilemma]] - document - proving-nothing.md
-- [[Lova FKNP24 (l2-norm integer Ajtai folding)]] - paper - references/ch02/ref-11-latticefold-plus.pdf
-- [[Multi-folding scheme]] - paper - references/recursion/ch1/ref-30-cyclefold.pdf
-- [[Neo NS25 (small-field embedding into cyclotomic ring)]] - paper - references/ch02/ref-11-latticefold-plus.pdf
-- [[Neo and SuperNeo (Nguyen, Setty, ePrint 2025294)]] - document - proving-nothing.md
-- [[Path Three Post-Quantum Folding]] - document - wiki/sections/ch10-path-three-post-quantum-folding.md
-- [[Proof Size O_lambda(kappad + log n) (vs LatticeFold kappadlogB)]] - paper - references/ch02/ref-11-latticefold-plus.pdf
-- [[Small Prime Moduli Support (tensor-of-rings, Neo-style)]] - paper - references/ch02/ref-11-latticefold-plus.pdf
-- [[Theorem 5.1 Main folding RoK from R_comp x R_acc to R_acc]] - paper - references/ch02/ref-11-latticefold-plus.pdf
-- [[Theorem 5.3 Efficiency estimate (proververifierproof size)]] - paper - references/ch02/ref-11-latticefold-plus.pdf
-- [[~5x Faster Prover, Omega(log B) speedup over LatticeFold]] - paper - references/ch02/ref-11-latticefold-plus.pdf
+- [[AD-SNARK]] - paper - references/snowball/book/ref-120-adsnark-nearly-practical-and-privacy-preserving.pdf
+- [[Attested Camera]] - paper - references/snowball/book/ref-119-zk-img-attested-images-via-zero-knowledge-proof.pdf
+- [[Authenticated Data]] - paper - references/snowball/book/ref-120-adsnark-nearly-practical-and-privacy-preserving.pdf
+- [[Black-Box Separation]] - paper - references/snowball/book/ref-077-separating-succinct-non-interactive-arguments-fr.pdf
+- [[Checkable Subspace Sampling Argument]] - paper - references/snowball/book/ref-147-an-algebraic-framework-for-universal-and-updatab.pdf
+- [[Common Reference String]] - paper - references/snowball/book/ref-077-separating-succinct-non-interactive-arguments-fr.pdf
+- [[Extractable Collision-Resistant Hash]] - paper - references/snowball/book/ref-074-from-extractable-collision-resistance-to-succinc.pdf
+- [[Falsifiable Assumption]] - paper - references/snowball/book/ref-077-separating-succinct-non-interactive-arguments-fr.pdf
+- [[Image Attestation]] - paper - references/snowball/book/ref-119-zk-img-attested-images-via-zero-knowledge-proof.pdf
+- [[Image Provenance Verification]] - paper - references/recursion/ch3/ref-78-veritas.pdf
+- [[Knowledge Assumption]] - paper - references/snowball/book/ref-074-from-extractable-collision-resistance-to-succinc.pdf
+- [[Proof Bootstrapping]] - paper - references/snowball/book/ref-112-geppetto-versatile-verifiable-computation.pdf
+- [[Proof Chaining]] - paper - references/snowball/book/ref-119-zk-img-attested-images-via-zero-knowledge-proof.pdf
+- [[Publicly-verifiable vs designated-verifier SNARK]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
+- [[Quadratic Span Program]] - paper - references/snowball/book/ref-066-quadratic-span-programs-and-succinct-nizks-witho.pdf
+- [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - document - proving-nothing.md
+- [[Selective Opening  context integrity]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Signature of Knowledge]] - paper - references/snowball/recursion/ref-146-snarky-signatures-minimal-signatures-of-knowled.pdf
+- [[Simulation-Extractability]] - paper - references/snowball/recursion/ref-146-snarky-signatures-minimal-signatures-of-knowled.pdf
+- [[Square Span Program]] - paper - references/snowball/book/ref-138-square-span-programs-with-applications-to-succin.pdf
+- [[Succinct Proof]] - paper - references/snowball/recursion/ref-121-replicated-state-machines-without-replicated-exe.pdf
+- [[TinyRAM]] - paper - references/snowball/book/ref-070-snarks-for-c-verifying-program-executions-succi.pdf
+- [[Universal SNARK]] - paper - references/snowball/recursion/ref-129-mirage-succinct-arguments-for-randomized-algori.pdf
+- [[Verifiable State Update]] - paper - references/snowball/book/ref-115-scaling-verifiable-computation-using-efficient-s.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -44,44 +43,60 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 26 edges to [[_COMMUNITY_Community 0]]
-- 10 edges to [[_COMMUNITY_Community 15]]
-- 9 edges to [[_COMMUNITY_Community 11]]
-- 8 edges to [[_COMMUNITY_Community 12]]
-- 8 edges to [[_COMMUNITY_Community 8]]
-- 6 edges to [[_COMMUNITY_Community 16]]
-- 4 edges to [[_COMMUNITY_Community 48]]
-- 4 edges to [[_COMMUNITY_Community 28]]
-- 4 edges to [[_COMMUNITY_Community 24]]
-- 3 edges to [[_COMMUNITY_Community 1]]
+- 9 edges to [[_COMMUNITY_Community 28]]
+- 8 edges to [[_COMMUNITY_Community 9]]
+- 7 edges to [[_COMMUNITY_Community 22]]
+- 6 edges to [[_COMMUNITY_Community 5]]
+- 5 edges to [[_COMMUNITY_Community 1]]
+- 4 edges to [[_COMMUNITY_Community 38]]
+- 4 edges to [[_COMMUNITY_Community 58]]
+- 4 edges to [[_COMMUNITY_Community 62]]
+- 4 edges to [[_COMMUNITY_Community 63]]
+- 3 edges to [[_COMMUNITY_Community 15]]
 - 3 edges to [[_COMMUNITY_Community 14]]
-- 3 edges to [[_COMMUNITY_Community 52]]
-- 3 edges to [[_COMMUNITY_Community 26]]
-- 3 edges to [[_COMMUNITY_Community 47]]
-- 3 edges to [[_COMMUNITY_Community 6]]
-- 3 edges to [[_COMMUNITY_Community 103]]
-- 3 edges to [[_COMMUNITY_Community 88]]
-- 2 edges to [[_COMMUNITY_Community 45]]
-- 2 edges to [[_COMMUNITY_Community 61]]
-- 2 edges to [[_COMMUNITY_Community 18]]
-- 2 edges to [[_COMMUNITY_Community 104]]
-- 2 edges to [[_COMMUNITY_Community 69]]
+- 3 edges to [[_COMMUNITY_Community 44]]
+- 2 edges to [[_COMMUNITY_Community 37]]
+- 2 edges to [[_COMMUNITY_Community 53]]
+- 2 edges to [[_COMMUNITY_Community 36]]
 - 2 edges to [[_COMMUNITY_Community 97]]
-- 2 edges to [[_COMMUNITY_Community 77]]
-- 1 edge to [[_COMMUNITY_Community 13]]
-- 1 edge to [[_COMMUNITY_Community 60]]
-- 1 edge to [[_COMMUNITY_Community 90]]
-- 1 edge to [[_COMMUNITY_Community 121]]
-- 1 edge to [[_COMMUNITY_Community 82]]
-- 1 edge to [[_COMMUNITY_Community 17]]
-- 1 edge to [[_COMMUNITY_Community 7]]
+- 2 edges to [[_COMMUNITY_Community 96]]
+- 2 edges to [[_COMMUNITY_Community 40]]
+- 2 edges to [[_COMMUNITY_Community 88]]
+- 2 edges to [[_COMMUNITY_Community 26]]
+- 2 edges to [[_COMMUNITY_Community 3]]
+- 2 edges to [[_COMMUNITY_Community 85]]
+- 2 edges to [[_COMMUNITY_Community 61]]
+- 1 edge to [[_COMMUNITY_Community 122]]
+- 1 edge to [[_COMMUNITY_Community 23]]
+- 1 edge to [[_COMMUNITY_Community 59]]
+- 1 edge to [[_COMMUNITY_Community 21]]
 - 1 edge to [[_COMMUNITY_Community 67]]
-- 1 edge to [[_COMMUNITY_Community 92]]
-- 1 edge to [[_COMMUNITY_Community 123]]
+- 1 edge to [[_COMMUNITY_Community 77]]
+- 1 edge to [[_COMMUNITY_Community 76]]
+- 1 edge to [[_COMMUNITY_Community 25]]
+- 1 edge to [[_COMMUNITY_Community 95]]
+- 1 edge to [[_COMMUNITY_Community 49]]
+- 1 edge to [[_COMMUNITY_Community 56]]
+- 1 edge to [[_COMMUNITY_Community 57]]
+- 1 edge to [[_COMMUNITY_Community 54]]
+- 1 edge to [[_COMMUNITY_Community 18]]
+- 1 edge to [[_COMMUNITY_Community 6]]
+- 1 edge to [[_COMMUNITY_Community 16]]
+- 1 edge to [[_COMMUNITY_Community 60]]
+- 1 edge to [[_COMMUNITY_Community 117]]
+- 1 edge to [[_COMMUNITY_Community 0]]
+- 1 edge to [[_COMMUNITY_Community 7]]
+- 1 edge to [[_COMMUNITY_Community 11]]
+- 1 edge to [[_COMMUNITY_Community 73]]
+- 1 edge to [[_COMMUNITY_Community 39]]
+- 1 edge to [[_COMMUNITY_Community 41]]
+- 1 edge to [[_COMMUNITY_Community 110]]
+- 1 edge to [[_COMMUNITY_Community 2]]
+- 1 edge to [[_COMMUNITY_Community 129]]
 
 ## Top bridge nodes
-- [[Folding Scheme]] - degree 101, connects to 30 communities
-- [[LatticeFold+ Faster, Simpler, Shorter Lattice-Based Folding for Succinct Proof Systems]] - degree 25, connects to 11 communities
-- [[Path Three Post-Quantum Folding]] - degree 17, connects to 5 communities
-- [[IVC  Proof-Carrying Data]] - degree 3, connects to 2 communities
-- [[Multi-folding scheme]] - degree 3, connects to 2 communities
+- [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - degree 123, connects to 50 communities
+- [[AD-SNARK]] - degree 3, connects to 1 community
+- [[Image Attestation]] - degree 3, connects to 1 community
+- [[Quadratic Span Program]] - degree 3, connects to 1 community
+- [[Universal SNARK]] - degree 3, connects to 1 community

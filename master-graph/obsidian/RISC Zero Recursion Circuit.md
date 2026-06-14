@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch1/ref-18-risc-zero-proof-system-overview.md"
 type: "document"
-community: "Community 14"
+community: "Community 125"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_14
+  - community/Community_125
 ---
 
 # RISC Zero Recursion Circuit
@@ -14,4 +14,4 @@ tags:
 - [[RISC Zero]] - `defines` [EXTRACTED]
 - [[Recursive Proof Composition]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_14
+#graphify/document #graphify/EXTRACTED #community/Community_125

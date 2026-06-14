@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch03/ref-12-underconstrained-circuits.pdf"
 type: "paper"
-community: "Community 83"
+community: "Community 76"
 location: "§5.1 Fig 7-8"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_83
+  - community/Community_76
 ---
 
 # UCP Inference Rules (Assign, Base-Conv, BigInt-Mul, All-But-One-0)
@@ -16,4 +16,4 @@ tags:
 - [[UCP Rule Soundness Proofs]] - `proves` [EXTRACTED]
 - [[Uniqueness Constraint Propagation (UCP)]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_83
+#graphify/paper #graphify/EXTRACTED #community/Community_76

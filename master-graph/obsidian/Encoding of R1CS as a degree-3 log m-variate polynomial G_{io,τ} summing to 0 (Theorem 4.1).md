@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch2/ref-41-spartan.pdf"
 type: "paper"
-community: "Community 46"
+community: "Community 16"
 location: "§4, Theorem 4.1, Lemmas 4.1–4.3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_46
+  - community/Community_16
 ---
 
 # Encoding of R1CS as a degree-3 log m-variate polynomial G_{io,τ} summing to 0 (Theorem 4.1)
@@ -17,4 +17,4 @@ tags:
 - [[Sum-Check Protocol]] - `conceptually_related_to` [EXTRACTED]
 - [[Theorem 4.1 ∃ degree-3 log m-variate G with ∑ G(x)=0 iff R1CS satisfiable]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_46
+#graphify/paper #graphify/EXTRACTED #community/Community_16

@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 10"
+community: "Community 31"
 location: "Chapter 5"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_10
+  - community/Community_31
 ---
 
 # Three Multiplicative Sources of Proving Overhead
@@ -17,4 +17,4 @@ tags:
 - [[Polynomial Commitment Scheme]] - `references` [EXTRACTED]
 - [[The Overhead Tax 10,000x to 50,000x]] - `explains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_10
+#graphify/document #graphify/EXTRACTED #community/Community_31

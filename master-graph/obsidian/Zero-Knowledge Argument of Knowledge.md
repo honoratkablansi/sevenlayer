@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-09-bulletproofs.pdf"
 type: "paper"
-community: "Community 40"
+community: "Community 102"
 location: "§2.3, Definitions 8-12"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_40
+  - community/Community_102
 ---
 
 # Zero-Knowledge Argument of Knowledge
@@ -15,4 +15,4 @@ tags:
 - [[Bulletproofs NIZK Argument System]] - `conceptually_related_to` [EXTRACTED]
 - [[Witness-Extended Emulation (Knowledge Soundness)]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_40
+#graphify/paper #graphify/EXTRACTED #community/Community_102

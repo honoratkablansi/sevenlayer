@@ -10,24 +10,24 @@ members: 18
 **Members:** 18 nodes
 
 ## Members
-- [[Binary tree of proofs (basewrapmerge recursion over block transitions)]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
-- [[Cited Bowe-Gabizon, simulation-extractable Groth zk-SNARK (ePrint 2018187)]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
-- [[Cited Halo (Bowe-Grigg-Hopwood) and Marlin (Chiesa et al.) — universal-setup recursion]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
-- [[Cited Ouroboros Genesis (Badertscher et al., ePrint 2018378) — Samasika base protocol]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
-- [[Implementation OCaml + Snarky DSL + libsnark backend, libp2p; 200ms verify, k=10, R=240s, f=0.5]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
-- [[Mina (Coda)]] - document - recursion/recursion-outline.md
-- [[Ouroboros Samasika first provably-secure succinct PoS consensus]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
-- [[Parallel scan state (decouple block production from SNARK proving)]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
-- [[Pickles  universal-setup recursion roadmap (Halo, Marlin)]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
-- [[Prover incentives snarkers and lowest-price SNARK-work auction]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
-- [[SNARK S recursive state-update circuit (Update verifies txns, consensus, signature, prior proof)]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
-- [[Scan-state claim latency O(log R), storage 2R-1+O(1) vs naive O(R)]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
-- [[Signatures of Knowledge (SoK) for non-malleable fee requests, via Bowe-Gabizon SNARK]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
-- [[Testnet evaluation 85 participants, 49 block producers, 24826 txns, 53120 SNARK proofs]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
-- [[Theorem 2 Samasika satisfies CP, CG, CQ, existential-CQ (security proof)]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
-- [[TickTock SNARK pair (base, merge, wrap proofs over the curve cycle)]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
-- [[Window min-density (nu-shifting omega-window) for succinct long-range fork resolution]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
-- [[maxvalid-sc chain-selection rule (succinct adaptation of maxvalid-bg)]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
+- [[Automated translation layer compiling TensorFlow Lite models into halo2 circuits (columngate minimization, lookup-table sharing)]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[Evaluation claim ImageNet-scale MobileNet v2 SNARKs up to 79.2% top-5 accuracy; 10x-1000x lower proving time than prior work (Zen, vCNN, pvCNN, zkCNN)]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[Groth16  R1CS arithmetization (Groth 2016; Gennaro et al. 2013) older pairing-based SNARK + R1CS used by prior DNN-SNARK work (e.g. Zen)]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[MobileNet v2 (Sandler et al. 2018) inverted-residual CNN architecture used as the proved model]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[Neural-network arithmetization translating CNN layers (convolution, batchnorm, ReLU, residual, fully-connected) into ZK-SNARK arithmetic-circuit constraints]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[Optimization 1 lookup arguments for non-linearities (fused ClipAndScale division + ReLU) sharing one lookup table across layers]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[Optimization 2 sub-circuit reuse across layers via two shared custom gates (addition and dot-product with zero point) and shared lookup tables]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[Plonkup  Plonkish Circuit-Satisfiability Relation]] - paper - references/ch06/ref-19-protostar.pdf
+- [[Proof of model provenance committing to hidden weights via a SNARK-friendly hash so a provider can prove it ran a specific committed model]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[Proof-of-inference first ImageNet-scale ZK-SNARK proof of valid DNN inference (MobileNet v2), 79% top-5 accuracy, verifiable in ~10s]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[Protocol for verifying MLaaS model accuracy with hidden weights, using ZK-SNARKs plus stakingescrow economic incentives]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[Protocol for verifying MLaaS predictions in rounds, with random-contest sampling so a ZK-SNARK is not needed for every prediction]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[Sangria Moh23 (cited, Plonk degree-2 folding)]] - paper - references/ch06/ref-19-protostar.pdf
+- [[Scaling up Trustless DNN Inference with Zero-Knowledge Proofs (Kang, Hashimoto, Stoica, Sun, 2022)]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[Secure ML via MPC  homomorphic encryption  interactive proofs (Ghodsi SafetyNets 2017, Mohassel SecureML 2017, Knott CrypTen 2021, GAZELLE, Delphi) impractical against malicious adversaries o_cb9fbadd]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[Trustless retrieval ZK-SNARK protocol for returning documents matching an ML-encoded predicate (FOIA  legal-discovery use cases)]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[Use of the SNARK-friendly Poseidon hash to commit to hidden inputs andor weights inside the circuit]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
+- [[int8uint8 quantization with fixed-point (ab) scale approximation to avoid floating-point emulation in the prime field]] - paper - references/recursion/ch3/ref-69-kang-trustless-dnn-inference.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -37,13 +37,15 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 5 edges to [[_COMMUNITY_Community 14]]
-- 2 edges to [[_COMMUNITY_Community 61]]
-- 1 edge to [[_COMMUNITY_Community 13]]
+- 4 edges to [[_COMMUNITY_Community 74]]
+- 4 edges to [[_COMMUNITY_Community 105]]
+- 3 edges to [[_COMMUNITY_Community 117]]
+- 2 edges to [[_COMMUNITY_Community 62]]
+- 2 edges to [[_COMMUNITY_Community 8]]
 
 ## Top bridge nodes
-- [[Mina (Coda)]] - degree 9, connects to 2 communities
-- [[Parallel scan state (decouple block production from SNARK proving)]] - degree 6, connects to 1 community
-- [[SNARK S recursive state-update circuit (Update verifies txns, consensus, signature, prior proof)]] - degree 4, connects to 1 community
-- [[Pickles  universal-setup recursion roadmap (Halo, Marlin)]] - degree 3, connects to 1 community
-- [[Binary tree of proofs (basewrapmerge recursion over block transitions)]] - degree 3, connects to 1 community
+- [[Scaling up Trustless DNN Inference with Zero-Knowledge Proofs (Kang, Hashimoto, Stoica, Sun, 2022)]] - degree 16, connects to 4 communities
+- [[Plonkup  Plonkish Circuit-Satisfiability Relation]] - degree 6, connects to 2 communities
+- [[Proof-of-inference first ImageNet-scale ZK-SNARK proof of valid DNN inference (MobileNet v2), 79% top-5 accuracy, verifiable in ~10s]] - degree 6, connects to 2 communities
+- [[Evaluation claim ImageNet-scale MobileNet v2 SNARKs up to 79.2% top-5 accuracy; 10x-1000x lower proving time than prior work (Zen, vCNN, pvCNN, zkCNN)]] - degree 3, connects to 1 community
+- [[Use of the SNARK-friendly Poseidon hash to commit to hidden inputs andor weights inside the circuit]] - degree 3, connects to 1 community

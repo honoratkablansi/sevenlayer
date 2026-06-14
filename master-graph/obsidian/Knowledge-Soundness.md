@@ -1,19 +1,19 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 45"
+community: "Community 22"
 location: "Chapter 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_45
+  - community/Community_22
 ---
 
 # Knowledge-Soundness
 
 ## Connections
 - [[Extractor (polynomial) size blowup under recursive extraction (forces O(1) depth)]] - `conceptually_related_to` [EXTRACTED]
-- [[Fiat-Shamir Transform]] - `conceptually_related_to` [EXTRACTED]
+- [[Fiat-Shamir Transform]] - `relates_to` [EXTRACTED]
 - [[Folding Scheme]] - `conceptually_related_to` [EXTRACTED]
 - [[Generic (Bilinear) Group Model]] - `assumes` [EXTRACTED]
 - [[Gentry-Wichs 2011 no SNARG via black-box reduction to falsifiable assumption GW11]] - `conceptually_related_to` [INFERRED]
@@ -25,4 +25,4 @@ tags:
 - [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `defines` [EXTRACTED]
 - [[Soundness]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_45
+#graphify/document #graphify/EXTRACTED #community/Community_22

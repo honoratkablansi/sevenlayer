@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch3/ref-63-slsa-intoto-frameworks.md"
 type: "document"
-community: "Community 9"
+community: "Community 60"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_9
+  - community/Community_60
 ---
 
 # in-toto supply-chain framework
@@ -14,4 +14,4 @@ tags:
 - [[Provenance attestation]] - `introduces` [INFERRED]
 - [[SLSA Specification v1.0]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_9
+#graphify/document #graphify/EXTRACTED #community/Community_60

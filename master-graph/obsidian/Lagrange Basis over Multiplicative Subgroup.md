@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-07-plonk.pdf"
 type: "paper"
-community: "Community 39"
+community: "Community 98"
 location: "§1.1, §5"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_39
+  - community/Community_98
 ---
 
 # Lagrange Basis over Multiplicative Subgroup
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Grand Product Argument (accumulator polynomial Z)]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_39
+#graphify/paper #graphify/EXTRACTED #community/Community_98

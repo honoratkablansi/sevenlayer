@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-61-verisbom.pdf"
 type: "paper"
-community: "Community 9"
+community: "Community 55"
 location: "§5.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_9
+  - community/Community_55
 ---
 
 # Package Tree (PT): VC maintained by package manager committing dependency inclusion/authenticity
@@ -17,4 +17,4 @@ tags:
 - [[ValidDep dual-membership predicate package valid iff member of both PT and ST roots]] - `assumes` [EXTRACTED]
 - [[Vector commitment scheme (position-binding; Merkle-tree instantiation, O(log n) openings)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_9
+#graphify/paper #graphify/EXTRACTED #community/Community_55

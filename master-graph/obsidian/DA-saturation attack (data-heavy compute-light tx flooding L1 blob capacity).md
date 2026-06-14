@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch08/ref-28-rollup-pricing-attacks.pdf"
 type: "paper"
-community: "Community 114"
+community: "Community 21"
 location: "§4"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_114
+  - community/Community_21
 ---
 
 # DA-saturation attack (data-heavy compute-light tx flooding L1 blob capacity)
@@ -23,4 +23,4 @@ tags:
 - [[Shared-DA multi-tenant risk attack on one rollup cascades across DA-layer tenants]] - `conceptually_related_to` [EXTRACTED]
 - [[Unaligned-incentives thesis cross-dimension mispricing yields novel attacks]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_114
+#graphify/paper #graphify/EXTRACTED #community/Community_21

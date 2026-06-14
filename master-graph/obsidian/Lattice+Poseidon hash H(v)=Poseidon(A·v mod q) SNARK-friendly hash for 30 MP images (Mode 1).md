@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-78-veritas.pdf"
 type: "paper"
-community: "Community 80"
+community: "Community 83"
 location: "§4.2 eq.(5)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_80
+  - community/Community_83
 ---
 
 # Lattice+Poseidon hash H(v)=Poseidon(A·v mod q): SNARK-friendly hash for 30 MP images (Mode 1)
@@ -19,4 +19,4 @@ tags:
 - [[Short Integer Solution (SIS) lattice hash H_A(v)=Av mod q (linear, low-norm preimage)]] - `assumes` [EXTRACTED]
 - [[VerITAS Verifying Image Transformations at Scale (Datta, Chen, Boneh, ePrint 20241066)]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_80
+#graphify/paper #graphify/EXTRACTED #community/Community_83

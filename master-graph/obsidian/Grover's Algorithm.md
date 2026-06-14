@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 91"
+community: "Community 116"
 location: "Chapter 7"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_91
+  - community/Community_116
 ---
 
 # Grover's Algorithm
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Collision-Resistant Hash Functions]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_91
+#graphify/document #graphify/EXTRACTED #community/Community_116

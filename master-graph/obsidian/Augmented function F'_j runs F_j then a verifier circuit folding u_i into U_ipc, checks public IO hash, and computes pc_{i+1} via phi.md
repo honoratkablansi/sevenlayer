@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch2/ref-44-supernova.pdf"
 type: "paper"
-community: "Community 47"
+community: "Community 46"
 location: "§4.1 (augmented function); §4.2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_47
+  - community/Community_46
 ---
 
 # Augmented function F'_j: runs F_j then a verifier circuit folding u_i into U_i[pc], checks public IO hash, and computes pc_{i+1} via phi
@@ -18,4 +18,4 @@ tags:
 - [[Per-instruction step functions {F_1,...,F_l} plus control function phi; each F_j verifies one instruction type, cost independent of l]] - `assumes` [EXTRACTED]
 - [[Program counter (pc) index selecting which instructionfunction is run at a step; computed by control function phi and threaded between augmented circuits]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_47
+#graphify/paper #graphify/EXTRACTED #community/Community_46

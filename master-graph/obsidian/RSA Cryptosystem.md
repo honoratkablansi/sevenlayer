@@ -1,21 +1,23 @@
 ---
 source_file: "references/ch07/ref-24-shor.pdf"
 type: "paper"
-community: "Community 70"
+community: "Community 81"
 location: "p.4 (introduction)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_70
+  - community/Community_81
 ---
 
 # RSA Cryptosystem
 
 ## Connections
 - [[Algorithms for Quantum Computation Discrete Logarithms and Factoring]] - `conceptually_related_to` [EXTRACTED]
+- [[Integer Factorization]] - `threatens` [EXTRACTED]
+- [[Public-Key Cryptography]] - `implements` [EXTRACTED]
 - [[Quantum-vulnerable digital signatures (ECDSA, EdDSA, RSA per FIPS 186)]] - `conceptually_related_to` [EXTRACTED]
 - [[Quantum-vulnerable key establishment (Finite FieldEC DH & MQV per SP 800-56A, RSA per SP 800-56B)]] - `conceptually_related_to` [EXTRACTED]
 - [[RSA public-key cryptosystem (Rivest-Shamir-Adleman 1978)]] - `conceptually_related_to` [EXTRACTED]
 - [[Shor's Algorithm]] - `conceptually_related_to` [INFERRED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_70
+#graphify/paper #graphify/EXTRACTED #community/Community_81

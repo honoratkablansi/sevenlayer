@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-59-zkbridge.pdf"
 type: "paper"
-community: "Community 65"
+community: "Community 74"
 location: "§5, §6.2.3, Table 2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_65
+  - community/Community_74
 ---
 
 # Groth16 outer wrapper proving the deVirgo verification circuit: 131-byte proof, ~227K gas, 3 pairings on EVM-native BN254
@@ -17,4 +17,4 @@ tags:
 - [[Groth16 On the Size of Pairing-Based Non-interactive Arguments (Groth, EUROCRYPT 2016) 54 — constant-size SNARK used as recursion outer layer]] - `cites` [EXTRACTED]
 - [[Recursive Proof Composition]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_65
+#graphify/paper #graphify/EXTRACTED #community/Community_74

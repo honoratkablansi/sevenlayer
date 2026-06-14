@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-62-lattice-functional-commitments.pdf"
 type: "paper"
-community: "Community 50"
+community: "Community 26"
 location: "§3.2, Theorem 3.22"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_50
+  - community/Community_26
 ---
 
 # Theorem 3.22: Selective-Input Binding of Dual FC under l-succinct SIS
@@ -15,4 +15,4 @@ tags:
 - [[Construction 3.19 Dual Functional Commitment for Bounded-Depth Boolean Circuits]] - `proves` [EXTRACTED]
 - [[l-Succinct SIS Assumption (falsifiable q-type generalization of SIS, trapdoor for I_l ⊗ A  W)]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_50
+#graphify/paper #graphify/EXTRACTED #community/Community_26

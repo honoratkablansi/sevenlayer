@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-37-updatable-universal-crs.pdf"
 type: "paper"
-community: "Community 74"
+community: "Community 67"
 location: "§1-2, [BCG+15],[BGG17],[BGM17]"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_74
+  - community/Community_67
 ---
 
 # Cited: MPC CRS ceremonies BCG+15, BGG17, BGM17
@@ -15,4 +15,4 @@ tags:
 - [[Multi-Party Computation Setup Ceremony]] - `conceptually_related_to` [EXTRACTED]
 - [[Updatable and Universal Common Reference Strings with Applications to zk-SNARKs]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_74
+#graphify/paper #graphify/EXTRACTED #community/Community_67

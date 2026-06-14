@@ -1,12 +1,12 @@
 ---
 source_file: "recursion/recursion-outline.md"
 type: "document"
-community: "Community 9"
+community: "Community 60"
 location: "Recursion Chapter 3"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_9
+  - community/Community_60
 ---
 
 # SBOM verification as PCD instance
@@ -16,4 +16,4 @@ tags:
 - [[Software Bill of Materials (SBOM)]] - `explains` [EXTRACTED]
 - [[VeriSBOM (arXiv 2026)]] - `cites` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_9
+#graphify/document #graphify/EXTRACTED #community/Community_60

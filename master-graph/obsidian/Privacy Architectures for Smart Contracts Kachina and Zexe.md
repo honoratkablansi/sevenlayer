@@ -1,12 +1,12 @@
 ---
 source_file: "wiki/sections/ch09-privacy-architectures-for-smart-contracts-kachina-and-zexe.md"
 type: "document"
-community: "Community 5"
+community: "Community 4"
 location: "Privacy Architectures for Smart Contracts: Kachina and Zexe"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_5
+  - community/Community_4
 ---
 
 # Privacy Architectures for Smart Contracts: Kachina and Zexe
@@ -25,4 +25,4 @@ tags:
 - [[ZK Identity (Growth  Regulatory Mandate)]] - `references` [EXTRACTED]
 - [[Zexe]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_5
+#graphify/document #graphify/EXTRACTED #community/Community_4

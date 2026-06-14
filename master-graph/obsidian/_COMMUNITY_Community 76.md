@@ -1,31 +1,32 @@
 ---
 type: community
-cohesion: 0.14
-members: 16
+cohesion: 0.15
+members: 17
 ---
 
 # Community 76
 
-**Cohesion:** 0.14 - loosely connected
-**Members:** 16 nodes
+**Cohesion:** 0.15 - loosely connected
+**Members:** 17 nodes
 
 ## Members
-- [[ACIR (Abstract Circuit Intermediate Representation)]] - document - proving-nothing.md
-- [[Claim The language determines what bugs the developer can make]] - document - proving-nothing.md
-- [[Jordi Baylina (Circom, iden3, Hermez, ZisK)]] - document - proving-nothing.md
-- [[Leo (Aleo record-based DSL)]] - document - proving-nothing.md
-- [[Noir (Aztec Labs, ACIR)]] - document - proving-nothing.md
-- [[Pearce et al., NAVe Formal Verification for Noir Programs, 2025]] - document - proving-nothing.md
-- [[Polygon zkEVM Documentation (STARK to FFLONK pipeline)]] - document - references/recursion/ch1/ref-17-polygon-zkevm-docs.md
-- [[PolygonHermez zkEVM sunset and Baylina's pivot to ZisKRISC-V]] - document - proving-nothing.md
-- [[Proving Nothing]] - document - proving-nothing.md
-- [[RISC-V zkVMs]] - document - proving-nothing.md
-- [[Sevenlayer Wiki Index]] - document - wiki/INDEX.md
-- [[The Economics of ZK-Proving Market Size and Future Projections (Chorus One)]] - document - references/ch13/ref-57-chorus-one-zk-economics.md
-- [[The Four Philosophies of Layer 2 Languages]] - document - proving-nothing.md
-- [[The Market Landscape]] - document - wiki/chapters/13-the-market-landscape.md
-- [[Zero-Knowledge Proof Market Size, Share & Trends Analysis Report (Grand View Research)]] - document - references/ch13/ref-42-gvr-zkp-market-report.md
-- [[zkEVM  EVM-Compatible Proving]] - document - proving-nothing.md
+- [[Compositional Counterexample Construction]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[EdwardsToMontgomery Underconstrained Bug]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[Finite-Field SMT Solver (cvc5 fork)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[Groebner Basis Computation]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[InferValues Value Inference (Algorithm 3)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[Logical Encoding of Arithmetic Circuit (Definition 4.3)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[QED2 (verification tool)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[QED2 Evaluation Results (70% solved, 8 vulnerabilities)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[SMT Query Procedure (Algorithm 4)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[SMT Solving]] - document - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[UCP Inference Rules (Assign, Base-Conv, BigInt-Mul, All-But-One-0)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[UCP Rule Soundness Proofs]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[Under-Constrained Circuit Bug]] - document - proving-nothing.md
+- [[Uniqueness Constraint Propagation (UCP)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[Value Inference Soundness (Lemmas A.4, A.5)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[Verify Algorithm (Algorithm 1)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[ZkBench Benchmark Suite (163 Circom circuits)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -35,35 +36,15 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 12 edges to [[_COMMUNITY_Community 6]]
-- 9 edges to [[_COMMUNITY_Community 8]]
-- 7 edges to [[_COMMUNITY_Community 69]]
-- 6 edges to [[_COMMUNITY_Community 21]]
-- 5 edges to [[_COMMUNITY_Community 12]]
-- 5 edges to [[_COMMUNITY_Community 7]]
-- 4 edges to [[_COMMUNITY_Community 77]]
-- 3 edges to [[_COMMUNITY_Community 11]]
-- 3 edges to [[_COMMUNITY_Community 1]]
-- 3 edges to [[_COMMUNITY_Community 63]]
-- 3 edges to [[_COMMUNITY_Community 17]]
-- 3 edges to [[_COMMUNITY_Community 5]]
-- 2 edges to [[_COMMUNITY_Community 67]]
-- 2 edges to [[_COMMUNITY_Community 49]]
-- 2 edges to [[_COMMUNITY_Community 3]]
-- 2 edges to [[_COMMUNITY_Community 15]]
-- 2 edges to [[_COMMUNITY_Community 0]]
-- 1 edge to [[_COMMUNITY_Community 96]]
-- 1 edge to [[_COMMUNITY_Community 2]]
-- 1 edge to [[_COMMUNITY_Community 101]]
-- 1 edge to [[_COMMUNITY_Community 99]]
-- 1 edge to [[_COMMUNITY_Community 107]]
-- 1 edge to [[_COMMUNITY_Community 42]]
-- 1 edge to [[_COMMUNITY_Community 65]]
-- 1 edge to [[_COMMUNITY_Community 14]]
+- 4 edges to [[_COMMUNITY_Community 70]]
+- 2 edges to [[_COMMUNITY_Community 96]]
+- 1 edge to [[_COMMUNITY_Community 32]]
+- 1 edge to [[_COMMUNITY_Community 95]]
+- 1 edge to [[_COMMUNITY_Community 37]]
 
 ## Top bridge nodes
-- [[The Market Landscape]] - degree 40, connects to 15 communities
-- [[Proving Nothing]] - degree 14, connects to 11 communities
-- [[Sevenlayer Wiki Index]] - degree 14, connects to 11 communities
-- [[zkEVM  EVM-Compatible Proving]] - degree 15, connects to 7 communities
-- [[The Four Philosophies of Layer 2 Languages]] - degree 8, connects to 3 communities
+- [[Under-Constrained Circuit Bug]] - degree 4, connects to 3 communities
+- [[QED2 (verification tool)]] - degree 6, connects to 1 community
+- [[Uniqueness Constraint Propagation (UCP)]] - degree 5, connects to 1 community
+- [[SMT Solving]] - degree 4, connects to 1 community
+- [[ZkBench Benchmark Suite (163 Circom circuits)]] - degree 3, connects to 1 community

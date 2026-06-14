@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-10-fractal.pdf"
 type: "paper"
-community: "Community 33"
+community: "Community 6"
 location: "Abstract; §1.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_33
+  - community/Community_6
 ---
 
 # Methodology for post-quantum, transparent recursive composition of SNARKs (no special algebraic objects)
@@ -18,4 +18,4 @@ tags:
 - [[Recursive Proof Composition]] - `conceptually_related_to` [EXTRACTED]
 - [[Transparent Setup]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_33
+#graphify/paper #graphify/EXTRACTED #community/Community_6

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch03/ref-12-underconstrained-circuits.pdf"
 type: "paper"
-community: "Community 2"
+community: "Community 76"
 location: "§7.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_2
+  - community/Community_76
 ---
 
 # EdwardsToMontgomery Underconstrained Bug
@@ -15,4 +15,4 @@ tags:
 - [[QED2 Evaluation Results (70% solved, 8 vulnerabilities)]] - `conceptually_related_to` [EXTRACTED]
 - [[Under-Constrained Circuit  Missing Constraint]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_2
+#graphify/paper #graphify/EXTRACTED #community/Community_76

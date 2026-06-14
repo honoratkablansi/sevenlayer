@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch09-the-decision-matrix.md"
 type: "document"
-community: "Community 5"
+community: "Community 4"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_5
+  - community/Community_4
 ---
 
 # The Decision Matrix
@@ -26,4 +26,4 @@ tags:
 - [[eIDAS 2.0]] - `conceptually_related_to` [EXTRACTED]
 - [[zKYC (Zero-Knowledge Know Your Customer)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_5
+#graphify/document #graphify/EXTRACTED #community/Community_4

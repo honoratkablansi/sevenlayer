@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-32-nguyen-boneh-setty-nova-cycle.pdf"
 type: "paper"
-community: "Community 24"
+community: "Community 1"
 location: "Bibliography [11]"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_24
+  - community/Community_1
 ---
 
 # Kothapalli, Setty, Tzialla — Nova: Recursive zero-knowledge arguments from folding schemes (CRYPTO 2022) [11]
@@ -16,4 +16,4 @@ tags:
 - [[Nova]] - `introduces` [EXTRACTED]
 - [[Revisiting the Nova Proof System on a Cycle of Curves (Nguyen, Boneh, Setty, ePrint 2023969)]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_24
+#graphify/paper #graphify/EXTRACTED #community/Community_1

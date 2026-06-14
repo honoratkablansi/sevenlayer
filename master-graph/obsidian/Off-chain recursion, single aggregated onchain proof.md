@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch1/ref-22-nebra-upa.md"
 type: "document"
-community: "Community 121"
+community: "Community 25"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_121
+  - community/Community_25
 ---
 
 # Off-chain recursion, single aggregated onchain proof
@@ -14,4 +14,4 @@ tags:
 - [[Onchain ZKP settlement  verification cost]] - `conceptually_related_to` [INFERRED]
 - [[Universal Proof Aggregation (UPA)]] - `explains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_121
+#graphify/document #graphify/EXTRACTED #community/Community_25

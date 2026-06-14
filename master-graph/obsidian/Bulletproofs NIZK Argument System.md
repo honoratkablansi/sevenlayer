@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-09-bulletproofs.pdf"
 type: "paper"
-community: "Community 92"
+community: "Community 73"
 location: "Abstract, §1.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_92
+  - community/Community_73
 ---
 
 # Bulletproofs NIZK Argument System
@@ -23,4 +23,4 @@ tags:
 - [[SNARKs with Trusted Setup]] - `cites` [EXTRACTED]
 - [[Zero-Knowledge Argument of Knowledge]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_92
+#graphify/paper #graphify/EXTRACTED #community/Community_73

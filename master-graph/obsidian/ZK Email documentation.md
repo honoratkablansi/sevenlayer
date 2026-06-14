@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch3/ref-85-zkemail-docs.md"
 type: "document"
-community: "Community 93"
+community: "Community 11"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_93
+  - community/Community_11
 ---
 
 # ZK Email documentation
@@ -18,4 +18,4 @@ tags:
 - [[ZK-Regex circuit primitive]] - `introduces` [EXTRACTED]
 - [[zkEmail]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_93
+#graphify/document #graphify/EXTRACTED #community/Community_11

@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch11-performance-the-cost-collapse.md"
 type: "document"
-community: "Community 8"
+community: "Community 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_8
+  - community/Community_2
 ---
 
 # Performance: The Cost Collapse
@@ -26,4 +26,4 @@ tags:
 - [[zkVM]] - `conceptually_related_to` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `part_of` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_8
+#graphify/document #graphify/EXTRACTED #community/Community_2

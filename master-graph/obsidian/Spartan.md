@@ -1,18 +1,19 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 46"
+community: "Community 16"
 location: "Chapter 5"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_46
+  - community/Community_16
 ---
 
 # Spartan
 
 ## Connections
 - [[CCS The Rosetta Stone]] - `references` [EXTRACTED]
+- [[Computation Commitment]] - `uses` [EXTRACTED]
 - [[Computation commitments succinct commitment to R1CS structure via public preprocessing (Encode), no trapdoor]] - `introduces` [EXTRACTED]
 - [[Customizable Constraint Systems for Succinct Arguments]] - `conceptually_related_to` [EXTRACTED]
 - [[Encoding the Performance]] - `references` [EXTRACTED]
@@ -24,12 +25,14 @@ tags:
 - [[Libra (Xie et al.) linear-time-prover zkSNARK for uniform circuits (cited; SpartanKE alternative)]] - `cites` [EXTRACTED]
 - [[Lookup Argument]] - `references` [EXTRACTED]
 - [[Multi-folding scheme for CCS (Construction 1)]] - `conceptually_related_to` [EXTRACTED]
+- [[Multilinear Polynomial Commitment]] - `uses` [EXTRACTED]
 - [[Nightstream What a Folding Engine Looks Like from the Inside]] - `references` [EXTRACTED]
 - [[No-FFT prover (sum-check avoids FFT-based polynomial machinery of QAPIOP SNARKs)]] - `conceptually_related_to` [INFERRED]
 - [[No-trusted-setup (transparent) argument under discrete log over normal curve cycles]] - `introduces` [EXTRACTED]
 - [[Nova]] - `references` [EXTRACTED]
 - [[NovaBlindFold folding-based zero-knowledge]] - `conceptually_related_to` [EXTRACTED]
-- [[R1CS (Rank-1 Constraint Systems)]] - `assumes` [EXTRACTED]
+- [[R1CS (Rank-1 Constraint Systems)]] - `proves` [EXTRACTED]
+- [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `instantiates` [EXTRACTED]
 - [[SNARK Recursion vs. Folding The Full Picture]] - `references` [EXTRACTED]
 - [[SPARK compiler transforms a dense multilinear PC into one for sparse multilinear polynomials]] - `introduces` [EXTRACTED]
 - [[Setty, Spartan (CRYPTO 2020)]] - `defines` [EXTRACTED]
@@ -37,7 +40,7 @@ tags:
 - [[Spartan Rust library (~8,000 LoC), DLOG-based transparent zkSNARK; github.comMicrosoftSpartan]] - `conceptually_related_to` [EXTRACTED]
 - [[Spartan over Jolt's uniform block-diagonal R1CS, streamed via Az,Bz,Cz]] - `conceptually_related_to` [EXTRACTED]
 - [[Spartan variants SpartanDL, SpartanRO, SpartanCL (transparent), SpartanKE (universal setup)]] - `defines` [EXTRACTED]
-- [[Sum-Check Protocol]] - `conceptually_related_to` [INFERRED]
+- [[Sum-Check Protocol]] - `uses` [INFERRED]
 - [[Sumcheck Protocol]] - `references` [EXTRACTED]
 - [[The Constraint System Evolution R1CS, AIR, PLONKish]] - `references` [EXTRACTED]
 - [[The Landscape Table (March 2026)]] - `conceptually_related_to` [EXTRACTED]
@@ -49,4 +52,4 @@ tags:
 - [[Unlocking the Lookup Singularity with Lasso]] - `conceptually_related_to` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_46
+#graphify/document #graphify/EXTRACTED #community/Community_16

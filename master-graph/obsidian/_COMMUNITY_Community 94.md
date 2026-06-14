@@ -1,28 +1,28 @@
 ---
 type: community
-cohesion: 0.18
+cohesion: 0.17
 members: 13
 ---
 
 # Community 94
 
-**Cohesion:** 0.18 - loosely connected
+**Cohesion:** 0.17 - loosely connected
 **Members:** 13 nodes
 
 ## Members
-- [[B-Bounded Ajtai Commitment Opening Relation RB_cm]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[Base-b Witness Decomposition Step]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[Expanded Evaluation Relation RB_eval]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[Expansion-Decomposition-Folding Pipeline (Pi_mfold)]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[Hypernova Folding Scheme (cited)]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[LaBRADOR Lattice Proof System (cited)]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[Lattice-Based CCS Folding Scheme]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[Lattice-Based Committed CCS Relation RB_cmccs]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[Optimized Single-Sumcheck Batch Folding (Pi_batch)]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[Performance Comparable to Hypernova on 64-bit Field]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[Small Prime Modulus via Extension Fields]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[Sumcheck-Based Norm-Bound Range Check]] - paper - references/ch06/ref-20-latticefold.pdf
-- [[Theorem 3.1 LatticeFold Folding Reduction]] - paper - references/ch06/ref-20-latticefold.pdf
+- [[Airbender (Matter Labs)]] - document - proving-nothing.md
+- [[EF Security Pivot to 128-bit (Dec 2025)]] - document - proving-nothing.md
+- [[Gassmann et al., Optimizing RISC-V zkVM Compilation (2025)]] - document - proving-nothing.md
+- [[Kakarot (EVM-on-Stwo hedge)]] - document - proving-nothing.md
+- [[Mersenne-31 (M31) field]] - document - proving-nothing.md
+- [[RISC-V Convergence (8 of 10 zkVMs)]] - document - proving-nothing.md
+- [[RISC-V ISA]] - document - proving-nothing.md
+- [[Real-time Ethereum proving solved (12s)]] - document - proving-nothing.md
+- [[SHARP (Shared Prover) aggregation]] - document - proving-nothing.md
+- [[Stwo  Cairo (StarkWare)]] - document - proving-nothing.md
+- [[The Proof Core Triad (Layers 4-5-6)]] - document - proving-nothing.md
+- [[ZisK (SilentSig  ex-Hermez)]] - document - proving-nothing.md
+- [[zkVM Landscape Table (March 2026)]] - document - proving-nothing.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -32,17 +32,16 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 6 edges to [[_COMMUNITY_Community 0]]
-- 2 edges to [[_COMMUNITY_Community 11]]
-- 2 edges to [[_COMMUNITY_Community 18]]
-- 1 edge to [[_COMMUNITY_Community 54]]
-- 1 edge to [[_COMMUNITY_Community 28]]
-- 1 edge to [[_COMMUNITY_Community 88]]
-- 1 edge to [[_COMMUNITY_Community 103]]
+- 7 edges to [[_COMMUNITY_Community 2]]
+- 3 edges to [[_COMMUNITY_Community 88]]
+- 1 edge to [[_COMMUNITY_Community 1]]
+- 1 edge to [[_COMMUNITY_Community 125]]
+- 1 edge to [[_COMMUNITY_Community 82]]
+- 1 edge to [[_COMMUNITY_Community 84]]
 
 ## Top bridge nodes
-- [[Expansion-Decomposition-Folding Pipeline (Pi_mfold)]] - degree 7, connects to 2 communities
-- [[B-Bounded Ajtai Commitment Opening Relation RB_cm]] - degree 6, connects to 2 communities
-- [[Sumcheck-Based Norm-Bound Range Check]] - degree 4, connects to 2 communities
-- [[Lattice-Based CCS Folding Scheme]] - degree 5, connects to 1 community
-- [[Lattice-Based Committed CCS Relation RB_cmccs]] - degree 3, connects to 1 community
+- [[RISC-V ISA]] - degree 8, connects to 5 communities
+- [[The Proof Core Triad (Layers 4-5-6)]] - degree 4, connects to 3 communities
+- [[zkVM Landscape Table (March 2026)]] - degree 4, connects to 2 communities
+- [[Stwo  Cairo (StarkWare)]] - degree 5, connects to 1 community
+- [[Mersenne-31 (M31) field]] - degree 4, connects to 1 community

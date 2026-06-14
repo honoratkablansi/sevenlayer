@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch02-the-141-416-person-question.md"
 type: "document"
-community: "Community 12"
+community: "Community 5"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_12
+  - community/Community_5
 ---
 
 # The 141,416-Person Question
@@ -19,4 +19,4 @@ tags:
 - [[Trusted Setup Ceremony]] - `conceptually_related_to` [EXTRACTED]
 - [[Two Ways to Build a Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_12
+#graphify/document #graphify/EXTRACTED #community/Community_5

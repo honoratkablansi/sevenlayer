@@ -1,18 +1,17 @@
 ---
-source_file: "proving-nothing.md"
-type: "document"
-community: "Community 79"
-location: "Chapter 8"
+source_file: "references/ch02/ref-10-sok-powers-of-tau.pdf"
+type: "paper"
+community: "Community 0"
+location: "abstract"
 tags:
-  - graphify/document
+  - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_79
+  - community/Community_0
 ---
 
 # Trusted Setup Ceremony
 
 ## Connections
-- [[Groth16]] - `conceptually_related_to` [EXTRACTED]
-- [[Trust Minimization (Not Trustless)]] - `references` [EXTRACTED]
+- [[Trusted Setup Ceremony]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_79
+#graphify/paper #graphify/EXTRACTED #community/Community_0

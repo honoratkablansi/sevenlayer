@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-11-khovratovich-fiat-shamir-attacks.pdf"
 type: "paper"
-community: "Community 106"
+community: "Community 6"
 location: "§3.1 (p.9)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_106
+  - community/Community_6
 ---
 
 # Correlation intractability: the property whose circular dependency the attack circumvents by feeding the circuit its own digest as witness
@@ -17,7 +17,8 @@ tags:
 - [[Fiat-Shamir Transform]] - `conceptually_related_to` [EXTRACTED]
 - [[Goldreich, Goldwasser, Micali 19 pseudorandom function ensembles (shown not necessarily correlation-intractable)]] - `conceptually_related_to` [EXTRACTED]
 - [[Proposition 5.2 non-existence of restricted (length-bounded) correlation-intractable ensembles when seed length = input+output length]] - `conceptually_related_to` [EXTRACTED]
+- [[Random oracle model (non-interactive STARK  NIROP)]] - `characterizes` [EXTRACTED]
 - [[The Random Oracle Methodology, Revisited (Canetti, Goldreich, Halevi, JACM 2004  STOC 1998)]] - `introduces` [EXTRACTED]
 - [[Theorem 3.4 no correlation-intractable function ensembles exist (not even in the weak sense), via diagonal relation R_F = {(s, f_s(s))}]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_106
+#graphify/paper #graphify/EXTRACTED #community/Community_6

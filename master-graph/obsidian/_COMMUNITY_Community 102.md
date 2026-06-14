@@ -1,26 +1,26 @@
 ---
 type: community
-cohesion: 0.22
+cohesion: 0.20
 members: 11
 ---
 
 # Community 102
 
-**Cohesion:** 0.22 - loosely connected
+**Cohesion:** 0.20 - loosely connected
 **Members:** 11 nodes
 
 ## Members
-- [[Continued-fraction expansion to recover order from observed cq]] - paper - references/ch07/ref-24-shor.pdf
-- [[Factoring complexity O((log n)2 log log n log log log n) quantum steps]] - paper - references/ch07/ref-24-shor.pdf
-- [[Number field sieve (best classical factoring, exp time)]] - paper - references/ch07/ref-24-shor.pdf
-- [[Quantum order-finding (period-finding) subroutine]] - paper - references/ch07/ref-24-shor.pdf
-- [[Quantum prime factorization algorithm]] - paper - references/ch07/ref-24-shor.pdf
-- [[RSA public-key cryptosystem (Rivest-Shamir-Adleman 1978)]] - paper - references/ch07/ref-24-shor.pdf
-- [[Reduction of factoring to order-finding (Miller 1976)]] - paper - references/ch07/ref-24-shor.pdf
-- [[Reversible computation]] - paper - references/ch07/ref-24-shor.pdf
-- [[Reversible modular exponentiation subroutine]] - paper - references/ch07/ref-24-shor.pdf
-- [[Schonhage-Strassen fast multiplication via FFT]] - paper - references/ch07/ref-24-shor.pdf
-- [[Universal reversible gates (Toffoli, Fredkin)]] - paper - references/ch07/ref-24-shor.pdf
+- [[Bootle et al. (BCC+16) Inner-Product Argument]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Improved Inner-Product Argument (2 log2 n)]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Pedersen Vector Commitment]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Pinocchio Arithmetic Circuit Format]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Single Multi-Exponentiation Verifier & Batch Verification]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Theorem 1 Inner-Product Argument Security]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Theorem 5 Arithmetic Circuit Protocol Soundness]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Theorem 6.2 Sonic has witness-extended emulation]] - paper - references/ch10/ref-36-sonic.pdf
+- [[Witness-Extended Emulation (Knowledge Soundness)]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Zero-Knowledge Argument of Knowledge]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Zero-Knowledge Proof for Arithmetic Circuits (Protocol 3)]] - paper - references/ch02/ref-09-bulletproofs.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -30,9 +30,13 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 4 edges to [[_COMMUNITY_Community 70]]
+- 5 edges to [[_COMMUNITY_Community 73]]
+- 2 edges to [[_COMMUNITY_Community 5]]
+- 2 edges to [[_COMMUNITY_Community 57]]
 
 ## Top bridge nodes
-- [[Quantum prime factorization algorithm]] - degree 6, connects to 1 community
-- [[Quantum order-finding (period-finding) subroutine]] - degree 5, connects to 1 community
-- [[RSA public-key cryptosystem (Rivest-Shamir-Adleman 1978)]] - degree 2, connects to 1 community
+- [[Improved Inner-Product Argument (2 log2 n)]] - degree 7, connects to 2 communities
+- [[Witness-Extended Emulation (Knowledge Soundness)]] - degree 4, connects to 1 community
+- [[Bootle et al. (BCC+16) Inner-Product Argument]] - degree 3, connects to 1 community
+- [[Theorem 1 Inner-Product Argument Security]] - degree 3, connects to 1 community
+- [[Pedersen Vector Commitment]] - degree 2, connects to 1 community

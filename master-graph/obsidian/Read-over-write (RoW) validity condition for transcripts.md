@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-46-zk-memory-algebraic-proofs.pdf"
 type: "paper"
-community: "Community 38"
+community: "Community 54"
 location: "§4.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_38
+  - community/Community_54
 ---
 
 # Read-over-write (RoW) validity condition for transcripts
@@ -15,4 +15,4 @@ tags:
 - [[Persistent RAM AIP (committed initialfinal states)]] - `assumes` [EXTRACTED]
 - [[Volatile RAM AIP (zeroed init, uncommitted final)]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_38
+#graphify/paper #graphify/EXTRACTED #community/Community_54

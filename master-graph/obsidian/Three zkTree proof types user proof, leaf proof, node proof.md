@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-21-zktree.pdf"
 type: "paper"
-community: "Community 78"
+community: "Community 3"
 location: "§3 (Fig. 1)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_78
+  - community/Community_3
 ---
 
 # Three zkTree proof types: user proof, leaf proof, node proof
@@ -16,4 +16,4 @@ tags:
 - [[Node builder combining leafnode pairs into omega_k,h_k,c_k]] - `defines` [EXTRACTED]
 - [[zkTree zero-knowledge recursion tree with ZKP membership proofs]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_78
+#graphify/paper #graphify/EXTRACTED #community/Community_3

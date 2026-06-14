@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch09-three-kinds-of-security.md"
 type: "document"
-community: "Community 5"
+community: "Community 4"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_5
+  - community/Community_4
 ---
 
 # Three Kinds of Security
@@ -19,4 +19,4 @@ tags:
 - [[Trusted Execution Environment (TEE)]] - `defines` [EXTRACTED]
 - [[Zero-Knowledge Proof]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_5
+#graphify/document #graphify/EXTRACTED #community/Community_4

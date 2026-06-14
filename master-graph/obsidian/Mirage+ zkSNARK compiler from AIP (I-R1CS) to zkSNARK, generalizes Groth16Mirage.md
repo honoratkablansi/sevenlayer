@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-46-zk-memory-algebraic-proofs.pdf"
 type: "paper"
-community: "Community 38"
+community: "Community 128"
 location: "§3.2, §7, Protocol 5"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_38
+  - community/Community_128
 ---
 
 # Mirage+: zkSNARK compiler from AIP (I-R1CS) to zkSNARK, generalizes Groth16/Mirage
@@ -17,4 +17,4 @@ tags:
 - [[MIRAGE (Kosba et al.) succinct arguments for randomized algorithms MA1]] - `cites` [EXTRACTED]
 - [[zkSNARK]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_38
+#graphify/paper #graphify/EXTRACTED #community/Community_128

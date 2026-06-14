@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch1/ref-28-risc-zero-technical-docs.md"
 type: "document"
-community: "Community 125"
+community: "Community 63"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_125
+  - community/Community_63
 ---
 
 # RISC Zero technical documentation (dev.risczero.com)
@@ -14,4 +14,4 @@ tags:
 - [[RISC Zero zkVM]] - `defines` [EXTRACTED]
 - [[Verifiable computation]] - `explains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_125
+#graphify/document #graphify/EXTRACTED #community/Community_63

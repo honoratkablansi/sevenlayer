@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch04-witness-generation-costs.md"
 type: "document"
-community: "Community 1"
+community: "Community 89"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_1
+  - community/Community_89
 ---
 
 # Witness Generation Costs
@@ -34,4 +34,4 @@ tags:
 - [[Witness Generation]] - `references` [EXTRACTED]
 - [[ZKPOG (GPU Witness Acceleration)]] - `cites` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_1
+#graphify/document #graphify/EXTRACTED #community/Community_89

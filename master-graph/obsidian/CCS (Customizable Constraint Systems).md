@@ -1,18 +1,18 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 11"
+community: "Community 1"
 location: "Chapter 5"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_11
+  - community/Community_1
 ---
 
 # CCS (Customizable Constraint Systems)
 
 ## Connections
-- [[AIR (Algebraic Intermediate Representation)]] - `compares` [EXTRACTED]
+- [[AIR (Algebraic Intermediate Representation)]] - `generalizes` [EXTRACTED]
 - [[CCS formal definition matrices M_j, multisets S_i, constants c_i, sum c_i · Hadamard_{j in S_i} (M_j z) = 0]] - `defines` [EXTRACTED]
 - [[CCS+ CCS extended with read-only lookup-table operations]] - `conceptually_related_to` [EXTRACTED]
 - [[CCS The Rosetta Stone]] - `defines` [EXTRACTED]
@@ -20,7 +20,7 @@ tags:
 - [[Customizable Constraint Systems for Succinct Arguments]] - `introduces` [EXTRACTED]
 - [[CycleFold (ePrint 20231192)]] - `cites` [EXTRACTED]
 - [[Encoding the Performance]] - `references` [EXTRACTED]
-- [[Folding Scheme]] - `conceptually_related_to` [EXTRACTED]
+- [[Folding Scheme]] - `targets` [EXTRACTED]
 - [[Generalized Committed Linear Relation R_lin,B]] - `conceptually_related_to` [EXTRACTED]
 - [[Generic AccumulationFolding Compiler for Special-Sound Protocols (4-step workflow)]] - `conceptually_related_to` [EXTRACTED]
 - [[Glossary of Key Terms]] - `defines` [EXTRACTED]
@@ -43,12 +43,15 @@ tags:
 - [[Nightstream (Lattice-Folding Implementation)]] - `references` [EXTRACTED]
 - [[Nightstream Lattice-Based Folding for CCS (LFDT-Nightstream)]] - `implements` [EXTRACTED]
 - [[Nightstream What a Folding Engine Looks Like from the Inside]] - `references` [EXTRACTED]
+- [[PLONK]] - `generalizes` [EXTRACTED]
 - [[PLONKish Arithmetization]] - `compares` [EXTRACTED]
-- [[R1CS (Rank-1 Constraint Systems)]] - `conceptually_related_to` [EXTRACTED]
+- [[R1CS (Rank-1 Constraint Systems)]] - `generalizes` [EXTRACTED]
 - [[SIMD CCS  data-parallel CCS with log-time IO consistency via next() MLE]] - `conceptually_related_to` [EXTRACTED]
+- [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `enables` [EXTRACTED]
 - [[Setty, Thaler, Wahby - CCS Paper (2023)]] - `introduces` [EXTRACTED]
 - [[Setty, Thaler, Wahby, Customizable Constraint Systems (ePrint 2023552)]] - `defines` [EXTRACTED]
 - [[Sumcheck Protocol]] - `explains` [EXTRACTED]
+- [[SuperSpartan]] - `proves` [EXTRACTED]
 - [[SuperSpartan SNARK family for CCS generalizing Spartan's polynomial IOP]] - `conceptually_related_to` [EXTRACTED]
 - [[The Constraint System Evolution R1CS, AIR, PLONKish]] - `references` [EXTRACTED]
 - [[The Folding Genealogy]] - `references` [EXTRACTED]
@@ -59,4 +62,4 @@ tags:
 - [[Where the Layers Collapse]] - `references` [EXTRACTED]
 - [[zkVMs Across the Stack]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_11
+#graphify/document #graphify/EXTRACTED #community/Community_1

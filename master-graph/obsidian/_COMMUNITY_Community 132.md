@@ -1,19 +1,20 @@
 ---
 type: community
 cohesion: 0.50
-members: 4
+members: 5
 ---
 
 # Community 132
 
 **Cohesion:** 0.50 - moderately connected
-**Members:** 4 nodes
+**Members:** 5 nodes
 
 ## Members
-- [[Last Challenge Attack (FS flaw in KZG-based SNARK final batching challenge)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
-- [[Nova IVC soundnessmalleability bug on cycle of curves (missing consistency check)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
-- [[PinocchioBCTV setup counterfeiting bug exploited in Zcash (bypass parameters forge proofs)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
-- [[Proof-system (theoretical) vulnerabilities affecting all implementations]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[Distortion map phi(x,y)-(-x,Zy) giving symmetric pairing]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[Supersingular elliptic curve]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[Supersingular k=2 curve construction p=hN-1, E y2=x3-x]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[Tate pairing]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
+- [[Tate pairing on composite-order supersingular curve (Alg.2)]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -23,11 +24,11 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 1 edge to [[_COMMUNITY_Community 5]]
-- 1 edge to [[_COMMUNITY_Community 67]]
-- 1 edge to [[_COMMUNITY_Community 25]]
+- 2 edges to [[_COMMUNITY_Community 64]]
+- 1 edge to [[_COMMUNITY_Community 97]]
+- 1 edge to [[_COMMUNITY_Community 65]]
 
 ## Top bridge nodes
-- [[Proof-system (theoretical) vulnerabilities affecting all implementations]] - degree 4, connects to 1 community
-- [[Last Challenge Attack (FS flaw in KZG-based SNARK final batching challenge)]] - degree 2, connects to 1 community
-- [[PinocchioBCTV setup counterfeiting bug exploited in Zcash (bypass parameters forge proofs)]] - degree 2, connects to 1 community
+- [[Supersingular k=2 curve construction p=hN-1, E y2=x3-x]] - degree 5, connects to 2 communities
+- [[Tate pairing on composite-order supersingular curve (Alg.2)]] - degree 4, connects to 1 community
+- [[Tate pairing]] - degree 2, connects to 1 community

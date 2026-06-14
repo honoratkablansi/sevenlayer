@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch07/ref-24-shor.pdf"
 type: "paper"
-community: "Community 102"
+community: "Community 81"
 location: "§1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_102
+  - community/Community_81
 ---
 
 # RSA public-key cryptosystem (Rivest-Shamir-Adleman 1978)
@@ -15,4 +15,4 @@ tags:
 - [[Quantum prime factorization algorithm]] - `conceptually_related_to` [EXTRACTED]
 - [[RSA Cryptosystem]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_102
+#graphify/paper #graphify/EXTRACTED #community/Community_81

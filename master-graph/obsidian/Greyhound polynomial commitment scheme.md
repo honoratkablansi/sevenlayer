@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-65-greyhound.pdf"
 type: "paper"
-community: "Community 58"
+community: "Community 77"
 location: "§1.1, §4.2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_58
+  - community/Community_77
 ---
 
 # Greyhound polynomial commitment scheme
@@ -17,7 +17,7 @@ tags:
 - [[Fiat-Shamir Transform]] - `assumes` [EXTRACTED]
 - [[Greyhound Fast Polynomial Commitments from Lattices]] - `introduces` [EXTRACTED]
 - [[HVZK  hiding variant via Module-LWE masking]] - `introduces` [EXTRACTED]
-- [[Lattice-Based Cryptography]] - `conceptually_related_to` [EXTRACTED]
+- [[Lattice Cryptography]] - `conceptually_related_to` [EXTRACTED]
 - [[Module-SIS  Module-LWE]] - `assumes` [EXTRACTED]
 - [[Polynomial Commitment Scheme]] - `defines` [EXTRACTED]
 - [[Post-Quantum Security]] - `conceptually_related_to` [EXTRACTED]
@@ -27,4 +27,4 @@ tags:
 - [[Three-round proof of polynomial evaluation (quadratic relation)]] - `introduces` [EXTRACTED]
 - [[Zq-to-Rq evaluation transform via Galois automorphism (AFLN24)]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_58
+#graphify/paper #graphify/EXTRACTED #community/Community_77

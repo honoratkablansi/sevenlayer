@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 1"
+community: "Community 108"
 location: "Chapter 4"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_1
+  - community/Community_108
 ---
 
 # Nair, Thaler, Zhu Streaming Jolt (ePrint 2025/611)
@@ -15,4 +15,4 @@ tags:
 - [[Streaming Witness Generation]] - `introduces` [EXTRACTED]
 - [[ZKPoG (Li et al., ePrint 2025765)]] - `compares` [INFERRED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_1
+#graphify/document #graphify/EXTRACTED #community/Community_108

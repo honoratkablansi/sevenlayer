@@ -16,6 +16,8 @@ tags:
 - [[Delegating Computation Interactive Proofs for Muggles (GKR, STOC 2008  full version)]] - `introduces` [EXTRACTED]
 - [[Micali Mic94 - CS proofs in the random oracle model (non-interactive delegation precursor)]] - `conceptually_related_to` [EXTRACTED]
 - [[Outsourced and streaming computation]] - `conceptually_related_to` [EXTRACTED]
+- [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `uses` [EXTRACTED]
 - [[Theorem 1.1 public-coin IP for O(log S)-space-uniform circuits; verifier npoly(d,log S) time, O(log S) space; prover poly(S); communication dpolylog(S)]] - `conceptually_related_to` [EXTRACTED]
+- [[Verifiable computation]] - `relates_to` [EXTRACTED]
 
 #graphify/paper #graphify/EXTRACTED #community/Community_41

@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 12"
+community: "Community 5"
 location: "Chapter 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_12
+  - community/Community_5
 ---
 
 # Trusted Setup Ceremony
@@ -14,23 +14,28 @@ tags:
 ## Connections
 - [[Trustless versus Trust-Minimized]] - `conceptually_related_to` [EXTRACTED]
 - [[1-of-N Trust Model]] - `explains` [EXTRACTED]
+- [[Algebraic Group Model (AGM)]] - `proves-security-of` [EXTRACTED]
 - [[BLS12-381 Curve]] - `conceptually_related_to` [EXTRACTED]
 - [[BN254's Eroding Security Margin]] - `conceptually_related_to` [EXTRACTED]
 - [[Bulletproofs Short Proofs for Confidential Transactions and More]] - `conceptually_related_to` [EXTRACTED]
 - [[Case Study Midnight (Layer 6)]] - `references` [EXTRACTED]
 - [[Case Study Midnight's Sealed Certificate]] - `references` [EXTRACTED]
+- [[Dory]] - `relates_to` [EXTRACTED]
 - [[Enterprise Pilots (Pilot)]] - `references` [EXTRACTED]
 - [[Ethereum Foundation L1 zkEVM Mandate]] - `conceptually_related_to` [EXTRACTED]
 - [[Ethereum KZG Summoning of 2023 (141,416 participants)]] - `references` [EXTRACTED]
 - [[Formal trusted setup protocol definition (processchannel tuple, corruption threshold t, trapdoor s)]] - `defines` [EXTRACTED]
 - [[Four Families of Commitment Schemes]] - `references` [EXTRACTED]
 - [[Full Seven-Layer Mapping]] - `references` [EXTRACTED]
-- [[Groth16]] - `conceptually_related_to` [EXTRACTED]
+- [[Groth Short Pairing-Based NIZK]] - `uses` [EXTRACTED]
+- [[Groth16]] - `uses` [EXTRACTED]
+- [[Hyrax Commitment Scheme]] - `improves` [EXTRACTED]
 - [[KZG Polynomial Commitments from pairings (with trusted setup); Dory transparent pairing-based scheme]] - `references` [EXTRACTED]
 - [[Layer 1 -- Building the Stage]] - `references` [EXTRACTED]
 - [[Layer 5 -- The Sealed Certificate]] - `references` [EXTRACTED]
 - [[Layer 6 -- The Deep Craft]] - `references` [EXTRACTED]
 - [[Layer 7 -- The Verdict]] - `references` [EXTRACTED]
+- [[Libra]] - `uses` [EXTRACTED]
 - [[MMORPG massively multi-party open reusable parameter generation system]] - `conceptually_related_to` [EXTRACTED]
 - [[Midnight (Privacy Blockchain)]] - `references` [EXTRACTED]
 - [[Midnight -- The Privacy Theater]] - `references` [EXTRACTED]
@@ -38,18 +43,25 @@ tags:
 - [[Nova Recursive Zero-Knowledge Arguments from Folding Schemes]] - `conceptually_related_to` [EXTRACTED]
 - [[Open Questions and the Road Ahead]] - `references` [EXTRACTED]
 - [[Option-Value Analysis]] - `conceptually_related_to` [EXTRACTED]
-- [[PLONK]] - `references` [EXTRACTED]
+- [[PLONK]] - `uses` [EXTRACTED]
 - [[Path One The Hybrid STARK-to-SNARK Pipeline]] - `conceptually_related_to` [EXTRACTED]
 - [[Path Two Pure Transparent]] - `conceptually_related_to` [EXTRACTED]
+- [[Polynomial Commitment Scheme]] - `uses` [EXTRACTED]
 - [[Powers of Tau]] - `conceptually_related_to` [EXTRACTED]
+- [[Progression-Free Sets NIZK]] - `uses` [EXTRACTED]
 - [[Protocol vs. ceremony distinction (mathematical protocol vs real-world instantiation)]] - `defines` [EXTRACTED]
-- [[STARK]] - `compares` [EXTRACTED]
+- [[Quarks  Xiphos  Kopis]] - `improves` [EXTRACTED]
+- [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `improves` [EXTRACTED]
+- [[STARK]] - `relates_to` [EXTRACTED]
 - [[Scalable Multi-party Computation for zk-SNARK Parameters in the Random Beacon Model]] - `conceptually_related_to` [EXTRACTED]
 - [[Scalable, Transparent, and Post-Quantum Secure Computational Integrity]] - `conceptually_related_to` [EXTRACTED]
+- [[Secure Multi-Party Computation (MPC)]] - `uses` [EXTRACTED]
+- [[Secure multi-party computation (MPC)  two-party computation (2PC)]] - `improves` [EXTRACTED]
 - [[Snarky Ceremonies]] - `references` [EXTRACTED]
 - [[SoK Trusted Setups for Powers-of-Tau Strings]] - `conceptually_related_to` [EXTRACTED]
 - [[Sonic Zero-Knowledge SNARKs from Linear-Size Universal and Updatable Structured Reference Strings]] - `references` [EXTRACTED]
 - [[Subversion-resistant NIZK  subversion zero-knowledge]] - `conceptually_related_to` [EXTRACTED]
+- [[Supersonic  DARK SNARK]] - `relates_to` [EXTRACTED]
 - [[The 141,416-Person Question]] - `conceptually_related_to` [EXTRACTED]
 - [[The ADOPT Framework]] - `conceptually_related_to` [EXTRACTED]
 - [[The Bug That Was Not a Ceremony Failure]] - `conceptually_related_to` [EXTRACTED]
@@ -76,10 +88,14 @@ tags:
 - [[Trust Decomposition Seven Weaker Assumptions]] - `conceptually_related_to` [EXTRACTED]
 - [[Trust Minimization (Not Trustless)]] - `references` [EXTRACTED]
 - [[Two Ways to Build a Stage]] - `conceptually_related_to` [EXTRACTED]
+- [[Universal SNARK]] - `uses` [EXTRACTED]
 - [[Universal versus Circuit-Specific Setups]] - `conceptually_related_to` [EXTRACTED]
+- [[Universal vs Circuit-Specific SRS]] - `improves` [EXTRACTED]
 - [[Updatable and Universal Common Reference Strings with Applications to zk-SNARKs]] - `references` [EXTRACTED]
+- [[Updatable and Universal Structured Reference String]] - `improves` [EXTRACTED]
+- [[Virgo ZKP System]] - `improves` [EXTRACTED]
 - [[Where Midnight Validates the Model]] - `references` [EXTRACTED]
 - [[Zcash Sprout Ceremony (2016, BCTV14)]] - `references` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_12
+#graphify/document #graphify/EXTRACTED #community/Community_5

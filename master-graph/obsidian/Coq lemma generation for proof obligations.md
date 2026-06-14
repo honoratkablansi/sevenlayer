@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-35-coda.pdf"
 type: "paper"
-community: "Community 2"
+community: "Community 56"
 location: "§3.4, §5"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_2
+  - community/Community_56
 ---
 
 # Coq lemma generation for proof obligations
@@ -18,4 +18,4 @@ tags:
 - [[SMT solving over finite fields  large prime fields]] - `cites` [EXTRACTED]
 - [[TSub-Refine subtyping rule (reduces type checking to logical validity)]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_2
+#graphify/paper #graphify/EXTRACTED #community/Community_56

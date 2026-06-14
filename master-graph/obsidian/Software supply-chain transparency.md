@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch3/ref-62-ntia-cisa-sbom-minimum-elements.md"
 type: "document"
-community: "Community 9"
+community: "Community 60"
 tags:
   - graphify/document
   - graphify/INFERRED
-  - community/Community_9
+  - community/Community_60
 ---
 
 # Software supply-chain transparency
@@ -15,4 +15,4 @@ tags:
 - [[Software Bill of Materials (SBOM)]] - `introduces` [EXTRACTED]
 - [[Verifiable transparency logs]] - `conceptually_related_to` [INFERRED]
 
-#graphify/document #graphify/INFERRED #community/Community_9
+#graphify/document #graphify/INFERRED #community/Community_60

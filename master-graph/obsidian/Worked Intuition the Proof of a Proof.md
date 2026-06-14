@@ -1,12 +1,12 @@
 ---
 source_file: "recursion/recursion-outline.md"
 type: "document"
-community: "Community 13"
+community: "Community 75"
 location: "Recursion Chapter 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_13
+  - community/Community_75
 ---
 
 # Worked Intuition: the Proof of a Proof
@@ -15,4 +15,4 @@ tags:
 - [[Field-Mismatch Problem (base vs scalar field)]] - `introduces` [EXTRACTED]
 - [[Recursive Proof Composition]] - `explains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_13
+#graphify/document #graphify/EXTRACTED #community/Community_75

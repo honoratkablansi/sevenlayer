@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-45-small-space-cpu-proofs.pdf"
 type: "paper"
-community: "Community 18"
+community: "Community 84"
 location: "§1.1 (prevailing recursive approach)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_18
+  - community/Community_84
 ---
 
 # Continuations / recursive composition for zkVM prover memory control
@@ -16,4 +16,4 @@ tags:
 - [[Recursive SNARK Composition (Preprocessing to Fully Succinct)]] - `conceptually_related_to` [EXTRACTED]
 - [[Small-space Jolt prover (sublinear-space zkVM proving without recursion)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_18
+#graphify/paper #graphify/EXTRACTED #community/Community_84

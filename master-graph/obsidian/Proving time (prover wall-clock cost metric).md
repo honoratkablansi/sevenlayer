@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-32-zkvm-compiler-optimization.pdf"
 type: "paper"
-community: "Community 55"
+community: "Community 52"
 location: "§3.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_55
+  - community/Community_52
 ---
 
 # Proving time (prover wall-clock cost metric)
@@ -17,4 +17,4 @@ tags:
 - [[Three zkVM metrics cycle count, executor time, proving time]] - `defines` [EXTRACTED]
 - [[zkVM-aware LLVM modifications (100 LOC cost model, heuristics, disabled passes); +45% RISC Zero, +4.6% avg]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_55
+#graphify/paper #graphify/EXTRACTED #community/Community_52

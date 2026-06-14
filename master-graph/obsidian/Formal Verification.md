@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 87"
+community: "Community 72"
 location: "Chapter 14"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_87
+  - community/Community_72
 ---
 
 # Formal Verification
@@ -15,7 +15,8 @@ tags:
 - [[Certifying Zero-Knowledge Circuits with Refinement Types]] - `conceptually_related_to` [EXTRACTED]
 - [[Open Questions and the Road Ahead]] - `references` [EXTRACTED]
 - [[Q3 When Will Stage 2 Bind]] - `references` [EXTRACTED]
+- [[R1CS (Rank-1 Constraint Systems)]] - `targets` [EXTRACTED]
 - [[Shipping an L1 zkEVM 2 The Security Foundations (Ethereum Foundation)]] - `references` [EXTRACTED]
 - [[The Three Frontiers (Performance, Security, Privacy)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_87
+#graphify/document #graphify/EXTRACTED #community/Community_72

@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 1"
+community: "Community 115"
 location: "Chapter 3"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_1
+  - community/Community_115
 ---
 
 # 4x4 Sudoku Proof (Running Example)
@@ -15,4 +15,4 @@ tags:
 - [[Chapter 3 Choreographing the Act (Layer 2 - Language)]] - `introduces` [EXTRACTED]
 - [[Witness (private execution traceinputs)]] - `explains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_1
+#graphify/document #graphify/EXTRACTED #community/Community_115

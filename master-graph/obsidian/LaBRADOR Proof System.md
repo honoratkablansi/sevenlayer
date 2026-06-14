@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-65-greyhound.pdf"
 type: "document"
-community: "Community 58"
+community: "Community 77"
 location: "Abstract"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_58
+  - community/Community_77
 ---
 
 # LaBRADOR Proof System
@@ -16,7 +16,13 @@ tags:
 - [[Fast Johnson-Lindenstrauss projection via Four Russians algorithm]] - `conceptually_related_to` [EXTRACTED]
 - [[Greyhound Fast Polynomial Commitments from Lattices]] - `references` [EXTRACTED]
 - [[Inner and outer commitment construction]] - `cites` [EXTRACTED]
+- [[Lattice Cryptography]] - `uses` [EXTRACTED]
+- [[Module-SIS  Module-LWE]] - `uses` [EXTRACTED]
+- [[Polynomial Commitment Scheme]] - `composes_with` [EXTRACTED]
+- [[R1CS (Rank-1 Constraint Systems)]] - `defines` [EXTRACTED]
+- [[Recursion (proof recursion in zkVMs)]] - `uses` [EXTRACTED]
 - [[Reduction of verification to a single short-norm linear relation over Rq]] - `shares_data_with` [EXTRACTED]
 - [[Theorem 4.1 completeness, weak binding, knowledge soundness of PCS]] - `cites` [EXTRACTED]
+- [[Zero-Knowledge Proof]] - `improves` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_58
+#graphify/document #graphify/EXTRACTED #community/Community_77

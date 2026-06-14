@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch11-risc-v-convergence.md"
 type: "document"
-community: "Community 8"
+community: "Community 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_8
+  - community/Community_2
 ---
 
 # RISC-V Convergence
@@ -26,4 +26,4 @@ tags:
 - [[zkVMs -- The Universal Stage]] - `part_of` [EXTRACTED]
 - [[zkWASM]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_8
+#graphify/document #graphify/EXTRACTED #community/Community_2

@@ -1,12 +1,12 @@
 ---
 source_file: "recursion/recursion-outline.md"
 type: "document"
-community: "Community 15"
+community: "Community 14"
 location: "Recursion Chapter 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_15
+  - community/Community_14
 ---
 
 # Section 1.3 Construction-Strategy Taxonomy Table
@@ -18,4 +18,4 @@ tags:
 - [[Hybrid STARK-to-SNARK Production Pipeline]] - `compares` [EXTRACTED]
 - [[STARK]] - `compares` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_15
+#graphify/document #graphify/EXTRACTED #community/Community_14

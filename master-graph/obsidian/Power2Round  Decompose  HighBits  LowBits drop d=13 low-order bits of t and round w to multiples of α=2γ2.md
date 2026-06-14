@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-64-fips-204.pdf"
 type: "paper"
-community: "Community 122"
+community: "Community 45"
 location: "§7.4"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_122
+  - community/Community_45
 ---
 
 # Power2Round / Decompose / HighBits / LowBits: drop d=13 low-order bits of t and round w to multiples of α=2γ2
@@ -15,4 +15,4 @@ tags:
 - [[Hint vector h ∈ R2k (MakeHintUseHint) lets verifier reconstruct high bits w1 despite t1 compression]] - `conceptually_related_to` [EXTRACTED]
 - [[ML-DSA.KeyGen (Alg 16.1) expand seed ξ - seed ρ for A, seeds for s1,s2,K; t = A·s1 + s2, publish compressed t1]] - `shares_data_with` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_122
+#graphify/paper #graphify/EXTRACTED #community/Community_45

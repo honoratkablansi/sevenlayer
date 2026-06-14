@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-37-updatable-universal-crs.pdf"
 type: "paper"
-community: "Community 79"
+community: "Community 67"
 location: "§6, §6.2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_79
+  - community/Community_67
 ---
 
 # Impossibility: updating non-monomial CRS reveals constituent monomials
@@ -16,4 +16,4 @@ tags:
 - [[Quadratic monomial-only universal CRS (multivariate X,Y,Z, j=7)]] - `conceptually_related_to` [EXTRACTED]
 - [[Updatable CRS model (one honest updater suffices)]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_79
+#graphify/paper #graphify/EXTRACTED #community/Community_67

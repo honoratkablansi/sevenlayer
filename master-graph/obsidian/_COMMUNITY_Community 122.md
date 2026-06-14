@@ -1,20 +1,23 @@
 ---
 type: community
-cohesion: 0.40
-members: 5
+cohesion: 0.32
+members: 8
 ---
 
 # Community 122
 
-**Cohesion:** 0.40 - moderately connected
-**Members:** 5 nodes
+**Cohesion:** 0.32 - loosely connected
+**Members:** 8 nodes
 
 ## Members
-- [[ExpandA  ExpandS  ExpandMask SHAKE-based pseudorandom sampling of matrix A from ρ, secrets s1s2, and mask y]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[ML-DSA.KeyGen (Alg 16.1) expand seed ξ - seed ρ for A, seeds for s1,s2,K; t = A·s1 + s2, publish compressed t1]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[Power2Round  Decompose  HighBits  LowBits drop d=13 low-order bits of t and round w to multiples of α=2γ2]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[SampleInBall (Alg 29) challenge polynomial c with exactly τ nonzero ±1 coefficients, derived from c~]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[Uses SHAKE128 and SHAKE256 (FIPS 202) as XOFs for all expansion, hashing, and challenge derivation]] - paper - references/ch14/ref-64-fips-204.pdf
+- [[Path One Hybrid STARK-to-SNARK Pipeline]] - document - proving-nothing.md
+- [[Seven-Layer Causal Web (DAG, 14 edges)]] - document - proving-nothing.md
+- [[Small Fields (BabyBear, Mersenne-31)]] - document - proving-nothing.md
+- [[StarkWare Stwo (Circle STARK)]] - document - proving-nothing.md
+- [[Succinct SP1 Hypercube]] - document - proving-nothing.md
+- [[The SNARK-or-STARK Binary Is Dead]] - document - proving-nothing.md
+- [[Three Paths, Not Two (Synthesis)]] - document - proving-nothing.md
+- [[Trustless vs Trust-Minimized]] - document - proving-nothing.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -24,10 +27,18 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 3 edges to [[_COMMUNITY_Community 81]]
-- 1 edge to [[_COMMUNITY_Community 120]]
+- 3 edges to [[_COMMUNITY_Community 2]]
+- 2 edges to [[_COMMUNITY_Community 14]]
+- 2 edges to [[_COMMUNITY_Community 37]]
+- 1 edge to [[_COMMUNITY_Community 32]]
+- 1 edge to [[_COMMUNITY_Community 5]]
+- 1 edge to [[_COMMUNITY_Community 88]]
+- 1 edge to [[_COMMUNITY_Community 0]]
+- 1 edge to [[_COMMUNITY_Community 23]]
 
 ## Top bridge nodes
-- [[ML-DSA.KeyGen (Alg 16.1) expand seed ξ - seed ρ for A, seeds for s1,s2,K; t = A·s1 + s2, publish compressed t1]] - degree 4, connects to 2 communities
-- [[Power2Round  Decompose  HighBits  LowBits drop d=13 low-order bits of t and round w to multiples of α=2γ2]] - degree 2, connects to 1 community
-- [[SampleInBall (Alg 29) challenge polynomial c with exactly τ nonzero ±1 coefficients, derived from c~]] - degree 2, connects to 1 community
+- [[Path One Hybrid STARK-to-SNARK Pipeline]] - degree 7, connects to 4 communities
+- [[Three Paths, Not Two (Synthesis)]] - degree 7, connects to 3 communities
+- [[The SNARK-or-STARK Binary Is Dead]] - degree 3, connects to 2 communities
+- [[Seven-Layer Causal Web (DAG, 14 edges)]] - degree 3, connects to 1 community
+- [[Succinct SP1 Hypercube]] - degree 3, connects to 1 community

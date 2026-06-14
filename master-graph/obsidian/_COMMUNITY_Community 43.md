@@ -1,38 +1,37 @@
 ---
 type: community
-cohesion: 0.12
-members: 23
+cohesion: 0.15
+members: 22
 ---
 
 # Community 43
 
-**Cohesion:** 0.12 - loosely connected
-**Members:** 23 nodes
+**Cohesion:** 0.15 - loosely connected
+**Members:** 22 nodes
 
 ## Members
-- [[32 previously-unknown vulnerabilities (34 unique problems, 405 warnings)]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[Apposcopy inter-component call graph (ICCG) abstraction]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[Circomspect Static Analyzer]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
-- [[Circuit Dependence Graph (CDG)]] - document - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[Circuit Dependence Graph (CDG) abstraction G=(V,Ed,Ec)]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[Constrained Horn Clause  Datalog query]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[Constraint-computation discrepancy vulnerability class]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[Dataflow-Constraint Discrepancy (DCD) detector]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[Datalog-style CDG construction inference rules]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[Division-by-Zero (DBZ) detector]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[Nondeterministic signals vulnerability class]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[Static Analysis]] - document - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[Taxonomy of Circom vulnerabilities (3 root-cause classes)]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[Type Mismatch (TM) detector]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[US, USCO, AM, NDD detectors (remaining ZKAP checkers)]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[Unconstrained Circuit Output (UCO) detector]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[Unconstrained Sub-circuit Input (USCI) detector]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[Unsafe component usage vulnerability class]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[Vulnerability Description Language (VDL)]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[ZKAP (static analyzer for ZKP circuits)]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[ZKAP evaluation on 258 Circom circuits (17 projects)]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[ed25519-circom PointCompress unconstrained-output bug]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[iden3 verifyExpirationTime missing-range-check type mismatch]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
+- [[Applications user-defined assets, private DEXs, regulation-friendly stablecoins]] - paper - references/recursion/ch3/ref-90-zexe.pdf
+- [[Bespoke depth-2 (one-layer) recursion inner predicate proofs verified by outer proof]] - paper - references/recursion/ch3/ref-90-zexe.pdf
+- [[Birth and death predicates governing record creation and consumption]] - paper - references/recursion/ch3/ref-90-zexe.pdf
+- [[Cocks-Pinch bounded recursion BLS12 curve E_BLS + Cocks-Pinch curve E_CP (avoids full cycle)]] - paper - references/recursion/ch3/ref-90-zexe.pdf
+- [[Coda MS18 arbitrary-depth recursive SNARK composition for succinct blockchains]] - paper - references/recursion/ch3/ref-90-zexe.pdf
+- [[Consumability each record consumable at least and at most once (anti faerie-gold)]] - paper - references/recursion/ch3/ref-90-zexe.pdf
+- [[DPC security construction realizes F_DPC under simulation-extractable NIZK (proof in App. A)]] - paper - references/recursion/ch3/ref-90-zexe.pdf
+- [[Data privacy transaction hides payloadsinputsoutputs of records]] - paper - references/recursion/ch3/ref-90-zexe.pdf
+- [[Decentralized Private Computation (DPC) scheme]] - paper - references/recursion/ch3/ref-90-zexe.pdf
+- [[Delegable DPC delegate proof generation to untrusted worker via randomizable signatures]] - paper - references/recursion/ch3/ref-90-zexe.pdf
+- [[Function privacy transaction hides WHICH predicatefunction was executed]] - paper - references/recursion/ch3/ref-90-zexe.pdf
+- [[Groth-Maller simulation-extractable zkSNARK GM17 used in implementation]] - paper - references/recursion/ch3/ref-90-zexe.pdf
+- [[Hawk KMS+16 offline computation with data privacy but no function privacy]] - paper - references/recursion/ch3/ref-90-zexe.pdf
+- [[Ideal functionality F_DPC capturing DPC security (UC-style, single execution)]] - paper - references/recursion/ch3/ref-90-zexe.pdf
+- [[Pedersen commitmentshashes over twisted Edwards curves E_EdBLS, E_EdCP for efficient circuits]] - paper - references/recursion/ch3/ref-90-zexe.pdf
+- [[Prior recursive SNARK composition over a 2-cycle of curves BCTV17]] - paper - references/recursion/ch3/ref-90-zexe.pdf
+- [[Record (commitment, address pk, payload, birthdeath predicate, serial number)]] - paper - references/recursion/ch3/ref-90-zexe.pdf
+- [[Records nano-kernel (RNK) minimalist shared execution environment over records]] - paper - references/recursion/ch3/ref-90-zexe.pdf
+- [[Succinctness transactions validated in time independent of offline computation (968 bytes)]] - paper - references/recursion/ch3/ref-90-zexe.pdf
+- [[The 'execute' NP statement R_e proved in zero knowledge per transaction]] - paper - references/recursion/ch3/ref-90-zexe.pdf
+- [[Transaction non-malleability security goal]] - paper - references/recursion/ch3/ref-90-zexe.pdf
+- [[Zexe a ledger-based system for decentralized private computation]] - paper - references/recursion/ch3/ref-90-zexe.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -42,11 +41,16 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 8 edges to [[_COMMUNITY_Community 2]]
+- 3 edges to [[_COMMUNITY_Community 58]]
+- 3 edges to [[_COMMUNITY_Community 128]]
+- 3 edges to [[_COMMUNITY_Community 23]]
+- 2 edges to [[_COMMUNITY_Community 4]]
+- 2 edges to [[_COMMUNITY_Community 75]]
+- 1 edge to [[_COMMUNITY_Community 9]]
 
 ## Top bridge nodes
-- [[Circomspect Static Analyzer]] - degree 4, connects to 1 community
-- [[Nondeterministic signals vulnerability class]] - degree 4, connects to 1 community
-- [[Taxonomy of Circom vulnerabilities (3 root-cause classes)]] - degree 4, connects to 1 community
-- [[ZKAP (static analyzer for ZKP circuits)]] - degree 4, connects to 1 community
-- [[Static Analysis]] - degree 3, connects to 1 community
+- [[Zexe a ledger-based system for decentralized private computation]] - degree 14, connects to 3 communities
+- [[Decentralized Private Computation (DPC) scheme]] - degree 10, connects to 1 community
+- [[Records nano-kernel (RNK) minimalist shared execution environment over records]] - degree 6, connects to 1 community
+- [[Bespoke depth-2 (one-layer) recursion inner predicate proofs verified by outer proof]] - degree 6, connects to 1 community
+- [[The 'execute' NP statement R_e proved in zero knowledge per transaction]] - degree 5, connects to 1 community

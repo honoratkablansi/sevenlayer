@@ -1,29 +1,29 @@
 ---
 type: community
-cohesion: 0.20
+cohesion: 0.38
 members: 14
 ---
 
 # Community 89
 
-**Cohesion:** 0.20 - loosely connected
+**Cohesion:** 0.38 - loosely connected
 **Members:** 14 nodes
 
 ## Members
-- [[ASDGP Auxiliary Structured Double Group Pairing assumption]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
-- [[ASSGP Auxiliary Structured Single Group Pairing assumption]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
-- [[Bootle et al. BCC+16 Bulletproofs split-and-collapse strategy]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
-- [[Bowe et al. BCG+20 Zexe recursive composition]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
-- [[Bunz et al. BMM+19 Proofs for Inner Pairing Products]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
-- [[Doubly-homomorphic collapsing commitment]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
-- [[Filecoin Proof-of-Space application (BLS12-381, Rust bellperson)]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
-- [[Groth Gro16 On the size of pairing-based non-interactive arguments]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
-- [[Lai, Malavolta, Ronge LMR19 succinct arguments for bilinear group arithmetic]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
-- [[Logarithmic-size proof and log-time verifier]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
-- [[Non-recursive (pairing-based) aggregation vs recursive composition]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
-- [[Pair Group Commitment schemes (CMs single  CMd double group)]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
-- [[SNARK proof aggregation]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
-- [[SnarkPack Practical SNARK Aggregation]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
+- [[BatchZK (pipelined GPU prover)]] - paper - wiki/sections/ch04-witness-generation-costs.md
+- [[Execution Traces]] - document - wiki/sections/ch04-execution-traces.md
+- [[GPU-Accelerated Proving]] - document - wiki/sections/ch04-witness-generation-costs.md
+- [[Memory The Binding Constraint]] - document - wiki/sections/ch04-memory-the-binding-constraint.md
+- [[NTT over R_q (q=8380417, ζ=1753 a 512th root of unity) fast module-polynomial multiplication NTT(ab)=NTT(a)∘NTT(b)]] - paper - references/ch14/ref-64-fips-204.pdf
+- [[Number-Theoretic Transform (NTT)]] - document - proving-nothing.md
+- [[Reinforced Concrete Hash]] - document - wiki/chapters/04-the-secret-performance.md
+- [[Streaming Witness Generation (Nair, Thaler, Zhu)]] - paper - wiki/sections/ch04-witness-generation-costs.md
+- [[The Hidden Bottleneck]] - document - wiki/sections/ch04-the-hidden-bottleneck.md
+- [[The Secret Performance]] - document - wiki/chapters/04-the-secret-performance.md
+- [[The Witness as a Multi-Dimensional Problem]] - document - wiki/sections/ch04-the-witness-as-a-multi-dimensional-problem.md
+- [[Witness Generation]] - document - proving-nothing.md
+- [[Witness Generation Costs]] - document - wiki/sections/ch04-witness-generation-costs.md
+- [[ZKPOG (GPU Witness Acceleration)]] - document - proving-nothing.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -33,14 +33,34 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 3 edges to [[_COMMUNITY_Community 12]]
-- 3 edges to [[_COMMUNITY_Community 105]]
-- 3 edges to [[_COMMUNITY_Community 118]]
-- 2 edges to [[_COMMUNITY_Community 27]]
+- 14 edges to [[_COMMUNITY_Community 1]]
+- 13 edges to [[_COMMUNITY_Community 14]]
+- 11 edges to [[_COMMUNITY_Community 13]]
+- 10 edges to [[_COMMUNITY_Community 2]]
+- 6 edges to [[_COMMUNITY_Community 109]]
+- 6 edges to [[_COMMUNITY_Community 0]]
+- 4 edges to [[_COMMUNITY_Community 108]]
+- 4 edges to [[_COMMUNITY_Community 88]]
+- 4 edges to [[_COMMUNITY_Community 126]]
+- 3 edges to [[_COMMUNITY_Community 62]]
+- 3 edges to [[_COMMUNITY_Community 115]]
+- 3 edges to [[_COMMUNITY_Community 40]]
+- 3 edges to [[_COMMUNITY_Community 27]]
+- 2 edges to [[_COMMUNITY_Community 5]]
+- 2 edges to [[_COMMUNITY_Community 72]]
+- 2 edges to [[_COMMUNITY_Community 54]]
+- 1 edge to [[_COMMUNITY_Community 36]]
+- 1 edge to [[_COMMUNITY_Community 31]]
+- 1 edge to [[_COMMUNITY_Community 10]]
+- 1 edge to [[_COMMUNITY_Community 125]]
+- 1 edge to [[_COMMUNITY_Community 58]]
+- 1 edge to [[_COMMUNITY_Community 45]]
+- 1 edge to [[_COMMUNITY_Community 20]]
+- 1 edge to [[_COMMUNITY_Community 4]]
 
 ## Top bridge nodes
-- [[SnarkPack Practical SNARK Aggregation]] - degree 17, connects to 4 communities
-- [[Pair Group Commitment schemes (CMs single  CMd double group)]] - degree 7, connects to 2 communities
-- [[SNARK proof aggregation]] - degree 2, connects to 1 community
-- [[Groth Gro16 On the size of pairing-based non-interactive arguments]] - degree 2, connects to 1 community
-- [[Filecoin Proof-of-Space application (BLS12-381, Rust bellperson)]] - degree 2, connects to 1 community
+- [[The Secret Performance]] - degree 43, connects to 16 communities
+- [[Number-Theoretic Transform (NTT)]] - degree 21, connects to 9 communities
+- [[Witness Generation Costs]] - degree 22, connects to 8 communities
+- [[The Witness as a Multi-Dimensional Problem]] - degree 15, connects to 7 communities
+- [[Execution Traces]] - degree 12, connects to 7 communities

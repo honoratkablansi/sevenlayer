@@ -1,47 +1,49 @@
 ---
 type: community
-cohesion: 0.11
-members: 32
+cohesion: 0.08
+members: 34
 ---
 
 # Community 16
 
-**Cohesion:** 0.11 - loosely connected
-**Members:** 32 nodes
+**Cohesion:** 0.08 - loosely connected
+**Members:** 34 nodes
 
 ## Members
-- [[2-cycle of elliptic curves (BN254Grumpkin)]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[Additively-Homomorphic Vector Commitment]] - paper - references/ch06/ref-17-nova.pdf
-- [[BCTV14 cycle-of-curves recursion blueprint]] - paper - references/recursion/ch1/ref-30-cyclefold.pdf
-- [[Binding Verification Keys and Statements Safely]] - document - recursion/recursion-outline.md
-- [[Bunz, Chen, ProtoStar (ePrint 2023620)]] - document - recursion/recursion-outline.md
-- [[Committed Relaxed R1CS]] - paper - references/ch06/ref-17-nova.pdf
-- [[Comparison with Goblin Plonk (table-based, not IVC)]] - paper - references/recursion/ch1/ref-30-cyclefold.pdf
-- [[Complete Bibliography]] - document - wiki/BIBLIOGRAPHY.md
-- [[Cross-Term Derivation]] - document - recursion/recursion-outline.md
-- [[CycleFold]] - document - proving-nothing.md
-- [[CycleFold (ePrint 20231192)]] - paper - references/recursion/ch1/ref-30-cyclefold.pdf
-- [[CycleFold cycle-of-curves delegation technique]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[Fold second-curve correctness instance u_EC on the first curve via Nova]] - paper - references/recursion/ch1/ref-30-cyclefold.pdf
-- [[Folding Family Tradeoff Table]] - document - recursion/recursion-outline.md
-- [[Halo Recursive Proof Composition]] - paper - references/ch06/ref-17-nova.pdf
-- [[HyperNova KS24b (linearization, CCS folding)]] - paper - references/ch02/ref-11-latticefold-plus.pdf
-- [[HyperNova Recursive Arguments for Customizable Constraint Systems]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[Kothapalli, Setty, CycleFold (ePrint 20231192)]] - document - recursion/recursion-outline.md
+- [[Blum-Evans-Gemmell-Kannan-Naor BEG+91 original offline memory checking (FOCS 1991)]] - paper - references/ch03/ref-15-lasso.pdf
+- [[Computation Commitment]] - paper - references/recursion/ch2/ref-41-spartan.pdf
+- [[Computation commitments succinct commitment to R1CS structure via public preprocessing (Encode), no trapdoor]] - paper - references/recursion/ch2/ref-41-spartan.pdf
+- [[Encoding of R1CS as a degree-3 log m-variate polynomial G_{io,τ} summing to 0 (Theorem 4.1)]] - paper - references/recursion/ch2/ref-41-spartan.pdf
+- [[Extractable polynomial commitment scheme for multilinear polynomials (Setup, Commit, Open, Eval)]] - paper - references/recursion/ch2/ref-41-spartan.pdf
+- [[Fiat-Shamir transform in the random oracle model to obtain NIZKzkSNARK from public-coin argument]] - paper - references/recursion/ch2/ref-41-spartan.pdf
+- [[GGPR quadratic arithmetic programs (QAPs)  Pinocchio trusted-setup SNARKs (cited prior work)]] - paper - references/recursion/ch2/ref-41-spartan.pdf
+- [[Goldwasser-Kalai-Rothblum (GKR) doubly-efficient interactive proofs (cited prior work)]] - paper - references/recursion/ch2/ref-41-spartan.pdf
+- [[Hyrax (Wahby et al.) transparent zkSNARK + Hyrax-PC multilinear polynomial commitment (cited  instantiated)]] - paper - references/recursion/ch2/ref-41-spartan.pdf
 - [[Lemma 5 (Nova folding is blinding)]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[MicroNova (on-chain efficient Nova)]] - document - references/recursion/ch2/ref-43-nova-implementation.md
-- [[MinRoot VDF]] - document - recursion/recursion-outline.md
-- [[MinRoot Worked Example]] - document - recursion/recursion-outline.md
-- [[NBS23 revisiting Nova on a cycle of curves (cited prior work)]] - paper - references/recursion/ch1/ref-30-cyclefold.pdf
-- [[Nova]] - document - proving-nothing.md
-- [[Nova reference implementation (microsoftNova)]] - document - references/recursion/ch2/ref-43-nova-implementation.md
-- [[Nova Recursive Zero-Knowledge Arguments from Folding Schemes]] - paper - references/ch06/ref-17-nova.pdf
+- [[Libra (Xie et al.) linear-time-prover zkSNARK for uniform circuits (cited; SpartanKE alternative)]] - paper - references/recursion/ch2/ref-41-spartan.pdf
+- [[Multilinear Polynomial Commitment]] - paper - references/recursion/ch2/ref-41-spartan.pdf
+- [[No-FFT prover (sum-check avoids FFT-based polynomial machinery of QAPIOP SNARKs)]] - paper - references/recursion/ch2/ref-41-spartan.pdf
+- [[No-trusted-setup (transparent) argument under discrete log over normal curve cycles]] - paper - references/recursion/ch1/ref-05-halo.pdf
 - [[NovaBlindFold folding-based zero-knowledge]] - paper - references/ch06/ref-18-hypernova.pdf
-- [[ProtoStar]] - document - proving-nothing.md
-- [[Relaxed R1CS]] - document - proving-nothing.md
-- [[Spartan zkSNARK]] - paper - references/ch06/ref-17-nova.pdf
-- [[Tiny co-processor circuit C_EC on second curve (~1000-1500 gates)]] - paper - references/recursion/ch1/ref-30-cyclefold.pdf
-- [[Verifiable delegation of scalar multiplication + point addition]] - paper - references/recursion/ch1/ref-30-cyclefold.pdf
+- [[Offline memory checking via public-coin randomized check (memory in the head) for O(n)-sized eval circuit]] - paper - references/recursion/ch2/ref-41-spartan.pdf
+- [[SPARK Compiler]] - paper - references/recursion/ch2/ref-41-spartan.pdf
+- [[SPARK compiler transforms a dense multilinear PC into one for sparse multilinear polynomials]] - paper - references/recursion/ch2/ref-41-spartan.pdf
+- [[Setty, Spartan (CRYPTO 2020)]] - document - recursion/recursion-outline.md
+- [[Setty, Spartan Efficient and General-Purpose zkSNARKs without Trusted Setup (CRYPTO 2020  ePrint 2019550)]] - paper - references/recursion/ch2/ref-41-spartan.pdf
+- [[Spark optimal sparse multilinear PCS from Spartan; evaluates m-sparse poly in O(c·m) time via c memories of size N{1c}]] - paper - references/ch03/ref-15-lasso.pdf
+- [[Sparse multilinear polynomial commitment (Spartan compiler)]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
+- [[Spartan]] - document - proving-nothing.md
+- [[Spartan Rust library (~8,000 LoC), DLOG-based transparent zkSNARK; github.comMicrosoftSpartan]] - paper - references/recursion/ch2/ref-41-spartan.pdf
+- [[Spartan Set20 source of the Spark sparse PCS that Lasso builds on]] - paper - references/ch03/ref-15-lasso.pdf
+- [[Spartan over Jolt's uniform block-diagonal R1CS, streamed via Az,Bz,Cz]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Spartan variants SpartanDL, SpartanRO, SpartanCL (transparent), SpartanKE (universal setup)]] - paper - references/recursion/ch2/ref-41-spartan.pdf
+- [[Stronger Spark security secure even when sparse-polynomial metadata is committed by a malicious prover (first 'standard' sparse PCS)]] - paper - references/ch03/ref-15-lasso.pdf
+- [[Theorem 1.1  Corollary 1.1 family of zkSNARKs, prover O(n)–O(n log n), verifierproof O(log² n)–O(√n)]] - paper - references/recursion/ch2/ref-41-spartan.pdf
+- [[Theorem 2 c-memory Spark transform — sparse PCS over c·log M variables; prover commits to (3c+1) dense (log m)-variate + c (log N{1c})-variate polynomials]] - paper - references/ch03/ref-15-lasso.pdf
+- [[Theorem 4.1 ∃ degree-3 log m-variate G with ∑ G(x)=0 iff R1CS satisfiable]] - paper - references/recursion/ch2/ref-41-spartan.pdf
+- [[Theorem 5.1 succinct interactive AoK from any extractable multilinear polynomial commitment]] - paper - references/recursion/ch2/ref-41-spartan.pdf
+- [[Time-optimal (linear-time O(n)) prover from multilinear decomposition + SPARK]] - paper - references/recursion/ch2/ref-41-spartan.pdf
+- [[Two-round sum-check public-coin succinct interactive argument of knowledge for R1CS (Theorem 5.1)]] - paper - references/recursion/ch2/ref-41-spartan.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -51,49 +53,28 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 21 edges to [[_COMMUNITY_Community 0]]
-- 16 edges to [[_COMMUNITY_Community 11]]
-- 9 edges to [[_COMMUNITY_Community 13]]
-- 9 edges to [[_COMMUNITY_Community 15]]
-- 6 edges to [[_COMMUNITY_Community 8]]
-- 6 edges to [[_COMMUNITY_Community 32]]
-- 6 edges to [[_COMMUNITY_Community 61]]
-- 4 edges to [[_COMMUNITY_Community 47]]
-- 4 edges to [[_COMMUNITY_Community 14]]
-- 4 edges to [[_COMMUNITY_Community 52]]
-- 4 edges to [[_COMMUNITY_Community 90]]
-- 3 edges to [[_COMMUNITY_Community 12]]
-- 3 edges to [[_COMMUNITY_Community 46]]
-- 3 edges to [[_COMMUNITY_Community 24]]
-- 3 edges to [[_COMMUNITY_Community 123]]
-- 3 edges to [[_COMMUNITY_Community 18]]
-- 3 edges to [[_COMMUNITY_Community 104]]
-- 2 edges to [[_COMMUNITY_Community 1]]
-- 2 edges to [[_COMMUNITY_Community 7]]
-- 2 edges to [[_COMMUNITY_Community 112]]
-- 1 edge to [[_COMMUNITY_Community 45]]
-- 1 edge to [[_COMMUNITY_Community 96]]
-- 1 edge to [[_COMMUNITY_Community 68]]
-- 1 edge to [[_COMMUNITY_Community 17]]
-- 1 edge to [[_COMMUNITY_Community 5]]
-- 1 edge to [[_COMMUNITY_Community 37]]
+- 11 edges to [[_COMMUNITY_Community 1]]
+- 6 edges to [[_COMMUNITY_Community 40]]
+- 4 edges to [[_COMMUNITY_Community 28]]
+- 4 edges to [[_COMMUNITY_Community 2]]
+- 2 edges to [[_COMMUNITY_Community 62]]
+- 2 edges to [[_COMMUNITY_Community 86]]
+- 2 edges to [[_COMMUNITY_Community 98]]
+- 2 edges to [[_COMMUNITY_Community 44]]
+- 2 edges to [[_COMMUNITY_Community 51]]
+- 1 edge to [[_COMMUNITY_Community 32]]
+- 1 edge to [[_COMMUNITY_Community 139]]
+- 1 edge to [[_COMMUNITY_Community 119]]
+- 1 edge to [[_COMMUNITY_Community 0]]
 - 1 edge to [[_COMMUNITY_Community 75]]
-- 1 edge to [[_COMMUNITY_Community 51]]
-- 1 edge to [[_COMMUNITY_Community 22]]
-- 1 edge to [[_COMMUNITY_Community 39]]
-- 1 edge to [[_COMMUNITY_Community 53]]
-- 1 edge to [[_COMMUNITY_Community 92]]
-- 1 edge to [[_COMMUNITY_Community 54]]
-- 1 edge to [[_COMMUNITY_Community 26]]
-- 1 edge to [[_COMMUNITY_Community 60]]
-- 1 edge to [[_COMMUNITY_Community 20]]
-- 1 edge to [[_COMMUNITY_Community 48]]
-- 1 edge to [[_COMMUNITY_Community 70]]
-- 1 edge to [[_COMMUNITY_Community 31]]
+- 1 edge to [[_COMMUNITY_Community 36]]
+- 1 edge to [[_COMMUNITY_Community 84]]
+- 1 edge to [[_COMMUNITY_Community 23]]
+- 1 edge to [[_COMMUNITY_Community 19]]
 
 ## Top bridge nodes
-- [[Nova]] - degree 64, connects to 18 communities
-- [[Complete Bibliography]] - degree 16, connects to 14 communities
-- [[HyperNova Recursive Arguments for Customizable Constraint Systems]] - degree 25, connects to 13 communities
-- [[Nova Recursive Zero-Knowledge Arguments from Folding Schemes]] - degree 18, connects to 12 communities
-- [[ProtoStar]] - degree 12, connects to 5 communities
+- [[Spartan]] - degree 39, connects to 10 communities
+- [[No-trusted-setup (transparent) argument under discrete log over normal curve cycles]] - degree 8, connects to 4 communities
+- [[Spark optimal sparse multilinear PCS from Spartan; evaluates m-sparse poly in O(c·m) time via c memories of size N{1c}]] - degree 7, connects to 3 communities
+- [[Spartan over Jolt's uniform block-diagonal R1CS, streamed via Az,Bz,Cz]] - degree 4, connects to 3 communities
+- [[Encoding of R1CS as a degree-3 log m-variate polynomial G_{io,τ} summing to 0 (Theorem 4.1)]] - degree 4, connects to 3 communities

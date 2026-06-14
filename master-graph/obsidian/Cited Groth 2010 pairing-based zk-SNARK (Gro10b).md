@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-37-updatable-universal-crs.pdf"
 type: "paper"
-community: "Community 79"
+community: "Community 67"
 location: "§1-2, [Gro10b]"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_79
+  - community/Community_67
 ---
 
 # Cited: Groth 2010 pairing-based zk-SNARK (Gro10b)
@@ -15,4 +15,4 @@ tags:
 - [[Quadratic monomial-only universal CRS (multivariate X,Y,Z, j=7)]] - `conceptually_related_to` [INFERRED]
 - [[Updatable and Universal Common Reference Strings with Applications to zk-SNARKs]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_79
+#graphify/paper #graphify/EXTRACTED #community/Community_67

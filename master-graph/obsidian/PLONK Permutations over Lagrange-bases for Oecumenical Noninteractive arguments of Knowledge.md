@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch02/ref-07-plonk.pdf"
 type: "paper"
-community: "Community 39"
+community: "Community 59"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_39
+  - community/Community_59
 ---
 
 # PLONK: Permutations over Lagrange-bases for Oecumenical Noninteractive arguments of Knowledge
@@ -36,4 +36,4 @@ tags:
 - [[Universal Updatable SRS Setup (Bowe-Gabizon-Miers)]] - `cites` [EXTRACTED]
 - [[Universal vs Circuit-Specific SRS]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_39
+#graphify/paper #graphify/EXTRACTED #community/Community_59

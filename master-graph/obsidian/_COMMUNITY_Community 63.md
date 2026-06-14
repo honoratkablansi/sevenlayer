@@ -1,33 +1,33 @@
 ---
 type: community
-cohesion: 0.16
+cohesion: 0.11
 members: 18
 ---
 
 # Community 63
 
-**Cohesion:** 0.16 - loosely connected
+**Cohesion:** 0.11 - loosely connected
 **Members:** 18 nodes
 
 ## Members
-- [[Chaliasos et al. SoK SNARK Vulnerabilities (USENIX Security 2024)]] - paper - wiki/sections/ch03-risc-v-won-why-taxonomy-still-matters.md
-- [[DEEP-ALI and FRI]] - document - references/recursion/ch1/ref-18-risc-zero-proof-system-overview.md
-- [[Extended Main and Auxiliary Execution Trace]] - document - references/recursion/ch1/ref-18-risc-zero-proof-system-overview.md
-- [[From Circuits to Virtual Machines A Brief Evolution]] - document - wiki/sections/ch03-from-circuits-to-virtual-machines-a-brief-evolution.md
-- [[Groth16 Circuit (on-chain verification wrapper)]] - document - references/recursion/ch1/ref-18-risc-zero-proof-system-overview.md
-- [[Image ID]] - document - references/recursion/ch1/ref-18-risc-zero-proof-system-overview.md
-- [[Picus (QED2)]] - paper - wiki/sections/ch03-under-constrained-circuits-the-dominant-failure-mode.md
-- [[Plonky3]] - document - references/recursion/ch1/ref-08-sp1-hypercube.md
-- [[RISC Zero]] - document - proving-nothing.md
-- [[RISC-V Won. Why Taxonomy Still Matters.]] - document - wiki/sections/ch03-risc-v-won-why-taxonomy-still-matters.md
-- [[The RISC Zero STARK Protocol  Proof System Overview]] - document - references/recursion/ch1/ref-18-risc-zero-proof-system-overview.md
-- [[Tornado Cash]] - document - wiki/chapters/03-choreographing-the-act.md
-- [[Under-Constrained Circuits The Dominant Failure Mode]] - document - wiki/sections/ch03-under-constrained-circuits-the-dominant-failure-mode.md
-- [[Witness-Constraint Divergence]] - document - wiki/sections/ch04-witness-constraint-divergence.md
-- [[ZKAP (Circuit Dependence Graph static analysis)]] - paper - wiki/sections/ch03-under-constrained-circuits-the-dominant-failure-mode.md
-- [[ZisK]] - document - wiki/sections/ch02-the-capex-opex-framework.md
-- [[zkFuzz]] - paper - wiki/sections/ch03-under-constrained-circuits-the-dominant-failure-mode.md
-- [[zkSync Era]] - document - wiki/sections/ch04-witness-constraint-divergence.md
+- [[Circuit Generator]] - paper - references/snowball/book/ref-071-succinct-non-interactive-zero-knowledge-for-a-vo.pdf
+- [[Concurrent Execution]] - paper - references/snowball/recursion/ref-097-proving-the-correct-execution-of-concurrent-serv.pdf
+- [[Data-Parallel Computation]] - paper - references/snowball/recursion/ref-095-time-optimal-interactive-proofs-for-circuit-eval.pdf
+- [[Hybrid Protocol Architecture]] - paper - references/snowball/book/ref-143-a-hybrid-architecture-for-verifiable-computation.pdf
+- [[Merkle ZKP membership proof]] - paper - references/recursion/ch1/ref-21-zktree.pdf
+- [[Pantry Verifiable Computation with State]] - paper - references/snowball/book/ref-093-verifying-computations-with-state.pdf
+- [[Proof of correct program execution]] - document - references/recursion/ch1/ref-28-risc-zero-technical-docs.md
+- [[Public Verifiability]] - paper - references/snowball/book/ref-135-practical-delegation-of-computation-using-multip.pdf
+- [[RAM Verification]] - paper - references/snowball/book/ref-075-efficient-ram-and-control-flow-in-verifiable-out.pdf
+- [[RISC Zero technical documentation (dev.risczero.com)]] - document - references/recursion/ch1/ref-28-risc-zero-technical-docs.md
+- [[RSA Accumulator]] - paper - references/snowball/book/ref-115-scaling-verifiable-computation-using-efficient-s.pdf
+- [[Streaming Verification]] - paper - references/snowball/recursion/ref-098-practical-verified-computation-with-streaming-in.pdf
+- [[Untrusted Storage]] - paper - references/snowball/book/ref-093-verifying-computations-with-state.pdf
+- [[Verifiable ASIC]] - paper - references/snowball/recursion/ref-112-full-accounting-for-verifiable-outsourcing.pdf
+- [[Verifiable State Machine]] - paper - references/snowball/recursion/ref-097-proving-the-correct-execution-of-concurrent-serv.pdf
+- [[Verifiable Storage Primitive]] - paper - references/snowball/recursion/ref-097-proving-the-correct-execution-of-concurrent-serv.pdf
+- [[Verifiable computation]] - document - references/recursion/ch1/ref-28-risc-zero-technical-docs.md
+- [[Von Neumann Architecture]] - paper - references/snowball/book/ref-071-succinct-non-interactive-zero-knowledge-for-a-vo.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -37,28 +37,26 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 18 edges to [[_COMMUNITY_Community 6]]
-- 16 edges to [[_COMMUNITY_Community 8]]
-- 9 edges to [[_COMMUNITY_Community 7]]
-- 7 edges to [[_COMMUNITY_Community 2]]
-- 7 edges to [[_COMMUNITY_Community 1]]
-- 5 edges to [[_COMMUNITY_Community 11]]
-- 3 edges to [[_COMMUNITY_Community 76]]
-- 3 edges to [[_COMMUNITY_Community 69]]
-- 3 edges to [[_COMMUNITY_Community 12]]
-- 2 edges to [[_COMMUNITY_Community 15]]
-- 2 edges to [[_COMMUNITY_Community 42]]
-- 2 edges to [[_COMMUNITY_Community 14]]
-- 2 edges to [[_COMMUNITY_Community 0]]
-- 1 edge to [[_COMMUNITY_Community 37]]
-- 1 edge to [[_COMMUNITY_Community 17]]
-- 1 edge to [[_COMMUNITY_Community 5]]
-- 1 edge to [[_COMMUNITY_Community 97]]
-- 1 edge to [[_COMMUNITY_Community 21]]
+- 5 edges to [[_COMMUNITY_Community 28]]
+- 4 edges to [[_COMMUNITY_Community 15]]
+- 4 edges to [[_COMMUNITY_Community 32]]
+- 3 edges to [[_COMMUNITY_Community 22]]
+- 2 edges to [[_COMMUNITY_Community 36]]
+- 2 edges to [[_COMMUNITY_Community 85]]
+- 2 edges to [[_COMMUNITY_Community 3]]
+- 1 edge to [[_COMMUNITY_Community 96]]
+- 1 edge to [[_COMMUNITY_Community 2]]
+- 1 edge to [[_COMMUNITY_Community 1]]
+- 1 edge to [[_COMMUNITY_Community 4]]
+- 1 edge to [[_COMMUNITY_Community 40]]
+- 1 edge to [[_COMMUNITY_Community 44]]
+- 1 edge to [[_COMMUNITY_Community 41]]
+- 1 edge to [[_COMMUNITY_Community 88]]
+- 1 edge to [[_COMMUNITY_Community 110]]
 
 ## Top bridge nodes
-- [[Tornado Cash]] - degree 22, connects to 14 communities
-- [[RISC Zero]] - degree 22, connects to 8 communities
-- [[From Circuits to Virtual Machines A Brief Evolution]] - degree 17, connects to 6 communities
-- [[RISC-V Won. Why Taxonomy Still Matters.]] - degree 10, connects to 6 communities
-- [[Plonky3]] - degree 8, connects to 6 communities
+- [[Verifiable computation]] - degree 27, connects to 11 communities
+- [[Verifiable State Machine]] - degree 5, connects to 2 communities
+- [[Circuit Generator]] - degree 4, connects to 2 communities
+- [[Merkle ZKP membership proof]] - degree 4, connects to 2 communities
+- [[Pantry Verifiable Computation with State]] - degree 4, connects to 2 communities

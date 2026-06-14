@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 105"
+community: "Community 3"
 location: "Chapter 8"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_105
+  - community/Community_3
 ---
 
 # Proof Aggregation
@@ -16,6 +16,8 @@ tags:
 - [[Aligned Layer]] - `references` [EXTRACTED]
 - [[Cross-chain proof aggregation and interop]] - `conceptually_related_to` [EXTRACTED]
 - [[Distributed proof generation with independent same-level proofs (no inter-worker comms)]] - `conceptually_related_to` [EXTRACTED]
+- [[Groth16]] - `uses` [EXTRACTED]
+- [[Inner Product Argument (IPABulletproofs)]] - `uses` [EXTRACTED]
 - [[Layer 7 -- The Verdict]] - `references` [EXTRACTED]
 - [[Logarithmic-size proof and log-time verifier]] - `conceptually_related_to` [EXTRACTED]
 - [[NEBRA]] - `references` [EXTRACTED]
@@ -24,6 +26,7 @@ tags:
 - [[Real-time zkVM pipeline case study]] - `references` [EXTRACTED]
 - [[Recursive STARK proving]] - `defines` [EXTRACTED]
 - [[SHARP (SHARed Prover)]] - `explains` [EXTRACTED]
+- [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `improves` [EXTRACTED]
 - [[SNARK proof aggregation]] - `conceptually_related_to` [EXTRACTED]
 - [[SNARK-aggregated signatures]] - `conceptually_related_to` [EXTRACTED]
 - [[SnarkPack Practical SNARK Aggregation]] - `introduces` [EXTRACTED]
@@ -37,4 +40,4 @@ tags:
 - [[zkTLS  zkEmail web and email provenance]] - `conceptually_related_to` [EXTRACTED]
 - [[zkTree zero-knowledge recursion tree with ZKP membership proofs]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_105
+#graphify/document #graphify/EXTRACTED #community/Community_3

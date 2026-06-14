@@ -1,65 +1,70 @@
 ---
 type: community
-cohesion: 0.06
-members: 50
+cohesion: 0.05
+members: 55
 ---
 
 # Community 3
 
-**Cohesion:** 0.06 - loosely connected
-**Members:** 50 nodes
+**Cohesion:** 0.05 - loosely connected
+**Members:** 55 nodes
 
 ## Members
-- [['Large-Scale MPC Scaling Private Iris Code Uniqueness Checks to Millions of Users' — cited technical paper underpinning AMPC]] - paper - references/ch13/ref-59-world-whitepaper.pdf
-- [[AMPC infrastructure NVIDIA H100 GPUs (AWS p5.48xlarge, RDMA) running CUDA, ~50M pairwise comparisonssec; operated by FAU Erlangen, UC Berkeley RDI, Nethermind, KAIST, UTEC, UZurich]] - paper - references/ch13/ref-59-world-whitepaper.pdf
-- [[Anonymized Multi-Party Computation (AMPC) quantum-secure SMPC uniqueness service on encrypted iris-code fragments, revealing only a single matchno-match bit, never plaintext Hamming distances]] - paper - references/ch13/ref-59-world-whitepaper.pdf
-- [[Authentic sources & attribute verification (Art. 3(47); Art. 45e)]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
-- [[Certification of EUDI Wallets (Art. 5c)]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
-- [[Common dashboard transaction log, GDPR Art.17 erasure, DPA reporting (Art. 5a(4)(d))]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
-- [[Data minimization]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
-- [[Definition 'European Digital Identity Wallet' (Art. 3(42))]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
-- [[Digital Identity]] - document - references/ch13/ref-60-eidas-2-regulation.pdf
-- [[EUDI Wallet (Art. 5a) user-controlled cross-border eID means]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
-- [[EUDI Wallet relying parties registration, intended-use declaration (Art. 5b)]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
-- [[Electronic Attestation of Attributes (EAA) (Art. 3(44); Art. 45b)]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
-- [[European Digital Identity Framework (amending Reg 9102014)]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
-- [[European Digital Identity Wallet]] - document - references/ch13/ref-60-eidas-2-regulation.pdf
-- [[GDPR  Reg 2016679 compliance & purpose limitation (Art. 5a(17); Recital 12)]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
-- [[Iris Biometrics]] - document - references/ch13/ref-59-world-whitepaper.pdf
-- [[Iris biometrics 1N uniqueness modality with FMR beyond 2.5e-14, randomly formed in gestation, stable, uncorrelated even between twinsown eyes]] - paper - references/ch13/ref-59-world-whitepaper.pdf
-- [[Issuance with complete certainty of identityattributes (Recital 74)]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
-- [[John Daugman iris recognition (1993, Gabor-wavelet IrisCode), foundational prior work for the Orb's iris algorithm]] - paper - references/ch13/ref-59-world-whitepaper.pdf
-- [[Levels of assurance wallet at assurance level 'high' (Art. 8; Art. 5a(11))]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
-- [[NFC ID credential self-custodial credential derived locally from ICAO-compliant NFC passportsnational IDs to prove attributes (age, nationality) without uploading ID data]] - paper - references/ch13/ref-59-world-whitepaper.pdf
-- [[Nullifier]] - document - proving-nothing.md
-- [[Orb hardware root of trust dual burned keys (NVIDIA Jetson SoC fuses + secure element), NIST-SP-800-108 KDF provisioning, dm-verity signed-firmware boot, on-chain Orb Registry]] - paper - references/ch13/ref-59-world-whitepaper.pdf
-- [[Personal Custody Package (PCP) irisface embeddings, raw images and AMPC fragments encrypted on the Orb with a user key, sent to the phone, then images deleted from the Orb]] - paper - references/ch13/ref-59-world-whitepaper.pdf
-- [[PoH authentication unlinkable pseudonymity via self-custody + ZKP against a public registry, plus a person-bound second factor (Face Auth) with periodic reauthentication]] - paper - references/ch13/ref-59-world-whitepaper.pdf
-- [[Presentation Attack Detection & liveness local challenge-response, passive liveness, thermal heat-signature check, contact-lens detection across multispectral sensors]] - paper - references/ch13/ref-59-world-whitepaper.pdf
-- [[Privacy-preserving  no-tracking technical framework (Art. 5a(16))]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
-- [[Proof of Human (PoH) private primitive establishing a party is a real, unique human (or agent acting on a human's behalf)]] - paper - references/ch13/ref-59-world-whitepaper.pdf
-- [[Proof of Personhood]] - document - proving-nothing.md
-- [[QTSP non-combination of personal data  wallet-issuer blindness (Art. 45h; Art. 5a(5)(b))]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
-- [[Qualified Electronic Attestation of Attributes (QEAA) (Art. 3(45); Art. 45d, Annex V)]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
-- [[Qualified Trust Service Provider  qualified trust services]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
-- [[Regulation (EU) 2016679 (GDPR)]] - document - references/ch13/ref-60-eidas-2-regulation.pdf
-- [[Regulation (EU) 20241183 establishing the European Digital Identity Framework (eIDAS 2)]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
-- [[Secure multi-party computation (SMPC) multiple independent nodes jointly check uniqueness over secret-shared, end-to-end encrypted fragments without any party seeing the data]] - paper - references/ch13/ref-59-world-whitepaper.pdf
-- [[Semaphore set registration zk-SNARK privacy layer; smart contract on Ethereum holding a Merkle set of Poseidon (BN254) hashes of World ID secrets, bridged to other chains]] - paper - references/ch13/ref-59-world-whitepaper.pdf
-- [[Semaphore generic open-source zk-SNARK group-membership and signaling protocol for Ethereum (Groth16-verifiable)]] - paper - references/ch13/ref-59-world-whitepaper.pdf
-- [[Sole user control & logical data separation (Art. 5a(14))]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
-- [[The Orb high-security open-source multispectral IR camera issuing an AI-safe PoH credential via local on-device iris+face capture, livenessPAD, and signed iris code]] - paper - references/ch13/ref-59-world-whitepaper.pdf
-- [[Unique iris code frequency-based features extracted from iris texture via multi-scale Gabor wavelet filters with quantized phase response; matched by Hamming distance with masks]] - paper - references/ch13/ref-59-world-whitepaper.pdf
-- [[Uniqueness targetsclaims per-iris FMR 1e-6, billion-scale FMR ~1e-12, FNMR  5e-3; achieved FMR 2.25e-14 at ~1e-3 FNMR in pre-launch tests]] - paper - references/ch13/ref-59-world-whitepaper.pdf
-- [[Unlinkability]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
-- [[User-chosen pseudonyms (Art. 5a(4)(b); Recital 22)]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
-- [[Voluntary use, open-source, free-of-charge wallet (Art. 5a(3),(13),(15))]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
-- [[World Chain human-centered financial layer implemented as an OP Stack  Superchain layer-2 on Ethereum with human-based transaction prioritization]] - paper - references/ch13/ref-59-world-whitepaper.pdf
-- [[World ID]] - document - references/ch13/ref-59-world-whitepaper.pdf
-- [[World ID open-source decentralized privacy-preserving digital identity issuing unlinkable proofs (Proof of Human, Age, Country) via personal custody, AMPC and ZKPs]] - paper - references/ch13/ref-59-world-whitepaper.pdf
-- [[World Network real human network with five core technologies (World ID, Orb, World App, World Chain, WLD) for Proof of Human plus a financial layer]] - paper - references/ch13/ref-59-world-whitepaper.pdf
-- [[World Whitepapers (World Network Proof of Human)]] - paper - references/ch13/ref-59-world-whitepaper.pdf
-- [[Worldcoin (WLD) ERC-20 native token, 10B initial cap, =60% target to verified humans as user tokens, governanceone-person-one-vote, =1.5% inflation only after 15 years]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[ASDGP Auxiliary Structured Double Group Pairing assumption]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
+- [[ASSGP Auxiliary Structured Single Group Pairing assumption]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
+- [[Aggregation Trees (zkTree cost model)]] - document - recursion/recursion-outline.md
+- [[Aggregation tree (recursive verification tree)]] - paper - references/recursion/ch1/ref-21-zktree.pdf
+- [[Applicative recursion (application-aware proof + input compression)]] - document - references/recursion/ch3/ref-53-starkware-recursive-starks.md
+- [[BLS signatures]] - document - references/recursion/ch1/ref-37-ethereum-lean-hash-based-sig-aggregation.md
+- [[Bootle et al. BCC+16 Bulletproofs split-and-collapse strategy]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
+- [[Bowe et al. BCG+20 Zexe recursive composition]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
+- [[Bunz et al. BMM+19 Proofs for Inner Pairing Products]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
+- [[Circuit-hash and input-hash Merkle roots at zkTree root]] - paper - references/recursion/ch1/ref-21-zktree.pdf
+- [[Comparison vs deVirgo zkTree avoids central machine  circuit-splitting rigidity]] - paper - references/recursion/ch1/ref-21-zktree.pdf
+- [[Daza, Rafols, Zacharakis DRZ20 updateable IPP with log verifier]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
+- [[Distributed proof generation with independent same-level proofs (no inter-worker comms)]] - paper - references/recursion/ch1/ref-21-zktree.pdf
+- [[Doubly-homomorphic collapsing commitment]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
+- [[Ed25519Tendermint evaluation 32 sigs verified on ETH, 77s end-to-end, 230k gas]] - paper - references/recursion/ch1/ref-21-zktree.pdf
+- [[Filecoin Proof-of-Space application (BLS12-381, Rust bellperson)]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
+- [[Groth Gro16 On the size of pairing-based non-interactive arguments]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
+- [[Hash-based cryptography (lean foundation)]] - document - references/recursion/ch1/ref-37-ethereum-lean-hash-based-sig-aggregation.md
+- [[Hash-based signatures]] - document - references/recursion/ch1/ref-37-ethereum-lean-hash-based-sig-aggregation.md
+- [[Heterogeneous zk proofs in a single tree (claim of novelty over prior trees)]] - paper - references/recursion/ch1/ref-21-zktree.pdf
+- [[Hierarchical SNARK aggregation tree (origin of shared-verification-cost trees)]] - paper - references/recursion/ch1/ref-21-zktree.pdf
+- [[Inner pairing product argument (IPP)]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
+- [[Intermediate bn128-Poseidon Plonky2 proof to eliminate non-native range checks]] - paper - references/recursion/ch1/ref-21-zktree.pdf
+- [[L3 deployments on top of L2 via recursive verifier]] - document - references/recursion/ch3/ref-53-starkware-recursive-starks.md
+- [[Lai, Malavolta, Ronge LMR19 succinct arguments for bilinear group arithmetic]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
+- [[Leaf builder L_i(pi_i,{x_i},VD_i) - upsilon_i,h_i,c_i]] - paper - references/recursion/ch1/ref-21-zktree.pdf
+- [[Logarithmic verification compression of STARK proofs]] - document - references/recursion/ch3/ref-53-starkware-recursive-starks.md
+- [[Logarithmic-size proof and log-time verifier]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
+- [[MIPP Multi-exponentiation Inner Product argument]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
+- [[MT-IPP merged MIPP+TIPP argument]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
+- [[NEBRA]] - document - proving-nothing.md
+- [[Node builder combining leafnode pairs into omega_k,h_k,c_k]] - paper - references/recursion/ch1/ref-21-zktree.pdf
+- [[Non-recursive (pairing-based) aggregation vs recursive composition]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
+- [[On-chain verifier Plonky2 root recursively wrapped into Groth16 (230k gas)]] - paper - references/recursion/ch1/ref-21-zktree.pdf
+- [[Pair Group Commitment schemes (CMs single  CMd double group)]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
+- [[Proof Aggregation]] - document - proving-nothing.md
+- [[Real-time zkVM pipeline case study]] - document - recursion/recursion-outline.md
+- [[Real-time zkVMs (lean execution)]] - document - references/recursion/ch1/ref-37-ethereum-lean-hash-based-sig-aggregation.md
+- [[Recursive STARK proving]] - document - references/recursion/ch3/ref-53-starkware-recursive-starks.md
+- [[Reuse of two independent Groth16 powers-of-tau ceremonies (no new trusted setup)]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
+- [[Rise of SNARKs]] - document - references/recursion/ch1/ref-37-ethereum-lean-hash-based-sig-aggregation.md
+- [[SHARP (SHARed Prover)]] - document - references/recursion/ch3/ref-53-starkware-recursive-starks.md
+- [[SNARK proof aggregation]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
+- [[SNARK-aggregated signatures]] - document - recursion/recursion-outline.md
+- [[SnarkPack Practical SNARK Aggregation]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
+- [[StarkWare, Recursive STARKs (2022)]] - document - references/recursion/ch3/ref-53-starkware-recursive-starks.md
+- [[TIPP Target Inner Pairing Product argument]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
+- [[Theorem 3 MT-IPP completeness and knowledge soundness]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
+- [[Three Core Capabilities compression, incrementality, composability]] - document - recursion/recursion-outline.md
+- [[Three zkTree proof types user proof, leaf proof, node proof]] - paper - references/recursion/ch1/ref-21-zktree.pdf
+- [[When Not to Recurse (crossover heuristics)]] - document - recursion/recursion-outline.md
+- [[lean Ethereum (Justin Drake, EF blog)]] - document - references/recursion/ch1/ref-37-ethereum-lean-hash-based-sig-aggregation.md
+- [[zkBridge  deVirgo distributed proving via circuit splitting (Xie et al.)]] - paper - references/recursion/ch1/ref-21-zktree.pdf
+- [[zkTree costtime model gen time ~ log(n) node-proof times; comm cost n x proof size (~130KB)]] - paper - references/recursion/ch1/ref-21-zktree.pdf
+- [[zkTree zero-knowledge recursion tree with ZKP membership proofs]] - paper - references/recursion/ch1/ref-21-zktree.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -69,16 +74,31 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 6 edges to [[_COMMUNITY_Community 49]]
-- 5 edges to [[_COMMUNITY_Community 37]]
-- 2 edges to [[_COMMUNITY_Community 76]]
-- 1 edge to [[_COMMUNITY_Community 69]]
-- 1 edge to [[_COMMUNITY_Community 1]]
-- 1 edge to [[_COMMUNITY_Community 6]]
+- 11 edges to [[_COMMUNITY_Community 5]]
+- 4 edges to [[_COMMUNITY_Community 23]]
+- 3 edges to [[_COMMUNITY_Community 2]]
+- 2 edges to [[_COMMUNITY_Community 32]]
+- 2 edges to [[_COMMUNITY_Community 97]]
+- 2 edges to [[_COMMUNITY_Community 25]]
+- 2 edges to [[_COMMUNITY_Community 17]]
+- 2 edges to [[_COMMUNITY_Community 13]]
+- 2 edges to [[_COMMUNITY_Community 19]]
+- 2 edges to [[_COMMUNITY_Community 63]]
+- 1 edge to [[_COMMUNITY_Community 14]]
+- 1 edge to [[_COMMUNITY_Community 47]]
+- 1 edge to [[_COMMUNITY_Community 36]]
+- 1 edge to [[_COMMUNITY_Community 88]]
+- 1 edge to [[_COMMUNITY_Community 0]]
+- 1 edge to [[_COMMUNITY_Community 71]]
+- 1 edge to [[_COMMUNITY_Community 99]]
+- 1 edge to [[_COMMUNITY_Community 74]]
+- 1 edge to [[_COMMUNITY_Community 39]]
+- 1 edge to [[_COMMUNITY_Community 11]]
+- 1 edge to [[_COMMUNITY_Community 9]]
 
 ## Top bridge nodes
-- [[Regulation (EU) 20241183 establishing the European Digital Identity Framework (eIDAS 2)]] - degree 7, connects to 3 communities
-- [[Nullifier]] - degree 4, connects to 2 communities
-- [[EUDI Wallet (Art. 5a) user-controlled cross-border eID means]] - degree 15, connects to 1 community
-- [[Proof of Personhood]] - degree 8, connects to 1 community
-- [[World Whitepapers (World Network Proof of Human)]] - degree 6, connects to 1 community
+- [[Proof Aggregation]] - degree 27, connects to 11 communities
+- [[zkTree zero-knowledge recursion tree with ZKP membership proofs]] - degree 14, connects to 5 communities
+- [[SNARK proof aggregation]] - degree 6, connects to 3 communities
+- [[Recursive STARK proving]] - degree 7, connects to 2 communities
+- [[SHARP (SHARed Prover)]] - degree 4, connects to 2 communities

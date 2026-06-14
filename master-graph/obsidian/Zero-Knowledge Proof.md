@@ -1,46 +1,85 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 37"
+community: "Community 15"
 location: "Chapter 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_37
+  - community/Community_15
 ---
 
 # Zero-Knowledge Proof
 
 ## Connections
 - [[3-AES-invocation record revelation vs 1027 naive AES-in-ZKP, via CBC MAC-then-encrypt structure]] - `conceptually_related_to` [EXTRACTED]
+- [[Bulletproofs  Inner Product Argument]] - `defines` [EXTRACTED]
+- [[Cairo (StarkWare ZK-native ISA)]] - `relates_to` [EXTRACTED]
 - [[Cited Bulletproofs (transparent-setup ZK alternative to libsnark)]] - `conceptually_related_to` [EXTRACTED]
 - [[Cited libsnark zk-SNARK library (Ben-Sasson et al. proof system 18)]] - `conceptually_related_to` [EXTRACTED]
 - [[Coin-IDnullifier secret scheme (L=hash(s+1), U=hash(s+2))]] - `assumes` [EXTRACTED]
+- [[Commitment Scheme]] - `uses` [EXTRACTED]
 - [[Completeness]] - `defines` [EXTRACTED]
+- [[Computational Soundness]] - `relates_to` [EXTRACTED]
+- [[Constraint Compiler]] - `uses` [EXTRACTED]
 - [[Dual Merkle-branch ZK proof (into total coin-ID root R and association-set root R_A)]] - `assumes` [EXTRACTED]
 - [[Efficient selective opening of TLS records (RevealRedact modes) exploiting MAC-then-encrypt and Merkle-Damgard structure]] - `conceptually_related_to` [EXTRACTED]
+- [[FRI Commitment Scheme]] - `uses` [EXTRACTED]
 - [[Fortnow result NP-complete ZK proof implies poly hierarchy collapse]] - `conceptually_related_to` [EXTRACTED]
 - [[Goldwasser, Micali, Rackoff — Knowledge Complexity of Interactive Proof Systems (1985)]] - `introduces` [EXTRACTED]
+- [[Groth Short Pairing-Based NIZK]] - `defines` [EXTRACTED]
+- [[Groth16]] - `uses` [EXTRACTED]
 - [[Groth16 pairing-based zkSNARK (cited alternative proving system)]] - `conceptually_related_to` [EXTRACTED]
+- [[Homomorphic  Trapdoor Commitment Property]] - `defines` [EXTRACTED]
+- [[Ideal Linear Commitment]] - `uses` [EXTRACTED]
+- [[Interactive Oracle Proofs]] - `defines` [EXTRACTED]
+- [[Interactive Proof (IP) prover-verifier protocol with statistical soundness]] - `uses` [EXTRACTED]
 - [[Knowledge Complexity]] - `conceptually_related_to` [EXTRACTED]
+- [[LaBRADOR Proof System]] - `improves` [EXTRACTED]
+- [[Lattice Cryptography]] - `uses` [EXTRACTED]
+- [[Libra]] - `defines` [EXTRACTED]
+- [[Ligero]] - `defines` [EXTRACTED]
+- [[Lookup Argument]] - `uses` [EXTRACTED]
 - [[Midnight (Privacy Blockchain)]] - `references` [EXTRACTED]
+- [[Module Learning With Errors (MLWE)]] - `uses` [EXTRACTED]
+- [[Module-SIS  Module-LWE]] - `uses` [EXTRACTED]
+- [[Multiplicative Relation Proof]] - `relates_to` [EXTRACTED]
+- [[Non-Interactive Zero-Knowledge (NIZK)]] - `uses` [EXTRACTED]
 - [[On the Size of Pairing-Based Non-interactive Arguments]] - `conceptually_related_to` [EXTRACTED]
+- [[Orion]] - `defines` [EXTRACTED]
+- [[Pantry Verifiable Computation with State]] - `uses` [EXTRACTED]
 - [[Perfect  Statistical  Computational Zero-Knowledge]] - `defines` [EXTRACTED]
 - [[Perfect zero-knowledge proof for QR (Theorem 1)]] - `proves` [EXTRACTED]
 - [[PoH authentication unlinkable pseudonymity via self-custody + ZKP against a public registry, plus a person-bound second factor (Face Auth) with periodic reauthentication]] - `assumes` [EXTRACTED]
+- [[Polynomial Commitment Scheme]] - `uses` [EXTRACTED]
+- [[Post-quantum security (against quantum adversaries; security in the QROM)]] - `relates_to` [EXTRACTED]
+- [[Power-of-Two Cyclotomic Ring ZX(Xd+1)]] - `uses` [EXTRACTED]
+- [[Privacy-Preserving Proof]] - `uses` [EXTRACTED]
 - [[Privacy-preserving  no-tracking technical framework (Art. 5a(16))]] - `assumes` [INFERRED]
+- [[Private State Blockchain]] - `uses` [EXTRACTED]
+- [[Progression-Free Sets NIZK]] - `defines` [EXTRACTED]
+- [[Proof of Personhood]] - `enables` [EXTRACTED]
 - [[Proof of correct model execution]] - `conceptually_related_to` [EXTRACTED]
+- [[Prover Efficiency]] - `defines` [EXTRACTED]
 - [[Prover and Verifier]] - `conceptually_related_to` [EXTRACTED]
 - [[Regulation (EU) 20241183 establishing the European Digital Identity Framework (eIDAS 2)]] - `references` [EXTRACTED]
+- [[Ring-LWE]] - `uses` [EXTRACTED]
+- [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `related_to` [EXTRACTED]
+- [[STARK]] - `uses` [EXTRACTED]
 - [[Scalable, Transparent, and Post-Quantum Secure Computational Integrity]] - `conceptually_related_to` [EXTRACTED]
 - [[Selective Disclosure]] - `conceptually_related_to` [INFERRED]
 - [[Semaphore generic open-source zk-SNARK group-membership and signaling protocol for Ethereum (Groth16-verifiable)]] - `assumes` [EXTRACTED]
-- [[Sigma protocol (public-coin 3-move)]] - `conceptually_related_to` [EXTRACTED]
+- [[Short Norm Proof]] - `defines` [EXTRACTED]
+- [[Sigma protocol (public-coin 3-move)]] - `defines` [EXTRACTED]
 - [[Simulator  Simulation paradigm (expected poly-time M, View_{A,B})]] - `defines` [EXTRACTED]
+- [[Smart Contract]] - `uses` [EXTRACTED]
 - [[SoK What Don't We Know Understanding Security Vulnerabilities in SNARKs]] - `conceptually_related_to` [EXTRACTED]
 - [[Soundness]] - `defines` [EXTRACTED]
 - [[Spartan transparent zkSNARK without trusted setup (final proof compression wrapper)]] - `conceptually_related_to` [EXTRACTED]
 - [[Statistical zero-knowledge proof for QNR]] - `proves` [EXTRACTED]
+- [[Succinct Argument]] - `relates_to` [EXTRACTED]
+- [[Succinct Non-interactive Argument (SNARG)]] - `relates_to` [EXTRACTED]
+- [[Sum-Check Protocol]] - `improves` [EXTRACTED]
 - [[The Decision Matrix]] - `conceptually_related_to` [EXTRACTED]
 - [[The Four Pillars]] - `conceptually_related_to` [EXTRACTED]
 - [[The Incomplete Stack]] - `conceptually_related_to` [EXTRACTED]
@@ -50,12 +89,17 @@ tags:
 - [[Theorem 1 proof-of-assets Sigma-protocol is HVZK argument of knowledge]] - `conceptually_related_to` [EXTRACTED]
 - [[Three Kinds of Security]] - `conceptually_related_to` [EXTRACTED]
 - [[Three demo applications confidential binary option, legacy-to-anonymous age credential, price-discrimination claim]] - `conceptually_related_to` [EXTRACTED]
+- [[TinyRAM]] - `uses` [EXTRACTED]
 - [[Tornado Cash]] - `assumes` [EXTRACTED]
 - [[Trust-Minimization Thesis (decompose, not eliminate trust)]] - `explains` [EXTRACTED]
 - [[Unlinkability]] - `conceptually_related_to` [INFERRED]
 - [[VeriSBOM trustless, selectively-disclosed verifiable SBOM-sharing framework via ZKPs]] - `assumes` [EXTRACTED]
+- [[Verifiable State Machine]] - `uses` [EXTRACTED]
+- [[Verifiable computation]] - `uses` [EXTRACTED]
+- [[Virgo ZKP System]] - `defines` [EXTRACTED]
 - [[ZKML (Zero-Knowledge Machine Learning)]] - `references` [EXTRACTED]
 - [[Zero-knowledge two-stage parsing scheme local pre-process (Trans) then prove context integrity on shorter transformed string]] - `conceptually_related_to` [EXTRACTED]
+- [[Zerocash]] - `uses` [EXTRACTED]
 - [[zKYC (Zero-Knowledge Know Your Customer)]] - `implements` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_37
+#graphify/document #graphify/EXTRACTED #community/Community_15

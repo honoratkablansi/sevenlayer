@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch08/ref-27-l2beat-stages.md"
 type: "document"
-community: "Community 17"
+community: "Community 71"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_17
+  - community/Community_71
 ---
 
 # L2BEAT Stages Framework for L2 Maturity
@@ -21,4 +21,4 @@ tags:
 - [[Vitalik Buterin]] - `references` [EXTRACTED]
 - [[ZK Rollup]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_17
+#graphify/document #graphify/EXTRACTED #community/Community_71

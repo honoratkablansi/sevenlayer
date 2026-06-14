@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 28"
+community: "Community 18"
 location: "Chapter 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_28
+  - community/Community_18
 ---
 
 # Lattice-Based Cryptography
@@ -24,4 +24,4 @@ tags:
 - [[Quantum Shelf Life & Option Value]] - `references` [EXTRACTED]
 - [[Short Integer Solutions (SIS) Assumption]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_28
+#graphify/document #graphify/EXTRACTED #community/Community_18

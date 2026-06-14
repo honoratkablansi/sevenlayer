@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-61-arguzz.pdf"
 type: "document"
-community: "Community 19"
+community: "Community 92"
 location: "Section 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_19
+  - community/Community_92
 ---
 
 # Metamorphic Testing
@@ -17,4 +17,4 @@ tags:
 - [[Efficient metamorphic-testing variant known expected output, k-safety, single padded trace]] - `conceptually_related_to` [EXTRACTED]
 - [[MTZK 43 metamorphic testing of zero-knowledge compilers]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_19
+#graphify/document #graphify/EXTRACTED #community/Community_92

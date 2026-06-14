@@ -1,26 +1,26 @@
 ---
 type: community
-cohesion: 0.22
+cohesion: 0.20
 members: 11
 ---
 
 # Community 104
 
-**Cohesion:** 0.22 - loosely connected
+**Cohesion:** 0.20 - loosely connected
 **Members:** 11 nodes
 
 ## Members
-- [[Augmented Function F' (verifier circuit folding step)]] - paper - references/ch06/ref-17-nova.pdf
-- [[Constant Recursion Overhead (~10,000 R1CS constraints, two scalar mults)]] - paper - references/ch06/ref-17-nova.pdf
-- [[Folding Scheme for Committed Relaxed R1CS (Construction 1)]] - paper - references/ch06/ref-17-nova.pdf
-- [[Forking Lemma for Folding Schemes (Lemma 1)]] - paper - references/ch06/ref-17-nova.pdf
-- [[Non-Interactive Folding Scheme via Fiat-Shamir (Construction 2)]] - paper - references/ch06/ref-17-nova.pdf
-- [[Nova IVC Knowledge Soundness (Lemma 3  Lemma 10)]] - paper - references/ch06/ref-17-nova.pdf
-- [[Nova IVC Scheme (Construction 3)]] - paper - references/ch06/ref-17-nova.pdf
-- [[Polynomial IOP for Idealized Relaxed R1CS (Construction 5)]] - paper - references/ch06/ref-17-nova.pdf
-- [[Theorem 3 Folding Scheme Completeness, Knowledge Soundness, ZK]] - paper - references/ch06/ref-17-nova.pdf
-- [[zkSNARK for Committed Relaxed R1CS (adapted Spartan)]] - paper - references/ch06/ref-17-nova.pdf
-- [[zkSNARK of a Valid IVC Proof (Construction 4)]] - paper - references/ch06/ref-17-nova.pdf
+- [[ADOPT ceremony desiderata Available, Decentralized, Open, Persistent, Transparent]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
+- [[Ceremony attackfailure modes malicious abort, biased coordinator randomness, lost transcripts, software bugs, weak BN254 base point]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
+- [[Ethereum KZG ceremony (141416 contributors, 10 implementations, model transparency example)]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
+- [[MMORPG framework (Massively Multiparty Open Reusable Parameter Generation; two-phase Groth16 setup)]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
+- [[Perpetual Powers-of-Tau (PPOT) ceremony (Semaphore, BN254, 228, fluid continuous participation)]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
+- [[Pre-commitment layer defending against adaptive bias of contribution tau_j]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
+- [[Random Beacon Model]] - document - references/ch02/ref-05-mpc-random-beacon.pdf
+- [[Six ceremony best-practice lessons (multi impl + audit, diverse participation, air-gapped machines, geographic isolation, diverse randomness, public verifiable log)]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
+- [[Snarky Ceremonies (relaxed-security MMORPG variant; no random beacon needed)]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
+- [[Survey of 40+ real-world ceremonies (Aleo, Aztec, Filecoin, Hermez, Ethereum KZG, Manta, ZKSync, etc.)]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
+- [[Surveyed setup protocols (BCDTV15, BGG17, BGM17, KMSV21, KKK21, CDKS22, NRBB22)]] - paper - references/ch02/ref-10-sok-powers-of-tau.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -30,15 +30,16 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 3 edges to [[_COMMUNITY_Community 16]]
-- 2 edges to [[_COMMUNITY_Community 96]]
-- 2 edges to [[_COMMUNITY_Community 32]]
-- 1 edge to [[_COMMUNITY_Community 61]]
-- 1 edge to [[_COMMUNITY_Community 18]]
+- 9 edges to [[_COMMUNITY_Community 5]]
+- 3 edges to [[_COMMUNITY_Community 67]]
+- 2 edges to [[_COMMUNITY_Community 61]]
+- 2 edges to [[_COMMUNITY_Community 112]]
+- 1 edge to [[_COMMUNITY_Community 87]]
+- 1 edge to [[_COMMUNITY_Community 4]]
 
 ## Top bridge nodes
-- [[Nova IVC Scheme (Construction 3)]] - degree 7, connects to 2 communities
-- [[Folding Scheme for Committed Relaxed R1CS (Construction 1)]] - degree 4, connects to 2 communities
-- [[zkSNARK for Committed Relaxed R1CS (adapted Spartan)]] - degree 4, connects to 2 communities
-- [[Non-Interactive Folding Scheme via Fiat-Shamir (Construction 2)]] - degree 4, connects to 1 community
-- [[Forking Lemma for Folding Schemes (Lemma 1)]] - degree 2, connects to 1 community
+- [[Random Beacon Model]] - degree 7, connects to 4 communities
+- [[MMORPG framework (Massively Multiparty Open Reusable Parameter Generation; two-phase Groth16 setup)]] - degree 9, connects to 3 communities
+- [[Survey of 40+ real-world ceremonies (Aleo, Aztec, Filecoin, Hermez, Ethereum KZG, Manta, ZKSync, etc.)]] - degree 4, connects to 2 communities
+- [[ADOPT ceremony desiderata Available, Decentralized, Open, Persistent, Transparent]] - degree 3, connects to 2 communities
+- [[Six ceremony best-practice lessons (multi impl + audit, diverse participation, air-gapped machines, geographic isolation, diverse randomness, public verifiable log)]] - degree 3, connects to 1 community

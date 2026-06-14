@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 7"
+community: "Community 88"
 location: "Chapter 11"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_7
+  - community/Community_88
 ---
 
 # zkVM Cost Collapse (~10x/year)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[zkVM]] - `explains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_7
+#graphify/document #graphify/EXTRACTED #community/Community_88

@@ -1,43 +1,43 @@
 ---
 type: community
-cohesion: 0.12
+cohesion: 0.09
 members: 28
 ---
 
 # Community 23
 
-**Cohesion:** 0.12 - loosely connected
+**Cohesion:** 0.09 - loosely connected
 **Members:** 28 nodes
 
 ## Members
-- [[Atomic Accumulation]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
-- [[Bivariate polynomial identity batching n Hadamard products to 1 via two-round public-coin reduction]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[Constant-size accumulation verifier (O(1) groupfield ops, improving log-size verifier of BCMS20)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[Corollary any NARK with split accumulation bootstraps into a SNARK for machine computations (via PCD + BCCT13)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[Discrete Logarithm Assumption]] - document - references/ch02/ref-09-bulletproofs.pdf
-- [[First construction of PCD without succinct arguments (linear-size NARKs suffice)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[Lemma 6.1 expected-time forking lemma in the ROM (polynomially many transcripts, expected-time adversaries)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[NARK for R1CS from Fiat-Shamir over a Pedersen-commitment sigma protocol (linear argument size)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[Non-interactive argument of knowledge (NARK)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[Proof-Carrying Data without Succinct Arguments (Bunz, Chiesa, Lin, Mishra, Spooner, CRYPTO 2021  ePrint 20201618)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[Recursion circuit via split accumulation (IVCPCD prover recurses only on instance parts of proofaccumulator)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[Rust implementation + evaluation recursion threshold ~52,000 constraints, =8.5x cheaper than atomic-accumulation IVC on Pasta cycle]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[Split Accumulation]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
-- [[Theorem 1  5.3 compile any NARK with a split accumulation scheme into a PCD scheme (no oracles, CRS model)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[Theorem 2 transparent zkNARK for R1CS with constant-size split accumulation verifier in ROM under DL]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[Theorem 3  7.2 zero-knowledge split accumulation for the Hadamard-product predicate under Pedersen commitments (5 G opsclaim)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[Theorem 4  A.2 split accumulation for a Pedersen-based polynomial commitment predicate (ROM, DL)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[Zero-finding game lemma (expected-time variant of BCMS20 Lemma A.3) for polynomial-identity testing via RO commitments]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[BBBPWM18 Bunz, Bootle, Boneh, Poelstra, Wuille, Maxwell, Bulletproofs Short Proofs for Confidential Transactions and More (S&P 2018)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[BCCGP16 Bootle, Cerulli, Chaidos, Groth, Petit, Efficient Zero-Knowledge Arguments in the Discrete Log Setting (EUROCRYPT 2016)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[BCCT13 Bitansky, Canetti, Chiesa, Tromer, Recursive Composition and Bootstrapping for SNARKs and PCD (STOC 2013)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[BCMS20 Bunz, Chiesa, Mishra, Spooner, Proof-Carrying Data from Accumulation Schemes (TCC 2020)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[BCTV14 Ben-Sasson, Chiesa, Tromer, Virza, Scalable Zero Knowledge via Cycles of Elliptic Curves (CRYPTO 2014)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[BDFG20 Boneh, Drake, Fisch, Gabizon, Halo Infinite Recursive zk-SNARKs from any Additive Polynomial Commitment Scheme (ePrint 20201536, concurrent work)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[BGH19 Bowe, Grigg, Hopwood, Halo Recursive Proof Composition without a Trusted Setup (ePrint 20191021)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[BN06 Bellare, Neven, Multi-signatures in the plain public-key model and a general forking lemma (CCS 2006)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[COS20 Chiesa, Ojha, Spooner, Fractal Post-Quantum and Transparent Recursive Proofs from Holography (EUROCRYPT 2020)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[Val08 Valiant, Incrementally Verifiable Computation or Proofs of Knowledge Imply TimeSpace Efficiency (TCC 2008)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
+- [[Accessible exposition of Novafolding]] - document - references/recursion/ch2/ref-50-veridise-nova-series.md
+- [[Bitansky, Canetti, Chiesa, Tromer, Recursive composition and bootstrapping for SNARKs and proof-carrying data (STOC 2013) 9]] - paper - references/recursion/ch3/ref-77-photoproof.pdf
+- [[Bunz, Chiesa, Lin, Mishra, Spooner — Proof-carrying data without succinct arguments (CRYPTO 2021) 2]] - paper - references/recursion/ch1/ref-32-nguyen-boneh-setty-nova-cycle.pdf
+- [[Canetti-Goldreich-Halevi CGH04 The random oracle methodology, revisited - RO-uninstantiable primitives; diagonalization basis of attack]] - paper - references/recursion/ch1/ref-11-khovratovich-fiat-shamir-attacks.pdf
+- [[Diagonalization-based uninstantiability craft a self-referential prover message yielding a favorable verifier challenge (CGH04 lineage; Kleene recursion  quines)]] - paper - references/recursion/ch1/ref-11-khovratovich-fiat-shamir-attacks.pdf
+- [[Extractor Blowup with Recursion Depth]] - document - recursion/recursion-outline.md
+- [[Fractal Post-quantum and Transparent Recursive Proofs from Holography (Chiesa-Ojha-Spooner, EUROCRYPT 2020) 45]] - paper - references/recursion/ch3/ref-59-zkbridge.pdf
+- [[Goldwasser-Kalai-Rothblum GKR15 Delegating computation interactive proofs for Muggles - the GKR protocol]] - paper - references/recursion/ch1/ref-11-khovratovich-fiat-shamir-attacks.pdf
+- [[Historical Arc of Recursion (2008-2026)]] - document - recursion/recursion-outline.md
+- [[Khovratovich-Rothblum-Soukhanov How to Prove False Statements - Practical Attacks on Fiat-Shamir (ePrint 2025118)]] - paper - references/recursion/ch1/ref-11-khovratovich-fiat-shamir-attacks.pdf
+- [[Midnight Sealed Certificate (Case Study)]] - document - proving-nothing.md
+- [[Multilinear polynomial commitment scheme (MLPCS) short commitment to a multilinear polynomial with succinct evaluation proofs]] - paper - references/recursion/ch1/ref-11-khovratovich-fiat-shamir-attacks.pdf
+- [[Plonky2]] - document - recursion/recursion-outline.md
+- [[Plonky2 Fast Recursive Arguments with PLONK and FRI (2022)]] - document - references/recursion/ch1/ref-07-plonky2.md
+- [[Polygon Zero]] - document - references/recursion/ch1/ref-07-plonky2.md
+- [[Polyhedra Network Expander Pol24 - deployed GKR-based system affected; authors notified designers, mitigations introduced]] - paper - references/recursion/ch1/ref-11-khovratovich-fiat-shamir-attacks.pdf
+- [[Prior FS uninstantiability counterexamples Barak Bar01, Goldwasser-Kalai GK03, and Bartusek et al. BBH+19 On the (in)security of Kilian-based SNARGs]] - paper - references/recursion/ch1/ref-11-khovratovich-fiat-shamir-attacks.pdf
+- [[Protocol Pi_{comm,d} GKR + MLPCS succinct argument for non-deterministic depth-d circuit C(x,w)=y; FS-compiled as FS_h(Pi_{comm,d}); challenge r=h(C,x,y,alpha)]] - paper - references/recursion/ch1/ref-11-khovratovich-fiat-shamir-attacks.pdf
+- [[Recursion Shifts Cost, It Doesn't Eliminate It]] - document - recursion/recursion-outline.md
+- [[Recursion via cycles of elliptic curves (Ben-Sasson et al.)]] - paper - references/recursion/ch1/ref-21-zktree.pdf
+- [[Recursive Proof Composition]] - paper - references/ch06/ref-17-nova.pdf
+- [[Recursive composition prior work Valiant Val08 IVC, Bitansky-Canetti-Chiesa-Tromer BCCT13 PCD, Ben-Sasson-Chiesa-Tromer-Virza BCTV14 cycles of elliptic curves]] - paper - references/recursion/ch1/ref-11-khovratovich-fiat-shamir-attacks.pdf
+- [[STARK-to-SNARK Recursion]] - document - references/recursion/ch1/ref-17-polygon-zkevm-docs.md
+- [[Theorem 10 (informal) universal GKR circuit unsound for any additively-homomorphic commitment (EC or lattice) since comm(w)=comm(wC)+comm(win); also batched FRI]] - paper - references/recursion/ch1/ref-11-khovratovich-fiat-shamir-attacks.pdf
+- [[Theorem 9 family T'(N,M) unsound for any commitment with sub-input-size code and any hash; uses an f-quine (Lemma 8, p=f+c via Kleene recursion) passed as witness; commitment-independent]] - paper - references/recursion/ch1/ref-11-khovratovich-fiat-shamir-attacks.pdf
+- [[Universal Computation Attack (§4) fixed circuits independent of crypto primitives via universal Turing machine circuit and quines; violates non-adaptive soundness]] - paper - references/recursion/ch1/ref-11-khovratovich-fiat-shamir-attacks.pdf
+- [[Valiant — Incrementally verifiable computation (TCC 2008) 18]] - paper - references/recursion/ch1/ref-32-nguyen-boneh-setty-nova-cycle.pdf
+- [[Veridise Nova explainer series (Breaking Down the Nova Recursive SNARK)]] - document - references/recursion/ch2/ref-50-veridise-nova-series.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -47,28 +47,49 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 5 edges to [[_COMMUNITY_Community 0]]
-- 4 edges to [[_COMMUNITY_Community 82]]
-- 3 edges to [[_COMMUNITY_Community 20]]
-- 3 edges to [[_COMMUNITY_Community 60]]
-- 2 edges to [[_COMMUNITY_Community 11]]
-- 2 edges to [[_COMMUNITY_Community 61]]
-- 2 edges to [[_COMMUNITY_Community 92]]
+- 7 edges to [[_COMMUNITY_Community 9]]
+- 6 edges to [[_COMMUNITY_Community 1]]
+- 6 edges to [[_COMMUNITY_Community 25]]
+- 5 edges to [[_COMMUNITY_Community 6]]
+- 5 edges to [[_COMMUNITY_Community 53]]
+- 4 edges to [[_COMMUNITY_Community 3]]
+- 4 edges to [[_COMMUNITY_Community 68]]
+- 4 edges to [[_COMMUNITY_Community 51]]
+- 4 edges to [[_COMMUNITY_Community 124]]
+- 3 edges to [[_COMMUNITY_Community 37]]
+- 3 edges to [[_COMMUNITY_Community 62]]
+- 3 edges to [[_COMMUNITY_Community 75]]
+- 3 edges to [[_COMMUNITY_Community 101]]
+- 3 edges to [[_COMMUNITY_Community 65]]
+- 3 edges to [[_COMMUNITY_Community 74]]
+- 3 edges to [[_COMMUNITY_Community 55]]
+- 3 edges to [[_COMMUNITY_Community 43]]
+- 2 edges to [[_COMMUNITY_Community 2]]
 - 2 edges to [[_COMMUNITY_Community 13]]
-- 2 edges to [[_COMMUNITY_Community 33]]
-- 2 edges to [[_COMMUNITY_Community 14]]
-- 1 edge to [[_COMMUNITY_Community 45]]
-- 1 edge to [[_COMMUNITY_Community 96]]
-- 1 edge to [[_COMMUNITY_Community 40]]
-- 1 edge to [[_COMMUNITY_Community 116]]
-- 1 edge to [[_COMMUNITY_Community 109]]
-- 1 edge to [[_COMMUNITY_Community 51]]
-- 1 edge to [[_COMMUNITY_Community 100]]
-- 1 edge to [[_COMMUNITY_Community 25]]
+- 2 edges to [[_COMMUNITY_Community 125]]
+- 2 edges to [[_COMMUNITY_Community 38]]
+- 2 edges to [[_COMMUNITY_Community 85]]
+- 1 edge to [[_COMMUNITY_Community 22]]
+- 1 edge to [[_COMMUNITY_Community 32]]
+- 1 edge to [[_COMMUNITY_Community 14]]
+- 1 edge to [[_COMMUNITY_Community 5]]
+- 1 edge to [[_COMMUNITY_Community 122]]
+- 1 edge to [[_COMMUNITY_Community 18]]
+- 1 edge to [[_COMMUNITY_Community 88]]
+- 1 edge to [[_COMMUNITY_Community 39]]
+- 1 edge to [[_COMMUNITY_Community 79]]
+- 1 edge to [[_COMMUNITY_Community 11]]
+- 1 edge to [[_COMMUNITY_Community 7]]
+- 1 edge to [[_COMMUNITY_Community 28]]
+- 1 edge to [[_COMMUNITY_Community 33]]
+- 1 edge to [[_COMMUNITY_Community 83]]
+- 1 edge to [[_COMMUNITY_Community 135]]
+- 1 edge to [[_COMMUNITY_Community 16]]
+- 1 edge to [[_COMMUNITY_Community 19]]
 
 ## Top bridge nodes
-- [[Discrete Logarithm Assumption]] - degree 13, connects to 7 communities
-- [[NARK for R1CS from Fiat-Shamir over a Pedersen-commitment sigma protocol (linear argument size)]] - degree 6, connects to 4 communities
-- [[Theorem 2 transparent zkNARK for R1CS with constant-size split accumulation verifier in ROM under DL]] - degree 8, connects to 2 communities
-- [[Lemma 6.1 expected-time forking lemma in the ROM (polynomially many transcripts, expected-time adversaries)]] - degree 6, connects to 2 communities
-- [[Rust implementation + evaluation recursion threshold ~52,000 constraints, =8.5x cheaper than atomic-accumulation IVC on Pasta cycle]] - degree 4, connects to 2 communities
+- [[Recursive Proof Composition]] - degree 81, connects to 32 communities
+- [[Plonky2]] - degree 8, connects to 4 communities
+- [[Historical Arc of Recursion (2008-2026)]] - degree 6, connects to 4 communities
+- [[STARK-to-SNARK Recursion]] - degree 5, connects to 4 communities
+- [[Khovratovich-Rothblum-Soukhanov How to Prove False Statements - Practical Attacks on Fiat-Shamir (ePrint 2025118)]] - degree 12, connects to 3 communities

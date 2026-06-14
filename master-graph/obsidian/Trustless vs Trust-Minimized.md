@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 97"
+community: "Community 122"
 location: "Chapter 10"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_97
+  - community/Community_122
 ---
 
 # Trustless vs Trust-Minimized
@@ -15,4 +15,4 @@ tags:
 - [[Three Paths, Not Two (Synthesis)]] - `conceptually_related_to` [EXTRACTED]
 - [[Trust Decomposition Seven Weaker Assumptions]] - `explains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_97
+#graphify/document #graphify/EXTRACTED #community/Community_122

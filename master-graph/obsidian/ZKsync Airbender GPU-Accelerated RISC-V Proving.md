@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch10/ref-53-airbender.md"
 type: "document"
-community: "Community 7"
+community: "Community 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_7
+  - community/Community_2
 ---
 
 # ZKsync Airbender: GPU-Accelerated RISC-V Proving
@@ -20,4 +20,4 @@ tags:
 - [[zkVM]] - `implements` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_7
+#graphify/document #graphify/EXTRACTED #community/Community_2

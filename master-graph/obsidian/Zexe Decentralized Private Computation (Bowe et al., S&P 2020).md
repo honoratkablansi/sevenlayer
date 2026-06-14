@@ -1,12 +1,12 @@
 ---
 source_file: "recursion/recursion-outline.md"
 type: "document"
-community: "Community 20"
+community: "Community 9"
 location: "Recursion Chapter 3"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_20
+  - community/Community_9
 ---
 
 # Zexe: Decentralized Private Computation (Bowe et al., S&P 2020)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Private multi-party applications  autonomous worlds]] - `cites` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_20
+#graphify/document #graphify/EXTRACTED #community/Community_9

@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-90-zexe.pdf"
 type: "paper"
-community: "Community 44"
+community: "Community 43"
 location: "Def. 3.1; §4; App. A"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_44
+  - community/Community_43
 ---
 
 # DPC security: construction realizes F_DPC under simulation-extractable NIZK (proof in App. A)
@@ -16,4 +16,4 @@ tags:
 - [[Ideal functionality F_DPC capturing DPC security (UC-style, single execution)]] - `proves` [EXTRACTED]
 - [[Zexe a ledger-based system for decentralized private computation]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_44
+#graphify/paper #graphify/EXTRACTED #community/Community_43

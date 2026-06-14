@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 11"
+community: "Community 1"
 location: "Chapter 5"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_11
+  - community/Community_1
 ---
 
 # Claim: R1CS, AIR, PLONKish Are Dialects of CCS
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[CCS (Customizable Constraint Systems)]] - `explains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_11
+#graphify/document #graphify/EXTRACTED #community/Community_1

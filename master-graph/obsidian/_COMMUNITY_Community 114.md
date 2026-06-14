@@ -1,23 +1,25 @@
 ---
 type: community
-cohesion: 0.32
-members: 8
+cohesion: 0.29
+members: 10
 ---
 
 # Community 114
 
-**Cohesion:** 0.32 - loosely connected
-**Members:** 8 nodes
+**Cohesion:** 0.29 - loosely connected
+**Members:** 10 nodes
 
 ## Members
-- [[2016 Ethereum Shanghai  EIP-150 underpriced-opcode DoS precedent]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Amplified finality-delay attack (1.45x-2.73x over direct L1 blob-stuffing)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[DA-saturation DoS sustained L2 liveness halt at 0.8-2.7 ETHhour]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[DA-saturation attack (data-heavy compute-light tx flooding L1 blob capacity)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Direct economic damage attack (drains rollup vault via Ctx amortization, $11,172h on Scroll)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Empirical evaluation on Scroll, Linea, zkSync Era, Arbitrum, Optimism, Base]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Reactive mitigations tx size limits, dynamic fee scalars, aggressive tx filtering]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Threat model budget-bounded L2 user; liveness, finality, economic-safety objectives]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[Algebraic-attack security interpolation and Groebner-basis attacks dominate; degree D_alpha(r) = alphar; round bounds derived from degree-of-regularity  monomial-count estimates (Eq. 3,4,10)]] - paper - references/recursion/ch1/ref-31-poseidon.pdf
+- [[Cited attack work KR21 (Mind the Middle Layer) and BCD+20 (Out of Oddity) - linear-layersubspace attacks motivating the new MDS assumption; ABM23 algebraic cryptanalysis of Poseidon]] - paper - references/recursion/ch1/ref-31-poseidon.pdf
+- [[Cited prior work HADES design strategy  HADESMiMC GLR+20 - the keyed SPN family Poseidon-pi instantiates]] - paper - references/recursion/ch1/ref-31-poseidon.pdf
+- [[Cited prior work wide trail design strategy DR01  AES DR02 - basis for full-round statistical security]] - paper - references/recursion/ch1/ref-31-poseidon.pdf
+- [[Full rounds (RF = 2Rf) t S-boxes applied to full state; protect against statistical attacks via wide trail strategy]] - paper - references/recursion/ch1/ref-31-poseidon.pdf
+- [[HADES design strategy mix RF full-S-box rounds (outer) with RP partial-S-box rounds (middle), one S-box in partial rounds]] - paper - references/recursion/ch1/ref-31-poseidon.pdf
+- [[Linear-layer assumption fix choosing the MDS matrix to forbid infinite subspace trails blocks the S(i)-subspace Groebner attack of KR21,BCD+20]] - paper - references/recursion/ch1/ref-31-poseidon.pdf
+- [[MixLayer t-by-t MDS (Cauchy) matrix linear layer realizing wide trail strategy; matrix chosen to block infinite subspace trails]] - paper - references/recursion/ch1/ref-31-poseidon.pdf
+- [[Partial rounds (RP) single S-box plus (t-1) identity functions; cheap way to raise algebraic degree, reduce R1CSAET cost]] - paper - references/recursion/ch1/ref-31-poseidon.pdf
+- [[Round-number selection choose minimal RF (=6) for statistical attacks, minimize tRF+RP subject to algebraic-attack bounds, plus margin (+2 RF, +7.5% RP)]] - paper - references/recursion/ch1/ref-31-poseidon.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -27,11 +29,12 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 4 edges to [[_COMMUNITY_Community 73]]
-- 2 edges to [[_COMMUNITY_Community 111]]
-- 1 edge to [[_COMMUNITY_Community 67]]
+- 4 edges to [[_COMMUNITY_Community 120]]
+- 1 edge to [[_COMMUNITY_Community 101]]
 
 ## Top bridge nodes
-- [[DA-saturation attack (data-heavy compute-light tx flooding L1 blob capacity)]] - degree 10, connects to 2 communities
-- [[Empirical evaluation on Scroll, Linea, zkSync Era, Arbitrum, Optimism, Base]] - degree 4, connects to 1 community
-- [[Threat model budget-bounded L2 user; liveness, finality, economic-safety objectives]] - degree 2, connects to 1 community
+- [[Full rounds (RF = 2Rf) t S-boxes applied to full state; protect against statistical attacks via wide trail strategy]] - degree 5, connects to 1 community
+- [[Partial rounds (RP) single S-box plus (t-1) identity functions; cheap way to raise algebraic degree, reduce R1CSAET cost]] - degree 5, connects to 1 community
+- [[HADES design strategy mix RF full-S-box rounds (outer) with RP partial-S-box rounds (middle), one S-box in partial rounds]] - degree 4, connects to 1 community
+- [[Round-number selection choose minimal RF (=6) for statistical attacks, minimize tRF+RP subject to algebraic-attack bounds, plus margin (+2 RF, +7.5% RP)]] - degree 4, connects to 1 community
+- [[MixLayer t-by-t MDS (Cauchy) matrix linear layer realizing wide trail strategy; matrix chosen to block infinite subspace trails]] - degree 3, connects to 1 community

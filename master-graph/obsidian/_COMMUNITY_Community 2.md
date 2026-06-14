@@ -1,68 +1,74 @@
 ---
 type: community
-cohesion: 0.05
-members: 53
+cohesion: 0.12
+members: 59
 ---
 
 # Community 2
 
-**Cohesion:** 0.05 - loosely connected
-**Members:** 53 nodes
+**Cohesion:** 0.12 - loosely connected
+**Members:** 59 nodes
 
 ## Members
-- [[6 previously-unknown vulnerabilities discovered (BigMod, IsPositive, ed25519-circom etc.)]] - paper - references/ch10/ref-35-coda.pdf
-- [[Arithmetic Circuit]] - document - proving-nothing.md
-- [[Automated Detection of Under-Constrained Circuits in Zero-Knowledge Proofs]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
-- [[BigLessThan motivating example (Circom bug at line 32)]] - paper - references/ch10/ref-35-coda.pdf
-- [[Certifying Zero-Knowledge Circuits with Refinement Types]] - paper - references/ch10/ref-35-coda.pdf
-- [[CirC Compiler Infrastructure]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
-- [[Circom]] - document - proving-nothing.md
-- [[Circomlib Decoder Underconstrained Bug (motivating example)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
-- [[Coda compiler partial evaluation to R1CS constraints]] - paper - references/ch10/ref-35-coda.pdf
-- [[Coda domain-specific Coq tactic library (F_to_Z, overflow, split_sum, switch_sum, reduce_sum, ind)]] - paper - references/ch10/ref-35-coda.pdf
-- [[Coda refinement type system {nuT  phi}]] - paper - references/ch10/ref-35-coda.pdf
-- [[Coda type-checking rules (circuit, expression, subtyping judgments)]] - paper - references/ch10/ref-35-coda.pdf
-- [[Coda verified higher-order library (branching, zip, array aggregates)]] - paper - references/ch10/ref-35-coda.pdf
-- [[Coda statically-typed functional DSL for ZK circuits]] - paper - references/ch10/ref-35-coda.pdf
-- [[Constrained Circuit (Definition 4.6)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
-- [[Constrained Variable (Definition 4.4)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
-- [[Coq Proof Assistant]] - document - references/ch10/ref-35-coda.pdf
-- [[Coq lemma generation for proof obligations]] - paper - references/ch10/ref-35-coda.pdf
-- [[EdwardsToMontgomery Underconstrained Bug]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
-- [[Evaluation 77 circuits from 9 Circom projects, 66 verified]] - paper - references/ch10/ref-35-coda.pdf
-- [[Existentially Quantified Circuit (EQC)]] - paper - references/ch10/ref-33-circ.pdf
-- [[Fiat-Crypto finite-field formalization library]] - paper - references/ch10/ref-35-coda.pdf
-- [[Liquid  logically-qualified data types (SMT-discharged)]] - paper - references/ch10/ref-35-coda.pdf
-- [[Non-determinism (star) and assertion semantics encoding relations]] - paper - references/ch10/ref-35-coda.pdf
-- [[Pailoor et al., PicusQED2 Automated Detection of Under-Constrained Circuits, PLDI 2023]] - document - proving-nothing.md
-- [[Practical Security Analysis of Zero-Knowledge Proof Circuits]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
-- [[RISC Zero CVE-2025-52484 (rs1rs2 confusion)]] - document - proving-nothing.md
-- [[Refinement Types]] - document - references/ch10/ref-35-coda.pdf
-- [[Root cause assigned but not constrained (signal given a value with no constraint)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
-- [[Root cause missing input constraints in reusable circuits]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
-- [[Root cause out-of-circuit computation not constrained (incl. boomerang issue)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
-- [[Root cause unsafe reuse of circuit (implicit sub-circuit constraints, insecure instantiation)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
-- [[Root cause wrong translation of logic into constraints (largest circuit root cause, 34)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
-- [[SMT solving over finite fields  large prime fields]] - paper - references/ch10/ref-35-coda.pdf
-- [[Scroll zkEVM LtChip missing range-check bug (Halo2 missing input constraint)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
-- [[Soundness and Completeness Bugs]] - document - proving-nothing.md
-- [[TSub-Refine subtyping rule (reduces type checking to logical validity)]] - paper - references/ch10/ref-35-coda.pdf
-- [[Takahashi et al., zkFuzz Fuzzing of Zero-Knowledge Circuits, IEEE S&P 2026]] - document - proving-nothing.md
-- [[Theorem 1 Expression Type Preservation (soundness)]] - paper - references/ch10/ref-35-coda.pdf
-- [[Theorem 2 Circuit Evaluation Type Preservation]] - paper - references/ch10/ref-35-coda.pdf
-- [[Tornado Cash Under-Constraint Bug]] - document - proving-nothing.md
-- [[Tornado Cash circomlib MiMC under-constrained bug (assigned-but-unconstrained output)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
-- [[TornadoCash Underconstrained Circuit Hack]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
-- [[Trustless threat model (attacker controls source, R1CS, prover, verifier; can swap proof)]] - paper - references/ch10/ref-35-coda.pdf
-- [[Under-Constrained Circuit  Missing Constraint]] - document - proving-nothing.md
-- [[Under-Constrained Circuits]] - document - proving-nothing.md
-- [[Verification-effort case study 60% shorter proofs vs shallow embedding]] - paper - references/ch10/ref-35-coda.pdf
-- [[Wen et al., ZKAP Practical Security Analysis of ZK Proof Circuits, USENIX Security 2024]] - document - proving-nothing.md
-- [[Xue et al., ZK-Coder LLMs for ZK Proof Code Generation, arXiv 2509.11708]] - document - proving-nothing.md
-- [[circom-pairing CoreVerifyPubkeyG1 unconstrained-output bug (unsafe sub-circuit reuse)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
-- [[iter combinator with annotated loop invariant]] - paper - references/ch10/ref-35-coda.pdf
-- [[zkFuzz (Takahashi, Kim et al., S&P 2026)]] - document - proving-nothing.md
-- [[zkSync Era MemoryWriteQuery Bug]] - document - proving-nothing.md
+- [[Airbender]] - document - wiki/chapters/05-encoding-the-performance.md
+- [[BN254 (alt_bn128) Curve]] - document - proving-nothing.md
+- [[BabyBear]] - document - wiki/concepts/babybear.md
+- [[BabyBear Field]] - document - proving-nothing.md
+- [[Ben-Sasson et al., FRI (ICALP 2018)]] - document - proving-nothing.md
+- [[Brevis Pico Prism]] - document - proving-nothing.md
+- [[Cairo (StarkWare ZK-native ISA)]] - document - proving-nothing.md
+- [[Circle STARKs]] - document - proving-nothing.md
+- [[Circle STARKs and Stwo A Generational Leap]] - document - wiki/sections/ch06-circle-starks-and-stwo-a-generational-leap.md
+- [[Ethereum Foundation]] - document - wiki/sections/ch10-path-two-pure-transparent.md
+- [[Ethereum Foundation L1 zkEVM Mandate]] - document - proving-nothing.md
+- [[FRI Commitment Scheme]] - document - proving-nothing.md
+- [[From Circuits to Virtual Machines A Brief Evolution]] - document - wiki/sections/ch03-from-circuits-to-virtual-machines-a-brief-evolution.md
+- [[Groth16 wrap-circuit splitting tradeoff per-FRI-query sub-circuits trade prover speed vs on-chain cost]] - paper - references/recursion/ch1/ref-21-zktree.pdf
+- [[HyperPlonk]] - paper - references/snowball/book/ref-084-hyperplonk-plonk-with-linear-time-prover-and-hi.pdf
+- [[Hyrax Commitment Scheme]] - document - wiki/sections/ch11-three-zkvms-through-seven-layers.md
+- [[Hyrax polynomial commitment]] - document - proving-nothing.md
+- [[Jolt (zkVM via Lookups)]] - document - proving-nothing.md
+- [[Lasso]] - document - proving-nothing.md
+- [[Linea]] - document - wiki/sections/ch13-zk-rollups-the-proving-grounds-production.md
+- [[LogUp]] - document - proving-nothing.md
+- [[Low-Degree Testing]] - paper - references/snowball/book/ref-080-fast-reed-solomon-interactive-oracle-proofs-of-p.pdf
+- [[Mersenne-31  M31]] - document - wiki/concepts/mersenne.md
+- [[Mersenne-31 Field (M31)]] - document - proving-nothing.md
+- [[OpenVM]] - document - wiki/sections/ch11-performance-the-cost-collapse.md
+- [[Path One The Hybrid STARK-to-SNARK Pipeline]] - document - wiki/sections/ch10-path-one-the-hybrid-stark-to-snark-pipeline.md
+- [[Path Two Pure Transparent]] - document - wiki/sections/ch10-path-two-pure-transparent.md
+- [[Performance The Cost Collapse]] - document - wiki/sections/ch11-performance-the-cost-collapse.md
+- [[Pico Prism]] - document - wiki/sections/ch10-path-one-the-hybrid-stark-to-snark-pipeline.md
+- [[Plonky3]] - document - references/recursion/ch1/ref-08-sp1-hypercube.md
+- [[Precompile (zkVM)]] - document - proving-nothing.md
+- [[RISC-V Convergence]] - document - wiki/sections/ch11-risc-v-convergence.md
+- [[RISC-V architecture]] - document - references/recursion/ch1/ref-27-succinct-sp1-docs.md
+- [[Real-Time Ethereum Proving]] - document - wiki/sections/ch06-real-time-ethereum-proving.md
+- [[SP1 Hypercube (Succinct)]] - document - proving-nothing.md
+- [[STARK-to-SNARK Groth16 wrap]] - document - proving-nothing.md
+- [[Shard proofs (SP1 proof system)]] - document - references/recursion/ch1/ref-27-succinct-sp1-docs.md
+- [[Small prime fields (machine-register-sized Goldilocks, M61)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Small-Field Arithmetic (SIMDGPU)]] - document - proving-nothing.md
+- [[Small-Field STARKs (Goldilocks, BabyBear, M31)]] - document - proving-nothing.md
+- [[Starknet]] - document - wiki/sections/ch01-three-converging-forces.md
+- [[Stwo]] - document - wiki/chapters/01-the-promise-of-provable-and-programmable-secrets.md
+- [[Stwo (StarkWare Circle STARK Prover)]] - document - proving-nothing.md
+- [[The Proof Core Triad]] - document - wiki/sections/ch11-the-proof-core-triad.md
+- [[The Causal Web Why It Is a DAG, Not a Stack]] - document - wiki/sections/ch10-the-causal-web-why-it-is-a-dag-not-a-stack.md
+- [[The Hybrid Pipeline]] - document - wiki/sections/ch06-the-hybrid-pipeline.md
+- [[The Landscape Table (March 2026)]] - document - wiki/sections/ch11-the-landscape-table-march-2026.md
+- [[The Map Redrawn]] - document - wiki/sections/ch10-the-map-redrawn.md
+- [[The Stage Is Set]] - document - wiki/sections/ch11-the-stage-is-set.md
+- [[The Synthesis -- Three Paths, Not Two]] - document - wiki/chapters/10-the-synthesis-three-paths-not-two.md
+- [[The Three-Path Table]] - document - wiki/sections/ch10-the-three-path-table.md
+- [[Three zkVMs Through Seven Layers]] - document - wiki/sections/ch11-three-zkvms-through-seven-layers.md
+- [[ZK Rollups The Proving Grounds (Production)]] - document - wiki/sections/ch13-zk-rollups-the-proving-grounds-production.md
+- [[ZKsync Airbender]] - document - proving-nothing.md
+- [[ZKsync Airbender GPU-Accelerated RISC-V Proving]] - document - references/ch10/ref-53-airbender.md
+- [[ZisK]] - document - wiki/sections/ch02-the-capex-opex-framework.md
+- [[zkVMs -- The Universal Stage]] - document - wiki/chapters/11-zkvms-the-universal-stage.md
+- [[zkVMs Across the Stack]] - document - wiki/sections/ch11-zkvms-across-the-stack.md
+- [[zkWASM]] - document - wiki/sections/ch11-risc-v-convergence.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -72,28 +78,61 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 8 edges to [[_COMMUNITY_Community 6]]
-- 8 edges to [[_COMMUNITY_Community 43]]
-- 7 edges to [[_COMMUNITY_Community 63]]
-- 6 edges to [[_COMMUNITY_Community 83]]
-- 4 edges to [[_COMMUNITY_Community 11]]
-- 3 edges to [[_COMMUNITY_Community 75]]
-- 2 edges to [[_COMMUNITY_Community 5]]
-- 2 edges to [[_COMMUNITY_Community 7]]
-- 2 edges to [[_COMMUNITY_Community 64]]
-- 1 edge to [[_COMMUNITY_Community 95]]
-- 1 edge to [[_COMMUNITY_Community 65]]
-- 1 edge to [[_COMMUNITY_Community 19]]
-- 1 edge to [[_COMMUNITY_Community 76]]
+- 71 edges to [[_COMMUNITY_Community 1]]
+- 58 edges to [[_COMMUNITY_Community 0]]
+- 57 edges to [[_COMMUNITY_Community 14]]
+- 44 edges to [[_COMMUNITY_Community 5]]
+- 38 edges to [[_COMMUNITY_Community 62]]
+- 36 edges to [[_COMMUNITY_Community 13]]
+- 15 edges to [[_COMMUNITY_Community 19]]
+- 11 edges to [[_COMMUNITY_Community 12]]
+- 10 edges to [[_COMMUNITY_Community 37]]
+- 10 edges to [[_COMMUNITY_Community 89]]
+- 10 edges to [[_COMMUNITY_Community 88]]
+- 7 edges to [[_COMMUNITY_Community 94]]
+- 6 edges to [[_COMMUNITY_Community 24]]
+- 6 edges to [[_COMMUNITY_Community 40]]
+- 6 edges to [[_COMMUNITY_Community 82]]
+- 5 edges to [[_COMMUNITY_Community 125]]
+- 4 edges to [[_COMMUNITY_Community 15]]
+- 4 edges to [[_COMMUNITY_Community 36]]
+- 4 edges to [[_COMMUNITY_Community 16]]
+- 4 edges to [[_COMMUNITY_Community 42]]
+- 3 edges to [[_COMMUNITY_Community 122]]
+- 3 edges to [[_COMMUNITY_Community 17]]
+- 3 edges to [[_COMMUNITY_Community 98]]
+- 3 edges to [[_COMMUNITY_Community 3]]
+- 3 edges to [[_COMMUNITY_Community 126]]
+- 3 edges to [[_COMMUNITY_Community 28]]
+- 3 edges to [[_COMMUNITY_Community 123]]
+- 3 edges to [[_COMMUNITY_Community 52]]
+- 2 edges to [[_COMMUNITY_Community 108]]
+- 2 edges to [[_COMMUNITY_Community 86]]
+- 2 edges to [[_COMMUNITY_Community 84]]
+- 2 edges to [[_COMMUNITY_Community 92]]
+- 2 edges to [[_COMMUNITY_Community 6]]
+- 2 edges to [[_COMMUNITY_Community 23]]
+- 2 edges to [[_COMMUNITY_Community 26]]
+- 1 edge to [[_COMMUNITY_Community 32]]
+- 1 edge to [[_COMMUNITY_Community 47]]
 - 1 edge to [[_COMMUNITY_Community 97]]
-- 1 edge to [[_COMMUNITY_Community 44]]
-- 1 edge to [[_COMMUNITY_Community 1]]
-- 1 edge to [[_COMMUNITY_Community 69]]
-- 1 edge to [[_COMMUNITY_Community 87]]
+- 1 edge to [[_COMMUNITY_Community 95]]
+- 1 edge to [[_COMMUNITY_Community 93]]
+- 1 edge to [[_COMMUNITY_Community 25]]
+- 1 edge to [[_COMMUNITY_Community 63]]
+- 1 edge to [[_COMMUNITY_Community 70]]
+- 1 edge to [[_COMMUNITY_Community 139]]
+- 1 edge to [[_COMMUNITY_Community 72]]
+- 1 edge to [[_COMMUNITY_Community 116]]
+- 1 edge to [[_COMMUNITY_Community 10]]
+- 1 edge to [[_COMMUNITY_Community 31]]
+- 1 edge to [[_COMMUNITY_Community 34]]
+- 1 edge to [[_COMMUNITY_Community 45]]
+- 1 edge to [[_COMMUNITY_Community 4]]
 
 ## Top bridge nodes
-- [[Circom]] - degree 27, connects to 9 communities
-- [[Under-Constrained Circuit  Missing Constraint]] - degree 31, connects to 7 communities
-- [[Arithmetic Circuit]] - degree 10, connects to 4 communities
-- [[Automated Detection of Under-Constrained Circuits in Zero-Knowledge Proofs]] - degree 10, connects to 4 communities
-- [[Practical Security Analysis of Zero-Knowledge Proof Circuits]] - degree 10, connects to 3 communities
+- [[FRI Commitment Scheme]] - degree 74, connects to 20 communities
+- [[The Synthesis -- Three Paths, Not Two]] - degree 50, connects to 15 communities
+- [[zkVMs -- The Universal Stage]] - degree 48, connects to 13 communities
+- [[SP1 Hypercube (Succinct)]] - degree 47, connects to 13 communities
+- [[BN254 (alt_bn128) Curve]] - degree 47, connects to 11 communities

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch08/ref-28-rollup-pricing-attacks.pdf"
 type: "paper"
-community: "Community 73"
+community: "Community 21"
 location: "p.1 (title/abstract)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_73
+  - community/Community_21
 ---
 
 # Unaligned Incentives: Pricing Attacks Against Blockchain Rollups
@@ -25,4 +25,4 @@ tags:
 - [[Unaligned-incentives thesis cross-dimension mispricing yields novel attacks]] - `introduces` [EXTRACTED]
 - [[ZK Rollup]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_73
+#graphify/paper #graphify/EXTRACTED #community/Community_21

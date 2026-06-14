@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 6"
+community: "Community 93"
 location: "Chapter 12"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_6
+  - community/Community_93
 ---
 
 # Leo (Aleo) / o1js (Mina)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Fourth Philosophy Application-Specific DSL]] - `compares` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_6
+#graphify/document #graphify/EXTRACTED #community/Community_93

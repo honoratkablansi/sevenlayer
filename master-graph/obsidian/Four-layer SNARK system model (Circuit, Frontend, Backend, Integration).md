@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch01/ref-03-sok-snark-vulnerabilities.pdf"
 type: "paper"
-community: "Community 75"
+community: "Community 106"
 location: "§3.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_75
+  - community/Community_106
 ---
 
 # Four-layer SNARK system model (Circuit, Frontend, Backend, Integration)
@@ -18,4 +18,4 @@ tags:
 - [[Integration-layer vulnerabilities (13 bugs unchecked data, delegation, composition, complementary-logic)]] - `defines` [EXTRACTED]
 - [[SoK What Don't We Know Understanding Security Vulnerabilities in SNARKs]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_75
+#graphify/paper #graphify/EXTRACTED #community/Community_106

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-33-circ.pdf"
 type: "paper"
-community: "Community 64"
+community: "Community 49"
 location: "p.1 (abstract)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_64
+  - community/Community_49
 ---
 
 # Satisfiability Modulo Theories (SMT)
@@ -17,5 +17,6 @@ tags:
 - [[CirC Compiler Infrastructure for Proof Systems, Software Verification, and More]] - `conceptually_related_to` [EXTRACTED]
 - [[Existentially Quantified Circuit (EQC)]] - `conceptually_related_to` [EXTRACTED]
 - [[Guarded SSA versioning via ITE terms]] - `cites` [INFERRED]
+- [[Proof System Compiler]] - `uses` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_64
+#graphify/paper #graphify/EXTRACTED #community/Community_49

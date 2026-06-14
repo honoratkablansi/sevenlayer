@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch02-two-ways-to-build-a-stage.md"
 type: "document"
-community: "Community 12"
+community: "Community 5"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_12
+  - community/Community_5
 ---
 
 # Two Ways to Build a Stage
@@ -33,4 +33,4 @@ tags:
 - [[Trusted Setup Ceremony]] - `conceptually_related_to` [EXTRACTED]
 - [[Zcash]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_12
+#graphify/document #graphify/EXTRACTED #community/Community_5

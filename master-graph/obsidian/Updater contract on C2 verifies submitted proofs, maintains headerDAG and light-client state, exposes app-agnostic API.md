@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-59-zkbridge.pdf"
 type: "paper"
-community: "Community 65"
+community: "Community 74"
 location: "§3.1, Protocol 2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_65
+  - community/Community_74
 ---
 
 # Updater contract on C2: verifies submitted proofs, maintains headerDAG and light-client state, exposes app-agnostic API
@@ -16,4 +16,4 @@ tags:
 - [[Light client  bridge]] - `assumes` [EXTRACTED]
 - [[zkBridge trustless cross-chain bridge via succinct proofs of consensus  light-client state transitions]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_65
+#graphify/paper #graphify/EXTRACTED #community/Community_74

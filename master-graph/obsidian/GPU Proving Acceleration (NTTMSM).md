@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 1"
+community: "Community 72"
 location: "Chapter 14"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_1
+  - community/Community_72
 ---
 
 # GPU Proving Acceleration (NTT/MSM)
@@ -15,4 +15,4 @@ tags:
 - [[Q1 Fully Parallel GPU Witness Generation]] - `references` [EXTRACTED]
 - [[SIMT Thread Divergence]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_1
+#graphify/document #graphify/EXTRACTED #community/Community_72

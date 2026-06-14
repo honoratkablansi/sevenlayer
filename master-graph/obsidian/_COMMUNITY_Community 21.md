@@ -1,44 +1,44 @@
 ---
 type: community
-cohesion: 0.08
+cohesion: 0.10
 members: 29
 ---
 
 # Community 21
 
-**Cohesion:** 0.08 - loosely connected
+**Cohesion:** 0.10 - loosely connected
 **Members:** 29 nodes
 
 ## Members
-- [[Aligned Layer (EigenLayer restaking, verification-as-a-service)]] - document - proving-nothing.md
-- [[Argument Follow the Money, Watch the Trust]] - document - proving-nothing.md
-- [[Canton Network]] - document - wiki/sections/ch13-enterprise-pilots-pilot.md
-- [[Chorus One Economics of ZK-Proving (2025)]] - document - proving-nothing.md
-- [[Chorus One The Economics of ZK-Proving (2025)]] - document - wiki/sections/ch13-market-sizing.md
-- [[DTCC (Depository Trust & Clearing Corporation)]] - document - wiki/sections/ch13-enterprise-pilots-pilot.md
-- [[DTCC  Canton Network (tokenized Treasuries, privacy settlement)]] - document - proving-nothing.md
-- [[DTCC and Digital Asset Partner to Tokenize DTC-Custodied U.S. Treasury Securities on the Canton Network]] - document - references/ch13/ref-58-dtcc-canton-tokenization.md
-- [[Deutsche Bank (Project Guardian)]] - document - wiki/sections/ch13-enterprise-pilots-pilot.md
-- [[Deutsche Bank  Project Guardian (ZK-verified KYC settlement)]] - document - proving-nothing.md
-- [[Enterprise Pilots (Pilot)]] - document - wiki/sections/ch13-enterprise-pilots-pilot.md
-- [[Grand View Research ZKP Market Report (2025)]] - document - proving-nothing.md
-- [[Grand View Research Zero-Knowledge Proof Market Size Report (2025)]] - document - wiki/sections/ch13-market-sizing.md
-- [[Humanity Protocol]] - document - wiki/sections/ch13-zk-identity-growth-regulatory-mandate.md
-- [[Market Sizing]] - document - wiki/sections/ch13-market-sizing.md
-- [[Market Sizing ($1.54B 2025 to $7.59B 2033, 22.1% CAGR)]] - document - proving-nothing.md
-- [[NVIDIA H100 GPU]] - document - wiki/sections/ch13-proving-as-a-service-the-prover-market-production.md
-- [[Partisia Blockchain]] - document - wiki/sections/ch13-enterprise-pilots-pilot.md
-- [[Proving-as-a-Service]] - document - proving-nothing.md
-- [[Proving-as-a-Service The Prover Market (Production)]] - document - wiki/sections/ch13-proving-as-a-service-the-prover-market-production.md
-- [[RISC Zero Boundless]] - document - wiki/sections/ch13-proving-as-a-service-the-prover-market-production.md
-- [[RISC Zero Boundless (proof marketplace, forced migration)]] - document - proving-nothing.md
-- [[Succinct Network]] - document - wiki/sections/ch13-proving-as-a-service-the-prover-market-production.md
-- [[Succinct Network (SP1 Hypercube, $PROVE token)]] - document - proving-nothing.md
-- [[Tokenization of Assets]] - document - proving-nothing.md
-- [[Trust Relocation vs Trust Minimization]] - document - proving-nothing.md
-- [[World (formerly Worldcoin)]] - document - wiki/sections/ch13-zk-identity-growth-regulatory-mandate.md
-- [[ZK Identity (Growth  Regulatory Mandate)]] - document - wiki/sections/ch13-zk-identity-growth-regulatory-mandate.md
-- [[ZkCloud (formerly Gevulot)]] - document - wiki/sections/ch13-proving-as-a-service-the-prover-market-production.md
+- [[2016 Ethereum Shanghai  EIP-150 underpriced-opcode DoS precedent]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[Amplified finality-delay attack (1.45x-2.73x over direct L1 blob-stuffing)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[Blob Fee Market]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[CongestionGriefing Attack]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[Cycles-per-gas mispricing (MODEXP 2961, JUMPDEST 1039; EVM gas != proving cost)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[DA-saturation DoS sustained L2 liveness halt at 0.8-2.7 ETHhour]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[DA-saturation attack (data-heavy compute-light tx flooding L1 blob capacity)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[Diamandis et al. multidimensional blockchain fee markets 19]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[Direct economic damage attack (drains rollup vault via Ctx amortization, $11,172h on Scroll)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[EIP-1559 base-fee mechanism]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[Empirical evaluation on Scroll, Linea, zkSync Era, Arbitrum, Optimism, Base]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[Ethereum]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[Generic rollup cost model Txfee = L2fee + L1fee (rho_blob, Scalar_blob, Ctx, Stx)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[L2 EIP-1559-style DA pricing with L1-fee floor (DA-saturation mitigation)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[MODEXP killer block 94x finality latency, $42.26 prover loss per 35M-gas block]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[Multi-dimensional TFM (matrix Ax over gasDAprovingfixed; adaptive per-resource pricing)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[Perez & Livshits 'Broken Metre' (EVM resource-metering mispricing detection)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[Prover-aware metering per-opcode proof-gas profiling, dedicated L2ProvingFee]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[Prover-killer attack (high cycles-per-gas tx stalls ZK proof generation)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[Reactive mitigations tx size limits, dynamic fee scalars, aggressive tx filtering]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[Responsible disclosure all rollups vulnerable, 4 bug bounties, mitigations adopted]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[Rollup multi-dimensional TFM (L2 gas + L1 DA + settlementverification)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[Roughgarden TFM design  EIP-1559 incentive-compatibility 47,48]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[Shared-DA multi-tenant risk attack on one rollup cascades across DA-layer tenants]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[Smart contract systems via multiplexing  gas]] - paper - references/ch09/ref-30-kachina.pdf
+- [[Threat model budget-bounded L2 user; liveness, finality, economic-safety objectives]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[Transaction Fee Mechanisms (TFM)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[Unaligned Incentives Pricing Attacks Against Blockchain Rollups]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[Unaligned-incentives thesis cross-dimension mispricing yields novel attacks]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -48,23 +48,15 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 6 edges to [[_COMMUNITY_Community 76]]
-- 6 edges to [[_COMMUNITY_Community 6]]
-- 5 edges to [[_COMMUNITY_Community 5]]
-- 3 edges to [[_COMMUNITY_Community 77]]
-- 3 edges to [[_COMMUNITY_Community 49]]
-- 2 edges to [[_COMMUNITY_Community 67]]
-- 2 edges to [[_COMMUNITY_Community 42]]
-- 2 edges to [[_COMMUNITY_Community 7]]
-- 2 edges to [[_COMMUNITY_Community 15]]
-- 2 edges to [[_COMMUNITY_Community 17]]
-- 2 edges to [[_COMMUNITY_Community 0]]
-- 1 edge to [[_COMMUNITY_Community 12]]
-- 1 edge to [[_COMMUNITY_Community 63]]
+- 6 edges to [[_COMMUNITY_Community 17]]
+- 4 edges to [[_COMMUNITY_Community 47]]
+- 2 edges to [[_COMMUNITY_Community 88]]
+- 2 edges to [[_COMMUNITY_Community 35]]
+- 1 edge to [[_COMMUNITY_Community 32]]
 
 ## Top bridge nodes
-- [[Market Sizing]] - degree 15, connects to 7 communities
-- [[Enterprise Pilots (Pilot)]] - degree 14, connects to 7 communities
-- [[Proving-as-a-Service The Prover Market (Production)]] - degree 14, connects to 6 communities
-- [[ZK Identity (Growth  Regulatory Mandate)]] - degree 10, connects to 5 communities
-- [[NVIDIA H100 GPU]] - degree 3, connects to 2 communities
+- [[Unaligned Incentives Pricing Attacks Against Blockchain Rollups]] - degree 12, connects to 3 communities
+- [[Prover-killer attack (high cycles-per-gas tx stalls ZK proof generation)]] - degree 7, connects to 2 communities
+- [[DA-saturation attack (data-heavy compute-light tx flooding L1 blob capacity)]] - degree 10, connects to 1 community
+- [[Ethereum]] - degree 4, connects to 1 community
+- [[Empirical evaluation on Scroll, Linea, zkSync Era, Arbitrum, Optimism, Base]] - degree 4, connects to 1 community

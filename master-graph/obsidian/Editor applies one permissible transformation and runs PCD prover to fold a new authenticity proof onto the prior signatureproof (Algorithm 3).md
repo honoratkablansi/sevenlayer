@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-77-photoproof.pdf"
 type: "paper"
-community: "Community 20"
+community: "Community 9"
 location: "§IV-A, Algorithm 3; Fig. 2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_20
+  - community/Community_9
 ---
 
 # Editor applies one permissible transformation and runs PCD prover to fold a new authenticity proof onto the prior signature/proof (Algorithm 3)
@@ -16,4 +16,4 @@ tags:
 - [[Recursive Proof Composition]] - `conceptually_related_to` [EXTRACTED]
 - [[Signed camera-original as root of trust in-camera digital signature on the original image anchors the start of the permissible-transformation chain]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_20
+#graphify/paper #graphify/EXTRACTED #community/Community_9

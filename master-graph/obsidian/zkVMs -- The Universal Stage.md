@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/chapters/11-zkvms-the-universal-stage.md"
 type: "document"
-community: "Community 8"
+community: "Community 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_8
+  - community/Community_2
 ---
 
 # zkVMs -- The Universal Stage
@@ -60,4 +60,4 @@ tags:
 - [[zkVM]] - `references` [EXTRACTED]
 - [[zkVMs Across the Stack]] - `part_of` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_8
+#graphify/document #graphify/EXTRACTED #community/Community_2

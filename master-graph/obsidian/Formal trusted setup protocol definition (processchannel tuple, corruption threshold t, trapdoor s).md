@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-10-sok-powers-of-tau.pdf"
 type: "paper"
-community: "Community 27"
+community: "Community 5"
 location: "§3.1 Def. 3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_27
+  - community/Community_5
 ---
 
 # Formal trusted setup protocol definition (process/channel tuple, corruption threshold t, trapdoor s)
@@ -17,4 +17,4 @@ tags:
 - [[SoK Trusted Setups for Powers-of-Tau Strings]] - `defines` [EXTRACTED]
 - [[Trusted Setup Ceremony]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_27
+#graphify/paper #graphify/EXTRACTED #community/Community_5

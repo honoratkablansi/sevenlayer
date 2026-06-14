@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 11"
+community: "Community 1"
 location: "Chapter 5"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_11
+  - community/Community_1
 ---
 
 # Constraint System
@@ -17,5 +17,6 @@ tags:
 - [[Midnight ZKIR (24-Opcode Instruction DAG)]] - `conceptually_related_to` [EXTRACTED]
 - [[PLONKish Arithmetization]] - `introduces` [EXTRACTED]
 - [[R1CS (Rank-1 Constraint Systems)]] - `introduces` [EXTRACTED]
+- [[zkVM]] - `relies_on` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_11
+#graphify/document #graphify/EXTRACTED #community/Community_1

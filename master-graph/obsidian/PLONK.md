@@ -1,19 +1,23 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 6"
+community: "Community 62"
 location: "Chapter 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_6
+  - community/Community_62
 ---
 
 # PLONK
 
 ## Connections
 - [[2-adicity of a curve (nu_2(r-1) large)]] - `conceptually_related_to` [EXTRACTED]
+- [[Accumulation Schemes]] - `enables` [EXTRACTED]
+- [[Arithmetization]] - `uses` [EXTRACTED]
+- [[CCS (Customizable Constraint Systems)]] - `generalizes` [EXTRACTED]
 - [[Case Study Midnight's Sealed Certificate]] - `references` [EXTRACTED]
+- [[Checkable Subspace Sampling Argument]] - `relates_to` [EXTRACTED]
 - [[Choreographing the Act]] - `references` [EXTRACTED]
 - [[Coda]] - `references` [EXTRACTED]
 - [[Compact's Disclosure Analysis]] - `conceptually_related_to` [EXTRACTED]
@@ -22,19 +26,22 @@ tags:
 - [[Extended PLONK permutation argument (tau') tying circuit trace T(X) to witness polynomial W(X)]] - `conceptually_related_to` [EXTRACTED]
 - [[FFLONK]] - `conceptually_related_to` [INFERRED]
 - [[Fiat-Shamir Vulnerabilities]] - `references` [EXTRACTED]
+- [[Folding Scheme]] - `defines` [EXTRACTED]
 - [[Frozen Heart Forgery of Zero Knowledge Proofs (Trail of Bits, 2022)]] - `references` [EXTRACTED]
 - [[Full Seven-Layer Mapping]] - `references` [EXTRACTED]
 - [[Gabizon, Williamson, Ciobotaru — PLONK (ePrint 2019953)]] - `cites` [EXTRACTED]
 - [[Glossary of Key Terms]] - `defines` [EXTRACTED]
 - [[Groth16]] - `conceptually_related_to` [INFERRED]
 - [[Halo 2  UltraPlonk]] - `implements` [EXTRACTED]
+- [[HyperPlonk]] - `improves` [EXTRACTED]
 - [[Layer 1 -- Building the Stage]] - `references` [EXTRACTED]
 - [[Layer 4 -- Arithmetization]] - `references` [EXTRACTED]
 - [[Layer 5 -- The Sealed Certificate]] - `references` [EXTRACTED]
 - [[Layer 5 The Sealed Certificate (Proof System)]] - `introduces` [EXTRACTED]
 - [[Layer 6 -- The Deep Craft]] - `references` [EXTRACTED]
 - [[Layer 7 -- The Verdict]] - `references` [EXTRACTED]
-- [[Lookup Argument]] - `references` [EXTRACTED]
+- [[Lookup Argument]] - `extends` [EXTRACTED]
+- [[Mangrove]] - `uses` [EXTRACTED]
 - [[Midnight -- The Privacy Theater]] - `references` [EXTRACTED]
 - [[Midnight BLS12-381 Layer 1 Case Study (CompactZKIR, Pluto-Eris switch)]] - `references` [EXTRACTED]
 - [[Midnight's BLS12-381 Stage]] - `conceptually_related_to` [EXTRACTED]
@@ -42,12 +49,18 @@ tags:
 - [[Nightstream What a Folding Engine Looks Like from the Inside]] - `references` [EXTRACTED]
 - [[Open Questions and the Road Ahead]] - `references` [EXTRACTED]
 - [[PLONK Permutations over Lagrange-bases for Oecumenical Noninteractive arguments of Knowledge]] - `defines` [EXTRACTED]
+- [[Permutation Argument]] - `uses` [EXTRACTED]
 - [[Photo-edit circuits in Plonky2 crop, grayscale, bilinear resize, box blur (fixed-point, AP-acceptable edits)]] - `assumes` [EXTRACTED]
 - [[Plonky2]] - `references` [EXTRACTED]
+- [[Plookup]] - `uses` [EXTRACTED]
+- [[Polynomial Commitment Scheme]] - `uses` [EXTRACTED]
 - [[Proof Aggregation The Missing Layer]] - `references` [EXTRACTED]
 - [[Protostar Generic Efficient AccumulationFolding for Special-sound Protocols]] - `conceptually_related_to` [EXTRACTED]
+- [[R1CS (Rank-1 Constraint Systems)]] - `uses` [EXTRACTED]
 - [[RISC-V Convergence]] - `conceptually_related_to` [EXTRACTED]
 - [[Recursive Proof Composition]] - `conceptually_related_to` [INFERRED]
+- [[Relaxed Arithmetization]] - `defines` [EXTRACTED]
+- [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `improves` [EXTRACTED]
 - [[SNARK Recursion vs. Folding The Full Picture]] - `references` [EXTRACTED]
 - [[STARK]] - `compares` [EXTRACTED]
 - [[Snarky Ceremonies]] - `references` [EXTRACTED]
@@ -67,10 +80,10 @@ tags:
 - [[The Three Families]] - `defines` [EXTRACTED]
 - [[Three Converging Forces]] - `conceptually_related_to` [EXTRACTED]
 - [[Three Hardness Assumptions, Three Worlds]] - `references` [EXTRACTED]
-- [[Trusted Setup Ceremony]] - `references` [EXTRACTED]
+- [[Trusted Setup Ceremony]] - `uses` [EXTRACTED]
 - [[Two Ways to Build a Stage]] - `conceptually_related_to` [EXTRACTED]
 - [[Universal versus Circuit-Specific Setups]] - `conceptually_related_to` [EXTRACTED]
-- [[Universal vs Circuit-Specific SRS]] - `introduces` [EXTRACTED]
+- [[Universal vs Circuit-Specific SRS]] - `uses` [EXTRACTED]
 - [[VerITAS Verifying Image Transformations at Scale (Datta, Chen, Boneh, ePrint 20241066)]] - `assumes` [EXTRACTED]
 - [[When the Transcript Lies Fiat-Shamir Vulnerabilities]] - `references` [EXTRACTED]
 - [[Where Midnight Validates the Model]] - `references` [EXTRACTED]
@@ -78,4 +91,4 @@ tags:
 - [[zk-SNARK]] - `conceptually_related_to` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_6
+#graphify/document #graphify/EXTRACTED #community/Community_62

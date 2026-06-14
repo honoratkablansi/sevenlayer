@@ -1,24 +1,25 @@
 ---
 type: community
-cohesion: 0.31
-members: 9
+cohesion: 0.27
+members: 10
 ---
 
 # Community 109
 
-**Cohesion:** 0.31 - loosely connected
-**Members:** 9 nodes
+**Cohesion:** 0.27 - loosely connected
+**Members:** 10 nodes
 
 ## Members
-- [[Bulletproofs (Bunz et al.) 13]] - paper - references/recursion/ch1/ref-05-halo.pdf
-- [[Discrete Log Relation Assumption]] - paper - references/recursion/ch1/ref-05-halo.pdf
-- [[Main argument Sonic-variant PSHVZK argument of knowledge for arithmetic circuit satisfiability]] - paper - references/recursion/ch1/ref-05-halo.pdf
-- [[Non-interactive instantiation via Fiat-Shamir with Rescue duplex-sponge in random oracle model]] - paper - references/recursion/ch1/ref-05-halo.pdf
-- [[Pedersen-based univariate polynomial commitment with amortized succinctness]] - paper - references/recursion/ch1/ref-05-halo.pdf
-- [[Sonic (Maller, Bowe, Kohlweiss, Meiklejohn) 32]] - paper - references/recursion/ch1/ref-05-halo.pdf
-- [[Theorem 1 polynomial commitment protocol has completeness, witness-extended emulation, PSHVZK]] - paper - references/recursion/ch1/ref-05-halo.pdf
-- [[Theorem 2 main protocol (Fig. 1) has completeness, PSHVZK, computational witness-extended emulation]] - paper - references/recursion/ch1/ref-05-halo.pdf
-- [[Wahby, Tzialla, shelat, Thaler, Walfish Doubly-efficient zkSNARKs without trusted setup 37]] - paper - references/recursion/ch1/ref-05-halo.pdf
+- [[Cache-Timing Attack]] - document - proving-nothing.md
+- [[Constant-Time Implementation]] - document - proving-nothing.md
+- [[Electromagnetic Side-Channel Attack]] - document - proving-nothing.md
+- [[Mukherjee, Rechberger, Schofnegger Cache-Timing Study (2024)]] - document - proving-nothing.md
+- [[Multi-Scalar Multiplication (MSM)]] - document - proving-nothing.md
+- [[Q6 Practical Constant-Time ZK Proving]] - document - proving-nothing.md
+- [[Reinforced Concrete Hash (Bars Lookup Table)]] - document - proving-nothing.md
+- [[Side-Channel Attack]] - document - proving-nothing.md
+- [[Timing Side-Channel Attack]] - document - proving-nothing.md
+- [[Tramer, Boneh, Paterson Remote Side-Channel Attacks (USENIX 2020)]] - document - proving-nothing.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -28,16 +29,20 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 2 edges to [[_COMMUNITY_Community 110]]
-- 2 edges to [[_COMMUNITY_Community 60]]
-- 1 edge to [[_COMMUNITY_Community 68]]
+- 6 edges to [[_COMMUNITY_Community 89]]
+- 5 edges to [[_COMMUNITY_Community 13]]
+- 3 edges to [[_COMMUNITY_Community 14]]
+- 3 edges to [[_COMMUNITY_Community 72]]
+- 2 edges to [[_COMMUNITY_Community 108]]
+- 1 edge to [[_COMMUNITY_Community 5]]
+- 1 edge to [[_COMMUNITY_Community 1]]
+- 1 edge to [[_COMMUNITY_Community 115]]
+- 1 edge to [[_COMMUNITY_Community 93]]
 - 1 edge to [[_COMMUNITY_Community 0]]
-- 1 edge to [[_COMMUNITY_Community 23]]
-- 1 edge to [[_COMMUNITY_Community 92]]
-- 1 edge to [[_COMMUNITY_Community 46]]
 
 ## Top bridge nodes
-- [[Pedersen-based univariate polynomial commitment with amortized succinctness]] - degree 8, connects to 3 communities
-- [[Main argument Sonic-variant PSHVZK argument of knowledge for arithmetic circuit satisfiability]] - degree 7, connects to 2 communities
-- [[Discrete Log Relation Assumption]] - degree 5, connects to 2 communities
-- [[Non-interactive instantiation via Fiat-Shamir with Rescue duplex-sponge in random oracle model]] - degree 3, connects to 2 communities
+- [[Side-Channel Attack]] - degree 15, connects to 6 communities
+- [[Multi-Scalar Multiplication (MSM)]] - degree 9, connects to 4 communities
+- [[Q6 Practical Constant-Time ZK Proving]] - degree 5, connects to 1 community
+- [[Constant-Time Implementation]] - degree 4, connects to 1 community
+- [[Timing Side-Channel Attack]] - degree 4, connects to 1 community

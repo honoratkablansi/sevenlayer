@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-78-veritas.pdf"
 type: "paper"
-community: "Community 80"
+community: "Community 83"
 location: "§1 eq.(1), §4 eq.(3)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_80
+  - community/Community_83
 ---
 
 # Instance-witness relation R: f(w)=x AND SigVerify(vk,w,sigma)=1 (signed original to edited image)
@@ -17,4 +17,4 @@ tags:
 - [[VerITAS Verifying Image Transformations at Scale (Datta, Chen, Boneh, ePrint 20241066)]] - `defines` [EXTRACTED]
 - [[zk-SNARK]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_80
+#graphify/paper #graphify/EXTRACTED #community/Community_83

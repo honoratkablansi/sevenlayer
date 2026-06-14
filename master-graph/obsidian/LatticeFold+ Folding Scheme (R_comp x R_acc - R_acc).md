@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-11-latticefold-plus.pdf"
 type: "paper"
-community: "Community 32"
+community: "Community 10"
 location: "§5"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_32
+  - community/Community_10
 ---
 
 # LatticeFold+ Folding Scheme (R_comp x R_acc -> R_acc)
@@ -19,4 +19,4 @@ tags:
 - [[Theorem 5.1 Main folding RoK from R_comp x R_acc to R_acc]] - `proves` [EXTRACTED]
 - [[Theorem 5.3 Efficiency estimate (proververifierproof size)]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_32
+#graphify/paper #graphify/EXTRACTED #community/Community_10

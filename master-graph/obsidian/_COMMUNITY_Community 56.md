@@ -1,34 +1,35 @@
 ---
 type: community
-cohesion: 0.18
-members: 19
+cohesion: 0.12
+members: 20
 ---
 
 # Community 56
 
-**Cohesion:** 0.18 - loosely connected
-**Members:** 19 nodes
+**Cohesion:** 0.12 - loosely connected
+**Members:** 20 nodes
 
 ## Members
-- [[(d,l)-Power Knowledge of Exponent assumption (Assumption 2), multivariate generalization of q-PKE]] - paper - references/recursion/ch3/ref-73-vsql.pdf
-- [[Avoiding relay gates inputsoutputs at arbitrary circuit layers via multilinear-extension combination (Eq. 2)]] - paper - references/recursion/ch3/ref-73-vsql.pdf
-- [[CMT extension supporting server-provided auxiliary input (non-deterministic computation) via committed multilinear extension]] - paper - references/recursion/ch3/ref-73-vsql.pdf
-- [[CMT protocol (Cormode-Mitzenmacher-Thaler interactive proof for layered arithmetic circuits)]] - paper - references/recursion/ch3/ref-73-vsql.pdf
-- [[Delegated-input technique client outsources database multilinear extension and verifies final CMT point via polynomial commitment]] - paper - references/recursion/ch3/ref-73-vsql.pdf
-- [[Empirical evaluation on TPC-H (6M rows, 13 columns); server up to 120x faster than SNARKs, comparable to IntegriDB]] - paper - references/recursion/ch3/ref-73-vsql.pdf
-- [[Expressive update support server commits to new database digest, verified by running CMT on update circuit]] - paper - references/recursion/ch3/ref-73-vsql.pdf
-- [[Extractable verifiable polynomial-delegation protocol with knowledge soundness (vSQL Construction 2)]] - paper - references/recursion/ch3/ref-73-vsql.pdf
-- [[IntegriDB (Zhang-Katz-Papamanthou), prior verifiable-SQL scheme compared against]] - paper - references/recursion/ch3/ref-73-vsql.pdf
-- [[Kate-Zaverucha-Goldberg  Papamanthou-Shi-Tamassia polynomial commitments extended by vSQL]] - paper - references/recursion/ch3/ref-73-vsql.pdf
-- [[Non-deterministic optimized zeroequality testing (x'=xy, z=x(1-xy)) replacing Fermat-based test; 80x speedup]] - paper - references/recursion/ch3/ref-73-vsql.pdf
-- [[O(zN) interactive set-intersection verification for joins via sorted-permutation product check]] - paper - references/recursion/ch3/ref-73-vsql.pdf
-- [[Outsourced and streaming computation]] - document - recursion/recursion-outline.md
-- [[Theorem 3 Construction 2 is a (extractable) verifiable polynomial-delegation protocol under Assumptions 1 and 2]] - paper - references/recursion/ch3/ref-73-vsql.pdf
-- [[Theorem 4 vSQL (Construction 3) is a verifiable database system for SQL queries given extractable polynomial delegation]] - paper - references/recursion/ch3/ref-73-vsql.pdf
-- [[Verifiable databases and analytics]] - document - recursion/recursion-outline.md
-- [[Zero-knowledge voting  governance]] - document - recursion/recursion-outline.md
-- [[q-Strong Diffie-Hellman assumption (Assumption 1)]] - paper - references/recursion/ch3/ref-73-vsql.pdf
-- [[vSQL verifiable database system for arbitrary SQL queries over dynamic outsourced databases]] - paper - references/recursion/ch3/ref-73-vsql.pdf
+- [[BigLessThan motivating example (Circom bug at line 32)]] - paper - references/ch10/ref-35-coda.pdf
+- [[Certifying Zero-Knowledge Circuits with Refinement Types]] - paper - references/ch10/ref-35-coda.pdf
+- [[Coda compiler partial evaluation to R1CS constraints]] - paper - references/ch10/ref-35-coda.pdf
+- [[Coda domain-specific Coq tactic library (F_to_Z, overflow, split_sum, switch_sum, reduce_sum, ind)]] - paper - references/ch10/ref-35-coda.pdf
+- [[Coda refinement type system {nuT  phi}]] - paper - references/ch10/ref-35-coda.pdf
+- [[Coda type-checking rules (circuit, expression, subtyping judgments)]] - paper - references/ch10/ref-35-coda.pdf
+- [[Coda verified higher-order library (branching, zip, array aggregates)]] - paper - references/ch10/ref-35-coda.pdf
+- [[Coda statically-typed functional DSL for ZK circuits]] - paper - references/ch10/ref-35-coda.pdf
+- [[Coq Proof Assistant]] - document - references/ch10/ref-35-coda.pdf
+- [[Coq lemma generation for proof obligations]] - paper - references/ch10/ref-35-coda.pdf
+- [[Fiat-Crypto finite-field formalization library]] - paper - references/ch10/ref-35-coda.pdf
+- [[Liquid  logically-qualified data types (SMT-discharged)]] - paper - references/ch10/ref-35-coda.pdf
+- [[Non-determinism (star) and assertion semantics encoding relations]] - paper - references/ch10/ref-35-coda.pdf
+- [[Refinement Types]] - document - references/ch10/ref-35-coda.pdf
+- [[SMT solving over finite fields  large prime fields]] - paper - references/ch10/ref-35-coda.pdf
+- [[TSub-Refine subtyping rule (reduces type checking to logical validity)]] - paper - references/ch10/ref-35-coda.pdf
+- [[Theorem 1 Expression Type Preservation (soundness)]] - paper - references/ch10/ref-35-coda.pdf
+- [[Theorem 2 Circuit Evaluation Type Preservation]] - paper - references/ch10/ref-35-coda.pdf
+- [[Trustless threat model (attacker controls source, R1CS, prover, verifier; can swap proof)]] - paper - references/ch10/ref-35-coda.pdf
+- [[iter combinator with annotated loop invariant]] - paper - references/ch10/ref-35-coda.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -38,19 +39,16 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 3 edges to [[_COMMUNITY_Community 82]]
-- 3 edges to [[_COMMUNITY_Community 68]]
-- 3 edges to [[_COMMUNITY_Community 54]]
+- 4 edges to [[_COMMUNITY_Community 95]]
 - 2 edges to [[_COMMUNITY_Community 96]]
-- 2 edges to [[_COMMUNITY_Community 61]]
-- 2 edges to [[_COMMUNITY_Community 18]]
-- 2 edges to [[_COMMUNITY_Community 35]]
-- 1 edge to [[_COMMUNITY_Community 25]]
-- 1 edge to [[_COMMUNITY_Community 41]]
+- 1 edge to [[_COMMUNITY_Community 32]]
+- 1 edge to [[_COMMUNITY_Community 28]]
+- 1 edge to [[_COMMUNITY_Community 70]]
+- 1 edge to [[_COMMUNITY_Community 72]]
 
 ## Top bridge nodes
-- [[vSQL verifiable database system for arbitrary SQL queries over dynamic outsourced databases]] - degree 17, connects to 4 communities
-- [[CMT protocol (Cormode-Mitzenmacher-Thaler interactive proof for layered arithmetic circuits)]] - degree 8, connects to 4 communities
-- [[Extractable verifiable polynomial-delegation protocol with knowledge soundness (vSQL Construction 2)]] - degree 10, connects to 3 communities
-- [[Outsourced and streaming computation]] - degree 6, connects to 3 communities
-- [[Verifiable databases and analytics]] - degree 4, connects to 1 community
+- [[Certifying Zero-Knowledge Circuits with Refinement Types]] - degree 6, connects to 3 communities
+- [[Coda statically-typed functional DSL for ZK circuits]] - degree 9, connects to 1 community
+- [[Refinement Types]] - degree 3, connects to 1 community
+- [[SMT solving over finite fields  large prime fields]] - degree 2, connects to 1 community
+- [[BigLessThan motivating example (Circom bug at line 32)]] - degree 2, connects to 1 community

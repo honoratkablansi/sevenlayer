@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch1/ref-02-bctv-cycles.pdf"
 type: "paper"
-community: "Community 91"
+community: "Community 130"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_91
+  - community/Community_130
 ---
 
 # Scalable Zero Knowledge via Cycles of Elliptic Curves (BCTV14, CRYPTO 2014)
@@ -16,4 +16,4 @@ tags:
 - [[Proof-Carrying Data (PCD)]] - `introduces` [EXTRACTED]
 - [[Scalable zk-SNARK (fully succinct + incrementally computable)]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_91
+#graphify/paper #graphify/EXTRACTED #community/Community_130

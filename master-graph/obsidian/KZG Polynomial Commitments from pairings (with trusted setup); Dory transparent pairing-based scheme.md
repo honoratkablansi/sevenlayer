@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-20-thaler-proofs-arguments-zk.pdf"
 type: "paper"
-community: "Community 12"
+community: "Community 5"
 location: "ch 15 (Polynomial Commitments from Pairings)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_12
+  - community/Community_5
 ---
 
 # KZG Polynomial Commitments from pairings (with trusted setup); Dory transparent pairing-based scheme
@@ -15,7 +15,7 @@ tags:
 - [[BLS12-381 Curve]] - `references` [EXTRACTED]
 - [[BN254 (alt_bn128) Curve]] - `references` [EXTRACTED]
 - [[Batched KZG Polynomial Commitment Scheme (multi-poly, multi-point)]] - `conceptually_related_to` [EXTRACTED]
-- [[Bilinear Pairing]] - `assumes` [INFERRED]
+- [[Bilinear Pairing]] - `uses` [INFERRED]
 - [[Case Study Midnight (IOGCardano)]] - `references` [EXTRACTED]
 - [[Case Study Midnight (Layer 6)]] - `references` [EXTRACTED]
 - [[Case Study Midnight's Sealed Certificate]] - `references` [EXTRACTED]
@@ -28,6 +28,7 @@ tags:
 - [[Four Families of Commitment Schemes]] - `defines` [EXTRACTED]
 - [[Full Seven-Layer Mapping]] - `references` [EXTRACTED]
 - [[Gemini (BCHO22) small-space VM SNARK with streamed multilinear-KZG PCS]] - `assumes` [EXTRACTED]
+- [[Gemini Elastic SNARK]] - `uses` [EXTRACTED]
 - [[Glossary of Key Terms]] - `defines` [EXTRACTED]
 - [[Greyhound Fast Polynomial Commitments from Lattices]] - `references` [EXTRACTED]
 - [[Halo 2  UltraPlonk]] - `references` [EXTRACTED]
@@ -38,6 +39,7 @@ tags:
 - [[Layer 5 -- The Sealed Certificate]] - `references` [EXTRACTED]
 - [[Layer 6 -- The Deep Craft]] - `references` [EXTRACTED]
 - [[Layer 7 -- The Verdict]] - `references` [EXTRACTED]
+- [[Lookup Argument]] - `uses` [EXTRACTED]
 - [[MT-IPP merged MIPP+TIPP argument]] - `assumes` [EXTRACTED]
 - [[Maturity and Readiness]] - `references` [EXTRACTED]
 - [[Midnight -- The Privacy Theater]] - `references` [EXTRACTED]
@@ -50,7 +52,7 @@ tags:
 - [[PLONK Permutations over Lagrange-bases for Oecumenical Noninteractive arguments of Knowledge]] - `cites` [EXTRACTED]
 - [[Path Three Post-Quantum Folding]] - `conceptually_related_to` [EXTRACTED]
 - [[Perpetual Powers-of-Tau (PPOT) ceremony (Semaphore, BN254, 228, fluid continuous participation)]] - `conceptually_related_to` [EXTRACTED]
-- [[Polynomial Commitment Scheme]] - `introduces` [EXTRACTED]
+- [[Polynomial Commitment Scheme]] - `defines` [EXTRACTED]
 - [[Powers of Tau]] - `assumes` [EXTRACTED]
 - [[Proofs, Arguments, and Zero-Knowledge (Justin Thaler, survey textbook)]] - `explains` [EXTRACTED]
 - [[RISC-V Convergence]] - `conceptually_related_to` [EXTRACTED]
@@ -92,4 +94,4 @@ tags:
 - [[ZK Rollups The Proving Grounds (Production)]] - `references` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_12
+#graphify/paper #graphify/EXTRACTED #community/Community_5

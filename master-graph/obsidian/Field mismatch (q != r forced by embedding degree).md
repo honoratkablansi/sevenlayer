@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-02-bctv-cycles.pdf"
 type: "paper"
-community: "Community 13"
+community: "Community 65"
 location: "§3.1 (Attempt #1)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_13
+  - community/Community_65
 ---
 
 # Field mismatch (q != r forced by embedding degree)
@@ -16,4 +16,4 @@ tags:
 - [[Embedding degree k]] - `conceptually_related_to` [EXTRACTED]
 - [[Recursive Proof Composition]] - `conceptually_related_to` [INFERRED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_13
+#graphify/paper #graphify/EXTRACTED #community/Community_65

@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch09/ref-29-gentry-fhe.pdf"
 type: "paper"
-community: "Community 34"
+community: "Community 18"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_34
+  - community/Community_18
 ---
 
 # Fully Homomorphic Encryption Using Ideal Lattices
@@ -24,4 +24,4 @@ tags:
 - [[Scheme E3 squashed E2 with hidden sparse subset; bootstrappable and semantically secure (Thm 2, Thm 11)]] - `introduces` [EXTRACTED]
 - [[Three-step FHE blueprint SWHE - squash decryption - bootstrap to fully homomorphic]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_34
+#graphify/paper #graphify/EXTRACTED #community/Community_18

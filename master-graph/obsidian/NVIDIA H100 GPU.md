@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch13-proving-as-a-service-the-prover-market-production.md"
 type: "document"
-community: "Community 21"
+community: "Community 14"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_21
+  - community/Community_14
 ---
 
 # NVIDIA H100 GPU
@@ -15,4 +15,4 @@ tags:
 - [[The Three Frontiers]] - `references` [EXTRACTED]
 - [[ZK Rollups The Proving Grounds (Production)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_21
+#graphify/document #graphify/EXTRACTED #community/Community_14

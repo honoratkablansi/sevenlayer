@@ -1,31 +1,31 @@
 ---
 type: community
-cohesion: 0.14
+cohesion: 0.15
 members: 16
 ---
 
 # Community 79
 
-**Cohesion:** 0.14 - loosely connected
+**Cohesion:** 0.15 - loosely connected
 **Members:** 16 nodes
 
 ## Members
-- [[Cited Bellare-Fuchsbauer-Scafuro subversion impossibility (BFS16)]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[Cited Groth 2010 pairing-based zk-SNARK (Gro10b)]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[Impossibility updating non-monomial CRS reveals constituent monomials]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[Lemmas 1-2 subversion-secure = updatable-secure = trusted-secure]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[MonoExtract  FinalMonoExtract monomial-extraction algorithm]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[Quadratic monomial-only universal CRS (multivariate X,Y,Z, j=7)]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[Specializable universal CRS via untrusted Derive algorithm]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[Subversion-resistant NIZK  subversion zero-knowledge]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[Theorem 3 perfect subversion zero-knowledge of the construction]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[Theorem 5  Lemma 8 Pinocchio cannot be made updatable]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[Three setup-oracle types trusted (T), updatable (U), subvertible (S)]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[Trusted CRS setup with secret trapdoor]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[Updatable & specializable QAP-based zk-SNARK construction]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[Updatable CRS model (one honest updater suffices)]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[Updatable CRS syntax Setup, Update, VerifyCRS algorithms]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
-- [[X-security games COMP, X-ZK, X-SND, X-KSND for X in {T,U,S}]] - paper - references/ch10/ref-37-updatable-universal-crs.pdf
+- [[Age and nationality verification]] - document - references/recursion/ch3/ref-83-zkpassport-anon-aadhaar.md
+- [[Cited Mixicle (privacy-preserving oracle construction for binary options)]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Credential subject]] - document - references/recursion/ch3/ref-84-w3c-verifiable-credentials.md
+- [[EU eIDAS 2.0 (digital identity wallets, 450M users)]] - document - proving-nothing.md
+- [[Issuer  Holder  Verifier roles]] - document - references/recursion/ch3/ref-84-w3c-verifiable-credentials.md
+- [[JSON-LD core data model and contexts]] - document - references/recursion/ch3/ref-84-w3c-verifiable-credentials.md
+- [[On-device proof generation (mobile passport NFC)]] - document - references/recursion/ch3/ref-83-zkpassport-anon-aadhaar.md
+- [[Privacy Pools (0xbow, prove-innocence-not-identity)]] - document - proving-nothing.md
+- [[Selective Disclosure]] - document - proving-nothing.md
+- [[Three demo applications confidential binary option, legacy-to-anonymous age credential, price-discrimination claim]] - paper - references/recursion/ch3/ref-87-deco.pdf
+- [[Verifiable credentials]] - document - references/recursion/ch3/ref-84-w3c-verifiable-credentials.md
+- [[Verifiable presentation]] - document - references/recursion/ch3/ref-84-w3c-verifiable-credentials.md
+- [[W3C Verifiable Credentials Data Model v2.0]] - document - references/recursion/ch3/ref-84-w3c-verifiable-credentials.md
+- [[ZKPassport  Anon-Aadhaar document-proof systems]] - document - references/recursion/ch3/ref-83-zkpassport-anon-aadhaar.md
+- [[ZKPassport SDK and QR verification card]] - document - references/recursion/ch3/ref-83-zkpassport-anon-aadhaar.md
+- [[Zero-knowledge proofs in verifiable credentials]] - document - references/recursion/ch3/ref-84-w3c-verifiable-credentials.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -35,16 +35,22 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 4 edges to [[_COMMUNITY_Community 74]]
-- 2 edges to [[_COMMUNITY_Community 40]]
-- 2 edges to [[_COMMUNITY_Community 22]]
-- 2 edges to [[_COMMUNITY_Community 27]]
-- 1 edge to [[_COMMUNITY_Community 12]]
-- 1 edge to [[_COMMUNITY_Community 119]]
+- 4 edges to [[_COMMUNITY_Community 15]]
+- 4 edges to [[_COMMUNITY_Community 12]]
+- 3 edges to [[_COMMUNITY_Community 11]]
+- 2 edges to [[_COMMUNITY_Community 29]]
+- 2 edges to [[_COMMUNITY_Community 55]]
+- 2 edges to [[_COMMUNITY_Community 20]]
+- 2 edges to [[_COMMUNITY_Community 47]]
+- 1 edge to [[_COMMUNITY_Community 93]]
+- 1 edge to [[_COMMUNITY_Community 13]]
+- 1 edge to [[_COMMUNITY_Community 14]]
+- 1 edge to [[_COMMUNITY_Community 4]]
+- 1 edge to [[_COMMUNITY_Community 23]]
 
 ## Top bridge nodes
-- [[Updatable CRS model (one honest updater suffices)]] - degree 7, connects to 2 communities
-- [[Updatable & specializable QAP-based zk-SNARK construction]] - degree 6, connects to 2 communities
-- [[Subversion-resistant NIZK  subversion zero-knowledge]] - degree 5, connects to 2 communities
-- [[Quadratic monomial-only universal CRS (multivariate X,Y,Z, j=7)]] - degree 4, connects to 1 community
-- [[Cited Bellare-Fuchsbauer-Scafuro subversion impossibility (BFS16)]] - degree 2, connects to 1 community
+- [[Selective Disclosure]] - degree 22, connects to 9 communities
+- [[Verifiable credentials]] - degree 5, connects to 3 communities
+- [[ZKPassport  Anon-Aadhaar document-proof systems]] - degree 7, connects to 2 communities
+- [[Three demo applications confidential binary option, legacy-to-anonymous age credential, price-discrimination claim]] - degree 4, connects to 2 communities
+- [[Privacy Pools (0xbow, prove-innocence-not-identity)]] - degree 2, connects to 1 community

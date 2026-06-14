@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-59-zkbridge.pdf"
 type: "paper"
-community: "Community 65"
+community: "Community 74"
 location: "§3.1, Protocol 1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_65
+  - community/Community_74
 ---
 
 # Block header relay network: permissionless nodes relay C1 headers with ZK correctness proofs (trusted only for liveness)
@@ -17,4 +17,4 @@ tags:
 - [[zk-SNARK]] - `assumes` [EXTRACTED]
 - [[zkBridge trustless cross-chain bridge via succinct proofs of consensus  light-client state transitions]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_65
+#graphify/paper #graphify/EXTRACTED #community/Community_74

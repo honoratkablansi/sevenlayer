@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch08/ref-28-rollup-pricing-attacks.pdf"
 type: "paper"
-community: "Community 111"
+community: "Community 21"
 location: "§7"
 tags:
   - graphify/paper
   - graphify/INFERRED
-  - community/Community_111
+  - community/Community_21
 ---
 
 # Shared-DA multi-tenant risk: attack on one rollup cascades across DA-layer tenants
@@ -15,4 +15,4 @@ tags:
 - [[DA-saturation attack (data-heavy compute-light tx flooding L1 blob capacity)]] - `conceptually_related_to` [EXTRACTED]
 - [[Data Availability]] - `conceptually_related_to` [INFERRED]
 
-#graphify/paper #graphify/INFERRED #community/Community_111
+#graphify/paper #graphify/INFERRED #community/Community_21

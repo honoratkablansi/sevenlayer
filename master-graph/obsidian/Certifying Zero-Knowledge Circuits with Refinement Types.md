@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-35-coda.pdf"
 type: "paper"
-community: "Community 2"
+community: "Community 56"
 location: "page 1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_2
+  - community/Community_56
 ---
 
 # Certifying Zero-Knowledge Circuits with Refinement Types
@@ -19,4 +19,4 @@ tags:
 - [[R1CS (Rank-1 Constraint Systems)]] - `references` [EXTRACTED]
 - [[Refinement Types]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_2
+#graphify/paper #graphify/EXTRACTED #community/Community_56

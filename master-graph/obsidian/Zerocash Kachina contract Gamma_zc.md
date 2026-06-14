@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch09/ref-30-kachina.pdf"
 type: "paper"
-community: "Community 31"
+community: "Community 58"
 location: "§5.3, App C.4"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_31
+  - community/Community_58
 ---
 
 # Zerocash Kachina contract Gamma_zc
@@ -16,4 +16,4 @@ tags:
 - [[Theorem 2  Corollary 1 private payments emulation]] - `proves` [EXTRACTED]
 - [[Zerocash]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_31
+#graphify/paper #graphify/EXTRACTED #community/Community_58

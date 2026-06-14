@@ -1,34 +1,39 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 15"
+community: "Community 14"
 location: "Chapter 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_15
+  - community/Community_14
 ---
 
 # STARK
 
 ## Connections
+- [[AIR Arithmetization]] - `uses` [EXTRACTED]
 - [[Algebraic vs Traditional Hash Functions]] - `references` [EXTRACTED]
+- [[Arithmetization]] - `uses` [EXTRACTED]
 - [[Ben-Sasson et al. — Scalable, Transparent, Post-Quantum Secure Computational Integrity (ePrint 2018046)]] - `cites` [EXTRACTED]
 - [[Bulletproofs  Inner Product Argument]] - `compares` [EXTRACTED]
 - [[CCS The Rosetta Stone]] - `references` [EXTRACTED]
+- [[Cairo (StarkWare ZK-native ISA)]] - `uses` [EXTRACTED]
 - [[Circle STARK interactive oracle proof for AIR]] - `conceptually_related_to` [EXTRACTED]
 - [[Circle STARKs]] - `conceptually_related_to` [EXTRACTED]
 - [[Circle STARKs and Stwo A Generational Leap]] - `references` [EXTRACTED]
+- [[Circle group  circle curve x2+y2=1]] - `uses` [EXTRACTED]
 - [[Coda]] - `references` [EXTRACTED]
 - [[Customizable Constraint Systems for Succinct Arguments]] - `conceptually_related_to` [EXTRACTED]
 - [[Encoding the Performance]] - `references` [EXTRACTED]
-- [[FRI Commitment Scheme]] - `part_of` [EXTRACTED]
+- [[FRI Commitment Scheme]] - `uses` [EXTRACTED]
 - [[FRI Protocol]] - `references` [EXTRACTED]
 - [[Four Families of Commitment Schemes]] - `references` [EXTRACTED]
 - [[Glossary of Key Terms]] - `defines` [EXTRACTED]
 - [[Groth16]] - `compares` [EXTRACTED]
 - [[Hybrid STARK-to-SNARK Production Pipeline]] - `explains` [EXTRACTED]
 - [[Hybrid Transparent-Inner  Compact-Outer Architecture]] - `references` [EXTRACTED]
+- [[Interactive Oracle Proofs]] - `uses` [EXTRACTED]
 - [[Layer 1 -- Building the Stage]] - `references` [EXTRACTED]
 - [[Layer 5 -- The Sealed Certificate]] - `references` [EXTRACTED]
 - [[Layer 5 The Sealed Certificate (Proof System)]] - `introduces` [EXTRACTED]
@@ -44,11 +49,12 @@ tags:
 - [[Path Three Post-Quantum Folding]] - `conceptually_related_to` [EXTRACTED]
 - [[Path Two Pure Transparent]] - `conceptually_related_to` [EXTRACTED]
 - [[Poseidon Hash]] - `references` [EXTRACTED]
+- [[Post-quantum security (against quantum adversaries; security in the QROM)]] - `relates_to` [EXTRACTED]
 - [[Proof Aggregation The Missing Layer]] - `references` [EXTRACTED]
 - [[RISC Zero]] - `references` [EXTRACTED]
 - [[Real-Time Ethereum Proving]] - `references` [EXTRACTED]
 - [[SHARP (SHARed Prover)]] - `conceptually_related_to` [EXTRACTED]
-- [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `compares` [EXTRACTED]
+- [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `relates_to` [EXTRACTED]
 - [[SP1 Hypercube Proving Ethereum in Real-Time (Succinct Labs)]] - `references` [EXTRACTED]
 - [[STARK-Inside-SNARK-Outside Hybrid Pipeline]] - `references` [EXTRACTED]
 - [[Scalable, Transparent, and Post-Quantum Secure Computational Integrity]] - `defines` [EXTRACTED]
@@ -81,10 +87,11 @@ tags:
 - [[The Three-Path Table]] - `conceptually_related_to` [EXTRACTED]
 - [[Three Converging Forces]] - `conceptually_related_to` [EXTRACTED]
 - [[Transparent Setup]] - `defines` [EXTRACTED]
-- [[Trusted Setup Ceremony]] - `compares` [EXTRACTED]
+- [[Trusted Setup Ceremony]] - `relates_to` [EXTRACTED]
 - [[Two Ways to Build a Stage]] - `conceptually_related_to` [EXTRACTED]
 - [[Where the Analogies Break]] - `references` [EXTRACTED]
 - [[ZKsync Airbender GPU-Accelerated RISC-V Proving]] - `references` [EXTRACTED]
+- [[Zero-Knowledge Proof]] - `uses` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_15
+#graphify/document #graphify/EXTRACTED #community/Community_14

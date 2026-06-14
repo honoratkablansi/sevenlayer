@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-32-zkvm-compiler-optimization.pdf"
 type: "paper"
-community: "Community 55"
+community: "Community 52"
 location: "§3.3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_55
+  - community/Community_52
 ---
 
 # Methodology: 71 optimization profiles (64 LLVM passes, 6 -Ox levels, 1 baseline) x 2 zkVMs
@@ -19,4 +19,4 @@ tags:
 - [[SP1 zkVM (evaluated, v4.1.4)]] - `assumes` [EXTRACTED]
 - [[Three zkVM metrics cycle count, executor time, proving time]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_55
+#graphify/paper #graphify/EXTRACTED #community/Community_52

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch01/ref-02-gmr-knowledge-complexity.pdf"
 type: "paper"
-community: "Community 37"
+community: "Community 15"
 location: "p. 187"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_37
+  - community/Community_15
 ---
 
 # Quadratic Residuosity (QR) and Non-Residuosity (QNR) mod x
@@ -16,4 +16,4 @@ tags:
 - [[Perfect zero-knowledge proof for QR (Theorem 1)]] - `assumes` [EXTRACTED]
 - [[Statistical zero-knowledge proof for QNR]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_37
+#graphify/paper #graphify/EXTRACTED #community/Community_15

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-18-hypernova.pdf"
 type: "paper"
-community: "Community 90"
+community: "Community 131"
 location: "§6.3 Theorem 3 / Appendix H.3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_90
+  - community/Community_131
 ---
 
 # Theorem 3 (HyperNova NIVC scheme)
@@ -16,4 +16,4 @@ tags:
 - [[HyperNova NIVC-from-multifolding compiler (Construction 2)]] - `proves` [EXTRACTED]
 - [[Single-MSM prover cost (size = variables)]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_90
+#graphify/paper #graphify/EXTRACTED #community/Community_131

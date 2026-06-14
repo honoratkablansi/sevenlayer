@@ -1,18 +1,20 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 96"
+community: "Community 37"
 location: "Chapter 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_96
+  - community/Community_37
 ---
 
 # Fiat-Shamir Transform
 
 ## Connections
 - [[Trustless versus Trust-Minimized]] - `conceptually_related_to` [EXTRACTED]
+- [[(2k-1)-Move Special-Sound Protocol with Algebraic Verifier]] - `uses` [EXTRACTED]
+- [[Accumulation Schemes]] - `used_by` [EXTRACTED]
 - [[Algebraic vs Traditional Hash Functions]] - `references` [EXTRACTED]
 - [[Arguzz (zkVM Fuzzer)]] - `references` [INFERRED]
 - [[Bulletproofs NIZK Argument System]] - `assumes` [EXTRACTED]
@@ -33,21 +35,24 @@ tags:
 - [[Frozen Heart Vulnerability]] - `conceptually_related_to` [EXTRACTED]
 - [[Frozen Heart Vulnerability (2022)]] - `references` [EXTRACTED]
 - [[Frozen Heart Forgery of Zero Knowledge Proofs (Trail of Bits, 2022)]] - `references` [EXTRACTED]
+- [[GKR protocol doubly-efficient interactive proof for bounded-depth computation via layer-by-layer sumcheck reduction; prover need not commit to full trace]] - `attacks` [EXTRACTED]
 - [[Glossary of Key Terms]] - `defines` [EXTRACTED]
 - [[Governance The Achilles Heel]] - `references` [EXTRACTED]
 - [[Greyhound polynomial commitment scheme]] - `assumes` [EXTRACTED]
 - [[Greyhound Fast Polynomial Commitments from Lattices]] - `references` [EXTRACTED]
-- [[Interactive Proof (IP) prover-verifier protocol with statistical soundness]] - `references` [EXTRACTED]
+- [[Interactive Oracle Proofs]] - `uses` [EXTRACTED]
+- [[Interactive Proof (IP) prover-verifier protocol with statistical soundness]] - `uses` [EXTRACTED]
 - [[Interactive Proof System]] - `references` [EXTRACTED]
 - [[Khovratovich, Rothblum, Soukhanov, How to Prove False Statements (ePrint 2025118)]] - `references` [EXTRACTED]
 - [[Khovratovich-Rothblum-Soukhanov How to Prove False Statements - Practical Attacks on Fiat-Shamir (ePrint 2025118)]] - `conceptually_related_to` [EXTRACTED]
-- [[Knowledge-Soundness]] - `conceptually_related_to` [EXTRACTED]
+- [[Knowledge-Soundness]] - `relates_to` [EXTRACTED]
 - [[Last Challenge Attack (2024)]] - `references` [EXTRACTED]
 - [[Last Challenge Attack (FS flaw in KZG-based SNARK final batching challenge)]] - `conceptually_related_to` [EXTRACTED]
 - [[Layer 5 -- The Sealed Certificate]] - `references` [EXTRACTED]
 - [[Layer 5 The Sealed Certificate (Proof System)]] - `references` [EXTRACTED]
 - [[Layer 6 -- The Deep Craft]] - `references` [EXTRACTED]
 - [[Layer 7 -- The Verdict]] - `references` [EXTRACTED]
+- [[ML-DSA (Module-Lattice Digital Signature Algorithm)]] - `used_in` [EXTRACTED]
 - [[Multi-folding scheme for CCS (Construction 1)]] - `assumes` [EXTRACTED]
 - [[NARK for R1CS from Fiat-Shamir over a Pedersen-commitment sigma protocol (linear argument size)]] - `assumes` [EXTRACTED]
 - [[Nightstream What a Folding Engine Looks Like from the Inside]] - `references` [EXTRACTED]
@@ -63,11 +68,13 @@ tags:
 - [[Protostar Generic Efficient AccumulationFolding for Special-sound Protocols]] - `conceptually_related_to` [EXTRACTED]
 - [[Q4 When Will Trustless Become Real]] - `references` [EXTRACTED]
 - [[RO-NARK FScmPi_sps from Special-Sound Protocol]] - `assumes` [EXTRACTED]
-- [[Random oracle model (non-interactive STARK  NIROP)]] - `references` [EXTRACTED]
-- [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `references` [EXTRACTED]
+- [[Random Oracle Model]] - `relies-on` [EXTRACTED]
+- [[Random oracle model (non-interactive STARK  NIROP)]] - `used_by` [EXTRACTED]
+- [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `compiles-into` [EXTRACTED]
 - [[Sealing the Certificate]] - `references` [EXTRACTED]
 - [[Solana ZK ElGamal Bug (2025)]] - `references` [EXTRACTED]
 - [[Sonic zk-SNARK (universal & updatable linear-size SRS)]] - `assumes` [EXTRACTED]
+- [[Soundness]] - `violated-by` [EXTRACTED]
 - [[Sponge construction over the permutation rate r + capacity c; indifferentiable from random oracle up to 2{c2} calls]] - `conceptually_related_to` [INFERRED]
 - [[Symphony Scalable SNARKs in the Random Oracle Model from Lattice-Based High-Arity Folding]] - `references` [EXTRACTED]
 - [[The Deepest Question]] - `conceptually_related_to` [EXTRACTED]
@@ -84,6 +91,7 @@ tags:
 - [[Theorem 3 family of preprocessing SNARKs for CCS via PIOP + sparse poly commitment + Fiat-Shamir]] - `assumes` [EXTRACTED]
 - [[Three Hardness Assumptions, Three Worlds]] - `references` [EXTRACTED]
 - [[Trust Decomposition Seven Weaker Assumptions]] - `conceptually_related_to` [EXTRACTED]
+- [[Verifiable Delay Function]] - `uses` [EXTRACTED]
 - [[Wesolowski public-coin protocol verifier samples prime l, checks pil gr = y]] - `assumes` [EXTRACTED]
 - [[Wesolowski, Efficient Verifiable Delay Functions (EUROCRYPT 2019)]] - `cites` [EXTRACTED]
 - [[When the Transcript Lies Fiat-Shamir Vulnerabilities]] - `references` [EXTRACTED]
@@ -92,4 +100,4 @@ tags:
 - [[vSQL verifiable database system for arbitrary SQL queries over dynamic outsourced databases]] - `cites` [EXTRACTED]
 - [[zkSNARK for Committed Relaxed R1CS (adapted Spartan)]] - `assumes` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_96
+#graphify/document #graphify/EXTRACTED #community/Community_37

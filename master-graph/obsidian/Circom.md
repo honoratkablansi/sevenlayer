@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 2"
+community: "Community 95"
 location: "Chapter 3"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_2
+  - community/Community_95
 ---
 
 # Circom
@@ -29,6 +29,7 @@ tags:
 - [[Practical Security Analysis of Zero-Knowledge Proof Circuits]] - `assumes` [EXTRACTED]
 - [[R1CS (Rank-1 Constraint Systems)]] - `defines` [EXTRACTED]
 - [[Root cause assigned but not constrained (signal given a value with no constraint)]] - `conceptually_related_to` [EXTRACTED]
+- [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `used` [EXTRACTED]
 - [[The Developer's Actual Experience]] - `references` [EXTRACTED]
 - [[Tornado Cash Under-Constraint Bug]] - `references` [EXTRACTED]
 - [[Tornado Cash circomlib MiMC under-constrained bug (assigned-but-unconstrained output)]] - `conceptually_related_to` [EXTRACTED]
@@ -40,4 +41,4 @@ tags:
 - [[ZkBench Benchmark Suite (163 Circom circuits)]] - `conceptually_related_to` [EXTRACTED]
 - [[zkSNARK]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_2
+#graphify/document #graphify/EXTRACTED #community/Community_95

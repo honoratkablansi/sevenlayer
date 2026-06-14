@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 7"
+community: "Community 88"
 location: "Chapter 4"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_7
+  - community/Community_88
 ---
 
 # zkVM
@@ -18,6 +18,7 @@ tags:
 - [[Cairo Turing-complete STARK-friendly CPU architecture (prior zkVM)]] - `conceptually_related_to` [EXTRACTED]
 - [[Choreographing the Act]] - `references` [EXTRACTED]
 - [[Completeness]] - `conceptually_related_to` [EXTRACTED]
+- [[Constraint System]] - `relies_on` [EXTRACTED]
 - [[Continuations]] - `explains` [EXTRACTED]
 - [[Convergence]] - `references` [EXTRACTED]
 - [[Cost-model mismatch zkVM uniform-cost constraints vs CPU hardware heuristics (cachebranch-predILP)]] - `conceptually_related_to` [EXTRACTED]
@@ -27,12 +28,15 @@ tags:
 - [[Evaluating Compiler Optimization Impacts on zkVM Performance]] - `conceptually_related_to` [EXTRACTED]
 - [[Execution Traces]] - `references` [EXTRACTED]
 - [[First systematic study of compiler-optimization impact on zkVMs]] - `conceptually_related_to` [EXTRACTED]
+- [[Fuzzing  Metamorphic Testing]] - `tests` [EXTRACTED]
 - [[Hybrid STARK-to-SNARK Production Pipeline]] - `conceptually_related_to` [EXTRACTED]
 - [[Instantiations VDF machine (l=1, MinRoot) and RAM machine (RISC-V-like, program counter register, Merkle-committed memory)]] - `conceptually_related_to` [EXTRACTED]
 - [[Jolt (zkVM via Lookups)]] - `implements` [EXTRACTED]
 - [[Jolt SNARKs for Virtual Machines via Lookups]] - `introduces` [EXTRACTED]
 - [[Jolt sum-check-based zkVM for RISC-V]] - `conceptually_related_to` [EXTRACTED]
+- [[LLVM Compiler Infrastructure]] - `optimizes` [EXTRACTED]
 - [[Nightstream Lattice-Based Folding for CCS (LFDT-Nightstream)]] - `implements` [EXTRACTED]
+- [[Offline Memory Checking  Algebraic RAM Reduction]] - `uses` [EXTRACTED]
 - [[Open Questions and the Road Ahead]] - `references` [EXTRACTED]
 - [[Performance The Cost Collapse]] - `conceptually_related_to` [EXTRACTED]
 - [[Precompiles built-in circuits for hashingEC ops limiting autotuning crypto gains]] - `conceptually_related_to` [EXTRACTED]
@@ -41,9 +45,11 @@ tags:
 - [[RISC Zero]] - `implements` [EXTRACTED]
 - [[RISC Zero zkVM]] - `conceptually_related_to` [INFERRED]
 - [[RISC Zero zkVM (evaluated, v1.2.4)]] - `conceptually_related_to` [EXTRACTED]
-- [[RISC-V ISA]] - `assumes` [EXTRACTED]
+- [[RISC-V ISA]] - `relates_to` [EXTRACTED]
 - [[RISC-V Won. Why Taxonomy Still Matters.]] - `references` [EXTRACTED]
 - [[Real-time zkVMs (lean execution)]] - `conceptually_related_to` [INFERRED]
+- [[Recursion (proof recursion in zkVMs)]] - `relates_to` [EXTRACTED]
+- [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `uses` [EXTRACTED]
 - [[SP1 Hypercube (Succinct)]] - `implements` [EXTRACTED]
 - [[SP1 Hypercube Proving Ethereum in Real-Time (Succinct Labs)]] - `implements` [EXTRACTED]
 - [[SP1 zkVM (evaluated, v4.1.4)]] - `conceptually_related_to` [EXTRACTED]
@@ -66,4 +72,4 @@ tags:
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 - [[zkVMs Across the Stack]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_7
+#graphify/document #graphify/EXTRACTED #community/Community_88

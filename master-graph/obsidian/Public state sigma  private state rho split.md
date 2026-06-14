@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch09/ref-30-kachina.pdf"
 type: "paper"
-community: "Community 31"
+community: "Community 35"
 location: "§2, §4"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_31
+  - community/Community_35
 ---
 
 # Public state sigma / private state rho split
@@ -15,4 +15,4 @@ tags:
 - [[Dependency function dep and invariant J]] - `assumes` [EXTRACTED]
 - [[State oracle]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_31
+#graphify/paper #graphify/EXTRACTED #community/Community_35

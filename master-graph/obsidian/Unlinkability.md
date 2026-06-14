@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch13/ref-60-eidas-2-regulation.pdf"
 type: "paper"
-community: "Community 3"
+community: "Community 29"
 location: "Art. 5a(16)"
 tags:
   - graphify/paper
   - graphify/INFERRED
-  - community/Community_3
+  - community/Community_29
 ---
 
 # Unlinkability
@@ -17,4 +17,4 @@ tags:
 - [[User-chosen pseudonyms (Art. 5a(4)(b); Recital 22)]] - `conceptually_related_to` [INFERRED]
 - [[Zero-Knowledge Proof]] - `conceptually_related_to` [INFERRED]
 
-#graphify/paper #graphify/INFERRED #community/Community_3
+#graphify/paper #graphify/INFERRED #community/Community_29

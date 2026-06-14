@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch03-compact-s-disclosure-analysis.md"
 type: "document"
-community: "Community 6"
+community: "Community 13"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_6
+  - community/Community_13
 ---
 
 # Compact's Disclosure Analysis
@@ -28,4 +28,4 @@ tags:
 - [[Where Midnight Challenges the Model]] - `references` [EXTRACTED]
 - [[Where Midnight Validates the Model]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_6
+#graphify/document #graphify/EXTRACTED #community/Community_13

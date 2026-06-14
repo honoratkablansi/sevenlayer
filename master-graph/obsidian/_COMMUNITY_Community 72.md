@@ -10,23 +10,23 @@ members: 17
 **Members:** 17 nodes
 
 ## Members
-- [[Approval-status terms acceptable, deprecated, disallowed, legacy use]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
-- [[DeprecationDisallowance Schedule 112-bit deprecated after 2030, RSAECC disallowed after 2035]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
-- [[FIPS 203 (ML-KEM Standard)]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
-- [[FIPS 204 (ML-DSA Standard)]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
-- [[FIPS 205 (SLH-DSA Standard)]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
-- [[Five Post-Quantum Security Categories (1-5; AES-128 to AES-256, SHA-256SHA3-384)]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
-- [[ML-KEM Key-Encapsulation Mechanism]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
-- [[Mosca's Theorem (X+Y vs Z migration urgency)]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
-- [[National Security Memorandum 10 (NSM-10) mitigate quantum risk by 2035]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
-- [[PQC Standards Transition Timeline (target 2035, NSM-10)]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
-- [[PQC signature replacements ML-DSA-446587, SLH-DSA, LMSHSS, XMSS]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
-- [[PQC-Classical Hybrid Protocols (composite KEM via SP 800-56C, dual signatures)]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
-- [[Quantitative (Strong) Church's thesis]] - paper - references/ch07/ref-24-shor.pdf
-- [[Quantum Computing]] - paper - references/ch07/ref-24-shor.pdf
-- [[SLH-DSA (Stateless Hash-Based Digital Signature Algorithm)]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
-- [[Symmetric crypto (AES, SHA-23) less quantum-vulnerable; 112-bit symmetric disallowed 2030]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
-- [[Transition to Post-Quantum Cryptography Standards (NIST IR 8547)]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
+- [[Arguzz (zkVM Fuzzer)]] - document - proving-nothing.md
+- [[Ethereum Foundation 2026 Security Targets]] - document - proving-nothing.md
+- [[Formal Verification]] - document - proving-nothing.md
+- [[Four-Macro-Layer Model Alternative]] - document - proving-nothing.md
+- [[GPU Proving Acceleration (NTTMSM)]] - document - proving-nothing.md
+- [[Lattice-Based Functional Commitment]] - document - proving-nothing.md
+- [[Open Questions and the Road Ahead (Ch14)]] - document - proving-nothing.md
+- [[Q1 Fully Parallel GPU Witness Generation]] - document - proving-nothing.md
+- [[Q2 Proven Lower Bound on Post-Quantum Proof Size]] - document - proving-nothing.md
+- [[Q3 When Will Stage 2 Bind]] - document - proving-nothing.md
+- [[Q4 When Will Trustless Become Real]] - document - proving-nothing.md
+- [[Q7 Is Seven the Right Number of Layers]] - document - proving-nothing.md
+- [[SIMT Thread Divergence]] - document - proving-nothing.md
+- [[Seven-Layer Trust Model]] - document - proving-nothing.md
+- [[The Ideal PCS Problem]] - document - proving-nothing.md
+- [[The Three Frontiers (Performance, Security, Privacy)]] - document - proving-nothing.md
+- [[Zeno's Paradox of Trust (Conjunction Effect)]] - document - proving-nothing.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -36,16 +36,24 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 4 edges to [[_COMMUNITY_Community 0]]
-- 3 edges to [[_COMMUNITY_Community 70]]
-- 3 edges to [[_COMMUNITY_Community 62]]
-- 3 edges to [[_COMMUNITY_Community 81]]
-- 1 edge to [[_COMMUNITY_Community 12]]
+- 3 edges to [[_COMMUNITY_Community 109]]
+- 2 edges to [[_COMMUNITY_Community 37]]
+- 2 edges to [[_COMMUNITY_Community 89]]
+- 2 edges to [[_COMMUNITY_Community 108]]
+- 2 edges to [[_COMMUNITY_Community 0]]
+- 1 edge to [[_COMMUNITY_Community 36]]
+- 1 edge to [[_COMMUNITY_Community 13]]
+- 1 edge to [[_COMMUNITY_Community 28]]
+- 1 edge to [[_COMMUNITY_Community 88]]
+- 1 edge to [[_COMMUNITY_Community 2]]
 - 1 edge to [[_COMMUNITY_Community 71]]
+- 1 edge to [[_COMMUNITY_Community 19]]
+- 1 edge to [[_COMMUNITY_Community 56]]
+- 1 edge to [[_COMMUNITY_Community 14]]
 
 ## Top bridge nodes
-- [[Transition to Post-Quantum Cryptography Standards (NIST IR 8547)]] - degree 13, connects to 3 communities
-- [[ML-KEM Key-Encapsulation Mechanism]] - degree 6, connects to 2 communities
-- [[DeprecationDisallowance Schedule 112-bit deprecated after 2030, RSAECC disallowed after 2035]] - degree 5, connects to 1 community
-- [[Quantum Computing]] - degree 3, connects to 1 community
-- [[Five Post-Quantum Security Categories (1-5; AES-128 to AES-256, SHA-256SHA3-384)]] - degree 3, connects to 1 community
+- [[Formal Verification]] - degree 6, connects to 4 communities
+- [[Open Questions and the Road Ahead (Ch14)]] - degree 8, connects to 2 communities
+- [[The Three Frontiers (Performance, Security, Privacy)]] - degree 6, connects to 2 communities
+- [[Q1 Fully Parallel GPU Witness Generation]] - degree 5, connects to 2 communities
+- [[Arguzz (zkVM Fuzzer)]] - degree 3, connects to 2 communities

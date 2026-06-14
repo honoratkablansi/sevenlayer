@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch01/ref-02-gmr-knowledge-complexity.pdf"
 type: "paper"
-community: "Community 37"
+community: "Community 15"
 location: "p. 193"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_37
+  - community/Community_15
 ---
 
 # Perfect / Statistical / Computational Zero-Knowledge
@@ -15,4 +15,4 @@ tags:
 - [[Statistical  Computational Indistinguishability (judge, poly-size circuit families)]] - `conceptually_related_to` [EXTRACTED]
 - [[Zero-Knowledge Proof]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_37
+#graphify/paper #graphify/EXTRACTED #community/Community_15

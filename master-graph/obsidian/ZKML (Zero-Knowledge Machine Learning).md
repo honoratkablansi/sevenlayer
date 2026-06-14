@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 77"
+community: "Community 117"
 location: "Chapter 13"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_77
+  - community/Community_117
 ---
 
 # ZKML (Zero-Knowledge Machine Learning)
@@ -21,7 +21,10 @@ tags:
 - [[Lagrange DeepProve]] - `implements` [EXTRACTED]
 - [[Market Sizing]] - `references` [EXTRACTED]
 - [[Media provenance]] - `conceptually_related_to` [INFERRED]
+- [[R1CS (Rank-1 Constraint Systems)]] - `relates_to` [EXTRACTED]
+- [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `uses` [EXTRACTED]
 - [[Scaling up Trustless DNN Inference with Zero-Knowledge Proofs (Kang, Hashimoto, Stoica, Sun, 2022)]] - `conceptually_related_to` [EXTRACTED]
+- [[Sum-Check Protocol]] - `uses` [EXTRACTED]
 - [[Sumcheck-based DNN proof systems (zkCNNLiu 2021, vCNNLee 2020, pvCNNWeng 2022, Thaler 2013) custom IPSNARK protocols tailored to convolutions, limited to MNISTCIFAR-10]] - `conceptually_related_to` [EXTRACTED]
 - [[The Market Landscape]] - `references` [EXTRACTED]
 - [[Trust Relocation vs Trust Minimization]] - `conceptually_related_to` [EXTRACTED]
@@ -34,4 +37,4 @@ tags:
 - [[zkCNN Zero Knowledge Proofs for CNN Predictions and Accuracy (CCS 2021)]] - `conceptually_related_to` [EXTRACTED]
 - [[zkML inference proof with folding case study]] - `explains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_77
+#graphify/document #graphify/EXTRACTED #community/Community_117

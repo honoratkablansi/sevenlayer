@@ -1,25 +1,26 @@
 ---
 type: community
-cohesion: 0.33
-members: 10
+cohesion: 0.18
+members: 11
 ---
 
 # Community 106
 
-**Cohesion:** 0.33 - loosely connected
-**Members:** 10 nodes
+**Cohesion:** 0.18 - loosely connected
+**Members:** 11 nodes
 
 ## Members
-- [[CGH separation technique feed the implementation's own codeseed back into the scheme via evasive relations; diagonalization over the enumeration of all poly-time ensembles to reverse quantifier order]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Correlation intractability the property whose circular dependency the attack circumvents by feeding the circuit its own digest as witness]] - paper - references/recursion/ch1/ref-11-khovratovich-fiat-shamir-attacks.pdf
-- [[Definition 3.2 correlation-intractable ensemble (and weak variant over poly-time recognizable relations)]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Evasive binary relation (Def 3.1) infeasible to find x with (x,O(x)) in R under a random oracle]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Function ensemble implementation of a random oracle (Def 2.1) seed s selected once, public; f_s replaces oracle calls]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Goldreich, Goldwasser, Micali 19 pseudorandom function ensembles (shown not necessarily correlation-intractable)]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Proposition 5.2 non-existence of restricted (length-bounded) correlation-intractable ensembles when seed length = input+output length]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[The Random Oracle Methodology, Revisited (Canetti, Goldreich, Halevi, JACM 2004  STOC 1998)]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Theorem 3.4 no correlation-intractable function ensembles exist (not even in the weak sense), via diagonal relation R_F = {(s, f_s(s))}]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Universal ensemble U and universal relation R_U = {(x, u_x(x))}, enumerating all efficiently computable ensembles]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
+- [[Aztec Plonk verifier point-at-infinity bug (zeros forge proofs; backend soundness)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[Backend-layer vulnerabilities (23 bugs setup error, prover error, unsafe verifier)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[Circuit-layer vulnerabilities (99 bugs; most prevalent class)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[ComputationalHints error (wrong witness computation; completenesssoundness)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[Four-layer SNARK system model (Circuit, Frontend, Backend, Integration)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[Frontend-layer vulnerabilities (6 bugs incorrect constraint compilation, witness-gen error)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[Integration-layer vulnerabilities (13 bugs unchecked data, delegation, composition, complementary-logic)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[Key finding low-level DSLs (Circom, Gnark) are easy-to-misuse, driving most circuit bugs]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[Over-constrained circuit (rejects valid witnesses, causes DoS)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[Root cause arithmetic field error (nativetransformed over- and underflows)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[Semaphore verifier uint256 over snark field bug (integration, breaks completeness)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -29,13 +30,11 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 6 edges to [[_COMMUNITY_Community 98]]
-- 2 edges to [[_COMMUNITY_Community 96]]
-- 1 edge to [[_COMMUNITY_Community 33]]
-- 1 edge to [[_COMMUNITY_Community 24]]
+- 1 edge to [[_COMMUNITY_Community 95]]
+- 1 edge to [[_COMMUNITY_Community 70]]
+- 1 edge to [[_COMMUNITY_Community 15]]
 
 ## Top bridge nodes
-- [[The Random Oracle Methodology, Revisited (Canetti, Goldreich, Halevi, JACM 2004  STOC 1998)]] - degree 13, connects to 2 communities
-- [[Correlation intractability the property whose circular dependency the attack circumvents by feeding the circuit its own digest as witness]] - degree 7, connects to 2 communities
-- [[CGH separation technique feed the implementation's own codeseed back into the scheme via evasive relations; diagonalization over the enumeration of all poly-time ensembles to reverse quantifier order]] - degree 4, connects to 1 community
-- [[Function ensemble implementation of a random oracle (Def 2.1) seed s selected once, public; f_s replaces oracle calls]] - degree 2, connects to 1 community
+- [[Circuit-layer vulnerabilities (99 bugs; most prevalent class)]] - degree 6, connects to 1 community
+- [[Four-layer SNARK system model (Circuit, Frontend, Backend, Integration)]] - degree 5, connects to 1 community
+- [[Key finding low-level DSLs (Circom, Gnark) are easy-to-misuse, driving most circuit bugs]] - degree 2, connects to 1 community

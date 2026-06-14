@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch3/ref-84-w3c-verifiable-credentials.md"
 type: "document"
-community: "Community 49"
+community: "Community 79"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_49
+  - community/Community_79
 ---
 
 # Issuer / Holder / Verifier roles
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[W3C Verifiable Credentials Data Model v2.0]] - `defines` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_49
+#graphify/document #graphify/EXTRACTED #community/Community_79

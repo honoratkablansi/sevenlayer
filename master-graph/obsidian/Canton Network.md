@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch13-enterprise-pilots-pilot.md"
 type: "document"
-community: "Community 21"
+community: "Community 12"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_21
+  - community/Community_12
 ---
 
 # Canton Network
@@ -15,4 +15,4 @@ tags:
 - [[DTCC and Digital Asset Partner to Tokenize DTC-Custodied U.S. Treasury Securities on the Canton Network]] - `references` [EXTRACTED]
 - [[Enterprise Pilots (Pilot)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_21
+#graphify/document #graphify/EXTRACTED #community/Community_12

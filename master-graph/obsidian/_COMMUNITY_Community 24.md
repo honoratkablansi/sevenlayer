@@ -1,43 +1,43 @@
 ---
 type: community
-cohesion: 0.10
+cohesion: 0.11
 members: 28
 ---
 
 # Community 24
 
-**Cohesion:** 0.10 - loosely connected
+**Cohesion:** 0.11 - loosely connected
 **Members:** 28 nodes
 
 ## Members
-- [[Arnon-Yogev AY25 Towards a white-box secure Fiat-Shamir transformation - followup mitigation (larger hash + PoW); model fails to capture this attack]] - paper - references/recursion/ch1/ref-11-khovratovich-fiat-shamir-attacks.pdf
-- [[Augmented constraint systems R1 and R2 (Fig 1a1b) each folds opposite-field instance, hashes carry public IO across the cycle]] - paper - references/recursion/ch1/ref-32-nguyen-boneh-setty-nova-cycle.pdf
-- [[Committed relaxed R1CS over the ring R = F1 x F2 (binding, additively-homomorphic, succinct commitments)]] - paper - references/recursion/ch1/ref-32-nguyen-boneh-setty-nova-cycle.pdf
-- [[Construction 1 flawed circuit C(w) interprets w as digest psi, computes alpha=comm(w), gamma=h(psi,y,alpha), outputs (gamma,gamma-1); self-digest-as-witness breaks circular dependency; accept_0a4cf715]] - paper - references/recursion/ch1/ref-11-khovratovich-fiat-shamir-attacks.pdf
-- [[Construction 2 backdoored C via IF-THEN-ELSE gate and helper g that internally runs FS challenge; Proposition 7 shows fake transcript (u_fake) validates real evaluation since first coord of r_b94eb212]] - paper - references/recursion/ch1/ref-11-khovratovich-fiat-shamir-attacks.pdf
-- [[Definition 6 adaptive soundness of FS_h(Pi_{comm,d}); adversary given spec of h and comm outputs (C,x,y,pi) with C(x,w)!=y yet verifier accepts]] - paper - references/recursion/ch1/ref-11-khovratovich-fiat-shamir-attacks.pdf
-- [[Fix remove pair (u(1)_i, w(1)_i) from IVC proof and shift hash check to u(2)_i.x0 = H1(vk,i,z0,zi,U(2)_i)]] - paper - references/recursion/ch1/ref-32-nguyen-boneh-setty-nova-cycle.pdf
-- [[General binding lesson every claimed running instance must be cryptographically bound (via hashcopy constraints) to the witness actually folded into it]] - paper - references/recursion/ch1/ref-32-nguyen-boneh-setty-nova-cycle.pdf
-- [[IVC proof compression a final fold (without SNARK) plus Spartan zkSNARK over R_sat yields the CompressedSNARK]] - paper - references/recursion/ch1/ref-32-nguyen-boneh-setty-nova-cycle.pdf
-- [[In-circuit hash the FS hash function (and PCS) computed inside the GKR arithmetic circuit being proved; depth d = d_comm+d_h enables the attack]] - paper - references/recursion/ch1/ref-11-khovratovich-fiat-shamir-attacks.pdf
-- [[Insufficient binding the extra instance-witness pair u(1)_i in the proof was not constrained to be the one folded into running instance U(1)_i]] - paper - references/recursion/ch1/ref-32-nguyen-boneh-setty-nova-cycle.pdf
-- [[Khovratovich, Maller, Tiwari — MinRoot candidate sequential function for Ethereum VDF (2022) 9]] - paper - references/recursion/ch1/ref-32-nguyen-boneh-setty-nova-cycle.pdf
-- [[Kothapalli, Setty, Tzialla — Nova Recursive zero-knowledge arguments from folding schemes (CRYPTO 2022) 11]] - paper - references/recursion/ch1/ref-32-nguyen-boneh-setty-nova-cycle.pdf
-- [[Modified 2-cycle Nova IVC scheme shorter proofs (eliminates one R1CS instance-witness pair), proven sound; adopted upstream (PR 167)]] - paper - references/recursion/ch1/ref-32-nguyen-boneh-setty-nova-cycle.pdf
-- [[Nova IVC proofs are malleable attacker mauls final z_i to z'_i (different last aux) without knowing earlier aux values]] - paper - references/recursion/ch1/ref-32-nguyen-boneh-setty-nova-cycle.pdf
-- [[PoC forged Nova proof of 275 Minroot VDF rounds in 1.46 s on a laptop (NovaBreakingTheCycleAttack fork)]] - paper - references/recursion/ch1/ref-32-nguyen-boneh-setty-nova-cycle.pdf
-- [[Prior FS uninstantiability counterexamples Barak Bar01, Goldwasser-Kalai GK03, and Bartusek et al. BBH+19 On the (in)security of Kilian-based SNARGs]] - paper - references/recursion/ch1/ref-11-khovratovich-fiat-shamir-attacks.pdf
-- [[Revisiting the Nova Proof System on a Cycle of Curves (Nguyen, Boneh, Setty, ePrint 2023969)]] - paper - references/recursion/ch1/ref-32-nguyen-boneh-setty-nova-cycle.pdf
-- [[Root cause and mitigations GKR prover does not commit to full computation trace, so attacker invokes FS hash uncommitted; mitigate by ensuring circuit family cannot compute the hash (raise ha_a723a0a3]] - paper - references/recursion/ch1/ref-11-khovratovich-fiat-shamir-attacks.pdf
-- [[Setty — Spartan efficient general-purpose zkSNARKs without trusted setup (CRYPTO 2020) 16]] - paper - references/recursion/ch1/ref-32-nguyen-boneh-setty-nova-cycle.pdf
-- [[Soundness attack producing an accepting proof for a false statement in a FS-compiled argument (adaptive and non-adaptive variants)]] - paper - references/recursion/ch1/ref-11-khovratovich-fiat-shamir-attacks.pdf
-- [[Theorem 1 (Basic Attack) for every h (depth d_h) and comm (depth d_comm), for d = d_comm+d_h+O(1), FS_h(Pi_{comm,d}) is not adaptively sound]] - paper - references/recursion/ch1/ref-11-khovratovich-fiat-shamir-attacks.pdf
-- [[Theorem 1 if the folding scheme is knowledge-sound and the hash is collision-resistant, the modified 2-cycle Nova IVC is knowledge-sound]] - paper - references/recursion/ch1/ref-32-nguyen-boneh-setty-nova-cycle.pdf
-- [[Theorem 2 (Extended Attack) poly-time A turns any admissible circuit C into functionally-equivalent C (depth d+d_comm+O(d_h log l)) plus proof that C(x,w)=y for arbitrary y; soundness depends_296f75ab]] - paper - references/recursion/ch1/ref-11-khovratovich-fiat-shamir-attacks.pdf
-- [[Three malleability mitigations zkSNARK compression (simulation-extractable), context in vk, and incremental context (range-keyed vk swap)]] - paper - references/recursion/ch1/ref-32-nguyen-boneh-setty-nova-cycle.pdf
-- [[Two parallel IVC chains over a curve cycle that must be linked (R1CS(1)R1CS(2) over ring R = F1 x F2)]] - paper - references/recursion/ch1/ref-32-nguyen-boneh-setty-nova-cycle.pdf
-- [[Two-stage forged-proof construction run honest prover with adversarial u(1)_{i-1}U(2)_perp inputs to produce convincing proof for false statement]] - paper - references/recursion/ch1/ref-32-nguyen-boneh-setty-nova-cycle.pdf
-- [[Underconstrained additional R1CS instance-witness pair (u(1)_i, w(1)_i) carried in the old IVC proof]] - paper - references/recursion/ch1/ref-32-nguyen-boneh-setty-nova-cycle.pdf
+- [[Batch circle FRI soundness error (Theorem 6, eps_PROX)]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[CFFT-friendly prime (p+1 divisible by 2(n+1))]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[Circle FFT and inverse (non-harmonic, Nn adds, Nn2 mults)]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[Circle FFT butterfly algorithm (radix-2 style, complex-extension twiddles)]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[Circle FRI low-degree test  IOP of proximity (Protocol 1 & 2)]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[Circle STARK AIR soundness & knowledge-soundness error (Theorem 78)]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[Circle STARK interactive oracle proof for AIR]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[Circle code (MDS algebraic-geometry  generalized Reed-Solomon code)]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[Circle group  circle curve x2+y2=1]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[Correlated agreement theorem for Reed-Solomon codes]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[DEEP single-point quotients (realimaginary parts over F(i))]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[Decomposition Lemma overall quotient split with dimension-gap scalar lambda]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[Elliptic Curve FFT (ECFFT)]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[FFT-basis B_n and FFT-space L'_N (dimension gap of co-dimension one)]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[Fast Fourier Transform (FFT)]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[Galois-FFT (G-FFT) over rational function field automorphisms]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[Group squaring map pi and inversion J (the two endomorphisms)]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[Isomorphism of circle curve to projective line P1 (genus zero, F+1 points)]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[Limit-at-infinity calculus for resolving the dimension gap]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[Mersenne FFT  Reed-Solomon codes over the circle group HLN23]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[Mersenne Prime Field]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[Mersenne Prime M31 (231 - 1)]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[Mersenne-31 vs Babybear FFT benchmark (1.4x speed-up)]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[Optimized non-zk circle STARK (eval domain superset of trace, group position)]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[Reed-Solomon proximity gaps  list-decoding]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[Space L_N of bivariate polynomials (Riemann-Roch space, dim N+1)]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[Twin-coset and standard position coset FFT domains]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[Vanishing polynomials v_n and domain quotients]] - paper - references/ch06/ref-23-circle-starks.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -47,17 +47,12 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 7 edges to [[_COMMUNITY_Community 14]]
-- 4 edges to [[_COMMUNITY_Community 32]]
-- 3 edges to [[_COMMUNITY_Community 16]]
-- 2 edges to [[_COMMUNITY_Community 1]]
-- 1 edge to [[_COMMUNITY_Community 13]]
-- 1 edge to [[_COMMUNITY_Community 35]]
-- 1 edge to [[_COMMUNITY_Community 106]]
+- 6 edges to [[_COMMUNITY_Community 2]]
+- 2 edges to [[_COMMUNITY_Community 14]]
 
 ## Top bridge nodes
-- [[In-circuit hash the FS hash function (and PCS) computed inside the GKR arithmetic circuit being proved; depth d = d_comm+d_h enables the attack]] - degree 6, connects to 2 communities
-- [[Kothapalli, Setty, Tzialla — Nova Recursive zero-knowledge arguments from folding schemes (CRYPTO 2022) 11]] - degree 3, connects to 2 communities
-- [[Soundness attack producing an accepting proof for a false statement in a FS-compiled argument (adaptive and non-adaptive variants)]] - degree 12, connects to 1 community
-- [[Modified 2-cycle Nova IVC scheme shorter proofs (eliminates one R1CS instance-witness pair), proven sound; adopted upstream (PR 167)]] - degree 5, connects to 1 community
-- [[Root cause and mitigations GKR prover does not commit to full computation trace, so attacker invokes FS hash uncommitted; mitigate by ensuring circuit family cannot compute the hash (raise ha_a723a0a3]] - degree 4, connects to 1 community
+- [[Circle group  circle curve x2+y2=1]] - degree 8, connects to 2 communities
+- [[Circle STARK interactive oracle proof for AIR]] - degree 8, connects to 1 community
+- [[Circle FRI low-degree test  IOP of proximity (Protocol 1 & 2)]] - degree 5, connects to 1 community
+- [[Elliptic Curve FFT (ECFFT)]] - degree 3, connects to 1 community
+- [[Mersenne Prime M31 (231 - 1)]] - degree 3, connects to 1 community

@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 15"
+community: "Community 62"
 location: "Chapter 6"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_15
+  - community/Community_62
 ---
 
 # Layer 5: The Sealed Certificate (Proof System)
@@ -19,4 +19,4 @@ tags:
 - [[Schwartz-Zippel Lemma]] - `explains` [EXTRACTED]
 - [[The Proof Core Triad (Field, Commitment, Arithmetization)]] - `explains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_15
+#graphify/document #graphify/EXTRACTED #community/Community_62

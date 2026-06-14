@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch03/ref-13-practical-security-zk-circuits.pdf"
 type: "paper"
-community: "Community 43"
+community: "Community 80"
 location: "§5.3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_43
+  - community/Community_80
 ---
 
 # 32 previously-unknown vulnerabilities (34 unique problems, 405 warnings)
@@ -16,4 +16,4 @@ tags:
 - [[ed25519-circom PointCompress unconstrained-output bug]] - `introduces` [EXTRACTED]
 - [[iden3 verifyExpirationTime missing-range-check type mismatch]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_43
+#graphify/paper #graphify/EXTRACTED #community/Community_80

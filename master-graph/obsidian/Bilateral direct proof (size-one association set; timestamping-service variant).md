@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch09/ref-31-blockchain-privacy-compliance.pdf"
 type: "paper"
-community: "Community 42"
+community: "Community 118"
 location: "§4.2.2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_42
+  - community/Community_118
 ---
 
 # Bilateral direct proof (size-one association set; timestamping-service variant)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Membership proof ('my withdrawal comes from one of these deposits')]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_42
+#graphify/paper #graphify/EXTRACTED #community/Community_118

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-56-symphony.pdf"
 type: "paper"
-community: "Community 28"
+community: "Community 34"
 location: "page 1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_28
+  - community/Community_34
 ---
 
 # Symphony: Scalable SNARKs in the Random Oracle Model from Lattice-Based High-Arity Folding
@@ -35,4 +35,4 @@ tags:
 - [[Two-layer folding via splitting linear-statement RoK (§8), under stronger structured-MSIS]] - `introduces` [EXTRACTED]
 - [[zkVM]] - `references` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_28
+#graphify/paper #graphify/EXTRACTED #community/Community_34

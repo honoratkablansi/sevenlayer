@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch2/ref-41-spartan.pdf"
 type: "paper"
-community: "Community 46"
+community: "Community 16"
 location: "title page"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_46
+  - community/Community_16
 ---
 
 # Setty, "Spartan: Efficient and General-Purpose zkSNARKs without Trusted Setup" (CRYPTO 2020 / ePrint 2019/550)
@@ -18,4 +18,4 @@ tags:
 - [[Theorem 1.1  Corollary 1.1 family of zkSNARKs, prover O(n)–O(n log n), verifierproof O(log² n)–O(√n)]] - `proves` [EXTRACTED]
 - [[Theorem 4.1 ∃ degree-3 log m-variate G with ∑ G(x)=0 iff R1CS satisfiable]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_46
+#graphify/paper #graphify/EXTRACTED #community/Community_16

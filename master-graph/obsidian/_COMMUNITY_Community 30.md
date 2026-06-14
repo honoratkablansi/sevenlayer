@@ -1,41 +1,40 @@
 ---
 type: community
-cohesion: 0.12
-members: 26
+cohesion: 0.08
+members: 25
 ---
 
 # Community 30
 
-**Cohesion:** 0.12 - loosely connected
-**Members:** 26 nodes
+**Cohesion:** 0.08 - loosely connected
+**Members:** 25 nodes
 
 ## Members
-- [[Batch circle FRI soundness error (Theorem 6, eps_PROX)]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[CFFT-friendly prime (p+1 divisible by 2(n+1))]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[Circle FFT and inverse (non-harmonic, Nn adds, Nn2 mults)]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[Circle FFT butterfly algorithm (radix-2 style, complex-extension twiddles)]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[Circle FRI low-degree test  IOP of proximity (Protocol 1 & 2)]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[Circle STARK AIR soundness & knowledge-soundness error (Theorem 78)]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[Circle STARK interactive oracle proof for AIR]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[Circle code (MDS algebraic-geometry  generalized Reed-Solomon code)]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[Circle group  circle curve x2+y2=1]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[Correlated agreement theorem for Reed-Solomon codes]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[DEEP single-point quotients (realimaginary parts over F(i))]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[Decomposition Lemma overall quotient split with dimension-gap scalar lambda]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[Elliptic Curve FFT (ECFFT)]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[FFT-basis B_n and FFT-space L'_N (dimension gap of co-dimension one)]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[Galois-FFT (G-FFT) over rational function field automorphisms]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[Group squaring map pi and inversion J (the two endomorphisms)]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[Isomorphism of circle curve to projective line P1 (genus zero, F+1 points)]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[Limit-at-infinity calculus for resolving the dimension gap]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[Mersenne FFT  Reed-Solomon codes over the circle group HLN23]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[Mersenne Prime M31 (231 - 1)]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[Mersenne-31 vs Babybear FFT benchmark (1.4x speed-up)]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[Optimized non-zk circle STARK (eval domain superset of trace, group position)]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[Reed-Solomon proximity gaps  list-decoding]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[Space L_N of bivariate polynomials (Riemann-Roch space, dim N+1)]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[Twin-coset and standard position coset FFT domains]] - paper - references/ch06/ref-23-circle-starks.pdf
-- [[Vanishing polynomials v_n and domain quotients]] - paper - references/ch06/ref-23-circle-starks.pdf
+- [[BEATS Batch ECDSA Transaction verification Scheme  Scalable batch verification of ECDSA for blockchain using IVC (Fr]] - document - references/recursion/ch1/ref-24-beats-batch-ecdsa.md
+- [[Academic literature on end-to-end verifiable voting with zero-knowledge tallies]] - document - references/recursion/ch3/ref-60-verifiable-voting-zk-tallies.md
+- [[Aligned Layer, The Year of zkVM Real-Time Proving (2025)  prover-market analyses]] - document - references/recursion/ch1/ref-35-aligned-year-of-zkvm-realtime.md
+- [[Chase, Lysyanskaya, Delegatable Anonymous Credentials lineage (CRYPTO 2009 onward)]] - document - references/recursion/ch3/ref-82-chase-lysyanskaya-delegatable-credentials.md
+- [[Chiesa, Tromer, Proof-Carrying Data and Hearsay Arguments from Signature Cards (ICS 2010)]] - document - references/recursion/ch1/ref-04-chiesa-tromer-pcd-hearsay.md
+- [[Dark Forest and zk-gaming ecosystem writeups]] - document - references/recursion/ch3/ref-91-dark-forest-zk-gaming.md
+- [[EZKL benchmarks (monolithic zkML inference baseline)]] - document - references/recursion/ch3/ref-93-ezkl-monolithic-benchmarks.md
+- [[Fiat, Shamir, How to Prove Yourself Practical Solutions to Identification and Signature Problems (CRYPTO 1986)]] - document - references/recursion/ch2/ref-40-fiat-shamir.md
+- [[IVC streaming computation literature]] - document - references/recursion/ch3/ref-76-ivc-streaming-literature.md
+- [[Khovratovich, Maller, Tiwari et al., MinRoot VDF candidate (2022)]] - document - references/recursion/ch2/ref-42-minroot-vdf.md
+- [[Mina Pickles technical documentation]] - document - references/recursion/ch2/ref-49-mina-pickles-docs.md
+- [[Mina, Hazook recursive zkRollup design (2024)]] - document - references/recursion/ch1/ref-25-mina-hazook.md
+- [[Nova-based zkML folding literature]] - document - references/recursion/ch3/ref-71-nova-zkml-folding.md
+- [[Pedersen, Non-Interactive and Information-Theoretic Secure Verifiable Secret Sharing (CRYPTO 1991)]] - document - references/recursion/ch2/ref-39-pedersen-commitments.md
+- [[Practitioner literature on recursive ZK circuit design (e.g., zkDev, Designing Efficient Recursive ZK Circuits, 2026)]] - document - references/recursion/ch1/ref-29-zkdev-recursive-circuits.md
+- [[Published IVC flight-control benchmark work (real-time high-integrity flight control via recursive SNARKs)]] - document - references/recursion/ch3/ref-67-ivc-flight-control-benchmark.md
+- [[RISC Zero, Continuations  Using Continuations to Prove Any EVM Transaction (2023)]] - document - references/recursion/ch1/ref-23-risc-zero-continuations.md
+- [[Recursion References (cited works)]] - document - references/recursion/manifest.json
+- [[Reproducible-builds literature]] - document - references/recursion/ch3/ref-64-reproducible-builds-literature.md
+- [[Research literature on SNARK-backed transparency logs and verifiable log-structured storage]] - document - references/recursion/ch3/ref-66-snark-backed-transparency-logs.md
+- [[Sonobe library documentation (PSE0xPARC)]] - document - references/recursion/ch2/ref-48-sonobe.md
+- [[State-channel literature]] - document - references/recursion/ch3/ref-92-state-channel-literature.md
+- [[Subsequent verifiable-database and zk-analytics literature]] - document - references/recursion/ch3/ref-74-verifiable-database-zk-analytics.md
+- [[Succinct, Real-Time Proving with 16 GPUs (2026)]] - document - references/recursion/ch1/ref-34-succinct-16-gpus.md
+- [[Valiant, Incrementally Verifiable Computation, or Proofs of Knowledge Imply TimeSpace Efficiency (TCC 2008)]] - document - references/recursion/ch1/ref-01-valiant-ivc.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -43,14 +42,3 @@ members: 26
 TABLE source_file, type FROM #community/Community_30
 SORT file.name ASC
 ```
-
-## Connections to other communities
-- 6 edges to [[_COMMUNITY_Community 8]]
-- 1 edge to [[_COMMUNITY_Community 15]]
-
-## Top bridge nodes
-- [[Circle STARK interactive oracle proof for AIR]] - degree 8, connects to 1 community
-- [[Circle group  circle curve x2+y2=1]] - degree 5, connects to 1 community
-- [[Circle FRI low-degree test  IOP of proximity (Protocol 1 & 2)]] - degree 5, connects to 1 community
-- [[Elliptic Curve FFT (ECFFT)]] - degree 3, connects to 1 community
-- [[Mersenne Prime M31 (231 - 1)]] - degree 3, connects to 1 community

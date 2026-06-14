@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-33-snarkpack.pdf"
 type: "paper"
-community: "Community 89"
+community: "Community 3"
 location: "Abstract, §1 Contribution, §7 Implementation"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_89
+  - community/Community_3
 ---
 
 # Logarithmic-size proof and log-time verifier
@@ -15,4 +15,4 @@ tags:
 - [[Proof Aggregation]] - `conceptually_related_to` [EXTRACTED]
 - [[SnarkPack Practical SNARK Aggregation]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_89
+#graphify/paper #graphify/EXTRACTED #community/Community_3

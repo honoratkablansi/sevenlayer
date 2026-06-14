@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-10-fractal.pdf"
 type: "paper"
-community: "Community 33"
+community: "Community 6"
 location: "§2.4; §12.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_33
+  - community/Community_6
 ---
 
 # FRACTAL system: implementation extending libiop, supporting generic compilation of holographic proofs into preprocessing SNARGs
@@ -17,4 +17,4 @@ tags:
 - [[Random oracle model (non-interactive STARK  NIROP)]] - `assumes` [EXTRACTED]
 - [[Theorem 3 preprocessing zkSNARK for R1CS in the (Q)ROM (FRACTAL) — first efficient post-quantum transparent preprocessing zkSNARK]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_33
+#graphify/paper #graphify/EXTRACTED #community/Community_6

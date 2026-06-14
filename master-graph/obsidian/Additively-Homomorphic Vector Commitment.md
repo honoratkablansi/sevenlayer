@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-17-nova.pdf"
 type: "paper"
-community: "Community 16"
+community: "Community 33"
 location: "§2.1 Def 1, Appendix F"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_16
+  - community/Community_33
 ---
 
 # Additively-Homomorphic Vector Commitment
@@ -15,4 +15,4 @@ tags:
 - [[Committed Relaxed R1CS]] - `assumes` [EXTRACTED]
 - [[Pedersen Commitment]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_16
+#graphify/paper #graphify/EXTRACTED #community/Community_33

@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-21-zktree.pdf"
 type: "paper"
-community: "Community 78"
+community: "Community 3"
 location: "Abstract; §3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_78
+  - community/Community_3
 ---
 
 # zkTree: zero-knowledge recursion tree with ZKP membership proofs
@@ -27,4 +27,4 @@ tags:
 - [[Three zkTree proof types user proof, leaf proof, node proof]] - `defines` [EXTRACTED]
 - [[zkTree costtime model gen time ~ log(n) node-proof times; comm cost n x proof size (~130KB)]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_78
+#graphify/paper #graphify/EXTRACTED #community/Community_3

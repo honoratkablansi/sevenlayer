@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-33-snarkpack.pdf"
 type: "paper"
-community: "Community 118"
+community: "Community 3"
 location: "§5 MT-IPP Scheme"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_118
+  - community/Community_3
 ---
 
 # MT-IPP: merged MIPP+TIPP argument
@@ -19,4 +19,4 @@ tags:
 - [[TIPP Target Inner Pairing Product argument]] - `defines` [EXTRACTED]
 - [[Theorem 3 MT-IPP completeness and knowledge soundness]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_118
+#graphify/paper #graphify/EXTRACTED #community/Community_3

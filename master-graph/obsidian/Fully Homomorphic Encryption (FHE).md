@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 5"
+community: "Community 4"
 location: "Chapter 9"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_5
+  - community/Community_4
 ---
 
 # Fully Homomorphic Encryption (FHE)
@@ -29,6 +29,7 @@ tags:
 - [[The Incomplete Stack]] - `conceptually_related_to` [EXTRACTED]
 - [[Three Kinds of Security]] - `conceptually_related_to` [EXTRACTED]
 - [[Verifiable FHE (zkFHE)]] - `conceptually_related_to` [EXTRACTED]
+- [[Verifiable computation]] - `uses` [EXTRACTED]
 - [[Zama Confidential Blockchain Protocol]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_5
+#graphify/document #graphify/EXTRACTED #community/Community_4

@@ -1,37 +1,36 @@
 ---
 type: community
 cohesion: 0.13
-members: 22
+members: 21
 ---
 
 # Community 47
 
 **Cohesion:** 0.13 - loosely connected
-**Members:** 22 nodes
+**Members:** 21 nodes
 
 ## Members
-- [[A la carte cost profile per-step proving cost proportional only to the circuit size of the invoked instruction, independent of k (number of instruction types)]] - paper - references/recursion/ch2/ref-44-supernova.pdf
-- [[Augmented function F'_j runs F_j then a verifier circuit folding u_i into U_ipc, checks public IO hash, and computes pc_{i+1} via phi]] - paper - references/recursion/ch2/ref-44-supernova.pdf
-- [[Avoiding universal switch circuits SuperNova never builds a circuit summing all instruction circuits; per-step cost depends only on the executed instruction]] - paper - references/recursion/ch2/ref-44-supernova.pdf
-- [[Buffet 34 a-la-carte cost via line-by-line compilation to non-uniform circuits, but not incremental and needs static execution bounds]] - paper - references/recursion/ch2/ref-44-supernova.pdf
-- [[Compression to succinct zero-knowledge apply a general-purpose zkSNARK (e.g., Spartan) over a valid NIVC proof, as in Nova]] - paper - references/recursion/ch2/ref-44-supernova.pdf
-- [[Construction 1 SuperNova NIVC scheme (G,K,P,V) built from non-interactive folding scheme NIFS for committed relaxed R1CS plus a hash]] - paper - references/recursion/ch2/ref-44-supernova.pdf
-- [[Control function phi takes (z_i, omega_i) and outputs program counter pc in {1,...,l} selecting which F_j to apply at each step]] - paper - references/recursion/ch2/ref-44-supernova.pdf
-- [[Instantiations VDF machine (l=1, MinRoot) and RAM machine (RISC-V-like, program counter register, Merkle-committed memory)]] - paper - references/recursion/ch2/ref-44-supernova.pdf
-- [[Kothapalli, Setty, Tzialla, Nova (CRYPTO 2022)]] - document - recursion/recursion-outline.md
-- [[Lemma 1  Assumption 1 non-interactive folding scheme for committed relaxed R1CS (Nova 21); prover O(n), verifier and communication O(1), via Fiat-Shamir in plain model]] - paper - references/recursion/ch2/ref-44-supernova.pdf
-- [[Lemma 2 (Completeness) Construction 1 is an NIVC scheme satisfying perfect completeness]] - paper - references/recursion/ch2/ref-44-supernova.pdf
-- [[Lemma 3 (Knowledge soundness) Construction 1 satisfies knowledge soundness via inductive extractor reduction to folding-scheme soundness]] - paper - references/recursion/ch2/ref-44-supernova.pdf
-- [[Lemma 4 (Efficiency) F'_j = phi + F_j + o(2G + 2H + R); prover cost dominated by two multiexponentiations sized to the executed instruction]] - paper - references/recursion/ch2/ref-44-supernova.pdf
-- [[MIRAGE 20 adapts vRAM techniques to Groth's SNARK; still relies on whole-trace invariants, incompatible with incremental proving]] - paper - references/recursion/ch2/ref-44-supernova.pdf
-- [[Multiple running instances, one per instruction type; incoming step instance folded into the running instance selected by pc (U_ipc)]] - paper - references/recursion/ch2/ref-44-supernova.pdf
-- [[Non-uniform IVC (NIVC) generalization of IVC where each step proves a relation chosen from a set, selected by a control function]] - paper - references/recursion/ch2/ref-44-supernova.pdf
-- [[Optimization offlineMerkle memory-checking reduces F'_j circuit dependence on l from O(l) to O(log l) then to O(1) constraints]] - paper - references/recursion/ch2/ref-44-supernova.pdf
-- [[Per-instruction step functions {F_1,...,F_l} plus control function phi; each F_j verifies one instruction type, cost independent of l]] - paper - references/recursion/ch2/ref-44-supernova.pdf
-- [[Program counter (pc) index selecting which instructionfunction is run at a step; computed by control function phi and threaded between augmented circuits]] - paper - references/recursion/ch2/ref-44-supernova.pdf
-- [[SuperNova (Non-Uniform IVC)]] - document - proving-nothing.md
-- [[Universal circuit single circuit executing any supported instruction (fetch-decode-execute); per-step cost scales with sum of all instruction circuit sizes]] - paper - references/recursion/ch2/ref-44-supernova.pdf
-- [[vRAM 37 trimmed universal circuit for vnTinyRAM via fingerprinting over the trace; not incremental, not zero-knowledge]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[Buterin, A rollup-centric ethereum roadmap (2020)]] - document - references/recursion/ch3/ref-54-ethereum-rollup-centric-roadmap.md
+- [[Claim Proving Cost Collapse $80 to $0.04 (2023-2025)]] - document - proving-nothing.md
+- [[Data availability layer (base layer as DA for rollups)]] - document - references/recursion/ch3/ref-54-ethereum-rollup-centric-roadmap.md
+- [[Identity and credentials]] - document - recursion/recursion-outline.md
+- [[Linea (ConsenSys zkEVM, $2B TVL, gnark)]] - document - proving-nothing.md
+- [[Maturity gradient for application clusters]] - document - recursion/recursion-outline.md
+- [[Optimistic Rollups]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[Phase 1.5 and done (base layer for consensus and DA only)]] - document - references/recursion/ch3/ref-54-ethereum-rollup-centric-roadmap.md
+- [[Polygon zkEVM STARK to FFLONK pipeline]] - document - recursion/recursion-outline.md
+- [[Polygon zkEVM Shutdown (~$250M, ZisK spinoff)]] - document - proving-nothing.md
+- [[Proof compression (STARK-to-SNARK)]] - document - recursion/recursion-outline.md
+- [[Rollup Stage 012 Decentralization]] - document - proving-nothing.md
+- [[Rollup-centric Ethereum scaling roadmap]] - document - references/recursion/ch3/ref-54-ethereum-rollup-centric-roadmap.md
+- [[Scroll (zkEVM, $748M TVL, halo2KZG)]] - document - proving-nothing.md
+- [[Section 3.7 recursion strategy decision framework]] - document - recursion/recursion-outline.md
+- [[Starknet (Stwo Circle STARK prover, Cairo ISA)]] - document - proving-nothing.md
+- [[Succinct SP1 Hypercube Prover]] - document - proving-nothing.md
+- [[Three Converging Forces (privacy, scaling, cost)]] - document - proving-nothing.md
+- [[ZK Rollup]] - document - proving-nothing.md
+- [[ZK rollup advantages over optimistic rollups (finality, cost, security)]] - document - references/recursion/ch3/ref-54-ethereum-rollup-centric-roadmap.md
+- [[ZKsync Era (Matter Labs, Airbender prover)]] - document - proving-nothing.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -41,16 +40,26 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 4 edges to [[_COMMUNITY_Community 16]]
-- 3 edges to [[_COMMUNITY_Community 32]]
-- 2 edges to [[_COMMUNITY_Community 11]]
-- 2 edges to [[_COMMUNITY_Community 7]]
-- 2 edges to [[_COMMUNITY_Community 61]]
-- 1 edge to [[_COMMUNITY_Community 0]]
+- 4 edges to [[_COMMUNITY_Community 12]]
+- 4 edges to [[_COMMUNITY_Community 21]]
+- 3 edges to [[_COMMUNITY_Community 17]]
+- 3 edges to [[_COMMUNITY_Community 71]]
+- 3 edges to [[_COMMUNITY_Community 19]]
+- 2 edges to [[_COMMUNITY_Community 79]]
+- 1 edge to [[_COMMUNITY_Community 3]]
+- 1 edge to [[_COMMUNITY_Community 14]]
+- 1 edge to [[_COMMUNITY_Community 2]]
+- 1 edge to [[_COMMUNITY_Community 58]]
+- 1 edge to [[_COMMUNITY_Community 52]]
+- 1 edge to [[_COMMUNITY_Community 1]]
+- 1 edge to [[_COMMUNITY_Community 9]]
+- 1 edge to [[_COMMUNITY_Community 11]]
+- 1 edge to [[_COMMUNITY_Community 99]]
+- 1 edge to [[_COMMUNITY_Community 127]]
 
 ## Top bridge nodes
-- [[SuperNova (Non-Uniform IVC)]] - degree 12, connects to 3 communities
-- [[Universal circuit single circuit executing any supported instruction (fetch-decode-execute); per-step cost scales with sum of all instruction circuit sizes]] - degree 4, connects to 2 communities
-- [[Lemma 1  Assumption 1 non-interactive folding scheme for committed relaxed R1CS (Nova 21); prover O(n), verifier and communication O(1), via Fiat-Shamir in plain model]] - degree 4, connects to 2 communities
-- [[Construction 1 SuperNova NIVC scheme (G,K,P,V) built from non-interactive folding scheme NIFS for committed relaxed R1CS plus a hash]] - degree 8, connects to 1 community
-- [[Non-uniform IVC (NIVC) generalization of IVC where each step proves a relation chosen from a set, selected by a control function]] - degree 5, connects to 1 community
+- [[ZK Rollup]] - degree 34, connects to 10 communities
+- [[Identity and credentials]] - degree 5, connects to 3 communities
+- [[Rollup-centric Ethereum scaling roadmap]] - degree 7, connects to 2 communities
+- [[Optimistic Rollups]] - degree 5, connects to 1 community
+- [[Three Converging Forces (privacy, scaling, cost)]] - degree 3, connects to 1 community

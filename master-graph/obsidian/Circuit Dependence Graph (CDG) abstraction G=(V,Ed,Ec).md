@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch03/ref-13-practical-security-zk-circuits.pdf"
 type: "paper"
-community: "Community 43"
+community: "Community 96"
 location: "§4.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_43
+  - community/Community_96
 ---
 
 # Circuit Dependence Graph (CDG) abstraction G=(V,Ed,Ec)
@@ -19,4 +19,4 @@ tags:
 - [[Vulnerability Description Language (VDL)]] - `assumes` [EXTRACTED]
 - [[ZKAP (static analyzer for ZKP circuits)]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_43
+#graphify/paper #graphify/EXTRACTED #community/Community_96

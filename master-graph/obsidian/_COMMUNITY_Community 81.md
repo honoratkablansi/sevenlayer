@@ -1,31 +1,31 @@
 ---
 type: community
-cohesion: 0.17
+cohesion: 0.15
 members: 16
 ---
 
 # Community 81
 
-**Cohesion:** 0.17 - loosely connected
+**Cohesion:** 0.15 - loosely connected
 **Members:** 16 nodes
 
 ## Members
-- [[FIPS 204 Module-Lattice-Based Digital Signature Standard]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[FIPS 204 Module-Lattice-Based Digital Signature Standard (ML-DSA), published 2024-08-13]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[Fiat-Shamir With Aborts construction (Schnorr-like signature with rejection sampling on the response)]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[HashML-DSA domain-separated pre-hash variant signing PH(M) for largestreamed messages]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[Hedged (default, fresh + precomputed randomness) vs deterministic signing variant; same Verify works for both]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[Hint vector h ∈ R2k (MakeHintUseHint) lets verifier reconstruct high bits w1 despite t1 compression]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[ML-DSA (Module-Lattice Digital Signature Algorithm)]] - document - references/ch14/ref-64-fips-204.pdf
-- [[ML-DSA derived from CRYSTALS-DILITHIUM v3.1 (Round-3 PQC selection); differences in Appendix D]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[ML-DSA-44 parameter set (k,ℓ)=(4,4), η=2, τ=39, λ=128, Category 2; pk 1312 B, sk 2560 B, sig 2420 B]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[ML-DSA-65 parameter set (k,ℓ)=(6,5), η=4, τ=49, λ=192, Category 3; pk 1952 B, sk 4032 B, sig 3309 B]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[ML-DSA-87 parameter set (k,ℓ)=(8,7), η=2, τ=60, λ=256, Category 5; pk 2592 B, sk 4896 B, sig 4627 B]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[ML-DSA.Sign (Alg 26.2) commit w=Ay, challenge c~ from H(w1μ), response z = y + c·s1, with rejection-sampling abort loop]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[ML-DSA.Verify (Alg 36.3) recompute w1' via UseHint from z, t1, c; accept iff z is short and c~ matches H(w1'μ)]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[Message representative μ = H(H(pk)  M); signing μ not M provides BUFF  beyond-unforgeability properties]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[Rejection sampling abort and restart with new mask y if z (or r0) coefficients fall outside bound, removing bias toward secret s1s2]] - paper - references/ch14/ref-64-fips-204.pdf
-- [[Strong existential unforgeability under chosen-message attack (SUF-CMA) plus BUFF properties]] - paper - references/ch14/ref-64-fips-204.pdf
+- [[Approval-status terms acceptable, deprecated, disallowed, legacy use]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
+- [[Assumption a sufficiently powerful quantum computer (definition relative to underlying crypto strength) will eventually be controllable by a bad actor (nation state, consortium, corporation)]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
+- [[Cryptographically Relevant Quantum Computer (CRQC)]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
+- [[DeprecationDisallowance Schedule 112-bit deprecated after 2030, RSAECC disallowed after 2035]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
+- [[ECDSA (Elliptic Curve Digital Signature Algorithm)]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
+- [[Litinski (2023) computing a 256-bit ECC private key with ~50M Toffoli gates]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
+- [[Mosca's Theorem (X+Y vs Z migration urgency)]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
+- [[National Security Memorandum 10 (NSM-10) mitigate quantum risk by 2035]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
+- [[PQC Standards Transition Timeline (target 2035, NSM-10)]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
+- [[Public-Key Cryptography]] - paper - references/ch07/ref-24-shor.pdf
+- [[Quantum-vulnerable digital signatures (ECDSA, EdDSA, RSA per FIPS 186)]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
+- [[Quantum-vulnerable key establishment (Finite FieldEC DH & MQV per SP 800-56A, RSA per SP 800-56B)]] - paper - references/ch07/ref-26-nist-ir-8547.pdf
+- [[RSA Cryptosystem]] - paper - references/ch07/ref-24-shor.pdf
+- [[RSA public-key cryptosystem (Rivest-Shamir-Adleman 1978)]] - paper - references/ch07/ref-24-shor.pdf
+- [[RSA-2048 and ECC-256 (discrete log) are asymmetric schemes broken by Shor's algorithm; symmetric crypto is more resilient via larger keys]] - paper - references/ch14/ref-63-harvest-now-decrypt-later.pdf
+- [[Shor's Algorithm]] - paper - references/ch07/ref-24-shor.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -35,17 +35,18 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 3 edges to [[_COMMUNITY_Community 0]]
-- 3 edges to [[_COMMUNITY_Community 72]]
-- 3 edges to [[_COMMUNITY_Community 122]]
-- 2 edges to [[_COMMUNITY_Community 120]]
-- 1 edge to [[_COMMUNITY_Community 96]]
-- 1 edge to [[_COMMUNITY_Community 8]]
-- 1 edge to [[_COMMUNITY_Community 1]]
+- 4 edges to [[_COMMUNITY_Community 48]]
+- 3 edges to [[_COMMUNITY_Community 91]]
+- 2 edges to [[_COMMUNITY_Community 0]]
+- 2 edges to [[_COMMUNITY_Community 111]]
+- 2 edges to [[_COMMUNITY_Community 113]]
+- 2 edges to [[_COMMUNITY_Community 27]]
+- 1 edge to [[_COMMUNITY_Community 31]]
+- 1 edge to [[_COMMUNITY_Community 133]]
 
 ## Top bridge nodes
-- [[ML-DSA (Module-Lattice Digital Signature Algorithm)]] - degree 18, connects to 4 communities
-- [[ML-DSA.Sign (Alg 26.2) commit w=Ay, challenge c~ from H(w1μ), response z = y + c·s1, with rejection-sampling abort loop]] - degree 8, connects to 2 communities
-- [[FIPS 204 Module-Lattice-Based Digital Signature Standard]] - degree 5, connects to 2 communities
-- [[Fiat-Shamir With Aborts construction (Schnorr-like signature with rejection sampling on the response)]] - degree 4, connects to 1 community
-- [[Hint vector h ∈ R2k (MakeHintUseHint) lets verifier reconstruct high bits w1 despite t1 compression]] - degree 3, connects to 1 community
+- [[Shor's Algorithm]] - degree 7, connects to 3 communities
+- [[Cryptographically Relevant Quantum Computer (CRQC)]] - degree 5, connects to 2 communities
+- [[PQC Standards Transition Timeline (target 2035, NSM-10)]] - degree 5, connects to 2 communities
+- [[RSA-2048 and ECC-256 (discrete log) are asymmetric schemes broken by Shor's algorithm; symmetric crypto is more resilient via larger keys]] - degree 4, connects to 2 communities
+- [[RSA Cryptosystem]] - degree 7, connects to 1 community

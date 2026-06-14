@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch02-the-bug-that-was-not-a-ceremony-failure.md"
 type: "document"
-community: "Community 12"
+community: "Community 5"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_12
+  - community/Community_5
 ---
 
 # The Bug That Was Not a Ceremony Failure
@@ -21,4 +21,4 @@ tags:
 - [[Universal versus Circuit-Specific Setups]] - `references` [EXTRACTED]
 - [[Zcash]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_12
+#graphify/document #graphify/EXTRACTED #community/Community_5

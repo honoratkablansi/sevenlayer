@@ -1,32 +1,33 @@
 ---
 type: community
-cohesion: 0.26
-members: 17
+cohesion: 0.12
+members: 18
 ---
 
 # Community 69
 
-**Cohesion:** 0.26 - loosely connected
-**Members:** 17 nodes
+**Cohesion:** 0.12 - loosely connected
+**Members:** 18 nodes
 
 ## Members
-- [[Ethproofs ZK Proving Cost Tracker (Ethereum Foundation)]] - document - references/ch13/ref-44-ethproofs.md
-- [[How to Read This Guide]] - document - wiki/sections/ch01-how-to-read-this-guide.md
-- [[Profiles of the Future (Arthur C. Clarke, 1962)]] - document - references/ch01/ref-01-clarke-profiles-of-the-future.md
-- [[Real-Time Proving]] - document - references/ch10/ref-52-sp1-hypercube.md
-- [[Shipping an L1 zkEVM 2 The Security Foundations (Ethereum Foundation)]] - document - references/ch10/ref-55-zkevm-security-foundations.md
-- [[The Deepest Question]] - document - wiki/sections/ch01-the-deepest-question.md
-- [[The First Decision]] - document - wiki/sections/ch01-the-first-decision.md
-- [[The Phenomenon]] - document - wiki/sections/ch01-the-phenomenon.md
-- [[The Promise of Provable and Programmable Secrets]] - document - wiki/chapters/01-the-promise-of-provable-and-programmable-secrets.md
-- [[The Proof at the Door]] - document - wiki/sections/ch01-the-proof-at-the-door.md
-- [[The Seven Layers at a Glance]] - document - wiki/sections/ch01-the-seven-layers-at-a-glance.md
-- [[The Trick]] - document - wiki/sections/ch01-the-trick.md
-- [[Three Converging Forces]] - document - wiki/sections/ch01-three-converging-forces.md
-- [[WHIR Polynomial Commitment Scheme]] - document - references/ch10/ref-55-zkevm-security-foundations.md
-- [[ZK Proofs Is Privacy Cheap Enough to Be Mainstream (Castle Labs)]] - document - references/ch13/ref-43-castlelabs-zk-privacy.md
-- [[Zcash]] - document - wiki/chapters/01-the-promise-of-provable-and-programmable-secrets.md
-- [[soundcalc (zkVM security estimation tool)]] - document - references/ch10/ref-55-zkevm-security-foundations.md
+- [[B-Bounded Ajtai Commitment Opening Relation RB_cm]] - paper - references/ch06/ref-20-latticefold.pdf
+- [[B-Relaxed Binding of Ajtai Commitment]] - paper - references/ch06/ref-20-latticefold.pdf
+- [[Base-b Witness Decomposition Step]] - paper - references/ch06/ref-20-latticefold.pdf
+- [[Expanded Evaluation Relation RB_eval]] - paper - references/ch06/ref-20-latticefold.pdf
+- [[Expansion-Decomposition-Folding Pipeline (Pi_mfold)]] - paper - references/ch06/ref-20-latticefold.pdf
+- [[Hypernova Folding Scheme (cited)]] - paper - references/ch06/ref-20-latticefold.pdf
+- [[LaBRADOR Lattice Proof System (cited)]] - paper - references/ch06/ref-20-latticefold.pdf
+- [[Lattice-Based CCS Folding Scheme]] - paper - references/ch06/ref-20-latticefold.pdf
+- [[Lattice-Based Committed CCS Relation RB_cmccs]] - paper - references/ch06/ref-20-latticefold.pdf
+- [[NTT  Coefficient Embedding over R_q]] - paper - references/ch06/ref-20-latticefold.pdf
+- [[Optimized Single-Sumcheck Batch Folding (Pi_batch)]] - paper - references/ch06/ref-20-latticefold.pdf
+- [[Performance Comparable to Hypernova on 64-bit Field]] - paper - references/ch06/ref-20-latticefold.pdf
+- [[Small Prime Modulus via Extension Fields]] - paper - references/ch06/ref-20-latticefold.pdf
+- [[Strong Sampling Set]] - paper - references/ch06/ref-20-latticefold.pdf
+- [[Sumcheck-Based Norm-Bound Range Check]] - paper - references/ch06/ref-20-latticefold.pdf
+- [[Theorem 3.1 LatticeFold Folding Reduction]] - paper - references/ch06/ref-20-latticefold.pdf
+- [[Theorem 3.3 Folding Knowledge Soundness]] - paper - references/ch06/ref-20-latticefold.pdf
+- [[Theorem 4.3 Pi_cm is a RoK from R_rg,B to R_com]] - paper - references/ch02/ref-11-latticefold-plus.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -36,36 +37,16 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 18 edges to [[_COMMUNITY_Community 12]]
-- 17 edges to [[_COMMUNITY_Community 0]]
-- 13 edges to [[_COMMUNITY_Community 8]]
-- 12 edges to [[_COMMUNITY_Community 15]]
-- 11 edges to [[_COMMUNITY_Community 6]]
-- 10 edges to [[_COMMUNITY_Community 7]]
-- 7 edges to [[_COMMUNITY_Community 76]]
-- 6 edges to [[_COMMUNITY_Community 11]]
-- 4 edges to [[_COMMUNITY_Community 101]]
-- 3 edges to [[_COMMUNITY_Community 37]]
-- 3 edges to [[_COMMUNITY_Community 96]]
-- 3 edges to [[_COMMUNITY_Community 67]]
-- 3 edges to [[_COMMUNITY_Community 63]]
-- 2 edges to [[_COMMUNITY_Community 19]]
-- 2 edges to [[_COMMUNITY_Community 22]]
-- 2 edges to [[_COMMUNITY_Community 32]]
-- 2 edges to [[_COMMUNITY_Community 105]]
+- 8 edges to [[_COMMUNITY_Community 0]]
+- 3 edges to [[_COMMUNITY_Community 40]]
+- 3 edges to [[_COMMUNITY_Community 10]]
 - 2 edges to [[_COMMUNITY_Community 1]]
-- 1 edge to [[_COMMUNITY_Community 82]]
-- 1 edge to [[_COMMUNITY_Community 49]]
-- 1 edge to [[_COMMUNITY_Community 2]]
-- 1 edge to [[_COMMUNITY_Community 128]]
-- 1 edge to [[_COMMUNITY_Community 87]]
-- 1 edge to [[_COMMUNITY_Community 75]]
-- 1 edge to [[_COMMUNITY_Community 3]]
-- 1 edge to [[_COMMUNITY_Community 97]]
+- 1 edge to [[_COMMUNITY_Community 44]]
+- 1 edge to [[_COMMUNITY_Community 34]]
 
 ## Top bridge nodes
-- [[The Promise of Provable and Programmable Secrets]] - degree 49, connects to 21 communities
-- [[Zcash]] - degree 31, connects to 9 communities
-- [[The Deepest Question]] - degree 17, connects to 6 communities
-- [[The Seven Layers at a Glance]] - degree 14, connects to 6 communities
-- [[Three Converging Forces]] - degree 12, connects to 5 communities
+- [[Sumcheck-Based Norm-Bound Range Check]] - degree 4, connects to 2 communities
+- [[Theorem 4.3 Pi_cm is a RoK from R_rg,B to R_com]] - degree 3, connects to 2 communities
+- [[Expansion-Decomposition-Folding Pipeline (Pi_mfold)]] - degree 7, connects to 1 community
+- [[B-Bounded Ajtai Commitment Opening Relation RB_cm]] - degree 6, connects to 1 community
+- [[Lattice-Based CCS Folding Scheme]] - degree 5, connects to 1 community

@@ -10,36 +10,36 @@ members: 30
 **Members:** 30 nodes
 
 ## Members
-- [[Aggregation Trees (zkTree cost model)]] - document - recursion/recursion-outline.md
-- [[Ben-Sasson, Chiesa, Tromer, Virza, Scalable zero knowledge via cycles of elliptic curves (CRYPTO 2014) 7 first preprocessing PCD implementation]] - paper - references/recursion/ch3/ref-77-photoproof.pdf
-- [[C2PA (Coalition for Content Provenance and Authenticity) camera-signature standard]] - paper - references/recursion/ch3/ref-78-veritas.pdf
-- [[C2PA Technical Specification (Content Credentials)]] - document - references/recursion/ch3/ref-79-c2pa-specification.md
-- [[Chiesa & Tromer, Proof-carrying data and hearsay arguments from signature cards (ICS 2010) 11]] - paper - references/recursion/ch3/ref-77-photoproof.pdf
-- [[Chiesa-Tromer Proof-Carrying Data (ICS 2010  2012)]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
-- [[Compliance predicate encoded as Fp-Rank-1 Constraint System (R1CS); transformations built as image-processing gadgets (crop, flip, transpose, rotate, brightnesscontrast, identity)]] - paper - references/recursion/ch3/ref-77-photoproof.pdf
-- [[Content Credentials trust model (X.509 signers)]] - document - references/recursion/ch3/ref-79-c2pa-specification.md
-- [[Editor applies one permissible transformation and runs PCD prover to fold a new authenticity proof onto the prior signatureproof (Algorithm 3)]] - paper - references/recursion/ch3/ref-77-photoproof.pdf
-- [[Friedman, The trustworthy digital camera (IEEE Trans. Consumer Electronics 1993) 21 in-camera digital signing as root of trust]] - paper - references/recursion/ch3/ref-77-photoproof.pdf
-- [[Gennaro, Gentry, Parno, Raykova, Quadratic span programs and succinct NIZKs without PCPs (EUROCRYPT 2013) 22 SNARK scheme used by libsnark]] - paper - references/recursion/ch3/ref-77-photoproof.pdf
-- [[Glass-to-glass end-to-end security (camera to user screen, no trusted editor)]] - paper - references/recursion/ch3/ref-78-veritas.pdf
-- [[Goldwasser, Micali, Rivest, A digital signature scheme secure against adaptive chosen-message attacks (1988) 24 existentially unforgeable signatures]] - paper - references/recursion/ch3/ref-77-photoproof.pdf
-- [[IA scheme = (S, G_IA, P_IA, V_IA) new cryptographic primitive for image authentication over a permissible-transformation set T]] - paper - references/recursion/ch3/ref-77-photoproof.pdf
-- [[Media provenance]] - document - recursion/recursion-outline.md
-- [[Permissible transformation set T = (t1,...,tn) editor-configurable set of authenticity-preserving image transformations]] - paper - references/recursion/ch3/ref-77-photoproof.pdf
-- [[PhotoProof (Naveh, Tromer, S&P 2016)]] - document - recursion/recursion-outline.md
-- [[PhotoProof compliance predicate Pi_T (Algorithm 1) base case verifies signature, else checks t in T, t(I_in,gamma)=I_out, and public key unchanged]] - paper - references/recursion/ch3/ref-77-photoproof.pdf
-- [[PhotoProof cryptographic image authentication scheme for any permissible transformation set]] - paper - references/recursion/ch3/ref-77-photoproof.pdf
-- [[Private multi-party applications  autonomous worlds]] - document - recursion/recursion-outline.md
-- [[Proof-Carrying Data (PCD)]] - document - references/ch06/ref-18-hypernova.pdf
-- [[Signature-outside-Pi optimization camera signs a collision-resistant original-hash; verifier checks signature outside PCD, predicate ensures original-hash unchanged across edits]] - paper - references/recursion/ch3/ref-77-photoproof.pdf
-- [[Signed camera-original as root of trust in-camera digital signature on the original image anchors the start of the permissible-transformation chain]] - paper - references/recursion/ch3/ref-77-photoproof.pdf
-- [[Statistical zero-knowledge proofs an authenticated (e.g. cropped) image reveals nothing about the image beyond its authenticity, hiding cropped-out regions and edit history]] - paper - references/recursion/ch3/ref-77-photoproof.pdf
-- [[Succinctness constant-size proofs O_lambda(1) and verifier runtime O_lambda(I), independent of image edit-history length]] - paper - references/recursion/ch3/ref-77-photoproof.pdf
-- [[Theorem 9 for any poly-time transformation set T, given PCD and an existentially unforgeable signature scheme, PP = (S,G_PP,P_PP,V_PP) is an IA scheme for T]] - paper - references/recursion/ch3/ref-77-photoproof.pdf
-- [[Walsh, CertiPics over Nexus OS with TPM secure co-processor 57 prior policy-based image authentication lacking succinctness and zero-knowledge]] - paper - references/recursion/ch3/ref-77-photoproof.pdf
-- [[Working prototype on libsnark using preprocessing PCD of Ben-Sasson et al.; ECDSA NIST192p signatures; small N x N images (up to 128x128)]] - paper - references/recursion/ch3/ref-77-photoproof.pdf
-- [[Zexe Decentralized Private Computation (Bowe et al., S&P 2020)]] - document - recursion/recursion-outline.md
-- [[CT10 Chiesa, Tromer, Proof-Carrying Data and Hearsay Arguments from Signature Cards (ICS 2010)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
+- [['Large-Scale MPC Scaling Private Iris Code Uniqueness Checks to Millions of Users' — cited technical paper underpinning AMPC]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[AMPC infrastructure NVIDIA H100 GPUs (AWS p5.48xlarge, RDMA) running CUDA, ~50M pairwise comparisonssec; operated by FAU Erlangen, UC Berkeley RDI, Nethermind, KAIST, UTEC, UZurich]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[Anonymized Multi-Party Computation (AMPC) quantum-secure SMPC uniqueness service on encrypted iris-code fragments, revealing only a single matchno-match bit, never plaintext Hamming distances]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[Digital Identity]] - document - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[Electronic Identification (eID)]] - paper - references/ch13/ref-60-eidas-2-regulation.pdf
+- [[Humanity Protocol (palm-vein biometric, $1.1B valuation)]] - document - proving-nothing.md
+- [[Iris Biometrics]] - document - references/ch13/ref-59-world-whitepaper.pdf
+- [[Iris biometrics 1N uniqueness modality with FMR beyond 2.5e-14, randomly formed in gestation, stable, uncorrelated even between twinsown eyes]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[John Daugman iris recognition (1993, Gabor-wavelet IrisCode), foundational prior work for the Orb's iris algorithm]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[NFC ID credential self-custodial credential derived locally from ICAO-compliant NFC passportsnational IDs to prove attributes (age, nationality) without uploading ID data]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[Nullifier]] - document - proving-nothing.md
+- [[Orb hardware root of trust dual burned keys (NVIDIA Jetson SoC fuses + secure element), NIST-SP-800-108 KDF provisioning, dm-verity signed-firmware boot, on-chain Orb Registry]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[Personal Custody Package (PCP) irisface embeddings, raw images and AMPC fragments encrypted on the Orb with a user key, sent to the phone, then images deleted from the Orb]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[PoH authentication unlinkable pseudonymity via self-custody + ZKP against a public registry, plus a person-bound second factor (Face Auth) with periodic reauthentication]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[Presentation Attack Detection & liveness local challenge-response, passive liveness, thermal heat-signature check, contact-lens detection across multispectral sensors]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[Proof of Human (PoH) private primitive establishing a party is a real, unique human (or agent acting on a human's behalf)]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[Proof of Personhood]] - document - proving-nothing.md
+- [[Secure multi-party computation (SMPC) multiple independent nodes jointly check uniqueness over secret-shared, end-to-end encrypted fragments without any party seeing the data]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[Semaphore set registration zk-SNARK privacy layer; smart contract on Ethereum holding a Merkle set of Poseidon (BN254) hashes of World ID secrets, bridged to other chains]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[Semaphore generic open-source zk-SNARK group-membership and signaling protocol for Ethereum (Groth16-verifiable)]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[The Orb high-security open-source multispectral IR camera issuing an AI-safe PoH credential via local on-device iris+face capture, livenessPAD, and signed iris code]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[Unique iris code frequency-based features extracted from iris texture via multi-scale Gabor wavelet filters with quantized phase response; matched by Hamming distance with masks]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[Uniqueness targetsclaims per-iris FMR 1e-6, billion-scale FMR ~1e-12, FNMR  5e-3; achieved FMR 2.25e-14 at ~1e-3 FNMR in pre-launch tests]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[World (Worldcoin, iris-scanning orbs)]] - document - proving-nothing.md
+- [[World Chain human-centered financial layer implemented as an OP Stack  Superchain layer-2 on Ethereum with human-based transaction prioritization]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[World ID]] - document - references/ch13/ref-59-world-whitepaper.pdf
+- [[World ID open-source decentralized privacy-preserving digital identity issuing unlinkable proofs (Proof of Human, Age, Country) via personal custody, AMPC and ZKPs]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[World Network real human network with five core technologies (World ID, Orb, World App, World Chain, WLD) for Proof of Human plus a financial layer]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[World Whitepapers (World Network Proof of Human)]] - paper - references/ch13/ref-59-world-whitepaper.pdf
+- [[Worldcoin (WLD) ERC-20 native token, 10B initial cap, =60% target to verified humans as user tokens, governanceone-person-one-vote, =1.5% inflation only after 15 years]] - paper - references/ch13/ref-59-world-whitepaper.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -49,26 +49,16 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 6 edges to [[_COMMUNITY_Community 9]]
-- 5 edges to [[_COMMUNITY_Community 45]]
-- 5 edges to [[_COMMUNITY_Community 80]]
-- 4 edges to [[_COMMUNITY_Community 60]]
-- 3 edges to [[_COMMUNITY_Community 23]]
-- 3 edges to [[_COMMUNITY_Community 91]]
-- 2 edges to [[_COMMUNITY_Community 61]]
-- 2 edges to [[_COMMUNITY_Community 14]]
-- 1 edge to [[_COMMUNITY_Community 105]]
-- 1 edge to [[_COMMUNITY_Community 77]]
-- 1 edge to [[_COMMUNITY_Community 16]]
-- 1 edge to [[_COMMUNITY_Community 0]]
-- 1 edge to [[_COMMUNITY_Community 90]]
-- 1 edge to [[_COMMUNITY_Community 67]]
-- 1 edge to [[_COMMUNITY_Community 121]]
-- 1 edge to [[_COMMUNITY_Community 44]]
+- 3 edges to [[_COMMUNITY_Community 15]]
+- 3 edges to [[_COMMUNITY_Community 12]]
+- 3 edges to [[_COMMUNITY_Community 29]]
+- 2 edges to [[_COMMUNITY_Community 79]]
+- 1 edge to [[_COMMUNITY_Community 89]]
+- 1 edge to [[_COMMUNITY_Community 13]]
 
 ## Top bridge nodes
-- [[Proof-Carrying Data (PCD)]] - degree 38, connects to 13 communities
-- [[Media provenance]] - degree 10, connects to 2 communities
-- [[C2PA (Coalition for Content Provenance and Authenticity) camera-signature standard]] - degree 6, connects to 2 communities
-- [[PhotoProof cryptographic image authentication scheme for any permissible transformation set]] - degree 11, connects to 1 community
-- [[PhotoProof compliance predicate Pi_T (Algorithm 1) base case verifies signature, else checks t in T, t(I_in,gamma)=I_out, and public key unchanged]] - degree 5, connects to 1 community
+- [[Proof of Personhood]] - degree 10, connects to 3 communities
+- [[Nullifier]] - degree 4, connects to 2 communities
+- [[Digital Identity]] - degree 8, connects to 1 community
+- [[World Whitepapers (World Network Proof of Human)]] - degree 6, connects to 1 community
+- [[PoH authentication unlinkable pseudonymity via self-custody + ZKP against a public registry, plus a person-bound second factor (Face Auth) with periodic reauthentication]] - degree 4, connects to 1 community

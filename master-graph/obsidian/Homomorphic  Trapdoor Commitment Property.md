@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-04-kzg-commitments.pdf"
 type: "paper"
-community: "Community 26"
+community: "Community 8"
 location: "§3.4 (Features)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_26
+  - community/Community_8
 ---
 
 # Homomorphic / Trapdoor Commitment Property
@@ -17,5 +17,6 @@ tags:
 - [[PolyCommitDL Scheme]] - `defines` [EXTRACTED]
 - [[PolyCommitPed Scheme]] - `defines` [EXTRACTED]
 - [[Theorem 2 Accumulation Knowledge Soundness (d+1)-special-sound, error (Q+1)(d+1)F]] - `assumes` [EXTRACTED]
+- [[Zero-Knowledge Proof]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_26
+#graphify/paper #graphify/EXTRACTED #community/Community_8

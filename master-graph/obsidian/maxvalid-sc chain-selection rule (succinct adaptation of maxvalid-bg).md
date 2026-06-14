@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-58-coda-mina.pdf"
 type: "paper"
-community: "Community 66"
+community: "Community 68"
 location: "§7.3, Fig 7"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_66
+  - community/Community_68
 ---
 
 # maxvalid-sc chain-selection rule (succinct adaptation of maxvalid-bg)
@@ -16,4 +16,4 @@ tags:
 - [[Ouroboros Samasika first provably-secure succinct PoS consensus]] - `introduces` [EXTRACTED]
 - [[Window min-density (nu-shifting omega-window) for succinct long-range fork resolution]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_66
+#graphify/paper #graphify/EXTRACTED #community/Community_68

@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 8"
+community: "Community 2"
 location: "Chapter 5"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_8
+  - community/Community_2
 ---
 
 # FRI Commitment Scheme
@@ -16,6 +16,7 @@ tags:
 - [[Algebraic Linking Interactive Oracle Proof (ALI)]] - `assumes` [EXTRACTED]
 - [[Authentication Path  Communication Complexity minimization (coset & row subtrees)]] - `conceptually_related_to` [EXTRACTED]
 - [[BabyBear Field]] - `conceptually_related_to` [EXTRACTED]
+- [[BaseFold]] - `improves` [EXTRACTED]
 - [[Ben-Sasson et al., FRI (ICALP 2018)]] - `cites` [EXTRACTED]
 - [[Brevis Pico Prism]] - `references` [EXTRACTED]
 - [[Choreographing the Act]] - `references` [EXTRACTED]
@@ -32,11 +33,13 @@ tags:
 - [[Goldilocks Field]] - `conceptually_related_to` [EXTRACTED]
 - [[Greyhound Fast Polynomial Commitments from Lattices]] - `references` [EXTRACTED]
 - [[Groth16 wrap-circuit splitting tradeoff per-FRI-query sub-circuits trade prover speed vs on-chain cost]] - `assumes` [EXTRACTED]
-- [[Interactive Oracle Proofs]] - `conceptually_related_to` [EXTRACTED]
+- [[HyperPlonk]] - `uses` [EXTRACTED]
+- [[Interactive Oracle Proofs]] - `defines` [EXTRACTED]
 - [[Layer 1 -- Building the Stage]] - `references` [EXTRACTED]
 - [[Layer 5 -- The Sealed Certificate]] - `references` [EXTRACTED]
 - [[Layer 6 -- The Deep Craft]] - `references` [EXTRACTED]
 - [[Lookup Argument]] - `references` [EXTRACTED]
+- [[Low-Degree Testing]] - `defines` [EXTRACTED]
 - [[Maturity and Readiness]] - `references` [EXTRACTED]
 - [[Mersenne-31 Field (M31)]] - `conceptually_related_to` [EXTRACTED]
 - [[Midnight -- The Privacy Theater]] - `references` [EXTRACTED]
@@ -45,12 +48,13 @@ tags:
 - [[Option-Value Analysis]] - `conceptually_related_to` [EXTRACTED]
 - [[Path Two Pure Transparent]] - `conceptually_related_to` [EXTRACTED]
 - [[Plonky2]] - `references` [EXTRACTED]
-- [[Polynomial Commitment Scheme]] - `introduces` [EXTRACTED]
+- [[Polynomial Commitment Scheme]] - `relates_to` [EXTRACTED]
 - [[Proofs, Arguments, and Zero-Knowledge (Justin Thaler, survey textbook)]] - `explains` [EXTRACTED]
 - [[RISC-V Convergence]] - `conceptually_related_to` [EXTRACTED]
+- [[Reed-Solomon Code]] - `uses` [EXTRACTED]
 - [[Reed-Solomon Proximity Testing (RPT  low-degree testing) problem]] - `defines` [EXTRACTED]
 - [[Reed–Solomon-encoded IOP (RS-encoded holographic IOP) with rational constraints over prover messages]] - `conceptually_related_to` [EXTRACTED]
-- [[STARK]] - `part_of` [EXTRACTED]
+- [[STARK]] - `uses` [EXTRACTED]
 - [[Scalable, Transparent, and Post-Quantum Secure Computational Integrity]] - `introduces` [EXTRACTED]
 - [[Sealing the Certificate]] - `references` [EXTRACTED]
 - [[Side-Channel Attacks When the Walls Leak]] - `references` [EXTRACTED]
@@ -80,6 +84,7 @@ tags:
 - [[Two Ways to Build a Stage]] - `conceptually_related_to` [EXTRACTED]
 - [[Where the Layers Collapse]] - `references` [EXTRACTED]
 - [[ZKML Provable Machine Learning (Research)]] - `references` [EXTRACTED]
+- [[Zero-Knowledge Proof]] - `uses` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_8
+#graphify/document #graphify/EXTRACTED #community/Community_2

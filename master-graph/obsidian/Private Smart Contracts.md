@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 5"
+community: "Community 4"
 location: "Chapter 9"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_5
+  - community/Community_4
 ---
 
 # Private Smart Contracts
@@ -22,4 +22,4 @@ tags:
 - [[Records nano-kernel (RNK) minimalist shared execution environment over records]] - `conceptually_related_to` [EXTRACTED]
 - [[Zexe]] - `introduces` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_5
+#graphify/document #graphify/EXTRACTED #community/Community_4

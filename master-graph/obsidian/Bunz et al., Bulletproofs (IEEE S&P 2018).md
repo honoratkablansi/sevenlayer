@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 0"
+community: "Community 5"
 location: "Chapter 7"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Community_5
 ---
 
 # Bunz et al., Bulletproofs (IEEE S&P 2018)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Inner Product Argument (IPABulletproofs)]] - `cites` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/document #graphify/EXTRACTED #community/Community_5

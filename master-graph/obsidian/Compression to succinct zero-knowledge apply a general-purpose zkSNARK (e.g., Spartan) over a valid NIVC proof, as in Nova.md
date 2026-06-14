@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch2/ref-44-supernova.pdf"
 type: "paper"
-community: "Community 47"
+community: "Community 46"
 location: "§1.1 end; §4 intro"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_47
+  - community/Community_46
 ---
 
 # Compression to succinct zero-knowledge: apply a general-purpose zkSNARK (e.g., Spartan) over a valid NIVC proof, as in Nova
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[SuperNova (Non-Uniform IVC)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_47
+#graphify/paper #graphify/EXTRACTED #community/Community_46

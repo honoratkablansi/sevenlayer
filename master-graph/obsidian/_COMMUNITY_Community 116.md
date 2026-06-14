@@ -1,22 +1,24 @@
 ---
 type: community
-cohesion: 0.33
-members: 7
+cohesion: 0.22
+members: 9
 ---
 
 # Community 116
 
-**Cohesion:** 0.33 - loosely connected
-**Members:** 7 nodes
+**Cohesion:** 0.22 - loosely connected
+**Members:** 9 nodes
 
 ## Members
-- [[Bootle et al. (BCC+16) Inner-Product Argument]] - paper - references/ch02/ref-09-bulletproofs.pdf
-- [[Improved Inner-Product Argument (2 log2 n)]] - paper - references/ch02/ref-09-bulletproofs.pdf
-- [[Pedersen Vector Commitment]] - paper - references/ch02/ref-09-bulletproofs.pdf
-- [[Pinocchio Arithmetic Circuit Format]] - paper - references/ch02/ref-09-bulletproofs.pdf
-- [[Single Multi-Exponentiation Verifier & Batch Verification]] - paper - references/ch02/ref-09-bulletproofs.pdf
-- [[Theorem 5 Arithmetic Circuit Protocol Soundness]] - paper - references/ch02/ref-09-bulletproofs.pdf
-- [[Zero-Knowledge Proof for Arithmetic Circuits (Protocol 3)]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Algebraic Hash Functions (Poseidon)]] - document - proving-nothing.md
+- [[Claim Field Choice Is a One-Way Door (Cascade Effect)]] - document - proving-nothing.md
+- [[Collision-Resistant Hash Functions]] - document - proving-nothing.md
+- [[Grover's Algorithm]] - document - proving-nothing.md
+- [[Hardness Assumption]] - document - proving-nothing.md
+- [[Layer 6 The Deep Craft (Cryptographic Primitives)]] - document - proving-nothing.md
+- [[Merkle-tree memory checking for delegated RAM]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
+- [[RAM compliance predicate Pi_{M,H} (per-step verification)]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
+- [[Subset-sum hash verifiable in =300 gates over native field]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -27,12 +29,20 @@ SORT file.name ASC
 
 ## Connections to other communities
 - 3 edges to [[_COMMUNITY_Community 0]]
-- 1 edge to [[_COMMUNITY_Community 23]]
-- 1 edge to [[_COMMUNITY_Community 92]]
-- 1 edge to [[_COMMUNITY_Community 40]]
+- 1 edge to [[_COMMUNITY_Community 36]]
+- 1 edge to [[_COMMUNITY_Community 2]]
+- 1 edge to [[_COMMUNITY_Community 5]]
+- 1 edge to [[_COMMUNITY_Community 18]]
+- 1 edge to [[_COMMUNITY_Community 90]]
+- 1 edge to [[_COMMUNITY_Community 28]]
+- 1 edge to [[_COMMUNITY_Community 120]]
+- 1 edge to [[_COMMUNITY_Community 101]]
+- 1 edge to [[_COMMUNITY_Community 9]]
+- 1 edge to [[_COMMUNITY_Community 130]]
 
 ## Top bridge nodes
-- [[Improved Inner-Product Argument (2 log2 n)]] - degree 7, connects to 3 communities
-- [[Bootle et al. (BCC+16) Inner-Product Argument]] - degree 3, connects to 1 community
-- [[Pedersen Vector Commitment]] - degree 2, connects to 1 community
-- [[Theorem 5 Arithmetic Circuit Protocol Soundness]] - degree 2, connects to 1 community
+- [[Collision-Resistant Hash Functions]] - degree 9, connects to 4 communities
+- [[Algebraic Hash Functions (Poseidon)]] - degree 4, connects to 3 communities
+- [[Hardness Assumption]] - degree 4, connects to 2 communities
+- [[RAM compliance predicate Pi_{M,H} (per-step verification)]] - degree 3, connects to 2 communities
+- [[Layer 6 The Deep Craft (Cryptographic Primitives)]] - degree 3, connects to 1 community

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch03/ref-16-jolt.pdf"
 type: "paper"
-community: "Community 54"
+community: "Community 82"
 location: "Abstract, §1.3.2, §8"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_54
+  - community/Community_82
 ---
 
 # Prover commits to ~6 256-bit field elements per RISC-V CPU step
@@ -16,4 +16,4 @@ tags:
 - [[Lasso]] - `assumes` [EXTRACTED]
 - [[MSM commitment via Pippenger's algorithm]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_54
+#graphify/paper #graphify/EXTRACTED #community/Community_82

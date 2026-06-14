@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-05-halo.pdf"
 type: "paper"
-community: "Community 109"
+community: "Community 51"
 location: "§5, §5.1, §5.2 (relation R, Fig. 1)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_109
+  - community/Community_51
 ---
 
 # Main argument: Sonic-variant PSHVZK argument of knowledge for arithmetic circuit satisfiability
@@ -20,4 +20,4 @@ tags:
 - [[Sonic (Maller, Bowe, Kohlweiss, Meiklejohn) 32]] - `cites` [EXTRACTED]
 - [[Theorem 2 main protocol (Fig. 1) has completeness, PSHVZK, computational witness-extended emulation]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_109
+#graphify/paper #graphify/EXTRACTED #community/Community_51

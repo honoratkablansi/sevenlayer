@@ -1,27 +1,29 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 12"
+community: "Community 5"
 location: "Chapter 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_12
+  - community/Community_5
 ---
 
 # Groth16
 
 ## Connections
+- [[Algebraic Group Model (AGM)]] - `uses` [EXTRACTED]
 - [[BLS12-381 Curve]] - `references` [EXTRACTED]
 - [[BLS12-381 new pairing-friendly curve, 384-bit base field, 256-bit group order, 128-bit security]] - `conceptually_related_to` [EXTRACTED]
 - [[BN254 (alt_bn128) Curve]] - `conceptually_related_to` [EXTRACTED]
 - [[BN254's Eroding Security Margin]] - `conceptually_related_to` [EXTRACTED]
-- [[Bilinear Pairing]] - `assumes` [EXTRACTED]
+- [[Bilinear Pairing]] - `uses` [EXTRACTED]
 - [[CCS The Rosetta Stone]] - `references` [EXTRACTED]
 - [[CVE-2019-7167 BCTV14 Counterfeiting Bug]] - `conceptually_related_to` [INFERRED]
 - [[Case Study Midnight's Sealed Certificate]] - `references` [EXTRACTED]
 - [[Choreographing the Act]] - `references` [EXTRACTED]
 - [[Coda]] - `references` [EXTRACTED]
+- [[Distributed Proof Generation]] - `uses` [EXTRACTED]
 - [[Encoding the Performance]] - `references` [EXTRACTED]
 - [[Extended Groth CRS depth-two-circuit-computable CRS enabling two-phase px-MPC]] - `conceptually_related_to` [EXTRACTED]
 - [[FFLONK]] - `compares` [EXTRACTED]
@@ -55,14 +57,15 @@ tags:
 - [[Post-Quantum Security]] - `compares` [INFERRED]
 - [[Powers of Tau]] - `assumes` [EXTRACTED]
 - [[Pricing Attacks]] - `references` [EXTRACTED]
+- [[Proof Aggregation]] - `uses` [EXTRACTED]
 - [[Proof Aggregation The Missing Layer]] - `references` [EXTRACTED]
 - [[QAP (Quadratic Arithmetic Program)]] - `conceptually_related_to` [EXTRACTED]
-- [[Quadratic Arithmetic Programs (QAP)]] - `references` [EXTRACTED]
-- [[R1CS (Rank-1 Constraint Systems)]] - `conceptually_related_to` [EXTRACTED]
+- [[R1CS (Rank-1 Constraint Systems)]] - `uses` [EXTRACTED]
 - [[Real-Time Ethereum Proving]] - `references` [EXTRACTED]
 - [[Recursion vs. Folding Russian Dolls and Snowballs]] - `references` [EXTRACTED]
-- [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `conceptually_related_to` [EXTRACTED]
+- [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `improves` [EXTRACTED]
 - [[SNARK Recursion vs. Folding The Full Picture]] - `references` [EXTRACTED]
+- [[SNARK proof aggregation]] - `compatible_with` [EXTRACTED]
 - [[STARK]] - `compares` [EXTRACTED]
 - [[STARK-Inside-SNARK-Outside Hybrid Pipeline]] - `references` [EXTRACTED]
 - [[Scalable Multi-party Computation for zk-SNARK Parameters in the Random Beacon Model]] - `cites` [EXTRACTED]
@@ -101,8 +104,9 @@ tags:
 - [[Three zkVMs Through Seven Layers]] - `conceptually_related_to` [EXTRACTED]
 - [[Tramer, Boneh, Paterson Remote Side-Channel Attacks (USENIX 2020)]] - `references` [EXTRACTED]
 - [[Trust Decomposition Seven Weaker Assumptions]] - `conceptually_related_to` [EXTRACTED]
-- [[Trusted Setup Ceremony]] - `conceptually_related_to` [EXTRACTED]
+- [[Trusted Setup Ceremony]] - `uses` [EXTRACTED]
 - [[Two Ways to Build a Stage]] - `conceptually_related_to` [EXTRACTED]
+- [[Universal SNARK]] - `improves` [EXTRACTED]
 - [[Universal versus Circuit-Specific Setups]] - `conceptually_related_to` [EXTRACTED]
 - [[Universal vs Circuit-Specific SRS]] - `compares` [EXTRACTED]
 - [[Verification Gas Cost]] - `references` [EXTRACTED]
@@ -112,7 +116,8 @@ tags:
 - [[Who Verifies the Verifier]] - `references` [EXTRACTED]
 - [[ZK Proofs Is Privacy Cheap Enough to Be Mainstream (Castle Labs)]] - `references` [EXTRACTED]
 - [[ZK Rollups The Proving Grounds (Production)]] - `references` [EXTRACTED]
+- [[Zero-Knowledge Proof]] - `uses` [EXTRACTED]
 - [[zkTree zero-knowledge recursion tree with ZKP membership proofs]] - `cites` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_12
+#graphify/document #graphify/EXTRACTED #community/Community_5

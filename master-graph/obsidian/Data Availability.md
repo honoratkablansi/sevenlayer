@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 111"
+community: "Community 17"
 location: "Chapter 8"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_111
+  - community/Community_17
 ---
 
 # Data Availability
@@ -15,7 +15,7 @@ tags:
 - [[DA Marketplace (Celestia, EigenDA, Avail)]] - `explains` [EXTRACTED]
 - [[DA-Saturation Attack]] - `conceptually_related_to` [EXTRACTED]
 - [[DA-saturation attack (data-heavy compute-light tx flooding L1 blob capacity)]] - `assumes` [EXTRACTED]
-- [[EIP-4844 (Blob Transactions)]] - `explains` [EXTRACTED]
+- [[EIP-4844 (Blob Transactions)]] - `uses` [EXTRACTED]
 - [[Generic rollup cost model Txfee = L2fee + L1fee (rho_blob, Scalar_blob, Ctx, Stx)]] - `conceptually_related_to` [EXTRACTED]
 - [[L2BEAT Stages Framework for L2 Maturity]] - `references` [EXTRACTED]
 - [[Layer 7 -- The Verdict]] - `references` [EXTRACTED]
@@ -26,4 +26,4 @@ tags:
 - [[Unaligned Incentives Pricing Attacks Against Blockchain Rollups]] - `conceptually_related_to` [EXTRACTED]
 - [[ZK Rollup]] - `explains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_111
+#graphify/document #graphify/EXTRACTED #community/Community_17

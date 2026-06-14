@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch07/ref-25-nist-fips-203-204-205.pdf"
 type: "paper"
-community: "Community 120"
+community: "Community 27"
 location: "§1.2; Appendix C"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_120
+  - community/Community_27
 ---
 
 # CRYSTALS-Kyber KEM (round-three NIST PQC submission)
@@ -14,7 +14,8 @@ tags:
 ## Connections
 - [[ML-DSA derived from CRYSTALS-DILITHIUM v3.1 (Round-3 PQC selection); differences in Appendix D]] - `conceptually_related_to` [INFERRED]
 - [[ML-KEM (Module-Lattice-Based Key-Encapsulation Mechanism, FIPS 203)]] - `cites` [EXTRACTED]
+- [[ML-KEM Key-Encapsulation Mechanism]] - `standardizes` [EXTRACTED]
 - [[Module Learning With Errors (MLWE)]] - `assumes` [EXTRACTED]
 - [[Post-Quantum Cryptography]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_120
+#graphify/paper #graphify/EXTRACTED #community/Community_27

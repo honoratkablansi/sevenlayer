@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-10-fractal.pdf"
 type: "paper"
-community: "Community 33"
+community: "Community 6"
 location: "Theorem 4, §1.1(3); §11.3–§11.5"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_33
+  - community/Community_6
 ---
 
 # Theorem 4 / Theorem 11.5: transformation compiling any preprocessing SNARK in the URS model into a preprocessing PCD scheme (preserving transparency and post-quantum security)
@@ -18,4 +18,4 @@ tags:
 - [[Recursive composition  PCD from succinct-verifier SNARKs BCCT13]] - `cites` [EXTRACTED]
 - [[Transparent Setup]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_33
+#graphify/paper #graphify/EXTRACTED #community/Community_6

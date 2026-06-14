@@ -1,27 +1,28 @@
 ---
 type: community
-cohesion: 0.17
-members: 12
+cohesion: 0.23
+members: 13
 ---
 
 # Community 96
 
-**Cohesion:** 0.17 - loosely connected
-**Members:** 12 nodes
+**Cohesion:** 0.23 - loosely connected
+**Members:** 13 nodes
 
 ## Members
-- [[Canetti, Goldreich, Halevi, The Random Oracle Methodology, Revisited (JACM 2004)]] - document - recursion/recursion-outline.md
-- [[Dwork et al. 13 'magic functions' that make Fiat-Shamir work, related to correlation intractability and 3-round zero-knowledge]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[FS-GKR Fiat-Shamir attacks (KRS25) motivating recursion avoidance]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[Fiat & Shamir, Crypto '86 (LNCS 263)]] - document - proving-nothing.md
-- [[Fiat-Shamir Transform]] - document - proving-nothing.md
-- [[Frozen Heart  Fiat-Shamir Vulnerability Class]] - document - proving-nothing.md
-- [[Frozen Heart Vulnerability (2022)]] - document - proving-nothing.md
-- [[Goldwasser, Micali, Rackoff — Knowledge Complexity of Interactive Proof Systems (1985)]] - document - proving-nothing.md
-- [[Interactive Proof System]] - document - proving-nothing.md
-- [[Khovratovich, Rothblum, Soukhanov, How to Prove False Statements (ePrint 2025118)]] - document - recursion/recursion-outline.md
-- [[Last Challenge Attack (2024)]] - document - proving-nothing.md
-- [[Solana ZK ElGamal Bug (2025)]] - document - proving-nothing.md
+- [[Arithmetic Circuit]] - document - proving-nothing.md
+- [[CirC Compiler Infrastructure]] - paper - references/snowball/book/ref-122-circ-compiler-infrastructure-for-proof-systems.pdf
+- [[Circomspect Static Analyzer]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[Circuit Dependence Graph (CDG)]] - document - references/ch03/ref-13-practical-security-zk-circuits.pdf
+- [[Circuit Dependence Graph (CDG) abstraction G=(V,Ed,Ec)]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
+- [[Constraint Compiler]] - paper - references/snowball/book/ref-122-circ-compiler-infrastructure-for-proof-systems.pdf
+- [[Datalog-style CDG construction inference rules]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
+- [[Libra]] - paper - references/snowball/book/ref-081-libra-succinct-zero-knowledge-proofs-with-optim.pdf
+- [[Practical Security Analysis of Zero-Knowledge Proof Circuits]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
+- [[RAM Computation]] - paper - references/snowball/recursion/ref-118-fast-reductions-from-rams-to-delegatable-succinc.pdf
+- [[Static Analysis]] - document - references/ch03/ref-13-practical-security-zk-circuits.pdf
+- [[ZKAP (static analyzer for ZKP circuits)]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
+- [[ZKAP evaluation on 258 Circom circuits (17 projects)]] - paper - references/ch03/ref-13-practical-security-zk-circuits.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -31,46 +32,29 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 9 edges to [[_COMMUNITY_Community 15]]
-- 5 edges to [[_COMMUNITY_Community 0]]
-- 5 edges to [[_COMMUNITY_Community 17]]
-- 3 edges to [[_COMMUNITY_Community 82]]
-- 3 edges to [[_COMMUNITY_Community 14]]
-- 3 edges to [[_COMMUNITY_Community 69]]
-- 3 edges to [[_COMMUNITY_Community 11]]
-- 2 edges to [[_COMMUNITY_Community 37]]
-- 2 edges to [[_COMMUNITY_Community 97]]
-- 2 edges to [[_COMMUNITY_Community 106]]
+- 4 edges to [[_COMMUNITY_Community 70]]
+- 4 edges to [[_COMMUNITY_Community 80]]
+- 3 edges to [[_COMMUNITY_Community 95]]
+- 2 edges to [[_COMMUNITY_Community 15]]
+- 2 edges to [[_COMMUNITY_Community 32]]
+- 2 edges to [[_COMMUNITY_Community 5]]
+- 2 edges to [[_COMMUNITY_Community 1]]
+- 2 edges to [[_COMMUNITY_Community 76]]
 - 2 edges to [[_COMMUNITY_Community 56]]
-- 2 edges to [[_COMMUNITY_Community 26]]
-- 2 edges to [[_COMMUNITY_Community 4]]
-- 2 edges to [[_COMMUNITY_Community 8]]
-- 2 edges to [[_COMMUNITY_Community 7]]
-- 2 edges to [[_COMMUNITY_Community 92]]
-- 2 edges to [[_COMMUNITY_Community 104]]
-- 2 edges to [[_COMMUNITY_Community 87]]
-- 1 edge to [[_COMMUNITY_Community 45]]
-- 1 edge to [[_COMMUNITY_Community 117]]
-- 1 edge to [[_COMMUNITY_Community 16]]
-- 1 edge to [[_COMMUNITY_Community 1]]
-- 1 edge to [[_COMMUNITY_Community 33]]
-- 1 edge to [[_COMMUNITY_Community 59]]
-- 1 edge to [[_COMMUNITY_Community 98]]
-- 1 edge to [[_COMMUNITY_Community 68]]
-- 1 edge to [[_COMMUNITY_Community 90]]
-- 1 edge to [[_COMMUNITY_Community 23]]
-- 1 edge to [[_COMMUNITY_Community 35]]
-- 1 edge to [[_COMMUNITY_Community 76]]
+- 1 edge to [[_COMMUNITY_Community 31]]
+- 1 edge to [[_COMMUNITY_Community 74]]
+- 1 edge to [[_COMMUNITY_Community 49]]
+- 1 edge to [[_COMMUNITY_Community 4]]
+- 1 edge to [[_COMMUNITY_Community 63]]
 - 1 edge to [[_COMMUNITY_Community 28]]
-- 1 edge to [[_COMMUNITY_Community 6]]
+- 1 edge to [[_COMMUNITY_Community 13]]
+- 1 edge to [[_COMMUNITY_Community 14]]
 - 1 edge to [[_COMMUNITY_Community 40]]
-- 1 edge to [[_COMMUNITY_Community 58]]
-- 1 edge to [[_COMMUNITY_Community 39]]
-- 1 edge to [[_COMMUNITY_Community 81]]
-- 1 edge to [[_COMMUNITY_Community 18]]
+- 1 edge to [[_COMMUNITY_Community 85]]
 
 ## Top bridge nodes
-- [[Fiat-Shamir Transform]] - degree 79, connects to 36 communities
-- [[Goldwasser, Micali, Rackoff — Knowledge Complexity of Interactive Proof Systems (1985)]] - degree 2, connects to 1 community
-- [[FS-GKR Fiat-Shamir attacks (KRS25) motivating recursion avoidance]] - degree 2, connects to 1 community
-- [[Dwork et al. 13 'magic functions' that make Fiat-Shamir work, related to correlation intractability and 3-round zero-knowledge]] - degree 2, connects to 1 community
+- [[Arithmetic Circuit]] - degree 19, connects to 12 communities
+- [[Practical Security Analysis of Zero-Knowledge Proof Circuits]] - degree 10, connects to 5 communities
+- [[Libra]] - degree 5, connects to 4 communities
+- [[CirC Compiler Infrastructure]] - degree 4, connects to 2 communities
+- [[Circomspect Static Analyzer]] - degree 4, connects to 2 communities

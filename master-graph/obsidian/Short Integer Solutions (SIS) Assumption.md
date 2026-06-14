@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-62-lattice-functional-commitments.pdf"
 type: "document"
-community: "Community 7"
+community: "Community 26"
 location: "Abstract"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_7
+  - community/Community_26
 ---
 
 # Short Integer Solutions (SIS) Assumption
@@ -14,8 +14,8 @@ tags:
 ## Connections
 - [[Greyhound Fast Polynomial Commitments from Lattices]] - `references` [EXTRACTED]
 - [[Inhomogeneous SIS Assumption]] - `conceptually_related_to` [EXTRACTED]
-- [[Lattice-Based Cryptography]] - `conceptually_related_to` [EXTRACTED]
+- [[Lattice Cryptography]] - `part_of` [EXTRACTED]
 - [[Lattice-Based Functional Commitments Fast Verification and Cryptanalysis]] - `references` [EXTRACTED]
 - [[l-Succinct SIS Assumption (falsifiable q-type generalization of SIS, trapdoor for I_l ⊗ A  W)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_7
+#graphify/document #graphify/EXTRACTED #community/Community_26

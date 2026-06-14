@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch2/ref-44-supernova.pdf"
 type: "paper"
-community: "Community 47"
+community: "Community 46"
 location: "§1.2 (RAM machine); §4.2 (Construction 1)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_47
+  - community/Community_46
 ---
 
 # Program counter (pc): index selecting which instruction/function is run at a step; computed by control function phi and threaded between augmented circuits
@@ -16,4 +16,4 @@ tags:
 - [[Control function phi takes (z_i, omega_i) and outputs program counter pc in {1,...,l} selecting which F_j to apply at each step]] - `defines` [EXTRACTED]
 - [[Instantiations VDF machine (l=1, MinRoot) and RAM machine (RISC-V-like, program counter register, Merkle-committed memory)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_47
+#graphify/paper #graphify/EXTRACTED #community/Community_46

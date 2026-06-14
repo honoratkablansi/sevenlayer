@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch14-the-seven-questions-that-remain-open.md"
 type: "document"
-community: "Community 0"
+community: "Community 14"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Community_14
 ---
 
 # The Seven Questions That Remain Open
@@ -48,4 +48,4 @@ tags:
 - [[Zcash]] - `references` [EXTRACTED]
 - [[zkVM]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/document #graphify/EXTRACTED #community/Community_14

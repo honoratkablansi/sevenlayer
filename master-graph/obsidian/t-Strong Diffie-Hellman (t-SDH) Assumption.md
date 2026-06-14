@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-04-kzg-commitments.pdf"
 type: "paper"
-community: "Community 51"
+community: "Community 50"
 location: "§2 (Def 2.3)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_51
+  - community/Community_50
 ---
 
 # t-Strong Diffie-Hellman (t-SDH) Assumption
@@ -19,4 +19,4 @@ tags:
 - [[t-Bilinear Strong Diffie-Hellman (t-BSDH) Assumption]] - `conceptually_related_to` [EXTRACTED]
 - [[t-Diffie-Hellman Inversion (t-DHI) Assumption]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_51
+#graphify/paper #graphify/EXTRACTED #community/Community_50

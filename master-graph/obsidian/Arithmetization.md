@@ -1,18 +1,19 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 11"
+community: "Community 1"
 location: "Chapter 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_11
+  - community/Community_1
 ---
 
 # Arithmetization
 
 ## Connections
 - [[4x4 Sudoku Running Example]] - `explains` [EXTRACTED]
+- [[Arithmetic Circuit]] - `uses` [EXTRACTED]
 - [[Constraint System]] - `introduces` [EXTRACTED]
 - [[Encoding the Performance]] - `references` [EXTRACTED]
 - [[Encoding the Performance (Layer 4 Arithmetization)]] - `defines` [EXTRACTED]
@@ -20,9 +21,12 @@ tags:
 - [[Five Lessons for ZK System Design]] - `conceptually_related_to` [EXTRACTED]
 - [[Goldilocks Field]] - `references` [EXTRACTED]
 - [[Layer 4 -- Arithmetization]] - `defines` [EXTRACTED]
+- [[PLONK]] - `uses` [EXTRACTED]
 - [[Proof Core Layers 4-5-6 Inseparable]] - `explains` [EXTRACTED]
+- [[RAM Computation]] - `defines` [EXTRACTED]
 - [[RISC-V Convergence]] - `conceptually_related_to` [EXTRACTED]
 - [[RISC-V zkVMs]] - `conceptually_related_to` [EXTRACTED]
+- [[STARK]] - `uses` [EXTRACTED]
 - [[Schwartz-Zippel Lemma]] - `references` [EXTRACTED]
 - [[The Four Philosophies]] - `references` [EXTRACTED]
 - [[The Proof Core Why Layers 4, 5, and 6 Are Inseparable]] - `references` [EXTRACTED]
@@ -32,4 +36,4 @@ tags:
 - [[The Spreadsheet Metaphor (And Where It Works)]] - `references` [EXTRACTED]
 - [[Where the Analogies Break]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_11
+#graphify/document #graphify/EXTRACTED #community/Community_1

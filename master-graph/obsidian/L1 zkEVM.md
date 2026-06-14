@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch1/ref-19-ef-l1-zkevm-realtime-proving.md"
 type: "document"
-community: "Community 101"
+community: "Community 19"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_101
+  - community/Community_19
 ---
 
 # L1 zkEVM
@@ -18,4 +18,4 @@ tags:
 - [[ethproofs.org real-time proving reporting (Pico Prism, ethrex)]] - `references` [EXTRACTED]
 - [[zkEVM  EVM-Compatible Proving]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_101
+#graphify/document #graphify/EXTRACTED #community/Community_19

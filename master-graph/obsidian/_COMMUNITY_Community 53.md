@@ -1,35 +1,35 @@
 ---
 type: community
-cohesion: 0.15
+cohesion: 0.14
 members: 20
 ---
 
 # Community 53
 
-**Cohesion:** 0.15 - loosely connected
+**Cohesion:** 0.14 - loosely connected
 **Members:** 20 nodes
 
 ## Members
-- [[Algebraic Intermediate Representation (AIR)]] - paper - references/ch02/ref-08-stark.pdf
-- [[Algebraic Linking Interactive Oracle Proof (ALI)]] - paper - references/ch02/ref-08-stark.pdf
-- [[Algebraic Placement and Routing (APR) reduction]] - paper - references/ch02/ref-08-stark.pdf
-- [[Authentication Path  Communication Complexity minimization (coset & row subtrees)]] - paper - references/ch02/ref-08-stark.pdf
-- [[Binary AIR (BAIR) and Permuted AIR (PAIR)]] - paper - references/ch02/ref-08-stark.pdf
-- [[Collision-resistant hash function assumption (interactive STARK)]] - paper - references/ch02/ref-08-stark.pdf
-- [[DNA Profile Match (DPM) proof-of-concept benchmark]] - paper - references/ch02/ref-08-stark.pdf
-- [[Davies-Meyer hash over RijndaelAES (binary-field-friendly hash)]] - paper - references/ch02/ref-08-stark.pdf
-- [[Maximal interpolation degree d_max reduction (n·c·d vs prior n·c·w·d + n·c·s)]] - paper - references/ch02/ref-08-stark.pdf
-- [[Merkle-tree commit-reveal (Kilian cut-and-choose)]] - paper - references/ch02/ref-08-stark.pdf
-- [[Prior ZK-STIK for NPNEXP (Ben-Sasson et al. refs 17,15)]] - paper - references/ch02/ref-08-stark.pdf
-- [[Register-based encoding (one RS codeword per register)]] - paper - references/ch02/ref-08-stark.pdf
-- [[SCI  quasi-linear PCP STARK (Ben-Sasson et al. 2016, ref 13)]] - paper - references/ch02/ref-08-stark.pdf
-- [[Scalable Transparent IOP of Knowledge (STIK)]] - paper - references/ch02/ref-08-stark.pdf
-- [[Scalable, Transparent, and Post-Quantum Secure Computational Integrity]] - paper - references/ch02/ref-08-stark.pdf
-- [[Theorem 3.4 — ZK-STIK for space-bounded computations]] - paper - references/ch02/ref-08-stark.pdf
-- [[Theorem 3.5 — wi-STIK for NEXP]] - paper - references/ch02/ref-08-stark.pdf
-- [[Transparency  public randomness (no trusted setup, Arthur-Merlin)]] - paper - references/ch02/ref-08-stark.pdf
-- [[ZK-SNARK  Zerocash (Zcash, non-transparent QSP-based, ref 1853)]] - paper - references/ch02/ref-08-stark.pdf
-- [[Zero-Knowledge Scalable Transparent ARgument of Knowledge (ZK-STARK)]] - paper - references/ch02/ref-08-stark.pdf
+- [[Ben-Sasson et al. 2013 RAM-to-small-space reduction via Merkle hashing BSCGT13]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
+- [[Bitansky-Canetti-Chiesa-Tromer 2012 ECRH to SNARK and back BCCT12]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
+- [[Bitansky-Canetti-Chiesa-Tromer Recursive Composition and Bootstrapping for SNARKs and PCD (STOC 2013)]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
+- [[Boneh-Segev-Waters 2012 targeted malleability BSW12]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
+- [[Chiesa-Tromer 2010 Proof-Carrying Data  enforcing local properties CT10]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
+- [[Collision-resistant hash functions (CRH) assumption]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
+- [[Complexity-preserving SNARK (prover time tpoly(k), space spoly(k); no preprocessing)]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
+- [[Extractor (polynomial) size blowup under recursive extraction (forces O(1) depth)]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
+- [[Gentry 2009 FHE bootstrapping paradigm Gen09]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
+- [[Gentry-Wichs 2011 no SNARG via black-box reduction to falsifiable assumption GW11]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
+- [[SNARK bootstrapping (to complexity-preserving SNARK)]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
+- [[Succinctness]] - document - recursion/recursion-outline.md
+- [[The Succinctness Threshold]] - document - recursion/recursion-outline.md
+- [[The Verifier's Dilemma (unbounded sequences)]] - document - recursion/recursion-outline.md
+- [[Theorem 1 SNARK Recursive Composition (SNARK - PCD for O(1)-depth predicates)]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
+- [[Theorem 2 PCD Depth-Reduction (O(1)-depth PCD - poly-depth path PCD via wide Merkle proof trees)]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
+- [[Theorem 3 Locally-Efficient RAM Compliance (NP statement - poly-depth compliance predicate)]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
+- [[Theorem 4  9.1 Main bootstrapping theorem (any SNARK - complexity-preserving SNARK and PCD)]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
+- [[Valiant 2008 Incrementally-Verifiable Computation Val08]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
+- [[Valiant Incrementally Verifiable Computation (TCC 2008)]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -39,21 +39,19 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 4 edges to [[_COMMUNITY_Community 12]]
-- 4 edges to [[_COMMUNITY_Community 8]]
-- 3 edges to [[_COMMUNITY_Community 82]]
-- 2 edges to [[_COMMUNITY_Community 15]]
-- 2 edges to [[_COMMUNITY_Community 11]]
-- 2 edges to [[_COMMUNITY_Community 41]]
-- 1 edge to [[_COMMUNITY_Community 37]]
-- 1 edge to [[_COMMUNITY_Community 0]]
-- 1 edge to [[_COMMUNITY_Community 92]]
-- 1 edge to [[_COMMUNITY_Community 16]]
-- 1 edge to [[_COMMUNITY_Community 33]]
+- 5 edges to [[_COMMUNITY_Community 9]]
+- 5 edges to [[_COMMUNITY_Community 23]]
+- 3 edges to [[_COMMUNITY_Community 18]]
+- 2 edges to [[_COMMUNITY_Community 22]]
+- 2 edges to [[_COMMUNITY_Community 32]]
+- 2 edges to [[_COMMUNITY_Community 25]]
+- 2 edges to [[_COMMUNITY_Community 55]]
+- 1 edge to [[_COMMUNITY_Community 1]]
+- 1 edge to [[_COMMUNITY_Community 130]]
 
 ## Top bridge nodes
-- [[Scalable, Transparent, and Post-Quantum Secure Computational Integrity]] - degree 26, connects to 10 communities
-- [[Zero-Knowledge Scalable Transparent ARgument of Knowledge (ZK-STARK)]] - degree 7, connects to 2 communities
-- [[Scalable Transparent IOP of Knowledge (STIK)]] - degree 6, connects to 1 community
-- [[Algebraic Linking Interactive Oracle Proof (ALI)]] - degree 3, connects to 1 community
-- [[Collision-resistant hash function assumption (interactive STARK)]] - degree 2, connects to 1 community
+- [[Bitansky-Canetti-Chiesa-Tromer Recursive Composition and Bootstrapping for SNARKs and PCD (STOC 2013)]] - degree 15, connects to 5 communities
+- [[Theorem 1 SNARK Recursive Composition (SNARK - PCD for O(1)-depth predicates)]] - degree 5, connects to 3 communities
+- [[Succinctness]] - degree 5, connects to 2 communities
+- [[The Succinctness Threshold]] - degree 3, connects to 2 communities
+- [[Valiant 2008 Incrementally-Verifiable Computation Val08]] - degree 3, connects to 2 communities

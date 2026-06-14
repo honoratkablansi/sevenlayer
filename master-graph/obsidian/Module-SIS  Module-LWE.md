@@ -21,7 +21,8 @@ tags:
 - [[Greyhound polynomial commitment scheme]] - `assumes` [EXTRACTED]
 - [[Hardness Assumption]] - `introduces` [EXTRACTED]
 - [[Inner and outer commitment construction]] - `assumes` [EXTRACTED]
-- [[Lattice-Based Cryptography]] - `conceptually_related_to` [EXTRACTED]
+- [[LaBRADOR Proof System]] - `uses` [EXTRACTED]
+- [[Lattice Cryptography]] - `uses` [EXTRACTED]
 - [[Lattice-Based Proving]] - `references` [EXTRACTED]
 - [[LatticeFold  LatticeFold+]] - `references` [EXTRACTED]
 - [[LatticeFold Lattice-Based Folding Scheme]] - `assumes` [EXTRACTED]
@@ -41,6 +42,7 @@ tags:
 - [[Sealing the Certificate]] - `references` [EXTRACTED]
 - [[Security based on Module-LWE over R_q plus SelfTargetMSIS, a nonstandard variant of Module-SIS]] - `assumes` [EXTRACTED]
 - [[Shor's Algorithm  Quantum Threat]] - `compares` [INFERRED]
+- [[Sigma protocol (public-coin 3-move)]] - `uses` [EXTRACTED]
 - [[Symphony (Production Lattice Folding)]] - `references` [EXTRACTED]
 - [[The Folding Genealogy]] - `references` [EXTRACTED]
 - [[The Laws That Break]] - `references` [EXTRACTED]
@@ -54,6 +56,8 @@ tags:
 - [[Three Hardness Assumptions, Three Worlds]] - `defines` [EXTRACTED]
 - [[Two-layer folding via splitting linear-statement RoK (§8), under stronger structured-MSIS]] - `assumes` [EXTRACTED]
 - [[Weak binding of innerouter commitment under Module-SIS (Lemma 2.11)]] - `assumes` [EXTRACTED]
+- [[Worst-Case to Average-Case Reduction]] - `defines` [EXTRACTED]
+- [[Zero-Knowledge Proof]] - `uses` [EXTRACTED]
 - [[l-Succinct SIS Assumption (falsifiable q-type generalization of SIS, trapdoor for I_l ⊗ A  W)]] - `conceptually_related_to` [EXTRACTED]
 
 #graphify/document #graphify/EXTRACTED #community/Community_0

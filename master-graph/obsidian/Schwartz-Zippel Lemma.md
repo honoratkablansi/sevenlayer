@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 11"
+community: "Community 1"
 location: "Chapter 6"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_11
+  - community/Community_1
 ---
 
 # Schwartz-Zippel Lemma
@@ -25,4 +25,4 @@ tags:
 - [[The Spreadsheet Metaphor (And Where It Works)]] - `defines` [EXTRACTED]
 - [[Theorem 2 Perfect ZK NIZK with Generic-Group Knowledge Soundness]] - `assumes` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_11
+#graphify/document #graphify/EXTRACTED #community/Community_1

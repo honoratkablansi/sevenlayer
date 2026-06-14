@@ -1,32 +1,32 @@
 ---
 type: community
-cohesion: 0.12
+cohesion: 0.13
 members: 17
 ---
 
 # Community 75
 
-**Cohesion:** 0.12 - loosely connected
+**Cohesion:** 0.13 - loosely connected
 **Members:** 17 nodes
 
 ## Members
-- [[Aztec Plonk verifier point-at-infinity bug (zeros forge proofs; backend soundness)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
-- [[Backend-layer vulnerabilities (23 bugs setup error, prover error, unsafe verifier)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
-- [[Circuit-layer vulnerabilities (99 bugs; most prevalent class)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
-- [[ComputationalHints error (wrong witness computation; completenesssoundness)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
-- [[Dataset of 141 SNARK vulnerabilities (107 audits, 16 disclosures, 18 bug-tracker; 2018-2024)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
-- [[Four-layer SNARK system model (Circuit, Frontend, Backend, Integration)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
-- [[Frontend-layer vulnerabilities (6 bugs incorrect constraint compilation, witness-gen error)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
-- [[Integration-layer vulnerabilities (13 bugs unchecked data, delegation, composition, complementary-logic)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
-- [[Key finding low-level DSLs (Circom, Gnark) are easy-to-misuse, driving most circuit bugs]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
-- [[Methodology classify each bug by layer, type, root cause, and impact]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
-- [[Multi-prover design as defense (redundant proof systems  TEE, trades liveness for safety)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
-- [[Over-constrained circuit (rejects valid witnesses, causes DoS)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
-- [[Root cause arithmetic field error (nativetransformed over- and underflows)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
-- [[SNARK threat model adversarial roles (NetworkUserProver) and impacts (soundnesscompletenessZK)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
-- [[Semaphore verifier uint256 over snark field bug (integration, breaks completeness)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
-- [[SoK What Don't We Know Understanding Security Vulnerabilities in SNARKs]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
-- [[Survey of SNARK defense tools (Circomspect, ZKAP, Korrekt, Picus, Ecne, CIVER, SnarkProbe, Coda)]] - paper - references/ch01/ref-03-sok-snark-vulnerabilities.pdf
+- [[Ben-Sasson, Chiesa, Tromer, Virza Scalable Zero Knowledge via cycles of elliptic curves 4]] - paper - references/recursion/ch1/ref-05-halo.pdf
+- [[Cited Ben-Sasson-Chiesa-Tromer-Virza, Scalable ZK via cycles of elliptic curves (CRYPTO 2014)]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
+- [[Compatibility Hell (cross-layer alignment)]] - document - recursion/recursion-outline.md
+- [[Cycles of Elliptic Curves]] - document - references/ch06/ref-17-nova.pdf
+- [[Dual elliptic primes equivalent to 2-cycles of ordinary curves (Prop. 10)]] - paper - references/recursion/ch1/ref-13-chiesa-chua-weidner-cycles.pdf
+- [[Field-Mismatch Problem (base vs scalar field)]] - document - recursion/recursion-outline.md
+- [[Full Recursion (in-circuit verifier embedding)]] - document - recursion/recursion-outline.md
+- [[Half-pairing cycle (e.g., BN254Grumpkin)]] - paper - references/recursion/ch1/ref-30-cyclefold.pdf
+- [[Nguyen, Boneh, Setty, Revisiting the Nova Proof System on a Cycle of Curves (ePrint 2023969)]] - document - recursion/recursion-outline.md
+- [[Nguyen-Boneh-Setty Bug Study]] - document - recursion/recursion-outline.md
+- [[Non-native (wrong-field) arithmetic]] - paper - references/recursion/ch1/ref-30-cyclefold.pdf
+- [[Prop. 7 no m-cycles (m1) with nontrivial cofactors for large q (composite-order cycles cannot exist)]] - paper - references/recursion/ch1/ref-13-chiesa-chua-weidner-cycles.pdf
+- [[Quarantine of foreign-field EC group ops to native circuit on E2]] - paper - references/recursion/ch1/ref-30-cyclefold.pdf
+- [[Silverman & Stange SS11 - aliquot cycles of elliptic curves, existence Prop. 1]] - paper - references/recursion/ch1/ref-13-chiesa-chua-weidner-cycles.pdf
+- [[Tiny co-processor circuit C_EC on second curve (~1000-1500 gates)]] - paper - references/recursion/ch1/ref-30-cyclefold.pdf
+- [[Verifiable delegation of scalar multiplication + point addition]] - paper - references/recursion/ch1/ref-30-cyclefold.pdf
+- [[Worked Intuition the Proof of a Proof]] - document - recursion/recursion-outline.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -36,17 +36,27 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 3 edges to [[_COMMUNITY_Community 2]]
-- 2 edges to [[_COMMUNITY_Community 37]]
-- 1 edge to [[_COMMUNITY_Community 82]]
-- 1 edge to [[_COMMUNITY_Community 69]]
-- 1 edge to [[_COMMUNITY_Community 12]]
-- 1 edge to [[_COMMUNITY_Community 6]]
-- 1 edge to [[_COMMUNITY_Community 7]]
+- 8 edges to [[_COMMUNITY_Community 1]]
+- 8 edges to [[_COMMUNITY_Community 65]]
+- 3 edges to [[_COMMUNITY_Community 23]]
+- 3 edges to [[_COMMUNITY_Community 90]]
+- 3 edges to [[_COMMUNITY_Community 51]]
+- 2 edges to [[_COMMUNITY_Community 97]]
+- 2 edges to [[_COMMUNITY_Community 33]]
+- 2 edges to [[_COMMUNITY_Community 38]]
+- 2 edges to [[_COMMUNITY_Community 43]]
+- 1 edge to [[_COMMUNITY_Community 13]]
+- 1 edge to [[_COMMUNITY_Community 28]]
 - 1 edge to [[_COMMUNITY_Community 16]]
+- 1 edge to [[_COMMUNITY_Community 107]]
+- 1 edge to [[_COMMUNITY_Community 130]]
+- 1 edge to [[_COMMUNITY_Community 68]]
+- 1 edge to [[_COMMUNITY_Community 88]]
+- 1 edge to [[_COMMUNITY_Community 14]]
 
 ## Top bridge nodes
-- [[SoK What Don't We Know Understanding Security Vulnerabilities in SNARKs]] - degree 12, connects to 7 communities
-- [[Circuit-layer vulnerabilities (99 bugs; most prevalent class)]] - degree 6, connects to 1 community
-- [[Survey of SNARK defense tools (Circomspect, ZKAP, Korrekt, Picus, Ecne, CIVER, SnarkProbe, Coda)]] - degree 3, connects to 1 community
-- [[Key finding low-level DSLs (Circom, Gnark) are easy-to-misuse, driving most circuit bugs]] - degree 2, connects to 1 community
+- [[Cycles of Elliptic Curves]] - degree 40, connects to 15 communities
+- [[Tiny co-processor circuit C_EC on second curve (~1000-1500 gates)]] - degree 5, connects to 2 communities
+- [[Compatibility Hell (cross-layer alignment)]] - degree 3, connects to 1 community
+- [[Full Recursion (in-circuit verifier embedding)]] - degree 3, connects to 1 community
+- [[Nguyen-Boneh-Setty Bug Study]] - degree 3, connects to 1 community

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-37-updatable-universal-crs.pdf"
 type: "paper"
-community: "Community 79"
+community: "Community 112"
 location: "§2, [BFS16]"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_79
+  - community/Community_112
 ---
 
 # Cited: Bellare-Fuchsbauer-Scafuro subversion impossibility (BFS16)
@@ -15,4 +15,4 @@ tags:
 - [[Subversion-resistant NIZK  subversion zero-knowledge]] - `introduces` [EXTRACTED]
 - [[Updatable and Universal Common Reference Strings with Applications to zk-SNARKs]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_79
+#graphify/paper #graphify/EXTRACTED #community/Community_112

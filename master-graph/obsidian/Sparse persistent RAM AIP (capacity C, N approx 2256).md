@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch14/ref-46-zk-memory-algebraic-proofs.pdf"
 type: "paper"
-community: "Community 38"
+community: "Community 54"
 location: "§6"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_38
+  - community/Community_54
 ---
 
 # Sparse persistent RAM AIP (capacity C, N approx 2^256)
@@ -17,4 +17,4 @@ tags:
 - [[Punctured uniqueness AIP Pi_PuncUniq (gcd has form Xc), V-cost 4C+O(log C)]] - `assumes` [EXTRACTED]
 - [[Volatile and Persistent Memory for zkSNARKs via Algebraic Interactive Proofs]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_38
+#graphify/paper #graphify/EXTRACTED #community/Community_54

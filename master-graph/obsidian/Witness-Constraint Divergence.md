@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch04-witness-constraint-divergence.md"
 type: "document"
-community: "Community 63"
+community: "Community 126"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_63
+  - community/Community_126
 ---
 
 # Witness-Constraint Divergence
@@ -25,4 +25,4 @@ tags:
 - [[zkFuzz]] - `cites` [EXTRACTED]
 - [[zkSync Era]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_63
+#graphify/document #graphify/EXTRACTED #community/Community_126

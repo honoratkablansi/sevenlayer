@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch07/ref-24-shor.pdf"
 type: "paper"
-community: "Community 102"
+community: "Community 113"
 location: "§3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_102
+  - community/Community_113
 ---
 
 # Schonhage-Strassen fast multiplication via FFT
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Reversible modular exponentiation subroutine]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_102
+#graphify/paper #graphify/EXTRACTED #community/Community_113

@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 68"
+community: "Community 116"
 location: "Chapter 7"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_68
+  - community/Community_116
 ---
 
 # Claim: Field Choice Is a One-Way Door (Cascade Effect)
@@ -15,4 +15,4 @@ tags:
 - [[Goldilocks Field]] - `explains` [EXTRACTED]
 - [[Layer 6 The Deep Craft (Cryptographic Primitives)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_68
+#graphify/document #graphify/EXTRACTED #community/Community_116

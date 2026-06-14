@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch3/ref-54-ethereum-rollup-centric-roadmap.md"
 type: "document"
-community: "Community 107"
+community: "Community 47"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_107
+  - community/Community_47
 ---
 
 # Rollup-centric Ethereum scaling roadmap
@@ -19,4 +19,4 @@ tags:
 - [[Sharding dropped in favor of rollup scaling]] - `conceptually_related_to` [INFERRED]
 - [[ZK Rollup]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_107
+#graphify/document #graphify/EXTRACTED #community/Community_47

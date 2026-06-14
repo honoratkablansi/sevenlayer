@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-56-symphony.pdf"
 type: "paper"
-community: "Community 28"
+community: "Community 34"
 location: "§3.2, Fig. 1, Prop 3.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_28
+  - community/Community_34
 ---
 
 # RoK Pi_had reducing batched Hadamard/R1CS relation to linear relation (Prop 3.1)
@@ -17,4 +17,4 @@ tags:
 - [[Reduction of Knowledge]] - `conceptually_related_to` [EXTRACTED]
 - [[Sum-Check Protocol]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_28
+#graphify/paper #graphify/EXTRACTED #community/Community_34

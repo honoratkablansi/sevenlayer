@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch03/ref-13-practical-security-zk-circuits.pdf"
 type: "paper"
-community: "Community 43"
+community: "Community 80"
 location: "§4.4"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_43
+  - community/Community_80
 ---
 
 # US, USCO, AM, NDD detectors (remaining ZKAP checkers)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Vulnerability Description Language (VDL)]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_43
+#graphify/paper #graphify/EXTRACTED #community/Community_80

@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf"
 type: "paper"
-community: "Community 60"
+community: "Community 9"
 location: "§4.1 Definition"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_60
+  - community/Community_9
 ---
 
 # Formal Accumulation Scheme Definition AS=(G,I,P,V,D) for (Phi,H)
@@ -19,4 +19,4 @@ tags:
 - [[Proof-Carrying Data from Accumulation Schemes (BCMS20)]] - `defines` [EXTRACTED]
 - [[Zero Knowledge for Accumulation Schemes (simulator, verification proof piV)]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_60
+#graphify/paper #graphify/EXTRACTED #community/Community_9

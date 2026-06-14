@@ -1,24 +1,25 @@
 ---
 type: community
-cohesion: 0.22
-members: 9
+cohesion: 0.24
+members: 10
 ---
 
 # Community 108
 
-**Cohesion:** 0.22 - loosely connected
-**Members:** 9 nodes
+**Cohesion:** 0.24 - loosely connected
+**Members:** 10 nodes
 
 ## Members
-- [[Fiore-Nitulescu On the (in)security of SNARKs in the presence of oracles (TCC 2016) 50 — O-SNARK notion]] - paper - references/recursion/ch3/ref-59-zkbridge.pdf
-- [[GKR  Delegating Computation Interactive Proofs for Muggles (Goldwasser-Kalai-Rothblum, J.ACM 2015) 53]] - paper - references/recursion/ch3/ref-59-zkbridge.pdf
-- [[GKR protocol interactive proofs for layered arithmetic circuits via d sumcheck instances]] - paper - references/recursion/ch3/ref-59-zkbridge.pdf
-- [[Lund, Fortnow, Karloff, Nisan - Sumcheck (1992)]] - document - proving-nothing.md
-- [[Micali Computationally Sound Proofs (SIAM J. Comput. 2000) 60 — non-interactive ROM construction underlying Virgo]] - paper - references/recursion/ch3/ref-59-zkbridge.pdf
-- [[O-SNARK SNARK over authenticated data  oracle families (Fiore-Nitulescu); deVirgo is an O-SNARK in the random oracle model]] - paper - references/recursion/ch3/ref-59-zkbridge.pdf
-- [[Sumcheck  Algebraic Methods for Interactive Proof Systems (Lund-Fortnow-Karloff-Nisan, J.ACM 1992) 58]] - paper - references/recursion/ch3/ref-59-zkbridge.pdf
-- [[Sumcheck Protocol]] - document - proving-nothing.md
-- [[Virgo Transparent Polynomial Delegation and ZK Proofs (Zhang-Xie-Zhang-Song, S&P 2020) 76 — base ZKP that deVirgo distributes]] - paper - references/recursion/ch3/ref-59-zkbridge.pdf
+- [[Amdahl's Law]] - document - proving-nothing.md
+- [[Client-Side vs Delegated Proving]] - document - proving-nothing.md
+- [[Four Witness Gaps (Performance, Memory, Security, Correctness)]] - document - proving-nothing.md
+- [[GPU Acceleration of Proving]] - document - proving-nothing.md
+- [[Nair, Thaler, Zhu Streaming Jolt (ePrint 2025611)]] - document - proving-nothing.md
+- [[Q5 Streaming Witness Interaction with Folding]] - document - proving-nothing.md
+- [[Streaming Witness Generation]] - document - proving-nothing.md
+- [[The Hardware Ladder (Privacy as a Luxury Good)]] - document - proving-nothing.md
+- [[The Witness Gap]] - document - proving-nothing.md
+- [[ZKPoG (Li et al., ePrint 2025765)]] - document - proving-nothing.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -28,15 +29,18 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 3 edges to [[_COMMUNITY_Community 65]]
-- 1 edge to [[_COMMUNITY_Community 68]]
-- 1 edge to [[_COMMUNITY_Community 11]]
-- 1 edge to [[_COMMUNITY_Community 15]]
-- 1 edge to [[_COMMUNITY_Community 0]]
-- 1 edge to [[_COMMUNITY_Community 8]]
-- 1 edge to [[_COMMUNITY_Community 46]]
+- 4 edges to [[_COMMUNITY_Community 89]]
+- 2 edges to [[_COMMUNITY_Community 109]]
+- 2 edges to [[_COMMUNITY_Community 2]]
+- 2 edges to [[_COMMUNITY_Community 72]]
+- 1 edge to [[_COMMUNITY_Community 40]]
+- 1 edge to [[_COMMUNITY_Community 70]]
+- 1 edge to [[_COMMUNITY_Community 14]]
+- 1 edge to [[_COMMUNITY_Community 1]]
 
 ## Top bridge nodes
-- [[Sumcheck Protocol]] - degree 9, connects to 6 communities
-- [[Virgo Transparent Polynomial Delegation and ZK Proofs (Zhang-Xie-Zhang-Song, S&P 2020) 76 — base ZKP that deVirgo distributes]] - degree 4, connects to 2 communities
-- [[O-SNARK SNARK over authenticated data  oracle families (Fiore-Nitulescu); deVirgo is an O-SNARK in the random oracle model]] - degree 3, connects to 1 community
+- [[The Witness Gap]] - degree 10, connects to 4 communities
+- [[Four Witness Gaps (Performance, Memory, Security, Correctness)]] - degree 5, connects to 2 communities
+- [[Streaming Witness Generation]] - degree 5, connects to 2 communities
+- [[GPU Acceleration of Proving]] - degree 4, connects to 2 communities
+- [[Q5 Streaming Witness Interaction with Folding]] - degree 3, connects to 2 communities

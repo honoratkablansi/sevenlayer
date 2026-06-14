@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-11-khovratovich-fiat-shamir-attacks.pdf"
 type: "paper"
-community: "Community 14"
+community: "Community 23"
 location: "Theorem 9 (p.14), Lemma 8 (p.13), §4.1, App A"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_14
+  - community/Community_23
 ---
 
 # Theorem 9: family T'(N,M) unsound for any commitment with sub-input-size code and any hash; uses an f-quine (Lemma 8, |[p]|=|[f]|+c via Kleene recursion) passed as witness; commitment-independent
@@ -16,4 +16,4 @@ tags:
 - [[Soundness attack producing an accepting proof for a false statement in a FS-compiled argument (adaptive and non-adaptive variants)]] - `proves` [EXTRACTED]
 - [[Universal Computation Attack (§4) fixed circuits independent of crypto primitives via universal Turing machine circuit and quines; violates non-adaptive soundness]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_14
+#graphify/paper #graphify/EXTRACTED #community/Community_23

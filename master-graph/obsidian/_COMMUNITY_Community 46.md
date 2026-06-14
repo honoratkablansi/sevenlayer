@@ -1,37 +1,37 @@
 ---
 type: community
-cohesion: 0.12
+cohesion: 0.13
 members: 22
 ---
 
 # Community 46
 
-**Cohesion:** 0.12 - loosely connected
+**Cohesion:** 0.13 - loosely connected
 **Members:** 22 nodes
 
 ## Members
-- [[Computation commitments succinct commitment to R1CS structure via public preprocessing (Encode), no trapdoor]] - paper - references/recursion/ch2/ref-41-spartan.pdf
-- [[Encoding of R1CS as a degree-3 log m-variate polynomial G_{io,τ} summing to 0 (Theorem 4.1)]] - paper - references/recursion/ch2/ref-41-spartan.pdf
-- [[Extractable polynomial commitment scheme for multilinear polynomials (Setup, Commit, Open, Eval)]] - paper - references/recursion/ch2/ref-41-spartan.pdf
-- [[Fiat-Shamir transform in the random oracle model to obtain NIZKzkSNARK from public-coin argument]] - paper - references/recursion/ch2/ref-41-spartan.pdf
-- [[GGPR quadratic arithmetic programs (QAPs)  Pinocchio trusted-setup SNARKs (cited prior work)]] - paper - references/recursion/ch2/ref-41-spartan.pdf
-- [[Goldwasser-Kalai-Rothblum (GKR) doubly-efficient interactive proofs (cited prior work)]] - paper - references/recursion/ch2/ref-41-spartan.pdf
-- [[Hyrax (Wahby et al.) transparent zkSNARK + Hyrax-PC multilinear polynomial commitment (cited  instantiated)]] - paper - references/recursion/ch2/ref-41-spartan.pdf
-- [[Libra (Xie et al.) linear-time-prover zkSNARK for uniform circuits (cited; SpartanKE alternative)]] - paper - references/recursion/ch2/ref-41-spartan.pdf
-- [[No-FFT prover (sum-check avoids FFT-based polynomial machinery of QAPIOP SNARKs)]] - paper - references/recursion/ch2/ref-41-spartan.pdf
-- [[No-trusted-setup (transparent) argument under discrete log over normal curve cycles]] - paper - references/recursion/ch1/ref-05-halo.pdf
-- [[Offline memory checking via public-coin randomized check (memory in the head) for O(n)-sized eval circuit]] - paper - references/recursion/ch2/ref-41-spartan.pdf
-- [[SPARK compiler transforms a dense multilinear PC into one for sparse multilinear polynomials]] - paper - references/recursion/ch2/ref-41-spartan.pdf
-- [[Setty, Spartan (CRYPTO 2020)]] - document - recursion/recursion-outline.md
-- [[Setty, Spartan Efficient and General-Purpose zkSNARKs without Trusted Setup (CRYPTO 2020  ePrint 2019550)]] - paper - references/recursion/ch2/ref-41-spartan.pdf
-- [[Spartan]] - document - proving-nothing.md
-- [[Spartan Rust library (~8,000 LoC), DLOG-based transparent zkSNARK; github.comMicrosoftSpartan]] - paper - references/recursion/ch2/ref-41-spartan.pdf
-- [[Spartan variants SpartanDL, SpartanRO, SpartanCL (transparent), SpartanKE (universal setup)]] - paper - references/recursion/ch2/ref-41-spartan.pdf
-- [[Theorem 1.1  Corollary 1.1 family of zkSNARKs, prover O(n)–O(n log n), verifierproof O(log² n)–O(√n)]] - paper - references/recursion/ch2/ref-41-spartan.pdf
-- [[Theorem 4.1 ∃ degree-3 log m-variate G with ∑ G(x)=0 iff R1CS satisfiable]] - paper - references/recursion/ch2/ref-41-spartan.pdf
-- [[Theorem 5.1 succinct interactive AoK from any extractable multilinear polynomial commitment]] - paper - references/recursion/ch2/ref-41-spartan.pdf
-- [[Time-optimal (linear-time O(n)) prover from multilinear decomposition + SPARK]] - paper - references/recursion/ch2/ref-41-spartan.pdf
-- [[Two-round sum-check public-coin succinct interactive argument of knowledge for R1CS (Theorem 5.1)]] - paper - references/recursion/ch2/ref-41-spartan.pdf
+- [[A la carte cost profile per-step proving cost proportional only to the circuit size of the invoked instruction, independent of k (number of instruction types)]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[Augmented function F'_j runs F_j then a verifier circuit folding u_i into U_ipc, checks public IO hash, and computes pc_{i+1} via phi]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[Avoiding universal switch circuits SuperNova never builds a circuit summing all instruction circuits; per-step cost depends only on the executed instruction]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[Buffet 34 a-la-carte cost via line-by-line compilation to non-uniform circuits, but not incremental and needs static execution bounds]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[Compression to succinct zero-knowledge apply a general-purpose zkSNARK (e.g., Spartan) over a valid NIVC proof, as in Nova]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[Construction 1 SuperNova NIVC scheme (G,K,P,V) built from non-interactive folding scheme NIFS for committed relaxed R1CS plus a hash]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[Control function phi takes (z_i, omega_i) and outputs program counter pc in {1,...,l} selecting which F_j to apply at each step]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[Instantiations VDF machine (l=1, MinRoot) and RAM machine (RISC-V-like, program counter register, Merkle-committed memory)]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[Kothapalli, Setty, Tzialla, Nova (CRYPTO 2022)]] - document - recursion/recursion-outline.md
+- [[Lemma 1  Assumption 1 non-interactive folding scheme for committed relaxed R1CS (Nova 21); prover O(n), verifier and communication O(1), via Fiat-Shamir in plain model]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[Lemma 2 (Completeness) Construction 1 is an NIVC scheme satisfying perfect completeness]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[Lemma 3 (Knowledge soundness) Construction 1 satisfies knowledge soundness via inductive extractor reduction to folding-scheme soundness]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[Lemma 4 (Efficiency) F'_j = phi + F_j + o(2G + 2H + R); prover cost dominated by two multiexponentiations sized to the executed instruction]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[MIRAGE 20 adapts vRAM techniques to Groth's SNARK; still relies on whole-trace invariants, incompatible with incremental proving]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[Multiple running instances, one per instruction type; incoming step instance folded into the running instance selected by pc (U_ipc)]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[Non-uniform IVC (NIVC) generalization of IVC where each step proves a relation chosen from a set, selected by a control function]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[Optimization offlineMerkle memory-checking reduces F'_j circuit dependence on l from O(l) to O(log l) then to O(1) constraints]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[Per-instruction step functions {F_1,...,F_l} plus control function phi; each F_j verifies one instruction type, cost independent of l]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[Program counter (pc) index selecting which instructionfunction is run at a step; computed by control function phi and threaded between augmented circuits]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[SuperNova (Non-Uniform IVC)]] - document - proving-nothing.md
+- [[Universal circuit single circuit executing any supported instruction (fetch-decode-execute); per-step cost scales with sum of all instruction circuit sizes]] - paper - references/recursion/ch2/ref-44-supernova.pdf
+- [[vRAM 37 trimmed universal circuit for vnTinyRAM via fingerprinting over the trace; not incremental, not zero-knowledge]] - paper - references/recursion/ch2/ref-44-supernova.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -41,26 +41,16 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 8 edges to [[_COMMUNITY_Community 11]]
-- 5 edges to [[_COMMUNITY_Community 18]]
-- 4 edges to [[_COMMUNITY_Community 8]]
-- 3 edges to [[_COMMUNITY_Community 16]]
-- 3 edges to [[_COMMUNITY_Community 86]]
-- 2 edges to [[_COMMUNITY_Community 15]]
-- 2 edges to [[_COMMUNITY_Community 54]]
-- 1 edge to [[_COMMUNITY_Community 108]]
-- 1 edge to [[_COMMUNITY_Community 90]]
-- 1 edge to [[_COMMUNITY_Community 84]]
+- 7 edges to [[_COMMUNITY_Community 1]]
+- 3 edges to [[_COMMUNITY_Community 28]]
+- 3 edges to [[_COMMUNITY_Community 88]]
+- 2 edges to [[_COMMUNITY_Community 25]]
 - 1 edge to [[_COMMUNITY_Community 0]]
-- 1 edge to [[_COMMUNITY_Community 13]]
-- 1 edge to [[_COMMUNITY_Community 110]]
-- 1 edge to [[_COMMUNITY_Community 14]]
-- 1 edge to [[_COMMUNITY_Community 101]]
-- 1 edge to [[_COMMUNITY_Community 109]]
+- 1 edge to [[_COMMUNITY_Community 131]]
 
 ## Top bridge nodes
-- [[Spartan]] - degree 36, connects to 9 communities
-- [[No-trusted-setup (transparent) argument under discrete log over normal curve cycles]] - degree 8, connects to 5 communities
-- [[Encoding of R1CS as a degree-3 log m-variate polynomial G_{io,τ} summing to 0 (Theorem 4.1)]] - degree 4, connects to 3 communities
-- [[Two-round sum-check public-coin succinct interactive argument of knowledge for R1CS (Theorem 5.1)]] - degree 6, connects to 1 community
-- [[Setty, Spartan Efficient and General-Purpose zkSNARKs without Trusted Setup (CRYPTO 2020  ePrint 2019550)]] - degree 5, connects to 1 community
+- [[SuperNova (Non-Uniform IVC)]] - degree 15, connects to 5 communities
+- [[Universal circuit single circuit executing any supported instruction (fetch-decode-execute); per-step cost scales with sum of all instruction circuit sizes]] - degree 4, connects to 2 communities
+- [[Construction 1 SuperNova NIVC scheme (G,K,P,V) built from non-interactive folding scheme NIFS for committed relaxed R1CS plus a hash]] - degree 8, connects to 1 community
+- [[Non-uniform IVC (NIVC) generalization of IVC where each step proves a relation chosen from a set, selected by a control function]] - degree 5, connects to 1 community
+- [[Lemma 1  Assumption 1 non-interactive folding scheme for committed relaxed R1CS (Nova 21); prover O(n), verifier and communication O(1), via Fiat-Shamir in plain model]] - degree 4, connects to 1 community

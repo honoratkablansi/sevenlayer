@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 1"
+community: "Community 108"
 location: "Chapter 4"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_1
+  - community/Community_108
 ---
 
 # ZKPoG (Li et al., ePrint 2025/765)
@@ -16,4 +16,4 @@ tags:
 - [[The Witness Gap]] - `introduces` [EXTRACTED]
 - [[Witness Generation]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_1
+#graphify/document #graphify/EXTRACTED #community/Community_108

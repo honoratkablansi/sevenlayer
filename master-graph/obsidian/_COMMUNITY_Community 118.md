@@ -1,21 +1,24 @@
 ---
 type: community
-cohesion: 0.40
-members: 6
+cohesion: 0.25
+members: 9
 ---
 
 # Community 118
 
-**Cohesion:** 0.40 - moderately connected
-**Members:** 6 nodes
+**Cohesion:** 0.25 - loosely connected
+**Members:** 9 nodes
 
 ## Members
-- [[Daza, Rafols, Zacharakis DRZ20 updateable IPP with log verifier]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
-- [[Inner pairing product argument (IPP)]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
-- [[MIPP Multi-exponentiation Inner Product argument]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
-- [[MT-IPP merged MIPP+TIPP argument]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
-- [[TIPP Target Inner Pairing Product argument]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
-- [[Theorem 3 MT-IPP completeness and knowledge soundness]] - paper - references/recursion/ch1/ref-33-snarkpack.pdf
+- [[ASP construction strategies (add-with-delayexclude-bad, $Nmonthperson, trusted-community, real-time AI scoring)]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
+- [[Association Set Provider (ASP) intermediary]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
+- [[Association set (custom set of possible fund origins)]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
+- [[Bilateral direct proof (size-one association set; timestamping-service variant)]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
+- [[Dissociation game (AliceBobCarlDavid vs Eve elimination example)]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
+- [[Exclusion proof ('my withdrawal does not come from one of these deposits')]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
+- [[Membership proof ('my withdrawal comes from one of these deposits')]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
+- [[Neutral, censorship-resistant infrastructure  jurisdiction-flexible compliance argument]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
+- [[Separating equilibrium between compliant and non-compliant withdrawals]] - paper - references/ch09/ref-31-blockchain-privacy-compliance.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -25,12 +28,9 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 3 edges to [[_COMMUNITY_Community 89]]
-- 2 edges to [[_COMMUNITY_Community 12]]
-- 1 edge to [[_COMMUNITY_Community 22]]
+- 1 edge to [[_COMMUNITY_Community 12]]
+- 1 edge to [[_COMMUNITY_Community 58]]
 
 ## Top bridge nodes
-- [[MT-IPP merged MIPP+TIPP argument]] - degree 6, connects to 2 communities
-- [[Inner pairing product argument (IPP)]] - degree 4, connects to 1 community
-- [[Daza, Rafols, Zacharakis DRZ20 updateable IPP with log verifier]] - degree 2, connects to 1 community
-- [[Theorem 3 MT-IPP completeness and knowledge soundness]] - degree 2, connects to 1 community
+- [[Association set (custom set of possible fund origins)]] - degree 5, connects to 1 community
+- [[Separating equilibrium between compliant and non-compliant withdrawals]] - degree 3, connects to 1 community

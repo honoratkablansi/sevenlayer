@@ -1,20 +1,20 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 11"
+community: "Community 1"
 location: "Chapter 5"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_11
+  - community/Community_1
 ---
 
 # AIR (Algebraic Intermediate Representation)
 
 ## Connections
-- [[CCS (Customizable Constraint Systems)]] - `compares` [EXTRACTED]
+- [[CCS (Customizable Constraint Systems)]] - `generalizes` [EXTRACTED]
 - [[CCS The Rosetta Stone]] - `references` [EXTRACTED]
-- [[Cairo (StarkWare ZK-native ISA)]] - `implements` [EXTRACTED]
+- [[Cairo (StarkWare ZK-native ISA)]] - `uses` [EXTRACTED]
 - [[Circle STARKs]] - `conceptually_related_to` [EXTRACTED]
 - [[Constraint System]] - `introduces` [EXTRACTED]
 - [[Customizable Constraint Systems for Succinct Arguments]] - `conceptually_related_to` [EXTRACTED]
@@ -37,4 +37,4 @@ tags:
 - [[Where the Layers Collapse]] - `references` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_11
+#graphify/document #graphify/EXTRACTED #community/Community_1

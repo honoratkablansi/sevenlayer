@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch03/ref-16-jolt.pdf"
 type: "paper"
-community: "Community 54"
+community: "Community 82"
 location: "§1.3.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_54
+  - community/Community_82
 ---
 
 # MSM commitment via Pippenger's algorithm
@@ -15,4 +15,4 @@ tags:
 - [[Polynomial Commitment Scheme]] - `conceptually_related_to` [EXTRACTED]
 - [[Prover commits to ~6 256-bit field elements per RISC-V CPU step]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_54
+#graphify/paper #graphify/EXTRACTED #community/Community_82

@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch3/ref-56-ethereum-org-zkevm-roadmap.md"
 type: "document"
-community: "Community 107"
+community: "Community 127"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_107
+  - community/Community_127
 ---
 
 # ethereum.org Ethereum roadmap page (zkEVM)
@@ -18,4 +18,4 @@ tags:
 - [[Statelessness (stateless clients verify blocks without storing state)]] - `explains` [EXTRACTED]
 - [[zkEVM  EVM-Compatible Proving]] - `explains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_107
+#graphify/document #graphify/EXTRACTED #community/Community_127

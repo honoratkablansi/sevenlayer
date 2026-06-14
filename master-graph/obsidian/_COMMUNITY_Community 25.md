@@ -1,43 +1,41 @@
 ---
 type: community
-cohesion: 0.11
-members: 28
+cohesion: 0.10
+members: 26
 ---
 
 # Community 25
 
-**Cohesion:** 0.11 - loosely connected
-**Members:** 28 nodes
+**Cohesion:** 0.10 - loosely connected
+**Members:** 26 nodes
 
 ## Members
-- [[Anonymity set of Bitcoin public keys for address unlinkability]] - paper - references/recursion/ch3/ref-88-provisions.pdf
-- [[Bit-decomposition range proof for committed balances (no trusted setup)]] - paper - references/recursion/ch3/ref-88-provisions.pdf
-- [[Chaum-Pedersen proof of representation of a DH tuple]] - paper - references/recursion/ch3/ref-88-provisions.pdf
-- [[Decisional Diffie-Hellman (DDH) assumption over secp256k1]] - paper - references/recursion/ch3/ref-88-provisions.pdf
-- [[Exchange liabilities commitment and reserves attestation]] - document - references/recursion/ch3/ref-89-summa-proof-of-solvency.md
-- [[Fiat-Shamir heuristic (interactive to non-interactive compilation)]] - paper - references/recursion/ch3/ref-88-provisions.pdf
-- [[General security definition of a privacy-preserving proof of solvency (valid pair; correctnesssoundnessownershipprivacy)]] - paper - references/recursion/ch3/ref-88-provisions.pdf
-- [[Halo2-based zk prover (zk_prover)]] - document - references/recursion/ch3/ref-89-summa-proof-of-solvency.md
-- [[Injective customer-ID commitment to defeat clash attack]] - paper - references/recursion/ch3/ref-88-provisions.pdf
-- [[Maxwell Merkle-tree proof of reservesliabilities (prior work)]] - paper - references/recursion/ch3/ref-88-provisions.pdf
-- [[Neff verifiable secret shuffle  mix net (prior work)]] - paper - references/recursion/ch3/ref-88-provisions.pdf
-- [[No-trusted-setup design goal (no common reference string)]] - paper - references/recursion/ch3/ref-88-provisions.pdf
-- [[Non-surjective liability mapping fake users only increase apparent liabilities]] - paper - references/recursion/ch3/ref-88-provisions.pdf
-- [[Privacy-preserving proof of liabilities (Protocol 2)]] - paper - references/recursion/ch3/ref-88-provisions.pdf
-- [[Proof of assets  proof of reserves]] - paper - references/recursion/ch3/ref-88-provisions.pdf
-- [[Proof of non-collusion extension (Neff-mix permutation, DDH)]] - paper - references/recursion/ch3/ref-88-provisions.pdf
-- [[Proof of solvency  financial compliance]] - document - recursion/recursion-outline.md
-- [[Proof-of-assets Sigma-protocol (HVZK argument of knowledge)]] - paper - references/recursion/ch3/ref-88-provisions.pdf
-- [[Provisions (Dagher et al., CCS 2015)]] - document - recursion/recursion-outline.md
-- [[Provisions privacy-preserving proof of solvency for Bitcoin exchanges]] - paper - references/recursion/ch3/ref-88-provisions.pdf
-- [[Schnorr proof of knowledge of discrete logarithm]] - paper - references/recursion/ch3/ref-88-provisions.pdf
-- [[Sigma protocol (public-coin 3-move)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
-- [[Solidity verifier smart contracts]] - document - references/recursion/ch3/ref-89-summa-proof-of-solvency.md
-- [[Summa Proof of Solvency Protocol]] - document - references/recursion/ch3/ref-89-summa-proof-of-solvency.md
-- [[Summa Rust backend API]] - document - references/recursion/ch3/ref-89-summa-proof-of-solvency.md
-- [[Theorem 1 proof-of-assets Sigma-protocol is HVZK argument of knowledge]] - paper - references/recursion/ch3/ref-88-provisions.pdf
-- [[Theorem 2 proof-of-liabilities is zero-knowledge and sound]] - paper - references/recursion/ch3/ref-88-provisions.pdf
-- [[Theorem 3 Provisions (Protocol 3) is a privacy-preserving proof of solvency]] - paper - references/recursion/ch3/ref-88-provisions.pdf
+- [[Avionics software certification process]] - document - references/recursion/ch3/ref-68-do-178c-avionics-certification.md
+- [[Binary-tree IVC  parallel proving compatibility]] - paper - references/recursion/ch1/ref-30-cyclefold.pdf
+- [[Bitansky et al., IVC from SNARKs under extractor complexity assumptions 14]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
+- [[Blockchain summary (constant-size validity certificate of the chain)]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
+- [[Chain extractability (recursive extractor recovers underlying blockchain from summary)]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
+- [[Cited Bitansky-Canetti-Chiesa-Tromer, Recursive composition  PCD (STOC 2013)]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
+- [[Cited Valiant, Incrementally Verifiable Computation (TCC 2008)]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
+- [[Coda Decentralized Cryptocurrency at Scale (ePrint 2020352)]] - document - recursion/recursion-outline.md
+- [[DO-178C (RTCA) avionics software certification guidance]] - document - references/recursion/ch3/ref-68-do-178c-avionics-certification.md
+- [[DO-178C Software Considerations in Airborne Systems]] - document - references/recursion/ch3/ref-68-do-178c-avionics-certification.md
+- [[Design assurance levels  certification rigor]] - document - references/recursion/ch3/ref-68-do-178c-avionics-certification.md
+- [[High-integrity and embedded systems]] - document - recursion/recursion-outline.md
+- [[Incrementally Verifiable Computation (IVC)]] - document - proving-nothing.md
+- [[Incrementally-computable SNARK for a state transition system]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
+- [[Mina  Coda and Pickles recursion layer]] - document - recursion/recursion-outline.md
+- [[Mina end-to-end case study]] - document - recursion/recursion-outline.md
+- [[Nebra UPA whitepaper (Universal Proof Aggregation)]] - document - references/recursion/ch1/ref-22-nebra-upa.md
+- [[Nova Augmented Circuit]] - document - recursion/recursion-outline.md
+- [[Off-chain recursion, single aggregated onchain proof]] - document - references/recursion/ch1/ref-22-nebra-upa.md
+- [[Onchain ZKP settlement  verification cost]] - document - references/recursion/ch1/ref-22-nebra-upa.md
+- [[Recursive SNARK]] - document - references/recursion/ch1/ref-22-nebra-upa.md
+- [[State transition system (Sigma, T, Update) abstraction for blockchains]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
+- [[Succinct Blockchain Protocol definition (5 PPT algorithms + succinctness)]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
+- [[Succinct blockchain]] - document - recursion/recursion-outline.md
+- [[Universal Proof Aggregation (UPA)]] - document - references/recursion/ch1/ref-22-nebra-upa.md
+- [[Valiant 33 original IVC notion via recursive proof composition, the classic approach SuperNova generalizes]] - paper - references/recursion/ch2/ref-44-supernova.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -47,19 +45,36 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 5 edges to [[_COMMUNITY_Community 0]]
-- 2 edges to [[_COMMUNITY_Community 37]]
-- 2 edges to [[_COMMUNITY_Community 65]]
+- 6 edges to [[_COMMUNITY_Community 1]]
+- 6 edges to [[_COMMUNITY_Community 23]]
+- 5 edges to [[_COMMUNITY_Community 9]]
+- 5 edges to [[_COMMUNITY_Community 7]]
+- 3 edges to [[_COMMUNITY_Community 28]]
+- 3 edges to [[_COMMUNITY_Community 68]]
+- 3 edges to [[_COMMUNITY_Community 33]]
+- 3 edges to [[_COMMUNITY_Community 8]]
+- 2 edges to [[_COMMUNITY_Community 53]]
+- 2 edges to [[_COMMUNITY_Community 46]]
+- 2 edges to [[_COMMUNITY_Community 44]]
+- 2 edges to [[_COMMUNITY_Community 3]]
+- 2 edges to [[_COMMUNITY_Community 38]]
 - 2 edges to [[_COMMUNITY_Community 62]]
-- 2 edges to [[_COMMUNITY_Community 14]]
-- 1 edge to [[_COMMUNITY_Community 105]]
-- 1 edge to [[_COMMUNITY_Community 42]]
-- 1 edge to [[_COMMUNITY_Community 56]]
-- 1 edge to [[_COMMUNITY_Community 23]]
+- 2 edges to [[_COMMUNITY_Community 0]]
+- 1 edge to [[_COMMUNITY_Community 32]]
+- 1 edge to [[_COMMUNITY_Community 2]]
+- 1 edge to [[_COMMUNITY_Community 131]]
+- 1 edge to [[_COMMUNITY_Community 103]]
+- 1 edge to [[_COMMUNITY_Community 117]]
+- 1 edge to [[_COMMUNITY_Community 10]]
+- 1 edge to [[_COMMUNITY_Community 51]]
+- 1 edge to [[_COMMUNITY_Community 88]]
+- 1 edge to [[_COMMUNITY_Community 85]]
+- 1 edge to [[_COMMUNITY_Community 40]]
+- 1 edge to [[_COMMUNITY_Community 74]]
 
 ## Top bridge nodes
-- [[Provisions privacy-preserving proof of solvency for Bitcoin exchanges]] - degree 16, connects to 4 communities
-- [[Proof of solvency  financial compliance]] - degree 12, connects to 4 communities
-- [[Sigma protocol (public-coin 3-move)]] - degree 5, connects to 2 communities
-- [[Privacy-preserving proof of liabilities (Protocol 2)]] - degree 7, connects to 1 community
-- [[Proof-of-assets Sigma-protocol (HVZK argument of knowledge)]] - degree 4, connects to 1 community
+- [[Incrementally Verifiable Computation (IVC)]] - degree 56, connects to 25 communities
+- [[Recursive SNARK]] - degree 5, connects to 3 communities
+- [[Succinct blockchain]] - degree 6, connects to 2 communities
+- [[Incrementally-computable SNARK for a state transition system]] - degree 5, connects to 2 communities
+- [[Nova Augmented Circuit]] - degree 3, connects to 2 communities

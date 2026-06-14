@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-59-zkbridge.pdf"
 type: "paper"
-community: "Community 65"
+community: "Community 74"
 location: "Theorem 3.1, §3.2.2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_65
+  - community/Community_74
 ---
 
 # Theorem 3.1: bridge BR[SC1->SC2] satisfies consistency and liveness given one honest relay node, a consistent/live sender chain, a light-client verifier, and a sound proof system
@@ -17,4 +17,4 @@ tags:
 - [[zk-SNARK]] - `assumes` [EXTRACTED]
 - [[zkBridge trustless cross-chain bridge via succinct proofs of consensus  light-client state transitions]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_65
+#graphify/paper #graphify/EXTRACTED #community/Community_74

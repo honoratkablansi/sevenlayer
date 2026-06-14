@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-10-sok-powers-of-tau.pdf"
 type: "paper"
-community: "Community 27"
+community: "Community 5"
 location: "§2 Def. 1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_27
+  - community/Community_5
 ---
 
 # q-strong Diffie-Hellman (q-sDH) hardness assumption
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Powers of Tau]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_27
+#graphify/paper #graphify/EXTRACTED #community/Community_5

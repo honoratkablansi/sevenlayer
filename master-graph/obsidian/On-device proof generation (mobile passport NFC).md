@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch3/ref-83-zkpassport-anon-aadhaar.md"
 type: "document"
-community: "Community 49"
+community: "Community 79"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_49
+  - community/Community_79
 ---
 
 # On-device proof generation (mobile passport NFC)
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[ZKPassport  Anon-Aadhaar document-proof systems]] - `explains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_49
+#graphify/document #graphify/EXTRACTED #community/Community_79

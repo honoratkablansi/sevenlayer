@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-31-poseidon.pdf"
 type: "paper"
-community: "Community 1"
+community: "Community 101"
 location: "§1 Introduction"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_1
+  - community/Community_101
 ---
 
 # Arithmetization-friendly / low-constraint hashing over a large prime field for ZK proof circuits
@@ -17,4 +17,4 @@ tags:
 - [[Poseidon Hash]] - `conceptually_related_to` [EXTRACTED]
 - [[R1CS constraint count 2tRF+2RP for x3, 3tRF+3RP for x5; up to 8x fewer constraintsbit than Pedersen hash]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_1
+#graphify/paper #graphify/EXTRACTED #community/Community_101

@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 54"
+community: "Community 2"
 location: "Chapter 5"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_54
+  - community/Community_2
 ---
 
 # Lasso
@@ -24,11 +24,12 @@ tags:
 - [[Lookup Argument]] - `defines` [EXTRACTED]
 - [[Lookup Singularity]] - `conceptually_related_to` [EXTRACTED]
 - [[Open Questions and the Road Ahead]] - `references` [EXTRACTED]
+- [[Polynomial Commitment Scheme]] - `uses` [EXTRACTED]
 - [[Prover commits to ~6 256-bit field elements per RISC-V CPU step]] - `assumes` [EXTRACTED]
 - [[Proving CPU Executions in Small Space]] - `references` [EXTRACTED]
 - [[Side-Channel Attacks When the Walls Leak]] - `references` [EXTRACTED]
 - [[Sparse-dense sum-check proving algorithm (streaming, sparsity-linear time)]] - `cites` [EXTRACTED]
-- [[Sum-Check Protocol]] - `conceptually_related_to` [INFERRED]
+- [[Sum-Check Protocol]] - `uses` [INFERRED]
 - [[The Proof Core Triad]] - `conceptually_related_to` [EXTRACTED]
 - [[The Landscape Table (March 2026)]] - `conceptually_related_to` [EXTRACTED]
 - [[The Secret Performance]] - `references` [EXTRACTED]
@@ -38,4 +39,4 @@ tags:
 - [[Where the Analogies Break]] - `references` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_54
+#graphify/document #graphify/EXTRACTED #community/Community_2

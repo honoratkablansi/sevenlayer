@@ -1,30 +1,31 @@
 ---
 type: community
-cohesion: 0.18
-members: 15
+cohesion: 0.24
+members: 16
 ---
 
 # Community 83
 
-**Cohesion:** 0.18 - loosely connected
-**Members:** 15 nodes
+**Cohesion:** 0.24 - loosely connected
+**Members:** 16 nodes
 
 ## Members
-- [[Compositional Counterexample Construction]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
-- [[Finite-Field SMT Solver (cvc5 fork)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
-- [[Groebner Basis Computation]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
-- [[InferValues Value Inference (Algorithm 3)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
-- [[Logical Encoding of Arithmetic Circuit (Definition 4.3)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
-- [[QED2 (verification tool)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
-- [[QED2 Evaluation Results (70% solved, 8 vulnerabilities)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
-- [[SMT Query Procedure (Algorithm 4)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
-- [[SMT Solving]] - document - references/ch03/ref-12-underconstrained-circuits.pdf
-- [[UCP Inference Rules (Assign, Base-Conv, BigInt-Mul, All-But-One-0)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
-- [[UCP Rule Soundness Proofs]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
-- [[Uniqueness Constraint Propagation (UCP)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
-- [[Value Inference Soundness (Lemmas A.4, A.5)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
-- [[Verify Algorithm (Algorithm 1)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
-- [[ZkBench Benchmark Suite (163 Circom circuits)]] - paper - references/ch03/ref-12-underconstrained-circuits.pdf
+- [[Custom proof system for lattice hash range proof (Plookup) + Freivalds + univariate SumCheck (Aurora)]] - paper - references/recursion/ch3/ref-78-veritas.pdf
+- [[Extended PLONK permutation argument (tau') tying circuit trace T(X) to witness polynomial W(X)]] - paper - references/recursion/ch3/ref-78-veritas.pdf
+- [[Homomorphic  redactable signatures (alternate, SNARK-free designs; impractical for blurresize)]] - paper - references/recursion/ch3/ref-78-veritas.pdf
+- [[Image Authentication (IA) proving an image faithfully represents an original photograph from a given capture device class]] - paper - references/recursion/ch3/ref-77-photoproof.pdf
+- [[Instance-witness relation R f(w)=x AND SigVerify(vk,w,sigma)=1 (signed original to edited image)]] - paper - references/recursion/ch3/ref-78-veritas.pdf
+- [[Lattice+Poseidon hash H(v)=Poseidon(A·v mod q) SNARK-friendly hash for 30 MP images (Mode 1)]] - paper - references/recursion/ch3/ref-78-veritas.pdf
+- [[Performance proof for 90 MB  30 MP image in ~13 min ($0.54, weak signer) or ~3 min ($0.13, powerful signer), verify 1 s]] - paper - references/recursion/ch3/ref-78-veritas.pdf
+- [[Photo-edit circuits in Plonky2 crop, grayscale, bilinear resize, box blur (fixed-point, AP-acceptable edits)]] - paper - references/recursion/ch3/ref-78-veritas.pdf
+- [[PhotoProof (Naveh & Tromer 2016) - prior ZK image-edit proofs, impractical proving time]] - paper - references/recursion/ch3/ref-78-veritas.pdf
+- [[Polynomial-commitment hash (Mode 2) signer commits to poly(w); SNARK circuit avoids hashingsignature verification]] - paper - references/recursion/ch3/ref-78-veritas.pdf
+- [[Short Integer Solution (SIS) lattice hash H_A(v)=Av mod q (linear, low-norm preimage)]] - paper - references/recursion/ch3/ref-78-veritas.pdf
+- [[Theorem 5.1 RangeCheck (Alg.1-2) is a zk-SNARK for relation R_RP (rangelow-norm proof)]] - paper - references/recursion/ch3/ref-78-veritas.pdf
+- [[Theorem 5.2 LatticeHash proof (Alg.3-4) is a zk-SNARK for relation R'_LH (knowledge of low-norm preimage)]] - paper - references/recursion/ch3/ref-78-veritas.pdf
+- [[VerITAS Verifying Image Transformations at Scale (Datta, Chen, Boneh, ePrint 20241066)]] - paper - references/recursion/ch3/ref-78-veritas.pdf
+- [[ZK-IMG (Kang et al. 2022) - 100x speedup over PhotoProof but limited to 720p900 KP images]] - paper - references/recursion/ch3/ref-78-veritas.pdf
+- [[opt-VerITAS precommitted rows of A reduce verifier time ~20x (30 MP verify ~0.8 s) at cost of larger proofs]] - paper - references/recursion/ch3/ref-78-veritas.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -34,11 +35,18 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 6 edges to [[_COMMUNITY_Community 2]]
+- 4 edges to [[_COMMUNITY_Community 9]]
+- 3 edges to [[_COMMUNITY_Community 36]]
+- 3 edges to [[_COMMUNITY_Community 62]]
+- 3 edges to [[_COMMUNITY_Community 1]]
+- 2 edges to [[_COMMUNITY_Community 74]]
+- 2 edges to [[_COMMUNITY_Community 103]]
+- 1 edge to [[_COMMUNITY_Community 28]]
+- 1 edge to [[_COMMUNITY_Community 23]]
 
 ## Top bridge nodes
-- [[QED2 (verification tool)]] - degree 6, connects to 1 community
-- [[Uniqueness Constraint Propagation (UCP)]] - degree 5, connects to 1 community
-- [[SMT Solving]] - degree 3, connects to 1 community
-- [[QED2 Evaluation Results (70% solved, 8 vulnerabilities)]] - degree 3, connects to 1 community
-- [[ZkBench Benchmark Suite (163 Circom circuits)]] - degree 3, connects to 1 community
+- [[VerITAS Verifying Image Transformations at Scale (Datta, Chen, Boneh, ePrint 20241066)]] - degree 22, connects to 7 communities
+- [[Image Authentication (IA) proving an image faithfully represents an original photograph from a given capture device class]] - degree 8, connects to 2 communities
+- [[Lattice+Poseidon hash H(v)=Poseidon(A·v mod q) SNARK-friendly hash for 30 MP images (Mode 1)]] - degree 6, connects to 1 community
+- [[Custom proof system for lattice hash range proof (Plookup) + Freivalds + univariate SumCheck (Aurora)]] - degree 5, connects to 1 community
+- [[Instance-witness relation R f(w)=x AND SigVerify(vk,w,sigma)=1 (signed original to edited image)]] - degree 4, connects to 1 community

@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 67"
+community: "Community 47"
 location: "Chapter 13"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_67
+  - community/Community_47
 ---
 
 # Starknet (Stwo Circle STARK prover, Cairo ISA)
@@ -15,4 +15,4 @@ tags:
 - [[Polygon zkEVM Shutdown (~$250M, ZisK spinoff)]] - `compares` [INFERRED]
 - [[ZK Rollup]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_67
+#graphify/document #graphify/EXTRACTED #community/Community_47

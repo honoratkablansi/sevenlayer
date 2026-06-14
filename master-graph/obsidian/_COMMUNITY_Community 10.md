@@ -1,58 +1,61 @@
 ---
 type: community
-cohesion: 0.07
-members: 43
+cohesion: 0.06
+members: 46
 ---
 
 # Community 10
 
-**Cohesion:** 0.07 - loosely connected
-**Members:** 43 nodes
+**Cohesion:** 0.06 - loosely connected
+**Members:** 46 nodes
 
 ## Members
-- [[BGN scheme cost comparison prime-order 28x faster despite 12 pairings]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
-- [[BN254  embedding-degree-12 BN pairings drop below 128-bit security]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[Barreto-Naehrig Curves]] - document - references/ch10/ref-51-pairing-efficiency-curves.pdf
-- [[Benchmark composite-order pairing 254x slower (1.27s vs 5.05ms) at 128-bit]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
-- [[Comparing the Pairing Efficiency over Composite-Order and Prime-Order Elliptic Curves]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
-- [[Composite-Order Bilinear Groups]] - document - references/ch10/ref-51-pairing-efficiency-curves.pdf
-- [[Composite-extension factorization F_{pn}=F_{(pη)κ}, gcd(η,κ)=1]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[ConjugationGJL polynomial selection Barbulescu-Gaudry-Guillevic-Morain]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[Distortion map phi(x,y)-(-x,Zy) giving symmetric pairing]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
-- [[Doubly-extended tower number field K_f = Q(ι,α_f)]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[Elliptic Curve Method (ECM) factoring attack]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
-- [[Extended Tower Number Field Sieve A New Complexity for the Medium Prime Case]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[Finite Field Arithmetic]] - document - proving-nothing.md
-- [[Freeman composite-to-prime-order conversion (cited prior work)]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
-- [[Individual logarithm smoothing + special-q descent]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[Lemma 1 (norm size bound via iterated resultants)]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[Lenstra modulussecurity recommendations (cited prior work)]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
-- [[Lewko generic conversion, Eurocrypt 2012 (cited prior work)]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
-- [[Lewko-Waters HIBE cost prime-order 10x-192x faster]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
-- [[LibCryptoLCH Cx86-64 asm implementation (Thales)]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
-- [[Mandate to update pairing key sizes (c=64→48, factor ~1.33; SNFS factor 2)]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[MexTNFS multiple-number-field variant (c≈1.71)]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[Multi-prime RSA modulus sizing (2-8 primes, extends Lenstra)]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
-- [[NFS medium-prime case (JLSV) Joux-Lercier-Smart-Vercauteren]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[NFSECM crossover ECM beats NFS at 5+ prime factors]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
-- [[Number Field Sieve]] - document - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[Optimal ate pairing]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
-- [[Optimal ate pairing operation count on BN curve (Alg.1)]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
-- [[Polynomial selection step (h,f,g) — JLSV2 and Conjugation methods]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[Recommendation avoid composite-order groups whenever possible]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
-- [[Relation collection over R=Zth(t), B-smooth norms]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[SexTNFS for special-form (d-SNFS) characteristic, L_Q(13,(329){13})]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[Special NFS in F_{pn} Joux-Pierrot]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[Subgroup decision assumption]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
-- [[Supersingular elliptic curve]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
-- [[Supersingular k=2 curve construction p=hN-1, E y2=x3-x]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
-- [[Tate pairing]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
-- [[Tate pairing on composite-order supersingular curve (Alg.2)]] - paper - references/ch10/ref-51-pairing-efficiency-curves.pdf
-- [[Theorem 1 (exTNFS complexity table)]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[Three Multiplicative Sources of Proving Overhead]] - document - proving-nothing.md
-- [[Tower Number Field Sieve (TNFS) Barbulescu-Gaudry-Kleinjung]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[exTNFS (Extended Tower Number Field Sieve)]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
-- [[exTNFS-Conj medium-prime complexity L_Q(13,(489){13})]] - paper - references/ch10/ref-50-extended-tower-nfs.pdf
+- [[(Super)Spartan zkSNARK]] - paper - references/ch06/ref-21-neo.pdf
+- [[(d,m,B,C)-relaxed binding; binding implies relaxed binding (Lemma 3)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Algebraic reductions of knowledge]] - paper - references/ch06/ref-21-neo.pdf
+- [[Commitment Transformation Protocol Pi_cm]] - paper - references/ch02/ref-11-latticefold-plus.pdf
+- [[Decomposition Pi_decomp (R_lin,B2 - R_lin,B(2))]] - paper - references/ch02/ref-11-latticefold-plus.pdf
+- [[Double Commitment (commitment of commitments, dcom)]] - paper - references/ch02/ref-11-latticefold-plus.pdf
+- [[Generalized Committed Linear Relation R_lin,B]] - paper - references/ch02/ref-11-latticefold-plus.pdf
+- [[Greyhound NS24 (LaBRADOR-based PCS, sqrt verifier)]] - paper - references/ch02/ref-11-latticefold-plus.pdf
+- [[HyperNova KS24b (linearization, CCS folding)]] - paper - references/ch02/ref-11-latticefold-plus.pdf
+- [[IVC  Proof-Carrying Data]] - paper - references/ch06/ref-20-latticefold.pdf
+- [[LaBRADOR BS23 (commitments-to-commitments, short proofs)]] - paper - references/ch02/ref-11-latticefold-plus.pdf
+- [[Lattice IVCPCD with Spartan+FRI proof compression, no curve cycles]] - paper - references/ch06/ref-21-neo.pdf
+- [[LatticeFold (ePrint 2024257)]] - paper - references/ch06/ref-21-neo.pdf
+- [[LatticeFold BC24 (predecessor)]] - paper - references/ch02/ref-11-latticefold-plus.pdf
+- [[LatticeFold+ Folding Scheme (R_comp x R_acc - R_acc)]] - paper - references/ch02/ref-11-latticefold-plus.pdf
+- [[LatticeFold+ Faster, Simpler, Shorter Lattice-Based Folding for Succinct Proof Systems]] - paper - references/ch02/ref-11-latticefold-plus.pdf
+- [[Lemma 2.1 a(X2)=a(X)2 iff a is a monomial]] - paper - references/ch02/ref-11-latticefold-plus.pdf
+- [[Lemma 2.2 ct(bpsi)=a characterizes range membership via EXP]] - paper - references/ch02/ref-11-latticefold-plus.pdf
+- [[Lova FKNP24 (l2-norm integer Ajtai folding)]] - paper - references/ch02/ref-11-latticefold-plus.pdf
+- [[Module-based Ajtai Commitment (com = A x)]] - paper - references/ch02/ref-11-latticefold-plus.pdf
+- [[Monomial Set Check Pi_mon]] - paper - references/ch02/ref-11-latticefold-plus.pdf
+- [[Multi-Input Folding Pi_mlin (R_lin,B(L) - R_lin,B2)]] - paper - references/ch02/ref-11-latticefold-plus.pdf
+- [[Neo NS25 (small-field embedding into cyclotomic ring)]] - paper - references/ch02/ref-11-latticefold-plus.pdf
+- [[Neo folding scheme for CCS (lattice-based)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Neo folding-friendly matrix commitment scheme (Ajtai with new embedding)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Pay-per-bit commitment cost (cost scales with bit-width of committed scalars)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Pi_CCS reduction (CCS to linearizedmatrix-eval claims via sum-check)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Pi_DEC decomposition reduction (norm-B claim into k norm-b claims)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Pi_RLC random linear combination reduction (folds k+1 norm-b claims into one norm-B)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Power-of-Two Cyclotomic Ring ZX(Xd+1)]] - paper - references/ch06/ref-20-latticefold.pdf
+- [[Proof Size O_lambda(kappad + log n) (vs LatticeFold kappadlogB)]] - paper - references/ch02/ref-11-latticefold-plus.pdf
+- [[Purely Algebraic Range Proof (no bit-decomposition)]] - paper - references/ch02/ref-11-latticefold-plus.pdf
+- [[Range Check Protocol Pi_rgchk (double-commitment range proof)]] - paper - references/ch02/ref-11-latticefold-plus.pdf
+- [[Reductions of knowledge framework]] - paper - references/ch06/ref-21-neo.pdf
+- [[Relaxed Binding Commitment reduced to Module-SIS]] - paper - references/ch02/ref-11-latticefold-plus.pdf
+- [[S-module homomorphism via ring of rotation matrices S]] - paper - references/ch06/ref-21-neo.pdf
+- [[Short invertible elements in partially splitting cyclotomic rings]] - paper - references/ch06/ref-21-neo.pdf
+- [[Small Prime Moduli Support (tensor-of-rings, Neo-style)]] - paper - references/ch02/ref-11-latticefold-plus.pdf
+- [[Strong sampling set with small-norm invertible challenges (expansion factor T)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Theorem 5.1 Main folding RoK from R_comp x R_acc to R_acc]] - paper - references/ch02/ref-11-latticefold-plus.pdf
+- [[Theorem 5.3 Efficiency estimate (proververifierproof size)]] - paper - references/ch02/ref-11-latticefold-plus.pdf
+- [[Theorem 5 composition theorem (restricted + relaxed knowledge soundness compose to RoK)]] - paper - references/ch06/ref-21-neo.pdf
+- [[Theorem 7 cyclotomic ring R_q isomorphic to ring of rotation matrices S]] - paper - references/ch06/ref-21-neo.pdf
+- [[b-bit-word embedding of Fm into low-norm cyclotomic ring vector]] - paper - references/ch06/ref-21-neo.pdf
+- [[splitpow Maps & Gadget Decomposition]] - paper - references/ch02/ref-11-latticefold-plus.pdf
+- [[~5x Faster Prover, Omega(log B) speedup over LatticeFold]] - paper - references/ch02/ref-11-latticefold-plus.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -62,20 +65,23 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 4 edges to [[_COMMUNITY_Community 22]]
-- 3 edges to [[_COMMUNITY_Community 70]]
-- 2 edges to [[_COMMUNITY_Community 11]]
-- 2 edges to [[_COMMUNITY_Community 8]]
-- 1 edge to [[_COMMUNITY_Community 68]]
-- 1 edge to [[_COMMUNITY_Community 95]]
-- 1 edge to [[_COMMUNITY_Community 1]]
-- 1 edge to [[_COMMUNITY_Community 12]]
-- 1 edge to [[_COMMUNITY_Community 0]]
-- 1 edge to [[_COMMUNITY_Community 13]]
+- 22 edges to [[_COMMUNITY_Community 0]]
+- 10 edges to [[_COMMUNITY_Community 1]]
+- 4 edges to [[_COMMUNITY_Community 40]]
+- 3 edges to [[_COMMUNITY_Community 69]]
+- 2 edges to [[_COMMUNITY_Community 73]]
+- 1 edge to [[_COMMUNITY_Community 15]]
+- 1 edge to [[_COMMUNITY_Community 28]]
+- 1 edge to [[_COMMUNITY_Community 89]]
+- 1 edge to [[_COMMUNITY_Community 25]]
+- 1 edge to [[_COMMUNITY_Community 62]]
+- 1 edge to [[_COMMUNITY_Community 2]]
+- 1 edge to [[_COMMUNITY_Community 44]]
+- 1 edge to [[_COMMUNITY_Community 34]]
 
 ## Top bridge nodes
-- [[Extended Tower Number Field Sieve A New Complexity for the Medium Prime Case]] - degree 7, connects to 5 communities
-- [[Finite Field Arithmetic]] - degree 7, connects to 3 communities
-- [[Three Multiplicative Sources of Proving Overhead]] - degree 4, connects to 3 communities
-- [[exTNFS (Extended Tower Number Field Sieve)]] - degree 15, connects to 2 communities
-- [[Comparing the Pairing Efficiency over Composite-Order and Prime-Order Elliptic Curves]] - degree 6, connects to 1 community
+- [[LatticeFold+ Faster, Simpler, Shorter Lattice-Based Folding for Succinct Proof Systems]] - degree 25, connects to 7 communities
+- [[Power-of-Two Cyclotomic Ring ZX(Xd+1)]] - degree 10, connects to 4 communities
+- [[Generalized Committed Linear Relation R_lin,B]] - degree 6, connects to 4 communities
+- [[Neo folding scheme for CCS (lattice-based)]] - degree 9, connects to 2 communities
+- [[LatticeFold BC24 (predecessor)]] - degree 6, connects to 2 communities

@@ -1,27 +1,30 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 32"
+community: "Community 1"
 location: "Chapter 5"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_32
+  - community/Community_1
 ---
 
 # Folding Scheme
 
 ## Connections
+- [[(2k-1)-Move Special-Sound Protocol with Algebraic Verifier]] - `used_by` [EXTRACTED]
 - [[Accessible exposition of Novafolding]] - `explains` [EXTRACTED]
 - [[Accumulation  Split-Accumulation Schemes]] - `conceptually_related_to` [EXTRACTED]
 - [[Accumulation Scheme (P_acc, V_acc, D) for NARK Verifier with Slack mu and Error Commitment E]] - `conceptually_related_to` [EXTRACTED]
-- [[Accumulation Schemes]] - `conceptually_related_to` [EXTRACTED]
+- [[Accumulation Schemes]] - `relates_to` [EXTRACTED]
+- [[Ajtai commitments]] - `uses` [EXTRACTED]
 - [[Bunz, Chen — ProtoStar generic efficient accumulationfolding for special-sound protocols (2023) 1]] - `cites` [EXTRACTED]
-- [[CCS (Customizable Constraint Systems)]] - `conceptually_related_to` [EXTRACTED]
+- [[CCS (Customizable Constraint Systems)]] - `targets` [EXTRACTED]
 - [[CCS The Rosetta Stone]] - `references` [EXTRACTED]
 - [[Case Study Midnight's Sealed Certificate]] - `references` [EXTRACTED]
 - [[Choreographing the Act]] - `references` [EXTRACTED]
 - [[Coda]] - `references` [EXTRACTED]
+- [[Commitment Scheme]] - `uses` [EXTRACTED]
 - [[Committed relaxed R1CS over the ring R = F1 x F2 (binding, additively-homomorphic, succinct commitments)]] - `conceptually_related_to` [EXTRACTED]
 - [[Cycles of Elliptic Curves]] - `conceptually_related_to` [INFERRED]
 - [[Encoding the Performance]] - `references` [EXTRACTED]
@@ -38,10 +41,11 @@ tags:
 - [[HyperNova (CRYPTO'24)]] - `conceptually_related_to` [EXTRACTED]
 - [[HyperNova Recursive Arguments for Customizable Constraint Systems]] - `conceptually_related_to` [EXTRACTED]
 - [[IVC Val08 and PCD CT10 original motivation for folding schemes]] - `conceptually_related_to` [EXTRACTED]
-- [[Incrementally Verifiable Computation (IVC)]] - `conceptually_related_to` [EXTRACTED]
+- [[Incrementally Verifiable Computation (IVC)]] - `uses` [EXTRACTED]
 - [[Knowledge-Soundness]] - `conceptually_related_to` [EXTRACTED]
 - [[Kothapalli, Setty — HyperNova recursive arguments for customizable constraint systems (2023) 10]] - `cites` [EXTRACTED]
 - [[Kothapalli, Setty, Tzialla — Nova Recursive zero-knowledge arguments from folding schemes (CRYPTO 2022) 11]] - `introduces` [EXTRACTED]
+- [[Lattice Cryptography]] - `used_in` [EXTRACTED]
 - [[Lattice-Based Proving]] - `references` [EXTRACTED]
 - [[Lattice-based high-arity folding scheme Pi_fold (Thm 4.1) compressing l_np R1CS statements in one shot]] - `conceptually_related_to` [EXTRACTED]
 - [[LatticeFold  LatticeFold+]] - `implements` [EXTRACTED]
@@ -56,6 +60,7 @@ tags:
 - [[Layer 6 -- The Deep Craft]] - `references` [EXTRACTED]
 - [[Layer 7 -- The Verdict]] - `references` [EXTRACTED]
 - [[Lemma 1  Assumption 1 non-interactive folding scheme for committed relaxed R1CS (Nova 21); prover O(n), verifier and communication O(1), via Fiat-Shamir in plain model]] - `proves` [EXTRACTED]
+- [[Mangrove]] - `uses` [EXTRACTED]
 - [[Memory The Binding Constraint]] - `references` [EXTRACTED]
 - [[Midnight -- The Privacy Theater]] - `references` [EXTRACTED]
 - [[Multi-folding scheme]] - `conceptually_related_to` [EXTRACTED]
@@ -67,27 +72,33 @@ tags:
 - [[Neo Lattice-based Folding Scheme for CCS over Small Fields and Pay-per-bit Commitments]] - `conceptually_related_to` [EXTRACTED]
 - [[Nightstream Lattice-Based Folding for CCS (LFDT-Nightstream)]] - `implements` [EXTRACTED]
 - [[Nightstream What a Folding Engine Looks Like from the Inside]] - `references` [EXTRACTED]
-- [[Nova]] - `part_of` [EXTRACTED]
+- [[Nova]] - `improves` [EXTRACTED]
 - [[Nova Folding Scheme KST22 (cited, R1CS k=1 d=2 case)]] - `conceptually_related_to` [EXTRACTED]
 - [[Nova Recursive Zero-Knowledge Arguments from Folding Schemes]] - `introduces` [EXTRACTED]
 - [[Open Questions and the Road Ahead]] - `references` [EXTRACTED]
+- [[PLONK]] - `defines` [EXTRACTED]
 - [[Path Three Post-Quantum Folding]] - `conceptually_related_to` [EXTRACTED]
+- [[Proof-Carrying Data (PCD)]] - `uses` [EXTRACTED]
 - [[Proofs, Arguments, and Zero-Knowledge (Justin Thaler, survey textbook)]] - `explains` [EXTRACTED]
 - [[ProtoGalaxy (Multi-Instance Folding)]] - `conceptually_related_to` [EXTRACTED]
 - [[ProtoStar]] - `conceptually_related_to` [EXTRACTED]
 - [[Protostar Generic Efficient AccumulationFolding for Special-sound Protocols]] - `conceptually_related_to` [EXTRACTED]
 - [[Proving CPU Executions in Small Space]] - `references` [EXTRACTED]
 - [[Q5 Streaming Witness Interaction with Folding]] - `compares` [EXTRACTED]
-- [[R1CS (Rank-1 Constraint Systems)]] - `references` [EXTRACTED]
-- [[Recursion (proof recursion in zkVMs)]] - `conceptually_related_to` [INFERRED]
+- [[R1CS (Rank-1 Constraint Systems)]] - `supports` [EXTRACTED]
+- [[Range Proof]] - `used` [EXTRACTED]
+- [[Recursion (proof recursion in zkVMs)]] - `enables` [INFERRED]
 - [[Recursion vs. Folding Russian Dolls and Snowballs]] - `defines` [EXTRACTED]
 - [[Recursive Proof Composition]] - `conceptually_related_to` [EXTRACTED]
 - [[Recursive SNARK]] - `conceptually_related_to` [INFERRED]
-- [[Reduction of Knowledge]] - `conceptually_related_to` [EXTRACTED]
+- [[Reduction of Knowledge]] - `relates_to` [EXTRACTED]
+- [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `relates_to` [EXTRACTED]
 - [[SNARK Recursion vs. Folding The Full Picture]] - `references` [EXTRACTED]
 - [[Section 1.3 Construction-Strategy Taxonomy Table]] - `compares` [EXTRACTED]
 - [[Section 3.7 recursion strategy decision framework]] - `references` [EXTRACTED]
-- [[SuperNova (Non-Uniform IVC)]] - `assumes` [EXTRACTED]
+- [[Small-Field Arithmetic (BabyBear, Mersenne-31, Goldilocks)]] - `relates_to` [EXTRACTED]
+- [[Sum-Check Protocol]] - `relates_to` [EXTRACTED]
+- [[SuperNova (Non-Uniform IVC)]] - `uses` [EXTRACTED]
 - [[Symphony Scalable SNARKs in the Random Oracle Model from Lattice-Based High-Arity Folding]] - `references` [EXTRACTED]
 - [[The Binary That Broke]] - `conceptually_related_to` [EXTRACTED]
 - [[The Cascade Effect]] - `references` [EXTRACTED]
@@ -114,4 +125,4 @@ tags:
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 - [[zkVMs Across the Stack]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_32
+#graphify/document #graphify/EXTRACTED #community/Community_1

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch02/ref-05-mpc-random-beacon.pdf"
 type: "document"
-community: "Community 27"
+community: "Community 104"
 location: "Abstract"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_27
+  - community/Community_104
 ---
 
 # Random Beacon Model
@@ -17,6 +17,7 @@ tags:
 - [[Pre-commitment layer defending against adaptive bias of contribution tau_j]] - `conceptually_related_to` [INFERRED]
 - [[Random beacon model public verifiable randomness at fixed time slots, unavailable before the slot]] - `defines` [EXTRACTED]
 - [[Scalable Multi-party Computation for zk-SNARK Parameters in the Random Beacon Model]] - `conceptually_related_to` [EXTRACTED]
+- [[Secure Multi-Party Computation (MPC)]] - `uses` [EXTRACTED]
 - [[Snarky Ceremonies]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_27
+#graphify/document #graphify/EXTRACTED #community/Community_104

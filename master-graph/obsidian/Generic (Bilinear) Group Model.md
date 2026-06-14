@@ -12,6 +12,7 @@ tags:
 # Generic (Bilinear) Group Model
 
 ## Connections
+- [[Algebraic Group Model (AGM)]] - `improves` [EXTRACTED]
 - [[Knowledge-Soundness]] - `assumes` [EXTRACTED]
 - [[Shoup Lower Bounds for Discrete Logarithms (Generic Group Model) (Sho97)]] - `cites` [EXTRACTED]
 - [[Theorem 2 Perfect ZK NIZK with Generic-Group Knowledge Soundness]] - `assumes` [EXTRACTED]

@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch1/ref-08-sp1-hypercube.md"
 type: "document"
-community: "Community 7"
+community: "Community 19"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_7
+  - community/Community_19
 ---
 
 # EthProofs Dashboard
@@ -14,4 +14,4 @@ tags:
 - [[Real-Time Proving]] - `references` [EXTRACTED]
 - [[SP1 Hypercube Proving Ethereum in Real-Time (Succinct, 2025)]] - `cites` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_7
+#graphify/document #graphify/EXTRACTED #community/Community_19

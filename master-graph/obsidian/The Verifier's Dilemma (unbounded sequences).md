@@ -1,12 +1,12 @@
 ---
 source_file: "recursion/recursion-outline.md"
 type: "document"
-community: "Community 45"
+community: "Community 53"
 location: "Recursion Chapter 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_45
+  - community/Community_53
 ---
 
 # The Verifier's Dilemma (unbounded sequences)
@@ -16,4 +16,4 @@ tags:
 - [[Succinctness]] - `explains` [EXTRACTED]
 - [[Valiant Incrementally Verifiable Computation (TCC 2008)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_45
+#graphify/document #graphify/EXTRACTED #community/Community_53

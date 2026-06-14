@@ -1,22 +1,24 @@
 ---
 type: community
-cohesion: 0.33
-members: 7
+cohesion: 0.25
+members: 9
 ---
 
 # Community 115
 
-**Cohesion:** 0.33 - loosely connected
-**Members:** 7 nodes
+**Cohesion:** 0.25 - loosely connected
+**Members:** 9 nodes
 
 ## Members
-- [[BLS signatures]] - document - references/recursion/ch1/ref-37-ethereum-lean-hash-based-sig-aggregation.md
-- [[Hash-based cryptography (lean foundation)]] - document - references/recursion/ch1/ref-37-ethereum-lean-hash-based-sig-aggregation.md
-- [[Hash-based signatures]] - document - references/recursion/ch1/ref-37-ethereum-lean-hash-based-sig-aggregation.md
-- [[Real-time zkVMs (lean execution)]] - document - references/recursion/ch1/ref-37-ethereum-lean-hash-based-sig-aggregation.md
-- [[Rise of SNARKs]] - document - references/recursion/ch1/ref-37-ethereum-lean-hash-based-sig-aggregation.md
-- [[SNARK-aggregated signatures]] - document - recursion/recursion-outline.md
-- [[lean Ethereum (Justin Drake, EF blog)]] - document - references/recursion/ch1/ref-37-ethereum-lean-hash-based-sig-aggregation.md
+- [[4x4 Sudoku Proof (Running Example)]] - document - proving-nothing.md
+- [[Chapter 3 Choreographing the Act (Layer 2 - Language)]] - document - proving-nothing.md
+- [[Claim The compiler, not the language, is the part that matters]] - document - proving-nothing.md
+- [[Gassmann et al., Evaluating Compiler Optimization Impacts on zkVM Performance, arXiv 2508.17518]] - document - proving-nothing.md
+- [[Midnight disclose() Boundary and Two-Transcript Model]] - document - proving-nothing.md
+- [[Non-Deterministic Hint]] - document - proving-nothing.md
+- [[Ozdemir, Brown, Wahby, CirC Compiler Infrastructure for Proof Systems, IEEE S&P 2022]] - document - proving-nothing.md
+- [[Six-Step Developer Lifecycle (Write-Compile-Test-Prove-Deploy-Monitor)]] - document - proving-nothing.md
+- [[Witness (private execution traceinputs)]] - document - proving-nothing.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -26,12 +28,13 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 1 edge to [[_COMMUNITY_Community 7]]
-- 1 edge to [[_COMMUNITY_Community 61]]
-- 1 edge to [[_COMMUNITY_Community 0]]
-- 1 edge to [[_COMMUNITY_Community 105]]
+- 3 edges to [[_COMMUNITY_Community 89]]
+- 2 edges to [[_COMMUNITY_Community 93]]
+- 2 edges to [[_COMMUNITY_Community 13]]
+- 1 edge to [[_COMMUNITY_Community 126]]
+- 1 edge to [[_COMMUNITY_Community 109]]
 
 ## Top bridge nodes
-- [[SNARK-aggregated signatures]] - degree 4, connects to 2 communities
-- [[Hash-based signatures]] - degree 4, connects to 1 community
-- [[Real-time zkVMs (lean execution)]] - degree 2, connects to 1 community
+- [[Witness (private execution traceinputs)]] - degree 10, connects to 4 communities
+- [[Midnight disclose() Boundary and Two-Transcript Model]] - degree 3, connects to 2 communities
+- [[Chapter 3 Choreographing the Act (Layer 2 - Language)]] - degree 3, connects to 1 community

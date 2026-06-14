@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch06-the-three-families.md"
 type: "document"
-community: "Community 74"
+community: "Community 22"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_74
+  - community/Community_22
 ---
 
 # Jens Groth
@@ -15,4 +15,4 @@ tags:
 - [[The Three Families]] - `references` [EXTRACTED]
 - [[Updatable and Universal Common Reference Strings with Applications to zk-SNARKs]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_74
+#graphify/document #graphify/EXTRACTED #community/Community_22

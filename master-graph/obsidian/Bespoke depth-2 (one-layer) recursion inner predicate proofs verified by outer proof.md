@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-90-zexe.pdf"
 type: "paper"
-community: "Community 44"
+community: "Community 43"
 location: "§2.5 (Avoiding the cost of universality; A bespoke recursion)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_44
+  - community/Community_43
 ---
 
 # Bespoke depth-2 (one-layer) recursion: inner predicate proofs verified by outer proof
@@ -19,4 +19,4 @@ tags:
 - [[The 'execute' NP statement R_e proved in zero knowledge per transaction]] - `conceptually_related_to` [EXTRACTED]
 - [[Zexe a ledger-based system for decentralized private computation]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_44
+#graphify/paper #graphify/EXTRACTED #community/Community_43

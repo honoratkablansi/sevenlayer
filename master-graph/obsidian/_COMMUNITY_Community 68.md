@@ -1,32 +1,33 @@
 ---
 type: community
 cohesion: 0.16
-members: 17
+members: 18
 ---
 
 # Community 68
 
 **Cohesion:** 0.16 - loosely connected
-**Members:** 17 nodes
+**Members:** 18 nodes
 
 ## Members
-- [[4x4 Sudoku Running Example]] - document - proving-nothing.md
-- [[Brakedown GLS+21 & Orion XZS22 field-agnosticpost-quantum poly commitments instantiating SuperSpartan]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
-- [[Claim Field Choice Is a One-Way Door (Cascade Effect)]] - document - proving-nothing.md
-- [[HyperKZG  Mercury polynomial commitment]] - document - references/recursion/ch2/ref-43-nova-implementation.md
-- [[KZG10 constant-size polynomial commitments]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[KZG10 Constant-Size Commitments to Polynomials]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
-- [[Kate, Zaverucha, Goldberg Constant-size commitments to polynomials 30]] - paper - references/recursion/ch1/ref-05-halo.pdf
-- [[Layer 6 The Deep Craft (Cryptographic Primitives)]] - document - proving-nothing.md
-- [[PC_AGM bilinear-group (KZG) polynomial commitment with pairing-batching accumulation]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
-- [[PC_DL discrete-log polynomial commitment with accumulation (IPA-based)]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
-- [[Polynomial Commitment Scheme]] - document - proving-nothing.md
-- [[The Seven-Layer ZK Stack Model]] - document - proving-nothing.md
-- [[Theorem 3 (informal) ZK accumulation schemes for PC_DL and PC_AGM in the ROM]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
-- [[Theorem 3 family of preprocessing SNARKs for CCS via PIOP + sparse poly commitment + Fiat-Shamir]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
-- [[Trust-Minimization Thesis (decompose, not eliminate trust)]] - document - proving-nothing.md
-- [[Universal setup  Powers of Tau (SRS)]] - document - references/recursion/ch2/ref-43-nova-implementation.md
-- [[Zero-Finding Games Lemma 3.3 (security of PC accumulation in ROM)]] - paper - references/recursion/ch1/ref-09-bcms-pcd-accumulation.pdf
+- [[Binary tree of proofs (basewrapmerge recursion over block transitions)]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
+- [[Cited Bowe-Gabizon, simulation-extractable Groth zk-SNARK (ePrint 2018187)]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
+- [[Cited Halo (Bowe-Grigg-Hopwood) and Marlin (Chiesa et al.) — universal-setup recursion]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
+- [[Cited Ouroboros Genesis (Badertscher et al., ePrint 2018378) — Samasika base protocol]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
+- [[Implementation OCaml + Snarky DSL + libsnark backend, libp2p; 200ms verify, k=10, R=240s, f=0.5]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
+- [[Mina (Coda)]] - document - recursion/recursion-outline.md
+- [[Ouroboros Samasika first provably-secure succinct PoS consensus]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
+- [[Parallel scan state (decouple block production from SNARK proving)]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
+- [[Pickles  universal-setup recursion roadmap (Halo, Marlin)]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
+- [[Prover incentives snarkers and lowest-price SNARK-work auction]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
+- [[SNARK S recursive state-update circuit (Update verifies txns, consensus, signature, prior proof)]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
+- [[Scan-state claim latency O(log R), storage 2R-1+O(1) vs naive O(R)]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
+- [[Signatures of Knowledge (SoK) for non-malleable fee requests, via Bowe-Gabizon SNARK]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
+- [[Testnet evaluation 85 participants, 49 block producers, 24826 txns, 53120 SNARK proofs]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
+- [[Theorem 2 Samasika satisfies CP, CG, CQ, existential-CQ (security proof)]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
+- [[TickTock SNARK pair (base, merge, wrap proofs over the curve cycle)]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
+- [[Window min-density (nu-shifting omega-window) for succinct long-range fork resolution]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
+- [[maxvalid-sc chain-selection rule (succinct adaptation of maxvalid-bg)]] - paper - references/recursion/ch3/ref-58-coda-mina.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -36,40 +37,13 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 5 edges to [[_COMMUNITY_Community 11]]
-- 5 edges to [[_COMMUNITY_Community 51]]
-- 5 edges to [[_COMMUNITY_Community 0]]
-- 4 edges to [[_COMMUNITY_Community 12]]
-- 4 edges to [[_COMMUNITY_Community 7]]
-- 3 edges to [[_COMMUNITY_Community 82]]
-- 3 edges to [[_COMMUNITY_Community 56]]
-- 3 edges to [[_COMMUNITY_Community 80]]
-- 2 edges to [[_COMMUNITY_Community 54]]
-- 2 edges to [[_COMMUNITY_Community 50]]
-- 2 edges to [[_COMMUNITY_Community 58]]
-- 2 edges to [[_COMMUNITY_Community 60]]
-- 2 edges to [[_COMMUNITY_Community 35]]
-- 1 edge to [[_COMMUNITY_Community 37]]
-- 1 edge to [[_COMMUNITY_Community 96]]
-- 1 edge to [[_COMMUNITY_Community 10]]
-- 1 edge to [[_COMMUNITY_Community 39]]
-- 1 edge to [[_COMMUNITY_Community 84]]
-- 1 edge to [[_COMMUNITY_Community 18]]
-- 1 edge to [[_COMMUNITY_Community 19]]
-- 1 edge to [[_COMMUNITY_Community 105]]
-- 1 edge to [[_COMMUNITY_Community 8]]
-- 1 edge to [[_COMMUNITY_Community 110]]
-- 1 edge to [[_COMMUNITY_Community 15]]
-- 1 edge to [[_COMMUNITY_Community 65]]
-- 1 edge to [[_COMMUNITY_Community 109]]
-- 1 edge to [[_COMMUNITY_Community 108]]
-- 1 edge to [[_COMMUNITY_Community 87]]
-- 1 edge to [[_COMMUNITY_Community 16]]
-- 1 edge to [[_COMMUNITY_Community 86]]
+- 4 edges to [[_COMMUNITY_Community 23]]
+- 3 edges to [[_COMMUNITY_Community 25]]
+- 1 edge to [[_COMMUNITY_Community 75]]
 
 ## Top bridge nodes
-- [[Polynomial Commitment Scheme]] - degree 58, connects to 26 communities
-- [[Theorem 3 family of preprocessing SNARKs for CCS via PIOP + sparse poly commitment + Fiat-Shamir]] - degree 5, connects to 3 communities
-- [[The Seven-Layer ZK Stack Model]] - degree 5, connects to 2 communities
-- [[PC_DL discrete-log polynomial commitment with accumulation (IPA-based)]] - degree 4, connects to 1 community
-- [[Layer 6 The Deep Craft (Cryptographic Primitives)]] - degree 3, connects to 1 community
+- [[Mina (Coda)]] - degree 9, connects to 2 communities
+- [[Parallel scan state (decouple block production from SNARK proving)]] - degree 6, connects to 1 community
+- [[SNARK S recursive state-update circuit (Update verifies txns, consensus, signature, prior proof)]] - degree 4, connects to 1 community
+- [[Pickles  universal-setup recursion roadmap (Halo, Marlin)]] - degree 3, connects to 1 community
+- [[Binary tree of proofs (basewrapmerge recursion over block transitions)]] - degree 3, connects to 1 community

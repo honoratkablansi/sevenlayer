@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 19"
+community: "Community 78"
 location: "Chapter 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_19
+  - community/Community_78
 ---
 
 # Soundness
@@ -15,6 +15,7 @@ tags:
 - [[ARGUZZ first automated fuzzer for zkVM soundness & completeness bugs (7-step workflow)]] - `conceptually_related_to` [EXTRACTED]
 - [[Chaliasos et al. — SoK Security Vulnerabilities in SNARKs (USENIX 2024)]] - `references` [EXTRACTED]
 - [[Error reduction by sequential repetition (Remark 1)]] - `conceptually_related_to` [EXTRACTED]
+- [[Fiat-Shamir Transform]] - `violated-by` [EXTRACTED]
 - [[Interactive Proof (IP) prover-verifier protocol with statistical soundness]] - `defines` [EXTRACTED]
 - [[Knowledge-Soundness]] - `conceptually_related_to` [EXTRACTED]
 - [[Malicious-prover fault injection into VM execution logic (verifier-only-trusted threat model)]] - `conceptually_related_to` [EXTRACTED]
@@ -24,4 +25,4 @@ tags:
 - [[Zero-Knowledge Proof]] - `defines` [EXTRACTED]
 - [[zkVM]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_19
+#graphify/document #graphify/EXTRACTED #community/Community_78

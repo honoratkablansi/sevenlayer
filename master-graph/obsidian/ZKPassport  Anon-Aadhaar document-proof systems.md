@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch3/ref-83-zkpassport-anon-aadhaar.md"
 type: "document"
-community: "Community 49"
+community: "Community 79"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_49
+  - community/Community_79
 ---
 
 # ZKPassport / Anon-Aadhaar document-proof systems
@@ -19,4 +19,4 @@ tags:
 - [[W3C Verifiable Credentials Data Model v2.0]] - `conceptually_related_to` [INFERRED]
 - [[ZKPassport SDK and QR verification card]] - `introduces` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_49
+#graphify/document #graphify/EXTRACTED #community/Community_79

@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-32-nguyen-boneh-setty-nova-cycle.pdf"
 type: "paper"
-community: "Community 32"
+community: "Community 1"
 location: "Bibliography [10]"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_32
+  - community/Community_1
 ---
 
 # Kothapalli, Setty — HyperNova: recursive arguments for customizable constraint systems (2023) [10]
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Folding Scheme]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_32
+#graphify/paper #graphify/EXTRACTED #community/Community_1

@@ -15,6 +15,7 @@ tags:
 - [[B-Relaxed Binding of Ajtai Commitment]] - `defines` [EXTRACTED]
 - [[Case Study Midnight (Layer 6)]] - `references` [EXTRACTED]
 - [[Cryptographic Primitives Trilemma]] - `compares` [EXTRACTED]
+- [[Folding Scheme]] - `uses` [EXTRACTED]
 - [[Four Families of Commitment Schemes]] - `defines` [EXTRACTED]
 - [[Lattice Cryptography]] - `conceptually_related_to` [INFERRED]
 - [[Lattice-Based Proving]] - `references` [EXTRACTED]

@@ -1,155 +1,195 @@
 [
   {
-    "id": "concept_groth16",
-    "label": "Groth16"
+    "id": "concept_snark",
+    "label": "SNARK (Succinct Non-interactive ARgument of Knowledge)"
   },
   {
     "id": "concept_folding-scheme",
     "label": "Folding Scheme"
   },
   {
-    "id": "concept_recursive-proof-composition",
-    "label": "Recursive Proof Composition"
-  },
-  {
-    "id": "concept_midnight",
-    "label": "Midnight (Privacy Blockchain)"
-  },
-  {
-    "id": "concept_fiat-shamir",
-    "label": "Fiat-Shamir Transform"
-  },
-  {
-    "id": "concept_stark",
-    "label": "STARK"
+    "id": "concept_groth16",
+    "label": "Groth16"
   },
   {
     "id": "concept_sumcheck",
     "label": "Sum-Check Protocol"
   },
   {
-    "id": "concept_fri",
-    "label": "FRI Commitment Scheme"
-  },
-  {
-    "id": "concept_plonk",
-    "label": "PLONK"
-  },
-  {
-    "id": "concept_nova",
-    "label": "Nova"
-  },
-  {
-    "id": "concept_kzg",
-    "label": "KZG Polynomial Commitments from pairings (with trusted setup); Dory transparent pairing-based scheme"
-  },
-  {
-    "id": "concept_lattice",
-    "label": "Lattice Cryptography"
-  },
-  {
-    "id": "concept_zkvm",
-    "label": "zkVM"
-  },
-  {
     "id": "concept_polynomial-commitment",
     "label": "Polynomial Commitment Scheme"
-  },
-  {
-    "id": "concept_trusted-setup",
-    "label": "Trusted Setup Ceremony"
-  },
-  {
-    "id": "concept_r1cs",
-    "label": "R1CS (Rank-1 Constraint Systems)"
-  },
-  {
-    "id": "concept_ivc",
-    "label": "Incrementally Verifiable Computation (IVC)"
-  },
-  {
-    "id": "concept_sp1",
-    "label": "SP1 Hypercube (Succinct)"
-  },
-  {
-    "id": "concept_bn254",
-    "label": "BN254 (alt_bn128) Curve"
-  },
-  {
-    "id": "concept_ccs",
-    "label": "CCS (Customizable Constraint Systems)"
-  },
-  {
-    "id": "concept_post-quantum-cryptography",
-    "label": "Post-Quantum Cryptography"
   },
   {
     "id": "concept_zero-knowledge-proof",
     "label": "Zero-Knowledge Proof"
   },
   {
+    "id": "concept_fiat-shamir",
+    "label": "Fiat-Shamir Transform"
+  },
+  {
+    "id": "concept_trusted-setup",
+    "label": "Trusted Setup Ceremony"
+  },
+  {
+    "id": "concept_kzg",
+    "label": "KZG Polynomial Commitments from pairings (with trusted setup); Dory transparent pairing-based scheme"
+  },
+  {
+    "id": "concept_recursive-proof-composition",
+    "label": "Recursive Proof Composition"
+  },
+  {
+    "id": "concept_stark",
+    "label": "STARK"
+  },
+  {
+    "id": "concept_midnight",
+    "label": "Midnight (Privacy Blockchain)"
+  },
+  {
+    "id": "concept_plonk",
+    "label": "PLONK"
+  },
+  {
+    "id": "concept_r1cs",
+    "label": "R1CS (Rank-1 Constraint Systems)"
+  },
+  {
+    "id": "concept_fri",
+    "label": "FRI Commitment Scheme"
+  },
+  {
+    "id": "concept_lattice",
+    "label": "Lattice Cryptography"
+  },
+  {
+    "id": "concept_nova",
+    "label": "Nova"
+  },
+  {
+    "id": "concept_zkvm",
+    "label": "zkVM"
+  },
+  {
+    "id": "concept_lookup-argument",
+    "label": "Lookup Argument"
+  },
+  {
+    "id": "concept_ivc",
+    "label": "Incrementally Verifiable Computation (IVC)"
+  },
+  {
+    "id": "concept_ccs",
+    "label": "CCS (Customizable Constraint Systems)"
+  },
+  {
     "id": "concept_module-sis",
     "label": "Module-SIS / Module-LWE"
   },
   {
-    "id": "concept_bls12-381",
-    "label": "BLS12-381 Curve"
+    "id": "concept_post-quantum-cryptography",
+    "label": "Post-Quantum Cryptography"
   },
   {
-    "id": "concept_halo2",
-    "label": "Halo 2 / UltraPlonk"
-  },
-  {
-    "id": "concept_jolt",
-    "label": "Jolt (zkVM via Lookups)"
-  },
-  {
-    "id": "concept_poseidon",
-    "label": "Poseidon Hash"
+    "id": "concept_bn254",
+    "label": "BN254 (alt_bn128) Curve"
   },
   {
     "id": "concept_pcd",
     "label": "Proof-Carrying Data (PCD)"
   },
   {
+    "id": "concept_sp1",
+    "label": "SP1 Hypercube (Succinct)"
+  },
+  {
+    "id": "concept_poseidon",
+    "label": "Poseidon Hash"
+  },
+  {
+    "id": "concept_bls12-381",
+    "label": "BLS12-381 Curve"
+  },
+  {
     "id": "concept_circle-stark",
     "label": "Circle STARKs"
   },
   {
-    "id": "concept_curve-cycles",
-    "label": "Cycles of Elliptic Curves"
+    "id": "concept_halo2",
+    "label": "Halo 2 / UltraPlonk"
   },
   {
-    "id": "concept_snark",
-    "label": "SNARK (Succinct Non-interactive ARgument of Knowledge)"
+    "id": "concept_pairing",
+    "label": "Bilinear Pairing"
   },
   {
     "id": "concept_spartan",
     "label": "Spartan"
   },
   {
-    "id": "concept_zk-rollup",
-    "label": "ZK Rollup"
-  },
-  {
     "id": "concept_goldilocks",
     "label": "Goldilocks Field"
   },
   {
-    "id": "concept_zcash",
-    "label": "Zcash"
+    "id": "concept_jolt",
+    "label": "Jolt (zkVM via Lookups)"
+  },
+  {
+    "id": "concept_curve-cycles",
+    "label": "Cycles of Elliptic Curves"
+  },
+  {
+    "id": "concept_accumulation",
+    "label": "Accumulation Schemes"
+  },
+  {
+    "id": "concept_zk-rollup",
+    "label": "ZK Rollup"
+  },
+  {
+    "id": "concept_recursion",
+    "label": "Recursion (proof recursion in zkVMs)"
   },
   {
     "id": "concept_pedersen-commitment",
     "label": "Pedersen Commitment"
   },
   {
-    "id": "concept_hypernova",
-    "label": "HyperNova"
+    "id": "concept_under-constrained-circuit",
+    "label": "Under-Constrained Circuit / Missing Constraint"
+  },
+  {
+    "id": "concept_zcash",
+    "label": "Zcash"
   },
   {
     "id": "concept_circom",
     "label": "Circom"
+  },
+  {
+    "id": "concept_hypernova",
+    "label": "HyperNova"
+  },
+  {
+    "id": "concept_mpc",
+    "label": "Secure Multi-Party Computation (MPC)"
+  },
+  {
+    "id": "concept_proof-aggregation",
+    "label": "Proof Aggregation"
+  },
+  {
+    "id": "concept_verifiable-computation",
+    "label": "Verifiable computation"
+  },
+  {
+    "id": "concept_ajtai",
+    "label": "Ajtai commitments"
+  },
+  {
+    "id": "concept_inner-product-argument",
+    "label": "Inner Product Argument (IPA/Bulletproofs)"
   },
   {
     "id": "concept_lasso",
@@ -160,32 +200,36 @@
     "label": "LatticeFold / LatticeFold+"
   },
   {
-    "id": "concept_lookup-argument",
-    "label": "Lookup Argument"
-  },
-  {
-    "id": "concept_proof-aggregation",
-    "label": "Proof Aggregation"
-  },
-  {
-    "id": "concept_accumulation",
-    "label": "Accumulation Schemes"
+    "id": "concept_mersenne",
+    "label": "Mersenne-31 / M31"
   },
   {
     "id": "concept_air",
     "label": "AIR (Algebraic Intermediate Representation)"
   },
   {
-    "id": "concept_kzg-commitment",
-    "label": "KZG Polynomial Commitment"
+    "id": "concept_vdf",
+    "label": "Verifiable delay function (VDF)"
+  },
+  {
+    "id": "concept_zkml",
+    "label": "ZKML (Zero-Knowledge Machine Learning)"
+  },
+  {
+    "id": "concept_arithmetization",
+    "label": "Arithmetization"
+  },
+  {
+    "id": "concept_bulletproofs",
+    "label": "Bulletproofs / Inner Product Argument"
   },
   {
     "id": "concept_babybear",
     "label": "BabyBear"
   },
   {
-    "id": "concept_inner-product-argument",
-    "label": "Inner Product Argument (IPA/Bulletproofs)"
+    "id": "concept_cairo",
+    "label": "Cairo (StarkWare ZK-native ISA)"
   },
   {
     "id": "concept_risc-zero",
@@ -208,54 +252,6 @@
     "label": "GKR protocol: doubly-efficient interactive proof for bounded-depth computation via layer-by-layer sumcheck reduction; prover need not commit to full trace"
   },
   {
-    "id": "concept_zk-snark",
-    "label": "zk-SNARK"
-  },
-  {
-    "id": "concept_zkml",
-    "label": "ZKML (Zero-Knowledge Machine Learning)"
-  },
-  {
-    "id": "concept_compact",
-    "label": "Compact Language"
-  },
-  {
-    "id": "concept_powers-of-tau",
-    "label": "Powers of Tau"
-  },
-  {
-    "id": "concept_vdf",
-    "label": "Verifiable delay function (VDF)"
-  },
-  {
-    "id": "concept_arithmetization",
-    "label": "Arithmetization"
-  },
-  {
-    "id": "concept_under-constrained-circuit",
-    "label": "Under-Constrained Circuit / Missing Constraint"
-  },
-  {
-    "id": "concept_bulletproofs",
-    "label": "Bulletproofs / Inner Product Argument"
-  },
-  {
-    "id": "concept_cairo",
-    "label": "Cairo (StarkWare ZK-native ISA)"
-  },
-  {
-    "id": "concept_ceremony",
-    "label": "Trusted Setup Ceremony"
-  },
-  {
-    "id": "concept_cyclefold",
-    "label": "CycleFold"
-  },
-  {
-    "id": "concept_fully-homomorphic-encryption",
-    "label": "Fully Homomorphic Encryption (FHE)"
-  },
-  {
     "id": "concept_ml-dsa",
     "label": "ML-DSA (Module-Lattice Digital Signature Algorithm)"
   },
@@ -264,16 +260,48 @@
     "label": "Number-Theoretic Transform (NTT)"
   },
   {
+    "id": "concept_zk-snark",
+    "label": "zk-SNARK"
+  },
+  {
+    "id": "concept_compact",
+    "label": "Compact Language"
+  },
+  {
+    "id": "concept_iop",
+    "label": "Interactive Oracle Proofs"
+  },
+  {
+    "id": "concept_powers-of-tau",
+    "label": "Powers of Tau"
+  },
+  {
+    "id": "concept_arithmetic-circuit",
+    "label": "Arithmetic Circuit"
+  },
+  {
+    "id": "concept_fully-homomorphic-encryption",
+    "label": "Fully Homomorphic Encryption (FHE)"
+  },
+  {
+    "id": "concept_interactive-proof",
+    "label": "Interactive Proof (IP): prover-verifier protocol with statistical soundness"
+  },
+  {
+    "id": "concept_cyclefold",
+    "label": "CycleFold"
+  },
+  {
     "id": "concept_risc-v",
     "label": "RISC-V architecture"
   },
   {
-    "id": "concept_multilinear-extension",
-    "label": "Multilinear extension (MLE)"
+    "id": "concept_discrete-log",
+    "label": "Discrete Logarithm Assumption"
   },
   {
-    "id": "concept_pairing",
-    "label": "Bilinear Pairing"
+    "id": "concept_multilinear-extension",
+    "label": "Multilinear extension (MLE)"
   },
   {
     "id": "concept_plonkish",
@@ -284,40 +312,36 @@
     "label": "Stwo"
   },
   {
-    "id": "concept_mersenne",
-    "label": "Mersenne-31 / M31"
-  },
-  {
-    "id": "concept_mpc",
-    "label": "Secure Multi-Party Computation (MPC)"
-  },
-  {
-    "id": "concept_recursion",
-    "label": "Recursion (proof recursion in zkVMs)"
-  },
-  {
     "id": "concept_small-fields",
     "label": "Small prime fields (machine-register-sized: Goldilocks, M61)"
   },
   {
-    "id": "concept_mersenne-31",
-    "label": "Mersenne-31 Field"
+    "id": "concept_bootstrapping",
+    "label": "Bootstrapping (FHE)"
+  },
+  {
+    "id": "concept_side-channel",
+    "label": "Side-Channel Attack"
+  },
+  {
+    "id": "concept_supernova",
+    "label": "SuperNova (Non-Uniform IVC)"
+  },
+  {
+    "id": "concept_universal-srs",
+    "label": "Universal vs Circuit-Specific SRS"
   },
   {
     "id": "concept_zkevm",
     "label": "zkEVM / EVM-Compatible Proving"
   },
   {
-    "id": "concept_ajtai",
-    "label": "Ajtai commitments"
+    "id": "concept_algebraic-group-model",
+    "label": "Algebraic Group Model (AGM)"
   },
   {
-    "id": "concept_ajtai-commitment",
-    "label": "Ajtai Lattice Commitment"
-  },
-  {
-    "id": "concept_logup",
-    "label": "LogUp"
+    "id": "concept_gkr-protocol",
+    "label": "GKR protocol: interactive proofs for layered arithmetic circuits via d sumcheck instances"
   },
   {
     "id": "concept_neo",
@@ -328,8 +352,20 @@
     "label": "Offline Memory Checking"
   },
   {
+    "id": "concept_random-oracle-model",
+    "label": "Random oracle model (non-interactive STARK / NIROP)"
+  },
+  {
+    "id": "concept_special-sound-protocol",
+    "label": "(2k-1)-Move Special-Sound Protocol with Algebraic Verifier"
+  },
+  {
     "id": "concept_sudoku",
     "label": "Sudoku running example"
+  },
+  {
+    "id": "concept_zerocash",
+    "label": "Zerocash"
   },
   {
     "id": "concept_airbender",
@@ -340,12 +376,20 @@
     "label": "Data Availability"
   },
   {
-    "id": "concept_discrete-log",
-    "label": "Discrete Logarithm Assumption"
+    "id": "concept_eidas",
+    "label": "eIDAS 2.0"
   },
   {
-    "id": "concept_interactive-proof",
-    "label": "Interactive Proof (IP): prover-verifier protocol with statistical soundness"
+    "id": "concept_harvest-now-decrypt-later",
+    "label": "Harvest Now Decrypt Later (HNDL)"
+  },
+  {
+    "id": "concept_logup",
+    "label": "LogUp"
+  },
+  {
+    "id": "concept_privacy-pools",
+    "label": "Privacy Pools"
   },
   {
     "id": "concept_qap",
@@ -356,24 +400,28 @@
     "label": "Real-Time Proving"
   },
   {
-    "id": "concept_witness-generation",
-    "label": "Witness Generation"
+    "id": "concept_updatable-srs",
+    "label": "Updatable and Universal Structured Reference String"
   },
   {
     "id": "concept_devirgo",
     "label": "deVirgo: distributed zero-knowledge proof system parallelizing Virgo over M machines with perfect linear scalability and no proof-size overhead"
   },
   {
+    "id": "concept_embedding-degree",
+    "label": "Embedding degree k"
+  },
+  {
     "id": "concept_knowledge-soundness",
     "label": "Knowledge-Soundness"
   },
   {
-    "id": "concept_polynomial-commitment-scheme",
-    "label": "Polynomial Commitment Scheme"
+    "id": "concept_labrador",
+    "label": "LaBRADOR Proof System"
   },
   {
-    "id": "concept_privacy-pools",
-    "label": "Privacy Pools"
+    "id": "concept_ml-kem",
+    "label": "ML-KEM Key-Encapsulation Mechanism"
   },
   {
     "id": "concept_proof-of-solvency",
@@ -384,19 +432,51 @@
     "label": "ProtoStar"
   },
   {
-    "id": "concept_random-oracle-model",
-    "label": "Random oracle model (non-interactive STARK / NIROP)"
+    "id": "concept_range-proof",
+    "label": "Range Proof"
+  },
+  {
+    "id": "concept_schwartz-zippel",
+    "label": "Schwartz-Zippel Lemma"
+  },
+  {
+    "id": "concept_soundness",
+    "label": "Soundness"
   },
   {
     "id": "concept_soundness-attack",
     "label": "Soundness attack: producing an accepting proof for a false statement in a FS-compiled argument (adaptive and non-adaptive variants)"
   },
   {
-    "id": "concept_supernova",
-    "label": "SuperNova (Non-Uniform IVC)"
+    "id": "concept_witness-generation",
+    "label": "Witness Generation"
   },
   {
-    "id": "concept_underconstrained-circuits",
-    "label": "Underconstrained Circuits"
+    "id": "concept_differential-privacy",
+    "label": "Differential Privacy (DP)"
+  },
+  {
+    "id": "concept_grand-product-argument",
+    "label": "Grand Product Argument (accumulator polynomial Z)"
+  },
+  {
+    "id": "concept_lattice-cryptography",
+    "label": "Lattice-Based Cryptography"
+  },
+  {
+    "id": "concept_mnt-curves",
+    "label": "MNT curves (embedding degrees 4 and 6)"
+  },
+  {
+    "id": "concept_module-lwe",
+    "label": "Module Learning With Errors (MLWE)"
+  },
+  {
+    "id": "concept_mpc-ceremony",
+    "label": "Multi-Party Computation Setup Ceremony"
+  },
+  {
+    "id": "concept_sigma-protocol",
+    "label": "Sigma protocol (public-coin 3-move)"
   }
 ]

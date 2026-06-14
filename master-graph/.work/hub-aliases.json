@@ -1,8 +1,7 @@
 {
   "aliases": {
-    "concept_kzg-commitment": "concept_kzg",
-    "concept_ajtai-commitment": "concept_ajtai",
-    "concept_mersenne-31": "concept_mersenne",
-    "concept_underconstrained-circuits": "concept_under-constrained-circuit"
+    "concept_gkr-protocol": "concept_gkr",
+    "concept_lattice-cryptography": "concept_lattice",
+    "concept_quadratic-arithmetic-program": "concept_qap"
   }
 }

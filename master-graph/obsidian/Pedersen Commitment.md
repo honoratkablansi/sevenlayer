@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 0"
+community: "Community 73"
 location: "Chapter 7"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Community_73
 ---
 
 # Pedersen Commitment
@@ -31,9 +31,11 @@ tags:
 - [[Pedersen Vector Commitment]] - `conceptually_related_to` [EXTRACTED]
 - [[PolyCommitPed Scheme]] - `conceptually_related_to` [EXTRACTED]
 - [[Privacy-preserving proof of liabilities (Protocol 2)]] - `assumes` [EXTRACTED]
+- [[Proof of Solvency for Bitcoin exchanges]] - `uses` [EXTRACTED]
 - [[Proof of solvency  financial compliance]] - `assumes` [EXTRACTED]
 - [[Proof-of-assets Sigma-protocol (HVZK argument of knowledge)]] - `assumes` [EXTRACTED]
 - [[Provisions privacy-preserving proof of solvency for Bitcoin exchanges]] - `assumes` [EXTRACTED]
+- [[Range Proof]] - `uses` [EXTRACTED]
 - [[Relaxed R1CS]] - `references` [EXTRACTED]
 - [[Single-MSM prover cost (size = variables)]] - `assumes` [EXTRACTED]
 - [[SoK Trusted Setups for Powers-of-Tau Strings]] - `conceptually_related_to` [EXTRACTED]
@@ -42,4 +44,4 @@ tags:
 - [[Theorem 4  A.2 split accumulation for a Pedersen-based polynomial commitment predicate (ROM, DL)]] - `assumes` [EXTRACTED]
 - [[Three Hardness Assumptions, Three Worlds]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/document #graphify/EXTRACTED #community/Community_73

@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-77-photoproof.pdf"
 type: "paper"
-community: "Community 20"
+community: "Community 9"
 location: "§IV-A, Algorithm 1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_20
+  - community/Community_9
 ---
 
 # PhotoProof compliance predicate Pi_T (Algorithm 1): base case verifies signature, else checks t in T, t(I_in,gamma)=I_out, and public key unchanged
@@ -18,4 +18,4 @@ tags:
 - [[Permissible transformation set T = (t1,...,tn) editor-configurable set of authenticity-preserving image transformations]] - `defines` [EXTRACTED]
 - [[Signature-outside-Pi optimization camera signs a collision-resistant original-hash; verifier checks signature outside PCD, predicate ensures original-hash unchanged across edits]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_20
+#graphify/paper #graphify/EXTRACTED #community/Community_9

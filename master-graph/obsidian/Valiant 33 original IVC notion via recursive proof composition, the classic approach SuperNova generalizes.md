@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch2/ref-44-supernova.pdf"
 type: "paper"
-community: "Community 61"
+community: "Community 25"
 location: "§1.1; §2.1; [33]"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_61
+  - community/Community_25
 ---
 
 # Valiant [33]: original IVC notion via recursive proof composition, the classic approach SuperNova generalizes
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Incrementally Verifiable Computation (IVC)]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_61
+#graphify/paper #graphify/EXTRACTED #community/Community_25

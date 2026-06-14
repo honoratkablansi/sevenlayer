@@ -1,19 +1,20 @@
 ---
 type: community
-cohesion: 0.67
-members: 4
+cohesion: 0.40
+members: 5
 ---
 
 # Community 130
 
-**Cohesion:** 0.67 - moderately connected
-**Members:** 4 nodes
+**Cohesion:** 0.40 - moderately connected
+**Members:** 5 nodes
 
 ## Members
-- [[Chaliasos et al. Pricing Attacks (2025)]] - document - proving-nothing.md
-- [[DA-Saturation Attack]] - document - proving-nothing.md
-- [[Multidimensional Fee Pricing]] - document - proving-nothing.md
-- [[Prover-Killer Attack]] - document - proving-nothing.md
+- [[BCTV Succinct NIZK for a von Neumann architecture (USENIX Security 2014)]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
+- [[Preprocessing zk-SNARK for arithmetic circuits]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
+- [[Scalable Zero Knowledge via Cycles of Elliptic Curves (BCTV14, CRYPTO 2014)]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
+- [[Scalable zk-SNARK (fully succinct + incrementally computable)]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
+- [[vnTinyRAM evaluation ~26.2sstep, VIPS clock rate]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -23,9 +24,16 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 1 edge to [[_COMMUNITY_Community 65]]
-- 1 edge to [[_COMMUNITY_Community 80]]
+- 1 edge to [[_COMMUNITY_Community 97]]
+- 1 edge to [[_COMMUNITY_Community 75]]
+- 1 edge to [[_COMMUNITY_Community 9]]
+- 1 edge to [[_COMMUNITY_Community 18]]
+- 1 edge to [[_COMMUNITY_Community 67]]
+- 1 edge to [[_COMMUNITY_Community 53]]
+- 1 edge to [[_COMMUNITY_Community 90]]
+- 1 edge to [[_COMMUNITY_Community 116]]
 
 ## Top bridge nodes
-- [[DA-Saturation Attack]] - degree 3, connects to 1 community
-- [[Prover-Killer Attack]] - degree 3, connects to 1 community
+- [[Preprocessing zk-SNARK for arithmetic circuits]] - degree 4, connects to 3 communities
+- [[Scalable Zero Knowledge via Cycles of Elliptic Curves (BCTV14, CRYPTO 2014)]] - degree 4, connects to 3 communities
+- [[Scalable zk-SNARK (fully succinct + incrementally computable)]] - degree 4, connects to 2 communities

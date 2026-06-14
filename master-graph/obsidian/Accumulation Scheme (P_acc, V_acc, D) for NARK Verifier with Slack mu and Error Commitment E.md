@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-19-protostar.pdf"
 type: "paper"
-community: "Community 26"
+community: "Community 8"
 location: "§3.4, Figs 3-5"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_26
+  - community/Community_8
 ---
 
 # Accumulation Scheme (P_acc, V_acc, D) for NARK Verifier with Slack mu and Error Commitment E
@@ -20,4 +20,4 @@ tags:
 - [[Relaxed Algebraic Verifier Predicate sum mu(d-j) f_j = e]] - `defines` [EXTRACTED]
 - [[Theorem 2 Accumulation Knowledge Soundness (d+1)-special-sound, error (Q+1)(d+1)F]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_26
+#graphify/paper #graphify/EXTRACTED #community/Community_8

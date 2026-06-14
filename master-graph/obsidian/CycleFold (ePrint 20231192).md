@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-30-cyclefold.pdf"
 type: "paper"
-community: "Community 16"
+community: "Community 33"
 location: "Title/Abstract"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_16
+  - community/Community_33
 ---
 
 # CycleFold (ePrint 2023/1192)
@@ -25,4 +25,4 @@ tags:
 - [[ProtoStar]] - `cites` [EXTRACTED]
 - [[Spartan zkSNARK]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_16
+#graphify/paper #graphify/EXTRACTED #community/Community_33

@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 111"
+community: "Community 17"
 location: "Chapter 8"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_111
+  - community/Community_17
 ---
 
 # LazyLedger (Al-Bassam, 2019)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[DA Marketplace (Celestia, EigenDA, Avail)]] - `cites` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_111
+#graphify/document #graphify/EXTRACTED #community/Community_17

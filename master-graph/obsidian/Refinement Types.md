@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-35-coda.pdf"
 type: "document"
-community: "Community 2"
+community: "Community 56"
 location: "page 1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_2
+  - community/Community_56
 ---
 
 # Refinement Types
@@ -14,5 +14,6 @@ tags:
 ## Connections
 - [[Certifying Zero-Knowledge Circuits with Refinement Types]] - `defines` [EXTRACTED]
 - [[Coda refinement type system {nuT  phi}]] - `conceptually_related_to` [EXTRACTED]
+- [[SNARK (Succinct Non-interactive ARgument of Knowledge)]] - `verifies` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_2
+#graphify/document #graphify/EXTRACTED #community/Community_56

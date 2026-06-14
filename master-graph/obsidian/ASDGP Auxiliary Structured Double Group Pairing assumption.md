@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-33-snarkpack.pdf"
 type: "paper"
-community: "Community 89"
+community: "Community 3"
 location: "§2.4 Assumption 2, App. A.2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_89
+  - community/Community_3
 ---
 
 # ASDGP: Auxiliary Structured Double Group Pairing assumption
@@ -15,4 +15,4 @@ tags:
 - [[Pair Group Commitment schemes (CMs single  CMd double group)]] - `assumes` [EXTRACTED]
 - [[SnarkPack Practical SNARK Aggregation]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_89
+#graphify/paper #graphify/EXTRACTED #community/Community_3

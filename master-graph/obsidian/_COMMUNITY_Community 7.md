@@ -1,62 +1,64 @@
 ---
 type: community
-cohesion: 0.06
-members: 47
+cohesion: 0.07
+members: 49
 ---
 
 # Community 7
 
-**Cohesion:** 0.06 - loosely connected
-**Members:** 47 nodes
+**Cohesion:** 0.07 - loosely connected
+**Members:** 49 nodes
 
 ## Members
-- [[ARGUZZ Testing zkVMs for Soundness and Completeness Bugs]] - paper - references/ch14/ref-61-arguzz.pdf
-- [[Airbender (Matter Labs)]] - document - proving-nothing.md
-- [[BabyBear Field]] - document - proving-nothing.md
-- [[Ben-Sasson et al. first SNARK for von Neumann architecture (bounded machine)]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
-- [[Cairo Turing-complete STARK-friendly CPU architecture (prior zkVM)]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
-- [[Constant-Time Proving]] - document - proving-nothing.md
-- [[Continuations]] - document - recursion/recursion-outline.md
-- [[EF Security Pivot to 128-bit (Dec 2025)]] - document - proving-nothing.md
-- [[EthProofs Dashboard]] - document - references/recursion/ch1/ref-08-sp1-hypercube.md
-- [[Evaluating Compiler Optimization Impacts on zkVM Performance]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
-- [[First systematic study of compiler-optimization impact on zkVMs]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
-- [[Gassmann et al., Optimizing RISC-V zkVM Compilation (2025)]] - document - proving-nothing.md
-- [[Greyhound Fast Polynomial Commitments from Lattices]] - paper - references/ch14/ref-65-greyhound.pdf
-- [[Jagged PCS]] - document - proving-nothing.md
-- [[Kakarot (EVM-on-Stwo hedge)]] - document - proving-nothing.md
-- [[Lattice-Based Functional Commitments Fast Verification and Cryptanalysis]] - paper - references/ch14/ref-62-lattice-functional-commitments.pdf
-- [[LogUp-GKR]] - document - proving-nothing.md
-- [[Mersenne-31 (M31) field]] - document - proving-nothing.md
-- [[Multilinear Polynomials]] - document - references/recursion/ch1/ref-08-sp1-hypercube.md
-- [[Open Questions and the Road Ahead]] - document - wiki/chapters/14-open-questions-and-the-road-ahead.md
-- [[Precompile (zkVM)]] - document - proving-nothing.md
-- [[RISC Zero zkVM]] - document - references/recursion/ch1/ref-28-risc-zero-technical-docs.md
-- [[RISC-V Convergence (8 of 10 zkVMs)]] - document - proving-nothing.md
-- [[RISC-V ISA]] - document - proving-nothing.md
-- [[Real-time Ethereum proving solved (12s)]] - document - proving-nothing.md
-- [[Receipt (self-certifying proof of execution)]] - document - references/recursion/ch1/ref-28-risc-zero-technical-docs.md
-- [[SHARP (Shared Prover) aggregation]] - document - proving-nothing.md
-- [[SP1 Hypercube]] - document - references/recursion/ch1/ref-08-sp1-hypercube.md
-- [[SP1 Hypercube (Succinct)]] - document - proving-nothing.md
-- [[SP1 Hypercube Proving Ethereum in Real-Time (Succinct Labs)]] - document - references/ch10/ref-52-sp1-hypercube.md
-- [[SP1 Hypercube Proving Ethereum in Real-Time (Succinct, 2025)]] - document - references/recursion/ch1/ref-08-sp1-hypercube.md
-- [[STARK-to-SNARK Groth16 wrap]] - document - proving-nothing.md
-- [[Shard proofs (SP1 proof system)]] - document - references/recursion/ch1/ref-27-succinct-sp1-docs.md
-- [[Short Integer Solutions (SIS) Assumption]] - document - references/ch14/ref-62-lattice-functional-commitments.pdf
-- [[Stage 2 Rollup Governance]] - document - proving-nothing.md
-- [[Stwo  Cairo (StarkWare)]] - document - proving-nothing.md
-- [[Succinct SP1 technical documentation]] - document - references/recursion/ch1/ref-27-succinct-sp1-docs.md
-- [[Succinct verification without re-execution]] - document - references/recursion/ch1/ref-28-risc-zero-technical-docs.md
-- [[The Proof Core Triad (Layers 4-5-6)]] - document - proving-nothing.md
-- [[The Universal Stage (zkVM metaphor)]] - document - proving-nothing.md
-- [[Trust Decomposition]] - document - proving-nothing.md
-- [[ZKsync Airbender GPU-Accelerated RISC-V Proving]] - document - references/ch10/ref-53-airbender.md
-- [[ZisK (SilentSig  ex-Hermez)]] - document - proving-nothing.md
-- [[zk-Bench (Ernstberger et al.) benchmarking framework for ZK DSLsSNARKs]] - paper - references/ch10/ref-32-zkvm-compiler-optimization.pdf
-- [[zkVM]] - document - proving-nothing.md
-- [[zkVM Cost Collapse (~10xyear)]] - document - proving-nothing.md
-- [[zkVM Landscape Table (March 2026)]] - document - proving-nothing.md
+- [[Aggregation (single proof for many outputs, Theorem 1) and watermarking of proofs]] - paper - references/recursion/ch3/ref-81-wesolowski-vdf.pdf
+- [[Cited Boneh & Naor - Timed commitments (CRYPTO 2000) 7]] - paper - references/recursion/ch3/ref-81-wesolowski-vdf.pdf
+- [[Cited Boneh, Bonneau, Bunz, Fisch - Verifiable Delay Functions (CRYPTO 2018) 4]] - paper - references/recursion/ch3/ref-81-wesolowski-vdf.pdf
+- [[Cited Boneh, Bunz, Fisch - Survey of two VDFs (ePrint 2018712) 5]] - paper - references/recursion/ch3/ref-81-wesolowski-vdf.pdf
+- [[Cited Buchmann & Williams - key-exchange via imaginary quadratic fields (1988) 9]] - paper - references/recursion/ch3/ref-81-wesolowski-vdf.pdf
+- [[Cited Lenstra & Wesolowski - slothunicorntrx slow-timed hash (2016) 15]] - paper - references/recursion/ch3/ref-81-wesolowski-vdf.pdf
+- [[Cited Pietrzak - Simple Verifiable Delay Functions 16]] - paper - references/recursion/ch3/ref-81-wesolowski-vdf.pdf
+- [[Cited Rabin - Transaction protection by beacons (1983) 17]] - paper - references/recursion/ch3/ref-81-wesolowski-vdf.pdf
+- [[Cited Rivest, Shamir, Wagner - Time-lock puzzles and timed-release crypto (1996) 18]] - paper - references/recursion/ch3/ref-81-wesolowski-vdf.pdf
+- [[Cohen & Pietrzak, simpler PoSW from a non-depth-robust Merkle-tree graph 19]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
+- [[Comparison vs Pietrzak VDF single group element  2 exponentiations vs O(log t)]] - paper - references/recursion/ch3/ref-81-wesolowski-vdf.pdf
+- [[Computational timestamping application incremental VDFs counter proof-of-stake long-range forks]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
+- [[Dwork & Naor, moderately hard pricingclient puzzles via modular square roots 31]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
+- [[Exponentiation-based VDF in a group of unknown order, secure only against bounded pre-computation (§8)]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
+- [[Fast verification requirement Verify runs in total time poly(log t, λ), exponentially faster than Eval]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
+- [[Formal VDF definition triple (Setup, Eval, Verify) with correctness, soundness, sequentiality]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
+- [[Generalised time-lock assumption for families of unknown-order groups (Assumption 2)]] - paper - references/recursion/ch3/ref-81-wesolowski-vdf.pdf
+- [[Groups of unknown order (RSA group, class group of imaginary quadratic field)]] - paper - references/recursion/ch3/ref-81-wesolowski-vdf.pdf
+- [[Inherently sequential computation  sequentiality]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
+- [[Iterated sequential function f = g(k) iterating round function g is the fastest evaluation (Assumption 1)]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
+- [[Lenstra & Wesolowski, Sloth time-asymmetric encoding and 'Unicorn' beacon 48]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
+- [[Mahmoody et al., publicly verifiable proofs of sequential work via depth-robust graphs 52]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
+- [[Pietrzak, RSA-based VDF from repeated squaring with trusted setup 64,65]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
+- [[Practical efficiency boost time-asymmetric encodings as the sequential computation inside IVC (~7,000x SNARK efficiency gain)]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
+- [[Proof computable in O(tlog t) group operations (Algorithm 5, base-2kappa)]] - paper - references/recursion/ch3/ref-81-wesolowski-vdf.pdf
+- [[Proof of exponentiation (short proof pi = g{floor(2tl)})]] - paper - references/recursion/ch3/ref-81-wesolowski-vdf.pdf
+- [[Proof-of-replication  proof-of-space application via efficiently-decodable VDF as time-asymmetric ideal cipher]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
+- [[Proposition 1 (tδ)-sequentiality in the random oracle model]] - paper - references/recursion/ch3/ref-81-wesolowski-vdf.pdf
+- [[Proposition 2 soundness in the random oracle model (reduction to root finding)]] - paper - references/recursion/ch3/ref-81-wesolowski-vdf.pdf
+- [[Randomness beacon]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
+- [[Repeatedsequential squaring in a group of unknown order]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
+- [[Rivest, Shamir, Wagner, time-lock puzzles and timed-release crypto 68]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
+- [[Root finding game Groot (extract l-th roots) underlying soundness]] - paper - references/recursion/ch3/ref-81-wesolowski-vdf.pdf
+- [[SNARK  SNARG verifiable-computation primitive (Def. 8) used to make Verify succinct]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
+- [[Time-lock assumption no shortcut to g{2t} without group order (Assumption 1)]] - paper - references/recursion/ch3/ref-81-wesolowski-vdf.pdf
+- [[Trapdoor VDF (evaluable fast with secret order, sound)]] - paper - references/recursion/ch3/ref-81-wesolowski-vdf.pdf
+- [[Trapdoor-VDF identification protocol with zero-knowledge and on-line deniability]] - paper - references/recursion/ch3/ref-81-wesolowski-vdf.pdf
+- [[Uniquenesssoundness for every input x a unique output y verifies; adversary cannot make Verify accept y≠Eval(x)]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
+- [[VDF randomness-beacon application post pp on chain, beacon r where (r,π)=Eval(ek,b); also 'Unicorn' commit-free n-party beacon]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
+- [[VDF_IVC theoretical VDF from tight IVC, achieves σ(t)=(1−ε)t−O(1) sequentiality (Theorem 1)]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
+- [[VDF_VC simpler VDF from verifiable computation (log N parallel SNARGs over geometric segments), σ(t)=(1−ε)t (Theorem 2, added May 2019)]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
+- [[Valiant, incrementally verifiable computation  computationally sound proofs 70]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
+- [[Verifiable Delay Functions (Boneh et al., CRYPTO 2018)]] - document - recursion/recursion-outline.md
+- [[Verifiable delay function (VDF)]] - document - recursion/recursion-outline.md
+- [[Weak VDF from injective rational  permutation polynomials over finite fields, (t2, o(t))-sequential via polynomial GCD hardness]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
+- [[Wesolowski public-coin protocol verifier samples prime l, checks pil gr = y]] - paper - references/recursion/ch3/ref-81-wesolowski-vdf.pdf
+- [[Wesolowski, Efficient Verifiable Delay Functions (EUROCRYPT 2019)]] - paper - references/recursion/ch3/ref-81-wesolowski-vdf.pdf
+- [[Wesolowski, efficient VDF from groups of unknown order 73]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
+- [[σ-sequentiality security property (parallel PRAM adversary cannot win in time σ(t)t after polynomial precomputation)]] - paper - references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -66,47 +68,17 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 35 edges to [[_COMMUNITY_Community 8]]
-- 17 edges to [[_COMMUNITY_Community 15]]
-- 14 edges to [[_COMMUNITY_Community 0]]
-- 11 edges to [[_COMMUNITY_Community 50]]
-- 10 edges to [[_COMMUNITY_Community 69]]
-- 9 edges to [[_COMMUNITY_Community 1]]
-- 9 edges to [[_COMMUNITY_Community 63]]
-- 8 edges to [[_COMMUNITY_Community 6]]
-- 7 edges to [[_COMMUNITY_Community 11]]
-- 7 edges to [[_COMMUNITY_Community 18]]
-- 7 edges to [[_COMMUNITY_Community 55]]
-- 6 edges to [[_COMMUNITY_Community 19]]
-- 6 edges to [[_COMMUNITY_Community 12]]
-- 5 edges to [[_COMMUNITY_Community 76]]
-- 5 edges to [[_COMMUNITY_Community 58]]
-- 4 edges to [[_COMMUNITY_Community 68]]
-- 3 edges to [[_COMMUNITY_Community 54]]
-- 2 edges to [[_COMMUNITY_Community 96]]
-- 2 edges to [[_COMMUNITY_Community 28]]
-- 2 edges to [[_COMMUNITY_Community 87]]
-- 2 edges to [[_COMMUNITY_Community 97]]
-- 2 edges to [[_COMMUNITY_Community 47]]
-- 2 edges to [[_COMMUNITY_Community 73]]
-- 2 edges to [[_COMMUNITY_Community 16]]
-- 2 edges to [[_COMMUNITY_Community 21]]
-- 2 edges to [[_COMMUNITY_Community 2]]
-- 1 edge to [[_COMMUNITY_Community 67]]
-- 1 edge to [[_COMMUNITY_Community 115]]
-- 1 edge to [[_COMMUNITY_Community 77]]
+- 5 edges to [[_COMMUNITY_Community 25]]
+- 2 edges to [[_COMMUNITY_Community 37]]
 - 1 edge to [[_COMMUNITY_Community 32]]
-- 1 edge to [[_COMMUNITY_Community 75]]
-- 1 edge to [[_COMMUNITY_Community 5]]
-- 1 edge to [[_COMMUNITY_Community 44]]
-- 1 edge to [[_COMMUNITY_Community 17]]
-- 1 edge to [[_COMMUNITY_Community 38]]
-- 1 edge to [[_COMMUNITY_Community 101]]
-- 1 edge to [[_COMMUNITY_Community 125]]
+- 1 edge to [[_COMMUNITY_Community 97]]
+- 1 edge to [[_COMMUNITY_Community 28]]
+- 1 edge to [[_COMMUNITY_Community 9]]
+- 1 edge to [[_COMMUNITY_Community 23]]
 
 ## Top bridge nodes
-- [[Open Questions and the Road Ahead]] - degree 49, connects to 21 communities
-- [[zkVM]] - degree 53, connects to 20 communities
-- [[SP1 Hypercube (Succinct)]] - degree 47, connects to 11 communities
-- [[Greyhound Fast Polynomial Commitments from Lattices]] - degree 17, connects to 7 communities
-- [[Evaluating Compiler Optimization Impacts on zkVM Performance]] - degree 13, connects to 5 communities
+- [[Verifiable delay function (VDF)]] - degree 24, connects to 5 communities
+- [[SNARK  SNARG verifiable-computation primitive (Def. 8) used to make Verify succinct]] - degree 4, connects to 2 communities
+- [[Wesolowski, Efficient Verifiable Delay Functions (EUROCRYPT 2019)]] - degree 14, connects to 1 community
+- [[VDF_IVC theoretical VDF from tight IVC, achieves σ(t)=(1−ε)t−O(1) sequentiality (Theorem 1)]] - degree 6, connects to 1 community
+- [[Practical efficiency boost time-asymmetric encodings as the sequential computation inside IVC (~7,000x SNARK efficiency gain)]] - degree 3, connects to 1 community

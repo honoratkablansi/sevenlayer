@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-32-zkvm-compiler-optimization.pdf"
 type: "paper"
-community: "Community 55"
+community: "Community 52"
 location: "§6.2, §7"
 tags:
   - graphify/paper
   - graphify/INFERRED
-  - community/Community_55
+  - community/Community_52
 ---
 
 # Superoptimization (e.g. Souper) for zkVM guest code
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[zkVM-aware LLVM modifications (100 LOC cost model, heuristics, disabled passes); +45% RISC Zero, +4.6% avg]] - `conceptually_related_to` [INFERRED]
 
-#graphify/paper #graphify/INFERRED #community/Community_55
+#graphify/paper #graphify/INFERRED #community/Community_52

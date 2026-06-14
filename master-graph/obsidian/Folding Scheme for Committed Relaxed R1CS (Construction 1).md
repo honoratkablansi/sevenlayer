@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch06/ref-17-nova.pdf"
 type: "paper"
-community: "Community 104"
+community: "Community 33"
 location: "§4.1 Construction 1, Thm 3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_104
+  - community/Community_33
 ---
 
 # Folding Scheme for Committed Relaxed R1CS (Construction 1)
@@ -17,4 +17,4 @@ tags:
 - [[Non-Interactive Folding Scheme via Fiat-Shamir (Construction 2)]] - `defines` [EXTRACTED]
 - [[Theorem 3 Folding Scheme Completeness, Knowledge Soundness, ZK]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_104
+#graphify/paper #graphify/EXTRACTED #community/Community_33

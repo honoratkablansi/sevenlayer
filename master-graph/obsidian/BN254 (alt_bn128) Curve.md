@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 8"
+community: "Community 2"
 location: "Chapter 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_8
+  - community/Community_2
 ---
 
 # BN254 (alt_bn128) Curve
@@ -16,6 +16,7 @@ tags:
 - [[Case Study Midnight's Sealed Certificate]] - `references` [EXTRACTED]
 - [[Choreographing the Act]] - `references` [EXTRACTED]
 - [[Circle STARKs and Stwo A Generational Leap]] - `references` [EXTRACTED]
+- [[Elliptic Curve  Discrete Logarithm Problem]] - `defines` [EXTRACTED]
 - [[Encoding the Performance]] - `references` [EXTRACTED]
 - [[Failure Cascade Structure (Internal DAG)]] - `references` [EXTRACTED]
 - [[Groth16]] - `conceptually_related_to` [EXTRACTED]
@@ -59,4 +60,4 @@ tags:
 - [[Zcash Sapling Ceremony (2018, BGM17 MMORPG)]] - `references` [INFERRED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_8
+#graphify/document #graphify/EXTRACTED #community/Community_2

@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch03/ref-16-jolt.pdf"
 type: "paper"
-community: "Community 54"
+community: "Community 82"
 location: "Def 2.5"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_54
+  - community/Community_82
 ---
 
 # MLE-structured tables
@@ -15,4 +15,4 @@ tags:
 - [[Decomposable tables]] - `conceptually_related_to` [EXTRACTED]
 - [[Jolt SNARKs for Virtual Machines via Lookups]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_54
+#graphify/paper #graphify/EXTRACTED #community/Community_82

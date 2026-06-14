@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch2/ref-41-spartan.pdf"
 type: "paper"
-community: "Community 46"
+community: "Community 16"
 location: "§1.1; Fig. 2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_46
+  - community/Community_16
 ---
 
 # Spartan variants: SpartanDL, SpartanRO, SpartanCL (transparent), SpartanKE (universal setup)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Spartan]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_46
+#graphify/paper #graphify/EXTRACTED #community/Community_16

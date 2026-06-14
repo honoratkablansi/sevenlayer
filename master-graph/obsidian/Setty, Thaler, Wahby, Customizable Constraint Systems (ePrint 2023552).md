@@ -1,12 +1,12 @@
 ---
 source_file: "recursion/recursion-outline.md"
 type: "document"
-community: "Community 0"
+community: "Community 1"
 location: "Recursion Chapter 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_0
+  - community/Community_1
 ---
 
 # Setty, Thaler, Wahby, "Customizable Constraint Systems" (ePrint 2023/552)
@@ -15,4 +15,4 @@ tags:
 - [[CCS (Customizable Constraint Systems)]] - `defines` [EXTRACTED]
 - [[HyperNova]] - `cites` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_0
+#graphify/document #graphify/EXTRACTED #community/Community_1

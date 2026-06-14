@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 1"
+community: "Community 109"
 location: "Chapter 4"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_1
+  - community/Community_109
 ---
 
 # Constant-Time Implementation
@@ -17,4 +17,4 @@ tags:
 - [[The Secret Performance]] - `defines` [EXTRACTED]
 - [[Timing Side-Channel Attack]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_1
+#graphify/document #graphify/EXTRACTED #community/Community_109

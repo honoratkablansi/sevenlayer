@@ -1,28 +1,29 @@
 ---
 type: community
-cohesion: 0.15
-members: 13
+cohesion: 0.16
+members: 14
 ---
 
 # Community 91
 
-**Cohesion:** 0.15 - loosely connected
-**Members:** 13 nodes
+**Cohesion:** 0.16 - loosely connected
+**Members:** 14 nodes
 
 ## Members
-- [[Algebraic Hash Functions (Poseidon)]] - document - proving-nothing.md
-- [[Alternating PCD construction over 2-cycle (Cpcd,alpha  Cpcd,beta)]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
-- [[BCTV Succinct NIZK for a von Neumann architecture (USENIX Security 2014)]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
-- [[Collision-Resistant Hash Functions]] - document - proving-nothing.md
-- [[Grover's Algorithm]] - document - proving-nothing.md
-- [[Merkle-tree memory checking for delegated RAM]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
-- [[Nondeterministic pairing verification with affine coordinates]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
-- [[Preprocessing zk-SNARK for arithmetic circuits]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
-- [[RAM compliance predicate Pi_{M,H} (per-step verification)]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
-- [[Scalable Zero Knowledge via Cycles of Elliptic Curves (BCTV14, CRYPTO 2014)]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
-- [[Scalable zk-SNARK (fully succinct + incrementally computable)]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
-- [[Subset-sum hash verifiable in =300 gates over native field]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
-- [[vnTinyRAM evaluation ~26.2sstep, VIPS clock rate]] - paper - references/recursion/ch1/ref-02-bctv-cycles.pdf
+- [[Algorithms for Quantum Computation Discrete Logarithms and Factoring]] - paper - references/ch07/ref-24-shor.pdf
+- [[BQP (bounded-error quantum polynomial time)]] - paper - references/ch07/ref-24-shor.pdf
+- [[Coppersmith approximate Fourier transform]] - paper - references/ch07/ref-24-shor.pdf
+- [[Decoherence and gate imprecision obstacles]] - paper - references/ch07/ref-24-shor.pdf
+- [[Discrete-log-based public-key cryptosystems (Diffie-HellmanDSA)]] - paper - references/ch07/ref-24-shor.pdf
+- [[Integer Factorization]] - paper - references/ch07/ref-24-shor.pdf
+- [[Period Finding]] - paper - references/ch07/ref-24-shor.pdf
+- [[Peter W. Shor]] - paper - references/ch07/ref-24-shor.pdf
+- [[Quantum Algorithm]] - paper - references/ch07/ref-24-shor.pdf
+- [[Quantum Fourier transform]] - paper - references/ch07/ref-24-shor.pdf
+- [[Quantum discrete logarithm algorithm]] - paper - references/ch07/ref-24-shor.pdf
+- [[Quantum gate array (acyclic circuit) model]] - paper - references/ch07/ref-24-shor.pdf
+- [[Quantum interference  superposition]] - paper - references/ch07/ref-24-shor.pdf
+- [[Simon's oracle algorithm (inspiration for this work)]] - paper - references/ch07/ref-24-shor.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -32,21 +33,17 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 3 edges to [[_COMMUNITY_Community 20]]
-- 2 edges to [[_COMMUNITY_Community 22]]
-- 2 edges to [[_COMMUNITY_Community 12]]
-- 2 edges to [[_COMMUNITY_Community 34]]
-- 2 edges to [[_COMMUNITY_Community 13]]
-- 1 edge to [[_COMMUNITY_Community 8]]
-- 1 edge to [[_COMMUNITY_Community 59]]
-- 1 edge to [[_COMMUNITY_Community 1]]
-- 1 edge to [[_COMMUNITY_Community 119]]
-- 1 edge to [[_COMMUNITY_Community 45]]
-- 1 edge to [[_COMMUNITY_Community 112]]
+- 3 edges to [[_COMMUNITY_Community 81]]
+- 2 edges to [[_COMMUNITY_Community 31]]
+- 2 edges to [[_COMMUNITY_Community 113]]
+- 1 edge to [[_COMMUNITY_Community 111]]
+- 1 edge to [[_COMMUNITY_Community 0]]
+- 1 edge to [[_COMMUNITY_Community 15]]
+- 1 edge to [[_COMMUNITY_Community 73]]
 
 ## Top bridge nodes
-- [[Collision-Resistant Hash Functions]] - degree 8, connects to 3 communities
-- [[Algebraic Hash Functions (Poseidon)]] - degree 4, connects to 3 communities
-- [[Preprocessing zk-SNARK for arithmetic circuits]] - degree 4, connects to 3 communities
-- [[Scalable Zero Knowledge via Cycles of Elliptic Curves (BCTV14, CRYPTO 2014)]] - degree 4, connects to 3 communities
-- [[Alternating PCD construction over 2-cycle (Cpcd,alpha  Cpcd,beta)]] - degree 4, connects to 2 communities
+- [[Algorithms for Quantum Computation Discrete Logarithms and Factoring]] - degree 13, connects to 6 communities
+- [[Quantum Fourier transform]] - degree 6, connects to 1 community
+- [[Quantum discrete logarithm algorithm]] - degree 4, connects to 1 community
+- [[Integer Factorization]] - degree 3, connects to 1 community
+- [[Quantum Algorithm]] - degree 2, connects to 1 community

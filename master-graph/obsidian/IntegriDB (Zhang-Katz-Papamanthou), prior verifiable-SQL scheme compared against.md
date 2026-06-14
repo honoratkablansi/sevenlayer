@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-73-vsql.pdf"
 type: "paper"
-community: "Community 56"
+community: "Community 44"
 location: "§I-D; §VII-C ([61])"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_56
+  - community/Community_44
 ---
 
 # IntegriDB (Zhang-Katz-Papamanthou), prior verifiable-SQL scheme compared against
@@ -16,4 +16,4 @@ tags:
 - [[Verifiable databases and analytics]] - `conceptually_related_to` [EXTRACTED]
 - [[vSQL verifiable database system for arbitrary SQL queries over dynamic outsourced databases]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_56
+#graphify/paper #graphify/EXTRACTED #community/Community_44

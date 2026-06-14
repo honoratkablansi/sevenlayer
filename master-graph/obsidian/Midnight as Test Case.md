@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch12-midnight-as-test-case.md"
 type: "document"
-community: "Community 6"
+community: "Community 13"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_6
+  - community/Community_13
 ---
 
 # Midnight as Test Case
@@ -20,4 +20,4 @@ tags:
 - [[Midnight's BLS12-381 Stage]] - `references` [EXTRACTED]
 - [[MidnightJS SDK]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_6
+#graphify/document #graphify/EXTRACTED #community/Community_13

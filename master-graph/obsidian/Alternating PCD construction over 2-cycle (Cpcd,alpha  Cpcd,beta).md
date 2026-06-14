@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-02-bctv-cycles.pdf"
 type: "paper"
-community: "Community 91"
+community: "Community 90"
 location: "§4.2, Fig. 2"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_91
+  - community/Community_90
 ---
 
 # Alternating PCD construction over 2-cycle (Cpcd,alpha / Cpcd,beta)
@@ -17,4 +17,4 @@ tags:
 - [[PCD-friendly 2-cycle (base field of one curve = group order of other)]] - `assumes` [EXTRACTED]
 - [[Proof-Carrying Data (PCD)]] - `introduces` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_91
+#graphify/paper #graphify/EXTRACTED #community/Community_90

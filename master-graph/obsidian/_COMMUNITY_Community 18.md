@@ -10,37 +10,37 @@ members: 31
 **Members:** 31 nodes
 
 ## Members
-- [[Argument that large shards enable faster TwistShout proving (K-linear cost amortized)]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[Block et al. (BHR20) quasi-linear small-space SNARK for VMs with streaming Bulletproofs PCS]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[Blumberg et al. (BTVW14) small-space quasi-linear PIOP for circuit-SAT]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[Concrete cost estimate ~900T linear-space vs ~900T+12T log T small-space field mults]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[Continuations  recursive composition for zkVM prover memory control]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[Cormode-Thaler-Yi (CTY11) linear-time and sparse streaming sum-check provers]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[Dimension parameter d factoring one-hot address poly into d smaller polys]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[Gemini (BCHO22) small-space VM SNARK with streamed multilinear-KZG PCS]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[Jolt sum-check-based zkVM for RISC-V]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[Justin Thaler]] - document - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[LFKN LFKN90 original sum-check protocol]] - paper - references/ch03/ref-15-lasso.pdf
-- [[Lund-Fortnow-Karloff-Nisan 35 original sum-check protocol]] - paper - references/recursion/ch3/ref-70-zkcnn.pdf
-- [[Marlin CHM+20 - preprocessing zkSNARK that SuperMarlin generalizes]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
-- [[Multifolding]] - document - recursion/recursion-outline.md
-- [[One-hot (unit-vector) address encoding for memory ops in TwistShout]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[Polynomial IOP  interactive oracle protocol]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
-- [[Proving CPU Executions in Small Space]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[Recursive SNARK Composition (Preprocessing to Fully Succinct)]] - paper - references/ch02/ref-06-groth16.pdf
-- [[Repeated witness generation with checkpoints and multithreaded parallel regeneration]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[Shout sum-check memory-checking  lookup argument for read-only memory]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[Small-space Jolt prover (sublinear-space zkVM proving without recursion)]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[Small-value sum-check optimization (Bagad-Domb-Thaler Algorithm 3)]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[Sparrow (PP24) sqrt-space SNARK for data-parallel circuits]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[Spartan over Jolt's uniform block-diagonal R1CS, streamed via Az,Bz,Cz]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[Square-root space target O(sqrt(KT))  O(K+T{12}) suffices in practice over O(K+log T)]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[Streaming  small-space sum-check prover (logarithmic-space, quasi-linear time)]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[Sum-Check Protocol]] - document - recursion/recursion-outline.md
-- [[SuperMarlin univariate-sumcheck SNARK for CCS generalizing Marlin]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
-- [[Theorem 1 polynomial IOP for CCS, soundness O((t+d)log m)F, prover O(N+tm+qmd log2 d) F-ops]] - paper - references/ch03/ref-14-ccs-customizable-constraints.pdf
-- [[Theorem 7.1 Jolt prover in S=O(K+log T) space and O(T log T) time]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[Twist and Shout Memory-Checking Arguments]] - document - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Boneh-Goh-Nissim evaluating 2-DNF formulas on ciphertexts 11]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Bootstrappable encryption scheme that can evaluate its own (augmented) decryption circuit]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Bootstrapping (FHE)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Bootstrapping theorem any bootstrappable scheme yields leveled FHE family {E(d)} (Thm 1,3)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Circuit Privacy]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Circuit privacy via RandomizeCT (add encryption of 0 with super-polynomially larger error)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Closest vector problem  lattice reduction (LLL)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Craig Gentry]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Decisional CVP for ideal lattices in a fixed ring (bounded-distance decoding hardness underlying E1)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Error-vector growth bounds evaluation depth ~ (c1-c2) log n (Thm 6, Thm 8; expansion factor gamma_Mult)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Fully Homomorphic Encryption Using Ideal Lattices]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Fully-homomorphic encryption (FHE) assumption]] - paper - references/recursion/ch1/ref-03-bitansky-recursive-snark-pcd.pdf
+- [[Goldwasser-Micali first semantically secure (additively) homomorphic scheme 23]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Homomorphic encryption (Evaluate over encrypted data without decrypting)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Ideal Coset Problem (ICP) decide if t is near-lattice (Samp1) or uniform mod J; security of E1 (Def.10, Thm 7)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Ideal Lattice]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Ideal lattices (ideals of Zxf(x) as lattices; rotation basis)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[KDM-security  circular security (self-loop of encrypted secret keys yields true FHE)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Learning With Errors (LWE) problem (Regev 2005)]] - paper - references/ch07/ref-25-nist-fips-203-204-205.pdf
+- [[NTRU ring-based public-key cryptosystem (ideal-lattice cryptography precedent) 25]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Noise Growth in HE]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Performance counterbalanced assumptions; gamma_subset=sqrt(n), n~=lambda2, breaking time ~2sqrt(n)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Recrypt homomorphically evaluate decryption circuit on encrypted secret-key bits to refresh ciphertext error]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Rivest-Adleman-Dertouzos 1978 privacy homomorphisms (original FHE open problem) 54]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Scheme E2 tweaks (narrow C_E to B(rDec2); replace matrix-vector by ring mult v_Jsk x psi) lowering decryption depth]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Scheme E3 squashed E2 with hidden sparse subset; bootstrappable and semantically secure (Thm 2, Thm 11)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Somewhat Homomorphic Encryption (SHE)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Somewhat-homomorphic scheme E1 over ideal lattices (ciphertext v+x; ring addmult mod B_Jpk)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Sparse Subset Sum Problem (SSSP)  SplitKey Distinguishing Problem second hardness assumption from tau in public key]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Squashing the decryption circuit SplitKeyExpandCT shift work to encrypter so Decrypt sums only sub-linear vectors (E3)]] - paper - references/ch09/ref-29-gentry-fhe.pdf
+- [[Three-step FHE blueprint SWHE - squash decryption - bootstrap to fully homomorphic]] - paper - references/ch09/ref-29-gentry-fhe.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -50,39 +50,19 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 15 edges to [[_COMMUNITY_Community 11]]
-- 7 edges to [[_COMMUNITY_Community 7]]
-- 6 edges to [[_COMMUNITY_Community 0]]
-- 5 edges to [[_COMMUNITY_Community 1]]
-- 5 edges to [[_COMMUNITY_Community 8]]
-- 5 edges to [[_COMMUNITY_Community 46]]
-- 5 edges to [[_COMMUNITY_Community 86]]
-- 4 edges to [[_COMMUNITY_Community 54]]
-- 4 edges to [[_COMMUNITY_Community 15]]
-- 4 edges to [[_COMMUNITY_Community 28]]
-- 4 edges to [[_COMMUNITY_Community 35]]
-- 3 edges to [[_COMMUNITY_Community 16]]
-- 3 edges to [[_COMMUNITY_Community 103]]
-- 3 edges to [[_COMMUNITY_Community 41]]
-- 2 edges to [[_COMMUNITY_Community 32]]
-- 2 edges to [[_COMMUNITY_Community 48]]
-- 2 edges to [[_COMMUNITY_Community 39]]
-- 2 edges to [[_COMMUNITY_Community 90]]
-- 2 edges to [[_COMMUNITY_Community 94]]
-- 2 edges to [[_COMMUNITY_Community 56]]
-- 1 edge to [[_COMMUNITY_Community 68]]
-- 1 edge to [[_COMMUNITY_Community 22]]
-- 1 edge to [[_COMMUNITY_Community 104]]
-- 1 edge to [[_COMMUNITY_Community 84]]
-- 1 edge to [[_COMMUNITY_Community 96]]
-- 1 edge to [[_COMMUNITY_Community 19]]
-- 1 edge to [[_COMMUNITY_Community 12]]
-- 1 edge to [[_COMMUNITY_Community 123]]
-- 1 edge to [[_COMMUNITY_Community 82]]
+- 5 edges to [[_COMMUNITY_Community 4]]
+- 4 edges to [[_COMMUNITY_Community 0]]
+- 3 edges to [[_COMMUNITY_Community 53]]
+- 1 edge to [[_COMMUNITY_Community 32]]
+- 1 edge to [[_COMMUNITY_Community 116]]
+- 1 edge to [[_COMMUNITY_Community 27]]
+- 1 edge to [[_COMMUNITY_Community 23]]
+- 1 edge to [[_COMMUNITY_Community 130]]
+- 1 edge to [[_COMMUNITY_Community 88]]
 
 ## Top bridge nodes
-- [[Sum-Check Protocol]] - degree 79, connects to 24 communities
-- [[Proving CPU Executions in Small Space]] - degree 12, connects to 7 communities
-- [[Jolt sum-check-based zkVM for RISC-V]] - degree 9, connects to 3 communities
-- [[Small-space Jolt prover (sublinear-space zkVM proving without recursion)]] - degree 9, connects to 3 communities
-- [[Spartan over Jolt's uniform block-diagonal R1CS, streamed via Az,Bz,Cz]] - degree 4, connects to 2 communities
+- [[Bootstrapping (FHE)]] - degree 15, connects to 6 communities
+- [[Fully Homomorphic Encryption Using Ideal Lattices]] - degree 12, connects to 2 communities
+- [[Learning With Errors (LWE) problem (Regev 2005)]] - degree 3, connects to 2 communities
+- [[Fully-homomorphic encryption (FHE) assumption]] - degree 6, connects to 1 community
+- [[Homomorphic encryption (Evaluate over encrypted data without decrypting)]] - degree 4, connects to 1 community

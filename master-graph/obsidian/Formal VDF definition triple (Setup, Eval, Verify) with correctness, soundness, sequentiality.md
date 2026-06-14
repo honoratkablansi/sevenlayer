@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-80-boneh-bonneau-bunz-fisch-vdf.pdf"
 type: "paper"
-community: "Community 4"
+community: "Community 7"
 location: "§3 Def. 1–4"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_4
+  - community/Community_7
 ---
 
 # Formal VDF definition: triple (Setup, Eval, Verify) with correctness, soundness, sequentiality
@@ -17,4 +17,4 @@ tags:
 - [[Verifiable delay function (VDF)]] - `defines` [EXTRACTED]
 - [[σ-sequentiality security property (parallel PRAM adversary cannot win in time σ(t)t after polynomial precomputation)]] - `defines` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_4
+#graphify/paper #graphify/EXTRACTED #community/Community_7

@@ -1,28 +1,28 @@
 ---
 type: community
-cohesion: 0.19
+cohesion: 0.18
 members: 13
 ---
 
 # Community 93
 
-**Cohesion:** 0.19 - loosely connected
+**Cohesion:** 0.18 - loosely connected
 **Members:** 13 nodes
 
 ## Members
-- [[DKIM signature verification proofs]] - document - references/recursion/ch3/ref-85-zkemail-docs.md
-- [[Email Wallet and account recovery]] - document - references/recursion/ch3/ref-85-zkemail-docs.md
-- [[MPC-TLS prover-verifier protocol]] - document - references/recursion/ch3/ref-86-tlsnotary-docs.md
-- [[Notary attestation of TLS session data]] - document - references/recursion/ch3/ref-86-tlsnotary-docs.md
-- [[Selective redaction of TLS transcript]] - document - references/recursion/ch3/ref-86-tlsnotary-docs.md
-- [[TLSNotary]] - document - references/recursion/ch3/ref-86-tlsnotary-docs.md
-- [[TLSNotary project documentation]] - document - references/recursion/ch3/ref-86-tlsnotary-docs.md
-- [[Web data provenance  authenticity of TLS-accessed data]] - paper - references/recursion/ch3/ref-87-deco.pdf
-- [[ZK Email Blueprint SDK and Verifier]] - document - references/recursion/ch3/ref-85-zkemail-docs.md
-- [[ZK Email documentation]] - document - references/recursion/ch3/ref-85-zkemail-docs.md
-- [[ZK-Regex circuit primitive]] - document - references/recursion/ch3/ref-85-zkemail-docs.md
-- [[zkEmail]] - document - references/recursion/ch3/ref-85-zkemail-docs.md
-- [[zkTLS  zkEmail web and email provenance]] - document - recursion/recursion-outline.md
+- [[ACIR (Abstract Circuit Intermediate Representation)]] - document - proving-nothing.md
+- [[Claim The language determines what bugs the developer can make]] - document - proving-nothing.md
+- [[Compact (MidnightIOG DSL)]] - document - proving-nothing.md
+- [[Compact 26-Pass Nanopass Compilation Pipeline]] - document - proving-nothing.md
+- [[Disclosure Analysis (Compact)]] - document - proving-nothing.md
+- [[Fourth Philosophy Application-Specific DSL]] - document - proving-nothing.md
+- [[Leo (Aleo record-based DSL)]] - document - proving-nothing.md
+- [[Leo (Aleo)  o1js (Mina)]] - document - proving-nothing.md
+- [[Noir (Aztec Labs, ACIR)]] - document - proving-nothing.md
+- [[Pearce et al., NAVe Formal Verification for Noir Programs, 2025]] - document - proving-nothing.md
+- [[RISC-V zkVMs]] - document - proving-nothing.md
+- [[The Four Philosophies of Layer 2 Languages]] - document - proving-nothing.md
+- [[disclose() Operator]] - document - proving-nothing.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -32,15 +32,17 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 2 edges to [[_COMMUNITY_Community 49]]
-- 2 edges to [[_COMMUNITY_Community 29]]
-- 1 edge to [[_COMMUNITY_Community 105]]
-- 1 edge to [[_COMMUNITY_Community 14]]
-- 1 edge to [[_COMMUNITY_Community 67]]
+- 7 edges to [[_COMMUNITY_Community 13]]
+- 2 edges to [[_COMMUNITY_Community 115]]
+- 1 edge to [[_COMMUNITY_Community 79]]
+- 1 edge to [[_COMMUNITY_Community 1]]
+- 1 edge to [[_COMMUNITY_Community 2]]
+- 1 edge to [[_COMMUNITY_Community 19]]
+- 1 edge to [[_COMMUNITY_Community 109]]
 
 ## Top bridge nodes
-- [[zkTLS  zkEmail web and email provenance]] - degree 7, connects to 3 communities
-- [[Web data provenance  authenticity of TLS-accessed data]] - degree 4, connects to 1 community
-- [[zkEmail]] - degree 4, connects to 1 community
-- [[DKIM signature verification proofs]] - degree 2, connects to 1 community
-- [[Selective redaction of TLS transcript]] - degree 2, connects to 1 community
+- [[The Four Philosophies of Layer 2 Languages]] - degree 8, connects to 3 communities
+- [[Disclosure Analysis (Compact)]] - degree 8, connects to 2 communities
+- [[disclose() Operator]] - degree 3, connects to 2 communities
+- [[Compact (MidnightIOG DSL)]] - degree 6, connects to 1 community
+- [[ACIR (Abstract Circuit Intermediate Representation)]] - degree 3, connects to 1 community

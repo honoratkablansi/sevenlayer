@@ -1,27 +1,26 @@
 ---
 type: community
 cohesion: 0.20
-members: 12
+members: 11
 ---
 
 # Community 98
 
 **Cohesion:** 0.20 - loosely connected
-**Members:** 12 nodes
+**Members:** 11 nodes
 
 ## Members
-- [[Barak et al. 3 impossibility of code obfuscation; obfuscating a PRF ensemble fails to securely instantiate the random oracle]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Bellare & Rogaway 5 original formulation of the random oracle methodology]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Fiat & Shamir 14 identification-to-signature transformation (sound in ROM)]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Informal Theorem 1.2 signature and encryption schemes secure in ROM but with no secure implementation by any function ensemble (with explicit generic adversary)]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Kilian 26 succinct interactive arguments, basis for Micali's CS-proof construction]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Micali 27 non-interactive CS-proofs in the Random Oracle Model (Theorem 2.7)]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Provable security  reductionist methodology]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Random Oracle Methodology (Bellare-Rogaway design heuristic)]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Random Oracle instantiation failure schemes secure in ROM but insecure under any concrete implementation]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Theorem 4.4 a poly-time signature scheme, existentially unforgeable in ROM, but existentially forgeable (key-only) and totally breakable (chosen-message) under any function-ensemble implementation]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Theorem 4.6 public-key encryption schemes secure (semantic  CCA) in ROM but insecure under any function-ensemble implementation; CCA attack reveals the decryption key]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
-- [[Use of non-interactive CS-proofs (Micali) to collapse super-polynomial diagonalization checks into a polynomial-time signingverification, yielding a standard (poly-time) scheme]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
+- [[Address-grouping suffices (a-group + t-order) instead of full (a,t)-ordering]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[Blum, Evans, Gemmell, Kannan, Naor - Checking Correctness of Memories (1991)]] - document - proving-nothing.md
+- [[Claim 4 public-coin multiset hash H_{tau,gamma} via Reed-Solomon fingerprinting; multiset equality with soundness error O((A+B)F)]] - paper - references/ch03/ref-15-lasso.pdf
+- [[Grand Product Argument (accumulator polynomial Z)]] - paper - references/ch02/ref-07-plonk.pdf
+- [[Lagrange Basis over Multiplicative Subgroup]] - paper - references/ch02/ref-07-plonk.pdf
+- [[Offline Memory Checking]] - document - proving-nothing.md
+- [[Pi_active active-cell selection via H_r permutation proofs, V-cost 3N+2A+O(1)]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
+- [[Scribe (BMM24) readwrite-streaming-pass SNARK adapting HyperPlonk PIOP]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Spice readwrite memory-checking argument (offline, grand-product based)]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Streaming grand products via depth-first traversal of multiplication-gate tree]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
+- [[Universal keyed hashes coefficient hash H_c and root hash H_r]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -31,13 +30,19 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 6 edges to [[_COMMUNITY_Community 106]]
-- 1 edge to [[_COMMUNITY_Community 96]]
-- 1 edge to [[_COMMUNITY_Community 33]]
+- 4 edges to [[_COMMUNITY_Community 59]]
+- 3 edges to [[_COMMUNITY_Community 2]]
+- 3 edges to [[_COMMUNITY_Community 84]]
+- 3 edges to [[_COMMUNITY_Community 54]]
+- 2 edges to [[_COMMUNITY_Community 16]]
+- 1 edge to [[_COMMUNITY_Community 1]]
+- 1 edge to [[_COMMUNITY_Community 82]]
+- 1 edge to [[_COMMUNITY_Community 86]]
+- 1 edge to [[_COMMUNITY_Community 40]]
 
 ## Top bridge nodes
-- [[Fiat & Shamir 14 identification-to-signature transformation (sound in ROM)]] - degree 3, connects to 2 communities
-- [[Informal Theorem 1.2 signature and encryption schemes secure in ROM but with no secure implementation by any function ensemble (with explicit generic adversary)]] - degree 5, connects to 1 community
-- [[Random Oracle Methodology (Bellare-Rogaway design heuristic)]] - degree 4, connects to 1 community
-- [[Random Oracle instantiation failure schemes secure in ROM but insecure under any concrete implementation]] - degree 4, connects to 1 community
-- [[Theorem 4.4 a poly-time signature scheme, existentially unforgeable in ROM, but existentially forgeable (key-only) and totally breakable (chosen-message) under any function-ensemble implementation]] - degree 3, connects to 1 community
+- [[Offline Memory Checking]] - degree 14, connects to 7 communities
+- [[Grand Product Argument (accumulator polynomial Z)]] - degree 11, connects to 4 communities
+- [[Spice readwrite memory-checking argument (offline, grand-product based)]] - degree 3, connects to 1 community
+- [[Scribe (BMM24) readwrite-streaming-pass SNARK adapting HyperPlonk PIOP]] - degree 2, connects to 1 community
+- [[Address-grouping suffices (a-group + t-order) instead of full (a,t)-ordering]] - degree 2, connects to 1 community

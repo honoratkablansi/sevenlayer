@@ -1,11 +1,11 @@
 ---
 source_file: "references/recursion/ch3/ref-79-c2pa-specification.md"
 type: "document"
-community: "Community 9"
+community: "Community 60"
 tags:
   - graphify/document
   - graphify/INFERRED
-  - community/Community_9
+  - community/Community_60
 ---
 
 # C2PA assertions and claims
@@ -14,4 +14,4 @@ tags:
 - [[C2PA Manifest]] - `explains` [EXTRACTED]
 - [[Provenance attestation]] - `conceptually_related_to` [INFERRED]
 
-#graphify/document #graphify/INFERRED #community/Community_9
+#graphify/document #graphify/INFERRED #community/Community_60

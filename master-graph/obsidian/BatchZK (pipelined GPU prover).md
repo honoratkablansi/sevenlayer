@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/sections/ch04-witness-generation-costs.md"
 type: "paper"
-community: "Community 1"
+community: "Community 89"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_1
+  - community/Community_89
 ---
 
 # BatchZK (pipelined GPU prover)
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[Witness Generation Costs]] - `cites` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_1
+#graphify/paper #graphify/EXTRACTED #community/Community_89

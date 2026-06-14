@@ -1,11 +1,11 @@
 ---
 source_file: "references/ch10/ref-52-sp1-hypercube.md"
 type: "document"
-community: "Community 7"
+community: "Community 19"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_7
+  - community/Community_19
 ---
 
 # SP1 Hypercube: Proving Ethereum in Real-Time (Succinct Labs)
@@ -26,4 +26,4 @@ tags:
 - [[zkVM]] - `implements` [EXTRACTED]
 - [[zkVMs -- The Universal Stage]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_7
+#graphify/document #graphify/EXTRACTED #community/Community_19

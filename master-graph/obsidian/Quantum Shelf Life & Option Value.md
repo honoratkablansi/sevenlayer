@@ -1,20 +1,20 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 95"
+community: "Community 5"
 location: "Chapter 2"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_95
+  - community/Community_5
 ---
 
 # Quantum Shelf Life & Option Value
 
 ## Connections
 - [[Harvest Now, Decrypt Later Threat]] - `conceptually_related_to` [EXTRACTED]
-- [[Lattice-Based Cryptography]] - `references` [EXTRACTED]
+- [[Lattice Cryptography]] - `references` [EXTRACTED]
 - [[Midnight BLS12-381 Layer 1 Case Study (CompactZKIR, Pluto-Eris switch)]] - `conceptually_related_to` [EXTRACTED]
 - [[Shor's Algorithm  Quantum Threat]] - `explains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_95
+#graphify/document #graphify/EXTRACTED #community/Community_5

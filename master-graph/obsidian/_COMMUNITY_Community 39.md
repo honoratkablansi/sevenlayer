@@ -1,39 +1,38 @@
 ---
 type: community
-cohesion: 0.11
-members: 24
+cohesion: 0.14
+members: 23
 ---
 
 # Community 39
 
-**Cohesion:** 0.11 - loosely connected
-**Members:** 24 nodes
+**Cohesion:** 0.14 - loosely connected
+**Members:** 23 nodes
 
 ## Members
-- [[AuroraLight (Sonic-like, improved proverSRS)]] - paper - references/ch02/ref-07-plonk.pdf
-- [[Batched KZG Polynomial Commitment Scheme (multi-poly, multi-point)]] - paper - references/ch02/ref-07-plonk.pdf
-- [[Bayer-Groth PermutationShuffle Argument]] - paper - references/ch02/ref-07-plonk.pdf
-- [[Compiler Polynomial Protocol to AGM-Knowledge-Sound Protocol (Lemma 4.7)]] - paper - references/ch02/ref-07-plonk.pdf
-- [[Copy Constraints via Permutation (wiring check)]] - paper - references/ch02/ref-07-plonk.pdf
-- [[Corollary 7.2 11n+1 G1-exp prover, 7 G1 + 67 F proof, 2 pairings]] - paper - references/ch02/ref-07-plonk.pdf
-- [[Extended Permutation Check Across Multiple Polynomials]] - paper - references/ch02/ref-07-plonk.pdf
-- [[Grand Product Argument (accumulator polynomial Z)]] - paper - references/ch02/ref-07-plonk.pdf
-- [[Idealized Low-Degree (Polynomial) Protocol]] - paper - references/ch02/ref-07-plonk.pdf
-- [[Lagrange Basis over Multiplicative Subgroup]] - paper - references/ch02/ref-07-plonk.pdf
-- [[Linearisation Polynomial (Maller optimization)]] - paper - references/ch02/ref-07-plonk.pdf
-- [[Marlin (universal preprocessing SNARK)]] - paper - references/ch02/ref-07-plonk.pdf
-- [[PLONK Constraint System & Arithmetization (selectorgate equation)]] - paper - references/ch02/ref-07-plonk.pdf
-- [[PLONK Main Protocol for Relation R_C (Theorem 7.1)]] - paper - references/ch02/ref-07-plonk.pdf
-- [[PLONK Permutations over Lagrange-bases for Oecumenical Noninteractive arguments of Knowledge]] - paper - references/ch02/ref-07-plonk.pdf
-- [[Permutation Argument]] - document - references/ch02/ref-07-plonk.pdf
-- [[Ranged Polynomial Protocol (identities over a subset S)]] - paper - references/ch02/ref-07-plonk.pdf
-- [[Scribe (BMM24) readwrite-streaming-pass SNARK adapting HyperPlonk PIOP]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[Selector Polynomials (qL,qR,qO,qM,qC)]] - paper - references/ch02/ref-07-plonk.pdf
-- [[Sonic]] - document - proving-nothing.md
-- [[Streaming grand products via depth-first traversal of multiplication-gate tree]] - paper - references/ch14/ref-45-small-space-cpu-proofs.pdf
-- [[Universal Updatable SRS Setup (Bowe-Gabizon-Miers)]] - paper - references/ch02/ref-07-plonk.pdf
-- [[Universal keyed hashes coefficient hash H_c and root hash H_r]] - paper - references/ch14/ref-46-zk-memory-algebraic-proofs.pdf
-- [[Zero-Knowledge via ZH Blinding Scalars]] - paper - references/ch02/ref-07-plonk.pdf
+- [[Anonymity set of Bitcoin public keys for address unlinkability]] - paper - references/recursion/ch3/ref-88-provisions.pdf
+- [[Bit-decomposition range proof for committed balances (no trusted setup)]] - paper - references/recursion/ch3/ref-88-provisions.pdf
+- [[Chaum-Pedersen proof of representation of a DH tuple]] - paper - references/recursion/ch3/ref-88-provisions.pdf
+- [[Decisional Diffie-Hellman (DDH) assumption over secp256k1]] - paper - references/recursion/ch3/ref-88-provisions.pdf
+- [[Fiat-Shamir heuristic (interactive to non-interactive compilation)]] - paper - references/recursion/ch3/ref-88-provisions.pdf
+- [[General security definition of a privacy-preserving proof of solvency (valid pair; correctnesssoundnessownershipprivacy)]] - paper - references/recursion/ch3/ref-88-provisions.pdf
+- [[Injective customer-ID commitment to defeat clash attack]] - paper - references/recursion/ch3/ref-88-provisions.pdf
+- [[Maxwell Merkle-tree proof of reservesliabilities (prior work)]] - paper - references/recursion/ch3/ref-88-provisions.pdf
+- [[Neff verifiable secret shuffle  mix net (prior work)]] - paper - references/recursion/ch3/ref-88-provisions.pdf
+- [[No-trusted-setup design goal (no common reference string)]] - paper - references/recursion/ch3/ref-88-provisions.pdf
+- [[Non-surjective liability mapping fake users only increase apparent liabilities]] - paper - references/recursion/ch3/ref-88-provisions.pdf
+- [[Privacy-preserving proof of liabilities (Protocol 2)]] - paper - references/recursion/ch3/ref-88-provisions.pdf
+- [[Proof of assets  proof of reserves]] - paper - references/recursion/ch3/ref-88-provisions.pdf
+- [[Proof of non-collusion extension (Neff-mix permutation, DDH)]] - paper - references/recursion/ch3/ref-88-provisions.pdf
+- [[Proof of solvency  financial compliance]] - document - recursion/recursion-outline.md
+- [[Proof-of-assets Sigma-protocol (HVZK argument of knowledge)]] - paper - references/recursion/ch3/ref-88-provisions.pdf
+- [[Provisions (Dagher et al., CCS 2015)]] - document - recursion/recursion-outline.md
+- [[Provisions privacy-preserving proof of solvency for Bitcoin exchanges]] - paper - references/recursion/ch3/ref-88-provisions.pdf
+- [[Schnorr proof of knowledge of discrete logarithm]] - paper - references/recursion/ch3/ref-88-provisions.pdf
+- [[Sigma protocol (public-coin 3-move)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
+- [[Theorem 1 proof-of-assets Sigma-protocol is HVZK argument of knowledge]] - paper - references/recursion/ch3/ref-88-provisions.pdf
+- [[Theorem 2 proof-of-liabilities is zero-knowledge and sound]] - paper - references/recursion/ch3/ref-88-provisions.pdf
+- [[Theorem 3 Provisions (Protocol 3) is a privacy-preserving proof of solvency]] - paper - references/recursion/ch3/ref-88-provisions.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -43,27 +42,23 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 5 edges to [[_COMMUNITY_Community 12]]
-- 3 edges to [[_COMMUNITY_Community 86]]
-- 2 edges to [[_COMMUNITY_Community 40]]
-- 2 edges to [[_COMMUNITY_Community 100]]
-- 2 edges to [[_COMMUNITY_Community 18]]
-- 1 edge to [[_COMMUNITY_Community 96]]
-- 1 edge to [[_COMMUNITY_Community 82]]
-- 1 edge to [[_COMMUNITY_Community 68]]
-- 1 edge to [[_COMMUNITY_Community 6]]
-- 1 edge to [[_COMMUNITY_Community 54]]
-- 1 edge to [[_COMMUNITY_Community 22]]
-- 1 edge to [[_COMMUNITY_Community 11]]
-- 1 edge to [[_COMMUNITY_Community 15]]
-- 1 edge to [[_COMMUNITY_Community 16]]
-- 1 edge to [[_COMMUNITY_Community 74]]
-- 1 edge to [[_COMMUNITY_Community 84]]
+- 5 edges to [[_COMMUNITY_Community 73]]
+- 4 edges to [[_COMMUNITY_Community 15]]
+- 2 edges to [[_COMMUNITY_Community 0]]
+- 2 edges to [[_COMMUNITY_Community 74]]
+- 2 edges to [[_COMMUNITY_Community 48]]
+- 2 edges to [[_COMMUNITY_Community 135]]
+- 1 edge to [[_COMMUNITY_Community 32]]
+- 1 edge to [[_COMMUNITY_Community 3]]
+- 1 edge to [[_COMMUNITY_Community 58]]
+- 1 edge to [[_COMMUNITY_Community 23]]
+- 1 edge to [[_COMMUNITY_Community 44]]
 - 1 edge to [[_COMMUNITY_Community 38]]
+- 1 edge to [[_COMMUNITY_Community 88]]
 
 ## Top bridge nodes
-- [[PLONK Permutations over Lagrange-bases for Oecumenical Noninteractive arguments of Knowledge]] - degree 24, connects to 10 communities
-- [[Grand Product Argument (accumulator polynomial Z)]] - degree 11, connects to 5 communities
-- [[Permutation Argument]] - degree 7, connects to 2 communities
-- [[PLONK Main Protocol for Relation R_C (Theorem 7.1)]] - degree 9, connects to 1 community
-- [[Batched KZG Polynomial Commitment Scheme (multi-poly, multi-point)]] - degree 4, connects to 1 community
+- [[Proof of solvency  financial compliance]] - degree 12, connects to 5 communities
+- [[Sigma protocol (public-coin 3-move)]] - degree 11, connects to 5 communities
+- [[Provisions privacy-preserving proof of solvency for Bitcoin exchanges]] - degree 16, connects to 4 communities
+- [[Privacy-preserving proof of liabilities (Protocol 2)]] - degree 7, connects to 1 community
+- [[Proof-of-assets Sigma-protocol (HVZK argument of knowledge)]] - degree 4, connects to 1 community

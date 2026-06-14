@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-59-zkbridge.pdf"
 type: "paper"
-community: "Community 65"
+community: "Community 74"
 location: "§1.1, §5"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_65
+  - community/Community_74
 ---
 
 # 2-layer recursive proof system: deVirgo (layer 1, fast prover) recursively wrapped by Groth16 (layer 2, constant proof for cheap on-chain verification)
@@ -17,4 +17,4 @@ tags:
 - [[Xie et al., zkBridge Trustless Cross-chain Bridges Made Practical (CCS 2022)]] - `introduces` [EXTRACTED]
 - [[deVirgo distributed zero-knowledge proof system parallelizing Virgo over M machines with perfect linear scalability and no proof-size overhead]] - `assumes` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_65
+#graphify/paper #graphify/EXTRACTED #community/Community_74

@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-61-verisbom.pdf"
 type: "paper"
-community: "Community 9"
+community: "Community 55"
 location: "§6 Theorem 3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_9
+  - community/Community_55
 ---
 
 # Theorem 3: Root-binding accountability (cannot accept proof from divergent PT*/ST*)
@@ -15,4 +15,4 @@ tags:
 - [[Root-binding accountability verification bound to trusted public roots defeats parallel forged trees]] - `conceptually_related_to` [EXTRACTED]
 - [[VeriSBOM trustless, selectively-disclosed verifiable SBOM-sharing framework via ZKPs]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_9
+#graphify/paper #graphify/EXTRACTED #community/Community_55

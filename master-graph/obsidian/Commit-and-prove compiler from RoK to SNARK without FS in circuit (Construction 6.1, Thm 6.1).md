@@ -1,12 +1,12 @@
 ---
 source_file: "references/ch10/ref-56-symphony.pdf"
 type: "paper"
-community: "Community 28"
+community: "Community 34"
 location: "§6, Construction 6.1, Thm 6.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_28
+  - community/Community_34
 ---
 
 # Commit-and-prove compiler from RoK to SNARK without FS in circuit (Construction 6.1, Thm 6.1)
@@ -16,4 +16,4 @@ tags:
 - [[Symphony Scalable SNARKs in the Random Oracle Model from Lattice-Based High-Arity Folding]] - `introduces` [EXTRACTED]
 - [[Symphony scalable SNARK in the ROM from high-arity folding]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_28
+#graphify/paper #graphify/EXTRACTED #community/Community_34

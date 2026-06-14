@@ -1,13 +1,13 @@
 ---
 type: community
-cohesion: 0.15
-members: 23
+cohesion: 0.16
+members: 22
 ---
 
 # Community 41
 
-**Cohesion:** 0.15 - loosely connected
-**Members:** 23 nodes
+**Cohesion:** 0.16 - loosely connected
+**Members:** 22 nodes
 
 ## Members
 - [[Additive FFT over binary fields (Lin et al.)]] - paper - references/ch02/ref-08-stark.pdf
@@ -23,7 +23,6 @@ members: 23
 - [[Kilian Kil92,Kil95 - PCP+Merkle-hash argument for NP with polylog communication (argument setting under computational assumptions)]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
 - [[Layer-to-layer reduction reduce verifying one point of LDE of layer i to one point of layer i+1 via sum-check over fz(p,w1,w2) using ~add_i,~mult_i,~beta,~V_i]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
 - [[Low Degree Extension (LDE)]] - paper - references/ch02/ref-08-stark.pdf
-- [[Lund, Fortnow, Karloff, Nisson LFKN92 - algebraic methods  sum-check for P (prior IP work)]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
 - [[Micali Mic94 - CS proofs in the random oracle model (non-interactive delegation precursor)]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
 - [[Private Information Retrieval (poly-log PIR) used to compile public-coin IP into one-round argument]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
 - [[Shamir Sha92 - IP = PSPACE (prior IP work)]] - paper - references/recursion/ch3/ref-75-goldwasser-kalai-rothblum-muggles.pdf
@@ -42,14 +41,16 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 3 edges to [[_COMMUNITY_Community 18]]
-- 3 edges to [[_COMMUNITY_Community 35]]
-- 2 edges to [[_COMMUNITY_Community 53]]
-- 1 edge to [[_COMMUNITY_Community 56]]
+- 3 edges to [[_COMMUNITY_Community 40]]
+- 3 edges to [[_COMMUNITY_Community 85]]
+- 2 edges to [[_COMMUNITY_Community 42]]
+- 1 edge to [[_COMMUNITY_Community 32]]
+- 1 edge to [[_COMMUNITY_Community 44]]
+- 1 edge to [[_COMMUNITY_Community 63]]
 
 ## Top bridge nodes
+- [[Delegation of computation (delegator verifies untrusted delegatee)]] - degree 7, connects to 3 communities
 - [[Delegating Computation Interactive Proofs for Muggles (GKR, STOC 2008  full version)]] - degree 20, connects to 2 communities
 - [[Theorem 1.1 public-coin IP for O(log S)-space-uniform circuits; verifier npoly(d,log S) time, O(log S) space; prover poly(S); communication dpolylog(S)]] - degree 9, connects to 1 community
-- [[Delegation of computation (delegator verifies untrusted delegatee)]] - degree 5, connects to 1 community
 - [[Bare-bones protocol (Theorem 3.1) IP given oracle access to low-degree extensions of wiring predicates add_imult_i specifying circuit]] - degree 5, connects to 1 community
 - [[Low Degree Extension (LDE)]] - degree 4, connects to 1 community

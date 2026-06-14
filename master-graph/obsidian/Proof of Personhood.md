@@ -1,17 +1,18 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 3"
+community: "Community 20"
 location: "Chapter 13"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_3
+  - community/Community_20
 ---
 
 # Proof of Personhood
 
 ## Connections
+- [[Digital Identity]] - `instance_of` [EXTRACTED]
 - [[PoH authentication unlinkable pseudonymity via self-custody + ZKP against a public registry, plus a person-bound second factor (Face Auth) with periodic reauthentication]] - `conceptually_related_to` [INFERRED]
 - [[Proof of Human (PoH) private primitive establishing a party is a real, unique human (or agent acting on a human's behalf)]] - `conceptually_related_to` [EXTRACTED]
 - [[Verifiable credentials]] - `conceptually_related_to` [INFERRED]
@@ -20,5 +21,6 @@ tags:
 - [[World Whitepapers (World Network Proof of Human)]] - `defines` [EXTRACTED]
 - [[ZK Identity]] - `conceptually_related_to` [EXTRACTED]
 - [[ZKPassport  Anon-Aadhaar document-proof systems]] - `introduces` [EXTRACTED]
+- [[Zero-Knowledge Proof]] - `enables` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_3
+#graphify/document #graphify/EXTRACTED #community/Community_20

@@ -1,62 +1,64 @@
 ---
 type: community
-cohesion: 0.14
-members: 47
+cohesion: 0.07
+members: 49
 ---
 
 # Community 6
 
-**Cohesion:** 0.14 - loosely connected
-**Members:** 47 nodes
+**Cohesion:** 0.07 - loosely connected
+**Members:** 49 nodes
 
 ## Members
-- [[Beanstalk]] - document - wiki/concepts/beanstalk.md
-- [[Cardano]] - document - wiki/sections/ch12-midnight-at-a-glance.md
-- [[Case Study Midnight and the Three-Token Architecture]] - document - wiki/sections/ch04-memory-the-binding-constraint.md
-- [[Choreographing the Act]] - document - wiki/chapters/03-choreographing-the-act.md
-- [[Compact (MidnightIOG DSL)]] - document - proving-nothing.md
-- [[Compact 26-Pass Nanopass Compilation Pipeline]] - document - proving-nothing.md
-- [[Compact Language]] - document - wiki/chapters/03-choreographing-the-act.md
-- [[Compact Language Reference (Midnight Network)]] - document - references/ch12/ref-39-compact-language-reference.md
-- [[Compact's Disclosure Analysis]] - document - wiki/sections/ch03-compact-s-disclosure-analysis.md
-- [[Disclosure Analysis (Compact)]] - document - proving-nothing.md
-- [[Five Lessons for ZK System Design]] - document - wiki/sections/ch12-five-lessons-for-zk-system-design.md
-- [[Four-Phase Transaction Pipeline]] - document - proving-nothing.md
-- [[Fourth Philosophy Application-Specific DSL]] - document - proving-nothing.md
-- [[Full Seven-Layer Mapping]] - document - wiki/sections/ch12-full-seven-layer-mapping.md
-- [[Gabizon, Williamson, Ciobotaru — PLONK (ePrint 2019953)]] - document - proving-nothing.md
-- [[Halo 2  UltraPlonk]] - document - proving-nothing.md
-- [[Leo (Aleo)]] - document - wiki/sections/ch03-the-four-philosophies.md
-- [[Leo (Aleo)  o1js (Mina)]] - document - proving-nothing.md
-- [[Linea]] - document - wiki/sections/ch13-zk-rollups-the-proving-grounds-production.md
-- [[Local Proof Server (localhost6300)]] - document - proving-nothing.md
-- [[Midnight (Privacy Blockchain)]] - document - proving-nothing.md
-- [[Midnight -- The Privacy Theater]] - document - wiki/chapters/12-midnight-the-privacy-theater.md
-- [[Midnight Developer Guide (Midnight Docs)]] - document - references/ch12/ref-41-midnight-developer-guide.md
-- [[Midnight Reference Documentation (473pp)]] - document - proving-nothing.md
-- [[Midnight Three-Token Architecture (Night, Shielded, DUST)]] - document - proving-nothing.md
-- [[Midnight as Test Case]] - document - wiki/sections/ch12-midnight-as-test-case.md
-- [[Midnight at a Glance]] - document - wiki/sections/ch12-midnight-at-a-glance.md
-- [[Midnight's ZKIR A Concrete Layer 4]] - document - wiki/sections/ch05-midnight-s-zkir-a-concrete-layer-4.md
-- [[Midnight Compiler, IR, Circuit]] - document - wiki/sections/ch03-midnight-compiler-ir-circuit.md
-- [[MidnightJS SDK]] - document - wiki/sections/ch12-full-seven-layer-mapping.md
-- [[Noir (Aztec)]] - document - wiki/sections/ch03-the-four-philosophies.md
-- [[PLONK]] - document - proving-nothing.md
-- [[Privacy Theater Analogy]] - document - proving-nothing.md
-- [[Scroll]] - document - wiki/sections/ch13-zk-rollups-the-proving-grounds-production.md
-- [[ShieldedUnshielded UTXO Model]] - document - proving-nothing.md
-- [[The Developer's Actual Experience]] - document - wiki/sections/ch03-the-developer-s-actual-experience.md
-- [[The Disclose Boundary Midnight's Witness Architecture]] - document - wiki/sections/ch04-the-disclose-boundary-midnight-s-witness-architecture.md
-- [[The Four Philosophies]] - document - wiki/sections/ch03-the-four-philosophies.md
-- [[The Privacy Theater Analogy]] - document - wiki/sections/ch12-the-privacy-theater-analogy.md
-- [[Three-Token Model (NIGHTDUSTCustom)]] - document - proving-nothing.md
-- [[UTXO Model]] - document - wiki/sections/ch12-full-seven-layer-mapping.md
-- [[Verifier Key Lifecycle  Immutability]] - document - proving-nothing.md
-- [[Where Midnight Challenges the Model]] - document - wiki/sections/ch12-where-midnight-challenges-the-model.md
-- [[Where Midnight Validates the Model]] - document - wiki/sections/ch12-where-midnight-validates-the-model.md
-- [[ZK Rollups The Proving Grounds (Production)]] - document - wiki/sections/ch13-zk-rollups-the-proving-grounds-production.md
-- [[ZKIR (Zero-Knowledge Intermediate Representation)]] - document - proving-nothing.md
-- [[ZKIR Intermediate Representation Reference (Midnight Network, stub)]] - document - references/ch12/ref-40-zkir-reference.md
+- [[Aurora transparent IOP for R1CS (univariate sumcheck, lincheck) BCRSVW19]] - paper - references/recursion/ch1/ref-10-fractal.pdf
+- [[BCS transformation (IOP - SNARG via Merkle trees  Fiat-Shamir), BCS16]] - paper - references/recursion/ch1/ref-10-fractal.pdf
+- [[Barak et al. 3 impossibility of code obfuscation; obfuscating a PRF ensemble fails to securely instantiate the random oracle]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
+- [[Bellare & Rogaway 5 original formulation of the random oracle methodology]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
+- [[CGH separation technique feed the implementation's own codeseed back into the scheme via evasive relations; diagonalization over the enumeration of all poly-time ensembles to reverse quantifier order]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
+- [[Connection between holography and preprocessing in the random oracle model]] - paper - references/recursion/ch1/ref-10-fractal.pdf
+- [[Correlation intractability the property whose circular dependency the attack circumvents by feeding the circuit its own digest as witness]] - paper - references/recursion/ch1/ref-11-khovratovich-fiat-shamir-attacks.pdf
+- [[Cryptographic Hash Function]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
+- [[Definition 3.2 correlation-intractable ensemble (and weak variant over poly-time recognizable relations)]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
+- [[Dwork et al. 13 'magic functions' that make Fiat-Shamir work, related to correlation intractability and 3-round zero-knowledge]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
+- [[Evasive binary relation (Def 3.1) infeasible to find x with (x,O(x)) in R under a random oracle]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
+- [[FRACTAL system implementation extending libiop, supporting generic compilation of holographic proofs into preprocessing SNARGs]] - paper - references/recursion/ch1/ref-10-fractal.pdf
+- [[FRACTAL verifier expressed as a constraint system; threshold for recursion (2M constraints checkable in 1.1M), using Poseidon hash and FRI constraint systems]] - paper - references/recursion/ch1/ref-10-fractal.pdf
+- [[Fiat & Shamir 14 identification-to-signature transformation (sound in ROM)]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
+- [[Fractal Post-Quantum and Transparent Recursive Proofs from Holography (Chiesa, Ojha, Spooner, EUROCRYPT 2020)]] - paper - references/recursion/ch1/ref-10-fractal.pdf
+- [[Function ensemble implementation of a random oracle (Def 2.1) seed s selected once, public; f_s replaces oracle calls]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
+- [[Goldreich, Goldwasser, Micali 19 pseudorandom function ensembles (shown not necessarily correlation-intractable)]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
+- [[Holographic interactive oracle proof (verifier queries an encoding of the index rather than reading it)]] - paper - references/recursion/ch1/ref-10-fractal.pdf
+- [[Holographic lincheck and sparse matrix arithmetization protocol (rational extension of summand; one fewer round than Marlin)]] - paper - references/recursion/ch1/ref-10-fractal.pdf
+- [[Indexed relations triples (index, instance, witness) where the index is encoded offline by the indexer]] - paper - references/recursion/ch1/ref-10-fractal.pdf
+- [[Informal Theorem 1.2 signature and encryption schemes secure in ROM but with no secure implementation by any function ensemble (with explicit generic adversary)]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
+- [[Kilian 26 succinct interactive arguments, basis for Micali's CS-proof construction]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
+- [[Marlin  algebraic holographic proof (AHP) + polynomial commitments CHMMVW20 — starting-point ideas for the holographic IOP]] - paper - references/recursion/ch1/ref-10-fractal.pdf
+- [[Methodology for post-quantum, transparent recursive composition of SNARKs (no special algebraic objects)]] - paper - references/recursion/ch1/ref-10-fractal.pdf
+- [[Micali 27 non-interactive CS-proofs in the Random Oracle Model (Theorem 2.7)]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
+- [[Poseidon algebraic hash function GKRRS19, chosen for the recursion-friendly constraint system]] - paper - references/recursion/ch1/ref-10-fractal.pdf
+- [[Post-quantum security (against quantum adversaries; security in the QROM)]] - paper - references/recursion/ch1/ref-10-fractal.pdf
+- [[Preprocessing SNARK  SNARG (offline indexing produces a succinct verification key; verifier polylogarithmic in circuit size)]] - paper - references/recursion/ch1/ref-10-fractal.pdf
+- [[Prior efficient recursion approach using pairing-based SNARKs on cycles of pairing-friendly elliptic curves BCTV14]] - paper - references/recursion/ch1/ref-10-fractal.pdf
+- [[Proof-carrying data (PCD) primitive formally capturing recursive composition via a compliance predicate]] - paper - references/recursion/ch1/ref-10-fractal.pdf
+- [[Proposition 5.2 non-existence of restricted (length-bounded) correlation-intractable ensembles when seed length = input+output length]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
+- [[Provable security  reductionist methodology]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
+- [[Random Oracle Methodology (Bellare-Rogaway design heuristic)]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
+- [[Random Oracle instantiation failure schemes secure in ROM but insecure under any concrete implementation]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
+- [[Random oracle model (non-interactive STARK  NIROP)]] - paper - references/ch02/ref-08-stark.pdf
+- [[Recursive composition  PCD from succinct-verifier SNARKs BCCT13]] - paper - references/recursion/ch1/ref-10-fractal.pdf
+- [[Reed–Solomon-encoded IOP (RS-encoded holographic IOP) with rational constraints over prover messages]] - paper - references/recursion/ch1/ref-10-fractal.pdf
+- [[Sumcheck for rational functions (univariate rational sumcheck over a domain K)]] - paper - references/recursion/ch1/ref-10-fractal.pdf
+- [[The Random Oracle Methodology, Revisited (Canetti, Goldreich, Halevi, JACM 2004  STOC 1998)]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
+- [[Theorem 1 compiler from any holographic IOP to a preprocessing SNARG, unconditionally secure in the (Q)ROM (zkPoK preserved)]] - paper - references/recursion/ch1/ref-10-fractal.pdf
+- [[Theorem 2 efficient public-coin zero-knowledge holographic IOP for indexed relation R_R1CS (O(m log m) indexerprover, O(x+log m) verifier, O(log m) queries)]] - paper - references/recursion/ch1/ref-10-fractal.pdf
+- [[Theorem 3.4 no correlation-intractable function ensembles exist (not even in the weak sense), via diagonal relation R_F = {(s, f_s(s))}]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
+- [[Theorem 3 preprocessing zkSNARK for R1CS in the (Q)ROM (FRACTAL) — first efficient post-quantum transparent preprocessing zkSNARK]] - paper - references/recursion/ch1/ref-10-fractal.pdf
+- [[Theorem 4  Theorem 11.5 transformation compiling any preprocessing SNARK in the URS model into a preprocessing PCD scheme (preserving transparency and post-quantum security)]] - paper - references/recursion/ch1/ref-10-fractal.pdf
+- [[Theorem 4.4 a poly-time signature scheme, existentially unforgeable in ROM, but existentially forgeable (key-only) and totally breakable (chosen-message) under any function-ensemble implementation]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
+- [[Theorem 4.6 public-key encryption schemes secure (semantic  CCA) in ROM but insecure under any function-ensemble implementation; CCA attack reveals the decryption key]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
+- [[Transparent Setup]] - document - proving-nothing.md
+- [[Universal ensemble U and universal relation R_U = {(x, u_x(x))}, enumerating all efficiently computable ensembles]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
+- [[Use of non-interactive CS-proofs (Micali) to collapse super-polynomial diagonalization checks into a polynomial-time signingverification, yielding a standard (poly-time) scheme]] - paper - references/recursion/ch2/ref-51-canetti-goldreich-halevi-rom.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -66,46 +68,27 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 44 edges to [[_COMMUNITY_Community 12]]
-- 38 edges to [[_COMMUNITY_Community 0]]
-- 32 edges to [[_COMMUNITY_Community 11]]
-- 31 edges to [[_COMMUNITY_Community 8]]
-- 23 edges to [[_COMMUNITY_Community 15]]
-- 23 edges to [[_COMMUNITY_Community 1]]
-- 19 edges to [[_COMMUNITY_Community 17]]
-- 18 edges to [[_COMMUNITY_Community 63]]
-- 12 edges to [[_COMMUNITY_Community 76]]
-- 11 edges to [[_COMMUNITY_Community 69]]
-- 8 edges to [[_COMMUNITY_Community 7]]
-- 8 edges to [[_COMMUNITY_Community 2]]
-- 6 edges to [[_COMMUNITY_Community 5]]
-- 6 edges to [[_COMMUNITY_Community 21]]
-- 4 edges to [[_COMMUNITY_Community 14]]
-- 3 edges to [[_COMMUNITY_Community 80]]
-- 3 edges to [[_COMMUNITY_Community 32]]
-- 3 edges to [[_COMMUNITY_Community 77]]
-- 2 edges to [[_COMMUNITY_Community 49]]
-- 2 edges to [[_COMMUNITY_Community 65]]
-- 2 edges to [[_COMMUNITY_Community 57]]
-- 2 edges to [[_COMMUNITY_Community 97]]
-- 1 edge to [[_COMMUNITY_Community 37]]
-- 1 edge to [[_COMMUNITY_Community 96]]
-- 1 edge to [[_COMMUNITY_Community 67]]
-- 1 edge to [[_COMMUNITY_Community 87]]
-- 1 edge to [[_COMMUNITY_Community 128]]
-- 1 edge to [[_COMMUNITY_Community 31]]
-- 1 edge to [[_COMMUNITY_Community 95]]
-- 1 edge to [[_COMMUNITY_Community 40]]
-- 1 edge to [[_COMMUNITY_Community 112]]
-- 1 edge to [[_COMMUNITY_Community 39]]
-- 1 edge to [[_COMMUNITY_Community 26]]
-- 1 edge to [[_COMMUNITY_Community 74]]
-- 1 edge to [[_COMMUNITY_Community 75]]
-- 1 edge to [[_COMMUNITY_Community 3]]
+- 5 edges to [[_COMMUNITY_Community 23]]
+- 4 edges to [[_COMMUNITY_Community 37]]
+- 3 edges to [[_COMMUNITY_Community 14]]
+- 2 edges to [[_COMMUNITY_Community 2]]
+- 2 edges to [[_COMMUNITY_Community 34]]
+- 1 edge to [[_COMMUNITY_Community 15]]
+- 1 edge to [[_COMMUNITY_Community 32]]
+- 1 edge to [[_COMMUNITY_Community 5]]
+- 1 edge to [[_COMMUNITY_Community 28]]
+- 1 edge to [[_COMMUNITY_Community 27]]
+- 1 edge to [[_COMMUNITY_Community 42]]
+- 1 edge to [[_COMMUNITY_Community 61]]
+- 1 edge to [[_COMMUNITY_Community 134]]
+- 1 edge to [[_COMMUNITY_Community 38]]
+- 1 edge to [[_COMMUNITY_Community 48]]
+- 1 edge to [[_COMMUNITY_Community 0]]
+- 1 edge to [[_COMMUNITY_Community 101]]
 
 ## Top bridge nodes
-- [[PLONK]] - degree 65, connects to 19 communities
-- [[Midnight (Privacy Blockchain)]] - degree 79, connects to 15 communities
-- [[Choreographing the Act]] - degree 44, connects to 12 communities
-- [[Halo 2  UltraPlonk]] - degree 38, connects to 12 communities
-- [[Midnight -- The Privacy Theater]] - degree 36, connects to 11 communities
+- [[Random oracle model (non-interactive STARK  NIROP)]] - degree 14, connects to 7 communities
+- [[Post-quantum security (against quantum adversaries; security in the QROM)]] - degree 9, connects to 6 communities
+- [[Correlation intractability the property whose circular dependency the attack circumvents by feeding the circuit its own digest as witness]] - degree 8, connects to 2 communities
+- [[Transparent Setup]] - degree 6, connects to 2 communities
+- [[FRACTAL verifier expressed as a constraint system; threshold for recursion (2M constraints checkable in 1.1M), using Poseidon hash and FRI constraint systems]] - degree 5, connects to 2 communities

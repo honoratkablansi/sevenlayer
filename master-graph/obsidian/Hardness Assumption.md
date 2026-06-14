@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 12"
+community: "Community 116"
 location: "Chapter 7"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_12
+  - community/Community_116
 ---
 
 # Hardness Assumption
@@ -17,4 +17,4 @@ tags:
 - [[Layer 6 The Deep Craft (Cryptographic Primitives)]] - `explains` [EXTRACTED]
 - [[Module-SIS  Module-LWE]] - `introduces` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_12
+#graphify/document #graphify/EXTRACTED #community/Community_116

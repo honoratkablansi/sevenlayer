@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 87"
+community: "Community 72"
 location: "Chapter 14"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_87
+  - community/Community_72
 ---
 
 # The Three Frontiers (Performance, Security, Privacy)
@@ -19,4 +19,4 @@ tags:
 - [[Open Questions and the Road Ahead (Ch14)]] - `introduces` [EXTRACTED]
 - [[Q6 Practical Constant-Time ZK Proving]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_87
+#graphify/document #graphify/EXTRACTED #community/Community_72

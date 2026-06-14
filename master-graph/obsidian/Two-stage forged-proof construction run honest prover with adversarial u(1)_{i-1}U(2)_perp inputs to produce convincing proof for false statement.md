@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch1/ref-32-nguyen-boneh-setty-nova-cycle.pdf"
 type: "paper"
-community: "Community 24"
+community: "Community 124"
 location: "Appendix B.1 (Stage One, Stage Two)"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_24
+  - community/Community_124
 ---
 
 # Two-stage forged-proof construction: run honest prover with adversarial u(1)_{i-1}/U(2)_perp inputs to produce convincing proof for false statement
@@ -17,4 +17,4 @@ tags:
 - [[Revisiting the Nova Proof System on a Cycle of Curves (Nguyen, Boneh, Setty, ePrint 2023969)]] - `introduces` [EXTRACTED]
 - [[Soundness attack producing an accepting proof for a false statement in a FS-compiled argument (adaptive and non-adaptive variants)]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_24
+#graphify/paper #graphify/EXTRACTED #community/Community_124

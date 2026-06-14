@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-90-zexe.pdf"
 type: "paper"
-community: "Community 44"
+community: "Community 43"
 location: "§3.3"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_44
+  - community/Community_43
 ---
 
 # Consumability: each record consumable at least and at most once (anti faerie-gold)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Decentralized Private Computation (DPC) scheme]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_44
+#graphify/paper #graphify/EXTRACTED #community/Community_43

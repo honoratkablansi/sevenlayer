@@ -1,20 +1,23 @@
 ---
 type: community
-cohesion: 0.60
-members: 5
+cohesion: 0.32
+members: 8
 ---
 
 # Community 123
 
-**Cohesion:** 0.60 - moderately connected
-**Members:** 5 nodes
+**Cohesion:** 0.32 - loosely connected
+**Members:** 8 nodes
 
 ## Members
-- [[Assumption 1 non-interactive multi-folding scheme via Fiat-Shamir in plain model]] - paper - references/recursion/ch1/ref-30-cyclefold.pdf
-- [[Construction 1 multi-folding scheme for CCS over a cycle of curves]] - paper - references/recursion/ch1/ref-30-cyclefold.pdf
-- [[Lemma 1 perfect completeness of Construction 1]] - paper - references/recursion/ch1/ref-30-cyclefold.pdf
-- [[Lemma 2 knowledge soundness of Construction 1 (forking-based extractor)]] - paper - references/recursion/ch1/ref-30-cyclefold.pdf
-- [[Theorem 1 public-coin multi-folding scheme for CCS (completeness + knowledge soundness)]] - paper - references/recursion/ch1/ref-30-cyclefold.pdf
+- [[Axiom]] - document - wiki/sections/ch13-zk-coprocessors-off-chain-computation-on-chain-verification-growth.md
+- [[Brevis]] - document - wiki/sections/ch13-zk-coprocessors-off-chain-computation-on-chain-verification-growth.md
+- [[EZKL]] - document - wiki/sections/ch13-zkml-provable-machine-learning-research.md
+- [[Lagrange]] - document - wiki/sections/ch13-zk-coprocessors-off-chain-computation-on-chain-verification-growth.md
+- [[Lagrange DeepProve]] - document - wiki/sections/ch13-zkml-provable-machine-learning-research.md
+- [[Pico zkVM]] - document - wiki/sections/ch13-zk-coprocessors-off-chain-computation-on-chain-verification-growth.md
+- [[ZK Coprocessors Off-Chain Computation, On-Chain Verification (Growth)]] - document - wiki/sections/ch13-zk-coprocessors-off-chain-computation-on-chain-verification-growth.md
+- [[ZKML Provable Machine Learning (Research)]] - document - wiki/sections/ch13-zkml-provable-machine-learning-research.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -24,11 +27,16 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 3 edges to [[_COMMUNITY_Community 16]]
-- 1 edge to [[_COMMUNITY_Community 0]]
-- 1 edge to [[_COMMUNITY_Community 18]]
-- 1 edge to [[_COMMUNITY_Community 32]]
+- 3 edges to [[_COMMUNITY_Community 2]]
+- 3 edges to [[_COMMUNITY_Community 62]]
+- 3 edges to [[_COMMUNITY_Community 12]]
+- 2 edges to [[_COMMUNITY_Community 117]]
+- 2 edges to [[_COMMUNITY_Community 1]]
+- 1 edge to [[_COMMUNITY_Community 88]]
+- 1 edge to [[_COMMUNITY_Community 17]]
 
 ## Top bridge nodes
-- [[Construction 1 multi-folding scheme for CCS over a cycle of curves]] - degree 9, connects to 3 communities
-- [[Assumption 1 non-interactive multi-folding scheme via Fiat-Shamir in plain model]] - degree 2, connects to 1 community
+- [[ZK Coprocessors Off-Chain Computation, On-Chain Verification (Growth)]] - degree 12, connects to 5 communities
+- [[ZKML Provable Machine Learning (Research)]] - degree 10, connects to 5 communities
+- [[Lagrange DeepProve]] - degree 2, connects to 1 community
+- [[EZKL]] - degree 2, connects to 1 community

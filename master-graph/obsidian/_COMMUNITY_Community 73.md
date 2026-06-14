@@ -1,32 +1,32 @@
 ---
 type: community
-cohesion: 0.16
+cohesion: 0.20
 members: 17
 ---
 
 # Community 73
 
-**Cohesion:** 0.16 - loosely connected
+**Cohesion:** 0.20 - loosely connected
 **Members:** 17 nodes
 
 ## Members
-- [[Cycles-per-gas mispricing (MODEXP 2961, JUMPDEST 1039; EVM gas != proving cost)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Diamandis et al. multidimensional blockchain fee markets 19]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[EIP-1559 base-fee mechanism]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Ethereum]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Generic rollup cost model Txfee = L2fee + L1fee (rho_blob, Scalar_blob, Ctx, Stx)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[L2 EIP-1559-style DA pricing with L1-fee floor (DA-saturation mitigation)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[MODEXP killer block 94x finality latency, $42.26 prover loss per 35M-gas block]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Multi-dimensional TFM (matrix Ax over gasDAprovingfixed; adaptive per-resource pricing)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Perez & Livshits 'Broken Metre' (EVM resource-metering mispricing detection)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Prover-aware metering per-opcode proof-gas profiling, dedicated L2ProvingFee]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Prover-killer attack (high cycles-per-gas tx stalls ZK proof generation)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Responsible disclosure all rollups vulnerable, 4 bug bounties, mitigations adopted]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Rollup multi-dimensional TFM (L2 gas + L1 DA + settlementverification)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Roughgarden TFM design  EIP-1559 incentive-compatibility 47,48]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Transaction Fee Mechanisms (TFM)]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Unaligned Incentives Pricing Attacks Against Blockchain Rollups]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
-- [[Unaligned-incentives thesis cross-dimension mispricing yields novel attacks]] - paper - references/ch08/ref-28-rollup-pricing-attacks.pdf
+- [[Aggregated Range Proof for m Values]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Bulletproofs NIZK Argument System]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Bulletproofs Short Proofs for Confidential Transactions and More]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Confidential Transactions (CT)]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Discrete Logarithm Assumption]] - document - references/ch02/ref-09-bulletproofs.pdf
+- [[Logarithmic Proof Size Claim (2 log2(nm)+4 elements)]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Logarithmic-Size Range Proof]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[MPC Protocol for Distributed Bulletproof Generation]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Mimblewimble]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Pedersen Commitment]] - document - proving-nothing.md
+- [[Proof of Solvency for Bitcoin exchanges]] - paper - references/recursion/ch3/ref-88-provisions.pdf
+- [[Provisions Proof of Solvency]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Range Proof]] - document - references/ch02/ref-09-bulletproofs.pdf
+- [[SNARKs with Trusted Setup]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Switch to Quantum-Secure Range Proofs (ElGamal)]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Theorem 3 Aggregate Range Proof Security]] - paper - references/ch02/ref-09-bulletproofs.pdf
+- [[Theorem 4  A.2 split accumulation for a Pedersen-based polynomial commitment predicate (ROM, DL)]] - paper - references/recursion/ch1/ref-14-bclms-pcd-without-succinct.pdf
 
 ## Live Query (requires Dataview plugin)
 
@@ -36,17 +36,34 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 4 edges to [[_COMMUNITY_Community 114]]
-- 3 edges to [[_COMMUNITY_Community 67]]
-- 2 edges to [[_COMMUNITY_Community 7]]
-- 2 edges to [[_COMMUNITY_Community 111]]
-- 2 edges to [[_COMMUNITY_Community 31]]
-- 1 edge to [[_COMMUNITY_Community 82]]
-- 1 edge to [[_COMMUNITY_Community 17]]
+- 7 edges to [[_COMMUNITY_Community 0]]
+- 6 edges to [[_COMMUNITY_Community 5]]
+- 6 edges to [[_COMMUNITY_Community 38]]
+- 5 edges to [[_COMMUNITY_Community 39]]
+- 5 edges to [[_COMMUNITY_Community 102]]
+- 3 edges to [[_COMMUNITY_Community 14]]
+- 3 edges to [[_COMMUNITY_Community 50]]
+- 2 edges to [[_COMMUNITY_Community 37]]
+- 2 edges to [[_COMMUNITY_Community 1]]
+- 2 edges to [[_COMMUNITY_Community 28]]
+- 2 edges to [[_COMMUNITY_Community 10]]
+- 2 edges to [[_COMMUNITY_Community 15]]
+- 2 edges to [[_COMMUNITY_Community 51]]
+- 2 edges to [[_COMMUNITY_Community 100]]
+- 1 edge to [[_COMMUNITY_Community 32]]
+- 1 edge to [[_COMMUNITY_Community 33]]
+- 1 edge to [[_COMMUNITY_Community 48]]
+- 1 edge to [[_COMMUNITY_Community 131]]
+- 1 edge to [[_COMMUNITY_Community 13]]
+- 1 edge to [[_COMMUNITY_Community 42]]
+- 1 edge to [[_COMMUNITY_Community 4]]
+- 1 edge to [[_COMMUNITY_Community 134]]
+- 1 edge to [[_COMMUNITY_Community 91]]
+- 1 edge to [[_COMMUNITY_Community 88]]
 
 ## Top bridge nodes
-- [[Unaligned Incentives Pricing Attacks Against Blockchain Rollups]] - degree 12, connects to 5 communities
-- [[Prover-killer attack (high cycles-per-gas tx stalls ZK proof generation)]] - degree 7, connects to 2 communities
-- [[Generic rollup cost model Txfee = L2fee + L1fee (rho_blob, Scalar_blob, Ctx, Stx)]] - degree 4, connects to 2 communities
-- [[Unaligned-incentives thesis cross-dimension mispricing yields novel attacks]] - degree 5, connects to 1 community
-- [[Ethereum]] - degree 4, connects to 1 community
+- [[Pedersen Commitment]] - degree 31, connects to 13 communities
+- [[Discrete Logarithm Assumption]] - degree 17, connects to 10 communities
+- [[Bulletproofs Short Proofs for Confidential Transactions and More]] - degree 12, connects to 7 communities
+- [[Range Proof]] - degree 12, connects to 4 communities
+- [[Bulletproofs NIZK Argument System]] - degree 10, connects to 4 communities

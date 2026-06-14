@@ -1,12 +1,12 @@
 ---
 source_file: "references/recursion/ch3/ref-87-deco.pdf"
 type: "paper"
-community: "Community 29"
+community: "Community 11"
 location: "§1.2, §5.2, Def.5.1"
 tags:
   - graphify/paper
   - graphify/EXTRACTED
-  - community/Community_29
+  - community/Community_11
 ---
 
 # Context-integrity property and context-integrity attacks (quoting out of context / reflection attack) universal to privacy-preserving oracles
@@ -17,4 +17,4 @@ tags:
 - [[Efficient selective opening of TLS records (RevealRedact modes) exploiting MAC-then-encrypt and Merkle-Damgard structure]] - `conceptually_related_to` [EXTRACTED]
 - [[Zero-knowledge two-stage parsing scheme local pre-process (Trans) then prove context integrity on shorter transformed string]] - `proves` [EXTRACTED]
 
-#graphify/paper #graphify/EXTRACTED #community/Community_29
+#graphify/paper #graphify/EXTRACTED #community/Community_11

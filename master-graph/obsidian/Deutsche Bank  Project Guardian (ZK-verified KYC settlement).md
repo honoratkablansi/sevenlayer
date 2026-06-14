@@ -1,12 +1,12 @@
 ---
 source_file: "proving-nothing.md"
 type: "document"
-community: "Community 21"
+community: "Community 12"
 location: "Chapter 13"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Community_21
+  - community/Community_12
 ---
 
 # Deutsche Bank / Project Guardian (ZK-verified KYC settlement)
@@ -15,4 +15,4 @@ tags:
 - [[Tokenization of Assets]] - `references` [EXTRACTED]
 - [[Trust Relocation vs Trust Minimization]] - `explains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Community_21
+#graphify/document #graphify/EXTRACTED #community/Community_12
