@@ -52,3 +52,16 @@ def test_manifest_upsert_is_idempotent_by_label(tmp_path, monkeypatch):
     entries = m.load_manifest()
     assert [e["label"] for e in entries] == ["lecture01", "lecture02"]
     assert entries[0]["title"] == "B"
+
+
+def test_slide_pdf_pages_one_entry_per_page(tmp_path):
+    import pypdf
+    w = pypdf.PdfWriter()
+    w.add_blank_page(width=200, height=200)
+    w.add_blank_page(width=200, height=200)
+    pdf = tmp_path / "deck.pdf"
+    with open(pdf, "wb") as f:
+        w.write(f)
+    pages = m.slide_pdf_pages(pdf)
+    assert len(pages) == 2
+    assert all(isinstance(p, str) for p in pages)

@@ -84,3 +84,10 @@ def manifest_upsert(entry: dict) -> list[dict]:
     MOOC_MANIFEST.write_text(
         json.dumps(entries, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     return entries
+
+
+def slide_pdf_pages(path) -> list[str]:
+    """One extracted-text string per PDF page (lazy pypdf import)."""
+    import pypdf
+    reader = pypdf.PdfReader(str(path))
+    return [(p.extract_text() or "") for p in reader.pages]
