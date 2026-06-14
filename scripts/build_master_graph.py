@@ -419,6 +419,33 @@ def dedup_candidates(cands: list[dict], existing_keys: set[str]) -> list[dict]:
     return out
 
 
+MAX_ROUNDS, MIN_NEW_PER_ROUND, HARD_CAP = 3, 10, 150
+
+
+def load_state() -> dict:
+    path = SNOWBALL / "state.json"
+    if path.exists():
+        return _load(path)
+    return {"round": 0, "total_fetched": 0, "new_relevant_last_round": None,
+            "mined_files": [], "frontier": []}
+
+
+def save_state(state: dict) -> None:
+    _dump(SNOWBALL / "state.json", state)
+
+
+def should_stop(state: dict, max_rounds: int = MAX_ROUNDS,
+                min_new: int = MIN_NEW_PER_ROUND, hard_cap: int = HARD_CAP) -> tuple[bool, str]:
+    if state["total_fetched"] >= hard_cap:
+        return True, "hard_cap"
+    if state["round"] >= max_rounds:
+        return True, "max_rounds"
+    nr = state.get("new_relevant_last_round")
+    if nr is not None and nr < min_new:
+        return True, "converged"
+    return False, ""
+
+
 def top_hub_nodes(graph: dict, n: int = 100) -> list[dict]:
     """The n highest-degree concept nodes, for the LLM synonym pass."""
     deg = degree_map(graph)

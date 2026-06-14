@@ -203,3 +203,10 @@ def test_dedup_candidates_against_existing_keys():
              {"title": "HyperNova", "url": "https://eprint.iacr.org/2023/573"}]
     out = m.dedup_candidates(cands, existing)
     assert [c["title"] for c in out] == ["HyperNova"]
+
+
+def test_should_stop_enforces_all_three_limits():
+    assert m.should_stop({"round": 0, "total_fetched": 150, "new_relevant_last_round": None})[0] is True   # hard cap
+    assert m.should_stop({"round": 3, "total_fetched": 0, "new_relevant_last_round": None})[0] is True      # max rounds
+    assert m.should_stop({"round": 1, "total_fetched": 0, "new_relevant_last_round": 4})[0] is True          # converged
+    assert m.should_stop({"round": 1, "total_fetched": 0, "new_relevant_last_round": 20})[0] is False
