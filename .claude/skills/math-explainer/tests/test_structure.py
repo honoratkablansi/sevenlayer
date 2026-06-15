@@ -12,3 +12,13 @@ def test_skill_md_has_frontmatter():
 def test_layout_dirs_exist():
     for d in ("references", "scripts", "tests"):
         assert (SKILL / d).is_dir(), f"missing dir: {d}"
+
+def test_method_cards_exist_and_have_content():
+    s = (SKILL / "references" / "sanderson-moves.md").read_text(encoding="utf-8")
+    # ten numbered moves
+    for n in range(1, 11):
+        assert f"{n}." in s, f"sanderson-moves.md missing move {n}"
+    t = (SKILL / "references" / "tao-staging.md").read_text(encoding="utf-8")
+    for phase in ("pre-rigorous", "rigorous", "post-rigorous"):
+        assert phase in t.lower(), f"tao-staging.md missing phase: {phase}"
+    assert "destroy bad intuition" in t.lower()
