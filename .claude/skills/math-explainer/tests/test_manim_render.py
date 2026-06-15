@@ -50,3 +50,18 @@ def test_manim_render_and_value_validation_end_to_end(tmp_path):
     manifest = {"num_agreements": 1, "field": 101}
     assert validate_scene_values({"num_agreements": 1, "field": 101}, manifest) == []
     assert validate_scene_values({"num_agreements": 2}, manifest)  # drift is caught
+
+CLIP_SCENE = """
+from manim import Scene, Circle, Create
+
+class Clip(Scene):
+    def construct(self):
+        self.play(Create(Circle()))
+"""
+
+@pytest.mark.skipif(shutil.which("manim") is None, reason="manim not installed")
+def test_render_scene_clip_produces_video(tmp_path):
+    scene = tmp_path / "clip_scene.py"
+    scene.write_text(CLIP_SCENE, encoding="utf-8")
+    out = render_scene(scene, "Clip", media_dir=tmp_path / "media", still=False)
+    assert out.exists() and out.suffix in {".mp4", ".gif", ".mov"} and out.stat().st_size > 0

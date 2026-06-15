@@ -39,27 +39,30 @@ def validate_scene_values(scene_values: dict, manifest: dict, tol: float = 1e-9)
 
 
 def render_scene(scene_path: Path, scene_name: str, media_dir: Path,
-                 quality: str = "l", timeout: int = 300) -> Path:
-    """Render a manim scene's last frame to an image and return its path.
+                 quality: str = "l", still: bool = True, timeout: int = 300) -> Path:
+    """Render a manim scene and return the output media path.
 
-    Drives a local manim install (``manim render -q<quality> -s``), which saves a single
-    frame (no video encode) under ``media_dir``. Raises if manim is absent, the render
-    fails, or no image is produced.
+    Drives a local manim install. With ``still=True`` it saves a single last frame
+    (``-s``, PNG — fast, used by the smoke test); with ``still=False`` it renders a short
+    clip (mp4/gif). Raises if manim is absent, the render fails, or nothing is produced.
     """
     if shutil.which("manim") is None:
         raise RuntimeError("manim not found on PATH")
     media_dir = Path(media_dir)
-    proc = subprocess.run(
-        ["manim", "render", f"-q{quality}", "-s", "--media_dir", str(media_dir),
-         str(scene_path), scene_name],
-        capture_output=True, text=True, timeout=timeout,
-    )
+    cmd = ["manim", "render", f"-q{quality}"]
+    if still:
+        cmd.append("-s")
+    cmd += ["--media_dir", str(media_dir), str(scene_path), scene_name]
+    proc = subprocess.run(cmd, capture_output=True, text=True, timeout=timeout)
     if proc.returncode != 0:
         raise RuntimeError(f"manim failed: {proc.stderr.strip()[-800:]}")
-    images = sorted(media_dir.rglob("*.png"))
-    if not images:
-        raise RuntimeError("manim produced no image output")
-    return images[0]
+    patterns = ("*.png",) if still else ("*.mp4", "*.gif", "*.mov")
+    outs = []
+    for pat in patterns:
+        outs += list(media_dir.rglob(pat))
+    if not outs:
+        raise RuntimeError("manim produced no output")
+    return sorted(outs)[0]
 
 
 def main(argv: list[str]) -> int:
