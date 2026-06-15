@@ -6,10 +6,12 @@ the Sanderson+Tao rubric, prints a report, writes <bundle_dir>/scorecard.json, a
 exits 0 (pass) or 1 (fail).
 """
 import json
+import os
 import sys
 from pathlib import Path
 
-TAO_LEVELS = {"recall", "apply", "transfer"}
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))  # skill root on path
+from scripts.schemas import validate_accuracy_report, validate_comprehension_set  # noqa: E402
 
 
 def evaluate(bundle: dict) -> list[dict]:
@@ -48,13 +50,16 @@ def evaluate(bundle: dict) -> list[dict]:
     add("stuck_points_addressed", bool(predicted) and predicted.issubset(addressed),
         f"At least one stuck-point must be predicted (Stage 2) and all addressed; "
         f"missing: {sorted(predicted - addressed)}.")
-    add("accuracy_verified", bundle.get("accuracy_verified") is True,
-        "Stage 4 must report verified == true.")
-    levels = set(bundle.get("comprehension_levels", []))
-    add("comprehension_three_levels", TAO_LEVELS.issubset(levels) and "rediscover" in levels,
-        "Comprehension set must cover recall/apply/transfer + a rediscovery task.")
-    add("rediscovery_prompt", bundle.get("rediscovery_prompt_present") is True,
-        "A 'you could have invented this' rediscovery prompt is required (Sanderson #10).")
+    ar = bundle.get("accuracy_report")
+    add("accuracy_verified",
+        isinstance(ar, dict) and not validate_accuracy_report(ar) and ar.get("verified") is True,
+        "Stage 4 accuracy_report must be well-formed (Sage manifest + claims) and verified == true.")
+    cset = bundle.get("comprehension_set", [])
+    add("comprehension_three_levels", not validate_comprehension_set(cset),
+        "Comprehension set must be well-formed and cover recall/apply/transfer + rediscovery.")
+    add("rediscovery_prompt",
+        any(isinstance(it, dict) and it.get("level") == "rediscover" for it in cset),
+        "A 'you could have invented this' rediscovery task is required (Sanderson #10).")
     return checks
 
 

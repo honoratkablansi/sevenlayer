@@ -8,7 +8,17 @@
   "heuristic_rigorous_pairs": [["random spot-check", "P(agreement) <= d/|F|"]],
   "stuck_points_predicted": ["thinks a large field is needed for completeness"],
   "stuck_points_addressed": ["thinks a large field is needed for completeness"],
-  "accuracy_verified": true,
-  "comprehension_levels": ["recall", "apply", "transfer", "rediscover"],
-  "rediscovery_prompt_present": true
+  "accuracy_report": {
+    "claims": ["two degree-2 polynomials over GF(101) differing only in the linear term agree at exactly one point"],
+    "sage_manifest": {"figure": "assets/figures/schwartz_zippel.svg", "field": 101, "agreement_points": [0], "num_agreements": 1},
+    "ledger_refs": ["claim:schwartz-zippel-bound"],
+    "adversarial_findings": [],
+    "verified": true
+  },
+  "comprehension_set": [
+    {"level": "recall", "question": "State the Schwartz–Zippel bound for a degree-d polynomial over a field F.", "answer_key": "A nonzero degree-d polynomial has at most d roots, so a random point is a root with probability <= d/|F|.", "targets_stuck_point": "thinks a large field is needed for completeness", "on_miss_route_to": "polynomials over a field"},
+    {"level": "apply", "question": "Two degree-2 polynomials over GF(101) differ only in the linear term. At how many points do they agree?", "answer_key": "Their difference is a nonzero degree-1 polynomial, so they agree at exactly one point.", "targets_stuck_point": "thinks a large field is needed for completeness", "on_miss_route_to": "Schwartz–Zippel lemma"},
+    {"level": "transfer", "question": "Why does a larger field make polynomial identity testing more reliable?", "answer_key": "The error probability d/|F| shrinks as |F| grows, so a single random check is more decisive.", "targets_stuck_point": "thinks a large field is needed for completeness", "on_miss_route_to": "finite fields"},
+    {"level": "rediscover", "question": "Re-derive the bound: if p != q have degree <= d, why can they agree at most d times?", "answer_key": "p - q is a nonzero polynomial of degree <= d, and a nonzero degree-d polynomial has at most d roots.", "targets_stuck_point": "thinks a large field is needed for completeness", "on_miss_route_to": "Schwartz–Zippel lemma"}
+  ]
 }
