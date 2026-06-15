@@ -24,4 +24,4 @@ Led with a visual; concrete before abstract; motivated before defined; notation 
 
 ## Dependencies
 
-SageMath (`sage` on PATH) for figures; a manim MCP server (optional) for animation — fall back to Sage figures if unavailable. Run `scripts/check_env.py` to verify. The master graph, `MATH_FOUNDATIONS.md`, the book-knowledge ledger, and `CHAPTER_BIBLE.md` are read-only inputs.
+SageMath (`sage` on PATH) for figures; manim (optional) for animation — driven by a manim MCP server or a local manim install via `scripts/manim_render.py` (`render_scene`); fall back to Sage figures if unavailable. Run `scripts/check_env.py` to verify the tools (`sage`, `manim`, `graphify`) and the pipeline `MODE` (full-multimodal / figure-only). The master graph, `MATH_FOUNDATIONS.md`, the book-knowledge ledger, and `CHAPTER_BIBLE.md` are read-only inputs.

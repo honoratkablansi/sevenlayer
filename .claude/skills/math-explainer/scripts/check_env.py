@@ -10,10 +10,24 @@ def probe() -> dict:
             "graphify": shutil.which("graphify") is not None}
 
 
+def mode() -> str:
+    """Report the pipeline's multimodal capability from the probe.
+
+    - ``full-multimodal``: Sage figures + manim animation both available.
+    - ``figure-only``: Sage present, manim absent (the documented fallback).
+    - ``unavailable``: Sage missing, so the skill cannot produce figures.
+    """
+    p = probe()
+    if not p["sage"]:
+        return "unavailable"
+    return "full-multimodal" if p["manim"] else "figure-only"
+
+
 def main() -> int:
     report = probe()
     for tool, present in report.items():
         print(f"[{'OK ' if present else 'MISSING'}] {tool}")
+    print(f"\nMODE: {mode()}")
     if not report["sage"]:
         print("\nSageMath is required for figures. Install: https://www.sagemath.org/ "
               "(or `conda install -c conda-forge sage`).")

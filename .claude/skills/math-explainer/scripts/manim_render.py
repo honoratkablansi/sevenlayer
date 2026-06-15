@@ -1,11 +1,15 @@
 #!/usr/bin/env python3
 """Stage 3: validate a manim scene's displayed values against the Sage values manifest.
 
-The actual render is performed by the manim MCP (a model-driven step described in
+The render is normally performed by the manim MCP (a model-driven step described in
 references/pipeline.md). This module owns the *validation* so an animation can never
-drift from the math: every value the scene shows must match the Sage manifest.
+drift from the math: every value the scene shows must match the Sage manifest. It also
+exposes ``render_scene`` to drive a local manim install directly (the "full-multimodal"
+mode), so the animation path can be exercised end-to-end without the MCP.
 """
 import json
+import shutil
+import subprocess
 import sys
 from pathlib import Path
 
@@ -32,6 +36,30 @@ def validate_scene_values(scene_values: dict, manifest: dict, tol: float = 1e-9)
         elif sv != mv:
             errors.append(f"{key}: scene={sv!r} != manifest={mv!r}")
     return errors
+
+
+def render_scene(scene_path: Path, scene_name: str, media_dir: Path,
+                 quality: str = "l", timeout: int = 300) -> Path:
+    """Render a manim scene's last frame to an image and return its path.
+
+    Drives a local manim install (``manim render -q<quality> -s``), which saves a single
+    frame (no video encode) under ``media_dir``. Raises if manim is absent, the render
+    fails, or no image is produced.
+    """
+    if shutil.which("manim") is None:
+        raise RuntimeError("manim not found on PATH")
+    media_dir = Path(media_dir)
+    proc = subprocess.run(
+        ["manim", "render", f"-q{quality}", "-s", "--media_dir", str(media_dir),
+         str(scene_path), scene_name],
+        capture_output=True, text=True, timeout=timeout,
+    )
+    if proc.returncode != 0:
+        raise RuntimeError(f"manim failed: {proc.stderr.strip()[-800:]}")
+    images = sorted(media_dir.rglob("*.png"))
+    if not images:
+        raise RuntimeError("manim produced no image output")
+    return images[0]
 
 
 def main(argv: list[str]) -> int:
