@@ -38,3 +38,23 @@ def test_abstract_before_concrete_fails():
     b["modes_order"] = ["formal", "analogy", "worked_example"]
     checks = {c["id"]: c["ok"] for c in evaluate(b)}
     assert checks["concrete_before_abstract"] is False
+
+def test_no_predicted_stuck_points_fails():
+    # An empty predicted set is vacuously "all addressed"; the gate must require Stage 2 ran.
+    b = complete_bundle()
+    b["stuck_points_predicted"] = []
+    b["stuck_points_addressed"] = []
+    checks = {c["id"]: c["ok"] for c in evaluate(b)}
+    assert checks["stuck_points_addressed"] is False
+
+def test_malformed_heuristic_pair_fails():
+    b = complete_bundle()
+    b["heuristic_rigorous_pairs"] = [["only-one-element"]]
+    checks = {c["id"]: c["ok"] for c in evaluate(b)}
+    assert checks["heuristic_rigorous_pairing"] is False
+
+def test_empty_string_heuristic_pair_fails():
+    b = complete_bundle()
+    b["heuristic_rigorous_pairs"] = [["picture", "  "]]
+    checks = {c["id"]: c["ok"] for c in evaluate(b)}
+    assert checks["heuristic_rigorous_pairing"] is False

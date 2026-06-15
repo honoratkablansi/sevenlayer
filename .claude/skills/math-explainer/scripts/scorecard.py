@@ -35,12 +35,19 @@ def evaluate(bundle: dict) -> list[dict]:
     add("staged_pre_rigorous_to_post",
         all(phases.get(p) for p in ("pre_rigorous", "rigorous", "post_rigorous")),
         "All three Tao phases must be present and non-empty.")
-    add("heuristic_rigorous_pairing", len(bundle.get("heuristic_rigorous_pairs", [])) >= 1,
-        "At least one heuristic paired with its rigorous counterpart (Tao Maxim 2).")
+    pairs = bundle.get("heuristic_rigorous_pairs", [])
+
+    def valid_pair(p):
+        return (isinstance(p, (list, tuple)) and len(p) == 2
+                and all(isinstance(x, str) and x.strip() for x in p))
+
+    add("heuristic_rigorous_pairing", len(pairs) >= 1 and all(valid_pair(p) for p in pairs),
+        "Each heuristic must be paired with a non-empty rigorous counterpart (Tao Maxim 2).")
     predicted = set(bundle.get("stuck_points_predicted", []))
     addressed = set(bundle.get("stuck_points_addressed", []))
-    add("stuck_points_addressed", predicted.issubset(addressed),
-        f"All predicted stuck-points must be addressed; missing: {sorted(predicted - addressed)}.")
+    add("stuck_points_addressed", bool(predicted) and predicted.issubset(addressed),
+        f"At least one stuck-point must be predicted (Stage 2) and all addressed; "
+        f"missing: {sorted(predicted - addressed)}.")
     add("accuracy_verified", bundle.get("accuracy_verified") is True,
         "Stage 4 must report verified == true.")
     levels = set(bundle.get("comprehension_levels", []))
