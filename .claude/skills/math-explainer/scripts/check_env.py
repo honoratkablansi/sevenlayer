@@ -23,7 +23,17 @@ def mode() -> str:
     return "full-multimodal" if p["manim"] else "figure-only"
 
 
-def main() -> int:
+def missing(required) -> list[str]:
+    """Return the subset of `required` tool names that are not available."""
+    report = probe()
+    return [t for t in required if not report.get(t, False)]
+
+
+def main(argv=None) -> int:
+    argv = list(sys.argv if argv is None else argv)
+    required = []
+    if len(argv) >= 3 and argv[1] == "--require":
+        required = [t.strip() for t in argv[2].split(",") if t.strip()]
     report = probe()
     for tool, present in report.items():
         print(f"[{'OK ' if present else 'MISSING'}] {tool}")
@@ -37,6 +47,13 @@ def main() -> int:
               "Without it, Stage 1 falls back to MATH_FOUNDATIONS table lookup only.")
     if not report["manim"]:
         print("manim is optional (animation). Without it, the skill uses Sage figures only.")
+    if required:
+        miss = missing(required)
+        if miss:
+            print(f"\nREQUIRED MISSING: {', '.join(miss)} — aborting (no fallback).")
+            return 1
+        print(f"\nREQUIRED OK: {', '.join(required)}")
+        return 0
     return 0 if report["sage"] else 1
 
 
