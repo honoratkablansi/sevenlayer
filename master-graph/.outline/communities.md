@@ -1,0 +1,44 @@
+# Master-graph community themes (candidate chapter clusters)
+
+Top ~40 communities by total concept-degree; each line = its highest-degree member concepts.
+
+- **C0** (32 concepts): FRI Commitment Scheme · BN254 (alt_bn128) Curve · SP1 Hypercube (Succinct) · Circle STARKs · Mersenne-31 / M31 · Cairo (StarkWare ZK-native ISA) · RISC Zero
+- **C11** (23 concepts): PLONK · Lookup Argument · Halo 2 / UltraPlonk · Arithmetization · AIR (Algebraic Intermediate Repres · PLONKish Arithmetization · Schwartz-Zippel Lemma
+- **C5** (16 concepts): R1CS (Rank-1 Constraint Systems) · Nova · Recursion (proof recursion in zkVM · HyperNova · CycleFold · Halo / Nested Amortization Recursi · ProtoStar
+- **C10** (15 concepts): Lattice Cryptography · Post-Quantum Cryptography · Goldilocks Field · Ajtai commitments · LatticeFold / LatticeFold+ · Neo (Lattice Folding over Small Fi · Frozen Heart Vulnerability
+- **C4** (12 concepts): KZG Polynomial Commitments from pa · Trusted Setup Ceremony · Powers of Tau · Universal vs Circuit-Specific SRS · Structured Reference String (SRS) · NIST · Multilinear KZG Polynomial Commitm
+- **C3** (16 concepts): Midnight (Privacy Blockchain) · Poseidon Hash · BLS12-381 Curve · ZKIR (Zero-Knowledge Intermediate  · Compact Language · Disclosure Analysis (Compact) · Noir (Aztec)
+- **C8** (31 concepts): Polynomial Commitment Scheme · Interactive Oracle Proofs · Polynomial IOP / interactive oracl · Marlin · Masking Polynomial (ZK via Random  · Gemini Elastic SNARK · Supersonic / DARK SNARK
+- **C20** (33 concepts): SNARK (Succinct Non-interactive AR · Linear PCP · Front End (Program-to-Circuit Comp · GGPR Linear PCP (Gennaro-Gentry-Pa · Pinocchio · Quarks / Xiphos / Kopis · Taxonomy of SNARKs (IP / MIP / IOP
+- **C9** (10 concepts): Groth16 · STARK · FFLONK · Trust Minimization (Not Trustless) · Small Fields (BabyBear, Mersenne-3 · Universal SNARK · FRI Protocol
+- **C33** (26 concepts): Knowledge-Soundness · Succinct Argument · Circuit Satisfiability front ends: · Merkle Tree · Prover · Verifier · Probabilistically Checkable Proofs
+- **C23** (24 concepts): Sum-Check Protocol · Grand Product Argument (accumulato · Vanishing Polynomial · HyperPlonk · #SAT Interactive Proof · ZeroTest on Omega · BaseFold
+- **C7** (37 concepts): Interactive Proof (IP): prover-ver · Soundness · Completeness · NP (Nondeterministic Polynomial Ti · Argument System: interactive proof · Freivalds' Algorithm · Graph Isomorphism (GI)
+- **C22** (24 concepts): Zero-Knowledge Proof · Quadratic Residuosity (QR) and Non · Simulator / Simulation paradigm (e · Simulation Paradigm · Lattice Commitment · Knowledge Extractor · Proof of Knowledge
+- **C15** (12 concepts): Jolt (zkVM via Lookups) · Zcash · Bulletproofs / Inner Product Argum · Lasso · Tornado Cash · Beanstalk · L2Beat
+- **C21** (31 concepts): GKR protocol: doubly-efficient int · Arithmetic Circuit · Layered Arithmetic Circuit · Wiring Predicate (add_i / mult_i) · Libra · Linear-Time Prover · Data-parallel circuit: N identical
+- **C1** (29 concepts): Number-Theoretic Transform (NTT) · Witness (private execution trace/i · Witness Generation · Side-Channel Attack · Multi-Scalar Multiplication (MSM) · Offline Memory Checking / Algebrai · ZKPOG (GPU Witness Acceleration)
+- **C24** (14 concepts): Recursive Proof Composition · Proof Aggregation · Recursive STARK proving · STARK-to-SNARK Recursion · Recursive SNARK · Universal Proof Aggregation (UPA) · SHARP (SHARed Prover)
+- **C17** (16 concepts): Fiat-Shamir Transform · Non-Interactive Zero-Knowledge (NI · Spartan zkSNARK · Cryptographic Hash Function · Verifiable Delay Function · Common Reference String · Interactive Proof System
+- **C47** (21 concepts): Multilinear extension (MLE) · Finite Field Arithmetic · Low Degree Extension (LDE) · Univariate Lagrange Interpolation · Doubly-efficient interactive proof · Multilinear Polynomial Commitment · Counting Triangles IP
+- **C39** (5 concepts): Folding Scheme · Mangrove · Accessible exposition of Nova/fold · Layer 6 Commitment Trilemma · Accumulation / Split-Accumulation 
+- **C90** (13 concepts): Bilinear Pairing · Inner Product Argument (IPA/Bullet · Dory · Progression-Free Sets NIZK · Signatures of Correct Computation · AFGHO Inner-Pairing-Product Commit · Inner Pairing Product Argument (BM
+- **C18** (16 concepts): Incrementally Verifiable Computati · 2-cycle of elliptic curves (BN254/ · SNARK Composition (Proof Compositi · Succinct blockchain · DO-178C Software Considerations in · High-integrity and embedded system · Design assurance levels / certific
+- **C16** (14 concepts): Cycles of Elliptic Curves · Embedding degree k · MNT curves (embedding degrees 4 an · Pairing-friendly elliptic curves · Elliptic Curve / Discrete Logarith · Complex Multiplication (CM) · Field mismatch (q != r forced by e
+- **C2** (15 concepts): Random oracle model (non-interacti · Correlation intractability: the pr · Transparent Setup · Post-quantum security (against qua · Preprocessing SNARK / SNARG (offli · Learning With Errors (LWE) problem · Holographic interactive oracle pro
+- **C6** (24 concepts): Vector commitment scheme (position · Software supply chain · Software Bill of Materials (SBOM) · Compliance predicate / local prope · SLSA (Supply-chain Levels for Soft · Certificate Transparency · Verifiable transparency logs
+- **C14** (8 concepts): Module-SIS / Module-LWE · LaBRADOR Proof System · Power-of-Two Cyclotomic Ring Z[X]/ · Shor's Algorithm / Quantum Threat · Hardness Assumption · Discrete Logarithm Problem (DLP) · NTT / Coefficient Embedding over R
+- **C27** (18 concepts): Secure Multi-Party Computation (MP · eIDAS 2.0 · Differential Privacy (DP) · Trusted Execution Environment (TEE · GDPR · Garbled Circuits · Collaborative / Threshold Proving
+- **C80** (17 concepts): Sigma protocol (public-coin 3-move · Commitment Scheme · Commit-and-Prove SNARK · Computational Zero-Knowledge · Schnorr Proof System · Three-Coloring Zero-Knowledge Proo · Special Soundness
+- **C19** (8 concepts): zkVM · LLVM Compiler Infrastructure · Proving time (prover wall-clock co · RISC Zero zkVM · Continuations · Receipt (self-certifying proof of  · Superoptimization (e.g. Souper) fo
+- **C29** (15 concepts): zkEVM / EVM-Compatible Proving · Real-Time Proving · SP1 Hypercube · LogUp-GKR · L1 zkEVM · Jagged PCS · Multilinear Polynomials
+- **C26** (8 concepts): Proof-Carrying Data (PCD) · Media provenance · C2PA (Coalition for Content Proven · Distributed Proof Generation · Content Credentials trust model (X · Private multi-party applications / · Verifiable Computation / Delegatio
+- **C74** (18 concepts): Reed-Solomon Code · Ligero · Orion · Linear-Time Encodable Code · Brakedown Polynomial Commitment · Aurora · Linear Error-Correcting Code
+- **C56** (8 concepts): Pedersen Commitment · Proof of solvency / financial comp · Bitcoin · Proof of assets / proof of reserve · Schnorr proof of knowledge of disc · Proof of Solvency for Bitcoin exch · Additively-Homomorphic Vector Comm
+- **C28** (7 concepts): Spartan · Sumcheck Protocol · No-trusted-setup (transparent) arg · Realtime Proving Standardized Defi · Extractable polynomial commitment  · Home Proving · Computation Commitment
+- **C53** (10 concepts): ZK Rollup · Optimistic Rollups · Identity and credentials · Proof compression (STARK-to-SNARK) · RAM Circuit · ZK rollup advantages over optimist · Merkle Patricia Tree
+- **C37** (5 concepts): CCS (Customizable Constraint Syste · Neo (Small-Field Lattice Folding) · Multi-folding scheme (generalized  · SuperSpartan · Symphony (Production Lattice Foldi
+- **C94** (6 concepts): Circom · CirC Compiler Infrastructure · Domain-Specific Language for ZKP · Circomspect Static Analyzer · ZoKrates (PL Compiler to R1CS) · Constraint Compiler
+- **C92** (15 concepts): Verifiable computation · Verifiable State Machine · Circuit Generator · Pantry Verifiable Computation with · Von Neumann Architecture · RAM Verification · Hybrid Protocol Architecture
+- **C34** (8 concepts): QAP (Quadratic Arithmetic Program) · Linear Interactive Proof (LIP) · Generic (Bilinear) Group Model · Selector Polynomial S(X) · Master Polynomial · Type III Asymmetric Bilinear Group · Relation Generator with Hard Decis
+- **C87** (5 concepts): zk-SNARK · deVirgo: distributed zero-knowledg · zkBridge: trustless cross-chain br · Light client / bridge · Cross-chain bridge: prove to apps 
