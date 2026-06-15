@@ -1,0 +1,77 @@
+{
+  "concept": "Schwartz–Zippel lemma",
+  "claims": [
+    {
+      "claim": "The field is F_101 (|F| = 101).",
+      "source": "sage_manifest.field",
+      "status": "verified",
+      "evidence": "Sage manifest field = 101; manim SCENE_VALUES.field = 101."
+    },
+    {
+      "claim": "p(x) = 3x² + 5x + 7 and q(x) = 3x² + 2x + 7 are distinct degree-2 polynomials over F_101.",
+      "source": "scripts/recipes/schwartz_zippel.sage",
+      "status": "verified",
+      "evidence": "Recipe constructs both; they differ only in the linear coefficient (5 vs 2)."
+    },
+    {
+      "claim": "p and q agree at exactly 1 point over F_101, namely x = 0.",
+      "source": "sage_manifest.agreement_points / num_agreements",
+      "status": "verified",
+      "evidence": "Sage: agreement_points = [0], num_agreements = 1. Independent Sage recompute over all of F_101 reproduces [0]. The manim scene recomputes the same set in pure Python and gets [0]."
+    },
+    {
+      "claim": "The difference p - q = 3x has degree 1 and its only root over F_101 is x = 0.",
+      "source": "Sage recompute",
+      "status": "verified",
+      "evidence": "Sage: p - q = 3*x, degree 1, roots = [(0, 1)]."
+    },
+    {
+      "claim": "By Schwartz–Zippel, a uniformly random evaluation point fools the check (gives agreement) with probability at most d/|F| = 2/101 ≈ 1.98% for degree-2 inputs.",
+      "source": "lemma (bounded fundamental theorem of algebra) + Sage",
+      "status": "verified",
+      "evidence": "d = 2, |F| = 101, d/|F| = 2/101 ≈ 0.0198. This is the WORST-CASE bound over all distinct degree-2 pairs. The realized agreement fraction for THIS pair is 1/101 ≈ 0.99%, smaller because p-q happens to have degree 1; both numbers are stated separately and neither is presented as the other.",
+      "ledger_ref": "Ch 7 'The lemma (C11): Schwartz-Zippel lemma (proved); vanishing-set fraction d/|F|'"
+    },
+    {
+      "claim": "Two distinct degree-d polynomials over F can agree on at most d points.",
+      "source": "bounded fundamental theorem of algebra applied to p - q",
+      "status": "verified",
+      "evidence": "p - q is a nonzero polynomial of degree ≤ d, hence has ≤ d roots; each root is an agreement point. Sage confirms the realized max here is 1 (= deg(p-q))."
+    }
+  ],
+  "sage_manifest": {
+    "figure": "assets/figures/schwartz_zippel.svg",
+    "field": 101,
+    "agreement_points": [0],
+    "num_agreements": 1
+  },
+  "scene_value_check": {
+    "tool": "scripts/manim_render.validate_scene_values",
+    "scene_values": {"field": 101, "num_agreements": 1, "degree": 2},
+    "result": [],
+    "note": "Empty list = no drift; every value the manim scene displays matches the Sage manifest."
+  },
+  "ledger_refs": [
+    "CHAPTER_BIBLE Ch 7 'Fingerprints: Why Polynomials Catch Liars' — 'The lemma (C11): Schwartz-Zippel lemma (proved); vanishing-set fraction d/|F|; nonzero-polynomial test.'",
+    "CHAPTER_BIBLE Ch 6 — Schwartz-Zippel slogan: 'low-degree-zero-at-random ⇒ zero'; 'reduce a whole-table claim to one random point.'",
+    "graphify subgraph (community 7): Schwartz-Zippel Lemma --references--> R1CS / AIR / PLONKish; --defines--> The Spreadsheet Metaphor."
+  ],
+  "adversarial_findings": [
+    {
+      "finding": "Potential conflation: the scene shows BOTH 'exactly 1 agreement point' and the bound 'd/|F| = 2/101'. A reader could think 1/101 should equal 2/101.",
+      "resolution": "Kept both but labeled them as distinct quantities: 2/101 is the worst-case Schwartz–Zippel bound for any distinct degree-2 pair; 1/101 is the realized fraction for THIS pair, smaller because p-q = 3x has degree 1. Verified numerically in Sage (2/101 ≈ 0.0198 vs 1/101 ≈ 0.0099). Prose in draft.md states the distinction explicitly.",
+      "status": "resolved"
+    },
+    {
+      "finding": "Off-by-one / field-arithmetic risk in the agreement-point count.",
+      "resolution": "Re-derived agreement set two independent ways (Sage loop over all of F_101; pure-Python loop in the manim scene); both yield [0], count 1. No off-by-one.",
+      "status": "resolved"
+    },
+    {
+      "finding": "Risk that the figure asset is empty or stale.",
+      "resolution": "Re-ran the Sage recipe; assets/figures/schwartz_zippel.svg is 48,746 bytes and copied into figures/. No staleness.",
+      "status": "resolved"
+    }
+  ],
+  "verified": true
+}

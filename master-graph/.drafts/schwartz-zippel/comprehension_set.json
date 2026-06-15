@@ -1,0 +1,30 @@
+[
+  {
+    "level": "recall",
+    "question": "State the univariate Schwartz–Zippel bound: if p is a nonzero polynomial of degree d over a finite field F, what is the probability that p(r) = 0 for a uniformly random r in F, and why?",
+    "answer_key": "At most d/|F|. A nonzero degree-d polynomial has at most d roots (bounded fundamental theorem of algebra), and r is drawn uniformly from |F| points, so the chance of hitting a root is (#roots)/|F| ≤ d/|F|.",
+    "targets_stuck_point": "‘Two different degree-d polynomials can agree on arbitrarily many points’ — anchored by the ≤ d root count.",
+    "on_miss_route_to": "the bounded fundamental theorem of algebra: a nonzero degree-d univariate polynomial has at most d roots"
+  },
+  {
+    "level": "apply",
+    "question": "Let p(x) = 3x² + 5x + 7 and q(x) = 3x² + 2x + 7 over F_101. At how many points do they agree, which point(s), and what is the chance a single random evaluation fails to distinguish them?",
+    "answer_key": "They agree where p - q = 3x = 0, i.e. only at x = 0, so exactly 1 agreement point. A single random r fails to distinguish them with probability 1/101 ≈ 0.99% (and never more than the degree-2 worst-case bound 2/101 ≈ 1.98%).",
+    "targets_stuck_point": "‘Passed one check ⇒ equal’ — a single equality at x=0 does NOT mean p=q.",
+    "on_miss_route_to": "polynomials over a finite field (degree, roots, evaluation)"
+  },
+  {
+    "level": "transfer",
+    "question": "A prover claims a giant computation's whole constraint table is satisfied. Why does checking one random field point catch a cheating prover with high probability, and what makes the guarantee shrink toward zero error?",
+    "answer_key": "The table identity is encoded as a polynomial identity P = 0; a cheating prover's P is a nonzero low-degree polynomial. By Schwartz–Zippel it is nonzero at all but ≤ d of the |F| points, so a random challenge exposes the cheat with probability ≥ 1 - d/|F|. Error shrinks by enlarging |F| (denominator grows while the ≤ d bad points stay fixed) or lowering the encoding degree d — the field size is the soundness knob.",
+    "targets_stuck_point": "‘A bigger field makes the polynomials more different’ — it is the denominator |F| that grows, not the polynomials.",
+    "on_miss_route_to": "the union bound (basic probability)"
+  },
+  {
+    "level": "rediscover",
+    "question": "You could have invented this. Suppose you only know that a nonzero degree-d polynomial has at most d roots, and you want a cheap test that two polynomials p, q are equal. Derive a test and its failure probability from scratch — what do you evaluate, and how confident are you after one random check?",
+    "answer_key": "Form the difference D = p - q. If p = q then D ≡ 0; if p ≠ q then D is nonzero of degree ≤ d, so it has ≤ d roots. Pick r uniformly in F and test D(r) = 0. If D(r) ≠ 0 you are certain p ≠ q. If D(r) = 0 you accept p = q and are wrong only when r landed on one of the ≤ d roots — probability ≤ d/|F|. You have rediscovered Schwartz–Zippel: one random evaluation, error ≤ d/|F|, driven down by a bigger field.",
+    "targets_stuck_point": "‘The lemma needs random/generic polynomials’ — the randomness is only in the evaluation point r; p and q are arbitrary fixed inputs.",
+    "on_miss_route_to": "modular arithmetic in F_p / finite fields"
+  }
+]

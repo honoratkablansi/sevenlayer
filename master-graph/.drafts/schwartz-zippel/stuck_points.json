@@ -1,0 +1,48 @@
+{
+  "misconceptions": [
+    {
+      "claim": "If a random spot-check passes (p(r) == q(r) at one random r), the two polynomials are equal.",
+      "why_tempting": "One successful equality test feels like strong evidence, and the reader is used to 'it checks out, so it's right.' The whole point of the lemma is that this is only *probabilistically* true — a distinct pair can still agree at the sampled point.",
+      "severity": "high"
+    },
+    {
+      "claim": "Two different degree-d polynomials can be made to agree on as many field points as you like by choosing them cleverly.",
+      "why_tempting": "Polynomials feel flexible, and over the reals you can match a curve on any finite set. The reader hasn't yet internalized that agreement everywhere on >d points forces p-q (a degree ≤ d polynomial) to be the zero polynomial.",
+      "severity": "high"
+    },
+    {
+      "claim": "The Schwartz–Zippel guarantee is the same kind of guarantee a cryptographic hash gives.",
+      "why_tempting": "Both are described as 'fingerprints' and both bound collisions, so they blur together. But Schwartz–Zippel is unconditional and collision-*bounded* by a root count; a hash is collision-*resistant* only under a computational assumption. Conflating them corrupts the later (Ch 11/12) security models.",
+      "severity": "high"
+    },
+    {
+      "claim": "A bigger field makes the polynomials 'more different', which is why the error shrinks.",
+      "why_tempting": "Intuitively a larger field seems to give the polynomials more room to disagree. The real reason d/|F| shrinks is that the number of bad (agreeing) points stays ≤ d while the number of total points |F| grows — the polynomials are unchanged.",
+      "severity": "medium"
+    },
+    {
+      "claim": "The lemma needs the polynomials to be 'random' or 'generic' to work.",
+      "why_tempting": "The word 'random' appears, so the reader attaches it to the polynomials. The randomness is in the *evaluation point* only; the polynomials are arbitrary fixed adversarial choices.",
+      "severity": "medium"
+    },
+    {
+      "claim": "d/|F| is a probability the prover can drive to zero for free.",
+      "why_tempting": "It looks like you just pick a huge field. True, but it costs field-size and the bound is in d (degree), so high-degree encodings erode the guarantee — the bound is a real soundness knob with a tradeoff, not a freebie.",
+      "severity": "low"
+    }
+  ],
+  "dumb_questions": [
+    "Why can't a degree-2 polynomial have three roots? What stops it?",
+    "If p and q differ, at how many points *can* they still secretly agree?",
+    "Where exactly does the randomness live — in the polynomials, or in the point I plug in?",
+    "What does subtracting q from p have to do with anything?",
+    "If one check can be fooled, why do real systems trust this at all?",
+    "Why is the answer a *fraction* d/|F| and not just 'd points'?"
+  ],
+  "bad_intuitions_to_kill": [
+    "‘Passed one check ⇒ equal.’ The rigorous phase must replace this with ‘passed one check ⇒ equal with probability ≥ 1 - d/|F|, and the residual d/|F| is exactly the agreement-point count over the field size.’",
+    "‘Two distinct degree-d polynomials can agree on arbitrarily many points.’ Kill via p-q: a nonzero degree ≤ d polynomial has ≤ d roots, so they agree on ≤ d points, period.",
+    "‘Schwartz–Zippel = cryptographic hash.’ Kill by contrasting unconditional/root-counted vs computational/assumption-based collision bounds.",
+    "‘The field size matters because it changes the polynomials.’ Kill by holding p, q fixed and showing only the denominator |F| moves."
+  ]
+}

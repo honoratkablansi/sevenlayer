@@ -1,0 +1,52 @@
+{
+  "concept": "Schwartz–Zippel lemma",
+  "stratum": "Algebra I: fields & univariate polynomials (the engine's substrate)",
+  "first_needed": "Ch 6 (slogan), Ch 7 (proof)",
+  "depth": "I→R",
+  "target_depth": "rigorous",
+  "prerequisites": [
+    "polynomials over a finite field (degree, roots, evaluation)",
+    "the bounded fundamental theorem of algebra: a nonzero degree-d univariate polynomial has at most d roots",
+    "the union bound (basic probability)",
+    "modular arithmetic in F_p / finite fields",
+    "Big-O / counting"
+  ],
+  "assumed_background": [
+    "From Ch 6: arithmetization, the spreadsheet metaphor, and the Schwartz–Zippel *intuition* given as a slogan (‘checking one random cell catches a forged table’), not yet proved",
+    "From Ch 1–2: random challenges, bounded error, and soundness as a felt promise (‘almost always’)",
+    "Polynomial evaluation over a finite set of values; what the degree of a polynomial means",
+    "A finite field F is a set of |F| elements with arithmetic in which a nonzero polynomial cannot have more roots than its degree"
+  ],
+  "learning_objectives": [
+    "State the (univariate) Schwartz–Zippel lemma: a nonzero degree-d polynomial over F is zero at a uniformly random point with probability at most d/|F|.",
+    "Explain why two distinct degree-d polynomials can agree at no more than d of the |F| field points, so a random spot-check catches a difference with probability ≥ 1 - d/|F|.",
+    "Derive the bound from the bounded fundamental theorem of algebra (≤ d roots) applied to the difference polynomial p-q, with no extra machinery.",
+    "Compute the bound on a concrete field (e.g. F_101) and read off the failure probability (here d/|F| = 1/101).",
+    "Connect the lemma to its book role: it licenses probabilistic polynomial-identity testing — reducing a whole-table / whole-polynomial claim to one random evaluation — which underpins arithmetization soundness (R1CS / AIR / PLONKish) and the sum-check and PCS machinery built on top.",
+    "Distinguish the unconditional, collision-*bounded* Schwartz–Zippel guarantee from a computational, collision-*resistant* cryptographic hash (a Ch 11/12 distinction not to be conflated)."
+  ],
+  "graphify_subgraph": {
+    "query": "graphify query 'Schwartz-Zippel'",
+    "traversal": "BFS depth=2, 47 nodes",
+    "node": "Schwartz-Zippel Lemma [src=wiki/sections/ch05-the-spreadsheet-metaphor-and-where-it-works.md community=7]",
+    "outgoing_edges": [
+      "Schwartz-Zippel Lemma --defines--> The Spreadsheet Metaphor (And Where It Works)",
+      "Schwartz-Zippel Lemma --references--> Encoding the Performance",
+      "Schwartz-Zippel Lemma --references--> Layer 4 -- Arithmetization",
+      "Schwartz-Zippel Lemma --references--> The Constraint System Evolution: R1CS, AIR, PLONKish",
+      "Schwartz-Zippel Lemma --references--> Sealing the Certificate",
+      "Schwartz-Zippel Lemma --assumes--> Lemma 2.1: a(X^2)=a(X)^2 iff a is a monomial (polynomial-identity reasoning)"
+    ],
+    "community_neighbors": [
+      "Sumcheck Protocol",
+      "Encoding the Performance",
+      "R1CS",
+      "AIR (Algebraic Intermediate Representation)",
+      "PLONKish Arithmetization",
+      "Lookup Arguments",
+      "CCS: The Rosetta Stone",
+      "Spartan"
+    ],
+    "interpretation": "The live graph places Schwartz–Zippel in community 7 (arithmetization / constraint-systems), where it *defines* the spreadsheet metaphor's soundness and is *referenced* by R1CS/AIR/PLONKish and the certificate-sealing step. This confirms the chapter framing: the lemma is the probabilistic-checking primitive beneath Layer 4, used to reduce a whole-table claim to one random point. The brief's role objective and the downstream prerequisites (sum-check, PCS) are taken directly from these edges."
+  }
+}
