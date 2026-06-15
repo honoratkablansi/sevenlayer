@@ -11,14 +11,22 @@ from pathlib import Path
 
 
 def validate_scene_values(scene_values: dict, manifest: dict, tol: float = 1e-9) -> list[str]:
-    """Return mismatch messages for keys present in both dicts."""
+    """Return mismatch messages for keys present in both dicts.
+
+    Keys absent from the manifest are intentionally ignored: a scene legitimately
+    displays non-computed chrome (titles, axis labels) that the Sage manifest does
+    not contain. Booleans are compared by exact type so a bool can never silently
+    match a numeric value (Python treats ``True == 1`` / ``False == 0``).
+    """
     errors: list[str] = []
     for key, sv in scene_values.items():
         if key not in manifest:
             continue
         mv = manifest[key]
-        if isinstance(sv, (int, float)) and isinstance(mv, (int, float)) \
-                and not isinstance(sv, bool) and not isinstance(mv, bool):
+        if isinstance(sv, bool) or isinstance(mv, bool):
+            if type(sv) is not type(mv) or sv != mv:
+                errors.append(f"{key}: scene={sv!r} != manifest={mv!r}")
+        elif isinstance(sv, (int, float)) and isinstance(mv, (int, float)):
             if abs(float(sv) - float(mv)) > tol:
                 errors.append(f"{key}: scene={sv} != manifest={mv}")
         elif sv != mv:

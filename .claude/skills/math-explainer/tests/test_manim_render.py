@@ -20,3 +20,11 @@ def test_list_mismatch_reported():
     manifest = {"agreement_points": [12, 88]}
     scene = {"agreement_points": [12, 87]}
     assert validate_scene_values(scene, manifest)
+
+def test_bool_int_drift_flagged():
+    # Python's True == 1, so a bool must not silently match a numeric value either way.
+    assert validate_scene_values({"flag": True}, {"flag": 1})
+    assert validate_scene_values({"flag": 1}, {"flag": True})
+
+def test_matching_bool_ok():
+    assert validate_scene_values({"flag": True}, {"flag": True}) == []
