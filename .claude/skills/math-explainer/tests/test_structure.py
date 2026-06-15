@@ -32,3 +32,12 @@ def test_pipeline_lists_six_stages():
     text = (SKILL / "references" / "pipeline.md").read_text(encoding="utf-8").lower()
     for n in range(1, 7):
         assert f"stage {n}" in text, f"pipeline.md missing Stage {n}"
+
+def test_skill_body_references_stages_and_scripts():
+    text = (SKILL / "SKILL.md").read_text(encoding="utf-8").lower()
+    for n in range(1, 7):
+        assert f"stage {n}" in text, f"SKILL.md missing Stage {n}"
+    for script in ("resolve_deps.py", "run_sage.py", "manim_render.py", "scorecard.py"):
+        assert script in text, f"SKILL.md does not reference {script}"
+    for card in ("sanderson-moves.md", "tao-staging.md"):
+        assert card in text, f"SKILL.md does not reference {card}"

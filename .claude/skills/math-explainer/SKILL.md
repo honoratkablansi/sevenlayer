@@ -5,4 +5,23 @@ description: Use when drafting a mathematical concept explanation for the "Provi
 
 # math-explainer
 
-Six-stage pipeline (full body added in Task 8). Reference cards in `references/`; helper scripts in `scripts/`.
+Turn "explain <concept>" into book-ready material that executes the **Sanderson + Tao** method. Run the six stages in order; do not skip the Stage 6 gate.
+
+**Load first:** `references/sanderson-moves.md` and `references/tao-staging.md` (the method rubric), then `references/pipeline.md`.
+
+## The pipeline
+
+- **Stage 1 — Scope & dependency resolution.** Follow `references/dependency-protocol.md`. Run `scripts/resolve_deps.py master-graph/.outline/MATH_FOUNDATIONS.md "<concept>"`. Output: concept_brief.
+- **Stage 2 — Stuck-point prediction.** From the prerequisites + Tao's "dumb questions", list misconceptions and the bad intuitions the rigorous phase must destroy.
+- **Stage 3 — Multimodal explanation.** Tao's three phases with Sanderson moves inside (`references/pipeline.md`). Produce figures with `scripts/run_sage.py <recipe.sage>`; validate any animation values with `scripts/manim_render.py`.
+- **Stage 4 — Factual-accuracy verification.** Follow `references/accuracy-protocol.md`; reach verified == true.
+- **Stage 5 — Comprehension checks.** Recall (pre), apply (rigorous), transfer (post), and a "re-derive it" task; each with an answer key and on-miss route to a prerequisite.
+- **Stage 6 — Assembly & gate.** Assemble the bundle, write `bundle.json`, run `scripts/scorecard.py bundle.json`. Ship only on PASS.
+
+## Method rubric (enforced by the Stage 6 scorecard)
+
+Led with a visual; concrete before abstract; motivated before defined; notation earned; staged pre→rigorous→post; every heuristic paired with its rigorous counterpart; every predicted stuck-point addressed; accuracy verified; comprehension covers all three Tao levels + rediscovery; a "you could have invented this" prompt present.
+
+## Dependencies
+
+SageMath (`sage` on PATH) for figures; a manim MCP server (optional) for animation — fall back to Sage figures if unavailable. Run `scripts/check_env.py` to verify. The master graph, `MATH_FOUNDATIONS.md`, the book-knowledge ledger, and `CHAPTER_BIBLE.md` are read-only inputs.
