@@ -1,0 +1,97 @@
+{
+  "concept": "Bilinear pairings",
+  "claims": [
+    {
+      "claim": "The curve is E: y^2 = x^3 - x over GF(23); it is supersingular and carries an r = 3 torsion subgroup.",
+      "source": "scripts/recipes/bilinear-pairings.sage",
+      "status": "verified",
+      "evidence": "Sage: E = EllipticCurve(GF(23),[0,0,0,-1,0]); E(GF(23)).order() = 24 = 2^3 * 3, so 3 | #E. Independent Sage probe confirms factor(24) = 2^3 * 3."
+    },
+    {
+      "claim": "The embedding degree for r = 3 is k = 2: the full 3-torsion E[3] ~ Z/3 x Z/3 lives in GF(23^2), not GF(23).",
+      "source": "sage_manifest.k + Sage recompute",
+      "status": "verified",
+      "evidence": "3 | 23^2 - 1 = 528 but 3 does NOT divide 23 - 1 = 22, so the smallest k with 3 | 23^k - 1 is k = 2. Sage: #E(GF(23^2)) = 576 = 3^2 * 64, so r^2 | #E over the extension -- the full r-torsion is present there."
+    },
+    {
+      "claim": "P = (2, 12) generates G1 and Q = (14t+9, 22t+22) generates an independent line G2; both have exact order r = 3.",
+      "source": "sage_manifest.P / sage_manifest.Q",
+      "status": "verified",
+      "evidence": "Sage (set_random_seed(11)): P.order() = 3, Q.order() = 3, and P.weil_pairing(Q, 3) != 1, which certifies G1 and G2 are independent (the pairing is non-degenerate on this pair). P lies in the base field GF(23); Q lives in the extension."
+    },
+    {
+      "claim": "The pairing value is e(P, Q) = 19t + 15, an element of the target group G_T = mu_3 (cube roots of unity) inside GF(23^2)^*, with multiplicative order 3 -- NOT a curve point.",
+      "source": "sage_manifest.e_PQ + Sage recompute",
+      "status": "verified",
+      "evidence": "Sage: e_PQ = P.weil_pairing(Q, 3) = 19*t + 15, and e_PQ.multiplicative_order() = 3. It is an element of GF(23^2)^*, confirming the codomain is a multiplicative group in the field extension, not the curve."
+    },
+    {
+      "claim": "For scalars a = 2, b = 4 the bilinearity identity holds: e(aP, bQ) = e(P, Q)^{a*b}, i.e. 4t+7 = (19t+15)^8.",
+      "source": "sage_manifest.e_aPbQ / e_PQ_pow_ab / bilinear_holds",
+      "status": "verified",
+      "evidence": "Sage: e_aPbQ = (2P).weil_pairing(4Q, 3) = 4*t + 7; e_PQ^(2*4) = (19t+15)^8 = 4*t + 7; e_aPbQ == e_PQ^8 evaluates True. The manifest's bilinear_holds = true."
+    },
+    {
+      "claim": "a*b = 8 and 8 mod r = 8 mod 3 = 2, so e(P,Q)^{ab} = e(P,Q)^2 is a NON-trivial power of the pairing value (not the identity element).",
+      "source": "sage_manifest.ab / ab_mod_r",
+      "status": "verified",
+      "evidence": "8 mod 3 = 2 (manifest ab_mod_r = 2). Because e(P,Q) has order 3, e(P,Q)^8 = e(P,Q)^2 != 1, so the worked example genuinely exercises bilinearity rather than collapsing to the trivial exponent. The scene displays the exponent a*b = 8; the reduction mod 3 is stated as the order-3 fact, never as a contradiction."
+    },
+    {
+      "claim": "A pairing reveals only the product in the exponent; it does NOT recover a or b (it does not break discrete log).",
+      "source": "CHAPTER_BIBLE Ch 11 analogy + graphify (community 19)",
+      "status": "verified",
+      "evidence": "CHAPTER_BIBLE Ch 11: 'Pairing as a bilinear multiplication you can do on hidden exponents... Don't imply pairings let you recover exponents (they don't -- that would break discrete-log); they only let you check a multiplicative relation.' Stated as a conceptual guardrail, matching the graphify edges to the Discrete Logarithm Problem/Assumption in community 19. No numeric claim attached."
+    }
+  ],
+  "sage_manifest": {
+    "figure": "assets/figures/bilinear_pairings.svg",
+    "q": 23,
+    "r": 3,
+    "k": 2,
+    "a": 2,
+    "b": 4,
+    "ab": 8,
+    "ab_mod_r": 2,
+    "P": "2, 12",
+    "Q": "14*t + 9, 22*t + 22",
+    "e_PQ": "19*t + 15",
+    "e_aPbQ": "4*t + 7",
+    "e_PQ_pow_ab": "4*t + 7",
+    "bilinear_holds": true
+  },
+  "scene_value_check": {
+    "tool": "scripts/manim_render.validate_scene_values",
+    "scene_values": {"q": 23, "r": 3, "k": 2, "a": 2, "b": 4, "ab": 8, "ab_mod_r": 2, "bilinear_holds": true},
+    "result": [],
+    "note": "Empty list = no drift; every computed value the manim scene displays (q, r, k, a, b, a*b, a*b mod r, and the bilinearity verdict) matches the Sage manifest exactly. Recomputed via /opt/conda/envs/manim/bin/python loading SCENE_VALUES from scripts/scenes/bilinear-pairings.py against the live manifest."
+  },
+  "ledger_refs": [
+    "CHAPTER_BIBLE Ch 11 'Layer 6: The Bedrock' -- Pairing mechanics (C90, C16): 'Bilinear pairing e(aP,bQ)=e(P,Q)^{ab}; the Miller loop; embedding degree k; pairing-friendly curves; BN254 / BLS12-381 vs secp256k1; Type-III asymmetric bilinear groups.'",
+    "CHAPTER_BIBLE Ch 11 analogy: 'Pairing as a bilinear multiplication you can do on hidden exponents... they only let you check a multiplicative relation' -- the guardrail against the 'recovers exponents' misconception.",
+    "graphify subgraph (community 19): Bilinear Pairings --assumes--> Single Pairing-Product Verification Equation / 3-Element Pairing-based SNARK (Groth16) / PolyCommitDL (KZG); --references--> Extended Tower Number Field Sieve; 'Theorem 4: Pairing-based Arguments Need Elements in Both G1 and G2'."
+  ],
+  "adversarial_findings": [
+    {
+      "finding": "Risk that a*b mod r = 2 makes readers think the displayed exponent should be 2, not 8, so e(P,Q)^8 looks 'wrong'.",
+      "resolution": "Both numbers are kept and labeled as distinct facts: the scene shows the genuine exponent a*b = 8 (what bilinearity literally produces), and 8 mod 3 = 2 is stated as a CONSEQUENCE of e(P,Q) having order 3 (so e^8 = e^2). Sage confirms (19t+15)^8 = (19t+15)^2 = 4t+7. Neither is presented as a typo of the other; the draft's note 'worked exponent vs reduced exponent' makes this explicit.",
+      "status": "resolved"
+    },
+    {
+      "finding": "Potential conflation: 'the pairing reveals a*b' could be read as 'the pairing reveals a and b' (a discrete-log break).",
+      "resolution": "The prose, stuck_points, and a dedicated learning objective state explicitly that the product appears only INSIDE a target-group exponent and that recovering a from aP is the discrete-log problem (assumed hard). Sourced to CHAPTER_BIBLE Ch 11's own guardrail. No claim implies exponent recovery.",
+      "status": "resolved"
+    },
+    {
+      "finding": "Risk that the pairing output is described as a curve point (wrong codomain).",
+      "resolution": "Verified in Sage that e(P,Q) = 19t+15 is an element of GF(23^2)^* with multiplicative_order() = 3 -- a root of unity, not a curve point. The figure draws G_T as a separate (purple) group and the prose names it mu_r in F_{q^k}^*.",
+      "status": "resolved"
+    },
+    {
+      "finding": "Reproducibility risk: random point selection could yield different P, Q on re-run.",
+      "resolution": "The recipe fixes set_random_seed(11) before any random_point() call; re-running the recipe reproduces P = (2,12), Q = (14t+9, 22t+22), e(P,Q) = 19t+15, e(aP,bQ) = 4t+7 byte-for-byte. The figure SVG (17,923 bytes) and the mp4 (359,669 bytes) are regenerated correct-by-construction.",
+      "status": "resolved"
+    }
+  ],
+  "verified": true
+}

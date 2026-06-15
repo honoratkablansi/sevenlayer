@@ -1,0 +1,48 @@
+{
+  "misconceptions": [
+    {
+      "claim": "A pairing lets you recover the hidden exponents -- given aP you could read off a.",
+      "why_tempting": "If e(aP, bQ) 'knows' a*b, it feels like the pairing has extracted a and b. But the pairing only exposes the PRODUCT in the exponent of a target element; recovering a from aP would solve discrete log, which the whole tower assumes is infeasible. A pairing checks a multiplicative relation; it never inverts it.",
+      "severity": "high"
+    },
+    {
+      "claim": "The pairing value e(P, Q) is just another point on the same elliptic curve.",
+      "why_tempting": "P and Q are curve points, so the output feels like it should be a curve point too. In fact e maps INTO a different group G_T -- the r-th roots of unity in F_{q^k}^*, a multiplicative group in a field extension -- which is exactly why the exponent (not a scalar multiple) is what gets multiplied.",
+      "severity": "high"
+    },
+    {
+      "claim": "Any elliptic curve has a useful pairing, so curve choice does not matter.",
+      "why_tempting": "The Weil/Tate pairing is defined for every curve, so it seems universal. But it is only EFFICIENTLY computable and non-trivial when the embedding degree k is small (the target group lives in F_{q^k}); for a 'pairing-unfriendly' curve like secp256k1, k is astronomically large and the pairing is useless. 'Pairing-friendly' (BN254, BLS12-381) means small k by design.",
+      "severity": "high"
+    },
+    {
+      "claim": "e(aP, bQ) = e(P, Q)^{a+b} -- the scalars add in the exponent.",
+      "why_tempting": "Linearity is half-remembered as 'pull the scalar out and add'. But the pairing is linear in EACH argument separately, so pulling a out of the first slot and b out of the second multiplies them: e(aP, bQ) = e(P, Q)^{a} then ^{b} = e(P, Q)^{ab}. The product a*b, not the sum, is the signature of BIlinearity.",
+      "severity": "medium"
+    },
+    {
+      "claim": "G1 and G2 must be the same group, so e(P, Q) and e(Q, P) are interchangeable.",
+      "why_tempting": "Symmetric examples (Weil pairing on one group) suggest one source group. Production systems use Type-III asymmetric pairings with distinct G1, G2 (Theorem 4: pairing-based arguments need elements in BOTH), where there is no efficient map between them; the asymmetry is a feature, not an accident.",
+      "severity": "medium"
+    },
+    {
+      "claim": "The bilinearity identity e(aP,bQ)=e(P,Q)^{ab} is an approximation that holds 'with high probability'.",
+      "why_tempting": "Readers arriving from Schwartz-Zippel and Fiat-Shamir expect probabilistic guarantees. Bilinearity is an EXACT algebraic identity -- it holds for every a, b, every P, Q, with no error term. The probabilistic reasoning lives elsewhere (soundness of the protocols built on top), not in the pairing itself.",
+      "severity": "low"
+    }
+  ],
+  "dumb_questions": [
+    "Where does the output of the pairing live -- is e(P, Q) a number, a curve point, or something else?",
+    "If e(aP, bQ) = e(P, Q)^{ab}, haven't I just learned a*b? Why isn't that a discrete-log break?",
+    "Why does scaling the inputs MULTIPLY the exponent instead of adding to it?",
+    "What makes a curve 'pairing-friendly', and why is secp256k1 not?",
+    "Do G1 and G2 have to be different? What is the point of two source groups?",
+    "What is the embedding degree k, and why does the answer live in F_{q^k} instead of F_q?"
+  ],
+  "bad_intuitions_to_kill": [
+    "'A pairing recovers exponents.' Kill it: e only reveals the PRODUCT a*b inside a target-group exponent; reading a from aP is the discrete-log problem, assumed hard. A pairing verifies a relation, it does not invert one.",
+    "'The pairing value is a curve point.' Kill it: e: G1 x G2 -> G_T lands in the multiplicative group of r-th roots of unity in F_{q^k}^*, NOT on the curve -- which is why the operation on the output is exponentiation, not scalar multiplication.",
+    "'Scalars add: e(aP,bQ)=e(P,Q)^{a+b}.' Kill it by computing the two slots separately: linearity in each argument gives ^a then ^b, i.e. the PRODUCT e(P,Q)^{ab}. Verified numerically (a=2,b=4 -> exponent 8, not 6).",
+    "'Any curve gives a usable pairing.' Kill it via the embedding degree: only small-k (pairing-friendly) curves put G_T in a small extension where e is computable; secp256k1's k is huge, so it has no usable pairing."
+  ]
+}

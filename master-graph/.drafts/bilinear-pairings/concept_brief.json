@@ -1,0 +1,58 @@
+{
+  "concept": "Bilinear pairings",
+  "stratum": "Elliptic curves & pairings (the prerequisite peak)",
+  "first_needed": "Ch 11",
+  "depth": "R",
+  "target_depth": "rigorous",
+  "prerequisites": [
+    "cyclic groups: generators, group order, the group operation written additively (point addition) or multiplicatively (exponentiation)",
+    "elliptic-curve groups: points on E form an abelian group; scalar multiplication aP = P+P+...+P",
+    "the discrete-logarithm problem: given P and aP, recovering a is infeasible (the bet beneath the whole tower)",
+    "finite fields and field extensions: F_q vs F_{q^k}, needed for the embedding degree k and the target group",
+    "the r-torsion subgroup E[r] and prime-order subgroups (where the source groups G1, G2 live)",
+    "roots of unity: the r-th roots of unity mu_r in F_{q^k}^*, where the pairing value lives"
+  ],
+  "assumed_background": [
+    "From Ch 11 'Reader should already know': group theory (cyclic groups, generators, the discrete-log problem); elliptic curves at the level of 'points form a group' (the pairing is built up from there); finite fields and field extensions (F_p vs F_{p^k}, needed for embedding degree); hash functions as collision-resistant primitives.",
+    "From Ch 9: the polynomial-commitment interface (commit / open / verify) that pairings will be used to *build* (KZG verifies with one pairing equation).",
+    "From Ch 2/3: the sealed-envelope and Powers-of-Tau ceremony intuition; here pairings are the mechanism that turns g^{p(tau)} into a checkable commitment.",
+    "The slogan met but not yet earned: a pairing is 'a bilinear multiplication you can do on hidden exponents' -- e(aP,bQ)=e(P,Q)^{ab}."
+  ],
+  "learning_objectives": [
+    "State what a bilinear pairing is: a non-degenerate map e: G1 x G2 -> G_T between three prime-order groups that is linear in each argument, so e(aP, bQ) = e(P, Q)^{ab}.",
+    "Read the central identity e(aP, bQ) = e(P, Q)^{ab} as 'scaling the inputs multiplies the hidden exponent by a*b' -- the one fact every later use rests on.",
+    "Locate the three groups concretely: G1, G2 are r-torsion subgroups of an elliptic curve over F_q; G_T is the group of r-th roots of unity mu_r inside F_{q^k}^*, where k is the embedding degree.",
+    "Compute a pairing on a small pairing-friendly curve (y^2 = x^3 - x over GF(23), r = 3, k = 2) and verify e(aP, bQ) = e(P, Q)^{ab} numerically for concrete scalars a = 2, b = 4.",
+    "Distinguish 'checking a multiplicative relation on hidden exponents' from 'recovering the exponents': a pairing lets you VERIFY a*b in the exponent without ever learning a or b -- it does NOT break discrete log.",
+    "Connect the pairing to its book role: it is the primitive beneath KZG's single-pairing verification equation and the Groth16 verifier (a few group elements checked with a pairing-product equation), and the reason BLS12-381 / BN254 are 'pairing-friendly' while secp256k1 is not."
+  ],
+  "graphify_subgraph": {
+    "query": "graphify query 'Bilinear Pairings'  (and: graphify explain 'Bilinear Pairings')",
+    "traversal": "BFS depth=2, 77 nodes; focused node 'Bilinear Pairings' [id=concept_pairing, community=19, degree=10]",
+    "node": "Bilinear Pairings [src=references/ch02/ref-06-groth16.pdf Abstract, community=19 (the Groth16 / pairing-based SNARK community)]",
+    "outgoing_edges": [
+      "Bilinear Pairings --assumes--> 3-Element Pairing-based SNARK for Arithmetic Circuit SAT",
+      "Bilinear Pairings --assumes--> Single Pairing-Product Verification Equation (3 pairings)",
+      "Bilinear Pairings --assumes--> PolyCommitDL Scheme",
+      "Bilinear Pairings --assumes--> Comparing the Pairing Efficiency over Composite-Order and Prime-Order Elliptic Curves",
+      "Bilinear Pairings --assumes--> Split-NILP to Pairing-based NIZK Compiler",
+      "Bilinear Pairings --references--> Extended Tower Number Field Sieve (the attack that sizes the curves)",
+      "Bilinear Pairings --conceptually_related_to--> exTNFS / 'Mandate to update pairing key sizes'",
+      "On the Size of Pairing-Based Non-interactive Arguments (Groth16) --conceptually_related_to--> Bilinear Pairings",
+      "Constant-Size Commitments to Polynomials (KZG) --conceptually_related_to--> Bilinear Pairings"
+    ],
+    "community_neighbors": [
+      "KZG Polynomial Commitments",
+      "Constant-Size Commitments to Polynomials and Their Applications (KZG)",
+      "Quadratic Arithmetic Programs",
+      "3-Element Pairing-based SNARK for Arithmetic Circuit SAT (Groth16)",
+      "Theorem 4: Pairing-based Arguments Need Elements in Both G1 and G2",
+      "t-Strong Diffie-Hellman (t-SDH) Assumption",
+      "Barreto-Naehrig Curves",
+      "Composite-Order Bilinear Groups",
+      "exTNFS (Extended Tower Number Field Sieve)",
+      "Discrete Logarithm Problem / Assumption"
+    ],
+    "interpretation": "The live graph places Bilinear Pairings in community 19 -- the Groth16 / pairing-based-SNARK cluster -- with degree 10. Its strongest outgoing edges (--assumes-->) point at exactly the constructions Chapter 11 says pairings make possible: the single pairing-product verification equation, the 3-element Groth16 SNARK, and the discrete-log polynomial-commitment scheme (KZG/PolyCommitDL). Its --references--> and --conceptually_related_to--> edges point at the Extended Tower Number Field Sieve and the 'update pairing key sizes' mandate -- i.e. the attack that determines how big a pairing-friendly curve must be. 'Theorem 4: Pairing-based Arguments Need Elements in Both G1 and G2' confirms the two-source-group structure (asymmetric, Type-III) that the central identity e(aP,bQ)=e(P,Q)^{ab} encodes. This subgraph fixes the chapter framing used here: the pairing is the bedrock primitive whose ONLY job in the book is to let a verifier check a multiplicative relation among hidden exponents (KZG opening, Groth16 verify) -- the learning objective on the book role and the worked KZG/Groth16 connection are taken directly from these edges."
+  }
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "level": "recall",
+    "question": "What is a bilinear pairing? Name its domain and codomain, and state the one identity that makes it 'bilinear'.",
+    "answer_key": "A bilinear pairing is a non-degenerate map e: G1 x G2 -> G_T between three prime-order groups that is linear in each argument separately. The defining identity is e(aP, bQ) = e(P, Q)^{ab}: scaling the source points by a and b multiplies the target-group exponent by a*b. G1, G2 are r-torsion subgroups of an elliptic curve over F_q; G_T is the group of r-th roots of unity mu_r in F_{q^k}^*.",
+    "targets_stuck_point": "'The pairing value is just another point on the same elliptic curve' -- the codomain G_T is a multiplicative group of roots of unity in a field extension, not the curve.",
+    "on_miss_route_to": "roots of unity: the r-th roots of unity mu_r in F_{q^k}^*, where the pairing value lives"
+  },
+  {
+    "level": "apply",
+    "question": "On E: y^2 = x^3 - x over GF(23) with r = 3 and embedding degree k = 2, the Weil pairing gives e(P, Q) = 19t+15 (an order-3 element of GF(23^2)^*). For a = 2, b = 4, what is e(aP, bQ), and why is it e(P, Q)^8 rather than e(P, Q)^6?",
+    "answer_key": "e(aP, bQ) = e(P, Q)^{a*b} = e(P, Q)^{2*4} = e(P, Q)^8 = (19t+15)^8 = 4t+7. It is the PRODUCT a*b = 8 in the exponent, not the sum a+b = 6, because the pairing is linear in each argument separately: pull a out of the first slot and b out of the second and they multiply. (Since e(P,Q) has order 3, e^8 = e^2 = 4t+7 -- the same element, just the exponent reduced mod 3.)",
+    "targets_stuck_point": "'e(aP, bQ) = e(P, Q)^{a+b} -- the scalars add in the exponent' -- they multiply; a*b = 8, not a+b = 6.",
+    "on_miss_route_to": "cyclic groups: generators, group order, the group operation written additively (point addition) or multiplicatively (exponentiation)"
+  },
+  {
+    "level": "transfer",
+    "question": "A KZG / Groth16 verifier wants to confirm a multiplicative relation among hidden exponents (e.g. that one committed value equals the product of two others) without ever learning those exponents. Why is a bilinear pairing exactly the right tool, and what does it crucially NOT let the verifier do?",
+    "answer_key": "Encode the secret values as exponents on group elements (g^x = xP). The pairing turns multiplication of EXPONENTS into a check it can run on the visible group elements: e(aP, bQ) = e(P, Q)^{ab}, so the verifier confirms the product a*b in the exponent by comparing two pairing values -- this is the single pairing-product verification equation behind KZG opening and the Groth16 verifier. Crucially it does NOT let the verifier recover a or b: reading a from aP is the discrete-log problem, assumed hard. The pairing checks a multiplicative relation; it never inverts one. (Only pairing-friendly curves -- small embedding degree, e.g. BN254/BLS12-381 -- make this computable; secp256k1 cannot.)",
+    "targets_stuck_point": "'A pairing lets you recover the hidden exponents' -- it only exposes the product inside a target-group exponent, never the individual exponents.",
+    "on_miss_route_to": "the discrete-logarithm problem: given P and aP, recovering a is infeasible (the bet beneath the whole tower)"
+  },
+  {
+    "level": "rediscover",
+    "question": "You could have invented this. You want an operation on two group elements that 'multiplies their hidden exponents' so a verifier can check a product relation without learning the exponents. What three properties must it have, and how do those properties force the identity e(aP, bQ) = e(P, Q)^{ab}?",
+    "answer_key": "Demand (1) it eats one element from each of two source groups and outputs into a third group: e: G1 x G2 -> G_T; (2) it is linear in the FIRST argument: e(aP, Q) = e(P, Q)^a; (3) it is linear in the SECOND argument: e(P, bQ) = e(P, Q)^b. Apply (2) then (3): e(aP, bQ) = e(P, bQ)^a = (e(P, Q)^b)^a = e(P, Q)^{ab}. The product in the exponent is forced by linearity in each slot. Add non-degeneracy (e(P, Q) != 1 for independent generators) so the check is meaningful, and you have rediscovered the bilinear pairing -- the verifier confirms a*b in the exponent by comparing e(aP, bQ) with e(P, Q)^{ab}, never recovering a or b.",
+    "targets_stuck_point": "'The bilinearity identity is an approximation that holds with high probability' -- it is an EXACT algebraic consequence of linearity in each argument, with no error term.",
+    "on_miss_route_to": "elliptic-curve groups: points on E form an abelian group; scalar multiplication aP = P+P+...+P"
+  }
+]

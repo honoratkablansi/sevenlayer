@@ -1,0 +1,180 @@
+{
+  "concept": "Bilinear pairings",
+  "slug": "bilinear-pairings",
+  "chapter": "Ch 11 — Layer 6: The Bedrock (Primitives, Pairings, Curves, Fields)",
+  "stratum": "Elliptic curves & pairings (the prerequisite peak)",
+  "target_depth": "rigorous",
+  "phases": {
+    "pre_rigorous": "You have spent two chapters using a polynomial commitment as a sealed envelope: the prover hides a value g^x and later the verifier wants to be sure of some RELATION among the hidden values — say, that one hidden number is the product of two others — without ever opening the envelopes. Ordinary group exponentiation can ADD hidden exponents (g^x · g^y = g^{x+y}), but it cannot MULTIPLY them. A bilinear pairing is the tool that buys you exactly one multiplication on hidden exponents. Lead with the figure: three groups — a blue G₁, a red G₂, and a purple target G_T — and a map e that eats one point from each source group and lands a single element in the target. Drop a point P into G₁ and a point Q into G₂; the pairing produces e(P,Q) over in G_T. Now the magic move: scale the inputs — take aP instead of P, bQ instead of Q — and the target element is raised to the power a·b. Concretely, on a tiny curve over GF(23) with a = 2 and b = 4, the pairing of the scaled points equals the original pairing value raised to the 8th power. You did not learn a or b; you only confirmed that the hidden multiplication a·b happened, sitting safely up in an exponent. (No formal definition yet — first the picture of 'multiply inside the exponent', then the notation.)",
+    "rigorous": "Now earn it. A bilinear pairing is a map e: G₁ × G₂ → G_T between three groups of the same prime order r, satisfying two properties. (1) Bilinearity: e is linear in each argument separately, e(aP, Q) = e(P, Q)^a and e(P, bQ) = e(P, Q)^b. (2) Non-degeneracy: if P, Q are generators then e(P, Q) ≠ 1, so the map is not trivial. Apply linearity in each slot in turn: e(aP, bQ) = e(P, bQ)^a = (e(P, Q)^b)^a = e(P, Q)^{ab}. That single line is the whole identity. Locate the groups concretely so none of this is mystical: take the supersingular curve E: y² = x³ − x over GF(23). It has an r = 3 torsion subgroup, and its embedding degree is k = 2 — meaning 3 divides 23² − 1 but not 23 − 1, so the full 3-torsion E[3] ≅ ℤ/3 × ℤ/3 and the target group only appear once you pass to the extension field GF(23²). G₁ and G₂ are independent order-3 lines inside E[3]; G_T is the group μ₃ of cube roots of unity inside GF(23²)*. Take P = (2, 12) and Q = (14t+9, 22t+22); the Weil pairing gives e(P, Q) = 19t+15, an element of GF(23²)* of multiplicative order 3 — NOT a curve point. With a = 2, b = 4: e(aP, bQ) = 4t+7 and e(P, Q)^{a·b} = (19t+15)^8 = 4t+7. They are equal; bilinearity holds exactly, with no error term. This destroys the bad intuitions explicitly: (1) the output is NOT a curve point — it lives in the multiplicative group of a field extension, which is why the operation on it is exponentiation; (2) the scalars MULTIPLY in the exponent (8), they do not add (6) — that is what 'linear in EACH argument' forces; (3) you learned a·b only as an exponent, never a or b themselves — recovering a from aP would be the discrete-log problem, which is assumed infeasible.",
+    "post_rigorous": "Rebuild the intuition on the rigor, both halves at once. 'Multiply inside the hidden exponent' IS the identity e(aP, bQ) = e(P, Q)^{ab}: the picture of two scaled source points feeding one boosted target element is precisely linearity applied in each slot. Pair each picture with its statement — the two source groups G₁, G₂ are the two arguments the map is linear in; the purple target G_T is μ_r, which is why the result is an exponent and not a point; non-degeneracy (e(P, Q) ≠ 1) is what makes the comparison meaningful. Now the book role is obvious: a verifier who wants to check a multiplicative relation among hidden exponents compares two pairing values — this is the single pairing-product verification equation behind KZG's opening check and the Groth16 verifier (a few group elements, one pairing equation). Two boundaries stay sharp. First, a pairing CHECKS a multiplicative relation; it never INVERTS one — it does not recover exponents, so it does not break discrete log; if it did, the whole tower would fall. Second, this only works on pairing-friendly curves: the embedding degree k must be small so G_T lives in a small extension F_{q^k} where e is computable — BN254 and BLS12-381 are engineered for small k, while secp256k1's k is astronomically large, so it has no usable pairing. That single design constraint, plus the attack that sizes these curves (the Extended Tower Number Field Sieve), is why Layer 6 names BLS12-381 specifically.",
+    "you_could_have_invented_this": "Wanting one multiplication on hidden exponents, demand a map e: G₁ × G₂ → G_T that is linear in each argument: e(aP, Q) = e(P, Q)^a and e(P, bQ) = e(P, Q)^b. Apply both in turn and the identity falls out for free — e(aP, bQ) = e(P, Q)^{ab} — the product in the exponent is forced, not chosen. Add non-degeneracy so the check means something, and you have invented the bilinear pairing: a verifier confirms a·b in the exponent by comparing e(aP, bQ) with e(P, Q)^{ab}, learning the relation without learning the secrets. You derived it; you did not receive it."
+  },
+  "modes_order": ["visual", "analogy", "worked_example", "formal", "synthesis"],
+  "led_with_visual": true,
+  "motivated_before_defined": true,
+  "notation_in_pre_rigorous": false,
+  "heuristic_rigorous_pairs": [
+    [
+      "A pairing lets you multiply two hidden exponents — scale the inputs and the target element is raised to the product.",
+      "e: G₁ × G₂ → G_T is bilinear, so e(aP, bQ) = e(P, bQ)^a = (e(P, Q)^b)^a = e(P, Q)^{ab}; the product a·b appears in the target-group exponent."
+    ],
+    [
+      "The pairing's answer is not another curve point — it is a different kind of object you raise to powers.",
+      "G_T = μ_r is the group of r-th roots of unity in F_{q^k}^*; e(P, Q) = 19t+15 has multiplicative order 3 in GF(23²)^*, NOT a point on E."
+    ],
+    [
+      "Scaling the inputs multiplies the exponent (it does not add) — a=2, b=4 gives the 8th power, not the 6th.",
+      "Linearity holds in EACH argument separately, so the two scalars compose multiplicatively: e(2P, 4Q) = e(P, Q)^{2·4} = e(P, Q)^8 = 4t+7 (Sage-verified), not e(P, Q)^{2+4}."
+    ],
+    [
+      "The pairing checks the hidden multiplication without revealing the secrets — and only some curves can do it cheaply.",
+      "Recovering a from aP is the discrete-log problem (assumed hard), so e exposes only a·b in an exponent; and e is computable only when the embedding degree k is small (BN254/BLS12-381), not for secp256k1."
+    ]
+  ],
+  "stuck_points_predicted": [
+    "pairing_recovers_exponents",
+    "pairing_value_is_a_curve_point",
+    "any_curve_has_a_usable_pairing",
+    "scalars_add_in_the_exponent",
+    "source_groups_must_be_identical",
+    "bilinearity_is_only_probabilistic"
+  ],
+  "stuck_points_addressed": [
+    "pairing_recovers_exponents",
+    "pairing_value_is_a_curve_point",
+    "any_curve_has_a_usable_pairing",
+    "scalars_add_in_the_exponent",
+    "source_groups_must_be_identical",
+    "bilinearity_is_only_probabilistic"
+  ],
+  "figure_ref": "figures/bilinear_pairings.svg",
+  "animation_ref": "animations/bilinear_pairings.mp4",
+  "accuracy_report": {
+    "concept": "Bilinear pairings",
+    "claims": [
+      {
+        "claim": "The curve is E: y^2 = x^3 - x over GF(23); it is supersingular and carries an r = 3 torsion subgroup.",
+        "source": "scripts/recipes/bilinear-pairings.sage",
+        "status": "verified",
+        "evidence": "Sage: E = EllipticCurve(GF(23),[0,0,0,-1,0]); E(GF(23)).order() = 24 = 2^3 * 3, so 3 | #E."
+      },
+      {
+        "claim": "The embedding degree for r = 3 is k = 2: the full 3-torsion E[3] ~ Z/3 x Z/3 lives in GF(23^2), not GF(23).",
+        "source": "sage_manifest.k + Sage recompute",
+        "status": "verified",
+        "evidence": "3 | 23^2 - 1 = 528 but 3 does NOT divide 23 - 1 = 22, so k = 2. #E(GF(23^2)) = 576 = 3^2 * 64, so r^2 | #E over the extension."
+      },
+      {
+        "claim": "P = (2, 12) generates G1 and Q = (14t+9, 22t+22) generates an independent line G2; both have exact order r = 3.",
+        "source": "sage_manifest.P / sage_manifest.Q",
+        "status": "verified",
+        "evidence": "Sage (seed 11): P.order() = Q.order() = 3 and P.weil_pairing(Q, 3) != 1, certifying independence (non-degeneracy on this pair)."
+      },
+      {
+        "claim": "The pairing value e(P, Q) = 19t + 15 is an order-3 element of G_T = mu_3 in GF(23^2)^*, NOT a curve point.",
+        "source": "sage_manifest.e_PQ + Sage recompute",
+        "status": "verified",
+        "evidence": "Sage: e_PQ = 19*t + 15, e_PQ.multiplicative_order() = 3, an element of GF(23^2)^*."
+      },
+      {
+        "claim": "For a = 2, b = 4 the bilinearity identity holds: e(aP, bQ) = e(P, Q)^{ab}, i.e. 4t+7 = (19t+15)^8.",
+        "source": "sage_manifest.e_aPbQ / e_PQ_pow_ab / bilinear_holds",
+        "status": "verified",
+        "evidence": "Sage: e_aPbQ = 4*t+7; e_PQ^8 = 4*t+7; equality True; manifest bilinear_holds = true."
+      },
+      {
+        "claim": "a*b = 8 and 8 mod r = 2, so e(P,Q)^{ab} = e(P,Q)^2 is a non-trivial power (not the identity).",
+        "source": "sage_manifest.ab / ab_mod_r",
+        "status": "verified",
+        "evidence": "8 mod 3 = 2; since e(P,Q) has order 3, e^8 = e^2 != 1 -- a genuine exercise of bilinearity. Scene shows a*b = 8; mod-3 reduction stated as the order-3 fact, never as a contradiction."
+      },
+      {
+        "claim": "A pairing reveals only the product in the exponent; it does NOT recover a or b (does not break discrete log).",
+        "source": "CHAPTER_BIBLE Ch 11 analogy + graphify (community 19)",
+        "status": "verified",
+        "evidence": "CHAPTER_BIBLE Ch 11: pairings 'only let you check a multiplicative relation', not recover exponents (that would break discrete-log). Conceptual guardrail; no numeric claim."
+      }
+    ],
+    "sage_manifest": {
+      "figure": "assets/figures/bilinear_pairings.svg",
+      "q": 23,
+      "r": 3,
+      "k": 2,
+      "a": 2,
+      "b": 4,
+      "ab": 8,
+      "ab_mod_r": 2,
+      "P": "2, 12",
+      "Q": "14*t + 9, 22*t + 22",
+      "e_PQ": "19*t + 15",
+      "e_aPbQ": "4*t + 7",
+      "e_PQ_pow_ab": "4*t + 7",
+      "bilinear_holds": true
+    },
+    "scene_value_check": {
+      "tool": "scripts/manim_render.validate_scene_values",
+      "scene_values": {"q": 23, "r": 3, "k": 2, "a": 2, "b": 4, "ab": 8, "ab_mod_r": 2, "bilinear_holds": true},
+      "result": [],
+      "note": "Empty list = no drift; every computed value the manim scene displays matches the Sage manifest (recomputed via /opt/conda/envs/manim/bin/python loading SCENE_VALUES against the live manifest)."
+    },
+    "ledger_refs": [
+      "CHAPTER_BIBLE Ch 11 'Layer 6: The Bedrock' -- Pairing mechanics: 'Bilinear pairing e(aP,bQ)=e(P,Q)^{ab}; the Miller loop; embedding degree k; pairing-friendly curves; BN254 / BLS12-381 vs secp256k1; Type-III asymmetric bilinear groups.'",
+      "CHAPTER_BIBLE Ch 11 analogy: 'Pairing as a bilinear multiplication you can do on hidden exponents... they only let you check a multiplicative relation.'",
+      "graphify subgraph (community 19): Bilinear Pairings --assumes--> Single Pairing-Product Verification Equation / 3-Element Groth16 SNARK / PolyCommitDL (KZG); --references--> Extended Tower Number Field Sieve; 'Theorem 4: Pairing-based Arguments Need Elements in Both G1 and G2'."
+    ],
+    "adversarial_findings": [
+      {
+        "finding": "Risk that a*b mod r = 2 makes the displayed exponent 8 look wrong.",
+        "resolution": "Both kept and labeled: scene shows the genuine exponent a*b = 8; 8 mod 3 = 2 is stated as a consequence of order 3 (e^8 = e^2). Sage confirms (19t+15)^8 = (19t+15)^2 = 4t+7. Neither is a typo of the other.",
+        "status": "resolved"
+      },
+      {
+        "finding": "Potential conflation: 'pairing reveals a*b' read as 'reveals a and b' (a discrete-log break).",
+        "resolution": "Prose, stuck_points, and a learning objective state the product appears only inside a target-group exponent; recovering a from aP is the discrete-log problem (hard). Sourced to CHAPTER_BIBLE Ch 11 guardrail.",
+        "status": "resolved"
+      },
+      {
+        "finding": "Risk the pairing output is described as a curve point (wrong codomain).",
+        "resolution": "Sage: e(P,Q) = 19t+15 has multiplicative_order() = 3 in GF(23^2)^* -- a root of unity, not a curve point. Figure draws G_T as a separate group; prose names it mu_r in F_{q^k}^*.",
+        "status": "resolved"
+      },
+      {
+        "finding": "Reproducibility risk from random point selection.",
+        "resolution": "Recipe fixes set_random_seed(11); re-running reproduces P=(2,12), Q=(14t+9,22t+22), e(P,Q)=19t+15, e(aP,bQ)=4t+7 byte-for-byte. SVG 17,923 bytes; mp4 359,669 bytes.",
+        "status": "resolved"
+      }
+    ],
+    "verified": true
+  },
+  "comprehension_set": [
+    {
+      "level": "recall",
+      "question": "What is a bilinear pairing? Name its domain and codomain, and state the one identity that makes it 'bilinear'.",
+      "answer_key": "A non-degenerate map e: G1 x G2 -> G_T between three prime-order groups, linear in each argument, with e(aP, bQ) = e(P, Q)^{ab}. G1, G2 are r-torsion subgroups of an elliptic curve over F_q; G_T is the group of r-th roots of unity mu_r in F_{q^k}^*.",
+      "targets_stuck_point": "'The pairing value is just another point on the same elliptic curve' -- the codomain is a multiplicative group of roots of unity in a field extension, not the curve.",
+      "on_miss_route_to": "roots of unity: the r-th roots of unity mu_r in F_{q^k}^*, where the pairing value lives"
+    },
+    {
+      "level": "apply",
+      "question": "On E: y^2 = x^3 - x over GF(23) with r = 3 and k = 2, e(P, Q) = 19t+15 (order 3). For a = 2, b = 4, what is e(aP, bQ), and why is it e(P, Q)^8 rather than e(P, Q)^6?",
+      "answer_key": "e(aP, bQ) = e(P, Q)^{a*b} = e(P, Q)^8 = (19t+15)^8 = 4t+7. The PRODUCT a*b = 8, not the sum a+b = 6, because the pairing is linear in each argument separately. (Order 3 makes e^8 = e^2, the same element.)",
+      "targets_stuck_point": "'e(aP, bQ) = e(P, Q)^{a+b} -- scalars add in the exponent' -- they multiply; a*b = 8, not a+b = 6.",
+      "on_miss_route_to": "cyclic groups: generators, group order, the group operation written additively (point addition) or multiplicatively (exponentiation)"
+    },
+    {
+      "level": "transfer",
+      "question": "A KZG / Groth16 verifier wants to confirm a multiplicative relation among hidden exponents without learning them. Why is a bilinear pairing the right tool, and what does it crucially NOT let the verifier do?",
+      "answer_key": "Encode secrets as exponents (g^x = xP); the pairing turns exponent multiplication into a check on visible elements: e(aP, bQ) = e(P, Q)^{ab}, so the verifier confirms a*b via the single pairing-product equation behind KZG opening and Groth16 verify. It does NOT recover a or b (that is the discrete-log problem, assumed hard) -- it checks a relation, never inverts one. Only small-k pairing-friendly curves (BN254/BLS12-381) make it computable.",
+      "targets_stuck_point": "'A pairing lets you recover the hidden exponents' -- it only exposes the product inside an exponent, never the individual exponents.",
+      "on_miss_route_to": "the discrete-logarithm problem: given P and aP, recovering a is infeasible (the bet beneath the whole tower)"
+    },
+    {
+      "level": "rediscover",
+      "question": "You could have invented this. You want an operation that 'multiplies hidden exponents' so a verifier can check a product relation without learning the exponents. What three properties must it have, and how do they force e(aP, bQ) = e(P, Q)^{ab}?",
+      "answer_key": "(1) e: G1 x G2 -> G_T (one element from each source group into a third); (2) linear in the first argument: e(aP, Q) = e(P, Q)^a; (3) linear in the second: e(P, bQ) = e(P, Q)^b. Apply (2) then (3): e(aP, bQ) = (e(P, Q)^b)^a = e(P, Q)^{ab} -- the product is forced. Add non-degeneracy (e(P, Q) != 1) and you have the bilinear pairing.",
+      "targets_stuck_point": "'The bilinearity identity is an approximation that holds with high probability' -- it is an EXACT algebraic consequence of linearity in each argument, no error term.",
+      "on_miss_route_to": "elliptic-curve groups: points on E form an abelian group; scalar multiplication aP = P+P+...+P"
+    }
+  ]
+}
