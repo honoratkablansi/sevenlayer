@@ -1,0 +1,55 @@
+{
+  "misconceptions": [
+    {
+      "claim": "The verifier must somehow look at all 2^n terms (or trust the prover's single number H) — there is no middle ground.",
+      "why_tempting": "A sum is defined as adding everything up, so 'verify the sum' feels like it must mean 'redo the addition.' The whole point of sum-check is the middle ground: the verifier never adds the 2^n terms, yet is not reduced to blind trust — it cross-examines one variable per round.",
+      "severity": "high"
+    },
+    {
+      "claim": "Each round the verifier checks the prover's claimed univariate g_i against the TRUE univariate, so it must already know the answer.",
+      "why_tempting": "The check g_i(0)+g_i(1) = (running claim) looks like comparing to a known truth. In fact the verifier only checks an internal consistency identity — it never computes the true partial sum — and defers all trust to the final single evaluation, which is the only thing it checks against g directly.",
+      "severity": "high"
+    },
+    {
+      "claim": "A cheating prover who is caught in one round can simply repair its lie in the next round and keep going.",
+      "why_tempting": "Each round looks independent, so a liar seems to get fresh attempts. The inductive soundness argument kills this: to pass round i the prover must send a wrong univariate that still satisfies the consistency check, and Schwartz–Zippel makes the random r_i expose that wrongness with high probability — a lie must survive EVERY round, and the failure probabilities add up to only d·v/|F|.",
+      "severity": "high"
+    },
+    {
+      "claim": "Sum-check needs a polynomial commitment (or some cryptographic primitive) to be sound.",
+      "why_tempting": "Every other proof system the reader meets later leans on commitments, so sum-check looks incomplete without one. But sum-check is a PURE interactive reduction: assuming oracle access to g, its soundness is unconditional (Schwartz–Zippel), needing no commitment, no group, no hardness assumption. The commitment only enters later when g itself must be pinned down.",
+      "severity": "high"
+    },
+    {
+      "claim": "The random challenge r_i is chosen to make the math convenient, like a clever substitution.",
+      "why_tempting": "Plugging in a specific value feels like a simplification trick. The randomness is the soundness engine: r_i must be UNPREDICTABLE to the prover so a wrong univariate cannot have been tuned to agree at r_i — exactly the Schwartz–Zippel move (a low-degree non-zero difference is non-zero at a random point with high probability).",
+      "severity": "medium"
+    },
+    {
+      "claim": "The soundness error is per round, so n rounds means the protocol is n times less sound — it gets worse fast.",
+      "why_tempting": "Compounding usually means multiplying small badness into big badness. Here the per-round errors ADD (union bound): each round risks ≤ d/|F|, so the total is ≤ d·v/|F| — linear in the number of variables, not exponential, and still tiny for a large field.",
+      "severity": "medium"
+    },
+    {
+      "claim": "Sum-check reveals the witness, so it is already a zero-knowledge proof.",
+      "why_tempting": "It is built from the same algebra as the ZK machinery and 'narrows a confession,' so it sounds like it hides things. By itself sum-check is NOT zero-knowledge: the prover reveals genuine evaluations of g; masking polynomials (Ch 9–10) are needed to make it ZK. Conflating the two corrupts the later security models.",
+      "severity": "low"
+    }
+  ],
+  "dumb_questions": [
+    "If the verifier never adds the 2^n terms, what stops the prover from just announcing any H it likes?",
+    "Why does the prover send a whole polynomial g_i(X) each round instead of just a number?",
+    "What is the verifier actually comparing g_i(0)+g_i(1) against — does it know the true value?",
+    "Where does the randomness live, and why does the prover not know r_i in advance?",
+    "Why does fixing one variable to r_i make the problem smaller by a whole variable?",
+    "If a liar can be lucky in one round, why is the whole protocol still trustworthy?",
+    "Why is there NO commitment or cryptography here when everything else in the book has it?"
+  ],
+  "bad_intuitions_to_kill": [
+    "‘Verify a sum ⇒ recompute the sum.’ Replace with: the verifier checks a chain of one-variable consistency identities and one final evaluation, never the 2^n terms.",
+    "‘The verifier knows the true partial sums.’ Kill it: the verifier only checks g_i(0)+g_i(1) against the PREVIOUS round's reduced claim; the sole contact with the real g is the single final point g(r_1,…,r_n).",
+    "‘A lie can be repaired round to round.’ Kill via induction + Schwartz–Zippel: a wrong univariate differs from the true one as a non-zero low-degree polynomial, so a random r_i exposes it with prob ≥ 1 − d/|F|; surviving all rounds has prob ≤ d·v/|F|.",
+    "‘Sum-check needs a commitment.’ Kill by showing the entire soundness argument uses only Schwartz–Zippel and oracle access to g — unconditional, no primitive.",
+    "‘Per-round error compounds multiplicatively.’ Kill with the union bound: errors ADD to d·v/|F|, linear in v."
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "concept": "Sum-Check protocol",
+  "slug": "sum-check",
+  "chapter": "Ch 8 — The One Idea: Sum-Check and GKR",
+  "stratum": "Algebra II: multivariate & multilinear (the modern representation)",
+  "target_depth": "rigorous",
+  "phases": {
+    "pre_rigorous": "Picture a prosecutor facing a suspect who claims an airtight alibi that covers an impossible number of moments at once — every minute of a whole week. The prosecutor cannot replay the week. So instead of checking everything, she narrows: 'Account for Monday.' The suspect must give a consistent sub-story; she picks a random hour inside it, pins it down, and asks him to account for THAT — then a random minute inside that. A truthful suspect's story survives every narrowing; a liar's must eventually contradict itself at a moment he could not have anticipated. Sum-check is exactly this. The prover claims a single number H is the total of g over all 2³ = 8 corners of the cube {0,1}³ — too many to add for real n. Lead with the figure (the running claim plotted as the ladder narrows: 8 terms folded into the claim, then 4, then 2, then 1). Each round the prover hands over a small one-variable story g_i; the verifier checks it splits consistently into its two halves, then drops a random finger r_i and demands the smaller story. After three narrowings nothing is left to add — just one point to check. (No formal notation yet beyond naming g and H — the 'why' comes before the symbols.)",
+    "rigorous": "Now earn it. Let g be a polynomial in v variables over a finite field F, with per-variable degree at most d, and let H = Σ_{x∈{0,1}^v} g(x) be the claimed sum. ROUND i: the prover sends the univariate g_i(X) = Σ over the remaining Boolean variables of g, with x_1..x_{i−1} fixed to the past challenges r_1..r_{i−1} and x_i = X. COMPLETENESS: an honest prover's g_i satisfies g_i(0)+g_i(1) = (running claim), since splitting variable i into its two Boolean values is exactly the next step of the sum; round 1 checks against H, round i>1 against g_{i−1}(r_{i−1}). The verifier checks that one identity, draws r_i uniformly at random, and recurses on the (v−1)-variable claim g_i(r_i). After v rounds it checks the lone value g_v(r_v) = g(r_1,…,r_v) against g directly. SOUNDNESS (induction on rounds + Schwartz–Zippel): if the prover lies, its g_i differs from the true round polynomial; the difference is a NON-ZERO polynomial of degree ≤ d, so a uniformly random r_i makes them disagree — exposing the lie — with probability ≥ 1 − d/|F|. To keep cheating the prover must, at each round, send a wrong g_i that nonetheless satisfies the consistency check, which forces it into a fresh false claim it again cannot defend. By the union bound the total chance a liar slips through all v rounds is ≤ d·v/|F|. This destroys the bad intuitions explicitly: (1) 'verify a sum ⇒ recompute it' — false, the verifier checks v consistency identities plus one evaluation, never the 2^v terms; (2) 'the verifier knows the true partial sums' — false, it only compares g_i(0)+g_i(1) to the PREVIOUS reduced claim; (3) 'a caught liar repairs the lie next round' — false, the lie must survive every round; (4) 'sum-check needs a commitment' — false, the only ingredient is Schwartz–Zippel and oracle access to g, so soundness is unconditional. For our instance over GF(97), d = 2 (x1 is squared), v = 3, so the worst-case bound is 2·3/97 = 6/97 ≈ 6.2%.",
+    "post_rigorous": "Rebuild the intuition on the rigor, both halves at once. The prosecutor's 'narrow the confession until one checkable fact remains' IS the round reduction n → n−1 ending at g(r_1,…,r_v); 'the lie must contradict itself at a random moment' IS Schwartz–Zippel making a wrong univariate non-zero at the random r_i; 'a truthful story survives every narrowing' IS completeness. Pair each picture with its statement (see the table in draft.md). Now the structure feels inevitable: the verifier's work is v small univariate checks plus one evaluation — exponential sum, linear-in-v verification — and the soundness knob is the same d·v/|F| Schwartz–Zippel dial from Ch 7, only summed over rounds. Two boundaries stay sharp. First, sum-check is a PURE reduction: it assumes oracle access to g and uses NO commitment, group, or hardness assumption — exactly the purity that makes GKR the first no-commitment proof system the reader meets, and the reason a commitment scheme only enters later (Ch 9) when g itself must be pinned down. Second, sum-check by itself is NOT zero-knowledge: it reveals genuine evaluations of g; masking comes in Ch 9–10. This single gadget is the engine beneath Layer 4 and the most-reused move in the rest of the book — grand-product/ZeroTest (Ch 9), Spartan and the folding hinge (Ch 10), folding schemes defined on sum-check (Ch 14), LogUp-GKR and zkVM lookups (Ch 15).",
+    "you_could_have_invented_this": "Knowing only that (a) a degree-≤d univariate is pinned down by a few evaluations and that g_i(0)+g_i(1) should equal the running claim, and (b) a non-zero degree-≤d polynomial is non-zero at a random point with probability ≥ 1 − d/|F|, you can invent sum-check: strip one variable per round, ask for the univariate g_i, check the split identity, pin a random r_i, recurse, and finish with one evaluation g(r_1,…,r_v). Honest provers always pass; a cheat survives with probability ≤ d·v/|F|. You derived it; you did not receive it — and you used no commitment, only Schwartz–Zippel."
+  },
+  "modes_order": ["visual", "analogy", "worked_example", "formal", "synthesis"],
+  "led_with_visual": true,
+  "motivated_before_defined": true,
+  "notation_in_pre_rigorous": false,
+  "heuristic_rigorous_pairs": [
+    [
+      "A prosecutor narrows a confession round by round until one checkable fact remains.",
+      "The round reduction sends a v-variable claim H = Σ_{x∈{0,1}^v} g(x) to a (v−1)-variable claim g_i(r_i), and after v rounds to the single evaluation g(r_1,…,r_v)."
+    ],
+    [
+      "The liar's story must contradict itself at a random moment he could not anticipate.",
+      "A lying g_i differs from the true round polynomial by a non-zero polynomial of degree ≤ d, so a uniformly random r_i exposes it with probability ≥ 1 − d/|F| (Schwartz–Zippel)."
+    ],
+    [
+      "A truthful story survives every narrowing.",
+      "Completeness: an honest prover's g_i satisfies g_i(0)+g_i(1) = running claim, because splitting variable i into 0 and 1 is exactly the next term of the sum."
+    ],
+    [
+      "Being caught once is enough; luck does not compound into safety.",
+      "Soundness is an induction on rounds; the per-round risks ≤ d/|F| ADD by the union bound to a total ≤ d·v/|F| (linear in v), not a product that blows up."
+    ],
+    [
+      "The verifier never adds the eight cube corners (figure: 8 → 4 → 2 → 1).",
+      "For g over GF(97), H = 54; the verifier checks g1(0)+g1(1)=54, then the chain 54 → g1(2)=47 → g2(3)=71 → g3(4)=67 = g(2,3,4), v=3 univariate checks plus one evaluation."
+    ]
+  ],
+  "stuck_points_predicted": [
+    "verify_sum_means_recompute_sum",
+    "verifier_knows_true_partial_sums",
+    "caught_liar_can_repair_next_round",
+    "sumcheck_needs_a_commitment",
+    "random_challenge_is_just_a_convenient_substitution",
+    "per_round_error_compounds_multiplicatively",
+    "sumcheck_is_already_zero_knowledge"
+  ],
+  "stuck_points_addressed": [
+    "verify_sum_means_recompute_sum",
+    "verifier_knows_true_partial_sums",
+    "caught_liar_can_repair_next_round",
+    "sumcheck_needs_a_commitment",
+    "random_challenge_is_just_a_convenient_substitution",
+    "per_round_error_compounds_multiplicatively",
+    "sumcheck_is_already_zero_knowledge"
+  ],
+  "figure_ref": "figures/sum_check.svg",
+  "animation_ref": "animations/sum_check.mp4",
+  "accuracy_report": {
+    "concept": "Sum-Check protocol",
+    "claims": [
+      {
+        "claim": "The field is GF(97) (|F| = 97) and g(x1,x2,x3) = 2·x1²·x2 + 3·x2·x3 + x1 + 5 is a 3-variable polynomial over it.",
+        "source": "sage_manifest.field / sage_manifest.polynomial / scripts/recipes/sum-check.sage",
+        "status": "verified",
+        "evidence": "Sage manifest field = 97, num_vars = 3; the manim scene SCENE_VALUES.field = 97, num_vars = 3 and reconstructs g in pure Python."
+      },
+      {
+        "claim": "The claimed sum over the Boolean hypercube is H = Σ_{x∈{0,1}³} g(x) = 54.",
+        "source": "sage_manifest.H",
+        "status": "verified",
+        "evidence": "Sage manifest H = 54; an independent Sage re-derivation and the manim scene's pure-Python recompute both give 54."
+      },
+      {
+        "claim": "Round 1: g1(X) = 23 + 4X + 4X² and g1(0)+g1(1) = 54 = H; Round 2 (r1=2): g1(2)=47, g2(X)=14+19X, g2(0)+g2(1)=47; Round 3 (r2=3): g2(3)=71, g3(X)=31+9X, g3(0)+g3(1)=71.",
+        "source": "sage_manifest.rounds / sage_manifest.challenges",
+        "status": "verified",
+        "evidence": "All four sum-check identities are asserted in the Sage recipe (it cannot emit a manifest unless they hold) and reproduced in a second Sage session and in the manim scene."
+      },
+      {
+        "claim": "Final fold (r3=4): g3(4) = 67 = g(2,3,4) = 67 — the single evaluation checked against g directly.",
+        "source": "sage_manifest.final_eval",
+        "status": "verified",
+        "evidence": "Sage: g3(4)=67 and g(2,3,4)=67; identity g3(r3)==g(r1,r2,r3) asserted in the recipe; scene final_eval = 67."
+      },
+      {
+        "claim": "The soundness bound is d·v/|F| = 2·3/97 = 6/97 ≈ 6.2% (d = per-variable degree bound, v = variables, |F| field size).",
+        "source": "lemma (Schwartz–Zippel per round + union bound) + sage_manifest.soundness_bound",
+        "status": "verified",
+        "evidence": "Each round risks ≤ d/|F| = 2/97; union bound over v=3 rounds gives ≤ 6/97 ≈ 0.0619. Worst case (d=2 because x1 is squared); realized round degrees 2,1,1 give ≤ 4/97 — stated separately.",
+        "ledger_ref": "CHAPTER_BIBLE Ch 8 'soundness bound d·v/|F| ... derived from Ch 7's Schwartz-Zippel, one round at a time.'"
+      },
+      {
+        "claim": "Sum-check uses no commitment scheme and no hardness assumption; soundness is unconditional given oracle access to g.",
+        "source": "CHAPTER_BIBLE Ch 8 'Connects backward' + graphify path to Schwartz-Zippel",
+        "status": "verified",
+        "evidence": "The only soundness ingredient is Schwartz–Zippel applied per round; no group, commitment, or assumption appears. Bible: 'sum-check needs no commitment scheme — a deliberate purity that makes GKR the first practical no-commitment proof system.'"
+      }
+    ],
+    "sage_manifest": {
+      "figure": "assets/figures/sum_check.svg",
+      "field": 97,
+      "num_vars": 3,
+      "polynomial": "2*x1^2*x2 + 3*x2*x3 + x1 + 5",
+      "H": 54,
+      "challenges": {"r1": 2, "r2": 3, "r3": 4},
+      "rounds": [
+        {"i": 1, "coeffs": [23, 4, 4], "g_at_0": 23, "g_at_1": 31, "sum_0_1": 54, "expected_claim": 54, "g_at_r": 47},
+        {"i": 2, "coeffs": [14, 19], "g_at_0": 14, "g_at_1": 33, "sum_0_1": 47, "expected_claim": 47, "g_at_r": 71},
+        {"i": 3, "coeffs": [31, 9], "g_at_0": 31, "g_at_1": 40, "sum_0_1": 71, "expected_claim": 71, "g_at_r": 67}
+      ],
+      "final_eval": 67,
+      "degree_bound_per_round": 2,
+      "soundness_bound": "d*v/|F| = 2*3/97 = 6/97",
+      "identities_hold": true
+    },
+    "scene_value_check": {
+      "tool": "scripts/manim_render.validate_scene_values",
+      "scene_values": {
+        "field": 97, "num_vars": 3, "H": 54, "final_eval": 67,
+        "round1_g_at_0": 23, "round1_g_at_1": 31, "round1_sum_0_1": 54, "round1_g_at_r": 47,
+        "round2_g_at_0": 14, "round2_g_at_1": 33, "round2_sum_0_1": 47, "round2_g_at_r": 71,
+        "round3_g_at_0": 31, "round3_g_at_1": 40, "round3_sum_0_1": 71, "round3_g_at_r": 67
+      },
+      "result": [],
+      "note": "Empty list = no drift; every numeric value the manim scene displays matches the Sage manifest."
+    },
+    "ledger_refs": [
+      "CHAPTER_BIBLE Ch 8 — central question: 'how can a verifier be convinced that a sum over exponentially many terms is correct without ever adding them?'; protocol: prover sends g_1, verifier checks g_1(0)+g_1(1)=H, picks random r_1, recurses on g_1(r_1).",
+      "CHAPTER_BIBLE Ch 8 — 'the soundness bound d·v/|F| ... derived from Ch 7's Schwartz-Zippel, one round at a time.'",
+      "CHAPTER_BIBLE Ch 8 'Connects backward' — 'sum-check needs no commitment scheme — a deliberate purity that makes GKR the first practical no-commitment proof system.'",
+      "graphify: Sumcheck Protocol --assumes--> SuperSpartan <--assumes-- MLE; Sumcheck Protocol --references--> Layer 4 --references--> Schwartz-Zippel Lemma."
+    ],
+    "adversarial_findings": [
+      {
+        "finding": "Univariate degrees differ across rounds (g1 degree 2; g2,g3 degree 1); a reader could think the bound 6/97 with d=2 is wrong.",
+        "resolution": "d is the per-variable degree BOUND (max possible univariate degree, here 2 since x1 is squared); d·v/|F| uses this uniform upper bound. Realized degrees (2,1,1) only lower the true risk (≤ 4/97). Both stated separately in draft.md.",
+        "status": "resolved"
+      },
+      {
+        "finding": "Off-by-one / transcription risk in the running-claim chain H → g1(r1) → g2(r2) → g3(r3).",
+        "resolution": "All four identities are Python asserts in the recipe (no manifest emitted unless they hold); re-derived in a second Sage session (54→47→71→67); the scene recomputes the chain and validate_scene_values returns [].",
+        "status": "resolved"
+      },
+      {
+        "finding": "Challenges are fixed (2,3,4), not random — could look unsound or value-dependent.",
+        "resolution": "Fixed challenges are for a reproducible transcript (the completeness side); soundness is about a uniformly random r_i and is argued separately via Schwartz–Zippel. draft.md states r_i is random and unpredictable to the prover in a real run.",
+        "status": "resolved"
+      },
+      {
+        "finding": "Risk the figure/animation is empty or stale.",
+        "resolution": "Re-ran the recipe; sum_check.svg is 40,778 bytes. Rendered with still=False; sum_check.mp4 is 770,050 bytes. Both copied into the draft and non-empty.",
+        "status": "resolved"
+      }
+    ],
+    "verified": true
+  },
+  "comprehension_set": [
+    {
+      "level": "recall",
+      "question": "In one round of sum-check, what does the prover send, and exactly which identity does the verifier check before moving on — and does the verifier ever recompute the true partial sum?",
+      "answer_key": "The prover sends a univariate g_i(X) (the claimed partial sum with earlier variables fixed to past challenges and later variables summed over {0,1}). The verifier checks g_i(0) + g_i(1) = (running claim) (H in round 1, g_{i−1}(r_{i−1}) afterward). It never recomputes a true partial sum; its only direct contact with g is the final g(r_1,…,r_n).",
+      "targets_stuck_point": "‘Each round the verifier compares g_i to the TRUE univariate, so it must already know the answer’ — it only checks an internal consistency identity.",
+      "on_miss_route_to": "MLE (multilinear extension) — the object summed over the Boolean hypercube"
+    },
+    {
+      "level": "apply",
+      "question": "For g(x1,x2,x3) = 2x1²x2 + 3x2x3 + x1 + 5 over GF(97) with H = 54 and fixed challenges r1=2, r2=3, r3=4: the prover sends g1(X) = 23 + 4X + 4X². Check round 1, then state the running claim entering round 2 and the final value the verifier checks against g directly.",
+      "answer_key": "Round 1: g1(0)+g1(1) = 23 + 31 = 54 = H ✓. Running claim entering round 2 = g1(2) = 47. Then g2(X)=14+19X gives 14+33=47=g1(2), g2(3)=71; g3(X)=31+9X gives 31+40=71=g2(3), g3(4)=67. The one direct check against g is g3(4)=67 = g(2,3,4)=67.",
+      "targets_stuck_point": "‘The verifier must look at all 2^n terms (or blindly trust H)’ — it checks a chain of one-variable identities ending in one evaluation.",
+      "on_miss_route_to": "summation/expectation over a finite domain — the sum over {0,1}^n"
+    },
+    {
+      "level": "transfer",
+      "question": "Why can a cheating prover not just repair its lie each round, and why is the total soundness error only d·v/|F| rather than something that blows up with the number of variables?",
+      "answer_key": "A lie forces g_i to differ from the true round polynomial by a non-zero degree-≤d polynomial, so a random r_i exposes it with probability ≥ 1 − d/|F| (Schwartz–Zippel), pushing the prover into a fresh undefendable claim; the lie must survive every round (induction). The per-round risks ≤ d/|F| ADD by the union bound over v variables to ≤ d·v/|F| — linear in v, tiny for a large field. No commitment or assumption is used.",
+      "targets_stuck_point": "‘Per-round error compounds multiplicatively / a caught liar can repair its lie next round’ — errors add to d·v/|F| and a lie must survive every round.",
+      "on_miss_route_to": "the Schwartz–Zippel lemma — the per-round soundness source (carried from Ch 7)"
+    },
+    {
+      "level": "rediscover",
+      "question": "You could have invented this. You must convince a verifier that Σ_{x∈{0,1}^n} g(x) = H without anyone adding 2^n terms, knowing only that (a) a low-degree univariate is pinned down by a few evaluations and (b) a non-zero low-degree polynomial is non-zero at a random point with high probability. Design a protocol and give its error.",
+      "answer_key": "Strip one variable per round. Round i: ask for g_i(X) = Σ over the remaining {0,1} variables of g with x_1..x_{i−1} fixed to past challenges and x_i = X; check g_i(0)+g_i(1) = current claim; pick random r_i and demand the smaller claim g_i(r_i) next round (a lying g_i is exposed at random r_i with prob ≥ 1 − d/|F|). After n rounds check g_n(r_n) = g(r_1,…,r_n) directly. Honest provers always pass; a cheat survives all rounds with probability ≤ d·v/|F|. That is sum-check — no commitment, just Schwartz–Zippel per round.",
+      "targets_stuck_point": "‘Sum-check needs a commitment / cryptographic primitive’ — the construction uses only Schwartz–Zippel and oracle access to g.",
+      "on_miss_route_to": "proof by mathematical induction — the soundness argument is an induction on rounds"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "concept": "Sum-Check protocol",
+  "claims": [
+    {
+      "claim": "The field is GF(97) (|F| = 97) and g(x1,x2,x3) = 2·x1²·x2 + 3·x2·x3 + x1 + 5 is a 3-variable polynomial over it.",
+      "source": "sage_manifest.field / sage_manifest.polynomial / scripts/recipes/sum-check.sage",
+      "status": "verified",
+      "evidence": "Sage manifest field = 97, num_vars = 3, polynomial = '2*x1^2*x2 + 3*x2*x3 + x1 + 5'; the manim scene SCENE_VALUES.field = 97, num_vars = 3 and reconstructs g in pure Python."
+    },
+    {
+      "claim": "The claimed sum over the Boolean hypercube is H = Σ_{x∈{0,1}³} g(x) = 54.",
+      "source": "sage_manifest.H",
+      "status": "verified",
+      "evidence": "Sage manifest H = 54. Independent Sage re-derivation with different variable names and a direct corner-sum reproduces H = 54. The manim scene recomputes H in pure Python and gets 54."
+    },
+    {
+      "claim": "Round 1: the prover's univariate is g1(X) = 23 + 4X + 4X² (degree 2), and g1(0)+g1(1) = 23+31 = 54 = H.",
+      "source": "sage_manifest.rounds[0]",
+      "status": "verified",
+      "evidence": "Sage: g1.list() = [23,4,4], g1(0)=23, g1(1)=31, sum = 54 = H. Identity g1(0)+g1(1)==H asserted in the recipe (no AssertionError). Scene reproduces [23,4,4], 23, 31, 54 in pure Python."
+    },
+    {
+      "claim": "Round 2: with challenge r1 = 2, g1(2) = 47 becomes the running claim; the prover sends g2(X) = 14 + 19X (degree 1) with g2(0)+g2(1) = 14+33 = 47 = g1(2).",
+      "source": "sage_manifest.rounds[1] / sage_manifest.challenges.r1",
+      "status": "verified",
+      "evidence": "Sage: g1(2)=47; g2.list()=[14,19], g2(0)=14, g2(1)=33, sum=47=g1(2). Identity g2(0)+g2(1)==g1(r1) asserted in the recipe. Scene reproduces 47, [14,19], 14, 33, 47."
+    },
+    {
+      "claim": "Round 3: with challenge r2 = 3, g2(3) = 71 becomes the running claim; the prover sends g3(X) = 31 + 9X (degree 1) with g3(0)+g3(1) = 31+40 = 71 = g2(3).",
+      "source": "sage_manifest.rounds[2] / sage_manifest.challenges.r2",
+      "status": "verified",
+      "evidence": "Sage: g2(3)=71; g3.list()=[31,9], g3(0)=31, g3(1)=40, sum=71=g2(3). Identity g3(0)+g3(1)==g2(r2) asserted in the recipe. Scene reproduces 71, [31,9], 31, 40, 71."
+    },
+    {
+      "claim": "Final fold: with challenge r3 = 4, g3(4) = 67 equals g(r1,r2,r3) = g(2,3,4) = 67 — the single evaluation the verifier checks against g directly.",
+      "source": "sage_manifest.rounds[2].g_at_r / sage_manifest.final_eval",
+      "status": "verified",
+      "evidence": "Sage: g3(4)=67 and g(2,3,4)=67. Identity g3(r3)==g(r1,r2,r3) asserted in the recipe. Scene reproduces final_eval = 67."
+    },
+    {
+      "claim": "The sum-check soundness bound is d·v/|F| = 2·3/97 = 6/97 ≈ 6.19%, where d = per-variable degree bound (2), v = number of variables (3), |F| = 97.",
+      "source": "lemma (Schwartz–Zippel per round + union bound) + sage_manifest.soundness_bound",
+      "status": "verified",
+      "evidence": "Each round risks ≤ d/|F| = 2/97 by Schwartz–Zippel applied to the difference of the claimed and true univariate (degree ≤ 2); the union bound over v = 3 rounds gives ≤ 6/97. 6/97 ≈ 0.0619. Stated as the WORST-CASE bound; the realized round degrees here are 2,1,1 so the realized risk for this instance is ≤ (2+1+1)/97 = 4/97 — stated separately and not presented as the worst-case 6/97.",
+      "ledger_ref": "CHAPTER_BIBLE Ch 8 'soundness bound d·v/|F| (degree times number of variables over field size), derived from Ch 7's Schwartz-Zippel, one round at a time.'"
+    },
+    {
+      "claim": "Sum-check uses no commitment scheme and no cryptographic hardness assumption; its soundness is unconditional given oracle access to g.",
+      "source": "CHAPTER_BIBLE Ch 8 'Connects backward' + graphify path to Schwartz-Zippel",
+      "status": "verified",
+      "evidence": "The only soundness ingredient is Schwartz–Zippel (unconditional, root-counted), applied per round; no group, commitment, or assumption appears in the recipe or the bound. Bible: 'sum-check needs no commitment scheme — a deliberate purity that makes GKR the first practical no-commitment proof system the reader meets.'"
+    }
+  ],
+  "sage_manifest": {
+    "figure": "assets/figures/sum_check.svg",
+    "field": 97,
+    "num_vars": 3,
+    "polynomial": "2*x1^2*x2 + 3*x2*x3 + x1 + 5",
+    "H": 54,
+    "challenges": {"r1": 2, "r2": 3, "r3": 4},
+    "rounds": [
+      {"i": 1, "coeffs": [23, 4, 4], "g_at_0": 23, "g_at_1": 31, "sum_0_1": 54, "expected_claim": 54, "g_at_r": 47},
+      {"i": 2, "coeffs": [14, 19], "g_at_0": 14, "g_at_1": 33, "sum_0_1": 47, "expected_claim": 47, "g_at_r": 71},
+      {"i": 3, "coeffs": [31, 9], "g_at_0": 31, "g_at_1": 40, "sum_0_1": 71, "expected_claim": 71, "g_at_r": 67}
+    ],
+    "final_eval": 67,
+    "degree_bound_per_round": 2,
+    "soundness_bound": "d*v/|F| = 2*3/97 = 6/97",
+    "identities_hold": true
+  },
+  "scene_value_check": {
+    "tool": "scripts/manim_render.validate_scene_values",
+    "scene_values": {
+      "field": 97, "num_vars": 3, "H": 54, "final_eval": 67,
+      "round1_g_at_0": 23, "round1_g_at_1": 31, "round1_sum_0_1": 54, "round1_g_at_r": 47,
+      "round2_g_at_0": 14, "round2_g_at_1": 33, "round2_sum_0_1": 47, "round2_g_at_r": 71,
+      "round3_g_at_0": 31, "round3_g_at_1": 40, "round3_sum_0_1": 71, "round3_g_at_r": 67
+    },
+    "result": [],
+    "note": "Empty list = no drift; every numeric value the manim scene displays matches the Sage manifest (verified with the manim conda-env Python importing the scene module and the project Sage manifest)."
+  },
+  "ledger_refs": [
+    "CHAPTER_BIBLE Ch 8 'The One Idea: Sum-Check and GKR' — central question: 'how can a verifier be convinced that a sum over exponentially many terms is correct without ever adding them?'; protocol walk: prover sends g_1, verifier checks g_1(0)+g_1(1)=H, picks random r_1, recurses on g_1(r_1).",
+    "CHAPTER_BIBLE Ch 8 — 'the soundness bound d·v/|F| (degree times number of variables over field size) ... derived from Ch 7's Schwartz-Zippel, one round at a time.'",
+    "CHAPTER_BIBLE Ch 8 'Connects backward' — 'sum-check needs no commitment scheme — a deliberate purity that makes GKR the first practical no-commitment proof system.'",
+    "graphify: Sumcheck Protocol --assumes--> SuperSpartan <--assumes-- MLE (sum-check sums the MLE); Sumcheck Protocol --references--> Layer 4 --references--> Schwartz-Zippel Lemma (per-round soundness source)."
+  ],
+  "adversarial_findings": [
+    {
+      "finding": "The univariate degrees differ across rounds (g1 is degree 2, g2 and g3 are degree 1). A reader could think the worst-case bound 6/97 = d·v/|F| with d=2 is wrong because not every round is degree 2.",
+      "resolution": "d in the bound is the per-variable DEGREE BOUND (the maximum univariate degree any round can have for this g), which is 2 because x1 appears squared. The bound d·v/|F| uses this uniform upper bound so it holds before the verifier sees the actual degrees; the realized per-round degrees (2,1,1) only make the true risk smaller (≤ 4/97). Both the worst-case 6/97 and the realized ≤ 4/97 are stated separately in draft.md; neither is presented as the other.",
+      "status": "resolved"
+    },
+    {
+      "finding": "Risk of an off-by-one or transcription error in the chain of running claims (H → g1(r1) → g2(r2) → g3(r3)).",
+      "resolution": "Every identity is enforced as a Python assert in the Sage recipe (g1(0)+g1(1)==H; g2(0)+g2(1)==g1(r1); g3(0)+g3(1)==g2(r2); g3(r3)==g(r1,r2,r3)) — the recipe cannot emit a manifest unless all four hold. Independently re-derived in a second Sage session with different variable names: H=54, chain 54→47→71→67, all matching. The manim scene recomputes the entire chain in pure Python and validate_scene_values returns [].",
+      "status": "resolved"
+    },
+    {
+      "finding": "The challenges r1,r2,r3 are fixed (2,3,4), not random — a reader might think this makes the demonstration unsound or that soundness depends on these specific values.",
+      "resolution": "The fixed challenges are a REPRODUCIBILITY choice for a worked transcript; the soundness CLAIM is about a uniformly random r_i. The draft states explicitly that in a real protocol r_i is drawn at random and unpredictable to the prover, and that the d·v/|F| bound is exactly the probability that random challenges fail to expose a lie. The completeness side (an honest prover always passes) is what the fixed-challenge transcript demonstrates; the soundness side is argued separately via Schwartz–Zippel.",
+      "status": "resolved"
+    },
+    {
+      "finding": "Risk that the figure asset or the animation is empty or stale.",
+      "resolution": "Re-ran the Sage recipe; assets/figures/sum_check.svg is 40,778 bytes and copied into figures/. Rendered the SumCheck scene with render_scene(..., still=False); animations/sum_check.mp4 is 770,050 bytes and non-empty. No staleness.",
+      "status": "resolved"
+    }
+  ],
+  "verified": true
+}

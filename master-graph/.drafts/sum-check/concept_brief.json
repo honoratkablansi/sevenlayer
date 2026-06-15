@@ -1,0 +1,53 @@
+{
+  "concept": "Sum-Check protocol",
+  "stratum": "Algebra II: multivariate & multilinear (the modern representation)",
+  "first_needed": "Ch 8 (built in full)",
+  "depth": "R",
+  "target_depth": "rigorous",
+  "prerequisites": [
+    "MLE (multilinear extension) — the object summed over the Boolean hypercube",
+    "polynomials in several variables and their (per-variable) degree",
+    "summation/expectation over a finite domain — the sum over {0,1}^n",
+    "the Schwartz–Zippel lemma — the per-round soundness source (carried from Ch 7)",
+    "proof by mathematical induction — the soundness argument is an induction on rounds",
+    "the notion of a Boolean / arithmetic circuit and its add/mult gates",
+    "modular arithmetic in F_p / finite fields (carried from Ch 7)",
+    "probability / the union bound (carried from Ch 7)"
+  ],
+  "assumed_background": [
+    "From Ch 7: the multilinear extension (MLE), the Schwartz–Zippel lemma (proved), low-degree extension, finite fields — load-bearing in full.",
+    "From Ch 6: arithmetized constraints and the Sudoku encoding (the constraints that get summed); the 'spot-check' intuition this chapter completes into a protocol.",
+    "From Ch 1–2: random challenges, bounded error, and soundness as a felt promise ('almost always'); the verifier asks random questions a cheater cannot anticipate.",
+    "Comfort manipulating the Ch 7 objects: evaluating a multivariate polynomial at a point, reading off a univariate's degree.",
+    "Mathematical induction stated sharply enough to chain a per-round bound into an overall bound."
+  ],
+  "learning_objectives": [
+    "State the sum-check claim: H = Σ_{x∈{0,1}^n} g(x), and explain why a verifier cannot afford to add the 2^n terms directly.",
+    "Describe one round: the prover sends a univariate g_i(X) (the partial sum fixing earlier challenges and summing later variables over {0,1}); the verifier checks g_i(0)+g_i(1) equals the running claim, then picks a challenge r_i and recurses on the (n−1)-variable claim g_i(r_i).",
+    "Derive the soundness bound d·v/|F| (per-variable degree d times number of variables v over field size |F|) from Schwartz–Zippel applied once per round, via induction on the rounds.",
+    "Compute one full transcript on a concrete polynomial over GF(97): verify g_1(0)+g_1(1)=H and each g_i(0)+g_i(1)=g_{i−1}(r_{i−1}), ending at the single evaluation g(r_1,…,r_n).",
+    "Explain why sum-check needs NO commitment scheme — it is a pure interactive reduction assuming oracle access to g — and why that purity makes GKR the first no-commitment proof system the reader meets.",
+    "Connect sum-check to its book role: the single most-reused gadget downstream — grand-product/ZeroTest (Ch 9), Spartan and the folding hinge (Ch 10), folding schemes defined on sum-check (Ch 14), LogUp-GKR / zkVM lookups (Ch 15)."
+  ],
+  "graphify_subgraph": {
+    "query": "graphify query 'Sumcheck Protocol'  (+ graphify explain 'Sumcheck Protocol', graphify path 'Sumcheck Protocol' 'Multilinear Extension', graphify path 'Sumcheck Protocol' 'Schwartz-Zippel Lemma')",
+    "traversal": "BFS depth=2, 310 nodes; explain reports node degree 57, community 8",
+    "node": "Sumcheck Protocol [id=concept_sumcheck src=wiki/chapters/05-encoding-the-performance.md community=8 degree=57]",
+    "outgoing_edges": [
+      "Sumcheck Protocol --defines--> The Sumcheck Protocol: The Hidden Foundation [EXTRACTED]",
+      "Sumcheck Protocol --assumes--> SuperSpartan: SNARK family for CCS generalizing Spartan's polynomial IOP [EXTRACTED]",
+      "Sumcheck Protocol --references--> Layer 4 -- Arithmetization --references--> Schwartz-Zippel Lemma (2-hop path; Schwartz–Zippel is the per-round soundness source)",
+      "Sumcheck Protocol --conceptually_related_to--> CCS: The Rosetta Stone / Spartan / Lasso / HyperNova / LatticeFold / Folding Scheme [EXTRACTED/INFERRED]",
+      "Sumcheck Protocol --references--> Lookup Arguments / The Folding Genealogy / Witness Generation Costs / The Overhead Tax"
+    ],
+    "incoming_edges": [
+      "Layer 5 -- The Sealed Certificate --references--> Sumcheck Protocol",
+      "Encoding the Performance --references--> Sumcheck Protocol",
+      "zkVMs -- The Universal Stage --references--> Sumcheck Protocol",
+      "The Secret Performance --references--> Sumcheck Protocol"
+    ],
+    "path_to_mle": "Sumcheck Protocol --assumes--> SuperSpartan <--assumes-- Multilinear extension (MLE)  (2 hops: the MLE is the object sum-check sums)",
+    "path_to_schwartz_zippel": "Sumcheck Protocol --references--> Layer 4 -- Arithmetization --references--> Schwartz-Zippel Lemma  (2 hops: SZ is the per-round soundness source)",
+    "interpretation": "The live graph places Sum-Check in community 8 with degree 57 — one of the highest-degree god-nodes — and shows it *defining* 'The Sumcheck Protocol: The Hidden Foundation' while being *referenced* by Layer 5 (the sealed certificate), Encoding the Performance, zkVMs, and the secret-performance chapter. The two shortest paths confirm the chapter framing exactly: sum-check *assumes* the MLE (the object summed) and *references* Schwartz–Zippel through Layer-4 arithmetization (the per-round soundness source). The dense conceptually_related_to fan-out to CCS/Spartan/Lasso/HyperNova/LatticeFold/folding schemes corroborates the bible's 'single most-reused gadget downstream' claim. The brief's prerequisites (MLE, Schwartz–Zippel) and forward-role objectives are taken directly from these edges."
+  }
+}
