@@ -1,0 +1,11 @@
+# Math-explainer concept drafts
+
+Chapter-grade draft bundles produced by the `math-explainer` skill (full six-stage pipeline; live Sage + manim + graphify; every bundle schema-valid with a **scorecard PASS**). Each `<slug>/` holds `draft.md` (three Tao phases + "Math you'll need" sidebar + "rediscover-it" box + comprehension set), the five stage artifacts as JSON, a correct-by-construction Sage figure under `figures/`, and a manim animation under `animations/`.
+
+- [Schwartz–Zippel lemma](schwartz-zippel/draft.md) — **Ch 7** — why a low-degree polynomial's roots are rare: one random spot-check catches a liar with overwhelming probability. ([figure](schwartz-zippel/figures/schwartz_zippel.svg) · [animation](schwartz-zippel/animations/schwartz_zippel.mp4))
+- [Multilinear extension (MLE)](multilinear-extension/draft.md) — **Ch 7** — the unique multilinear polynomial that agrees with a table on the Boolean hypercube, extended to the whole space. ([figure](multilinear-extension/figures/multilinear-extension.svg) · [animation](multilinear-extension/animations/multilinear-extension.mp4))
+- [Sum-Check protocol](sum-check/draft.md) — **Ch 8** — collapsing an exponential hypercube sum to a single random evaluation, one variable per round. ([figure](sum-check/figures/sum_check.svg) · [animation](sum-check/animations/sum_check.mp4))
+- [Pedersen commitment](pedersen-commitment/draft.md) — **Ch 11** — `gᵐhʳ`: perfectly hiding, computationally binding (breaking binding solves the discrete log). ([figure](pedersen-commitment/figures/pedersen-commitment.svg) · [animation](pedersen-commitment/animations/pedersen-commitment.mp4))
+- [Bilinear pairings](bilinear-pairings/draft.md) — **Ch 11** — `e(aP,bQ) = e(P,Q)^{ab}`: a verifier checks a multiplicative relation among hidden exponents. ([figure](bilinear-pairings/figures/bilinear_pairings.svg) · [animation](bilinear-pairings/animations/bilinear_pairings.mp4))
+
+*Generators live in the skill: Sage recipes at `.claude/skills/math-explainer/scripts/recipes/<slug>.sage`, manim scenes at `.claude/skills/math-explainer/scripts/scenes/<slug>.py`.*
