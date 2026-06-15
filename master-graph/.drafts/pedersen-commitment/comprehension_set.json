@@ -1,0 +1,30 @@
+[
+  {
+    "level": "recall",
+    "question": "Write down the Pedersen commitment to a message m with randomness r in a prime-order group with public generators g and h, and name its two security properties and which one is unconditional.",
+    "answer_key": "Com(m, r) = g^m * h^r in the group. It is PERFECTLY (information-theoretically) HIDING and COMPUTATIONALLY BINDING. Hiding is the unconditional one: it needs no assumption. Binding rests on the discrete-log assumption between g and h.",
+    "targets_stuck_point": "'A commitment can be both perfectly hiding and perfectly binding' — anchored by naming exactly one property (hiding) as unconditional and the other (binding) as computational.",
+    "on_miss_route_to": "the Discrete Logarithm assumption (given g and h = g^a in a prime-order group, recovering a is infeasible)"
+  },
+  {
+    "level": "apply",
+    "question": "In the order-1019 subgroup of (Z/2039Z)* with g = 9, h = 726, you publish C = g^42 * h^800 = 71. Does C leak the message m = 42? Exhibit a different message m' = 100 that the SAME C also opens to, and give the randomness r' that does it.",
+    "answer_key": "C does not leak m: for the fixed message, the map r -> g^42 * h^r is a bijection onto all 1019 group elements, so C = 71 is uniform and independent of m. The same C = 71 opens to m' = 100 with r' = r + (m - m')*a^{-1} mod 1019, where a = log_g(h) = 571; this gives r' = 186, and indeed g^100 * h^186 mod 2039 = 71. (Knowing a is what makes such an alternate opening computable — see binding.)",
+    "targets_stuck_point": "'C = g^m * h^r leaks m because m is in the exponent' — refuted by the bijection/uniformity and by an explicit second opening of the same C.",
+    "on_miss_route_to": "modular arithmetic and modular inverses in Z/pZ and Z/qZ"
+  },
+  {
+    "level": "transfer",
+    "question": "Suppose an adversary produces two valid openings (m, r) and (m', r') of the SAME commitment C with m != m'. What have they necessarily computed, and what does this tell you about the assumption binding rests on — and why is hiding NOT in the same boat?",
+    "answer_key": "From g^m h^r = g^{m'} h^{r'} you get g^{m-m'} = h^{r'-r}, hence log_g(h) = (m - m') * (r' - r)^{-1} mod q. So two openings force the discrete log of h base g: breaking binding == solving DLog, which is why binding is only computational (it holds against any adversary who cannot solve DLog). Hiding is different: it is proved by counting (r -> Com(m,r) is uniform over the group), needs no hardness assumption, and holds even against an unbounded adversary — that is why it is perfect.",
+    "targets_stuck_point": "'Hiding rests on the discrete-log assumption, just like binding' — separated by deriving binding from DLog while proving hiding by an unconditional uniformity argument.",
+    "on_miss_route_to": "the Discrete Logarithm assumption (given g and h = g^a in a prime-order group, recovering a is infeasible)"
+  },
+  {
+    "level": "rediscover",
+    "question": "You could have invented this. You want to seal a number m so that (a) the sealed value reveals nothing about m, yet (b) you cannot later claim a different m. You have a prime-order group with a generator g, and you can publish a second element h whose discrete log base g you do not know. Derive a commitment from scratch and argue both properties.",
+    "answer_key": "Pick fresh randomness r and publish C = g^m * h^r. HIDING: for fixed m, as r ranges over the group's exponents, h^r is uniform over the whole group, so C is uniform and independent of m — the seal reveals nothing (no assumption needed). BINDING: if you could open C to two different messages (m, r) and (m', r'), then g^{m-m'} = h^{r'-r}, so you would know log_g(h) = (m-m')*(r'-r)^{-1}; since nobody knows that discrete log, you cannot. You have rediscovered the Pedersen commitment: perfectly hiding, computationally binding, with binding == discrete log.",
+    "targets_stuck_point": "'g and h can be any two elements; their relationship does not matter' — the rediscovery hinges on publishing an h whose discrete log base g is unknown, which IS the binding security.",
+    "on_miss_route_to": "prime-order groups (why every non-identity element is a generator; safe primes p = 2q + 1)"
+  }
+]

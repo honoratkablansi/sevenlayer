@@ -1,0 +1,102 @@
+{
+  "concept": "Pedersen commitment",
+  "claims": [
+    {
+      "claim": "The group is the order-q subgroup of (Z/pZ)* with p = 2039 a safe prime (p = 2q + 1) and q = 1019 prime, so the subgroup has prime order and every non-identity element is a generator.",
+      "source": "sage_manifest.p / sage_manifest.group_order",
+      "status": "verified",
+      "evidence": "Sage: is_prime(2039) and is_prime(1019) and 2039 == 2*1019 + 1, all True. Independent recompute confirms p prime, q prime, p == 2q+1."
+    },
+    {
+      "claim": "g = 9 and h = 726 are two generators of the order-1019 subgroup (each has multiplicative order exactly 1019), and the secret relation is h = g^a with a = log_g(h) = 571.",
+      "source": "sage_manifest.g / sage_manifest.h / sage_manifest.true_dlog",
+      "status": "verified",
+      "evidence": "Sage: g.multiplicative_order() == 1019 and h.multiplicative_order() == 1019, both True; discrete_log(h, g) = 571 == sage_manifest.true_dlog. g = 3^2 and h = g^571 by construction in the recipe."
+    },
+    {
+      "claim": "For message m = 42 and randomness r = 800, the Pedersen commitment Com(m, r) = g^m * h^r mod 2039 equals C = 71.",
+      "source": "sage_manifest.commitment",
+      "status": "verified",
+      "evidence": "Sage recipe emits commitment = 71. Independent recompute g^42 * h^800 mod 2039 = 71. The manim scene recomputes COMMITMENT in pure Python (pow(9,42,2039)*pow(726,800,2039) % 2039) and also gets 71; validate_scene_values reports no drift."
+    },
+    {
+      "claim": "PERFECT HIDING (numerical): for the fixed message m = 42, sweeping r over the sample [0, 1, 800, 17, 999] gives five DISTINCT commitments [1641, 590, 71, 143, 834] spread across the group; over all 1019 values of r the commitment is uniform over the whole subgroup.",
+      "source": "sage_manifest.hiding_orbit / sage_manifest.hiding_distinct",
+      "status": "verified",
+      "evidence": "Sage: hiding_orbit = [1641, 590, 71, 143, 834], hiding_distinct = True (the entry 71 is C itself, since r = 800 is in the sample). Independent recompute: { g^42 * h^r : r in 0..1018 } has exactly 1019 distinct elements = q, i.e. r -> Com(42, r) is a bijection onto the subgroup. Hence C is uniform and independent of m: perfect, information-theoretic hiding, no assumption used."
+    },
+    {
+      "claim": "PERFECT HIDING (alternate opening): the SAME commitment C = 71 opens to a DIFFERENT message m' = 100 with randomness r' = 186; r' is forced as r' = r + (m - m')*a^{-1} mod q.",
+      "source": "sage_manifest.m_alt / sage_manifest.r_alt / sage_manifest.commitment_alt / sage_manifest.hiding_collision_ok",
+      "status": "verified",
+      "evidence": "Sage: with a^{-1} = inverse_mod(571, 1019), r_alt = (800 + (42 - 100)*a^{-1}) mod 1019 = 186, and g^100 * h^186 mod 2039 = 71 = C; hiding_collision_ok = True. Independent recompute reproduces r_alt = 186 and C_alt = 71. This exhibits the perfect-hiding fact: every message has exactly one randomness opening C."
+    },
+    {
+      "claim": "COMPUTATIONAL BINDING reduces to discrete log: the two distinct openings (42, 800) and (100, 186) of C = 71 yield log_g(h) = (m - m')*(r' - r)^{-1} mod q = 571 = a; so producing two openings is equivalent to solving DLog.",
+      "source": "sage_manifest.extracted_dlog / sage_manifest.binding_extracts_dlog",
+      "status": "verified",
+      "evidence": "Sage: dr = (186 - 800) mod 1019, extracted_a = ((42 - 100)*inverse_mod(dr, 1019)) mod 1019 = 571 = true_dlog; binding_extracts_dlog = True. Independent recompute of the extractor returns 571. Binding therefore holds for any adversary who cannot compute a = log_g(h): it is computational, resting on the Discrete Logarithm assumption.",
+      "ledger_ref": "CHAPTER_BIBLE Ch 11: 'Pedersen commitment Com(m,r)=g^m h^r (C56, deg 39) -- perfectly hiding, computationally binding (binding => DLog).'"
+    },
+    {
+      "claim": "Pedersen is perfectly hiding and only computationally binding (the two cannot both be perfect for one group element); the dual choice of parameters would flip which property is unconditional.",
+      "source": "lemma (hiding uniformity is information-theoretic; binding reduces to DLog) + Sage demonstrations above",
+      "status": "verified",
+      "evidence": "Hiding shown information-theoretically (bijection r -> Com(m,r), no assumption). Binding shown to reduce to DLog (extractor recovers a). The perfect-hiding alternate opening (same C, different m') is itself the proof that binding cannot also be perfect: an unbounded adversary who could compute a would open C to any message. Consistent with the chapter-bible characterization."
+    }
+  ],
+  "sage_manifest": {
+    "figure": "assets/figures/pedersen-commitment.svg",
+    "p": 2039,
+    "group_order": 1019,
+    "g": 9,
+    "h": 726,
+    "m": 42,
+    "r": 800,
+    "commitment": 71,
+    "hiding_orbit": [1641, 590, 71, 143, 834],
+    "hiding_distinct": true,
+    "m_alt": 100,
+    "r_alt": 186,
+    "commitment_alt": 71,
+    "hiding_collision_ok": true,
+    "extracted_dlog": 571,
+    "true_dlog": 571,
+    "binding_extracts_dlog": true
+  },
+  "scene_value_check": {
+    "tool": "scripts/manim_render.validate_scene_values",
+    "scene_values": {"p": 2039, "group_order": 1019, "g": 9, "h": 726, "m": 42, "r": 800, "commitment": 71, "hiding_distinct": true},
+    "result": [],
+    "note": "Empty list = no drift; every computed value the manim scene displays (p, q, g, h, m, r, C, hiding_distinct) matches the Sage manifest. The scene recomputes Com(m,r) in pure Python independently of Sage."
+  },
+  "ledger_refs": [
+    "CHAPTER_BIBLE Ch 11 -- 'Commitment constructions (closes the Ch 2 spiral): Pedersen commitment Com(m,r)=g^m h^r (C56, deg 39) -- perfectly hiding, computationally binding (binding => DLog); the vector Pedersen commitment h^r * prod g_i^{m_i}; the generic commitment now built, not assumed.'",
+    "CHAPTER_BIBLE Ch 11 -- 'the Pedersen commitment (g^m h^r, perfectly hiding / computationally binding, plus the vector form) is built as the simplest discrete-log commitment -- closing the Ch 2 spiral -- with IPA shown as a Pedersen-vector argument, and the Discrete Logarithm Assumption named explicitly as the hardness bet (alongside CDH/q-SDH).'",
+    "CHAPTER_BIBLE Ch 2 -- the sealed-envelope commitment with hiding/binding named in plain terms, 'the Pedersen construction that actually builds the sealed envelope is deferred to Ch 11.'",
+    "graphify subgraph (community 2): Pedersen Commitments --assumes--> Discrete Logarithm Assumption; --conceptually_related_to--> Pedersen Vector Commitment / Additively-Homomorphic Vector Commitment / PolyCommitPed; --assumes--> Logarithmic-Size Range Proof / MPC Protocol for Distributed Bulletproof Generation."
+  ],
+  "adversarial_findings": [
+    {
+      "finding": "Risk of conflating 'perfectly hiding' with 'perfectly binding' (claiming Pedersen is unconditionally secure on both axes).",
+      "resolution": "Stated and proved the asymmetry explicitly: hiding is information-theoretic (bijection r -> Com(m,r) over the whole order-q subgroup, no assumption), binding is computational (extractor reduces two openings to log_g(h) = 571). The perfect-hiding alternate opening (m'=100, r'=186, same C=71) is exactly the witness that binding cannot also be perfect. Verified numerically in Sage. Prose in draft.md keeps the two halves separate.",
+      "status": "resolved"
+    },
+    {
+      "finding": "Possible off-by-one or wrong-modulus error: exponents live mod q = 1019 while the group elements live mod p = 2039; mixing them would corrupt r_alt or the extractor.",
+      "resolution": "Confirmed the two moduli are used correctly: group multiplication is mod p = 2039; all exponent arithmetic (a^{-1}, r_alt, the extractor (m-m')*(r'-r)^{-1}) is mod q = 1019. Re-derived r_alt = 186 and extracted a = 571 two independent ways (recipe + standalone Sage); both agree and C_alt = C = 71.",
+      "status": "resolved"
+    },
+    {
+      "finding": "Risk that g or h is not actually a generator (e.g. equals the identity or has order < q), which would silently break hiding/binding.",
+      "resolution": "Verified g = 9 and h = 726 each have multiplicative_order exactly 1019, and g, h != 1. Because q is prime and p = 2q+1 is a safe prime, every quadratic residue != 1 has order q, so g = 3^2 and h = g^571 are bona fide generators.",
+      "status": "resolved"
+    },
+    {
+      "finding": "Risk that the figure or animation asset is empty, stale, or mismatched with the manifest.",
+      "resolution": "Re-ran the Sage recipe; assets/figures/pedersen-commitment.svg is 13,971 bytes and copied into figures/. Rendered the manim clip with render_scene(still=False); animations/pedersen-commitment.mp4 is 571,842 bytes. validate_scene_values returns [] (no drift between the scene's displayed values and the manifest).",
+      "status": "resolved"
+    }
+  ],
+  "verified": true
+}

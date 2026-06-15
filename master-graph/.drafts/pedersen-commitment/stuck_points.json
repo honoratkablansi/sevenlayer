@@ -1,0 +1,48 @@
+{
+  "misconceptions": [
+    {
+      "claim": "A commitment can be both perfectly hiding and perfectly binding at the same time.",
+      "why_tempting": "The sealed-envelope picture suggests one object that perfectly conceals the value AND perfectly prevents swapping it. But a single group element cannot do both: Pedersen is PERFECTLY hiding and only COMPUTATIONALLY binding, and the dual scheme flips which property is perfect. One side is always only computational.",
+      "severity": "high"
+    },
+    {
+      "claim": "The commitment C = g^m * h^r leaks information about the message m because m is right there in the exponent.",
+      "why_tempting": "Seeing 'g^m' makes it feel like m is encoded and therefore extractable. In fact the blinding term h^r randomizes C uniformly over the whole group; for a fixed m, varying r hits every group element equally often, so C is statistically independent of m.",
+      "severity": "high"
+    },
+    {
+      "claim": "Hiding rests on the discrete-log assumption, just like binding.",
+      "why_tempting": "Both properties live in a DLog group, so the reader bundles them under one assumption. But hiding is INFORMATION-THEORETIC (perfect, holds against an unbounded adversary, no assumption needed); only BINDING is computational and rests on DLog. Conflating them mis-states the security model.",
+      "severity": "high"
+    },
+    {
+      "claim": "The randomness r is just salt; any value works and it never has to be remembered.",
+      "why_tempting": "In hashing, salt is throwaway. Here r is the OPENING: to open C you must reveal exactly (m, r), and r is also what makes hiding perfect. Lose r and you cannot open; reuse or leak r and hiding degrades. r is structural, not decorative.",
+      "severity": "medium"
+    },
+    {
+      "claim": "g and h can be any two group elements; their relationship does not matter.",
+      "why_tempting": "They are both just public generators, so they look interchangeable. But if the committer knows a = log_g(h), binding collapses: knowing a lets you open any C to any message. The security of binding is exactly 'nobody knows the discrete log between g and h.'",
+      "severity": "medium"
+    },
+    {
+      "claim": "Binding being only computational means Pedersen is weak / easily cheated.",
+      "why_tempting": "'Only computational' sounds like a loophole. But computational binding under DLog in a well-chosen group is as strong as the rest of the system's cryptography; an attacker who breaks it has solved discrete log, which is the whole hardness bet the chapter rests on.",
+      "severity": "low"
+    }
+  ],
+  "dumb_questions": [
+    "If m sits in the exponent of g^m, why can't I just read it off from C?",
+    "What exactly do I send to 'open' the commitment, and why can't I send a different message later?",
+    "Which property needs the discrete-log assumption — hiding, binding, or both?",
+    "Why two generators g and h? What goes wrong with just g^m?",
+    "What concretely happens if I learn log_g(h)?",
+    "How can hiding be 'perfect' (no assumption) when binding is only 'computational'?"
+  ],
+  "bad_intuitions_to_kill": [
+    "'One envelope is perfectly hiding AND perfectly binding.' The rigorous phase must replace this with: Pedersen is perfectly hiding and computationally binding; you trade off which is unconditional, you never get both.",
+    "'g^m leaks m.' Kill by showing that for fixed m the map r -> g^m * h^r is a bijection onto the whole order-q group, so C is uniform and independent of m (perfect hiding).",
+    "'Hiding needs DLog.' Kill by proving hiding information-theoretically (uniformity argument, no assumption), and isolating DLog as the support of binding ONLY.",
+    "'g, h are arbitrary and independent.' Kill by exhibiting the extractor: two openings of one C give a = log_g(h); equivalently, knowing a breaks binding. Their relationship IS the security."
+  ]
+}
