@@ -1,0 +1,14 @@
+{
+  "concept": "Schwartz–Zippel lemma",
+  "phases": {"pre_rigorous": "random spot-check picture", "rigorous": "P(agreement) <= d/|F|", "post_rigorous": "why a random point almost never lies"},
+  "modes_order": ["analogy", "visual", "worked_example", "formal", "synthesis"],
+  "led_with_visual": true,
+  "motivated_before_defined": true,
+  "notation_in_pre_rigorous": false,
+  "heuristic_rigorous_pairs": [["random spot-check", "P(agreement) <= d/|F|"]],
+  "stuck_points_predicted": ["thinks a large field is needed for completeness"],
+  "stuck_points_addressed": ["thinks a large field is needed for completeness"],
+  "accuracy_verified": true,
+  "comprehension_levels": ["recall", "apply", "transfer", "rediscover"],
+  "rediscovery_prompt_present": true
+}
