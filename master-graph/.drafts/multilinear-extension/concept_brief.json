@@ -1,0 +1,55 @@
+{
+  "concept": "Multilinear extension (MLE)",
+  "stratum": "Algebra II: multivariate & multilinear (the modern representation)",
+  "first_needed": "Ch 7",
+  "depth": "R",
+  "target_depth": "rigorous",
+  "prerequisites": [
+    "multivariate polynomials; total degree vs individual (per-variable) degree",
+    "the Boolean hypercube {0,1}ⁿ as an index set",
+    "univariate Lagrange interpolation and the low-degree extension (LDE)",
+    "polynomials over a finite field (evaluation, degree, the bounded fundamental theorem of algebra)",
+    "the idea of a vector space over a field (a basis spans uniquely)",
+    "modular arithmetic in F_p / finite fields"
+  ],
+  "assumed_background": [
+    "From Ch 7 (earlier in the chapter): finite-field arithmetic in F_p; univariate Lagrange interpolation; the low-degree extension (LDE) — a table of values uniquely determines a low-degree polynomial through them",
+    "From Ch 6: arithmetization — the 72-constraint Sudoku table; the felt idea that 'polynomials encode the computation'; reducing a whole-table claim to a claim about one random point",
+    "External: polynomials in several variables and their degree; that a basis of a vector space gives unique coordinates; modular ('clock') arithmetic at an intuitive level",
+    "Schwartz–Zippel (proved just before this section): a nonzero degree-d polynomial vanishes on at most d/|F| of its domain — the tool that will later test MLE identities"
+  ],
+  "learning_objectives": [
+    "Define a multilinear polynomial: degree at most 1 in each variable separately (individual degree ≤ 1), so its monomials are products of distinct variables.",
+    "State the multilinear extension (MLE) of f:{0,1}ⁿ→F as the UNIQUE multilinear polynomial f̃ that agrees with f on every corner of the Boolean hypercube, and explain why uniqueness holds (2ⁿ coefficients, 2ⁿ corner constraints, an invertible system).",
+    "Write the explicit interpolation formula MLE(x)=Σ_{w∈{0,1}ⁿ} f(w)·∏ᵢ (xᵢwᵢ+(1−xᵢ)(1−wᵢ)) and recognize the product as the multilinear Lagrange basis χ_w that is 1 at corner w and 0 at every other corner.",
+    "Evaluate an MLE at an OFF-cube point (e.g. n=3 over F_97, MLE(2,5,3)=5) and verify it reproduces f on all 2ⁿ corners.",
+    "Explain WHY multilinear (degree 1 per variable, a degree-n object) rather than univariate degree-d: n variables let the verifier strip one variable at a time, so 2ⁿ table values compress to an object handled coordinate-by-coordinate.",
+    "Connect the MLE to its book role: it is the form in which a claim about a whole table becomes a claim about a polynomial — the object the sum-check protocol (Ch 8) consumes and the structure that makes Lasso/Jolt lookups (Ch 15) evaluable in O(log N) time."
+  ],
+  "graphify_subgraph": {
+    "query": "graphify query 'Multilinear Extension'",
+    "traversal": "BFS depth=2, 46 nodes",
+    "node": "Multilinear extension (MLE) [id=concept_multilinear-extension src=references/ch03/ref-16-jolt.pdf §2.1, Lemma 1 community=30 degree=7]",
+    "outgoing_edges": [
+      "Jolt: SNARKs for Virtual Machines via Lookups --assumes--> Multilinear extension (MLE)",
+      "Multilinear extension (MLE) --assumes--> SuperSpartan (SNARK family for CCS generalizing Spartan's polynomial IOP)",
+      "Multilinear extension (MLE) --assumes--> Per-instruction MLE-structured evaluation tables (EQ, LTU, SLL, AND/OR/XOR, ADD/SUB, MUL)",
+      "Multilinear extension (MLE) --assumes--> MLE-structured table: the MLE of the table is evaluable in O(log N) time, so no party commits to it",
+      "Multilinear extension (MLE) --conceptually_related_to--> Generalized Committed Linear Relation R_lin,B",
+      "Multilinear extension (MLE) --conceptually_related_to--> Expanded Evaluation Relation R^B_eval"
+    ],
+    "path_to_sumcheck": "graphify path 'Multilinear extension (MLE)' 'Sumcheck Protocol' → 2 hops: MLE --assumes--> SuperSpartan <--assumes-- Sumcheck Protocol (the MLE is the object the sum-check IOP defends).",
+    "community_neighbors": [
+      "Sumcheck Protocol",
+      "Encoding the Performance",
+      "CCS (Customizable Constraint Systems)",
+      "R1CS",
+      "Lookup Arguments",
+      "Lasso",
+      "Jolt (SNARKs for VMs via Lookups)",
+      "GeneralizedLasso: lookup argument for any MLE/low-degree-structured table via the sparse-dense sum-check protocol",
+      "Polynomial Commitment Scheme"
+    ],
+    "interpretation": "The live graph places the MLE in community 30 (the Lasso/Jolt lookup-argument cluster) with degree 7, sourced at Jolt §2.1 Lemma 1 and reached in 2 hops from the Sumcheck Protocol via SuperSpartan. Both the inbound edge (Jolt 'assumes' the MLE) and the outbound 'assumes' edges to MLE-structured tables confirm the chapter framing: the MLE is the load-bearing representation downstream — the object sum-check consumes (Ch 8) and the structure that makes a giant lookup table evaluable in O(log N) without committing to it (Ch 15, Lasso/Jolt). The brief's role objective and the 'why multilinear vs univariate' framing are taken directly from these edges and from CHAPTER_BIBLE Ch 7."
+  }
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "level": "recall",
+    "question": "What does it mean for a polynomial in n variables to be multilinear, and how many coefficients does the space of multilinear polynomials in n variables have?",
+    "answer_key": "Multilinear means individual degree at most 1 in each variable separately, so every monomial is a product of a distinct subset of the n variables (e.g. 1, x₁, x₂, x₁x₂, …). There is one coefficient per subset of the n variables, so the space has 2ⁿ coefficients (dimension 2ⁿ). Note this is NOT total degree 1 — terms like x₁x₂x₃ are allowed, so the total degree can be as high as n.",
+    "targets_stuck_point": "'Multilinear means total degree 1 (a flat plane)' — individual degree ≤ 1 per variable still allows products like x₁x₂x₃.",
+    "on_miss_route_to": "multivariate polynomials; total degree vs individual (per-variable) degree"
+  },
+  {
+    "level": "apply",
+    "question": "Let f:{0,1}³→F_97 have cube values f(000..111) = [1,4,2,8,3,5,7,6]. Using MLE(x)=Σ_w f(w)·∏ᵢ(xᵢwᵢ+(1−xᵢ)(1−wᵢ)), what is f̃(2,5,3) over F_97, and does f̃ reproduce f on the corners?",
+    "answer_key": "f̃(2,5,3) = 5 over F_97. Each basis term ∏ᵢ(xᵢwᵢ+(1−xᵢ)(1−wᵢ)) is 1 at corner w and 0 at every other corner, so on any corner x=w the sum collapses to f(w) — f̃ agrees with f at all 8 corners. At the off-cube point (2,5,3) the basis terms are no longer 0/1; the weighted sum evaluates to 5 (confirmed independently by building f̃ as a polynomial over GF(97) and evaluating).",
+    "targets_stuck_point": "'The MLE is only defined on the cube' — (2,5,3) is off the cube yet f̃ has a genuine value there.",
+    "on_miss_route_to": "univariate Lagrange interpolation and the low-degree extension (LDE)"
+  },
+  {
+    "level": "transfer",
+    "question": "A verifier holds a table of 2ⁿ values and wants to reduce a claim about the whole table to a claim about one polynomial it can probe at a random point. Why is the MLE the right object, and why multilinear rather than a single univariate degree-(2ⁿ−1) interpolant?",
+    "answer_key": "The MLE is the unique low-degree polynomial that encodes the table: it agrees with the table on the cube and is defined everywhere, so a random-point query (via Schwartz–Zippel) tests the whole table at once. Multilinear (degree 1 in each of n variables) is chosen over a univariate degree-(2ⁿ−1) interpolant because the per-variable structure lets a verifier strip ONE variable per round — this is exactly what sum-check (Ch 8) does, reducing an n-variable claim to an (n−1)-variable claim, down to a single evaluation. A single high-degree univariate object has no such coordinate-by-coordinate handle. (This same MLE structure is what makes Lasso/Jolt lookup tables evaluable in O(log N) without committing to them.)",
+    "targets_stuck_point": "'Use univariate degree-(2ⁿ−1) interpolation instead' — flattening to one variable destroys the per-coordinate structure sum-check exploits.",
+    "on_miss_route_to": "the Boolean hypercube {0,1}ⁿ as an index set"
+  },
+  {
+    "level": "rediscover",
+    "question": "You could have invented this. You have a function f given only on the 2ⁿ corners of {0,1}ⁿ and you want ONE polynomial that (a) reproduces f on the corners and (b) is as simple as possible. Derive the extension and argue it is unique — what basis do you build, and why is there exactly one answer?",
+    "answer_key": "For one variable, the indicator 'x equals w' is x when w=1 and (1−x) when w=0 — i.e. xw+(1−x)(1−w). Take products across the n coordinates: χ_w(x)=∏ᵢ(xᵢwᵢ+(1−xᵢ)(1−wᵢ)) is 1 at corner w and 0 at every other corner. Then f̃(x)=Σ_w f(w)·χ_w(x) reproduces f on the cube by construction, and each χ_w is multilinear, so f̃ is multilinear. Uniqueness: the multilinear polynomials in n variables form a 2ⁿ-dimensional space, and the 2ⁿ corner-evaluation constraints form an invertible system (the χ_w are a basis), so exactly one multilinear polynomial agrees with f on the cube. You have rediscovered the multilinear extension — the multivariate echo of Lagrange interpolation.",
+    "targets_stuck_point": "'The extension is non-unique / arbitrary' — restricting to multilinear (2ⁿ coefficients, 2ⁿ constraints) pins down exactly one.",
+    "on_miss_route_to": "the idea of a vector space over a field (a basis spans uniquely)"
+  }
+]

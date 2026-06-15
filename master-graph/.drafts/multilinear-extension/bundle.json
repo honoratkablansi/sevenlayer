@@ -1,0 +1,183 @@
+{
+  "concept": "Multilinear extension (MLE)",
+  "slug": "multilinear-extension",
+  "chapter": "Ch 7 — Fingerprints: Why Polynomials Catch Liars",
+  "stratum": "Algebra II: multivariate & multilinear (the modern representation)",
+  "target_depth": "rigorous",
+  "phases": {
+    "pre_rigorous": "You have a function that only exists at corners — a table with one number on each corner of a cube. Over the unit square {0,1}² that is four numbers, say 1, 4, 3, 6, perched at the corners with nothing in between. You want one smooth object that passes through all four corner values and fills in everything else, so you can probe it anywhere. The figure shows the answer (lead with it): one natural surface flows through the four corners. Two things stand out. First, it AGREES with the table on every corner — the whole job. Second, it is STRAIGHT along each axis: walk along one edge with the other coordinate fixed and the height moves on a straight line — the midpoint of the bottom edge sits at 2, exactly halfway between corners 1 and 3 — while the center of the square lands at 3.5, the plain average of the four corners. That 'straight along each axis' property is the secret; it is what 'multilinear' means and what makes the surface the only sensible one. You did not pick it; the corners forced it. (No formula yet — we only named the corner values and watched the surface fill in.)",
+    "rigorous": "Now make it precise. Let f:{0,1}ⁿ→F be a function on the Boolean hypercube — a table of 2ⁿ field values, one per corner. Call a polynomial MULTILINEAR if it has degree at most 1 in each variable separately (individual degree ≤ 1). This is NOT total degree 1: a term like x₁x₂x₃ is degree 1 in each variable, so it is allowed, and total degree can reach n. The multilinear monomials are the products of distinct subsets of the n variables — 2ⁿ of them — so the multilinear polynomials form a 2ⁿ-dimensional space. The multilinear extension (MLE) of f, written f̃, is THE multilinear polynomial agreeing with f on every corner, given explicitly by f̃(x) = Σ_{w∈{0,1}ⁿ} f(w)·∏ᵢ(xᵢwᵢ+(1−xᵢ)(1−wᵢ)). Read the inner factor coordinate by coordinate: xᵢwᵢ+(1−xᵢ)(1−wᵢ) is xᵢ when wᵢ=1 and 1−xᵢ when wᵢ=0 — the one-variable indicator 'is xᵢ equal to wᵢ?'. So χ_w(x)=∏ᵢ(…) is 1 at corner w and 0 at every other corner; at any corner x=w the sum collapses to f(w), and f̃ reproduces f on the cube. This destroys the bad intuitions: (1) 'non-unique' is false — among multilinear polynomials there is exactly one, since the 2ⁿ-dim space is pinned by 2ⁿ invertible corner constraints; (2) 'multilinear = flat' is false — our n=3 example has individual degree 1 but total degree 3; (3) 'lives only on the cube' is false — f̃(2,5,3)=5 over F₉₇, a genuine off-cube value. For the table f(000…111)=[1,4,2,8,3,5,7,6] over F₉₇ the formula reproduces all eight corners and gives f̃(2,5,3)=5 (verified two ways: the basis sum and f̃ built as an explicit polynomial in F₉₇[x₀,x₁,x₂]).",
+    "post_rigorous": "Rebuild the intuition on the rigor, both halves at once. The 'smooth surface through the corners' picture IS the formula f̃=Σ_w f(w)·χ_w, with each χ_w the bump that is 1 at corner w and 0 elsewhere: the surface reproducing the table is the collapse at x=w; 'straight along each axis but bends in the middle' is individual degree ≤ 1 with total degree up to n; 'only one such surface' is the 2ⁿ-dimensional space pinned by 2ⁿ constraints; the center 3.5 is 2⁻ⁿ Σ_w f(w), the average of the corners. Now the design choice is obvious — WHY multilinear, not univariate? You could flatten 2ⁿ values onto a single univariate degree-(2ⁿ−1) interpolant, but that is one rigid object with no handle. The MLE keeps n variables at degree 1 each, so a verifier can strip ONE variable at a time — exactly the sum-check move (Ch 8) that turns an n-variable claim into an (n−1)-variable claim, round by round, down to a single evaluation Ch 7's random-point machinery finishes. The MLE is the form in which a whole-table claim becomes a claim about a polynomial — the object sum-check consumes, and (live graph, community 30) the structure that lets Lasso/Jolt evaluate a giant lookup table's MLE in O(log N) time without committing to it. Keep one boundary sharp: multilinear is about INDIVIDUAL degree, not total degree; confusing the two collapses the bending that makes the object expressive.",
+    "you_could_have_invented_this": "Knowing only the one-variable indicator 'x equals w' = xw+(1−x)(1−w), you can invent the whole construction: multiply these across coordinates to get χ_w(x)=∏ᵢ(xᵢwᵢ+(1−xᵢ)(1−wᵢ)), which is 1 at corner w and 0 elsewhere; then f̃=Σ_w f(w)·χ_w reproduces f on the cube and is multilinear. It is unique because the 2ⁿ-dimensional multilinear space is pinned by 2ⁿ invertible corner constraints. That is the multilinear extension — the multivariate echo of Lagrange interpolation. You derived it; you did not receive it."
+  },
+  "modes_order": ["visual", "analogy", "worked_example", "formal", "synthesis"],
+  "led_with_visual": true,
+  "motivated_before_defined": true,
+  "notation_in_pre_rigorous": false,
+  "heuristic_rigorous_pairs": [
+    [
+      "One smooth surface flows through the four corner values and reproduces the table on every corner.",
+      "f̃(x) = Σ_{w∈{0,1}ⁿ} f(w)·χ_w(x) with χ_w(w)=1 and χ_w(w')=0 for w'≠w, so at x=w the sum collapses to f(w); hence f̃|_cube = f."
+    ],
+    [
+      "The surface is straight along each axis but bends in the middle.",
+      "f̃ is multilinear: individual degree ≤ 1 in each variable (straight in each coordinate), but total degree up to n (the n=3 example has total degree 3), so it is not flat."
+    ],
+    [
+      "There is only one such surface; you did not pick it, the corners forced it.",
+      "The multilinear polynomials in n variables form a 2ⁿ-dimensional space, and the 2ⁿ corner-evaluation constraints are an invertible system (the χ_w are a basis) ⇒ f̃ is unique."
+    ],
+    [
+      "The middle of the square is the average of the four corners (center = 3.5).",
+      "f̃(½,…,½) = 2⁻ⁿ Σ_{w∈{0,1}ⁿ} f(w); for the picture's corners {1,4,3,6}, mean = 14/4 = 3.5."
+    ],
+    [
+      "A whole-table claim becomes a claim about one polynomial the verifier can probe, handled one variable at a time.",
+      "Keeping n variables at degree 1 each lets sum-check (Ch 8) reduce an n-variable claim to an (n−1)-variable claim per round; a single univariate degree-(2ⁿ−1) interpolant offers no such per-coordinate handle."
+    ]
+  ],
+  "stuck_points_predicted": [
+    "extension_is_non_unique",
+    "multilinear_means_total_degree_one",
+    "mle_only_lives_on_cube",
+    "use_univariate_interpolation_instead",
+    "lagrange_basis_is_alien_gadget",
+    "offcube_eval_is_exponential"
+  ],
+  "stuck_points_addressed": [
+    "extension_is_non_unique",
+    "multilinear_means_total_degree_one",
+    "mle_only_lives_on_cube",
+    "use_univariate_interpolation_instead",
+    "lagrange_basis_is_alien_gadget",
+    "offcube_eval_is_exponential"
+  ],
+  "figure_ref": "figures/multilinear-extension.svg",
+  "animation_ref": "animations/multilinear-extension.mp4",
+  "accuracy_report": {
+    "concept": "Multilinear extension (MLE)",
+    "claims": [
+      {
+        "claim": "The numeric manifest uses n = 3 over the prime field F_97.",
+        "source": "sage_manifest.n / sage_manifest.field",
+        "status": "verified",
+        "evidence": "Sage manifest n = 3, field = 97."
+      },
+      {
+        "claim": "f:{0,1}³→F_97 has the 8 cube values [1,4,2,8,3,5,7,6] in lexicographic corner order.",
+        "source": "scripts/recipes/multilinear-extension.sage",
+        "status": "verified",
+        "evidence": "Recipe defines fvals with exactly these 2³ = 8 values; manifest cube_corners/cube_values reproduce them in order."
+      },
+      {
+        "claim": "The multilinear extension f̃ agrees with f on every one of the 8 cube corners.",
+        "source": "sage_manifest.agrees_on_cube",
+        "status": "verified",
+        "evidence": "Recipe asserts mle(w)==f(w) for all w (agrees_on_cube=true). Independent Sage recompute building f̃ as a polynomial in GF(97)[x0,x1,x2] and evaluating at every corner also reports AGREE_ON_CUBE: True."
+      },
+      {
+        "claim": "f̃ is multilinear: individual degree ≤ 1 per variable (here exactly 1), total degree ≤ n = 3.",
+        "source": "Sage recompute (polynomial form)",
+        "status": "verified",
+        "evidence": "Independent recompute: degrees in (x0,x1,x2) = (1,1,1); total degree 3; exactly 8 distinct subset-monomials, confirming the 2ⁿ-dimensional multilinear space."
+      },
+      {
+        "claim": "f̃ is the UNIQUE multilinear polynomial agreeing with f on the cube (2ⁿ=8 coefficients pinned by 2ⁿ=8 corner constraints, invertible).",
+        "source": "dimension count + Sage recompute",
+        "status": "verified",
+        "evidence": "Multilinear space in 3 variables has dimension 2³=8; the corner-evaluation map via the χ_w basis is invertible, so a multilinear polynomial is determined by its 8 cube values. Sage confirms exactly 8 monomials.",
+        "ledger_ref": "CHAPTER_BIBLE Ch 7 — 'the unique multilinear agreeing on the cube.'"
+      },
+      {
+        "claim": "Off-cube evaluation f̃(2,5,3) = 5 over F_97 via MLE(x)=Σ_w f(w)·∏ᵢ(xᵢwᵢ+(1−xᵢ)(1−wᵢ)).",
+        "source": "sage_manifest.offcube_point / offcube_mle",
+        "status": "verified",
+        "evidence": "Recipe basis-sum gives 5 at (2,5,3); independent explicit polynomial P(2,5,3) over GF(97) also yields 5. (2,5,3) is off the cube, so this is a genuine extension value."
+      },
+      {
+        "claim": "The n=2 picture: corners [1,4,3,6] extended to the smooth bilinear surface; agrees on corners, linear along each axis; edge-midpoint 2.0, center 3.5.",
+        "source": "sage_manifest.picture_* + scene",
+        "status": "verified",
+        "evidence": "Recipe bil: bil(0.5,0)=2.0=½·1+½·3 (straight-line restriction along x1); bil(0.5,0.5)=3.5=mean(1,4,3,6). The manim scene recomputes bil in pure Python; SCENE_VALUES match the manifest with no drift."
+      }
+    ],
+    "sage_manifest": {
+      "figure": "assets/figures/multilinear-extension.svg",
+      "n": 3,
+      "field": 97,
+      "cube_corners": [[0,0,0],[0,0,1],[0,1,0],[0,1,1],[1,0,0],[1,0,1],[1,1,0],[1,1,1]],
+      "cube_values": [1,4,2,8,3,5,7,6],
+      "agrees_on_cube": true,
+      "offcube_point": [2,5,3],
+      "offcube_mle": 5,
+      "picture_n": 2,
+      "picture_corner_values": [1,4,3,6],
+      "picture_center": 3.5,
+      "picture_edge_midpoint": 2.0
+    },
+    "scene_value_check": {
+      "tool": "scripts/manim_render.validate_scene_values",
+      "scene_values": {"picture_corner_values": [1,4,3,6], "picture_center": 3.5, "picture_edge_midpoint": 2.0, "agrees_on_cube": true},
+      "result": [],
+      "note": "Empty list = no drift; every value the manim scene displays matches the Sage manifest's picture_* fields."
+    },
+    "ledger_refs": [
+      "CHAPTER_BIBLE Ch 7 — Core god-node (C47) 'Multilinear extension (MLE)'; content walk: 'the MLE of a function on the Boolean hypercube {0,1}^n ... why multilinear, not univariate — n variables of degree 1 each, so 2^n evaluation points compress to a degree-n object the verifier can handle one variable at a time.'",
+      "CHAPTER_BIBLE Ch 8 — 'the MLE is the object summed'; the form in which a table claim becomes a polynomial claim.",
+      "graphify subgraph (community 30): Jolt --assumes--> MLE; MLE --assumes--> MLE-structured table (evaluable in O(log N), no commitment); path MLE→Sumcheck via SuperSpartan (2 hops)."
+    ],
+    "adversarial_findings": [
+      {
+        "finding": "Risk that 'the' MLE is presented as unique without justification (many polynomials pass through 8 points).",
+        "resolution": "Uniqueness established two ways and stated in prose: dimension count (2³=8-dim multilinear space, invertible corner system) and Sage recompute (exactly 8 monomials). The non-uniqueness objection is named in stuck_points and answered (multilinear restriction, not point count, removes the freedom).",
+        "status": "resolved"
+      },
+      {
+        "finding": "Possible confusion that 'multilinear' means total degree 1 (a flat plane).",
+        "resolution": "Recompute shows total degree 3, individual degree 1 per variable; prose and animation make it concrete — the n=2 surface bends (saddle) but is straight along each axis, shown by sliding a point along an edge. Both numbers stated separately.",
+        "status": "resolved"
+      },
+      {
+        "finding": "Off-by-one / arithmetic risk in the off-cube value MLE(2,5,3).",
+        "resolution": "Re-derived two ways over F_97: the basis-sum formula (5) and an explicit polynomial P(2,5,3) in GF(97)[x0,x1,x2] (5). Both agree.",
+        "status": "resolved"
+      },
+      {
+        "finding": "Risk that the figure asset is empty/stale or the scene values drift.",
+        "resolution": "Re-ran the recipe via run_sage.py (validate_figure passed); SVG is 109,780 bytes and copied into figures/. validate_scene_values returns [] (no drift).",
+        "status": "resolved"
+      }
+    ],
+    "verified": true
+  },
+  "comprehension_set": [
+    {
+      "level": "recall",
+      "question": "What does it mean for a polynomial in n variables to be multilinear, and how many coefficients does the space of multilinear polynomials in n variables have?",
+      "answer_key": "Individual degree at most 1 in each variable separately, so each monomial is a product of a distinct subset of the n variables — 2ⁿ of them, a 2ⁿ-dimensional space. This is NOT total degree 1: terms like x₁x₂x₃ are allowed, so total degree can reach n.",
+      "targets_stuck_point": "'Multilinear means total degree 1 (a flat plane)' — individual degree ≤ 1 per variable still allows products like x₁x₂x₃.",
+      "on_miss_route_to": "multivariate polynomials; total degree vs individual (per-variable) degree"
+    },
+    {
+      "level": "apply",
+      "question": "Let f:{0,1}³→F_97 have cube values f(000..111) = [1,4,2,8,3,5,7,6]. Using MLE(x)=Σ_w f(w)·∏ᵢ(xᵢwᵢ+(1−xᵢ)(1−wᵢ)), what is f̃(2,5,3) over F_97, and does f̃ reproduce f on the corners?",
+      "answer_key": "f̃(2,5,3) = 5 over F_97. Each basis term is 1 at corner w and 0 elsewhere, so on any corner x=w the sum collapses to f(w) — f̃ agrees with f at all 8 corners. At the off-cube point (2,5,3) the basis terms are no longer 0/1; the weighted sum evaluates to 5.",
+      "targets_stuck_point": "'The MLE is only defined on the cube' — (2,5,3) is off the cube yet f̃ has a genuine value there.",
+      "on_miss_route_to": "univariate Lagrange interpolation and the low-degree extension (LDE)"
+    },
+    {
+      "level": "transfer",
+      "question": "A verifier holds a table of 2ⁿ values and wants to reduce a claim about the whole table to a claim about one polynomial it can probe at a random point. Why is the MLE the right object, and why multilinear rather than a single univariate degree-(2ⁿ−1) interpolant?",
+      "answer_key": "The MLE is the unique low-degree polynomial encoding the table — it agrees on the cube and is defined everywhere, so a random-point query (Schwartz–Zippel) tests the whole table at once. Multilinear is chosen because the per-variable structure lets the verifier strip ONE variable per round (sum-check, Ch 8), reducing an n-variable claim to an (n−1)-variable claim down to a single evaluation; a high-degree univariate object has no such handle. The same MLE structure makes Lasso/Jolt lookup tables evaluable in O(log N) without committing to them.",
+      "targets_stuck_point": "'Use univariate degree-(2ⁿ−1) interpolation instead' — flattening to one variable destroys the per-coordinate structure sum-check exploits.",
+      "on_miss_route_to": "the Boolean hypercube {0,1}ⁿ as an index set"
+    },
+    {
+      "level": "rediscover",
+      "question": "You could have invented this. You have f given only on the 2ⁿ corners of {0,1}ⁿ and want one polynomial that reproduces f and is as simple as possible. Derive the extension and argue it is unique — what basis do you build, and why is there exactly one answer?",
+      "answer_key": "For one variable, the indicator 'x equals w' is x when w=1 and (1−x) when w=0 — i.e. xw+(1−x)(1−w). Take products across coordinates: χ_w(x)=∏ᵢ(xᵢwᵢ+(1−xᵢ)(1−wᵢ)) is 1 at corner w and 0 at every other corner. Then f̃(x)=Σ_w f(w)·χ_w(x) reproduces f on the cube and is multilinear. Uniqueness: the multilinear polynomials form a 2ⁿ-dimensional space and the 2ⁿ corner constraints are an invertible system, so exactly one multilinear polynomial fits — the multilinear extension, the multivariate echo of Lagrange interpolation.",
+      "targets_stuck_point": "'The extension is non-unique / arbitrary' — restricting to multilinear (2ⁿ coefficients, 2ⁿ constraints) pins down exactly one.",
+      "on_miss_route_to": "the idea of a vector space over a field (a basis spans uniquely)"
+    }
+  ]
+}

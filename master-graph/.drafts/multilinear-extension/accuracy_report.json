@@ -1,0 +1,96 @@
+{
+  "concept": "Multilinear extension (MLE)",
+  "claims": [
+    {
+      "claim": "The numeric manifest uses n = 3 over the prime field F_97.",
+      "source": "sage_manifest.n / sage_manifest.field",
+      "status": "verified",
+      "evidence": "Sage manifest n = 3, field = 97."
+    },
+    {
+      "claim": "f:{0,1}³→F_97 has the 8 cube values [1,4,2,8,3,5,7,6] in lexicographic corner order (000,001,010,011,100,101,110,111).",
+      "source": "scripts/recipes/multilinear-extension.sage",
+      "status": "verified",
+      "evidence": "Recipe defines fvals with exactly these 2³ = 8 values; manifest cube_corners/cube_values reproduce them in order."
+    },
+    {
+      "claim": "The multilinear extension f̃ agrees with f on every one of the 8 cube corners.",
+      "source": "sage_manifest.agrees_on_cube",
+      "status": "verified",
+      "evidence": "Recipe asserts mle(w) == f(w) for all w∈{0,1}³ (manifest agrees_on_cube = true). Independent Sage recompute, building f̃ as an actual polynomial in GF(97)[x0,x1,x2] and evaluating at every corner, also reports AGREE_ON_CUBE: True."
+    },
+    {
+      "claim": "f̃ is multilinear: individual degree ≤ 1 in each variable (here exactly 1 in each), total degree ≤ n = 3.",
+      "source": "Sage recompute (polynomial form)",
+      "status": "verified",
+      "evidence": "Independent recompute: degrees in (x0,x1,x2) are (1,1,1); total degree 3. f̃ has exactly 8 distinct monomials, each a product of a distinct subset of {x0,x1,x2} — confirming the 2ⁿ-dimensional multilinear space."
+    },
+    {
+      "claim": "f̃ is the UNIQUE multilinear polynomial agreeing with f on the cube: 2ⁿ = 8 multilinear coefficients pinned by 2ⁿ = 8 corner constraints, an invertible system.",
+      "source": "dimension count + Sage recompute",
+      "status": "verified",
+      "evidence": "The space of multilinear polynomials in 3 variables has dimension 2³ = 8 (one coefficient per subset of variables). The corner-evaluation map is the (invertible, triangular) χ_w basis evaluation, so a multilinear polynomial is determined by its 8 cube values. Sage confirms exactly 8 monomials.",
+      "ledger_ref": "CHAPTER_BIBLE Ch 7 — 'the multilinear extension (MLE) of a function on the Boolean hypercube {0,1}^n ... the unique multilinear agreeing on the cube.'"
+    },
+    {
+      "claim": "An off-cube evaluation: f̃(2,5,3) = 5 over F_97, computed via MLE(x)=Σ_w f(w)·∏ᵢ(xᵢwᵢ+(1−xᵢ)(1−wᵢ)).",
+      "source": "sage_manifest.offcube_point / offcube_mle",
+      "status": "verified",
+      "evidence": "Recipe: basis-sum formula gives offcube_mle = 5 at (2,5,3). Independent recompute via the explicit polynomial P(2,5,3) over GF(97) also yields 5. The point (2,5,3) is off the cube (coordinates outside {0,1}), so this is a genuine extension value."
+    },
+    {
+      "claim": "The figure shows the n = 2 picture: the unit square's 4 corner values [1,4,3,6] extended to the smooth bilinear surface, which agrees on the corners, is linear along each axis, has edge-midpoint value 2.0 and center value 3.5.",
+      "source": "sage_manifest.picture_* + scene",
+      "status": "verified",
+      "evidence": "Recipe bilinear bil(a,b): bil(0.5,0)=2.0 = ½·1+½·3 (average of corners (0,0)=1 and (1,0)=3, the straight-line restriction along x1); bil(0.5,0.5)=3.5 = mean(1,4,3,6). The manim scene recomputes bil in pure Python and its SCENE_VALUES match the manifest with no drift."
+    }
+  ],
+  "sage_manifest": {
+    "figure": "assets/figures/multilinear-extension.svg",
+    "n": 3,
+    "field": 97,
+    "cube_corners": [[0,0,0],[0,0,1],[0,1,0],[0,1,1],[1,0,0],[1,0,1],[1,1,0],[1,1,1]],
+    "cube_values": [1,4,2,8,3,5,7,6],
+    "agrees_on_cube": true,
+    "offcube_point": [2,5,3],
+    "offcube_mle": 5,
+    "picture_n": 2,
+    "picture_corner_values": [1,4,3,6],
+    "picture_center": 3.5,
+    "picture_edge_midpoint": 2.0
+  },
+  "scene_value_check": {
+    "tool": "scripts/manim_render.validate_scene_values",
+    "scene_values": {"picture_corner_values": [1,4,3,6], "picture_center": 3.5, "picture_edge_midpoint": 2.0, "agrees_on_cube": true},
+    "result": [],
+    "note": "Empty list = no drift; every value the manim scene displays (4 corner values, center 3.5, edge midpoint 2.0, agrees-on-cube true) matches the Sage manifest's picture_* fields."
+  },
+  "ledger_refs": [
+    "CHAPTER_BIBLE Ch 7 'Fingerprints: Why Polynomials Catch Liars' — Core god-node (C47): 'Multilinear extension (MLE)'; content walk: 'the multilinear extension (MLE) of a function on the Boolean hypercube {0,1}^n, and an argued case for why multilinear, not univariate — n variables of degree 1 each, so 2^n evaluation points compress to a degree-n object the verifier can handle one variable at a time.'",
+    "CHAPTER_BIBLE Ch 8 — 'the MLE is the object summed' (the form in which claims about a table become claims about a polynomial; the input sum-check consumes).",
+    "graphify subgraph (community 30): Jolt --assumes--> Multilinear extension (MLE); MLE --assumes--> MLE-structured table (evaluable in O(log N) time, so no party commits to it); path MLE→Sumcheck via SuperSpartan (2 hops)."
+  ],
+  "adversarial_findings": [
+    {
+      "finding": "Risk that 'the' MLE is presented as unique without justification — a reader could object that many polynomials pass through 8 points.",
+      "resolution": "Uniqueness is established two independent ways and stated explicitly in prose: (a) dimension count — the multilinear space in 3 variables is 2³ = 8-dimensional and the 8 corner constraints are an invertible (triangular χ_w) system; (b) Sage recompute shows f̃ has exactly 8 monomials. The non-uniqueness objection is named in stuck_points and answered (the freedom is removed by the multilinear restriction, not by the point count).",
+      "status": "resolved"
+    },
+    {
+      "finding": "Possible confusion that 'multilinear' means total degree 1 (a flat plane).",
+      "resolution": "Recompute shows total degree 3 with individual degree 1 per variable; prose and the animation make the distinction concrete — the n=2 surface bends (a saddle) but is straight along each axis, demonstrated by sliding a point along an edge. Both numbers (individual degree 1, total degree n=3) are stated separately.",
+      "status": "resolved"
+    },
+    {
+      "finding": "Off-by-one / arithmetic risk in the off-cube value MLE(2,5,3).",
+      "resolution": "Re-derived two independent ways over F_97: the basis-sum formula in the recipe (5) and an explicit polynomial P(2,5,3) built in GF(97)[x0,x1,x2] (5). Both agree; no arithmetic error.",
+      "status": "resolved"
+    },
+    {
+      "finding": "Risk that the figure asset is empty or stale, or that the scene values drift from the manifest.",
+      "resolution": "Re-ran the Sage recipe via run_sage.py (validate_figure passed); assets/figures/multilinear-extension.svg is 109,780 bytes and copied into figures/. validate_scene_values returns [] (no drift) for all scene values.",
+      "status": "resolved"
+    }
+  ],
+  "verified": true
+}

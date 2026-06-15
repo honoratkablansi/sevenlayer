@@ -1,0 +1,48 @@
+{
+  "misconceptions": [
+    {
+      "claim": "There are many polynomials through the 2ⁿ cube values, so 'the' multilinear extension is just one arbitrary choice among them.",
+      "why_tempting": "It is true that infinitely many polynomials pass through any finite set of points (you can always add a multiple of a vanishing polynomial). The reader hasn't yet seen that restricting to MULTILINEAR polynomials (individual degree ≤ 1) cuts the freedom down to exactly one — 2ⁿ coefficients pinned by 2ⁿ corner constraints.",
+      "severity": "high"
+    },
+    {
+      "claim": "'Multilinear' means total degree 1 (a flat plane / a linear function).",
+      "why_tempting": "The word 'linear' is right there, and over one variable multilinear does mean a line. But with n variables multilinear means degree ≤ 1 in EACH variable separately, so terms like x₁x₂x₃ are allowed — total degree can be as high as n. The surface bends; it is only straight along each axis.",
+      "severity": "high"
+    },
+    {
+      "claim": "The MLE is only defined on the cube {0,1}ⁿ, since that is where f lives.",
+      "why_tempting": "f itself is only a table of 2ⁿ values, so it feels like the extension can't say anything off the cube. The whole point is the opposite: the MLE is a polynomial defined at EVERY point of Fⁿ, and its off-cube values (e.g. MLE(2,5,3)=5 over F₉₇) are exactly what the verifier later queries at a random point.",
+      "severity": "high"
+    },
+    {
+      "claim": "You should extend the table with a single univariate degree-(2ⁿ−1) polynomial (ordinary Lagrange interpolation), not a multivariate one.",
+      "why_tempting": "Univariate Lagrange interpolation is the tool the reader just learned, and it does fit 2ⁿ points. But flattening the cube into one variable destroys the per-coordinate structure that lets a verifier strip one variable at a time (sum-check). Multilinear keeps each variable degree 1, trading a high univariate degree for n low-degree variables.",
+      "severity": "medium"
+    },
+    {
+      "claim": "The Lagrange basis term ∏ᵢ(xᵢwᵢ+(1−xᵢ)(1−wᵢ)) is a complicated new gadget unrelated to anything seen before.",
+      "why_tempting": "The formula looks intimidating. In fact each factor is just the 1-variable indicator 'is xᵢ equal to wᵢ?' — it is xᵢ when wᵢ=1 and 1−xᵢ when wᵢ=0 — so the product is 1 exactly at corner w and 0 at every other corner. It is the multivariate echo of the univariate Lagrange basis already in hand.",
+      "severity": "medium"
+    },
+    {
+      "claim": "Evaluating the MLE off the cube requires summing all 2ⁿ basis terms, so it is exponential and useless.",
+      "why_tempting": "The defining formula is a sum over 2ⁿ corners, which looks exponential. For a general table it is, but the MLE factors variable-by-variable, so structured tables (Lasso/Jolt) evaluate their MLE in O(log N) time — which is exactly why no party needs to commit to the table.",
+      "severity": "low"
+    }
+  ],
+  "dumb_questions": [
+    "If lots of polynomials pass through the 8 corner values, what makes ONE of them 'the' multilinear extension?",
+    "Does 'multilinear' mean the graph is a flat plane? If not, how can it bend and still be 'linear'?",
+    "The function f is only defined on corners — so what does MLE(2,5,3) even mean?",
+    "Why not just use the univariate interpolation I already know on the 2ⁿ values?",
+    "What is that big product ∏(xᵢwᵢ+(1−xᵢ)(1−wᵢ)) actually doing?",
+    "Why does anyone care about the value at a non-corner point?"
+  ],
+  "bad_intuitions_to_kill": [
+    "'The extension is non-unique / arbitrary.' Kill via dimension counting: the multilinear polynomials in n variables form a 2ⁿ-dimensional space; the 2ⁿ corner-evaluation constraints are an invertible (triangular) system, so there is EXACTLY one multilinear f̃ agreeing with f on the cube.",
+    "'Multilinear = total degree 1 = flat.' Kill by exhibiting x₁x₂ (and x₁x₂x₃): degree 1 in each variable, but the n=2 surface visibly bends — it is a saddle, straight only along each axis (the animation slides along an edge to show the straight-line restriction).",
+    "'The MLE only lives on the cube.' Kill by evaluating it at an off-cube point with the formula (MLE(2,5,3)=5 over F₉₇) — a genuine polynomial value the verifier will query at a random point.",
+    "'Use univariate degree-(2ⁿ−1) interpolation instead.' Kill by the 'why multilinear vs univariate' argument: n degree-1 variables let the verifier reduce one variable per round (sum-check), which a single high-degree univariate object cannot."
+  ]
+}
