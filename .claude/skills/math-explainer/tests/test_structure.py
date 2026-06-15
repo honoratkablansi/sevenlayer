@@ -22,3 +22,13 @@ def test_method_cards_exist_and_have_content():
     for phase in ("pre-rigorous", "rigorous", "post-rigorous"):
         assert phase in t.lower(), f"tao-staging.md missing phase: {phase}"
     assert "destroy bad intuition" in t.lower()
+
+def test_reference_docs_exist():
+    for name in ("dependency-protocol.md", "accuracy-protocol.md", "pipeline.md"):
+        p = SKILL / "references" / name
+        assert p.exists() and p.read_text(encoding="utf-8").strip(), f"empty/missing: {name}"
+
+def test_pipeline_lists_six_stages():
+    text = (SKILL / "references" / "pipeline.md").read_text(encoding="utf-8").lower()
+    for n in range(1, 7):
+        assert f"stage {n}" in text, f"pipeline.md missing Stage {n}"
