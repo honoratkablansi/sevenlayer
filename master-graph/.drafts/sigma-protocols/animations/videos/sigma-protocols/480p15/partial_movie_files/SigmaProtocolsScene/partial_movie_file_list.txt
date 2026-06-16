@@ -1,8 +1,0 @@
-# This file is used internally by FFMPEG.
-file 'file:/mnt/c/sevenlayer/master-graph/.drafts/sigma-protocols/animations/videos/sigma-protocols/480p15/partial_movie_files/SigmaProtocolsScene/1584795214_745234944_223132457.mp4'
-file 'file:/mnt/c/sevenlayer/master-graph/.drafts/sigma-protocols/animations/videos/sigma-protocols/480p15/partial_movie_files/SigmaProtocolsScene/4072820271_4204687520_851550358.mp4'
-file 'file:/mnt/c/sevenlayer/master-graph/.drafts/sigma-protocols/animations/videos/sigma-protocols/480p15/partial_movie_files/SigmaProtocolsScene/4072820271_283111500_624964420.mp4'
-file 'file:/mnt/c/sevenlayer/master-graph/.drafts/sigma-protocols/animations/videos/sigma-protocols/480p15/partial_movie_files/SigmaProtocolsScene/4072820271_3360574090_3040534955.mp4'
-file 'file:/mnt/c/sevenlayer/master-graph/.drafts/sigma-protocols/animations/videos/sigma-protocols/480p15/partial_movie_files/SigmaProtocolsScene/4072820271_981051516_4165324152.mp4'
-file 'file:/mnt/c/sevenlayer/master-graph/.drafts/sigma-protocols/animations/videos/sigma-protocols/480p15/partial_movie_files/SigmaProtocolsScene/4072820271_858080491_3868958235.mp4'
-file 'file:/mnt/c/sevenlayer/master-graph/.drafts/sigma-protocols/animations/videos/sigma-protocols/480p15/partial_movie_files/SigmaProtocolsScene/4072820271_160516573_2324394537.mp4'

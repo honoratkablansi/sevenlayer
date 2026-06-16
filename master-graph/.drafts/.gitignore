@@ -1,0 +1,4 @@
+# manim render intermediates — keep only each draft's final <slug>.mp4 (top of animations/) and figures/
+*/animations/texts/
+*/animations/videos/
+*/animations/images/

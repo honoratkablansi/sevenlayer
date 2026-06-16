@@ -1,7 +1,0 @@
-# This file is used internally by FFMPEG.
-file 'file:/mnt/c/sevenlayer/master-graph/.drafts/freivalds/animations/videos/freivalds/480p15/partial_movie_files/FreivaldsAlgorithm/1584795214_1880800451_223132457.mp4'
-file 'file:/mnt/c/sevenlayer/master-graph/.drafts/freivalds/animations/videos/freivalds/480p15/partial_movie_files/FreivaldsAlgorithm/4072820271_4017046121_3687641740.mp4'
-file 'file:/mnt/c/sevenlayer/master-graph/.drafts/freivalds/animations/videos/freivalds/480p15/partial_movie_files/FreivaldsAlgorithm/4072820271_582014452_2467638715.mp4'
-file 'file:/mnt/c/sevenlayer/master-graph/.drafts/freivalds/animations/videos/freivalds/480p15/partial_movie_files/FreivaldsAlgorithm/4072820271_3927587489_2086700298.mp4'
-file 'file:/mnt/c/sevenlayer/master-graph/.drafts/freivalds/animations/videos/freivalds/480p15/partial_movie_files/FreivaldsAlgorithm/4072820271_174223266_2325270809.mp4'
-file 'file:/mnt/c/sevenlayer/master-graph/.drafts/freivalds/animations/videos/freivalds/480p15/partial_movie_files/FreivaldsAlgorithm/4072820271_160516573_3161686364.mp4'

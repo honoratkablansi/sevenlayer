@@ -1,7 +1,0 @@
-# This file is used internally by FFMPEG.
-file 'file:/mnt/c/sevenlayer/master-graph/.drafts/reed-solomon/animations/videos/reed-solomon/480p15/partial_movie_files/ReedSolomonEncoding/1584795214_259862103_223132457.mp4'
-file 'file:/mnt/c/sevenlayer/master-graph/.drafts/reed-solomon/animations/videos/reed-solomon/480p15/partial_movie_files/ReedSolomonEncoding/4072820271_348010813_2788877272.mp4'
-file 'file:/mnt/c/sevenlayer/master-graph/.drafts/reed-solomon/animations/videos/reed-solomon/480p15/partial_movie_files/ReedSolomonEncoding/4072820271_759875332_41727626.mp4'
-file 'file:/mnt/c/sevenlayer/master-graph/.drafts/reed-solomon/animations/videos/reed-solomon/480p15/partial_movie_files/ReedSolomonEncoding/4072820271_2151619521_1663463514.mp4'
-file 'file:/mnt/c/sevenlayer/master-graph/.drafts/reed-solomon/animations/videos/reed-solomon/480p15/partial_movie_files/ReedSolomonEncoding/4072820271_2100105552_322370596.mp4'
-file 'file:/mnt/c/sevenlayer/master-graph/.drafts/reed-solomon/animations/videos/reed-solomon/480p15/partial_movie_files/ReedSolomonEncoding/4072820271_160516573_1976216292.mp4'
