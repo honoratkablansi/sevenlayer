@@ -5,21 +5,19 @@
 
 ![Two degree-2 polynomials over F_101 agreeing at exactly one point](figures/schwartz_zippel.svg)
 
-*Figure — `p(x)=3x²+5x+7` (blue) and `q(x)=3x²+2x+7` (red) plotted over all of F_101. They coincide at exactly one of the 101 points, x = 0.*
+*Figure — `p(x)=3x²+5x+7` (blue) and `q(x)=3x²+2x+7` (red) evaluated at all 101 points of the field `F_101`. They coincide at exactly one point, `x = 0`.*
 
-> **Animation:** [`animations/schwartz_zippel.mp4`](animations/schwartz_zippel.mp4) — the random-point spot-check: blue dots (p) and red dots (q) are dropped point by point; the single green flash marks the one agreement (x = 0), and the bound `d/|F| = 2/101` appears as the worst-case failure probability.
+> **Animation:** [`animations/schwartz_zippel.mp4`](animations/schwartz_zippel.mp4) — points of `p` (blue) and `q` (red) are dropped one at a time; the single green flash at `x = 0` is their only meeting. The `2/101` on screen is the *worst* a degree-2 pair could do; this pair does better.
 
 ---
 
-> ### Math you'll need (sidebar)
-> Before this section you should be comfortable with:
-> - **Polynomials over a finite field** — degree, roots, and evaluation at a point.
-> - **The bounded fundamental theorem of algebra** — a *nonzero* polynomial of degree `d` over a field has **at most `d` roots**. This single fact carries the whole proof.
-> - **The union bound** and basic probability ("almost always").
-> - **Modular arithmetic in F_p** / finite fields: arithmetic wraps around `|F|`.
-> - **Big-O / counting.**
+> ### Math you'll need
+> The facts you'll need, one sentence each:
+> - **A finite field** is a number system with finitely many elements where you can add, subtract, multiply, and divide. Ours, `F_101`, is just the numbers `0, 1, …, 100` with arithmetic taken "mod 101" (wrap around after 100). Write `|F|` for how many elements it has — here `|F| = 101`.
+> - **A *root* of a polynomial** is an input where the polynomial evaluates to zero.
+> - **The root-count fact** (the *factor theorem*): a nonzero polynomial of degree `d` over a field has **at most `d` roots** — each root `r` lets you peel off a factor `(x − r)`, and a degree-`d` polynomial has room for only `d` such factors.
 >
-> *Carried in from Ch 6:* arithmetization and the spreadsheet metaphor, with Schwartz–Zippel met as a slogan — *"checking one random cell catches a forged table."* Here we prove it.
+> *Carried in from Ch 6:* the spreadsheet/arithmetization picture, where Schwartz–Zippel first appeared as a slogan — *"checking one random cell catches a forged table."* Here we earn it.
 
 ---
 
@@ -27,78 +25,52 @@
 
 Picture a forger who hands you a giant filled-out spreadsheet and swears every cell obeys the rules. Re-checking the whole sheet is hopeless. So you do something almost insolent: you point at **one random cell** and check only that.
 
-The figure shows why this works. Encode each side of a claim as a polynomial; two honest sides give the *same* polynomial, a forged side gives a *different* one. Two different low-degree polynomials are like two curves that can cross only a few times — over F_101 our blue `p` and red `q` touch at **exactly one point** (x = 0) out of 101. So a finger dropped at random almost always lands where they disagree, and the lie is exposed. You did not need to read the whole sheet; you needed one lucky-by-design poke.
-
-*(No symbols yet beyond naming p and q — the "why" comes before the notation.)*
+Here is why that works. Encode each side of a claim as a polynomial; two honest sides give the *same* polynomial, a forged side gives a *different* one. Two different low-degree polynomials are like two gently curving graphs — they can cross only a handful of times. Over `F_101` our blue `p` and red `q` meet at exactly one of the 101 points. So a finger dropped at random lands where they disagree on 100 tries out of 101, and the lie is exposed. You never had to read the whole sheet.
 
 ## Rigorous — earn the bound
 
-Let `F` be a finite field, and let `p, q` be polynomials over `F` of degree at most `d`, with `p ≠ q`.
+Let `F` be a finite field with `|F|` elements, and let `p, q` be polynomials over `F` of degree at most `d`, with `p ≠ q`.
 
-Form the difference **`D = p − q`**. Because `p ≠ q`, `D` is a **nonzero** polynomial of degree at most `d`. By the bounded fundamental theorem of algebra, a nonzero degree-`≤d` polynomial has **at most `d` roots** in `F`. Every agreement point of `p` and `q` is exactly a root of `D`, so:
+Form the difference `D = p − q`. Since `p ≠ q`, the polynomial `D` is nonzero and of degree at most `d`, so by the root-count fact it has at most `d` roots. A point where `p` and `q` agree is exactly a point where `D` is zero — a root of `D`. So `p` and `q` agree at no more than `d` of the `|F|` points.
 
-> **p and q agree at no more than `d` of the `|F|` field points.**
+Now pick the test point `r` so that every one of the `|F|` points is equally likely — this is what *uniformly at random* means. The chance the test fails to notice that `p ≠ q` is then
 
-Now draw `r` uniformly at random from `F`. Then
+> `Pr[p(r) = q(r)] = Pr[D(r) = 0] = (number of roots of D) / |F| ≤ d / |F|.`
 
-> **Pr[ p(r) = q(r) ] = Pr[ D(r) = 0 ] = (#roots of D) / |F| ≤ d / |F|.**
+That one inequality dismantles the tempting wrong ideas. Passing a single check does *not* prove `p = q`; it only bounds the chance of a missed difference by `d/|F|`. Two different degree-`d` polynomials cannot agree arbitrarily often — they agree at most `deg(D) ≤ d` times. And the randomness lives only in the test point `r`: the polynomials `p` and `q` are fixed, even adversarial, and we never assume they are random.
 
-This destroys the tempting bad intuitions, explicitly:
-
-1. **"Passed one check ⇒ equal" is false.** Acceptance only bounds the error by `d/|F|`; it never *proves* equality.
-2. **"Distinct degree-d polynomials can agree arbitrarily often" is false.** The cap is exactly `d`, the degree of `D`.
-3. **The randomness lives in `r`, not in `p` or `q`.** The polynomials are arbitrary, fixed, adversarial choices; only the evaluation point is random.
-
-For our concrete pair, `D = p − q = 3x`, which has degree 1, so it has **at most one root** — realized at `x = 0` — and the realized error is `1/101`, comfortably under the degree-2 worst-case bound `2/101 ≈ 1.98%`.
-
-> **Note (worst case vs realized).** `2/101` is the worst-case Schwartz–Zippel bound for *any* distinct degree-2 pair. `1/101` is what *this* pair actually achieves, because its difference happens to be degree 1. They are different numbers and neither is a typo of the other.
+For our pair, `D = p − q = 3x`. Its degree is 1, not 2, so it has at most one root, realized at `x = 0`. This pair's actual error is `1/101`; the worst a degree-2 pair could do is `2/101`. Both numbers are real and they are not the same: `2/101` is the guarantee for *any* distinct degree-2 pair, while `1/101` is what *this* pair achieves because its difference happened to drop to degree 1.
 
 ## Post-rigorous — both halves at once
 
-Rebuild the intuition on the rigor. The "random cell catches a forged table" slogan **is** the inequality `Pr ≤ d/|F|`, with the spreadsheet's algebraic identity playing the role of `D`. Pair each picture with its statement:
+Now the slogan and the symbols are one statement. "Checking one random cell catches a forged spreadsheet" *is* the inequality `Pr ≤ d/|F|`, with the spreadsheet's algebraic identity playing the role of `D`; and the picture of two curves crossing only a few times *is* the root-count fact, a nonzero `D` of degree `≤ d` having `≤ d` roots and hence `≤ d` agreements.
 
-| Picture (heuristic) | Formal statement |
-|---|---|
-| Checking one random cell catches a forged spreadsheet | `Pr_{r∈F}[p(r)=q(r)] = Pr[D(r)=0] ≤ d/|F|`, `D = p−q` |
-| Two different low-degree curves cross only a few times | `D` nonzero of degree `≤ d` ⇒ `≤ d` roots ⇒ `≤ d` agreements |
-| A bigger field makes the test more reliable | `p, q` fixed; only `|F|` grows, so `(#roots)/|F| ≤ d/|F|` shrinks |
-| Our pair almost never agrees (one green point in 101) | `D = 3x` ⇒ one root `x=0`; realized `1/101 ≤ 2/101` |
+That hands you the one knob that controls reliability. The bad points number at most `d` no matter what; only the denominator `|F|` is yours to move. Grow the field and `d/|F|` shrinks — the test sharpens for free. (The slogan "almost always catches the lie" is precise only once the field is much larger than the degree; over a tiny field the bound is weak.) This is the primitive beneath Layer 4: a claim about a whole constraint table — the constraint systems we meet later — collapses to one random evaluation, and sum-check and polynomial commitments are built on the very same move.
 
-Now the **soundness knob** is obvious: to shrink the error you either grow `|F|` (the denominator rises while the `≤ d` bad points stay put) or lower the encoding degree `d`. This is precisely the primitive beneath Layer 4 — a whole-table claim (R1CS / AIR / PLONKish) collapses to one random evaluation, and sum-check and polynomial commitments are built on the same move.
+Two boundaries keep this honest. First, the bound is **unconditional** — pure root-counting, not a cryptographic hardness assumption; the security models of Ch 11–12 need the other kind, and conflating the two breaks those arguments. Second, we proved the **one-variable** case; the lemma generalizes to many variables with total degree `d` and the same `d/|F|` bound — the proof there is an induction resting on the union bound — and that multivariate form is what sum-check actually invokes.
 
-Keep one boundary sharp: this is an **unconditional, root-counted** collision bound — *not* a computational, assumption-based cryptographic hash. Ch 11/12 need the other kind, and conflating them corrupts those security models.
+You could have invented this. Knowing only that a degree-`d` polynomial has at most `d` roots, you would test whether two polynomials are equal by subtracting them and poking the difference at a random point — and you would have landed on Schwartz–Zippel.
 
 ---
 
-> ### Rediscover it (you could have invented this)
-> Suppose you know only one fact: *a nonzero degree-`d` polynomial has at most `d` roots.* You want a cheap test that two polynomials `p, q` are equal.
->
-> Form `D = p − q`. If `p = q` then `D ≡ 0`. If `p ≠ q` then `D` is nonzero of degree `≤ d`, so it has `≤ d` roots. Pick `r` uniformly in `F` and test `D(r) = 0`:
-> - `D(r) ≠ 0` ⇒ you are **certain** `p ≠ q`.
-> - `D(r) = 0` ⇒ you accept `p = q`, wrong only if `r` landed on one of the `≤ d` roots — probability `≤ d/|F|`.
->
-> You have just rediscovered Schwartz–Zippel: **one random evaluation, error `≤ d/|F|`, driven down by a bigger field.** You derived it; you did not receive it.
+## Check yourself
+
+**Recall.** If `p` is a nonzero polynomial of degree `d` over a finite field `F`, what is the probability that `p(r) = 0` for a uniformly random `r ∈ F`, and why?
+> *Answer:* At most `d/|F|`. A nonzero degree-`d` polynomial has at most `d` roots (the factor / root-count fact), and `r` is one of `|F|` equally likely points, so the chance of hitting a root is `(number of roots)/|F| ≤ d/|F|`.
+> *If you miss this →* revisit the root-count fact (a nonzero degree-`d` polynomial has `≤ d` roots).
+
+**Apply.** Let `p(x) = 3x² + 5x + 7` and `q(x) = 3x² + 2x + 7` over `F_101`. At how many points do they agree, which one(s), and what is the chance a single random evaluation fails to tell them apart?
+> *Answer:* They agree where `p − q = 3x = 0`, i.e. only at `x = 0` — one agreement point. A single random `r` fails to distinguish them with probability `1/101 ≈ 0.99%` (never more than the degree-2 worst case `2/101 ≈ 1.98%`).
+> *If you miss this →* revisit polynomials over a finite field (degree, roots, evaluation).
+
+**Transfer.** A prover claims a giant computation's whole constraint table is satisfied. Why does checking one random field point catch a cheater with high probability, and what drives the error toward zero?
+> *Answer:* The table identity is encoded as a polynomial identity `P = 0`; a cheater's `P` is nonzero of low degree, so it is nonzero at all but `≤ d` of the `|F|` points, and a random challenge exposes the cheat with probability `≥ 1 − d/|F|`. The error shrinks as you enlarge `|F|` (the `≤ d` bad points stay fixed while the denominator grows) or lower the encoding degree `d`.
+> *If you miss this →* revisit the `≤ d` root-count fact (and, for many variables, the union bound).
+
+**Rediscover.** Knowing only that a nonzero degree-`d` polynomial has at most `d` roots, derive a cheap test that two polynomials `p, q` are equal, and give its failure probability.
+> *Answer:* Form `D = p − q`. If `p = q` then `D ≡ 0`; if `p ≠ q` then `D` is nonzero of degree `≤ d`, with `≤ d` roots. Pick `r` uniformly in `F` and test `D(r) = 0`: if `D(r) ≠ 0` you are certain `p ≠ q`; if `D(r) = 0` you accept `p = q`, wrong only when `r` is one of the `≤ d` roots — probability `≤ d/|F|`. That is Schwartz–Zippel.
+> *If you miss this →* revisit finite fields and `F_p` arithmetic.
 
 ---
 
-## Check yourself (comprehension set)
-
-**Recall.** State the univariate Schwartz–Zippel bound: if `p` is a nonzero polynomial of degree `d` over a finite field `F`, what is the probability that `p(r) = 0` for a uniformly random `r ∈ F`, and why?
-> *Answer:* At most `d/|F|`. A nonzero degree-`d` polynomial has at most `d` roots, and `r` is drawn uniformly from `|F|` points, so the chance of hitting a root is `(#roots)/|F| ≤ d/|F|`.
-> *If you miss this →* revisit **the bounded fundamental theorem of algebra (≤ d roots)**.
-
-**Apply.** Let `p(x) = 3x² + 5x + 7` and `q(x) = 3x² + 2x + 7` over F_101. At how many points do they agree, which point(s), and what is the chance a single random evaluation fails to distinguish them?
-> *Answer:* They agree where `p − q = 3x = 0`, i.e. only at `x = 0` — exactly 1 agreement point. A single random `r` fails to distinguish them with probability `1/101 ≈ 0.99%` (never more than the degree-2 worst-case `2/101 ≈ 1.98%`).
-> *If you miss this →* revisit **polynomials over a finite field (degree, roots, evaluation)**.
-
-**Transfer.** A prover claims a giant computation's whole constraint table is satisfied. Why does checking one random field point catch a cheating prover with high probability, and what makes the guarantee shrink toward zero error?
-> *Answer:* The table identity is encoded as a polynomial identity `P = 0`; a cheating prover's `P` is a nonzero low-degree polynomial, nonzero at all but `≤ d` of the `|F|` points, so a random challenge exposes the cheat with probability `≥ 1 − d/|F|`. Error shrinks by enlarging `|F|` (denominator grows, `≤ d` bad points fixed) or lowering the encoding degree `d`.
-> *If you miss this →* revisit **the union bound (basic probability)**.
-
-**Rediscover.** Knowing only that a nonzero degree-`d` polynomial has at most `d` roots, derive a cheap test that two polynomials `p, q` are equal, and give its failure probability — what do you evaluate, and how confident are you after one random check?
-> *Answer:* Form `D = p − q`. If `p = q`, `D ≡ 0`; if `p ≠ q`, `D` is nonzero of degree `≤ d` with `≤ d` roots. Pick `r` uniformly in `F`, test `D(r) = 0`. `D(r) ≠ 0` ⇒ certain `p ≠ q`. `D(r) = 0` ⇒ accept `p = q`, wrong only if `r` is one of the `≤ d` roots — probability `≤ d/|F|`. That is Schwartz–Zippel.
-> *If you miss this →* revisit **modular arithmetic in F_p / finite fields**.
-
----
-
-*Verification: all numeric claims match the Sage manifest (`field 101`, `agreement_points [0]`, `num_agreements 1`); the manim scene's displayed values pass `validate_scene_values` with no drift; scorecard PASS. Figure and animation generated correct-by-construction by `scripts/recipes/schwartz_zippel.sage` and `scripts/scenes/schwartz_zippel.py`.*
+*Next: the same one-random-point idea, lifted from one variable to many, becomes sum-check — the move that lets a verifier check an exponentially large sum in a handful of rounds.*

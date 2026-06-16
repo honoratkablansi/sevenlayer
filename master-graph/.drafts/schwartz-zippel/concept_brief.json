@@ -6,7 +6,7 @@
   "target_depth": "rigorous",
   "prerequisites": [
     "polynomials over a finite field (degree, roots, evaluation)",
-    "the bounded fundamental theorem of algebra: a nonzero degree-d univariate polynomial has at most d roots",
+    "the factor / root-count fact: a nonzero degree-d univariate polynomial has at most d roots",
     "the union bound (basic probability)",
     "modular arithmetic in F_p / finite fields",
     "Big-O / counting"
@@ -20,7 +20,7 @@
   "learning_objectives": [
     "State the (univariate) Schwartz–Zippel lemma: a nonzero degree-d polynomial over F is zero at a uniformly random point with probability at most d/|F|.",
     "Explain why two distinct degree-d polynomials can agree at no more than d of the |F| field points, so a random spot-check catches a difference with probability ≥ 1 - d/|F|.",
-    "Derive the bound from the bounded fundamental theorem of algebra (≤ d roots) applied to the difference polynomial p-q, with no extra machinery.",
+    "Derive the bound from the factor / root-count fact (≤ d roots) applied to the difference polynomial p-q, with no extra machinery.",
     "Compute the bound on a concrete field (e.g. F_101) and read off the failure probability (here d/|F| = 1/101).",
     "Connect the lemma to its book role: it licenses probabilistic polynomial-identity testing — reducing a whole-table / whole-polynomial claim to one random evaluation — which underpins arithmetization soundness (R1CS / AIR / PLONKish) and the sum-check and PCS machinery built on top.",
     "Distinguish the unconditional, collision-*bounded* Schwartz–Zippel guarantee from a computational, collision-*resistant* cryptographic hash (a Ch 11/12 distinction not to be conflated)."

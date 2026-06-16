@@ -2,9 +2,9 @@
   {
     "level": "recall",
     "question": "State the univariate Schwartz–Zippel bound: if p is a nonzero polynomial of degree d over a finite field F, what is the probability that p(r) = 0 for a uniformly random r in F, and why?",
-    "answer_key": "At most d/|F|. A nonzero degree-d polynomial has at most d roots (bounded fundamental theorem of algebra), and r is drawn uniformly from |F| points, so the chance of hitting a root is (#roots)/|F| ≤ d/|F|.",
+    "answer_key": "At most d/|F|. A nonzero degree-d polynomial has at most d roots (the factor / root-count fact), and r is drawn uniformly from |F| points, so the chance of hitting a root is (#roots)/|F| ≤ d/|F|.",
     "targets_stuck_point": "‘Two different degree-d polynomials can agree on arbitrarily many points’ — anchored by the ≤ d root count.",
-    "on_miss_route_to": "the bounded fundamental theorem of algebra: a nonzero degree-d univariate polynomial has at most d roots"
+    "on_miss_route_to": "the root-count fact (factor theorem): a nonzero degree-d polynomial over a field has at most d roots"
   },
   {
     "level": "apply",
@@ -18,7 +18,7 @@
     "question": "A prover claims a giant computation's whole constraint table is satisfied. Why does checking one random field point catch a cheating prover with high probability, and what makes the guarantee shrink toward zero error?",
     "answer_key": "The table identity is encoded as a polynomial identity P = 0; a cheating prover's P is a nonzero low-degree polynomial. By Schwartz–Zippel it is nonzero at all but ≤ d of the |F| points, so a random challenge exposes the cheat with probability ≥ 1 - d/|F|. Error shrinks by enlarging |F| (denominator grows while the ≤ d bad points stay fixed) or lowering the encoding degree d — the field size is the soundness knob.",
     "targets_stuck_point": "‘A bigger field makes the polynomials more different’ — it is the denominator |F| that grows, not the polynomials.",
-    "on_miss_route_to": "the union bound (basic probability)"
+    "on_miss_route_to": "the ≤ d root-count fact (and, for many variables, the union bound)"
   },
   {
     "level": "rediscover",
