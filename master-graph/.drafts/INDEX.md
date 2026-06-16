@@ -8,4 +8,6 @@ Chapter-grade draft bundles produced by the `math-explainer` skill (full six-sta
 - [Pedersen commitment](pedersen-commitment/draft.md) — **Ch 11** — `gᵐhʳ`: perfectly hiding, computationally binding (breaking binding solves the discrete log). ([figure](pedersen-commitment/figures/pedersen-commitment.svg) · [animation](pedersen-commitment/animations/pedersen-commitment.mp4))
 - [Bilinear pairings](bilinear-pairings/draft.md) — **Ch 11** — `e(aP,bQ) = e(P,Q)^{ab}`: a verifier checks a multiplicative relation among hidden exponents. ([figure](bilinear-pairings/figures/bilinear_pairings.svg) · [animation](bilinear-pairings/animations/bilinear_pairings.mp4))
 
+**Editorial status:** all five passed the 7-persona editorial soft-gate (`critical = 0`) after one review→revise→re-review cycle. The pilot's review record is in [`schwartz-zippel/persona-review.md`](schwartz-zippel/persona-review.md); the round-1 panel surfaced systemic issues (undefined load-bearing terms, list-itis, a `logₘ`-vs-`log_g` notation bug, `n`/`v` drift, a QA-footer ending), which were fixed in the drafts and hardened into the skill (`references/draft-quality.md` + `scripts/draft_lint.py`).
+
 *Generators live in the skill: Sage recipes at `.claude/skills/math-explainer/scripts/recipes/<slug>.sage`, manim scenes at `.claude/skills/math-explainer/scripts/scenes/<slug>.py`.*
