@@ -12,7 +12,7 @@
 ---
 
 > ### Math you'll need
-> The facts you'll need, one sentence each:
+>
 > - **A cyclic group and its generator.** A *group* is a set with one associative operation (here, multiplication mod `p`) that has an identity and inverses; it is *cyclic* when a single element `g` — a *generator* — produces every element as a power `g, g², g³, …`. Ours is the set of order-1019 powers inside `(ℤ/pℤ)*`.
 > - **The group order.** The *order* of the group is how many elements it has; we write it `q`. When `q` is prime — as it is here, `q = 1019` — *every* non-identity element is a generator, which is why both `g` and `h` below are generators. (We pick a **safe prime** `p = 2q + 1 = 2039` precisely so this prime-order subgroup exists.)
 > - **The discrete-logarithm (DLog) problem.** Given a generator `g` and an element `h = gᵃ`, finding the exponent `a` is the *discrete log* of `h` base `g`, written `log_g(h)`. The **DLog assumption** is the bet that in our group no efficient computation can recover `a`. This single bet is what binding rests on.

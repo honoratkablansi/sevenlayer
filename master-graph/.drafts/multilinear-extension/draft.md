@@ -12,7 +12,7 @@
 ---
 
 > ### Math you'll need
-> The facts you'll lean on, one sentence each:
+>
 > - **The Boolean hypercube `{0,1}ⁿ`** is the set of all `2ⁿ` corners of an `n`-dimensional cube — every string of `n` zeros and ones — and we use it as the index set for a table of values, one number per corner.
 > - **A field `F`** is a number system where you can add, subtract, multiply, and divide; here it is the integers `0,1,…,96` with arithmetic taken "mod 97" (wrap around after 96), and we write `|F|` for how many elements it has — here `|F| = 97`.
 > - **Multilinear** describes a polynomial whose degree in each variable *separately* is at most `1`: no variable is ever squared, though distinct variables may still be multiplied together (so `x₁x₂x₃` is allowed). This is degree *per variable*, not total degree.

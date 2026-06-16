@@ -12,7 +12,7 @@
 ---
 
 > ### Math you'll need
-> The facts you'll need, one sentence each:
+>
 > - **A finite field** is a number system with finitely many elements where you can add, subtract, multiply, and divide. Ours, `F_101`, is just the numbers `0, 1, …, 100` with arithmetic taken "mod 101" (wrap around after 100). Write `|F|` for how many elements it has — here `|F| = 101`.
 > - **A *root* of a polynomial** is an input where the polynomial evaluates to zero.
 > - **The root-count fact** (the *factor theorem*): a nonzero polynomial of degree `d` over a field has **at most `d` roots** — each root `r` lets you peel off a factor `(x − r)`, and a degree-`d` polynomial has room for only `d` such factors.

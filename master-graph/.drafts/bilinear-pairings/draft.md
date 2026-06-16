@@ -12,7 +12,7 @@
 ---
 
 > ### Math you'll need
-> The facts you'll need, one sentence each:
+>
 > - **An elliptic-curve group of points** is the set of solutions `(x, y)` to a curve equation like `y² = x³ − x`, which you can *add* like vectors; this turns the points into a group, and **scalar multiplication** `aP = P + P + … + P` (`a` copies) plays the role of "exponentiation".
 > - **The two source groups `G₁` and `G₂`** are two order-`r` subgroups of such a curve — think of them as two independent "lines" of points, one feeding each slot of the pairing.
 > - **The target group `G_T`** is where the pairing's *answer* lives. It is **not** a curve point: it is a number in a field, and you combine its elements by *multiplying* — so "scaling" there means raising to a power.
