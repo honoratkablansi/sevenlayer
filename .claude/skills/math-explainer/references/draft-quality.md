@@ -36,3 +36,18 @@ run `scripts/draft_lint.py <draft.md>` before shipping (it must report CLEAN).
 
 8. **Headings are reader-facing.** "Check yourself", not "comprehension set". No machine vocabulary
    in any heading or body line.
+
+9. **Vary your sentences; don't enumerate in disguise.** No anaphora — do not stack clauses or bullets
+   in identical shape ("It is false that… It is false that…", or a column of bolded "The X is…" stubs).
+   When you convert a list to prose, vary the openings. Prefer a short flowing paragraph over a bulleted
+   glossary box for "Math you'll need", and never announce a roadmap ("the facts you'll need, one
+   sentence each"). A checklist in sentence costume still reads as a list.
+
+10. **Notation must match the prose and the artifacts.** A subscript names exactly what the words say —
+    the discrete log of `h` to base `g` is `log_g(h)` (subscript `g`, the base), never `log_m(h)`. Check
+    every symbol against the sentence that defines it, use one symbol per quantity (don't drift between
+    `n` and `v` for the same count), and match the Stage-4 manifest/ledger.
+
+11. **Cross-chapter references must agree.** A shared motif or result cited in more than one chapter must
+    name the same origin chapter in each (the "sealed envelope" can't be "Ch 2" in one draft and "Ch 2/3"
+    in another).
