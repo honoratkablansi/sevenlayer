@@ -1,6 +1,6 @@
 # R1CS: Every Row Asks for One Product
 
-*Chapter 6/10 - from constraint tables to sealed certificates*
+*Chapter 6 - from constraint tables to sealed certificates*
 *Target depth: rigorous - stratum: linear algebra*
 
 ![Two R1CS rows over F_17](figures/r1cs.svg)
@@ -34,11 +34,11 @@ Here `Az` is the vector of left linear combinations, `Bz` is the vector of right
 
 For the figure, `z = [1,3,4,12,15]`, where the entries are `[1,x,y,t,out]` over `F_17`. Row 1 selects `x` on the left, `y` on the right, and `t` on the target, so it checks `3 * 4 = 12`. Row 2 selects `t + x` on the left, `1` on the right, and `out` on the target, so it checks `15 * 1 = 15`. The computed vectors are `Az = [3,15]`, `Bz = [4,1]`, and `Cz = [12,15]`; their coordinate products are `[12,15]`, so the witness satisfies the system.
 
-The bad intuition is that R1CS is the program. It is not. It is a relation: a set of equations a witness must satisfy. If the compiler forgets a constraint, the relation may accept a witness that no honest program run would produce. That is the deep version of under-constraint Ch 6 keeps warning about.
+The bad intuition is that R1CS is the program. It is not. It is a relation: a set of equations a witness must satisfy. If the compiler forgets a constraint, the relation may accept a witness that no honest program run would produce. That is the deep version of under-constraint this chapter keeps warning about.
 
 ## Post-rigorous - why this shape persists
 
-R1CS matters because it is simple enough to compile and algebraic enough to seal. Chapter 6 uses it as the first dialect of arithmetization: computation becomes field equations. Chapter 10 revisits it through the QAP route, where many row checks are compressed into a single polynomial divisibility check that Groth16 can commit to succinctly.
+R1CS matters because it is simple enough to compile and algebraic enough to seal. This chapter uses it as the first dialect of arithmetization: computation becomes field equations. Chapter 10 revisits it through the QAP route, where many row checks are compressed into a single polynomial divisibility check that Groth16 can commit to succinctly.
 
 The row shape also explains why later systems generalize it. AIR arranges constraints over time; PLONKish systems add custom gates and copy constraints; CCS abstracts several dialects at once. But the old R1CS slogan remains a useful anchor: every row asks for one product, and the witness must make all rows true.
 

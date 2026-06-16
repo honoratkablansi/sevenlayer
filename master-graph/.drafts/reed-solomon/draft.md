@@ -36,7 +36,7 @@ This dismantles a common mistake. The extra symbols are not extra copies. They a
 
 ## Post-rigorous - why proof systems care
 
-Reed-Solomon is the coding-theory face of the same idea Ch 7 keeps using: global low-degree structure creates local fingerprints. If two low-degree messages are different, they cannot agree at many evaluation points. If a claimed evaluation table is far from every low-degree polynomial, low-degree testing can catch that too.
+Reed-Solomon is the coding-theory face of the same idea this chapter keeps using: global low-degree structure creates local fingerprints. If two low-degree messages are different, they cannot agree at many evaluation points. If a claimed evaluation table is far from every low-degree polynomial, low-degree testing can catch that too.
 
 That is why the graph points forward to FRI and STARKs. FRI is, at heart, a way to convince a verifier that a long evaluation table is close to a Reed-Solomon codeword without reading the whole table. Polynomial commitments later add binding, but the distance story begins here.
 

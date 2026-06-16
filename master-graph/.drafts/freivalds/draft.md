@@ -38,7 +38,7 @@ For our example, `F = F_101`. The claimed `C` differs from the true `AB` in the 
 
 ## Post-rigorous - the first fingerprint
 
-Freivalds is Ch 7's doorway because it makes the book's soundness pattern concrete before polynomials enter. A giant claim is compressed to a random small test. If the claim is true, every shadow agrees. If the claim is false, only a small set of shadows can hide it.
+Freivalds is this chapter's doorway because it makes the book's soundness pattern concrete before polynomials enter. A giant claim is compressed to a random small test. If the claim is true, every shadow agrees. If the claim is false, only a small set of shadows can hide it.
 
 The same rhythm returns in Reed-Solomon and Schwartz-Zippel. The object changes from a matrix product to a polynomial identity, but the shape is the same: turn global disagreement into a random local check with a counted failure set.
 
