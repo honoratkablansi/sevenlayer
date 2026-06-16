@@ -9,7 +9,9 @@ book prose — the kind of thing the editorial panel marks (e.g. a chapter endin
 This is a deterministic guard on the *generated prose*, not a self-attested flag — it
 reads the actual draft text, so it cannot be gamed by metadata.
 """
+import re
 import sys
+from collections import Counter
 from pathlib import Path
 
 # Pipeline / QA / build vocabulary that must never appear in reader-facing prose.
@@ -31,9 +33,35 @@ AI_TERMS = [
     "comprehension set",
 ]
 
+# "Announce the count, then tick it off" tic (draft-quality rule 9): a number immediately
+# before a rhetorical-count noun, e.g. "kills three bad instincts", "rests on two premises".
+COUNT_TIC = re.compile(
+    r"\b(two|three|four|five|six|seven|eight|nine|ten|\d+)\s+(bad\s+|tempting\s+)?"
+    r"(instinct|intuition|misconception|premise)s?\b",
+    re.IGNORECASE,
+)
+# Roadmap announcements before a glossary box (rule 9).
+ROADMAP = re.compile(r"one sentence each|facts you'?ll need", re.IGNORECASE)
+
+
+def _anaphora(text: str) -> list[str]:
+    """Flag paragraphs where >=3 sentences open with the same first three words."""
+    findings: list[str] = []
+    for para in re.split(r"\n\s*\n", text):
+        sents = re.split(r"(?<=[.!?])\s+", para.strip())
+        openers = []
+        for s in sents:
+            words = re.findall(r"[A-Za-z']+", s)
+            if len(words) >= 3:
+                openers.append(" ".join(words[:3]).lower())
+        for opener, n in Counter(openers).items():
+            if n >= 3:
+                findings.append(f"anaphora: {n} sentences open with '{opener}...' — vary the openings")
+    return findings
+
 
 def lint_draft(text: str) -> list[str]:
-    """Return prose-hygiene findings as 'L<line>: <issue>' strings (empty == clean)."""
+    """Return prose-hygiene findings as strings (empty == clean)."""
     findings: list[str] = []
     for i, line in enumerate(text.splitlines(), start=1):
         low = line.lower()
@@ -43,6 +71,12 @@ def lint_draft(text: str) -> list[str]:
         for term in AI_TERMS:
             if term in low:
                 findings.append(f"L{i}: AI-vocabulary residue: '{term}'")
+        m = COUNT_TIC.search(line)
+        if m:
+            findings.append(f"L{i}: count-announcement tic (rule 9): '{m.group(0).strip()}' — drop the number, argue in prose")
+        if ROADMAP.search(line):
+            findings.append(f"L{i}: roadmap announcement (rule 9): never pre-announce a glossary list")
+    findings.extend(_anaphora(text))
     return findings
 
 

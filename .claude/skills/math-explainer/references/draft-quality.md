@@ -8,7 +8,12 @@ run `scripts/draft_lint.py <draft.md>` before shipping (it must report CLEAN).
    sidebar must *explain* the two or three facts the proof actually rests on (e.g. what a finite
    field is, that `|F|` is its number of elements, the ≤d-roots fact) in a sentence each. A
    curious non-expert must be able to follow the rigorous section without leaving the page. A bare
-   list of things "you should be comfortable with" is a fail.
+   list of things "you should be comfortable with" is a fail. **Define every term the draft USES,
+   not only the term it is ABOUT** — each draft stands alone, so even if a sibling chapter defines
+   the finite field / `F_p`, "linear combination", "root", etc., re-define it here at first use
+   (one plain sentence) the moment the worked example depends on it. The recurring failure is a
+   worked example over `F_p` whose arithmetic "wraps mod p" is never stated, so the numbers look
+   wrong to a generalist.
 
 2. **Gloss notation at first use.** `|F|` = "the number of elements in the field"; "root" = "an
    input where the polynomial is zero"; "uniformly at random" = "each element equally likely".
@@ -48,6 +53,9 @@ run `scripts/draft_lint.py <draft.md>` before shipping (it must report CLEAN).
     every symbol against the sentence that defines it, use one symbol per quantity (don't drift between
     `n` and `v` for the same count), and match the Stage-4 manifest/ledger.
 
-11. **Cross-chapter references must agree.** A shared motif or result cited in more than one chapter must
-    name the same origin chapter in each (the "sealed envelope" can't be "Ch 2" in one draft and "Ch 2/3"
-    in another).
+11. **Cross-chapter references must agree, and each draft has ONE home chapter.** Put a single chapter
+    number in the header — never a "Ch 6/7" range (that is the MATH_FOUNDATIONS "first needed" code, not a
+    chapter title). A draft must not cite its own home chapter as an external dependency, and a forward beat
+    must point to a *later* chapter (check the CHAPTER_BIBLE ordering — e.g. in Ch 7, Freivalds precedes
+    Reed–Solomon, so Reed–Solomon's "next" cannot be Freivalds). A shared motif cited in two chapters must
+    name the same origin chapter in each.

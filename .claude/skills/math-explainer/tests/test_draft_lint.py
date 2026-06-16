@@ -57,3 +57,41 @@ def test_findings_carry_line_numbers():
 def test_ai_vocab_heading_flagged():
     findings = lint_draft(AI_HEADING)
     assert any("comprehension set" in f.lower() for f in findings)
+
+
+COUNT_TIC = """# Concept
+
+This kills three bad instincts. Wrapping is not rounding.
+"""
+
+ROADMAP = """# Concept
+
+Intro.
+
+The facts you'll need, one sentence each:
+"""
+
+ANAPHORA = """# Concept
+
+It is false that a leaks the value. It is false that b rests on hardness. It is false that c is arbitrary.
+"""
+
+
+def test_count_announcement_flagged():
+    findings = lint_draft(COUNT_TIC)
+    assert any("count" in f.lower() for f in findings)
+
+
+def test_roadmap_phrase_flagged():
+    findings = lint_draft(ROADMAP)
+    assert any("roadmap" in f.lower() or "one sentence" in f.lower() for f in findings)
+
+
+def test_anaphora_flagged():
+    findings = lint_draft(ANAPHORA)
+    assert any("anaphora" in f.lower() for f in findings)
+
+
+def test_clean_prose_survives_deeper_checks():
+    # CLEAN has a single numbered item and varied sentence openers — no count tic, no anaphora.
+    assert lint_draft(CLEAN) == []
