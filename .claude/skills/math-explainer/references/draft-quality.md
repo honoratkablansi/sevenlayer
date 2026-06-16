@@ -14,6 +14,15 @@ run `scripts/draft_lint.py <draft.md>` before shipping (it must report CLEAN).
    (one plain sentence) the moment the worked example depends on it. The recurring failure is a
    worked example over `F_p` whose arithmetic "wraps mod p" is never stated, so the numbers look
    wrong to a generalist.
+   > *Negative example (mathematically correct, still a FAIL):* a Freivalds draft proves the
+   > `≤ 1/|F|` error bound flawlessly but only ever says "a random vector over a finite field"
+   > without saying what a finite field IS. The math checks out and the reader is still lost —
+   > "`|F| = 101` equally likely values" is meaningless if they picture the real numbers. Correct
+   > ≠ comprehensible; the load-bearing term must be defined, not just used.
+   Recurring offenders that keep slipping through — if the draft uses any of these, define it in one
+   plain sentence at first use: **finite field, subgroup, generator, order, discrete logarithm,
+   linear combination, oracle, root**. ("Subgroup" = a smaller self-contained group living inside a
+   larger one; "oracle" = a list of values you may query one entry at a time but cannot read in full.)
 
 2. **Gloss notation at first use.** `|F|` = "the number of elements in the field"; "root" = "an
    input where the polynomial is zero"; "uniformly at random" = "each element equally likely".
@@ -59,3 +68,13 @@ run `scripts/draft_lint.py <draft.md>` before shipping (it must report CLEAN).
     must point to a *later* chapter (check the CHAPTER_BIBLE ordering — e.g. in Ch 7, Freivalds precedes
     Reed–Solomon, so Reed–Solomon's "next" cannot be Freivalds). A shared motif cited in two chapters must
     name the same origin chapter in each.
+
+12. **Two moduli in group/subgroup crypto — name both, and never show an element ≥ the order.** When you
+    work in a prime-order-`q` subgroup of `(ℤ/pℤ)*`, state BOTH the element modulus `p` and the order /
+    exponent modulus `q`, and say which arithmetic uses which: group elements (`g`, `h`, commitments, and
+    both sides of a verification equation like `g^s = t·h^c`) reduce **mod p**; exponents and challenges
+    (`x`, `r`, `s`, `c`) reduce **mod q**. Never display a group element ≥ the stated order `q` — a reader
+    who is told "order `q = 1019`, arithmetic mod `q`" and then shown `t = 1077` concludes the example is
+    impossible. The recurring failure is a draft that names only `q`, says "wraps mod the group order",
+    and then prints mod-`p` element values. (Pedersen got this right; discrete-log and Schnorr/Sigma drafts
+    must too.)

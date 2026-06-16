@@ -8,7 +8,12 @@ project's system Python, per the dual-interpreter rule).
 1. Run `scripts/resolve_deps.py master-graph/.outline/MATH_FOUNDATIONS.md "<concept>"` to get
    `{ concept, stratum, first_needed, depth, prerequisites[] }`. Matching is exact-first, then
    substring; if a short query matches more than one row by substring it resolves to the first
-   match, so pass the full concept label to disambiguate.
+   match, so pass the full concept label to disambiguate. **If the full label returns
+   `concept not found`, retry with the distinctive key term**, not a longer phrase: the row may
+   word the concept differently (e.g. `"FRI low-degree testing"` fails, but the row reads
+   `Reed-Solomon as a code; low-degree testing; FRI proximity`, so query `"FRI"`). Record the
+   canonical row you actually matched in the brief (`resolved_row: "FRI proximity"`) so the
+   provenance is honest rather than making the resolution look cleaner than it was.
 2. **Best-effort graph enrichment — verify the match first.** Run `graphify query "<concept>"`
    (or `graphify explain`/`path`) for a scoped subgraph, then CHECK the returned start node(s):
    graphify fuzzy-matches labels, so a foundational math term can land on a homonym
