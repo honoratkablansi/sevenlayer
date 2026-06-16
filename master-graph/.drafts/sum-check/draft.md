@@ -11,14 +11,13 @@
 
 ---
 
-> ### Math you'll need (sidebar)
-> Before this section you should be comfortable with:
-> - **The MLE (multilinear extension)** and **multivariate polynomials** — degree per variable, and evaluating one at a point. This is the *object* we sum.
-> - **Summation over a finite domain** — the sum `Σ` over the `2ⁿ` corners of the Boolean hypercube `{0,1}ⁿ`.
-> - **The Schwartz–Zippel lemma (Ch 7)** — a *nonzero* degree-`d` polynomial is zero at a uniformly random point with probability `≤ d/|F|`. **This single fact powers every round's soundness.**
-> - **Proof by mathematical induction** — the soundness argument is an induction on the rounds.
-> - **Arithmetic / Boolean circuits** — add and multiply gates (the GKR application sits on these).
-> - **Modular arithmetic in F_p** and the **union bound** (both carried from Ch 7).
+> ### Math you'll need
+> The facts you'll need, one sentence each:
+> - **The sum over the Boolean hypercube.** `Σ_{x∈{0,1}ⁿ} g(x)` means: plug into the polynomial `g` every one of the `2ⁿ` strings of 0s and 1s — the *corners* of the `n`-dimensional cube `{0,1}ⁿ` — and add up all `2ⁿ` results. With `n = 3` that is the eight corners `(0,0,0), (0,0,1), …, (1,1,1)`; for a real problem `2ⁿ` is astronomically large, which is the whole difficulty.
+> - **A univariate restriction `gᵢ(X)`.** In round `i` we freeze the earlier variables `x₁,…,x_{i−1}` to the challenge values already chosen, leave `xᵢ = X` as the one free variable, and sum `g` over all 0/1 settings of the *later* variables `x_{i+1},…,xₙ`. The result is an ordinary one-variable polynomial in `X` — a thin one-dimensional slice of the giant sum.
+> - **The prover/verifier round structure.** Two parties talk in rounds: a **prover** (who knows `g` and wants to convince you of the sum) sends a short message each round, and a **verifier** (who cannot afford to add `2ⁿ` terms) replies with a random challenge `rᵢ`. The verifier accepts or rejects at the end; soundness is the guarantee that a lying prover is caught with high probability.
+> - **The finite field `F` and `|F|`.** A finite field is a number system with finitely many elements where you can add, subtract, multiply, and divide; ours is `GF(97)`, the numbers `0,…,96` with arithmetic taken "mod 97" (wrap around after 96). Write `|F|` for how many elements it has — here `|F| = 97` — so a uniformly random challenge is one of `97` equally likely values.
+> - **The Schwartz–Zippel root-count fact (Ch 7).** A *nonzero* polynomial of degree `d` is zero at a uniformly random point with probability at most `d/|F|`, because it has at most `d` roots among the `|F|` points. This single fact powers every round's soundness.
 >
 > *Carried in from Ch 6:* arithmetized constraints (the Sudoku's 72 constraints are what get summed) and the "spot-check" intuition. Here we complete that one-shot test into a *protocol*.
 
@@ -50,16 +49,11 @@ be the claimed sum.
 
 — because splitting variable `i` into its two Boolean values `0` and `1` is *exactly* the next step of the sum. Round 1 checks against `H`; round `i > 1` checks against `g_{i−1}(r_{i−1})`. The verifier checks that one identity, draws `rᵢ` **uniformly at random**, and recurses on the `(v−1)`-variable claim `gᵢ(rᵢ)`. After `v` rounds it checks the lone value `g_v(r_v) = g(r₁,…,r_v)` against `g` directly.
 
-**Soundness (induction on rounds + Schwartz–Zippel).** If the prover lies, its `gᵢ` differs from the true round polynomial. The difference is a **nonzero** polynomial of degree `≤ d`, so a uniformly random `rᵢ` makes them disagree — exposing the lie — with probability `≥ 1 − d/|F|`. To keep cheating, the prover must at each round send a wrong `gᵢ` that *still* passes the consistency check, which forces it into a fresh false claim it again cannot honestly defend. A lie must survive **every** round. By the union bound, the total chance a liar slips through all `v` rounds is
+**Soundness (induction on rounds + Schwartz–Zippel).** If the prover lies, its `gᵢ` differs from the true round polynomial. The difference is a **nonzero** polynomial of degree `≤ d`, and by the Schwartz–Zippel root-count fact a nonzero degree-`≤d` polynomial vanishes at only `≤ d` of the `|F|` points — so a uniformly random `rᵢ` makes the two univariates disagree, exposing the lie, with probability `≥ 1 − d/|F|`. To keep cheating, the prover must at each round send a wrong `gᵢ` that *still* passes the consistency check, which forces it into a fresh false claim it again cannot honestly defend. A lie must survive **every** round. By the union bound, the total chance a liar slips through all `v` rounds is
 
 > **`≤ d·v/|F|`.**
 
-This destroys the tempting bad intuitions, explicitly:
-
-1. **"Verify a sum ⇒ recompute the sum" is false.** The verifier checks `v` consistency identities plus one final evaluation — never the `2ᵛ` terms.
-2. **"The verifier knows the true partial sums" is false.** It only compares `gᵢ(0)+gᵢ(1)` to the *previous* reduced claim; its sole contact with the real `g` is the single point `g(r₁,…,r_v)`.
-3. **"A caught liar repairs the lie next round" is false.** Each round's check is consistency against the last reduced claim, so the lie must survive *all* rounds — and the errors **add** (`d·v/|F`), they do not compound multiplicatively.
-4. **"Sum-check needs a commitment" is false.** The only soundness ingredient is Schwartz–Zippel plus oracle access to `g`; the bound is **unconditional** — no group, no commitment, no hardness assumption.
+That one bound dismantles the tempting wrong ideas. Verifying a sum is *not* recomputing it: the verifier checks `v` consistency identities plus one final evaluation, never the `2ᵛ` terms. Nor does the verifier ever know the true partial sums — it only compares `gᵢ(0)+gᵢ(1)` to the *previous* reduced claim, and its sole contact with the real `g` is the single point `g(r₁,…,r_v)`. A caught liar cannot quietly repair the lie next round either, because each round's check is consistency against the last reduced claim, so a single lie must survive *all* the rounds; and the per-round risks **add** to `d·v/|F|`, they do not compound into a larger product. Finally, none of this needs a commitment: the only soundness ingredient is Schwartz–Zippel together with oracle access to `g`, so the bound is **unconditional** — no group, no commitment, no hardness assumption.
 
 For our concrete instance, `g(x₁,x₂,x₃) = 2x₁²x₂ + 3x₂x₃ + x₁ + 5` over `GF(97)`, so `d = 2` (because `x₁` is squared) and `v = 3`. The worst-case bound is `2·3/97 = 6/97 ≈ 6.2%`.
 
@@ -67,15 +61,17 @@ For our concrete instance, `g(x₁,x₂,x₃) = 2x₁²x₂ + 3x₂x₃ + x₁ +
 
 ## Post-rigorous — both halves at once
 
-Rebuild the intuition on the rigor. The prosecutor's "narrow the confession until one checkable fact remains" **is** the round reduction `n → n−1` ending at `g(r₁,…,r_v)`; "the lie must contradict itself at a random moment" **is** Schwartz–Zippel making a wrong univariate nonzero at the random `rᵢ`; "a truthful story survives every narrowing" **is** completeness. Pair each picture with its statement:
+Rebuild the intuition on the rigor, both halves at once. The prosecutor's "narrow the confession until one checkable fact remains" **is** the round reduction that turns the `v`-variable claim `H = Σ_{x∈{0,1}ᵛ} g(x)` into the smaller claim `gᵢ(rᵢ)` and, after `v` narrowings, into the single evaluation `g(r₁,…,r_v)`. "The lie must contradict itself at a random moment he can't anticipate" **is** Schwartz–Zippel: a lying `gᵢ` differs from the true round polynomial by a nonzero degree-`≤d` polynomial, which a uniformly random `rᵢ` exposes with probability `≥ 1 − d/|F|`. "A truthful story survives every narrowing" **is** completeness — `gᵢ(0)+gᵢ(1)` equals the running claim, because splitting `xᵢ` into its two Boolean values is exactly the next term of the sum. And "being caught once is enough; luck doesn't compound into safety" **is** the induction on rounds, where the per-round risks `≤ d/|F|` *add* by the union bound to `≤ d·v/|F|` rather than multiplying into something larger.
 
-| Picture (heuristic) | Formal statement |
-|---|---|
-| A prosecutor narrows a confession until one checkable fact remains | Reduction `H = Σ_{x∈{0,1}ᵛ} g(x)` → `gᵢ(rᵢ)` → … → `g(r₁,…,r_v)` |
-| The liar's story must break at a random moment he can't anticipate | A lying `gᵢ` differs by a nonzero degree-`≤d` polynomial; random `rᵢ` exposes it w.p. `≥ 1 − d/|F|` |
-| A truthful story survives every narrowing | Completeness: `gᵢ(0)+gᵢ(1) = ` running claim, since splitting `xᵢ` into 0/1 is the next sum term |
-| Being caught once is enough; luck doesn't compound into safety | Induction on rounds; per-round risks `≤ d/|F|` **add** to `≤ d·v/|F|` (union bound) |
-| The verifier never adds the eight corners (figure: 8 → 4 → 2 → 1) | `H=54`; chain `54 → g₁(2)=47 → g₂(3)=71 → g₃(4)=67 = g(2,3,4)`, `v=3` checks + one eval |
+Our concrete instance shows the narrowing as a chain of running claims, each the value handed to the next round — eight corners checked through three small univariate checks and one final evaluation, never the cube itself:
+
+| Round | Prover sends `gᵢ(X)` | Split check `gᵢ(0)+gᵢ(1)` | Challenge `rᵢ` | New claim `gᵢ(rᵢ)` |
+|---|---|---|---|---|
+| start | — | — | — | `H = 54` |
+| 1 | `23 + 4X + 4X²` | `23 + 31 = 54` ✓ | `r₁ = 2` | `g₁(2) = 47` |
+| 2 | `14 + 19X` | `14 + 33 = 47` ✓ | `r₂ = 3` | `g₂(3) = 71` |
+| 3 | `31 + 9X` | `31 + 40 = 71` ✓ | `r₃ = 4` | `g₃(4) = 67` |
+| end | check against `g` directly | — | — | `g(2,3,4) = 67` ✓ |
 
 Now the structure feels inevitable: the verifier does `v` small univariate checks plus one evaluation — an **exponential sum verified in work linear in `v`** — and the soundness knob is the *same* `d·v/|F|` Schwartz–Zippel dial from Ch 7, only summed over rounds.
 
@@ -84,20 +80,13 @@ Keep two boundaries sharp:
 - **Sum-check is a *pure* reduction.** It assumes oracle access to `g` and uses **no** commitment, group, or hardness assumption. That purity is exactly why **GKR** is the first no-commitment proof system the reader meets, and why a commitment scheme only enters later (Ch 9) — when `g` itself must be pinned down.
 - **Sum-check is *not* zero-knowledge by itself.** It reveals genuine evaluations of `g`; masking polynomials (Ch 9–10) are what make it ZK. Conflating the two corrupts the later security models.
 
-This single gadget is the engine beneath Layer 4 and the most-reused move in the rest of the book — grand-product / ZeroTest (Ch 9), Spartan and the folding hinge (Ch 10), folding schemes *defined* on sum-check (Ch 14), LogUp-GKR and zkVM lookups (Ch 15).
+You could have invented this. Knowing only that a low-degree univariate is pinned down by a few evaluations (so `gᵢ(0)+gᵢ(1)` should equal the running claim) and that a nonzero low-degree polynomial is nonzero at a random point with high probability, you would strip off one variable per round, check the split identity, pin a random `rᵢ`, recurse on the smaller claim, and finish with one direct evaluation — and you would have landed on sum-check, no commitment required.
+
+This single gadget is the engine beneath Layer 4 and the most-reused move in the rest of the book. The same `g(r₁,…,r_v)` reduction reappears as grand-product / ZeroTest (Ch 9), as the hinge of Spartan (Ch 10), as the operation that *defines* folding schemes (Ch 14), and as LogUp-GKR driving zkVM lookups (Ch 15) — and because sum-check carries no commitment, it is the clean half of the SNARK recipe, waiting only for a polynomial commitment (Ch 9) to pin down `g` and complete the engine. Where Schwartz–Zippel let a verifier check one identity at a random point, sum-check lets it check an exponential *sum* in a handful of rounds; next, GKR chains this move up a whole circuit, layer by layer, so an entire computation collapses to a single trusted evaluation.
 
 ---
 
-> ### Rediscover it (you could have invented this)
-> Suppose you know just two things: (a) a degree-`≤d` univariate is pinned down by a few evaluations, and `gᵢ(0)+gᵢ(1)` should equal the running claim; and (b) a *nonzero* degree-`≤d` polynomial is nonzero at a random point with probability `≥ 1 − d/|F|`. You must convince a verifier that `Σ_{x∈{0,1}ⁿ} g(x) = H` without anyone adding `2ⁿ` terms.
->
-> Strip off **one variable per round**. Round `i`: ask the prover for `gᵢ(X) = Σ` over the remaining `{0,1}` variables of `g`, with `x₁..x_{i−1}` fixed to past challenges and `xᵢ = X`. Check the split identity `gᵢ(0)+gᵢ(1) = ` current claim. Then pick a **random** `rᵢ` and demand the smaller claim `gᵢ(rᵢ)` next round — by (b), a lying `gᵢ` is exposed at random `rᵢ` with probability `≥ 1 − d/|F|`. After `n` rounds nothing is left to sum: check the single value `g_n(r_n) = g(r₁,…,r_n)` directly.
->
-> Honest provers always pass; a cheat survives all rounds with probability `≤ d·v/|F|`. **You have rediscovered sum-check — no commitment, just Schwartz–Zippel per round.** You derived it; you did not receive it.
-
----
-
-## Check yourself (comprehension set)
+## Check yourself
 
 **Recall.** In one round of sum-check, what does the prover send, and exactly which identity does the verifier check before moving on — and does the verifier ever recompute the true partial sum?
 > *Answer:* The prover sends a univariate `gᵢ(X)` (the claimed partial sum with earlier variables fixed to past challenges and later variables summed over `{0,1}`). The verifier checks `gᵢ(0) + gᵢ(1) = ` running claim (`H` in round 1, `g_{i−1}(r_{i−1})` afterward). It never recomputes a true partial sum; its only direct contact with `g` is the final `g(r₁,…,r_n)`.
@@ -117,4 +106,4 @@ This single gadget is the engine beneath Layer 4 and the most-reused move in the
 
 ---
 
-*Verification: every numeric claim matches the Sage manifest (`field 97`, `H 54`, rounds `g₁=[23,4,4]`, `g₂=[14,19]`, `g₃=[31,9]`, challenges `(2,3,4)`, chain `54→47→71→67`, `final_eval 67`, bound `d·v/|F| = 6/97`); the manim scene's displayed values pass `validate_scene_values` with no drift; the identities are enforced as asserts in the recipe and independently re-derived in a second Sage session; scorecard PASS. Figure and animation generated correct-by-construction by `scripts/recipes/sum-check.sage` and `scripts/scenes/sum-check.py`.*
+*Next: stack this one move up the layers of a circuit and you get GKR — sum-check applied to each layer in turn, so a whole computation reduces to a single trusted evaluation; bolt a polynomial commitment onto that final evaluation and you have the full SNARK recipe the rest of the book builds.*
