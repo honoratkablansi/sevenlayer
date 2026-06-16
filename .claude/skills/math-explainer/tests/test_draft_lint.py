@@ -95,3 +95,28 @@ def test_anaphora_flagged():
 def test_clean_prose_survives_deeper_checks():
     # CLEAN has a single numbered item and varied sentence openers — no count tic, no anaphora.
     assert lint_draft(CLEAN) == []
+
+
+SELF_REF = """# Concept
+
+*Chapter 7 — Fingerprints*
+
+Body text. This is the same idea Ch 7 keeps using throughout.
+"""
+
+OUTWARD_REF = """# Concept
+
+*Chapter 7 — Fingerprints*
+
+This builds on Ch 6 and feeds the proof systems of Ch 10 later.
+"""
+
+
+def test_self_chapter_reference_flagged():
+    findings = lint_draft(SELF_REF)
+    assert any("self-reference" in f.lower() and "7" in f for f in findings)
+
+
+def test_outward_chapter_reference_ok():
+    findings = lint_draft(OUTWARD_REF)
+    assert not any("self-reference" in f.lower() for f in findings)

@@ -60,6 +60,33 @@ def _anaphora(text: str) -> list[str]:
     return findings
 
 
+def _self_chapter_ref(text: str) -> list[str]:
+    """Flag body references to the draft's own home chapter (rule 11).
+
+    The home chapter is the first 'Chapter N' (the subtitle); any later 'Ch N' / 'Chapter N'
+    is the draft citing itself as an external dependency, which the editorial Copyeditor marks
+    critical.
+    """
+    findings: list[str] = []
+    lines = text.splitlines()
+    home = None
+    home_line = 0
+    for i, line in enumerate(lines, start=1):
+        m = re.search(r"\bChapter\s+(\d+)", line)
+        if m:
+            home, home_line = m.group(1), i
+            break
+    if not home:
+        return findings
+    ref = re.compile(r"\b(?:Ch\.?|Chapter)\s+" + re.escape(home) + r"\b")
+    for i, line in enumerate(lines, start=1):
+        if i == home_line:
+            continue
+        if ref.search(line):
+            findings.append(f"L{i}: self-reference to own home chapter (Ch {home}) — use 'this chapter' (rule 11)")
+    return findings
+
+
 def lint_draft(text: str) -> list[str]:
     """Return prose-hygiene findings as strings (empty == clean)."""
     findings: list[str] = []
@@ -77,6 +104,7 @@ def lint_draft(text: str) -> list[str]:
         if ROADMAP.search(line):
             findings.append(f"L{i}: roadmap announcement (rule 9): never pre-announce a glossary list")
     findings.extend(_anaphora(text))
+    findings.extend(_self_chapter_ref(text))
     return findings
 
 
