@@ -1,0 +1,112 @@
+{
+  "concept": "Elliptic-curve groups; point addition; scalar multiplication",
+  "claims": [
+    {
+      "claim": "The curve is y^2 = x^3 + 2x + 3 over F_97.",
+      "source": "sage_manifest",
+      "status": "verified",
+      "evidence": "Checked against the Sage-produced manifest and overlapping manim SCENE_VALUES."
+    },
+    {
+      "claim": "The finite group has 100 points including the point at infinity.",
+      "source": "sage_manifest",
+      "status": "verified",
+      "evidence": "Checked against the Sage-produced manifest and overlapping manim SCENE_VALUES."
+    },
+    {
+      "claim": "The addition example gives P+Q = [80, 87].",
+      "source": "sage_manifest",
+      "status": "verified",
+      "evidence": "Checked against the Sage-produced manifest and overlapping manim SCENE_VALUES."
+    },
+    {
+      "claim": "The scalar multiple 7P equals [80, 10] and matches repeated addition.",
+      "source": "sage_manifest",
+      "status": "verified",
+      "evidence": "Checked against the Sage-produced manifest and overlapping manim SCENE_VALUES."
+    }
+  ],
+  "sage_manifest": {
+    "figure": "assets/figures/elliptic-curves.svg",
+    "field": 97,
+    "curve_a": 2,
+    "curve_b": 3,
+    "group_order": 100,
+    "P": [
+      3,
+      6
+    ],
+    "Q": [
+      80,
+      10
+    ],
+    "addition_slope": 58,
+    "P_plus_Q": [
+      80,
+      87
+    ],
+    "scalar": 7,
+    "scalar_multiple": [
+      80,
+      10
+    ],
+    "repeated_addition": [
+      80,
+      10
+    ],
+    "repeated_addition_matches": true,
+    "finite_point_count_without_infinity": 99
+  },
+  "scene_value_check": {
+    "tool": "scripts.manim_render.validate_scene_values",
+    "scene_values": {
+      "field": 97,
+      "curve_a": 2,
+      "curve_b": 3,
+      "group_order": 100,
+      "P": [
+        3,
+        6
+      ],
+      "Q": [
+        80,
+        10
+      ],
+      "P_plus_Q": [
+        80,
+        87
+      ],
+      "scalar": 7,
+      "scalar_multiple": [
+        80,
+        10
+      ],
+      "repeated_addition": [
+        80,
+        10
+      ],
+      "repeated_addition_matches": true,
+      "finite_point_count_without_infinity": 99
+    },
+    "result": [],
+    "note": "Empty list means every overlapping displayed value matched the Sage manifest."
+  },
+  "ledger_refs": [
+    "MATH_FOUNDATIONS row: Elliptic-curve groups; point addition; scalar multiplication first needed Ch 11.",
+    "CHAPTER_BIBLE Chapter 11: reader prerequisites and chapter role.",
+    "graphify query \"Elliptic-curve groups\""
+  ],
+  "adversarial_findings": [
+    {
+      "finding": "Risk that the toy numbers imply production security.",
+      "resolution": "Draft labels every concrete group, field, hash tree, or curve as a toy example and separates the computation from the real hardness or collision-resistance assumption.",
+      "status": "resolved"
+    },
+    {
+      "finding": "Risk of notation drifting between prose, figure, and animation.",
+      "resolution": "The overlapping displayed values are stored in SCENE_VALUES and validated against the Sage manifest.",
+      "status": "resolved"
+    }
+  ],
+  "verified": true
+}

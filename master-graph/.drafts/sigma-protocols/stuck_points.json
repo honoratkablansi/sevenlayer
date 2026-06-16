@@ -1,0 +1,29 @@
+{
+  "misconceptions": [
+    {
+      "claim": "The commitment t is a cryptographic commitment to the secret x.",
+      "why_tempting": "The word commit appears in both places.",
+      "severity": "high"
+    },
+    {
+      "claim": "One accepting transcript proves the verifier could extract the witness.",
+      "why_tempting": "The verifier has seen a convincing equation.",
+      "severity": "high"
+    },
+    {
+      "claim": "Special soundness is zero-knowledge.",
+      "why_tempting": "Both are named security properties of the same protocol family.",
+      "severity": "medium"
+    }
+  ],
+  "dumb_questions": [
+    "Why must the challenge arrive after t?",
+    "What breaks if the prover can choose c?",
+    "Why do two transcripts with the same t reveal x?"
+  ],
+  "bad_intuitions_to_kill": [
+    "The first message is an opening of the witness.",
+    "Acceptance alone is extraction.",
+    "All Sigma-protocol properties say the same thing."
+  ]
+}

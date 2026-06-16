@@ -1,0 +1,534 @@
+{
+  "batch": "B2",
+  "agent": "codex-gpt-5.5",
+  "preflight": "REQUIRED OK: sage, manim, graphify",
+  "concepts": [
+    {
+      "slug": "discrete-log",
+      "label": "Discrete logarithm problem",
+      "home_chapter": "Chapter 11",
+      "status": "complete",
+      "output_dir": "master-graph/.drafts/discrete-log/",
+      "stage1": {
+        "graphify_query": "graphify query \"Discrete logarithm problem\"",
+        "graphify_match": "good",
+        "graphify_contribution": "Start node was Discrete Logarithm Problem; used it as supporting context for DLog-based cryptosystems and Shor vulnerability, not for extra prerequisites.",
+        "prerequisites": [
+          "cyclic groups"
+        ],
+        "assumed_background": [
+          "cyclic groups and generators",
+          "finite fields and modular arithmetic",
+          "commit/open/verify as the PCS interface from the previous chapter"
+        ],
+        "target_depth": "I->R",
+        "learning_objectives": [
+          "Define the discrete logarithm problem in a prime-order cyclic group.",
+          "Distinguish fast exponentiation from brute-force recovery in a toy group.",
+          "Explain why the hardness assumption is conditional rather than a theorem."
+        ]
+      },
+      "stage2": {
+        "misconception_count": 3,
+        "summary": "If exponentiation is easy, reversing it should be only a little harder.; A small toy group demonstrates real security.; The discrete-log problem is a theorem saying recovery is impossible."
+      },
+      "stage3": {
+        "sage_recipe": "scripts/recipes/discrete-log.sage",
+        "figure": "figures/discrete-log.svg",
+        "manim_scene": "scripts/scenes/discrete-log.py",
+        "animation": "animations/discrete-log.mp4",
+        "animation_bytes": 222687,
+        "key_manifest_values": {
+          "p": 2039,
+          "group_order": 1019,
+          "g": 9,
+          "x": 873,
+          "h": 211,
+          "forward_chain_multiplications": 14,
+          "brute_force_steps": 874,
+          "worst_case_steps": 1019
+        }
+      },
+      "stage4": {
+        "verified": true,
+        "claims_checked": 4,
+        "scene_values_drift": "[]",
+        "adversarial_findings": [
+          {
+            "finding": "Risk that the toy numbers imply production security.",
+            "resolution": "Draft labels every concrete group, field, hash tree, or curve as a toy example and separates the computation from the real hardness or collision-resistance assumption.",
+            "status": "resolved"
+          },
+          {
+            "finding": "Risk of notation drifting between prose, figure, and animation.",
+            "resolution": "The overlapping displayed values are stored in SCENE_VALUES and validated against the Sage manifest.",
+            "status": "resolved"
+          }
+        ]
+      },
+      "stage5": {
+        "levels": [
+          "recall",
+          "apply",
+          "transfer",
+          "rediscover"
+        ]
+      },
+      "gates": {
+        "draft_lint": "CLEAN",
+        "schemas": {
+          "concept_brief": "VALID",
+          "stuck_points": "VALID",
+          "accuracy_report": "VALID",
+          "comprehension_set": "VALID",
+          "bundle": "VALID"
+        },
+        "scorecard": "PASS"
+      },
+      "problems": [],
+      "opinion": {
+        "draft_quality_self_assessment": "Solid for a rigorous on-ramp: the toy subgroup makes the asymmetry visible and the prose separates theorem from hardness assumption.",
+        "skill_friction": "No pre-existing recipe or scene existed for this slug, so the batch needed fresh multimodal assets.",
+        "weakest_part": "The toy brute-force count is pedagogically useful but small enough that a human editor may want a stronger bridge to real parameter sizes."
+      }
+    },
+    {
+      "slug": "sigma-protocols",
+      "label": "Sigma protocols",
+      "home_chapter": "Chapter 9",
+      "status": "complete",
+      "output_dir": "master-graph/.drafts/sigma-protocols/",
+      "stage1": {
+        "graphify_query": "graphify query \"Sigma protocols\"",
+        "graphify_match": "near-miss",
+        "graphify_contribution": "Graphify started from public-state sigma and Protostar special-sound nodes, not the Sigma-protocol concept; no graph edges were imported.",
+        "prerequisites": [
+          "groups",
+          "commitments"
+        ],
+        "assumed_background": [
+          "interactive protocols with prover, verifier, and random challenge",
+          "commitment intuition: binding fixes a value before it is opened",
+          "basic group operations and exponent notation"
+        ],
+        "target_depth": "I->R",
+        "learning_objectives": [
+          "Describe the commit-challenge-response shape of a Sigma protocol.",
+          "Verify a concrete Schnorr transcript.",
+          "Use two accepting transcripts with one commitment to extract the witness."
+        ]
+      },
+      "stage2": {
+        "misconception_count": 3,
+        "summary": "The commitment t is a cryptographic commitment to the secret x.; One accepting transcript proves the verifier could extract the witness.; Special soundness is zero-knowledge."
+      },
+      "stage3": {
+        "sage_recipe": "scripts/recipes/sigma-protocols.sage",
+        "figure": "figures/sigma-protocols.svg",
+        "manim_scene": "scripts/scenes/sigma-protocols.py",
+        "animation": "animations/sigma-protocols.mp4",
+        "animation_bytes": 100926,
+        "key_manifest_values": {
+          "group_order": 1019,
+          "g": 9,
+          "h": 992,
+          "x": 321,
+          "r": 412,
+          "c": 77,
+          "t": 1077,
+          "s": 673,
+          "verified": true,
+          "extracted_x": 321
+        }
+      },
+      "stage4": {
+        "verified": true,
+        "claims_checked": 3,
+        "scene_values_drift": "[]",
+        "adversarial_findings": [
+          {
+            "finding": "Risk that the toy numbers imply production security.",
+            "resolution": "Draft labels every concrete group, field, hash tree, or curve as a toy example and separates the computation from the real hardness or collision-resistance assumption.",
+            "status": "resolved"
+          },
+          {
+            "finding": "Risk of notation drifting between prose, figure, and animation.",
+            "resolution": "The overlapping displayed values are stored in SCENE_VALUES and validated against the Sage manifest.",
+            "status": "resolved"
+          }
+        ]
+      },
+      "stage5": {
+        "levels": [
+          "recall",
+          "apply",
+          "transfer",
+          "rediscover"
+        ]
+      },
+      "gates": {
+        "draft_lint": "CLEAN",
+        "schemas": {
+          "concept_brief": "VALID",
+          "stuck_points": "VALID",
+          "accuracy_report": "VALID",
+          "comprehension_set": "VALID",
+          "bundle": "VALID"
+        },
+        "scorecard": "PASS"
+      },
+      "problems": [
+        {
+          "stage": "Stage 1",
+          "issue": "graphify fuzzy-matched public-state sigma / Protostar special-sound nodes rather than a Sigma-protocol concept node.",
+          "severity": "minor",
+          "workaround": "Recorded graphify_match as near-miss and used only MATH_FOUNDATIONS plus CHAPTER_BIBLE dependencies."
+        }
+      ],
+      "opinion": {
+        "draft_quality_self_assessment": "The transcript algebra and special-soundness extraction are explicit and should survive expert review.",
+        "skill_friction": "graphify did not find the concept node, and the skill had no Sigma recipe/scene despite the chapter bible identifying it as a load-bearing omission.",
+        "weakest_part": "Zero-knowledge is only distinguished, not constructed; that is right for scope but may feel thin if the surrounding chapter expects the simulator too."
+      }
+    },
+    {
+      "slug": "merkle-trees",
+      "label": "Merkle trees",
+      "home_chapter": "Chapter 9",
+      "status": "complete",
+      "output_dir": "master-graph/.drafts/merkle-trees/",
+      "stage1": {
+        "graphify_query": "graphify query \"Merkle trees\"",
+        "graphify_match": "good",
+        "graphify_contribution": "Start nodes included Merkle Tree and Merkle Hash Tree; used the graph only to confirm links to FRI/STARK and commitment-to-data themes.",
+        "prerequisites": [
+          "hashing"
+        ],
+        "assumed_background": [
+          "hash functions as short fingerprints",
+          "collision resistance as a computational binding assumption",
+          "commitment intuition: commit now, open later"
+        ],
+        "target_depth": "I->R",
+        "learning_objectives": [
+          "Build a Merkle root from leaves by pairwise hashing.",
+          "Verify one leaf with an authentication path.",
+          "Explain why changing a leaf should change the root unless a hash collision is found."
+        ]
+      },
+      "stage2": {
+        "misconception_count": 3,
+        "summary": "The root contains all the data in compressed form.; A Merkle proof proves every leaf is honest.; Changing a leaf is mathematically impossible once the root is fixed."
+      },
+      "stage3": {
+        "sage_recipe": "scripts/recipes/merkle-trees.sage",
+        "figure": "figures/merkle-trees.svg",
+        "manim_scene": "scripts/scenes/merkle-trees.py",
+        "animation": "animations/merkle-trees.mp4",
+        "animation_bytes": 108892,
+        "key_manifest_values": {
+          "hash": "SHA-256",
+          "leaf_count": 4,
+          "root_prefix": "827669c52893",
+          "target_index": 2,
+          "path_length": 2,
+          "verified": true,
+          "tampered_root_prefix": "e25f1a2a7f66",
+          "root_changed": true
+        }
+      },
+      "stage4": {
+        "verified": true,
+        "claims_checked": 3,
+        "scene_values_drift": "[]",
+        "adversarial_findings": [
+          {
+            "finding": "Risk that the toy numbers imply production security.",
+            "resolution": "Draft labels every concrete group, field, hash tree, or curve as a toy example and separates the computation from the real hardness or collision-resistance assumption.",
+            "status": "resolved"
+          },
+          {
+            "finding": "Risk of notation drifting between prose, figure, and animation.",
+            "resolution": "The overlapping displayed values are stored in SCENE_VALUES and validated against the Sage manifest.",
+            "status": "resolved"
+          }
+        ]
+      },
+      "stage5": {
+        "levels": [
+          "recall",
+          "apply",
+          "transfer",
+          "rediscover"
+        ]
+      },
+      "gates": {
+        "draft_lint": "CLEAN",
+        "schemas": {
+          "concept_brief": "VALID",
+          "stuck_points": "VALID",
+          "accuracy_report": "VALID",
+          "comprehension_set": "VALID",
+          "bundle": "VALID"
+        },
+        "scorecard": "PASS"
+      },
+      "problems": [],
+      "opinion": {
+        "draft_quality_self_assessment": "Accessible and precise: it defines hash, collision resistance, root, path, and side ordering before relying on them.",
+        "skill_friction": "No existing Merkle recipe/scene existed; the current validators do not check whether the draft defines collision resistance before use.",
+        "weakest_part": "The concrete tree has only four leaves, so the logarithmic-scaling intuition is stated rather than deeply visualized."
+      }
+    },
+    {
+      "slug": "fri",
+      "label": "FRI low-degree testing",
+      "home_chapter": "Chapter 11",
+      "status": "partial",
+      "output_dir": "master-graph/.drafts/fri/",
+      "stage1": {
+        "graphify_query": "graphify query \"FRI low-degree testing\"",
+        "graphify_match": "good",
+        "graphify_contribution": "Graphify resolved the start node FRI; used it as support for the STARK/FRI and Reed-Solomon proximity links.",
+        "prerequisites": [
+          "RS",
+          "codes"
+        ],
+        "assumed_background": [
+          "Reed-Solomon codewords as polynomial evaluations",
+          "finite fields and evaluation domains",
+          "low-degree testing and proximity from the polynomial-IOP chapter"
+        ],
+        "target_depth": "R",
+        "learning_objectives": [
+          "Explain one FRI folding round as a degree-reducing consistency check.",
+          "Distinguish the folded polynomial's actual degree from the degree bound.",
+          "Connect FRI proximity to transparent hash-based commitments."
+        ]
+      },
+      "stage2": {
+        "misconception_count": 3,
+        "summary": "Folding proves the original word was low degree by itself.; The degree after folding is exactly half of the old degree.; FRI tests a polynomial the verifier already knows explicitly."
+      },
+      "stage3": {
+        "sage_recipe": "scripts/recipes/fri.sage",
+        "figure": "figures/fri.svg",
+        "manim_scene": "scripts/scenes/fri.py",
+        "animation": "animations/fri.mp4",
+        "animation_bytes": 140924,
+        "key_manifest_values": {
+          "field": 97,
+          "omega": 64,
+          "domain_size": 8,
+          "folded_domain_size": 4,
+          "degree_before": 3,
+          "degree_after": 1,
+          "beta": 29,
+          "consistency_check": true
+        }
+      },
+      "stage4": {
+        "verified": true,
+        "claims_checked": 4,
+        "scene_values_drift": "[]",
+        "adversarial_findings": [
+          {
+            "finding": "Risk that the toy numbers imply production security.",
+            "resolution": "Draft labels every concrete group, field, hash tree, or curve as a toy example and separates the computation from the real hardness or collision-resistance assumption.",
+            "status": "resolved"
+          },
+          {
+            "finding": "Risk of notation drifting between prose, figure, and animation.",
+            "resolution": "The overlapping displayed values are stored in SCENE_VALUES and validated against the Sage manifest.",
+            "status": "resolved"
+          }
+        ]
+      },
+      "stage5": {
+        "levels": [
+          "recall",
+          "apply",
+          "transfer",
+          "rediscover"
+        ]
+      },
+      "gates": {
+        "draft_lint": "CLEAN",
+        "schemas": {
+          "concept_brief": "VALID",
+          "stuck_points": "VALID",
+          "accuracy_report": "VALID",
+          "comprehension_set": "VALID",
+          "bundle": "VALID"
+        },
+        "scorecard": "PASS"
+      },
+      "problems": [
+        {
+          "stage": "Stage 1",
+          "issue": "Required command `resolve_deps.py master-graph/.outline/MATH_FOUNDATIONS.md \"FRI low-degree testing\"` returned `{\"error\": \"concept not found: FRI low-degree testing\"}`. The matching authoritative row is `Reed-Solomon as a code; low-degree testing; FRI proximity`.",
+          "severity": "major",
+          "workaround": "Used the exact matching MATH_FOUNDATIONS row `FRI proximity` for prerequisites and recorded the mismatch; all downstream gates passed."
+        }
+      ],
+      "opinion": {
+        "draft_quality_self_assessment": "Mathematically careful about actual degree versus degree bound and about folding not being the whole proof.",
+        "skill_friction": "The requested label did not resolve in MATH_FOUNDATIONS even though the row exists under different wording.",
+        "weakest_part": "One fold is enough for the target but does not convey the full repeated FRI protocol; a later draft should show the terminal constant step."
+      }
+    },
+    {
+      "slug": "elliptic-curves",
+      "label": "Elliptic-curve groups",
+      "home_chapter": "Chapter 11",
+      "status": "complete",
+      "output_dir": "master-graph/.drafts/elliptic-curves/",
+      "stage1": {
+        "graphify_query": "graphify query \"Elliptic-curve groups\"",
+        "graphify_match": "near-miss",
+        "graphify_contribution": "Graphify returned elliptic-curve cryptography/ECFFT/ECM nodes rather than the group-law concept; no extra dependencies were imported.",
+        "prerequisites": [
+          "groups"
+        ],
+        "assumed_background": [
+          "finite fields and modular arithmetic",
+          "groups as sets with an associative operation, identity, and inverses",
+          "curve points as the compact objects used by commitments and signatures"
+        ],
+        "target_depth": "R",
+        "learning_objectives": [
+          "Define an elliptic-curve group over a finite field.",
+          "Compute a concrete point addition and scalar multiple.",
+          "Explain why the chord picture is intuition while the finite-field formulas are the cryptographic object."
+        ]
+      },
+      "stage2": {
+        "misconception_count": 3,
+        "summary": "Elliptic-curve addition is ordinary coordinate-wise addition.; The real curve picture is the cryptographic curve.; Scalar multiplication is repeated multiplication of coordinates."
+      },
+      "stage3": {
+        "sage_recipe": "scripts/recipes/elliptic-curves.sage",
+        "figure": "figures/elliptic-curves.svg",
+        "manim_scene": "scripts/scenes/elliptic-curves.py",
+        "animation": "animations/elliptic-curves.mp4",
+        "animation_bytes": 116421,
+        "key_manifest_values": {
+          "field": 97,
+          "curve_a": 2,
+          "curve_b": 3,
+          "group_order": 100,
+          "P": [
+            3,
+            6
+          ],
+          "Q": [
+            80,
+            10
+          ],
+          "P_plus_Q": [
+            80,
+            87
+          ],
+          "scalar": 7,
+          "scalar_multiple": [
+            80,
+            10
+          ]
+        }
+      },
+      "stage4": {
+        "verified": true,
+        "claims_checked": 4,
+        "scene_values_drift": "[]",
+        "adversarial_findings": [
+          {
+            "finding": "Risk that the toy numbers imply production security.",
+            "resolution": "Draft labels every concrete group, field, hash tree, or curve as a toy example and separates the computation from the real hardness or collision-resistance assumption.",
+            "status": "resolved"
+          },
+          {
+            "finding": "Risk of notation drifting between prose, figure, and animation.",
+            "resolution": "The overlapping displayed values are stored in SCENE_VALUES and validated against the Sage manifest.",
+            "status": "resolved"
+          }
+        ]
+      },
+      "stage5": {
+        "levels": [
+          "recall",
+          "apply",
+          "transfer",
+          "rediscover"
+        ]
+      },
+      "gates": {
+        "draft_lint": "CLEAN",
+        "schemas": {
+          "concept_brief": "VALID",
+          "stuck_points": "VALID",
+          "accuracy_report": "VALID",
+          "comprehension_set": "VALID",
+          "bundle": "VALID"
+        },
+        "scorecard": "PASS"
+      },
+      "problems": [
+        {
+          "stage": "Stage 1",
+          "issue": "graphify returned elliptic-curve cryptography, ECFFT, and ECM nodes rather than the elliptic-curve group-law concept.",
+          "severity": "minor",
+          "workaround": "Recorded graphify_match as near-miss and did not import graphify prerequisites."
+        }
+      ],
+      "opinion": {
+        "draft_quality_self_assessment": "The draft cleanly separates real-curve intuition from finite-field group law and checks addition/scalar multiplication numerically.",
+        "skill_friction": "graphify matched adjacent EC concepts rather than the group-law node, and the skill had no EC recipe/scene.",
+        "weakest_part": "The real chord animation is schematic rather than using the same finite-field points, which is pedagogically honest but visually less tight."
+      }
+    }
+  ],
+  "batch_summary": {
+    "completed": 4,
+    "partial": 1,
+    "blocked": 0,
+    "all_gates_pass": true,
+    "cross_cutting_problems": [
+      "None of the five requested recipe/scene files existed in the skill before this batch; they had to be authored from scratch.",
+      "graphify fuzzy matching is still unsafe for foundational names; two concepts returned near-miss starts that had to be rejected manually.",
+      "draft_lint catches residue and some style tics but does not enforce the hardest editorial requirement: inline definition of every load-bearing term."
+    ],
+    "skill_enhancement_recommendations": [
+      {
+        "target": "references/dependency-protocol.md",
+        "change": "Add an alias/escalation rule when the requested label fails but a semantically exact MATH_FOUNDATIONS row exists under adjacent wording, as with FRI low-degree testing vs FRI proximity.",
+        "rationale": "The current protocol says labels should resolve but gives no clean way to record an authoritative alias without making the concept look cleaner than it was.",
+        "priority": "high"
+      },
+      {
+        "target": "scripts/draft_lint.py",
+        "change": "Add optional checks for reader-facing machine terms beyond the current small list, including `manifest`, `Sage run`, and `recipe verified` when they appear in draft prose.",
+        "rationale": "The formal lint missed machine residue that a human editorial pass would catch.",
+        "priority": "med"
+      },
+      {
+        "target": "scripts/scorecard.py",
+        "change": "Add a lightweight artifact-existence check for figure and animation paths referenced by the bundle.",
+        "rationale": "Asset existence is a required gate but currently has to be checked outside the scorecard.",
+        "priority": "med"
+      },
+      {
+        "target": "new-file",
+        "change": "Ship starter recipe/scene templates for DLog, Sigma/Schnorr, Merkle, FRI, and elliptic curves.",
+        "rationale": "These are core Chapter 9/11 concepts, but the skill had no matching multimodal templates.",
+        "priority": "high"
+      },
+      {
+        "target": "references/draft-quality.md",
+        "change": "Add a short negative example showing a mathematically valid draft that still fails because it did not define load-bearing terms inline.",
+        "rationale": "The biggest remaining quality risk is not numeric correctness but assuming the reader remembers terms from sibling chapters.",
+        "priority": "high"
+      }
+    ],
+    "overall_opinion": "The skill can produce structurally valid, numerically checked drafts, but it is not yet reliably book-grade without a strong human-style prose pass. Its biggest remaining weakness is that gates verify artifacts better than they verify reader comprehension. The single highest-value change would be a draft-quality checker or rubric pass focused on inline definitions, notation glosses, and machine-language leakage."
+  }
+}

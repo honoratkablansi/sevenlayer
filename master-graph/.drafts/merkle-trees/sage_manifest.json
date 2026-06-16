@@ -1,0 +1,38 @@
+{
+  "figure": "assets/figures/merkle-trees.svg",
+  "hash": "SHA-256",
+  "leaves": [
+    "row0:alice:7",
+    "row1:bob:2",
+    "row2:carol:9",
+    "row3:dave:5"
+  ],
+  "leaf_hashes": [
+    "69b11f05ac9600bc17633c2dfc3b5d696ba6162b3fa235eae993bdab25efde3c",
+    "7f3356446840fcf8e09710d779bbaee5d5c1b06e29b28b4ae1f5ca3e4c307a67",
+    "5892d9b8d545398aba92e825fd76076bdcb771e140da6c6cb7c13fa52377993a",
+    "29e43405c61b5aed27fdec5b3680a69b79757e91745b308f5b5ff0f90e5940b7"
+  ],
+  "root": "827669c5289333aada5cee9c9f5be2ef5a48122fafd712fe1b86da06a658541f",
+  "root_prefix": "827669c52893",
+  "target_index": 2,
+  "auth_path": [
+    {
+      "level": 0,
+      "side": "right",
+      "sibling": "29e43405c61b5aed27fdec5b3680a69b79757e91745b308f5b5ff0f90e5940b7"
+    },
+    {
+      "level": 1,
+      "side": "left",
+      "sibling": "a76307fd9f21a4bc955955a4a2ef72a32b9b9f82649dd4672f0756316cb5b669"
+    }
+  ],
+  "path_length": 2,
+  "recomputed_root": "827669c5289333aada5cee9c9f5be2ef5a48122fafd712fe1b86da06a658541f",
+  "verified": true,
+  "tampered_leaf": "row2:carol:10",
+  "tampered_root": "e25f1a2a7f66d3ada9378b58dc16976aee91d843b03b3a8205898a06173f66bc",
+  "tampered_root_prefix": "e25f1a2a7f66",
+  "root_changed": true
+}

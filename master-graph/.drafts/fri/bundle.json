@@ -1,0 +1,193 @@
+{
+  "concept": "Reed-Solomon as a code; low-degree testing; FRI proximity",
+  "slug": "fri",
+  "chapter": "Chapter 11",
+  "stratum": "Coding theory, hashing & commitment-to-data",
+  "target_depth": "rigorous",
+  "phases": {
+    "pre_rigorous": "The visual folds eight evaluations into four: paired positions are blended with a fresh beta so a claimed low-degree word has to stay consistent as the domain shrinks.",
+    "rigorous": "Over F_97, f has actual degree 3 on a domain of size 8. Splitting into even and odd coefficient polynomials and combining with beta = 29 gives a folded polynomial of actual degree 1 on 4 points.",
+    "post_rigorous": "The fold is not the whole proof; it is a degree-reducing step whose random consistency checks make a far-from-low-degree word keep contradicting itself."
+  },
+  "modes_order": [
+    "visual",
+    "analogy",
+    "worked_example",
+    "formal",
+    "synthesis"
+  ],
+  "led_with_visual": true,
+  "motivated_before_defined": true,
+  "notation_in_pre_rigorous": false,
+  "heuristic_rigorous_pairs": [
+    [
+      "Fold a long word into a shorter word.",
+      "Use f(X)=f_even(X^2)+X f_odd(X^2), then g(Y)=f_even(Y)+beta f_odd(Y)."
+    ],
+    [
+      "The fold must be checked against the old word.",
+      "Random consistency checks compare f(x), f(-x), and g(x^2)."
+    ]
+  ],
+  "stuck_points_predicted": [
+    "Folding proves the original word was low degree by itself.",
+    "The degree after folding is exactly half of the old degree.",
+    "FRI tests a polynomial the verifier already knows explicitly."
+  ],
+  "stuck_points_addressed": [
+    "Folding proves the original word was low degree by itself.",
+    "The degree after folding is exactly half of the old degree.",
+    "FRI tests a polynomial the verifier already knows explicitly."
+  ],
+  "figure_ref": "figures/fri.svg",
+  "animation_ref": "animations/fri.mp4",
+  "accuracy_report": {
+    "concept": "Reed-Solomon as a code; low-degree testing; FRI proximity",
+    "claims": [
+      {
+        "claim": "The field is F_97 and the evaluation domain has size 8.",
+        "source": "sage_manifest",
+        "status": "verified",
+        "evidence": "Checked against the Sage-produced manifest and overlapping manim SCENE_VALUES."
+      },
+      {
+        "claim": "The starting polynomial has actual degree 3 with degree bound < 4.",
+        "source": "sage_manifest",
+        "status": "verified",
+        "evidence": "Checked against the Sage-produced manifest and overlapping manim SCENE_VALUES."
+      },
+      {
+        "claim": "The beta = 29 fold has actual degree 1 with degree bound < 2.",
+        "source": "sage_manifest",
+        "status": "verified",
+        "evidence": "Checked against the Sage-produced manifest and overlapping manim SCENE_VALUES."
+      },
+      {
+        "claim": "The pairwise FRI consistency checks all returned True.",
+        "source": "sage_manifest",
+        "status": "verified",
+        "evidence": "Checked against the Sage-produced manifest and overlapping manim SCENE_VALUES."
+      }
+    ],
+    "sage_manifest": {
+      "figure": "assets/figures/fri.svg",
+      "field": 97,
+      "omega": 64,
+      "domain_size": 8,
+      "folded_domain_size": 4,
+      "degree_before": 3,
+      "degree_bound_before": 4,
+      "degree_after": 1,
+      "degree_bound_after": 2,
+      "beta": 29,
+      "polynomial_coefficients": [
+        7,
+        11,
+        5,
+        3
+      ],
+      "folded_coefficients": [
+        35,
+        92
+      ],
+      "codeword": [
+        26,
+        1,
+        81,
+        57,
+        95,
+        39,
+        20,
+        28
+      ],
+      "folded_codeword": [
+        30,
+        22,
+        40,
+        48
+      ],
+      "consistency_checks": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "consistency_check": true
+    },
+    "scene_value_check": {
+      "tool": "scripts.manim_render.validate_scene_values",
+      "scene_values": {
+        "field": 97,
+        "omega": 64,
+        "domain_size": 8,
+        "folded_domain_size": 4,
+        "degree_before": 3,
+        "degree_bound_before": 4,
+        "degree_after": 1,
+        "degree_bound_after": 2,
+        "beta": 29,
+        "polynomial_coefficients": [
+          7,
+          11,
+          5,
+          3
+        ],
+        "folded_coefficients": [
+          35,
+          92
+        ],
+        "consistency_check": true
+      },
+      "result": [],
+      "note": "Empty list means every overlapping displayed value matched the Sage manifest."
+    },
+    "ledger_refs": [
+      "MATH_FOUNDATIONS row: Reed-Solomon as a code; low-degree testing; FRI proximity first needed Ch 11.",
+      "CHAPTER_BIBLE Chapter 11: reader prerequisites and chapter role.",
+      "graphify query \"FRI low-degree testing\""
+    ],
+    "adversarial_findings": [
+      {
+        "finding": "Risk that the toy numbers imply production security.",
+        "resolution": "Draft labels every concrete group, field, hash tree, or curve as a toy example and separates the computation from the real hardness or collision-resistance assumption.",
+        "status": "resolved"
+      },
+      {
+        "finding": "Risk of notation drifting between prose, figure, and animation.",
+        "resolution": "The overlapping displayed values are stored in SCENE_VALUES and validated against the Sage manifest.",
+        "status": "resolved"
+      }
+    ],
+    "verified": true
+  },
+  "comprehension_set": [
+    {
+      "level": "recall",
+      "question": "In one FRI fold, what happens to the evaluation domain?",
+      "answer_key": "Pairs x and -x are combined, so the domain moves from size n to roughly n/2.",
+      "targets_stuck_point": "The fold is the whole proof.",
+      "on_miss_route_to": "evaluation domains and pairing x with -x"
+    },
+    {
+      "level": "apply",
+      "question": "What are the actual degrees before and after the toy fold with beta = 29?",
+      "answer_key": "The starting polynomial has actual degree 3; the folded polynomial has actual degree 1.",
+      "targets_stuck_point": "Degree bounds and actual degrees are interchangeable.",
+      "on_miss_route_to": "polynomial degree"
+    },
+    {
+      "level": "transfer",
+      "question": "Why does FRI need random consistency checks after folding?",
+      "answer_key": "A dishonest word could claim a convenient fold; random checks tie folded values back to paired original values so inconsistency is likely to be exposed.",
+      "targets_stuck_point": "Folding proves low degree by itself.",
+      "on_miss_route_to": "low-degree testing and oracle queries"
+    },
+    {
+      "level": "rediscover",
+      "question": "Given f(X)=f_even(X^2)+X f_odd(X^2), how would you shrink the problem while keeping a random fingerprint of both parts?",
+      "answer_key": "Choose a random beta and form f_even(Y)+beta*f_odd(Y) on the squared domain; then check sampled pairs for consistency.",
+      "targets_stuck_point": "The verifier reads the whole polynomial.",
+      "on_miss_route_to": "even/odd coefficient split"
+    }
+  ]
+}

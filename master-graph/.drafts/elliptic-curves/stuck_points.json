@@ -1,0 +1,29 @@
+{
+  "misconceptions": [
+    {
+      "claim": "Elliptic-curve addition is ordinary coordinate-wise addition.",
+      "why_tempting": "The objects are points with x and y coordinates.",
+      "severity": "high"
+    },
+    {
+      "claim": "The real curve picture is the cryptographic curve.",
+      "why_tempting": "The chord-and-tangent drawing is vivid and continuous.",
+      "severity": "high"
+    },
+    {
+      "claim": "Scalar multiplication is repeated multiplication of coordinates.",
+      "why_tempting": "The word multiplication appears in scalar multiplication.",
+      "severity": "medium"
+    }
+  ],
+  "dumb_questions": [
+    "Where is the identity element on a curve?",
+    "Why does a line give a group operation?",
+    "Why do finite-field points still form a group when the smooth picture disappears?"
+  ],
+  "bad_intuitions_to_kill": [
+    "Point addition means add coordinates.",
+    "The real drawing is more than intuition.",
+    "Scalar multiplication multiplies coordinates."
+  ]
+}

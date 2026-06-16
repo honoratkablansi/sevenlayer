@@ -1,0 +1,84 @@
+{
+  "concept": "Sigma protocols; Schnorr; special soundness; proof of knowledge",
+  "claims": [
+    {
+      "claim": "The Schnorr transcript uses x = 321, r = 412, c = 77, t = 1077, s = 673.",
+      "source": "sage_manifest",
+      "status": "verified",
+      "evidence": "Checked against the Sage-produced manifest and overlapping manim SCENE_VALUES."
+    },
+    {
+      "claim": "The verification equation passes: g^s and t*h^c both equal 1818.",
+      "source": "sage_manifest",
+      "status": "verified",
+      "evidence": "Checked against the Sage-produced manifest and overlapping manim SCENE_VALUES."
+    },
+    {
+      "claim": "A second accepting transcript with c' = 203 and the same t extracts x = 321.",
+      "source": "sage_manifest",
+      "status": "verified",
+      "evidence": "Checked against the Sage-produced manifest and overlapping manim SCENE_VALUES."
+    }
+  ],
+  "sage_manifest": {
+    "figure": "assets/figures/sigma-protocols.svg",
+    "p": 2039,
+    "group_order": 1019,
+    "g": 9,
+    "x": 321,
+    "h": 992,
+    "r": 412,
+    "c": 77,
+    "t": 1077,
+    "s": 673,
+    "left": 1818,
+    "right": 1818,
+    "verified": true,
+    "c2": 203,
+    "s2": 359,
+    "verified2": true,
+    "extracted_x": 321,
+    "special_soundness_ok": true
+  },
+  "scene_value_check": {
+    "tool": "scripts.manim_render.validate_scene_values",
+    "scene_values": {
+      "p": 2039,
+      "group_order": 1019,
+      "g": 9,
+      "x": 321,
+      "h": 992,
+      "r": 412,
+      "c": 77,
+      "t": 1077,
+      "s": 673,
+      "left": 1818,
+      "right": 1818,
+      "verified": true,
+      "c2": 203,
+      "s2": 359,
+      "extracted_x": 321,
+      "special_soundness_ok": true
+    },
+    "result": [],
+    "note": "Empty list means every overlapping displayed value matched the Sage manifest."
+  },
+  "ledger_refs": [
+    "MATH_FOUNDATIONS row: Sigma protocols; Schnorr; special soundness; proof of knowledge first needed Ch 2 (I), Ch 9 (R).",
+    "CHAPTER_BIBLE Chapter 9: reader prerequisites and chapter role.",
+    "graphify query \"Sigma protocols\""
+  ],
+  "adversarial_findings": [
+    {
+      "finding": "Risk that the toy numbers imply production security.",
+      "resolution": "Draft labels every concrete group, field, hash tree, or curve as a toy example and separates the computation from the real hardness or collision-resistance assumption.",
+      "status": "resolved"
+    },
+    {
+      "finding": "Risk of notation drifting between prose, figure, and animation.",
+      "resolution": "The overlapping displayed values are stored in SCENE_VALUES and validated against the Sage manifest.",
+      "status": "resolved"
+    }
+  ],
+  "verified": true
+}

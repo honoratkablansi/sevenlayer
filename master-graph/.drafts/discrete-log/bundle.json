@@ -1,0 +1,197 @@
+{
+  "concept": "Modular exponentiation; the discrete logarithm problem",
+  "slug": "discrete-log",
+  "chapter": "Chapter 11",
+  "stratum": "Group theory & number-theoretic hardness",
+  "target_depth": "rigorous",
+  "phases": {
+    "pre_rigorous": "The visual is a clock walk: multiplying by g moves forward around a prime-order group, and h is a target landing spot. In the toy group of order 1019, the forward walk to h is easy to run but the reverse question asks where the target sits on the clock.",
+    "rigorous": "Given G, g, and h, the discrete-log problem asks for x with h = g^x. Here g = 9, x = 873, and h = 211 in a subgroup of F_2039*. Square-and-multiply used 14 group multiplications, while brute force found this x only after 874 candidates.",
+    "post_rigorous": "The picture and the formal problem now match: exponentiation is a public map, while reversing it is the hardness bet that lets commitments, signatures, and key exchange expose group elements without exposing secrets."
+  },
+  "modes_order": [
+    "visual",
+    "analogy",
+    "worked_example",
+    "formal",
+    "synthesis"
+  ],
+  "led_with_visual": true,
+  "motivated_before_defined": true,
+  "notation_in_pre_rigorous": false,
+  "heuristic_rigorous_pairs": [
+    [
+      "Walking forward around the group clock is easy.",
+      "Compute h = g^x by repeated squaring and multiplication."
+    ],
+    [
+      "Finding the hidden clock position is hard in real groups.",
+      "Given g and h, recover x = log_g(h); no efficient classical algorithm is known for well-chosen groups."
+    ]
+  ],
+  "stuck_points_predicted": [
+    "If exponentiation is easy, reversing it should be only a little harder.",
+    "A small toy group demonstrates real security.",
+    "The discrete-log problem is a theorem saying recovery is impossible."
+  ],
+  "stuck_points_addressed": [
+    "If exponentiation is easy, reversing it should be only a little harder.",
+    "A small toy group demonstrates real security.",
+    "The discrete-log problem is a theorem saying recovery is impossible."
+  ],
+  "figure_ref": "figures/discrete-log.svg",
+  "animation_ref": "animations/discrete-log.mp4",
+  "accuracy_report": {
+    "concept": "Modular exponentiation; the discrete logarithm problem",
+    "claims": [
+      {
+        "claim": "The subgroup has prime order 1019 inside F_2039*.",
+        "source": "sage_manifest",
+        "status": "verified",
+        "evidence": "Checked against the Sage-produced manifest and overlapping manim SCENE_VALUES."
+      },
+      {
+        "claim": "The public target is h = g^x = 211 for g = 9 and x = 873.",
+        "source": "sage_manifest",
+        "status": "verified",
+        "evidence": "Checked against the Sage-produced manifest and overlapping manim SCENE_VALUES."
+      },
+      {
+        "claim": "Square-and-multiply uses 14 group multiplications for this exponent.",
+        "source": "sage_manifest",
+        "status": "verified",
+        "evidence": "Checked against the Sage-produced manifest and overlapping manim SCENE_VALUES."
+      },
+      {
+        "claim": "Naive brute force finds x after 874 candidates here, with worst case 1019.",
+        "source": "sage_manifest",
+        "status": "verified",
+        "evidence": "Checked against the Sage-produced manifest and overlapping manim SCENE_VALUES."
+      }
+    ],
+    "sage_manifest": {
+      "figure": "assets/figures/discrete-log.svg",
+      "p": 2039,
+      "group_order": 1019,
+      "g": 9,
+      "x": 873,
+      "h": 211,
+      "forward_chain_multiplications": 14,
+      "brute_force_steps": 874,
+      "worst_case_steps": 1019,
+      "first_powers": [
+        {
+          "exponent": 0,
+          "value": 1
+        },
+        {
+          "exponent": 1,
+          "value": 9
+        },
+        {
+          "exponent": 2,
+          "value": 81
+        },
+        {
+          "exponent": 3,
+          "value": 729
+        },
+        {
+          "exponent": 4,
+          "value": 444
+        },
+        {
+          "exponent": 5,
+          "value": 1957
+        },
+        {
+          "exponent": 6,
+          "value": 1301
+        },
+        {
+          "exponent": 7,
+          "value": 1514
+        },
+        {
+          "exponent": 8,
+          "value": 1392
+        },
+        {
+          "exponent": 9,
+          "value": 294
+        },
+        {
+          "exponent": 10,
+          "value": 607
+        },
+        {
+          "exponent": 11,
+          "value": 1385
+        }
+      ]
+    },
+    "scene_value_check": {
+      "tool": "scripts.manim_render.validate_scene_values",
+      "scene_values": {
+        "p": 2039,
+        "group_order": 1019,
+        "g": 9,
+        "x": 873,
+        "h": 211,
+        "forward_chain_multiplications": 14,
+        "brute_force_steps": 874,
+        "worst_case_steps": 1019
+      },
+      "result": [],
+      "note": "Empty list means every overlapping displayed value matched the Sage manifest."
+    },
+    "ledger_refs": [
+      "MATH_FOUNDATIONS row: Modular exponentiation; the discrete logarithm problem first needed Ch 2 (Schnorr), Ch 11.",
+      "CHAPTER_BIBLE Chapter 11: reader prerequisites and chapter role.",
+      "graphify query \"Discrete logarithm problem\""
+    ],
+    "adversarial_findings": [
+      {
+        "finding": "Risk that the toy numbers imply production security.",
+        "resolution": "Draft labels every concrete group, field, hash tree, or curve as a toy example and separates the computation from the real hardness or collision-resistance assumption.",
+        "status": "resolved"
+      },
+      {
+        "finding": "Risk of notation drifting between prose, figure, and animation.",
+        "resolution": "The overlapping displayed values are stored in SCENE_VALUES and validated against the Sage manifest.",
+        "status": "resolved"
+      }
+    ],
+    "verified": true
+  },
+  "comprehension_set": [
+    {
+      "level": "recall",
+      "question": "In a cyclic group generated by g, what is the discrete logarithm of h to base g?",
+      "answer_key": "It is the exponent x such that h = g^x, with x taken modulo the group order.",
+      "targets_stuck_point": "Inverse notation makes recovery look cheap.",
+      "on_miss_route_to": "cyclic groups and generator notation"
+    },
+    {
+      "level": "apply",
+      "question": "In the toy group, what public value comes from g = 9 and x = 873?",
+      "answer_key": "The public value is h = 211.",
+      "targets_stuck_point": "Confusing the secret exponent with the public group element.",
+      "on_miss_route_to": "modular exponentiation in a finite group"
+    },
+    {
+      "level": "transfer",
+      "question": "Why can a protocol publish h = g^x while still treating x as secret?",
+      "answer_key": "Computing h from x is fast, while recovering x from g and h is assumed infeasible in a large well-chosen group.",
+      "targets_stuck_point": "Forward and backward directions have the same cost.",
+      "on_miss_route_to": "one-way functions and hardness assumptions"
+    },
+    {
+      "level": "rediscover",
+      "question": "You can multiply by g quickly but cannot label every position on a huge group clock. What hard problem would you base a public key on?",
+      "answer_key": "Publish the landing point h = g^x and keep x secret; the hard task is finding the clock position x from g and h.",
+      "targets_stuck_point": "Toy clocks imply real brute force is acceptable.",
+      "on_miss_route_to": "cyclic group order and brute-force search"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "figure": "assets/figures/fri.svg",
+  "field": 97,
+  "omega": 64,
+  "domain_size": 8,
+  "folded_domain_size": 4,
+  "degree_before": 3,
+  "degree_bound_before": 4,
+  "degree_after": 1,
+  "degree_bound_after": 2,
+  "beta": 29,
+  "polynomial_coefficients": [
+    7,
+    11,
+    5,
+    3
+  ],
+  "folded_coefficients": [
+    35,
+    92
+  ],
+  "codeword": [
+    26,
+    1,
+    81,
+    57,
+    95,
+    39,
+    20,
+    28
+  ],
+  "folded_codeword": [
+    30,
+    22,
+    40,
+    48
+  ],
+  "consistency_checks": [
+    true,
+    true,
+    true,
+    true
+  ],
+  "consistency_check": true
+}

@@ -1,0 +1,168 @@
+{
+  "concept": "Collision-resistant hashing; Merkle trees; vector commitments",
+  "slug": "merkle-trees",
+  "chapter": "Chapter 9",
+  "stratum": "Coding theory, hashing & commitment-to-data",
+  "target_depth": "rigorous",
+  "phases": {
+    "pre_rigorous": "The visual is a root above a small tree: one short hash commits to the leaves, and a verifier opens only the branch that matters.",
+    "rigorous": "The example hashes four leaves with SHA-256. Leaf index 2 verifies through 2 sibling hashes to root 827669c52893; changing that leaf changes the root prefix to e25f1a2a7f66.",
+    "post_rigorous": "A Merkle tree turns random spot-checks into a practical commitment to data, with security resting on collision resistance rather than on the root containing the data."
+  },
+  "modes_order": [
+    "visual",
+    "analogy",
+    "worked_example",
+    "formal",
+    "synthesis"
+  ],
+  "led_with_visual": true,
+  "motivated_before_defined": true,
+  "notation_in_pre_rigorous": false,
+  "heuristic_rigorous_pairs": [
+    [
+      "One root stands in for a long list.",
+      "The root is the recursive hash of ordered leaves and internal nodes."
+    ],
+    [
+      "One opened path verifies one position.",
+      "The verifier recomputes parent hashes using sibling digests and side information."
+    ]
+  ],
+  "stuck_points_predicted": [
+    "The root contains all the data in compressed form.",
+    "A Merkle proof proves every leaf is honest.",
+    "Changing a leaf is mathematically impossible once the root is fixed."
+  ],
+  "stuck_points_addressed": [
+    "The root contains all the data in compressed form.",
+    "A Merkle proof proves every leaf is honest.",
+    "Changing a leaf is mathematically impossible once the root is fixed."
+  ],
+  "figure_ref": "figures/merkle-trees.svg",
+  "animation_ref": "animations/merkle-trees.mp4",
+  "accuracy_report": {
+    "concept": "Collision-resistant hashing; Merkle trees; vector commitments",
+    "claims": [
+      {
+        "claim": "The tree has 4 leaves and root prefix 827669c52893.",
+        "source": "sage_manifest",
+        "status": "verified",
+        "evidence": "Checked against the Sage-produced manifest and overlapping manim SCENE_VALUES."
+      },
+      {
+        "claim": "Leaf index 2 verifies through an authentication path of length 2.",
+        "source": "sage_manifest",
+        "status": "verified",
+        "evidence": "Checked against the Sage-produced manifest and overlapping manim SCENE_VALUES."
+      },
+      {
+        "claim": "Changing the target leaf changes the root prefix from 827669c52893 to e25f1a2a7f66.",
+        "source": "sage_manifest",
+        "status": "verified",
+        "evidence": "Checked against the Sage-produced manifest and overlapping manim SCENE_VALUES."
+      }
+    ],
+    "sage_manifest": {
+      "figure": "assets/figures/merkle-trees.svg",
+      "hash": "SHA-256",
+      "leaves": [
+        "row0:alice:7",
+        "row1:bob:2",
+        "row2:carol:9",
+        "row3:dave:5"
+      ],
+      "leaf_hashes": [
+        "69b11f05ac9600bc17633c2dfc3b5d696ba6162b3fa235eae993bdab25efde3c",
+        "7f3356446840fcf8e09710d779bbaee5d5c1b06e29b28b4ae1f5ca3e4c307a67",
+        "5892d9b8d545398aba92e825fd76076bdcb771e140da6c6cb7c13fa52377993a",
+        "29e43405c61b5aed27fdec5b3680a69b79757e91745b308f5b5ff0f90e5940b7"
+      ],
+      "root": "827669c5289333aada5cee9c9f5be2ef5a48122fafd712fe1b86da06a658541f",
+      "root_prefix": "827669c52893",
+      "target_index": 2,
+      "auth_path": [
+        {
+          "level": 0,
+          "side": "right",
+          "sibling": "29e43405c61b5aed27fdec5b3680a69b79757e91745b308f5b5ff0f90e5940b7"
+        },
+        {
+          "level": 1,
+          "side": "left",
+          "sibling": "a76307fd9f21a4bc955955a4a2ef72a32b9b9f82649dd4672f0756316cb5b669"
+        }
+      ],
+      "path_length": 2,
+      "recomputed_root": "827669c5289333aada5cee9c9f5be2ef5a48122fafd712fe1b86da06a658541f",
+      "verified": true,
+      "tampered_leaf": "row2:carol:10",
+      "tampered_root": "e25f1a2a7f66d3ada9378b58dc16976aee91d843b03b3a8205898a06173f66bc",
+      "tampered_root_prefix": "e25f1a2a7f66",
+      "root_changed": true
+    },
+    "scene_value_check": {
+      "tool": "scripts.manim_render.validate_scene_values",
+      "scene_values": {
+        "root": "827669c5289333aada5cee9c9f5be2ef5a48122fafd712fe1b86da06a658541f",
+        "root_prefix": "827669c52893",
+        "target_index": 2,
+        "path_length": 2,
+        "verified": true,
+        "tampered_root": "e25f1a2a7f66d3ada9378b58dc16976aee91d843b03b3a8205898a06173f66bc",
+        "tampered_root_prefix": "e25f1a2a7f66",
+        "root_changed": true
+      },
+      "result": [],
+      "note": "Empty list means every overlapping displayed value matched the Sage manifest."
+    },
+    "ledger_refs": [
+      "MATH_FOUNDATIONS row: Collision-resistant hashing; Merkle trees; vector commitments first needed Ch 9.",
+      "CHAPTER_BIBLE Chapter 9: reader prerequisites and chapter role.",
+      "graphify query \"Merkle trees\""
+    ],
+    "adversarial_findings": [
+      {
+        "finding": "Risk that the toy numbers imply production security.",
+        "resolution": "Draft labels every concrete group, field, hash tree, or curve as a toy example and separates the computation from the real hardness or collision-resistance assumption.",
+        "status": "resolved"
+      },
+      {
+        "finding": "Risk of notation drifting between prose, figure, and animation.",
+        "resolution": "The overlapping displayed values are stored in SCENE_VALUES and validated against the Sage manifest.",
+        "status": "resolved"
+      }
+    ],
+    "verified": true
+  },
+  "comprehension_set": [
+    {
+      "level": "recall",
+      "question": "What information is in a Merkle authentication path?",
+      "answer_key": "It contains the sibling hash at each level, together with which side that sibling is on.",
+      "targets_stuck_point": "The path validates unrelated leaves.",
+      "on_miss_route_to": "binary hash tree structure"
+    },
+    {
+      "level": "apply",
+      "question": "For the toy tree, how many sibling hashes open leaf 2 to the root?",
+      "answer_key": "The path has 2 sibling hashes.",
+      "targets_stuck_point": "The root contains all the data.",
+      "on_miss_route_to": "tree height and path length"
+    },
+    {
+      "level": "transfer",
+      "question": "Why does a changed leaf usually force a changed root?",
+      "answer_key": "The changed leaf hash changes its parent, then that change propagates upward; keeping the same root would require a collision in the hash function.",
+      "targets_stuck_point": "Merkle binding is unconditional.",
+      "on_miss_route_to": "collision resistance"
+    },
+    {
+      "level": "rediscover",
+      "question": "You need to commit to a long list but later reveal only one position. What tree would you invent?",
+      "answer_key": "Hash leaves, hash pairs upward to one root, then reveal the target leaf plus one sibling per level so the verifier recomputes the root.",
+      "targets_stuck_point": "One path proves the whole list was read.",
+      "on_miss_route_to": "commit-and-open workflows"
+    }
+  ]
+}

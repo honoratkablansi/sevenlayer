@@ -1,0 +1,29 @@
+{
+  "field": 97,
+  "curve_a": 2,
+  "curve_b": 3,
+  "group_order": 100,
+  "P": [
+    3,
+    6
+  ],
+  "Q": [
+    80,
+    10
+  ],
+  "P_plus_Q": [
+    80,
+    87
+  ],
+  "scalar": 7,
+  "scalar_multiple": [
+    80,
+    10
+  ],
+  "repeated_addition": [
+    80,
+    10
+  ],
+  "repeated_addition_matches": true,
+  "finite_point_count_without_infinity": 99
+}

@@ -1,0 +1,94 @@
+{
+  "concept": "Collision-resistant hashing; Merkle trees; vector commitments",
+  "claims": [
+    {
+      "claim": "The tree has 4 leaves and root prefix 827669c52893.",
+      "source": "sage_manifest",
+      "status": "verified",
+      "evidence": "Checked against the Sage-produced manifest and overlapping manim SCENE_VALUES."
+    },
+    {
+      "claim": "Leaf index 2 verifies through an authentication path of length 2.",
+      "source": "sage_manifest",
+      "status": "verified",
+      "evidence": "Checked against the Sage-produced manifest and overlapping manim SCENE_VALUES."
+    },
+    {
+      "claim": "Changing the target leaf changes the root prefix from 827669c52893 to e25f1a2a7f66.",
+      "source": "sage_manifest",
+      "status": "verified",
+      "evidence": "Checked against the Sage-produced manifest and overlapping manim SCENE_VALUES."
+    }
+  ],
+  "sage_manifest": {
+    "figure": "assets/figures/merkle-trees.svg",
+    "hash": "SHA-256",
+    "leaves": [
+      "row0:alice:7",
+      "row1:bob:2",
+      "row2:carol:9",
+      "row3:dave:5"
+    ],
+    "leaf_hashes": [
+      "69b11f05ac9600bc17633c2dfc3b5d696ba6162b3fa235eae993bdab25efde3c",
+      "7f3356446840fcf8e09710d779bbaee5d5c1b06e29b28b4ae1f5ca3e4c307a67",
+      "5892d9b8d545398aba92e825fd76076bdcb771e140da6c6cb7c13fa52377993a",
+      "29e43405c61b5aed27fdec5b3680a69b79757e91745b308f5b5ff0f90e5940b7"
+    ],
+    "root": "827669c5289333aada5cee9c9f5be2ef5a48122fafd712fe1b86da06a658541f",
+    "root_prefix": "827669c52893",
+    "target_index": 2,
+    "auth_path": [
+      {
+        "level": 0,
+        "side": "right",
+        "sibling": "29e43405c61b5aed27fdec5b3680a69b79757e91745b308f5b5ff0f90e5940b7"
+      },
+      {
+        "level": 1,
+        "side": "left",
+        "sibling": "a76307fd9f21a4bc955955a4a2ef72a32b9b9f82649dd4672f0756316cb5b669"
+      }
+    ],
+    "path_length": 2,
+    "recomputed_root": "827669c5289333aada5cee9c9f5be2ef5a48122fafd712fe1b86da06a658541f",
+    "verified": true,
+    "tampered_leaf": "row2:carol:10",
+    "tampered_root": "e25f1a2a7f66d3ada9378b58dc16976aee91d843b03b3a8205898a06173f66bc",
+    "tampered_root_prefix": "e25f1a2a7f66",
+    "root_changed": true
+  },
+  "scene_value_check": {
+    "tool": "scripts.manim_render.validate_scene_values",
+    "scene_values": {
+      "root": "827669c5289333aada5cee9c9f5be2ef5a48122fafd712fe1b86da06a658541f",
+      "root_prefix": "827669c52893",
+      "target_index": 2,
+      "path_length": 2,
+      "verified": true,
+      "tampered_root": "e25f1a2a7f66d3ada9378b58dc16976aee91d843b03b3a8205898a06173f66bc",
+      "tampered_root_prefix": "e25f1a2a7f66",
+      "root_changed": true
+    },
+    "result": [],
+    "note": "Empty list means every overlapping displayed value matched the Sage manifest."
+  },
+  "ledger_refs": [
+    "MATH_FOUNDATIONS row: Collision-resistant hashing; Merkle trees; vector commitments first needed Ch 9.",
+    "CHAPTER_BIBLE Chapter 9: reader prerequisites and chapter role.",
+    "graphify query \"Merkle trees\""
+  ],
+  "adversarial_findings": [
+    {
+      "finding": "Risk that the toy numbers imply production security.",
+      "resolution": "Draft labels every concrete group, field, hash tree, or curve as a toy example and separates the computation from the real hardness or collision-resistance assumption.",
+      "status": "resolved"
+    },
+    {
+      "finding": "Risk of notation drifting between prose, figure, and animation.",
+      "resolution": "The overlapping displayed values are stored in SCENE_VALUES and validated against the Sage manifest.",
+      "status": "resolved"
+    }
+  ],
+  "verified": true
+}

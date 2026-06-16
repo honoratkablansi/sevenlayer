@@ -1,0 +1,22 @@
+{
+  "field": 97,
+  "omega": 64,
+  "domain_size": 8,
+  "folded_domain_size": 4,
+  "degree_before": 3,
+  "degree_bound_before": 4,
+  "degree_after": 1,
+  "degree_bound_after": 2,
+  "beta": 29,
+  "polynomial_coefficients": [
+    7,
+    11,
+    5,
+    3
+  ],
+  "folded_coefficients": [
+    35,
+    92
+  ],
+  "consistency_check": true
+}

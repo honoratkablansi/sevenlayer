@@ -1,0 +1,29 @@
+{
+  "misconceptions": [
+    {
+      "claim": "The root contains all the data in compressed form.",
+      "why_tempting": "The root is short and stands in for the whole list.",
+      "severity": "high"
+    },
+    {
+      "claim": "A Merkle proof proves every leaf is honest.",
+      "why_tempting": "The proof ends at the global root.",
+      "severity": "medium"
+    },
+    {
+      "claim": "Changing a leaf is mathematically impossible once the root is fixed.",
+      "why_tempting": "The tree feels like a deterministic data structure rather than a computational assumption.",
+      "severity": "high"
+    }
+  ],
+  "dumb_questions": [
+    "What does a verifier need besides the one leaf?",
+    "Why is the sibling side recorded?",
+    "Where does the security assumption enter?"
+  ],
+  "bad_intuitions_to_kill": [
+    "The root stores the file.",
+    "One path validates unrelated leaves.",
+    "Hash binding is unconditional mathematics."
+  ]
+}

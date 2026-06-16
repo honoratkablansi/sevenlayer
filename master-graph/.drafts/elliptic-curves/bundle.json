@@ -1,0 +1,186 @@
+{
+  "concept": "Elliptic-curve groups; point addition; scalar multiplication",
+  "slug": "elliptic-curves",
+  "chapter": "Chapter 11",
+  "stratum": "Elliptic curves & pairings",
+  "target_depth": "rigorous",
+  "phases": {
+    "pre_rigorous": "The visual puts two pictures side by side: a chord on a smooth real curve for intuition, and a finite scatter of points where cryptography actually lives.",
+    "rigorous": "On E: y^2 = x^3 + 2x + 3 over F_97, the group has 100 points including the point at infinity. The recipe checks P = [3, 6], Q = [80, 10], P+Q = [80, 87], and 7P = [80, 10].",
+    "post_rigorous": "The chord story supplies memory, but the finite-field formulas supply the group used by commitments, signatures, pairings, and recursion-friendly curve cycles."
+  },
+  "modes_order": [
+    "visual",
+    "analogy",
+    "worked_example",
+    "formal",
+    "synthesis"
+  ],
+  "led_with_visual": true,
+  "motivated_before_defined": true,
+  "notation_in_pre_rigorous": false,
+  "heuristic_rigorous_pairs": [
+    [
+      "The chord picture gives a way to add points.",
+      "The modular slope formula computes P+Q and stays on the curve."
+    ],
+    [
+      "Repeating the group operation creates scalar multiplication.",
+      "aP is repeated point addition, verified here by an independent repeated-addition loop."
+    ]
+  ],
+  "stuck_points_predicted": [
+    "Elliptic-curve addition is ordinary coordinate-wise addition.",
+    "The real curve picture is the cryptographic curve.",
+    "Scalar multiplication is repeated multiplication of coordinates."
+  ],
+  "stuck_points_addressed": [
+    "Elliptic-curve addition is ordinary coordinate-wise addition.",
+    "The real curve picture is the cryptographic curve.",
+    "Scalar multiplication is repeated multiplication of coordinates."
+  ],
+  "figure_ref": "figures/elliptic-curves.svg",
+  "animation_ref": "animations/elliptic-curves.mp4",
+  "accuracy_report": {
+    "concept": "Elliptic-curve groups; point addition; scalar multiplication",
+    "claims": [
+      {
+        "claim": "The curve is y^2 = x^3 + 2x + 3 over F_97.",
+        "source": "sage_manifest",
+        "status": "verified",
+        "evidence": "Checked against the Sage-produced manifest and overlapping manim SCENE_VALUES."
+      },
+      {
+        "claim": "The finite group has 100 points including the point at infinity.",
+        "source": "sage_manifest",
+        "status": "verified",
+        "evidence": "Checked against the Sage-produced manifest and overlapping manim SCENE_VALUES."
+      },
+      {
+        "claim": "The addition example gives P+Q = [80, 87].",
+        "source": "sage_manifest",
+        "status": "verified",
+        "evidence": "Checked against the Sage-produced manifest and overlapping manim SCENE_VALUES."
+      },
+      {
+        "claim": "The scalar multiple 7P equals [80, 10] and matches repeated addition.",
+        "source": "sage_manifest",
+        "status": "verified",
+        "evidence": "Checked against the Sage-produced manifest and overlapping manim SCENE_VALUES."
+      }
+    ],
+    "sage_manifest": {
+      "figure": "assets/figures/elliptic-curves.svg",
+      "field": 97,
+      "curve_a": 2,
+      "curve_b": 3,
+      "group_order": 100,
+      "P": [
+        3,
+        6
+      ],
+      "Q": [
+        80,
+        10
+      ],
+      "addition_slope": 58,
+      "P_plus_Q": [
+        80,
+        87
+      ],
+      "scalar": 7,
+      "scalar_multiple": [
+        80,
+        10
+      ],
+      "repeated_addition": [
+        80,
+        10
+      ],
+      "repeated_addition_matches": true,
+      "finite_point_count_without_infinity": 99
+    },
+    "scene_value_check": {
+      "tool": "scripts.manim_render.validate_scene_values",
+      "scene_values": {
+        "field": 97,
+        "curve_a": 2,
+        "curve_b": 3,
+        "group_order": 100,
+        "P": [
+          3,
+          6
+        ],
+        "Q": [
+          80,
+          10
+        ],
+        "P_plus_Q": [
+          80,
+          87
+        ],
+        "scalar": 7,
+        "scalar_multiple": [
+          80,
+          10
+        ],
+        "repeated_addition": [
+          80,
+          10
+        ],
+        "repeated_addition_matches": true,
+        "finite_point_count_without_infinity": 99
+      },
+      "result": [],
+      "note": "Empty list means every overlapping displayed value matched the Sage manifest."
+    },
+    "ledger_refs": [
+      "MATH_FOUNDATIONS row: Elliptic-curve groups; point addition; scalar multiplication first needed Ch 11.",
+      "CHAPTER_BIBLE Chapter 11: reader prerequisites and chapter role.",
+      "graphify query \"Elliptic-curve groups\""
+    ],
+    "adversarial_findings": [
+      {
+        "finding": "Risk that the toy numbers imply production security.",
+        "resolution": "Draft labels every concrete group, field, hash tree, or curve as a toy example and separates the computation from the real hardness or collision-resistance assumption.",
+        "status": "resolved"
+      },
+      {
+        "finding": "Risk of notation drifting between prose, figure, and animation.",
+        "resolution": "The overlapping displayed values are stored in SCENE_VALUES and validated against the Sage manifest.",
+        "status": "resolved"
+      }
+    ],
+    "verified": true
+  },
+  "comprehension_set": [
+    {
+      "level": "recall",
+      "question": "What is the identity element in an elliptic-curve group?",
+      "answer_key": "It is the point at infinity, usually written O.",
+      "targets_stuck_point": "The group is just visible coordinate points.",
+      "on_miss_route_to": "group identity and inverses"
+    },
+    {
+      "level": "apply",
+      "question": "What point is P+Q in the toy curve over F_97?",
+      "answer_key": "P+Q = [80, 87].",
+      "targets_stuck_point": "Point addition means add coordinates.",
+      "on_miss_route_to": "elliptic-curve addition formula"
+    },
+    {
+      "level": "transfer",
+      "question": "Why is the smooth real drawing not the object used in cryptography?",
+      "answer_key": "Cryptography uses the finite set of solutions over F_p; the drawing explains the chord rule, while the actual group operation is modular arithmetic.",
+      "targets_stuck_point": "The real curve picture is the cryptographic curve.",
+      "on_miss_route_to": "finite fields and modular reduction"
+    },
+    {
+      "level": "rediscover",
+      "question": "If you need a public operation that repeats a group step many times, what curve operation would you use?",
+      "answer_key": "Use scalar multiplication: repeatedly add P to itself to get aP, which is fast forward and can underlie a discrete-log assumption on suitable curves.",
+      "targets_stuck_point": "Scalar multiplication multiplies coordinates.",
+      "on_miss_route_to": "group addition and scalar multiples"
+    }
+  ]
+}

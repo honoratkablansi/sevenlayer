@@ -1,0 +1,119 @@
+{
+  "concept": "Reed-Solomon as a code; low-degree testing; FRI proximity",
+  "claims": [
+    {
+      "claim": "The field is F_97 and the evaluation domain has size 8.",
+      "source": "sage_manifest",
+      "status": "verified",
+      "evidence": "Checked against the Sage-produced manifest and overlapping manim SCENE_VALUES."
+    },
+    {
+      "claim": "The starting polynomial has actual degree 3 with degree bound < 4.",
+      "source": "sage_manifest",
+      "status": "verified",
+      "evidence": "Checked against the Sage-produced manifest and overlapping manim SCENE_VALUES."
+    },
+    {
+      "claim": "The beta = 29 fold has actual degree 1 with degree bound < 2.",
+      "source": "sage_manifest",
+      "status": "verified",
+      "evidence": "Checked against the Sage-produced manifest and overlapping manim SCENE_VALUES."
+    },
+    {
+      "claim": "The pairwise FRI consistency checks all returned True.",
+      "source": "sage_manifest",
+      "status": "verified",
+      "evidence": "Checked against the Sage-produced manifest and overlapping manim SCENE_VALUES."
+    }
+  ],
+  "sage_manifest": {
+    "figure": "assets/figures/fri.svg",
+    "field": 97,
+    "omega": 64,
+    "domain_size": 8,
+    "folded_domain_size": 4,
+    "degree_before": 3,
+    "degree_bound_before": 4,
+    "degree_after": 1,
+    "degree_bound_after": 2,
+    "beta": 29,
+    "polynomial_coefficients": [
+      7,
+      11,
+      5,
+      3
+    ],
+    "folded_coefficients": [
+      35,
+      92
+    ],
+    "codeword": [
+      26,
+      1,
+      81,
+      57,
+      95,
+      39,
+      20,
+      28
+    ],
+    "folded_codeword": [
+      30,
+      22,
+      40,
+      48
+    ],
+    "consistency_checks": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "consistency_check": true
+  },
+  "scene_value_check": {
+    "tool": "scripts.manim_render.validate_scene_values",
+    "scene_values": {
+      "field": 97,
+      "omega": 64,
+      "domain_size": 8,
+      "folded_domain_size": 4,
+      "degree_before": 3,
+      "degree_bound_before": 4,
+      "degree_after": 1,
+      "degree_bound_after": 2,
+      "beta": 29,
+      "polynomial_coefficients": [
+        7,
+        11,
+        5,
+        3
+      ],
+      "folded_coefficients": [
+        35,
+        92
+      ],
+      "consistency_check": true
+    },
+    "result": [],
+    "note": "Empty list means every overlapping displayed value matched the Sage manifest."
+  },
+  "ledger_refs": [
+    "MATH_FOUNDATIONS row: Reed-Solomon as a code; low-degree testing; FRI proximity first needed Ch 11.",
+    "CHAPTER_BIBLE Chapter 11: reader prerequisites and chapter role.",
+    "graphify query \"FRI low-degree testing\""
+  ],
+  "adversarial_findings": [
+    {
+      "finding": "Risk that the toy numbers imply production security.",
+      "resolution": "Draft labels every concrete group, field, hash tree, or curve as a toy example and separates the computation from the real hardness or collision-resistance assumption.",
+      "status": "resolved"
+    },
+    {
+      "finding": "Risk of notation drifting between prose, figure, and animation.",
+      "resolution": "The overlapping displayed values are stored in SCENE_VALUES and validated against the Sage manifest.",
+      "status": "resolved"
+    }
+  ],
+  "verified": true
+}

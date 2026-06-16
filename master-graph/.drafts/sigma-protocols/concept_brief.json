@@ -1,0 +1,26 @@
+{
+  "concept": "Sigma protocols; Schnorr; special soundness; proof of knowledge",
+  "slug": "sigma-protocols",
+  "label": "Sigma protocols",
+  "stratum": "Group theory & number-theoretic hardness",
+  "first_needed": "Ch 2 (I), Ch 9 (R)",
+  "depth": "I->R",
+  "prerequisites": [
+    "groups",
+    "commitments"
+  ],
+  "assumed_background": [
+    "interactive protocols with prover, verifier, and random challenge",
+    "commitment intuition: binding fixes a value before it is opened",
+    "basic group operations and exponent notation"
+  ],
+  "target_depth": "rigorous",
+  "learning_objectives": [
+    "Describe the commit-challenge-response shape of a Sigma protocol.",
+    "Verify a concrete Schnorr transcript.",
+    "Use two accepting transcripts with one commitment to extract the witness."
+  ],
+  "graphify_query": "graphify query \"Sigma protocols\"",
+  "graphify_match": "near-miss",
+  "graphify_contribution": "Graphify started from public-state sigma and Protostar special-sound nodes, not the Sigma-protocol concept; no graph edges were imported."
+}

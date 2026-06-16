@@ -1,0 +1,30 @@
+[
+  {
+    "level": "recall",
+    "question": "What is the identity element in an elliptic-curve group?",
+    "answer_key": "It is the point at infinity, usually written O.",
+    "targets_stuck_point": "The group is just visible coordinate points.",
+    "on_miss_route_to": "group identity and inverses"
+  },
+  {
+    "level": "apply",
+    "question": "What point is P+Q in the toy curve over F_97?",
+    "answer_key": "P+Q = [80, 87].",
+    "targets_stuck_point": "Point addition means add coordinates.",
+    "on_miss_route_to": "elliptic-curve addition formula"
+  },
+  {
+    "level": "transfer",
+    "question": "Why is the smooth real drawing not the object used in cryptography?",
+    "answer_key": "Cryptography uses the finite set of solutions over F_p; the drawing explains the chord rule, while the actual group operation is modular arithmetic.",
+    "targets_stuck_point": "The real curve picture is the cryptographic curve.",
+    "on_miss_route_to": "finite fields and modular reduction"
+  },
+  {
+    "level": "rediscover",
+    "question": "If you need a public operation that repeats a group step many times, what curve operation would you use?",
+    "answer_key": "Use scalar multiplication: repeatedly add P to itself to get aP, which is fast forward and can underlie a discrete-log assumption on suitable curves.",
+    "targets_stuck_point": "Scalar multiplication multiplies coordinates.",
+    "on_miss_route_to": "group addition and scalar multiples"
+  }
+]

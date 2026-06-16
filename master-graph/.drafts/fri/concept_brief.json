@@ -1,0 +1,26 @@
+{
+  "concept": "Reed-Solomon as a code; low-degree testing; FRI proximity",
+  "slug": "fri",
+  "label": "FRI low-degree testing",
+  "stratum": "Coding theory, hashing & commitment-to-data",
+  "first_needed": "Ch 11",
+  "depth": "R",
+  "prerequisites": [
+    "RS",
+    "codes"
+  ],
+  "assumed_background": [
+    "Reed-Solomon codewords as polynomial evaluations",
+    "finite fields and evaluation domains",
+    "low-degree testing and proximity from the polynomial-IOP chapter"
+  ],
+  "target_depth": "rigorous",
+  "learning_objectives": [
+    "Explain one FRI folding round as a degree-reducing consistency check.",
+    "Distinguish the folded polynomial's actual degree from the degree bound.",
+    "Connect FRI proximity to transparent hash-based commitments."
+  ],
+  "graphify_query": "graphify query \"FRI low-degree testing\"",
+  "graphify_match": "good",
+  "graphify_contribution": "Graphify resolved the start node FRI; used it as support for the STARK/FRI and Reed-Solomon proximity links."
+}

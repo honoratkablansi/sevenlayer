@@ -1,0 +1,25 @@
+{
+  "concept": "Elliptic-curve groups; point addition; scalar multiplication",
+  "slug": "elliptic-curves",
+  "label": "Elliptic-curve groups",
+  "stratum": "Elliptic curves & pairings",
+  "first_needed": "Ch 11",
+  "depth": "R",
+  "prerequisites": [
+    "groups"
+  ],
+  "assumed_background": [
+    "finite fields and modular arithmetic",
+    "groups as sets with an associative operation, identity, and inverses",
+    "curve points as the compact objects used by commitments and signatures"
+  ],
+  "target_depth": "rigorous",
+  "learning_objectives": [
+    "Define an elliptic-curve group over a finite field.",
+    "Compute a concrete point addition and scalar multiple.",
+    "Explain why the chord picture is intuition while the finite-field formulas are the cryptographic object."
+  ],
+  "graphify_query": "graphify query \"Elliptic-curve groups\"",
+  "graphify_match": "near-miss",
+  "graphify_contribution": "Graphify returned elliptic-curve cryptography/ECFFT/ECM nodes rather than the group-law concept; no extra dependencies were imported."
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "level": "recall",
+    "question": "What information is in a Merkle authentication path?",
+    "answer_key": "It contains the sibling hash at each level, together with which side that sibling is on.",
+    "targets_stuck_point": "The path validates unrelated leaves.",
+    "on_miss_route_to": "binary hash tree structure"
+  },
+  {
+    "level": "apply",
+    "question": "For the toy tree, how many sibling hashes open leaf 2 to the root?",
+    "answer_key": "The path has 2 sibling hashes.",
+    "targets_stuck_point": "The root contains all the data.",
+    "on_miss_route_to": "tree height and path length"
+  },
+  {
+    "level": "transfer",
+    "question": "Why does a changed leaf usually force a changed root?",
+    "answer_key": "The changed leaf hash changes its parent, then that change propagates upward; keeping the same root would require a collision in the hash function.",
+    "targets_stuck_point": "Merkle binding is unconditional.",
+    "on_miss_route_to": "collision resistance"
+  },
+  {
+    "level": "rediscover",
+    "question": "You need to commit to a long list but later reveal only one position. What tree would you invent?",
+    "answer_key": "Hash leaves, hash pairs upward to one root, then reveal the target leaf plus one sibling per level so the verifier recomputes the root.",
+    "targets_stuck_point": "One path proves the whole list was read.",
+    "on_miss_route_to": "commit-and-open workflows"
+  }
+]

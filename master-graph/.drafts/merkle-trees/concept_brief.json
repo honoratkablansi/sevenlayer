@@ -1,0 +1,25 @@
+{
+  "concept": "Collision-resistant hashing; Merkle trees; vector commitments",
+  "slug": "merkle-trees",
+  "label": "Merkle trees",
+  "stratum": "Coding theory, hashing & commitment-to-data",
+  "first_needed": "Ch 9",
+  "depth": "I->R",
+  "prerequisites": [
+    "hashing"
+  ],
+  "assumed_background": [
+    "hash functions as short fingerprints",
+    "collision resistance as a computational binding assumption",
+    "commitment intuition: commit now, open later"
+  ],
+  "target_depth": "rigorous",
+  "learning_objectives": [
+    "Build a Merkle root from leaves by pairwise hashing.",
+    "Verify one leaf with an authentication path.",
+    "Explain why changing a leaf should change the root unless a hash collision is found."
+  ],
+  "graphify_query": "graphify query \"Merkle trees\"",
+  "graphify_match": "good",
+  "graphify_contribution": "Start nodes included Merkle Tree and Merkle Hash Tree; used the graph only to confirm links to FRI/STARK and commitment-to-data themes."
+}

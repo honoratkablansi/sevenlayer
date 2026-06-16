@@ -1,0 +1,123 @@
+{
+  "concept": "Modular exponentiation; the discrete logarithm problem",
+  "claims": [
+    {
+      "claim": "The subgroup has prime order 1019 inside F_2039*.",
+      "source": "sage_manifest",
+      "status": "verified",
+      "evidence": "Checked against the Sage-produced manifest and overlapping manim SCENE_VALUES."
+    },
+    {
+      "claim": "The public target is h = g^x = 211 for g = 9 and x = 873.",
+      "source": "sage_manifest",
+      "status": "verified",
+      "evidence": "Checked against the Sage-produced manifest and overlapping manim SCENE_VALUES."
+    },
+    {
+      "claim": "Square-and-multiply uses 14 group multiplications for this exponent.",
+      "source": "sage_manifest",
+      "status": "verified",
+      "evidence": "Checked against the Sage-produced manifest and overlapping manim SCENE_VALUES."
+    },
+    {
+      "claim": "Naive brute force finds x after 874 candidates here, with worst case 1019.",
+      "source": "sage_manifest",
+      "status": "verified",
+      "evidence": "Checked against the Sage-produced manifest and overlapping manim SCENE_VALUES."
+    }
+  ],
+  "sage_manifest": {
+    "figure": "assets/figures/discrete-log.svg",
+    "p": 2039,
+    "group_order": 1019,
+    "g": 9,
+    "x": 873,
+    "h": 211,
+    "forward_chain_multiplications": 14,
+    "brute_force_steps": 874,
+    "worst_case_steps": 1019,
+    "first_powers": [
+      {
+        "exponent": 0,
+        "value": 1
+      },
+      {
+        "exponent": 1,
+        "value": 9
+      },
+      {
+        "exponent": 2,
+        "value": 81
+      },
+      {
+        "exponent": 3,
+        "value": 729
+      },
+      {
+        "exponent": 4,
+        "value": 444
+      },
+      {
+        "exponent": 5,
+        "value": 1957
+      },
+      {
+        "exponent": 6,
+        "value": 1301
+      },
+      {
+        "exponent": 7,
+        "value": 1514
+      },
+      {
+        "exponent": 8,
+        "value": 1392
+      },
+      {
+        "exponent": 9,
+        "value": 294
+      },
+      {
+        "exponent": 10,
+        "value": 607
+      },
+      {
+        "exponent": 11,
+        "value": 1385
+      }
+    ]
+  },
+  "scene_value_check": {
+    "tool": "scripts.manim_render.validate_scene_values",
+    "scene_values": {
+      "p": 2039,
+      "group_order": 1019,
+      "g": 9,
+      "x": 873,
+      "h": 211,
+      "forward_chain_multiplications": 14,
+      "brute_force_steps": 874,
+      "worst_case_steps": 1019
+    },
+    "result": [],
+    "note": "Empty list means every overlapping displayed value matched the Sage manifest."
+  },
+  "ledger_refs": [
+    "MATH_FOUNDATIONS row: Modular exponentiation; the discrete logarithm problem first needed Ch 2 (Schnorr), Ch 11.",
+    "CHAPTER_BIBLE Chapter 11: reader prerequisites and chapter role.",
+    "graphify query \"Discrete logarithm problem\""
+  ],
+  "adversarial_findings": [
+    {
+      "finding": "Risk that the toy numbers imply production security.",
+      "resolution": "Draft labels every concrete group, field, hash tree, or curve as a toy example and separates the computation from the real hardness or collision-resistance assumption.",
+      "status": "resolved"
+    },
+    {
+      "finding": "Risk of notation drifting between prose, figure, and animation.",
+      "resolution": "The overlapping displayed values are stored in SCENE_VALUES and validated against the Sage manifest.",
+      "status": "resolved"
+    }
+  ],
+  "verified": true
+}

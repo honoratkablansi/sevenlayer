@@ -1,0 +1,25 @@
+{
+  "concept": "Modular exponentiation; the discrete logarithm problem",
+  "slug": "discrete-log",
+  "label": "Discrete logarithm problem",
+  "stratum": "Group theory & number-theoretic hardness",
+  "first_needed": "Ch 2 (Schnorr), Ch 11",
+  "depth": "I->R",
+  "prerequisites": [
+    "cyclic groups"
+  ],
+  "assumed_background": [
+    "cyclic groups and generators",
+    "finite fields and modular arithmetic",
+    "commit/open/verify as the PCS interface from the previous chapter"
+  ],
+  "target_depth": "rigorous",
+  "learning_objectives": [
+    "Define the discrete logarithm problem in a prime-order cyclic group.",
+    "Distinguish fast exponentiation from brute-force recovery in a toy group.",
+    "Explain why the hardness assumption is conditional rather than a theorem."
+  ],
+  "graphify_query": "graphify query \"Discrete logarithm problem\"",
+  "graphify_match": "good",
+  "graphify_contribution": "Start node was Discrete Logarithm Problem; used it as supporting context for DLog-based cryptosystems and Shor vulnerability, not for extra prerequisites."
+}

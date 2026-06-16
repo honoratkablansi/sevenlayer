@@ -1,0 +1,61 @@
+{
+  "figure": "assets/figures/discrete-log.svg",
+  "p": 2039,
+  "group_order": 1019,
+  "g": 9,
+  "x": 873,
+  "h": 211,
+  "forward_chain_multiplications": 14,
+  "brute_force_steps": 874,
+  "worst_case_steps": 1019,
+  "first_powers": [
+    {
+      "exponent": 0,
+      "value": 1
+    },
+    {
+      "exponent": 1,
+      "value": 9
+    },
+    {
+      "exponent": 2,
+      "value": 81
+    },
+    {
+      "exponent": 3,
+      "value": 729
+    },
+    {
+      "exponent": 4,
+      "value": 444
+    },
+    {
+      "exponent": 5,
+      "value": 1957
+    },
+    {
+      "exponent": 6,
+      "value": 1301
+    },
+    {
+      "exponent": 7,
+      "value": 1514
+    },
+    {
+      "exponent": 8,
+      "value": 1392
+    },
+    {
+      "exponent": 9,
+      "value": 294
+    },
+    {
+      "exponent": 10,
+      "value": 607
+    },
+    {
+      "exponent": 11,
+      "value": 1385
+    }
+  ]
+}

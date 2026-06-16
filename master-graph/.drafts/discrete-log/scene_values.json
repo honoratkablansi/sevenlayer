@@ -1,0 +1,10 @@
+{
+  "p": 2039,
+  "group_order": 1019,
+  "g": 9,
+  "x": 873,
+  "h": 211,
+  "forward_chain_multiplications": 14,
+  "brute_force_steps": 874,
+  "worst_case_steps": 1019
+}

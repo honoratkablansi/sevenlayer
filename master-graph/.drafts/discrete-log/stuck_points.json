@@ -1,0 +1,29 @@
+{
+  "misconceptions": [
+    {
+      "claim": "If exponentiation is easy, reversing it should be only a little harder.",
+      "why_tempting": "Ordinary arithmetic often teaches inverse operations in pairs, like multiplication and division.",
+      "severity": "high"
+    },
+    {
+      "claim": "A small toy group demonstrates real security.",
+      "why_tempting": "The example uses the same notation as real systems.",
+      "severity": "medium"
+    },
+    {
+      "claim": "The discrete-log problem is a theorem saying recovery is impossible.",
+      "why_tempting": "Cryptographic prose often says hard when it means infeasible under current knowledge.",
+      "severity": "high"
+    }
+  ],
+  "dumb_questions": [
+    "What exactly is being given to the attacker?",
+    "Why can the verifier compute g^x without learning x?",
+    "Does the answer x have to be unique?"
+  ],
+  "bad_intuitions_to_kill": [
+    "Inverse notation makes inversion computationally cheap.",
+    "Toy parameters carry real security.",
+    "A hardness assumption is the same kind of statement as a proved algebraic identity."
+  ]
+}

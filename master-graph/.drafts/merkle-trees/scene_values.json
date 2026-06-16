@@ -1,0 +1,10 @@
+{
+  "root": "827669c5289333aada5cee9c9f5be2ef5a48122fafd712fe1b86da06a658541f",
+  "root_prefix": "827669c52893",
+  "target_index": 2,
+  "path_length": 2,
+  "verified": true,
+  "tampered_root": "e25f1a2a7f66d3ada9378b58dc16976aee91d843b03b3a8205898a06173f66bc",
+  "tampered_root_prefix": "e25f1a2a7f66",
+  "root_changed": true
+}

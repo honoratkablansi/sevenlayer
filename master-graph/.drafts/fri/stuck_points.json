@@ -1,0 +1,29 @@
+{
+  "misconceptions": [
+    {
+      "claim": "Folding proves the original word was low degree by itself.",
+      "why_tempting": "The degree visibly drops after the fold.",
+      "severity": "high"
+    },
+    {
+      "claim": "The degree after folding is exactly half of the old degree.",
+      "why_tempting": "The domain size halves, and the slogan says degree halves.",
+      "severity": "medium"
+    },
+    {
+      "claim": "FRI tests a polynomial the verifier already knows explicitly.",
+      "why_tempting": "Worked examples show coefficients, while the protocol sees oracle evaluations.",
+      "severity": "high"
+    }
+  ],
+  "dumb_questions": [
+    "Why pair x with -x?",
+    "Where does the random beta enter?",
+    "What does proximity mean here?"
+  ],
+  "bad_intuitions_to_kill": [
+    "A fold is a proof without consistency queries.",
+    "Degree bounds and actual degrees are interchangeable.",
+    "FRI assumes the verifier can read the whole polynomial."
+  ]
+}

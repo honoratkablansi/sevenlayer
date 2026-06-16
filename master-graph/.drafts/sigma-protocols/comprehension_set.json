@@ -1,0 +1,30 @@
+[
+  {
+    "level": "recall",
+    "question": "What are the three messages in a Schnorr Sigma protocol?",
+    "answer_key": "The prover sends t = g^r, the verifier sends a random challenge c, and the prover responds with s = r + c*x mod q.",
+    "targets_stuck_point": "The first message is an opening of the witness.",
+    "on_miss_route_to": "commit-challenge-response order"
+  },
+  {
+    "level": "apply",
+    "question": "Using the worked values, what equation verifies the transcript?",
+    "answer_key": "It checks g^s = t*h^c; both sides equal 1818 in the toy group.",
+    "targets_stuck_point": "Acceptance is a vague feeling rather than an equation.",
+    "on_miss_route_to": "group exponent laws"
+  },
+  {
+    "level": "transfer",
+    "question": "Why does reusing the same t under two challenges reveal x?",
+    "answer_key": "The two equations share r, so subtracting responses cancels r and leaves (c-c')x; division by c-c' modulo q extracts x.",
+    "targets_stuck_point": "One accepting transcript already gives extraction.",
+    "on_miss_route_to": "modular inverses and linear equations"
+  },
+  {
+    "level": "rediscover",
+    "question": "Design a protocol where a secret exponent answers a random challenge without being sent. What should the response be?",
+    "answer_key": "Send a random-looking t = g^r first, then answer c with s = r + c*x; verification works because g^s = g^r(g^x)^c.",
+    "targets_stuck_point": "The challenge can be chosen before the commitment.",
+    "on_miss_route_to": "Schnorr transcript algebra"
+  }
+]
