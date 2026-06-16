@@ -11,19 +11,9 @@
 
 ---
 
-> ### Math you'll need
-> The facts you'll need, one sentence each:
-> - **The sum over the Boolean hypercube.** `Σ_{x∈{0,1}ⁿ} g(x)` means: plug into the polynomial `g` every one of the `2ⁿ` strings of 0s and 1s — the *corners* of the `n`-dimensional cube `{0,1}ⁿ` — and add up all `2ⁿ` results. With `n = 3` that is the eight corners `(0,0,0), (0,0,1), …, (1,1,1)`; for a real problem `2ⁿ` is astronomically large, which is the whole difficulty.
-> - **A univariate restriction `gᵢ(X)`.** In round `i` we freeze the earlier variables `x₁,…,x_{i−1}` to the challenge values already chosen, leave `xᵢ = X` as the one free variable, and sum `g` over all 0/1 settings of the *later* variables `x_{i+1},…,xₙ`. The result is an ordinary one-variable polynomial in `X` — a thin one-dimensional slice of the giant sum.
-> - **The prover/verifier round structure.** Two parties talk in rounds: a **prover** (who knows `g` and wants to convince you of the sum) sends a short message each round, and a **verifier** (who cannot afford to add `2ⁿ` terms) replies with a random challenge `rᵢ`. The verifier accepts or rejects at the end; soundness is the guarantee that a lying prover is caught with high probability.
-> - **The finite field `F` and `|F|`.** A finite field is a number system with finitely many elements where you can add, subtract, multiply, and divide; ours is `GF(97)`, the numbers `0,…,96` with arithmetic taken "mod 97" (wrap around after 96). Write `|F|` for how many elements it has — here `|F| = 97` — so a uniformly random challenge is one of `97` equally likely values.
-> - **The Schwartz–Zippel root-count fact (Ch 7).** A *nonzero* polynomial of degree `d` is zero at a uniformly random point with probability at most `d/|F|`, because it has at most `d` roots among the `|F|` points. This single fact powers every round's soundness.
->
-> *Carried in from Ch 6:* arithmetized constraints (the Sudoku's 72 constraints are what get summed) and the "spot-check" intuition. Here we complete that one-shot test into a *protocol*.
-
----
-
 ## Pre-rigorous — narrow the confession
+
+The sum over the Boolean hypercube `Σ_{x∈{0,1}ᵛ} g(x)` adds the value of the polynomial `g` at all `2ᵛ` corners of the cube `{0,1}ᵛ`, a total that is astronomically large for real problems — that size is the whole difficulty. The protocol's central move is a univariate restriction: in round `i` it freezes the earlier variables to the challenges already chosen, leaves `xᵢ = X` free, and sums over the later 0/1 variables, collapsing the giant sum to a one-variable slice `gᵢ(X)`. Those rounds are a conversation between a prover, who knows `g`, and a verifier, who cannot afford to add `2ᵛ` terms and instead answers each message with a uniformly random challenge `rᵢ` drawn from the finite field `F` — for us `GF(97)`, arithmetic mod 97, so `|F| = 97`. Soundness rests on one fact carried from Ch 7: a nonzero polynomial of degree `d` has at most `d` roots, so it is zero at a random point with probability at most `d/|F|`.
 
 Picture a prosecutor facing a suspect who swears to an alibi covering an impossible number of moments at once — every minute of a whole week. She cannot replay the week. So she **narrows**: "Account for Monday." The suspect gives a consistent sub-story; she picks a **random hour** inside it, pins it down, and demands he account for *that* — then a random minute inside *that*. A truthful suspect's story survives every narrowing. A liar's must eventually contradict itself at a moment he could not have anticipated.
 
@@ -89,19 +79,19 @@ This single gadget is the engine beneath Layer 4 and the most-reused move in the
 ## Check yourself
 
 **Recall.** In one round of sum-check, what does the prover send, and exactly which identity does the verifier check before moving on — and does the verifier ever recompute the true partial sum?
-> *Answer:* The prover sends a univariate `gᵢ(X)` (the claimed partial sum with earlier variables fixed to past challenges and later variables summed over `{0,1}`). The verifier checks `gᵢ(0) + gᵢ(1) = ` running claim (`H` in round 1, `g_{i−1}(r_{i−1})` afterward). It never recomputes a true partial sum; its only direct contact with `g` is the final `g(r₁,…,r_n)`.
+> *Answer:* The prover sends a univariate `gᵢ(X)` (the claimed partial sum with earlier variables fixed to past challenges and later variables summed over `{0,1}`). The verifier checks `gᵢ(0) + gᵢ(1) = ` running claim (`H` in round 1, `g_{i−1}(r_{i−1})` afterward). It never recomputes a true partial sum; its only direct contact with `g` is the final `g(r₁,…,r_v)`.
 > *If you miss this →* revisit **the MLE (multilinear extension) — the object summed over the hypercube**.
 
 **Apply.** For `g(x₁,x₂,x₃) = 2x₁²x₂ + 3x₂x₃ + x₁ + 5` over `GF(97)` with `H = 54` and fixed challenges `r₁=2, r₂=3, r₃=4`: the prover sends `g₁(X) = 23 + 4X + 4X²`. Check round 1, then state the running claim entering round 2 and the final value checked against `g` directly.
 > *Answer:* Round 1: `g₁(0)+g₁(1) = 23 + 31 = 54 = H` ✓. Running claim entering round 2 = `g₁(2) = 47`. Then `g₂(X)=14+19X` gives `14+33=47=g₁(2)`, `g₂(3)=71`; `g₃(X)=31+9X` gives `31+40=71=g₂(3)`, `g₃(4)=67`. The one direct check against `g` is `g₃(4)=67 = g(2,3,4)=67`.
-> *If you miss this →* revisit **summation over a finite domain — the sum over `{0,1}ⁿ`**.
+> *If you miss this →* revisit **summation over a finite domain — the sum over `{0,1}ᵛ`**.
 
 **Transfer.** Why can a cheating prover not just repair its lie each round, and why is the total soundness error only `d·v/|F|` rather than something that blows up with the number of variables?
 > *Answer:* A lie forces `gᵢ` to differ from the true round polynomial by a nonzero degree-`≤d` polynomial, so a random `rᵢ` exposes it with probability `≥ 1 − d/|F|` (Schwartz–Zippel), pushing the prover into a fresh undefendable claim; the lie must survive *every* round (induction). The per-round risks `≤ d/|F|` **add** by the union bound over `v` variables to `≤ d·v/|F|` — linear in `v`, tiny for a large field. No commitment or assumption is used.
 > *If you miss this →* revisit **the Schwartz–Zippel lemma — the per-round soundness source**.
 
-**Rediscover.** Knowing only that a low-degree univariate is pinned down by a few evaluations and that a nonzero low-degree polynomial is nonzero at a random point with high probability, design a protocol that convinces a verifier of `Σ_{x∈{0,1}ⁿ} g(x) = H` without adding `2ⁿ` terms, and give its error.
-> *Answer:* Strip one variable per round; ask for `gᵢ(X)`, check `gᵢ(0)+gᵢ(1) = ` current claim, pick random `rᵢ`, recurse on `gᵢ(rᵢ)`; after `n` rounds check `g_n(r_n) = g(r₁,…,r_n)` directly. Honest provers always pass; a cheat survives with probability `≤ d·v/|F|`. That is sum-check — no commitment, just Schwartz–Zippel per round.
+**Rediscover.** Knowing only that a low-degree univariate is pinned down by a few evaluations and that a nonzero low-degree polynomial is nonzero at a random point with high probability, design a protocol that convinces a verifier of `Σ_{x∈{0,1}ᵛ} g(x) = H` without adding `2ᵛ` terms, and give its error.
+> *Answer:* Strip one variable per round; ask for `gᵢ(X)`, check `gᵢ(0)+gᵢ(1) = ` current claim, pick random `rᵢ`, recurse on `gᵢ(rᵢ)`; after `v` rounds check `g_v(r_v) = g(r₁,…,r_v)` directly. Honest provers always pass; a cheat survives with probability `≤ d·v/|F|`. That is sum-check — no commitment, just Schwartz–Zippel per round.
 > *If you miss this →* revisit **proof by mathematical induction — the soundness argument is an induction on rounds**.
 
 ---
