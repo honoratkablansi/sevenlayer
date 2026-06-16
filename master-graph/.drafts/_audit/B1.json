@@ -1,0 +1,498 @@
+{
+  "batch": "B1",
+  "agent": "codex-gpt-5.5",
+  "preflight": "REQUIRED OK: sage, manim, graphify",
+  "concepts": [
+    {
+      "slug": "finite-fields",
+      "label": "Finite fields",
+      "status": "complete",
+      "output_dir": "master-graph/.drafts/finite-fields/",
+      "stage1": {
+        "graphify_query": "graphify query \"Finite fields\"",
+        "graphify_contribution": "The exact query returned finite-field extension and finite-field SMT nodes, which confirmed downstream use of fields but added little to the Ch 6/7 prime-field on-ramp.",
+        "prerequisites": [
+          "modular arithmetic"
+        ],
+        "assumed_background": [
+          "Ch 6 assumes modular arithmetic at clock-arithmetic intuition depth, plus polynomial evaluation and degree.",
+          "Ch 7 assumes polynomials over a finite field, roots, basic probability, and the idea that field size gives a denominator for soundness."
+        ],
+        "target_depth": "rigorous",
+        "learning_objectives": [
+          "Explain a prime field F_p as clock arithmetic with addition, subtraction, multiplication, and division by every nonzero value.",
+          "Compute addition, multiplication, and inverses in F_17 and explain why wrapping is exact arithmetic, not rounding.",
+          "State why p must be prime for residues mod p to form a field.",
+          "Connect finite fields to random challenges: a finite set lets the verifier choose uniformly and count bad points."
+        ]
+      },
+      "stage2": {
+        "misconception_count": 4,
+        "summary": "Wrapping is rounding or information loss; replace it with exact residue-class arithmetic.; Division requires decimals; replace it with multiplying by a nonzero inverse."
+      },
+      "stage3": {
+        "sage_recipe": "scripts/recipes/finite-fields.sage",
+        "figure": "figures/finite-fields.svg",
+        "manim_scene": "scripts/scenes/finite-fields.py",
+        "animation": "animations/finite-fields.mp4",
+        "animation_bytes": 122317,
+        "key_manifest_values": {
+          "field": 17,
+          "add_result": 2,
+          "mul_result": 1,
+          "inverse_value": 7
+        }
+      },
+      "stage4": {
+        "verified": true,
+        "claims_checked": 3,
+        "scene_values_drift": "[]",
+        "adversarial_findings": [
+          {
+            "finding": "Risk of treating a passing random check as certainty.",
+            "resolution": "Draft language distinguishes deterministic acceptance on true instances from bounded error on false ones wherever randomness appears.",
+            "status": "resolved"
+          },
+          {
+            "finding": "Risk of notation drifting away from computed example values.",
+            "resolution": "Numeric claims in prose were checked against the Sage output and overlapping scene values.",
+            "status": "resolved"
+          }
+        ]
+      },
+      "stage5": {
+        "levels": [
+          "recall",
+          "apply",
+          "transfer",
+          "rediscover"
+        ]
+      },
+      "gates": {
+        "draft_lint": "CLEAN",
+        "schemas": {
+          "concept_brief": "VALID",
+          "stuck_points": "VALID",
+          "accuracy_report": "VALID",
+          "comprehension_set": "VALID",
+          "bundle": "VALID"
+        },
+        "scorecard": "PASS"
+      },
+      "problems": [
+        {
+          "stage": "stage1",
+          "issue": "The exact graphify query did not return a central prime-field node; it returned finite-field extension and SMT nodes.",
+          "severity": "minor",
+          "workaround": "Used MATH_FOUNDATIONS and CHAPTER_BIBLE for the core dependency framing, while recording the graph result honestly."
+        }
+      ],
+      "opinion": {
+        "draft_quality_self_assessment": "Good on the core finite-field intuition and inline terms; thinner on extension fields, which are outside this Ch 6/7 target.",
+        "skill_friction": "Graphify exact-label retrieval was weak for this foundational term.",
+        "weakest_part": "The visual is a prime-field clock, so it does not prepare field extensions."
+      }
+    },
+    {
+      "slug": "lagrange-interpolation",
+      "label": "Lagrange interpolation",
+      "status": "complete",
+      "output_dir": "master-graph/.drafts/lagrange-interpolation/",
+      "stage1": {
+        "graphify_query": "graphify query \"Lagrange interpolation\"",
+        "graphify_contribution": "The exact query matched the Lagrange company/product neighborhood rather than the mathematical interpolation node, so it added no reliable math dependencies.",
+        "prerequisites": [
+          "polynomials"
+        ],
+        "assumed_background": [
+          "Ch 7 assumes finite fields, polynomial degree, roots, evaluation, basic probability, and vector spaces over fields.",
+          "Ch 6 has already made computation-as-table and polynomial constraints feel necessary."
+        ],
+        "target_depth": "rigorous",
+        "learning_objectives": [
+          "Explain that k distinct x-values determine a unique polynomial of degree at most k-1.",
+          "Use the Lagrange basis polynomials L_i(x) and gloss the notation at first use.",
+          "Compute the concrete F_17 example through three points and evaluate the resulting polynomial.",
+          "Connect interpolation to low-degree extensions, selectors, and later PLONK/QAP machinery."
+        ]
+      },
+      "stage2": {
+        "misconception_count": 4,
+        "summary": "Pinned points determine any curve; replace with uniqueness only under a degree bound.; The basis formula is arbitrary; replace with switch polynomials that are 1 at one peg and 0 at the others."
+      },
+      "stage3": {
+        "sage_recipe": "scripts/recipes/lagrange-interpolation.sage",
+        "figure": "figures/lagrange-interpolation.svg",
+        "manim_scene": "scripts/scenes/lagrange-interpolation.py",
+        "animation": "animations/lagrange-interpolation.mp4",
+        "animation_bytes": 113613,
+        "key_manifest_values": {
+          "field": 17,
+          "point_count": 3,
+          "degree_bound": 2,
+          "polynomial_coefficients": [
+            14,
+            12,
+            12
+          ],
+          "value_at_7": 6
+        }
+      },
+      "stage4": {
+        "verified": true,
+        "claims_checked": 3,
+        "scene_values_drift": "[]",
+        "adversarial_findings": [
+          {
+            "finding": "Risk of treating a passing random check as certainty.",
+            "resolution": "Draft language distinguishes deterministic acceptance on true instances from bounded error on false ones wherever randomness appears.",
+            "status": "resolved"
+          },
+          {
+            "finding": "Risk of notation drifting away from computed example values.",
+            "resolution": "Numeric claims in prose were checked against the Sage output and overlapping scene values.",
+            "status": "resolved"
+          }
+        ]
+      },
+      "stage5": {
+        "levels": [
+          "recall",
+          "apply",
+          "transfer",
+          "rediscover"
+        ]
+      },
+      "gates": {
+        "draft_lint": "CLEAN",
+        "schemas": {
+          "concept_brief": "VALID",
+          "stuck_points": "VALID",
+          "accuracy_report": "VALID",
+          "comprehension_set": "VALID",
+          "bundle": "VALID"
+        },
+        "scorecard": "PASS"
+      },
+      "problems": [
+        {
+          "stage": "stage1",
+          "issue": "The exact graphify query matched the Lagrange product/company neighborhood, not mathematical interpolation.",
+          "severity": "minor",
+          "workaround": "Recorded the graph mismatch and used MATH_FOUNDATIONS plus the Ch 7 bible entry for dependencies."
+        }
+      ],
+      "opinion": {
+        "draft_quality_self_assessment": "Strong on motivation and the basis-polynomial proof; the graph mismatch made the dependency evidence weaker than ideal.",
+        "skill_friction": "Exact-label graphify can silently return a homonym neighborhood.",
+        "weakest_part": "The figure is discrete and does not visually show all basis polynomials separately."
+      }
+    },
+    {
+      "slug": "reed-solomon",
+      "label": "Reed-Solomon encoding",
+      "status": "complete",
+      "output_dir": "master-graph/.drafts/reed-solomon/",
+      "stage1": {
+        "graphify_query": "graphify query \"Reed-Solomon encoding\"",
+        "graphify_contribution": "The query landed in the encoding/performance and FRI neighborhoods, tying Reed-Solomon proximity to STARK/FRI and the Layer 4 arithmetization path.",
+        "prerequisites": [
+          "polynomials",
+          "fields"
+        ],
+        "assumed_background": [
+          "Ch 7 assumes finite-field arithmetic, polynomial degree, roots, and evaluation.",
+          "Lagrange interpolation has explained how values and low-degree polynomials determine one another under a degree promise."
+        ],
+        "target_depth": "rigorous",
+        "learning_objectives": [
+          "Describe Reed-Solomon encoding as evaluating a low-degree message polynomial on many field points.",
+          "Compute a concrete F_17 codeword from message coefficients.",
+          "Explain distance: two degree-<k polynomials agree on at most k-1 evaluation points.",
+          "Connect Reed-Solomon fingerprinting to low-degree testing, FRI, and polynomial commitments."
+        ]
+      },
+      "stage2": {
+        "misconception_count": 4,
+        "summary": "Redundancy is copying; replace with evaluation of one low-degree polynomial at many points.; Distance is a vague robustness word; replace with a count of positions where two codewords must differ."
+      },
+      "stage3": {
+        "sage_recipe": "scripts/recipes/reed-solomon.sage",
+        "figure": "figures/reed-solomon.svg",
+        "manim_scene": "scripts/scenes/reed-solomon.py",
+        "animation": "animations/reed-solomon.mp4",
+        "animation_bytes": 140936,
+        "key_manifest_values": {
+          "field": 17,
+          "code_length": 8,
+          "designed_min_distance": 6,
+          "realized_distance": 7
+        }
+      },
+      "stage4": {
+        "verified": true,
+        "claims_checked": 3,
+        "scene_values_drift": "[]",
+        "adversarial_findings": [
+          {
+            "finding": "Risk of treating a passing random check as certainty.",
+            "resolution": "Draft language distinguishes deterministic acceptance on true instances from bounded error on false ones wherever randomness appears.",
+            "status": "resolved"
+          },
+          {
+            "finding": "Risk of notation drifting away from computed example values.",
+            "resolution": "Numeric claims in prose were checked against the Sage output and overlapping scene values.",
+            "status": "resolved"
+          }
+        ]
+      },
+      "stage5": {
+        "levels": [
+          "recall",
+          "apply",
+          "transfer",
+          "rediscover"
+        ]
+      },
+      "gates": {
+        "draft_lint": "CLEAN",
+        "schemas": {
+          "concept_brief": "VALID",
+          "stuck_points": "VALID",
+          "accuracy_report": "VALID",
+          "comprehension_set": "VALID",
+          "bundle": "VALID"
+        },
+        "scorecard": "PASS"
+      },
+      "problems": [],
+      "opinion": {
+        "draft_quality_self_assessment": "Solid and coherent; it makes distance do real explanatory work and connects cleanly to FRI.",
+        "skill_friction": "Graphify output was very large and truncated, so the useful subgraph had to be summarized conservatively.",
+        "weakest_part": "The code perspective is still brief; a full coding-theory treatment would need more on decoding, which is outside Ch 7."
+      }
+    },
+    {
+      "slug": "freivalds",
+      "label": "Freivalds' algorithm",
+      "status": "complete",
+      "output_dir": "master-graph/.drafts/freivalds/",
+      "stage1": {
+        "graphify_query": "graphify query \"Freivalds' algorithm\"",
+        "graphify_contribution": "The exact family has no matching graph node; Ch 7's bible explicitly names Freivalds as the opening fingerprint example.",
+        "prerequisites": [
+          "matrices",
+          "probability"
+        ],
+        "assumed_background": [
+          "Ch 7 assumes basic probability, finite-field arithmetic, and vector spaces over a field.",
+          "The reader has met random challenges as a soundness intuition in Ch 1-2 and table constraints in Ch 6."
+        ],
+        "target_depth": "rigorous",
+        "learning_objectives": [
+          "Explain Freivalds' algorithm as checking AB=C by comparing A(Br) with Cr.",
+          "Compute a concrete bad matrix product caught by a sample vector.",
+          "Prove the one-round failure bound over a finite field is at most 1/|F| for a nonzero error matrix.",
+          "Connect random linear fingerprints to polynomial fingerprints in the rest of Ch 7."
+        ]
+      },
+      "stage2": {
+        "misconception_count": 4,
+        "summary": "One passing trial is certainty; replace with bounded error.; The algorithm recomputes AB; replace with two matrix-vector products and one vector comparison."
+      },
+      "stage3": {
+        "sage_recipe": "scripts/recipes/freivalds.sage",
+        "figure": "figures/freivalds.svg",
+        "manim_scene": "scripts/scenes/freivalds.py",
+        "animation": "animations/freivalds.mp4",
+        "animation_bytes": 145558,
+        "key_manifest_values": {
+          "field": 101,
+          "sample_r": [
+            7,
+            11
+          ],
+          "left_vector": [
+            37,
+            88
+          ],
+          "right_vector": [
+            44,
+            88
+          ],
+          "catches_error": true
+        }
+      },
+      "stage4": {
+        "verified": true,
+        "claims_checked": 3,
+        "scene_values_drift": "[]",
+        "adversarial_findings": [
+          {
+            "finding": "Risk of treating a passing random check as certainty.",
+            "resolution": "Draft language distinguishes deterministic acceptance on true instances from bounded error on false ones wherever randomness appears.",
+            "status": "resolved"
+          },
+          {
+            "finding": "Risk of notation drifting away from computed example values.",
+            "resolution": "Numeric claims in prose were checked against the Sage output and overlapping scene values.",
+            "status": "resolved"
+          }
+        ]
+      },
+      "stage5": {
+        "levels": [
+          "recall",
+          "apply",
+          "transfer",
+          "rediscover"
+        ]
+      },
+      "gates": {
+        "draft_lint": "CLEAN",
+        "schemas": {
+          "concept_brief": "VALID",
+          "stuck_points": "VALID",
+          "accuracy_report": "VALID",
+          "comprehension_set": "VALID",
+          "bundle": "VALID"
+        },
+        "scorecard": "PASS"
+      },
+      "problems": [
+        {
+          "stage": "stage1",
+          "issue": "The exact graphify query found no Freivalds node.",
+          "severity": "minor",
+          "workaround": "Used the Ch 7 bible entry and MATH_FOUNDATIONS resolver, both of which explicitly place Freivalds in Ch 7."
+        }
+      ],
+      "opinion": {
+        "draft_quality_self_assessment": "The explanation is concise and mathematically sound; it gives Freivalds its intended role as the first fingerprint.",
+        "skill_friction": "Graph coverage is absent for this named algorithm, so dependency evidence is document-only.",
+        "weakest_part": "The proof sketch is compressed; a full appendix could unpack the nonzero linear form bound."
+      }
+    },
+    {
+      "slug": "r1cs",
+      "label": "R1CS",
+      "status": "complete",
+      "output_dir": "master-graph/.drafts/r1cs/",
+      "stage1": {
+        "graphify_query": "graphify query \"R1CS\"",
+        "graphify_contribution": "The subgraph placed R1CS in the Layer 4 arithmetization community with AIR, PLONKish, CCS, Groth16, sum-check, and folding descendants.",
+        "prerequisites": [
+          "matrices",
+          "fields"
+        ],
+        "assumed_background": [
+          "Ch 6 assumes compiled circuits, witnesses, polynomial constraints, finite-set arithmetic, and the soundness promise.",
+          "Ch 10 assumes Ch 7 Lagrange/vanishing machinery and Ch 9 proof-system interfaces, with R1CS feeding the QAP route."
+        ],
+        "target_depth": "rigorous",
+        "learning_objectives": [
+          "Define R1CS as rows of rank-1 constraints `(A_i z) * (B_i z) = C_i z`.",
+          "Explain the witness vector, including the leading constant 1.",
+          "Verify a concrete two-row R1CS instance over F_17.",
+          "Connect R1CS to arithmetization in Ch 6 and QAP/Groth16 in Ch 10."
+        ]
+      },
+      "stage2": {
+        "misconception_count": 4,
+        "summary": "R1CS is a program; replace with a relation the witness must satisfy.; The witness is only secret inputs; replace with all wires, public values, constants, and intermediates."
+      },
+      "stage3": {
+        "sage_recipe": "scripts/recipes/r1cs.sage",
+        "figure": "figures/r1cs.svg",
+        "manim_scene": "scripts/scenes/r1cs.py",
+        "animation": "animations/r1cs.mp4",
+        "animation_bytes": 96308,
+        "key_manifest_values": {
+          "field": 17,
+          "num_constraints": 2,
+          "witness": [
+            1,
+            3,
+            4,
+            12,
+            15
+          ],
+          "satisfied": true
+        }
+      },
+      "stage4": {
+        "verified": true,
+        "claims_checked": 3,
+        "scene_values_drift": "[]",
+        "adversarial_findings": [
+          {
+            "finding": "Risk of treating a passing random check as certainty.",
+            "resolution": "Draft language distinguishes deterministic acceptance on true instances from bounded error on false ones wherever randomness appears.",
+            "status": "resolved"
+          },
+          {
+            "finding": "Risk of notation drifting away from computed example values.",
+            "resolution": "Numeric claims in prose were checked against the Sage output and overlapping scene values.",
+            "status": "resolved"
+          }
+        ]
+      },
+      "stage5": {
+        "levels": [
+          "recall",
+          "apply",
+          "transfer",
+          "rediscover"
+        ]
+      },
+      "gates": {
+        "draft_lint": "CLEAN",
+        "schemas": {
+          "concept_brief": "VALID",
+          "stuck_points": "VALID",
+          "accuracy_report": "VALID",
+          "comprehension_set": "VALID",
+          "bundle": "VALID"
+        },
+        "scorecard": "PASS"
+      },
+      "problems": [],
+      "opinion": {
+        "draft_quality_self_assessment": "Clear and aligned with Ch 6/10; the worked witness makes the matrix notation less brittle.",
+        "skill_friction": "R1CS graph output was large but useful; summarization rather than full inclusion was necessary.",
+        "weakest_part": "The draft names QAP but does not derive it, because that belongs to Ch 10 proper."
+      }
+    }
+  ],
+  "batch_summary": {
+    "completed": 5,
+    "partial": 0,
+    "blocked": 0,
+    "all_gates_pass": true,
+    "cross_cutting_problems": [
+      "Exact graphify labels were unreliable for finite fields, Lagrange interpolation, and Freivalds; the resolver and chapter bible carried those dependencies.",
+      "The draft lint only checks a short banned-word list; it does not enforce most of the 11 draft-quality rules."
+    ],
+    "skill_enhancement_recommendations": [
+      {
+        "target": "references/dependency-protocol.md",
+        "change": "Specify what to do when graphify exact-label queries return homonyms, broad unrelated neighborhoods, or no node.",
+        "rationale": "The current instruction says to fold in the subgraph but gives no standard for rejecting or quarantining bad graph matches.",
+        "priority": "high"
+      },
+      {
+        "target": "scripts/draft_lint.py",
+        "change": "Add checks for the enforceable parts of draft-quality.md, especially list-heavy sidebars, repeated derivations, and missing Check yourself heading.",
+        "rationale": "The scorecard/lint combination can pass drafts that violate several editorial rules.",
+        "priority": "med"
+      },
+      {
+        "target": "references/pipeline.md",
+        "change": "Require a standard scene-values extraction command and standard animation copy target.",
+        "rationale": "The manim validation and render path are underspecified, which creates avoidable per-agent variance.",
+        "priority": "med"
+      }
+    ],
+    "overall_opinion": "The skill can produce useful math drafts, but book-grade quality still depends heavily on the drafter. Its single biggest weakness is that the automated gates mostly validate artifact shape and method flags, not prose quality or dependency truth. The one change that would most improve it is a stronger dependency/graph protocol that can distinguish correct graph evidence from homonym or no-match results before drafting."
+  }
+}
