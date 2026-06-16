@@ -7,7 +7,7 @@ description: Use when drafting a mathematical concept explanation for the "Provi
 
 Turn "explain <concept>" into book-ready material that executes the **Sanderson + Tao** method. Run the six stages in order; do not skip the Stage 6 gate.
 
-**Load first:** `references/sanderson-moves.md` and `references/tao-staging.md` (the method rubric), then `references/pipeline.md`.
+**Load first:** `references/sanderson-moves.md` and `references/tao-staging.md` (the method rubric), then `references/pipeline.md` and `references/draft-quality.md` (the reader-experience rules the editorial panel enforces).
 
 ## The pipeline
 
@@ -16,7 +16,7 @@ Turn "explain <concept>" into book-ready material that executes the **Sanderson 
 - **Stage 3 — Multimodal explanation.** Tao's three phases with Sanderson moves inside (`references/pipeline.md`). Produce figures with `scripts/run_sage.py <recipe.sage>`; validate any animation values with `scripts/manim_render.py`.
 - **Stage 4 — Factual-accuracy verification.** Follow `references/accuracy-protocol.md`; reach verified == true.
 - **Stage 5 — Comprehension checks.** Recall (pre), apply (rigorous), transfer (post), and a "re-derive it" task; each with an answer key and on-miss route to a prerequisite.
-- **Stage 6 — Assembly & gate.** Assemble the bundle (embedding the Stage-4 `accuracy_report` and Stage-5 `comprehension_set`), write `bundle.json`, run `scripts/scorecard.py bundle.json`. The scorecard binds its accuracy/comprehension checks to those embedded artifacts (validated by `scripts/schemas.py`), so a self-asserted flag cannot pass. Ship only on PASS.
+- **Stage 6 — Assembly & gate.** Assemble the bundle (embedding the Stage-4 `accuracy_report` and Stage-5 `comprehension_set`), write `bundle.json`, run `scripts/scorecard.py bundle.json`. The scorecard binds its accuracy/comprehension checks to those embedded artifacts (validated by `scripts/schemas.py`), so a self-asserted flag cannot pass. Also write `draft.md` per `references/draft-quality.md` and run `scripts/draft_lint.py draft.md` (must report CLEAN — no pipeline/QA vocabulary in reader prose). Ship only when the scorecard PASSes and the draft lints CLEAN.
 
 ## Method rubric (enforced by the Stage 6 scorecard)
 

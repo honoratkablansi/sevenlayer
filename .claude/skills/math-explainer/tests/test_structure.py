@@ -24,7 +24,7 @@ def test_method_cards_exist_and_have_content():
     assert "destroy bad intuition" in t.lower()
 
 def test_reference_docs_exist():
-    for name in ("dependency-protocol.md", "accuracy-protocol.md", "pipeline.md"):
+    for name in ("dependency-protocol.md", "accuracy-protocol.md", "pipeline.md", "draft-quality.md"):
         p = SKILL / "references" / name
         assert p.exists() and p.read_text(encoding="utf-8").strip(), f"empty/missing: {name}"
 

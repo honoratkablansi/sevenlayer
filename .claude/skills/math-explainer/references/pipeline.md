@@ -4,7 +4,7 @@
 
 **Stage 2 — Stuck-point prediction.** From the concept_brief prerequisites + Tao's "dumb questions" + known misconceptions, list where the reader trips and which bad intuitions the rigorous phase must destroy. Produces stuck_points = { misconceptions[], dumb_questions[], bad_intuitions_to_kill[] }.
 
-**Stage 3 — Multimodal explanation.** Tao's three phases with Sanderson moves inside (see `sanderson-moves.md`, `tao-staging.md`):
+**Stage 3 — Multimodal explanation.** Tao's three phases with Sanderson moves inside (see `sanderson-moves.md`, `tao-staging.md`), written to `references/draft-quality.md` (teach load-bearing terms inline, gloss notation at first use, name facts correctly with one line of intuition, prose over lists/tables, one home per derivation, math precision):
 - Pre-rigorous: concrete hook/story → lead with the Sage figure (run a recipe via `run_sage.py`) and/or a manim scene → motivate the definition → minimal notation → a "you could have invented this" prompt.
 - Rigorous: earn the formal definition/theorem/proof; explicitly destroy each Stage-2 bad intuition.
 - Post-rigorous: rebuild intuition on rigor; pair every picture with its formal statement; land the "aha".
@@ -13,6 +13,6 @@
 
 **Stage 5 — Comprehension checks.** Generate a recall (pre), an apply (rigorous), a transfer/"why inevitable" (post) item, plus a Sanderson "re-derive it" task. Each targets a Stage-2 stuck-point and a learning objective, with an answer key and an on-miss route back to a Stage-1 prerequisite.
 
-**Stage 6 — Assembly & gate.** Assemble prose + figures + "Math you'll need" sidebar + "rediscover-it" box + comprehension set + met→locked spiral pointers into a bundle, write `bundle.json`, then run `scripts/scorecard.py bundle.json`. Ship only on PASS; otherwise return to the failing stage.
+**Stage 6 — Assembly & gate.** Assemble prose + figures + "Math you'll need" sidebar + "rediscover-it" box + comprehension set + met→locked spiral pointers into a bundle, write `bundle.json`, then run `scripts/scorecard.py bundle.json`. Also write `draft.md` per `references/draft-quality.md` and run `scripts/draft_lint.py draft.md` — it must report CLEAN (no pipeline/QA vocabulary or machine headings in reader prose; end on a forward beat, not a verification footer). Ship only when the scorecard PASSes and the draft lints CLEAN; otherwise return to the failing stage.
 
 The bundle is **evidence-bearing, not self-attested**: it embeds the Stage-4 `accuracy_report` (with the Sage `sage_manifest`) and the Stage-5 `comprehension_set` (items with answer keys and on-miss routes). `scripts/schemas.py` defines a validator for every artifact (`concept_brief`, `stuck_points`, `explanation`, `accuracy_report`, `comprehension_set`, `bundle`) — run `python scripts/schemas.py <artifact> <file.json>` to check one, or rely on the scorecard, whose `accuracy_verified` check requires a well-formed `accuracy_report` with `verified == true` and a Sage manifest, and whose comprehension checks require a well-formed `comprehension_set` covering all four levels. A bare `"accuracy_verified": true` flag no longer passes the gate.
