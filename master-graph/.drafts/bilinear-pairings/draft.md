@@ -20,7 +20,7 @@
 > - **Bilinear** means linear in each input separately, which forces the one identity everything rests on: `e(aP, bQ) = e(P, Q)^{ab}` — scaling the inputs by `a` and `b` multiplies the hidden exponent by `a·b`.
 > - Write `F_q` for a finite field with `q` elements and `F_{q^k}` for its degree-`k` extension; the **embedding degree** `k` is the size of extension you must climb to before `G_T` appears.
 >
-> *Carried in from Ch 9:* the polynomial-commitment interface (commit / open / verify) that pairings are about to *build*. *From Ch 2/3:* the sealed-envelope and Powers-of-Tau picture — pairings are the mechanism that turns `g^{p(τ)}` into a checkable commitment. The slogan you've met but not yet earned: a pairing is *"a bilinear multiplication you can do on hidden exponents."* Here we earn it.
+> *Carried in from Ch 9:* the polynomial-commitment interface (commit / open / verify) that pairings are about to *build*. *From Ch 2:* the sealed-envelope picture, and *from Ch 3:* Powers-of-Tau — pairings are the mechanism that turns `g^{p(τ)}` into a checkable commitment. The slogan you've met but not yet earned: a pairing is *"a bilinear multiplication you can do on hidden exponents."* Here we earn it.
 
 ---
 
