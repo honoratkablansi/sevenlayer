@@ -7,7 +7,7 @@
 
 *Figure — the order-1019 subgroup of (ℤ/2039ℤ)\* drawn as a clock. Green `g = 9` and purple `h = 726` are the two public generators; red `C = g⁴²·h⁸⁰⁰ = 71` is the commitment; the blue points are the hiding orbit `{ Com(42, r) : r ∈ {0,1,800,17,999} } = {1641, 590, 71, 143, 834}` — the same message, smeared across the group by the randomness.*
 
-> **Animation:** [`animations/pedersen-commitment.mp4`](animations/pedersen-commitment.mp4) — first **hiding**: with the message `m = 42` fixed, the randomness `r` is swept and the committed point walks all around the group (it is uniform over the whole ring); then **binding**: for a fixed `(m, r)` the commitment is the single point `C = 71`, and a second opening to a different message would reveal `logₘ(h)` — the discrete log. The displayed values (`p = 2039`, `q = 1019`, `g = 9`, `h = 726`, `m = 42`, `r = 800`, `C = 71`) are the ones we compute below.
+> **Animation:** [`animations/pedersen-commitment.mp4`](animations/pedersen-commitment.mp4) — first **hiding**: with the message `m = 42` fixed, the randomness `r` is swept and the committed point walks all around the group (it is uniform over the whole ring); then **binding**: for a fixed `(m, r)` the commitment is the single point `C = 71`, and a second opening to a different message would reveal `log_g(h)` — the discrete log. The displayed values (`p = 2039`, `q = 1019`, `g = 9`, `h = 726`, `m = 42`, `r = 800`, `C = 71`) are the ones we compute below.
 
 ---
 
@@ -15,7 +15,7 @@
 > The facts you'll need, one sentence each:
 > - **A cyclic group and its generator.** A *group* is a set with one associative operation (here, multiplication mod `p`) that has an identity and inverses; it is *cyclic* when a single element `g` — a *generator* — produces every element as a power `g, g², g³, …`. Ours is the set of order-1019 powers inside `(ℤ/pℤ)*`.
 > - **The group order.** The *order* of the group is how many elements it has; we write it `q`. When `q` is prime — as it is here, `q = 1019` — *every* non-identity element is a generator, which is why both `g` and `h` below are generators. (We pick a **safe prime** `p = 2q + 1 = 2039` precisely so this prime-order subgroup exists.)
-> - **The discrete-logarithm (DLog) problem.** Given a generator `g` and an element `h = gᵃ`, finding the exponent `a` is the *discrete log* of `h` base `g`, written `logₘ(h)`. The **DLog assumption** is the bet that in our group no efficient computation can recover `a`. This single bet is what binding rests on.
+> - **The discrete-logarithm (DLog) problem.** Given a generator `g` and an element `h = gᵃ`, finding the exponent `a` is the *discrete log* of `h` base `g`, written `log_g(h)`. The **DLog assumption** is the bet that in our group no efficient computation can recover `a`. This single bet is what binding rests on.
 > - **Hiding.** A commitment *hides* if the committed value `C` reveals nothing about the message inside it — the same `C` could have come from any message.
 > - **Binding.** A commitment *binds* if you cannot, after the fact, open `C` to a message different from the one you committed to.
 >
@@ -39,7 +39,7 @@ One picture, both promises: a die that smears the message everywhere (hiding) ye
 
 ## Rigorous — earn the two properties
 
-Work in a cyclic group of **prime order `q`** — concretely the order-`q = 1019` subgroup of `(ℤ/pℤ)*` for the safe prime `p = 2039`, so every non-identity element generates. Fix two generators `g` and `h`; crucially, `h = gᵃ` for some `a = logₘ(h)` that **nobody knows**. The **Pedersen commitment** to a message `m ∈ ℤ/qℤ` with randomness `r ∈ ℤ/qℤ` is
+Work in a cyclic group of **prime order `q`** — concretely the order-`q = 1019` subgroup of `(ℤ/pℤ)*` for the safe prime `p = 2039`, so every non-identity element generates. Fix two generators `g` and `h`; crucially, `h = gᵃ` for some `a = log_g(h)` that **nobody knows**. The **Pedersen commitment** to a message `m ∈ ℤ/qℤ` with randomness `r ∈ ℤ/qℤ` is
 
 > **`C = Com(m, r) = gᵐ · hʳ`** — the message goes into the exponent of the first generator, the secret die into the exponent of the second, and the two are multiplied in the group.
 
@@ -47,19 +47,19 @@ Work in a cyclic group of **prime order `q`** — concretely the order-`q = 1019
 
 **Binding is computational — it holds exactly as hard as discrete log.** Suppose an adversary outputs two valid openings `(m, r) ≠ (m′, r′)` of the same `C`. Then `gᵐ hʳ = gᵐ′ hʳ′`, so `g^{m−m′} = h^{r′−r}`, and taking the discrete log of both sides gives
 
-> **`logₘ(h) = a = (m − m′)·(r′ − r)⁻¹ (mod q)`**  (and `r′ ≠ r` whenever `m ≠ m′`, so the inverse exists).
+> **`log_g(h) = a = (m − m′)·(r′ − r)⁻¹ (mod q)`**  (and `r′ ≠ r` whenever `m ≠ m′`, so the inverse exists).
 
 Producing two openings is *exactly* solving the discrete log of `h` base `g`. Under the DLog assumption no efficient adversary can, so binding holds against *bounded* adversaries only — it is computational, not perfect.
 
-That same pair of facts dismantles the tempting bad intuitions. It is false that `gᵐ` leaks `m`: the blinding factor `hʳ` smears `C` uniformly over the whole group, so `C` is independent of `m`. It is false that hiding rests on DLog the way binding does: hiding is a *counting* fact that uses no assumption, while only binding leans on the hardness bet. It is false that `g` and `h` are arbitrary: their *unknown relative log* `a` **is** the binding security, because anyone who knew `a` could open any `C` to any message. And it is false that "only computational" means weak: an attacker who broke binding would have solved discrete log, the chapter's whole hardness bet.
+That same pair of facts dismantles the tempting bad intuitions. Start with the one that matters most: `g` and `h` are not an arbitrary pair of marks. Their *unknown relative log* `a` **is** the binding security itself — anyone who knew `a` could open any `C` to any message at will, so the whole guarantee lives in the secrecy of that one number. Worry next about the message leaking from the exponent. It does not: the blinding factor `hʳ` smears `C` uniformly across the entire group, leaving `C` independent of `m`. Notice, too, that the two properties do not rest on the same foundation. Hiding is a *counting* fact and asks for no assumption at all; only binding leans on the hardness bet. And do not mistake "merely computational" for "weak" — to break binding is to have already solved discrete log, the very hardness bet this chapter stands on.
 
-For our concrete group: `g = 9`, `h = 726`, `m = 42`, `r = 800` give `C = 71`. The alternate opening `m′ = 100` forces `r′ = 800 + (42−100)·571⁻¹ (mod 1019) = 186`, and `g¹⁰⁰ · h¹⁸⁶ = 71 = C` — the same point, a different message, which is perfect hiding made concrete. Feeding those two openings to the extractor returns `a = (42−100)·(186−800)⁻¹ (mod 1019) = 571 = logₘ(h)` — binding collapsing onto discrete log made concrete.
+For our concrete group: `g = 9`, `h = 726`, `m = 42`, `r = 800` give `C = 71`. The alternate opening `m′ = 100` forces `r′ = 800 + (42−100)·571⁻¹ (mod 1019) = 186`, and `g¹⁰⁰ · h¹⁸⁶ = 71 = C` — the same point, a different message, which is perfect hiding made concrete. Feeding those two openings to the extractor returns `a = (42−100)·(186−800)⁻¹ (mod 1019) = 571 = log_g(h)` — binding collapsing onto discrete log made concrete.
 
 > **Note (which property is unconditional).** Hiding is **perfect** — proved by counting, no assumption, safe against an unbounded adversary. Binding is **computational** — it reduces to discrete log. You cannot make *both* perfect for one group element: the very alternate opening that proves perfect hiding is what an all-powerful adversary would use to break binding.
 
 ## Post-rigorous — both halves at once
 
-Rebuild the intuition on the rigor. The clock that "smears the message everywhere" **is** the bijection `r ↦ gᵐ · hʳ` onto the whole group — perfect hiding is just the statement that this map is a uniform shuffle, which needs no assumption. The "single point per `(m, r)`, and you can't fake a second die" **is** the extractor: a second opening hands you `logₘ(h)`, which the DLog assumption says you cannot have. Our marks make both vivid at once — `g⁴²·h⁸⁰⁰ = 71` and `g¹⁰⁰·h¹⁸⁶ = 71` are the same point reached by two messages (hiding), and the extractor run on those two openings returns `logₘ(h) = 571` (binding).
+Rebuild the intuition on the rigor. The clock that "smears the message everywhere" **is** the bijection `r ↦ gᵐ · hʳ` onto the whole group — perfect hiding is just the statement that this map is a uniform shuffle, which needs no assumption. The "single point per `(m, r)`, and you can't fake a second die" **is** the extractor: a second opening hands you `log_g(h)`, which the DLog assumption says you cannot have. Our marks make both vivid at once — `g⁴²·h⁸⁰⁰ = 71` and `g¹⁰⁰·h¹⁸⁶ = 71` are the same point reached by two messages (hiding), and the extractor run on those two openings returns `log_g(h) = 571` (binding).
 
 So the asymmetry is now **inevitable** rather than arbitrary: hiding is unconditional because it is a counting fact about a finite group, while binding is conditional because it is a hardness fact about that same group. One promise is free; the other is a bet — and a single sealed point cannot make both unbreakable, since the alternate opening that guarantees perfect hiding is precisely the lever an unbounded adversary would pull against binding. You could have invented all of this yourself: wanting a seal that reveals nothing yet cannot be reopened, and holding a group with a generator `g` and a second element `h` whose log you don't know, you would publish `C = gᵐ · hʳ` — hiding by counting, binding by the algebra of two openings — and you would have arrived at Pedersen.
 
@@ -74,15 +74,15 @@ This is the construction that finally builds Ch 2's sealed envelope — and it i
 > *If you miss this →* revisit **the discrete-logarithm assumption** (given `g` and `h = gᵃ`, recovering `a` is infeasible).
 
 **Apply.** In the order-1019 subgroup of `(ℤ/2039ℤ)*` with `g = 9`, `h = 726`, you publish `C = g⁴²·h⁸⁰⁰ = 71`. Does `C` leak the message `m = 42`? Exhibit a different message `m′ = 100` that the same `C` also opens to, and give the randomness `r′`.
-> *Answer:* `C` does not leak `m`: for the fixed message, `r ↦ g⁴²·hʳ` is a bijection onto all 1019 group elements, so `C = 71` is uniform and independent of `m`. The same `C = 71` opens to `m′ = 100` with `r′ = r + (m − m′)·a⁻¹ (mod 1019)`, where `a = logₘ(h) = 571`; this gives `r′ = 186`, and `g¹⁰⁰·h¹⁸⁶ ≡ 71 (mod 2039)`.
+> *Answer:* `C` does not leak `m`: for the fixed message, `r ↦ g⁴²·hʳ` is a bijection onto all 1019 group elements, so `C = 71` is uniform and independent of `m`. The same `C = 71` opens to `m′ = 100` with `r′ = r + (m − m′)·a⁻¹ (mod 1019)`, where `a = log_g(h) = 571`; this gives `r′ = 186`, and `g¹⁰⁰·h¹⁸⁶ ≡ 71 (mod 2039)`.
 > *If you miss this →* revisit **modular arithmetic and modular inverses in `ℤ/pℤ` and `ℤ/qℤ`**.
 
 **Transfer.** Suppose an adversary produces two valid openings `(m, r)` and `(m′, r′)` of the **same** commitment `C` with `m ≠ m′`. What have they necessarily computed, and what does this say about the assumption binding rests on — and why is hiding *not* in the same boat?
-> *Answer:* From `gᵐhʳ = gᵐ′hʳ′` you get `g^{m−m′} = h^{r′−r}`, hence `logₘ(h) = (m − m′)·(r′ − r)⁻¹ (mod q)`. Two openings force the discrete log of `h` base `g`: breaking binding == solving DLog, which is why binding is only computational. Hiding is different — proved by counting (`r ↦ Com(m,r)` is uniform), needs no assumption, and holds even against an unbounded adversary, so it is perfect.
+> *Answer:* From `gᵐhʳ = gᵐ′hʳ′` you get `g^{m−m′} = h^{r′−r}`, hence `log_g(h) = (m − m′)·(r′ − r)⁻¹ (mod q)`. Two openings force the discrete log of `h` base `g`: breaking binding == solving DLog, which is why binding is only computational. Hiding is different — proved by counting (`r ↦ Com(m,r)` is uniform), needs no assumption, and holds even against an unbounded adversary, so it is perfect.
 > *If you miss this →* revisit **the discrete-logarithm assumption**.
 
 **Rediscover.** You want to seal a number `m` so that the seal reveals nothing yet cannot be reopened to a different `m`. You have a prime-order group with generator `g` and may publish a second element `h` whose discrete log base `g` you do not know. Derive a commitment from scratch and argue both properties.
-> *Answer:* Publish `C = gᵐ · hʳ` for fresh random `r`. **Hiding:** for fixed `m`, `hʳ` is uniform over the whole group, so `C` is uniform and independent of `m` (no assumption). **Binding:** two openings give `g^{m−m′} = h^{r′−r}`, so you'd know `logₘ(h)`; nobody does. That is the Pedersen commitment.
+> *Answer:* Publish `C = gᵐ · hʳ` for fresh random `r`. **Hiding:** for fixed `m`, `hʳ` is uniform over the whole group, so `C` is uniform and independent of `m` (no assumption). **Binding:** two openings give `g^{m−m′} = h^{r′−r}`, so you'd know `log_g(h)`; nobody does. That is the Pedersen commitment.
 > *If you miss this →* revisit **prime-order groups** (every non-identity element is a generator; safe primes `p = 2q + 1`).
 
 ---
