@@ -1,0 +1,25 @@
+{
+  "concept": "R1CS as `Az o Bz = Cz` (Hadamard form)",
+  "stratum": "Linear algebra *(constraint systems)*",
+  "first_needed": "Ch 6 (I), Ch 10 (R)",
+  "depth": "I->R",
+  "target_depth": "rigorous",
+  "prerequisites": [
+    "matrices",
+    "fields"
+  ],
+  "assumed_background": [
+    "Ch 6 assumes compiled circuits, witnesses, polynomial constraints, finite-set arithmetic, and the soundness promise.",
+    "Ch 10 assumes Ch 7 Lagrange/vanishing machinery and Ch 9 proof-system interfaces, with R1CS feeding the QAP route."
+  ],
+  "learning_objectives": [
+    "Define R1CS as rows of rank-1 constraints `(A_i z) * (B_i z) = C_i z`.",
+    "Explain the witness vector, including the leading constant 1.",
+    "Verify a concrete two-row R1CS instance over F_17.",
+    "Connect R1CS to arithmetization in Ch 6 and QAP/Groth16 in Ch 10."
+  ],
+  "graphify_subgraph": {
+    "query": "graphify query \"R1CS\"",
+    "interpretation": "The subgraph placed R1CS in the Layer 4 arithmetization community with AIR, PLONKish, CCS, Groth16, sum-check, and folding descendants."
+  }
+}

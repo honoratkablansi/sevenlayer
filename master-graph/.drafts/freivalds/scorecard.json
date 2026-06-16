@@ -1,0 +1,56 @@
+{
+  "concept": "Freivalds' algorithm",
+  "passed": true,
+  "checks": [
+    {
+      "id": "led_with_visual",
+      "ok": true,
+      "msg": "Pre-rigorous phase must open with a visual (Sanderson #1)."
+    },
+    {
+      "id": "concrete_before_abstract",
+      "ok": true,
+      "msg": "A concrete mode must precede the formal mode (Sanderson #2)."
+    },
+    {
+      "id": "motivated_before_defined",
+      "ok": true,
+      "msg": "Motivation must precede the formal definition (Sanderson #4)."
+    },
+    {
+      "id": "notation_earned",
+      "ok": true,
+      "msg": "No formal notation in the pre-rigorous phase (Sanderson #7)."
+    },
+    {
+      "id": "staged_pre_rigorous_to_post",
+      "ok": true,
+      "msg": "All three Tao phases must be present and non-empty."
+    },
+    {
+      "id": "heuristic_rigorous_pairing",
+      "ok": true,
+      "msg": "Each heuristic must be paired with a non-empty rigorous counterpart (Tao Maxim 2)."
+    },
+    {
+      "id": "stuck_points_addressed",
+      "ok": true,
+      "msg": "At least one stuck-point must be predicted (Stage 2) and all addressed; missing: []."
+    },
+    {
+      "id": "accuracy_verified",
+      "ok": true,
+      "msg": "Stage 4 accuracy_report must be well-formed (Sage manifest + claims) and verified == true."
+    },
+    {
+      "id": "comprehension_three_levels",
+      "ok": true,
+      "msg": "Comprehension set must be well-formed and cover recall/apply/transfer + rediscovery."
+    },
+    {
+      "id": "rediscovery_prompt",
+      "ok": true,
+      "msg": "A 'you could have invented this' rediscovery task is required (Sanderson #10)."
+    }
+  ]
+}

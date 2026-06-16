@@ -1,0 +1,30 @@
+[
+  {
+    "level": "recall",
+    "question": "What is a Reed-Solomon codeword?",
+    "answer_key": "It is a list of evaluations of a low-degree message polynomial on a chosen domain.",
+    "targets_stuck_point": "redundancy as copying",
+    "on_miss_route_to": "polynomial evaluation"
+  },
+  {
+    "level": "apply",
+    "question": "For p(x)=3+5x+2x^2 over F_17, what is p(2)?",
+    "answer_key": "It is 4.",
+    "targets_stuck_point": "finite-field evaluation",
+    "on_miss_route_to": "modular arithmetic"
+  },
+  {
+    "level": "transfer",
+    "question": "Why do two different dimension-k messages differ in at least n-k+1 positions?",
+    "answer_key": "Their difference has degree at most k-1, so it has at most k-1 roots and can agree in at most that many positions.",
+    "targets_stuck_point": "distance from low degree",
+    "on_miss_route_to": "root-count fact"
+  },
+  {
+    "level": "rediscover",
+    "question": "How would you make a short message hard to fake at many sampled positions?",
+    "answer_key": "View it as a low-degree polynomial and evaluate it at many points.",
+    "targets_stuck_point": "Reed-Solomon construction",
+    "on_miss_route_to": "interpolation"
+  }
+]

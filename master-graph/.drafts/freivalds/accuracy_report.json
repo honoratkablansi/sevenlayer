@@ -1,0 +1,125 @@
+{
+  "concept": "Freivalds' algorithm",
+  "claims": [
+    {
+      "claim": "For the displayed bad product, A(Br) and Cr differ.",
+      "source": "sage_manifest.left_vector / right_vector",
+      "status": "verified",
+      "evidence": "left = [37, 88]; right = [44, 88]."
+    },
+    {
+      "claim": "The sample vector r is [7,11] over F_101.",
+      "source": "sage_manifest.sample_r",
+      "status": "verified",
+      "evidence": "sample_r = [7, 11]."
+    },
+    {
+      "claim": "The one-round failure bound in this field is at most 1/101.",
+      "source": "finite-field linear-form proof + sage_manifest.failure_bound_den",
+      "status": "verified",
+      "evidence": "failure_bound_num = 1; failure_bound_den = 101."
+    }
+  ],
+  "sage_manifest": {
+    "figure": "assets/figures/freivalds.svg",
+    "field": 101,
+    "matrix_size": 2,
+    "A": [
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "B": [
+      [
+        2,
+        0
+      ],
+      [
+        1,
+        5
+      ]
+    ],
+    "true_C": [
+      [
+        4,
+        10
+      ],
+      [
+        10,
+        20
+      ]
+    ],
+    "claimed_C": [
+      [
+        5,
+        10
+      ],
+      [
+        10,
+        20
+      ]
+    ],
+    "sample_r": [
+      7,
+      11
+    ],
+    "left_vector": [
+      37,
+      88
+    ],
+    "right_vector": [
+      44,
+      88
+    ],
+    "catches_error": true,
+    "failure_bound_num": 1,
+    "failure_bound_den": 101
+  },
+  "scene_value_check": {
+    "tool": "scripts/manim_render.validate_scene_values",
+    "scene_values": {
+      "field": 101,
+      "matrix_size": 2,
+      "sample_r": [
+        7,
+        11
+      ],
+      "left_vector": [
+        37,
+        88
+      ],
+      "right_vector": [
+        44,
+        88
+      ],
+      "catches_error": true,
+      "failure_bound_num": 1,
+      "failure_bound_den": 101
+    },
+    "result": [],
+    "note": "Empty list means every overlapping displayed value matched the Sage-produced manifest."
+  },
+  "ledger_refs": [
+    "MATH_FOUNDATIONS row: **Freivalds' algorithm** (verify a matrix product with a random vector) first needed Ch 7.",
+    "CHAPTER_BIBLE Ch 7: prerequisite and role lines used for assumed background.",
+    "Graphify: graphify query \"Freivalds' algorithm\"."
+  ],
+  "adversarial_findings": [
+    {
+      "finding": "Risk of treating a passing random check as certainty.",
+      "resolution": "Draft language distinguishes deterministic acceptance on true instances from bounded error on false ones wherever randomness appears.",
+      "status": "resolved"
+    },
+    {
+      "finding": "Risk of notation drifting away from computed example values.",
+      "resolution": "Numeric claims in prose were checked against the Sage output and overlapping scene values.",
+      "status": "resolved"
+    }
+  ],
+  "verified": true
+}

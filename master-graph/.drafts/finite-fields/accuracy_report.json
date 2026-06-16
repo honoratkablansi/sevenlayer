@@ -1,0 +1,71 @@
+{
+  "concept": "Finite fields",
+  "claims": [
+    {
+      "claim": "The field used in the figure is F_17.",
+      "source": "sage_manifest.field",
+      "status": "verified",
+      "evidence": "field = 17."
+    },
+    {
+      "claim": "14 + 5 = 2 in F_17.",
+      "source": "sage_manifest.add_result",
+      "status": "verified",
+      "evidence": "add_result = 2."
+    },
+    {
+      "claim": "5 * 7 = 1 in F_17 and 7 is the inverse of 5.",
+      "source": "sage_manifest.mul_result / inverse_value",
+      "status": "verified",
+      "evidence": "mul_result = 1; inverse_value = 7."
+    }
+  ],
+  "sage_manifest": {
+    "figure": "assets/figures/finite-fields.svg",
+    "field": 17,
+    "modulus": 17,
+    "add_a": 14,
+    "add_b": 5,
+    "add_result": 2,
+    "mul_a": 5,
+    "mul_b": 7,
+    "mul_result": 1,
+    "inverse_of": 5,
+    "inverse_value": 7
+  },
+  "scene_value_check": {
+    "tool": "scripts/manim_render.validate_scene_values",
+    "scene_values": {
+      "field": 17,
+      "modulus": 17,
+      "add_a": 14,
+      "add_b": 5,
+      "add_result": 2,
+      "mul_a": 5,
+      "mul_b": 7,
+      "mul_result": 1,
+      "inverse_of": 5,
+      "inverse_value": 7
+    },
+    "result": [],
+    "note": "Empty list means every overlapping displayed value matched the Sage-produced manifest."
+  },
+  "ledger_refs": [
+    "MATH_FOUNDATIONS row: **Finite fields** `F_p` (field axioms, arithmetic mod p) first needed Ch 6 (I), Ch 7 (R).",
+    "CHAPTER_BIBLE Ch 6/7: prerequisite and role lines used for assumed background.",
+    "Graphify: graphify query \"Finite fields\"."
+  ],
+  "adversarial_findings": [
+    {
+      "finding": "Risk of treating a passing random check as certainty.",
+      "resolution": "Draft language distinguishes deterministic acceptance on true instances from bounded error on false ones wherever randomness appears.",
+      "status": "resolved"
+    },
+    {
+      "finding": "Risk of notation drifting away from computed example values.",
+      "resolution": "Numeric claims in prose were checked against the Sage output and overlapping scene values.",
+      "status": "resolved"
+    }
+  ],
+  "verified": true
+}

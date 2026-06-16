@@ -1,0 +1,97 @@
+{
+  "concept": "Lagrange interpolation",
+  "claims": [
+    {
+      "claim": "The three pinned points are (1,4), (2,1), and (4,16) over F_17.",
+      "source": "sage_manifest.points",
+      "status": "verified",
+      "evidence": "points = [[1, 4], [2, 1], [4, 16]]."
+    },
+    {
+      "claim": "The interpolating polynomial has coefficients [14,12,12].",
+      "source": "sage_manifest.polynomial_coefficients",
+      "status": "verified",
+      "evidence": "coefficients = [14, 12, 12]."
+    },
+    {
+      "claim": "The polynomial evaluates to 6 at x=7.",
+      "source": "sage_manifest.value_at_7",
+      "status": "verified",
+      "evidence": "value_at_7 = 6."
+    }
+  ],
+  "sage_manifest": {
+    "figure": "assets/figures/lagrange-interpolation.svg",
+    "field": 17,
+    "point_count": 3,
+    "degree_bound": 2,
+    "points": [
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        4,
+        16
+      ]
+    ],
+    "polynomial_coefficients": [
+      14,
+      12,
+      12
+    ],
+    "value_at_7": 6
+  },
+  "scene_value_check": {
+    "tool": "scripts/manim_render.validate_scene_values",
+    "scene_values": {
+      "field": 17,
+      "point_count": 3,
+      "degree_bound": 2,
+      "points": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          4,
+          16
+        ]
+      ],
+      "polynomial_coefficients": [
+        14,
+        12,
+        12
+      ],
+      "value_at_7": 6
+    },
+    "result": [],
+    "note": "Empty list means every overlapping displayed value matched the Sage-produced manifest."
+  },
+  "ledger_refs": [
+    "MATH_FOUNDATIONS row: **Lagrange interpolation**; the low-degree extension (LDE) first needed Ch 7.",
+    "CHAPTER_BIBLE Ch 7: prerequisite and role lines used for assumed background.",
+    "Graphify: graphify query \"Lagrange interpolation\"."
+  ],
+  "adversarial_findings": [
+    {
+      "finding": "Risk of treating a passing random check as certainty.",
+      "resolution": "Draft language distinguishes deterministic acceptance on true instances from bounded error on false ones wherever randomness appears.",
+      "status": "resolved"
+    },
+    {
+      "finding": "Risk of notation drifting away from computed example values.",
+      "resolution": "Numeric claims in prose were checked against the Sage output and overlapping scene values.",
+      "status": "resolved"
+    }
+  ],
+  "verified": true
+}

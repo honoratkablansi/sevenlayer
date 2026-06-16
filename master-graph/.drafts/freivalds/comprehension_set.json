@@ -1,0 +1,30 @@
+[
+  {
+    "level": "recall",
+    "question": "What equality does Freivalds test?",
+    "answer_key": "It tests A(Br) = Cr for a random vector r.",
+    "targets_stuck_point": "test shape",
+    "on_miss_route_to": "matrix-vector multiplication"
+  },
+  {
+    "level": "apply",
+    "question": "If A(Br)=[37,88] and Cr=[44,88], what follows?",
+    "answer_key": "The claimed product is false, because a true product would give equal vectors.",
+    "targets_stuck_point": "passing versus failing trial",
+    "on_miss_route_to": "associativity"
+  },
+  {
+    "level": "transfer",
+    "question": "Why is the failure probability at most 1/|F|?",
+    "answer_key": "A nonzero row of the error matrix gives a nonzero linear equation in r, and at most one value of one coordinate can satisfy it after the others are fixed.",
+    "targets_stuck_point": "randomness as magic",
+    "on_miss_route_to": "linear equations over fields"
+  },
+  {
+    "level": "rediscover",
+    "question": "How would you cheaply check AB=C without forming AB?",
+    "answer_key": "Choose random r and compare A(Br) with Cr.",
+    "targets_stuck_point": "random shadow idea",
+    "on_miss_route_to": "associativity of matrix multiplication"
+  }
+]

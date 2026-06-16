@@ -1,0 +1,24 @@
+{
+  "concept": "**Lagrange interpolation**; the low-degree extension (LDE)",
+  "stratum": "Algebra I: fields & univariate polynomials *(the engine's substrate)*",
+  "first_needed": "Ch 7",
+  "depth": "R",
+  "target_depth": "rigorous",
+  "prerequisites": [
+    "polynomials"
+  ],
+  "assumed_background": [
+    "Ch 7 assumes finite fields, polynomial degree, roots, evaluation, basic probability, and vector spaces over fields.",
+    "Ch 6 has already made computation-as-table and polynomial constraints feel necessary."
+  ],
+  "learning_objectives": [
+    "Explain that k distinct x-values determine a unique polynomial of degree at most k-1.",
+    "Use the Lagrange basis polynomials L_i(x) and gloss the notation at first use.",
+    "Compute the concrete F_17 example through three points and evaluate the resulting polynomial.",
+    "Connect interpolation to low-degree extensions, selectors, and later PLONK/QAP machinery."
+  ],
+  "graphify_subgraph": {
+    "query": "graphify query \"Lagrange interpolation\"",
+    "interpretation": "The exact query matched the Lagrange company/product neighborhood rather than the mathematical interpolation node, so it added no reliable math dependencies."
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "figure": "assets/figures/freivalds.svg",
+  "field": 101,
+  "matrix_size": 2,
+  "A": [
+    [
+      1,
+      2
+    ],
+    [
+      3,
+      4
+    ]
+  ],
+  "B": [
+    [
+      2,
+      0
+    ],
+    [
+      1,
+      5
+    ]
+  ],
+  "true_C": [
+    [
+      4,
+      10
+    ],
+    [
+      10,
+      20
+    ]
+  ],
+  "claimed_C": [
+    [
+      5,
+      10
+    ],
+    [
+      10,
+      20
+    ]
+  ],
+  "sample_r": [
+    7,
+    11
+  ],
+  "left_vector": [
+    37,
+    88
+  ],
+  "right_vector": [
+    44,
+    88
+  ],
+  "catches_error": true,
+  "failure_bound_num": 1,
+  "failure_bound_den": 101
+}

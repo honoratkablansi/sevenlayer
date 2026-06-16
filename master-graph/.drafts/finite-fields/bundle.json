@@ -1,0 +1,151 @@
+{
+  "concept": "Finite fields",
+  "slug": "finite-fields",
+  "chapter": "Ch 7",
+  "stratum": "Algebra I: fields & univariate polynomials *(the engine's substrate)*",
+  "target_depth": "rigorous",
+  "phases": {
+    "pre_rigorous": "- the clock that never breaks\n\nStart with a 17-hour clock. If the hand points at `14` and you move it forward `5` ticks, it does not fall off the dial. It lands on `2`. That is not an approximation to 19; it is the exact answer once the clock is the world.\n\nThe more surprising move is multiplication. On this clock, `5 * 7` also lands on `1`. That makes `7` the number that undoes multiplication by `5`. The field has kept the familiar arithmetic feeling - add, subtract, multiply, divide - while forcing every answer to stay on a finite dial.\n\nYou could have invented the need for this. A verifier wants to choose a random challenge from a set it can count, and the algebra still needs division so polynomials behave. A finite field gives both: a finite number of choices and a clean arithmetic system.",
+    "rigorous": "- what the word field buys\n\nFor a prime number `p`, `F_p` is the set of residues `0, 1, ..., p-1` with arithmetic done modulo `p` - every sum and product wrapped back into `0..p-1`, and `p` taken prime precisely so that division by any nonzero value works. The notation `F_p` means \"the field with `p` elements,\" and `|F|` denotes that count of elements. In `F_17`, `14 + 5 = 19`, and `19` has remainder `2` after division by 17, so `14 + 5 = 2` in the field.\n\nThe key field requirement is division by every nonzero element. To divide by `a`, you multiply by a value `a^{-1}`, read \"the inverse of `a`,\" such that `a * a^{-1} = 1`. In `F_17`, the inverse of `5` is `7` because `5 * 7 = 35`, and `35` leaves remainder `1` modulo 17.\n\nPrimality matters. Modulo 15, the nonzero values `3` and `5` multiply to `0`, so neither can have an inverse: if `3` had an inverse, multiplying `3 * 5 = 0` by it would say `5 = 0`. That contradiction is why a composite clock may be a ring but not a field. A prime clock has no such zero divisors, so every nonzero value can be undone.\n\nWrapping is not rounding. Equal residues are exactly equal, not approximately so, so nothing has been thrown away when `19` becomes `2`. Nor is division here the decimal division of school arithmetic; to divide is simply to multiply by the inverse that lands you back on `1`. And the word \"finite\" carries no demotion: a finite field is no less mathematical than the rationals. What its finiteness buys is a real denominator for every later probability - `|F|`, the count of elements in the field.",
+    "post_rigorous": "- the stage under the whole engine\n\nOnce the field is in place, polynomials become countable objects. A low-degree polynomial over `F_17` can be evaluated at exactly 17 possible inputs, and a random challenge can mean \"choose each field element with probability `1/17`.\" That is the measure this chapter needs when it says a bad polynomial is caught except on a small fraction of points.\n\nFinite fields are also the reason arithmetization can bind a computation without leaving algebra. The Sudoku constraints of Ch 6, the interpolation step that follows here, and the proof systems of Ch 10 all need multiplication and division to stay inside the same world. The clock is small in the picture, but the idea is large: make arithmetic finite without letting it become sloppy."
+  },
+  "modes_order": [
+    "visual",
+    "analogy",
+    "worked_example",
+    "formal",
+    "synthesis"
+  ],
+  "led_with_visual": true,
+  "motivated_before_defined": true,
+  "notation_in_pre_rigorous": false,
+  "heuristic_rigorous_pairs": [
+    [
+      "A clock wraps without breaking.",
+      "F_p performs exact arithmetic modulo a prime p."
+    ],
+    [
+      "Division means finding the tick that undoes multiplication.",
+      "Every nonzero element of a field has a multiplicative inverse."
+    ],
+    [
+      "A finite dial gives countable random choices.",
+      "Uniform random choice over F has denominator |F|."
+    ]
+  ],
+  "stuck_points_predicted": [
+    "Modular arithmetic is approximate because numbers wrap around.",
+    "Division in F_p works like ordinary fractions with decimals.",
+    "Any modulus gives a field.",
+    "Finite fields are just a notation trick, not a mathematical setting."
+  ],
+  "stuck_points_addressed": [
+    "Modular arithmetic is approximate because numbers wrap around.",
+    "Division in F_p works like ordinary fractions with decimals.",
+    "Any modulus gives a field.",
+    "Finite fields are just a notation trick, not a mathematical setting."
+  ],
+  "figure_ref": "figures/finite-fields.svg",
+  "animation_ref": "animations/finite-fields.mp4",
+  "accuracy_report": {
+    "concept": "Finite fields",
+    "claims": [
+      {
+        "claim": "The field used in the figure is F_17.",
+        "source": "sage_manifest.field",
+        "status": "verified",
+        "evidence": "field = 17."
+      },
+      {
+        "claim": "14 + 5 = 2 in F_17.",
+        "source": "sage_manifest.add_result",
+        "status": "verified",
+        "evidence": "add_result = 2."
+      },
+      {
+        "claim": "5 * 7 = 1 in F_17 and 7 is the inverse of 5.",
+        "source": "sage_manifest.mul_result / inverse_value",
+        "status": "verified",
+        "evidence": "mul_result = 1; inverse_value = 7."
+      }
+    ],
+    "sage_manifest": {
+      "figure": "assets/figures/finite-fields.svg",
+      "field": 17,
+      "modulus": 17,
+      "add_a": 14,
+      "add_b": 5,
+      "add_result": 2,
+      "mul_a": 5,
+      "mul_b": 7,
+      "mul_result": 1,
+      "inverse_of": 5,
+      "inverse_value": 7
+    },
+    "scene_value_check": {
+      "tool": "scripts/manim_render.validate_scene_values",
+      "scene_values": {
+        "field": 17,
+        "modulus": 17,
+        "add_a": 14,
+        "add_b": 5,
+        "add_result": 2,
+        "mul_a": 5,
+        "mul_b": 7,
+        "mul_result": 1,
+        "inverse_of": 5,
+        "inverse_value": 7
+      },
+      "result": [],
+      "note": "Empty list means every overlapping displayed value matched the Sage-produced manifest."
+    },
+    "ledger_refs": [
+      "MATH_FOUNDATIONS row: **Finite fields** `F_p` (field axioms, arithmetic mod p) first needed Ch 6 (I), Ch 7 (R).",
+      "CHAPTER_BIBLE Ch 6/7: prerequisite and role lines used for assumed background.",
+      "Graphify: graphify query \"Finite fields\"."
+    ],
+    "adversarial_findings": [
+      {
+        "finding": "Risk of treating a passing random check as certainty.",
+        "resolution": "Draft language distinguishes deterministic acceptance on true instances from bounded error on false ones wherever randomness appears.",
+        "status": "resolved"
+      },
+      {
+        "finding": "Risk of notation drifting away from computed example values.",
+        "resolution": "Numeric claims in prose were checked against the Sage output and overlapping scene values.",
+        "status": "resolved"
+      }
+    ],
+    "verified": true
+  },
+  "comprehension_set": [
+    {
+      "level": "recall",
+      "question": "What does it mean for 7 to be the inverse of 5 in F_17?",
+      "answer_key": "It means 5 * 7 = 1 in F_17, so multiplying by 7 undoes multiplying by 5.",
+      "targets_stuck_point": "division as inverses",
+      "on_miss_route_to": "finite-field inverses"
+    },
+    {
+      "level": "apply",
+      "question": "Compute 14 + 5 in F_17.",
+      "answer_key": "It is 2, since 19 leaves remainder 2 modulo 17.",
+      "targets_stuck_point": "wrapping as exact arithmetic",
+      "on_miss_route_to": "modular arithmetic"
+    },
+    {
+      "level": "transfer",
+      "question": "Why do finite fields give soundness arguments a denominator?",
+      "answer_key": "Because a random challenge is chosen from |F| equally likely field elements, so bad points can be counted as a fraction of |F|.",
+      "targets_stuck_point": "field size as probability denominator",
+      "on_miss_route_to": "basic probability over finite sets"
+    },
+    {
+      "level": "rediscover",
+      "question": "If you need finite random challenges and division by nonzero values, what kind of arithmetic system are you asking for?",
+      "answer_key": "A finite field: a finite set closed under the usual arithmetic operations, including division by nonzero elements.",
+      "targets_stuck_point": "finite field as needed structure",
+      "on_miss_route_to": "field axioms"
+    }
+  ]
+}

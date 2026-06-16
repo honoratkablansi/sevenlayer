@@ -1,0 +1,35 @@
+{
+  "misconceptions": [
+    {
+      "claim": "Reed-Solomon just repeats the message with extra copies.",
+      "why_tempting": "Error-correcting codes are often introduced as redundancy, so the polynomial structure can disappear.",
+      "severity": "high"
+    },
+    {
+      "claim": "A longer codeword makes cheating harder only because there are more places to check.",
+      "why_tempting": "Sampling more positions is intuitive, but the real guarantee comes from the low-degree agreement bound.",
+      "severity": "medium"
+    },
+    {
+      "claim": "A few agreeing positions mean two encoded messages are probably the same.",
+      "why_tempting": "Local agreement feels persuasive before the distance bound is internalized.",
+      "severity": "medium"
+    },
+    {
+      "claim": "Reed-Solomon belongs only to storage, not proof systems.",
+      "why_tempting": "The coding-theory origin hides its later role as the proximity object inside FRI.",
+      "severity": "medium"
+    }
+  ],
+  "dumb_questions": [
+    "Where did the extra symbols come from?",
+    "Why evaluate the polynomial instead of sending coefficients directly?",
+    "How many positions can two different messages agree on?",
+    "What does distance have to do with a random spot-check?"
+  ],
+  "bad_intuitions_to_kill": [
+    "Redundancy is copying; replace with evaluation of one low-degree polynomial at many points.",
+    "Distance is a vague robustness word; replace with a count of positions where two codewords must differ.",
+    "Reed-Solomon is separate from ZK; replace with FRI and low-degree proximity as the downstream role."
+  ]
+}

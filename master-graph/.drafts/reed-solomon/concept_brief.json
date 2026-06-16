@@ -1,0 +1,25 @@
+{
+  "concept": "Reed-Solomon encoding / fingerprinting",
+  "stratum": "Algebra I: fields & univariate polynomials *(the engine's substrate)*",
+  "first_needed": "Ch 7",
+  "depth": "R",
+  "target_depth": "rigorous",
+  "prerequisites": [
+    "polynomials",
+    "fields"
+  ],
+  "assumed_background": [
+    "Ch 7 assumes finite-field arithmetic, polynomial degree, roots, and evaluation.",
+    "Lagrange interpolation has explained how values and low-degree polynomials determine one another under a degree promise."
+  ],
+  "learning_objectives": [
+    "Describe Reed-Solomon encoding as evaluating a low-degree message polynomial on many field points.",
+    "Compute a concrete F_17 codeword from message coefficients.",
+    "Explain distance: two degree-<k polynomials agree on at most k-1 evaluation points.",
+    "Connect Reed-Solomon fingerprinting to low-degree testing, FRI, and polynomial commitments."
+  ],
+  "graphify_subgraph": {
+    "query": "graphify query \"Reed-Solomon encoding\"",
+    "interpretation": "The query landed in the encoding/performance and FRI neighborhoods, tying Reed-Solomon proximity to STARK/FRI and the Layer 4 arithmetization path."
+  }
+}

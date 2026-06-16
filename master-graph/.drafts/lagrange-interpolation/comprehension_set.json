@@ -1,0 +1,30 @@
+[
+  {
+    "level": "recall",
+    "question": "What is a Lagrange basis polynomial L_i designed to do?",
+    "answer_key": "It is 1 at its own pinned input and 0 at the other pinned inputs.",
+    "targets_stuck_point": "basis formula as arbitrary",
+    "on_miss_route_to": "Lagrange switch polynomials"
+  },
+  {
+    "level": "apply",
+    "question": "How large a degree is needed to interpolate three distinct pinned x-values?",
+    "answer_key": "Degree at most 2.",
+    "targets_stuck_point": "degree bound",
+    "on_miss_route_to": "polynomial degree"
+  },
+  {
+    "level": "transfer",
+    "question": "Why does interpolation matter for low-degree extensions?",
+    "answer_key": "It turns table values on a domain into the unique low-degree polynomial that agrees there.",
+    "targets_stuck_point": "interpolation as proof of honesty",
+    "on_miss_route_to": "low-degree extension"
+  },
+  {
+    "level": "rediscover",
+    "question": "How would you build a polynomial that vanishes at every peg except one?",
+    "answer_key": "Multiply factors for the other pegs and normalize by its value at the chosen peg.",
+    "targets_stuck_point": "basis construction",
+    "on_miss_route_to": "finite-field division"
+  }
+]

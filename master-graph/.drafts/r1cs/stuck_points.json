@@ -1,0 +1,35 @@
+{
+  "misconceptions": [
+    {
+      "claim": "R1CS is the program itself.",
+      "why_tempting": "The constraints are produced from a program and can feel like source code in another notation.",
+      "severity": "high"
+    },
+    {
+      "claim": "Each row can express any complicated computation.",
+      "why_tempting": "Matrix rows look broad, but the rank-1 product shape is deliberately narrow.",
+      "severity": "medium"
+    },
+    {
+      "claim": "The witness is only the private input.",
+      "why_tempting": "ZK language often says witness for the secret, while R1CS also includes intermediate wires.",
+      "severity": "high"
+    },
+    {
+      "claim": "If every multiplication is checked, wiring automatically matches.",
+      "why_tempting": "A satisfied row feels local and complete, hiding copy-constraint and under-constraint risks.",
+      "severity": "high"
+    }
+  ],
+  "dumb_questions": [
+    "Why is there a leading 1 in the witness vector?",
+    "What are A, B, and C actually selecting?",
+    "Why rank 1?",
+    "Where do intermediate variables live?"
+  ],
+  "bad_intuitions_to_kill": [
+    "R1CS is a program; replace with a relation the witness must satisfy.",
+    "The witness is only secret inputs; replace with all wires, public values, constants, and intermediates.",
+    "Local equations imply correct wiring; replace with the need for all constraints and later copy-binding machinery."
+  ]
+}

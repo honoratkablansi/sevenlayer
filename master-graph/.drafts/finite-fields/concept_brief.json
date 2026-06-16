@@ -1,0 +1,24 @@
+{
+  "concept": "**Finite fields** `F_p` (field axioms, arithmetic mod p)",
+  "stratum": "Algebra I: fields & univariate polynomials *(the engine's substrate)*",
+  "first_needed": "Ch 6 (I), Ch 7 (R)",
+  "depth": "I->R",
+  "target_depth": "rigorous",
+  "prerequisites": [
+    "modular arithmetic"
+  ],
+  "assumed_background": [
+    "Ch 6 assumes modular arithmetic at clock-arithmetic intuition depth, plus polynomial evaluation and degree.",
+    "Ch 7 assumes polynomials over a finite field, roots, basic probability, and the idea that field size gives a denominator for soundness."
+  ],
+  "learning_objectives": [
+    "Explain a prime field F_p as clock arithmetic with addition, subtraction, multiplication, and division by every nonzero value.",
+    "Compute addition, multiplication, and inverses in F_17 and explain why wrapping is exact arithmetic, not rounding.",
+    "State why p must be prime for residues mod p to form a field.",
+    "Connect finite fields to random challenges: a finite set lets the verifier choose uniformly and count bad points."
+  ],
+  "graphify_subgraph": {
+    "query": "graphify query \"Finite fields\"",
+    "interpretation": "The exact query returned finite-field extension and finite-field SMT nodes, which confirmed downstream use of fields but added little to the Ch 6/7 prime-field on-ramp."
+  }
+}

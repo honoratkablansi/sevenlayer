@@ -1,0 +1,35 @@
+{
+  "misconceptions": [
+    {
+      "claim": "Many low-degree curves can pass through the same pinned points.",
+      "why_tempting": "Over the reals, a reader has seen many curves through a few points and may ignore the degree bound.",
+      "severity": "high"
+    },
+    {
+      "claim": "The Lagrange formula is magic symbol manipulation.",
+      "why_tempting": "The basis product looks arbitrary before the reader sees that each basis polynomial acts like an on/off switch.",
+      "severity": "high"
+    },
+    {
+      "claim": "Interpolation recovers missing data for free, even when the degree promise is false.",
+      "why_tempting": "The word interpolation sounds like filling gaps, not enforcing a strict low-degree model.",
+      "severity": "medium"
+    },
+    {
+      "claim": "Division in the basis formula is suspicious in a finite field.",
+      "why_tempting": "The denominators look like ordinary fractions, while finite fields divide by inverses.",
+      "severity": "medium"
+    }
+  ],
+  "dumb_questions": [
+    "Why do three points pin a quadratic but not a cubic?",
+    "What is each L_i(x) trying to do?",
+    "Why do the x-values have to be distinct?",
+    "Where does the finite-field division happen?"
+  ],
+  "bad_intuitions_to_kill": [
+    "Pinned points determine any curve; replace with uniqueness only under a degree bound.",
+    "The basis formula is arbitrary; replace with switch polynomials that are 1 at one peg and 0 at the others.",
+    "Interpolation proves the data is honest; replace with interpolation as encoding under a promised degree."
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "figure": "assets/figures/finite-fields.svg",
+  "field": 17,
+  "modulus": 17,
+  "add_a": 14,
+  "add_b": 5,
+  "add_result": 2,
+  "mul_a": 5,
+  "mul_b": 7,
+  "mul_result": 1,
+  "inverse_of": 5,
+  "inverse_value": 7
+}

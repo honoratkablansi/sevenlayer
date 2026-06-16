@@ -1,0 +1,25 @@
+{
+  "concept": "**Freivalds' algorithm** (verify a matrix product with a random vector)",
+  "stratum": "Linear algebra *(constraint systems)*",
+  "first_needed": "Ch 7",
+  "depth": "R",
+  "target_depth": "rigorous",
+  "prerequisites": [
+    "matrices",
+    "probability"
+  ],
+  "assumed_background": [
+    "Ch 7 assumes basic probability, finite-field arithmetic, and vector spaces over a field.",
+    "The reader has met random challenges as a soundness intuition in Ch 1-2 and table constraints in Ch 6."
+  ],
+  "learning_objectives": [
+    "Explain Freivalds' algorithm as checking AB=C by comparing A(Br) with Cr.",
+    "Compute a concrete bad matrix product caught by a sample vector.",
+    "Prove the one-round failure bound over a finite field is at most 1/|F| for a nonzero error matrix.",
+    "Connect random linear fingerprints to polynomial fingerprints in the rest of Ch 7."
+  ],
+  "graphify_subgraph": {
+    "query": "graphify query \"Freivalds' algorithm\"",
+    "interpretation": "The exact family has no matching graph node; Ch 7's bible explicitly names Freivalds as the opening fingerprint example."
+  }
+}

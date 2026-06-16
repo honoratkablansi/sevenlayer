@@ -1,0 +1,105 @@
+{
+  "concept": "R1CS",
+  "claims": [
+    {
+      "claim": "The witness satisfies two R1CS constraints over F_17.",
+      "source": "sage_manifest.satisfied / num_constraints",
+      "status": "verified",
+      "evidence": "satisfied = True; num_constraints = 2."
+    },
+    {
+      "claim": "Az, Bz, and Cz have the displayed values.",
+      "source": "sage_manifest.Az / Bz / Cz",
+      "status": "verified",
+      "evidence": "Az = [3, 15]; Bz = [4, 1]; Cz = [12, 15]."
+    },
+    {
+      "claim": "Coordinate products equal Cz.",
+      "source": "sage_manifest.products",
+      "status": "verified",
+      "evidence": "products = [12, 15]."
+    }
+  ],
+  "sage_manifest": {
+    "figure": "assets/figures/r1cs.svg",
+    "field": 17,
+    "num_variables": 5,
+    "num_constraints": 2,
+    "witness": [
+      1,
+      3,
+      4,
+      12,
+      15
+    ],
+    "Az": [
+      3,
+      15
+    ],
+    "Bz": [
+      4,
+      1
+    ],
+    "Cz": [
+      12,
+      15
+    ],
+    "products": [
+      12,
+      15
+    ],
+    "satisfied": true
+  },
+  "scene_value_check": {
+    "tool": "scripts/manim_render.validate_scene_values",
+    "scene_values": {
+      "field": 17,
+      "num_variables": 5,
+      "num_constraints": 2,
+      "witness": [
+        1,
+        3,
+        4,
+        12,
+        15
+      ],
+      "Az": [
+        3,
+        15
+      ],
+      "Bz": [
+        4,
+        1
+      ],
+      "Cz": [
+        12,
+        15
+      ],
+      "products": [
+        12,
+        15
+      ],
+      "satisfied": true
+    },
+    "result": [],
+    "note": "Empty list means every overlapping displayed value matched the Sage-produced manifest."
+  },
+  "ledger_refs": [
+    "MATH_FOUNDATIONS row: R1CS as `Az o Bz = Cz` (Hadamard form) first needed Ch 6 (I), Ch 10 (R).",
+    "CHAPTER_BIBLE Ch 6/10: prerequisite and role lines used for assumed background.",
+    "Graphify: graphify query \"R1CS\"."
+  ],
+  "adversarial_findings": [
+    {
+      "finding": "Risk of treating a passing random check as certainty.",
+      "resolution": "Draft language distinguishes deterministic acceptance on true instances from bounded error on false ones wherever randomness appears.",
+      "status": "resolved"
+    },
+    {
+      "finding": "Risk of notation drifting away from computed example values.",
+      "resolution": "Numeric claims in prose were checked against the Sage output and overlapping scene values.",
+      "status": "resolved"
+    }
+  ],
+  "verified": true
+}

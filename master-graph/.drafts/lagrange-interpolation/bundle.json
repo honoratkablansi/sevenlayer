@@ -1,0 +1,177 @@
+{
+  "concept": "Lagrange interpolation",
+  "slug": "lagrange-interpolation",
+  "chapter": "Ch 7",
+  "stratum": "Algebra I: fields & univariate polynomials *(the engine's substrate)*",
+  "target_depth": "rigorous",
+  "phases": {
+    "pre_rigorous": "- pegs before formulas\n\nImagine pushing three pegs into a board. If the thread is allowed to wiggle however it likes, those pegs do not determine much. But if the thread must be a straight line, two pegs are enough. If it must be a quadratic, three pegs are enough. The rule is not \"points determine curves\"; the rule is \"points determine curves once the wiggle budget is fixed.\"\n\nOver `F_17`, our three pegs are `(1,4)`, `(2,1)`, and `(4,16)`. The picture looks dotted because there are only 17 possible x-values, but the same forcing happens. There is exactly one polynomial of degree at most 2 that hits those three values.\n\nYou could have invented Lagrange interpolation by asking for three little switches. The first switch should be 1 at `x = 1` and 0 at the other two pegs; the second should be 1 at `x = 2` and 0 at the others; the third should do the same for `x = 4`. Then you scale the switches by the desired heights and add them.",
+    "rigorous": "- the switch basis\n\nSuppose the pinned inputs are distinct field elements `x_1, ..., x_k`, and the desired values are `y_1, ..., y_k`. For each peg, define\n\n> `L_i(x) = product over j != i of (x - x_j)/(x_i - x_j)`.\n\nHere `L_i` is the ith Lagrange basis polynomial, a switch polynomial. At `x = x_i`, every numerator equals the matching denominator, so `L_i(x_i) = 1`. At any other pinned point `x_j`, one numerator becomes zero, so `L_i(x_j) = 0`.\n\nThe interpolating polynomial is\n\n> `P(x) = y_1 L_1(x) + ... + y_k L_k(x)`.\n\nAt the first peg, all switches are off except `L_1`, so `P(x_1) = y_1`; the same argument holds at every peg. Its degree is at most `k - 1`, because each basis polynomial multiplies together `k - 1` linear factors.\n\nUniqueness is the quiet half of the theorem. If `P` and `Q` are two degree-at-most-`k-1` polynomials through the same `k` pegs, then `P - Q` has `k` roots. A nonzero polynomial of degree at most `k - 1` cannot have that many roots, so `P - Q` must be the zero polynomial. The two candidates were the same all along.\n\nFor the red pegs in the figure, the result is `P(x) = 14 + 12x + 12x^2` over `F_17`, and `P(7) = 6`. Those numbers are not a real-valued curve rounded into a field; every coefficient and evaluation is computed inside `F_17`.",
+    "post_rigorous": "- why the engine keeps using it\n\nLagrange interpolation is the first moment a table becomes a polynomial without losing its pinned values. A verifier can talk about a few table entries, while the proof system talks about one low-degree object that agrees with the table on a chosen domain. That object has a name worth holding onto: the low-degree extension, meaning the original table kept exactly as-is on its home inputs and then carried everywhere else by the single low-degree polynomial that runs through those inputs.\n\nThe bad intuition to leave behind is that interpolation itself proves honesty. It does not. All it guarantees is that if the degree promise is real, the table has one low-degree continuation. What makes lying about that continuation risky are two later checks. The first, named Schwartz-Zippel, catches a cheating prover because a wrong low-degree polynomial agrees with the honest one in only a handful of places, so a single randomly chosen test point almost always lands where the two disagree. The second, called low-degree testing, probes whether the object the prover handed over is even close to being a low-degree polynomial at all, rather than some high-degree impostor dressed up to pass at a few points. Downstream, this same switch-basis idea grows into selector polynomials, which turn a rule on for some rows of a computation and off for others, and vanishing polynomials, which mark exactly the inputs where a constraint must hold; bundled together, they pack a whole computation's worth of constraints into polynomial form, the shape that powers the proof systems of later chapters. So interpolation earns its keep not by proving anything on its own, but by being the lossless bridge that turns a table of values into the one low-degree object every later check is built to interrogate."
+  },
+  "modes_order": [
+    "visual",
+    "analogy",
+    "worked_example",
+    "formal",
+    "synthesis"
+  ],
+  "led_with_visual": true,
+  "motivated_before_defined": true,
+  "notation_in_pre_rigorous": false,
+  "heuristic_rigorous_pairs": [
+    [
+      "Pegs determine a curve only after the wiggle budget is fixed.",
+      "k distinct x-values determine a unique polynomial of degree at most k-1."
+    ],
+    [
+      "Each switch turns on at one peg and off at the rest.",
+      "L_i(x_j)=1 if i=j and 0 otherwise."
+    ],
+    [
+      "A table becomes one low-degree continuation.",
+      "The LDE is the unique low-degree polynomial agreeing on the domain."
+    ]
+  ],
+  "stuck_points_predicted": [
+    "Many low-degree curves can pass through the same pinned points.",
+    "The Lagrange formula is magic symbol manipulation.",
+    "Interpolation recovers missing data for free, even when the degree promise is false.",
+    "Division in the basis formula is suspicious in a finite field."
+  ],
+  "stuck_points_addressed": [
+    "Many low-degree curves can pass through the same pinned points.",
+    "The Lagrange formula is magic symbol manipulation.",
+    "Interpolation recovers missing data for free, even when the degree promise is false.",
+    "Division in the basis formula is suspicious in a finite field."
+  ],
+  "figure_ref": "figures/lagrange-interpolation.svg",
+  "animation_ref": "animations/lagrange-interpolation.mp4",
+  "accuracy_report": {
+    "concept": "Lagrange interpolation",
+    "claims": [
+      {
+        "claim": "The three pinned points are (1,4), (2,1), and (4,16) over F_17.",
+        "source": "sage_manifest.points",
+        "status": "verified",
+        "evidence": "points = [[1, 4], [2, 1], [4, 16]]."
+      },
+      {
+        "claim": "The interpolating polynomial has coefficients [14,12,12].",
+        "source": "sage_manifest.polynomial_coefficients",
+        "status": "verified",
+        "evidence": "coefficients = [14, 12, 12]."
+      },
+      {
+        "claim": "The polynomial evaluates to 6 at x=7.",
+        "source": "sage_manifest.value_at_7",
+        "status": "verified",
+        "evidence": "value_at_7 = 6."
+      }
+    ],
+    "sage_manifest": {
+      "figure": "assets/figures/lagrange-interpolation.svg",
+      "field": 17,
+      "point_count": 3,
+      "degree_bound": 2,
+      "points": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          4,
+          16
+        ]
+      ],
+      "polynomial_coefficients": [
+        14,
+        12,
+        12
+      ],
+      "value_at_7": 6
+    },
+    "scene_value_check": {
+      "tool": "scripts/manim_render.validate_scene_values",
+      "scene_values": {
+        "field": 17,
+        "point_count": 3,
+        "degree_bound": 2,
+        "points": [
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            4,
+            16
+          ]
+        ],
+        "polynomial_coefficients": [
+          14,
+          12,
+          12
+        ],
+        "value_at_7": 6
+      },
+      "result": [],
+      "note": "Empty list means every overlapping displayed value matched the Sage-produced manifest."
+    },
+    "ledger_refs": [
+      "MATH_FOUNDATIONS row: **Lagrange interpolation**; the low-degree extension (LDE) first needed Ch 7.",
+      "CHAPTER_BIBLE Ch 7: prerequisite and role lines used for assumed background.",
+      "Graphify: graphify query \"Lagrange interpolation\"."
+    ],
+    "adversarial_findings": [
+      {
+        "finding": "Risk of treating a passing random check as certainty.",
+        "resolution": "Draft language distinguishes deterministic acceptance on true instances from bounded error on false ones wherever randomness appears.",
+        "status": "resolved"
+      },
+      {
+        "finding": "Risk of notation drifting away from computed example values.",
+        "resolution": "Numeric claims in prose were checked against the Sage output and overlapping scene values.",
+        "status": "resolved"
+      }
+    ],
+    "verified": true
+  },
+  "comprehension_set": [
+    {
+      "level": "recall",
+      "question": "What is a Lagrange basis polynomial L_i designed to do?",
+      "answer_key": "It is 1 at its own pinned input and 0 at the other pinned inputs.",
+      "targets_stuck_point": "basis formula as arbitrary",
+      "on_miss_route_to": "Lagrange switch polynomials"
+    },
+    {
+      "level": "apply",
+      "question": "How large a degree is needed to interpolate three distinct pinned x-values?",
+      "answer_key": "Degree at most 2.",
+      "targets_stuck_point": "degree bound",
+      "on_miss_route_to": "polynomial degree"
+    },
+    {
+      "level": "transfer",
+      "question": "Why does interpolation matter for low-degree extensions?",
+      "answer_key": "It turns table values on a domain into the unique low-degree polynomial that agrees there.",
+      "targets_stuck_point": "interpolation as proof of honesty",
+      "on_miss_route_to": "low-degree extension"
+    },
+    {
+      "level": "rediscover",
+      "question": "How would you build a polynomial that vanishes at every peg except one?",
+      "answer_key": "Multiply factors for the other pegs and normalize by its value at the chosen peg.",
+      "targets_stuck_point": "basis construction",
+      "on_miss_route_to": "finite-field division"
+    }
+  ]
+}

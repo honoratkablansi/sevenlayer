@@ -1,0 +1,30 @@
+[
+  {
+    "level": "recall",
+    "question": "What does it mean for 7 to be the inverse of 5 in F_17?",
+    "answer_key": "It means 5 * 7 = 1 in F_17, so multiplying by 7 undoes multiplying by 5.",
+    "targets_stuck_point": "division as inverses",
+    "on_miss_route_to": "finite-field inverses"
+  },
+  {
+    "level": "apply",
+    "question": "Compute 14 + 5 in F_17.",
+    "answer_key": "It is 2, since 19 leaves remainder 2 modulo 17.",
+    "targets_stuck_point": "wrapping as exact arithmetic",
+    "on_miss_route_to": "modular arithmetic"
+  },
+  {
+    "level": "transfer",
+    "question": "Why do finite fields give soundness arguments a denominator?",
+    "answer_key": "Because a random challenge is chosen from |F| equally likely field elements, so bad points can be counted as a fraction of |F|.",
+    "targets_stuck_point": "field size as probability denominator",
+    "on_miss_route_to": "basic probability over finite sets"
+  },
+  {
+    "level": "rediscover",
+    "question": "If you need finite random challenges and division by nonzero values, what kind of arithmetic system are you asking for?",
+    "answer_key": "A finite field: a finite set closed under the usual arithmetic operations, including division by nonzero elements.",
+    "targets_stuck_point": "finite field as needed structure",
+    "on_miss_route_to": "field axioms"
+  }
+]

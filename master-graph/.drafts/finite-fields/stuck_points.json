@@ -1,0 +1,36 @@
+{
+  "misconceptions": [
+    {
+      "claim": "Modular arithmetic is approximate because numbers wrap around.",
+      "why_tempting": "Wrapping feels like losing information after the clock hand passes 12.",
+      "severity": "high"
+    },
+    {
+      "claim": "Division in F_p works like ordinary fractions with decimals.",
+      "why_tempting": "The word division invites real-number habits, but fields divide by multiplying by inverses.",
+      "severity": "medium"
+    },
+    {
+      "claim": "Any modulus gives a field.",
+      "why_tempting": "Addition and multiplication modulo n always work, so it is easy to miss that division fails when n is composite.",
+      "severity": "high"
+    },
+    {
+      "claim": "Finite fields are just a notation trick, not a mathematical setting.",
+      "why_tempting": "The examples are small clocks, so the reader may underweight the field axioms that later proofs need.",
+      "severity": "medium"
+    }
+  ],
+  "dumb_questions": [
+    "What does it mean to divide by 5 if the only numbers are 0 through 16?",
+    "Why does 14 + 5 become 2 instead of 19?",
+    "Why is mod 17 special while mod 15 is dangerous?",
+    "What does a finite field buy a verifier that the real numbers do not?"
+  ],
+  "bad_intuitions_to_kill": [
+    "Wrapping is rounding or information loss; replace it with exact residue-class arithmetic.",
+    "Division requires decimals; replace it with multiplying by a nonzero inverse.",
+    "Every clock is a field; kill this with the composite-modulus zero-divisor example.",
+    "Field size is decorative; replace it with the denominator in probability bounds."
+  ]
+}

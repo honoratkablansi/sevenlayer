@@ -1,0 +1,205 @@
+{
+  "concept": "Freivalds' algorithm",
+  "slug": "freivalds",
+  "chapter": "Ch 7",
+  "stratum": "Linear algebra *(constraint systems)*",
+  "target_depth": "rigorous",
+  "phases": {
+    "pre_rigorous": "- compare the shadow\n\nSuppose someone hands you three huge matrices and claims `AB = C`. Recomputing `AB` is the expensive thing you were trying to avoid. Freivalds' trick is to cast one random shadow instead.\n\nChoose a random vector `r`. If `AB = C`, then `A(Br)` and `Cr` must be the same vector, because both are just `(AB)r`. If the product is false, the two shadows usually separate. In the figure, the claimed matrix is off by one entry, and the sample vector turns that hidden mistake into the visible mismatch `[37,88]` versus `[44,88]`.\n\nYou could have invented the test from associativity. Matrix multiplication is expensive; matrix-vector multiplication is cheaper. So push the big equality through one random vector and compare the smaller results.",
+    "rigorous": "- the hidden linear equation\n\nLet `A`, `B`, and `C` be `n by n` matrices over a finite field `F`. Freivalds' one-round test chooses `r` uniformly from `F^n`, the set of length-`n` vectors over the field, and accepts if\n\n> `A(Br) = Cr`.\n\nIf `AB = C`, the test always accepts. That is completeness. If `AB != C`, define the nonzero error matrix `E = C - AB`. The test accepts exactly when `Er = 0`, because `Cr - A(Br) = (C - AB)r`.\n\nSince `E` is nonzero, at least one row of `E` is a nonzero vector. The dot product of that row with `r` is a nonzero linear expression in the random coordinates of `r`. Once all but one coordinate are fixed, at most one value of the remaining coordinate can make the expression zero. Because that coordinate has `|F|` equally likely values, the chance is at most `1/|F|`.\n\nFor our example, `F = F_101`. The claimed `C` differs from the true `AB` in the first entry, and `r = [7,11]` catches it. A cheating product can pass one round, but with probability at most `1/101`; repeating independent rounds multiplies the risk down.",
+    "post_rigorous": "- the first fingerprint\n\nFreivalds is Ch 7's doorway because it makes the book's soundness pattern concrete before polynomials enter. A giant claim is compressed to a random small test. If the claim is true, every shadow agrees. If the claim is false, only a small set of shadows can hide it.\n\nThe same rhythm returns in Reed-Solomon and Schwartz-Zippel. The object changes from a matrix product to a polynomial identity, but the shape is the same: turn global disagreement into a random local check with a counted failure set."
+  },
+  "modes_order": [
+    "visual",
+    "analogy",
+    "worked_example",
+    "formal",
+    "synthesis"
+  ],
+  "led_with_visual": true,
+  "motivated_before_defined": true,
+  "notation_in_pre_rigorous": false,
+  "heuristic_rigorous_pairs": [
+    [
+      "A random shadow can expose a bad product.",
+      "If AB != C, then E=C-AB is nonzero and Er=0 with probability at most 1/|F|."
+    ],
+    [
+      "A true product survives every shadow.",
+      "If AB=C, associativity gives A(Br)=(AB)r=Cr for all r."
+    ],
+    [
+      "Repeating the test sharpens confidence.",
+      "Independent rounds multiply the one-round failure probability."
+    ]
+  ],
+  "stuck_points_predicted": [
+    "If A(Br)=Cr for one random r, then AB=C is proved.",
+    "The algorithm works because most random vectors are magically good.",
+    "Freivalds recomputes the product in disguise.",
+    "The error bound is a property of the chosen example only."
+  ],
+  "stuck_points_addressed": [
+    "If A(Br)=Cr for one random r, then AB=C is proved.",
+    "The algorithm works because most random vectors are magically good.",
+    "Freivalds recomputes the product in disguise.",
+    "The error bound is a property of the chosen example only."
+  ],
+  "figure_ref": "figures/freivalds.svg",
+  "animation_ref": "animations/freivalds.mp4",
+  "accuracy_report": {
+    "concept": "Freivalds' algorithm",
+    "claims": [
+      {
+        "claim": "For the displayed bad product, A(Br) and Cr differ.",
+        "source": "sage_manifest.left_vector / right_vector",
+        "status": "verified",
+        "evidence": "left = [37, 88]; right = [44, 88]."
+      },
+      {
+        "claim": "The sample vector r is [7,11] over F_101.",
+        "source": "sage_manifest.sample_r",
+        "status": "verified",
+        "evidence": "sample_r = [7, 11]."
+      },
+      {
+        "claim": "The one-round failure bound in this field is at most 1/101.",
+        "source": "finite-field linear-form proof + sage_manifest.failure_bound_den",
+        "status": "verified",
+        "evidence": "failure_bound_num = 1; failure_bound_den = 101."
+      }
+    ],
+    "sage_manifest": {
+      "figure": "assets/figures/freivalds.svg",
+      "field": 101,
+      "matrix_size": 2,
+      "A": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "B": [
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "true_C": [
+        [
+          4,
+          10
+        ],
+        [
+          10,
+          20
+        ]
+      ],
+      "claimed_C": [
+        [
+          5,
+          10
+        ],
+        [
+          10,
+          20
+        ]
+      ],
+      "sample_r": [
+        7,
+        11
+      ],
+      "left_vector": [
+        37,
+        88
+      ],
+      "right_vector": [
+        44,
+        88
+      ],
+      "catches_error": true,
+      "failure_bound_num": 1,
+      "failure_bound_den": 101
+    },
+    "scene_value_check": {
+      "tool": "scripts/manim_render.validate_scene_values",
+      "scene_values": {
+        "field": 101,
+        "matrix_size": 2,
+        "sample_r": [
+          7,
+          11
+        ],
+        "left_vector": [
+          37,
+          88
+        ],
+        "right_vector": [
+          44,
+          88
+        ],
+        "catches_error": true,
+        "failure_bound_num": 1,
+        "failure_bound_den": 101
+      },
+      "result": [],
+      "note": "Empty list means every overlapping displayed value matched the Sage-produced manifest."
+    },
+    "ledger_refs": [
+      "MATH_FOUNDATIONS row: **Freivalds' algorithm** (verify a matrix product with a random vector) first needed Ch 7.",
+      "CHAPTER_BIBLE Ch 7: prerequisite and role lines used for assumed background.",
+      "Graphify: graphify query \"Freivalds' algorithm\"."
+    ],
+    "adversarial_findings": [
+      {
+        "finding": "Risk of treating a passing random check as certainty.",
+        "resolution": "Draft language distinguishes deterministic acceptance on true instances from bounded error on false ones wherever randomness appears.",
+        "status": "resolved"
+      },
+      {
+        "finding": "Risk of notation drifting away from computed example values.",
+        "resolution": "Numeric claims in prose were checked against the Sage output and overlapping scene values.",
+        "status": "resolved"
+      }
+    ],
+    "verified": true
+  },
+  "comprehension_set": [
+    {
+      "level": "recall",
+      "question": "What equality does Freivalds test?",
+      "answer_key": "It tests A(Br) = Cr for a random vector r.",
+      "targets_stuck_point": "test shape",
+      "on_miss_route_to": "matrix-vector multiplication"
+    },
+    {
+      "level": "apply",
+      "question": "If A(Br)=[37,88] and Cr=[44,88], what follows?",
+      "answer_key": "The claimed product is false, because a true product would give equal vectors.",
+      "targets_stuck_point": "passing versus failing trial",
+      "on_miss_route_to": "associativity"
+    },
+    {
+      "level": "transfer",
+      "question": "Why is the failure probability at most 1/|F|?",
+      "answer_key": "A nonzero row of the error matrix gives a nonzero linear equation in r, and at most one value of one coordinate can satisfy it after the others are fixed.",
+      "targets_stuck_point": "randomness as magic",
+      "on_miss_route_to": "linear equations over fields"
+    },
+    {
+      "level": "rediscover",
+      "question": "How would you cheaply check AB=C without forming AB?",
+      "answer_key": "Choose random r and compare A(Br) with Cr.",
+      "targets_stuck_point": "random shadow idea",
+      "on_miss_route_to": "associativity of matrix multiplication"
+    }
+  ]
+}

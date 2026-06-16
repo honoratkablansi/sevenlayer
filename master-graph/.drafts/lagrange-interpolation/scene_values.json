@@ -1,0 +1,25 @@
+{
+  "field": 17,
+  "point_count": 3,
+  "degree_bound": 2,
+  "points": [
+    [
+      1,
+      4
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      4,
+      16
+    ]
+  ],
+  "polynomial_coefficients": [
+    14,
+    12,
+    12
+  ],
+  "value_at_7": 6
+}

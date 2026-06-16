@@ -1,0 +1,32 @@
+{
+  "figure": "assets/figures/reed-solomon.svg",
+  "field": 17,
+  "message_degree_bound": 2,
+  "dimension": 3,
+  "code_length": 8,
+  "designed_min_distance": 6,
+  "message": [
+    3,
+    5,
+    2
+  ],
+  "codeword": [
+    3,
+    10,
+    4,
+    2,
+    4,
+    10,
+    3,
+    0
+  ],
+  "other_message": [
+    3,
+    6,
+    2
+  ],
+  "agreement_positions": [
+    0
+  ],
+  "realized_distance": 7
+}

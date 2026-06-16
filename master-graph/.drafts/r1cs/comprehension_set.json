@@ -1,0 +1,30 @@
+[
+  {
+    "level": "recall",
+    "question": "What does Az o Bz = Cz mean?",
+    "answer_key": "Each coordinate of Az times the matching coordinate of Bz equals the matching coordinate of Cz.",
+    "targets_stuck_point": "Hadamard product notation",
+    "on_miss_route_to": "coordinate-wise multiplication"
+  },
+  {
+    "level": "apply",
+    "question": "Why does row 1 pass for z=[1,3,4,12,15] when it checks x*y=t?",
+    "answer_key": "It selects x=3, y=4, and t=12, and 3*4=12 in F_17.",
+    "targets_stuck_point": "row selection",
+    "on_miss_route_to": "matrix rows as linear combinations"
+  },
+  {
+    "level": "transfer",
+    "question": "Why is R1CS a relation rather than the program itself?",
+    "answer_key": "It only states equations the witness must satisfy; missing equations can accept invalid program behavior.",
+    "targets_stuck_point": "R1CS as program",
+    "on_miss_route_to": "constraint completeness"
+  },
+  {
+    "level": "rediscover",
+    "question": "What row shape would you choose to encode arithmetic for a proof system?",
+    "answer_key": "Put additions into linear combinations and isolate one multiplication per row: left linear combination times right linear combination equals target linear combination.",
+    "targets_stuck_point": "rank-1 row shape",
+    "on_miss_route_to": "linear combinations"
+  }
+]

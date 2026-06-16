@@ -1,0 +1,35 @@
+{
+  "misconceptions": [
+    {
+      "claim": "If A(Br)=Cr for one random r, then AB=C is proved.",
+      "why_tempting": "The equality looks like the original equation with a vector attached.",
+      "severity": "high"
+    },
+    {
+      "claim": "The algorithm works because most random vectors are magically good.",
+      "why_tempting": "The proof is often stated as probability without showing the nonzero linear equation underneath.",
+      "severity": "medium"
+    },
+    {
+      "claim": "Freivalds recomputes the product in disguise.",
+      "why_tempting": "The expression A(Br) still contains A and B, so it can feel as expensive as AB.",
+      "severity": "medium"
+    },
+    {
+      "claim": "The error bound is a property of the chosen example only.",
+      "why_tempting": "A concrete bad entry makes the proof feel example-specific.",
+      "severity": "medium"
+    }
+  ],
+  "dumb_questions": [
+    "Why multiply by r on the right?",
+    "What is the error matrix?",
+    "If the bad entry is hidden, how can a random vector find it?",
+    "Why does the failure probability become 1 over field size?"
+  ],
+  "bad_intuitions_to_kill": [
+    "One passing trial is certainty; replace with bounded error.",
+    "The algorithm recomputes AB; replace with two matrix-vector products and one vector comparison.",
+    "Randomness is magic; replace with the fact that a nonzero linear form has few zeros."
+  ]
+}

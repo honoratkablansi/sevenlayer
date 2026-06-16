@@ -1,0 +1,19 @@
+{
+  "field": 101,
+  "matrix_size": 2,
+  "sample_r": [
+    7,
+    11
+  ],
+  "left_vector": [
+    37,
+    88
+  ],
+  "right_vector": [
+    44,
+    88
+  ],
+  "catches_error": true,
+  "failure_bound_num": 1,
+  "failure_bound_den": 101
+}

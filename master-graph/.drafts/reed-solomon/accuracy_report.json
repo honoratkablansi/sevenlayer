@@ -1,0 +1,109 @@
+{
+  "concept": "Reed-Solomon encoding",
+  "claims": [
+    {
+      "claim": "The message [3,5,2] evaluates to the displayed length-8 codeword over F_17.",
+      "source": "sage_manifest.codeword",
+      "status": "verified",
+      "evidence": "codeword = [3, 10, 4, 2, 4, 10, 3, 0]."
+    },
+    {
+      "claim": "For n=8 and k=3, the designed minimum distance is 6.",
+      "source": "sage_manifest.designed_min_distance",
+      "status": "verified",
+      "evidence": "designed_min_distance = 6."
+    },
+    {
+      "claim": "The altered message disagrees in 7 of 8 positions in the concrete example.",
+      "source": "sage_manifest.realized_distance",
+      "status": "verified",
+      "evidence": "realized_distance = 7; agreement_positions = [0]."
+    }
+  ],
+  "sage_manifest": {
+    "figure": "assets/figures/reed-solomon.svg",
+    "field": 17,
+    "message_degree_bound": 2,
+    "dimension": 3,
+    "code_length": 8,
+    "designed_min_distance": 6,
+    "message": [
+      3,
+      5,
+      2
+    ],
+    "codeword": [
+      3,
+      10,
+      4,
+      2,
+      4,
+      10,
+      3,
+      0
+    ],
+    "other_message": [
+      3,
+      6,
+      2
+    ],
+    "agreement_positions": [
+      0
+    ],
+    "realized_distance": 7
+  },
+  "scene_value_check": {
+    "tool": "scripts/manim_render.validate_scene_values",
+    "scene_values": {
+      "field": 17,
+      "message_degree_bound": 2,
+      "dimension": 3,
+      "code_length": 8,
+      "designed_min_distance": 6,
+      "message": [
+        3,
+        5,
+        2
+      ],
+      "codeword": [
+        3,
+        10,
+        4,
+        2,
+        4,
+        10,
+        3,
+        0
+      ],
+      "other_message": [
+        3,
+        6,
+        2
+      ],
+      "agreement_positions": [
+        0
+      ],
+      "realized_distance": 7
+    },
+    "result": [],
+    "note": "Empty list means every overlapping displayed value matched the Sage-produced manifest."
+  },
+  "ledger_refs": [
+    "MATH_FOUNDATIONS row: Reed-Solomon encoding / fingerprinting first needed Ch 7.",
+    "CHAPTER_BIBLE Ch 7: prerequisite and role lines used for assumed background.",
+    "Graphify: graphify query \"Reed-Solomon encoding\"."
+  ],
+  "adversarial_findings": [
+    {
+      "finding": "Risk of treating a passing random check as certainty.",
+      "resolution": "Draft language distinguishes deterministic acceptance on true instances from bounded error on false ones wherever randomness appears.",
+      "status": "resolved"
+    },
+    {
+      "finding": "Risk of notation drifting away from computed example values.",
+      "resolution": "Numeric claims in prose were checked against the Sage output and overlapping scene values.",
+      "status": "resolved"
+    }
+  ],
+  "verified": true
+}
